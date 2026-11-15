@@ -2,6 +2,8 @@
 
 Who chaired which IETF working group, research group and similar group, and when.
 
+**Site: https://rjsparks.github.io/preview-role-history/**
+
 The IETF datatracker has dated records of chair changes only from 2012, with partial
 records from late 2011. This repository starts from those records and fills the gaps
 with help from the people who were there. The site built from it has a page for each
@@ -9,7 +11,8 @@ person and each group, so you can check your own record at a glance.
 
 ## Checking your record
 
-1. Open the site (this repository's GitHub Pages) and find your name on the **People** list.
+1. Open the [People list](https://rjsparks.github.io/preview-role-history/people.html) and
+   find your name.
 2. Check that every group you chaired is listed, and that the dates are right. Dates marked
    **?** are uncertain; hover over one to see why.
 3. On each row, choose **This is right** or **Correct this**. To add a group that's missing,
