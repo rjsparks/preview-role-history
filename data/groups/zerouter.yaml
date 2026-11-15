@@ -1,0 +1,19 @@
+acronym: zerouter
+name: Zeroconf Router
+type: wg
+parent: int
+state: conclude
+started: null
+closed: '2003-12-10'
+history_url: https://datatracker.ietf.org/group/zerouter/history/
+chairs:
+- person: 104836
+  name: Aidan Williams
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2003-12-10'
+    end:
+      certainty: group-closed
+      date: '2003-12-10'

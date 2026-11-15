@@ -1,0 +1,29 @@
+acronym: ecn
+name: Explicit Congestion Notification
+type: wg
+parent: tsv
+state: conclude
+started: null
+closed: '2000-06-02'
+history_url: https://datatracker.ietf.org/group/ecn/history/
+chairs:
+- person: 2449
+  name: K. Ramakrishnan
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2000-06-02'
+    end:
+      certainty: group-closed
+      date: '2000-06-02'
+- person: 9777
+  name: Sally Floyd
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2000-06-02'
+    end:
+      certainty: group-closed
+      date: '2000-06-02'

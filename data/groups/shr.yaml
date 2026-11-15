@@ -1,0 +1,20 @@
+acronym: shr
+name: Special Host Requirements
+type: wg
+parent: null
+state: bof-conc
+started: '1990-08-01'
+closed: '1992-04-16'
+history_url: https://datatracker.ietf.org/group/shr/history/
+chairs:
+- person: 2905
+  name: Bob Stewart
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1992-04-16'
+      not_before: '1990-08-01'
+    end:
+      certainty: group-closed
+      date: '1992-04-16'

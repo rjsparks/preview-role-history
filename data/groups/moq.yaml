@@ -1,0 +1,71 @@
+acronym: moq
+name: Media Over QUIC
+type: wg
+parent: wit
+state: active
+started: '2022-02-10'
+closed: null
+history_url: https://datatracker.ietf.org/group/moq/history/
+chairs:
+- person: 104294
+  name: Magnus Westerlund
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-02-11'
+    end:
+      certainty: exact
+      date: '2022-06-16'
+  - start:
+      certainty: exact
+      date: '2024-10-14'
+    end:
+      certainty: ongoing
+- person: 106541
+  name: Martin Duke
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-03-20'
+    end:
+      certainty: ongoing
+- person: 110721
+  name: Ted Hardie
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-06-16'
+    end:
+      certainty: exact
+      date: '2024-03-20'
+  evidence:
+  - kind: WG Review
+    date: '2022-08-15'
+    subject: 'WG Review: Media Over QUIC (moq)'
+    message_id: 166057825186.5490.11335335507566370351@ietfa.amsl.com
+  - kind: WG Action
+    date: '2022-09-08'
+    subject: 'WG Action: Formed Media Over QUIC (moq)'
+    message_id: 166265371878.26415.11066176806588714642@ietfa.amsl.com
+- person: 124381
+  name: Alan Frindell
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-02-11'
+    end:
+      certainty: exact
+      date: '2025-03-20'
+  evidence:
+  - kind: WG Review
+    date: '2022-08-15'
+    subject: 'WG Review: Media Over QUIC (moq)'
+    message_id: 166057825186.5490.11335335507566370351@ietfa.amsl.com
+  - kind: WG Action
+    date: '2022-09-08'
+    subject: 'WG Action: Formed Media Over QUIC (moq)'
+    message_id: 166265371878.26415.11066176806588714642@ietfa.amsl.com

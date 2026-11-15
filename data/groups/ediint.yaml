@@ -1,0 +1,58 @@
+acronym: ediint
+name: Electronic Data Interchange-Internet Integration
+type: wg
+parent: art
+state: active
+started: '1996-05-14'
+closed: null
+history_url: https://datatracker.ietf.org/group/ediint/history/
+chairs:
+- person: 11928
+  name: John Levine
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2026-10-07'
+    end:
+      certainty: ongoing
+- person: 13982
+  name: Rik Drummond
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '1996-05-14'
+    end:
+      certainty: exact
+      date: '2025-11-24'
+- person: 19869
+  name: Marc Blanchet
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2026-01-26'
+    end:
+      certainty: exact
+      date: '2026-10-07'
+  evidence:
+  - kind: WG Action
+    date: '2026-01-26'
+    subject: 'WG Action: Rechartered Electronic Data Interchange-Internet Integration (ediint)'
+    message_id: 176945275097.926604.6539606778899415565@dt-datatracker-77f8b84995-z4hzn
+- person: 132297
+  name: Joe Mandel
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2026-01-26'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Action
+    date: '2026-01-26'
+    subject: 'WG Action: Rechartered Electronic Data Interchange-Internet Integration (ediint)'
+    message_id: 176945275097.926604.6539606778899415565@dt-datatracker-77f8b84995-z4hzn

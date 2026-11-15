@@ -1,0 +1,28 @@
+acronym: httpstate
+name: HTTP State Management Mechanism
+type: wg
+parent: app
+state: conclude
+started: '2009-11-11'
+closed: '2011-05-18'
+history_url: https://datatracker.ietf.org/group/httpstate/history/
+chairs:
+- person: 110898
+  name: Jeff Hodges
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-03-21'
+      not_before: '2009-11-11'
+    end:
+      certainty: group-closed
+      date: '2011-05-18'
+    notes:
+    - start moved earlier by session request for IETF 77
+  evidence:
+  - kind: session requests
+    meetings:
+    - '77'
+    - '78'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

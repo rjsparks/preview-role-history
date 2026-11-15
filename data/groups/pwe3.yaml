@@ -1,0 +1,103 @@
+acronym: pwe3
+name: Pseudowire Emulation Edge to Edge
+type: wg
+parent: rtg
+state: conclude
+started: '2001-03-26'
+closed: '2014-11-20'
+history_url: https://datatracker.ietf.org/group/pwe3/history/
+chairs:
+- person: 2329
+  name: Stewart Bryant
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2005-12-21'
+    end:
+      certainty: evidence-only
+      not_before: '2010-03-21'
+  evidence:
+  - kind: WG Review
+    date: '2005-12-21'
+    subject: 'WG Review: Recharter of Pseudo Wire Emulation Edge to Edge (pwe3)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '72'
+    - '73'
+    - '77'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 3844
+  name: Andy Malis
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2001-03-26'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2014-03-05'
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2014-03-05'
+    end:
+      certainty: group-closed
+      date: '2014-11-20'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-pwe3-cbit-negotiation
+    - draft-ietf-pwe3-iccp
+    - draft-ietf-pwe3-mpls-tp-cv-adv
+    - draft-ietf-pwe3-mspw-er
+    - draft-ietf-pwe3-oam-msg-map
+    - draft-ietf-pwe3-p2mp-pw-requirements
+    - draft-ietf-pwe3-pw-typed-wc-fec
+    - draft-ietf-pwe3-redundancy
+    - draft-ietf-pwe3-redundancy-bit
+    - draft-ietf-pwe3-static-pw-status
+- person: 105786
+  name: Matthew Bocci
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '2001-03-26'
+    end:
+      certainty: group-closed
+      date: '2014-11-20'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '74'
+    - '75'
+    - '76'
+    - '78'
+    - '79'
+    - '80'
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-pwe3-fat-pw
+    - draft-ietf-pwe3-fc-encap
+    - draft-ietf-pwe3-mpls-eth-oam-iwk
+    - draft-ietf-pwe3-mpls-tp-gal-in-pw
+    - draft-ietf-pwe3-packet-pw
+    - draft-ietf-pwe3-pw-vccv-impl-survey-results
+    - draft-ietf-pwe3-vccv-impl-survey-results

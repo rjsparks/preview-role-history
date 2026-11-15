@@ -1,0 +1,20 @@
+acronym: ddniwg
+name: DDN Interconnectivity
+type: wg
+parent: ops
+state: conclude
+started: '1990-08-02'
+closed: '1991-08-02'
+history_url: https://datatracker.ietf.org/group/ddniwg/history/
+chairs:
+- person: 2672
+  name: Kathy Huber
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1991-08-02'
+      not_before: '1990-08-02'
+    end:
+      certainty: group-closed
+      date: '1991-08-02'

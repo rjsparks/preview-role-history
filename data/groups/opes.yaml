@@ -1,0 +1,45 @@
+acronym: opes
+name: Open Pluggable Edge Services
+type: wg
+parent: app
+state: conclude
+started: '2001-05-16'
+closed: '2007-03-17'
+history_url: https://datatracker.ietf.org/group/opes/history/
+chairs:
+- person: 6771
+  name: Tony Hansen
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-11-25'
+      not_before: '2001-05-16'
+    end:
+      certainty: group-closed
+      date: '2007-03-17'
+    notes:
+    - start moved earlier by WG Action announcement of 2004-11-25
+  evidence:
+  - kind: WG Action
+    date: '2004-11-25'
+    subject: 'WG Action: RECHARTER: Open Pluggable Edge Services (opes)'
+    message_id: null
+- person: 104819
+  name: Markus Hofmann
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-11-25'
+      not_before: '2001-05-16'
+    end:
+      certainty: group-closed
+      date: '2007-03-17'
+    notes:
+    - start moved earlier by WG Action announcement of 2004-11-25
+  evidence:
+  - kind: WG Action
+    date: '2004-11-25'
+    subject: 'WG Action: RECHARTER: Open Pluggable Edge Services (opes)'
+    message_id: null

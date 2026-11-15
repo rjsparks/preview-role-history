@@ -1,0 +1,34 @@
+acronym: slim
+name: Selection of Language for Internet Media
+type: wg
+parent: art
+state: conclude
+started: '2015-03-07'
+closed: '2018-10-25'
+history_url: https://datatracker.ietf.org/group/slim/history/
+chairs:
+- person: 12620
+  name: Bernard Aboba
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-09-28'
+    end:
+      certainty: group-closed
+      date: '2018-10-25'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-slim-multilangcontent
+    - draft-ietf-slim-negotiating-human-language
+- person: 120508
+  name: Natasha Rooney
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-10-05'
+    end:
+      certainty: exact
+      date: '2017-11-12'

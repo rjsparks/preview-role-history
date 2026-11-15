@@ -1,0 +1,147 @@
+acronym: jose
+name: Javascript Object Signing and Encryption
+type: wg
+parent: sec
+state: active
+started: '2011-08-18'
+closed: null
+history_url: https://datatracker.ietf.org/group/jose/history/
+chairs:
+- person: 4857
+  name: Karen O'Donoghue
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2012-08-01'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2013-04-16'
+    subject: 'WG Review: Javascript Object Signing and Encryption (jose)'
+    message_id: null
+  - kind: WG Review
+    date: '2022-12-05'
+    subject: 'WG Review: Javascript Object Signing and Encryption (jose)'
+    message_id: 167025176776.7164.7316157460616923450@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-01-26'
+    subject: 'WG Action: Rechartered Javascript Object Signing and Encryption (jose)'
+    message_id: 167476721715.48549.4207803677346440557@ietfa.amsl.com
+  - kind: WG Review
+    date: '2023-12-05'
+    subject: 'WG Review: Javascript Object Signing and Encryption (jose)'
+    message_id: 170181735611.36415.15758124217867977741@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-12-15'
+    subject: 'WG Action: Rechartered Javascript Object Signing and Encryption (jose)'
+    message_id: 170267334990.32472.14847444693700187239@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-jose-deprecate-none-rsa15
+    - draft-ietf-jose-fully-specified-algorithms
+    - draft-ietf-jose-json-web-algorithms
+    - draft-ietf-jose-json-web-encryption
+    - draft-ietf-jose-json-web-key
+    - draft-ietf-jose-json-web-signature
+    - draft-ietf-jose-jwk-thumbprint
+- person: 6771
+  name: Tony Hansen
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-11-13'
+      not_before: '2011-08-18'
+    end:
+      certainty: exact
+      date: '2012-08-01'
+    notes:
+    - start moved earlier by session request for IETF 82
+  evidence:
+  - kind: session requests
+    meetings:
+    - '82'
+    - '83'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 109330
+  name: John Preuß Mattsson
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-01-26'
+    end:
+      certainty: exact
+      date: '2025-11-25'
+  evidence:
+  - kind: WG Review
+    date: '2023-12-05'
+    subject: 'WG Review: Javascript Object Signing and Encryption (jose)'
+    message_id: 170181735611.36415.15758124217867977741@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-12-15'
+    subject: 'WG Action: Rechartered Javascript Object Signing and Encryption (jose)'
+    message_id: 170267334990.32472.14847444693700187239@ietfa.amsl.com
+- person: 110910
+  name: Jim Schaad
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2011-08-18'
+    end:
+      certainty: exact
+      date: '2022-10-25'
+  evidence:
+  - kind: WG Review
+    date: '2013-04-16'
+    subject: 'WG Review: Javascript Object Signing and Encryption (jose)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-jose-cfrg-curves
+    - draft-ietf-jose-cookbook
+    - draft-ietf-jose-jws-signing-input-options
+    - draft-ietf-jose-use-cases
+- person: 112131
+  name: John Bradley
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-10-25'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2022-12-05'
+    subject: 'WG Review: Javascript Object Signing and Encryption (jose)'
+    message_id: 167025176776.7164.7316157460616923450@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-01-26'
+    subject: 'WG Action: Rechartered Javascript Object Signing and Encryption (jose)'
+    message_id: 167476721715.48549.4207803677346440557@ietfa.amsl.com
+  - kind: WG Review
+    date: '2023-12-05'
+    subject: 'WG Review: Javascript Object Signing and Encryption (jose)'
+    message_id: 170181735611.36415.15758124217867977741@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-12-15'
+    subject: 'WG Action: Rechartered Javascript Object Signing and Encryption (jose)'
+    message_id: 170267334990.32472.14847444693700187239@ietfa.amsl.com
+- person: 139514
+  name: Michael P
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-11-25'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-jose-hpke-encrypt

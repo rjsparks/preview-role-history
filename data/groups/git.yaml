@@ -1,0 +1,34 @@
+acronym: git
+name: GitHub Integration and Tooling
+type: wg
+parent: gen
+state: conclude
+started: '2019-01-02'
+closed: '2020-09-10'
+history_url: https://datatracker.ietf.org/group/git/history/
+chairs:
+- person: 10083
+  name: Paul Hoffman
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-01-29'
+    end:
+      certainty: group-closed
+      date: '2020-09-10'
+- person: 121595
+  name: Christopher Wood
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-01-29'
+    end:
+      certainty: group-closed
+      date: '2020-09-10'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-git-github-wg-configuration
+    - draft-ietf-git-using-github

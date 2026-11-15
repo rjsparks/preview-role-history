@@ -1,0 +1,31 @@
+acronym: dnsind
+name: DNS IXFR, Notification, and Dynamic Update
+type: wg
+parent: int
+state: conclude
+started: '1994-05-13'
+closed: '2000-01-26'
+history_url: https://datatracker.ietf.org/group/dnsind/history/
+chairs:
+- person: 3760
+  name: Ólafur Guðmundsson
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2000-01-26'
+      not_before: '1994-05-13'
+    end:
+      certainty: group-closed
+      date: '2000-01-26'
+- person: 5234
+  name: Randy Bush
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2000-01-26'
+      not_before: '1994-05-13'
+    end:
+      certainty: group-closed
+      date: '2000-01-26'

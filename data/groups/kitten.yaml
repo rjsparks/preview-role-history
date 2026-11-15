@@ -1,0 +1,227 @@
+acronym: kitten
+name: Common Authentication Technology Next Generation
+type: wg
+parent: sec
+state: active
+started: '2004-06-10'
+closed: null
+history_url: https://datatracker.ietf.org/group/kitten/history/
+chairs:
+- person: 102141
+  name: Jeffrey Altman
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-07-09'
+    end:
+      certainty: evidence-only
+      not_before: '2006-11-05'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '66'
+    - '67'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 102154
+  name: Alexey Melnikov
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-07-22'
+      not_before: '2004-06-10'
+    end:
+      certainty: exact
+      date: '2012-10-01'
+    notes:
+    - start moved earlier by session request for IETF 69
+  - start:
+      certainty: exact
+      date: '2021-01-11'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Action
+    date: '2011-06-28'
+    subject: 'WG Action: RECHARTER: Common Authentication Technology Next Generation (kitten)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '74'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-kitten-sasl-openid
+    - draft-ietf-kitten-tls-channel-bindings-for-tls13
+- person: 102191
+  name: Taylor Yu
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-07-23'
+      not_before: '2004-06-10'
+    end:
+      certainty: exact
+      date: '2012-10-01'
+    notes:
+    - start moved earlier by WG Action announcement of 2010-07-23
+  evidence:
+  - kind: WG Review
+    date: '2010-07-08'
+    subject: 'WG Review: Recharter of Common Authentication Technology Next Generation (kitten)'
+    message_id: null
+  - kind: WG Action
+    date: '2010-07-23'
+    subject: 'WG Action: RECHARTER: Common Authentication Technology Next Generation (kitten)'
+    message_id: null
+  - kind: WG Action
+    date: '2011-06-28'
+    subject: 'WG Action: RECHARTER: Common Authentication Technology Next Generation (kitten)'
+    message_id: null
+- person: 103048
+  name: Sam Hartman
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2012-10-01'
+    end:
+      certainty: exact
+      date: '2014-07-23'
+  evidence:
+  - kind: WG Review
+    date: '2013-02-12'
+    subject: 'WG Review: Common Authentication Technology Next Generation (kitten)'
+    message_id: null
+- person: 107956
+  name: Shawn Emery
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2008-11-16'
+      not_before: '2004-06-10'
+    end:
+      certainty: exact
+      date: '2014-07-23'
+    notes:
+    - start moved earlier by session request for IETF 73
+  - start:
+      certainty: exact
+      date: '2014-07-24'
+    end:
+      certainty: exact
+      date: '2015-03-27'
+  evidence:
+  - kind: WG Review
+    date: '2010-07-08'
+    subject: 'WG Review: Recharter of Common Authentication Technology Next Generation (kitten)'
+    message_id: null
+  - kind: WG Action
+    date: '2010-07-23'
+    subject: 'WG Action: RECHARTER: Common Authentication Technology Next Generation (kitten)'
+    message_id: null
+  - kind: WG Action
+    date: '2011-06-28'
+    subject: 'WG Action: RECHARTER: Common Authentication Technology Next Generation (kitten)'
+    message_id: null
+  - kind: WG Review
+    date: '2013-02-12'
+    subject: 'WG Review: Common Authentication Technology Next Generation (kitten)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '73'
+    - '75'
+    - '76'
+    - '77'
+    - '78'
+    - '79'
+    - '80'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 111163
+  name: Josh Howlett
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2012-10-01'
+    end:
+      certainty: exact
+      date: '2014-07-24'
+  evidence:
+  - kind: WG Review
+    date: '2013-02-12'
+    subject: 'WG Review: Common Authentication Technology Next Generation (kitten)'
+    message_id: null
+- person: 111178
+  name: Matthew Miller
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-07-23'
+    end:
+      certainty: exact
+      date: '2019-08-28'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-kitten-gss-loop
+- person: 114966
+  name: Roland Dowdeswell
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2018-07-09'
+    end:
+      certainty: exact
+      date: '2019-08-28'
+- person: 115214
+  name: Benjamin Kaduk
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-07-23'
+    end:
+      certainty: exact
+      date: '2018-07-09'
+  - start:
+      certainty: exact
+      date: '2023-05-02'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-kitten-aes-cts-hmac-sha2
+    - draft-ietf-kitten-cammac
+    - draft-ietf-kitten-krb-auth-indicator
+    - draft-ietf-kitten-rfc4402bis
+    - draft-ietf-kitten-sasl-oauth
+    - draft-ietf-krb-wg-cammac
+- person: 124911
+  name: Robbie Harwood
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2018-07-09'
+    end:
+      certainty: exact
+      date: '2022-01-12'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-kitten-pkinit-alg-agility
+    - draft-ietf-kitten-sasl-saml-ec

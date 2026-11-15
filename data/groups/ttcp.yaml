@@ -1,0 +1,19 @@
+acronym: ttcp
+name: Transaction TCP
+type: wg
+parent: tsv
+state: bof-conc
+started: null
+closed: '1997-01-01'
+history_url: https://datatracker.ietf.org/group/ttcp/history/
+chairs:
+- person: 5436
+  name: Robert Braden
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1997-01-01'
+    end:
+      certainty: group-closed
+      date: '1997-01-01'

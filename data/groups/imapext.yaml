@@ -1,0 +1,28 @@
+acronym: imapext
+name: Internet Message Access Protocol Extension
+type: wg
+parent: app
+state: conclude
+started: '1999-10-22'
+closed: '2008-06-16'
+history_url: https://datatracker.ietf.org/group/imapext/history/
+chairs:
+- person: 18321
+  name: Pete Resnick
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '1999-10-22'
+    end:
+      certainty: group-closed
+      date: '2008-06-16'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: session requests
+    meetings:
+    - '65'
+    - '67'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

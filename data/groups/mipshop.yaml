@@ -1,0 +1,87 @@
+acronym: mipshop
+name: 'Mobility for IP: Performance, Signaling and Handoff Optimization'
+type: wg
+parent: int
+state: conclude
+started: '2003-06-10'
+closed: '2010-09-07'
+history_url: https://datatracker.ietf.org/group/mipshop/history/
+chairs:
+- person: 104540
+  name: Stefano Faccin
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '2003-06-10'
+    end:
+      certainty: group-closed
+      date: '2010-09-07'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: WG Review
+    date: '2006-02-21'
+    subject: 'WG Review: Recharter of MIPv6 Signaling and Handoff Optimization (mipshop)'
+    message_id: null
+  - kind: WG Action
+    date: '2007-06-12'
+    subject: 'WG Action: RECHARTER: MIPv6 Signaling and Handoff Optimization (mipshop)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '65'
+    - '67'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 104886
+  name: Vijay Devarapalli
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-03-18'
+      not_before: '2003-06-10'
+    end:
+      certainty: group-closed
+      date: '2010-09-07'
+    notes:
+    - start moved earlier by session request for IETF 68
+  evidence:
+  - kind: WG Action
+    date: '2007-06-12'
+    subject: 'WG Action: RECHARTER: MIPv6 Signaling and Handoff Optimization (mipshop)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 108488
+  name: Gabriel Montenegro
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-02-21'
+    end:
+      certainty: evidence-only
+      not_before: '2006-07-09'
+  evidence:
+  - kind: WG Review
+    date: '2006-02-21'
+    subject: 'WG Review: Recharter of MIPv6 Signaling and Handoff Optimization (mipshop)'
+    message_id: null
+  - kind: WG Action
+    date: '2006-05-31'
+    subject: 'WG Action: RECHARTER: Mobility for IP: Performance, Signaling and Handoff Optimization (mipshop)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '66'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

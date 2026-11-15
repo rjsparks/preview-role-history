@@ -1,0 +1,57 @@
+acronym: dice
+name: DTLS In Constrained Environments
+type: wg
+parent: sec
+state: conclude
+started: '2013-06-20'
+closed: '2016-01-25'
+history_url: https://datatracker.ietf.org/group/dice/history/
+chairs:
+- person: 11843
+  name: Carsten Bormann
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2013-06-20'
+      not_before: '2013-06-20'
+    end:
+      certainty: approximate
+      date: '2013-09-05'
+- person: 106530
+  name: Dorothy Gellert
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2013-09-27'
+    end:
+      certainty: exact
+      date: '2013-09-27'
+  - start:
+      certainty: exact
+      date: '2013-09-27'
+    end:
+      certainty: group-closed
+      date: '2016-01-25'
+- person: 109625
+  name: Zach Shelby
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2013-06-20'
+      not_before: '2013-06-20'
+    end:
+      certainty: approximate
+      date: '2013-09-05'
+  - start:
+      certainty: exact
+      date: '2013-09-27'
+    end:
+      certainty: group-closed
+      date: '2016-01-25'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-dice-profile

@@ -1,0 +1,29 @@
+acronym: prottest
+name: Protocol Testing
+type: wg
+parent: null
+state: bof-conc
+started: null
+closed: '1997-01-01'
+history_url: https://datatracker.ietf.org/group/prottest/history/
+chairs:
+- person: 6970
+  name: Art Mellor
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1997-01-01'
+    end:
+      certainty: group-closed
+      date: '1997-01-01'
+- person: 9501
+  name: Peter Desnoyers
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1997-01-01'
+    end:
+      certainty: group-closed
+      date: '1997-01-01'

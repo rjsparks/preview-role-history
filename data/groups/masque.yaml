@@ -1,0 +1,133 @@
+acronym: masque
+name: Multiplexed Application Substrate over QUIC Encryption
+type: wg
+parent: wit
+state: active
+started: '2020-02-13'
+closed: null
+history_url: https://datatracker.ietf.org/group/masque/history/
+chairs:
+- person: 105721
+  name: Jana Iyengar
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-02-18'
+    end:
+      certainty: exact
+      date: '2020-05-11'
+- person: 121595
+  name: Christopher Wood
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2020-02-13'
+      not_before: '2020-02-13'
+    end:
+      certainty: exact
+      date: '2023-11-14'
+  evidence:
+  - kind: WG Review
+    date: '2020-05-22'
+    subject: 'WG Review: Multiplexed Application Substrate over QUIC Encryption (masque)'
+    message_id: 159017128089.9391.4817163372412075732@ietfa.amsl.com
+  - kind: WG Action
+    date: '2020-06-14'
+    subject: 'WG Action: Formed Multiplexed Application Substrate over QUIC Encryption (masque)'
+    message_id: 159216161966.11870.9061488083423868610@ietfa.amsl.com
+  - kind: WG Review
+    date: '2023-04-20'
+    subject: 'WG Review: Multiplexed Application Substrate over QUIC Encryption (masque)'
+    message_id: 168202750306.62983.10413946119271102282@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-05-05'
+    subject: 'WG Action: Rechartered Multiplexed Application Substrate over QUIC Encryption (masque)'
+    message_id: 168330663172.51031.7904781892459992285@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-masque-connect-ip
+    - draft-ietf-masque-h3-datagram
+- person: 124189
+  name: Marten Seemann
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-02-18'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2026-10-07'
+    subject: 'WG Review: Multiplexed Application Substrate over QUIC Encryption (masque)'
+    message_id: 179138787124.1016.6401985813115129020@dt-datatracker-678f7b55dd-z6pql
+  - kind: WG Action
+    date: '2026-10-22'
+    subject: 'WG Action: Rechartered Multiplexed Application Substrate over QUIC Encryption (masque)'
+    message_id: 179268867486.764417.12208679746191339877@dt-datatracker-7457c9c988-pqlqx
+- person: 124846
+  name: Eric Kinnear
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-04-22'
+    end:
+      certainty: exact
+      date: '2025-07-19'
+  evidence:
+  - kind: WG Review
+    date: '2020-05-22'
+    subject: 'WG Review: Multiplexed Application Substrate over QUIC Encryption (masque)'
+    message_id: 159017128089.9391.4817163372412075732@ietfa.amsl.com
+  - kind: WG Action
+    date: '2020-06-14'
+    subject: 'WG Action: Formed Multiplexed Application Substrate over QUIC Encryption (masque)'
+    message_id: 159216161966.11870.9061488083423868610@ietfa.amsl.com
+  - kind: WG Review
+    date: '2023-04-20'
+    subject: 'WG Review: Multiplexed Application Substrate over QUIC Encryption (masque)'
+    message_id: 168202750306.62983.10413946119271102282@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-05-05'
+    subject: 'WG Action: Rechartered Multiplexed Application Substrate over QUIC Encryption (masque)'
+    message_id: 168330663172.51031.7904781892459992285@ietfa.amsl.com
+  - kind: WG Review
+    date: '2024-02-29'
+    subject: 'WG Review: Multiplexed Application Substrate over QUIC Encryption (masque)'
+    message_id: 170925068026.21559.6324632724076011521@ietfa.amsl.com
+  - kind: WG Action
+    date: '2024-04-04'
+    subject: 'WG Action: Rechartered Multiplexed Application Substrate over QUIC Encryption (masque)'
+    message_id: 171225352777.29843.13999490520880444208@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-masque-connect-udp
+- person: 130357
+  name: Dennis Jackson
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-11-07'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2024-02-29'
+    subject: 'WG Review: Multiplexed Application Substrate over QUIC Encryption (masque)'
+    message_id: 170925068026.21559.6324632724076011521@ietfa.amsl.com
+  - kind: WG Action
+    date: '2024-04-04'
+    subject: 'WG Action: Rechartered Multiplexed Application Substrate over QUIC Encryption (masque)'
+    message_id: 171225352777.29843.13999490520880444208@ietfa.amsl.com
+  - kind: WG Review
+    date: '2026-10-07'
+    subject: 'WG Review: Multiplexed Application Substrate over QUIC Encryption (masque)'
+    message_id: 179138787124.1016.6401985813115129020@dt-datatracker-678f7b55dd-z6pql
+  - kind: WG Action
+    date: '2026-10-22'
+    subject: 'WG Action: Rechartered Multiplexed Application Substrate over QUIC Encryption (masque)'
+    message_id: 179268867486.764417.12208679746191339877@dt-datatracker-7457c9c988-pqlqx

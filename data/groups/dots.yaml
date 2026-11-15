@@ -1,0 +1,85 @@
+acronym: dots
+name: DDoS Open Threat Signaling
+type: wg
+parent: sec
+state: conclude
+started: '2015-02-12'
+closed: '2023-04-12'
+history_url: https://datatracker.ietf.org/group/dots/history/
+chairs:
+- person: 5376
+  name: Russ Housley
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-02-17'
+    end:
+      certainty: exact
+      date: '2015-06-04'
+- person: 103686
+  name: Valery Smyslov
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-03-23'
+    end:
+      certainty: group-closed
+      date: '2023-04-12'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-dots-architecture
+    - draft-ietf-dots-multihoming
+    - draft-ietf-dots-rfc8782-bis
+    - draft-ietf-dots-robust-blocks
+    - draft-ietf-dots-server-discovery
+    - draft-ietf-dots-signal-call-home
+    - draft-ietf-dots-telemetry
+    - draft-ietf-dots-telemetry-use-cases
+    - draft-ietf-dots-use-cases
+- person: 105815
+  name: Roman Danyliw
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-02-17'
+    end:
+      certainty: exact
+      date: '2019-03-23'
+  evidence:
+  - kind: WG Review
+    date: '2015-06-12'
+    subject: 'WG Review: DDoS Open Threat Signaling (dots)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-dots-data-channel
+- person: 106405
+  name: Tobias Gondrom
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-07-16'
+    end:
+      certainty: exact
+      date: '2019-03-23'
+- person: 111620
+  name: Liang Xia
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2018-07-09'
+    end:
+      certainty: group-closed
+      date: '2023-04-12'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-dots-requirements
+    - draft-ietf-dots-signal-channel
+    - draft-ietf-dots-signal-filter-control

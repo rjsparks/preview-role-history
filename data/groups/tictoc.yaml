@@ -1,0 +1,83 @@
+acronym: tictoc
+name: Timing over IP Connection and Transfer of Clock
+type: wg
+parent: int
+state: conclude
+started: '2007-12-17'
+closed: '2025-03-19'
+history_url: https://datatracker.ietf.org/group/tictoc/history/
+chairs:
+- person: 2329
+  name: Stewart Bryant
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2007-12-02'
+    end:
+      certainty: evidence-only
+      not_before: '2010-03-21'
+  evidence:
+  - kind: WG Action
+    date: '2008-03-11'
+    subject: 'WG Action: Timing over IP Connection and Transfer of Clock (tictoc)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '70'
+    - '72'
+    - '73'
+    - '74'
+    - '75'
+    - '77'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 4857
+  name: Karen O'Donoghue
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-11-07'
+      not_before: '2007-12-17'
+    end:
+      certainty: group-closed
+      date: '2025-03-19'
+    notes:
+    - start moved earlier by session request for IETF 79
+  evidence:
+  - kind: session requests
+    meetings:
+    - '79'
+    - '80'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-tictoc-1588overmpls
+    - draft-ietf-tictoc-1588v2-yang
+    - draft-ietf-tictoc-multi-path-synchronization
+    - draft-ietf-tictoc-ptp-mib
+    - draft-ietf-tictoc-security-requirements
+- person: 106414
+  name: Yaakov Stein
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2008-03-11'
+      not_before: '2007-12-17'
+    end:
+      certainty: group-closed
+      date: '2025-03-19'
+    notes:
+    - start moved earlier by WG Action announcement of 2008-03-11
+  evidence:
+  - kind: WG Action
+    date: '2008-03-11'
+    subject: 'WG Action: Timing over IP Connection and Transfer of Clock (tictoc)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '78'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

@@ -1,0 +1,34 @@
+acronym: ifare
+name: IPsec FAilover and REdundancy
+type: wg
+parent: sec
+state: bof-conc
+started: null
+closed: '2007-06-15'
+history_url: https://datatracker.ietf.org/group/ifare/history/
+chairs:
+- person: 10083
+  name: Paul Hoffman
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-06-15'
+    end:
+      certainty: group-closed
+      date: '2007-06-15'
+- person: 107134
+  name: Vidya Narayanan
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-06-15'
+    end:
+      certainty: group-closed
+      date: '2007-06-15'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '69'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

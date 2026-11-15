@@ -1,0 +1,73 @@
+acronym: netvc
+name: Internet Video Codec
+type: wg
+parent: art
+state: conclude
+started: '2014-10-01'
+closed: '2020-03-25'
+history_url: https://datatracker.ietf.org/group/netvc/history/
+chairs:
+- person: 103769
+  name: Adam Roach
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-02-12'
+    end:
+      certainty: approximate
+      date: '2015-04-15'
+  - start:
+      certainty: exact
+      date: '2015-05-18'
+    end:
+      certainty: exact
+      date: '2017-03-28'
+- person: 104557
+  name: Jon Peterson
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-02-12'
+    end:
+      certainty: approximate
+      date: '2015-04-15'
+- person: 111178
+  name: Matthew Miller
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2018-03-23'
+    end:
+      certainty: group-closed
+      date: '2020-03-25'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-netvc-testing
+- person: 116331
+  name: Mo Zanaty
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-05-18'
+    end:
+      certainty: group-closed
+      date: '2020-03-25'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-netvc-requirements
+- person: 120508
+  name: Natasha Rooney
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-03-28'
+    end:
+      certainty: exact
+      date: '2018-05-29'

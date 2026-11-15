@@ -1,0 +1,29 @@
+acronym: sam
+name: SNMP Application Monitoring
+type: wg
+parent: null
+state: bof-conc
+started: null
+closed: '1997-03-01'
+history_url: https://datatracker.ietf.org/group/sam/history/
+chairs:
+- person: 106348
+  name: Thomas Schmidt
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1997-03-01'
+    end:
+      certainty: group-closed
+      date: '1997-03-01'
+- person: 123038
+  name: Steve Kille
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1997-03-01'
+    end:
+      certainty: group-closed
+      date: '1997-03-01'

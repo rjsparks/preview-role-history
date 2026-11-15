@@ -1,0 +1,59 @@
+acronym: armd
+name: Address Resolution for Massive numbers of hosts in the Data center
+type: wg
+parent: ops
+state: conclude
+started: '2011-02-18'
+closed: '2012-10-23'
+history_url: https://datatracker.ietf.org/group/armd/history/
+chairs:
+- person: 111086
+  name: Linda Dunbar
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-03-21'
+      not_before: '2011-02-18'
+    end:
+      certainty: group-closed
+      date: '2012-10-23'
+    notes:
+    - start moved earlier by WG Action announcement of 2011-03-21
+  evidence:
+  - kind: WG Action
+    date: '2011-03-21'
+    subject: 'WG Action: Address Resolution for Massive numbers of hosts in the Data center (armd)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-armd-problem-statement
+- person: 112438
+  name: Benson Schliesser
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-03-21'
+      not_before: '2011-02-18'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+    notes:
+    - start moved earlier by WG Action announcement of 2011-03-21
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+    end:
+      certainty: group-closed
+      date: '2012-10-23'
+  evidence:
+  - kind: WG Action
+    date: '2011-03-21'
+    subject: 'WG Action: Address Resolution for Massive numbers of hosts in the Data center (armd)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

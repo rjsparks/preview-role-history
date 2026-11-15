@@ -1,0 +1,41 @@
+acronym: yam
+name: Yet Another Mail
+type: wg
+parent: app
+state: conclude
+started: '2009-05-21'
+closed: '2011-11-28'
+history_url: https://datatracker.ietf.org/group/yam/history/
+chairs:
+- person: 6771
+  name: Tony Hansen
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2009-11-08'
+      not_before: '2009-05-21'
+    end:
+      certainty: group-closed
+      date: '2011-11-28'
+    notes:
+    - start moved earlier by session request for IETF 76
+  evidence:
+  - kind: session requests
+    meetings:
+    - '76'
+    - '77'
+    - '78'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 109918
+  name: S Moonesamy
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-11-28'
+      not_before: '2009-05-21'
+    end:
+      certainty: group-closed
+      date: '2011-11-28'

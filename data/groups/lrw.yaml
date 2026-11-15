@@ -1,0 +1,31 @@
+acronym: lrw
+name: Lightweight Reachability softWires
+type: wg
+parent: int
+state: conclude
+started: '2005-09-22'
+closed: '2011-02-25'
+history_url: https://datatracker.ietf.org/group/lrw/history/
+chairs:
+- person: 23057
+  name: David Ward
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-02-25'
+      not_before: '2005-09-22'
+    end:
+      certainty: group-closed
+      date: '2011-02-25'
+- person: 105328
+  name: Alain Durand
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-02-25'
+      not_before: '2005-09-22'
+    end:
+      certainty: group-closed
+      date: '2011-02-25'

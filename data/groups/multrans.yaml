@@ -1,0 +1,36 @@
+acronym: multrans
+name: 'Multicast Transition '
+type: wg
+parent: ops
+state: bof-conc
+started: null
+closed: '2013-01-31'
+history_url: https://datatracker.ietf.org/group/multrans/history/
+chairs:
+- person: 106315
+  name: Greg Shepherd
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-11-13'
+    end:
+      certainty: group-closed
+      date: '2013-01-31'
+    notes:
+    - start moved earlier by session request for IETF 82
+  evidence:
+  - kind: session requests
+    meetings:
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 107256
+  name: Marshall Eubanks
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+    end:
+      certainty: group-closed
+      date: '2013-01-31'

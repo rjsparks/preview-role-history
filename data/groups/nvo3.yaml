@@ -1,0 +1,90 @@
+acronym: nvo3
+name: Network Virtualization Overlays
+type: wg
+parent: rtg
+state: active
+started: '2012-04-03'
+closed: null
+history_url: https://datatracker.ietf.org/group/nvo3/history/
+chairs:
+- person: 7262
+  name: Thomas Narten
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2012-02-23'
+    end:
+      certainty: between
+      not_before: '2012-02-23'
+      not_after: '2014-03-05'
+- person: 105786
+  name: Matthew Bocci
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2012-02-23'
+      not_after: '2014-03-05'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Action
+    date: '2012-05-01'
+    subject: 'WG Action: Network Virtualization Overlays (nvo3)'
+    message_id: null
+  - kind: WG Review
+    date: '2014-10-03'
+    subject: 'WG Review: Network Virtualization Overlays (nvo3)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-nvo3-arch
+    - draft-ietf-nvo3-bfd-geneve
+    - draft-ietf-nvo3-dataplane-requirements
+    - draft-ietf-nvo3-encap
+    - draft-ietf-nvo3-framework
+    - draft-ietf-nvo3-gap-analysis
+    - draft-ietf-nvo3-geneve
+    - draft-ietf-nvo3-geneve-oam
+    - draft-ietf-nvo3-hpvr2nve-cp-req
+    - draft-ietf-nvo3-overlay-problem-statement
+    - draft-ietf-nvo3-rfc7348bis
+    - draft-ietf-nvo3-use-case
+    - draft-ietf-nvo3-vm-mobility-issues
+    - draft-ietf-nvo3-vmm
+    - draft-ietf-nvo3-yang-cfg
+- person: 112237
+  name: Sam Aldrin
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-07-07'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-nvo3-evpn-applicability
+    - draft-ietf-nvo3-mcast-framework
+- person: 112438
+  name: Benson Schliesser
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2012-02-23'
+      not_after: '2014-03-05'
+    end:
+      certainty: exact
+      date: '2016-07-07'
+  evidence:
+  - kind: WG Action
+    date: '2012-05-01'
+    subject: 'WG Action: Network Virtualization Overlays (nvo3)'
+    message_id: null
+  - kind: WG Review
+    date: '2014-10-03'
+    subject: 'WG Review: Network Virtualization Overlays (nvo3)'
+    message_id: null

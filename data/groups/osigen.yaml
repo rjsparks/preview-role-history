@@ -1,0 +1,31 @@
+acronym: osigen
+name: OSI General
+type: wg
+parent: osi
+state: conclude
+started: '1989-01-01'
+closed: '1992-06-10'
+history_url: https://datatracker.ietf.org/group/osigen/history/
+chairs:
+- person: 2372
+  name: Robert Hagens
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1992-06-10'
+      not_before: '1989-01-01'
+    end:
+      certainty: group-closed
+      date: '1992-06-10'
+- person: 2723
+  name: Ross Callon
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1992-06-10'
+      not_before: '1989-01-01'
+    end:
+      certainty: group-closed
+      date: '1992-06-10'

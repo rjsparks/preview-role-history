@@ -1,0 +1,154 @@
+acronym: trill
+name: Transparent Interconnection of Lots of Links
+type: wg
+parent: rtg
+state: conclude
+started: '2005-06-15'
+closed: '2018-03-19'
+history_url: https://datatracker.ietf.org/group/trill/history/
+chairs:
+- person: 3056
+  name: Sue Hares
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-09-25'
+    end:
+      certainty: group-closed
+      date: '2018-03-19'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-dunbar-trill-directory-assisted-encap
+    - draft-eastlake-trill-rfc6439bis
+    - draft-hao-trill-centralized-replication
+    - draft-ietf-trill-address-flush
+    - draft-ietf-trill-arp-optimization
+    - draft-ietf-trill-channel-tunnel
+    - draft-ietf-trill-dci
+    - draft-ietf-trill-directory-assist-mechanisms
+    - draft-ietf-trill-directory-assisted-encap
+    - draft-ietf-trill-directory-extensions
+    - draft-ietf-trill-ecn-support
+    - draft-ietf-trill-ia-appsubtlv
+    - draft-ietf-trill-loss-delay
+    - draft-ietf-trill-mtu-negotiation
+    - draft-ietf-trill-multi-topology
+    - draft-ietf-trill-multilevel-unique-nickname
+    - draft-ietf-trill-oam-fm
+    - draft-ietf-trill-p2mp-bfd
+    - draft-ietf-trill-rbridge-multilevel
+    - draft-ietf-trill-rfc6439bis
+    - draft-ietf-trill-rfc7180bis
+    - draft-ietf-trill-smart-endnodes
+    - draft-ietf-trill-transport-over-mpls
+    - draft-ietf-trill-tree-selection
+    - draft-ietf-trill-vendor-channel
+    - draft-ietf-trill-yang
+    - draft-ietf-trill-yang-oam
+    - draft-ietf-trill-yang-pm
+    - draft-muks-trill-transport-over-mpls
+    - draft-yizhou-trill-arp-optimization
+- person: 8243
+  name: Erik Nordmark
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-02-17'
+      not_before: '2005-06-15'
+    end:
+      certainty: exact
+      date: '2014-02-17'
+    notes:
+    - start moved earlier by WG Action announcement of 2011-02-17
+  evidence:
+  - kind: WG Review
+    date: '2010-07-22'
+    subject: 'WG Review: Recharter of Transparent Interconnection of Lots of Links (trill)'
+    message_id: null
+  - kind: WG Action
+    date: '2011-02-17'
+    subject: 'WG Action: RECHARTER: Transparent Interconnection of Lots of Links (trill)'
+    message_id: null
+  - kind: WG Review
+    date: '2013-07-19'
+    subject: 'WG Review: Transparent Interconnection of Lots of Links (trill)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-trill-esadi
+    - draft-ietf-trill-o-pw
+- person: 102391
+  name: Donald Eastlake
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '2005-06-15'
+    end:
+      certainty: exact
+      date: '2014-09-25'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: WG Review
+    date: '2010-07-22'
+    subject: 'WG Review: Recharter of Transparent Interconnection of Lots of Links (trill)'
+    message_id: null
+  - kind: WG Action
+    date: '2011-02-17'
+    subject: 'WG Action: RECHARTER: Transparent Interconnection of Lots of Links (trill)'
+    message_id: null
+  - kind: WG Review
+    date: '2013-07-19'
+    subject: 'WG Review: Transparent Interconnection of Lots of Links (trill)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '73'
+    - '74'
+    - '77'
+    - '78'
+    - '79'
+    - '80'
+    - '81'
+    - '82'
+    - '83'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-hao-trill-address-flush
+    - draft-ietf-trill-aa-multi-attach
+    - draft-ietf-trill-active-active-connection-prob
+    - draft-ietf-trill-centralized-replication
+    - draft-ietf-trill-cmt
+    - draft-ietf-trill-irb
+    - draft-ietf-trill-oam-mib
+    - draft-ietf-trill-pseudonode-nickname
+    - draft-tissa-trill-yang-oam
+- person: 112823
+  name: Jon Hudson
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-02-17'
+    end:
+      certainty: group-closed
+      date: '2018-03-19'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-trill-directory-framework
+    - draft-ietf-trill-oam-framework
+    - draft-ietf-trill-rfc6327bis

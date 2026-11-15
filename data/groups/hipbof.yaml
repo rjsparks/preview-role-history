@@ -1,0 +1,29 @@
+acronym: hipbof
+name: Host Identity Protocol BOF
+type: wg
+parent: int
+state: bof-conc
+started: null
+closed: '2005-05-11'
+history_url: https://datatracker.ietf.org/group/hipbof/history/
+chairs:
+- person: 23057
+  name: David Ward
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-05-11'
+    end:
+      certainty: group-closed
+      date: '2005-05-11'
+- person: 103539
+  name: Gonzalo Camarillo
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-05-11'
+    end:
+      certainty: group-closed
+      date: '2005-05-11'

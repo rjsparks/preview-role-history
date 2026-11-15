@@ -1,0 +1,20 @@
+acronym: iporpr
+name: IP over Resilient Packet Rings
+type: wg
+parent: int
+state: conclude
+started: '2000-11-10'
+closed: '2008-09-29'
+history_url: https://datatracker.ietf.org/group/iporpr/history/
+chairs:
+- person: 19651
+  name: Glenn Parsons
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2008-09-29'
+      not_before: '2000-11-10'
+    end:
+      certainty: group-closed
+      date: '2008-09-29'

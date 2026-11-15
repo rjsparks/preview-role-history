@@ -1,0 +1,67 @@
+acronym: 6lowpan
+name: IPv6 over Low power WPAN
+type: wg
+parent: int
+state: conclude
+started: '2004-10-01'
+closed: '2014-01-16'
+history_url: https://datatracker.ietf.org/group/6lowpan/history/
+chairs:
+- person: 11843
+  name: Carsten Bormann
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-07-09'
+      not_before: '2004-10-01'
+    end:
+      certainty: group-closed
+      date: '2014-01-16'
+    notes:
+    - start moved earlier by session request for IETF 66
+  evidence:
+  - kind: WG Action
+    date: '2008-07-08'
+    subject: 'WG Action: RECHARTER: IPv6 over Low power WPAN (6lowpan)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '66'
+    - '71'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 12594
+  name: Geoffrey Mulligan
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '2004-10-01'
+    end:
+      certainty: group-closed
+      date: '2014-01-16'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: WG Action
+    date: '2008-07-08'
+    subject: 'WG Action: RECHARTER: IPv6 over Low power WPAN (6lowpan)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '65'
+    - '67'
+    - '68'
+    - '69'
+    - '70'
+    - '72'
+    - '73'
+    - '74'
+    - '75'
+    - '76'
+    - '77'
+    - '78'
+    - '79'
+    - '80'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

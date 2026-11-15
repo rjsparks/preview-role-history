@@ -1,0 +1,139 @@
+acronym: sidr
+name: Secure Inter-Domain Routing
+type: wg
+parent: rtg
+state: conclude
+started: '2006-01-27'
+closed: '2018-09-06'
+history_url: https://datatracker.ietf.org/group/sidr/history/
+chairs:
+- person: 13219
+  name: Sandra Murphy
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-04-18'
+      not_before: '2006-01-27'
+    end:
+      certainty: group-closed
+      date: '2018-09-06'
+    notes:
+    - start moved earlier by WG Action announcement of 2006-04-18
+  evidence:
+  - kind: WG Action
+    date: '2006-04-18'
+    subject: 'WG Action: Secure Inter-Domain Routing (sidr)'
+    message_id: null
+  - kind: WG Review
+    date: '2011-03-21'
+    subject: 'WG Review: Recharter of Secure Inter-Domain Routing (sidr)'
+    message_id: null
+  - kind: WG Action
+    date: '2011-04-19'
+    subject: 'WG Action: RECHARTER: Secure Inter-Domain Routing (sidr)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '69'
+    - '70'
+    - '72'
+    - '74'
+    - '75'
+    - '77'
+    - '78'
+    - '79'
+    - '80'
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-sidr-bgpsec-algs
+    - draft-ietf-sidr-bgpsec-overview
+    - draft-ietf-sidr-origin-validation-signaling
+    - draft-ietf-sidr-policy-qualifiers
+    - draft-ietf-sidr-rfc6485bis
+    - draft-ietf-sidr-rfc6490-bis
+    - draft-ietf-sidr-rpki-rtr-impl
+    - draft-ietf-sidr-rpsl-sig
+- person: 102154
+  name: Alexey Melnikov
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2013-07-30'
+    end:
+      certainty: exact
+      date: '2013-07-31'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-sidr-algorithm-agility
+    - draft-ietf-sidr-bgpsec-threats
+    - draft-ietf-sidr-rpki-rtr-protocol-mib
+    - draft-ietf-sidr-usecases
+- person: 106925
+  name: Geoff Huston
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-04-18'
+    end:
+      certainty: evidence-only
+      not_before: '2009-11-08'
+  evidence:
+  - kind: WG Action
+    date: '2006-04-18'
+    subject: 'WG Action: Secure Inter-Domain Routing (sidr)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '66'
+    - '67'
+    - '68'
+    - '71'
+    - '73'
+    - '76'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 111246
+  name: Chris Morrow
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-04-19'
+      not_before: '2006-01-27'
+    end:
+      certainty: group-closed
+      date: '2018-09-06'
+    notes:
+    - start moved earlier by WG Action announcement of 2011-04-19
+  evidence:
+  - kind: WG Review
+    date: '2011-03-21'
+    subject: 'WG Review: Recharter of Secure Inter-Domain Routing (sidr)'
+    message_id: null
+  - kind: WG Action
+    date: '2011-04-19'
+    subject: 'WG Action: RECHARTER: Secure Inter-Domain Routing (sidr)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-sidr-adverse-actions
+    - draft-ietf-sidr-as-migration
+    - draft-ietf-sidr-bgpsec-ops
+    - draft-ietf-sidr-bgpsec-pki-profiles
+    - draft-ietf-sidr-bgpsec-reqs
+    - draft-ietf-sidr-cps
+    - draft-ietf-sidr-delta-protocol
+    - draft-ietf-sidr-origin-ops
+    - draft-ietf-sidr-pfx-validate
+    - draft-ietf-sidr-publication
+    - draft-ietf-sidr-rpki-oob-setup
+    - draft-ietf-sidr-rpki-rtr-rfc6810-bis
+    - draft-ietf-sidr-rpki-validation-reconsidered
+    - draft-ietf-sidr-slurm

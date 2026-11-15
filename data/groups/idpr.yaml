@@ -1,0 +1,20 @@
+acronym: idpr
+name: Inter-Domain Policy Routing
+type: wg
+parent: rtg
+state: conclude
+started: '1988-10-01'
+closed: '1995-02-22'
+history_url: https://datatracker.ietf.org/group/idpr/history/
+chairs:
+- person: 2273
+  name: Martha Steenstrup
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1995-02-22'
+      not_before: '1988-10-01'
+    end:
+      certainty: group-closed
+      date: '1995-02-22'

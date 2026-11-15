@@ -1,0 +1,53 @@
+acronym: asap
+name: Automatic SIP trunking And Peering
+type: wg
+parent: art
+state: conclude
+started: '2020-04-14'
+closed: '2026-02-17'
+history_url: https://datatracker.ietf.org/group/asap/history/
+chairs:
+- person: 103769
+  name: Adam Roach
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-07-24'
+    end:
+      certainty: exact
+      date: '2020-10-27'
+  evidence:
+  - kind: WG Action
+    date: '2020-07-24'
+    subject: 'WG Action: Formed Automatic SIP trunking And Peering (asap)'
+    message_id: 159562615817.8487.8157656164577705814@ietfa.amsl.com
+- person: 110842
+  name: Gonzalo Salgueiro
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-07-24'
+    end:
+      certainty: group-closed
+      date: '2026-02-17'
+  evidence:
+  - kind: WG Action
+    date: '2020-07-24'
+    subject: 'WG Action: Formed Automatic SIP trunking And Peering (asap)'
+    message_id: 159562615817.8487.8157656164577705814@ietfa.amsl.com
+- person: 114455
+  name: Jean Mahoney
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-10-27'
+    end:
+      certainty: group-closed
+      date: '2026-02-17'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-asap-siptrunkingcapability-link

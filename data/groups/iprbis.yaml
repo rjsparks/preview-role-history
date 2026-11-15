@@ -1,0 +1,41 @@
+acronym: iprbis
+name: Proposed Update IPR Policy
+type: wg
+parent: gen
+state: bof-conc
+started: '2013-01-31'
+closed: null
+history_url: https://datatracker.ietf.org/group/iprbis/history/
+chairs:
+- person: 2324
+  name: Scott Bradner
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2013-01-31'
+      not_after: '2013-06-20'
+    end:
+      certainty: exact
+      date: '2013-06-20'
+- person: 5376
+  name: Russ Housley
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2013-01-31'
+      not_after: '2013-06-20'
+    end:
+      certainty: exact
+      date: '2013-06-20'
+- person: 21072
+  name: Jari Arkko
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2013-06-20'
+    end:
+      certainty: group-closed
+      date: '2013-09-24'

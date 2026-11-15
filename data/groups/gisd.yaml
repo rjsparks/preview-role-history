@@ -1,0 +1,20 @@
+acronym: gisd
+name: Generic Internet Service Description
+type: wg
+parent: ops-old
+state: conclude
+started: '1993-09-22'
+closed: '1995-10-17'
+history_url: https://datatracker.ietf.org/group/gisd/history/
+chairs:
+- person: 11685
+  name: David Sitman
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1995-10-17'
+      not_before: '1993-09-22'
+    end:
+      certainty: group-closed
+      date: '1995-10-17'

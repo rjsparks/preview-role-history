@@ -1,0 +1,20 @@
+acronym: cmot
+name: CMIP Over TCP
+type: wg
+parent: mgt
+state: conclude
+started: '1987-07-01'
+closed: '1989-01-18'
+history_url: https://datatracker.ietf.org/group/cmot/history/
+chairs:
+- person: 2712
+  name: Lee LaBarre
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1989-01-18'
+      not_before: '1987-07-01'
+    end:
+      certainty: group-closed
+      date: '1989-01-18'

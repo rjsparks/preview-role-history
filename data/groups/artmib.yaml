@@ -1,0 +1,19 @@
+acronym: artmib
+name: Application Response Time MIB
+type: wg
+parent: ops
+state: conclude
+started: null
+closed: null
+history_url: https://datatracker.ietf.org/group/artmib/history/
+chairs:
+- person: 5857
+  name: Jim McQuaid
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+    end:
+      certainty: group-closed
+      date: '2011-12-09'

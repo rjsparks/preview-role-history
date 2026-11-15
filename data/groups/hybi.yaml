@@ -1,0 +1,61 @@
+acronym: hybi
+name: BiDirectional or Server-Initiated HTTP
+type: wg
+parent: art
+state: conclude
+started: '2009-12-10'
+closed: '2016-01-04'
+history_url: https://datatracker.ietf.org/group/hybi/history/
+chairs:
+- person: 107491
+  name: Salvatore Loreto
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-07-25'
+      not_before: '2009-12-10'
+    end:
+      certainty: group-closed
+      date: '2016-01-04'
+    notes:
+    - start moved earlier by session request for IETF 78
+  evidence:
+  - kind: WG Review
+    date: '2012-02-07'
+    subject: 'WG Review: Recharter of BiDirectional or Server-Initiated HTTP (hybi)'
+    message_id: null
+  - kind: WG Action
+    date: '2012-02-21'
+    subject: 'WG Action: RECHARTER: BiDirectional or Server-Initiated HTTP (hybi)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '78'
+    - '80'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-hybi-permessage-compression
+    - draft-ietf-hybi-thewebsocketprotocol
+- person: 108488
+  name: Gabriel Montenegro
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2009-12-10'
+    end:
+      certainty: group-closed
+      date: '2016-01-04'
+  evidence:
+  - kind: WG Review
+    date: '2012-02-07'
+    subject: 'WG Review: Recharter of BiDirectional or Server-Initiated HTTP (hybi)'
+    message_id: null
+  - kind: WG Action
+    date: '2012-02-21'
+    subject: 'WG Action: RECHARTER: BiDirectional or Server-Initiated HTTP (hybi)'
+    message_id: null

@@ -1,0 +1,55 @@
+acronym: samrg
+name: Scalable Adaptive Multicast Research Group
+type: rg
+parent: irtf
+state: conclude
+started: null
+closed: '2013-12-17'
+history_url: https://datatracker.ietf.org/group/samrg/history/
+chairs:
+- person: 106348
+  name: Thomas Schmidt
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-07-25'
+    end:
+      certainty: group-closed
+      date: '2013-12-17'
+    notes:
+    - start moved earlier by session request for IETF 78
+  evidence:
+  - kind: session requests
+    meetings:
+    - '78'
+    - '79'
+    - '80'
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-irtf-samrg-sam-baseline-protocol
+- person: 107438
+  name: John Buford
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-07-09'
+    end:
+      certainty: group-closed
+      date: '2013-12-17'
+    notes:
+    - start moved earlier by session request for IETF 66
+  evidence:
+  - kind: session requests
+    meetings:
+    - '66'
+    - '68'
+    - '69'
+    - '71'
+    - '76'
+    - '77'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

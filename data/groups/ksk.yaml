@@ -1,0 +1,20 @@
+acronym: ksk
+name: KSK Futures
+type: wg
+parent: ops
+state: bof-conc
+started: '2019-02-15'
+closed: '2019-06-11'
+history_url: https://datatracker.ietf.org/group/ksk/history/
+chairs:
+- person: 10083
+  name: Paul Hoffman
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2019-02-15'
+      not_before: '2019-02-15'
+    end:
+      certainty: group-closed
+      date: '2019-06-11'

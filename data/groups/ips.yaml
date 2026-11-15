@@ -1,0 +1,28 @@
+acronym: ips
+name: IP Storage
+type: wg
+parent: tsv
+state: conclude
+started: '2000-08-30'
+closed: '2007-11-01'
+history_url: https://datatracker.ietf.org/group/ips/history/
+chairs:
+- person: 103156
+  name: David Black
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '2000-08-30'
+    end:
+      certainty: group-closed
+      date: '2007-11-01'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

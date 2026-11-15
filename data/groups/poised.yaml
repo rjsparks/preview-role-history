@@ -1,0 +1,31 @@
+acronym: poised
+name: Process for Organization of Internet Standards
+type: wg
+parent: gen
+state: conclude
+started: '1992-08-31'
+closed: '1994-04-01'
+history_url: https://datatracker.ietf.org/group/poised/history/
+chairs:
+- person: 3005
+  name: Mel Pleasant
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1994-04-01'
+      not_before: '1992-08-31'
+    end:
+      certainty: group-closed
+      date: '1994-04-01'
+- person: 107476
+  name: Steve Crocker
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1994-04-01'
+      not_before: '1992-08-31'
+    end:
+      certainty: group-closed
+      date: '1994-04-01'

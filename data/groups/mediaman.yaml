@@ -1,0 +1,36 @@
+acronym: mediaman
+name: Media Type Maintenance
+type: wg
+parent: art
+state: active
+started: '2021-06-03'
+closed: null
+history_url: https://datatracker.ietf.org/group/mediaman/history/
+chairs:
+- person: 5778
+  name: Harald Alvestrand
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-08-17'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Action
+    date: '2021-08-26'
+    subject: 'WG Action: Formed Media Type Maintenance (mediaman)'
+    message_id: 163001111368.6581.13245044288669654077@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-mediaman-haptics
+    - draft-ietf-mediaman-toplevel
+- person: 135384
+  name: A.J. Stein
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-05-30'
+    end:
+      certainty: ongoing

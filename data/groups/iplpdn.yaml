@@ -1,0 +1,20 @@
+acronym: iplpdn
+name: IP Over Large Public Data Networks
+type: wg
+parent: rtg
+state: conclude
+started: '1990-12-03'
+closed: '1993-08-23'
+history_url: https://datatracker.ietf.org/group/iplpdn/history/
+chairs:
+- person: 2847
+  name: George Clapp
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1993-08-23'
+      not_before: '1990-12-03'
+    end:
+      certainty: group-closed
+      date: '1993-08-23'

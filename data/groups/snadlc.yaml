@@ -1,0 +1,20 @@
+acronym: snadlc
+name: SNA DLC Services MIB
+type: wg
+parent: rtg
+state: conclude
+started: '1993-04-28'
+closed: '2001-04-05'
+history_url: https://datatracker.ietf.org/group/snadlc/history/
+chairs:
+- person: 10713
+  name: Shannon Nix
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2001-04-05'
+      not_before: '1993-04-28'
+    end:
+      certainty: group-closed
+      date: '2001-04-05'

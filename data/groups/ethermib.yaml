@@ -1,0 +1,20 @@
+acronym: ethermib
+name: Ethernet MIB
+type: wg
+parent: mgt
+state: conclude
+started: '1991-11-02'
+closed: '1993-02-02'
+history_url: https://datatracker.ietf.org/group/ethermib/history/
+chairs:
+- person: 123360
+  name: Frank Kastenholz
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1993-02-02'
+      not_before: '1991-11-02'
+    end:
+      certainty: group-closed
+      date: '1993-02-02'

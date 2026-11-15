@@ -1,0 +1,87 @@
+acronym: clue
+name: ControLling mUltiple streams for tElepresence
+type: wg
+parent: art
+state: conclude
+started: '2010-12-08'
+closed: '2020-03-17'
+history_url: https://datatracker.ietf.org/group/clue/history/
+chairs:
+- person: 102830
+  name: Mary Barnes
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-01-11'
+      not_before: '2010-12-08'
+    end:
+      certainty: exact
+      date: '2014-11-19'
+    notes:
+    - start moved earlier by WG Action announcement of 2011-01-11
+  evidence:
+  - kind: WG Action
+    date: '2011-01-11'
+    subject: 'WG Action: ControLling mUltiple streams for tElepresence (clue)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '80'
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-clue-telepresence-use-cases
+    - draft-kyzivat-clue-signaling
+- person: 105873
+  name: Roni Even
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-11-19'
+    end:
+      certainty: group-closed
+      date: '2020-03-17'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-clue-data-model-schema
+    - draft-ietf-clue-framework
+    - draft-ietf-clue-signaling
+- person: 108554
+  name: Paul Kyzivat
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-01-11'
+      not_before: '2010-12-08'
+    end:
+      certainty: group-closed
+      date: '2020-03-17'
+    notes:
+    - start moved earlier by WG Action announcement of 2011-01-11
+  evidence:
+  - kind: WG Action
+    date: '2011-01-11'
+    subject: 'WG Action: ControLling mUltiple streams for tElepresence (clue)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-clue-datachannel
+    - draft-ietf-clue-protocol
+    - draft-ietf-clue-rtp-mapping
+    - draft-ietf-clue-telepresence-requirements
+- person: 116910
+  name: Daniel Burnett
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-11-19'
+    end:
+      certainty: exact
+      date: '2016-08-08'

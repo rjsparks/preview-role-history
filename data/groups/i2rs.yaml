@@ -1,0 +1,74 @@
+acronym: i2rs
+name: Interface to the Routing System
+type: wg
+parent: rtg
+state: conclude
+started: '2012-11-19'
+closed: '2021-03-11'
+history_url: https://datatracker.ietf.org/group/i2rs/history/
+chairs:
+- person: 3056
+  name: Sue Hares
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-11-14'
+    end:
+      certainty: group-closed
+      date: '2021-03-11'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-i2rs-pub-sub-requirements
+    - draft-ietf-i2rs-rib-data-model
+    - draft-ietf-i2rs-rib-info-model
+    - draft-ietf-i2rs-traceability
+    - draft-ietf-i2rs-yang-dc-fabric-network-topology
+    - draft-ietf-i2rs-yang-l2-network-topology
+    - draft-ietf-i2rs-yang-l3-topology
+    - draft-ietf-i2rs-yang-network-topo
+- person: 104147
+  name: Edward Crabbe
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2013-01-29'
+    end:
+      certainty: exact
+      date: '2014-11-14'
+- person: 104645
+  name: Russ White
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-06-02'
+    end:
+      certainty: group-closed
+      date: '2021-03-11'
+- person: 105046
+  name: Jeffrey Haas
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-02-26'
+    end:
+      certainty: exact
+      date: '2016-06-02'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-i2rs-protocol-security-requirements
+- person: 106742
+  name: Alia Atlas
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2013-01-29'
+    end:
+      certainty: exact
+      date: '2014-03-12'

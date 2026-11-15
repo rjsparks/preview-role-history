@@ -1,0 +1,29 @@
+acronym: hippi
+name: IP Over HIPPI
+type: wg
+parent: int
+state: bof-conc
+started: null
+closed: '1992-07-01'
+history_url: https://datatracker.ietf.org/group/hippi/history/
+chairs:
+- person: 4031
+  name: Andy Nicholson
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1992-07-01'
+    end:
+      certainty: group-closed
+      date: '1992-07-01'
+- person: 4230
+  name: John Renwick
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1992-07-01'
+    end:
+      certainty: group-closed
+      date: '1992-07-01'

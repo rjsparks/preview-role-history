@@ -1,0 +1,20 @@
+acronym: mtudisc
+name: IP MTU Discovery
+type: wg
+parent: int
+state: conclude
+started: '1989-10-02'
+closed: '1990-09-03'
+history_url: https://datatracker.ietf.org/group/mtudisc/history/
+chairs:
+- person: 2427
+  name: Jeffrey Mogul
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1990-09-03'
+      not_before: '1989-10-02'
+    end:
+      certainty: group-closed
+      date: '1990-09-03'

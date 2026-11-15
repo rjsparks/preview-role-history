@@ -1,0 +1,39 @@
+acronym: lager
+name: Label Generation Rules
+type: wg
+parent: art
+state: conclude
+started: '2015-05-29'
+closed: '2016-10-27'
+history_url: https://datatracker.ietf.org/group/lager/history/
+chairs:
+- person: 19869
+  name: Marc Blanchet
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-06-24'
+    end:
+      certainty: group-closed
+      date: '2016-10-27'
+  evidence:
+  - kind: WG Review
+    date: '2015-07-01'
+    subject: 'WG Review: Label Generation Rules (lager)'
+    message_id: null
+- person: 110104
+  name: Scott Hollenbeck
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-06-24'
+    end:
+      certainty: group-closed
+      date: '2016-10-27'
+  evidence:
+  - kind: WG Review
+    date: '2015-07-01'
+    subject: 'WG Review: Label Generation Rules (lager)'
+    message_id: null

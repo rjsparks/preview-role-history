@@ -1,0 +1,68 @@
+acronym: xrblock
+name: Metric Blocks for use with RTCP's Extended Report Framework
+type: wg
+parent: art
+state: conclude
+started: '2010-12-03'
+closed: '2019-09-20'
+history_url: https://datatracker.ietf.org/group/xrblock/history/
+chairs:
+- person: 6699
+  name: Dan Romascanu
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2015-05-29'
+    end:
+      certainty: group-closed
+      date: '2019-09-20'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-xrblock-independent-burst-gap-discard
+    - draft-ietf-xrblock-rtcp-xr-jb
+    - draft-ietf-xrblock-rtcp-xr-post-repair-loss-count
+    - draft-ietf-xrblock-rtcp-xr-psi-decodability
+    - draft-ietf-xrblock-rtcp-xr-qoe
+    - draft-ietf-xrblock-rtcp-xr-video-lc
+- person: 107520
+  name: Shida Schubert
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2010-12-03'
+    end:
+      certainty: group-closed
+      date: '2019-09-20'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-xrblock-rtcp-xr-bytes-discarded-metric
+    - draft-ietf-xrblock-rtcp-xr-discard
+    - draft-ietf-xrblock-rtcp-xr-discard-rle-metrics
+    - draft-ietf-xrblock-rtcp-xr-loss-conceal
+    - draft-ietf-xrblock-rtcp-xr-synchronization
+    - draft-ietf-xrblock-rtcweb-rtcp-xr-metrics
+- person: 112611
+  name: Charles Eckel
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-11-13'
+      not_before: '2010-12-03'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2015-05-29'
+    notes:
+    - start moved earlier by session request for IETF 82
+  evidence:
+  - kind: session requests
+    meetings:
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

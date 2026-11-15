@@ -1,0 +1,31 @@
+acronym: provreg
+name: Provisioning Registry Protocol
+type: wg
+parent: app
+state: conclude
+started: '2001-01-18'
+closed: '2004-04-05'
+history_url: https://datatracker.ietf.org/group/provreg/history/
+chairs:
+- person: 2890
+  name: Jaap Akkerhuis
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-04-05'
+      not_before: '2001-01-18'
+    end:
+      certainty: group-closed
+      date: '2004-04-05'
+- person: 16366
+  name: Edward Lewis
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-04-05'
+      not_before: '2001-01-18'
+    end:
+      certainty: group-closed
+      date: '2004-04-05'

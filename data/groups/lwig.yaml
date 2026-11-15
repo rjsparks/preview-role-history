@@ -1,0 +1,81 @@
+acronym: lwig
+name: Light-Weight Implementation Guidance
+type: wg
+parent: int
+state: conclude
+started: '2011-01-10'
+closed: '2024-01-23'
+history_url: https://datatracker.ietf.org/group/lwig/history/
+chairs:
+- person: 110531
+  name: Zhen Cao
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-03-27'
+      not_before: '2011-01-10'
+    end:
+      certainty: group-closed
+      date: '2024-01-23'
+    notes:
+    - start moved earlier by WG Action announcement of 2011-03-27
+  evidence:
+  - kind: WG Action
+    date: '2011-03-27'
+    subject: 'WG Action: Light-Weight Implementation Guidance (lwig)'
+    message_id: null
+  - kind: WG Action
+    date: '2011-08-16'
+    subject: 'WG Action: RECHARTER: Light-Weight Implementation Guidance (lwig)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-lwig-cellular
+    - draft-ietf-lwig-crypto-sensors
+    - draft-ietf-lwig-tcp-constrained-node-networks
+    - draft-ietf-lwig-terminology
+- person: 111293
+  name: Robert Cragie
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-03-27'
+      not_before: '2011-01-10'
+    end:
+      certainty: exact
+      date: '2017-09-19'
+    notes:
+    - start moved earlier by WG Action announcement of 2011-03-27
+  evidence:
+  - kind: WG Action
+    date: '2011-03-27'
+    subject: 'WG Action: Light-Weight Implementation Guidance (lwig)'
+    message_id: null
+  - kind: WG Action
+    date: '2011-08-16'
+    subject: 'WG Action: RECHARTER: Light-Weight Implementation Guidance (lwig)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-lwig-ikev2-minimal
+- person: 113142
+  name: Mohit Sethi
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-09-19'
+    end:
+      certainty: group-closed
+      date: '2024-01-23'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-lwig-energy-efficient
+    - draft-ietf-lwig-minimal-esp

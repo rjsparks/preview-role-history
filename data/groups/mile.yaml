@@ -1,0 +1,120 @@
+acronym: mile
+name: Managed Incident Lightweight Exchange
+type: wg
+parent: sec
+state: conclude
+started: '2011-09-21'
+closed: '2020-12-03'
+history_url: https://datatracker.ietf.org/group/mile/history/
+chairs:
+- person: 102154
+  name: Alexey Melnikov
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-03-06'
+    end:
+      certainty: exact
+      date: '2016-04-20'
+- person: 104851
+  name: Kathleen Moriarty
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-10-25'
+      not_before: '2011-09-21'
+    end:
+      certainty: exact
+      date: '2014-03-06'
+    notes:
+    - start moved earlier by WG Action announcement of 2011-10-25
+  evidence:
+  - kind: WG Action
+    date: '2011-10-25'
+    subject: 'WG Action: Managed Incident Lightweight Exchange (mile)'
+    message_id: null
+  - kind: WG Review
+    date: '2013-06-28'
+    subject: 'WG Review: Managed Incident Lightweight Exchange (mile)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-mile-rfc6046-bis
+    - draft-ietf-mile-template
+- person: 105785
+  name: Nancy Cam-Winget
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-04-20'
+    end:
+      certainty: group-closed
+      date: '2020-12-03'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-mile-iodef-guidance
+    - draft-ietf-mile-jsoniodef
+    - draft-ietf-mile-rolie
+    - draft-ietf-mile-rolie-csirt
+- person: 109354
+  name: Brian Trammell
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-10-25'
+      not_before: '2011-09-21'
+    end:
+      certainty: exact
+      date: '2014-03-06'
+    notes:
+    - start moved earlier by WG Action announcement of 2011-10-25
+  - start:
+      certainty: exact
+      date: '2014-03-07'
+    end:
+      certainty: exact
+      date: '2014-03-08'
+  evidence:
+  - kind: WG Action
+    date: '2011-10-25'
+    subject: 'WG Action: Managed Incident Lightweight Exchange (mile)'
+    message_id: null
+  - kind: WG Review
+    date: '2013-06-28'
+    subject: 'WG Review: Managed Incident Lightweight Exchange (mile)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '83'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-mile-rfc6045-bis
+    - draft-ietf-mile-sci
+- person: 111986
+  name: Takeshi Takahashi
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-03-06'
+    end:
+      certainty: exact
+      date: '2014-03-06'
+  - start:
+      certainty: exact
+      date: '2014-03-07'
+    end:
+      certainty: group-closed
+      date: '2020-12-03'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-mile-implementreport
+    - draft-ietf-mile-rfc5070-bis
+    - draft-ietf-mile-xmpp-grid

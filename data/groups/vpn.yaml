@@ -1,0 +1,19 @@
+acronym: vpn
+name: Virtual Private Networking
+type: wg
+parent: int
+state: conclude
+started: null
+closed: null
+history_url: https://datatracker.ietf.org/group/vpn/history/
+chairs:
+- person: 13071
+  name: Naganand Doraswamy
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+    end:
+      certainty: group-closed
+      date: '2011-12-09'

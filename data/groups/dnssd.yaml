@@ -1,0 +1,109 @@
+acronym: dnssd
+name: Extensions for Scalable DNS Service Discovery
+type: wg
+parent: int
+state: active
+started: '2013-06-20'
+closed: null
+history_url: https://datatracker.ietf.org/group/dnssd/history/
+chairs:
+- person: 2348
+  name: Ralph Droms
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2013-06-20'
+      not_before: '2013-06-20'
+    end:
+      certainty: exact
+      date: '2017-11-13'
+  evidence:
+  - kind: WG Review
+    date: '2013-10-03'
+    subject: 'WG Review: Extensions for Scalable DNS Service Discovery (dnssd)'
+    message_id: null
+- person: 106461
+  name: Tim Chown
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2013-06-20'
+      not_before: '2013-06-20'
+    end:
+      certainty: exact
+      date: '2018-10-02'
+  evidence:
+  - kind: WG Review
+    date: '2013-10-03'
+    subject: 'WG Review: Extensions for Scalable DNS Service Discovery (dnssd)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-dnssd-hybrid
+    - draft-ietf-dnssd-requirements
+- person: 114464
+  name: Barbara Stark
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2018-10-02'
+    end:
+      certainty: exact
+      date: '2021-12-14'
+- person: 119562
+  name: David Schinazi
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-08-01'
+    end:
+      certainty: exact
+      date: '2024-12-17'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-dnssd-prireq
+    - draft-ietf-dnssd-srp
+- person: 123600
+  name: Florian Obser
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-10-29'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2026-09-03'
+    subject: 'WG Review: Extensions for Scalable DNS Service Discovery (dnssd)'
+    message_id: 178845229286.699470.6745044945050676948@dt-datatracker-6669c7b496-s9mrn
+  - kind: WG Action
+    date: '2026-10-08'
+    subject: 'WG Action: Rechartered Extensions for Scalable DNS Service Discovery (dnssd)'
+    message_id: 179147864777.182627.14311314184657811971@dt-datatracker-678f7b55dd-z6pql
+- person: 126104
+  name: Chris Box
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-08-10'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2026-09-03'
+    subject: 'WG Review: Extensions for Scalable DNS Service Discovery (dnssd)'
+    message_id: 178845229286.699470.6745044945050676948@dt-datatracker-6669c7b496-s9mrn
+  - kind: WG Action
+    date: '2026-10-08'
+    subject: 'WG Action: Rechartered Extensions for Scalable DNS Service Discovery (dnssd)'
+    message_id: 179147864777.182627.14311314184657811971@dt-datatracker-678f7b55dd-z6pql
+  - kind: shepherded
+    documents:
+    - draft-ietf-dnssd-update-lease

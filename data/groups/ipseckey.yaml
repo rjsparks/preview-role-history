@@ -1,0 +1,31 @@
+acronym: ipseckey
+name: IPSEC KEYing information resource record
+type: wg
+parent: sec
+state: conclude
+started: '2003-01-31'
+closed: '2005-03-14'
+history_url: https://datatracker.ietf.org/group/ipseckey/history/
+chairs:
+- person: 20106
+  name: Sam Weiler
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-03-14'
+      not_before: '2003-01-31'
+    end:
+      certainty: group-closed
+      date: '2005-03-14'
+- person: 104212
+  name: Rob Austein
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-03-14'
+      not_before: '2003-01-31'
+    end:
+      certainty: group-closed
+      date: '2005-03-14'

@@ -1,0 +1,60 @@
+acronym: 6renum
+name: IPv6 Site Renumbering
+type: wg
+parent: ops
+state: conclude
+started: '2011-05-17'
+closed: '2013-10-11'
+history_url: https://datatracker.ietf.org/group/6renum/history/
+chairs:
+- person: 106461
+  name: Tim Chown
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-06-14'
+      not_before: '2011-05-17'
+    end:
+      certainty: group-closed
+      date: '2013-10-11'
+    notes:
+    - start moved earlier by WG Action announcement of 2011-06-14
+  evidence:
+  - kind: WG Action
+    date: '2011-06-14'
+    subject: 'WG Action: IPv6 Site Renumbering (6renum)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-6renum-gap-analysis
+- person: 110307
+  name: Lee Howard
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2013-03-13'
+    end:
+      certainty: group-closed
+      date: '2013-10-11'
+- person: 112160
+  name: Wesley George
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-11-13'
+      not_before: '2011-05-17'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2013-03-13'
+    notes:
+    - start moved earlier by session request for IETF 82
+  evidence:
+  - kind: session requests
+    meetings:
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

@@ -1,0 +1,66 @@
+acronym: nea
+name: Network Endpoint Assessment
+type: wg
+parent: sec
+state: conclude
+started: '2006-09-25'
+closed: '2014-05-09'
+history_url: https://datatracker.ietf.org/group/nea/history/
+chairs:
+- person: 6334
+  name: Susan Thomson
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-11-01'
+      not_before: '2006-09-25'
+    end:
+      certainty: group-closed
+      date: '2014-05-09'
+    notes:
+    - start moved earlier by WG Action announcement of 2006-11-01
+  evidence:
+  - kind: WG Action
+    date: '2006-11-01'
+    subject: 'WG Action: Network Endpoint Assessment (nea)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '68'
+    - '69'
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    - '76'
+    - '78'
+    - '79'
+    - '80'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 15448
+  name: Steve Hanna
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-11-01'
+      not_before: '2006-09-25'
+    end:
+      certainty: group-closed
+      date: '2014-05-09'
+    notes:
+    - start moved earlier by WG Action announcement of 2006-11-01
+  evidence:
+  - kind: WG Action
+    date: '2006-11-01'
+    subject: 'WG Action: Network Endpoint Assessment (nea)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '70'
+    - '75'
+    - '77'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

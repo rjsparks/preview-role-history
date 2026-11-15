@@ -1,0 +1,54 @@
+acronym: gnap
+name: Grant Negotiation and Authorization Protocol
+type: wg
+parent: sec
+state: conclude
+started: '2020-06-11'
+closed: '2024-10-22'
+history_url: https://datatracker.ietf.org/group/gnap/history/
+chairs:
+- person: 104278
+  name: Yaron Sheffer
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2020-06-11'
+      not_before: '2020-06-11'
+    end:
+      certainty: group-closed
+      date: '2024-10-22'
+  evidence:
+  - kind: WG Review
+    date: '2020-06-26'
+    subject: 'WG Review: Grant Negotiation and Authorization Protocol (gnap)'
+    message_id: 159318778098.29096.6482921706088845432@ietfa.amsl.com
+  - kind: WG Action
+    date: '2020-07-10'
+    subject: 'WG Action: Formed Grant Negotiation and Authorization Protocol (gnap)'
+    message_id: 159439873228.11770.15361342021563935869@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-gnap-core-protocol
+- person: 110406
+  name: Leif Johansson
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-06-15'
+    end:
+      certainty: group-closed
+      date: '2024-10-22'
+  evidence:
+  - kind: WG Review
+    date: '2020-06-26'
+    subject: 'WG Review: Grant Negotiation and Authorization Protocol (gnap)'
+    message_id: 159318778098.29096.6482921706088845432@ietfa.amsl.com
+  - kind: WG Action
+    date: '2020-07-10'
+    subject: 'WG Action: Formed Grant Negotiation and Authorization Protocol (gnap)'
+    message_id: 159439873228.11770.15361342021563935869@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-gnap-resource-servers

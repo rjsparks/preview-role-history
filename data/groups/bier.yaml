@@ -1,0 +1,59 @@
+acronym: bier
+name: Bit Indexed Explicit Replication
+type: wg
+parent: rtg
+state: active
+started: '2014-10-01'
+closed: null
+history_url: https://datatracker.ietf.org/group/bier/history/
+chairs:
+- person: 104151
+  name: Tony Przygienda
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-02-11'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2015-02-20'
+    subject: 'WG Review: Bit Indexed Explicit Replication (bier)'
+    message_id: null
+  - kind: WG Review
+    date: '2025-02-20'
+    subject: 'WG Review: Bit Indexed Explicit Replication (bier)'
+    message_id: 174007510579.1966545.11422324764474697131@dt-datatracker-75c44cbbdf-pxnd6
+  - kind: WG Action
+    date: '2025-03-06'
+    subject: 'WG Action: Rechartered Bit Indexed Explicit Replication (bier)'
+    message_id: 174127924751.959044.15539559673454453524@dt-datatracker-5dd67b77bb-4k4zh
+  - kind: shepherded
+    documents:
+    - draft-ietf-bier-mpls-encapsulation
+- person: 106315
+  name: Greg Shepherd
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-10-02'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2015-02-20'
+    subject: 'WG Review: Bit Indexed Explicit Replication (bier)'
+    message_id: null
+  - kind: WG Review
+    date: '2025-02-20'
+    subject: 'WG Review: Bit Indexed Explicit Replication (bier)'
+    message_id: 174007510579.1966545.11422324764474697131@dt-datatracker-75c44cbbdf-pxnd6
+  - kind: WG Action
+    date: '2025-03-06'
+    subject: 'WG Action: Rechartered Bit Indexed Explicit Replication (bier)'
+    message_id: 174127924751.959044.15539559673454453524@dt-datatracker-5dd67b77bb-4k4zh
+  - kind: shepherded
+    documents:
+    - draft-ietf-bier-architecture

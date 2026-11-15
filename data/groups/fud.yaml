@@ -1,0 +1,31 @@
+acronym: fud
+name: Firmware UpDate
+type: wg
+parent: sec
+state: replaced
+started: '2017-08-04'
+closed: '2017-10-17'
+history_url: https://datatracker.ietf.org/group/fud/history/
+chairs:
+- person: 5376
+  name: Russ Housley
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2017-08-04'
+      not_before: '2017-08-04'
+    end:
+      certainty: group-closed
+      date: '2017-10-17'
+- person: 111953
+  name: David Waltermire
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2017-08-04'
+      not_before: '2017-08-04'
+    end:
+      certainty: group-closed
+      date: '2017-10-17'

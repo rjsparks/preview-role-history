@@ -1,0 +1,20 @@
+acronym: ipauth
+name: IP Authentication
+type: wg
+parent: sec
+state: conclude
+started: '1988-10-01'
+closed: '1991-01-01'
+history_url: https://datatracker.ietf.org/group/ipauth/history/
+chairs:
+- person: 2900
+  name: Jeffrey Schiller
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1991-01-01'
+      not_before: '1988-10-01'
+    end:
+      certainty: group-closed
+      date: '1991-01-01'

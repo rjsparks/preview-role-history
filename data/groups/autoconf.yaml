@@ -1,0 +1,94 @@
+acronym: autoconf
+name: Ad-Hoc Network Autoconfiguration
+type: wg
+parent: int
+state: conclude
+started: '2005-06-15'
+closed: '2012-03-06'
+history_url: https://datatracker.ietf.org/group/autoconf/history/
+chairs:
+- person: 105595
+  name: Ryuji Wakikawa
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2009-07-26'
+      not_before: '2005-06-15'
+    end:
+      certainty: group-closed
+      date: '2012-03-06'
+    notes:
+    - start moved earlier by session request for IETF 75
+  evidence:
+  - kind: WG Review
+    date: '2010-11-30'
+    subject: 'WG Review: Recharter of Ad-Hoc Network Autoconfiguration (autoconf)'
+    message_id: null
+  - kind: WG Action
+    date: '2010-12-21'
+    subject: 'WG Action: RECHARTER: Ad-Hoc Network Autoconfiguration (autoconf)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '75'
+    - '76'
+    - '77'
+    - '78'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 106872
+  name: Thomas Clausen
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-10-25'
+      not_before: '2005-06-15'
+    end:
+      certainty: group-closed
+      date: '2012-03-06'
+    notes:
+    - start moved earlier by WG Action announcement of 2005-10-25
+  evidence:
+  - kind: WG Action
+    date: '2005-10-25'
+    subject: 'WG Action: Ad-Hoc Network Autoconfiguration (autoconf)'
+    message_id: null
+  - kind: WG Review
+    date: '2010-11-30'
+    subject: 'WG Review: Recharter of Ad-Hoc Network Autoconfiguration (autoconf)'
+    message_id: null
+  - kind: WG Action
+    date: '2010-12-21'
+    subject: 'WG Action: RECHARTER: Ad-Hoc Network Autoconfiguration (autoconf)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '70'
+    - '71'
+    - '74'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 106968
+  name: Shubhranshu Singh
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2005-10-25'
+    end:
+      certainty: evidence-only
+      not_before: '2008-11-16'
+  evidence:
+  - kind: WG Action
+    date: '2005-10-25'
+    subject: 'WG Action: Ad-Hoc Network Autoconfiguration (autoconf)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    - '68'
+    - '69'
+    - '73'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

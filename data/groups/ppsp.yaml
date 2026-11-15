@@ -1,0 +1,77 @@
+acronym: ppsp
+name: Peer to Peer Streaming Protocol
+type: wg
+parent: tsv
+state: conclude
+started: '2010-01-22'
+closed: '2016-01-13'
+history_url: https://datatracker.ietf.org/group/ppsp/history/
+chairs:
+- person: 103392
+  name: Stefano Previdi
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2013-09-06'
+    end:
+      certainty: exact
+      date: '2013-09-06'
+- person: 105519
+  name: Martin Stiemerling
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-11-13'
+      not_before: '2010-01-22'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2013-09-06'
+    notes:
+    - start moved earlier by session request for IETF 82
+  evidence:
+  - kind: session requests
+    meetings:
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 109919
+  name: Yunfei Zhang
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-11-07'
+      not_before: '2010-01-22'
+    end:
+      certainty: group-closed
+      date: '2016-01-13'
+    notes:
+    - start moved earlier by session request for IETF 79
+  evidence:
+  - kind: session requests
+    meetings:
+    - '79'
+    - '80'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-ppsp-survey
+- person: 110002
+  name: Ning Zong
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2013-09-06'
+    end:
+      certainty: group-closed
+      date: '2016-01-13'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-ppsp-base-tracker-protocol

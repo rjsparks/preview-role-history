@@ -1,0 +1,89 @@
+acronym: p2psip
+name: Peer-to-Peer Session Initiation Protocol
+type: wg
+parent: art
+state: conclude
+started: '2007-01-05'
+closed: '2016-12-23'
+history_url: https://datatracker.ietf.org/group/p2psip/history/
+chairs:
+- person: 106438
+  name: David Bryan
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-02-21'
+      not_before: '2007-01-05'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2015-05-29'
+    notes:
+    - start moved earlier by WG Action announcement of 2007-02-21
+  evidence:
+  - kind: WG Action
+    date: '2007-02-21'
+    subject: 'WG Action: Peer-to-Peer Session Initiation Protocol (p2psip)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    - '75'
+    - '76'
+    - '77'
+    - '78'
+    - '79'
+    - '80'
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-p2psip-base
+- person: 106740
+  name: Carlos Jesús Bernardos
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2015-05-29'
+    end:
+      certainty: group-closed
+      date: '2016-12-23'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-p2psip-diagnostics
+    - draft-ietf-p2psip-drr
+    - draft-ietf-p2psip-rpr
+    - draft-ietf-p2psip-self-tuning
+    - draft-ietf-p2psip-service-discovery
+    - draft-ietf-p2psip-sip
+- person: 106987
+  name: Brian Rosen
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-02-21'
+      not_before: '2007-01-05'
+    end:
+      certainty: group-closed
+      date: '2016-12-23'
+    notes:
+    - start moved earlier by WG Action announcement of 2007-02-21
+  evidence:
+  - kind: WG Action
+    date: '2007-02-21'
+    subject: 'WG Action: Peer-to-Peer Session Initiation Protocol (p2psip)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-p2psip-concepts

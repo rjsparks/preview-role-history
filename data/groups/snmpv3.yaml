@@ -1,0 +1,31 @@
+acronym: snmpv3
+name: SNMP Version 3
+type: wg
+parent: ops
+state: conclude
+started: '1997-03-17'
+closed: '2003-09-04'
+history_url: https://datatracker.ietf.org/group/snmpv3/history/
+chairs:
+- person: 1615
+  name: Russ Mundy
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2003-09-04'
+      not_before: '1997-03-17'
+    end:
+      certainty: group-closed
+      date: '2003-09-04'
+- person: 17253
+  name: David Harrington
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2003-09-04'
+      not_before: '1997-03-17'
+    end:
+      certainty: group-closed
+      date: '2003-09-04'

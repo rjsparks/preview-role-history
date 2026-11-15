@@ -1,0 +1,29 @@
+acronym: abcd
+name: Application Behavior Considering DNS
+type: wg
+parent: art
+state: bof-conc
+started: '2019-10-09'
+closed: '2020-02-13'
+history_url: https://datatracker.ietf.org/group/abcd/history/
+chairs:
+- person: 117988
+  name: Benjamin Schwartz
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-10-16'
+    end:
+      certainty: group-closed
+      date: '2020-02-13'
+- person: 120845
+  name: David Lawrence
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-10-16'
+    end:
+      certainty: group-closed
+      date: '2020-02-13'

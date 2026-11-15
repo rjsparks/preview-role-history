@@ -1,0 +1,52 @@
+acronym: pmol
+name: Performance Metrics for Other Layers
+type: wg
+parent: ops
+state: conclude
+started: '2007-10-15'
+closed: '2011-08-24'
+history_url: https://datatracker.ietf.org/group/pmol/history/
+chairs:
+- person: 12792
+  name: Alan Clark
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-11-14'
+      not_before: '2007-10-15'
+    end:
+      certainty: group-closed
+      date: '2011-08-24'
+    notes:
+    - start moved earlier by WG Action announcement of 2007-11-14
+  evidence:
+  - kind: WG Action
+    date: '2007-11-14'
+    subject: 'WG Action: Performance Metrics at Other Layers (pmol)'
+    message_id: null
+- person: 102900
+  name: Al Morton
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-11-14'
+      not_before: '2007-10-15'
+    end:
+      certainty: group-closed
+      date: '2011-08-24'
+    notes:
+    - start moved earlier by WG Action announcement of 2007-11-14
+  evidence:
+  - kind: WG Action
+    date: '2007-11-14'
+    subject: 'WG Action: Performance Metrics at Other Layers (pmol)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

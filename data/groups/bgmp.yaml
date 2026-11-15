@@ -1,0 +1,42 @@
+acronym: bgmp
+name: Border Gateway Multicast Protocol
+type: wg
+parent: rtg
+state: conclude
+started: '1999-06-03'
+closed: '2004-06-24'
+history_url: https://datatracker.ietf.org/group/bgmp/history/
+chairs:
+- person: 13108
+  name: Bill Fenner
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-06-24'
+      not_before: '1999-06-03'
+    end:
+      certainty: group-closed
+      date: '2004-06-24'
+- person: 18382
+  name: Bradley Cain
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-06-24'
+      not_before: '1999-06-03'
+    end:
+      certainty: group-closed
+      date: '2004-06-24'
+- person: 101332
+  name: Jeremy Hall
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-06-24'
+      not_before: '1999-06-03'
+    end:
+      certainty: group-closed
+      date: '2004-06-24'

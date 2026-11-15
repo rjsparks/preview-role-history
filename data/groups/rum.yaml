@@ -1,0 +1,33 @@
+acronym: rum
+name: Relay User Machine
+type: wg
+parent: art
+state: conclude
+started: '2019-02-25'
+closed: '2023-10-12'
+history_url: https://datatracker.ietf.org/group/rum/history/
+chairs:
+- person: 106987
+  name: Brian Rosen
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-02-27'
+    end:
+      certainty: group-closed
+      date: '2023-10-12'
+- person: 108554
+  name: Paul Kyzivat
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-02-27'
+    end:
+      certainty: group-closed
+      date: '2023-10-12'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-rum-rue

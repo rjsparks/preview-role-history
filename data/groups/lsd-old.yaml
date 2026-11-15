@@ -1,0 +1,31 @@
+acronym: lsd-old
+name: LDAP Service Deployment
+type: wg
+parent: ops
+state: conclude
+started: '1997-10-21'
+closed: '1998-11-25'
+history_url: https://datatracker.ietf.org/group/lsd-old/history/
+chairs:
+- person: 10500
+  name: Chris Apple
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1998-11-25'
+      not_before: '1997-10-21'
+    end:
+      certainty: group-closed
+      date: '1998-11-25'
+- person: 10554
+  name: Roland Hedberg
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1998-11-25'
+      not_before: '1997-10-21'
+    end:
+      certainty: group-closed
+      date: '1998-11-25'

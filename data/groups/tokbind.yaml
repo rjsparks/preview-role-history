@@ -1,0 +1,36 @@
+acronym: tokbind
+name: Token Binding
+type: wg
+parent: sec
+state: conclude
+started: '2015-02-05'
+closed: '2021-03-13'
+history_url: https://datatracker.ietf.org/group/tokbind/history/
+chairs:
+- person: 110406
+  name: Leif Johansson
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-03-11'
+    end:
+      certainty: group-closed
+      date: '2021-03-13'
+- person: 112131
+  name: John Bradley
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-03-11'
+    end:
+      certainty: group-closed
+      date: '2021-03-13'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-tokbind-https
+    - draft-ietf-tokbind-negotiation
+    - draft-ietf-tokbind-protocol
+    - draft-ietf-tokbind-ttrp

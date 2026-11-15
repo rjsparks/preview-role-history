@@ -1,0 +1,86 @@
+acronym: rats
+name: Remote ATtestation ProcedureS
+type: wg
+parent: sec
+state: active
+started: '2018-09-26'
+closed: null
+history_url: https://datatracker.ietf.org/group/rats/history/
+chairs:
+- person: 21144
+  name: Ned Smith
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-03-07'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2022-05-11'
+    subject: 'WG Review: Remote ATtestation ProcedureS (rats)'
+    message_id: 165230557143.1370.7244650493913251374@ietfa.amsl.com
+  - kind: WG Action
+    date: '2022-06-03'
+    subject: 'WG Action: Rechartered Remote ATtestation ProcedureS (rats)'
+    message_id: 165427909152.4139.6617762881708734492@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-rats-eat
+- person: 104851
+  name: Kathleen Moriarty
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-03-07'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2022-05-11'
+    subject: 'WG Review: Remote ATtestation ProcedureS (rats)'
+    message_id: 165230557143.1370.7244650493913251374@ietfa.amsl.com
+  - kind: WG Action
+    date: '2022-06-03'
+    subject: 'WG Action: Rechartered Remote ATtestation ProcedureS (rats)'
+    message_id: 165427909152.4139.6617762881708734492@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-rats-architecture
+    - draft-ietf-rats-eat-media-type
+    - draft-ietf-rats-uccs
+- person: 105785
+  name: Nancy Cam-Winget
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2018-10-22'
+    end:
+      certainty: exact
+      date: '2024-11-07'
+  evidence:
+  - kind: WG Review
+    date: '2022-05-11'
+    subject: 'WG Review: Remote ATtestation ProcedureS (rats)'
+    message_id: 165230557143.1370.7244650493913251374@ietfa.amsl.com
+  - kind: WG Action
+    date: '2022-06-03'
+    subject: 'WG Action: Rechartered Remote ATtestation ProcedureS (rats)'
+    message_id: 165427909152.4139.6617762881708734492@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-rats-tpm-based-network-device-attest
+    - draft-ietf-rats-yang-tpm-charra
+- person: 105815
+  name: Roman Danyliw
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2018-10-22'
+    end:
+      certainty: exact
+      date: '2019-03-28'

@@ -1,0 +1,31 @@
+acronym: rps
+name: Routing Policy System
+type: wg
+parent: ops
+state: conclude
+started: '1995-06-20'
+closed: '2000-02-14'
+history_url: https://datatracker.ietf.org/group/rps/history/
+chairs:
+- person: 8259
+  name: Curtis Villamizar
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2000-02-14'
+      not_before: '1995-06-20'
+    end:
+      certainty: group-closed
+      date: '2000-02-14'
+- person: 122381
+  name: Cengiz Alaettinoglu
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2000-02-14'
+      not_before: '1995-06-20'
+    end:
+      certainty: group-closed
+      date: '2000-02-14'

@@ -1,0 +1,102 @@
+acronym: calext
+name: Calendaring Extensions
+type: wg
+parent: art
+state: active
+started: '2014-07-09'
+closed: null
+history_url: https://datatracker.ietf.org/group/calext/history/
+chairs:
+- person: 102391
+  name: Donald Eastlake
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-08-28'
+    end:
+      certainty: exact
+      date: '2019-03-23'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-calext-rscale
+- person: 109969
+  name: Daniel Migault
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-05-05'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2022-02-04'
+    subject: 'WG Review: Calendaring Extensions (calext)'
+    message_id: 164400233323.5527.10604273066672069901@ietfa.amsl.com
+  - kind: WG Action
+    date: '2022-03-02'
+    subject: 'WG Action: Rechartered Calendaring Extensions (calext)'
+    message_id: 164623047380.18070.325303714068082558@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-calext-availability
+    - draft-ietf-calext-eventpub-extensions
+    - draft-ietf-calext-icalendar-jscalendar-extensions
+    - draft-ietf-calext-jscalendar
+    - draft-ietf-calext-jscalendar-icalendar
+    - draft-ietf-calext-jscalendarbis
+    - draft-ietf-calext-jscontact
+    - draft-ietf-calext-jscontact-profiles
+    - draft-ietf-calext-jscontact-uid
+    - draft-ietf-calext-jscontact-vcard
+    - draft-ietf-calext-valarm-extensions
+    - draft-ietf-calext-vcard-jscontact-extensions
+- person: 114564
+  name: Philipp Kewisch
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-05-06'
+    end:
+      certainty: exact
+      date: '2019-01-08'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-calext-extensions
+- person: 118041
+  name: Amanda Anganes
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-08-28'
+    end:
+      certainty: exact
+      date: '2016-05-06'
+- person: 122671
+  name: Bron Gondwana
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-01-08'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2022-02-04'
+    subject: 'WG Review: Calendaring Extensions (calext)'
+    message_id: 164400233323.5527.10604273066672069901@ietfa.amsl.com
+  - kind: WG Action
+    date: '2022-03-02'
+    subject: 'WG Action: Rechartered Calendaring Extensions (calext)'
+    message_id: 164623047380.18070.325303714068082558@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-calext-caldav-attachments
+    - draft-ietf-calext-ical-relations
+    - draft-ietf-calext-subscription-upgrade

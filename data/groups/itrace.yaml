@@ -1,0 +1,20 @@
+acronym: itrace
+name: ICMP Traceback
+type: wg
+parent: int
+state: conclude
+started: '2000-06-26'
+closed: '2003-09-30'
+history_url: https://datatracker.ietf.org/group/itrace/history/
+chairs:
+- person: 15758
+  name: Marcus Leech
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2003-09-30'
+      not_before: '2000-06-26'
+    end:
+      certainty: group-closed
+      date: '2003-09-30'

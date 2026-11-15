@@ -1,0 +1,36 @@
+name: Add a missing chair role
+description: Someone chaired a group, and the site doesn't show it.
+title: "Missing chair role: "
+labels: [missing]
+body:
+  - type: input
+    id: group
+    attributes:
+      label: Group acronym
+      placeholder: tls
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Chair's name
+    validations:
+      required: true
+  - type: input
+    id: person
+    attributes:
+      label: Datatracker person id (if known)
+  - type: textarea
+    id: dates
+    attributes:
+      label: When?
+      description: Approximate dates are fine ("from IETF 62 to about 2009").
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: How do you know?
+      description: >
+        A link to an announcement, minutes, proceedings or a mailing list message helps the
+        reviewers most. "I was the chair" is useful too.

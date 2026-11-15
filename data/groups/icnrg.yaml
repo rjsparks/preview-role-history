@@ -1,0 +1,81 @@
+acronym: icnrg
+name: Information-Centric Networking
+type: rg
+parent: irtf
+state: active
+started: '2012-04-24'
+closed: null
+history_url: https://datatracker.ietf.org/group/icnrg/history/
+chairs:
+- person: 773
+  name: David Oran
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2012-04-24'
+      not_after: '2014-11-13'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-irtf-icnrg-ccninfo
+    - draft-irtf-icnrg-ccnxmessages
+    - draft-irtf-icnrg-ccnxsemantics
+    - draft-irtf-icnrg-deployment-guidelines
+    - draft-irtf-icnrg-disaster
+    - draft-irtf-icnrg-icn-lte-4g
+    - draft-irtf-icnrg-nrs-requirements
+    - draft-irtf-icnrg-nrsarch-considerations
+- person: 18250
+  name: Börje Ohlman
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2012-04-24'
+      not_after: '2014-11-13'
+    end:
+      certainty: exact
+      date: '2020-03-12'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-irtf-icnrg-challenges
+- person: 125662
+  name: Ryo Yanagida
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2026-02-03'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-irtf-icnrg-ccnxchunking
+- person: 140639
+  name: Dirk KUTSCHER
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2012-04-24'
+      not_after: '2014-11-13'
+    end:
+      certainty: exact
+      date: '2026-02-03'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-irtf-icnrg-ccnx-timetlv
+    - draft-irtf-icnrg-evaluation-methodology
+    - draft-irtf-icnrg-icnlowpan
+    - draft-irtf-icnrg-icnping
+    - draft-irtf-icnrg-icntraceroute
+    - draft-irtf-icnrg-pathsteering
+    - draft-irtf-icnrg-scenarios
+    - draft-irtf-icnrg-terminology
+    - draft-oran-icnrg-qosarch

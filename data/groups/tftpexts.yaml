@@ -1,0 +1,31 @@
+acronym: tftpexts
+name: TFTP Extensions
+type: wg
+parent: app
+state: conclude
+started: '1994-09-12'
+closed: '1995-03-20'
+history_url: https://datatracker.ietf.org/group/tftpexts/history/
+chairs:
+- person: 2412
+  name: Gary Malkin
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1995-03-20'
+      not_before: '1994-09-12'
+    end:
+      certainty: group-closed
+      date: '1995-03-20'
+- person: 14378
+  name: Art Harkin
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1995-03-20'
+      not_before: '1994-09-12'
+    end:
+      certainty: group-closed
+      date: '1995-03-20'

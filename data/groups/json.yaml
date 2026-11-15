@@ -1,0 +1,49 @@
+acronym: json
+name: JavaScript Object Notation
+type: wg
+parent: app
+state: conclude
+started: '2013-01-31'
+closed: '2015-03-23'
+history_url: https://datatracker.ietf.org/group/json/history/
+chairs:
+- person: 10083
+  name: Paul Hoffman
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2013-05-27'
+    end:
+      certainty: group-closed
+      date: '2015-03-23'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-json-rfc4627bis
+    - draft-ietf-json-text-sequence
+- person: 110049
+  name: Joe Hildebrand
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2013-01-31'
+      not_after: '2013-05-01'
+    end:
+      certainty: approximate
+      date: '2013-05-01'
+- person: 111178
+  name: Matthew Miller
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2013-05-27'
+    end:
+      certainty: group-closed
+      date: '2015-03-23'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-json-i-json

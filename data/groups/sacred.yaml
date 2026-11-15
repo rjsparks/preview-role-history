@@ -1,0 +1,31 @@
+acronym: sacred
+name: Securely Available Credentials
+type: wg
+parent: sec
+state: conclude
+started: '2000-09-19'
+closed: '2006-02-01'
+history_url: https://datatracker.ietf.org/group/sacred/history/
+chairs:
+- person: 19177
+  name: Stephen Farrell
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-02-01'
+      not_before: '2000-09-19'
+    end:
+      certainty: group-closed
+      date: '2006-02-01'
+- person: 102968
+  name: Magnus Nyström
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-02-01'
+      not_before: '2000-09-19'
+    end:
+      certainty: group-closed
+      date: '2006-02-01'

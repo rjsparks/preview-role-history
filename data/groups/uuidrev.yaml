@@ -1,0 +1,46 @@
+acronym: uuidrev
+name: Revise Universally Unique Identifier Definitions
+type: wg
+parent: art
+state: conclude
+started: '2022-08-02'
+closed: '2024-05-10'
+history_url: https://datatracker.ietf.org/group/uuidrev/history/
+chairs:
+- person: 102254
+  name: Michael Richardson
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-08-15'
+    end:
+      certainty: group-closed
+      date: '2024-05-10'
+  evidence:
+  - kind: WG Action
+    date: '2022-08-26'
+    subject: 'WG Action: Formed Revise Universally Unique Identifier Definitions (uuidrev)'
+    message_id: 166152814976.48740.10197877000637083518@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-uuidrev-rfc4122bis
+- person: 121191
+  name: Jim Fenton
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-08-09'
+    end:
+      certainty: group-closed
+      date: '2024-05-10'
+  evidence:
+  - kind: WG Review
+    date: '2022-08-12'
+    subject: 'WG Review: Revise Universally Unique Identifier Definitions (uuidrev)'
+    message_id: 166032414918.8225.7474782571649259059@ietfa.amsl.com
+  - kind: WG Action
+    date: '2022-08-26'
+    subject: 'WG Action: Formed Revise Universally Unique Identifier Definitions (uuidrev)'
+    message_id: 166152814976.48740.10197877000637083518@ietfa.amsl.com

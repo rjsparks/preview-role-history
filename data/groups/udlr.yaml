@@ -1,0 +1,31 @@
+acronym: udlr
+name: UniDirectional Link Routing
+type: wg
+parent: rtg
+state: conclude
+started: '1997-01-29'
+closed: '2003-12-03'
+history_url: https://datatracker.ietf.org/group/udlr/history/
+chairs:
+- person: 20263
+  name: Emmanuel Duros
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2003-12-03'
+      not_before: '1997-01-29'
+    end:
+      certainty: group-closed
+      date: '2003-12-03'
+- person: 21030
+  name: Hidetaka Izumiyama
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2003-12-03'
+      not_before: '1997-01-29'
+    end:
+      certainty: group-closed
+      date: '2003-12-03'

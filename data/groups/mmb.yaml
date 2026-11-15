@@ -1,0 +1,20 @@
+acronym: mmb
+name: Multi-Media Bridging
+type: wg
+parent: int
+state: conclude
+started: '1990-10-01'
+closed: '1993-01-14'
+history_url: https://datatracker.ietf.org/group/mmb/history/
+chairs:
+- person: 3356
+  name: Jeff Fitzgerald
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1993-01-14'
+      not_before: '1990-10-01'
+    end:
+      certainty: group-closed
+      date: '1993-01-14'

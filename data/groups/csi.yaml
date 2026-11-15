@@ -1,0 +1,55 @@
+acronym: csi
+name: Cga & Send maIntenance
+type: wg
+parent: int
+state: conclude
+started: '2008-01-03'
+closed: '2013-02-11'
+history_url: https://datatracker.ietf.org/group/csi/history/
+chairs:
+- person: 105255
+  name: Marcelo Bagnulo
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2008-02-13'
+      not_before: '2008-01-03'
+    end:
+      certainty: group-closed
+      date: '2013-02-11'
+    notes:
+    - start moved earlier by WG Action announcement of 2008-02-13
+  evidence:
+  - kind: WG Action
+    date: '2008-02-13'
+    subject: 'WG Action: Cga & Send maIntenance (csi)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    - '75'
+    - '76'
+    - '77'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 108488
+  name: Gabriel Montenegro
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2008-02-13'
+      not_before: '2008-01-03'
+    end:
+      certainty: group-closed
+      date: '2013-02-11'
+    notes:
+    - start moved earlier by WG Action announcement of 2008-02-13
+  evidence:
+  - kind: WG Action
+    date: '2008-02-13'
+    subject: 'WG Action: Cga & Send maIntenance (csi)'
+    message_id: null

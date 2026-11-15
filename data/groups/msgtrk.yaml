@@ -1,0 +1,20 @@
+acronym: msgtrk
+name: Message Tracking Protocol
+type: wg
+parent: app
+state: conclude
+started: '1998-10-19'
+closed: '2004-10-04'
+history_url: https://datatracker.ietf.org/group/msgtrk/history/
+chairs:
+- person: 14544
+  name: Steve Hole
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-10-04'
+      not_before: '1998-10-19'
+    end:
+      certainty: group-closed
+      date: '2004-10-04'

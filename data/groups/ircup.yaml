@@ -1,0 +1,19 @@
+acronym: ircup
+name: IRC Update
+type: wg
+parent: app
+state: conclude
+started: null
+closed: '2000-06-05'
+history_url: https://datatracker.ietf.org/group/ircup/history/
+chairs:
+- person: 101045
+  name: Chris Stegner
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2000-06-05'
+    end:
+      certainty: group-closed
+      date: '2000-06-05'

@@ -1,0 +1,27 @@
+name: Validate
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Test the tools
+        run: |
+          python -m unittest discover tools
+          node tools/test_filter.js
+      - name: Check the data
+        run: python tools/validate.py data --base origin/${{ github.base_ref }}
+      - name: Check the site builds
+        run: python tools/render.py data _site

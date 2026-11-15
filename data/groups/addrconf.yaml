@@ -1,0 +1,20 @@
+acronym: addrconf
+name: Address Autoconfiguration
+type: wg
+parent: ipng
+state: conclude
+started: '1994-10-30'
+closed: '1996-04-11'
+history_url: https://datatracker.ietf.org/group/addrconf/history/
+chairs:
+- person: 6334
+  name: Susan Thomson
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1996-04-11'
+      not_before: '1994-10-30'
+    end:
+      certainty: group-closed
+      date: '1996-04-11'

@@ -1,0 +1,20 @@
+acronym: lowpan
+name: IPv6 over IEEE 802.15.4
+type: wg
+parent: int
+state: bof-conc
+started: '2005-01-19'
+closed: '2011-02-25'
+history_url: https://datatracker.ietf.org/group/lowpan/history/
+chairs:
+- person: 7262
+  name: Thomas Narten
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-02-25'
+      not_before: '2005-01-19'
+    end:
+      certainty: group-closed
+      date: '2011-02-25'

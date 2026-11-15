@@ -1,0 +1,31 @@
+acronym: rsvp
+name: Resource Reservation Setup Protocol
+type: wg
+parent: tsv
+state: conclude
+started: '1993-11-30'
+closed: '2001-05-02'
+history_url: https://datatracker.ietf.org/group/rsvp/history/
+chairs:
+- person: 567
+  name: Lixia Zhang
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2001-05-02'
+      not_before: '1993-11-30'
+    end:
+      certainty: group-closed
+      date: '2001-05-02'
+- person: 5436
+  name: Robert Braden
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2001-05-02'
+      not_before: '1993-11-30'
+    end:
+      certainty: group-closed
+      date: '2001-05-02'

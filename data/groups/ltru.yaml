@@ -1,0 +1,57 @@
+acronym: ltru
+name: Language Tag Registry Update
+type: wg
+parent: app
+state: conclude
+started: '2005-02-08'
+closed: '2009-11-30'
+history_url: https://datatracker.ietf.org/group/ltru/history/
+chairs:
+- person: 10492
+  name: Randy Presuhn
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-03-09'
+      not_before: '2005-02-08'
+    end:
+      certainty: group-closed
+      date: '2009-11-30'
+    notes:
+    - start moved earlier by WG Action announcement of 2005-03-09
+  evidence:
+  - kind: WG Action
+    date: '2005-03-09'
+    subject: 'WG Action: Language Tag Registry Update (ltru)'
+    message_id: null
+  - kind: WG Review
+    date: '2006-08-22'
+    subject: 'WG Review: Recharter of Language Tag Registry Update (ltru)'
+    message_id: null
+  - kind: WG Action
+    date: '2006-09-06'
+    subject: 'WG Action: RECHARTER: Language Tag Registry Update (ltru)'
+    message_id: null
+- person: 18880
+  name: Martin Dürst
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-09-06'
+      not_before: '2005-02-08'
+    end:
+      certainty: group-closed
+      date: '2009-11-30'
+    notes:
+    - start moved earlier by WG Action announcement of 2006-09-06
+  evidence:
+  - kind: WG Review
+    date: '2006-08-22'
+    subject: 'WG Review: Recharter of Language Tag Registry Update (ltru)'
+    message_id: null
+  - kind: WG Action
+    date: '2006-09-06'
+    subject: 'WG Action: RECHARTER: Language Tag Registry Update (ltru)'
+    message_id: null

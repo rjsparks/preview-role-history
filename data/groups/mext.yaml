@@ -1,0 +1,106 @@
+acronym: mext
+name: Mobility EXTensions for IPv6
+type: wg
+parent: int
+state: conclude
+started: '2007-06-18'
+closed: '2012-03-05'
+history_url: https://datatracker.ietf.org/group/mext/history/
+chairs:
+- person: 105255
+  name: Marcelo Bagnulo
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2007-11-26'
+    end:
+      certainty: evidence-only
+      not_before: '2011-07-24'
+  evidence:
+  - kind: WG Action
+    date: '2007-11-26'
+    subject: 'WG Action: Mobility EXTensions for IPv6 WG (mext)'
+    message_id: null
+  - kind: WG Review
+    date: '2008-05-14'
+    subject: 'WG Review: Recharter of Mobility EXTensions for IPv6 (mext)'
+    message_id: null
+  - kind: WG Review
+    date: '2010-08-16'
+    subject: 'WG Review: Recharter of Mobility EXTensions for IPv6 (mext)'
+    message_id: null
+  - kind: WG Action
+    date: '2011-01-25'
+    subject: 'WG Action: RECHARTER: Mobility EXTensions for IPv6 (mext)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    - '75'
+    - '77'
+    - '80'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 106186
+  name: Julien Laganier
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-11-26'
+      not_before: '2007-06-18'
+    end:
+      certainty: group-closed
+      date: '2012-03-05'
+    notes:
+    - start moved earlier by WG Action announcement of 2007-11-26
+  evidence:
+  - kind: WG Action
+    date: '2007-11-26'
+    subject: 'WG Action: Mobility EXTensions for IPv6 WG (mext)'
+    message_id: null
+  - kind: WG Review
+    date: '2008-05-14'
+    subject: 'WG Review: Recharter of Mobility EXTensions for IPv6 (mext)'
+    message_id: null
+  - kind: WG Review
+    date: '2010-08-16'
+    subject: 'WG Review: Recharter of Mobility EXTensions for IPv6 (mext)'
+    message_id: null
+  - kind: WG Action
+    date: '2011-01-25'
+    subject: 'WG Action: RECHARTER: Mobility EXTensions for IPv6 (mext)'
+    message_id: null
+  - kind: WG Action
+    date: '2012-01-10'
+    subject: 'WG Action: RECHARTER: Distributed Mobility Management (dmm) - formerly Mobility EXTensions
+      for IPv6 (mext)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '70'
+    - '76'
+    - '78'
+    - '79'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 109800
+  name: Jouni Korhonen
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2012-01-10'
+      not_before: '2007-06-18'
+    end:
+      certainty: group-closed
+      date: '2012-03-05'
+  evidence:
+  - kind: WG Action
+    date: '2012-01-10'
+    subject: 'WG Action: RECHARTER: Distributed Mobility Management (dmm) - formerly Mobility EXTensions
+      for IPv6 (mext)'
+    message_id: null

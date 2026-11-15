@@ -1,0 +1,62 @@
+acronym: drip
+name: Drone Remote ID Protocol
+type: wg
+parent: int
+state: conclude
+started: '2020-02-11'
+closed: '2026-06-09'
+history_url: https://datatracker.ietf.org/group/drip/history/
+chairs:
+- person: 103539
+  name: Gonzalo Camarillo
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2020-02-11'
+      not_before: '2020-02-11'
+    end:
+      certainty: exact
+      date: '2020-02-12'
+- person: 106842
+  name: Murray Kucherawy
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-03-19'
+    end:
+      certainty: group-closed
+      date: '2026-06-09'
+- person: 109969
+  name: Daniel Migault
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2020-02-11'
+      not_before: '2020-02-11'
+    end:
+      certainty: group-closed
+      date: '2026-06-09'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-drip-arch
+    - draft-ietf-drip-registries
+- person: 112869
+  name: Mohamed Boucadair
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-03-12'
+    end:
+      certainty: exact
+      date: '2025-03-19'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-drip-auth
+    - draft-ietf-drip-reqs
+    - draft-ietf-drip-rid

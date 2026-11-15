@@ -1,0 +1,67 @@
+acronym: tcpinc
+name: TCP Increased Security
+type: wg
+parent: tsv
+state: conclude
+started: '2014-05-21'
+closed: '2019-06-05'
+history_url: https://datatracker.ietf.org/group/tcpinc/history/
+chairs:
+- person: 103156
+  name: David Black
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-10-22'
+    end:
+      certainty: group-closed
+      date: '2019-06-05'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-tcpinc-tcpeno
+- person: 105255
+  name: Marcelo Bagnulo
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-06-27'
+    end:
+      certainty: exact
+      date: '2015-07-24'
+- person: 110121
+  name: Tero Kivinen
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-07-07'
+    end:
+      certainty: exact
+      date: '2015-07-24'
+- person: 112330
+  name: Mirja Kühlewind
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-07-24'
+    end:
+      certainty: exact
+      date: '2016-04-18'
+- person: 119463
+  name: Kyle Rose
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-11-10'
+    end:
+      certainty: group-closed
+      date: '2019-06-05'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-tcpinc-tcpcrypt

@@ -1,0 +1,31 @@
+acronym: ipngwg
+name: IPNG
+type: wg
+parent: int
+state: conclude
+started: '1994-10-30'
+closed: '2001-12-06'
+history_url: https://datatracker.ietf.org/group/ipngwg/history/
+chairs:
+- person: 2793
+  name: Bob Hinden
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2001-12-06'
+      not_before: '1994-10-30'
+    end:
+      certainty: group-closed
+      date: '2001-12-06'
+- person: 9009
+  name: Steve Deering
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2001-12-06'
+      not_before: '1994-10-30'
+    end:
+      certainty: group-closed
+      date: '2001-12-06'

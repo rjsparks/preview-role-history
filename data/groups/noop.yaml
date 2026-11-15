@@ -1,0 +1,31 @@
+acronym: noop
+name: Network OSI Operations
+type: wg
+parent: ops-old
+state: conclude
+started: '1991-03-12'
+closed: '1994-04-14'
+history_url: https://datatracker.ietf.org/group/noop/history/
+chairs:
+- person: 3056
+  name: Sue Hares
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1994-04-14'
+      not_before: '1991-03-12'
+    end:
+      certainty: group-closed
+      date: '1994-04-14'
+- person: 3458
+  name: Cathy Wittbrodt
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1994-04-14'
+      not_before: '1991-03-12'
+    end:
+      certainty: group-closed
+      date: '1994-04-14'

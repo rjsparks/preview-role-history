@@ -1,0 +1,36 @@
+acronym: ieprep
+name: Internet Emergency Preparedness
+type: wg
+parent: rai
+state: conclude
+started: '2002-01-18'
+closed: '2007-09-10'
+history_url: https://datatracker.ietf.org/group/ieprep/history/
+chairs:
+- person: 2324
+  name: Scott Bradner
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-09-10'
+      not_before: '2002-01-18'
+    end:
+      certainty: group-closed
+      date: '2007-09-10'
+  evidence:
+  - kind: WG Review
+    date: '2006-11-01'
+    subject: 'WG Review: Recharter of Internet Emergency Preparedness (ieprep)'
+    message_id: null
+- person: 102997
+  name: Kimberly King
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-09-10'
+      not_before: '2002-01-18'
+    end:
+      certainty: group-closed
+      date: '2007-09-10'

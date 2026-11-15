@@ -1,0 +1,48 @@
+acronym: sipclf
+name: SIP Common Log Format
+type: wg
+parent: rai
+state: conclude
+started: '2009-08-24'
+closed: '2013-02-19'
+history_url: https://datatracker.ietf.org/group/sipclf/history/
+chairs:
+- person: 107190
+  name: Spencer Dawkins
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2009-11-08'
+    end:
+      certainty: evidence-only
+      not_before: '2010-03-21'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '76'
+    - '77'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 111371
+  name: Peter Musgrave
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-07-25'
+      not_before: '2009-08-24'
+    end:
+      certainty: group-closed
+      date: '2013-02-19'
+    notes:
+    - start moved earlier by session request for IETF 78
+  evidence:
+  - kind: session requests
+    meetings:
+    - '78'
+    - '79'
+    - '80'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-sipclf-problem-statement

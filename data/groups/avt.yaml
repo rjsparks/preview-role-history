@@ -1,0 +1,131 @@
+acronym: avt
+name: Audio/Video Transport
+type: wg
+parent: rai
+state: conclude
+started: '1992-03-05'
+closed: '2011-03-18'
+history_url: https://datatracker.ietf.org/group/avt/history/
+chairs:
+- person: 20209
+  name: Colin Perkins
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-08-22'
+    end:
+      certainty: evidence-only
+      not_before: '2007-10-23'
+  evidence:
+  - kind: WG Action
+    date: '2006-08-22'
+    subject: 'WG Action: RECHARTER: Audio/Video Transport (avt)'
+    message_id: null
+  - kind: WG Action
+    date: '2007-10-23'
+    subject: 'WG Action: RECHARTER: Audio/Video Transport WG (avt)'
+    message_id: null
+- person: 100754
+  name: Tom Taylor
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-08-22'
+    end:
+      certainty: evidence-only
+      not_before: '2010-02-09'
+  evidence:
+  - kind: WG Action
+    date: '2006-08-22'
+    subject: 'WG Action: RECHARTER: Audio/Video Transport (avt)'
+    message_id: null
+  - kind: WG Action
+    date: '2007-10-23'
+    subject: 'WG Action: RECHARTER: Audio/Video Transport WG (avt)'
+    message_id: null
+  - kind: WG Review
+    date: '2010-01-25'
+    subject: 'WG Review: Recharter of Audio/Video Transport (avt)'
+    message_id: null
+  - kind: WG Action
+    date: '2010-02-09'
+    subject: 'WG Action: RECHARTER: Audio/Video Transport (avt)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '67'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 104294
+  name: Magnus Westerlund
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-03-19'
+    end:
+      certainty: evidence-only
+      not_before: '2006-07-09'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 105097
+  name: Keith Drage
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-03-18'
+      not_before: '1992-03-05'
+    end:
+      certainty: group-closed
+      date: '2011-03-18'
+- person: 105873
+  name: Roni Even
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-08-22'
+      not_before: '1992-03-05'
+    end:
+      certainty: group-closed
+      date: '2011-03-18'
+    notes:
+    - start moved earlier by WG Action announcement of 2006-08-22
+  evidence:
+  - kind: WG Action
+    date: '2006-08-22'
+    subject: 'WG Action: RECHARTER: Audio/Video Transport (avt)'
+    message_id: null
+  - kind: WG Action
+    date: '2007-10-23'
+    subject: 'WG Action: RECHARTER: Audio/Video Transport WG (avt)'
+    message_id: null
+  - kind: WG Review
+    date: '2010-01-25'
+    subject: 'WG Review: Recharter of Audio/Video Transport (avt)'
+    message_id: null
+  - kind: WG Action
+    date: '2010-02-09'
+    subject: 'WG Action: RECHARTER: Audio/Video Transport (avt)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    - '75'
+    - '76'
+    - '77'
+    - '78'
+    - '79'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

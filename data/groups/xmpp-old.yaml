@@ -1,0 +1,31 @@
+acronym: xmpp-old
+name: Extensible Messaging and Presence Protocol
+type: wg
+parent: app
+state: conclude
+started: '2002-08-29'
+closed: '2004-10-08'
+history_url: https://datatracker.ietf.org/group/xmpp-old/history/
+chairs:
+- person: 18321
+  name: Pete Resnick
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-10-08'
+      not_before: '2002-08-29'
+    end:
+      certainty: group-closed
+      date: '2004-10-08'
+- person: 22971
+  name: Lisa Dusseault
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-10-08'
+      not_before: '2002-08-29'
+    end:
+      certainty: group-closed
+      date: '2004-10-08'

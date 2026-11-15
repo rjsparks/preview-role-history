@@ -1,0 +1,45 @@
+acronym: ivy
+name: Network Inventory YANG
+type: wg
+parent: ops
+state: active
+started: '2023-06-08'
+closed: null
+history_url: https://datatracker.ietf.org/group/ivy/history/
+chairs:
+- person: 109703
+  name: Daniele Ceccarelli
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-06-08'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2023-06-09'
+    subject: 'WG Review: Network Inventory YANG (ivy)'
+    message_id: 168635140554.61379.15330664327711584307@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-06-23'
+    subject: 'WG Action: Formed Network Inventory YANG (ivy)'
+    message_id: 168753402752.55545.16307706395993731497@ietfa.amsl.com
+- person: 127495
+  name: Qiufang Ma
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-06-08'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2023-06-09'
+    subject: 'WG Review: Network Inventory YANG (ivy)'
+    message_id: 168635140554.61379.15330664327711584307@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-06-23'
+    subject: 'WG Action: Formed Network Inventory YANG (ivy)'
+    message_id: 168753402752.55545.16307706395993731497@ietfa.amsl.com

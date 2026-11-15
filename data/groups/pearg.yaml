@@ -1,0 +1,58 @@
+acronym: pearg
+name: Privacy Enhancements and Assessments Research Group
+type: rg
+parent: irtf
+state: active
+started: '2018-09-19'
+closed: null
+history_url: https://datatracker.ietf.org/group/pearg/history/
+chairs:
+- person: 112423
+  name: Sara Dickinson
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2018-09-19'
+      not_before: '2018-09-19'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-irtf-pearg-numeric-ids-history
+- person: 114505
+  name: Allison Mankin
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-11-22'
+    end:
+      certainty: ongoing
+- person: 121595
+  name: Christopher Wood
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-02-21'
+    end:
+      certainty: exact
+      date: '2024-01-08'
+- person: 123472
+  name: Shivan Sahib
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2018-09-19'
+      not_before: '2018-09-19'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-irtf-pearg-censorship
+    - draft-irtf-pearg-numeric-ids-generation
+    - draft-irtf-pearg-safe-internet-measurement

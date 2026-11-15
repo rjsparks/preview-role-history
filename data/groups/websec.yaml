@@ -1,0 +1,66 @@
+acronym: websec
+name: Web Security
+type: wg
+parent: app
+state: conclude
+started: '2010-09-23'
+closed: '2015-04-21'
+history_url: https://datatracker.ietf.org/group/websec/history/
+chairs:
+- person: 102154
+  name: Alexey Melnikov
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-07-24'
+      not_before: '2010-09-23'
+    end:
+      certainty: exact
+      date: '2012-07-30'
+    notes:
+    - start moved earlier by session request for IETF 81
+  evidence:
+  - kind: session requests
+    meetings:
+    - '81'
+    - '83'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-gondrom-frame-options
+    - draft-gondrom-x-frame-options
+- person: 106405
+  name: Tobias Gondrom
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-03-27'
+      not_before: '2010-09-23'
+    end:
+      certainty: group-closed
+      date: '2015-04-21'
+    notes:
+    - start moved earlier by session request for IETF 80
+  evidence:
+  - kind: session requests
+    meetings:
+    - '80'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 106745
+  name: Yoav Nir
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2012-07-30'
+    end:
+      certainty: group-closed
+      date: '2015-04-21'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-websec-key-pinning
+    - draft-ietf-websec-x-frame-options

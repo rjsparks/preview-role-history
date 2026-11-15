@@ -1,0 +1,74 @@
+acronym: sfc
+name: Service Function Chaining
+type: wg
+parent: rtg
+state: conclude
+started: '2013-09-24'
+closed: '2023-07-12'
+history_url: https://datatracker.ietf.org/group/sfc/history/
+chairs:
+- person: 3862
+  name: Joel Halpern
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-11-01'
+    end:
+      certainty: group-closed
+      date: '2023-07-12'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-sfc-nsh
+    - draft-ietf-sfc-problem-statement
+- person: 7262
+  name: Thomas Narten
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2013-09-25'
+    end:
+      certainty: exact
+      date: '2016-11-01'
+  evidence:
+  - kind: WG Review
+    date: '2013-12-12'
+    subject: 'WG Review: Service Function Chaining (sfc)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-sfc-long-lived-flow-use-cases
+- person: 105519
+  name: Martin Stiemerling
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-12-17'
+    end:
+      certainty: exact
+      date: '2016-11-01'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-sfc-control-plane
+- person: 105906
+  name: Jim Guichard
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2013-09-25'
+    end:
+      certainty: group-closed
+      date: '2023-07-12'
+  evidence:
+  - kind: WG Review
+    date: '2013-12-12'
+    subject: 'WG Review: Service Function Chaining (sfc)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-sfc-architecture

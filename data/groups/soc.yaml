@@ -1,0 +1,48 @@
+acronym: soc
+name: SIP Overload Control
+type: wg
+parent: rai
+state: conclude
+started: '2010-04-16'
+closed: '2015-02-02'
+history_url: https://datatracker.ietf.org/group/soc/history/
+chairs:
+- person: 104204
+  name: Volker Hilt
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2010-04-16'
+    end:
+      certainty: group-closed
+      date: '2015-02-02'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-soc-load-control-event-package
+    - draft-ietf-soc-overload-rate-control
+- person: 107491
+  name: Salvatore Loreto
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-07-25'
+      not_before: '2010-04-16'
+    end:
+      certainty: group-closed
+      date: '2015-02-02'
+    notes:
+    - start moved earlier by session request for IETF 78
+  evidence:
+  - kind: session requests
+    meetings:
+    - '78'
+    - '80'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-soc-overload-control

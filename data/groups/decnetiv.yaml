@@ -1,0 +1,20 @@
+acronym: decnetiv
+name: DECnet Phase IV MIB
+type: wg
+parent: mgt
+state: conclude
+started: '1993-04-15'
+closed: '1993-12-27'
+history_url: https://datatracker.ietf.org/group/decnetiv/history/
+chairs:
+- person: 2809
+  name: Jon Saperia
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1993-12-27'
+      not_before: '1993-04-15'
+    end:
+      certainty: group-closed
+      date: '1993-12-27'

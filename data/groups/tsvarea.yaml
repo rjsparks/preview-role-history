@@ -1,0 +1,121 @@
+acronym: tsvarea
+name: Transport Area Open Meeting
+type: ag
+parent: tsv
+state: conclude
+started: null
+closed: '2024-01-18'
+history_url: https://datatracker.ietf.org/group/tsvarea/history/
+chairs:
+- person: 17253
+  name: David Harrington
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2012-02-23'
+    end:
+      certainty: between
+      not_before: '2012-02-23'
+      not_after: '2020-03-19'
+- person: 104294
+  name: Magnus Westerlund
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2012-02-23'
+      not_after: '2020-03-19'
+    end:
+      certainty: exact
+      date: '2021-03-10'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '72'
+    - '73'
+    - '74'
+    - '76'
+    - '77'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 105519
+  name: Martin Stiemerling
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2012-02-23'
+      not_after: '2020-03-19'
+    end:
+      certainty: between
+      not_before: '2012-02-23'
+      not_after: '2020-03-19'
+- person: 106541
+  name: Martin Duke
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-03-19'
+    end:
+      certainty: group-closed
+      date: '2024-01-18'
+- person: 107190
+  name: Spencer Dawkins
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2012-02-23'
+      not_after: '2020-03-19'
+    end:
+      certainty: between
+      not_before: '2012-02-23'
+      not_after: '2020-03-19'
+  - start:
+      certainty: between
+      not_before: '2012-02-23'
+      not_after: '2020-03-19'
+    end:
+      certainty: between
+      not_before: '2012-02-23'
+      not_after: '2020-03-19'
+- person: 109753
+  name: Zaheduzzaman Sarker
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-03-10'
+    end:
+      certainty: group-closed
+      date: '2024-01-18'
+- person: 110856
+  name: Wesley Eddy
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-07-24'
+    end:
+      certainty: between
+      not_before: '2012-02-23'
+      not_after: '2020-03-19'
+    notes:
+    - start moved earlier by session request for IETF 81
+  evidence:
+  - kind: session requests
+    meetings:
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 112330
+  name: Mirja Kühlewind
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2012-02-23'
+      not_after: '2020-03-19'
+    end:
+      certainty: exact
+      date: '2020-03-26'

@@ -1,0 +1,96 @@
+acronym: nmrg
+name: Network Management
+type: rg
+parent: irtf
+state: active
+started: null
+closed: null
+history_url: https://datatracker.ietf.org/group/nmrg/history/
+chairs:
+- person: 21106
+  name: Jürgen Schönwälder
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-07-09'
+    end:
+      certainty: evidence-only
+      not_before: '2010-07-25'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '66'
+    - '68'
+    - '71'
+    - '78'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 108591
+  name: Laurent Ciavaglia
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-11-16'
+    end:
+      certainty: exact
+      date: '2025-07-20'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-irtf-nmrg-ibn-intent-classification
+- person: 109876
+  name: Olivier Festor
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2012-02-26'
+    end:
+      certainty: exact
+      date: '2015-11-03'
+- person: 112599
+  name: Lisandro Granville
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2012-02-26'
+    end:
+      certainty: exact
+      date: '2018-08-16'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-irtf-nmrg-an-gap-analysis
+    - draft-irtf-nmrg-autonomic-network-definitions
+- person: 116484
+  name: Jéferson Nobre
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-07-20'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-irtf-nmrg-ai-challenges
+    - draft-irtf-nmrg-ibn-usecases
+    - draft-kdj-nmrg-ibn-usecases
+- person: 121666
+  name: Jérôme François
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-05-08'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-irtf-nmrg-green-ps
+    - draft-irtf-nmrg-ibn-concepts-definitions
+    - draft-irtf-nmrg-network-digital-twin-arch

@@ -1,0 +1,20 @@
+acronym: ipfc
+name: IP over Fibre Channel
+type: wg
+parent: int
+state: conclude
+started: '1998-04-30'
+closed: '2002-01-22'
+history_url: https://datatracker.ietf.org/group/ipfc/history/
+chairs:
+- person: 14242
+  name: Murali Rajagopal
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2002-01-22'
+      not_before: '1998-04-30'
+    end:
+      certainty: group-closed
+      date: '2002-01-22'

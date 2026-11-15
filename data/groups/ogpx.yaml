@@ -1,0 +1,39 @@
+acronym: ogpx
+name: Open Grid Protocol
+type: wg
+parent: app
+state: conclude
+started: null
+closed: null
+history_url: https://datatracker.ietf.org/group/ogpx/history/
+chairs:
+- person: 21684
+  name: Barry Leiba
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+    end:
+      certainty: group-closed
+      date: '2011-12-09'
+- person: 104557
+  name: Jon Peterson
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+    end:
+      certainty: group-closed
+      date: '2011-12-09'
+- person: 109879
+  name: Meadhbh Hamrick
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+    end:
+      certainty: group-closed
+      date: '2011-12-09'

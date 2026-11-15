@@ -1,0 +1,31 @@
+acronym: ip1394
+name: IP Over IEEE 1394
+type: wg
+parent: int
+state: conclude
+started: '1997-07-07'
+closed: '2000-06-16'
+history_url: https://datatracker.ietf.org/group/ip1394/history/
+chairs:
+- person: 4475
+  name: Tony Li
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2000-06-16'
+      not_before: '1997-07-07'
+    end:
+      certainty: group-closed
+      date: '2000-06-16'
+- person: 10211
+  name: Myron Hattig
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2000-06-16'
+      not_before: '1997-07-07'
+    end:
+      certainty: group-closed
+      date: '2000-06-16'

@@ -1,0 +1,75 @@
+acronym: precis
+name: Preparation and Comparison of Internationalized Strings
+type: wg
+parent: art
+state: conclude
+started: '2010-04-23'
+closed: '2017-11-15'
+history_url: https://datatracker.ietf.org/group/precis/history/
+chairs:
+- person: 19869
+  name: Marc Blanchet
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-06-11'
+      not_before: '2010-04-23'
+    end:
+      certainty: group-closed
+      date: '2017-11-15'
+    notes:
+    - start moved earlier by WG Action announcement of 2010-06-11
+  evidence:
+  - kind: WG Action
+    date: '2010-06-11'
+    subject: 'WG Action: Preparation and Comparison of Internationalized Strings (precis)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '78'
+    - '79'
+    - '80'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-precis-7564bis
+    - draft-ietf-precis-7613bis
+    - draft-ietf-precis-7700bis
+- person: 102154
+  name: Alexey Melnikov
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-03-22'
+    end:
+      certainty: exact
+      date: '2016-03-15'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-precis-framework
+- person: 107041
+  name: Yoshiro Yoneya
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-06-11'
+      not_before: '2010-04-23'
+    end:
+      certainty: exact
+      date: '2015-03-22'
+    notes:
+    - start moved earlier by WG Action announcement of 2010-06-11
+  evidence:
+  - kind: WG Action
+    date: '2010-06-11'
+    subject: 'WG Action: Preparation and Comparison of Internationalized Strings (precis)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

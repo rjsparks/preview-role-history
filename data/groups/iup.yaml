@@ -1,0 +1,20 @@
+acronym: iup
+name: Internet User Population
+type: wg
+parent: usv
+state: conclude
+started: '1989-10-02'
+closed: '1990-11-16'
+history_url: https://datatracker.ietf.org/group/iup/history/
+chairs:
+- person: 1307
+  name: Craig Partridge
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1990-11-16'
+      not_before: '1989-10-02'
+    end:
+      certainty: group-closed
+      date: '1990-11-16'

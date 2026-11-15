@@ -1,0 +1,51 @@
+acronym: ltans
+name: Long-Term Archive and Notary Services
+type: wg
+parent: app
+state: conclude
+started: '2003-09-25'
+closed: '2011-07-19'
+history_url: https://datatracker.ietf.org/group/ltans/history/
+chairs:
+- person: 106155
+  name: Carl Wallace
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '2003-09-25'
+    end:
+      certainty: group-closed
+      date: '2011-07-19'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    - '69'
+    - '70'
+    - '71'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 106405
+  name: Tobias Gondrom
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-03-18'
+      not_before: '2003-09-25'
+    end:
+      certainty: group-closed
+      date: '2011-07-19'
+    notes:
+    - start moved earlier by session request for IETF 68
+  evidence:
+  - kind: session requests
+    meetings:
+    - '68'
+    - '78'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

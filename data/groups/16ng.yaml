@@ -1,0 +1,60 @@
+acronym: 16ng
+name: IP over IEEE 802.16 Networks
+type: wg
+parent: int
+state: conclude
+started: '2005-09-30'
+closed: '2010-06-07'
+history_url: https://datatracker.ietf.org/group/16ng/history/
+chairs:
+- person: 107670
+  name: Soohong Park
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-06-28'
+      not_before: '2005-09-30'
+    end:
+      certainty: group-closed
+      date: '2010-06-07'
+    notes:
+    - start moved earlier by WG Action announcement of 2006-06-28
+  evidence:
+  - kind: WG Action
+    date: '2006-06-28'
+    subject: 'WG Action: IP over IEEE 802.16 Networks (16ng)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '67'
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 108488
+  name: Gabriel Montenegro
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-06-28'
+      not_before: '2005-09-30'
+    end:
+      certainty: group-closed
+      date: '2010-06-07'
+    notes:
+    - start moved earlier by WG Action announcement of 2006-06-28
+  evidence:
+  - kind: WG Action
+    date: '2006-06-28'
+    subject: 'WG Action: IP over IEEE 802.16 Networks (16ng)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '75'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

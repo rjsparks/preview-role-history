@@ -1,0 +1,65 @@
+acronym: deleg
+name: DNS Delegation
+type: wg
+parent: int
+state: active
+started: '2024-02-08'
+closed: null
+history_url: https://datatracker.ietf.org/group/deleg/history/
+chairs:
+- person: 10083
+  name: Paul Hoffman
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-03-06'
+    end:
+      certainty: exact
+      date: '2024-05-03'
+- person: 20778
+  name: Duane Wessels
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-05-20'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2024-06-04'
+    subject: 'WG Review: DNS Delegation (deleg)'
+    message_id: 171754227931.34912.7840384747922349995@ietfa.amsl.com
+  - kind: WG Action
+    date: '2024-06-26'
+    subject: 'WG Action: Formed DNS Delegation (deleg)'
+    message_id: 171942019922.389482.12905494501523767569@dt-datatracker-5864469bc9-n5hqk
+- person: 100664
+  name: Brian Haberman
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-05-20'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2024-06-04'
+    subject: 'WG Review: DNS Delegation (deleg)'
+    message_id: 171754227931.34912.7840384747922349995@ietfa.amsl.com
+  - kind: WG Action
+    date: '2024-06-26'
+    subject: 'WG Action: Formed DNS Delegation (deleg)'
+    message_id: 171942019922.389482.12905494501523767569@dt-datatracker-5864469bc9-n5hqk
+- person: 117099
+  name: Wes Hardaker
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-03-06'
+    end:
+      certainty: exact
+      date: '2024-05-03'

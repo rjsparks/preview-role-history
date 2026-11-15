@@ -1,0 +1,31 @@
+acronym: kink
+name: Kerberized Internet Negotiation of Keys
+type: wg
+parent: sec
+state: conclude
+started: '2000-08-21'
+closed: '2006-04-05'
+history_url: https://datatracker.ietf.org/group/kink/history/
+chairs:
+- person: 8698
+  name: Derek Atkins
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-04-05'
+      not_before: '2000-08-21'
+    end:
+      certainty: group-closed
+      date: '2006-04-05'
+- person: 19586
+  name: Jonathan Trostle
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-04-05'
+      not_before: '2000-08-21'
+    end:
+      certainty: group-closed
+      date: '2006-04-05'

@@ -1,0 +1,20 @@
+acronym: mixer
+name: MIME - X.400 Gateway
+type: wg
+parent: app
+state: conclude
+started: '1995-06-20'
+closed: '1998-03-17'
+history_url: https://datatracker.ietf.org/group/mixer/history/
+chairs:
+- person: 4780
+  name: Urs Eppenberger
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1998-03-17'
+      not_before: '1995-06-20'
+    end:
+      certainty: group-closed
+      date: '1998-03-17'

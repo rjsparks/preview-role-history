@@ -1,0 +1,19 @@
+acronym: certrans
+name: Certificate Transparency
+type: wg
+parent: sec
+state: bof-conc
+started: '2012-09-26'
+closed: '2013-01-31'
+history_url: https://datatracker.ietf.org/group/certrans/history/
+chairs:
+- person: 10083
+  name: Paul Hoffman
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2012-09-26'
+    end:
+      certainty: group-closed
+      date: '2013-01-31'

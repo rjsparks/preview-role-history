@@ -1,0 +1,31 @@
+acronym: grip
+name: G & R for Security Incident Processing
+type: wg
+parent: ops
+state: conclude
+started: '1995-02-04'
+closed: '2001-12-12'
+history_url: https://datatracker.ietf.org/group/grip/history/
+chairs:
+- person: 3793
+  name: Barbara Fraser
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2001-12-12'
+      not_before: '1995-02-04'
+    end:
+      certainty: group-closed
+      date: '2001-12-12'
+- person: 11841
+  name: Klaus-Peter Kossakowski
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2001-12-12'
+      not_before: '1995-02-04'
+    end:
+      certainty: group-closed
+      date: '2001-12-12'

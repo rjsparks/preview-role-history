@@ -1,0 +1,48 @@
+acronym: monami6
+name: Mobile Nodes and Multiple Interfaces in IPv6
+type: wg
+parent: int
+state: conclude
+started: '2005-06-01'
+closed: '2007-11-20'
+history_url: https://datatracker.ietf.org/group/monami6/history/
+chairs:
+- person: 105712
+  name: Thierry Ernst
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '2005-06-01'
+    end:
+      certainty: group-closed
+      date: '2007-11-20'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '68'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 105966
+  name: Nicolas Montavont
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-11-05'
+      not_before: '2005-06-01'
+    end:
+      certainty: group-closed
+      date: '2007-11-20'
+    notes:
+    - start moved earlier by session request for IETF 67
+  evidence:
+  - kind: session requests
+    meetings:
+    - '67'
+    - '69'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

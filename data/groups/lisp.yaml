@@ -1,0 +1,172 @@
+acronym: lisp
+name: Locator/ID Separation Protocol
+type: wg
+parent: rtg
+state: active
+started: '2009-04-27'
+closed: null
+history_url: https://datatracker.ietf.org/group/lisp/history/
+chairs:
+- person: 3862
+  name: Joel Halpern
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-03-21'
+      not_before: '2009-04-27'
+    end:
+      certainty: exact
+      date: '2022-08-17'
+    notes:
+    - start moved earlier by session request for IETF 77
+  evidence:
+  - kind: WG Review
+    date: '2012-01-19'
+    subject: 'WG Review: Recharter of Locator/ID Separation Protocol (lisp)'
+    message_id: null
+  - kind: WG Review
+    date: '2012-02-14'
+    subject: 'WG Review: Recharter of Locator/ID Separation Protocol (lisp)'
+    message_id: null
+  - kind: WG Action
+    date: '2012-03-19'
+    subject: 'WG Action: RECHARTER: Locator/ID Separation Protocol (lisp)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '77'
+    - '78'
+    - '79'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-chiappa-lisp-architecture
+    - draft-ietf-lisp-rfc8113bis
+    - draft-ietf-lisp-threats
+- person: 103048
+  name: Sam Hartman
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2009-04-28'
+    end:
+      certainty: evidence-only
+      not_before: '2009-04-28'
+  evidence:
+  - kind: WG Action
+    date: '2009-04-28'
+    subject: 'WG Action: Locator/ID Separation Protocol (lisp)'
+    message_id: null
+- person: 108822
+  name: Terry Manderson
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-03-27'
+      not_before: '2009-04-27'
+    end:
+      certainty: exact
+      date: '2014-07-24'
+    notes:
+    - start moved earlier by session request for IETF 80
+  evidence:
+  - kind: WG Review
+    date: '2012-01-19'
+    subject: 'WG Review: Recharter of Locator/ID Separation Protocol (lisp)'
+    message_id: null
+  - kind: WG Review
+    date: '2012-02-14'
+    subject: 'WG Review: Recharter of Locator/ID Separation Protocol (lisp)'
+    message_id: null
+  - kind: WG Action
+    date: '2012-03-19'
+    subject: 'WG Action: RECHARTER: Locator/ID Separation Protocol (lisp)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '80'
+    - '81'
+    - '83'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 108833
+  name: Luigi Iannone
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-03-11'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2023-12-11'
+    subject: 'WG Review: Locator/ID Separation Protocol (lisp)'
+    message_id: 170231766594.64188.5257306369834251207@ietfa.amsl.com
+  - kind: WG Action
+    date: '2024-01-25'
+    subject: 'WG Action: Rechartered Locator/ID Separation Protocol (lisp)'
+    message_id: 170620116545.44425.509387690761721186@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-lisp-crypto
+    - draft-ietf-lisp-ddt
+    - draft-ietf-lisp-gpe
+    - draft-ietf-lisp-introduction
+    - draft-ietf-lisp-lcaf
+    - draft-ietf-lisp-mib
+    - draft-ietf-lisp-nexagon
+    - draft-ietf-lisp-pubsub
+    - draft-ietf-lisp-rfc6830bis
+    - draft-ietf-lisp-rfc6831bis
+    - draft-ietf-lisp-rfc6833bis
+    - draft-ietf-lisp-rfc8378bis
+    - draft-ietf-lisp-sec
+    - draft-ietf-lisp-signal-free-multicast
+    - draft-ietf-lisp-type-iana
+    - draft-ietf-lisp-vendor-lcaf
+- person: 121160
+  name: Padma Pillay-Esnault
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-08-17'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2023-12-11'
+    subject: 'WG Review: Locator/ID Separation Protocol (lisp)'
+    message_id: 170231766594.64188.5257306369834251207@ietfa.amsl.com
+  - kind: WG Action
+    date: '2024-01-25'
+    subject: 'WG Action: Rechartered Locator/ID Separation Protocol (lisp)'
+    message_id: 170620116545.44425.509387690761721186@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-iannone-6834bis
+    - draft-ietf-lisp-6834bis
+    - draft-ietf-lisp-te
+- person: 135649
+  name: Darrel Lewis
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2009-04-28'
+    end:
+      certainty: evidence-only
+      not_before: '2009-11-08'
+  evidence:
+  - kind: WG Action
+    date: '2009-04-28'
+    subject: 'WG Action: Locator/ID Separation Protocol (lisp)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '75'
+    - '76'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

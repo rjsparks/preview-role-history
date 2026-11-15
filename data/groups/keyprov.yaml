@@ -1,0 +1,58 @@
+acronym: keyprov
+name: Provisioning of Symmetric Keys
+type: wg
+parent: sec
+state: conclude
+started: '2007-01-16'
+closed: '2010-12-21'
+history_url: https://datatracker.ietf.org/group/keyprov/history/
+chairs:
+- person: 105857
+  name: Hannes Tschofenig
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-01-30'
+      not_before: '2007-01-16'
+    end:
+      certainty: group-closed
+      date: '2010-12-21'
+    notes:
+    - start moved earlier by WG Action announcement of 2007-01-30
+  evidence:
+  - kind: WG Action
+    date: '2007-01-30'
+    subject: 'WG Action: Provisioning of Symmetric Keys (keyprov)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '69'
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    - '75'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 110217
+  name: Phillip Hallam-Baker
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-01-30'
+      not_before: '2007-01-16'
+    end:
+      certainty: group-closed
+      date: '2010-12-21'
+    notes:
+    - start moved earlier by WG Action announcement of 2007-01-30
+  evidence:
+  - kind: WG Action
+    date: '2007-01-30'
+    subject: 'WG Action: Provisioning of Symmetric Keys (keyprov)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '70'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

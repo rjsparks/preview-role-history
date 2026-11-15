@@ -1,0 +1,80 @@
+acronym: dccp
+name: Datagram Congestion Control Protocol
+type: wg
+parent: tsv
+state: conclude
+started: '2002-06-07'
+closed: '2012-11-27'
+history_url: https://datatracker.ietf.org/group/dccp/history/
+chairs:
+- person: 101742
+  name: Thomas Phelan
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-07-11'
+      not_before: '2002-06-07'
+    end:
+      certainty: group-closed
+      date: '2012-11-27'
+    notes:
+    - start moved earlier by WG Action announcement of 2006-07-11
+  evidence:
+  - kind: WG Review
+    date: '2006-06-27'
+    subject: 'WG Review: Recharter of Datagram Congestion Control Protocol (dccp)'
+    message_id: null
+  - kind: WG Action
+    date: '2006-07-11'
+    subject: 'WG Action: RECHARTER: Datagram Congestion Control Protocol (dccp)'
+    message_id: null
+- person: 104331
+  name: Gorry Fairhurst
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-06-27'
+    end:
+      certainty: evidence-only
+      not_before: '2009-03-22'
+  evidence:
+  - kind: WG Review
+    date: '2006-06-27'
+    subject: 'WG Review: Recharter of Datagram Congestion Control Protocol (dccp)'
+    message_id: null
+  - kind: WG Action
+    date: '2006-07-11'
+    subject: 'WG Action: RECHARTER: Datagram Congestion Control Protocol (dccp)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '66'
+    - '67'
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 109321
+  name: Pasi Sarolahti
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2009-11-08'
+      not_before: '2002-06-07'
+    end:
+      certainty: group-closed
+      date: '2012-11-27'
+    notes:
+    - start moved earlier by session request for IETF 76
+  evidence:
+  - kind: session requests
+    meetings:
+    - '76'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

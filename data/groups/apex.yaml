@@ -1,0 +1,20 @@
+acronym: apex
+name: Application Exchange
+type: wg
+parent: app
+state: conclude
+started: '2001-01-18'
+closed: '2003-12-19'
+history_url: https://datatracker.ietf.org/group/apex/history/
+chairs:
+- person: 18321
+  name: Pete Resnick
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2003-12-19'
+      not_before: '2001-01-18'
+    end:
+      certainty: group-closed
+      date: '2003-12-19'

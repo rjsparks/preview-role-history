@@ -1,0 +1,20 @@
+acronym: madman
+name: Mail and Directory Management
+type: wg
+parent: app
+state: conclude
+started: '1993-03-15'
+closed: '2000-04-17'
+history_url: https://datatracker.ietf.org/group/madman/history/
+chairs:
+- person: 123038
+  name: Steve Kille
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2000-04-17'
+      not_before: '1993-03-15'
+    end:
+      certainty: group-closed
+      date: '2000-04-17'

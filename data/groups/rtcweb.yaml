@@ -1,0 +1,122 @@
+acronym: rtcweb
+name: Real-Time Communication in WEB-browsers
+type: wg
+parent: wit
+state: conclude
+started: '2011-03-31'
+closed: '2024-04-15'
+history_url: https://datatracker.ietf.org/group/rtcweb/history/
+chairs:
+- person: 19483
+  name: Sean Turner
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-04-16'
+    end:
+      certainty: group-closed
+      date: '2024-04-15'
+  evidence:
+  - kind: WG Review
+    date: '2021-02-05'
+    subject: 'WG Review: Real-Time Communication in WEB-browsers (rtcweb)'
+    message_id: 161254830574.24177.6283320825513096599@ietfa.amsl.com
+  - kind: WG Action
+    date: '2021-02-19'
+    subject: 'WG Action: Rechartered Real-Time Communication in WEB-browsers (rtcweb)'
+    message_id: 161375655330.29021.8215379109983130364@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-rtcweb-alpn
+    - draft-ietf-rtcweb-ip-handling
+    - draft-ietf-rtcweb-overview
+    - draft-ietf-rtcweb-security
+    - draft-ietf-rtcweb-security-arch
+    - draft-ietf-rtcweb-use-cases-and-requirements
+    - draft-ietf-rtcweb-video
+    - draft-uberti-rtcweb-rfc8829bis
+- person: 104294
+  name: Magnus Westerlund
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-05-03'
+      not_before: '2011-03-31'
+    end:
+      certainty: exact
+      date: '2014-04-16'
+    notes:
+    - start moved earlier by WG Action announcement of 2011-05-03
+  evidence:
+  - kind: WG Action
+    date: '2011-05-03'
+    subject: 'WG Action: Real-Time Communication in WEB-browsers (rtcweb)'
+    message_id: null
+- person: 105791
+  name: Cullen Jennings
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-05-03'
+      not_before: '2011-03-31'
+    end:
+      certainty: exact
+      date: '2018-11-19'
+    notes:
+    - start moved earlier by WG Action announcement of 2011-05-03
+  evidence:
+  - kind: WG Action
+    date: '2011-05-03'
+    subject: 'WG Action: Real-Time Communication in WEB-browsers (rtcweb)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-rtcweb-audio
+    - draft-ietf-rtcweb-audio-codecs-for-interop
+    - draft-ietf-rtcweb-transports
+- person: 110721
+  name: Ted Hardie
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-05-03'
+      not_before: '2011-03-31'
+    end:
+      certainty: group-closed
+      date: '2024-04-15'
+    notes:
+    - start moved earlier by WG Action announcement of 2011-05-03
+  evidence:
+  - kind: WG Action
+    date: '2011-05-03'
+    subject: 'WG Action: Real-Time Communication in WEB-browsers (rtcweb)'
+    message_id: null
+  - kind: WG Review
+    date: '2021-02-05'
+    subject: 'WG Review: Real-Time Communication in WEB-browsers (rtcweb)'
+    message_id: 161254830574.24177.6283320825513096599@ietfa.amsl.com
+  - kind: WG Action
+    date: '2021-02-19'
+    subject: 'WG Action: Rechartered Real-Time Communication in WEB-browsers (rtcweb)'
+    message_id: 161375655330.29021.8215379109983130364@ietfa.amsl.com
+  - kind: session requests
+    meetings:
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-rtcweb-data-channel
+    - draft-ietf-rtcweb-data-protocol
+    - draft-ietf-rtcweb-fec
+    - draft-ietf-rtcweb-jsep
+    - draft-ietf-rtcweb-rtp-usage
+    - draft-ietf-rtcweb-sdp
+    - draft-ietf-rtcweb-stun-consent-freshness

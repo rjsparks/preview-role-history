@@ -1,0 +1,94 @@
+acronym: lake
+name: Lightweight Authenticated Key Exchange
+type: wg
+parent: sec
+state: active
+started: '2019-06-11'
+closed: null
+history_url: https://datatracker.ietf.org/group/lake/history/
+chairs:
+- person: 19177
+  name: Stephen Farrell
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2019-06-11'
+      not_before: '2019-06-11'
+    end:
+      certainty: exact
+      date: '2025-01-28'
+  evidence:
+  - kind: WG Review
+    date: '2023-06-20'
+    subject: 'WG Review: Lightweight Authenticated Key Exchange (lake)'
+    message_id: 168728827251.43256.8621342880081680594@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-07-19'
+    subject: 'WG Action: Rechartered Lightweight Authenticated Key Exchange (lake)'
+    message_id: 168978694936.45551.15730493855971621179@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-lake-traces
+- person: 106745
+  name: Yoav Nir
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2019-06-11'
+      not_before: '2019-06-11'
+    end:
+      certainty: exact
+      date: '2019-09-25'
+- person: 114404
+  name: Mališa Vučinić
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-10-30'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2023-06-20'
+    subject: 'WG Review: Lightweight Authenticated Key Exchange (lake)'
+    message_id: 168728827251.43256.8621342880081680594@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-07-19'
+    subject: 'WG Action: Rechartered Lightweight Authenticated Key Exchange (lake)'
+    message_id: 168978694936.45551.15730493855971621179@ietfa.amsl.com
+  - kind: WG Review
+    date: '2026-02-23'
+    subject: 'WG Review: Lightweight Authenticated Key Exchange (lake)'
+    message_id: 177188333405.2078461.3764633439531003550@dt-datatracker-6ff7c68975-7k42g
+  - kind: WG Action
+    date: '2026-03-06'
+    subject: 'WG Action: Rechartered Lightweight Authenticated Key Exchange (lake)'
+    message_id: 177282844401.329537.9786762057038303711@dt-datatracker-5477d56788-kn86m
+  - kind: shepherded
+    documents:
+    - draft-ietf-lake-edhoc
+    - draft-ietf-lake-edhoc-impl-cons
+- person: 140327
+  name: Renzo Navas
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-01-28'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2026-02-23'
+    subject: 'WG Review: Lightweight Authenticated Key Exchange (lake)'
+    message_id: 177188333405.2078461.3764633439531003550@dt-datatracker-6ff7c68975-7k42g
+  - kind: WG Action
+    date: '2026-03-06'
+    subject: 'WG Action: Rechartered Lightweight Authenticated Key Exchange (lake)'
+    message_id: 177282844401.329537.9786762057038303711@dt-datatracker-5477d56788-kn86m
+  - kind: shepherded
+    documents:
+    - draft-ietf-lake-authz

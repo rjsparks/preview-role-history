@@ -1,0 +1,20 @@
+acronym: cipso
+name: Commercial Internet Protocol Security Option
+type: wg
+parent: sec
+state: conclude
+started: '1991-03-12'
+closed: '1995-03-07'
+history_url: https://datatracker.ietf.org/group/cipso/history/
+chairs:
+- person: 4245
+  name: Ron Sharp
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1995-03-07'
+      not_before: '1991-03-12'
+    end:
+      certainty: group-closed
+      date: '1995-03-07'

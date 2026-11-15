@@ -1,0 +1,59 @@
+acronym: perc
+name: Privacy Enhanced RTP Conferencing
+type: wg
+parent: art
+state: conclude
+started: '2015-06-01'
+closed: '2022-04-14'
+history_url: https://datatracker.ietf.org/group/perc/history/
+chairs:
+- person: 108049
+  name: Richard Barnes
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2015-06-01'
+      not_before: '2015-06-01'
+    end:
+      certainty: exact
+      date: '2017-04-18'
+  evidence:
+  - kind: WG Review
+    date: '2015-06-12'
+    subject: 'WG Review: Privacy Enhanced RTP Conferencing (perc)'
+    message_id: null
+- person: 112992
+  name: Suhas Nandakumar
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-06-03'
+    end:
+      certainty: group-closed
+      date: '2022-04-14'
+  evidence:
+  - kind: WG Review
+    date: '2015-06-12'
+    subject: 'WG Review: Privacy Enhanced RTP Conferencing (perc)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-perc-double
+    - draft-ietf-perc-dtls-tunnel
+    - draft-ietf-perc-srtp-ekt-diet
+- person: 122998
+  name: Nils Ohlmeier
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-04-18'
+    end:
+      certainty: group-closed
+      date: '2022-04-14'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-perc-private-media-framework

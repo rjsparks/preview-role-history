@@ -1,0 +1,60 @@
+acronym: lpwan
+name: IPv6 over Low Power Wide-Area Networks
+type: wg
+parent: int
+state: conclude
+started: '2016-02-26'
+closed: '2023-07-28'
+history_url: https://datatracker.ietf.org/group/lpwan/history/
+chairs:
+- person: 102391
+  name: Donald Eastlake
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2016-02-26'
+      not_before: '2016-02-26'
+    end:
+      certainty: exact
+      date: '2016-06-10'
+- person: 115824
+  name: Pascal Thubert
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-06-10'
+    end:
+      certainty: group-closed
+      date: '2023-07-28'
+  evidence:
+  - kind: WG Action
+    date: '2020-03-16'
+    subject: 'WG Action: Rechartered IPv6 over Low Power Wide-Area Networks (lpwan)'
+    message_id: 158439963572.13829.12174131394210548388@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-lpwan-coap-static-context-hc
+    - draft-ietf-lpwan-ipv6-static-context-hc
+    - draft-ietf-lpwan-schc-over-nbiot
+    - draft-ietf-lpwan-schc-yang-data-model
+- person: 119881
+  name: Alexander Pelov
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-06-10'
+    end:
+      certainty: group-closed
+      date: '2023-07-28'
+  evidence:
+  - kind: WG Action
+    date: '2020-03-16'
+    subject: 'WG Action: Rechartered IPv6 over Low Power Wide-Area Networks (lpwan)'
+    message_id: 158439963572.13829.12174131394210548388@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-lpwan-overview
+    - draft-ietf-lpwan-schc-compound-ack

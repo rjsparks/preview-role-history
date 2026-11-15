@@ -1,0 +1,37 @@
+acronym: ice
+name: Interactive Connectivity Establishment
+type: wg
+parent: art
+state: conclude
+started: '2015-09-22'
+closed: '2020-07-31'
+history_url: https://datatracker.ietf.org/group/ice/history/
+chairs:
+- person: 108990
+  name: Ari Keränen
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-10-02'
+    end:
+      certainty: group-closed
+      date: '2020-07-31'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-ice-dualstack-fairness
+- person: 114896
+  name: Peter Thatcher
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-10-02'
+    end:
+      certainty: exact
+      date: '2020-01-24'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-ice-rfc5245bis

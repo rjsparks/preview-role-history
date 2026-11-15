@@ -1,0 +1,29 @@
+acronym: vnfpool
+name: Virtualized Network Function Pool
+type: wg
+parent: tsv
+state: bof-conc
+started: '2014-01-22'
+closed: null
+history_url: https://datatracker.ietf.org/group/vnfpool/history/
+chairs:
+- person: 101104
+  name: Melinda Shore
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-06-17'
+    end:
+      certainty: group-closed
+      date: '2014-09-11'
+- person: 110002
+  name: Ning Zong
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-02-10'
+    end:
+      certainty: group-closed
+      date: '2014-09-11'

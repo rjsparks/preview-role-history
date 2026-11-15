@@ -1,0 +1,20 @@
+acronym: netfax
+name: Network Fax
+type: wg
+parent: app
+state: conclude
+started: '1990-08-01'
+closed: '1992-10-15'
+history_url: https://datatracker.ietf.org/group/netfax/history/
+chairs:
+- person: 2028
+  name: Mark Needleman
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1992-10-15'
+      not_before: '1990-08-01'
+    end:
+      certainty: group-closed
+      date: '1992-10-15'

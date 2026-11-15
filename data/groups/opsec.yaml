@@ -1,0 +1,140 @@
+acronym: opsec
+name: Operational Security Capabilities for IP Network Infrastructure
+type: wg
+parent: ops
+state: conclude
+started: '2003-06-01'
+closed: '2024-08-05'
+history_url: https://datatracker.ietf.org/group/opsec/history/
+chairs:
+- person: 20959
+  name: Joel Jaeggli
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2008-07-27'
+    end:
+      certainty: evidence-only
+      not_before: '2010-07-25'
+  evidence:
+  - kind: WG Review
+    date: '2008-09-02'
+    subject: 'WG Review: Recharter of Operational Security Capabilities for IP Network Infrastructure
+      (opsec)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '72'
+    - '73'
+    - '74'
+    - '76'
+    - '77'
+    - '78'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 101568
+  name: Ron Bonica
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2018-03-05'
+    end:
+      certainty: group-closed
+      date: '2024-08-05'
+- person: 105099
+  name: Éric Vyncke
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-09-17'
+    end:
+      certainty: exact
+      date: '2019-04-05'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-opsec-ipv6-eh-filtering
+- person: 108304
+  name: Gunter Van de Velde
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2003-06-01'
+    end:
+      certainty: exact
+      date: '2018-03-26'
+  evidence:
+  - kind: WG Review
+    date: '2013-10-15'
+    subject: 'WG Review: Operational Security Capabilities for IP Network Infrastructure (opsec)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-opsec-bgp-security
+    - draft-ietf-opsec-ipv6-host-scanning
+    - draft-ietf-opsec-lla-only
+- person: 111647
+  name: Chittimaneni Kk
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2013-03-13'
+    end:
+      certainty: exact
+      date: '2015-09-17'
+  evidence:
+  - kind: WG Review
+    date: '2013-10-15'
+    subject: 'WG Review: Operational Security Capabilities for IP Network Infrastructure (opsec)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-opsec-dhcpv6-shield
+    - draft-ietf-opsec-ip-options-filtering
+- person: 111656
+  name: Warren Kumari
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-11-13'
+      not_before: '2003-06-01'
+    end:
+      certainty: exact
+      date: '2013-12-18'
+    notes:
+    - start moved earlier by session request for IETF 82
+  evidence:
+  - kind: WG Review
+    date: '2013-10-15'
+    subject: 'WG Review: Operational Security Capabilities for IP Network Infrastructure (opsec)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-opsec-ipv6-implications-on-ipv4-nets
+    - draft-ietf-opsec-vpn-leakages
+- person: 122661
+  name: Jen Linkova
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-04-05'
+    end:
+      certainty: group-closed
+      date: '2024-08-05'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-opsec-indicators-of-compromise
+    - draft-ietf-opsec-probe-attribution

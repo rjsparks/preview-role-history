@@ -1,0 +1,31 @@
+acronym: atommib
+name: AToM MIB
+type: wg
+parent: ops
+state: conclude
+started: '1993-04-09'
+closed: '2004-11-01'
+history_url: https://datatracker.ietf.org/group/atommib/history/
+chairs:
+- person: 14632
+  name: Faye Ly
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-11-01'
+      not_before: '1993-04-09'
+    end:
+      certainty: group-closed
+      date: '2004-11-01'
+- person: 110831
+  name: Hing-Kam Lam
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-11-01'
+      not_before: '1993-04-09'
+    end:
+      certainty: group-closed
+      date: '2004-11-01'

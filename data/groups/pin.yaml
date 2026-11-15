@@ -1,0 +1,19 @@
+acronym: pin
+name: PSTN Internet Notification
+type: wg
+parent: tsv
+state: conclude
+started: null
+closed: '2000-06-02'
+history_url: https://datatracker.ietf.org/group/pin/history/
+chairs:
+- person: 101245
+  name: Alec Brusilovsky
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2000-06-02'
+    end:
+      certainty: group-closed
+      date: '2000-06-02'

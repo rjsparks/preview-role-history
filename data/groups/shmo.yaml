@@ -1,0 +1,29 @@
+acronym: shmo
+name: Stay Home Meet Online
+type: wg
+parent: gen
+state: abandon
+started: '2020-06-08'
+closed: '2020-06-18'
+history_url: https://datatracker.ietf.org/group/shmo/history/
+chairs:
+- person: 106412
+  name: Suresh Krishnan
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-06-17'
+    end:
+      certainty: group-closed
+      date: '2020-06-18'
+- person: 123969
+  name: Amelia Andersdotter
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-06-18'
+    end:
+      certainty: group-closed
+      date: '2020-06-18'

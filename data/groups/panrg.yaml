@@ -1,0 +1,31 @@
+acronym: panrg
+name: Path Aware Networking RG
+type: rg
+parent: irtf
+state: active
+started: '2017-06-09'
+closed: null
+history_url: https://datatracker.ietf.org/group/panrg/history/
+chairs:
+- person: 109354
+  name: Brian Trammell
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-06-09'
+    end:
+      certainty: ongoing
+- person: 122661
+  name: Jen Linkova
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-06-09'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-irtf-panrg-what-not-to-do

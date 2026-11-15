@@ -1,0 +1,115 @@
+acronym: spring
+name: Source Packet Routing in Networking
+type: wg
+parent: rtg
+state: active
+started: '2013-09-19'
+closed: null
+history_url: https://datatracker.ietf.org/group/spring/history/
+chairs:
+- person: 3862
+  name: Joel Halpern
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-06-14'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-spring-sr-yang
+    - draft-ietf-spring-srv6-network-programming
+- person: 4836
+  name: John Scudder
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2013-10-24'
+    end:
+      certainty: exact
+      date: '2016-07-27'
+- person: 105906
+  name: Jim Guichard
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-06-14'
+    end:
+      certainty: exact
+      date: '2023-03-30'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-spring-segment-routing-policy
+- person: 107172
+  name: Bruno Decraene
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-02-24'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-spring-ipv6-use-cases
+    - draft-ietf-spring-mpls-path-segment
+    - draft-ietf-spring-nsh-sr
+    - draft-ietf-spring-oam-usecase
+    - draft-ietf-spring-segment-routing-central-epe
+    - draft-ietf-spring-segment-routing-msdc
+- person: 108279
+  name: Martin Vigoureux
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-07-27'
+    end:
+      certainty: exact
+      date: '2018-03-23'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-spring-conflict-resolution
+    - draft-ietf-spring-segment-routing
+    - draft-psarkar-spring-mpls-anycast-segments
+- person: 109802
+  name: Alvaro Retana
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2013-10-24'
+    end:
+      certainty: exact
+      date: '2015-02-24'
+  - start:
+      certainty: exact
+      date: '2023-03-30'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-spring-resource-aware-segments
+    - draft-ietf-spring-srv6-inter-layer-programming
+- person: 116387
+  name: Rob Shakir
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2018-02-21'
+    end:
+      certainty: exact
+      date: '2020-05-27'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-spring-segment-routing-ldp-interop

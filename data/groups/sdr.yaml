@@ -1,0 +1,20 @@
+acronym: sdr
+name: Source Demand Routing
+type: wg
+parent: rtg
+state: conclude
+started: '1993-03-03'
+closed: '1998-03-23'
+history_url: https://datatracker.ietf.org/group/sdr/history/
+chairs:
+- person: 209
+  name: Deborah Estrin
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1998-03-23'
+      not_before: '1993-03-03'
+    end:
+      certainty: group-closed
+      date: '1998-03-23'

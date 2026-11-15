@@ -1,0 +1,20 @@
+acronym: ifmib
+name: Interfaces MIB
+type: wg
+parent: int
+state: conclude
+started: '1993-04-30'
+closed: '2003-09-03'
+history_url: https://datatracker.ietf.org/group/ifmib/history/
+chairs:
+- person: 2718
+  name: Theodore Brunner
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2003-09-03'
+      not_before: '1993-04-30'
+    end:
+      certainty: group-closed
+      date: '2003-09-03'

@@ -1,0 +1,31 @@
+acronym: posh
+name: PKIX over Secure HTTP
+type: wg
+parent: sec
+state: bof-conc
+started: '2013-06-20'
+closed: null
+history_url: https://datatracker.ietf.org/group/posh/history/
+chairs:
+- person: 102154
+  name: Alexey Melnikov
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2013-06-20'
+      not_before: '2013-06-20'
+    end:
+      certainty: group-closed
+      date: '2013-09-24'
+- person: 104851
+  name: Kathleen Moriarty
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2013-06-20'
+      not_before: '2013-06-20'
+    end:
+      certainty: group-closed
+      date: '2013-09-24'

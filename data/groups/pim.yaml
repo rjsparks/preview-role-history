@@ -1,0 +1,136 @@
+acronym: pim
+name: Protocols for IP Multicast
+type: wg
+parent: rtg
+state: active
+started: '1998-07-09'
+closed: null
+history_url: https://datatracker.ietf.org/group/pim/history/
+chairs:
+- person: 5981
+  name: Tom Pusateri
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2007-07-23'
+    end:
+      certainty: evidence-only
+      not_before: '2007-07-23'
+  evidence:
+  - kind: WG Action
+    date: '2007-07-23'
+    subject: 'WG Action: RECHARTER: Protocol Independent Multicast (pim)'
+    message_id: null
+- person: 105708
+  name: Mike McBride
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '1998-07-09'
+    end:
+      certainty: ongoing
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: WG Review
+    date: '2024-12-19'
+    subject: 'WG Review: Protocols for IP Multicast (pim)'
+    message_id: 173462925387.43839.388623251774533197@dt-datatracker-65f549669d-lhv7k
+  - kind: WG Action
+    date: '2025-01-09'
+    subject: 'WG Action: Rechartered Protocols for IP Multicast (pim)'
+    message_id: 173646580438.189.3452493906357767409@dt-datatracker-57c4c68d9c-p9khg
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    - '79'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-pim-bfd-p2mp-use-case
+    - draft-ietf-pim-drlb
+    - draft-ietf-pim-explicit-rpf-vector
+    - draft-ietf-pim-hierarchicaljoinattr
+    - draft-ietf-pim-igmp-mld-extension
+    - draft-ietf-pim-join-attributes-for-lisp
+    - draft-ietf-pim-jp-extensions-lisp
+    - draft-ietf-pim-null-register-packing
+    - draft-ietf-pim-p2mp-policy-ping
+    - draft-ietf-pim-pfm-forwarding-enhancements
+    - draft-ietf-pim-reserved-bits
+    - draft-ietf-pim-rfc4601bis
+    - draft-ietf-pim-rfc8736bis
+    - draft-ietf-pim-source-discovery-bsr
+    - draft-ietf-pim-sr-p2mp-policy
+- person: 106173
+  name: Stig Venaas
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2009-07-26'
+      not_before: '1998-07-09'
+    end:
+      certainty: ongoing
+    notes:
+    - start moved earlier by session request for IETF 75
+  evidence:
+  - kind: WG Review
+    date: '2011-07-05'
+    subject: 'WG Review: Recharter of Protocol Independent Multicast (pim)'
+    message_id: null
+  - kind: WG Action
+    date: '2011-07-19'
+    subject: 'WG Action: RECHARTER: Protocol Independent Multicast (pim)'
+    message_id: null
+  - kind: WG Review
+    date: '2024-12-19'
+    subject: 'WG Review: Protocols for IP Multicast (pim)'
+    message_id: 173462925387.43839.388623251774533197@dt-datatracker-65f549669d-lhv7k
+  - kind: WG Action
+    date: '2025-01-09'
+    subject: 'WG Action: Rechartered Protocols for IP Multicast (pim)'
+    message_id: 173646580438.189.3452493906357767409@dt-datatracker-57c4c68d9c-p9khg
+  - kind: session requests
+    meetings:
+    - '75'
+    - '76'
+    - '77'
+    - '78'
+    - '80'
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-pim-3228bis
+    - draft-ietf-pim-3376bis
+    - draft-ietf-pim-3810bis
+    - draft-ietf-pim-assert-packing
+    - draft-ietf-pim-dr-improvement
+    - draft-ietf-pim-explicit-tracking
+    - draft-ietf-pim-gaap
+    - draft-ietf-pim-igmp-mld-proxy-yang
+    - draft-ietf-pim-igmp-mld-snooping-yang
+    - draft-ietf-pim-igmp-mld-yang
+    - draft-ietf-pim-ipv6-zeroconf-assignment
+    - draft-ietf-pim-mofrr-tilfa
+    - draft-ietf-pim-msdp-yang
+    - draft-ietf-pim-multiple-upstreams-reqs
+    - draft-ietf-pim-rfc1112bis
+    - draft-ietf-pim-rfc4601-update-survey-report
+    - draft-ietf-pim-updt-ipv6-dyn-mcast-addr-grp-id
+    - draft-ietf-pim-yang
+    - draft-ietf-pim-zeroconf-mcast-addr-alloc-ps

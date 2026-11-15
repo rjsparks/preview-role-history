@@ -1,0 +1,55 @@
+acronym: 6tisch
+name: IPv6 over the TSCH mode of IEEE 802.15.4e
+type: wg
+parent: int
+state: conclude
+started: '2013-09-04'
+closed: '2023-07-19'
+history_url: https://datatracker.ietf.org/group/6tisch/history/
+chairs:
+- person: 108628
+  name: Thomas Watteyne
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2013-09-04'
+      not_before: '2013-09-04'
+    end:
+      certainty: group-closed
+      date: '2023-07-19'
+  evidence:
+  - kind: WG Review
+    date: '2013-09-13'
+    subject: 'WG Review: IPv6 over the TSCH mode of IEEE 802.15.4e (6tisch)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-chang-6tisch-msf
+    - draft-ietf-6tisch-coap
+- person: 115824
+  name: Pascal Thubert
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2013-09-04'
+      not_before: '2013-09-04'
+    end:
+      certainty: group-closed
+      date: '2023-07-19'
+  evidence:
+  - kind: WG Review
+    date: '2013-09-13'
+    subject: 'WG Review: IPv6 over the TSCH mode of IEEE 802.15.4e (6tisch)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-6tisch-6top-interface
+    - draft-ietf-6tisch-6top-protocol
+    - draft-ietf-6tisch-dtsecurity-zerotouch-join
+    - draft-ietf-6tisch-enrollment-enhanced-beacon
+    - draft-ietf-6tisch-minimal
+    - draft-ietf-6tisch-minimal-security
+    - draft-ietf-6tisch-msf
+    - draft-ietf-6tisch-tsch

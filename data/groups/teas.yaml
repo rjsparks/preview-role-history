@@ -1,0 +1,121 @@
+acronym: teas
+name: Traffic Engineering Architecture and Signaling
+type: wg
+parent: rtg
+state: active
+started: '2014-11-08'
+closed: null
+history_url: https://datatracker.ietf.org/group/teas/history/
+chairs:
+- person: 10064
+  name: Lou Berger
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2014-11-08'
+      not_before: '2014-11-08'
+    end:
+      certainty: exact
+      date: '2024-07-25'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-bestbar-teas-ns-packet
+    - draft-ietf-ccamp-rsvp-te-li-lb
+    - draft-ietf-teas-enhanced-vpn
+    - draft-ietf-teas-interconnected-te-info-exchange
+    - draft-ietf-teas-lsp-attribute-ro
+    - draft-ietf-teas-lsp-diversity
+    - draft-ietf-teas-native-ip-scenarios
+    - draft-ietf-teas-network-assigned-upstream-label
+    - draft-ietf-teas-nrp-scalability
+    - draft-ietf-teas-pce-native-ip
+    - draft-ietf-teas-rsvp-te-li-lb
+    - draft-ietf-teas-rsvp-te-scaling-rec
+    - draft-ietf-teas-sr-rsvp-coexistence-rec
+    - draft-ietf-teas-te-express-path
+    - draft-ietf-teas-yang-rsvp
+    - draft-ietf-teas-yang-rsvp-te
+    - draft-ietf-teas-yang-sr-te-topo
+    - draft-ietf-teas-yang-te-mpls
+    - draft-ietf-teas-yang-te-topo
+    - draft-ietf-teas-yang-te-types
+- person: 106471
+  name: Deborah Brungard
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2014-11-08'
+      not_before: '2014-11-08'
+    end:
+      certainty: exact
+      date: '2015-03-04'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-ccamp-mpls-tp-rsvpte-ext-associated-lsp
+    - draft-ietf-ccamp-rsvp-te-srlg-collect
+    - draft-ietf-teas-mpls-tp-rsvpte-ext-associated-lsp
+- person: 110932
+  name: Oscar de Dios
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-01-20'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-gcdrb-teas-5g-network-slice-application
+    - draft-ietf-teas-5g-network-slice-application
+    - draft-ietf-teas-actn-pm-telemetry-autonomics
+    - draft-ietf-teas-ns-ip-mpls
+    - draft-ietf-teas-rfc8776-update
+- person: 114351
+  name: Vishnu Beeram
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-03-04'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-teas-5g-ns-ip-mpls
+    - draft-ietf-teas-actn-framework
+    - draft-ietf-teas-actn-info-model
+    - draft-ietf-teas-actn-poi-applicability
+    - draft-ietf-teas-actn-requirements
+    - draft-ietf-teas-actn-vn-yang
+    - draft-ietf-teas-actn-yang
+    - draft-ietf-teas-applicability-actn-slicing
+    - draft-ietf-teas-assoc-corouted-bidir-frr
+    - draft-ietf-teas-fast-lsps-requirements
+    - draft-ietf-teas-gmpls-controller-inter-work
+    - draft-ietf-teas-gmpls-lsp-fastreroute
+    - draft-ietf-teas-gmpls-resource-sharing-proc
+    - draft-ietf-teas-gmpls-scsi
+    - draft-ietf-teas-gmpls-signaling-smp
+    - draft-ietf-teas-ietf-network-slice-nbi-yang
+    - draft-ietf-teas-ietf-network-slices
+    - draft-ietf-teas-ns-controller-models
+    - draft-ietf-teas-p2mp-loose-path-reopt
+    - draft-ietf-teas-pce-central-control
+    - draft-ietf-teas-pcecc-use-cases
+    - draft-ietf-teas-rfc3272bis
+    - draft-ietf-teas-rsvp-auth-v2
+    - draft-ietf-teas-rsvp-egress-protection
+    - draft-ietf-teas-rsvp-ingress-protection
+    - draft-ietf-teas-rsvp-te-domain-subobjects
+    - draft-ietf-teas-rsvp-te-srlg-collect
+    - draft-ietf-teas-scheduled-resources
+    - draft-ietf-teas-sf-aware-topo-model
+    - draft-ietf-teas-te-metric-recording
+    - draft-ietf-teas-te-service-mapping-yang
+    - draft-ietf-teas-yang-path-computation

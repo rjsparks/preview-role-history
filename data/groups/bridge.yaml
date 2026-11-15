@@ -1,0 +1,31 @@
+acronym: bridge
+name: Bridge MIB
+type: wg
+parent: ops
+state: conclude
+started: '1990-08-01'
+closed: '2006-02-13'
+history_url: https://datatracker.ietf.org/group/bridge/history/
+chairs:
+- person: 6699
+  name: Dan Romascanu
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-02-13'
+      not_before: '1990-08-01'
+    end:
+      certainty: group-closed
+      date: '2006-02-13'
+- person: 17253
+  name: David Harrington
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-02-13'
+      not_before: '1990-08-01'
+    end:
+      certainty: group-closed
+      date: '2006-02-13'

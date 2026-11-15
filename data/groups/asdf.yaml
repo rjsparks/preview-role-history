@@ -1,0 +1,81 @@
+acronym: asdf
+name: A Semantic Definition Format for Data and Interactions of Things
+type: wg
+parent: art
+state: active
+started: '2020-06-15'
+closed: null
+history_url: https://datatracker.ietf.org/group/asdf/history/
+chairs:
+- person: 102254
+  name: Michael Richardson
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-06-25'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2020-09-21'
+    subject: 'WG Review: A Semantic Definition Format for Data and Interactions of Things (asdf)'
+    message_id: 160070192696.7373.1821537808001116219@ietfa.amsl.com
+  - kind: WG Action
+    date: '2020-10-14'
+    subject: 'WG Action: Formed A Semantic Definition Format for Data and Interactions of Things (asdf)'
+    message_id: 160269641504.10044.3885004313403064682@ietfa.amsl.com
+  - kind: WG Review
+    date: '2024-05-24'
+    subject: 'WG Review: A Semantic Definition Format for Data and Interactions of Things (asdf)'
+    message_id: 171657476838.21054.1770866240998189748@ietfa.amsl.com
+  - kind: WG Action
+    date: '2024-06-14'
+    subject: 'WG Action: Rechartered A Semantic Definition Format for Data and Interactions of Things
+      (asdf)'
+    message_id: 171840124915.22237.11281026027838687321@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-asdf-sdf
+    - draft-ietf-asdf-sdf-protocol-mapping
+- person: 120349
+  name: Niklas Widell
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-06-25'
+    end:
+      certainty: exact
+      date: '2025-03-18'
+  evidence:
+  - kind: WG Review
+    date: '2020-09-21'
+    subject: 'WG Review: A Semantic Definition Format for Data and Interactions of Things (asdf)'
+    message_id: 160070192696.7373.1821537808001116219@ietfa.amsl.com
+  - kind: WG Action
+    date: '2020-10-14'
+    subject: 'WG Action: Formed A Semantic Definition Format for Data and Interactions of Things (asdf)'
+    message_id: 160269641504.10044.3885004313403064682@ietfa.amsl.com
+  - kind: WG Review
+    date: '2024-05-24'
+    subject: 'WG Review: A Semantic Definition Format for Data and Interactions of Things (asdf)'
+    message_id: 171657476838.21054.1770866240998189748@ietfa.amsl.com
+  - kind: WG Action
+    date: '2024-06-14'
+    subject: 'WG Action: Rechartered A Semantic Definition Format for Data and Interactions of Things
+      (asdf)'
+    message_id: 171840124915.22237.11281026027838687321@ietfa.amsl.com
+- person: 137632
+  name: Lorenzo Corneo
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-02-14'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-asdf-nipc

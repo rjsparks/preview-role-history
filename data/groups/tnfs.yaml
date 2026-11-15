@@ -1,0 +1,20 @@
+acronym: tnfs
+name: Trusted Network File Systems
+type: wg
+parent: tsv
+state: conclude
+started: '1991-07-19'
+closed: '1996-01-17'
+history_url: https://datatracker.ietf.org/group/tnfs/history/
+chairs:
+- person: 2670
+  name: Fred Glover
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1996-01-17'
+      not_before: '1991-07-19'
+    end:
+      certainty: group-closed
+      date: '1996-01-17'

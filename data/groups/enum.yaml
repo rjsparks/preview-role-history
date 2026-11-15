@@ -1,0 +1,83 @@
+acronym: enum
+name: Telephone Number Mapping
+type: wg
+parent: rai
+state: conclude
+started: '1999-10-04'
+closed: '2011-05-10'
+history_url: https://datatracker.ietf.org/group/enum/history/
+chairs:
+- person: 11182
+  name: Patrik Fältström
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-12-08'
+      not_before: '1999-10-04'
+    end:
+      certainty: group-closed
+      date: '2011-05-10'
+    notes:
+    - start moved earlier by WG Action announcement of 2005-12-08
+  evidence:
+  - kind: WG Review
+    date: '2005-11-03'
+    subject: 'WG Review: Recharter of Telephone Number Mapping (enum)'
+    message_id: null
+  - kind: WG Action
+    date: '2005-12-08'
+    subject: 'WG Action: RECHARTER: Telephone Number Mapping (enum)'
+    message_id: null
+- person: 101219
+  name: Richard Shockey
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-12-08'
+      not_before: '1999-10-04'
+    end:
+      certainty: group-closed
+      date: '2011-05-10'
+    notes:
+    - start moved earlier by WG Action announcement of 2005-12-08
+  evidence:
+  - kind: WG Review
+    date: '2005-11-03'
+    subject: 'WG Review: Recharter of Telephone Number Mapping (enum)'
+    message_id: null
+  - kind: WG Action
+    date: '2005-12-08'
+    subject: 'WG Action: RECHARTER: Telephone Number Mapping (enum)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 109505
+  name: Bernie Hoeneisen
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-07-25'
+      not_before: '1999-10-04'
+    end:
+      certainty: group-closed
+      date: '2011-05-10'
+    notes:
+    - start moved earlier by session request for IETF 78
+  evidence:
+  - kind: session requests
+    meetings:
+    - '78'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

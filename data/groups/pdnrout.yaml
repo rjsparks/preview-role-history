@@ -1,0 +1,20 @@
+acronym: pdnrout
+name: Private Data Network Routing
+type: wg
+parent: rtg
+state: conclude
+started: '1988-06-01'
+closed: '1990-08-04'
+history_url: https://datatracker.ietf.org/group/pdnrout/history/
+chairs:
+- person: 2517
+  name: Carl-Herbert Rokitansky
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1990-08-04'
+      not_before: '1988-06-01'
+    end:
+      certainty: group-closed
+      date: '1990-08-04'

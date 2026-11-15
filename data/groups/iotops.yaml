@@ -1,0 +1,66 @@
+acronym: iotops
+name: IOT Operations
+type: wg
+parent: ops
+state: active
+started: '2020-10-08'
+closed: null
+history_url: https://datatracker.ietf.org/group/iotops/history/
+chairs:
+- person: 102154
+  name: Alexey Melnikov
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2020-10-08'
+      not_before: '2020-10-08'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2021-01-22'
+    subject: 'WG Review: IOT Operations (iotops)'
+    message_id: 161134315420.13237.4576082618010535124@ietfa.amsl.com
+  - kind: WG Action
+    date: '2021-02-05'
+    subject: 'WG Action: Formed IOT Operations (iotops)'
+    message_id: 161254868941.18465.1677940885094079436@ietfa.amsl.com
+  - kind: WG Review
+    date: '2025-04-04'
+    subject: 'WG Review: IOT Operations (iotops)'
+    message_id: 174378998127.298.2246363734119313380@dt-datatracker-64c5c9b5f9-hz6qg
+  - kind: WG Action
+    date: '2025-04-18'
+    subject: 'WG Action: Rechartered IOT Operations (iotops)'
+    message_id: 174500188254.1739124.2568752960515378122@dt-datatracker-64c5c9b5f9-hz6qg
+- person: 117723
+  name: Henk Birkholz
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2020-10-08'
+      not_before: '2020-10-08'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2021-01-22'
+    subject: 'WG Review: IOT Operations (iotops)'
+    message_id: 161134315420.13237.4576082618010535124@ietfa.amsl.com
+  - kind: WG Action
+    date: '2021-02-05'
+    subject: 'WG Action: Formed IOT Operations (iotops)'
+    message_id: 161254868941.18465.1677940885094079436@ietfa.amsl.com
+  - kind: WG Review
+    date: '2025-04-04'
+    subject: 'WG Review: IOT Operations (iotops)'
+    message_id: 174378998127.298.2246363734119313380@dt-datatracker-64c5c9b5f9-hz6qg
+  - kind: WG Action
+    date: '2025-04-18'
+    subject: 'WG Action: Rechartered IOT Operations (iotops)'
+    message_id: 174500188254.1739124.2568752960515378122@dt-datatracker-64c5c9b5f9-hz6qg
+  - kind: shepherded
+    documents:
+    - draft-ietf-iotops-security-protocol-comparison

@@ -1,0 +1,27 @@
+acronym: mobike
+name: IKEv2 Mobility and Multihoming
+type: wg
+parent: sec
+state: conclude
+started: '2003-10-01'
+closed: '2006-04-21'
+history_url: https://datatracker.ietf.org/group/mobike/history/
+chairs:
+- person: 10083
+  name: Paul Hoffman
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '2003-10-01'
+    end:
+      certainty: group-closed
+      date: '2006-04-21'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: session requests
+    meetings:
+    - '65'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

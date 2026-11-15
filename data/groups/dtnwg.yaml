@@ -1,0 +1,43 @@
+acronym: dtnwg
+name: Delay Tolerant Networking Working Group
+type: wg
+parent: tsv
+state: replaced
+started: '2014-06-11'
+closed: null
+history_url: https://datatracker.ietf.org/group/dtnwg/history/
+chairs:
+- person: 19869
+  name: Marc Blanchet
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2014-06-11'
+      not_before: '2014-06-11'
+    end:
+      certainty: group-closed
+      date: '2014-09-11'
+- person: 102675
+  name: Fred Templin
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2014-06-11'
+      not_after: '2014-09-11'
+    end:
+      certainty: between
+      not_before: '2014-06-11'
+      not_after: '2014-09-11'
+- person: 106709
+  name: Fred Templin
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2014-06-11'
+      not_after: '2014-09-11'
+    end:
+      certainty: group-closed
+      date: '2014-09-11'

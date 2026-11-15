@@ -1,0 +1,20 @@
+acronym: ripv2
+name: RIP Version II
+type: wg
+parent: rtg
+state: conclude
+started: '1993-05-13'
+closed: '1995-02-28'
+history_url: https://datatracker.ietf.org/group/ripv2/history/
+chairs:
+- person: 2412
+  name: Gary Malkin
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1995-02-28'
+      not_before: '1993-05-13'
+    end:
+      certainty: group-closed
+      date: '1995-02-28'

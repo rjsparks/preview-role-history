@@ -1,0 +1,31 @@
+acronym: ipv6
+name: IP Version 6 Working Group
+type: wg
+parent: int
+state: conclude
+started: '2000-10-05'
+closed: '2007-09-23'
+history_url: https://datatracker.ietf.org/group/ipv6/history/
+chairs:
+- person: 2793
+  name: Bob Hinden
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-09-23'
+      not_before: '2000-10-05'
+    end:
+      certainty: group-closed
+      date: '2007-09-23'
+- person: 100664
+  name: Brian Haberman
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-09-23'
+      not_before: '2000-10-05'
+    end:
+      certainty: group-closed
+      date: '2007-09-23'

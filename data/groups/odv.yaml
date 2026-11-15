@@ -1,0 +1,20 @@
+acronym: odv
+name: Open Distance Vector IGP
+type: wg
+parent: rtg
+state: conclude
+started: '1989-10-01'
+closed: '1990-05-10'
+history_url: https://datatracker.ietf.org/group/odv/history/
+chairs:
+- person: 2519
+  name: Charles Hedrick
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1990-05-10'
+      not_before: '1989-10-01'
+    end:
+      certainty: group-closed
+      date: '1990-05-10'

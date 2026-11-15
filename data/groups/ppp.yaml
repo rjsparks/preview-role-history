@@ -1,0 +1,20 @@
+acronym: ppp
+name: Point-to-Point Protocol
+type: wg
+parent: int
+state: conclude
+started: '1988-03-01'
+closed: '1989-11-03'
+history_url: https://datatracker.ietf.org/group/ppp/history/
+chairs:
+- person: 2383
+  name: Russ Hobby
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1989-11-03'
+      not_before: '1988-03-01'
+    end:
+      certainty: group-closed
+      date: '1989-11-03'

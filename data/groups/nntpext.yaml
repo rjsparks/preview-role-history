@@ -1,0 +1,31 @@
+acronym: nntpext
+name: NNTP Extensions
+type: wg
+parent: app
+state: conclude
+started: '1996-11-21'
+closed: '2005-10-07'
+history_url: https://datatracker.ietf.org/group/nntpext/history/
+chairs:
+- person: 4397
+  name: Ned Freed
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-10-07'
+      not_before: '1996-11-21'
+    end:
+      certainty: group-closed
+      date: '2005-10-07'
+- person: 106123
+  name: Russ Allbery
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-10-07'
+      not_before: '1996-11-21'
+    end:
+      certainty: group-closed
+      date: '2005-10-07'

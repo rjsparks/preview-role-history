@@ -1,0 +1,19 @@
+acronym: mimecont
+name: Mime Content
+type: wg
+parent: app
+state: bof-conc
+started: null
+closed: '1997-01-01'
+history_url: https://datatracker.ietf.org/group/mimecont/history/
+chairs:
+- person: 106911
+  name: John Klensin
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1997-01-01'
+    end:
+      certainty: group-closed
+      date: '1997-01-01'

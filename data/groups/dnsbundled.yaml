@@ -1,0 +1,29 @@
+acronym: dnsbundled
+name: Bundled Domains
+type: wg
+parent: int
+state: bof-conc
+started: '2016-10-06'
+closed: '2017-02-15'
+history_url: https://datatracker.ietf.org/group/dnsbundled/history/
+chairs:
+- person: 2783
+  name: James Galvin
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-10-06'
+    end:
+      certainty: group-closed
+      date: '2017-02-15'
+- person: 109667
+  name: Ning Kong
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-10-06'
+    end:
+      certainty: group-closed
+      date: '2017-02-15'

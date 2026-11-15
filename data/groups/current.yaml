@@ -1,0 +1,29 @@
+acronym: current
+name: Continuous Updating and Ratcheting for Rekeying Encrypted Network Transport
+type: wg
+parent: sec
+state: bof-conc
+started: '2026-06-11'
+closed: '2026-10-08'
+history_url: https://datatracker.ietf.org/group/current/history/
+chairs:
+- person: 112723
+  name: Paul Wouters
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2026-06-17'
+    end:
+      certainty: group-closed
+      date: '2026-10-08'
+- person: 140229
+  name: Yaroslav Rosomakho
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2026-06-11'
+    end:
+      certainty: group-closed
+      date: '2026-10-08'

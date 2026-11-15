@@ -1,0 +1,53 @@
+acronym: jmap
+name: JSON Mail Access Protocol
+type: wg
+parent: art
+state: active
+started: '2016-12-12'
+closed: null
+history_url: https://datatracker.ietf.org/group/jmap/history/
+chairs:
+- person: 21684
+  name: Barry Leiba
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-03-25'
+    end:
+      certainty: exact
+      date: '2019-03-23'
+- person: 121191
+  name: Jim Fenton
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-04-04'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-jmap-blob
+    - draft-ietf-jmap-contacts
+    - draft-ietf-jmap-websocket
+- person: 122671
+  name: Bron Gondwana
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-02-15'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-jmap-core
+    - draft-ietf-jmap-mail
+    - draft-ietf-jmap-mdn
+    - draft-ietf-jmap-quotas
+    - draft-ietf-jmap-sieve
+    - draft-ietf-jmap-smime
+    - draft-ietf-jmap-webpush-vapid

@@ -1,0 +1,44 @@
+acronym: sunset4
+name: Sunsetting IPv4
+type: wg
+parent: int
+state: conclude
+started: '2012-04-05'
+closed: '2018-05-16'
+history_url: https://datatracker.ietf.org/group/sunset4/history/
+chairs:
+- person: 19869
+  name: Marc Blanchet
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2012-04-05'
+      not_after: '2013-03-13'
+    end:
+      certainty: group-closed
+      date: '2018-05-16'
+  evidence:
+  - kind: WG Review
+    date: '2013-01-04'
+    subject: 'WG Review: Sunsetting IPv4 (sunset4)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-sunset4-ipv6-ietf
+- person: 112160
+  name: Wesley George
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2012-04-05'
+      not_after: '2013-03-13'
+    end:
+      certainty: group-closed
+      date: '2018-05-16'
+  evidence:
+  - kind: WG Review
+    date: '2013-01-04'
+    subject: 'WG Review: Sunsetting IPv4 (sunset4)'
+    message_id: null

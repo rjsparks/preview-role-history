@@ -1,0 +1,19 @@
+acronym: ddbof
+name: Device Discovery
+type: wg
+parent: int
+state: conclude
+started: null
+closed: '2003-12-10'
+history_url: https://datatracker.ietf.org/group/ddbof/history/
+chairs:
+- person: 101526
+  name: Ron Silva
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2003-12-10'
+    end:
+      certainty: group-closed
+      date: '2003-12-10'

@@ -1,0 +1,20 @@
+acronym: schema
+name: Schema Registration
+type: wg
+parent: app
+state: conclude
+started: '1997-11-06'
+closed: '2000-02-11'
+history_url: https://datatracker.ietf.org/group/schema/history/
+chairs:
+- person: 3428
+  name: Chris Weider
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2000-02-11'
+      not_before: '1997-11-06'
+    end:
+      certainty: group-closed
+      date: '2000-02-11'

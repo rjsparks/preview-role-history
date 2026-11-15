@@ -1,0 +1,178 @@
+acronym: pce
+name: Path Computation Element
+type: wg
+parent: rtg
+state: active
+started: '2004-03-01'
+closed: null
+history_url: https://datatracker.ietf.org/group/pce/history/
+chairs:
+- person: 104198
+  name: Adrian Farrel
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-01-28'
+    end:
+      certainty: exact
+      date: '2019-09-11'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '73'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-pce-applicability-actn
+    - draft-ietf-pce-multipath
+    - draft-ietf-pce-sr-p2mp-policy
+    - draft-ietf-pce-stateful-hpce
+    - draft-ietf-pce-stateful-pce-auto-bandwidth
+    - draft-ietf-pce-stateful-pce-lsp-scheduling
+    - draft-ietf-pce-stateful-pce-p2mp
+- person: 106269
+  name: JP Vasseur
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '2004-03-01'
+    end:
+      certainty: exact
+      date: '2017-08-22'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: WG Action
+    date: '2011-08-16'
+    subject: 'WG Action: RECHARTER: Path Computation Element (pce)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '74'
+    - '75'
+    - '79'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 108213
+  name: Julien Meuric
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2009-11-08'
+      not_before: '2004-03-01'
+    end:
+      certainty: ongoing
+    notes:
+    - start moved earlier by session request for IETF 76
+  evidence:
+  - kind: WG Action
+    date: '2011-08-16'
+    subject: 'WG Action: RECHARTER: Path Computation Element (pce)'
+    message_id: null
+  - kind: WG Review
+    date: '2023-12-01'
+    subject: 'WG Review: Path Computation Element (pce)'
+    message_id: 170145126214.35812.10386048285609466918@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-12-19'
+    subject: 'WG Action: Rechartered Path Computation Element (pce)'
+    message_id: 170300439203.55321.9573321139822387319@ietfa.amsl.com
+  - kind: session requests
+    meetings:
+    - '76'
+    - '77'
+    - '78'
+    - '80'
+    - '82'
+    - '83'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-pce-association-diversity
+    - draft-ietf-pce-association-group
+    - draft-ietf-pce-binding-label-sid
+    - draft-ietf-pce-flexible-grid
+    - draft-ietf-pce-gmpls-aps-req
+    - draft-ietf-pce-gmpls-pcep-extensions
+    - draft-ietf-pce-iana-update
+    - draft-ietf-pce-local-protection-enforcement
+    - draft-ietf-pce-lsp-setup-type
+    - draft-ietf-pce-pce-initiated-lsp
+    - draft-ietf-pce-pcep-extension-for-pce-controller
+    - draft-ietf-pce-pcep-flowspec
+    - draft-ietf-pce-pcep-inter-domain-p2mp-procedures
+    - draft-ietf-pce-pcep-ls
+    - draft-ietf-pce-pcep-mib
+    - draft-ietf-pce-pcep-yang
+    - draft-ietf-pce-rfc7150bis
+    - draft-ietf-pce-stateful-path-protection
+    - draft-ietf-pce-stateful-pce
+    - draft-ietf-pce-vendor-constraints
+    - draft-ietf-pce-wson-routing-wavelength
+- person: 111477
+  name: Dhruv Dhody
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-01-28'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2023-12-01'
+    subject: 'WG Review: Path Computation Element (pce)'
+    message_id: 170145126214.35812.10386048285609466918@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-12-19'
+    subject: 'WG Action: Rechartered Path Computation Element (pce)'
+    message_id: 170300439203.55321.9573321139822387319@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-pce-association-bidir
+    - draft-ietf-pce-circuit-style-pcep-extensions
+    - draft-ietf-pce-hierarchy-extensions
+    - draft-ietf-pce-lsp-extended-flags
+    - draft-ietf-pce-pcep-extension-native-ip
+    - draft-ietf-pce-pcep-stateful-pce-gmpls
+    - draft-ietf-pce-questions
+    - draft-ietf-pce-segment-routing
+    - draft-ietf-pce-segment-routing-policy-cp
+    - draft-ietf-pce-sid-algo
+    - draft-ietf-pce-sr-bidir-path
+    - draft-ietf-pce-stateful-pce-optional
+    - draft-ietf-pce-stateful-pce-vendor
+- person: 113543
+  name: Jonathan Hardwick
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-10-06'
+    end:
+      certainty: exact
+      date: '2019-01-28'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-pce-inter-area-as-applicability
+    - draft-ietf-pce-inter-layer-ext
+    - draft-ietf-pce-iro-update
+    - draft-ietf-pce-pcep-domain-sequence
+    - draft-ietf-pce-pcep-exp-codepoints
+    - draft-ietf-pce-pcep-service-aware
+    - draft-ietf-pce-rfc6006bis
+    - draft-ietf-pce-stateful-pce-app
+    - draft-ietf-pce-stateful-sync-optimizations

@@ -1,0 +1,200 @@
+acronym: oauth
+name: Web Authorization Protocol
+type: wg
+parent: sec
+state: active
+started: '2009-04-06'
+closed: null
+history_url: https://datatracker.ietf.org/group/oauth/history/
+chairs:
+- person: 8698
+  name: Derek Atkins
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2009-04-06'
+    end:
+      certainty: exact
+      date: '2017-04-05'
+  evidence:
+  - kind: WG Action
+    date: '2012-05-15'
+    subject: 'WG Action: RECHARTER: Web Authorization Protocol (oauth)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-oauth-urn-sub-ns
+- person: 21684
+  name: Barry Leiba
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-06-14'
+      not_before: '2009-04-06'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2014-03-05'
+    notes:
+    - start moved earlier by WG Action announcement of 2011-06-14
+  evidence:
+  - kind: WG Review
+    date: '2011-05-31'
+    subject: 'WG Review: Recharter of Open Authentication Protocol (oauth)'
+    message_id: null
+  - kind: WG Action
+    date: '2011-06-14'
+    subject: 'WG Action: RECHARTER: Web Authorization Protocol Working Group (oauth)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-oauth-v2
+    - draft-ietf-oauth-v2-http-mac
+    - draft-ietf-oauth-v2-threatmodel
+- person: 105857
+  name: Hannes Tschofenig
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-07-25'
+      not_before: '2009-04-06'
+    end:
+      certainty: ongoing
+    notes:
+    - start moved earlier by session request for IETF 78
+  evidence:
+  - kind: WG Review
+    date: '2011-05-31'
+    subject: 'WG Review: Recharter of Open Authentication Protocol (oauth)'
+    message_id: null
+  - kind: WG Action
+    date: '2011-06-14'
+    subject: 'WG Action: RECHARTER: Web Authorization Protocol Working Group (oauth)'
+    message_id: null
+  - kind: WG Action
+    date: '2012-05-15'
+    subject: 'WG Action: RECHARTER: Web Authorization Protocol (oauth)'
+    message_id: null
+  - kind: WG Review
+    date: '2026-05-21'
+    subject: 'WG Review: Web Authorization Protocol (oauth)'
+    message_id: 177938244951.150010.12754957350784511059@dt-datatracker-6995bf6b4c-lv9zr
+  - kind: WG Action
+    date: '2026-06-04'
+    subject: 'WG Action: Rechartered Web Authorization Protocol (oauth)'
+    message_id: 178059074671.2815228.17183567294998373880@dt-datatracker-5b4c8598b5-4ztf9
+  - kind: session requests
+    meetings:
+    - '78'
+    - '80'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-oauth-access-token-jwt
+    - draft-ietf-oauth-amr-values
+    - draft-ietf-oauth-assertions
+    - draft-ietf-oauth-attestation-based-client-auth
+    - draft-ietf-oauth-cross-device-security
+    - draft-ietf-oauth-discovery
+    - draft-ietf-oauth-dyn-reg
+    - draft-ietf-oauth-dyn-reg-management
+    - draft-ietf-oauth-dyn-reg-metadata
+    - draft-ietf-oauth-first-party-apps
+    - draft-ietf-oauth-introspection
+    - draft-ietf-oauth-json-web-token
+    - draft-ietf-oauth-jwsreq
+    - draft-ietf-oauth-jwt-bcp
+    - draft-ietf-oauth-jwt-bearer
+    - draft-ietf-oauth-native-apps
+    - draft-ietf-oauth-par
+    - draft-ietf-oauth-rar
+    - draft-ietf-oauth-rfc8725bis
+    - draft-ietf-oauth-saml2-bearer
+    - draft-ietf-oauth-sd-jwt-vc
+    - draft-ietf-oauth-security-topics
+    - draft-ietf-oauth-selective-disclosure-jwt
+    - draft-ietf-oauth-spop
+    - draft-ietf-oauth-v2-bearer
+- person: 105907
+  name: Peter Saint-Andre
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2010-03-21'
+    end:
+      certainty: evidence-only
+      not_before: '2011-05-31'
+  evidence:
+  - kind: WG Review
+    date: '2011-05-31'
+    subject: 'WG Review: Recharter of Open Authentication Protocol (oauth)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '77'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 109562
+  name: Blaine Cook
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2011-05-31'
+    end:
+      certainty: evidence-only
+      not_before: '2011-06-14'
+  evidence:
+  - kind: WG Review
+    date: '2011-05-31'
+    subject: 'WG Review: Recharter of Open Authentication Protocol (oauth)'
+    message_id: null
+  - kind: WG Action
+    date: '2011-06-14'
+    subject: 'WG Action: RECHARTER: Web Authorization Protocol Working Group (oauth)'
+    message_id: null
+- person: 111355
+  name: Rifaat Shekh-Yusef
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-04-05'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2026-05-21'
+    subject: 'WG Review: Web Authorization Protocol (oauth)'
+    message_id: 177938244951.150010.12754957350784511059@dt-datatracker-6995bf6b4c-lv9zr
+  - kind: WG Action
+    date: '2026-06-04'
+    subject: 'WG Action: Rechartered Web Authorization Protocol (oauth)'
+    message_id: 178059074671.2815228.17183567294998373880@dt-datatracker-5b4c8598b5-4ztf9
+  - kind: shepherded
+    documents:
+    - draft-ietf-oauth-browser-based-apps
+    - draft-ietf-oauth-device-flow
+    - draft-ietf-oauth-dpop
+    - draft-ietf-oauth-identity-chaining
+    - draft-ietf-oauth-iss-auth-resp
+    - draft-ietf-oauth-jwk-thumbprint-uri
+    - draft-ietf-oauth-jwt-introspection-response
+    - draft-ietf-oauth-mtls
+    - draft-ietf-oauth-reciprocal
+    - draft-ietf-oauth-resource-indicators
+    - draft-ietf-oauth-resource-metadata
+    - draft-ietf-oauth-rfc7523bis
+    - draft-ietf-oauth-status-list
+    - draft-ietf-oauth-step-up-authn-challenge
+    - draft-ietf-oauth-token-exchange
+    - draft-ietf-oauth-transaction-tokens

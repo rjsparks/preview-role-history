@@ -1,0 +1,31 @@
+acronym: seamoby
+name: Context Transfer, Handoff Candidate Discovery, and Dormant Mode Host Alerting
+type: wg
+parent: tsv
+state: conclude
+started: '2000-10-04'
+closed: '2004-10-04'
+history_url: https://datatracker.ietf.org/group/seamoby/history/
+chairs:
+- person: 18738
+  name: Pat Calhoun
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-10-04'
+      not_before: '2000-10-04'
+    end:
+      certainty: group-closed
+      date: '2004-10-04'
+- person: 106286
+  name: James Kempf
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-10-04'
+      not_before: '2000-10-04'
+    end:
+      certainty: group-closed
+      date: '2004-10-04'

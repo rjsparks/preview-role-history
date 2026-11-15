@@ -1,0 +1,28 @@
+acronym: dart
+name: DiffServ Applied to Real-time Transports
+type: wg
+parent: rai
+state: conclude
+started: '2014-03-03'
+closed: '2014-11-14'
+history_url: https://datatracker.ietf.org/group/dart/history/
+chairs:
+- person: 104140
+  name: Ben Campbell
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2014-03-03'
+      not_before: '2014-03-03'
+    end:
+      certainty: group-closed
+      date: '2014-11-14'
+  evidence:
+  - kind: WG Review
+    date: '2014-03-28'
+    subject: 'WG Review: DiffServ Applied to RTP Transports (dart)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-dart-dscp-rtp

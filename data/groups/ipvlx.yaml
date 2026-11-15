@@ -1,0 +1,19 @@
+acronym: ipvlx
+name: IP Virtual Link Extension
+type: wg
+parent: int
+state: conclude
+started: null
+closed: '2005-05-11'
+history_url: https://datatracker.ietf.org/group/ipvlx/history/
+chairs:
+- person: 8243
+  name: Erik Nordmark
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-05-11'
+    end:
+      certainty: group-closed
+      date: '2005-05-11'

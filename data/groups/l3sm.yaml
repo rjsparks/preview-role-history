@@ -1,0 +1,33 @@
+acronym: l3sm
+name: 'L3VPN Service Model '
+type: wg
+parent: ops
+state: conclude
+started: '2015-02-27'
+closed: '2016-12-01'
+history_url: https://datatracker.ietf.org/group/l3sm/history/
+chairs:
+- person: 104198
+  name: Adrian Farrel
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-03-24'
+    end:
+      certainty: group-closed
+      date: '2016-12-01'
+- person: 112751
+  name: Qin Wu
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-03-24'
+    end:
+      certainty: group-closed
+      date: '2016-12-01'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-l3sm-l3vpn-service-model

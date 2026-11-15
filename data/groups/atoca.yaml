@@ -1,0 +1,52 @@
+acronym: atoca
+name: Authority-to-Citizen Alert
+type: wg
+parent: rai
+state: conclude
+started: '2010-07-01'
+closed: '2012-11-13'
+history_url: https://datatracker.ietf.org/group/atoca/history/
+chairs:
+- person: 2324
+  name: Scott Bradner
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-11-07'
+      not_before: '2010-07-01'
+    end:
+      certainty: group-closed
+      date: '2012-11-13'
+    notes:
+    - start moved earlier by session request for IETF 79
+  evidence:
+  - kind: session requests
+    meetings:
+    - '79'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 107131
+  name: Martin Thomson
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-03-27'
+      not_before: '2010-07-01'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+    notes:
+    - start moved earlier by session request for IETF 80
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+    end:
+      certainty: group-closed
+      date: '2012-11-13'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '80'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

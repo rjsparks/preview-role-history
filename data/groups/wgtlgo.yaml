@@ -1,0 +1,40 @@
+acronym: wgtlgo
+name: Technology Deep Dive - Modern Router Architecture
+type: wg
+parent: ops
+state: bof-conc
+started: '2019-02-15'
+closed: '2019-06-11'
+history_url: https://datatracker.ietf.org/group/wgtlgo/history/
+chairs:
+- person: 4857
+  name: Karen O'Donoghue
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-03-15'
+    end:
+      certainty: group-closed
+      date: '2019-06-11'
+- person: 107190
+  name: Spencer Dawkins
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2019-02-15'
+      not_before: '2019-02-15'
+    end:
+      certainty: group-closed
+      date: '2019-06-11'
+- person: 109802
+  name: Alvaro Retana
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-03-15'
+    end:
+      certainty: group-closed
+      date: '2019-06-11'

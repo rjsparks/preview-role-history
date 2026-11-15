@@ -1,0 +1,38 @@
+acronym: pki4ipsec
+name: Profiling Use of PKI in IPSEC
+type: wg
+parent: sec
+state: conclude
+started: '2004-01-02'
+closed: '2007-03-29'
+history_url: https://datatracker.ietf.org/group/pki4ipsec/history/
+chairs:
+- person: 105598
+  name: Paul Knight
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-03-29'
+      not_before: '2004-01-02'
+    end:
+      certainty: group-closed
+      date: '2007-03-29'
+- person: 106484
+  name: Gregory Lebovitz
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '2004-01-02'
+    end:
+      certainty: group-closed
+      date: '2007-03-29'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: session requests
+    meetings:
+    - '65'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

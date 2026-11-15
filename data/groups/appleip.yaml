@@ -1,0 +1,20 @@
+acronym: appleip
+name: IP Over AppleTalk
+type: wg
+parent: int
+state: conclude
+started: '1990-02-23'
+closed: '1996-02-22'
+history_url: https://datatracker.ietf.org/group/appleip/history/
+chairs:
+- person: 2831
+  name: John Veizades
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1996-02-22'
+      not_before: '1990-02-23'
+    end:
+      certainty: group-closed
+      date: '1996-02-22'

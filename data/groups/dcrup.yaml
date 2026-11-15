@@ -1,0 +1,29 @@
+acronym: dcrup
+name: DKIM Crypto Update
+type: wg
+parent: art
+state: conclude
+started: '2017-03-31'
+closed: '2018-09-20'
+history_url: https://datatracker.ietf.org/group/dcrup/history/
+chairs:
+- person: 18427
+  name: Rich Salz
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-04-24'
+    end:
+      certainty: group-closed
+      date: '2018-09-20'
+- person: 106842
+  name: Murray Kucherawy
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-04-24'
+    end:
+      certainty: group-closed
+      date: '2018-09-20'

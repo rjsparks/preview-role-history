@@ -1,0 +1,44 @@
+acronym: ianaplan
+name: Planning for the IANA/NTIA Transition
+type: wg
+parent: gen
+state: conclude
+started: '2014-06-11'
+closed: '2016-11-15'
+history_url: https://datatracker.ietf.org/group/ianaplan/history/
+chairs:
+- person: 19869
+  name: Marc Blanchet
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2014-06-11'
+      not_before: '2014-06-11'
+    end:
+      certainty: group-closed
+      date: '2016-11-15'
+- person: 109178
+  name: Andrew Sullivan
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-06-25'
+    end:
+      certainty: exact
+      date: '2014-09-08'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-ianaplan-icg-response
+- person: 109223
+  name: Leslie Daigle
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-09-08'
+    end:
+      certainty: group-closed
+      date: '2016-11-15'

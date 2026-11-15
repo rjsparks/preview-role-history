@@ -1,0 +1,31 @@
+acronym: dcrouting
+name: Data Center Routing
+type: wg
+parent: rtg
+state: bof-conc
+started: '2017-10-05'
+closed: '2018-02-05'
+history_url: https://datatracker.ietf.org/group/dcrouting/history/
+chairs:
+- person: 108304
+  name: Gunter Van de Velde
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2017-10-05'
+      not_before: '2017-10-05'
+    end:
+      certainty: group-closed
+      date: '2018-02-05'
+- person: 111493
+  name: Victor Kuarsingh
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2017-10-05'
+      not_before: '2017-10-05'
+    end:
+      certainty: group-closed
+      date: '2018-02-05'

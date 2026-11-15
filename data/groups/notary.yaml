@@ -1,0 +1,31 @@
+acronym: notary
+name: Notifications and Acknowledgements Requirements
+type: wg
+parent: app
+state: conclude
+started: '1994-02-01'
+closed: '1995-11-09'
+history_url: https://datatracker.ietf.org/group/notary/history/
+chairs:
+- person: 4397
+  name: Ned Freed
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1995-11-09'
+      not_before: '1994-02-01'
+    end:
+      certainty: group-closed
+      date: '1995-11-09'
+- person: 5778
+  name: Harald Alvestrand
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1995-11-09'
+      not_before: '1994-02-01'
+    end:
+      certainty: group-closed
+      date: '1995-11-09'

@@ -1,0 +1,20 @@
+acronym: trunkmib
+name: DS1/DS3 MIB
+type: wg
+parent: int
+state: conclude
+started: '1995-05-04'
+closed: '1999-02-15'
+history_url: https://datatracker.ietf.org/group/trunkmib/history/
+chairs:
+- person: 2853
+  name: Fred Baker
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1999-02-15'
+      not_before: '1995-05-04'
+    end:
+      certainty: group-closed
+      date: '1999-02-15'

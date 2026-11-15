@@ -1,0 +1,38 @@
+acronym: repute
+name: Reputation Services
+type: wg
+parent: app
+state: conclude
+started: '2011-09-13'
+closed: '2013-11-22'
+history_url: https://datatracker.ietf.org/group/repute/history/
+chairs:
+- person: 100927
+  name: Dave Crocker
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2011-09-13'
+    end:
+      certainty: group-closed
+      date: '2013-11-22'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-repute-email-identifiers
+    - draft-ietf-repute-media-type
+    - draft-ietf-repute-model
+    - draft-ietf-repute-query-http
+- person: 109033
+  name: Chris Lewis
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2011-09-13'
+    end:
+      certainty: group-closed
+      date: '2013-11-22'

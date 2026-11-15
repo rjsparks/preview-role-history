@@ -1,0 +1,42 @@
+acronym: elegy
+name: NomCom Eligibility Update
+type: wg
+parent: gen
+state: conclude
+started: '2022-07-29'
+closed: '2023-07-28'
+history_url: https://datatracker.ietf.org/group/elegy/history/
+chairs:
+- person: 21684
+  name: Barry Leiba
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-08-25'
+    end:
+      certainty: group-closed
+      date: '2023-07-28'
+  evidence:
+  - kind: WG Action
+    date: '2022-08-26'
+    subject: 'WG Action: Formed NomCom Eligibility Update (elegy)'
+    message_id: 166152781440.48661.1408366364508316047@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-elegy-rfc8989bis
+- person: 102254
+  name: Michael Richardson
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-08-25'
+    end:
+      certainty: group-closed
+      date: '2023-07-28'
+  evidence:
+  - kind: WG Action
+    date: '2022-08-26'
+    subject: 'WG Action: Formed NomCom Eligibility Update (elegy)'
+    message_id: 166152781440.48661.1408366364508316047@ietfa.amsl.com

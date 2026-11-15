@@ -1,0 +1,31 @@
+acronym: ipsp
+name: IP Security Policy
+type: wg
+parent: sec
+state: conclude
+started: '1999-11-16'
+closed: '2005-03-15'
+history_url: https://datatracker.ietf.org/group/ipsp/history/
+chairs:
+- person: 9645
+  name: Hilarie Orman
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-03-15'
+      not_before: '1999-11-16'
+    end:
+      certainty: group-closed
+      date: '2005-03-15'
+- person: 19237
+  name: Luis Sanchez
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-03-15'
+      not_before: '1999-11-16'
+    end:
+      certainty: group-closed
+      date: '2005-03-15'

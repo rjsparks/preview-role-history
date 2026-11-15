@@ -1,0 +1,31 @@
+acronym: smtpext
+name: Internet Mail Extensions
+type: wg
+parent: app
+state: conclude
+started: '1990-12-03'
+closed: '1993-03-11'
+history_url: https://datatracker.ietf.org/group/smtpext/history/
+chairs:
+- person: 4397
+  name: Ned Freed
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1993-03-11'
+      not_before: '1990-12-03'
+    end:
+      certainty: group-closed
+      date: '1993-03-11'
+- person: 106911
+  name: John Klensin
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1993-03-11'
+      not_before: '1990-12-03'
+    end:
+      certainty: group-closed
+      date: '1993-03-11'

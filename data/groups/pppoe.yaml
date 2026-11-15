@@ -1,0 +1,19 @@
+acronym: pppoe
+name: PPP Over Ethernet
+type: wg
+parent: int
+state: conclude
+started: null
+closed: null
+history_url: https://datatracker.ietf.org/group/pppoe/history/
+chairs:
+- person: 6703
+  name: David Carrel
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+    end:
+      certainty: group-closed
+      date: '2011-12-09'

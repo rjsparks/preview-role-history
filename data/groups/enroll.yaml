@@ -1,0 +1,31 @@
+acronym: enroll
+name: Credential and Provisioning
+type: wg
+parent: sec
+state: conclude
+started: '2003-06-01'
+closed: '2005-10-24'
+history_url: https://datatracker.ietf.org/group/enroll/history/
+chairs:
+- person: 10083
+  name: Paul Hoffman
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-10-24'
+      not_before: '2003-06-01'
+    end:
+      certainty: group-closed
+      date: '2005-10-24'
+- person: 12695
+  name: Eric Rescorla
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-10-24'
+      not_before: '2003-06-01'
+    end:
+      certainty: group-closed
+      date: '2005-10-24'

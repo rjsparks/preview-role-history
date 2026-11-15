@@ -1,0 +1,48 @@
+acronym: sframe
+name: Secure Media Frames
+type: wg
+parent: art
+state: conclude
+started: '2020-08-19'
+closed: '2024-08-28'
+history_url: https://datatracker.ietf.org/group/sframe/history/
+chairs:
+- person: 107131
+  name: Martin Thomson
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-10-26'
+    end:
+      certainty: group-closed
+      date: '2024-08-28'
+  evidence:
+  - kind: WG Action
+    date: '2020-11-06'
+    subject: 'WG Action: Formed Secure Media Frames (sframe)'
+    message_id: 160468973464.30968.15143783219177718112@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-sframe-enc
+- person: 127568
+  name: Bobo Bose-Kolanu
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-10-28'
+    end:
+      certainty: exact
+      date: '2020-10-28'
+  - start:
+      certainty: exact
+      date: '2020-10-28'
+    end:
+      certainty: group-closed
+      date: '2024-08-28'
+  evidence:
+  - kind: WG Action
+    date: '2020-11-06'
+    subject: 'WG Action: Formed Secure Media Frames (sframe)'
+    message_id: 160468973464.30968.15143783219177718112@ietfa.amsl.com

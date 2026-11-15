@@ -1,0 +1,40 @@
+acronym: martini
+name: Multiple AoR reachabiliTy InformatioN Indication
+type: wg
+parent: rai
+state: conclude
+started: '2009-11-30'
+closed: '2011-03-08'
+history_url: https://datatracker.ietf.org/group/martini/history/
+chairs:
+- person: 12620
+  name: Bernard Aboba
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-03-08'
+      not_before: '2009-11-30'
+    end:
+      certainty: group-closed
+      date: '2011-03-08'
+- person: 107190
+  name: Spencer Dawkins
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-03-21'
+      not_before: '2009-11-30'
+    end:
+      certainty: group-closed
+      date: '2011-03-08'
+    notes:
+    - start moved earlier by session request for IETF 77
+  evidence:
+  - kind: session requests
+    meetings:
+    - '77'
+    - '78'
+    - '79'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

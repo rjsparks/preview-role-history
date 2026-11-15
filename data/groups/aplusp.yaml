@@ -1,0 +1,29 @@
+acronym: aplusp
+name: Address Plus Port
+type: wg
+parent: int
+state: conclude
+started: null
+closed: null
+history_url: https://datatracker.ietf.org/group/aplusp/history/
+chairs:
+- person: 100038
+  name: Dan Wing
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+    end:
+      certainty: group-closed
+      date: '2011-12-09'
+- person: 101100
+  name: Christian Jacquenet
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+    end:
+      certainty: group-closed
+      date: '2011-12-09'

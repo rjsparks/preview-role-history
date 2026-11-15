@@ -1,0 +1,46 @@
+acronym: ipwave
+name: IP Wireless Access in Vehicular Environments
+type: wg
+parent: int
+state: conclude
+started: '2016-09-08'
+closed: '2022-11-10'
+history_url: https://datatracker.ietf.org/group/ipwave/history/
+chairs:
+- person: 5376
+  name: Russ Housley
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2016-09-08'
+      not_before: '2016-09-08'
+    end:
+      certainty: group-closed
+      date: '2022-11-10'
+- person: 106740
+  name: Carlos Jesús Bernardos
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-10-18'
+    end:
+      certainty: group-closed
+      date: '2022-11-10'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-ipwave-ipv6-over-80211ocb
+    - draft-ietf-ipwave-vehicular-networking
+- person: 107247
+  name: Carlos Pignataro
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2016-09-08'
+      not_before: '2016-09-08'
+    end:
+      certainty: exact
+      date: '2016-09-22'

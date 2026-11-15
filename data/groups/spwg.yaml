@@ -1,0 +1,20 @@
+acronym: spwg
+name: Internet Security Policy
+type: wg
+parent: sec
+state: conclude
+started: '1990-02-01'
+closed: '1991-08-02'
+history_url: https://datatracker.ietf.org/group/spwg/history/
+chairs:
+- person: 2444
+  name: Richard Pethia
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1991-08-02'
+      not_before: '1990-02-01'
+    end:
+      certainty: group-closed
+      date: '1991-08-02'

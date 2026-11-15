@@ -1,0 +1,80 @@
+acronym: eman
+name: Energy Management
+type: wg
+parent: ops
+state: conclude
+started: '2010-08-26'
+closed: '2015-06-08'
+history_url: https://datatracker.ietf.org/group/eman/history/
+chairs:
+- person: 6766
+  name: Nevil Brownlee
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2013-06-11'
+    end:
+      certainty: group-closed
+      date: '2015-06-08'
+- person: 104197
+  name: Thomas Nadeau
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2013-06-28'
+    end:
+      certainty: group-closed
+      date: '2015-06-08'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-eman-framework
+- person: 105682
+  name: Benoît Claise
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-09-28'
+      not_before: '2010-08-26'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2013-06-11'
+    notes:
+    - start moved earlier by WG Action announcement of 2010-09-28
+  evidence:
+  - kind: WG Action
+    date: '2010-09-28'
+    subject: 'WG Action: Energy Management (eman)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '80'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 111529
+  name: Bruce Nordman
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-09-28'
+      not_before: '2010-08-26'
+    end:
+      certainty: exact
+      date: '2013-06-26'
+    notes:
+    - start moved earlier by WG Action announcement of 2010-09-28
+  evidence:
+  - kind: WG Action
+    date: '2010-09-28'
+    subject: 'WG Action: Energy Management (eman)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

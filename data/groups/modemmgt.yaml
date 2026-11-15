@@ -1,0 +1,20 @@
+acronym: modemmgt
+name: Modem Management
+type: wg
+parent: mgt
+state: conclude
+started: '1993-04-08'
+closed: '1994-08-25'
+history_url: https://datatracker.ietf.org/group/modemmgt/history/
+chairs:
+- person: 4832
+  name: Mark Lewis
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1994-08-25'
+      not_before: '1993-04-08'
+    end:
+      certainty: group-closed
+      date: '1994-08-25'

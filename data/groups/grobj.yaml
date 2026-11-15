@@ -1,0 +1,29 @@
+acronym: grobj
+name: Generic Referral Object
+type: wg
+parent: app
+state: bof-conc
+started: null
+closed: '2014-09-04'
+history_url: https://datatracker.ietf.org/group/grobj/history/
+chairs:
+- person: 100038
+  name: Dan Wing
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+    end:
+      certainty: group-closed
+      date: '2014-09-04'
+- person: 108054
+  name: Sheng Jiang
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+    end:
+      certainty: group-closed
+      date: '2014-09-04'

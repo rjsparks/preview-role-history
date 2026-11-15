@@ -1,0 +1,31 @@
+acronym: noctools
+name: NOC-Tools
+type: wg
+parent: usv
+state: conclude
+started: '1989-01-01'
+closed: '1990-04-01'
+history_url: https://datatracker.ietf.org/group/noctools/history/
+chairs:
+- person: 2412
+  name: Gary Malkin
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1990-04-01'
+      not_before: '1989-01-01'
+    end:
+      certainty: group-closed
+      date: '1990-04-01'
+- person: 3509
+  name: Robert Enger
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1990-04-01'
+      not_before: '1989-01-01'
+    end:
+      certainty: group-closed
+      date: '1990-04-01'

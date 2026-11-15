@@ -1,0 +1,20 @@
+acronym: ssh
+name: Site Security Handbook
+type: wg
+parent: usv
+state: conclude
+started: '1994-10-28'
+closed: '1999-02-08'
+history_url: https://datatracker.ietf.org/group/ssh/history/
+chairs:
+- person: 3793
+  name: Barbara Fraser
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1999-02-08'
+      not_before: '1994-10-28'
+    end:
+      certainty: group-closed
+      date: '1999-02-08'

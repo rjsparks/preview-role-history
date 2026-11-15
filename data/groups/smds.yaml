@@ -1,0 +1,31 @@
+acronym: smds
+name: IP Over Switched Megabit Data Service
+type: wg
+parent: int
+state: conclude
+started: '1990-02-01'
+closed: '1990-12-03'
+history_url: https://datatracker.ietf.org/group/smds/history/
+chairs:
+- person: 2769
+  name: Michael Fidler
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1990-12-03'
+      not_before: '1990-02-01'
+    end:
+      certainty: group-closed
+      date: '1990-12-03'
+- person: 2847
+  name: George Clapp
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1990-12-03'
+      not_before: '1990-02-01'
+    end:
+      certainty: group-closed
+      date: '1990-12-03'

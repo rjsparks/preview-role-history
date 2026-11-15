@@ -1,0 +1,24 @@
+acronym: imapapnd
+name: IMAP APPEND Extensions
+type: wg
+parent: art
+state: conclude
+started: '2015-06-02'
+closed: '2016-05-19'
+history_url: https://datatracker.ietf.org/group/imapapnd/history/
+chairs:
+- person: 109918
+  name: S Moonesamy
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-06-26'
+    end:
+      certainty: group-closed
+      date: '2016-05-19'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-imapapnd-appendlimit-extension
+    - draft-ietf-imapapnd-rfc2088bis

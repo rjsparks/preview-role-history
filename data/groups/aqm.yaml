@@ -1,0 +1,57 @@
+acronym: aqm
+name: Active Queue Management and Packet Scheduling
+type: wg
+parent: tsv
+state: conclude
+started: '2013-06-20'
+closed: '2017-10-16'
+history_url: https://datatracker.ietf.org/group/aqm/history/
+chairs:
+- person: 110856
+  name: Wesley Eddy
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2013-06-20'
+      not_after: '2013-08-08'
+    end:
+      certainty: approximate
+      date: '2013-08-08'
+  - start:
+      certainty: exact
+      date: '2013-09-24'
+    end:
+      certainty: group-closed
+      date: '2017-10-16'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-aqm-codel
+    - draft-ietf-aqm-docsis-pie
+    - draft-ietf-aqm-eval-guidelines
+    - draft-ietf-aqm-fq-codel
+    - draft-ietf-aqm-fq-implementation
+    - draft-ietf-aqm-pie
+- person: 112065
+  name: Richard Scheffenegger
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2013-06-20'
+      not_after: '2013-08-08'
+    end:
+      certainty: approximate
+      date: '2013-08-08'
+  - start:
+      certainty: exact
+      date: '2013-09-24'
+    end:
+      certainty: group-closed
+      date: '2017-10-16'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-aqm-ecn-benefits
+    - draft-ietf-aqm-recommendation

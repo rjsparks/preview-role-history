@@ -1,0 +1,31 @@
+acronym: fax
+name: Internet Fax
+type: wg
+parent: app
+state: conclude
+started: '1997-01-29'
+closed: '2005-02-24'
+history_url: https://datatracker.ietf.org/group/fax/history/
+chairs:
+- person: 12749
+  name: Claudio Allocchio
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-02-24'
+      not_before: '1997-01-29'
+    end:
+      certainty: group-closed
+      date: '2005-02-24'
+- person: 102839
+  name: Hiroshi Tamura
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-02-24'
+      not_before: '1997-01-29'
+    end:
+      certainty: group-closed
+      date: '2005-02-24'

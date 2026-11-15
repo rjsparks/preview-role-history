@@ -1,0 +1,122 @@
+acronym: opsarea
+name: Operations & Management Area Open Meeting
+type: ag
+parent: ops
+state: active
+started: null
+closed: null
+history_url: https://datatracker.ietf.org/group/opsarea/history/
+chairs:
+- person: 6699
+  name: Dan Romascanu
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-07-09'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2017-03-30'
+    notes:
+    - start moved earlier by session request for IETF 66
+  evidence:
+  - kind: session requests
+    meetings:
+    - '66'
+    - '68'
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    - '75'
+    - '76'
+    - '77'
+    - '78'
+    - '79'
+    - '80'
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 20959
+  name: Joel Jaeggli
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2017-03-30'
+    end:
+      certainty: exact
+      date: '2017-03-30'
+- person: 101568
+  name: Ron Bonica
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2017-03-30'
+- person: 105682
+  name: Benoît Claise
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2017-03-30'
+    end:
+      certainty: exact
+      date: '2017-03-30'
+- person: 107859
+  name: Mahesh Jethanandani
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-03-20'
+    end:
+      certainty: ongoing
+- person: 111656
+  name: Warren Kumari
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-03-30'
+    end:
+      certainty: exact
+      date: '2025-03-19'
+- person: 112869
+  name: Mohamed Boucadair
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-03-19'
+    end:
+      certainty: ongoing
+- person: 118100
+  name: Ignas Bagdonas
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-03-30'
+    end:
+      certainty: exact
+      date: '2020-03-26'
+- person: 119066
+  name: Robert Wilton
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-03-26'
+    end:
+      certainty: exact
+      date: '2024-03-20'

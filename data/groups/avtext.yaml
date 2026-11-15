@@ -1,0 +1,84 @@
+acronym: avtext
+name: Audio/Video Transport Extensions
+type: wg
+parent: art
+state: conclude
+started: '2010-12-03'
+closed: '2017-08-11'
+history_url: https://datatracker.ietf.org/group/avtext/history/
+chairs:
+- person: 101923
+  name: Jonathan Lennox
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2013-01-11'
+    end:
+      certainty: group-closed
+      date: '2017-08-11'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-avtext-multiple-clock-rates
+    - draft-ietf-avtext-rid
+    - draft-ietf-avtext-rtp-duplication
+    - draft-ietf-avtext-rtp-stream-pause
+    - draft-ietf-avtext-sdes-hdr-ext
+    - draft-ietf-avtext-splicing-notification
+- person: 104294
+  name: Magnus Westerlund
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2010-12-03'
+    end:
+      certainty: exact
+      date: '2013-01-11'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-avtext-splicing-for-rtp
+- person: 105097
+  name: Keith Drage
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-03-27'
+      not_before: '2010-12-03'
+    end:
+      certainty: exact
+      date: '2015-11-05'
+    notes:
+    - start moved earlier by session request for IETF 80
+  evidence:
+  - kind: session requests
+    meetings:
+    - '80'
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-avtext-client-to-mixer-audio-level
+    - draft-ietf-avtext-mixer-to-client-audio-level
+    - draft-ietf-avtext-rams-scenarios
+    - draft-ietf-avtext-rtp-grouping-taxonomy
+- person: 111749
+  name: Rachel Huang
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-11-05'
+    end:
+      certainty: group-closed
+      date: '2017-08-11'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-avtext-avpf-ccm-layered
+    - draft-ietf-avtext-lrr

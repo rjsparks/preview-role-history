@@ -1,0 +1,29 @@
+acronym: irtfopen
+name: IRTF Open Meeting
+type: rag
+parent: irtf
+state: active
+started: '2012-06-06'
+closed: null
+history_url: https://datatracker.ietf.org/group/irtfopen/history/
+chairs:
+- person: 20209
+  name: Colin Perkins
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2012-06-06'
+      not_after: '2020-07-08'
+    end:
+      certainty: exact
+      date: '2025-03-13'
+- person: 140639
+  name: Dirk KUTSCHER
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-03-13'
+    end:
+      certainty: ongoing

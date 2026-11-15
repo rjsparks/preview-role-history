@@ -1,0 +1,129 @@
+acronym: grow
+name: Global Routing Operations
+type: wg
+parent: ops
+state: active
+started: '2003-04-02'
+closed: null
+history_url: https://datatracker.ietf.org/group/grow/history/
+chairs:
+- person: 106925
+  name: Geoff Huston
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-03-19'
+    end:
+      certainty: evidence-only
+      not_before: '2007-07-22'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '65'
+    - '69'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 107992
+  name: Peter Schoenmaker
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-12-02'
+      not_before: '2003-04-02'
+    end:
+      certainty: exact
+      date: '2018-03-26'
+    notes:
+    - start moved earlier by session request for IETF 70
+  evidence:
+  - kind: session requests
+    meetings:
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    - '75'
+    - '76'
+    - '78'
+    - '79'
+    - '80'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-grow-bmp
+    - draft-ietf-grow-filtering-threats
+    - draft-ietf-grow-ix-bgp-route-server-operations
+    - draft-ietf-grow-mrt-add-paths
+- person: 111246
+  name: Chris Morrow
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2012-02-01'
+      not_before: '2003-04-02'
+    end:
+      certainty: exact
+      date: '2025-03-28'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-grow-bgp-gshut
+    - draft-ietf-grow-bgp-reject
+    - draft-ietf-grow-bgp-session-culling
+    - draft-ietf-grow-blackholing
+    - draft-ietf-grow-bmp-adj-rib-out
+    - draft-ietf-grow-irr-routing-policy-considerations
+    - draft-ietf-grow-large-communities-usage
+    - draft-ietf-grow-route-leak-problem-definition
+- person: 111303
+  name: Job Snijders
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2018-03-05'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2025-04-24'
+    subject: 'WG Review: Global Routing Operations (grow)'
+    message_id: 174550939676.2584560.3370235519455300623@dt-datatracker-64c5c9b5f9-hz6qg
+  - kind: WG Action
+    date: '2025-05-09'
+    subject: 'WG Action: Rechartered Global Routing Operations (grow)'
+    message_id: 174680945289.1288330.11973442637242180531@dt-datatracker-58d4498dbd-6gzjf
+  - kind: shepherded
+    documents:
+    - draft-ietf-grow-bgpopsecupd
+    - draft-ietf-grow-bmp-bgp-rib-stats
+    - draft-ietf-grow-bmp-local-rib
+    - draft-ietf-grow-bmp-peer-up
+    - draft-ietf-grow-bmp-registries-change
+    - draft-ietf-grow-bmp-tlv
+    - draft-ietf-grow-wkc-behavior
+- person: 115739
+  name: Paolo Lucente
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-03-28'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2025-04-24'
+    subject: 'WG Review: Global Routing Operations (grow)'
+    message_id: 174550939676.2584560.3370235519455300623@dt-datatracker-64c5c9b5f9-hz6qg
+  - kind: WG Action
+    date: '2025-05-09'
+    subject: 'WG Action: Rechartered Global Routing Operations (grow)'
+    message_id: 174680945289.1288330.11973442637242180531@dt-datatracker-58d4498dbd-6gzjf
+  - kind: shepherded
+    documents:
+    - draft-ietf-grow-nrtm-v4

@@ -1,0 +1,31 @@
+acronym: lurk
+name: Limited Use of Remote Keys
+type: wg
+parent: sec
+state: bof-conc
+started: '2016-02-26'
+closed: '2016-10-04'
+history_url: https://datatracker.ietf.org/group/lurk/history/
+chairs:
+- person: 104196
+  name: Eric Burger
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2016-02-26'
+      not_before: '2016-02-26'
+    end:
+      certainty: group-closed
+      date: '2016-10-04'
+- person: 104278
+  name: Yaron Sheffer
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2016-02-26'
+      not_before: '2016-02-26'
+    end:
+      certainty: group-closed
+      date: '2016-10-04'

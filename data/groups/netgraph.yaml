@@ -1,0 +1,20 @@
+acronym: netgraph
+name: Network Graphics
+type: wg
+parent: app
+state: bof-conc
+started: '1990-02-07'
+closed: '1991-01-01'
+history_url: https://datatracker.ietf.org/group/netgraph/history/
+chairs:
+- person: 1307
+  name: Craig Partridge
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1991-01-01'
+      not_before: '1990-02-07'
+    end:
+      certainty: group-closed
+      date: '1991-01-01'

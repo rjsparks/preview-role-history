@@ -1,0 +1,20 @@
+acronym: ipvbi
+name: IP over VBI
+type: wg
+parent: int
+state: conclude
+started: '1998-03-04'
+closed: '1999-12-20'
+history_url: https://datatracker.ietf.org/group/ipvbi/history/
+chairs:
+- person: 20750
+  name: Dan Zigmond
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1999-12-20'
+      not_before: '1998-03-04'
+    end:
+      certainty: group-closed
+      date: '1999-12-20'

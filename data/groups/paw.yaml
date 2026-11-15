@@ -1,0 +1,29 @@
+acronym: paw
+name: Predictable and Available Wireless
+type: wg
+parent: int
+state: bof-conc
+started: '2019-02-19'
+closed: '2019-06-11'
+history_url: https://datatracker.ietf.org/group/paw/history/
+chairs:
+- person: 115824
+  name: Pascal Thubert
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-03-23'
+    end:
+      certainty: group-closed
+      date: '2019-06-11'
+- person: 124759
+  name: Ethan Grossman
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-03-23'
+    end:
+      certainty: group-closed
+      date: '2019-06-11'

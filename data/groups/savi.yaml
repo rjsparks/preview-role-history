@@ -1,0 +1,56 @@
+acronym: savi
+name: Source Address Validation Improvements
+type: wg
+parent: int
+state: conclude
+started: '2008-05-22'
+closed: '2018-10-18'
+history_url: https://datatracker.ietf.org/group/savi/history/
+chairs:
+- person: 108396
+  name: Christian Vogt
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2009-03-22'
+      not_before: '2008-05-22'
+    end:
+      certainty: exact
+      date: '2012-08-29'
+    notes:
+    - start moved earlier by session request for IETF 74
+  evidence:
+  - kind: session requests
+    meetings:
+    - '74'
+    - '75'
+    - '76'
+    - '77'
+    - '78'
+    - '79'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 108428
+  name: Jean-Michel Combes
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-03-27'
+      not_before: '2008-05-22'
+    end:
+      certainty: group-closed
+      date: '2018-10-18'
+    notes:
+    - start moved earlier by session request for IETF 80
+  evidence:
+  - kind: session requests
+    meetings:
+    - '80'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-savi-dhcp
+    - draft-ietf-savi-mix
+    - draft-ietf-savi-send

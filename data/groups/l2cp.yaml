@@ -1,0 +1,29 @@
+acronym: l2cp
+name: Layer 2 Control Protocol
+type: wg
+parent: int
+state: conclude
+started: null
+closed: '2006-05-12'
+history_url: https://datatracker.ietf.org/group/l2cp/history/
+chairs:
+- person: 105786
+  name: Matthew Bocci
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-05-12'
+    end:
+      certainty: group-closed
+      date: '2006-05-12'
+- person: 106526
+  name: Wojciech Dec
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-05-12'
+    end:
+      certainty: group-closed
+      date: '2006-05-12'

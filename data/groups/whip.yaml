@@ -1,0 +1,20 @@
+acronym: whip
+name: Internet White Pages Requirements
+type: wg
+parent: app
+state: conclude
+started: '1994-05-23'
+closed: '1995-06-22'
+history_url: https://datatracker.ietf.org/group/whip/history/
+chairs:
+- person: 4473
+  name: Tony Genovese
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1995-06-22'
+      not_before: '1994-05-23'
+    end:
+      certainty: group-closed
+      date: '1995-06-22'

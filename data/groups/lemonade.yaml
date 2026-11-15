@@ -1,0 +1,42 @@
+acronym: lemonade
+name: Enhancements to Internet email to Support Diverse Service Environments
+type: wg
+parent: app
+state: conclude
+started: '2002-12-06'
+closed: '2010-02-11'
+history_url: https://datatracker.ietf.org/group/lemonade/history/
+chairs:
+- person: 19651
+  name: Glenn Parsons
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-02-11'
+      not_before: '2002-12-06'
+    end:
+      certainty: group-closed
+      date: '2010-02-11'
+- person: 104196
+  name: Eric Burger
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '2002-12-06'
+    end:
+      certainty: group-closed
+      date: '2010-02-11'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    - '68'
+    - '71'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

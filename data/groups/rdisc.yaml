@@ -1,0 +1,20 @@
+acronym: rdisc
+name: Router Discovery
+type: wg
+parent: int
+state: conclude
+started: '1988-10-01'
+closed: '1991-08-08'
+history_url: https://datatracker.ietf.org/group/rdisc/history/
+chairs:
+- person: 9009
+  name: Steve Deering
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1991-08-08'
+      not_before: '1988-10-01'
+    end:
+      certainty: group-closed
+      date: '1991-08-08'

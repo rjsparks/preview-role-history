@@ -1,0 +1,20 @@
+acronym: hostmib
+name: Host Resources MIB
+type: wg
+parent: mgt
+state: conclude
+started: '1992-06-19'
+closed: '1993-09-20'
+history_url: https://datatracker.ietf.org/group/hostmib/history/
+chairs:
+- person: 2689
+  name: Steven Waldbusser
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1993-09-20'
+      not_before: '1992-06-19'
+    end:
+      certainty: group-closed
+      date: '1993-09-20'

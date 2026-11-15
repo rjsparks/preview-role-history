@@ -1,0 +1,73 @@
+acronym: mops
+name: Media OPerationS
+type: wg
+parent: ops
+state: active
+started: '2019-06-11'
+closed: null
+history_url: https://datatracker.ietf.org/group/mops/history/
+chairs:
+- person: 105721
+  name: Jana Iyengar
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2026-02-22'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2026-09-03'
+    subject: 'WG Review: Media OPerationS (mops)'
+    message_id: 178845270571.700896.7674374899378852362@dt-datatracker-6669c7b496-s9mrn
+  - kind: WG Action
+    date: '2026-10-08'
+    subject: 'WG Action: Rechartered Media OPerationS (mops)'
+    message_id: 179147869312.186934.1452471299799548436@dt-datatracker-678f7b55dd-md5qs
+- person: 109223
+  name: Leslie Daigle
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2019-06-11'
+      not_before: '2019-06-11'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2026-09-03'
+    subject: 'WG Review: Media OPerationS (mops)'
+    message_id: 178845270571.700896.7674374899378852362@dt-datatracker-6669c7b496-s9mrn
+  - kind: WG Action
+    date: '2026-10-08'
+    subject: 'WG Action: Rechartered Media OPerationS (mops)'
+    message_id: 179147869312.186934.1452471299799548436@dt-datatracker-678f7b55dd-md5qs
+- person: 116218
+  name: Glenn Deen
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2019-06-11'
+      not_before: '2019-06-11'
+    end:
+      certainty: exact
+      date: '2019-09-30'
+  - start:
+      certainty: exact
+      date: '2019-11-17'
+    end:
+      certainty: exact
+      date: '2019-12-08'
+- person: 119463
+  name: Kyle Rose
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-12-08'
+    end:
+      certainty: exact
+      date: '2026-02-22'

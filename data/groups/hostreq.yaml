@@ -1,0 +1,20 @@
+acronym: hostreq
+name: Host Requirements
+type: wg
+parent: null
+state: bof-conc
+started: '1987-11-01'
+closed: '1991-01-01'
+history_url: https://datatracker.ietf.org/group/hostreq/history/
+chairs:
+- person: 5436
+  name: Robert Braden
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1991-01-01'
+      not_before: '1987-11-01'
+    end:
+      certainty: group-closed
+      date: '1991-01-01'

@@ -1,0 +1,175 @@
+acronym: nfsv4
+name: Network File System Version 4
+type: wg
+parent: wit
+state: active
+started: '1996-07-28'
+closed: null
+history_url: https://datatracker.ietf.org/group/nfsv4/history/
+chairs:
+- person: 18587
+  name: Brian Pawlowski
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2009-03-18'
+      not_before: '1996-07-28'
+    end:
+      certainty: ongoing
+    notes:
+    - start moved earlier by WG Action announcement of 2009-03-18
+  evidence:
+  - kind: WG Review
+    date: '2007-10-09'
+    subject: 'WG Review: Recharter of Network File System Version 4 WG (nfsv4)'
+    message_id: null
+  - kind: WG Review
+    date: '2009-03-04'
+    subject: 'WG Review: Recharter of Network File System Version 4 (nfsv4)'
+    message_id: null
+  - kind: WG Action
+    date: '2009-03-18'
+    subject: 'WG Action: RECHARTER: Network File System Version 4 (nfsv4)'
+    message_id: null
+  - kind: WG Review
+    date: '2012-05-15'
+    subject: 'WG Review: Recharter of Network File System Version 4 (nfsv4)'
+    message_id: null
+  - kind: WG Review
+    date: '2020-07-17'
+    subject: 'WG Review: Network File System Version 4 (nfsv4)'
+    message_id: 159502041114.12684.5858675281571280745@ietfa.amsl.com
+  - kind: WG Action
+    date: '2020-08-31'
+    subject: 'WG Action: Rechartered Network File System Version 4 (nfsv4)'
+    message_id: 159888809710.10859.9824794021208238160@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-nfsv4-internationalization
+    - draft-ietf-nfsv4-rpcrdma-cm-pvt-data
+- person: 21097
+  name: Spencer Shepler
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '1996-07-28'
+    end:
+      certainty: exact
+      date: '2019-11-21'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: WG Review
+    date: '2007-10-09'
+    subject: 'WG Review: Recharter of Network File System Version 4 WG (nfsv4)'
+    message_id: null
+  - kind: WG Review
+    date: '2009-03-04'
+    subject: 'WG Review: Recharter of Network File System Version 4 (nfsv4)'
+    message_id: null
+  - kind: WG Action
+    date: '2009-03-18'
+    subject: 'WG Action: RECHARTER: Network File System Version 4 (nfsv4)'
+    message_id: null
+  - kind: WG Review
+    date: '2012-05-15'
+    subject: 'WG Review: Recharter of Network File System Version 4 (nfsv4)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    - '75'
+    - '76'
+    - '77'
+    - '78'
+    - '79'
+    - '80'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-nfsv4-flex-files
+    - draft-ietf-nfsv4-labreqs
+    - draft-ietf-nfsv4-layout-types
+    - draft-ietf-nfsv4-lfs-registry
+    - draft-ietf-nfsv4-minorversion2
+    - draft-ietf-nfsv4-minorversion2-dot-x
+    - draft-ietf-nfsv4-multi-domain-fs-reqs
+    - draft-ietf-nfsv4-mv0-trunking-update
+    - draft-ietf-nfsv4-mv1-msns-update
+    - draft-ietf-nfsv4-pnfs-block-disk-protection
+    - draft-ietf-nfsv4-rfc3530-migration-update
+    - draft-ietf-nfsv4-rfc3530bis
+    - draft-ietf-nfsv4-rfc5666bis
+    - draft-ietf-nfsv4-rfc5667bis
+    - draft-ietf-nfsv4-rpcrdma-bidirection
+    - draft-ietf-nfsv4-rpcsec-gssv3
+    - draft-ietf-nfsv4-scsi-layout
+    - draft-ietf-nfsv4-umask
+    - draft-ietf-nfsv4-versioning
+    - draft-ietf-nfsv4-xattrs
+- person: 106776
+  name: David Noveck
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-11-21'
+    end:
+      certainty: exact
+      date: '2023-11-21'
+  evidence:
+  - kind: WG Review
+    date: '2020-07-17'
+    subject: 'WG Review: Network File System Version 4 (nfsv4)'
+    message_id: 159502041114.12684.5858675281571280745@ietfa.amsl.com
+  - kind: WG Action
+    date: '2020-08-31'
+    subject: 'WG Action: Rechartered Network File System Version 4 (nfsv4)'
+    message_id: 159888809710.10859.9824794021208238160@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-nfsv4-rpc-tls
+- person: 112820
+  name: Chuck Lever
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2026-06-10'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-nfsv4-uncacheable-directories
+    - draft-ietf-nfsv4-uncacheable-files
+- person: 113536
+  name: Christopher Inacio
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-11-02'
+    end:
+      certainty: exact
+      date: '2026-05-04'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-nfsv4-delstid
+    - draft-ietf-nfsv4-layoutwcc
+    - draft-ietf-nfsv4-layrec
+    - draft-ietf-nfsv4-scsi-layout-nvme

@@ -1,0 +1,45 @@
+acronym: raw
+name: Reliable and Available Wireless
+type: wg
+parent: rtg
+state: conclude
+started: '2019-10-09'
+closed: '2023-10-20'
+history_url: https://datatracker.ietf.org/group/raw/history/
+chairs:
+- person: 8243
+  name: Erik Nordmark
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-10-14'
+    end:
+      certainty: exact
+      date: '2020-01-17'
+- person: 117656
+  name: Rick Taylor
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-10-14'
+    end:
+      certainty: exact
+      date: '2020-01-17'
+  - start:
+      certainty: exact
+      date: '2020-02-07'
+    end:
+      certainty: group-closed
+      date: '2023-10-20'
+- person: 123468
+  name: Eve Schooler
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-02-07'
+    end:
+      certainty: group-closed
+      date: '2023-10-20'

@@ -1,0 +1,31 @@
+acronym: marid
+name: MTA Authorization Records in DNS
+type: wg
+parent: app
+state: conclude
+started: '2004-01-15'
+closed: '2004-09-22'
+history_url: https://datatracker.ietf.org/group/marid/history/
+chairs:
+- person: 2455
+  name: Marshall Rose
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-09-22'
+      not_before: '2004-01-15'
+    end:
+      certainty: group-closed
+      date: '2004-09-22'
+- person: 106296
+  name: Andy Newton
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-09-22'
+      not_before: '2004-01-15'
+    end:
+      certainty: group-closed
+      date: '2004-09-22'

@@ -1,0 +1,125 @@
+acronym: iccrg
+name: Internet Congestion Control
+type: rg
+parent: irtf
+state: active
+started: null
+closed: null
+history_url: https://datatracker.ietf.org/group/iccrg/history/
+chairs:
+- person: 103877
+  name: Michael Welzl
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2012-02-26'
+    end:
+      certainty: exact
+      date: '2017-11-27'
+- person: 105721
+  name: Jana Iyengar
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-01-21'
+    end:
+      certainty: exact
+      date: '2023-09-29'
+- person: 109727
+  name: Murari Sridharan
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2012-02-26'
+    end:
+      certainty: between
+      not_before: '2012-02-26'
+      not_after: '2014-11-13'
+- person: 110856
+  name: Wesley Eddy
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2007-07-22'
+    end:
+      certainty: evidence-only
+      not_before: '2011-03-27'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '69'
+    - '71'
+    - '73'
+    - '75'
+    - '77'
+    - '78'
+    - '80'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 111166
+  name: David Ros
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2012-02-26'
+      not_after: '2014-11-13'
+    end:
+      certainty: between
+      not_before: '2012-02-26'
+      not_after: '2014-11-13'
+  - start:
+      certainty: between
+      not_before: '2012-02-26'
+      not_after: '2014-11-13'
+    end:
+      certainty: exact
+      date: '2016-01-21'
+- person: 123344
+  name: Reese Enghardt
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-10-07'
+    end:
+      certainty: ongoing
+- person: 124753
+  name: Michael Schapira
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-09-05'
+    end:
+      certainty: exact
+      date: '2023-09-29'
+- person: 127141
+  name: Vidhi Goel
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-10-07'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-irtf-iccrg-rledbat
+- person: 128723
+  name: Simone Ferlin
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-09-05'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-irtf-iccrg-ledbat-plus-plus

@@ -1,0 +1,163 @@
+acronym: 6man
+name: IPv6 Maintenance
+type: wg
+parent: int
+state: active
+started: '2007-08-24'
+closed: null
+history_url: https://datatracker.ietf.org/group/6man/history/
+chairs:
+- person: 2793
+  name: Bob Hinden
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-09-25'
+      not_before: '2007-08-24'
+    end:
+      certainty: ongoing
+    notes:
+    - start moved earlier by WG Action announcement of 2007-09-25
+  evidence:
+  - kind: WG Action
+    date: '2007-09-25'
+    subject: 'WG Action: IPv6 Maintenance (6man)'
+    message_id: null
+  - kind: WG Review
+    date: '2013-10-11'
+    subject: 'WG Review: IPv6 Maintenance (6man)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '78'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-6man-addr-assign
+    - draft-ietf-6man-comp-rtg-hdr
+    - draft-ietf-6man-default-iids
+    - draft-ietf-6man-deprecate-atomfrag-generation
+    - draft-ietf-6man-deprecate-router-alert
+    - draft-ietf-6man-ext-transmit
+    - draft-ietf-6man-grand
+    - draft-ietf-6man-icmp-limits
+    - draft-ietf-6man-ipv6-atomic-fragments
+    - draft-ietf-6man-maxra
+    - draft-ietf-6man-nd-extension-headers
+    - draft-ietf-6man-ndpioiana
+    - draft-ietf-6man-pio-pflag
+    - draft-ietf-6man-predictable-fragment-id
+    - draft-ietf-6man-ra-pref64
+    - draft-ietf-6man-rfc6434-bis
+    - draft-ietf-6man-segment-routing-header
+    - draft-ietf-6man-slaac-renum
+    - draft-ietf-6man-stable-privacy-addresses
+    - draft-ietf-6man-vpn-dest-opt
+    - draft-ietf-6man-why64
+- person: 100664
+  name: Brian Haberman
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-09-25'
+      not_before: '2007-08-24'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2015-06-15'
+    notes:
+    - start moved earlier by WG Action announcement of 2007-09-25
+  evidence:
+  - kind: WG Action
+    date: '2007-09-25'
+    subject: 'WG Action: IPv6 Maintenance (6man)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    - '75'
+    - '76'
+    - '77'
+    - '79'
+    - '80'
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 105691
+  name: Ole Trøan
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2007-08-24'
+    end:
+      certainty: exact
+      date: '2024-07-31'
+  evidence:
+  - kind: WG Review
+    date: '2013-10-11'
+    subject: 'WG Review: IPv6 Maintenance (6man)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-6man-addr-select-opt
+    - draft-ietf-6man-enhanced-dad
+    - draft-ietf-6man-impatient-nud
+    - draft-ietf-6man-ipv6-address-generation-privacy
+    - draft-ietf-6man-ipv6-alt-mark
+    - draft-ietf-6man-ipv6-mibs-obsolete
+    - draft-ietf-6man-mtu-option
+    - draft-ietf-6man-multicast-addr-arch-update
+    - draft-ietf-6man-multicast-scopes
+    - draft-ietf-6man-oversized-header-chain
+    - draft-ietf-6man-resilient-rs
+    - draft-ietf-6man-rfc1981bis
+    - draft-ietf-6man-rfc2460bis
+    - draft-ietf-6man-rfc4291bis
+    - draft-ietf-6man-rfc4941bis
+    - draft-ietf-6man-spring-srv6-oam
+    - draft-ietf-6man-udpchecksums
+    - draft-ietf-6man-udpzero
+    - draft-ietf-6man-ug
+    - draft-ietf-6man-uri-zoneid
+- person: 108992
+  name: Erik Kline
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2026-11-10'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-6man-sidlist-clarification
+- person: 122661
+  name: Jen Linkova
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-03-24'
+    end:
+      certainty: exact
+      date: '2026-11-10'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-6man-hbh-processing
+    - draft-ietf-6man-icmpv6-reflection
+    - draft-ietf-6man-ipv6-neighbor-discovery-yang
+    - draft-ietf-6man-rfc6724-update
+    - draft-ietf-6man-rfc6874bis
+    - draft-ietf-6man-sids
+    - draft-ietf-6man-snac-router-ra-flag
+    - draft-ietf-6man-zone-ui

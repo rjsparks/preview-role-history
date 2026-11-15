@@ -1,0 +1,19 @@
+acronym: snmpxns
+name: SNMP Over XNS
+type: wg
+parent: null
+state: bof-conc
+started: null
+closed: '1997-04-01'
+history_url: https://datatracker.ietf.org/group/snmpxns/history/
+chairs:
+- person: 9509
+  name: Philip Prindeville
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1997-04-01'
+    end:
+      certainty: group-closed
+      date: '1997-04-01'

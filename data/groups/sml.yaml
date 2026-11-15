@@ -1,0 +1,55 @@
+acronym: sml
+name: Structured Email
+type: wg
+parent: art
+state: active
+started: '2023-02-16'
+closed: null
+history_url: https://datatracker.ietf.org/group/sml/history/
+chairs:
+- person: 21684
+  name: Barry Leiba
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-03-22'
+    end:
+      certainty: exact
+      date: '2023-10-06'
+  evidence:
+  - kind: WG Review
+    date: '2023-09-22'
+    subject: 'WG Review: Structured Email (sml)'
+    message_id: 169540464583.14257.9917431099371542692@ietfa.amsl.com
+- person: 102154
+  name: Alexey Melnikov
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-03-22'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2023-09-22'
+    subject: 'WG Review: Structured Email (sml)'
+    message_id: 169540464583.14257.9917431099371542692@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-10-25'
+    subject: 'WG Action: Formed Structured Email (sml)'
+    message_id: 169826552035.49521.16186408976386924897@ietfa.amsl.com
+- person: 133904
+  name: Arnt Gulbrandsen
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-03-22'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-sml-structured-email

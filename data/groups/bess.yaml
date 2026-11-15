@@ -1,0 +1,177 @@
+acronym: bess
+name: BGP Enabled ServiceS
+type: wg
+parent: rtg
+state: active
+started: '2014-09-25'
+closed: null
+history_url: https://datatracker.ietf.org/group/bess/history/
+chairs:
+- person: 105786
+  name: Matthew Bocci
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2018-02-13'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2025-06-26'
+    subject: 'WG Review: BGP Enabled ServiceS (bess)'
+    message_id: 175096498189.299.443466452571333708@dt-datatracker-6fcb845cd4-p6tkq
+  - kind: WG Action
+    date: '2025-07-10'
+    subject: 'WG Action: Rechartered BGP Enabled ServiceS (bess)'
+    message_id: 175216139423.300256.7899320811914749062@dt-datatracker-557fbf6894-6vznl
+  - kind: shepherded
+    documents:
+    - draft-ietf-bess-bgp-sdwan-usage
+    - draft-ietf-bess-datacenter-gateway
+    - draft-ietf-bess-evpn-bfd
+    - draft-ietf-bess-evpn-fast-df-recovery
+    - draft-ietf-bess-evpn-geneve
+    - draft-ietf-bess-evpn-lsp-ping
+    - draft-ietf-bess-evpn-na-flags
+    - draft-ietf-bess-evpn-oam-req-frmwk
+    - draft-ietf-bess-evpn-optimized-ir
+    - draft-ietf-bess-evpn-proxy-arp-nd
+    - draft-ietf-bess-evpn-vpls-seamless-integ
+    - draft-ietf-bess-mup-safi
+    - draft-ietf-bess-pbb-evpn-isid-cmacflush
+    - draft-ietf-bess-rfc5549revision
+    - draft-ietf-bess-srv6-services
+    - draft-ietf-bess-vpls-multihoming
+- person: 106860
+  name: Thomas Morin
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2014-09-25'
+      not_before: '2014-09-25'
+    end:
+      certainty: exact
+      date: '2017-12-01'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-bess-evpn-etree
+    - draft-ietf-bess-evpn-overlay
+    - draft-ietf-bess-ir
+    - draft-ietf-bess-mvpn-bidir
+    - draft-ietf-bess-mvpn-bidir-ingress-replication
+    - draft-ietf-bess-mvpn-global-table-mcast
+    - draft-ietf-l3vpn-acceptown-community
+    - draft-ietf-l3vpn-end-system
+    - draft-ietf-l3vpn-mvpn-bidir
+    - draft-ietf-l3vpn-mvpn-global-table-mcast
+    - draft-ietf-l3vpn-virtual-subnet
+    - draft-rabadan-bess-dci-evpn-overlay
+    - draft-sajassi-bess-evpn-etree
+    - draft-snr-bess-evpn-proxy-arp-nd
+- person: 108279
+  name: Martin Vigoureux
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2014-09-25'
+      not_before: '2014-09-25'
+    end:
+      certainty: exact
+      date: '2018-03-21'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-fm-bess-service-chaining
+    - draft-ietf-bess-dci-evpn-overlay
+    - draft-ietf-bess-evpn-usage
+    - draft-ietf-bess-fat-pw-bgp
+    - draft-ietf-bess-multicast-damping
+    - draft-ietf-bess-mvpn-extranet
+    - draft-ietf-bess-orf-covering-prefixes
+    - draft-ietf-bess-pta-flags
+    - draft-ietf-bess-spbm-evpn
+    - draft-ietf-bess-virtual-pe
+    - draft-ietf-bess-virtual-subnet
+    - draft-ietf-bess-virtual-subnet-fib-reduction
+    - draft-ietf-l2vpn-spbm-evpn
+    - draft-ietf-l3vpn-mvpn-extranet
+    - draft-ietf-l3vpn-mvpn-mldp-nlri
+    - draft-morin-bess-multicast-damping
+    - draft-morin-bess-mvpn-fast-failover
+    - draft-rabadan-l2vpn-evpn-prefix-advertisement
+    - draft-rosen-bess-pta-flags
+    - draft-sajassi-bess-evpn-vpls-seamless-integ
+    - draft-xu-l3vpn-virtual-subnet-fib-reduction
+    - draft-zzhang-bess-evpn-bum-procedure-updates
+- person: 110966
+  name: Zhaohui Zhang
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-08-04'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2025-06-26'
+    subject: 'WG Review: BGP Enabled ServiceS (bess)'
+    message_id: 175096498189.299.443466452571333708@dt-datatracker-6fcb845cd4-p6tkq
+  - kind: WG Action
+    date: '2025-07-10'
+    subject: 'WG Action: Rechartered BGP Enabled ServiceS (bess)'
+    message_id: 175216139423.300256.7899320811914749062@dt-datatracker-557fbf6894-6vznl
+  - kind: shepherded
+    documents:
+    - draft-ietf-bess-bgp-srv6-args
+    - draft-ietf-bess-evpn-dpath
+    - draft-ietf-bess-evpn-inter-subnet-forwarding
+    - draft-ietf-bess-evpn-mh-split-horizon
+    - draft-ietf-bess-evpn-per-mcast-flow-df-election
+    - draft-ietf-bess-evpn-prefix-advertisement
+    - draft-ietf-bess-evpn-vpws
+    - draft-ietf-bess-rfc7432bis
+    - draft-mackenzie-bess-evpn-l3mh-proto
+    - draft-sajassi-bess-evpn-first-hop-security
+- person: 113838
+  name: Stephane Litkowski
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-12-01'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2025-06-26'
+    subject: 'WG Review: BGP Enabled ServiceS (bess)'
+    message_id: 175096498189.299.443466452571333708@dt-datatracker-6fcb845cd4-p6tkq
+  - kind: WG Action
+    date: '2025-07-10'
+    subject: 'WG Action: Rechartered BGP Enabled ServiceS (bess)'
+    message_id: 175216139423.300256.7899320811914749062@dt-datatracker-557fbf6894-6vznl
+  - kind: shepherded
+    documents:
+    - draft-ietf-bess-bgp-multicast
+    - draft-ietf-bess-bgp-multicast-controller
+    - draft-ietf-bess-evpn-ac-df
+    - draft-ietf-bess-evpn-df-election-framework
+    - draft-ietf-bess-evpn-igmp-mld-proxy
+    - draft-ietf-bess-evpn-ipvpn-interworking
+    - draft-ietf-bess-evpn-irb-extended-mobility
+    - draft-ietf-bess-evpn-mh-pa
+    - draft-ietf-bess-evpn-pref-df
+    - draft-ietf-bess-evpn-unequal-lb
+    - draft-ietf-bess-evpn-vpws-fxc
+    - draft-ietf-bess-extended-evpn-optimized-ir
+    - draft-ietf-bess-mvpn-evpn-aggregation-label
+    - draft-ietf-bess-mvpn-evpn-sr-p2mp
+    - draft-ietf-bess-mvpn-expl-track
+    - draft-ietf-bess-mvpn-fast-failover
+    - draft-ietf-bess-nsh-bgp-control-plane
+    - draft-ietf-bess-service-chaining

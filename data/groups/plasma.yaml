@@ -1,0 +1,36 @@
+acronym: plasma
+name: Policy Augmented S/Mime
+type: wg
+parent: sec
+state: bof-conc
+started: null
+closed: null
+history_url: https://datatracker.ietf.org/group/plasma/history/
+chairs:
+- person: 10083
+  name: Paul Hoffman
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-03-27'
+    end:
+      certainty: group-closed
+      date: '2011-12-09'
+    notes:
+    - start moved earlier by session request for IETF 80
+  evidence:
+  - kind: session requests
+    meetings:
+    - '80'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 102154
+  name: Alexey Melnikov
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+    end:
+      certainty: group-closed
+      date: '2011-12-09'

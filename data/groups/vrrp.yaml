@@ -1,0 +1,31 @@
+acronym: vrrp
+name: Virtual Router Redundancy Protocol
+type: wg
+parent: rtg
+state: conclude
+started: '1997-06-02'
+closed: '2011-06-14'
+history_url: https://datatracker.ietf.org/group/vrrp/history/
+chairs:
+- person: 405
+  name: Radia Perlman
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-06-14'
+      not_before: '1997-06-02'
+    end:
+      certainty: group-closed
+      date: '2011-06-14'
+- person: 105893
+  name: Mukesh Gupta
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-06-14'
+      not_before: '1997-06-02'
+    end:
+      certainty: group-closed
+      date: '2011-06-14'

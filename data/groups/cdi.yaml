@@ -1,0 +1,20 @@
+acronym: cdi
+name: Content Distribution Internetworking
+type: wg
+parent: app
+state: conclude
+started: '2001-07-23'
+closed: '2003-06-03'
+history_url: https://datatracker.ietf.org/group/cdi/history/
+chairs:
+- person: 1992
+  name: Mark Day
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2003-06-03'
+      not_before: '2001-07-23'
+    end:
+      certainty: group-closed
+      date: '2003-06-03'

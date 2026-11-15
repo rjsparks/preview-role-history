@@ -1,0 +1,31 @@
+acronym: nat
+name: Network Address Translators
+type: wg
+parent: tsv
+state: conclude
+started: '1997-11-19'
+closed: '2002-02-06'
+history_url: https://datatracker.ietf.org/group/nat/history/
+chairs:
+- person: 6837
+  name: Pyda Srisuresh
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2002-02-06'
+      not_before: '1997-11-19'
+    end:
+      certainty: group-closed
+      date: '2002-02-06'
+- person: 121530
+  name: Matt Holdrege
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2002-02-06'
+      not_before: '1997-11-19'
+    end:
+      certainty: group-closed
+      date: '2002-02-06'

@@ -1,0 +1,146 @@
+acronym: l3vpn
+name: Layer 3 Virtual Private Networks
+type: wg
+parent: rtg
+state: conclude
+started: '2003-06-09'
+closed: '2014-10-22'
+history_url: https://datatracker.ietf.org/group/l3vpn/history/
+chairs:
+- person: 2329
+  name: Stewart Bryant
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2014-03-05'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2014-03-05'
+- person: 19987
+  name: Danny McPherson
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-03-21'
+      not_before: '2003-06-09'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2014-03-05'
+    notes:
+    - start moved earlier by WG Action announcement of 2011-03-21
+  evidence:
+  - kind: WG Action
+    date: '2011-03-21'
+    subject: 'WG Action: RECHARTER: Layer 3 Virtual Private Networks (l3vpn)'
+    message_id: null
+- person: 101568
+  name: Ron Bonica
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-07-09'
+    end:
+      certainty: evidence-only
+      not_before: '2008-07-27'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '66'
+    - '67'
+    - '68'
+    - '69'
+    - '70'
+    - '72'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 106860
+  name: Thomas Morin
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2014-03-05'
+    end:
+      certainty: group-closed
+      date: '2014-10-22'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-bonica-l3vpn-orf-covering-prefixes
+    - draft-ietf-l3vpn-virtual-hub
+    - draft-xu-l3vpn-virtual-subnet
+- person: 107256
+  name: Marshall Eubanks
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2008-11-16'
+      not_before: '2003-06-09'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2014-03-05'
+    notes:
+    - start moved earlier by session request for IETF 73
+  evidence:
+  - kind: session requests
+    meetings:
+    - '73'
+    - '74'
+    - '76'
+    - '78'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 108185
+  name: Ben Niven-Jenkins
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-03-21'
+      not_before: '2003-06-09'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2014-03-05'
+    notes:
+    - start moved earlier by session request for IETF 77
+  evidence:
+  - kind: WG Action
+    date: '2011-03-21'
+    subject: 'WG Action: RECHARTER: Layer 3 Virtual Private Networks (l3vpn)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '77'
+    - '79'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-l3vpn-ibgp
+    - draft-ietf-l3vpn-mvpn-infra-addrs
+    - draft-ietf-l3vpn-mvpn-spmsi-joins
+- person: 108279
+  name: Martin Vigoureux
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2014-03-05'
+    end:
+      certainty: group-closed
+      date: '2014-10-22'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-fang-l3vpn-virtual-pe
+    - draft-ietf-l3vpn-mldp-vrf-in-band-signaling
+    - draft-ietf-l3vpn-pmsi-registry
+    - draft-zzhang-l3vpn-mvpn-bidir-ingress-replication

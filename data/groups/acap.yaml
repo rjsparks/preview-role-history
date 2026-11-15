@@ -1,0 +1,31 @@
+acronym: acap
+name: Application Configuration Access Protocol
+type: wg
+parent: app
+state: conclude
+started: '1996-10-24'
+closed: '2004-04-22'
+history_url: https://datatracker.ietf.org/group/acap/history/
+chairs:
+- person: 9909
+  name: Chris Newman
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-04-22'
+      not_before: '1996-10-24'
+    end:
+      certainty: group-closed
+      date: '2004-04-22'
+- person: 19521
+  name: Matt Wall
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-04-22'
+      not_before: '1996-10-24'
+    end:
+      certainty: group-closed
+      date: '2004-04-22'

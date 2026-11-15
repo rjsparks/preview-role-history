@@ -1,0 +1,107 @@
+acronym: sidrops
+name: SIDR Operations
+type: wg
+parent: ops
+state: active
+started: '2016-08-12'
+closed: null
+history_url: https://datatracker.ietf.org/group/sidrops/history/
+chairs:
+- person: 5376
+  name: Russ Housley
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-12-07'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2025-12-18'
+    subject: 'WG Review: SIDR Operations (sidrops)'
+    message_id: 176607914810.1119961.3693038916666549335@dt-datatracker-5bd94c585b-pvtsm
+  - kind: WG Action
+    date: '2026-01-08'
+    subject: 'WG Action: Rechartered SIDR Operations (sidrops)'
+    message_id: 176789295482.4047702.15942476514132730923@dt-datatracker-5656579b89-p6k4r
+  - kind: shepherded
+    documents:
+    - draft-ietf-sidrops-cms-signing-time
+    - draft-ietf-sidrops-roa-considerations
+    - draft-ietf-sidrops-rpki-ccr
+    - draft-ietf-sidrops-rpki-crl-numbers
+    - draft-ietf-sidrops-rpki-rta
+    - draft-ietf-sidrops-rpki-ta-tiebreaker
+    - draft-ietf-sidrops-rtr-yang
+    - draft-ietf-sidrops-signed-tal
+- person: 104971
+  name: Keyur Patel
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-10-19'
+    end:
+      certainty: exact
+      date: '2025-04-04'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-sidrops-ov-clarify
+    - draft-ietf-sidrops-ov-egress
+    - draft-ietf-sidrops-prefer-rrdp
+    - draft-ietf-sidrops-rpki-rsc
+    - draft-ietf-sidrops-rrdp-same-origin
+- person: 108833
+  name: Luigi Iannone
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-04-04'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2025-12-18'
+    subject: 'WG Review: SIDR Operations (sidrops)'
+    message_id: 176607914810.1119961.3693038916666549335@dt-datatracker-5bd94c585b-pvtsm
+  - kind: WG Action
+    date: '2026-01-08'
+    subject: 'WG Action: Rechartered SIDR Operations (sidrops)'
+    message_id: 176789295482.4047702.15942476514132730923@dt-datatracker-5656579b89-p6k4r
+  - kind: shepherded
+    documents:
+    - draft-ietf-sidrops-8210bis
+    - draft-ietf-sidrops-aspa-profile
+    - draft-ietf-sidrops-aspa-verification
+    - draft-ietf-sidrops-avoid-rpki-state-in-bgp
+    - draft-ietf-sidrops-manifest-numbers
+    - draft-ietf-sidrops-publication-server-bcp
+- person: 111246
+  name: Chris Morrow
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-10-19'
+    end:
+      certainty: exact
+      date: '2025-04-04'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-sidrops-6486bis
+    - draft-ietf-sidrops-bgpsec-algs-rfc8208-bis
+    - draft-ietf-sidrops-bgpsec-rollover
+    - draft-ietf-sidrops-https-tal
+    - draft-ietf-sidrops-lta-use-cases
+    - draft-ietf-sidrops-rfc6482bis
+    - draft-ietf-sidrops-rov-no-rr
+    - draft-ietf-sidrops-rpki-has-no-identity
+    - draft-ietf-sidrops-rpki-rov-timing
+    - draft-ietf-sidrops-rpki-tree-validation
+    - draft-ietf-sidrops-rpkimaxlen
+    - draft-ietf-sidrops-rrdp-desynchronization
+    - draft-ietf-sidrops-rtr-keying

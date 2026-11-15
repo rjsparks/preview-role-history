@@ -1,0 +1,178 @@
+acronym: rtgarea
+name: Routing Area Open Meeting
+type: ag
+parent: rtg
+state: active
+started: null
+closed: null
+history_url: https://datatracker.ietf.org/group/rtgarea/history/
+chairs:
+- person: 2329
+  name: Stewart Bryant
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2019-02-12'
+- person: 4836
+  name: John Scudder
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-03-09'
+    end:
+      certainty: exact
+      date: '2025-03-19'
+- person: 104198
+  name: Adrian Farrel
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2019-02-12'
+- person: 105906
+  name: Jim Guichard
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-03-29'
+    end:
+      certainty: ongoing
+- person: 106471
+  name: Deborah Brungard
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2019-02-12'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2019-02-12'
+  - start:
+      certainty: exact
+      date: '2021-03-10'
+    end:
+      certainty: exact
+      date: '2021-07-26'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    - '75'
+    - '76'
+    - '77'
+    - '78'
+    - '79'
+    - '80'
+    - '81'
+    - '82'
+    - '83'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 106742
+  name: Alia Atlas
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2019-02-12'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2019-02-12'
+- person: 107682
+  name: Bruno Rijsman
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-11-05'
+    end:
+      certainty: evidence-only
+      not_before: '2007-03-18'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '67'
+    - '68'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 108279
+  name: Martin Vigoureux
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2019-02-12'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2019-02-12'
+  - start:
+      certainty: exact
+      date: '2021-03-09'
+    end:
+      certainty: exact
+      date: '2022-03-23'
+- person: 108304
+  name: Gunter Van de Velde
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-03-20'
+    end:
+      certainty: ongoing
+- person: 109802
+  name: Alvaro Retana
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2019-02-12'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2019-02-12'
+  - start:
+      certainty: exact
+      date: '2021-03-09'
+    end:
+      certainty: exact
+      date: '2023-03-29'
+- person: 122823
+  name: Ketan Talaulikar
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-03-19'
+    end:
+      certainty: ongoing
+- person: 147126
+  name: Andrew Alston
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-03-23'
+    end:
+      certainty: exact
+      date: '2024-03-20'

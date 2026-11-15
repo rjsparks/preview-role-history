@@ -1,0 +1,29 @@
+acronym: remconf
+name: Remote Conferencing
+type: wg
+parent: app
+state: conclude
+started: null
+closed: '1997-01-01'
+history_url: https://datatracker.ietf.org/group/remconf/history/
+chairs:
+- person: 60
+  name: Ari Ollikainen
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1997-01-01'
+    end:
+      certainty: group-closed
+      date: '1997-01-01'
+- person: 1444
+  name: John Drescher
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1997-01-01'
+    end:
+      certainty: group-closed
+      date: '1997-01-01'

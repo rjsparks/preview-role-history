@@ -1,0 +1,19 @@
+acronym: dnse
+name: Encryption of DNS requests for confidentiality
+type: wg
+parent: int
+state: bof-conc
+started: '2014-01-22'
+closed: null
+history_url: https://datatracker.ietf.org/group/dnse/history/
+chairs:
+- person: 100664
+  name: Brian Haberman
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-02-20'
+    end:
+      certainty: group-closed
+      date: '2014-06-11'

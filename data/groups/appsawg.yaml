@@ -1,0 +1,139 @@
+acronym: appsawg
+name: ART Area General Applications Working Group
+type: wg
+parent: art
+state: conclude
+started: '2010-09-17'
+closed: '2017-07-06'
+history_url: https://datatracker.ietf.org/group/appsawg/history/
+chairs:
+- person: 21684
+  name: Barry Leiba
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-10-26'
+      not_before: '2010-09-17'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2012-06-22'
+    notes:
+    - start moved earlier by WG Action announcement of 2010-10-26
+  evidence:
+  - kind: WG Action
+    date: '2010-10-26'
+    subject: 'WG Action: Applications Area Working Group (appsawg)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-appsawg-rfc3462bis
+    - draft-ietf-appsawg-rfc3536bis
+- person: 102154
+  name: Alexey Melnikov
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2010-09-17'
+    end:
+      certainty: exact
+      date: '2012-07-03'
+  - start:
+      certainty: exact
+      date: '2014-07-16'
+    end:
+      certainty: exact
+      date: '2016-03-15'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '83'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-appsawg-greylisting
+    - draft-ietf-appsawg-http-forwarded
+    - draft-ietf-appsawg-received-state
+    - draft-ietf-appsawg-uri-scheme-reg
+    - draft-ietf-appsawg-xdash
+- person: 106842
+  name: Murray Kucherawy
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2012-06-22'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2012-06-22'
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2012-06-22'
+    end:
+      certainty: group-closed
+      date: '2017-07-06'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-appsawg-http-problem
+    - draft-ietf-appsawg-json-merge-patch
+    - draft-ietf-appsawg-json-patch
+    - draft-ietf-appsawg-json-pointer
+    - draft-ietf-appsawg-mdn-3798bis
+    - draft-ietf-appsawg-media-type-regs
+    - draft-ietf-appsawg-media-type-suffix-regs
+    - draft-ietf-appsawg-mime-default-charset
+    - draft-ietf-appsawg-multimailbox-search
+    - draft-ietf-appsawg-text-markdown
+    - draft-ietf-appsawg-text-markdown-use-cases
+    - draft-ietf-appsawg-xml-mediatypes
+- person: 107279
+  name: Jiankang Yao
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-10-26'
+      not_before: '2010-09-17'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2012-06-22'
+    notes:
+    - start moved earlier by WG Action announcement of 2010-10-26
+  evidence:
+  - kind: WG Action
+    date: '2010-10-26'
+    subject: 'WG Action: Applications Area Working Group (appsawg)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-faltstrom-5892bis
+    - draft-ietf-appsawg-about-uri-scheme
+- person: 107491
+  name: Salvatore Loreto
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2012-06-22'
+    end:
+      certainty: exact
+      date: '2014-07-29'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-appsawg-acct-uri
+    - draft-ietf-appsawg-multipart-form-data
+    - draft-ietf-appsawg-webfinger

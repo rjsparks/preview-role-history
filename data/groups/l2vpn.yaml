@@ -1,0 +1,101 @@
+acronym: l2vpn
+name: Layer 2 Virtual Private Networks
+type: wg
+parent: rtg
+state: conclude
+started: '2003-06-09'
+closed: '2014-11-20'
+history_url: https://datatracker.ietf.org/group/l2vpn/history/
+chairs:
+- person: 101552
+  name: Shane Amante
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-03-19'
+    end:
+      certainty: evidence-only
+      not_before: '2010-07-25'
+  evidence:
+  - kind: WG Review
+    date: '2008-08-18'
+    subject: 'WG Review: Recharter of Layer 2 Virtual Private Networks (l2vpn)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    - '75'
+    - '77'
+    - '78'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 101564
+  name: Nabil Bitar
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-09-13'
+      not_before: '2003-06-09'
+    end:
+      certainty: group-closed
+      date: '2014-11-20'
+    notes:
+    - start moved earlier by WG Action announcement of 2011-09-13
+  evidence:
+  - kind: WG Review
+    date: '2011-08-30'
+    subject: 'WG Review: Recharter of Layer 2 Virtual Private Networks (l2vpn)'
+    message_id: null
+  - kind: WG Action
+    date: '2011-09-13'
+    subject: 'WG Action: RECHARTER: Layer 2 Virtual Private Networks (l2vpn)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-l2vpn-etree-frwk
+    - draft-ietf-l2vpn-etree-reqt
+    - draft-ietf-l2vpn-vpls-ldp-mac-opt
+- person: 104935
+  name: Giles Heron
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-11-07'
+      not_before: '2003-06-09'
+    end:
+      certainty: group-closed
+      date: '2014-11-20'
+    notes:
+    - start moved earlier by session request for IETF 79
+  evidence:
+  - kind: WG Review
+    date: '2011-08-30'
+    subject: 'WG Review: Recharter of Layer 2 Virtual Private Networks (l2vpn)'
+    message_id: null
+  - kind: WG Action
+    date: '2011-09-13'
+    subject: 'WG Action: RECHARTER: Layer 2 Virtual Private Networks (l2vpn)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '79'
+    - '80'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-l2vpn-evpn
+    - draft-ietf-l2vpn-evpn-req
+    - draft-ietf-l2vpn-pbb-vpls-interop
+    - draft-ietf-l2vpn-vpls-inter-domain-redundancy
+    - draft-ietf-l2vpn-vpls-mib

@@ -1,0 +1,74 @@
+acronym: urnbis
+name: Uniform Resource Names, Revised
+type: wg
+parent: art
+state: conclude
+started: '2010-10-21'
+closed: '2017-10-25'
+history_url: https://datatracker.ietf.org/group/urnbis/history/
+chairs:
+- person: 21684
+  name: Barry Leiba
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-01-22'
+    end:
+      certainty: group-closed
+      date: '2017-10-25'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-urnbis-ns-reg-transition
+    - draft-ietf-urnbis-rfc2141bis-urn
+- person: 101104
+  name: Melinda Shore
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-12-09'
+    end:
+      certainty: exact
+      date: '2016-01-22'
+- person: 106296
+  name: Andy Newton
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-11-23'
+      not_before: '2010-10-21'
+    end:
+      certainty: group-closed
+      date: '2017-10-25'
+    notes:
+    - start moved earlier by WG Action announcement of 2010-11-23
+  evidence:
+  - kind: WG Action
+    date: '2010-11-23'
+    subject: 'WG Action: Uniform Resource Names, Revised (urnbis)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '80'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 110063
+  name: Alfred Hoenes
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-11-23'
+      not_before: '2010-10-21'
+    end:
+      certainty: exact
+      date: '2014-12-09'
+    notes:
+    - start moved earlier by WG Action announcement of 2010-11-23
+  evidence:
+  - kind: WG Action
+    date: '2010-11-23'
+    subject: 'WG Action: Uniform Resource Names, Revised (urnbis)'
+    message_id: null

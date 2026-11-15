@@ -1,0 +1,56 @@
+acronym: wpkops
+name: Web PKI OPS
+type: wg
+parent: ops-old
+state: conclude
+started: '2012-09-26'
+closed: '2015-05-22'
+history_url: https://datatracker.ietf.org/group/wpkops/history/
+chairs:
+- person: 15448
+  name: Steve Hanna
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2012-09-26'
+      not_after: '2013-01-07'
+    end:
+      certainty: approximate
+      date: '2013-01-07'
+- person: 20117
+  name: Sharon Boeyen
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2013-02-21'
+    end:
+      certainty: exact
+      date: '2013-11-12'
+- person: 110367
+  name: Tim Moses
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2012-09-26'
+      not_after: '2013-01-07'
+    end:
+      certainty: group-closed
+      date: '2015-05-22'
+  evidence:
+  - kind: WG Review
+    date: '2013-02-12'
+    subject: 'WG Review: Web PKI OPS (wpkops)'
+    message_id: null
+- person: 115286
+  name: Jeremy Rowley
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2013-04-03'
+    end:
+      certainty: group-closed
+      date: '2015-05-22'

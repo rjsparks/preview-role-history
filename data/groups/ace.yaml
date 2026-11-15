@@ -1,0 +1,144 @@
+acronym: ace
+name: Authentication and Authorization for Constrained Environments
+type: wg
+parent: sec
+state: active
+started: '2014-01-22'
+closed: null
+history_url: https://datatracker.ietf.org/group/ace/history/
+chairs:
+- person: 105815
+  name: Roman Danyliw
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2018-03-21'
+    end:
+      certainty: exact
+      date: '2019-03-28'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-ace-cwt-proof-of-possession
+- person: 105857
+  name: Hannes Tschofenig
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2014-01-22'
+      not_before: '2014-01-22'
+    end:
+      certainty: exact
+      date: '2017-10-29'
+  evidence:
+  - kind: WG Review
+    date: '2014-06-04'
+    subject: 'WG Review: Authentication and Authorization for Constrained Environments (ace)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-ace-usecases
+- person: 109969
+  name: Daniel Migault
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-03-20'
+    end:
+      certainty: exact
+      date: '2023-08-17'
+  evidence:
+  - kind: WG Review
+    date: '2021-01-29'
+    subject: 'WG Review: Authentication and Authorization for Constrained Environments (ace)'
+    message_id: 161188004758.19279.10347855089622569245@ietfa.amsl.com
+  - kind: WG Action
+    date: '2021-02-19'
+    subject: 'WG Action: Rechartered Authentication and Authorization for Constrained Environments (ace)'
+    message_id: 161375671697.11301.13704207747555479862@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-ace-cmpv2-coap-transport
+    - draft-ietf-ace-extend-dtls-authorize
+    - draft-ietf-ace-key-groupcomm
+    - draft-ietf-ace-mqtt-tls-profile
+- person: 110910
+  name: Jim Schaad
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-10-29'
+    end:
+      certainty: exact
+      date: '2020-11-25'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-ace-coap-est
+- person: 111131
+  name: Kepeng Li
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2014-01-22'
+      not_before: '2014-01-22'
+    end:
+      certainty: exact
+      date: '2017-10-29'
+  evidence:
+  - kind: WG Review
+    date: '2014-06-04'
+    subject: 'WG Review: Authentication and Authorization for Constrained Environments (ace)'
+    message_id: null
+- person: 115214
+  name: Benjamin Kaduk
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-10-29'
+    end:
+      certainty: exact
+      date: '2018-03-21'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-ace-cbor-web-token
+- person: 122416
+  name: Loganaden Velvindron
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-02-11'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Action
+    date: '2021-02-19'
+    subject: 'WG Action: Rechartered Authentication and Authorization for Constrained Environments (ace)'
+    message_id: 161375671697.11301.13704207747555479862@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-ace-aif
+    - draft-ietf-ace-wg-coap-eap
+- person: 124538
+  name: Tim Hollebeek
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-08-17'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-ace-coap-est-oscore
+    - draft-ietf-ace-coap-pubsub-profile
+    - draft-ietf-ace-oscore-gm-admin

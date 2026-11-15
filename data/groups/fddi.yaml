@@ -1,0 +1,20 @@
+acronym: fddi
+name: IP Over FDDI
+type: wg
+parent: int
+state: conclude
+started: '1989-10-02'
+closed: '1993-01-12'
+history_url: https://datatracker.ietf.org/group/fddi/history/
+chairs:
+- person: 2399
+  name: Dave Katz
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1993-01-12'
+      not_before: '1989-10-02'
+    end:
+      certainty: group-closed
+      date: '1993-01-12'

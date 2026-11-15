@@ -1,0 +1,45 @@
+name: Correct a chair record
+description: A date, group or person on the site is wrong.
+title: "Correction: "
+labels: [correction]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping. If you came from the site, the first fields are already filled in;
+        just tell us what's wrong and, if you can, how you know.
+  - type: input
+    id: group
+    attributes:
+      label: Group acronym
+      placeholder: tls
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Chair's name
+    validations:
+      required: true
+  - type: input
+    id: person
+    attributes:
+      label: Datatracker person id (if known)
+  - type: textarea
+    id: recorded
+    attributes:
+      label: What the site shows now
+  - type: textarea
+    id: correction
+    attributes:
+      label: What it should say
+      description: Approximate dates are fine ("around IETF 70", "spring 2006").
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: How do you know?
+      description: >
+        A link to an announcement, minutes, proceedings or a mailing list message helps the
+        reviewers most. "I was the chair" or "I was the AD" is useful too.

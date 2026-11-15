@@ -1,0 +1,58 @@
+acronym: schc
+name: Static Context Header Compression
+type: wg
+parent: int
+state: active
+started: '2023-03-03'
+closed: null
+history_url: https://datatracker.ietf.org/group/schc/history/
+chairs:
+- person: 115824
+  name: Pascal Thubert
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-03-03'
+    end:
+      certainty: exact
+      date: '2026-07-24'
+  evidence:
+  - kind: WG Review
+    date: '2023-03-06'
+    subject: 'WG Review: Static Context Header Compression (schc)'
+    message_id: 167812962806.48241.438170071795507108@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-03-17'
+    subject: 'WG Action: Formed Static Context Header Compression (schc)'
+    message_id: 167906991818.34338.16494817926294582011@ietfa.amsl.com
+- person: 119881
+  name: Alexander Pelov
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-03-03'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2023-03-06'
+    subject: 'WG Review: Static Context Header Compression (schc)'
+    message_id: 167812962806.48241.438170071795507108@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-03-17'
+    subject: 'WG Action: Formed Static Context Header Compression (schc)'
+    message_id: 167906991818.34338.16494817926294582011@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-schc-8824-update
+- person: 131321
+  name: Marion Dumay
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2026-05-26'
+    end:
+      certainty: ongoing

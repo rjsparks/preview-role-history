@@ -1,0 +1,134 @@
+acronym: krb-wg
+name: Kerberos
+type: wg
+parent: sec
+state: conclude
+started: '2000-06-15'
+closed: '2013-03-18'
+history_url: https://datatracker.ietf.org/group/krb-wg/history/
+chairs:
+- person: 103048
+  name: Sam Hartman
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-06-28'
+      not_before: '2000-06-15'
+    end:
+      certainty: group-closed
+      date: '2013-03-18'
+    notes:
+    - start moved earlier by WG Action announcement of 2011-06-28
+  evidence:
+  - kind: WG Action
+    date: '2011-06-28'
+    subject: 'WG Action: RECHARTER: Kerberos (krb-wg)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-krb-wg-clear-text-cred
+    - draft-ietf-krb-wg-des-die-die-die
+    - draft-ietf-krb-wg-otp-preauth
+- person: 104978
+  name: Jeffrey Hutzelman
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '2000-06-15'
+    end:
+      certainty: exact
+      date: '2012-10-01'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: WG Action
+    date: '2007-07-23'
+    subject: 'WG Action: RECHARTER: Kerberos (krb-wg)'
+    message_id: null
+  - kind: WG Action
+    date: '2007-08-28'
+    subject: 'WG Action: RECHARTER: Kerberos (krb-wg)'
+    message_id: null
+  - kind: WG Action
+    date: '2011-06-28'
+    subject: 'WG Action: RECHARTER: Kerberos (krb-wg)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    - '75'
+    - '76'
+    - '77'
+    - '78'
+    - '79'
+    - '80'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-krb-wg-camellia-cts
+    - draft-ietf-krb-wg-kdc-model
+    - draft-ietf-krb-wg-kerberos-referrals
+    - draft-sakane-dhc-dhcpv6-kdc-option
+- person: 106376
+  name: Larry Zhu
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-07-23'
+      not_before: '2000-06-15'
+    end:
+      certainty: exact
+      date: '2012-10-01'
+    notes:
+    - start moved earlier by WG Action announcement of 2007-07-23
+  evidence:
+  - kind: WG Action
+    date: '2007-07-23'
+    subject: 'WG Action: RECHARTER: Kerberos (krb-wg)'
+    message_id: null
+  - kind: WG Action
+    date: '2007-08-28'
+    subject: 'WG Action: RECHARTER: Kerberos (krb-wg)'
+    message_id: null
+  - kind: WG Action
+    date: '2011-06-28'
+    subject: 'WG Action: RECHARTER: Kerberos (krb-wg)'
+    message_id: null
+- person: 107956
+  name: Shawn Emery
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2012-10-01'
+    end:
+      certainty: group-closed
+      date: '2013-03-18'
+- person: 111163
+  name: Josh Howlett
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2012-10-01'
+    end:
+      certainty: group-closed
+      date: '2013-03-18'

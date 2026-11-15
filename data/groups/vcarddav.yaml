@@ -1,0 +1,77 @@
+acronym: vcarddav
+name: vCard and CardDAV
+type: wg
+parent: app
+state: conclude
+started: '2007-12-26'
+closed: '2012-11-13'
+history_url: https://datatracker.ietf.org/group/vcarddav/history/
+chairs:
+- person: 19869
+  name: Marc Blanchet
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2008-01-31'
+    end:
+      certainty: evidence-only
+      not_before: '2011-07-24'
+  evidence:
+  - kind: WG Action
+    date: '2008-01-31'
+    subject: 'WG Action: vCard and vCardDAV (vcarddav)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '73'
+    - '74'
+    - '75'
+    - '76'
+    - '77'
+    - '78'
+    - '79'
+    - '80'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 103904
+  name: Kurt Zeilenga
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2008-01-31'
+    end:
+      certainty: evidence-only
+      not_before: '2008-07-27'
+  evidence:
+  - kind: WG Action
+    date: '2008-01-31'
+    subject: 'WG Action: vCard and vCardDAV (vcarddav)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '72'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 108717
+  name: Simon Perreault
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-08-16'
+      not_before: '2007-12-26'
+    end:
+      certainty: group-closed
+      date: '2012-11-13'
+    notes:
+    - start moved earlier by WG Action announcement of 2011-08-16
+  evidence:
+  - kind: WG Action
+    date: '2011-08-16'
+    subject: 'WG Action: RECHARTER: vCard and CardDAV (vcarddav)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-vcarddav-birth-death-extensions
+    - draft-ietf-vcarddav-kind-app

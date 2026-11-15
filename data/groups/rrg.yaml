@@ -1,0 +1,48 @@
+acronym: rrg
+name: Routing Research Group
+type: rg
+parent: irtf
+state: conclude
+started: null
+closed: '2014-06-10'
+history_url: https://datatracker.ietf.org/group/rrg/history/
+chairs:
+- person: 567
+  name: Lixia Zhang
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2007-07-22'
+    end:
+      certainty: evidence-only
+      not_before: '2010-03-21'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '69'
+    - '71'
+    - '76'
+    - '77'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 4475
+  name: Tony Li
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-12-02'
+    end:
+      certainty: group-closed
+      date: '2014-06-10'
+    notes:
+    - start moved earlier by session request for IETF 70
+  evidence:
+  - kind: session requests
+    meetings:
+    - '70'
+    - '72'
+    - '73'
+    - '74'
+    - '75'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

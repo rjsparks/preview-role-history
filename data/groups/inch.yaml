@@ -1,0 +1,31 @@
+acronym: inch
+name: Extended Incident Handling
+type: wg
+parent: sec
+state: conclude
+started: '2002-07-17'
+closed: '2006-10-11'
+history_url: https://datatracker.ietf.org/group/inch/history/
+chairs:
+- person: 105815
+  name: Roman Danyliw
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-12-21'
+      not_before: '2002-07-17'
+    end:
+      certainty: group-closed
+      date: '2006-10-11'
+    notes:
+    - start moved earlier by WG Action announcement of 2005-12-21
+  evidence:
+  - kind: WG Action
+    date: '2005-12-21'
+    subject: 'WG Action: RECHARTER: Extended Incident Handling (inch)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '66'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

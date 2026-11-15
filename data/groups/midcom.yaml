@@ -1,0 +1,20 @@
+acronym: midcom
+name: Middlebox Communication
+type: wg
+parent: tsv
+state: conclude
+started: '2000-12-27'
+closed: '2008-03-26'
+history_url: https://datatracker.ietf.org/group/midcom/history/
+chairs:
+- person: 101104
+  name: Melinda Shore
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2008-03-26'
+      not_before: '2000-12-27'
+    end:
+      certainty: group-closed
+      date: '2008-03-26'

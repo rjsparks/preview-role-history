@@ -1,0 +1,63 @@
+acronym: ipr
+name: Intellectual Property Rights
+type: wg
+parent: gen
+state: conclude
+started: '2002-06-04'
+closed: '2008-11-11'
+history_url: https://datatracker.ietf.org/group/ipr/history/
+chairs:
+- person: 5778
+  name: Harald Alvestrand
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-07'
+      not_before: '2002-06-04'
+    end:
+      certainty: group-closed
+      date: '2008-11-11'
+    notes:
+    - start moved earlier by WG Action announcement of 2006-03-07
+  evidence:
+  - kind: WG Review
+    date: '2006-02-22'
+    subject: 'WG Review: Recharter of Intellectual Property Rights (ipr)'
+    message_id: null
+  - kind: WG Action
+    date: '2006-03-07'
+    subject: 'WG Action: RECHARTER: Intellectual Property Rights (ipr)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '68'
+    - '69'
+    - '70'
+    - '72'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 5797
+  name: Steven Bellovin
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-02-22'
+    end:
+      certainty: evidence-only
+      not_before: '2006-11-05'
+  evidence:
+  - kind: WG Review
+    date: '2006-02-22'
+    subject: 'WG Review: Recharter of Intellectual Property Rights (ipr)'
+    message_id: null
+  - kind: WG Action
+    date: '2006-03-07'
+    subject: 'WG Action: RECHARTER: Intellectual Property Rights (ipr)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '67'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

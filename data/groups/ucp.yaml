@@ -1,0 +1,20 @@
+acronym: ucp
+name: User Connectivity
+type: wg
+parent: ops-old
+state: conclude
+started: '1990-02-07'
+closed: '1994-03-21'
+history_url: https://datatracker.ietf.org/group/ucp/history/
+chairs:
+- person: 2408
+  name: Daniel Long
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1994-03-21'
+      not_before: '1990-02-07'
+    end:
+      certainty: group-closed
+      date: '1994-03-21'

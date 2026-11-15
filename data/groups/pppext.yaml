@@ -1,0 +1,35 @@
+acronym: pppext
+name: Point-to-Point Protocol Extensions
+type: wg
+parent: int
+state: conclude
+started: '1989-10-02'
+closed: '2013-10-10'
+history_url: https://datatracker.ietf.org/group/pppext/history/
+chairs:
+- person: 8249
+  name: James Carlson
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2009-06-09'
+    end:
+      certainty: evidence-only
+      not_before: '2009-06-09'
+  evidence:
+  - kind: WG Action
+    date: '2009-06-09'
+    subject: 'WG Action: RECHARTER: Point-to-Point Protocol Extensions (pppext)'
+    message_id: null
+- person: 102391
+  name: Donald Eastlake
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '1989-10-02'
+    end:
+      certainty: group-closed
+      date: '2013-10-10'

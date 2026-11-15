@@ -1,0 +1,60 @@
+acronym: dprive
+name: DNS PRIVate Exchange
+type: wg
+parent: int
+state: conclude
+started: '2014-09-16'
+closed: '2025-07-11'
+history_url: https://datatracker.ietf.org/group/dprive/history/
+chairs:
+- person: 100664
+  name: Brian Haberman
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-07-03'
+    end:
+      certainty: group-closed
+      date: '2025-07-11'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-dprive-dnsoquic
+    - draft-ietf-dprive-padding-policy
+    - draft-ietf-dprive-rfc7626-bis
+    - draft-ietf-dprive-unilateral-probing
+- person: 111656
+  name: Warren Kumari
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-10-02'
+    end:
+      certainty: exact
+      date: '2017-07-03'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-dprive-problem-statement
+- person: 115244
+  name: Tim Wicinski
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-10-02'
+    end:
+      certainty: group-closed
+      date: '2025-07-11'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-dprive-bcp-op
+    - draft-ietf-dprive-dns-over-tls
+    - draft-ietf-dprive-dnsodtls
+    - draft-ietf-dprive-dtls-and-tls-profiles
+    - draft-ietf-dprive-edns0-padding
+    - draft-ietf-dprive-start-tls-for-dns
+    - draft-ietf-dprive-xfr-over-tls

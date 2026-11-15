@@ -1,0 +1,31 @@
+acronym: receipt
+name: Receipt Notifications for Internet Mail
+type: wg
+parent: app
+state: conclude
+started: '1995-08-04'
+closed: '1998-04-28'
+history_url: https://datatracker.ietf.org/group/receipt/history/
+chairs:
+- person: 4397
+  name: Ned Freed
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1998-04-28'
+      not_before: '1995-08-04'
+    end:
+      certainty: group-closed
+      date: '1998-04-28'
+- person: 4780
+  name: Urs Eppenberger
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1998-04-28'
+      not_before: '1995-08-04'
+    end:
+      certainty: group-closed
+      date: '1998-04-28'

@@ -1,0 +1,43 @@
+acronym: coinrg
+name: Computing in the Network Research Group
+type: rg
+parent: irtf
+state: conclude
+started: '2019-02-15'
+closed: '2025-03-21'
+history_url: https://datatracker.ietf.org/group/coinrg/history/
+chairs:
+- person: 103930
+  name: Marie-Jose Montpetit
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-02-19'
+    end:
+      certainty: group-closed
+      date: '2025-03-21'
+- person: 123468
+  name: Eve Schooler
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-02-19'
+    end:
+      certainty: group-closed
+      date: '2025-03-21'
+- person: 125277
+  name: Jianfei(Jeffrey) HE
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-02-19'
+    end:
+      certainty: group-closed
+      date: '2025-03-21'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-irtf-coinrg-use-cases

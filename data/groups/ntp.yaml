@@ -1,0 +1,90 @@
+acronym: ntp
+name: Network Time Protocols
+type: wg
+parent: int
+state: active
+started: '2004-10-01'
+closed: null
+history_url: https://datatracker.ietf.org/group/ntp/history/
+chairs:
+- person: 4857
+  name: Karen O'Donoghue
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2004-10-01'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2021-11-02'
+    subject: 'WG Review: Network Time Protocol (ntp)'
+    message_id: 163588528571.22035.11259459113617883571@ietfa.amsl.com
+  - kind: WG Action
+    date: '2021-12-03'
+    subject: 'WG Action: Rechartered Network Time Protocol (ntp)'
+    message_id: 163855793953.6009.6103740697603145404@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-ntp-bcp
+    - draft-ietf-ntp-checksum-trailer
+    - draft-ietf-ntp-extension-field
+    - draft-ietf-ntp-interleaved-modes
+    - draft-ietf-ntp-mac
+    - draft-ietf-ntp-mode-6-cmds
+    - draft-ietf-ntp-over-ptp
+    - draft-ietf-ntp-packet-timestamps
+    - draft-ietf-ntp-port-randomization
+    - draft-ietf-ntp-roughtime
+    - draft-ietf-ntp-using-nts-for-ntp
+- person: 100664
+  name: Brian Haberman
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '2004-10-01'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2016-04-06'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 113902
+  name: Dieter Sibold
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-10-10'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2021-11-02'
+    subject: 'WG Review: Network Time Protocol (ntp)'
+    message_id: 163588528571.22035.11259459113617883571@ietfa.amsl.com
+  - kind: WG Action
+    date: '2021-12-03'
+    subject: 'WG Action: Rechartered Network Time Protocol (ntp)'
+    message_id: 163855793953.6009.6103740697603145404@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-ntp-chronos
+    - draft-ietf-ntp-update-registries
+    - draft-ietf-ntp-yang-data-model

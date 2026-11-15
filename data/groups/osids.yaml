@@ -1,0 +1,20 @@
+acronym: osids
+name: OSI Directory Services
+type: wg
+parent: app
+state: conclude
+started: '1990-10-11'
+closed: '1994-11-04'
+history_url: https://datatracker.ietf.org/group/osids/history/
+chairs:
+- person: 123038
+  name: Steve Kille
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1994-11-04'
+      not_before: '1990-10-11'
+    end:
+      certainty: group-closed
+      date: '1994-11-04'

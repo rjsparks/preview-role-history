@@ -1,0 +1,29 @@
+acronym: tmrid
+name: Trustworthy Multipurpose Remote ID
+type: wg
+parent: int
+state: replaced
+started: '2019-10-09'
+closed: '2020-02-11'
+history_url: https://datatracker.ietf.org/group/tmrid/history/
+chairs:
+- person: 103539
+  name: Gonzalo Camarillo
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-11-07'
+    end:
+      certainty: group-closed
+      date: '2020-02-11'
+- person: 109969
+  name: Daniel Migault
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-11-07'
+    end:
+      certainty: group-closed
+      date: '2020-02-11'

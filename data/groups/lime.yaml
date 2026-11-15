@@ -1,0 +1,38 @@
+acronym: lime
+name: Layer Independent OAM Management in the Multi-Layer Environment
+type: wg
+parent: ops
+state: conclude
+started: '2014-09-24'
+closed: '2018-02-27'
+history_url: https://datatracker.ietf.org/group/lime/history/
+chairs:
+- person: 101568
+  name: Ron Bonica
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-10-16'
+    end:
+      certainty: group-closed
+      date: '2018-02-27'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-lime-yang-connection-oriented-oam-model
+- person: 107247
+  name: Carlos Pignataro
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-10-16'
+    end:
+      certainty: group-closed
+      date: '2018-02-27'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-lime-yang-connectionless-oam
+    - draft-ietf-lime-yang-connectionless-oam-methods

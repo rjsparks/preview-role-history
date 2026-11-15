@@ -1,0 +1,125 @@
+acronym: behave
+name: Behavior Engineering for Hindrance Avoidance
+type: wg
+parent: tsv
+state: conclude
+started: '2004-05-30'
+closed: '2013-10-17'
+history_url: https://datatracker.ietf.org/group/behave/history/
+chairs:
+- person: 15927
+  name: Dave Thaler
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-09-02'
+      not_before: '2004-05-30'
+    end:
+      certainty: group-closed
+      date: '2013-10-17'
+    notes:
+    - start moved earlier by WG Action announcement of 2010-09-02
+  evidence:
+  - kind: WG Review
+    date: '2009-06-08'
+    subject: 'WG Review: Recharter of Behavior Engineering for Hindrance Avoidance (behave)'
+    message_id: null
+  - kind: WG Review
+    date: '2010-08-23'
+    subject: 'WG Review: Recharter of Behavior Engineering for Hindrance Avoidance (behave)'
+    message_id: null
+  - kind: WG Action
+    date: '2010-09-02'
+    subject: 'WG Action: RECHARTER: Behavior Engineering for Hindrance Avoidance (behave)'
+    message_id: null
+  - kind: WG Review
+    date: '2012-05-15'
+    subject: 'WG Review: Recharter of Behavior Engineering for Hindrance Avoidance (behave)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '80'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 100038
+  name: Dan Wing
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-07-09'
+      not_before: '2004-05-30'
+    end:
+      certainty: group-closed
+      date: '2013-10-17'
+    notes:
+    - start moved earlier by session request for IETF 66
+  evidence:
+  - kind: WG Review
+    date: '2009-06-08'
+    subject: 'WG Review: Recharter of Behavior Engineering for Hindrance Avoidance (behave)'
+    message_id: null
+  - kind: WG Review
+    date: '2010-08-23'
+    subject: 'WG Review: Recharter of Behavior Engineering for Hindrance Avoidance (behave)'
+    message_id: null
+  - kind: WG Action
+    date: '2010-09-02'
+    subject: 'WG Action: RECHARTER: Behavior Engineering for Hindrance Avoidance (behave)'
+    message_id: null
+  - kind: WG Review
+    date: '2012-05-15'
+    subject: 'WG Review: Recharter of Behavior Engineering for Hindrance Avoidance (behave)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '66'
+    - '67'
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    - '75'
+    - '76'
+    - '77'
+    - '78'
+    - '79'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 104040
+  name: J Kuthan
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-03-07'
+    end:
+      certainty: evidence-only
+      not_before: '2006-03-07'
+  evidence:
+  - kind: WG Action
+    date: '2006-03-07'
+    subject: 'WG Action: RECHARTER: Behavior Engineering for Hindrance Avoidance (behave)'
+    message_id: null
+- person: 105791
+  name: Cullen Jennings
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-03-07'
+    end:
+      certainty: evidence-only
+      not_before: '2006-03-19'
+  evidence:
+  - kind: WG Action
+    date: '2006-03-07'
+    subject: 'WG Action: RECHARTER: Behavior Engineering for Hindrance Avoidance (behave)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '65'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

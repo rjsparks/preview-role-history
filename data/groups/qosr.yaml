@@ -1,0 +1,31 @@
+acronym: qosr
+name: QoS Routing
+type: wg
+parent: rtg
+state: conclude
+started: '1997-02-20'
+closed: '1999-04-06'
+history_url: https://datatracker.ietf.org/group/qosr/history/
+chairs:
+- person: 10513
+  name: Hal Sandick
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1999-04-06'
+      not_before: '1997-02-20'
+    end:
+      certainty: group-closed
+      date: '1999-04-06'
+- person: 14474
+  name: Eric Crawley
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1999-04-06'
+      not_before: '1997-02-20'
+    end:
+      certainty: group-closed
+      date: '1999-04-06'

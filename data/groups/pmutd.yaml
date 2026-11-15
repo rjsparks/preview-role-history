@@ -1,0 +1,20 @@
+acronym: pmutd
+name: Path Maximum Transmission Unit Discovery
+type: wg
+parent: tsv
+state: conclude
+started: '2003-06-06'
+closed: '2011-02-25'
+history_url: https://datatracker.ietf.org/group/pmutd/history/
+chairs:
+- person: 2674
+  name: Matt Mathis
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-02-25'
+      not_before: '2003-06-06'
+    end:
+      certainty: group-closed
+      date: '2011-02-25'

@@ -1,0 +1,75 @@
+acronym: nwcrg
+name: Coding for efficient NetWork Communications Research Group
+type: rg
+parent: irtf
+state: conclude
+started: '2013-02-13'
+closed: '2023-08-02'
+history_url: https://datatracker.ietf.org/group/nwcrg/history/
+chairs:
+- person: 12671
+  name: Brian Adamson
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2013-02-13'
+      not_after: '2014-11-13'
+    end:
+      certainty: exact
+      date: '2016-10-06'
+- person: 20437
+  name: Victor Firoiu
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2013-02-13'
+      not_after: '2014-11-13'
+    end:
+      certainty: exact
+      date: '2017-09-12'
+- person: 103930
+  name: Marie-Jose Montpetit
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-09-12'
+    end:
+      certainty: group-closed
+      date: '2023-08-02'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-irtf-nwcrg-nwc-ccn-reqs
+    - draft-irtf-nwcrg-tetrys
+- person: 107132
+  name: Vincent Roca
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-10-06'
+    end:
+      certainty: group-closed
+      date: '2023-08-02'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-irtf-nwcrg-bats
+    - draft-irtf-nwcrg-coding-and-congestion
+    - draft-irtf-nwcrg-network-coding-satellites
+    - draft-yang-nwcrg-bats
+- person: 112773
+  name: Lars Eggert
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2013-02-13'
+      not_after: '2014-11-13'
+    end:
+      certainty: between
+      not_before: '2013-02-13'
+      not_after: '2014-11-13'

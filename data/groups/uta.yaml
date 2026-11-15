@@ -1,0 +1,81 @@
+acronym: uta
+name: Using TLS in Applications
+type: wg
+parent: sec
+state: active
+started: '2013-11-15'
+closed: null
+history_url: https://datatracker.ietf.org/group/uta/history/
+chairs:
+- person: 18694
+  name: Orit Levin
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2013-12-11'
+    end:
+      certainty: exact
+      date: '2017-10-05'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-uta-tls-bcp
+- person: 103686
+  name: Valery Smyslov
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-11-15'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-uta-require-tls13
+    - draft-ietf-uta-smtp-require-tls
+    - draft-ietf-uta-smtp-tlsrpt
+    - draft-ietf-uta-tls-for-email
+- person: 108624
+  name: Alan DeKok
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-03-21'
+    end:
+      certainty: ongoing
+- person: 110406
+  name: Leif Johansson
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2013-12-11'
+    end:
+      certainty: exact
+      date: '2022-12-02'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-uta-email-deep
+    - draft-ietf-uta-email-tls-certs
+    - draft-ietf-uta-mta-sts
+    - draft-ietf-uta-rfc7525bis
+    - draft-ietf-uta-tls-attacks
+    - draft-ietf-uta-xmpp
+- person: 130012
+  name: Orie Steele
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-12-02'
+    end:
+      certainty: exact
+      date: '2024-03-21'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-uta-rfc6125bis

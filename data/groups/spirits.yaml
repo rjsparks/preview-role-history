@@ -1,0 +1,31 @@
+acronym: spirits
+name: Service in the PSTN/IN Requesting InTernet Service
+type: wg
+parent: tsv
+state: conclude
+started: '1999-10-01'
+closed: '2005-05-05'
+history_url: https://datatracker.ietf.org/group/spirits/history/
+chairs:
+- person: 5797
+  name: Steven Bellovin
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-05-05'
+      not_before: '1999-10-01'
+    end:
+      certainty: group-closed
+      date: '2005-05-05'
+- person: 101245
+  name: Alec Brusilovsky
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-05-05'
+      not_before: '1999-10-01'
+    end:
+      certainty: group-closed
+      date: '2005-05-05'

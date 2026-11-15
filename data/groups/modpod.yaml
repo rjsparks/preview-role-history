@@ -1,0 +1,37 @@
+acronym: modpod
+name: MODeration PrOceDures
+type: wg
+parent: gen
+state: conclude
+started: '2024-09-09'
+closed: '2026-07-22'
+history_url: https://datatracker.ietf.org/group/modpod/history/
+chairs:
+- person: 22971
+  name: Lisa Dusseault
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-10-29'
+    end:
+      certainty: group-closed
+      date: '2026-07-22'
+- person: 104557
+  name: Jon Peterson
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-10-16'
+    end:
+      certainty: group-closed
+      date: '2026-07-22'
+  evidence:
+  - kind: WG Action
+    date: '2024-10-18'
+    subject: 'WG Action: Formed MODeration PrOceDures (modpod)'
+    message_id: 172926789875.1513994.13882009392664892079@dt-datatracker-78dc5ccf94-w8wgc
+  - kind: shepherded
+    documents:
+    - draft-ietf-modpod-group-processes

@@ -1,0 +1,147 @@
+acronym: 6lo
+name: IPv6 over Networks of Resource-constrained Nodes
+type: wg
+parent: int
+state: active
+started: '2013-06-20'
+closed: null
+history_url: https://datatracker.ietf.org/group/6lo/history/
+chairs:
+- person: 2348
+  name: Ralph Droms
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2013-06-20'
+      not_before: '2013-06-20'
+    end:
+      certainty: approximate
+      date: '2013-08-20'
+  - start:
+      certainty: exact
+      date: '2014-09-29'
+    end:
+      certainty: exact
+      date: '2014-12-16'
+- person: 21005
+  name: Samita Chakrabarti
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2013-09-18'
+    end:
+      certainty: exact
+      date: '2019-01-29'
+  evidence:
+  - kind: WG Review
+    date: '2013-09-23'
+    subject: 'WG Review: IPv6 over Networks of Resource-constrained Nodes (6lo)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-6lo-6lobac
+    - draft-ietf-6lo-dect-ule
+    - draft-ietf-6lo-ethertype-request
+    - draft-ietf-6lo-lowpanz
+- person: 100757
+  name: Laurent Toutain
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2026-07-24'
+    end:
+      certainty: ongoing
+- person: 108488
+  name: Gabriel Montenegro
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-12-16'
+    end:
+      certainty: exact
+      date: '2019-01-29'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-6lo-btle
+    - draft-ietf-6lo-mesh-link-establishment
+    - draft-ietf-6lo-mle-hip-dex
+    - draft-ietf-6lo-privacy-considerations
+    - draft-ietf-6lo-rfc6775-update
+- person: 108961
+  name: Carles Gomez
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-01-29'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Action
+    date: '2024-12-19'
+    subject: 'WG Action: Rechartered IPv6 over Networks of Resource-constrained Nodes (6lo)'
+    message_id: 173462973875.43593.2007285209424204295@dt-datatracker-65f549669d-lhv7k
+  - kind: shepherded
+    documents:
+    - draft-ietf-6lo-fragment-recovery
+    - draft-ietf-6lo-minimal-fragment
+    - draft-ietf-6lo-nd-gaao
+    - draft-ietf-6lo-nfc
+    - draft-ietf-6lo-path-aware-semantic-addressing
+    - draft-ietf-6lo-plc
+    - draft-ietf-6lo-updating-rfc-8928
+- person: 109930
+  name: Ulrich Herberg
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2013-06-20'
+      not_before: '2013-06-20'
+    end:
+      certainty: approximate
+      date: '2013-08-20'
+  - start:
+      certainty: exact
+      date: '2013-09-18'
+    end:
+      certainty: exact
+      date: '2014-09-29'
+  evidence:
+  - kind: WG Review
+    date: '2013-09-23'
+    subject: 'WG Review: IPv6 over Networks of Resource-constrained Nodes (6lo)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-6lo-ghc
+    - draft-ietf-6lo-lowpan-mib
+- person: 116512
+  name: Shwetha Bhandari
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-01-29'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Action
+    date: '2024-12-19'
+    subject: 'WG Action: Rechartered IPv6 over Networks of Resource-constrained Nodes (6lo)'
+    message_id: 173462973875.43593.2007285209424204295@dt-datatracker-65f549669d-lhv7k
+  - kind: shepherded
+    documents:
+    - draft-ietf-6lo-ap-nd
+    - draft-ietf-6lo-backbone-router
+    - draft-ietf-6lo-deadline-time
+    - draft-ietf-6lo-multicast-registration
+    - draft-ietf-6lo-owc
+    - draft-ietf-6lo-prefix-registration
+    - draft-ietf-6lo-schc-15dot4
+    - draft-ietf-6lo-use-cases

@@ -1,0 +1,65 @@
+acronym: ccwg
+name: Congestion Control Working Group
+type: wg
+parent: wit
+state: active
+started: '2023-05-25'
+closed: null
+history_url: https://datatracker.ietf.org/group/ccwg/history/
+chairs:
+- person: 123344
+  name: Reese Enghardt
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-05-25'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2023-06-01'
+    subject: 'WG Review: Congestion Control Working Group (ccwg)'
+    message_id: 168562645467.13149.5362395602706476547@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-06-26'
+    subject: 'WG Action: Formed Congestion Control Working Group (ccwg)'
+    message_id: 168779916861.56922.1614523871849520258@ietfa.amsl.com
+  - kind: WG Review
+    date: '2025-10-20'
+    subject: 'WG Review: Congestion Control Working Group (ccwg)'
+    message_id: 176097608502.2167493.5712334979065756370@dt-datatracker-84f8f646b-tg6mn
+  - kind: WG Action
+    date: '2025-11-20'
+    subject: 'WG Action: Rechartered Congestion Control Working Group (ccwg)'
+    message_id: 176366013230.1544326.17208337540990401805@dt-datatracker-5bd94c585b-wk4l4
+  - kind: shepherded
+    documents:
+    - draft-ietf-ccwg-ratelimited-increase
+    - draft-ietf-ccwg-rfc5033bis
+- person: 124846
+  name: Eric Kinnear
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-05-25'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2023-06-01'
+    subject: 'WG Review: Congestion Control Working Group (ccwg)'
+    message_id: 168562645467.13149.5362395602706476547@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-06-26'
+    subject: 'WG Action: Formed Congestion Control Working Group (ccwg)'
+    message_id: 168779916861.56922.1614523871849520258@ietfa.amsl.com
+  - kind: WG Review
+    date: '2025-10-20'
+    subject: 'WG Review: Congestion Control Working Group (ccwg)'
+    message_id: 176097608502.2167493.5712334979065756370@dt-datatracker-84f8f646b-tg6mn
+  - kind: WG Action
+    date: '2025-11-20'
+    subject: 'WG Action: Rechartered Congestion Control Working Group (ccwg)'
+    message_id: 176366013230.1544326.17208337540990401805@dt-datatracker-5bd94c585b-wk4l4

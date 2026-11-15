@@ -1,0 +1,75 @@
+acronym: multimob
+name: Multicast Mobility
+type: wg
+parent: int
+state: conclude
+started: '2009-08-07'
+closed: '2014-12-01'
+history_url: https://datatracker.ietf.org/group/multimob/history/
+chairs:
+- person: 105992
+  name: Behcet Sarikaya
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-03-21'
+      not_before: '2009-08-07'
+    end:
+      certainty: group-closed
+      date: '2014-12-01'
+    notes:
+    - start moved earlier by session request for IETF 77
+  evidence:
+  - kind: WG Review
+    date: '2010-11-23'
+    subject: 'WG Review: Recharter of Mobility Multicast (multimob)'
+    message_id: null
+  - kind: WG Action
+    date: '2010-12-07'
+    subject: 'WG Action: RECHARTER: Multicast Mobility (multimob)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '77'
+    - '78'
+    - '79'
+    - '80'
+    - '81'
+    - '82'
+    - '83'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-multimob-handover-optimization
+    - draft-ietf-multimob-pmipv6-ropt
+- person: 106173
+  name: Stig Venaas
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2009-11-08'
+      not_before: '2009-08-07'
+    end:
+      certainty: group-closed
+      date: '2014-12-01'
+    notes:
+    - start moved earlier by session request for IETF 76
+  evidence:
+  - kind: WG Review
+    date: '2010-11-23'
+    subject: 'WG Review: Recharter of Mobility Multicast (multimob)'
+    message_id: null
+  - kind: WG Action
+    date: '2010-12-07'
+    subject: 'WG Action: RECHARTER: Multicast Mobility (multimob)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '76'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-multimob-fmipv6-pfmipv6-multicast
+    - draft-ietf-multimob-pmipv6-source

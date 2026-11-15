@@ -1,0 +1,31 @@
+acronym: sip-o
+name: Simple Internet Protocol
+type: wg
+parent: app
+state: conclude
+started: '1992-12-17'
+closed: '1994-02-17'
+history_url: https://datatracker.ietf.org/group/sip-o/history/
+chairs:
+- person: 2793
+  name: Bob Hinden
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1994-02-17'
+      not_before: '1992-12-17'
+    end:
+      certainty: group-closed
+      date: '1994-02-17'
+- person: 9009
+  name: Steve Deering
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1994-02-17'
+      not_before: '1992-12-17'
+    end:
+      certainty: group-closed
+      date: '1994-02-17'

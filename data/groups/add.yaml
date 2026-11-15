@@ -1,0 +1,48 @@
+acronym: add
+name: Adaptive DNS Discovery
+type: wg
+parent: int
+state: active
+started: '2019-06-11'
+closed: null
+history_url: https://datatracker.ietf.org/group/add/history/
+chairs:
+- person: 112773
+  name: Lars Eggert
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-07-08'
+    end:
+      certainty: exact
+      date: '2020-01-28'
+- person: 116218
+  name: Glenn Deen
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-02-06'
+    end:
+      certainty: ongoing
+- person: 117988
+  name: Benjamin Schwartz
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-01-28'
+    end:
+      certainty: exact
+      date: '2020-02-06'
+- person: 120845
+  name: David Lawrence
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2019-06-11'
+      not_before: '2019-06-11'
+    end:
+      certainty: ongoing

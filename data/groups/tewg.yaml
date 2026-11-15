@@ -1,0 +1,31 @@
+acronym: tewg
+name: Internet Traffic Engineering
+type: wg
+parent: sub
+state: conclude
+started: '1999-09-14'
+closed: '2005-01-26'
+history_url: https://datatracker.ietf.org/group/tewg/history/
+chairs:
+- person: 19180
+  name: Ed Kern
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-01-26'
+      not_before: '1999-09-14'
+    end:
+      certainty: group-closed
+      date: '2005-01-26'
+- person: 20451
+  name: Jim Boyle
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-01-26'
+      not_before: '1999-09-14'
+    end:
+      certainty: group-closed
+      date: '2005-01-26'

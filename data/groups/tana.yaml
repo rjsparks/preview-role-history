@@ -1,0 +1,36 @@
+acronym: tana
+name: Techniques for Advanced Networking Applications
+type: wg
+parent: tsv
+state: bof-conc
+started: null
+closed: null
+history_url: https://datatracker.ietf.org/group/tana/history/
+chairs:
+- person: 104331
+  name: Gorry Fairhurst
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2008-07-27'
+    end:
+      certainty: group-closed
+      date: '2011-12-09'
+    notes:
+    - start moved earlier by session request for IETF 72
+  evidence:
+  - kind: session requests
+    meetings:
+    - '72'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 109422
+  name: Stanislav Shalunov
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+    end:
+      certainty: group-closed
+      date: '2011-12-09'

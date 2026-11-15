@@ -1,0 +1,88 @@
+acronym: homenet
+name: Home Networking
+type: wg
+parent: int
+state: conclude
+started: '2011-06-23'
+closed: '2023-02-14'
+history_url: https://datatracker.ietf.org/group/homenet/history/
+chairs:
+- person: 19177
+  name: Stephen Farrell
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-09-06'
+    end:
+      certainty: group-closed
+      date: '2023-02-14'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-homenet-front-end-naming-delegation
+    - draft-ietf-homenet-naming-architecture-dhc-options
+- person: 22948
+  name: Mark Townsley
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2011-06-23'
+    end:
+      certainty: exact
+      date: '2017-07-27'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-homenet-dncp
+    - draft-ietf-homenet-hncp
+    - draft-ietf-homenet-prefix-assignment
+- person: 109059
+  name: Ray Bellis
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-11-13'
+      not_before: '2011-06-23'
+    end:
+      certainty: exact
+      date: '2018-02-21'
+    notes:
+    - start moved earlier by session request for IETF 82
+  evidence:
+  - kind: session requests
+    meetings:
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-homenet-arch
+    - draft-ietf-homenet-dot
+    - draft-ietf-homenet-redact
+- person: 114464
+  name: Barbara Stark
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-07-27'
+    end:
+      certainty: exact
+      date: '2021-12-14'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-homenet-babel-profile
+- person: 116706
+  name: Kiran Makhijani
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-10-05'
+    end:
+      certainty: group-closed
+      date: '2023-02-14'

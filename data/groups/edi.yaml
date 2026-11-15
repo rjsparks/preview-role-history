@@ -1,0 +1,20 @@
+acronym: edi
+name: Electronic Data Interchange
+type: wg
+parent: app
+state: conclude
+started: '1994-05-23'
+closed: '1995-07-07'
+history_url: https://datatracker.ietf.org/group/edi/history/
+chairs:
+- person: 100927
+  name: Dave Crocker
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1995-07-07'
+      not_before: '1994-05-23'
+    end:
+      certainty: group-closed
+      date: '1995-07-07'

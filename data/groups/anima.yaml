@@ -1,0 +1,49 @@
+acronym: anima
+name: Autonomic Networking Integrated Model and Approach
+type: wg
+parent: ops
+state: active
+started: '2014-09-11'
+closed: null
+history_url: https://datatracker.ietf.org/group/anima/history/
+chairs:
+- person: 11834
+  name: Toerless Eckert
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-11-03'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-anima-asa-guidelines
+    - draft-ietf-anima-bootstrapping-keyinfra
+    - draft-ietf-anima-brski-ae
+    - draft-ietf-anima-brski-async-enroll
+    - draft-ietf-anima-constrained-voucher
+    - draft-ietf-anima-network-service-auto-deployment
+    - draft-ietf-anima-prefix-management
+- person: 108054
+  name: Sheng Jiang
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-11-03'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-anima-autonomic-control-plane
+    - draft-ietf-anima-brski-cloud
+    - draft-ietf-anima-constrained-join-proxy
+    - draft-ietf-anima-grasp
+    - draft-ietf-anima-grasp-api
+    - draft-ietf-anima-reference-model
+    - draft-ietf-anima-rfc8366bis
+    - draft-ietf-anima-stable-connectivity
+    - draft-ietf-anima-voucher

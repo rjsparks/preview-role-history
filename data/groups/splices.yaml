@@ -1,0 +1,28 @@
+acronym: splices
+name: looSely-couPLed sIp deviCES
+type: wg
+parent: rai
+state: conclude
+started: '2010-06-10'
+closed: '2012-01-25'
+history_url: https://datatracker.ietf.org/group/splices/history/
+chairs:
+- person: 108722
+  name: Simon Romano
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-03-27'
+      not_before: '2010-06-10'
+    end:
+      certainty: group-closed
+      date: '2012-01-25'
+    notes:
+    - start moved earlier by session request for IETF 80
+  evidence:
+  - kind: session requests
+    meetings:
+    - '80'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

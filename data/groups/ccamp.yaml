@@ -1,0 +1,230 @@
+acronym: ccamp
+name: Common Control and Measurement Plane
+type: wg
+parent: rtg
+state: active
+started: '2000-11-16'
+closed: null
+history_url: https://datatracker.ietf.org/group/ccamp/history/
+chairs:
+- person: 10064
+  name: Lou Berger
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2009-11-08'
+      not_before: '2000-11-16'
+    end:
+      certainty: exact
+      date: '2014-12-04'
+    notes:
+    - start moved earlier by session request for IETF 76
+  evidence:
+  - kind: WG Action
+    date: '2010-03-17'
+    subject: 'WG Action: RECHARTER: Common Control and Measurement Plane (ccamp)'
+    message_id: null
+  - kind: WG Review
+    date: '2014-11-25'
+    subject: 'WG Review: Common Control and Measurement Plane (ccamp)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '76'
+    - '83'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-ccamp-dpm
+    - draft-ietf-ccamp-general-constraint-encode
+    - draft-ietf-ccamp-gmpls-g709-framework
+    - draft-ietf-ccamp-gmpls-general-constraints-ospf-te
+    - draft-ietf-ccamp-gmpls-ospf-g709v3
+    - draft-ietf-ccamp-gmpls-signaling-g709v3
+    - draft-ietf-ccamp-gmpls-ted-mib
+    - draft-ietf-ccamp-otn-g709-info-model
+    - draft-ietf-ccamp-rwa-info
+    - draft-ietf-ccamp-rwa-wson-encode
+    - draft-ietf-ccamp-wson-signal-compatibility-ospf
+    - draft-ietf-ccamp-wson-signaling
+- person: 102960
+  name: Kireeti Kompella
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2005-11-04'
+    end:
+      certainty: evidence-only
+      not_before: '2005-11-04'
+  evidence:
+  - kind: WG Action
+    date: '2005-11-04'
+    subject: 'WG Action: RECHARTER: Common Control and Measurement Plane (ccamp)'
+    message_id: null
+- person: 104198
+  name: Adrian Farrel
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2005-11-04'
+    end:
+      certainty: evidence-only
+      not_before: '2008-07-10'
+  evidence:
+  - kind: WG Action
+    date: '2005-11-04'
+    subject: 'WG Action: RECHARTER: Common Control and Measurement Plane (ccamp)'
+    message_id: null
+  - kind: WG Review
+    date: '2007-10-22'
+    subject: 'WG Review: Recharter of Common Control and Measurement Plane WG (ccamp)'
+    message_id: null
+  - kind: WG Review
+    date: '2008-07-10'
+    subject: 'WG Review: Recharter of Common Control and Measurement Plane (ccamp)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-ccamp-flexigrid-yang
+    - draft-ietf-ccamp-gmpls-otn-b100g-applicability
+- person: 106471
+  name: Deborah Brungard
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-03-18'
+      not_before: '2000-11-16'
+    end:
+      certainty: exact
+      date: '2014-12-04'
+    notes:
+    - start moved earlier by session request for IETF 68
+  evidence:
+  - kind: WG Review
+    date: '2007-10-22'
+    subject: 'WG Review: Recharter of Common Control and Measurement Plane WG (ccamp)'
+    message_id: null
+  - kind: WG Review
+    date: '2008-07-10'
+    subject: 'WG Review: Recharter of Common Control and Measurement Plane (ccamp)'
+    message_id: null
+  - kind: WG Action
+    date: '2010-03-17'
+    subject: 'WG Action: RECHARTER: Common Control and Measurement Plane (ccamp)'
+    message_id: null
+  - kind: WG Review
+    date: '2014-11-25'
+    subject: 'WG Review: Common Control and Measurement Plane (ccamp)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    - '75'
+    - '77'
+    - '78'
+    - '79'
+    - '80'
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-ccamp-assoc-ext
+    - draft-ietf-ccamp-assoc-info
+    - draft-ietf-ccamp-lmp-behavior-negotiation
+    - draft-ietf-ccamp-oam-configuration-fwk
+    - draft-ietf-ccamp-rfc5787bis
+    - draft-ietf-ccamp-rsvp-te-eth-oam-ext
+    - draft-ietf-ccamp-rsvp-te-mpls-tp-oam-ext
+    - draft-ietf-ccamp-rsvp-te-sdh-otn-oam-ext
+    - draft-ietf-ccamp-swcaps-update
+- person: 108894
+  name: Fatai Zhang
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-12-04'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2026-03-05'
+    subject: 'WG Review: Common Control and Measurement Plane (ccamp)'
+    message_id: 177273281522.448806.937910800377414010@dt-datatracker-6ff7c68975-7k42g
+  - kind: WG Action
+    date: '2026-04-03'
+    subject: 'WG Action: Rechartered Common Control and Measurement Plane (ccamp)'
+    message_id: 177524764897.343955.8460135104345761455@dt-datatracker-9dc8fdd9f-qcdj9
+  - kind: shepherded
+    documents:
+    - draft-ietf-ccamp-mw-yang
+    - draft-ietf-ccamp-ospf-availability-extension
+- person: 109703
+  name: Daniele Ceccarelli
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-12-04'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2026-03-05'
+    subject: 'WG Review: Common Control and Measurement Plane (ccamp)'
+    message_id: 177273281522.448806.937910800377414010@dt-datatracker-6ff7c68975-7k42g
+  - kind: WG Action
+    date: '2026-04-03'
+    subject: 'WG Action: Rechartered Common Control and Measurement Plane (ccamp)'
+    message_id: 177524764897.343955.8460135104345761455@dt-datatracker-9dc8fdd9f-qcdj9
+  - kind: shepherded
+    documents:
+    - draft-ietf-ccamp-additional-signal-type-g709v3
+    - draft-ietf-ccamp-alarm-module
+    - draft-ietf-ccamp-dwdm-if-mng-ctrl-fwk
+    - draft-ietf-ccamp-flexigrid-lambda-label
+    - draft-ietf-ccamp-layer0-types
+    - draft-ietf-ccamp-microwave-framework
+    - draft-ietf-ccamp-mw-topo-yang
+    - draft-ietf-ccamp-rfc9093-bis
+    - draft-ietf-ccamp-rsvp-te-bandwidth-availability
+    - draft-ietf-ccamp-transport-nbi-app-statement
+    - draft-ietf-ccamp-wson-yang
+- person: 112922
+  name: Luis Contreras
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-01-20'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2026-03-05'
+    subject: 'WG Review: Common Control and Measurement Plane (ccamp)'
+    message_id: 177273281522.448806.937910800377414010@dt-datatracker-6ff7c68975-7k42g
+  - kind: WG Action
+    date: '2026-04-03'
+    subject: 'WG Action: Rechartered Common Control and Measurement Plane (ccamp)'
+    message_id: 177524764897.343955.8460135104345761455@dt-datatracker-9dc8fdd9f-qcdj9
+  - kind: shepherded
+    documents:
+    - draft-ietf-ccamp-l1csm-yang

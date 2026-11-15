@@ -1,0 +1,59 @@
+acronym: apn
+name: Application-aware Networking
+type: wg
+parent: rtg
+state: abandon
+started: '2020-10-09'
+closed: '2022-09-23'
+history_url: https://datatracker.ietf.org/group/apn/history/
+chairs:
+- person: 2793
+  name: Bob Hinden
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-06-24'
+    end:
+      certainty: exact
+      date: '2022-09-22'
+- person: 102391
+  name: Donald Eastlake
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-09-22'
+    end:
+      certainty: group-closed
+      date: '2022-09-23'
+- person: 104198
+  name: Adrian Farrel
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-06-24'
+    end:
+      certainty: exact
+      date: '2022-09-22'
+- person: 117846
+  name: Dan Voyer
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-06-24'
+    end:
+      certainty: exact
+      date: '2022-09-22'
+- person: 125198
+  name: Melchior Aelmans
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-09-22'
+    end:
+      certainty: group-closed
+      date: '2022-09-23'

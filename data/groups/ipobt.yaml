@@ -1,0 +1,29 @@
+acronym: ipobt
+name: IP over Bluetooth
+type: wg
+parent: int
+state: conclude
+started: null
+closed: '2003-12-10'
+history_url: https://datatracker.ietf.org/group/ipobt/history/
+chairs:
+- person: 8353
+  name: Pravin Bhagwat
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2003-12-10'
+    end:
+      certainty: group-closed
+      date: '2003-12-10'
+- person: 101872
+  name: Kristoffer Fleming
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2003-12-10'
+    end:
+      certainty: group-closed
+      date: '2003-12-10'

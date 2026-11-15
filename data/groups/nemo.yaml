@@ -1,0 +1,72 @@
+acronym: nemo
+name: Network Mobility
+type: wg
+parent: int
+state: conclude
+started: '2002-09-13'
+closed: '2007-11-20'
+history_url: https://datatracker.ietf.org/group/nemo/history/
+chairs:
+- person: 100450
+  name: Kniveton Tj
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-07-09'
+      not_before: '2002-09-13'
+    end:
+      certainty: group-closed
+      date: '2007-11-20'
+    notes:
+    - start moved earlier by session request for IETF 66
+  evidence:
+  - kind: WG Review
+    date: '2007-02-21'
+    subject: 'WG Review: Recharter of Network Mobility (nemo)'
+    message_id: null
+  - kind: WG Review
+    date: '2007-03-22'
+    subject: 'WG Review: Recharter of Network Mobility (nemo)'
+    message_id: null
+  - kind: WG Action
+    date: '2007-04-24'
+    subject: 'WG Action: RECHARTER: Network Mobility (nemo)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '66'
+    - '68'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 105712
+  name: Thierry Ernst
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '2002-09-13'
+    end:
+      certainty: group-closed
+      date: '2007-11-20'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: WG Review
+    date: '2007-02-21'
+    subject: 'WG Review: Recharter of Network Mobility (nemo)'
+    message_id: null
+  - kind: WG Review
+    date: '2007-03-22'
+    subject: 'WG Review: Recharter of Network Mobility (nemo)'
+    message_id: null
+  - kind: WG Action
+    date: '2007-04-24'
+    subject: 'WG Action: RECHARTER: Network Mobility (nemo)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '65'
+    - '67'
+    - '69'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

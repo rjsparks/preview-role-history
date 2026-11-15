@@ -1,0 +1,35 @@
+acronym: justfont
+name: Font Top Level Media Type
+type: wg
+parent: art
+state: conclude
+started: '2015-11-05'
+closed: '2017-03-01'
+history_url: https://datatracker.ietf.org/group/justfont/history/
+chairs:
+- person: 103881
+  name: Mark Nottingham
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2015-11-05'
+      not_before: '2015-11-05'
+    end:
+      certainty: group-closed
+      date: '2017-03-01'
+- person: 120261
+  name: Wendy Seltzer
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2015-11-05'
+      not_before: '2015-11-05'
+    end:
+      certainty: group-closed
+      date: '2017-03-01'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-justfont-toplevel

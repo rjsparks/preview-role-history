@@ -1,0 +1,272 @@
+acronym: idr
+name: Inter-Domain Routing
+type: wg
+parent: rtg
+state: active
+started: '1994-07-06'
+closed: null
+history_url: https://datatracker.ietf.org/group/idr/history/
+chairs:
+- person: 3056
+  name: Sue Hares
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-03-26'
+      not_before: '1994-07-06'
+    end:
+      certainty: ongoing
+    notes:
+    - start moved earlier by WG Action announcement of 2010-03-26
+  evidence:
+  - kind: WG Review
+    date: '2010-02-08'
+    subject: 'WG Review: Recharter of Inter-Domain Routing (idr)'
+    message_id: null
+  - kind: WG Action
+    date: '2010-03-26'
+    subject: 'WG Action: RECHARTER: Inter-Domain Routing (idr)'
+    message_id: null
+  - kind: WG Review
+    date: '2026-06-12'
+    subject: 'WG Review: Inter-Domain Routing (idr)'
+    message_id: 178128327189.108698.4812637237235945160@dt-datatracker-f9b87776f-xzl65
+  - kind: WG Action
+    date: '2026-07-06'
+    subject: 'WG Action: Rechartered Inter-Domain Routing (idr)'
+    message_id: 178335875524.335632.11942867339675944228@dt-datatracker-57b5d8f849-v5cht
+  - kind: shepherded
+    documents:
+    - draft-chen-bgp-redist
+    - draft-chen-idr-bgp-ls-sr-policy-nrp
+    - draft-chen-idr-bier-te-path
+    - draft-chen-idr-srv6-flowspec-path-redirect
+    - draft-dong-idr-flowspec-network-slice-ts
+    - draft-dong-idr-sr-policy-nrp
+    - draft-dskc-bess-bgp-car
+    - draft-dunbar-idr-5g-edge-compute-app-meta-data
+    - draft-haas-idr-bgp-diffract
+    - draft-hb-idr-sr-p2mp-policy
+    - draft-head-idr-bgp-ls-isis-fr
+    - draft-herdes-idr-otc-rs-verification
+    - draft-ietf-idr-add-paths-guidelines
+    - draft-ietf-idr-aigp
+    - draft-ietf-idr-as-migration
+    - draft-ietf-idr-as-private-reservation
+    - draft-ietf-idr-as0
+    - draft-ietf-idr-bgp-autoconf-considerations
+    - draft-ietf-idr-bgp-bestpath-selection-criteria
+    - draft-ietf-idr-bgp-car
+    - draft-ietf-idr-bgp-ct
+    - draft-ietf-idr-bgp-ct-srv6
+    - draft-ietf-idr-bgp-enhanced-route-refresh
+    - draft-ietf-idr-bgp-ext-com-registry
+    - draft-ietf-idr-bgp-extended-messages
+    - draft-ietf-idr-bgp-flowspec-oid
+    - draft-ietf-idr-bgp-ifit-capabilities
+    - draft-ietf-idr-bgp-issues
+    - draft-ietf-idr-bgp-ls-bgp-only-fabric
+    - draft-ietf-idr-bgp-ls-link-mtu
+    - draft-ietf-idr-bgp-ls-node-admin-tag-extension
+    - draft-ietf-idr-bgp-ls-segment-routing-ext
+    - draft-ietf-idr-bgp-ls-segment-routing-msd
+    - draft-ietf-idr-bgp-ls-sr-epe-over-l2bundle
+    - draft-ietf-idr-bgp-ls-sr-policy
+    - draft-ietf-idr-bgp-ls-sr-policy-nrp
+    - draft-ietf-idr-bgp-ls-sr-policy-path-segment
+    - draft-ietf-idr-bgp-ls-te-path
+    - draft-ietf-idr-bgp-open-policy
+    - draft-ietf-idr-bgp-optimal-route-reflection
+    - draft-ietf-idr-bgp-sr-segtypes-ext
+    - draft-ietf-idr-bgpls-inter-as-topology-ext
+    - draft-ietf-idr-bgpls-segment-routing-epe
+    - draft-ietf-idr-bgpls-sr-vtn-mt
+    - draft-ietf-idr-bgpls-srv6-ext
+    - draft-ietf-idr-capabilities-registry-change
+    - draft-ietf-idr-cpr
+    - draft-ietf-idr-custom-decision
+    - draft-ietf-idr-deprecate-as-set-confed-set
+    - draft-ietf-idr-deprecate-dpa-etal
+    - draft-ietf-idr-eag-distribution
+    - draft-ietf-idr-enhanced-refresh-impl
+    - draft-ietf-idr-entropy-label
+    - draft-ietf-idr-ext-opt-param
+    - draft-ietf-idr-extcomm-iana
+    - draft-ietf-idr-flowspec-network-slice-ts
+    - draft-ietf-idr-flowspec-path-redirect
+    - draft-ietf-idr-flowspec-redirect-ip
+    - draft-ietf-idr-ix-bgp-route-server
+    - draft-ietf-idr-last-as-reservation
+    - draft-ietf-idr-nhc
+    - draft-ietf-idr-node-target-ext-comm
+    - draft-ietf-idr-rfc8203bis
+    - draft-ietf-idr-rfd-usable
+    - draft-ietf-idr-route-oscillation-stop
+    - draft-ietf-idr-rs-bfd
+    - draft-ietf-idr-rt-derived-community
+    - draft-ietf-idr-segment-routing-te-policy
+    - draft-ietf-idr-shutdown
+    - draft-ietf-idr-sla-exchange
+    - draft-ietf-idr-sr-p2mp-policy
+    - draft-ietf-idr-sr-policy-ifit
+    - draft-ietf-idr-sr-policy-metric
+    - draft-ietf-idr-sr-policy-nrp
+    - draft-ietf-idr-sr-policy-path-mtu
+    - draft-ietf-idr-sr-policy-path-segment
+    - draft-ietf-idr-sr-policy-safi
+    - draft-ietf-idr-sr-policy-seglist-id
+    - draft-ietf-idr-sr-te-policy-attr
+    - draft-ietf-idr-te-pm-bgp
+    - draft-ietf-idr-tunnel-encaps
+    - draft-jiang-idr-ts-flowspec-srv6-policy
+    - draft-kaliraj-idr-bgp-classful-transport-planes
+    - draft-li-idr-flowspec-redirect-direct-ip
+    - draft-lin-idr-flowspec-quic
+    - draft-lin-idr-sr-policy-headend-behavior
+    - draft-lin-idr-sr-policy-seglist-id
+    - draft-litkowski-idr-rtc-interas
+    - draft-liu-idr-bgp-rpki-yang
+    - draft-mishra-idr-v4-islands-v6-core-4pe
+    - draft-peng-idr-segment-routing-te-policy-attr
+    - draft-qin-idr-sr-policy-ifit
+    - draft-retana-idr-add-paths-implementation
+    - draft-sa-idr-bgp-srv6-mpls-transport-iw
+    - draft-sas-idr-maxprefix-inbound
+    - draft-shen-idr-flowspec-traffic-compress-action
+    - draft-spaghetti-idr-bgp-sendholdtimer
+    - draft-spaghetti-idr-deprecate-8-9-10
+    - draft-ssangli-idr-bgp-generic-metric-aigp
+    - draft-wang-idr-bgp-ifit-capabilities
+    - draft-wang-idr-cpr
+    - draft-wang-idr-flowspec-dip-origin-as-filter
+    - draft-wang-idr-flowspec-sip-origin-as-filter
+    - draft-wang-idr-vpn-prefix-orf
+    - draft-wu-idr-bgp-segment-allocation-ext
+    - draft-wu-idr-flowspec-dip-community-filter
+    - draft-wu-idr-flowspec-sip-community-filter
+    - draft-xie-idr-bgpls-sr-vtn-mt
+    - draft-zhou-idr-bgp-srmpls-elp
+    - draft-zzd-idr-flowspec-scheduling
+    - draft-zzhang-idr-rt-derived-community
+- person: 4836
+  name: John Scudder
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2009-11-08'
+      not_before: '1994-07-06'
+    end:
+      certainty: exact
+      date: '2021-03-23'
+    notes:
+    - start moved earlier by session request for IETF 76
+  evidence:
+  - kind: WG Review
+    date: '2010-02-08'
+    subject: 'WG Review: Recharter of Inter-Domain Routing (idr)'
+    message_id: null
+  - kind: WG Action
+    date: '2010-03-26'
+    subject: 'WG Action: RECHARTER: Inter-Domain Routing (idr)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '76'
+    - '77'
+    - '78'
+    - '79'
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-idr-bgp-prefix-sid
+    - draft-ietf-idr-deprecate-30-31-129
+    - draft-ietf-idr-large-community
+    - draft-ietf-idr-rtc-no-rt
+- person: 10535
+  name: Yakov Rekhter
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-03-19'
+    end:
+      certainty: evidence-only
+      not_before: '2009-07-26'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    - '75'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 104971
+  name: Keyur Patel
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-02-03'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2026-06-12'
+    subject: 'WG Review: Inter-Domain Routing (idr)'
+    message_id: 178128327189.108698.4812637237235945160@dt-datatracker-f9b87776f-xzl65
+  - kind: WG Action
+    date: '2026-07-06'
+    subject: 'WG Action: Rechartered Inter-Domain Routing (idr)'
+    message_id: 178335875524.335632.11942867339675944228@dt-datatracker-57b5d8f849-v5cht
+  - kind: shepherded
+    documents:
+    - draft-chairs-idr-rfc4360-bis
+    - draft-cui-idr-content-filter-flowspec
+    - draft-hares-idr-flowspec-v2
+    - draft-ietf-idr-bfd-subcode
+    - draft-ietf-idr-bgp-ls-app-specific-attr
+    - draft-ietf-idr-rfc4360-bis
+    - draft-ietf-idr-rpd
+    - draft-ietf-idr-sdwan-edge-discovery
+    - draft-ietf-idr-ts-flowspec-srv6-policy
+    - draft-ietf-idr-vpn-prefix-orf
+    - draft-ietf-idr-wide-bgp-communities
+    - draft-kao-idr-bitwise-ip-filters
+- person: 105046
+  name: Jeffrey Haas
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-02-03'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2026-06-12'
+    subject: 'WG Review: Inter-Domain Routing (idr)'
+    message_id: 178128327189.108698.4812637237235945160@dt-datatracker-f9b87776f-xzl65
+  - kind: WG Action
+    date: '2026-07-06'
+    subject: 'WG Action: Rechartered Inter-Domain Routing (idr)'
+    message_id: 178335875524.335632.11942867339675944228@dt-datatracker-57b5d8f849-v5cht
+  - kind: shepherded
+    documents:
+    - draft-ietf-idr-bgp-ls-sbfd-extensions
+    - draft-ietf-idr-bgp-sendholdtimer
+    - draft-ietf-idr-deprecate-8-9-10
+    - draft-ietf-idr-link-bandwidth
+    - draft-ietf-idr-long-lived-gr
+    - draft-ietf-idr-rfc7752bis
+    - draft-minto-idr-bgp-autodiscovery

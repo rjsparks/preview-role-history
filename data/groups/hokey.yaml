@@ -1,0 +1,77 @@
+acronym: hokey
+name: Handover Keying
+type: wg
+parent: sec
+state: conclude
+started: '2006-09-22'
+closed: '2012-08-02'
+history_url: https://datatracker.ietf.org/group/hokey/history/
+chairs:
+- person: 106567
+  name: Charles Clancy
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-11-01'
+    end:
+      certainty: evidence-only
+      not_before: '2009-03-22'
+  evidence:
+  - kind: WG Action
+    date: '2006-11-01'
+    subject: 'WG Action: Handover Keying (hokey)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 106988
+  name: Glen Zorn
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-11-01'
+      not_before: '2006-09-22'
+    end:
+      certainty: group-closed
+      date: '2012-08-02'
+    notes:
+    - start moved earlier by WG Action announcement of 2006-11-01
+  evidence:
+  - kind: WG Action
+    date: '2006-11-01'
+    subject: 'WG Action: Handover Keying (hokey)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '75'
+    - '76'
+    - '78'
+    - '80'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 107598
+  name: Tina Tsou
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-07-24'
+      not_before: '2006-09-22'
+    end:
+      certainty: group-closed
+      date: '2012-08-02'
+    notes:
+    - start moved earlier by session request for IETF 81
+  evidence:
+  - kind: session requests
+    meetings:
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

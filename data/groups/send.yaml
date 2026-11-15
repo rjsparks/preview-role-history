@@ -1,0 +1,31 @@
+acronym: send
+name: Securing Neighbor Discovery
+type: wg
+parent: int
+state: conclude
+started: '2002-09-13'
+closed: '2004-08-20'
+history_url: https://datatracker.ietf.org/group/send/history/
+chairs:
+- person: 6167
+  name: Pekka Nikander
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-08-20'
+      not_before: '2002-09-13'
+    end:
+      certainty: group-closed
+      date: '2004-08-20'
+- person: 106286
+  name: James Kempf
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-08-20'
+      not_before: '2002-09-13'
+    end:
+      certainty: group-closed
+      date: '2004-08-20'

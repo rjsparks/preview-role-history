@@ -1,0 +1,20 @@
+acronym: thinosi
+name: Minimal OSI Upper-Layers
+type: wg
+parent: osi
+state: conclude
+started: '1993-01-25'
+closed: '1994-10-26'
+history_url: https://datatracker.ietf.org/group/thinosi/history/
+chairs:
+- person: 9747
+  name: Peter Furniss
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1994-10-26'
+      not_before: '1993-01-25'
+    end:
+      certainty: group-closed
+      date: '1994-10-26'

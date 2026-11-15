@@ -1,0 +1,78 @@
+acronym: wish
+name: WebRTC Ingest Signaling over HTTPS
+type: wg
+parent: wit
+state: active
+started: '2020-12-05'
+closed: null
+history_url: https://datatracker.ietf.org/group/wish/history/
+chairs:
+- person: 19483
+  name: Sean Turner
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-01-20'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2021-01-22'
+    subject: 'WG Review: WebRTC Ingest Signaling over HTTPS (wish)'
+    message_id: 161134044642.32352.8777181985600426762@ietfa.amsl.com
+  - kind: WG Action
+    date: '2021-02-05'
+    subject: 'WG Action: Formed WebRTC Ingest Signaling over HTTPS (wish)'
+    message_id: 161254855522.17324.13801347976864604215@ietfa.amsl.com
+  - kind: WG Review
+    date: '2023-12-01'
+    subject: 'WG Review: WebRTC Ingest Signaling over HTTPS (wish)'
+    message_id: 170145147105.35715.11102075478963214287@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-12-15'
+    subject: 'WG Action: Rechartered WebRTC Ingest Signaling over HTTPS (wish)'
+    message_id: 170267365860.31825.3754233030426754733@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-wish-whep
+- person: 115578
+  name: Alex Gouaillard
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-01-20'
+    end:
+      certainty: exact
+      date: '2021-06-24'
+  evidence:
+  - kind: WG Review
+    date: '2021-01-22'
+    subject: 'WG Review: WebRTC Ingest Signaling over HTTPS (wish)'
+    message_id: 161134044642.32352.8777181985600426762@ietfa.amsl.com
+  - kind: WG Action
+    date: '2021-02-05'
+    subject: 'WG Action: Formed WebRTC Ingest Signaling over HTTPS (wish)'
+    message_id: 161254855522.17324.13801347976864604215@ietfa.amsl.com
+- person: 122998
+  name: Nils Ohlmeier
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-06-24'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2023-12-01'
+    subject: 'WG Review: WebRTC Ingest Signaling over HTTPS (wish)'
+    message_id: 170145147105.35715.11102075478963214287@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-12-15'
+    subject: 'WG Action: Rechartered WebRTC Ingest Signaling over HTTPS (wish)'
+    message_id: 170267365860.31825.3754233030426754733@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-wish-whip

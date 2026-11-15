@@ -1,0 +1,151 @@
+acronym: roll
+name: Routing Over Low power and Lossy networks
+type: wg
+parent: rtg
+state: active
+started: '2007-12-26'
+closed: null
+history_url: https://datatracker.ietf.org/group/roll/history/
+chairs:
+- person: 102254
+  name: Michael Richardson
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2013-10-03'
+    end:
+      certainty: exact
+      date: '2016-03-08'
+  evidence:
+  - kind: WG Review
+    date: '2015-04-10'
+    subject: 'WG Review: Routing Over Low power and Lossy networks (roll)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-roll-applicability-ami
+    - draft-ietf-roll-rnfd
+    - draft-ietf-roll-routing-dispatch
+    - draft-ietf-roll-terminology
+- person: 105620
+  name: Peter Van der Stok
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-03-08'
+    end:
+      certainty: exact
+      date: '2019-11-27'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-roll-efficient-npdao
+    - draft-ietf-roll-useofrplinfo
+- person: 106269
+  name: JP Vasseur
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2008-07-27'
+      not_before: '2007-12-26'
+    end:
+      certainty: exact
+      date: '2013-12-05'
+    notes:
+    - start moved earlier by session request for IETF 72
+  evidence:
+  - kind: session requests
+    meetings:
+    - '72'
+    - '73'
+    - '74'
+    - '75'
+    - '76'
+    - '77'
+    - '78'
+    - '79'
+    - '80'
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-roll-minrank-hysteresis-of
+    - draft-ietf-roll-p2p-measurement
+    - draft-ietf-roll-p2p-rpl
+- person: 108796
+  name: David Culler
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2007-12-26'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2013-10-03'
+- person: 109263
+  name: Dominique Barthel
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-10-29'
+    end:
+      certainty: exact
+      date: '2025-02-22'
+  evidence:
+  - kind: WG Action
+    date: '2025-01-30'
+    subject: 'WG Action: Rechartered Routing Over Low power and Lossy networks (roll)'
+    message_id: 173826414827.351.12511599969376245286@dt-datatracker-6f7f8bdd64-4ngzm
+  - kind: shepherded
+    documents:
+    - draft-ietf-roll-nsa-extension
+- person: 115213
+  name: Ines Robles
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2013-12-05'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2015-04-10'
+    subject: 'WG Review: Routing Over Low power and Lossy networks (roll)'
+    message_id: null
+  - kind: WG Action
+    date: '2025-01-30'
+    subject: 'WG Action: Rechartered Routing Over Low power and Lossy networks (roll)'
+    message_id: 173826414827.351.12511599969376245286@dt-datatracker-6f7f8bdd64-4ngzm
+  - kind: shepherded
+    documents:
+    - draft-ietf-roll-admin-local-policy
+    - draft-ietf-roll-aodv-rpl
+    - draft-ietf-roll-dao-projection
+    - draft-ietf-roll-enrollment-priority
+    - draft-ietf-roll-mopex
+    - draft-ietf-roll-mpl-parameter-configuration
+    - draft-ietf-roll-trickle-mcast
+    - draft-ietf-roll-turnon-rfc8138
+- person: 123983
+  name: Remous-Aris Koutsiamanis
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-03-27'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Action
+    date: '2025-01-30'
+    subject: 'WG Action: Rechartered Routing Over Low power and Lossy networks (roll)'
+    message_id: 173826414827.351.12511599969376245286@dt-datatracker-6f7f8bdd64-4ngzm

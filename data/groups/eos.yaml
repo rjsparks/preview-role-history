@@ -1,0 +1,31 @@
+acronym: eos
+name: Evolution of SNMP
+type: wg
+parent: ops
+state: conclude
+started: '2001-01-05'
+closed: '2003-04-04'
+history_url: https://datatracker.ietf.org/group/eos/history/
+chairs:
+- person: 6679
+  name: Glenn Waters
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2003-04-04'
+      not_before: '2001-01-05'
+    end:
+      certainty: group-closed
+      date: '2003-04-04'
+- person: 19633
+  name: Dale Francisco
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2003-04-04'
+      not_before: '2001-01-05'
+    end:
+      certainty: group-closed
+      date: '2003-04-04'

@@ -1,0 +1,59 @@
+acronym: tcmtf
+name: Tunneling Compressed Multiplexed Traffic Flows
+type: wg
+parent: tsv
+state: bof-conc
+started: '2013-06-20'
+closed: null
+history_url: https://datatracker.ietf.org/group/tcmtf/history/
+chairs:
+- person: 104331
+  name: Gorry Fairhurst
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2013-06-20'
+      not_after: '2013-09-24'
+    end:
+      certainty: exact
+      date: '2014-01-22'
+- person: 105721
+  name: Jana Iyengar
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2013-06-20'
+      not_after: '2013-09-24'
+    end:
+      certainty: between
+      not_before: '2013-06-20'
+      not_after: '2013-09-24'
+  - start:
+      certainty: between
+      not_before: '2013-06-20'
+      not_after: '2013-09-24'
+    end:
+      certainty: exact
+      date: '2014-01-22'
+- person: 109354
+  name: Brian Trammell
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-02-10'
+    end:
+      certainty: group-closed
+      date: '2014-06-11'
+- person: 112330
+  name: Mirja Kühlewind
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-02-12'
+    end:
+      certainty: group-closed
+      date: '2014-06-11'

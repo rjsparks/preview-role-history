@@ -1,0 +1,31 @@
+acronym: spki
+name: Simple Public Key Infrastructure
+type: wg
+parent: sec
+state: conclude
+started: '1997-01-29'
+closed: '2001-02-10'
+history_url: https://datatracker.ietf.org/group/spki/history/
+chairs:
+- person: 5797
+  name: Steven Bellovin
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2001-02-10'
+      not_before: '1997-01-29'
+    end:
+      certainty: group-closed
+      date: '2001-02-10'
+- person: 15955
+  name: Perry Metzger
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2001-02-10'
+      not_before: '1997-01-29'
+    end:
+      certainty: group-closed
+      date: '2001-02-10'

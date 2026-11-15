@@ -1,0 +1,29 @@
+acronym: ss7
+name: SS7/Internet
+type: wg
+parent: tsv
+state: conclude
+started: null
+closed: null
+history_url: https://datatracker.ietf.org/group/ss7/history/
+chairs:
+- person: 20084
+  name: Nancy Greene
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+    end:
+      certainty: group-closed
+      date: '2011-12-09'
+- person: 23036
+  name: Lyndon Ong
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+    end:
+      certainty: group-closed
+      date: '2011-12-09'

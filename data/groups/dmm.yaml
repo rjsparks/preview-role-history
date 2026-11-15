@@ -1,0 +1,109 @@
+acronym: dmm
+name: Distributed Mobility Management
+type: wg
+parent: int
+state: active
+started: '2012-03-05'
+closed: null
+history_url: https://datatracker.ietf.org/group/dmm/history/
+chairs:
+- person: 101641
+  name: Sri Gundavelli
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-02-16'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-dmm-ondemand-mobility
+    - draft-ietf-dmm-srv6-mobile-uplane
+- person: 106186
+  name: Julien Laganier
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2012-01-10'
+    end:
+      certainty: approximate
+      date: '2012-03-05'
+  - start:
+      certainty: between
+      not_before: '2012-03-05'
+      not_after: '2013-12-23'
+    end:
+      certainty: exact
+      date: '2013-12-23'
+- person: 109589
+  name: Dapeng Liu
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2012-03-05'
+      not_after: '2013-12-23'
+    end:
+      certainty: exact
+      date: '2013-12-23'
+  - start:
+      certainty: exact
+      date: '2013-12-23'
+    end:
+      certainty: exact
+      date: '2023-07-04'
+  evidence:
+  - kind: WG Review
+    date: '2014-10-03'
+    subject: 'WG Review: Distributed Mobility Management (dmm)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-dmm-4283mnids
+    - draft-ietf-dmm-distributed-mobility-anchoring
+    - draft-ietf-dmm-hnprenum
+    - draft-ietf-dmm-lma-controlled-mag-params
+    - draft-ietf-dmm-pmipv6-dlif
+- person: 109800
+  name: Jouni Korhonen
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2012-01-10'
+    end:
+      certainty: approximate
+      date: '2012-03-05'
+  - start:
+      certainty: between
+      not_before: '2012-03-05'
+      not_after: '2013-12-23'
+    end:
+      certainty: exact
+      date: '2017-09-25'
+  evidence:
+  - kind: WG Review
+    date: '2014-10-03'
+    subject: 'WG Review: Distributed Mobility Management (dmm)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-dmm-best-practices-gap-analysis
+    - draft-ietf-dmm-mag-multihoming
+- person: 114978
+  name: Satoru Matsushima
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-08-06'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-dmm-tn-aware-mobility
+    - draft-ietf-dmm-udp-tunnel-acaas-extn

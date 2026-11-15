@@ -1,0 +1,31 @@
+acronym: otp
+name: One Time Password Authentication
+type: wg
+parent: sec
+state: conclude
+started: '1995-05-28'
+closed: '2002-10-29'
+history_url: https://datatracker.ietf.org/group/otp/history/
+chairs:
+- person: 3367
+  name: Neil Haller
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2002-10-29'
+      not_before: '1995-05-28'
+    end:
+      certainty: group-closed
+      date: '2002-10-29'
+- person: 111048
+  name: Ran Atkinson
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2002-10-29'
+      not_before: '1995-05-28'
+    end:
+      certainty: group-closed
+      date: '2002-10-29'

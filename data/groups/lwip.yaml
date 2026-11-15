@@ -1,0 +1,29 @@
+acronym: lwip
+name: Light-Weight IP Protocol Design
+type: wg
+parent: int
+state: bof-conc
+started: null
+closed: null
+history_url: https://datatracker.ietf.org/group/lwip/history/
+chairs:
+- person: 2793
+  name: Bob Hinden
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+    end:
+      certainty: group-closed
+      date: '2011-12-09'
+- person: 110531
+  name: Zhen Cao
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+    end:
+      certainty: group-closed
+      date: '2011-12-09'

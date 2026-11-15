@@ -1,0 +1,31 @@
+acronym: pint
+name: PSTN and Internet Internetworking
+type: wg
+parent: tsv
+state: conclude
+started: '1997-07-18'
+closed: '2001-02-12'
+history_url: https://datatracker.ietf.org/group/pint/history/
+chairs:
+- person: 5797
+  name: Steven Bellovin
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2001-02-12'
+      not_before: '1997-07-18'
+    end:
+      certainty: group-closed
+      date: '2001-02-12'
+- person: 20549
+  name: Igor Faynberg
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2001-02-12'
+      not_before: '1997-07-18'
+    end:
+      certainty: group-closed
+      date: '2001-02-12'

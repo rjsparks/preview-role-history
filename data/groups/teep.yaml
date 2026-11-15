@@ -1,0 +1,55 @@
+acronym: teep
+name: Trusted Execution Environment Provisioning
+type: wg
+parent: sec
+state: conclude
+started: '2017-02-15'
+closed: '2026-03-09'
+history_url: https://datatracker.ietf.org/group/teep/history/
+chairs:
+- person: 15927
+  name: Dave Thaler
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-09-13'
+    end:
+      certainty: exact
+      date: '2019-11-17'
+- person: 105785
+  name: Nancy Cam-Winget
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-03-03'
+    end:
+      certainty: group-closed
+      date: '2026-03-09'
+- person: 110121
+  name: Tero Kivinen
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-03-03'
+    end:
+      certainty: exact
+      date: '2017-09-13'
+- person: 112901
+  name: Tirumaleswar Reddy.K
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-11-19'
+    end:
+      certainty: group-closed
+      date: '2026-03-09'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-teep-architecture
+    - draft-ietf-teep-otrp-over-http
+    - draft-ietf-teep-protocol

@@ -1,0 +1,31 @@
+acronym: ldup
+name: LDAP Duplication/Replication/Update Protocols
+type: wg
+parent: app
+state: conclude
+started: '1998-10-19'
+closed: '2004-04-22'
+history_url: https://datatracker.ietf.org/group/ldup/history/
+chairs:
+- person: 10500
+  name: Chris Apple
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-04-22'
+      not_before: '1998-10-19'
+    end:
+      certainty: group-closed
+      date: '2004-04-22'
+- person: 21756
+  name: John Strassner
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-04-22'
+      not_before: '1998-10-19'
+    end:
+      certainty: group-closed
+      date: '2004-04-22'

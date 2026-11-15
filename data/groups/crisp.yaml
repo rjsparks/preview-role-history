@@ -1,0 +1,45 @@
+acronym: crisp
+name: Cross Registry Information Service Protocol
+type: wg
+parent: app
+state: conclude
+started: '2002-05-17'
+closed: '2009-03-05'
+history_url: https://datatracker.ietf.org/group/crisp/history/
+chairs:
+- person: 4356
+  name: April Marine
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-11-05'
+      not_before: '2002-05-17'
+    end:
+      certainty: group-closed
+      date: '2009-03-05'
+    notes:
+    - start moved earlier by session request for IETF 67
+  evidence:
+  - kind: session requests
+    meetings:
+    - '67'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 17141
+  name: George Michaelson
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '2002-05-17'
+    end:
+      certainty: group-closed
+      date: '2009-03-05'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: session requests
+    meetings:
+    - '65'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

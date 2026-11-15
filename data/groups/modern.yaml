@@ -1,0 +1,52 @@
+acronym: modern
+name: Managing, Ordering, Distributing, Exposing, & Registering telephone Numbers
+type: wg
+parent: art
+state: conclude
+started: '2015-02-12'
+closed: '2020-02-06'
+history_url: https://datatracker.ietf.org/group/modern/history/
+chairs:
+- person: 102305
+  name: Steve Donovan
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-06-01'
+    end:
+      certainty: group-closed
+      date: '2020-02-06'
+  evidence:
+  - kind: WG Review
+    date: '2015-06-12'
+    subject: 'WG Review: Managing, Ordering, Distributing, Exposing, & Registering telephone Numbers (modern)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-modern-problem-framework
+- person: 103769
+  name: Adam Roach
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-03-23'
+    end:
+      certainty: exact
+      date: '2015-06-01'
+- person: 104333
+  name: Tom McGarry
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-02-12'
+    end:
+      certainty: group-closed
+      date: '2020-02-06'
+  evidence:
+  - kind: WG Review
+    date: '2015-06-12'
+    subject: 'WG Review: Managing, Ordering, Distributing, Exposing, & Registering telephone Numbers (modern)'
+    message_id: null

@@ -1,0 +1,20 @@
+acronym: mpsnmp
+name: SNMP Over a Multi-Protocol Internet
+type: wg
+parent: mgt
+state: conclude
+started: '1992-04-02'
+closed: '1993-03-15'
+history_url: https://datatracker.ietf.org/group/mpsnmp/history/
+chairs:
+- person: 2718
+  name: Theodore Brunner
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1993-03-15'
+      not_before: '1992-04-02'
+    end:
+      certainty: group-closed
+      date: '1993-03-15'

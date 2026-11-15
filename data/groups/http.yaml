@@ -1,0 +1,20 @@
+acronym: http
+name: HyperText Transfer Protocol
+type: wg
+parent: app
+state: conclude
+started: '1995-01-20'
+closed: '2000-10-11'
+history_url: https://datatracker.ietf.org/group/http/history/
+chairs:
+- person: 110451
+  name: Larry Masinter
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2000-10-11'
+      not_before: '1995-01-20'
+    end:
+      certainty: group-closed
+      date: '2000-10-11'

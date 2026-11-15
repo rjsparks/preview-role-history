@@ -1,0 +1,77 @@
+acronym: insipid
+name: INtermediary-safe SIP session ID
+type: wg
+parent: art
+state: conclude
+started: '2012-02-22'
+closed: '2018-10-02'
+history_url: https://datatracker.ietf.org/group/insipid/history/
+chairs:
+- person: 105097
+  name: Keith Drage
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2012-02-23'
+      not_after: '2015-03-26'
+    end:
+      certainty: between
+      not_before: '2012-02-23'
+      not_after: '2015-03-26'
+  - start:
+      certainty: between
+      not_before: '2012-02-23'
+      not_after: '2015-03-26'
+    end:
+      certainty: group-closed
+      date: '2018-10-02'
+  evidence:
+  - kind: WG Action
+    date: '2012-03-19'
+    subject: 'WG Action: INtermediary-safe SIP session ID (insipid)'
+    message_id: null
+  - kind: WG Review
+    date: '2013-09-27'
+    subject: 'WG Review: INtermediary-safe SIP session ID (insipid)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-insipid-session-id-reqts
+- person: 107684
+  name: Hadriel Kaplan
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2012-02-23'
+      not_after: '2015-03-26'
+    end:
+      certainty: between
+      not_before: '2012-02-23'
+      not_after: '2015-03-26'
+  evidence:
+  - kind: WG Action
+    date: '2012-03-19'
+    subject: 'WG Action: INtermediary-safe SIP session ID (insipid)'
+    message_id: null
+- person: 110842
+  name: Gonzalo Salgueiro
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2012-02-23'
+      not_after: '2015-03-26'
+    end:
+      certainty: group-closed
+      date: '2018-10-02'
+  evidence:
+  - kind: WG Review
+    date: '2013-09-27'
+    subject: 'WG Review: INtermediary-safe SIP session ID (insipid)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-insipid-logme-marking
+    - draft-ietf-insipid-logme-reqs

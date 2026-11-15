@@ -1,0 +1,31 @@
+acronym: wrec
+name: Web Replication and Caching
+type: wg
+parent: app
+state: conclude
+started: '1999-02-21'
+closed: '2001-03-30'
+history_url: https://datatracker.ietf.org/group/wrec/history/
+chairs:
+- person: 11783
+  name: John Martin
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2001-03-30'
+      not_before: '1999-02-21'
+    end:
+      certainty: group-closed
+      date: '2001-03-30'
+- person: 103230
+  name: Bill Maggs
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2001-03-30'
+      not_before: '1999-02-21'
+    end:
+      certainty: group-closed
+      date: '2001-03-30'

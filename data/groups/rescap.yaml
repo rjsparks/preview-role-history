@@ -1,0 +1,31 @@
+acronym: rescap
+name: Resource Capabilities Discovery
+type: wg
+parent: app
+state: conclude
+started: '1999-10-22'
+closed: '2003-10-08'
+history_url: https://datatracker.ietf.org/group/rescap/history/
+chairs:
+- person: 2783
+  name: James Galvin
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2003-10-08'
+      not_before: '1999-10-22'
+    end:
+      certainty: group-closed
+      date: '2003-10-08'
+- person: 9497
+  name: Michael Mealling
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2003-10-08'
+      not_before: '1999-10-22'
+    end:
+      certainty: group-closed
+      date: '2003-10-08'

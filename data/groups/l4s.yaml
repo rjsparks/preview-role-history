@@ -1,0 +1,31 @@
+acronym: l4s
+name: Low Latency Low Loss Scalable throughput
+type: wg
+parent: tsv
+state: bof-conc
+started: '2016-06-10'
+closed: '2016-10-04'
+history_url: https://datatracker.ietf.org/group/l4s/history/
+chairs:
+- person: 107998
+  name: Philip Eardley
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2016-06-10'
+      not_before: '2016-06-10'
+    end:
+      certainty: group-closed
+      date: '2016-10-04'
+- person: 112773
+  name: Lars Eggert
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2016-06-10'
+      not_before: '2016-06-10'
+    end:
+      certainty: group-closed
+      date: '2016-10-04'

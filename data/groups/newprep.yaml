@@ -1,0 +1,36 @@
+acronym: newprep
+name: Stringprep after IDNA2008
+type: wg
+parent: app
+state: bof-conc
+started: '2010-04-23'
+closed: '2010-06-11'
+history_url: https://datatracker.ietf.org/group/newprep/history/
+chairs:
+- person: 19869
+  name: Marc Blanchet
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-06-11'
+      not_before: '2010-04-23'
+    end:
+      certainty: group-closed
+      date: '2010-06-11'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '78'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 105907
+  name: Peter Saint-Andre
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-06-11'
+      not_before: '2010-04-23'
+    end:
+      certainty: group-closed
+      date: '2010-06-11'

@@ -1,0 +1,53 @@
+acronym: privacypass
+name: Privacy Pass
+type: wg
+parent: sec
+state: active
+started: '2020-02-13'
+closed: null
+history_url: https://datatracker.ietf.org/group/privacypass/history/
+chairs:
+- person: 101208
+  name: Joseph Salowey
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-03-10'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2020-06-26'
+    subject: 'WG Review: Privacy Pass (privacypass)'
+    message_id: 159318806492.29096.2339909472957737970@ietfa.amsl.com
+  - kind: WG Action
+    date: '2020-07-10'
+    subject: 'WG Action: Formed Privacy Pass (privacypass)'
+    message_id: 159439887917.16950.8205307363859836348@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-privacypass-architecture
+    - draft-ietf-privacypass-batched-tokens
+    - draft-ietf-privacypass-protocol
+- person: 117988
+  name: Benjamin Schwartz
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-03-11'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2020-06-26'
+    subject: 'WG Review: Privacy Pass (privacypass)'
+    message_id: 159318806492.29096.2339909472957737970@ietfa.amsl.com
+  - kind: WG Action
+    date: '2020-07-10'
+    subject: 'WG Action: Formed Privacy Pass (privacypass)'
+    message_id: 159439887917.16950.8205307363859836348@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-privacypass-auth-scheme

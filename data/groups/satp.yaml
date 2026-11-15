@@ -1,0 +1,41 @@
+acronym: satp
+name: Secure Asset Transfer Protocol
+type: wg
+parent: art
+state: active
+started: '2022-06-16'
+closed: null
+history_url: https://datatracker.ietf.org/group/satp/history/
+chairs:
+- person: 117099
+  name: Wes Hardaker
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-06-17'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2023-01-20'
+    subject: 'WG Review: Secure Asset Transfer Protocol (satp)'
+    message_id: 167423387611.3186.3305198369800871110@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-02-03'
+    subject: 'WG Action: Formed Secure Asset Transfer Protocol (satp)'
+    message_id: 167545021738.39091.8246390061348352228@ietfa.amsl.com
+- person: 132080
+  name: Claire
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-02-01'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Action
+    date: '2023-02-03'
+    subject: 'WG Action: Formed Secure Asset Transfer Protocol (satp)'
+    message_id: 167545021738.39091.8246390061348352228@ietfa.amsl.com

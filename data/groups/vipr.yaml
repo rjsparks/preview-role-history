@@ -1,0 +1,49 @@
+acronym: vipr
+name: Verification Involving PSTN Reachability
+type: wg
+parent: rai
+state: conclude
+started: '2011-02-18'
+closed: '2014-01-24'
+history_url: https://datatracker.ietf.org/group/vipr/history/
+chairs:
+- person: 104557
+  name: Jon Peterson
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-03-27'
+      not_before: '2011-02-18'
+    end:
+      certainty: group-closed
+      date: '2014-01-24'
+    notes:
+    - start moved earlier by WG Action announcement of 2011-03-27
+  evidence:
+  - kind: WG Action
+    date: '2011-03-27'
+    subject: 'WG Action: Verification Involving PSTN Reachability (vipr)'
+    message_id: null
+- person: 107565
+  name: Daryl Malas
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-03-27'
+      not_before: '2011-02-18'
+    end:
+      certainty: group-closed
+      date: '2014-01-24'
+    notes:
+    - start moved earlier by WG Action announcement of 2011-03-27
+  evidence:
+  - kind: WG Action
+    date: '2011-03-27'
+    subject: 'WG Action: Verification Involving PSTN Reachability (vipr)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

@@ -1,0 +1,20 @@
+acronym: iptel
+name: IP Telephony
+type: wg
+parent: rai
+state: conclude
+started: '1998-01-23'
+closed: '2009-03-11'
+history_url: https://datatracker.ietf.org/group/iptel/history/
+chairs:
+- person: 2250
+  name: Jonathan Rosenberg
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2009-03-11'
+      not_before: '1998-01-23'
+    end:
+      certainty: group-closed
+      date: '2009-03-11'

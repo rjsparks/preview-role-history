@@ -1,0 +1,124 @@
+acronym: dkim
+name: Domain Keys Identified Mail
+type: wg
+parent: art
+state: active
+started: '2005-10-01'
+closed: null
+history_url: https://datatracker.ietf.org/group/dkim/history/
+chairs:
+- person: 18321
+  name: Pete Resnick
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-02-08'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Action
+    date: '2025-02-20'
+    subject: 'WG Action: Rechartered Domain Keys Identified Mail (dkim)'
+    message_id: 174007483063.1941270.14868887727723640043@dt-datatracker-75c44cbbdf-pxnd6
+- person: 19177
+  name: Stephen Farrell
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-03-19'
+    end:
+      certainty: evidence-only
+      not_before: '2011-03-27'
+  evidence:
+  - kind: WG Action
+    date: '2010-06-08'
+    subject: 'WG Action: RECHARTER: Domain Keys Identified Mail (dkim)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '65'
+    - '67'
+    - '68'
+    - '69'
+    - '71'
+    - '75'
+    - '78'
+    - '80'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 21684
+  name: Barry Leiba
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-07-09'
+    end:
+      certainty: evidence-only
+      not_before: '2010-06-08'
+  evidence:
+  - kind: WG Action
+    date: '2010-06-08'
+    subject: 'WG Action: RECHARTER: Domain Keys Identified Mail (dkim)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '66'
+    - '70'
+    - '72'
+    - '73'
+    - '74'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-dkim-implementation-report
+    - draft-ietf-dkim-mailinglists
+    - draft-ietf-dkim-rfc4871bis
+- person: 106842
+  name: Murray Kucherawy
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-03-19'
+    end:
+      certainty: ongoing
+- person: 115244
+  name: Tim Wicinski
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-02-16'
+    end:
+      certainty: exact
+      date: '2025-02-08'
+  evidence:
+  - kind: WG Action
+    date: '2023-02-21'
+    subject: 'WG Action: Rechartered Domain Keys Identified Mail (dkim)'
+    message_id: 167699409602.8590.375016562558754821@ietfa.amsl.com
+  - kind: WG Review
+    date: '2025-02-06'
+    subject: 'WG Review: Domain Keys Identified Mail (dkim)'
+    message_id: 173887443448.187.6319712985617559117@dt-datatracker-75c44cbbdf-pxnd6
+- person: 128319
+  name: Laura A
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-02-16'
+    end:
+      certainty: exact
+      date: '2025-02-08'
+  evidence:
+  - kind: WG Action
+    date: '2023-02-21'
+    subject: 'WG Action: Rechartered Domain Keys Identified Mail (dkim)'
+    message_id: 167699409602.8590.375016562558754821@ietfa.amsl.com
+  - kind: WG Review
+    date: '2025-02-06'
+    subject: 'WG Review: Domain Keys Identified Mail (dkim)'
+    message_id: 173887443448.187.6319712985617559117@dt-datatracker-75c44cbbdf-pxnd6

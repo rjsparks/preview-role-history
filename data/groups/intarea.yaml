@@ -1,0 +1,124 @@
+acronym: intarea
+name: Internet Area Working Group
+type: wg
+parent: int
+state: active
+started: '2009-10-22'
+closed: null
+history_url: https://datatracker.ietf.org/group/intarea/history/
+chairs:
+- person: 106186
+  name: Julien Laganier
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-03-23'
+      not_before: '2009-10-22'
+    end:
+      certainty: exact
+      date: '2013-12-23'
+    notes:
+    - start moved earlier by WG Action announcement of 2010-03-23
+  evidence:
+  - kind: WG Action
+    date: '2010-03-23'
+    subject: 'WG Action: Internet Area Working Group (intarea)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '79'
+    - '80'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-intarea-ipv4-id-update
+    - draft-ietf-intarea-router-alert-considerations
+    - draft-ietf-intarea-server-logging-recommendations
+    - draft-ietf-intarea-shared-addressing-issues
+- person: 106199
+  name: Wassim Haddad
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-02-18'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-intarea-hostname-practice
+- person: 106412
+  name: Suresh Krishnan
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2009-10-22'
+    end:
+      certainty: exact
+      date: '2016-04-05'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-intarea-flow-label-balancing
+    - draft-ietf-intarea-gre-mtu
+    - draft-ietf-intarea-nat-reveal-analysis
+- person: 106740
+  name: Carlos Jesús Bernardos
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2026-04-09'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-intarea-gre-ipv6
+    - draft-ietf-intarea-multicast-application-port
+- person: 108396
+  name: Christian Vogt
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2010-03-23'
+    end:
+      certainty: evidence-only
+      not_before: '2010-07-25'
+  evidence:
+  - kind: WG Action
+    date: '2010-03-23'
+    subject: 'WG Action: Internet Area Working Group (intarea)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '78'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 108573
+  name: Juan-Carlos Zúñiga
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2013-10-03'
+    end:
+      certainty: exact
+      date: '2026-04-09'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-intarea-broadcast-consider
+- person: 116338
+  name: Timothy Winters
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2026-11-12'
+    end:
+      certainty: ongoing

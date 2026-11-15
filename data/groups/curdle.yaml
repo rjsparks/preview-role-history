@@ -1,0 +1,48 @@
+acronym: curdle
+name: CURves, Deprecating and a Little more Encryption
+type: wg
+parent: sec
+state: conclude
+started: '2015-11-18'
+closed: '2022-02-03'
+history_url: https://datatracker.ietf.org/group/curdle/history/
+chairs:
+- person: 18427
+  name: Rich Salz
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-12-16'
+    end:
+      certainty: group-closed
+      date: '2022-02-03'
+- person: 109969
+  name: Daniel Migault
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-12-16'
+    end:
+      certainty: group-closed
+      date: '2022-02-03'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-curdle-cms-chacha20-poly1305
+    - draft-ietf-curdle-cms-ecdh-new-curves
+    - draft-ietf-curdle-cms-eddsa-signatures
+    - draft-ietf-curdle-des-des-des-die-die-die
+    - draft-ietf-curdle-dnskey-eddsa
+    - draft-ietf-curdle-gss-keyex-sha2
+    - draft-ietf-curdle-pkix
+    - draft-ietf-curdle-rc4-die-die-die
+    - draft-ietf-curdle-rsa-sha2
+    - draft-ietf-curdle-ssh-curves
+    - draft-ietf-curdle-ssh-dh-group-exchange
+    - draft-ietf-curdle-ssh-ed25519-ed448
+    - draft-ietf-curdle-ssh-ext-info
+    - draft-ietf-curdle-ssh-kex-sha2
+    - draft-ietf-curdle-ssh-modp-dh-sha2
+    - draft-schaad-curdle-oid-registry

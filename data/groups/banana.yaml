@@ -1,0 +1,29 @@
+acronym: banana
+name: BANdwidth Aggregation for interNet Access
+type: wg
+parent: int
+state: bof-conc
+started: '2016-10-06'
+closed: '2017-10-05'
+history_url: https://datatracker.ietf.org/group/banana/history/
+chairs:
+- person: 109354
+  name: Brian Trammell
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-10-12'
+    end:
+      certainty: group-closed
+      date: '2017-10-05'
+- person: 119947
+  name: Margaret Cullen
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-10-12'
+    end:
+      certainty: group-closed
+      date: '2017-10-05'

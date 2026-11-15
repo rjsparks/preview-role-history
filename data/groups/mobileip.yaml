@@ -1,0 +1,42 @@
+acronym: mobileip
+name: IP Routing for Wireless/Mobile Hosts
+type: wg
+parent: int
+state: conclude
+started: '1992-06-12'
+closed: '2003-11-11'
+history_url: https://datatracker.ietf.org/group/mobileip/history/
+chairs:
+- person: 101390
+  name: Phil Roberts
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2003-11-11'
+      not_before: '1992-06-12'
+    end:
+      certainty: group-closed
+      date: '2003-11-11'
+- person: 103283
+  name: Basavaraj Patil
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2003-11-11'
+      not_before: '1992-06-12'
+    end:
+      certainty: group-closed
+      date: '2003-11-11'
+- person: 108488
+  name: Gabriel Montenegro
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2003-11-11'
+      not_before: '1992-06-12'
+    end:
+      certainty: group-closed
+      date: '2003-11-11'

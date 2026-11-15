@@ -1,0 +1,129 @@
+acronym: rtgwg
+name: Routing Area Working Group
+type: wg
+parent: rtg
+state: active
+started: '2003-12-22'
+closed: null
+history_url: https://datatracker.ietf.org/group/rtgwg/history/
+chairs:
+- person: 106742
+  name: Alia Atlas
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-03-27'
+      not_before: '2003-12-22'
+    end:
+      certainty: exact
+      date: '2014-03-12'
+    notes:
+    - start moved earlier by session request for IETF 80
+  evidence:
+  - kind: WG Action
+    date: '2012-01-10'
+    subject: 'WG Action: RECHARTER: Routing Area Working Group (rtgwg)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '80'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-rtgwg-cl-requirement
+- person: 109802
+  name: Alvaro Retana
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-11-13'
+      not_before: '2003-12-22'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2014-02-24'
+    notes:
+    - start moved earlier by session request for IETF 82
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2014-02-24'
+    end:
+      certainty: exact
+      date: '2015-02-23'
+  evidence:
+  - kind: WG Action
+    date: '2012-01-10'
+    subject: 'WG Action: RECHARTER: Routing Area Working Group (rtgwg)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '82'
+    - '83'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-rtgwg-ipfrr-notvia-addresses
+    - draft-ietf-rtgwg-lfa-applicability
+    - draft-ietf-rtgwg-mofrr
+    - draft-ietf-rtgwg-ordered-fib
+    - draft-ietf-rtgwg-remote-lfa
+- person: 112405
+  name: Jeff Tantsura
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-02-24'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-rtgwg-bgp-pic
+    - draft-ietf-rtgwg-bgp-routing-large-dc
+    - draft-ietf-rtgwg-cl-use-cases
+    - draft-ietf-rtgwg-lfa-manageability
+    - draft-ietf-rtgwg-routing-types
+    - draft-ietf-rtgwg-yang-key-chain
+    - draft-ietf-rtgwg-yang-rib-extend
+- person: 114478
+  name: Chris Bowers
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-02-23'
+    end:
+      certainty: exact
+      date: '2021-06-08'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-rtgwg-policy-model
+    - draft-ietf-rtgwg-spf-uloop-pb-statement
+    - draft-ietf-rtgwg-uloop-delay
+- person: 116337
+  name: Yingzhen Qu
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-06-08'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-rtgwg-atn-bgp
+    - draft-ietf-rtgwg-device-model
+    - draft-ietf-rtgwg-lne-model
+    - draft-ietf-rtgwg-ni-model
+    - draft-ietf-rtgwg-qos-model
+    - draft-ietf-rtgwg-vrrp-rfc5798bis
+    - draft-ietf-rtgwg-vrrp-rfc8347bis
+    - draft-ietf-rtgwg-yang-rip
+    - draft-ietf-rtgwg-yang-vrrp

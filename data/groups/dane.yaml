@@ -1,0 +1,75 @@
+acronym: dane
+name: DNS-based Authentication of Named Entities
+type: wg
+parent: sec
+state: conclude
+started: '2010-11-22'
+closed: '2017-03-21'
+history_url: https://datatracker.ietf.org/group/dane/history/
+chairs:
+- person: 3760
+  name: Ólafur Guðmundsson
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-02-20'
+    end:
+      certainty: group-closed
+      date: '2017-03-21'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-dane-openpgpkey
+    - draft-ietf-dane-smime
+    - draft-ietf-dane-smtp-with-dane
+    - draft-ietf-dane-srv
+- person: 110414
+  name: Ondřej Surý
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-12-10'
+      not_before: '2010-11-22'
+    end:
+      certainty: exact
+      date: '2014-03-06'
+    notes:
+    - start moved earlier by WG Action announcement of 2010-12-10
+  evidence:
+  - kind: WG Action
+    date: '2010-12-10'
+    subject: 'WG Action: DNS-based Authentication of Named Entities (dane)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '80'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 111656
+  name: Warren Kumari
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-12-10'
+      not_before: '2010-11-22'
+    end:
+      certainty: group-closed
+      date: '2017-03-21'
+    notes:
+    - start moved earlier by WG Action announcement of 2010-12-10
+  evidence:
+  - kind: WG Action
+    date: '2010-12-10'
+    subject: 'WG Action: DNS-based Authentication of Named Entities (dane)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-dane-ops
+    - draft-ietf-dane-protocol

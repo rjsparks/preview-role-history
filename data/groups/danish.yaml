@@ -1,0 +1,31 @@
+acronym: danish
+name: DANE AutheNtication for Iot Service Hardening
+type: wg
+parent: sec
+state: bof-conc
+started: '2021-01-28'
+closed: '2021-10-07'
+history_url: https://datatracker.ietf.org/group/danish/history/
+chairs:
+- person: 102254
+  name: Michael Richardson
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2021-01-28'
+      not_before: '2021-01-28'
+    end:
+      certainty: group-closed
+      date: '2021-10-07'
+- person: 117099
+  name: Wes Hardaker
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2021-01-28'
+      not_before: '2021-01-28'
+    end:
+      certainty: group-closed
+      date: '2021-10-07'

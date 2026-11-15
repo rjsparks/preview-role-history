@@ -1,0 +1,29 @@
+acronym: mdnsext
+name: Extensions to the Bonjour protocol suite
+type: wg
+parent: int
+state: bof-conc
+started: '2012-09-26'
+closed: '2013-01-31'
+history_url: https://datatracker.ietf.org/group/mdnsext/history/
+chairs:
+- person: 106461
+  name: Tim Chown
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2012-09-26'
+    end:
+      certainty: group-closed
+      date: '2013-01-31'
+- person: 111584
+  name: Kerry Lynn
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2012-09-26'
+    end:
+      certainty: group-closed
+      date: '2013-01-31'

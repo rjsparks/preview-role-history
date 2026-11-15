@@ -1,0 +1,35 @@
+acronym: sipbrandy
+name: SIP Best-practice Recommendations Against Network Dangers to privacY
+type: wg
+parent: art
+state: conclude
+started: '2016-05-15'
+closed: '2021-02-04'
+history_url: https://datatracker.ietf.org/group/sipbrandy/history/
+chairs:
+- person: 103539
+  name: Gonzalo Camarillo
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2016-05-15'
+      not_before: '2016-05-15'
+    end:
+      certainty: group-closed
+      date: '2021-02-04'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-sipbrandy-osrtp
+    - draft-ietf-sipbrandy-rtpsec
+- person: 110842
+  name: Gonzalo Salgueiro
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-08-03'
+    end:
+      certainty: group-closed
+      date: '2021-02-04'

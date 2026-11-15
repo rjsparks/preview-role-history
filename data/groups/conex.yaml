@@ -1,0 +1,59 @@
+acronym: conex
+name: Congestion Exposure
+type: wg
+parent: tsv
+state: conclude
+started: '2010-01-19'
+closed: '2016-01-21'
+history_url: https://datatracker.ietf.org/group/conex/history/
+chairs:
+- person: 105255
+  name: Marcelo Bagnulo
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-06-03'
+      not_before: '2010-01-19'
+    end:
+      certainty: group-closed
+      date: '2016-01-21'
+    notes:
+    - start moved earlier by WG Action announcement of 2010-06-03
+  evidence:
+  - kind: WG Action
+    date: '2010-06-03'
+    subject: 'WG Action: Congestion Exposure (conex)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '78'
+    - '79'
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-conex-abstract-mech
+- person: 111110
+  name: Nandita Dukkipati
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-06-03'
+      not_before: '2010-01-19'
+    end:
+      certainty: group-closed
+      date: '2016-01-21'
+    notes:
+    - start moved earlier by WG Action announcement of 2010-06-03
+  evidence:
+  - kind: WG Action
+    date: '2010-06-03'
+    subject: 'WG Action: Congestion Exposure (conex)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '80'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

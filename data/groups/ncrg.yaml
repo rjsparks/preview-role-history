@@ -1,0 +1,41 @@
+acronym: ncrg
+name: Network Complexity Research Group
+type: rg
+parent: irtf
+state: conclude
+started: null
+closed: '2014-06-13'
+history_url: https://datatracker.ietf.org/group/ncrg/history/
+chairs:
+- person: 13775
+  name: Michael Behringer
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2012-02-26'
+    end:
+      certainty: group-closed
+      date: '2014-06-13'
+- person: 103708
+  name: David Meyer
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2012-02-26'
+      not_after: '2014-06-13'
+    end:
+      certainty: group-closed
+      date: '2014-06-13'
+- person: 106925
+  name: Geoff Huston
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2012-02-26'
+    end:
+      certainty: between
+      not_before: '2012-02-26'
+      not_after: '2014-06-13'

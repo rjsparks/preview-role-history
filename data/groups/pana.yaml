@@ -1,0 +1,52 @@
+acronym: pana
+name: Protocol for carrying Authentication for Network Access
+type: wg
+parent: int
+state: conclude
+started: '2001-10-26'
+closed: '2009-12-04'
+history_url: https://datatracker.ietf.org/group/pana/history/
+chairs:
+- person: 103283
+  name: Basavaraj Patil
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '2001-10-26'
+    end:
+      certainty: group-closed
+      date: '2009-12-04'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '68'
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 104720
+  name: Alper Yegin
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-11-05'
+      not_before: '2001-10-26'
+    end:
+      certainty: group-closed
+      date: '2009-12-04'
+    notes:
+    - start moved earlier by session request for IETF 67
+  evidence:
+  - kind: session requests
+    meetings:
+    - '67'
+    - '69'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

@@ -1,0 +1,57 @@
+acronym: capport
+name: Captive Portal Interaction
+type: wg
+parent: art
+state: conclude
+started: '2015-06-11'
+closed: '2020-12-07'
+history_url: https://datatracker.ietf.org/group/capport/history/
+chairs:
+- person: 103881
+  name: Mark Nottingham
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2015-06-11'
+      not_before: '2015-06-11'
+    end:
+      certainty: exact
+      date: '2015-10-01'
+- person: 107131
+  name: Martin Thomson
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-10-15'
+    end:
+      certainty: group-closed
+      date: '2020-12-07'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-capport-api
+    - draft-ietf-capport-architecture
+    - draft-ietf-capport-rfc7710bis
+- person: 108992
+  name: Erik Kline
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-03-31'
+    end:
+      certainty: group-closed
+      date: '2020-12-07'
+- person: 111656
+  name: Warren Kumari
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2015-06-11'
+      not_before: '2015-06-11'
+    end:
+      certainty: exact
+      date: '2017-03-28'

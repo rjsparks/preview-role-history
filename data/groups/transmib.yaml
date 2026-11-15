@@ -1,0 +1,20 @@
+acronym: transmib
+name: Transmission Mib
+type: wg
+parent: mgt
+state: conclude
+started: '1990-05-03'
+closed: '1990-12-03'
+history_url: https://datatracker.ietf.org/group/transmib/history/
+chairs:
+- person: 2741
+  name: John Cook
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1990-12-03'
+      not_before: '1990-05-03'
+    end:
+      certainty: group-closed
+      date: '1990-12-03'

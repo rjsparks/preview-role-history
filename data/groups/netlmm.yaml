@@ -1,0 +1,88 @@
+acronym: netlmm
+name: Network-based Localized Mobility Management
+type: wg
+parent: int
+state: conclude
+started: '2005-05-30'
+closed: '2010-10-05'
+history_url: https://datatracker.ietf.org/group/netlmm/history/
+chairs:
+- person: 101390
+  name: Phil Roberts
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-01-12'
+    end:
+      certainty: evidence-only
+      not_before: '2006-11-05'
+  evidence:
+  - kind: WG Action
+    date: '2006-01-12'
+    subject: 'WG Action: Network-based Localized Mobility Management (netlmm)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 105800
+  name: Jonne Soininen
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-10-05'
+      not_before: '2005-05-30'
+    end:
+      certainty: group-closed
+      date: '2010-10-05'
+  evidence:
+  - kind: WG Review
+    date: '2008-07-08'
+    subject: 'WG Review: Recharter of Network-based Localized Mobility Management (netlmm)'
+    message_id: null
+- person: 106286
+  name: James Kempf
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-01-12'
+    end:
+      certainty: evidence-only
+      not_before: '2006-01-12'
+  evidence:
+  - kind: WG Action
+    date: '2006-01-12'
+    subject: 'WG Action: Network-based Localized Mobility Management (netlmm)'
+    message_id: null
+- person: 107134
+  name: Vidya Narayanan
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-03-18'
+      not_before: '2005-05-30'
+    end:
+      certainty: group-closed
+      date: '2010-10-05'
+    notes:
+    - start moved earlier by session request for IETF 68
+  evidence:
+  - kind: WG Review
+    date: '2008-07-08'
+    subject: 'WG Review: Recharter of Network-based Localized Mobility Management (netlmm)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

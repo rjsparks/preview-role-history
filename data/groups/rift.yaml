@@ -1,0 +1,49 @@
+acronym: rift
+name: Routing In Fat Trees
+type: wg
+parent: rtg
+state: active
+started: '2018-01-17'
+closed: null
+history_url: https://datatracker.ietf.org/group/rift/history/
+chairs:
+- person: 110966
+  name: Zhaohui Zhang
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2018-01-17'
+      not_before: '2018-01-17'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2024-09-05'
+    subject: 'WG Review: Routing In Fat Trees (rift)'
+    message_id: 172555144012.1895753.13171928212991221773@dt-datatracker-68b7b78cf9-q8rsp
+  - kind: WG Action
+    date: '2024-09-30'
+    subject: 'WG Action: Rechartered Routing In Fat Trees (rift)'
+    message_id: 172772100321.609363.11270229403533253299@dt-datatracker-7bbd96684-zjf54
+  - kind: shepherded
+    documents:
+    - draft-ietf-rift-applicability
+- person: 112405
+  name: Jeff Tantsura
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2018-02-01'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2024-09-05'
+    subject: 'WG Review: Routing In Fat Trees (rift)'
+    message_id: 172555144012.1895753.13171928212991221773@dt-datatracker-68b7b78cf9-q8rsp
+  - kind: WG Action
+    date: '2024-09-30'
+    subject: 'WG Action: Rechartered Routing In Fat Trees (rift)'
+    message_id: 172772100321.609363.11270229403533253299@dt-datatracker-7bbd96684-zjf54

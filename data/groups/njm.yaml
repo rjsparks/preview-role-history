@@ -1,0 +1,20 @@
+acronym: njm
+name: Network Joint Management
+type: wg
+parent: ops-old
+state: conclude
+started: '1990-02-03'
+closed: '1994-04-14'
+history_url: https://datatracker.ietf.org/group/njm/history/
+chairs:
+- person: 2790
+  name: Gene Hastings
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1994-04-14'
+      not_before: '1990-02-03'
+    end:
+      certainty: group-closed
+      date: '1994-04-14'

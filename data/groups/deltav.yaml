@@ -1,0 +1,20 @@
+acronym: deltav
+name: Web Versioning and Configuration Management
+type: wg
+parent: app
+state: conclude
+started: '1999-08-30'
+closed: '2002-03-10'
+history_url: https://datatracker.ietf.org/group/deltav/history/
+chairs:
+- person: 103139
+  name: Jim Amsden
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2002-03-10'
+      not_before: '1999-08-30'
+    end:
+      certainty: group-closed
+      date: '2002-03-10'

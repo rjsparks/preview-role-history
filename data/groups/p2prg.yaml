@@ -1,0 +1,46 @@
+acronym: p2prg
+name: Peer-to-Peer Research Group
+type: rg
+parent: irtf
+state: conclude
+started: null
+closed: '2013-02-26'
+history_url: https://datatracker.ietf.org/group/p2prg/history/
+chairs:
+- person: 103392
+  name: Stefano Previdi
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-03-21'
+    end:
+      certainty: group-closed
+      date: '2013-02-26'
+    notes:
+    - start moved earlier by session request for IETF 77
+  evidence:
+  - kind: session requests
+    meetings:
+    - '77'
+    - '80'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 104204
+  name: Volker Hilt
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2009-07-26'
+    end:
+      certainty: group-closed
+      date: '2013-02-26'
+    notes:
+    - start moved earlier by session request for IETF 75
+  evidence:
+  - kind: session requests
+    meetings:
+    - '75'
+    - '78'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

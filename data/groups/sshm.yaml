@@ -1,0 +1,52 @@
+acronym: sshm
+name: Secure Shell Maintenance
+type: wg
+parent: sec
+state: active
+started: '2024-08-13'
+closed: null
+history_url: https://datatracker.ietf.org/group/sshm/history/
+chairs:
+- person: 19177
+  name: Stephen Farrell
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-08-13'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2024-09-05'
+    subject: 'WG Review: Secure Shell Maintenance (sshm)'
+    message_id: 172557413642.1952499.1292406943377868401@dt-datatracker-68b7b78cf9-q8rsp
+  - kind: WG Action
+    date: '2024-09-27'
+    subject: 'WG Action: Formed Secure Shell Maintenance (sshm)'
+    message_id: 172746143644.98192.14624359054892813027@dt-datatracker-7bbd96684-zjf54
+  - kind: shepherded
+    documents:
+    - draft-ietf-sshm-mlkem-hybrid-kex
+- person: 111303
+  name: Job Snijders
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-08-13'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2024-09-05'
+    subject: 'WG Review: Secure Shell Maintenance (sshm)'
+    message_id: 172557413642.1952499.1292406943377868401@dt-datatracker-68b7b78cf9-q8rsp
+  - kind: WG Action
+    date: '2024-09-27'
+    subject: 'WG Action: Formed Secure Shell Maintenance (sshm)'
+    message_id: 172746143644.98192.14624359054892813027@dt-datatracker-7bbd96684-zjf54
+  - kind: shepherded
+    documents:
+    - draft-ietf-sshm-ntruprime-ssh
+    - draft-ietf-sshm-ssh-agent

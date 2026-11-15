@@ -1,0 +1,20 @@
+acronym: stime
+name: Secure Network Time Protocol
+type: wg
+parent: sec
+state: conclude
+started: '1999-06-23'
+closed: '2005-02-08'
+history_url: https://datatracker.ietf.org/group/stime/history/
+chairs:
+- person: 20713
+  name: Patrick Cain
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-02-08'
+      not_before: '1999-06-23'
+    end:
+      certainty: group-closed
+      date: '2005-02-08'

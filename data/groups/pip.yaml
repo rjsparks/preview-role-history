@@ -1,0 +1,20 @@
+acronym: pip
+name: P. Internet Protocol
+type: wg
+parent: int
+state: conclude
+started: '1992-08-28'
+closed: '1994-02-17'
+history_url: https://datatracker.ietf.org/group/pip/history/
+chairs:
+- person: 105085
+  name: Paul Francis
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1994-02-17'
+      not_before: '1992-08-28'
+    end:
+      certainty: group-closed
+      date: '1994-02-17'

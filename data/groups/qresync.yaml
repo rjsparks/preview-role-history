@@ -1,0 +1,33 @@
+acronym: qresync
+name: IMAP QRESYNC Extension
+type: wg
+parent: app
+state: conclude
+started: '2013-04-01'
+closed: '2014-05-27'
+history_url: https://datatracker.ietf.org/group/qresync/history/
+chairs:
+- person: 2097
+  name: Eliot Lear
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2013-04-29'
+    end:
+      certainty: group-closed
+      date: '2014-05-27'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-qresync-rfc5162bis
+- person: 105982
+  name: Dave Cridland
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2013-04-29'
+    end:
+      certainty: group-closed
+      date: '2014-05-27'

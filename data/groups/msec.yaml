@@ -1,0 +1,64 @@
+acronym: msec
+name: Multicast Security
+type: wg
+parent: sec
+state: conclude
+started: '2001-01-17'
+closed: '2011-10-17'
+history_url: https://datatracker.ietf.org/group/msec/history/
+chairs:
+- person: 21395
+  name: Brian Weis
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2008-11-16'
+      not_before: '2001-01-17'
+    end:
+      certainty: group-closed
+      date: '2011-10-17'
+    notes:
+    - start moved earlier by session request for IETF 73
+  evidence:
+  - kind: session requests
+    meetings:
+    - '73'
+    - '74'
+    - '76'
+    - '77'
+    - '78'
+    - '79'
+    - '80'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 105234
+  name: Lakshminath Dondeti
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-03-19'
+    end:
+      certainty: evidence-only
+      not_before: '2008-03-09'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    - '68'
+    - '70'
+    - '71'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 107132
+  name: Vincent Roca
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-10-17'
+      not_before: '2001-01-17'
+    end:
+      certainty: group-closed
+      date: '2011-10-17'

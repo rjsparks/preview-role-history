@@ -1,0 +1,56 @@
+acronym: scone
+name: Standard Communication with Network Elements
+type: wg
+parent: wit
+state: active
+started: '2024-09-24'
+closed: null
+history_url: https://datatracker.ietf.org/group/scone/history/
+chairs:
+- person: 109354
+  name: Brian Trammell
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-10-03'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2024-10-07'
+    subject: 'WG Review: Standard Communication with Network Elements (scone)'
+    message_id: 172831845411.531919.3119252991392714272@dt-datatracker-cb674fff7-jr9km
+  - kind: WG Review
+    date: '2024-10-08'
+    subject: 'WG Review: Standard Communication with Network Elements (scone)'
+    message_id: 172842754000.218.2359689815666238754@dt-datatracker-78dc5ccf94-w8wgc
+  - kind: WG Action
+    date: '2024-10-18'
+    subject: 'WG Action: Formed Standard Communication with Network Elements (scone)'
+    message_id: 172926754523.1512602.7875194677450413940@dt-datatracker-78dc5ccf94-w8wgc
+  - kind: shepherded
+    documents:
+    - draft-ietf-scone-protocol
+- person: 112751
+  name: Qin Wu
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-10-03'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2024-10-07'
+    subject: 'WG Review: Standard Communication with Network Elements (scone)'
+    message_id: 172831845411.531919.3119252991392714272@dt-datatracker-cb674fff7-jr9km
+  - kind: WG Review
+    date: '2024-10-08'
+    subject: 'WG Review: Standard Communication with Network Elements (scone)'
+    message_id: 172842754000.218.2359689815666238754@dt-datatracker-78dc5ccf94-w8wgc
+  - kind: WG Action
+    date: '2024-10-18'
+    subject: 'WG Action: Formed Standard Communication with Network Elements (scone)'
+    message_id: 172926754523.1512602.7875194677450413940@dt-datatracker-78dc5ccf94-w8wgc

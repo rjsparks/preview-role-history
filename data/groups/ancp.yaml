@@ -1,0 +1,91 @@
+acronym: ancp
+name: Access Node Control Protocol
+type: wg
+parent: int
+state: conclude
+started: '2006-06-01'
+closed: '2015-03-23'
+history_url: https://datatracker.ietf.org/group/ancp/history/
+chairs:
+- person: 105786
+  name: Matthew Bocci
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-06-28'
+      not_before: '2006-06-01'
+    end:
+      certainty: group-closed
+      date: '2015-03-23'
+    notes:
+    - start moved earlier by WG Action announcement of 2006-06-28
+  evidence:
+  - kind: WG Action
+    date: '2006-06-28'
+    subject: 'WG Action: Access Node Control Protocol (ancp)'
+    message_id: null
+  - kind: WG Review
+    date: '2009-09-28'
+    subject: 'WG Review: Recharter of Access Node Control Protocol (ancp)'
+    message_id: null
+  - kind: WG Action
+    date: '2009-10-13'
+    subject: 'WG Action: RECHARTER: Access Node Control Protocol (ancp)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '67'
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    - '75'
+    - '76'
+    - '78'
+    - '79'
+    - '80'
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-ancp-mc-extensions
+    - draft-ietf-ancp-pon
+    - draft-ietf-ancp-protocol
+- person: 106526
+  name: Wojciech Dec
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-06-28'
+      not_before: '2006-06-01'
+    end:
+      certainty: group-closed
+      date: '2015-03-23'
+    notes:
+    - start moved earlier by WG Action announcement of 2006-06-28
+  evidence:
+  - kind: WG Action
+    date: '2006-06-28'
+    subject: 'WG Action: Access Node Control Protocol (ancp)'
+    message_id: null
+  - kind: WG Review
+    date: '2009-09-28'
+    subject: 'WG Review: Recharter of Access Node Control Protocol (ancp)'
+    message_id: null
+  - kind: WG Action
+    date: '2009-10-13'
+    subject: 'WG Action: RECHARTER: Access Node Control Protocol (ancp)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '77'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-ancp-mib-an

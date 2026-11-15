@@ -1,0 +1,26 @@
+acronym: vnrg
+name: Virtual Networks Research Group
+type: rg
+parent: irtf
+state: conclude
+started: null
+closed: '2012-04-24'
+history_url: https://datatracker.ietf.org/group/vnrg/history/
+chairs:
+- person: 105519
+  name: Martin Stiemerling
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2010-07-25'
+    end:
+      certainty: evidence-only
+      not_before: '2011-07-24'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '78'
+    - '79'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

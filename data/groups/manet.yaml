@@ -1,0 +1,143 @@
+acronym: manet
+name: Mobile Ad-hoc Networks
+type: wg
+parent: rtg
+state: active
+started: '1997-06-02'
+closed: null
+history_url: https://datatracker.ietf.org/group/manet/history/
+chairs:
+- person: 18331
+  name: Joseph Macker
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-11-05'
+      not_before: '1997-06-02'
+    end:
+      certainty: exact
+      date: '2014-11-13'
+    notes:
+    - start moved earlier by session request for IETF 67
+  evidence:
+  - kind: session requests
+    meetings:
+    - '67'
+    - '79'
+    - '80'
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-manet-nhdp-olsrv2-sec
+    - draft-ietf-manet-nhdp-sec-threats
+    - draft-ietf-manet-rfc6622-bis
+- person: 19150
+  name: Stan Ratliff
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '1997-06-02'
+    end:
+      certainty: exact
+      date: '2019-11-20'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-manet-dlep-multi-hop-extension
+    - draft-ietf-manet-dlep-pause-extension
+    - draft-ietf-manet-olsrv2-metrics-rationale
+    - draft-ietf-manet-olsrv2-multipath
+    - draft-ietf-manet-smf-mib
+- person: 102391
+  name: Donald Eastlake
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-06-22'
+    end:
+      certainty: ongoing
+- person: 106961
+  name: Ian Chakeres
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-03-19'
+    end:
+      certainty: evidence-only
+      not_before: '2010-07-25'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    - '75'
+    - '76'
+    - '77'
+    - '78'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 108089
+  name: Justin Dean
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-11-13'
+    end:
+      certainty: exact
+      date: '2019-07-31'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-manet-credit-window
+    - draft-ietf-manet-dlep
+    - draft-ietf-manet-dlep-latency-extension
+    - draft-ietf-manet-dlep-lid-extension
+    - draft-ietf-manet-olsrv2-dat-metric
+    - draft-ietf-manet-olsrv2-sec-threats
+    - draft-ietf-manet-rfc5444-usage
+    - draft-ietf-manet-tlv-naming
+- person: 120813
+  name: Don Fedyk
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-05-19'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-manet-dlep-channel-utilization
+    - draft-ietf-manet-dlep-radio-band
+    - draft-ietf-manet-dlep-radio-quality
+- person: 120879
+  name: Ronald in 't Velt
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-10-29'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-manet-dlep-credit-flow-control
+    - draft-ietf-manet-dlep-da-credit-extension
+    - draft-ietf-manet-dlep-ether-credit-extension
+    - draft-ietf-manet-dlep-traffic-classification

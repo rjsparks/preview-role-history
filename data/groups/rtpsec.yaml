@@ -1,0 +1,29 @@
+acronym: rtpsec
+name: RTP Secure Keying
+type: wg
+parent: rai
+state: bof-conc
+started: null
+closed: '2007-05-31'
+history_url: https://datatracker.ietf.org/group/rtpsec/history/
+chairs:
+- person: 5376
+  name: Russ Housley
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-05-31'
+    end:
+      certainty: group-closed
+      date: '2007-05-31'
+- person: 100038
+  name: Dan Wing
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-05-31'
+    end:
+      certainty: group-closed
+      date: '2007-05-31'

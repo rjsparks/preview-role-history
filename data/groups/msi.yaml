@@ -1,0 +1,31 @@
+acronym: msi
+name: Management Services Interface
+type: wg
+parent: mgt
+state: conclude
+started: '1989-10-01'
+closed: '1991-08-02'
+history_url: https://datatracker.ietf.org/group/msi/history/
+chairs:
+- person: 2686
+  name: Sudhanshu Verma
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1991-08-02'
+      not_before: '1989-10-01'
+    end:
+      certainty: group-closed
+      date: '1991-08-02'
+- person: 2750
+  name: Oscar Newkerk
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1991-08-02'
+      not_before: '1989-10-01'
+    end:
+      certainty: group-closed
+      date: '1991-08-02'

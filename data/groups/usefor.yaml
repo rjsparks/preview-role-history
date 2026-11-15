@@ -1,0 +1,31 @@
+acronym: usefor
+name: Usenet Article Standard Update
+type: wg
+parent: app
+state: conclude
+started: '1997-10-20'
+closed: '2009-03-12'
+history_url: https://datatracker.ietf.org/group/usefor/history/
+chairs:
+- person: 5778
+  name: Harald Alvestrand
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2009-03-12'
+      not_before: '1997-10-20'
+    end:
+      certainty: group-closed
+      date: '2009-03-12'
+- person: 102154
+  name: Alexey Melnikov
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2009-03-12'
+      not_before: '1997-10-20'
+    end:
+      certainty: group-closed
+      date: '2009-03-12'

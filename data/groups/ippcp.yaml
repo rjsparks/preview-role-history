@@ -1,0 +1,20 @@
+acronym: ippcp
+name: IP Payload Compression Protocol
+type: wg
+parent: int
+state: conclude
+started: '1997-06-02'
+closed: '1999-09-16'
+history_url: https://datatracker.ietf.org/group/ippcp/history/
+chairs:
+- person: 13071
+  name: Naganand Doraswamy
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1999-09-16'
+      not_before: '1997-06-02'
+    end:
+      certainty: group-closed
+      date: '1999-09-16'

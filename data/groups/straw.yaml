@@ -1,0 +1,41 @@
+acronym: straw
+name: Sip Traversal Required for Applications to Work
+type: wg
+parent: art
+state: conclude
+started: '2012-06-04'
+closed: '2017-03-17'
+history_url: https://datatracker.ietf.org/group/straw/history/
+chairs:
+- person: 107923
+  name: Christer Holmberg
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2012-07-05'
+    end:
+      certainty: group-closed
+      date: '2017-03-17'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-straw-b2bua-dtls-srtp
+    - draft-ietf-straw-b2bua-loop-detection
+    - draft-ietf-straw-b2bua-rtcp
+    - draft-ietf-straw-b2bua-taxonomy
+- person: 108963
+  name: Victor Pascual
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2012-07-05'
+    end:
+      certainty: group-closed
+      date: '2017-03-17'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-straw-b2bua-stun
+    - draft-ietf-straw-sip-traceroute

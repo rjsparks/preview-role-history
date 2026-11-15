@@ -1,0 +1,31 @@
+acronym: oncrpc
+name: ONC Remote Procedure Call
+type: wg
+parent: tsv
+state: conclude
+started: '1994-02-25'
+closed: '2001-01-23'
+history_url: https://datatracker.ietf.org/group/oncrpc/history/
+chairs:
+- person: 4837
+  name: Theodore Ts'o
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2001-01-23'
+      not_before: '1994-02-25'
+    end:
+      certainty: group-closed
+      date: '2001-01-23'
+- person: 14374
+  name: Stephen Nahm
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2001-01-23'
+      not_before: '1994-02-25'
+    end:
+      certainty: group-closed
+      date: '2001-01-23'

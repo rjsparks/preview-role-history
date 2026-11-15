@@ -1,0 +1,31 @@
+acronym: userdoc
+name: User Documents
+type: wg
+parent: usv
+state: conclude
+started: '1989-07-01'
+closed: '1990-03-01'
+history_url: https://datatracker.ietf.org/group/userdoc/history/
+chairs:
+- person: 4829
+  name: Ellen Hoffman
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1990-03-01'
+      not_before: '1989-07-01'
+    end:
+      certainty: group-closed
+      date: '1990-03-01'
+- person: 4925
+  name: Lenore Jackson
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1990-03-01'
+      not_before: '1989-07-01'
+    end:
+      certainty: group-closed
+      date: '1990-03-01'

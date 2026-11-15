@@ -1,0 +1,43 @@
+name: Confirm a chair record
+description: A row on the site is right.
+title: "Confirm: "
+labels: [confirmation]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Confirmations matter as much as corrections: they turn guesses and uncertain dates into
+        records. If you came from the site, everything is filled in; submit as is, or add a source.
+  - type: input
+    id: group
+    attributes:
+      label: Group acronym
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Chair's name
+    validations:
+      required: true
+  - type: input
+    id: person
+    attributes:
+      label: Datatracker person id (if known)
+  - type: textarea
+    id: recorded
+    attributes:
+      label: What the site shows
+  - type: dropdown
+    id: relation
+    attributes:
+      label: How do you know?
+      options:
+        - I am this person
+        - I was an AD or chair for this group or its area
+        - I participated in the group
+        - From a document or archive (please link it below)
+  - type: textarea
+    id: source
+    attributes:
+      label: Source (optional)

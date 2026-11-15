@@ -1,0 +1,20 @@
+acronym: beep
+name: Blocks Extensible Exchange Protocol
+type: wg
+parent: app
+state: conclude
+started: '2000-06-13'
+closed: '2002-03-24'
+history_url: https://datatracker.ietf.org/group/beep/history/
+chairs:
+- person: 18321
+  name: Pete Resnick
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2002-03-24'
+      not_before: '2000-06-13'
+    end:
+      certainty: group-closed
+      date: '2002-03-24'

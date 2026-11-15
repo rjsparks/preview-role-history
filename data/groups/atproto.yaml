@@ -1,0 +1,29 @@
+acronym: atproto
+name: Authenticated Transfer
+type: wg
+parent: art
+state: abandon
+started: '2025-09-29'
+closed: '2025-09-30'
+history_url: https://datatracker.ietf.org/group/atproto/history/
+chairs:
+- person: 108049
+  name: Richard Barnes
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-09-29'
+    end:
+      certainty: group-closed
+      date: '2025-09-30'
+- person: 112051
+  name: Justin Richer
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-09-29'
+    end:
+      certainty: group-closed
+      date: '2025-09-30'

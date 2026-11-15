@@ -1,0 +1,64 @@
+acronym: payload
+name: Audio/Video Transport Payloads
+type: wg
+parent: art
+state: conclude
+started: '2010-12-03'
+closed: '2019-09-20'
+history_url: https://datatracker.ietf.org/group/payload/history/
+chairs:
+- person: 105873
+  name: Roni Even
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2010-12-03'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2013-03-13'
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2013-03-13'
+    end:
+      certainty: group-closed
+      date: '2019-09-20'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-avt-rtp-evrc-nw
+    - draft-ietf-avt-rtp-ipmr
+    - draft-ietf-avt-rtp-isac
+    - draft-ietf-payload-flexible-fec-scheme
+    - draft-ietf-payload-g7110
+    - draft-ietf-payload-melpe
+    - draft-ietf-payload-rfc3016bis
+    - draft-ietf-payload-rfc3189bis
+    - draft-ietf-payload-rtp-h265
+    - draft-ietf-payload-rtp-mvc
+    - draft-ietf-payload-rtp-sbc
+- person: 108368
+  name: Ali Begen
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2010-12-03'
+    end:
+      certainty: group-closed
+      date: '2019-09-20'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-payload-rtp-ancillary
+    - draft-ietf-payload-rtp-aptx
+    - draft-ietf-payload-rtp-g718
+    - draft-ietf-payload-rtp-howto
+    - draft-ietf-payload-rtp-klv
+    - draft-ietf-payload-rtp-opus
+    - draft-ietf-payload-rtp-vc2hq
+    - draft-ietf-payload-vp8

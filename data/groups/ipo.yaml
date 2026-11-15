@@ -1,0 +1,31 @@
+acronym: ipo
+name: IP over Optical
+type: wg
+parent: sub
+state: conclude
+started: '2000-07-21'
+closed: '2004-01-08'
+history_url: https://datatracker.ietf.org/group/ipo/history/
+chairs:
+- person: 18186
+  name: James Luciani
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-01-08'
+      not_before: '2000-07-21'
+    end:
+      certainty: group-closed
+      date: '2004-01-08'
+- person: 101471
+  name: Daniel Awduche
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-01-08'
+      not_before: '2000-07-21'
+    end:
+      certainty: group-closed
+      date: '2004-01-08'

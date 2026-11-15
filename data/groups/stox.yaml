@@ -1,0 +1,46 @@
+acronym: stox
+name: SIP-TO-XMPP
+type: wg
+parent: art
+state: conclude
+started: '2013-04-12'
+closed: '2017-01-25'
+history_url: https://datatracker.ietf.org/group/stox/history/
+chairs:
+- person: 105305
+  name: Markus Isomaki
+  status: confirmed
+  periods:
+  - start:
+      certainty: approximate
+      date: '2013-04-12'
+    end:
+      certainty: group-closed
+      date: '2017-01-25'
+  evidence:
+  - kind: WG Review
+    date: '2013-05-31'
+    subject: 'WG Review: SIP-TO-XMPP (stox)'
+    message_id: null
+- person: 115451
+  name: Yana Stamcheva
+  status: confirmed
+  periods:
+  - start:
+      certainty: approximate
+      date: '2013-04-12'
+    end:
+      certainty: group-closed
+      date: '2017-01-25'
+  evidence:
+  - kind: WG Review
+    date: '2013-05-31'
+    subject: 'WG Review: SIP-TO-XMPP (stox)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-stox-chat
+    - draft-ietf-stox-core
+    - draft-ietf-stox-groupchat
+    - draft-ietf-stox-im
+    - draft-ietf-stox-presence

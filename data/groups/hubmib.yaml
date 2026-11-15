@@ -1,0 +1,20 @@
+acronym: hubmib
+name: Ethernet Interfaces and Hub MIB
+type: wg
+parent: ops
+state: conclude
+started: '1995-06-15'
+closed: '2007-09-10'
+history_url: https://datatracker.ietf.org/group/hubmib/history/
+chairs:
+- person: 6842
+  name: Bert Wijnen
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-09-10'
+      not_before: '1995-06-15'
+    end:
+      certainty: group-closed
+      date: '2007-09-10'

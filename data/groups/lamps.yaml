@@ -1,0 +1,151 @@
+acronym: lamps
+name: Limited Additional Mechanisms for PKIX and SMIME
+type: wg
+parent: sec
+state: active
+started: '2016-06-30'
+closed: null
+history_url: https://datatracker.ietf.org/group/lamps/history/
+chairs:
+- person: 5376
+  name: Russ Housley
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2016-06-30'
+      not_before: '2016-06-30'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2021-05-05'
+    subject: 'WG Review: Limited Additional Mechanisms for PKIX and SMIME (lamps)'
+    message_id: 162022142111.14275.845116860110144535@ietfa.amsl.com
+  - kind: WG Action
+    date: '2021-05-25'
+    subject: 'WG Action: Rechartered Limited Additional Mechanisms for PKIX and SMIME (lamps)'
+    message_id: 162197839888.7001.14038013572109016245@ietfa.amsl.com
+  - kind: WG Review
+    date: '2025-06-26'
+    subject: 'WG Review: Limited Additional Mechanisms for PKIX and SMIME (lamps)'
+    message_id: 175096529716.307.3788022207694389244@dt-datatracker-6fcb845cd4-p6tkq
+  - kind: WG Action
+    date: '2025-07-10'
+    subject: 'WG Action: Rechartered Limited Additional Mechanisms for PKIX and SMIME (lamps)'
+    message_id: 175216152548.307454.14886221163706654785@dt-datatracker-557fbf6894-6vznl
+  - kind: WG Review
+    date: '2026-08-06'
+    subject: 'WG Review: Limited Additional Mechanisms for PKIX and SMIME (lamps)'
+    message_id: 178604283982.164689.12167599596829184061@dt-datatracker-559c48c7fb-qkhml
+  - kind: WG Action
+    date: '2026-08-21'
+    subject: 'WG Action: Rechartered Limited Additional Mechanisms for PKIX and SMIME (lamps)'
+    message_id: 178734485162.71040.10860595054723626909@dt-datatracker-786f84c586-vck88
+  - kind: shepherded
+    documents:
+    - draft-ietf-lamps-5480-ku-clarifications
+    - draft-ietf-lamps-8410-ku-clarifications
+    - draft-ietf-lamps-automation-keyusages
+    - draft-ietf-lamps-caa-issuemail
+    - draft-ietf-lamps-cmp-algorithms
+    - draft-ietf-lamps-cmp-updates
+    - draft-ietf-lamps-cms-composite-kem
+    - draft-ietf-lamps-cms-composite-sigs
+    - draft-ietf-lamps-cms-euf-cma-signeddata
+    - draft-ietf-lamps-cms-kyber
+    - draft-ietf-lamps-cms-ml-dsa
+    - draft-ietf-lamps-cms-shakes
+    - draft-ietf-lamps-csr-attestation
+    - draft-ietf-lamps-dilithium-certificates
+    - draft-ietf-lamps-documentsigning-eku
+    - draft-ietf-lamps-e2e-mail-guidance
+    - draft-ietf-lamps-eai-addresses
+    - draft-ietf-lamps-header-protection
+    - draft-ietf-lamps-im-keyusage
+    - draft-ietf-lamps-keyusage-crl-validation
+    - draft-ietf-lamps-kyber-certificates
+    - draft-ietf-lamps-lightweight-cmp-profile
+    - draft-ietf-lamps-nf-eku
+    - draft-ietf-lamps-ocsp-nonce
+    - draft-ietf-lamps-ocsp-nonce-update
+    - draft-ietf-lamps-pkcs12-pbmac1
+    - draft-ietf-lamps-pkix-shake
+    - draft-ietf-lamps-pq-composite-kem
+    - draft-ietf-lamps-pq-composite-sigs
+    - draft-ietf-lamps-rfc4210bis
+    - draft-ietf-lamps-rfc5019bis
+    - draft-ietf-lamps-rfc5272bis
+    - draft-ietf-lamps-rfc5273bis
+    - draft-ietf-lamps-rfc5274bis
+    - draft-ietf-lamps-rfc5750-bis
+    - draft-ietf-lamps-rfc5751-bis
+    - draft-ietf-lamps-rfc6712bis
+    - draft-ietf-lamps-rfc6844bis
+    - draft-ietf-lamps-rfc7030-csrattrs
+    - draft-ietf-lamps-rfc7030est-clarify
+    - draft-ietf-lamps-rfc9579bis
+    - draft-ietf-lamps-x509-alg-none
+    - draft-ietf-lamps-x509-policy-graph
+    - draft-ietf-lamps-x509-shbs
+    - draft-ietf-lamps-x509-slhdsa
+- person: 124538
+  name: Tim Hollebeek
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2018-05-01'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2021-05-05'
+    subject: 'WG Review: Limited Additional Mechanisms for PKIX and SMIME (lamps)'
+    message_id: 162022142111.14275.845116860110144535@ietfa.amsl.com
+  - kind: WG Action
+    date: '2021-05-25'
+    subject: 'WG Action: Rechartered Limited Additional Mechanisms for PKIX and SMIME (lamps)'
+    message_id: 162197839888.7001.14038013572109016245@ietfa.amsl.com
+  - kind: WG Review
+    date: '2025-06-26'
+    subject: 'WG Review: Limited Additional Mechanisms for PKIX and SMIME (lamps)'
+    message_id: 175096529716.307.3788022207694389244@dt-datatracker-6fcb845cd4-p6tkq
+  - kind: WG Action
+    date: '2025-07-10'
+    subject: 'WG Action: Rechartered Limited Additional Mechanisms for PKIX and SMIME (lamps)'
+    message_id: 175216152548.307454.14886221163706654785@dt-datatracker-557fbf6894-6vznl
+  - kind: WG Review
+    date: '2026-08-06'
+    subject: 'WG Review: Limited Additional Mechanisms for PKIX and SMIME (lamps)'
+    message_id: 178604283982.164689.12167599596829184061@dt-datatracker-559c48c7fb-qkhml
+  - kind: WG Action
+    date: '2026-08-21'
+    subject: 'WG Action: Rechartered Limited Additional Mechanisms for PKIX and SMIME (lamps)'
+    message_id: 178734485162.71040.10860595054723626909@dt-datatracker-786f84c586-vck88
+  - kind: shepherded
+    documents:
+    - draft-ietf-lamps-5g-nftypes
+    - draft-ietf-lamps-cert-binding-for-multi-auth
+    - draft-ietf-lamps-cms-aes-gmac-alg
+    - draft-ietf-lamps-cms-cek-hkdf-sha256
+    - draft-ietf-lamps-cms-hash-sig
+    - draft-ietf-lamps-cms-mix-with-psk
+    - draft-ietf-lamps-cms-sha3-hash
+    - draft-ietf-lamps-cms-sphincs-plus
+    - draft-ietf-lamps-cms-update-alg-id-protect
+    - draft-ietf-lamps-crmf-update-algs
+    - draft-ietf-lamps-hash-of-root-key-cert-extn
+    - draft-ietf-lamps-macaddress-on
+    - draft-ietf-lamps-norevavail
+    - draft-ietf-lamps-one-signature-certs
+    - draft-ietf-lamps-pkcs8-prikeyinfo-contenttypes
+    - draft-ietf-lamps-private-key-stmt-attr
+    - draft-ietf-lamps-rfc3709bis
+    - draft-ietf-lamps-rfc5990bis
+    - draft-ietf-lamps-rfc6211-update
+    - draft-ietf-lamps-rfc7299-update
+    - draft-ietf-lamps-rfc8398bis
+    - draft-ietf-lamps-rfc8399bis
+    - draft-ietf-lamps-rfc8708bis
+    - draft-ietf-lamps-samples

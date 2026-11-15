@@ -1,0 +1,20 @@
+acronym: fddimib
+name: FDDI MIB
+type: wg
+parent: mgt
+state: conclude
+started: '1989-05-01'
+closed: '1993-09-10'
+history_url: https://datatracker.ietf.org/group/fddimib/history/
+chairs:
+- person: 2331
+  name: Jeff Case
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1993-09-10'
+      not_before: '1989-05-01'
+    end:
+      certainty: group-closed
+      date: '1993-09-10'

@@ -1,0 +1,31 @@
+acronym: mhsds
+name: MHS-DS
+type: wg
+parent: app
+state: conclude
+started: '1992-01-23'
+closed: '1995-03-25'
+history_url: https://datatracker.ietf.org/group/mhsds/history/
+chairs:
+- person: 4420
+  name: Kevin Jordan
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1995-03-25'
+      not_before: '1992-01-23'
+    end:
+      certainty: group-closed
+      date: '1995-03-25'
+- person: 5778
+  name: Harald Alvestrand
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1995-03-25'
+      not_before: '1992-01-23'
+    end:
+      certainty: group-closed
+      date: '1995-03-25'

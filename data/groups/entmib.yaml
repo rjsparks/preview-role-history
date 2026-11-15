@@ -1,0 +1,20 @@
+acronym: entmib
+name: Entity MIB
+type: wg
+parent: ops
+state: conclude
+started: '1995-09-21'
+closed: '2006-02-13'
+history_url: https://datatracker.ietf.org/group/entmib/history/
+chairs:
+- person: 119947
+  name: Margaret Cullen
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-02-13'
+      not_before: '1995-09-21'
+    end:
+      certainty: group-closed
+      date: '2006-02-13'

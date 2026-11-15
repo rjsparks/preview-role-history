@@ -1,0 +1,29 @@
+acronym: msr6
+name: Multicast Source Routing over IPv6
+type: wg
+parent: rtg
+state: bof-conc
+started: '2022-06-16'
+closed: '2022-09-29'
+history_url: https://datatracker.ietf.org/group/msr6/history/
+chairs:
+- person: 106412
+  name: Suresh Krishnan
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-06-30'
+    end:
+      certainty: group-closed
+      date: '2022-09-29'
+- person: 122661
+  name: Jen Linkova
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-06-30'
+    end:
+      certainty: group-closed
+      date: '2022-09-29'

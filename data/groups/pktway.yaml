@@ -1,0 +1,20 @@
+acronym: pktway
+name: PacketWay
+type: wg
+parent: int
+state: conclude
+started: '1995-06-28'
+closed: '1999-08-11'
+history_url: https://datatracker.ietf.org/group/pktway/history/
+chairs:
+- person: 184
+  name: Danny Cohen
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1999-08-11'
+      not_before: '1995-06-28'
+    end:
+      certainty: group-closed
+      date: '1999-08-11'

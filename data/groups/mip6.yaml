@@ -1,0 +1,61 @@
+acronym: mip6
+name: Mobility for IPv6
+type: wg
+parent: int
+state: conclude
+started: '2003-08-04'
+closed: '2007-11-20'
+history_url: https://datatracker.ietf.org/group/mip6/history/
+chairs:
+- person: 103283
+  name: Basavaraj Patil
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '2003-08-04'
+    end:
+      certainty: group-closed
+      date: '2007-11-20'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: WG Review
+    date: '2006-09-19'
+    subject: 'WG Review: Recharter of Mobility for IPv6 (mip6)'
+    message_id: null
+  - kind: WG Action
+    date: '2006-10-05'
+    subject: 'WG Action: RECHARTER: Mobility for IPv6 (mip6)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    - '68'
+    - '69'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 103912
+  name: Gopal Dommety
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-10-05'
+      not_before: '2003-08-04'
+    end:
+      certainty: group-closed
+      date: '2007-11-20'
+    notes:
+    - start moved earlier by WG Action announcement of 2006-10-05
+  evidence:
+  - kind: WG Review
+    date: '2006-09-19'
+    subject: 'WG Review: Recharter of Mobility for IPv6 (mip6)'
+    message_id: null
+  - kind: WG Action
+    date: '2006-10-05'
+    subject: 'WG Action: RECHARTER: Mobility for IPv6 (mip6)'
+    message_id: null

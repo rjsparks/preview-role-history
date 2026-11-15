@@ -1,0 +1,20 @@
+acronym: osix400
+name: OSI X.400
+type: wg
+parent: osi
+state: conclude
+started: '1990-02-03'
+closed: '1991-08-02'
+history_url: https://datatracker.ietf.org/group/osix400/history/
+chairs:
+- person: 2372
+  name: Robert Hagens
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1991-08-02'
+      not_before: '1990-02-03'
+    end:
+      certainty: group-closed
+      date: '1991-08-02'

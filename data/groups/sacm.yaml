@@ -1,0 +1,88 @@
+acronym: sacm
+name: Security Automation and Continuous Monitoring
+type: wg
+parent: sec
+state: conclude
+started: '2012-09-26'
+closed: '2022-07-20'
+history_url: https://datatracker.ietf.org/group/sacm/history/
+chairs:
+- person: 4857
+  name: Karen O'Donoghue
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-11-23'
+    end:
+      certainty: group-closed
+      date: '2022-07-20'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-sacm-epcp
+    - draft-ietf-sacm-nea-swima-patnc
+    - draft-ietf-sacm-requirements
+- person: 6699
+  name: Dan Romascanu
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2012-09-26'
+      not_after: '2013-05-23'
+    end:
+      certainty: exact
+      date: '2015-11-23'
+  evidence:
+  - kind: WG Review
+    date: '2013-06-28'
+    subject: 'WG Review: Security Automation and Continuous Monitoring (sacm)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-sacm-use-cases
+- person: 104851
+  name: Kathleen Moriarty
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2012-09-26'
+      not_after: '2013-05-23'
+    end:
+      certainty: exact
+      date: '2013-06-28'
+  evidence:
+  - kind: WG Review
+    date: '2013-06-28'
+    subject: 'WG Review: Security Automation and Continuous Monitoring (sacm)'
+    message_id: null
+- person: 113536
+  name: Christopher Inacio
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-10-19'
+    end:
+      certainty: group-closed
+      date: '2022-07-20'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-sacm-coswid
+- person: 114476
+  name: Adam Montville
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2013-06-28'
+    end:
+      certainty: exact
+      date: '2018-03-26'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-sacm-vuln-scenario

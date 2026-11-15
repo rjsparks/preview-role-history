@@ -1,0 +1,20 @@
+acronym: vpim
+name: Voice Profile for Internet Mail
+type: wg
+parent: app
+state: conclude
+started: '1999-08-30'
+closed: '2005-04-12'
+history_url: https://datatracker.ietf.org/group/vpim/history/
+chairs:
+- person: 19651
+  name: Glenn Parsons
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-04-12'
+      not_before: '1999-08-30'
+    end:
+      certainty: group-closed
+      date: '2005-04-12'

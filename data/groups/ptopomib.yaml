@@ -1,0 +1,20 @@
+acronym: ptopomib
+name: Physical Topology MIB
+type: wg
+parent: ops
+state: conclude
+started: '1996-10-09'
+closed: '2000-10-03'
+history_url: https://datatracker.ietf.org/group/ptopomib/history/
+chairs:
+- person: 4052
+  name: Ken Jones
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2000-10-03'
+      not_before: '1996-10-09'
+    end:
+      certainty: group-closed
+      date: '2000-10-03'

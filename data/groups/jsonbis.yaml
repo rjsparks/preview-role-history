@@ -1,0 +1,28 @@
+acronym: jsonbis
+name: Javascript Object Notation Update
+type: wg
+parent: art
+state: conclude
+started: '2015-06-01'
+closed: '2017-12-18'
+history_url: https://datatracker.ietf.org/group/jsonbis/history/
+chairs:
+- person: 111178
+  name: Matthew Miller
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2015-06-01'
+      not_before: '2015-06-01'
+    end:
+      certainty: group-closed
+      date: '2017-12-18'
+  evidence:
+  - kind: WG Review
+    date: '2015-06-12'
+    subject: 'WG Review: Javascript Object Notation Update (jsonbis)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-jsonbis-rfc7159bis

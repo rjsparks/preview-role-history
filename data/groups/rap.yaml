@@ -1,0 +1,31 @@
+acronym: rap
+name: Resource Allocation Protocol
+type: wg
+parent: ops
+state: conclude
+started: '1997-10-23'
+closed: '2005-06-01'
+history_url: https://datatracker.ietf.org/group/rap/history/
+chairs:
+- person: 23162
+  name: Scott Hahn
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-06-01'
+      not_before: '1997-10-23'
+    end:
+      certainty: group-closed
+      date: '2005-06-01'
+- person: 102976
+  name: Mark Stevens
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-06-01'
+      not_before: '1997-10-23'
+    end:
+      certainty: group-closed
+      date: '2005-06-01'

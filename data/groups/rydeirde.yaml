@@ -1,0 +1,29 @@
+acronym: rydeirde
+name: Registry Data Escrow/Internet Registration Escrow
+type: wg
+parent: app
+state: bof-conc
+started: null
+closed: null
+history_url: https://datatracker.ietf.org/group/rydeirde/history/
+chairs:
+- person: 2783
+  name: James Galvin
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+    end:
+      certainty: group-closed
+      date: '2011-12-09'
+- person: 16366
+  name: Edward Lewis
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+    end:
+      certainty: group-closed
+      date: '2011-12-09'

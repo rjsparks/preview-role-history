@@ -1,0 +1,20 @@
+acronym: imap
+name: Internet Message Access Protocol
+type: wg
+parent: app
+state: conclude
+started: '1993-04-23'
+closed: '1995-05-05'
+history_url: https://datatracker.ietf.org/group/imap/history/
+chairs:
+- person: 3361
+  name: Terry Gray
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1995-05-05'
+      not_before: '1993-04-23'
+    end:
+      certainty: group-closed
+      date: '1995-05-05'

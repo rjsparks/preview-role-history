@@ -1,0 +1,20 @@
+acronym: list
+name: Automated Internet Mailing List Services
+type: wg
+parent: app
+state: conclude
+started: '1991-07-19'
+closed: '1992-10-15'
+history_url: https://datatracker.ietf.org/group/list/history/
+chairs:
+- person: 4534
+  name: David Lippke
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1992-10-15'
+      not_before: '1991-07-19'
+    end:
+      certainty: group-closed
+      date: '1992-10-15'

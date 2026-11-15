@@ -1,0 +1,29 @@
+acronym: nim
+name: Network Information Model
+type: wg
+parent: ops
+state: conclude
+started: null
+closed: '2003-12-10'
+history_url: https://datatracker.ietf.org/group/nim/history/
+chairs:
+- person: 2331
+  name: Jeff Case
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2003-12-10'
+    end:
+      certainty: group-closed
+      date: '2003-12-10'
+- person: 100760
+  name: Walter Weiss
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2003-12-10'
+    end:
+      certainty: group-closed
+      date: '2003-12-10'

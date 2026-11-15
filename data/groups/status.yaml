@@ -1,0 +1,31 @@
+acronym: status
+name: Stacked Tunnels for Source Routing
+type: wg
+parent: rtg
+state: bof-conc
+started: '2013-06-20'
+closed: null
+history_url: https://datatracker.ietf.org/group/status/history/
+chairs:
+- person: 4836
+  name: John Scudder
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2013-06-20'
+      not_after: '2013-09-24'
+    end:
+      certainty: group-closed
+      date: '2013-09-24'
+- person: 109802
+  name: Alvaro Retana
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2013-06-20'
+      not_after: '2013-09-24'
+    end:
+      certainty: group-closed
+      date: '2013-09-24'

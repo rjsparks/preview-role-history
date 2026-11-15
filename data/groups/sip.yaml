@@ -1,0 +1,77 @@
+acronym: sip
+name: Session Initiation Protocol
+type: wg
+parent: rai
+state: conclude
+started: '1999-09-14'
+closed: '2009-05-01'
+history_url: https://datatracker.ietf.org/group/sip/history/
+chairs:
+- person: 103889
+  name: Dean Willis
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-11-04'
+      not_before: '1999-09-14'
+    end:
+      certainty: group-closed
+      date: '2009-05-01'
+    notes:
+    - start moved earlier by WG Action announcement of 2005-11-04
+  evidence:
+  - kind: WG Action
+    date: '2005-11-04'
+    subject: 'WG Action: RECHARTER: Session Initiation Protocol (sip)'
+    message_id: null
+  - kind: WG Action
+    date: '2006-08-22'
+    subject: 'WG Action: RECHARTER: Session Initiation Protocol (sip)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 105097
+  name: Keith Drage
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-08-22'
+      not_before: '1999-09-14'
+    end:
+      certainty: group-closed
+      date: '2009-05-01'
+    notes:
+    - start moved earlier by WG Action announcement of 2006-08-22
+  evidence:
+  - kind: WG Action
+    date: '2006-08-22'
+    subject: 'WG Action: RECHARTER: Session Initiation Protocol (sip)'
+    message_id: null
+- person: 129485
+  name: Rohan Mahy
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2005-11-04'
+    end:
+      certainty: evidence-only
+      not_before: '2005-11-04'
+  evidence:
+  - kind: WG Action
+    date: '2005-11-04'
+    subject: 'WG Action: RECHARTER: Session Initiation Protocol (sip)'
+    message_id: null

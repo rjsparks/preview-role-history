@@ -1,0 +1,20 @@
+acronym: nntp
+name: Network News Transport Protocol
+type: wg
+parent: app
+state: conclude
+started: '1991-04-10'
+closed: '1993-10-20'
+history_url: https://datatracker.ietf.org/group/nntp/history/
+chairs:
+- person: 2097
+  name: Eliot Lear
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1993-10-20'
+      not_before: '1991-04-10'
+    end:
+      certainty: group-closed
+      date: '1993-10-20'

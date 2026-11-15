@@ -1,0 +1,31 @@
+acronym: roamops
+name: Roaming Operations
+type: wg
+parent: ops
+state: conclude
+started: '1996-11-05'
+closed: '2001-01-24'
+history_url: https://datatracker.ietf.org/group/roamops/history/
+chairs:
+- person: 18738
+  name: Pat Calhoun
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2001-01-24'
+      not_before: '1996-11-05'
+    end:
+      certainty: group-closed
+      date: '2001-01-24'
+- person: 106988
+  name: Glen Zorn
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2001-01-24'
+      not_before: '1996-11-05'
+    end:
+      certainty: group-closed
+      date: '2001-01-24'

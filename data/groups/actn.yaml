@@ -1,0 +1,48 @@
+acronym: actn
+name: Abstraction and Control of Transport Networks
+type: wg
+parent: rtg
+state: bof-conc
+started: '2014-06-11'
+closed: null
+history_url: https://datatracker.ietf.org/group/actn/history/
+chairs:
+- person: 109558
+  name: Daniel King
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2014-06-11'
+      not_before: '2014-06-11'
+    end:
+      certainty: between
+      not_before: '2014-09-11'
+      not_after: '2014-10-02'
+- person: 109703
+  name: Daniele Ceccarelli
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-10-02'
+    end:
+      certainty: group-closed
+      date: '2015-02-10'
+- person: 118347
+  name: Young Lee
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2014-06-11'
+      not_before: '2014-06-11'
+    end:
+      certainty: approximate
+      date: '2014-09-11'
+  - start:
+      certainty: exact
+      date: '2014-10-02'
+    end:
+      certainty: group-closed
+      date: '2015-02-10'

@@ -1,0 +1,66 @@
+acronym: nmop
+name: Network Management Operations
+type: wg
+parent: ops
+state: active
+started: '2023-11-22'
+closed: null
+history_url: https://datatracker.ietf.org/group/nmop/history/
+chairs:
+- person: 105682
+  name: Benoît Claise
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-01-30'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Action
+    date: '2024-02-02'
+    subject: 'WG Action: Formed Network Management Operations (nmop)'
+    message_id: 170689588219.46650.10294980708734124453@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-nmop-network-anomaly-architecture
+    - draft-ietf-nmop-network-incident-yang
+    - draft-ietf-nmop-rfc3535-20years-later
+    - draft-ietf-nmop-terminology
+- person: 106444
+  name: Reshad Rahman
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-02-13'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-nmop-message-broker-telemetry-message
+    - draft-ietf-nmop-network-anomaly-lifecycle
+    - draft-ietf-nmop-network-anomaly-semantics
+    - draft-ietf-nmop-simap-concept
+    - draft-ietf-nmop-yang-message-broker-integration
+    - draft-ietf-nmop-yang-message-broker-message-key
+- person: 112869
+  name: Mohamed Boucadair
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-01-30'
+    end:
+      certainty: exact
+      date: '2025-03-19'
+  evidence:
+  - kind: WG Action
+    date: '2024-02-02'
+    subject: 'WG Action: Formed Network Management Operations (nmop)'
+    message_id: 170689588219.46650.10294980708734124453@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-havel-nmop-digital-map-concept
+    - draft-ietf-nmop-digital-map-concept

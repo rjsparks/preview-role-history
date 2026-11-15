@@ -1,0 +1,72 @@
+acronym: tvr
+name: Time-Variant Routing
+type: wg
+parent: rtg
+state: active
+started: '2022-09-29'
+closed: null
+history_url: https://datatracker.ietf.org/group/tvr/history/
+chairs:
+- person: 4475
+  name: Tony Li
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-02-01'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2023-02-03'
+    subject: 'WG Review: Time-Variant Routing (tvr)'
+    message_id: 167544981423.40004.3470349174923722270@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-02-17'
+    subject: 'WG Action: Formed Time-Variant Routing (tvr)'
+    message_id: 167665828550.20350.8180153576099315786@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-tvr-schedule-yang
+    - draft-ietf-tvr-use-cases
+- person: 10064
+  name: Lou Berger
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-10-10'
+    end:
+      certainty: exact
+      date: '2023-01-26'
+- person: 104645
+  name: Russ White
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-10-10'
+    end:
+      certainty: exact
+      date: '2023-01-26'
+- person: 115774
+  name: Edward Birrane
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-02-01'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2023-02-03'
+    subject: 'WG Review: Time-Variant Routing (tvr)'
+    message_id: 167544981423.40004.3470349174923722270@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-02-17'
+    subject: 'WG Action: Formed Time-Variant Routing (tvr)'
+    message_id: 167665828550.20350.8180153576099315786@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-tvr-requirements

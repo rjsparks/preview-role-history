@@ -1,0 +1,29 @@
+acronym: raidmib
+name: Redundant Arrays of Independent Disks MIB
+type: wg
+parent: null
+state: bof-conc
+started: null
+closed: '1997-03-01'
+history_url: https://datatracker.ietf.org/group/raidmib/history/
+chairs:
+- person: 6842
+  name: Bert Wijnen
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1997-03-01'
+    end:
+      certainty: group-closed
+      date: '1997-03-01'
+- person: 19319
+  name: Tom Battle
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1997-03-01'
+    end:
+      certainty: group-closed
+      date: '1997-03-01'

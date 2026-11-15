@@ -1,0 +1,49 @@
+acronym: dance
+name: DANE Authentication for Network Clients Everywhere
+type: wg
+parent: sec
+state: active
+started: '2021-09-01'
+closed: null
+history_url: https://datatracker.ietf.org/group/dance/history/
+chairs:
+- person: 112723
+  name: Paul Wouters
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-10-29'
+    end:
+      certainty: exact
+      date: '2022-03-23'
+- person: 117099
+  name: Wes Hardaker
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-09-02'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2021-09-10'
+    subject: 'WG Review: DANE Authentication for Network Clients Everywhere (dance)'
+    message_id: 163129009853.26088.17572769045431276481@ietfa.amsl.com
+  - kind: WG Action
+    date: '2021-09-24'
+    subject: 'WG Action: Formed DANE Authentication for Network Clients Everywhere (dance)'
+    message_id: 163250668968.7336.18393617546725684952@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-dance-architecture
+- person: 126292
+  name: Joey Salazar
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-03-02'
+    end:
+      certainty: ongoing

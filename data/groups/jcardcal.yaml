@@ -1,0 +1,38 @@
+acronym: jcardcal
+name: JSON data formats for vCard and iCalendar
+type: wg
+parent: app
+state: conclude
+started: '2013-02-15'
+closed: '2014-06-04'
+history_url: https://datatracker.ietf.org/group/jcardcal/history/
+chairs:
+- person: 105907
+  name: Peter Saint-Andre
+  status: confirmed
+  periods:
+  - start:
+      certainty: approximate
+      date: '2013-02-28'
+    end:
+      certainty: group-closed
+      date: '2014-06-04'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-jcardcal-jcal
+- person: 112262
+  name: Bert Greevenbosch
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2013-02-28'
+      not_after: '2013-03-05'
+    end:
+      certainty: group-closed
+      date: '2014-06-04'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-jcardcal-jcard

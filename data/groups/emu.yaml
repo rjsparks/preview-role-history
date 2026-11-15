@@ -1,0 +1,157 @@
+acronym: emu
+name: EAP Method Update
+type: wg
+parent: sec
+state: active
+started: '2005-10-01'
+closed: null
+history_url: https://datatracker.ietf.org/group/emu/history/
+chairs:
+- person: 4061
+  name: Peter Yee
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-07-25'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2024-05-17'
+    subject: 'WG Review: EAP Method Update (emu)'
+    message_id: 171596500764.33918.9964493663366291599@ietfa.amsl.com
+  - kind: WG Action
+    date: '2024-06-12'
+    subject: 'WG Action: Rechartered EAP Method Update (emu)'
+    message_id: 171821451649.34666.1137720057236931640@ietfa.amsl.com
+  - kind: WG Review
+    date: '2025-06-10'
+    subject: 'WG Review: EAP Method Update (emu)'
+    message_id: 174958920553.3902257.11970397192545735078@dt-datatracker-59b84fc74f-84jsl
+  - kind: WG Action
+    date: '2025-06-26'
+    subject: 'WG Action: Rechartered EAP Method Update (emu)'
+    message_id: 175096547753.298.17255845562400010086@dt-datatracker-6fcb845cd4-p6tkq
+  - kind: shepherded
+    documents:
+    - draft-ietf-emu-aka-pfs
+    - draft-ietf-emu-bootstrapped-tls
+    - draft-ietf-emu-eap-arpa
+- person: 21072
+  name: Jari Arkko
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-01-20'
+    end:
+      certainty: evidence-only
+      not_before: '2006-01-20'
+  evidence:
+  - kind: WG Action
+    date: '2006-01-20'
+    subject: 'WG Action: EAP Method Update (emu)'
+    message_id: null
+- person: 101208
+  name: Joseph Salowey
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-01-20'
+      not_before: '2005-10-01'
+    end:
+      certainty: exact
+      date: '2018-02-02'
+    notes:
+    - start moved earlier by WG Action announcement of 2006-01-20
+  - start:
+      certainty: exact
+      date: '2018-03-01'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Action
+    date: '2006-01-20'
+    subject: 'WG Action: EAP Method Update (emu)'
+    message_id: null
+  - kind: WG Review
+    date: '2024-05-17'
+    subject: 'WG Review: EAP Method Update (emu)'
+    message_id: 171596500764.33918.9964493663366291599@ietfa.amsl.com
+  - kind: WG Action
+    date: '2024-06-12'
+    subject: 'WG Action: Rechartered EAP Method Update (emu)'
+    message_id: 171821451649.34666.1137720057236931640@ietfa.amsl.com
+  - kind: WG Review
+    date: '2025-06-10'
+    subject: 'WG Review: EAP Method Update (emu)'
+    message_id: 174958920553.3902257.11970397192545735078@dt-datatracker-59b84fc74f-84jsl
+  - kind: WG Action
+    date: '2025-06-26'
+    subject: 'WG Action: Rechartered EAP Method Update (emu)'
+    message_id: 175096547753.298.17255845562400010086@dt-datatracker-6fcb845cd4-p6tkq
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '74'
+    - '76'
+    - '79'
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-emu-eap-noob
+    - draft-ietf-emu-eap-tls13
+    - draft-ietf-emu-eaptlscert
+    - draft-ietf-emu-rfc5448bis
+    - draft-ietf-emu-tls-eap-types
+- person: 108624
+  name: Alan DeKok
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2008-11-16'
+      not_before: '2005-10-01'
+    end:
+      certainty: exact
+      date: '2018-02-02'
+    notes:
+    - start moved earlier by session request for IETF 73
+  evidence:
+  - kind: session requests
+    meetings:
+    - '73'
+    - '75'
+    - '77'
+    - '78'
+    - '80'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-emu-crypto-bind
+    - draft-ietf-emu-eap-tunnel-method
+- person: 113142
+  name: Mohit Sethi
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2018-07-20'
+    end:
+      certainty: exact
+      date: '2022-07-25'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-emu-eap-session-id

@@ -1,0 +1,27 @@
+acronym: salud
+name: Sip ALerting for User Devices
+type: wg
+parent: rai
+state: conclude
+started: '2010-06-10'
+closed: '2015-02-03'
+history_url: https://datatracker.ietf.org/group/salud/history/
+chairs:
+- person: 15979
+  name: Dale Worley
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-07-13'
+      not_before: '2010-06-10'
+    end:
+      certainty: group-closed
+      date: '2015-02-03'
+    notes:
+    - start moved earlier by WG Action announcement of 2010-07-13
+  evidence:
+  - kind: WG Action
+    date: '2010-07-13'
+    subject: 'WG Action: Sip ALerting for User Devices (salud)'
+    message_id: null

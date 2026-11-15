@@ -1,0 +1,69 @@
+acronym: storm
+name: STORage Maintenance
+type: wg
+parent: tsv
+state: conclude
+started: '2009-04-27'
+closed: '2016-02-24'
+history_url: https://datatracker.ietf.org/group/storm/history/
+chairs:
+- person: 8209
+  name: Tom Talpey
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2009-08-04'
+      not_before: '2009-04-27'
+    end:
+      certainty: group-closed
+      date: '2016-02-24'
+    notes:
+    - start moved earlier by WG Action announcement of 2009-08-04
+  evidence:
+  - kind: WG Action
+    date: '2009-08-04'
+    subject: 'WG Action: STORage Maintenance (storm)'
+    message_id: null
+  - kind: WG Action
+    date: '2011-08-30'
+    subject: 'WG Action: RECHARTER: STORage Maintenance (storm)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-storm-rdmap-ext
+- person: 103156
+  name: David Black
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2009-08-04'
+      not_before: '2009-04-27'
+    end:
+      certainty: group-closed
+      date: '2016-02-24'
+    notes:
+    - start moved earlier by WG Action announcement of 2009-08-04
+  evidence:
+  - kind: WG Action
+    date: '2009-08-04'
+    subject: 'WG Action: STORage Maintenance (storm)'
+    message_id: null
+  - kind: WG Action
+    date: '2011-08-30'
+    subject: 'WG Action: RECHARTER: STORage Maintenance (storm)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '77'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-storm-ipsec-ips-update
+    - draft-ietf-storm-iscsi-cons
+    - draft-ietf-storm-iscsi-sam
+    - draft-ietf-storm-iscsimib
+    - draft-ietf-storm-iser
+    - draft-ietf-storm-rddp-registries

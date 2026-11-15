@@ -1,0 +1,31 @@
+acronym: ipoib
+name: IP over InfiniBand
+type: wg
+parent: int
+state: conclude
+started: '2001-05-16'
+closed: '2006-07-05'
+history_url: https://datatracker.ietf.org/group/ipoib/history/
+chairs:
+- person: 19980
+  name: H.K. Chu
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-07-05'
+      not_before: '2001-05-16'
+    end:
+      certainty: group-closed
+      date: '2006-07-05'
+- person: 21575
+  name: Bill Strahm
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-07-05'
+      not_before: '2001-05-16'
+    end:
+      certainty: group-closed
+      date: '2006-07-05'

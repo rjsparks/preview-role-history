@@ -1,0 +1,31 @@
+acronym: opstat
+name: Operational Statistics
+type: wg
+parent: ops-old
+state: conclude
+started: '1990-12-03'
+closed: '1995-08-04'
+history_url: https://datatracker.ietf.org/group/opstat/history/
+chairs:
+- person: 4778
+  name: Henry Clark
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1995-08-04'
+      not_before: '1990-12-03'
+    end:
+      certainty: group-closed
+      date: '1995-08-04'
+- person: 6766
+  name: Nevil Brownlee
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1995-08-04'
+      not_before: '1990-12-03'
+    end:
+      certainty: group-closed
+      date: '1995-08-04'

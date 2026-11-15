@@ -1,0 +1,57 @@
+acronym: atp
+name: Authenticated Transfer
+type: wg
+parent: art
+state: active
+started: '2025-09-30'
+closed: null
+history_url: https://datatracker.ietf.org/group/atp/history/
+chairs:
+- person: 108049
+  name: Richard Barnes
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-09-30'
+    end:
+      certainty: exact
+      date: '2026-01-05'
+- person: 112051
+  name: Justin Richer
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-09-30'
+    end:
+      certainty: exact
+      date: '2026-01-05'
+- person: 122637
+  name: Shuping Peng
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2026-03-18'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Action
+    date: '2026-03-19'
+    subject: 'WG Action: Formed Authenticated Transfer (atp)'
+    message_id: 177390401517.1137486.2566567205342250530@dt-datatracker-5477d56788-5pkt5
+- person: 124328
+  name: Mallory Knodel
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2026-03-18'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Action
+    date: '2026-03-19'
+    subject: 'WG Action: Formed Authenticated Transfer (atp)'
+    message_id: 177390401517.1137486.2566567205342250530@dt-datatracker-5477d56788-5pkt5

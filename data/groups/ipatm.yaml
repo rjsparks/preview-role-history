@@ -1,0 +1,20 @@
+acronym: ipatm
+name: IP Over Asynchronous Transfer Mode
+type: wg
+parent: int
+state: conclude
+started: '1992-01-02'
+closed: '1996-05-21'
+history_url: https://datatracker.ietf.org/group/ipatm/history/
+chairs:
+- person: 43
+  name: Mark Laubach
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1996-05-21'
+      not_before: '1992-01-02'
+    end:
+      certainty: group-closed
+      date: '1996-05-21'

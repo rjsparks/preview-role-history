@@ -1,0 +1,224 @@
+acronym: tcpm
+name: TCP Maintenance and Minor Extensions
+type: wg
+parent: wit
+state: active
+started: '2004-01-15'
+closed: null
+history_url: https://datatracker.ietf.org/group/tcpm/history/
+chairs:
+- person: 4370
+  name: Ted Faber
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-02-22'
+    end:
+      certainty: evidence-only
+      not_before: '2007-12-02'
+  evidence:
+  - kind: WG Action
+    date: '2006-02-22'
+    subject: 'WG Action: RECHARTER: TCP Maintenance and Minor Extensions (tcpm)'
+    message_id: null
+  - kind: WG Action
+    date: '2006-08-08'
+    subject: 'WG Action: RECHARTER: TCP Maintenance and Minor Extensions (tcpm)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '67'
+    - '69'
+    - '70'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 15951
+  name: Yoshifumi Nishida
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2004-01-15'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2015-03-13'
+    subject: 'WG Review: TCP Maintenance and Minor Extensions (tcpm)'
+    message_id: null
+  - kind: WG Action
+    date: '2020-03-16'
+    subject: 'WG Action: Rechartered TCP Maintenance and Minor Extensions (tcpm)'
+    message_id: 158439438323.13741.11606183839173437731@ietfa.amsl.com
+  - kind: WG Review
+    date: '2023-12-01'
+    subject: 'WG Review: TCP Maintenance and Minor Extensions (tcpm)'
+    message_id: 170145576201.36146.7374432066006641906@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-12-15'
+    subject: 'WG Action: Rechartered TCP Maintenance and Minor Extensions (tcpm)'
+    message_id: 170267274886.33593.7514698862918142002@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-tcpm-cubic
+    - draft-ietf-tcpm-newcwv
+    - draft-ietf-tcpm-prr-rfc6937bis
+    - draft-ietf-tcpm-rfc8312bis
+    - draft-ietf-tcpm-rto-consider
+    - draft-ietf-tcpm-tcp-ghost-acks
+    - draft-ietf-tcpm-tcp-rfc4614bis
+    - draft-ietf-tcpm-yang-tcp
+- person: 20580
+  name: Mark Allman
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-02-22'
+    end:
+      certainty: evidence-only
+      not_before: '2008-07-27'
+  evidence:
+  - kind: WG Action
+    date: '2006-02-22'
+    subject: 'WG Action: RECHARTER: TCP Maintenance and Minor Extensions (tcpm)'
+    message_id: null
+  - kind: WG Action
+    date: '2006-08-08'
+    subject: 'WG Action: RECHARTER: TCP Maintenance and Minor Extensions (tcpm)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '68'
+    - '71'
+    - '72'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 104695
+  name: Michael Tüxen
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-08-17'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Action
+    date: '2020-03-16'
+    subject: 'WG Action: Rechartered TCP Maintenance and Minor Extensions (tcpm)'
+    message_id: 158439438323.13741.11606183839173437731@ietfa.amsl.com
+  - kind: WG Review
+    date: '2023-12-01'
+    subject: 'WG Review: TCP Maintenance and Minor Extensions (tcpm)'
+    message_id: 170145576201.36146.7374432066006641906@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-12-15'
+    subject: 'WG Action: Rechartered TCP Maintenance and Minor Extensions (tcpm)'
+    message_id: 170267274886.33593.7514698862918142002@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-tcpm-accurate-ecn
+    - draft-ietf-tcpm-alternativebackoff-ecn
+    - draft-ietf-tcpm-generalized-ecn
+    - draft-ietf-tcpm-hystartplusplus
+    - draft-ietf-tcpm-rack
+    - draft-ietf-tcpm-tcp-ao-algs
+- person: 109321
+  name: Pasi Sarolahti
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2004-01-15'
+    end:
+      certainty: exact
+      date: '2016-08-17'
+  evidence:
+  - kind: WG Review
+    date: '2015-03-13'
+    subject: 'WG Review: TCP Maintenance and Minor Extensions (tcpm)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-tcpm-1323bis
+    - draft-ietf-tcpm-accecn-reqs
+    - draft-ietf-tcpm-undeployed
+- person: 110636
+  name: Michael Scharf
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-07-24'
+      not_before: '2004-01-15'
+    end:
+      certainty: exact
+      date: '2022-03-15'
+    notes:
+    - start moved earlier by session request for IETF 81
+  evidence:
+  - kind: WG Review
+    date: '2015-03-13'
+    subject: 'WG Review: TCP Maintenance and Minor Extensions (tcpm)'
+    message_id: null
+  - kind: WG Action
+    date: '2020-03-16'
+    subject: 'WG Action: Rechartered TCP Maintenance and Minor Extensions (tcpm)'
+    message_id: 158439438323.13741.11606183839173437731@ietfa.amsl.com
+  - kind: session requests
+    meetings:
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-tcpm-2140bis
+    - draft-ietf-tcpm-ao-test-vectors
+    - draft-ietf-tcpm-converters
+    - draft-ietf-tcpm-dctcp
+    - draft-ietf-tcpm-experimental-options
+    - draft-ietf-tcpm-fastopen
+    - draft-ietf-tcpm-rfc793bis
+    - draft-ietf-tcpm-rtorestart
+- person: 110856
+  name: Wesley Eddy
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2008-11-16'
+    end:
+      certainty: evidence-only
+      not_before: '2011-03-27'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '73'
+    - '74'
+    - '75'
+    - '77'
+    - '80'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 119702
+  name: Ian Swett
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-03-18'
+    end:
+      certainty: exact
+      date: '2025-04-01'
+  evidence:
+  - kind: WG Review
+    date: '2023-12-01'
+    subject: 'WG Review: TCP Maintenance and Minor Extensions (tcpm)'
+    message_id: 170145576201.36146.7374432066006641906@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-12-15'
+    subject: 'WG Action: Rechartered TCP Maintenance and Minor Extensions (tcpm)'
+    message_id: 170267274886.33593.7514698862918142002@ietfa.amsl.com

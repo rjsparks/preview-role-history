@@ -1,0 +1,231 @@
+acronym: dnsop
+name: Domain Name System Operations
+type: wg
+parent: ops
+state: active
+started: '1999-05-18'
+closed: null
+history_url: https://datatracker.ietf.org/group/dnsop/history/
+chairs:
+- person: 18009
+  name: Suzanne Woolf
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2013-12-20'
+    end:
+      certainty: exact
+      date: '2025-04-16'
+  evidence:
+  - kind: WG Review
+    date: '2014-06-04'
+    subject: 'WG Review: Domain Name System Operations (dnsop)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-dnsop-7706bis
+    - draft-ietf-dnsop-alt-tld
+    - draft-ietf-dnsop-compact-denial-of-existence
+    - draft-ietf-dnsop-dns-tcp-requirements
+    - draft-ietf-dnsop-edns-client-subnet
+    - draft-ietf-dnsop-glue-is-not-optional
+    - draft-ietf-dnsop-qdcount-is-one
+    - draft-ietf-dnsop-respsize
+    - draft-ietf-dnsop-rfc6598-rfc6303
+    - draft-ietf-dnsop-rfc7958bis
+    - draft-ietf-dnsop-serve-stale
+    - draft-ietf-dnsop-sutld-ps
+    - draft-ietf-dnsop-terminology-bis
+- person: 107363
+  name: Peter Koch
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '1999-05-18'
+    end:
+      certainty: exact
+      date: '2013-12-20'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    - '75'
+    - '76'
+    - '77'
+    - '78'
+    - '79'
+    - '80'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-dnsop-rfc4641bis
+- person: 109661
+  name: Stephen Morris
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '1999-05-18'
+    end:
+      certainty: between
+      not_before: '2013-03-13'
+      not_after: '2013-12-20'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-dnsop-dnssec-dps-framework
+- person: 110414
+  name: Ondřej Surý
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-04-16'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2025-06-27'
+    subject: 'WG Review: Domain Name System Operations (dnsop)'
+    message_id: 175105042641.141367.11106084041616617244@dt-datatracker-6fcb845cd4-p6tkq
+  - kind: WG Action
+    date: '2025-09-10'
+    subject: 'WG Action: Rechartered Domain Name System Operations (dnsop)'
+    message_id: 175752044309.3394464.9599508576698931678@dt-datatracker-f7c8fdcb7-pjx77
+  - kind: shepherded
+    documents:
+    - draft-ietf-dnsop-3901bis
+    - draft-ietf-dnsop-cds-consistency
+    - draft-ietf-dnsop-delext
+- person: 115244
+  name: Tim Wicinski
+  status: confirmed
+  periods:
+  - start:
+      certainty: approximate
+      date: '2013-03-13'
+    end:
+      certainty: exact
+      date: '2025-04-16'
+  evidence:
+  - kind: WG Review
+    date: '2014-06-04'
+    subject: 'WG Review: Domain Name System Operations (dnsop)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-andrews-dns-no-response-issue
+    - draft-appelbaum-dnsop-onion-tld
+    - draft-bellis-dnsop-session-signal
+    - draft-bortzmeyer-dnsop-nxdomain-cut
+    - draft-dickinson-dnsop-5966-bis
+    - draft-dnsop-refuse-any
+    - draft-eastlake-dnsext-cookies
+    - draft-hardaker-rfc5011-security-considerations
+    - draft-hoffman-dns-terminology-ter
+    - draft-ietf-dnsop-5966bis
+    - draft-ietf-dnsop-algorithm-update
+    - draft-ietf-dnsop-as112-dname
+    - draft-ietf-dnsop-avoid-fragmentation
+    - draft-ietf-dnsop-child-syncronization
+    - draft-ietf-dnsop-cookies
+    - draft-ietf-dnsop-delegation-trust-maintainance
+    - draft-ietf-dnsop-dns-capture-format
+    - draft-ietf-dnsop-dns-catalog-zones
+    - draft-ietf-dnsop-dns-terminology
+    - draft-ietf-dnsop-dns-zone-digest
+    - draft-ietf-dnsop-dnssec-bcp
+    - draft-ietf-dnsop-dnssec-bootstrapping
+    - draft-ietf-dnsop-dnssec-iana-cons
+    - draft-ietf-dnsop-dnssec-key-timing
+    - draft-ietf-dnsop-dnssec-roadblock-avoidance
+    - draft-ietf-dnsop-edns-chain-query
+    - draft-ietf-dnsop-edns-key-tag
+    - draft-ietf-dnsop-edns-tcp-keepalive
+    - draft-ietf-dnsop-extended-error
+    - draft-ietf-dnsop-generalized-notify
+    - draft-ietf-dnsop-isp-ip6rdns
+    - draft-ietf-dnsop-kskroll-sentinel
+    - draft-ietf-dnsop-maintain-ds
+    - draft-ietf-dnsop-must-not-ecc-gost
+    - draft-ietf-dnsop-must-not-sha1
+    - draft-ietf-dnsop-negative-trust-anchors
+    - draft-ietf-dnsop-no-response-issue
+    - draft-ietf-dnsop-nsec-aggressiveuse
+    - draft-ietf-dnsop-nsec-ttl
+    - draft-ietf-dnsop-nsec3-guidance
+    - draft-ietf-dnsop-nxdomain-cut
+    - draft-ietf-dnsop-obsolete-dlv
+    - draft-ietf-dnsop-onion-tld
+    - draft-ietf-dnsop-qname-minimisation
+    - draft-ietf-dnsop-refuse-any
+    - draft-ietf-dnsop-resolver-priming
+    - draft-ietf-dnsop-rfc5011-security-considerations
+    - draft-ietf-dnsop-rfc5933-bis
+    - draft-ietf-dnsop-rfc6304bis
+    - draft-ietf-dnsop-rfc7816bis
+    - draft-ietf-dnsop-rfc8109bis
+    - draft-ietf-dnsop-rfc8624-bis
+    - draft-ietf-dnsop-root-loopback
+    - draft-ietf-dnsop-server-cookies
+    - draft-ietf-dnsop-session-signal
+    - draft-ietf-dnsop-svcb-https
+    - draft-ietf-dnsop-zoneversion
+    - draft-nygren-dnsop-svcb-httpssvc
+    - draft-ogud-dnsop-maintain-ds
+    - draft-sury-toorop-dnsop-server-cookies
+    - draft-wessels-edns-key-tag
+- person: 123662
+  name: Benno Overeinder
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2018-04-11'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2025-06-27'
+    subject: 'WG Review: Domain Name System Operations (dnsop)'
+    message_id: 175105042641.141367.11106084041616617244@dt-datatracker-6fcb845cd4-p6tkq
+  - kind: WG Action
+    date: '2025-09-10'
+    subject: 'WG Action: Rechartered Domain Name System Operations (dnsop)'
+    message_id: 175752044309.3394464.9599508576698931678@dt-datatracker-f7c8fdcb7-pjx77
+  - kind: shepherded
+    documents:
+    - draft-ietf-dnsop-attrleaf
+    - draft-ietf-dnsop-attrleaf-fix
+    - draft-ietf-dnsop-dns-error-reporting
+    - draft-ietf-dnsop-dnssec-automation
+    - draft-ietf-dnsop-iana-class-type-yang
+    - draft-ietf-dnsop-multi-provider-dnssec
+    - draft-ietf-dnsop-rfc2845bis
+    - draft-ietf-dnsop-rfc8499bis
+    - draft-ietf-dnsop-structured-dns-error
+- person: 127983
+  name: Peter Thomassen
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2026-10-06'
+    end:
+      certainty: ongoing

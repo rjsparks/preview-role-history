@@ -1,0 +1,33 @@
+acronym: doh
+name: DNS Over HTTPS
+type: wg
+parent: art
+state: conclude
+started: '2017-09-06'
+closed: '2020-03-17'
+history_url: https://datatracker.ietf.org/group/doh/history/
+chairs:
+- person: 117988
+  name: Benjamin Schwartz
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-09-28'
+    end:
+      certainty: group-closed
+      date: '2020-03-17'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-doh-dns-over-https
+- person: 120845
+  name: David Lawrence
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-09-28'
+    end:
+      certainty: group-closed
+      date: '2020-03-17'

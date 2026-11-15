@@ -1,0 +1,107 @@
+acronym: scim
+name: System for Cross-domain Identity Management
+type: wg
+parent: sec
+state: active
+started: '2012-05-07'
+closed: null
+history_url: https://datatracker.ietf.org/group/scim/history/
+chairs:
+- person: 2097
+  name: Eliot Lear
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2012-02-23'
+    end:
+      certainty: between
+      not_before: '2012-02-23'
+      not_after: '2015-05-29'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-scim-events
+- person: 5797
+  name: Steven Bellovin
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2012-02-23'
+    end:
+      certainty: between
+      not_before: '2012-02-23'
+      not_after: '2015-05-29'
+- person: 21684
+  name: Barry Leiba
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-11-04'
+    end:
+      certainty: exact
+      date: '2021-12-03'
+- person: 105785
+  name: Nancy Cam-Winget
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-09-30'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2021-10-08'
+    subject: 'WG Review: System for Cross-domain Identity Management (scim)'
+    message_id: 163371646627.27211.16710889729545527626@ietfa.amsl.com
+  - kind: WG Action
+    date: '2021-10-22'
+    subject: 'WG Action: Rechartered System for Cross-domain Identity Management (scim)'
+    message_id: 163492995218.5187.12560132273011733652@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-scim-cursor-pagination
+    - draft-ietf-scim-device-model
+- person: 110406
+  name: Leif Johansson
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2012-02-23'
+      not_after: '2015-05-29'
+    end:
+      certainty: exact
+      date: '2021-09-30'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-scim-api
+    - draft-ietf-scim-core-schema
+- person: 113270
+  name: Morteza Ansari
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2012-02-23'
+      not_after: '2015-05-29'
+    end:
+      certainty: exact
+      date: '2021-09-30'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-scim-use-cases
+- person: 122973
+  name: Aaron Parecki
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-02-10'
+    end:
+      certainty: ongoing

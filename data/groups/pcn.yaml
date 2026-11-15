@@ -1,0 +1,60 @@
+acronym: pcn
+name: Congestion and Pre-Congestion Notification
+type: wg
+parent: tsv
+state: conclude
+started: '2007-02-07'
+closed: '2012-07-19'
+history_url: https://datatracker.ietf.org/group/pcn/history/
+chairs:
+- person: 2324
+  name: Scott Bradner
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2008-07-27'
+      not_before: '2007-02-07'
+    end:
+      certainty: group-closed
+      date: '2012-07-19'
+    notes:
+    - start moved earlier by session request for IETF 72
+  evidence:
+  - kind: session requests
+    meetings:
+    - '72'
+    - '75'
+    - '77'
+    - '79'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 106638
+  name: Steven Blake
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-07-22'
+      not_before: '2007-02-07'
+    end:
+      certainty: group-closed
+      date: '2012-07-19'
+    notes:
+    - start moved earlier by session request for IETF 69
+  evidence:
+  - kind: session requests
+    meetings:
+    - '69'
+    - '70'
+    - '71'
+    - '73'
+    - '74'
+    - '76'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-pcn-cl-edge-behaviour
+    - draft-ietf-pcn-encoding-comparison
+    - draft-ietf-pcn-signaling-requirements
+    - draft-ietf-pcn-sm-edge-behaviour

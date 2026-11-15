@@ -1,0 +1,58 @@
+acronym: bpm
+name: Benchmarking & Performance Measurements
+type: wg
+parent: ops
+state: active
+started: '2026-09-10'
+closed: null
+history_url: https://datatracker.ietf.org/group/bpm/history/
+chairs:
+- person: 118407
+  name: Marcus Ihlar
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2026-10-08'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Action
+    date: '2026-10-29'
+    subject: 'WG Action: Formed Benchmarking & Performance Measurements (bpm)'
+    message_id: 179328276181.683357.4781705743070586047@dt-datatracker-7dc874ff8f-5wfjq
+  - kind: shepherded
+    documents:
+    - draft-ietf-bpm-alt-mark-deployment
+    - draft-ietf-ippm-responsiveness
+- person: 118908
+  name: Giuseppe Fioccola
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2026-10-08'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Action
+    date: '2026-10-29'
+    subject: 'WG Action: Formed Benchmarking & Performance Measurements (bpm)'
+    message_id: 179328276181.683357.4781705743070586047@dt-datatracker-7dc874ff8f-5wfjq
+- person: 125623
+  name: Thomas Graf
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2026-10-08'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Action
+    date: '2026-10-29'
+    subject: 'WG Action: Formed Benchmarking & Performance Measurements (bpm)'
+    message_id: 179328276181.683357.4781705743070586047@dt-datatracker-7dc874ff8f-5wfjq
+  - kind: shepherded
+    documents:
+    - draft-ietf-ippm-hybrid-two-step

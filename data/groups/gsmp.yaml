@@ -1,0 +1,31 @@
+acronym: gsmp
+name: General Switch Management Protocol
+type: wg
+parent: sub
+state: conclude
+started: '1999-01-07'
+closed: '2004-01-08'
+history_url: https://datatracker.ietf.org/group/gsmp/history/
+chairs:
+- person: 3747
+  name: avri doria
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-01-08'
+      not_before: '1999-01-07'
+    end:
+      certainty: group-closed
+      date: '2004-01-08'
+- person: 19643
+  name: Kenneth Sundell
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-01-08'
+      not_before: '1999-01-07'
+    end:
+      certainty: group-closed
+      date: '2004-01-08'

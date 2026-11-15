@@ -1,0 +1,215 @@
+acronym: netconf
+name: Network Configuration
+type: wg
+parent: ops
+state: active
+started: '2002-06-01'
+closed: null
+history_url: https://datatracker.ietf.org/group/netconf/history/
+chairs:
+- person: 6842
+  name: Bert Wijnen
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2009-02-03'
+      not_before: '2002-06-01'
+    end:
+      certainty: exact
+      date: '2014-11-13'
+    notes:
+    - start moved earlier by WG Action announcement of 2009-02-03
+  evidence:
+  - kind: WG Review
+    date: '2009-01-15'
+    subject: 'WG Review: Recharter of Network Configuration (netconf)'
+    message_id: null
+  - kind: WG Action
+    date: '2009-02-03'
+    subject: 'WG Action: RECHARTER: Network Configuration (netconf)'
+    message_id: null
+  - kind: WG Action
+    date: '2011-07-21'
+    subject: 'WG Action: RECHARTER: Network Configuration (netconf)'
+    message_id: null
+  - kind: WG Review
+    date: '2014-02-07'
+    subject: 'WG Review: Network Configuration (netconf)'
+    message_id: null
+- person: 8244
+  name: Andy Bierman
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2005-12-21'
+    end:
+      certainty: evidence-only
+      not_before: '2007-11-26'
+  evidence:
+  - kind: WG Action
+    date: '2005-12-21'
+    subject: 'WG Action: RECHARTER: Network Configuration (netconf)'
+    message_id: null
+  - kind: WG Action
+    date: '2007-11-26'
+    subject: 'WG Action: RECHARTER: Network Configuration WG (netconf)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    - '68'
+    - '69'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 105537
+  name: Mehmet Ersue
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2008-03-09'
+      not_before: '2002-06-01'
+    end:
+      certainty: exact
+      date: '2017-07-27'
+    notes:
+    - start moved earlier by session request for IETF 71
+  evidence:
+  - kind: WG Review
+    date: '2009-01-15'
+    subject: 'WG Review: Recharter of Network Configuration (netconf)'
+    message_id: null
+  - kind: WG Action
+    date: '2009-02-03'
+    subject: 'WG Action: RECHARTER: Network Configuration (netconf)'
+    message_id: null
+  - kind: WG Action
+    date: '2011-07-21'
+    subject: 'WG Action: RECHARTER: Network Configuration (netconf)'
+    message_id: null
+  - kind: WG Review
+    date: '2014-02-07'
+    subject: 'WG Review: Network Configuration (netconf)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    - '75'
+    - '76'
+    - '77'
+    - '78'
+    - '79'
+    - '80'
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-netconf-restconf
+    - draft-ietf-netconf-rfc5539bis
+- person: 107859
+  name: Mahesh Jethanandani
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-11-13'
+    end:
+      certainty: exact
+      date: '2024-01-31'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-netconf-call-home
+    - draft-ietf-netconf-crypto-types
+    - draft-ietf-netconf-http-client-server
+    - draft-ietf-netconf-nmda-netconf
+    - draft-ietf-netconf-nmda-restconf
+    - draft-ietf-netconf-rfc6536bis
+    - draft-ietf-netconf-rfc7895bis
+    - draft-ietf-netconf-sztp-csr
+    - draft-ietf-netconf-yang-library
+    - draft-ietf-netconf-yang-patch
+    - draft-ietf-netconf-zerotouch
+- person: 112548
+  name: Kent Watsen
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-07-10'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2026-09-17'
+    subject: 'WG Review: Network Configuration (netconf)'
+    message_id: 178968222928.1405158.17467874184263268795@dt-datatracker-597c8c8754-4t7c8
+  - kind: WG Action
+    date: '2026-10-09'
+    subject: 'WG Action: Rechartered Network Configuration (netconf)'
+    message_id: 179157247553.783.12609547936821953632@dt-datatracker-66f49ddcbd-klxkm
+  - kind: shepherded
+    documents:
+    - draft-ietf-netconf-netconf-event-notifications
+    - draft-ietf-netconf-notification-capabilities
+    - draft-ietf-netconf-over-tls13
+    - draft-ietf-netconf-port-numbers
+    - draft-ietf-netconf-quic-client-server
+    - draft-ietf-netconf-restconf-notif
+    - draft-ietf-netconf-subscribed-notifications
+    - draft-ietf-netconf-yang-push
+- person: 125607
+  name: Simon Leinen
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2005-12-21'
+    end:
+      certainty: evidence-only
+      not_before: '2007-12-02'
+  evidence:
+  - kind: WG Action
+    date: '2005-12-21'
+    subject: 'WG Action: RECHARTER: Network Configuration (netconf)'
+    message_id: null
+  - kind: WG Action
+    date: '2007-11-26'
+    subject: 'WG Action: RECHARTER: Network Configuration WG (netconf)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '70'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 127714
+  name: Per Andersson
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-01-31'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2026-09-17'
+    subject: 'WG Review: Network Configuration (netconf)'
+    message_id: 178968222928.1405158.17467874184263268795@dt-datatracker-597c8c8754-4t7c8
+  - kind: WG Action
+    date: '2026-10-09'
+    subject: 'WG Action: Rechartered Network Configuration (netconf)'
+    message_id: 179157247553.783.12609547936821953632@dt-datatracker-66f49ddcbd-klxkm
+  - kind: shepherded
+    documents:
+    - draft-ietf-netconf-restconf-trace-ctx-headers
+    - draft-ietf-netconf-ssh-client-server
+    - draft-ietf-netconf-tcp-client-server
+    - draft-ietf-netconf-trace-ctx-extension
+    - draft-ietf-netconf-transaction-id

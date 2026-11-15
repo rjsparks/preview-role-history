@@ -1,0 +1,58 @@
+acronym: l1vpn
+name: Layer 1 Virtual Private Networks
+type: wg
+parent: rtg
+state: conclude
+started: '2005-05-18'
+closed: '2009-03-27'
+history_url: https://datatracker.ietf.org/group/l1vpn/history/
+chairs:
+- person: 102655
+  name: Hamid Ould-Brahim
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-03-18'
+      not_before: '2005-05-18'
+    end:
+      certainty: group-closed
+      date: '2009-03-27'
+    notes:
+    - start moved earlier by session request for IETF 68
+  evidence:
+  - kind: session requests
+    meetings:
+    - '68'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 104198
+  name: Adrian Farrel
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2009-03-27'
+      not_before: '2005-05-18'
+    end:
+      certainty: group-closed
+      date: '2009-03-27'
+- person: 106581
+  name: Tomonori Takeda
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '2005-05-18'
+    end:
+      certainty: group-closed
+      date: '2009-03-27'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

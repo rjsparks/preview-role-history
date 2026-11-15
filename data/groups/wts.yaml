@@ -1,0 +1,20 @@
+acronym: wts
+name: Web Transaction Security
+type: wg
+parent: sec
+state: conclude
+started: '1995-04-13'
+closed: '2001-07-16'
+history_url: https://datatracker.ietf.org/group/wts/history/
+chairs:
+- person: 4805
+  name: Charlie Kaufman
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2001-07-16'
+      not_before: '1995-04-13'
+    end:
+      certainty: group-closed
+      date: '2001-07-16'

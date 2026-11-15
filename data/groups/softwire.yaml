@@ -1,0 +1,155 @@
+acronym: softwire
+name: Softwires
+type: wg
+parent: int
+state: conclude
+started: '2005-10-10'
+closed: '2019-11-22'
+history_url: https://datatracker.ietf.org/group/softwire/history/
+chairs:
+- person: 23057
+  name: David Ward
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2005-12-08'
+    end:
+      certainty: evidence-only
+      not_before: '2005-12-08'
+  evidence:
+  - kind: WG Action
+    date: '2005-12-08'
+    subject: 'WG Action: Softwires (softwire)'
+    message_id: null
+- person: 105328
+  name: Alain Durand
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-12-08'
+      not_before: '2005-10-10'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2012-06-20'
+    notes:
+    - start moved earlier by WG Action announcement of 2005-12-08
+  evidence:
+  - kind: WG Action
+    date: '2005-12-08'
+    subject: 'WG Action: Softwires (softwire)'
+    message_id: null
+  - kind: WG Review
+    date: '2011-03-21'
+    subject: 'WG Review: Recharter of Softwires (softwire)'
+    message_id: null
+  - kind: WG Review
+    date: '2011-03-21'
+    subject: 'WG Review: Recharter of Recharter of Softwires (softwire)'
+    message_id: null
+  - kind: WG Review
+    date: '2011-04-19'
+    subject: 'WG Review: Recharter of Softwires (softwire)'
+    message_id: null
+  - kind: WG Action
+    date: '2011-05-31'
+    subject: 'WG Action: RECHARTER: Softwires (softwire)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '65'
+    - '67'
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    - '75'
+    - '76'
+    - '77'
+    - '78'
+    - '79'
+    - '80'
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 106412
+  name: Suresh Krishnan
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2012-06-20'
+    end:
+      certainty: exact
+      date: '2016-04-07'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-softwire-4rd
+    - draft-ietf-softwire-lw4over6
+    - draft-ietf-softwire-map
+    - draft-ietf-softwire-map-dhcp
+    - draft-ietf-softwire-map-t
+    - draft-ietf-softwire-mesh-mib
+    - draft-ietf-softwire-public-4over6
+- person: 108848
+  name: Yong Cui
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-05-31'
+      not_before: '2005-10-10'
+    end:
+      certainty: group-closed
+      date: '2019-11-22'
+    notes:
+    - start moved earlier by WG Action announcement of 2011-05-31
+  evidence:
+  - kind: WG Review
+    date: '2011-03-21'
+    subject: 'WG Review: Recharter of Softwires (softwire)'
+    message_id: null
+  - kind: WG Review
+    date: '2011-03-21'
+    subject: 'WG Review: Recharter of Recharter of Softwires (softwire)'
+    message_id: null
+  - kind: WG Review
+    date: '2011-04-19'
+    subject: 'WG Review: Recharter of Softwires (softwire)'
+    message_id: null
+  - kind: WG Action
+    date: '2011-05-31'
+    subject: 'WG Action: RECHARTER: Softwires (softwire)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-softwire-dslite-deployment
+    - draft-ietf-softwire-dslite-mib
+    - draft-ietf-softwire-iftunnel
+    - draft-ietf-softwire-map-mib
+    - draft-ietf-softwire-stateless-4v6-motivation
+    - draft-ietf-softwire-unified-cpe
+- person: 113585
+  name: Ian Farrer
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-03-03'
+    end:
+      certainty: group-closed
+      date: '2019-11-22'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-softwire-dslite-multicast
+    - draft-ietf-softwire-dslite-yang
+    - draft-ietf-softwire-map-radius
+    - draft-ietf-softwire-mesh-multicast
+    - draft-ietf-softwire-multicast-prefix-option

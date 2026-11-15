@@ -1,0 +1,20 @@
+acronym: ipv6mib
+name: IPv6 MIB
+type: wg
+parent: int
+state: conclude
+started: '1995-03-06'
+closed: '1997-10-16'
+history_url: https://datatracker.ietf.org/group/ipv6mib/history/
+chairs:
+- person: 8220
+  name: David Arneson
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1997-10-16'
+      not_before: '1995-03-06'
+    end:
+      certainty: group-closed
+      date: '1997-10-16'

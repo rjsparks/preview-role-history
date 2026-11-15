@@ -1,0 +1,31 @@
+acronym: tip
+name: Transaction Internet Protocol
+type: wg
+parent: app
+state: conclude
+started: '1997-06-10'
+closed: '1998-10-22'
+history_url: https://datatracker.ietf.org/group/tip/history/
+chairs:
+- person: 20780
+  name: Jim Lyon
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1998-10-22'
+      not_before: '1997-06-10'
+    end:
+      certainty: group-closed
+      date: '1998-10-22'
+- person: 21647
+  name: Keith Evans
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1998-10-22'
+      not_before: '1997-06-10'
+    end:
+      certainty: group-closed
+      date: '1998-10-22'

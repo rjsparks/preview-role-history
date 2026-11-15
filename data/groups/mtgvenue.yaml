@@ -1,0 +1,78 @@
+acronym: mtgvenue
+name: Meeting Venue
+type: wg
+parent: gen
+state: conclude
+started: '2016-02-26'
+closed: '2020-04-29'
+history_url: https://datatracker.ietf.org/group/mtgvenue/history/
+chairs:
+- person: 2853
+  name: Fred Baker
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2016-02-26'
+      not_before: '2016-02-26'
+    end:
+      certainty: exact
+      date: '2016-06-06'
+- person: 14966
+  name: Ray Pelletier
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-03-09'
+    end:
+      certainty: exact
+      date: '2016-03-09'
+- person: 18321
+  name: Pete Resnick
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-03-08'
+    end:
+      certainty: group-closed
+      date: '2020-04-29'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-mtgvenue-iaoc-venue-selection-process
+- person: 101104
+  name: Melinda Shore
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-06-30'
+    end:
+      certainty: exact
+      date: '2017-03-08'
+- person: 105800
+  name: Jonne Soininen
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-06-30'
+    end:
+      certainty: exact
+      date: '2017-03-08'
+- person: 112611
+  name: Charles Eckel
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-03-08'
+    end:
+      certainty: group-closed
+      date: '2020-04-29'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-mtgvenue-meeting-policy

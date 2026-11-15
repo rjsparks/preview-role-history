@@ -1,0 +1,38 @@
+acronym: trans
+name: Public Notary Transparency
+type: wg
+parent: sec
+state: conclude
+started: '2014-01-14'
+closed: '2021-08-31'
+history_url: https://datatracker.ietf.org/group/trans/history/
+chairs:
+- person: 101104
+  name: Melinda Shore
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-02-14'
+    end:
+      certainty: group-closed
+      date: '2021-08-31'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-trans-gossip
+    - draft-ietf-trans-threat-analysis
+- person: 112723
+  name: Paul Wouters
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-05-22'
+    end:
+      certainty: group-closed
+      date: '2021-08-31'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-trans-rfc6962-bis

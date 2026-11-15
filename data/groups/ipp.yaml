@@ -1,0 +1,20 @@
+acronym: ipp
+name: Internet Printing Protocol
+type: wg
+parent: app
+state: conclude
+started: '1997-03-06'
+closed: '2004-08-25'
+history_url: https://datatracker.ietf.org/group/ipp/history/
+chairs:
+- person: 18339
+  name: Carl-Uno Manros
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-08-25'
+      not_before: '1997-03-06'
+    end:
+      certainty: group-closed
+      date: '2004-08-25'

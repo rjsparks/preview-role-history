@@ -1,0 +1,195 @@
+acronym: netmod
+name: Network Modeling
+type: wg
+parent: ops
+state: active
+started: '2008-04-03'
+closed: null
+history_url: https://datatracker.ietf.org/group/netmod/history/
+chairs:
+- person: 8319
+  name: David Partain
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2008-07-27'
+    end:
+      certainty: evidence-only
+      not_before: '2010-11-07'
+  evidence:
+  - kind: WG Review
+    date: '2010-10-14'
+    subject: 'WG Review: Recharter of NETCONF Data Modeling Language (netmod)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '72'
+    - '74'
+    - '75'
+    - '76'
+    - '77'
+    - '78'
+    - '79'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 10064
+  name: Lou Berger
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-02-22'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-netmod-acl-extensions
+    - draft-ietf-netmod-artwork-folding
+    - draft-ietf-netmod-entity
+    - draft-ietf-netmod-intf-ext-yang
+    - draft-ietf-netmod-revised-datastores
+    - draft-ietf-netmod-routing-cfg
+    - draft-ietf-netmod-sub-intf-vlan-model
+    - draft-ietf-netmod-yang-model-classification
+    - draft-ietf-netmod-yang-module-filename
+    - draft-ietf-netmod-yang-module-versioning
+    - draft-ietf-netmod-yang-semver
+- person: 19587
+  name: David Kessens
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-10-26'
+      not_before: '2008-04-03'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2014-01-13'
+    notes:
+    - start moved earlier by WG Action announcement of 2010-10-26
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2014-01-13'
+    end:
+      certainty: exact
+      date: '2014-01-13'
+  evidence:
+  - kind: WG Review
+    date: '2010-10-14'
+    subject: 'WG Review: Recharter of NETCONF Data Modeling Language (netmod)'
+    message_id: null
+  - kind: WG Action
+    date: '2010-10-26'
+    subject: 'WG Action: RECHARTER: NETCONF Data Modeling Language (netmod)'
+    message_id: null
+  - kind: WG Action
+    date: '2012-02-07'
+    subject: 'WG Action: RECHARTER: NETCONF Data Modeling Language (netmod)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '80'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-netmod-rfc6021-bis
+- person: 20959
+  name: Joel Jaeggli
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-12-15'
+    end:
+      certainty: exact
+      date: '2022-10-13'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-netmod-module-tags
+    - draft-ietf-netmod-nmda-diff
+    - draft-ietf-netmod-rfc7223bis
+    - draft-ietf-netmod-rfc7277bis
+    - draft-ietf-netmod-rfc8022bis
+    - draft-ietf-netmod-schema-mount
+    - draft-ietf-netmod-yang-data-ext
+    - draft-ietf-netmod-yang-tree-diagrams
+- person: 21106
+  name: Jürgen Schönwälder
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-10-26'
+      not_before: '2008-04-03'
+    end:
+      certainty: exact
+      date: '2016-06-27'
+    notes:
+    - start moved earlier by WG Action announcement of 2010-10-26
+  evidence:
+  - kind: WG Action
+    date: '2010-10-26'
+    subject: 'WG Action: RECHARTER: NETCONF Data Modeling Language (netmod)'
+    message_id: null
+  - kind: WG Action
+    date: '2012-02-07'
+    subject: 'WG Action: RECHARTER: NETCONF Data Modeling Language (netmod)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '81'
+    - '82'
+    - '83'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-netmod-iana-afn-safi
+    - draft-ietf-netmod-iana-if-type
+    - draft-ietf-netmod-iana-timezones
+    - draft-ietf-netmod-rfc6020bis
+    - draft-ietf-netmod-system-mgmt
+- person: 104197
+  name: Thomas Nadeau
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-01-13'
+    end:
+      certainty: exact
+      date: '2016-02-22'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-netmod-interfaces-cfg
+    - draft-ietf-netmod-ip-cfg
+    - draft-ietf-netmod-snmp-cfg
+- person: 112548
+  name: Kent Watsen
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-05-13'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-netmod-acl-model
+    - draft-ietf-netmod-factory-default
+    - draft-ietf-netmod-geo-location
+    - draft-ietf-netmod-immutable-flag
+    - draft-ietf-netmod-node-tags
+    - draft-ietf-netmod-rfc6020-iana-update
+    - draft-ietf-netmod-rfc6087bis
+    - draft-ietf-netmod-rfc6991-bis
+    - draft-ietf-netmod-syslog-model
+    - draft-ietf-netmod-system-config
+    - draft-ietf-netmod-yang-instance-file-format
+    - draft-ietf-netmod-yang-json
+    - draft-ietf-netmod-yang-metadata

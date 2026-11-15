@@ -1,0 +1,41 @@
+acronym: iasa2
+name: IETF Administrative Support Activity 2
+type: wg
+parent: gen
+state: conclude
+started: '2018-03-28'
+closed: '2020-03-05'
+history_url: https://datatracker.ietf.org/group/iasa2/history/
+chairs:
+- person: 104557
+  name: Jon Peterson
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2018-04-19'
+    end:
+      certainty: group-closed
+      date: '2020-03-05'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-iasa2-consolidated-upd
+    - draft-ietf-iasa2-rfc2031bis
+    - draft-ietf-iasa2-rfc4071bis
+    - draft-ietf-iasa2-rfc5377bis
+    - draft-ietf-iasa2-rfc7437bis
+    - draft-ietf-iasa2-rfc7776bis
+    - draft-ietf-iasa2-struct
+    - draft-ietf-iasa2-trust-rationale
+    - draft-ietf-iasa2-trust-update
+- person: 107154
+  name: Jason Livingood
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2018-04-19'
+    end:
+      certainty: group-closed
+      date: '2020-03-05'

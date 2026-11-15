@@ -1,0 +1,56 @@
+acronym: abfab
+name: Application Bridging for Federated Access Beyond web
+type: wg
+parent: sec
+state: conclude
+started: '2010-09-16'
+closed: '2016-09-30'
+history_url: https://datatracker.ietf.org/group/abfab/history/
+chairs:
+- person: 109496
+  name: Klaas Wierenga
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-11-13'
+      not_before: '2010-09-16'
+    end:
+      certainty: group-closed
+      date: '2016-09-30'
+    notes:
+    - start moved earlier by session request for IETF 82
+  evidence:
+  - kind: session requests
+    meetings:
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-abfab-aaa-saml
+    - draft-ietf-abfab-eapapplicability
+    - draft-ietf-abfab-gss-eap-naming
+    - draft-ietf-abfab-usecases
+- person: 110406
+  name: Leif Johansson
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-03-27'
+      not_before: '2010-09-16'
+    end:
+      certainty: group-closed
+      date: '2016-09-30'
+    notes:
+    - start moved earlier by session request for IETF 80
+  evidence:
+  - kind: session requests
+    meetings:
+    - '80'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-abfab-arch
+    - draft-ietf-abfab-gss-eap

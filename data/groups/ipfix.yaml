@@ -1,0 +1,111 @@
+acronym: ipfix
+name: IP Flow Information Export
+type: wg
+parent: ops
+state: conclude
+started: '2001-08-17'
+closed: '2015-03-16'
+history_url: https://datatracker.ietf.org/group/ipfix/history/
+chairs:
+- person: 6766
+  name: Nevil Brownlee
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '2001-08-17'
+    end:
+      certainty: group-closed
+      date: '2015-03-16'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: WG Action
+    date: '2006-06-28'
+    subject: 'WG Action: RECHARTER: IP Flow Information Export (ipfix)'
+    message_id: null
+  - kind: WG Review
+    date: '2007-11-08'
+    subject: 'WG Review: Recharter of IP Flow Information Export (ipfix)'
+    message_id: null
+  - kind: WG Action
+    date: '2007-11-26'
+    subject: 'WG Action: RECHARTER: IP Flow Information Export WG (ipfix)'
+    message_id: null
+  - kind: WG Action
+    date: '2011-11-07'
+    subject: 'WG Action: RECHARTER: IP Flow Information Export (ipfix)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    - '73'
+    - '77'
+    - '78'
+    - '79'
+    - '80'
+    - '81'
+    - '82'
+    - '83'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 103651
+  name: Juergen Quittek
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-03-18'
+      not_before: '2001-08-17'
+    end:
+      certainty: group-closed
+      date: '2015-03-16'
+    notes:
+    - start moved earlier by session request for IETF 68
+  evidence:
+  - kind: WG Review
+    date: '2007-11-08'
+    subject: 'WG Review: Recharter of IP Flow Information Export (ipfix)'
+    message_id: null
+  - kind: WG Action
+    date: '2007-11-26'
+    subject: 'WG Action: RECHARTER: IP Flow Information Export WG (ipfix)'
+    message_id: null
+  - kind: WG Action
+    date: '2011-11-07'
+    subject: 'WG Action: RECHARTER: IP Flow Information Export (ipfix)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '74'
+    - '75'
+    - '76'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-ipfix-ie-doctors
+    - draft-ietf-ipfix-information-model-rfc5102bis
+    - draft-ietf-ipfix-protocol-rfc5101bis
+    - draft-ietf-ipfix-text-adt
+- person: 121213
+  name: David Plonka
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-06-28'
+    end:
+      certainty: evidence-only
+      not_before: '2006-06-28'
+  evidence:
+  - kind: WG Action
+    date: '2006-06-28'
+    subject: 'WG Action: RECHARTER: IP Flow Information Export (ipfix)'
+    message_id: null

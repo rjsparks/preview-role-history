@@ -1,0 +1,31 @@
+acronym: ipsra
+name: IP Security Remote Access
+type: wg
+parent: sec
+state: conclude
+started: '2000-02-18'
+closed: '2003-05-13'
+history_url: https://datatracker.ietf.org/group/ipsra/history/
+chairs:
+- person: 10083
+  name: Paul Hoffman
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2003-05-13'
+      not_before: '2000-02-18'
+    end:
+      certainty: group-closed
+      date: '2003-05-13'
+- person: 22937
+  name: Sara Bitan
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2003-05-13'
+      not_before: '2000-02-18'
+    end:
+      certainty: group-closed
+      date: '2003-05-13'

@@ -1,0 +1,20 @@
+acronym: ion
+name: Internetworking Over NBMA
+type: wg
+parent: int
+state: conclude
+started: '1996-05-06'
+closed: '2000-06-15'
+history_url: https://datatracker.ietf.org/group/ion/history/
+chairs:
+- person: 3844
+  name: Andy Malis
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2000-06-15'
+      not_before: '1996-05-06'
+    end:
+      certainty: group-closed
+      date: '2000-06-15'

@@ -1,0 +1,29 @@
+acronym: tmnsnmp
+name: TMN-SNMP
+type: wg
+parent: ops
+state: conclude
+started: null
+closed: '2003-12-10'
+history_url: https://datatracker.ietf.org/group/tmnsnmp/history/
+chairs:
+- person: 5234
+  name: Randy Bush
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2003-12-10'
+    end:
+      certainty: group-closed
+      date: '2003-12-10'
+- person: 6842
+  name: Bert Wijnen
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2003-12-10'
+    end:
+      certainty: group-closed
+      date: '2003-12-10'

@@ -1,0 +1,36 @@
+acronym: hasmat
+name: HTTP Application Security Minus Authentication and Transport
+type: wg
+parent: app
+state: bof-conc
+started: null
+closed: null
+history_url: https://datatracker.ietf.org/group/hasmat/history/
+chairs:
+- person: 105857
+  name: Hannes Tschofenig
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-07-25'
+    end:
+      certainty: group-closed
+      date: '2011-12-09'
+    notes:
+    - start moved earlier by session request for IETF 78
+  evidence:
+  - kind: session requests
+    meetings:
+    - '78'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 110898
+  name: Jeff Hodges
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+    end:
+      certainty: group-closed
+      date: '2011-12-09'

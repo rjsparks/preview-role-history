@@ -1,0 +1,209 @@
+acronym: tls
+name: Transport Layer Security
+type: wg
+parent: sec
+state: active
+started: '1996-05-07'
+closed: null
+history_url: https://datatracker.ietf.org/group/tls/history/
+chairs:
+- person: 12695
+  name: Eric Rescorla
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-01-11'
+      not_before: '1996-05-07'
+    end:
+      certainty: exact
+      date: '2014-07-22'
+    notes:
+    - start moved earlier by WG Action announcement of 2006-01-11
+  evidence:
+  - kind: WG Action
+    date: '2006-01-11'
+    subject: 'WG Action: RECHARTER: Transport Layer Security (tls)'
+    message_id: null
+  - kind: WG Action
+    date: '2011-05-31'
+    subject: 'WG Action: RECHARTER: Transport Layer Security (tls)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '65'
+    - '73'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 19483
+  name: Sean Turner
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-03-11'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2020-03-06'
+    subject: 'WG Review: Transport Layer Security (tls)'
+    message_id: 158351783182.2240.10243717805925476558@ietfa.amsl.com
+  - kind: WG Action
+    date: '2020-04-22'
+    subject: 'WG Action: Rechartered Transport Layer Security (tls)'
+    message_id: 158758375111.29484.11612899425897675469@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-tls-certificate-compression
+    - draft-ietf-tls-chacha20-poly1305
+    - draft-ietf-tls-downgrade-scsv
+    - draft-ietf-tls-dtls-rrc
+    - draft-ietf-tls-dtls13
+    - draft-ietf-tls-encrypt-then-mac
+    - draft-ietf-tls-exported-authenticator
+    - draft-ietf-tls-external-psk-guidance
+    - draft-ietf-tls-falsestart
+    - draft-ietf-tls-grease
+    - draft-ietf-tls-keylogfile
+    - draft-ietf-tls-md5-sha1-deprecate
+    - draft-ietf-tls-mldsa
+    - draft-ietf-tls-negotiated-ff-dhe
+    - draft-ietf-tls-oldversions-deprecate
+    - draft-ietf-tls-record-limit
+    - draft-ietf-tls-rfc4492bis
+    - draft-ietf-tls-rfc8446bis
+    - draft-ietf-tls-session-hash
+    - draft-ietf-tls-super-jumbo-record-limit
+    - draft-ietf-tls-svcb-ech
+    - draft-ietf-tls-ticketrequests
+    - draft-ietf-tls-tls12-frozen
+    - draft-ietf-tls-tls13
+    - draft-ietf-tls-tls13-pkcs1
+    - draft-ietf-tls-tls13-vectors
+    - draft-ietf-tls-tlsflags
+- person: 101208
+  name: Joseph Salowey
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2008-07-27'
+      not_before: '1996-05-07'
+    end:
+      certainty: exact
+      date: '2014-07-22'
+    notes:
+    - start moved earlier by session request for IETF 72
+  - start:
+      certainty: exact
+      date: '2014-07-22'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Action
+    date: '2011-05-31'
+    subject: 'WG Action: RECHARTER: Transport Layer Security (tls)'
+    message_id: null
+  - kind: WG Review
+    date: '2020-03-06'
+    subject: 'WG Review: Transport Layer Security (tls)'
+    message_id: 158351783182.2240.10243717805925476558@ietfa.amsl.com
+  - kind: WG Action
+    date: '2020-04-22'
+    subject: 'WG Action: Rechartered Transport Layer Security (tls)'
+    message_id: 158758375111.29484.11612899425897675469@ietfa.amsl.com
+  - kind: session requests
+    meetings:
+    - '72'
+    - '74'
+    - '75'
+    - '76'
+    - '77'
+    - '78'
+    - '79'
+    - '80'
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-tls-8773bis
+    - draft-ietf-tls-applayerprotoneg
+    - draft-ietf-tls-cached-info
+    - draft-ietf-tls-curve25519
+    - draft-ietf-tls-deprecate-obsolete-kex
+    - draft-ietf-tls-dnssec-chain-extension
+    - draft-ietf-tls-dtls-connection-id
+    - draft-ietf-tls-ecdhe-mlkem
+    - draft-ietf-tls-ecdhe-psk-aead
+    - draft-ietf-tls-esni
+    - draft-ietf-tls-external-psk-importer
+    - draft-ietf-tls-hybrid-design
+    - draft-ietf-tls-mlkem
+    - draft-ietf-tls-oob-pubkey
+    - draft-ietf-tls-padding
+    - draft-ietf-tls-prohibiting-rc4
+    - draft-ietf-tls-sni-encryption
+    - draft-ietf-tls-sslv3-diediedie
+    - draft-ietf-tls-subcerts
+    - draft-ietf-tls-tls13-cert-with-extern-psk
+- person: 106164
+  name: Pasi Eronen
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-01-11'
+    end:
+      certainty: evidence-only
+      not_before: '2008-03-09'
+  evidence:
+  - kind: WG Action
+    date: '2006-01-11'
+    subject: 'WG Action: RECHARTER: Transport Layer Security (tls)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '66'
+    - '67'
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 121595
+  name: Christopher Wood
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2018-07-07'
+    end:
+      certainty: exact
+      date: '2023-11-17'
+  evidence:
+  - kind: WG Review
+    date: '2020-03-06'
+    subject: 'WG Review: Transport Layer Security (tls)'
+    message_id: 158351783182.2240.10243717805925476558@ietfa.amsl.com
+  - kind: WG Action
+    date: '2020-04-22'
+    subject: 'WG Action: Rechartered Transport Layer Security (tls)'
+    message_id: 158758375111.29484.11612899425897675469@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-tls-cross-sni-resumption
+    - draft-ietf-tls-ctls
+- person: 129653
+  name: Deirdre Connolly
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-11-17'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-tls-rfc8447bis

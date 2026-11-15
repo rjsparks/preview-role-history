@@ -1,0 +1,53 @@
+acronym: pquip
+name: Post-Quantum Use In Protocols
+type: wg
+parent: sec
+state: active
+started: '2022-12-13'
+closed: null
+history_url: https://datatracker.ietf.org/group/pquip/history/
+chairs:
+- person: 10083
+  name: Paul Hoffman
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-01-05'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2023-01-09'
+    subject: 'WG Review: Post-Quantum Use In Protocols (pquip)'
+    message_id: 167329119343.4189.13367898460554624977@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-01-20'
+    subject: 'WG Action: Formed Post-Quantum Use In Protocols (pquip)'
+    message_id: 167423446067.3469.2764399571698953682@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-pquip-hbs-state
+    - draft-ietf-pquip-hybrid-signature-spectrums
+    - draft-ietf-pquip-pqc-engineers
+    - draft-ietf-pquip-pqc-hsm-constrained
+    - draft-ietf-pquip-pqt-hybrid-terminology
+- person: 126300
+  name: Sofia Celi
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-12-13'
+    end:
+      certainty: exact
+      date: '2026-02-24'
+  evidence:
+  - kind: WG Review
+    date: '2023-01-09'
+    subject: 'WG Review: Post-Quantum Use In Protocols (pquip)'
+    message_id: 167329119343.4189.13367898460554624977@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-01-20'
+    subject: 'WG Action: Formed Post-Quantum Use In Protocols (pquip)'
+    message_id: 167423446067.3469.2764399571698953682@ietfa.amsl.com

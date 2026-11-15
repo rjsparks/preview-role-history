@@ -1,0 +1,123 @@
+acronym: cfrg
+name: Crypto Forum
+type: rg
+parent: irtf
+state: active
+started: '2002-07-17'
+closed: null
+history_url: https://datatracker.ietf.org/group/cfrg/history/
+chairs:
+- person: 19826
+  name: Ran Canetti
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2002-07-17'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2014-11-13'
+- person: 102154
+  name: Alexey Melnikov
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2014-11-13'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-irtf-cfrg-aead-properties
+    - draft-irtf-cfrg-argon2
+    - draft-irtf-cfrg-chacha20-poly1305
+    - draft-irtf-cfrg-curves
+    - draft-irtf-cfrg-dragonfly
+    - draft-irtf-cfrg-randomness-improvements
+    - draft-irtf-cfrg-re-keying
+- person: 103303
+  name: David McGrew
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2002-07-17'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2014-11-13'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-irtf-cfrg-ocb
+- person: 109225
+  name: Kevin Igoe
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2002-07-17'
+    end:
+      certainty: exact
+      date: '2015-07-12'
+- person: 113609
+  name: Kenny Paterson
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2014-11-13'
+    end:
+      certainty: exact
+      date: '2020-01-14'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-irtf-cfrg-gcmsiv
+- person: 118763
+  name: Stanislav Smyshlyaev
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-01-14'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-fluhrer-lms-more-parm-sets
+    - draft-irtf-cfrg-aead-limits
+    - draft-irtf-cfrg-aegis-aead
+    - draft-irtf-cfrg-cpace
+    - draft-irtf-cfrg-hash-to-curve
+    - draft-irtf-cfrg-hpke
+    - draft-irtf-cfrg-opaque
+    - draft-irtf-cfrg-rsa-blind-signatures
+    - draft-irtf-cfrg-rsa-guidance
+    - draft-irtf-cfrg-spake2
+    - draft-irtf-cfrg-vdaf
+    - draft-irtf-cfrg-voprf
+- person: 122298
+  name: Nick Sullivan
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-05-01'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-irtf-cfrg-frost
+    - draft-irtf-cfrg-kangarootwelve
+    - draft-irtf-cfrg-pairing-friendly-curves
+    - draft-irtf-cfrg-vrf

@@ -1,0 +1,68 @@
+acronym: pkix
+name: Public-Key Infrastructure (X.509)
+type: wg
+parent: sec
+state: conclude
+started: '1995-10-19'
+closed: '2013-10-31'
+history_url: https://datatracker.ietf.org/group/pkix/history/
+chairs:
+- person: 106863
+  name: Stefan Santesson
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2008-07-27'
+      not_before: '1995-10-19'
+    end:
+      certainty: group-closed
+      date: '2013-10-31'
+    notes:
+    - start moved earlier by session request for IETF 72
+  evidence:
+  - kind: session requests
+    meetings:
+    - '72'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-pkix-est
+- person: 109715
+  name: Stephen Kent
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '1995-10-19'
+    end:
+      certainty: group-closed
+      date: '2013-10-31'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '73'
+    - '74'
+    - '75'
+    - '76'
+    - '77'
+    - '78'
+    - '79'
+    - '80'
+    - '81'
+    - '82'
+    - '83'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-pkix-caa

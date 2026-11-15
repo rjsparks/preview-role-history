@@ -1,0 +1,70 @@
+acronym: decade
+name: Decoupled Application Data Enroute
+type: wg
+parent: tsv
+state: conclude
+started: '2010-03-26'
+closed: '2012-09-19'
+history_url: https://datatracker.ietf.org/group/decade/history/
+chairs:
+- person: 2690
+  name: Richard Woundy
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-04-27'
+      not_before: '2010-03-26'
+    end:
+      certainty: group-closed
+      date: '2012-09-19'
+    notes:
+    - start moved earlier by WG Action announcement of 2010-04-27
+  evidence:
+  - kind: WG Action
+    date: '2010-04-27'
+    subject: 'WG Action: DECoupled Application Data Enroute (decade)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '79'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-decade-problem-statement
+- person: 108750
+  name: Song Yongchao
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2010-04-27'
+    end:
+      certainty: evidence-only
+      not_before: '2010-04-27'
+  evidence:
+  - kind: WG Action
+    date: '2010-04-27'
+    subject: 'WG Action: DECoupled Application Data Enroute (decade)'
+    message_id: null
+- person: 109430
+  name: Haibin Song
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-07-25'
+      not_before: '2010-03-26'
+    end:
+      certainty: group-closed
+      date: '2012-09-19'
+    notes:
+    - start moved earlier by session request for IETF 78
+  evidence:
+  - kind: session requests
+    meetings:
+    - '78'
+    - '80'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

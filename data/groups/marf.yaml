@@ -1,0 +1,62 @@
+acronym: marf
+name: Messaging Abuse Reporting Format
+type: wg
+parent: app
+state: conclude
+started: '2009-12-12'
+closed: '2012-06-26'
+history_url: https://datatracker.ietf.org/group/marf/history/
+chairs:
+- person: 21684
+  name: Barry Leiba
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-03-21'
+      not_before: '2009-12-12'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+    notes:
+    - start moved earlier by session request for IETF 77
+  evidence:
+  - kind: session requests
+    meetings:
+    - '77'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-marf-as
+    - draft-ietf-marf-dkim-reporting
+- person: 106842
+  name: Murray Kucherawy
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-07-25'
+      not_before: '2009-12-12'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+    notes:
+    - start moved earlier by session request for IETF 78
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+    end:
+      certainty: group-closed
+      date: '2012-06-26'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '78'
+    - '80'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-marf-authfailure-report
+    - draft-ietf-marf-not-spam-feedback
+    - draft-ietf-marf-redaction
+    - draft-ietf-marf-spf-reporting

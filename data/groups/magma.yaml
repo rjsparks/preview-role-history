@@ -1,0 +1,31 @@
+acronym: magma
+name: Multicast & Anycast Group Membership
+type: wg
+parent: int
+state: conclude
+started: '2001-06-20'
+closed: '2009-03-08'
+history_url: https://datatracker.ietf.org/group/magma/history/
+chairs:
+- person: 20208
+  name: Isidor Kouvelas
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2009-03-08'
+      not_before: '2001-06-20'
+    end:
+      certainty: group-closed
+      date: '2009-03-08'
+- person: 100664
+  name: Brian Haberman
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2009-03-08'
+      not_before: '2001-06-20'
+    end:
+      certainty: group-closed
+      date: '2009-03-08'

@@ -1,0 +1,31 @@
+acronym: ldapbis
+name: LDAP (v3) Revision
+type: wg
+parent: app
+state: conclude
+started: '2000-11-02'
+closed: '2006-06-13'
+history_url: https://datatracker.ietf.org/group/ldapbis/history/
+chairs:
+- person: 103904
+  name: Kurt Zeilenga
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-06-13'
+      not_before: '2000-11-02'
+    end:
+      certainty: group-closed
+      date: '2006-06-13'
+- person: 104380
+  name: Morgan Rl
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-06-13'
+      not_before: '2000-11-02'
+    end:
+      certainty: group-closed
+      date: '2006-06-13'

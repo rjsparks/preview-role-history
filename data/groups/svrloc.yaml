@@ -1,0 +1,20 @@
+acronym: svrloc
+name: Service Location Protocol
+type: wg
+parent: int
+state: conclude
+started: '1990-12-01'
+closed: '2001-05-31'
+history_url: https://datatracker.ietf.org/group/svrloc/history/
+chairs:
+- person: 16916
+  name: Erik Guttman
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2001-05-31'
+      not_before: '1990-12-01'
+    end:
+      certainty: group-closed
+      date: '2001-05-31'

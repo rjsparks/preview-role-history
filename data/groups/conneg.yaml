@@ -1,0 +1,20 @@
+acronym: conneg
+name: Content Negotiation
+type: wg
+parent: app
+state: conclude
+started: '1998-02-05'
+closed: '2000-10-05'
+history_url: https://datatracker.ietf.org/group/conneg/history/
+chairs:
+- person: 110721
+  name: Ted Hardie
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2000-10-05'
+      not_before: '1998-02-05'
+    end:
+      certainty: group-closed
+      date: '2000-10-05'

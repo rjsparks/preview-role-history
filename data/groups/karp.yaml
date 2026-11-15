@@ -1,0 +1,67 @@
+acronym: karp
+name: Keying and Authentication for Routing Protocols
+type: wg
+parent: rtg
+state: conclude
+started: '2010-01-29'
+closed: '2014-05-30'
+history_url: https://datatracker.ietf.org/group/karp/history/
+chairs:
+- person: 3862
+  name: Joel Halpern
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-02-23'
+      not_before: '2010-01-29'
+    end:
+      certainty: group-closed
+      date: '2014-05-30'
+    notes:
+    - start moved earlier by WG Action announcement of 2010-02-23
+  evidence:
+  - kind: WG Action
+    date: '2010-02-23'
+    subject: 'WG Action: Keying and Authentication for Routing Protocols (karp)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '78'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-karp-routing-tcp-analysis
+- person: 21395
+  name: Brian Weis
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-02-23'
+      not_before: '2010-01-29'
+    end:
+      certainty: group-closed
+      date: '2014-05-30'
+    notes:
+    - start moved earlier by WG Action announcement of 2010-02-23
+  evidence:
+  - kind: WG Action
+    date: '2010-02-23'
+    subject: 'WG Action: Keying and Authentication for Routing Protocols (karp)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '77'
+    - '79'
+    - '80'
+    - '81'
+    - '82'
+    - '83'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-karp-crypto-key-table
+    - draft-ietf-karp-ops-model
+    - draft-ietf-karp-ospf-analysis
+    - draft-ietf-karp-threats-reqs

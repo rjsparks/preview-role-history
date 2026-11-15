@@ -1,0 +1,55 @@
+acronym: sdnrg
+name: Software Defined Networking
+type: rg
+parent: irtf
+state: conclude
+started: '2012-06-28'
+closed: '2017-01-09'
+history_url: https://datatracker.ietf.org/group/sdnrg/history/
+chairs:
+- person: 103708
+  name: David Meyer
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2012-06-28'
+      not_after: '2014-11-11'
+    end:
+      certainty: exact
+      date: '2015-09-16'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-irtf-sdnrg-layer-terminology
+- person: 105720
+  name: Kohei Shiomoto
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-11-05'
+    end:
+      certainty: group-closed
+      date: '2017-01-09'
+- person: 109558
+  name: Daniel King
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-11-11'
+    end:
+      certainty: group-closed
+      date: '2017-01-09'
+- person: 114812
+  name: Nick Feamster
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2012-06-28'
+      not_after: '2014-11-11'
+    end:
+      certainty: exact
+      date: '2014-11-11'

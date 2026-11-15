@@ -1,0 +1,104 @@
+acronym: suit
+name: Software Updates for Internet of Things
+type: wg
+parent: sec
+state: active
+started: '2017-10-13'
+closed: null
+history_url: https://datatracker.ietf.org/group/suit/history/
+chairs:
+- person: 5376
+  name: Russ Housley
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2017-10-13'
+      not_before: '2017-10-13'
+    end:
+      certainty: exact
+      date: '2023-11-01'
+  evidence:
+  - kind: WG Review
+    date: '2021-12-06'
+    subject: 'WG Review: Software Updates for Internet of Things (suit)'
+    message_id: 163882612198.32151.15275050155695497916@ietfa.amsl.com
+  - kind: WG Action
+    date: '2021-12-17'
+    subject: 'WG Action: Rechartered Software Updates for Internet of Things (suit)'
+    message_id: 163976599902.4734.13632661277320591228@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-suit-architecture
+    - draft-ietf-suit-manifest
+    - draft-ietf-suit-mti
+    - draft-ietf-suit-mud
+- person: 15927
+  name: Dave Thaler
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-10-27'
+    end:
+      certainty: exact
+      date: '2024-03-11'
+  evidence:
+  - kind: WG Review
+    date: '2021-12-06'
+    subject: 'WG Review: Software Updates for Internet of Things (suit)'
+    message_id: 163882612198.32151.15275050155695497916@ietfa.amsl.com
+  - kind: WG Action
+    date: '2021-12-17'
+    subject: 'WG Action: Rechartered Software Updates for Internet of Things (suit)'
+    message_id: 163976599902.4734.13632661277320591228@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-suit-information-model
+    - draft-ietf-suit-trust-domains
+- person: 111953
+  name: David Waltermire
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2017-10-13'
+      not_before: '2017-10-13'
+    end:
+      certainty: exact
+      date: '2025-03-10'
+  evidence:
+  - kind: WG Review
+    date: '2021-12-06'
+    subject: 'WG Review: Software Updates for Internet of Things (suit)'
+    message_id: 163882612198.32151.15275050155695497916@ietfa.amsl.com
+  - kind: WG Action
+    date: '2021-12-17'
+    subject: 'WG Action: Rechartered Software Updates for Internet of Things (suit)'
+    message_id: 163976599902.4734.13632661277320591228@ietfa.amsl.com
+- person: 125657
+  name: Akira Tsukamoto
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-03-11'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-suit-firmware-encryption
+- person: 143542
+  name: Jacqueline McCall
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-11-22'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-suit-report

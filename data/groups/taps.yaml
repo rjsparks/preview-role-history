@@ -1,0 +1,76 @@
+acronym: taps
+name: Transport Services
+type: wg
+parent: wit
+state: conclude
+started: '2014-01-22'
+closed: '2025-03-17'
+history_url: https://datatracker.ietf.org/group/taps/history/
+chairs:
+- person: 21226
+  name: Aaron Falk
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-06-24'
+    end:
+      certainty: group-closed
+      date: '2025-03-17'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-taps-transports
+- person: 103877
+  name: Michael Welzl
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-02-17'
+    end:
+      certainty: approximate
+      date: '2014-06-14'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-taps-arch
+- person: 106842
+  name: Murray Kucherawy
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-02-17'
+    end:
+      certainty: approximate
+      date: '2014-06-14'
+- person: 109753
+  name: Zaheduzzaman Sarker
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-04-03'
+    end:
+      certainty: exact
+      date: '2021-02-02'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-taps-transports-usage
+    - draft-ietf-taps-transports-usage-udp
+- person: 123344
+  name: Reese Enghardt
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-02-02'
+    end:
+      certainty: group-closed
+      date: '2025-03-17'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-taps-minset

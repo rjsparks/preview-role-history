@@ -1,0 +1,20 @@
+acronym: sigtran
+name: Signaling Transport
+type: wg
+parent: rai
+state: conclude
+started: '1998-11-10'
+closed: '2009-03-19'
+history_url: https://datatracker.ietf.org/group/sigtran/history/
+chairs:
+- person: 23036
+  name: Lyndon Ong
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2009-03-19'
+      not_before: '1998-11-10'
+    end:
+      certainty: group-closed
+      date: '2009-03-19'

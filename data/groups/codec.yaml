@@ -1,0 +1,75 @@
+acronym: codec
+name: Internet Wideband Audio Codec
+type: wg
+parent: art
+state: conclude
+started: '2009-12-10'
+closed: '2018-09-20'
+history_url: https://datatracker.ietf.org/group/codec/history/
+chairs:
+- person: 2250
+  name: Jonathan Rosenberg
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2009-12-10'
+    end:
+      certainty: exact
+      date: '2015-02-24'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-codec-opus
+- person: 105791
+  name: Cullen Jennings
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-07-25'
+      not_before: '2009-12-10'
+    end:
+      certainty: exact
+      date: '2013-01-11'
+    notes:
+    - start moved earlier by session request for IETF 78
+  evidence:
+  - kind: session requests
+    meetings:
+    - '78'
+    - '79'
+    - '80'
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 112724
+  name: Timothy Terriberry
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2012-09-17'
+    end:
+      certainty: group-closed
+      date: '2018-09-20'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-codec-ambisonics
+    - draft-ietf-codec-opus-update
+- person: 116331
+  name: Mo Zanaty
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-02-24'
+    end:
+      certainty: group-closed
+      date: '2018-09-20'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-codec-oggopus

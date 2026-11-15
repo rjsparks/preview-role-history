@@ -1,0 +1,64 @@
+acronym: pals
+name: Pseudowire And LDP-enabled Services
+type: wg
+parent: rtg
+state: conclude
+started: '2014-10-10'
+closed: '2025-05-09'
+history_url: https://datatracker.ietf.org/group/pals/history/
+chairs:
+- person: 2329
+  name: Stewart Bryant
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2014-10-10'
+      not_before: '2014-10-10'
+    end:
+      certainty: group-closed
+      date: '2025-05-09'
+  evidence:
+  - kind: WG Review
+    date: '2014-10-17'
+    subject: 'WG Review: Pseudowire And LDP-enabled Services (pals)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-l2vpn-vpls-pe-etree
+    - draft-ietf-pals-endpoint-fast-protection
+    - draft-ietf-pals-mpls-tp-dual-homing-coordination
+    - draft-ietf-pals-mpls-tp-dual-homing-protection
+    - draft-ietf-pals-mpls-tp-pw-over-bidir-lsp
+    - draft-ietf-pals-ms-pw-protection
+    - draft-ietf-pals-p2mp-pw
+    - draft-ietf-pals-ple
+    - draft-ietf-pals-rfc4447bis
+    - draft-ietf-pals-status-reduction
+- person: 3844
+  name: Andy Malis
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2014-10-10'
+      not_before: '2014-10-10'
+    end:
+      certainty: group-closed
+      date: '2025-05-09'
+  evidence:
+  - kind: WG Review
+    date: '2014-10-17'
+    subject: 'WG Review: Pseudowire And LDP-enabled Services (pals)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-gp-pals-seamless-vccv
+    - draft-ietf-pals-congcons
+    - draft-ietf-pals-mc-pon
+    - draft-ietf-pals-mpls-tp-mac-wd
+    - draft-ietf-pals-p2mp-pw-lsp-ping
+    - draft-ietf-pals-seamless-vccv
+    - draft-ietf-pals-vpls-pim-snooping
+    - draft-ietf-pwe3-congcons
+    - draft-ietf-pwe3-iccp-stp

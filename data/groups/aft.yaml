@@ -1,0 +1,20 @@
+acronym: aft
+name: Authenticated Firewall Traversal
+type: wg
+parent: sec
+state: conclude
+started: '1994-08-26'
+closed: '2002-10-09'
+history_url: https://datatracker.ietf.org/group/aft/history/
+chairs:
+- person: 17795
+  name: Wei Lu
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2002-10-09'
+      not_before: '1994-08-26'
+    end:
+      certainty: group-closed
+      date: '2002-10-09'

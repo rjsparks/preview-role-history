@@ -1,0 +1,20 @@
+acronym: bgp
+name: Border Gateway Protocol
+type: wg
+parent: rtg
+state: conclude
+started: '1989-01-01'
+closed: '1994-08-15'
+history_url: https://datatracker.ietf.org/group/bgp/history/
+chairs:
+- person: 10535
+  name: Yakov Rekhter
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1994-08-15'
+      not_before: '1989-01-01'
+    end:
+      certainty: group-closed
+      date: '1994-08-15'

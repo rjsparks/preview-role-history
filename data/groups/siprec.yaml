@@ -1,0 +1,78 @@
+acronym: siprec
+name: SIP Recording
+type: wg
+parent: art
+state: conclude
+started: '2010-02-09'
+closed: '2016-12-23'
+history_url: https://datatracker.ietf.org/group/siprec/history/
+chairs:
+- person: 105805
+  name: John Elwell
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2010-11-07'
+    end:
+      certainty: evidence-only
+      not_before: '2011-07-24'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '79'
+    - '80'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 106987
+  name: Brian Rosen
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-07-25'
+      not_before: '2010-02-09'
+    end:
+      certainty: group-closed
+      date: '2016-12-23'
+    notes:
+    - start moved earlier by session request for IETF 78
+  evidence:
+  - kind: session requests
+    meetings:
+    - '78'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-siprec-architecture
+    - draft-ietf-siprec-metadata
+    - draft-ietf-siprec-protocol
+- person: 111091
+  name: Andrew Hutton
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-11-13'
+      not_before: '2010-02-09'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2014-10-10'
+    notes:
+    - start moved earlier by session request for IETF 82
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2014-10-10'
+    end:
+      certainty: group-closed
+      date: '2016-12-23'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-siprec-callflows

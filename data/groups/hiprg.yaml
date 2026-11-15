@@ -1,0 +1,58 @@
+acronym: hiprg
+name: Host Identity Protocol
+type: rg
+parent: irtf
+state: conclude
+started: null
+closed: '2012-07-24'
+history_url: https://datatracker.ietf.org/group/hiprg/history/
+chairs:
+- person: 105728
+  name: Andrei Gurtov
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-07-09'
+    end:
+      certainty: group-closed
+      date: '2012-07-24'
+    notes:
+    - start moved earlier by session request for IETF 66
+  evidence:
+  - kind: session requests
+    meetings:
+    - '66'
+    - '68'
+    - '71'
+    - '72'
+    - '74'
+    - '75'
+    - '76'
+    - '77'
+    - '78'
+    - '79'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 107003
+  name: Tom Henderson
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+    end:
+      certainty: group-closed
+      date: '2012-07-24'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: session requests
+    meetings:
+    - '65'
+    - '69'
+    - '70'
+    - '73'
+    - '80'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

@@ -1,0 +1,31 @@
+acronym: impp
+name: Instant Messaging and Presence Protocol
+type: wg
+parent: app
+state: conclude
+started: '1998-11-20'
+closed: '2004-09-08'
+history_url: https://datatracker.ietf.org/group/impp/history/
+chairs:
+- person: 1992
+  name: Mark Day
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-09-08'
+      not_before: '1998-11-20'
+    end:
+      certainty: group-closed
+      date: '2004-09-08'
+- person: 8698
+  name: Derek Atkins
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-09-08'
+      not_before: '1998-11-20'
+    end:
+      certainty: group-closed
+      date: '2004-09-08'

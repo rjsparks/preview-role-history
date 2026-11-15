@@ -1,0 +1,42 @@
+acronym: sipp
+name: Simple Internet Protocol Plus
+type: wg
+parent: ipng
+state: conclude
+started: '1994-02-14'
+closed: '1994-11-18'
+history_url: https://datatracker.ietf.org/group/sipp/history/
+chairs:
+- person: 2793
+  name: Bob Hinden
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1994-11-18'
+      not_before: '1994-02-14'
+    end:
+      certainty: group-closed
+      date: '1994-11-18'
+- person: 9009
+  name: Steve Deering
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1994-11-18'
+      not_before: '1994-02-14'
+    end:
+      certainty: group-closed
+      date: '1994-11-18'
+- person: 105085
+  name: Paul Francis
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1994-11-18'
+      not_before: '1994-02-14'
+    end:
+      certainty: group-closed
+      date: '1994-11-18'

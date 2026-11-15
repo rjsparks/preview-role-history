@@ -1,0 +1,20 @@
+acronym: cip
+name: Connection IP
+type: wg
+parent: int
+state: conclude
+started: '1988-10-01'
+closed: '1992-09-11'
+history_url: https://datatracker.ietf.org/group/cip/history/
+chairs:
+- person: 2828
+  name: Claudio Topolcic
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1992-09-11'
+      not_before: '1988-10-01'
+    end:
+      certainty: group-closed
+      date: '1992-09-11'

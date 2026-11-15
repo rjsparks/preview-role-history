@@ -1,0 +1,31 @@
+acronym: snmpconf
+name: Configuration Management with SNMP
+type: wg
+parent: ops
+state: conclude
+started: '2000-01-10'
+closed: '2005-03-25'
+history_url: https://datatracker.ietf.org/group/snmpconf/history/
+chairs:
+- person: 2809
+  name: Jon Saperia
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-03-25'
+      not_before: '2000-01-10'
+    end:
+      certainty: group-closed
+      date: '2005-03-25'
+- person: 8319
+  name: David Partain
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-03-25'
+      not_before: '2000-01-10'
+    end:
+      certainty: group-closed
+      date: '2005-03-25'

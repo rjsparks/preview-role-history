@@ -1,0 +1,155 @@
+acronym: saag
+name: Security Area Open Meeting
+type: ag
+parent: sec
+state: active
+started: null
+closed: null
+history_url: https://datatracker.ietf.org/group/saag/history/
+chairs:
+- person: 12695
+  name: Eric Rescorla
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-03-30'
+    end:
+      certainty: exact
+      date: '2017-03-30'
+- person: 19177
+  name: Stephen Farrell
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+    end:
+      certainty: exact
+      date: '2017-03-30'
+- person: 19483
+  name: Sean Turner
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-11-07'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2017-03-30'
+    notes:
+    - start moved earlier by session request for IETF 79
+  evidence:
+  - kind: session requests
+    meetings:
+    - '79'
+    - '80'
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 19790
+  name: Tim Polk
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2007-07-22'
+    end:
+      certainty: evidence-only
+      not_before: '2010-07-25'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    - '78'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 104851
+  name: Kathleen Moriarty
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2017-03-30'
+    end:
+      certainty: exact
+      date: '2017-03-30'
+  - start:
+      certainty: exact
+      date: '2021-11-07'
+    end:
+      certainty: exact
+      date: '2022-01-18'
+- person: 105815
+  name: Roman Danyliw
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-03-30'
+    end:
+      certainty: exact
+      date: '2024-03-20'
+- person: 108049
+  name: Richard Barnes
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-11-07'
+    end:
+      certainty: exact
+      date: '2022-01-18'
+- person: 112723
+  name: Paul Wouters
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-03-23'
+    end:
+      certainty: exact
+      date: '2026-03-18'
+- person: 113142
+  name: Mohit Sethi
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-11-07'
+    end:
+      certainty: exact
+      date: '2022-01-18'
+- person: 113536
+  name: Christopher Inacio
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2026-03-18'
+    end:
+      certainty: ongoing
+- person: 115214
+  name: Benjamin Kaduk
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-03-30'
+    end:
+      certainty: exact
+      date: '2022-03-23'
+- person: 123703
+  name: Deb Cooley
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-03-20'
+    end:
+      certainty: ongoing

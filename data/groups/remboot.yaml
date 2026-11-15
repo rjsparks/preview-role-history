@@ -1,0 +1,19 @@
+acronym: remboot
+name: Remote Boot Protocol
+type: wg
+parent: int
+state: conclude
+started: null
+closed: null
+history_url: https://datatracker.ietf.org/group/remboot/history/
+chairs:
+- person: 21833
+  name: Mike Henry
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+    end:
+      certainty: group-closed
+      date: '2011-12-09'

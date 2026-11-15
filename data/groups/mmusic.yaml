@@ -1,0 +1,153 @@
+acronym: mmusic
+name: Multiparty Multimedia Session Control
+type: wg
+parent: art
+state: conclude
+started: '1993-04-23'
+closed: '2024-08-14'
+history_url: https://datatracker.ietf.org/group/mmusic/history/
+chairs:
+- person: 11842
+  name: Joerg Ott
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-03-19'
+    end:
+      certainty: evidence-only
+      not_before: '2009-11-08'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '65'
+    - '67'
+    - '69'
+    - '70'
+    - '71'
+    - '74'
+    - '75'
+    - '76'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 102848
+  name: Miguel García
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-07-24'
+      not_before: '1993-04-23'
+    end:
+      certainty: exact
+      date: '2013-01-11'
+    notes:
+    - start moved earlier by session request for IETF 81
+  evidence:
+  - kind: session requests
+    meetings:
+    - '81'
+    - '82'
+    - '83'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-mmusic-media-loopback
+    - draft-ietf-mmusic-sdp-media-capabilities
+- person: 103612
+  name: Jean-Francois Mule
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2007-03-18'
+    end:
+      certainty: evidence-only
+      not_before: '2010-07-25'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '68'
+    - '73'
+    - '77'
+    - '78'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 107031
+  name: Flemming Andreasen
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-03-27'
+      not_before: '1993-04-23'
+    end:
+      certainty: group-closed
+      date: '2024-08-14'
+    notes:
+    - start moved earlier by session request for IETF 80
+  evidence:
+  - kind: session requests
+    meetings:
+    - '80'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-mmusic-4572-update
+    - draft-ietf-mmusic-dtls-sdp
+    - draft-ietf-mmusic-ice-sip-sdp
+    - draft-ietf-mmusic-ice-tcp
+    - draft-ietf-mmusic-msid
+    - draft-ietf-mmusic-mux-exclusive
+    - draft-ietf-mmusic-rfc2326bis
+    - draft-ietf-mmusic-rfc4566bis
+    - draft-ietf-mmusic-rfc8843bis
+    - draft-ietf-mmusic-rid
+    - draft-ietf-mmusic-rtsp-nat
+    - draft-ietf-mmusic-rtsp-nat-evaluation
+    - draft-ietf-mmusic-sctp-sdp
+    - draft-ietf-mmusic-sdp-bundle-negotiation
+    - draft-ietf-mmusic-sdp-cs
+    - draft-ietf-mmusic-sdp-miscellaneous-caps
+    - draft-ietf-mmusic-sdp-simulcast
+    - draft-ietf-mmusic-t140-usage-data-channel
+    - draft-ietf-mmusic-trickle-ice-sip
+    - draft-ietf-mmusic-udptl-dtls
+- person: 108092
+  name: Bo Burman
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-10-16'
+    end:
+      certainty: group-closed
+      date: '2024-08-14'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-mmusic-data-channel-sdpneg
+    - draft-ietf-mmusic-msrp-usage-data-channel
+    - draft-ietf-mmusic-opportunistic-negotiation
+    - draft-ietf-mmusic-proto-iana-registration
+    - draft-ietf-mmusic-sdp-mux-attributes
+    - draft-ietf-mmusic-sdp-uks
+- person: 108990
+  name: Ari Keränen
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2013-01-11'
+    end:
+      certainty: exact
+      date: '2015-10-16'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-mmusic-delayed-duplication
+    - draft-ietf-mmusic-duplication-grouping
+    - draft-ietf-mmusic-ice-dualstack-fairness
+    - draft-ietf-mmusic-latching
+    - draft-ietf-mmusic-media-path-middleboxes
+    - draft-ietf-mmusic-sdp-g723-g729
+    - draft-ietf-mmusic-traffic-class-for-sdp
+    - draft-ietf-mmusic-trickle-ice

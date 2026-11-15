@@ -1,0 +1,31 @@
+acronym: ppvpn
+name: Provider Provisioned Virtual Private Networks
+type: wg
+parent: sub
+state: conclude
+started: '2000-07-06'
+closed: '2003-07-28'
+history_url: https://datatracker.ietf.org/group/ppvpn/history/
+chairs:
+- person: 2492
+  name: Rick Wilder
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2003-07-28'
+      not_before: '2000-07-06'
+    end:
+      certainty: group-closed
+      date: '2003-07-28'
+- person: 20682
+  name: Loa Andersson
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2003-07-28'
+      not_before: '2000-07-06'
+    end:
+      certainty: group-closed
+      date: '2003-07-28'

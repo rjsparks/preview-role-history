@@ -1,0 +1,20 @@
+acronym: catnip
+name: Common Architecture for Next Generation IP
+type: wg
+parent: ipng
+state: conclude
+started: '1994-02-18'
+closed: '1995-05-22'
+history_url: https://datatracker.ietf.org/group/catnip/history/
+chairs:
+- person: 10457
+  name: Vladimir Sukonnik
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1995-05-22'
+      not_before: '1994-02-18'
+    end:
+      certainty: group-closed
+      date: '1995-05-22'

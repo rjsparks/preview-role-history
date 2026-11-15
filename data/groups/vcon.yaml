@@ -1,0 +1,55 @@
+acronym: vcon
+name: Virtualized Conversations
+type: wg
+parent: art
+state: active
+started: '2023-02-16'
+closed: null
+history_url: https://datatracker.ietf.org/group/vcon/history/
+chairs:
+- person: 106987
+  name: Brian Rosen
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-02-22'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2023-10-25'
+    subject: 'WG Review: vCon (vcon)'
+    message_id: 169824032072.3609.7930748090923425856@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-12-02'
+    subject: 'WG Action: Formed vCon (vcon)'
+    message_id: 170147617838.36931.7178714163726279883@ietfa.amsl.com
+- person: 107190
+  name: Spencer Dawkins
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-02-22'
+    end:
+      certainty: exact
+      date: '2023-09-21'
+- person: 120587
+  name: Chris Wendt
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-10-17'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2023-10-25'
+    subject: 'WG Review: vCon (vcon)'
+    message_id: 169824032072.3609.7930748090923425856@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-12-02'
+    subject: 'WG Action: Formed vCon (vcon)'
+    message_id: 170147617838.36931.7178714163726279883@ietfa.amsl.com

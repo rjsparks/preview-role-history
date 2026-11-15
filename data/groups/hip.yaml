@@ -1,0 +1,94 @@
+acronym: hip
+name: Host Identity Protocol
+type: wg
+parent: int
+state: conclude
+started: '2004-02-05'
+closed: '2021-08-23'
+history_url: https://datatracker.ietf.org/group/hip/history/
+chairs:
+- person: 23057
+  name: David Ward
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-07-23'
+      not_before: '2004-02-05'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2013-03-13'
+    notes:
+    - start moved earlier by WG Action announcement of 2010-07-23
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2013-03-13'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2013-03-13'
+  evidence:
+  - kind: WG Review
+    date: '2006-10-17'
+    subject: 'WG Review: Recharter of Host Identity Protocol (hip)'
+    message_id: null
+  - kind: WG Review
+    date: '2010-07-12'
+    subject: 'WG Review: Recharter of Host Identity Protocol (hip)'
+    message_id: null
+  - kind: WG Action
+    date: '2010-07-23'
+    subject: 'WG Action: RECHARTER: Host Identity Protocol (hip)'
+    message_id: null
+- person: 103539
+  name: Gonzalo Camarillo
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '2004-02-05'
+    end:
+      certainty: group-closed
+      date: '2021-08-23'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: WG Review
+    date: '2006-10-17'
+    subject: 'WG Review: Recharter of Host Identity Protocol (hip)'
+    message_id: null
+  - kind: WG Review
+    date: '2010-07-12'
+    subject: 'WG Review: Recharter of Host Identity Protocol (hip)'
+    message_id: null
+  - kind: WG Action
+    date: '2010-07-23'
+    subject: 'WG Action: RECHARTER: Host Identity Protocol (hip)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '70'
+    - '72'
+    - '75'
+    - '77'
+    - '80'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-hip-dex
+    - draft-ietf-hip-multihoming
+    - draft-ietf-hip-native-nat-traversal
+    - draft-ietf-hip-rfc4423-bis
+    - draft-ietf-hip-rfc4843-bis
+    - draft-ietf-hip-rfc5201-bis
+    - draft-ietf-hip-rfc5202-bis
+    - draft-ietf-hip-rfc5203-bis
+    - draft-ietf-hip-rfc5204-bis
+    - draft-ietf-hip-rfc5205-bis
+    - draft-ietf-hip-rfc5206-bis
+    - draft-ietf-hip-rfc6253-bis

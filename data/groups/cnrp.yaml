@@ -1,0 +1,20 @@
+acronym: cnrp
+name: Common Name Resolution Protocol
+type: wg
+parent: app
+state: conclude
+started: '1999-08-30'
+closed: '2002-09-07'
+history_url: https://datatracker.ietf.org/group/cnrp/history/
+chairs:
+- person: 109223
+  name: Leslie Daigle
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2002-09-07'
+      not_before: '1999-08-30'
+    end:
+      certainty: group-closed
+      date: '2002-09-07'

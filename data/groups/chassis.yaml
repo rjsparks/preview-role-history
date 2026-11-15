@@ -1,0 +1,20 @@
+acronym: chassis
+name: Chassis MIB
+type: wg
+parent: mgt
+state: conclude
+started: '1992-03-05'
+closed: '1993-07-19'
+history_url: https://datatracker.ietf.org/group/chassis/history/
+chairs:
+- person: 2905
+  name: Bob Stewart
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1993-07-19'
+      not_before: '1992-03-05'
+    end:
+      certainty: group-closed
+      date: '1993-07-19'

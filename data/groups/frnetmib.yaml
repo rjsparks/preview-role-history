@@ -1,0 +1,20 @@
+acronym: frnetmib
+name: Frame Relay Service MIB
+type: wg
+parent: int
+state: conclude
+started: '1993-04-19'
+closed: '2002-01-08'
+history_url: https://datatracker.ietf.org/group/frnetmib/history/
+chairs:
+- person: 3844
+  name: Andy Malis
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2002-01-08'
+      not_before: '1993-04-19'
+    end:
+      certainty: group-closed
+      date: '2002-01-08'

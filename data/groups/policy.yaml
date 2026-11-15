@@ -1,0 +1,31 @@
+acronym: policy
+name: Policy Framework
+type: wg
+parent: ops
+state: conclude
+started: '1998-09-25'
+closed: '2004-11-05'
+history_url: https://datatracker.ietf.org/group/policy/history/
+chairs:
+- person: 3862
+  name: Joel Halpern
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-11-05'
+      not_before: '1998-09-25'
+    end:
+      certainty: group-closed
+      date: '2004-11-05'
+- person: 10585
+  name: Ed Ellesson
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-11-05'
+      not_before: '1998-09-25'
+    end:
+      certainty: group-closed
+      date: '2004-11-05'

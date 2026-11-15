@@ -1,0 +1,20 @@
+acronym: printmib
+name: Printer MIB
+type: wg
+parent: app
+state: conclude
+started: '1994-01-19'
+closed: '2000-04-17'
+history_url: https://datatracker.ietf.org/group/printmib/history/
+chairs:
+- person: 10162
+  name: Chris Wellens
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2000-04-17'
+      not_before: '1994-01-19'
+    end:
+      certainty: group-closed
+      date: '2000-04-17'

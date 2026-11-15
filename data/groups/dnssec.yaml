@@ -1,0 +1,20 @@
+acronym: dnssec
+name: Domain Name System Security
+type: wg
+parent: sec
+state: conclude
+started: '1994-02-17'
+closed: '1999-12-20'
+history_url: https://datatracker.ietf.org/group/dnssec/history/
+chairs:
+- person: 2783
+  name: James Galvin
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1999-12-20'
+      not_before: '1994-02-17'
+    end:
+      certainty: group-closed
+      date: '1999-12-20'

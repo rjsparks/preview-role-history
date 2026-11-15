@@ -1,0 +1,30 @@
+acronym: rfcplusplus
+name: The label "RFC"
+type: wg
+parent: gen
+state: bof-conc
+started: '2018-06-05'
+closed: '2018-09-26'
+history_url: https://datatracker.ietf.org/group/rfcplusplus/history/
+chairs:
+- person: 19483
+  name: Sean Turner
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2018-06-21'
+    end:
+      certainty: group-closed
+      date: '2018-09-26'
+- person: 103539
+  name: Gonzalo Camarillo
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2018-06-05'
+      not_before: '2018-06-05'
+    end:
+      certainty: group-closed
+      date: '2018-09-26'

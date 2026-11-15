@@ -1,0 +1,151 @@
+acronym: httpbis
+name: HTTP
+type: wg
+parent: wit
+state: active
+started: '2007-09-25'
+closed: null
+history_url: https://datatracker.ietf.org/group/httpbis/history/
+chairs:
+- person: 103881
+  name: Mark Nottingham
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-10-23'
+      not_before: '2007-09-25'
+    end:
+      certainty: ongoing
+    notes:
+    - start moved earlier by WG Action announcement of 2007-10-23
+  evidence:
+  - kind: WG Action
+    date: '2007-10-23'
+    subject: 'WG Action: Hypertext Transfer Protocol Bis WG (httpbis)'
+    message_id: null
+  - kind: WG Review
+    date: '2012-02-21'
+    subject: 'WG Review: Recharter of Hypertext Transfer Protocol Bis (httpbis)'
+    message_id: null
+  - kind: WG Action
+    date: '2012-03-19'
+    subject: 'WG Action: RECHARTER: Hypertext Transfer Protocol Bis (httpbis)'
+    message_id: null
+  - kind: WG Review
+    date: '2012-09-18'
+    subject: 'WG Review: Hypertext Transfer Protocol Bis (httpbis)'
+    message_id: null
+  - kind: WG Review
+    date: '2025-09-25'
+    subject: 'WG Review: HTTP (httpbis)'
+    message_id: 175881757004.1474696.11620904837876902937@dt-datatracker-6c6cdf7f94-h6rnn
+  - kind: WG Action
+    date: '2025-10-13'
+    subject: 'WG Action: Rechartered HTTP (httpbis)'
+    message_id: 176039216275.662489.14545827919165878467@dt-datatracker-84f8f646b-tg6mn
+  - kind: session requests
+    meetings:
+    - '70'
+    - '72'
+    - '74'
+    - '75'
+    - '77'
+    - '78'
+    - '80'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-httpbis-alias-proxy-status
+    - draft-ietf-httpbis-auth-info
+    - draft-ietf-httpbis-authscheme-registrations
+    - draft-ietf-httpbis-binary-message
+    - draft-ietf-httpbis-cice
+    - draft-ietf-httpbis-client-cert-field
+    - draft-ietf-httpbis-client-hints
+    - draft-ietf-httpbis-compression-dictionary
+    - draft-ietf-httpbis-digest-headers
+    - draft-ietf-httpbis-early-hints
+    - draft-ietf-httpbis-encryption-encoding
+    - draft-ietf-httpbis-expect-ct
+    - draft-ietf-httpbis-h2-websockets
+    - draft-ietf-httpbis-h3-websockets
+    - draft-ietf-httpbis-header-compression
+    - draft-ietf-httpbis-http2
+    - draft-ietf-httpbis-http2-tls13
+    - draft-ietf-httpbis-http2bis
+    - draft-ietf-httpbis-immutable
+    - draft-ietf-httpbis-incremental
+    - draft-ietf-httpbis-legally-restricted-status
+    - draft-ietf-httpbis-method-registrations
+    - draft-ietf-httpbis-origin-h3
+    - draft-ietf-httpbis-p1-messaging
+    - draft-ietf-httpbis-p2-semantics
+    - draft-ietf-httpbis-p4-conditional
+    - draft-ietf-httpbis-p5-range
+    - draft-ietf-httpbis-p7-auth
+    - draft-ietf-httpbis-rfc5987bis
+    - draft-ietf-httpbis-rfc6265bis
+    - draft-ietf-httpbis-rfc7238bis
+    - draft-ietf-httpbis-safe-method-w-body
+    - draft-ietf-httpbis-secondary-server-certs
+    - draft-ietf-httpbis-tunnel-protocol
+    - draft-ietf-httpbis-unencoded-digest
+    - draft-ietf-httpbis-zstd-window-size
+    - draft-mcmanus-httpbis-h2-websockets
+- person: 116593
+  name: Patrick McManus
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-07-27'
+    end:
+      certainty: exact
+      date: '2019-11-04'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-httpbis-cache-digest
+    - draft-ietf-httpbis-origin-frame
+    - draft-ietf-httpbis-rand-access-live
+    - draft-ietf-httpbis-replay
+- person: 119325
+  name: Tommy Pauly
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2018-11-05'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2025-09-25'
+    subject: 'WG Review: HTTP (httpbis)'
+    message_id: 175881757004.1474696.11620904837876902937@dt-datatracker-6c6cdf7f94-h6rnn
+  - kind: WG Action
+    date: '2025-10-13'
+    subject: 'WG Action: Rechartered HTTP (httpbis)'
+    message_id: 176039216275.662489.14545827919165878467@dt-datatracker-84f8f646b-tg6mn
+  - kind: shepherded
+    documents:
+    - draft-ietf-httpbis-bcp56bis
+    - draft-ietf-httpbis-cache-groups
+    - draft-ietf-httpbis-cache-header
+    - draft-ietf-httpbis-cdn-loop
+    - draft-ietf-httpbis-connect-tcp
+    - draft-ietf-httpbis-header-structure
+    - draft-ietf-httpbis-message-signatures
+    - draft-ietf-httpbis-messaging
+    - draft-ietf-httpbis-no-vary-search
+    - draft-ietf-httpbis-optimistic-upgrade
+    - draft-ietf-httpbis-pre-denied
+    - draft-ietf-httpbis-priority
+    - draft-ietf-httpbis-proxy-status
+    - draft-ietf-httpbis-resumable-upload
+    - draft-ietf-httpbis-semantics
+    - draft-ietf-httpbis-sfbis
+    - draft-ietf-httpbis-targeted-cache-control
+    - draft-ietf-httpbis-unprompted-auth

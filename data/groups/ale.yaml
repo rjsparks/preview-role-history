@@ -1,0 +1,31 @@
+acronym: ale
+name: Address Lifetime Expectations
+type: wg
+parent: ipng
+state: conclude
+started: '1993-09-29'
+closed: '1995-03-16'
+history_url: https://datatracker.ietf.org/group/ale/history/
+chairs:
+- person: 2817
+  name: Frank Solensky
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1995-03-16'
+      not_before: '1993-09-29'
+    end:
+      certainty: group-closed
+      date: '1995-03-16'
+- person: 4475
+  name: Tony Li
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1995-03-16'
+      not_before: '1993-09-29'
+    end:
+      certainty: group-closed
+      date: '1995-03-16'

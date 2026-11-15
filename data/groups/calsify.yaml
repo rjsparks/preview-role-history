@@ -1,0 +1,55 @@
+acronym: calsify
+name: Calendaring and Scheduling Standards Simplification
+type: wg
+parent: app
+state: conclude
+started: '2005-06-16'
+closed: '2010-12-10'
+history_url: https://datatracker.ietf.org/group/calsify/history/
+chairs:
+- person: 2097
+  name: Eliot Lear
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-07-25'
+      not_before: '2005-06-16'
+    end:
+      certainty: group-closed
+      date: '2010-12-10'
+    notes:
+    - start moved earlier by WG Action announcement of 2006-07-25
+  evidence:
+  - kind: WG Action
+    date: '2006-07-25'
+    subject: 'WG Action: RECHARTER: Calendaring and Scheduling Standards Simplification (calsify)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '67'
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 105274
+  name: Aki Niemi
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-03-19'
+    end:
+      certainty: evidence-only
+      not_before: '2006-07-25'
+  evidence:
+  - kind: WG Action
+    date: '2006-07-25'
+    subject: 'WG Action: RECHARTER: Calendaring and Scheduling Standards Simplification (calsify)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

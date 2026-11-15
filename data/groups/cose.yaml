@@ -1,0 +1,136 @@
+acronym: cose
+name: CBOR Object Signing and Encryption
+type: wg
+parent: sec
+state: active
+started: '2015-04-22'
+closed: null
+history_url: https://datatracker.ietf.org/group/cose/history/
+chairs:
+- person: 111131
+  name: Kepeng Li
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-06-03'
+    end:
+      certainty: exact
+      date: '2018-12-03'
+- person: 111178
+  name: Matthew Miller
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2018-12-03'
+    end:
+      certainty: exact
+      date: '2024-11-20'
+  evidence:
+  - kind: WG Review
+    date: '2021-03-31'
+    subject: 'WG Review: CBOR Object Signing and Encryption (cose)'
+    message_id: 161720997323.20161.16244257736248842123@ietfa.amsl.com
+  - kind: WG Action
+    date: '2021-04-09'
+    subject: 'WG Action: Rechartered CBOR Object Signing and Encryption (cose)'
+    message_id: 161799097410.18536.168025941483033297@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-cose-rfc8152bis-algs
+    - draft-ietf-cose-rfc8152bis-struct
+- person: 112051
+  name: Justin Richer
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-06-03'
+    end:
+      certainty: exact
+      date: '2018-12-03'
+- person: 123715
+  name: Ivaylo Petrov
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2018-12-03'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2021-03-31'
+    subject: 'WG Review: CBOR Object Signing and Encryption (cose)'
+    message_id: 161720997323.20161.16244257736248842123@ietfa.amsl.com
+  - kind: WG Action
+    date: '2021-04-09'
+    subject: 'WG Action: Rechartered CBOR Object Signing and Encryption (cose)'
+    message_id: 161799097410.18536.168025941483033297@ietfa.amsl.com
+  - kind: WG Review
+    date: '2025-05-23'
+    subject: 'WG Review: CBOR Object Signing and Encryption (cose)'
+    message_id: 174803022088.1014908.14953469742423554194@dt-datatracker-59b84fc74f-84jsl
+  - kind: WG Action
+    date: '2025-06-10'
+    subject: 'WG Action: Rechartered CBOR Object Signing and Encryption (cose)'
+    message_id: 174958882289.3811241.5878457760776180551@dt-datatracker-59b84fc74f-84jsl
+  - kind: WG Review
+    date: '2025-09-18'
+    subject: 'WG Review: CBOR Object Signing and Encryption (cose)'
+    message_id: 175821489464.2146282.3326851180171912870@dt-datatracker-f7c8fdcb7-pjx77
+  - kind: WG Action
+    date: '2025-10-09'
+    subject: 'WG Action: Rechartered CBOR Object Signing and Encryption (cose)'
+    message_id: 176003126417.306796.11339126291073723368@dt-datatracker-6c6cdf7f94-h6rnn
+  - kind: shepherded
+    documents:
+    - draft-ietf-cose-cbor-encoded-cert
+    - draft-ietf-cose-hash-algs
+    - draft-ietf-cose-hash-sig
+    - draft-ietf-cose-hpke
+    - draft-ietf-cose-merkle-tree-proofs
+    - draft-ietf-cose-sphincs-plus
+    - draft-ietf-cose-typ-header-parameter
+    - draft-ietf-cose-webauthn-algorithms
+    - draft-ietf-cose-x509
+- person: 136779
+  name: Michael Jones
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-03-05'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2021-03-31'
+    subject: 'WG Review: CBOR Object Signing and Encryption (cose)'
+    message_id: 161720997323.20161.16244257736248842123@ietfa.amsl.com
+  - kind: WG Action
+    date: '2021-04-09'
+    subject: 'WG Action: Rechartered CBOR Object Signing and Encryption (cose)'
+    message_id: 161799097410.18536.168025941483033297@ietfa.amsl.com
+  - kind: WG Review
+    date: '2025-05-23'
+    subject: 'WG Review: CBOR Object Signing and Encryption (cose)'
+    message_id: 174803022088.1014908.14953469742423554194@dt-datatracker-59b84fc74f-84jsl
+  - kind: WG Action
+    date: '2025-06-10'
+    subject: 'WG Action: Rechartered CBOR Object Signing and Encryption (cose)'
+    message_id: 174958882289.3811241.5878457760776180551@dt-datatracker-59b84fc74f-84jsl
+  - kind: WG Review
+    date: '2025-09-18'
+    subject: 'WG Review: CBOR Object Signing and Encryption (cose)'
+    message_id: 175821489464.2146282.3326851180171912870@dt-datatracker-f7c8fdcb7-pjx77
+  - kind: WG Action
+    date: '2025-10-09'
+    subject: 'WG Action: Rechartered CBOR Object Signing and Encryption (cose)'
+    message_id: 176003126417.306796.11339126291073723368@dt-datatracker-6c6cdf7f94-h6rnn
+  - kind: shepherded
+    documents:
+    - draft-ietf-cose-aes-ctr-and-cbc
+    - draft-ietf-cose-key-thumbprint
+    - draft-ietf-cose-tsa-tst-header-parameter

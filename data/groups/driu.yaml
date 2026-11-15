@@ -1,0 +1,20 @@
+acronym: driu
+name: DNS Resolver Identification and Use
+type: wg
+parent: ops
+state: bof-conc
+started: '2018-06-05'
+closed: '2018-09-26'
+history_url: https://datatracker.ietf.org/group/driu/history/
+chairs:
+- person: 10083
+  name: Paul Hoffman
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2018-06-05'
+      not_before: '2018-06-05'
+    end:
+      certainty: group-closed
+      date: '2018-09-26'

@@ -1,0 +1,29 @@
+acronym: tc
+name: Tunneling Configuration
+type: wg
+parent: int
+state: conclude
+started: null
+closed: '2005-05-11'
+history_url: https://datatracker.ietf.org/group/tc/history/
+chairs:
+- person: 7262
+  name: Thomas Narten
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-05-11'
+    end:
+      certainty: group-closed
+      date: '2005-05-11'
+- person: 105328
+  name: Alain Durand
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-05-11'
+    end:
+      certainty: group-closed
+      date: '2005-05-11'

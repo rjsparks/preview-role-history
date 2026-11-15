@@ -1,0 +1,91 @@
+acronym: i2nsf
+name: Interface to Network Security Functions
+type: wg
+parent: sec
+state: conclude
+started: '2014-10-01'
+closed: '2023-06-21'
+history_url: https://datatracker.ietf.org/group/i2nsf/history/
+chairs:
+- person: 6699
+  name: Dan Romascanu
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-10-23'
+    end:
+      certainty: approximate
+      date: '2015-02-10'
+  - start:
+      certainty: exact
+      date: '2015-06-12'
+    end:
+      certainty: exact
+      date: '2015-09-10'
+- person: 101208
+  name: Joseph Salowey
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-10-23'
+    end:
+      certainty: between
+      not_before: '2015-02-10'
+      not_after: '2015-06-12'
+  - start:
+      certainty: exact
+      date: '2015-06-12'
+    end:
+      certainty: exact
+      date: '2015-09-10'
+- person: 104198
+  name: Adrian Farrel
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-09-10'
+    end:
+      certainty: exact
+      date: '2017-07-18'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-i2nsf-problem-and-use-cases
+- person: 106745
+  name: Yoav Nir
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-07-18'
+    end:
+      certainty: group-closed
+      date: '2023-06-21'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-i2nsf-framework
+    - draft-ietf-i2nsf-sdn-ipsec-flow-protection
+- person: 111086
+  name: Linda Dunbar
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-09-10'
+    end:
+      certainty: group-closed
+      date: '2023-06-21'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-i2nsf-applicability
+    - draft-ietf-i2nsf-capability
+    - draft-ietf-i2nsf-capability-data-model
+    - draft-ietf-i2nsf-consumer-facing-interface-dm
+    - draft-ietf-i2nsf-nsf-facing-interface-dm
+    - draft-ietf-i2nsf-nsf-monitoring-data-model
+    - draft-ietf-i2nsf-registration-interface-dm

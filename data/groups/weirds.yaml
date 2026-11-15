@@ -1,0 +1,67 @@
+acronym: weirds
+name: Web Extensible Internet Registration Data Service
+type: wg
+parent: app
+state: conclude
+started: '2012-04-20'
+closed: '2015-03-25'
+history_url: https://datatracker.ietf.org/group/weirds/history/
+chairs:
+- person: 106842
+  name: Murray Kucherawy
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2012-02-23'
+    end:
+      certainty: between
+      not_before: '2012-02-23'
+      not_after: '2015-03-25'
+  - start:
+      certainty: between
+      not_before: '2012-02-23'
+      not_after: '2015-03-25'
+    end:
+      certainty: group-closed
+      date: '2015-03-25'
+  evidence:
+  - kind: WG Action
+    date: '2012-05-15'
+    subject: 'WG Action: Web Extensible Internet Registration Data Service (weirds)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-weirds-json-response
+    - draft-ietf-weirds-object-inventory
+    - draft-ietf-weirds-rdap-query
+    - draft-ietf-weirds-rdap-sec
+    - draft-ietf-weirds-redirects
+    - draft-ietf-weirds-using-http
+- person: 109178
+  name: Andrew Sullivan
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2012-02-23'
+    end:
+      certainty: between
+      not_before: '2012-02-23'
+      not_after: '2015-03-25'
+- person: 117929
+  name: Olaf Kolkman
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2012-02-23'
+      not_after: '2015-03-25'
+    end:
+      certainty: group-closed
+      date: '2015-03-25'
+  evidence:
+  - kind: WG Action
+    date: '2012-05-15'
+    subject: 'WG Action: Web Extensible Internet Registration Data Service (weirds)'
+    message_id: null

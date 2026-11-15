@@ -1,0 +1,61 @@
+acronym: savnet
+name: Source Address Validation in Intra-domain and Inter-domain Networks
+type: wg
+parent: rtg
+state: active
+started: '2022-02-10'
+closed: null
+history_url: https://datatracker.ietf.org/group/savnet/history/
+chairs:
+- person: 3862
+  name: Joel Halpern
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-02-13'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2022-06-03'
+    subject: 'WG Review: Source Address Validation in Intra-domain and Inter-domain Networks (savnet)'
+    message_id: 165427863828.3358.11926484297326536768@ietfa.amsl.com
+  - kind: WG Action
+    date: '2022-06-17'
+    subject: 'WG Action: Formed Source Address Validation in Intra-domain and Inter-domain Networks (savnet)'
+    message_id: 165548735509.60046.13988536170177530998@ietfa.amsl.com
+- person: 101568
+  name: Ron Bonica
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-07-30'
+    end:
+      certainty: ongoing
+- person: 111303
+  name: Job Snijders
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-02-13'
+    end:
+      certainty: exact
+      date: '2022-05-13'
+- person: 111366
+  name: Aijun Wang
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-06-09'
+    end:
+      certainty: exact
+      date: '2025-11-13'
+  evidence:
+  - kind: WG Action
+    date: '2022-06-17'
+    subject: 'WG Action: Formed Source Address Validation in Intra-domain and Inter-domain Networks (savnet)'
+    message_id: 165548735509.60046.13988536170177530998@ietfa.amsl.com

@@ -1,0 +1,29 @@
+acronym: netslicing
+name: Network Slicing
+type: wg
+parent: ops
+state: bof-conc
+started: '2017-06-07'
+closed: '2017-10-05'
+history_url: https://datatracker.ietf.org/group/netslicing/history/
+chairs:
+- person: 103539
+  name: Gonzalo Camarillo
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-06-12'
+    end:
+      certainty: group-closed
+      date: '2017-10-05'
+- person: 104198
+  name: Adrian Farrel
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-06-12'
+    end:
+      certainty: group-closed
+      date: '2017-10-05'

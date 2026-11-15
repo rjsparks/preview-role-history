@@ -1,0 +1,31 @@
+acronym: netrqmts
+name: IETF Meeting Network Requirements
+type: wg
+parent: gen
+state: bof-conc
+started: '2019-06-11'
+closed: '2019-10-09'
+history_url: https://datatracker.ietf.org/group/netrqmts/history/
+chairs:
+- person: 4857
+  name: Karen O'Donoghue
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2019-06-11'
+      not_before: '2019-06-11'
+    end:
+      certainty: group-closed
+      date: '2019-10-09'
+- person: 5376
+  name: Russ Housley
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2019-06-11'
+      not_before: '2019-06-11'
+    end:
+      certainty: group-closed
+      date: '2019-10-09'

@@ -1,0 +1,32 @@
+acronym: ipdvb
+name: IP over DVB
+type: wg
+parent: app
+state: conclude
+started: '2003-10-13'
+closed: '2011-08-02'
+history_url: https://datatracker.ietf.org/group/ipdvb/history/
+chairs:
+- person: 104331
+  name: Gorry Fairhurst
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-07-09'
+      not_before: '2003-10-13'
+    end:
+      certainty: group-closed
+      date: '2011-08-02'
+    notes:
+    - start moved earlier by session request for IETF 66
+  evidence:
+  - kind: session requests
+    meetings:
+    - '66'
+    - '67'
+    - '68'
+    - '69'
+    - '72'
+    - '75'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

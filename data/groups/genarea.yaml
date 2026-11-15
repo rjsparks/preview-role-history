@@ -1,0 +1,60 @@
+acronym: genarea
+name: General Area Open Meeting
+type: ag
+parent: gen
+state: active
+started: null
+closed: null
+history_url: https://datatracker.ietf.org/group/genarea/history/
+chairs:
+- person: 5376
+  name: Russ Housley
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2017-03-30'
+- person: 21072
+  name: Jari Arkko
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2017-03-30'
+    end:
+      certainty: exact
+      date: '2017-03-30'
+- person: 105815
+  name: Roman Danyliw
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-03-20'
+    end:
+      certainty: ongoing
+- person: 110077
+  name: Alissa Cooper
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-03-30'
+    end:
+      certainty: exact
+      date: '2021-03-10'
+- person: 112773
+  name: Lars Eggert
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-03-10'
+    end:
+      certainty: exact
+      date: '2024-03-20'

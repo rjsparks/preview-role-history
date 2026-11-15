@@ -1,0 +1,40 @@
+acronym: rserpool
+name: Reliable Server Pooling
+type: wg
+parent: tsv
+state: conclude
+started: '2000-09-13'
+closed: '2009-04-27'
+history_url: https://datatracker.ietf.org/group/rserpool/history/
+chairs:
+- person: 23036
+  name: Lyndon Ong
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2009-04-27'
+      not_before: '2000-09-13'
+    end:
+      certainty: group-closed
+      date: '2009-04-27'
+- person: 101382
+  name: Maureen Stillman
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '2000-09-13'
+    end:
+      certainty: group-closed
+      date: '2009-04-27'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

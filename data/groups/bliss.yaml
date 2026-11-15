@@ -1,0 +1,76 @@
+acronym: bliss
+name: Basic Level of Interoperability for SIP Services
+type: wg
+parent: rai
+state: conclude
+started: '2007-06-07'
+closed: '2013-02-26'
+history_url: https://datatracker.ietf.org/group/bliss/history/
+chairs:
+- person: 106459
+  name: Dinara Suleymanova
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2007-03-18'
+    end:
+      certainty: evidence-only
+      not_before: '2007-07-22'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '68'
+    - '69'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 107520
+  name: Shida Schubert
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-06-26'
+      not_before: '2007-06-07'
+    end:
+      certainty: group-closed
+      date: '2013-02-26'
+    notes:
+    - start moved earlier by WG Action announcement of 2007-06-26
+  evidence:
+  - kind: WG Action
+    date: '2007-06-26'
+    subject: 'WG Action: Basic Level of Interoperability for SIP Services (bliss)'
+    message_id: null
+  - kind: WG Review
+    date: '2012-02-07'
+    subject: 'WG Review: Recharter of Basic Level of Interoperability for SIP Services (bliss)'
+    message_id: null
+  - kind: WG Action
+    date: '2012-02-21'
+    subject: 'WG Action: RECHARTER: Basic Level of Interoperability for SIP Services (bliss)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    - '75'
+    - '76'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 107524
+  name: Jason Fischl
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2007-06-26'
+    end:
+      certainty: evidence-only
+      not_before: '2007-06-26'
+  evidence:
+  - kind: WG Action
+    date: '2007-06-26'
+    subject: 'WG Action: Basic Level of Interoperability for SIP Services (bliss)'
+    message_id: null

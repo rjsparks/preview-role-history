@@ -1,0 +1,347 @@
+acronym: mpls
+name: Multiprotocol Label Switching
+type: wg
+parent: rtg
+state: active
+started: '1997-01-10'
+closed: null
+history_url: https://datatracker.ietf.org/group/mpls/history/
+chairs:
+- person: 2723
+  name: Ross Callon
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '1997-01-10'
+    end:
+      certainty: exact
+      date: '2016-07-22'
+  evidence:
+  - kind: WG Review
+    date: '2014-11-25'
+    subject: 'WG Review: Multiprotocol Label Switching (mpls)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-akiya-mpls-lsp-ping-reply-mode-simple
+    - draft-chen-mpls-p2mp-egress-protection
+    - draft-chen-mpls-p2mp-ingress-protection
+    - draft-chen-mpls-source-label
+    - draft-cheng-mpls-tp-shared-ring-protection
+    - draft-decraene-mpls-lsp-ping-registry
+    - draft-ietf-mpls-lsp-ping-mpls-tp-oam-conf
+    - draft-ietf-mpls-lsp-ping-registry
+    - draft-ietf-mpls-lsp-ping-reply-mode-simple
+    - draft-ietf-mpls-moving-iana-registries
+    - draft-ietf-mpls-special-purpose-labels
+    - draft-ietf-mpls-tp-rosetta-stone
+    - draft-kompella-mpls-special-purpose-labels
+    - draft-lcap-mpls-moving-iana-registries
+    - draft-mirsky-mpls-bfd-directed
+    - draft-osborne-mpls-extended-admin-groups
+    - draft-pac-mpls-lsp-ping-tlvs-and-sub-tlvs-registry
+    - draft-vainshtein-mpls-gal-tc-ttl-handling
+    - draft-zhao-mpls-mldp-protections
+- person: 4475
+  name: Tony Li
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-01-30'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2025-07-09'
+    subject: 'WG Review: Multiprotocol Label Switching (mpls)'
+    message_id: 175208084016.214330.1972056741616239985@dt-datatracker-557fbf6894-6vznl
+  - kind: WG Action
+    date: '2025-08-07'
+    subject: 'WG Action: Rechartered Multiprotocol Label Switching (mpls)'
+    message_id: 175458832231.1519593.1080446594379157805@dt-datatracker-5bd446d5fd-c47nq
+  - kind: shepherded
+    documents:
+    - draft-ietf-mpls-frr-ext
+    - draft-ietf-mpls-inband-pm-encapsulation
+    - draft-ietf-mpls-mna-detnet
+    - draft-ietf-mpls-mna-psd-nrp-selector
+    - draft-ietf-mpls-mna-usecases
+    - draft-ietf-mpls-on-path-telemetry-flag
+    - draft-ietf-mpls-rfc6374-sr
+    - draft-ietf-mpls-stamp
+    - draft-ietf-mpls-stamp-pw
+    - draft-li-mpls-enhanced-vpn-vtn-id
+    - draft-mirsky-mpls-stamp
+- person: 6695
+  name: George Swallow
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-01-18'
+      not_before: '1997-01-10'
+    end:
+      certainty: exact
+      date: '2018-03-22'
+    notes:
+    - start moved earlier by WG Action announcement of 2006-01-18
+  evidence:
+  - kind: WG Action
+    date: '2006-01-18'
+    subject: 'WG Action: RECHARTER: Multiprotocol Label Switching (mpls)'
+    message_id: null
+  - kind: WG Review
+    date: '2014-11-25'
+    subject: 'WG Review: Multiprotocol Label Switching (mpls)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 20682
+  name: Loa Andersson
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-01-18'
+      not_before: '1997-01-10'
+    end:
+      certainty: exact
+      date: '2023-10-21'
+    notes:
+    - start moved earlier by WG Action announcement of 2006-01-18
+  evidence:
+  - kind: WG Action
+    date: '2006-01-18'
+    subject: 'WG Action: RECHARTER: Multiprotocol Label Switching (mpls)'
+    message_id: null
+  - kind: WG Review
+    date: '2014-11-25'
+    subject: 'WG Review: Multiprotocol Label Switching (mpls)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '67'
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '74'
+    - '75'
+    - '76'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-akiya-mpls-entropy-lsp-ping
+    - draft-akiya-mpls-lsp-ping-lag-multipath
+    - draft-atlas-mpls-ldp-mrt
+    - draft-atlas-mpls-te-express-path
+    - draft-bocci-mpls-miad-adi-requirements
+    - draft-bonica-mpls-self-ping
+    - draft-bryant-mpls-oam-udp-return
+    - draft-bryant-mpls-sfl-control
+    - draft-cdh-mpls-tp-psc-non-revertive
+    - draft-cui-mpls-tp-mfp-use-case-and-requirements
+    - draft-dj-mpls-tp-exer-psc
+    - draft-esale-mpls-app-aware-tldp
+    - draft-gandhi-mpls-ioam-sr
+    - draft-george-mpls-ipv6-only-gap
+    - draft-hegde-mpls-spring-epe-oam
+    - draft-ietf-mpls-app-aware-tldp
+    - draft-ietf-mpls-base-yang
+    - draft-ietf-mpls-deprecate-bgp-entropy-label
+    - draft-ietf-mpls-egress-protection-framework
+    - draft-ietf-mpls-entropy-lsp-ping
+    - draft-ietf-mpls-extended-admin-group
+    - draft-ietf-mpls-flow-ident
+    - draft-ietf-mpls-forwarding
+    - draft-ietf-mpls-gach-adv
+    - draft-ietf-mpls-in-udp
+    - draft-ietf-mpls-inter-domain-p2mp-rsvp-te-lsp
+    - draft-ietf-mpls-ipv6-only-gap
+    - draft-ietf-mpls-ldp-applicability-label-adv
+    - draft-ietf-mpls-ldp-dod
+    - draft-ietf-mpls-ldp-hello-crypto-auth
+    - draft-ietf-mpls-ldp-ip-pw-capability
+    - draft-ietf-mpls-ldp-ipv6
+    - draft-ietf-mpls-ldp-mrt
+    - draft-ietf-mpls-ldp-multi-topology
+    - draft-ietf-mpls-lsp-ping-lag-multipath
+    - draft-ietf-mpls-lsp-ping-ospfv3-codepoint
+    - draft-ietf-mpls-lsp-ping-relay-reply
+    - draft-ietf-mpls-lsp-ping-ttl-tlv
+    - draft-ietf-mpls-mldp-hsmp
+    - draft-ietf-mpls-mldp-in-band-wildcard-encoding
+    - draft-ietf-mpls-mldp-node-protection
+    - draft-ietf-mpls-multipath-use
+    - draft-ietf-mpls-oam-ipv6-rao
+    - draft-ietf-mpls-pim-sm-over-mldp
+    - draft-ietf-mpls-pm-udp-return
+    - draft-ietf-mpls-proxy-lsp-ping
+    - draft-ietf-mpls-psc-updates
+    - draft-ietf-mpls-residence-time
+    - draft-ietf-mpls-retire-ach-tlv
+    - draft-ietf-mpls-return-path-specified-lsp-ping
+    - draft-ietf-mpls-rfc3107bis
+    - draft-ietf-mpls-rfc4379bis
+    - draft-ietf-mpls-rfc6374-udp-return-path
+    - draft-ietf-mpls-rfc8287-len-clarification
+    - draft-ietf-mpls-rmr
+    - draft-ietf-mpls-rsvp-shared-labels
+    - draft-ietf-mpls-seamless-mcast
+    - draft-ietf-mpls-seamless-mpls
+    - draft-ietf-mpls-self-ping
+    - draft-ietf-mpls-sfc
+    - draft-ietf-mpls-sfc-encapsulation
+    - draft-ietf-mpls-smp-requirements
+    - draft-ietf-mpls-spring-entropy-label
+    - draft-ietf-mpls-spring-lsp-ping
+    - draft-ietf-mpls-sr-over-ip
+    - draft-ietf-mpls-targeted-mldp
+    - draft-ietf-mpls-tp-1ton-protection
+    - draft-ietf-mpls-tp-aps-updates
+    - draft-ietf-mpls-tp-ethernet-addressing
+    - draft-ietf-mpls-tp-linear-protection-mib
+    - draft-ietf-mpls-tp-mip-mep-map
+    - draft-ietf-mpls-tp-p2mp-framework
+    - draft-ietf-mpls-tp-psc-itu
+    - draft-ietf-mpls-tp-ring-protection
+    - draft-ietf-mpls-tp-use-cases-and-design
+    - draft-jags-mpls-mna-hdr
+    - draft-jjb-mpls-rsvp-te-hsmp-lsp
+    - draft-kini-mpls-spring-entropy-label
+    - draft-kompella-mpls-lspping-norao
+    - draft-kompella-mpls-rmr
+    - draft-kompella-mpls-rsvp-ecmp
+    - draft-kumarkini-mpls-spring-lsp-ping
+    - draft-li-mpls-ldp-mt-mib
+    - draft-lim-mpls-proxy-lsp-ping
+    - draft-malis-mpls-sfc-encapsulation
+    - draft-mirsky-mpls-p2mp-bfd
+    - draft-mirsky-mpls-residence-time
+    - draft-nainar-mpls-rfc8287-len-clarification
+    - draft-ninan-mpls-spring-inter-domain-oam
+    - draft-osborne-mpls-psc-updates
+    - draft-ravisingh-mpls-el-for-seamless-mpls
+    - draft-raza-mpls-oam-ipv6-rao
+    - draft-rekhter-mpls-pim-sm-over-mldp
+    - draft-rhd-mpls-tp-psc-priority
+    - draft-rhd-mpls-tp-psc-sd
+    - draft-rosen-mpls-rfc3107bis
+    - draft-ryoo-mpls-tp-aps-updates
+    - draft-ryoogray-mpls-tp-psc-itu
+    - draft-saad-mpls-base-yang
+    - draft-saad-mpls-miad-usecases
+    - draft-saad-mpls-static-yang
+    - draft-scudder-mpls-deprecate-bgp-entropy-label
+    - draft-shen-mpls-egress-protection-framework
+    - draft-sitaraman-mpls-rsvp-shared-labels
+    - draft-smack-mpls-rfc4379bis
+    - draft-tsaad-mpls-p2mp-loose-path-reopt
+    - draft-wijnands-mpls-mldp-in-band-wildcard-encoding
+    - draft-zheng-mpls-lsp-ping-yang-cfg
+    - draft-zzhang-mpls-rmr-multicast
+- person: 104198
+  name: Adrian Farrel
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-10-24'
+    end:
+      certainty: exact
+      date: '2024-03-26'
+  - start:
+      certainty: exact
+      date: '2025-04-28'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2025-07-09'
+    subject: 'WG Review: Multiprotocol Label Switching (mpls)'
+    message_id: 175208084016.214330.1972056741616239985@dt-datatracker-557fbf6894-6vznl
+  - kind: WG Action
+    date: '2025-08-07'
+    subject: 'WG Action: Rechartered Multiprotocol Label Switching (mpls)'
+    message_id: 175458832231.1519593.1080446594379157805@dt-datatracker-5bd446d5fd-c47nq
+  - kind: shepherded
+    documents:
+    - draft-andersson-mpls-lsp-ping-registries-update
+    - draft-ietf-mpls-1stnibble
+    - draft-ietf-mpls-lsp-ping-registries-update
+    - draft-ietf-mpls-lspping-norao
+    - draft-ietf-mpls-mna-ioam
+    - draft-ietf-mpls-mna-nrp-selector
+    - draft-ietf-mpls-mna-ps-hdr
+    - draft-ietf-mpls-mna-requirements
+    - draft-ietf-mpls-rfc6374-sfl
+    - draft-ietf-mpls-spring-inter-domain-oam
+    - draft-jags-mpls-ps-mna-hdr
+    - draft-li-mpls-mna-nrp-selector
+- person: 108187
+  name: Nicolai Leymann
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-07-27'
+    end:
+      certainty: exact
+      date: '2025-04-28'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-andersson-mpls-mna-fwk
+    - draft-gandhi-mpls-mna-ioam-dex
+    - draft-ietf-mpls-bfd-directed
+    - draft-ietf-mpls-p2mp-bfd
+    - draft-ietf-mpls-ri-rsvp-frr
+    - draft-ietf-mpls-spl-terminology
+    - draft-ietf-mpls-summary-frr-rsvpte
+    - draft-kompella-mpls-larp
+    - draft-mb-mpls-ioam-dex
+    - draft-mtaillon-mpls-summary-frr-rsvpte
+- person: 116516
+  name: Tarek Saad
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-05-15'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2025-07-09'
+    subject: 'WG Review: Multiprotocol Label Switching (mpls)'
+    message_id: 175208084016.214330.1972056741616239985@dt-datatracker-557fbf6894-6vznl
+  - kind: WG Action
+    date: '2025-08-07'
+    subject: 'WG Action: Rechartered Multiprotocol Label Switching (mpls)'
+    message_id: 175458832231.1519593.1080446594379157805@dt-datatracker-5bd446d5fd-c47nq
+  - kind: shepherded
+    documents:
+    - draft-gandhi-mpls-rfc6374-sr
+    - draft-ietf-mpls-egress-tlv-for-nil-fec
+    - draft-ietf-mpls-ldp-mldp-yang
+    - draft-ietf-mpls-ldp-yang
+    - draft-ietf-mpls-mldp-multi-topology
+    - draft-ietf-mpls-mldp-yang
+    - draft-ietf-mpls-mna-fwk
+    - draft-ietf-mpls-mna-hdr
+    - draft-ietf-mpls-msd-yang
+    - draft-ietf-mpls-sfl-framework
+    - draft-ietf-mpls-spring-lsp-ping-path-sid
+    - draft-ietf-mpls-sr-epe-oam
+    - draft-qu-mpls-mpls-msd-yang
+    - draft-raza-mpls-ldp-mldp-yang
+    - draft-song-mpls-extension-header
+    - draft-wijnands-mpls-mldp-multi-topology
+    - draft-xp-mpls-spring-lsp-ping-path-sid

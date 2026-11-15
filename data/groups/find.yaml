@@ -1,0 +1,31 @@
+acronym: find
+name: Common Indexing Protocol
+type: wg
+parent: app
+state: conclude
+started: '1995-10-17'
+closed: '1999-08-17'
+history_url: https://datatracker.ietf.org/group/find/history/
+chairs:
+- person: 10554
+  name: Roland Hedberg
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1999-08-17'
+      not_before: '1995-10-17'
+    end:
+      certainty: group-closed
+      date: '1999-08-17'
+- person: 11182
+  name: Patrik Fältström
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1999-08-17'
+      not_before: '1995-10-17'
+    end:
+      certainty: group-closed
+      date: '1999-08-17'

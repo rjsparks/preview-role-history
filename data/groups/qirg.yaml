@@ -1,0 +1,49 @@
+acronym: qirg
+name: Quantum Internet Research Group
+type: rg
+parent: irtf
+state: active
+started: '2018-09-19'
+closed: null
+history_url: https://datatracker.ietf.org/group/qirg/history/
+chairs:
+- person: 110694
+  name: Rodney Van Meter
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2018-09-19'
+      not_before: '2018-09-19'
+    end:
+      certainty: approximate
+      date: '2018-09-19'
+  - start:
+      certainty: exact
+      date: '2018-11-06'
+    end:
+      certainty: ongoing
+- person: 125147
+  name: Stephanie Wehner
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2018-09-19'
+      not_before: '2018-09-19'
+    end:
+      certainty: exact
+      date: '2020-03-02'
+- person: 125485
+  name: Wojciech Kozlowski
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-03-02'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-irtf-qirg-quantum-internet-use-cases

@@ -1,0 +1,65 @@
+acronym: smime
+name: S/MIME Mail Security
+type: wg
+parent: sec
+state: conclude
+started: '1997-10-30'
+closed: '2010-10-12'
+history_url: https://datatracker.ietf.org/group/smime/history/
+chairs:
+- person: 10083
+  name: Paul Hoffman
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-10-12'
+      not_before: '1997-10-30'
+    end:
+      certainty: group-closed
+      date: '2010-10-12'
+- person: 19483
+  name: Sean Turner
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2007-05-21'
+    end:
+      certainty: evidence-only
+      not_before: '2007-12-02'
+  evidence:
+  - kind: WG Action
+    date: '2007-05-21'
+    subject: 'WG Action: RECHARTER: S/MIME Mail Security (smime)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '69'
+    - '70'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 21446
+  name: Blake Ramsdell
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '1997-10-30'
+    end:
+      certainty: group-closed
+      date: '2010-10-12'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: WG Action
+    date: '2007-05-21'
+    subject: 'WG Action: RECHARTER: S/MIME Mail Security (smime)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    - '68'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

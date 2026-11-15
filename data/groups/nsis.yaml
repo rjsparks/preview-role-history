@@ -1,0 +1,60 @@
+acronym: nsis
+name: Next Steps in Signaling
+type: wg
+parent: tsv
+state: conclude
+started: '2001-10-26'
+closed: '2011-03-16'
+history_url: https://datatracker.ietf.org/group/nsis/history/
+chairs:
+- person: 104183
+  name: John Loughney
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-03-19'
+    end:
+      certainty: evidence-only
+      not_before: '2006-11-05'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 105519
+  name: Martin Stiemerling
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-03-18'
+      not_before: '2001-10-26'
+    end:
+      certainty: group-closed
+      date: '2011-03-16'
+    notes:
+    - start moved earlier by session request for IETF 68
+  evidence:
+  - kind: session requests
+    meetings:
+    - '68'
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 108716
+  name: Jukka Manner
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-03-16'
+      not_before: '2001-10-26'
+    end:
+      certainty: group-closed
+      date: '2011-03-16'

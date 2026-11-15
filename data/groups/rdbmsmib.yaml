@@ -1,0 +1,20 @@
+acronym: rdbmsmib
+name: Relational Database Management Systems MIB
+type: wg
+parent: mgt
+state: conclude
+started: '1994-01-19'
+closed: '1994-08-23'
+history_url: https://datatracker.ietf.org/group/rdbmsmib/history/
+chairs:
+- person: 5741
+  name: Robert Purvy
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1994-08-23'
+      not_before: '1994-01-19'
+    end:
+      certainty: group-closed
+      date: '1994-08-23'

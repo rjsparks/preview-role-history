@@ -1,0 +1,20 @@
+acronym: vgmib
+name: 100VG-AnyLAN MIB
+type: wg
+parent: int
+state: conclude
+started: '1995-05-10'
+closed: '1998-01-26'
+history_url: https://datatracker.ietf.org/group/vgmib/history/
+chairs:
+- person: 8669
+  name: Jeff Johnson
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1998-01-26'
+      not_before: '1995-05-10'
+    end:
+      certainty: group-closed
+      date: '1998-01-26'

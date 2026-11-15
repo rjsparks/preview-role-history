@@ -1,0 +1,19 @@
+acronym: confctrl
+name: Conferencing Control
+type: wg
+parent: app
+state: conclude
+started: null
+closed: '1992-12-31'
+history_url: https://datatracker.ietf.org/group/confctrl/history/
+chairs:
+- person: 123468
+  name: Eve Schooler
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1992-12-31'
+    end:
+      certainty: group-closed
+      date: '1992-12-31'

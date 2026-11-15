@@ -1,0 +1,19 @@
+acronym: teleconf
+name: Teleconferencing
+type: wg
+parent: app
+state: bof-conc
+started: null
+closed: '1991-12-01'
+history_url: https://datatracker.ietf.org/group/teleconf/history/
+chairs:
+- person: 2383
+  name: Russ Hobby
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1991-12-01'
+    end:
+      certainty: group-closed
+      date: '1991-12-01'

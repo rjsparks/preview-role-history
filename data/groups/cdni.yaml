@@ -1,0 +1,164 @@
+acronym: cdni
+name: Content Delivery Networks Interconnection
+type: wg
+parent: wit
+state: active
+started: '2011-06-28'
+closed: null
+history_url: https://datatracker.ietf.org/group/cdni/history/
+chairs:
+- person: 2690
+  name: Richard Woundy
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-06-28'
+      not_before: '2011-06-28'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2013-05-20'
+    notes:
+    - start moved earlier by WG Action announcement of 2011-06-28
+  evidence:
+  - kind: WG Action
+    date: '2011-06-28'
+    subject: 'WG Action: Content Delivery Networks Interconnection (cdni)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 101685
+  name: François Le Faucheur
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-06-28'
+      not_before: '2011-06-28'
+    end:
+      certainty: exact
+      date: '2021-04-16'
+    notes:
+    - start moved earlier by WG Action announcement of 2011-06-28
+  evidence:
+  - kind: WG Action
+    date: '2011-06-28'
+    subject: 'WG Action: Content Delivery Networks Interconnection (cdni)'
+    message_id: null
+  - kind: WG Review
+    date: '2013-11-22'
+    subject: 'WG Review: Content Delivery Networks Interconnection (cdni)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-cdni-control-triggers
+    - draft-ietf-cdni-footprint-capabilities-semantics
+    - draft-ietf-cdni-media-type
+    - draft-ietf-cdni-metadata
+- person: 107565
+  name: Daryl Malas
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2013-05-20'
+    end:
+      certainty: exact
+      date: '2015-11-05'
+  evidence:
+  - kind: WG Review
+    date: '2013-11-22'
+    subject: 'WG Review: Content Delivery Networks Interconnection (cdni)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-cdni-framework
+    - draft-ietf-cdni-requirements
+- person: 117609
+  name: Kevin Ma
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-11-02'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2025-09-25'
+    subject: 'WG Review: Content Delivery Networks Interconnection (cdni)'
+    message_id: 175881787106.1492460.12923343194462848410@dt-datatracker-6c6cdf7f94-h6rnn
+  - kind: WG Action
+    date: '2025-10-16'
+    subject: 'WG Action: Rechartered Content Delivery Networks Interconnection (cdni)'
+    message_id: 176062161047.1316800.1320279018136415911@dt-datatracker-84f8f646b-tg6mn
+  - kind: shepherded
+    documents:
+    - draft-ietf-cdni-additional-footprint-types
+    - draft-ietf-cdni-delegation-acme
+    - draft-ietf-cdni-https-delegation-subcerts
+    - draft-ietf-cdni-interfaces-https-delegation
+    - draft-ietf-cdni-logging
+    - draft-ietf-cdni-redirection
+    - draft-ietf-cdni-request-routing-extensions
+    - draft-ietf-cdni-uri-signing
+- person: 118406
+  name: Sanjay Mishra
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-04-16'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2025-09-25'
+    subject: 'WG Review: Content Delivery Networks Interconnection (cdni)'
+    message_id: 175881787106.1492460.12923343194462848410@dt-datatracker-6c6cdf7f94-h6rnn
+  - kind: WG Action
+    date: '2025-10-16'
+    subject: 'WG Action: Rechartered Content Delivery Networks Interconnection (cdni)'
+    message_id: 176062161047.1316800.1320279018136415911@dt-datatracker-84f8f646b-tg6mn
+  - kind: shepherded
+    documents:
+    - draft-ietf-cdni-capacity-insights-extensions
+- person: 120575
+  name: Phil Sorber
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-11-21'
+    end:
+      certainty: exact
+      date: '2021-04-16'
+- person: 124964
+  name: Chris Lemmons
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-03-11'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2025-09-25'
+    subject: 'WG Review: Content Delivery Networks Interconnection (cdni)'
+    message_id: 175881787106.1492460.12923343194462848410@dt-datatracker-6c6cdf7f94-h6rnn
+  - kind: WG Action
+    date: '2025-10-16'
+    subject: 'WG Action: Rechartered Content Delivery Networks Interconnection (cdni)'
+    message_id: 176062161047.1316800.1320279018136415911@dt-datatracker-84f8f646b-tg6mn
+  - kind: shepherded
+    documents:
+    - draft-ietf-cdni-client-access-control-metadata

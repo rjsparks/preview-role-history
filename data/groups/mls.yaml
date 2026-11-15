@@ -1,0 +1,55 @@
+acronym: mls
+name: Messaging Layer Security
+type: wg
+parent: sec
+state: active
+started: '2018-02-05'
+closed: null
+history_url: https://datatracker.ietf.org/group/mls/history/
+chairs:
+- person: 19483
+  name: Sean Turner
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2018-03-01'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2024-10-01'
+    subject: 'WG Review: Messaging Layer Security (mls)'
+    message_id: 172781833797.793544.954318396439271645@dt-datatracker-7bbd96684-zjf54
+  - kind: WG Action
+    date: '2024-10-18'
+    subject: 'WG Action: Rechartered Messaging Layer Security (mls)'
+    message_id: 172926478428.1512918.240265699282728285@dt-datatracker-78dc5ccf94-w8wgc
+  - kind: shepherded
+    documents:
+    - draft-ietf-mls-architecture
+    - draft-ietf-mls-extensions
+    - draft-ietf-mls-partial
+    - draft-ietf-mls-pq-ciphersuites
+    - draft-ietf-mls-protocol
+- person: 122298
+  name: Nick Sullivan
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2018-03-01'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2024-10-01'
+    subject: 'WG Review: Messaging Layer Security (mls)'
+    message_id: 172781833797.793544.954318396439271645@dt-datatracker-7bbd96684-zjf54
+  - kind: WG Action
+    date: '2024-10-18'
+    subject: 'WG Action: Rechartered Messaging Layer Security (mls)'
+    message_id: 172926478428.1512918.240265699282728285@dt-datatracker-78dc5ccf94-w8wgc
+  - kind: shepherded
+    documents:
+    - draft-ietf-mls-combiner

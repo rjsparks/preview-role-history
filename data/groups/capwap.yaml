@@ -1,0 +1,65 @@
+acronym: capwap
+name: Control And Provisioning of Wireless Access Points
+type: wg
+parent: ops
+state: conclude
+started: '2004-01-02'
+closed: '2010-05-10'
+history_url: https://datatracker.ietf.org/group/capwap/history/
+chairs:
+- person: 106530
+  name: Dorothy Gellert
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-05-10'
+      not_before: '2004-01-02'
+    end:
+      certainty: group-closed
+      date: '2010-05-10'
+- person: 117649
+  name: Mahalingam Mani
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '2004-01-02'
+    end:
+      certainty: group-closed
+      date: '2010-05-10'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '75'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 119947
+  name: Margaret Cullen
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2008-11-16'
+      not_before: '2004-01-02'
+    end:
+      certainty: group-closed
+      date: '2010-05-10'
+    notes:
+    - start moved earlier by session request for IETF 73
+  evidence:
+  - kind: session requests
+    meetings:
+    - '73'
+    - '74'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

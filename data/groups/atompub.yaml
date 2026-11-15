@@ -1,0 +1,38 @@
+acronym: atompub
+name: Atom Publishing Format and Protocol
+type: wg
+parent: app
+state: conclude
+started: '2004-03-15'
+closed: '2007-10-22'
+history_url: https://datatracker.ietf.org/group/atompub/history/
+chairs:
+- person: 10083
+  name: Paul Hoffman
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-07-09'
+      not_before: '2004-03-15'
+    end:
+      certainty: group-closed
+      date: '2007-10-22'
+    notes:
+    - start moved earlier by session request for IETF 66
+  evidence:
+  - kind: session requests
+    meetings:
+    - '66'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 106769
+  name: Tim Bray
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-10-22'
+      not_before: '2004-03-15'
+    end:
+      certainty: group-closed
+      date: '2007-10-22'

@@ -1,0 +1,31 @@
+acronym: prim
+name: Presence and Instant Messaging Protocol
+type: wg
+parent: app
+state: conclude
+started: '2001-06-20'
+closed: '2003-03-28'
+history_url: https://datatracker.ietf.org/group/prim/history/
+chairs:
+- person: 16886
+  name: Vijay Saraswat
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2003-03-28'
+      not_before: '2001-06-20'
+    end:
+      certainty: group-closed
+      date: '2003-03-28'
+- person: 104439
+  name: Florencio Mazzoldi
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2003-03-28'
+      not_before: '2001-06-20'
+    end:
+      certainty: group-closed
+      date: '2003-03-28'

@@ -1,0 +1,20 @@
+acronym: snmp-ng
+name: SNMP - Next Generation
+type: wg
+parent: ops-old
+state: conclude
+started: '1997-02-20'
+closed: '1997-02-26'
+history_url: https://datatracker.ietf.org/group/snmp-ng/history/
+chairs:
+- person: 1615
+  name: Russ Mundy
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1997-02-26'
+      not_before: '1997-02-20'
+    end:
+      certainty: group-closed
+      date: '1997-02-26'

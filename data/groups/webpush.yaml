@@ -1,0 +1,48 @@
+acronym: webpush
+name: Web-Based Push Notifications
+type: wg
+parent: art
+state: conclude
+started: '2014-09-11'
+closed: '2017-12-07'
+history_url: https://datatracker.ietf.org/group/webpush/history/
+chairs:
+- person: 107520
+  name: Shida Schubert
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-10-03'
+    end:
+      certainty: group-closed
+      date: '2017-12-07'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-webpush-protocol
+- person: 110049
+  name: Joe Hildebrand
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-10-03'
+    end:
+      certainty: group-closed
+      date: '2017-12-07'
+- person: 120575
+  name: Phil Sorber
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-04-06'
+    end:
+      certainty: group-closed
+      date: '2017-12-07'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-webpush-encryption
+    - draft-ietf-webpush-vapid

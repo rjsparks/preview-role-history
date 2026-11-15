@@ -1,0 +1,44 @@
+acronym: ianabis
+name: Update to IANA Considerations
+type: wg
+parent: gen
+state: active
+started: '2024-10-02'
+closed: null
+history_url: https://datatracker.ietf.org/group/ianabis/history/
+chairs:
+- person: 106842
+  name: Murray Kucherawy
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-03-20'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2025-04-22'
+    subject: 'WG Review: Update to IANA Considerations (ianabis)'
+    message_id: 174533790771.2226332.10317745409523149945@dt-datatracker-64c5c9b5f9-hz6qg
+- person: 110721
+  name: Ted Hardie
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-03-11'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Action
+    date: '2025-03-11'
+    subject: 'WG Action: Formed Update to IANA Considerations (ianabis)'
+    message_id: 174170208856.528477.12017942345800004630@dt-datatracker-775fc5cbb8-824tp
+  - kind: WG Review
+    date: '2025-04-22'
+    subject: 'WG Review: Update to IANA Considerations (ianabis)'
+    message_id: 174533790771.2226332.10317745409523149945@dt-datatracker-64c5c9b5f9-hz6qg
+  - kind: shepherded
+    documents:
+    - draft-ietf-ianabis-early-registries

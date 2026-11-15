@@ -1,0 +1,29 @@
+acronym: skex
+name: Symmetric Key Establishment and Exchange
+type: wg
+parent: sec
+state: bof-conc
+started: '2025-02-06'
+closed: '2025-06-05'
+history_url: https://datatracker.ietf.org/group/skex/history/
+chairs:
+- person: 102154
+  name: Alexey Melnikov
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-02-06'
+    end:
+      certainty: group-closed
+      date: '2025-06-05'
+- person: 104278
+  name: Yaron Sheffer
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-02-06'
+    end:
+      certainty: group-closed
+      date: '2025-06-05'

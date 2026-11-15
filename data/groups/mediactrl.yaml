@@ -1,0 +1,65 @@
+acronym: mediactrl
+name: Media Server Control
+type: wg
+parent: rai
+state: conclude
+started: '2007-01-05'
+closed: '2013-10-28'
+history_url: https://datatracker.ietf.org/group/mediactrl/history/
+chairs:
+- person: 15979
+  name: Dale Worley
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2007-01-05'
+    end:
+      certainty: group-closed
+      date: '2013-10-28'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-mediactrl-call-flows
+- person: 104196
+  name: Eric Burger
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-03-18'
+      not_before: '2007-01-05'
+    end:
+      certainty: group-closed
+      date: '2013-10-28'
+    notes:
+    - start moved earlier by session request for IETF 68
+  evidence:
+  - kind: session requests
+    meetings:
+    - '68'
+    - '72'
+    - '74'
+    - '76'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 107190
+  name: Spencer Dawkins
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2007-07-22'
+    end:
+      certainty: evidence-only
+      not_before: '2010-03-21'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '69'
+    - '70'
+    - '71'
+    - '73'
+    - '75'
+    - '77'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

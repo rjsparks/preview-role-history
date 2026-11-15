@@ -1,0 +1,31 @@
+acronym: ipsec
+name: IP Security Protocol
+type: wg
+parent: sec
+state: conclude
+started: '1992-11-25'
+closed: '2005-04-29'
+history_url: https://datatracker.ietf.org/group/ipsec/history/
+chairs:
+- person: 3793
+  name: Barbara Fraser
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-04-29'
+      not_before: '1992-11-25'
+    end:
+      certainty: group-closed
+      date: '2005-04-29'
+- person: 4837
+  name: Theodore Ts'o
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-04-29'
+      not_before: '1992-11-25'
+    end:
+      certainty: group-closed
+      date: '2005-04-29'

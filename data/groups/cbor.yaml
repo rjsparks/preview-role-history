@@ -1,0 +1,122 @@
+acronym: cbor
+name: Concise Binary Object Representation Maintenance and Extensions
+type: wg
+parent: art
+state: active
+started: '2016-11-17'
+closed: null
+history_url: https://datatracker.ietf.org/group/cbor/history/
+chairs:
+- person: 10083
+  name: Paul Hoffman
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-10-13'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-cbor-cde
+    - draft-ietf-cbor-edn-literals
+    - draft-ietf-cbor-packed
+    - draft-ietf-cbor-serialization
+- person: 11843
+  name: Carsten Bormann
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-03-08'
+    end:
+      certainty: exact
+      date: '2023-03-08'
+- person: 21684
+  name: Barry Leiba
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2018-03-31'
+    end:
+      certainty: exact
+      date: '2019-03-23'
+  - start:
+      certainty: exact
+      date: '2021-03-09'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-cbor-cddl
+    - draft-ietf-cbor-network-addresses
+    - draft-ietf-cbor-time-tag
+- person: 110049
+  name: Joe Hildebrand
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-12-15'
+    end:
+      certainty: exact
+      date: '2018-03-23'
+- person: 110910
+  name: Jim Schaad
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-03-23'
+    end:
+      certainty: exact
+      date: '2020-10-09'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-cbor-sequence
+- person: 119822
+  name: Francesca Palombini
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-12-15'
+    end:
+      certainty: exact
+      date: '2021-03-09'
+  - start:
+      certainty: exact
+      date: '2025-08-04'
+    end:
+      certainty: exact
+      date: '2025-10-06'
+  evidence:
+  - kind: WG Action
+    date: '2020-10-09'
+    subject: 'WG Action: Rechartered Concise Binary Object Representation Maintenance and Extensions (cbor)'
+    message_id: 160227582884.9692.4682594592728413173@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-cbor-7049bis
+    - draft-ietf-cbor-array-tags
+    - draft-ietf-cbor-date-tag
+- person: 122861
+  name: Christian Amsüss
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-12-07'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-cbor-cddl-control
+    - draft-ietf-cbor-file-magic
+    - draft-ietf-cbor-tags-oid
+    - draft-ietf-cbor-update-8610-grammar

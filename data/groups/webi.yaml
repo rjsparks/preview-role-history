@@ -1,0 +1,31 @@
+acronym: webi
+name: Web Intermediaries
+type: wg
+parent: app
+state: conclude
+started: '2000-11-13'
+closed: '2002-06-03'
+history_url: https://datatracker.ietf.org/group/webi/history/
+chairs:
+- person: 103876
+  name: Ian Cooper
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2002-06-03'
+      not_before: '2000-11-13'
+    end:
+      certainty: group-closed
+      date: '2002-06-03'
+- person: 103881
+  name: Mark Nottingham
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2002-06-03'
+      not_before: '2000-11-13'
+    end:
+      certainty: group-closed
+      date: '2002-06-03'

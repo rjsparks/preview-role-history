@@ -1,0 +1,114 @@
+acronym: openpgp
+name: Open Specification for Pretty Good Privacy
+type: wg
+parent: sec
+state: active
+started: '1997-09-19'
+closed: null
+history_url: https://datatracker.ietf.org/group/openpgp/history/
+chairs:
+- person: 8698
+  name: Derek Atkins
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-07-09'
+      not_before: '1997-09-19'
+    end:
+      certainty: approximate
+      date: '2015-06-07'
+    notes:
+    - start moved earlier by session request for IETF 66
+  evidence:
+  - kind: session requests
+    meetings:
+    - '66'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 19177
+  name: Stephen Farrell
+  status: confirmed
+  periods:
+  - start:
+      certainty: approximate
+      date: '2017-11-12'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2020-11-26'
+    subject: 'WG Review: Open Specification for Pretty Good Privacy (openpgp)'
+    message_id: 160643436808.11589.17889575697881704601@ietfa.amsl.com
+  - kind: WG Action
+    date: '2020-12-18'
+    subject: 'WG Action: Rechartered Open Specification for Pretty Good Privacy (openpgp)'
+    message_id: 160831201514.3795.5348470671129500290@ietfa.amsl.com
+  - kind: WG Review
+    date: '2023-12-04'
+    subject: 'WG Review: Open Specification for Pretty Good Privacy (openpgp)'
+    message_id: 170171724023.7064.13474012061701424020@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-12-15'
+    subject: 'WG Action: Rechartered Open Specification for Pretty Good Privacy (openpgp)'
+    message_id: 170267345271.31825.16906555698138132277@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-openpgp-crypto-refresh
+- person: 21684
+  name: Barry Leiba
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-06-23'
+    end:
+      certainty: approximate
+      date: '2017-11-12'
+- person: 104807
+  name: Christopher Liljenstolpe
+  status: confirmed
+  periods:
+  - start:
+      certainty: approximate
+      date: '2015-06-07'
+    end:
+      certainty: exact
+      date: '2016-06-23'
+  evidence:
+  - kind: WG Review
+    date: '2015-06-15'
+    subject: 'WG Review: Open Specification for Pretty Good Privacy (openpgp)'
+    message_id: null
+- person: 111614
+  name: Daniel Gillmor
+  status: confirmed
+  periods:
+  - start:
+      certainty: approximate
+      date: '2015-06-07'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2015-06-15'
+    subject: 'WG Review: Open Specification for Pretty Good Privacy (openpgp)'
+    message_id: null
+  - kind: WG Review
+    date: '2020-11-26'
+    subject: 'WG Review: Open Specification for Pretty Good Privacy (openpgp)'
+    message_id: 160643436808.11589.17889575697881704601@ietfa.amsl.com
+  - kind: WG Action
+    date: '2020-12-18'
+    subject: 'WG Action: Rechartered Open Specification for Pretty Good Privacy (openpgp)'
+    message_id: 160831201514.3795.5348470671129500290@ietfa.amsl.com
+  - kind: WG Review
+    date: '2023-12-04'
+    subject: 'WG Review: Open Specification for Pretty Good Privacy (openpgp)'
+    message_id: 170171724023.7064.13474012061701424020@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-12-15'
+    subject: 'WG Action: Rechartered Open Specification for Pretty Good Privacy (openpgp)'
+    message_id: 170267345271.31825.16906555698138132277@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-openpgp-pqc

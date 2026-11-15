@@ -1,0 +1,20 @@
+acronym: tcplw
+name: TCP Large Windows
+type: wg
+parent: tsv
+state: conclude
+started: '1989-10-02'
+closed: '1998-04-20'
+history_url: https://datatracker.ietf.org/group/tcplw/history/
+chairs:
+- person: 2701
+  name: David Borman
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1998-04-20'
+      not_before: '1989-10-02'
+    end:
+      certainty: group-closed
+      date: '1998-04-20'

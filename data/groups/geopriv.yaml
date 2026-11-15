@@ -1,0 +1,110 @@
+acronym: geopriv
+name: Geographic Location/Privacy
+type: wg
+parent: rai
+state: conclude
+started: '2001-04-06'
+closed: '2014-11-08'
+history_url: https://datatracker.ietf.org/group/geopriv/history/
+chairs:
+- person: 106296
+  name: Andy Newton
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-07-09'
+    end:
+      certainty: evidence-only
+      not_before: '2007-03-18'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '66'
+    - '67'
+    - '68'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 108049
+  name: Richard Barnes
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2009-06-23'
+      not_before: '2001-04-06'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2013-03-13'
+    notes:
+    - start moved earlier by WG Action announcement of 2009-06-23
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2013-03-13'
+    end:
+      certainty: exact
+      date: '2013-04-09'
+  evidence:
+  - kind: WG Review
+    date: '2009-06-08'
+    subject: 'WG Review: Recharter of Geographic Location/Privacy (geopriv)'
+    message_id: null
+  - kind: WG Action
+    date: '2009-06-23'
+    subject: 'WG Action: RECHARTER: Geographic Location/Privacy (geopriv)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '75'
+    - '76'
+    - '77'
+    - '79'
+    - '80'
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 109059
+  name: Ray Bellis
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-03-01'
+    end:
+      certainty: group-closed
+      date: '2014-11-08'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-geopriv-uncertainty
+- person: 110077
+  name: Alissa Cooper
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2009-06-23'
+      not_before: '2001-04-06'
+    end:
+      certainty: exact
+      date: '2014-03-01'
+    notes:
+    - start moved earlier by WG Action announcement of 2009-06-23
+  evidence:
+  - kind: WG Review
+    date: '2009-06-08'
+    subject: 'WG Review: Recharter of Geographic Location/Privacy (geopriv)'
+    message_id: null
+  - kind: WG Action
+    date: '2009-06-23'
+    subject: 'WG Action: RECHARTER: Geographic Location/Privacy (geopriv)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '78'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-geopriv-relative-location
+    - draft-ietf-geopriv-res-gw-lis-discovery

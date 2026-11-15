@@ -1,0 +1,43 @@
+acronym: mobopts
+name: IP Mobility Optimizations Research Group
+type: rg
+parent: irtf
+state: conclude
+started: null
+closed: '2012-06-11'
+history_url: https://datatracker.ietf.org/group/mobopts/history/
+chairs:
+- person: 101214
+  name: Rajeev Koodli
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+    end:
+      certainty: group-closed
+      date: '2012-06-11'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '68'
+    - '69'
+    - '70'
+    - '72'
+    - '73'
+    - '78'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 106412
+  name: Suresh Krishnan
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2012-02-26'
+    end:
+      certainty: group-closed
+      date: '2012-06-11'

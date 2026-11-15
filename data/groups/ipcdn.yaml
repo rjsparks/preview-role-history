@@ -1,0 +1,31 @@
+acronym: ipcdn
+name: IP over Cable Data Network
+type: wg
+parent: ops
+state: conclude
+started: '1996-08-30'
+closed: '2009-04-02'
+history_url: https://datatracker.ietf.org/group/ipcdn/history/
+chairs:
+- person: 2690
+  name: Richard Woundy
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2009-04-02'
+      not_before: '1996-08-30'
+    end:
+      certainty: group-closed
+      date: '2009-04-02'
+- person: 103612
+  name: Jean-Francois Mule
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2009-04-02'
+      not_before: '1996-08-30'
+    end:
+      certainty: group-closed
+      date: '2009-04-02'

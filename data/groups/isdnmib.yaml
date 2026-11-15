@@ -1,0 +1,20 @@
+acronym: isdnmib
+name: ISDN MIB
+type: wg
+parent: int
+state: conclude
+started: '1995-05-11'
+closed: '1998-02-09'
+history_url: https://datatracker.ietf.org/group/isdnmib/history/
+chairs:
+- person: 6856
+  name: Ed Alcoff
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1998-02-09'
+      not_before: '1995-05-11'
+    end:
+      certainty: group-closed
+      date: '1998-02-09'

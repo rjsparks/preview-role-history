@@ -1,0 +1,20 @@
+acronym: multi6
+name: Site Multihoming in IPv6
+type: wg
+parent: ops
+state: conclude
+started: '2001-02-21'
+closed: '2007-03-17'
+history_url: https://datatracker.ietf.org/group/multi6/history/
+chairs:
+- person: 106114
+  name: Kurt Lindqvist
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-03-17'
+      not_before: '2001-02-21'
+    end:
+      certainty: group-closed
+      date: '2007-03-17'

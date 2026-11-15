@@ -1,0 +1,49 @@
+acronym: bfcpbis
+name: Binary Floor Control Protocol Bis
+type: wg
+parent: art
+state: conclude
+started: '2011-09-20'
+closed: '2021-01-20'
+history_url: https://datatracker.ietf.org/group/bfcpbis/history/
+chairs:
+- person: 105097
+  name: Keith Drage
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-11-01'
+      not_before: '2011-09-20'
+    end:
+      certainty: group-closed
+      date: '2021-01-20'
+    notes:
+    - start moved earlier by WG Action announcement of 2011-11-01
+  evidence:
+  - kind: WG Action
+    date: '2011-11-01'
+    subject: 'WG Action: Binary Floor Control Protocol Bis (bfcpbis)'
+    message_id: null
+- person: 112611
+  name: Charles Eckel
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-11-01'
+      not_before: '2011-09-20'
+    end:
+      certainty: group-closed
+      date: '2021-01-20'
+    notes:
+    - start moved earlier by WG Action announcement of 2011-11-01
+  evidence:
+  - kind: WG Action
+    date: '2011-11-01'
+    subject: 'WG Action: Binary Floor Control Protocol Bis (bfcpbis)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-bfcpbis-bfcp-websocket
+    - draft-ietf-bfcpbis-sdp-ws-uri

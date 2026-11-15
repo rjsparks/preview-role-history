@@ -1,0 +1,42 @@
+acronym: ledbat
+name: Low Extra Delay Background Transport
+type: wg
+parent: tsv
+state: conclude
+started: '2008-10-30'
+closed: '2012-12-20'
+history_url: https://datatracker.ietf.org/group/ledbat/history/
+chairs:
+- person: 109727
+  name: Murari Sridharan
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2009-03-22'
+      not_before: '2008-10-30'
+    end:
+      certainty: group-closed
+      date: '2012-12-20'
+    notes:
+    - start moved earlier by session request for IETF 74
+  evidence:
+  - kind: session requests
+    meetings:
+    - '74'
+    - '75'
+    - '76'
+    - '77'
+    - '79'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 110070
+  name: Rolf Winter
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2008-10-30'
+    end:
+      certainty: group-closed
+      date: '2012-12-20'

@@ -1,0 +1,220 @@
+acronym: opsawg
+name: Operations and Management Area Working Group
+type: wg
+parent: ops
+state: active
+started: '2007-05-17'
+closed: null
+history_url: https://datatracker.ietf.org/group/opsawg/history/
+chairs:
+- person: 2324
+  name: Scott Bradner
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-06-13'
+      not_before: '2007-05-17'
+    end:
+      certainty: exact
+      date: '2016-04-07'
+    notes:
+    - start moved earlier by WG Action announcement of 2007-06-13
+  evidence:
+  - kind: WG Action
+    date: '2007-06-13'
+    subject: 'WG Action: Operations and Management Area Working Group (opsawg)'
+    message_id: null
+  - kind: WG Review
+    date: '2012-10-02'
+    subject: 'WG Review: Operations and Management Area Working Group (opsawg)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '70'
+    - '75'
+    - '76'
+    - '77'
+    - '78'
+    - '79'
+    - '80'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-opsawg-oam-overview
+    - draft-ietf-opsawg-vmm-mib
+- person: 101104
+  name: Melinda Shore
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2007-05-17'
+    end:
+      certainty: exact
+      date: '2014-06-24'
+  evidence:
+  - kind: WG Review
+    date: '2012-10-02'
+    subject: 'WG Review: Operations and Management Area Working Group (opsawg)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-baker-opsawg-firewalls
+    - draft-ietf-opsawg-lsn-deployment
+- person: 104807
+  name: Christopher Liljenstolpe
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2007-05-17'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2013-03-13'
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2013-03-13'
+    end:
+      certainty: exact
+      date: '2013-09-06'
+  evidence:
+  - kind: WG Review
+    date: '2012-10-02'
+    subject: 'WG Review: Operations and Management Area Working Group (opsawg)'
+    message_id: null
+- person: 105682
+  name: Benoît Claise
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-07-25'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2025-04-21'
+    subject: 'WG Review: Operations and Management Area Working Group (opsawg)'
+    message_id: 174525450419.2058606.4458388879824765164@dt-datatracker-64c5c9b5f9-hz6qg
+  - kind: WG Action
+    date: '2025-05-08'
+    subject: 'WG Action: Rechartered Operations and Management Area Working Group (opsawg)'
+    message_id: 174672183130.1130889.5938708118140320237@dt-datatracker-58d4498dbd-6gzjf
+  - kind: shepherded
+    documents:
+    - draft-ietf-opsawg-ipfix-gtpu
+    - draft-ietf-opsawg-oam-characterization
+- person: 107991
+  name: Ted Seely
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2008-03-09'
+    end:
+      certainty: evidence-only
+      not_before: '2008-11-16'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '71'
+    - '72'
+    - '73'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 111656
+  name: Warren Kumari
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2013-09-06'
+    end:
+      certainty: exact
+      date: '2017-04-24'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-opsawg-capwap-extension
+    - draft-ietf-opsawg-capwap-hybridmac
+    - draft-ietf-opsawg-coman-probstate-reqs
+    - draft-ietf-opsawg-coman-use-cases
+    - draft-ietf-opsawg-hmac-sha-2-usm-snmp
+    - draft-ietf-opsawg-large-flow-load-balancing
+    - draft-ietf-opsawg-mibs-to-ieee80231
+- person: 113086
+  name: Joe Clarke
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-05-24'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2025-04-21'
+    subject: 'WG Review: Operations and Management Area Working Group (opsawg)'
+    message_id: 174525450419.2058606.4458388879824765164@dt-datatracker-64c5c9b5f9-hz6qg
+  - kind: WG Action
+    date: '2025-05-08'
+    subject: 'WG Action: Rechartered Operations and Management Area Working Group (opsawg)'
+    message_id: 174672183130.1130889.5938708118140320237@dt-datatracker-58d4498dbd-6gzjf
+  - kind: shepherded
+    documents:
+    - draft-ietf-opsawg-collected-data-manifest
+    - draft-ietf-opsawg-mud
+    - draft-ietf-opsawg-nat-yang
+    - draft-ietf-opsawg-pcaplinktype
+    - draft-ietf-opsawg-rfc7125-update
+    - draft-ietf-opsawg-secure-tacacs-yang
+    - draft-ietf-opsawg-tacacs
+    - draft-ietf-opsawg-tacacs-tls13
+    - draft-ietf-opsawg-tacacs-yang
+    - draft-ietf-opsawg-tlstm-update
+- person: 117721
+  name: Tianran Zhou
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-02-02'
+    end:
+      certainty: exact
+      date: '2024-03-18'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-opsawg-capwap-alt-tunnel
+    - draft-ietf-opsawg-ipfix-bgp-community
+    - draft-ietf-opsawg-service-model-explained
+- person: 117723
+  name: Henk Birkholz
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-09-11'
+    end:
+      certainty: exact
+      date: '2024-11-02'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-opsawg-mud-acceptable-urls
+    - draft-ietf-opsawg-mud-iot-dns-considerations
+- person: 118100
+  name: Ignas Bagdonas
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-02-25'
+    end:
+      certainty: exact
+      date: '2018-03-26'

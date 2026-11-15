@@ -1,0 +1,67 @@
+acronym: tram
+name: TURN Revised and Modernized
+type: wg
+parent: tsv
+state: conclude
+started: '2014-01-22'
+closed: '2021-11-10'
+history_url: https://datatracker.ietf.org/group/tram/history/
+chairs:
+- person: 103539
+  name: Gonzalo Camarillo
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-02-14'
+    end:
+      certainty: group-closed
+      date: '2021-11-10'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-tram-auth-problems
+    - draft-ietf-tram-turn-third-party-authz
+- person: 104495
+  name: Marc Petit-Huguenin
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2014-01-22'
+      not_before: '2014-01-22'
+    end:
+      certainty: approximate
+      date: '2014-01-24'
+  - start:
+      certainty: exact
+      date: '2014-02-13'
+    end:
+      certainty: exact
+      date: '2014-02-14'
+- person: 108717
+  name: Simon Perreault
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2014-01-22'
+      not_before: '2014-01-22'
+    end:
+      certainty: approximate
+      date: '2014-01-24'
+  - start:
+      certainty: exact
+      date: '2014-02-13'
+    end:
+      certainty: group-closed
+      date: '2021-11-10'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-tram-alpn
+    - draft-ietf-tram-stun-dtls
+    - draft-ietf-tram-stun-origin
+    - draft-ietf-tram-stun-path-data
+    - draft-ietf-tram-turn-mobility
+    - draft-ietf-tram-turn-server-discovery

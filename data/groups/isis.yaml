@@ -1,0 +1,92 @@
+acronym: isis
+name: IS-IS for IP Internets
+type: wg
+parent: rtg
+state: conclude
+started: '1998-09-10'
+closed: '2018-03-01'
+history_url: https://datatracker.ietf.org/group/isis/history/
+chairs:
+- person: 22933
+  name: Christian Hopps
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-11-05'
+      not_before: '1998-09-10'
+    end:
+      certainty: group-closed
+      date: '2018-03-01'
+    notes:
+    - start moved earlier by session request for IETF 67
+  evidence:
+  - kind: session requests
+    meetings:
+    - '67'
+    - '68'
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    - '75'
+    - '77'
+    - '79'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-isis-extended-sequence-no-tlv
+    - draft-ietf-isis-fs-lsp
+    - draft-ietf-isis-mi-bis
+    - draft-ietf-isis-node-admin-tag
+    - draft-ietf-isis-prefix-attributes
+    - draft-ietf-isis-remaining-lifetime
+    - draft-ietf-isis-rfc1142-to-historic
+    - draft-ietf-isis-rfc4971bis
+    - draft-ietf-isis-route-preference
+    - draft-ietf-isis-sbfd-discriminator
+    - draft-ietf-isis-tlv-codepoints
+- person: 23057
+  name: David Ward
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-07-22'
+      not_before: '1998-09-10'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2012-06-14'
+    notes:
+    - start moved earlier by session request for IETF 69
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2012-06-14'
+    end:
+      certainty: exact
+      date: '2013-08-19'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '69'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 111495
+  name: Hannes Gredler
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2013-07-17'
+    end:
+      certainty: group-closed
+      date: '2018-03-01'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-isis-auto-conf
+    - draft-ietf-isis-l2bundles
+    - draft-ietf-isis-pcr
+    - draft-ietf-isis-te-metric-extensions

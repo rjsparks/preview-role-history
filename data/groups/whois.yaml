@@ -1,0 +1,19 @@
+acronym: whois
+name: Whois Protocol
+type: wg
+parent: app
+state: bof-conc
+started: null
+closed: '2003-12-10'
+history_url: https://datatracker.ietf.org/group/whois/history/
+chairs:
+- person: 123932
+  name: Joao Damas
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2003-12-10'
+    end:
+      certainty: group-closed
+      date: '2003-12-10'

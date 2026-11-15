@@ -1,0 +1,68 @@
+acronym: regext
+name: Registration Protocols Extensions
+type: wg
+parent: ops
+state: active
+started: '2016-02-03'
+closed: null
+history_url: https://datatracker.ietf.org/group/regext/history/
+chairs:
+- person: 2783
+  name: James Galvin
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2016-02-03'
+      not_before: '2016-02-03'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2026-06-18'
+    subject: 'WG Review: Registration Protocols Extensions (regext)'
+    message_id: 178181410744.807260.8298534569951461911@dt-datatracker-f9b87776f-8pmmg
+  - kind: WG Action
+    date: '2026-07-02'
+    subject: 'WG Action: Rechartered Registration Protocols Extensions (regext)'
+    message_id: 178300973266.2410458.12311570223626238853@dt-datatracker-f9b87776f-xzl65
+  - kind: shepherded
+    documents:
+    - draft-ietf-regext-epp-registry-maintenance
+- person: 114834
+  name: Antoin Verschuren
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2016-02-03'
+      not_before: '2016-02-03'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2026-06-18'
+    subject: 'WG Review: Registration Protocols Extensions (regext)'
+    message_id: 178181410744.807260.8298534569951461911@dt-datatracker-f9b87776f-8pmmg
+  - kind: WG Action
+    date: '2026-07-02'
+    subject: 'WG Action: Rechartered Registration Protocols Extensions (regext)'
+    message_id: 178300973266.2410458.12311570223626238853@dt-datatracker-f9b87776f-xzl65
+- person: 131350
+  name: Jorge Cano
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-06-03'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2026-06-18'
+    subject: 'WG Review: Registration Protocols Extensions (regext)'
+    message_id: 178181410744.807260.8298534569951461911@dt-datatracker-f9b87776f-8pmmg
+  - kind: WG Action
+    date: '2026-07-02'
+    subject: 'WG Action: Rechartered Registration Protocols Extensions (regext)'
+    message_id: 178300973266.2410458.12311570223626238853@dt-datatracker-f9b87776f-xzl65

@@ -1,0 +1,38 @@
+acronym: pmtud
+name: Path MTU Discovery
+type: wg
+parent: tsv
+state: conclude
+started: '2003-06-26'
+closed: '2007-04-04'
+history_url: https://datatracker.ietf.org/group/pmtud/history/
+chairs:
+- person: 2674
+  name: Matt Mathis
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-04-04'
+      not_before: '2003-06-26'
+    end:
+      certainty: group-closed
+      date: '2007-04-04'
+- person: 101818
+  name: Matthew Zekauskas
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '2003-06-26'
+    end:
+      certainty: group-closed
+      date: '2007-04-04'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: session requests
+    meetings:
+    - '65'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

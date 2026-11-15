@@ -1,0 +1,56 @@
+acronym: xmpp
+name: Extensible Messaging and Presence Protocol
+type: wg
+parent: art
+state: conclude
+started: '2009-05-21'
+closed: '2015-09-14'
+history_url: https://datatracker.ietf.org/group/xmpp/history/
+chairs:
+- person: 19483
+  name: Sean Turner
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2009-11-08'
+    end:
+      certainty: evidence-only
+      not_before: '2010-03-21'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '76'
+    - '77'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 104140
+  name: Ben Campbell
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-07-25'
+      not_before: '2009-05-21'
+    end:
+      certainty: exact
+      date: '2015-03-26'
+    notes:
+    - start moved earlier by session request for IETF 78
+  evidence:
+  - kind: session requests
+    meetings:
+    - '78'
+    - '80'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 110049
+  name: Joe Hildebrand
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2009-05-21'
+    end:
+      certainty: group-closed
+      date: '2015-09-14'

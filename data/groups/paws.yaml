@@ -1,0 +1,64 @@
+acronym: paws
+name: Protocol to Access WS database
+type: wg
+parent: app
+state: conclude
+started: '2011-06-14'
+closed: '2015-05-22'
+history_url: https://datatracker.ietf.org/group/paws/history/
+chairs:
+- person: 106987
+  name: Brian Rosen
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-03-27'
+      not_before: '2011-06-14'
+    end:
+      certainty: group-closed
+      date: '2015-05-22'
+    notes:
+    - start moved earlier by session request for IETF 80
+  evidence:
+  - kind: WG Action
+    date: '2011-06-14'
+    subject: 'WG Action: Protocol to Access White Space Databases (paws)'
+    message_id: null
+  - kind: WG Action
+    date: '2012-05-30'
+    subject: 'WG Action: RECHARTER: Protocol to Access WS database (paws)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '80'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 108123
+  name: Gabor Bajko
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-06-14'
+      not_before: '2011-06-14'
+    end:
+      certainty: group-closed
+      date: '2015-05-22'
+    notes:
+    - start moved earlier by WG Action announcement of 2011-06-14
+  evidence:
+  - kind: WG Action
+    date: '2011-06-14'
+    subject: 'WG Action: Protocol to Access White Space Databases (paws)'
+    message_id: null
+  - kind: WG Action
+    date: '2012-05-30'
+    subject: 'WG Action: RECHARTER: Protocol to Access WS database (paws)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-paws-protocol

@@ -1,0 +1,178 @@
+acronym: dhc
+name: Dynamic Host Configuration
+type: wg
+parent: int
+state: active
+started: '1991-01-01'
+closed: null
+history_url: https://datatracker.ietf.org/group/dhc/history/
+chairs:
+- person: 2348
+  name: Ralph Droms
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2007-10-09'
+    end:
+      certainty: evidence-only
+      not_before: '2008-07-27'
+  evidence:
+  - kind: WG Review
+    date: '2007-10-09'
+    subject: 'WG Review: Recharter of Dynamic Host Configuration WG (dhc)'
+    message_id: null
+  - kind: WG Action
+    date: '2007-10-23'
+    subject: 'WG Action: RECHARTER: Dynamic Host Configuration WG (dhc)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '71'
+    - '72'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-dhc-rfc3315bis
+- person: 20356
+  name: Ted Lemon
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '1991-01-01'
+    end:
+      certainty: exact
+      date: '2013-03-12'
+- person: 106173
+  name: Stig Venaas
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-03-19'
+    end:
+      certainty: evidence-only
+      not_before: '2007-12-02'
+  evidence:
+  - kind: WG Review
+    date: '2007-10-09'
+    subject: 'WG Review: Recharter of Dynamic Host Configuration WG (dhc)'
+    message_id: null
+  - kind: WG Action
+    date: '2007-10-23'
+    subject: 'WG Action: RECHARTER: Dynamic Host Configuration WG (dhc)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    - '68'
+    - '69'
+    - '70'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 106618
+  name: Bernie Volz
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2013-03-12'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2013-08-30'
+    subject: 'WG Review: Dynamic Host Configuration (dhc)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-dhc-addr-registration
+    - draft-ietf-dhc-anonymity-profile
+    - draft-ietf-dhc-dhcp-privacy
+    - draft-ietf-dhc-dhcp4o6-saddr-opt
+    - draft-ietf-dhc-dhcpv4-over-dhcpv6
+    - draft-ietf-dhc-dhcpv4-over-dhcpv6-ra
+    - draft-ietf-dhc-dhcpv6-failover-design
+    - draft-ietf-dhc-dhcpv6-failover-protocol
+    - draft-ietf-dhc-dhcpv6-failover-requirements
+    - draft-ietf-dhc-dhcpv6-pd-relay-requirements
+    - draft-ietf-dhc-dhcpv6-prefix-length-hint-issue
+    - draft-ietf-dhc-dhcpv6-privacy
+    - draft-ietf-dhc-dynamic-shared-v4allocation
+    - draft-ietf-dhc-option-guidelines
+    - draft-ietf-dhc-problem-statement-of-mredhcpv6
+    - draft-ietf-dhc-topo-conf
+    - draft-ietf-dhc-triggered-reconfigure
+    - draft-ietf-dhc-v6only
+    - draft-link-dhc-v6only
+- person: 107618
+  name: John Brzozowski
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2008-11-16'
+      not_before: '1991-01-01'
+    end:
+      certainty: exact
+      date: '2013-03-12'
+    notes:
+    - start moved earlier by session request for IETF 73
+  evidence:
+  - kind: session requests
+    meetings:
+    - '73'
+    - '74'
+    - '75'
+    - '76'
+    - '77'
+    - '78'
+    - '79'
+    - '80'
+    - '81'
+    - '82'
+    - '83'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 110805
+  name: Tomek Mrugalski
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2013-03-12'
+    end:
+      certainty: exact
+      date: '2020-06-09'
+  evidence:
+  - kind: WG Review
+    date: '2013-08-30'
+    subject: 'WG Review: Dynamic Host Configuration (dhc)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-fkhp-dhc-dhcpv6-pd-relay-requirements
+    - draft-ietf-dhc-dhcpv4-active-leasequery
+    - draft-ietf-dhc-dhcpv6-radius-opt
+    - draft-ietf-dhc-dhcpv6-solmaxrt-update
+    - draft-ietf-dhc-dhcpv6-stateful-issues
+    - draft-ietf-dhc-relay-port
+    - draft-ietf-dhc-relay-server-security
+    - draft-ietf-dhc-v4configuration
+- person: 116338
+  name: Timothy Winters
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-06-09'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-dhc-addr-notification
+    - draft-ietf-dhc-dhcpv6-yang

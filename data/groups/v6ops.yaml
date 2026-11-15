@@ -1,0 +1,183 @@
+acronym: v6ops
+name: IPv6 Operations
+type: wg
+parent: ops
+state: active
+started: '2002-08-12'
+closed: null
+history_url: https://datatracker.ietf.org/group/v6ops/history/
+chairs:
+- person: 2853
+  name: Fred Baker
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-07-09'
+      not_before: '2002-08-12'
+    end:
+      certainty: exact
+      date: '2022-08-31'
+    notes:
+    - start moved earlier by session request for IETF 66
+  evidence:
+  - kind: WG Review
+    date: '2015-08-21'
+    subject: 'WG Review: IPv6 Operations (v6ops)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '66'
+    - '67'
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    - '75'
+    - '76'
+    - '77'
+    - '78'
+    - '79'
+    - '80'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-v6ops-3gpp-eps
+    - draft-ietf-v6ops-464xlat
+    - draft-ietf-v6ops-6204bis
+    - draft-ietf-v6ops-64share
+    - draft-ietf-v6ops-6to4-to-historic
+    - draft-ietf-v6ops-clatip
+    - draft-ietf-v6ops-dc-ipv6
+    - draft-ietf-v6ops-design-choices
+    - draft-ietf-v6ops-dhcpv6-slaac-problem
+    - draft-ietf-v6ops-enterprise-incremental-ipv6
+    - draft-ietf-v6ops-happy-eyeballs
+    - draft-ietf-v6ops-host-addr-availability
+    - draft-ietf-v6ops-ipv6-deployment
+    - draft-ietf-v6ops-ipv6-multihoming-without-ipv6nat
+    - draft-ietf-v6ops-ipv6-roaming-analysis
+    - draft-ietf-v6ops-ivi-icmp-address
+    - draft-ietf-v6ops-nat64-experience
+    - draft-ietf-v6ops-pmtud-ecmp-problem
+    - draft-ietf-v6ops-ra-guard-implementation
+    - draft-ietf-v6ops-reducing-ra-energy-consumption
+    - draft-ietf-v6ops-rfc3316bis
+    - draft-ietf-v6ops-siit-dc
+    - draft-ietf-v6ops-siit-dc-2xlat
+    - draft-ietf-v6ops-siit-eam
+    - draft-ietf-v6ops-v4v6-xlat-prefix
+    - draft-ietf-v6ops-v6-in-mobile-networks
+    - draft-ietf-v6ops-v6nd-problems
+    - draft-ietf-v6ops-wireline-incremental-ipv6
+- person: 20959
+  name: Joel Jaeggli
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2002-08-12'
+    end:
+      certainty: exact
+      date: '2013-02-21'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '83'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-v6ops-icp-guidance
+- person: 101568
+  name: Ron Bonica
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-09-15'
+    end:
+      certainty: exact
+      date: '2025-07-29'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-v6ops-cpe-lan-pd
+    - draft-ietf-v6ops-framework-md-ipv6only-underlay
+    - draft-ietf-v6ops-ipv6-ehs-packet-drops
+    - draft-ietf-v6ops-rfc6555bis
+    - draft-ietf-v6ops-transition-comparison
+    - draft-ietf-v6ops-transition-ipv4aas
+    - draft-ietf-v6ops-unique-ipv6-prefix-per-host
+- person: 107618
+  name: John Brzozowski
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2013-02-21'
+    end:
+      certainty: exact
+      date: '2014-05-22'
+- person: 110307
+  name: Lee Howard
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-05-22'
+    end:
+      certainty: exact
+      date: '2018-06-01'
+  evidence:
+  - kind: WG Review
+    date: '2015-08-21'
+    subject: 'WG Review: IPv6 Operations (v6ops)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-v6ops-cidr-prefix
+    - draft-ietf-v6ops-ipv6-ehs-in-real-world
+- person: 113285
+  name: XiPeng Xiao
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-04-06'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2025-10-10'
+    subject: 'WG Review: IPv6 Operations (v6ops)'
+    message_id: 176011293874.138112.14443743498754547242@dt-datatracker-84f8f646b-tg6mn
+  - kind: WG Action
+    date: '2025-10-23'
+    subject: 'WG Action: Rechartered IPv6 Operations (v6ops)'
+    message_id: 176123681513.433659.13012478445569314989@dt-datatracker-675c8fd764-bsflw
+  - kind: shepherded
+    documents:
+    - draft-ietf-v6ops-rfc6146-bis
+- person: 128259
+  name: Nick Buraglio
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-12-08'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2025-10-10'
+    subject: 'WG Review: IPv6 Operations (v6ops)'
+    message_id: 176011293874.138112.14443743498754547242@dt-datatracker-84f8f646b-tg6mn
+  - kind: WG Action
+    date: '2025-10-23'
+    subject: 'WG Action: Rechartered IPv6 Operations (v6ops)'
+    message_id: 176123681513.433659.13012478445569314989@dt-datatracker-675c8fd764-bsflw

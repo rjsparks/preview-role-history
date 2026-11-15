@@ -1,0 +1,29 @@
+acronym: icos
+name: IP Configuration Security
+type: wg
+parent: int
+state: conclude
+started: null
+closed: '2005-05-11'
+history_url: https://datatracker.ietf.org/group/icos/history/
+chairs:
+- person: 12620
+  name: Bernard Aboba
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-05-11'
+    end:
+      certainty: group-closed
+      date: '2005-05-11'
+- person: 21072
+  name: Jari Arkko
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2005-05-11'
+    end:
+      certainty: group-closed
+      date: '2005-05-11'

@@ -1,0 +1,51 @@
+acronym: cuss
+name: Call Control UUI Service for SIP
+type: wg
+parent: rai
+state: conclude
+started: '2010-06-10'
+closed: '2015-01-27'
+history_url: https://datatracker.ietf.org/group/cuss/history/
+chairs:
+- person: 106812
+  name: Vijay Gurbani
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-07-24'
+      not_before: '2010-06-10'
+    end:
+      certainty: group-closed
+      date: '2015-01-27'
+    notes:
+    - start moved earlier by session request for IETF 81
+  evidence:
+  - kind: session requests
+    meetings:
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-cuss-sip-uui
+    - draft-ietf-cuss-sip-uui-isdn
+    - draft-ietf-cuss-sip-uui-reqs
+- person: 107435
+  name: Enrico Marocco
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-11-07'
+      not_before: '2010-06-10'
+    end:
+      certainty: group-closed
+      date: '2015-01-27'
+    notes:
+    - start moved earlier by session request for IETF 79
+  evidence:
+  - kind: session requests
+    meetings:
+    - '79'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

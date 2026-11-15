@@ -1,0 +1,20 @@
+acronym: msdp
+name: Multicast Source Discovery Protocol
+type: wg
+parent: rtg
+state: conclude
+started: '1998-10-09'
+closed: '2004-01-15'
+history_url: https://datatracker.ietf.org/group/msdp/history/
+chairs:
+- person: 103708
+  name: David Meyer
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-01-15'
+      not_before: '1998-10-09'
+    end:
+      certainty: group-closed
+      date: '2004-01-15'

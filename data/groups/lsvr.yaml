@@ -1,0 +1,94 @@
+acronym: lsvr
+name: Link State Vector Routing
+type: wg
+parent: rtg
+state: active
+started: '2018-01-25'
+closed: null
+history_url: https://datatracker.ietf.org/group/lsvr/history/
+chairs:
+- person: 10784
+  name: Acee Lindem
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-02-17'
+    end:
+      certainty: exact
+      date: '2026-05-11'
+- person: 108304
+  name: Gunter Van de Velde
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2018-01-25'
+      not_before: '2018-01-25'
+    end:
+      certainty: exact
+      date: '2024-05-01'
+- person: 110737
+  name: Jie Dong
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-01-24'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2025-01-23'
+    subject: 'WG Review: Link State Vector Routing (lsvr)'
+    message_id: 173765194803.302770.6841096417170807139@dt-datatracker-5584d84fb4-tg2td
+  - kind: WG Action
+    date: '2025-02-06'
+    subject: 'WG Action: Rechartered Link State Vector Routing (lsvr)'
+    message_id: 173887499191.275.16329949887569051899@dt-datatracker-75c44cbbdf-pxnd6
+  - kind: shepherded
+    documents:
+    - draft-ietf-lsvr-l3dl
+- person: 111493
+  name: Victor Kuarsingh
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2018-01-25'
+      not_before: '2018-01-25'
+    end:
+      certainty: exact
+      date: '2023-03-26'
+- person: 122823
+  name: Ketan Talaulikar
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-02-28'
+    end:
+      certainty: exact
+      date: '2025-03-19'
+  evidence:
+  - kind: WG Review
+    date: '2025-01-23'
+    subject: 'WG Review: Link State Vector Routing (lsvr)'
+    message_id: 173765194803.302770.6841096417170807139@dt-datatracker-5584d84fb4-tg2td
+  - kind: WG Action
+    date: '2025-02-06'
+    subject: 'WG Action: Rechartered Link State Vector Routing (lsvr)'
+    message_id: 173887499191.275.16329949887569051899@dt-datatracker-75c44cbbdf-pxnd6
+  - kind: shepherded
+    documents:
+    - draft-ietf-lsvr-applicability
+    - draft-ietf-lsvr-bgp-spf
+- person: 124018
+  name: Krishnaswamy Ananthamurthy
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2026-04-16'
+    end:
+      certainty: ongoing

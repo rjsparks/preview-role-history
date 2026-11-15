@@ -1,0 +1,29 @@
+acronym: hpwan
+name: High Performance Wide Area Network
+type: wg
+parent: wit
+state: bof-conc
+started: '2024-09-27'
+closed: '2025-02-06'
+history_url: https://datatracker.ietf.org/group/hpwan/history/
+chairs:
+- person: 104331
+  name: Gorry Fairhurst
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-10-01'
+    end:
+      certainty: group-closed
+      date: '2025-02-06'
+- person: 106461
+  name: Tim Chown
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-10-01'
+    end:
+      certainty: group-closed
+      date: '2025-02-06'

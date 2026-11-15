@@ -1,0 +1,20 @@
+acronym: agentx
+name: SNMP Agent Extensibility
+type: wg
+parent: ops
+state: conclude
+started: '1995-10-12'
+closed: '2002-05-24'
+history_url: https://datatracker.ietf.org/group/agentx/history/
+chairs:
+- person: 11581
+  name: Bob Natale
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2002-05-24'
+      not_before: '1995-10-12'
+    end:
+      certainty: group-closed
+      date: '2002-05-24'

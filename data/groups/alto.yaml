@@ -1,0 +1,143 @@
+acronym: alto
+name: Application-Layer Traffic Optimization
+type: wg
+parent: ops
+state: conclude
+started: '2008-09-18'
+closed: '2024-01-24'
+history_url: https://datatracker.ietf.org/group/alto/history/
+chairs:
+- person: 104557
+  name: Jon Peterson
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2010-10-12'
+    end:
+      certainty: evidence-only
+      not_before: '2010-10-12'
+  evidence:
+  - kind: WG Action
+    date: '2010-10-12'
+    subject: 'WG Action: RECHARTER: Application-Layer Traffic Optimization (alto)'
+    message_id: null
+- person: 106812
+  name: Vijay Gurbani
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-10-12'
+      not_before: '2008-09-18'
+    end:
+      certainty: exact
+      date: '2021-07-29'
+    notes:
+    - start moved earlier by WG Action announcement of 2010-10-12
+  evidence:
+  - kind: WG Action
+    date: '2010-10-12'
+    subject: 'WG Action: RECHARTER: Application-Layer Traffic Optimization (alto)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-alto-cdni-request-routing-alto
+    - draft-ietf-alto-cost-calendar
+    - draft-ietf-alto-deployments
+    - draft-ietf-alto-incr-update-sse
+    - draft-ietf-alto-path-vector
+    - draft-ietf-alto-server-discovery
+    - draft-ietf-alto-unified-props-new
+- person: 107435
+  name: Enrico Marocco
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2009-03-22'
+      not_before: '2008-09-18'
+    end:
+      certainty: exact
+      date: '2016-04-18'
+    notes:
+    - start moved earlier by session request for IETF 74
+  evidence:
+  - kind: WG Action
+    date: '2010-10-12'
+    subject: 'WG Action: RECHARTER: Application-Layer Traffic Optimization (alto)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '74'
+    - '75'
+    - '76'
+    - '77'
+    - '78'
+    - '79'
+    - '80'
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-alto-protocol
+    - draft-ietf-alto-reqs
+- person: 108807
+  name: Jan Seedorf
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-08-19'
+    end:
+      certainty: exact
+      date: '2022-03-23'
+  evidence:
+  - kind: WG Review
+    date: '2021-08-13'
+    subject: 'WG Review: Application-Layer Traffic Optimization (alto)'
+    message_id: 162887995282.31613.12945868385282209708@ietfa.amsl.com
+  - kind: WG Action
+    date: '2021-09-21'
+    subject: 'WG Action: Rechartered Application-Layer Traffic Optimization (alto)'
+    message_id: 163224692532.18780.3419559877981771682@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-alto-multi-cost
+    - draft-ietf-alto-performance-metrics
+    - draft-ietf-alto-xdom-disc
+- person: 112751
+  name: Qin Wu
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-11-10'
+    end:
+      certainty: group-closed
+      date: '2024-01-24'
+  evidence:
+  - kind: WG Review
+    date: '2021-08-13'
+    subject: 'WG Review: Application-Layer Traffic Optimization (alto)'
+    message_id: 162887995282.31613.12945868385282209708@ietfa.amsl.com
+  - kind: WG Action
+    date: '2021-09-21'
+    subject: 'WG Action: Rechartered Application-Layer Traffic Optimization (alto)'
+    message_id: 163224692532.18780.3419559877981771682@ietfa.amsl.com
+- person: 112869
+  name: Mohamed Boucadair
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-12-06'
+    end:
+      certainty: group-closed
+      date: '2024-01-24'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-alto-new-transport
+    - draft-ietf-alto-oam-yang

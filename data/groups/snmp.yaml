@@ -1,0 +1,20 @@
+acronym: snmp
+name: Simple Network Management Protocol
+type: wg
+parent: mgt
+state: conclude
+started: '1987-02-01'
+closed: '1991-11-18'
+history_url: https://datatracker.ietf.org/group/snmp/history/
+chairs:
+- person: 2455
+  name: Marshall Rose
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1991-11-18'
+      not_before: '1987-02-01'
+    end:
+      certainty: group-closed
+      date: '1991-11-18'

@@ -1,0 +1,70 @@
+acronym: ospf
+name: Open Shortest Path First IGP
+type: wg
+parent: rtg
+state: conclude
+started: '1988-03-01'
+closed: '2018-03-01'
+history_url: https://datatracker.ietf.org/group/ospf/history/
+chairs:
+- person: 10784
+  name: Acee Lindem
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '1988-03-01'
+    end:
+      certainty: group-closed
+      date: '2018-03-01'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '74'
+    - '75'
+    - '77'
+    - '79'
+    - '80'
+    - '81'
+    - '83'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-ospf-encapsulation-cap
+    - draft-ietf-ospf-link-overload
+    - draft-ietf-ospf-manet-single-hop-mdr
+    - draft-ietf-ospf-node-admin-tag
+    - draft-ietf-ospf-sbfd-discriminator
+    - draft-ietf-ospf-segment-routing-extensions
+    - draft-ietf-ospf-te-metric-extensions
+- person: 104816
+  name: Abhay Roy
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2008-11-16'
+      not_before: '1988-03-01'
+    end:
+      certainty: group-closed
+      date: '2018-03-01'
+    notes:
+    - start moved earlier by session request for IETF 73
+  evidence:
+  - kind: session requests
+    meetings:
+    - '73'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-ospf-rfc6506bis

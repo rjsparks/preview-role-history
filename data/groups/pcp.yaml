@@ -1,0 +1,74 @@
+acronym: pcp
+name: Port Control Protocol
+type: wg
+parent: int
+state: conclude
+started: '2010-07-09'
+closed: '2017-11-13'
+history_url: https://datatracker.ietf.org/group/pcp/history/
+chairs:
+- person: 15927
+  name: Dave Thaler
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-03-27'
+      not_before: '2010-07-09'
+    end:
+      certainty: group-closed
+      date: '2017-11-13'
+    notes:
+    - start moved earlier by session request for IETF 80
+  evidence:
+  - kind: session requests
+    meetings:
+    - '80'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-pcp-anycast
+    - draft-ietf-pcp-authentication
+    - draft-ietf-pcp-description-option
+    - draft-ietf-pcp-dhcp
+    - draft-ietf-pcp-nat64-prefix64
+    - draft-ietf-pcp-proxy
+    - draft-ietf-pcp-server-selection
+- person: 104985
+  name: Reinaldo Penno
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2013-03-13'
+    end:
+      certainty: group-closed
+      date: '2017-11-13'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-pcp-optimize-keepalives
+    - draft-ietf-pcp-port-set
+    - draft-ietf-pcp-third-party-id-option
+- person: 105328
+  name: Alain Durand
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-11-07'
+      not_before: '2010-07-09'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2013-03-13'
+    notes:
+    - start moved earlier by session request for IETF 79
+  evidence:
+  - kind: session requests
+    meetings:
+    - '79'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

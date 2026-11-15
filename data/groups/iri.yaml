@@ -1,0 +1,49 @@
+acronym: iri
+name: Internationalized Resource Identifiers
+type: wg
+parent: app
+state: conclude
+started: '2009-12-12'
+closed: '2013-01-18'
+history_url: https://datatracker.ietf.org/group/iri/history/
+chairs:
+- person: 19869
+  name: Marc Blanchet
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2010-07-25'
+    end:
+      certainty: evidence-only
+      not_before: '2011-11-13'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '78'
+    - '79'
+    - '80'
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 105907
+  name: Peter Saint-Andre
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+    end:
+      certainty: group-closed
+      date: '2013-01-18'
+- person: 112547
+  name: Chris Weber
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2009-12-12'
+    end:
+      certainty: group-closed
+      date: '2013-01-18'

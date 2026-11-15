@@ -1,0 +1,131 @@
+acronym: detnet
+name: Deterministic Networking
+type: wg
+parent: rtg
+state: active
+started: '2014-10-01'
+closed: null
+history_url: https://datatracker.ietf.org/group/detnet/history/
+chairs:
+- person: 8243
+  name: Erik Nordmark
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-11-07'
+    end:
+      certainty: between
+      not_before: '2015-02-10'
+      not_after: '2015-06-11'
+- person: 10064
+  name: Lou Berger
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2015-02-10'
+      not_after: '2015-06-11'
+    end:
+      certainty: approximate
+      date: '2015-08-29'
+  - start:
+      certainty: exact
+      date: '2015-09-18'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Action
+    date: '2020-04-20'
+    subject: 'WG Action: Rechartered Deterministic Networking (detnet)'
+    message_id: 158741470827.28827.4573027457553634955@ietfa.amsl.com
+  - kind: WG Action
+    date: '2022-07-06'
+    subject: 'WG Action: Rechartered Deterministic Networking (detnet)'
+    message_id: 165714132222.17300.16895343522140192091@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-12-01'
+    subject: 'WG Action: Rechartered Deterministic Networking (detnet)'
+    message_id: 170145691546.36243.14659517736798419383@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-detnet-architecture
+    - draft-ietf-detnet-bounded-latency
+    - draft-ietf-detnet-controller-plane-framework
+    - draft-ietf-detnet-flow-information-model
+    - draft-ietf-detnet-ip-over-tsn
+    - draft-ietf-detnet-mpls-over-ip-preof
+    - draft-ietf-detnet-mpls-over-tsn
+    - draft-ietf-detnet-oam-framework
+    - draft-ietf-detnet-pof
+    - draft-ietf-detnet-security
+    - draft-ietf-detnet-tsn-vpn-over-mpls
+    - draft-ietf-detnet-use-cases
+- person: 109800
+  name: Jouni Korhonen
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-10-02'
+    end:
+      certainty: approximate
+      date: '2015-02-10'
+- person: 112851
+  name: Patricia Thaler
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2015-02-10'
+      not_after: '2015-06-11'
+    end:
+      certainty: approximate
+      date: '2015-08-29'
+  - start:
+      certainty: exact
+      date: '2015-09-18'
+    end:
+      certainty: exact
+      date: '2018-03-26'
+- person: 115824
+  name: Pascal Thubert
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-10-02'
+    end:
+      certainty: exact
+      date: '2014-11-07'
+- person: 118295
+  name: János Farkas
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-12-01'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Action
+    date: '2020-04-20'
+    subject: 'WG Action: Rechartered Deterministic Networking (detnet)'
+    message_id: 158741470827.28827.4573027457553634955@ietfa.amsl.com
+  - kind: WG Action
+    date: '2022-07-06'
+    subject: 'WG Action: Rechartered Deterministic Networking (detnet)'
+    message_id: 165714132222.17300.16895343522140192091@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-12-01'
+    subject: 'WG Action: Rechartered Deterministic Networking (detnet)'
+    message_id: 170145691546.36243.14659517736798419383@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-detnet-ip-oam
+    - draft-ietf-detnet-mpls-oam
+    - draft-ietf-detnet-problem-statement
+    - draft-ietf-detnet-scaling-requirements
+    - draft-ietf-detnet-yang
+    - draft-ietf-raw-architecture
+    - draft-liu-detnet-large-scale-requirements

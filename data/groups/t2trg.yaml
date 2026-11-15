@@ -1,0 +1,37 @@
+acronym: t2trg
+name: Thing-to-Thing
+type: rg
+parent: irtf
+state: active
+started: '2015-02-12'
+closed: null
+history_url: https://datatracker.ietf.org/group/t2trg/history/
+chairs:
+- person: 11843
+  name: Carsten Bormann
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2015-02-12'
+      not_before: '2015-02-12'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-irtf-t2trg-security-setup-iot-devices
+- person: 108990
+  name: Ari Keränen
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-11-30'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-irtf-t2trg-iot-edge
+    - draft-irtf-t2trg-taxonomy-manufacturer-anchors

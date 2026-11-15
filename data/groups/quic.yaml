@@ -1,0 +1,130 @@
+acronym: quic
+name: QUIC
+type: wg
+parent: wit
+state: active
+started: '2016-06-10'
+closed: null
+history_url: https://datatracker.ietf.org/group/quic/history/
+chairs:
+- person: 103881
+  name: Mark Nottingham
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-10-04'
+    end:
+      certainty: exact
+      date: '2020-10-13'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-quic-invariants
+    - draft-ietf-quic-tls
+- person: 109354
+  name: Brian Trammell
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-06-15'
+    end:
+      certainty: exact
+      date: '2016-08-22'
+- person: 112773
+  name: Lars Eggert
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-06-15'
+    end:
+      certainty: exact
+      date: '2016-08-22'
+  - start:
+      certainty: exact
+      date: '2016-10-04'
+    end:
+      certainty: exact
+      date: '2021-07-27'
+  evidence:
+  - kind: WG Review
+    date: '2021-03-08'
+    subject: 'WG Review: QUIC (quic)'
+    message_id: 161520672955.27571.3785072151935746701@ietfa.amsl.com
+  - kind: WG Action
+    date: '2021-03-26'
+    subject: 'WG Action: Rechartered QUIC (quic)'
+    message_id: 161677724568.13726.11041439055108777501@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-quic-recovery
+    - draft-ietf-quic-transport
+- person: 122812
+  name: Lucas Pardue
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-01-15'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2021-03-08'
+    subject: 'WG Review: QUIC (quic)'
+    message_id: 161520672955.27571.3785072151935746701@ietfa.amsl.com
+  - kind: WG Action
+    date: '2021-03-26'
+    subject: 'WG Action: Rechartered QUIC (quic)'
+    message_id: 161677724568.13726.11041439055108777501@ietfa.amsl.com
+  - kind: WG Review
+    date: '2025-08-07'
+    subject: 'WG Review: QUIC (quic)'
+    message_id: 175458864012.1530889.7318122066868965390@dt-datatracker-5bd446d5fd-c47nq
+  - kind: WG Action
+    date: '2025-10-08'
+    subject: 'WG Action: Rechartered QUIC (quic)'
+    message_id: 175994467303.166758.14433716111887064221@dt-datatracker-6c6cdf7f94-h6rnn
+  - kind: shepherded
+    documents:
+    - draft-ietf-quic-bit-grease
+    - draft-ietf-quic-datagram
+    - draft-ietf-quic-http
+    - draft-ietf-quic-multipath
+    - draft-ietf-quic-qpack
+    - draft-ietf-quic-reliable-stream-reset
+- person: 126082
+  name: Matt Joras
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-01-20'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2021-03-08'
+    subject: 'WG Review: QUIC (quic)'
+    message_id: 161520672955.27571.3785072151935746701@ietfa.amsl.com
+  - kind: WG Action
+    date: '2021-03-26'
+    subject: 'WG Action: Rechartered QUIC (quic)'
+    message_id: 161677724568.13726.11041439055108777501@ietfa.amsl.com
+  - kind: WG Review
+    date: '2025-08-07'
+    subject: 'WG Review: QUIC (quic)'
+    message_id: 175458864012.1530889.7318122066868965390@dt-datatracker-5bd446d5fd-c47nq
+  - kind: WG Action
+    date: '2025-10-08'
+    subject: 'WG Action: Rechartered QUIC (quic)'
+    message_id: 175994467303.166758.14433716111887064221@dt-datatracker-6c6cdf7f94-h6rnn
+  - kind: shepherded
+    documents:
+    - draft-ietf-quic-ack-frequency
+    - draft-ietf-quic-applicability
+    - draft-ietf-quic-manageability
+    - draft-ietf-quic-v2
+    - draft-ietf-quic-version-negotiation

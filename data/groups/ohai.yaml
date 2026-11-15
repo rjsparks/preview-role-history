@@ -1,0 +1,44 @@
+acronym: ohai
+name: Oblivious HTTP Application Intermediation
+type: wg
+parent: sec
+state: conclude
+started: '2021-09-28'
+closed: '2026-02-27'
+history_url: https://datatracker.ietf.org/group/ohai/history/
+chairs:
+- person: 108049
+  name: Richard Barnes
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-10-07'
+    end:
+      certainty: group-closed
+      date: '2026-02-27'
+  evidence:
+  - kind: WG Action
+    date: '2021-10-07'
+    subject: 'WG Action: Formed Oblivious HTTP Application Intermediation (ohai)'
+    message_id: 163363189853.29174.5171926856077333101@ietfa.amsl.com
+- person: 123472
+  name: Shivan Sahib
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-10-07'
+    end:
+      certainty: group-closed
+      date: '2026-02-27'
+  evidence:
+  - kind: WG Action
+    date: '2021-10-07'
+    subject: 'WG Action: Formed Oblivious HTTP Application Intermediation (ohai)'
+    message_id: 163363189853.29174.5171926856077333101@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-ohai-chunked-ohttp
+    - draft-ietf-ohai-ohttp
+    - draft-ietf-ohai-svcb-config

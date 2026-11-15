@@ -1,0 +1,238 @@
+acronym: tsvwg
+name: Transport and Services Working Group
+type: wg
+parent: wit
+state: active
+started: '1999-09-16'
+closed: null
+history_url: https://datatracker.ietf.org/group/tsvwg/history/
+chairs:
+- person: 103156
+  name: David Black
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2012-07-06'
+      not_after: '2013-05-20'
+    end:
+      certainty: exact
+      date: '2023-02-15'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-tsvwg-behave-requirements-update
+    - draft-ietf-tsvwg-circuit-breaker
+    - draft-ietf-tsvwg-dscp-considerations
+    - draft-ietf-tsvwg-gre-in-udp-encap
+    - draft-ietf-tsvwg-iana-dscp-registry
+    - draft-ietf-tsvwg-ieee-802-11
+    - draft-ietf-tsvwg-le-phb
+    - draft-ietf-tsvwg-rfc5405bis
+    - draft-ietf-tsvwg-rsvp-pcn
+    - draft-ietf-tsvwg-rtcweb-qos
+    - draft-ietf-tsvwg-transport-encrypt
+    - draft-ietf-tsvwg-usr-exp
+- person: 104267
+  name: James Polk
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-06-28'
+      not_before: '1999-09-16'
+    end:
+      certainty: exact
+      date: '2014-12-10'
+    notes:
+    - start moved earlier by WG Action announcement of 2006-06-28
+  evidence:
+  - kind: WG Action
+    date: '2006-06-28'
+    subject: 'WG Action: RECHARTER: Transport Area Working Group (tsvwg)'
+    message_id: null
+  - kind: WG Action
+    date: '2011-05-31'
+    subject: 'WG Action: RECHARTER: Transport Area Working Group (tsvwg)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '66'
+    - '67'
+    - '69'
+    - '71'
+    - '75'
+    - '76'
+    - '79'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 104294
+  name: Magnus Westerlund
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-06-28'
+    end:
+      certainty: evidence-only
+      not_before: '2009-03-22'
+  evidence:
+  - kind: WG Action
+    date: '2006-06-28'
+    subject: 'WG Action: RECHARTER: Transport Area Working Group (tsvwg)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '72'
+    - '73'
+    - '74'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 104331
+  name: Gorry Fairhurst
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-03-21'
+      not_before: '1999-09-16'
+    end:
+      certainty: exact
+      date: '2025-03-21'
+    notes:
+    - start moved earlier by session request for IETF 77
+  evidence:
+  - kind: WG Action
+    date: '2011-05-31'
+    subject: 'WG Action: RECHARTER: Transport Area Working Group (tsvwg)'
+    message_id: null
+  - kind: WG Review
+    date: '2023-12-01'
+    subject: 'WG Review: Transport and Services Working Group (tsvwg)'
+    message_id: 170145678535.36931.7698906772466542578@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-12-15'
+    subject: 'WG Action: Rechartered Transport and Services Working Group (tsvwg)'
+    message_id: 170267296350.32241.7403110519207360136@ietfa.amsl.com
+  - kind: session requests
+    meetings:
+    - '77'
+    - '78'
+    - '80'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-amend-tsvwg-multipath-dccp
+    - draft-ietf-tsvwg-byte-pkt-congest
+    - draft-ietf-tsvwg-diffserv-intercon
+    - draft-ietf-tsvwg-ecn-encap-guidelines
+    - draft-ietf-tsvwg-ecn-experimentation
+    - draft-ietf-tsvwg-multipath-dccp
+    - draft-ietf-tsvwg-port-use
+    - draft-ietf-tsvwg-rfc4960-bis
+    - draft-ietf-tsvwg-rfc4960-errata
+    - draft-ietf-tsvwg-rfc6040update-shim
+    - draft-ietf-tsvwg-sctp-dtls-encaps
+    - draft-ietf-tsvwg-sctp-failover
+    - draft-ietf-tsvwg-sctp-ndata
+    - draft-ietf-tsvwg-sctp-prpolicies
+    - draft-ietf-tsvwg-sctp-sack-immediately
+    - draft-ietf-tsvwg-udp-options
+- person: 106541
+  name: Martin Duke
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-03-12'
+    end:
+      certainty: ongoing
+- person: 109753
+  name: Zaheduzzaman Sarker
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-03-21'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-tsvwg-nqb
+- person: 110070
+  name: Rolf Winter
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2012-06-26'
+    end:
+      certainty: approximate
+      date: '2012-07-06'
+- person: 110856
+  name: Wesley Eddy
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-12-07'
+    end:
+      certainty: exact
+      date: '2022-08-01'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-tsvwg-aqm-dualq-coupled
+    - draft-ietf-tsvwg-datagram-plpmtud
+    - draft-ietf-tsvwg-ecn-l4s-id
+    - draft-ietf-tsvwg-fecframe-ext
+    - draft-ietf-tsvwg-l4s-arch
+    - draft-ietf-tsvwg-l4sops
+    - draft-ietf-tsvwg-rlc-fec-scheme
+    - draft-ietf-tsvwg-tinymt32
+    - draft-roca-tsvwg-tinymt32
+- person: 112773
+  name: Lars Eggert
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-06-28'
+    end:
+      certainty: evidence-only
+      not_before: '2007-12-02'
+  evidence:
+  - kind: WG Action
+    date: '2006-06-28'
+    subject: 'WG Action: RECHARTER: Transport Area Working Group (tsvwg)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '68'
+    - '70'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 124189
+  name: Marten Seemann
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-08-01'
+    end:
+      certainty: exact
+      date: '2025-03-21'
+  evidence:
+  - kind: WG Review
+    date: '2023-12-01'
+    subject: 'WG Review: Transport and Services Working Group (tsvwg)'
+    message_id: 170145678535.36931.7698906772466542578@ietfa.amsl.com
+  - kind: WG Action
+    date: '2023-12-15'
+    subject: 'WG Action: Rechartered Transport and Services Working Group (tsvwg)'
+    message_id: 170267296350.32241.7403110519207360136@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-tsvwg-careful-resume
+    - draft-ietf-tsvwg-sctp-zero-checksum
+    - draft-ietf-tsvwg-udp-options-dplpmtud

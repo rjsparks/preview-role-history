@@ -1,0 +1,31 @@
+acronym: tuba
+name: TCP/UDP Over CLNP-Addressed Networks
+type: wg
+parent: int
+state: conclude
+started: '1992-08-12'
+closed: '1995-05-22'
+history_url: https://datatracker.ietf.org/group/tuba/history/
+chairs:
+- person: 4014
+  name: Peter Ford
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1995-05-22'
+      not_before: '1992-08-12'
+    end:
+      certainty: group-closed
+      date: '1995-05-22'
+- person: 130194
+  name: Mark Knopper
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1995-05-22'
+      not_before: '1992-08-12'
+    end:
+      certainty: group-closed
+      date: '1995-05-22'

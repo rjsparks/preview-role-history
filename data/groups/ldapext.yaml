@@ -1,0 +1,31 @@
+acronym: ldapext
+name: LDAP Extension
+type: wg
+parent: app
+state: conclude
+started: '1997-01-20'
+closed: '2003-04-04'
+history_url: https://datatracker.ietf.org/group/ldapext/history/
+chairs:
+- person: 10554
+  name: Roland Hedberg
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2003-04-04'
+      not_before: '1997-01-20'
+    end:
+      certainty: group-closed
+      date: '2003-04-04'
+- person: 19108
+  name: Mark Wahl
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2003-04-04'
+      not_before: '1997-01-20'
+    end:
+      certainty: group-closed
+      date: '2003-04-04'

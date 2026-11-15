@@ -1,0 +1,20 @@
+acronym: tpix
+name: TP/IX
+type: wg
+parent: int
+state: conclude
+started: '1993-04-20'
+closed: '1994-02-17'
+history_url: https://datatracker.ietf.org/group/tpix/history/
+chairs:
+- person: 10457
+  name: Vladimir Sukonnik
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1994-02-17'
+      not_before: '1993-04-20'
+    end:
+      certainty: group-closed
+      date: '1994-02-17'

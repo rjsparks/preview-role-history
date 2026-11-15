@@ -1,0 +1,54 @@
+acronym: hrpc
+name: Human Rights Protocol Considerations
+type: rg
+parent: irtf
+state: active
+started: '2015-01-23'
+closed: null
+history_url: https://datatracker.ietf.org/group/hrpc/history/
+chairs:
+- person: 3747
+  name: avri doria
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2015-01-23'
+      not_before: '2015-01-23'
+    end:
+      certainty: exact
+      date: '2021-05-06'
+- person: 116736
+  name: Niels ten Oever
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2015-01-23'
+      not_before: '2015-01-23'
+    end:
+      certainty: exact
+      date: '2018-04-17'
+- person: 124328
+  name: Mallory Knodel
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2018-08-16'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-irtf-hrpc-guidelines
+- person: 126300
+  name: Sofia Celi
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-03-14'
+    end:
+      certainty: exact
+      date: '2026-04-24'

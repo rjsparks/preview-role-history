@@ -1,0 +1,35 @@
+acronym: woes
+name: Web Object Encryption and Signing
+type: wg
+parent: sec
+state: bof-conc
+started: null
+closed: '2013-01-31'
+history_url: https://datatracker.ietf.org/group/woes/history/
+chairs:
+- person: 10083
+  name: Paul Hoffman
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+    end:
+      certainty: group-closed
+      date: '2013-01-31'
+- person: 108049
+  name: Richard Barnes
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+    end:
+      certainty: group-closed
+      date: '2013-01-31'

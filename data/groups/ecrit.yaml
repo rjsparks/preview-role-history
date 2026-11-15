@@ -1,0 +1,142 @@
+acronym: ecrit
+name: Emergency Context Resolution with Internet Technologies
+type: wg
+parent: art
+state: active
+started: '2004-10-01'
+closed: null
+history_url: https://datatracker.ietf.org/group/ecrit/history/
+chairs:
+- person: 18621
+  name: Randall Gellens
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-08-17'
+    end:
+      certainty: ongoing
+- person: 105857
+  name: Hannes Tschofenig
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2007-12-02'
+    end:
+      certainty: evidence-only
+      not_before: '2010-03-21'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '70'
+    - '71'
+    - '73'
+    - '74'
+    - '77'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 106012
+  name: Marc Linsner
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '2004-10-01'
+    end:
+      certainty: exact
+      date: '2016-08-19'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: WG Review
+    date: '2013-11-22'
+    subject: 'WG Review: Emergency Context Resolution with Internet Technologies (ecrit)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    - '68'
+    - '69'
+    - '72'
+    - '75'
+    - '76'
+    - '79'
+    - '80'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-ecrit-additional-data
+    - draft-ietf-ecrit-country-emg-urn
+- person: 107084
+  name: Roger Marshall
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2013-03-13'
+    end:
+      certainty: exact
+      date: '2023-09-08'
+  evidence:
+  - kind: WG Review
+    date: '2013-11-22'
+    subject: 'WG Review: Emergency Context Resolution with Internet Technologies (ecrit)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-ecrit-held-routing
+    - draft-ietf-ecrit-location-profile-registry-policy
+    - draft-ietf-ecrit-psap-callback
+    - draft-ietf-ecrit-trustworthy-location
+    - draft-ietf-ecrit-unauthenticated-access
+- person: 108049
+  name: Richard Barnes
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-07-25'
+      not_before: '2004-10-01'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2013-03-13'
+    notes:
+    - start moved earlier by session request for IETF 78
+  evidence:
+  - kind: session requests
+    meetings:
+    - '78'
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 114505
+  name: Allison Mankin
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-08-30'
+    end:
+      certainty: exact
+      date: '2024-11-08'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ecrit-lost-planned-changes
+    - draft-ietf-ecrit-car-crash
+    - draft-ietf-ecrit-data-only-ea
+    - draft-ietf-ecrit-ecall
+- person: 127927
+  name: Brandon Abley
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-11-08'
+    end:
+      certainty: ongoing

@@ -1,0 +1,71 @@
+acronym: wimse
+name: Workload Identity in Multi System Environments
+type: wg
+parent: art
+state: active
+started: '2023-09-28'
+closed: null
+history_url: https://datatracker.ietf.org/group/wimse/history/
+chairs:
+- person: 101208
+  name: Joseph Salowey
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-10-18'
+    end:
+      certainty: exact
+      date: '2024-03-07'
+  evidence:
+  - kind: WG Review
+    date: '2024-02-26'
+    subject: 'WG Review: Workload Identity in Multi System Environments (wimse)'
+    message_id: 170896766991.46597.10704297668593700562@ietfa.amsl.com
+- person: 104278
+  name: Yaron Sheffer
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-10-18'
+    end:
+      certainty: exact
+      date: '2024-03-07'
+  evidence:
+  - kind: WG Review
+    date: '2024-02-26'
+    subject: 'WG Review: Workload Identity in Multi System Environments (wimse)'
+    message_id: 170896766991.46597.10704297668593700562@ietfa.amsl.com
+- person: 112051
+  name: Justin Richer
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-03-07'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Action
+    date: '2024-03-07'
+    subject: 'WG Action: Formed Workload Identity in Multi System Environments (wimse)'
+    message_id: 170983594265.53111.13168480497104013253@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-wimse-http-signature
+    - draft-ietf-wimse-workload-identity-practices
+- person: 128503
+  name: Pieter Kasselman
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-03-13'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-wimse-identifier
+    - draft-ietf-wimse-mutual-tls

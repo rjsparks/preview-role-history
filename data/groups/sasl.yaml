@@ -1,0 +1,56 @@
+acronym: sasl
+name: Simple Authentication and Security Layer
+type: wg
+parent: sec
+state: conclude
+started: '2002-11-25'
+closed: '2010-08-23'
+history_url: https://datatracker.ietf.org/group/sasl/history/
+chairs:
+- person: 102191
+  name: Taylor Yu
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-11-05'
+      not_before: '2002-11-25'
+    end:
+      certainty: group-closed
+      date: '2010-08-23'
+    notes:
+    - start moved earlier by session request for IETF 67
+  evidence:
+  - kind: session requests
+    meetings:
+    - '67'
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '74'
+    - '76'
+    - '77'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 103904
+  name: Kurt Zeilenga
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '2002-11-25'
+    end:
+      certainty: group-closed
+      date: '2010-08-23'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '72'
+    - '73'
+    - '75'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

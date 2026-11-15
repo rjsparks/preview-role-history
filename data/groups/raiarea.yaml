@@ -1,0 +1,66 @@
+acronym: raiarea
+name: ART Area Open Meeting for Real-time Applications and Infrastructure
+type: ag
+parent: art
+state: conclude
+started: null
+closed: '2017-06-19'
+history_url: https://datatracker.ietf.org/group/raiarea/history/
+chairs:
+- person: 103539
+  name: Gonzalo Camarillo
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-07-24'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+    notes:
+    - start moved earlier by session request for IETF 81
+  evidence:
+  - kind: session requests
+    meetings:
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 103961
+  name: Robert Sparks
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+- person: 104140
+  name: Ben Campbell
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+    end:
+      certainty: group-closed
+      date: '2017-06-19'
+- person: 108049
+  name: Richard Barnes
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+- person: 110077
+  name: Alissa Cooper
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+    end:
+      certainty: group-closed
+      date: '2017-06-19'

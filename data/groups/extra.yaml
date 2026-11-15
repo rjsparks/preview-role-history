@@ -1,0 +1,56 @@
+acronym: extra
+name: Email mailstore and eXtensions To Revise or Amend
+type: wg
+parent: art
+state: conclude
+started: '2017-07-07'
+closed: '2025-03-17'
+history_url: https://datatracker.ietf.org/group/extra/history/
+chairs:
+- person: 107279
+  name: Jiankang Yao
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-11-15'
+    end:
+      certainty: group-closed
+      date: '2025-03-17'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-extra-imap-list-myrights
+    - draft-ietf-extra-imap-objectid
+    - draft-ietf-extra-jmapaccess
+    - draft-ietf-extra-sieve-fcc
+    - draft-ietf-extra-sieve-mailboxid
+    - draft-ietf-extra-sieve-special-use
+- person: 122671
+  name: Bron Gondwana
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-09-11'
+    end:
+      certainty: group-closed
+      date: '2025-03-17'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-brandt-imap-replace
+    - draft-ietf-extra-6855bis
+    - draft-ietf-extra-imap-fetch-preview
+    - draft-ietf-extra-imap-messagelimit
+    - draft-ietf-extra-imap-partial
+    - draft-ietf-extra-imap-replace
+    - draft-ietf-extra-imap-savedate
+    - draft-ietf-extra-imap-status-size
+    - draft-ietf-extra-imap-unauth
+    - draft-ietf-extra-imap4rev2
+    - draft-ietf-extra-processimip
+    - draft-ietf-extra-quota
+    - draft-ietf-extra-sieve-action-registry
+    - draft-ietf-extra-specialuse-important
+    - draft-leiba-extra-specialuse-important

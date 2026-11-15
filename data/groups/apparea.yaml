@@ -1,0 +1,123 @@
+acronym: apparea
+name: ART Area Open Meeting for Applications
+type: ag
+parent: art
+state: conclude
+started: null
+closed: '2017-06-19'
+history_url: https://datatracker.ietf.org/group/apparea/history/
+chairs:
+- person: 18321
+  name: Pete Resnick
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2017-03-30'
+- person: 21684
+  name: Barry Leiba
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2017-03-30'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2017-03-30'
+- person: 22971
+  name: Lisa Dusseault
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2007-12-02'
+    end:
+      certainty: evidence-only
+      not_before: '2008-07-27'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '70'
+    - '72'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 102154
+  name: Alexey Melnikov
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2017-03-30'
+    end:
+      certainty: group-closed
+      date: '2017-06-19'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '77'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 103769
+  name: Adam Roach
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-03-30'
+    end:
+      certainty: group-closed
+      date: '2017-06-19'
+- person: 104140
+  name: Ben Campbell
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2017-03-30'
+    end:
+      certainty: group-closed
+      date: '2017-06-19'
+- person: 105907
+  name: Peter Saint-Andre
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2017-03-30'
+- person: 106459
+  name: Dinara Suleymanova
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2007-03-18'
+    end:
+      certainty: evidence-only
+      not_before: '2007-07-22'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '68'
+    - '69'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 110077
+  name: Alissa Cooper
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2017-03-30'
+    end:
+      certainty: exact
+      date: '2017-03-30'

@@ -1,0 +1,19 @@
+acronym: ftpftam
+name: FTP-FTAM Gateway
+type: wg
+parent: app
+state: bof-conc
+started: null
+closed: '1992-12-31'
+history_url: https://datatracker.ietf.org/group/ftpftam/history/
+chairs:
+- person: 9545
+  name: Joshua Mindel
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1992-12-31'
+    end:
+      certainty: group-closed
+      date: '1992-12-31'

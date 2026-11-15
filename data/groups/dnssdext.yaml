@@ -1,0 +1,29 @@
+acronym: dnssdext
+name: 'Extensions for Scalable DNS Service Discovery '
+type: wg
+parent: int
+state: replaced
+started: null
+closed: null
+history_url: https://datatracker.ietf.org/group/dnssdext/history/
+chairs:
+- person: 2348
+  name: Ralph Droms
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2013-10-14'
+    end:
+      certainty: group-closed
+      date: '2014-02-03'
+- person: 106461
+  name: Tim Chown
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2013-10-14'
+    end:
+      certainty: group-closed
+      date: '2014-02-03'

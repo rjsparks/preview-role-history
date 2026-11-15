@@ -1,0 +1,113 @@
+acronym: mboned
+name: MBONE Deployment
+type: wg
+parent: ops
+state: active
+started: '1996-08-26'
+closed: null
+history_url: https://datatracker.ietf.org/group/mboned/history/
+chairs:
+- person: 19297
+  name: Hiroshi Ohta
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-11-05'
+    end:
+      certainty: evidence-only
+      not_before: '2008-07-27'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '67'
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 104329
+  name: Lenny Giuliano
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-07-24'
+      not_before: '1996-08-26'
+    end:
+      certainty: ongoing
+    notes:
+    - start moved earlier by session request for IETF 81
+  evidence:
+  - kind: WG Review
+    date: '2013-09-23'
+    subject: 'WG Review: MBONE Deployment (mboned)'
+    message_id: null
+  - kind: WG Review
+    date: '2025-06-26'
+    subject: 'WG Review: MBONE Deployment (mboned)'
+    message_id: 175096515632.372.9539055576819510483@dt-datatracker-6fcb845cd4-p6tkq
+  - kind: WG Action
+    date: '2025-07-10'
+    subject: 'WG Action: Rechartered MBONE Deployment (mboned)'
+    message_id: 175216112177.309015.14545050262023324390@dt-datatracker-557fbf6894-6vznl
+  - kind: session requests
+    meetings:
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-mboned-mtrace-v2
+- person: 106315
+  name: Greg Shepherd
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-03-21'
+      not_before: '1996-08-26'
+    end:
+      certainty: ongoing
+    notes:
+    - start moved earlier by session request for IETF 77
+  evidence:
+  - kind: WG Review
+    date: '2013-09-23'
+    subject: 'WG Review: MBONE Deployment (mboned)'
+    message_id: null
+  - kind: WG Review
+    date: '2025-06-26'
+    subject: 'WG Review: MBONE Deployment (mboned)'
+    message_id: 175096515632.372.9539055576819510483@dt-datatracker-6fcb845cd4-p6tkq
+  - kind: WG Action
+    date: '2025-07-10'
+    subject: 'WG Action: Rechartered MBONE Deployment (mboned)'
+    message_id: 175216112177.309015.14545050262023324390@dt-datatracker-557fbf6894-6vznl
+  - kind: session requests
+    meetings:
+    - '77'
+    - '78'
+    - '79'
+    - '80'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 107256
+  name: Marshall Eubanks
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-07-09'
+    end:
+      certainty: evidence-only
+      not_before: '2009-11-08'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '66'
+    - '73'
+    - '74'
+    - '75'
+    - '76'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

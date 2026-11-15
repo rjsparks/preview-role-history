@@ -1,0 +1,20 @@
+acronym: tn3270e
+name: Telnet TN3270 Enhancements
+type: wg
+parent: app
+state: conclude
+started: '1997-03-24'
+closed: '2004-02-19'
+history_url: https://datatracker.ietf.org/group/tn3270e/history/
+chairs:
+- person: 21235
+  name: Michael Boe
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-02-19'
+      not_before: '1997-03-24'
+    end:
+      certainty: group-closed
+      date: '2004-02-19'

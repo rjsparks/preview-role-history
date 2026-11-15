@@ -1,0 +1,31 @@
+acronym: spud
+name: Session Protocol for User Datagrams
+type: wg
+parent: tsv
+state: bof-conc
+started: '2015-02-12'
+closed: '2015-05-29'
+history_url: https://datatracker.ietf.org/group/spud/history/
+chairs:
+- person: 2097
+  name: Eliot Lear
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2015-02-12'
+      not_before: '2015-02-12'
+    end:
+      certainty: group-closed
+      date: '2015-05-29'
+- person: 112330
+  name: Mirja Kühlewind
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2015-02-12'
+      not_before: '2015-02-12'
+    end:
+      certainty: group-closed
+      date: '2015-05-29'

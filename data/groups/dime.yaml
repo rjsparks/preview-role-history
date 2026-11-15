@@ -1,0 +1,167 @@
+acronym: dime
+name: Diameter Maintenance and Extensions
+type: wg
+parent: ops
+state: conclude
+started: '2005-12-08'
+closed: '2024-03-14'
+history_url: https://datatracker.ietf.org/group/dime/history/
+chairs:
+- person: 104183
+  name: John Loughney
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-02-13'
+    end:
+      certainty: evidence-only
+      not_before: '2006-11-05'
+  evidence:
+  - kind: WG Action
+    date: '2006-02-13'
+    subject: 'WG Action: Diameter Maintenance and Extensions (dime)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 105857
+  name: Hannes Tschofenig
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2007-03-18'
+    end:
+      certainty: evidence-only
+      not_before: '2010-03-21'
+  evidence:
+  - kind: WG Review
+    date: '2009-06-23'
+    subject: 'WG Review: Recharter of Diameter Maintenance and Extensions (dime)'
+    message_id: null
+  - kind: WG Action
+    date: '2009-07-07'
+    subject: 'WG Action: RECHARTER: Diameter Maintenance and Extensions (dime)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    - '75'
+    - '76'
+    - '77'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 106019
+  name: Victor Fajardo
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2009-06-23'
+    end:
+      certainty: evidence-only
+      not_before: '2009-07-07'
+  evidence:
+  - kind: WG Review
+    date: '2009-06-23'
+    subject: 'WG Review: Recharter of Diameter Maintenance and Extensions (dime)'
+    message_id: null
+  - kind: WG Action
+    date: '2009-07-07'
+    subject: 'WG Action: RECHARTER: Diameter Maintenance and Extensions (dime)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-dime-diameter-base-protocol-mib
+    - draft-ietf-dime-diameter-cc-appl-mib
+- person: 107737
+  name: Lionel Morand
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2005-12-08'
+    end:
+      certainty: group-closed
+      date: '2024-03-14'
+  evidence:
+  - kind: WG Review
+    date: '2012-01-11'
+    subject: 'WG Review: Recharter of Diameter Maintenance and Extensions (dime)'
+    message_id: null
+  - kind: WG Action
+    date: '2012-01-24'
+    subject: 'WG Action: RECHARTER: Diameter Maintenance and Extensions (dime)'
+    message_id: null
+  - kind: WG Action
+    date: '2012-05-15'
+    subject: 'WG Action: RECHARTER: Diameter Maintenance and Extensions (dime)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-dime-4over6-provisioning
+    - draft-ietf-dime-capablities-update
+    - draft-ietf-dime-congestion-flow-attributes
+    - draft-ietf-dime-doic-rate-control
+    - draft-ietf-dime-drmp
+    - draft-ietf-dime-e2e-sec-req
+    - draft-ietf-dime-ikev2-psk-diameter
+    - draft-ietf-dime-local-keytran
+    - draft-ietf-dime-pmip6-lr
+    - draft-ietf-dime-priority-avps
+    - draft-ietf-dime-realm-based-redirect
+    - draft-ietf-dime-rfc4005bis
+- person: 109800
+  name: Jouni Korhonen
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-07-25'
+      not_before: '2005-12-08'
+    end:
+      certainty: group-closed
+      date: '2024-03-14'
+    notes:
+    - start moved earlier by session request for IETF 78
+  evidence:
+  - kind: WG Review
+    date: '2012-01-11'
+    subject: 'WG Review: Recharter of Diameter Maintenance and Extensions (dime)'
+    message_id: null
+  - kind: WG Action
+    date: '2012-01-24'
+    subject: 'WG Action: RECHARTER: Diameter Maintenance and Extensions (dime)'
+    message_id: null
+  - kind: WG Action
+    date: '2012-05-15'
+    subject: 'WG Action: RECHARTER: Diameter Maintenance and Extensions (dime)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '78'
+    - '79'
+    - '80'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-dime-agent-overload
+    - draft-ietf-dime-app-design-guide
+    - draft-ietf-dime-erp
+    - draft-ietf-dime-group-signaling
+    - draft-ietf-dime-load
+    - draft-ietf-dime-nat-control
+    - draft-ietf-dime-overload-reqs
+    - draft-ietf-dime-rfc3588bis
+    - draft-ietf-dime-rfc4006bis

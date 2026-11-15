@@ -1,0 +1,20 @@
+acronym: osinsap
+name: Assignment of OSI NSAP Addresses
+type: wg
+parent: osi
+state: conclude
+started: '1990-02-01'
+closed: '1991-03-05'
+history_url: https://datatracker.ietf.org/group/osinsap/history/
+chairs:
+- person: 2738
+  name: Richard Colella
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1991-03-05'
+      not_before: '1990-02-01'
+    end:
+      certainty: group-closed
+      date: '1991-03-05'

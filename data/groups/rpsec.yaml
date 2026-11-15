@@ -1,0 +1,47 @@
+acronym: rpsec
+name: Routing Protocol Security Requirements
+type: wg
+parent: rtg
+state: conclude
+started: '2002-05-06'
+closed: '2009-03-27'
+history_url: https://datatracker.ietf.org/group/rpsec/history/
+chairs:
+- person: 101784
+  name: Tony Tauber
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-07-09'
+      not_before: '2002-05-06'
+    end:
+      certainty: group-closed
+      date: '2009-03-27'
+    notes:
+    - start moved earlier by session request for IETF 66
+  evidence:
+  - kind: session requests
+    meetings:
+    - '66'
+    - '69'
+    - '71'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 104645
+  name: Russ White
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '2002-05-06'
+    end:
+      certainty: group-closed
+      date: '2009-03-27'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: session requests
+    meetings:
+    - '65'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

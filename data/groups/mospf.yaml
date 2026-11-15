@@ -1,0 +1,20 @@
+acronym: mospf
+name: Multicast Extensions to OSPF
+type: wg
+parent: rtg
+state: conclude
+started: '1990-10-01'
+closed: '2001-05-21'
+history_url: https://datatracker.ietf.org/group/mospf/history/
+chairs:
+- person: 109073
+  name: John Moy
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2001-05-21'
+      not_before: '1990-10-01'
+    end:
+      certainty: group-closed
+      date: '2001-05-21'

@@ -1,0 +1,64 @@
+acronym: mptcp
+name: Multipath TCP
+type: wg
+parent: tsv
+state: conclude
+started: '2009-09-16'
+closed: '2020-03-17'
+history_url: https://datatracker.ietf.org/group/mptcp/history/
+chairs:
+- person: 15951
+  name: Yoshifumi Nishida
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-11-07'
+      not_before: '2009-09-16'
+    end:
+      certainty: group-closed
+      date: '2020-03-17'
+    notes:
+    - start moved earlier by session request for IETF 79
+  evidence:
+  - kind: WG Review
+    date: '2012-05-15'
+    subject: 'WG Review: Recharter of Multipath TCP (mptcp)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '79'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-mptcp-attacks
+- person: 107998
+  name: Philip Eardley
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2009-11-08'
+      not_before: '2009-09-16'
+    end:
+      certainty: group-closed
+      date: '2020-03-17'
+    notes:
+    - start moved earlier by session request for IETF 76
+  evidence:
+  - kind: WG Review
+    date: '2012-05-15'
+    subject: 'WG Review: Recharter of Multipath TCP (mptcp)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '76'
+    - '77'
+    - '78'
+    - '80'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-mptcp-experience
+    - draft-ietf-mptcp-rfc6824bis

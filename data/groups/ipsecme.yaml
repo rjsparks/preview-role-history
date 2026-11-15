@@ -1,0 +1,161 @@
+acronym: ipsecme
+name: IP Security Maintenance and Extensions
+type: wg
+parent: sec
+state: active
+started: '2008-06-09'
+closed: null
+history_url: https://datatracker.ietf.org/group/ipsecme/history/
+chairs:
+- person: 10083
+  name: Paul Hoffman
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2008-11-16'
+      not_before: '2008-06-09'
+    end:
+      certainty: exact
+      date: '2016-05-31'
+    notes:
+    - start moved earlier by session request for IETF 73
+  evidence:
+  - kind: WG Action
+    date: '2010-02-24'
+    subject: 'WG Action: RECHARTER: IP Security Maintenance and Extensions (ipsecme)'
+    message_id: null
+  - kind: WG Action
+    date: '2012-01-10'
+    subject: 'WG Action: RECHARTER: IP Security Maintenance and Extensions (ipsecme)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '73'
+    - '74'
+    - '76'
+    - '77'
+    - '78'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-ipsecme-ad-vpn-problem
+    - draft-ietf-ipsecme-chacha20-poly1305
+    - draft-ietf-ipsecme-dh-checks
+    - draft-ietf-ipsecme-ikev2-fragmentation
+    - draft-ietf-ipsecme-ikev2-null-auth
+    - draft-kivinen-ipsecme-ikev2-rfc5996bis
+    - draft-kivinen-ipsecme-signature-auth
+- person: 104278
+  name: Yaron Sheffer
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2009-07-26'
+      not_before: '2008-06-09'
+    end:
+      certainty: exact
+      date: '2015-09-04'
+    notes:
+    - start moved earlier by session request for IETF 75
+  evidence:
+  - kind: WG Action
+    date: '2010-02-24'
+    subject: 'WG Action: RECHARTER: IP Security Maintenance and Extensions (ipsecme)'
+    message_id: null
+  - kind: WG Action
+    date: '2012-01-10'
+    subject: 'WG Action: RECHARTER: IP Security Maintenance and Extensions (ipsecme)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '75'
+    - '79'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-ipsecme-esp-ah-reqts
+- person: 106745
+  name: Yoav Nir
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2019-11-20'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2025-01-27'
+    subject: 'WG Review: IP Security Maintenance and Extensions (ipsecme)'
+    message_id: 173801737860.1062428.8184625451057698964@dt-datatracker-5584d84fb4-tg2td
+  - kind: WG Action
+    date: '2025-02-06'
+    subject: 'WG Action: Rechartered IP Security Maintenance and Extensions (ipsecme)'
+    message_id: 173887489272.508.18285368444083590449@dt-datatracker-75c44cbbdf-pxnd6
+  - kind: shepherded
+    documents:
+    - draft-ietf-ipsecme-ikev2-intermediate
+    - draft-ietf-ipsecme-ipv6-ipv4-codes
+- person: 110121
+  name: Tero Kivinen
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-05-31'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2025-01-27'
+    subject: 'WG Review: IP Security Maintenance and Extensions (ipsecme)'
+    message_id: 173801737860.1062428.8184625451057698964@dt-datatracker-5584d84fb4-tg2td
+  - kind: WG Action
+    date: '2025-02-06'
+    subject: 'WG Action: Rechartered IP Security Maintenance and Extensions (ipsecme)'
+    message_id: 173887489272.508.18285368444083590449@dt-datatracker-75c44cbbdf-pxnd6
+  - kind: shepherded
+    documents:
+    - draft-ietf-ipsecme-add-ike
+    - draft-ietf-ipsecme-eddsa
+    - draft-ietf-ipsecme-g-ikev2
+    - draft-ietf-ipsecme-ikev1-algo-to-historic
+    - draft-ietf-ipsecme-ikev2-auth-announce
+    - draft-ietf-ipsecme-ikev2-downgrade-prevention
+    - draft-ietf-ipsecme-ikev2-multiple-ke
+    - draft-ietf-ipsecme-ikev2-pqc-auth
+    - draft-ietf-ipsecme-ikev2-reliable-transport
+    - draft-ietf-ipsecme-ikev2-rename-esn
+    - draft-ietf-ipsecme-implicit-iv
+    - draft-ietf-ipsecme-iptfs
+    - draft-ietf-ipsecme-labeled-ipsec
+    - draft-ietf-ipsecme-mib-iptfs
+    - draft-ietf-ipsecme-multi-sa-performance
+    - draft-ietf-ipsecme-rfc8229bis
+    - draft-ietf-ipsecme-safecurves
+    - draft-ietf-ipsecme-tcp-encaps
+    - draft-ietf-ipsecme-yang-iptfs
+    - draft-smyslov-ipsecme-ikev2-aux
+- person: 111953
+  name: David Waltermire
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-09-04'
+    end:
+      certainty: exact
+      date: '2019-11-20'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-fluhrer-qr-ikev2
+    - draft-ietf-ipsecme-ddos-protection
+    - draft-ietf-ipsecme-qr-ikev2
+    - draft-ietf-ipsecme-rfc4307bis
+    - draft-ietf-ipsecme-rfc7321bis
+    - draft-ietf-ipsecme-split-dns
+    - draft-mglt-ipsecme-implicit-iv
+    - draft-mglt-ipsecme-rfc7321bis

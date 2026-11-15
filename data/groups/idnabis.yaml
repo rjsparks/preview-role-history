@@ -1,0 +1,37 @@
+acronym: idnabis
+name: Internationalized Domain Names in Applications, Revised
+type: wg
+parent: app
+state: conclude
+started: '2008-03-31'
+closed: '2010-03-15'
+history_url: https://datatracker.ietf.org/group/idnabis/history/
+chairs:
+- person: 3
+  name: Vinton Cerf
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2008-07-27'
+      not_before: '2008-03-31'
+    end:
+      certainty: group-closed
+      date: '2010-03-15'
+    notes:
+    - start moved earlier by session request for IETF 72
+  evidence:
+  - kind: WG Review
+    date: '2009-08-17'
+    subject: 'WG Review: Recharter of Internationalized Domain Names in Applications, Revised (idnabis)'
+    message_id: null
+  - kind: WG Action
+    date: '2009-09-02'
+    subject: 'WG Action: RECHARTER: Internationalized Domain Names in Applications, Revised (idnabis)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '72'
+    - '73'
+    - '75'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

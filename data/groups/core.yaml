@@ -1,0 +1,129 @@
+acronym: core
+name: Constrained RESTful Environments
+type: wg
+parent: wit
+state: active
+started: '2010-02-12'
+closed: null
+history_url: https://datatracker.ietf.org/group/core/history/
+chairs:
+- person: 11843
+  name: Carsten Bormann
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-12-09'
+      not_before: '2010-02-12'
+    end:
+      certainty: exact
+      date: '2020-03-11'
+  - start:
+      certainty: exact
+      date: '2021-02-24'
+    end:
+      certainty: exact
+      date: '2021-07-28'
+  - start:
+      certainty: exact
+      date: '2022-03-01'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-core-groupcomm
+    - draft-ietf-core-groupcomm-bis
+    - draft-ietf-core-link-format
+    - draft-ietf-core-object-security
+    - draft-ietf-core-observe
+    - draft-ietf-core-oscore-edhoc
+    - draft-ietf-core-senml-etch
+    - draft-ietf-core-stateless
+    - draft-ietf-core-too-many-reqs
+    - draft-ietf-core-uri-path-abbrev
+    - draft-ietf-core-yang-library
+- person: 105791
+  name: Cullen Jennings
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-07-25'
+      not_before: '2010-02-12'
+    end:
+      certainty: exact
+      date: '2012-09-10'
+    notes:
+    - start moved earlier by session request for IETF 78
+  evidence:
+  - kind: session requests
+    meetings:
+    - '78'
+    - '79'
+    - '80'
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 113152
+  name: Jaime Jimenez
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-04-28'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-core-coap-tcp-tls
+    - draft-ietf-core-cocoa
+    - draft-ietf-core-conditional-attributes
+    - draft-ietf-core-etch
+    - draft-ietf-core-hop-limit
+    - draft-ietf-core-http-mapping
+    - draft-ietf-core-links-json
+    - draft-ietf-core-multipart-ct
+    - draft-ietf-core-problem-details
+    - draft-ietf-core-resource-directory
+    - draft-ietf-core-senml
+    - draft-ietf-core-senml-data-ct
+    - draft-ietf-core-senml-more-units
+    - draft-ietf-core-senml-versions
+    - draft-ietf-core-sid
+- person: 114099
+  name: Andrew McGregor
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2012-09-10'
+    end:
+      certainty: exact
+      date: '2016-04-18'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-core-coap
+- person: 120631
+  name: Marco Tiloca
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-03-04'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-core-cf-reg-update
+    - draft-ietf-core-coap-dtls-alpn
+    - draft-ietf-core-dev-urn
+    - draft-ietf-core-dns-over-coap
+    - draft-ietf-core-echo-request-tag
+    - draft-ietf-core-new-block
+    - draft-ietf-core-target-attr
+    - draft-ietf-core-yang-cbor
+    - draft-ietf-core-yang-sid-pen

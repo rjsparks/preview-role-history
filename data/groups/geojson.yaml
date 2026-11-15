@@ -1,0 +1,36 @@
+acronym: geojson
+name: Geographic JSON
+type: wg
+parent: art
+state: conclude
+started: '2015-04-15'
+closed: '2017-06-07'
+history_url: https://datatracker.ietf.org/group/geojson/history/
+chairs:
+- person: 105648
+  name: Erik Wilde
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-10-02'
+    end:
+      certainty: group-closed
+      date: '2017-06-07'
+- person: 107131
+  name: Martin Thomson
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-10-02'
+    end:
+      certainty: group-closed
+      date: '2017-06-07'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-butler-geojson
+    - draft-gillies-geojson-text-seq
+    - draft-ietf-geojson
+    - draft-ietf-geojson-text-sequence

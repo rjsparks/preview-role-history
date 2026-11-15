@@ -1,0 +1,20 @@
+acronym: xmldsig
+name: XML Digital Signatures
+type: wg
+parent: sec
+state: conclude
+started: '1999-05-03'
+closed: '2004-01-15'
+history_url: https://datatracker.ietf.org/group/xmldsig/history/
+chairs:
+- person: 102391
+  name: Donald Eastlake
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2004-01-15'
+      not_before: '1999-05-03'
+    end:
+      certainty: group-closed
+      date: '2004-01-15'

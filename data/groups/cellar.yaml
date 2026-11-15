@@ -1,0 +1,67 @@
+acronym: cellar
+name: Codec Encoding for LossLess Archiving and Realtime transmission
+type: wg
+parent: art
+state: active
+started: '2015-10-07'
+closed: null
+history_url: https://datatracker.ietf.org/group/cellar/history/
+chairs:
+- person: 102254
+  name: Michael Richardson
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2018-04-19'
+    end:
+      certainty: exact
+      date: '2025-01-28'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-cellar-matroska
+- person: 103961
+  name: Robert Sparks
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-01-28'
+    end:
+      certainty: ongoing
+- person: 107190
+  name: Spencer Dawkins
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-01-13'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-cellar-codec
+    - draft-ietf-cellar-flac
+    - draft-ietf-cellar-tags
+- person: 112724
+  name: Timothy Terriberry
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-11-04'
+    end:
+      certainty: exact
+      date: '2020-01-13'
+- person: 120034
+  name: Tessa Fallon
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-10-22'
+    end:
+      certainty: exact
+      date: '2018-04-10'

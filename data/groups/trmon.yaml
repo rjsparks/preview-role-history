@@ -1,0 +1,20 @@
+acronym: trmon
+name: Token Ring Remote Monitoring
+type: wg
+parent: mgt
+state: conclude
+started: '1992-03-21'
+closed: '1993-09-21'
+history_url: https://datatracker.ietf.org/group/trmon/history/
+chairs:
+- person: 5073
+  name: Michael Erlinger
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1993-09-21'
+      not_before: '1992-03-21'
+    end:
+      certainty: group-closed
+      date: '1993-09-21'

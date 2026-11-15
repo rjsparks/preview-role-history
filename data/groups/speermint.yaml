@@ -1,0 +1,75 @@
+acronym: speermint
+name: Session PEERing for Multimedia INTerconnect
+type: wg
+parent: rai
+state: conclude
+started: '2006-01-13'
+closed: '2011-11-07'
+history_url: https://datatracker.ietf.org/group/speermint/history/
+chairs:
+- person: 103708
+  name: David Meyer
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-02-08'
+    end:
+      certainty: evidence-only
+      not_before: '2006-02-08'
+  evidence:
+  - kind: WG Action
+    date: '2006-02-08'
+    subject: 'WG Action: Session PEERing for Multimedia INTerconnect (speermint)'
+    message_id: null
+- person: 107154
+  name: Jason Livingood
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-02-08'
+      not_before: '2006-01-13'
+    end:
+      certainty: group-closed
+      date: '2011-11-07'
+    notes:
+    - start moved earlier by WG Action announcement of 2006-02-08
+  evidence:
+  - kind: WG Action
+    date: '2006-02-08'
+    subject: 'WG Action: Session PEERing for Multimedia INTerconnect (speermint)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '74'
+    - '75'
+    - '76'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 107565
+  name: Daryl Malas
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2008-11-16'
+      not_before: '2006-01-13'
+    end:
+      certainty: group-closed
+      date: '2011-11-07'
+    notes:
+    - start moved earlier by session request for IETF 73
+  evidence:
+  - kind: session requests
+    meetings:
+    - '73'
+    - '77'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

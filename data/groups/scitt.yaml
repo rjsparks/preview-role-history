@@ -1,0 +1,79 @@
+acronym: scitt
+name: Supply Chain Integrity, Transparency, and Trust
+type: wg
+parent: sec
+state: active
+started: '2022-06-02'
+closed: null
+history_url: https://datatracker.ietf.org/group/scitt/history/
+chairs:
+- person: 2097
+  name: Eliot Lear
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-06-02'
+    end:
+      certainty: exact
+      date: '2022-10-12'
+  evidence:
+  - kind: WG Review
+    date: '2022-09-27'
+    subject: 'WG Review: Supply Chain Integrity, Transparency, and Trust (scitt)'
+    message_id: 166431560803.48363.2804735486481772928@ietfa.amsl.com
+  - kind: WG Action
+    date: '2022-10-12'
+    subject: 'WG Action: Formed Supply Chain Integrity, Transparency, and Trust (scitt)'
+    message_id: 166560478572.30292.13642639746734487629@ietfa.amsl.com
+- person: 105857
+  name: Hannes Tschofenig
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-06-02'
+    end:
+      certainty: exact
+      date: '2024-03-09'
+  evidence:
+  - kind: WG Review
+    date: '2022-09-27'
+    subject: 'WG Review: Supply Chain Integrity, Transparency, and Trust (scitt)'
+    message_id: 166431560803.48363.2804735486481772928@ietfa.amsl.com
+  - kind: WG Action
+    date: '2022-10-12'
+    subject: 'WG Action: Formed Supply Chain Integrity, Transparency, and Trust (scitt)'
+    message_id: 166560478572.30292.13642639746734487629@ietfa.amsl.com
+- person: 113536
+  name: Christopher Inacio
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-03-09'
+    end:
+      certainty: exact
+      date: '2026-05-05'
+- person: 131585
+  name: Jon Geater
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2022-11-02'
+    end:
+      certainty: ongoing
+- person: 151431
+  name: Nicole Bates
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2026-03-13'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-scitt-receipts-ccf-profile

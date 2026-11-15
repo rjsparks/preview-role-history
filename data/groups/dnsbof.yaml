@@ -1,0 +1,19 @@
+acronym: dnsbof
+name: Domain Name Server BOF
+type: wg
+parent: int
+state: bof-conc
+started: null
+closed: '1997-01-01'
+history_url: https://datatracker.ietf.org/group/dnsbof/history/
+chairs:
+- person: 123360
+  name: Frank Kastenholz
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1997-01-01'
+    end:
+      certainty: group-closed
+      date: '1997-01-01'

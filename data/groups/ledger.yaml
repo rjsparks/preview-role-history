@@ -1,0 +1,31 @@
+acronym: ledger
+name: Ledger
+type: wg
+parent: art
+state: bof-conc
+started: '2016-06-10'
+closed: '2016-10-04'
+history_url: https://datatracker.ietf.org/group/ledger/history/
+chairs:
+- person: 103769
+  name: Adam Roach
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2016-06-10'
+      not_before: '2016-06-10'
+    end:
+      certainty: group-closed
+      date: '2016-10-04'
+- person: 111178
+  name: Matthew Miller
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2016-06-10'
+      not_before: '2016-06-10'
+    end:
+      certainty: group-closed
+      date: '2016-10-04'

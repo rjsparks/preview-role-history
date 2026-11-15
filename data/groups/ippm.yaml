@@ -1,0 +1,179 @@
+acronym: ippm
+name: IP Performance Measurement
+type: wg
+parent: ops
+state: conclude
+started: '1997-10-02'
+closed: '2026-11-04'
+history_url: https://datatracker.ietf.org/group/ippm/history/
+chairs:
+- person: 100603
+  name: Henk Uijterwaal
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2009-11-08'
+      not_before: '1997-10-02'
+    end:
+      certainty: exact
+      date: '2012-11-27'
+    notes:
+    - start moved earlier by session request for IETF 76
+  evidence:
+  - kind: session requests
+    meetings:
+    - '76'
+    - '77'
+    - '78'
+    - '79'
+    - '80'
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 101818
+  name: Matthew Zekauskas
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2006-03-19'
+      not_before: '1997-10-02'
+    end:
+      certainty: exact
+      date: '2012-11-27'
+    notes:
+    - start moved earlier by session request for IETF 65
+  evidence:
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    - '75'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 109354
+  name: Brian Trammell
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2012-11-27'
+    end:
+      certainty: exact
+      date: '2020-04-02'
+  evidence:
+  - kind: WG Review
+    date: '2013-06-06'
+    subject: 'WG Review: IP Performance Metrics (ippm)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-ippm-active-passive
+    - draft-ietf-ippm-initial-registry
+    - draft-ietf-ippm-ipsec
+    - draft-ietf-ippm-lmap-path
+    - draft-ietf-ippm-model-based-metrics
+    - draft-ietf-ippm-route
+    - draft-ietf-ippm-testplan-rfc2680
+    - draft-ietf-ippm-type-p-monitor
+- person: 113573
+  name: Bill Cerveny
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2012-11-27'
+    end:
+      certainty: exact
+      date: '2020-04-02'
+  evidence:
+  - kind: WG Review
+    date: '2013-06-06'
+    subject: 'WG Review: IP Performance Metrics (ippm)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-ippm-2330-update
+    - draft-ietf-ippm-2679-bis
+    - draft-ietf-ippm-2680-bis
+    - draft-ietf-ippm-metric-registry
+    - draft-ietf-ippm-owamp-registry
+    - draft-ietf-ippm-rate-problem
+    - draft-ietf-ippm-twamp-time-format
+- person: 118407
+  name: Marcus Ihlar
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-10-01'
+    end:
+      certainty: group-closed
+      date: '2026-11-04'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-ippm-alt-mark-yang
+    - draft-ietf-ippm-asymmetrical-pkts
+    - draft-ietf-ippm-explicit-flow-measurements
+    - draft-ietf-ippm-ioam-conf-state
+    - draft-ietf-ippm-ioam-integrity-yang
+    - draft-ietf-ippm-ioam-ipv6-options
+    - draft-ietf-ippm-ioam-yang
+    - draft-ietf-ippm-otwamp-on-lag
+    - draft-ietf-ippm-qoo
+    - draft-ietf-ippm-stamp-ext-hdr
+    - draft-ietf-ippm-stamp-on-lag
+- person: 119325
+  name: Tommy Pauly
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2018-06-14'
+    end:
+      certainty: exact
+      date: '2025-03-20'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-ippm-capacity-metric-method
+    - draft-ietf-ippm-capacity-protocol
+    - draft-ietf-ippm-ioam-deployment
+    - draft-ietf-ippm-ioam-direct-export
+    - draft-ietf-ippm-ioam-flags
+    - draft-ietf-ippm-pam
+    - draft-ietf-ippm-rfc8321bis
+    - draft-ietf-ippm-rfc8889bis
+    - draft-ietf-ippm-stamp-srpm
+- person: 119702
+  name: Ian Swett
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-02-14'
+    end:
+      certainty: exact
+      date: '2021-11-16'
+- person: 125623
+  name: Thomas Graf
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-01-15'
+    end:
+      certainty: group-closed
+      date: '2026-11-04'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-ippm-ioam-data-integrity

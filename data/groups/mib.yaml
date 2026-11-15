@@ -1,0 +1,20 @@
+acronym: mib
+name: Internet MIB
+type: wg
+parent: app
+state: bof-conc
+started: '1988-05-01'
+closed: '1997-01-01'
+history_url: https://datatracker.ietf.org/group/mib/history/
+chairs:
+- person: 1307
+  name: Craig Partridge
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1997-01-01'
+      not_before: '1988-05-01'
+    end:
+      certainty: group-closed
+      date: '1997-01-01'

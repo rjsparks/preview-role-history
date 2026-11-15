@@ -1,0 +1,20 @@
+acronym: wnils
+name: Whois and Network Information Lookup Service
+type: wg
+parent: usv
+state: conclude
+started: '1992-08-17'
+closed: '1996-02-20'
+history_url: https://datatracker.ietf.org/group/wnils/history/
+chairs:
+- person: 6657
+  name: Joan Gargano
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1996-02-20'
+      not_before: '1992-08-17'
+    end:
+      certainty: group-closed
+      date: '1996-02-20'

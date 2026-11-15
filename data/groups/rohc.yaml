@@ -1,0 +1,43 @@
+acronym: rohc
+name: Robust Header Compression
+type: wg
+parent: tsv
+state: conclude
+started: '2000-02-21'
+closed: '2010-03-16'
+history_url: https://datatracker.ietf.org/group/rohc/history/
+chairs:
+- person: 103797
+  name: Lars-Erik Jonsson
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-07-09'
+    end:
+      certainty: evidence-only
+      not_before: '2006-08-29'
+  evidence:
+  - kind: WG Review
+    date: '2006-07-11'
+    subject: 'WG Review: Recharter of Robust Header Compression (rohc)'
+    message_id: null
+  - kind: WG Action
+    date: '2006-08-29'
+    subject: 'WG Action: RECHARTER: Robust Header Compression (rohc)'
+    message_id: null
+  - kind: session requests
+    meetings:
+    - '66'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 108150
+  name: Carl Knutsson
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2010-03-16'
+      not_before: '2000-02-21'
+    end:
+      certainty: group-closed
+      date: '2010-03-16'

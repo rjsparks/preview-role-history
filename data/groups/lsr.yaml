@@ -1,0 +1,114 @@
+acronym: lsr
+name: Link State Routing
+type: wg
+parent: rtg
+state: active
+started: '2018-01-23'
+closed: null
+history_url: https://datatracker.ietf.org/group/lsr/history/
+chairs:
+- person: 10784
+  name: Acee Lindem
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2018-01-23'
+      not_before: '2018-01-23'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-isis-mpls-elc
+    - draft-ietf-isis-te-app
+    - draft-ietf-lsr-anycast-flag
+    - draft-ietf-lsr-dynamic-flooding
+    - draft-ietf-lsr-dynamic-flooding-algorithm
+    - draft-ietf-lsr-flex-algo
+    - draft-ietf-lsr-flex-algo-bw-con
+    - draft-ietf-lsr-flooding-topo-min-degree
+    - draft-ietf-lsr-igp-flex-algo-reverse-affinity
+    - draft-ietf-lsr-ip-flexalgo
+    - draft-ietf-lsr-isis-fast-flooding
+    - draft-ietf-lsr-isis-flood-reflection
+    - draft-ietf-lsr-isis-spine-leaf-ext
+    - draft-ietf-lsr-isis-sr-vtn-mt
+    - draft-ietf-lsr-isis-srv6-yang
+    - draft-ietf-lsr-isis-ttz
+    - draft-ietf-lsr-l2-bundle-member-remote-id
+    - draft-ietf-lsr-ospf-bfd-strict-mode
+    - draft-ietf-lsr-ospf-l2bundles
+    - draft-ietf-lsr-ospf-prefix-extended-flags
+    - draft-ietf-lsr-ospf-reverse-metric
+    - draft-ietf-lsr-ospfv3-srv6-extensions
+    - draft-ietf-lsr-pce-discovery-security-support
+    - draft-ietf-lsr-yang-isis-reverse-metric
+    - draft-ietf-ospf-mpls-elc
+    - draft-ietf-ospf-ospfv3-segment-routing-extensions
+    - draft-ietf-ospf-segment-routing-msd
+    - draft-ietf-ospf-xaf-te
+    - draft-li-lsr-isis-area-proxy
+    - draft-przygienda-lsr-flood-reflection
+- person: 22933
+  name: Christian Hopps
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2018-01-23'
+      not_before: '2018-01-23'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-acee-lsr-isis-yang-augmentation-v1
+    - draft-acee-lsr-ospf-admin-tags
+    - draft-fox-lsr-ospf-terminology
+    - draft-ietf-isis-reverse-metric
+    - draft-ietf-isis-segment-routing-msd
+    - draft-ietf-isis-sr-yang
+    - draft-ietf-lsr-isis-area-proxy
+    - draft-ietf-lsr-isis-extended-hierarchy
+    - draft-ietf-lsr-isis-flex-algo-yang
+    - draft-ietf-lsr-isis-invalid-tlv
+    - draft-ietf-lsr-isis-rfc5316bis
+    - draft-ietf-lsr-isis-srv6-extensions
+    - draft-ietf-lsr-isis-yang-augmentation-v1
+    - draft-ietf-lsr-ospf-admin-tags
+    - draft-ietf-lsr-ospf-flex-algo-yang
+    - draft-ietf-lsr-ospf-prefix-originator
+    - draft-ietf-lsr-ospf-srv6-yang
+    - draft-ietf-lsr-ospf-terminology
+    - draft-ietf-lsr-ospf-transport-instance
+    - draft-ietf-lsr-ospf-yang-augmentation-v1
+    - draft-ietf-lsr-ospfv3-extended-lsa-yang
+    - draft-ietf-lsr-pcpps
+    - draft-ietf-lsr-rfc8919bis
+    - draft-ietf-lsr-rfc8920bis
+    - draft-ietf-ospf-sr-yang
+    - draft-ketant-lsr-ospf-l2bundles
+    - draft-li-lsr-ospfv3-srv6-extensions
+    - draft-wang-lsr-stub-link-attributes
+- person: 116337
+  name: Yingzhen Qu
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2023-11-09'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-isis-yang-isis-cfg
+    - draft-ietf-lsr-igp-ureach-prefix-announce
+    - draft-ietf-lsr-labv-registration
+    - draft-ietf-lsr-multi-tlv
+    - draft-ietf-lsr-ospf-ls-link-infinity
+    - draft-ietf-ospf-lls-interface-id
+    - draft-ietf-ospf-ospfv2-hbit
+    - draft-ietf-ospf-te-link-attr-reuse
+    - draft-pkaneria-lsr-multi-tlv

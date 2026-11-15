@@ -1,0 +1,39 @@
+acronym: its
+name: Intelligent Transportation Systems
+type: wg
+parent: int
+state: bof-conc
+started: '2013-09-24'
+closed: '2016-10-04'
+history_url: https://datatracker.ietf.org/group/its/history/
+chairs:
+- person: 5376
+  name: Russ Housley
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-02-26'
+    end:
+      certainty: group-closed
+      date: '2016-10-04'
+- person: 107247
+  name: Carlos Pignataro
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2016-02-26'
+    end:
+      certainty: group-closed
+      date: '2016-10-04'
+- person: 118769
+  name: Alexandre Petrescu
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2013-09-24'
+    end:
+      certainty: exact
+      date: '2016-02-26'

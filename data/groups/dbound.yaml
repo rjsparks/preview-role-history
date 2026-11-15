@@ -1,0 +1,49 @@
+acronym: dbound
+name: Domain Boundaries
+type: wg
+parent: art
+state: conclude
+started: '2014-01-22'
+closed: '2017-04-24'
+history_url: https://datatracker.ietf.org/group/dbound/history/
+chairs:
+- person: 18321
+  name: Pete Resnick
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-03-23'
+    end:
+      certainty: group-closed
+      date: '2017-04-24'
+- person: 19869
+  name: Marc Blanchet
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-01-23'
+    end:
+      certainty: approximate
+      date: '2015-01-07'
+- person: 106842
+  name: Murray Kucherawy
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-03-23'
+    end:
+      certainty: group-closed
+      date: '2017-04-24'
+- person: 117929
+  name: Olaf Kolkman
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2014-01-23'
+    end:
+      certainty: approximate
+      date: '2015-01-07'

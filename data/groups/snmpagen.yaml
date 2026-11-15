@@ -1,0 +1,29 @@
+acronym: snmpagen
+name: SNMP Agent Description
+type: wg
+parent: null
+state: bof-conc
+started: null
+closed: '1997-03-01'
+history_url: https://datatracker.ietf.org/group/snmpagen/history/
+chairs:
+- person: 2455
+  name: Marshall Rose
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1997-03-01'
+    end:
+      certainty: group-closed
+      date: '1997-03-01'
+- person: 2870
+  name: David Perkins
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '1997-03-01'
+    end:
+      certainty: group-closed
+      date: '1997-03-01'

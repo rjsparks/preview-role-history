@@ -1,0 +1,160 @@
+acronym: avtcore
+name: Audio/Video Transport Core Maintenance
+type: wg
+parent: wit
+state: active
+started: '2010-12-02'
+closed: null
+history_url: https://datatracker.ietf.org/group/avtcore/history/
+chairs:
+- person: 12620
+  name: Bernard Aboba
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2020-07-15'
+    end:
+      certainty: exact
+      date: '2025-03-01'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-dawkins-avtcore-sdp-rtp-quic-issues
+    - draft-ietf-avtcore-cc-feedback-message
+    - draft-ietf-avtcore-cryptex
+    - draft-ietf-avtcore-multi-party-rtt-mix
+    - draft-ietf-avtcore-rtp-evc
+    - draft-ietf-avtcore-rtp-payload-registry
+    - draft-ietf-avtcore-rtp-scip
+    - draft-ietf-avtcore-rtp-vvc
+    - draft-ietf-payload-rtp-jpegxs
+    - draft-ietf-payload-vp9
+- person: 101923
+  name: Jonathan Lennox
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-03-08'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-avtcore-multiplex-guidelines
+    - draft-ietf-avtcore-rfc7983bis
+    - draft-ietf-avtext-framemarking
+- person: 104294
+  name: Magnus Westerlund
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-07-24'
+      not_before: '2010-12-02'
+    end:
+      certainty: exact
+      date: '2017-03-08'
+    notes:
+    - start moved earlier by session request for IETF 81
+  evidence:
+  - kind: session requests
+    meetings:
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-avt-forward-shifted-red
+    - draft-ietf-avt-srtp-aes-gcm
+    - draft-ietf-avtcore-6222bis
+    - draft-ietf-avtcore-avp-codecs
+    - draft-ietf-avtcore-feedback-supression-rtp
+    - draft-ietf-avtcore-leap-second
+    - draft-ietf-avtcore-monarch
+    - draft-ietf-avtcore-mprtp
+    - draft-ietf-avtcore-ports-for-ucast-mcast-rtp
+    - draft-ietf-avtcore-rfc5285-bis
+    - draft-ietf-avtcore-rfc5764-mux-fixes
+    - draft-ietf-avtcore-rtp-circuit-breakers
+    - draft-ietf-avtcore-srtp-aes-gcm
+    - draft-ietf-avtcore-srtp-ekt
+    - draft-ietf-avtcore-srtp-vbr-audio
+    - draft-perkins-avtcore-rtp-circuit-breakers
+- person: 105873
+  name: Roni Even
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2011-03-27'
+      not_before: '2010-12-02'
+    end:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2013-03-13'
+    notes:
+    - start moved earlier by session request for IETF 80
+  - start:
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2013-03-13'
+    end:
+      certainty: exact
+      date: '2017-03-08'
+  - start:
+      certainty: exact
+      date: '2019-09-20'
+    end:
+      certainty: exact
+      date: '2020-07-15'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '80'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: shepherded
+    documents:
+    - draft-ietf-avt-srtp-ekt
+    - draft-ietf-avt-srtp-not-mandatory
+    - draft-ietf-avtcore-5761-update
+    - draft-ietf-avtcore-aria-sdes
+    - draft-ietf-avtcore-aria-srtp
+    - draft-ietf-avtcore-clksrc
+    - draft-ietf-avtcore-ecn-for-rtp
+    - draft-ietf-avtcore-idms
+    - draft-ietf-avtcore-multi-media-rtp-session
+    - draft-ietf-avtcore-rtp-multi-stream
+    - draft-ietf-avtcore-rtp-multi-stream-optimisation
+    - draft-ietf-avtcore-rtp-security-options
+    - draft-ietf-avtcore-rtp-topologies-update
+    - draft-ietf-avtcore-srtp-encrypted-header-ext
+    - draft-ietf-payload-rtp-ttml
+    - draft-ietf-payload-tetra
+- person: 111749
+  name: Rachel Huang
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-03-08'
+    end:
+      certainty: exact
+      date: '2019-12-19'
+- person: 129844
+  name: Marius Kleidl
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-03-01'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-avtcore-rtcp-green-metadata
+    - draft-ietf-avtcore-rtp-haptics
+    - draft-ietf-avtcore-rtp-jpegxs-3ed
+    - draft-ietf-avtcore-rtp-v3c

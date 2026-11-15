@@ -1,0 +1,104 @@
+acronym: acme
+name: Automated Certificate Management Environment
+type: wg
+parent: sec
+state: active
+started: '2015-02-12'
+closed: null
+history_url: https://datatracker.ietf.org/group/acme/history/
+chairs:
+- person: 18427
+  name: Rich Salz
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2015-02-12'
+      not_before: '2015-02-12'
+    end:
+      certainty: exact
+      date: '2021-07-09'
+  evidence:
+  - kind: WG Review
+    date: '2015-06-12'
+    subject: 'WG Review: Automated Certificate Management Environment (acme)'
+    message_id: null
+  - kind: shepherded
+    documents:
+    - draft-ietf-acme-authority-token
+    - draft-ietf-acme-authority-token-tnauthlist
+    - draft-ietf-acme-email-smime
+    - draft-ietf-acme-star
+    - draft-ietf-acme-star-delegation
+- person: 106745
+  name: Yoav Nir
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2017-06-21'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-acme-acme
+    - draft-ietf-acme-ari
+    - draft-ietf-acme-dtnnodeid
+- person: 110721
+  name: Ted Hardie
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2015-02-12'
+      not_before: '2015-02-12'
+    end:
+      certainty: exact
+      date: '2017-09-07'
+  evidence:
+  - kind: WG Review
+    date: '2015-06-12'
+    subject: 'WG Review: Automated Certificate Management Environment (acme)'
+    message_id: null
+- person: 123703
+  name: Deb Cooley
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-07-09'
+    end:
+      certainty: exact
+      date: '2024-03-21'
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-acme-integrations
+    - draft-ietf-acme-subdomains
+- person: 124414
+  name: Mike Ounsworth
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2025-07-15'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: shepherded
+    documents:
+    - draft-ietf-acme-authority-token-jwtclaimcon
+    - draft-ietf-acme-device-attest
+    - draft-ietf-acme-dns-account-label
+    - draft-ietf-acme-profiles
+- person: 128647
+  name: Tomofumi Okubo
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2024-03-07'
+    end:
+      certainty: exact
+      date: '2025-07-15'

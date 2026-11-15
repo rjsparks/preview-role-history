@@ -1,0 +1,31 @@
+acronym: nsc
+name: Network Service Chaining
+type: wg
+parent: rtg
+state: bof-conc
+started: '2013-06-20'
+closed: null
+history_url: https://datatracker.ietf.org/group/nsc/history/
+chairs:
+- person: 7262
+  name: Thomas Narten
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2013-06-20'
+      not_after: '2013-09-24'
+    end:
+      certainty: group-closed
+      date: '2013-09-24'
+- person: 105906
+  name: Jim Guichard
+  status: confirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2013-06-20'
+      not_after: '2013-09-24'
+    end:
+      certainty: group-closed
+      date: '2013-09-24'

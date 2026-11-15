@@ -1,0 +1,41 @@
+acronym: iss
+name: Internet Storage Sync
+type: wg
+parent: art
+state: bof-conc
+started: '2015-09-22'
+closed: '2016-02-26'
+history_url: https://datatracker.ietf.org/group/iss/history/
+chairs:
+- person: 103156
+  name: David Black
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2015-11-01'
+    end:
+      certainty: group-closed
+      date: '2016-02-26'
+- person: 103881
+  name: Mark Nottingham
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2015-09-22'
+      not_before: '2015-09-22'
+    end:
+      certainty: exact
+      date: '2015-11-01'
+- person: 108848
+  name: Yong Cui
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2015-09-22'
+      not_before: '2015-09-22'
+    end:
+      certainty: group-closed
+      date: '2016-02-26'

@@ -1,0 +1,119 @@
+acronym: stir
+name: Secure Telephone Identity Revisited
+type: wg
+parent: art
+state: active
+started: '2013-06-20'
+closed: null
+history_url: https://datatracker.ietf.org/group/stir/history/
+chairs:
+- person: 5376
+  name: Russ Housley
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2013-06-20'
+      not_before: '2013-06-20'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2021-12-17'
+    subject: 'WG Review: Secure Telephone Identity Revisited (stir)'
+    message_id: 163976650433.10747.10750419436146839877@ietfa.amsl.com
+  - kind: WG Action
+    date: '2022-01-24'
+    subject: 'WG Action: Rechartered Secure Telephone Identity Revisited (stir)'
+    message_id: 164305426985.20228.10629712926709952600@ietfa.amsl.com
+  - kind: WG Review
+    date: '2026-10-16'
+    subject: 'WG Review: Secure Telephone Identity Revisited (stir)'
+    message_id: 179216575958.610.13999869079575957715@dt-datatracker-7457c9c988-pqlqx
+  - kind: WG Action
+    date: '2026-11-05'
+    subject: 'WG Action: Rechartered Secure Telephone Identity Revisited (stir)'
+    message_id: 179389670905.1491531.1839409940119644992@dt-datatracker-7dc874ff8f-5wfjq
+  - kind: shepherded
+    documents:
+    - draft-ietf-stir-cert-delegation
+    - draft-ietf-stir-certificate-transparency
+    - draft-ietf-stir-passport-divert
+    - draft-ietf-stir-passport-rcd
+    - draft-ietf-stir-rfc4916-update
+    - draft-ietf-stir-rph
+    - draft-ietf-stir-rph-emergency-services
+- person: 103961
+  name: Robert Sparks
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2013-08-29'
+    end:
+      certainty: exact
+      date: '2025-03-17'
+  evidence:
+  - kind: WG Review
+    date: '2021-12-17'
+    subject: 'WG Review: Secure Telephone Identity Revisited (stir)'
+    message_id: 163976650433.10747.10750419436146839877@ietfa.amsl.com
+  - kind: WG Action
+    date: '2022-01-24'
+    subject: 'WG Action: Rechartered Secure Telephone Identity Revisited (stir)'
+    message_id: 164305426985.20228.10629712926709952600@ietfa.amsl.com
+  - kind: shepherded
+    documents:
+    - draft-ietf-stir-certificates
+    - draft-ietf-stir-oob
+    - draft-ietf-stir-passport
+    - draft-ietf-stir-passport-shaken
+    - draft-ietf-stir-problem-statement
+    - draft-ietf-stir-rfc4474bis
+    - draft-ietf-stir-threats
+- person: 104140
+  name: Ben Campbell
+  status: confirmed
+  periods:
+  - start:
+      certainty: exact
+      date: '2021-07-30'
+    end:
+      certainty: ongoing
+  evidence:
+  - kind: WG Review
+    date: '2021-12-17'
+    subject: 'WG Review: Secure Telephone Identity Revisited (stir)'
+    message_id: 163976650433.10747.10750419436146839877@ietfa.amsl.com
+  - kind: WG Action
+    date: '2022-01-24'
+    subject: 'WG Action: Rechartered Secure Telephone Identity Revisited (stir)'
+    message_id: 164305426985.20228.10629712926709952600@ietfa.amsl.com
+  - kind: WG Review
+    date: '2026-10-16'
+    subject: 'WG Review: Secure Telephone Identity Revisited (stir)'
+    message_id: 179216575958.610.13999869079575957715@dt-datatracker-7457c9c988-pqlqx
+  - kind: WG Action
+    date: '2026-11-05'
+    subject: 'WG Action: Rechartered Secure Telephone Identity Revisited (stir)'
+    message_id: 179389670905.1491531.1839409940119644992@dt-datatracker-7dc874ff8f-5wfjq
+  - kind: shepherded
+    documents:
+    - draft-ietf-stir-8588bis
+    - draft-ietf-stir-certificates-ocsp
+    - draft-ietf-stir-certificates-shortlived
+    - draft-ietf-stir-enhance-rfc8226
+    - draft-ietf-stir-identity-header-errors-handling
+    - draft-ietf-stir-messaging
+    - draft-ietf-stir-servprovider-oob
+- person: 106987
+  name: Brian Rosen
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2013-06-20'
+      not_before: '2013-06-20'
+    end:
+      certainty: exact
+      date: '2013-08-29'
