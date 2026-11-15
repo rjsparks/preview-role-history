@@ -1,5 +1,7 @@
 # IETF group chair history
 
+**NOTE** : This is a preview instance of this idea - any data collected in this preview will be lost. Feel free to play with the concept. The actual data collection will come later.
+
 Who chaired which IETF working group, research group and similar group, and when.
 
 **Site: https://rjsparks.github.io/preview-role-history/**
