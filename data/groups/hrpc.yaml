@@ -29,6 +29,14 @@ chairs:
     end:
       certainty: exact
       date: '2018-04-17'
+  evidence:
+  - kind: list message
+    date: '2018-04-17'
+    says: end
+    subject: '[hrpc] Niels stepping down as HRPC RG co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/hrpc/N7ki35zu7AT1dihcisC1U2z1iC8/
+    excerpt: After serving as a founding co-chair of HRPC, Niels ten Oever let us know his interest in
+      stepping down as co-chair, and this has just happened.
 - person: 124328
   name: Mallory Knodel
   status: confirmed
@@ -52,3 +60,11 @@ chairs:
     end:
       certainty: exact
       date: '2026-04-24'
+  evidence:
+  - kind: list message
+    date: '2022-03-14'
+    says: start
+    subject: '[hrpc] New HRPC co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/hrpc/SPZ8XeaefkMI0ayBGp6uVjFukvA/
+    excerpt: I’m pleased to announce that Sofía Celi <https://claucece.github.io/> has agreed to serve
+      as co-chair of the HRPC research group.

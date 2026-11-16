@@ -24,6 +24,14 @@ chairs:
     end:
       certainty: exact
       date: '2014-12-16'
+  evidence:
+  - kind: list message
+    date: '2014-10-01'
+    says: start
+    subject: '[6lo] Change in 6lo leadership'
+    url: https://mailarchive.ietf.org/arch/msg/6lo/ApoFGA_PqPSckFSYRONGMU8ST7Y/
+    excerpt: Ralph Droms has agreed to serve as co-chair with Samita while I look for a permanent replacement
+      for Ulrich.
 - person: 21005
   name: Samita Chakrabarti
   status: confirmed
@@ -58,6 +66,13 @@ chairs:
       date: '2026-07-24'
     end:
       certainty: ongoing
+  evidence:
+  - kind: list message
+    date: '2026-07-24'
+    says: start
+    subject: '[6lo] Please welcome Laurent Toutain as new 6LO WG chair'
+    url: https://mailarchive.ietf.org/arch/msg/6lo/HjmEqfrsaaCkM3Q5buddJkS9OOU/
+    excerpt: Please welcome Laurent Toutain as new 6LO WG chair.
 - person: 108488
   name: Gabriel Montenegro
   status: confirmed

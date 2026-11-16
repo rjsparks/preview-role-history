@@ -12,20 +12,37 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-06-14'
-      not_before: '1997-06-02'
+      certainty: approximate
+      date: '2003-05-22'
     end:
       certainty: group-closed
       date: '2011-06-14'
+    notes:
+    - start dated by list message of 2003-05-22
+  evidence:
+  - kind: list message
+    date: '2003-05-22'
+    says: start
+    subject: '[VRRP] New WG co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/vrrp/e6EqhU3AMqvBZX3Fhm7hqUm4bT0/
+    excerpt: Please welcome Radia Perlman as the new co-chair for VRRP.
 - person: 105893
   name: Mukesh Gupta
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-06-14'
-      not_before: '1997-06-02'
+      certainty: approximate
+      date: '2002-11-06'
     end:
       certainty: group-closed
       date: '2011-06-14'
+    notes:
+    - start dated by list message of 2002-11-06
+  evidence:
+  - kind: list message
+    date: '2002-11-06'
+    says: start
+    subject: '[VRRP] Welcome new VRRP WG chair'
+    url: https://mailarchive.ietf.org/arch/msg/vrrp/sZgyARhJius9Y_39s-kwIHYTscw/
+    excerpt: It is my pleasure to announce that we have selected Mukesh Gupta as the new WG chair for
+      VRRP.

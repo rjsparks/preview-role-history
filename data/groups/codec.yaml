@@ -70,6 +70,13 @@ chairs:
       certainty: group-closed
       date: '2018-09-20'
   evidence:
+  - kind: list message
+    date: '2015-02-24'
+    says: start
+    subject: '[codec] Change in co-chair (JDR -> Mo)'
+    url: https://mailarchive.ietf.org/arch/msg/codec/z6Fr9-N9YoPRoFc4NlEZfeAF7Cc/
+    excerpt: Just wanted to let you know that Mo Zanaty has graciously agreed to serve as co-chair for
+      this group, and Jonathan is stepping down.
   - kind: shepherded
     documents:
     - draft-ietf-codec-oggopus

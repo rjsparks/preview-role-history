@@ -27,16 +27,24 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '2006-03-19'
+      certainty: approximate
+      date: '2005-07-13'
     end:
       certainty: evidence-only
       not_before: '2010-07-25'
+    notes:
+    - start dated by list message of 2005-07-13
   evidence:
   - kind: WG Review
     date: '2008-08-18'
     subject: 'WG Review: Recharter of Layer 2 Virtual Private Networks (l2vpn)'
     url: null
+  - kind: list message
+    date: '2005-07-13'
+    says: start
+    subject: New L2VPN WG Chair
+    url: https://mailarchive.ietf.org/arch/msg/l2vpn/-SPUQhDNCv3oA6MlUUcF7fRi1Vw/
+    excerpt: Please welcome Shane Amante as the new L2VPN Co-chair, serving beside Vach Kompella.
   - kind: session requests
     meetings:
     - '65'

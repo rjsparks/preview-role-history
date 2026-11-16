@@ -18,6 +18,13 @@ chairs:
       certainty: exact
       date: '2025-01-28'
   evidence:
+  - kind: list message
+    date: '2021-08-24'
+    says: end
+    subject: '[Cellar] Our normal-looking agenda for our meeting on 8/24/2021'
+    url: https://mailarchive.ietf.org/arch/msg/cellar/8dtR9zA2OhXYMwuGL1HVNj_lvOc/
+    excerpt: '#### Michael Richardson has asked to step down as co-chair for Cellar, after years of service
+      in this role.'
   - kind: shepherded
     documents:
     - draft-ietf-cellar-matroska

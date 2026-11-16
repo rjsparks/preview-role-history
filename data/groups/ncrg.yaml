@@ -36,6 +36,14 @@ chairs:
       certainty: on-or-before
       date: '2012-02-26'
     end:
-      certainty: between
-      not_before: '2012-02-26'
-      not_after: '2014-06-13'
+      certainty: approximate
+      date: '2013-04-22'
+    notes:
+    - end dated by list message of 2013-04-22
+  evidence:
+  - kind: list message
+    date: '2013-04-22'
+    says: end
+    subject: '[ncrg] Change of NCRG chair'
+    url: https://mailarchive.ietf.org/arch/msg/ncrg/7EZib1RZneoANOKWhwM_fh3Pj8g/
+    excerpt: Unfortunately Geoff Huston has decided to step down as the NCRG co-chair.

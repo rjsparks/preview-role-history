@@ -47,6 +47,13 @@ chairs:
       certainty: exact
       date: '2023-03-30'
   evidence:
+  - kind: list message
+    date: '2020-06-14'
+    says: start
+    subject: '[spring] Leadership change'
+    url: https://mailarchive.ietf.org/arch/msg/spring/7rGZb0pcr1T6Cwyg8ZPsQIgfsKA/
+    excerpt: I am pleased to inform you that I have appointed Jim Guichard and Joel Halpern as co-chairs
+      of SPRING WG, alongside Bruno.
   - kind: shepherded
     documents:
     - draft-ietf-spring-segment-routing-policy

@@ -67,16 +67,22 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-11-13'
-      not_before: '2010-12-03'
+      certainty: approximate
+      date: '2011-08-17'
     end:
       certainty: between
       not_before: '2011-12-09'
       not_after: '2015-05-29'
     notes:
     - start moved earlier by session request for IETF 82
+    - start dated by list message of 2011-08-17
   evidence:
+  - kind: list message
+    date: '2011-08-17'
+    says: start
+    subject: '[xrblock] New chairs for XRBLOCK'
+    url: https://mailarchive.ietf.org/arch/msg/xrblock/ksT3ozhFfxG50NVKWfYPISPsLWw/
+    excerpt: Please welcome David Bryan and Charles Eckel as the new co-chairs for XRBLOCK.
   - kind: session requests
     meetings:
     - '82'

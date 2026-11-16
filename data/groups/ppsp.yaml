@@ -12,12 +12,32 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2013-09-06'
+      certainty: approximate
+      date: '2012-03-27'
     end:
       certainty: exact
       date: '2013-09-06'
+    notes:
+    - start dated by list message of 2012-03-27
+  evidence:
+  - kind: list message
+    date: '2012-03-27'
+    says: start
+    subject: '[ppsp] Upcoming change of the PPSP co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/ppsp/EB57znqWqWgiTlvXHpJMTTTfsWs/
+    excerpt: Stefano Previdi will be the new chair.
+  - kind: list message
+    date: '2013-07-30'
+    says: end
+    subject: '[ppsp] Looking for a new co-chair for PPSP'
+    url: https://mailarchive.ietf.org/arch/msg/ppsp/uIAXjDfVgq9G4-m3XgLcC9jZ3pM/
+    excerpt: Stefano Previdi will step down as co-chair of the PPSP WG [1].
+  - kind: list message
+    date: '2013-09-06'
+    says: end
+    subject: '[ppsp] New PPSP co-chair: Ning Zong'
+    url: https://mailarchive.ietf.org/arch/msg/ppsp/maYA2WIrQInFg67AQkmCSsHhKIE/
+    excerpt: Stefano Previdi is stepping down as PPSP co-chair, as announced on 7/30 to the PPSP list.
 - person: 105519
   name: Martin Stiemerling
   status: confirmed
@@ -88,13 +108,21 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2013-09-06'
+      certainty: approximate
+      date: '2013-09-06'
     end:
       certainty: group-closed
       date: '2016-01-13'
+    notes:
+    - start dated by list message of 2013-09-06
   evidence:
+  - kind: list message
+    date: '2013-09-06'
+    says: start
+    subject: '[ppsp] New PPSP co-chair: Ning Zong'
+    url: https://mailarchive.ietf.org/arch/msg/ppsp/maYA2WIrQInFg67AQkmCSsHhKIE/
+    excerpt: 'Let me thank Stefano for his service as PPSP co-chair and welcome Ning Zong (email: as the
+      new co-chair!'
   - kind: shepherded
     documents:
     - draft-ietf-ppsp-base-tracker-protocol

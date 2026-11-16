@@ -16,16 +16,28 @@ chairs:
       date: '2011-06-28'
       not_before: '2011-06-28'
     end:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2013-05-20'
+      certainty: approximate
+      date: '2013-03-11'
     notes:
     - start moved earlier by WG Action announcement of 2011-06-28
+    - end dated by list message of 2013-03-11
   evidence:
   - kind: WG Action
     date: '2011-06-28'
     subject: 'WG Action: Content Delivery Networks Interconnection (cdni)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/-WniO8APk2Gkzk4vGmxvE0uUPCA/
+  - kind: list message
+    date: '2013-03-11'
+    says: end
+    subject: '[CDNi] Looking for a new co-chair for the CDNI Working Group'
+    url: https://mailarchive.ietf.org/arch/msg/cdni/T-W9y98RiTZwNiU-oQshIo1al68/
+    excerpt: Rich Woundy is stepping down as co-chair by the end of the IETF-86 meeting.
+  - kind: list message
+    date: '2013-04-02'
+    says: end
+    subject: '[CDNi] Announcing a new CDNI co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/cdni/2oynU_0oOGb22gQSayBWzJoq2JQ/
+    excerpt: Rich Woundy stepped down as CDNI co-chair at the end of the IETF-86 meeting.
   - kind: session requests
     meetings:
     - '81'
@@ -71,12 +83,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2013-05-20'
+      certainty: approximate
+      date: '2013-04-02'
     end:
       certainty: exact
       date: '2015-11-05'
+    notes:
+    - start dated by list message of 2013-04-02
   evidence:
   - kind: WG Review
     date: '2013-11-22'
@@ -86,6 +99,12 @@ chairs:
     date: '2013-12-06'
     subject: 'WG Action: Rechartered Content Delivery Networks Interconnection (cdni)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/PEL-7CsPDFhIuKKdeyTM31oW5ZY/
+  - kind: list message
+    date: '2013-04-02'
+    says: start
+    subject: '[CDNi] Announcing a new CDNI co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/cdni/2oynU_0oOGb22gQSayBWzJoq2JQ/
+    excerpt: Daryl Malas is the new co-chair.
   - kind: shepherded
     documents:
     - draft-ietf-cdni-framework
@@ -136,6 +155,13 @@ chairs:
     date: '2025-10-16'
     subject: 'WG Action: Rechartered Content Delivery Networks Interconnection (cdni)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/a8M5cgOU3A6pj24gas32bhlyUZs/
+  - kind: list message
+    date: '2021-04-16'
+    says: start
+    subject: '[CDNi] New CDNI wg co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/cdni/i5hD-U8kRoigX-F8N6IIiL52DTs/
+    excerpt: 'As a result, I have been looking for one candidate to replace them and to join Kevin in
+      his continued role: please join me in welcoming Sanjay Mishra as new co-chair of CDNI.'
   - kind: shepherded
     documents:
     - draft-ietf-cdni-capacity-insights-extensions

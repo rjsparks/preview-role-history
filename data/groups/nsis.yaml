@@ -15,8 +15,10 @@ chairs:
       certainty: evidence-only
       not_after: '2001-11-30'
     end:
-      certainty: evidence-only
-      not_before: '2006-11-05'
+      certainty: approximate
+      date: '2008-04-17'
+    notes:
+    - end dated by list message of 2008-04-17
   evidence:
   - kind: WG Action
     date: '2001-11-30'
@@ -30,6 +32,12 @@ chairs:
     date: '2004-10-22'
     subject: 'WG Action: RECHARTER: Next Steps in Signaling (nsis)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/EQnhRY9b9kKkL3f7qIru0lfLN2o/
+  - kind: list message
+    date: '2008-04-17'
+    says: end
+    subject: '[NSIS] Looking for new WG chair for NSIS'
+    url: https://mailarchive.ietf.org/arch/msg/nsis/y5m7neEN3LuoYfKLuEsAuXCAHFI/
+    excerpt: John Loughney will step down as WG chair for NSIS.
   - kind: session requests
     meetings:
     - '65'
@@ -64,9 +72,17 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-03-16'
-      not_before: '2001-10-26'
+      certainty: approximate
+      date: '2008-05-13'
     end:
       certainty: group-closed
       date: '2011-03-16'
+    notes:
+    - start dated by list message of 2008-05-13
+  evidence:
+  - kind: list message
+    date: '2008-05-13'
+    says: start
+    subject: '[NSIS] WG chair changes'
+    url: https://mailarchive.ietf.org/arch/msg/nsis/w-3Ckl9jbN3zGXS5rLNTObp1dLY/
+    excerpt: I like to welcome Jukka Manner as new NSIS co-chair.

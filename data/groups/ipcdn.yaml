@@ -34,14 +34,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2003-08-26'
-      not_before: '1996-08-30'
+      certainty: approximate
+      date: '2002-07-01'
     end:
       certainty: group-closed
       date: '2009-04-02'
     notes:
     - start moved earlier by WG Action announcement of 2003-08-26
+    - start dated by list message of 2002-07-01
   evidence:
   - kind: WG Action
     date: '2003-08-26'
@@ -51,3 +51,10 @@ chairs:
     date: '2005-09-08'
     subject: 'WG Action: RECHARTER: IP over Cable Data Network (ipcdn)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/REl_MFln-_0DU6FIQ4OSmghPWFA/
+  - kind: list message
+    date: '2002-07-01'
+    says: start
+    subject: '[ipcdn] IPCDN working group update'
+    url: https://mailarchive.ietf.org/arch/msg/ipcdn/1T87YrsavZL_N0o8oe9btAOyVmU/
+    excerpt: I hope to introduce Jean-Francois Mule as the new co-chair of the IPCDN working group, as
+      he will help share the load of running this working group.

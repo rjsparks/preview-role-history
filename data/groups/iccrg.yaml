@@ -27,17 +27,46 @@ chairs:
     end:
       certainty: exact
       date: '2023-09-29'
+  evidence:
+  - kind: list message
+    date: '2015-12-30'
+    says: start
+    subject: '[iccrg] Chair change'
+    url: https://mailarchive.ietf.org/arch/msg/iccrg/5X9_XpN0_YJA7eW5Brzr3qVWv1Q/
+    excerpt: I would like to propose Jana Iyengar as new co-chair.
+  - kind: list message
+    date: '2023-10-03'
+    says: end
+    subject: '[iccrg] Change in ICCRG Chairs'
+    url: https://mailarchive.ietf.org/arch/msg/iccrg/mNTwZF8Zj-MiXOSSUX_E7-7yn4U/
+    excerpt: Jana Iyengar and Michael Schapira have requested to step down as ICCRG co-chairs due to changes
+      in their day jobs that limit their availability.
 - person: 109727
   name: Murari Sridharan
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2012-02-26'
+      certainty: approximate
+      date: '2011-02-28'
     end:
-      certainty: between
-      not_before: '2012-02-26'
-      not_after: '2014-11-13'
+      certainty: approximate
+      date: '2012-10-29'
+    notes:
+    - start dated by list message of 2011-02-28
+    - end dated by list message of 2012-10-29
+  evidence:
+  - kind: list message
+    date: '2011-02-28'
+    says: start
+    subject: '[Iccrg] New co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/iccrg/uDaaIqoxX3JvHg2Dw_4kxY2EBP4/
+    excerpt: 'ICCRG has a new co-chair, replacing Wes Eddy: Murari Sridharan !'
+  - kind: list message
+    date: '2012-10-29'
+    says: end
+    subject: '[Iccrg] New co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/iccrg/Pjy73O4kFtZszCugPerm8k5HzkU/
+    excerpt: Murari Sridharan is stepping down as my ICCRG co-chair.
 - person: 110856
   name: Wesley Eddy
   status: unconfirmed
@@ -49,6 +78,12 @@ chairs:
       certainty: evidence-only
       not_before: '2011-03-27'
   evidence:
+  - kind: list message
+    date: '2011-02-28'
+    says: start
+    subject: '[Iccrg] New co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/iccrg/uDaaIqoxX3JvHg2Dw_4kxY2EBP4/
+    excerpt: 'ICCRG has a new co-chair, replacing Wes Eddy: Murari Sridharan !'
   - kind: session requests
     meetings:
     - '69'
@@ -64,13 +99,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2012-02-26'
-      not_after: '2014-11-13'
+      certainty: approximate
+      date: '2012-10-29'
     end:
       certainty: between
       not_before: '2012-02-26'
       not_after: '2014-11-13'
+    notes:
+    - start dated by list message of 2012-10-29
   - start:
       certainty: between
       not_before: '2012-02-26'
@@ -78,6 +114,19 @@ chairs:
     end:
       certainty: exact
       date: '2016-01-21'
+  evidence:
+  - kind: list message
+    date: '2012-10-29'
+    says: start
+    subject: '[Iccrg] New co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/iccrg/Pjy73O4kFtZszCugPerm8k5HzkU/
+    excerpt: 'I would like to propose David Ros as new co-chair: http://www.rennes.enst-bretagne.fr/~dros/dros/Home.html'
+  - kind: list message
+    date: '2015-12-30'
+    says: end
+    subject: '[iccrg] Chair change'
+    url: https://mailarchive.ietf.org/arch/msg/iccrg/5X9_XpN0_YJA7eW5Brzr3qVWv1Q/
+    excerpt: David Ros is stepping down as my ICCRG co-chair.
 - person: 123344
   name: Reese Enghardt
   status: confirmed
@@ -97,6 +146,14 @@ chairs:
     end:
       certainty: exact
       date: '2023-09-29'
+  evidence:
+  - kind: list message
+    date: '2022-09-06'
+    says: start
+    subject: '[iccrg] New co-chairs for ICCRG'
+    url: https://mailarchive.ietf.org/arch/msg/iccrg/-SWkN9nyYEvtMGDxmqQPgvB6LvY/
+    excerpt: I’m pleased to welcome [Simone Ferlin](https://ferlin.io/) and [Michael Schapira](https://www.michaelschapira.com)
+      who join Jana Iyengar as co-chairs of the ICCRG.
 - person: 127141
   name: Vidhi Goel
   status: confirmed
@@ -120,6 +177,13 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: list message
+    date: '2022-09-06'
+    says: start
+    subject: '[iccrg] New co-chairs for ICCRG'
+    url: https://mailarchive.ietf.org/arch/msg/iccrg/-SWkN9nyYEvtMGDxmqQPgvB6LvY/
+    excerpt: I’m pleased to welcome [Simone Ferlin](https://ferlin.io/) and [Michael Schapira](https://www.michaelschapira.com)
+      who join Jana Iyengar as co-chairs of the ICCRG.
   - kind: shepherded
     documents:
     - draft-irtf-iccrg-ledbat-plus-plus

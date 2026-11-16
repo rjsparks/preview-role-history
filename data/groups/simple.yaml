@@ -77,14 +77,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2007-03-21'
-      not_before: '2001-01-18'
+      certainty: approximate
+      date: '2003-11-17'
     end:
       certainty: group-closed
       date: '2013-02-26'
     notes:
     - start moved earlier by WG Action announcement of 2007-03-21
+    - start dated by list message of 2003-11-17
   evidence:
   - kind: WG Review
     date: '2007-02-14'
@@ -94,3 +94,10 @@ chairs:
     date: '2007-03-21'
     subject: 'WG Action: RECHARTER: SIP for Instant Messaging and Presence Leveraging Extensions (simple)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/qwgAI49zPhO8Z3S-6Bn498R3K1g/
+  - kind: list message
+    date: '2003-11-17'
+    says: start
+    subject: '[Simple] ANNOUNCEMENT: Change of chairs'
+    url: https://mailarchive.ietf.org/arch/msg/simple/0TxRi4YxuiR1k6-nqk_AsYkUrLo/
+    excerpt: I am happy to announce that Hisham Khartabil is joining me as a chair of the SIMPLE working
+      group.

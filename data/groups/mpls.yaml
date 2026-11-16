@@ -12,12 +12,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-12-09'
-      not_before: '1997-01-10'
+      certainty: approximate
+      date: '2010-12-16'
     end:
       certainty: exact
       date: '2016-07-22'
+    notes:
+    - start dated by list message of 2010-12-16
   evidence:
   - kind: WG Action
     date: '2013-08-16'
@@ -31,6 +32,19 @@ chairs:
     date: '2014-12-05'
     subject: 'WG Action: Rechartered Multiprotocol Label Switching (mpls)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ufCVdCa-puOES8QLFQXA8h3d1RQ/
+  - kind: list message
+    date: '2010-12-16'
+    says: start
+    subject: '[mpls] Spreading the MPLS WG load'
+    url: https://mailarchive.ietf.org/arch/msg/mpls/_wClwL60jyr2DHhPNeB_wHarPRE/
+    excerpt: I am pleased to say that Ross Callon has agreed to step up and serve as co-chair.
+  - kind: list message
+    date: '2011-03-29'
+    says: start
+    subject: '[mpls] Working Group chairs'
+    url: https://mailarchive.ietf.org/arch/msg/mpls/xaJwDxSgwA-Yfo3KZnDS-5T1zDw/
+    excerpt: At the end of last year I appointed Ross Callon and as a temporary third WG chair to help
+      with the considerable management and technical load in the MPLS working group.
   - kind: shepherded
     documents:
     - draft-akiya-mpls-lsp-ping-reply-mode-simple

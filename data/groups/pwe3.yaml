@@ -12,16 +12,24 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '2005-12-21'
+      certainty: approximate
+      date: '2003-03-26'
     end:
       certainty: evidence-only
       not_before: '2010-03-21'
+    notes:
+    - start dated by list message of 2003-03-26
   evidence:
   - kind: WG Review
     date: '2005-12-21'
     subject: 'WG Review: Recharter of Pseudo Wire Emulation Edge to Edge (pwe3)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/gPoklPQeKdcGvcvFyYdd_IfVtPo/
+  - kind: list message
+    date: '2003-03-26'
+    says: start
+    subject: New PWE3 Co-Chair
+    url: https://mailarchive.ietf.org/arch/msg/pwe3/WPW6EoDGG1quRhXY1HmG-QqErpE/
+    excerpt: Folks, Please join Allison, Jon & I in welcoming Stewart Bryant as my PWE3 co-chair.
   - kind: session requests
     meetings:
     - '72'

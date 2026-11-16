@@ -12,12 +12,28 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2007-04-04'
-      not_before: '2003-06-26'
+      certainty: approximate
+      date: '2003-08-21'
     end:
       certainty: group-closed
       date: '2007-04-04'
+    notes:
+    - start dated by list message of 2003-08-21
+  evidence:
+  - kind: list message
+    date: '2003-08-21'
+    says: start
+    subject: '[pmtud] pmtud ietf57 vienna minutes, version 0'
+    url: https://mailarchive.ietf.org/arch/msg/pmtud/BBHNF8oBl039j6slQoZS6lQEutA/
+    excerpt: Matt Mathis led off the meeting presenting the new co-chair, the agenda, the changes to the
+      proposed charter, and the aggressive milestones.
+  - kind: list message
+    date: '2003-08-26'
+    says: start
+    subject: '[pmtud] Minutes from the pmtud meeting at IETF57 - VIE'
+    url: https://mailarchive.ietf.org/arch/msg/pmtud/JyIBOK2SmYAYoBp7YnfsRyvxlP4/
+    excerpt: Matt Mathis led off the meeting presenting the new co-chair, the agenda, the changes to the
+      proposed charter, and the aggressive milestones.
 - person: 101818
   name: Matthew Zekauskas
   status: confirmed

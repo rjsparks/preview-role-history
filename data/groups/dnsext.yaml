@@ -85,13 +85,22 @@ chairs:
       certainty: evidence-only
       not_after: '1999-12-30'
     end:
-      certainty: evidence-only
-      not_before: '1999-12-30'
+      certainty: approximate
+      date: '2003-08-13'
+    notes:
+    - end dated by list message of 2003-08-13
   evidence:
   - kind: WG Action
     date: '1999-12-30'
     subject: 'WG ACTION: DNS Extensions (dnsext)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/RDodLnvIvvw5lm4-vFI_qDz8iDk/
+  - kind: list message
+    date: '2003-08-13'
+    says: end
+    subject: DNSEXT IETF-57 WG minutes (draft)
+    url: https://mailarchive.ietf.org/arch/msg/dnsext/Hoi_QS6zMT2Y91feRFMQ7_8hZkM/
+    excerpt: Olafur thanked Randy Bush for his long service as WG chair and welcomed Olaf Kolkman as the
+      new co-chair.
 - person: 109178
   name: Andrew Sullivan
   status: confirmed
@@ -143,11 +152,13 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '2003-10-06'
+      certainty: approximate
+      date: '2003-08-13'
     end:
       certainty: evidence-only
       not_before: '2006-11-05'
+    notes:
+    - start dated by list message of 2003-08-13
   evidence:
   - kind: WG Action
     date: '2003-10-06'
@@ -161,6 +172,13 @@ chairs:
     date: '2005-02-09'
     subject: 'WG Action: RECHARTER: DNS Extensions (dnsext)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/UqWK3uRL1Nv4q8sCRDy9IpcplN0/
+  - kind: list message
+    date: '2003-08-13'
+    says: start
+    subject: DNSEXT IETF-57 WG minutes (draft)
+    url: https://mailarchive.ietf.org/arch/msg/dnsext/Hoi_QS6zMT2Y91feRFMQ7_8hZkM/
+    excerpt: Olafur thanked Randy Bush for his long service as WG chair and welcomed Olaf Kolkman as the
+      new co-chair.
   - kind: session requests
     meetings:
     - '67'

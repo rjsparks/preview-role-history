@@ -16,8 +16,18 @@ chairs:
       not_before: '2011-12-09'
       not_after: '2013-06-11'
     end:
-      certainty: group-closed
-      date: '2015-06-08'
+      certainty: approximate
+      date: '2012-03-13'
+    notes:
+    - end dated by list message of 2012-03-13
+  evidence:
+  - kind: list message
+    date: '2012-03-13'
+    says: end
+    subject: '[eman] Fwd: I-D Action: draft-ietf-eman-framework-04.txt'
+    url: https://mailarchive.ietf.org/arch/msg/eman/Zu6qnAcGZrw98zKq2K90AbuyzfY/
+    excerpt: This stems from my promise to Nevil Brownlee to try to leave a clean plate to our brand new
+      co-chair.
 - person: 104197
   name: Thomas Nadeau
   status: confirmed
@@ -29,6 +39,13 @@ chairs:
       certainty: group-closed
       date: '2015-06-08'
   evidence:
+  - kind: list message
+    date: '2013-07-04'
+    says: start
+    subject: '[eman] FIRST DRAFT of EMAN WG aganda for IETF 87 Berlin'
+    url: https://mailarchive.ietf.org/arch/msg/eman/nOw5ZMeirdZr2gakMX8r5VJ1ZVE/
+    excerpt: First, welcome to our new WG co-chair, Thomas Nadeau, replacing Bruce Nordman, who has stepped
+      down.
   - kind: shepherded
     documents:
     - draft-ietf-eman-framework
@@ -73,6 +90,13 @@ chairs:
     date: '2010-09-28'
     subject: 'WG Action: Energy Management (eman)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/DxJMRBCOssk9macm3ixhzh9_4Gk/
+  - kind: list message
+    date: '2013-07-04'
+    says: end
+    subject: '[eman] FIRST DRAFT of EMAN WG aganda for IETF 87 Berlin'
+    url: https://mailarchive.ietf.org/arch/msg/eman/nOw5ZMeirdZr2gakMX8r5VJ1ZVE/
+    excerpt: First, welcome to our new WG co-chair, Thomas Nadeau, replacing Bruce Nordman, who has stepped
+      down.
   - kind: session requests
     meetings:
     - '81'

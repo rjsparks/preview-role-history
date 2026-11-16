@@ -77,14 +77,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-06-08'
-      not_before: '2004-11-23'
+      certainty: approximate
+      date: '2009-03-30'
     end:
       certainty: group-closed
       date: '2012-11-14'
     notes:
     - start moved earlier by WG Action announcement of 2010-06-08
+    - start dated by list message of 2009-03-30
   evidence:
   - kind: WG Review
     date: '2010-05-24'
@@ -94,3 +94,10 @@ chairs:
     date: '2010-06-08'
     subject: 'WG Action: RECHARTER: Sieve Mail Filtering Language (sieve)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/06aZ9jVS4SbCWgjaZU_S55cPoPA/
+  - kind: list message
+    date: '2009-03-30'
+    says: start
+    subject: 'New chair: Aaron Stone'
+    url: https://mailarchive.ietf.org/arch/msg/sieve/Y0FzW0yH_50khYsaA_7sH3e1has/
+    excerpt: With Alexey stepping up as AD this month, I asked Aaron Stone to join Cyrus in chairing this
+      group.

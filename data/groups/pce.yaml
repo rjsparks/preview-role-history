@@ -22,6 +22,13 @@ chairs:
     date: '2005-01-12'
     subject: 'WG Action: Path Computation Element (pce)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ZfY9fDpNBkLMAr1IWXEnu3ZutCA/
+  - kind: list message
+    date: '2009-04-15'
+    says: end
+    subject: '[Pce] Change in Co-chairs'
+    url: https://mailarchive.ietf.org/arch/msg/pce/Br8pIxo_NgnQVaOnJS4acNTTDPo/
+    excerpt: Adrian Farrel has stepped down as co-chair of PCE (due to his being appointed as Routing
+      Area Director).
   - kind: session requests
     meetings:
     - '73'
@@ -85,13 +92,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2009-11-08'
-      not_before: '2004-03-01'
+      certainty: approximate
+      date: '2009-04-15'
     end:
       certainty: ongoing
     notes:
     - start moved earlier by session request for IETF 76
+    - start dated by list message of 2009-04-15
   evidence:
   - kind: WG Action
     date: '2011-08-16'
@@ -113,6 +120,21 @@ chairs:
     date: '2023-12-19'
     subject: 'WG Action: Rechartered Path Computation Element (pce)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/dAokibHvv2mgvqWeQL4ufam1_78/
+  - kind: list message
+    date: '2009-04-15'
+    says: start
+    subject: '[Pce] Change in Co-chairs'
+    url: https://mailarchive.ietf.org/arch/msg/pce/Br8pIxo_NgnQVaOnJS4acNTTDPo/
+    excerpt: Julien Meuric has agreed to take Adrian's place as PCE co-chair.
+  - kind: list message
+    date: '2017-08-22'
+    says: start
+    subject: '[Pce] Best Wishes for the future of PCE WG !'
+    url: https://mailarchive.ietf.org/arch/msg/pce/z2V-yc9Pey1KQXmDG9aLn9ZhOn4/
+    excerpt: I would like to warmly thank my friend Adrian whom I started the PCE WG with in 2005 and
+      many years of close collaboration, Julien Meuric who has been a terrific co-chair, and Jonathan
+      who stepped up as new co-chair at light speed, not forgetting Dan for years as secretary and now
+      Dhruv.
   - kind: session requests
     meetings:
     - '76'
@@ -189,6 +211,18 @@ chairs:
       certainty: exact
       date: '2019-01-28'
   evidence:
+  - kind: list message
+    date: '2015-10-07'
+    says: start
+    subject: '[Pce] New Co-Chair for PCE'
+    url: https://mailarchive.ietf.org/arch/msg/pce/fyDLdnUK2yPpb9_NY8bF-zPUecU/
+    excerpt: Please welcome Jon Hardwick as a 3rd co-chair for PCE!
+  - kind: list message
+    date: '2019-01-28'
+    says: end
+    subject: '[Pce] Replacing Jon as PCE Co-Chair'
+    url: https://mailarchive.ietf.org/arch/msg/pce/RZSN_XWhThON5i-s1ei1tBHIkGE/
+    excerpt: As announced at IETF103, Jon Hardwick has requested to step down as PCE Co-Chair.
   - kind: shepherded
     documents:
     - draft-ietf-pce-inter-area-as-applicability

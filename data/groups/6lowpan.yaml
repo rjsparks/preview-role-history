@@ -12,19 +12,25 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2006-07-09'
-      not_before: '2004-10-01'
+      certainty: approximate
+      date: '2005-03-20'
     end:
       certainty: group-closed
       date: '2014-01-16'
     notes:
     - start moved earlier by session request for IETF 66
+    - start dated by list message of 2005-03-20
   evidence:
   - kind: WG Action
     date: '2008-07-08'
     subject: 'WG Action: RECHARTER: IPv6 over Low power WPAN (6lowpan)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/8bIexn8m7STPxryAhdZWU2LJi7Y/
+  - kind: list message
+    date: '2005-03-20'
+    says: start
+    subject: '[6lowpan] New 6lowpan WG chair'
+    url: https://mailarchive.ietf.org/arch/msg/6lowpan/O8MXBueJ0E38zvXXjFH5H0GfoaY/
+    excerpt: Carsten Bormann has agreed to co-chair the 6lowpan WG, along with Geoff Mulligan.
   - kind: session requests
     meetings:
     - '66'

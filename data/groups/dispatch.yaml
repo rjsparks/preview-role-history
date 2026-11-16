@@ -29,6 +29,13 @@ chairs:
     date: '2016-03-04'
     subject: 'WG Action: Rechartered Dispatch (dispatch)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/C8_8PIQYPJMThSpMeKUJpqdawbg/
+  - kind: list message
+    date: '2019-03-29'
+    says: end
+    subject: '[dispatch] DISPATCH Minutes'
+    url: https://mailarchive.ietf.org/arch/msg/dispatch/Fld6mY5y5hkSD4E9OqI6_0Px1us/
+    excerpt: Mary Barnes thanked Cullen Jennings and Murray Kucherawy for their work as DISPATCH co-chairs,
+      and welcomed Ben Campbell as the new co-chair.
   - kind: session requests
     meetings:
     - '75'
@@ -50,6 +57,20 @@ chairs:
       certainty: exact
       date: '2020-12-03'
   evidence:
+  - kind: list message
+    date: '2019-03-29'
+    says: start
+    subject: '[dispatch] DISPATCH Minutes'
+    url: https://mailarchive.ietf.org/arch/msg/dispatch/Fld6mY5y5hkSD4E9OqI6_0Px1us/
+    excerpt: Mary Barnes thanked Cullen Jennings and Murray Kucherawy for their work as DISPATCH co-chairs,
+      and welcomed Ben Campbell as the new co-chair.
+  - kind: list message
+    date: '2020-11-16'
+    says: end
+    subject: '[dispatch] Change of DISPATCH chairs'
+    url: https://mailarchive.ietf.org/arch/msg/dispatch/l81dpKG56okJ65gqY2gMbOyrOFo/
+    excerpt: Ben Campbell is rotating out, and let's all please thank Ben for the work he's done as DISPATCH
+      chair in the past two years since he stepped down from the AD position.
   - kind: shepherded
     documents:
     - draft-ietf-dispatch-javascript-mjs
@@ -73,6 +94,13 @@ chairs:
     date: '2016-03-04'
     subject: 'WG Action: Rechartered Dispatch (dispatch)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/C8_8PIQYPJMThSpMeKUJpqdawbg/
+  - kind: list message
+    date: '2019-03-29'
+    says: end
+    subject: '[dispatch] DISPATCH Minutes'
+    url: https://mailarchive.ietf.org/arch/msg/dispatch/Fld6mY5y5hkSD4E9OqI6_0Px1us/
+    excerpt: Mary Barnes thanked Cullen Jennings and Murray Kucherawy for their work as DISPATCH co-chairs,
+      and welcomed Ben Campbell as the new co-chair.
 - person: 106842
   name: Murray Kucherawy
   status: confirmed
@@ -160,3 +188,11 @@ chairs:
     end:
       certainty: exact
       date: '2023-04-04'
+  evidence:
+  - kind: list message
+    date: '2020-11-16'
+    says: start
+    subject: '[dispatch] Change of DISPATCH chairs'
+    url: https://mailarchive.ietf.org/arch/msg/dispatch/l81dpKG56okJ65gqY2gMbOyrOFo/
+    excerpt: Kirsty Paine, from the UK National Cyber Security Centre (NCSC), is our new chair, and is
+      a first-time chair in the IETF -- a brand new blue dot.

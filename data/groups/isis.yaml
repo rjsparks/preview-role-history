@@ -99,6 +99,13 @@ chairs:
       certainty: group-closed
       date: '2018-03-01'
   evidence:
+  - kind: list message
+    date: '2013-07-17'
+    says: start
+    subject: '[Isis-wg] Change of WG chair'
+    url: https://mailarchive.ietf.org/arch/msg/isis-wg/oHldAh_BUgOFS_z1n9ReLllw6f4/
+    excerpt: I'm pleased to say that Hannes Gredler has agreed to step in as the co-chair, and Chris Hopps
+      will continue as his co-chair.
   - kind: shepherded
     documents:
     - draft-ietf-isis-auto-conf

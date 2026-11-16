@@ -63,6 +63,12 @@ chairs:
     date: '2021-02-19'
     subject: 'WG Action: Rechartered Authentication and Authorization for Constrained Environments (ace)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/wyWwuniS67dkoxRzuv110e6MBn8/
+  - kind: list message
+    date: '2023-08-17'
+    says: end
+    subject: '[Ace] Change of co-chair for ACE'
+    url: https://mailarchive.ietf.org/arch/msg/ace/NF3vLO-lpiZEVzadhHGzvZjjuFk/
+    excerpt: Tim Hollebeek is taking over for Daniel Migault as co-chair for Ace.
   - kind: shepherded
     documents:
     - draft-ietf-ace-cmpv2-coap-transport
@@ -131,6 +137,13 @@ chairs:
     date: '2021-02-19'
     subject: 'WG Action: Rechartered Authentication and Authorization for Constrained Environments (ace)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/wyWwuniS67dkoxRzuv110e6MBn8/
+  - kind: list message
+    date: '2021-02-11'
+    says: start
+    subject: '[Ace] please welcome Loganaden Velvindron as ACE co-chair!'
+    url: https://mailarchive.ietf.org/arch/msg/ace/TreO2REh7t5kiOiEFwfHnTqLY4s/
+    excerpt: Please join me in welcoming Loganaden Velvindron as new ACE co-chair, joining Daniel Migault
+      who is continuing as co-chair.
   - kind: shepherded
     documents:
     - draft-ietf-ace-aif
@@ -145,6 +158,18 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: list message
+    date: '2023-08-17'
+    says: start
+    subject: '[Ace] Change of co-chair for ACE'
+    url: https://mailarchive.ietf.org/arch/msg/ace/NF3vLO-lpiZEVzadhHGzvZjjuFk/
+    excerpt: Tim Hollebeek is taking over for Daniel Migault as co-chair for Ace.
+  - kind: list message
+    date: '2023-10-27'
+    says: start
+    subject: '[Ace] Draft ACE agenda for IETF 118'
+    url: https://mailarchive.ietf.org/arch/msg/ace/hbR1nAtQ5A0kPlxkOLGZCE5O4t0/
+    excerpt: I'm Tim Hollebeek, and I'll be helping out as the new co-chair of ACE.
   - kind: shepherded
     documents:
     - draft-ietf-ace-coap-est-oscore

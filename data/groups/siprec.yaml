@@ -15,9 +15,17 @@ chairs:
       certainty: evidence-only
       not_after: '2010-11-07'
     end:
-      certainty: evidence-only
-      not_before: '2011-07-24'
+      certainty: approximate
+      date: '2011-08-11'
+    notes:
+    - end dated by list message of 2011-08-11
   evidence:
+  - kind: list message
+    date: '2011-08-11'
+    says: end
+    subject: '[siprec] New chair for SIPREC'
+    url: https://mailarchive.ietf.org/arch/msg/siprec/IbVqd3Gh8Th0sP25gyU1K30OvEs/
+    excerpt: Andrew Hutton is going to replace John Elwell as cochair of SIPREC.
   - kind: session requests
     meetings:
     - '79'

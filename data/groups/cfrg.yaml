@@ -48,10 +48,18 @@ chairs:
       date: '2011-12-09'
       not_before: '2002-07-17'
     end:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2014-11-13'
+      certainty: approximate
+      date: '2014-05-14'
+    notes:
+    - end dated by list message of 2014-05-14
   evidence:
+  - kind: list message
+    date: '2014-05-14'
+    says: end
+    subject: '[Cfrg] Looking for two new CFRG co-chairs'
+    url: https://mailarchive.ietf.org/arch/msg/cfrg/XLvmnRFJlwmkzU6CH0Dgy7xTHlI/
+    excerpt: David McGrew has informed me that he needs to step down as co-chair of CFRG soon, because
+      other responsibilities no longer allow him the time that to do a good job in that function.
   - kind: shepherded
     documents:
     - draft-irtf-cfrg-ocb
@@ -66,6 +74,14 @@ chairs:
     end:
       certainty: exact
       date: '2015-07-12'
+  evidence:
+  - kind: list message
+    date: '2014-05-14'
+    says: end
+    subject: '[Cfrg] Looking for two new CFRG co-chairs'
+    url: https://mailarchive.ietf.org/arch/msg/cfrg/XLvmnRFJlwmkzU6CH0Dgy7xTHlI/
+    excerpt: The CFRG's other current co-chair, Kevin Igoe, is retiring in 2015 and will then also step
+      down.
 - person: 113609
   name: Kenny Paterson
   status: confirmed
@@ -78,6 +94,13 @@ chairs:
       certainty: exact
       date: '2020-01-14'
   evidence:
+  - kind: list message
+    date: '2020-01-15'
+    says: end
+    subject: '[Cfrg] Change of CFRG chairs'
+    url: https://mailarchive.ietf.org/arch/msg/cfrg/EpXvipbsVcrxjKCjhxuRfhJjROM/
+    excerpt: Kenny Paterson has requested to step down as CFRG co-chair, due to increased workload in
+      his day job.
   - kind: shepherded
     documents:
     - draft-irtf-cfrg-gcmsiv
@@ -91,6 +114,13 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: list message
+    date: '2020-01-15'
+    says: start
+    subject: '[Cfrg] Change of CFRG chairs'
+    url: https://mailarchive.ietf.org/arch/msg/cfrg/EpXvipbsVcrxjKCjhxuRfhJjROM/
+    excerpt: Stanislav Smyshlyaev has agreed to act as co-chair, and will join Alexey and Nick in that
+      role going forward.
   - kind: shepherded
     documents:
     - draft-fluhrer-lms-more-parm-sets
@@ -115,6 +145,19 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: list message
+    date: '2019-05-01'
+    says: start
+    subject: '[Cfrg] New CFRG co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/cfrg/PJys3Q0jSeNMTVi7UpjcftCe8RE/
+    excerpt: I’m pleased to announce that Nick Sullivan has agreed to serve as co-chair of the CFRG, effective
+      from today.
+  - kind: list message
+    date: '2019-07-25'
+    says: start
+    subject: '[Cfrg] Raw minutes of today''s meeting'
+    url: https://mailarchive.ietf.org/arch/msg/cfrg/ERmg_AlQJim6yW5j3rUqFfhQiXg/
+    excerpt: New co-chair (Nick Sullivan).
   - kind: shepherded
     documents:
     - draft-irtf-cfrg-frost

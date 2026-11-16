@@ -16,11 +16,11 @@ chairs:
       date: '2004-06-02'
       not_before: '2004-05-05'
     end:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2013-06-11'
+      certainty: approximate
+      date: '2013-06-08'
     notes:
     - start moved earlier by WG Action announcement of 2004-06-02
+    - end dated by list message of 2013-06-08
   - start:
       certainty: between
       not_before: '2011-12-09'
@@ -46,6 +46,13 @@ chairs:
     date: '2012-10-30'
     subject: 'WG Action: Rechartered Bidirectional Forwarding Detection (bfd)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/UOBw7Z9oOjTC9nrrsgJFM82OEzY/
+  - kind: list message
+    date: '2013-06-08'
+    says: end
+    subject: Changing chairs
+    url: https://mailarchive.ietf.org/arch/msg/rtg-bfd/pYyp7HDYIZBRptDFln3ktkTULWM/
+    excerpt: After many years as co-chair for BFD leading and driving the technology, Dave Ward has decided
+      to step down to concentrate on his day job and to make way for fresh blood.
 - person: 105046
   name: Jeffrey Haas
   status: confirmed
@@ -128,12 +135,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2013-06-11'
+      certainty: approximate
+      date: '2013-06-08'
     end:
       certainty: exact
       date: '2015-10-26'
+    notes:
+    - start dated by list message of 2013-06-08
   evidence:
   - kind: WG Action
     date: '2013-12-06'
@@ -143,6 +151,12 @@ chairs:
     date: '2014-06-05'
     subject: 'WG Action: Rechartered Bidirectional Forwarding Detection (bfd)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/YvgPwR3nU1htp6PW_hz6E48izaU/
+  - kind: list message
+    date: '2013-06-08'
+    says: start
+    subject: Changing chairs
+    url: https://mailarchive.ietf.org/arch/msg/rtg-bfd/pYyp7HDYIZBRptDFln3ktkTULWM/
+    excerpt: Nobo Akiya has kindly agreed to step up to the plate to work with Jeff as the new co-chair.
   - kind: shepherded
     documents:
     - draft-ietf-bfd-on-lags

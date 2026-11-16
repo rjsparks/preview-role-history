@@ -94,9 +94,18 @@ chairs:
       date: '2011-12-09'
       not_before: '2007-12-26'
     end:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2013-10-03'
+      certainty: approximate
+      date: '2012-02-10'
+    notes:
+    - end dated by list message of 2012-02-10
+  evidence:
+  - kind: list message
+    date: '2012-02-10'
+    says: end
+    subject: '[Roll] Planned change in ROLL co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/roll/yd4dBV7je8ZNuWVX8a3KZanHhoY/
+    excerpt: After providing years helping to lead the working group, David Culler has decided it is time
+      to step down as co-chair.
 - person: 109263
   name: Dominique Barthel
   status: confirmed
@@ -165,3 +174,9 @@ chairs:
     date: '2025-01-30'
     subject: 'WG Action: Rechartered Routing Over Low power and Lossy networks (roll)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/v79CSHFYas2R6xnpJfJUEpdGnqs/
+  - kind: list message
+    date: '2024-03-27'
+    says: start
+    subject: '[Roll] Welcome Aris, thank you Dominique'
+    url: https://mailarchive.ietf.org/arch/msg/roll/rasPtTviUzen_gFEKlrgr9V9EK8/
+    excerpt: Remous-Aris Koutsiamanis has agreed to become the new co-chair, thank you Aris.

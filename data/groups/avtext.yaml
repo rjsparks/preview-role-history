@@ -18,6 +18,12 @@ chairs:
       certainty: group-closed
       date: '2017-08-11'
   evidence:
+  - kind: list message
+    date: '2013-01-11'
+    says: start
+    subject: '[avtext] Jonathan Lennox joining as AVTEXT co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/avtext/qzgjAL2WB-CQ7TxNWA1sDXaCWbQ/
+    excerpt: Jonathan Lennox has agreed to join as a co-chair for AVTEXT.
   - kind: shepherded
     documents:
     - draft-ietf-avtext-multiple-clock-rates
@@ -44,6 +50,13 @@ chairs:
     date: '2011-01-25'
     subject: 'WG Action: Audio/Video Transport Extensions (AVTEXT)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/KSkpUe5SYXgkjfT6qL3RziUxemM/
+  - kind: list message
+    date: '2013-01-11'
+    says: end
+    subject: '[avtext] Jonathan Lennox joining as AVTEXT co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/avtext/qzgjAL2WB-CQ7TxNWA1sDXaCWbQ/
+    excerpt: Magnus Westerlund is stepping down as co-chair for this group (but is continuing in his other
+      chair roles).
   - kind: shepherded
     documents:
     - draft-ietf-avtext-splicing-for-rtp

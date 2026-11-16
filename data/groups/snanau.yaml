@@ -12,9 +12,17 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1999-06-09'
-      not_before: '1993-05-07'
+      certainty: approximate
+      date: '1997-01-20'
     end:
       certainty: group-closed
       date: '1999-06-09'
+    notes:
+    - start dated by list message of 1997-01-20
+  evidence:
+  - kind: list message
+    date: '1997-01-20'
+    says: start
+    subject: New Chair
+    url: https://mailarchive.ietf.org/arch/msg/snanau/Cxo5ThCZI86WNsAo6QZjH463lqY/
+    excerpt: Bob Moore of IBM has agreed to be the new chair.

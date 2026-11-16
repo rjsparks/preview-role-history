@@ -47,22 +47,32 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-12-09'
-      not_before: '1991-01-01'
+      certainty: approximate
+      date: '2009-04-16'
     end:
       certainty: exact
       date: '2013-03-12'
+    notes:
+    - start dated by list message of 2009-04-16
+  evidence:
+  - kind: list message
+    date: '2009-04-16'
+    says: start
+    subject: '[dhcwg] New dhc WG co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/dhcwg/8NEDQsIo8111Lk6otbnm2f2Y7ZQ/
+    excerpt: I am pleased to announce that Ted Lemon has agreed to serve as dhc WG co-chair.
 - person: 106173
   name: Stig Venaas
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '2006-03-19'
+      certainty: approximate
+      date: '2004-12-26'
     end:
       certainty: evidence-only
       not_before: '2007-12-02'
+    notes:
+    - start dated by list message of 2004-12-26
   evidence:
   - kind: WG Review
     date: '2007-10-09'
@@ -72,6 +82,12 @@ chairs:
     date: '2007-10-23'
     subject: 'WG Action: RECHARTER: Dynamic Host Configuration WG (dhc)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/G7zYG3myD_loV97JOTT3WcVrDnM/
+  - kind: list message
+    date: '2004-12-26'
+    says: start
+    subject: '[dhcwg] Co-chair for dhc WG'
+    url: https://mailarchive.ietf.org/arch/msg/dhcwg/-sLhuse2262UljDomD3tGiqey8U/
+    excerpt: Stig Venaas has agreed to take on the role of co-chair of the dhc WG.
   - kind: session requests
     meetings:
     - '65'
@@ -86,11 +102,12 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2013-03-12'
+      certainty: approximate
+      date: '2013-02-14'
     end:
       certainty: ongoing
+    notes:
+    - start dated by list message of 2013-02-14
   evidence:
   - kind: WG Review
     date: '2013-08-30'
@@ -112,6 +129,13 @@ chairs:
     date: '2018-03-09'
     subject: 'WG Action: Rechartered Dynamic Host Configuration (dhc)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/LW0RQARG1iztzNoXk_W7ZKhazaY/
+  - kind: list message
+    date: '2013-02-14'
+    says: start
+    subject: '[dhcwg] Management changes'
+    url: https://mailarchive.ietf.org/arch/msg/dhcwg/4Oauk6uwae7D598PlCJTd1tFPTc/
+    excerpt: I'm very pleased to announce that Bernie Volz has agreed to become dhc WG co-chair, serving
+      with John Brzozowski who will be continuing as co-chair.
   - kind: shepherded
     documents:
     - draft-ietf-dhc-addr-registration
@@ -138,15 +162,22 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2008-11-16'
-      not_before: '1991-01-01'
+      certainty: approximate
+      date: '2008-01-22'
     end:
       certainty: exact
       date: '2013-03-12'
     notes:
     - start moved earlier by session request for IETF 73
+    - start dated by list message of 2008-01-22
   evidence:
+  - kind: list message
+    date: '2008-01-22'
+    says: start
+    subject: '[dhcwg] new DHC WG co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/dhcwg/1Ugyq7oo5f0yCowHbmrCflmq098/
+    excerpt: I am pleased to announce that John Brzozowski has agreed to take on a co-chair position in
+      the DHC WG.
   - kind: session requests
     meetings:
     - '73'

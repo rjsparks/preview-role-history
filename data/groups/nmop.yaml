@@ -37,6 +37,12 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: list message
+    date: '2025-02-13'
+    says: start
+    subject: '[NMOP] Appointment of a new chair for NMOP'
+    url: https://mailarchive.ietf.org/arch/msg/nmop/jX1mgbKtuNkYKVXF05uOTMiQBEs/
+    excerpt: The new chair of the NMOP WG will be Reshad Rahman.
   - kind: shepherded
     documents:
     - draft-ietf-nmop-message-broker-telemetry-message

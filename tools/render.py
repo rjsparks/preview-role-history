@@ -136,6 +136,13 @@ class Site:
                 if ev.get("url"):
                     subject = f'<a href="{e(ev["url"])}">{subject}</a>'
                 items.append(f"<li>{e(kind)} announcement, {e(ev.get('date'))}: {subject}</li>")
+            elif kind == "list message":
+                subject = f"“{e(ev.get('subject'))}”"
+                if ev.get("url"):
+                    subject = f'<a href="{e(ev["url"])}">{subject}</a>'
+                said = "joining" if ev.get("says") == "start" else "leaving"
+                quote = f"<br><q>{e(ev.get('excerpt'))}</q>" if ev.get("excerpt") else ""
+                items.append(f"<li>Group list message about {said}, {e(ev.get('date'))}: {subject}{quote}</li>")
             elif kind == "session requests":
                 template = ev.get("url_template", "")
                 links = ", ".join(

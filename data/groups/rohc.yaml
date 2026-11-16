@@ -50,9 +50,17 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-03-16'
-      not_before: '2000-02-21'
+      certainty: approximate
+      date: '2007-09-28'
     end:
       certainty: group-closed
       date: '2010-03-16'
+    notes:
+    - start dated by list message of 2007-09-28
+  evidence:
+  - kind: list message
+    date: '2007-09-28'
+    says: start
+    subject: '[rohc] New WG chair for ROHC'
+    url: https://mailarchive.ietf.org/arch/msg/rohc/94TFQL5FZwAKzx_q6HGqoESZpNk/
+    excerpt: This is to announce that the ROHC WG now has a new chair in Carl Knutsson.

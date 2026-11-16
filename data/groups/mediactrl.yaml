@@ -48,12 +48,20 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '2007-07-22'
+      certainty: approximate
+      date: '2007-05-02'
     end:
       certainty: evidence-only
       not_before: '2010-03-21'
+    notes:
+    - start dated by list message of 2007-05-02
   evidence:
+  - kind: list message
+    date: '2007-05-02'
+    says: start
+    subject: '[MEDIACTRL] welcome spencer dawkins as co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/mediactrl/lReDzPycR2Vpibld64hqbyCi8sY/
+    excerpt: Everyone please welcome Spencer Dawkins as co-chair of mediactrl WG.
   - kind: session requests
     meetings:
     - '69'

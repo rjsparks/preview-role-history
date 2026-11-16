@@ -44,12 +44,21 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2017-03-30'
+      certainty: approximate
+      date: '2013-01-29'
     end:
       certainty: exact
       date: '2017-03-30'
+    notes:
+    - start dated by list message of 2013-01-29
+  evidence:
+  - kind: list message
+    date: '2013-01-29'
+    says: start
+    subject: '[OPS-AREA] Congratulations, Joel!'
+    url: https://mailarchive.ietf.org/arch/msg/ops-area/-8xafELd33aM2Nshbzt2Wz6boC0/
+    excerpt: Please join me in congratulating Joel Jaeggli, on his appointment as co-chair of the IETF
+      Operations and Management Area!
 - person: 101568
   name: Ron Bonica
   status: confirmed

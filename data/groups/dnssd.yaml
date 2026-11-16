@@ -27,6 +27,12 @@ chairs:
     date: '2013-10-25'
     subject: 'WG Action: Formed Extensions for Scalable DNS Service Discovery (dnssd)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/_mDRuycmM6BNtuVzcyWjIFKe7Y8/
+  - kind: list message
+    date: '2017-08-01'
+    says: end
+    subject: '[dnssd] IETF 99 DNSSD WG Minutes'
+    url: https://mailarchive.ietf.org/arch/msg/dnssd/5lqoLjQ7PgkWJTdq1nS648WhIww/
+    excerpt: Ralph Droms is stepping down as co-chair.
 - person: 106461
   name: Tim Chown
   status: confirmed
@@ -47,6 +53,13 @@ chairs:
     date: '2013-10-25'
     subject: 'WG Action: Formed Extensions for Scalable DNS Service Discovery (dnssd)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/_mDRuycmM6BNtuVzcyWjIFKe7Y8/
+  - kind: list message
+    date: '2018-07-09'
+    says: end
+    subject: '[dnssd] DNSSD Co-Chair movements'
+    url: https://mailarchive.ietf.org/arch/msg/dnssd/7jbtJC4pftNEJh9xjUhUIn855Hg/
+    excerpt: Recently Tim Chown, your long standing DNSSD chair, signalled his intention to step down
+      from the DNSSD co-chair position.
   - kind: shepherded
     documents:
     - draft-ietf-dnssd-hybrid
@@ -72,6 +85,13 @@ chairs:
       certainty: exact
       date: '2024-12-17'
   evidence:
+  - kind: list message
+    date: '2021-12-14'
+    says: end
+    subject: '[dnssd] Barbara is officially stepping down as homenet and dnssd chair'
+    url: https://mailarchive.ietf.org/arch/msg/dnssd/KXLYDCQjP-GSyJhcWMa63F_z3Yo/
+    excerpt: Barbara Stark just contacted me and the DNSSD chairs (David Schinazi and Chris Box) with
+      the message that she is ready to step down from her duties as the DNSSD co-chair.
   - kind: shepherded
     documents:
     - draft-ietf-dnssd-prireq
@@ -112,6 +132,12 @@ chairs:
     date: '2026-10-08'
     subject: 'WG Action: Rechartered Extensions for Scalable DNS Service Discovery (dnssd)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/PhtaimjCYzG6eRzmBOAkC916UC8/
+  - kind: list message
+    date: '2021-08-10'
+    says: start
+    subject: '[dnssd] Please welcome Chris Box as the new DNSSD WG co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/dnssd/QliSWb7fLbkV7DxICMUUuWA36Is/
+    excerpt: Please welcome Chris Box as the 3rd co-chair for the DNSSD WG as of today.
   - kind: shepherded
     documents:
     - draft-ietf-dnssd-update-lease

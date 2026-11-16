@@ -12,15 +12,22 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-07-24'
-      not_before: '2010-09-23'
+      certainty: approximate
+      date: '2011-04-22'
     end:
       certainty: exact
       date: '2012-07-30'
     notes:
     - start moved earlier by session request for IETF 81
+    - start dated by list message of 2011-04-22
   evidence:
+  - kind: list message
+    date: '2011-04-22'
+    says: start
+    subject: '[websec] new co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/websec/GbNv1FMIinS2k9Fso9CO9FdNZbU/
+    excerpt: Folks, I have named Alexey Melnikov as co-chair of the WEBSEC WG, along with existing chair
+      Tobias Gondrom.
   - kind: session requests
     meetings:
     - '81'
@@ -44,6 +51,13 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 80
   evidence:
+  - kind: list message
+    date: '2011-04-22'
+    says: start
+    subject: '[websec] new co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/websec/GbNv1FMIinS2k9Fso9CO9FdNZbU/
+    excerpt: Folks, I have named Alexey Melnikov as co-chair of the WEBSEC WG, along with existing chair
+      Tobias Gondrom.
   - kind: session requests
     meetings:
     - '80'

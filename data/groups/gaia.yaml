@@ -51,6 +51,14 @@ chairs:
     end:
       certainty: exact
       date: '2022-08-01'
+  evidence:
+  - kind: list message
+    date: '2018-02-15'
+    says: start
+    subject: '[gaia] Thanks'
+    url: https://mailarchive.ietf.org/arch/msg/gaia/qZW-zwfRdyICEso9zG3i1xxnMWI/
+    excerpt: Our GAIA group is now over 470 members and I am also delighted to say Prof Leandro Navarro
+      will be replacing me as the new Chair along with Jane Coffin.
 - person: 123022
   name: Jane Coffin
   status: confirmed
@@ -69,6 +77,14 @@ chairs:
       date: '2022-07-20'
     end:
       certainty: ongoing
+  evidence:
+  - kind: list message
+    date: '2022-07-20'
+    says: start
+    subject: '[gaia] New co-chair for GAIA'
+    url: https://mailarchive.ietf.org/arch/msg/gaia/1_QPGxfJf0Z8CDZ3N-m-NdwKjRI/
+    excerpt: I’m pleased to welcome [Kurtis Heimerl](https://kurti.sh), who joins Jane Coffin and Leandro
+      Navarro as co-chair of the GAIA research group.
 - person: 143752
   name: Adisorn Lertsinsrubtavee
   status: confirmed

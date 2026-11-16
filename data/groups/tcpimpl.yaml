@@ -23,9 +23,17 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2000-10-04'
-      not_before: '1997-01-31'
+      certainty: approximate
+      date: '1998-03-10'
     end:
       certainty: group-closed
       date: '2000-10-04'
+    notes:
+    - start dated by list message of 1998-03-10
+  evidence:
+  - kind: list message
+    date: '1998-03-10'
+    says: start
+    subject: New co-chair, Mark Allman
+    url: https://mailarchive.ietf.org/arch/msg/tcpimpl/10D6bmSKks4mu03zV6Cbnd-z0RI/
+    excerpt: Welcome to Mark Allman as the new co-chair!

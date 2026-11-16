@@ -49,6 +49,12 @@ chairs:
       certainty: group-closed
       date: '2020-03-25'
   evidence:
+  - kind: list message
+    date: '2018-05-30'
+    says: start
+    subject: '[video-codec] NETVC musical chairs'
+    url: https://mailarchive.ietf.org/arch/msg/video-codec/EMEer5P8HrPbJjIdK0AI25Hb6kY/
+    excerpt: Please welcome Matt Miller as a new co-chair of the NETVC WG, replacing Natasha Rooney.
   - kind: shepherded
     documents:
     - draft-ietf-netvc-testing
@@ -80,3 +86,10 @@ chairs:
     end:
       certainty: exact
       date: '2018-05-29'
+  evidence:
+  - kind: list message
+    date: '2018-05-30'
+    says: end
+    subject: '[video-codec] NETVC musical chairs'
+    url: https://mailarchive.ietf.org/arch/msg/video-codec/EMEer5P8HrPbJjIdK0AI25Hb6kY/
+    excerpt: Please welcome Matt Miller as a new co-chair of the NETVC WG, replacing Natasha Rooney.

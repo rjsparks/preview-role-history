@@ -145,6 +145,12 @@ chairs:
       certainty: group-closed
       date: '2024-01-24'
   evidence:
+  - kind: list message
+    date: '2021-12-06'
+    says: start
+    subject: '[alto] New chair!'
+    url: https://mailarchive.ietf.org/arch/msg/alto/817zS6BqZaerVmf7YLRasuF6wqA/
+    excerpt: I'd like to welcome Mohamed Boucadair, of Orange, as the new ALTO chair.
   - kind: shepherded
     documents:
     - draft-ietf-alto-new-transport

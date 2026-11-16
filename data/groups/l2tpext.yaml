@@ -27,13 +27,21 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-12-09'
-      not_before: '1999-10-04'
+      certainty: approximate
+      date: '2005-03-20'
     end:
       certainty: group-closed
       date: '2018-05-17'
+    notes:
+    - start dated by list message of 2005-03-20
   evidence:
+  - kind: list message
+    date: '2005-03-20'
+    says: start
+    subject: '[L2tpext] Welcome new L2TPEXT Co-chairs'
+    url: https://mailarchive.ietf.org/arch/msg/l2tpext/lS5MWYdoCxTHEUvwMxAf4U1ld7s/
+    excerpt: I am very happy to announce that Ignacio Goyret and Ron Da Silva have agreed to share the
+      L2TPEXT chair seat going forward.
   - kind: shepherded
     documents:
     - draft-ietf-l2tpext-sbfd-discriminator

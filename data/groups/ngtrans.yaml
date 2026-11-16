@@ -23,12 +23,21 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2003-02-04'
-      not_before: '1994-11-28'
+      certainty: approximate
+      date: '1999-05-24'
     end:
       certainty: group-closed
       date: '2003-02-04'
+    notes:
+    - start dated by list message of 1999-05-24
+  evidence:
+  - kind: list message
+    date: '1999-05-24'
+    says: start
+    subject: (ngtrans) planning for Oslo IETF
+    url: https://mailarchive.ietf.org/arch/msg/ngtrans/JltrtnKZmS47vUYasDFTtyScY8w/
+    excerpt: Alain Durand, our new co-chair of ngtrans, has taken on the job of scheduling and planning
+      the Oslo meeting.
 - person: 119947
   name: Margaret Cullen
   status: confirmed

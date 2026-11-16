@@ -15,13 +15,27 @@ chairs:
       certainty: evidence-only
       not_after: '2005-12-08'
     end:
-      certainty: evidence-only
-      not_before: '2005-12-08'
+      certainty: approximate
+      date: '2011-02-04'
+    notes:
+    - end dated by list message of 2011-02-04
   evidence:
   - kind: WG Action
     date: '2005-12-08'
     subject: 'WG Action: Softwires (softwire)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/cShvNdRzWll_uZ_4OKtJxRvffwQ/
+  - kind: list message
+    date: '2011-02-04'
+    says: end
+    subject: '[Softwires] softwire chairs'
+    url: https://mailarchive.ietf.org/arch/msg/softwires/aONgVG5jJSYuIaRXViGQLVY_vzw/
+    excerpt: David Ward has let Jari and me know that he will be stepping down as softwire WG co-chair.
+  - kind: list message
+    date: '2011-03-04'
+    says: end
+    subject: '[Softwires] New co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/softwires/xKY_nJ4sTSzWqCoubtsrcEFx90Y/
+    excerpt: David Ward has stepped down as co-chair of the softwire WG.
 - person: 105328
   name: Alain Durand
   status: confirmed

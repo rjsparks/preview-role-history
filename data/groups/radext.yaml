@@ -52,8 +52,10 @@ chairs:
       certainty: evidence-only
       not_after: '2004-07-14'
     end:
-      certainty: evidence-only
-      not_before: '2010-03-21'
+      certainty: approximate
+      date: '2011-05-17'
+    notes:
+    - end dated by list message of 2011-05-17
   evidence:
   - kind: WG Action
     date: '2004-07-14'
@@ -67,6 +69,12 @@ chairs:
     date: '2008-07-09'
     subject: 'WG Action: RECHARTER: RADIUS Extensions Working Group (radext)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/on33zLVyQCr0Bq1ItbSfPI6Jg58/
+  - kind: list message
+    date: '2011-05-17'
+    says: end
+    subject: New RADEXT WG co-chair
+    url: https://mailarchive.ietf.org/arch/msg/radext/d1enD9mNEPX1fx_oYxgj5Y27rMw/
+    excerpt: Please Jouni Korhonen as the new co-chair of the RADEXT WG, replacing Bernard Aboba.
   - kind: session requests
     meetings:
     - '77'
@@ -147,17 +155,24 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-12-09'
-      not_before: '2004-05-12'
+      certainty: approximate
+      date: '2011-05-17'
     end:
       certainty: exact
       date: '2015-01-05'
+    notes:
+    - start dated by list message of 2011-05-17
   evidence:
   - kind: WG Action
     date: '2012-12-04'
     subject: 'WG Action: Rechartered RADIUS EXTensions (radext)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/zA3JkCLpZwWNDE09egISxjYYaxo/
+  - kind: list message
+    date: '2011-05-17'
+    says: start
+    subject: New RADEXT WG co-chair
+    url: https://mailarchive.ietf.org/arch/msg/radext/d1enD9mNEPX1fx_oYxgj5Y27rMw/
+    excerpt: Please Jouni Korhonen as the new co-chair of the RADEXT WG, replacing Bernard Aboba.
   - kind: shepherded
     documents:
     - draft-ietf-radext-dtls
@@ -171,19 +186,26 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-11-07'
-      not_before: '2004-05-12'
+      certainty: approximate
+      date: '2010-06-10'
     end:
       certainty: exact
       date: '2014-03-11'
     notes:
     - start moved earlier by session request for IETF 79
+    - start dated by list message of 2010-06-10
   evidence:
   - kind: WG Action
     date: '2012-12-04'
     subject: 'WG Action: Rechartered RADIUS EXTensions (radext)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/zA3JkCLpZwWNDE09egISxjYYaxo/
+  - kind: list message
+    date: '2010-06-10'
+    says: start
+    subject: New WG co-chair
+    url: https://mailarchive.ietf.org/arch/msg/radext/y23WdaHpVwMy9mOx5GA2LAueoLg/
+    excerpt: Please welcome Mauricio Sanchez as the new co-chair of the RADEXT WG, working together with
+      Bernard Aboba.
   - kind: session requests
     meetings:
     - '79'

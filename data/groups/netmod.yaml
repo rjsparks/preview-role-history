@@ -22,6 +22,19 @@ chairs:
     date: '2010-10-14'
     subject: 'WG Review: Recharter of NETCONF Data Modeling Language (netmod)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/6vrwdftZ_1FbNqoAAYsQu5JpByc/
+  - kind: list message
+    date: '2010-10-12'
+    says: end
+    subject: '[netmod] Time for a new NETMOD co-chair - Call for Nominations'
+    url: https://mailarchive.ietf.org/arch/msg/netmod/JQaIG3Brndup6CoU0k0qfYdznUA/
+    excerpt: David Partain let me know that he decided to step down from his position of co-chair of the
+      NETMOD WG because of changes in his day job priorities.
+  - kind: list message
+    date: '2010-10-26'
+    says: end
+    subject: '[netmod] New WG co-chair for NETMOD'
+    url: https://mailarchive.ietf.org/arch/msg/netmod/aEB0REmHzaSyA65ipc-vQV50Dw8/
+    excerpt: As you know David Partain is stepping down from the position of co-chair of the NETMOD.
   - kind: session requests
     meetings:
     - '72'
@@ -64,15 +77,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-10-26'
-      not_before: '2008-04-03'
+      certainty: approximate
+      date: '2008-12-19'
     end:
       certainty: between
       not_before: '2011-12-09'
       not_after: '2014-01-13'
     notes:
     - start moved earlier by WG Action announcement of 2010-10-26
+    - start dated by list message of 2008-12-19
   - start:
       certainty: between
       not_before: '2011-12-09'
@@ -93,6 +106,19 @@ chairs:
     date: '2012-02-07'
     subject: 'WG Action: RECHARTER: NETCONF Data Modeling Language (netmod)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/tIPPLJQGW3aKlJu7pyNozvg3fY0/
+  - kind: list message
+    date: '2008-12-19'
+    says: start
+    subject: '[netmod] Preliminary IETF73 meeting minutes'
+    url: https://mailarchive.ietf.org/arch/msg/netmod/26VAWb96kYN9oOpeAdtvOt6YszI/
+    excerpt: David Kessens will be the new chair which keeps the dave and dave chairs consistent and first
+      names don't break.
+  - kind: list message
+    date: '2014-05-19'
+    says: end
+    subject: '[netmod] wg chair review of draft-ietf-netmod-routing-cfg-13'
+    url: https://mailarchive.ietf.org/arch/msg/netmod/BNbRfww9cwyTNnj6BS3aCWuObuA/
+    excerpt: d) In all three modules, replace David Kessens with Tom Nadeau as co-chair.
   - kind: session requests
     meetings:
     - '80'
@@ -183,6 +209,12 @@ chairs:
     date: '2015-10-23'
     subject: 'WG Action: Rechartered NETCONF Data Modeling Language (netmod)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/UWAObpCtjC-XH6yMwqeL1x6jVRI/
+  - kind: list message
+    date: '2014-01-13'
+    says: start
+    subject: '[netmod] Tom Nadeau as a new NETMOD co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/netmod/s_levS-Bt5p8ML0l1Blq5b4lBkQ/
+    excerpt: Tom Nadeau accepted the position of NETMOD co-chair.
   - kind: shepherded
     documents:
     - draft-ietf-netmod-interfaces-cfg
@@ -206,6 +238,12 @@ chairs:
     date: '2017-04-26'
     subject: 'WG Action: Rechartered NETCONF Data Modeling Language (netmod)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/at35WWZ5fZjfB9iaP0paEjhyN5A/
+  - kind: list message
+    date: '2015-05-13'
+    says: start
+    subject: '[netmod] Next NETMOD chair'
+    url: https://mailarchive.ietf.org/arch/msg/netmod/zPFwxiw_KXJ3eM-RWbhxooiFUMI/
+    excerpt: Please welcome Kent Watsen, who has accepted to serve as NETMOD co-chair.
   - kind: shepherded
     documents:
     - draft-ietf-netmod-acl-model

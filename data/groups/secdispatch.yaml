@@ -67,6 +67,14 @@ chairs:
     end:
       certainty: group-closed
       date: '2026-08-28'
+  evidence:
+  - kind: list message
+    date: '2023-10-26'
+    says: start
+    subject: '[Secdispatch] New SecDispatch WG chair'
+    url: https://mailarchive.ietf.org/arch/msg/secdispatch/Ld33XSr8kRO7YKl0YwEjaxrBuys/
+    excerpt: It is my pleasure to announce that Daniel Kahn Gillmor (dkg) will be teaming with Rifaat
+      as the new co-chair for SecDispatch filling the vacancy left by Kathleen.
 - person: 113142
   name: Mohit Sethi
   status: confirmed
@@ -77,6 +85,13 @@ chairs:
     end:
       certainty: exact
       date: '2022-10-27'
+  evidence:
+  - kind: list message
+    date: '2021-03-04'
+    says: start
+    subject: '[Secdispatch] Leadership changes for the WG'
+    url: https://mailarchive.ietf.org/arch/msg/secdispatch/62oNNVCo7cp6ABOn0u5FVWaVUOM/
+    excerpt: In turn, please join me in welcoming Mohit Sethi as the new co-chair of SecDispatch.
 - person: 115214
   name: Benjamin Kaduk
   status: confirmed
@@ -97,3 +112,11 @@ chairs:
     end:
       certainty: exact
       date: '2021-03-11'
+  evidence:
+  - kind: list message
+    date: '2021-03-04'
+    says: start
+    subject: '[Secdispatch] Leadership changes for the WG'
+    url: https://mailarchive.ietf.org/arch/msg/secdispatch/62oNNVCo7cp6ABOn0u5FVWaVUOM/
+    excerpt: Please join me in thanking Francesca Palombini for her leadership as co-chair of SecDispatch
+      as she departs to officially joins the IESG next week.

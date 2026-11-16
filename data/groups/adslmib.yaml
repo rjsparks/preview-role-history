@@ -15,8 +15,10 @@ chairs:
       certainty: evidence-only
       not_after: '2003-09-03'
     end:
-      certainty: evidence-only
-      not_before: '2006-10-05'
+      certainty: approximate
+      date: '2009-08-27'
+    notes:
+    - end dated by list message of 2009-08-27
   evidence:
   - kind: WG Action
     date: '2003-09-03'
@@ -42,6 +44,13 @@ chairs:
     date: '2006-10-05'
     subject: 'WG Action: RECHARTER: ADSL MIB (adslmib)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ANPFP3oxsP9jA87nHo7Ru3cvSaI/
+  - kind: list message
+    date: '2009-08-27'
+    says: end
+    subject: '[Adslmib] WG chair change'
+    url: https://mailarchive.ietf.org/arch/msg/adslmib/zJuO2HrgpUjPL1GXyBeCYksGTZg/
+    excerpt: Unfortunately, Michael Sneed has informed the ADs and myself of his decision to step down
+      from co-chairing the WG.
 - person: 104395
   name: Bob Ray
   status: unconfirmed

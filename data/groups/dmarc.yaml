@@ -112,6 +112,14 @@ chairs:
       certainty: exact
       date: '2020-03-26'
   evidence:
+  - kind: list message
+    date: '2019-02-15'
+    says: start
+    subject: '[dmarc-ietf] New chairs for DMARC'
+    url: https://mailarchive.ietf.org/arch/msg/dmarc/XXPhc_KzO5lIYjeeHU3B7OpP_n4/
+    excerpt: Dear WG participants, After talking to various candidates and discussing them with my ART
+      co-ADs, I am pleased to announce that Murray Kucherawy and Tim Wicinski agreed to co-chair the DMARC
+      going forward.
   - kind: shepherded
     documents:
     - draft-ietf-dmarc-failure-reporting

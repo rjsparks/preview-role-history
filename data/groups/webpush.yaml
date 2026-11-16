@@ -42,6 +42,13 @@ chairs:
       certainty: group-closed
       date: '2017-12-07'
   evidence:
+  - kind: list message
+    date: '2017-04-06'
+    says: start
+    subject: '[Webpush] New Webpush Chair'
+    url: https://mailarchive.ietf.org/arch/msg/webpush/eFyiuL-mtGvtci-gMt8lRCE3-Xw/
+    excerpt: In order to facilitate moving the final Webpush items to completion, Phillip Sorber has agreed
+      to come on as co-chair of Webpush.
   - kind: shepherded
     documents:
     - draft-ietf-webpush-encryption

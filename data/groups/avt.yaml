@@ -34,16 +34,25 @@ chairs:
     date: '2007-10-23'
     subject: 'WG Action: RECHARTER: Audio/Video Transport WG (avt)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/3JKdJNK473NQB-Sq2iN7UvTGD0I/
+  - kind: list message
+    date: '2006-04-16'
+    says: end
+    subject: '[AVT] Draft minutes from Dallas'
+    url: https://mailarchive.ietf.org/arch/msg/avt/lIja-2UUgLcTOl4QqbOzIw7t8VU/
+    excerpt: Colin Perkins announced that Magnus Westerlund will step down as AVT co-chair within a few
+      weeks and thanked him for his contributions.
 - person: 100754
   name: Tom Taylor
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '2006-08-22'
+      certainty: approximate
+      date: '2006-07-04'
     end:
       certainty: evidence-only
       not_before: '2010-02-09'
+    notes:
+    - start dated by list message of 2006-07-04
   evidence:
   - kind: WG Action
     date: '2006-08-22'
@@ -61,6 +70,13 @@ chairs:
     date: '2010-02-09'
     subject: 'WG Action: RECHARTER: Audio/Video Transport (avt)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/avYDUSMF_a-LgcT_BD5RB2izFa0/
+  - kind: list message
+    date: '2006-07-04'
+    says: start
+    subject: '[AVT] New AVT Chairs'
+    url: https://mailarchive.ietf.org/arch/msg/avt/LS_wZSgN8zRdlrIS1zkEftYTJAQ/
+    excerpt: I am very please to announce that Tom Taylor and Roni Even are going to join Colin as co-chair
+      of AVT.
   - kind: session requests
     meetings:
     - '67'
@@ -84,6 +100,13 @@ chairs:
     date: '2005-06-29'
     subject: 'WG Action: RECHARTER: Audio/Video Transport (avt)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/fqon6F1Bt7yeTswu0bBPOJgZ-6k/
+  - kind: list message
+    date: '2006-04-16'
+    says: end
+    subject: '[AVT] Draft minutes from Dallas'
+    url: https://mailarchive.ietf.org/arch/msg/avt/lIja-2UUgLcTOl4QqbOzIw7t8VU/
+    excerpt: Colin Perkins announced that Magnus Westerlund will step down as AVT co-chair within a few
+      weeks and thanked him for his contributions.
   - kind: session requests
     meetings:
     - '65'

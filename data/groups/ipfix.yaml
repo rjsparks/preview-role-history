@@ -106,8 +106,10 @@ chairs:
       certainty: evidence-only
       not_after: '2001-09-28'
     end:
-      certainty: evidence-only
-      not_before: '2006-06-28'
+      certainty: approximate
+      date: '2006-07-13'
+    notes:
+    - end dated by list message of 2006-07-13
   evidence:
   - kind: WG Action
     date: '2001-09-28'
@@ -117,3 +119,10 @@ chairs:
     date: '2006-06-28'
     subject: 'WG Action: RECHARTER: IP Flow Information Export (ipfix)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/MlrBVuFRo6gAdirC-VQhzcTLhg8/
+  - kind: list message
+    date: '2006-07-13'
+    says: end
+    subject: '[ipfix] MIME-Version: 1.0'
+    url: https://mailarchive.ietf.org/arch/msg/ipfix/OiD14NNnEKd8LnucJAjV1RPDYvM/
+    excerpt: Juergen opened the meeting by thanking Dave Plonka for the five years work he has done as
+      co-chair of IPFIX.

@@ -12,15 +12,22 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2008-07-27'
-      not_before: '1995-10-19'
+      certainty: approximate
+      date: '2006-03-29'
     end:
       certainty: group-closed
       date: '2013-10-31'
     notes:
     - start moved earlier by session request for IETF 72
+    - start dated by list message of 2006-03-29
   evidence:
+  - kind: list message
+    date: '2006-03-29'
+    says: start
+    subject: New PKIX Co-chair
+    url: https://mailarchive.ietf.org/arch/msg/pkix/ogQb3EvHH8--Fry8nudnr2x8ETs/
+    excerpt: Sam Hartman and I are pleased to announce that Stefan Santesson has agreed to replace Tim
+      as PKIX co-chair.
   - kind: session requests
     meetings:
     - '72'

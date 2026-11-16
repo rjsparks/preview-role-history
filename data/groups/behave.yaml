@@ -105,13 +105,22 @@ chairs:
       certainty: evidence-only
       not_after: '2006-03-07'
     end:
-      certainty: evidence-only
-      not_before: '2006-03-07'
+      certainty: approximate
+      date: '2006-04-19'
+    notes:
+    - end dated by list message of 2006-04-19
   evidence:
   - kind: WG Action
     date: '2006-03-07'
     subject: 'WG Action: RECHARTER: Behavior Engineering for Hindrance Avoidance (behave)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/bZoMdhqRzj2m2InoR3CluinXoww/
+  - kind: list message
+    date: '2006-04-19'
+    says: end
+    subject: '[Ietf-behave] Minutes from Dallas'
+    url: https://mailarchive.ietf.org/arch/msg/behave/WFTwlSCvlTtqH-Zg5ieElhJRO5c/
+    excerpt: It was announced that Jiri Kuthan was stepping down as chair, and Dan Wing is the new co-chair
+      (with Cullen Jennings).
 - person: 105791
   name: Cullen Jennings
   status: unconfirmed

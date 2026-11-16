@@ -33,17 +33,25 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-10-05'
-      not_before: '2005-05-30'
+      certainty: approximate
+      date: '2007-04-16'
     end:
       certainty: group-closed
       date: '2010-10-05'
+    notes:
+    - start dated by list message of 2007-04-16
   evidence:
   - kind: WG Review
     date: '2008-07-08'
     subject: 'WG Review: Recharter of Network-based Localized Mobility Management (netlmm)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/B7GAysrotb-6vyU7CEirt_3UTM8/
+  - kind: list message
+    date: '2007-04-16'
+    says: start
+    subject: '[netlmm] new co-chair for NETLMM WG'
+    url: https://mailarchive.ietf.org/arch/msg/netlmm/iw4PfRDL2air_Wel4fchSSkoiP8/
+    excerpt: I am pleased to announce that Jonne Soininen has been selected as a new co-chair for the
+      working group.
 - person: 106286
   name: James Kempf
   status: unconfirmed

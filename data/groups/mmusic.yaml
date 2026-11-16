@@ -12,16 +12,24 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '2004-07-29'
+      certainty: approximate
+      date: '1997-07-14'
     end:
       certainty: evidence-only
       not_before: '2009-11-08'
+    notes:
+    - start dated by list message of 1997-07-14
   evidence:
   - kind: WG Action
     date: '2004-07-29'
     subject: 'WG Action: RECHARTER: Multiparty Multimedia Session Control (mmusic)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/IGH9BFkrVT11MQNnEIGnemoqKZA/
+  - kind: list message
+    date: '1997-07-14'
+    says: start
+    subject: Revised MMUSIC Charter
+    url: https://mailarchive.ietf.org/arch/msg/mmusic/yHxMy0RhlSJWm8ANf1YtjwaBLD0/
+    excerpt: 1) Joerg Ott (Universitaet Bremen, has joined us as a co-chair of the MMUSIC working group.
   - kind: session requests
     meetings:
     - '65'
@@ -38,16 +46,25 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '2004-07-29'
+      certainty: approximate
+      date: '2000-08-31'
     end:
       certainty: evidence-only
       not_before: '2006-07-09'
+    notes:
+    - start dated by list message of 2000-08-31
   evidence:
   - kind: WG Action
     date: '2004-07-29'
     subject: 'WG Action: RECHARTER: Multiparty Multimedia Session Control (mmusic)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/IGH9BFkrVT11MQNnEIGnemoqKZA/
+  - kind: list message
+    date: '2000-08-31'
+    says: start
+    subject: Draft meeting minutes
+    url: https://mailarchive.ietf.org/arch/msg/mmusic/YZEl0xq5kA3DCePkpXZ-1pNJm5U/
+    excerpt: 'New WG co-chair: Colin Perkins (ISI) New mailing list almost ready Announcements of these
+      changes await the charter page update.'
   - kind: session requests
     meetings:
     - '66'
@@ -81,12 +98,21 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '2007-03-18'
+      certainty: approximate
+      date: '2006-07-04'
     end:
       certainty: evidence-only
       not_before: '2010-07-25'
+    notes:
+    - start dated by list message of 2006-07-04
   evidence:
+  - kind: list message
+    date: '2006-07-04'
+    says: start
+    subject: '[MMUSIC] New MMUSIC Co-Chair'
+    url: https://mailarchive.ietf.org/arch/msg/mmusic/TbmcHnjiCVSpQXsvr9JUSPOoBLo/
+    excerpt: I'm pleased to announce that Jean-Francois Mule will be joining Joerg and Colin as a co-chair
+      of MMUSIC.
   - kind: session requests
     meetings:
     - '68'
@@ -99,19 +125,25 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-03-27'
-      not_before: '1993-04-23'
+      certainty: approximate
+      date: '2010-09-01'
     end:
       certainty: group-closed
       date: '2024-08-14'
     notes:
     - start moved earlier by session request for IETF 80
+    - start dated by list message of 2010-09-01
   evidence:
   - kind: WG Action
     date: '2016-02-05'
     subject: 'WG Action: Rechartered Multiparty Multimedia Session Control (mmusic)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/pA6p7jfxd1C9SWfUTM0TOFhYNp0/
+  - kind: list message
+    date: '2010-09-01'
+    says: start
+    subject: '[MMUSIC] New MMUSIC co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/mmusic/LplwcsNy4TK_Gh8heu-_lPMtMbI/
+    excerpt: Flemming Andreasen has agreed to take on the MMUSIC co-chair role along with Tom Taylor.
   - kind: session requests
     meetings:
     - '80'
@@ -153,6 +185,12 @@ chairs:
     date: '2016-02-05'
     subject: 'WG Action: Rechartered Multiparty Multimedia Session Control (mmusic)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/pA6p7jfxd1C9SWfUTM0TOFhYNp0/
+  - kind: list message
+    date: '2015-10-20'
+    says: start
+    subject: '[MMUSIC] Stepping down as MMUSIC co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/mmusic/UZgrV2DJ8NK9d7CJALJohalREXo/
+    excerpt: Also, please join me welcoming Bo Burman as the new co-chair of MMUSIC!
   - kind: shepherded
     documents:
     - draft-ietf-mmusic-data-channel-sdpneg

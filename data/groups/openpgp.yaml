@@ -12,15 +12,21 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2006-07-09'
-      not_before: '1997-09-19'
+      certainty: approximate
+      date: '2003-04-30'
     end:
       certainty: approximate
       date: '2015-06-07'
     notes:
     - start moved earlier by session request for IETF 66
+    - start dated by list message of 2003-04-30
   evidence:
+  - kind: list message
+    date: '2003-04-30'
+    says: start
+    subject: new chair
+    url: https://mailarchive.ietf.org/arch/msg/openpgp/P1TtVGceGi3FpH2_3xht9b8Jbz4/
+    excerpt: I've asked Derek Atkins to take over as chair, to get the remaining work finished.
   - kind: session requests
     meetings:
     - '66'

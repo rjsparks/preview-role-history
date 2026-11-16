@@ -63,15 +63,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2009-06-23'
-      not_before: '2001-04-06'
+      certainty: approximate
+      date: '2008-11-21'
     end:
       certainty: between
       not_before: '2011-12-09'
       not_after: '2013-03-13'
     notes:
     - start moved earlier by WG Action announcement of 2009-06-23
+    - start dated by list message of 2008-11-21
   - start:
       certainty: between
       not_before: '2011-12-09'
@@ -88,6 +88,12 @@ chairs:
     date: '2009-06-23'
     subject: 'WG Action: RECHARTER: Geographic Location/Privacy (geopriv)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/-AfhbKhiM7mlES5vHQYVFVcIoJg/
+  - kind: list message
+    date: '2008-11-21'
+    says: start
+    subject: '[Geopriv] Draft GEOPRIV Minutes from IETF 73'
+    url: https://mailarchive.ietf.org/arch/msg/geopriv/Ern69H3ITGDE91utDzq3U49fGw4/
+    excerpt: 10m Administrivia/Status Richard Barnes welcomed as new co-chair.
   - kind: session requests
     meetings:
     - '75'
@@ -109,6 +115,12 @@ chairs:
       certainty: group-closed
       date: '2014-11-08'
   evidence:
+  - kind: list message
+    date: '2014-03-02'
+    says: start
+    subject: '[Geopriv] New GEOPRIV chair'
+    url: https://mailarchive.ietf.org/arch/msg/geopriv/ZDoTWGQE7M7vv81xVJqu3Sf5e64/
+    excerpt: I'm happy to announce that Ray Bellis has agreed to become the next chair of GEOPRIV.
   - kind: shepherded
     documents:
     - draft-ietf-geopriv-uncertainty
@@ -117,14 +129,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2009-06-23'
-      not_before: '2001-04-06'
+      certainty: approximate
+      date: '2009-03-23'
     end:
       certainty: exact
       date: '2014-03-01'
     notes:
     - start moved earlier by WG Action announcement of 2009-06-23
+    - start dated by list message of 2009-03-23
   evidence:
   - kind: WG Review
     date: '2009-06-08'
@@ -134,6 +146,18 @@ chairs:
     date: '2009-06-23'
     subject: 'WG Action: RECHARTER: Geographic Location/Privacy (geopriv)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/-AfhbKhiM7mlES5vHQYVFVcIoJg/
+  - kind: list message
+    date: '2009-03-23'
+    says: start
+    subject: '[Geopriv] New GEOPRIV co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/geopriv/tnFD41DjJ9qcLabh99ctxxIYlpQ/
+    excerpt: Please welcome Alissa Cooper as the latest GEOPRIV co-chair.
+  - kind: list message
+    date: '2009-04-01'
+    says: start
+    subject: '[Geopriv] Draft GEOPRIV Minutes from IETF 74'
+    url: https://mailarchive.ietf.org/arch/msg/geopriv/vjvdn-uKD96cBZu8yGHwD86Sgy4/
+    excerpt: Administrivia Alyssa Cooper introduced as new co-chair.
   - kind: session requests
     meetings:
     - '78'

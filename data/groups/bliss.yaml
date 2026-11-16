@@ -67,10 +67,18 @@ chairs:
       certainty: evidence-only
       not_after: '2007-06-26'
     end:
-      certainty: evidence-only
-      not_before: '2007-06-26'
+      certainty: approximate
+      date: '2009-10-14'
+    notes:
+    - end dated by list message of 2009-10-14
   evidence:
   - kind: WG Action
     date: '2007-06-26'
     subject: 'WG Action: Basic Level of Interoperability for SIP Services (bliss)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/T738ptoJNg-zfgK_IEeHBuY6SK0/
+  - kind: list message
+    date: '2009-10-14'
+    says: end
+    subject: '[BLISS] BLISS co-chair changes'
+    url: https://mailarchive.ietf.org/arch/msg/bliss/CMNLitP7GOFBreoWfeKorFyobQY/
+    excerpt: As mentioned earlier, Jason Fischl has stepped down as BLISS co-chair.

@@ -12,12 +12,20 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '2007-07-22'
+      certainty: approximate
+      date: '2007-02-13'
     end:
       certainty: evidence-only
       not_before: '2010-03-21'
+    notes:
+    - start dated by list message of 2007-02-13
   evidence:
+  - kind: list message
+    date: '2007-02-13'
+    says: start
+    subject: '[RRG] new chairs for the RRG'
+    url: https://mailarchive.ietf.org/arch/msg/rrg/FGqNqWlf-CnyuKoh3O5ZNeAj8Ws/
+    excerpt: Lixia Zhang and Tony Li will be the new chairs of the Routing Research Group.
   - kind: session requests
     meetings:
     - '69'

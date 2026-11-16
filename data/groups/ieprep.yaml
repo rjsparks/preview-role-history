@@ -43,9 +43,18 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2007-09-10'
-      not_before: '2002-01-18'
+      certainty: approximate
+      date: '2002-09-05'
     end:
       certainty: group-closed
       date: '2007-09-10'
+    notes:
+    - start dated by list message of 2002-09-05
+  evidence:
+  - kind: list message
+    date: '2002-09-05'
+    says: start
+    subject: '[Ieprep] new co chair for the ieprep working group'
+    url: https://mailarchive.ietf.org/arch/msg/ieprep/-HsbR97jkDh_Hvp7OwCrPPuX6Ao/
+    excerpt: this is to announce that Kimberly King has agreed to become the co-chair for the ieprep working
+      group

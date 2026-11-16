@@ -168,6 +168,9 @@ class RenderTests(DataDirMixin, unittest.TestCase):
         g["chairs"][0]["evidence"] = [{
             "kind": "WG Action", "date": "2001-03-12", "subject": "WG ACTION: A Big Charter (abc)",
             "url": "https://mailarchive.ietf.org/arch/msg/ietf-announce-old/example/",
+        }, {
+            "kind": "list message", "date": "2013-06-08", "says": "start", "subject": "[abc] New co-chair",
+            "url": "https://mailarchive.ietf.org/arch/msg/abc/example/", "excerpt": "Please welcome Ada <Chair>.",
         }]
         self.write_group(g)
         out = self.root / "site"
@@ -183,6 +186,8 @@ class RenderTests(DataDirMixin, unittest.TestCase):
         self.assertEqual(query["person"], ["1"])
         self.assertIn("2012-03-04 to present", query["recorded"][0])
         self.assertIn('<a href="https://mailarchive.ietf.org/arch/msg/ietf-announce-old/example/">', person)
+        self.assertIn("Group list message about joining, 2013-06-08", person)
+        self.assertIn("<q>Please welcome Ada &lt;Chair&gt;.</q>", person)
         self.assertIn("about 1995", (out / "people" / "n-old-timer.html").read_text())
 
 

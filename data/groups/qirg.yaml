@@ -23,6 +23,13 @@ chairs:
       date: '2018-11-06'
     end:
       certainty: ongoing
+  evidence:
+  - kind: list message
+    date: '2020-03-02'
+    says: start
+    subject: '[Qirg] Change of chairs for QIRG'
+    url: https://mailarchive.ietf.org/arch/msg/qirg/dXBZAA4gmLZRuzKIC65dktIZb-k/
+    excerpt: Wojciech Kozlowski will join Rod Van Meter in chairing the group.
 - person: 125147
   name: Stephanie Wehner
   status: confirmed
@@ -34,6 +41,14 @@ chairs:
     end:
       certainty: exact
       date: '2020-03-02'
+  evidence:
+  - kind: list message
+    date: '2020-03-02'
+    says: end
+    subject: '[Qirg] Change of chairs for QIRG'
+    url: https://mailarchive.ietf.org/arch/msg/qirg/dXBZAA4gmLZRuzKIC65dktIZb-k/
+    excerpt: I’m sorry to announce that Stephanie Wehner has asked to step down as co-chair of the research
+      group, citing increased commitments elsewhere.
 - person: 125485
   name: Wojciech Kozlowski
   status: confirmed
@@ -44,6 +59,12 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: list message
+    date: '2020-03-02'
+    says: start
+    subject: '[Qirg] Change of chairs for QIRG'
+    url: https://mailarchive.ietf.org/arch/msg/qirg/dXBZAA4gmLZRuzKIC65dktIZb-k/
+    excerpt: Wojciech Kozlowski will join Rod Van Meter in chairing the group.
   - kind: shepherded
     documents:
     - draft-irtf-qirg-quantum-internet-use-cases

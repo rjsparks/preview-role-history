@@ -12,14 +12,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-03-21'
-      not_before: '2009-04-27'
+      certainty: approximate
+      date: '2009-11-30'
     end:
       certainty: exact
       date: '2022-08-17'
     notes:
     - start moved earlier by session request for IETF 77
+    - start dated by list message of 2009-11-30
   evidence:
   - kind: WG Review
     date: '2012-01-19'
@@ -41,6 +41,12 @@ chairs:
     date: '2016-05-06'
     subject: 'WG Action: Rechartered Locator/ID Separation Protocol (lisp)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/f3-JGyFwyslER4esA6mxlLNi7I4/
+  - kind: list message
+    date: '2009-11-30'
+    says: start
+    subject: '[lisp] new working group chairs'
+    url: https://mailarchive.ietf.org/arch/msg/lisp/gmFraKi3PNz7sSU8XDyFy-Grr8M/
+    excerpt: Joel Halpern and Terry Manderson have agreed to chair the group.
   - kind: session requests
     meetings:
     - '77'

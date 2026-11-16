@@ -42,9 +42,17 @@ chairs:
       certainty: evidence-only
       not_after: '2008-07-27'
     end:
-      certainty: evidence-only
-      not_before: '2009-11-08'
+      certainty: approximate
+      date: '2009-11-10'
+    notes:
+    - end dated by list message of 2009-11-10
   evidence:
+  - kind: list message
+    date: '2009-11-10'
+    says: end
+    subject: '[Fecframe] Marshall Eubanks steps down as chair'
+    url: https://mailarchive.ietf.org/arch/msg/fecframe/2dZ0sPZnbvBOsqGKqU3lLJ3Uy58/
+    excerpt: Marshall Eubanks is stepping down as WG chair.
   - kind: session requests
     meetings:
     - '72'

@@ -56,6 +56,13 @@ chairs:
     date: '2020-04-22'
     subject: 'WG Action: Rechartered Transport Layer Security (tls)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/akBKsI8rapuXypZ_c4d7urUCYlI/
+  - kind: list message
+    date: '2014-03-11'
+    says: start
+    subject: '[TLS] TLS chairing changes'
+    url: https://mailarchive.ietf.org/arch/msg/tls/3QlLhYFaLS01bW_0Bc6m6H4Ke3s/
+    excerpt: Effective April 1st, Sean Turner will become a third TLS co-chair in order to free up Eric
+      who will be a TLS 1.3 document editor.
   - kind: shepherded
     documents:
     - draft-ietf-tls-certificate-compression
@@ -90,14 +97,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2008-07-27'
-      not_before: '1996-05-07'
+      certainty: approximate
+      date: '2008-05-07'
     end:
       certainty: exact
       date: '2014-07-22'
     notes:
     - start moved earlier by session request for IETF 72
+    - start dated by list message of 2008-05-07
   - start:
       certainty: exact
       date: '2014-07-22'
@@ -120,6 +127,13 @@ chairs:
     date: '2020-04-22'
     subject: 'WG Action: Rechartered Transport Layer Security (tls)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/akBKsI8rapuXypZ_c4d7urUCYlI/
+  - kind: list message
+    date: '2008-05-07'
+    says: start
+    subject: '[TLS] New co-chair for TLS'
+    url: https://mailarchive.ietf.org/arch/msg/tls/JRs-ar94uLtN89i3gN4rq6mcoy8/
+    excerpt: Tim and I are happy to announce that Joe Salowey has agreed to co-chair the Transport Layer
+      Security (TLS) working group.
   - kind: session requests
     meetings:
     - '72'
@@ -198,6 +212,12 @@ chairs:
     date: '2020-04-22'
     subject: 'WG Action: Rechartered Transport Layer Security (tls)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/akBKsI8rapuXypZ_c4d7urUCYlI/
+  - kind: list message
+    date: '2018-07-12'
+    says: start
+    subject: '[TLS] please welcome new co-chair Chris Wood'
+    url: https://mailarchive.ietf.org/arch/msg/tls/aR9MmWdSWsXqyvo9QrNMyAM3ry4/
+    excerpt: Please welcome Chris Wood as a third TLS co-chair, joining Sean and Joe at the helm.
   - kind: shepherded
     documents:
     - draft-ietf-tls-cross-sni-resumption
@@ -212,6 +232,14 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: list message
+    date: '2025-10-13'
+    says: start
+    subject: '[TLS] Complaint to ADs regarding a declaration of consensus to adopt a non-hybrid draft'
+    url: https://mailarchive.ietf.org/arch/msg/tls/pxFgT-VA6hgdd-cAoIkA_7xS99Y/
+    excerpt: 'This complaint is regarding the following specific action: Joseph Salowey and Sean Turner,
+      in their roles as chairs of an IETF "Working Group" (WG) named "Transport Layer Security" (TLS),
+      declared that the WG had consensus to adopt a draft named "draft-connolly-tls-mlkem-key-agreement".'
   - kind: shepherded
     documents:
     - draft-ietf-tls-rfc8447bis

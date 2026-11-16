@@ -63,11 +63,11 @@ chairs:
       date: '1999-04-28'
       not_before: '1999-04-02'
     end:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2013-09-06'
+      certainty: approximate
+      date: '2013-04-30'
     notes:
     - start moved earlier by WG Action announcement of 1999-04-28
+    - end dated by list message of 2013-04-30
   evidence:
   - kind: WG Action
     date: '1999-04-28'
@@ -77,6 +77,12 @@ chairs:
     date: '1999-04-30'
     subject: 'WG ACTION: Reliable Multicast Transport (rmt)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/Wjn5sF2vvdqp44j749OB4Bx92k0/
+  - kind: list message
+    date: '2013-04-30'
+    says: end
+    subject: '[Rmt] Change in RMT chair position'
+    url: https://mailarchive.ietf.org/arch/msg/rmt/3_1k2vmj9orB-1lmH92HKa-fRbw/
+    excerpt: Lorenzo Vicisano stepped down as co-chair of the RMT WG on my request.
   - kind: session requests
     meetings:
     - '65'

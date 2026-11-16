@@ -18,6 +18,12 @@ chairs:
       certainty: group-closed
       date: '2019-06-05'
   evidence:
+  - kind: list message
+    date: '2015-10-22'
+    says: start
+    subject: '[tcpinc] Welcome David Black as new co-chair for tcpinc'
+    url: https://mailarchive.ietf.org/arch/msg/tcpinc/l_OqElVp4RXDJOub-Z0Aw8wbU-o/
+    excerpt: David Black will be the new co-chair for tcpinc starting from today.
   - kind: shepherded
     documents:
     - draft-ietf-tcpinc-tcpeno
@@ -56,6 +62,13 @@ chairs:
     end:
       certainty: exact
       date: '2016-04-18'
+  evidence:
+  - kind: list message
+    date: '2015-07-24'
+    says: start
+    subject: '[tcpinc] New WG chair: Mirja Kühlewind'
+    url: https://mailarchive.ietf.org/arch/msg/tcpinc/Xu4ejV104PuErLMp11P_BY9wX2k/
+    excerpt: Please welcome Mirja Kühlewind as the new chair for the tcpinc WG.
 - person: 119463
   name: Kyle Rose
   status: confirmed
@@ -67,6 +80,12 @@ chairs:
       certainty: group-closed
       date: '2019-06-05'
   evidence:
+  - kind: list message
+    date: '2015-11-05'
+    says: start
+    subject: '[tcpinc] New co-chair for TCPINC'
+    url: https://mailarchive.ietf.org/arch/msg/tcpinc/o6eYLaasSLYYDlJLYORBETGfU18/
+    excerpt: 'Please welcome Kyle Rose (email: as the new co-chair for TCPINC.'
   - kind: shepherded
     documents:
     - draft-ietf-tcpinc-tcpcrypt

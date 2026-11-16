@@ -44,6 +44,12 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: list message
+    date: '2017-08-24'
+    says: start
+    subject: '[Acme] ACME notes from IETF99'
+    url: https://mailarchive.ietf.org/arch/msg/acme/3hW5nrL9KHGkQj5XUSmH9iDB5To/
+    excerpt: Yoav Nir has replaced Ted Hardie as co-chair now that Ted has been appointed to the IAB.
   - kind: shepherded
     documents:
     - draft-ietf-acme-acme
@@ -69,6 +75,12 @@ chairs:
     date: '2015-06-26'
     subject: 'WG Action: Formed Automated Certificate Management Environment (acme)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/oPISTa8kRM0hBp2T5AT6JmsVjPw/
+  - kind: list message
+    date: '2017-08-24'
+    says: end
+    subject: '[Acme] ACME notes from IETF99'
+    url: https://mailarchive.ietf.org/arch/msg/acme/3hW5nrL9KHGkQj5XUSmH9iDB5To/
+    excerpt: Yoav Nir has replaced Ted Hardie as co-chair now that Ted has been appointed to the IAB.
 - person: 123703
   name: Deb Cooley
   status: confirmed
@@ -80,6 +92,13 @@ chairs:
       certainty: exact
       date: '2024-03-21'
   evidence:
+  - kind: list message
+    date: '2021-07-09'
+    says: start
+    subject: '[Acme] Changes in ACME WG leadership team'
+    url: https://mailarchive.ietf.org/arch/msg/acme/HQ3bGNYVhRqbymtct92Vf482vqM/
+    excerpt: I'm excited to announce that Deb Cooley has graciously agreed to serve as the co-chair with
+      Yoav.
   - kind: shepherded
     documents:
     - draft-ietf-acme-integrations
@@ -110,3 +129,10 @@ chairs:
     end:
       certainty: exact
       date: '2025-07-15'
+  evidence:
+  - kind: list message
+    date: '2024-03-07'
+    says: start
+    subject: '[Acme] ACME leadership changes'
+    url: https://mailarchive.ietf.org/arch/msg/acme/dz-3l0eE_DNKeGjqKnQTdNyjFEQ/
+    excerpt: It is my pleasure to announced that Tomofumi Okubo will be stepping in as the new-chair.

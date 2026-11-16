@@ -221,12 +221,21 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '2008-11-16'
+      certainty: approximate
+      date: '2008-06-16'
     end:
       certainty: evidence-only
       not_before: '2011-03-27'
+    notes:
+    - start dated by list message of 2008-06-16
   evidence:
+  - kind: list message
+    date: '2008-06-16'
+    says: start
+    subject: '[tcpm] new TCPM chairs'
+    url: https://mailarchive.ietf.org/arch/msg/tcpm/caYjRyIECJBQq9y41kvAOtD_ZBI/
+    excerpt: I've decided on Wes Eddy and Dave Borman as the new chairs for TCPM to follow after Ted and
+      Mark.
   - kind: session requests
     meetings:
     - '73'

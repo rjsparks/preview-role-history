@@ -59,15 +59,21 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2009-11-08'
-      not_before: '2003-08-14'
+      certainty: approximate
+      date: '2009-08-12'
     end:
       certainty: group-closed
       date: '2011-09-26'
     notes:
     - start moved earlier by session request for IETF 76
+    - start dated by list message of 2009-08-12
   evidence:
+  - kind: list message
+    date: '2009-08-12'
+    says: start
+    subject: '[XCON] XCON Chair Replacement'
+    url: https://mailarchive.ietf.org/arch/msg/xcon/YVTe293-8FqhpGpkxCp66agsYdU/
+    excerpt: Please join me in welcoming Richard Barnes as the new co-chair of XCON.
   - kind: session requests
     meetings:
     - '76'

@@ -46,19 +46,25 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-03-27'
-      not_before: '2003-12-22'
+      certainty: approximate
+      date: '2008-04-03'
     end:
       certainty: exact
       date: '2014-03-12'
     notes:
     - start moved earlier by session request for IETF 80
+    - start dated by list message of 2008-04-03
   evidence:
   - kind: WG Action
     date: '2012-01-10'
     subject: 'WG Action: RECHARTER: Routing Area Working Group (rtgwg)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/KJWU87x85kFeMeEypXQWZ1chvoM/
+  - kind: list message
+    date: '2008-04-03'
+    says: start
+    subject: Welcome Alia Atlas as RTGWG co-chair
+    url: https://mailarchive.ietf.org/arch/msg/rtgwg/EymQpN-KPxOkRuXncAZOfuwF5EA/
+    excerpt: Alia Atlas has agreed to help out as WG co-chair, in order to help Alex
   - kind: session requests
     meetings:
     - '80'

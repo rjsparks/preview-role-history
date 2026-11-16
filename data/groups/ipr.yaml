@@ -73,10 +73,19 @@ chairs:
       certainty: evidence-only
       not_after: '2002-08-01'
     end:
-      certainty: evidence-only
-      not_before: '2002-08-01'
+      certainty: approximate
+      date: '2003-11-26'
+    notes:
+    - end dated by list message of 2003-11-26
   evidence:
   - kind: WG Action
     date: '2002-08-01'
     subject: 'WG Action: Intellectual Property Rights (ipr)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/5UeRy3fR2YI423UBFDKgkGmElpo/
+  - kind: list message
+    date: '2003-11-26'
+    says: end
+    subject: Thanks to Rob Austein for being chair of the IPR WG!
+    url: https://mailarchive.ietf.org/arch/msg/ipr-wg/rNWF3EKjFblIAV5vYgsfHdVLgzQ/
+    excerpt: Now that the main work of the IPR WG is done, Rob Austein has asked to step down as chair
+      of the working group.

@@ -26,6 +26,12 @@ chairs:
     date: '2014-06-27'
     subject: 'WG Action: Rechartered Domain Name System Operations (dnsop)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/7aMoqHBcMSIuE9WIVAO2YDHxND4/
+  - kind: list message
+    date: '2013-12-20'
+    says: start
+    subject: '[DNSOP] dnsop co-chair announcement.'
+    url: https://mailarchive.ietf.org/arch/msg/dnsop/b8Am42k9zGUKr3kxi0EfKkTMCJo/
+    excerpt: Suzanne Woolf has accepted the role and will be joining Tim as co-chair.
   - kind: shepherded
     documents:
     - draft-ietf-dnsop-7706bis
@@ -46,16 +52,33 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '2004-03-24'
+      certainty: approximate
+      date: '2003-03-07'
     end:
-      certainty: evidence-only
-      not_before: '2004-03-24'
+      certainty: approximate
+      date: '2005-10-20'
+    notes:
+    - start dated by list message of 2003-03-07
+    - end dated by list message of 2005-10-20
   evidence:
   - kind: WG Action
     date: '2004-03-24'
     subject: 'WG Action: RECHARTER: Domain Name System Operations (dnsop)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/nxF12c2scPLnk3xpf14Mm9k2PSQ/
+  - kind: list message
+    date: '2003-03-07'
+    says: start
+    subject: chairs and charter
+    url: https://mailarchive.ietf.org/arch/msg/dnsop/90U_YozM8i01BGF7d-Cj7NRVbbg/
+    excerpt: dave meyer and rob austein have agreed to co-chair dnsop, lead drafting of a charter revision,
+      etc.
+  - kind: list message
+    date: '2005-10-20'
+    says: end
+    subject: '[dnsop] DNSOP co-chair selection'
+    url: https://mailarchive.ietf.org/arch/msg/dnsop/4nC4WAQHJHwYcZxM_CCIBDr5ZdE/
+    excerpt: Last but not least, we would like to thank Dave Meyer again for his work as co-chair for
+      the DNSOP working goup.
 - person: 104212
   name: Rob Austein
   status: unconfirmed
@@ -64,13 +87,21 @@ chairs:
       certainty: evidence-only
       not_after: '2004-03-24'
     end:
-      certainty: evidence-only
-      not_before: '2004-03-24'
+      certainty: approximate
+      date: '2009-11-16'
+    notes:
+    - end dated by list message of 2009-11-16
   evidence:
   - kind: WG Action
     date: '2004-03-24'
     subject: 'WG Action: RECHARTER: Domain Name System Operations (dnsop)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/nxF12c2scPLnk3xpf14Mm9k2PSQ/
+  - kind: list message
+    date: '2009-11-16'
+    says: end
+    subject: '[DNSOP] DNSOPS'
+    url: https://mailarchive.ietf.org/arch/msg/dnsop/9-KX91ZRjelqPKJCwvLfitUzazU/
+    excerpt: Rob Austein has expressed a wish to step down as chair of DNSOPS.
 - person: 107363
   name: Peter Koch
   status: confirmed
@@ -267,3 +298,10 @@ chairs:
       date: '2026-10-06'
     end:
       certainty: ongoing
+  evidence:
+  - kind: list message
+    date: '2026-10-06'
+    says: start
+    subject: '[DNSOP] DNSOP Split & Leadership Change'
+    url: https://mailarchive.ietf.org/arch/msg/dnsop/Yvhf_x4LiDToSxVCzuwfVSEMcUc/
+    excerpt: '* Peter Thomassen is appointed as a new DNSOP Chair (effective immediately).'

@@ -59,15 +59,21 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2008-11-16'
-      not_before: '2006-01-13'
+      certainty: approximate
+      date: '2008-01-24'
     end:
       certainty: group-closed
       date: '2011-11-07'
     notes:
     - start moved earlier by session request for IETF 73
+    - start dated by list message of 2008-01-24
   evidence:
+  - kind: list message
+    date: '2008-01-24'
+    says: start
+    subject: '[Speermint] speermint chair changes'
+    url: https://mailarchive.ietf.org/arch/msg/speermint/mbJogzTkSz_y2HY-mJGmhVNF2yo/
+    excerpt: Daryl Malas has graciously aggreed to take over as co-chair (with Jason).
   - kind: session requests
     meetings:
     - '73'

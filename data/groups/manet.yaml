@@ -50,24 +50,34 @@ chairs:
       certainty: evidence-only
       not_after: '2003-02-26'
     end:
-      certainty: evidence-only
-      not_before: '2003-02-26'
+      certainty: approximate
+      date: '2004-12-08'
+    notes:
+    - end dated by list message of 2004-12-08
   evidence:
   - kind: WG Action
     date: '2003-02-26'
     subject: 'WG Action: RECHARTER: Mobile Ad-hoc Networks (manet)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/jscnvqKbrG1vjYLVwlkexgGf5AM/
+  - kind: list message
+    date: '2004-12-08'
+    says: end
+    subject: '[manet] MANET WG rechartering and new co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/manet/OQ5mP2YlVgJpc53T7La9HsyAF-c/
+    excerpt: As part of this process we will also be adding Ian Chakeres as the new co-chair replacing
+      Scott Corson.
 - person: 19150
   name: Stan Ratliff
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-12-09'
-      not_before: '1997-06-02'
+      certainty: approximate
+      date: '2011-09-14'
     end:
       certainty: exact
       date: '2019-11-20'
+    notes:
+    - start dated by list message of 2011-09-14
   evidence:
   - kind: WG Review
     date: '2016-06-20'
@@ -77,6 +87,12 @@ chairs:
     date: '2016-07-01'
     subject: 'WG Action: Rechartered Mobile Ad-hoc Networks (manet)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/5hkVGGen1ag7EHzqEt6oQI3gyzU/
+  - kind: list message
+    date: '2011-09-14'
+    says: start
+    subject: '[manet] New co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/manet/UB5ikY1aEAegXyChqUeeLbGVZu0/
+    excerpt: I have appointed Stan Ratliff as your new co-chair to work with Joe Macker.
   - kind: shepherded
     documents:
     - draft-ietf-manet-dlep-multi-hop-extension
@@ -98,12 +114,28 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '2006-03-19'
+      certainty: approximate
+      date: '2004-12-08'
     end:
-      certainty: evidence-only
-      not_before: '2010-07-25'
+      certainty: approximate
+      date: '2011-09-14'
+    notes:
+    - start dated by list message of 2004-12-08
+    - end dated by list message of 2011-09-14
   evidence:
+  - kind: list message
+    date: '2004-12-08'
+    says: start
+    subject: '[manet] MANET WG rechartering and new co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/manet/OQ5mP2YlVgJpc53T7La9HsyAF-c/
+    excerpt: As part of this process we will also be adding Ian Chakeres as the new co-chair replacing
+      Scott Corson.
+  - kind: list message
+    date: '2011-09-14'
+    says: end
+    subject: '[manet] New co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/manet/UB5ikY1aEAegXyChqUeeLbGVZu0/
+    excerpt: As previously discussed, Ian Chakeres has announced his desire to step down as co-chair.
   - kind: session requests
     meetings:
     - '65'

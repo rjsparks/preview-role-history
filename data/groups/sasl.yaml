@@ -40,13 +40,28 @@ chairs:
       certainty: evidence-only
       not_after: '2002-12-19'
     end:
-      certainty: evidence-only
-      not_before: '2002-12-19'
+      certainty: approximate
+      date: '2004-11-11'
+    notes:
+    - end dated by list message of 2004-11-11
   evidence:
   - kind: WG Action
     date: '2002-12-19'
     subject: 'WG Action: Simple Authentication and Security Layer (sasl)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/XgtwlUJoll0ly8suuEqtjvu8Hqs/
+  - kind: list message
+    date: '2004-11-11'
+    says: end
+    subject: Summary of the SASL WG session @ IETF#61
+    url: https://mailarchive.ietf.org/arch/msg/sasl/yHf7io9Wuc24xyhbPDLQqA2jmjQ/
+    excerpt: It was noted that Sam Hartman will be stepping down as co-chair to take on Security AD duties.
+  - kind: list message
+    date: '2004-12-10'
+    says: end
+    subject: minutes of the IETF#61 SASL session
+    url: https://mailarchive.ietf.org/arch/msg/sasl/qaFmRKPBi3ayhzlEEV5DiUFpcT8/
+    excerpt: It was noted that Sam Hartman would be stepping down as stepping down as co-chair after the
+      session as he accepted an appointment to the IESG.
 - person: 103904
   name: Kurt Zeilenga
   status: confirmed

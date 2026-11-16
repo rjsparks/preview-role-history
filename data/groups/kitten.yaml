@@ -50,6 +50,13 @@ chairs:
     date: '2011-06-28'
     subject: 'WG Action: RECHARTER: Common Authentication Technology Next Generation (kitten)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/VSJlkAvehmvXD-9nPj7Ae-GL6ZQ/
+  - kind: list message
+    date: '2021-02-11'
+    says: start
+    subject: '[kitten] Please welcome Alexey Melnikov as kitten co-chair!'
+    url: https://mailarchive.ietf.org/arch/msg/kitten/ooLs95i20RE0OrfNMdjAMvNX88Q/
+    excerpt: Robbie has been doing everything on his own for some time now, and I'm happy to report that
+      I've been able to enlist Alexey Melnikov to join Robbie as co-chair to spread the load.
   - kind: session requests
     meetings:
     - '69'
@@ -148,6 +155,14 @@ chairs:
     date: '2013-02-26'
     subject: 'WG Action: Rechartered Common Authentication Technology Next Generation (kitten)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/WPZydEpIbH295wvdxcw6t9Mof6U/
+  - kind: list message
+    date: '2019-08-26'
+    says: end
+    subject: '[kitten] Stepping down as KITTEN co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/kitten/1c-gy24wLYhkHzbENzhiXy-EhtI/
+    excerpt: I wish to thank my current and previous co-chairs for their work (including Shawn Emery,
+      Ben Kaduk, and Robbie Harwood), the previous and current responsible ADs (Stephen Farrel, ekr, and
+      Ben Kaduk), and of course the participants of KITTEN for all your contributions.
   - kind: session requests
     meetings:
     - '73'
@@ -189,6 +204,19 @@ chairs:
       certainty: exact
       date: '2019-08-28'
   evidence:
+  - kind: list message
+    date: '2014-07-23'
+    says: start
+    subject: '[kitten] chair changes'
+    url: https://mailarchive.ietf.org/arch/msg/kitten/8M80wlkBFtVH67m-2wy_CPWo9c8/
+    excerpt: I'm also delighted to say that Matt Miller and Benjamin Kaduk have agreed to join Shawn in
+      chairing, so we're losing a couple of highly capable chairs, but gaining another pair.
+  - kind: list message
+    date: '2019-08-26'
+    says: end
+    subject: '[kitten] Stepping down as KITTEN co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/kitten/1c-gy24wLYhkHzbENzhiXy-EhtI/
+    excerpt: Miller Former KITTEN co-chair
   - kind: shepherded
     documents:
     - draft-ietf-kitten-gss-loop

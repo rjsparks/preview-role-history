@@ -12,15 +12,28 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2009-11-08'
-      not_before: '1997-10-02'
+      certainty: approximate
+      date: '2003-10-27'
     end:
       certainty: exact
       date: '2012-11-27'
     notes:
     - start moved earlier by session request for IETF 76
+    - start dated by list message of 2003-10-27
   evidence:
+  - kind: list message
+    date: '2003-10-27'
+    says: start
+    subject: '[ippm] New ippm co-chair: Henk Uijterwaal'
+    url: https://mailarchive.ietf.org/arch/msg/ippm/D8J3XdyC_1ye6QD5QUpd-QYMisc/
+    excerpt: Henk Uijterwaal has agreed to replace Merike as co-chair.
+  - kind: list message
+    date: '2003-12-18'
+    says: start
+    subject: '[ippm] draft ietf58 ippm minutes'
+    url: https://mailarchive.ietf.org/arch/msg/ippm/s3kdkqWNRujzBmLWunsAI4VAHo4/
+    excerpt: There was no bashing, but Matt welcomed Henk Uijterwaal as the new co-chair, replacing Merike
+      Kaeo who is now focusing on security work.
   - kind: session requests
     meetings:
     - '76'
@@ -114,6 +127,13 @@ chairs:
     date: '2017-08-29'
     subject: 'WG Action: Rechartered IP Performance Measurement (ippm)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/PcnLIuYz0bws_hiOWOfcgRLKX70/
+  - kind: list message
+    date: '2012-11-23'
+    says: start
+    subject: '[ippm] new co-chairs'
+    url: https://mailarchive.ietf.org/arch/msg/ippm/q7E7gAcCtB5Vx4pS8yM8A_ARJRs/
+    excerpt: I've asked Bill Cerveny and Brian Trammell (on cc) to be the new co-chairs, and they should
+      be showing up on the webpages and aliases like soon.
   - kind: shepherded
     documents:
     - draft-ietf-ippm-2330-update
@@ -134,6 +154,19 @@ chairs:
       certainty: group-closed
       date: '2026-11-04'
   evidence:
+  - kind: list message
+    date: '2021-10-01'
+    says: start
+    subject: '[ippm] New chair!'
+    url: https://mailarchive.ietf.org/arch/msg/ippm/dv_RI6ElgB9lI5mO1xbzM0poaeo/
+    excerpt: I'm pleased to announce that Marcus Ihlar is joining IPPM as our newest chair.
+  - kind: list message
+    date: '2025-04-17'
+    says: start
+    subject: '[ippm] Performance Metrics Directorate (perfmetrdir) New Chairs'
+    url: https://mailarchive.ietf.org/arch/msg/ippm/VvMsqBs4K6XJFhDvnR7f-4wrAQs/
+    excerpt: I'm very pleased to announce that I appointed Marcus Ihlar and Thomas Graf as the new directorate
+      chairs.
   - kind: shepherded
     documents:
     - draft-ietf-ippm-alt-mark-yang
@@ -158,6 +191,13 @@ chairs:
       certainty: exact
       date: '2025-03-20'
   evidence:
+  - kind: list message
+    date: '2018-06-21'
+    says: start
+    subject: '[ippm] New responsible AD and new co-chair!'
+    url: https://mailarchive.ietf.org/arch/msg/ippm/kL9j8g7iKlE0O0-SHst06YkzIZw/
+    excerpt: The other announcement is that Tommy Pauly agreed to serve as an additional co-chair for
+      IPPM.
   - kind: shepherded
     documents:
     - draft-ietf-ippm-capacity-metric-method
@@ -179,6 +219,13 @@ chairs:
     end:
       certainty: exact
       date: '2021-11-16'
+  evidence:
+  - kind: list message
+    date: '2020-02-14'
+    says: start
+    subject: '[ippm] Welcome Ian Swett as new chair!'
+    url: https://mailarchive.ietf.org/arch/msg/ippm/Cgqonv3r4BEuylnYZrZv-Z71Vqs/
+    excerpt: I just added Ian Swett as a new chair to IPPM.
 - person: 125623
   name: Thomas Graf
   status: confirmed
