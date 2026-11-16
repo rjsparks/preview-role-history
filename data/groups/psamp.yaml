@@ -16,7 +16,7 @@ chairs:
       not_after: '2002-07-23'
     end:
       certainty: evidence-only
-      not_before: '2005-02-02'
+      not_before: '2005-04-08'
   evidence:
   - kind: WG Action
     date: '2002-08-01'
@@ -33,6 +33,17 @@ chairs:
     - date: '2004-11-01'
       subject: 'PSAMP WG agenda for IETF #61'
       url: https://mailarchive.ietf.org/arch/msg/psamp/8x3pisWAVtdZnop4z8VrvILpZKk/
+  - kind: minutes
+    listed_in: 2
+    first: '2004-12-02'
+    last: '2005-04-08'
+    examples:
+    - date: '2004-12-02'
+      subject: draft PSAMP minutes of IETF §61
+      url: https://mailarchive.ietf.org/arch/msg/psamp/h3LgueWiuzz8yX5L0-aaOLwib58/
+    - date: '2005-04-08'
+      subject: 'PSAMP minutes of IETF #62'
+      url: https://mailarchive.ietf.org/arch/msg/psamp/HlNkcx_B4EKOyQtCEbJrqKuipw0/
   - kind: proceedings
     listed_in: 8
     first: '2002-07-23'
@@ -86,6 +97,17 @@ chairs:
     - date: '2006-06-29'
       subject: '[PSAMP] WG last call on draft-ietf-psamp-protocol-05.txt until July 14'
       url: https://mailarchive.ietf.org/arch/msg/psamp/j8qt5jrnLYpbHLbgF4ObqZ0W90k/
+  - kind: minutes
+    listed_in: 2
+    first: '2004-12-02'
+    last: '2005-04-08'
+    examples:
+    - date: '2004-12-02'
+      subject: draft PSAMP minutes of IETF §61
+      url: https://mailarchive.ietf.org/arch/msg/psamp/h3LgueWiuzz8yX5L0-aaOLwib58/
+    - date: '2005-04-08'
+      subject: 'PSAMP minutes of IETF #62'
+      url: https://mailarchive.ietf.org/arch/msg/psamp/HlNkcx_B4EKOyQtCEbJrqKuipw0/
   - kind: proceedings
     listed_in: 13
     first: '2002-07-23'

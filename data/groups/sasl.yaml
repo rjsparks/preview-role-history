@@ -14,7 +14,7 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2005-02-24'
-      not_before: '2002-11-25'
+      not_before: '2004-11-07'
     end:
       certainty: group-closed
       date: '2010-08-23'
@@ -22,6 +22,7 @@ chairs:
     - start moved earlier by session request for IETF 67
     - widened to cover last calls and adoption calls on the group list
     - widened to cover charter snapshots in proceedings
+    - bounded by minutes listing other chairs
   evidence:
   - kind: chair activity
     first: '2005-03-26'
@@ -57,6 +58,10 @@ chairs:
     - date: '2010-03-25'
       subject: IETF 77 proceedings charter (last modified)
       url: https://www.ietf.org/proceedings/77/sasl.html
+  - kind: minutes without them
+    date: '2004-11-07'
+    subject: minutes of the IETF#61 SASL session
+    url: https://mailarchive.ietf.org/arch/msg/sasl/qaFmRKPBi3ayhzlEEV5DiUFpcT8/
   - kind: session requests
     meetings:
     - '67'
@@ -112,6 +117,20 @@ chairs:
     - date: '2003-09-22'
       subject: 'WG Last Call: draft-ietf-sasl-saslprep-03'
       url: https://mailarchive.ietf.org/arch/msg/sasl/I_3mO_bGa_uFBa9dAbfLb8rym5w/
+  - kind: minutes
+    listed_in: 4
+    first: '2003-07-25'
+    last: '2004-11-07'
+    examples:
+    - date: '2003-07-25'
+      subject: Draft minutes
+      url: https://mailarchive.ietf.org/arch/msg/sasl/SwkjLp0bsnDW3fUfHElaWj805lE/
+    - date: '2003-11-09'
+      subject: Draft Minutes for SASL working group meeting
+      url: https://mailarchive.ietf.org/arch/msg/sasl/y50z9aWghD-K9YIirtG3Gl_wH58/
+    - date: '2004-11-07'
+      subject: minutes of the IETF#61 SASL session
+      url: https://mailarchive.ietf.org/arch/msg/sasl/qaFmRKPBi3ayhzlEEV5DiUFpcT8/
   - kind: proceedings
     listed_in: 6
     first: '2003-03-07'
@@ -164,6 +183,20 @@ chairs:
     - date: '2004-07-21'
       subject: 'WG Last Call: draft-ietf-sasl-rfc2222bis-08.txt'
       url: https://mailarchive.ietf.org/arch/msg/sasl/dZ5vhi4yNaBuN-sZFODi5-1iirg/
+  - kind: minutes
+    listed_in: 4
+    first: '2003-07-25'
+    last: '2004-11-07'
+    examples:
+    - date: '2003-07-25'
+      subject: Draft minutes
+      url: https://mailarchive.ietf.org/arch/msg/sasl/SwkjLp0bsnDW3fUfHElaWj805lE/
+    - date: '2003-11-09'
+      subject: Draft Minutes for SASL working group meeting
+      url: https://mailarchive.ietf.org/arch/msg/sasl/y50z9aWghD-K9YIirtG3Gl_wH58/
+    - date: '2004-11-07'
+      subject: minutes of the IETF#61 SASL session
+      url: https://mailarchive.ietf.org/arch/msg/sasl/qaFmRKPBi3ayhzlEEV5DiUFpcT8/
   - kind: proceedings
     listed_in: 16
     first: '2003-03-07'

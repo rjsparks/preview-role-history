@@ -7,6 +7,28 @@ started: '1993-10-11'
 closed: '1996-05-21'
 history_url: https://datatracker.ietf.org/group/rolc/history/
 chairs:
+- person: 43
+  name: Mark Laubach
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1995-04-14'
+    end:
+      certainty: evidence-only
+      not_before: '1995-04-19'
+  evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '1995-04-14'
+    last: '1995-04-19'
+    examples:
+    - date: '1995-04-14'
+      subject: Draft ROLC/IP-ATM Danvers Minutes (ROLC second session)
+      url: https://mailarchive.ietf.org/arch/msg/rolc/RYT1p-gd-L8b95m4bAf-E6awq1E/
+    - date: '1995-04-19'
+      subject: ROLC/IPATM Joint meeting final minutes
+      url: https://mailarchive.ietf.org/arch/msg/rolc/d5wNk3LLTtgMfDmEitDY1xwZmiM/
 - person: 3844
   name: Andy Malis
   status: confirmed
@@ -32,6 +54,20 @@ chairs:
     - date: '1994-08-09'
       subject: Draft Toronto minutes
       url: https://mailarchive.ietf.org/arch/msg/rolc/_Zv0NrPNFN6YuMmHhEeFji5weWQ/
+  - kind: minutes
+    listed_in: 7
+    first: '1994-08-09'
+    last: '1995-04-19'
+    examples:
+    - date: '1994-08-09'
+      subject: Draft Toronto minutes
+      url: https://mailarchive.ietf.org/arch/msg/rolc/_Zv0NrPNFN6YuMmHhEeFji5weWQ/
+    - date: '1994-12-08'
+      subject: Draft ROLC minutes from 12/5
+      url: https://mailarchive.ietf.org/arch/msg/rolc/sdBjG_sb4Ap5jwCaNHT9ocso_IY/
+    - date: '1995-04-19'
+      subject: Final Danvers ROLC minutes
+      url: https://mailarchive.ietf.org/arch/msg/rolc/funNfQ1d3KJ_N1FfwhRpx3oQZTs/
   - kind: proceedings
     listed_in: 5
     first: '1994-03-28'

@@ -13,13 +13,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2008-07-27'
+      date: '2007-03-18'
       not_before: '2007-02-07'
     end:
       certainty: group-closed
       date: '2012-07-19'
     notes:
     - start moved earlier by session request for IETF 72
+    - widened to cover chair lists in meeting minutes
   evidence:
   - kind: chair activity
     first: '2008-03-31'
@@ -38,6 +39,14 @@ chairs:
     - date: '2011-07-30'
       subject: '[PCN] WGLC for draft-ietf-pcn-3-in-1-encoding-07.txt'
       url: https://mailarchive.ietf.org/arch/msg/pcn/oyUvpyG27bzn6sHJbSppuq2yzlY/
+  - kind: minutes
+    listed_in: 1
+    first: '2007-03-18'
+    last: '2007-03-18'
+    examples:
+    - date: '2007-03-18'
+      subject: '[PCN] Preliminary minutes from IETF 68 meeting'
+      url: https://mailarchive.ietf.org/arch/msg/pcn/fEVK56NjgXN56Ux2j-OL79Q0LOM/
   - kind: proceedings
     listed_in: 11
     first: '2006-10-31'
@@ -95,6 +104,14 @@ chairs:
     - date: '2011-04-06'
       subject: '[PCN] WGLC for draft-ietf-pcn-signaling-requirements-03'
       url: https://mailarchive.ietf.org/arch/msg/pcn/c7_wBSisCW3AbwyZlRoepq2NFQE/
+  - kind: minutes
+    listed_in: 1
+    first: '2007-03-18'
+    last: '2007-03-18'
+    examples:
+    - date: '2007-03-18'
+      subject: '[PCN] Preliminary minutes from IETF 68 meeting'
+      url: https://mailarchive.ietf.org/arch/msg/pcn/fEVK56NjgXN56Ux2j-OL79Q0LOM/
   - kind: proceedings
     listed_in: 10
     first: '2007-02-28'

@@ -13,8 +13,8 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-24'
-      not_before: '2001-03-29'
+      date: '2006-03-19'
+      not_before: '2002-11-17'
     end:
       certainty: group-closed
       date: '2009-05-01'
@@ -22,6 +22,8 @@ chairs:
     - start moved earlier by session request for IETF 67
     - widened to cover last calls and adoption calls on the group list
     - widened to cover charter snapshots in proceedings
+    - widened to cover chair lists in meeting minutes
+    - bounded by minutes listing other chairs
   evidence:
   - kind: chair activity
     first: '2006-06-29'
@@ -43,6 +45,14 @@ chairs:
     - date: '2008-08-13'
       subject: '[Sipping] IETF-72 SIPPING WG minutes available'
       url: https://mailarchive.ietf.org/arch/msg/sipping/Ae5bONS-7AdRhV6HZi_82NdS2wk/
+  - kind: minutes
+    listed_in: 1
+    first: '2006-03-19'
+    last: '2006-03-19'
+    examples:
+    - date: '2006-03-19'
+      subject: '[Sipping] Please review for minutes'
+      url: https://mailarchive.ietf.org/arch/msg/sipping/ZtBS2nKougHWekr-7jM3CczXsMQ/
   - kind: proceedings
     listed_in: 5
     first: '2006-03-24'
@@ -57,6 +67,10 @@ chairs:
     - date: '2009-05-01'
       subject: IETF 75 proceedings charter (last modified)
       url: https://www.ietf.org/proceedings/75/sipping.html
+  - kind: minutes without them
+    date: '2002-11-17'
+    subject: '[Sipping] Minutes, SIPPING WG, IETF 55'
+    url: https://mailarchive.ietf.org/arch/msg/sipping/2rESReosnTVDs2MuHRmPMv8CWfg/
   - kind: session requests
     meetings:
     - '67'
@@ -123,6 +137,17 @@ chairs:
     - date: '2005-08-31'
       subject: '[Sipping] Draft minutes of IETF 63'
       url: https://mailarchive.ietf.org/arch/msg/sipping/yMyguZ9FXPFA9KEwiSsaMcdQZmE/
+  - kind: minutes
+    listed_in: 2
+    first: '2002-11-17'
+    last: '2006-03-19'
+    examples:
+    - date: '2002-11-17'
+      subject: '[Sipping] Minutes, SIPPING WG, IETF 55'
+      url: https://mailarchive.ietf.org/arch/msg/sipping/2rESReosnTVDs2MuHRmPMv8CWfg/
+    - date: '2006-03-19'
+      subject: '[Sipping] Please review for minutes'
+      url: https://mailarchive.ietf.org/arch/msg/sipping/ZtBS2nKougHWekr-7jM3CczXsMQ/
   - kind: proceedings
     listed_in: 15
     first: '2003-01-27'
@@ -188,6 +213,14 @@ chairs:
     - date: '2002-05-28'
       subject: '[Sipping] Working Group Last Call -- draft-ietf-sipping-nai-reqs'
       url: https://mailarchive.ietf.org/arch/msg/sipping/FDCFsKAxN6Lvn2QK_P-eMod66A0/
+  - kind: minutes
+    listed_in: 1
+    first: '2002-11-17'
+    last: '2002-11-17'
+    examples:
+    - date: '2002-11-17'
+      subject: '[Sipping] Minutes, SIPPING WG, IETF 55'
+      url: https://mailarchive.ietf.org/arch/msg/sipping/2rESReosnTVDs2MuHRmPMv8CWfg/
   - kind: proceedings
     listed_in: 14
     first: '2001-11-06'
@@ -248,6 +281,10 @@ chairs:
     - date: '2002-05-29'
       subject: IETF 54 proceedings charter (last modified)
       url: https://www.ietf.org/proceedings/54/237.htm
+  - kind: minutes without them
+    date: '2002-11-17'
+    subject: '[Sipping] Minutes, SIPPING WG, IETF 55'
+    url: https://mailarchive.ietf.org/arch/msg/sipping/2rESReosnTVDs2MuHRmPMv8CWfg/
 - person: 129485
   name: Rohan Mahy
   status: unconfirmed
@@ -258,9 +295,10 @@ chairs:
     end:
       certainty: between
       not_before: '2006-02-15'
-      not_after: '2006-03-24'
+      not_after: '2006-03-19'
     notes:
     - bounded by a proceedings charter snapshot listing other chairs
+    - bounded by minutes listing other chairs
   evidence:
   - kind: WG Action
     date: '2001-11-02'
@@ -294,6 +332,14 @@ chairs:
     - date: '2002-05-29'
       subject: '[Sipping] WGLC for ISUP overlap signaling'
       url: https://mailarchive.ietf.org/arch/msg/sipping/SYCgEQZ8AgXg2LWpnCjpPxLExD4/
+  - kind: minutes
+    listed_in: 1
+    first: '2002-11-17'
+    last: '2002-11-17'
+    examples:
+    - date: '2002-11-17'
+      subject: '[Sipping] Minutes, SIPPING WG, IETF 55'
+      url: https://mailarchive.ietf.org/arch/msg/sipping/2rESReosnTVDs2MuHRmPMv8CWfg/
   - kind: proceedings
     listed_in: 14
     first: '2001-11-06'
@@ -309,6 +355,6 @@ chairs:
       subject: IETF 65 proceedings charter (last modified)
       url: https://www.ietf.org/proceedings/65/sipping.html
   - kind: minutes without them
-    date: '2006-03-24'
-    subject: IETF 66 proceedings charter (last modified)
-    url: https://www.ietf.org/proceedings/66/sipping.html
+    date: '2006-03-19'
+    subject: '[Sipping] Please review for minutes'
+    url: https://mailarchive.ietf.org/arch/msg/sipping/ZtBS2nKougHWekr-7jM3CczXsMQ/

@@ -12,7 +12,8 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2005-04-08'
       not_after: '2006-07-21'
     end:
       certainty: between
@@ -20,6 +21,7 @@ chairs:
       not_after: '2011-07-24'
     notes:
     - bounded by a proceedings charter snapshot listing other chairs
+    - bounded by minutes listing other chairs
   evidence:
   - kind: chair activity
     first: '2007-07-27'
@@ -56,6 +58,10 @@ chairs:
       subject: IETF 80 proceedings charter
       url: https://www.ietf.org/proceedings/80/rtgwg.html
   - kind: minutes without them
+    date: '2005-04-08'
+    subject: IETF-62 RTGWG Minutes
+    url: https://mailarchive.ietf.org/arch/msg/rtgwg/P4FUNLKnXNXKbd-lPkdjnvoLPCU/
+  - kind: minutes without them
     date: '2011-07-24'
     subject: IETF 81 proceedings charter
     url: https://www.ietf.org/proceedings/81/rtgwg.html
@@ -89,6 +95,14 @@ chairs:
     date: '2004-02-26'
     subject: 'WG Action: Routing Area Working Group (rtgwg)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/9YS_U19_AiQN2nQgOxSAARApj6c/
+  - kind: minutes
+    listed_in: 1
+    first: '2005-04-08'
+    last: '2005-04-08'
+    examples:
+    - date: '2005-04-08'
+      subject: IETF-62 RTGWG Minutes
+      url: https://mailarchive.ietf.org/arch/msg/rtgwg/P4FUNLKnXNXKbd-lPkdjnvoLPCU/
   - kind: proceedings
     listed_in: 5
     first: '2004-06-24'
@@ -139,6 +153,14 @@ chairs:
     - date: '2004-10-22'
       subject: Agenda for IETF61
       url: https://mailarchive.ietf.org/arch/msg/rtgwg/Hh2Lr0l1N6XMNGwHoM9Po1wbbNY/
+  - kind: minutes
+    listed_in: 1
+    first: '2005-04-08'
+    last: '2005-04-08'
+    examples:
+    - date: '2005-04-08'
+      subject: IETF-62 RTGWG Minutes
+      url: https://mailarchive.ietf.org/arch/msg/rtgwg/P4FUNLKnXNXKbd-lPkdjnvoLPCU/
   - kind: proceedings
     listed_in: 14
     first: '2004-06-24'
@@ -216,6 +238,10 @@ chairs:
     - date: '2013-11-03'
       subject: IETF 88 proceedings charter
       url: https://www.ietf.org/proceedings/88/rtgwg.html
+  - kind: minutes without them
+    date: '2005-04-08'
+    subject: IETF-62 RTGWG Minutes
+    url: https://mailarchive.ietf.org/arch/msg/rtgwg/P4FUNLKnXNXKbd-lPkdjnvoLPCU/
   - kind: session requests
     meetings:
     - '80'
@@ -268,6 +294,10 @@ chairs:
     - date: '2014-11-09'
       subject: IETF 91 proceedings charter
       url: https://www.ietf.org/proceedings/91/rtgwg.html
+  - kind: minutes without them
+    date: '2005-04-08'
+    subject: IETF-62 RTGWG Minutes
+    url: https://mailarchive.ietf.org/arch/msg/rtgwg/P4FUNLKnXNXKbd-lPkdjnvoLPCU/
   - kind: session requests
     meetings:
     - '82'
@@ -382,6 +412,10 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/rtgwg.html
+  - kind: minutes without them
+    date: '2005-04-08'
+    subject: IETF-62 RTGWG Minutes
+    url: https://mailarchive.ietf.org/arch/msg/rtgwg/P4FUNLKnXNXKbd-lPkdjnvoLPCU/
   - kind: shepherded
     documents:
     - draft-ietf-rtgwg-policy-model

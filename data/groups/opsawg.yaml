@@ -53,6 +53,14 @@ chairs:
     - date: '2009-06-21'
       subject: '[OPSAWG] opsawg agenda items for Stockholm'
       url: https://mailarchive.ietf.org/arch/msg/opsawg/6jMcrONZTFsPe3A4TuQS8tlzEyc/
+  - kind: minutes
+    listed_in: 1
+    first: '2008-03-09'
+    last: '2008-03-09'
+    examples:
+    - date: '2008-03-09'
+      subject: '[OPSAWG] OPSAWG Minutes from IETF 71 (Philadelphia)'
+      url: https://mailarchive.ietf.org/arch/msg/opsawg/81PajgRenEWt1FCqqAARNE_axtk/
   - kind: proceedings
     listed_in: 22
     first: '2007-06-19'
@@ -89,12 +97,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2011-11-13'
-      not_before: '2007-05-17'
+      not_before: '2008-03-09'
     end:
       certainty: exact
       date: '2014-06-24'
     notes:
     - widened to cover charter snapshots in proceedings
+    - bounded by minutes listing other chairs
   evidence:
   - kind: WG Review
     date: '2012-10-02'
@@ -138,6 +147,10 @@ chairs:
     - date: '2014-03-02'
       subject: IETF 89 proceedings charter
       url: https://www.ietf.org/proceedings/89/opsawg.html
+  - kind: minutes without them
+    date: '2008-03-09'
+    subject: '[OPSAWG] OPSAWG Minutes from IETF 71 (Philadelphia)'
+    url: https://mailarchive.ietf.org/arch/msg/opsawg/81PajgRenEWt1FCqqAARNE_axtk/
   - kind: shepherded
     documents:
     - draft-baker-opsawg-firewalls
@@ -204,6 +217,10 @@ chairs:
     - date: '2013-03-10'
       subject: IETF 86 proceedings charter
       url: https://www.ietf.org/proceedings/86/opsawg.html
+  - kind: minutes without them
+    date: '2008-03-09'
+    subject: '[OPSAWG] OPSAWG Minutes from IETF 71 (Philadelphia)'
+    url: https://mailarchive.ietf.org/arch/msg/opsawg/81PajgRenEWt1FCqqAARNE_axtk/
 - person: 105682
   name: Benoît Claise
   status: confirmed
@@ -257,6 +274,14 @@ chairs:
     notes:
     - bounded by a proceedings charter snapshot listing other chairs
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2008-03-09'
+    last: '2008-03-09'
+    examples:
+    - date: '2008-03-09'
+      subject: '[OPSAWG] OPSAWG Minutes from IETF 71 (Philadelphia)'
+      url: https://mailarchive.ietf.org/arch/msg/opsawg/81PajgRenEWt1FCqqAARNE_axtk/
   - kind: proceedings
     listed_in: 4
     first: '2007-06-19'
@@ -306,6 +331,10 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/opsawg.html
+  - kind: minutes without them
+    date: '2008-03-09'
+    subject: '[OPSAWG] OPSAWG Minutes from IETF 71 (Philadelphia)'
+    url: https://mailarchive.ietf.org/arch/msg/opsawg/81PajgRenEWt1FCqqAARNE_axtk/
   - kind: shepherded
     documents:
     - draft-ietf-opsawg-capwap-extension
@@ -422,6 +451,10 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/opsawg.html
+  - kind: minutes without them
+    date: '2008-03-09'
+    subject: '[OPSAWG] OPSAWG Minutes from IETF 71 (Philadelphia)'
+    url: https://mailarchive.ietf.org/arch/msg/opsawg/81PajgRenEWt1FCqqAARNE_axtk/
   - kind: shepherded
     documents:
     - draft-ietf-opsawg-capwap-alt-tunnel
@@ -438,6 +471,10 @@ chairs:
       certainty: exact
       date: '2024-11-02'
   evidence:
+  - kind: minutes without them
+    date: '2008-03-09'
+    subject: '[OPSAWG] OPSAWG Minutes from IETF 71 (Philadelphia)'
+    url: https://mailarchive.ietf.org/arch/msg/opsawg/81PajgRenEWt1FCqqAARNE_axtk/
   - kind: shepherded
     documents:
     - draft-ietf-opsawg-mud-acceptable-urls
@@ -461,3 +498,7 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/opsawg.html
+  - kind: minutes without them
+    date: '2008-03-09'
+    subject: '[OPSAWG] OPSAWG Minutes from IETF 71 (Philadelphia)'
+    url: https://mailarchive.ietf.org/arch/msg/opsawg/81PajgRenEWt1FCqqAARNE_axtk/

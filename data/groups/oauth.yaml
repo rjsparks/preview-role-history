@@ -14,10 +14,12 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2011-12-09'
-      not_before: '2009-04-06'
+      not_before: '2010-01-27'
     end:
       certainty: exact
       date: '2017-04-05'
+    notes:
+    - bounded by minutes listing other chairs
   evidence:
   - kind: WG Action
     date: '2012-05-15'
@@ -55,6 +57,10 @@ chairs:
     - date: '2016-11-13'
       subject: IETF 97 proceedings charter
       url: https://www.ietf.org/proceedings/97/oauth.html
+  - kind: minutes without them
+    date: '2010-01-27'
+    subject: '[OAUTH-WG] draft minutes of OAuth WG interim meeting, 2010-01-21'
+    url: https://mailarchive.ietf.org/arch/msg/oauth/GdWYMNEd9277XVzIEil5qES2VJY/
   - kind: shepherded
     documents:
     - draft-ietf-oauth-urn-sub-ns
@@ -65,7 +71,7 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2010-11-07'
-      not_before: '2009-04-06'
+      not_before: '2010-01-27'
     end:
       certainty: between
       not_before: '2011-12-09'
@@ -74,6 +80,7 @@ chairs:
     - start moved earlier by WG Action announcement of 2011-06-14
     - widened to cover charter snapshots in proceedings
     - bounded by a proceedings charter snapshot listing other chairs
+    - bounded by minutes listing other chairs
   evidence:
   - kind: WG Review
     date: '2011-05-31'
@@ -111,6 +118,10 @@ chairs:
     - date: '2011-11-13'
       subject: IETF 82 proceedings charter
       url: https://www.ietf.org/proceedings/82/oauth.html
+  - kind: minutes without them
+    date: '2010-01-27'
+    subject: '[OAUTH-WG] draft minutes of OAuth WG interim meeting, 2010-01-21'
+    url: https://mailarchive.ietf.org/arch/msg/oauth/GdWYMNEd9277XVzIEil5qES2VJY/
   - kind: minutes without them
     date: '2012-03-25'
     subject: IETF 83 proceedings charter
@@ -234,7 +245,8 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2008-12-01'
       not_after: '2009-03-22'
     end:
       certainty: between
@@ -242,6 +254,7 @@ chairs:
       not_after: '2011-07-24'
     notes:
     - bounded by a proceedings charter snapshot listing other chairs
+    - bounded by minutes listing other chairs
   evidence:
   - kind: WG Review
     date: '2011-05-31'
@@ -261,6 +274,14 @@ chairs:
     - date: '2010-01-07'
       subject: '[OAUTH-WG] OAuth interim meeting, 2010-01-21'
       url: https://mailarchive.ietf.org/arch/msg/oauth/r9JoT9vEFsHpsc0NE7QaDBGVhC8/
+  - kind: minutes
+    listed_in: 1
+    first: '2010-01-27'
+    last: '2010-01-27'
+    examples:
+    - date: '2010-01-27'
+      subject: '[OAUTH-WG] draft minutes of OAuth WG interim meeting, 2010-01-21'
+      url: https://mailarchive.ietf.org/arch/msg/oauth/GdWYMNEd9277XVzIEil5qES2VJY/
   - kind: proceedings
     listed_in: 2
     first: '2009-03-22'
@@ -272,6 +293,10 @@ chairs:
     - date: '2009-05-15'
       subject: IETF 75 proceedings charter (last modified)
       url: https://www.ietf.org/proceedings/75/oauth.html
+  - kind: minutes without them
+    date: '2008-12-01'
+    subject: '[oauth] Draft minutes for the oauth bof'
+    url: https://mailarchive.ietf.org/arch/msg/oauth/01B-7AC7AtX6vpJSy7Kko-4tNG4/
   - kind: minutes without them
     date: '2011-07-24'
     subject: IETF 81 proceedings charter
@@ -285,7 +310,8 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2008-12-01'
       not_after: '2009-03-22'
     end:
       certainty: between
@@ -293,6 +319,7 @@ chairs:
       not_after: '2011-07-24'
     notes:
     - bounded by a proceedings charter snapshot listing other chairs
+    - bounded by minutes listing other chairs
   evidence:
   - kind: WG Review
     date: '2011-05-31'
@@ -310,6 +337,14 @@ chairs:
     - date: '2010-02-17'
       subject: '[OAUTH-WG] Proposed agenda for third interim meeting'
       url: https://mailarchive.ietf.org/arch/msg/oauth/YXF8DBpwBebP8gEeDncmyq1r3ig/
+  - kind: minutes
+    listed_in: 1
+    first: '2010-01-27'
+    last: '2010-01-27'
+    examples:
+    - date: '2010-01-27'
+      subject: '[OAUTH-WG] draft minutes of OAuth WG interim meeting, 2010-01-21'
+      url: https://mailarchive.ietf.org/arch/msg/oauth/GdWYMNEd9277XVzIEil5qES2VJY/
   - kind: proceedings
     listed_in: 5
     first: '2009-03-22'
@@ -324,6 +359,10 @@ chairs:
     - date: '2011-03-27'
       subject: IETF 80 proceedings charter
       url: https://www.ietf.org/proceedings/80/oauth.html
+  - kind: minutes without them
+    date: '2008-12-01'
+    subject: '[oauth] Draft minutes for the oauth bof'
+    url: https://mailarchive.ietf.org/arch/msg/oauth/01B-7AC7AtX6vpJSy7Kko-4tNG4/
   - kind: minutes without them
     date: '2011-07-24'
     subject: IETF 81 proceedings charter

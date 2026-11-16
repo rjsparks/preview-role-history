@@ -13,8 +13,19 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1993-04-19'
+      date: '1992-08-11'
       not_before: '1991-03-01'
     end:
       certainty: group-closed
       date: '1993-04-19'
+    notes:
+    - widened to cover chair lists in meeting minutes
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '1992-08-11'
+    last: '1992-08-11'
+    examples:
+    - date: '1992-08-11'
+      subject: Draft Minutes of July IETF ODA Working Group meeting
+      url: https://mailarchive.ietf.org/arch/msg/oda/zzIFB36UHUo0sZYi8eZVPCnb8dg/

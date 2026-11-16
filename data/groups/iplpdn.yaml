@@ -18,3 +18,25 @@ chairs:
     end:
       certainty: group-closed
       date: '1993-08-23'
+- person: 3321
+  name: Caralyn Brown
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1993-11-08'
+    end:
+      certainty: evidence-only
+      not_before: '1993-11-10'
+  evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '1993-11-08'
+    last: '1993-11-10'
+    examples:
+    - date: '1993-11-08'
+      subject: meeting minutes
+      url: https://mailarchive.ietf.org/arch/msg/iplpdn/1gisHAMIBHJFcfXORMR-yVL_hTA/
+    - date: '1993-11-10'
+      subject: meeting minutes for IPLPDN meeting
+      url: https://mailarchive.ietf.org/arch/msg/iplpdn/UdUT0tF7yNRHgJTV5AVDkkx_55g/

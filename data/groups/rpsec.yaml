@@ -17,9 +17,10 @@ chairs:
     end:
       certainty: between
       not_before: '2002-07-02'
-      not_after: '2003-01-22'
+      not_after: '2002-11-17'
     notes:
     - bounded by a proceedings charter snapshot listing other chairs
+    - bounded by minutes listing other chairs
   evidence:
   - kind: WG Action
     date: '2002-07-02'
@@ -34,16 +35,16 @@ chairs:
       subject: IETF 54 proceedings charter (last modified)
       url: https://www.ietf.org/proceedings/54/187.htm
   - kind: minutes without them
-    date: '2003-01-22'
-    subject: IETF 56 proceedings charter (last modified)
-    url: https://www.ietf.org/proceedings/56/192.htm
+    date: '2002-11-17'
+    subject: '[RPSEC] RPSEC minutes from IETF 55'
+    url: https://mailarchive.ietf.org/arch/msg/rpsec/Gnl1IN3lcNx2SLpbM5dmhqdVZlI/
 - person: 101784
   name: Tony Tauber
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-01-22'
+      date: '2002-11-17'
       not_before: '2002-05-06'
     end:
       certainty: group-closed
@@ -51,6 +52,7 @@ chairs:
     notes:
     - start moved earlier by WG Action announcement of 2004-03-24
     - widened to cover charter snapshots in proceedings
+    - widened to cover chair lists in meeting minutes
   evidence:
   - kind: WG Action
     date: '2004-03-24'
@@ -67,6 +69,20 @@ chairs:
     - date: '2004-11-09'
       subject: '[RPSEC] Agenda for IETF61 (WashDC)'
       url: https://mailarchive.ietf.org/arch/msg/rpsec/slLDW2uIsJTvqqNqHttL5SAKr94/
+  - kind: minutes
+    listed_in: 4
+    first: '2002-11-17'
+    last: '2006-03-24'
+    examples:
+    - date: '2002-11-17'
+      subject: '[RPSEC] RPSEC minutes from IETF 55'
+      url: https://mailarchive.ietf.org/arch/msg/rpsec/Gnl1IN3lcNx2SLpbM5dmhqdVZlI/
+    - date: '2003-03-25'
+      subject: '[RPSEC] Consensus and Draft Minutes from SF'
+      url: https://mailarchive.ietf.org/arch/msg/rpsec/6LJPf4CqDDTm_JIRYnAoBT09l-E/
+    - date: '2006-03-24'
+      subject: '[RPSEC] Minutes from IETF-65 (Dallas)'
+      url: https://mailarchive.ietf.org/arch/msg/rpsec/4064C46t8dEDxPbAkxZVCTSz3ao/
   - kind: proceedings
     listed_in: 11
     first: '2003-01-22'
@@ -120,6 +136,20 @@ chairs:
     - date: '2005-08-06'
       subject: '[RPSEC] Minutes and Presentations from Paris are now Posted...'
       url: https://mailarchive.ietf.org/arch/msg/rpsec/O_IxPIapDbtLyBNb5GyimPv0bdY/
+  - kind: minutes
+    listed_in: 4
+    first: '2002-11-17'
+    last: '2006-03-24'
+    examples:
+    - date: '2002-11-17'
+      subject: '[RPSEC] RPSEC minutes from IETF 55'
+      url: https://mailarchive.ietf.org/arch/msg/rpsec/Gnl1IN3lcNx2SLpbM5dmhqdVZlI/
+    - date: '2003-03-25'
+      subject: '[RPSEC] Consensus and Draft Minutes from SF'
+      url: https://mailarchive.ietf.org/arch/msg/rpsec/6LJPf4CqDDTm_JIRYnAoBT09l-E/
+    - date: '2006-03-24'
+      subject: '[RPSEC] Minutes from IETF-65 (Dallas)'
+      url: https://mailarchive.ietf.org/arch/msg/rpsec/4064C46t8dEDxPbAkxZVCTSz3ao/
   - kind: proceedings
     listed_in: 12
     first: '2002-07-02'

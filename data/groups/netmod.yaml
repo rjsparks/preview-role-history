@@ -58,6 +58,18 @@ chairs:
     - date: '2009-12-03'
       subject: '[netmod] Working Group Last Call: YANG - A data modeling language for NETCONF'
       url: https://mailarchive.ietf.org/arch/msg/netmod/L1iX5fUlT2yUJBZia9HBrVbua48/
+  - kind: minutes
+    listed_in: 2
+    first: '2008-11-16'
+    last: '2010-07-25'
+    examples:
+    - date: '2008-11-16'
+      subject: '[netmod] Preliminary IETF73 meeting minutes'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/26VAWb96kYN9oOpeAdtvOt6YszI/
+    - date: '2010-07-25'
+      subject: '[netmod] Approval of minutes 20100820: Draft minutes (v1) of netmod working group session
+        IETF 78'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/lHdhpFTLbEhXok3jtDWfkevrYTo/
   - kind: proceedings
     listed_in: 4
     first: '2005-05-11'
@@ -171,6 +183,14 @@ chairs:
     - date: '2008-12-18'
       subject: '[netmod] ietf73 netmod minutes'
       url: https://mailarchive.ietf.org/arch/msg/netmod/8dGYVjG9Onsor7r5srjISclB8l0/
+  - kind: minutes
+    listed_in: 1
+    first: '2008-11-16'
+    last: '2008-11-16'
+    examples:
+    - date: '2008-11-16'
+      subject: '[netmod] Preliminary IETF73 meeting minutes'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/26VAWb96kYN9oOpeAdtvOt6YszI/
   - kind: proceedings
     listed_in: 1
     first: '2005-05-11'
@@ -179,6 +199,11 @@ chairs:
     - date: '2005-05-11'
       subject: IETF 73 proceedings charter (last modified)
       url: https://www.ietf.org/proceedings/73/netmod.html
+  - kind: minutes without them
+    date: '2010-07-25'
+    subject: '[netmod] Approval of minutes 20100820: Draft minutes (v1) of netmod working group session
+      IETF 78'
+    url: https://mailarchive.ietf.org/arch/msg/netmod/lHdhpFTLbEhXok3jtDWfkevrYTo/
   - kind: session requests
     meetings:
     - '73'
@@ -241,6 +266,15 @@ chairs:
     - date: '2009-11-04'
       subject: '[netmod] Draft agenda for netmod session in Hiroshima (v1)'
       url: https://mailarchive.ietf.org/arch/msg/netmod/liGfQGJxbXhraEWxlkmCD3jxTj0/
+  - kind: minutes
+    listed_in: 1
+    first: '2010-07-25'
+    last: '2010-07-25'
+    examples:
+    - date: '2010-07-25'
+      subject: '[netmod] Approval of minutes 20100820: Draft minutes (v1) of netmod working group session
+        IETF 78'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/lHdhpFTLbEhXok3jtDWfkevrYTo/
   - kind: proceedings
     listed_in: 13
     first: '2009-03-22'
@@ -255,6 +289,10 @@ chairs:
     - date: '2013-11-03'
       subject: IETF 88 proceedings charter
       url: https://www.ietf.org/proceedings/88/netmod.html
+  - kind: minutes without them
+    date: '2008-11-16'
+    subject: '[netmod] Preliminary IETF73 meeting minutes'
+    url: https://mailarchive.ietf.org/arch/msg/netmod/26VAWb96kYN9oOpeAdtvOt6YszI/
   - kind: session requests
     meetings:
     - '80'
@@ -293,6 +331,11 @@ chairs:
     - date: '2019-04-13'
       subject: '[netmod] draft item 104 meeting 1/2 minutes'
       url: https://mailarchive.ietf.org/arch/msg/netmod/I2_rWCNjPDfUYzowE5KV85jMbp8/
+  - kind: minutes without them
+    date: '2010-07-25'
+    subject: '[netmod] Approval of minutes 20100820: Draft minutes (v1) of netmod working group session
+      IETF 78'
+    url: https://mailarchive.ietf.org/arch/msg/netmod/lHdhpFTLbEhXok3jtDWfkevrYTo/
   - kind: shepherded
     documents:
     - draft-ietf-netmod-module-tags
@@ -310,12 +353,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2010-10-26'
-      not_before: '2008-04-03'
+      not_before: '2010-07-25'
     end:
       certainty: exact
       date: '2016-06-27'
     notes:
     - start moved earlier by WG Action announcement of 2010-10-26
+    - bounded by minutes listing other chairs
   evidence:
   - kind: WG Action
     date: '2010-10-26'
@@ -367,6 +411,11 @@ chairs:
     - date: '2015-03-22'
       subject: IETF 92 proceedings charter
       url: https://www.ietf.org/proceedings/92/netmod.html
+  - kind: minutes without them
+    date: '2010-07-25'
+    subject: '[netmod] Approval of minutes 20100820: Draft minutes (v1) of netmod working group session
+      IETF 78'
+    url: https://mailarchive.ietf.org/arch/msg/netmod/lHdhpFTLbEhXok3jtDWfkevrYTo/
   - kind: session requests
     meetings:
     - '81'
@@ -436,6 +485,11 @@ chairs:
     - date: '2015-03-22'
       subject: IETF 92 proceedings charter
       url: https://www.ietf.org/proceedings/92/netmod.html
+  - kind: minutes without them
+    date: '2010-07-25'
+    subject: '[netmod] Approval of minutes 20100820: Draft minutes (v1) of netmod working group session
+      IETF 78'
+    url: https://mailarchive.ietf.org/arch/msg/netmod/lHdhpFTLbEhXok3jtDWfkevrYTo/
   - kind: shepherded
     documents:
     - draft-ietf-netmod-interfaces-cfg
@@ -451,9 +505,10 @@ chairs:
     end:
       certainty: between
       not_before: '2005-05-11'
-      not_after: '2009-03-22'
+      not_after: '2008-11-16'
     notes:
     - bounded by a proceedings charter snapshot listing other chairs
+    - bounded by minutes listing other chairs
   evidence:
   - kind: proceedings
     listed_in: 2
@@ -467,9 +522,9 @@ chairs:
       subject: IETF 71 proceedings charter (last modified)
       url: https://www.ietf.org/proceedings/71/netmod.html
   - kind: minutes without them
-    date: '2009-03-22'
-    subject: IETF 74 proceedings charter
-    url: https://www.ietf.org/proceedings/74/netmod.html
+    date: '2008-11-16'
+    subject: '[netmod] Preliminary IETF73 meeting minutes'
+    url: https://mailarchive.ietf.org/arch/msg/netmod/26VAWb96kYN9oOpeAdtvOt6YszI/
 - person: 112548
   name: Kent Watsen
   status: confirmed

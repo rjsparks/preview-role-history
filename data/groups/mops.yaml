@@ -69,6 +69,14 @@ chairs:
     - date: '2023-07-18'
       subject: '[Mops] Working group last call for draft-ietf-mops-ar-use-case'
       url: https://mailarchive.ietf.org/arch/msg/mops/PSJhBso1rYqmem2mBdBJUH9upFI/
+  - kind: minutes
+    listed_in: 1
+    first: '2019-11-16'
+    last: '2019-11-16'
+    examples:
+    - date: '2019-11-16'
+      subject: '[Mops] Last Call -- Minutes from MOPS at IETF 106 in Singapore'
+      url: https://mailarchive.ietf.org/arch/msg/mops/XNSXxdJAz_0fFEs6YFQQ28Gg1Zo/
 - person: 116218
   name: Glenn Deen
   status: confirmed
@@ -86,6 +94,15 @@ chairs:
     end:
       certainty: exact
       date: '2019-12-08'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2019-11-16'
+    last: '2019-11-16'
+    examples:
+    - date: '2019-11-16'
+      subject: '[Mops] Last Call -- Minutes from MOPS at IETF 106 in Singapore'
+      url: https://mailarchive.ietf.org/arch/msg/mops/XNSXxdJAz_0fFEs6YFQQ28Gg1Zo/
 - person: 119463
   name: Kyle Rose
   status: confirmed
@@ -118,3 +135,7 @@ chairs:
     - date: '2023-11-30'
       subject: '[Mops] WGLC started for TreeDN'
       url: https://mailarchive.ietf.org/arch/msg/mops/kuIlPp80M0_iisjP_JA2QNDMlx4/
+  - kind: minutes without them
+    date: '2019-11-16'
+    subject: '[Mops] Last Call -- Minutes from MOPS at IETF 106 in Singapore'
+    url: https://mailarchive.ietf.org/arch/msg/mops/XNSXxdJAz_0fFEs6YFQQ28Gg1Zo/

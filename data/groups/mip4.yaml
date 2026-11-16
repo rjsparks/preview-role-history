@@ -80,6 +80,17 @@ chairs:
     - date: '2003-12-10'
       subject: '[Mip4] WG adoption call on draft-kulkarni-mobileip-dynamic-assignment-02.txt'
       url: https://mailarchive.ietf.org/arch/msg/mip4/qQCWlUKEkQPUopjj62t9dz5QE1w/
+  - kind: minutes
+    listed_in: 2
+    first: '2003-11-09'
+    last: '2005-12-09'
+    examples:
+    - date: '2003-11-09'
+      subject: '[Mip4] Draft minutes from IETF58'
+      url: https://mailarchive.ietf.org/arch/msg/mip4/NYWW6xsztRNXZwqJkqXndyAoTYk/
+    - date: '2005-12-09'
+      subject: '[Mip4] IETF-64 Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/mip4/e9TF9oSaIdoM4v6onp1sWxB1Y5A/
   - kind: proceedings
     listed_in: 28
     first: '2003-10-07'
@@ -110,13 +121,15 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-07-25'
-      not_before: '2003-07-30'
+      date: '2003-11-09'
+      not_before: '2003-08-06'
     end:
       certainty: group-closed
       date: '2015-08-27'
     notes:
     - start moved earlier by WG Action announcement of 2006-07-25
+    - widened to cover chair lists in meeting minutes
+    - bounded by minutes listing other chairs
   evidence:
   - kind: WG Action
     date: '2006-07-25'
@@ -154,6 +167,14 @@ chairs:
     - date: '2006-10-25'
       subject: '[Mip4] Agenda for MIP4'
       url: https://mailarchive.ietf.org/arch/msg/mip4/f5l9yyS2eTsoOq2osK06t3uZzUs/
+  - kind: minutes
+    listed_in: 1
+    first: '2003-11-09'
+    last: '2003-11-09'
+    examples:
+    - date: '2003-11-09'
+      subject: '[Mip4] Draft minutes from IETF58'
+      url: https://mailarchive.ietf.org/arch/msg/mip4/NYWW6xsztRNXZwqJkqXndyAoTYk/
   - kind: proceedings
     listed_in: 20
     first: '2006-07-25'
@@ -168,6 +189,10 @@ chairs:
     - date: '2015-03-22'
       subject: IETF 92 proceedings charter
       url: https://www.ietf.org/proceedings/92/mip4.html
+  - kind: minutes without them
+    date: '2003-08-06'
+    subject: '[Mip4] Draft BOF Minutes'
+    url: https://mailarchive.ietf.org/arch/msg/mip4/teZijLOMBvh04himZw39AeycMxM/
   - kind: session requests
     meetings:
     - '68'

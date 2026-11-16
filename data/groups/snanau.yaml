@@ -26,6 +26,20 @@ chairs:
     - date: '1993-10-05'
       subject: Sept. 28 Meeting Minutes
       url: https://mailarchive.ietf.org/arch/msg/snanau/ErN0G-g059z0UO_-Hq3dCnEVGdw/
+  - kind: minutes
+    listed_in: 4
+    first: '1993-10-05'
+    last: '1994-04-14'
+    examples:
+    - date: '1993-10-05'
+      subject: Sept. 28 Meeting Minutes
+      url: https://mailarchive.ietf.org/arch/msg/snanau/ErN0G-g059z0UO_-Hq3dCnEVGdw/
+    - date: '1993-11-05'
+      subject: 11/3/93 WG Mtg Minutes
+      url: https://mailarchive.ietf.org/arch/msg/snanau/Lc8MwHpiulr-sGVORG5oKUdR2vk/
+    - date: '1994-04-14'
+      subject: Minutes
+      url: https://mailarchive.ietf.org/arch/msg/snanau/gWSQ50IO7OIz1Ci_OQdllfihRdM/
   - kind: proceedings
     listed_in: 4
     first: '1994-03-28'
@@ -46,11 +60,25 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '1994-03-28'
+      not_after: '1993-10-05'
     end:
       certainty: evidence-only
       not_before: '1995-07-17'
   evidence:
+  - kind: minutes
+    listed_in: 4
+    first: '1993-10-05'
+    last: '1994-04-14'
+    examples:
+    - date: '1993-10-05'
+      subject: Sept. 28 Meeting Minutes
+      url: https://mailarchive.ietf.org/arch/msg/snanau/ErN0G-g059z0UO_-Hq3dCnEVGdw/
+    - date: '1993-11-05'
+      subject: 11/3/93 WG Mtg Minutes
+      url: https://mailarchive.ietf.org/arch/msg/snanau/Lc8MwHpiulr-sGVORG5oKUdR2vk/
+    - date: '1994-04-14'
+      subject: Minutes
+      url: https://mailarchive.ietf.org/arch/msg/snanau/gWSQ50IO7OIz1Ci_OQdllfihRdM/
   - kind: proceedings
     listed_in: 4
     first: '1994-03-28'
@@ -98,3 +126,7 @@ chairs:
     - date: '1998-07-13'
       subject: IETF 42 proceedings charter (last modified)
       url: https://www.ietf.org/proceedings/42/98aug-109.htm
+  - kind: minutes without them
+    date: '1994-04-14'
+    subject: Minutes
+    url: https://mailarchive.ietf.org/arch/msg/snanau/gWSQ50IO7OIz1Ci_OQdllfihRdM/

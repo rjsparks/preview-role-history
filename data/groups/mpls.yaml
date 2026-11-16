@@ -74,6 +74,10 @@ chairs:
     - date: '2011-11-13'
       subject: IETF 82 proceedings charter
       url: https://www.ietf.org/proceedings/82/mpls.html
+  - kind: minutes without them
+    date: '2005-08-16'
+    subject: '[mpls] draft mpls wg minutes'
+    url: https://mailarchive.ietf.org/arch/msg/mpls/3ZCL5EOFuHSvqO6YD8exObE2Twg/
   - kind: shepherded
     documents:
     - draft-akiya-mpls-lsp-ping-reply-mode-simple
@@ -186,6 +190,17 @@ chairs:
     - date: '2007-04-23'
       subject: '[mpls] MPLS Minutes'
       url: https://mailarchive.ietf.org/arch/msg/mpls/iDFAA3SLg1SogV7ybbuFggACVaY/
+  - kind: minutes
+    listed_in: 2
+    first: '2005-03-06'
+    last: '2005-08-16'
+    examples:
+    - date: '2005-03-06'
+      subject: '[mpls] Draft MPLS Minutes: please comment'
+      url: https://mailarchive.ietf.org/arch/msg/mpls/bos3Km1zL4NbAfB7a4GaWGwOnC0/
+    - date: '2005-08-16'
+      subject: '[mpls] draft mpls wg minutes'
+      url: https://mailarchive.ietf.org/arch/msg/mpls/3ZCL5EOFuHSvqO6YD8exObE2Twg/
   - kind: proceedings
     listed_in: 35
     first: '1997-04-07'
@@ -234,9 +249,9 @@ chairs:
       subject: IETF 52 proceedings charter (last modified)
       url: https://www.ietf.org/proceedings/52/217.htm
   - kind: minutes without them
-    date: '2002-02-11'
-    subject: IETF 53 proceedings charter (last modified)
-    url: https://www.ietf.org/proceedings/53/214.htm
+    date: '2005-03-06'
+    subject: '[mpls] Draft MPLS Minutes: please comment'
+    url: https://mailarchive.ietf.org/arch/msg/mpls/bos3Km1zL4NbAfB7a4GaWGwOnC0/
 - person: 20682
   name: Loa Andersson
   status: confirmed
@@ -292,6 +307,17 @@ chairs:
     - date: '2005-08-12'
       subject: '[mpls] Working group last call on draft-ietf-mpls-rfc3036bis-02.txt'
       url: https://mailarchive.ietf.org/arch/msg/mpls/wG1y6TbfXAlo1c57Zc6TVZTT2L8/
+  - kind: minutes
+    listed_in: 2
+    first: '2005-03-06'
+    last: '2005-08-16'
+    examples:
+    - date: '2005-03-06'
+      subject: '[mpls] Draft MPLS Minutes: please comment'
+      url: https://mailarchive.ietf.org/arch/msg/mpls/bos3Km1zL4NbAfB7a4GaWGwOnC0/
+    - date: '2005-08-16'
+      subject: '[mpls] draft mpls wg minutes'
+      url: https://mailarchive.ietf.org/arch/msg/mpls/3ZCL5EOFuHSvqO6YD8exObE2Twg/
   - kind: proceedings
     listed_in: 20
     first: '2002-02-11'
@@ -512,6 +538,10 @@ chairs:
     - date: '2018-07-25'
       subject: '[mpls] WGLC for draft-ietf-mpls-ldp-yang'
       url: https://mailarchive.ietf.org/arch/msg/mpls/6Lugu3tgKyrpYdZkcHBIc8JMenI/
+  - kind: minutes without them
+    date: '2005-08-16'
+    subject: '[mpls] draft mpls wg minutes'
+    url: https://mailarchive.ietf.org/arch/msg/mpls/3ZCL5EOFuHSvqO6YD8exObE2Twg/
   - kind: shepherded
     documents:
     - draft-andersson-mpls-mna-fwk
@@ -529,12 +559,19 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2005-08-16'
       not_after: '2010-03-21'
     end:
       certainty: evidence-only
       not_before: '2011-11-13'
+    notes:
+    - bounded by minutes listing other chairs
   evidence:
+  - kind: minutes without them
+    date: '2005-08-16'
+    subject: '[mpls] draft mpls wg minutes'
+    url: https://mailarchive.ietf.org/arch/msg/mpls/3ZCL5EOFuHSvqO6YD8exObE2Twg/
   - kind: session requests
     meetings:
     - '77'

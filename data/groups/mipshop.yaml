@@ -14,13 +14,14 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2005-09-28'
-      not_before: '2003-06-10'
+      not_before: '2003-07-13'
     end:
       certainty: group-closed
       date: '2010-09-07'
     notes:
     - start moved earlier by session request for IETF 65
     - widened to cover charter snapshots in proceedings
+    - bounded by minutes listing other chairs
   evidence:
   - kind: WG Review
     date: '2006-02-21'
@@ -55,6 +56,11 @@ chairs:
     - date: '2009-05-22'
       subject: IETF 75 proceedings charter (last modified)
       url: https://www.ietf.org/proceedings/75/mipshop.html
+  - kind: minutes without them
+    date: '2003-07-13'
+    subject: '[Mipshop] Minutes for the MIPv6 Signaling and Handoff Optimization BOF (mipshop) - ietf
+      57'
+    url: https://mailarchive.ietf.org/arch/msg/mipshop/Merbz3XW_Hy_Tl5sNcla-Hj0UxE/
   - kind: session requests
     meetings:
     - '65'
@@ -119,6 +125,11 @@ chairs:
     - date: '2009-05-22'
       subject: IETF 75 proceedings charter (last modified)
       url: https://www.ietf.org/proceedings/75/mipshop.html
+  - kind: minutes without them
+    date: '2003-07-13'
+    subject: '[Mipshop] Minutes for the MIPv6 Signaling and Handoff Optimization BOF (mipshop) - ietf
+      57'
+    url: https://mailarchive.ietf.org/arch/msg/mipshop/Merbz3XW_Hy_Tl5sNcla-Hj0UxE/
   - kind: session requests
     meetings:
     - '68'
@@ -135,7 +146,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2003-07-27'
+      not_after: '2003-07-13'
     end:
       certainty: approximate
       date: '2006-07-31'
@@ -176,6 +187,15 @@ chairs:
     - date: '2003-11-03'
       subject: '[Mipshop] working group last call on HMIPv6: draft-ietf-mipshop-hmipv6-00.txt'
       url: https://mailarchive.ietf.org/arch/msg/mipshop/8bBmN5AdxvlEH1hsLFb1zXWUOC8/
+  - kind: minutes
+    listed_in: 1
+    first: '2003-07-13'
+    last: '2003-07-13'
+    examples:
+    - date: '2003-07-13'
+      subject: '[Mipshop] Minutes for the MIPv6 Signaling and Handoff Optimization BOF (mipshop) - ietf
+        57'
+      url: https://mailarchive.ietf.org/arch/msg/mipshop/Merbz3XW_Hy_Tl5sNcla-Hj0UxE/
   - kind: proceedings
     listed_in: 6
     first: '2003-10-20'

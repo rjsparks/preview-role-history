@@ -13,7 +13,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2000-09-25'
+      not_after: '2000-08-10'
     end:
       certainty: approximate
       date: '2001-03-02'
@@ -31,6 +31,17 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/ips/i7sDi74gShY6mRJHWtIwua2kHF8/
     excerpt: '- Steve Bellovin has found it necessary to step down as one of the IP Storage WG co-chairs
       due to other demands on his time.'
+  - kind: minutes
+    listed_in: 2
+    first: '2000-08-10'
+    last: '2000-08-22'
+    examples:
+    - date: '2000-08-10'
+      subject: DRAFT Pittsburgh ips Minutes
+      url: https://mailarchive.ietf.org/arch/msg/ips/psMcZ6KU15_QDt88KF_it5Qy0WU/
+    - date: '2000-08-22'
+      subject: Final Pittsburgh Minutes
+      url: https://mailarchive.ietf.org/arch/msg/ips/ChpPvlmoC0wPhMjg3dEci6bK_1A/
   - kind: proceedings
     listed_in: 1
     first: '2000-10-23'
@@ -44,11 +55,14 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2000-08-22'
       not_after: '2000-10-23'
     end:
       certainty: evidence-only
       not_before: '2005-06-27'
+    notes:
+    - bounded by minutes listing other chairs
   evidence:
   - kind: proceedings
     listed_in: 15
@@ -64,6 +78,10 @@ chairs:
     - date: '2005-06-27'
       subject: IETF 63 proceedings charter (last modified)
       url: https://www.ietf.org/proceedings/63/ips.html
+  - kind: minutes without them
+    date: '2000-08-22'
+    subject: Final Pittsburgh Minutes
+    url: https://mailarchive.ietf.org/arch/msg/ips/ChpPvlmoC0wPhMjg3dEci6bK_1A/
 - person: 103156
   name: David Black
   status: confirmed
@@ -96,6 +114,17 @@ chairs:
     - date: '2005-05-10'
       subject: '[Ips] WG Last Call: iSER and DA'
       url: https://mailarchive.ietf.org/arch/msg/ips/KaGyBWl8KjfRtKClQNOCRMgUNGk/
+  - kind: minutes
+    listed_in: 2
+    first: '2000-08-10'
+    last: '2000-08-22'
+    examples:
+    - date: '2000-08-10'
+      subject: DRAFT Pittsburgh ips Minutes
+      url: https://mailarchive.ietf.org/arch/msg/ips/psMcZ6KU15_QDt88KF_it5Qy0WU/
+    - date: '2000-08-22'
+      subject: Final Pittsburgh Minutes
+      url: https://mailarchive.ietf.org/arch/msg/ips/ChpPvlmoC0wPhMjg3dEci6bK_1A/
   - kind: proceedings
     listed_in: 20
     first: '2000-10-23'

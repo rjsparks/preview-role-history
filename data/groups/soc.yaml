@@ -13,11 +13,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2010-07-02'
       not_before: '2010-04-16'
     end:
       certainty: group-closed
       date: '2015-02-02'
+    notes:
+    - widened to cover chair lists in meeting minutes
   evidence:
   - kind: chair activity
     first: '2010-05-28'
@@ -33,6 +35,14 @@ chairs:
     - date: '2013-12-09'
       subject: '[sip-overload] WGLC: draft-ietf-soc-overload-rate-control'
       url: https://mailarchive.ietf.org/arch/msg/sip-overload/ZsbP2c2RyOIvf2W2-JhkdbZAXmU/
+  - kind: minutes
+    listed_in: 1
+    first: '2010-07-02'
+    last: '2010-07-02'
+    examples:
+    - date: '2010-07-02'
+      subject: '[sip-overload] minutes from SoC Interim Meeting I'
+      url: https://mailarchive.ietf.org/arch/msg/sip-overload/QBl7-g3-MoqgOeatTGQHerphkho/
   - kind: proceedings
     listed_in: 16
     first: '2010-03-21'
@@ -57,13 +67,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-07-25'
+      date: '2010-07-02'
       not_before: '2010-04-16'
     end:
       certainty: group-closed
       date: '2015-02-02'
     notes:
     - start moved earlier by session request for IETF 78
+    - widened to cover chair lists in meeting minutes
   evidence:
   - kind: chair activity
     first: '2010-07-02'
@@ -85,6 +96,14 @@ chairs:
     - date: '2012-07-02'
       subject: '[sip-overload] WGLC: draft-ietf-soc-oload-control-event-package'
       url: https://mailarchive.ietf.org/arch/msg/sip-overload/mzh7wKACMsl81oF44tKK8q1aMJY/
+  - kind: minutes
+    listed_in: 1
+    first: '2010-07-02'
+    last: '2010-07-02'
+    examples:
+    - date: '2010-07-02'
+      subject: '[sip-overload] minutes from SoC Interim Meeting I'
+      url: https://mailarchive.ietf.org/arch/msg/sip-overload/QBl7-g3-MoqgOeatTGQHerphkho/
   - kind: proceedings
     listed_in: 16
     first: '2010-03-21'

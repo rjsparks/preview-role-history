@@ -30,6 +30,20 @@ chairs:
     - date: '2003-07-14'
       subject: '[rohc] Agenda for Tuesday meeting'
       url: https://mailarchive.ietf.org/arch/msg/rohc/Z37eswkEj5w8_ZdNtSH6GH25FcA/
+  - kind: minutes
+    listed_in: 7
+    first: '2002-11-17'
+    last: '2005-07-31'
+    examples:
+    - date: '2002-11-17'
+      subject: '[rohc] ROHC Minutes, IETF 55'
+      url: https://mailarchive.ietf.org/arch/msg/rohc/ELVaeKHZs9x0mLPrvwc7NxeemDY/
+    - date: '2003-03-16'
+      subject: '[rohc] Preliminary minutes from San Francisco'
+      url: https://mailarchive.ietf.org/arch/msg/rohc/aB5ZOvGlRYCcsCVrlHV0Z_igoqE/
+    - date: '2005-07-31'
+      subject: '[rohc] Minutes from ROHC@IETF63'
+      url: https://mailarchive.ietf.org/arch/msg/rohc/8lInIwcihd2AskYPEF67vIZVf4g/
   - kind: proceedings
     listed_in: 16
     first: '2000-03-13'
@@ -73,9 +87,9 @@ chairs:
       subject: IETF 52 proceedings charter (last modified)
       url: https://www.ietf.org/proceedings/52/237.htm
   - kind: minutes without them
-    date: '2002-03-05'
-    subject: IETF 53 proceedings charter (last modified)
-    url: https://www.ietf.org/proceedings/53/234.htm
+    date: '2002-11-17'
+    subject: '[rohc] ROHC Minutes, IETF 55'
+    url: https://mailarchive.ietf.org/arch/msg/rohc/ELVaeKHZs9x0mLPrvwc7NxeemDY/
 - person: 103797
   name: Lars-Erik Jonsson
   status: unconfirmed
@@ -106,6 +120,20 @@ chairs:
     - date: '2004-11-12'
       subject: '[rohc] Preliminary minutes from ROHC@IETF61, Part 1'
       url: https://mailarchive.ietf.org/arch/msg/rohc/wZ_yYzmWyhnp_RH4mndEe6aUwbE/
+  - kind: minutes
+    listed_in: 9
+    first: '2002-11-17'
+    last: '2006-07-09'
+    examples:
+    - date: '2002-11-17'
+      subject: '[rohc] ROHC Minutes, IETF 55'
+      url: https://mailarchive.ietf.org/arch/msg/rohc/ELVaeKHZs9x0mLPrvwc7NxeemDY/
+    - date: '2003-03-16'
+      subject: '[rohc] Preliminary minutes from San Francisco'
+      url: https://mailarchive.ietf.org/arch/msg/rohc/aB5ZOvGlRYCcsCVrlHV0Z_igoqE/
+    - date: '2006-07-09'
+      subject: '[rohc] ROHC minutes from IETF 66'
+      url: https://mailarchive.ietf.org/arch/msg/rohc/lyVJlvejfcvF5hRMmzlUaB4GExc/
   - kind: proceedings
     listed_in: 14
     first: '2002-03-05'
@@ -131,12 +159,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2006-01-10'
-      not_before: '2000-02-21'
+      not_before: '2005-07-31'
     end:
       certainty: group-closed
       date: '2010-03-16'
     notes:
     - widened to cover last calls and adoption calls on the group list
+    - bounded by minutes listing other chairs
   evidence:
   - kind: list message
     date: '2007-09-28'
@@ -160,3 +189,7 @@ chairs:
     - date: '2007-09-28'
       subject: IETF 71 proceedings charter (last modified)
       url: https://www.ietf.org/proceedings/71/rohc.html
+  - kind: minutes without them
+    date: '2005-07-31'
+    subject: '[rohc] Minutes from ROHC@IETF63'
+    url: https://mailarchive.ietf.org/arch/msg/rohc/8lInIwcihd2AskYPEF67vIZVf4g/

@@ -19,6 +19,11 @@ chairs:
       certainty: between
       not_before: '2011-12-09'
       not_after: '2014-03-05'
+  evidence:
+  - kind: minutes without them
+    date: '2008-03-31'
+    subject: Philadelphia meeting minutes
+    url: https://mailarchive.ietf.org/arch/msg/l3vpn/kAYtpgvPa5d8h9Jn3hIUB10vf-k/
 - person: 2492
   name: Rick Wilder
   status: unconfirmed
@@ -28,11 +33,25 @@ chairs:
       not_after: '2003-07-09'
     end:
       certainty: between
-      not_before: '2008-03-09'
+      not_before: '2008-03-31'
       not_after: '2009-03-22'
     notes:
     - bounded by a proceedings charter snapshot listing other chairs
   evidence:
+  - kind: minutes
+    listed_in: 3
+    first: '2005-12-02'
+    last: '2008-03-31'
+    examples:
+    - date: '2005-12-02'
+      subject: draft minutes from the L3VPN meeting in Vancouver
+      url: https://mailarchive.ietf.org/arch/msg/l3vpn/6NRZsGdgEoYQ-ACNtBEmhXVA0vE/
+    - date: '2007-03-18'
+      subject: Minutes - better late than never
+      url: https://mailarchive.ietf.org/arch/msg/l3vpn/rsN1jhFFFgXK2vDKf5OzBrLcKog/
+    - date: '2008-03-31'
+      subject: Philadelphia meeting minutes
+      url: https://mailarchive.ietf.org/arch/msg/l3vpn/kAYtpgvPa5d8h9Jn3hIUB10vf-k/
   - kind: proceedings
     listed_in: 13
     first: '2003-07-09'
@@ -84,6 +103,17 @@ chairs:
     - date: '2003-11-11'
       subject: Draft Agenda for Working Group meeting
       url: https://mailarchive.ietf.org/arch/msg/l3vpn/KvZm0KeFndKhq0TCrBhN6cmSnMs/
+  - kind: minutes
+    listed_in: 2
+    first: '2003-07-13'
+    last: '2005-12-02'
+    examples:
+    - date: '2003-07-13'
+      subject: IETF 57 L3VPN Minutes
+      url: https://mailarchive.ietf.org/arch/msg/l3vpn/3bI6H5W-8m-vEzKpWgUaPX9TIMk/
+    - date: '2005-12-02'
+      subject: draft minutes from the L3VPN meeting in Vancouver
+      url: https://mailarchive.ietf.org/arch/msg/l3vpn/6NRZsGdgEoYQ-ACNtBEmhXVA0vE/
   - kind: proceedings
     listed_in: 9
     first: '2003-07-09'
@@ -99,9 +129,9 @@ chairs:
       subject: IETF 65 proceedings charter (last modified)
       url: https://www.ietf.org/proceedings/65/l3vpn.html
   - kind: minutes without them
-    date: '2006-03-30'
-    subject: IETF 66 proceedings charter (last modified)
-    url: https://www.ietf.org/proceedings/66/l3vpn.html
+    date: '2007-03-18'
+    subject: Minutes - better late than never
+    url: https://mailarchive.ietf.org/arch/msg/l3vpn/rsN1jhFFFgXK2vDKf5OzBrLcKog/
   - kind: session requests
     meetings:
     - '65'
@@ -113,7 +143,7 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2009-03-22'
-      not_before: '2003-06-09'
+      not_before: '2008-03-31'
     end:
       certainty: between
       not_before: '2011-12-09'
@@ -122,6 +152,7 @@ chairs:
     - start moved earlier by WG Action announcement of 2011-03-21
     - widened to cover last calls and adoption calls on the group list
     - widened to cover charter snapshots in proceedings
+    - bounded by minutes listing other chairs
   evidence:
   - kind: WG Action
     date: '2011-03-21'
@@ -161,6 +192,10 @@ chairs:
     - date: '2011-11-13'
       subject: IETF 82 proceedings charter
       url: https://www.ietf.org/proceedings/82/l3vpn.html
+  - kind: minutes without them
+    date: '2008-03-31'
+    subject: Philadelphia meeting minutes
+    url: https://mailarchive.ietf.org/arch/msg/l3vpn/kAYtpgvPa5d8h9Jn3hIUB10vf-k/
 - person: 101568
   name: Ron Bonica
   status: unconfirmed
@@ -199,6 +234,20 @@ chairs:
     - date: '2005-03-10'
       subject: IETF 62 minutes
       url: https://mailarchive.ietf.org/arch/msg/l3vpn/DVgS5a76P3NHTsPWBLOJ3m2TR_8/
+  - kind: minutes
+    listed_in: 4
+    first: '2003-07-13'
+    last: '2008-03-31'
+    examples:
+    - date: '2003-07-13'
+      subject: IETF 57 L3VPN Minutes
+      url: https://mailarchive.ietf.org/arch/msg/l3vpn/3bI6H5W-8m-vEzKpWgUaPX9TIMk/
+    - date: '2005-12-02'
+      subject: draft minutes from the L3VPN meeting in Vancouver
+      url: https://mailarchive.ietf.org/arch/msg/l3vpn/6NRZsGdgEoYQ-ACNtBEmhXVA0vE/
+    - date: '2008-03-31'
+      subject: Philadelphia meeting minutes
+      url: https://mailarchive.ietf.org/arch/msg/l3vpn/kAYtpgvPa5d8h9Jn3hIUB10vf-k/
   - kind: proceedings
     listed_in: 13
     first: '2003-07-09'
@@ -260,6 +309,10 @@ chairs:
     - date: '2014-01-06'
       subject: WG Last Call for draft-ietf-l3vpn-mvpn-mldp-nlri
       url: https://mailarchive.ietf.org/arch/msg/l3vpn/cqPXox68_VqfHRH9Zcya7sSDQ2A/
+  - kind: minutes without them
+    date: '2008-03-31'
+    subject: Philadelphia meeting minutes
+    url: https://mailarchive.ietf.org/arch/msg/l3vpn/kAYtpgvPa5d8h9Jn3hIUB10vf-k/
   - kind: shepherded
     documents:
     - draft-bonica-l3vpn-orf-covering-prefixes
@@ -272,13 +325,14 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2008-11-16'
-      not_before: '2003-06-09'
+      not_before: '2008-03-31'
     end:
       certainty: between
       not_before: '2011-12-09'
       not_after: '2014-03-05'
     notes:
     - start moved earlier by session request for IETF 73
+    - bounded by minutes listing other chairs
   evidence:
   - kind: proceedings
     listed_in: 9
@@ -294,6 +348,10 @@ chairs:
     - date: '2011-11-13'
       subject: IETF 82 proceedings charter
       url: https://www.ietf.org/proceedings/82/l3vpn.html
+  - kind: minutes without them
+    date: '2008-03-31'
+    subject: Philadelphia meeting minutes
+    url: https://mailarchive.ietf.org/arch/msg/l3vpn/kAYtpgvPa5d8h9Jn3hIUB10vf-k/
   - kind: session requests
     meetings:
     - '73'
@@ -361,6 +419,10 @@ chairs:
     - date: '2011-11-13'
       subject: IETF 82 proceedings charter
       url: https://www.ietf.org/proceedings/82/l3vpn.html
+  - kind: minutes without them
+    date: '2008-03-31'
+    subject: Philadelphia meeting minutes
+    url: https://mailarchive.ietf.org/arch/msg/l3vpn/kAYtpgvPa5d8h9Jn3hIUB10vf-k/
   - kind: session requests
     meetings:
     - '77'
@@ -399,6 +461,10 @@ chairs:
     - date: '2014-10-08'
       subject: WG Last Call on draft-ietf-l3vpn-mvpn-extranet
       url: https://mailarchive.ietf.org/arch/msg/l3vpn/BYdxhymZlHE7dDFUtc2EFiTCdBs/
+  - kind: minutes without them
+    date: '2008-03-31'
+    subject: Philadelphia meeting minutes
+    url: https://mailarchive.ietf.org/arch/msg/l3vpn/kAYtpgvPa5d8h9Jn3hIUB10vf-k/
   - kind: shepherded
     documents:
     - draft-fang-l3vpn-virtual-pe

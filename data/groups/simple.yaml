@@ -57,6 +57,17 @@ chairs:
     - date: '2003-07-07'
       subject: '[Simple] WGLC: draft-ietf-simple-publish-reqs-00.txt'
       url: https://mailarchive.ietf.org/arch/msg/simple/ejwN1vrb9JlgBUtGWatifdDEl8Y/
+  - kind: minutes
+    listed_in: 2
+    first: '2006-07-09'
+    last: '2007-03-18'
+    examples:
+    - date: '2006-07-09'
+      subject: '[Simple] Draft minutes: SIMPLE at IETF66'
+      url: https://mailarchive.ietf.org/arch/msg/simple/MzHSoORqx_r2GIvB7KtB0QRNqdU/
+    - date: '2007-03-18'
+      subject: '[Simple] draft minutes: SIMPLE at ietf68'
+      url: https://mailarchive.ietf.org/arch/msg/simple/h9jkLd7YsBf0VH4Y1_AAK_05Kw0/
   - kind: proceedings
     listed_in: 19
     first: '2001-03-14'
@@ -95,13 +106,14 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2009-03-30'
-      not_before: '2001-01-18'
+      not_before: '2006-07-09'
     end:
       certainty: group-closed
       date: '2013-02-26'
     notes:
     - start moved earlier by session request for IETF 75
     - widened to cover charter snapshots in proceedings
+    - bounded by minutes listing other chairs
   evidence:
   - kind: chair activity
     first: '2009-03-30'
@@ -123,6 +135,14 @@ chairs:
     - date: '2010-02-22'
       subject: '[Simple] WGLC (repeat) of draft-ietf-simple-xcap-diff-14'
       url: https://mailarchive.ietf.org/arch/msg/simple/AYdEdYK5GGhz_0e3fRR2fcV2PxQ/
+  - kind: minutes
+    listed_in: 1
+    first: '2011-07-24'
+    last: '2011-07-24'
+    examples:
+    - date: '2011-07-24'
+      subject: '[Simple] Draft Minutes from SIMPLE@IETF81'
+      url: https://mailarchive.ietf.org/arch/msg/simple/k3SC763sUtHM0jUTNQVZdGKfdH8/
   - kind: proceedings
     listed_in: 9
     first: '2009-03-30'
@@ -137,6 +157,10 @@ chairs:
     - date: '2012-11-04'
       subject: IETF 85 proceedings charter
       url: https://www.ietf.org/proceedings/85/simple.html
+  - kind: minutes without them
+    date: '2006-07-09'
+    subject: '[Simple] Draft minutes: SIMPLE at IETF66'
+    url: https://mailarchive.ietf.org/arch/msg/simple/MzHSoORqx_r2GIvB7KtB0QRNqdU/
   - kind: session requests
     meetings:
     - '75'
@@ -179,9 +203,9 @@ chairs:
       subject: IETF 58 proceedings charter (last modified)
       url: https://www.ietf.org/proceedings/58/121.htm
   - kind: minutes without them
-    date: '2004-02-02'
-    subject: IETF 59 proceedings charter (last modified)
-    url: https://www.ietf.org/proceedings/59/119.htm
+    date: '2006-07-09'
+    subject: '[Simple] Draft minutes: SIMPLE at IETF66'
+    url: https://mailarchive.ietf.org/arch/msg/simple/MzHSoORqx_r2GIvB7KtB0QRNqdU/
 - person: 105426
   name: Hisham Khartabil
   status: confirmed
@@ -229,6 +253,14 @@ chairs:
     - date: '2006-05-02'
       subject: '[Simple] WGLC: Presence Authorization Rules'
       url: https://mailarchive.ietf.org/arch/msg/simple/c6LvNN_Y6ZFpmiC6tY2OkaQtRcY/
+  - kind: minutes
+    listed_in: 1
+    first: '2006-07-09'
+    last: '2006-07-09'
+    examples:
+    - date: '2006-07-09'
+      subject: '[Simple] Draft minutes: SIMPLE at IETF66'
+      url: https://mailarchive.ietf.org/arch/msg/simple/MzHSoORqx_r2GIvB7KtB0QRNqdU/
   - kind: proceedings
     listed_in: 19
     first: '2004-02-02'

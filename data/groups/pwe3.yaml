@@ -52,6 +52,20 @@ chairs:
     - date: '2009-05-01'
       subject: '[PWE3] WG Last Call for draft-ietf-pwe3-oam-msg-map-10'
       url: https://mailarchive.ietf.org/arch/msg/pwe3/dSY-jyGUfso0ef28yl-nSbJkVjU/
+  - kind: minutes
+    listed_in: 7
+    first: '2003-07-25'
+    last: '2007-12-13'
+    examples:
+    - date: '2003-07-25'
+      subject: Minutes - PWE3 WG Meeting IETF-57, Wed 16th July 2003
+      url: https://mailarchive.ietf.org/arch/msg/pwe3/WQAgfzE5yC88eJMFOomk3WiuN7g/
+    - date: '2003-08-06'
+      subject: PWE3 WG Meeting IETF-57, Wed 16th July 2003 - minutes
+      url: https://mailarchive.ietf.org/arch/msg/pwe3/RCeYBx22y4OKrt4GnPYmQLZzEkk/
+    - date: '2007-12-13'
+      subject: '[PWE3] Vancouver minutes'
+      url: https://mailarchive.ietf.org/arch/msg/pwe3/Znv43RbEmMHe5_TKbyOPDVPiCeU/
   - kind: proceedings
     listed_in: 15
     first: '2003-07-13'
@@ -130,6 +144,10 @@ chairs:
     - date: '2011-11-13'
       subject: IETF 82 proceedings charter
       url: https://www.ietf.org/proceedings/82/pwe3.html
+  - kind: minutes without them
+    date: '2007-12-13'
+    subject: '[PWE3] Vancouver minutes'
+    url: https://mailarchive.ietf.org/arch/msg/pwe3/Znv43RbEmMHe5_TKbyOPDVPiCeU/
   - kind: shepherded
     documents:
     - draft-ietf-pwe3-cbit-negotiation
@@ -151,7 +169,7 @@ chairs:
       not_after: '2001-03-29'
     end:
       certainty: between
-      not_before: '2007-09-26'
+      not_before: '2007-12-13'
       not_after: '2009-04-13'
     notes:
     - bounded by a proceedings charter snapshot listing other chairs
@@ -184,6 +202,20 @@ chairs:
     - date: '2003-10-23'
       subject: 'WG Last Call: draft-ietf-pwe3-ethernet-encap-04.txt'
       url: https://mailarchive.ietf.org/arch/msg/pwe3/ZDz3rVsjaSelim90RmAQAa2FrtA/
+  - kind: minutes
+    listed_in: 11
+    first: '2002-11-17'
+    last: '2007-12-13'
+    examples:
+    - date: '2002-11-17'
+      subject: PWE3 IETF 55 Draft Minutes
+      url: https://mailarchive.ietf.org/arch/msg/pwe3/UjVByceKUlcA0jKVQAIeQBY4HPs/
+    - date: '2003-07-25'
+      subject: Minutes - PWE3 WG Meeting IETF-57, Wed 16th July 2003
+      url: https://mailarchive.ietf.org/arch/msg/pwe3/WQAgfzE5yC88eJMFOomk3WiuN7g/
+    - date: '2007-12-13'
+      subject: '[PWE3] Vancouver minutes'
+      url: https://mailarchive.ietf.org/arch/msg/pwe3/Znv43RbEmMHe5_TKbyOPDVPiCeU/
   - kind: proceedings
     listed_in: 19
     first: '2001-07-31'
@@ -235,9 +267,9 @@ chairs:
       subject: IETF 53 proceedings charter (last modified)
       url: https://www.ietf.org/proceedings/53/231.htm
   - kind: minutes without them
-    date: '2003-07-13'
-    subject: IETF 57 proceedings charter
-    url: https://www.ietf.org/proceedings/57/238.htm
+    date: '2003-07-25'
+    subject: Minutes - PWE3 WG Meeting IETF-57, Wed 16th July 2003
+    url: https://mailarchive.ietf.org/arch/msg/pwe3/WQAgfzE5yC88eJMFOomk3WiuN7g/
 - person: 105786
   name: Matthew Bocci
   status: confirmed
@@ -245,12 +277,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2006-03-19'
-      not_before: '2001-03-26'
+      not_before: '2004-11-07'
     end:
       certainty: group-closed
       date: '2014-11-20'
     notes:
     - start moved earlier by session request for IETF 65
+    - bounded by minutes listing other chairs
   evidence:
   - kind: chair activity
     first: '2005-08-11'
@@ -280,6 +313,10 @@ chairs:
     - date: '2011-11-13'
       subject: IETF 82 proceedings charter
       url: https://www.ietf.org/proceedings/82/pwe3.html
+  - kind: minutes without them
+    date: '2004-11-07'
+    subject: PWE3 Draft Minutes - IETF 61
+    url: https://mailarchive.ietf.org/arch/msg/pwe3/ftCYS71ZoqbTLfyy6sL6Zp58SNE/
   - kind: session requests
     meetings:
     - '65'
