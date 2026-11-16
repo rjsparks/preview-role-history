@@ -13,11 +13,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1998-09-08'
+      date: '1995-04-03'
       not_before: '1991-10-22'
     end:
       certainty: group-closed
       date: '1998-09-08'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '1996-12-15'
@@ -27,3 +29,42 @@ chairs:
     - date: '1996-12-15'
       subject: ISN WG Minutes
       url: https://mailarchive.ietf.org/arch/msg/isn/K1j5T8xRA-0iCH5LcYjvs0pJW4o/
+  - kind: proceedings
+    listed_in: 7
+    first: '1995-04-03'
+    last: '1998-07-29'
+    examples:
+    - date: '1995-04-03'
+      subject: IETF 32 proceedings charter
+      url: https://www.ietf.org/proceedings/32/area.and.wg.reports/usv/isn/isn-charter.txt
+    - date: '1995-07-17'
+      subject: IETF 33 proceedings charter
+      url: https://www.ietf.org/proceedings/33/area.and.wg.reports/usv/isn/isn-charter.txt
+    - date: '1998-07-29'
+      subject: IETF 42 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/42/98aug-147.htm
+- person: 8211
+  name: Jennifer Sellers
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1994-03-28'
+    end:
+      certainty: evidence-only
+      not_before: '1995-12-04'
+  evidence:
+  - kind: proceedings
+    listed_in: 5
+    first: '1994-03-28'
+    last: '1995-12-04'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/usv/isn/isn-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/usv/isn/isn-charter.txt
+    - date: '1995-12-04'
+      subject: IETF 34 proceedings charter
+      url: https://www.ietf.org/proceedings/34/area.and.wg.reports/usv/isn/isn-charter.txt

@@ -18,6 +18,15 @@ chairs:
     end:
       certainty: approximate
       date: '2013-01-07'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2012-07-29'
+    last: '2012-07-29'
+    examples:
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/wpkops.html
 - person: 20117
   name: Sharon Boeyen
   status: confirmed
@@ -41,6 +50,17 @@ chairs:
     - date: '2013-06-19'
       subject: '[wpkops] No agenda items for Berlin'
       url: https://mailarchive.ietf.org/arch/msg/wpkops/GBoAlZxrH1CDWQtTcLBRFY60HvA/
+  - kind: proceedings
+    listed_in: 2
+    first: '2013-03-10'
+    last: '2013-07-28'
+    examples:
+    - date: '2013-03-10'
+      subject: IETF 86 proceedings charter
+      url: https://www.ietf.org/proceedings/86/wpkops.html
+    - date: '2013-07-28'
+      subject: IETF 87 proceedings charter
+      url: https://www.ietf.org/proceedings/87/wpkops.html
 - person: 110367
   name: Tim Moses
   status: confirmed
@@ -80,6 +100,20 @@ chairs:
     - date: '2012-11-09'
       subject: '[wpkops] Minutes IETF 85 BoF'
       url: https://mailarchive.ietf.org/arch/msg/wpkops/FqhXEGypCHZie2D1sQUdl2phJHM/
+  - kind: proceedings
+    listed_in: 9
+    first: '2012-07-29'
+    last: '2015-03-22'
+    examples:
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/wpkops.html
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/wpkops.html
+    - date: '2015-03-22'
+      subject: IETF 92 proceedings charter
+      url: https://www.ietf.org/proceedings/92/wpkops.html
 - person: 115286
   name: Jeremy Rowley
   status: confirmed
@@ -99,3 +133,17 @@ chairs:
     - date: '2013-05-31'
       subject: '[wpkops] Agenda Items for IETF 87'
       url: https://mailarchive.ietf.org/arch/msg/wpkops/JqZjtX4fAAg7XtjJ7JtxnwhzB3w/
+  - kind: proceedings
+    listed_in: 7
+    first: '2013-03-10'
+    last: '2015-03-22'
+    examples:
+    - date: '2013-03-10'
+      subject: IETF 86 proceedings charter
+      url: https://www.ietf.org/proceedings/86/wpkops.html
+    - date: '2013-07-28'
+      subject: IETF 87 proceedings charter
+      url: https://www.ietf.org/proceedings/87/wpkops.html
+    - date: '2015-03-22'
+      subject: IETF 92 proceedings charter
+      url: https://www.ietf.org/proceedings/92/wpkops.html

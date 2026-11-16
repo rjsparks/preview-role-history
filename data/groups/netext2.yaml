@@ -13,17 +13,39 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2009-06-24'
     end:
       certainty: group-closed
       date: '2011-12-09'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2009-06-24'
+    last: '2009-06-24'
+    examples:
+    - date: '2009-06-24'
+      subject: IETF 75 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/75/netext2.html
 - person: 105800
   name: Jonne Soininen
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2009-06-24'
     end:
       certainty: group-closed
       date: '2011-12-09'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2009-06-24'
+    last: '2009-06-24'
+    examples:
+    - date: '2009-06-24'
+      subject: IETF 75 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/75/netext2.html

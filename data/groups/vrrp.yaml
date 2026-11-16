@@ -37,6 +37,60 @@ chairs:
     - date: '2003-07-29'
       subject: '[VRRP] (re)post of minutes of VRRP WG, 7/16/2003, (this time without slides attached)'
       url: https://mailarchive.ietf.org/arch/msg/vrrp/m6JITfGfSBzY30vXXN9RS4hbwCs/
+  - kind: proceedings
+    listed_in: 14
+    first: '2003-07-13'
+    last: '2011-03-27'
+    examples:
+    - date: '2003-07-13'
+      subject: IETF 57 proceedings charter
+      url: https://www.ietf.org/proceedings/57/197.htm
+    - date: '2003-10-15'
+      subject: IETF 58 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/58/193.htm
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/vrrp.html
+- person: 2793
+  name: Bob Hinden
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1997-08-11'
+    end:
+      certainty: between
+      not_before: '2002-08-14'
+      not_after: '2003-07-13'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: chair activity
+    first: '2002-08-13'
+    last: '2002-08-13'
+    messages: 1
+    examples:
+    - date: '2002-08-13'
+      subject: '[VRRP] VRRP Working Group Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/vrrp/XJ9r0a5EPxc43TplTSmzAWmcFNQ/
+  - kind: proceedings
+    listed_in: 15
+    first: '1997-08-11'
+    last: '2002-08-14'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-97.htm
+    - date: '1997-10-28'
+      subject: IETF 40 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-99.htm
+    - date: '2002-08-14'
+      subject: IETF 55 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/55/185.htm
+  - kind: minutes without them
+    date: '2003-07-13'
+    subject: IETF 57 proceedings charter
+    url: https://www.ietf.org/proceedings/57/197.htm
 - person: 105893
   name: Mukesh Gupta
   status: confirmed
@@ -78,3 +132,17 @@ chairs:
     - date: '2010-03-05'
       subject: '[VRRP] Working Group Last Call for draft-ietf-vrrp-unified-mib-07.txt'
       url: https://mailarchive.ietf.org/arch/msg/vrrp/L5Cox4Ox98jcshCFRI7azNSMn6g/
+  - kind: proceedings
+    listed_in: 15
+    first: '2003-01-14'
+    last: '2011-03-27'
+    examples:
+    - date: '2003-01-14'
+      subject: IETF 56 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/56/195.htm
+    - date: '2003-07-13'
+      subject: IETF 57 proceedings charter
+      url: https://www.ietf.org/proceedings/57/197.htm
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/vrrp.html

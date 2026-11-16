@@ -13,17 +13,51 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2007-05-31'
+      date: '2006-07-09'
     end:
       certainty: group-closed
       date: '2007-05-31'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 3
+    first: '2006-07-09'
+    last: '2007-02-06'
+    examples:
+    - date: '2006-07-09'
+      subject: IETF 66 proceedings charter
+      url: https://www.ietf.org/proceedings/66/rtpsec.html
+    - date: '2006-08-28'
+      subject: IETF 67 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/67/rtpsec.html
+    - date: '2007-02-06'
+      subject: IETF 68 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/68/rtpsec.html
 - person: 100038
   name: Dan Wing
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2007-05-31'
+      date: '2006-07-09'
     end:
       certainty: group-closed
       date: '2007-05-31'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 3
+    first: '2006-07-09'
+    last: '2007-02-06'
+    examples:
+    - date: '2006-07-09'
+      subject: IETF 66 proceedings charter
+      url: https://www.ietf.org/proceedings/66/rtpsec.html
+    - date: '2006-08-28'
+      subject: IETF 67 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/67/rtpsec.html
+    - date: '2007-02-06'
+      subject: IETF 68 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/68/rtpsec.html

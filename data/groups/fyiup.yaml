@@ -13,26 +13,46 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2001-02-17'
+      date: '1999-05-20'
       not_before: '1999-05-03'
     end:
       certainty: group-closed
       date: '2001-02-17'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '1999-05-20'
+    last: '1999-05-20'
+    examples:
+    - date: '1999-05-20'
+      subject: IETF 45 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-143.html
 - person: 22901
   name: Philip Nesser
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '1999-05-28'
+      date: '1999-05-20'
       not_before: '1999-05-03'
     end:
       certainty: group-closed
       date: '2001-02-17'
     notes:
     - start moved earlier by WG Action announcement of 1999-05-28
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '1999-05-28'
     subject: 'WG ACTION: FYI Updates (fyiup)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/QoLGs-ANEiQ5bWayszKzmj9Q19Y/
+  - kind: proceedings
+    listed_in: 1
+    first: '1999-05-20'
+    last: '1999-05-20'
+    examples:
+    - date: '1999-05-20'
+      subject: IETF 45 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-143.html

@@ -13,10 +13,13 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '1999-03-01'
+      not_after: '1999-02-26'
     end:
-      certainty: evidence-only
-      not_before: '1999-03-08'
+      certainty: between
+      not_before: '1999-06-15'
+      not_after: '1999-09-29'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Review
     date: '1999-03-01'
@@ -26,16 +29,34 @@ chairs:
     date: '1999-03-08'
     subject: 'WG Action: Authentication, Authorization and Accounting (aaa)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/BAZQS24FlBA0L6SloUaBGzMfET4/
+  - kind: proceedings
+    listed_in: 2
+    first: '1999-02-26'
+    last: '1999-06-15'
+    examples:
+    - date: '1999-02-26'
+      subject: IETF 44 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-44.html
+    - date: '1999-06-15'
+      subject: IETF 45 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-41.html
+  - kind: minutes without them
+    date: '1999-09-29'
+    subject: IETF 46 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-69.html
 - person: 5395
   name: Paul Krumviede
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '1999-03-01'
+      not_after: '1999-02-26'
     end:
-      certainty: evidence-only
-      not_before: '1999-03-08'
+      certainty: between
+      not_before: '2000-08-03'
+      not_after: '2000-10-11'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Review
     date: '1999-03-01'
@@ -45,17 +66,37 @@ chairs:
     date: '1999-03-08'
     subject: 'WG Action: Authentication, Authorization and Accounting (aaa)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/BAZQS24FlBA0L6SloUaBGzMfET4/
+  - kind: proceedings
+    listed_in: 5
+    first: '1999-02-26'
+    last: '2000-08-03'
+    examples:
+    - date: '1999-02-26'
+      subject: IETF 44 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-44.html
+    - date: '1999-06-15'
+      subject: IETF 45 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-41.html
+    - date: '2000-08-03'
+      subject: IETF 48 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/48/00july-58.htm
+  - kind: minutes without them
+    date: '2000-10-11'
+    subject: IETF 49 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/49/00dec-64.htm
 - person: 12620
   name: Bernard Aboba
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2007-01-29'
+      date: '1999-09-29'
       not_before: '1999-02-22'
     end:
       certainty: group-closed
       date: '2007-01-29'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2004-07-06'
@@ -65,28 +106,61 @@ chairs:
     - date: '2004-07-06'
       subject: '[AAA-WG]: Proposed AAA WG Agenda for IETF 60'
       url: https://mailarchive.ietf.org/arch/msg/aaa/kHd64frikwD6BVYGsog2QoMnVhw/
+  - kind: proceedings
+    listed_in: 18
+    first: '1999-09-29'
+    last: '2006-03-24'
+    examples:
+    - date: '1999-09-29'
+      subject: IETF 46 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-69.html
+    - date: '2000-03-02'
+      subject: IETF 47 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-65.html
+    - date: '2006-03-24'
+      subject: IETF 66 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/66/aaa.html
 - person: 20264
   name: David Mitton
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2007-01-29'
+      date: '2000-10-11'
       not_before: '1999-02-22'
     end:
       certainty: group-closed
       date: '2007-01-29'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 15
+    first: '2000-10-11'
+    last: '2006-03-24'
+    examples:
+    - date: '2000-10-11'
+      subject: IETF 49 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/49/00dec-64.htm
+    - date: '2001-03-14'
+      subject: IETF 50 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/50/ietf50-67.htm
+    - date: '2006-03-24'
+      subject: IETF 66 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/66/aaa.html
 - person: 104183
   name: John Loughney
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2007-01-29'
+      date: '2003-10-24'
       not_before: '1999-02-22'
     end:
       certainty: group-closed
       date: '2007-01-29'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2004-09-01'
@@ -96,3 +170,17 @@ chairs:
     - date: '2004-09-01'
       subject: '[AAA-WG]: IETF 60 meeting minutes'
       url: https://mailarchive.ietf.org/arch/msg/aaa/ZpVcyM-2iZgDSB972anehtaGRgc/
+  - kind: proceedings
+    listed_in: 7
+    first: '2003-10-24'
+    last: '2006-03-24'
+    examples:
+    - date: '2003-10-24'
+      subject: IETF 58 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/58/155.htm
+    - date: '2004-01-22'
+      subject: IETF 59 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/59/158.htm
+    - date: '2006-03-24'
+      subject: IETF 66 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/66/aaa.html

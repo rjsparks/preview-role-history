@@ -13,10 +13,21 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2008-04-23'
+      date: '2008-03-03'
     end:
       certainty: group-closed
       date: '2008-04-23'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2008-03-03'
+    last: '2008-03-03'
+    examples:
+    - date: '2008-03-03'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/idn.html
 - person: 19133
   name: James Seng
   status: unconfirmed
@@ -26,7 +37,7 @@ chairs:
       not_after: '2000-02-08'
     end:
       certainty: evidence-only
-      not_before: '2001-12-21'
+      not_before: '2002-03-28'
   evidence:
   - kind: WG Action
     date: '2000-02-08'
@@ -43,6 +54,20 @@ chairs:
     - date: '2001-12-21'
       subject: '[idn] SLC minutes'
       url: https://mailarchive.ietf.org/arch/msg/idn/CiqvhlyP2EPzFsLhTodmZPE-YSs/
+  - kind: proceedings
+    listed_in: 8
+    first: '2000-03-02'
+    last: '2002-03-28'
+    examples:
+    - date: '2000-03-02'
+      subject: IETF 47 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-54.html
+    - date: '2000-07-17'
+      subject: IETF 48 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/48/00july-49.htm
+    - date: '2002-03-28'
+      subject: IETF 54 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/54/140.htm
 - person: 19869
   name: Marc Blanchet
   status: unconfirmed
@@ -52,7 +77,7 @@ chairs:
       not_after: '2000-02-08'
     end:
       certainty: evidence-only
-      not_before: '2002-02-12'
+      not_before: '2002-03-28'
   evidence:
   - kind: WG Action
     date: '2000-02-08'
@@ -72,3 +97,17 @@ chairs:
     - date: '2002-02-12'
       subject: '[idn] WG last call period is now over'
       url: https://mailarchive.ietf.org/arch/msg/idn/IMSTyabOabntg0t-7L13i8JLw-I/
+  - kind: proceedings
+    listed_in: 8
+    first: '2000-03-02'
+    last: '2002-03-28'
+    examples:
+    - date: '2000-03-02'
+      subject: IETF 47 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-54.html
+    - date: '2000-07-17'
+      subject: IETF 48 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/48/00july-49.htm
+    - date: '2002-03-28'
+      subject: IETF 54 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/54/140.htm

@@ -27,6 +27,28 @@ chairs:
     date: '2015-06-26'
     subject: 'WG Action: Formed Automated Certificate Management Environment (acme)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/oPISTa8kRM0hBp2T5AT6JmsVjPw/
+  - kind: minutes
+    listed_in: 1
+    first: '2016-11-13'
+    last: '2016-11-13'
+    examples:
+    - date: '2016-11-13'
+      subject: '[Acme] Draft Minutes (and Memes)'
+      url: https://mailarchive.ietf.org/arch/msg/acme/jnvG-_jv7qII47D3X6aomUPWqgE/
+  - kind: proceedings
+    listed_in: 8
+    first: '2014-07-20'
+    last: '2017-03-26'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/acme.html
+    - date: '2015-03-22'
+      subject: IETF 92 proceedings charter
+      url: https://www.ietf.org/proceedings/92/acme.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/acme.html
   - kind: shepherded
     documents:
     - draft-ietf-acme-authority-token
@@ -112,6 +134,28 @@ chairs:
     - date: '2016-04-19'
       subject: '[Acme] Draft Minutes'
       url: https://mailarchive.ietf.org/arch/msg/acme/Jzs0sdnYROYfJnKD0n3QyfGPIhs/
+  - kind: minutes
+    listed_in: 1
+    first: '2016-11-13'
+    last: '2016-11-13'
+    examples:
+    - date: '2016-11-13'
+      subject: '[Acme] Draft Minutes (and Memes)'
+      url: https://mailarchive.ietf.org/arch/msg/acme/jnvG-_jv7qII47D3X6aomUPWqgE/
+  - kind: proceedings
+    listed_in: 8
+    first: '2014-07-20'
+    last: '2017-03-26'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/acme.html
+    - date: '2015-03-22'
+      subject: IETF 92 proceedings charter
+      url: https://www.ietf.org/proceedings/92/acme.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/acme.html
 - person: 123703
   name: Deb Cooley
   status: confirmed
@@ -150,6 +194,10 @@ chairs:
     - date: '2022-05-26'
       subject: '[Acme] WG Last Call for draft-ietf-acme-subdomains-03'
       url: https://mailarchive.ietf.org/arch/msg/acme/MDc7dJunVK0_lKQptf4bCSbmsyk/
+  - kind: minutes without them
+    date: '2016-11-13'
+    subject: '[Acme] Draft Minutes (and Memes)'
+    url: https://mailarchive.ietf.org/arch/msg/acme/jnvG-_jv7qII47D3X6aomUPWqgE/
   - kind: shepherded
     documents:
     - draft-ietf-acme-integrations
@@ -212,3 +260,7 @@ chairs:
     - date: '2024-08-16'
       subject: '[Acme] WG Last Call for draft-ietf-acme-onion-02'
       url: https://mailarchive.ietf.org/arch/msg/acme/0DGvqwUvV5f5axYbKcrHBbPiWwM/
+  - kind: minutes without them
+    date: '2016-11-13'
+    subject: '[Acme] Draft Minutes (and Memes)'
+    url: https://mailarchive.ietf.org/arch/msg/acme/jnvG-_jv7qII47D3X6aomUPWqgE/

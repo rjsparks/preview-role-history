@@ -13,8 +13,25 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1997-10-16'
+      date: '1995-07-17'
       not_before: '1995-03-06'
     end:
       certainty: group-closed
       date: '1997-10-16'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 3
+    first: '1995-07-17'
+    last: '1997-08-11'
+    examples:
+    - date: '1995-07-17'
+      subject: IETF 33 proceedings charter
+      url: https://www.ietf.org/proceedings/33/area.and.wg.reports/int/ipv6mib/ipv6mib-charter.txt
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr48.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-51.htm

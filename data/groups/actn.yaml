@@ -19,6 +19,15 @@ chairs:
       certainty: between
       not_before: '2014-09-11'
       not_after: '2014-10-02'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2014-07-20'
+    last: '2014-07-20'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/actn.html
 - person: 109703
   name: Daniele Ceccarelli
   status: confirmed
@@ -64,3 +73,11 @@ chairs:
     - date: '2014-07-23'
       subject: '[Actn] Agenda for ACTN BoF, 1-3pm, July 24 @ Tudor 7/8'
       url: https://mailarchive.ietf.org/arch/msg/actn/nsrk7nZWXQOhc04YcK71O1kPS-g/
+  - kind: proceedings
+    listed_in: 1
+    first: '2014-07-20'
+    last: '2014-07-20'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/actn.html

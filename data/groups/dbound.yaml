@@ -22,6 +22,20 @@ chairs:
     date: '2015-04-10'
     subject: 'WG Action: Formed Domain Boundaries (dbound)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/0Fk6DhobDBZW58yRSciM44F3pqA/
+  - kind: proceedings
+    listed_in: 6
+    first: '2014-07-20'
+    last: '2016-07-17'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/dbound.html
+    - date: '2015-03-22'
+      subject: IETF 92 proceedings charter
+      url: https://www.ietf.org/proceedings/92/dbound.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/dbound.html
 - person: 19869
   name: Marc Blanchet
   status: confirmed
@@ -41,6 +55,14 @@ chairs:
     - date: '2014-03-07'
       subject: '[Dbound] meeting minutes posted'
       url: https://mailarchive.ietf.org/arch/msg/dbound/pQ9ChUeG-mYN8qPeg3j5Nf08M5c/
+  - kind: proceedings
+    listed_in: 1
+    first: '2014-03-02'
+    last: '2014-03-02'
+    examples:
+    - date: '2014-03-02'
+      subject: IETF 89 proceedings charter
+      url: https://www.ietf.org/proceedings/89/dbound.html
 - person: 106842
   name: Murray Kucherawy
   status: confirmed
@@ -56,6 +78,20 @@ chairs:
     date: '2015-04-10'
     subject: 'WG Action: Formed Domain Boundaries (dbound)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/0Fk6DhobDBZW58yRSciM44F3pqA/
+  - kind: proceedings
+    listed_in: 6
+    first: '2014-07-20'
+    last: '2016-07-17'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/dbound.html
+    - date: '2015-03-22'
+      subject: IETF 92 proceedings charter
+      url: https://www.ietf.org/proceedings/92/dbound.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/dbound.html
 - person: 117929
   name: Olaf Kolkman
   status: confirmed
@@ -66,3 +102,12 @@ chairs:
     end:
       certainty: approximate
       date: '2015-01-07'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2014-03-02'
+    last: '2014-03-02'
+    examples:
+    - date: '2014-03-02'
+      subject: IETF 89 proceedings charter
+      url: https://www.ietf.org/proceedings/89/dbound.html

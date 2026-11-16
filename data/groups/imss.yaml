@@ -7,19 +7,59 @@ started: '2003-09-15'
 closed: '2009-01-15'
 history_url: https://datatracker.ietf.org/group/imss/history/
 chairs:
+- person: 103024
+  name: Elizabeth Rodriguez
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2003-11-03'
+    end:
+      certainty: evidence-only
+      not_before: '2005-06-27'
+  evidence:
+  - kind: chair activity
+    first: '2003-11-20'
+    last: '2005-02-09'
+    messages: 5
+    examples:
+    - date: '2003-11-20'
+      subject: '[imss] Draft minutes of IMSS WG Meeting'
+      url: https://mailarchive.ietf.org/arch/msg/imss/Xj_rZruA_onwnMiu6ZahKTrVQdo/
+    - date: '2003-12-01'
+      subject: '[imss] WG last call for FC over IPv6 complete'
+      url: https://mailarchive.ietf.org/arch/msg/imss/2EQRKugZCEb9Icr_8GIXC3XiCwc/
+    - date: '2004-10-27'
+      subject: '[imss] Call for Agenda Items for IMSS WG agenda, IETF 61 in Washington D .C.'
+      url: https://mailarchive.ietf.org/arch/msg/imss/GX6f7dRcb9ibYlqgRxJZa1Cn-Ik/
+  - kind: proceedings
+    listed_in: 5
+    first: '2003-11-03'
+    last: '2005-06-27'
+    examples:
+    - date: '2003-11-03'
+      subject: IETF 58 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/58/164.htm
+    - date: '2004-06-07'
+      subject: IETF 60 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/60/170.htm
+    - date: '2005-06-27'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/imss.html
 - person: 103156
   name: David Black
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-07-09'
+      date: '2005-10-21'
       not_before: '2003-09-15'
     end:
       certainty: group-closed
       date: '2009-01-15'
     notes:
     - start moved earlier by session request for IETF 66
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2007-04-24'
@@ -36,6 +76,20 @@ chairs:
     - date: '2005-11-09'
       subject: '[imss] Vancouver Minutes (DRAFT)'
       url: https://mailarchive.ietf.org/arch/msg/imss/0H-Gtztmw81HxLFkpdefsQ__8t0/
+  - kind: proceedings
+    listed_in: 7
+    first: '2005-10-21'
+    last: '2008-03-18'
+    examples:
+    - date: '2005-10-21'
+      subject: IETF 64 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/64/imss.html
+    - date: '2006-01-30'
+      subject: IETF 65 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/65/imss.html
+    - date: '2008-03-18'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/imss.html
   - kind: session requests
     meetings:
     - '66'

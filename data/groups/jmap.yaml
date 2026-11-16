@@ -17,6 +17,15 @@ chairs:
     end:
       certainty: exact
       date: '2019-03-23'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2017-03-26'
+    last: '2017-03-26'
+    examples:
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/jmap.html
 - person: 121191
   name: Jim Fenton
   status: confirmed
@@ -125,6 +134,14 @@ chairs:
     - date: '2019-03-26'
       subject: '[Jmap] Call for adoption of SMIME for JMAP - reply by April 15'
       url: https://mailarchive.ietf.org/arch/msg/jmap/zj_6-ygVaipjwhVkVvTB6eq2FVI/
+  - kind: proceedings
+    listed_in: 1
+    first: '2017-03-26'
+    last: '2017-03-26'
+    examples:
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/jmap.html
   - kind: shepherded
     documents:
     - draft-ietf-jmap-core

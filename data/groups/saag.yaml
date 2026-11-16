@@ -7,6 +7,38 @@ started: null
 closed: null
 history_url: https://datatracker.ietf.org/group/saag/history/
 chairs:
+- person: 5376
+  name: Russ Housley
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2005-01-18'
+    end:
+      certainty: between
+      not_before: '2007-02-06'
+      not_after: '2007-05-03'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 7
+    first: '2005-01-18'
+    last: '2007-02-06'
+    examples:
+    - date: '2005-01-18'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/saag.html
+    - date: '2005-05-19'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/saag.html
+    - date: '2007-02-06'
+      subject: IETF 68 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/68/saag.html
+  - kind: minutes without them
+    date: '2007-05-03'
+    subject: IETF 69 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/69/saag.html
 - person: 12695
   name: Eric Rescorla
   status: confirmed
@@ -26,16 +58,26 @@ chairs:
     - date: '2017-03-31'
       subject: '[saag] Draft minutes'
       url: https://mailarchive.ietf.org/arch/msg/saag/ZfEOM50nlN63eGMrNIr7pqNeukk/
+  - kind: proceedings
+    listed_in: 1
+    first: '2017-03-26'
+    last: '2017-03-26'
+    examples:
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/saag.html
 - person: 19177
   name: Stephen Farrell
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2010-11-07'
     end:
       certainty: exact
       date: '2017-03-30'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2011-12-16'
@@ -48,17 +90,34 @@ chairs:
     - date: '2012-08-03'
       subject: '[saag] draft minutes posted...'
       url: https://mailarchive.ietf.org/arch/msg/saag/gytqBbLM8RWIOCJ3xnd1Uvsm3_c/
+  - kind: proceedings
+    listed_in: 19
+    first: '2010-11-07'
+    last: '2016-11-13'
+    examples:
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/saag.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/saag.html
+    - date: '2016-11-13'
+      subject: IETF 97 proceedings charter
+      url: https://www.ietf.org/proceedings/97/saag.html
 - person: 19483
   name: Sean Turner
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2010-04-12'
     end:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2017-03-30'
+      not_after: '2014-03-02'
+    notes:
+    - widened to cover charter snapshots in proceedings
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: chair activity
     first: '2013-08-28'
@@ -68,16 +127,37 @@ chairs:
     - date: '2013-08-28'
       subject: '[saag] saag meeting minutes'
       url: https://mailarchive.ietf.org/arch/msg/saag/GNQ73Qw0kj3alFkexT-UeqltRFQ/
+  - kind: proceedings
+    listed_in: 11
+    first: '2010-04-12'
+    last: '2013-11-03'
+    examples:
+    - date: '2010-04-12'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/saag.html
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/saag.html
+    - date: '2013-11-03'
+      subject: IETF 88 proceedings charter
+      url: https://www.ietf.org/proceedings/88/saag.html
+  - kind: minutes without them
+    date: '2014-03-02'
+    subject: IETF 89 proceedings charter
+    url: https://www.ietf.org/proceedings/89/saag.html
 - person: 19790
   name: Tim Polk
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2007-07-22'
+      not_after: '2007-05-03'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2010-07-25'
+      not_after: '2010-11-07'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: chair activity
     first: '2008-04-29'
@@ -87,6 +167,24 @@ chairs:
     - date: '2008-04-29'
       subject: '[saag] Minutes for SAAG session uploaded'
       url: https://mailarchive.ietf.org/arch/msg/saag/obzuD5qH3_CbLhw3Lz6NGhZJsuo/
+  - kind: proceedings
+    listed_in: 4
+    first: '2007-05-03'
+    last: '2010-04-12'
+    examples:
+    - date: '2007-05-03'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/saag.html
+    - date: '2008-03-13'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/saag.html
+    - date: '2010-04-12'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/saag.html
+  - kind: minutes without them
+    date: '2010-11-07'
+    subject: IETF 79 proceedings charter
+    url: https://www.ietf.org/proceedings/79/saag.html
   - kind: session requests
     meetings:
     - '69'
@@ -96,6 +194,38 @@ chairs:
     - '73'
     - '78'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 103048
+  name: Sam Hartman
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2005-01-18'
+    end:
+      certainty: between
+      not_before: '2007-05-03'
+      not_after: '2008-03-13'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 8
+    first: '2005-01-18'
+    last: '2007-05-03'
+    examples:
+    - date: '2005-01-18'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/saag.html
+    - date: '2005-05-19'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/saag.html
+    - date: '2007-05-03'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/saag.html
+  - kind: minutes without them
+    date: '2008-03-13'
+    subject: IETF 71 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/71/saag.html
 - person: 104851
   name: Kathleen Moriarty
   status: confirmed
@@ -125,6 +255,20 @@ chairs:
     - date: '2016-08-10'
       subject: '[saag] Minutes'
       url: https://mailarchive.ietf.org/arch/msg/saag/_N1dV6deqQwYbw3pdNOD2a4rjI4/
+  - kind: proceedings
+    listed_in: 10
+    first: '2014-03-02'
+    last: '2017-03-26'
+    examples:
+    - date: '2014-03-02'
+      subject: IETF 89 proceedings charter
+      url: https://www.ietf.org/proceedings/89/saag.html
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/saag.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/saag.html
 - person: 105815
   name: Roman Danyliw
   status: confirmed
@@ -135,6 +279,35 @@ chairs:
     end:
       certainty: exact
       date: '2024-03-20'
+- person: 106164
+  name: Pasi Eronen
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2008-03-13'
+    end:
+      certainty: between
+      not_before: '2008-08-21'
+      not_after: '2010-04-12'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2008-03-13'
+    last: '2008-08-21'
+    examples:
+    - date: '2008-03-13'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/saag.html
+    - date: '2008-08-21'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/saag.html
+  - kind: minutes without them
+    date: '2010-04-12'
+    subject: IETF 77 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/77/saag.html
 - person: 108049
   name: Richard Barnes
   status: confirmed

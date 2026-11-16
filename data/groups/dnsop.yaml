@@ -52,6 +52,28 @@ chairs:
     - date: '2017-02-02'
       subject: '[DNSOP] WGLC for draft-ietf-dnsop-sutld-ps'
       url: https://mailarchive.ietf.org/arch/msg/dnsop/9-m1LX2hhJxM3Lp-RZj2UihYLTM/
+  - kind: proceedings
+    listed_in: 11
+    first: '2013-11-03'
+    last: '2017-03-26'
+    examples:
+    - date: '2013-11-03'
+      subject: IETF 88 proceedings charter
+      url: https://www.ietf.org/proceedings/88/dnsop.html
+    - date: '2014-03-02'
+      subject: IETF 89 proceedings charter
+      url: https://www.ietf.org/proceedings/89/dnsop.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/dnsop.html
+  - kind: minutes without them
+    date: '2012-07-29'
+    subject: '[DNSOP] Minutes from IETF 84 DNSOP Meeting'
+    url: https://mailarchive.ietf.org/arch/msg/dnsop/X4FWb5wiF_HoOazAzeml7_0h-rw/
+  - kind: minutes without them
+    date: '2026-02-25'
+    subject: '[DNSOP] DNSOP WG Virtual Meeting interim-2026-dnsop-01 recording and minutes'
+    url: https://mailarchive.ietf.org/arch/msg/dnsop/h62y2vuhhFnPz834RSsi0Bk4SoA/
   - kind: shepherded
     documents:
     - draft-ietf-dnsop-7706bis
@@ -67,6 +89,53 @@ chairs:
     - draft-ietf-dnsop-serve-stale
     - draft-ietf-dnsop-sutld-ps
     - draft-ietf-dnsop-terminology-bis
+- person: 19525
+  name: Ray Plzak
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1999-06-09'
+    end:
+      certainty: between
+      not_before: '2003-02-24'
+      not_after: '2003-03-16'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+    - bounded by minutes listing other chairs
+  evidence:
+  - kind: chair activity
+    first: '2001-03-12'
+    last: '2003-01-22'
+    messages: 6
+    examples:
+    - date: '2001-03-12'
+      subject: Agenda for Minneapolis
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/X8ayhzHR2joaDqpLrTdbwMz0m8A/
+    - date: '2001-03-19'
+      subject: Agenda for Tuesday
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/asldUe2_M6J1dEOxYZFtDLtCv6s/
+    - date: '2001-05-02'
+      subject: WG Last Call
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/bFpRCQEgLyocVIXRNuXgHCX-FIc/
+  - kind: proceedings
+    listed_in: 11
+    first: '1999-06-09'
+    last: '2003-02-24'
+    examples:
+    - date: '1999-06-09'
+      subject: IETF 45 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-66.html
+    - date: '1999-10-13'
+      subject: IETF 46 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-73.html
+    - date: '2003-02-24'
+      subject: IETF 56 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/56/162.htm
+  - kind: minutes without them
+    date: '2003-03-16'
+    subject: DNSOP minutes from IETF 56
+    url: https://mailarchive.ietf.org/arch/msg/dnsop/r_N4d0k695PcWZArDQZjo_rHLuU/
 - person: 103708
   name: David Meyer
   status: unconfirmed
@@ -119,13 +188,45 @@ chairs:
     - date: '2004-04-28'
       subject: '[dnsop] WGLC for draft-ietf-dnsop-ipv6-dns-issues-06.txt'
       url: https://mailarchive.ietf.org/arch/msg/dnsop/0RiMpzLCs7eDR6IFv01hQfR1N_w/
+  - kind: minutes
+    listed_in: 8
+    first: '2003-03-16'
+    last: '2005-07-31'
+    examples:
+    - date: '2003-03-16'
+      subject: DNSOP minutes from IETF 56
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/r_N4d0k695PcWZArDQZjo_rHLuU/
+    - date: '2003-09-25'
+      subject: draft vienna minutes (sorry about the delay)
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/iW_kHpaw_bYpE8siPtD937ajTyE/
+    - date: '2005-07-31'
+      subject: '[dnsop] draft DNSOP minutes for IETF 63'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/c2BXRMwHiHRmO7F7_xshAdnG8ho/
+  - kind: proceedings
+    listed_in: 7
+    first: '2003-04-21'
+    last: '2005-06-27'
+    examples:
+    - date: '2003-04-21'
+      subject: IETF 57 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/57/164.htm
+    - date: '2003-09-10'
+      subject: IETF 58 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/58/160.htm
+    - date: '2005-06-27'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/dnsop.html
+  - kind: minutes without them
+    date: '2005-12-09'
+    subject: '[dnsop] Draft DNSOP Vancouver minutes'
+    url: https://mailarchive.ietf.org/arch/msg/dnsop/Q6nTtQ_6gQYYWgs27rw0PmpoE60/
 - person: 104212
   name: Rob Austein
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2004-03-24'
+      not_after: '2003-03-16'
     end:
       certainty: approximate
       date: '2009-11-16'
@@ -159,20 +260,54 @@ chairs:
     - date: '2005-11-02'
       subject: '[dnsop] Updated DNSOP agenda for IETF64'
       url: https://mailarchive.ietf.org/arch/msg/dnsop/s0MQNfw0JAHMpx0T1jOQbLvSLQk/
+  - kind: minutes
+    listed_in: 10
+    first: '2003-03-16'
+    last: '2006-03-19'
+    examples:
+    - date: '2003-03-16'
+      subject: DNSOP minutes from IETF 56
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/r_N4d0k695PcWZArDQZjo_rHLuU/
+    - date: '2003-09-25'
+      subject: draft vienna minutes (sorry about the delay)
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/iW_kHpaw_bYpE8siPtD937ajTyE/
+    - date: '2006-03-19'
+      subject: '[dnsop] Draft dnsop minutes for IETF65'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/DgQK5Jiq2RryHikeISJ2RlVqfxw/
+  - kind: proceedings
+    listed_in: 14
+    first: '2003-04-21'
+    last: '2008-12-16'
+    examples:
+    - date: '2003-04-21'
+      subject: IETF 57 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/57/164.htm
+    - date: '2003-09-10'
+      subject: IETF 58 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/58/160.htm
+    - date: '2008-12-16'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/dnsop.html
+  - kind: minutes without them
+    date: '2010-03-21'
+    subject: '[DNSOP] Minutes of IETF-77 DNSOP WG'
+    url: https://mailarchive.ietf.org/arch/msg/dnsop/aBqrMkPEmbvMAPNXsW52Dx_hy0k/
 - person: 107363
   name: Peter Koch
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-09'
-      not_before: '1999-05-18'
+      date: '2005-11-08'
+      not_before: '2005-07-31'
     end:
       certainty: exact
       date: '2013-12-20'
     notes:
     - start moved earlier by session request for IETF 65
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
+    - bounded by minutes listing other chairs
   evidence:
   - kind: chair activity
     first: '2005-12-09'
@@ -194,6 +329,42 @@ chairs:
     - date: '2006-10-26'
       subject: '[dnsop] WGLC for draft-ietf-dnsop-reflectors-are-evil-02.txt'
       url: https://mailarchive.ietf.org/arch/msg/dnsop/U2EOqTRwPUifQL_q5kDbiyol-XU/
+  - kind: minutes
+    listed_in: 4
+    first: '2005-12-09'
+    last: '2012-07-29'
+    examples:
+    - date: '2005-12-09'
+      subject: '[dnsop] Draft DNSOP Vancouver minutes'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/Q6nTtQ_6gQYYWgs27rw0PmpoE60/
+    - date: '2006-03-19'
+      subject: '[dnsop] Draft dnsop minutes for IETF65'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/DgQK5Jiq2RryHikeISJ2RlVqfxw/
+    - date: '2012-07-29'
+      subject: '[DNSOP] Minutes from IETF 84 DNSOP Meeting'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/X4FWb5wiF_HoOazAzeml7_0h-rw/
+  - kind: proceedings
+    listed_in: 17
+    first: '2005-11-08'
+    last: '2013-07-28'
+    examples:
+    - date: '2005-11-08'
+      subject: IETF 64 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/64/dnsop.html
+    - date: '2006-07-09'
+      subject: IETF 66 proceedings charter
+      url: https://www.ietf.org/proceedings/66/dnsop.html
+    - date: '2013-07-28'
+      subject: IETF 87 proceedings charter
+      url: https://www.ietf.org/proceedings/87/dnsop.html
+  - kind: minutes without them
+    date: '2005-07-31'
+    subject: '[dnsop] draft DNSOP minutes for IETF 63'
+    url: https://mailarchive.ietf.org/arch/msg/dnsop/c2BXRMwHiHRmO7F7_xshAdnG8ho/
+  - kind: minutes without them
+    date: '2026-02-25'
+    subject: '[DNSOP] DNSOP WG Virtual Meeting interim-2026-dnsop-01 recording and minutes'
+    url: https://mailarchive.ietf.org/arch/msg/dnsop/h62y2vuhhFnPz834RSsi0Bk4SoA/
   - kind: session requests
     meetings:
     - '65'
@@ -223,14 +394,17 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-06-13'
-      not_before: '1999-05-18'
+      date: '2010-03-16'
+      not_before: '2006-03-19'
     end:
       certainty: between
       not_before: '2013-03-13'
-      not_after: '2013-12-20'
+      not_after: '2013-07-28'
     notes:
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
+    - bounded by a proceedings charter snapshot listing other chairs
+    - bounded by minutes listing other chairs
   evidence:
   - kind: chair activity
     first: '2010-07-26'
@@ -246,6 +420,39 @@ chairs:
     - date: '2011-06-13'
       subject: '[DNSOP] WGLC: draft-ietf-dnsop-dnssec-dps-framework-04.txt'
       url: https://mailarchive.ietf.org/arch/msg/dnsop/GAsKRpwo4Drg-RXNuD3rIDp5b-8/
+  - kind: minutes
+    listed_in: 2
+    first: '2010-03-21'
+    last: '2012-07-29'
+    examples:
+    - date: '2010-03-21'
+      subject: '[DNSOP] Minutes of IETF-77 DNSOP WG'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/aBqrMkPEmbvMAPNXsW52Dx_hy0k/
+    - date: '2012-07-29'
+      subject: '[DNSOP] Minutes from IETF 84 DNSOP Meeting'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/X4FWb5wiF_HoOazAzeml7_0h-rw/
+  - kind: proceedings
+    listed_in: 8
+    first: '2010-03-16'
+    last: '2012-11-04'
+    examples:
+    - date: '2010-03-16'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/dnsop.html
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/dnsop.html
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/dnsop.html
+  - kind: minutes without them
+    date: '2006-03-19'
+    subject: '[dnsop] Draft dnsop minutes for IETF65'
+    url: https://mailarchive.ietf.org/arch/msg/dnsop/DgQK5Jiq2RryHikeISJ2RlVqfxw/
+  - kind: minutes without them
+    date: '2026-02-25'
+    subject: '[DNSOP] DNSOP WG Virtual Meeting interim-2026-dnsop-01 recording and minutes'
+    url: https://mailarchive.ietf.org/arch/msg/dnsop/h62y2vuhhFnPz834RSsi0Bk4SoA/
   - kind: shepherded
     documents:
     - draft-ietf-dnsop-dnssec-dps-framework
@@ -281,11 +488,52 @@ chairs:
     - date: '2025-08-14'
       subject: '[DNSOP] Call for Adoption for draft-shetho-dnsop-ds-automation'
       url: https://mailarchive.ietf.org/arch/msg/dnsop/xukCnKB02RrVUPNrXVhXLWuKo5I/
+  - kind: minutes
+    listed_in: 1
+    first: '2026-02-25'
+    last: '2026-02-25'
+    examples:
+    - date: '2026-02-25'
+      subject: '[DNSOP] DNSOP WG Virtual Meeting interim-2026-dnsop-01 recording and minutes'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/h62y2vuhhFnPz834RSsi0Bk4SoA/
   - kind: shepherded
     documents:
     - draft-ietf-dnsop-3901bis
     - draft-ietf-dnsop-cds-consistency
     - draft-ietf-dnsop-delext
+- person: 112471
+  name: Lars-Johan Liman
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1999-06-09'
+    end:
+      certainty: between
+      not_before: '2003-02-24'
+      not_after: '2003-03-16'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+    - bounded by minutes listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 11
+    first: '1999-06-09'
+    last: '2003-02-24'
+    examples:
+    - date: '1999-06-09'
+      subject: IETF 45 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-66.html
+    - date: '1999-10-13'
+      subject: IETF 46 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-73.html
+    - date: '2003-02-24'
+      subject: IETF 56 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/56/162.htm
+  - kind: minutes without them
+    date: '2003-03-16'
+    subject: DNSOP minutes from IETF 56
+    url: https://mailarchive.ietf.org/arch/msg/dnsop/r_N4d0k695PcWZArDQZjo_rHLuU/
 - person: 115244
   name: Tim Wicinski
   status: confirmed
@@ -325,6 +573,28 @@ chairs:
     - date: '2013-12-07'
       subject: '[DNSOP] Working Group Last Call for draft-ietf-dnsop-rfc6598-rfc6303-00'
       url: https://mailarchive.ietf.org/arch/msg/dnsop/VbeVBsg8pfd_9BizgCNz5y-dtxo/
+  - kind: proceedings
+    listed_in: 13
+    first: '2013-03-10'
+    last: '2017-03-26'
+    examples:
+    - date: '2013-03-10'
+      subject: IETF 86 proceedings charter
+      url: https://www.ietf.org/proceedings/86/dnsop.html
+    - date: '2013-07-28'
+      subject: IETF 87 proceedings charter
+      url: https://www.ietf.org/proceedings/87/dnsop.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/dnsop.html
+  - kind: minutes without them
+    date: '2012-07-29'
+    subject: '[DNSOP] Minutes from IETF 84 DNSOP Meeting'
+    url: https://mailarchive.ietf.org/arch/msg/dnsop/X4FWb5wiF_HoOazAzeml7_0h-rw/
+  - kind: minutes without them
+    date: '2026-02-25'
+    subject: '[DNSOP] DNSOP WG Virtual Meeting interim-2026-dnsop-01 recording and minutes'
+    url: https://mailarchive.ietf.org/arch/msg/dnsop/h62y2vuhhFnPz834RSsi0Bk4SoA/
   - kind: shepherded
     documents:
     - draft-andrews-dns-no-response-issue
@@ -426,6 +696,17 @@ chairs:
     - date: '2019-01-18'
       subject: '[DNSOP] Call for Adoption: draft-song-atr-large-resp'
       url: https://mailarchive.ietf.org/arch/msg/dnsop/pvUGkBzd0D8Y9p6y020XXvxvr58/
+  - kind: minutes
+    listed_in: 2
+    first: '2026-02-25'
+    last: '2026-10-20'
+    examples:
+    - date: '2026-02-25'
+      subject: '[DNSOP] DNSOP WG Virtual Meeting interim-2026-dnsop-01 recording and minutes'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/h62y2vuhhFnPz834RSsi0Bk4SoA/
+    - date: '2026-10-20'
+      subject: '[DNSOP] PQ DNSSEC Virtual Meeting interim-2026-dnsop-02 recording and minutes'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/WmnQK5ed2-uWO7YfmBDsqjizlys/
   - kind: shepherded
     documents:
     - draft-ietf-dnsop-attrleaf

@@ -13,22 +13,56 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-03-25'
+      date: '2000-02-29'
       not_before: '2000-01-10'
     end:
       certainty: group-closed
       date: '2005-03-25'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 11
+    first: '2000-02-29'
+    last: '2005-01-18'
+    examples:
+    - date: '2000-02-29'
+      subject: IETF 47 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-68.html
+    - date: '2000-07-17'
+      subject: IETF 48 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/48/00july-61.htm
+    - date: '2005-01-18'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/snmpconf.html
 - person: 8319
   name: David Partain
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-03-25'
+      date: '2000-11-05'
       not_before: '2000-01-10'
     end:
       certainty: group-closed
       date: '2005-03-25'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 10
+    first: '2000-11-05'
+    last: '2005-01-18'
+    examples:
+    - date: '2000-11-05'
+      subject: IETF 49 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/49/00dec-67.htm
+    - date: '2001-03-14'
+      subject: IETF 50 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/50/ietf50-70.htm
+    - date: '2005-01-18'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/snmpconf.html
 - person: 17253
   name: David Harrington
   status: unconfirmed
@@ -37,10 +71,28 @@ chairs:
       certainty: evidence-only
       not_after: '2000-01-31'
     end:
-      certainty: evidence-only
-      not_before: '2000-01-31'
+      certainty: between
+      not_before: '2000-07-17'
+      not_after: '2000-11-05'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2000-01-31'
     subject: 'WG Action: Configuration Management with SNMP (snmpconf)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/ITjOT24srEoZUnO_SlnRaCzAQdo/
+  - kind: proceedings
+    listed_in: 2
+    first: '2000-02-29'
+    last: '2000-07-17'
+    examples:
+    - date: '2000-02-29'
+      subject: IETF 47 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-68.html
+    - date: '2000-07-17'
+      subject: IETF 48 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/48/00july-61.htm
+  - kind: minutes without them
+    date: '2000-11-05'
+    subject: IETF 49 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/49/00dec-67.htm

@@ -15,8 +15,11 @@ chairs:
       certainty: evidence-only
       not_after: '2003-05-02'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2005-11-08'
+      not_after: '2007-06-19'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2003-05-02'
@@ -37,6 +40,38 @@ chairs:
     - date: '2003-10-29'
       subject: 'grow: Draft GROW agenda for Minneapolis'
       url: https://mailarchive.ietf.org/arch/msg/grow/VKPiq3kEKm5TyRGXcXpqNVa1Ydo/
+  - kind: minutes
+    listed_in: 4
+    first: '2004-02-29'
+    last: '2005-08-04'
+    examples:
+    - date: '2004-02-29'
+      subject: 'grow: GROW minutes'
+      url: https://mailarchive.ietf.org/arch/msg/grow/GyjI5OMZN7JLe4gL4RqUwIo3xuM/
+    - date: '2004-02-29'
+      subject: 'grow: draft minutes from IETF 59'
+      url: https://mailarchive.ietf.org/arch/msg/grow/o23B9AZyA16XnWQz2gC-uHXZkOU/
+    - date: '2005-08-04'
+      subject: 'grow: draft minutes of the GROW WG'
+      url: https://mailarchive.ietf.org/arch/msg/grow/4ljmYP1Nu5wQLzPn7WPfFeg5Ov4/
+  - kind: proceedings
+    listed_in: 8
+    first: '2003-05-02'
+    last: '2005-09-20'
+    examples:
+    - date: '2003-05-02'
+      subject: IETF 57 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/57/166.htm
+    - date: '2003-09-10'
+      subject: IETF 58 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/58/163.htm
+    - date: '2005-09-20'
+      subject: IETF 64 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/64/grow.html
+  - kind: minutes without them
+    date: '2007-06-19'
+    subject: IETF 69 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/69/grow.html
 - person: 104956
   name: Vijay Gill
   status: unconfirmed
@@ -45,8 +80,12 @@ chairs:
       certainty: evidence-only
       not_after: '2003-05-02'
     end:
-      certainty: evidence-only
-      not_before: '2004-01-07'
+      certainty: between
+      not_before: '2004-01-22'
+      not_after: '2004-02-29'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+    - bounded by minutes listing other chairs
   evidence:
   - kind: WG Action
     date: '2003-05-02'
@@ -63,16 +102,37 @@ chairs:
     - date: '2004-01-07'
       subject: 'grow: Resend: Agenda items for Seoul'
       url: https://mailarchive.ietf.org/arch/msg/grow/MzIFJMybc5Tzo6Hbc7DmCpreuQQ/
+  - kind: proceedings
+    listed_in: 3
+    first: '2003-05-02'
+    last: '2004-01-22'
+    examples:
+    - date: '2003-05-02'
+      subject: IETF 57 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/57/166.htm
+    - date: '2003-09-10'
+      subject: IETF 58 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/58/163.htm
+    - date: '2004-01-22'
+      subject: IETF 59 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/59/167.htm
+  - kind: minutes without them
+    date: '2004-02-29'
+    subject: 'grow: GROW minutes'
+    url: https://mailarchive.ietf.org/arch/msg/grow/GyjI5OMZN7JLe4gL4RqUwIo3xuM/
 - person: 106925
   name: Geoff Huston
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2004-05-17'
+      not_after: '2004-02-29'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2007-07-22'
+      not_after: '2008-12-16'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2004-05-17'
@@ -89,6 +149,38 @@ chairs:
     - date: '2006-03-22'
       subject: 'grow: GROW minutes from IETF65'
       url: https://mailarchive.ietf.org/arch/msg/grow/Pce18GNbexEUPEPRF5lmM7GLdRU/
+  - kind: minutes
+    listed_in: 5
+    first: '2004-02-29'
+    last: '2006-03-19'
+    examples:
+    - date: '2004-02-29'
+      subject: 'grow: GROW minutes'
+      url: https://mailarchive.ietf.org/arch/msg/grow/GyjI5OMZN7JLe4gL4RqUwIo3xuM/
+    - date: '2004-02-29'
+      subject: 'grow: draft minutes from IETF 59'
+      url: https://mailarchive.ietf.org/arch/msg/grow/o23B9AZyA16XnWQz2gC-uHXZkOU/
+    - date: '2006-03-19'
+      subject: 'grow: GROW minutes from IETF65'
+      url: https://mailarchive.ietf.org/arch/msg/grow/Pce18GNbexEUPEPRF5lmM7GLdRU/
+  - kind: proceedings
+    listed_in: 7
+    first: '2004-05-18'
+    last: '2006-12-06'
+    examples:
+    - date: '2004-05-18'
+      subject: IETF 60 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/60/168.htm
+    - date: '2004-09-07'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/grow.html
+    - date: '2006-12-06'
+      subject: IETF 68 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/68/grow.html
+  - kind: minutes without them
+    date: '2008-12-16'
+    subject: IETF 74 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/74/grow.html
   - kind: session requests
     meetings:
     - '65'
@@ -100,13 +192,15 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2007-12-02'
-      not_before: '2003-04-02'
+      date: '2007-06-19'
+      not_before: '2005-08-04'
     end:
       certainty: exact
       date: '2018-03-26'
     notes:
     - start moved earlier by session request for IETF 70
+    - widened to cover charter snapshots in proceedings
+    - bounded by minutes listing other chairs
   evidence:
   - kind: chair activity
     first: '2008-11-05'
@@ -128,6 +222,24 @@ chairs:
     - date: '2013-08-07'
       subject: '[GROW] call for adoption draft-hilliard-ix-bgp-route-server-operations'
       url: https://mailarchive.ietf.org/arch/msg/grow/0zKYlPbiU9jjNdVFC6fDfhMhTnk/
+  - kind: proceedings
+    listed_in: 23
+    first: '2007-06-19'
+    last: '2017-03-26'
+    examples:
+    - date: '2007-06-19'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/grow.html
+    - date: '2007-06-19'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/grow.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/grow.html
+  - kind: minutes without them
+    date: '2005-08-04'
+    subject: 'grow: draft minutes of the GROW WG'
+    url: https://mailarchive.ietf.org/arch/msg/grow/4ljmYP1Nu5wQLzPn7WPfFeg5Ov4/
   - kind: session requests
     meetings:
     - '70'
@@ -154,13 +266,15 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-03-24'
-      not_before: '2003-04-02'
+      date: '2007-06-19'
+      not_before: '2005-08-04'
     end:
       certainty: exact
       date: '2025-03-28'
     notes:
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
+    - bounded by minutes listing other chairs
   evidence:
   - kind: chair activity
     first: '2010-03-24'
@@ -182,6 +296,24 @@ chairs:
     - date: '2012-11-10'
       subject: '[GROW] Meeting minutes/slides'
       url: https://mailarchive.ietf.org/arch/msg/grow/GtQs9kD7BLDLkRP1ilwtkR8k4uU/
+  - kind: proceedings
+    listed_in: 23
+    first: '2007-06-19'
+    last: '2017-03-26'
+    examples:
+    - date: '2007-06-19'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/grow.html
+    - date: '2007-06-19'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/grow.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/grow.html
+  - kind: minutes without them
+    date: '2005-08-04'
+    subject: 'grow: draft minutes of the GROW WG'
+    url: https://mailarchive.ietf.org/arch/msg/grow/4ljmYP1Nu5wQLzPn7WPfFeg5Ov4/
   - kind: shepherded
     documents:
     - draft-ietf-grow-bgp-gshut

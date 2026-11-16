@@ -13,13 +13,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2009-11-10'
+      date: '2009-04-03'
       not_before: '2008-12-11'
     end:
       certainty: group-closed
       date: '2011-03-21'
     notes:
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2009-11-10'
@@ -29,6 +30,20 @@ chairs:
     - date: '2009-11-10'
       subject: '[MORG] WGLC'
       url: https://mailarchive.ietf.org/arch/msg/morg/hhp2xEL9gNFzLtR1TzKNGZFVKa4/
+  - kind: proceedings
+    listed_in: 4
+    first: '2009-04-03'
+    last: '2011-03-27'
+    examples:
+    - date: '2009-04-03'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/morg.html
+    - date: '2010-03-25'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/morg.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/morg.html
 - person: 21684
   name: Barry Leiba
   status: confirmed
@@ -43,6 +58,20 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 77
   evidence:
+  - kind: proceedings
+    listed_in: 3
+    first: '2010-03-25'
+    last: '2011-03-27'
+    examples:
+    - date: '2010-03-25'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/morg.html
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/morg.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/morg.html
   - kind: session requests
     meetings:
     - '77'
@@ -56,9 +85,16 @@ chairs:
       certainty: evidence-only
       not_after: '2008-07-27'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2009-03-22'
+      not_after: '2009-04-03'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
+  - kind: minutes without them
+    date: '2009-04-03'
+    subject: IETF 74 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/74/morg.html
   - kind: session requests
     meetings:
     - '72'
@@ -90,6 +126,20 @@ chairs:
     - date: '2009-02-13'
       subject: '[MORG] WGLC on draft-ietf-morg-inthread-00'
       url: https://mailarchive.ietf.org/arch/msg/morg/uMh0CKC_8mXT6kWHVNBQwZZMoZs/
+  - kind: proceedings
+    listed_in: 4
+    first: '2009-04-03'
+    last: '2011-03-27'
+    examples:
+    - date: '2009-04-03'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/morg.html
+    - date: '2010-03-25'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/morg.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/morg.html
   - kind: session requests
     meetings:
     - '75'

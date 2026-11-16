@@ -16,7 +16,7 @@ chairs:
       not_after: '2000-03-13'
     end:
       certainty: evidence-only
-      not_before: '2003-07-14'
+      not_before: '2006-02-15'
   evidence:
   - kind: WG Action
     date: '2000-03-13'
@@ -30,16 +30,62 @@ chairs:
     - date: '2003-07-14'
       subject: '[rohc] Agenda for Tuesday meeting'
       url: https://mailarchive.ietf.org/arch/msg/rohc/Z37eswkEj5w8_ZdNtSH6GH25FcA/
+  - kind: proceedings
+    listed_in: 16
+    first: '2000-03-13'
+    last: '2006-02-15'
+    examples:
+    - date: '2000-03-13'
+      subject: IETF 47 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-142.html
+    - date: '2000-07-17'
+      subject: IETF 48 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/48/00july-139.htm
+    - date: '2006-02-15'
+      subject: IETF 65 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/65/rohc.html
+- person: 18236
+  name: Mikael Degermark
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2000-03-13'
+    end:
+      certainty: between
+      not_before: '2001-11-19'
+      not_after: '2002-03-05'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 6
+    first: '2000-03-13'
+    last: '2001-11-19'
+    examples:
+    - date: '2000-03-13'
+      subject: IETF 47 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-142.html
+    - date: '2000-07-17'
+      subject: IETF 48 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/48/00july-139.htm
+    - date: '2001-11-19'
+      subject: IETF 52 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/52/237.htm
+  - kind: minutes without them
+    date: '2002-03-05'
+    subject: IETF 53 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/53/234.htm
 - person: 103797
   name: Lars-Erik Jonsson
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2004-11-02'
+      not_after: '2002-03-05'
     end:
       certainty: evidence-only
-      not_before: '2006-08-29'
+      not_before: '2007-06-15'
   evidence:
   - kind: WG Review
     date: '2006-07-11'
@@ -60,6 +106,20 @@ chairs:
     - date: '2004-11-12'
       subject: '[rohc] Preliminary minutes from ROHC@IETF61, Part 1'
       url: https://mailarchive.ietf.org/arch/msg/rohc/wZ_yYzmWyhnp_RH4mndEe6aUwbE/
+  - kind: proceedings
+    listed_in: 14
+    first: '2002-03-05'
+    last: '2007-06-15'
+    examples:
+    - date: '2002-03-05'
+      subject: IETF 53 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/53/234.htm
+    - date: '2002-05-06'
+      subject: IETF 54 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/54/235.htm
+    - date: '2007-06-15'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/rohc.html
   - kind: session requests
     meetings:
     - '66'
@@ -92,3 +152,11 @@ chairs:
     - date: '2006-01-10'
       subject: '[rohc] WGLC Reveiw RFC3095 Implementer''s guide'
       url: https://mailarchive.ietf.org/arch/msg/rohc/jmF51lZyA3aaRo4XmWLjBJ9qTXk/
+  - kind: proceedings
+    listed_in: 1
+    first: '2007-09-28'
+    last: '2007-09-28'
+    examples:
+    - date: '2007-09-28'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/rohc.html

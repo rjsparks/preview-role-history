@@ -7,14 +7,56 @@ started: '1989-01-11'
 closed: '2002-10-21'
 history_url: https://datatracker.ietf.org/group/uswg/history/
 chairs:
+- person: 2804
+  name: Joyce Reynolds
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1994-03-28'
+    end:
+      certainty: evidence-only
+      not_before: '1998-01-22'
+  evidence:
+  - kind: proceedings
+    listed_in: 9
+    first: '1994-03-28'
+    last: '1998-01-22'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/usv/uswg/uswg-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/usv/uswg/uswg-charter.txt
+    - date: '1998-01-22'
+      subject: IETF 41 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/41/98mar-edited-141.htm
 - person: 4356
   name: April Marine
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2002-10-21'
+      date: '1998-07-29'
       not_before: '1989-01-11'
     end:
       certainty: group-closed
       date: '2002-10-21'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 13
+    first: '1998-07-29'
+    last: '2002-06-25'
+    examples:
+    - date: '1998-07-29'
+      subject: IETF 42 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/42/98aug-150.htm
+    - date: '1998-11-25'
+      subject: IETF 43 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-146.html
+    - date: '2002-06-25'
+      subject: IETF 54 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/54/133.htm

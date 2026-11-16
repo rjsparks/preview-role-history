@@ -23,6 +23,15 @@ chairs:
     end:
       certainty: exact
       date: '2015-09-10'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2014-11-09'
+    last: '2014-11-09'
+    examples:
+    - date: '2014-11-09'
+      subject: IETF 91 proceedings charter
+      url: https://www.ietf.org/proceedings/91/i2nsf.html
 - person: 101208
   name: Joseph Salowey
   status: confirmed
@@ -49,6 +58,14 @@ chairs:
     - date: '2014-11-20'
       subject: '[I2nsf] I2NSF IETF 91 Minutes'
       url: https://mailarchive.ietf.org/arch/msg/i2nsf/9X2U2CxsUjlzSLeGJhP2B9NJ6VU/
+  - kind: proceedings
+    listed_in: 1
+    first: '2014-11-09'
+    last: '2014-11-09'
+    examples:
+    - date: '2014-11-09'
+      subject: IETF 91 proceedings charter
+      url: https://www.ietf.org/proceedings/91/i2nsf.html
 - person: 104198
   name: Adrian Farrel
   status: confirmed
@@ -78,6 +95,20 @@ chairs:
     - date: '2017-06-16'
       subject: '[I2nsf] Working group last call on draft-ietf-i2nsf-framework'
       url: https://mailarchive.ietf.org/arch/msg/i2nsf/Q_rBQ0VttGu-SPoQFVfQSuRkKFg/
+  - kind: proceedings
+    listed_in: 7
+    first: '2014-07-20'
+    last: '2017-03-26'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/i2nsf.html
+    - date: '2015-07-19'
+      subject: IETF 93 proceedings charter
+      url: https://www.ietf.org/proceedings/93/i2nsf.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/i2nsf.html
   - kind: shepherded
     documents:
     - draft-ietf-i2nsf-problem-and-use-cases
@@ -146,6 +177,20 @@ chairs:
     - date: '2016-12-08'
       subject: '[I2nsf] WGLC for draft-ietf-i2nsf-problem-and-use-cases-06'
       url: https://mailarchive.ietf.org/arch/msg/i2nsf/ZfADc1qFmoVm1gL65eOq6qJAUbE/
+  - kind: proceedings
+    listed_in: 7
+    first: '2014-07-20'
+    last: '2017-03-26'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/i2nsf.html
+    - date: '2015-07-19'
+      subject: IETF 93 proceedings charter
+      url: https://www.ietf.org/proceedings/93/i2nsf.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/i2nsf.html
   - kind: shepherded
     documents:
     - draft-ietf-i2nsf-applicability

@@ -7,17 +7,48 @@ started: '1997-01-31'
 closed: '2000-10-04'
 history_url: https://datatracker.ietf.org/group/tcpimpl/history/
 chairs:
+- person: 3850
+  name: Steve Alexander
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1997-08-11'
+    end:
+      certainty: between
+      not_before: '1997-11-12'
+      not_after: '1998-08-17'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '1997-08-11'
+    last: '1997-11-12'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-119.htm
+    - date: '1997-11-12'
+      subject: IETF 40 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-124.htm
+  - kind: minutes without them
+    date: '1998-08-17'
+    subject: IETF 42 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/42/98aug-143.htm
 - person: 17625
   name: Vern Paxson
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2000-10-04'
+      date: '1997-08-11'
       not_before: '1997-01-31'
     end:
       certainty: group-closed
       date: '2000-10-04'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '1997-04-02'
@@ -30,6 +61,20 @@ chairs:
     - date: '1997-08-06'
       subject: seeking Munich agenda items
       url: https://mailarchive.ietf.org/arch/msg/tcpimpl/VnZmfKH-Cd5xeGysxjn7HCEjCqc/
+  - kind: proceedings
+    listed_in: 8
+    first: '1997-08-11'
+    last: '2000-07-03'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-119.htm
+    - date: '1997-11-12'
+      subject: IETF 40 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-124.htm
+    - date: '2000-07-03'
+      subject: IETF 48 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/48/00july-143.htm
 - person: 20580
   name: Mark Allman
   status: confirmed
@@ -67,3 +112,17 @@ chairs:
     - date: '2000-05-15'
       subject: WG last call on pmtud doc
       url: https://mailarchive.ietf.org/arch/msg/tcpimpl/5-CVXssTEm3e97y5AUBS4Wc8qFE/
+  - kind: proceedings
+    listed_in: 5
+    first: '1998-08-17'
+    last: '2000-07-03'
+    examples:
+    - date: '1998-08-17'
+      subject: IETF 42 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/42/98aug-143.htm
+    - date: '1998-11-25'
+      subject: IETF 43 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-136.html
+    - date: '2000-07-03'
+      subject: IETF 48 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/48/00july-143.htm

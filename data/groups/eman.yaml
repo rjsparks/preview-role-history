@@ -14,12 +14,13 @@ chairs:
   - start:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2013-06-11'
+      not_after: '2012-03-25'
     end:
       certainty: approximate
       date: '2012-03-13'
     notes:
     - end dated by list message of 2012-03-13
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: list message
     date: '2012-03-13'
@@ -42,6 +43,34 @@ chairs:
     - date: '2013-09-10'
       subject: '[eman] WG Last Call for EMAN Framework -09'
       url: https://mailarchive.ietf.org/arch/msg/eman/Mh-VxuL8ybiC4ji0vLEHkccsGaA/
+  - kind: minutes
+    listed_in: 3
+    first: '2012-03-25'
+    last: '2012-07-29'
+    examples:
+    - date: '2012-03-25'
+      subject: '[eman] DRAFT minutes for Tuesday''s EMAN WG meeting'
+      url: https://mailarchive.ietf.org/arch/msg/eman/ho6aIs-wM9X6kD-ZnTrfEFP1H1w/
+    - date: '2012-07-29'
+      subject: '[eman] DRAFT minutes for Vancouver meeting'
+      url: https://mailarchive.ietf.org/arch/msg/eman/D5BTVxhVyMmOmbjoMd-qvOzxIBY/
+    - date: '2012-07-29'
+      subject: '[eman] Minutes of Vancouver meeting'
+      url: https://mailarchive.ietf.org/arch/msg/eman/m8NByklE87916YvydpyNvqAoFS0/
+  - kind: proceedings
+    listed_in: 10
+    first: '2012-03-25'
+    last: '2015-03-22'
+    examples:
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/eman.html
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/eman.html
+    - date: '2015-03-22'
+      subject: IETF 92 proceedings charter
+      url: https://www.ietf.org/proceedings/92/eman.html
 - person: 104197
   name: Thomas Nadeau
   status: confirmed
@@ -71,6 +100,24 @@ chairs:
     - date: '2014-06-25'
       subject: '[eman] Working Group Last Call: draft-ietf-eman-applicability-statement-06'
       url: https://mailarchive.ietf.org/arch/msg/eman/NJCelZQ_OZu6M9U5ZoSiT_SvgAs/
+  - kind: proceedings
+    listed_in: 6
+    first: '2013-07-28'
+    last: '2015-03-22'
+    examples:
+    - date: '2013-07-28'
+      subject: IETF 87 proceedings charter
+      url: https://www.ietf.org/proceedings/87/eman.html
+    - date: '2013-11-03'
+      subject: IETF 88 proceedings charter
+      url: https://www.ietf.org/proceedings/88/eman.html
+    - date: '2015-03-22'
+      subject: IETF 92 proceedings charter
+      url: https://www.ietf.org/proceedings/92/eman.html
+  - kind: minutes without them
+    date: '2012-07-29'
+    subject: '[eman] Minutes of Vancouver meeting'
+    url: https://mailarchive.ietf.org/arch/msg/eman/m8NByklE87916YvydpyNvqAoFS0/
   - kind: shepherded
     documents:
     - draft-ietf-eman-framework
@@ -85,9 +132,10 @@ chairs:
     end:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2013-06-11'
+      not_after: '2012-03-25'
     notes:
     - start moved earlier by WG Action announcement of 2010-09-28
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2010-09-28'
@@ -104,6 +152,24 @@ chairs:
     - date: '2011-03-07'
       subject: '[eman] Call for Agenda items for the EMAN open meeting in Prague'
       url: https://mailarchive.ietf.org/arch/msg/eman/9c_iGJBVx3bwZ1tjBd8BFHSWZs4/
+  - kind: proceedings
+    listed_in: 5
+    first: '2010-07-25'
+    last: '2011-11-13'
+    examples:
+    - date: '2010-07-25'
+      subject: IETF 78 proceedings charter
+      url: https://www.ietf.org/proceedings/78/eman.html
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/eman.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/eman.html
+  - kind: minutes without them
+    date: '2012-03-25'
+    subject: '[eman] DRAFT minutes for Tuesday''s EMAN WG meeting'
+    url: https://mailarchive.ietf.org/arch/msg/eman/ho6aIs-wM9X6kD-ZnTrfEFP1H1w/
   - kind: session requests
     meetings:
     - '80'
@@ -144,6 +210,34 @@ chairs:
     - date: '2012-03-14'
       subject: '[eman] EMAN draft agenda posted'
       url: https://mailarchive.ietf.org/arch/msg/eman/w55IK-Zl6zTd3HAFiFtrd0eiDTc/
+  - kind: minutes
+    listed_in: 3
+    first: '2012-03-25'
+    last: '2012-07-29'
+    examples:
+    - date: '2012-03-25'
+      subject: '[eman] DRAFT minutes for Tuesday''s EMAN WG meeting'
+      url: https://mailarchive.ietf.org/arch/msg/eman/ho6aIs-wM9X6kD-ZnTrfEFP1H1w/
+    - date: '2012-07-29'
+      subject: '[eman] DRAFT minutes for Vancouver meeting'
+      url: https://mailarchive.ietf.org/arch/msg/eman/D5BTVxhVyMmOmbjoMd-qvOzxIBY/
+    - date: '2012-07-29'
+      subject: '[eman] Minutes of Vancouver meeting'
+      url: https://mailarchive.ietf.org/arch/msg/eman/m8NByklE87916YvydpyNvqAoFS0/
+  - kind: proceedings
+    listed_in: 9
+    first: '2010-07-25'
+    last: '2013-03-10'
+    examples:
+    - date: '2010-07-25'
+      subject: IETF 78 proceedings charter
+      url: https://www.ietf.org/proceedings/78/eman.html
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/eman.html
+    - date: '2013-03-10'
+      subject: IETF 86 proceedings charter
+      url: https://www.ietf.org/proceedings/86/eman.html
   - kind: session requests
     meetings:
     - '81'

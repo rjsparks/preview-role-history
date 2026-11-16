@@ -13,19 +13,53 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-09-04'
+      date: '1997-04-07'
       not_before: '1997-03-17'
     end:
       certainty: group-closed
       date: '2003-09-04'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 16
+    first: '1997-04-07'
+    last: '2002-05-03'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr77.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-76.htm
+    - date: '2002-05-03'
+      subject: IETF 54 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/54/176.htm
 - person: 17253
   name: David Harrington
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-09-04'
+      date: '2000-02-03'
       not_before: '1997-03-17'
     end:
       certainty: group-closed
       date: '2003-09-04'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 7
+    first: '2000-02-03'
+    last: '2002-05-03'
+    examples:
+    - date: '2000-02-03'
+      subject: IETF 47 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-85.html
+    - date: '2000-07-17'
+      subject: IETF 48 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/48/00july-77.htm
+    - date: '2002-05-03'
+      subject: IETF 54 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/54/176.htm

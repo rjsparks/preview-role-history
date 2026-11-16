@@ -51,6 +51,20 @@ chairs:
     - date: '2011-12-15'
       subject: '[6lowpan] Working Group Last Call for draft-ietf-btle-04'
       url: https://mailarchive.ietf.org/arch/msg/6lowpan/M0OMhavoe294duED3elOtXH4FVQ/
+  - kind: proceedings
+    listed_in: 19
+    first: '2005-07-08'
+    last: '2013-11-03'
+    examples:
+    - date: '2005-07-08'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/6lowpan.html
+    - date: '2005-10-03'
+      subject: IETF 64 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/64/6lowpan.html
+    - date: '2013-11-03'
+      subject: IETF 88 proceedings charter
+      url: https://www.ietf.org/proceedings/88/6lowpan.html
   - kind: session requests
     meetings:
     - '66'
@@ -62,13 +76,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2004-10-28'
       not_before: '2004-10-01'
     end:
       certainty: group-closed
       date: '2014-01-16'
     notes:
     - start moved earlier by session request for IETF 65
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2008-07-08'
@@ -94,6 +109,20 @@ chairs:
     - date: '2006-12-14'
       subject: '[6lowpan] WG last call on Format document'
       url: https://mailarchive.ietf.org/arch/msg/6lowpan/P4KMt0woAg-D9_QL_iOPnKM-ZJk/
+  - kind: proceedings
+    listed_in: 21
+    first: '2004-10-28'
+    last: '2013-11-03'
+    examples:
+    - date: '2004-10-28'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/6lowpan.html
+    - date: '2005-02-08'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/6lowpan.html
+    - date: '2013-11-03'
+      subject: IETF 88 proceedings charter
+      url: https://www.ietf.org/proceedings/88/6lowpan.html
   - kind: session requests
     meetings:
     - '65'
@@ -111,3 +140,61 @@ chairs:
     - '79'
     - '80'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 106910
+  name: Nandakishore Kushalnagar
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2004-10-28'
+    end:
+      certainty: between
+      not_before: '2005-02-08'
+      not_after: '2005-07-08'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2004-10-28'
+    last: '2005-02-08'
+    examples:
+    - date: '2004-10-28'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/6lowpan.html
+    - date: '2005-02-08'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/6lowpan.html
+  - kind: minutes without them
+    date: '2005-07-08'
+    subject: IETF 63 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/63/6lowpan.html
+- person: 108488
+  name: Gabriel Montenegro
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2004-10-28'
+    end:
+      certainty: between
+      not_before: '2005-02-08'
+      not_after: '2005-07-08'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2004-10-28'
+    last: '2005-02-08'
+    examples:
+    - date: '2004-10-28'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/6lowpan.html
+    - date: '2005-02-08'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/6lowpan.html
+  - kind: minutes without them
+    date: '2005-07-08'
+    subject: IETF 63 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/63/6lowpan.html

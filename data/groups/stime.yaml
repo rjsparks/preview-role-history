@@ -13,30 +13,59 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '1999-08-13'
+      not_after: '1999-08-12'
     end:
       certainty: evidence-only
-      not_before: '1999-08-13'
+      not_before: '2004-07-15'
   evidence:
   - kind: WG Action
     date: '1999-08-13'
     subject: 'WG ACTION: Secure Network Time Protocol (stime)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/nfuPeZrhOx1wPVVcQrc7VyLd0mE/
+  - kind: proceedings
+    listed_in: 8
+    first: '1999-08-12'
+    last: '2004-07-15'
+    examples:
+    - date: '1999-08-12'
+      subject: IETF 46 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-121.html
+    - date: '1999-09-16'
+      subject: IETF 47 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-117.html
+    - date: '2004-07-15'
+      subject: IETF 60 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/60/224.htm
 - person: 20713
   name: Patrick Cain
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '1999-08-13'
+      date: '1999-08-12'
       not_before: '1999-06-23'
     end:
       certainty: group-closed
       date: '2005-02-08'
     notes:
     - start moved earlier by WG Action announcement of 1999-08-13
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '1999-08-13'
     subject: 'WG ACTION: Secure Network Time Protocol (stime)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/nfuPeZrhOx1wPVVcQrc7VyLd0mE/
+  - kind: proceedings
+    listed_in: 8
+    first: '1999-08-12'
+    last: '2004-07-15'
+    examples:
+    - date: '1999-08-12'
+      subject: IETF 46 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-121.html
+    - date: '1999-09-16'
+      subject: IETF 47 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-117.html
+    - date: '2004-07-15'
+      subject: IETF 60 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/60/224.htm

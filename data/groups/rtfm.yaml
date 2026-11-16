@@ -13,30 +13,81 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2000-10-10'
+      date: '1997-08-11'
       not_before: '1996-01-12'
     end:
       certainty: group-closed
       date: '2000-10-10'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 5
+    first: '1997-08-11'
+    last: '1998-10-07'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-117.htm
+    - date: '1997-10-24'
+      subject: IETF 40 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-122.htm
+    - date: '1998-10-07'
+      subject: IETF 43 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-133.html
 - person: 6766
   name: Nevil Brownlee
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2000-10-10'
+      date: '1997-04-07'
       not_before: '1996-01-12'
     end:
       certainty: group-closed
       date: '2000-10-10'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 6
+    first: '1997-04-07'
+    last: '1998-10-07'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr70.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-117.htm
+    - date: '1998-10-07'
+      subject: IETF 43 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-133.html
 - person: 15072
   name: Sigmund Handelman
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2000-10-10'
+      date: '1997-04-07'
       not_before: '1996-01-12'
     end:
       certainty: group-closed
       date: '2000-10-10'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 6
+    first: '1997-04-07'
+    last: '1998-10-07'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr70.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-117.htm
+    - date: '1998-10-07'
+      subject: IETF 43 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-133.html

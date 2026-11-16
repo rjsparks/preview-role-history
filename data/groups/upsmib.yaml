@@ -13,11 +13,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1999-04-02'
+      date: '1997-03-06'
       not_before: '1992-09-25'
     end:
       certainty: group-closed
       date: '1999-04-02'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '1992-12-21'
@@ -30,17 +32,33 @@ chairs:
     - date: '1993-12-09'
       subject: houston meeting minutes
       url: https://mailarchive.ietf.org/arch/msg/upsmib/cZdv_yWdxGUVuWY-AUr6j6XQu_o/
+  - kind: proceedings
+    listed_in: 4
+    first: '1997-03-06'
+    last: '1998-08-20'
+    examples:
+    - date: '1997-03-06'
+      subject: IETF 40 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-79.htm
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr79.htm
+    - date: '1998-08-20'
+      subject: IETF 42 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/42/98aug-92.htm
 - person: 9728
   name: Maria Greene
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '1999-04-02'
+      date: '1998-08-20'
       not_before: '1992-09-25'
     end:
       certainty: group-closed
       date: '1999-04-02'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '1998-05-06'
@@ -50,3 +68,11 @@ chairs:
     - date: '1998-05-06'
       subject: Last WG Meeting Minutes (4/96)
       url: https://mailarchive.ietf.org/arch/msg/upsmib/W20F-ZRiytkEjKRGDNgAUYkz2JY/
+  - kind: proceedings
+    listed_in: 1
+    first: '1998-08-20'
+    last: '1998-08-20'
+    examples:
+    - date: '1998-08-20'
+      subject: IETF 42 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/42/98aug-92.htm

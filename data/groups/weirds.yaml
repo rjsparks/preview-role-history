@@ -50,6 +50,20 @@ chairs:
     - date: '2013-04-12'
       subject: '[weirds] Working Group Last Call: draft-ietf-weirds-rdap-sec'
       url: https://mailarchive.ietf.org/arch/msg/weirds/gBIOyN849nDo8UNFUnPMqj4eveE/
+  - kind: proceedings
+    listed_in: 10
+    first: '2011-11-13'
+    last: '2014-11-09'
+    examples:
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/weirds.html
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/weirds.html
+    - date: '2014-11-09'
+      subject: IETF 91 proceedings charter
+      url: https://www.ietf.org/proceedings/91/weirds.html
   - kind: shepherded
     documents:
     - draft-ietf-weirds-json-response
@@ -64,11 +78,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2012-02-23'
+      date: '2011-11-13'
     end:
       certainty: between
       not_before: '2012-02-23'
-      not_after: '2015-03-25'
+      not_after: '2012-03-25'
+    notes:
+    - widened to cover charter snapshots in proceedings
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: chair activity
     first: '2011-10-14'
@@ -81,6 +98,18 @@ chairs:
     - date: '2011-12-16'
       subject: '[weirds] Minutes uploaded'
       url: https://mailarchive.ietf.org/arch/msg/weirds/_EDIberOwCAcOX1CKU93_GUBqMA/
+  - kind: proceedings
+    listed_in: 1
+    first: '2011-11-13'
+    last: '2011-11-13'
+    examples:
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/weirds.html
+  - kind: minutes without them
+    date: '2012-03-25'
+    subject: IETF 83 proceedings charter
+    url: https://www.ietf.org/proceedings/83/weirds.html
 - person: 117929
   name: Olaf Kolkman
   status: confirmed
@@ -88,12 +117,13 @@ chairs:
   - start:
       certainty: between
       not_before: '2012-02-23'
-      not_after: '2013-06-25'
+      not_after: '2012-03-25'
     end:
       certainty: group-closed
       date: '2015-03-25'
     notes:
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2012-05-15'
@@ -110,3 +140,17 @@ chairs:
     - date: '2013-06-25'
       subject: '[weirds] WGLC: draft-ietf-weirds-rdap-query-05'
       url: https://mailarchive.ietf.org/arch/msg/weirds/xn-r9mcCi5sti7C16ZZblJbhW4w/
+  - kind: proceedings
+    listed_in: 9
+    first: '2012-03-25'
+    last: '2014-11-09'
+    examples:
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/weirds.html
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/weirds.html
+    - date: '2014-11-09'
+      subject: IETF 91 proceedings charter
+      url: https://www.ietf.org/proceedings/91/weirds.html

@@ -13,10 +13,13 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2009-11-08'
+      not_after: '2009-09-15'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2010-04-23'
+      not_after: '2010-05-19'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: chair activity
     first: '2009-11-12'
@@ -32,24 +35,62 @@ chairs:
     - date: '2010-04-23'
       subject: '[sip-clf] SIPCLF IETF 77 Meeting Minutes posted'
       url: https://mailarchive.ietf.org/arch/msg/sip-clf/irGQqwV9WPQCHXms9DH3qnJU2Go/
+  - kind: proceedings
+    listed_in: 1
+    first: '2009-09-15'
+    last: '2009-09-15'
+    examples:
+    - date: '2009-09-15'
+      subject: IETF 76 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/76/sipclf.html
+  - kind: minutes without them
+    date: '2010-05-19'
+    subject: IETF 78 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/78/sipclf.html
   - kind: session requests
     meetings:
     - '76'
     - '77'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 110588
+  name: Theo Zourzouvillys
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2009-09-15'
+    end:
+      certainty: evidence-only
+      not_before: '2010-05-19'
+  evidence:
+  - kind: proceedings
+    listed_in: 3
+    first: '2009-09-15'
+    last: '2010-05-19'
+    examples:
+    - date: '2009-09-15'
+      subject: IETF 76 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/76/sipclf.html
+    - date: '2010-03-21'
+      subject: IETF 77 proceedings charter
+      url: https://www.ietf.org/proceedings/77/sipclf.html
+    - date: '2010-05-19'
+      subject: IETF 78 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/78/sipclf.html
 - person: 111371
   name: Peter Musgrave
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-07-25'
+      date: '2010-03-21'
       not_before: '2009-08-24'
     end:
       certainty: group-closed
       date: '2013-02-19'
     notes:
     - start moved earlier by session request for IETF 78
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2011-12-07'
@@ -59,6 +100,20 @@ chairs:
     - date: '2011-12-07'
       subject: '[sip-clf] WG Last Call: draft-ietf-sipclf-format-03'
       url: https://mailarchive.ietf.org/arch/msg/sip-clf/5umCec3m5GLHhizXyVzdBSI3iaE/
+  - kind: proceedings
+    listed_in: 9
+    first: '2010-03-21'
+    last: '2012-11-04'
+    examples:
+    - date: '2010-03-21'
+      subject: IETF 77 proceedings charter
+      url: https://www.ietf.org/proceedings/77/sipclf.html
+    - date: '2010-05-19'
+      subject: IETF 78 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/78/sipclf.html
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/sipclf.html
   - kind: session requests
     meetings:
     - '78'

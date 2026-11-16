@@ -7,13 +7,45 @@ started: '1996-05-07'
 closed: null
 history_url: https://datatracker.ietf.org/group/tls/history/
 chairs:
+- person: 3886
+  name: Win Treese
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1997-04-07'
+    end:
+      certainty: between
+      not_before: '2005-02-11'
+      not_after: '2006-02-02'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 15
+    first: '1997-04-07'
+    last: '2005-02-11'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtft109.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-108.htm
+    - date: '2005-02-11'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/tls.html
+  - kind: minutes without them
+    date: '2006-02-02'
+    subject: IETF 65 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/65/tls.html
 - person: 12695
   name: Eric Rescorla
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-10-18'
+      date: '2003-11-14'
       not_before: '1996-05-07'
     end:
       certainty: exact
@@ -21,6 +53,7 @@ chairs:
     notes:
     - start moved earlier by WG Action announcement of 2006-01-11
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2006-01-11'
@@ -54,6 +87,20 @@ chairs:
     - date: '2005-10-17'
       subject: '[TLS] Draft Agenda for IETF 64'
       url: https://mailarchive.ietf.org/arch/msg/tls/OdIft1jbbpgAOrl_odsFXb294u4/
+  - kind: proceedings
+    listed_in: 20
+    first: '2003-11-14'
+    last: '2014-03-02'
+    examples:
+    - date: '2003-11-14'
+      subject: IETF 59 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/59/218.htm
+    - date: '2005-02-11'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/tls.html
+    - date: '2014-03-02'
+      subject: IETF 89 proceedings charter
+      url: https://www.ietf.org/proceedings/89/tls.html
   - kind: session requests
     meetings:
     - '65'
@@ -104,6 +151,20 @@ chairs:
     - date: '2014-08-08'
       subject: '[TLS] WGLC: draft-ietf-tls-prohibiting-rc4-00'
       url: https://mailarchive.ietf.org/arch/msg/tls/mwfHqxxL-XiT4ZBYzGuLK5GXbnw/
+  - kind: proceedings
+    listed_in: 10
+    first: '2014-03-02'
+    last: '2017-03-26'
+    examples:
+    - date: '2014-03-02'
+      subject: IETF 89 proceedings charter
+      url: https://www.ietf.org/proceedings/89/tls.html
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/tls.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/tls.html
   - kind: shepherded
     documents:
     - draft-ietf-tls-certificate-compression
@@ -195,6 +256,20 @@ chairs:
     - date: '2009-03-02'
       subject: '[TLS] Working Group Last Call on draft-ietf-tls-extractor-04.txt'
       url: https://mailarchive.ietf.org/arch/msg/tls/FJCeSkfayTMoIM478JLv8qu66Ww/
+  - kind: proceedings
+    listed_in: 21
+    first: '2009-02-04'
+    last: '2017-03-26'
+    examples:
+    - date: '2009-02-04'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/tls.html
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/tls.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/tls.html
   - kind: session requests
     meetings:
     - '72'
@@ -238,8 +313,11 @@ chairs:
       certainty: evidence-only
       not_after: '2006-01-11'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2008-03-09'
+      not_after: '2009-02-04'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2006-01-11'
@@ -265,6 +343,24 @@ chairs:
     - date: '2008-02-12'
       subject: '[TLS] WGLC for rsa-aes-gcm and ecc-new-mac'
       url: https://mailarchive.ietf.org/arch/msg/tls/W1VA7ziZYTRLRGpkJvN_mFCBisI/
+  - kind: proceedings
+    listed_in: 4
+    first: '2006-02-02'
+    last: '2007-10-01'
+    examples:
+    - date: '2006-02-02'
+      subject: IETF 65 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/65/tls.html
+    - date: '2006-04-17'
+      subject: IETF 66 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/66/tls.html
+    - date: '2007-10-01'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/tls.html
+  - kind: minutes without them
+    date: '2009-02-04'
+    subject: IETF 74 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/74/tls.html
   - kind: session requests
     meetings:
     - '66'

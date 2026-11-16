@@ -13,7 +13,18 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-05-11'
+      date: '2005-02-23'
     end:
       certainty: group-closed
       date: '2005-05-11'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2005-02-23'
+    last: '2005-02-23'
+    examples:
+    - date: '2005-02-23'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/liaison.html

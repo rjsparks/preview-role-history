@@ -13,7 +13,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '1998-01-19'
+      not_after: '1997-12-17'
     end:
       certainty: approximate
       date: '2003-04-30'
@@ -40,6 +40,20 @@ chairs:
     - date: '2001-03-21'
       subject: WG Last Call - draft-ietf-openpgp-mime
       url: https://mailarchive.ietf.org/arch/msg/openpgp/BVt_VIbe85UXug4Nh_agCXpN9i4/
+  - kind: proceedings
+    listed_in: 10
+    first: '1997-12-17'
+    last: '2001-07-31'
+    examples:
+    - date: '1997-12-17'
+      subject: IETF 40 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-101.htm
+    - date: '1998-03-18'
+      subject: IETF 41 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/41/98mar-edited-104.htm
+    - date: '2001-07-31'
+      subject: IETF 51 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/51/51-101.htm
 - person: 8698
   name: Derek Atkins
   status: confirmed
@@ -78,6 +92,20 @@ chairs:
     - date: '2006-04-19'
       subject: 'WGLC: draft-ietf-openpgp-rfc2440bis-16 ends Wed, May 3'
       url: https://mailarchive.ietf.org/arch/msg/openpgp/024xG-uUasKhJWS1vaEftRQgSvo/
+  - kind: proceedings
+    listed_in: 4
+    first: '2003-05-01'
+    last: '2005-07-10'
+    examples:
+    - date: '2003-05-01'
+      subject: IETF 57 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/57/208.htm
+    - date: '2004-02-11'
+      subject: IETF 59 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/59/209.htm
+    - date: '2005-07-10'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/openpgp.html
   - kind: session requests
     meetings:
     - '66'
@@ -150,6 +178,17 @@ chairs:
     - date: '2016-07-29'
       subject: '[openpgp] Minutes from the IETF 96 openpgp session posted'
       url: https://mailarchive.ietf.org/arch/msg/openpgp/fzUILZOrlyZY-4f-9ubER48rHCQ/
+  - kind: proceedings
+    listed_in: 2
+    first: '2016-04-03'
+    last: '2016-07-17'
+    examples:
+    - date: '2016-04-03'
+      subject: IETF 95 proceedings charter
+      url: https://www.ietf.org/proceedings/95/openpgp.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/openpgp.html
 - person: 104807
   name: Christopher Liljenstolpe
   status: confirmed
@@ -177,6 +216,20 @@ chairs:
     - date: '2015-07-17'
       subject: '[openpgp] Draft Agenda posted'
       url: https://mailarchive.ietf.org/arch/msg/openpgp/0qHL46HUPOAvVTYIcmt7FiVEy9Y/
+  - kind: proceedings
+    listed_in: 3
+    first: '2014-07-20'
+    last: '2015-11-01'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/openpgp.html
+    - date: '2015-07-19'
+      subject: IETF 93 proceedings charter
+      url: https://www.ietf.org/proceedings/93/openpgp.html
+    - date: '2015-11-01'
+      subject: IETF 94 proceedings charter
+      url: https://www.ietf.org/proceedings/94/openpgp.html
 - person: 111614
   name: Daniel Gillmor
   status: confirmed
@@ -228,6 +281,20 @@ chairs:
     - date: '2024-04-06'
       subject: '[openpgp] Call for adoption of draft-gallagher-openpgp-replacementkey'
       url: https://mailarchive.ietf.org/arch/msg/openpgp/ijiy4WJQhPVA5-7kiBPOvHOWCNI/
+  - kind: proceedings
+    listed_in: 5
+    first: '2014-07-20'
+    last: '2016-07-17'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/openpgp.html
+    - date: '2015-07-19'
+      subject: IETF 93 proceedings charter
+      url: https://www.ietf.org/proceedings/93/openpgp.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/openpgp.html
   - kind: shepherded
     documents:
     - draft-ietf-openpgp-pqc

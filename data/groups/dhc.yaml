@@ -13,10 +13,13 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2001-11-27'
+      not_after: '1994-03-28'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2016-10-24'
+      not_after: '2016-11-13'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2003-02-26'
@@ -54,6 +57,24 @@ chairs:
     - date: '2002-07-26'
       subject: '[dhcwg] WG last call for "DHCP Option for CableLabs Client Configuration"'
       url: https://mailarchive.ietf.org/arch/msg/dhcwg/8uA9mAdlJDYV2_ZjCth-bGXt9F8/
+  - kind: proceedings
+    listed_in: 34
+    first: '1994-03-28'
+    last: '2008-01-21'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/int/dhc/dhc-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/int/dhc/dhc-charter.txt
+    - date: '2008-01-21'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/dhc.html
+  - kind: minutes without them
+    date: '2016-11-13'
+    subject: IETF 97 proceedings charter
+    url: https://www.ietf.org/proceedings/97/dhc.html
   - kind: session requests
     meetings:
     - '71'
@@ -102,6 +123,20 @@ chairs:
     - date: '2010-09-14'
       subject: '[dhcwg] Call for adoption: draft-lemon-dhcpv6-relay-supplied-options'
       url: https://mailarchive.ietf.org/arch/msg/dhcwg/hdm_6wLYfSMErxYO1mvedOI1IZw/
+  - kind: proceedings
+    listed_in: 8
+    first: '2009-04-16'
+    last: '2012-11-04'
+    examples:
+    - date: '2009-04-16'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/dhc.html
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/dhc.html
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/dhc.html
 - person: 106173
   name: Stig Venaas
   status: unconfirmed
@@ -110,10 +145,12 @@ chairs:
       certainty: approximate
       date: '2004-12-26'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2007-12-23'
+      not_after: '2008-01-21'
     notes:
     - start dated by list message of 2004-12-26
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Review
     date: '2007-10-09'
@@ -140,6 +177,24 @@ chairs:
     - date: '2006-02-20'
       subject: '[dhcwg] Agenda items and draft submission deadlines for Dallas'
       url: https://mailarchive.ietf.org/arch/msg/dhcwg/Qg7HFOfgftk0Po-ByJBJsR9lKo0/
+  - kind: proceedings
+    listed_in: 5
+    first: '2005-01-20'
+    last: '2006-03-30'
+    examples:
+    - date: '2005-01-20'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/dhc.html
+    - date: '2005-06-27'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/dhc.html
+    - date: '2006-03-30'
+      subject: IETF 66 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/66/dhc.html
+  - kind: minutes without them
+    date: '2008-01-21'
+    subject: IETF 71 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/71/dhc.html
   - kind: session requests
     meetings:
     - '65'
@@ -209,6 +264,20 @@ chairs:
     - date: '2013-10-17'
       subject: '[dhcwg] WG Adoption Call - draft-jiang-dhc-sedhcpv6-02 - Ends November 11, 2013'
       url: https://mailarchive.ietf.org/arch/msg/dhcwg/PTQJ_u_Ew4np3YOCOWmtvlRs5TQ/
+  - kind: proceedings
+    listed_in: 8
+    first: '2012-11-04'
+    last: '2017-03-26'
+    examples:
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/dhc.html
+    - date: '2013-03-10'
+      subject: IETF 86 proceedings charter
+      url: https://www.ietf.org/proceedings/86/dhc.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/dhc.html
   - kind: shepherded
     documents:
     - draft-ietf-dhc-addr-registration
@@ -265,6 +334,20 @@ chairs:
     - date: '2010-03-16'
       subject: '[dhcwg] DRAFT agenda for IETF77 dhcwg'
       url: https://mailarchive.ietf.org/arch/msg/dhcwg/Rg7lMQgnZwqj981Znt7_TY44W5w/
+  - kind: proceedings
+    listed_in: 9
+    first: '2008-01-21'
+    last: '2012-11-04'
+    examples:
+    - date: '2008-01-21'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/dhc.html
+    - date: '2009-04-16'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/dhc.html
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/dhc.html
   - kind: session requests
     meetings:
     - '73'
@@ -327,6 +410,20 @@ chairs:
     - date: '2015-09-25'
       subject: '[dhcwg] Call for adoption for draft-cui-dhc-dhcpv6-yang-04'
       url: https://mailarchive.ietf.org/arch/msg/dhcwg/J3qxrL47ZHcSd7uUywuWnahMecI/
+  - kind: proceedings
+    listed_in: 7
+    first: '2013-03-10'
+    last: '2017-03-26'
+    examples:
+    - date: '2013-03-10'
+      subject: IETF 86 proceedings charter
+      url: https://www.ietf.org/proceedings/86/dhc.html
+    - date: '2013-07-28'
+      subject: IETF 87 proceedings charter
+      url: https://www.ietf.org/proceedings/87/dhc.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/dhc.html
   - kind: shepherded
     documents:
     - draft-fkhp-dhc-dhcpv6-pd-relay-requirements

@@ -13,10 +13,13 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '1999-10-27'
+      not_after: '1999-10-22'
     end:
-      certainty: evidence-only
-      not_before: '2004-11-18'
+      certainty: between
+      not_before: '2004-12-13'
+      not_after: '2005-03-22'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '1999-10-27'
@@ -42,13 +45,31 @@ chairs:
     - date: '2004-11-17'
       subject: '[L2tpext] WG Last Call'
       url: https://mailarchive.ietf.org/arch/msg/l2tpext/Niv77ensMPAWzlQz6F8gDvwmY_8/
+  - kind: proceedings
+    listed_in: 16
+    first: '1999-10-22'
+    last: '2004-12-13'
+    examples:
+    - date: '1999-10-22'
+      subject: IETF 46 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-60.html
+    - date: '2000-02-03'
+      subject: IETF 47 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-56.html
+    - date: '2004-12-13'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/l2tpext.html
+  - kind: minutes without them
+    date: '2005-03-22'
+    subject: IETF 63 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/63/l2tpext.html
 - person: 101526
   name: Ron Silva
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2006-09-05'
+      not_after: '2005-03-22'
     end:
       certainty: approximate
       date: '2006-09-05'
@@ -62,6 +83,20 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/l2tpext/D8beaF3ULjuyiu3-pSpxydd_lBg/
     excerpt: Ron da Silva has asked to step down as chair as his current day job will not allow him to
       devote the time necessary to be a WG chair.
+  - kind: proceedings
+    listed_in: 3
+    first: '2005-03-22'
+    last: '2006-02-03'
+    examples:
+    - date: '2005-03-22'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/l2tpext.html
+    - date: '2005-08-03'
+      subject: IETF 64 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/64/l2tpext.html
+    - date: '2006-02-03'
+      subject: IETF 65 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/65/l2tpext.html
 - person: 105547
   name: Ignacio Goyret
   status: confirmed
@@ -99,6 +134,20 @@ chairs:
     - date: '2015-10-19'
       subject: '[L2tpext] WGLC for draft-ietf-l2tpext-sbfd-discriminator'
       url: https://mailarchive.ietf.org/arch/msg/l2tpext/_J8LETiqBHVH9bjB-Y6pbOPjvFQ/
+  - kind: proceedings
+    listed_in: 29
+    first: '2005-03-22'
+    last: '2016-07-17'
+    examples:
+    - date: '2005-03-22'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/l2tpext.html
+    - date: '2005-08-03'
+      subject: IETF 64 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/64/l2tpext.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/l2tpext.html
   - kind: shepherded
     documents:
     - draft-ietf-l2tpext-sbfd-discriminator
@@ -136,6 +185,20 @@ chairs:
     - date: '2015-06-08'
       subject: '[L2tpext] WGLC for draft-ietf-l2tpext-keyed-ipv6-tunnel-04'
       url: https://mailarchive.ietf.org/arch/msg/l2tpext/HhA3eHVWBEKqtIJB7XR3sUdg6eA/
+  - kind: proceedings
+    listed_in: 26
+    first: '2006-07-09'
+    last: '2016-07-17'
+    examples:
+    - date: '2006-07-09'
+      subject: IETF 66 proceedings charter
+      url: https://www.ietf.org/proceedings/66/l2tpext.html
+    - date: '2006-10-09'
+      subject: IETF 67 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/67/l2tpext.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/l2tpext.html
   - kind: shepherded
     documents:
     - draft-ietf-l2tpext-keyed-ipv6-tunnel

@@ -13,19 +13,53 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2000-02-14'
+      date: '1997-04-07'
       not_before: '1996-11-25'
     end:
       certainty: group-closed
       date: '2000-02-14'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 7
+    first: '1997-04-07'
+    last: '1998-01-20'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr20.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-21.htm
+    - date: '1998-01-20'
+      subject: IETF 44 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-25.html
 - person: 18948
   name: Michael Myjak
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2000-02-14'
+      date: '1997-04-07'
       not_before: '1996-11-25'
     end:
       certainty: group-closed
       date: '2000-02-14'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 7
+    first: '1997-04-07'
+    last: '1998-01-20'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr20.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-21.htm
+    - date: '1998-01-20'
+      subject: IETF 44 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-25.html

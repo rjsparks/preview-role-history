@@ -13,19 +13,117 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-02-24'
+      date: '2000-03-06'
       not_before: '1997-01-29'
     end:
       certainty: group-closed
       date: '2005-02-24'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 12
+    first: '2000-03-06'
+    last: '2004-03-15'
+    examples:
+    - date: '2000-03-06'
+      subject: IETF 47 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-19.html
+    - date: '2000-07-17'
+      subject: IETF 48 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/48/00july-19.htm
+    - date: '2004-03-15'
+      subject: IETF 60 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/60/107.htm
+- person: 20908
+  name: James Rafferty
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1997-04-07'
+    end:
+      certainty: between
+      not_before: '2000-10-11'
+      not_after: '2001-03-14'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 12
+    first: '1997-04-07'
+    last: '2000-10-11'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr18.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-19.htm
+    - date: '2000-10-11'
+      subject: IETF 49 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/49/00dec-17.htm
+  - kind: minutes without them
+    date: '2001-03-14'
+    subject: IETF 50 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/50/ietf50-18.htm
+- person: 100927
+  name: Dave Crocker
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1997-04-07'
+    end:
+      certainty: between
+      not_before: '1997-10-27'
+      not_after: '2000-03-06'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 3
+    first: '1997-04-07'
+    last: '1997-10-27'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr18.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-19.htm
+    - date: '1997-10-27'
+      subject: IETF 40 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-12.htm
+  - kind: minutes without them
+    date: '2000-03-06'
+    subject: IETF 47 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-19.html
 - person: 102839
   name: Hiroshi Tamura
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-02-24'
+      date: '2000-03-06'
       not_before: '1997-01-29'
     end:
       certainty: group-closed
       date: '2005-02-24'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 12
+    first: '2000-03-06'
+    last: '2004-03-15'
+    examples:
+    - date: '2000-03-06'
+      subject: IETF 47 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-19.html
+    - date: '2000-07-17'
+      subject: IETF 48 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/48/00july-19.htm
+    - date: '2004-03-15'
+      subject: IETF 60 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/60/107.htm

@@ -7,25 +7,120 @@ started: '1995-06-20'
 closed: '2000-02-14'
 history_url: https://datatracker.ietf.org/group/rps/history/
 chairs:
+- person: 6291
+  name: Daniel Karrenberg
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1995-07-17'
+    end:
+      certainty: between
+      not_before: '1997-10-24'
+      not_after: '1998-03-03'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 4
+    first: '1995-07-17'
+    last: '1997-10-24'
+    examples:
+    - date: '1995-07-17'
+      subject: IETF 33 proceedings charter
+      url: https://www.ietf.org/proceedings/33/area.and.wg.reports/ops/rps/rps-charter.txt
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr75.htm
+    - date: '1997-10-24'
+      subject: IETF 40 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-75.htm
+  - kind: minutes without them
+    date: '1998-03-03'
+    subject: IETF 41 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/41/98mar-edited-82.htm
 - person: 8259
   name: Curtis Villamizar
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2000-02-14'
+      date: '1998-11-25'
       not_before: '1995-06-20'
     end:
       certainty: group-closed
       date: '2000-02-14'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 3
+    first: '1998-11-25'
+    last: '1999-05-27'
+    examples:
+    - date: '1998-11-25'
+      subject: IETF 43 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-78.html
+    - date: '1999-01-21'
+      subject: IETF 44 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-79.html
+    - date: '1999-05-27'
+      subject: IETF 45 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-77.html
+- person: 20012
+  name: Carol Orange
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1998-03-03'
+    end:
+      certainty: between
+      not_before: '1998-07-23'
+      not_after: '1998-11-25'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '1998-03-03'
+    last: '1998-07-23'
+    examples:
+    - date: '1998-03-03'
+      subject: IETF 41 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/41/98mar-edited-82.htm
+    - date: '1998-07-23'
+      subject: IETF 42 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/42/98aug-88.htm
+  - kind: minutes without them
+    date: '1998-11-25'
+    subject: IETF 43 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-78.html
 - person: 122381
   name: Cengiz Alaettinoglu
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2000-02-14'
+      date: '1995-07-17'
       not_before: '1995-06-20'
     end:
       certainty: group-closed
       date: '2000-02-14'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 9
+    first: '1995-07-17'
+    last: '1999-05-27'
+    examples:
+    - date: '1995-07-17'
+      subject: IETF 33 proceedings charter
+      url: https://www.ietf.org/proceedings/33/area.and.wg.reports/ops/rps/rps-charter.txt
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr75.htm
+    - date: '1999-05-27'
+      subject: IETF 45 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-77.html

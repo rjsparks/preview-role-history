@@ -29,3 +29,42 @@ chairs:
     date: '2004-01-29'
     subject: 'WG Action: RECHARTER: Zero Configuration Networking (zeroconf)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/z38YDlpEq4MNApr_-0QAxqErBP4/
+  - kind: proceedings
+    listed_in: 9
+    first: '1999-10-20'
+    last: '2004-01-29'
+    examples:
+    - date: '1999-10-20'
+      subject: IETF 46 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-63.html
+    - date: '2000-02-29'
+      subject: IETF 47 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-59.html
+    - date: '2004-01-29'
+      subject: IETF 59 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/59/155.htm
+- person: 109533
+  name: Stuart Cheshire
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1999-10-20'
+    end:
+      certainty: evidence-only
+      not_before: '2002-03-28'
+  evidence:
+  - kind: proceedings
+    listed_in: 7
+    first: '1999-10-20'
+    last: '2002-03-28'
+    examples:
+    - date: '1999-10-20'
+      subject: IETF 46 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-63.html
+    - date: '2000-02-29'
+      subject: IETF 47 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-59.html
+    - date: '2002-03-28'
+      subject: IETF 54 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/54/152.htm

@@ -13,10 +13,13 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2006-01-12'
+      not_after: '2005-03-06'
     end:
-      certainty: evidence-only
-      not_before: '2006-11-09'
+      certainty: between
+      not_before: '2007-02-13'
+      not_after: '2007-07-10'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2006-01-12'
@@ -39,6 +42,24 @@ chairs:
     - date: '2006-11-09'
       subject: '[netlmm] revised agenda for tomorrow morning''s meeting'
       url: https://mailarchive.ietf.org/arch/msg/netlmm/KPnz4AZMyrFaaxrtIGnxCIvmknA/
+  - kind: proceedings
+    listed_in: 7
+    first: '2005-03-06'
+    last: '2007-02-13'
+    examples:
+    - date: '2005-03-06'
+      subject: IETF 62 proceedings charter
+      url: https://www.ietf.org/proceedings/62/netlmm.html
+    - date: '2005-07-10'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/netlmm.html
+    - date: '2007-02-13'
+      subject: IETF 68 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/68/netlmm.html
+  - kind: minutes without them
+    date: '2007-07-10'
+    subject: IETF 69 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/69/netlmm.html
   - kind: session requests
     meetings:
     - '65'
@@ -87,16 +108,30 @@ chairs:
     - date: '2009-01-07'
       subject: '[netlmm] WG Last Call notice: draft-ietf-netlmm-grekey-option (second last call)'
       url: https://mailarchive.ietf.org/arch/msg/netlmm/LdwfPMfjZ_J93bcr66IreIhNkbM/
+  - kind: proceedings
+    listed_in: 2
+    first: '2007-07-10'
+    last: '2008-12-16'
+    examples:
+    - date: '2007-07-10'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/netlmm.html
+    - date: '2008-12-16'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/netlmm.html
 - person: 106286
   name: James Kempf
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2006-01-12'
+      not_after: '2005-03-06'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2006-11-16'
+      not_after: '2007-02-13'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2006-01-12'
@@ -116,24 +151,57 @@ chairs:
     - date: '2006-08-02'
       subject: '[netlmm] More Minutes'
       url: https://mailarchive.ietf.org/arch/msg/netlmm/iKkyIzlDPMgkBFfF7XWqXp5Hvew/
+  - kind: proceedings
+    listed_in: 6
+    first: '2005-03-06'
+    last: '2006-10-18'
+    examples:
+    - date: '2005-03-06'
+      subject: IETF 62 proceedings charter
+      url: https://www.ietf.org/proceedings/62/netlmm.html
+    - date: '2005-07-10'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/netlmm.html
+    - date: '2006-10-18'
+      subject: IETF 67 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/67/inetlmm.html
+  - kind: minutes without them
+    date: '2007-02-13'
+    subject: IETF 68 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/68/netlmm.html
 - person: 107134
   name: Vidya Narayanan
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2007-03-18'
+      date: '2007-02-13'
       not_before: '2005-05-30'
     end:
       certainty: group-closed
       date: '2010-10-05'
     notes:
     - start moved earlier by session request for IETF 68
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Review
     date: '2008-07-08'
     subject: 'WG Review: Recharter of Network-based Localized Mobility Management (netlmm)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/B7GAysrotb-6vyU7CEirt_3UTM8/
+  - kind: proceedings
+    listed_in: 3
+    first: '2007-02-13'
+    last: '2008-12-16'
+    examples:
+    - date: '2007-02-13'
+      subject: IETF 68 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/68/netlmm.html
+    - date: '2007-07-10'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/netlmm.html
+    - date: '2008-12-16'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/netlmm.html
   - kind: session requests
     meetings:
     - '68'

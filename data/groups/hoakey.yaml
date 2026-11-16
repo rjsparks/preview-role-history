@@ -13,17 +13,48 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-10-16'
+      date: '2006-07-09'
     end:
       certainty: group-closed
       date: '2006-10-16'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2006-07-09'
+    last: '2006-10-16'
+    examples:
+    - date: '2006-07-09'
+      subject: IETF 66 proceedings charter
+      url: https://www.ietf.org/proceedings/66/hoakey.html
+    - date: '2006-10-16'
+      subject: IETF 67 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/67/hoakey.html
 - person: 106636
   name: Yoshihiro Ohba
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-10-16'
+      date: '2006-03-01'
     end:
       certainty: group-closed
       date: '2006-10-16'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 3
+    first: '2006-03-01'
+    last: '2006-10-16'
+    examples:
+    - date: '2006-03-01'
+      subject: IETF 65 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/65/hoakey.html
+    - date: '2006-07-09'
+      subject: IETF 66 proceedings charter
+      url: https://www.ietf.org/proceedings/66/hoakey.html
+    - date: '2006-10-16'
+      subject: IETF 67 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/67/hoakey.html

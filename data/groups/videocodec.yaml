@@ -17,6 +17,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2013-01-31'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2012-11-04'
+    last: '2012-11-04'
+    examples:
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/videocodec.html
 - person: 105907
   name: Peter Saint-Andre
   status: confirmed
@@ -36,3 +45,14 @@ chairs:
     - date: '2012-10-19'
       subject: '[video-codec] draft agenda'
       url: https://mailarchive.ietf.org/arch/msg/video-codec/panIyBgvkjlFAGsmyrb2M1pXaMc/
+  - kind: proceedings
+    listed_in: 2
+    first: '2012-07-29'
+    last: '2012-11-04'
+    examples:
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/videocodec.html
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/videocodec.html

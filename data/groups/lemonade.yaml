@@ -13,13 +13,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-09-27'
+      date: '2003-06-20'
       not_before: '2002-12-06'
     end:
       certainty: group-closed
       date: '2010-02-11'
     notes:
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2003-06-25'
@@ -41,6 +42,20 @@ chairs:
     - date: '2004-10-25'
       subject: '[lemonade] WG last call on future delivery'
       url: https://mailarchive.ietf.org/arch/msg/lemonade/L1duoTTXKS07jY2SZRECYX8xbk8/
+  - kind: proceedings
+    listed_in: 15
+    first: '2003-06-20'
+    last: '2009-08-20'
+    examples:
+    - date: '2003-06-20'
+      subject: IETF 57 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/57/114.htm
+    - date: '2003-10-01'
+      subject: IETF 58 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/58/106.htm
+    - date: '2009-08-20'
+      subject: IETF 75 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/75/lemonade.html
 - person: 102154
   name: Alexey Melnikov
   status: unconfirmed
@@ -49,9 +64,16 @@ chairs:
       certainty: evidence-only
       not_after: '2007-07-22'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2008-07-27'
+      not_after: '2009-04-03'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
+  - kind: minutes without them
+    date: '2009-04-03'
+    subject: IETF 74 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/74/lemonade.html
   - kind: session requests
     meetings:
     - '69'
@@ -64,7 +86,7 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-11-20'
+      date: '2003-06-20'
       not_before: '2002-12-06'
     end:
       certainty: group-closed
@@ -72,6 +94,7 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 65
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2003-07-31'
@@ -93,6 +116,20 @@ chairs:
     - date: '2005-01-19'
       subject: '[lemonade] WGLC CATENATE'
       url: https://mailarchive.ietf.org/arch/msg/lemonade/TuZrkdPiUNPaZGIuFPVmU7zi05Q/
+  - kind: proceedings
+    listed_in: 15
+    first: '2003-06-20'
+    last: '2009-08-20'
+    examples:
+    - date: '2003-06-20'
+      subject: IETF 57 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/57/114.htm
+    - date: '2003-10-01'
+      subject: IETF 58 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/58/106.htm
+    - date: '2009-08-20'
+      subject: IETF 75 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/75/lemonade.html
   - kind: session requests
     meetings:
     - '65'

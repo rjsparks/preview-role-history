@@ -13,10 +13,13 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2009-05-29'
+      not_after: '2009-04-22'
     end:
-      certainty: evidence-only
-      not_before: '2010-10-12'
+      certainty: between
+      not_before: '2011-03-27'
+      not_after: '2011-07-24'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2010-10-12'
@@ -30,19 +33,38 @@ chairs:
     - date: '2009-05-29'
       subject: '[alto] WGLC: draft-ietf-alto-problem-statement-01'
       url: https://mailarchive.ietf.org/arch/msg/alto/zmylnaDNGz8TJ70K_G16PkSS3Ys/
+  - kind: proceedings
+    listed_in: 5
+    first: '2009-04-22'
+    last: '2011-03-27'
+    examples:
+    - date: '2009-04-22'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/alto.html
+    - date: '2009-11-19'
+      subject: IETF 76 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/76/alto.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/alto.html
+  - kind: minutes without them
+    date: '2020-07-27'
+    subject: '[alto] ALTO Minutes from IETF-108'
+    url: https://mailarchive.ietf.org/arch/msg/alto/o5eL1q9V_ghpXR8Ys-pYxuQRnR4/
 - person: 106812
   name: Vijay Gurbani
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-10-12'
+      date: '2009-04-22'
       not_before: '2008-09-18'
     end:
       certainty: exact
       date: '2021-07-29'
     notes:
     - start moved earlier by WG Action announcement of 2010-10-12
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2010-10-12'
@@ -72,6 +94,28 @@ chairs:
     - date: '2015-04-28'
       subject: '[alto] Call for adoption for incremental updates and server-side notifications'
       url: https://mailarchive.ietf.org/arch/msg/alto/1nLabIj25PJz3M0SOuXAAdLlSBs/
+  - kind: minutes
+    listed_in: 1
+    first: '2020-07-27'
+    last: '2020-07-27'
+    examples:
+    - date: '2020-07-27'
+      subject: '[alto] ALTO Minutes from IETF-108'
+      url: https://mailarchive.ietf.org/arch/msg/alto/o5eL1q9V_ghpXR8Ys-pYxuQRnR4/
+  - kind: proceedings
+    listed_in: 22
+    first: '2009-04-22'
+    last: '2017-03-26'
+    examples:
+    - date: '2009-04-22'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/alto.html
+    - date: '2009-11-19'
+      subject: IETF 76 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/76/alto.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/alto.html
   - kind: shepherded
     documents:
     - draft-ietf-alto-cdni-request-routing-alto
@@ -123,6 +167,24 @@ chairs:
     - date: '2013-10-03'
       subject: '[alto] WGLC (second): draft-ietf-alto-protocol-20'
       url: https://mailarchive.ietf.org/arch/msg/alto/PcNHiaSlQrwjIlS05tVW3KHzZkU/
+  - kind: proceedings
+    listed_in: 19
+    first: '2009-04-22'
+    last: '2015-11-01'
+    examples:
+    - date: '2009-04-22'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/alto.html
+    - date: '2009-11-19'
+      subject: IETF 76 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/76/alto.html
+    - date: '2015-11-01'
+      subject: IETF 94 proceedings charter
+      url: https://www.ietf.org/proceedings/94/alto.html
+  - kind: minutes without them
+    date: '2020-07-27'
+    subject: '[alto] ALTO Minutes from IETF-108'
+    url: https://mailarchive.ietf.org/arch/msg/alto/o5eL1q9V_ghpXR8Ys-pYxuQRnR4/
   - kind: session requests
     meetings:
     - '74'
@@ -178,6 +240,28 @@ chairs:
     - date: '2016-07-04'
       subject: '[alto] Working Group Last Call on draft-ietf-alto-incr-update-sse-02'
       url: https://mailarchive.ietf.org/arch/msg/alto/mnuzhFkDTBDTuRMSDIV2GKXk96A/
+  - kind: minutes
+    listed_in: 1
+    first: '2020-07-27'
+    last: '2020-07-27'
+    examples:
+    - date: '2020-07-27'
+      subject: '[alto] ALTO Minutes from IETF-108'
+      url: https://mailarchive.ietf.org/arch/msg/alto/o5eL1q9V_ghpXR8Ys-pYxuQRnR4/
+  - kind: proceedings
+    listed_in: 8
+    first: '2014-07-20'
+    last: '2017-03-26'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/alto.html
+    - date: '2014-11-09'
+      subject: IETF 91 proceedings charter
+      url: https://www.ietf.org/proceedings/91/alto.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/alto.html
   - kind: shepherded
     documents:
     - draft-ietf-alto-multi-cost
@@ -219,6 +303,10 @@ chairs:
     - date: '2023-03-14'
       subject: '[alto] WGLC for draft-ietf-alto-new-transport (Ends 28/03/2023)'
       url: https://mailarchive.ietf.org/arch/msg/alto/fr8djMcRk_wyYh0MwNGS1PiYFuY/
+  - kind: minutes without them
+    date: '2020-07-27'
+    subject: '[alto] ALTO Minutes from IETF-108'
+    url: https://mailarchive.ietf.org/arch/msg/alto/o5eL1q9V_ghpXR8Ys-pYxuQRnR4/
 - person: 112869
   name: Mohamed Boucadair
   status: confirmed
@@ -244,6 +332,10 @@ chairs:
     - date: '2022-03-23'
       subject: '[alto] Call for adoption: draft-zhang-alto-oam-yang'
       url: https://mailarchive.ietf.org/arch/msg/alto/CXUlmhsulzQdzdWnioW1x4K6cwo/
+  - kind: minutes without them
+    date: '2020-07-27'
+    subject: '[alto] ALTO Minutes from IETF-108'
+    url: https://mailarchive.ietf.org/arch/msg/alto/o5eL1q9V_ghpXR8Ys-pYxuQRnR4/
   - kind: shepherded
     documents:
     - draft-ietf-alto-new-transport
@@ -253,11 +345,14 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2020-07-27'
       not_after: '2020-10-14'
     end:
       certainty: evidence-only
       not_before: '2023-07-11'
+    notes:
+    - bounded by minutes listing other chairs
   evidence:
   - kind: chair activity
     first: '2020-10-14'
@@ -276,6 +371,10 @@ chairs:
     - date: '2022-03-25'
       subject: '[alto] WGLC for draft-ietf-alto-cost-mode-00'
       url: https://mailarchive.ietf.org/arch/msg/alto/WqYQ5m3zvfUYNQtbiB-stD3KBiM/
+  - kind: minutes without them
+    date: '2020-07-27'
+    subject: '[alto] ALTO Minutes from IETF-108'
+    url: https://mailarchive.ietf.org/arch/msg/alto/o5eL1q9V_ghpXR8Ys-pYxuQRnR4/
   - kind: shepherded
     documents:
     - draft-bw-alto-cost-mode

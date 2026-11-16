@@ -54,6 +54,20 @@ chairs:
     - date: '2007-07-30'
       subject: '[nemo] WG Last Call for NEMO MIB'
       url: https://mailarchive.ietf.org/arch/msg/nemo/8fgVIwrpFy68hyCYcYqdHRqEi_E/
+  - kind: proceedings
+    listed_in: 12
+    first: '2003-02-24'
+    last: '2007-06-15'
+    examples:
+    - date: '2003-02-24'
+      subject: IETF 56 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/56/149.htm
+    - date: '2003-07-29'
+      subject: IETF 57 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/57/147.htm
+    - date: '2007-06-15'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/nemo.html
   - kind: session requests
     meetings:
     - '66'
@@ -65,13 +79,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2003-02-24'
       not_before: '2002-09-13'
     end:
       certainty: group-closed
       date: '2007-11-20'
     notes:
     - start moved earlier by session request for IETF 65
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Review
     date: '2007-02-21'
@@ -99,6 +114,20 @@ chairs:
     - date: '2006-09-14'
       subject: '[nemo] WGLC Multihoming Issues'
       url: https://mailarchive.ietf.org/arch/msg/nemo/ck7AN_Zq3oRUqKgGu-aTlhxAKf4/
+  - kind: proceedings
+    listed_in: 12
+    first: '2003-02-24'
+    last: '2007-06-15'
+    examples:
+    - date: '2003-02-24'
+      subject: IETF 56 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/56/149.htm
+    - date: '2003-07-29'
+      subject: IETF 57 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/57/147.htm
+    - date: '2007-06-15'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/nemo.html
   - kind: session requests
     meetings:
     - '65'

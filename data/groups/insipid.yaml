@@ -39,6 +39,28 @@ chairs:
     date: '2013-10-11'
     subject: 'WG Action: Rechartered INtermediary-safe SIP session ID (insipid)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/1s1V3HfAaXPZvWOGkKnpIc0kM0A/
+  - kind: minutes
+    listed_in: 1
+    first: '2013-09-19'
+    last: '2013-09-19'
+    examples:
+    - date: '2013-09-19'
+      subject: '[Insipid] Meeting minutes of Berlin meeting'
+      url: https://mailarchive.ietf.org/arch/msg/insipid/08l7_9vrzRlmV0qGkgDxDrBi8Ig/
+  - kind: proceedings
+    listed_in: 14
+    first: '2012-03-25'
+    last: '2016-07-17'
+    examples:
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/insipid.html
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/insipid.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/insipid.html
   - kind: shepherded
     documents:
     - draft-ietf-insipid-session-id-reqts
@@ -66,10 +88,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2012-02-23'
-      not_after: '2015-03-26'
+      not_after: '2012-03-25'
     end:
       certainty: group-closed
       date: '2018-10-02'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Review
     date: '2013-09-27'
@@ -99,6 +123,28 @@ chairs:
     - date: '2018-01-16'
       subject: '[Insipid] WGLC for draft-ietf-insipid-logme-marking-09'
       url: https://mailarchive.ietf.org/arch/msg/insipid/NgWvRm8Hs2fD-oRMRqS7wyEcPbU/
+  - kind: minutes
+    listed_in: 1
+    first: '2013-09-19'
+    last: '2013-09-19'
+    examples:
+    - date: '2013-09-19'
+      subject: '[Insipid] Meeting minutes of Berlin meeting'
+      url: https://mailarchive.ietf.org/arch/msg/insipid/08l7_9vrzRlmV0qGkgDxDrBi8Ig/
+  - kind: proceedings
+    listed_in: 14
+    first: '2012-03-25'
+    last: '2016-07-17'
+    examples:
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/insipid.html
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/insipid.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/insipid.html
   - kind: shepherded
     documents:
     - draft-ietf-insipid-logme-marking

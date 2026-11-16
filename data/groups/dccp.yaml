@@ -15,26 +15,48 @@ chairs:
       certainty: evidence-only
       not_after: '2002-07-02'
     end:
-      certainty: evidence-only
-      not_before: '2002-07-02'
+      certainty: between
+      not_before: '2005-02-18'
+      not_after: '2005-06-27'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2002-07-02'
     subject: 'WG Action: Datagram Congestion Control Protocol (dccp)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/09M7QuPAqT3CNuCc_iIlTJnGrUY/
+  - kind: proceedings
+    listed_in: 8
+    first: '2002-07-02'
+    last: '2005-02-18'
+    examples:
+    - date: '2002-07-02'
+      subject: IETF 54 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/54/218.htm
+    - date: '2003-02-10'
+      subject: IETF 56 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/56/224.htm
+    - date: '2005-02-18'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/dccp.html
+  - kind: minutes without them
+    date: '2005-06-27'
+    subject: IETF 63 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/63/dccp.html
 - person: 101742
   name: Thomas Phelan
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-07-11'
+      date: '2005-06-27'
       not_before: '2002-06-07'
     end:
       certainty: group-closed
       date: '2012-11-27'
     notes:
     - start moved earlier by WG Action announcement of 2006-07-11
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Review
     date: '2006-06-27'
@@ -44,6 +66,20 @@ chairs:
     date: '2006-07-11'
     subject: 'WG Action: RECHARTER: Datagram Congestion Control Protocol (dccp)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/wdeOMBJCbkAZFcF3XSEU65wp1CY/
+  - kind: proceedings
+    listed_in: 13
+    first: '2005-06-27'
+    last: '2012-07-29'
+    examples:
+    - date: '2005-06-27'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/dccp.html
+    - date: '2005-11-09'
+      subject: IETF 64 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/64/dccp.html
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/dccp.html
 - person: 104331
   name: Gorry Fairhurst
   status: unconfirmed
@@ -52,8 +88,11 @@ chairs:
       certainty: evidence-only
       not_after: '2006-06-27'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2009-03-22'
+      not_after: '2009-06-26'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Review
     date: '2006-06-27'
@@ -63,6 +102,24 @@ chairs:
     date: '2006-07-11'
     subject: 'WG Action: RECHARTER: Datagram Congestion Control Protocol (dccp)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/wdeOMBJCbkAZFcF3XSEU65wp1CY/
+  - kind: proceedings
+    listed_in: 3
+    first: '2006-07-11'
+    last: '2008-03-18'
+    examples:
+    - date: '2006-07-11'
+      subject: IETF 66 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/66/dccp.html
+    - date: '2007-06-29'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/dccp.html
+    - date: '2008-03-18'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/dccp.html
+  - kind: minutes without them
+    date: '2009-06-26'
+    subject: IETF 75 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/75/dccp.html
   - kind: session requests
     meetings:
     - '66'
@@ -81,15 +138,63 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2009-11-08'
+      date: '2009-03-22'
       not_before: '2002-06-07'
     end:
       certainty: group-closed
       date: '2012-11-27'
     notes:
     - start moved earlier by session request for IETF 76
+    - widened to cover charter snapshots in proceedings
   evidence:
+  - kind: proceedings
+    listed_in: 8
+    first: '2009-03-22'
+    last: '2012-07-29'
+    examples:
+    - date: '2009-03-22'
+      subject: IETF 74 proceedings charter
+      url: https://www.ietf.org/proceedings/74/dccp.html
+    - date: '2009-06-26'
+      subject: IETF 75 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/75/dccp.html
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/dccp.html
   - kind: session requests
     meetings:
     - '76'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 112773
+  name: Lars Eggert
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2005-06-27'
+    end:
+      certainty: between
+      not_before: '2006-03-19'
+      not_after: '2006-07-11'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2005-06-27'
+    last: '2005-11-09'
+    examples:
+    - date: '2005-06-27'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/dccp.html
+    - date: '2005-11-09'
+      subject: IETF 64 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/64/dccp.html
+  - kind: minutes without them
+    date: '2006-07-11'
+    subject: IETF 66 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/66/dccp.html
+  - kind: session requests
+    meetings:
+    - '65'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

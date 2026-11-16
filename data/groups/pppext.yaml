@@ -7,16 +7,41 @@ started: '1989-10-02'
 closed: '2013-10-10'
 history_url: https://datatracker.ietf.org/group/pppext/history/
 chairs:
+- person: 2853
+  name: Fred Baker
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1994-03-28'
+    end:
+      certainty: evidence-only
+      not_before: '1995-07-17'
+  evidence:
+  - kind: proceedings
+    listed_in: 4
+    first: '1994-03-28'
+    last: '1995-07-17'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/int/pppext/pppext-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/int/pppext/pppext-charter.txt
+    - date: '1995-07-17'
+      subject: IETF 33 proceedings charter
+      url: https://www.ietf.org/proceedings/33/area.and.wg.reports/int/pppext/pppext-charter.txt
 - person: 8249
   name: James Carlson
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2004-04-18'
+      not_after: '2004-01-20'
     end:
       certainty: evidence-only
-      not_before: '2009-06-09'
+      not_before: '2011-03-27'
   evidence:
   - kind: WG Action
     date: '2009-06-09'
@@ -33,6 +58,20 @@ chairs:
     - date: '2004-11-23'
       subject: '[Pppext] removing the milestones'
       url: https://mailarchive.ietf.org/arch/msg/pppext/yfDDvoexTyaOnwqeUrNg4o_N75A/
+  - kind: proceedings
+    listed_in: 9
+    first: '2004-01-20'
+    last: '2011-03-27'
+    examples:
+    - date: '2004-01-20'
+      subject: IETF 59 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/59/153.htm
+    - date: '2004-06-07'
+      subject: IETF 60 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/60/154.htm
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/pppext.html
 - person: 102391
   name: Donald Eastlake
   status: confirmed

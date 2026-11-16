@@ -7,19 +7,49 @@ started: '2008-10-30'
 closed: '2012-12-20'
 history_url: https://datatracker.ietf.org/group/ledbat/history/
 chairs:
+- person: 109422
+  name: Stanislav Shalunov
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2009-01-21'
+    end:
+      certainty: between
+      not_before: '2009-08-10'
+      not_after: '2010-03-21'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2009-01-21'
+    last: '2009-08-10'
+    examples:
+    - date: '2009-01-21'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/ledbat.html
+    - date: '2009-08-10'
+      subject: IETF 75 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/75/ledbat.html
+  - kind: minutes without them
+    date: '2010-03-21'
+    subject: IETF 77 proceedings charter
+    url: https://www.ietf.org/proceedings/77/ledbat.html
 - person: 109727
   name: Murari Sridharan
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2009-03-22'
+      date: '2009-01-21'
       not_before: '2008-10-30'
     end:
       certainty: group-closed
       date: '2012-12-20'
     notes:
     - start moved earlier by session request for IETF 74
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2009-03-23'
@@ -32,6 +62,20 @@ chairs:
     - date: '2010-01-13'
       subject: '[ledbat] missing minutes'
       url: https://mailarchive.ietf.org/arch/msg/ledbat/euHXGUWFi9S1eQqhIk3IihuYjyA/
+  - kind: proceedings
+    listed_in: 10
+    first: '2009-01-21'
+    last: '2012-07-29'
+    examples:
+    - date: '2009-01-21'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/ledbat.html
+    - date: '2009-08-10'
+      subject: IETF 75 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/75/ledbat.html
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/ledbat.html
   - kind: session requests
     meetings:
     - '74'
@@ -46,13 +90,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-06-16'
+      date: '2010-03-21'
       not_before: '2008-10-30'
     end:
       certainty: group-closed
       date: '2012-12-20'
     notes:
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2010-10-13'
@@ -71,3 +116,17 @@ chairs:
     - date: '2011-10-11'
       subject: '[ledbat] WG last call on draft-ietf-ledbat-congestion-08'
       url: https://mailarchive.ietf.org/arch/msg/ledbat/4HZqzFkQdPY9ftY83Ik8wRKRtvQ/
+  - kind: proceedings
+    listed_in: 8
+    first: '2010-03-21'
+    last: '2012-07-29'
+    examples:
+    - date: '2010-03-21'
+      subject: IETF 77 proceedings charter
+      url: https://www.ietf.org/proceedings/77/ledbat.html
+    - date: '2010-06-03'
+      subject: IETF 78 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/78/ledbat.html
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/ledbat.html

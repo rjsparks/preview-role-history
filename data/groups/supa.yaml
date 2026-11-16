@@ -18,6 +18,15 @@ chairs:
     end:
       certainty: approximate
       date: '2015-09-02'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2015-03-22'
+    last: '2015-03-22'
+    examples:
+    - date: '2015-03-22'
+      subject: IETF 92 proceedings charter
+      url: https://www.ietf.org/proceedings/92/supa.html
 - person: 6766
   name: Nevil Brownlee
   status: confirmed
@@ -50,6 +59,20 @@ chairs:
     - date: '2017-07-18'
       subject: '[Supa] WG Last Call started for SUPA Framework draft version -03'
       url: https://mailarchive.ietf.org/arch/msg/supa/7e0RAZjb4mwV6VpcD9UuLufKAyE/
+  - kind: proceedings
+    listed_in: 6
+    first: '2015-07-19'
+    last: '2017-03-26'
+    examples:
+    - date: '2015-07-19'
+      subject: IETF 93 proceedings charter
+      url: https://www.ietf.org/proceedings/93/supa.html
+    - date: '2015-11-01'
+      subject: IETF 94 proceedings charter
+      url: https://www.ietf.org/proceedings/94/supa.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/supa.html
 - person: 107598
   name: Tina Tsou
   status: confirmed
@@ -73,6 +96,14 @@ chairs:
     - date: '2015-04-28'
       subject: '[Supa] Call for agenda for May 4th'
       url: https://mailarchive.ietf.org/arch/msg/supa/9MLZ16Z9vsOWrUpXkw7r61kxJKc/
+  - kind: proceedings
+    listed_in: 1
+    first: '2015-03-22'
+    last: '2015-03-22'
+    examples:
+    - date: '2015-03-22'
+      subject: IETF 92 proceedings charter
+      url: https://www.ietf.org/proceedings/92/supa.html
 - person: 109558
   name: Daniel King
   status: confirmed
@@ -88,3 +119,17 @@ chairs:
     date: '2015-10-02'
     subject: 'WG Action: Formed Simplified Use of Policy Abstractions (supa)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/IFVMRehW0UBfqIOBEvgNMLo7-Ss/
+  - kind: proceedings
+    listed_in: 6
+    first: '2015-07-19'
+    last: '2017-03-26'
+    examples:
+    - date: '2015-07-19'
+      subject: IETF 93 proceedings charter
+      url: https://www.ietf.org/proceedings/93/supa.html
+    - date: '2015-11-01'
+      subject: IETF 94 proceedings charter
+      url: https://www.ietf.org/proceedings/94/supa.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/supa.html

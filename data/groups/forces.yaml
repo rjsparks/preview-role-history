@@ -36,6 +36,34 @@ chairs:
     - date: '2001-08-29'
       subject: updated minutes
       url: https://mailarchive.ietf.org/arch/msg/forces/QpFvRoEP3Ce7jXXN2AepJk6PbCE/
+  - kind: minutes
+    listed_in: 6
+    first: '2002-11-17'
+    last: '2006-07-09'
+    examples:
+    - date: '2002-11-17'
+      subject: Draft ForCES Meeting Minutes, IETF 55
+      url: https://mailarchive.ietf.org/arch/msg/forces/y4B_yjCf3SrLxpkieVXtS0EFqIw/
+    - date: '2004-11-07'
+      subject: tentative ForCES minutes from the IETF61 in DC
+      url: https://mailarchive.ietf.org/arch/msg/forces/hTDj3OaTeasIZ2LxwBUskqXIEfQ/
+    - date: '2006-07-09'
+      subject: Tentative ForCES Minutes
+      url: https://mailarchive.ietf.org/arch/msg/forces/u4ocNcFLsgNFDVSgfSOmce42e_g/
+  - kind: proceedings
+    listed_in: 26
+    first: '2001-07-31'
+    last: '2013-03-10'
+    examples:
+    - date: '2001-07-31'
+      subject: IETF 51 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/51/51-87.htm
+    - date: '2001-12-05'
+      subject: IETF 52 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/52/179.htm
+    - date: '2013-03-10'
+      subject: IETF 86 proceedings charter
+      url: https://www.ietf.org/proceedings/86/forces.html
   - kind: session requests
     meetings:
     - '67'
@@ -62,13 +90,48 @@ chairs:
       certainty: evidence-only
       not_after: '2001-07-30'
     end:
-      certainty: evidence-only
-      not_before: '2006-07-09'
+      certainty: between
+      not_before: '2007-12-02'
+      not_after: '2008-11-17'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2001-07-30'
     subject: 'WG ACTION: Forwarding and Control Element Separation (forces)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/S4ydr0Ol33WUlxdcgF2vp_1NaKo/
+  - kind: minutes
+    listed_in: 6
+    first: '2002-11-17'
+    last: '2006-07-09'
+    examples:
+    - date: '2002-11-17'
+      subject: Draft ForCES Meeting Minutes, IETF 55
+      url: https://mailarchive.ietf.org/arch/msg/forces/y4B_yjCf3SrLxpkieVXtS0EFqIw/
+    - date: '2004-11-07'
+      subject: tentative ForCES minutes from the IETF61 in DC
+      url: https://mailarchive.ietf.org/arch/msg/forces/hTDj3OaTeasIZ2LxwBUskqXIEfQ/
+    - date: '2006-07-09'
+      subject: Tentative ForCES Minutes
+      url: https://mailarchive.ietf.org/arch/msg/forces/u4ocNcFLsgNFDVSgfSOmce42e_g/
+  - kind: proceedings
+    listed_in: 16
+    first: '2001-07-31'
+    last: '2007-12-02'
+    examples:
+    - date: '2001-07-31'
+      subject: IETF 51 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/51/51-87.htm
+    - date: '2001-12-05'
+      subject: IETF 52 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/52/179.htm
+    - date: '2007-12-02'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/forces.html
+  - kind: minutes without them
+    date: '2008-11-17'
+    subject: IETF 74 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/74/forces.html
   - kind: session requests
     meetings:
     - '65'
@@ -80,13 +143,15 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-02-22'
-      not_before: '2001-05-11'
+      date: '2008-11-17'
+      not_before: '2006-07-09'
     end:
       certainty: group-closed
       date: '2015-03-24'
     notes:
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
+    - bounded by minutes listing other chairs
   evidence:
   - kind: WG Review
     date: '2013-04-26'
@@ -116,6 +181,24 @@ chairs:
     - date: '2014-05-26'
       subject: '[forces] WG last call: draft-ietf-forces-model-extension'
       url: https://mailarchive.ietf.org/arch/msg/forces/KcOzNabTHOo6sSY6njKODPvfNAs/
+  - kind: proceedings
+    listed_in: 16
+    first: '2008-11-17'
+    last: '2015-03-22'
+    examples:
+    - date: '2008-11-17'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/forces.html
+    - date: '2010-03-25'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/forces.html
+    - date: '2015-03-22'
+      subject: IETF 92 proceedings charter
+      url: https://www.ietf.org/proceedings/92/forces.html
+  - kind: minutes without them
+    date: '2006-07-09'
+    subject: Tentative ForCES Minutes
+    url: https://mailarchive.ietf.org/arch/msg/forces/u4ocNcFLsgNFDVSgfSOmce42e_g/
   - kind: shepherded
     documents:
     - draft-ietf-forces-lfb-lib
@@ -135,6 +218,24 @@ chairs:
     date: '2013-05-17'
     subject: 'WG Action: Rechartered Forwarding and Control Element Separation (forces)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/64hLYaqlZ7WvLNzwMn1WLCzPQZ8/
+  - kind: proceedings
+    listed_in: 6
+    first: '2013-07-28'
+    last: '2015-03-22'
+    examples:
+    - date: '2013-07-28'
+      subject: IETF 87 proceedings charter
+      url: https://www.ietf.org/proceedings/87/forces.html
+    - date: '2013-11-03'
+      subject: IETF 88 proceedings charter
+      url: https://www.ietf.org/proceedings/88/forces.html
+    - date: '2015-03-22'
+      subject: IETF 92 proceedings charter
+      url: https://www.ietf.org/proceedings/92/forces.html
+  - kind: minutes without them
+    date: '2006-07-09'
+    subject: Tentative ForCES Minutes
+    url: https://mailarchive.ietf.org/arch/msg/forces/u4ocNcFLsgNFDVSgfSOmce42e_g/
   - kind: shepherded
     documents:
     - draft-ietf-forces-packet-parallelization

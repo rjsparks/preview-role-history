@@ -25,3 +25,42 @@ chairs:
     date: '1998-11-23'
     subject: 'WG ACTION: Intrusion Detection Exchange Format (idwg)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/t-HAQ5lU6Zk0J1LIRpaBlSfa7Go/
+  - kind: proceedings
+    listed_in: 17
+    first: '1998-11-25'
+    last: '2005-01-26'
+    examples:
+    - date: '1998-11-25'
+      subject: IETF 43 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-110.html
+    - date: '1999-02-11'
+      subject: IETF 44 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-110.html
+    - date: '2005-01-26'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/idwg.html
+- person: 101377
+  name: Stuart Staniford-Chen
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1998-11-25'
+    end:
+      certainty: evidence-only
+      not_before: '2004-09-03'
+  evidence:
+  - kind: proceedings
+    listed_in: 16
+    first: '1998-11-25'
+    last: '2004-09-03'
+    examples:
+    - date: '1998-11-25'
+      subject: IETF 43 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-110.html
+    - date: '1999-02-11'
+      subject: IETF 44 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-110.html
+    - date: '2004-09-03'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/idwg.html

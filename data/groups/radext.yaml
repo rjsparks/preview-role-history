@@ -15,8 +15,11 @@ chairs:
       certainty: evidence-only
       not_after: '2004-07-14'
     end:
-      certainty: evidence-only
-      not_before: '2009-07-26'
+      certainty: between
+      not_before: '2010-03-21'
+      not_after: '2010-06-21'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2004-07-14'
@@ -41,6 +44,24 @@ chairs:
     - date: '2007-07-20'
       subject: Revised RADEXT Agenda for IETF-69
       url: https://mailarchive.ietf.org/arch/msg/radext/5PtPIkEBdqZTOmZ0PkbYyHghDzI/
+  - kind: proceedings
+    listed_in: 13
+    first: '2004-07-14'
+    last: '2010-03-21'
+    examples:
+    - date: '2004-07-14'
+      subject: IETF 60 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/60/179.htm
+    - date: '2004-10-15'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/radext.html
+    - date: '2010-03-21'
+      subject: IETF 77 proceedings charter
+      url: https://www.ietf.org/proceedings/77/radext.html
+  - kind: minutes without them
+    date: '2010-06-21'
+    subject: IETF 78 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/78/radext.html
   - kind: session requests
     meetings:
     - '65'
@@ -106,6 +127,20 @@ chairs:
     - date: '2009-03-04'
       subject: WG Last Call on RADSEC
       url: https://mailarchive.ietf.org/arch/msg/radext/z8nW_n5A3U3-BQN5zBxoDW8DJuw/
+  - kind: proceedings
+    listed_in: 15
+    first: '2004-07-14'
+    last: '2010-11-07'
+    examples:
+    - date: '2004-07-14'
+      subject: IETF 60 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/60/179.htm
+    - date: '2004-10-15'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/radext.html
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/radext.html
   - kind: session requests
     meetings:
     - '77'
@@ -184,6 +219,20 @@ chairs:
     - date: '2015-10-26'
       subject: '[radext] Draft Agenda for Radext session in IETF94'
       url: https://mailarchive.ietf.org/arch/msg/radext/lmnnWdXnC_z117Ik-0HMK2-eQGM/
+  - kind: proceedings
+    listed_in: 8
+    first: '2014-07-20'
+    last: '2016-11-13'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/radext.html
+    - date: '2014-11-09'
+      subject: IETF 91 proceedings charter
+      url: https://www.ietf.org/proceedings/91/radext.html
+    - date: '2016-11-13'
+      subject: IETF 97 proceedings charter
+      url: https://www.ietf.org/proceedings/97/radext.html
   - kind: shepherded
     documents:
     - draft-ietf-radext-ip-port-radius-ext
@@ -216,6 +265,20 @@ chairs:
     - date: '2014-10-20'
       subject: '[radext] Preliminary Agenda for the radext meeting at IETF91'
       url: https://mailarchive.ietf.org/arch/msg/radext/IVIlmdiHdIh_39ZOcAkOTJWjGeU/
+  - kind: proceedings
+    listed_in: 9
+    first: '2014-03-02'
+    last: '2016-11-13'
+    examples:
+    - date: '2014-03-02'
+      subject: IETF 89 proceedings charter
+      url: https://www.ietf.org/proceedings/89/radext.html
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/radext.html
+    - date: '2016-11-13'
+      subject: IETF 97 proceedings charter
+      url: https://www.ietf.org/proceedings/97/radext.html
   - kind: shepherded
     documents:
     - draft-ietf-radext-bigger-packets
@@ -267,6 +330,20 @@ chairs:
     - date: '2013-02-27'
       subject: '[radext] draft agenda has been uploaded'
       url: https://mailarchive.ietf.org/arch/msg/radext/-3b-FmuI30chywr_MBbsMywjJG0/
+  - kind: proceedings
+    listed_in: 10
+    first: '2011-03-27'
+    last: '2014-03-02'
+    examples:
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/radext.html
+    - date: '2011-07-24'
+      subject: IETF 81 proceedings charter
+      url: https://www.ietf.org/proceedings/81/radext.html
+    - date: '2014-03-02'
+      subject: IETF 89 proceedings charter
+      url: https://www.ietf.org/proceedings/89/radext.html
   - kind: shepherded
     documents:
     - draft-ietf-radext-dtls
@@ -300,6 +377,20 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/radext/y23WdaHpVwMy9mOx5GA2LAueoLg/
     excerpt: Please welcome Mauricio Sanchez as the new co-chair of the RADEXT WG, working together with
       Bernard Aboba.
+  - kind: proceedings
+    listed_in: 11
+    first: '2010-06-21'
+    last: '2013-11-03'
+    examples:
+    - date: '2010-06-21'
+      subject: IETF 78 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/78/radext.html
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/radext.html
+    - date: '2013-11-03'
+      subject: IETF 88 proceedings charter
+      url: https://www.ietf.org/proceedings/88/radext.html
   - kind: session requests
     meetings:
     - '79'

@@ -7,6 +7,107 @@ started: '2009-10-22'
 closed: null
 history_url: https://datatracker.ietf.org/group/intarea/history/
 chairs:
+- person: 2325
+  name: Scott Brim
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2010-11-07'
+    end:
+      certainty: between
+      not_before: '2011-07-24'
+      not_after: '2011-11-13'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2010-11-07'
+    last: '2011-03-27'
+    examples:
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/intarea.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/intarea.html
+  - kind: minutes without them
+    date: '2011-11-13'
+    subject: IETF 82 proceedings charter
+    url: https://www.ietf.org/proceedings/82/intarea.html
+  - kind: session requests
+    meetings:
+    - '81'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 21072
+  name: Jari Arkko
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-04-14'
+    end:
+      certainty: between
+      not_before: '2008-08-21'
+      not_after: '2010-03-23'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 3
+    first: '2006-04-14'
+    last: '2008-08-21'
+    examples:
+    - date: '2006-04-14'
+      subject: IETF 66 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/66/intarea.html
+    - date: '2008-08-21'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/intarea.html
+    - date: '2008-08-21'
+      subject: IETF 75 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/75/intarea.html
+  - kind: minutes without them
+    date: '2010-03-23'
+    subject: IETF 77 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/77/intarea.html
+  - kind: session requests
+    meetings:
+    - '66'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 22948
+  name: Mark Townsley
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2005-03-06'
+    end:
+      certainty: between
+      not_before: '2008-08-21'
+      not_after: '2010-03-23'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 6
+    first: '2005-03-06'
+    last: '2008-08-21'
+    examples:
+    - date: '2005-03-06'
+      subject: IETF 62 proceedings charter
+      url: https://www.ietf.org/proceedings/62/intarea.html
+    - date: '2005-07-10'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/intarea.html
+    - date: '2008-08-21'
+      subject: IETF 75 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/75/intarea.html
+  - kind: minutes without them
+    date: '2010-03-23'
+    subject: IETF 77 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/77/intarea.html
 - person: 106186
   name: Julien Laganier
   status: confirmed
@@ -36,6 +137,20 @@ chairs:
     - date: '2011-06-23'
       subject: '[Int-area] WGLC for http://tools.ietf.org/html/draft-ietf-intarea-ipv6-required-00'
       url: https://mailarchive.ietf.org/arch/msg/int-area/RbhRuWprkWDPHp0LPJ4TJXwD61w/
+  - kind: proceedings
+    listed_in: 10
+    first: '2010-03-23'
+    last: '2013-07-28'
+    examples:
+    - date: '2010-03-23'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/intarea.html
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/intarea.html
+    - date: '2013-07-28'
+      subject: IETF 87 proceedings charter
+      url: https://www.ietf.org/proceedings/87/intarea.html
   - kind: session requests
     meetings:
     - '79'
@@ -77,6 +192,20 @@ chairs:
     - date: '2017-08-04'
       subject: '[Int-area] WG Last Call on draft-ietf-intarea-probe-04'
       url: https://mailarchive.ietf.org/arch/msg/int-area/-iRSl5YwBpAUr_qBwzNtz3Nd_dg/
+  - kind: proceedings
+    listed_in: 5
+    first: '2015-11-01'
+    last: '2017-03-26'
+    examples:
+    - date: '2015-11-01'
+      subject: IETF 94 proceedings charter
+      url: https://www.ietf.org/proceedings/94/intarea.html
+    - date: '2016-04-03'
+      subject: IETF 95 proceedings charter
+      url: https://www.ietf.org/proceedings/95/intarea.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/intarea.html
   - kind: shepherded
     documents:
     - draft-ietf-intarea-hostname-practice
@@ -86,11 +215,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2011-07-24'
       not_before: '2009-10-22'
     end:
       certainty: exact
       date: '2016-04-05'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2011-10-28'
@@ -112,6 +243,20 @@ chairs:
     - date: '2013-07-10'
       subject: '[Int-area] Working group last call for draft-ietf-intarea-flow-label-balancing-01'
       url: https://mailarchive.ietf.org/arch/msg/int-area/HWQSlb-nh3g7ZF-Uc0QH4hsGw9g/
+  - kind: proceedings
+    listed_in: 14
+    first: '2011-07-24'
+    last: '2015-11-01'
+    examples:
+    - date: '2011-07-24'
+      subject: IETF 81 proceedings charter
+      url: https://www.ietf.org/proceedings/81/intarea.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/intarea.html
+    - date: '2015-11-01'
+      subject: IETF 94 proceedings charter
+      url: https://www.ietf.org/proceedings/94/intarea.html
   - kind: shepherded
     documents:
     - draft-ietf-intarea-flow-label-balancing
@@ -150,8 +295,11 @@ chairs:
       certainty: evidence-only
       not_after: '2010-03-23'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2010-11-11'
+      not_after: '2011-03-27'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2010-03-23'
@@ -174,6 +322,18 @@ chairs:
     - date: '2010-11-11'
       subject: '[Int-area] Working group last call on draft-ietf-intarea-ipv4-id-update'
       url: https://mailarchive.ietf.org/arch/msg/int-area/-HE04GJaBoKqZ5pIht2MuKkhySc/
+  - kind: proceedings
+    listed_in: 1
+    first: '2010-03-23'
+    last: '2010-03-23'
+    examples:
+    - date: '2010-03-23'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/intarea.html
+  - kind: minutes without them
+    date: '2011-03-27'
+    subject: IETF 80 proceedings charter
+    url: https://www.ietf.org/proceedings/80/intarea.html
   - kind: session requests
     meetings:
     - '78'
@@ -209,6 +369,20 @@ chairs:
     - date: '2016-08-25'
       subject: '[Int-area] Call for adoption of draft-winfaa-intarea-broadcast-consider-02'
       url: https://mailarchive.ietf.org/arch/msg/int-area/kt_v7rO1eHyGIftjoXqIxkN4voA/
+  - kind: proceedings
+    listed_in: 11
+    first: '2013-11-03'
+    last: '2017-03-26'
+    examples:
+    - date: '2013-11-03'
+      subject: IETF 88 proceedings charter
+      url: https://www.ietf.org/proceedings/88/intarea.html
+    - date: '2014-03-02'
+      subject: IETF 89 proceedings charter
+      url: https://www.ietf.org/proceedings/89/intarea.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/intarea.html
   - kind: shepherded
     documents:
     - draft-ietf-intarea-broadcast-consider
@@ -221,3 +395,35 @@ chairs:
       date: '2026-11-12'
     end:
       certainty: ongoing
+- person: 119947
+  name: Margaret Cullen
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2005-03-06'
+    end:
+      certainty: between
+      not_before: '2006-02-15'
+      not_after: '2006-04-14'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 3
+    first: '2005-03-06'
+    last: '2006-02-15'
+    examples:
+    - date: '2005-03-06'
+      subject: IETF 62 proceedings charter
+      url: https://www.ietf.org/proceedings/62/intarea.html
+    - date: '2005-07-10'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/intarea.html
+    - date: '2006-02-15'
+      subject: IETF 65 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/65/intarea.html
+  - kind: minutes without them
+    date: '2006-04-14'
+    subject: IETF 66 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/66/intarea.html

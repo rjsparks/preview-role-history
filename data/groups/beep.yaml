@@ -16,20 +16,51 @@ chairs:
       not_after: '2000-07-05'
     end:
       certainty: evidence-only
-      not_before: '2000-07-05'
+      not_before: '2001-03-14'
   evidence:
   - kind: WG Action
     date: '2000-07-05'
     subject: 'WG Action: Blocks Extensible Exchange Protocol (beep)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/QFiTuon1vqZ6Ln8n8ByUZfynM8c/
+  - kind: proceedings
+    listed_in: 3
+    first: '2000-07-17'
+    last: '2001-03-14'
+    examples:
+    - date: '2000-07-17'
+      subject: IETF 48 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/48/00july-10.htm
+    - date: '2000-10-30'
+      subject: IETF 49 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/49/00dec-10.htm
+    - date: '2001-03-14'
+      subject: IETF 50 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/50/ietf50-11.htm
 - person: 18321
   name: Pete Resnick
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2002-03-24'
+      date: '2001-07-31'
       not_before: '2000-06-13'
     end:
       certainty: group-closed
       date: '2002-03-24'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 3
+    first: '2001-07-31'
+    last: '2002-01-07'
+    examples:
+    - date: '2001-07-31'
+      subject: IETF 51 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/51/51-11.htm
+    - date: '2001-08-20'
+      subject: IETF 52 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/52/103.htm
+    - date: '2002-01-07'
+      subject: IETF 53 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/53/103.htm

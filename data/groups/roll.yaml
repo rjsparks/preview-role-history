@@ -27,6 +27,20 @@ chairs:
     date: '2015-04-24'
     subject: 'WG Action: Rechartered Routing Over Low power and Lossy networks (roll)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/0i_m7eLenh3muGqIoFFi6JcLWeA/
+  - kind: proceedings
+    listed_in: 6
+    first: '2013-11-03'
+    last: '2015-07-19'
+    examples:
+    - date: '2013-11-03'
+      subject: IETF 88 proceedings charter
+      url: https://www.ietf.org/proceedings/88/roll.html
+    - date: '2014-03-02'
+      subject: IETF 89 proceedings charter
+      url: https://www.ietf.org/proceedings/89/roll.html
+    - date: '2015-07-19'
+      subject: IETF 93 proceedings charter
+      url: https://www.ietf.org/proceedings/93/roll.html
   - kind: shepherded
     documents:
     - draft-ietf-roll-applicability-ami
@@ -69,13 +83,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2008-07-27'
+      date: '2008-02-15'
       not_before: '2007-12-26'
     end:
       certainty: exact
       date: '2013-12-05'
     notes:
     - start moved earlier by session request for IETF 72
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2008-02-22'
@@ -97,6 +112,20 @@ chairs:
     - date: '2008-11-07'
       subject: '[Roll] WG Last Call: draft-ietf-roll-indus-routing-reqs-02'
       url: https://mailarchive.ietf.org/arch/msg/roll/zEbXZ9D97VfCqvz5qfAqm7APFds/
+  - kind: proceedings
+    listed_in: 8
+    first: '2008-02-15'
+    last: '2011-11-13'
+    examples:
+    - date: '2008-02-15'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/roll.html
+    - date: '2009-04-02'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/roll.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/roll.html
   - kind: session requests
     meetings:
     - '72'
@@ -122,7 +151,7 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-09-16'
+      date: '2008-02-15'
       not_before: '2007-12-26'
     end:
       certainty: approximate
@@ -130,6 +159,7 @@ chairs:
     notes:
     - widened to cover last calls and adoption calls on the group list
     - end dated by list message of 2012-02-10
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: list message
     date: '2012-02-10'
@@ -146,6 +176,20 @@ chairs:
     - date: '2010-09-16'
       subject: '[Roll] WG Last Call on draft-ietf-roll-routing-metrics-09.txt'
       url: https://mailarchive.ietf.org/arch/msg/roll/jGhfH27t9Ou5PFKMW5f7DVoe8Vc/
+  - kind: proceedings
+    listed_in: 8
+    first: '2008-02-15'
+    last: '2011-11-13'
+    examples:
+    - date: '2008-02-15'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/roll.html
+    - date: '2009-04-02'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/roll.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/roll.html
 - person: 109263
   name: Dominique Barthel
   status: confirmed
@@ -207,6 +251,20 @@ chairs:
     date: '2025-01-30'
     subject: 'WG Action: Rechartered Routing Over Low power and Lossy networks (roll)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/v79CSHFYas2R6xnpJfJUEpdGnqs/
+  - kind: proceedings
+    listed_in: 6
+    first: '2013-11-03'
+    last: '2015-07-19'
+    examples:
+    - date: '2013-11-03'
+      subject: IETF 88 proceedings charter
+      url: https://www.ietf.org/proceedings/88/roll.html
+    - date: '2014-03-02'
+      subject: IETF 89 proceedings charter
+      url: https://www.ietf.org/proceedings/89/roll.html
+    - date: '2015-07-19'
+      subject: IETF 93 proceedings charter
+      url: https://www.ietf.org/proceedings/93/roll.html
   - kind: shepherded
     documents:
     - draft-ietf-roll-admin-local-policy

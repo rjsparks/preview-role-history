@@ -22,11 +22,28 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '1997-04-07'
       not_before: '1996-05-14'
     end:
       certainty: exact
       date: '2025-11-24'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 16
+    first: '1997-04-07'
+    last: '2005-05-26'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr14.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-15.htm
+    - date: '2005-05-26'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/ediint.html
 - person: 19869
   name: Marc Blanchet
   status: confirmed

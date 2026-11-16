@@ -76,6 +76,20 @@ chairs:
     - date: '2014-09-25'
       subject: '[Netconf] Draft minutes/notes for our Virtual meting we had on Monday Sept 22, 2014'
       url: https://mailarchive.ietf.org/arch/msg/netconf/Bns2tQoon4ces7NMX83qqzIiFIg/
+  - kind: proceedings
+    listed_in: 16
+    first: '2008-03-13'
+    last: '2014-03-02'
+    examples:
+    - date: '2008-03-13'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/netconf.html
+    - date: '2009-02-03'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/netconf.html
+    - date: '2014-03-02'
+      subject: IETF 89 proceedings charter
+      url: https://www.ietf.org/proceedings/89/netconf.html
 - person: 8244
   name: Andy Bierman
   status: unconfirmed
@@ -84,8 +98,11 @@ chairs:
       certainty: evidence-only
       not_after: '2003-05-23'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2011-02-13'
+      not_after: '2011-03-27'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2003-05-23'
@@ -110,6 +127,24 @@ chairs:
     - date: '2004-09-03'
       subject: 'NETCONF WG minutes for IETF #60'
       url: https://mailarchive.ietf.org/arch/msg/netconf/3B4lVF_vZbZJefbwKU6uwvSP5LY/
+  - kind: proceedings
+    listed_in: 10
+    first: '2003-07-13'
+    last: '2007-03-08'
+    examples:
+    - date: '2003-07-13'
+      subject: IETF 57 proceedings charter
+      url: https://www.ietf.org/proceedings/57/172.htm
+    - date: '2003-10-28'
+      subject: IETF 58 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/58/169.htm
+    - date: '2007-03-08'
+      subject: IETF 68 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/68/netconf.html
+  - kind: minutes without them
+    date: '2011-03-27'
+    subject: IETF 80 proceedings charter
+    url: https://www.ietf.org/proceedings/80/netconf.html
   - kind: session requests
     meetings:
     - '65'
@@ -186,6 +221,20 @@ chairs:
     - date: '2017-07-11'
       subject: '[Netconf] Draft NETCONF Agenda for IETF #99'
       url: https://mailarchive.ietf.org/arch/msg/netconf/BksO0qQM4e6GOzyq77BbgN0809g/
+  - kind: proceedings
+    listed_in: 25
+    first: '2008-03-13'
+    last: '2017-03-26'
+    examples:
+    - date: '2008-03-13'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/netconf.html
+    - date: '2009-02-03'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/netconf.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/netconf.html
   - kind: session requests
     meetings:
     - '71'
@@ -252,6 +301,20 @@ chairs:
     - date: '2017-10-21'
       subject: '[Netconf] WGLC on zerotouch draft'
       url: https://mailarchive.ietf.org/arch/msg/netconf/FB4zcme9Q6RXPuyYGmG6RRQIl-k/
+  - kind: proceedings
+    listed_in: 9
+    first: '2014-07-20'
+    last: '2017-03-26'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/netconf.html
+    - date: '2014-11-09'
+      subject: IETF 91 proceedings charter
+      url: https://www.ietf.org/proceedings/91/netconf.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/netconf.html
   - kind: shepherded
     documents:
     - draft-ietf-netconf-call-home
@@ -325,8 +388,11 @@ chairs:
       certainty: evidence-only
       not_after: '2003-05-23'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2007-12-31'
+      not_after: '2008-03-13'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2003-05-23'
@@ -351,6 +417,24 @@ chairs:
     - date: '2007-11-22'
       subject: DRAFT agenda for NETCONF meeting at IETF 70 in Vancouver
       url: https://mailarchive.ietf.org/arch/msg/netconf/xLXWTSCgvEHSWKptZH4DKth0Ps4/
+  - kind: proceedings
+    listed_in: 10
+    first: '2003-07-13'
+    last: '2007-03-08'
+    examples:
+    - date: '2003-07-13'
+      subject: IETF 57 proceedings charter
+      url: https://www.ietf.org/proceedings/57/172.htm
+    - date: '2003-10-28'
+      subject: IETF 58 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/58/169.htm
+    - date: '2007-03-08'
+      subject: IETF 68 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/68/netconf.html
+  - kind: minutes without them
+    date: '2008-03-13'
+    subject: IETF 71 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/71/netconf.html
   - kind: session requests
     meetings:
     - '70'

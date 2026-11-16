@@ -13,11 +13,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1996-01-17'
+      date: '1994-03-28'
       not_before: '1991-07-19'
     end:
       certainty: group-closed
       date: '1996-01-17'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '1992-08-05'
@@ -27,3 +29,17 @@ chairs:
     - date: '1992-08-05'
       subject: 'fyi: July minutes for TNFS WG'
       url: https://mailarchive.ietf.org/arch/msg/tnfs/Qq4HJbfUf4uJfX22nbFamLsoWH4/
+  - kind: proceedings
+    listed_in: 4
+    first: '1994-03-28'
+    last: '1995-07-17'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/sap/tnfs/tnfs-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/sec/tnfs/tnfs-charter.txt
+    - date: '1995-07-17'
+      subject: IETF 33 proceedings charter
+      url: https://www.ietf.org/proceedings/33/area.and.wg.reports/sec/tnfs/tnfs-charter.txt

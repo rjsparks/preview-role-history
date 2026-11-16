@@ -13,10 +13,13 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2003-11-17'
+      not_after: '1998-08-05'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2007-07-23'
+      not_after: '2007-09-26'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2007-07-23'
@@ -33,6 +36,56 @@ chairs:
     - date: '2006-02-08'
       subject: '[pim] Working Group Last Call: PIM MIB'
       url: https://mailarchive.ietf.org/arch/msg/pim/XHpjkaI8uLpNM4c8Te4UUJr-at8/
+  - kind: proceedings
+    listed_in: 24
+    first: '1998-08-05'
+    last: '2007-04-02'
+    examples:
+    - date: '1998-08-05'
+      subject: IETF 42 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/42/98aug-105.htm
+    - date: '1998-11-25'
+      subject: IETF 43 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-96.html
+    - date: '2007-04-02'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/pim.html
+  - kind: minutes without them
+    date: '2007-09-26'
+    subject: IETF 71 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/71/pim.html
+- person: 8310
+  name: Liming Wei
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1998-08-05'
+    end:
+      certainty: between
+      not_before: '2003-10-30'
+      not_after: '2004-06-07'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 12
+    first: '1998-08-05'
+    last: '2003-10-30'
+    examples:
+    - date: '1998-08-05'
+      subject: IETF 42 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/42/98aug-105.htm
+    - date: '1998-11-25'
+      subject: IETF 43 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-96.html
+    - date: '2003-10-30'
+      subject: IETF 58 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/58/189.htm
+  - kind: minutes without them
+    date: '2004-06-07'
+    subject: IETF 60 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/60/198.htm
 - person: 105708
   name: Mike McBride
   status: confirmed
@@ -85,6 +138,20 @@ chairs:
     - date: '2013-05-09'
       subject: '[pim] call for adoption: draft-zhou-pim-vrrp-01'
       url: https://mailarchive.ietf.org/arch/msg/pim/XyamDWlT_7p-9Enzj6osu2SFumM/
+  - kind: proceedings
+    listed_in: 31
+    first: '2004-06-07'
+    last: '2017-03-26'
+    examples:
+    - date: '2004-06-07'
+      subject: IETF 60 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/60/198.htm
+    - date: '2004-09-28'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/pim.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/pim.html
   - kind: session requests
     meetings:
     - '65'
@@ -122,12 +189,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2009-07-26'
+      date: '2007-09-26'
       not_before: '1998-07-09'
     end:
       certainty: ongoing
     notes:
     - start moved earlier by session request for IETF 75
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Review
     date: '2011-07-05'
@@ -169,6 +237,20 @@ chairs:
     - date: '2016-01-06'
       subject: '[pim] Call for adoption of draft-mcallister-pim-yang-01'
       url: https://mailarchive.ietf.org/arch/msg/pim/Gy6QUReVkAqYgH5_eTFxw6FgNVw/
+  - kind: proceedings
+    listed_in: 23
+    first: '2007-09-26'
+    last: '2017-03-26'
+    examples:
+    - date: '2007-09-26'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/pim.html
+    - date: '2009-04-02'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/pim.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/pim.html
   - kind: session requests
     meetings:
     - '75'

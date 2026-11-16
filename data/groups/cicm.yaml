@@ -13,17 +13,45 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2011-07-24'
     end:
       certainty: group-closed
       date: '2012-05-17'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2011-07-24'
+    last: '2012-03-25'
+    examples:
+    - date: '2011-07-24'
+      subject: IETF 81 proceedings charter
+      url: https://www.ietf.org/proceedings/81/cicm.html
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/cicm.html
 - person: 110934
   name: Lev Novikov
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2011-07-24'
     end:
       certainty: group-closed
       date: '2012-05-17'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2011-07-24'
+    last: '2012-03-25'
+    examples:
+    - date: '2011-07-24'
+      subject: IETF 81 proceedings charter
+      url: https://www.ietf.org/proceedings/81/cicm.html
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/cicm.html

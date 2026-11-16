@@ -13,13 +13,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-03-09'
+      date: '2005-02-09'
       not_before: '2005-02-08'
     end:
       certainty: group-closed
       date: '2009-11-30'
     notes:
     - start moved earlier by WG Action announcement of 2005-03-09
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2005-03-09'
@@ -53,13 +54,27 @@ chairs:
     - date: '2005-08-15'
       subject: '[Ltru] LTRU Milestones past due'
       url: https://mailarchive.ietf.org/arch/msg/ltru/oEIQESZrdFes1cSDjCcyHkccFyw/
+  - kind: proceedings
+    listed_in: 10
+    first: '2005-02-09'
+    last: '2009-07-26'
+    examples:
+    - date: '2005-02-09'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/ltru.html
+    - date: '2005-05-18'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/ltru.html
+    - date: '2009-07-26'
+      subject: IETF 75 proceedings charter
+      url: https://www.ietf.org/proceedings/75/ltru.html
 - person: 18880
   name: Martin Dürst
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-09'
+      date: '2005-05-18'
       not_before: '2005-02-08'
     end:
       certainty: group-closed
@@ -67,6 +82,7 @@ chairs:
     notes:
     - start moved earlier by WG Action announcement of 2006-09-06
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Review
     date: '2006-08-22'
@@ -93,3 +109,17 @@ chairs:
     - date: '2008-09-20'
       subject: '[Ltru] WG Last Call for draft-ietf-ltru-4646bis-17.txt'
       url: https://mailarchive.ietf.org/arch/msg/ltru/L6ICLFCpU3rMWOAAW_bYVOLxyrs/
+  - kind: proceedings
+    listed_in: 9
+    first: '2005-05-18'
+    last: '2009-07-26'
+    examples:
+    - date: '2005-05-18'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/ltru.html
+    - date: '2005-08-26'
+      subject: IETF 64 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/64/ltru.html
+    - date: '2009-07-26'
+      subject: IETF 75 proceedings charter
+      url: https://www.ietf.org/proceedings/75/ltru.html

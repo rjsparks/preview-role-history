@@ -13,7 +13,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '1997-04-21'
+      not_after: '1997-04-07'
     end:
       certainty: approximate
       date: '2000-08-16'
@@ -45,6 +45,20 @@ chairs:
     - date: '1998-04-11'
       subject: '[IETF-PKIX] Draft LA Minutes'
       url: https://mailarchive.ietf.org/arch/msg/pkix/gUMJfRB8vTCyu2ABJMiJKrxBwOY/
+  - kind: proceedings
+    listed_in: 11
+    first: '1997-04-07'
+    last: '2000-07-17'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtft105.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-105.htm
+    - date: '2000-07-17'
+      subject: IETF 48 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/48/00july-111.htm
 - person: 19790
   name: Tim Polk
   status: unconfirmed
@@ -99,6 +113,20 @@ chairs:
     - date: '2002-07-10'
       subject: PKIX WG agenda for 54th IETF
       url: https://mailarchive.ietf.org/arch/msg/pkix/IT-KjykiLwjfyKXts5fU68fR8a0/
+  - kind: proceedings
+    listed_in: 16
+    first: '2000-10-11'
+    last: '2005-12-16'
+    examples:
+    - date: '2000-10-11'
+      subject: IETF 49 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/49/00dec-117.htm
+    - date: '2001-03-14'
+      subject: IETF 50 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/50/ietf50-117.htm
+    - date: '2005-12-16'
+      subject: IETF 65 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/65/pkix.html
 - person: 103048
   name: Sam Hartman
   status: unconfirmed
@@ -107,10 +135,12 @@ chairs:
       certainty: approximate
       date: '2006-03-29'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2006-03-29'
+      not_after: '2006-07-09'
     notes:
     - start dated by list message of 2006-03-29
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: list message
     date: '2006-03-29'
@@ -119,6 +149,10 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/pkix/ogQb3EvHH8--Fry8nudnr2x8ETs/
     excerpt: Sam Hartman and I are pleased to announce that Stefan Santesson has agreed to replace Tim
       as PKIX co-chair.
+  - kind: minutes without them
+    date: '2006-07-09'
+    subject: IETF 66 proceedings charter
+    url: https://www.ietf.org/proceedings/66/pkix.html
 - person: 106863
   name: Stefan Santesson
   status: confirmed
@@ -161,6 +195,20 @@ chairs:
     - date: '2009-05-04'
       subject: WGLC for draft-ietf-pkix-ta-format-02
       url: https://mailarchive.ietf.org/arch/msg/pkix/w3V3YzmkSmC5Z7cqEbFZqy8RQL0/
+  - kind: proceedings
+    listed_in: 17
+    first: '2006-07-09'
+    last: '2013-07-28'
+    examples:
+    - date: '2006-07-09'
+      subject: IETF 66 proceedings charter
+      url: https://www.ietf.org/proceedings/66/pkix.html
+    - date: '2006-08-24'
+      subject: IETF 67 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/67/pkix.html
+    - date: '2013-07-28'
+      subject: IETF 87 proceedings charter
+      url: https://www.ietf.org/proceedings/87/pkix.html
   - kind: session requests
     meetings:
     - '72'
@@ -174,7 +222,7 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2000-02-22'
+      date: '1995-12-04'
       not_before: '1995-10-19'
     end:
       certainty: group-closed
@@ -182,6 +230,7 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 65
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '1996-10-09'
@@ -203,6 +252,20 @@ chairs:
     - date: '2003-09-19'
       subject: WG last call re draft-pkix-acpolicies-extn-03.txt
       url: https://mailarchive.ietf.org/arch/msg/pkix/147m-y1T7j5Sc4ibkjdxGXuakWM/
+  - kind: proceedings
+    listed_in: 45
+    first: '1995-12-04'
+    last: '2013-07-28'
+    examples:
+    - date: '1995-12-04'
+      subject: IETF 34 proceedings charter
+      url: https://www.ietf.org/proceedings/34/area.and.wg.reports/sec/pkix/pkix-charter.txt
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtft105.htm
+    - date: '2013-07-28'
+      subject: IETF 87 proceedings charter
+      url: https://www.ietf.org/proceedings/87/pkix.html
   - kind: session requests
     meetings:
     - '65'

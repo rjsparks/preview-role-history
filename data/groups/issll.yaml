@@ -13,19 +13,53 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2002-05-13'
+      date: '1997-04-07'
       not_before: '1996-05-14'
     end:
       certainty: group-closed
       date: '2002-05-13'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 14
+    first: '1997-04-07'
+    last: '2001-07-31'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtft115.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-113.htm
+    - date: '2001-07-31'
+      subject: IETF 51 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/51/51-137.htm
 - person: 14474
   name: Eric Crawley
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2002-05-13'
+      date: '1997-04-07'
       not_before: '1996-05-14'
     end:
       certainty: group-closed
       date: '2002-05-13'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 14
+    first: '1997-04-07'
+    last: '2001-07-31'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtft115.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-113.htm
+    - date: '2001-07-31'
+      subject: IETF 51 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/51/51-137.htm

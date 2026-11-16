@@ -13,11 +13,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1994-05-25'
+      date: '1992-04-13'
       not_before: '1991-11-11'
     end:
       certainty: group-closed
       date: '1994-05-25'
+    notes:
+    - widened to cover chair lists in meeting minutes
   evidence:
   - kind: chair activity
     first: '1992-11-07'
@@ -30,6 +32,17 @@ chairs:
     - date: '1992-11-07'
       subject: URI agenda for Washington
       url: https://mailarchive.ietf.org/arch/msg/iafa/BIvfXsYwHlP9kDwzb2rMcvOhDeE/
+  - kind: minutes
+    listed_in: 2
+    first: '1992-04-13'
+    last: '1993-04-13'
+    examples:
+    - date: '1992-04-13'
+      subject: Minutes from San Deigo
+      url: https://mailarchive.ietf.org/arch/msg/iafa/Uo0ELCJ0byE5LYajvUK135TbNsM/
+    - date: '1993-04-13'
+      subject: Minutes from Columbus
+      url: https://mailarchive.ietf.org/arch/msg/iafa/hLI45a65B64OXDoZpaY8GziyP4Q/
 - person: 7778
   name: Peter Deutsch
   status: confirmed
@@ -37,7 +50,14 @@ chairs:
   - start:
       certainty: on-or-before
       date: '1994-05-25'
-      not_before: '1991-11-11'
+      not_before: '1993-04-13'
     end:
       certainty: group-closed
       date: '1994-05-25'
+    notes:
+    - bounded by minutes listing other chairs
+  evidence:
+  - kind: minutes without them
+    date: '1993-04-13'
+    subject: Minutes from Columbus
+    url: https://mailarchive.ietf.org/arch/msg/iafa/hLI45a65B64OXDoZpaY8GziyP4Q/

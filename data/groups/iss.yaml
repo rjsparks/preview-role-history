@@ -17,6 +17,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2016-02-26'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2015-11-01'
+    last: '2015-11-01'
+    examples:
+    - date: '2015-11-01'
+      subject: IETF 94 proceedings charter
+      url: https://www.ietf.org/proceedings/94/iss.html
 - person: 103881
   name: Mark Nottingham
   status: confirmed
@@ -28,6 +37,15 @@ chairs:
     end:
       certainty: exact
       date: '2015-11-01'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2015-07-19'
+    last: '2015-07-19'
+    examples:
+    - date: '2015-07-19'
+      subject: IETF 93 proceedings charter
+      url: https://www.ietf.org/proceedings/93/iss.html
 - person: 108848
   name: Yong Cui
   status: confirmed
@@ -39,3 +57,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2016-02-26'
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2015-07-19'
+    last: '2015-11-01'
+    examples:
+    - date: '2015-07-19'
+      subject: IETF 93 proceedings charter
+      url: https://www.ietf.org/proceedings/93/iss.html
+    - date: '2015-11-01'
+      subject: IETF 94 proceedings charter
+      url: https://www.ietf.org/proceedings/94/iss.html

@@ -18,9 +18,10 @@ chairs:
     end:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2015-05-29'
+      not_after: '2012-07-29'
     notes:
     - start moved earlier by WG Action announcement of 2007-02-21
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2007-02-21'
@@ -37,6 +38,24 @@ chairs:
     - date: '2008-07-16'
       subject: '[P2PSIP] Draft WG Agenda for Dublin'
       url: https://mailarchive.ietf.org/arch/msg/p2psip/4PitkBAY5GVCQJ0INuhve7cf5dg/
+  - kind: proceedings
+    listed_in: 8
+    first: '2007-02-22'
+    last: '2011-07-24'
+    examples:
+    - date: '2007-02-22'
+      subject: IETF 68 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/68/p2psip.html
+    - date: '2007-10-24'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/p2psip.html
+    - date: '2011-07-24'
+      subject: IETF 81 proceedings charter
+      url: https://www.ietf.org/proceedings/81/p2psip.html
+  - kind: minutes without them
+    date: '2012-07-29'
+    subject: IETF 84 proceedings charter
+    url: https://www.ietf.org/proceedings/84/p2psip.html
   - kind: session requests
     meetings:
     - '69'
@@ -91,6 +110,20 @@ chairs:
     - date: '2012-08-01'
       subject: '[P2PSIP] Draft of meeting minutes uploaded'
       url: https://mailarchive.ietf.org/arch/msg/p2psip/C0s0a1pzuroL76H-WX5pdHb4j1o/
+  - kind: proceedings
+    listed_in: 14
+    first: '2011-11-13'
+    last: '2016-07-17'
+    examples:
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/p2psip.html
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/p2psip.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/p2psip.html
   - kind: shepherded
     documents:
     - draft-ietf-p2psip-diagnostics
@@ -128,6 +161,20 @@ chairs:
     - date: '2010-10-18'
       subject: '[P2PSIP] WGLC on draft-ietf-p2psip-base-11'
       url: https://mailarchive.ietf.org/arch/msg/p2psip/NKz6LAbe7LXf2BeitLYBLHDSM5g/
+  - kind: proceedings
+    listed_in: 23
+    first: '2007-02-22'
+    last: '2016-07-17'
+    examples:
+    - date: '2007-02-22'
+      subject: IETF 68 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/68/p2psip.html
+    - date: '2007-10-24'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/p2psip.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/p2psip.html
   - kind: shepherded
     documents:
     - draft-ietf-p2psip-concepts

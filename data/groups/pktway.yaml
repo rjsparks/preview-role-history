@@ -13,8 +13,25 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1999-08-11'
+      date: '1997-04-07'
       not_before: '1995-06-28'
     end:
       certainty: group-closed
       date: '1999-08-11'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 6
+    first: '1997-04-07'
+    last: '1999-03-23'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr52.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-55.htm
+    - date: '1999-03-23'
+      subject: IETF 45 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-56.html

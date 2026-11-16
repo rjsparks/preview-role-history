@@ -7,19 +7,52 @@ started: '2009-03-01'
 closed: null
 history_url: https://datatracker.ietf.org/group/sipcore/history/
 chairs:
+- person: 103539
+  name: Gonzalo Camarillo
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2009-04-20'
+    end:
+      certainty: between
+      not_before: '2009-09-09'
+      not_after: '2010-04-16'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 3
+    first: '2009-04-20'
+    last: '2009-09-09'
+    examples:
+    - date: '2009-04-20'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/sipcore.html
+    - date: '2009-07-26'
+      subject: IETF 75 proceedings charter
+      url: https://www.ietf.org/proceedings/75/sipcore.html
+    - date: '2009-09-09'
+      subject: IETF 76 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/76/sipcore.html
+  - kind: minutes without them
+    date: '2010-04-16'
+    subject: IETF 77 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/77/sipcore.html
 - person: 103769
   name: Adam Roach
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2009-07-26'
+      date: '2009-04-20'
       not_before: '2009-03-01'
     end:
       certainty: exact
       date: '2017-03-31'
     notes:
     - start moved earlier by session request for IETF 75
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2016-12-02'
@@ -45,6 +78,20 @@ chairs:
     - date: '2010-10-25'
       subject: '[sipcore] Call for agenda items'
       url: https://mailarchive.ietf.org/arch/msg/sipcore/2MImSP9ktk1UnB-9C2HmWMhGZLc/
+  - kind: proceedings
+    listed_in: 22
+    first: '2009-04-20'
+    last: '2016-07-17'
+    examples:
+    - date: '2009-04-20'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/sipcore.html
+    - date: '2009-07-26'
+      subject: IETF 75 proceedings charter
+      url: https://www.ietf.org/proceedings/75/sipcore.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/sipcore.html
   - kind: session requests
     meetings:
     - '75'
@@ -87,6 +134,14 @@ chairs:
     - date: '2020-10-09'
       subject: '[sipcore] Call For Adoption draft-went-sipcore-callinfo-rcd'
       url: https://mailarchive.ietf.org/arch/msg/sipcore/YTMKztoMuMla5mWcgNKUp0WVs0w/
+  - kind: proceedings
+    listed_in: 1
+    first: '2017-03-26'
+    last: '2017-03-26'
+    examples:
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/sipcore.html
   - kind: shepherded
     documents:
     - draft-ietf-sipcore-callinfo-spam
@@ -139,6 +194,20 @@ chairs:
     - date: '2014-04-10'
       subject: '[sipcore] Call for adoption of draft-johansson-sip-dual-stack as WG draft'
       url: https://mailarchive.ietf.org/arch/msg/sipcore/PfZBBbIyD8lSj7gWmC8V1wsjr4w/
+  - kind: proceedings
+    listed_in: 13
+    first: '2010-04-16'
+    last: '2014-11-09'
+    examples:
+    - date: '2010-04-16'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/sipcore.html
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/sipcore.html
+    - date: '2014-11-09'
+      subject: IETF 91 proceedings charter
+      url: https://www.ietf.org/proceedings/91/sipcore.html
   - kind: session requests
     meetings:
     - '81'
@@ -195,6 +264,20 @@ chairs:
     - date: '2018-11-08'
       subject: '[sipcore] Minutes from the IETF 103 sipcore session'
       url: https://mailarchive.ietf.org/arch/msg/sipcore/ubJIdvR76g3_i9dcwsxFEQLdawk/
+  - kind: proceedings
+    listed_in: 7
+    first: '2014-07-20'
+    last: '2017-03-26'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/sipcore.html
+    - date: '2015-03-22'
+      subject: IETF 92 proceedings charter
+      url: https://www.ietf.org/proceedings/92/sipcore.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/sipcore.html
   - kind: shepherded
     documents:
     - draft-ietf-sipcore-callinfo-rcd

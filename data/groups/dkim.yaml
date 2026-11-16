@@ -38,7 +38,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2006-02-21'
+      not_after: '2005-10-17'
     end:
       certainty: evidence-only
       not_before: '2011-03-27'
@@ -64,6 +64,20 @@ chairs:
     - date: '2008-03-11'
       subject: '[ietf-dkim] WGLC on overview document'
       url: https://mailarchive.ietf.org/arch/msg/ietf-dkim/XiYD0VTUMRn-VQk9RGk8ZL0bomI/
+  - kind: proceedings
+    listed_in: 9
+    first: '2005-10-17'
+    last: '2010-06-08'
+    examples:
+    - date: '2005-10-17'
+      subject: IETF 64 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/64/dkim.html
+    - date: '2006-01-11'
+      subject: IETF 65 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/65/dkim.html
+    - date: '2010-06-08'
+      subject: IETF 78 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/78/dkim.html
   - kind: session requests
     meetings:
     - '65'
@@ -81,10 +95,10 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2006-03-28'
+      not_after: '2005-10-17'
     end:
       certainty: evidence-only
-      not_before: '2011-04-12'
+      not_before: '2011-07-24'
   evidence:
   - kind: WG Action
     date: '2010-06-08'
@@ -110,6 +124,20 @@ chairs:
     - date: '2011-04-12'
       subject: '[ietf-dkim] Working Group Last Call on mailinglists'
       url: https://mailarchive.ietf.org/arch/msg/ietf-dkim/s83_M2I-W4fYUfotlvapZWpCwCs/
+  - kind: proceedings
+    listed_in: 12
+    first: '2005-10-17'
+    last: '2011-07-24'
+    examples:
+    - date: '2005-10-17'
+      subject: IETF 64 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/64/dkim.html
+    - date: '2006-01-11'
+      subject: IETF 65 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/65/dkim.html
+    - date: '2011-07-24'
+      subject: IETF 81 proceedings charter
+      url: https://www.ietf.org/proceedings/81/dkim.html
   - kind: session requests
     meetings:
     - '66'

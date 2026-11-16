@@ -15,8 +15,11 @@ chairs:
       certainty: evidence-only
       not_after: '2004-02-11'
     end:
-      certainty: evidence-only
-      not_before: '2004-02-20'
+      certainty: between
+      not_before: '2005-06-27'
+      not_after: '2005-10-03'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2004-02-11'
@@ -26,6 +29,24 @@ chairs:
     date: '2004-02-20'
     subject: 'WG Action: UPDATED: Detecting Network Attachment (dna)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/TBmLcfHaL9bLW0ZrPvXVeDYn0Xo/
+  - kind: proceedings
+    listed_in: 5
+    first: '2004-02-20'
+    last: '2005-06-27'
+    examples:
+    - date: '2004-02-20'
+      subject: IETF 59 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/59/136.htm
+    - date: '2004-06-18'
+      subject: IETF 60 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/60/136.htm
+    - date: '2005-06-27'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/dna.html
+  - kind: minutes without them
+    date: '2005-10-03'
+    subject: IETF 64 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/64/dna.html
 - person: 105988
   name: Greg Daley
   status: confirmed
@@ -48,19 +69,34 @@ chairs:
     date: '2004-02-20'
     subject: 'WG Action: UPDATED: Detecting Network Attachment (dna)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/TBmLcfHaL9bLW0ZrPvXVeDYn0Xo/
+  - kind: proceedings
+    listed_in: 10
+    first: '2004-02-20'
+    last: '2008-09-23'
+    examples:
+    - date: '2004-02-20'
+      subject: IETF 59 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/59/136.htm
+    - date: '2004-06-18'
+      subject: IETF 60 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/60/136.htm
+    - date: '2008-09-23'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/dna.html
 - person: 106412
   name: Suresh Krishnan
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2005-10-03'
       not_before: '2004-01-15'
     end:
       certainty: group-closed
       date: '2009-10-23'
     notes:
     - start moved earlier by session request for IETF 65
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2008-09-03'
@@ -79,6 +115,20 @@ chairs:
     - date: '2009-06-16'
       subject: '[dna] WGLC for draft-ietf-dna-tentative-02.txt'
       url: https://mailarchive.ietf.org/arch/msg/dna/uPPstEmI1PmYo8rC-QIzGFrydRo/
+  - kind: proceedings
+    listed_in: 5
+    first: '2005-10-03'
+    last: '2008-09-23'
+    examples:
+    - date: '2005-10-03'
+      subject: IETF 64 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/64/dna.html
+    - date: '2006-01-16'
+      subject: IETF 65 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/65/dna.html
+    - date: '2008-09-23'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/dna.html
   - kind: session requests
     meetings:
     - '65'

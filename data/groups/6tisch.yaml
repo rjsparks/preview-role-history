@@ -46,6 +46,28 @@ chairs:
     - date: '2013-11-13'
       subject: '[6tisch] draft minutes IETF88 WG meeting'
       url: https://mailarchive.ietf.org/arch/msg/6tisch/Tg6mngLWScTPCc31Tip6V4dTZGk/
+  - kind: minutes
+    listed_in: 1
+    first: '2015-11-01'
+    last: '2015-11-01'
+    examples:
+    - date: '2015-11-01'
+      subject: '[6tisch] minutes 6TiSCH WG meeting IETF 94 Yokohama'
+      url: https://mailarchive.ietf.org/arch/msg/6tisch/ZPb8Iu8TwDyM06adRg2mNxG6XWA/
+  - kind: proceedings
+    listed_in: 12
+    first: '2013-07-28'
+    last: '2017-03-26'
+    examples:
+    - date: '2013-07-28'
+      subject: IETF 87 proceedings charter
+      url: https://www.ietf.org/proceedings/87/6tisch.html
+    - date: '2013-11-03'
+      subject: IETF 88 proceedings charter
+      url: https://www.ietf.org/proceedings/88/6tisch.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/6tisch.html
   - kind: shepherded
     documents:
     - draft-chang-6tisch-msf
@@ -98,6 +120,34 @@ chairs:
     - date: '2013-12-13'
       subject: '[6tisch] updated milestones proposal'
       url: https://mailarchive.ietf.org/arch/msg/6tisch/-9KDAZ1GWxVmwglxjtj8dXpxmXo/
+  - kind: minutes
+    listed_in: 6
+    first: '2015-03-22'
+    last: '2017-03-26'
+    examples:
+    - date: '2015-03-22'
+      subject: '[6tisch] Minutes IETF 92 WG meeting'
+      url: https://mailarchive.ietf.org/arch/msg/6tisch/iXdcp3qL0YdqOSDrDWyxFkE_a2o/
+    - date: '2015-11-01'
+      subject: '[6tisch] minutes 6TiSCH WG meeting IETF 94 Yokohama'
+      url: https://mailarchive.ietf.org/arch/msg/6tisch/ZPb8Iu8TwDyM06adRg2mNxG6XWA/
+    - date: '2017-03-26'
+      subject: '[6tisch] Minutes, IETF 98 6TiSCH WG Meeting'
+      url: https://mailarchive.ietf.org/arch/msg/6tisch/79NViIqCber4fwrFa7hXbxOElO4/
+  - kind: proceedings
+    listed_in: 12
+    first: '2013-07-28'
+    last: '2017-03-26'
+    examples:
+    - date: '2013-07-28'
+      subject: IETF 87 proceedings charter
+      url: https://www.ietf.org/proceedings/87/6tisch.html
+    - date: '2013-11-03'
+      subject: IETF 88 proceedings charter
+      url: https://www.ietf.org/proceedings/88/6tisch.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/6tisch.html
   - kind: shepherded
     documents:
     - draft-ietf-6tisch-6top-interface

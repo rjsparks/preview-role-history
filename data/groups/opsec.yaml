@@ -15,27 +15,83 @@ chairs:
       certainty: evidence-only
       not_after: '2004-10-14'
     end:
-      certainty: evidence-only
-      not_before: '2006-03-19'
+      certainty: between
+      not_before: '2007-05-21'
+      not_after: '2007-12-17'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2004-10-14'
     subject: 'WG Action: Operational Security Capabilities for IP Network Infrastructure (opsec)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/uJKKF8RhxINbf6DDBBJFgp_kBDs/
+  - kind: proceedings
+    listed_in: 7
+    first: '2004-10-14'
+    last: '2007-05-21'
+    examples:
+    - date: '2004-10-14'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/opsec.html
+    - date: '2005-01-24'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/opsec.html
+    - date: '2007-05-21'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/opsec.html
+  - kind: minutes without them
+    date: '2007-12-17'
+    subject: IETF 71 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/71/opsec.html
   - kind: session requests
     meetings:
     - '65'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 20713
+  name: Patrick Cain
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2004-10-14'
+    end:
+      certainty: between
+      not_before: '2007-05-21'
+      not_after: '2007-12-17'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 7
+    first: '2004-10-14'
+    last: '2007-05-21'
+    examples:
+    - date: '2004-10-14'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/opsec.html
+    - date: '2005-01-24'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/opsec.html
+    - date: '2007-05-21'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/opsec.html
+  - kind: minutes without them
+    date: '2007-12-17'
+    subject: IETF 71 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/71/opsec.html
 - person: 20959
   name: Joel Jaeggli
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2008-07-14'
+      not_after: '2007-12-17'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2010-08-08'
+      not_after: '2010-08-23'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Review
     date: '2008-09-02'
@@ -62,6 +118,21 @@ chairs:
     - date: '2009-12-21'
       subject: '[OPSEC] Working Group last call for draft-ietf-opsec-routing-protocols-crypto-issues-02'
       url: https://mailarchive.ietf.org/arch/msg/opsec/KVIkPjot03colvPPHcJgtCLUAVo/
+  - kind: proceedings
+    listed_in: 2
+    first: '2007-12-17'
+    last: '2009-04-20'
+    examples:
+    - date: '2007-12-17'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/opsec.html
+    - date: '2009-04-20'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/opsec.html
+  - kind: minutes without them
+    date: '2010-08-23'
+    subject: IETF 78 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/78/opsec.html
   - kind: session requests
     meetings:
     - '72'
@@ -82,6 +153,13 @@ chairs:
       certainty: group-closed
       date: '2024-08-05'
   evidence:
+  - kind: list message
+    date: '2018-03-05'
+    says: start
+    subject: '[OPSEC] Appointing Ron Bonica as new OpSec chair.'
+    url: https://mailarchive.ietf.org/arch/msg/opsec/D34DynO3w2YPkL1vKVYgjSk83KA/
+    excerpt: I'm pleased to announce that Ron Bonica has agreed to become the new OpSec chair, replacing
+      Gunter who is stepping down to be able to focus on chairing LSVR (and running the OpsDir group).
   - kind: chair activity
     first: '2019-04-04'
     last: '2021-02-10'
@@ -121,20 +199,84 @@ chairs:
     - date: '2018-04-04'
       subject: '[OPSEC] Call for WG adoption of draft-sriram-opsec-urpf-improvements'
       url: https://mailarchive.ietf.org/arch/msg/opsec/50zkojZIFPQ_gunMEGW03MnzX-U/
+  - kind: proceedings
+    listed_in: 5
+    first: '2015-07-19'
+    last: '2017-03-26'
+    examples:
+    - date: '2015-07-19'
+      subject: IETF 93 proceedings charter
+      url: https://www.ietf.org/proceedings/93/opsec.html
+    - date: '2015-11-01'
+      subject: IETF 94 proceedings charter
+      url: https://www.ietf.org/proceedings/94/opsec.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/opsec.html
   - kind: shepherded
     documents:
     - draft-ietf-opsec-ipv6-eh-filtering
+- person: 105113
+  name: Joe Abley
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2007-12-17'
+    end:
+      certainty: between
+      not_before: '2011-03-27'
+      not_after: '2011-07-24'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: WG Review
+    date: '2008-09-02'
+    subject: 'WG Review: Recharter of Operational Security Capabilities for IP Network Infrastructure
+      (opsec)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/JsCxtmGkxqP3Y-jtXUZZKaleuso/
+  - kind: chair activity
+    first: '2008-07-30'
+    last: '2010-07-26'
+    messages: 2
+    examples:
+    - date: '2008-07-30'
+      subject: '[OPSEC] draft minutes for opsec meeting today'
+      url: https://mailarchive.ietf.org/arch/msg/opsec/ZH8TEjZ-cFbFI_bXRTDJ02wKZBQ/
+    - date: '2010-07-26'
+      subject: '[OPSEC] draft minutes for opsec at IETF 78'
+      url: https://mailarchive.ietf.org/arch/msg/opsec/GXl1PEWSv4OpWK_Ntzcg1uNsoeo/
+  - kind: proceedings
+    listed_in: 5
+    first: '2007-12-17'
+    last: '2011-03-27'
+    examples:
+    - date: '2007-12-17'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/opsec.html
+    - date: '2009-04-20'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/opsec.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/opsec.html
+  - kind: minutes without them
+    date: '2011-07-24'
+    subject: IETF 81 proceedings charter
+    url: https://www.ietf.org/proceedings/81/opsec.html
 - person: 108304
   name: Gunter Van de Velde
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2011-07-24'
       not_before: '2003-06-01'
     end:
       certainty: exact
       date: '2018-03-26'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Review
     date: '2013-10-15'
@@ -165,6 +307,20 @@ chairs:
       subject: '[OPSEC] Call for WG adoption in OPSEC - Virtual Private Network (VPN) traffic leakages
         in dual-stack hosts/ networks'
       url: https://mailarchive.ietf.org/arch/msg/opsec/9aUwoaxnBWw-zTdExckjp5ECTYg/
+  - kind: proceedings
+    listed_in: 17
+    first: '2011-07-24'
+    last: '2017-03-26'
+    examples:
+    - date: '2011-07-24'
+      subject: IETF 81 proceedings charter
+      url: https://www.ietf.org/proceedings/81/opsec.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/opsec.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/opsec.html
   - kind: shepherded
     documents:
     - draft-ietf-opsec-bgp-security
@@ -177,10 +333,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2013-03-13'
+      not_after: '2012-03-25'
     end:
       certainty: exact
       date: '2015-09-17'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Review
     date: '2013-10-15'
@@ -201,6 +359,20 @@ chairs:
     - date: '2012-07-25'
       subject: '[OPSEC] OPSEC agenda for IETF84 has been published'
       url: https://mailarchive.ietf.org/arch/msg/opsec/i0E9CL20_QizMg6cV19j68Yuz1M/
+  - kind: proceedings
+    listed_in: 10
+    first: '2012-03-25'
+    last: '2015-03-22'
+    examples:
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/opsec.html
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/opsec.html
+    - date: '2015-03-22'
+      subject: IETF 92 proceedings charter
+      url: https://www.ietf.org/proceedings/92/opsec.html
   - kind: shepherded
     documents:
     - draft-ietf-opsec-dhcpv6-shield
@@ -211,7 +383,7 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-09-01'
+      date: '2010-08-23'
       not_before: '2003-06-01'
     end:
       certainty: exact
@@ -219,6 +391,7 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 82
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Review
     date: '2013-10-15'
@@ -236,6 +409,20 @@ chairs:
     - date: '2010-09-01'
       subject: '[OPSEC] Working Group last call for draft-ietf-opsec-protect-control-plane'
       url: https://mailarchive.ietf.org/arch/msg/opsec/ILz8eA3CZZ1boBPfJa9izbQgCUE/
+  - kind: proceedings
+    listed_in: 10
+    first: '2010-08-23'
+    last: '2013-07-28'
+    examples:
+    - date: '2010-08-23'
+      subject: IETF 78 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/78/opsec.html
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/opsec.html
+    - date: '2013-07-28'
+      subject: IETF 87 proceedings charter
+      url: https://www.ietf.org/proceedings/87/opsec.html
   - kind: session requests
     meetings:
     - '82'

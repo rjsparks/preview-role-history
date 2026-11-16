@@ -40,6 +40,22 @@ chairs:
     - date: '2009-07-27'
       subject: '[hiprg] agenda for IETF''75'
       url: https://mailarchive.ietf.org/arch/msg/hiprg/ce2SO3M-Db1idTd07r8MZH0dG-w/
+  - kind: minutes
+    listed_in: 1
+    first: '2005-08-10'
+    last: '2005-08-10'
+    examples:
+    - date: '2005-08-10'
+      subject: '[Hipsec-rg] [Fwd: minutes for the HIP RG meeting]'
+      url: https://mailarchive.ietf.org/arch/msg/hiprg/j-hMj9pOrr-legcCt5EaQOPKJn8/
+  - kind: proceedings
+    listed_in: 1
+    first: '2012-03-25'
+    last: '2012-03-25'
+    examples:
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/hiprg.html
   - kind: session requests
     meetings:
     - '66'
@@ -60,12 +76,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2005-08-10'
     end:
       certainty: group-closed
       date: '2012-07-24'
     notes:
     - start moved earlier by session request for IETF 65
+    - widened to cover chair lists in meeting minutes
   evidence:
   - kind: chair activity
     first: '2004-08-12'
@@ -78,6 +95,22 @@ chairs:
     - date: '2004-11-14'
       subject: '[Hipsec-rg] Draft of hiprg meeting minutes'
       url: https://mailarchive.ietf.org/arch/msg/hiprg/moQkOfkH7N79lIxMzEKvtgFHtII/
+  - kind: minutes
+    listed_in: 1
+    first: '2005-08-10'
+    last: '2005-08-10'
+    examples:
+    - date: '2005-08-10'
+      subject: '[Hipsec-rg] [Fwd: minutes for the HIP RG meeting]'
+      url: https://mailarchive.ietf.org/arch/msg/hiprg/j-hMj9pOrr-legcCt5EaQOPKJn8/
+  - kind: proceedings
+    listed_in: 1
+    first: '2012-03-25'
+    last: '2012-03-25'
+    examples:
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/hiprg.html
   - kind: session requests
     meetings:
     - '65'

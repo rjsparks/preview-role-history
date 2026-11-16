@@ -13,7 +13,18 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2007-07-30'
+      date: '2007-06-05'
     end:
       certainty: group-closed
       date: '2007-07-30'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2007-06-05'
+    last: '2007-06-05'
+    examples:
+    - date: '2007-06-05'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/nee.html

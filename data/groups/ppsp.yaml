@@ -47,21 +47,37 @@ chairs:
     - date: '2012-07-12'
       subject: '[ppsp] WG Last Call for draft-ietf-ppsp-problem-statement'
       url: https://mailarchive.ietf.org/arch/msg/ppsp/w_EL1TcKBkl9XfrCbjmTam6N71M/
+  - kind: proceedings
+    listed_in: 4
+    first: '2012-03-25'
+    last: '2013-03-10'
+    examples:
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/ppsp.html
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/ppsp.html
+    - date: '2013-03-10'
+      subject: IETF 86 proceedings charter
+      url: https://www.ietf.org/proceedings/86/ppsp.html
 - person: 105519
   name: Martin Stiemerling
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-08-01'
+      date: '2010-11-07'
       not_before: '2010-01-22'
     end:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2013-09-06'
+      not_after: '2012-03-25'
     notes:
     - start moved earlier by session request for IETF 82
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: chair activity
     first: '2011-04-15'
@@ -83,6 +99,24 @@ chairs:
     - date: '2011-11-21'
       subject: '[ppsp] WGLC for draft-ietf-ppsp-survey-02 until Dec 5th'
       url: https://mailarchive.ietf.org/arch/msg/ppsp/yFppoIqa1fug44t4ctoIstuZCjw/
+  - kind: proceedings
+    listed_in: 4
+    first: '2010-11-07'
+    last: '2011-11-13'
+    examples:
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/ppsp.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/ppsp.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/ppsp.html
+  - kind: minutes without them
+    date: '2012-03-25'
+    subject: IETF 83 proceedings charter
+    url: https://www.ietf.org/proceedings/83/ppsp.html
   - kind: session requests
     meetings:
     - '82'
@@ -95,13 +129,28 @@ chairs:
       certainty: evidence-only
       not_after: '2010-03-23'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2010-07-25'
+      not_after: '2010-11-07'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2010-03-23'
     subject: 'WG Action: Peer-to-Peer Streaming Protocol (PPSP)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ex7DSi7W8scWmIADTP_LjR5bGIg/
+  - kind: proceedings
+    listed_in: 1
+    first: '2010-03-23'
+    last: '2010-03-23'
+    examples:
+    - date: '2010-03-23'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/ppsp.html
+  - kind: minutes without them
+    date: '2010-11-07'
+    subject: IETF 79 proceedings charter
+    url: https://www.ietf.org/proceedings/79/ppsp.html
   - kind: session requests
     meetings:
     - '78'
@@ -138,6 +187,20 @@ chairs:
     - date: '2013-11-26'
       subject: '[ppsp] WGLC for the survey draft'
       url: https://mailarchive.ietf.org/arch/msg/ppsp/MUlKJAmAb9fNk_OHLtCGuLV_4Kc/
+  - kind: proceedings
+    listed_in: 18
+    first: '2009-11-08'
+    last: '2015-11-01'
+    examples:
+    - date: '2009-11-08'
+      subject: IETF 76 proceedings charter
+      url: https://www.ietf.org/proceedings/76/ppsp.html
+    - date: '2010-03-23'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/ppsp.html
+    - date: '2015-11-01'
+      subject: IETF 94 proceedings charter
+      url: https://www.ietf.org/proceedings/94/ppsp.html
   - kind: session requests
     meetings:
     - '79'
@@ -181,6 +244,20 @@ chairs:
     - date: '2015-01-13'
       subject: '[ppsp] WGLC for base tracker protocol'
       url: https://mailarchive.ietf.org/arch/msg/ppsp/SOvK3HTEP9-zOiBue3fVlroKrwE/
+  - kind: proceedings
+    listed_in: 8
+    first: '2013-07-28'
+    last: '2015-11-01'
+    examples:
+    - date: '2013-07-28'
+      subject: IETF 87 proceedings charter
+      url: https://www.ietf.org/proceedings/87/ppsp.html
+    - date: '2013-11-03'
+      subject: IETF 88 proceedings charter
+      url: https://www.ietf.org/proceedings/88/ppsp.html
+    - date: '2015-11-01'
+      subject: IETF 94 proceedings charter
+      url: https://www.ietf.org/proceedings/94/ppsp.html
   - kind: shepherded
     documents:
     - draft-ietf-ppsp-base-tracker-protocol

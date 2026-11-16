@@ -7,14 +7,85 @@ started: '1995-01-20'
 closed: '2000-10-11'
 history_url: https://datatracker.ietf.org/group/http/history/
 chairs:
+- person: 6861
+  name: Tim Berners-Lee
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1994-12-05'
+    end:
+      certainty: between
+      not_before: '1995-04-03'
+      not_after: '1995-12-04'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '1994-12-05'
+    last: '1995-04-03'
+    examples:
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/app/http/http-charter.txt
+    - date: '1995-04-03'
+      subject: IETF 32 proceedings charter
+      url: https://www.ietf.org/proceedings/32/area.and.wg.reports/app/http/http-charter.txt
+  - kind: minutes without them
+    date: '1995-12-04'
+    subject: IETF 34 proceedings charter
+    url: https://www.ietf.org/proceedings/34/area.and.wg.reports/app/http/http-charter.txt
+- person: 13417
+  name: Dave Raggett
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1994-12-05'
+    end:
+      certainty: evidence-only
+      not_before: '1998-01-20'
+  evidence:
+  - kind: proceedings
+    listed_in: 8
+    first: '1994-12-05'
+    last: '1998-01-20'
+    examples:
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/app/http/http-charter.txt
+    - date: '1995-04-03'
+      subject: IETF 32 proceedings charter
+      url: https://www.ietf.org/proceedings/32/area.and.wg.reports/app/http/http-charter.txt
+    - date: '1998-01-20'
+      subject: IETF 41 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/41/98mar-edited-19.htm
 - person: 110451
   name: Larry Masinter
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2000-10-11'
+      date: '1995-12-04'
       not_before: '1995-01-20'
     end:
       certainty: group-closed
       date: '2000-10-11'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 10
+    first: '1995-12-04'
+    last: '2000-07-03'
+    examples:
+    - date: '1995-12-04'
+      subject: IETF 34 proceedings charter
+      url: https://www.ietf.org/proceedings/34/area.and.wg.reports/app/http/http-charter.txt
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr16.htm
+    - date: '2000-07-03'
+      subject: IETF 48 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/48/00july-17.htm

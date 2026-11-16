@@ -53,6 +53,20 @@ chairs:
     - date: '2011-04-19'
       subject: '[sidr] call for adoption of draft-lepinski-bgpsec-protocol-00'
       url: https://mailarchive.ietf.org/arch/msg/sidr/nwzFKOGFmkQZ9Z-FD-xBC6t8aAc/
+  - kind: proceedings
+    listed_in: 20
+    first: '2006-04-18'
+    last: '2016-11-13'
+    examples:
+    - date: '2006-04-18'
+      subject: IETF 66 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/66/sidr.html
+    - date: '2007-02-20'
+      subject: IETF 68 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/68/sidr.html
+    - date: '2016-11-13'
+      subject: IETF 97 proceedings charter
+      url: https://www.ietf.org/proceedings/97/sidr.html
   - kind: session requests
     meetings:
     - '69'
@@ -84,10 +98,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2013-07-30'
+      not_after: '2012-03-25'
     end:
       certainty: exact
       date: '2013-07-31'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2012-05-25'
@@ -100,6 +116,20 @@ chairs:
     - date: '2012-06-13'
       subject: '[sidr] Discussion topics for the virtual interim on June 29th'
       url: https://mailarchive.ietf.org/arch/msg/sidr/nMXVCqPnqnwSeUEOTVAEb6A_CNs/
+  - kind: proceedings
+    listed_in: 4
+    first: '2012-03-25'
+    last: '2013-03-10'
+    examples:
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/sidr.html
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/sidr.html
+    - date: '2013-03-10'
+      subject: IETF 86 proceedings charter
+      url: https://www.ietf.org/proceedings/86/sidr.html
   - kind: shepherded
     documents:
     - draft-ietf-sidr-algorithm-agility
@@ -112,10 +142,13 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2005-11-01'
+      not_after: '2005-10-14'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2009-11-08'
+      not_after: '2010-03-12'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2006-04-18'
@@ -141,6 +174,24 @@ chairs:
     - date: '2009-10-28'
       subject: '[sidr] Working Group Last Call - draft-ietf-sidr-cp-07.txt'
       url: https://mailarchive.ietf.org/arch/msg/sidr/Tcegd343U8xtk-2Rt2R1wCEnKv4/
+  - kind: proceedings
+    listed_in: 6
+    first: '2005-10-14'
+    last: '2009-04-02'
+    examples:
+    - date: '2005-10-14'
+      subject: IETF 64 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/64/sidr.html
+    - date: '2006-03-12'
+      subject: IETF 65 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/65/sidr.html
+    - date: '2009-04-02'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/sidr.html
+  - kind: minutes without them
+    date: '2010-03-12'
+    subject: IETF 77 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/77/sidr.html
   - kind: session requests
     meetings:
     - '66'
@@ -200,6 +251,20 @@ chairs:
     - date: '2012-03-29'
       subject: '[sidr] SIDR Interim meeting 4/30/2012 (April 30, 2012) - IAD'
       url: https://mailarchive.ietf.org/arch/msg/sidr/z_mLii9PKT3xMCt2O6snupTk-DM/
+  - kind: proceedings
+    listed_in: 15
+    first: '2010-03-12'
+    last: '2016-11-13'
+    examples:
+    - date: '2010-03-12'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/sidr.html
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/sidr.html
+    - date: '2016-11-13'
+      subject: IETF 97 proceedings charter
+      url: https://www.ietf.org/proceedings/97/sidr.html
   - kind: shepherded
     documents:
     - draft-ietf-sidr-adverse-actions

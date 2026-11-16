@@ -39,6 +39,14 @@ chairs:
     - date: '2016-07-09'
       subject: '[dane] Working group Last call: draft-ietf-dane-smime-11.txt'
       url: https://mailarchive.ietf.org/arch/msg/dane/AjUjw-EXbSt3nlEqt-bvvIacDZM/
+  - kind: minutes
+    listed_in: 1
+    first: '2014-03-02'
+    last: '2014-03-02'
+    examples:
+    - date: '2014-03-02'
+      subject: '[dane] IETF-89 draft minutes'
+      url: https://mailarchive.ietf.org/arch/msg/dane/kGG0nUYw-BZcl3cGJn-edqZD1cU/
   - kind: shepherded
     documents:
     - draft-ietf-dane-openpgpkey
@@ -71,6 +79,20 @@ chairs:
     - date: '2012-07-10'
       subject: '[dane] Preliminary agenda for IETF 84'
       url: https://mailarchive.ietf.org/arch/msg/dane/q2yNGbyVdSOwWLFdrMV37V8mDyw/
+  - kind: proceedings
+    listed_in: 5
+    first: '2010-07-25'
+    last: '2011-11-13'
+    examples:
+    - date: '2010-07-25'
+      subject: IETF 78 proceedings charter
+      url: https://www.ietf.org/proceedings/78/dane.html
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/dane.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/dane.html
   - kind: session requests
     meetings:
     - '80'
@@ -117,6 +139,28 @@ chairs:
     - date: '2013-09-19'
       subject: '[dane] Call for Adoption: draft-dukhovni-dane-ops'
       url: https://mailarchive.ietf.org/arch/msg/dane/XrSYUp2tPjjmuF-dmK11OzY5fsg/
+  - kind: minutes
+    listed_in: 1
+    first: '2014-03-02'
+    last: '2014-03-02'
+    examples:
+    - date: '2014-03-02'
+      subject: '[dane] IETF-89 draft minutes'
+      url: https://mailarchive.ietf.org/arch/msg/dane/kGG0nUYw-BZcl3cGJn-edqZD1cU/
+  - kind: proceedings
+    listed_in: 5
+    first: '2010-07-25'
+    last: '2011-11-13'
+    examples:
+    - date: '2010-07-25'
+      subject: IETF 78 proceedings charter
+      url: https://www.ietf.org/proceedings/78/dane.html
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/dane.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/dane.html
   - kind: session requests
     meetings:
     - '81'

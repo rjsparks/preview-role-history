@@ -43,10 +43,13 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2005-02-09'
+      not_after: '2004-10-28'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2010-03-21'
+      not_after: '2010-03-30'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2005-02-09'
@@ -72,6 +75,24 @@ chairs:
     - date: '2007-03-02'
       subject: '[Ecrit] WGLC for draft-ietf-ecrit-mapping-arch-01.txt'
       url: https://mailarchive.ietf.org/arch/msg/ecrit/aZMMm-TQvnnAT8yvA1sy42E_Uno/
+  - kind: proceedings
+    listed_in: 12
+    first: '2004-10-28'
+    last: '2009-09-30'
+    examples:
+    - date: '2004-10-28'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/ecrit.html
+    - date: '2005-02-09'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/ecrit.html
+    - date: '2009-09-30'
+      subject: IETF 76 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/76/ecrit.html
+  - kind: minutes without them
+    date: '2012-11-04'
+    subject: '[Ecrit] IETF85 - Atlanta: ECRIT Minutes for 11/08/2012'
+    url: https://mailarchive.ietf.org/arch/msg/ecrit/GRmRaSPlfu_ZkbuzS1hUK75XJr0/
   - kind: session requests
     meetings:
     - '70'
@@ -127,6 +148,28 @@ chairs:
     - date: '2007-08-16'
       subject: '[Ecrit] WGLC - Location-to-URL Mapping Architecture and Framework'
       url: https://mailarchive.ietf.org/arch/msg/ecrit/wJ9KV-KVjKlafEtU0yMdEiyghTU/
+  - kind: minutes
+    listed_in: 1
+    first: '2012-11-04'
+    last: '2012-11-04'
+    examples:
+    - date: '2012-11-04'
+      subject: '[Ecrit] IETF85 - Atlanta: ECRIT Minutes for 11/08/2012'
+      url: https://mailarchive.ietf.org/arch/msg/ecrit/GRmRaSPlfu_ZkbuzS1hUK75XJr0/
+  - kind: proceedings
+    listed_in: 30
+    first: '2005-02-09'
+    last: '2016-04-03'
+    examples:
+    - date: '2005-02-09'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/ecrit.html
+    - date: '2005-03-06'
+      subject: IETF 62 proceedings charter
+      url: https://www.ietf.org/proceedings/62/iecrit.html
+    - date: '2016-04-03'
+      subject: IETF 95 proceedings charter
+      url: https://www.ietf.org/proceedings/95/ecrit.html
   - kind: session requests
     meetings:
     - '65'
@@ -151,10 +194,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2013-03-13'
+      not_after: '2012-03-25'
     end:
       certainty: exact
       date: '2023-09-08'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Review
     date: '2013-11-22'
@@ -164,6 +209,28 @@ chairs:
     date: '2013-12-06'
     subject: 'WG Action: Rechartered Emergency Context Resolution with Internet Technologies (ecrit)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/cdW3y0MhX-loL41189rfXPaKsHs/
+  - kind: minutes
+    listed_in: 1
+    first: '2012-11-04'
+    last: '2012-11-04'
+    examples:
+    - date: '2012-11-04'
+      subject: '[Ecrit] IETF85 - Atlanta: ECRIT Minutes for 11/08/2012'
+      url: https://mailarchive.ietf.org/arch/msg/ecrit/GRmRaSPlfu_ZkbuzS1hUK75XJr0/
+  - kind: proceedings
+    listed_in: 14
+    first: '2012-03-25'
+    last: '2016-07-17'
+    examples:
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/ecrit.html
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/ecrit.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/ecrit.html
   - kind: shepherded
     documents:
     - draft-ietf-ecrit-held-routing
@@ -177,15 +244,35 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-07-25'
+      date: '2010-03-30'
       not_before: '2004-10-01'
     end:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2013-03-13'
+      not_after: '2012-03-25'
     notes:
     - start moved earlier by session request for IETF 78
+    - widened to cover charter snapshots in proceedings
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
+  - kind: proceedings
+    listed_in: 6
+    first: '2010-03-30'
+    last: '2011-11-13'
+    examples:
+    - date: '2010-03-30'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/ecrit.html
+    - date: '2010-07-25'
+      subject: IETF 78 proceedings charter
+      url: https://www.ietf.org/proceedings/78/ecrit.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/ecrit.html
+  - kind: minutes without them
+    date: '2012-11-04'
+    subject: '[Ecrit] IETF85 - Atlanta: ECRIT Minutes for 11/08/2012'
+    url: https://mailarchive.ietf.org/arch/msg/ecrit/GRmRaSPlfu_ZkbuzS1hUK75XJr0/
   - kind: session requests
     meetings:
     - '78'
@@ -217,6 +304,18 @@ chairs:
     - date: '2017-07-18'
       subject: '[Ecrit] ECRIT Milestone Clean-up, also: Editors: Action Needed'
       url: https://mailarchive.ietf.org/arch/msg/ecrit/F-qzwh7QnQyu-PbIKWpR5YB9k-s/
+  - kind: proceedings
+    listed_in: 1
+    first: '2016-07-17'
+    last: '2016-07-17'
+    examples:
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/ecrit.html
+  - kind: minutes without them
+    date: '2012-11-04'
+    subject: '[Ecrit] IETF85 - Atlanta: ECRIT Minutes for 11/08/2012'
+    url: https://mailarchive.ietf.org/arch/msg/ecrit/GRmRaSPlfu_ZkbuzS1hUK75XJr0/
   - kind: shepherded
     documents:
     - draft-ecrit-lost-planned-changes

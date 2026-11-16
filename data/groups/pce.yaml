@@ -49,6 +49,20 @@ chairs:
     - date: '2008-02-11'
       subject: '[Pce] Working Group Last Call on PCEP'
       url: https://mailarchive.ietf.org/arch/msg/pce/nKdLEEnukjS6f60Z8qn0fNrc7DM/
+  - kind: proceedings
+    listed_in: 8
+    first: '2004-10-28'
+    last: '2007-09-26'
+    examples:
+    - date: '2004-10-28'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/pce.html
+    - date: '2005-01-17'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/pce.html
+    - date: '2007-09-26'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/pce.html
   - kind: session requests
     meetings:
     - '73'
@@ -68,13 +82,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-01-12'
+      date: '2004-10-28'
       not_before: '2004-03-01'
     end:
       certainty: exact
       date: '2017-08-22'
     notes:
     - start moved earlier by WG Action announcement of 2005-01-12
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2005-01-12'
@@ -112,6 +127,20 @@ chairs:
     - date: '2005-10-13'
       subject: '[Pce] Working Group Last call on draft-ietf-pce-discovery-reqs-02.txt'
       url: https://mailarchive.ietf.org/arch/msg/pce/8z-pkrqH7Rd-FVFhygEn1GstvKA/
+  - kind: proceedings
+    listed_in: 16
+    first: '2004-10-28'
+    last: '2011-11-13'
+    examples:
+    - date: '2004-10-28'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/pce.html
+    - date: '2005-01-17'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/pce.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/pce.html
   - kind: session requests
     meetings:
     - '65'
@@ -195,6 +224,20 @@ chairs:
     - date: '2013-05-21'
       subject: '[Pce] WG Last Call of draft-ietf-pce-pcep-inter-domain-p2mp-procedures'
       url: https://mailarchive.ietf.org/arch/msg/pce/2q-IbqAdAqFXoSxgKJ_HAs_IcwM/
+  - kind: proceedings
+    listed_in: 8
+    first: '2009-04-15'
+    last: '2011-11-13'
+    examples:
+    - date: '2009-04-15'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/pce.html
+    - date: '2009-07-26'
+      subject: IETF 75 proceedings charter
+      url: https://www.ietf.org/proceedings/75/pce.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/pce.html
   - kind: session requests
     meetings:
     - '76'

@@ -13,19 +13,53 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1999-08-17'
+      date: '1995-12-04'
       not_before: '1995-10-17'
     end:
       certainty: group-closed
       date: '1999-08-17'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 6
+    first: '1995-12-04'
+    last: '1998-04-07'
+    examples:
+    - date: '1995-12-04'
+      subject: IETF 34 proceedings charter
+      url: https://www.ietf.org/proceedings/34/area.and.wg.reports/app/find/find-charter.txt
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr12.htm
+    - date: '1998-04-07'
+      subject: IETF 42 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/42/98aug-13.htm
 - person: 11182
   name: Patrik Fältström
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '1999-08-17'
+      date: '1995-12-04'
       not_before: '1995-10-17'
     end:
       certainty: group-closed
       date: '1999-08-17'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 6
+    first: '1995-12-04'
+    last: '1998-04-07'
+    examples:
+    - date: '1995-12-04'
+      subject: IETF 34 proceedings charter
+      url: https://www.ietf.org/proceedings/34/area.and.wg.reports/app/find/find-charter.txt
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr12.htm
+    - date: '1998-04-07'
+      subject: IETF 42 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/42/98aug-13.htm

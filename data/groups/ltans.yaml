@@ -13,13 +13,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2003-11-03'
       not_before: '2003-09-25'
     end:
       certainty: group-closed
       date: '2011-07-19'
     notes:
     - start moved earlier by session request for IETF 65
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2004-12-02'
@@ -35,6 +36,20 @@ chairs:
     - date: '2008-08-12'
       subject: Working group last call for DSSC
       url: https://mailarchive.ietf.org/arch/msg/ltans/u9Y6Z5j6FPu36ZKNf-EBNuR_73E/
+  - kind: proceedings
+    listed_in: 16
+    first: '2003-11-03'
+    last: '2011-03-27'
+    examples:
+    - date: '2003-11-03'
+      subject: IETF 58 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/58/203.htm
+    - date: '2004-02-18'
+      subject: IETF 59 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/59/206.htm
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/ltans.html
   - kind: session requests
     meetings:
     - '65'
@@ -50,14 +65,29 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2007-03-18'
+      date: '2003-11-03'
       not_before: '2003-09-25'
     end:
       certainty: group-closed
       date: '2011-07-19'
     notes:
     - start moved earlier by session request for IETF 68
+    - widened to cover charter snapshots in proceedings
   evidence:
+  - kind: proceedings
+    listed_in: 16
+    first: '2003-11-03'
+    last: '2011-03-27'
+    examples:
+    - date: '2003-11-03'
+      subject: IETF 58 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/58/203.htm
+    - date: '2004-02-18'
+      subject: IETF 59 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/59/206.htm
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/ltans.html
   - kind: session requests
     meetings:
     - '68'

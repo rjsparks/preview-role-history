@@ -60,6 +60,20 @@ chairs:
     - date: '2013-12-04'
       subject: '[mpls] working group last call on draft-ietf-mpls-moving-iana-registries-00'
       url: https://mailarchive.ietf.org/arch/msg/mpls/LNYhSjq3fac3eeX74wkkVbFDWuU/
+  - kind: proceedings
+    listed_in: 4
+    first: '2010-11-07'
+    last: '2011-11-13'
+    examples:
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/mpls.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/mpls.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/mpls.html
   - kind: shepherded
     documents:
     - draft-akiya-mpls-lsp-ping-reply-mode-simple
@@ -132,13 +146,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-06-25'
+      date: '1997-04-07'
       not_before: '1997-01-10'
     end:
       certainty: exact
       date: '2018-03-22'
     notes:
     - start moved earlier by WG Action announcement of 2004-06-25
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2004-06-25'
@@ -171,24 +186,71 @@ chairs:
     - date: '2007-04-23'
       subject: '[mpls] MPLS Minutes'
       url: https://mailarchive.ietf.org/arch/msg/mpls/iDFAA3SLg1SogV7ybbuFggACVaY/
+  - kind: proceedings
+    listed_in: 35
+    first: '1997-04-07'
+    last: '2011-11-13'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr90.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-88.htm
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/mpls.html
   - kind: session requests
     meetings:
     - '65'
     - '66'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 19073
+  name: Vijay Srinivasan
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1997-04-07'
+    end:
+      certainty: between
+      not_before: '2001-10-11'
+      not_after: '2002-02-11'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 15
+    first: '1997-04-07'
+    last: '2001-10-11'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr90.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-88.htm
+    - date: '2001-10-11'
+      subject: IETF 52 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/52/217.htm
+  - kind: minutes without them
+    date: '2002-02-11'
+    subject: IETF 53 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/53/214.htm
 - person: 20682
   name: Loa Andersson
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-06-25'
+      date: '2002-02-11'
       not_before: '1997-01-10'
     end:
       certainty: exact
       date: '2023-10-21'
     notes:
     - start moved earlier by WG Action announcement of 2004-06-25
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2004-06-25'
@@ -230,6 +292,20 @@ chairs:
     - date: '2005-08-12'
       subject: '[mpls] Working group last call on draft-ietf-mpls-rfc3036bis-02.txt'
       url: https://mailarchive.ietf.org/arch/msg/mpls/wG1y6TbfXAlo1c57Zc6TVZTT2L8/
+  - kind: proceedings
+    listed_in: 20
+    first: '2002-02-11'
+    last: '2011-11-13'
+    examples:
+    - date: '2002-02-11'
+      subject: IETF 53 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/53/214.htm
+    - date: '2002-05-20'
+      subject: IETF 54 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/54/214.htm
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/mpls.html
   - kind: session requests
     meetings:
     - '67'

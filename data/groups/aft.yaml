@@ -7,14 +7,56 @@ started: '1994-08-26'
 closed: '2002-10-09'
 history_url: https://datatracker.ietf.org/group/aft/history/
 chairs:
+- person: 15758
+  name: Marcus Leech
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1994-12-05'
+    end:
+      certainty: evidence-only
+      not_before: '1999-06-15'
+  evidence:
+  - kind: proceedings
+    listed_in: 9
+    first: '1994-12-05'
+    last: '1999-06-15'
+    examples:
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/sec/aft/aft-charter.txt
+    - date: '1995-04-03'
+      subject: IETF 32 proceedings charter
+      url: https://www.ietf.org/proceedings/32/area.and.wg.reports/sec/aft/aft-charter.txt
+    - date: '1999-06-15'
+      subject: IETF 45 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-104.html
 - person: 17795
   name: Wei Lu
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2002-10-09'
+      date: '1999-09-02'
       not_before: '1994-08-26'
     end:
       certainty: group-closed
       date: '2002-10-09'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 5
+    first: '1999-09-02'
+    last: '2001-07-31'
+    examples:
+    - date: '1999-09-02'
+      subject: IETF 46 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-113.html
+    - date: '1999-09-16'
+      subject: IETF 47 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-108.html
+    - date: '2001-07-31'
+      subject: IETF 51 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/51/51-102.htm

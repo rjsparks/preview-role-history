@@ -22,6 +22,20 @@ chairs:
     date: '2015-12-18'
     subject: 'WG Action: Formed CURves, Deprecating and a Little more Encryption (curdle)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/dcSJChTY6ZqdBypLUlaviflWahU/
+  - kind: proceedings
+    listed_in: 5
+    first: '2015-11-01'
+    last: '2017-03-26'
+    examples:
+    - date: '2015-11-01'
+      subject: IETF 94 proceedings charter
+      url: https://www.ietf.org/proceedings/94/curdle.html
+    - date: '2016-04-03'
+      subject: IETF 95 proceedings charter
+      url: https://www.ietf.org/proceedings/95/curdle.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/curdle.html
 - person: 109969
   name: Daniel Migault
   status: confirmed
@@ -54,6 +68,20 @@ chairs:
     - date: '2017-03-27'
       subject: '[Curdle] minutes for IETF98'
       url: https://mailarchive.ietf.org/arch/msg/curdle/In1BRdqQCvNNqqATeTvAfqU_hpU/
+  - kind: proceedings
+    listed_in: 5
+    first: '2015-11-01'
+    last: '2017-03-26'
+    examples:
+    - date: '2015-11-01'
+      subject: IETF 94 proceedings charter
+      url: https://www.ietf.org/proceedings/94/curdle.html
+    - date: '2016-04-03'
+      subject: IETF 95 proceedings charter
+      url: https://www.ietf.org/proceedings/95/curdle.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/curdle.html
   - kind: shepherded
     documents:
     - draft-ietf-curdle-cms-chacha20-poly1305

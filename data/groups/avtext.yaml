@@ -44,6 +44,28 @@ chairs:
     - date: '2015-03-31'
       subject: '[avtext] WGLC for draft-ietf-avtext-splicing-notification-01'
       url: https://mailarchive.ietf.org/arch/msg/avtext/uCi3XhqkbxT9QzMAmr1y0_WH68M/
+  - kind: minutes
+    listed_in: 1
+    first: '2015-07-19'
+    last: '2015-07-19'
+    examples:
+    - date: '2015-07-19'
+      subject: '[avtext] AVTEXT Minutes for IETF 93'
+      url: https://mailarchive.ietf.org/arch/msg/avtext/ciFDwF6S0X1U8JYcpbyDjOxnTRo/
+  - kind: proceedings
+    listed_in: 13
+    first: '2012-11-04'
+    last: '2016-11-13'
+    examples:
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/avtext.html
+    - date: '2013-03-10'
+      subject: IETF 86 proceedings charter
+      url: https://www.ietf.org/proceedings/86/avtext.html
+    - date: '2016-11-13'
+      subject: IETF 97 proceedings charter
+      url: https://www.ietf.org/proceedings/97/avtext.html
   - kind: shepherded
     documents:
     - draft-ietf-avtext-multiple-clock-rates
@@ -94,6 +116,28 @@ chairs:
     - date: '2012-09-04'
       subject: '[avtext] WG last call on changes'
       url: https://mailarchive.ietf.org/arch/msg/avtext/ALw5BD9UGHxMOMfD5n1-WBTwVcs/
+  - kind: minutes
+    listed_in: 1
+    first: '2015-07-19'
+    last: '2015-07-19'
+    examples:
+    - date: '2015-07-19'
+      subject: '[avtext] AVTEXT Minutes for IETF 93'
+      url: https://mailarchive.ietf.org/arch/msg/avtext/ciFDwF6S0X1U8JYcpbyDjOxnTRo/
+  - kind: proceedings
+    listed_in: 6
+    first: '2010-11-07'
+    last: '2012-07-29'
+    examples:
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/avtext.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/avtext.html
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/avtext.html
   - kind: shepherded
     documents:
     - draft-ietf-avtext-splicing-for-rtp
@@ -115,6 +159,20 @@ chairs:
     date: '2011-01-25'
     subject: 'WG Action: Audio/Video Transport Extensions (AVTEXT)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/KSkpUe5SYXgkjfT6qL3RziUxemM/
+  - kind: proceedings
+    listed_in: 15
+    first: '2010-11-07'
+    last: '2015-07-19'
+    examples:
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/avtext.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/avtext.html
+    - date: '2015-07-19'
+      subject: IETF 93 proceedings charter
+      url: https://www.ietf.org/proceedings/93/avtext.html
   - kind: session requests
     meetings:
     - '80'
@@ -155,6 +213,24 @@ chairs:
     - date: '2016-07-24'
       subject: '[avtext] WGLC: draft-ietf-avtext-avpf-ccm-layered-01'
       url: https://mailarchive.ietf.org/arch/msg/avtext/GyyDVfFyiJRXPXaKq88uVQDKEqQ/
+  - kind: proceedings
+    listed_in: 4
+    first: '2015-11-01'
+    last: '2016-11-13'
+    examples:
+    - date: '2015-11-01'
+      subject: IETF 94 proceedings charter
+      url: https://www.ietf.org/proceedings/94/avtext.html
+    - date: '2016-04-03'
+      subject: IETF 95 proceedings charter
+      url: https://www.ietf.org/proceedings/95/avtext.html
+    - date: '2016-11-13'
+      subject: IETF 97 proceedings charter
+      url: https://www.ietf.org/proceedings/97/avtext.html
+  - kind: minutes without them
+    date: '2015-07-19'
+    subject: '[avtext] AVTEXT Minutes for IETF 93'
+    url: https://mailarchive.ietf.org/arch/msg/avtext/ciFDwF6S0X1U8JYcpbyDjOxnTRo/
   - kind: shepherded
     documents:
     - draft-ietf-avtext-avpf-ccm-layered

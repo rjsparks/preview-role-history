@@ -14,10 +14,21 @@ chairs:
   - start:
       certainty: between
       not_before: '2013-06-20'
-      not_after: '2013-09-24'
+      not_after: '2013-07-28'
     end:
       certainty: exact
       date: '2014-01-22'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2013-07-28'
+    last: '2013-07-28'
+    examples:
+    - date: '2013-07-28'
+      subject: IETF 87 proceedings charter
+      url: https://www.ietf.org/proceedings/87/tcmtf.html
 - person: 105721
   name: Jana Iyengar
   status: confirmed
@@ -37,6 +48,15 @@ chairs:
     end:
       certainty: exact
       date: '2014-01-22'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2013-07-28'
+    last: '2013-07-28'
+    examples:
+    - date: '2013-07-28'
+      subject: IETF 87 proceedings charter
+      url: https://www.ietf.org/proceedings/87/tcmtf.html
 - person: 109354
   name: Brian Trammell
   status: confirmed
@@ -47,6 +67,18 @@ chairs:
     end:
       certainty: group-closed
       date: '2014-06-11'
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2014-03-02'
+    last: '2014-07-20'
+    examples:
+    - date: '2014-03-02'
+      subject: IETF 89 proceedings charter
+      url: https://www.ietf.org/proceedings/89/tcmtf.html
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/tcmtf.html
 - person: 112330
   name: Mirja Kühlewind
   status: confirmed
@@ -66,3 +98,14 @@ chairs:
     - date: '2014-02-17'
       subject: '[tcmtf] Draft agenda'
       url: https://mailarchive.ietf.org/arch/msg/tcmtf/lvwHXm2KAKTTdoB09tz7tuvar64/
+  - kind: proceedings
+    listed_in: 2
+    first: '2014-03-02'
+    last: '2014-07-20'
+    examples:
+    - date: '2014-03-02'
+      subject: IETF 89 proceedings charter
+      url: https://www.ietf.org/proceedings/89/tcmtf.html
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/tcmtf.html

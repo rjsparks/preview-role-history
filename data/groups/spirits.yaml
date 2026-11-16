@@ -13,33 +13,63 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1999-10-27'
+      date: '1999-10-22'
       not_before: '1999-10-01'
     end:
       certainty: group-closed
       date: '2005-05-05'
     notes:
     - start moved earlier by WG Action announcement of 1999-10-27
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '1999-10-27'
     subject: 'WG ACTION: Service in the PSTN/IN Requesting InTernet Service (spirits)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/DAY8CrwsUe-tWPIx2RqXcCAOOck/
+  - kind: proceedings
+    listed_in: 12
+    first: '1999-10-22'
+    last: '2003-03-31'
+    examples:
+    - date: '1999-10-22'
+      subject: IETF 46 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-151.html
+    - date: '2000-02-03'
+      subject: IETF 47 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-143.html
+    - date: '2003-03-31'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/spirits.html
 - person: 101245
   name: Alec Brusilovsky
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '1999-10-27'
+      date: '1999-10-22'
       not_before: '1999-10-01'
     end:
       certainty: group-closed
       date: '2005-05-05'
     notes:
     - start moved earlier by WG Action announcement of 1999-10-27
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '1999-10-27'
     subject: 'WG ACTION: Service in the PSTN/IN Requesting InTernet Service (spirits)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/DAY8CrwsUe-tWPIx2RqXcCAOOck/
+  - kind: proceedings
+    listed_in: 12
+    first: '1999-10-22'
+    last: '2003-03-31'
+    examples:
+    - date: '1999-10-22'
+      subject: IETF 46 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-151.html
+    - date: '2000-02-03'
+      subject: IETF 47 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-143.html
+    - date: '2003-03-31'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/spirits.html

@@ -13,19 +13,53 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1998-06-26'
+      date: '1996-01-03'
       not_before: '1995-12-18'
     end:
       certainty: group-closed
       date: '1998-06-26'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 3
+    first: '1996-01-03'
+    last: '1997-08-11'
+    examples:
+    - date: '1996-01-03'
+      subject: IETF 40 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-70.htm
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr68.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-69.htm
 - person: 4030
   name: Bill Manning
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '1998-06-26'
+      date: '1996-01-03'
       not_before: '1995-12-18'
     end:
       certainty: group-closed
       date: '1998-06-26'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 3
+    first: '1996-01-03'
+    last: '1997-08-11'
+    examples:
+    - date: '1996-01-03'
+      subject: IETF 40 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-70.htm
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr68.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-69.htm

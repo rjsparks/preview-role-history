@@ -13,11 +13,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2007-09-10'
+      date: '2002-08-16'
       not_before: '2002-01-18'
     end:
       certainty: group-closed
       date: '2007-09-10'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Review
     date: '2006-11-01'
@@ -31,6 +33,28 @@ chairs:
     - date: '2002-01-08'
       subject: '[Ieprep] draft ieprep minutes'
       url: https://mailarchive.ietf.org/arch/msg/ieprep/bqvXkG_Clb9fJQBbkDDfuZkHFiM/
+  - kind: minutes
+    listed_in: 1
+    first: '2003-03-28'
+    last: '2003-03-28'
+    examples:
+    - date: '2003-03-28'
+      subject: '[Ieprep] ieprep minutes San Francisco'
+      url: https://mailarchive.ietf.org/arch/msg/ieprep/YJPmjvhTNtFQcPAlzFwNZxKEN-M/
+  - kind: proceedings
+    listed_in: 9
+    first: '2002-08-16'
+    last: '2006-03-24'
+    examples:
+    - date: '2002-08-16'
+      subject: IETF 55 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/55/219.htm
+    - date: '2003-01-14'
+      subject: IETF 56 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/56/225.htm
+    - date: '2006-03-24'
+      subject: IETF 68 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/68/ieprep.html
 - person: 2853
   name: Fred Baker
   status: unconfirmed
@@ -39,8 +63,11 @@ chairs:
       certainty: evidence-only
       not_after: '2002-02-22'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2002-07-24'
+      not_after: '2003-01-14'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2002-02-22'
@@ -54,6 +81,21 @@ chairs:
     - date: '2002-07-24'
       subject: '[Ieprep] minutes'
       url: https://mailarchive.ietf.org/arch/msg/ieprep/mhU6Ot7cKTZ9F0j1AtL1sPQdfX0/
+  - kind: proceedings
+    listed_in: 2
+    first: '2002-02-22'
+    last: '2002-06-05'
+    examples:
+    - date: '2002-02-22'
+      subject: IETF 53 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/53/223.htm
+    - date: '2002-06-05'
+      subject: IETF 54 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/54/220.htm
+  - kind: minutes without them
+    date: '2003-03-28'
+    subject: '[Ieprep] ieprep minutes San Francisco'
+    url: https://mailarchive.ietf.org/arch/msg/ieprep/YJPmjvhTNtFQcPAlzFwNZxKEN-M/
 - person: 102997
   name: Kimberly King
   status: confirmed
@@ -74,3 +116,25 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/ieprep/-HsbR97jkDh_Hvp7OwCrPPuX6Ao/
     excerpt: this is to announce that Kimberly King has agreed to become the co-chair for the ieprep working
       group
+  - kind: minutes
+    listed_in: 1
+    first: '2003-03-28'
+    last: '2003-03-28'
+    examples:
+    - date: '2003-03-28'
+      subject: '[Ieprep] ieprep minutes San Francisco'
+      url: https://mailarchive.ietf.org/arch/msg/ieprep/YJPmjvhTNtFQcPAlzFwNZxKEN-M/
+  - kind: proceedings
+    listed_in: 8
+    first: '2003-01-14'
+    last: '2006-03-24'
+    examples:
+    - date: '2003-01-14'
+      subject: IETF 56 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/56/225.htm
+    - date: '2003-07-21'
+      subject: IETF 57 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/57/227.htm
+    - date: '2006-03-24'
+      subject: IETF 68 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/68/ieprep.html

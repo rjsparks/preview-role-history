@@ -13,8 +13,50 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2002-01-08'
+      date: '1998-11-25'
       not_before: '1993-04-19'
     end:
       certainty: group-closed
       date: '2002-01-08'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 9
+    first: '1998-11-25'
+    last: '2001-07-31'
+    examples:
+    - date: '1998-11-25'
+      subject: IETF 43 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-52.html
+    - date: '1999-01-06'
+      subject: IETF 44 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-51.html
+    - date: '2001-07-31'
+      subject: IETF 51 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/51/51-47.htm
+- person: 6477
+  name: James Watt
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1997-04-07'
+    end:
+      certainty: evidence-only
+      not_before: '1997-11-26'
+  evidence:
+  - kind: proceedings
+    listed_in: 3
+    first: '1997-04-07'
+    last: '1997-11-26'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr45.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-46.htm
+    - date: '1997-11-26'
+      subject: IETF 40 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-44.htm

@@ -46,6 +46,20 @@ chairs:
     - date: '2019-04-10'
       subject: '[Taps] WGLC for draft-ietf-taps-transport-security (ending 4/29)'
       url: https://mailarchive.ietf.org/arch/msg/taps/arbZvPYHNB6Mjd0F9IfmhxtmtWo/
+  - kind: proceedings
+    listed_in: 9
+    first: '2014-07-20'
+    last: '2017-03-26'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/taps.html
+    - date: '2014-11-09'
+      subject: IETF 91 proceedings charter
+      url: https://www.ietf.org/proceedings/91/taps.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/taps.html
   - kind: shepherded
     documents:
     - draft-ietf-taps-transports
@@ -68,6 +82,14 @@ chairs:
     - date: '2014-03-26'
       subject: '[Taps] Draft minutes available!'
       url: https://mailarchive.ietf.org/arch/msg/taps/naZNhs1NinAIM9SEb2Ko0JgEJ2A/
+  - kind: proceedings
+    listed_in: 1
+    first: '2014-03-02'
+    last: '2014-03-02'
+    examples:
+    - date: '2014-03-02'
+      subject: IETF 89 proceedings charter
+      url: https://www.ietf.org/proceedings/89/taps.html
   - kind: shepherded
     documents:
     - draft-ietf-taps-arch
@@ -81,6 +103,15 @@ chairs:
     end:
       certainty: approximate
       date: '2014-06-14'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2014-03-02'
+    last: '2014-03-02'
+    examples:
+    - date: '2014-03-02'
+      subject: IETF 89 proceedings charter
+      url: https://www.ietf.org/proceedings/89/taps.html
 - person: 109753
   name: Zaheduzzaman Sarker
   status: confirmed
@@ -107,6 +138,20 @@ chairs:
     - date: '2016-06-28'
       subject: '[Taps] Draft agenda for IETF96'
       url: https://mailarchive.ietf.org/arch/msg/taps/U0eACAoZDloq3eOlDoB-f3Ksnio/
+  - kind: proceedings
+    listed_in: 4
+    first: '2016-04-03'
+    last: '2017-03-26'
+    examples:
+    - date: '2016-04-03'
+      subject: IETF 95 proceedings charter
+      url: https://www.ietf.org/proceedings/95/taps.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/taps.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/taps.html
   - kind: shepherded
     documents:
     - draft-ietf-taps-transports-usage

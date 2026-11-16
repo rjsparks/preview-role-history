@@ -13,8 +13,44 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2001-07-16'
+      date: '1995-08-23'
       not_before: '1995-04-13'
     end:
       certainty: group-closed
       date: '2001-07-16'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '1995-08-23'
+    last: '1995-08-23'
+    examples:
+    - date: '1995-08-23'
+      subject: IETF 42 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/42/98aug-124.htm
+- person: 113165
+  name: Charles Kaufman
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1995-04-03'
+    end:
+      certainty: evidence-only
+      not_before: '2001-03-14'
+  evidence:
+  - kind: proceedings
+    listed_in: 7
+    first: '1995-04-03'
+    last: '2001-03-14'
+    examples:
+    - date: '1995-04-03'
+      subject: IETF 32 proceedings charter
+      url: https://www.ietf.org/proceedings/32/area.and.wg.reports/sec/wts/wts-charter.txt
+    - date: '1995-07-17'
+      subject: IETF 33 proceedings charter
+      url: https://www.ietf.org/proceedings/33/area.and.wg.reports/sec/wts/wts-charter.txt
+    - date: '2001-03-14'
+      subject: IETF 50 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/50/ietf50-124.htm

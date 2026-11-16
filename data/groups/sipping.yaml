@@ -13,7 +13,7 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-06-29'
+      date: '2006-03-24'
       not_before: '2001-03-29'
     end:
       certainty: group-closed
@@ -21,6 +21,7 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 67
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2006-06-29'
@@ -42,6 +43,20 @@ chairs:
     - date: '2008-08-13'
       subject: '[Sipping] IETF-72 SIPPING WG minutes available'
       url: https://mailarchive.ietf.org/arch/msg/sipping/Ae5bONS-7AdRhV6HZi_82NdS2wk/
+  - kind: proceedings
+    listed_in: 5
+    first: '2006-03-24'
+    last: '2009-05-01'
+    examples:
+    - date: '2006-03-24'
+      subject: IETF 66 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/66/sipping.html
+    - date: '2007-01-23'
+      subject: IETF 68 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/68/sipping.html
+    - date: '2009-05-01'
+      subject: IETF 75 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/75/sipping.html
   - kind: session requests
     meetings:
     - '67'
@@ -108,6 +123,20 @@ chairs:
     - date: '2005-08-31'
       subject: '[Sipping] Draft minutes of IETF 63'
       url: https://mailarchive.ietf.org/arch/msg/sipping/yMyguZ9FXPFA9KEwiSsaMcdQZmE/
+  - kind: proceedings
+    listed_in: 15
+    first: '2003-01-27'
+    last: '2009-05-01'
+    examples:
+    - date: '2003-01-27'
+      subject: IETF 56 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/56/242.htm
+    - date: '2003-07-01'
+      subject: IETF 57 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/57/246.htm
+    - date: '2009-05-01'
+      subject: IETF 75 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/75/sipping.html
   - kind: session requests
     meetings:
     - '66'
@@ -121,8 +150,11 @@ chairs:
       certainty: evidence-only
       not_after: '2001-08-14'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2006-03-19'
+      not_after: '2006-03-24'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2001-11-02'
@@ -156,6 +188,24 @@ chairs:
     - date: '2002-05-28'
       subject: '[Sipping] Working Group Last Call -- draft-ietf-sipping-nai-reqs'
       url: https://mailarchive.ietf.org/arch/msg/sipping/FDCFsKAxN6Lvn2QK_P-eMod66A0/
+  - kind: proceedings
+    listed_in: 14
+    first: '2001-11-06'
+    last: '2006-02-15'
+    examples:
+    - date: '2001-11-06'
+      subject: IETF 52 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/52/239.htm
+    - date: '2002-03-05'
+      subject: IETF 53 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/53/238.htm
+    - date: '2006-02-15'
+      subject: IETF 65 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/65/sipping.html
+  - kind: minutes without them
+    date: '2006-03-24'
+    subject: IETF 66 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/66/sipping.html
   - kind: session requests
     meetings:
     - '65'
@@ -168,13 +218,36 @@ chairs:
       certainty: evidence-only
       not_after: '2001-11-02'
     end:
-      certainty: evidence-only
-      not_before: '2001-11-02'
+      certainty: approximate
+      date: '2002-10-24'
+    notes:
+    - end dated by list message of 2002-10-24
   evidence:
   - kind: WG Action
     date: '2001-11-02'
     subject: 'WG ACTION: Session Initiation Proposal Investigation (sipping)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/r4odUeai6pe0U9RfWb0hifb_CYU/
+  - kind: list message
+    date: '2002-10-24'
+    says: end
+    subject: '[Sipping] A SIPPING WG Chair Change'
+    url: https://mailarchive.ietf.org/arch/msg/sipping/22IkuSYeQteXCnx5V_Fp_acu8T8/
+    excerpt: Due to increased day job work, Brian Rosen is stepping down from his SIPPING co-chairship,
+      as well as the SIP co-chairship (see that mailing list).
+  - kind: proceedings
+    listed_in: 3
+    first: '2001-11-06'
+    last: '2002-05-29'
+    examples:
+    - date: '2001-11-06'
+      subject: IETF 52 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/52/239.htm
+    - date: '2002-03-05'
+      subject: IETF 53 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/53/238.htm
+    - date: '2002-05-29'
+      subject: IETF 54 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/54/237.htm
 - person: 129485
   name: Rohan Mahy
   status: unconfirmed
@@ -183,8 +256,11 @@ chairs:
       certainty: evidence-only
       not_after: '2001-11-02'
     end:
-      certainty: evidence-only
-      not_before: '2005-11-04'
+      certainty: between
+      not_before: '2006-02-15'
+      not_after: '2006-03-24'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2001-11-02'
@@ -218,3 +294,21 @@ chairs:
     - date: '2002-05-29'
       subject: '[Sipping] WGLC for ISUP overlap signaling'
       url: https://mailarchive.ietf.org/arch/msg/sipping/SYCgEQZ8AgXg2LWpnCjpPxLExD4/
+  - kind: proceedings
+    listed_in: 14
+    first: '2001-11-06'
+    last: '2006-02-15'
+    examples:
+    - date: '2001-11-06'
+      subject: IETF 52 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/52/239.htm
+    - date: '2002-03-05'
+      subject: IETF 53 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/53/238.htm
+    - date: '2006-02-15'
+      subject: IETF 65 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/65/sipping.html
+  - kind: minutes without them
+    date: '2006-03-24'
+    subject: IETF 66 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/66/sipping.html

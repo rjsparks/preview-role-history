@@ -13,8 +13,25 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1995-10-17'
+      date: '1994-12-05'
       not_before: '1993-09-22'
     end:
       certainty: group-closed
       date: '1995-10-17'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 3
+    first: '1994-12-05'
+    last: '1995-07-17'
+    examples:
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/ops/gisd/gisd-charter.txt
+    - date: '1995-04-03'
+      subject: IETF 32 proceedings charter
+      url: https://www.ietf.org/proceedings/32/area.and.wg.reports/ops/gisd/gisd-charter.txt
+    - date: '1995-07-17'
+      subject: IETF 33 proceedings charter
+      url: https://www.ietf.org/proceedings/33/area.and.wg.reports/ops/gisd/gisd-charter.txt

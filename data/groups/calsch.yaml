@@ -7,25 +7,152 @@ started: '1996-10-07'
 closed: '2004-09-08'
 history_url: https://datatracker.ietf.org/group/calsch/history/
 chairs:
+- person: 20628
+  name: Anik Ganguly
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1997-04-07'
+    end:
+      certainty: between
+      not_before: '1998-11-25'
+      not_after: '1999-02-16'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 6
+    first: '1997-04-07'
+    last: '1998-11-25'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr11.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-12.htm
+    - date: '1998-11-25'
+      subject: IETF 43 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-12.html
+  - kind: minutes without them
+    date: '1999-02-16'
+    subject: IETF 44 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-11.html
+- person: 21080
+  name: Bob Mahoney
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2000-02-03'
+    end:
+      certainty: between
+      not_before: '2003-09-30'
+      not_after: '2004-02-10'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 10
+    first: '2000-02-03'
+    last: '2003-09-30'
+    examples:
+    - date: '2000-02-03'
+      subject: IETF 47 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-10.html
+    - date: '2000-07-17'
+      subject: IETF 48 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/48/00july-11.htm
+    - date: '2003-09-30'
+      subject: IETF 58 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/58/103.htm
+  - kind: minutes without them
+    date: '2004-02-10'
+    subject: IETF 59 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/59/103.htm
 - person: 102967
   name: Pat Egen
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-09-08'
+      date: '1999-02-16'
       not_before: '1996-10-07'
     end:
       certainty: group-closed
       date: '2004-09-08'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 15
+    first: '1999-02-16'
+    last: '2004-07-01'
+    examples:
+    - date: '1999-02-16'
+      subject: IETF 44 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-11.html
+    - date: '1999-06-04'
+      subject: IETF 45 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-11.html
+    - date: '2004-07-01'
+      subject: IETF 60 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/60/104.htm
 - person: 104380
   name: Morgan Rl
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-09-08'
+      date: '2004-02-10'
       not_before: '1996-10-07'
     end:
       certainty: group-closed
       date: '2004-09-08'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2004-02-10'
+    last: '2004-07-01'
+    examples:
+    - date: '2004-02-10'
+      subject: IETF 59 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/59/103.htm
+    - date: '2004-07-01'
+      subject: IETF 60 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/60/104.htm
+- person: 108162
+  name: Robert Moskowitz
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1997-08-11'
+    end:
+      certainty: between
+      not_before: '1999-09-29'
+      not_after: '2000-02-03'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 8
+    first: '1997-08-11'
+    last: '1999-09-29'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-12.htm
+    - date: '1997-10-27'
+      subject: IETF 40 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-05.htm
+    - date: '1999-09-29'
+      subject: IETF 46 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-10.html
+  - kind: minutes without them
+    date: '2000-02-03'
+    subject: IETF 47 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-10.html

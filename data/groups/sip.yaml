@@ -15,8 +15,11 @@ chairs:
       certainty: evidence-only
       not_after: '1999-09-28'
     end:
-      certainty: evidence-only
-      not_before: '2000-07-10'
+      certainty: between
+      not_before: '2000-07-17'
+      not_after: '2000-10-13'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '1999-09-28'
@@ -33,6 +36,24 @@ chairs:
     - date: '2000-03-06'
       subject: Agenda items for Adelaide
       url: https://mailarchive.ietf.org/arch/msg/sip/MNfyIpCbcbEe1q-LMPmzIQbiWuQ/
+  - kind: proceedings
+    listed_in: 3
+    first: '1999-10-25'
+    last: '2000-07-17'
+    examples:
+    - date: '1999-10-25'
+      subject: IETF 46 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-152.html
+    - date: '2000-02-03'
+      subject: IETF 47 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-144.html
+    - date: '2000-07-17'
+      subject: IETF 48 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/48/00july-141.htm
+  - kind: minutes without them
+    date: '2000-10-13'
+    subject: IETF 49 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/49/00dec-152.htm
 - person: 11842
   name: Joerg Ott
   status: unconfirmed
@@ -41,8 +62,11 @@ chairs:
       certainty: evidence-only
       not_after: '1999-09-28'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2002-08-17'
+      not_after: '2003-01-27'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '1999-09-28'
@@ -56,13 +80,31 @@ chairs:
     - date: '2002-08-17'
       subject: '[Sip] Draft SIP Minutes'
       url: https://mailarchive.ietf.org/arch/msg/sip/lqT_awO5BEtMTkEFABHJCnbzWJc/
+  - kind: proceedings
+    listed_in: 9
+    first: '1999-10-25'
+    last: '2002-07-03'
+    examples:
+    - date: '1999-10-25'
+      subject: IETF 46 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-152.html
+    - date: '2000-02-03'
+      subject: IETF 47 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-144.html
+    - date: '2002-07-03'
+      subject: IETF 54 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/54/238.htm
+  - kind: minutes without them
+    date: '2003-01-27'
+    subject: IETF 56 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/56/243.htm
 - person: 103889
   name: Dean Willis
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2000-08-07'
+      date: '1999-10-25'
       not_before: '1999-09-14'
     end:
       certainty: group-closed
@@ -70,6 +112,7 @@ chairs:
     notes:
     - start moved earlier by WG Action announcement of 2005-11-04
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2005-11-04'
@@ -99,6 +142,20 @@ chairs:
     - date: '2000-11-30'
       subject: '[SIP] WG Last Call on Caller Preferences'
       url: https://mailarchive.ietf.org/arch/msg/sip/ouqpRzK71-FMr5wP95rEVzC4vV4/
+  - kind: proceedings
+    listed_in: 25
+    first: '1999-10-25'
+    last: '2009-05-01'
+    examples:
+    - date: '1999-10-25'
+      subject: IETF 46 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-152.html
+    - date: '2000-02-03'
+      subject: IETF 47 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-144.html
+    - date: '2009-05-01'
+      subject: IETF 75 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/75/sip.html
   - kind: session requests
     meetings:
     - '65'
@@ -118,18 +175,65 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-08-22'
+      date: '2006-07-09'
       not_before: '1999-09-14'
     end:
       certainty: group-closed
       date: '2009-05-01'
     notes:
     - start moved earlier by WG Action announcement of 2006-08-22
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2006-08-22'
     subject: 'WG Action: RECHARTER: Session Initiation Protocol (sip)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/fFlaX4aFdJT8nvBXaOrIO77W-Sc/
+  - kind: proceedings
+    listed_in: 7
+    first: '2006-07-09'
+    last: '2009-05-01'
+    examples:
+    - date: '2006-07-09'
+      subject: IETF 66 proceedings charter
+      url: https://www.ietf.org/proceedings/66/sip.html
+    - date: '2006-10-17'
+      subject: IETF 67 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/67/sip.html
+    - date: '2009-05-01'
+      subject: IETF 75 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/75/sip.html
+- person: 106987
+  name: Brian Rosen
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2000-10-13'
+    end:
+      certainty: between
+      not_before: '2002-07-03'
+      not_after: '2003-01-27'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 6
+    first: '2000-10-13'
+    last: '2002-07-03'
+    examples:
+    - date: '2000-10-13'
+      subject: IETF 49 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/49/00dec-152.htm
+    - date: '2001-03-14'
+      subject: IETF 50 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/50/ietf50-155.htm
+    - date: '2002-07-03'
+      subject: IETF 54 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/54/238.htm
+  - kind: minutes without them
+    date: '2003-01-27'
+    subject: IETF 56 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/56/243.htm
 - person: 129485
   name: Rohan Mahy
   status: unconfirmed
@@ -138,8 +242,11 @@ chairs:
       certainty: evidence-only
       not_after: '2001-01-11'
     end:
-      certainty: evidence-only
-      not_before: '2006-02-23'
+      certainty: between
+      not_before: '2006-03-09'
+      not_after: '2006-07-09'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2005-11-04'
@@ -165,3 +272,21 @@ chairs:
     - date: '2002-11-01'
       subject: '[Sip] WGLC (official) for scvrtdisco'
       url: https://mailarchive.ietf.org/arch/msg/sip/YrdPMzbV5b8HZkflj5LdzJv6Kcc/
+  - kind: proceedings
+    listed_in: 9
+    first: '2003-01-27'
+    last: '2006-03-09'
+    examples:
+    - date: '2003-01-27'
+      subject: IETF 56 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/56/243.htm
+    - date: '2003-07-13'
+      subject: IETF 57 proceedings charter
+      url: https://www.ietf.org/proceedings/57/245.htm
+    - date: '2006-03-09'
+      subject: IETF 65 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/65/sip.html
+  - kind: minutes without them
+    date: '2006-07-09'
+    subject: IETF 66 proceedings charter
+    url: https://www.ietf.org/proceedings/66/sip.html

@@ -17,6 +17,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2017-02-15'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2016-11-13'
+    last: '2016-11-13'
+    examples:
+    - date: '2016-11-13'
+      subject: IETF 97 proceedings charter
+      url: https://www.ietf.org/proceedings/97/dnsbundled.html
 - person: 109667
   name: Ning Kong
   status: confirmed
@@ -36,3 +45,11 @@ chairs:
     - date: '2016-08-12'
       subject: '[Bundled-domain-names] Bar BoF Minutes of Bundled Domain Name'
       url: https://mailarchive.ietf.org/arch/msg/bundled-domain-names/-ESW98rxBPD8udZ0a49fmOIAkI0/
+  - kind: proceedings
+    listed_in: 1
+    first: '2016-11-13'
+    last: '2016-11-13'
+    examples:
+    - date: '2016-11-13'
+      subject: IETF 97 proceedings charter
+      url: https://www.ietf.org/proceedings/97/dnsbundled.html

@@ -24,8 +24,50 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1999-04-06'
+      date: '1997-04-07'
       not_before: '1997-02-20'
     end:
       certainty: group-closed
       date: '1999-04-06'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 4
+    first: '1997-04-07'
+    last: '1998-08-17'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr93.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-91.htm
+    - date: '1998-08-17'
+      subject: IETF 42 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/42/98aug-106.htm
+- person: 106652
+  name: Hal Sandick
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1997-04-07'
+    end:
+      certainty: evidence-only
+      not_before: '1998-08-17'
+  evidence:
+  - kind: proceedings
+    listed_in: 4
+    first: '1997-04-07'
+    last: '1998-08-17'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr93.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-91.htm
+    - date: '1998-08-17'
+      subject: IETF 42 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/42/98aug-106.htm

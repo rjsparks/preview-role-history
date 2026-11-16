@@ -18,6 +18,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2015-05-29'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2015-03-22'
+    last: '2015-03-22'
+    examples:
+    - date: '2015-03-22'
+      subject: IETF 92 proceedings charter
+      url: https://www.ietf.org/proceedings/92/spud.html
 - person: 112330
   name: Mirja Kühlewind
   status: confirmed
@@ -41,3 +50,11 @@ chairs:
     - date: '2015-05-07'
       subject: '[Spud] Minutes'
       url: https://mailarchive.ietf.org/arch/msg/spud/9umYw-EeD-yLnq1RohzdpLIlu10/
+  - kind: proceedings
+    listed_in: 1
+    first: '2015-03-22'
+    last: '2015-03-22'
+    examples:
+    - date: '2015-03-22'
+      subject: IETF 92 proceedings charter
+      url: https://www.ietf.org/proceedings/92/spud.html

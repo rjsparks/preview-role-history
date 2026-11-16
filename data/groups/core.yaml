@@ -56,6 +56,20 @@ chairs:
     - date: '2013-12-09'
       subject: '[core] WGLC of draft-ietf-core-groupcomm-17'
       url: https://mailarchive.ietf.org/arch/msg/core/-uZP3ER45d2Re6-zqgcCL47qZ1w/
+  - kind: proceedings
+    listed_in: 21
+    first: '2010-03-25'
+    last: '2017-03-26'
+    examples:
+    - date: '2010-03-25'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/core.html
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/core.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/core.html
   - kind: shepherded
     documents:
     - draft-ietf-core-groupcomm
@@ -75,13 +89,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-07-25'
+      date: '2010-03-25'
       not_before: '2010-02-12'
     end:
       certainty: exact
       date: '2012-09-10'
     notes:
     - start moved earlier by session request for IETF 78
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2010-03-10'
@@ -103,6 +118,20 @@ chairs:
     - date: '2012-04-18'
       subject: '[core] WGLC draft-ietf-core-coap-09 - packet size'
       url: https://mailarchive.ietf.org/arch/msg/core/hdLH1YUJ9PfVCil0WuQVf_S7auA/
+  - kind: proceedings
+    listed_in: 6
+    first: '2010-03-25'
+    last: '2012-03-25'
+    examples:
+    - date: '2010-03-25'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/core.html
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/core.html
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/core.html
   - kind: session requests
     meetings:
     - '78'
@@ -119,8 +148,11 @@ chairs:
       certainty: evidence-only
       not_after: '2011-02-22'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2012-05-11'
+      not_after: '2012-07-29'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: chair activity
     first: '2011-02-22'
@@ -142,6 +174,10 @@ chairs:
     - date: '2012-05-11'
       subject: '[core] any Agenda for Virtual Interim - May 16?'
       url: https://mailarchive.ietf.org/arch/msg/core/yPeGwKjzp3vKORfOP-9S-4pgyzQ/
+  - kind: minutes without them
+    date: '2012-07-29'
+    subject: IETF 84 proceedings charter
+    url: https://www.ietf.org/proceedings/84/core.html
 - person: 113152
   name: Jaime Jimenez
   status: confirmed
@@ -163,6 +199,20 @@ chairs:
     - date: '2020-07-29'
       subject: '[core] WGLC on draft-ietf-core-senml-data-ct-02'
       url: https://mailarchive.ietf.org/arch/msg/core/xM5Bjh3sI7VzUxPhHXkmB_eFIhQ/
+  - kind: proceedings
+    listed_in: 4
+    first: '2016-04-03'
+    last: '2017-03-26'
+    examples:
+    - date: '2016-04-03'
+      subject: IETF 95 proceedings charter
+      url: https://www.ietf.org/proceedings/95/core.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/core.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/core.html
   - kind: shepherded
     documents:
     - draft-ietf-core-coap-tcp-tls
@@ -213,6 +263,20 @@ chairs:
     - date: '2015-01-04'
       subject: '[core] WGLC for draft-ietf-core-block-16'
       url: https://mailarchive.ietf.org/arch/msg/core/LBBfBk9R5Q_T1p0IvJBniP7IoEs/
+  - kind: proceedings
+    listed_in: 11
+    first: '2012-07-29'
+    last: '2015-11-01'
+    examples:
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/core.html
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/core.html
+    - date: '2015-11-01'
+      subject: IETF 94 proceedings charter
+      url: https://www.ietf.org/proceedings/94/core.html
   - kind: shepherded
     documents:
     - draft-ietf-core-coap

@@ -15,26 +15,42 @@ chairs:
       certainty: evidence-only
       not_after: '2002-07-02'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2002-07-02'
+      not_after: '2003-01-22'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2002-07-02'
     subject: 'WG Action: Routing Protocol Security Requirements (rpsec)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/2VN0YpQjapdOLljMx96AojMVN0g/
+  - kind: proceedings
+    listed_in: 1
+    first: '2002-07-02'
+    last: '2002-07-02'
+    examples:
+    - date: '2002-07-02'
+      subject: IETF 54 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/54/187.htm
+  - kind: minutes without them
+    date: '2003-01-22'
+    subject: IETF 56 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/56/192.htm
 - person: 101784
   name: Tony Tauber
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-03-24'
+      date: '2003-01-22'
       not_before: '2002-05-06'
     end:
       certainty: group-closed
       date: '2009-03-27'
     notes:
     - start moved earlier by WG Action announcement of 2004-03-24
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2004-03-24'
@@ -51,6 +67,20 @@ chairs:
     - date: '2004-11-09'
       subject: '[RPSEC] Agenda for IETF61 (WashDC)'
       url: https://mailarchive.ietf.org/arch/msg/rpsec/slLDW2uIsJTvqqNqHttL5SAKr94/
+  - kind: proceedings
+    listed_in: 11
+    first: '2003-01-22'
+    last: '2007-04-02'
+    examples:
+    - date: '2003-01-22'
+      subject: IETF 56 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/56/192.htm
+    - date: '2003-05-28'
+      subject: IETF 57 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/57/194.htm
+    - date: '2007-04-02'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/rpsec.html
   - kind: session requests
     meetings:
     - '66'
@@ -90,6 +120,20 @@ chairs:
     - date: '2005-08-06'
       subject: '[RPSEC] Minutes and Presentations from Paris are now Posted...'
       url: https://mailarchive.ietf.org/arch/msg/rpsec/O_IxPIapDbtLyBNb5GyimPv0bdY/
+  - kind: proceedings
+    listed_in: 12
+    first: '2002-07-02'
+    last: '2007-04-02'
+    examples:
+    - date: '2002-07-02'
+      subject: IETF 54 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/54/187.htm
+    - date: '2003-01-22'
+      subject: IETF 56 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/56/192.htm
+    - date: '2007-04-02'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/rpsec.html
   - kind: session requests
     meetings:
     - '65'

@@ -13,13 +13,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-01-28'
+      date: '2003-05-12'
       not_before: '2002-05-17'
     end:
       certainty: group-closed
       date: '2009-03-05'
     notes:
     - start moved earlier by WG Action announcement of 2004-01-28
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2004-01-28'
@@ -45,6 +46,28 @@ chairs:
     - date: '2005-10-13'
       subject: '[Crisp] WGLC - 4 docs'
       url: https://mailarchive.ietf.org/arch/msg/crisp/Qd-lt8aRANWiU7JTrC8pGGJd3uo/
+  - kind: minutes
+    listed_in: 1
+    first: '2004-11-24'
+    last: '2004-11-24'
+    examples:
+    - date: '2004-11-24'
+      subject: '[Crisp] Minutes of CRISP mtg in Washingon'
+      url: https://mailarchive.ietf.org/arch/msg/crisp/oWzmsU_qpVjCCT2N29tJEcMXD1I/
+  - kind: proceedings
+    listed_in: 11
+    first: '2003-05-12'
+    last: '2007-03-29'
+    examples:
+    - date: '2003-05-12'
+      subject: IETF 57 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/57/104.htm
+    - date: '2003-10-02'
+      subject: IETF 58 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/58/104.htm
+    - date: '2007-03-29'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/crisp.html
   - kind: session requests
     meetings:
     - '67'
@@ -55,19 +78,77 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-01-28'
+      date: '2003-10-02'
       not_before: '2002-05-17'
     end:
       certainty: group-closed
       date: '2009-03-05'
     notes:
     - start moved earlier by WG Action announcement of 2004-01-28
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2004-01-28'
     subject: 'WG Action: RECHARTER: Cross Registry Information Service Protocol (crisp)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/keXPUomlc_79HTWO061N8DwfrSg/
+  - kind: minutes
+    listed_in: 2
+    first: '2004-11-24'
+    last: '2005-11-06'
+    examples:
+    - date: '2004-11-24'
+      subject: '[Crisp] Minutes of CRISP mtg in Washingon'
+      url: https://mailarchive.ietf.org/arch/msg/crisp/oWzmsU_qpVjCCT2N29tJEcMXD1I/
+    - date: '2005-11-06'
+      subject: '[Crisp] minutes of CRISP mtg in vancouver'
+      url: https://mailarchive.ietf.org/arch/msg/crisp/gV2PuCa8n9573iVfdusfvSkKH_I/
+  - kind: proceedings
+    listed_in: 10
+    first: '2003-10-02'
+    last: '2007-03-29'
+    examples:
+    - date: '2003-10-02'
+      subject: IETF 58 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/58/104.htm
+    - date: '2004-02-19'
+      subject: IETF 59 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/59/104.htm
+    - date: '2007-03-29'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/crisp.html
   - kind: session requests
     meetings:
     - '65'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 110721
+  name: Ted Hardie
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2002-07-29'
+    end:
+      certainty: between
+      not_before: '2003-05-12'
+      not_after: '2003-10-02'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 3
+    first: '2002-07-29'
+    last: '2003-05-12'
+    examples:
+    - date: '2002-07-29'
+      subject: IETF 55 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/55/106.htm
+    - date: '2003-02-10'
+      subject: IETF 56 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/56/106.htm
+    - date: '2003-05-12'
+      subject: IETF 57 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/57/104.htm
+  - kind: minutes without them
+    date: '2004-11-24'
+    subject: '[Crisp] Minutes of CRISP mtg in Washingon'
+    url: https://mailarchive.ietf.org/arch/msg/crisp/oWzmsU_qpVjCCT2N29tJEcMXD1I/

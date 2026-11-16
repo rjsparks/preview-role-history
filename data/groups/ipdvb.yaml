@@ -13,13 +13,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-07-09'
+      date: '2004-01-28'
       not_before: '2003-10-13'
     end:
       certainty: group-closed
       date: '2011-08-02'
     notes:
     - start moved earlier by session request for IETF 66
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2008-07-10'
@@ -32,6 +33,20 @@ chairs:
     - date: '2009-05-23'
       subject: Call for Agenda Items for IPDVB WG meeting in week July 26-31, 2009
       url: https://mailarchive.ietf.org/arch/msg/ipdvb/EkzDmVshV66OidgMQdu_KLKcazc/
+  - kind: proceedings
+    listed_in: 14
+    first: '2004-01-28'
+    last: '2011-03-27'
+    examples:
+    - date: '2004-01-28'
+      subject: IETF 59 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/59/139.htm
+    - date: '2004-07-23'
+      subject: IETF 60 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/60/140.htm
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/ipdvb.html
   - kind: session requests
     meetings:
     - '66'

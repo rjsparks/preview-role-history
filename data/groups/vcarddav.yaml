@@ -39,6 +39,20 @@ chairs:
     - date: '2010-12-10'
       subject: '[VCARDDAV] wglc on vcardrev and vcardxml: deadline: Dec 31st 2010'
       url: https://mailarchive.ietf.org/arch/msg/vcarddav/i7URsSECisCjbWi8ZO_-dFDWbaM/
+  - kind: proceedings
+    listed_in: 5
+    first: '2008-01-31'
+    last: '2011-03-27'
+    examples:
+    - date: '2008-01-31'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/vcarddav.html
+    - date: '2009-04-03'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/vcarddav.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/vcarddav.html
   - kind: session requests
     meetings:
     - '73'
@@ -57,15 +71,29 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2008-01-31'
+      not_after: '2007-06-28'
     end:
       certainty: evidence-only
-      not_before: '2008-07-27'
+      not_before: '2010-03-25'
   evidence:
   - kind: WG Action
     date: '2008-01-31'
     subject: 'WG Action: vCard and vCardDAV (vcarddav)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/6CxQHJtUXWWREfBxOWCXFZ7VFiw/
+  - kind: proceedings
+    listed_in: 4
+    first: '2007-06-28'
+    last: '2010-03-25'
+    examples:
+    - date: '2007-06-28'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/vcarddav.html
+    - date: '2008-01-31'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/vcarddav.html
+    - date: '2010-03-25'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/vcarddav.html
   - kind: session requests
     meetings:
     - '72'
@@ -76,13 +104,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-08-16'
+      date: '2011-07-24'
       not_before: '2007-12-26'
     end:
       certainty: group-closed
       date: '2012-11-13'
     notes:
     - start moved earlier by WG Action announcement of 2011-08-16
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2011-08-16'
@@ -102,6 +131,20 @@ chairs:
     - date: '2011-08-16'
       subject: '[VCARDDAV] WGLC on two drafts'
       url: https://mailarchive.ietf.org/arch/msg/vcarddav/HvZakw2ZYDLJtJVeWd6funcy4yE/
+  - kind: proceedings
+    listed_in: 4
+    first: '2011-07-24'
+    last: '2012-07-29'
+    examples:
+    - date: '2011-07-24'
+      subject: IETF 81 proceedings charter
+      url: https://www.ietf.org/proceedings/81/vcarddav.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/vcarddav.html
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/vcarddav.html
   - kind: shepherded
     documents:
     - draft-ietf-vcarddav-birth-death-extensions

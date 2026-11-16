@@ -17,7 +17,14 @@ chairs:
     end:
       certainty: between
       not_before: '2012-02-23'
-      not_after: '2014-03-05'
+      not_after: '2012-03-25'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: minutes without them
+    date: '2012-03-25'
+    subject: IETF 83 proceedings charter
+    url: https://www.ietf.org/proceedings/83/nvo3.html
 - person: 105786
   name: Matthew Bocci
   status: confirmed
@@ -25,9 +32,11 @@ chairs:
   - start:
       certainty: between
       not_before: '2012-02-23'
-      not_after: '2014-03-05'
+      not_after: '2012-03-25'
     end:
       certainty: ongoing
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2012-05-01'
@@ -49,6 +58,20 @@ chairs:
     - date: '2025-06-06'
       subject: '[nvo3] WG Last Call for draft-ietf-nvo3-rfc7348bis-00'
       url: https://mailarchive.ietf.org/arch/msg/nvo3/zN6sCaCV5D4LUngq7YSky6puBGI/
+  - kind: proceedings
+    listed_in: 7
+    first: '2012-03-25'
+    last: '2014-03-02'
+    examples:
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/nvo3.html
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/nvo3.html
+    - date: '2014-03-02'
+      subject: IETF 89 proceedings charter
+      url: https://www.ietf.org/proceedings/89/nvo3.html
   - kind: shepherded
     documents:
     - draft-ietf-nvo3-arch
@@ -93,12 +116,13 @@ chairs:
   - start:
       certainty: between
       not_before: '2012-02-23'
-      not_after: '2012-06-17'
+      not_after: '2012-03-25'
     end:
       certainty: exact
       date: '2016-07-07'
     notes:
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2012-05-01'
@@ -132,3 +156,17 @@ chairs:
     - date: '2013-02-23'
       subject: '[nvo3] WG Last Call for draft-ietf-nvo3-framework-02'
       url: https://mailarchive.ietf.org/arch/msg/nvo3/fFTXPaNkius59RmFWGPWvGGKMvM/
+  - kind: proceedings
+    listed_in: 7
+    first: '2012-03-25'
+    last: '2014-03-02'
+    examples:
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/nvo3.html
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/nvo3.html
+    - date: '2014-03-02'
+      subject: IETF 89 proceedings charter
+      url: https://www.ietf.org/proceedings/89/nvo3.html

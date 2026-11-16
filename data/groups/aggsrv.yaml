@@ -14,10 +14,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2013-01-31'
-      not_after: '2013-06-20'
+      not_after: '2013-03-10'
     end:
       certainty: group-closed
       date: '2013-06-20'
+    notes:
+    - widened to cover chair lists in meeting minutes
   evidence:
   - kind: chair activity
     first: '2013-04-01'
@@ -27,3 +29,22 @@ chairs:
     - date: '2013-04-01'
       subject: '[Aggsrv] BoF minutes'
       url: https://mailarchive.ietf.org/arch/msg/aggsrv/d_cFqk7H1y9XszUknyEf_lQSd_8/
+  - kind: minutes
+    listed_in: 1
+    first: '2013-03-10'
+    last: '2013-03-10'
+    examples:
+    - date: '2013-03-10'
+      subject: '[Aggsrv] BoF minutes'
+      url: https://mailarchive.ietf.org/arch/msg/aggsrv/d_cFqk7H1y9XszUknyEf_lQSd_8/
+  - kind: proceedings
+    listed_in: 2
+    first: '2012-11-04'
+    last: '2013-03-10'
+    examples:
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/aggsrv.html
+    - date: '2013-03-10'
+      subject: IETF 86 proceedings charter
+      url: https://www.ietf.org/proceedings/86/aggsrv.html

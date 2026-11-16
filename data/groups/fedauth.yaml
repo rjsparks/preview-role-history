@@ -13,27 +13,69 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2010-03-21'
     end:
       certainty: group-closed
       date: '2011-12-09'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2010-03-21'
+    last: '2010-06-10'
+    examples:
+    - date: '2010-03-21'
+      subject: IETF 77 proceedings charter
+      url: https://www.ietf.org/proceedings/77/fedauth.html
+    - date: '2010-06-10'
+      subject: IETF 78 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/78/fedauth.html
 - person: 110406
   name: Leif Johansson
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2010-03-21'
     end:
       certainty: group-closed
       date: '2011-12-09'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2010-03-21'
+    last: '2010-06-10'
+    examples:
+    - date: '2010-03-21'
+      subject: IETF 77 proceedings charter
+      url: https://www.ietf.org/proceedings/77/fedauth.html
+    - date: '2010-06-10'
+      subject: IETF 78 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/78/fedauth.html
 - person: 111163
   name: Josh Howlett
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2010-03-21'
     end:
       certainty: group-closed
       date: '2011-12-09'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2010-03-21'
+    last: '2010-06-10'
+    examples:
+    - date: '2010-03-21'
+      subject: IETF 77 proceedings charter
+      url: https://www.ietf.org/proceedings/77/fedauth.html
+    - date: '2010-06-10'
+      subject: IETF 78 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/78/fedauth.html

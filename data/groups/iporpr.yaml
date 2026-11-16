@@ -13,15 +13,95 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-05-03'
+      date: '2004-01-29'
       not_before: '2000-11-10'
     end:
       certainty: group-closed
       date: '2008-09-29'
     notes:
     - start moved earlier by WG Action announcement of 2005-05-03
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2005-05-03'
     subject: 'WG Action: RECHARTER: IP Over Resilient Packet Rings (iporpr)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/P646YmKJ4qmz-0MBHXYHr_ehuVg/
+  - kind: proceedings
+    listed_in: 4
+    first: '2004-01-29'
+    last: '2005-05-03'
+    examples:
+    - date: '2004-01-29'
+      subject: IETF 59 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/59/141.htm
+    - date: '2004-06-07'
+      subject: IETF 60 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/60/142.htm
+    - date: '2005-05-03'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/iporpr.html
+- person: 104577
+  name: Albert Herrera
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2001-03-14'
+    end:
+      certainty: between
+      not_before: '2002-12-09'
+      not_after: '2004-01-29'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 6
+    first: '2001-03-14'
+    last: '2002-12-09'
+    examples:
+    - date: '2001-03-14'
+      subject: IETF 50 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/50/ietf50-130.htm
+    - date: '2001-07-31'
+      subject: IETF 51 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/51/51-126.htm
+    - date: '2002-12-09'
+      subject: IETF 56 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/56/144.htm
+  - kind: minutes without them
+    date: '2004-01-29'
+    subject: IETF 59 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/59/141.htm
+- person: 123360
+  name: Frank Kastenholz
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2001-03-14'
+    end:
+      certainty: evidence-only
+      not_before: '2004-06-07'
+  evidence:
+  - kind: chair activity
+    first: '2002-12-09'
+    last: '2002-12-09'
+    messages: 1
+    examples:
+    - date: '2002-12-09'
+      subject: '[IPORPR] milestone accomplished'
+      url: https://mailarchive.ietf.org/arch/msg/iporpr/6wxP36bgSKHvqpi1vonwM7FKuOc/
+  - kind: proceedings
+    listed_in: 9
+    first: '2001-03-14'
+    last: '2004-06-07'
+    examples:
+    - date: '2001-03-14'
+      subject: IETF 50 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/50/ietf50-130.htm
+    - date: '2001-07-31'
+      subject: IETF 51 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/51/51-126.htm
+    - date: '2004-06-07'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/iporpr.html

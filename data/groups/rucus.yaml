@@ -13,20 +13,33 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2008-04-23'
+      date: '2008-02-22'
     end:
       certainty: group-closed
       date: '2008-04-23'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2008-02-22'
+    last: '2008-02-22'
+    examples:
+    - date: '2008-02-22'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/rucus.html
 - person: 105857
   name: Hannes Tschofenig
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2008-04-23'
+      date: '2008-02-22'
     end:
       certainty: group-closed
       date: '2008-04-23'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2008-03-26'
@@ -36,3 +49,11 @@ chairs:
     - date: '2008-03-26'
       subject: '[Rucus] Meeting Minutes'
       url: https://mailarchive.ietf.org/arch/msg/rucus/1Mqw1bSno6oe2JHrBIL37NHWXjQ/
+  - kind: proceedings
+    listed_in: 1
+    first: '2008-02-22'
+    last: '2008-02-22'
+    examples:
+    - date: '2008-02-22'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/rucus.html

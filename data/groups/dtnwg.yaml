@@ -18,6 +18,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2014-09-11'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2014-07-20'
+    last: '2014-07-20'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/dtnwg.html
 - person: 102675
   name: Fred Templin
   status: confirmed
@@ -37,7 +46,18 @@ chairs:
   - start:
       certainty: between
       not_before: '2014-06-11'
-      not_after: '2014-09-11'
+      not_after: '2014-07-20'
     end:
       certainty: group-closed
       date: '2014-09-11'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2014-07-20'
+    last: '2014-07-20'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/dtnwg.html

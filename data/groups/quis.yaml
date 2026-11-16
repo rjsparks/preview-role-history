@@ -13,11 +13,25 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1995-05-05'
+      date: '1994-12-05'
       not_before: '1994-10-24'
     end:
       certainty: group-closed
       date: '1995-05-05'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '1994-12-05'
+    last: '1995-04-03'
+    examples:
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/app/quis/quis-charter.txt
+    - date: '1995-04-03'
+      subject: IETF 32 proceedings charter
+      url: https://www.ietf.org/proceedings/32/area.and.wg.reports/app/quis/quis-charter.txt
 - person: 9840
   name: Mitra Ardron
   status: confirmed

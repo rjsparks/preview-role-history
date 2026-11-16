@@ -15,38 +15,77 @@ chairs:
       certainty: evidence-only
       not_after: '2004-01-30'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2004-01-30'
+      not_after: '2004-02-12'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2004-01-30'
     subject: 'WG Action: Profiling Use of PKI in IPSEC (pki4ipsec)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/eTfFYFzHQjxuiWOSdXSca8PY9t4/
+  - kind: minutes without them
+    date: '2004-02-12'
+    subject: IETF 59 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/59/210.htm
 - person: 105598
   name: Paul Knight
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2007-03-29'
+      date: '2004-02-12'
       not_before: '2004-01-02'
     end:
       certainty: group-closed
       date: '2007-03-29'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 7
+    first: '2004-02-12'
+    last: '2006-02-23'
+    examples:
+    - date: '2004-02-12'
+      subject: IETF 59 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/59/210.htm
+    - date: '2004-05-26'
+      subject: IETF 60 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/60/218.htm
+    - date: '2006-02-23'
+      subject: IETF 66 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/66/pki4ipsec.html
 - person: 106484
   name: Gregory Lebovitz
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2004-02-12'
       not_before: '2004-01-02'
     end:
       certainty: group-closed
       date: '2007-03-29'
     notes:
     - start moved earlier by session request for IETF 65
+    - widened to cover charter snapshots in proceedings
   evidence:
+  - kind: proceedings
+    listed_in: 7
+    first: '2004-02-12'
+    last: '2006-02-23'
+    examples:
+    - date: '2004-02-12'
+      subject: IETF 59 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/59/210.htm
+    - date: '2004-05-26'
+      subject: IETF 60 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/60/218.htm
+    - date: '2006-02-23'
+      subject: IETF 66 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/66/pki4ipsec.html
   - kind: session requests
     meetings:
     - '65'

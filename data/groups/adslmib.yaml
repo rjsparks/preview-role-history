@@ -13,10 +13,10 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2002-05-30'
+      not_after: '1998-07-23'
     end:
       certainty: evidence-only
-      not_before: '2006-10-05'
+      not_before: '2009-08-24'
   evidence:
   - kind: WG Action
     date: '2003-09-03'
@@ -50,16 +50,65 @@ chairs:
     - date: '2002-05-30'
       subject: '[Adslmib] Call for agenda items'
       url: https://mailarchive.ietf.org/arch/msg/adslmib/Lr-fk5fIm08EFXnu0Y1dMMHltfQ/
+  - kind: proceedings
+    listed_in: 28
+    first: '1998-07-23'
+    last: '2009-08-24'
+    examples:
+    - date: '1998-07-23'
+      subject: IETF 42 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/42/98aug-73.htm
+    - date: '1998-11-25'
+      subject: IETF 43 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-65.html
+    - date: '2009-08-24'
+      subject: IETF 75 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/75/adslmib.html
+- person: 20363
+  name: David Allan
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1998-07-23'
+    end:
+      certainty: between
+      not_before: '2001-03-14'
+      not_after: '2005-02-01'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 9
+    first: '1998-07-23'
+    last: '2001-03-14'
+    examples:
+    - date: '1998-07-23'
+      subject: IETF 42 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/42/98aug-73.htm
+    - date: '1998-11-25'
+      subject: IETF 43 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-65.html
+    - date: '2001-03-14'
+      subject: IETF 50 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/50/ietf50-66.htm
+  - kind: minutes without them
+    date: '2005-02-01'
+    subject: IETF 62 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/62/adslmib.html
 - person: 104395
   name: Bob Ray
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2005-05-18'
+      not_after: '2005-02-01'
     end:
-      certainty: evidence-only
-      not_before: '2005-06-01'
+      certainty: between
+      not_before: '2005-11-02'
+      not_after: '2006-03-13'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Review
     date: '2005-05-18'
@@ -69,6 +118,24 @@ chairs:
     date: '2005-06-01'
     subject: 'WG Action: RECHARTER: ADSL MIB (adslmib)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/0_uMqiIZhh-hQwMS_eJaXqsnyAE/
+  - kind: proceedings
+    listed_in: 3
+    first: '2005-02-01'
+    last: '2005-11-02'
+    examples:
+    - date: '2005-02-01'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/adslmib.html
+    - date: '2005-06-01'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/adslmib.html
+    - date: '2005-11-02'
+      subject: IETF 64 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/64/adslmib.html
+  - kind: minutes without them
+    date: '2006-03-13'
+    subject: IETF 65 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/65/adslmib.html
 - person: 106345
   name: Menachem Dodge
   status: confirmed
@@ -122,6 +189,20 @@ chairs:
     - date: '2007-08-17'
       subject: '[Adslmib] Milestone Update for the Working Group Documents'
       url: https://mailarchive.ietf.org/arch/msg/adslmib/_3SRzI0qc-n5PSAGfkOSmeEhqGA/
+  - kind: proceedings
+    listed_in: 18
+    first: '2006-03-13'
+    last: '2013-11-03'
+    examples:
+    - date: '2006-03-13'
+      subject: IETF 65 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/65/adslmib.html
+    - date: '2006-07-09'
+      subject: IETF 66 proceedings charter
+      url: https://www.ietf.org/proceedings/66/adslmib.html
+    - date: '2013-11-03'
+      subject: IETF 88 proceedings charter
+      url: https://www.ietf.org/proceedings/88/adslmib.html
   - kind: session requests
     meetings:
     - '68'

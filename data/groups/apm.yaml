@@ -13,17 +13,39 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2007-07-30'
+      date: '2007-06-01'
     end:
       certainty: group-closed
       date: '2007-07-30'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2007-06-01'
+    last: '2007-06-01'
+    examples:
+    - date: '2007-06-01'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/apm.html
 - person: 102900
   name: Al Morton
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2007-07-30'
+      date: '2007-06-01'
     end:
       certainty: group-closed
       date: '2007-07-30'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2007-06-01'
+    last: '2007-06-01'
+    examples:
+    - date: '2007-06-01'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/apm.html

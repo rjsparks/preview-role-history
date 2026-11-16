@@ -17,6 +17,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2014-09-11'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2014-07-20'
+    last: '2014-07-20'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/vnfpool.html
 - person: 110002
   name: Ning Zong
   status: confirmed
@@ -39,3 +48,14 @@ chairs:
     - date: '2014-08-14'
       subject: '[vnfpool] BoF minutes'
       url: https://mailarchive.ietf.org/arch/msg/vnfpool/j_IBeSUIMU7HBlCtnJM6Wl8a2Gk/
+  - kind: proceedings
+    listed_in: 2
+    first: '2014-03-02'
+    last: '2014-07-20'
+    examples:
+    - date: '2014-03-02'
+      subject: IETF 89 proceedings charter
+      url: https://www.ietf.org/proceedings/89/vnfpool.html
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/vnfpool.html

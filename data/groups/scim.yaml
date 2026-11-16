@@ -17,7 +17,9 @@ chairs:
     end:
       certainty: between
       not_before: '2012-02-23'
-      not_after: '2015-05-29'
+      not_after: '2012-07-29'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: chair activity
     first: '2012-03-13'
@@ -30,6 +32,18 @@ chairs:
     - date: '2012-03-16'
       subject: '[scim] Agenda for the SCIM BoF'
       url: https://mailarchive.ietf.org/arch/msg/scim/kPXdDzEL340vv9cnomfcUjmNzKc/
+  - kind: proceedings
+    listed_in: 1
+    first: '2012-03-25'
+    last: '2012-03-25'
+    examples:
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/scim.html
+  - kind: minutes without them
+    date: '2012-07-29'
+    subject: IETF 84 proceedings charter
+    url: https://www.ietf.org/proceedings/84/scim.html
   - kind: shepherded
     documents:
     - draft-ietf-scim-events
@@ -43,7 +57,22 @@ chairs:
     end:
       certainty: between
       not_before: '2012-02-23'
-      not_after: '2015-05-29'
+      not_after: '2012-07-29'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2012-03-25'
+    last: '2012-03-25'
+    examples:
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/scim.html
+  - kind: minutes without them
+    date: '2012-07-29'
+    subject: IETF 84 proceedings charter
+    url: https://www.ietf.org/proceedings/84/scim.html
 - person: 21684
   name: Barry Leiba
   status: confirmed
@@ -103,12 +132,13 @@ chairs:
   - start:
       certainty: between
       not_before: '2012-02-23'
-      not_after: '2012-08-17'
+      not_after: '2012-07-29'
     end:
       certainty: exact
       date: '2021-09-30'
     notes:
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2012-06-21'
@@ -131,6 +161,20 @@ chairs:
     - date: '2014-02-16'
       subject: '[scim] WGLC of draft-ietf-scim-use-cases-00.txt'
       url: https://mailarchive.ietf.org/arch/msg/scim/_rfOBQ8hkTcELb-egXUGSIP9H2k/
+  - kind: proceedings
+    listed_in: 12
+    first: '2012-07-29'
+    last: '2016-04-03'
+    examples:
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/scim.html
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/scim.html
+    - date: '2016-04-03'
+      subject: IETF 95 proceedings charter
+      url: https://www.ietf.org/proceedings/95/scim.html
   - kind: shepherded
     documents:
     - draft-ietf-scim-api
@@ -142,12 +186,13 @@ chairs:
   - start:
       certainty: between
       not_before: '2012-02-23'
-      not_after: '2015-02-10'
+      not_after: '2012-07-29'
     end:
       certainty: exact
       date: '2021-09-30'
     notes:
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2012-06-21'
@@ -164,6 +209,20 @@ chairs:
     - date: '2015-02-10'
       subject: '[scim] WGLC on core-schema-16 and API-15 drafts'
       url: https://mailarchive.ietf.org/arch/msg/scim/5gSjErNg2MTta3m33rkMIODRNgE/
+  - kind: proceedings
+    listed_in: 12
+    first: '2012-07-29'
+    last: '2016-04-03'
+    examples:
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/scim.html
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/scim.html
+    - date: '2016-04-03'
+      subject: IETF 95 proceedings charter
+      url: https://www.ietf.org/proceedings/95/scim.html
   - kind: shepherded
     documents:
     - draft-ietf-scim-use-cases

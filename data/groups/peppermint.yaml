@@ -13,10 +13,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2008-04-23'
+      date: '2007-05-31'
     end:
       certainty: group-closed
       date: '2008-04-23'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2007-12-11'
@@ -26,13 +28,38 @@ chairs:
     - date: '2007-12-11'
       subject: '[PEPPERMINT] PRELIMINARY meeting minutes from PEPPERMINT BOF'
       url: https://mailarchive.ietf.org/arch/msg/peppermint/nFMZsorwq2STePNrqD9pdKz4ZNA/
+  - kind: proceedings
+    listed_in: 2
+    first: '2007-05-31'
+    last: '2008-02-07'
+    examples:
+    - date: '2007-05-31'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/peppermint.html
+    - date: '2008-02-07'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/peppermint.html
 - person: 106296
   name: Andy Newton
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2008-04-23'
+      date: '2007-05-31'
     end:
       certainty: group-closed
       date: '2008-04-23'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2007-05-31'
+    last: '2008-02-07'
+    examples:
+    - date: '2007-05-31'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/peppermint.html
+    - date: '2008-02-07'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/peppermint.html

@@ -13,8 +13,47 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2000-04-17'
+      date: '1997-04-07'
       not_before: '1994-01-19'
     end:
       certainty: group-closed
       date: '2000-04-17'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 5
+    first: '1997-04-07'
+    last: '1999-08-18'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr25.htm
+    - date: '1997-07-21'
+      subject: IETF 40 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-20.htm
+    - date: '1999-08-18'
+      subject: IETF 46 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-28.html
+- person: 13242
+  name: Joel Gyllenskog
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1994-03-28'
+    end:
+      certainty: evidence-only
+      not_before: '1994-12-05'
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '1994-03-28'
+    last: '1994-12-05'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/mgt/printmib/printmib-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/mgt/printmib/printmib-charter.txt

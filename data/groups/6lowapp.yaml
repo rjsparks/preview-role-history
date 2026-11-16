@@ -13,20 +13,36 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2009-10-12'
     end:
       certainty: group-closed
       date: '2011-12-09'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2009-10-12'
+    last: '2010-03-09'
+    examples:
+    - date: '2009-10-12'
+      subject: IETF 76 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/76/6lowapp.html
+    - date: '2010-03-09'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/6lowapp.html
 - person: 105791
   name: Cullen Jennings
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2010-03-09'
     end:
       certainty: group-closed
       date: '2011-12-09'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2009-11-04'
@@ -36,3 +52,11 @@ chairs:
     - date: '2009-11-04'
       subject: '[6lowapp] Updated Draft Agenda'
       url: https://mailarchive.ietf.org/arch/msg/6lowapp/l0sbOBfeFL_jcb5csbPPrhAtGDo/
+  - kind: proceedings
+    listed_in: 1
+    first: '2010-03-09'
+    last: '2010-03-09'
+    examples:
+    - date: '2010-03-09'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/6lowapp.html

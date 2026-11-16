@@ -13,19 +13,53 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1995-04-10'
+      date: '1994-03-28'
       not_before: '1992-08-05'
     end:
       certainty: group-closed
       date: '1995-04-10'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 3
+    first: '1994-03-28'
+    last: '1995-04-03'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/usv/iiir/iiir-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/usv/iiir/iiir-charter.txt
+    - date: '1995-04-03'
+      subject: IETF 32 proceedings charter
+      url: https://www.ietf.org/proceedings/32/area.and.wg.reports/usv/iiir/iiir-charter.txt
 - person: 10743
   name: Kevin Gamiel
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '1995-04-10'
+      date: '1994-03-28'
       not_before: '1992-08-05'
     end:
       certainty: group-closed
       date: '1995-04-10'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 3
+    first: '1994-03-28'
+    last: '1995-04-03'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/usv/iiir/iiir-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/usv/iiir/iiir-charter.txt
+    - date: '1995-04-03'
+      subject: IETF 32 proceedings charter
+      url: https://www.ietf.org/proceedings/32/area.and.wg.reports/usv/iiir/iiir-charter.txt

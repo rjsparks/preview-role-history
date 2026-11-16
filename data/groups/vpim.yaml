@@ -7,14 +7,56 @@ started: '1999-08-30'
 closed: '2005-04-12'
 history_url: https://datatracker.ietf.org/group/vpim/history/
 chairs:
+- person: 6770
+  name: John Noerenberg
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2000-07-17'
+    end:
+      certainty: evidence-only
+      not_before: '2003-03-25'
+  evidence:
+  - kind: proceedings
+    listed_in: 8
+    first: '2000-07-17'
+    last: '2003-03-25'
+    examples:
+    - date: '2000-07-17'
+      subject: IETF 48 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/48/00july-31.htm
+    - date: '2001-03-14'
+      subject: IETF 50 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/50/ietf50-33.htm
+    - date: '2003-03-25'
+      subject: IETF 57 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/57/124.htm
 - person: 19651
   name: Glenn Parsons
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-04-12'
+      date: '2000-07-17'
       not_before: '1999-08-30'
     end:
       certainty: group-closed
       date: '2005-04-12'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 10
+    first: '2000-07-17'
+    last: '2004-06-14'
+    examples:
+    - date: '2000-07-17'
+      subject: IETF 48 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/48/00july-31.htm
+    - date: '2001-03-14'
+      subject: IETF 50 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/50/ietf50-33.htm
+    - date: '2004-06-14'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/vpim.html

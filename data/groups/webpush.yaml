@@ -38,6 +38,20 @@ chairs:
     - date: '2016-06-23'
       subject: '[Webpush] WGLC for draft-ietf-webpush-protocol (again)'
       url: https://mailarchive.ietf.org/arch/msg/webpush/-0H0of_Us0KnP58Ffx1EI9cHVJM/
+  - kind: proceedings
+    listed_in: 7
+    first: '2014-07-20'
+    last: '2016-07-17'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/webpush.html
+    - date: '2014-11-09'
+      subject: IETF 91 proceedings charter
+      url: https://www.ietf.org/proceedings/91/webpush.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/webpush.html
   - kind: shepherded
     documents:
     - draft-ietf-webpush-protocol
@@ -51,6 +65,21 @@ chairs:
     end:
       certainty: group-closed
       date: '2017-12-07'
+  evidence:
+  - kind: proceedings
+    listed_in: 7
+    first: '2014-07-20'
+    last: '2016-07-17'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/webpush.html
+    - date: '2014-11-09'
+      subject: IETF 91 proceedings charter
+      url: https://www.ietf.org/proceedings/91/webpush.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/webpush.html
 - person: 120575
   name: Phil Sorber
   status: confirmed

@@ -13,7 +13,7 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-11-28'
+      date: '2005-02-24'
       not_before: '2002-11-25'
     end:
       certainty: group-closed
@@ -21,6 +21,7 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 67
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2005-03-26'
@@ -42,6 +43,20 @@ chairs:
     - date: '2007-12-06'
       subject: 'Working Group Last Call: draft-melnikov-digest-to-historic-00.txt'
       url: https://mailarchive.ietf.org/arch/msg/sasl/qxqTtuwb5euzSE4oWzZEyVcl-ko/
+  - kind: proceedings
+    listed_in: 10
+    first: '2005-02-24'
+    last: '2010-03-25'
+    examples:
+    - date: '2005-02-24'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/sasl.html
+    - date: '2005-06-27'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/sasl.html
+    - date: '2010-03-25'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/sasl.html
   - kind: session requests
     meetings:
     - '67'
@@ -97,6 +112,20 @@ chairs:
     - date: '2003-09-22'
       subject: 'WG Last Call: draft-ietf-sasl-saslprep-03'
       url: https://mailarchive.ietf.org/arch/msg/sasl/I_3mO_bGa_uFBa9dAbfLb8rym5w/
+  - kind: proceedings
+    listed_in: 6
+    first: '2003-03-07'
+    last: '2004-09-22'
+    examples:
+    - date: '2003-03-07'
+      subject: IETF 56 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/56/213.htm
+    - date: '2003-06-26'
+      subject: IETF 57 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/57/211.htm
+    - date: '2004-09-22'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/sasl.html
 - person: 103904
   name: Kurt Zeilenga
   status: confirmed
@@ -135,6 +164,20 @@ chairs:
     - date: '2004-07-21'
       subject: 'WG Last Call: draft-ietf-sasl-rfc2222bis-08.txt'
       url: https://mailarchive.ietf.org/arch/msg/sasl/dZ5vhi4yNaBuN-sZFODi5-1iirg/
+  - kind: proceedings
+    listed_in: 16
+    first: '2003-03-07'
+    last: '2010-03-25'
+    examples:
+    - date: '2003-03-07'
+      subject: IETF 56 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/56/213.htm
+    - date: '2003-06-26'
+      subject: IETF 57 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/57/211.htm
+    - date: '2010-03-25'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/sasl.html
   - kind: session requests
     meetings:
     - '65'

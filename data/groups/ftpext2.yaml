@@ -13,33 +13,92 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-11-23'
+      date: '2010-11-07'
       not_before: '2010-10-25'
     end:
       certainty: group-closed
       date: '2012-04-03'
     notes:
     - start moved earlier by WG Action announcement of 2010-11-23
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2010-11-23'
     subject: 'WG Action: FTP Extensions, 2nd edition (ftpext2)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/tqm73FPt0e1MAVzfX0_biziOfRo/
+  - kind: proceedings
+    listed_in: 4
+    first: '2010-11-07'
+    last: '2011-11-13'
+    examples:
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/ftpext2.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/ftpext2.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/ftpext2.html
+- person: 21684
+  name: Barry Leiba
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2010-03-21'
+    end:
+      certainty: between
+      not_before: '2010-06-15'
+      not_after: '2010-11-07'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2010-03-21'
+    last: '2010-06-15'
+    examples:
+    - date: '2010-03-21'
+      subject: IETF 77 proceedings charter
+      url: https://www.ietf.org/proceedings/77/ftpext2.html
+    - date: '2010-06-15'
+      subject: IETF 78 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/78/ftpext2.html
+  - kind: minutes without them
+    date: '2010-11-07'
+    subject: IETF 79 proceedings charter
+    url: https://www.ietf.org/proceedings/79/ftpext2.html
 - person: 109498
   name: Anthony Bryan
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-11-23'
+      date: '2010-11-07'
       not_before: '2010-10-25'
     end:
       certainty: group-closed
       date: '2012-04-03'
     notes:
     - start moved earlier by WG Action announcement of 2010-11-23
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2010-11-23'
     subject: 'WG Action: FTP Extensions, 2nd edition (ftpext2)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/tqm73FPt0e1MAVzfX0_biziOfRo/
+  - kind: proceedings
+    listed_in: 4
+    first: '2010-11-07'
+    last: '2011-11-13'
+    examples:
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/ftpext2.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/ftpext2.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/ftpext2.html

@@ -15,8 +15,11 @@ chairs:
       certainty: evidence-only
       not_after: '1999-12-01'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2010-08-20'
+      not_after: '2012-03-25'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: chair activity
     first: '1999-12-01'
@@ -29,6 +32,10 @@ chairs:
     - date: '2000-09-19'
       subject: '[nmrg] minutes from the 7th NMRG meeting'
       url: https://mailarchive.ietf.org/arch/msg/nmrg/LVEW19e_ZfqLahLJ99kOqCOvxSk/
+  - kind: minutes without them
+    date: '2012-03-25'
+    subject: IETF 83 proceedings charter
+    url: https://www.ietf.org/proceedings/83/nmrg.html
   - kind: session requests
     meetings:
     - '66'
@@ -54,6 +61,17 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/nmrg/fmJQYmA-myAvYgDM_ol-Rd48g8o/
     excerpt: I am happy to announce that Laurent Ciavaglia is taking over the responsibility of co-chairing
       with me the NMRG.
+  - kind: proceedings
+    listed_in: 2
+    first: '2015-11-01'
+    last: '2016-04-03'
+    examples:
+    - date: '2015-11-01'
+      subject: IETF 94 proceedings charter
+      url: https://www.ietf.org/proceedings/94/nmrg.html
+    - date: '2016-04-03'
+      subject: IETF 95 proceedings charter
+      url: https://www.ietf.org/proceedings/95/nmrg.html
   - kind: shepherded
     documents:
     - draft-irtf-nmrg-ibn-intent-classification
@@ -76,6 +94,20 @@ chairs:
     - date: '2013-11-30'
       subject: '[nmrg] Minutes of NMRG 32'
       url: https://mailarchive.ietf.org/arch/msg/nmrg/7KW3FJLe3fV2StssSNinIShGYR8/
+  - kind: proceedings
+    listed_in: 11
+    first: '2012-03-25'
+    last: '2015-07-19'
+    examples:
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/nmrg.html
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/nmrg.html
+    - date: '2015-07-19'
+      subject: IETF 93 proceedings charter
+      url: https://www.ietf.org/proceedings/93/nmrg.html
 - person: 112599
   name: Lisandro Granville
   status: confirmed
@@ -94,6 +126,20 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/nmrg/Z47_zDZurHS9Q-jH8kJVRfLH_rM/
     excerpt: Lisandro Zambenedetti Granville, who has been serving as co-chair since March 2011, needs
       to step down because of other professional commitments.
+  - kind: proceedings
+    listed_in: 13
+    first: '2012-03-25'
+    last: '2016-04-03'
+    examples:
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/nmrg.html
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/nmrg.html
+    - date: '2016-04-03'
+      subject: IETF 95 proceedings charter
+      url: https://www.ietf.org/proceedings/95/nmrg.html
   - kind: shepherded
     documents:
     - draft-irtf-nmrg-an-gap-analysis

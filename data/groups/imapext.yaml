@@ -13,7 +13,7 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-04-11'
+      date: '2000-07-17'
       not_before: '1999-10-22'
     end:
       certainty: group-closed
@@ -21,6 +21,7 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 65
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2000-07-24'
@@ -36,6 +37,34 @@ chairs:
     - date: '2003-04-11'
       subject: WG last call on draft-ietf-imapext-condstore-00.txt
       url: https://mailarchive.ietf.org/arch/msg/imapext/7CkYzifuFnM0TxBlDDrA5xOLBnk/
+  - kind: minutes
+    listed_in: 3
+    first: '2000-08-03'
+    last: '2006-11-05'
+    examples:
+    - date: '2000-08-03'
+      subject: Minutes from IMAPEXT WG
+      url: https://mailarchive.ietf.org/arch/msg/imapext/MU08FJmGj0EuA1dWN1dP2FSJ78k/
+    - date: '2001-08-30'
+      subject: Minutes of the IMAPEXT meeting at London
+      url: https://mailarchive.ietf.org/arch/msg/imapext/ckCdw9B33b9HBQCmAg99rb1IXZ8/
+    - date: '2006-11-05'
+      subject: Minutes - comments?
+      url: https://mailarchive.ietf.org/arch/msg/imapext/PFSW03GGk_L4B1NyFxrvNDCLmnw/
+  - kind: proceedings
+    listed_in: 14
+    first: '2000-07-17'
+    last: '2006-03-29'
+    examples:
+    - date: '2000-07-17'
+      subject: IETF 48 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/48/00july-20.htm
+    - date: '2000-11-01'
+      subject: IETF 49 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/49/00dec-18.htm
+    - date: '2006-03-29'
+      subject: IETF 66 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/66/imapext.html
   - kind: session requests
     meetings:
     - '65'
@@ -80,3 +109,17 @@ chairs:
     - date: '2005-05-16'
       subject: WG Last Call of LISTEXT draft 13
       url: https://mailarchive.ietf.org/arch/msg/imapext/TB6vxc77YLyUYunnz0VDts5rGqY/
+  - kind: proceedings
+    listed_in: 5
+    first: '2004-06-15'
+    last: '2005-10-24'
+    examples:
+    - date: '2004-06-15'
+      subject: IETF 60 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/60/110.htm
+    - date: '2004-10-05'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/imapext.html
+    - date: '2005-10-24'
+      subject: IETF 64 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/64/imapext.html

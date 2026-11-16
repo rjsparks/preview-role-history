@@ -13,19 +13,53 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-04-22'
+      date: '1997-04-07'
       not_before: '1996-10-24'
     end:
       certainty: group-closed
       date: '2004-04-22'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 11
+    first: '1997-04-07'
+    last: '2001-07-31'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr~9.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-10.htm
+    - date: '2001-07-31'
+      subject: IETF 54 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/54/101.htm
 - person: 19521
   name: Matt Wall
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-04-22'
+      date: '1997-08-11'
       not_before: '1996-10-24'
     end:
       certainty: group-closed
       date: '2004-04-22'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 10
+    first: '1997-08-11'
+    last: '2001-07-31'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-10.htm
+    - date: '1997-10-27'
+      subject: IETF 40 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-03.htm
+    - date: '2001-07-31'
+      subject: IETF 54 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/54/101.htm

@@ -13,10 +13,13 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2008-07-27'
+      not_after: '2005-05-11'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2010-11-07'
+      not_after: '2011-03-27'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Review
     date: '2010-10-14'
@@ -55,6 +58,24 @@ chairs:
     - date: '2009-12-03'
       subject: '[netmod] Working Group Last Call: YANG - A data modeling language for NETCONF'
       url: https://mailarchive.ietf.org/arch/msg/netmod/L1iX5fUlT2yUJBZia9HBrVbua48/
+  - kind: proceedings
+    listed_in: 4
+    first: '2005-05-11'
+    last: '2010-03-01'
+    examples:
+    - date: '2005-05-11'
+      subject: IETF 73 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/73/netmod.html
+    - date: '2009-03-22'
+      subject: IETF 74 proceedings charter
+      url: https://www.ietf.org/proceedings/74/netmod.html
+    - date: '2010-03-01'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/netmod.html
+  - kind: minutes without them
+    date: '2011-03-27'
+    subject: IETF 80 proceedings charter
+    url: https://www.ietf.org/proceedings/80/netmod.html
   - kind: session requests
     meetings:
     - '72'
@@ -99,6 +120,14 @@ chairs:
     - date: '2016-12-09'
       subject: '[netmod] IETF97 minutes posted'
       url: https://mailarchive.ietf.org/arch/msg/netmod/RutnDmS5K-TwUizdOX7TOCJSci0/
+  - kind: proceedings
+    listed_in: 1
+    first: '2016-11-13'
+    last: '2016-11-13'
+    examples:
+    - date: '2016-11-13'
+      subject: IETF 97 proceedings charter
+      url: https://www.ietf.org/proceedings/97/netmod.html
   - kind: shepherded
     documents:
     - draft-ietf-netmod-acl-extensions
@@ -118,7 +147,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2008-08-14'
+      not_after: '2005-05-11'
     end:
       certainty: approximate
       date: '2008-12-19'
@@ -142,6 +171,14 @@ chairs:
     - date: '2008-12-18'
       subject: '[netmod] ietf73 netmod minutes'
       url: https://mailarchive.ietf.org/arch/msg/netmod/8dGYVjG9Onsor7r5srjISclB8l0/
+  - kind: proceedings
+    listed_in: 1
+    first: '2005-05-11'
+    last: '2005-05-11'
+    examples:
+    - date: '2005-05-11'
+      subject: IETF 73 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/73/netmod.html
   - kind: session requests
     meetings:
     - '73'
@@ -204,6 +241,20 @@ chairs:
     - date: '2009-11-04'
       subject: '[netmod] Draft agenda for netmod session in Hiroshima (v1)'
       url: https://mailarchive.ietf.org/arch/msg/netmod/liGfQGJxbXhraEWxlkmCD3jxTj0/
+  - kind: proceedings
+    listed_in: 13
+    first: '2009-03-22'
+    last: '2013-11-03'
+    examples:
+    - date: '2009-03-22'
+      subject: IETF 74 proceedings charter
+      url: https://www.ietf.org/proceedings/74/netmod.html
+    - date: '2009-05-06'
+      subject: IETF 75 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/75/netmod.html
+    - date: '2013-11-03'
+      subject: IETF 88 proceedings charter
+      url: https://www.ietf.org/proceedings/88/netmod.html
   - kind: session requests
     meetings:
     - '80'
@@ -302,6 +353,20 @@ chairs:
     - date: '2013-07-05'
       subject: '[netmod] WG Last Call draft-ietf-netmod-iana-timezones-00 (until 2013-07-22)'
       url: https://mailarchive.ietf.org/arch/msg/netmod/4NQwDmk2Tq1v5tF2D3r63r4mwxo/
+  - kind: proceedings
+    listed_in: 14
+    first: '2010-11-07'
+    last: '2015-03-22'
+    examples:
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/netmod.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/netmod.html
+    - date: '2015-03-22'
+      subject: IETF 92 proceedings charter
+      url: https://www.ietf.org/proceedings/92/netmod.html
   - kind: session requests
     meetings:
     - '81'
@@ -357,11 +422,54 @@ chairs:
     - date: '2015-12-09'
       subject: '[netmod] Working group Last Call: draft-ietf-netmod-acl-model-06'
       url: https://mailarchive.ietf.org/arch/msg/netmod/bqV1N02ude7KXCLQ7wlW3gonyGE/
+  - kind: proceedings
+    listed_in: 4
+    first: '2014-03-02'
+    last: '2015-03-22'
+    examples:
+    - date: '2014-03-02'
+      subject: IETF 89 proceedings charter
+      url: https://www.ietf.org/proceedings/89/netmod.html
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/netmod.html
+    - date: '2015-03-22'
+      subject: IETF 92 proceedings charter
+      url: https://www.ietf.org/proceedings/92/netmod.html
   - kind: shepherded
     documents:
     - draft-ietf-netmod-interfaces-cfg
     - draft-ietf-netmod-ip-cfg
     - draft-ietf-netmod-snmp-cfg
+- person: 104659
+  name: Sharon Chisholm
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2004-07-27'
+    end:
+      certainty: between
+      not_before: '2005-05-11'
+      not_after: '2009-03-22'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2004-07-27'
+    last: '2005-05-11'
+    examples:
+    - date: '2004-07-27'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/netmod.html
+    - date: '2005-05-11'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/netmod.html
+  - kind: minutes without them
+    date: '2009-03-22'
+    subject: IETF 74 proceedings charter
+    url: https://www.ietf.org/proceedings/74/netmod.html
 - person: 112548
   name: Kent Watsen
   status: confirmed
@@ -406,6 +514,17 @@ chairs:
     - date: '2015-09-21'
       subject: '[netmod] WG Last Call for draft-ietf-netmod-yang-json-05 (until 2015-10-05)'
       url: https://mailarchive.ietf.org/arch/msg/netmod/jCfddDA9iHbTpkTMMjDm04YgO6g/
+  - kind: proceedings
+    listed_in: 2
+    first: '2014-07-20'
+    last: '2016-11-13'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/netmod.html
+    - date: '2016-11-13'
+      subject: IETF 97 proceedings charter
+      url: https://www.ietf.org/proceedings/97/netmod.html
   - kind: shepherded
     documents:
     - draft-ietf-netmod-acl-model

@@ -7,17 +7,94 @@ started: '1994-11-28'
 closed: '2003-02-04'
 history_url: https://datatracker.ietf.org/group/ngtrans/history/
 chairs:
+- person: 833
+  name: Robert Fink
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1997-08-11'
+    end:
+      certainty: between
+      not_before: '2002-02-27'
+      not_after: '2002-06-05'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: chair activity
+    first: '1998-09-21'
+    last: '1999-01-11'
+    messages: 7
+    examples:
+    - date: '1998-09-21'
+      subject: (ngtrans) Minutes of NGTRANS WG Meeting - 25 August 1998 - Chicago IETF
+      url: https://mailarchive.ietf.org/arch/msg/ngtrans/qUz31s6Nqfo7r4wXAid4_onDZIk/
+    - date: '1998-10-30'
+      subject: (ngtrans) call for Orlando IETF agenda items
+      url: https://mailarchive.ietf.org/arch/msg/ngtrans/x6RBzu-_j06he5HgXWY5CCnnBz8/
+  - kind: proceedings
+    listed_in: 15
+    first: '1997-08-11'
+    last: '2002-02-27'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-67.htm
+    - date: '1997-10-27'
+      subject: IETF 40 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-68.htm
+    - date: '2002-02-27'
+      subject: IETF 53 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/53/166.htm
+  - kind: minutes without them
+    date: '2002-06-05'
+    subject: IETF 54 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/54/169.htm
+- person: 2972
+  name: Robert Gilligan
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1994-12-05'
+    end:
+      certainty: between
+      not_before: '1998-11-25'
+      not_after: '1999-01-25'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 9
+    first: '1994-12-05'
+    last: '1998-11-25'
+    examples:
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/ipng/ngtrans/ngtrans-charter.txt
+    - date: '1995-04-03'
+      subject: IETF 32 proceedings charter
+      url: https://www.ietf.org/proceedings/32/area.and.wg.reports/ipng/ngtrans/ngtrans-charter.txt
+    - date: '1998-11-25'
+      subject: IETF 43 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-73.html
+  - kind: minutes without them
+    date: '1999-01-25'
+    subject: IETF 44 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-74.html
 - person: 9051
   name: Tony Hain
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-02-04'
+      date: '1994-12-05'
       not_before: '1994-11-28'
     end:
       certainty: group-closed
       date: '2003-02-04'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2001-06-05'
@@ -27,6 +104,20 @@ chairs:
     - date: '2001-06-05'
       subject: (ngtrans) Interim Meeting Logisics
       url: https://mailarchive.ietf.org/arch/msg/ngtrans/XldbBF3ZcF3ZDBTYgT__0czVsiI/
+  - kind: proceedings
+    listed_in: 20
+    first: '1994-12-05'
+    last: '2002-06-05'
+    examples:
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/ipng/ngtrans/ngtrans-charter.txt
+    - date: '1995-04-03'
+      subject: IETF 32 proceedings charter
+      url: https://www.ietf.org/proceedings/32/area.and.wg.reports/ipng/ngtrans/ngtrans-charter.txt
+    - date: '2002-06-05'
+      subject: IETF 54 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/54/169.htm
 - person: 105328
   name: Alain Durand
   status: confirmed
@@ -58,17 +149,33 @@ chairs:
     - date: '1998-12-23'
       subject: (ngtrans) Interim meeting Web server
       url: https://mailarchive.ietf.org/arch/msg/ngtrans/LPRN5_4-SOm4UrUNEpax5OmwfJg/
+  - kind: proceedings
+    listed_in: 8
+    first: '1999-05-27'
+    last: '2002-06-05'
+    examples:
+    - date: '1999-05-27'
+      subject: IETF 45 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-72.html
+    - date: '1999-09-29'
+      subject: IETF 46 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-80.html
+    - date: '2002-06-05'
+      subject: IETF 54 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/54/169.htm
 - person: 119947
   name: Margaret Cullen
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-02-04'
+      date: '2002-06-05'
       not_before: '1994-11-28'
     end:
       certainty: group-closed
       date: '2003-02-04'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2002-07-03'
@@ -81,3 +188,11 @@ chairs:
     - date: '2002-07-20'
       subject: (ngtrans) Interim Meeting Proposal
       url: https://mailarchive.ietf.org/arch/msg/ngtrans/O8UO1RQsxApBq2v3VWZFrHfrbbo/
+  - kind: proceedings
+    listed_in: 1
+    first: '2002-06-05'
+    last: '2002-06-05'
+    examples:
+    - date: '2002-06-05'
+      subject: IETF 54 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/54/169.htm

@@ -39,6 +39,20 @@ chairs:
     - date: '2010-06-11'
       subject: '[yam] WG Last Call for draft-ietf-yam-rfc5322bis-msgfmt-pre-evaluation'
       url: https://mailarchive.ietf.org/arch/msg/yam/e-JffgtZiG2YK6PmuQY3yWiGHns/
+  - kind: proceedings
+    listed_in: 3
+    first: '2009-03-22'
+    last: '2009-08-04'
+    examples:
+    - date: '2009-03-22'
+      subject: IETF 74 proceedings charter
+      url: https://www.ietf.org/proceedings/74/yam.html
+    - date: '2009-08-04'
+      subject: IETF 75 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/75/yam.html
+    - date: '2009-08-04'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/yam.html
   - kind: session requests
     meetings:
     - '76'
@@ -46,6 +60,31 @@ chairs:
     - '78'
     - '81'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 9909
+  name: Chris Newman
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2009-03-22'
+    end:
+      certainty: evidence-only
+      not_before: '2009-08-04'
+  evidence:
+  - kind: proceedings
+    listed_in: 3
+    first: '2009-03-22'
+    last: '2009-08-04'
+    examples:
+    - date: '2009-03-22'
+      subject: IETF 74 proceedings charter
+      url: https://www.ietf.org/proceedings/74/yam.html
+    - date: '2009-08-04'
+      subject: IETF 75 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/75/yam.html
+    - date: '2009-08-04'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/yam.html
 - person: 109918
   name: S Moonesamy
   status: confirmed

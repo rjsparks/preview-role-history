@@ -25,6 +25,17 @@ chairs:
     date: '2011-06-14'
     subject: 'WG Action: IPv6 Site Renumbering (6renum)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/mwZxxPSJP5wN1dcssz7I30E9qss/
+  - kind: proceedings
+    listed_in: 2
+    first: '2011-07-24'
+    last: '2011-11-13'
+    examples:
+    - date: '2011-07-24'
+      subject: IETF 81 proceedings charter
+      url: https://www.ietf.org/proceedings/81/6renum.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/6renum.html
   - kind: shepherded
     documents:
     - draft-ietf-6renum-gap-analysis
@@ -54,7 +65,7 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-11-13'
+      date: '2011-07-24'
       not_before: '2011-05-17'
     end:
       certainty: approximate
@@ -62,6 +73,7 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 82
     - end dated by list message of 2012-05-02
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: list message
     date: '2012-05-02'
@@ -69,6 +81,17 @@ chairs:
     subject: '[renum] WG Chairs'
     url: https://mailarchive.ietf.org/arch/msg/renum/fviUpApIKUquz8cQiFUmv_M3DQI/
     excerpt: Wes George has asked to step down as 6renum chair.
+  - kind: proceedings
+    listed_in: 2
+    first: '2011-07-24'
+    last: '2011-11-13'
+    examples:
+    - date: '2011-07-24'
+      subject: IETF 81 proceedings charter
+      url: https://www.ietf.org/proceedings/81/6renum.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/6renum.html
   - kind: session requests
     meetings:
     - '82'

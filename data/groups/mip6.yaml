@@ -13,7 +13,7 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-04-27'
+      date: '2003-10-20'
       not_before: '2003-08-04'
     end:
       certainty: group-closed
@@ -21,6 +21,7 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 65
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Review
     date: '2006-09-19'
@@ -50,6 +51,20 @@ chairs:
     - date: '2004-10-13'
       subject: '[Mip6] WGLC: draft-ietf-mip6-firewalls-00.txt'
       url: https://mailarchive.ietf.org/arch/msg/mip6/4oStKLfoBqfTO3pZ8rM74itYE_Q/
+  - kind: proceedings
+    listed_in: 11
+    first: '2003-10-20'
+    last: '2007-06-15'
+    examples:
+    - date: '2003-10-20'
+      subject: IETF 58 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/58/143.htm
+    - date: '2004-02-02'
+      subject: IETF 59 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/59/148.htm
+    - date: '2007-06-15'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/mip6.html
   - kind: session requests
     meetings:
     - '65'
@@ -64,13 +79,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-10-05'
+      date: '2003-10-20'
       not_before: '2003-08-04'
     end:
       certainty: group-closed
       date: '2007-11-20'
     notes:
     - start moved earlier by WG Action announcement of 2006-10-05
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Review
     date: '2006-09-19'
@@ -91,3 +107,17 @@ chairs:
     - date: '2004-05-17'
       subject: '[Mip6] Agenda for 60th IETF San Diego - MIP6 WG'
       url: https://mailarchive.ietf.org/arch/msg/mip6/YBmAZut3aC0WxkuTPVIYi2q95Rg/
+  - kind: proceedings
+    listed_in: 11
+    first: '2003-10-20'
+    last: '2007-06-15'
+    examples:
+    - date: '2003-10-20'
+      subject: IETF 58 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/58/143.htm
+    - date: '2004-02-02'
+      subject: IETF 59 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/59/148.htm
+    - date: '2007-06-15'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/mip6.html

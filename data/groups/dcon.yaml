@@ -13,20 +13,39 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2011-11-13'
     end:
       certainty: group-closed
       date: '2013-01-31'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 4
+    first: '2011-11-13'
+    last: '2012-11-04'
+    examples:
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/dcon.html
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/dcon.html
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/dcon.html
 - person: 108722
   name: Simon Romano
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2011-11-13'
     end:
       certainty: group-closed
       date: '2013-01-31'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2011-12-13'
@@ -36,3 +55,17 @@ chairs:
     - date: '2011-12-13'
       subject: '[dcon] DCON BOF meeting minutes'
       url: https://mailarchive.ietf.org/arch/msg/dcon/bZKZ8ZYftcGN6DzT1Lsdacoe2rE/
+  - kind: proceedings
+    listed_in: 4
+    first: '2011-11-13'
+    last: '2012-11-04'
+    examples:
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/dcon.html
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/dcon.html
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/dcon.html

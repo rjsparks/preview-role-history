@@ -13,8 +13,50 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1998-03-23'
+      date: '1994-03-28'
       not_before: '1993-03-03'
     end:
       certainty: group-closed
       date: '1998-03-23'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 8
+    first: '1994-03-28'
+    last: '1997-08-11'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/rtg/sdr/sdr-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/rtg/sdr/sdr-charter.txt
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-95.htm
+- person: 4475
+  name: Tony Li
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1994-03-28'
+    end:
+      certainty: evidence-only
+      not_before: '1995-12-04'
+  evidence:
+  - kind: proceedings
+    listed_in: 5
+    first: '1994-03-28'
+    last: '1995-12-04'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/rtg/sdr/sdr-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/rtg/sdr/sdr-charter.txt
+    - date: '1995-12-04'
+      subject: IETF 34 proceedings charter
+      url: https://www.ietf.org/proceedings/34/area.and.wg.reports/rtg/sdr/sdr-charter.txt

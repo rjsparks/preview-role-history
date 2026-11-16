@@ -13,13 +13,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-06-29'
+      date: '2005-01-17'
       not_before: '2004-10-30'
     end:
       certainty: group-closed
       date: '2011-08-02'
     notes:
     - start moved earlier by WG Action announcement of 2005-06-29
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2005-06-29'
@@ -41,6 +42,20 @@ chairs:
     - date: '2006-06-12'
       subject: Agenda items for Montreal
       url: https://mailarchive.ietf.org/arch/msg/shim6/WtjvNVldjGXl0y5szB-hHbQE1RI/
+  - kind: proceedings
+    listed_in: 11
+    first: '2005-01-17'
+    last: '2011-03-27'
+    examples:
+    - date: '2005-01-17'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/shim6.html
+    - date: '2005-06-30'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/shim6.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/shim6.html
 - person: 106925
   name: Geoff Huston
   status: confirmed
@@ -87,6 +102,20 @@ chairs:
     - date: '2010-10-01'
       subject: '[shim6] Working Group Last Call draft-ietf-shim6-applicability'
       url: https://mailarchive.ietf.org/arch/msg/shim6/bwbB6ZkofHsanPNdBsYmKfgHXzA/
+  - kind: proceedings
+    listed_in: 10
+    first: '2005-06-30'
+    last: '2011-03-27'
+    examples:
+    - date: '2005-06-30'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/shim6.html
+    - date: '2005-10-03'
+      subject: IETF 64 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/64/ishim6.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/shim6.html
   - kind: session requests
     meetings:
     - '65'

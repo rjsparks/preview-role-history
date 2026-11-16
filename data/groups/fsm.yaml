@@ -13,10 +13,21 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2007-05-31'
+      date: '2007-02-06'
     end:
       certainty: group-closed
       date: '2007-05-31'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2007-02-06'
+    last: '2007-02-06'
+    examples:
+    - date: '2007-02-06'
+      subject: IETF 68 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/68/fsm.html
 - person: 107725
   name: Stéphane Bortzmeyer
   status: confirmed

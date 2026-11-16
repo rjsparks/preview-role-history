@@ -13,8 +13,25 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-10-25'
+      date: '1994-12-05'
       not_before: '1993-09-12'
     end:
       certainty: group-closed
       date: '2006-10-25'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 29
+    first: '1994-12-05'
+    last: '2006-03-24'
+    examples:
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/mgt/rmonmib/rmonmib-charter.txt
+    - date: '1995-04-03'
+      subject: IETF 32 proceedings charter
+      url: https://www.ietf.org/proceedings/32/area.and.wg.reports/mgt/rmonmib/rmonmib-charter.txt
+    - date: '2006-03-24'
+      subject: IETF 66 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/66/rmonmib.html

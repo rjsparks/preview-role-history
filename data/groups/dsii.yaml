@@ -17,6 +17,18 @@ chairs:
     end:
       certainty: group-closed
       date: '2013-01-31'
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2012-07-29'
+    last: '2012-11-04'
+    examples:
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/dsii.html
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/dsii.html
 - person: 113697
   name: Beth Plale
   status: confirmed
@@ -27,3 +39,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2013-01-31'
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2012-07-29'
+    last: '2012-11-04'
+    examples:
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/dsii.html
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/dsii.html

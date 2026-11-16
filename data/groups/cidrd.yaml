@@ -13,11 +13,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1996-12-19'
+      date: '1994-03-28'
       not_before: '1994-03-08'
     end:
       certainty: group-closed
       date: '1996-12-19'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '1996-03-12'
@@ -27,19 +29,85 @@ chairs:
     - date: '1996-03-12'
       subject: Notes/minutes of March 6th CIDRD meeting
       url: https://mailarchive.ietf.org/arch/msg/cidrd/GqYZWC1iz4Iw_vD0K2iUSFmEzAo/
+  - kind: proceedings
+    listed_in: 5
+    first: '1994-03-28'
+    last: '1995-12-04'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/ops/cidrd/cidrd-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/ops/cidrd/cidrd-charter.txt
+    - date: '1995-12-04'
+      subject: IETF 34 proceedings charter
+      url: https://www.ietf.org/proceedings/34/area.and.wg.reports/ops/cidrd/cidrd-charter.txt
+- person: 3438
+  name: Jessica Yu
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1993-07-27'
+    end:
+      certainty: between
+      not_before: '1995-01-02'
+      not_after: '1995-04-03'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: chair activity
+    first: '1993-07-27'
+    last: '1995-01-02'
+    messages: 4
+    examples:
+    - date: '1993-07-27'
+      subject: draft minutes
+      url: https://mailarchive.ietf.org/arch/msg/cidrd/gcCHxqgd2rq8ByzpZbQlY_GJt7Y/
+    - date: '1993-07-30'
+      subject: Minutes
+      url: https://mailarchive.ietf.org/arch/msg/cidrd/P9Cr5nfKTteBLrliCKNsMrUWp0A/
+  - kind: minutes
+    listed_in: 2
+    first: '1993-07-27'
+    last: '1993-07-30'
+    examples:
+    - date: '1993-07-27'
+      subject: draft minutes
+      url: https://mailarchive.ietf.org/arch/msg/cidrd/gcCHxqgd2rq8ByzpZbQlY_GJt7Y/
+    - date: '1993-07-30'
+      subject: Minutes
+      url: https://mailarchive.ietf.org/arch/msg/cidrd/P9Cr5nfKTteBLrliCKNsMrUWp0A/
+  - kind: proceedings
+    listed_in: 2
+    first: '1994-03-28'
+    last: '1994-12-05'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/ops/cidrd/cidrd-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/ops/cidrd/cidrd-charter.txt
+  - kind: minutes without them
+    date: '1995-04-03'
+    subject: IETF 32 proceedings charter
+    url: https://www.ietf.org/proceedings/32/area.and.wg.reports/ops/cidrd/cidrd-charter.txt
 - person: 4475
   name: Tony Li
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '1995-07-18'
+      date: '1994-12-05'
       not_before: '1994-03-08'
     end:
       certainty: group-closed
       date: '1996-12-19'
     notes:
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '1995-05-02'
@@ -61,3 +129,17 @@ chairs:
     - date: '1995-09-15'
       subject: WG last call complete
       url: https://mailarchive.ietf.org/arch/msg/cidrd/TLH9ud1LgzJnFSOgijQdqjfsH84/
+  - kind: proceedings
+    listed_in: 4
+    first: '1994-12-05'
+    last: '1995-12-04'
+    examples:
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/ops/cidrd/cidrd-charter.txt
+    - date: '1995-04-03'
+      subject: IETF 32 proceedings charter
+      url: https://www.ietf.org/proceedings/32/area.and.wg.reports/ops/cidrd/cidrd-charter.txt
+    - date: '1995-12-04'
+      subject: IETF 34 proceedings charter
+      url: https://www.ietf.org/proceedings/34/area.and.wg.reports/ops/cidrd/cidrd-charter.txt

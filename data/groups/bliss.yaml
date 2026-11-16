@@ -47,6 +47,20 @@ chairs:
     - date: '2009-10-27'
       subject: '[BLISS] WGLC for draft-ietf-bliss-shared-appearances'
       url: https://mailarchive.ietf.org/arch/msg/bliss/Ca7_Cp-p3Q86W_YF9NaVYI1M-cY/
+  - kind: proceedings
+    listed_in: 13
+    first: '2007-06-26'
+    last: '2012-11-04'
+    examples:
+    - date: '2007-06-26'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/bliss.html
+    - date: '2007-11-26'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/bliss.html
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/bliss.html
   - kind: session requests
     meetings:
     - '70'
@@ -88,18 +102,30 @@ chairs:
     - date: '2008-02-04'
       subject: '[BLISS] Minutes from MLA meeting of 1/29/08'
       url: https://mailarchive.ietf.org/arch/msg/bliss/EVT14Jm4d8jomNYe-aM8sASUxHs/
+  - kind: proceedings
+    listed_in: 3
+    first: '2007-06-26'
+    last: '2009-03-30'
+    examples:
+    - date: '2007-06-26'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/bliss.html
+    - date: '2007-11-26'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/bliss.html
+    - date: '2009-03-30'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/bliss.html
 - person: 109569
   name: Scott Lawrence
   status: unconfirmed
   periods:
   - start:
-      certainty: approximate
-      date: '2009-10-14'
+      certainty: evidence-only
+      not_after: '2009-07-26'
     end:
       certainty: evidence-only
-      not_before: '2009-10-14'
-    notes:
-    - start dated by list message of 2009-10-14
+      not_before: '2011-03-27'
   evidence:
   - kind: list message
     date: '2009-10-14'
@@ -107,3 +133,17 @@ chairs:
     subject: '[BLISS] BLISS co-chair changes'
     url: https://mailarchive.ietf.org/arch/msg/bliss/CMNLitP7GOFBreoWfeKorFyobQY/
     excerpt: Scott Lawrence has joined Shida as co-chair.
+  - kind: proceedings
+    listed_in: 5
+    first: '2009-07-26'
+    last: '2011-03-27'
+    examples:
+    - date: '2009-07-26'
+      subject: IETF 75 proceedings charter
+      url: https://www.ietf.org/proceedings/75/bliss.html
+    - date: '2009-09-25'
+      subject: IETF 76 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/76/bliss.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/bliss.html

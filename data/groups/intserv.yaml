@@ -7,6 +7,95 @@ started: '1994-05-12'
 closed: '2000-12-20'
 history_url: https://datatracker.ietf.org/group/intserv/history/
 chairs:
+- person: 182
+  name: David Clark
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1994-12-05'
+    end:
+      certainty: between
+      not_before: '1997-04-07'
+      not_after: '1997-08-11'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 5
+    first: '1994-12-05'
+    last: '1997-04-07'
+    examples:
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/tsv/intserv/intserv-charter.txt
+    - date: '1995-04-03'
+      subject: IETF 32 proceedings charter
+      url: https://www.ietf.org/proceedings/32/area.and.wg.reports/tsv/intserv/intserv-charter.txt
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtft114.htm
+  - kind: minutes without them
+    date: '1997-08-11'
+    subject: IETF 39 proceedings charter
+    url: https://www.ietf.org/proceedings/39/transit97aug-112.htm
+- person: 1307
+  name: Craig Partridge
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1994-03-28'
+    end:
+      certainty: evidence-only
+      not_before: '1997-08-11'
+  evidence:
+  - kind: proceedings
+    listed_in: 7
+    first: '1994-03-28'
+    last: '1997-08-11'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/tsv/intserv/intserv-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/tsv/intserv/intserv-charter.txt
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-112.htm
+- person: 3021
+  name: Scott Shenker
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1994-03-28'
+    end:
+      certainty: between
+      not_before: '1995-07-17'
+      not_after: '1995-12-04'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 4
+    first: '1994-03-28'
+    last: '1995-07-17'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/tsv/intserv/intserv-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/tsv/intserv/intserv-charter.txt
+    - date: '1995-07-17'
+      subject: IETF 33 proceedings charter
+      url: https://www.ietf.org/proceedings/33/area.and.wg.reports/tsv/intserv/intserv-charter.txt
+  - kind: minutes without them
+    date: '1995-12-04'
+    subject: IETF 34 proceedings charter
+    url: https://www.ietf.org/proceedings/34/area.and.wg.reports/tsv/intserv/intserv-charter.txt
 - person: 8715
   name: John Wroclawski
   status: confirmed
@@ -18,3 +107,18 @@ chairs:
     end:
       certainty: group-closed
       date: '2000-12-20'
+  evidence:
+  - kind: proceedings
+    listed_in: 13
+    first: '1994-03-28'
+    last: '2000-09-05'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/tsv/intserv/intserv-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/tsv/intserv/intserv-charter.txt
+    - date: '2000-09-05'
+      subject: IETF 49 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/49/00dec-137.htm

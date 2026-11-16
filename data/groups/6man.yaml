@@ -52,6 +52,20 @@ chairs:
     - date: '2020-05-15'
       subject: Adoption Call for "IPv6 Application of the Alternate Marking Method"
       url: https://mailarchive.ietf.org/arch/msg/ipv6/B6-wkK7Rid3W3GSokWfDFz_NMZY/
+  - kind: proceedings
+    listed_in: 22
+    first: '2007-12-18'
+    last: '2017-03-26'
+    examples:
+    - date: '2007-12-18'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/6man.html
+    - date: '2008-12-16'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/6man.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/6man.html
   - kind: session requests
     meetings:
     - '78'
@@ -90,9 +104,10 @@ chairs:
     end:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2015-06-15'
+      not_after: '2012-03-25'
     notes:
     - start moved earlier by WG Action announcement of 2007-09-25
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2007-09-25'
@@ -115,6 +130,24 @@ chairs:
     - date: '2010-12-08'
       subject: Call for adoption:draft-gont-6man-flowlabel-security-01.txt
       url: https://mailarchive.ietf.org/arch/msg/ipv6/rzxJRecmEvLxK9QHT-HLlMuEu3o/
+  - kind: proceedings
+    listed_in: 6
+    first: '2007-12-18'
+    last: '2011-11-13'
+    examples:
+    - date: '2007-12-18'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/6man.html
+    - date: '2008-12-16'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/6man.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/6man.html
+  - kind: minutes without them
+    date: '2012-03-25'
+    subject: IETF 83 proceedings charter
+    url: https://www.ietf.org/proceedings/83/6man.html
   - kind: session requests
     meetings:
     - '70'
@@ -170,6 +203,20 @@ chairs:
     - date: '2014-10-03'
       subject: Adoption call of draft-boucadair-6man-prefix-routing-reco for 6MAN
       url: https://mailarchive.ietf.org/arch/msg/ipv6/GUflSFClQaF9pnyC_QT1JB9yFnw/
+  - kind: proceedings
+    listed_in: 16
+    first: '2012-03-25'
+    last: '2017-03-26'
+    examples:
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/6man.html
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/6man.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/6man.html
   - kind: shepherded
     documents:
     - draft-ietf-6man-addr-select-opt

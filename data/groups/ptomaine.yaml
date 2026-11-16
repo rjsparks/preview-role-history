@@ -13,19 +13,53 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-07-23'
+      date: '2002-02-11'
       not_before: '2001-08-13'
     end:
       certainty: group-closed
       date: '2004-07-23'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 4
+    first: '2002-02-11'
+    last: '2003-12-03'
+    examples:
+    - date: '2002-02-11'
+      subject: IETF 53 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/53/168.htm
+    - date: '2002-05-07'
+      subject: IETF 54 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/54/172.htm
+    - date: '2003-12-03'
+      subject: IETF 59 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/59/177.htm
 - person: 130194
   name: Mark Knopper
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-07-23'
+      date: '2002-02-11'
       not_before: '2001-08-13'
     end:
       certainty: group-closed
       date: '2004-07-23'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 4
+    first: '2002-02-11'
+    last: '2003-12-03'
+    examples:
+    - date: '2002-02-11'
+      subject: IETF 53 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/53/168.htm
+    - date: '2002-05-07'
+      subject: IETF 54 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/54/172.htm
+    - date: '2003-12-03'
+      subject: IETF 59 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/59/177.htm

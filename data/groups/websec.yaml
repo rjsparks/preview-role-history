@@ -38,6 +38,20 @@ chairs:
     - date: '2012-07-18'
       subject: '[websec] Draft WebSec agenda for Vancouver'
       url: https://mailarchive.ietf.org/arch/msg/websec/BbR4GoaxwaEQC56kUvgfwwZMs8I/
+  - kind: proceedings
+    listed_in: 5
+    first: '2010-11-07'
+    last: '2012-07-29'
+    examples:
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/websec.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/websec.html
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/websec.html
   - kind: shepherded
     documents:
     - draft-gondrom-frame-options
@@ -80,6 +94,20 @@ chairs:
     - date: '2012-03-18'
       subject: '[websec] WG Last Call on draft-ietf-websec-strict-transport-sec-06 until April-9'
       url: https://mailarchive.ietf.org/arch/msg/websec/pAx2Nc4wdq-wTCYxHUrZf8zWzYU/
+  - kind: proceedings
+    listed_in: 13
+    first: '2010-07-25'
+    last: '2014-11-09'
+    examples:
+    - date: '2010-07-25'
+      subject: IETF 78 proceedings charter
+      url: https://www.ietf.org/proceedings/78/websec.html
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/websec.html
+    - date: '2014-11-09'
+      subject: IETF 91 proceedings charter
+      url: https://www.ietf.org/proceedings/91/websec.html
   - kind: session requests
     meetings:
     - '80'
@@ -96,6 +124,20 @@ chairs:
       certainty: group-closed
       date: '2015-04-21'
   evidence:
+  - kind: proceedings
+    listed_in: 8
+    first: '2012-07-29'
+    last: '2014-11-09'
+    examples:
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/websec.html
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/websec.html
+    - date: '2014-11-09'
+      subject: IETF 91 proceedings charter
+      url: https://www.ietf.org/proceedings/91/websec.html
   - kind: shepherded
     documents:
     - draft-ietf-websec-key-pinning

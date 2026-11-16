@@ -14,10 +14,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2012-06-28'
-      not_after: '2014-11-11'
+      not_after: '2012-11-04'
     end:
       certainty: exact
       date: '2015-09-16'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: list message
     date: '2015-09-16'
@@ -25,6 +27,20 @@ chairs:
     subject: '[Sdn] Looking for a new co-chair'
     url: https://mailarchive.ietf.org/arch/msg/sdn/4cdRpgGeOmypPqqWYx6dVxSzHfs/
     excerpt: David Meyer has decided to step down as a co-chair of this group.
+  - kind: proceedings
+    listed_in: 8
+    first: '2012-11-04'
+    last: '2015-03-22'
+    examples:
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/sdnrg.html
+    - date: '2013-03-10'
+      subject: IETF 86 proceedings charter
+      url: https://www.ietf.org/proceedings/86/sdnrg.html
+    - date: '2015-03-22'
+      subject: IETF 92 proceedings charter
+      url: https://www.ietf.org/proceedings/92/sdnrg.html
   - kind: shepherded
     documents:
     - draft-irtf-sdnrg-layer-terminology
@@ -38,6 +54,21 @@ chairs:
     end:
       certainty: group-closed
       date: '2017-01-09'
+  evidence:
+  - kind: proceedings
+    listed_in: 3
+    first: '2015-11-01'
+    last: '2016-07-17'
+    examples:
+    - date: '2015-11-01'
+      subject: IETF 94 proceedings charter
+      url: https://www.ietf.org/proceedings/94/sdnrg.html
+    - date: '2016-04-03'
+      subject: IETF 95 proceedings charter
+      url: https://www.ietf.org/proceedings/95/sdnrg.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/sdnrg.html
 - person: 109558
   name: Daniel King
   status: confirmed
@@ -55,6 +86,20 @@ chairs:
     subject: '[Sdn] Please welcome Daniel King as new co-chair of the SDNRG'
     url: https://mailarchive.ietf.org/arch/msg/sdn/UUYKXFN3ZG0HeG2GVdSmKEIAPWY/
     excerpt: I'm pleased to announce that Daniel King will be joining me as co-chair of the SDNRG.
+  - kind: proceedings
+    listed_in: 8
+    first: '2013-03-10'
+    last: '2016-07-17'
+    examples:
+    - date: '2013-03-10'
+      subject: IETF 86 proceedings charter
+      url: https://www.ietf.org/proceedings/86/sdnrg.html
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/sdnrg.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/sdnrg.html
 - person: 114812
   name: Nick Feamster
   status: confirmed
@@ -62,7 +107,24 @@ chairs:
   - start:
       certainty: between
       not_before: '2012-06-28'
-      not_after: '2014-11-11'
+      not_after: '2012-11-04'
     end:
       certainty: exact
       date: '2014-11-11'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 4
+    first: '2012-11-04'
+    last: '2014-03-02'
+    examples:
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/sdnrg.html
+    - date: '2013-07-28'
+      subject: IETF 87 proceedings charter
+      url: https://www.ietf.org/proceedings/87/sdnrg.html
+    - date: '2014-03-02'
+      subject: IETF 89 proceedings charter
+      url: https://www.ietf.org/proceedings/89/sdnrg.html

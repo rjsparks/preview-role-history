@@ -18,6 +18,15 @@ chairs:
     end:
       certainty: exact
       date: '2015-10-01'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2014-07-20'
+    last: '2014-07-20'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/capport.html
 - person: 107131
   name: Martin Thomson
   status: confirmed
@@ -57,6 +66,20 @@ chairs:
     - date: '2020-03-05'
       subject: '[Captive-portals] WGLC on draft-ietf-capport-architecture and ...-api'
       url: https://mailarchive.ietf.org/arch/msg/captive-portals/KMFo4WlhZ3ejTGNW7CQSV5KmFqc/
+  - kind: proceedings
+    listed_in: 4
+    first: '2015-11-01'
+    last: '2017-03-26'
+    examples:
+    - date: '2015-11-01'
+      subject: IETF 94 proceedings charter
+      url: https://www.ietf.org/proceedings/94/capport.html
+    - date: '2016-04-03'
+      subject: IETF 95 proceedings charter
+      url: https://www.ietf.org/proceedings/95/capport.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/capport.html
   - kind: shepherded
     documents:
     - draft-ietf-capport-api
@@ -90,6 +113,14 @@ chairs:
     - date: '2018-10-22'
       subject: '[Captive-portals] IETF 103 call for agenda items'
       url: https://mailarchive.ietf.org/arch/msg/captive-portals/dTZ-3fSGk0D6PjsvQQtY_qXciMQ/
+  - kind: proceedings
+    listed_in: 1
+    first: '2017-03-26'
+    last: '2017-03-26'
+    examples:
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/capport.html
 - person: 111656
   name: Warren Kumari
   status: confirmed
@@ -121,3 +152,17 @@ chairs:
     - date: '2015-08-06'
       subject: '[Captive-portals] Draft minutes from IETF93 - Prague.'
       url: https://mailarchive.ietf.org/arch/msg/captive-portals/3mq86ZEjDulTN3kerThCyAfGV1s/
+  - kind: proceedings
+    listed_in: 5
+    first: '2014-07-20'
+    last: '2016-07-17'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/capport.html
+    - date: '2015-07-19'
+      subject: IETF 93 proceedings charter
+      url: https://www.ietf.org/proceedings/93/capport.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/capport.html

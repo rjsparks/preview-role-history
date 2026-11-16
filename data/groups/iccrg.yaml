@@ -29,6 +29,20 @@ chairs:
     - date: '2008-02-01'
       subject: '[Iccrg] Preliminary agenda for the next meeting'
       url: https://mailarchive.ietf.org/arch/msg/iccrg/uSe53N0NH_n2W21EuBXarBgf8ck/
+  - kind: proceedings
+    listed_in: 16
+    first: '2012-03-25'
+    last: '2017-03-26'
+    examples:
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/iccrg.html
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/iccrg.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/iccrg.html
 - person: 105721
   name: Jana Iyengar
   status: confirmed
@@ -64,6 +78,20 @@ chairs:
     - date: '2018-07-31'
       subject: '[iccrg] IETF 102 minutes posted'
       url: https://mailarchive.ietf.org/arch/msg/iccrg/mxxDYy6sDmSN651YTcEJ-e2im3M/
+  - kind: proceedings
+    listed_in: 5
+    first: '2015-11-01'
+    last: '2017-03-26'
+    examples:
+    - date: '2015-11-01'
+      subject: IETF 94 proceedings charter
+      url: https://www.ietf.org/proceedings/94/iccrg.html
+    - date: '2016-04-03'
+      subject: IETF 95 proceedings charter
+      url: https://www.ietf.org/proceedings/95/iccrg.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/iccrg.html
 - person: 109727
   name: Murari Sridharan
   status: confirmed
@@ -90,6 +118,17 @@ chairs:
     subject: '[Iccrg] New co-chair'
     url: https://mailarchive.ietf.org/arch/msg/iccrg/Pjy73O4kFtZszCugPerm8k5HzkU/
     excerpt: Murari Sridharan is stepping down as my ICCRG co-chair.
+  - kind: proceedings
+    listed_in: 2
+    first: '2012-03-25'
+    last: '2012-07-29'
+    examples:
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/iccrg.html
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/iccrg.html
 - person: 110856
   name: Wesley Eddy
   status: unconfirmed
@@ -98,8 +137,11 @@ chairs:
       certainty: evidence-only
       not_after: '2007-07-22'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2011-03-27'
+      not_after: '2012-03-25'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: list message
     date: '2011-02-28'
@@ -115,6 +157,10 @@ chairs:
     - date: '2008-03-26'
       subject: '[Iccrg] philadelphia meeting minutes'
       url: https://mailarchive.ietf.org/arch/msg/iccrg/BIr0kfDCHxo34flrovMFaz2KoqQ/
+  - kind: minutes without them
+    date: '2012-03-25'
+    subject: IETF 83 proceedings charter
+    url: https://www.ietf.org/proceedings/83/iccrg.html
   - kind: session requests
     meetings:
     - '69'
@@ -169,6 +215,20 @@ chairs:
     - date: '2013-08-03'
       subject: '[iccrg] meeting minutes'
       url: https://mailarchive.ietf.org/arch/msg/iccrg/jo7vsgVeklLeeMaGDUVDOb1hYQs/
+  - kind: proceedings
+    listed_in: 9
+    first: '2012-11-04'
+    last: '2015-07-19'
+    examples:
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/iccrg.html
+    - date: '2013-03-10'
+      subject: IETF 86 proceedings charter
+      url: https://www.ietf.org/proceedings/86/iccrg.html
+    - date: '2015-07-19'
+      subject: IETF 93 proceedings charter
+      url: https://www.ietf.org/proceedings/93/iccrg.html
 - person: 123344
   name: Reese Enghardt
   status: confirmed

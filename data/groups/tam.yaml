@@ -13,17 +13,39 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2007-06-15'
     end:
       certainty: group-closed
       date: '2013-04-23'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2007-06-15'
+    last: '2007-06-15'
+    examples:
+    - date: '2007-06-15'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/tam.html
 - person: 19483
   name: Sean Turner
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2007-06-15'
     end:
       certainty: group-closed
       date: '2013-04-23'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2007-06-15'
+    last: '2007-06-15'
+    examples:
+    - date: '2007-06-15'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/tam.html

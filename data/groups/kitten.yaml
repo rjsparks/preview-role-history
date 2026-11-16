@@ -15,8 +15,11 @@ chairs:
       certainty: evidence-only
       not_after: '2004-09-03'
     end:
-      certainty: evidence-only
-      not_before: '2006-11-05'
+      certainty: between
+      not_before: '2007-03-12'
+      not_after: '2007-06-14'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2004-11-03'
@@ -42,6 +45,24 @@ chairs:
     - date: '2005-05-05'
       subject: WGLC Cancelled - GSS PRF and GSS-KRB5 PRF
       url: https://mailarchive.ietf.org/arch/msg/kitten/d0Kjh8-E5QYgfXJRRF_t3o6oX_w/
+  - kind: proceedings
+    listed_in: 6
+    first: '2004-11-03'
+    last: '2007-03-12'
+    examples:
+    - date: '2004-11-03'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/kitten.html
+    - date: '2005-02-07'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/kitten.html
+    - date: '2007-03-12'
+      subject: IETF 68 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/68/kitten.html
+  - kind: minutes without them
+    date: '2007-06-14'
+    subject: IETF 69 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/69/kitten.html
   - kind: session requests
     meetings:
     - '66'
@@ -97,6 +118,20 @@ chairs:
     - date: '2025-02-06'
       subject: '[kitten] Call for adoption on draft-schmaus-kitten-sasl-ht-10 and draft-bucksch-sasl-rememberme-00'
       url: https://mailarchive.ietf.org/arch/msg/kitten/jgX4kwVhISMbNsDPLjUGuA9hK8g/
+  - kind: proceedings
+    listed_in: 7
+    first: '2007-06-14'
+    last: '2012-03-25'
+    examples:
+    - date: '2007-06-14'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/kitten.html
+    - date: '2008-03-13'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/kitten.html
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/kitten.html
   - kind: session requests
     meetings:
     - '69'
@@ -116,13 +151,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-07-23'
+      date: '2009-03-22'
       not_before: '2004-06-10'
     end:
       certainty: exact
       date: '2012-10-01'
     notes:
     - start moved earlier by WG Action announcement of 2010-07-23
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Review
     date: '2010-07-08'
@@ -144,6 +180,20 @@ chairs:
     - date: '2012-04-26'
       subject: '[kitten] draft Kitten WG IETF83 minutes'
       url: https://mailarchive.ietf.org/arch/msg/kitten/SdkRU_-9LuPUzqeBWe3q1QQHIr4/
+  - kind: proceedings
+    listed_in: 9
+    first: '2009-03-22'
+    last: '2012-03-25'
+    examples:
+    - date: '2009-03-22'
+      subject: IETF 74 proceedings charter
+      url: https://www.ietf.org/proceedings/74/kitten.html
+    - date: '2009-05-14'
+      subject: IETF 75 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/75/kitten.html
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/kitten.html
 - person: 103048
   name: Sam Hartman
   status: confirmed
@@ -174,6 +224,14 @@ chairs:
     - date: '2013-05-10'
       subject: '[kitten] Berlin Meeting: Agenda Items and Attendance'
       url: https://mailarchive.ietf.org/arch/msg/kitten/rBpFFSlt7nqOtuSrsLl-oAxqkes/
+  - kind: proceedings
+    listed_in: 1
+    first: '2012-07-29'
+    last: '2012-07-29'
+    examples:
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/kitten.html
 - person: 107956
   name: Shawn Emery
   status: confirmed
@@ -242,6 +300,20 @@ chairs:
     - date: '2011-03-09'
       subject: '[kitten] WGLC on draft-ietf-kitten-sasl-openid-01'
       url: https://mailarchive.ietf.org/arch/msg/kitten/JklkhLT9cf_uwc6m5aoJirrxEfw/
+  - kind: proceedings
+    listed_in: 12
+    first: '2007-06-14'
+    last: '2012-07-29'
+    examples:
+    - date: '2007-06-14'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/kitten.html
+    - date: '2008-03-13'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/kitten.html
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/kitten.html
   - kind: session requests
     meetings:
     - '73'
@@ -272,6 +344,14 @@ chairs:
     date: '2013-02-26'
     subject: 'WG Action: Rechartered Common Authentication Technology Next Generation (kitten)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/WPZydEpIbH295wvdxcw6t9Mof6U/
+  - kind: proceedings
+    listed_in: 1
+    first: '2012-07-29'
+    last: '2012-07-29'
+    examples:
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/kitten.html
 - person: 111178
   name: Matthew Miller
   status: confirmed

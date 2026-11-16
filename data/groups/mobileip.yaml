@@ -7,36 +7,209 @@ started: '1992-06-12'
 closed: '2003-11-11'
 history_url: https://datatracker.ietf.org/group/mobileip/history/
 chairs:
+- person: 4475
+  name: Tony Li
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1994-12-05'
+    end:
+      certainty: between
+      not_before: '1995-12-04'
+      not_after: '1997-04-07'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 4
+    first: '1994-12-05'
+    last: '1995-12-04'
+    examples:
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/rtg/mobileip/mobileip-charter.txt
+    - date: '1995-04-03'
+      subject: IETF 32 proceedings charter
+      url: https://www.ietf.org/proceedings/32/area.and.wg.reports/rtg/mobileip/mobileip-charter.txt
+    - date: '1995-12-04'
+      subject: IETF 34 proceedings charter
+      url: https://www.ietf.org/proceedings/34/area.and.wg.reports/rtg/mobileip/mobileip-charter.txt
+  - kind: minutes without them
+    date: '1997-04-07'
+    subject: IETF 38 proceedings charter
+    url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr85.htm
+- person: 5794
+  name: Kannan Alagappan
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1994-03-28'
+    end:
+      certainty: between
+      not_before: '1994-12-05'
+      not_after: '1995-04-03'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '1994-03-28'
+    last: '1994-12-05'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/rtg/mobileip/mobileip-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/rtg/mobileip/mobileip-charter.txt
+  - kind: minutes without them
+    date: '1995-04-03'
+    subject: IETF 32 proceedings charter
+    url: https://www.ietf.org/proceedings/32/area.and.wg.reports/rtg/mobileip/mobileip-charter.txt
+- person: 8243
+  name: Erik Nordmark
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1997-04-07'
+    end:
+      certainty: between
+      not_before: '1999-07-06'
+      not_after: '1999-09-29'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 8
+    first: '1997-04-07'
+    last: '1999-07-06'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr85.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-82.htm
+    - date: '1999-07-06'
+      subject: IETF 45 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-86.html
+  - kind: minutes without them
+    date: '1999-09-29'
+    subject: IETF 46 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-97.html
+- person: 8782
+  name: Jim Solomon
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1995-04-03'
+    end:
+      certainty: between
+      not_before: '1999-01-25'
+      not_after: '1999-07-06'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 10
+    first: '1995-04-03'
+    last: '1999-01-25'
+    examples:
+    - date: '1995-04-03'
+      subject: IETF 32 proceedings charter
+      url: https://www.ietf.org/proceedings/32/area.and.wg.reports/rtg/mobileip/mobileip-charter.txt
+    - date: '1995-07-17'
+      subject: IETF 33 proceedings charter
+      url: https://www.ietf.org/proceedings/33/area.and.wg.reports/rtg/mobileip/mobileip-charter.txt
+    - date: '1999-01-25'
+      subject: IETF 44 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-88.html
+  - kind: minutes without them
+    date: '1999-07-06'
+    subject: IETF 45 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-86.html
 - person: 101390
   name: Phil Roberts
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-11-11'
+      date: '1999-09-29'
       not_before: '1992-06-12'
     end:
       certainty: group-closed
       date: '2003-11-11'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 11
+    first: '1999-09-29'
+    last: '2003-02-19'
+    examples:
+    - date: '1999-09-29'
+      subject: IETF 46 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-97.html
+    - date: '2000-03-01'
+      subject: IETF 47 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-92.html
+    - date: '2003-02-19'
+      subject: IETF 56 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/56/145.htm
 - person: 103283
   name: Basavaraj Patil
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-11-11'
+      date: '1999-07-06'
       not_before: '1992-06-12'
     end:
       certainty: group-closed
       date: '2003-11-11'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 12
+    first: '1999-07-06'
+    last: '2003-02-19'
+    examples:
+    - date: '1999-07-06'
+      subject: IETF 45 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-86.html
+    - date: '1999-09-29'
+      subject: IETF 46 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-97.html
+    - date: '2003-02-19'
+      subject: IETF 56 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/56/145.htm
 - person: 108488
   name: Gabriel Montenegro
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-11-11'
+      date: '2002-08-08'
       not_before: '1992-06-12'
     end:
       certainty: group-closed
       date: '2003-11-11'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2002-08-08'
+    last: '2003-02-19'
+    examples:
+    - date: '2002-08-08'
+      subject: IETF 55 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/55/138.htm
+    - date: '2003-02-19'
+      subject: IETF 56 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/56/145.htm

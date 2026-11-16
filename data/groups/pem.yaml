@@ -13,11 +13,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1996-02-08'
+      date: '1994-03-28'
       not_before: '1991-07-15'
     end:
       certainty: group-closed
       date: '1996-02-08'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '1992-07-17'
@@ -30,3 +32,17 @@ chairs:
     - date: '1992-11-20'
       subject: PEM WG minutes
       url: https://mailarchive.ietf.org/arch/msg/pem/nOF5AIIX2QyP7gFR_L1BKcyvvaM/
+  - kind: proceedings
+    listed_in: 4
+    first: '1994-03-28'
+    last: '1995-07-17'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/sec/pem/pem-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/sec/pem/pem-charter.txt
+    - date: '1995-07-17'
+      subject: IETF 33 proceedings charter
+      url: https://www.ietf.org/proceedings/33/area.and.wg.reports/sec/pem/pem-charter.txt

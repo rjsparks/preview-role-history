@@ -13,8 +13,22 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1995-03-07'
+      date: '1994-03-28'
       not_before: '1991-03-12'
     end:
       certainty: group-closed
       date: '1995-03-07'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '1994-03-28'
+    last: '1994-12-05'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/sec/cipso/cipso-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/sec/cipso/cipso-charter.txt

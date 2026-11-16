@@ -36,11 +36,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2011-07-24'
       not_before: '2011-06-23'
     end:
       certainty: exact
       date: '2017-07-27'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2011-09-16'
@@ -56,6 +58,28 @@ chairs:
     - date: '2015-05-06'
       subject: '[homenet] WG Last Call for draft-ietf-homenet-dncp-03'
       url: https://mailarchive.ietf.org/arch/msg/homenet/UarnF35HLaOA4sNub8umibRIemQ/
+  - kind: minutes
+    listed_in: 1
+    first: '2011-10-18'
+    last: '2011-10-18'
+    examples:
+    - date: '2011-10-18'
+      subject: '[homenet] Interim meeting minutes'
+      url: https://mailarchive.ietf.org/arch/msg/homenet/hFvf6qcVs_-19tYm8S101PThtaE/
+  - kind: proceedings
+    listed_in: 18
+    first: '2011-07-24'
+    last: '2017-03-26'
+    examples:
+    - date: '2011-07-24'
+      subject: IETF 81 proceedings charter
+      url: https://www.ietf.org/proceedings/81/homenet.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/homenet.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/homenet.html
   - kind: shepherded
     documents:
     - draft-ietf-homenet-dncp
@@ -67,13 +91,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-11-13'
+      date: '2011-07-24'
       not_before: '2011-06-23'
     end:
       certainty: exact
       date: '2018-02-21'
     notes:
     - start moved earlier by session request for IETF 82
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2011-08-05'
@@ -95,6 +120,20 @@ chairs:
     - date: '2016-12-14'
       subject: '[homenet] WGLC on -redact and -homenet-dot'
       url: https://mailarchive.ietf.org/arch/msg/homenet/soqgTtpMN-UWty8WHlv3A___GVQ/
+  - kind: proceedings
+    listed_in: 18
+    first: '2011-07-24'
+    last: '2017-03-26'
+    examples:
+    - date: '2011-07-24'
+      subject: IETF 81 proceedings charter
+      url: https://www.ietf.org/proceedings/81/homenet.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/homenet.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/homenet.html
   - kind: session requests
     meetings:
     - '82'

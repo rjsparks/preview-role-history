@@ -7,25 +7,91 @@ started: '1995-02-04'
 closed: '2001-12-12'
 history_url: https://datatracker.ietf.org/group/grip/history/
 chairs:
+- person: 2413
+  name: Louis Mamakos
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1995-04-03'
+    end:
+      certainty: between
+      not_before: '1998-11-25'
+      not_after: '1999-03-10'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 9
+    first: '1995-04-03'
+    last: '1998-11-25'
+    examples:
+    - date: '1995-04-03'
+      subject: IETF 32 proceedings charter
+      url: https://www.ietf.org/proceedings/32/area.and.wg.reports/ops/grip/grip-charter.txt
+    - date: '1995-07-17'
+      subject: IETF 33 proceedings charter
+      url: https://www.ietf.org/proceedings/33/area.and.wg.reports/ops/grip/grip-charter.txt
+    - date: '1998-11-25'
+      subject: IETF 43 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-71.html
+  - kind: minutes without them
+    date: '1999-03-10'
+    subject: IETF 44 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-71.html
 - person: 3793
   name: Barbara Fraser
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2001-12-12'
+      date: '1995-04-03'
       not_before: '1995-02-04'
     end:
       certainty: group-closed
       date: '2001-12-12'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 16
+    first: '1995-04-03'
+    last: '2001-07-31'
+    examples:
+    - date: '1995-04-03'
+      subject: IETF 32 proceedings charter
+      url: https://www.ietf.org/proceedings/32/area.and.wg.reports/ops/grip/grip-charter.txt
+    - date: '1995-07-17'
+      subject: IETF 33 proceedings charter
+      url: https://www.ietf.org/proceedings/33/area.and.wg.reports/ops/grip/grip-charter.txt
+    - date: '2001-07-31'
+      subject: IETF 51 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/51/51-72.htm
 - person: 11841
   name: Klaus-Peter Kossakowski
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2001-12-12'
+      date: '1995-04-03'
       not_before: '1995-02-04'
     end:
       certainty: group-closed
       date: '2001-12-12'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 16
+    first: '1995-04-03'
+    last: '2001-07-31'
+    examples:
+    - date: '1995-04-03'
+      subject: IETF 32 proceedings charter
+      url: https://www.ietf.org/proceedings/32/area.and.wg.reports/ops/grip/grip-charter.txt
+    - date: '1995-07-17'
+      subject: IETF 33 proceedings charter
+      url: https://www.ietf.org/proceedings/33/area.and.wg.reports/ops/grip/grip-charter.txt
+    - date: '2001-07-31'
+      subject: IETF 51 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/51/51-72.htm

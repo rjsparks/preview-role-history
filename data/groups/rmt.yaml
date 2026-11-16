@@ -13,13 +13,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2007-07-22'
+      date: '2006-07-09'
       not_before: '1999-04-02'
     end:
       certainty: group-closed
       date: '2013-09-06'
     notes:
     - start moved earlier by session request for IETF 69
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2006-10-25'
@@ -41,6 +42,20 @@ chairs:
     - date: '2010-06-21'
       subject: '[Rmt] WG Last Call: draft-ietf-rmt-bb-fec-raptorq-02'
       url: https://mailarchive.ietf.org/arch/msg/rmt/6TbmC_v12ljBCW3BJr8IbbgpEZ4/
+  - kind: proceedings
+    listed_in: 12
+    first: '2006-07-09'
+    last: '2013-03-10'
+    examples:
+    - date: '2006-07-09'
+      subject: IETF 66 proceedings charter
+      url: https://www.ietf.org/proceedings/66/rmt.html
+    - date: '2006-10-16'
+      subject: IETF 67 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/67/rmt.html
+    - date: '2013-03-10'
+      subject: IETF 86 proceedings charter
+      url: https://www.ietf.org/proceedings/86/rmt.html
   - kind: session requests
     meetings:
     - '69'
@@ -63,8 +78,11 @@ chairs:
       certainty: evidence-only
       not_after: '1999-04-28'
     end:
-      certainty: evidence-only
-      not_before: '2003-10-09'
+      certainty: between
+      not_before: '2005-10-06'
+      not_after: '2006-07-09'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '1999-04-28'
@@ -88,6 +106,24 @@ chairs:
     - date: '2003-10-09'
       subject: '[Rmt] WG Last Call draft-ietf-rmt-flute-02.txt'
       url: https://mailarchive.ietf.org/arch/msg/rmt/yFZMRJUCjNJDRRduW7W08dlK0cw/
+  - kind: proceedings
+    listed_in: 19
+    first: '1999-06-15'
+    last: '2005-10-06'
+    examples:
+    - date: '1999-06-15'
+      subject: IETF 45 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-134.html
+    - date: '1999-09-29'
+      subject: IETF 46 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-148.html
+    - date: '2005-10-06'
+      subject: IETF 64 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/64/rmt.html
+  - kind: minutes without them
+    date: '2006-07-09'
+    subject: IETF 66 proceedings charter
+    url: https://www.ietf.org/proceedings/66/rmt.html
 - person: 100609
   name: Lorenzo Vicisano
   status: confirmed
@@ -137,6 +173,20 @@ chairs:
     - date: '2004-10-29'
       subject: '[Rmt] WG last call for draft-ietf-rmt-bb-pgmcc-03.txt'
       url: https://mailarchive.ietf.org/arch/msg/rmt/J1vMvuRqtzrl5hw1e3SWTs1waBY/
+  - kind: proceedings
+    listed_in: 31
+    first: '1999-06-15'
+    last: '2013-03-10'
+    examples:
+    - date: '1999-06-15'
+      subject: IETF 45 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-134.html
+    - date: '1999-09-29'
+      subject: IETF 46 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-148.html
+    - date: '2013-03-10'
+      subject: IETF 86 proceedings charter
+      url: https://www.ietf.org/proceedings/86/rmt.html
   - kind: session requests
     meetings:
     - '65'
@@ -145,3 +195,35 @@ chairs:
     - '68'
     - '76'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 114505
+  name: Allison Mankin
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1999-06-15'
+    end:
+      certainty: between
+      not_before: '2001-03-14'
+      not_after: '2001-07-31'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 6
+    first: '1999-06-15'
+    last: '2001-03-14'
+    examples:
+    - date: '1999-06-15'
+      subject: IETF 45 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-134.html
+    - date: '1999-09-29'
+      subject: IETF 46 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-148.html
+    - date: '2001-03-14'
+      subject: IETF 50 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/50/ietf50-150.htm
+  - kind: minutes without them
+    date: '2001-07-31'
+    subject: IETF 51 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/51/51-146.htm

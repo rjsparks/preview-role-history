@@ -153,6 +153,21 @@ class Site:
                     f"(last calls, adoption calls, agendas, minutes), {e(ev.get('first'))} to {e(ev.get('last'))}"
                     + (f", such as {examples}" if examples else "") + "</li>"
                 )
+            elif kind in ("proceedings", "minutes"):
+                examples = ", ".join(
+                    f'<a href="{e(x.get("url", ""))}">{e(x.get("subject"))}</a> ({e(x.get("date"))})'
+                    for x in ev.get("examples") or []
+                )
+                what = "the charter snapshots in meeting proceedings" if kind == "proceedings" else "the chair lists of meeting minutes"
+                items.append(
+                    f"<li>Listed as chair in {e(ev.get('listed_in'))} of {what}, {e(ev.get('first'))} to {e(ev.get('last'))}"
+                    + (f": {examples}" if examples else "") + "</li>"
+                )
+            elif kind == "minutes without them":
+                subject = e(ev.get("subject"))
+                if ev.get("url"):
+                    subject = f'<a href="{e(ev["url"])}">{subject}</a>'
+                items.append(f"<li>Not listed among the chairs in {subject}, {e(ev.get('date'))}</li>")
             elif kind == "session requests":
                 template = ev.get("url_template", "")
                 links = ", ".join(

@@ -13,13 +13,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-05-25'
+      date: '2005-05-18'
       not_before: '1997-10-20'
     end:
       certainty: group-closed
       date: '2009-03-12'
     notes:
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2006-05-25'
@@ -32,14 +33,109 @@ chairs:
     - date: '2006-06-09'
       subject: WG Last Call on draft-ietf-usefor-usefor-08 has expired
       url: https://mailarchive.ietf.org/arch/msg/usefor/VBKrVL27UM0h5gvlWMth4mpSIdU/
+  - kind: proceedings
+    listed_in: 3
+    first: '2005-05-18'
+    last: '2007-02-13'
+    examples:
+    - date: '2005-05-18'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/usefor.html
+    - date: '2006-03-24'
+      subject: IETF 66 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/66/usefor.html
+    - date: '2007-02-13'
+      subject: IETF 68 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/68/usefor.html
+- person: 18473
+  name: David Barr
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2000-01-27'
+    end:
+      certainty: between
+      not_before: '2001-07-31'
+      not_after: '2005-05-18'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 5
+    first: '2000-01-27'
+    last: '2001-07-31'
+    examples:
+    - date: '2000-01-27'
+      subject: IETF 47 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-31.html
+    - date: '2000-07-03'
+      subject: IETF 48 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/48/00july-30.htm
+    - date: '2001-07-31'
+      subject: IETF 56 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/56/127.htm
+  - kind: minutes without them
+    date: '2005-05-18'
+    subject: IETF 63 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/63/usefor.html
+- person: 100330
+  name: Simon Lyall
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1997-12-02'
+    end:
+      certainty: between
+      not_before: '1998-07-23'
+      not_after: '2005-05-18'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 3
+    first: '1997-12-02'
+    last: '1998-07-23'
+    examples:
+    - date: '1997-12-02'
+      subject: IETF 40 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-27.htm
+    - date: '1998-03-18'
+      subject: IETF 41 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/41/98mar-edited-35.htm
+    - date: '1998-07-23'
+      subject: IETF 42 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/42/98aug-34.htm
+  - kind: minutes without them
+    date: '2005-05-18'
+    subject: IETF 63 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/63/usefor.html
 - person: 102154
   name: Alexey Melnikov
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2009-03-12'
+      date: '2004-05-20'
       not_before: '1997-10-20'
     end:
       certainty: group-closed
       date: '2009-03-12'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 5
+    first: '2004-05-20'
+    last: '2007-02-13'
+    examples:
+    - date: '2004-05-20'
+      subject: IETF 60 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/60/124.htm
+    - date: '2004-09-28'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/usefor.html
+    - date: '2007-02-13'
+      subject: IETF 68 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/68/usefor.html

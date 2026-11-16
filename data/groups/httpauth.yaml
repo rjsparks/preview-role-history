@@ -14,10 +14,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2013-01-31'
+      not_after: '2012-07-29'
     end:
       certainty: exact
       date: '2013-03-11'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2012-11-28'
@@ -27,28 +29,77 @@ chairs:
     - date: '2012-11-28'
       subject: '[http-auth] Draft Minutes from IETF-85 in Atlanta'
       url: https://mailarchive.ietf.org/arch/msg/http-auth/puTgkFH1GcduuwuQX2J05pP7a4w/
+  - kind: proceedings
+    listed_in: 2
+    first: '2012-07-29'
+    last: '2012-11-04'
+    examples:
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/httpauth.html
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/httpauth.html
 - person: 102154
   name: Alexey Melnikov
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2011-07-24'
     end:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2013-01-31'
+      not_after: '2012-07-29'
+    notes:
+    - widened to cover charter snapshots in proceedings
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2011-07-24'
+    last: '2012-03-25'
+    examples:
+    - date: '2011-07-24'
+      subject: IETF 81 proceedings charter
+      url: https://www.ietf.org/proceedings/81/httpauth.html
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/httpauth.html
+  - kind: minutes without them
+    date: '2012-07-29'
+    subject: IETF 84 proceedings charter
+    url: https://www.ietf.org/proceedings/84/httpauth.html
 - person: 103881
   name: Mark Nottingham
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2011-07-24'
     end:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2013-01-31'
+      not_after: '2012-07-29'
+    notes:
+    - widened to cover charter snapshots in proceedings
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2011-07-24'
+    last: '2012-03-25'
+    examples:
+    - date: '2011-07-24'
+      subject: IETF 81 proceedings charter
+      url: https://www.ietf.org/proceedings/81/httpauth.html
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/httpauth.html
+  - kind: minutes without them
+    date: '2012-07-29'
+    subject: IETF 84 proceedings charter
+    url: https://www.ietf.org/proceedings/84/httpauth.html
 - person: 106745
   name: Yoav Nir
   status: confirmed
@@ -56,10 +107,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2013-01-31'
+      not_after: '2012-07-29'
     end:
       certainty: group-closed
       date: '2017-02-01'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2013-03-12'
@@ -89,6 +142,20 @@ chairs:
     - date: '2015-02-03'
       subject: '[http-auth] WGLC (take II) for draft-ietf-httpauth-digest'
       url: https://mailarchive.ietf.org/arch/msg/http-auth/4mg-Jl2SVBK0tWROy17US8ow6DQ/
+  - kind: proceedings
+    listed_in: 13
+    first: '2012-07-29'
+    last: '2016-07-17'
+    examples:
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/httpauth.html
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/httpauth.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/httpauth.html
   - kind: shepherded
     documents:
     - draft-ietf-httpauth-basicauth-update
@@ -142,6 +209,20 @@ chairs:
     - date: '2013-10-28'
       subject: '[http-auth] Minutes for October 8 Interim Meeting'
       url: https://mailarchive.ietf.org/arch/msg/http-auth/KRo-hrCOPHVP7XqDUKORbRsrGQM/
+  - kind: proceedings
+    listed_in: 6
+    first: '2013-03-10'
+    last: '2015-03-22'
+    examples:
+    - date: '2013-03-10'
+      subject: IETF 86 proceedings charter
+      url: https://www.ietf.org/proceedings/86/httpauth.html
+    - date: '2013-07-28'
+      subject: IETF 87 proceedings charter
+      url: https://www.ietf.org/proceedings/87/httpauth.html
+    - date: '2015-03-22'
+      subject: IETF 92 proceedings charter
+      url: https://www.ietf.org/proceedings/92/httpauth.html
 - person: 111355
   name: Rifaat Shekh-Yusef
   status: confirmed
@@ -168,7 +249,61 @@ chairs:
     - date: '2015-10-21'
       subject: '[http-auth] WGLC for draft-ietf-httpauth-scram-auth-08'
       url: https://mailarchive.ietf.org/arch/msg/http-auth/n3XXIFeFBvgGw92xwtRhfkOoi4A/
+  - kind: proceedings
+    listed_in: 5
+    first: '2014-07-20'
+    last: '2016-07-17'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/httpauth.html
+    - date: '2015-07-19'
+      subject: IETF 93 proceedings charter
+      url: https://www.ietf.org/proceedings/93/httpauth.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/httpauth.html
   - kind: shepherded
     documents:
     - draft-ietf-httpauth-mutual
     - draft-ietf-httpauth-scram-auth
+- person: 115386
+  name: Manu Sporny
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2013-06-06'
+    end:
+      certainty: between
+      not_before: '2013-06-19'
+      not_after: '2013-07-28'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: chair activity
+    first: '2013-06-06'
+    last: '2013-06-19'
+    messages: 2
+    examples:
+    - date: '2013-06-06'
+      subject: '[http-auth] Web Payments Telecon Minutes for 2013-06-05'
+      url: https://mailarchive.ietf.org/arch/msg/http-auth/Lp2TSPsrYtIbAkHwWML6mXVfkIc/
+    - date: '2013-06-19'
+      subject: '[http-auth] Web Payments Telecon Minutes for 2013-06-19'
+      url: https://mailarchive.ietf.org/arch/msg/http-auth/wJgTEwnHgRiHsGR4RAFZvw0axOQ/
+  - kind: minutes
+    listed_in: 2
+    first: '2013-06-06'
+    last: '2013-06-19'
+    examples:
+    - date: '2013-06-06'
+      subject: '[http-auth] Web Payments Telecon Minutes for 2013-06-05'
+      url: https://mailarchive.ietf.org/arch/msg/http-auth/Lp2TSPsrYtIbAkHwWML6mXVfkIc/
+    - date: '2013-06-19'
+      subject: '[http-auth] Web Payments Telecon Minutes for 2013-06-19'
+      url: https://mailarchive.ietf.org/arch/msg/http-auth/wJgTEwnHgRiHsGR4RAFZvw0axOQ/
+  - kind: minutes without them
+    date: '2013-07-28'
+    subject: IETF 87 proceedings charter
+    url: https://www.ietf.org/proceedings/87/httpauth.html

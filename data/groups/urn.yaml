@@ -13,11 +13,28 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2002-10-21'
+      date: '1997-04-07'
       not_before: '1996-09-06'
     end:
       certainty: group-closed
       date: '2002-10-21'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 10
+    first: '1997-04-07'
+    last: '2001-07-31'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr28.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-31.htm
+    - date: '2001-07-31'
+      subject: IETF 51 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/51/51-32.htm
 - person: 109223
   name: Leslie Daigle
   status: confirmed
@@ -52,3 +69,17 @@ chairs:
     - date: '1997-06-10'
       subject: '[URN] WG Last Call: Guidelines & Framework document'
       url: https://mailarchive.ietf.org/arch/msg/urn/lYP6bdrIgCKr1U0zr_gR2fZfcg4/
+  - kind: proceedings
+    listed_in: 10
+    first: '1997-04-07'
+    last: '2001-07-31'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr28.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-31.htm
+    - date: '2001-07-31'
+      subject: IETF 51 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/51/51-32.htm

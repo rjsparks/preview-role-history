@@ -13,10 +13,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2008-04-23'
+      date: '2008-02-14'
     end:
       certainty: group-closed
       date: '2008-04-23'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2008-02-08'
@@ -26,23 +28,53 @@ chairs:
     - date: '2008-02-08'
       subject: '[ESDS] Preliminary agenda for ESDS BOF meeting'
       url: https://mailarchive.ietf.org/arch/msg/esds/DuYQ9YA2KUnWnGx61V2CtDlYcKM/
+  - kind: proceedings
+    listed_in: 1
+    first: '2008-02-14'
+    last: '2008-02-14'
+    examples:
+    - date: '2008-02-14'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/esds.html
 - person: 108764
   name: Ali Rezafard
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2008-04-23'
+      date: '2008-02-14'
     end:
       certainty: group-closed
       date: '2008-04-23'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2008-02-14'
+    last: '2008-02-14'
+    examples:
+    - date: '2008-02-14'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/esds.html
 - person: 110721
   name: Ted Hardie
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2008-04-23'
+      date: '2008-02-14'
     end:
       certainty: group-closed
       date: '2008-04-23'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2008-02-14'
+    last: '2008-02-14'
+    examples:
+    - date: '2008-02-14'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/esds.html

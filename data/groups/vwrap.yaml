@@ -13,14 +13,29 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-03-21'
+      date: '2009-09-29'
       not_before: '2009-09-03'
     end:
       certainty: group-closed
       date: '2011-05-18'
     notes:
     - start moved earlier by session request for IETF 77
+    - widened to cover charter snapshots in proceedings
   evidence:
+  - kind: proceedings
+    listed_in: 4
+    first: '2009-09-29'
+    last: '2011-03-27'
+    examples:
+    - date: '2009-09-29'
+      subject: IETF 76 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/76/vwrap.html
+    - date: '2010-04-02'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/vwrap.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/vwrap.html
   - kind: session requests
     meetings:
     - '77'
@@ -31,8 +46,25 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-05-18'
+      date: '2009-09-29'
       not_before: '2009-09-03'
     end:
       certainty: group-closed
       date: '2011-05-18'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 4
+    first: '2009-09-29'
+    last: '2011-03-27'
+    examples:
+    - date: '2009-09-29'
+      subject: IETF 76 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/76/vwrap.html
+    - date: '2010-04-02'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/vwrap.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/vwrap.html

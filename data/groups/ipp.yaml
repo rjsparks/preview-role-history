@@ -7,14 +7,56 @@ started: '1997-03-06'
 closed: '2004-08-25'
 history_url: https://datatracker.ietf.org/group/ipp/history/
 chairs:
+- person: 9668
+  name: Steve Zilles
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1997-04-07'
+    end:
+      certainty: evidence-only
+      not_before: '1998-03-11'
+  evidence:
+  - kind: proceedings
+    listed_in: 4
+    first: '1997-04-07'
+    last: '1998-03-11'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr19.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-20.htm
+    - date: '1998-03-11'
+      subject: IETF 41 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/41/98mar-edited-22.htm
 - person: 18339
   name: Carl-Uno Manros
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-08-25'
+      date: '1997-04-07'
       not_before: '1997-03-06'
     end:
       certainty: group-closed
       date: '2004-08-25'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 17
+    first: '1997-04-07'
+    last: '2004-03-15'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr19.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-20.htm
+    - date: '2004-03-15'
+      subject: IETF 60 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/60/112.htm

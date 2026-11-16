@@ -29,6 +29,14 @@ chairs:
     - date: '2013-11-14'
       subject: '[perpass] draft meeting minutes posted'
       url: https://mailarchive.ietf.org/arch/msg/perpass/NaOwviX_SS3_bW06JAqL_PhMxdM/
+  - kind: proceedings
+    listed_in: 1
+    first: '2013-11-03'
+    last: '2013-11-03'
+    examples:
+    - date: '2013-11-03'
+      subject: IETF 88 proceedings charter
+      url: https://www.ietf.org/proceedings/88/perpass.html
 - person: 19483
   name: Sean Turner
   status: confirmed
@@ -39,3 +47,12 @@ chairs:
     end:
       certainty: group-closed
       date: '2014-01-23'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2013-11-03'
+    last: '2013-11-03'
+    examples:
+    - date: '2013-11-03'
+      subject: IETF 88 proceedings charter
+      url: https://www.ietf.org/proceedings/88/perpass.html

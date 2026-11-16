@@ -13,17 +13,39 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-01-26'
+      date: '2005-09-27'
     end:
       certainty: group-closed
       date: '2006-01-26'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2005-09-27'
+    last: '2005-09-27'
+    examples:
+    - date: '2005-09-27'
+      subject: IETF 64 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/64/gels.html
 - person: 124308
   name: Dimitri Papadimitriou
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-01-26'
+      date: '2005-09-27'
     end:
       certainty: group-closed
       date: '2006-01-26'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2005-09-27'
+    last: '2005-09-27'
+    examples:
+    - date: '2005-09-27'
+      subject: IETF 64 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/64/gels.html

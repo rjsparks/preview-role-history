@@ -13,10 +13,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2010-03-23'
     end:
       certainty: group-closed
       date: '2014-02-04'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2010-03-26'
@@ -29,16 +31,26 @@ chairs:
     - date: '2010-03-29'
       subject: '[e2md] Revised draft minutes of E2MD BOF at IETF 77'
       url: https://mailarchive.ietf.org/arch/msg/e2md/KLE81IuSD7WY45Vhol69TrCQrhc/
+  - kind: proceedings
+    listed_in: 1
+    first: '2010-03-23'
+    last: '2010-03-23'
+    examples:
+    - date: '2010-03-23'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/e2md.html
 - person: 109505
   name: Bernie Hoeneisen
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2010-03-23'
     end:
       certainty: group-closed
       date: '2014-02-04'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2010-04-06'
@@ -51,3 +63,11 @@ chairs:
     - date: '2010-04-26'
       subject: '[e2md] Rough minutes of today''s conf call'
       url: https://mailarchive.ietf.org/arch/msg/e2md/TXFmgMaWUU2RB73FjUSXEokkgzI/
+  - kind: proceedings
+    listed_in: 1
+    first: '2010-03-23'
+    last: '2010-03-23'
+    examples:
+    - date: '2010-03-23'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/e2md.html

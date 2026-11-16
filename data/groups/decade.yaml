@@ -25,6 +25,20 @@ chairs:
     date: '2010-04-27'
     subject: 'WG Action: DECoupled Application Data Enroute (decade)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Njq0TUvhIZXn3twFy6_ECp5W2X8/
+  - kind: proceedings
+    listed_in: 9
+    first: '2009-11-07'
+    last: '2012-07-29'
+    examples:
+    - date: '2009-11-07'
+      subject: IETF 76 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/76/decade.html
+    - date: '2010-03-21'
+      subject: IETF 77 proceedings charter
+      url: https://www.ietf.org/proceedings/77/decade.html
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/decade.html
   - kind: session requests
     meetings:
     - '79'
@@ -41,8 +55,11 @@ chairs:
       certainty: evidence-only
       not_after: '2009-07-30'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2010-10-28'
+      not_after: '2010-11-07'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2010-04-27'
@@ -59,6 +76,24 @@ chairs:
     - date: '2009-10-31'
       subject: '[decade] Draft agenda for DECADE BOF @IETF76'
       url: https://mailarchive.ietf.org/arch/msg/decade/CQ26FRYx5EDycR2nkOtP-w1GfRA/
+  - kind: proceedings
+    listed_in: 3
+    first: '2009-11-07'
+    last: '2010-04-27'
+    examples:
+    - date: '2009-11-07'
+      subject: IETF 76 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/76/decade.html
+    - date: '2010-03-21'
+      subject: IETF 77 proceedings charter
+      url: https://www.ietf.org/proceedings/77/decade.html
+    - date: '2010-04-27'
+      subject: IETF 78 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/78/decade.html
+  - kind: minutes without them
+    date: '2010-11-07'
+    subject: IETF 79 proceedings charter
+    url: https://www.ietf.org/proceedings/79/decade.html
 - person: 109430
   name: Haibin Song
   status: confirmed
@@ -87,6 +122,20 @@ chairs:
     - date: '2012-06-21'
       subject: '[decade] Working Group Last Call: draft-ietf-decade-arch-07'
       url: https://mailarchive.ietf.org/arch/msg/decade/vOdF3saaocJ5zjH7Xq4AqUYZVcQ/
+  - kind: proceedings
+    listed_in: 6
+    first: '2010-11-07'
+    last: '2012-07-29'
+    examples:
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/decade.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/decade.html
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/decade.html
   - kind: session requests
     meetings:
     - '78'

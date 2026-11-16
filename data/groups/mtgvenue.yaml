@@ -18,6 +18,18 @@ chairs:
     end:
       certainty: exact
       date: '2016-06-06'
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2015-11-01'
+    last: '2016-04-03'
+    examples:
+    - date: '2015-11-01'
+      subject: IETF 94 proceedings charter
+      url: https://www.ietf.org/proceedings/94/mtgvenue.html
+    - date: '2016-04-03'
+      subject: IETF 95 proceedings charter
+      url: https://www.ietf.org/proceedings/95/mtgvenue.html
 - person: 14966
   name: Ray Pelletier
   status: confirmed
@@ -50,6 +62,14 @@ chairs:
     - date: '2017-08-04'
       subject: '[Mtgvenue] Working Group Last Call on draft-ietf-mtgvenue-iaoc-venue-selection-process-08'
       url: https://mailarchive.ietf.org/arch/msg/mtgvenue/LTYgumZVihnoiGxE-wYlKtzN1PI/
+  - kind: proceedings
+    listed_in: 1
+    first: '2017-03-26'
+    last: '2017-03-26'
+    examples:
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/mtgvenue.html
   - kind: shepherded
     documents:
     - draft-ietf-mtgvenue-iaoc-venue-selection-process
@@ -79,6 +99,17 @@ chairs:
     - date: '2016-07-29'
       subject: '[Mtgvenue] Session minutes'
       url: https://mailarchive.ietf.org/arch/msg/mtgvenue/wModEUMDywD3vC2Fhwegp44CqhU/
+  - kind: proceedings
+    listed_in: 2
+    first: '2016-07-17'
+    last: '2016-11-13'
+    examples:
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/mtgvenue.html
+    - date: '2016-11-13'
+      subject: IETF 97 proceedings charter
+      url: https://www.ietf.org/proceedings/97/mtgvenue.html
 - person: 105800
   name: Jonne Soininen
   status: confirmed
@@ -94,6 +125,17 @@ chairs:
     date: '2016-07-01'
     subject: 'WG Action: Formed Meeting Venue (mtgvenue)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/M0X7K69-npNKkmon9b5OzY862ps/
+  - kind: proceedings
+    listed_in: 2
+    first: '2016-07-17'
+    last: '2016-11-13'
+    examples:
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/mtgvenue.html
+    - date: '2016-11-13'
+      subject: IETF 97 proceedings charter
+      url: https://www.ietf.org/proceedings/97/mtgvenue.html
 - person: 112611
   name: Charles Eckel
   status: confirmed
@@ -119,6 +161,14 @@ chairs:
     - date: '2017-10-13'
       subject: '[Mtgvenue] Working Group Last Call on draft-ietf-mtgvenue-meeting-policy-01'
       url: https://mailarchive.ietf.org/arch/msg/mtgvenue/Rk9HXRNevJliVRNXeQk5YjYCMx4/
+  - kind: proceedings
+    listed_in: 1
+    first: '2017-03-26'
+    last: '2017-03-26'
+    examples:
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/mtgvenue.html
   - kind: shepherded
     documents:
     - draft-ietf-mtgvenue-meeting-policy

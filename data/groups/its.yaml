@@ -17,6 +17,21 @@ chairs:
     end:
       certainty: group-closed
       date: '2016-10-04'
+  evidence:
+  - kind: proceedings
+    listed_in: 3
+    first: '2015-11-01'
+    last: '2016-07-17'
+    examples:
+    - date: '2015-11-01'
+      subject: IETF 94 proceedings charter
+      url: https://www.ietf.org/proceedings/94/its.html
+    - date: '2016-04-03'
+      subject: IETF 95 proceedings charter
+      url: https://www.ietf.org/proceedings/95/its.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/its.html
 - person: 107247
   name: Carlos Pignataro
   status: confirmed
@@ -27,6 +42,21 @@ chairs:
     end:
       certainty: group-closed
       date: '2016-10-04'
+  evidence:
+  - kind: proceedings
+    listed_in: 3
+    first: '2015-11-01'
+    last: '2016-07-17'
+    examples:
+    - date: '2015-11-01'
+      subject: IETF 94 proceedings charter
+      url: https://www.ietf.org/proceedings/94/its.html
+    - date: '2016-04-03'
+      subject: IETF 95 proceedings charter
+      url: https://www.ietf.org/proceedings/95/its.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/its.html
 - person: 118769
   name: Alexandre Petrescu
   status: confirmed
@@ -37,3 +67,12 @@ chairs:
     end:
       certainty: exact
       date: '2016-02-26'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2013-11-03'
+    last: '2013-11-03'
+    examples:
+    - date: '2013-11-03'
+      subject: IETF 88 proceedings charter
+      url: https://www.ietf.org/proceedings/88/its.html

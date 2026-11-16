@@ -13,7 +13,7 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-11-22'
+      date: '2005-02-18'
       not_before: '2004-11-23'
     end:
       certainty: group-closed
@@ -21,6 +21,7 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 75
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Review
     date: '2008-07-21'
@@ -54,6 +55,20 @@ chairs:
     - date: '2008-07-17'
       subject: Agenda for Dublin
       url: https://mailarchive.ietf.org/arch/msg/sieve/KsMn740PatykHRYV0zAM5uzVidE/
+  - kind: proceedings
+    listed_in: 16
+    first: '2005-02-18'
+    last: '2011-11-13'
+    examples:
+    - date: '2005-02-18'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/sieve.html
+    - date: '2005-07-06'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/sieve.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/sieve.html
   - kind: session requests
     meetings:
     - '75'
@@ -69,8 +84,11 @@ chairs:
       certainty: evidence-only
       not_after: '2004-11-25'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2009-03-22'
+      not_after: '2009-03-27'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2004-11-25'
@@ -100,6 +118,24 @@ chairs:
     - date: '2005-11-19'
       subject: Missing some information for the Vancouver minutes
       url: https://mailarchive.ietf.org/arch/msg/sieve/9lh-rWTvgtW_J5PPMCCEKsUx--c/
+  - kind: proceedings
+    listed_in: 8
+    first: '2005-02-18'
+    last: '2007-12-17'
+    examples:
+    - date: '2005-02-18'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/sieve.html
+    - date: '2005-07-06'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/sieve.html
+    - date: '2007-12-17'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/sieve.html
+  - kind: minutes without them
+    date: '2009-03-27'
+    subject: IETF 74 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/74/sieve.html
   - kind: session requests
     meetings:
     - '65'
@@ -119,13 +155,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-06-08'
+      date: '2009-03-27'
       not_before: '2004-11-23'
     end:
       certainty: group-closed
       date: '2012-11-14'
     notes:
     - start moved earlier by WG Action announcement of 2010-06-08
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Review
     date: '2010-05-24'
@@ -143,3 +180,17 @@ chairs:
     - date: '2010-03-30'
       subject: '[sieve] Draft minutes from IETF 77'
       url: https://mailarchive.ietf.org/arch/msg/sieve/jVQbmzk8PKMKZMGtvZXMg9D6Nlw/
+  - kind: proceedings
+    listed_in: 8
+    first: '2009-03-27'
+    last: '2011-11-13'
+    examples:
+    - date: '2009-03-27'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/sieve.html
+    - date: '2009-08-21'
+      subject: IETF 75 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/75/sieve.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/sieve.html

@@ -7,17 +7,107 @@ started: null
 closed: '2017-06-19'
 history_url: https://datatracker.ietf.org/group/apparea/history/
 chairs:
+- person: 4592
+  name: Keith Moore
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2004-09-07'
+    end:
+      certainty: between
+      not_before: '2005-06-02'
+      not_after: '2006-01-05'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 3
+    first: '2004-09-07'
+    last: '2005-06-02'
+    examples:
+    - date: '2004-09-07'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/apparea.html
+    - date: '2005-02-09'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/apparea.html
+    - date: '2005-06-02'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/apparea.html
+  - kind: minutes without them
+    date: '2006-01-05'
+    subject: IETF 65 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/65/apparea.html
+- person: 9909
+  name: Chris Newman
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2007-03-23'
+    end:
+      certainty: between
+      not_before: '2008-08-21'
+      not_after: '2010-04-01'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 3
+    first: '2007-03-23'
+    last: '2008-08-21'
+    examples:
+    - date: '2007-03-23'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/apparea.html
+    - date: '2008-08-21'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/apparea.html
+    - date: '2008-08-21'
+      subject: IETF 75 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/75/apparea.html
+  - kind: minutes without them
+    date: '2010-04-01'
+    subject: IETF 77 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/77/apparea.html
+  - kind: session requests
+    meetings:
+    - '71'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
 - person: 18321
   name: Pete Resnick
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2010-11-07'
     end:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2017-03-30'
+      not_after: '2016-04-03'
+    notes:
+    - widened to cover charter snapshots in proceedings
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 12
+    first: '2010-11-07'
+    last: '2014-11-09'
+    examples:
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/apparea.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/apparea.html
+    - date: '2014-11-09'
+      subject: IETF 91 proceedings charter
+      url: https://www.ietf.org/proceedings/91/apparea.html
+  - kind: minutes without them
+    date: '2016-04-03'
+    subject: IETF 95 proceedings charter
+    url: https://www.ietf.org/proceedings/95/apparea.html
 - person: 21684
   name: Barry Leiba
   status: confirmed
@@ -25,22 +115,65 @@ chairs:
   - start:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2017-03-30'
+      not_after: '2012-07-29'
     end:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2017-03-30'
+      not_after: '2016-04-03'
+    notes:
+    - widened to cover charter snapshots in proceedings
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 11
+    first: '2012-07-29'
+    last: '2015-11-01'
+    examples:
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/apparea.html
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/apparea.html
+    - date: '2015-11-01'
+      subject: IETF 94 proceedings charter
+      url: https://www.ietf.org/proceedings/94/apparea.html
+  - kind: minutes without them
+    date: '2016-04-03'
+    subject: IETF 95 proceedings charter
+    url: https://www.ietf.org/proceedings/95/apparea.html
 - person: 22971
   name: Lisa Dusseault
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2007-12-02'
+      not_after: '2006-07-09'
     end:
-      certainty: evidence-only
-      not_before: '2008-07-27'
+      certainty: between
+      not_before: '2008-08-21'
+      not_after: '2010-04-01'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
+  - kind: proceedings
+    listed_in: 5
+    first: '2006-07-09'
+    last: '2008-08-21'
+    examples:
+    - date: '2006-07-09'
+      subject: IETF 66 proceedings charter
+      url: https://www.ietf.org/proceedings/66/apparea.html
+    - date: '2006-08-14'
+      subject: IETF 67 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/67/apparea.html
+    - date: '2008-08-21'
+      subject: IETF 75 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/75/apparea.html
+  - kind: minutes without them
+    date: '2010-04-01'
+    subject: IETF 77 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/77/apparea.html
   - kind: session requests
     meetings:
     - '70'
@@ -58,6 +191,20 @@ chairs:
       certainty: group-closed
       date: '2017-06-19'
   evidence:
+  - kind: proceedings
+    listed_in: 4
+    first: '2008-08-21'
+    last: '2016-07-17'
+    examples:
+    - date: '2008-08-21'
+      subject: IETF 75 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/75/apparea.html
+    - date: '2010-04-01'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/apparea.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/apparea.html
   - kind: session requests
     meetings:
     - '77'
@@ -79,21 +226,57 @@ chairs:
   - start:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2017-03-30'
+      not_after: '2016-04-03'
     end:
       certainty: group-closed
       date: '2017-06-19'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2016-04-03'
+    last: '2016-07-17'
+    examples:
+    - date: '2016-04-03'
+      subject: IETF 95 proceedings charter
+      url: https://www.ietf.org/proceedings/95/apparea.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/apparea.html
 - person: 105907
   name: Peter Saint-Andre
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2010-04-01'
     end:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2017-03-30'
+      not_after: '2012-07-29'
+    notes:
+    - widened to cover charter snapshots in proceedings
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 6
+    first: '2010-04-01'
+    last: '2012-03-25'
+    examples:
+    - date: '2010-04-01'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/apparea.html
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/apparea.html
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/apparea.html
+  - kind: minutes without them
+    date: '2012-07-29'
+    subject: IETF 84 proceedings charter
+    url: https://www.ietf.org/proceedings/84/apparea.html
 - person: 110077
   name: Alissa Cooper
   status: confirmed
@@ -101,7 +284,53 @@ chairs:
   - start:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2017-03-30'
+      not_after: '2016-04-03'
     end:
       certainty: exact
       date: '2017-03-30'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2016-04-03'
+    last: '2016-07-17'
+    examples:
+    - date: '2016-04-03'
+      subject: IETF 95 proceedings charter
+      url: https://www.ietf.org/proceedings/95/apparea.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/apparea.html
+- person: 110721
+  name: Ted Hardie
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-01-05'
+    end:
+      certainty: between
+      not_before: '2006-08-14'
+      not_after: '2007-03-23'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 3
+    first: '2006-01-05'
+    last: '2006-08-14'
+    examples:
+    - date: '2006-01-05'
+      subject: IETF 65 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/65/apparea.html
+    - date: '2006-07-09'
+      subject: IETF 66 proceedings charter
+      url: https://www.ietf.org/proceedings/66/apparea.html
+    - date: '2006-08-14'
+      subject: IETF 67 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/67/apparea.html
+  - kind: minutes without them
+    date: '2007-03-23'
+    subject: IETF 69 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/69/apparea.html

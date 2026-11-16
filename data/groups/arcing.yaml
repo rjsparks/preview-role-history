@@ -18,6 +18,18 @@ chairs:
     end:
       certainty: group-closed
       date: '2016-06-10'
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2015-11-01'
+    last: '2016-04-03'
+    examples:
+    - date: '2015-11-01'
+      subject: IETF 94 proceedings charter
+      url: https://www.ietf.org/proceedings/94/arcing.html
+    - date: '2016-04-03'
+      subject: IETF 95 proceedings charter
+      url: https://www.ietf.org/proceedings/95/arcing.html
 - person: 110049
   name: Joe Hildebrand
   status: confirmed
@@ -29,3 +41,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2016-06-10'
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2015-11-01'
+    last: '2016-04-03'
+    examples:
+    - date: '2015-11-01'
+      subject: IETF 94 proceedings charter
+      url: https://www.ietf.org/proceedings/94/arcing.html
+    - date: '2016-04-03'
+      subject: IETF 95 proceedings charter
+      url: https://www.ietf.org/proceedings/95/arcing.html

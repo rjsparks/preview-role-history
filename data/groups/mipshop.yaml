@@ -13,13 +13,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2005-09-28'
       not_before: '2003-06-10'
     end:
       certainty: group-closed
       date: '2010-09-07'
     notes:
     - start moved earlier by session request for IETF 65
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Review
     date: '2006-02-21'
@@ -40,6 +41,20 @@ chairs:
     - date: '2005-12-08'
       subject: '[Mipshop] MIPSHOP meeting minutes for IETF 64'
       url: https://mailarchive.ietf.org/arch/msg/mipshop/0nNbku5bW-9nIouEVdUUXPfavM8/
+  - kind: proceedings
+    listed_in: 8
+    first: '2005-09-28'
+    last: '2009-05-22'
+    examples:
+    - date: '2005-09-28'
+      subject: IETF 64 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/64/mipshop.html
+    - date: '2006-07-09'
+      subject: IETF 66 proceedings charter
+      url: https://www.ietf.org/proceedings/66/mipshop.html
+    - date: '2009-05-22'
+      subject: IETF 75 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/75/mipshop.html
   - kind: session requests
     meetings:
     - '65'
@@ -90,6 +105,20 @@ chairs:
     - date: '2007-03-11'
       subject: '[Mipshop] WG last call on draft-ietf-mipshop-mis-ps'
       url: https://mailarchive.ietf.org/arch/msg/mipshop/nEqCq5wHovcbeS3wiCD9gCugHCM/
+  - kind: proceedings
+    listed_in: 7
+    first: '2006-07-09'
+    last: '2009-05-22'
+    examples:
+    - date: '2006-07-09'
+      subject: IETF 66 proceedings charter
+      url: https://www.ietf.org/proceedings/66/mipshop.html
+    - date: '2006-10-04'
+      subject: IETF 67 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/67/mipshop.html
+    - date: '2009-05-22'
+      subject: IETF 75 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/75/mipshop.html
   - kind: session requests
     meetings:
     - '68'
@@ -147,6 +176,20 @@ chairs:
     - date: '2003-11-03'
       subject: '[Mipshop] working group last call on HMIPv6: draft-ietf-mipshop-hmipv6-00.txt'
       url: https://mailarchive.ietf.org/arch/msg/mipshop/8bBmN5AdxvlEH1hsLFb1zXWUOC8/
+  - kind: proceedings
+    listed_in: 6
+    first: '2003-10-20'
+    last: '2005-09-28'
+    examples:
+    - date: '2003-10-20'
+      subject: IETF 58 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/58/141.htm
+    - date: '2004-02-10'
+      subject: IETF 59 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/59/149.htm
+    - date: '2005-09-28'
+      subject: IETF 64 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/64/mipshop.html
   - kind: session requests
     meetings:
     - '66'

@@ -15,10 +15,12 @@ chairs:
       certainty: approximate
       date: '2003-03-26'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2010-03-21'
+      not_after: '2010-03-25'
     notes:
     - start dated by list message of 2003-03-26
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Review
     date: '2005-12-21'
@@ -50,6 +52,24 @@ chairs:
     - date: '2009-05-01'
       subject: '[PWE3] WG Last Call for draft-ietf-pwe3-oam-msg-map-10'
       url: https://mailarchive.ietf.org/arch/msg/pwe3/dSY-jyGUfso0ef28yl-nSbJkVjU/
+  - kind: proceedings
+    listed_in: 15
+    first: '2003-07-13'
+    last: '2009-04-13'
+    examples:
+    - date: '2003-07-13'
+      subject: IETF 57 proceedings charter
+      url: https://www.ietf.org/proceedings/57/238.htm
+    - date: '2003-09-22'
+      subject: IETF 58 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/58/236.htm
+    - date: '2009-04-13'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/pwe3.html
+  - kind: minutes without them
+    date: '2010-03-25'
+    subject: IETF 77 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/77/pwe3.html
   - kind: session requests
     meetings:
     - '72'
@@ -96,6 +116,20 @@ chairs:
     - date: '2011-11-07'
       subject: '[PWE3] Presentation deadline for Taipei PWE3 agenda items'
       url: https://mailarchive.ietf.org/arch/msg/pwe3/kTTuo9RGO21kR9x7YgzjZdVwIvs/
+  - kind: proceedings
+    listed_in: 5
+    first: '2010-03-25'
+    last: '2011-11-13'
+    examples:
+    - date: '2010-03-25'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/pwe3.html
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/pwe3.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/pwe3.html
   - kind: shepherded
     documents:
     - draft-ietf-pwe3-cbit-negotiation
@@ -116,8 +150,11 @@ chairs:
       certainty: evidence-only
       not_after: '2001-03-29'
     end:
-      certainty: evidence-only
-      not_before: '2007-07-31'
+      certainty: between
+      not_before: '2007-09-26'
+      not_after: '2009-04-13'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2001-05-14'
@@ -147,6 +184,24 @@ chairs:
     - date: '2003-10-23'
       subject: 'WG Last Call: draft-ietf-pwe3-ethernet-encap-04.txt'
       url: https://mailarchive.ietf.org/arch/msg/pwe3/ZDz3rVsjaSelim90RmAQAa2FrtA/
+  - kind: proceedings
+    listed_in: 19
+    first: '2001-07-31'
+    last: '2007-09-26'
+    examples:
+    - date: '2001-07-31'
+      subject: IETF 51 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/51/51-145.htm
+    - date: '2001-10-30'
+      subject: IETF 52 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/52/234.htm
+    - date: '2007-09-26'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/pwe3.html
+  - kind: minutes without them
+    date: '2009-04-13'
+    subject: IETF 74 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/74/pwe3.html
 - person: 104107
   name: Luca Martini
   status: unconfirmed
@@ -155,13 +210,34 @@ chairs:
       certainty: evidence-only
       not_after: '2001-05-14'
     end:
-      certainty: evidence-only
-      not_before: '2001-05-14'
+      certainty: between
+      not_before: '2002-03-07'
+      not_after: '2003-07-13'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2001-05-14'
     subject: 'WG ACTION: Pseudo Wire Emulation Edge to Edge (pwe3)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/JJzQQBA474UoX4pn32R-H5xx-fc/
+  - kind: proceedings
+    listed_in: 3
+    first: '2001-07-31'
+    last: '2002-03-07'
+    examples:
+    - date: '2001-07-31'
+      subject: IETF 51 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/51/51-145.htm
+    - date: '2001-10-30'
+      subject: IETF 52 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/52/234.htm
+    - date: '2002-03-07'
+      subject: IETF 53 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/53/231.htm
+  - kind: minutes without them
+    date: '2003-07-13'
+    subject: IETF 57 proceedings charter
+    url: https://www.ietf.org/proceedings/57/238.htm
 - person: 105786
   name: Matthew Bocci
   status: confirmed
@@ -190,6 +266,20 @@ chairs:
     - date: '2010-02-01'
       subject: '[PWE3] WG Last Call for draft-ietf-pwe3-fat-pw-03'
       url: https://mailarchive.ietf.org/arch/msg/pwe3/9rk9_s9lPG_5I23lKTrkXmh8kTc/
+  - kind: proceedings
+    listed_in: 6
+    first: '2009-04-13'
+    last: '2011-11-13'
+    examples:
+    - date: '2009-04-13'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/pwe3.html
+    - date: '2010-03-25'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/pwe3.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/pwe3.html
   - kind: session requests
     meetings:
     - '65'

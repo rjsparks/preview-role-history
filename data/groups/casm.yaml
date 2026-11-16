@@ -17,6 +17,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2017-06-06'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2017-03-26'
+    last: '2017-03-26'
+    examples:
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/casm.html
 - person: 19869
   name: Marc Blanchet
   status: confirmed
@@ -27,3 +36,12 @@ chairs:
     end:
       certainty: group-closed
       date: '2017-06-06'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2017-03-26'
+    last: '2017-03-26'
+    examples:
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/casm.html

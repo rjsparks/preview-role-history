@@ -80,6 +80,20 @@ chairs:
     - date: '2003-12-10'
       subject: '[Mip4] WG adoption call on draft-kulkarni-mobileip-dynamic-assignment-02.txt'
       url: https://mailarchive.ietf.org/arch/msg/mip4/qQCWlUKEkQPUopjj62t9dz5QE1w/
+  - kind: proceedings
+    listed_in: 28
+    first: '2003-10-07'
+    last: '2015-03-22'
+    examples:
+    - date: '2003-10-07'
+      subject: IETF 58 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/58/142.htm
+    - date: '2004-02-19'
+      subject: IETF 59 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/59/147.htm
+    - date: '2015-03-22'
+      subject: IETF 92 proceedings charter
+      url: https://www.ietf.org/proceedings/92/mip4.html
   - kind: session requests
     meetings:
     - '65'
@@ -140,6 +154,20 @@ chairs:
     - date: '2006-10-25'
       subject: '[Mip4] Agenda for MIP4'
       url: https://mailarchive.ietf.org/arch/msg/mip4/f5l9yyS2eTsoOq2osK06t3uZzUs/
+  - kind: proceedings
+    listed_in: 20
+    first: '2006-07-25'
+    last: '2015-03-22'
+    examples:
+    - date: '2006-07-25'
+      subject: IETF 66 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/66/mip4.html
+    - date: '2007-02-20'
+      subject: IETF 68 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/68/mip4.html
+    - date: '2015-03-22'
+      subject: IETF 92 proceedings charter
+      url: https://www.ietf.org/proceedings/92/mip4.html
   - kind: session requests
     meetings:
     - '68'
@@ -163,8 +191,11 @@ chairs:
       certainty: evidence-only
       not_after: '2003-08-06'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2006-06-27'
+      not_after: '2006-07-25'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2005-02-09'
@@ -202,3 +233,21 @@ chairs:
     - date: '2006-06-13'
       subject: '[Mip4] Working Group Last Call on draft-ietf-mip4-message-string-ext-00.txt'
       url: https://mailarchive.ietf.org/arch/msg/mip4/puIxku-41aKPZ5ehp8OLuMPjd58/
+  - kind: proceedings
+    listed_in: 8
+    first: '2003-10-07'
+    last: '2005-12-21'
+    examples:
+    - date: '2003-10-07'
+      subject: IETF 58 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/58/142.htm
+    - date: '2004-02-19'
+      subject: IETF 59 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/59/147.htm
+    - date: '2005-12-21'
+      subject: IETF 65 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/65/mip4.html
+  - kind: minutes without them
+    date: '2006-07-25'
+    subject: IETF 66 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/66/mip4.html

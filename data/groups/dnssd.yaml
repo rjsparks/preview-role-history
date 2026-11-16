@@ -47,6 +47,24 @@ chairs:
     - date: '2015-07-07'
       subject: '[dnssd] WG last call on draft-ietf-dnssd-mdns-dns-interop-01'
       url: https://mailarchive.ietf.org/arch/msg/dnssd/ry_4iw55gzTmfa7-hL-9AqvqN5c/
+  - kind: proceedings
+    listed_in: 11
+    first: '2013-11-03'
+    last: '2017-03-26'
+    examples:
+    - date: '2013-11-03'
+      subject: IETF 88 proceedings charter
+      url: https://www.ietf.org/proceedings/88/dnssd.html
+    - date: '2014-03-02'
+      subject: IETF 89 proceedings charter
+      url: https://www.ietf.org/proceedings/89/dnssd.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/dnssd.html
+  - kind: minutes without them
+    date: '2018-03-17'
+    subject: '[dnssd] Draft minutes of IETF 101 WG meeting'
+    url: https://mailarchive.ietf.org/arch/msg/dnssd/tTUx7x2gtdLcHk81hPrTg8G7-lU/
 - person: 106461
   name: Tim Chown
   status: confirmed
@@ -94,6 +112,28 @@ chairs:
     - date: '2016-04-02'
       subject: '[dnssd] Seeking minutes taker and Jabber relay volunteers...'
       url: https://mailarchive.ietf.org/arch/msg/dnssd/fuGOL-UvWHHj29mi8S_Yk-4O4iY/
+  - kind: minutes
+    listed_in: 1
+    first: '2018-03-17'
+    last: '2018-03-17'
+    examples:
+    - date: '2018-03-17'
+      subject: '[dnssd] Draft minutes of IETF 101 WG meeting'
+      url: https://mailarchive.ietf.org/arch/msg/dnssd/tTUx7x2gtdLcHk81hPrTg8G7-lU/
+  - kind: proceedings
+    listed_in: 11
+    first: '2013-11-03'
+    last: '2017-03-26'
+    examples:
+    - date: '2013-11-03'
+      subject: IETF 88 proceedings charter
+      url: https://www.ietf.org/proceedings/88/dnssd.html
+    - date: '2014-03-02'
+      subject: IETF 89 proceedings charter
+      url: https://www.ietf.org/proceedings/89/dnssd.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/dnssd.html
   - kind: shepherded
     documents:
     - draft-ietf-dnssd-hybrid
@@ -108,6 +148,11 @@ chairs:
     end:
       certainty: exact
       date: '2021-12-14'
+  evidence:
+  - kind: minutes without them
+    date: '2018-03-17'
+    subject: '[dnssd] Draft minutes of IETF 101 WG meeting'
+    url: https://mailarchive.ietf.org/arch/msg/dnssd/tTUx7x2gtdLcHk81hPrTg8G7-lU/
 - person: 119562
   name: David Schinazi
   status: confirmed
@@ -146,6 +191,14 @@ chairs:
     - date: '2018-09-30'
       subject: '[dnssd] Working group last call for draft-ietf-dnssd-push'
       url: https://mailarchive.ietf.org/arch/msg/dnssd/qUZJFzXv_EtQSwpUsphVBBfn04o/
+  - kind: minutes
+    listed_in: 1
+    first: '2018-03-17'
+    last: '2018-03-17'
+    examples:
+    - date: '2018-03-17'
+      subject: '[dnssd] Draft minutes of IETF 101 WG meeting'
+      url: https://mailarchive.ietf.org/arch/msg/dnssd/tTUx7x2gtdLcHk81hPrTg8G7-lU/
   - kind: shepherded
     documents:
     - draft-ietf-dnssd-prireq

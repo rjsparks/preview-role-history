@@ -13,22 +13,56 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-11-05'
+      date: '2000-10-11'
       not_before: '1998-09-25'
     end:
       certainty: group-closed
       date: '2004-11-05'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 7
+    first: '2000-10-11'
+    last: '2004-06-07'
+    examples:
+    - date: '2000-10-11'
+      subject: IETF 49 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/49/00dec-78.htm
+    - date: '2001-03-14'
+      subject: IETF 50 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/50/ietf50-81.htm
+    - date: '2004-06-07'
+      subject: IETF 60 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/60/176.htm
 - person: 10585
   name: Ed Ellesson
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-11-05'
+      date: '1998-11-25'
       not_before: '1998-09-25'
     end:
       certainty: group-closed
       date: '2004-11-05'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 13
+    first: '1998-11-25'
+    last: '2004-06-07'
+    examples:
+    - date: '1998-11-25'
+      subject: IETF 43 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-45.html
+    - date: '1999-01-25'
+      subject: IETF 44 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-45.html
+    - date: '2004-06-07'
+      subject: IETF 60 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/60/176.htm
 - person: 21756
   name: John Strassner
   status: unconfirmed
@@ -37,10 +71,31 @@ chairs:
       certainty: evidence-only
       not_after: '1998-10-23'
     end:
-      certainty: evidence-only
-      not_before: '1998-10-23'
+      certainty: between
+      not_before: '2000-07-17'
+      not_after: '2000-10-11'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '1998-10-23'
     subject: 'WG ACTION: Policy Framework (policy)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/kOwLPY5WCnyp6fwP6Xlah4RDOgU/
+  - kind: proceedings
+    listed_in: 6
+    first: '1998-11-25'
+    last: '2000-07-17'
+    examples:
+    - date: '1998-11-25'
+      subject: IETF 43 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-45.html
+    - date: '1999-01-25'
+      subject: IETF 44 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-45.html
+    - date: '2000-07-17'
+      subject: IETF 48 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/48/00july-72.htm
+  - kind: minutes without them
+    date: '2000-10-11'
+    subject: IETF 49 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/49/00dec-78.htm

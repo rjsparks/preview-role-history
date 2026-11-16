@@ -13,21 +13,42 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2007-06-15'
+      date: '2007-01-22'
     end:
       certainty: group-closed
       date: '2007-06-15'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2007-01-22'
+    last: '2007-01-22'
+    examples:
+    - date: '2007-01-22'
+      subject: IETF 68 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/68/ifare.html
 - person: 107134
   name: Vidya Narayanan
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2007-06-15'
+      date: '2007-01-22'
     end:
       certainty: group-closed
       date: '2007-06-15'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2007-01-22'
+    last: '2007-01-22'
+    examples:
+    - date: '2007-01-22'
+      subject: IETF 68 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/68/ifare.html
   - kind: session requests
     meetings:
     - '69'

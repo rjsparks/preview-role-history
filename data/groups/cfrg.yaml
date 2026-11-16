@@ -13,12 +13,31 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2004-06-07'
       not_before: '2002-07-17'
     end:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2014-11-13'
+      not_after: '2012-03-25'
+    notes:
+    - widened to cover charter snapshots in proceedings
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2004-06-07'
+    last: '2004-11-11'
+    examples:
+    - date: '2004-06-07'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/cfrg.html
+    - date: '2004-11-11'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/cfrg.html
+  - kind: minutes without them
+    date: '2012-03-25'
+    subject: IETF 83 proceedings charter
+    url: https://www.ietf.org/proceedings/83/cfrg.html
 - person: 102154
   name: Alexey Melnikov
   status: confirmed
@@ -26,9 +45,11 @@ chairs:
   - start:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2014-11-13'
+      not_after: '2014-07-20'
     end:
       certainty: ongoing
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2014-07-14'
@@ -50,6 +71,20 @@ chairs:
     - date: '2018-04-08'
       subject: '[Cfrg] Adoption call for draft-harkins-pkex-05'
       url: https://mailarchive.ietf.org/arch/msg/cfrg/wzsM3G6KowSQarby9GjPmOpBv7o/
+  - kind: proceedings
+    listed_in: 8
+    first: '2014-07-20'
+    last: '2016-11-13'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/cfrg.html
+    - date: '2014-11-09'
+      subject: IETF 91 proceedings charter
+      url: https://www.ietf.org/proceedings/91/cfrg.html
+    - date: '2016-11-13'
+      subject: IETF 97 proceedings charter
+      url: https://www.ietf.org/proceedings/97/cfrg.html
   - kind: shepherded
     documents:
     - draft-irtf-cfrg-aead-properties
@@ -65,13 +100,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2004-06-07'
       not_before: '2002-07-17'
     end:
       certainty: approximate
       date: '2014-05-14'
     notes:
     - end dated by list message of 2014-05-14
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: list message
     date: '2014-05-14'
@@ -91,6 +127,20 @@ chairs:
     - date: '2012-03-23'
       subject: '[Cfrg] agenda for meeting at IETF 83'
       url: https://mailarchive.ietf.org/arch/msg/cfrg/I54bLoQHaghPVVfj0Yiov3QQj14/
+  - kind: proceedings
+    listed_in: 9
+    first: '2004-06-07'
+    last: '2014-03-02'
+    examples:
+    - date: '2004-06-07'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/cfrg.html
+    - date: '2004-11-11'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/cfrg.html
+    - date: '2014-03-02'
+      subject: IETF 89 proceedings charter
+      url: https://www.ietf.org/proceedings/89/cfrg.html
   - kind: shepherded
     documents:
     - draft-irtf-cfrg-ocb
@@ -113,6 +163,20 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/cfrg/XLvmnRFJlwmkzU6CH0Dgy7xTHlI/
     excerpt: The CFRG's other current co-chair, Kevin Igoe, is retiring in 2015 and will then also step
       down.
+  - kind: proceedings
+    listed_in: 9
+    first: '2012-03-25'
+    last: '2015-03-22'
+    examples:
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/cfrg.html
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/cfrg.html
+    - date: '2015-03-22'
+      subject: IETF 92 proceedings charter
+      url: https://www.ietf.org/proceedings/92/cfrg.html
 - person: 113609
   name: Kenny Paterson
   status: confirmed
@@ -120,10 +184,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2014-11-13'
+      not_after: '2014-07-20'
     end:
       certainty: exact
       date: '2020-01-14'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: list message
     date: '2020-01-15'
@@ -146,6 +212,20 @@ chairs:
     - date: '2019-05-07'
       subject: '[Cfrg] Adoption call for draft-sullivan-cfrg-voprf'
       url: https://mailarchive.ietf.org/arch/msg/cfrg/F49EPSwfZLTfXQ9B1PhhJGlzekk/
+  - kind: proceedings
+    listed_in: 8
+    first: '2014-07-20'
+    last: '2016-11-13'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/cfrg.html
+    - date: '2014-11-09'
+      subject: IETF 91 proceedings charter
+      url: https://www.ietf.org/proceedings/91/cfrg.html
+    - date: '2016-11-13'
+      subject: IETF 97 proceedings charter
+      url: https://www.ietf.org/proceedings/97/cfrg.html
   - kind: shepherded
     documents:
     - draft-irtf-cfrg-gcmsiv

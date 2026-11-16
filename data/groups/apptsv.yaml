@@ -33,10 +33,21 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-29'
+      date: '2005-10-12'
     end:
       certainty: group-closed
       date: '2006-03-29'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2005-10-12'
+    last: '2005-10-12'
+    examples:
+    - date: '2005-10-12'
+      subject: IETF 64 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/64/apptsv.html
 - person: 112773
   name: Lars Eggert
   status: confirmed

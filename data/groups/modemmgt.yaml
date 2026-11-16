@@ -13,8 +13,19 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1994-08-25'
+      date: '1994-03-28'
       not_before: '1993-04-08'
     end:
       certainty: group-closed
       date: '1994-08-25'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '1994-03-28'
+    last: '1994-03-28'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/mgt/modemmgt/modemmgt-charter.txt

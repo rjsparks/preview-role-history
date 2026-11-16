@@ -13,11 +13,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1995-05-23'
+      date: '1994-03-28'
       not_before: '1989-10-01'
     end:
       certainty: group-closed
       date: '1995-05-23'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '1995-04-04'
@@ -27,14 +29,45 @@ chairs:
     - date: '1995-04-04'
       subject: RREQ minutes
       url: https://mailarchive.ietf.org/arch/msg/rreq/mQzMuUJix0BdnZPsY8JG8lWW6yw/
+  - kind: proceedings
+    listed_in: 3
+    first: '1994-03-28'
+    last: '1995-04-03'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/int/rreq/rreq-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/rtg/rreq/rreq-charter.txt
+    - date: '1995-04-03'
+      subject: IETF 32 proceedings charter
+      url: https://www.ietf.org/proceedings/32/area.and.wg.reports/rtg/rreq/rreq-charter.txt
 - person: 123360
   name: Frank Kastenholz
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '1995-05-23'
+      date: '1994-03-28'
       not_before: '1989-10-01'
     end:
       certainty: group-closed
       date: '1995-05-23'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 3
+    first: '1994-03-28'
+    last: '1995-04-03'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/int/rreq/rreq-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/rtg/rreq/rreq-charter.txt
+    - date: '1995-04-03'
+      subject: IETF 32 proceedings charter
+      url: https://www.ietf.org/proceedings/32/area.and.wg.reports/rtg/rreq/rreq-charter.txt

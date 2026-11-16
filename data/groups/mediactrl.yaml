@@ -13,12 +13,28 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2010-03-21'
       not_before: '2007-01-05'
     end:
       certainty: group-closed
       date: '2013-10-28'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
+  - kind: proceedings
+    listed_in: 11
+    first: '2010-03-21'
+    last: '2013-07-28'
+    examples:
+    - date: '2010-03-21'
+      subject: IETF 77 proceedings charter
+      url: https://www.ietf.org/proceedings/77/mediactrl.html
+    - date: '2010-05-18'
+      subject: IETF 78 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/78/mediactrl.html
+    - date: '2013-07-28'
+      subject: IETF 87 proceedings charter
+      url: https://www.ietf.org/proceedings/87/mediactrl.html
   - kind: shepherded
     documents:
     - draft-ietf-mediactrl-call-flows
@@ -53,6 +69,20 @@ chairs:
     - date: '2012-12-03'
       subject: '[MEDIACTRL] WGLC: Call Flows'
       url: https://mailarchive.ietf.org/arch/msg/mediactrl/-HLWQlz3-2GA9sbItLdZE8a6Rtk/
+  - kind: proceedings
+    listed_in: 17
+    first: '2006-09-28'
+    last: '2013-07-28'
+    examples:
+    - date: '2006-09-28'
+      subject: IETF 67 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/67/mediactrl.html
+    - date: '2007-01-05'
+      subject: IETF 68 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/68/mediactrl.html
+    - date: '2013-07-28'
+      subject: IETF 87 proceedings charter
+      url: https://www.ietf.org/proceedings/87/mediactrl.html
   - kind: session requests
     meetings:
     - '68'
@@ -68,10 +98,12 @@ chairs:
       certainty: approximate
       date: '2007-05-02'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2010-04-22'
+      not_after: '2010-05-18'
     notes:
     - start dated by list message of 2007-05-02
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: list message
     date: '2007-05-02'
@@ -99,6 +131,24 @@ chairs:
     - date: '2008-10-21'
       subject: '[MEDIACTRL] WGLC on draft-ietf-mediactrl-sip-control-framework-05.txt'
       url: https://mailarchive.ietf.org/arch/msg/mediactrl/vy_YywAhgSneTuqcZXKhwM1EYa0/
+  - kind: proceedings
+    listed_in: 4
+    first: '2007-05-02'
+    last: '2009-11-09'
+    examples:
+    - date: '2007-05-02'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/mediactrl.html
+    - date: '2007-12-19'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/mediactrl.html
+    - date: '2009-11-09'
+      subject: IETF 76 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/76/mediactrl.html
+  - kind: minutes without them
+    date: '2010-05-18'
+    subject: IETF 78 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/78/mediactrl.html
   - kind: session requests
     meetings:
     - '69'

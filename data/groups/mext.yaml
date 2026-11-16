@@ -15,8 +15,11 @@ chairs:
       certainty: evidence-only
       not_after: '2007-11-26'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2011-07-24'
+      not_after: '2011-11-13'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2007-11-26'
@@ -54,6 +57,24 @@ chairs:
     - date: '2010-01-26'
       subject: '[MEXT] WGLC for firewall drafts'
       url: https://mailarchive.ietf.org/arch/msg/mext/akng7Qfwf7iISI5ocd7Vn2XgBoU/
+  - kind: proceedings
+    listed_in: 7
+    first: '2007-11-26'
+    last: '2011-07-24'
+    examples:
+    - date: '2007-11-26'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/imext.html
+    - date: '2008-12-16'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/mext.html
+    - date: '2011-07-24'
+      subject: IETF 81 proceedings charter
+      url: https://www.ietf.org/proceedings/81/mext.html
+  - kind: minutes without them
+    date: '2011-11-13'
+    subject: IETF 82 proceedings charter
+    url: https://www.ietf.org/proceedings/82/mext.html
   - kind: session requests
     meetings:
     - '71'
@@ -111,6 +132,20 @@ chairs:
     - date: '2011-04-19'
       subject: '[MEXT] IETF-80 meeting minutes posted'
       url: https://mailarchive.ietf.org/arch/msg/mext/SmEr2QYO2L0sIJ2iTDoQFPoS2FU/
+  - kind: proceedings
+    listed_in: 8
+    first: '2007-11-26'
+    last: '2011-11-13'
+    examples:
+    - date: '2007-11-26'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/imext.html
+    - date: '2008-12-16'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/mext.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/mext.html
   - kind: session requests
     meetings:
     - '70'
@@ -124,11 +159,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2012-01-10'
+      date: '2011-11-13'
       not_before: '2007-06-18'
     end:
       certainty: group-closed
       date: '2012-03-05'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2012-01-10'
@@ -143,3 +180,11 @@ chairs:
     - date: '2011-11-02'
       subject: '[MEXT] draft agenda uploaded'
       url: https://mailarchive.ietf.org/arch/msg/mext/Lf-BGoMR8QY58GBMR_7SKYdtor8/
+  - kind: proceedings
+    listed_in: 1
+    first: '2011-11-13'
+    last: '2011-11-13'
+    examples:
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/mext.html

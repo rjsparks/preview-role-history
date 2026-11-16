@@ -13,7 +13,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2010-11-07'
+      not_after: '2010-03-26'
     end:
       certainty: approximate
       date: '2011-08-11'
@@ -26,6 +26,20 @@ chairs:
     subject: '[siprec] New chair for SIPREC'
     url: https://mailarchive.ietf.org/arch/msg/siprec/IbVqd3Gh8Th0sP25gyU1K30OvEs/
     excerpt: Andrew Hutton is going to replace John Elwell as cochair of SIPREC.
+  - kind: proceedings
+    listed_in: 5
+    first: '2010-03-26'
+    last: '2011-03-27'
+    examples:
+    - date: '2010-03-26'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/siprec.html
+    - date: '2010-07-25'
+      subject: IETF 78 proceedings charter
+      url: https://www.ietf.org/proceedings/78/isiprec.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/siprec.html
   - kind: session requests
     meetings:
     - '79'
@@ -38,13 +52,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-07-25'
+      date: '2010-03-26'
       not_before: '2010-02-09'
     end:
       certainty: group-closed
       date: '2016-12-23'
     notes:
     - start moved earlier by session request for IETF 78
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2014-06-11'
@@ -61,6 +76,20 @@ chairs:
     - date: '2014-06-02'
       subject: '[siprec] Working Group Last Call on -protocol'
       url: https://mailarchive.ietf.org/arch/msg/siprec/INFlaeQS859mDzit53S8-_MvdTg/
+  - kind: proceedings
+    listed_in: 21
+    first: '2010-03-26'
+    last: '2016-07-17'
+    examples:
+    - date: '2010-03-26'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/siprec.html
+    - date: '2010-07-25'
+      subject: IETF 78 proceedings charter
+      url: https://www.ietf.org/proceedings/78/isiprec.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/siprec.html
   - kind: session requests
     meetings:
     - '78'
@@ -96,6 +125,20 @@ chairs:
     date: '2014-06-11'
     subject: 'WG Action: Rechartered SIP Recording (siprec)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/XFMT6tkutyJx2D1r2T4mkXM1qmk/
+  - kind: proceedings
+    listed_in: 16
+    first: '2011-07-24'
+    last: '2016-07-17'
+    examples:
+    - date: '2011-07-24'
+      subject: IETF 81 proceedings charter
+      url: https://www.ietf.org/proceedings/81/siprec.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/siprec.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/siprec.html
   - kind: session requests
     meetings:
     - '82'

@@ -13,10 +13,13 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2006-03-17'
+      not_after: '2006-03-09'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2010-01-19'
+      not_after: '2010-03-21'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2006-03-17'
@@ -42,6 +45,24 @@ chairs:
     - date: '2007-09-27'
       subject: '[EAI] WG Last Call on core documents has ended'
       url: https://mailarchive.ietf.org/arch/msg/ima/rUo6kDa6mmGSBpNtSfCxTR3mnmE/
+  - kind: proceedings
+    listed_in: 6
+    first: '2006-03-09'
+    last: '2009-11-08'
+    examples:
+    - date: '2006-03-09'
+      subject: IETF 65 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/65/eai.html
+    - date: '2006-07-09'
+      subject: IETF 66 proceedings charter
+      url: https://www.ietf.org/proceedings/66/eai.html
+    - date: '2009-11-08'
+      subject: IETF 76 proceedings charter
+      url: https://www.ietf.org/proceedings/76/eai.html
+  - kind: minutes without them
+    date: '2011-07-24'
+    subject: '[EAI] 81 IETF EAI meeting minutes'
+    url: https://mailarchive.ietf.org/arch/msg/ima/IKbkrfpXWLDPCM8erf4ywgEvFec/
   - kind: session requests
     meetings:
     - '67'
@@ -53,19 +74,75 @@ chairs:
     - '73'
     - '75'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 106368
+  name: XiaoDong Lee
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-05-01'
+    end:
+      certainty: between
+      not_before: '2010-03-21'
+      not_after: '2010-06-08'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: chair activity
+    first: '2006-05-01'
+    last: '2006-06-27'
+    messages: 4
+    examples:
+    - date: '2006-05-01'
+      subject: '[EAI] EAI WG Interim Meeting'
+      url: https://mailarchive.ietf.org/arch/msg/ima/rtdBbCdQ0UXYW8Z6lvA4-R9uZN0/
+    - date: '2006-06-05'
+      subject: '[EAI] jabber server of the EAI interim meeting is changed'
+      url: https://mailarchive.ietf.org/arch/msg/ima/bSPitxiqMOCOa2HmtFWNI_4XgaA/
+  - kind: minutes
+    listed_in: 1
+    first: '2010-03-21'
+    last: '2010-03-21'
+    examples:
+    - date: '2010-03-21'
+      subject: '[EAI] EAI minutes at IETF 77'
+      url: https://mailarchive.ietf.org/arch/msg/ima/N-AyOvCg-B6vmBFrjaTtoIsflNY/
+  - kind: proceedings
+    listed_in: 5
+    first: '2006-07-09'
+    last: '2009-11-08'
+    examples:
+    - date: '2006-07-09'
+      subject: IETF 66 proceedings charter
+      url: https://www.ietf.org/proceedings/66/eai.html
+    - date: '2006-08-15'
+      subject: IETF 67 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/67/eai.html
+    - date: '2009-11-08'
+      subject: IETF 76 proceedings charter
+      url: https://www.ietf.org/proceedings/76/eai.html
+  - kind: minutes without them
+    date: '2011-07-24'
+    subject: '[EAI] 81 IETF EAI meeting minutes'
+    url: https://mailarchive.ietf.org/arch/msg/ima/IKbkrfpXWLDPCM8erf4ywgEvFec/
+  - kind: session requests
+    meetings:
+    - '66'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
 - person: 106911
   name: John Klensin
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-06-08'
+      date: '2010-03-21'
       not_before: '2006-02-08'
     end:
       certainty: group-closed
       date: '2013-03-18'
     notes:
     - start moved earlier by WG Action announcement of 2010-06-08
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Review
     date: '2010-05-24'
@@ -92,6 +169,31 @@ chairs:
     - date: '2012-07-17'
       subject: '[EAI] EAI agenda for IETF 84'
       url: https://mailarchive.ietf.org/arch/msg/ima/IhH891qQAi1FTCiZz30taIMI5OE/
+  - kind: minutes
+    listed_in: 2
+    first: '2011-07-24'
+    last: '2012-07-29'
+    examples:
+    - date: '2011-07-24'
+      subject: '[EAI] 81 IETF EAI meeting minutes'
+      url: https://mailarchive.ietf.org/arch/msg/ima/IKbkrfpXWLDPCM8erf4ywgEvFec/
+    - date: '2012-07-29'
+      subject: '[EAI] IETF 84 EAI Minutes Uploaded'
+      url: https://mailarchive.ietf.org/arch/msg/ima/B0VAqqAKOvCe6x_IximT7ZQFH6A/
+  - kind: proceedings
+    listed_in: 6
+    first: '2010-03-21'
+    last: '2011-11-13'
+    examples:
+    - date: '2010-03-21'
+      subject: IETF 77 proceedings charter
+      url: https://www.ietf.org/proceedings/77/eai.html
+    - date: '2010-06-08'
+      subject: IETF 78 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/78/eai.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/eai.html
   - kind: shepherded
     documents:
     - draft-ietf-eai-5738bis
@@ -104,13 +206,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-07-25'
+      date: '2010-03-21'
       not_before: '2006-02-08'
     end:
       certainty: group-closed
       date: '2013-03-18'
     notes:
     - start moved earlier by session request for IETF 78
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2011-03-17'
@@ -132,6 +235,31 @@ chairs:
     - date: '2012-07-10'
       subject: '[EAI] WG Last Call to RFC5721bis, RFC5738bis, draft-ietf-eai-popimap-downgrade, draft-ietf-eai-simpledowngrade'
       url: https://mailarchive.ietf.org/arch/msg/ima/9RrqXhDK3v2LlfrKEHltl9L044o/
+  - kind: minutes
+    listed_in: 2
+    first: '2011-07-24'
+    last: '2012-07-29'
+    examples:
+    - date: '2011-07-24'
+      subject: '[EAI] 81 IETF EAI meeting minutes'
+      url: https://mailarchive.ietf.org/arch/msg/ima/IKbkrfpXWLDPCM8erf4ywgEvFec/
+    - date: '2012-07-29'
+      subject: '[EAI] IETF 84 EAI Minutes Uploaded'
+      url: https://mailarchive.ietf.org/arch/msg/ima/B0VAqqAKOvCe6x_IximT7ZQFH6A/
+  - kind: proceedings
+    listed_in: 6
+    first: '2010-03-21'
+    last: '2011-11-13'
+    examples:
+    - date: '2010-03-21'
+      subject: IETF 77 proceedings charter
+      url: https://www.ietf.org/proceedings/77/eai.html
+    - date: '2010-06-08'
+      subject: IETF 78 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/78/eai.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/eai.html
   - kind: session requests
     meetings:
     - '78'

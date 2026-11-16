@@ -13,8 +13,19 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-02-25'
+      date: '2005-01-25'
       not_before: '2005-01-19'
     end:
       certainty: group-closed
       date: '2011-02-25'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2005-01-25'
+    last: '2005-01-25'
+    examples:
+    - date: '2005-01-25'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/lowpan.html

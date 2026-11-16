@@ -26,19 +26,34 @@ chairs:
     subject: '[Isms] New co-chair'
     url: https://mailarchive.ietf.org/arch/msg/isms/PK-dTcGRdvKnwIB-vPgX9k0wQw0/
     excerpt: Tim and I are happy to announce that Russ Mundy has agreed to co-chair the ISMS WG with Juergen.
+  - kind: proceedings
+    listed_in: 6
+    first: '2009-08-04'
+    last: '2011-03-27'
+    examples:
+    - date: '2009-08-04'
+      subject: IETF 75 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/75/isms.html
+    - date: '2009-11-08'
+      subject: IETF 76 proceedings charter
+      url: https://www.ietf.org/proceedings/76/isms.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/isms.html
 - person: 21106
   name: Jürgen Schönwälder
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-10-25'
+      date: '2005-10-24'
       not_before: '2004-09-02'
     end:
       certainty: group-closed
       date: '2011-08-12'
     notes:
     - start moved earlier by WG Action announcement of 2005-10-25
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2005-10-25'
@@ -72,6 +87,20 @@ chairs:
     - date: '2009-10-29'
       subject: '[Isms] wg last call on the (d)tls transport model'
       url: https://mailarchive.ietf.org/arch/msg/isms/8ah-r_EhyyePQF38itmJYXJjon8/
+  - kind: proceedings
+    listed_in: 12
+    first: '2005-10-24'
+    last: '2011-03-27'
+    examples:
+    - date: '2005-10-24'
+      subject: IETF 64 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/64/isms.html
+    - date: '2006-02-23'
+      subject: IETF 65 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/65/iisms.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/isms.html
   - kind: session requests
     meetings:
     - '72'
@@ -124,6 +153,20 @@ chairs:
     - date: '2004-11-09'
       subject: '[Isms] DRAFT minutes for ISMS'
       url: https://mailarchive.ietf.org/arch/msg/isms/zQZKoEUQYUH2igcaBA-_HEzezic/
+  - kind: proceedings
+    listed_in: 3
+    first: '2004-10-04'
+    last: '2005-07-08'
+    examples:
+    - date: '2004-10-04'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/isms.html
+    - date: '2005-02-02'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/isms.html
+    - date: '2005-07-08'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/isms.html
 - person: 103651
   name: Juergen Quittek
   status: unconfirmed
@@ -132,8 +175,11 @@ chairs:
       certainty: evidence-only
       not_after: '2004-09-23'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2007-07-22'
+      not_after: '2009-08-04'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2004-09-23'
@@ -167,6 +213,24 @@ chairs:
     - date: '2007-07-18'
       subject: '[Isms] Working Group Last Call on three documents'
       url: https://mailarchive.ietf.org/arch/msg/isms/DcHFXMjNHROVNddHCrhWxwWpf5k/
+  - kind: proceedings
+    listed_in: 7
+    first: '2004-10-04'
+    last: '2007-05-08'
+    examples:
+    - date: '2004-10-04'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/isms.html
+    - date: '2005-02-02'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/isms.html
+    - date: '2007-05-08'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/isms.html
+  - kind: minutes without them
+    date: '2009-08-04'
+    subject: IETF 75 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/75/isms.html
   - kind: session requests
     meetings:
     - '65'

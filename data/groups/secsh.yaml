@@ -13,8 +13,50 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-10-09'
+      date: '2000-07-25'
       not_before: '1997-02-14'
     end:
       certainty: group-closed
       date: '2006-10-09'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 13
+    first: '2000-07-25'
+    last: '2005-09-08'
+    examples:
+    - date: '2000-07-25'
+      subject: IETF 48 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/48/00july-114.htm
+    - date: '2000-11-14'
+      subject: IETF 49 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/49/00dec-120.htm
+    - date: '2005-09-08'
+      subject: IETF 64 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/64/secsh.html
+- person: 15955
+  name: Perry Metzger
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1997-02-26'
+    end:
+      certainty: evidence-only
+      not_before: '1999-06-04'
+  evidence:
+  - kind: proceedings
+    listed_in: 5
+    first: '1997-02-26'
+    last: '1999-06-04'
+    examples:
+    - date: '1997-02-26'
+      subject: IETF 40 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-109.htm
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtft107.htm
+    - date: '1999-06-04'
+      subject: IETF 45 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-112.html

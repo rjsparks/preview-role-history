@@ -7,6 +7,35 @@ started: '2015-04-15'
 closed: '2017-06-07'
 history_url: https://datatracker.ietf.org/group/geojson/history/
 chairs:
+- person: 104140
+  name: Ben Campbell
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2014-07-20'
+    end:
+      certainty: between
+      not_before: '2015-03-22'
+      not_after: '2015-07-19'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2014-07-20'
+    last: '2015-03-22'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/geojson.html
+    - date: '2015-03-22'
+      subject: IETF 92 proceedings charter
+      url: https://www.ietf.org/proceedings/92/geojson.html
+  - kind: minutes without them
+    date: '2015-07-19'
+    subject: IETF 93 proceedings charter
+    url: https://www.ietf.org/proceedings/93/geojson.html
 - person: 105648
   name: Erik Wilde
   status: confirmed
@@ -22,6 +51,20 @@ chairs:
     date: '2015-10-02'
     subject: 'WG Action: Formed Geographic JSON (geojson)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/uXOz5DATwmOviETQqD3pfflFFHg/
+  - kind: proceedings
+    listed_in: 4
+    first: '2015-07-19'
+    last: '2016-07-17'
+    examples:
+    - date: '2015-07-19'
+      subject: IETF 93 proceedings charter
+      url: https://www.ietf.org/proceedings/93/geojson.html
+    - date: '2015-11-01'
+      subject: IETF 94 proceedings charter
+      url: https://www.ietf.org/proceedings/94/geojson.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/geojson.html
 - person: 107131
   name: Martin Thomson
   status: confirmed
@@ -51,9 +94,52 @@ chairs:
     - date: '2016-04-08'
       subject: '[Geojson] Call for adoption of draft-gillies-geojson-text-seq-00'
       url: https://mailarchive.ietf.org/arch/msg/geojson/Li-GBbedoG9rD_l_zShBdlPBBDc/
+  - kind: proceedings
+    listed_in: 4
+    first: '2015-07-19'
+    last: '2016-07-17'
+    examples:
+    - date: '2015-07-19'
+      subject: IETF 93 proceedings charter
+      url: https://www.ietf.org/proceedings/93/geojson.html
+    - date: '2015-11-01'
+      subject: IETF 94 proceedings charter
+      url: https://www.ietf.org/proceedings/94/geojson.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/geojson.html
   - kind: shepherded
     documents:
     - draft-butler-geojson
     - draft-gillies-geojson-text-seq
     - draft-ietf-geojson
     - draft-ietf-geojson-text-sequence
+- person: 110077
+  name: Alissa Cooper
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2014-07-20'
+    end:
+      certainty: between
+      not_before: '2015-03-22'
+      not_after: '2015-07-19'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2014-07-20'
+    last: '2015-03-22'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/geojson.html
+    - date: '2015-03-22'
+      subject: IETF 92 proceedings charter
+      url: https://www.ietf.org/proceedings/92/geojson.html
+  - kind: minutes without them
+    date: '2015-07-19'
+    subject: IETF 93 proceedings charter
+    url: https://www.ietf.org/proceedings/93/geojson.html

@@ -13,15 +13,30 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1999-10-27'
+      date: '1999-10-26'
       not_before: '1999-10-01'
     end:
       certainty: group-closed
       date: '2001-06-28'
     notes:
     - start moved earlier by WG Action announcement of 1999-10-27
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '1999-10-27'
     subject: 'WG ACTION: Endpoint Congestion Management (ecm)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/TEj3u-WfBOymvcIWuyJ0jWOt5-E/
+  - kind: proceedings
+    listed_in: 5
+    first: '1999-10-26'
+    last: '2001-03-14'
+    examples:
+    - date: '1999-10-26'
+      subject: IETF 46 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-134.html
+    - date: '2000-02-03'
+      subject: IETF 47 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-127.html
+    - date: '2001-03-14'
+      subject: IETF 50 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/50/ietf50-138.htm

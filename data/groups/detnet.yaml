@@ -18,6 +18,15 @@ chairs:
       certainty: between
       not_before: '2015-02-10'
       not_after: '2015-06-11'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2014-11-09'
+    last: '2014-11-09'
+    examples:
+    - date: '2014-11-09'
+      subject: IETF 91 proceedings charter
+      url: https://www.ietf.org/proceedings/91/detnet.html
 - person: 10064
   name: Lou Berger
   status: confirmed
@@ -71,6 +80,17 @@ chairs:
     - date: '2017-09-12'
       subject: '[Detnet] WG adoption poll draft-sdt-detnet-security-01'
       url: https://mailarchive.ietf.org/arch/msg/detnet/GwuuGZtx-IeFUmn77UyQCckGeDU/
+  - kind: proceedings
+    listed_in: 2
+    first: '2015-07-19'
+    last: '2015-11-01'
+    examples:
+    - date: '2015-07-19'
+      subject: IETF 93 proceedings charter
+      url: https://www.ietf.org/proceedings/93/detnet.html
+    - date: '2015-11-01'
+      subject: IETF 94 proceedings charter
+      url: https://www.ietf.org/proceedings/94/detnet.html
   - kind: shepherded
     documents:
     - draft-ietf-detnet-architecture
@@ -95,6 +115,15 @@ chairs:
     end:
       certainty: approximate
       date: '2015-02-10'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2014-11-09'
+    last: '2014-11-09'
+    examples:
+    - date: '2014-11-09'
+      subject: IETF 91 proceedings charter
+      url: https://www.ietf.org/proceedings/91/detnet.html
 - person: 112851
   name: Patricia Thaler
   status: confirmed
@@ -128,6 +157,17 @@ chairs:
     - date: '2017-11-27'
       subject: '[Detnet] WG adoption poll draft-farkas-detnet-flow-information-model'
       url: https://mailarchive.ietf.org/arch/msg/detnet/bTL9zHecaFJbL-2H-kOyyTkwnvc/
+  - kind: proceedings
+    listed_in: 2
+    first: '2015-07-19'
+    last: '2015-11-01'
+    examples:
+    - date: '2015-07-19'
+      subject: IETF 93 proceedings charter
+      url: https://www.ietf.org/proceedings/93/detnet.html
+    - date: '2015-11-01'
+      subject: IETF 94 proceedings charter
+      url: https://www.ietf.org/proceedings/94/detnet.html
 - person: 115824
   name: Pascal Thubert
   status: confirmed

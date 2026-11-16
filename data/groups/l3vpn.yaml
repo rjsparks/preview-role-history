@@ -19,16 +19,55 @@ chairs:
       certainty: between
       not_before: '2011-12-09'
       not_after: '2014-03-05'
+- person: 2492
+  name: Rick Wilder
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2003-07-09'
+    end:
+      certainty: between
+      not_before: '2008-03-09'
+      not_after: '2009-03-22'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 13
+    first: '2003-07-09'
+    last: '2007-08-15'
+    examples:
+    - date: '2003-07-09'
+      subject: IETF 57 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/57/143.htm
+    - date: '2003-09-25'
+      subject: IETF 58 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/58/139.htm
+    - date: '2007-08-15'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/l3vpn.html
+  - kind: minutes without them
+    date: '2009-03-22'
+    subject: IETF 74 proceedings charter
+    url: https://www.ietf.org/proceedings/74/l3vpn.html
+  - kind: session requests
+    meetings:
+    - '71'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
 - person: 2723
   name: Ross Callon
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2003-11-03'
+      not_after: '2003-07-09'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2006-03-19'
+      not_after: '2006-03-30'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2004-06-02'
@@ -45,6 +84,24 @@ chairs:
     - date: '2003-11-11'
       subject: Draft Agenda for Working Group meeting
       url: https://mailarchive.ietf.org/arch/msg/l3vpn/KvZm0KeFndKhq0TCrBhN6cmSnMs/
+  - kind: proceedings
+    listed_in: 9
+    first: '2003-07-09'
+    last: '2005-09-20'
+    examples:
+    - date: '2003-07-09'
+      subject: IETF 57 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/57/143.htm
+    - date: '2003-09-25'
+      subject: IETF 58 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/58/139.htm
+    - date: '2005-09-20'
+      subject: IETF 65 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/65/l3vpn.html
+  - kind: minutes without them
+    date: '2006-03-30'
+    subject: IETF 66 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/66/l3vpn.html
   - kind: session requests
     meetings:
     - '65'
@@ -55,7 +112,7 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2009-06-03'
+      date: '2009-03-22'
       not_before: '2003-06-09'
     end:
       certainty: between
@@ -64,6 +121,7 @@ chairs:
     notes:
     - start moved earlier by WG Action announcement of 2011-03-21
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2011-03-21'
@@ -89,16 +147,33 @@ chairs:
     - date: '2009-06-03'
       subject: 'WG Last Call: draft-ietf-l3vpn-mvpn-considerations-03'
       url: https://mailarchive.ietf.org/arch/msg/l3vpn/e41H-jfR5UCrKZvFGa0nYgxuVhk/
+  - kind: proceedings
+    listed_in: 9
+    first: '2009-03-22'
+    last: '2011-11-13'
+    examples:
+    - date: '2009-03-22'
+      subject: IETF 74 proceedings charter
+      url: https://www.ietf.org/proceedings/74/l3vpn.html
+    - date: '2009-07-26'
+      subject: IETF 75 proceedings charter
+      url: https://www.ietf.org/proceedings/75/l3vpn.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/l3vpn.html
 - person: 101568
   name: Ron Bonica
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2003-07-22'
+      not_after: '2003-07-09'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2008-07-27'
+      not_after: '2009-03-22'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2004-06-02'
@@ -124,6 +199,24 @@ chairs:
     - date: '2005-03-10'
       subject: IETF 62 minutes
       url: https://mailarchive.ietf.org/arch/msg/l3vpn/DVgS5a76P3NHTsPWBLOJ3m2TR_8/
+  - kind: proceedings
+    listed_in: 13
+    first: '2003-07-09'
+    last: '2007-08-15'
+    examples:
+    - date: '2003-07-09'
+      subject: IETF 57 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/57/143.htm
+    - date: '2003-09-25'
+      subject: IETF 58 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/58/139.htm
+    - date: '2007-08-15'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/l3vpn.html
+  - kind: minutes without them
+    date: '2009-03-22'
+    subject: IETF 74 proceedings charter
+    url: https://www.ietf.org/proceedings/74/l3vpn.html
   - kind: session requests
     meetings:
     - '66'
@@ -187,6 +280,20 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 73
   evidence:
+  - kind: proceedings
+    listed_in: 9
+    first: '2009-03-22'
+    last: '2011-11-13'
+    examples:
+    - date: '2009-03-22'
+      subject: IETF 74 proceedings charter
+      url: https://www.ietf.org/proceedings/74/l3vpn.html
+    - date: '2009-07-26'
+      subject: IETF 75 proceedings charter
+      url: https://www.ietf.org/proceedings/75/l3vpn.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/l3vpn.html
   - kind: session requests
     meetings:
     - '73'
@@ -240,6 +347,20 @@ chairs:
     - date: '2011-12-06'
       subject: 'WG Last Call: draft-ietf-l3vpn-mvpn-wildcards-00'
       url: https://mailarchive.ietf.org/arch/msg/l3vpn/n1HGUrpfqmjRCdZ0PlGjzKLnzBc/
+  - kind: proceedings
+    listed_in: 8
+    first: '2009-07-26'
+    last: '2011-11-13'
+    examples:
+    - date: '2009-07-26'
+      subject: IETF 75 proceedings charter
+      url: https://www.ietf.org/proceedings/75/l3vpn.html
+    - date: '2009-10-07'
+      subject: IETF 76 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/76/l3vpn.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/l3vpn.html
   - kind: session requests
     meetings:
     - '77'

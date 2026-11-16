@@ -13,19 +13,53 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2001-03-30'
+      date: '1999-02-26'
       not_before: '1999-02-21'
     end:
       certainty: group-closed
       date: '2001-03-30'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 6
+    first: '1999-02-26'
+    last: '2001-03-14'
+    examples:
+    - date: '1999-02-26'
+      subject: IETF 44 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-37.html
+    - date: '1999-06-24'
+      subject: IETF 45 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-36.html
+    - date: '2001-03-14'
+      subject: IETF 50 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/50/ietf50-36.htm
 - person: 103230
   name: Bill Maggs
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2001-03-30'
+      date: '1999-02-26'
       not_before: '1999-02-21'
     end:
       certainty: group-closed
       date: '2001-03-30'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 6
+    first: '1999-02-26'
+    last: '2001-03-14'
+    examples:
+    - date: '1999-02-26'
+      subject: IETF 44 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-37.html
+    - date: '1999-06-24'
+      subject: IETF 45 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-36.html
+    - date: '2001-03-14'
+      subject: IETF 50 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/50/ietf50-36.htm

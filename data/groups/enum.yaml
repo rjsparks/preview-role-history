@@ -13,13 +13,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-12-08'
+      date: '2001-03-14'
       not_before: '1999-10-04'
     end:
       certainty: group-closed
       date: '2011-05-10'
     notes:
     - start moved earlier by WG Action announcement of 2005-12-08
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Review
     date: '2005-11-03'
@@ -29,16 +30,47 @@ chairs:
     date: '2005-12-08'
     subject: 'WG Action: RECHARTER: Telephone Number Mapping (enum)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/I-h_hH4_2qoqMzHF4_1tL9h_Sws/
+  - kind: minutes
+    listed_in: 4
+    first: '2002-03-17'
+    last: '2004-02-29'
+    examples:
+    - date: '2002-03-17'
+      subject: '[Enum] IETF 53 ENUM WG Minutes Preliminary'
+      url: https://mailarchive.ietf.org/arch/msg/enum/7tZBMhuuRx-ENMfCCoUPT4vlBzg/
+    - date: '2002-04-12'
+      subject: '[Enum] FINAL Minutes IETF 43 - ENUM WG'
+      url: https://mailarchive.ietf.org/arch/msg/enum/Tg8rkPmCpIGawTM35tbHmmz8cQ4/
+    - date: '2004-02-29'
+      subject: '[Enum] Preliminary Minutes of ENUM WG IETF 59'
+      url: https://mailarchive.ietf.org/arch/msg/enum/gtWArAuc3vlz0mFZId7fqyXpHi8/
+  - kind: proceedings
+    listed_in: 23
+    first: '2001-03-14'
+    last: '2011-03-27'
+    examples:
+    - date: '2001-03-14'
+      subject: IETF 50 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/50/ietf50-157.htm
+    - date: '2001-07-31'
+      subject: IETF 51 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/51/51-152.htm
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/enum.html
 - person: 19789
   name: Scott Petrack
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '1999-10-29'
+      not_after: '1999-10-28'
     end:
-      certainty: evidence-only
-      not_before: '2000-03-22'
+      certainty: between
+      not_before: '2000-07-17'
+      not_after: '2001-03-14'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '1999-10-29'
@@ -52,13 +84,31 @@ chairs:
     - date: '2000-03-22'
       subject: '[Enum] Agenda for ENUM and Adelaide - The WG chair comes clean'
       url: https://mailarchive.ietf.org/arch/msg/enum/iaSsgWTN-mPa9fWiNykUr3FeVEw/
+  - kind: proceedings
+    listed_in: 3
+    first: '1999-10-28'
+    last: '2000-07-17'
+    examples:
+    - date: '1999-10-28'
+      subject: IETF 46 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-156.html
+    - date: '2000-02-03'
+      subject: IETF 47 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-147.html
+    - date: '2000-07-17'
+      subject: IETF 48 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/48/00july-144.htm
+  - kind: minutes without them
+    date: '2002-03-17'
+    subject: '[Enum] IETF 53 ENUM WG Minutes Preliminary'
+    url: https://mailarchive.ietf.org/arch/msg/enum/7tZBMhuuRx-ENMfCCoUPT4vlBzg/
 - person: 101219
   name: Richard Shockey
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-02-03'
+      date: '2000-07-17'
       not_before: '1999-10-04'
     end:
       certainty: group-closed
@@ -66,6 +116,7 @@ chairs:
     notes:
     - start moved earlier by WG Action announcement of 2005-12-08
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Review
     date: '2005-11-03'
@@ -95,6 +146,34 @@ chairs:
     - date: '2008-09-06'
       subject: '[Enum] Working Group Last Call on enumservices guide 12'
       url: https://mailarchive.ietf.org/arch/msg/enum/aac6NTCqbfN28EZd4c7BXnNpjZs/
+  - kind: minutes
+    listed_in: 4
+    first: '2002-03-17'
+    last: '2004-02-29'
+    examples:
+    - date: '2002-03-17'
+      subject: '[Enum] IETF 53 ENUM WG Minutes Preliminary'
+      url: https://mailarchive.ietf.org/arch/msg/enum/7tZBMhuuRx-ENMfCCoUPT4vlBzg/
+    - date: '2002-04-12'
+      subject: '[Enum] FINAL Minutes IETF 43 - ENUM WG'
+      url: https://mailarchive.ietf.org/arch/msg/enum/Tg8rkPmCpIGawTM35tbHmmz8cQ4/
+    - date: '2004-02-29'
+      subject: '[Enum] Preliminary Minutes of ENUM WG IETF 59'
+      url: https://mailarchive.ietf.org/arch/msg/enum/gtWArAuc3vlz0mFZId7fqyXpHi8/
+  - kind: proceedings
+    listed_in: 25
+    first: '2000-07-17'
+    last: '2011-03-27'
+    examples:
+    - date: '2000-07-17'
+      subject: IETF 48 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/48/00july-144.htm
+    - date: '2000-11-20'
+      subject: IETF 49 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/49/00dec-154.htm
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/enum.html
   - kind: session requests
     meetings:
     - '65'
@@ -113,13 +192,15 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-07-25'
-      not_before: '1999-10-04'
+      date: '2009-11-23'
+      not_before: '2004-02-29'
     end:
       certainty: group-closed
       date: '2011-05-10'
     notes:
     - start moved earlier by session request for IETF 78
+    - widened to cover charter snapshots in proceedings
+    - bounded by minutes listing other chairs
   evidence:
   - kind: chair activity
     first: '2010-04-09'
@@ -132,6 +213,24 @@ chairs:
     - date: '2010-07-17'
       subject: '[Enum] Updated ENUM WG session agenda for IETF-78'
       url: https://mailarchive.ietf.org/arch/msg/enum/pEY_5Mxk93HfvU6tlB3defF46JE/
+  - kind: proceedings
+    listed_in: 4
+    first: '2009-11-23'
+    last: '2011-03-27'
+    examples:
+    - date: '2009-11-23'
+      subject: IETF 76 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/76/enum.html
+    - date: '2010-04-01'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/enum.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/enum.html
+  - kind: minutes without them
+    date: '2004-02-29'
+    subject: '[Enum] Preliminary Minutes of ENUM WG IETF 59'
+    url: https://mailarchive.ietf.org/arch/msg/enum/gtWArAuc3vlz0mFZId7fqyXpHi8/
   - kind: session requests
     meetings:
     - '78'

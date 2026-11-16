@@ -39,6 +39,20 @@ chairs:
     - date: '2009-12-01'
       subject: '[calsify] WGLC for draft-ietf-calsify-rfc2447bis-07.txt'
       url: https://mailarchive.ietf.org/arch/msg/calsify/mXHIV9OM_cW8hcXrrapUqcxtNzY/
+  - kind: proceedings
+    listed_in: 5
+    first: '2006-07-26'
+    last: '2010-03-25'
+    examples:
+    - date: '2006-07-26'
+      subject: IETF 66 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/66/calsify.html
+    - date: '2007-04-16'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/calsify.html
+    - date: '2010-03-25'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/calsify.html
   - kind: session requests
     meetings:
     - '67'
@@ -53,25 +67,46 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2005-07-28'
+      not_after: '2005-07-27'
     end:
-      certainty: evidence-only
-      not_before: '2005-07-28'
+      certainty: between
+      not_before: '2005-11-11'
+      not_after: '2006-07-26'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2005-07-28'
     subject: 'WG Action: Calendaring and Scheduling Standards Simplification (calsify)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/o90-L7-rDgPCqYiqBlai0Oh58tk/
+  - kind: proceedings
+    listed_in: 3
+    first: '2005-07-27'
+    last: '2005-11-11'
+    examples:
+    - date: '2005-07-27'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/calsify.html
+    - date: '2005-10-03'
+      subject: IETF 64 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/64/calsify.html
+    - date: '2005-11-11'
+      subject: IETF 65 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/65/calsify.html
+  - kind: minutes without them
+    date: '2006-07-26'
+    subject: IETF 66 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/66/calsify.html
 - person: 105274
   name: Aki Niemi
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2005-07-28'
+      not_after: '2005-07-27'
     end:
       certainty: evidence-only
-      not_before: '2008-04-14'
+      not_before: '2008-04-23'
   evidence:
   - kind: WG Action
     date: '2005-07-28'
@@ -89,6 +124,20 @@ chairs:
     - date: '2008-04-14'
       subject: '[Ietf-calsify] IETF71 draft minutes posted'
       url: https://mailarchive.ietf.org/arch/msg/calsify/FDjHNkbVCrw54R97rYe94xTd8Bk/
+  - kind: proceedings
+    listed_in: 7
+    first: '2005-07-27'
+    last: '2008-04-23'
+    examples:
+    - date: '2005-07-27'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/calsify.html
+    - date: '2005-10-03'
+      subject: IETF 64 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/64/calsify.html
+    - date: '2008-04-23'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/calsify.html
   - kind: session requests
     meetings:
     - '65'

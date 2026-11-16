@@ -39,6 +39,20 @@ chairs:
     - date: '2016-11-21'
       subject: '[lmap] WGLC for draft-ietf-lmap-information-model-13'
       url: https://mailarchive.ietf.org/arch/msg/lmap/9gKYVHASeMuYJBpC_ipQfJAsTfk/
+  - kind: proceedings
+    listed_in: 13
+    first: '2012-11-04'
+    last: '2016-11-13'
+    examples:
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/lmap.html
+    - date: '2013-03-10'
+      subject: IETF 86 proceedings charter
+      url: https://www.ietf.org/proceedings/86/lmap.html
+    - date: '2016-11-13'
+      subject: IETF 97 proceedings charter
+      url: https://www.ietf.org/proceedings/97/lmap.html
   - kind: shepherded
     documents:
     - draft-ietf-lmap-framework
@@ -56,6 +70,18 @@ chairs:
     end:
       certainty: exact
       date: '2013-06-04'
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2012-11-04'
+    last: '2013-03-10'
+    examples:
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/lmap.html
+    - date: '2013-03-10'
+      subject: IETF 86 proceedings charter
+      url: https://www.ietf.org/proceedings/86/lmap.html
 - person: 110305
   name: Jason Weil
   status: confirmed
@@ -66,3 +92,18 @@ chairs:
     end:
       certainty: group-closed
       date: '2018-02-23'
+  evidence:
+  - kind: proceedings
+    listed_in: 11
+    first: '2013-07-28'
+    last: '2016-11-13'
+    examples:
+    - date: '2013-07-28'
+      subject: IETF 87 proceedings charter
+      url: https://www.ietf.org/proceedings/87/lmap.html
+    - date: '2013-11-03'
+      subject: IETF 88 proceedings charter
+      url: https://www.ietf.org/proceedings/88/lmap.html
+    - date: '2016-11-13'
+      subject: IETF 97 proceedings charter
+      url: https://www.ietf.org/proceedings/97/lmap.html

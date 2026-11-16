@@ -25,6 +25,20 @@ chairs:
     date: '2002-02-18'
     subject: 'WG ACTION: Content Distribution Internetworking (cdi)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/dX395miTXNZB1ejMw9li2j_tm8k/
+  - kind: proceedings
+    listed_in: 3
+    first: '2002-02-21'
+    last: '2002-10-10'
+    examples:
+    - date: '2002-02-21'
+      subject: IETF 53 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/53/106.htm
+    - date: '2002-04-04'
+      subject: IETF 54 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/54/105.htm
+    - date: '2002-10-10'
+      subject: IETF 56 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/56/105.htm
 - person: 104857
   name: Phillip Rzewski
   status: unconfirmed
@@ -34,9 +48,20 @@ chairs:
       not_after: '2002-02-18'
     end:
       certainty: evidence-only
-      not_before: '2002-02-18'
+      not_before: '2002-04-04'
   evidence:
   - kind: WG Action
     date: '2002-02-18'
     subject: 'WG ACTION: Content Distribution Internetworking (cdi)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/dX395miTXNZB1ejMw9li2j_tm8k/
+  - kind: proceedings
+    listed_in: 2
+    first: '2002-02-21'
+    last: '2002-04-04'
+    examples:
+    - date: '2002-02-21'
+      subject: IETF 53 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/53/106.htm
+    - date: '2002-04-04'
+      subject: IETF 54 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/54/105.htm

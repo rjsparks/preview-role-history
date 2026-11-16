@@ -15,26 +15,48 @@ chairs:
       certainty: evidence-only
       not_after: '2001-07-30'
     end:
-      certainty: evidence-only
-      not_before: '2001-07-30'
+      certainty: between
+      not_before: '2003-01-20'
+      not_after: '2003-07-29'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2001-07-30'
     subject: 'WG ACTION: Multicast & Anycast Group Membership (magma)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/ZKk2V7EnCkjA0RpHe2M1V-rw6QU/
+  - kind: proceedings
+    listed_in: 5
+    first: '2001-07-31'
+    last: '2003-01-20'
+    examples:
+    - date: '2001-07-31'
+      subject: IETF 51 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/51/51-56.htm
+    - date: '2001-10-10'
+      subject: IETF 52 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/52/148.htm
+    - date: '2003-01-20'
+      subject: IETF 56 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/56/148.htm
+  - kind: minutes without them
+    date: '2003-07-29'
+    subject: IETF 57 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/57/144.htm
 - person: 20208
   name: Isidor Kouvelas
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-10-28'
+      date: '2003-07-29'
       not_before: '2001-06-20'
     end:
       certainty: group-closed
       date: '2009-03-08'
     notes:
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2003-07-21'
@@ -53,6 +75,20 @@ chairs:
     - date: '2004-08-12'
       subject: '[magma] WG Last Call: draft-ietf-magma-mrdisc-01.txt'
       url: https://mailarchive.ietf.org/arch/msg/magma/yJrEn8GTfq7SQ3K8Kl-QGQ0cTOk/
+  - kind: proceedings
+    listed_in: 8
+    first: '2003-07-29'
+    last: '2006-04-18'
+    examples:
+    - date: '2003-07-29'
+      subject: IETF 57 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/57/144.htm
+    - date: '2003-10-16'
+      subject: IETF 58 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/58/144.htm
+    - date: '2006-04-18'
+      subject: IETF 66 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/66/magma.html
 - person: 100664
   name: Brian Haberman
   status: confirmed
@@ -91,3 +127,17 @@ chairs:
     - date: '2003-02-10'
       subject: '[magma] WG Last Call: draft-ietf-magma-mrdssm-01.txt'
       url: https://mailarchive.ietf.org/arch/msg/magma/4wizZsLY1YHvVVOak8pvRcb-wd0/
+  - kind: proceedings
+    listed_in: 13
+    first: '2001-07-31'
+    last: '2006-04-18'
+    examples:
+    - date: '2001-07-31'
+      subject: IETF 51 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/51/51-56.htm
+    - date: '2001-10-10'
+      subject: IETF 52 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/52/148.htm
+    - date: '2006-04-18'
+      subject: IETF 66 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/66/magma.html

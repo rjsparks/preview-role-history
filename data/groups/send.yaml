@@ -13,19 +13,53 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-08-20'
+      date: '2003-02-12'
       not_before: '2002-09-13'
     end:
       certainty: group-closed
       date: '2004-08-20'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 4
+    first: '2003-02-12'
+    last: '2004-05-25'
+    examples:
+    - date: '2003-02-12'
+      subject: IETF 56 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/56/152.htm
+    - date: '2003-07-29'
+      subject: IETF 57 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/57/150.htm
+    - date: '2004-05-25'
+      subject: IETF 60 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/60/156.htm
 - person: 106286
   name: James Kempf
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-08-20'
+      date: '2003-02-12'
       not_before: '2002-09-13'
     end:
       certainty: group-closed
       date: '2004-08-20'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 4
+    first: '2003-02-12'
+    last: '2004-05-25'
+    examples:
+    - date: '2003-02-12'
+      subject: IETF 56 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/56/152.htm
+    - date: '2003-07-29'
+      subject: IETF 57 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/57/150.htm
+    - date: '2004-05-25'
+      subject: IETF 60 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/60/156.htm

@@ -61,6 +61,20 @@ chairs:
     - date: '2007-10-18'
       subject: '[IPFIX] WG Last Call for draft-ietf-ipfix-testing-02'
       url: https://mailarchive.ietf.org/arch/msg/ipfix/IfBerF6jsYE_U-diJH1FogCil7Q/
+  - kind: proceedings
+    listed_in: 36
+    first: '2001-12-04'
+    last: '2014-11-09'
+    examples:
+    - date: '2001-12-04'
+      subject: IETF 52 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/52/163.htm
+    - date: '2002-03-08'
+      subject: IETF 53 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/53/160.htm
+    - date: '2014-11-09'
+      subject: IETF 91 proceedings charter
+      url: https://www.ietf.org/proceedings/91/ipfix.html
   - kind: session requests
     meetings:
     - '65'
@@ -81,7 +95,7 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-11-13'
+      date: '2006-07-09'
       not_before: '2001-08-17'
     end:
       certainty: group-closed
@@ -89,6 +103,7 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 68
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Review
     date: '2007-11-08'
@@ -122,6 +137,20 @@ chairs:
     - date: '2008-07-31'
       subject: '[IPFIX] WG last call on draft-ietf-ipfix-export-per-sctp-stream-00'
       url: https://mailarchive.ietf.org/arch/msg/ipfix/c72GARcIqZGIoyh0ywDtK97uiEk/
+  - kind: proceedings
+    listed_in: 23
+    first: '2006-07-09'
+    last: '2014-11-09'
+    examples:
+    - date: '2006-07-09'
+      subject: IETF 66 proceedings charter
+      url: https://www.ietf.org/proceedings/66/ipfix.html
+    - date: '2006-10-18'
+      subject: IETF 67 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/67/ipfix.html
+    - date: '2014-11-09'
+      subject: IETF 91 proceedings charter
+      url: https://www.ietf.org/proceedings/91/ipfix.html
   - kind: session requests
     meetings:
     - '68'
@@ -178,3 +207,17 @@ chairs:
     - date: '2001-12-14'
       subject: '[ipfix] IPFIX slides, minutes, etc. from IETF52'
       url: https://mailarchive.ietf.org/arch/msg/ipfix/s0VHIUMQKDLpxAvPL-VWoJbdTHo/
+  - kind: proceedings
+    listed_in: 13
+    first: '2001-12-04'
+    last: '2006-01-19'
+    examples:
+    - date: '2001-12-04'
+      subject: IETF 52 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/52/163.htm
+    - date: '2002-03-08'
+      subject: IETF 53 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/53/160.htm
+    - date: '2006-01-19'
+      subject: IETF 65 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/65/ipfix.html

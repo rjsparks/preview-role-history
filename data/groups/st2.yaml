@@ -13,19 +13,53 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1996-03-15'
+      date: '1994-12-05'
       not_before: '1993-08-30'
     end:
       certainty: group-closed
       date: '1996-03-15'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 4
+    first: '1994-12-05'
+    last: '1995-12-04'
+    examples:
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/int/st2/st2-charter.txt
+    - date: '1995-04-03'
+      subject: IETF 32 proceedings charter
+      url: https://www.ietf.org/proceedings/32/area.and.wg.reports/int/st2/st2-charter.txt
+    - date: '1995-12-04'
+      subject: IETF 34 proceedings charter
+      url: https://www.ietf.org/proceedings/34/area.and.wg.reports/int/st2/st2-charter.txt
 - person: 12058
   name: Luca Delgrossi
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '1996-03-15'
+      date: '1994-03-28'
       not_before: '1993-08-30'
     end:
       certainty: group-closed
       date: '1996-03-15'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 5
+    first: '1994-03-28'
+    last: '1995-12-04'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/int/st2/st2-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/int/st2/st2-charter.txt
+    - date: '1995-12-04'
+      subject: IETF 34 proceedings charter
+      url: https://www.ietf.org/proceedings/34/area.and.wg.reports/int/st2/st2-charter.txt

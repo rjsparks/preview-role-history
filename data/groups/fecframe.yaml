@@ -7,19 +7,57 @@ started: '2006-03-24'
 closed: '2013-03-05'
 history_url: https://datatracker.ietf.org/group/fecframe/history/
 chairs:
+- person: 104017
+  name: Mark Watson
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2005-10-03'
+    end:
+      certainty: between
+      not_before: '2006-01-26'
+      not_after: '2006-05-02'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: chair activity
+    first: '2005-11-22'
+    last: '2005-11-22'
+    messages: 1
+    examples:
+    - date: '2005-11-22'
+      subject: '[Fecframe] IETF64 Fecframe BOF minutes'
+      url: https://mailarchive.ietf.org/arch/msg/fecframe/lMEtPb6-4lO3CuJFslOkPRtB6WY/
+  - kind: proceedings
+    listed_in: 2
+    first: '2005-10-03'
+    last: '2006-01-26'
+    examples:
+    - date: '2005-10-03'
+      subject: IETF 64 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/64/fecframe.html
+    - date: '2006-01-26'
+      subject: IETF 65 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/65/fecframe.html
+  - kind: minutes without them
+    date: '2006-05-02'
+    subject: IETF 66 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/66/fecframe.html
 - person: 106315
   name: Greg Shepherd
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-07-09'
+      date: '2006-05-02'
       not_before: '2006-03-24'
     end:
       certainty: group-closed
       date: '2013-03-05'
     notes:
     - start moved earlier by session request for IETF 66
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2007-04-04'
@@ -41,6 +79,20 @@ chairs:
     - date: '2009-12-04'
       subject: '[Fecframe] WG Last Call - Framework'
       url: https://mailarchive.ietf.org/arch/msg/fecframe/GWT0drYKL20FRbCa0-11twEdyTI/
+  - kind: proceedings
+    listed_in: 11
+    first: '2006-05-02'
+    last: '2012-11-04'
+    examples:
+    - date: '2006-05-02'
+      subject: IETF 66 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/66/fecframe.html
+    - date: '2008-03-03'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/fecframe.html
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/fecframe.html
   - kind: session requests
     meetings:
     - '66'
@@ -60,7 +112,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2008-07-27'
+      not_after: '2006-05-02'
     end:
       certainty: approximate
       date: '2009-11-10'
@@ -81,6 +133,20 @@ chairs:
     - date: '2009-08-18'
       subject: '[Fecframe] WGLC on draft-ietf-fecframe-dvb-al-fec-02'
       url: https://mailarchive.ietf.org/arch/msg/fecframe/yiKvu_CCsL3nzg4v3HwFgxAwgm0/
+  - kind: proceedings
+    listed_in: 3
+    first: '2006-05-02'
+    last: '2008-12-16'
+    examples:
+    - date: '2006-05-02'
+      subject: IETF 66 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/66/fecframe.html
+    - date: '2008-03-03'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/fecframe.html
+    - date: '2008-12-16'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/fecframe.html
   - kind: session requests
     meetings:
     - '72'

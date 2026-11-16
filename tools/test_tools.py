@@ -175,6 +175,13 @@ class RenderTests(DataDirMixin, unittest.TestCase):
             "kind": "chair activity", "first": "2013-07-01", "last": "2015-02-03", "messages": 12,
             "examples": [{"date": "2014-01-02", "subject": "[abc] WGLC: draft-ietf-abc-foo",
                           "url": "https://mailarchive.ietf.org/arch/msg/abc/wglc/"}],
+        }, {
+            "kind": "proceedings", "listed_in": 3, "first": "1997-04-07", "last": "1998-11-25",
+            "examples": [{"date": "1997-04-07", "subject": "IETF 38 proceedings charter",
+                          "url": "https://www.ietf.org/proceedings/38/abc.htm"}],
+        }, {
+            "kind": "minutes without them", "date": "1999-03-01", "subject": "IETF 44 proceedings charter",
+            "url": "https://www.ietf.org/proceedings/44/abc.htm",
         }]
         self.write_group(g)
         out = self.root / "site"
@@ -193,6 +200,8 @@ class RenderTests(DataDirMixin, unittest.TestCase):
         self.assertIn("Group list message about joining, 2013-06-08", person)
         self.assertIn("<q>Please welcome Ada &lt;Chair&gt;.</q>", person)
         self.assertIn('Started 12 chair-type threads', person)
+        self.assertIn("Listed as chair in 3 of the charter snapshots in meeting proceedings", person)
+        self.assertIn('Not listed among the chairs in <a href="https://www.ietf.org/proceedings/44/abc.htm">', person)
         self.assertIn('<a href="https://mailarchive.ietf.org/arch/msg/abc/wglc/">', person)
         self.assertIn("about 1995", (out / "people" / "n-old-timer.html").read_text())
 

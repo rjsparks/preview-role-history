@@ -7,16 +7,65 @@ started: '1992-03-05'
 closed: '2011-03-18'
 history_url: https://datatracker.ietf.org/group/avt/history/
 chairs:
+- person: 2728
+  name: Stephen Casner
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1994-03-28'
+    end:
+      certainty: between
+      not_before: '2003-04-13'
+      not_after: '2003-07-30'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: chair activity
+    first: '2001-09-11'
+    last: '2003-04-13'
+    messages: 7
+    examples:
+    - date: '2001-09-11'
+      subject: '[AVT] Minutes of AVT meeting at IETF 51'
+      url: https://mailarchive.ietf.org/arch/msg/avt/g8mqSCbkpgLAr85qAtOjIszPuA8/
+    - date: '2002-01-15'
+      subject: '[AVT] IETF 52 Salt Lake City meeting minutes'
+      url: https://mailarchive.ietf.org/arch/msg/avt/QvuRvLnsglbqbuGXW6G_nS64HIU/
+    - date: '2002-05-21'
+      subject: '[AVT] WG last call on draft-ietf-avt-srtp-04.txt'
+      url: https://mailarchive.ietf.org/arch/msg/avt/JhVI3zDyu6mddmLmkVicAMWG9_s/
+  - kind: proceedings
+    listed_in: 22
+    first: '1994-03-28'
+    last: '2003-01-21'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/tsv/avt/avt-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/tsv/avt/avt-charter.txt
+    - date: '2003-01-21'
+      subject: IETF 56 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/56/222.htm
+  - kind: minutes without them
+    date: '2006-12-08'
+    subject: '[AVT] Final minutes'
+    url: https://mailarchive.ietf.org/arch/msg/avt/6SFqSHd7bcUE6G3vNCWnWr6RFoA/
 - person: 20209
   name: Colin Perkins
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2001-07-20'
+      not_after: '1998-08-17'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2008-08-12'
+      not_after: '2009-03-22'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2003-10-08'
@@ -61,6 +110,32 @@ chairs:
     - date: '2002-10-09'
       subject: '[AVT] Working group last call: DSR and SMPTE292 payload formats'
       url: https://mailarchive.ietf.org/arch/msg/avt/sb8EfOxbP4B0A89SEXiHdH-paAs/
+  - kind: minutes
+    listed_in: 1
+    first: '2006-12-08'
+    last: '2006-12-08'
+    examples:
+    - date: '2006-12-08'
+      subject: '[AVT] Final minutes'
+      url: https://mailarchive.ietf.org/arch/msg/avt/6SFqSHd7bcUE6G3vNCWnWr6RFoA/
+  - kind: proceedings
+    listed_in: 28
+    first: '1998-08-17'
+    last: '2007-10-23'
+    examples:
+    - date: '1998-08-17'
+      subject: IETF 42 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/42/98aug-128.htm
+    - date: '1998-11-25'
+      subject: IETF 43 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-120.html
+    - date: '2007-10-23'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/avt.html
+  - kind: minutes without them
+    date: '2009-03-22'
+    subject: IETF 74 proceedings charter
+    url: https://www.ietf.org/proceedings/74/avt.html
 - person: 100754
   name: Tom Taylor
   status: unconfirmed
@@ -69,10 +144,12 @@ chairs:
       certainty: approximate
       date: '2006-07-04'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2010-02-09'
+      not_after: '2010-03-21'
     notes:
     - start dated by list message of 2006-07-04
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2006-08-22'
@@ -97,6 +174,24 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/avt/LS_wZSgN8zRdlrIS1zkEftYTJAQ/
     excerpt: I am very please to announce that Tom Taylor and Roni Even are going to join Colin as co-chair
       of AVT.
+  - kind: proceedings
+    listed_in: 8
+    first: '2006-07-09'
+    last: '2009-11-08'
+    examples:
+    - date: '2006-07-09'
+      subject: IETF 66 proceedings charter
+      url: https://www.ietf.org/proceedings/66/avt.html
+    - date: '2006-08-22'
+      subject: IETF 67 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/67/avt.html
+    - date: '2009-11-08'
+      subject: IETF 76 proceedings charter
+      url: https://www.ietf.org/proceedings/76/avt.html
+  - kind: minutes without them
+    date: '2010-03-21'
+    subject: IETF 77 proceedings charter
+    url: https://www.ietf.org/proceedings/77/avt.html
   - kind: session requests
     meetings:
     - '67'
@@ -107,10 +202,13 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2003-09-17'
+      not_after: '2003-07-30'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2011-01-28'
+      not_after: '2011-03-27'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2003-10-08'
@@ -147,6 +245,24 @@ chairs:
     - date: '2004-04-02'
       subject: '[AVT] IETF 59 AVT minutes'
       url: https://mailarchive.ietf.org/arch/msg/avt/DaQKxTUD6NXfTvgSn-zTUTbsfo8/
+  - kind: proceedings
+    listed_in: 9
+    first: '2003-07-30'
+    last: '2006-02-17'
+    examples:
+    - date: '2003-07-30'
+      subject: IETF 57 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/57/224.htm
+    - date: '2003-10-07'
+      subject: IETF 58 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/58/221.htm
+    - date: '2006-02-17'
+      subject: IETF 65 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/65/avt.html
+  - kind: minutes without them
+    date: '2011-03-27'
+    subject: IETF 80 proceedings charter
+    url: https://www.ietf.org/proceedings/80/avt.html
   - kind: session requests
     meetings:
     - '65'
@@ -158,24 +274,47 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-03-18'
-      not_before: '1992-03-05'
+      date: '2010-03-21'
+      not_before: '2006-12-08'
     end:
       certainty: group-closed
       date: '2011-03-18'
+    notes:
+    - widened to cover charter snapshots in proceedings
+    - bounded by minutes listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 4
+    first: '2010-03-21'
+    last: '2011-03-27'
+    examples:
+    - date: '2010-03-21'
+      subject: IETF 77 proceedings charter
+      url: https://www.ietf.org/proceedings/77/avt.html
+    - date: '2010-06-23'
+      subject: IETF 78 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/78/avt.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/avt.html
+  - kind: minutes without them
+    date: '2006-12-08'
+    subject: '[AVT] Final minutes'
+    url: https://mailarchive.ietf.org/arch/msg/avt/6SFqSHd7bcUE6G3vNCWnWr6RFoA/
 - person: 105873
   name: Roni Even
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-08-22'
+      date: '2006-07-09'
       not_before: '1992-03-05'
     end:
       certainty: group-closed
       date: '2011-03-18'
     notes:
     - start moved earlier by WG Action announcement of 2006-08-22
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2006-08-22'
@@ -213,6 +352,28 @@ chairs:
     - date: '2009-03-16'
       subject: '[AVT] Updated agenda for IETF 74'
       url: https://mailarchive.ietf.org/arch/msg/avt/aNGCh3xB2MKOG1KZ_j6KkIA08qs/
+  - kind: minutes
+    listed_in: 1
+    first: '2006-12-08'
+    last: '2006-12-08'
+    examples:
+    - date: '2006-12-08'
+      subject: '[AVT] Final minutes'
+      url: https://mailarchive.ietf.org/arch/msg/avt/6SFqSHd7bcUE6G3vNCWnWr6RFoA/
+  - kind: proceedings
+    listed_in: 12
+    first: '2006-07-09'
+    last: '2011-03-27'
+    examples:
+    - date: '2006-07-09'
+      subject: IETF 66 proceedings charter
+      url: https://www.ietf.org/proceedings/66/avt.html
+    - date: '2006-08-22'
+      subject: IETF 67 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/67/avt.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/avt.html
   - kind: session requests
     meetings:
     - '68'

@@ -44,6 +44,20 @@ chairs:
       subject: '[hybi] working group last call on draft-ietf-hybi-permessage-compression-04 (until November
         14th)'
       url: https://mailarchive.ietf.org/arch/msg/hybi/MxIeMLRBvIDy4m-igmiV6T31J54/
+  - kind: proceedings
+    listed_in: 7
+    first: '2009-11-08'
+    last: '2011-11-13'
+    examples:
+    - date: '2009-11-08'
+      subject: IETF 76 proceedings charter
+      url: https://www.ietf.org/proceedings/76/hybi.html
+    - date: '2010-03-25'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/hybi.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/hybi.html
   - kind: session requests
     meetings:
     - '78'
@@ -92,3 +106,53 @@ chairs:
     - date: '2012-08-15'
       subject: '[hybi] IETF 84 HyBi minutes available'
       url: https://mailarchive.ietf.org/arch/msg/hybi/jklJRVCOYvqUZ1ovTUVJ48P747M/
+  - kind: proceedings
+    listed_in: 4
+    first: '2010-11-07'
+    last: '2011-11-13'
+    examples:
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/hybi.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/hybi.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/hybi.html
+- person: 110049
+  name: Joe Hildebrand
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2009-11-08'
+    end:
+      certainty: between
+      not_before: '2010-07-29'
+      not_after: '2010-11-07'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 3
+    first: '2009-11-08'
+    last: '2010-07-29'
+    examples:
+    - date: '2009-11-08'
+      subject: IETF 76 proceedings charter
+      url: https://www.ietf.org/proceedings/76/hybi.html
+    - date: '2010-03-25'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/hybi.html
+    - date: '2010-07-29'
+      subject: IETF 78 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/78/hybi.html
+  - kind: minutes without them
+    date: '2010-11-07'
+    subject: IETF 79 proceedings charter
+    url: https://www.ietf.org/proceedings/79/hybi.html
+  - kind: session requests
+    meetings:
+    - '77'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

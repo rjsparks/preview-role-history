@@ -13,11 +13,33 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2012-02-23'
+      date: '2010-04-12'
     end:
       certainty: between
       not_before: '2012-02-23'
-      not_after: '2020-03-19'
+      not_after: '2012-07-29'
+    notes:
+    - widened to cover charter snapshots in proceedings
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 5
+    first: '2010-04-12'
+    last: '2012-03-25'
+    examples:
+    - date: '2010-04-12'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/tsvarea.html
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/tsvarea.html
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/tsvarea.html
+  - kind: minutes without them
+    date: '2012-07-29'
+    subject: IETF 84 proceedings charter
+    url: https://www.ietf.org/proceedings/84/tsvarea.html
 - person: 104294
   name: Magnus Westerlund
   status: confirmed
@@ -29,6 +51,21 @@ chairs:
     end:
       certainty: exact
       date: '2021-03-10'
+  evidence:
+  - kind: proceedings
+    listed_in: 4
+    first: '2006-03-27'
+    last: '2008-08-21'
+    examples:
+    - date: '2006-03-27'
+      subject: IETF 66 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/66/tsvarea.html
+    - date: '2006-03-27'
+      subject: IETF 68 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/68/tsvarea.html
+    - date: '2008-08-21'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/tsvarea.html
 - person: 105519
   name: Martin Stiemerling
   status: confirmed
@@ -36,11 +73,28 @@ chairs:
   - start:
       certainty: between
       not_before: '2012-02-23'
-      not_after: '2020-03-19'
+      not_after: '2012-07-29'
     end:
       certainty: between
       not_before: '2012-02-23'
       not_after: '2020-03-19'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 4
+    first: '2012-07-29'
+    last: '2013-07-28'
+    examples:
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/tsvarea.html
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/tsvarea.html
+    - date: '2013-07-28'
+      subject: IETF 87 proceedings charter
+      url: https://www.ietf.org/proceedings/87/tsvarea.html
 - person: 106541
   name: Martin Duke
   status: confirmed
@@ -71,6 +125,15 @@ chairs:
       certainty: between
       not_before: '2012-02-23'
       not_after: '2020-03-19'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2013-07-28'
+    last: '2013-07-28'
+    examples:
+    - date: '2013-07-28'
+      subject: IETF 87 proceedings charter
+      url: https://www.ietf.org/proceedings/87/tsvarea.html
 - person: 109753
   name: Zaheduzzaman Sarker
   status: confirmed
@@ -87,14 +150,34 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-07-24'
+      date: '2010-11-07'
     end:
       certainty: between
       not_before: '2012-02-23'
-      not_after: '2020-03-19'
+      not_after: '2013-07-28'
     notes:
     - start moved earlier by session request for IETF 81
+    - widened to cover charter snapshots in proceedings
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
+  - kind: proceedings
+    listed_in: 6
+    first: '2010-11-07'
+    last: '2012-11-04'
+    examples:
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/tsvarea.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/tsvarea.html
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/tsvarea.html
+  - kind: minutes without them
+    date: '2013-07-28'
+    subject: IETF 87 proceedings charter
+    url: https://www.ietf.org/proceedings/87/tsvarea.html
   - kind: session requests
     meetings:
     - '81'
@@ -110,3 +193,39 @@ chairs:
     end:
       certainty: exact
       date: '2020-03-26'
+- person: 112773
+  name: Lars Eggert
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-03-27'
+    end:
+      certainty: between
+      not_before: '2010-04-12'
+      not_after: '2010-11-07'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 5
+    first: '2006-03-27'
+    last: '2010-04-12'
+    examples:
+    - date: '2006-03-27'
+      subject: IETF 66 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/66/tsvarea.html
+    - date: '2006-03-27'
+      subject: IETF 68 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/68/tsvarea.html
+    - date: '2010-04-12'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/tsvarea.html
+  - kind: minutes without them
+    date: '2010-11-07'
+    subject: IETF 79 proceedings charter
+    url: https://www.ietf.org/proceedings/79/tsvarea.html
+  - kind: session requests
+    meetings:
+    - '66'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

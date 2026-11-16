@@ -45,6 +45,14 @@ chairs:
     - date: '2018-03-28'
       subject: '[DMM] Call for adoption of draft-bernardos-dmm-pmipv6-dlif-01 as DMM WG document'
       url: https://mailarchive.ietf.org/arch/msg/dmm/HFLan7YEgrvfz58VmPUU1SHWX7s/
+  - kind: proceedings
+    listed_in: 1
+    first: '2017-03-26'
+    last: '2017-03-26'
+    examples:
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/dmm.html
   - kind: shepherded
     documents:
     - draft-ietf-dmm-ondemand-mobility
@@ -66,6 +74,21 @@ chairs:
     end:
       certainty: exact
       date: '2013-12-23'
+  evidence:
+  - kind: proceedings
+    listed_in: 6
+    first: '2011-11-13'
+    last: '2013-07-28'
+    examples:
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/dmm.html
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/dmm.html
+    - date: '2013-07-28'
+      subject: IETF 87 proceedings charter
+      url: https://www.ietf.org/proceedings/87/dmm.html
 - person: 109589
   name: Dapeng Liu
   status: confirmed
@@ -112,6 +135,20 @@ chairs:
     - date: '2015-11-25'
       subject: '[DMM] Call for adoption confirmation: draft-yan-dmm-hnprenum-03'
       url: https://mailarchive.ietf.org/arch/msg/dmm/LCsnXjNos74_JNSYTu8ZDvfJlGM/
+  - kind: proceedings
+    listed_in: 11
+    first: '2013-11-03'
+    last: '2017-03-26'
+    examples:
+    - date: '2013-11-03'
+      subject: IETF 88 proceedings charter
+      url: https://www.ietf.org/proceedings/88/dmm.html
+    - date: '2014-03-02'
+      subject: IETF 89 proceedings charter
+      url: https://www.ietf.org/proceedings/89/dmm.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/dmm.html
   - kind: shepherded
     documents:
     - draft-ietf-dmm-4283mnids
@@ -165,6 +202,20 @@ chairs:
     - date: '2013-03-20'
       subject: '[DMM] WGLC starts for draft-ietf-dmm-requirements-03'
       url: https://mailarchive.ietf.org/arch/msg/dmm/g0DaV_8X__5xSL_8LLLhfV5foP0/
+  - kind: proceedings
+    listed_in: 17
+    first: '2011-11-13'
+    last: '2017-03-26'
+    examples:
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/dmm.html
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/dmm.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/dmm.html
   - kind: shepherded
     documents:
     - draft-ietf-dmm-best-practices-gap-analysis

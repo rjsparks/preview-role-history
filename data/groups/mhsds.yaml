@@ -13,11 +13,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1995-03-25'
+      date: '1994-03-28'
       not_before: '1992-01-23'
     end:
       certainty: group-closed
       date: '1995-03-25'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '1992-11-11'
@@ -30,14 +32,39 @@ chairs:
     - date: '1992-11-30'
       subject: Updated minutes to IETF MHS-DS WG meeting
       url: https://mailarchive.ietf.org/arch/msg/mhsds/BW32ALDT77ueJr-22S7EeAYZ3vI/
+  - kind: proceedings
+    listed_in: 2
+    first: '1994-03-28'
+    last: '1994-12-05'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/sap/mhsds/mhsds-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/app/mhsds/mhsds-charter.txt
 - person: 5778
   name: Harald Alvestrand
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '1995-03-25'
+      date: '1994-03-28'
       not_before: '1992-01-23'
     end:
       certainty: group-closed
       date: '1995-03-25'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '1994-03-28'
+    last: '1994-12-05'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/sap/mhsds/mhsds-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/app/mhsds/mhsds-charter.txt

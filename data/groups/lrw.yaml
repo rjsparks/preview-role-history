@@ -18,6 +18,18 @@ chairs:
     end:
       certainty: group-closed
       date: '2011-02-25'
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2005-03-06'
+    last: '2005-07-20'
+    examples:
+    - date: '2005-03-06'
+      subject: IETF 62 proceedings charter
+      url: https://www.ietf.org/proceedings/62/lrw.html
+    - date: '2005-07-20'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/lrw.html
 - person: 105328
   name: Alain Durand
   status: confirmed
@@ -29,3 +41,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2011-02-25'
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2005-03-06'
+    last: '2005-07-20'
+    examples:
+    - date: '2005-03-06'
+      subject: IETF 62 proceedings charter
+      url: https://www.ietf.org/proceedings/62/lrw.html
+    - date: '2005-07-20'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/lrw.html

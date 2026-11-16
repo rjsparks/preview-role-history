@@ -13,12 +13,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-11-13'
+      date: '2011-07-24'
     end:
       certainty: group-closed
       date: '2013-01-31'
     notes:
     - start moved earlier by session request for IETF 82
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2011-09-02'
@@ -28,6 +29,20 @@ chairs:
     - date: '2011-09-02'
       subject: '[multrans] Multrans Quebec Minutes'
       url: https://mailarchive.ietf.org/arch/msg/multrans/ww9WApNT75v5xybWZ8SWN9eNuyI/
+  - kind: proceedings
+    listed_in: 5
+    first: '2011-07-24'
+    last: '2012-11-04'
+    examples:
+    - date: '2011-07-24'
+      subject: IETF 81 proceedings charter
+      url: https://www.ietf.org/proceedings/81/multrans.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/multrans.html
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/multrans.html
   - kind: session requests
     meetings:
     - '82'
@@ -38,7 +53,24 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2011-07-24'
     end:
       certainty: group-closed
       date: '2013-01-31'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 5
+    first: '2011-07-24'
+    last: '2012-11-04'
+    examples:
+    - date: '2011-07-24'
+      subject: IETF 81 proceedings charter
+      url: https://www.ietf.org/proceedings/81/multrans.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/multrans.html
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/multrans.html

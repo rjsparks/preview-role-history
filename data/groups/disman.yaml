@@ -13,13 +13,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-03-02'
+      date: '1997-04-07'
       not_before: '1996-05-09'
     end:
       certainty: group-closed
       date: '2006-07-19'
     notes:
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2003-03-14'
@@ -35,3 +36,25 @@ chairs:
     - date: '2004-03-02'
       subject: '[Disman] WG last call on draft-ietf-disman-remops-mib-v2-01.txt'
       url: https://mailarchive.ietf.org/arch/msg/disman/PeGyTddTIP_j3ru_T_JItotEiu8/
+  - kind: minutes
+    listed_in: 1
+    first: '2004-03-03'
+    last: '2004-03-03'
+    examples:
+    - date: '2004-03-03'
+      subject: '[Disman] Disman WG Meeting Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/disman/xJomFWQ8ARIQNYipI_EQ0no6m_E/
+  - kind: proceedings
+    listed_in: 19
+    first: '1997-04-07'
+    last: '2005-01-13'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr60.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-61.htm
+    - date: '2005-01-13'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/disman.html

@@ -13,17 +13,45 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-05-11'
+      date: '2004-10-22'
     end:
       certainty: group-closed
       date: '2005-05-11'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2004-10-22'
+    last: '2004-11-11'
+    examples:
+    - date: '2004-10-22'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/perm.html
+    - date: '2004-11-11'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/perm.html
 - person: 101648
   name: Thomas Hardjono
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-05-11'
+      date: '2004-10-22'
     end:
       certainty: group-closed
       date: '2005-05-11'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2004-10-22'
+    last: '2004-11-11'
+    examples:
+    - date: '2004-10-22'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/perm.html
+    - date: '2004-11-11'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/perm.html

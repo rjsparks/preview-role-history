@@ -13,19 +13,47 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1995-05-22'
+      date: '1994-03-28'
       not_before: '1992-08-12'
     end:
       certainty: group-closed
       date: '1995-05-22'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '1994-03-28'
+    last: '1994-12-05'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/ipng/tuba/tuba-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/int/tuba/tuba-charter.txt
 - person: 130194
   name: Mark Knopper
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '1995-05-22'
+      date: '1994-03-28'
       not_before: '1992-08-12'
     end:
       certainty: group-closed
       date: '1995-05-22'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '1994-03-28'
+    last: '1994-12-05'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/ipng/tuba/tuba-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/int/tuba/tuba-charter.txt

@@ -13,22 +13,43 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2000-07-18'
+      not_after: '2000-07-17'
     end:
-      certainty: evidence-only
-      not_before: '2000-07-18'
+      certainty: between
+      not_before: '2004-02-13'
+      not_after: '2007-06-27'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2000-07-18'
     subject: 'WG Action: Kerberos WG (krb-wg)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/cqSQrka07FrjCDNt_yTkJXQU7yI/
+  - kind: proceedings
+    listed_in: 11
+    first: '2000-07-17'
+    last: '2004-02-13'
+    examples:
+    - date: '2000-07-17'
+      subject: IETF 48 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/48/00july-109.htm
+    - date: '2000-11-15'
+      subject: IETF 49 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/49/00dec-115.htm
+    - date: '2004-02-13'
+      subject: IETF 59 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/59/256.htm
+  - kind: minutes without them
+    date: '2007-06-27'
+    subject: IETF 69 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/69/krb-wg.html
 - person: 103048
   name: Sam Hartman
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-04-24'
+      date: '2010-11-07'
       not_before: '2000-06-15'
     end:
       certainty: group-closed
@@ -36,6 +57,7 @@ chairs:
     notes:
     - start moved earlier by WG Action announcement of 2011-06-28
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2011-06-28'
@@ -61,6 +83,20 @@ chairs:
     - date: '2012-04-09'
       subject: '[Ietf-krb-wg] Call for adoption: draft-josefsson-kerberos5-i18n-01.txt'
       url: https://mailarchive.ietf.org/arch/msg/krb-wg/Hb5XkQxz-eTpYy_0L85lOFYuPvc/
+  - kind: proceedings
+    listed_in: 6
+    first: '2010-11-07'
+    last: '2012-07-29'
+    examples:
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/krb-wg.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/krb-wg.html
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/krb-wg.html
   - kind: session requests
     meetings:
     - '82'
@@ -76,13 +112,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2003-10-20'
       not_before: '2000-06-15'
     end:
       certainty: exact
       date: '2012-10-01'
     notes:
     - start moved earlier by session request for IETF 65
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2007-07-23'
@@ -116,6 +153,20 @@ chairs:
     - date: '2009-06-12'
       subject: '[Ietf-krb-wg] WG Last Call: draft-ietf-krb-wg-preauth-framework-12'
       url: https://mailarchive.ietf.org/arch/msg/krb-wg/nCdaXJ5PrzopSEQZxldnqmFGElA/
+  - kind: proceedings
+    listed_in: 19
+    first: '2003-10-20'
+    last: '2012-03-25'
+    examples:
+    - date: '2003-10-20'
+      subject: IETF 58 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/58/202.htm
+    - date: '2004-02-13'
+      subject: IETF 59 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/59/256.htm
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/krb-wg.html
   - kind: session requests
     meetings:
     - '65'
@@ -148,13 +199,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2007-07-23'
+      date: '2007-06-27'
       not_before: '2000-06-15'
     end:
       certainty: exact
       date: '2012-10-01'
     notes:
     - start moved earlier by WG Action announcement of 2007-07-23
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2007-07-23'
@@ -182,6 +234,20 @@ chairs:
     - date: '2008-09-02'
       subject: '[Ietf-krb-wg] IETF 72 @ Dublin krb-wg meeting minutes'
       url: https://mailarchive.ietf.org/arch/msg/krb-wg/RgtCtqPnjEso4lPIwoUa1Ibaadc/
+  - kind: proceedings
+    listed_in: 10
+    first: '2007-06-27'
+    last: '2012-03-25'
+    examples:
+    - date: '2007-06-27'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/krb-wg.html
+    - date: '2008-03-13'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/krb-wg.html
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/krb-wg.html
 - person: 107956
   name: Shawn Emery
   status: confirmed
@@ -192,6 +258,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2013-03-18'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2012-07-29'
+    last: '2012-07-29'
+    examples:
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/krb-wg.html
 - person: 111163
   name: Josh Howlett
   status: confirmed
@@ -202,3 +277,12 @@ chairs:
     end:
       certainty: group-closed
       date: '2013-03-18'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2012-07-29'
+    last: '2012-07-29'
+    examples:
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/krb-wg.html

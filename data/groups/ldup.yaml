@@ -13,11 +13,28 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-04-22'
+      date: '1998-11-25'
       not_before: '1998-10-19'
     end:
       certainty: group-closed
       date: '2004-04-22'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 15
+    first: '1998-11-25'
+    last: '2003-11-19'
+    examples:
+    - date: '1998-11-25'
+      subject: IETF 43 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-23.html
+    - date: '1999-02-16'
+      subject: IETF 44 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-23.html
+    - date: '2003-11-19'
+      subject: IETF 59 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/59/113.htm
 - person: 21756
   name: John Strassner
   status: confirmed
@@ -36,3 +53,17 @@ chairs:
     date: '1998-11-24'
     subject: 'WG ACTION: LDAP Duplication/Replication/Update Protocols (ldup)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/rJwGQokUfWxJ5CW1_lkVDK8NofQ/
+  - kind: proceedings
+    listed_in: 16
+    first: '1998-11-25'
+    last: '2003-11-19'
+    examples:
+    - date: '1998-11-25'
+      subject: IETF 43 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-23.html
+    - date: '1999-02-16'
+      subject: IETF 44 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-23.html
+    - date: '2003-11-19'
+      subject: IETF 59 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/59/113.htm

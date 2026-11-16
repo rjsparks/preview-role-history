@@ -7,6 +7,70 @@ started: '1998-09-10'
 closed: '2018-03-01'
 history_url: https://datatracker.ietf.org/group/isis/history/
 chairs:
+- person: 2995
+  name: Doug Montgomery
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1994-10-20'
+    end:
+      certainty: between
+      not_before: '1997-08-11'
+      not_after: '1998-11-25'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 6
+    first: '1994-10-20'
+    last: '1997-08-11'
+    examples:
+    - date: '1994-10-20'
+      subject: IETF 40 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-85.htm
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/rtg/isis/isis-charter.txt
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-83.htm
+  - kind: minutes without them
+    date: '1998-11-25'
+    subject: IETF 43 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-88.html
+- person: 3366
+  name: Chris Gunner
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1994-03-28'
+    end:
+      certainty: between
+      not_before: '1997-08-11'
+      not_after: '1998-11-25'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 7
+    first: '1994-03-28'
+    last: '1997-08-11'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/rtg/isis/isis-charter.txt
+    - date: '1994-10-20'
+      subject: IETF 40 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-85.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-83.htm
+  - kind: minutes without them
+    date: '1998-11-25'
+    subject: IETF 43 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-88.html
 - person: 4475
   name: Tony Li
   status: unconfirmed
@@ -15,26 +79,48 @@ chairs:
       certainty: evidence-only
       not_after: '1998-11-18'
     end:
-      certainty: evidence-only
-      not_before: '1998-11-18'
+      certainty: between
+      not_before: '2003-05-19'
+      not_after: '2004-07-23'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '1998-11-18'
     subject: 'WG ACTION: IS-IS for IP Internets (isis)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/dztdpIo2gAb29d8ZwbsuNTOW4I4/
+  - kind: proceedings
+    listed_in: 13
+    first: '1998-11-25'
+    last: '2003-05-19'
+    examples:
+    - date: '1998-11-25'
+      subject: IETF 43 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-88.html
+    - date: '1999-01-08'
+      subject: IETF 44 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-89.html
+    - date: '2003-05-19'
+      subject: IETF 57 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/57/189.htm
+  - kind: minutes without them
+    date: '2004-07-23'
+    subject: IETF 60 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/60/193.htm
 - person: 22933
   name: Christian Hopps
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-11-05'
+      date: '2004-07-23'
       not_before: '1998-09-10'
     end:
       certainty: group-closed
       date: '2018-03-01'
     notes:
     - start moved earlier by session request for IETF 67
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2007-03-21'
@@ -56,6 +142,20 @@ chairs:
     - date: '2008-04-16'
       subject: '[Isis-wg] WG Last Call for Info to Std Track Documents.'
       url: https://mailarchive.ietf.org/arch/msg/isis-wg/MWw17LZt5xr0iHdUZg4pa3HCTQY/
+  - kind: proceedings
+    listed_in: 33
+    first: '2004-07-23'
+    last: '2017-03-26'
+    examples:
+    - date: '2004-07-23'
+      subject: IETF 60 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/60/193.htm
+    - date: '2004-09-29'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/isis.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/isis.html
   - kind: session requests
     meetings:
     - '67'
@@ -115,10 +215,67 @@ chairs:
     - date: '2006-03-13'
       subject: '[Isis-wg] Agenda for ISIS WG meeting'
       url: https://mailarchive.ietf.org/arch/msg/isis-wg/jWiuDM05o9xJZTtGJxyOskUQfn8/
+  - kind: proceedings
+    listed_in: 21
+    first: '2004-07-23'
+    last: '2013-03-10'
+    examples:
+    - date: '2004-07-23'
+      subject: IETF 60 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/60/193.htm
+    - date: '2004-09-29'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/isis.html
+    - date: '2013-03-10'
+      subject: IETF 86 proceedings charter
+      url: https://www.ietf.org/proceedings/86/isis.html
   - kind: session requests
     meetings:
     - '69'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 104151
+  name: Tony Przygienda
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1998-11-25'
+    end:
+      certainty: between
+      not_before: '2003-09-24'
+      not_after: '2004-07-23'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: chair activity
+    first: '2002-07-26'
+    last: '2003-09-24'
+    messages: 4
+    examples:
+    - date: '2002-07-26'
+      subject: '[Isis-wg] Meeting minutes ...'
+      url: https://mailarchive.ietf.org/arch/msg/isis-wg/QE0J1ClEXgFiTZ0VTsNRsAT_BRg/
+    - date: '2002-11-28'
+      subject: '[Isis-wg] meeting minutes ...'
+      url: https://mailarchive.ietf.org/arch/msg/isis-wg/smJk8NV-MfkNMkHIo9lLUFtb7c4/
+  - kind: proceedings
+    listed_in: 13
+    first: '1998-11-25'
+    last: '2003-05-19'
+    examples:
+    - date: '1998-11-25'
+      subject: IETF 43 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-88.html
+    - date: '1999-01-08'
+      subject: IETF 44 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-89.html
+    - date: '2003-05-19'
+      subject: IETF 57 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/57/189.htm
+  - kind: minutes without them
+    date: '2004-07-23'
+    subject: IETF 60 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/60/193.htm
 - person: 111495
   name: Hannes Gredler
   status: confirmed
@@ -157,6 +314,20 @@ chairs:
     - date: '2014-10-31'
       subject: '[Isis-wg] WGLC draft-ietf-isis-te-metric-extensions'
       url: https://mailarchive.ietf.org/arch/msg/isis-wg/Xi441cidNJ4mArtTWHylep7WtMc/
+  - kind: proceedings
+    listed_in: 12
+    first: '2013-07-28'
+    last: '2017-03-26'
+    examples:
+    - date: '2013-07-28'
+      subject: IETF 87 proceedings charter
+      url: https://www.ietf.org/proceedings/87/isis.html
+    - date: '2013-11-03'
+      subject: IETF 88 proceedings charter
+      url: https://www.ietf.org/proceedings/88/isis.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/isis.html
   - kind: shepherded
     documents:
     - draft-ietf-isis-auto-conf

@@ -42,6 +42,34 @@ chairs:
     - date: '2014-05-27'
       subject: '[clue] Call for adoption: draft-presta-clue-protocol'
       url: https://mailarchive.ietf.org/arch/msg/clue/4aT7m1wA_UB4LIJDyTB-QUhSdxE/
+  - kind: minutes
+    listed_in: 3
+    first: '2012-01-20'
+    last: '2012-02-06'
+    examples:
+    - date: '2012-01-20'
+      subject: '[clue] Minutes: Design Team Meeting - Jan. 17th, 2012'
+      url: https://mailarchive.ietf.org/arch/msg/clue/nNrF_0JPLFM-x5OjVKz73dz0tEc/
+    - date: '2012-01-25'
+      subject: '[clue] Minutes: Design Team Meeting - Jan. 24th, 2012'
+      url: https://mailarchive.ietf.org/arch/msg/clue/PdXceEXDJRzjCAd1UoGwlanj_uE/
+    - date: '2012-02-06'
+      subject: '[clue] Minutes: Design Team Meeting - Jan. 31, 2012'
+      url: https://mailarchive.ietf.org/arch/msg/clue/Ry_eTbTxcwDjylDf2rgx3k62WwE/
+  - kind: proceedings
+    listed_in: 11
+    first: '2010-11-07'
+    last: '2014-03-02'
+    examples:
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/clue.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/clue.html
+    - date: '2014-03-02'
+      subject: IETF 89 proceedings charter
+      url: https://www.ietf.org/proceedings/89/clue.html
   - kind: session requests
     meetings:
     - '80'
@@ -83,6 +111,24 @@ chairs:
     - date: '2015-06-24'
       subject: '[clue] WGLC on draft-ietf-clue-protocol-04 - just fixed a typo'
       url: https://mailarchive.ietf.org/arch/msg/clue/4xTsV3Ei5kvRyK4rR3gw69ZB4Ss/
+  - kind: proceedings
+    listed_in: 7
+    first: '2014-07-20'
+    last: '2016-07-17'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/clue.html
+    - date: '2014-11-09'
+      subject: IETF 91 proceedings charter
+      url: https://www.ietf.org/proceedings/91/clue.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/clue.html
+  - kind: minutes without them
+    date: '2012-02-06'
+    subject: '[clue] Minutes: Design Team Meeting - Jan. 31, 2012'
+    url: https://mailarchive.ietf.org/arch/msg/clue/Ry_eTbTxcwDjylDf2rgx3k62WwE/
   - kind: shepherded
     documents:
     - draft-ietf-clue-data-model-schema
@@ -126,6 +172,31 @@ chairs:
     - date: '2014-11-25'
       subject: '[clue] WGLC of CLUE Framework now started. Ends Wednesday Dec 17.'
       url: https://mailarchive.ietf.org/arch/msg/clue/yqFny6dXFzqJpdxEKpTP18a0vHk/
+  - kind: minutes
+    listed_in: 2
+    first: '2012-01-25'
+    last: '2012-02-06'
+    examples:
+    - date: '2012-01-25'
+      subject: '[clue] Minutes: Design Team Meeting - Jan. 24th, 2012'
+      url: https://mailarchive.ietf.org/arch/msg/clue/PdXceEXDJRzjCAd1UoGwlanj_uE/
+    - date: '2012-02-06'
+      subject: '[clue] Minutes: Design Team Meeting - Jan. 31, 2012'
+      url: https://mailarchive.ietf.org/arch/msg/clue/Ry_eTbTxcwDjylDf2rgx3k62WwE/
+  - kind: proceedings
+    listed_in: 18
+    first: '2010-11-07'
+    last: '2016-07-17'
+    examples:
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/clue.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/clue.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/clue.html
   - kind: shepherded
     documents:
     - draft-ietf-clue-datachannel
@@ -160,3 +231,21 @@ chairs:
     - date: '2016-03-08'
       subject: '[clue] WGLC for draft-ietf-clue-rtp-mapping-06 ends 18 March'
       url: https://mailarchive.ietf.org/arch/msg/clue/S009D96S_-jsZKi_0gaT69ZRtJ4/
+  - kind: proceedings
+    listed_in: 6
+    first: '2014-07-20'
+    last: '2016-04-03'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/clue.html
+    - date: '2014-11-09'
+      subject: IETF 91 proceedings charter
+      url: https://www.ietf.org/proceedings/91/clue.html
+    - date: '2016-04-03'
+      subject: IETF 95 proceedings charter
+      url: https://www.ietf.org/proceedings/95/clue.html
+  - kind: minutes without them
+    date: '2012-02-06'
+    subject: '[clue] Minutes: Design Team Meeting - Jan. 31, 2012'
+    url: https://mailarchive.ietf.org/arch/msg/clue/Ry_eTbTxcwDjylDf2rgx3k62WwE/

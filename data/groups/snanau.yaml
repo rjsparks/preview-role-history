@@ -7,6 +7,64 @@ started: '1993-05-07'
 closed: '1999-06-09'
 history_url: https://datatracker.ietf.org/group/snanau/history/
 chairs:
+- person: 4763
+  name: Deirdre Kostick
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1993-10-05'
+    end:
+      certainty: evidence-only
+      not_before: '1995-07-17'
+  evidence:
+  - kind: chair activity
+    first: '1993-10-05'
+    last: '1993-10-05'
+    messages: 1
+    examples:
+    - date: '1993-10-05'
+      subject: Sept. 28 Meeting Minutes
+      url: https://mailarchive.ietf.org/arch/msg/snanau/ErN0G-g059z0UO_-Hq3dCnEVGdw/
+  - kind: proceedings
+    listed_in: 4
+    first: '1994-03-28'
+    last: '1995-07-17'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/mgt/snanau/snanau-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/mgt/snanau/snanau-charter.txt
+    - date: '1995-07-17'
+      subject: IETF 33 proceedings charter
+      url: https://www.ietf.org/proceedings/33/area.and.wg.reports/mgt/snanau/snanau-charter.txt
+- person: 6860
+  name: Zbigniew Kielczewski
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1994-03-28'
+    end:
+      certainty: evidence-only
+      not_before: '1995-07-17'
+  evidence:
+  - kind: proceedings
+    listed_in: 4
+    first: '1994-03-28'
+    last: '1995-07-17'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/mgt/snanau/snanau-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/mgt/snanau/snanau-charter.txt
+    - date: '1995-07-17'
+      subject: IETF 33 proceedings charter
+      url: https://www.ietf.org/proceedings/33/area.and.wg.reports/mgt/snanau/snanau-charter.txt
 - person: 18205
   name: Robert Moore
   status: confirmed
@@ -26,3 +84,17 @@ chairs:
     subject: New Chair
     url: https://mailarchive.ietf.org/arch/msg/snanau/Cxo5ThCZI86WNsAo6QZjH463lqY/
     excerpt: Bob Moore of IBM has agreed to be the new chair.
+  - kind: proceedings
+    listed_in: 4
+    first: '1997-04-07'
+    last: '1998-07-13'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr96.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-94.htm
+    - date: '1998-07-13'
+      subject: IETF 42 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/42/98aug-109.htm

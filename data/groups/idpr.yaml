@@ -13,11 +13,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1995-02-22'
+      date: '1994-03-28'
       not_before: '1988-10-01'
     end:
       certainty: group-closed
       date: '1995-02-22'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '1992-07-08'
@@ -30,3 +32,14 @@ chairs:
     - date: '1992-08-05'
       subject: July IETF minutes
       url: https://mailarchive.ietf.org/arch/msg/idpr/Z9xoYzQMpWmK-zgtobLkZh1KdOg/
+  - kind: proceedings
+    listed_in: 2
+    first: '1994-03-28'
+    last: '1994-12-05'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/rtg/idpr/idpr-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/rtg/idpr/idpr-charter.txt

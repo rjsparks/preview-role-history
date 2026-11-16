@@ -7,14 +7,88 @@ started: '1990-12-01'
 closed: '2001-05-31'
 history_url: https://datatracker.ietf.org/group/svrloc/history/
 chairs:
+- person: 2831
+  name: John Veizades
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1994-03-28'
+    end:
+      certainty: evidence-only
+      not_before: '1998-02-12'
+  evidence:
+  - kind: proceedings
+    listed_in: 9
+    first: '1994-03-28'
+    last: '1998-02-12'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/sap/svrloc/svrloc-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/int/svrloc/svrloc-charter.txt
+    - date: '1998-02-12'
+      subject: IETF 41 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/41/98mar-edited-62.htm
+- person: 5800
+  name: Scott Kaplan
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1994-03-28'
+    end:
+      certainty: between
+      not_before: '1995-07-17'
+      not_after: '1997-04-07'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 4
+    first: '1994-03-28'
+    last: '1995-07-17'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/sap/svrloc/svrloc-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/int/svrloc/svrloc-charter.txt
+    - date: '1995-07-17'
+      subject: IETF 33 proceedings charter
+      url: https://www.ietf.org/proceedings/33/area.and.wg.reports/int/svrloc/svrloc-charter.txt
+  - kind: minutes without them
+    date: '1997-04-07'
+    subject: IETF 38 proceedings charter
+    url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr54.htm
 - person: 16916
   name: Erik Guttman
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2001-05-31'
+      date: '1997-04-07'
       not_before: '1990-12-01'
     end:
       certainty: group-closed
       date: '2001-05-31'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 8
+    first: '1997-04-07'
+    last: '2001-03-14'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr54.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-57.htm
+    - date: '2001-03-14'
+      subject: IETF 50 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/50/ietf50-58.htm

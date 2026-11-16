@@ -14,10 +14,21 @@ chairs:
   - start:
       certainty: between
       not_before: '2014-06-11'
-      not_after: '2014-09-12'
+      not_after: '2014-07-20'
     end:
       certainty: group-closed
       date: '2014-09-12'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2014-07-20'
+    last: '2014-07-20'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/ucan.html
 - person: 13775
   name: Michael Behringer
   status: confirmed
@@ -25,7 +36,18 @@ chairs:
   - start:
       certainty: between
       not_before: '2014-06-11'
-      not_after: '2014-09-12'
+      not_after: '2014-07-20'
     end:
       certainty: group-closed
       date: '2014-09-12'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2014-07-20'
+    last: '2014-07-20'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/ucan.html

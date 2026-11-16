@@ -42,6 +42,20 @@ chairs:
     - date: '2003-03-21'
       subject: WG Last Call on draft-ietf-ospf-hitless-restart-06.txt
       url: https://mailarchive.ietf.org/arch/msg/ospf/4juExxF_PeE21iezeOP-twkMNck/
+  - kind: proceedings
+    listed_in: 33
+    first: '2003-01-14'
+    last: '2017-03-26'
+    examples:
+    - date: '2003-01-14'
+      subject: IETF 56 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/56/allcharters.html
+    - date: '2003-07-13'
+      subject: IETF 57 proceedings charter
+      url: https://www.ietf.org/proceedings/57/192.htm
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/ospf.html
   - kind: session requests
     meetings:
     - '65'
@@ -68,6 +82,38 @@ chairs:
     - draft-ietf-ospf-sbfd-discriminator
     - draft-ietf-ospf-segment-routing-extensions
     - draft-ietf-ospf-te-metric-extensions
+- person: 101303
+  name: Rohit Dube
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2003-01-14'
+    end:
+      certainty: between
+      not_before: '2006-06-07'
+      not_after: '2007-05-02'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 10
+    first: '2003-01-14'
+    last: '2006-06-07'
+    examples:
+    - date: '2003-01-14'
+      subject: IETF 56 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/56/allcharters.html
+    - date: '2003-07-13'
+      subject: IETF 57 proceedings charter
+      url: https://www.ietf.org/proceedings/57/192.htm
+    - date: '2006-06-07'
+      subject: IETF 68 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/68/ospf.html
+  - kind: minutes without them
+    date: '2007-05-02'
+    subject: IETF 69 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/69/ospf.html
 - person: 104816
   name: Abhay Roy
   status: confirmed
@@ -110,6 +156,20 @@ chairs:
     - date: '2015-11-05'
       subject: '[OSPF] IETF94 OSPF WG Minutes'
       url: https://mailarchive.ietf.org/arch/msg/ospf/bRaofVQwSjylZ2C_wwma9B3q8VI/
+  - kind: proceedings
+    listed_in: 23
+    first: '2007-05-02'
+    last: '2017-03-26'
+    examples:
+    - date: '2007-05-02'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/ospf.html
+    - date: '2007-09-26'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/ospf.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/ospf.html
   - kind: session requests
     meetings:
     - '73'
@@ -117,3 +177,35 @@ chairs:
   - kind: shepherded
     documents:
     - draft-ietf-ospf-rfc6506bis
+- person: 109073
+  name: John Moy
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1994-03-28'
+    end:
+      certainty: between
+      not_before: '2003-09-16'
+      not_after: '2004-07-09'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 23
+    first: '1994-03-28'
+    last: '2003-09-16'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/rtg/ospf/ospf-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/rtg/ospf/ospf-charter.txt
+    - date: '2003-09-16'
+      subject: IETF 58 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/58/188.htm
+  - kind: minutes without them
+    date: '2004-07-09'
+    subject: IETF 60 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/60/197.htm

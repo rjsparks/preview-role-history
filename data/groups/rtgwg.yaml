@@ -13,10 +13,13 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2007-07-22'
+      not_after: '2006-07-21'
     end:
-      certainty: evidence-only
-      not_before: '2010-11-07'
+      certainty: between
+      not_before: '2011-03-27'
+      not_after: '2011-07-24'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: chair activity
     first: '2007-07-27'
@@ -38,6 +41,24 @@ chairs:
     - date: '2008-11-26'
       subject: Working Group Last Call for draft-ietf-rtgwg-lf-conv-frmwk-03
       url: https://mailarchive.ietf.org/arch/msg/rtgwg/ge21kDuRnWzyxv0vqGs9FwYWlrs/
+  - kind: proceedings
+    listed_in: 9
+    first: '2006-07-21'
+    last: '2011-03-27'
+    examples:
+    - date: '2006-07-21'
+      subject: IETF 66 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/66/rtgwg.html
+    - date: '2007-02-20'
+      subject: IETF 68 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/68/rtgwg.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/rtgwg.html
+  - kind: minutes without them
+    date: '2011-07-24'
+    subject: IETF 81 proceedings charter
+    url: https://www.ietf.org/proceedings/81/rtgwg.html
   - kind: session requests
     meetings:
     - '69'
@@ -58,13 +79,34 @@ chairs:
       certainty: evidence-only
       not_after: '2004-02-26'
     end:
-      certainty: evidence-only
-      not_before: '2004-02-26'
+      certainty: between
+      not_before: '2005-10-07'
+      not_after: '2006-07-21'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2004-02-26'
     subject: 'WG Action: Routing Area Working Group (rtgwg)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/9YS_U19_AiQN2nQgOxSAARApj6c/
+  - kind: proceedings
+    listed_in: 5
+    first: '2004-06-24'
+    last: '2005-10-07'
+    examples:
+    - date: '2004-06-24'
+      subject: IETF 60 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/60/200.htm
+    - date: '2004-10-14'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/rtgwg.html
+    - date: '2005-10-07'
+      subject: IETF 64 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/64/rtgwg.html
+  - kind: minutes without them
+    date: '2006-07-21'
+    subject: IETF 66 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/66/rtgwg.html
 - person: 103264
   name: Alex Zinin
   status: unconfirmed
@@ -73,8 +115,11 @@ chairs:
       certainty: evidence-only
       not_after: '2004-02-26'
     end:
-      certainty: evidence-only
-      not_before: '2007-02-17'
+      certainty: between
+      not_before: '2011-03-27'
+      not_after: '2011-07-24'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2004-02-26'
@@ -94,6 +139,24 @@ chairs:
     - date: '2004-10-22'
       subject: Agenda for IETF61
       url: https://mailarchive.ietf.org/arch/msg/rtgwg/Hh2Lr0l1N6XMNGwHoM9Po1wbbNY/
+  - kind: proceedings
+    listed_in: 14
+    first: '2004-06-24'
+    last: '2011-03-27'
+    examples:
+    - date: '2004-06-24'
+      subject: IETF 60 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/60/200.htm
+    - date: '2004-10-14'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/rtgwg.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/rtgwg.html
+  - kind: minutes without them
+    date: '2011-07-24'
+    subject: IETF 81 proceedings charter
+    url: https://www.ietf.org/proceedings/81/rtgwg.html
 - person: 106742
   name: Alia Atlas
   status: confirmed
@@ -139,6 +202,20 @@ chairs:
     - date: '2013-02-21'
       subject: WGLC on draft-ietf-rtgwg-cl-requirements-09
       url: https://mailarchive.ietf.org/arch/msg/rtgwg/nqgA8ubQppTCEWKxK0sKMHxUQJs/
+  - kind: proceedings
+    listed_in: 13
+    first: '2009-04-02'
+    last: '2013-11-03'
+    examples:
+    - date: '2009-04-02'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/rtgwg.html
+    - date: '2009-04-02'
+      subject: IETF 75 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/75/rtgwg.html
+    - date: '2013-11-03'
+      subject: IETF 88 proceedings charter
+      url: https://www.ietf.org/proceedings/88/rtgwg.html
   - kind: session requests
     meetings:
     - '80'
@@ -177,6 +254,20 @@ chairs:
     date: '2014-10-03'
     subject: 'WG Action: Rechartered Routing Area Working Group (rtgwg)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/JdBZCI4b_FoA7_7t-HL_MFxoeOM/
+  - kind: proceedings
+    listed_in: 10
+    first: '2011-07-24'
+    last: '2014-11-09'
+    examples:
+    - date: '2011-07-24'
+      subject: IETF 81 proceedings charter
+      url: https://www.ietf.org/proceedings/81/rtgwg.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/rtgwg.html
+    - date: '2014-11-09'
+      subject: IETF 91 proceedings charter
+      url: https://www.ietf.org/proceedings/91/rtgwg.html
   - kind: session requests
     meetings:
     - '82'
@@ -223,6 +314,20 @@ chairs:
     - date: '2016-04-21'
       subject: WGLC on draft-ietf-rtgwg-rlfa-node-protection
       url: https://mailarchive.ietf.org/arch/msg/rtgwg/CDGtNOgQQiJp0YPh1_v0nzn5ym8/
+  - kind: proceedings
+    listed_in: 10
+    first: '2014-03-02'
+    last: '2017-03-26'
+    examples:
+    - date: '2014-03-02'
+      subject: IETF 89 proceedings charter
+      url: https://www.ietf.org/proceedings/89/rtgwg.html
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/rtgwg.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/rtgwg.html
   - kind: shepherded
     documents:
     - draft-ietf-rtgwg-bgp-pic
@@ -263,6 +368,20 @@ chairs:
     - date: '2017-12-06'
       subject: WG last call for draft-ietf-rtgwg-spf-uloop-pb-statement
       url: https://mailarchive.ietf.org/arch/msg/rtgwg/ESRfS2wDq9xVlRRvcpOK5cHpINw/
+  - kind: proceedings
+    listed_in: 8
+    first: '2014-07-20'
+    last: '2017-03-26'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/rtgwg.html
+    - date: '2015-03-22'
+      subject: IETF 92 proceedings charter
+      url: https://www.ietf.org/proceedings/92/rtgwg.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/rtgwg.html
   - kind: shepherded
     documents:
     - draft-ietf-rtgwg-policy-model

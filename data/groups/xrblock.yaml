@@ -14,10 +14,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2015-05-29'
+      not_after: '2012-07-29'
     end:
       certainty: group-closed
       date: '2019-09-20'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2018-02-18'
@@ -30,6 +32,20 @@ chairs:
     - date: '2018-03-29'
       subject: '[xrblock] xrblock draft minutes posted'
       url: https://mailarchive.ietf.org/arch/msg/xrblock/7dg_XmLeoX2HD8fPaRuGNe5okKE/
+  - kind: proceedings
+    listed_in: 13
+    first: '2012-07-29'
+    last: '2016-07-17'
+    examples:
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/xrblock.html
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/xrblock.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/xrblock.html
   - kind: shepherded
     documents:
     - draft-ietf-xrblock-independent-burst-gap-discard
@@ -44,10 +60,13 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2011-01-25'
+      not_after: '2010-11-07'
     end:
-      certainty: evidence-only
-      not_before: '2011-03-21'
+      certainty: between
+      not_before: '2011-03-27'
+      not_after: '2011-07-24'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2011-01-25'
@@ -64,18 +83,34 @@ chairs:
     - date: '2011-03-15'
       subject: '[xrblock] updated agenda for IETF80'
       url: https://mailarchive.ietf.org/arch/msg/xrblock/qRxCcH9Uda_I0T2l4883Cr6JiXs/
+  - kind: proceedings
+    listed_in: 2
+    first: '2010-11-07'
+    last: '2011-03-27'
+    examples:
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/xrblock.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/xrblock.html
+  - kind: minutes without them
+    date: '2011-07-24'
+    subject: IETF 81 proceedings charter
+    url: https://www.ietf.org/proceedings/81/xrblock.html
 - person: 106438
   name: David Bryan
   status: unconfirmed
   periods:
   - start:
-      certainty: approximate
-      date: '2011-08-17'
-    end:
       certainty: evidence-only
+      not_after: '2011-07-24'
+    end:
+      certainty: between
       not_before: '2011-08-17'
+      not_after: '2011-11-13'
     notes:
-    - start dated by list message of 2011-08-17
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: list message
     date: '2011-08-17'
@@ -83,17 +118,31 @@ chairs:
     subject: '[xrblock] New chairs for XRBLOCK'
     url: https://mailarchive.ietf.org/arch/msg/xrblock/ksT3ozhFfxG50NVKWfYPISPsLWw/
     excerpt: Please welcome David Bryan and Charles Eckel as the new co-chairs for XRBLOCK.
+  - kind: proceedings
+    listed_in: 1
+    first: '2011-07-24'
+    last: '2011-07-24'
+    examples:
+    - date: '2011-07-24'
+      subject: IETF 81 proceedings charter
+      url: https://www.ietf.org/proceedings/81/xrblock.html
+  - kind: minutes without them
+    date: '2011-11-13'
+    subject: IETF 82 proceedings charter
+    url: https://www.ietf.org/proceedings/82/xrblock.html
 - person: 107520
   name: Shida Schubert
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2011-11-13'
       not_before: '2010-12-03'
     end:
       certainty: group-closed
       date: '2019-09-20'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2011-12-07'
@@ -115,6 +164,20 @@ chairs:
     - date: '2012-05-31'
       subject: '[xrblock] WGLC for xrblock-rtcp-xr-discard-rle-metrics'
       url: https://mailarchive.ietf.org/arch/msg/xrblock/3ToVW2GBVkl5I1snjylqoLwLXII/
+  - kind: proceedings
+    listed_in: 15
+    first: '2011-11-13'
+    last: '2016-07-17'
+    examples:
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/xrblock.html
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/xrblock.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/xrblock.html
   - kind: shepherded
     documents:
     - draft-ietf-xrblock-rtcp-xr-bytes-discarded-metric
@@ -123,6 +186,35 @@ chairs:
     - draft-ietf-xrblock-rtcp-xr-loss-conceal
     - draft-ietf-xrblock-rtcp-xr-synchronization
     - draft-ietf-xrblock-rtcweb-rtcp-xr-metrics
+- person: 111371
+  name: Peter Musgrave
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2010-11-07'
+    end:
+      certainty: between
+      not_before: '2011-03-27'
+      not_after: '2011-07-24'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2010-11-07'
+    last: '2011-03-27'
+    examples:
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/xrblock.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/xrblock.html
+  - kind: minutes without them
+    date: '2011-07-24'
+    subject: IETF 81 proceedings charter
+    url: https://www.ietf.org/proceedings/81/xrblock.html
 - person: 112611
   name: Charles Eckel
   status: confirmed
@@ -133,11 +225,12 @@ chairs:
     end:
       certainty: between
       not_before: '2012-01-20'
-      not_after: '2015-05-29'
+      not_after: '2012-07-29'
     notes:
     - start moved earlier by session request for IETF 82
     - widened to cover last calls and adoption calls on the group list
     - start dated by list message of 2011-08-17
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: list message
     date: '2011-08-17'
@@ -159,6 +252,24 @@ chairs:
     - date: '2012-01-20'
       subject: '[xrblock] WGLC for draft-ietf-xrblock-rtcp-xr-delay'
       url: https://mailarchive.ietf.org/arch/msg/xrblock/d-pI15FezTrOu0YAvGDa97AsdU0/
+  - kind: proceedings
+    listed_in: 3
+    first: '2011-07-24'
+    last: '2012-03-25'
+    examples:
+    - date: '2011-07-24'
+      subject: IETF 81 proceedings charter
+      url: https://www.ietf.org/proceedings/81/xrblock.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/xrblock.html
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/xrblock.html
+  - kind: minutes without them
+    date: '2012-07-29'
+    subject: IETF 84 proceedings charter
+    url: https://www.ietf.org/proceedings/84/xrblock.html
   - kind: session requests
     meetings:
     - '82'

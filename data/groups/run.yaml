@@ -7,17 +7,55 @@ started: '1994-09-22'
 closed: '2002-03-22'
 history_url: https://datatracker.ietf.org/group/run/history/
 chairs:
+- person: 2412
+  name: Gary Malkin
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1994-12-05'
+    end:
+      certainty: evidence-only
+      not_before: '1999-04-21'
+  evidence:
+  - kind: chair activity
+    first: '1994-12-12'
+    last: '1995-04-12'
+    messages: 2
+    examples:
+    - date: '1994-12-12'
+      subject: RUN minutes
+      url: https://mailarchive.ietf.org/arch/msg/run/0Wn4rkR2Re5hysmv2v6ZKynYqJ0/
+    - date: '1995-04-12'
+      subject: minutes of Danvers meeting
+      url: https://mailarchive.ietf.org/arch/msg/run/mdVREONB1bVgZe1pZ4AhcbXAWE8/
+  - kind: proceedings
+    listed_in: 10
+    first: '1994-12-05'
+    last: '1999-04-21'
+    examples:
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/usv/run/run-charter.txt
+    - date: '1995-04-03'
+      subject: IETF 32 proceedings charter
+      url: https://www.ietf.org/proceedings/32/area.and.wg.reports/usv/run/run-charter.txt
+    - date: '1999-04-21'
+      subject: IETF 45 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-144.html
 - person: 13973
   name: Sally Hambridge
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2002-03-22'
+      date: '1994-12-05'
       not_before: '1994-09-22'
     end:
       certainty: group-closed
       date: '2002-03-22'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '1995-06-09'
@@ -30,3 +68,17 @@ chairs:
     - date: '1995-07-07'
       subject: Revised agenda for 33rd IETF
       url: https://mailarchive.ietf.org/arch/msg/run/5Mgk7pmOiVIJSFRyTkJSnRSpOZM/
+  - kind: proceedings
+    listed_in: 14
+    first: '1994-12-05'
+    last: '2001-08-29'
+    examples:
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/usv/run/run-charter.txt
+    - date: '1995-04-03'
+      subject: IETF 32 proceedings charter
+      url: https://www.ietf.org/proceedings/32/area.and.wg.reports/usv/run/run-charter.txt
+    - date: '2001-08-29'
+      subject: IETF 52 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/52/247.htm

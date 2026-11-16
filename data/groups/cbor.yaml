@@ -96,6 +96,20 @@ chairs:
     - date: '2023-01-11'
       subject: '[Cbor] Working group last call on draft-ietf-cbor-time-tag-04'
       url: https://mailarchive.ietf.org/arch/msg/cbor/uo-wDfZVPdMerERGd2G4r-3vk0o/
+  - kind: minutes
+    listed_in: 6
+    first: '2018-07-14'
+    last: '2019-01-16'
+    examples:
+    - date: '2018-07-14'
+      subject: '[Cbor] Minutes IETF102 CBOR'
+      url: https://mailarchive.ietf.org/arch/msg/cbor/gr85btGI3IJPJVJnDGelUEwrBYQ/
+    - date: '2018-08-08'
+      subject: '[Cbor] Minutes from 1st webex call'
+      url: https://mailarchive.ietf.org/arch/msg/cbor/5RqY-vtdALAe3RLu5ctMR1J3Rbs/
+    - date: '2019-01-16'
+      subject: '[Cbor] Minutes from today''s interim'
+      url: https://mailarchive.ietf.org/arch/msg/cbor/iBMnbtNx6bzOnNXkLZZ2jwOyuTc/
   - kind: shepherded
     documents:
     - draft-ietf-cbor-cddl
@@ -123,6 +137,32 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/cbor/SNdHT1yeqHPNoeL33K-1A9-DSjI/
     excerpt: Hi, After Joe Hildebrand announcing stepping down as CBOR co-chair, I received a good list
       of volunteers.
+  - kind: minutes
+    listed_in: 4
+    first: '2017-03-26'
+    last: '2018-03-17'
+    examples:
+    - date: '2017-03-26'
+      subject: '[Cbor] Minutes IETF98 CBOR'
+      url: https://mailarchive.ietf.org/arch/msg/cbor/HrfvEralF6mjmO4uK7ZZrz7n7uE/
+    - date: '2017-07-16'
+      subject: '[Cbor] Minutes IETF99 CBOR'
+      url: https://mailarchive.ietf.org/arch/msg/cbor/ufMRzg5chZlhUIp1Kb5se-AS1lY/
+    - date: '2018-03-17'
+      subject: '[Cbor] Minutes IETF101 CBOR'
+      url: https://mailarchive.ietf.org/arch/msg/cbor/NNOHNmy--heiFNkyf0nGCyUsh_E/
+  - kind: proceedings
+    listed_in: 1
+    first: '2017-03-26'
+    last: '2017-03-26'
+    examples:
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/cbor.html
+  - kind: minutes without them
+    date: '2018-07-14'
+    subject: '[Cbor] Minutes IETF102 CBOR'
+    url: https://mailarchive.ietf.org/arch/msg/cbor/gr85btGI3IJPJVJnDGelUEwrBYQ/
 - person: 110910
   name: Jim Schaad
   status: confirmed
@@ -162,6 +202,18 @@ chairs:
     - date: '2020-07-13'
       subject: '[Cbor] Agenda items for IETF 108'
       url: https://mailarchive.ietf.org/arch/msg/cbor/pSH-pvANFgqQBsdvtfvGwWQEJVI/
+  - kind: minutes
+    listed_in: 1
+    first: '2020-05-06'
+    last: '2020-05-06'
+    examples:
+    - date: '2020-05-06'
+      subject: '[Cbor] Minutes interim 2020-05-06'
+      url: https://mailarchive.ietf.org/arch/msg/cbor/AaJUPlHICIKG0EBuLpX95njFy1c/
+  - kind: minutes without them
+    date: '2018-07-14'
+    subject: '[Cbor] Minutes IETF102 CBOR'
+    url: https://mailarchive.ietf.org/arch/msg/cbor/gr85btGI3IJPJVJnDGelUEwrBYQ/
   - kind: shepherded
     documents:
     - draft-ietf-cbor-sequence
@@ -198,6 +250,28 @@ chairs:
     date: '2020-10-09'
     subject: 'WG Action: Rechartered Concise Binary Object Representation Maintenance and Extensions (cbor)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/veSVSXF0__UHKva73F5xBwDhRmw/
+  - kind: minutes
+    listed_in: 10
+    first: '2017-07-16'
+    last: '2020-05-06'
+    examples:
+    - date: '2017-07-16'
+      subject: '[Cbor] Minutes IETF99 CBOR'
+      url: https://mailarchive.ietf.org/arch/msg/cbor/ufMRzg5chZlhUIp1Kb5se-AS1lY/
+    - date: '2017-11-11'
+      subject: '[Cbor] Minutes IETF100 CBOR'
+      url: https://mailarchive.ietf.org/arch/msg/cbor/b874CMP-l2fiuHAo4TV8nCSO7gY/
+    - date: '2020-05-06'
+      subject: '[Cbor] Minutes interim 2020-05-06'
+      url: https://mailarchive.ietf.org/arch/msg/cbor/AaJUPlHICIKG0EBuLpX95njFy1c/
+  - kind: proceedings
+    listed_in: 1
+    first: '2017-03-26'
+    last: '2017-03-26'
+    examples:
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/cbor.html
   - kind: shepherded
     documents:
     - draft-ietf-cbor-7049bis

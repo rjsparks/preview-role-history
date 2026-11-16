@@ -13,10 +13,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2009-03-04'
     end:
       certainty: group-closed
       date: '2011-12-09'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2009-03-10'
@@ -29,3 +31,11 @@ chairs:
     - date: '2009-03-11'
       subject: '[shara] SHARA draft agenda - take two'
       url: https://mailarchive.ietf.org/arch/msg/shara/l4zqEW2RoulxZYpiTa9l5AQOcEs/
+  - kind: proceedings
+    listed_in: 1
+    first: '2009-03-04'
+    last: '2009-03-04'
+    examples:
+    - date: '2009-03-04'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/shara.html

@@ -30,6 +30,20 @@ chairs:
     date: '2018-12-07'
     subject: 'WG Action: Rechartered Domain-based Message Authentication, Reporting & Conformance (dmarc)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/dOmcGXJ8ph-wyc5iUyjX4nF9wbk/
+  - kind: proceedings
+    listed_in: 7
+    first: '2014-07-20'
+    last: '2016-07-17'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/dmarc.html
+    - date: '2014-11-09'
+      subject: IETF 91 proceedings charter
+      url: https://www.ietf.org/proceedings/91/dmarc.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/dmarc.html
   - kind: shepherded
     documents:
     - draft-ietf-dmarc-interoperability
@@ -40,10 +54,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2013-06-20'
-      not_after: '2013-09-24'
+      not_after: '2013-07-28'
     end:
       certainty: approximate
       date: '2014-07-04'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2013-07-31'
@@ -53,6 +69,14 @@ chairs:
     - date: '2013-07-31'
       subject: '[dmarc-ietf] Draft DMARC BOF Minutes'
       url: https://mailarchive.ietf.org/arch/msg/dmarc/Q7Hr0F5bkBSFkNkj61OGhafe0y4/
+  - kind: proceedings
+    listed_in: 1
+    first: '2013-07-28'
+    last: '2013-07-28'
+    examples:
+    - date: '2013-07-28'
+      subject: IETF 87 proceedings charter
+      url: https://www.ietf.org/proceedings/87/dmarc.html
 - person: 21684
   name: Barry Leiba
   status: confirmed
@@ -113,6 +137,17 @@ chairs:
     - date: '2018-07-17'
       subject: '[dmarc-ietf] WGLC on draft-ietf-dmarc-arc-protocol-16'
       url: https://mailarchive.ietf.org/arch/msg/dmarc/BDeQazPsFWekB5qlHiVq7N0SGv8/
+  - kind: proceedings
+    listed_in: 2
+    first: '2016-04-03'
+    last: '2016-07-17'
+    examples:
+    - date: '2016-04-03'
+      subject: IETF 95 proceedings charter
+      url: https://www.ietf.org/proceedings/95/dmarc.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/dmarc.html
   - kind: shepherded
     documents:
     - draft-ietf-dmarc-aggregate-reporting
@@ -215,6 +250,20 @@ chairs:
     - date: '2014-09-14'
       subject: '[dmarc-ietf] Milestone 1 wiki updated'
       url: https://mailarchive.ietf.org/arch/msg/dmarc/t3O-tHOQIJp0340K5tJ-WOku6nw/
+  - kind: proceedings
+    listed_in: 7
+    first: '2014-07-20'
+    last: '2016-07-17'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/dmarc.html
+    - date: '2014-11-09'
+      subject: IETF 91 proceedings charter
+      url: https://www.ietf.org/proceedings/91/dmarc.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/dmarc.html
   - kind: shepherded
     documents:
     - draft-ietf-dmarc-rfc7601bis

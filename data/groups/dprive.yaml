@@ -48,6 +48,14 @@ chairs:
     - date: '2019-08-14'
       subject: '[dns-privacy] Call for Adoption: draft-hal-adot-operational-considerations'
       url: https://mailarchive.ietf.org/arch/msg/dns-privacy/AjwNXVgxP_Q5T0lMtTI1Tw5zOU8/
+  - kind: minutes
+    listed_in: 1
+    first: '2022-07-23'
+    last: '2022-07-23'
+    examples:
+    - date: '2022-07-23'
+      subject: '[dns-privacy] Minutes from IETF114'
+      url: https://mailarchive.ietf.org/arch/msg/dns-privacy/d8SJFhPyNWBLqbWVCvdl7wap_bk/
   - kind: shepherded
     documents:
     - draft-ietf-dprive-dnsoquic
@@ -90,6 +98,24 @@ chairs:
     - date: '2016-11-18'
       subject: '[dns-privacy] Call for Adoption: draft-mayrhofer-dprive-padding-profile'
       url: https://mailarchive.ietf.org/arch/msg/dns-privacy/YwOKYsqBcPn-htXdOcKvLpK_LoA/
+  - kind: proceedings
+    listed_in: 8
+    first: '2014-07-20'
+    last: '2016-11-13'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/dprive.html
+    - date: '2014-11-09'
+      subject: IETF 91 proceedings charter
+      url: https://www.ietf.org/proceedings/91/dprive.html
+    - date: '2016-11-13'
+      subject: IETF 97 proceedings charter
+      url: https://www.ietf.org/proceedings/97/dprive.html
+  - kind: minutes without them
+    date: '2022-07-23'
+    subject: '[dns-privacy] Minutes from IETF114'
+    url: https://mailarchive.ietf.org/arch/msg/dns-privacy/d8SJFhPyNWBLqbWVCvdl7wap_bk/
   - kind: shepherded
     documents:
     - draft-ietf-dprive-problem-statement
@@ -132,6 +158,28 @@ chairs:
     - date: '2015-11-24'
       subject: '[dns-privacy] Working Group Last Call for draft-ietf-dprive-edns0-padding'
       url: https://mailarchive.ietf.org/arch/msg/dns-privacy/CiVh46EnPFtgU05Cn3XR04QEwXM/
+  - kind: minutes
+    listed_in: 1
+    first: '2022-07-23'
+    last: '2022-07-23'
+    examples:
+    - date: '2022-07-23'
+      subject: '[dns-privacy] Minutes from IETF114'
+      url: https://mailarchive.ietf.org/arch/msg/dns-privacy/d8SJFhPyNWBLqbWVCvdl7wap_bk/
+  - kind: proceedings
+    listed_in: 8
+    first: '2014-07-20'
+    last: '2016-11-13'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 proceedings charter
+      url: https://www.ietf.org/proceedings/90/dprive.html
+    - date: '2014-11-09'
+      subject: IETF 91 proceedings charter
+      url: https://www.ietf.org/proceedings/91/dprive.html
+    - date: '2016-11-13'
+      subject: IETF 97 proceedings charter
+      url: https://www.ietf.org/proceedings/97/dprive.html
   - kind: shepherded
     documents:
     - draft-ietf-dprive-bcp-op

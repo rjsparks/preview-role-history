@@ -13,19 +13,53 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-03-14'
+      date: '2003-02-26'
       not_before: '2003-01-31'
     end:
       certainty: group-closed
       date: '2005-03-14'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 5
+    first: '2003-02-26'
+    last: '2004-11-11'
+    examples:
+    - date: '2003-02-26'
+      subject: IETF 56 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/56/203.htm
+    - date: '2003-05-19'
+      subject: IETF 57 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/57/203.htm
+    - date: '2004-11-11'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/ipseckey.html
 - person: 104212
   name: Rob Austein
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-03-14'
+      date: '2003-02-26'
       not_before: '2003-01-31'
     end:
       certainty: group-closed
       date: '2005-03-14'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 5
+    first: '2003-02-26'
+    last: '2004-11-11'
+    examples:
+    - date: '2003-02-26'
+      subject: IETF 56 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/56/203.htm
+    - date: '2003-05-19'
+      subject: IETF 57 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/57/203.htm
+    - date: '2004-11-11'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/ipseckey.html

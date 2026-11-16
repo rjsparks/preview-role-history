@@ -13,20 +13,36 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2009-09-16'
     end:
       certainty: group-closed
       date: '2011-12-09'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2009-09-16'
+    last: '2010-06-10'
+    examples:
+    - date: '2009-09-16'
+      subject: IETF 76 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/76/homegate.html
+    - date: '2010-06-10'
+      subject: IETF 78 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/78/homegate.html
 - person: 107154
   name: Jason Livingood
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2009-09-16'
     end:
       certainty: group-closed
       date: '2011-12-09'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2009-11-13'
@@ -39,16 +55,29 @@ chairs:
     - date: '2010-02-02'
       subject: '[homegate] Interim Meeting - Proposed Participants and Agenda (plus location + date selection)'
       url: https://mailarchive.ietf.org/arch/msg/homegate/wK4TM_4Lnmh0YdjpqWXK6G958ho/
+  - kind: proceedings
+    listed_in: 2
+    first: '2009-09-16'
+    last: '2010-06-10'
+    examples:
+    - date: '2009-09-16'
+      subject: IETF 76 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/76/homegate.html
+    - date: '2010-06-10'
+      subject: IETF 78 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/78/homegate.html
 - person: 109059
   name: Ray Bellis
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2010-06-10'
     end:
       certainty: group-closed
       date: '2011-12-09'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2010-07-30'
@@ -58,3 +87,11 @@ chairs:
     - date: '2010-07-30'
       subject: '[homegate] HomeGate BoF - draft minutes available'
       url: https://mailarchive.ietf.org/arch/msg/homegate/3o0LtM9IDJk6qT9BaetHejUy2HU/
+  - kind: proceedings
+    listed_in: 1
+    first: '2010-06-10'
+    last: '2010-06-10'
+    examples:
+    - date: '2010-06-10'
+      subject: IETF 78 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/78/homegate.html

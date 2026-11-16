@@ -56,6 +56,20 @@ chairs:
     date: '2025-10-13'
     subject: 'WG Action: Rechartered HTTP (httpbis)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/byFbrBsueBZlnCrI4ytJb1khlmA/
+  - kind: proceedings
+    listed_in: 25
+    first: '2007-07-05'
+    last: '2017-03-26'
+    examples:
+    - date: '2007-07-05'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/httpbis.html
+    - date: '2007-12-26'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/httpbis.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/httpbis.html
   - kind: session requests
     meetings:
     - '70'
@@ -125,6 +139,20 @@ chairs:
     date: '2018-12-07'
     subject: 'WG Action: Rechartered Hypertext Transfer Protocol (httpbis)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/FrbZdCfrv-90Bm3Sx1Jw0LLojYs/
+  - kind: proceedings
+    listed_in: 3
+    first: '2016-07-17'
+    last: '2017-03-26'
+    examples:
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/httpbis.html
+    - date: '2016-11-13'
+      subject: IETF 97 proceedings charter
+      url: https://www.ietf.org/proceedings/97/httpbis.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/httpbis.html
   - kind: shepherded
     documents:
     - draft-ietf-httpbis-cache-digest

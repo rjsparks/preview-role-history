@@ -7,6 +7,116 @@ started: '1993-04-23'
 closed: '2024-08-14'
 history_url: https://datatracker.ietf.org/group/mmusic/history/
 chairs:
+- person: 4387
+  name: Abel Weinrib
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1994-03-28'
+    end:
+      certainty: between
+      not_before: '2008-03-09'
+      not_after: '2008-12-01'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 13
+    first: '1994-03-28'
+    last: '2008-03-09'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/tsv/mmusic/mmusic-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/tsv/mmusic/mmusic-charter.txt
+    - date: '2008-03-09'
+      subject: IETF 71 proceedings charter
+      url: https://www.ietf.org/proceedings/71/RFCs/rfc1603.txt
+  - kind: minutes without them
+    date: '2008-12-01'
+    subject: IETF 74 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/74/mmusic.html
+- person: 4493
+  name: Ruth Lang
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1995-04-03'
+    end:
+      certainty: between
+      not_before: '2000-07-17'
+      not_after: '2000-10-23'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 14
+    first: '1995-04-03'
+    last: '2000-07-17'
+    examples:
+    - date: '1995-04-03'
+      subject: IETF 32 proceedings charter
+      url: https://www.ietf.org/proceedings/32/area.and.wg.reports/tsv/mmusic/mmusic-charter.txt
+    - date: '1995-07-17'
+      subject: IETF 33 proceedings charter
+      url: https://www.ietf.org/proceedings/33/area.and.wg.reports/tsv/mmusic/mmusic-charter.txt
+    - date: '2000-07-17'
+      subject: IETF 48 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/48/00july-131.htm
+  - kind: minutes without them
+    date: '2000-10-23'
+    subject: IETF 49 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/49/00dec-141.htm
+- person: 9052
+  name: Mark Handley
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1995-04-03'
+    end:
+      certainty: between
+      not_before: '2000-07-17'
+      not_after: '2000-10-23'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: chair activity
+    first: '1995-07-25'
+    last: '1998-09-17'
+    messages: 3
+    examples:
+    - date: '1995-07-25'
+      subject: MMUSIC Minutes
+      url: https://mailarchive.ietf.org/arch/msg/mmusic/bp4BV21oJP48BXJah686xdhuYVo/
+    - date: '1997-04-02'
+      subject: WG Last Call on SDP
+      url: https://mailarchive.ietf.org/arch/msg/mmusic/kvJs_fUbToVLfEJB2m-b5KcM0Xg/
+    - date: '1998-09-17'
+      subject: Chicago MMUSIC WG minutes
+      url: https://mailarchive.ietf.org/arch/msg/mmusic/TrzQXba3CrNnfk9TP65NtaTWUuk/
+  - kind: proceedings
+    listed_in: 14
+    first: '1995-04-03'
+    last: '2000-07-17'
+    examples:
+    - date: '1995-04-03'
+      subject: IETF 32 proceedings charter
+      url: https://www.ietf.org/proceedings/32/area.and.wg.reports/tsv/mmusic/mmusic-charter.txt
+    - date: '1995-07-17'
+      subject: IETF 33 proceedings charter
+      url: https://www.ietf.org/proceedings/33/area.and.wg.reports/tsv/mmusic/mmusic-charter.txt
+    - date: '2000-07-17'
+      subject: IETF 48 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/48/00july-131.htm
+  - kind: minutes without them
+    date: '2000-10-23'
+    subject: IETF 49 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/49/00dec-141.htm
 - person: 11842
   name: Joerg Ott
   status: unconfirmed
@@ -15,10 +125,12 @@ chairs:
       certainty: approximate
       date: '1997-07-14'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2009-11-08'
+      not_after: '2010-02-10'
     notes:
     - start dated by list message of 1997-07-14
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2004-07-29'
@@ -50,6 +162,24 @@ chairs:
     - date: '2000-11-13'
       subject: WG Last Call on ATM/SDP
       url: https://mailarchive.ietf.org/arch/msg/mmusic/0mrnF46JWgPi_pmxLIBMUVIxPTw/
+  - kind: proceedings
+    listed_in: 31
+    first: '1997-08-11'
+    last: '2009-11-08'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-114.htm
+    - date: '1997-11-26'
+      subject: IETF 40 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-118.htm
+    - date: '2009-11-08'
+      subject: IETF 76 proceedings charter
+      url: https://www.ietf.org/proceedings/76/mmusic.html
+  - kind: minutes without them
+    date: '2010-02-10'
+    subject: IETF 77 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/77/mmusic.html
   - kind: session requests
     meetings:
     - '65'
@@ -69,10 +199,12 @@ chairs:
       certainty: approximate
       date: '2000-08-31'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2007-07-16'
+      not_after: '2007-07-22'
     notes:
     - start dated by list message of 2000-08-31
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2004-07-29'
@@ -105,9 +237,74 @@ chairs:
     - date: '2002-12-16'
       subject: '[MMUSIC] Draft MMUSIC minutes from Atlanta'
       url: https://mailarchive.ietf.org/arch/msg/mmusic/0G7zRT1j82sT7udgRCm7h1EF70Q/
+  - kind: proceedings
+    listed_in: 17
+    first: '2000-10-23'
+    last: '2006-07-05'
+    examples:
+    - date: '2000-10-23'
+      subject: IETF 49 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/49/00dec-141.htm
+    - date: '2001-03-14'
+      subject: IETF 50 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/50/ietf50-146.htm
+    - date: '2006-07-05'
+      subject: IETF 66 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/66/mmusic.html
+  - kind: minutes without them
+    date: '2007-07-22'
+    subject: IETF 69 proceedings charter
+    url: https://www.ietf.org/proceedings/69/RFCs/rfc1603.txt
   - kind: session requests
     meetings:
     - '66'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 100754
+  name: Tom Taylor
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2010-02-10'
+    end:
+      certainty: between
+      not_before: '2010-12-09'
+      not_after: '2011-03-27'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: chair activity
+    first: '2010-04-26'
+    last: '2010-12-09'
+    messages: 3
+    examples:
+    - date: '2010-04-26'
+      subject: '[MMUSIC] Working Group Last Call for draft-ietf-mmusic-image-attributes-04'
+      url: https://mailarchive.ietf.org/arch/msg/mmusic/8tVx5rPIXUM4nt63r_C_bD86by4/
+    - date: '2010-08-04'
+      subject: '[MMUSIC] IETF 78 minutes uploaded'
+      url: https://mailarchive.ietf.org/arch/msg/mmusic/Yu1ibVHOTKppW0KBKT6OFslR8_E/
+    - date: '2010-12-09'
+      subject: '[MMUSIC] IETF 79 minutes posted'
+      url: https://mailarchive.ietf.org/arch/msg/mmusic/ncE-RE0DFewJLtAlB-pAVMDiwfM/
+  - kind: proceedings
+    listed_in: 2
+    first: '2010-02-10'
+    last: '2010-07-25'
+    examples:
+    - date: '2010-02-10'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/mmusic.html
+    - date: '2010-07-25'
+      subject: IETF 78 proceedings charter
+      url: https://www.ietf.org/proceedings/78/mmusic.html
+  - kind: minutes without them
+    date: '2011-03-27'
+    subject: IETF 80 proceedings charter
+    url: https://www.ietf.org/proceedings/80/mmusic.html
+  - kind: session requests
+    meetings:
+    - '79'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
 - person: 102848
   name: Miguel García
@@ -115,13 +312,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-07-24'
+      date: '2010-11-07'
       not_before: '1993-04-23'
     end:
       certainty: exact
       date: '2013-01-11'
     notes:
     - start moved earlier by session request for IETF 81
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2011-04-13'
@@ -143,6 +341,20 @@ chairs:
     - date: '2012-04-18'
       subject: '[MMUSIC] WGLC of draft-ietf-mmusic-rfc2326bis-29.txt'
       url: https://mailarchive.ietf.org/arch/msg/mmusic/TzXC4NmMQtU3lX9VSnFn9k5MPIM/
+  - kind: proceedings
+    listed_in: 6
+    first: '2010-11-07'
+    last: '2012-07-29'
+    examples:
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/mmusic.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/mmusic.html
+    - date: '2012-07-29'
+      subject: IETF 84 proceedings charter
+      url: https://www.ietf.org/proceedings/84/mmusic.html
   - kind: session requests
     meetings:
     - '81'
@@ -161,10 +373,12 @@ chairs:
       certainty: approximate
       date: '2006-07-04'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2010-07-30'
+      not_after: '2010-11-07'
     notes:
     - start dated by list message of 2006-07-04
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: list message
     date: '2006-07-04'
@@ -193,6 +407,24 @@ chairs:
     - date: '2008-10-24'
       subject: '[MMUSIC] WGLC: draft-ietf-mmusic-connectivity-precon-05.txt'
       url: https://mailarchive.ietf.org/arch/msg/mmusic/Vt8On34W8T1qCAGK_-am5Auepsk/
+  - kind: proceedings
+    listed_in: 6
+    first: '2006-07-05'
+    last: '2010-02-10'
+    examples:
+    - date: '2006-07-05'
+      subject: IETF 66 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/66/mmusic.html
+    - date: '2008-01-09'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/mmusic.html
+    - date: '2010-02-10'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/mmusic.html
+  - kind: minutes without them
+    date: '2010-11-07'
+    subject: IETF 79 proceedings charter
+    url: https://www.ietf.org/proceedings/79/mmusic.html
   - kind: session requests
     meetings:
     - '68'
@@ -245,6 +477,20 @@ chairs:
     - date: '2012-09-06'
       subject: '[MMUSIC] WGLC for draft-ietf-mmusic-sdp-miscellaneous-caps-01.txt'
       url: https://mailarchive.ietf.org/arch/msg/mmusic/CYvXyCS974KS8J8jFGwYIO4Wlz4/
+  - kind: proceedings
+    listed_in: 21
+    first: '2010-07-25'
+    last: '2017-03-26'
+    examples:
+    - date: '2010-07-25'
+      subject: IETF 78 proceedings charter
+      url: https://www.ietf.org/proceedings/78/mmusic.html
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/mmusic.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/mmusic.html
   - kind: session requests
     meetings:
     - '80'
@@ -312,6 +558,20 @@ chairs:
     - date: '2016-09-15'
       subject: '[MMUSIC] WG Last Call for draft-ietf-mmusic-data-channel-sdpneg-09'
       url: https://mailarchive.ietf.org/arch/msg/mmusic/Xvf_j2Hm75VOz9_VqxTXi0rr-ng/
+  - kind: proceedings
+    listed_in: 5
+    first: '2015-11-01'
+    last: '2017-03-26'
+    examples:
+    - date: '2015-11-01'
+      subject: IETF 94 proceedings charter
+      url: https://www.ietf.org/proceedings/94/mmusic.html
+    - date: '2016-04-03'
+      subject: IETF 95 proceedings charter
+      url: https://www.ietf.org/proceedings/95/mmusic.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/mmusic.html
   - kind: shepherded
     documents:
     - draft-ietf-mmusic-data-channel-sdpneg
@@ -352,6 +612,20 @@ chairs:
     - date: '2013-05-21'
       subject: '[MMUSIC] Availability for a follow-up MMUSIC interim meeting'
       url: https://mailarchive.ietf.org/arch/msg/mmusic/RiRV5TOOv7ZL3hP3bLUs7vU-gYQ/
+  - kind: proceedings
+    listed_in: 9
+    first: '2012-11-04'
+    last: '2015-07-19'
+    examples:
+    - date: '2012-11-04'
+      subject: IETF 85 proceedings charter
+      url: https://www.ietf.org/proceedings/85/mmusic.html
+    - date: '2013-03-10'
+      subject: IETF 86 proceedings charter
+      url: https://www.ietf.org/proceedings/86/mmusic.html
+    - date: '2015-07-19'
+      subject: IETF 93 proceedings charter
+      url: https://www.ietf.org/proceedings/93/mmusic.html
   - kind: shepherded
     documents:
     - draft-ietf-mmusic-delayed-duplication
@@ -362,3 +636,46 @@ chairs:
     - draft-ietf-mmusic-sdp-g723-g729
     - draft-ietf-mmusic-traffic-class-for-sdp
     - draft-ietf-mmusic-trickle-ice
+- person: 123468
+  name: Eve Schooler
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1994-03-28'
+    end:
+      certainty: between
+      not_before: '2008-03-09'
+      not_after: '2008-12-01'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: chair activity
+    first: '1995-03-27'
+    last: '1998-03-25'
+    messages: 5
+    examples:
+    - date: '1995-03-27'
+      subject: MMusic Agenda for Danver's IETF
+      url: https://mailarchive.ietf.org/arch/msg/mmusic/XvVi9VCbCtuCmviNVR0JvnxwL30/
+    - date: '1996-03-22'
+      subject: MMusic WG Minutes/Slides
+      url: https://mailarchive.ietf.org/arch/msg/mmusic/2z-mCDg0Q9I4G2rbjcHlSy5Crwo/
+  - kind: proceedings
+    listed_in: 27
+    first: '1994-03-28'
+    last: '2008-03-09'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/tsv/mmusic/mmusic-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/tsv/mmusic/mmusic-charter.txt
+    - date: '2008-03-09'
+      subject: IETF 71 proceedings charter
+      url: https://www.ietf.org/proceedings/71/RFCs/rfc1603.txt
+  - kind: minutes without them
+    date: '2008-12-01'
+    subject: IETF 74 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/74/mmusic.html

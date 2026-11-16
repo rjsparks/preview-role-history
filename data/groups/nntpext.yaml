@@ -13,19 +13,85 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-10-07'
+      date: '1997-08-11'
       not_before: '1996-11-21'
     end:
       certainty: group-closed
       date: '2005-10-07'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 18
+    first: '1997-08-11'
+    last: '2005-06-27'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-25.htm
+    - date: '1997-10-27'
+      subject: IETF 40 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-19.htm
+    - date: '2005-06-27'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/nntpext.html
+- person: 4788
+  name: Stan Barber
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1997-08-11'
+    end:
+      certainty: between
+      not_before: '2002-02-21'
+      not_after: '2003-01-22'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 14
+    first: '1997-08-11'
+    last: '2002-02-21'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-25.htm
+    - date: '1997-10-27'
+      subject: IETF 40 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-19.htm
+    - date: '2002-02-21'
+      subject: IETF 54 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/54/119.htm
+  - kind: minutes without them
+    date: '2003-01-22'
+    subject: IETF 56 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/56/120.htm
 - person: 106123
   name: Russ Allbery
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-10-07'
+      date: '2003-01-22'
       not_before: '1996-11-21'
     end:
       certainty: group-closed
       date: '2005-10-07'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 4
+    first: '2003-01-22'
+    last: '2005-06-27'
+    examples:
+    - date: '2003-01-22'
+      subject: IETF 56 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/56/120.htm
+    - date: '2003-03-25'
+      subject: IETF 57 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/57/116.htm
+    - date: '2005-06-27'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/nntpext.html

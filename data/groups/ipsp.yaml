@@ -13,11 +13,28 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-03-15'
+      date: '2000-02-29'
       not_before: '1999-11-16'
     end:
       certainty: group-closed
       date: '2005-03-15'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 12
+    first: '2000-02-29'
+    last: '2004-11-11'
+    examples:
+    - date: '2000-02-29'
+      subject: IETF 47 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-110.html
+    - date: '2000-07-18'
+      subject: IETF 48 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/48/00july-105.htm
+    - date: '2004-11-11'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/ipsp.html
 - person: 19237
   name: Luis Sanchez
   status: confirmed
@@ -36,3 +53,17 @@ chairs:
     date: '2000-01-26'
     subject: 'WG Action: IP Security Policy (ipsp)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/ViQ5GiUjH9aY_0gT573XJg63f94/
+  - kind: proceedings
+    listed_in: 12
+    first: '2000-02-29'
+    last: '2004-11-11'
+    examples:
+    - date: '2000-02-29'
+      subject: IETF 47 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-110.html
+    - date: '2000-07-18'
+      subject: IETF 48 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/48/00july-105.htm
+    - date: '2004-11-11'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/ipsp.html

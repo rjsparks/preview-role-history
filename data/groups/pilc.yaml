@@ -13,11 +13,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-01-08'
+      date: '1999-06-15'
       not_before: '1999-04-02'
     end:
       certainty: group-closed
       date: '2004-01-08'
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2002-01-12'
@@ -27,6 +29,20 @@ chairs:
     - date: '2002-01-12'
       subject: pilc minutes (better late than never....)
       url: https://mailarchive.ietf.org/arch/msg/pilc/43ke-kAW3GMhwgbQKzqtSbc08Qs/
+  - kind: proceedings
+    listed_in: 11
+    first: '1999-06-15'
+    last: '2003-03-11'
+    examples:
+    - date: '1999-06-15'
+      subject: IETF 45 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-132.html
+    - date: '1999-10-26'
+      subject: IETF 46 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-146.html
+    - date: '2003-03-11'
+      subject: IETF 56 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/56/235.htm
 - person: 107190
   name: Spencer Dawkins
   status: confirmed
@@ -45,3 +61,17 @@ chairs:
     date: '1999-04-28'
     subject: 'WG ACTION: Performance Implications of Link Characteristics (pilc)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/rZIsWKzfv72dnz5eEn0Dab0WqXM/
+  - kind: proceedings
+    listed_in: 11
+    first: '1999-06-15'
+    last: '2003-03-11'
+    examples:
+    - date: '1999-06-15'
+      subject: IETF 45 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-132.html
+    - date: '1999-10-26'
+      subject: IETF 46 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-146.html
+    - date: '2003-03-11'
+      subject: IETF 56 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/56/235.htm

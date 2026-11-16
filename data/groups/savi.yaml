@@ -13,7 +13,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2008-11-16'
+      not_after: '2008-11-05'
     end:
       certainty: approximate
       date: '2009-12-17'
@@ -26,6 +26,17 @@ chairs:
     subject: '[savi] working group chairs'
     url: https://mailarchive.ietf.org/arch/msg/savi/i4L-a9s2aQ8BhYjj1LuUYj26EF4/
     excerpt: Bill Fenner will step down as WG chair for SAVI, due to day job taking too much of his time.
+  - kind: proceedings
+    listed_in: 2
+    first: '2008-11-05'
+    last: '2009-11-08'
+    examples:
+    - date: '2008-11-05'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/savi.html
+    - date: '2009-11-08'
+      subject: IETF 76 proceedings charter
+      url: https://www.ietf.org/proceedings/76/savi.html
   - kind: session requests
     meetings:
     - '73'
@@ -64,6 +75,20 @@ chairs:
     - date: '2010-11-09'
       subject: '[savi] Working group last call on draft-ietf-savi-fcfs'
       url: https://mailarchive.ietf.org/arch/msg/savi/RFAZuSk5LoyzJECcHSeuCK6mIJ4/
+  - kind: proceedings
+    listed_in: 8
+    first: '2008-02-19'
+    last: '2011-11-13'
+    examples:
+    - date: '2008-02-19'
+      subject: IETF 72 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/72/savi.html
+    - date: '2008-11-05'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/savi.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/savi.html
   - kind: session requests
     meetings:
     - '74'
@@ -111,6 +136,20 @@ chairs:
     - date: '2014-04-08'
       subject: '[savi] WGLC: draft-ietf-savi-dhcp-22'
       url: https://mailarchive.ietf.org/arch/msg/savi/0ymjxtFOwLB-d2nNOYpFLTcx858/
+  - kind: proceedings
+    listed_in: 5
+    first: '2010-02-16'
+    last: '2011-11-13'
+    examples:
+    - date: '2010-02-16'
+      subject: IETF 77 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/77/savi.html
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/savi.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/savi.html
   - kind: session requests
     meetings:
     - '80'

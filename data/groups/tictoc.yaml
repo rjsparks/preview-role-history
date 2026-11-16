@@ -15,8 +15,11 @@ chairs:
       certainty: evidence-only
       not_after: '2007-02-28'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2010-03-21'
+      not_after: '2010-08-19'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2008-03-11'
@@ -33,6 +36,21 @@ chairs:
     - date: '2008-04-09'
       subject: '[TICTOC] TICTOC Interim - propose 9-11 June Paris'
       url: https://mailarchive.ietf.org/arch/msg/tictoc/etWaMW94dtgge3MWxOH6Ebuv9HE/
+  - kind: proceedings
+    listed_in: 2
+    first: '2008-03-11'
+    last: '2009-04-13'
+    examples:
+    - date: '2008-03-11'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/itictoc.html
+    - date: '2009-04-13'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/tictoc.html
+  - kind: minutes without them
+    date: '2010-08-19'
+    subject: IETF 78 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/78/tictoc.html
   - kind: session requests
     meetings:
     - '70'
@@ -48,13 +66,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-11-07'
+      date: '2010-08-19'
       not_before: '2007-12-17'
     end:
       certainty: group-closed
       date: '2025-03-19'
     notes:
     - start moved earlier by session request for IETF 79
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2010-09-01'
@@ -76,6 +95,20 @@ chairs:
     - date: '2015-06-30'
       subject: '[TICTOC] WGLC on draft-mizrahi-ntp-checksum-trailer-02.txt'
       url: https://mailarchive.ietf.org/arch/msg/tictoc/2SOH436YfKEK-GbjnDWzK8xLw5k/
+  - kind: proceedings
+    listed_in: 21
+    first: '2010-08-19'
+    last: '2017-03-26'
+    examples:
+    - date: '2010-08-19'
+      subject: IETF 78 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/78/tictoc.html
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/tictoc.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/tictoc.html
   - kind: session requests
     meetings:
     - '79'
@@ -89,6 +122,35 @@ chairs:
     - draft-ietf-tictoc-multi-path-synchronization
     - draft-ietf-tictoc-ptp-mib
     - draft-ietf-tictoc-security-requirements
+- person: 106114
+  name: Kurt Lindqvist
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2007-03-18'
+    end:
+      certainty: between
+      not_before: '2007-05-31'
+      not_after: '2008-03-11'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2007-03-18'
+    last: '2007-05-31'
+    examples:
+    - date: '2007-03-18'
+      subject: IETF 68 proceedings charter
+      url: https://www.ietf.org/proceedings/68/tictoc.html
+    - date: '2007-05-31'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/tictoc.html
+  - kind: minutes without them
+    date: '2008-03-11'
+    subject: IETF 71 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/71/itictoc.html
 - person: 106414
   name: Yaakov Stein
   status: confirmed
@@ -118,6 +180,20 @@ chairs:
     - date: '2008-03-16'
       subject: '[TICTOC] interim meeting / conference calls'
       url: https://mailarchive.ietf.org/arch/msg/tictoc/GbiR8EhPTdXB91z6y3V5NfYPT34/
+  - kind: proceedings
+    listed_in: 24
+    first: '2007-05-31'
+    last: '2017-03-26'
+    examples:
+    - date: '2007-05-31'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/tictoc.html
+    - date: '2008-03-11'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/itictoc.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/tictoc.html
   - kind: session requests
     meetings:
     - '78'

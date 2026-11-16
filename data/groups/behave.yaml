@@ -13,13 +13,15 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-09-02'
-      not_before: '2004-05-30'
+      date: '2008-02-19'
+      not_before: '2004-08-01'
     end:
       certainty: group-closed
       date: '2013-10-17'
     notes:
     - start moved earlier by WG Action announcement of 2010-09-02
+    - widened to cover charter snapshots in proceedings
+    - bounded by minutes listing other chairs
   evidence:
   - kind: WG Review
     date: '2009-06-08'
@@ -61,6 +63,32 @@ chairs:
     - date: '2013-05-29'
       subject: '[BEHAVE] WGLC on draft-ietf-behave-nat-mib'
       url: https://mailarchive.ietf.org/arch/msg/behave/lVWc-a9UyjxyPN52WtMx1HNFoHk/
+  - kind: minutes
+    listed_in: 1
+    first: '2009-09-23'
+    last: '2009-09-23'
+    examples:
+    - date: '2009-09-23'
+      subject: '[BEHAVE] Minutes from Sept. interim teleconference'
+      url: https://mailarchive.ietf.org/arch/msg/behave/fbozQRZ6MepbudufQ4eDbDMyIFw/
+  - kind: proceedings
+    listed_in: 15
+    first: '2008-02-19'
+    last: '2013-07-28'
+    examples:
+    - date: '2008-02-19'
+      subject: IETF 73 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/73/behave.html
+    - date: '2008-12-16'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/behave.html
+    - date: '2013-07-28'
+      subject: IETF 87 proceedings charter
+      url: https://www.ietf.org/proceedings/87/behave.html
+  - kind: minutes without them
+    date: '2004-08-01'
+    subject: '[Ietf-behave] unrevised behave bof minutes'
+    url: https://mailarchive.ietf.org/arch/msg/behave/oYLuFQxT8KMhe3aaEiD2FPNSo5Y/
   - kind: session requests
     meetings:
     - '80'
@@ -72,12 +100,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2006-07-09'
-      not_before: '2004-05-30'
+      not_before: '2004-08-01'
     end:
       certainty: group-closed
       date: '2013-10-17'
     notes:
     - start moved earlier by session request for IETF 66
+    - bounded by minutes listing other chairs
   evidence:
   - kind: WG Review
     date: '2009-06-08'
@@ -119,6 +148,32 @@ chairs:
     - date: '2007-02-09'
       subject: '[BEHAVE] WGLC draft-ietf-behave-tcp-04 completed'
       url: https://mailarchive.ietf.org/arch/msg/behave/nWyO4JoqhZ010Cu7xwTwFWjacw0/
+  - kind: minutes
+    listed_in: 1
+    first: '2009-09-23'
+    last: '2009-09-23'
+    examples:
+    - date: '2009-09-23'
+      subject: '[BEHAVE] Minutes from Sept. interim teleconference'
+      url: https://mailarchive.ietf.org/arch/msg/behave/fbozQRZ6MepbudufQ4eDbDMyIFw/
+  - kind: proceedings
+    listed_in: 19
+    first: '2006-07-11'
+    last: '2013-07-28'
+    examples:
+    - date: '2006-07-11'
+      subject: IETF 66 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/66/behave.html
+    - date: '2007-02-28'
+      subject: IETF 68 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/68/behave.html
+    - date: '2013-07-28'
+      subject: IETF 87 proceedings charter
+      url: https://www.ietf.org/proceedings/87/behave.html
+  - kind: minutes without them
+    date: '2004-08-01'
+    subject: '[Ietf-behave] unrevised behave bof minutes'
+    url: https://mailarchive.ietf.org/arch/msg/behave/oYLuFQxT8KMhe3aaEiD2FPNSo5Y/
   - kind: session requests
     meetings:
     - '66'
@@ -143,7 +198,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2004-08-06'
+      not_after: '2004-08-01'
     end:
       certainty: approximate
       date: '2006-04-19'
@@ -172,16 +227,45 @@ chairs:
     - date: '2005-04-26'
       subject: '[Ietf-behave] WG last call: draft-ietf-behave-nat-udp-01.txt'
       url: https://mailarchive.ietf.org/arch/msg/behave/PBc9SnT4yg1Rfd_LufGl8we3RTk/
+  - kind: minutes
+    listed_in: 1
+    first: '2004-08-01'
+    last: '2004-08-01'
+    examples:
+    - date: '2004-08-01'
+      subject: '[Ietf-behave] unrevised behave bof minutes'
+      url: https://mailarchive.ietf.org/arch/msg/behave/oYLuFQxT8KMhe3aaEiD2FPNSo5Y/
+  - kind: proceedings
+    listed_in: 5
+    first: '2004-10-04'
+    last: '2006-03-07'
+    examples:
+    - date: '2004-10-04'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/behave.html
+    - date: '2005-01-07'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/behave.html
+    - date: '2006-03-07'
+      subject: IETF 65 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/65/behave.html
+  - kind: minutes without them
+    date: '2009-09-23'
+    subject: '[BEHAVE] Minutes from Sept. interim teleconference'
+    url: https://mailarchive.ietf.org/arch/msg/behave/fbozQRZ6MepbudufQ4eDbDMyIFw/
 - person: 105791
   name: Cullen Jennings
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2004-11-02'
+      not_after: '2004-08-01'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2007-08-12'
+      not_after: '2008-02-19'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2006-03-07'
@@ -201,6 +285,32 @@ chairs:
     - date: '2006-02-18'
       subject: '[Ietf-behave] WGLC of draft-ietf-behave-multicast'
       url: https://mailarchive.ietf.org/arch/msg/behave/e7FVjrlW3DSIJ7rU0xGHBlPm9ew/
+  - kind: minutes
+    listed_in: 1
+    first: '2004-08-01'
+    last: '2004-08-01'
+    examples:
+    - date: '2004-08-01'
+      subject: '[Ietf-behave] unrevised behave bof minutes'
+      url: https://mailarchive.ietf.org/arch/msg/behave/oYLuFQxT8KMhe3aaEiD2FPNSo5Y/
+  - kind: proceedings
+    listed_in: 5
+    first: '2004-10-04'
+    last: '2006-03-07'
+    examples:
+    - date: '2004-10-04'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/behave.html
+    - date: '2005-01-07'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/behave.html
+    - date: '2006-03-07'
+      subject: IETF 65 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/65/behave.html
+  - kind: minutes without them
+    date: '2009-09-23'
+    subject: '[BEHAVE] Minutes from Sept. interim teleconference'
+    url: https://mailarchive.ietf.org/arch/msg/behave/fbozQRZ6MepbudufQ4eDbDMyIFw/
   - kind: session requests
     meetings:
     - '65'

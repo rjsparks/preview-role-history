@@ -13,30 +13,78 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1996-10-14'
+      date: '1994-03-28'
       not_before: '1992-10-30'
     end:
       certainty: group-closed
       date: '1996-10-14'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 4
+    first: '1994-03-28'
+    last: '1995-07-17'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/usv/trainmat/trainmat-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/usv/trainmat/trainmat-charter.txt
+    - date: '1995-07-17'
+      subject: IETF 33 proceedings charter
+      url: https://www.ietf.org/proceedings/33/area.and.wg.reports/usv/trainmat/trainmat-charter.txt
 - person: 8184
   name: Mark Prior
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '1996-10-14'
+      date: '1994-03-28'
       not_before: '1992-10-30'
     end:
       certainty: group-closed
       date: '1996-10-14'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 4
+    first: '1994-03-28'
+    last: '1995-07-17'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/usv/trainmat/trainmat-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/usv/trainmat/trainmat-charter.txt
+    - date: '1995-07-17'
+      subject: IETF 33 proceedings charter
+      url: https://www.ietf.org/proceedings/33/area.and.wg.reports/usv/trainmat/trainmat-charter.txt
 - person: 13533
   name: Margaret Isaacs
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '1996-10-14'
+      date: '1995-04-03'
       not_before: '1992-10-30'
     end:
       certainty: group-closed
       date: '1996-10-14'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '1995-04-03'
+    last: '1995-07-17'
+    examples:
+    - date: '1995-04-03'
+      subject: IETF 32 proceedings charter
+      url: https://www.ietf.org/proceedings/32/area.and.wg.reports/usv/trainmat/trainmat-charter.txt
+    - date: '1995-07-17'
+      subject: IETF 33 proceedings charter
+      url: https://www.ietf.org/proceedings/33/area.and.wg.reports/usv/trainmat/trainmat-charter.txt

@@ -13,17 +13,45 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-08-28'
+      date: '2006-07-09'
     end:
       certainty: group-closed
       date: '2006-08-28'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2006-07-09'
+    last: '2006-08-28'
+    examples:
+    - date: '2006-07-09'
+      subject: IETF 66 proceedings charter
+      url: https://www.ietf.org/proceedings/66/dmsp.html
+    - date: '2006-08-28'
+      subject: IETF 67 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/67/dmsp.html
 - person: 107174
   name: Chris Cross
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-08-28'
+      date: '2006-07-09'
     end:
       certainty: group-closed
       date: '2006-08-28'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2006-07-09'
+    last: '2006-08-28'
+    examples:
+    - date: '2006-07-09'
+      subject: IETF 66 proceedings charter
+      url: https://www.ietf.org/proceedings/66/dmsp.html
+    - date: '2006-08-28'
+      subject: IETF 67 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/67/dmsp.html

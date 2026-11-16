@@ -38,6 +38,20 @@ chairs:
     - date: '2011-07-30'
       subject: '[PCN] WGLC for draft-ietf-pcn-3-in-1-encoding-07.txt'
       url: https://mailarchive.ietf.org/arch/msg/pcn/oyUvpyG27bzn6sHJbSppuq2yzlY/
+  - kind: proceedings
+    listed_in: 11
+    first: '2006-10-31'
+    last: '2012-03-25'
+    examples:
+    - date: '2006-10-31'
+      subject: IETF 67 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/67/pcn.html
+    - date: '2007-02-28'
+      subject: IETF 68 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/68/pcn.html
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/pcn.html
   - kind: session requests
     meetings:
     - '72'
@@ -52,13 +66,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2007-07-22'
+      date: '2007-02-28'
       not_before: '2007-02-07'
     end:
       certainty: group-closed
       date: '2012-07-19'
     notes:
     - start moved earlier by session request for IETF 69
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2007-03-05'
@@ -80,6 +95,20 @@ chairs:
     - date: '2011-04-06'
       subject: '[PCN] WGLC for draft-ietf-pcn-signaling-requirements-03'
       url: https://mailarchive.ietf.org/arch/msg/pcn/c7_wBSisCW3AbwyZlRoepq2NFQE/
+  - kind: proceedings
+    listed_in: 10
+    first: '2007-02-28'
+    last: '2012-03-25'
+    examples:
+    - date: '2007-02-28'
+      subject: IETF 68 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/68/pcn.html
+    - date: '2007-04-03'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/pcn.html
+    - date: '2012-03-25'
+      subject: IETF 83 proceedings charter
+      url: https://www.ietf.org/proceedings/83/pcn.html
   - kind: session requests
     meetings:
     - '69'

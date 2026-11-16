@@ -13,7 +13,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2004-09-23'
+      not_after: '1995-12-04'
     end:
       certainty: evidence-only
       not_before: '2004-09-23'
@@ -22,14 +22,83 @@ chairs:
     date: '2004-09-23'
     subject: 'WG Action: RECHARTER: Ethernet Interfaces and Hub MIB (hubmib)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/x-AtpEovmOnSEnFqlz9ueiUldhU/
+  - kind: minutes
+    listed_in: 2
+    first: '2002-01-08'
+    last: '2002-04-05'
+    examples:
+    - date: '2002-01-08'
+      subject: '[Hubmib] Preliminary Minutes of the SLC Joint Meeting of hubmib and atommib'
+      url: https://mailarchive.ietf.org/arch/msg/hubmib/gZleS6dQ9avq3C57Ktid_bEvlC4/
+    - date: '2002-04-05'
+      subject: '[Hubmib] Minutes of the Joint Meeting of hubmib and atommib at the 53rd IETF'
+      url: https://mailarchive.ietf.org/arch/msg/hubmib/2-HqpEG3tdBRjPfmS9-Biz_FBKM/
+  - kind: proceedings
+    listed_in: 20
+    first: '1995-12-04'
+    last: '2004-09-22'
+    examples:
+    - date: '1995-12-04'
+      subject: IETF 34 proceedings charter
+      url: https://www.ietf.org/proceedings/34/area.and.wg.reports/mgt/hubmib/hubmib-charter.txt
+    - date: '1997-02-11'
+      subject: IETF 40 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-66.htm
+    - date: '2004-09-22'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/hubmib.html
 - person: 6842
   name: Bert Wijnen
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2007-09-10'
-      not_before: '1995-06-15'
+      date: '2006-07-09'
+      not_before: '2002-04-05'
     end:
       certainty: group-closed
       date: '2007-09-10'
+    notes:
+    - widened to cover charter snapshots in proceedings
+    - bounded by minutes listing other chairs
+  evidence:
+  - kind: proceedings
+    listed_in: 4
+    first: '2006-07-09'
+    last: '2007-01-30'
+    examples:
+    - date: '2006-07-09'
+      subject: IETF 66 proceedings charter
+      url: https://www.ietf.org/proceedings/66/hubmib.html
+    - date: '2006-10-17'
+      subject: IETF 67 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/67/hubmib.html
+    - date: '2007-01-30'
+      subject: IETF 69 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/69/hubmib.html
+  - kind: minutes without them
+    date: '2002-04-05'
+    subject: '[Hubmib] Minutes of the Joint Meeting of hubmib and atommib at the 53rd IETF'
+    url: https://mailarchive.ietf.org/arch/msg/hubmib/2-HqpEG3tdBRjPfmS9-Biz_FBKM/
+- person: 14632
+  name: Faye Ly
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2002-01-08'
+    end:
+      certainty: evidence-only
+      not_before: '2002-04-05'
+  evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '2002-01-08'
+    last: '2002-04-05'
+    examples:
+    - date: '2002-01-08'
+      subject: '[Hubmib] Preliminary Minutes of the SLC Joint Meeting of hubmib and atommib'
+      url: https://mailarchive.ietf.org/arch/msg/hubmib/gZleS6dQ9avq3C57Ktid_bEvlC4/
+    - date: '2002-04-05'
+      subject: '[Hubmib] Minutes of the Joint Meeting of hubmib and atommib at the 53rd IETF'
+      url: https://mailarchive.ietf.org/arch/msg/hubmib/2-HqpEG3tdBRjPfmS9-Biz_FBKM/

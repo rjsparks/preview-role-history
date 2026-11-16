@@ -7,19 +7,53 @@ started: '1995-05-08'
 closed: '2001-04-26'
 history_url: https://datatracker.ietf.org/group/drums/history/
 chairs:
+- person: 4592
+  name: Keith Moore
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1995-04-03'
+    end:
+      certainty: evidence-only
+      not_before: '2000-02-14'
+  evidence:
+  - kind: chair activity
+    first: '2000-02-14'
+    last: '2000-02-14'
+    messages: 1
+    examples:
+    - date: '2000-02-14'
+      subject: IETF Adelaide and interim meetings for APPS WGs
+      url: https://mailarchive.ietf.org/arch/msg/drums/O7YUGQjdSYHk9LVU2BMymzmoCag/
+  - kind: proceedings
+    listed_in: 3
+    first: '1995-04-03'
+    last: '1995-12-04'
+    examples:
+    - date: '1995-04-03'
+      subject: IETF 32 proceedings charter
+      url: https://www.ietf.org/proceedings/32/area.and.wg.reports/app/drums/drums-charter.txt
+    - date: '1995-07-17'
+      subject: IETF 33 proceedings charter
+      url: https://www.ietf.org/proceedings/33/area.and.wg.reports/app/drums/drums-charter.txt
+    - date: '1995-12-04'
+      subject: IETF 34 proceedings charter
+      url: https://www.ietf.org/proceedings/34/area.and.wg.reports/app/drums/drums-charter.txt
 - person: 9909
   name: Chris Newman
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '1998-12-10'
+      date: '1997-04-07'
       not_before: '1995-05-08'
     end:
       certainty: group-closed
       date: '2001-04-26'
     notes:
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '1998-12-10'
@@ -32,3 +66,17 @@ chairs:
     - date: '2000-09-28'
       subject: WG Last Call of draft-ietf-drums-smtpupd-13.txt
       url: https://mailarchive.ietf.org/arch/msg/drums/DfEt0NTGPAAHuhWA8P3y1jJUuh0/
+  - kind: proceedings
+    listed_in: 11
+    first: '1997-04-07'
+    last: '2001-03-14'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr13.htm
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-14.htm
+    - date: '2001-03-14'
+      subject: IETF 50 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/50/ietf50-14.htm

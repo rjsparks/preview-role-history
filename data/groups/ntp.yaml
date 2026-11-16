@@ -13,10 +13,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2005-06-29'
       not_before: '2004-10-01'
     end:
       certainty: ongoing
+    notes:
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Review
     date: '2021-11-02'
@@ -46,6 +48,20 @@ chairs:
     - date: '2015-06-30'
       subject: '[ntpwg] WGLC on draft-mizrahi-ntp-checksum-trailer-02.txt'
       url: https://mailarchive.ietf.org/arch/msg/ntp/plLkE82fboNXPASB-eH779LU8d8/
+  - kind: proceedings
+    listed_in: 27
+    first: '2005-06-29'
+    last: '2017-03-26'
+    examples:
+    - date: '2005-06-29'
+      subject: IETF 63 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/63/ntp.html
+    - date: '2005-09-27'
+      subject: IETF 64 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/64/ntp.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/ntp.html
   - kind: shepherded
     documents:
     - draft-ietf-ntp-bcp
@@ -65,22 +81,40 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2005-02-25'
+      not_after: '2004-10-28'
     end:
-      certainty: evidence-only
-      not_before: '2005-02-25'
+      certainty: between
+      not_before: '2005-03-01'
+      not_after: '2005-06-29'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2005-02-25'
     subject: 'WG Action: Network Time Protocol (ntp)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/wAhuTa88_hSKk3Y9EEbmf41YbuM/
+  - kind: proceedings
+    listed_in: 2
+    first: '2004-10-28'
+    last: '2005-03-01'
+    examples:
+    - date: '2004-10-28'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/ntp.html
+    - date: '2005-03-01'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/ntp.html
+  - kind: minutes without them
+    date: '2005-06-29'
+    subject: IETF 63 proceedings charter (last modified)
+    url: https://www.ietf.org/proceedings/63/ntp.html
 - person: 100664
   name: Brian Haberman
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-02-25'
+      date: '2004-10-28'
       not_before: '2004-10-01'
     end:
       certainty: between
@@ -88,6 +122,7 @@ chairs:
       not_after: '2016-04-06'
     notes:
     - start moved earlier by WG Action announcement of 2005-02-25
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: WG Action
     date: '2005-02-25'
@@ -104,6 +139,20 @@ chairs:
     - date: '2008-06-05'
       subject: '[ntpwg] WG Last Call : draft-ietf-ntp-ntpv4-mib-04.txt'
       url: https://mailarchive.ietf.org/arch/msg/ntp/uBJJ_hzVnqqznTiAmdds1PyO5Kg/
+  - kind: proceedings
+    listed_in: 13
+    first: '2004-10-28'
+    last: '2011-11-13'
+    examples:
+    - date: '2004-10-28'
+      subject: IETF 61 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/61/ntp.html
+    - date: '2005-03-01'
+      subject: IETF 62 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/62/ntp.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/ntp.html
   - kind: session requests
     meetings:
     - '65'
@@ -147,6 +196,17 @@ chairs:
     - date: '2022-01-20'
       subject: '[Ntp] WGLC: draft-ietf-ntp-update-registries'
       url: https://mailarchive.ietf.org/arch/msg/ntp/DtFV_XDRDUC0xm9Bq7KVvo1q9W8/
+  - kind: proceedings
+    listed_in: 2
+    first: '2016-11-13'
+    last: '2017-03-26'
+    examples:
+    - date: '2016-11-13'
+      subject: IETF 97 proceedings charter
+      url: https://www.ietf.org/proceedings/97/ntp.html
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/ntp.html
   - kind: shepherded
     documents:
     - draft-ietf-ntp-chronos
