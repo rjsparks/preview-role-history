@@ -13,19 +13,41 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-04-04'
+      date: '2001-02-07'
       not_before: '2001-01-05'
     end:
       certainty: group-closed
       date: '2003-04-04'
+    notes:
+    - start moved earlier by WG Action announcement of 2001-02-07
+  evidence:
+  - kind: WG Action
+    date: '2001-02-07'
+    subject: 'WG ACTION: Evolution of SNMP (eos)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/ZhBpzXhCiiAlA5oiRO1QCpPd0xI/
+  - kind: WG Action
+    date: '2001-02-10'
+    subject: 'WG ACTION: Evolution of SNMP (eos)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/rkec1zt85hqj43-3WDEf-YOLFCI/
 - person: 19633
   name: Dale Francisco
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-04-04'
+      date: '2001-02-07'
       not_before: '2001-01-05'
     end:
       certainty: group-closed
       date: '2003-04-04'
+    notes:
+    - start moved earlier by WG Action announcement of 2001-02-07
+  evidence:
+  - kind: WG Action
+    date: '2001-02-07'
+    subject: 'WG ACTION: Evolution of SNMP (eos)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/ZhBpzXhCiiAlA5oiRO1QCpPd0xI/
+  - kind: WG Action
+    date: '2001-02-10'
+    subject: 'WG ACTION: Evolution of SNMP (eos)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/rkec1zt85hqj43-3WDEf-YOLFCI/

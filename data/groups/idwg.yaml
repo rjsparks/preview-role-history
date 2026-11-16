@@ -13,8 +13,15 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-27'
+      date: '1998-11-23'
       not_before: '1998-10-15'
     end:
       certainty: group-closed
       date: '2006-03-27'
+    notes:
+    - start moved earlier by WG Action announcement of 1998-11-23
+  evidence:
+  - kind: WG Action
+    date: '1998-11-23'
+    subject: 'WG ACTION: Intrusion Detection Exchange Format (idwg)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/t-HAQ5lU6Zk0J1LIRpaBlSfa7Go/

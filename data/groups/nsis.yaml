@@ -13,11 +13,23 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2006-03-19'
+      not_after: '2001-11-30'
     end:
       certainty: evidence-only
       not_before: '2006-11-05'
   evidence:
+  - kind: WG Action
+    date: '2001-11-30'
+    subject: 'WG ACTION: Next Steps in Signaling (nsis)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/kDfrNBKyO9vQuBDbHiyt0_irjVI/
+  - kind: WG Action
+    date: '2003-07-22'
+    subject: 'WG Action: RECHARTER: Next Steps in Signaling (nsis)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/Cj-Uf11CPOQMODS48SYvZaen__s/
+  - kind: WG Action
+    date: '2004-10-22'
+    subject: 'WG Action: RECHARTER: Next Steps in Signaling (nsis)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/EQnhRY9b9kKkL3f7qIru0lfLN2o/
   - kind: session requests
     meetings:
     - '65'

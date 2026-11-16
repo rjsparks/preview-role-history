@@ -13,8 +13,15 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-01-15'
+      date: '1998-11-10'
       not_before: '1998-10-09'
     end:
       certainty: group-closed
       date: '2004-01-15'
+    notes:
+    - start moved earlier by WG Action announcement of 1998-11-10
+  evidence:
+  - kind: WG Action
+    date: '1998-11-10'
+    subject: 'WG ACTION: Multicast Source Distribution Protocol (msdp)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/Oho4T9XLMSDKgFIF349EYKhhryo/

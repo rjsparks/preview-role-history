@@ -34,6 +34,11 @@ chairs:
     end:
       certainty: group-closed
       date: '2016-01-25'
+  evidence:
+  - kind: WG Action
+    date: '2013-09-27'
+    subject: 'WG Action: Formed DTLS In Constrained Environments (dice)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/5SJxZXLRwtDb_HyX6k9ZtnWUR7M/
 - person: 109625
   name: Zach Shelby
   status: confirmed
@@ -52,6 +57,10 @@ chairs:
       certainty: group-closed
       date: '2016-01-25'
   evidence:
+  - kind: WG Action
+    date: '2013-09-27'
+    subject: 'WG Action: Formed DTLS In Constrained Environments (dice)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/5SJxZXLRwtDb_HyX6k9ZtnWUR7M/
   - kind: shepherded
     documents:
     - draft-ietf-dice-profile

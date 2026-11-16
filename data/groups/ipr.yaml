@@ -24,11 +24,11 @@ chairs:
   - kind: WG Review
     date: '2006-02-22'
     subject: 'WG Review: Recharter of Intellectual Property Rights (ipr)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/9rjYoH4l680XoClTZKNQ_Mn3PZU/
   - kind: WG Action
     date: '2006-03-07'
     subject: 'WG Action: RECHARTER: Intellectual Property Rights (ipr)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/rN8WvoCW9VoGRUL3LeX-q473VM8/
   - kind: session requests
     meetings:
     - '65'
@@ -44,20 +44,39 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2006-02-22'
+      not_after: '2002-08-01'
     end:
       certainty: evidence-only
       not_before: '2006-11-05'
   evidence:
+  - kind: WG Action
+    date: '2002-08-01'
+    subject: 'WG Action: Intellectual Property Rights (ipr)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/5UeRy3fR2YI423UBFDKgkGmElpo/
   - kind: WG Review
     date: '2006-02-22'
     subject: 'WG Review: Recharter of Intellectual Property Rights (ipr)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/9rjYoH4l680XoClTZKNQ_Mn3PZU/
   - kind: WG Action
     date: '2006-03-07'
     subject: 'WG Action: RECHARTER: Intellectual Property Rights (ipr)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/rN8WvoCW9VoGRUL3LeX-q473VM8/
   - kind: session requests
     meetings:
     - '67'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 104212
+  name: Rob Austein
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2002-08-01'
+    end:
+      certainty: evidence-only
+      not_before: '2002-08-01'
+  evidence:
+  - kind: WG Action
+    date: '2002-08-01'
+    subject: 'WG Action: Intellectual Property Rights (ipr)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/5UeRy3fR2YI423UBFDKgkGmElpo/

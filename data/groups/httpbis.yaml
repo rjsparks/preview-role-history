@@ -23,27 +23,39 @@ chairs:
   - kind: WG Action
     date: '2007-10-23'
     subject: 'WG Action: Hypertext Transfer Protocol Bis WG (httpbis)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/iTKtMMFMku2oanttTcvzapUzS3w/
   - kind: WG Review
     date: '2012-02-21'
     subject: 'WG Review: Recharter of Hypertext Transfer Protocol Bis (httpbis)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/j3C-1M5sOsY8RWgXFAj3CiKTxj8/
   - kind: WG Action
     date: '2012-03-19'
     subject: 'WG Action: RECHARTER: Hypertext Transfer Protocol Bis (httpbis)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/rfCIA44diDs7_5B8N6Y51aSJDRQ/
   - kind: WG Review
     date: '2012-09-18'
     subject: 'WG Review: Hypertext Transfer Protocol Bis (httpbis)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/1N2kIBH9wOeoUefsgj5JI5zqoOQ/
+  - kind: WG Action
+    date: '2012-10-02'
+    subject: 'WG Action: Rechartered Hypertext Transfer Protocol Bis (httpbis)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/YvTtSwNrwpVvSDP4FuyU-b7gRHQ/
+  - kind: WG Review
+    date: '2018-11-21'
+    subject: 'WG Review: Hypertext Transfer Protocol (httpbis)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/n92E8DTm95jwR3V0HXgKOZHiTqY/
+  - kind: WG Action
+    date: '2018-12-07'
+    subject: 'WG Action: Rechartered Hypertext Transfer Protocol (httpbis)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/FrbZdCfrv-90Bm3Sx1Jw0LLojYs/
   - kind: WG Review
     date: '2025-09-25'
     subject: 'WG Review: HTTP (httpbis)'
-    message_id: 175881757004.1474696.11620904837876902937@dt-datatracker-6c6cdf7f94-h6rnn
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/vepxldQk8N5hxbjZLERCsz2cBXI/
   - kind: WG Action
     date: '2025-10-13'
     subject: 'WG Action: Rechartered HTTP (httpbis)'
-    message_id: 176039216275.662489.14545827919165878467@dt-datatracker-84f8f646b-tg6mn
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/byFbrBsueBZlnCrI4ytJb1khlmA/
   - kind: session requests
     meetings:
     - '70'
@@ -105,6 +117,14 @@ chairs:
       certainty: exact
       date: '2019-11-04'
   evidence:
+  - kind: WG Review
+    date: '2018-11-21'
+    subject: 'WG Review: Hypertext Transfer Protocol (httpbis)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/n92E8DTm95jwR3V0HXgKOZHiTqY/
+  - kind: WG Action
+    date: '2018-12-07'
+    subject: 'WG Action: Rechartered Hypertext Transfer Protocol (httpbis)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/FrbZdCfrv-90Bm3Sx1Jw0LLojYs/
   - kind: shepherded
     documents:
     - draft-ietf-httpbis-cache-digest
@@ -122,13 +142,21 @@ chairs:
       certainty: ongoing
   evidence:
   - kind: WG Review
+    date: '2018-11-21'
+    subject: 'WG Review: Hypertext Transfer Protocol (httpbis)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/n92E8DTm95jwR3V0HXgKOZHiTqY/
+  - kind: WG Action
+    date: '2018-12-07'
+    subject: 'WG Action: Rechartered Hypertext Transfer Protocol (httpbis)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/FrbZdCfrv-90Bm3Sx1Jw0LLojYs/
+  - kind: WG Review
     date: '2025-09-25'
     subject: 'WG Review: HTTP (httpbis)'
-    message_id: 175881757004.1474696.11620904837876902937@dt-datatracker-6c6cdf7f94-h6rnn
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/vepxldQk8N5hxbjZLERCsz2cBXI/
   - kind: WG Action
     date: '2025-10-13'
     subject: 'WG Action: Rechartered HTTP (httpbis)'
-    message_id: 176039216275.662489.14545827919165878467@dt-datatracker-84f8f646b-tg6mn
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/byFbrBsueBZlnCrI4ytJb1khlmA/
   - kind: shepherded
     documents:
     - draft-ietf-httpbis-bcp56bis

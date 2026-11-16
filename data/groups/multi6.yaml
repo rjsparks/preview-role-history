@@ -7,14 +7,51 @@ started: '2001-02-21'
 closed: '2007-03-17'
 history_url: https://datatracker.ietf.org/group/multi6/history/
 chairs:
+- person: 1958
+  name: Brian Carpenter
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2004-04-08'
+    end:
+      certainty: evidence-only
+      not_before: '2004-04-08'
+  evidence:
+  - kind: WG Action
+    date: '2004-04-08'
+    subject: 'WG Action: RECHARTER: Site Multihoming in IPv6 (multi6)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/4wRvByuSH_zk8lI8BIF4L2o67h4/
+- person: 7262
+  name: Thomas Narten
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2001-03-12'
+    end:
+      certainty: evidence-only
+      not_before: '2001-03-12'
+  evidence:
+  - kind: WG Action
+    date: '2001-03-12'
+    subject: 'WG ACTION: Site Multihoming in IPv6 (multi6)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/PSm1lZ5QZ4s4y1YV7eRYI5DC7GA/
 - person: 106114
   name: Kurt Lindqvist
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2007-03-17'
+      date: '2004-04-08'
       not_before: '2001-02-21'
     end:
       certainty: group-closed
       date: '2007-03-17'
+    notes:
+    - start moved earlier by WG Action announcement of 2004-04-08
+  evidence:
+  - kind: WG Action
+    date: '2004-04-08'
+    subject: 'WG Action: RECHARTER: Site Multihoming in IPv6 (multi6)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/4wRvByuSH_zk8lI8BIF4L2o67h4/

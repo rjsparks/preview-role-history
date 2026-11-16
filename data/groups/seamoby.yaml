@@ -13,11 +13,18 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-10-04'
+      date: '2000-11-18'
       not_before: '2000-10-04'
     end:
       certainty: group-closed
       date: '2004-10-04'
+    notes:
+    - start moved earlier by WG Action announcement of 2000-11-18
+  evidence:
+  - kind: WG Action
+    date: '2000-11-18'
+    subject: 'WG Action: Seamless Mobility (seamoby)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/CItbLns1JM90KMz7qL_pmO7SuEw/
 - person: 106286
   name: James Kempf
   status: confirmed

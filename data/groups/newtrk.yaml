@@ -13,8 +13,19 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-08-17'
+      date: '2004-03-29'
       not_before: '2003-10-01'
     end:
       certainty: group-closed
       date: '2006-08-17'
+    notes:
+    - start moved earlier by WG Action announcement of 2004-03-29
+  evidence:
+  - kind: WG Action
+    date: '2004-03-29'
+    subject: 'WG Action: New IETF Standards Track (newtrk)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/KnY8UrNfPsoOqq0HgtXsbOQ8zRk/
+  - kind: WG Action
+    date: '2004-09-29'
+    subject: 'WG Action: RECHARTER: New IETF Standards Track (newtrk)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/QtTS40CywRzqMg1c-8dQJBerDBw/

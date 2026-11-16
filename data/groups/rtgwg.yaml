@@ -7,6 +7,40 @@ started: '2003-12-22'
 closed: null
 history_url: https://datatracker.ietf.org/group/rtgwg/history/
 chairs:
+- person: 13108
+  name: Bill Fenner
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2004-02-26'
+    end:
+      certainty: evidence-only
+      not_before: '2006-03-19'
+  evidence:
+  - kind: WG Action
+    date: '2004-02-26'
+    subject: 'WG Action: Routing Area Working Group (rtgwg)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/9YS_U19_AiQN2nQgOxSAARApj6c/
+  - kind: session requests
+    meetings:
+    - '65'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 103264
+  name: Alex Zinin
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2004-02-26'
+    end:
+      certainty: evidence-only
+      not_before: '2004-02-26'
+  evidence:
+  - kind: WG Action
+    date: '2004-02-26'
+    subject: 'WG Action: Routing Area Working Group (rtgwg)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/9YS_U19_AiQN2nQgOxSAARApj6c/
 - person: 106742
   name: Alia Atlas
   status: confirmed
@@ -24,7 +58,7 @@ chairs:
   - kind: WG Action
     date: '2012-01-10'
     subject: 'WG Action: RECHARTER: Routing Area Working Group (rtgwg)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/KJWU87x85kFeMeEypXQWZ1chvoM/
   - kind: session requests
     meetings:
     - '80'
@@ -58,7 +92,11 @@ chairs:
   - kind: WG Action
     date: '2012-01-10'
     subject: 'WG Action: RECHARTER: Routing Area Working Group (rtgwg)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/KJWU87x85kFeMeEypXQWZ1chvoM/
+  - kind: WG Action
+    date: '2014-10-03'
+    subject: 'WG Action: Rechartered Routing Area Working Group (rtgwg)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/JdBZCI4b_FoA7_7t-HL_MFxoeOM/
   - kind: session requests
     meetings:
     - '82'
@@ -81,6 +119,10 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: WG Action
+    date: '2014-10-03'
+    subject: 'WG Action: Rechartered Routing Area Working Group (rtgwg)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/JdBZCI4b_FoA7_7t-HL_MFxoeOM/
   - kind: shepherded
     documents:
     - draft-ietf-rtgwg-bgp-pic

@@ -13,8 +13,19 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-08-19'
+      date: '1999-09-14'
       not_before: '1999-06-25'
     end:
       certainty: group-closed
       date: '2004-08-19'
+    notes:
+    - start moved earlier by WG Action announcement of 1999-09-14
+  evidence:
+  - kind: WG Action
+    date: '1999-09-14'
+    subject: 'WG ACTION: Zero Configuration Networking (zeroconf)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/7AZx5FTb0DWDIAegHC9S-VtLrPM/
+  - kind: WG Action
+    date: '2004-01-29'
+    subject: 'WG Action: RECHARTER: Zero Configuration Networking (zeroconf)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/z38YDlpEq4MNApr_-0QAxqErBP4/

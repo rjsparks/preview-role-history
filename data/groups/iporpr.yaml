@@ -13,8 +13,15 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2008-09-29'
+      date: '2005-05-03'
       not_before: '2000-11-10'
     end:
       certainty: group-closed
       date: '2008-09-29'
+    notes:
+    - start moved earlier by WG Action announcement of 2005-05-03
+  evidence:
+  - kind: WG Action
+    date: '2005-05-03'
+    subject: 'WG Action: RECHARTER: IP Over Resilient Packet Rings (iporpr)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/P646YmKJ4qmz-0MBHXYHr_ehuVg/

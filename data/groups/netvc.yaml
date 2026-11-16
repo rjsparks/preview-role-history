@@ -23,6 +23,11 @@ chairs:
     end:
       certainty: exact
       date: '2017-03-28'
+  evidence:
+  - kind: WG Action
+    date: '2015-05-18'
+    subject: 'WG Action: Formed Internet Video Codec (netvc)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ZSbloKs6gF21Lo5Bij7-4Oyb3LI/
 - person: 104557
   name: Jon Peterson
   status: confirmed
@@ -58,6 +63,10 @@ chairs:
       certainty: group-closed
       date: '2020-03-25'
   evidence:
+  - kind: WG Action
+    date: '2015-05-18'
+    subject: 'WG Action: Formed Internet Video Codec (netvc)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ZSbloKs6gF21Lo5Bij7-4Oyb3LI/
   - kind: shepherded
     documents:
     - draft-ietf-netvc-requirements

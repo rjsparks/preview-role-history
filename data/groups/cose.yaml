@@ -17,6 +17,15 @@ chairs:
     end:
       certainty: exact
       date: '2018-12-03'
+  evidence:
+  - kind: WG Action
+    date: '2015-06-03'
+    subject: 'WG Action: Formed CBOR Object Signing and Encryption (cose)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Ax-XIc8WTlEGeHsNdg_eAvtajTs/
+  - kind: WG Review
+    date: '2018-10-15'
+    subject: 'WG Review: CBOR Object Signing and Encryption (cose)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/HLFfvE8H2WRtwIqgiz4c2BHr7_g/
 - person: 111178
   name: Matthew Miller
   status: confirmed
@@ -28,14 +37,18 @@ chairs:
       certainty: exact
       date: '2024-11-20'
   evidence:
+  - kind: WG Action
+    date: '2019-01-03'
+    subject: 'WG Action: Rechartered CBOR Object Signing and Encryption (cose)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/OUT7TGqukydIn188MjihfuBWt1Y/
   - kind: WG Review
     date: '2021-03-31'
     subject: 'WG Review: CBOR Object Signing and Encryption (cose)'
-    message_id: 161720997323.20161.16244257736248842123@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/3arasRjf_TCIxIo0YNNhnQ6_2w4/
   - kind: WG Action
     date: '2021-04-09'
     subject: 'WG Action: Rechartered CBOR Object Signing and Encryption (cose)'
-    message_id: 161799097410.18536.168025941483033297@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/8uMB985ZUhU_K9_aZ0_jz8sFU38/
   - kind: shepherded
     documents:
     - draft-ietf-cose-rfc8152bis-algs
@@ -50,6 +63,15 @@ chairs:
     end:
       certainty: exact
       date: '2018-12-03'
+  evidence:
+  - kind: WG Action
+    date: '2015-06-03'
+    subject: 'WG Action: Formed CBOR Object Signing and Encryption (cose)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Ax-XIc8WTlEGeHsNdg_eAvtajTs/
+  - kind: WG Review
+    date: '2018-10-15'
+    subject: 'WG Review: CBOR Object Signing and Encryption (cose)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/HLFfvE8H2WRtwIqgiz4c2BHr7_g/
 - person: 123715
   name: Ivaylo Petrov
   status: confirmed
@@ -60,30 +82,34 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: WG Action
+    date: '2019-01-03'
+    subject: 'WG Action: Rechartered CBOR Object Signing and Encryption (cose)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/OUT7TGqukydIn188MjihfuBWt1Y/
   - kind: WG Review
     date: '2021-03-31'
     subject: 'WG Review: CBOR Object Signing and Encryption (cose)'
-    message_id: 161720997323.20161.16244257736248842123@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/3arasRjf_TCIxIo0YNNhnQ6_2w4/
   - kind: WG Action
     date: '2021-04-09'
     subject: 'WG Action: Rechartered CBOR Object Signing and Encryption (cose)'
-    message_id: 161799097410.18536.168025941483033297@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/8uMB985ZUhU_K9_aZ0_jz8sFU38/
   - kind: WG Review
     date: '2025-05-23'
     subject: 'WG Review: CBOR Object Signing and Encryption (cose)'
-    message_id: 174803022088.1014908.14953469742423554194@dt-datatracker-59b84fc74f-84jsl
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/FSNIHGqGfO6Sv0-OyCicT2t3vPM/
   - kind: WG Action
     date: '2025-06-10'
     subject: 'WG Action: Rechartered CBOR Object Signing and Encryption (cose)'
-    message_id: 174958882289.3811241.5878457760776180551@dt-datatracker-59b84fc74f-84jsl
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/H_jYCo_1Ot4b2PsCWJoRWQuEu0A/
   - kind: WG Review
     date: '2025-09-18'
     subject: 'WG Review: CBOR Object Signing and Encryption (cose)'
-    message_id: 175821489464.2146282.3326851180171912870@dt-datatracker-f7c8fdcb7-pjx77
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ldRwZWezng6UEazVVG-EixaEb4E/
   - kind: WG Action
     date: '2025-10-09'
     subject: 'WG Action: Rechartered CBOR Object Signing and Encryption (cose)'
-    message_id: 176003126417.306796.11339126291073723368@dt-datatracker-6c6cdf7f94-h6rnn
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/rfpSDd2DtH0Ul4P4bX5eQw0GnS8/
   - kind: shepherded
     documents:
     - draft-ietf-cose-cbor-encoded-cert
@@ -108,27 +134,27 @@ chairs:
   - kind: WG Review
     date: '2021-03-31'
     subject: 'WG Review: CBOR Object Signing and Encryption (cose)'
-    message_id: 161720997323.20161.16244257736248842123@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/3arasRjf_TCIxIo0YNNhnQ6_2w4/
   - kind: WG Action
     date: '2021-04-09'
     subject: 'WG Action: Rechartered CBOR Object Signing and Encryption (cose)'
-    message_id: 161799097410.18536.168025941483033297@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/8uMB985ZUhU_K9_aZ0_jz8sFU38/
   - kind: WG Review
     date: '2025-05-23'
     subject: 'WG Review: CBOR Object Signing and Encryption (cose)'
-    message_id: 174803022088.1014908.14953469742423554194@dt-datatracker-59b84fc74f-84jsl
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/FSNIHGqGfO6Sv0-OyCicT2t3vPM/
   - kind: WG Action
     date: '2025-06-10'
     subject: 'WG Action: Rechartered CBOR Object Signing and Encryption (cose)'
-    message_id: 174958882289.3811241.5878457760776180551@dt-datatracker-59b84fc74f-84jsl
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/H_jYCo_1Ot4b2PsCWJoRWQuEu0A/
   - kind: WG Review
     date: '2025-09-18'
     subject: 'WG Review: CBOR Object Signing and Encryption (cose)'
-    message_id: 175821489464.2146282.3326851180171912870@dt-datatracker-f7c8fdcb7-pjx77
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ldRwZWezng6UEazVVG-EixaEb4E/
   - kind: WG Action
     date: '2025-10-09'
     subject: 'WG Action: Rechartered CBOR Object Signing and Encryption (cose)'
-    message_id: 176003126417.306796.11339126291073723368@dt-datatracker-6c6cdf7f94-h6rnn
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/rfpSDd2DtH0Ul4P4bX5eQw0GnS8/
   - kind: shepherded
     documents:
     - draft-ietf-cose-aes-ctr-and-cbc

@@ -7,20 +7,39 @@ started: '2002-06-04'
 closed: '2009-07-16'
 history_url: https://datatracker.ietf.org/group/psamp/history/
 chairs:
+- person: 8244
+  name: Andy Bierman
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2002-08-01'
+    end:
+      certainty: evidence-only
+      not_before: '2002-08-01'
+  evidence:
+  - kind: WG Action
+    date: '2002-08-01'
+    subject: 'WG Action: Packet Sampling (psamp)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/3dy9_FKtofqP3UtpYiz84F9EcuA/
 - person: 103651
   name: Juergen Quittek
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2002-08-01'
       not_before: '2002-06-04'
     end:
       certainty: group-closed
       date: '2009-07-16'
     notes:
-    - start moved earlier by session request for IETF 65
+    - start moved earlier by WG Action announcement of 2002-08-01
   evidence:
+  - kind: WG Action
+    date: '2002-08-01'
+    subject: 'WG Action: Packet Sampling (psamp)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/3dy9_FKtofqP3UtpYiz84F9EcuA/
   - kind: session requests
     meetings:
     - '65'

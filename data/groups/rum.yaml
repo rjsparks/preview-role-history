@@ -17,6 +17,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2023-10-12'
+  evidence:
+  - kind: WG Review
+    date: '2019-03-08'
+    subject: 'WG Review: Relay User Machine (rum)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/S8UFQ1iyAUXwMVcgzhhdZwk1pk0/
+  - kind: WG Action
+    date: '2019-04-12'
+    subject: 'WG Action: Formed Relay User Machine (rum)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Y9cDacSfKSKcans5wWSiURjg_Ic/
 - person: 108554
   name: Paul Kyzivat
   status: confirmed
@@ -28,6 +37,14 @@ chairs:
       certainty: group-closed
       date: '2023-10-12'
   evidence:
+  - kind: WG Review
+    date: '2019-03-08'
+    subject: 'WG Review: Relay User Machine (rum)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/S8UFQ1iyAUXwMVcgzhhdZwk1pk0/
+  - kind: WG Action
+    date: '2019-04-12'
+    subject: 'WG Action: Formed Relay User Machine (rum)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Y9cDacSfKSKcans5wWSiURjg_Ic/
   - kind: shepherded
     documents:
     - draft-ietf-rum-rue

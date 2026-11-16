@@ -7,14 +7,36 @@ started: '1999-06-23'
 closed: '2005-02-08'
 history_url: https://datatracker.ietf.org/group/stime/history/
 chairs:
+- person: 19790
+  name: Tim Polk
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1999-08-13'
+    end:
+      certainty: evidence-only
+      not_before: '1999-08-13'
+  evidence:
+  - kind: WG Action
+    date: '1999-08-13'
+    subject: 'WG ACTION: Secure Network Time Protocol (stime)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/nfuPeZrhOx1wPVVcQrc7VyLd0mE/
 - person: 20713
   name: Patrick Cain
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-02-08'
+      date: '1999-08-13'
       not_before: '1999-06-23'
     end:
       certainty: group-closed
       date: '2005-02-08'
+    notes:
+    - start moved earlier by WG Action announcement of 1999-08-13
+  evidence:
+  - kind: WG Action
+    date: '1999-08-13'
+    subject: 'WG ACTION: Secure Network Time Protocol (stime)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/nfuPeZrhOx1wPVVcQrc7VyLd0mE/

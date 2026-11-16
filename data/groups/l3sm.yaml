@@ -17,6 +17,11 @@ chairs:
     end:
       certainty: group-closed
       date: '2016-12-01'
+  evidence:
+  - kind: WG Action
+    date: '2015-03-24'
+    subject: 'WG Action: Formed L3VPN Service Model (l3sm)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/wryN-DUufiCMSXCXiYetrBJ73z8/
 - person: 112751
   name: Qin Wu
   status: confirmed
@@ -28,6 +33,10 @@ chairs:
       certainty: group-closed
       date: '2016-12-01'
   evidence:
+  - kind: WG Action
+    date: '2015-03-24'
+    subject: 'WG Action: Formed L3VPN Service Model (l3sm)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/wryN-DUufiCMSXCXiYetrBJ73z8/
   - kind: shepherded
     documents:
     - draft-ietf-l3sm-l3vpn-service-model

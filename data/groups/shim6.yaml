@@ -13,44 +13,52 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2009-07-07'
+      date: '2005-06-29'
       not_before: '2004-10-30'
     end:
       certainty: group-closed
       date: '2011-08-02'
     notes:
-    - start moved earlier by WG Action announcement of 2009-07-07
+    - start moved earlier by WG Action announcement of 2005-06-29
   evidence:
+  - kind: WG Action
+    date: '2005-06-29'
+    subject: 'WG Action: Site Multihoming by IPv6 Intermediation (shim6)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/fbifN8TpynCHyq-sF32m4mocBQ8/
   - kind: WG Review
     date: '2009-06-23'
     subject: 'WG Review: Recharter of Site Multihoming by IPv6 Intermediation (shim6)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/VeMoVb7tR5OzKXr7n9Z_Wq0Sqlk/
   - kind: WG Action
     date: '2009-07-07'
     subject: 'WG Action: RECHARTER: Site Multihoming by IPv6 Intermediation (shim6)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/pDwtgFMSOWpZ9tRSSC5pVPujJMw/
 - person: 106925
   name: Geoff Huston
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2005-06-29'
       not_before: '2004-10-30'
     end:
       certainty: group-closed
       date: '2011-08-02'
     notes:
-    - start moved earlier by session request for IETF 65
+    - start moved earlier by WG Action announcement of 2005-06-29
   evidence:
+  - kind: WG Action
+    date: '2005-06-29'
+    subject: 'WG Action: Site Multihoming by IPv6 Intermediation (shim6)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/fbifN8TpynCHyq-sF32m4mocBQ8/
   - kind: WG Review
     date: '2009-06-23'
     subject: 'WG Review: Recharter of Site Multihoming by IPv6 Intermediation (shim6)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/VeMoVb7tR5OzKXr7n9Z_Wq0Sqlk/
   - kind: WG Action
     date: '2009-07-07'
     subject: 'WG Action: RECHARTER: Site Multihoming by IPv6 Intermediation (shim6)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/pDwtgFMSOWpZ9tRSSC5pVPujJMw/
   - kind: session requests
     meetings:
     - '65'

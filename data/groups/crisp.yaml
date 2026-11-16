@@ -13,14 +13,18 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-11-05'
+      date: '2004-01-28'
       not_before: '2002-05-17'
     end:
       certainty: group-closed
       date: '2009-03-05'
     notes:
-    - start moved earlier by session request for IETF 67
+    - start moved earlier by WG Action announcement of 2004-01-28
   evidence:
+  - kind: WG Action
+    date: '2004-01-28'
+    subject: 'WG Action: RECHARTER: Cross Registry Information Service Protocol (crisp)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/keXPUomlc_79HTWO061N8DwfrSg/
   - kind: session requests
     meetings:
     - '67'
@@ -31,14 +35,18 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2004-01-28'
       not_before: '2002-05-17'
     end:
       certainty: group-closed
       date: '2009-03-05'
     notes:
-    - start moved earlier by session request for IETF 65
+    - start moved earlier by WG Action announcement of 2004-01-28
   evidence:
+  - kind: WG Action
+    date: '2004-01-28'
+    subject: 'WG Action: RECHARTER: Cross Registry Information Service Protocol (crisp)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/keXPUomlc_79HTWO061N8DwfrSg/
   - kind: session requests
     meetings:
     - '65'

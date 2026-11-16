@@ -13,14 +13,30 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2001-11-30'
       not_before: '2001-10-26'
     end:
       certainty: group-closed
       date: '2009-12-04'
     notes:
-    - start moved earlier by session request for IETF 65
+    - start moved earlier by WG Action announcement of 2001-11-30
   evidence:
+  - kind: WG Action
+    date: '2001-11-30'
+    subject: 'WG ACTION: Protocol for carrying Authentication for Network Access (pana)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/RZj3X26Pj14AzAf8VcAfNqkIB5g/
+  - kind: WG Action
+    date: '2004-06-16'
+    subject: 'WG Action: RECHARTER: Protocol for carrying Authentication for Network Access (pana)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/-MBYsRV1-cSGcqmqjXLCTlWdG4s/
+  - kind: WG Review
+    date: '2005-06-02'
+    subject: 'WG Review: Recharter of Protocol for carrying Authentication for Network Access (pana)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/yKAu3w4c6qlZT_py5pDPpzchBLo/
+  - kind: WG Action
+    date: '2005-07-13'
+    subject: 'WG Action: RECHARTER: Protocol for carrying Authentication for Network Access (pana)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/HG--XRN03hb8FkFMEJqmDXogvDA/
   - kind: session requests
     meetings:
     - '65'
@@ -37,16 +53,43 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-11-05'
+      date: '2004-06-16'
       not_before: '2001-10-26'
     end:
       certainty: group-closed
       date: '2009-12-04'
     notes:
-    - start moved earlier by session request for IETF 67
+    - start moved earlier by WG Action announcement of 2004-06-16
   evidence:
+  - kind: WG Action
+    date: '2004-06-16'
+    subject: 'WG Action: RECHARTER: Protocol for carrying Authentication for Network Access (pana)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/-MBYsRV1-cSGcqmqjXLCTlWdG4s/
+  - kind: WG Review
+    date: '2005-06-02'
+    subject: 'WG Review: Recharter of Protocol for carrying Authentication for Network Access (pana)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/yKAu3w4c6qlZT_py5pDPpzchBLo/
+  - kind: WG Action
+    date: '2005-07-13'
+    subject: 'WG Action: RECHARTER: Protocol for carrying Authentication for Network Access (pana)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/HG--XRN03hb8FkFMEJqmDXogvDA/
   - kind: session requests
     meetings:
     - '67'
     - '69'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 123306
+  name: Subir Das
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2001-11-30'
+    end:
+      certainty: evidence-only
+      not_before: '2001-11-30'
+  evidence:
+  - kind: WG Action
+    date: '2001-11-30'
+    subject: 'WG ACTION: Protocol for carrying Authentication for Network Access (pana)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/RZj3X26Pj14AzAf8VcAfNqkIB5g/

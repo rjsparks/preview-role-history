@@ -7,20 +7,39 @@ started: '2000-08-30'
 closed: '2007-11-01'
 history_url: https://datatracker.ietf.org/group/ips/history/
 chairs:
+- person: 5797
+  name: Steven Bellovin
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2000-09-25'
+    end:
+      certainty: evidence-only
+      not_before: '2000-09-25'
+  evidence:
+  - kind: WG Action
+    date: '2000-09-25'
+    subject: 'WG Action: IP Storage (ips)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/nGlQYHRKD_dliQI_cS8bMcVnoLY/
 - person: 103156
   name: David Black
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2000-09-25'
       not_before: '2000-08-30'
     end:
       certainty: group-closed
       date: '2007-11-01'
     notes:
-    - start moved earlier by session request for IETF 65
+    - start moved earlier by WG Action announcement of 2000-09-25
   evidence:
+  - kind: WG Action
+    date: '2000-09-25'
+    subject: 'WG Action: IP Storage (ips)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/nGlQYHRKD_dliQI_cS8bMcVnoLY/
   - kind: session requests
     meetings:
     - '65'

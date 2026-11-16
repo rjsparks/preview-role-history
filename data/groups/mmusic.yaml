@@ -13,11 +13,15 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2006-03-19'
+      not_after: '2004-07-29'
     end:
       certainty: evidence-only
       not_before: '2009-11-08'
   evidence:
+  - kind: WG Action
+    date: '2004-07-29'
+    subject: 'WG Action: RECHARTER: Multiparty Multimedia Session Control (mmusic)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/IGH9BFkrVT11MQNnEIGnemoqKZA/
   - kind: session requests
     meetings:
     - '65'
@@ -28,6 +32,25 @@ chairs:
     - '74'
     - '75'
     - '76'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 20209
+  name: Colin Perkins
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2004-07-29'
+    end:
+      certainty: evidence-only
+      not_before: '2006-07-09'
+  evidence:
+  - kind: WG Action
+    date: '2004-07-29'
+    subject: 'WG Action: RECHARTER: Multiparty Multimedia Session Control (mmusic)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/IGH9BFkrVT11MQNnEIGnemoqKZA/
+  - kind: session requests
+    meetings:
+    - '66'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
 - person: 102848
   name: Miguel García
@@ -85,6 +108,10 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 80
   evidence:
+  - kind: WG Action
+    date: '2016-02-05'
+    subject: 'WG Action: Rechartered Multiparty Multimedia Session Control (mmusic)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/pA6p7jfxd1C9SWfUTM0TOFhYNp0/
   - kind: session requests
     meetings:
     - '80'
@@ -122,6 +149,10 @@ chairs:
       certainty: group-closed
       date: '2024-08-14'
   evidence:
+  - kind: WG Action
+    date: '2016-02-05'
+    subject: 'WG Action: Rechartered Multiparty Multimedia Session Control (mmusic)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/pA6p7jfxd1C9SWfUTM0TOFhYNp0/
   - kind: shepherded
     documents:
     - draft-ietf-mmusic-data-channel-sdpneg

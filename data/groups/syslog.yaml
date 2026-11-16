@@ -31,19 +31,23 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-21'
+      date: '2000-05-31'
       not_before: '2000-04-27'
     end:
       certainty: group-closed
       date: '2010-10-26'
     notes:
-    - start moved earlier by WG Action announcement of 2006-03-21
+    - start moved earlier by WG Action announcement of 2000-05-31
   evidence:
+  - kind: WG Action
+    date: '2000-05-31'
+    subject: 'WG ACTION: Security Issues in Network Event Logging (syslog)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/gRUiwJGl98MXVXvBfDyryq67V3k/
   - kind: WG Review
     date: '2006-03-10'
     subject: 'WG Review: Recharter of Security Issues in Network Event Logging (syslog)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/yJrBYWJ-Vw5oKGgVG6AQfpu-CFs/
   - kind: WG Action
     date: '2006-03-21'
     subject: 'WG Action: RECHARTER: Security Issues in Network Event Logging (syslog)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/PU2AIKpNkuxGxQuf3qE6hd-BJ-M/

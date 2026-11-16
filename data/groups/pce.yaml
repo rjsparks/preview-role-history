@@ -18,6 +18,10 @@ chairs:
       certainty: exact
       date: '2019-09-11'
   evidence:
+  - kind: WG Action
+    date: '2005-01-12'
+    subject: 'WG Action: Path Computation Element (pce)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ZfY9fDpNBkLMAr1IWXEnu3ZutCA/
   - kind: session requests
     meetings:
     - '73'
@@ -37,18 +41,30 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2005-01-12'
       not_before: '2004-03-01'
     end:
       certainty: exact
       date: '2017-08-22'
     notes:
-    - start moved earlier by session request for IETF 65
+    - start moved earlier by WG Action announcement of 2005-01-12
   evidence:
+  - kind: WG Action
+    date: '2005-01-12'
+    subject: 'WG Action: Path Computation Element (pce)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ZfY9fDpNBkLMAr1IWXEnu3ZutCA/
   - kind: WG Action
     date: '2011-08-16'
     subject: 'WG Action: RECHARTER: Path Computation Element (pce)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/LCY9ZJdxCbreHzelUn5lRGO3mPo/
+  - kind: WG Action
+    date: '2013-05-17'
+    subject: 'WG Action: Rechartered Path Computation Element (pce)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/WBA7CaLXIKmPy38czEvRASntSVI/
+  - kind: WG Action
+    date: '2014-12-05'
+    subject: 'WG Action: Rechartered Path Computation Element (pce)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/5DzjeJ_RQce3hzBqObi1jFDbjzU/
   - kind: session requests
     meetings:
     - '65'
@@ -80,15 +96,23 @@ chairs:
   - kind: WG Action
     date: '2011-08-16'
     subject: 'WG Action: RECHARTER: Path Computation Element (pce)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/LCY9ZJdxCbreHzelUn5lRGO3mPo/
+  - kind: WG Action
+    date: '2013-05-17'
+    subject: 'WG Action: Rechartered Path Computation Element (pce)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/WBA7CaLXIKmPy38czEvRASntSVI/
+  - kind: WG Action
+    date: '2014-12-05'
+    subject: 'WG Action: Rechartered Path Computation Element (pce)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/5DzjeJ_RQce3hzBqObi1jFDbjzU/
   - kind: WG Review
     date: '2023-12-01'
     subject: 'WG Review: Path Computation Element (pce)'
-    message_id: 170145126214.35812.10386048285609466918@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/vwxTfQRKPTT0bOfZlLIvcnOKU0c/
   - kind: WG Action
     date: '2023-12-19'
     subject: 'WG Action: Rechartered Path Computation Element (pce)'
-    message_id: 170300439203.55321.9573321139822387319@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/dAokibHvv2mgvqWeQL4ufam1_78/
   - kind: session requests
     meetings:
     - '76'
@@ -134,11 +158,11 @@ chairs:
   - kind: WG Review
     date: '2023-12-01'
     subject: 'WG Review: Path Computation Element (pce)'
-    message_id: 170145126214.35812.10386048285609466918@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/vwxTfQRKPTT0bOfZlLIvcnOKU0c/
   - kind: WG Action
     date: '2023-12-19'
     subject: 'WG Action: Rechartered Path Computation Element (pce)'
-    message_id: 170300439203.55321.9573321139822387319@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/dAokibHvv2mgvqWeQL4ufam1_78/
   - kind: shepherded
     documents:
     - draft-ietf-pce-association-bidir

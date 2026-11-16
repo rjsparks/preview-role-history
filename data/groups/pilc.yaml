@@ -24,8 +24,15 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-01-08'
+      date: '1999-04-28'
       not_before: '1999-04-02'
     end:
       certainty: group-closed
       date: '2004-01-08'
+    notes:
+    - start moved earlier by WG Action announcement of 1999-04-28
+  evidence:
+  - kind: WG Action
+    date: '1999-04-28'
+    subject: 'WG ACTION: Performance Implications of Link Characteristics (pilc)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/rZIsWKzfv72dnz5eEn0Dab0WqXM/

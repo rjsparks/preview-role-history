@@ -13,19 +13,33 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-09-22'
+      date: '2004-04-08'
       not_before: '2004-01-15'
     end:
       certainty: group-closed
       date: '2004-09-22'
+    notes:
+    - start moved earlier by WG Action announcement of 2004-04-08
+  evidence:
+  - kind: WG Action
+    date: '2004-04-08'
+    subject: 'WG Action: MTA Authorization Records in DNS (marid)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/l4ht9i7n8qcLWA5Yp_-zIDBEY4Y/
 - person: 106296
   name: Andy Newton
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-09-22'
+      date: '2004-04-08'
       not_before: '2004-01-15'
     end:
       certainty: group-closed
       date: '2004-09-22'
+    notes:
+    - start moved earlier by WG Action announcement of 2004-04-08
+  evidence:
+  - kind: WG Action
+    date: '2004-04-08'
+    subject: 'WG Action: MTA Authorization Records in DNS (marid)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/l4ht9i7n8qcLWA5Yp_-zIDBEY4Y/

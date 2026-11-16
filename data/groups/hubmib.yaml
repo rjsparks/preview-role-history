@@ -7,6 +7,21 @@ started: '1995-06-15'
 closed: '2007-09-10'
 history_url: https://datatracker.ietf.org/group/hubmib/history/
 chairs:
+- person: 6699
+  name: Dan Romascanu
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2004-09-23'
+    end:
+      certainty: evidence-only
+      not_before: '2004-09-23'
+  evidence:
+  - kind: WG Action
+    date: '2004-09-23'
+    subject: 'WG Action: RECHARTER: Ethernet Interfaces and Hub MIB (hubmib)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/x-AtpEovmOnSEnFqlz9ueiUldhU/
 - person: 6842
   name: Bert Wijnen
   status: confirmed

@@ -18,6 +18,10 @@ chairs:
       certainty: group-closed
       date: '2025-07-11'
   evidence:
+  - kind: WG Action
+    date: '2018-05-25'
+    subject: 'WG Action: Rechartered DNS PRIVate Exchange (dprive)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/JQ_2hDa1tRY1a84gMYFxsD4ZEDo/
   - kind: shepherded
     documents:
     - draft-ietf-dprive-dnsoquic
@@ -35,6 +39,10 @@ chairs:
       certainty: exact
       date: '2017-07-03'
   evidence:
+  - kind: WG Action
+    date: '2014-10-17'
+    subject: 'WG Action: Formed DNS PRIVate Exchange (dprive)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/GckzHu08QzGZoG7dWTbtHIxIfD0/
   - kind: shepherded
     documents:
     - draft-ietf-dprive-problem-statement
@@ -49,6 +57,14 @@ chairs:
       certainty: group-closed
       date: '2025-07-11'
   evidence:
+  - kind: WG Action
+    date: '2014-10-17'
+    subject: 'WG Action: Formed DNS PRIVate Exchange (dprive)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/GckzHu08QzGZoG7dWTbtHIxIfD0/
+  - kind: WG Action
+    date: '2018-05-25'
+    subject: 'WG Action: Rechartered DNS PRIVate Exchange (dprive)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/JQ_2hDa1tRY1a84gMYFxsD4ZEDo/
   - kind: shepherded
     documents:
     - draft-ietf-dprive-bcp-op

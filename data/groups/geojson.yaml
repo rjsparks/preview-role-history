@@ -17,6 +17,11 @@ chairs:
     end:
       certainty: group-closed
       date: '2017-06-07'
+  evidence:
+  - kind: WG Action
+    date: '2015-10-02'
+    subject: 'WG Action: Formed Geographic JSON (geojson)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/uXOz5DATwmOviETQqD3pfflFFHg/
 - person: 107131
   name: Martin Thomson
   status: confirmed
@@ -28,6 +33,10 @@ chairs:
       certainty: group-closed
       date: '2017-06-07'
   evidence:
+  - kind: WG Action
+    date: '2015-10-02'
+    subject: 'WG Action: Formed Geographic JSON (geojson)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/uXOz5DATwmOviETQqD3pfflFFHg/
   - kind: shepherded
     documents:
     - draft-butler-geojson

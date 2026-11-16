@@ -18,6 +18,10 @@ chairs:
       certainty: group-closed
       date: '2017-03-21'
   evidence:
+  - kind: WG Action
+    date: '2014-06-13'
+    subject: 'WG Action: Rechartered DNS-based Authentication of Named Entities (dane)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/H6_1iekSIindV1p1R5DEgASdcdM/
   - kind: shepherded
     documents:
     - draft-ietf-dane-openpgpkey
@@ -41,7 +45,7 @@ chairs:
   - kind: WG Action
     date: '2010-12-10'
     subject: 'WG Action: DNS-based Authentication of Named Entities (dane)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/snqpuK_JeTMTlwgVxCQtFoJgJhY/
   - kind: session requests
     meetings:
     - '80'
@@ -63,7 +67,11 @@ chairs:
   - kind: WG Action
     date: '2010-12-10'
     subject: 'WG Action: DNS-based Authentication of Named Entities (dane)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/snqpuK_JeTMTlwgVxCQtFoJgJhY/
+  - kind: WG Action
+    date: '2014-06-13'
+    subject: 'WG Action: Rechartered DNS-based Authentication of Named Entities (dane)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/H6_1iekSIindV1p1R5DEgASdcdM/
   - kind: session requests
     meetings:
     - '81'

@@ -7,6 +7,21 @@ started: '1998-09-10'
 closed: '2018-03-01'
 history_url: https://datatracker.ietf.org/group/isis/history/
 chairs:
+- person: 4475
+  name: Tony Li
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1998-11-18'
+    end:
+      certainty: evidence-only
+      not_before: '1998-11-18'
+  evidence:
+  - kind: WG Action
+    date: '1998-11-18'
+    subject: 'WG ACTION: IS-IS for IP Internets (isis)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/dztdpIo2gAb29d8ZwbsuNTOW4I4/
 - person: 22933
   name: Christian Hopps
   status: confirmed

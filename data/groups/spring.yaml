@@ -31,6 +31,11 @@ chairs:
     end:
       certainty: exact
       date: '2016-07-27'
+  evidence:
+  - kind: WG Action
+    date: '2013-10-25'
+    subject: 'WG Action: Formed Source Packet Routing in Networking (spring)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/aYgpezJMWXGFwx7hQy21UMFVM1M/
 - person: 105906
   name: Jim Guichard
   status: confirmed
@@ -55,6 +60,14 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: WG Review
+    date: '2018-09-10'
+    subject: 'WG Review: Source Packet Routing in Networking (spring)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/b3FxBisoxOvdcsC3evDaxU4bXRg/
+  - kind: WG Action
+    date: '2018-10-02'
+    subject: 'WG Action: Rechartered Source Packet Routing in Networking (spring)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/VeyycE_ss7NpK3wo7VCQdZ63TD8/
   - kind: shepherded
     documents:
     - draft-ietf-spring-ipv6-use-cases
@@ -95,6 +108,10 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: WG Action
+    date: '2013-10-25'
+    subject: 'WG Action: Formed Source Packet Routing in Networking (spring)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/aYgpezJMWXGFwx7hQy21UMFVM1M/
   - kind: shepherded
     documents:
     - draft-ietf-spring-resource-aware-segments
@@ -110,6 +127,14 @@ chairs:
       certainty: exact
       date: '2020-05-27'
   evidence:
+  - kind: WG Review
+    date: '2018-09-10'
+    subject: 'WG Review: Source Packet Routing in Networking (spring)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/b3FxBisoxOvdcsC3evDaxU4bXRg/
+  - kind: WG Action
+    date: '2018-10-02'
+    subject: 'WG Action: Rechartered Source Packet Routing in Networking (spring)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/VeyycE_ss7NpK3wo7VCQdZ63TD8/
   - kind: shepherded
     documents:
     - draft-ietf-spring-segment-routing-ldp-interop

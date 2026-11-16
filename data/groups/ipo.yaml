@@ -13,19 +13,33 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-01-08'
+      date: '2001-02-02'
       not_before: '2000-07-21'
     end:
       certainty: group-closed
       date: '2004-01-08'
+    notes:
+    - start moved earlier by WG Action announcement of 2001-02-02
+  evidence:
+  - kind: WG Action
+    date: '2001-02-02'
+    subject: 'WG Action: IP over Optical (ipo)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/N44WHVxLntm42nV4RA-aiArhCY8/
 - person: 101471
   name: Daniel Awduche
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-01-08'
+      date: '2001-02-02'
       not_before: '2000-07-21'
     end:
       certainty: group-closed
       date: '2004-01-08'
+    notes:
+    - start moved earlier by WG Action announcement of 2001-02-02
+  evidence:
+  - kind: WG Action
+    date: '2001-02-02'
+    subject: 'WG Action: IP over Optical (ipo)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/N44WHVxLntm42nV4RA-aiArhCY8/

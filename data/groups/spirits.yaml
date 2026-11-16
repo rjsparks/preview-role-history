@@ -13,19 +13,33 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-05-05'
+      date: '1999-10-27'
       not_before: '1999-10-01'
     end:
       certainty: group-closed
       date: '2005-05-05'
+    notes:
+    - start moved earlier by WG Action announcement of 1999-10-27
+  evidence:
+  - kind: WG Action
+    date: '1999-10-27'
+    subject: 'WG ACTION: Service in the PSTN/IN Requesting InTernet Service (spirits)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/DAY8CrwsUe-tWPIx2RqXcCAOOck/
 - person: 101245
   name: Alec Brusilovsky
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-05-05'
+      date: '1999-10-27'
       not_before: '1999-10-01'
     end:
       certainty: group-closed
       date: '2005-05-05'
+    notes:
+    - start moved earlier by WG Action announcement of 1999-10-27
+  evidence:
+  - kind: WG Action
+    date: '1999-10-27'
+    subject: 'WG ACTION: Service in the PSTN/IN Requesting InTernet Service (spirits)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/DAY8CrwsUe-tWPIx2RqXcCAOOck/

@@ -27,6 +27,25 @@ chairs:
     - '71'
     - '72'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 103708
+  name: David Meyer
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2004-01-14'
+    end:
+      certainty: evidence-only
+      not_before: '2006-03-19'
+  evidence:
+  - kind: WG Action
+    date: '2004-01-14'
+    subject: 'WG Action: RECHARTER: MBONE Deployment (mboned)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/K9HE816JaJHS0wCYtRmFtIk5qOo/
+  - kind: session requests
+    meetings:
+    - '65'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
 - person: 104329
   name: Lenny Giuliano
   status: confirmed
@@ -43,15 +62,19 @@ chairs:
   - kind: WG Review
     date: '2013-09-23'
     subject: 'WG Review: MBONE Deployment (mboned)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/0LsJ8YFO1PpA7pB5YB6Hp96cLXI/
+  - kind: WG Action
+    date: '2013-10-25'
+    subject: 'WG Action: Rechartered MBONE Deployment (mboned)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Hj6d0AJyYkn2Muwoufmyko6eLN4/
   - kind: WG Review
     date: '2025-06-26'
     subject: 'WG Review: MBONE Deployment (mboned)'
-    message_id: 175096515632.372.9539055576819510483@dt-datatracker-6fcb845cd4-p6tkq
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/kFIpoX5LvMxodRYZoFBuVSR3mXw/
   - kind: WG Action
     date: '2025-07-10'
     subject: 'WG Action: Rechartered MBONE Deployment (mboned)'
-    message_id: 175216112177.309015.14545050262023324390@dt-datatracker-557fbf6894-6vznl
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Vk9mG6n0o33z2W2tXEZOtNuv6h4/
   - kind: session requests
     meetings:
     - '81'
@@ -76,15 +99,19 @@ chairs:
   - kind: WG Review
     date: '2013-09-23'
     subject: 'WG Review: MBONE Deployment (mboned)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/0LsJ8YFO1PpA7pB5YB6Hp96cLXI/
+  - kind: WG Action
+    date: '2013-10-25'
+    subject: 'WG Action: Rechartered MBONE Deployment (mboned)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Hj6d0AJyYkn2Muwoufmyko6eLN4/
   - kind: WG Review
     date: '2025-06-26'
     subject: 'WG Review: MBONE Deployment (mboned)'
-    message_id: 175096515632.372.9539055576819510483@dt-datatracker-6fcb845cd4-p6tkq
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/kFIpoX5LvMxodRYZoFBuVSR3mXw/
   - kind: WG Action
     date: '2025-07-10'
     subject: 'WG Action: Rechartered MBONE Deployment (mboned)'
-    message_id: 175216112177.309015.14545050262023324390@dt-datatracker-557fbf6894-6vznl
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Vk9mG6n0o33z2W2tXEZOtNuv6h4/
   - kind: session requests
     meetings:
     - '77'

@@ -24,8 +24,15 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2001-02-17'
+      date: '1999-05-28'
       not_before: '1999-05-03'
     end:
       certainty: group-closed
       date: '2001-02-17'
+    notes:
+    - start moved earlier by WG Action announcement of 1999-05-28
+  evidence:
+  - kind: WG Action
+    date: '1999-05-28'
+    subject: 'WG ACTION: FYI Updates (fyiup)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/QoLGs-ANEiQ5bWayszKzmj9Q19Y/

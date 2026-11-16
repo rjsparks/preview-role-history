@@ -36,17 +36,21 @@ chairs:
       certainty: ongoing
   evidence:
   - kind: WG Action
+    date: '2015-10-05'
+    subject: 'WG Action: Formed Deterministic Networking (detnet)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/22jx3lZtU34T3Jp_n4nYbzAntzg/
+  - kind: WG Action
     date: '2020-04-20'
     subject: 'WG Action: Rechartered Deterministic Networking (detnet)'
-    message_id: 158741470827.28827.4573027457553634955@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Cc0vRcsqldwCO5mLCFvo8D80HYI/
   - kind: WG Action
     date: '2022-07-06'
     subject: 'WG Action: Rechartered Deterministic Networking (detnet)'
-    message_id: 165714132222.17300.16895343522140192091@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/oZCbN5u6sqACws0gE-mlOyZib3A/
   - kind: WG Action
     date: '2023-12-01'
     subject: 'WG Action: Rechartered Deterministic Networking (detnet)'
-    message_id: 170145691546.36243.14659517736798419383@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/_M2NXN5ZsccJphy_9rPRRn4azfQ/
   - kind: shepherded
     documents:
     - draft-ietf-detnet-architecture
@@ -88,6 +92,11 @@ chairs:
     end:
       certainty: exact
       date: '2018-03-26'
+  evidence:
+  - kind: WG Action
+    date: '2015-10-05'
+    subject: 'WG Action: Formed Deterministic Networking (detnet)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/22jx3lZtU34T3Jp_n4nYbzAntzg/
 - person: 115824
   name: Pascal Thubert
   status: confirmed
@@ -111,15 +120,15 @@ chairs:
   - kind: WG Action
     date: '2020-04-20'
     subject: 'WG Action: Rechartered Deterministic Networking (detnet)'
-    message_id: 158741470827.28827.4573027457553634955@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Cc0vRcsqldwCO5mLCFvo8D80HYI/
   - kind: WG Action
     date: '2022-07-06'
     subject: 'WG Action: Rechartered Deterministic Networking (detnet)'
-    message_id: 165714132222.17300.16895343522140192091@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/oZCbN5u6sqACws0gE-mlOyZib3A/
   - kind: WG Action
     date: '2023-12-01'
     subject: 'WG Action: Rechartered Deterministic Networking (detnet)'
-    message_id: 170145691546.36243.14659517736798419383@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/_M2NXN5ZsccJphy_9rPRRn4azfQ/
   - kind: shepherded
     documents:
     - draft-ietf-detnet-ip-oam

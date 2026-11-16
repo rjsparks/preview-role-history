@@ -13,19 +13,33 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2007-09-23'
+      date: '2004-05-05'
       not_before: '2000-10-05'
     end:
       certainty: group-closed
       date: '2007-09-23'
+    notes:
+    - start moved earlier by WG Action announcement of 2004-05-05
+  evidence:
+  - kind: WG Action
+    date: '2004-05-05'
+    subject: 'WG Action: RECHARTER: IP Version 6 Working Group (ipv6)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/2NqK5OhbIbDTJxztpxzx8d3TcWA/
 - person: 100664
   name: Brian Haberman
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2007-09-23'
+      date: '2004-05-05'
       not_before: '2000-10-05'
     end:
       certainty: group-closed
       date: '2007-09-23'
+    notes:
+    - start moved earlier by WG Action announcement of 2004-05-05
+  evidence:
+  - kind: WG Action
+    date: '2004-05-05'
+    subject: 'WG Action: RECHARTER: IP Version 6 Working Group (ipv6)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/2NqK5OhbIbDTJxztpxzx8d3TcWA/

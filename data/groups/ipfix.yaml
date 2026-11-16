@@ -13,30 +13,34 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2001-09-28'
       not_before: '2001-08-17'
     end:
       certainty: group-closed
       date: '2015-03-16'
     notes:
-    - start moved earlier by session request for IETF 65
+    - start moved earlier by WG Action announcement of 2001-09-28
   evidence:
+  - kind: WG Action
+    date: '2001-09-28'
+    subject: 'WG ACTION: IP Flow Information Export (ipfix)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/2ACK9OYuNimOpiiLeEKrNz1VAqk/
   - kind: WG Action
     date: '2006-06-28'
     subject: 'WG Action: RECHARTER: IP Flow Information Export (ipfix)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/MlrBVuFRo6gAdirC-VQhzcTLhg8/
   - kind: WG Review
     date: '2007-11-08'
     subject: 'WG Review: Recharter of IP Flow Information Export (ipfix)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/wTro3GVoplxUcPSMbg7DqKwoMEU/
   - kind: WG Action
     date: '2007-11-26'
     subject: 'WG Action: RECHARTER: IP Flow Information Export WG (ipfix)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/E5kRr9PWg02hlhruGe3ayQCvidE/
   - kind: WG Action
     date: '2011-11-07'
     subject: 'WG Action: RECHARTER: IP Flow Information Export (ipfix)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/DE8i551vvE_eEb9jP3Ql8SQPtSA/
   - kind: session requests
     meetings:
     - '65'
@@ -68,15 +72,15 @@ chairs:
   - kind: WG Review
     date: '2007-11-08'
     subject: 'WG Review: Recharter of IP Flow Information Export (ipfix)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/wTro3GVoplxUcPSMbg7DqKwoMEU/
   - kind: WG Action
     date: '2007-11-26'
     subject: 'WG Action: RECHARTER: IP Flow Information Export WG (ipfix)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/E5kRr9PWg02hlhruGe3ayQCvidE/
   - kind: WG Action
     date: '2011-11-07'
     subject: 'WG Action: RECHARTER: IP Flow Information Export (ipfix)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/DE8i551vvE_eEb9jP3Ql8SQPtSA/
   - kind: session requests
     meetings:
     - '68'
@@ -100,12 +104,16 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2006-06-28'
+      not_after: '2001-09-28'
     end:
       certainty: evidence-only
       not_before: '2006-06-28'
   evidence:
   - kind: WG Action
+    date: '2001-09-28'
+    subject: 'WG ACTION: IP Flow Information Export (ipfix)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/2ACK9OYuNimOpiiLeEKrNz1VAqk/
+  - kind: WG Action
     date: '2006-06-28'
     subject: 'WG Action: RECHARTER: IP Flow Information Export (ipfix)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/MlrBVuFRo6gAdirC-VQhzcTLhg8/

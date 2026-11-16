@@ -7,6 +7,21 @@ started: '2002-06-07'
 closed: '2012-11-27'
 history_url: https://datatracker.ietf.org/group/dccp/history/
 chairs:
+- person: 21226
+  name: Aaron Falk
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2002-07-02'
+    end:
+      certainty: evidence-only
+      not_before: '2002-07-02'
+  evidence:
+  - kind: WG Action
+    date: '2002-07-02'
+    subject: 'WG Action: Datagram Congestion Control Protocol (dccp)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/09M7QuPAqT3CNuCc_iIlTJnGrUY/
 - person: 101742
   name: Thomas Phelan
   status: confirmed
@@ -24,11 +39,11 @@ chairs:
   - kind: WG Review
     date: '2006-06-27'
     subject: 'WG Review: Recharter of Datagram Congestion Control Protocol (dccp)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/4q39NQzJcyuF9M6FJ_RpyPvWiKg/
   - kind: WG Action
     date: '2006-07-11'
     subject: 'WG Action: RECHARTER: Datagram Congestion Control Protocol (dccp)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/wdeOMBJCbkAZFcF3XSEU65wp1CY/
 - person: 104331
   name: Gorry Fairhurst
   status: unconfirmed
@@ -43,11 +58,11 @@ chairs:
   - kind: WG Review
     date: '2006-06-27'
     subject: 'WG Review: Recharter of Datagram Congestion Control Protocol (dccp)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/4q39NQzJcyuF9M6FJ_RpyPvWiKg/
   - kind: WG Action
     date: '2006-07-11'
     subject: 'WG Action: RECHARTER: Datagram Congestion Control Protocol (dccp)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/wdeOMBJCbkAZFcF3XSEU65wp1CY/
   - kind: session requests
     meetings:
     - '66'

@@ -17,6 +17,11 @@ chairs:
     end:
       certainty: group-closed
       date: '2020-09-10'
+  evidence:
+  - kind: WG Action
+    date: '2019-02-08'
+    subject: 'WG Action: Formed GitHub Integration and Tooling (git)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/C_F5PoO01g0tOfnHiw-Z-znJOWQ/
 - person: 121595
   name: Christopher Wood
   status: confirmed
@@ -28,6 +33,10 @@ chairs:
       certainty: group-closed
       date: '2020-09-10'
   evidence:
+  - kind: WG Action
+    date: '2019-02-08'
+    subject: 'WG Action: Formed GitHub Integration and Tooling (git)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/C_F5PoO01g0tOfnHiw-Z-znJOWQ/
   - kind: shepherded
     documents:
     - draft-ietf-git-github-wg-configuration

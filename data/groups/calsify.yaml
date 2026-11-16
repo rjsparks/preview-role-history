@@ -24,7 +24,7 @@ chairs:
   - kind: WG Action
     date: '2006-07-25'
     subject: 'WG Action: RECHARTER: Calendaring and Scheduling Standards Simplification (calsify)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ePlaDuaUGb92-Ap8VNKCg6Cauog/
   - kind: session requests
     meetings:
     - '67'
@@ -33,21 +33,40 @@ chairs:
     - '70'
     - '71'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 22971
+  name: Lisa Dusseault
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2005-07-28'
+    end:
+      certainty: evidence-only
+      not_before: '2005-07-28'
+  evidence:
+  - kind: WG Action
+    date: '2005-07-28'
+    subject: 'WG Action: Calendaring and Scheduling Standards Simplification (calsify)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/o90-L7-rDgPCqYiqBlai0Oh58tk/
 - person: 105274
   name: Aki Niemi
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2006-03-19'
+      not_after: '2005-07-28'
     end:
       certainty: evidence-only
       not_before: '2006-07-25'
   evidence:
   - kind: WG Action
+    date: '2005-07-28'
+    subject: 'WG Action: Calendaring and Scheduling Standards Simplification (calsify)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/o90-L7-rDgPCqYiqBlai0Oh58tk/
+  - kind: WG Action
     date: '2006-07-25'
     subject: 'WG Action: RECHARTER: Calendaring and Scheduling Standards Simplification (calsify)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ePlaDuaUGb92-Ap8VNKCg6Cauog/
   - kind: session requests
     meetings:
     - '65'

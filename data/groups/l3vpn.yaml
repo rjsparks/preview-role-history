@@ -19,6 +19,25 @@ chairs:
       certainty: between
       not_before: '2011-12-09'
       not_after: '2014-03-05'
+- person: 2723
+  name: Ross Callon
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2004-06-02'
+    end:
+      certainty: evidence-only
+      not_before: '2006-03-19'
+  evidence:
+  - kind: WG Action
+    date: '2004-06-02'
+    subject: 'WG Action: RECHARTER: Layer 3 Virtual Private Networks (l3vpn)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/tczL4i8G3mpB271Xucf47UrsY-Q/
+  - kind: session requests
+    meetings:
+    - '65'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
 - person: 19987
   name: Danny McPherson
   status: confirmed
@@ -37,18 +56,22 @@ chairs:
   - kind: WG Action
     date: '2011-03-21'
     subject: 'WG Action: RECHARTER: Layer 3 Virtual Private Networks (l3vpn)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/BBXmPKqbnJcup_MtHUvD4SBn0hs/
 - person: 101568
   name: Ron Bonica
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2006-07-09'
+      not_after: '2004-06-02'
     end:
       certainty: evidence-only
       not_before: '2008-07-27'
   evidence:
+  - kind: WG Action
+    date: '2004-06-02'
+    subject: 'WG Action: RECHARTER: Layer 3 Virtual Private Networks (l3vpn)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/tczL4i8G3mpB271Xucf47UrsY-Q/
   - kind: session requests
     meetings:
     - '66'
@@ -115,7 +138,7 @@ chairs:
   - kind: WG Action
     date: '2011-03-21'
     subject: 'WG Action: RECHARTER: Layer 3 Virtual Private Networks (l3vpn)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/BBXmPKqbnJcup_MtHUvD4SBn0hs/
   - kind: session requests
     meetings:
     - '77'

@@ -13,19 +13,33 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-06-13'
+      date: '2000-12-01'
       not_before: '2000-11-02'
     end:
       certainty: group-closed
       date: '2006-06-13'
+    notes:
+    - start moved earlier by WG Action announcement of 2000-12-01
+  evidence:
+  - kind: WG Action
+    date: '2000-12-01'
+    subject: 'WG ACTION: LDAP (v3) Revision (ldapbis)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/hEjhZx2lpd075L-PKVlDAv3j9B4/
 - person: 104380
   name: Morgan Rl
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-06-13'
+      date: '2000-12-01'
       not_before: '2000-11-02'
     end:
       certainty: group-closed
       date: '2006-06-13'
+    notes:
+    - start moved earlier by WG Action announcement of 2000-12-01
+  evidence:
+  - kind: WG Action
+    date: '2000-12-01'
+    subject: 'WG ACTION: LDAP (v3) Revision (ldapbis)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/hEjhZx2lpd075L-PKVlDAv3j9B4/

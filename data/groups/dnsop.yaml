@@ -21,7 +21,11 @@ chairs:
   - kind: WG Review
     date: '2014-06-04'
     subject: 'WG Review: Domain Name System Operations (dnsop)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/cmlOt4ce5W9FXWBiuWqMLACtarY/
+  - kind: WG Action
+    date: '2014-06-27'
+    subject: 'WG Action: Rechartered Domain Name System Operations (dnsop)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/7aMoqHBcMSIuE9WIVAO2YDHxND4/
   - kind: shepherded
     documents:
     - draft-ietf-dnsop-7706bis
@@ -37,6 +41,36 @@ chairs:
     - draft-ietf-dnsop-serve-stale
     - draft-ietf-dnsop-sutld-ps
     - draft-ietf-dnsop-terminology-bis
+- person: 103708
+  name: David Meyer
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2004-03-24'
+    end:
+      certainty: evidence-only
+      not_before: '2004-03-24'
+  evidence:
+  - kind: WG Action
+    date: '2004-03-24'
+    subject: 'WG Action: RECHARTER: Domain Name System Operations (dnsop)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/nxF12c2scPLnk3xpf14Mm9k2PSQ/
+- person: 104212
+  name: Rob Austein
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2004-03-24'
+    end:
+      certainty: evidence-only
+      not_before: '2004-03-24'
+  evidence:
+  - kind: WG Action
+    date: '2004-03-24'
+    subject: 'WG Action: RECHARTER: Domain Name System Operations (dnsop)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/nxF12c2scPLnk3xpf14Mm9k2PSQ/
 - person: 107363
   name: Peter Koch
   status: confirmed
@@ -103,11 +137,11 @@ chairs:
   - kind: WG Review
     date: '2025-06-27'
     subject: 'WG Review: Domain Name System Operations (dnsop)'
-    message_id: 175105042641.141367.11106084041616617244@dt-datatracker-6fcb845cd4-p6tkq
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/WaBSsTuoif4uxlpG59dtcyEtpmA/
   - kind: WG Action
     date: '2025-09-10'
     subject: 'WG Action: Rechartered Domain Name System Operations (dnsop)'
-    message_id: 175752044309.3394464.9599508576698931678@dt-datatracker-f7c8fdcb7-pjx77
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/yC9NdahK0rmzn60_Dp7OYZSgI-k/
   - kind: shepherded
     documents:
     - draft-ietf-dnsop-3901bis
@@ -127,7 +161,11 @@ chairs:
   - kind: WG Review
     date: '2014-06-04'
     subject: 'WG Review: Domain Name System Operations (dnsop)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/cmlOt4ce5W9FXWBiuWqMLACtarY/
+  - kind: WG Action
+    date: '2014-06-27'
+    subject: 'WG Action: Rechartered Domain Name System Operations (dnsop)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/7aMoqHBcMSIuE9WIVAO2YDHxND4/
   - kind: shepherded
     documents:
     - draft-andrews-dns-no-response-issue
@@ -204,11 +242,11 @@ chairs:
   - kind: WG Review
     date: '2025-06-27'
     subject: 'WG Review: Domain Name System Operations (dnsop)'
-    message_id: 175105042641.141367.11106084041616617244@dt-datatracker-6fcb845cd4-p6tkq
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/WaBSsTuoif4uxlpG59dtcyEtpmA/
   - kind: WG Action
     date: '2025-09-10'
     subject: 'WG Action: Rechartered Domain Name System Operations (dnsop)'
-    message_id: 175752044309.3394464.9599508576698931678@dt-datatracker-f7c8fdcb7-pjx77
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/yC9NdahK0rmzn60_Dp7OYZSgI-k/
   - kind: shepherded
     documents:
     - draft-ietf-dnsop-attrleaf

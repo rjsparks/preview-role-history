@@ -29,3 +29,18 @@ chairs:
     end:
       certainty: group-closed
       date: '2004-09-08'
+- person: 101696
+  name: Dave Marvit
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1999-03-08'
+    end:
+      certainty: evidence-only
+      not_before: '1999-03-08'
+  evidence:
+  - kind: WG Action
+    date: '1999-03-08'
+    subject: 'WG Action: Instant Messaging and Presence Protocol (impp)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/TVJ3fzCkAQX_IXzCRmks9oJrCiM/

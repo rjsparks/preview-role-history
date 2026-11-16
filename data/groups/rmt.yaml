@@ -35,21 +35,48 @@ chairs:
     - '80'
     - '81'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 20844
+  name: Roger Kermode
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1999-04-28'
+    end:
+      certainty: evidence-only
+      not_before: '1999-04-30'
+  evidence:
+  - kind: WG Action
+    date: '1999-04-28'
+    subject: 'WG ACTION: Reliable Multicast Transport (rmt)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/bPiXyiQQgrJ8x-vj2S6MD7CiaQE/
+  - kind: WG Action
+    date: '1999-04-30'
+    subject: 'WG ACTION: Reliable Multicast Transport (rmt)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/Wjn5sF2vvdqp44j749OB4Bx92k0/
 - person: 100609
   name: Lorenzo Vicisano
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '1999-04-28'
       not_before: '1999-04-02'
     end:
       certainty: between
       not_before: '2011-12-09'
       not_after: '2013-09-06'
     notes:
-    - start moved earlier by session request for IETF 65
+    - start moved earlier by WG Action announcement of 1999-04-28
   evidence:
+  - kind: WG Action
+    date: '1999-04-28'
+    subject: 'WG ACTION: Reliable Multicast Transport (rmt)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/bPiXyiQQgrJ8x-vj2S6MD7CiaQE/
+  - kind: WG Action
+    date: '1999-04-30'
+    subject: 'WG ACTION: Reliable Multicast Transport (rmt)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/Wjn5sF2vvdqp44j749OB4Bx92k0/
   - kind: session requests
     meetings:
     - '65'

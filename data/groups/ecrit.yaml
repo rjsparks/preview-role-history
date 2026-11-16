@@ -22,11 +22,15 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2007-12-02'
+      not_after: '2005-02-09'
     end:
       certainty: evidence-only
       not_before: '2010-03-21'
   evidence:
+  - kind: WG Action
+    date: '2005-02-09'
+    subject: 'WG Action: Emergency Context Resolution with Internet Technologies (ecrit)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/3yLOj3nkePTUNQuylzKcrwxv4gA/
   - kind: session requests
     meetings:
     - '70'
@@ -41,18 +45,26 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2005-02-09'
       not_before: '2004-10-01'
     end:
       certainty: exact
       date: '2016-08-19'
     notes:
-    - start moved earlier by session request for IETF 65
+    - start moved earlier by WG Action announcement of 2005-02-09
   evidence:
+  - kind: WG Action
+    date: '2005-02-09'
+    subject: 'WG Action: Emergency Context Resolution with Internet Technologies (ecrit)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/3yLOj3nkePTUNQuylzKcrwxv4gA/
   - kind: WG Review
     date: '2013-11-22'
     subject: 'WG Review: Emergency Context Resolution with Internet Technologies (ecrit)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/8tCv7hFTO_Uyo3lm6jMH4yz3ZIw/
+  - kind: WG Action
+    date: '2013-12-06'
+    subject: 'WG Action: Rechartered Emergency Context Resolution with Internet Technologies (ecrit)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/cdW3y0MhX-loL41189rfXPaKsHs/
   - kind: session requests
     meetings:
     - '65'
@@ -85,7 +97,11 @@ chairs:
   - kind: WG Review
     date: '2013-11-22'
     subject: 'WG Review: Emergency Context Resolution with Internet Technologies (ecrit)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/8tCv7hFTO_Uyo3lm6jMH4yz3ZIw/
+  - kind: WG Action
+    date: '2013-12-06'
+    subject: 'WG Action: Rechartered Emergency Context Resolution with Internet Technologies (ecrit)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/cdW3y0MhX-loL41189rfXPaKsHs/
   - kind: shepherded
     documents:
     - draft-ietf-ecrit-held-routing

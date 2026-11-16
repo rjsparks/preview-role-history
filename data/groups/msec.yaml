@@ -7,6 +7,21 @@ started: '2001-01-17'
 closed: '2011-10-17'
 history_url: https://datatracker.ietf.org/group/msec/history/
 chairs:
+- person: 19826
+  name: Ran Canetti
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2001-02-10'
+    end:
+      certainty: evidence-only
+      not_before: '2001-02-10'
+  evidence:
+  - kind: WG Action
+    date: '2001-02-10'
+    subject: 'WG ACTION: Multicast Security (msec)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/uu5x1Wq_1KNg5zII4jsvB1U6PBA/
 - person: 21395
   name: Brian Weis
   status: confirmed

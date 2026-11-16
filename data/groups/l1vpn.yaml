@@ -31,25 +31,36 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2009-03-27'
+      date: '2005-06-29'
       not_before: '2005-05-18'
     end:
       certainty: group-closed
       date: '2009-03-27'
+    notes:
+    - start moved earlier by WG Action announcement of 2005-06-29
+  evidence:
+  - kind: WG Action
+    date: '2005-06-29'
+    subject: 'WG Action: Layer 1 Virtual Private Networks (l1vpn)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/34Wo6Y7dIvHBox9uepzDqMSm3dM/
 - person: 106581
   name: Tomonori Takeda
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2005-06-29'
       not_before: '2005-05-18'
     end:
       certainty: group-closed
       date: '2009-03-27'
     notes:
-    - start moved earlier by session request for IETF 65
+    - start moved earlier by WG Action announcement of 2005-06-29
   evidence:
+  - kind: WG Action
+    date: '2005-06-29'
+    subject: 'WG Action: Layer 1 Virtual Private Networks (l1vpn)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/34Wo6Y7dIvHBox9uepzDqMSm3dM/
   - kind: session requests
     meetings:
     - '65'

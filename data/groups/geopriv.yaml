@@ -7,6 +7,40 @@ started: '2001-04-06'
 closed: '2014-11-08'
 history_url: https://datatracker.ietf.org/group/geopriv/history/
 chairs:
+- person: 2515
+  name: Allison Mankin
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2001-06-15'
+    end:
+      certainty: evidence-only
+      not_before: '2006-03-19'
+  evidence:
+  - kind: WG Action
+    date: '2001-06-15'
+    subject: 'WG ACTION: Geographic Location/Privacy (geopriv)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/s3vvmE3kHA7LXmH7IMjLXsjUQaY/
+  - kind: session requests
+    meetings:
+    - '65'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 18621
+  name: Randall Gellens
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2001-06-15'
+    end:
+      certainty: evidence-only
+      not_before: '2001-06-15'
+  evidence:
+  - kind: WG Action
+    date: '2001-06-15'
+    subject: 'WG ACTION: Geographic Location/Privacy (geopriv)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/s3vvmE3kHA7LXmH7IMjLXsjUQaY/
 - person: 106296
   name: Andy Newton
   status: unconfirmed
@@ -49,11 +83,11 @@ chairs:
   - kind: WG Review
     date: '2009-06-08'
     subject: 'WG Review: Recharter of Geographic Location/Privacy (geopriv)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/MJksTke37Vm7QD_SNxhXm8Y4UTw/
   - kind: WG Action
     date: '2009-06-23'
     subject: 'WG Action: RECHARTER: Geographic Location/Privacy (geopriv)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/-AfhbKhiM7mlES5vHQYVFVcIoJg/
   - kind: session requests
     meetings:
     - '75'
@@ -95,11 +129,11 @@ chairs:
   - kind: WG Review
     date: '2009-06-08'
     subject: 'WG Review: Recharter of Geographic Location/Privacy (geopriv)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/MJksTke37Vm7QD_SNxhXm8Y4UTw/
   - kind: WG Action
     date: '2009-06-23'
     subject: 'WG Action: RECHARTER: Geographic Location/Privacy (geopriv)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/-AfhbKhiM7mlES5vHQYVFVcIoJg/
   - kind: session requests
     meetings:
     - '78'

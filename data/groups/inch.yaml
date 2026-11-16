@@ -13,18 +13,22 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-12-21'
+      date: '2003-12-10'
       not_before: '2002-07-17'
     end:
       certainty: group-closed
       date: '2006-10-11'
     notes:
-    - start moved earlier by WG Action announcement of 2005-12-21
+    - start moved earlier by WG Action announcement of 2003-12-10
   evidence:
+  - kind: WG Action
+    date: '2003-12-10'
+    subject: 'WG Action: RECHARTER: Extended Incident Handling (inch)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/Xp8QuTgWAPIFuiVIprj5VBfFXhI/
   - kind: WG Action
     date: '2005-12-21'
     subject: 'WG Action: RECHARTER: Extended Incident Handling (inch)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/wkuT6oj8mHpqno8cKvZn5pBD7Sc/
   - kind: session requests
     meetings:
     - '66'

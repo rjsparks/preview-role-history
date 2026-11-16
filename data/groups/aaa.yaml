@@ -7,6 +7,44 @@ started: '1999-02-22'
 closed: '2007-01-29'
 history_url: https://datatracker.ietf.org/group/aaa/history/
 chairs:
+- person: 4873
+  name: Brian Lloyd
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1999-03-01'
+    end:
+      certainty: evidence-only
+      not_before: '1999-03-08'
+  evidence:
+  - kind: WG Review
+    date: '1999-03-01'
+    subject: 'WG Review: Authentication, Authorization and Accounting (aaa)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/sD4gy-iaguCVK1dKH3KgAQVpdz0/
+  - kind: WG Action
+    date: '1999-03-08'
+    subject: 'WG Action: Authentication, Authorization and Accounting (aaa)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/BAZQS24FlBA0L6SloUaBGzMfET4/
+- person: 5395
+  name: Paul Krumviede
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1999-03-01'
+    end:
+      certainty: evidence-only
+      not_before: '1999-03-08'
+  evidence:
+  - kind: WG Review
+    date: '1999-03-01'
+    subject: 'WG Review: Authentication, Authorization and Accounting (aaa)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/sD4gy-iaguCVK1dKH3KgAQVpdz0/
+  - kind: WG Action
+    date: '1999-03-08'
+    subject: 'WG Action: Authentication, Authorization and Accounting (aaa)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/BAZQS24FlBA0L6SloUaBGzMfET4/
 - person: 12620
   name: Bernard Aboba
   status: confirmed

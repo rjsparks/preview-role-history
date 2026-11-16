@@ -7,6 +7,55 @@ started: '1999-09-16'
 closed: null
 history_url: https://datatracker.ietf.org/group/tsvwg/history/
 chairs:
+- person: 2324
+  name: Scott Bradner
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1999-10-22'
+    end:
+      certainty: evidence-only
+      not_before: '1999-10-22'
+  evidence:
+  - kind: WG Action
+    date: '1999-10-22'
+    subject: 'WG ACTION: Transport Area Working Group (tsvwg)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/WLfAChAQ8Pm3113E4E4r6ClJleM/
+- person: 2515
+  name: Allison Mankin
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2004-02-25'
+    end:
+      certainty: evidence-only
+      not_before: '2006-03-19'
+  evidence:
+  - kind: WG Action
+    date: '2004-02-25'
+    subject: 'WG Action: RECHARTER: Transport Area Working Group (tsvwg)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/tiJcjr6rvqxNY_MPQ1_whf3e01I/
+  - kind: session requests
+    meetings:
+    - '65'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 17625
+  name: Vern Paxson
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1999-10-22'
+    end:
+      certainty: evidence-only
+      not_before: '1999-10-22'
+  evidence:
+  - kind: WG Action
+    date: '1999-10-22'
+    subject: 'WG ACTION: Transport Area Working Group (tsvwg)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/WLfAChAQ8Pm3113E4E4r6ClJleM/
 - person: 103156
   name: David Black
   status: confirmed
@@ -50,11 +99,11 @@ chairs:
   - kind: WG Action
     date: '2006-06-28'
     subject: 'WG Action: RECHARTER: Transport Area Working Group (tsvwg)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/p1c5mLKg0xIxbOqunSVukn8X1nc/
   - kind: WG Action
     date: '2011-05-31'
     subject: 'WG Action: RECHARTER: Transport Area Working Group (tsvwg)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/SKyQyBhDM9ZYfMyaGryeLxf1VeY/
   - kind: session requests
     meetings:
     - '66'
@@ -80,7 +129,7 @@ chairs:
   - kind: WG Action
     date: '2006-06-28'
     subject: 'WG Action: RECHARTER: Transport Area Working Group (tsvwg)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/p1c5mLKg0xIxbOqunSVukn8X1nc/
   - kind: session requests
     meetings:
     - '72'
@@ -104,15 +153,15 @@ chairs:
   - kind: WG Action
     date: '2011-05-31'
     subject: 'WG Action: RECHARTER: Transport Area Working Group (tsvwg)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/SKyQyBhDM9ZYfMyaGryeLxf1VeY/
   - kind: WG Review
     date: '2023-12-01'
     subject: 'WG Review: Transport and Services Working Group (tsvwg)'
-    message_id: 170145678535.36931.7698906772466542578@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/uT8DbTquEj1sXgvVM4JUKOnYGW8/
   - kind: WG Action
     date: '2023-12-15'
     subject: 'WG Action: Rechartered Transport and Services Working Group (tsvwg)'
-    message_id: 170267296350.32241.7403110519207360136@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/du1J8EnEZjp_DDWOjgWaUUmneAI/
   - kind: session requests
     meetings:
     - '77'
@@ -138,6 +187,21 @@ chairs:
     - draft-ietf-tsvwg-sctp-prpolicies
     - draft-ietf-tsvwg-sctp-sack-immediately
     - draft-ietf-tsvwg-udp-options
+- person: 104557
+  name: Jon Peterson
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2004-02-25'
+    end:
+      certainty: evidence-only
+      not_before: '2004-02-25'
+  evidence:
+  - kind: WG Action
+    date: '2004-02-25'
+    subject: 'WG Action: RECHARTER: Transport Area Working Group (tsvwg)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/tiJcjr6rvqxNY_MPQ1_whf3e01I/
 - person: 106541
   name: Martin Duke
   status: confirmed
@@ -206,7 +270,7 @@ chairs:
   - kind: WG Action
     date: '2006-06-28'
     subject: 'WG Action: RECHARTER: Transport Area Working Group (tsvwg)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/p1c5mLKg0xIxbOqunSVukn8X1nc/
   - kind: session requests
     meetings:
     - '68'
@@ -226,11 +290,11 @@ chairs:
   - kind: WG Review
     date: '2023-12-01'
     subject: 'WG Review: Transport and Services Working Group (tsvwg)'
-    message_id: 170145678535.36931.7698906772466542578@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/uT8DbTquEj1sXgvVM4JUKOnYGW8/
   - kind: WG Action
     date: '2023-12-15'
     subject: 'WG Action: Rechartered Transport and Services Working Group (tsvwg)'
-    message_id: 170267296350.32241.7403110519207360136@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/du1J8EnEZjp_DDWOjgWaUUmneAI/
   - kind: shepherded
     documents:
     - draft-ietf-tsvwg-careful-resume

@@ -32,20 +32,39 @@ chairs:
     - '76'
     - '77'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 103048
+  name: Sam Hartman
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2002-12-19'
+    end:
+      certainty: evidence-only
+      not_before: '2002-12-19'
+  evidence:
+  - kind: WG Action
+    date: '2002-12-19'
+    subject: 'WG Action: Simple Authentication and Security Layer (sasl)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/XgtwlUJoll0ly8suuEqtjvu8Hqs/
 - person: 103904
   name: Kurt Zeilenga
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2002-12-19'
       not_before: '2002-11-25'
     end:
       certainty: group-closed
       date: '2010-08-23'
     notes:
-    - start moved earlier by session request for IETF 65
+    - start moved earlier by WG Action announcement of 2002-12-19
   evidence:
+  - kind: WG Action
+    date: '2002-12-19'
+    subject: 'WG Action: Simple Authentication and Security Layer (sasl)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/XgtwlUJoll0ly8suuEqtjvu8Hqs/
   - kind: session requests
     meetings:
     - '65'

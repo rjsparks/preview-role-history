@@ -29,3 +29,18 @@ chairs:
     end:
       certainty: group-closed
       date: '2005-03-25'
+- person: 17253
+  name: David Harrington
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2000-01-31'
+    end:
+      certainty: evidence-only
+      not_before: '2000-01-31'
+  evidence:
+  - kind: WG Action
+    date: '2000-01-31'
+    subject: 'WG Action: Configuration Management with SNMP (snmpconf)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/ITjOT24srEoZUnO_SlnRaCzAQdo/

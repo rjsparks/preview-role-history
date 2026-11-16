@@ -7,6 +7,21 @@ started: '2004-09-28'
 closed: '2010-03-16'
 history_url: https://datatracker.ietf.org/group/btns/history/
 chairs:
+- person: 6167
+  name: Pekka Nikander
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2005-04-08'
+    end:
+      certainty: evidence-only
+      not_before: '2005-04-08'
+  evidence:
+  - kind: WG Action
+    date: '2005-04-08'
+    subject: 'WG Action: Better-Than-Nothing Security (btns)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/j_VVuRNnzVn9okKIF2oDsqmtiV8/
 - person: 106186
   name: Julien Laganier
   status: confirmed
@@ -33,14 +48,18 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2005-04-08'
       not_before: '2004-09-28'
     end:
       certainty: group-closed
       date: '2010-03-16'
     notes:
-    - start moved earlier by session request for IETF 65
+    - start moved earlier by WG Action announcement of 2005-04-08
   evidence:
+  - kind: WG Action
+    date: '2005-04-08'
+    subject: 'WG Action: Better-Than-Nothing Security (btns)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/j_VVuRNnzVn9okKIF2oDsqmtiV8/
   - kind: session requests
     meetings:
     - '65'

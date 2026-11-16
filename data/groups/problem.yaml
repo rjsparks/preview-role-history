@@ -13,19 +13,33 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-11-01'
+      date: '2003-03-11'
       not_before: '2003-01-28'
     end:
       certainty: group-closed
       date: '2004-11-01'
+    notes:
+    - start moved earlier by WG Action announcement of 2003-03-11
+  evidence:
+  - kind: WG Action
+    date: '2003-03-11'
+    subject: 'WG Action: Problem Statement (problem)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/aT8CG9ftsx1MVF0iiN6_iGBMpDQ/
 - person: 101104
   name: Melinda Shore
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-11-01'
+      date: '2003-03-11'
       not_before: '2003-01-28'
     end:
       certainty: group-closed
       date: '2004-11-01'
+    notes:
+    - start moved earlier by WG Action announcement of 2003-03-11
+  evidence:
+  - kind: WG Action
+    date: '2003-03-11'
+    subject: 'WG Action: Problem Statement (problem)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/aT8CG9ftsx1MVF0iiN6_iGBMpDQ/

@@ -29,3 +29,18 @@ chairs:
     end:
       certainty: group-closed
       date: '2004-11-05'
+- person: 21756
+  name: John Strassner
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1998-10-23'
+    end:
+      certainty: evidence-only
+      not_before: '1998-10-23'
+  evidence:
+  - kind: WG Action
+    date: '1998-10-23'
+    subject: 'WG ACTION: Policy Framework (policy)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/kOwLPY5WCnyp6fwP6Xlah4RDOgU/

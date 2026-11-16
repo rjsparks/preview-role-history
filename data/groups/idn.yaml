@@ -17,3 +17,33 @@ chairs:
     end:
       certainty: group-closed
       date: '2008-04-23'
+- person: 19133
+  name: James Seng
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2000-02-08'
+    end:
+      certainty: evidence-only
+      not_before: '2000-02-08'
+  evidence:
+  - kind: WG Action
+    date: '2000-02-08'
+    subject: 'WG ACTION: Internationalized Domain Name (idn)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/Wj-ySU8AByYgy4qhjw_g-a47zfo/
+- person: 19869
+  name: Marc Blanchet
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2000-02-08'
+    end:
+      certainty: evidence-only
+      not_before: '2000-02-08'
+  evidence:
+  - kind: WG Action
+    date: '2000-02-08'
+    subject: 'WG ACTION: Internationalized Domain Name (idn)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/Wj-ySU8AByYgy4qhjw_g-a47zfo/

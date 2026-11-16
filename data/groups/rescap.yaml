@@ -13,11 +13,18 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-10-08'
+      date: '1999-12-07'
       not_before: '1999-10-22'
     end:
       certainty: group-closed
       date: '2003-10-08'
+    notes:
+    - start moved earlier by WG Action announcement of 1999-12-07
+  evidence:
+  - kind: WG Action
+    date: '1999-12-07'
+    subject: 'WG ACTION: Resource Capabilities Discovery (rescap)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/xjg5L9kbSHWvSpM6-oT8Cd-iQWI/
 - person: 9497
   name: Michael Mealling
   status: confirmed

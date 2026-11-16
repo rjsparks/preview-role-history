@@ -13,19 +13,23 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2006-02-22'
+      not_after: '2004-02-12'
     end:
       certainty: evidence-only
       not_before: '2007-12-02'
   evidence:
   - kind: WG Action
+    date: '2004-02-12'
+    subject: 'WG Action: TCP Maintenance and Minor Extensions (tcpm)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/mJnaVu-VJS99aJ1IU_81WX9uHJQ/
+  - kind: WG Action
     date: '2006-02-22'
     subject: 'WG Action: RECHARTER: TCP Maintenance and Minor Extensions (tcpm)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/3_-vjb9EQVtBk9A2HarYXql_Y4s/
   - kind: WG Action
     date: '2006-08-08'
     subject: 'WG Action: RECHARTER: TCP Maintenance and Minor Extensions (tcpm)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ZWB1y51ZBAElR2x729x_CTBwdpc/
   - kind: session requests
     meetings:
     - '67'
@@ -43,22 +47,30 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: WG Action
+    date: '2012-06-21'
+    subject: 'WG Action: Rechartered TCP Maintenance and Minor Extensions (tcpm)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/g3x9BlEkXEppk1iFwIk9wbvh0Gw/
   - kind: WG Review
     date: '2015-03-13'
     subject: 'WG Review: TCP Maintenance and Minor Extensions (tcpm)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/y6_3aHKYei-Zu8D6rFZ7yvqkiOg/
+  - kind: WG Action
+    date: '2015-04-10'
+    subject: 'WG Action: Rechartered TCP Maintenance and Minor Extensions (tcpm)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/_TRhg8N-UF57A7WI3rMB5fO1nWw/
   - kind: WG Action
     date: '2020-03-16'
     subject: 'WG Action: Rechartered TCP Maintenance and Minor Extensions (tcpm)'
-    message_id: 158439438323.13741.11606183839173437731@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Q1HpD31mtgdGzuEfeCIHzQOGnsk/
   - kind: WG Review
     date: '2023-12-01'
     subject: 'WG Review: TCP Maintenance and Minor Extensions (tcpm)'
-    message_id: 170145576201.36146.7374432066006641906@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ji8XYhr46LrG5L_g2TlIOu-zTp0/
   - kind: WG Action
     date: '2023-12-15'
     subject: 'WG Action: Rechartered TCP Maintenance and Minor Extensions (tcpm)'
-    message_id: 170267274886.33593.7514698862918142002@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/zyg-CssCjgoWECnq7H7OBmoXNbA/
   - kind: shepherded
     documents:
     - draft-ietf-tcpm-cubic
@@ -75,19 +87,23 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2006-02-22'
+      not_after: '2004-02-12'
     end:
       certainty: evidence-only
       not_before: '2008-07-27'
   evidence:
   - kind: WG Action
+    date: '2004-02-12'
+    subject: 'WG Action: TCP Maintenance and Minor Extensions (tcpm)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/mJnaVu-VJS99aJ1IU_81WX9uHJQ/
+  - kind: WG Action
     date: '2006-02-22'
     subject: 'WG Action: RECHARTER: TCP Maintenance and Minor Extensions (tcpm)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/3_-vjb9EQVtBk9A2HarYXql_Y4s/
   - kind: WG Action
     date: '2006-08-08'
     subject: 'WG Action: RECHARTER: TCP Maintenance and Minor Extensions (tcpm)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ZWB1y51ZBAElR2x729x_CTBwdpc/
   - kind: session requests
     meetings:
     - '65'
@@ -109,15 +125,15 @@ chairs:
   - kind: WG Action
     date: '2020-03-16'
     subject: 'WG Action: Rechartered TCP Maintenance and Minor Extensions (tcpm)'
-    message_id: 158439438323.13741.11606183839173437731@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Q1HpD31mtgdGzuEfeCIHzQOGnsk/
   - kind: WG Review
     date: '2023-12-01'
     subject: 'WG Review: TCP Maintenance and Minor Extensions (tcpm)'
-    message_id: 170145576201.36146.7374432066006641906@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ji8XYhr46LrG5L_g2TlIOu-zTp0/
   - kind: WG Action
     date: '2023-12-15'
     subject: 'WG Action: Rechartered TCP Maintenance and Minor Extensions (tcpm)'
-    message_id: 170267274886.33593.7514698862918142002@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/zyg-CssCjgoWECnq7H7OBmoXNbA/
   - kind: shepherded
     documents:
     - draft-ietf-tcpm-accurate-ecn
@@ -138,10 +154,18 @@ chairs:
       certainty: exact
       date: '2016-08-17'
   evidence:
+  - kind: WG Action
+    date: '2012-06-21'
+    subject: 'WG Action: Rechartered TCP Maintenance and Minor Extensions (tcpm)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/g3x9BlEkXEppk1iFwIk9wbvh0Gw/
   - kind: WG Review
     date: '2015-03-13'
     subject: 'WG Review: TCP Maintenance and Minor Extensions (tcpm)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/y6_3aHKYei-Zu8D6rFZ7yvqkiOg/
+  - kind: WG Action
+    date: '2015-04-10'
+    subject: 'WG Action: Rechartered TCP Maintenance and Minor Extensions (tcpm)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/_TRhg8N-UF57A7WI3rMB5fO1nWw/
   - kind: shepherded
     documents:
     - draft-ietf-tcpm-1323bis
@@ -161,14 +185,22 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 81
   evidence:
+  - kind: WG Action
+    date: '2012-06-21'
+    subject: 'WG Action: Rechartered TCP Maintenance and Minor Extensions (tcpm)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/g3x9BlEkXEppk1iFwIk9wbvh0Gw/
   - kind: WG Review
     date: '2015-03-13'
     subject: 'WG Review: TCP Maintenance and Minor Extensions (tcpm)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/y6_3aHKYei-Zu8D6rFZ7yvqkiOg/
+  - kind: WG Action
+    date: '2015-04-10'
+    subject: 'WG Action: Rechartered TCP Maintenance and Minor Extensions (tcpm)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/_TRhg8N-UF57A7WI3rMB5fO1nWw/
   - kind: WG Action
     date: '2020-03-16'
     subject: 'WG Action: Rechartered TCP Maintenance and Minor Extensions (tcpm)'
-    message_id: 158439438323.13741.11606183839173437731@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Q1HpD31mtgdGzuEfeCIHzQOGnsk/
   - kind: session requests
     meetings:
     - '81'
@@ -217,8 +249,8 @@ chairs:
   - kind: WG Review
     date: '2023-12-01'
     subject: 'WG Review: TCP Maintenance and Minor Extensions (tcpm)'
-    message_id: 170145576201.36146.7374432066006641906@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ji8XYhr46LrG5L_g2TlIOu-zTp0/
   - kind: WG Action
     date: '2023-12-15'
     subject: 'WG Action: Rechartered TCP Maintenance and Minor Extensions (tcpm)'
-    message_id: 170267274886.33593.7514698862918142002@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/zyg-CssCjgoWECnq7H7OBmoXNbA/

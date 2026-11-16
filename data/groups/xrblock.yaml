@@ -27,6 +27,21 @@ chairs:
     - draft-ietf-xrblock-rtcp-xr-psi-decodability
     - draft-ietf-xrblock-rtcp-xr-qoe
     - draft-ietf-xrblock-rtcp-xr-video-lc
+- person: 105873
+  name: Roni Even
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2011-01-25'
+    end:
+      certainty: evidence-only
+      not_before: '2011-01-25'
+  evidence:
+  - kind: WG Action
+    date: '2011-01-25'
+    subject: 'WG Action: Metric Blocks for use with RTCP''s Extended Report Framework (XRBLOCK)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/2C5q86N6j1xuGh-fKPucvQWw6kk/
 - person: 107520
   name: Shida Schubert
   status: confirmed

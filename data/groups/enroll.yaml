@@ -13,19 +13,33 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-10-24'
+      date: '2003-11-24'
       not_before: '2003-06-01'
     end:
       certainty: group-closed
       date: '2005-10-24'
+    notes:
+    - start moved earlier by WG Action announcement of 2003-11-24
+  evidence:
+  - kind: WG Action
+    date: '2003-11-24'
+    subject: 'WG Action: Credential and Provisioning (enroll)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/fm1ze_1EyGtTIOPlgekOIK1NmpU/
 - person: 12695
   name: Eric Rescorla
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-10-24'
+      date: '2003-11-24'
       not_before: '2003-06-01'
     end:
       certainty: group-closed
       date: '2005-10-24'
+    notes:
+    - start moved earlier by WG Action announcement of 2003-11-24
+  evidence:
+  - kind: WG Action
+    date: '2003-11-24'
+    subject: 'WG Action: Credential and Provisioning (enroll)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/fm1ze_1EyGtTIOPlgekOIK1NmpU/

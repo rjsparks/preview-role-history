@@ -132,7 +132,10 @@ class Site:
         for ev in entry.get("evidence") or []:
             kind = ev.get("kind")
             if kind in ("WG Action", "WG Review"):
-                items.append(f"<li>{e(kind)} announcement, {e(ev.get('date'))}: “{e(ev.get('subject'))}”</li>")
+                subject = f"“{e(ev.get('subject'))}”"
+                if ev.get("url"):
+                    subject = f'<a href="{e(ev["url"])}">{subject}</a>'
+                items.append(f"<li>{e(kind)} announcement, {e(ev.get('date'))}: {subject}</li>")
             elif kind == "session requests":
                 template = ev.get("url_template", "")
                 links = ", ".join(

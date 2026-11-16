@@ -7,6 +7,21 @@ started: '2000-06-15'
 closed: '2013-03-18'
 history_url: https://datatracker.ietf.org/group/krb-wg/history/
 chairs:
+- person: 22981
+  name: Douglas Engert
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2000-07-18'
+    end:
+      certainty: evidence-only
+      not_before: '2000-07-18'
+  evidence:
+  - kind: WG Action
+    date: '2000-07-18'
+    subject: 'WG Action: Kerberos WG (krb-wg)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/cqSQrka07FrjCDNt_yTkJXQU7yI/
 - person: 103048
   name: Sam Hartman
   status: confirmed
@@ -24,7 +39,7 @@ chairs:
   - kind: WG Action
     date: '2011-06-28'
     subject: 'WG Action: RECHARTER: Kerberos (krb-wg)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/yXSiowB4tl1BNDLCmNdCwRBR_Sk/
   - kind: session requests
     meetings:
     - '82'
@@ -51,15 +66,15 @@ chairs:
   - kind: WG Action
     date: '2007-07-23'
     subject: 'WG Action: RECHARTER: Kerberos (krb-wg)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/kXDHrP2HND4LHYhNAGzqBr_YWqE/
   - kind: WG Action
     date: '2007-08-28'
     subject: 'WG Action: RECHARTER: Kerberos (krb-wg)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ksy3NoHRUkpF4LzREGfX3iI13ts/
   - kind: WG Action
     date: '2011-06-28'
     subject: 'WG Action: RECHARTER: Kerberos (krb-wg)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/yXSiowB4tl1BNDLCmNdCwRBR_Sk/
   - kind: session requests
     meetings:
     - '65'
@@ -103,15 +118,15 @@ chairs:
   - kind: WG Action
     date: '2007-07-23'
     subject: 'WG Action: RECHARTER: Kerberos (krb-wg)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/kXDHrP2HND4LHYhNAGzqBr_YWqE/
   - kind: WG Action
     date: '2007-08-28'
     subject: 'WG Action: RECHARTER: Kerberos (krb-wg)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ksy3NoHRUkpF4LzREGfX3iI13ts/
   - kind: WG Action
     date: '2011-06-28'
     subject: 'WG Action: RECHARTER: Kerberos (krb-wg)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/yXSiowB4tl1BNDLCmNdCwRBR_Sk/
 - person: 107956
   name: Shawn Emery
   status: confirmed

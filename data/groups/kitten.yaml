@@ -13,11 +13,15 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2006-07-09'
+      not_after: '2004-11-03'
     end:
       certainty: evidence-only
       not_before: '2006-11-05'
   evidence:
+  - kind: WG Action
+    date: '2004-11-03'
+    subject: 'WG Action: Kitten (GSS-API Next Generation) (kitten)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/WOTS0VAWy5qIDjS14lbynRNqjcg/
   - kind: session requests
     meetings:
     - '66'
@@ -45,7 +49,7 @@ chairs:
   - kind: WG Action
     date: '2011-06-28'
     subject: 'WG Action: RECHARTER: Common Authentication Technology Next Generation (kitten)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/VSJlkAvehmvXD-9nPj7Ae-GL6ZQ/
   - kind: session requests
     meetings:
     - '69'
@@ -76,15 +80,15 @@ chairs:
   - kind: WG Review
     date: '2010-07-08'
     subject: 'WG Review: Recharter of Common Authentication Technology Next Generation (kitten)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/WFQjpey-iGskdzcm77epbrW0UcU/
   - kind: WG Action
     date: '2010-07-23'
     subject: 'WG Action: RECHARTER: Common Authentication Technology Next Generation (kitten)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/-R5wky9oIwNzc37zfwSGFwSiplM/
   - kind: WG Action
     date: '2011-06-28'
     subject: 'WG Action: RECHARTER: Common Authentication Technology Next Generation (kitten)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/VSJlkAvehmvXD-9nPj7Ae-GL6ZQ/
 - person: 103048
   name: Sam Hartman
   status: confirmed
@@ -99,7 +103,11 @@ chairs:
   - kind: WG Review
     date: '2013-02-12'
     subject: 'WG Review: Common Authentication Technology Next Generation (kitten)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Pdr0mn48QzeBMjtlHtF8qPxb0nk/
+  - kind: WG Action
+    date: '2013-02-26'
+    subject: 'WG Action: Rechartered Common Authentication Technology Next Generation (kitten)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/WPZydEpIbH295wvdxcw6t9Mof6U/
 - person: 107956
   name: Shawn Emery
   status: confirmed
@@ -123,19 +131,23 @@ chairs:
   - kind: WG Review
     date: '2010-07-08'
     subject: 'WG Review: Recharter of Common Authentication Technology Next Generation (kitten)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/WFQjpey-iGskdzcm77epbrW0UcU/
   - kind: WG Action
     date: '2010-07-23'
     subject: 'WG Action: RECHARTER: Common Authentication Technology Next Generation (kitten)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/-R5wky9oIwNzc37zfwSGFwSiplM/
   - kind: WG Action
     date: '2011-06-28'
     subject: 'WG Action: RECHARTER: Common Authentication Technology Next Generation (kitten)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/VSJlkAvehmvXD-9nPj7Ae-GL6ZQ/
   - kind: WG Review
     date: '2013-02-12'
     subject: 'WG Review: Common Authentication Technology Next Generation (kitten)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Pdr0mn48QzeBMjtlHtF8qPxb0nk/
+  - kind: WG Action
+    date: '2013-02-26'
+    subject: 'WG Action: Rechartered Common Authentication Technology Next Generation (kitten)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/WPZydEpIbH295wvdxcw6t9Mof6U/
   - kind: session requests
     meetings:
     - '73'
@@ -161,7 +173,11 @@ chairs:
   - kind: WG Review
     date: '2013-02-12'
     subject: 'WG Review: Common Authentication Technology Next Generation (kitten)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Pdr0mn48QzeBMjtlHtF8qPxb0nk/
+  - kind: WG Action
+    date: '2013-02-26'
+    subject: 'WG Action: Rechartered Common Authentication Technology Next Generation (kitten)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/WPZydEpIbH295wvdxcw6t9Mof6U/
 - person: 111178
   name: Matthew Miller
   status: confirmed

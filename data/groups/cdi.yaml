@@ -13,8 +13,30 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-06-03'
+      date: '2002-02-18'
       not_before: '2001-07-23'
     end:
       certainty: group-closed
       date: '2003-06-03'
+    notes:
+    - start moved earlier by WG Action announcement of 2002-02-18
+  evidence:
+  - kind: WG Action
+    date: '2002-02-18'
+    subject: 'WG ACTION: Content Distribution Internetworking (cdi)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/dX395miTXNZB1ejMw9li2j_tm8k/
+- person: 104857
+  name: Phillip Rzewski
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2002-02-18'
+    end:
+      certainty: evidence-only
+      not_before: '2002-02-18'
+  evidence:
+  - kind: WG Action
+    date: '2002-02-18'
+    subject: 'WG ACTION: Content Distribution Internetworking (cdi)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/dX395miTXNZB1ejMw9li2j_tm8k/

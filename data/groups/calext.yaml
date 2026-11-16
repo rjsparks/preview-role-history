@@ -18,6 +18,10 @@ chairs:
       certainty: exact
       date: '2019-03-23'
   evidence:
+  - kind: WG Action
+    date: '2014-08-28'
+    subject: 'WG Action: Formed Calendaring Extensions (calext)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/fA9YTyL5mDGZdeMtl81rFmj2ggk/
   - kind: shepherded
     documents:
     - draft-ietf-calext-rscale
@@ -34,11 +38,11 @@ chairs:
   - kind: WG Review
     date: '2022-02-04'
     subject: 'WG Review: Calendaring Extensions (calext)'
-    message_id: 164400233323.5527.10604273066672069901@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/J3q2iq8oWmw2oY9NNuEQt3IA1qE/
   - kind: WG Action
     date: '2022-03-02'
     subject: 'WG Action: Rechartered Calendaring Extensions (calext)'
-    message_id: 164623047380.18070.325303714068082558@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/zJu4Xj8hyoeKqJllDMTPffVh-44/
   - kind: shepherded
     documents:
     - draft-ietf-calext-availability
@@ -77,6 +81,11 @@ chairs:
     end:
       certainty: exact
       date: '2016-05-06'
+  evidence:
+  - kind: WG Action
+    date: '2014-08-28'
+    subject: 'WG Action: Formed Calendaring Extensions (calext)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/fA9YTyL5mDGZdeMtl81rFmj2ggk/
 - person: 122671
   name: Bron Gondwana
   status: confirmed
@@ -90,11 +99,11 @@ chairs:
   - kind: WG Review
     date: '2022-02-04'
     subject: 'WG Review: Calendaring Extensions (calext)'
-    message_id: 164400233323.5527.10604273066672069901@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/J3q2iq8oWmw2oY9NNuEQt3IA1qE/
   - kind: WG Action
     date: '2022-03-02'
     subject: 'WG Action: Rechartered Calendaring Extensions (calext)'
-    message_id: 164623047380.18070.325303714068082558@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/zJu4Xj8hyoeKqJllDMTPffVh-44/
   - kind: shepherded
     documents:
     - draft-ietf-calext-caldav-attachments

@@ -13,11 +13,18 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-04-05'
+      date: '2000-09-11'
       not_before: '2000-08-21'
     end:
       certainty: group-closed
       date: '2006-04-05'
+    notes:
+    - start moved earlier by WG Action announcement of 2000-09-11
+  evidence:
+  - kind: WG Action
+    date: '2000-09-11'
+    subject: 'WG Action: Kerberized Internet Negotiation of Keys (kink)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/VAO3F4fmor36fCBTwk6oaIJxiQQ/
 - person: 19586
   name: Jonathan Trostle
   status: confirmed

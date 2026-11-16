@@ -13,8 +13,42 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2008-05-30'
+      date: '2002-08-01'
       not_before: '2002-06-14'
     end:
       certainty: group-closed
       date: '2008-05-30'
+    notes:
+    - start moved earlier by WG Action announcement of 2002-08-01
+  evidence:
+  - kind: WG Action
+    date: '2002-08-01'
+    subject: 'WG Action: Extensible Authentication Protocol (eap)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/g392MIA6_BULS8TqHWqXL008oPU/
+  - kind: WG Action
+    date: '2004-06-16'
+    subject: 'WG Action: RECHARTER: Extensible Authentication Protocol (eap)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/gK70WqQXo0DlheofP7Pc3PCIPgg/
+- person: 21072
+  name: Jari Arkko
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2002-08-01'
+    end:
+      certainty: evidence-only
+      not_before: '2006-03-19'
+  evidence:
+  - kind: WG Action
+    date: '2002-08-01'
+    subject: 'WG Action: Extensible Authentication Protocol (eap)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/g392MIA6_BULS8TqHWqXL008oPU/
+  - kind: WG Action
+    date: '2004-06-16'
+    subject: 'WG Action: RECHARTER: Extensible Authentication Protocol (eap)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/gK70WqQXo0DlheofP7Pc3PCIPgg/
+  - kind: session requests
+    meetings:
+    - '65'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

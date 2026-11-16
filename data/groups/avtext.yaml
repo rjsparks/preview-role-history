@@ -32,12 +32,18 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2011-01-25'
       not_before: '2010-12-03'
     end:
       certainty: exact
       date: '2013-01-11'
+    notes:
+    - start moved earlier by WG Action announcement of 2011-01-25
   evidence:
+  - kind: WG Action
+    date: '2011-01-25'
+    subject: 'WG Action: Audio/Video Transport Extensions (AVTEXT)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/KSkpUe5SYXgkjfT6qL3RziUxemM/
   - kind: shepherded
     documents:
     - draft-ietf-avtext-splicing-for-rtp
@@ -47,14 +53,18 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-03-27'
+      date: '2011-01-25'
       not_before: '2010-12-03'
     end:
       certainty: exact
       date: '2015-11-05'
     notes:
-    - start moved earlier by session request for IETF 80
+    - start moved earlier by WG Action announcement of 2011-01-25
   evidence:
+  - kind: WG Action
+    date: '2011-01-25'
+    subject: 'WG Action: Audio/Video Transport Extensions (AVTEXT)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/KSkpUe5SYXgkjfT6qL3RziUxemM/
   - kind: session requests
     meetings:
     - '80'

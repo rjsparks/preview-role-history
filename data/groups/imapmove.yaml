@@ -17,6 +17,11 @@ chairs:
     end:
       certainty: group-closed
       date: '2013-01-30'
+  evidence:
+  - kind: WG Action
+    date: '2012-06-26'
+    subject: 'WG Action: Formed IMAP MOVE extension (imapmove)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/fEq49B-Eyxpf1lK-qnL6lAzrmrk/
 - person: 102154
   name: Alexey Melnikov
   status: confirmed
@@ -28,6 +33,10 @@ chairs:
       certainty: group-closed
       date: '2013-01-30'
   evidence:
+  - kind: WG Action
+    date: '2012-06-26'
+    subject: 'WG Action: Formed IMAP MOVE extension (imapmove)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/fEq49B-Eyxpf1lK-qnL6lAzrmrk/
   - kind: shepherded
     documents:
     - draft-ietf-imapmove-command

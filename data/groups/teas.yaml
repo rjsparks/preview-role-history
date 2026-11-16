@@ -19,6 +19,18 @@ chairs:
       certainty: exact
       date: '2024-07-25'
   evidence:
+  - kind: WG Review
+    date: '2014-11-25'
+    subject: 'WG Review: Traffic Engineering Architecture and Signaling (teas)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/K8YRRBxOTw1Lly_a5eLRisRYfRM/
+  - kind: WG Action
+    date: '2014-12-05'
+    subject: 'WG Action: Formed Traffic Engineering Architecture and Signaling (teas)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/gHkgCrPh7p1ryaEFHnWy2CTmYMc/
+  - kind: WG Action
+    date: '2018-12-13'
+    subject: 'WG Action: Rechartered Traffic Engineering Architecture and Signaling (teas)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/h1sW54nsO-Bz1HXLEAOao24iBAQ/
   - kind: shepherded
     documents:
     - draft-bestbar-teas-ns-packet
@@ -53,6 +65,14 @@ chairs:
       certainty: exact
       date: '2015-03-04'
   evidence:
+  - kind: WG Review
+    date: '2014-11-25'
+    subject: 'WG Review: Traffic Engineering Architecture and Signaling (teas)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/K8YRRBxOTw1Lly_a5eLRisRYfRM/
+  - kind: WG Action
+    date: '2014-12-05'
+    subject: 'WG Action: Formed Traffic Engineering Architecture and Signaling (teas)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/gHkgCrPh7p1ryaEFHnWy2CTmYMc/
   - kind: shepherded
     documents:
     - draft-ietf-ccamp-mpls-tp-rsvpte-ext-associated-lsp
@@ -85,6 +105,10 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: WG Action
+    date: '2018-12-13'
+    subject: 'WG Action: Rechartered Traffic Engineering Architecture and Signaling (teas)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/h1sW54nsO-Bz1HXLEAOao24iBAQ/
   - kind: shepherded
     documents:
     - draft-ietf-teas-5g-ns-ip-mpls

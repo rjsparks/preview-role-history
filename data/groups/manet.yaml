@@ -13,14 +13,22 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-11-05'
+      date: '2003-02-26'
       not_before: '1997-06-02'
     end:
       certainty: exact
       date: '2014-11-13'
     notes:
-    - start moved earlier by session request for IETF 67
+    - start moved earlier by WG Action announcement of 2003-02-26
   evidence:
+  - kind: WG Action
+    date: '2003-02-26'
+    subject: 'WG Action: RECHARTER: Mobile Ad-hoc Networks (manet)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/jscnvqKbrG1vjYLVwlkexgGf5AM/
+  - kind: WG Action
+    date: '2005-01-12'
+    subject: 'WG Action: RECHARTER: Mobile Ad-hoc Networks (manet)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/D_2cMzGhRu9bWqihzSh6nGO4Z34/
   - kind: session requests
     meetings:
     - '67'
@@ -34,6 +42,21 @@ chairs:
     - draft-ietf-manet-nhdp-olsrv2-sec
     - draft-ietf-manet-nhdp-sec-threats
     - draft-ietf-manet-rfc6622-bis
+- person: 19037
+  name: Scott Corson
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2003-02-26'
+    end:
+      certainty: evidence-only
+      not_before: '2003-02-26'
+  evidence:
+  - kind: WG Action
+    date: '2003-02-26'
+    subject: 'WG Action: RECHARTER: Mobile Ad-hoc Networks (manet)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/jscnvqKbrG1vjYLVwlkexgGf5AM/
 - person: 19150
   name: Stan Ratliff
   status: confirmed
@@ -46,6 +69,14 @@ chairs:
       certainty: exact
       date: '2019-11-20'
   evidence:
+  - kind: WG Review
+    date: '2016-06-20'
+    subject: 'WG Review: Mobile Ad-hoc Networks (manet)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/HfZq8tqb6TaTQrDXg20IsuPWNnw/
+  - kind: WG Action
+    date: '2016-07-01'
+    subject: 'WG Action: Rechartered Mobile Ad-hoc Networks (manet)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/5hkVGGen1ag7EHzqEt6oQI3gyzU/
   - kind: shepherded
     documents:
     - draft-ietf-manet-dlep-multi-hop-extension
@@ -100,6 +131,14 @@ chairs:
       certainty: exact
       date: '2019-07-31'
   evidence:
+  - kind: WG Review
+    date: '2016-06-20'
+    subject: 'WG Review: Mobile Ad-hoc Networks (manet)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/HfZq8tqb6TaTQrDXg20IsuPWNnw/
+  - kind: WG Action
+    date: '2016-07-01'
+    subject: 'WG Action: Rechartered Mobile Ad-hoc Networks (manet)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/5hkVGGen1ag7EHzqEt6oQI3gyzU/
   - kind: shepherded
     documents:
     - draft-ietf-manet-credit-window

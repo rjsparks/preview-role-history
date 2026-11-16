@@ -37,18 +37,22 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-11-04'
+      date: '2004-07-14'
       not_before: '2001-03-29'
     end:
       certainty: group-closed
       date: '2009-05-01'
     notes:
-    - start moved earlier by WG Action announcement of 2005-11-04
+    - start moved earlier by WG Action announcement of 2004-07-14
   evidence:
+  - kind: WG Action
+    date: '2004-07-14'
+    subject: 'WG Action: RECHARTER: Session Initiation Proposal Investigation (sipping)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/8geLVfuTL_ndYTiUkHWICkSnIQE/
   - kind: WG Action
     date: '2005-11-04'
     subject: 'WG Action: RECHARTER: Session Initiation Proposal Investigation (sipping)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/iMs2Erc8Zl49Yak5HbavfNf9xyI/
   - kind: session requests
     meetings:
     - '66'
@@ -60,31 +64,62 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2005-11-04'
+      not_after: '2001-11-02'
     end:
       certainty: evidence-only
       not_before: '2006-03-19'
   evidence:
   - kind: WG Action
+    date: '2001-11-02'
+    subject: 'WG ACTION: Session Initiation Proposal Investigation (sipping)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/r4odUeai6pe0U9RfWb0hifb_CYU/
+  - kind: WG Action
+    date: '2004-07-14'
+    subject: 'WG Action: RECHARTER: Session Initiation Proposal Investigation (sipping)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/8geLVfuTL_ndYTiUkHWICkSnIQE/
+  - kind: WG Action
     date: '2005-11-04'
     subject: 'WG Action: RECHARTER: Session Initiation Proposal Investigation (sipping)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/iMs2Erc8Zl49Yak5HbavfNf9xyI/
   - kind: session requests
     meetings:
     - '65'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 106987
+  name: Brian Rosen
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2001-11-02'
+    end:
+      certainty: evidence-only
+      not_before: '2001-11-02'
+  evidence:
+  - kind: WG Action
+    date: '2001-11-02'
+    subject: 'WG ACTION: Session Initiation Proposal Investigation (sipping)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/r4odUeai6pe0U9RfWb0hifb_CYU/
 - person: 129485
   name: Rohan Mahy
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2005-11-04'
+      not_after: '2001-11-02'
     end:
       certainty: evidence-only
       not_before: '2005-11-04'
   evidence:
   - kind: WG Action
+    date: '2001-11-02'
+    subject: 'WG ACTION: Session Initiation Proposal Investigation (sipping)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/r4odUeai6pe0U9RfWb0hifb_CYU/
+  - kind: WG Action
+    date: '2004-07-14'
+    subject: 'WG Action: RECHARTER: Session Initiation Proposal Investigation (sipping)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/8geLVfuTL_ndYTiUkHWICkSnIQE/
+  - kind: WG Action
     date: '2005-11-04'
     subject: 'WG Action: RECHARTER: Session Initiation Proposal Investigation (sipping)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/iMs2Erc8Zl49Yak5HbavfNf9xyI/

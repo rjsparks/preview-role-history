@@ -13,12 +13,18 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2011-11-07'
       not_before: '2011-09-13'
     end:
       certainty: group-closed
       date: '2013-11-22'
+    notes:
+    - start moved earlier by WG Action announcement of 2011-11-07
   evidence:
+  - kind: WG Action
+    date: '2011-11-07'
+    subject: 'WG Action: Reputation Services (REPUTE)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ZN6P5Xu05C70Hl5tWoQ21AfMoUA/
   - kind: shepherded
     documents:
     - draft-ietf-repute-email-identifiers
@@ -31,8 +37,15 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2011-11-07'
       not_before: '2011-09-13'
     end:
       certainty: group-closed
       date: '2013-11-22'
+    notes:
+    - start moved earlier by WG Action announcement of 2011-11-07
+  evidence:
+  - kind: WG Action
+    date: '2011-11-07'
+    subject: 'WG Action: Reputation Services (REPUTE)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ZN6P5Xu05C70Hl5tWoQ21AfMoUA/

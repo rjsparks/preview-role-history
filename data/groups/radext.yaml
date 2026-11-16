@@ -13,19 +13,23 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2006-03-19'
+      not_after: '2004-07-14'
     end:
       certainty: evidence-only
       not_before: '2009-07-26'
   evidence:
+  - kind: WG Action
+    date: '2004-07-14'
+    subject: 'WG Action: RADIUS Extensions (radext)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/EjqHnSsDq76G7Wu6zxqCE1w06j0/
   - kind: WG Review
     date: '2008-05-13'
     subject: 'WG Review: Recharter of RADIUS Extensions Working Group (radext)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/9bwe1opM8iuuqkt5fV-RHlXs838/
   - kind: WG Action
     date: '2008-07-09'
     subject: 'WG Action: RECHARTER: RADIUS Extensions Working Group (radext)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/on33zLVyQCr0Bq1ItbSfPI6Jg58/
   - kind: session requests
     meetings:
     - '65'
@@ -46,19 +50,23 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2008-05-13'
+      not_after: '2004-07-14'
     end:
       certainty: evidence-only
       not_before: '2010-03-21'
   evidence:
+  - kind: WG Action
+    date: '2004-07-14'
+    subject: 'WG Action: RADIUS Extensions (radext)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/EjqHnSsDq76G7Wu6zxqCE1w06j0/
   - kind: WG Review
     date: '2008-05-13'
     subject: 'WG Review: Recharter of RADIUS Extensions Working Group (radext)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/9bwe1opM8iuuqkt5fV-RHlXs838/
   - kind: WG Action
     date: '2008-07-09'
     subject: 'WG Action: RECHARTER: RADIUS Extensions Working Group (radext)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/on33zLVyQCr0Bq1ItbSfPI6Jg58/
   - kind: session requests
     meetings:
     - '77'
@@ -76,19 +84,19 @@ chairs:
   - kind: WG Review
     date: '2023-02-17'
     subject: 'WG Review: RADIUS EXTensions (radext)'
-    message_id: 167665919318.19067.15793841454678347039@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/xP_lS2tPgUENK5uAA4f_ZmG1gVM/
   - kind: WG Action
     date: '2023-03-25'
     subject: 'WG Action: Rechartered RADIUS EXTensions (radext)'
-    message_id: 167971623124.58360.13301431555131386806@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/NcI5SyfhjDfuXSXwAccmHsjsfvE/
   - kind: WG Review
     date: '2026-07-22'
     subject: 'WG Review: RADIUS EXTensions (radext)'
-    message_id: 178472882287.526045.5831393899938788836@dt-datatracker-d4d6ff9d9-fsx7d
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Ah5Q7aTfarne-LrLzgJiSW4qTqc/
   - kind: WG Action
     date: '2026-09-21'
     subject: 'WG Action: Rechartered RADIUS EXTensions (radext)'
-    message_id: 179001446551.280018.11995458657396047437@dt-datatracker-fffdbdc97-wjd6q
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/wA964IMtN9AiRosLaPBHp_ixzo4/
   - kind: shepherded
     documents:
     - draft-ietf-radext-radiusdtls-bis
@@ -105,6 +113,10 @@ chairs:
       certainty: approximate
       date: '2022-03-23'
   evidence:
+  - kind: WG Action
+    date: '2015-07-10'
+    subject: 'WG Action: Rechartered RADIUS EXTensions (radext)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/5NV5Flq23pzCYGr8bL91-A_x3fI/
   - kind: shepherded
     documents:
     - draft-ietf-radext-ip-port-radius-ext
@@ -119,6 +131,10 @@ chairs:
       certainty: approximate
       date: '2022-03-23'
   evidence:
+  - kind: WG Action
+    date: '2015-07-10'
+    subject: 'WG Action: Rechartered RADIUS EXTensions (radext)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/5NV5Flq23pzCYGr8bL91-A_x3fI/
   - kind: shepherded
     documents:
     - draft-ietf-radext-bigger-packets
@@ -138,6 +154,10 @@ chairs:
       certainty: exact
       date: '2015-01-05'
   evidence:
+  - kind: WG Action
+    date: '2012-12-04'
+    subject: 'WG Action: Rechartered RADIUS EXTensions (radext)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/zA3JkCLpZwWNDE09egISxjYYaxo/
   - kind: shepherded
     documents:
     - draft-ietf-radext-dtls
@@ -160,6 +180,10 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 79
   evidence:
+  - kind: WG Action
+    date: '2012-12-04'
+    subject: 'WG Action: Rechartered RADIUS EXTensions (radext)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/zA3JkCLpZwWNDE09egISxjYYaxo/
   - kind: session requests
     meetings:
     - '79'
@@ -180,19 +204,19 @@ chairs:
   - kind: WG Review
     date: '2023-02-17'
     subject: 'WG Review: RADIUS EXTensions (radext)'
-    message_id: 167665919318.19067.15793841454678347039@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/xP_lS2tPgUENK5uAA4f_ZmG1gVM/
   - kind: WG Action
     date: '2023-03-25'
     subject: 'WG Action: Rechartered RADIUS EXTensions (radext)'
-    message_id: 167971623124.58360.13301431555131386806@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/NcI5SyfhjDfuXSXwAccmHsjsfvE/
   - kind: WG Review
     date: '2026-07-22'
     subject: 'WG Review: RADIUS EXTensions (radext)'
-    message_id: 178472882287.526045.5831393899938788836@dt-datatracker-d4d6ff9d9-fsx7d
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Ah5Q7aTfarne-LrLzgJiSW4qTqc/
   - kind: WG Action
     date: '2026-09-21'
     subject: 'WG Action: Rechartered RADIUS EXTensions (radext)'
-    message_id: 179001446551.280018.11995458657396047437@dt-datatracker-fffdbdc97-wjd6q
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/wA964IMtN9AiRosLaPBHp_ixzo4/
   - kind: shepherded
     documents:
     - draft-ietf-radext-deprecating-radius

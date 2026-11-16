@@ -24,8 +24,15 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-03-15'
+      date: '2000-01-26'
       not_before: '1999-11-16'
     end:
       certainty: group-closed
       date: '2005-03-15'
+    notes:
+    - start moved earlier by WG Action announcement of 2000-01-26
+  evidence:
+  - kind: WG Action
+    date: '2000-01-26'
+    subject: 'WG Action: IP Security Policy (ipsp)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/ViQ5GiUjH9aY_0gT573XJg63f94/

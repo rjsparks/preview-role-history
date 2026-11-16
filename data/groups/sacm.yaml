@@ -18,6 +18,18 @@ chairs:
       certainty: group-closed
       date: '2022-07-20'
   evidence:
+  - kind: WG Action
+    date: '2016-08-05'
+    subject: 'WG Action: Rechartered Security Automation and Continuous Monitoring (sacm)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/y3M6qMA6n_BaePLCxsGtgaUmqOY/
+  - kind: WG Review
+    date: '2017-11-17'
+    subject: 'WG Review: Security Automation and Continuous Monitoring (sacm)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/D6niEcGEsuA4y6vPKSRGLK8oV6M/
+  - kind: WG Action
+    date: '2018-01-24'
+    subject: 'WG Action: Rechartered Security Automation and Continuous Monitoring (sacm)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/BVvdABx-0dPDGuSBWzvHYFB0Lxk/
   - kind: shepherded
     documents:
     - draft-ietf-sacm-epcp
@@ -38,7 +50,15 @@ chairs:
   - kind: WG Review
     date: '2013-06-28'
     subject: 'WG Review: Security Automation and Continuous Monitoring (sacm)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/EWWoNiiILb2gT6Z_IK80KPzuSM0/
+  - kind: WG Review
+    date: '2013-06-28'
+    subject: 'UPDATED WG Review: Security Automation and Continuous Monitoring (sacm)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/DM5pCW7wq6Koj1AwoLc6XSp8Pxo/
+  - kind: WG Action
+    date: '2013-07-12'
+    subject: 'WG Action: Formed Security Automation and Continuous Monitoring (sacm)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/klxl3UfK60md-die0tgUR86MJVk/
   - kind: shepherded
     documents:
     - draft-ietf-sacm-use-cases
@@ -57,7 +77,7 @@ chairs:
   - kind: WG Review
     date: '2013-06-28'
     subject: 'WG Review: Security Automation and Continuous Monitoring (sacm)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/EWWoNiiILb2gT6Z_IK80KPzuSM0/
 - person: 113536
   name: Christopher Inacio
   status: confirmed
@@ -69,6 +89,14 @@ chairs:
       certainty: group-closed
       date: '2022-07-20'
   evidence:
+  - kind: WG Review
+    date: '2017-11-17'
+    subject: 'WG Review: Security Automation and Continuous Monitoring (sacm)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/D6niEcGEsuA4y6vPKSRGLK8oV6M/
+  - kind: WG Action
+    date: '2018-01-24'
+    subject: 'WG Action: Rechartered Security Automation and Continuous Monitoring (sacm)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/BVvdABx-0dPDGuSBWzvHYFB0Lxk/
   - kind: shepherded
     documents:
     - draft-ietf-sacm-coswid
@@ -83,6 +111,26 @@ chairs:
       certainty: exact
       date: '2018-03-26'
   evidence:
+  - kind: WG Review
+    date: '2013-06-28'
+    subject: 'UPDATED WG Review: Security Automation and Continuous Monitoring (sacm)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/DM5pCW7wq6Koj1AwoLc6XSp8Pxo/
+  - kind: WG Action
+    date: '2013-07-12'
+    subject: 'WG Action: Formed Security Automation and Continuous Monitoring (sacm)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/klxl3UfK60md-die0tgUR86MJVk/
+  - kind: WG Action
+    date: '2016-08-05'
+    subject: 'WG Action: Rechartered Security Automation and Continuous Monitoring (sacm)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/y3M6qMA6n_BaePLCxsGtgaUmqOY/
+  - kind: WG Review
+    date: '2017-11-17'
+    subject: 'WG Review: Security Automation and Continuous Monitoring (sacm)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/D6niEcGEsuA4y6vPKSRGLK8oV6M/
+  - kind: WG Action
+    date: '2018-01-24'
+    subject: 'WG Action: Rechartered Security Automation and Continuous Monitoring (sacm)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/BVvdABx-0dPDGuSBWzvHYFB0Lxk/
   - kind: shepherded
     documents:
     - draft-ietf-sacm-vuln-scenario

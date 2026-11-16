@@ -18,6 +18,11 @@ chairs:
     end:
       certainty: exact
       date: '2020-02-12'
+  evidence:
+  - kind: WG Review
+    date: '2020-02-11'
+    subject: 'WG Review: Drone Remote ID Protocol (drip)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/UgvzJp5vAs8O-xHgAZ8R8nO0UHo/
 - person: 106842
   name: Murray Kucherawy
   status: confirmed
@@ -40,6 +45,14 @@ chairs:
       certainty: group-closed
       date: '2026-06-09'
   evidence:
+  - kind: WG Review
+    date: '2020-02-11'
+    subject: 'WG Review: Drone Remote ID Protocol (drip)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/UgvzJp5vAs8O-xHgAZ8R8nO0UHo/
+  - kind: WG Action
+    date: '2020-02-21'
+    subject: 'WG Action: Formed Drone Remote ID Protocol (drip)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/wvdO4UmtjEo_ffsnk0CYAu8BLiY/
   - kind: shepherded
     documents:
     - draft-ietf-drip-arch

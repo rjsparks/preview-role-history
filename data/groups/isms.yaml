@@ -35,15 +35,15 @@ chairs:
   - kind: WG Action
     date: '2005-10-25'
     subject: 'WG Action: RECHARTER: Integrated Security Model for SNMP (isms)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/cNklkIsQIO5lIgW1_AtJxGN13kU/
   - kind: WG Review
     date: '2009-06-25'
     subject: 'WG Review: Recharter of Integrated Security Model for SNMP (isms)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/-zKV782akUh8oT-MfJ3lkOchekg/
   - kind: WG Action
     date: '2009-07-07'
     subject: 'WG Action: RECHARTER: Integrated Security Model for SNMP (isms)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/0r30aDDXIQlBeumPlf4ifON_OQE/
   - kind: session requests
     meetings:
     - '72'
@@ -54,21 +54,48 @@ chairs:
     - '77'
     - '79'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 101216
+  name: Ken Hornstein
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2004-09-23'
+    end:
+      certainty: evidence-only
+      not_before: '2005-09-07'
+  evidence:
+  - kind: WG Action
+    date: '2004-09-23'
+    subject: 'WG Action: Integrated Security Model for SNMP (isms)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/SARMdmHfagOF6z9DQyxFkrgtYSQ/
+  - kind: WG Review
+    date: '2005-09-07'
+    subject: 'WG Review: Recharter of Integrated Security Model for SNMP (isms)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Tng5_g805PGzr2a8kUsC_JBQhPE/
 - person: 103651
   name: Juergen Quittek
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2005-10-25'
+      not_after: '2004-09-23'
     end:
       certainty: evidence-only
       not_before: '2007-07-22'
   evidence:
   - kind: WG Action
+    date: '2004-09-23'
+    subject: 'WG Action: Integrated Security Model for SNMP (isms)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/SARMdmHfagOF6z9DQyxFkrgtYSQ/
+  - kind: WG Review
+    date: '2005-09-07'
+    subject: 'WG Review: Recharter of Integrated Security Model for SNMP (isms)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Tng5_g805PGzr2a8kUsC_JBQhPE/
+  - kind: WG Action
     date: '2005-10-25'
     subject: 'WG Action: RECHARTER: Integrated Security Model for SNMP (isms)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/cNklkIsQIO5lIgW1_AtJxGN13kU/
   - kind: session requests
     meetings:
     - '65'

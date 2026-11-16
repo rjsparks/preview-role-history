@@ -13,12 +13,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2011-01-25'
       not_before: '2010-12-03'
     end:
       certainty: between
       not_before: '2011-12-09'
       not_after: '2013-03-13'
+    notes:
+    - start moved earlier by WG Action announcement of 2011-01-25
   - start:
       certainty: between
       not_before: '2011-12-09'
@@ -27,6 +29,10 @@ chairs:
       certainty: group-closed
       date: '2019-09-20'
   evidence:
+  - kind: WG Action
+    date: '2011-01-25'
+    subject: 'WG Action: Audio/Video Transport Payloads (PAYLOAD)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/CIfeAPmm1X8KPoMk6NzSgVRYyp4/
   - kind: shepherded
     documents:
     - draft-ietf-avt-rtp-evrc-nw
@@ -46,12 +52,18 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2011-01-25'
       not_before: '2010-12-03'
     end:
       certainty: group-closed
       date: '2019-09-20'
+    notes:
+    - start moved earlier by WG Action announcement of 2011-01-25
   evidence:
+  - kind: WG Action
+    date: '2011-01-25'
+    subject: 'WG Action: Audio/Video Transport Payloads (PAYLOAD)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/CIfeAPmm1X8KPoMk6NzSgVRYyp4/
   - kind: shepherded
     documents:
     - draft-ietf-payload-rtp-ancillary

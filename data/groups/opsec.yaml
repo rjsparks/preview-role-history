@@ -7,6 +7,25 @@ started: '2003-06-01'
 closed: '2024-08-05'
 history_url: https://datatracker.ietf.org/group/opsec/history/
 chairs:
+- person: 2723
+  name: Ross Callon
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2004-10-14'
+    end:
+      certainty: evidence-only
+      not_before: '2006-03-19'
+  evidence:
+  - kind: WG Action
+    date: '2004-10-14'
+    subject: 'WG Action: Operational Security Capabilities for IP Network Infrastructure (opsec)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/uJKKF8RhxINbf6DDBBJFgp_kBDs/
+  - kind: session requests
+    meetings:
+    - '65'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
 - person: 20959
   name: Joel Jaeggli
   status: unconfirmed
@@ -22,7 +41,7 @@ chairs:
     date: '2008-09-02'
     subject: 'WG Review: Recharter of Operational Security Capabilities for IP Network Infrastructure
       (opsec)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/JsCxtmGkxqP3Y-jtXUZZKaleuso/
   - kind: session requests
     meetings:
     - '72'
@@ -71,7 +90,11 @@ chairs:
   - kind: WG Review
     date: '2013-10-15'
     subject: 'WG Review: Operational Security Capabilities for IP Network Infrastructure (opsec)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/iKSwFGg6jFOTXzadXJNyKulNQnI/
+  - kind: WG Action
+    date: '2013-12-04'
+    subject: 'WG Action: Rechartered Operational Security Capabilities for IP Network Infrastructure (opsec)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/LoZnAQpGGtEKPoaaDtKdHwpuKAs/
   - kind: shepherded
     documents:
     - draft-ietf-opsec-bgp-security
@@ -92,7 +115,11 @@ chairs:
   - kind: WG Review
     date: '2013-10-15'
     subject: 'WG Review: Operational Security Capabilities for IP Network Infrastructure (opsec)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/iKSwFGg6jFOTXzadXJNyKulNQnI/
+  - kind: WG Action
+    date: '2013-12-04'
+    subject: 'WG Action: Rechartered Operational Security Capabilities for IP Network Infrastructure (opsec)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/LoZnAQpGGtEKPoaaDtKdHwpuKAs/
   - kind: shepherded
     documents:
     - draft-ietf-opsec-dhcpv6-shield
@@ -114,7 +141,11 @@ chairs:
   - kind: WG Review
     date: '2013-10-15'
     subject: 'WG Review: Operational Security Capabilities for IP Network Infrastructure (opsec)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/iKSwFGg6jFOTXzadXJNyKulNQnI/
+  - kind: WG Action
+    date: '2013-12-04'
+    subject: 'WG Action: Rechartered Operational Security Capabilities for IP Network Infrastructure (opsec)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/LoZnAQpGGtEKPoaaDtKdHwpuKAs/
   - kind: session requests
     meetings:
     - '82'

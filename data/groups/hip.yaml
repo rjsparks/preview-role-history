@@ -13,14 +13,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-07-23'
+      date: '2004-03-24'
       not_before: '2004-02-05'
     end:
       certainty: between
       not_before: '2011-12-09'
       not_after: '2013-03-13'
     notes:
-    - start moved earlier by WG Action announcement of 2010-07-23
+    - start moved earlier by WG Action announcement of 2004-03-24
   - start:
       certainty: between
       not_before: '2011-12-09'
@@ -30,44 +30,52 @@ chairs:
       not_before: '2011-12-09'
       not_after: '2013-03-13'
   evidence:
+  - kind: WG Action
+    date: '2004-03-24'
+    subject: 'WG Action: Host Identity Protocol (hip)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/qqfa9Kvpq_SYnCn-A7PtASN8At8/
   - kind: WG Review
     date: '2006-10-17'
     subject: 'WG Review: Recharter of Host Identity Protocol (hip)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ZhzBoXewTXhDKLdOaZe5Waw7bHE/
   - kind: WG Review
     date: '2010-07-12'
     subject: 'WG Review: Recharter of Host Identity Protocol (hip)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/46yvRQEIJajBiNYliRr4klneRZM/
   - kind: WG Action
     date: '2010-07-23'
     subject: 'WG Action: RECHARTER: Host Identity Protocol (hip)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/to-RcO9TjVBxLJEpo2K4SilFxU0/
 - person: 103539
   name: Gonzalo Camarillo
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2004-03-24'
       not_before: '2004-02-05'
     end:
       certainty: group-closed
       date: '2021-08-23'
     notes:
-    - start moved earlier by session request for IETF 65
+    - start moved earlier by WG Action announcement of 2004-03-24
   evidence:
+  - kind: WG Action
+    date: '2004-03-24'
+    subject: 'WG Action: Host Identity Protocol (hip)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/qqfa9Kvpq_SYnCn-A7PtASN8At8/
   - kind: WG Review
     date: '2006-10-17'
     subject: 'WG Review: Recharter of Host Identity Protocol (hip)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ZhzBoXewTXhDKLdOaZe5Waw7bHE/
   - kind: WG Review
     date: '2010-07-12'
     subject: 'WG Review: Recharter of Host Identity Protocol (hip)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/46yvRQEIJajBiNYliRr4klneRZM/
   - kind: WG Action
     date: '2010-07-23'
     subject: 'WG Action: RECHARTER: Host Identity Protocol (hip)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/to-RcO9TjVBxLJEpo2K4SilFxU0/
   - kind: session requests
     meetings:
     - '65'

@@ -7,6 +7,21 @@ started: '2000-06-26'
 closed: '2003-09-30'
 history_url: https://datatracker.ietf.org/group/itrace/history/
 chairs:
+- person: 5797
+  name: Steven Bellovin
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2000-07-18'
+    end:
+      certainty: evidence-only
+      not_before: '2000-07-18'
+  evidence:
+  - kind: WG Action
+    date: '2000-07-18'
+    subject: 'WG Action: ICMP Traceback (itrace)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/gLBii2qVSwYtLicpOHed2_4D-Qg/
 - person: 15758
   name: Marcus Leech
   status: confirmed

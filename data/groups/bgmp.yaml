@@ -13,11 +13,18 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-06-24'
+      date: '1999-08-31'
       not_before: '1999-06-03'
     end:
       certainty: group-closed
       date: '2004-06-24'
+    notes:
+    - start moved earlier by WG Action announcement of 1999-08-31
+  evidence:
+  - kind: WG Action
+    date: '1999-08-31'
+    subject: 'WG ACTION: Border Gateway Multicast Protocol (bgmp)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/7F5bgJLIRh786imH_aTy0Jw237g/
 - person: 18382
   name: Bradley Cain
   status: confirmed

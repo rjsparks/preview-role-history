@@ -13,19 +13,27 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2007-10-09'
+      not_after: '2003-02-26'
     end:
       certainty: evidence-only
       not_before: '2008-07-27'
   evidence:
+  - kind: WG Action
+    date: '2003-02-26'
+    subject: 'WG Action: Dynamic Host Configuration (dhc)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/S6M-S3h-jvT_j8mJEVuuS5xdvs0/
+  - kind: WG Action
+    date: '2004-06-30'
+    subject: 'WG Action: RECHARTER: Dynamic Host Configuration (dhc)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/AJGzRchlsb6cUtA88J-hY8gpvAs/
   - kind: WG Review
     date: '2007-10-09'
     subject: 'WG Review: Recharter of Dynamic Host Configuration WG (dhc)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/UMT7KhRxUUeFSPiAOgDqK2xfZNI/
   - kind: WG Action
     date: '2007-10-23'
     subject: 'WG Action: RECHARTER: Dynamic Host Configuration WG (dhc)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/G7zYG3myD_loV97JOTT3WcVrDnM/
   - kind: session requests
     meetings:
     - '71'
@@ -59,11 +67,11 @@ chairs:
   - kind: WG Review
     date: '2007-10-09'
     subject: 'WG Review: Recharter of Dynamic Host Configuration WG (dhc)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/UMT7KhRxUUeFSPiAOgDqK2xfZNI/
   - kind: WG Action
     date: '2007-10-23'
     subject: 'WG Action: RECHARTER: Dynamic Host Configuration WG (dhc)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/G7zYG3myD_loV97JOTT3WcVrDnM/
   - kind: session requests
     meetings:
     - '65'
@@ -87,7 +95,23 @@ chairs:
   - kind: WG Review
     date: '2013-08-30'
     subject: 'WG Review: Dynamic Host Configuration (dhc)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/P1Xn5WgVHUuispv27U9stpKWjj0/
+  - kind: WG Action
+    date: '2013-09-13'
+    subject: 'WG Action: Rechartered Dynamic Host Configuration (dhc)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/3kFJCjcegu8PbajTH2_ThYeI8Ug/
+  - kind: WG Action
+    date: '2014-08-08'
+    subject: 'WG Action: Rechartered Dynamic Host Configuration (dhc)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/iZWA9otA3_WUxKlVn82BP2V3VkA/
+  - kind: WG Review
+    date: '2018-02-27'
+    subject: 'WG Review: Dynamic Host Configuration (dhc)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/AViWiSSach-Lp74fUZntyrs7C78/
+  - kind: WG Action
+    date: '2018-03-09'
+    subject: 'WG Action: Rechartered Dynamic Host Configuration (dhc)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/LW0RQARG1iztzNoXk_W7ZKhazaY/
   - kind: shepherded
     documents:
     - draft-ietf-dhc-addr-registration
@@ -151,7 +175,23 @@ chairs:
   - kind: WG Review
     date: '2013-08-30'
     subject: 'WG Review: Dynamic Host Configuration (dhc)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/P1Xn5WgVHUuispv27U9stpKWjj0/
+  - kind: WG Action
+    date: '2013-09-13'
+    subject: 'WG Action: Rechartered Dynamic Host Configuration (dhc)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/3kFJCjcegu8PbajTH2_ThYeI8Ug/
+  - kind: WG Action
+    date: '2014-08-08'
+    subject: 'WG Action: Rechartered Dynamic Host Configuration (dhc)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/iZWA9otA3_WUxKlVn82BP2V3VkA/
+  - kind: WG Review
+    date: '2018-02-27'
+    subject: 'WG Review: Dynamic Host Configuration (dhc)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/AViWiSSach-Lp74fUZntyrs7C78/
+  - kind: WG Action
+    date: '2018-03-09'
+    subject: 'WG Action: Rechartered Dynamic Host Configuration (dhc)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/LW0RQARG1iztzNoXk_W7ZKhazaY/
   - kind: shepherded
     documents:
     - draft-fkhp-dhc-dhcpv6-pd-relay-requirements

@@ -21,11 +21,11 @@ chairs:
   - kind: WG Review
     date: '2021-11-02'
     subject: 'WG Review: Network Time Protocol (ntp)'
-    message_id: 163588528571.22035.11259459113617883571@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/KVJ-v2z280D6Z-Targ2l7XJSFV8/
   - kind: WG Action
     date: '2021-12-03'
     subject: 'WG Action: Rechartered Network Time Protocol (ntp)'
-    message_id: 163855793953.6009.6103740697603145404@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/S2hQl90In8u-q0Af_SySFBHlXRY/
   - kind: shepherded
     documents:
     - draft-ietf-ntp-bcp
@@ -39,21 +39,40 @@ chairs:
     - draft-ietf-ntp-port-randomization
     - draft-ietf-ntp-roughtime
     - draft-ietf-ntp-using-nts-for-ntp
+- person: 100525
+  name: Karen Donoghue
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2005-02-25'
+    end:
+      certainty: evidence-only
+      not_before: '2005-02-25'
+  evidence:
+  - kind: WG Action
+    date: '2005-02-25'
+    subject: 'WG Action: Network Time Protocol (ntp)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/wAhuTa88_hSKk3Y9EEbmf41YbuM/
 - person: 100664
   name: Brian Haberman
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2005-02-25'
       not_before: '2004-10-01'
     end:
       certainty: between
       not_before: '2011-12-09'
       not_after: '2016-04-06'
     notes:
-    - start moved earlier by session request for IETF 65
+    - start moved earlier by WG Action announcement of 2005-02-25
   evidence:
+  - kind: WG Action
+    date: '2005-02-25'
+    subject: 'WG Action: Network Time Protocol (ntp)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/wAhuTa88_hSKk3Y9EEbmf41YbuM/
   - kind: session requests
     meetings:
     - '65'
@@ -78,11 +97,11 @@ chairs:
   - kind: WG Review
     date: '2021-11-02'
     subject: 'WG Review: Network Time Protocol (ntp)'
-    message_id: 163588528571.22035.11259459113617883571@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/KVJ-v2z280D6Z-Targ2l7XJSFV8/
   - kind: WG Action
     date: '2021-12-03'
     subject: 'WG Action: Rechartered Network Time Protocol (ntp)'
-    message_id: 163855793953.6009.6103740697603145404@ietfa.amsl.com
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/S2hQl90In8u-q0Af_SySFBHlXRY/
   - kind: shepherded
     documents:
     - draft-ietf-ntp-chronos

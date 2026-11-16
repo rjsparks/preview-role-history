@@ -24,15 +24,19 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2007-05-21'
+      not_after: '2004-09-29'
     end:
       certainty: evidence-only
       not_before: '2007-12-02'
   evidence:
   - kind: WG Action
+    date: '2004-09-29'
+    subject: 'WG Action: RECHARTER: S/MIME Mail Security (smime)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/c3Hbq0nSHz43IoXt3ucwwTOBT6Q/
+  - kind: WG Action
     date: '2007-05-21'
     subject: 'WG Action: RECHARTER: S/MIME Mail Security (smime)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ig_uBOEITFGV655voXR2RaFBrmI/
   - kind: session requests
     meetings:
     - '69'
@@ -44,18 +48,22 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2004-09-29'
       not_before: '1997-10-30'
     end:
       certainty: group-closed
       date: '2010-10-12'
     notes:
-    - start moved earlier by session request for IETF 65
+    - start moved earlier by WG Action announcement of 2004-09-29
   evidence:
+  - kind: WG Action
+    date: '2004-09-29'
+    subject: 'WG Action: RECHARTER: S/MIME Mail Security (smime)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/c3Hbq0nSHz43IoXt3ucwwTOBT6Q/
   - kind: WG Action
     date: '2007-05-21'
     subject: 'WG Action: RECHARTER: S/MIME Mail Security (smime)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ig_uBOEITFGV655voXR2RaFBrmI/
   - kind: session requests
     meetings:
     - '65'

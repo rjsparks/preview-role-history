@@ -7,17 +7,55 @@ started: '2003-04-02'
 closed: null
 history_url: https://datatracker.ietf.org/group/grow/history/
 chairs:
+- person: 103708
+  name: David Meyer
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2003-05-02'
+    end:
+      certainty: evidence-only
+      not_before: '2004-05-17'
+  evidence:
+  - kind: WG Action
+    date: '2003-05-02'
+    subject: 'WG Action: Global Routing Operations (grow)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/3mhkxa7Pj_-Z6gYTVQyS-J8V-08/
+  - kind: WG Action
+    date: '2004-05-17'
+    subject: 'WG Action: RECHARTER: Global Routing Operations (grow)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/PJyL9FSi9v9zqBMaCdKUxh6l7LE/
+- person: 104956
+  name: Vijay Gill
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2003-05-02'
+    end:
+      certainty: evidence-only
+      not_before: '2003-05-02'
+  evidence:
+  - kind: WG Action
+    date: '2003-05-02'
+    subject: 'WG Action: Global Routing Operations (grow)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/3mhkxa7Pj_-Z6gYTVQyS-J8V-08/
 - person: 106925
   name: Geoff Huston
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2006-03-19'
+      not_after: '2004-05-17'
     end:
       certainty: evidence-only
       not_before: '2007-07-22'
   evidence:
+  - kind: WG Action
+    date: '2004-05-17'
+    subject: 'WG Action: RECHARTER: Global Routing Operations (grow)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/PJyL9FSi9v9zqBMaCdKUxh6l7LE/
   - kind: session requests
     meetings:
     - '65'
@@ -92,11 +130,11 @@ chairs:
   - kind: WG Review
     date: '2025-04-24'
     subject: 'WG Review: Global Routing Operations (grow)'
-    message_id: 174550939676.2584560.3370235519455300623@dt-datatracker-64c5c9b5f9-hz6qg
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/1GZqoyjpCl0GlsqZxiNAN0kwYQs/
   - kind: WG Action
     date: '2025-05-09'
     subject: 'WG Action: Rechartered Global Routing Operations (grow)'
-    message_id: 174680945289.1288330.11973442637242180531@dt-datatracker-58d4498dbd-6gzjf
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/wx9WBSgKgK6NE2kqRmXm6Es7ozc/
   - kind: shepherded
     documents:
     - draft-ietf-grow-bgpopsecupd
@@ -119,11 +157,11 @@ chairs:
   - kind: WG Review
     date: '2025-04-24'
     subject: 'WG Review: Global Routing Operations (grow)'
-    message_id: 174550939676.2584560.3370235519455300623@dt-datatracker-64c5c9b5f9-hz6qg
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/1GZqoyjpCl0GlsqZxiNAN0kwYQs/
   - kind: WG Action
     date: '2025-05-09'
     subject: 'WG Action: Rechartered Global Routing Operations (grow)'
-    message_id: 174680945289.1288330.11973442637242180531@dt-datatracker-58d4498dbd-6gzjf
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/wx9WBSgKgK6NE2kqRmXm6Es7ozc/
   - kind: shepherded
     documents:
     - draft-ietf-grow-nrtm-v4

@@ -7,6 +7,21 @@ started: '2000-06-13'
 closed: '2002-03-24'
 history_url: https://datatracker.ietf.org/group/beep/history/
 chairs:
+- person: 2731
+  name: Keith McCloghrie
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2000-07-05'
+    end:
+      certainty: evidence-only
+      not_before: '2000-07-05'
+  evidence:
+  - kind: WG Action
+    date: '2000-07-05'
+    subject: 'WG Action: Blocks Extensible Exchange Protocol (beep)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/QFiTuon1vqZ6Ln8n8ByUZfynM8c/
 - person: 18321
   name: Pete Resnick
   status: confirmed

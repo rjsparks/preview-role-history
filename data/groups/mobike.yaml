@@ -13,15 +13,34 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2004-02-12'
       not_before: '2003-10-01'
     end:
       certainty: group-closed
       date: '2006-04-21'
     notes:
-    - start moved earlier by session request for IETF 65
+    - start moved earlier by WG Action announcement of 2004-02-12
   evidence:
+  - kind: WG Action
+    date: '2004-02-12'
+    subject: 'WG Action: IKEv2 Mobility and Multihoming (mobike)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/SdhC_qPf4tIbcxMJ4rvztDNvWjk/
   - kind: session requests
     meetings:
     - '65'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 21072
+  name: Jari Arkko
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2004-02-12'
+    end:
+      certainty: evidence-only
+      not_before: '2004-02-12'
+  evidence:
+  - kind: WG Action
+    date: '2004-02-12'
+    subject: 'WG Action: IKEv2 Mobility and Multihoming (mobike)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/SdhC_qPf4tIbcxMJ4rvztDNvWjk/

@@ -7,20 +7,39 @@ started: '2002-05-06'
 closed: '2009-03-27'
 history_url: https://datatracker.ietf.org/group/rpsec/history/
 chairs:
+- person: 13108
+  name: Bill Fenner
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2002-07-02'
+    end:
+      certainty: evidence-only
+      not_before: '2002-07-02'
+  evidence:
+  - kind: WG Action
+    date: '2002-07-02'
+    subject: 'WG Action: Routing Protocol Security Requirements (rpsec)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/2VN0YpQjapdOLljMx96AojMVN0g/
 - person: 101784
   name: Tony Tauber
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-07-09'
+      date: '2004-03-24'
       not_before: '2002-05-06'
     end:
       certainty: group-closed
       date: '2009-03-27'
     notes:
-    - start moved earlier by session request for IETF 66
+    - start moved earlier by WG Action announcement of 2004-03-24
   evidence:
+  - kind: WG Action
+    date: '2004-03-24'
+    subject: 'WG Action: RECHARTER: Routing Protocol Security Requirements (rpsec)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/DwzqOtQJxVRi5mWnFCt9r2D16hg/
   - kind: session requests
     meetings:
     - '66'
@@ -33,14 +52,22 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2002-07-02'
       not_before: '2002-05-06'
     end:
       certainty: group-closed
       date: '2009-03-27'
     notes:
-    - start moved earlier by session request for IETF 65
+    - start moved earlier by WG Action announcement of 2002-07-02
   evidence:
+  - kind: WG Action
+    date: '2002-07-02'
+    subject: 'WG Action: Routing Protocol Security Requirements (rpsec)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/2VN0YpQjapdOLljMx96AojMVN0g/
+  - kind: WG Action
+    date: '2004-03-24'
+    subject: 'WG Action: RECHARTER: Routing Protocol Security Requirements (rpsec)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/DwzqOtQJxVRi5mWnFCt9r2D16hg/
   - kind: session requests
     meetings:
     - '65'

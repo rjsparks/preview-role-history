@@ -7,6 +7,21 @@ started: '2004-01-02'
 closed: '2007-03-29'
 history_url: https://datatracker.ietf.org/group/pki4ipsec/history/
 chairs:
+- person: 23160
+  name: Trevor Freeman
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2004-01-30'
+    end:
+      certainty: evidence-only
+      not_before: '2004-01-30'
+  evidence:
+  - kind: WG Action
+    date: '2004-01-30'
+    subject: 'WG Action: Profiling Use of PKI in IPSEC (pki4ipsec)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/eTfFYFzHQjxuiWOSdXSca8PY9t4/
 - person: 105598
   name: Paul Knight
   status: confirmed

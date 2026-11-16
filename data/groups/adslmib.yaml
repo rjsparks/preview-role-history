@@ -13,27 +13,54 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2005-05-18'
+      not_after: '2003-09-03'
     end:
       certainty: evidence-only
       not_before: '2006-10-05'
   evidence:
+  - kind: WG Action
+    date: '2003-09-03'
+    subject: 'WG Action: RECHARTER: ADSL MIB (adslmib)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/n8syuDnopHspbyVfZJXaGmQPrlI/
   - kind: WG Review
     date: '2005-05-18'
     subject: 'WG Review: Recharter of ADSL MIB (adslmib)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/bTujSIzYbvTsxrAbpaLRm6l22xM/
+  - kind: WG Action
+    date: '2005-06-01'
+    subject: 'WG Action: RECHARTER: ADSL MIB (adslmib)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/0_uMqiIZhh-hQwMS_eJaXqsnyAE/
   - kind: WG Review
     date: '2006-01-11'
     subject: 'WG Review: Recharter of ADSL MIB (adslmib)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/cSdCosBgJo5FLQ-9GddItQfm45Q/
   - kind: WG Action
     date: '2006-01-26'
     subject: 'WG Action: RECHARTER: ADSL MIB (adslmib)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/oO6iWe81_f2NUIz3z1cKUgSuZUI/
   - kind: WG Action
     date: '2006-10-05'
     subject: 'WG Action: RECHARTER: ADSL MIB (adslmib)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ANPFP3oxsP9jA87nHo7Ru3cvSaI/
+- person: 104395
+  name: Bob Ray
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2005-05-18'
+    end:
+      certainty: evidence-only
+      not_before: '2005-06-01'
+  evidence:
+  - kind: WG Review
+    date: '2005-05-18'
+    subject: 'WG Review: Recharter of ADSL MIB (adslmib)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/bTujSIzYbvTsxrAbpaLRm6l22xM/
+  - kind: WG Action
+    date: '2005-06-01'
+    subject: 'WG Action: RECHARTER: ADSL MIB (adslmib)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/0_uMqiIZhh-hQwMS_eJaXqsnyAE/
 - person: 106345
   name: Menachem Dodge
   status: confirmed
@@ -59,23 +86,23 @@ chairs:
   - kind: WG Review
     date: '2006-01-11'
     subject: 'WG Review: Recharter of ADSL MIB (adslmib)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/cSdCosBgJo5FLQ-9GddItQfm45Q/
   - kind: WG Action
     date: '2006-01-26'
     subject: 'WG Action: RECHARTER: ADSL MIB (adslmib)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/oO6iWe81_f2NUIz3z1cKUgSuZUI/
   - kind: WG Action
     date: '2006-10-05'
     subject: 'WG Action: RECHARTER: ADSL MIB (adslmib)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ANPFP3oxsP9jA87nHo7Ru3cvSaI/
   - kind: WG Review
     date: '2010-02-23'
     subject: 'WG Review: Recharter of ADSL MIB (adslmib)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/nTkhfdNWKW6Bb2Lzace_j1bt7-Q/
   - kind: WG Action
     date: '2010-03-09'
     subject: 'WG Action: RECHARTER: ADSL MIB (adslmib)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/50-Iyx3FMMZHFOHniHHmGHD7vxg/
   - kind: session requests
     meetings:
     - '68'

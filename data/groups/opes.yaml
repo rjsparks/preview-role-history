@@ -7,6 +7,21 @@ started: '2001-05-16'
 closed: '2007-03-17'
 history_url: https://datatracker.ietf.org/group/opes/history/
 chairs:
+- person: 2455
+  name: Marshall Rose
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2004-04-22'
+    end:
+      certainty: evidence-only
+      not_before: '2004-04-22'
+  evidence:
+  - kind: WG Action
+    date: '2004-04-22'
+    subject: 'WG Action: RECHARTER: Open Pluggable Edge Services (opes)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/fbD7a2nJztRzfA1VYIo2I3QMlec/
 - person: 6771
   name: Tony Hansen
   status: confirmed
@@ -24,22 +39,30 @@ chairs:
   - kind: WG Action
     date: '2004-11-25'
     subject: 'WG Action: RECHARTER: Open Pluggable Edge Services (opes)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/rm65Xez6PNVuSeuWVurF5sNtrE8/
 - person: 104819
   name: Markus Hofmann
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-11-25'
+      date: '2002-02-22'
       not_before: '2001-05-16'
     end:
       certainty: group-closed
       date: '2007-03-17'
     notes:
-    - start moved earlier by WG Action announcement of 2004-11-25
+    - start moved earlier by WG Action announcement of 2002-02-22
   evidence:
+  - kind: WG Action
+    date: '2002-02-22'
+    subject: 'WG ACTION: Open Pluggable Edge Services (opes)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/fvaPTUpcVDQEObhHZlGTNgWwcC4/
+  - kind: WG Action
+    date: '2004-04-22'
+    subject: 'WG Action: RECHARTER: Open Pluggable Edge Services (opes)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/fbD7a2nJztRzfA1VYIo2I3QMlec/
   - kind: WG Action
     date: '2004-11-25'
     subject: 'WG Action: RECHARTER: Open Pluggable Edge Services (opes)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/rm65Xez6PNVuSeuWVurF5sNtrE8/

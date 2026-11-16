@@ -7,17 +7,47 @@ started: '2004-01-15'
 closed: '2009-10-23'
 history_url: https://datatracker.ietf.org/group/dna/history/
 chairs:
+- person: 6167
+  name: Pekka Nikander
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2004-02-11'
+    end:
+      certainty: evidence-only
+      not_before: '2004-02-20'
+  evidence:
+  - kind: WG Action
+    date: '2004-02-11'
+    subject: 'WG Action: Detecting Network Attachment (dna)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/Kb0I8NYiO36Zf830dobuNXWT6MU/
+  - kind: WG Action
+    date: '2004-02-20'
+    subject: 'WG Action: UPDATED: Detecting Network Attachment (dna)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/TBmLcfHaL9bLW0ZrPvXVeDYn0Xo/
 - person: 105988
   name: Greg Daley
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2009-10-23'
+      date: '2004-02-11'
       not_before: '2004-01-15'
     end:
       certainty: group-closed
       date: '2009-10-23'
+    notes:
+    - start moved earlier by WG Action announcement of 2004-02-11
+  evidence:
+  - kind: WG Action
+    date: '2004-02-11'
+    subject: 'WG Action: Detecting Network Attachment (dna)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/Kb0I8NYiO36Zf830dobuNXWT6MU/
+  - kind: WG Action
+    date: '2004-02-20'
+    subject: 'WG Action: UPDATED: Detecting Network Attachment (dna)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/TBmLcfHaL9bLW0ZrPvXVeDYn0Xo/
 - person: 106412
   name: Suresh Krishnan
   status: confirmed

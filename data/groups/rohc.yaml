@@ -7,6 +7,21 @@ started: '2000-02-21'
 closed: '2010-03-16'
 history_url: https://datatracker.ietf.org/group/rohc/history/
 chairs:
+- person: 11843
+  name: Carsten Bormann
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2000-03-13'
+    end:
+      certainty: evidence-only
+      not_before: '2000-03-13'
+  evidence:
+  - kind: WG Action
+    date: '2000-03-13'
+    subject: 'WG ACTION: Robust Header Compression (rohc)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/r7nVnizWpGNFB1SUfxfsa1Z19cU/
 - person: 103797
   name: Lars-Erik Jonsson
   status: unconfirmed
@@ -21,11 +36,11 @@ chairs:
   - kind: WG Review
     date: '2006-07-11'
     subject: 'WG Review: Recharter of Robust Header Compression (rohc)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ci8epW0FstxHWf-e2iuotGtn3V8/
   - kind: WG Action
     date: '2006-08-29'
     subject: 'WG Action: RECHARTER: Robust Header Compression (rohc)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/2IbUtX4U95PoOsnZJuMuzc1Ns3M/
   - kind: session requests
     meetings:
     - '66'

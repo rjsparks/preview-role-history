@@ -7,6 +7,21 @@ started: '1997-03-12'
 closed: '2007-03-13'
 history_url: https://datatracker.ietf.org/group/webdav/history/
 chairs:
+- person: 11182
+  name: Patrik Fältström
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2004-05-19'
+    end:
+      certainty: evidence-only
+      not_before: '2004-05-19'
+  evidence:
+  - kind: WG Action
+    date: '2004-05-19'
+    subject: 'WG Action: RECHARTER: WWW Distributed Authoring and Versioning (webdav)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/2vcgzFsJ4kAnOEvHBemGC1z9cic/
 - person: 105791
   name: Cullen Jennings
   status: confirmed

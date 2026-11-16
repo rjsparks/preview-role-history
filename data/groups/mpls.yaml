@@ -19,10 +19,18 @@ chairs:
       certainty: exact
       date: '2016-07-22'
   evidence:
+  - kind: WG Action
+    date: '2013-08-16'
+    subject: 'WG Action: Rechartered Multiprotocol Label Switching (mpls)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/xUQC4yGMx4jVXU1ms-lM1b9dY7k/
   - kind: WG Review
     date: '2014-11-25'
     subject: 'WG Review: Multiprotocol Label Switching (mpls)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/MMd0a6N26oiEixoLmF_ag9K0nTM/
+  - kind: WG Action
+    date: '2014-12-05'
+    subject: 'WG Action: Rechartered Multiprotocol Label Switching (mpls)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ufCVdCa-puOES8QLFQXA8h3d1RQ/
   - kind: shepherded
     documents:
     - draft-akiya-mpls-lsp-ping-reply-mode-simple
@@ -57,11 +65,11 @@ chairs:
   - kind: WG Review
     date: '2025-07-09'
     subject: 'WG Review: Multiprotocol Label Switching (mpls)'
-    message_id: 175208084016.214330.1972056741616239985@dt-datatracker-557fbf6894-6vznl
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/R_Q1GgxoSBgNRqbVeruUNonzds8/
   - kind: WG Action
     date: '2025-08-07'
     subject: 'WG Action: Rechartered Multiprotocol Label Switching (mpls)'
-    message_id: 175458832231.1519593.1080446594379157805@dt-datatracker-5bd446d5fd-c47nq
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/qNDIhROEnSDosP826ZNJq1V5JDQ/
   - kind: shepherded
     documents:
     - draft-ietf-mpls-frr-ext
@@ -81,22 +89,34 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-01-18'
+      date: '2004-06-25'
       not_before: '1997-01-10'
     end:
       certainty: exact
       date: '2018-03-22'
     notes:
-    - start moved earlier by WG Action announcement of 2006-01-18
+    - start moved earlier by WG Action announcement of 2004-06-25
   evidence:
+  - kind: WG Action
+    date: '2004-06-25'
+    subject: 'WG Action: RECHARTER: Multiprotocol Label Switching (mpls)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/5EFeqhYyoOfKtsV2kSgmXIRhndI/
   - kind: WG Action
     date: '2006-01-18'
     subject: 'WG Action: RECHARTER: Multiprotocol Label Switching (mpls)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/EoBu7NGzCbisKVWAZ56o_lb0M2s/
+  - kind: WG Action
+    date: '2013-08-16'
+    subject: 'WG Action: Rechartered Multiprotocol Label Switching (mpls)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/xUQC4yGMx4jVXU1ms-lM1b9dY7k/
   - kind: WG Review
     date: '2014-11-25'
     subject: 'WG Review: Multiprotocol Label Switching (mpls)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/MMd0a6N26oiEixoLmF_ag9K0nTM/
+  - kind: WG Action
+    date: '2014-12-05'
+    subject: 'WG Action: Rechartered Multiprotocol Label Switching (mpls)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ufCVdCa-puOES8QLFQXA8h3d1RQ/
   - kind: session requests
     meetings:
     - '65'
@@ -108,22 +128,34 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-01-18'
+      date: '2004-06-25'
       not_before: '1997-01-10'
     end:
       certainty: exact
       date: '2023-10-21'
     notes:
-    - start moved earlier by WG Action announcement of 2006-01-18
+    - start moved earlier by WG Action announcement of 2004-06-25
   evidence:
+  - kind: WG Action
+    date: '2004-06-25'
+    subject: 'WG Action: RECHARTER: Multiprotocol Label Switching (mpls)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/5EFeqhYyoOfKtsV2kSgmXIRhndI/
   - kind: WG Action
     date: '2006-01-18'
     subject: 'WG Action: RECHARTER: Multiprotocol Label Switching (mpls)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/EoBu7NGzCbisKVWAZ56o_lb0M2s/
+  - kind: WG Action
+    date: '2013-08-16'
+    subject: 'WG Action: Rechartered Multiprotocol Label Switching (mpls)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/xUQC4yGMx4jVXU1ms-lM1b9dY7k/
   - kind: WG Review
     date: '2014-11-25'
     subject: 'WG Review: Multiprotocol Label Switching (mpls)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/MMd0a6N26oiEixoLmF_ag9K0nTM/
+  - kind: WG Action
+    date: '2014-12-05'
+    subject: 'WG Action: Rechartered Multiprotocol Label Switching (mpls)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ufCVdCa-puOES8QLFQXA8h3d1RQ/
   - kind: session requests
     meetings:
     - '67'
@@ -266,11 +298,11 @@ chairs:
   - kind: WG Review
     date: '2025-07-09'
     subject: 'WG Review: Multiprotocol Label Switching (mpls)'
-    message_id: 175208084016.214330.1972056741616239985@dt-datatracker-557fbf6894-6vznl
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/R_Q1GgxoSBgNRqbVeruUNonzds8/
   - kind: WG Action
     date: '2025-08-07'
     subject: 'WG Action: Rechartered Multiprotocol Label Switching (mpls)'
-    message_id: 175458832231.1519593.1080446594379157805@dt-datatracker-5bd446d5fd-c47nq
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/qNDIhROEnSDosP826ZNJq1V5JDQ/
   - kind: shepherded
     documents:
     - draft-andersson-mpls-lsp-ping-registries-update
@@ -321,11 +353,11 @@ chairs:
   - kind: WG Review
     date: '2025-07-09'
     subject: 'WG Review: Multiprotocol Label Switching (mpls)'
-    message_id: 175208084016.214330.1972056741616239985@dt-datatracker-557fbf6894-6vznl
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/R_Q1GgxoSBgNRqbVeruUNonzds8/
   - kind: WG Action
     date: '2025-08-07'
     subject: 'WG Action: Rechartered Multiprotocol Label Switching (mpls)'
-    message_id: 175458832231.1519593.1080446594379157805@dt-datatracker-5bd446d5fd-c47nq
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/qNDIhROEnSDosP826ZNJq1V5JDQ/
   - kind: shepherded
     documents:
     - draft-gandhi-mpls-rfc6374-sr

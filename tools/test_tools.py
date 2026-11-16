@@ -165,6 +165,10 @@ class RenderTests(DataDirMixin, unittest.TestCase):
             "periods": [{"start": {"certainty": "approximate", "date": "1995"}, "end": {"certainty": "approximate", "date": "1998"}}],
             "sources": ["IETF 35 proceedings"],
         })
+        g["chairs"][0]["evidence"] = [{
+            "kind": "WG Action", "date": "2001-03-12", "subject": "WG ACTION: A Big Charter (abc)",
+            "url": "https://mailarchive.ietf.org/arch/msg/ietf-announce-old/example/",
+        }]
         self.write_group(g)
         out = self.root / "site"
         site = render.Site(cd.load(self.data), out, "example/chairs")
@@ -178,6 +182,7 @@ class RenderTests(DataDirMixin, unittest.TestCase):
         self.assertEqual(query["group"], ["abc"])
         self.assertEqual(query["person"], ["1"])
         self.assertIn("2012-03-04 to present", query["recorded"][0])
+        self.assertIn('<a href="https://mailarchive.ietf.org/arch/msg/ietf-announce-old/example/">', person)
         self.assertIn("about 1995", (out / "people" / "n-old-timer.html").read_text())
 
 

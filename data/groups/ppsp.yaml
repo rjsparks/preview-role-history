@@ -37,20 +37,43 @@ chairs:
     meetings:
     - '82'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 105791
+  name: Cullen Jennings
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2010-03-23'
+    end:
+      certainty: evidence-only
+      not_before: '2010-07-25'
+  evidence:
+  - kind: WG Action
+    date: '2010-03-23'
+    subject: 'WG Action: Peer-to-Peer Streaming Protocol (PPSP)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ex7DSi7W8scWmIADTP_LjR5bGIg/
+  - kind: session requests
+    meetings:
+    - '78'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
 - person: 109919
   name: Yunfei Zhang
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-11-07'
+      date: '2010-03-23'
       not_before: '2010-01-22'
     end:
       certainty: group-closed
       date: '2016-01-13'
     notes:
-    - start moved earlier by session request for IETF 79
+    - start moved earlier by WG Action announcement of 2010-03-23
   evidence:
+  - kind: WG Action
+    date: '2010-03-23'
+    subject: 'WG Action: Peer-to-Peer Streaming Protocol (PPSP)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ex7DSi7W8scWmIADTP_LjR5bGIg/
   - kind: session requests
     meetings:
     - '79'

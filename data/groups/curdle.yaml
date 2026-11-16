@@ -17,6 +17,11 @@ chairs:
     end:
       certainty: group-closed
       date: '2022-02-03'
+  evidence:
+  - kind: WG Action
+    date: '2015-12-18'
+    subject: 'WG Action: Formed CURves, Deprecating and a Little more Encryption (curdle)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/dcSJChTY6ZqdBypLUlaviflWahU/
 - person: 109969
   name: Daniel Migault
   status: confirmed
@@ -28,6 +33,10 @@ chairs:
       certainty: group-closed
       date: '2022-02-03'
   evidence:
+  - kind: WG Action
+    date: '2015-12-18'
+    subject: 'WG Action: Formed CURves, Deprecating and a Little more Encryption (curdle)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/dcSJChTY6ZqdBypLUlaviflWahU/
   - kind: shepherded
     documents:
     - draft-ietf-curdle-cms-chacha20-poly1305

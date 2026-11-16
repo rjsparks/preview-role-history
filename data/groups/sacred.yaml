@@ -13,11 +13,18 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-02-01'
+      date: '2000-10-23'
       not_before: '2000-09-19'
     end:
       certainty: group-closed
       date: '2006-02-01'
+    notes:
+    - start moved earlier by WG Action announcement of 2000-10-23
+  evidence:
+  - kind: WG Action
+    date: '2000-10-23'
+    subject: 'WG ACTION: Securely Available Credentials (sacred)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/ew5Fg0Qknpp_vIeG9A1cHYov3J8/
 - person: 102968
   name: Magnus Nyström
   status: confirmed

@@ -22,7 +22,22 @@ chairs:
   - kind: WG Review
     date: '2006-11-01'
     subject: 'WG Review: Recharter of Internet Emergency Preparedness (ieprep)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/jVvI_DSVy0-j-XYu5ocYntWcc7w/
+- person: 2853
+  name: Fred Baker
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2002-02-22'
+    end:
+      certainty: evidence-only
+      not_before: '2002-02-22'
+  evidence:
+  - kind: WG Action
+    date: '2002-02-22'
+    subject: 'WG ACTION: Internet Emergency Preparedness (ieprep)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/ADsECCEHBlm6yj0kTW9qg6vazEA/
 - person: 102997
   name: Kimberly King
   status: confirmed

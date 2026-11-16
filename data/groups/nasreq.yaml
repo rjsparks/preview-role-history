@@ -24,8 +24,15 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-07-21'
+      date: '1999-02-01'
       not_before: '1999-01-14'
     end:
       certainty: group-closed
       date: '2003-07-21'
+    notes:
+    - start moved earlier by WG Action announcement of 1999-02-01
+  evidence:
+  - kind: WG Action
+    date: '1999-02-01'
+    subject: 'WG Action: Network Access Server Requirements (nasreq)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/uk-25izZaaNrcHbwUg1rjlJRDk0/

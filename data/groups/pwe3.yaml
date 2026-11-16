@@ -21,7 +21,7 @@ chairs:
   - kind: WG Review
     date: '2005-12-21'
     subject: 'WG Review: Recharter of Pseudo Wire Emulation Edge to Edge (pwe3)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/gPoklPQeKdcGvcvFyYdd_IfVtPo/
   - kind: session requests
     meetings:
     - '72'
@@ -60,6 +60,40 @@ chairs:
     - draft-ietf-pwe3-redundancy
     - draft-ietf-pwe3-redundancy-bit
     - draft-ietf-pwe3-static-pw-status
+- person: 19987
+  name: Danny McPherson
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2001-05-14'
+    end:
+      certainty: evidence-only
+      not_before: '2005-12-21'
+  evidence:
+  - kind: WG Action
+    date: '2001-05-14'
+    subject: 'WG ACTION: Pseudo Wire Emulation Edge to Edge (pwe3)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/JJzQQBA474UoX4pn32R-H5xx-fc/
+  - kind: WG Review
+    date: '2005-12-21'
+    subject: 'WG Review: Recharter of Pseudo Wire Emulation Edge to Edge (pwe3)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/gPoklPQeKdcGvcvFyYdd_IfVtPo/
+- person: 104107
+  name: Luca Martini
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2001-05-14'
+    end:
+      certainty: evidence-only
+      not_before: '2001-05-14'
+  evidence:
+  - kind: WG Action
+    date: '2001-05-14'
+    subject: 'WG ACTION: Pseudo Wire Emulation Edge to Edge (pwe3)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/JJzQQBA474UoX4pn32R-H5xx-fc/
 - person: 105786
   name: Matthew Bocci
   status: confirmed

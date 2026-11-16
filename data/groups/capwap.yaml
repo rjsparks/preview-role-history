@@ -24,14 +24,22 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2004-01-28'
       not_before: '2004-01-02'
     end:
       certainty: group-closed
       date: '2010-05-10'
     notes:
-    - start moved earlier by session request for IETF 65
+    - start moved earlier by WG Action announcement of 2004-01-28
   evidence:
+  - kind: WG Action
+    date: '2004-01-28'
+    subject: 'WG Action: Control and Provisioning of Wireless Access Points (capwap)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/GnP2wL-I2IYHxdSQU0t-RK4j-qg/
+  - kind: WG Action
+    date: '2004-11-03'
+    subject: 'WG Action: RECHARTER: Control And Provisioning of Wireless Access Points (capwap)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/l11oIrgcj7zCCmfJyLSnxk9FNWc/
   - kind: session requests
     meetings:
     - '65'

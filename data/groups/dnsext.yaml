@@ -13,42 +13,58 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '1999-12-30'
       not_before: '1999-11-16'
     end:
       certainty: group-closed
       date: '2013-07-24'
     notes:
-    - start moved earlier by session request for IETF 65
+    - start moved earlier by WG Action announcement of 1999-12-30
   evidence:
+  - kind: WG Action
+    date: '1999-12-30'
+    subject: 'WG ACTION: DNS Extensions (dnsext)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/RDodLnvIvvw5lm4-vFI_qDz8iDk/
+  - kind: WG Action
+    date: '2003-10-06'
+    subject: 'WG Action: RECHARTER: DNS Extensions (dnsext)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/7XVB1zIusn-1mi5nq-_y1IJeJ6s/
+  - kind: WG Action
+    date: '2004-01-29'
+    subject: 'WG Action: RECHARTER: DNS Extensions (dnsext)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/OpEUxSWX4DrfkpIUydM5ArkxGP0/
+  - kind: WG Action
+    date: '2005-02-09'
+    subject: 'WG Action: RECHARTER: DNS Extensions (dnsext)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/UqWK3uRL1Nv4q8sCRDy9IpcplN0/
   - kind: WG Review
     date: '2007-08-28'
     subject: 'WG Review: Recharter of DNS Extensions (dnsext)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/s9K71lr393Akzl_lCvQytRPNnHM/
   - kind: WG Action
     date: '2007-12-26'
     subject: 'WG Action: RECHARTER: DNS Extensions WG (dnsext)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/86nDRy1g0QXlxLdKSsgTAAOnflM/
   - kind: WG Review
     date: '2009-07-07'
     subject: 'WG Review: Recharter of DNS Extensions (dnsext)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/hTFidd6fibHaCvQAqPm5CZMQXok/
   - kind: WG Action
     date: '2009-09-16'
     subject: 'WG Action: RECHARTER: DNS Extensions Working group (dnsext)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/9PEhyU1UxKPU29MonuOzv38ReUo/
   - kind: WG Review
     date: '2010-11-23'
     subject: 'WG Review: Recharter of DNS Extensions (dnsext)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/DX0g1UNGhvrHucfXyjNz7hK2Oxc/
   - kind: WG Action
     date: '2010-12-07'
     subject: 'WG Action: RECHARTER: DNS Extensions (dnsext)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/YxZMpiv5zPcVv01pyCYw9a_y2y8/
   - kind: WG Action
     date: '2011-03-08'
     subject: 'WG Action: RECHARTER: DNS Extensions (dnsext)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/lioxTqs5-kYZZzKOpqyL54ddw9s/
   - kind: session requests
     meetings:
     - '65'
@@ -61,6 +77,21 @@ chairs:
     - '79'
     - '80'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 5234
+  name: Randy Bush
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1999-12-30'
+    end:
+      certainty: evidence-only
+      not_before: '1999-12-30'
+  evidence:
+  - kind: WG Action
+    date: '1999-12-30'
+    subject: 'WG ACTION: DNS Extensions (dnsext)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/RDodLnvIvvw5lm4-vFI_qDz8iDk/
 - person: 109178
   name: Andrew Sullivan
   status: confirmed
@@ -78,23 +109,23 @@ chairs:
   - kind: WG Review
     date: '2009-07-07'
     subject: 'WG Review: Recharter of DNS Extensions (dnsext)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/hTFidd6fibHaCvQAqPm5CZMQXok/
   - kind: WG Action
     date: '2009-09-16'
     subject: 'WG Action: RECHARTER: DNS Extensions Working group (dnsext)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/9PEhyU1UxKPU29MonuOzv38ReUo/
   - kind: WG Review
     date: '2010-11-23'
     subject: 'WG Review: Recharter of DNS Extensions (dnsext)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/DX0g1UNGhvrHucfXyjNz7hK2Oxc/
   - kind: WG Action
     date: '2010-12-07'
     subject: 'WG Action: RECHARTER: DNS Extensions (dnsext)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/YxZMpiv5zPcVv01pyCYw9a_y2y8/
   - kind: WG Action
     date: '2011-03-08'
     subject: 'WG Action: RECHARTER: DNS Extensions (dnsext)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/lioxTqs5-kYZZzKOpqyL54ddw9s/
   - kind: session requests
     meetings:
     - '73'
@@ -107,3 +138,30 @@ chairs:
     - draft-ietf-dnsext-dnssec-bis-updates
     - draft-ietf-dnsext-dnssec-registry-fixes
     - draft-ietf-dnsext-rfc2672bis-dname
+- person: 117929
+  name: Olaf Kolkman
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2003-10-06'
+    end:
+      certainty: evidence-only
+      not_before: '2006-11-05'
+  evidence:
+  - kind: WG Action
+    date: '2003-10-06'
+    subject: 'WG Action: RECHARTER: DNS Extensions (dnsext)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/7XVB1zIusn-1mi5nq-_y1IJeJ6s/
+  - kind: WG Action
+    date: '2004-01-29'
+    subject: 'WG Action: RECHARTER: DNS Extensions (dnsext)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/OpEUxSWX4DrfkpIUydM5ArkxGP0/
+  - kind: WG Action
+    date: '2005-02-09'
+    subject: 'WG Action: RECHARTER: DNS Extensions (dnsext)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/UqWK3uRL1Nv4q8sCRDy9IpcplN0/
+  - kind: session requests
+    meetings:
+    - '67'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

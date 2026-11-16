@@ -7,6 +7,21 @@ started: '2003-06-09'
 closed: '2014-11-20'
 history_url: https://datatracker.ietf.org/group/l2vpn/history/
 chairs:
+- person: 20682
+  name: Loa Andersson
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2004-07-29'
+    end:
+      certainty: evidence-only
+      not_before: '2004-07-29'
+  evidence:
+  - kind: WG Action
+    date: '2004-07-29'
+    subject: 'WG Action: RECHARTER: Layer 2 Virtual Private Networks (l2vpn)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/EZ4MQhrmNlIW-qLYn5TMvWPGw2c/
 - person: 101552
   name: Shane Amante
   status: unconfirmed
@@ -21,7 +36,7 @@ chairs:
   - kind: WG Review
     date: '2008-08-18'
     subject: 'WG Review: Recharter of Layer 2 Virtual Private Networks (l2vpn)'
-    message_id: null
+    url: null
   - kind: session requests
     meetings:
     - '65'
@@ -55,11 +70,11 @@ chairs:
   - kind: WG Review
     date: '2011-08-30'
     subject: 'WG Review: Recharter of Layer 2 Virtual Private Networks (l2vpn)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/nNa3s2BGd14bzhpeexUY6_Y_Fz0/
   - kind: WG Action
     date: '2011-09-13'
     subject: 'WG Action: RECHARTER: Layer 2 Virtual Private Networks (l2vpn)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/-oG-56sh4ZeIE4Q0M32ZCkJHuVo/
   - kind: shepherded
     documents:
     - draft-ietf-l2vpn-etree-frwk
@@ -82,11 +97,11 @@ chairs:
   - kind: WG Review
     date: '2011-08-30'
     subject: 'WG Review: Recharter of Layer 2 Virtual Private Networks (l2vpn)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/nNa3s2BGd14bzhpeexUY6_Y_Fz0/
   - kind: WG Action
     date: '2011-09-13'
     subject: 'WG Action: RECHARTER: Layer 2 Virtual Private Networks (l2vpn)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/-oG-56sh4ZeIE4Q0M32ZCkJHuVo/
   - kind: session requests
     meetings:
     - '79'

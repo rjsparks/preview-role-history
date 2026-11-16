@@ -28,6 +28,15 @@ chairs:
     end:
       certainty: exact
       date: '2024-05-01'
+  evidence:
+  - kind: WG Review
+    date: '2018-02-09'
+    subject: 'WG Review: Link State Vector Routing (lsvr)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/PmpVMmlu5gfFFMetHA2mgqgySjo/
+  - kind: WG Action
+    date: '2018-02-23'
+    subject: 'WG Action: Formed Link State Vector Routing (lsvr)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/gpNq6qf4emJV5ynggJQ-Y2DR-MY/
 - person: 110737
   name: Jie Dong
   status: confirmed
@@ -41,11 +50,11 @@ chairs:
   - kind: WG Review
     date: '2025-01-23'
     subject: 'WG Review: Link State Vector Routing (lsvr)'
-    message_id: 173765194803.302770.6841096417170807139@dt-datatracker-5584d84fb4-tg2td
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/s_87zZIo2OtAHNMsofIl5wSpEas/
   - kind: WG Action
     date: '2025-02-06'
     subject: 'WG Action: Rechartered Link State Vector Routing (lsvr)'
-    message_id: 173887499191.275.16329949887569051899@dt-datatracker-75c44cbbdf-pxnd6
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/XdNbiTC80aIZSjrK2A3AHegcU3c/
   - kind: shepherded
     documents:
     - draft-ietf-lsvr-l3dl
@@ -60,6 +69,15 @@ chairs:
     end:
       certainty: exact
       date: '2023-03-26'
+  evidence:
+  - kind: WG Review
+    date: '2018-02-09'
+    subject: 'WG Review: Link State Vector Routing (lsvr)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/PmpVMmlu5gfFFMetHA2mgqgySjo/
+  - kind: WG Action
+    date: '2018-02-23'
+    subject: 'WG Action: Formed Link State Vector Routing (lsvr)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/gpNq6qf4emJV5ynggJQ-Y2DR-MY/
 - person: 122823
   name: Ketan Talaulikar
   status: confirmed
@@ -74,11 +92,11 @@ chairs:
   - kind: WG Review
     date: '2025-01-23'
     subject: 'WG Review: Link State Vector Routing (lsvr)'
-    message_id: 173765194803.302770.6841096417170807139@dt-datatracker-5584d84fb4-tg2td
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/s_87zZIo2OtAHNMsofIl5wSpEas/
   - kind: WG Action
     date: '2025-02-06'
     subject: 'WG Action: Rechartered Link State Vector Routing (lsvr)'
-    message_id: 173887499191.275.16329949887569051899@dt-datatracker-75c44cbbdf-pxnd6
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/XdNbiTC80aIZSjrK2A3AHegcU3c/
   - kind: shepherded
     documents:
     - draft-ietf-lsvr-applicability

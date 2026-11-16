@@ -24,8 +24,15 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-03-22'
+      date: '2004-02-11'
       not_before: '2004-01-15'
     end:
       certainty: group-closed
       date: '2005-03-22'
+    notes:
+    - start moved earlier by WG Action announcement of 2004-02-11
+  evidence:
+  - kind: WG Action
+    date: '2004-02-11'
+    subject: 'WG Action: Improved Cross-Area Review (icar)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/bZI5rLHLoPRWaiNo-cVmcFiejjw/

@@ -7,6 +7,21 @@ started: '1999-10-04'
 closed: '2018-05-17'
 history_url: https://datatracker.ietf.org/group/l2tpext/history/
 chairs:
+- person: 22948
+  name: Mark Townsley
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1999-10-27'
+    end:
+      certainty: evidence-only
+      not_before: '1999-10-27'
+  evidence:
+  - kind: WG Action
+    date: '1999-10-27'
+    subject: 'WG ACTION: Layer Two Tunneling Protocol Extensions (l2tpext)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/M1UA2WsZ6oKavSzA3Z1vi5PoAhs/
 - person: 105547
   name: Ignacio Goyret
   status: confirmed

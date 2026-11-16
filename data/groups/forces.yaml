@@ -13,14 +13,18 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-11-05'
+      date: '2001-07-30'
       not_before: '2001-05-11'
     end:
       certainty: exact
       date: '2013-04-23'
     notes:
-    - start moved earlier by session request for IETF 67
+    - start moved earlier by WG Action announcement of 2001-07-30
   evidence:
+  - kind: WG Action
+    date: '2001-07-30'
+    subject: 'WG ACTION: Forwarding and Control Element Separation (forces)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/S4ydr0Ol33WUlxdcgF2vp_1NaKo/
   - kind: session requests
     meetings:
     - '67'
@@ -45,11 +49,15 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2006-03-19'
+      not_after: '2001-07-30'
     end:
       certainty: evidence-only
       not_before: '2006-07-09'
   evidence:
+  - kind: WG Action
+    date: '2001-07-30'
+    subject: 'WG ACTION: Forwarding and Control Element Separation (forces)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/S4ydr0Ol33WUlxdcgF2vp_1NaKo/
   - kind: session requests
     meetings:
     - '65'
@@ -70,7 +78,11 @@ chairs:
   - kind: WG Review
     date: '2013-04-26'
     subject: 'WG Review: Forwarding and Control Element Separation (forces)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/-RFXvjnGAWuKfG-UM2aJMyPNLOs/
+  - kind: WG Action
+    date: '2013-05-17'
+    subject: 'WG Action: Rechartered Forwarding and Control Element Separation (forces)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/64hLYaqlZ7WvLNzwMn1WLCzPQZ8/
   - kind: shepherded
     documents:
     - draft-ietf-forces-lfb-lib
@@ -86,6 +98,10 @@ chairs:
       certainty: group-closed
       date: '2015-03-24'
   evidence:
+  - kind: WG Action
+    date: '2013-05-17'
+    subject: 'WG Action: Rechartered Forwarding and Control Element Separation (forces)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/64hLYaqlZ7WvLNzwMn1WLCzPQZ8/
   - kind: shepherded
     documents:
     - draft-ietf-forces-packet-parallelization

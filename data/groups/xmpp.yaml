@@ -7,6 +7,21 @@ started: '2009-05-21'
 closed: '2015-09-14'
 history_url: https://datatracker.ietf.org/group/xmpp/history/
 chairs:
+- person: 18321
+  name: Pete Resnick
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2002-11-06'
+    end:
+      certainty: evidence-only
+      not_before: '2002-11-06'
+  evidence:
+  - kind: WG Action
+    date: '2002-11-06'
+    subject: 'WG Action: Extensible Messaging and Presence Protocol (xmpp)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/23SCZ_Rd_AvNNdLQHzGQXzNG874/
 - person: 19483
   name: Sean Turner
   status: unconfirmed
@@ -37,6 +52,10 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 78
   evidence:
+  - kind: WG Action
+    date: '2013-03-05'
+    subject: 'WG Action: Rechartered Extensible Messaging and Presence Protocol (xmpp)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/LnzCsvJACt54xcwsNHDYY-iB-Tc/
   - kind: session requests
     meetings:
     - '78'
@@ -54,3 +73,8 @@ chairs:
     end:
       certainty: group-closed
       date: '2015-09-14'
+  evidence:
+  - kind: WG Action
+    date: '2013-03-05'
+    subject: 'WG Action: Rechartered Extensible Messaging and Presence Protocol (xmpp)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/LnzCsvJACt54xcwsNHDYY-iB-Tc/

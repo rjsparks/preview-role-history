@@ -18,6 +18,14 @@ chairs:
       certainty: group-closed
       date: '2023-07-12'
   evidence:
+  - kind: WG Review
+    date: '2018-01-26'
+    subject: 'WG Review: Service Function Chaining (sfc)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/tU9kq3uZViM8QoTNLRsJ6vOH0x4/
+  - kind: WG Action
+    date: '2018-02-12'
+    subject: 'WG Action: Rechartered Service Function Chaining (sfc)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/JKv_eZudxRm9FLu3XK_fduqg4X8/
   - kind: shepherded
     documents:
     - draft-ietf-sfc-nsh
@@ -36,7 +44,11 @@ chairs:
   - kind: WG Review
     date: '2013-12-12'
     subject: 'WG Review: Service Function Chaining (sfc)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/m20r82LD-8K2c1WUkaxjm7OKWMo/
+  - kind: WG Action
+    date: '2013-12-20'
+    subject: 'WG Action: Formed Service Function Chaining (sfc)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Tx22e3tUa_EhgBDcWlRctmYMDWk/
   - kind: shepherded
     documents:
     - draft-ietf-sfc-long-lived-flow-use-cases
@@ -68,7 +80,19 @@ chairs:
   - kind: WG Review
     date: '2013-12-12'
     subject: 'WG Review: Service Function Chaining (sfc)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/m20r82LD-8K2c1WUkaxjm7OKWMo/
+  - kind: WG Action
+    date: '2013-12-20'
+    subject: 'WG Action: Formed Service Function Chaining (sfc)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Tx22e3tUa_EhgBDcWlRctmYMDWk/
+  - kind: WG Review
+    date: '2018-01-26'
+    subject: 'WG Review: Service Function Chaining (sfc)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/tU9kq3uZViM8QoTNLRsJ6vOH0x4/
+  - kind: WG Action
+    date: '2018-02-12'
+    subject: 'WG Action: Rechartered Service Function Chaining (sfc)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/JKv_eZudxRm9FLu3XK_fduqg4X8/
   - kind: shepherded
     documents:
     - draft-ietf-sfc-architecture

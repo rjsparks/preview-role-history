@@ -56,26 +56,34 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-02-17'
+      date: '2005-06-29'
       not_before: '2005-06-15'
     end:
       certainty: exact
       date: '2014-02-17'
     notes:
-    - start moved earlier by WG Action announcement of 2011-02-17
+    - start moved earlier by WG Action announcement of 2005-06-29
   evidence:
+  - kind: WG Action
+    date: '2005-06-29'
+    subject: 'WG Action: Transparent Interconnection of Lots of Links (trill)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/5bEpmaJTdrLkiHlBjWzSXOnYA_Y/
   - kind: WG Review
     date: '2010-07-22'
     subject: 'WG Review: Recharter of Transparent Interconnection of Lots of Links (trill)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/B9nymoUEXksPY76H6dfyMOUneDc/
   - kind: WG Action
     date: '2011-02-17'
     subject: 'WG Action: RECHARTER: Transparent Interconnection of Lots of Links (trill)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/0AZgrkLJm3vwSEe9CtB-09pWs6k/
   - kind: WG Review
     date: '2013-07-19'
     subject: 'WG Review: Transparent Interconnection of Lots of Links (trill)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/4qxBCNAS6IOktPknB3PBPT3HF84/
+  - kind: WG Action
+    date: '2013-08-19'
+    subject: 'WG Action: Rechartered Transparent Interconnection of Lots of Links (trill)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/tAa0UMVae9rz-46nhGTLaBGw63E/
   - kind: shepherded
     documents:
     - draft-ietf-trill-esadi
@@ -97,15 +105,19 @@ chairs:
   - kind: WG Review
     date: '2010-07-22'
     subject: 'WG Review: Recharter of Transparent Interconnection of Lots of Links (trill)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/B9nymoUEXksPY76H6dfyMOUneDc/
   - kind: WG Action
     date: '2011-02-17'
     subject: 'WG Action: RECHARTER: Transparent Interconnection of Lots of Links (trill)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/0AZgrkLJm3vwSEe9CtB-09pWs6k/
   - kind: WG Review
     date: '2013-07-19'
     subject: 'WG Review: Transparent Interconnection of Lots of Links (trill)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/4qxBCNAS6IOktPknB3PBPT3HF84/
+  - kind: WG Action
+    date: '2013-08-19'
+    subject: 'WG Action: Rechartered Transparent Interconnection of Lots of Links (trill)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/tAa0UMVae9rz-46nhGTLaBGw63E/
   - kind: session requests
     meetings:
     - '65'

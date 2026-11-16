@@ -40,6 +40,14 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: WG Review
+    date: '2019-09-06'
+    subject: 'WG Review: Audio/Video Transport Core Maintenance (avtcore)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/oIi7ASfDR1fPDrP8wBDjXW4GKcY/
+  - kind: WG Action
+    date: '2019-09-20'
+    subject: 'WG Action: Rechartered Audio/Video Transport Core Maintenance (avtcore)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/9BOrN1vjO7aDzPkil2gL2nGe4YE/
   - kind: shepherded
     documents:
     - draft-ietf-avtcore-multiplex-guidelines
@@ -51,14 +59,22 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-07-24'
+      date: '2011-01-25'
       not_before: '2010-12-02'
     end:
       certainty: exact
       date: '2017-03-08'
     notes:
-    - start moved earlier by session request for IETF 81
+    - start moved earlier by WG Action announcement of 2011-01-25
   evidence:
+  - kind: WG Action
+    date: '2011-01-25'
+    subject: 'WG Action: Audio/Video Transport Core Maintenence (AVTCORE)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/NmK0UY70J_NBxmmfMBSjg81KXb4/
+  - kind: WG Action
+    date: '2017-03-06'
+    subject: 'WG Action: Rechartered Audio/Video Transport Core Maintenance (avtcore)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/eXjXqqapfI7FZsH0fESrsYo-toY/
   - kind: session requests
     meetings:
     - '81'
@@ -87,14 +103,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-03-27'
+      date: '2011-01-25'
       not_before: '2010-12-02'
     end:
       certainty: between
       not_before: '2011-12-09'
       not_after: '2013-03-13'
     notes:
-    - start moved earlier by session request for IETF 80
+    - start moved earlier by WG Action announcement of 2011-01-25
   - start:
       certainty: between
       not_before: '2011-12-09'
@@ -109,6 +125,18 @@ chairs:
       certainty: exact
       date: '2020-07-15'
   evidence:
+  - kind: WG Action
+    date: '2011-01-25'
+    subject: 'WG Action: Audio/Video Transport Core Maintenence (AVTCORE)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/NmK0UY70J_NBxmmfMBSjg81KXb4/
+  - kind: WG Action
+    date: '2017-03-06'
+    subject: 'WG Action: Rechartered Audio/Video Transport Core Maintenance (avtcore)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/eXjXqqapfI7FZsH0fESrsYo-toY/
+  - kind: WG Action
+    date: '2019-09-20'
+    subject: 'WG Action: Rechartered Audio/Video Transport Core Maintenance (avtcore)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/9BOrN1vjO7aDzPkil2gL2nGe4YE/
   - kind: session requests
     meetings:
     - '80'
@@ -142,6 +170,15 @@ chairs:
     end:
       certainty: exact
       date: '2019-12-19'
+  evidence:
+  - kind: WG Review
+    date: '2019-09-06'
+    subject: 'WG Review: Audio/Video Transport Core Maintenance (avtcore)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/oIi7ASfDR1fPDrP8wBDjXW4GKcY/
+  - kind: WG Action
+    date: '2019-09-20'
+    subject: 'WG Action: Rechartered Audio/Video Transport Core Maintenance (avtcore)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/9BOrN1vjO7aDzPkil2gL2nGe4YE/
 - person: 129844
   name: Marius Kleidl
   status: confirmed

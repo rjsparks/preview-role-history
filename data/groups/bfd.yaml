@@ -13,14 +13,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-08-18'
+      date: '2004-06-02'
       not_before: '2004-05-05'
     end:
       certainty: between
       not_before: '2011-12-09'
       not_after: '2013-06-11'
     notes:
-    - start moved earlier by WG Action announcement of 2011-08-18
+    - start moved earlier by WG Action announcement of 2004-06-02
   - start:
       certainty: between
       not_before: '2011-12-09'
@@ -31,38 +31,62 @@ chairs:
       not_after: '2013-06-11'
   evidence:
   - kind: WG Action
+    date: '2004-06-02'
+    subject: 'WG Action: Bidirectional Forwarding Detection (bfd)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/wzXcJJ-dXinMKc6cA8nA65N1zKk/
+  - kind: WG Action
     date: '2011-08-18'
     subject: 'WG Action: RECHARTER: Bidirectional Forwarding Detection (bfd)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/sTGXzOM7624zEkriaK1lMbux_eY/
   - kind: WG Review
     date: '2012-10-16'
     subject: 'WG Review: Bidirectional Forwarding Detection (bfd)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/D4Tud9KUMXELp07lBiY7g35f5aI/
+  - kind: WG Action
+    date: '2012-10-30'
+    subject: 'WG Action: Rechartered Bidirectional Forwarding Detection (bfd)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/UOBw7Z9oOjTC9nrrsgJFM82OEzY/
 - person: 105046
   name: Jeffrey Haas
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-08-18'
+      date: '2004-06-02'
       not_before: '2004-05-05'
     end:
       certainty: ongoing
     notes:
-    - start moved earlier by WG Action announcement of 2011-08-18
+    - start moved earlier by WG Action announcement of 2004-06-02
   evidence:
+  - kind: WG Action
+    date: '2004-06-02'
+    subject: 'WG Action: Bidirectional Forwarding Detection (bfd)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/wzXcJJ-dXinMKc6cA8nA65N1zKk/
   - kind: WG Action
     date: '2011-08-18'
     subject: 'WG Action: RECHARTER: Bidirectional Forwarding Detection (bfd)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/sTGXzOM7624zEkriaK1lMbux_eY/
   - kind: WG Review
     date: '2012-10-16'
     subject: 'WG Review: Bidirectional Forwarding Detection (bfd)'
-    message_id: null
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/D4Tud9KUMXELp07lBiY7g35f5aI/
+  - kind: WG Action
+    date: '2012-10-30'
+    subject: 'WG Action: Rechartered Bidirectional Forwarding Detection (bfd)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/UOBw7Z9oOjTC9nrrsgJFM82OEzY/
+  - kind: WG Action
+    date: '2013-12-06'
+    subject: 'WG Action: Rechartered Bidirectional Forwarding Detection (bfd)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/kWJxuzOslpBzntFoD-kh0OVOe0g/
+  - kind: WG Action
+    date: '2014-06-05'
+    subject: 'WG Action: Rechartered Bidirectional Forwarding Detection (bfd)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/YvgPwR3nU1htp6PW_hz6E48izaU/
   - kind: WG Action
     date: '2024-10-25'
     subject: 'WG Action: Rechartered Bidirectional Forwarding Detection (bfd)'
-    message_id: 172988781527.193.164391867339711489@dt-datatracker-6cdf944fd9-dld6h
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/CmtlP2RoPRuId-NesLUU3F9V3Cc/
   - kind: shepherded
     documents:
     - draft-ietf-bfd-intervals
@@ -90,7 +114,7 @@ chairs:
   - kind: WG Action
     date: '2024-10-25'
     subject: 'WG Action: Rechartered Bidirectional Forwarding Detection (bfd)'
-    message_id: 172988781527.193.164391867339711489@dt-datatracker-6cdf944fd9-dld6h
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/CmtlP2RoPRuId-NesLUU3F9V3Cc/
   - kind: shepherded
     documents:
     - draft-ietf-bfd-large-packets
@@ -111,6 +135,14 @@ chairs:
       certainty: exact
       date: '2015-10-26'
   evidence:
+  - kind: WG Action
+    date: '2013-12-06'
+    subject: 'WG Action: Rechartered Bidirectional Forwarding Detection (bfd)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/kWJxuzOslpBzntFoD-kh0OVOe0g/
+  - kind: WG Action
+    date: '2014-06-05'
+    subject: 'WG Action: Rechartered Bidirectional Forwarding Detection (bfd)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/YvgPwR3nU1htp6PW_hz6E48izaU/
   - kind: shepherded
     documents:
     - draft-ietf-bfd-on-lags

@@ -7,14 +7,36 @@ started: '1999-05-03'
 closed: '2004-01-15'
 history_url: https://datatracker.ietf.org/group/xmldsig/history/
 chairs:
+- person: 21126
+  name: Joseph Reagle
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1999-05-25'
+    end:
+      certainty: evidence-only
+      not_before: '1999-05-25'
+  evidence:
+  - kind: WG Action
+    date: '1999-05-25'
+    subject: 'WG ACTION: XML Digital Signatures (xmldsig)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/P370YqJazq1jyDEf4uXQDsfA7C0/
 - person: 102391
   name: Donald Eastlake
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-01-15'
+      date: '1999-05-25'
       not_before: '1999-05-03'
     end:
       certainty: group-closed
       date: '2004-01-15'
+    notes:
+    - start moved earlier by WG Action announcement of 1999-05-25
+  evidence:
+  - kind: WG Action
+    date: '1999-05-25'
+    subject: 'WG ACTION: XML Digital Signatures (xmldsig)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/P370YqJazq1jyDEf4uXQDsfA7C0/

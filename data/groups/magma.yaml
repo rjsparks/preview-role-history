@@ -7,6 +7,21 @@ started: '2001-06-20'
 closed: '2009-03-08'
 history_url: https://datatracker.ietf.org/group/magma/history/
 chairs:
+- person: 13108
+  name: Bill Fenner
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2001-07-30'
+    end:
+      certainty: evidence-only
+      not_before: '2001-07-30'
+  evidence:
+  - kind: WG Action
+    date: '2001-07-30'
+    subject: 'WG ACTION: Multicast & Anycast Group Membership (magma)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/ZKk2V7EnCkjA0RpHe2M1V-rw6QU/
 - person: 20208
   name: Isidor Kouvelas
   status: confirmed
@@ -24,8 +39,15 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2009-03-08'
+      date: '2001-07-30'
       not_before: '2001-06-20'
     end:
       certainty: group-closed
       date: '2009-03-08'
+    notes:
+    - start moved earlier by WG Action announcement of 2001-07-30
+  evidence:
+  - kind: WG Action
+    date: '2001-07-30'
+    subject: 'WG ACTION: Multicast & Anycast Group Membership (magma)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/ZKk2V7EnCkjA0RpHe2M1V-rw6QU/
