@@ -13,13 +13,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2009-07-26'
+      date: '2006-11-22'
       not_before: '2004-11-23'
     end:
       certainty: group-closed
       date: '2012-11-14'
     notes:
     - start moved earlier by session request for IETF 75
+    - widened to cover last calls and adoption calls on the group list
   evidence:
   - kind: WG Review
     date: '2008-07-21'
@@ -33,6 +34,26 @@ chairs:
     date: '2010-06-08'
     subject: 'WG Action: RECHARTER: Sieve Mail Filtering Language (sieve)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/06aZ9jVS4SbCWgjaZU_S55cPoPA/
+  - kind: chair activity
+    first: '2006-11-22'
+    last: '2012-05-30'
+    messages: 15
+    examples:
+    - date: '2006-11-22'
+      subject: 'WGLC: draft-ietf-sieve-editheader-07.txt'
+      url: https://mailarchive.ietf.org/arch/msg/sieve/RYbcobwXFtB60k1VQu-THaPcKy0/
+    - date: '2006-11-22'
+      subject: 'WGLC: draft-ietf-sieve-body-05.txt'
+      url: https://mailarchive.ietf.org/arch/msg/sieve/Xlhw8sezzW-uMF9XlWWzOsnBhB8/
+    - date: '2007-06-30'
+      subject: Agenda for Chicago
+      url: https://mailarchive.ietf.org/arch/msg/sieve/9BiS1wN9FxhtwaOEzEV2IH5HOY4/
+    - date: '2007-07-06'
+      subject: 'WGLC: draft-ietf-sieve-notify-xmpp-04.txt'
+      url: https://mailarchive.ietf.org/arch/msg/sieve/SV43HXJQAGDG5_xArd7zU2q0hGM/
+    - date: '2008-07-17'
+      subject: Agenda for Dublin
+      url: https://mailarchive.ietf.org/arch/msg/sieve/KsMn740PatykHRYV0zAM5uzVidE/
   - kind: session requests
     meetings:
     - '75'
@@ -59,6 +80,26 @@ chairs:
     date: '2008-07-21'
     subject: 'WG Review: Recharter of Sieve Mail Filtering (sieve)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/_t07eN_LALUem8HMCl2Y3rWhr8A/
+  - kind: chair activity
+    first: '2004-12-21'
+    last: '2009-01-15'
+    messages: 31
+    examples:
+    - date: '2004-12-21'
+      subject: Working Group Last Call on draft-ietf-sieve-variables-00.txt
+      url: https://mailarchive.ietf.org/arch/msg/sieve/ldlAG3lVK7WQy9jlJzE4bIkgs1A/
+    - date: '2005-07-13'
+      subject: 'Working Group Last Call: draft-ietf-sieve-rfc3598bis-00.txt (Subaddress)'
+      url: https://mailarchive.ietf.org/arch/msg/sieve/keeCvyjEisCCH1ypf4XjrUj8Al4/
+    - date: '2005-07-19'
+      subject: 'Working Group Last Call: draft-ietf-sieve-3028bis-04.txt (Sieve base)'
+      url: https://mailarchive.ietf.org/arch/msg/sieve/GpnJLYkJ9Co30vmhQQRx97QjLdY/
+    - date: '2005-10-13'
+      subject: Proposed agenda for the SIEVE WG meeting in Vancouver
+      url: https://mailarchive.ietf.org/arch/msg/sieve/5635voZQUbusRog3OZPHD6MWTCg/
+    - date: '2005-11-19'
+      subject: Missing some information for the Vancouver minutes
+      url: https://mailarchive.ietf.org/arch/msg/sieve/9lh-rWTvgtW_J5PPMCCEKsUx--c/
   - kind: session requests
     meetings:
     - '65'
@@ -77,14 +118,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: approximate
-      date: '2009-03-30'
+      certainty: on-or-before
+      date: '2010-06-08'
+      not_before: '2004-11-23'
     end:
       certainty: group-closed
       date: '2012-11-14'
     notes:
     - start moved earlier by WG Action announcement of 2010-06-08
-    - start dated by list message of 2009-03-30
   evidence:
   - kind: WG Review
     date: '2010-05-24'
@@ -94,10 +135,11 @@ chairs:
     date: '2010-06-08'
     subject: 'WG Action: RECHARTER: Sieve Mail Filtering Language (sieve)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/06aZ9jVS4SbCWgjaZU_S55cPoPA/
-  - kind: list message
-    date: '2009-03-30'
-    says: start
-    subject: 'New chair: Aaron Stone'
-    url: https://mailarchive.ietf.org/arch/msg/sieve/Y0FzW0yH_50khYsaA_7sH3e1has/
-    excerpt: With Alexey stepping up as AD this month, I asked Aaron Stone to join Cyrus in chairing this
-      group.
+  - kind: chair activity
+    first: '2010-03-30'
+    last: '2010-03-30'
+    messages: 1
+    examples:
+    - date: '2010-03-30'
+      subject: '[sieve] Draft minutes from IETF 77'
+      url: https://mailarchive.ietf.org/arch/msg/sieve/jVQbmzk8PKMKZMGtvZXMg9D6Nlw/

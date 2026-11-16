@@ -30,6 +30,26 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: chair activity
+    first: '2014-07-14'
+    last: '2022-12-06'
+    messages: 16
+    examples:
+    - date: '2014-07-14'
+      subject: '[Cfrg] Draft Agenda for Toronto'
+      url: https://mailarchive.ietf.org/arch/msg/cfrg/Fql3DpdMhgT0WmO3D1ztqicP4eE/
+    - date: '2014-08-14'
+      subject: '[Cfrg] Minutes from the Toronto meeting are posted'
+      url: https://mailarchive.ietf.org/arch/msg/cfrg/39qUJVAega9dwtCfSnY8zx91p54/
+    - date: '2017-07-21'
+      subject: '[Cfrg] Adoption call for "Verifiable Random Functions": draft-goldbe-vrf-01'
+      url: https://mailarchive.ietf.org/arch/msg/cfrg/-U81Hdjf4k11iyYZV_RAgT4pkxg/
+    - date: '2018-02-10'
+      subject: '[Cfrg] Adoption call for draft-hoffman-c2pq-02'
+      url: https://mailarchive.ietf.org/arch/msg/cfrg/K9O_6HnoMQN_GW8oTieANXT0TN8/
+    - date: '2018-04-08'
+      subject: '[Cfrg] Adoption call for draft-harkins-pkex-05'
+      url: https://mailarchive.ietf.org/arch/msg/cfrg/wzsM3G6KowSQarby9GjPmOpBv7o/
   - kind: shepherded
     documents:
     - draft-irtf-cfrg-aead-properties
@@ -60,6 +80,17 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/cfrg/XLvmnRFJlwmkzU6CH0Dgy7xTHlI/
     excerpt: David McGrew has informed me that he needs to step down as co-chair of CFRG soon, because
       other responsibilities no longer allow him the time that to do a good job in that function.
+  - kind: chair activity
+    first: '2002-11-05'
+    last: '2014-02-28'
+    messages: 6
+    examples:
+    - date: '2002-11-05'
+      subject: '[Cfrg] CFRG Agenda for IETF 55'
+      url: https://mailarchive.ietf.org/arch/msg/cfrg/tmqEoWWICoWWjZTxbenbnkioaho/
+    - date: '2012-03-23'
+      subject: '[Cfrg] agenda for meeting at IETF 83'
+      url: https://mailarchive.ietf.org/arch/msg/cfrg/I54bLoQHaghPVVfj0Yiov3QQj14/
   - kind: shepherded
     documents:
     - draft-irtf-cfrg-ocb
@@ -101,6 +132,20 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/cfrg/EpXvipbsVcrxjKCjhxuRfhJjROM/
     excerpt: Kenny Paterson has requested to step down as CFRG co-chair, due to increased workload in
       his day job.
+  - kind: chair activity
+    first: '2019-04-26'
+    last: '2019-09-06'
+    messages: 4
+    examples:
+    - date: '2019-04-26'
+      subject: '[Cfrg] Adoption call for draft-boneh-bls-signature'
+      url: https://mailarchive.ietf.org/arch/msg/cfrg/awJwF7vb61BBOraEQHIMKG_slaM/
+    - date: '2019-04-26'
+      subject: '[Cfrg] Adoption call for draft-barnes-cfrg-hpke'
+      url: https://mailarchive.ietf.org/arch/msg/cfrg/W1uz8OfSh-_IEX3A5583a-dGAsE/
+    - date: '2019-05-07'
+      subject: '[Cfrg] Adoption call for draft-sullivan-cfrg-voprf'
+      url: https://mailarchive.ietf.org/arch/msg/cfrg/F49EPSwfZLTfXQ9B1PhhJGlzekk/
   - kind: shepherded
     documents:
     - draft-irtf-cfrg-gcmsiv
@@ -158,6 +203,17 @@ chairs:
     subject: '[Cfrg] Raw minutes of today''s meeting'
     url: https://mailarchive.ietf.org/arch/msg/cfrg/ERmg_AlQJim6yW5j3rUqFfhQiXg/
     excerpt: New co-chair (Nick Sullivan).
+  - kind: chair activity
+    first: '2019-07-12'
+    last: '2020-10-08'
+    messages: 2
+    examples:
+    - date: '2019-07-12'
+      subject: '[Cfrg] Agenda for CFRG meeting at IETF 105'
+      url: https://mailarchive.ietf.org/arch/msg/cfrg/tx8mxSboor9PyV1DYQfx2VLE8gU/
+    - date: '2020-10-08'
+      subject: '[Cfrg] Call for adoption: Threshold Signatures'
+      url: https://mailarchive.ietf.org/arch/msg/cfrg/TQqf9AzvdxA-pPtgRSxmElGJtbI/
   - kind: shepherded
     documents:
     - draft-irtf-cfrg-frost

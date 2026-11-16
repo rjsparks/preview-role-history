@@ -21,6 +21,17 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 74
   evidence:
+  - kind: chair activity
+    first: '2009-03-23'
+    last: '2010-01-13'
+    messages: 2
+    examples:
+    - date: '2009-03-23'
+      subject: '[ledbat] IETF 74 - Minutes/Slides'
+      url: https://mailarchive.ietf.org/arch/msg/ledbat/lnfJvyKh5mN1vINjbennJS0dBaQ/
+    - date: '2010-01-13'
+      subject: '[ledbat] missing minutes'
+      url: https://mailarchive.ietf.org/arch/msg/ledbat/euHXGUWFi9S1eQqhIk3IihuYjyA/
   - kind: session requests
     meetings:
     - '74'
@@ -35,8 +46,28 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2011-06-16'
       not_before: '2008-10-30'
     end:
       certainty: group-closed
       date: '2012-12-20'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
+  evidence:
+  - kind: chair activity
+    first: '2010-10-13'
+    last: '2011-10-11'
+    messages: 4
+    examples:
+    - date: '2010-10-13'
+      subject: '[ledbat] Agenda for Beijing'
+      url: https://mailarchive.ietf.org/arch/msg/ledbat/IlJUtp0sgFo9KJHf0RASm3xGgBY/
+    - date: '2010-11-11'
+      subject: '[ledbat] Meeting minutes online'
+      url: https://mailarchive.ietf.org/arch/msg/ledbat/WXoFDXXNBYl945SaN8WKILlGaB0/
+    - date: '2011-06-16'
+      subject: '[ledbat] WG last call on draft-ietf-ledbat-congestion-06 ended'
+      url: https://mailarchive.ietf.org/arch/msg/ledbat/07CdEBgnTo2oQEfGoTM-c1zYiA0/
+    - date: '2011-10-11'
+      subject: '[ledbat] WG last call on draft-ietf-ledbat-congestion-08'
+      url: https://mailarchive.ietf.org/arch/msg/ledbat/4HZqzFkQdPY9ftY83Ik8wRKRtvQ/

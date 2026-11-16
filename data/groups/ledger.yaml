@@ -29,3 +29,12 @@ chairs:
     end:
       certainty: group-closed
       date: '2016-10-04'
+  evidence:
+  - kind: chair activity
+    first: '2016-08-04'
+    last: '2016-08-04'
+    messages: 1
+    examples:
+    - date: '2016-08-04'
+      subject: '[Ledger] BoF Minutes Posted'
+      url: https://mailarchive.ietf.org/arch/msg/ledger/pUiuV5v-VVsF7T956zywgzA1-xs/

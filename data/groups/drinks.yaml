@@ -18,6 +18,17 @@ chairs:
       certainty: evidence-only
       not_before: '2009-07-26'
   evidence:
+  - kind: chair activity
+    first: '2009-02-08'
+    last: '2009-07-23'
+    messages: 3
+    examples:
+    - date: '2009-02-08'
+      subject: '[drinks] Agenda Items...'
+      url: https://mailarchive.ietf.org/arch/msg/drinks/G6W4bxWRjzmPuPgEuRThLWooWO4/
+    - date: '2009-03-03'
+      subject: '[drinks] I''d like to finalize any agenda items other than the use case..'
+      url: https://mailarchive.ietf.org/arch/msg/drinks/7qr8VoNmrMqEEddlxqcd1MLv6KA/
   - kind: session requests
     meetings:
     - '72'
@@ -30,11 +41,34 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2011-04-27'
       not_before: '2008-05-01'
     end:
       certainty: exact
       date: '2014-03-03'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
+  evidence:
+  - kind: chair activity
+    first: '2010-08-26'
+    last: '2012-07-30'
+    messages: 21
+    examples:
+    - date: '2010-08-26'
+      subject: '[drinks] DRINKS WG Interim Meeting in Sep'
+      url: https://mailarchive.ietf.org/arch/msg/drinks/ygz_nDnuEZP9dcCGxqOtvOOR24A/
+    - date: '2010-09-07'
+      subject: '[drinks] Follow-up: DRINKS WG Interim Meeting (9/15)'
+      url: https://mailarchive.ietf.org/arch/msg/drinks/pGHX6X2Zvue8NzGByyiTo4cTLdw/
+    - date: '2011-04-27'
+      subject: '[drinks] WGLC: draft-ietf-drinks-spprov'
+      url: https://mailarchive.ietf.org/arch/msg/drinks/pBav932WYrr8qGijXI_4AKfbl-U/
+    - date: '2011-05-19'
+      subject: '[drinks] WGLC Announcement: draft-ietf-drinks-spprov-over-soap'
+      url: https://mailarchive.ietf.org/arch/msg/drinks/KTMbDpiOjSSILU5ePHpr3OScX6w/
+    - date: '2012-07-30'
+      subject: '[drinks] WGLC announcement for draft-ietf-drinks-spp-protocol-over-soap-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/drinks/eTvZtTOc9VvLiEuTYljSI-J1ZHQ/
 - person: 107406
   name: Alexander Mayrhofer
   status: confirmed
@@ -49,6 +83,23 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 73
   evidence:
+  - kind: chair activity
+    first: '2009-08-18'
+    last: '2013-05-21'
+    messages: 47
+    examples:
+    - date: '2009-08-18'
+      subject: '[drinks] Stockholm Meeting minutes posted'
+      url: https://mailarchive.ietf.org/arch/msg/drinks/fiwYLGaaXEbqzB1_DhzUaUOAysQ/
+    - date: '2009-09-28'
+      subject: '[drinks] Hiroshima, Virtual Interim & Milestones Proposal'
+      url: https://mailarchive.ietf.org/arch/msg/drinks/liOq6Erc_wwVpteucz5U9Z3zpng/
+    - date: '2010-11-01'
+      subject: '[drinks] WGLC: draft-ietf-drinks-usecases-requirements'
+      url: https://mailarchive.ietf.org/arch/msg/drinks/1wFIq80qllorsN83YILa2C3ZkZs/
+    - date: '2012-07-30'
+      subject: '[drinks] WGLC announcement for draft-ietf-drinks-spp-framework-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/drinks/SoPhnBZJPJc8pJMCAa-HZyuMXSg/
   - kind: session requests
     meetings:
     - '73'

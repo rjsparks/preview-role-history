@@ -27,3 +27,12 @@ chairs:
     end:
       certainty: group-closed
       date: '2018-06-05'
+  evidence:
+  - kind: chair activity
+    first: '2018-04-03'
+    last: '2018-04-03'
+    messages: 1
+    examples:
+    - date: '2018-04-03'
+      subject: '[Ila] IETF 101 ILA BOF minutes uploaded'
+      url: https://mailarchive.ietf.org/arch/msg/ila/xRQSqYzmAgGcTGI-_5rEAi4pfvo/

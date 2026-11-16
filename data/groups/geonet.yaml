@@ -26,6 +26,18 @@ chairs:
     end:
       certainty: group-closed
       date: '2014-01-23'
+  evidence:
+  - kind: chair activity
+    first: '2013-11-25'
+    last: '2014-09-09'
+    messages: 3
+    examples:
+    - date: '2013-11-25'
+      subject: '[geonet/its] uploaded geonet BoF minutes Vancouver IETF88'
+      url: https://mailarchive.ietf.org/arch/msg/its/2a2uR398q5YBp9iTEYcuTU3sBSI/
+    - date: '2014-03-11'
+      subject: '[geonet/its] minutes of the ''geonet'' meeting in London IETF89'
+      url: https://mailarchive.ietf.org/arch/msg/its/vI4DcyT9UnvULuxwf2TtoSx_6kA/
 - person: 119947
   name: Margaret Cullen
   status: confirmed

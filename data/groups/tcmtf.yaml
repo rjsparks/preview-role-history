@@ -57,3 +57,12 @@ chairs:
     end:
       certainty: group-closed
       date: '2014-06-11'
+  evidence:
+  - kind: chair activity
+    first: '2014-02-17'
+    last: '2014-02-17'
+    messages: 1
+    examples:
+    - date: '2014-02-17'
+      subject: '[tcmtf] Draft agenda'
+      url: https://mailarchive.ietf.org/arch/msg/tcmtf/lvwHXm2KAKTTdoB09tz7tuvar64/

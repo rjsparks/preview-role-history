@@ -7,6 +7,29 @@ started: '2008-05-22'
 closed: '2018-10-18'
 history_url: https://datatracker.ietf.org/group/savi/history/
 chairs:
+- person: 13108
+  name: Bill Fenner
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2008-11-16'
+    end:
+      certainty: approximate
+      date: '2009-12-17'
+    notes:
+    - end dated by list message of 2009-12-17
+  evidence:
+  - kind: list message
+    date: '2009-12-17'
+    says: end
+    subject: '[savi] working group chairs'
+    url: https://mailarchive.ietf.org/arch/msg/savi/i4L-a9s2aQ8BhYjj1LuUYj26EF4/
+    excerpt: Bill Fenner will step down as WG chair for SAVI, due to day job taking too much of his time.
+  - kind: session requests
+    meetings:
+    - '73'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
 - person: 108396
   name: Christian Vogt
   status: confirmed
@@ -21,6 +44,26 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 74
   evidence:
+  - kind: chair activity
+    first: '2008-11-13'
+    last: '2010-11-09'
+    messages: 13
+    examples:
+    - date: '2008-11-13'
+      subject: '[savi] SAVI Meeting Agenda for IETF 73'
+      url: https://mailarchive.ietf.org/arch/msg/savi/q43hEJeVmrdyW-M61y96xunh_xI/
+    - date: '2009-03-21'
+      subject: '[savi] SAVI Meeting Agenda for IETF 74'
+      url: https://mailarchive.ietf.org/arch/msg/savi/2QatTpT-Ch2rknZ-BrmpllJaZYE/
+    - date: '2010-09-08'
+      subject: '[savi] WG Last Call for SAVI Threat Scope Document'
+      url: https://mailarchive.ietf.org/arch/msg/savi/R_joLOEKUCuS6elvAj2vCb1LhQQ/
+    - date: '2010-11-09'
+      subject: '[savi] Working group last call on draft-ietf-savi-send'
+      url: https://mailarchive.ietf.org/arch/msg/savi/6xEjPo2AIqZpMzPTg7WSk-ob8WM/
+    - date: '2010-11-09'
+      subject: '[savi] Working group last call on draft-ietf-savi-fcfs'
+      url: https://mailarchive.ietf.org/arch/msg/savi/RFAZuSk5LoyzJECcHSeuCK6mIJ4/
   - kind: session requests
     meetings:
     - '74'
@@ -42,6 +85,7 @@ chairs:
       date: '2018-10-18'
     notes:
     - start moved earlier by session request for IETF 80
+    - widened to cover last calls and adoption calls on the group list
     - start dated by list message of 2010-02-15
   evidence:
   - kind: list message
@@ -50,6 +94,23 @@ chairs:
     subject: '[savi] new working group chair'
     url: https://mailarchive.ietf.org/arch/msg/savi/Mi_-B3cDdn84qOQSV_foTMqnL-s/
     excerpt: I'm happy to announce that Jean-Michel Combes will be a new chair of SAVI.
+  - kind: chair activity
+    first: '2010-03-22'
+    last: '2014-04-08'
+    messages: 10
+    examples:
+    - date: '2010-03-22'
+      subject: '[savi] Minutes taker & Jabber scribe needed'
+      url: https://mailarchive.ietf.org/arch/msg/savi/ll9bl7-IuLWzKRubcovxyHVY5r4/
+    - date: '2010-04-15'
+      subject: '[savi] Draft Minutes - IETF 77 meeting'
+      url: https://mailarchive.ietf.org/arch/msg/savi/fHT9Nc1aVlyNlQOH_vp6QZKkGDM/
+    - date: '2011-02-16'
+      subject: '[savi] WGLC: draft-ietf-savi-framework-02'
+      url: https://mailarchive.ietf.org/arch/msg/savi/JXTdLOt5gkQblG8WsdiSCTsTm20/
+    - date: '2014-04-08'
+      subject: '[savi] WGLC: draft-ietf-savi-dhcp-22'
+      url: https://mailarchive.ietf.org/arch/msg/savi/0ymjxtFOwLB-d2nNOYpFLTcx858/
   - kind: session requests
     meetings:
     - '80'

@@ -52,6 +52,18 @@ chairs:
     end:
       certainty: exact
       date: '2015-07-24'
+  evidence:
+  - kind: chair activity
+    first: '2014-11-15'
+    last: '2015-07-23'
+    messages: 3
+    examples:
+    - date: '2014-11-15'
+      subject: '[tcpinc] Prelimanry minutes'
+      url: https://mailarchive.ietf.org/arch/msg/tcpinc/ggLASPPAvvsLfyPStRv21NfZWZA/
+    - date: '2015-03-27'
+      subject: '[tcpinc] Any more corrections to minutes.'
+      url: https://mailarchive.ietf.org/arch/msg/tcpinc/jERyVuOsTDpahPy_l28z1_mOE9E/
 - person: 112330
   name: Mirja Kühlewind
   status: confirmed
@@ -69,6 +81,23 @@ chairs:
     subject: '[tcpinc] New WG chair: Mirja Kühlewind'
     url: https://mailarchive.ietf.org/arch/msg/tcpinc/Xu4ejV104PuErLMp11P_BY9wX2k/
     excerpt: Please welcome Mirja Kühlewind as the new chair for the tcpinc WG.
+  - kind: chair activity
+    first: '2015-09-15'
+    last: '2015-10-20'
+    messages: 4
+    examples:
+    - date: '2015-09-15'
+      subject: '[tcpinc] Call for adoption for draft-bittau-tcpinc-tcpeno'
+      url: https://mailarchive.ietf.org/arch/msg/tcpinc/ONgLfgZBDkTZsngqFesTAW2qpR8/
+    - date: '2015-10-19'
+      subject: '[tcpinc] Draft agenda'
+      url: https://mailarchive.ietf.org/arch/msg/tcpinc/qXLjKHRHeKVEYTHkNn262h1W5nM/
+    - date: '2015-10-20'
+      subject: '[tcpinc] Call for adoption of draft-rescorla-tcpinc-tls-option-05'
+      url: https://mailarchive.ietf.org/arch/msg/tcpinc/ofaGm51Eo6X9fCqSWj2E6bONsQI/
+    - date: '2015-10-20'
+      subject: '[tcpinc] Call for adoption of draft-bittau-tcpinc-tcpcrypt-04'
+      url: https://mailarchive.ietf.org/arch/msg/tcpinc/CEMKUAbHAu6T7kZXWYwwOkXGDak/
 - person: 119463
   name: Kyle Rose
   status: confirmed
@@ -86,6 +115,23 @@ chairs:
     subject: '[tcpinc] New co-chair for TCPINC'
     url: https://mailarchive.ietf.org/arch/msg/tcpinc/o6eYLaasSLYYDlJLYORBETGfU18/
     excerpt: 'Please welcome Kyle Rose (email: as the new co-chair for TCPINC.'
+  - kind: chair activity
+    first: '2016-04-11'
+    last: '2017-01-23'
+    messages: 5
+    examples:
+    - date: '2016-04-11'
+      subject: '[tcpinc] Draft minutes'
+      url: https://mailarchive.ietf.org/arch/msg/tcpinc/PI_uxbmt-SOI6kv8YjwtFUyxvjo/
+    - date: '2016-07-24'
+      subject: '[tcpinc] Draft minutes posted'
+      url: https://mailarchive.ietf.org/arch/msg/tcpinc/Zg92quYisYEByO2LJ4y_WSFWIx4/
+    - date: '2017-01-23'
+      subject: '[tcpinc] WGLC for draft-ietf-tcpinc-tcpeno'
+      url: https://mailarchive.ietf.org/arch/msg/tcpinc/sEmoIKPscKRtsLs_iNGSSlXy4X8/
+    - date: '2017-01-23'
+      subject: '[tcpinc] WGLC for draft-ietf-tcpinc-tcpcrypt'
+      url: https://mailarchive.ietf.org/arch/msg/tcpinc/uRHiHke4RVAVhHl2vd83ucP3hkw/
   - kind: shepherded
     documents:
     - draft-ietf-tcpinc-tcpcrypt

@@ -29,3 +29,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2015-05-29'
+  evidence:
+  - kind: chair activity
+    first: '2015-03-09'
+    last: '2015-05-07'
+    messages: 2
+    examples:
+    - date: '2015-03-09'
+      subject: '[Spud] Draft agenda for BoF'
+      url: https://mailarchive.ietf.org/arch/msg/spud/2r0rVg8a6FL7bJiCzjILI4QBO64/
+    - date: '2015-05-07'
+      subject: '[Spud] Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/spud/9umYw-EeD-yLnq1RohzdpLIlu10/

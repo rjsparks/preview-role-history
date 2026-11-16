@@ -26,12 +26,23 @@ chairs:
       not_after: '2000-02-08'
     end:
       certainty: evidence-only
-      not_before: '2000-02-08'
+      not_before: '2001-12-21'
   evidence:
   - kind: WG Action
     date: '2000-02-08'
     subject: 'WG ACTION: Internationalized Domain Name (idn)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/Wj-ySU8AByYgy4qhjw_g-a47zfo/
+  - kind: chair activity
+    first: '2001-10-23'
+    last: '2001-12-21'
+    messages: 2
+    examples:
+    - date: '2001-10-23'
+      subject: '[idn] proposed wg charter, goal & milestone update'
+      url: https://mailarchive.ietf.org/arch/msg/idn/Z3FyYDRauFL7v0gwRENKBEnt_eU/
+    - date: '2001-12-21'
+      subject: '[idn] SLC minutes'
+      url: https://mailarchive.ietf.org/arch/msg/idn/CiqvhlyP2EPzFsLhTodmZPE-YSs/
 - person: 19869
   name: Marc Blanchet
   status: unconfirmed
@@ -41,9 +52,23 @@ chairs:
       not_after: '2000-02-08'
     end:
       certainty: evidence-only
-      not_before: '2000-02-08'
+      not_before: '2002-02-12'
   evidence:
   - kind: WG Action
     date: '2000-02-08'
     subject: 'WG ACTION: Internationalized Domain Name (idn)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/Wj-ySU8AByYgy4qhjw_g-a47zfo/
+  - kind: chair activity
+    first: '2001-04-26'
+    last: '2002-02-12'
+    messages: 3
+    examples:
+    - date: '2001-04-26'
+      subject: '[idn] wg milestones update'
+      url: https://mailarchive.ietf.org/arch/msg/idn/UEv3UHA2RVqWsUBUYkkmcY-lG6c/
+    - date: '2001-08-21'
+      subject: '[idn] ietf london idn wg meeting minutes'
+      url: https://mailarchive.ietf.org/arch/msg/idn/gsAZNNGdmDXavfLjPJrI3CuloBY/
+    - date: '2002-02-12'
+      subject: '[idn] WG last call period is now over'
+      url: https://mailarchive.ietf.org/arch/msg/idn/IMSTyabOabntg0t-7L13i8JLw-I/

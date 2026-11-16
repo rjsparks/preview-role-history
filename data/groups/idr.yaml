@@ -13,12 +13,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-03-26'
+      date: '2002-08-26'
       not_before: '1994-07-06'
     end:
       certainty: ongoing
     notes:
     - start moved earlier by WG Action announcement of 2010-03-26
+    - widened to cover last calls and adoption calls on the group list
   evidence:
   - kind: WG Review
     date: '2010-02-08'
@@ -36,6 +37,26 @@ chairs:
     date: '2026-07-06'
     subject: 'WG Action: Rechartered Inter-Domain Routing (idr)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/LmCBBwtO3ch8iHWjPC8OuX84kSk/
+  - kind: chair activity
+    first: '2001-03-15'
+    last: '2026-11-06'
+    messages: 174
+    examples:
+    - date: '2001-03-15'
+      subject: IDR agenda for next week
+      url: https://mailarchive.ietf.org/arch/msg/idr/SNtl7CQyiPgUHtbqWG-lsuOSmwk/
+    - date: '2001-11-30'
+      subject: Tentative Agenda for 12/13/01
+      url: https://mailarchive.ietf.org/arch/msg/idr/MPeKrme6ca4U69phN0ujfWxdAYU/
+    - date: '2002-08-26'
+      subject: Working Group last call
+      url: https://mailarchive.ietf.org/arch/msg/idr/5aBLW-QALQbB9X5cYasSGuGXquc/
+    - date: '2010-02-11'
+      subject: '[Idr] Working Group Last Call for draft-chen-bgp-ext-opt-param-02'
+      url: https://mailarchive.ietf.org/arch/msg/idr/xIsgtLkiZ0oXgKAROcsZAfLdMbU/
+    - date: '2012-02-11'
+      subject: '[Idr] WGLC on'
+      url: https://mailarchive.ietf.org/arch/msg/idr/K4mzbe3mifFMhltUYOBfywHoOgg/
   - kind: shepherded
     documents:
     - draft-chen-bgp-redist
@@ -184,6 +205,27 @@ chairs:
     subject: '[Idr] Thank you Yakov!'
     url: https://mailarchive.ietf.org/arch/msg/idr/ixUnXqclguvXKl90ReeWgy9DysQ/
     excerpt: Please welcome John Scudder as co-chair.
+  - kind: chair activity
+    first: '2004-08-24'
+    last: '2011-11-15'
+    messages: 18
+    examples:
+    - date: '2004-08-24'
+      subject: '[Idr] Draft minutes for August 2 meeting'
+      url: https://mailarchive.ietf.org/arch/msg/idr/a8wOmtq_p6ccrm275EwJKfyOmHU/
+    - date: '2010-02-05'
+      subject: '[Idr] WG Last Call for AS-wide Unique BGP Identifier for BGP-4'
+      url: https://mailarchive.ietf.org/arch/msg/idr/lXze4gRh_GqWTd6s7NgJUAFq-3c/
+    - date: '2010-02-15'
+      subject: '[Idr] Working group last call for draft-ietf-idr-bgp-bestpath-selection-criteria-01'
+      url: https://mailarchive.ietf.org/arch/msg/idr/OqsCexPPmtvKjHNJzf4EcpwPhtQ/
+    - date: '2010-08-31'
+      subject: '[Idr] IETF-78 IDR minutes'
+      url: https://mailarchive.ietf.org/arch/msg/idr/BcIR6YNHaUnj7XD7Om232IYRTm4/
+    - date: '2010-10-04'
+      subject: '[Idr] WGLC for draft-ietf-idr-rfc4893bis-03.txt, BGP Support for Four-octet AS Number
+        Space'
+      url: https://mailarchive.ietf.org/arch/msg/idr/5eOI_jo4s4nbtkl1A1Bwkv-ojbs/
   - kind: session requests
     meetings:
     - '76'
@@ -205,7 +247,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2006-03-19'
+      not_after: '1996-12-01'
     end:
       certainty: evidence-only
       not_before: '2009-07-26'
@@ -216,6 +258,26 @@ chairs:
     subject: '[Idr] Change in IDR WG chair'
     url: https://mailarchive.ietf.org/arch/msg/idr/Gvnk43GhLTuGz_lWiTB2cMdNF3k/
     excerpt: Yakov Rekhter has asked to step down a IDR co-chair.
+  - kind: chair activity
+    first: '1996-12-01'
+    last: '2009-03-24'
+    messages: 35
+    examples:
+    - date: '1996-12-01'
+      subject: agenda for the upcoming WG meeting
+      url: https://mailarchive.ietf.org/arch/msg/idr/Xg8LgTc5b1cbTANf5-HACa1-ukk/
+    - date: '1997-06-13'
+      subject: agenda items
+      url: https://mailarchive.ietf.org/arch/msg/idr/YFZm3Fv8_kiYX2MFL4ChWTkfe0E/
+    - date: '1997-08-21'
+      subject: WG Last Call
+      url: https://mailarchive.ietf.org/arch/msg/idr/FtLO8NGD8NQUDoEhfkjoYEzcFug/
+    - date: '1997-09-10'
+      subject: WG last call
+      url: https://mailarchive.ietf.org/arch/msg/idr/aYemRG84uYIr1X4oDw_F67uSmaQ/
+    - date: '2000-09-26'
+      subject: WG last call on -bgp-confed-rfc1965bis-00
+      url: https://mailarchive.ietf.org/arch/msg/idr/oTgYHqrRJQ5_O2MmE2D6O7DP1AU/
   - kind: session requests
     meetings:
     - '65'
@@ -248,13 +310,23 @@ chairs:
     date: '2026-07-06'
     subject: 'WG Action: Rechartered Inter-Domain Routing (idr)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/LmCBBwtO3ch8iHWjPC8OuX84kSk/
-  - kind: list message
-    date: '2021-02-03'
-    says: start
-    subject: '[Idr] New idr WG co-Chairs'
-    url: https://mailarchive.ietf.org/arch/msg/idr/n-LnaXWlqyp7C6sE1Gzzpc8od3A/
-    excerpt: In consultation with Sue and the other ADs, we have asked Keyur Patel and Jeff Haas to join
-      Sue as idr Co-Chairs.
+  - kind: chair activity
+    first: '2021-07-23'
+    last: '2025-09-25'
+    messages: 6
+    examples:
+    - date: '2021-07-23'
+      subject: '[Idr] WG adoption call for draft-dunbar-idr-sdwan-edge-discovery-04.txt - Ends 08/06/2021'
+      url: https://mailarchive.ietf.org/arch/msg/idr/l5HexIxhNnmHM79aa4k0jv8ecGw/
+    - date: '2022-01-21'
+      subject: '[Idr] WG adoption call for draft-haas-idr-bfd-subcode-00.txt - Ends 02/04/2022'
+      url: https://mailarchive.ietf.org/arch/msg/idr/PeHEsLhO_kYpffSrLh2vJctAVag/
+    - date: '2022-03-11'
+      subject: '[Idr] WG adoption call for draft-hares-idr-flowspec-v2-05.txt- Ends 04/01/2022'
+      url: https://mailarchive.ietf.org/arch/msg/idr/luFi33Th10B59Zhkf33FMTbj9WY/
+    - date: '2024-06-17'
+      subject: '[Idr] Inter-Domain Routing (idr) WG Interim Meeting Cancelled (2024-06-17)'
+      url: https://mailarchive.ietf.org/arch/msg/idr/eB_-PTXxaL9bN-qWiN6cuP0jo2w/
   - kind: shepherded
     documents:
     - draft-chairs-idr-rfc4360-bis
@@ -287,6 +359,28 @@ chairs:
     date: '2026-07-06'
     subject: 'WG Action: Rechartered Inter-Domain Routing (idr)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/LmCBBwtO3ch8iHWjPC8OuX84kSk/
+  - kind: chair activity
+    first: '2021-06-04'
+    last: '2025-07-11'
+    messages: 15
+    examples:
+    - date: '2021-06-04'
+      subject: '[Idr] Flowspec v2 IDR interim - June 7, 2021'
+      url: https://mailarchive.ietf.org/arch/msg/idr/PWUj3XJty2JlIVTg2StCqfef7jA/
+    - date: '2022-01-06'
+      subject: '[Idr] IDR interim meeting for 10 January, 2022?'
+      url: https://mailarchive.ietf.org/arch/msg/idr/DIbbZQvVWlQ6wcJs74kPXuQmnzQ/
+    - date: '2022-10-13'
+      subject: '[Idr] Working Group Last Call for Long Lived Graceful Restart (ending 30 October, 2022)'
+      url: https://mailarchive.ietf.org/arch/msg/idr/qcb3XSwHdWAVCrSqLi5OXIYyrkE/
+    - date: '2022-10-17'
+      subject: '[Idr] Working Group Last Call for Deprecation of BGP Open Message Error Subcodes 8-10.
+        (Ending 12 November, 2022)'
+      url: https://mailarchive.ietf.org/arch/msg/idr/t9QbG0a1Y4j5T5IZhN0EqmAY6w0/
+    - date: '2024-05-24'
+      subject: '[Idr] Adoption call for IANA Registrations for the BGP Finite State Machine (FSM) (ending
+        31 May, 2024)'
+      url: https://mailarchive.ietf.org/arch/msg/idr/s02kbvZTQRqKtOmMCuxque9X2k0/
   - kind: shepherded
     documents:
     - draft-ietf-idr-bgp-ls-sbfd-extensions

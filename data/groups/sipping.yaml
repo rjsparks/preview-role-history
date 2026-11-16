@@ -13,14 +13,35 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-11-05'
+      date: '2006-06-29'
       not_before: '2001-03-29'
     end:
       certainty: group-closed
       date: '2009-05-01'
     notes:
     - start moved earlier by session request for IETF 67
+    - widened to cover last calls and adoption calls on the group list
   evidence:
+  - kind: chair activity
+    first: '2006-06-29'
+    last: '2009-04-14'
+    messages: 19
+    examples:
+    - date: '2006-06-29'
+      subject: '[Sipping] WGLC: draft-ietf-sipping-v6-transition-03.txt'
+      url: https://mailarchive.ietf.org/arch/msg/sipping/B3tw0LJn1rIfwn4wc-1hHKuv1c0/
+    - date: '2006-09-05'
+      subject: '[Sipping] WGLC: draft-ietf-sipping-capacity-attribute-01.txt'
+      url: https://mailarchive.ietf.org/arch/msg/sipping/I1uSylCEhvt4Cfr3W2ctYs8Bj_0/
+    - date: '2006-09-11'
+      subject: '[Sipping] WGLC: draft-ietf-sipping-dialogusage-03.txt'
+      url: https://mailarchive.ietf.org/arch/msg/sipping/Z6pBnNkyJrN_aF0nVzK17QSxpiI/
+    - date: '2007-09-06'
+      subject: '[Sipping] Proposed Milestone updates'
+      url: https://mailarchive.ietf.org/arch/msg/sipping/jsRg-TdvLPWAzezhFjle45zdwHs/
+    - date: '2008-08-13'
+      subject: '[Sipping] IETF-72 SIPPING WG minutes available'
+      url: https://mailarchive.ietf.org/arch/msg/sipping/Ae5bONS-7AdRhV6HZi_82NdS2wk/
   - kind: session requests
     meetings:
     - '67'
@@ -43,6 +64,7 @@ chairs:
       date: '2009-05-01'
     notes:
     - start moved earlier by WG Action announcement of 2004-07-14
+    - widened to cover last calls and adoption calls on the group list
     - start dated by list message of 2002-10-24
   evidence:
   - kind: WG Action
@@ -66,6 +88,26 @@ chairs:
     subject: '[Sipping] Minutes, SIPPING WG, IETF 55'
     url: https://mailarchive.ietf.org/arch/msg/sipping/2rESReosnTVDs2MuHRmPMv8CWfg/
     excerpt: Status and Charter, Chairs --------------------------- New co-chair Gonzalo Camarillo introduced.
+  - kind: chair activity
+    first: '2004-02-08'
+    last: '2008-12-17'
+    messages: 35
+    examples:
+    - date: '2004-02-08'
+      subject: '[Sipping] WGLC for draft-ietf-sipping-reason-header-for-preemption-00.txt'
+      url: https://mailarchive.ietf.org/arch/msg/sipping/zg5tk3bcXkx9MAQgXtyjY8Qr0uQ/
+    - date: '2004-03-10'
+      subject: '[Sipping] 59th IETF Notes and Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/sipping/K8jb7xra1n3UBFulCA1aRQt5css/
+    - date: '2004-10-19'
+      subject: '[Sipping] WGLC: e2m security requirements'
+      url: https://mailarchive.ietf.org/arch/msg/sipping/r86PrTDMlgNjD2QnVWP09N8gNeg/
+    - date: '2004-10-28'
+      subject: '[Sipping] WGLC: KPML'
+      url: https://mailarchive.ietf.org/arch/msg/sipping/JJUpcKulDOrJIeF6hUALS4QAVGo/
+    - date: '2005-08-31'
+      subject: '[Sipping] Draft minutes of IETF 63'
+      url: https://mailarchive.ietf.org/arch/msg/sipping/yMyguZ9FXPFA9KEwiSsaMcdQZmE/
   - kind: session requests
     meetings:
     - '66'
@@ -77,7 +119,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2001-11-02'
+      not_after: '2001-08-14'
     end:
       certainty: evidence-only
       not_before: '2006-03-19'
@@ -94,6 +136,26 @@ chairs:
     date: '2005-11-04'
     subject: 'WG Action: RECHARTER: Session Initiation Proposal Investigation (sipping)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/iMs2Erc8Zl49Yak5HbavfNf9xyI/
+  - kind: chair activity
+    first: '2001-08-14'
+    last: '2005-08-03'
+    messages: 17
+    examples:
+    - date: '2001-08-14'
+      subject: '[Sipping] Slides, Minutes and Stuff for SIPPING WG at IETF51'
+      url: https://mailarchive.ietf.org/arch/msg/sipping/H_5qhCg8l-V4ewM4V-iuUyNvvcM/
+    - date: '2001-08-24'
+      subject: '[Sipping] Draft Minutes, SIPPING, IETF51'
+      url: https://mailarchive.ietf.org/arch/msg/sipping/t528TYsjKSR3B36SHJmim5V1svg/
+    - date: '2002-04-13'
+      subject: '[Sipping] WGLC AKA-Digest'
+      url: https://mailarchive.ietf.org/arch/msg/sipping/37HC9hWaHENnKC4Bkvq3V49WIPc/
+    - date: '2002-05-10'
+      subject: '[Sipping] WGLC on 3PCC'
+      url: https://mailarchive.ietf.org/arch/msg/sipping/vQcMDKCQvW7-yIfKSFEDpylvrFs/
+    - date: '2002-05-28'
+      subject: '[Sipping] Working Group Last Call -- draft-ietf-sipping-nai-reqs'
+      url: https://mailarchive.ietf.org/arch/msg/sipping/FDCFsKAxN6Lvn2QK_P-eMod66A0/
   - kind: session requests
     meetings:
     - '65'
@@ -136,3 +198,23 @@ chairs:
     date: '2005-11-04'
     subject: 'WG Action: RECHARTER: Session Initiation Proposal Investigation (sipping)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/iMs2Erc8Zl49Yak5HbavfNf9xyI/
+  - kind: chair activity
+    first: '2002-03-13'
+    last: '2005-07-20'
+    messages: 18
+    examples:
+    - date: '2002-03-13'
+      subject: '[Sipping] Agenda for SIPPING at IETF 53'
+      url: https://mailarchive.ietf.org/arch/msg/sipping/HVyAGIfYLjRsnB8EcslmO7rN2yI/
+    - date: '2002-03-18'
+      subject: '[Sipping] WGLC on draft-ietf-sipping-deaf-req-00.txt'
+      url: https://mailarchive.ietf.org/arch/msg/sipping/IV31wXchkuv_Jt0ElRHLJZhczfc/
+    - date: '2002-03-25'
+      subject: '[Sipping] WGLC for call flows'
+      url: https://mailarchive.ietf.org/arch/msg/sipping/DwRl7w8zrVBH-1fXeirSbxkih9E/
+    - date: '2002-04-04'
+      subject: '[Sipping] possible agenda/motivation for interim meeting'
+      url: https://mailarchive.ietf.org/arch/msg/sipping/TzZtaJXNGA0mvXkKssx4A3qB2fU/
+    - date: '2002-05-29'
+      subject: '[Sipping] WGLC for ISUP overlap signaling'
+      url: https://mailarchive.ietf.org/arch/msg/sipping/SYCgEQZ8AgXg2LWpnCjpPxLExD4/

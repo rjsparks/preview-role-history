@@ -29,15 +29,6 @@ chairs:
     end:
       certainty: exact
       date: '2021-03-10'
-  evidence:
-  - kind: session requests
-    meetings:
-    - '72'
-    - '73'
-    - '74'
-    - '76'
-    - '77'
-    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
 - person: 105519
   name: Martin Stiemerling
   status: confirmed

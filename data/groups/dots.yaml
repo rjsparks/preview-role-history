@@ -28,6 +28,26 @@ chairs:
       certainty: group-closed
       date: '2023-04-12'
   evidence:
+  - kind: chair activity
+    first: '2019-04-08'
+    last: '2022-02-09'
+    messages: 21
+    examples:
+    - date: '2019-04-08'
+      subject: '[Dots] Adoption call for draft-reddy-dots-home-network-04'
+      url: https://mailarchive.ietf.org/arch/msg/dots/CXH6ZePO6FnUD6tNTZKMJPiVznk/
+    - date: '2019-04-08'
+      subject: '[Dots] Adoption call for draft-nishizuka-dots-signal-control-filtering-06'
+      url: https://mailarchive.ietf.org/arch/msg/dots/kKvupXE-WQVla7Kwmtgm60FdpRQ/
+    - date: '2019-07-05'
+      subject: '[Dots] DOTS WG agenda for IETF105'
+      url: https://mailarchive.ietf.org/arch/msg/dots/45icawK3mnzdIcQCprCt9WPUlJw/
+    - date: '2019-08-06'
+      subject: '[Dots] WGLC for draft-dots-use-cases-19'
+      url: https://mailarchive.ietf.org/arch/msg/dots/6wYpLMiCMkYQ34QgbCYLdItuyWY/
+    - date: '2019-11-12'
+      subject: '[Dots] DOTS agenda for IETF106'
+      url: https://mailarchive.ietf.org/arch/msg/dots/TxrYHXE0J2X-h0V0GgqC9c_jwQo/
   - kind: shepherded
     documents:
     - draft-ietf-dots-architecture
@@ -71,6 +91,18 @@ chairs:
     end:
       certainty: exact
       date: '2019-03-23'
+  evidence:
+  - kind: chair activity
+    first: '2015-10-11'
+    last: '2018-06-13'
+    messages: 2
+    examples:
+    - date: '2015-10-11'
+      subject: '[Dots] DOTS session schedule confirmed for IETF 94 & call for agenda items'
+      url: https://mailarchive.ietf.org/arch/msg/dots/r4_otakr_mrJO5Gz1bBT2T38MxQ/
+    - date: '2018-06-13'
+      subject: '[Dots] WGLC for use cases draft - until July-1.'
+      url: https://mailarchive.ietf.org/arch/msg/dots/6yFwxwKU02qTMsDuykQ-4Pc81kQ/
 - person: 111620
   name: Liang Xia
   status: confirmed

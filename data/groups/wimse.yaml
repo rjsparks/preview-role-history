@@ -37,6 +37,14 @@ chairs:
     date: '2024-02-26'
     subject: 'WG Review: Workload Identity in Multi System Environments (wimse)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/PAuVMopE2Bai6cli4zYodkWxIzA/
+  - kind: chair activity
+    first: '2023-11-07'
+    last: '2023-11-07'
+    messages: 1
+    examples:
+    - date: '2023-11-07'
+      subject: '[Wimse] BoF minutes from today''s session'
+      url: https://mailarchive.ietf.org/arch/msg/wimse/uHqKXC7IKJ7KWMQtlgDZ095mErw/
 - person: 112051
   name: Justin Richer
   status: confirmed
@@ -51,6 +59,26 @@ chairs:
     date: '2024-03-07'
     subject: 'WG Action: Formed Workload Identity in Multi System Environments (wimse)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/VT8yqedfuCvpOoyzi1paJqHuats/
+  - kind: chair activity
+    first: '2024-03-19'
+    last: '2026-08-10'
+    messages: 19
+    examples:
+    - date: '2024-03-19'
+      subject: '[Wimse] Interim Meetings'
+      url: https://mailarchive.ietf.org/arch/msg/wimse/5jObwuvn0x3XNhLIPhmlBCnGXHg/
+    - date: '2024-04-02'
+      subject: '[Wimse] Call for Adoption: WIMSE Architecture'
+      url: https://mailarchive.ietf.org/arch/msg/wimse/-Pdg6gDu8g_NLZyyi6NijhcI0PQ/
+    - date: '2024-04-11'
+      subject: '[Wimse] WIMSE Interim Scheduling'
+      url: https://mailarchive.ietf.org/arch/msg/wimse/7JrxqLYcmhVbc4v8d0kEsMs6kLc/
+    - date: '2025-10-13'
+      subject: '[WIMSE] Call for Adoption: WIMSE Identifiers'
+      url: https://mailarchive.ietf.org/arch/msg/wimse/VrXUkVMl-R_lxMfZ7PUl-V6YZLo/
+    - date: '2025-10-17'
+      subject: '[WIMSE] WGLC for Workload Identity Practices'
+      url: https://mailarchive.ietf.org/arch/msg/wimse/UyPEqfz6tyq1p6vvlMJqBIewCGo/
   - kind: shepherded
     documents:
     - draft-ietf-wimse-http-signature
@@ -65,6 +93,26 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: chair activity
+    first: '2024-03-18'
+    last: '2026-10-06'
+    messages: 14
+    examples:
+    - date: '2024-03-18'
+      subject: '[Wimse] IETF 119 Meeting Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/wimse/tOffgRwy9pvjJa7L_AC8wD3HV8A/
+    - date: '2024-07-17'
+      subject: '[Wimse] WIMSE Agenda for IETF 120'
+      url: https://mailarchive.ietf.org/arch/msg/wimse/qCljDwa3mpZ2xwlQD-538_RLKcA/
+    - date: '2024-07-29'
+      subject: '[Wimse] Call for Adoption: Service to Service Authentication'
+      url: https://mailarchive.ietf.org/arch/msg/wimse/IqKiUVTTslVzUwIjxqjJ39M37I0/
+    - date: '2026-07-02'
+      subject: '[WIMSE] WGLC for WIMSE Workload Credentials'
+      url: https://mailarchive.ietf.org/arch/msg/wimse/5kFRCsvSmgjSdlaClnAgQDCm0J8/
+    - date: '2026-08-03'
+      subject: '[WIMSE] WGLC for Workload Identifier'
+      url: https://mailarchive.ietf.org/arch/msg/wimse/SBoODwx3Lx3g4LbJBcrvnBtoPOc/
   - kind: shepherded
     documents:
     - draft-ietf-wimse-identifier

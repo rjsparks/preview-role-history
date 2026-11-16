@@ -13,7 +13,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2007-07-23'
+      not_after: '2003-11-17'
     end:
       certainty: evidence-only
       not_before: '2007-07-23'
@@ -22,6 +22,17 @@ chairs:
     date: '2007-07-23'
     subject: 'WG Action: RECHARTER: Protocol Independent Multicast (pim)'
     url: null
+  - kind: chair activity
+    first: '2003-11-17'
+    last: '2006-02-08'
+    messages: 2
+    examples:
+    - date: '2003-11-17'
+      subject: '[pim] WG Last Call - PIM Sparse Mode'
+      url: https://mailarchive.ietf.org/arch/msg/pim/U0cBB6TnFKcxfKrO7mzK7vY60DE/
+    - date: '2006-02-08'
+      subject: '[pim] Working Group Last Call: PIM MIB'
+      url: https://mailarchive.ietf.org/arch/msg/pim/XHpjkaI8uLpNM4c8Te4UUJr-at8/
 - person: 105708
   name: Mike McBride
   status: confirmed
@@ -54,6 +65,26 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/pim/38CSuCVMmXHxrIU-ybiiiQvlZN0/
     excerpt: I'd like to welcome Mike McBride as a successor to me, as a co-chair for the PIM working
       group.
+  - kind: chair activity
+    first: '2011-12-07'
+    last: '2026-09-29'
+    messages: 43
+    examples:
+    - date: '2011-12-07'
+      subject: '[pim] IETF82 pimwg minutes'
+      url: https://mailarchive.ietf.org/arch/msg/pim/m5KIj4M-FwgC-HjjuFuDEw8TuQo/
+    - date: '2012-01-05'
+      subject: '[pim] call for adoption of draft-hou-pim-drlb-00'
+      url: https://mailarchive.ietf.org/arch/msg/pim/gRIoEj5C4igR49ZJUAvkFa3H0v8/
+    - date: '2012-07-13'
+      subject: '[pim] agenda for Vancouver'
+      url: https://mailarchive.ietf.org/arch/msg/pim/mfHukIB-jXF1rvWFyjjreGPZ-js/
+    - date: '2013-04-04'
+      subject: '[pim] call for adoption: draft-asghar-pim-explicit-rpf-vector-01'
+      url: https://mailarchive.ietf.org/arch/msg/pim/LaWfTurYJA2HcLvp519jMnP2aPo/
+    - date: '2013-05-09'
+      subject: '[pim] call for adoption: draft-zhou-pim-vrrp-01'
+      url: https://mailarchive.ietf.org/arch/msg/pim/XyamDWlT_7p-9Enzj6osu2SFumM/
   - kind: session requests
     meetings:
     - '65'
@@ -118,6 +149,26 @@ chairs:
     date: '2025-01-09'
     subject: 'WG Action: Rechartered Protocols for IP Multicast (pim)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/bFXrAlkymaUXVUNAA4HpKctoUIY/
+  - kind: chair activity
+    first: '2008-04-21'
+    last: '2026-11-02'
+    messages: 56
+    examples:
+    - date: '2008-04-21'
+      subject: '[pim] Minutes from IETF 71 pim wg meeting'
+      url: https://mailarchive.ietf.org/arch/msg/pim/THO_NYpuNABXC9wLxL1DtD_r3fE/
+    - date: '2008-12-11'
+      subject: '[pim] Minutes from IETF 73 wg meeting'
+      url: https://mailarchive.ietf.org/arch/msg/pim/XIVy5PUrmKHKCF7OyrOp1fb4SSI/
+    - date: '2010-04-21'
+      subject: '[pim] wglc for draft-ietf-pim-mtid-04?'
+      url: https://mailarchive.ietf.org/arch/msg/pim/p2ix1ZsxvX60AyF5S9wANgIVFnI/
+    - date: '2010-05-04'
+      subject: '[pim] wglc for draft-ietf-pim-mtid-04'
+      url: https://mailarchive.ietf.org/arch/msg/pim/eKx8s0I9AjexAdjhYID3YbLss7c/
+    - date: '2016-01-06'
+      subject: '[pim] Call for adoption of draft-mcallister-pim-yang-01'
+      url: https://mailarchive.ietf.org/arch/msg/pim/Gy6QUReVkAqYgH5_eTFxw6FgNVw/
   - kind: session requests
     meetings:
     - '75'

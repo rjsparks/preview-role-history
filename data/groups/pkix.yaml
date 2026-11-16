@@ -7,6 +7,118 @@ started: '1995-10-19'
 closed: '2013-10-31'
 history_url: https://datatracker.ietf.org/group/pkix/history/
 chairs:
+- person: 14993
+  name: Warwick Ford
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1997-04-21'
+    end:
+      certainty: approximate
+      date: '2000-08-16'
+    notes:
+    - end dated by list message of 2000-08-16
+  evidence:
+  - kind: list message
+    date: '2000-08-01'
+    says: end
+    subject: draft WG meeting minutes
+    url: https://mailarchive.ietf.org/arch/msg/pkix/ClAQls1qonS-eyLONz8ObiQ67mM/
+    excerpt: The meeting began with the announcement that Tim Polk of NIST will take over from Warwick
+      Ford as a co-chair of the WG.
+  - kind: list message
+    date: '2000-08-16'
+    says: end
+    subject: final minutes
+    url: https://mailarchive.ietf.org/arch/msg/pkix/AEXhhxkiA1FF0unSquWWfhuiFYg/
+    excerpt: The meeting began with the announcement that Tim Polk of NIST will take over from Warwick
+      Ford as a co-chair of the WG.
+  - kind: chair activity
+    first: '1997-04-21'
+    last: '1999-07-07'
+    messages: 4
+    examples:
+    - date: '1997-04-21'
+      subject: Draft Memphis PKIX Minutes
+      url: https://mailarchive.ietf.org/arch/msg/pkix/oJvcKw-DEg_-IINIV6g82MgEkjw/
+    - date: '1998-04-11'
+      subject: '[IETF-PKIX] Draft LA Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/pkix/gUMJfRB8vTCyu2ABJMiJKrxBwOY/
+- person: 19790
+  name: Tim Polk
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: approximate
+      date: '2000-08-01'
+    end:
+      certainty: approximate
+      date: '2006-03-29'
+    notes:
+    - start dated by list message of 2000-08-01
+    - end dated by list message of 2006-03-29
+  evidence:
+  - kind: list message
+    date: '2000-08-01'
+    says: start
+    subject: draft WG meeting minutes
+    url: https://mailarchive.ietf.org/arch/msg/pkix/ClAQls1qonS-eyLONz8ObiQ67mM/
+    excerpt: The meeting began with the announcement that Tim Polk of NIST will take over from Warwick
+      Ford as a co-chair of the WG.
+  - kind: list message
+    date: '2000-08-16'
+    says: start
+    subject: final minutes
+    url: https://mailarchive.ietf.org/arch/msg/pkix/AEXhhxkiA1FF0unSquWWfhuiFYg/
+    excerpt: The meeting began with the announcement that Tim Polk of NIST will take over from Warwick
+      Ford as a co-chair of the WG.
+  - kind: list message
+    date: '2006-03-29'
+    says: end
+    subject: New PKIX Co-chair
+    url: https://mailarchive.ietf.org/arch/msg/pkix/ogQb3EvHH8--Fry8nudnr2x8ETs/
+    excerpt: Last week Tim Polk announced his desire to step down as PKIX co-chair.
+  - kind: chair activity
+    first: '2000-12-19'
+    last: '2005-05-10'
+    messages: 33
+    examples:
+    - date: '2000-12-19'
+      subject: WG Last Call, PKI Roadmap
+      url: https://mailarchive.ietf.org/arch/msg/pkix/OnhqbGlAghzt_YPBaHZXYOj4aH4/
+    - date: '2000-12-19'
+      subject: WG Last Call, RFC 2511bis
+      url: https://mailarchive.ietf.org/arch/msg/pkix/3L8hab2cPRbktylQHT4Yp4TUkFA/
+    - date: '2000-12-19'
+      subject: WG Last Call, RFC 2510bis
+      url: https://mailarchive.ietf.org/arch/msg/pkix/K2do_1Evi9QSQvzMj30IfbLPK6Q/
+    - date: '2002-03-13'
+      subject: Agenda for 53rd IETF
+      url: https://mailarchive.ietf.org/arch/msg/pkix/gySkytnywhbdK9uoC5CLqAt5fnU/
+    - date: '2002-07-10'
+      subject: PKIX WG agenda for 54th IETF
+      url: https://mailarchive.ietf.org/arch/msg/pkix/IT-KjykiLwjfyKXts5fU68fR8a0/
+- person: 103048
+  name: Sam Hartman
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: approximate
+      date: '2006-03-29'
+    end:
+      certainty: evidence-only
+      not_before: '2006-03-29'
+    notes:
+    - start dated by list message of 2006-03-29
+  evidence:
+  - kind: list message
+    date: '2006-03-29'
+    says: start
+    subject: New PKIX Co-chair
+    url: https://mailarchive.ietf.org/arch/msg/pkix/ogQb3EvHH8--Fry8nudnr2x8ETs/
+    excerpt: Sam Hartman and I are pleased to announce that Stefan Santesson has agreed to replace Tim
+      as PKIX co-chair.
 - person: 106863
   name: Stefan Santesson
   status: confirmed
@@ -19,6 +131,7 @@ chairs:
       date: '2013-10-31'
     notes:
     - start moved earlier by session request for IETF 72
+    - widened to cover last calls and adoption calls on the group list
     - start dated by list message of 2006-03-29
   evidence:
   - kind: list message
@@ -28,6 +141,26 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/pkix/ogQb3EvHH8--Fry8nudnr2x8ETs/
     excerpt: Sam Hartman and I are pleased to announce that Stefan Santesson has agreed to replace Tim
       as PKIX co-chair.
+  - kind: chair activity
+    first: '2006-06-16'
+    last: '2011-03-21'
+    messages: 19
+    examples:
+    - date: '2006-06-16'
+      subject: 'WG Last Call: RFC3280bis'
+      url: https://mailarchive.ietf.org/arch/msg/pkix/WGHdfMHJ_tkWstMYQmlMC4btHrM/
+    - date: '2006-06-20'
+      subject: PKXIX draft agenda
+      url: https://mailarchive.ietf.org/arch/msg/pkix/84LZf95zaXw-PJhhZunZIa6myko/
+    - date: '2006-09-29'
+      subject: Call for agenda items for pkix at IETF-67
+      url: https://mailarchive.ietf.org/arch/msg/pkix/RySz8le3zIpOnNfzwvT74_XRrpM/
+    - date: '2009-04-02'
+      subject: WG Last Call on draft-ietf-pkix-tac-03
+      url: https://mailarchive.ietf.org/arch/msg/pkix/XPBqI0-k5RFpdQKIRm67r9IdDXs/
+    - date: '2009-05-04'
+      subject: WGLC for draft-ietf-pkix-ta-format-02
+      url: https://mailarchive.ietf.org/arch/msg/pkix/w3V3YzmkSmC5Z7cqEbFZqy8RQL0/
   - kind: session requests
     meetings:
     - '72'
@@ -41,14 +174,35 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2000-02-22'
       not_before: '1995-10-19'
     end:
       certainty: group-closed
       date: '2013-10-31'
     notes:
     - start moved earlier by session request for IETF 65
+    - widened to cover last calls and adoption calls on the group list
   evidence:
+  - kind: chair activity
+    first: '1996-10-09'
+    last: '2012-07-02'
+    messages: 57
+    examples:
+    - date: '1996-10-09'
+      subject: agenda for San jose
+      url: https://mailarchive.ietf.org/arch/msg/pkix/YV9irEqVS9c68bhNMGUaCA8c_Kw/
+    - date: '1996-12-12'
+      subject: PKIX meeting minutes
+      url: https://mailarchive.ietf.org/arch/msg/pkix/Kl2OqNxSAi7lUVTkM1lV5gqesug/
+    - date: '2000-02-22'
+      subject: WG last call for draft-ietf-pkix-qc-o3.txt
+      url: https://mailarchive.ietf.org/arch/msg/pkix/gbqAjreOHkHDR93vhbSfjdAn18s/
+    - date: '2003-08-20'
+      subject: WG last call
+      url: https://mailarchive.ietf.org/arch/msg/pkix/zeyPN0C2iSc1wIWto0A6Jv5K8S8/
+    - date: '2003-09-19'
+      subject: WG last call re draft-pkix-acpolicies-extn-03.txt
+      url: https://mailarchive.ietf.org/arch/msg/pkix/147m-y1T7j5Sc4ibkjdxGXuakWM/
   - kind: session requests
     meetings:
     - '65'

@@ -27,3 +27,12 @@ chairs:
     end:
       certainty: group-closed
       date: '2022-09-29'
+  evidence:
+  - kind: chair activity
+    first: '2022-07-26'
+    last: '2022-07-26'
+    messages: 1
+    examples:
+    - date: '2022-07-26'
+      subject: '[Msr6] WANTED: Meeting minutes taker'
+      url: https://mailarchive.ietf.org/arch/msg/msr6/M55iZQCD-lk6ixLuuLU133hi4WM/

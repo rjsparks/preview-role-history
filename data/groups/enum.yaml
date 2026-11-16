@@ -38,25 +38,34 @@ chairs:
       not_after: '1999-10-29'
     end:
       certainty: evidence-only
-      not_before: '1999-10-29'
+      not_before: '2000-03-22'
   evidence:
   - kind: WG Action
     date: '1999-10-29'
     subject: 'WG ACTION: Telephone Number Mapping (enum)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/OkSlEyfLV6Sfo41mofr0Wq2hUVY/
+  - kind: chair activity
+    first: '2000-03-22'
+    last: '2000-03-22'
+    messages: 1
+    examples:
+    - date: '2000-03-22'
+      subject: '[Enum] Agenda for ENUM and Adelaide - The WG chair comes clean'
+      url: https://mailarchive.ietf.org/arch/msg/enum/iaSsgWTN-mPa9fWiNykUr3FeVEw/
 - person: 101219
   name: Richard Shockey
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-12-08'
+      date: '2005-02-03'
       not_before: '1999-10-04'
     end:
       certainty: group-closed
       date: '2011-05-10'
     notes:
     - start moved earlier by WG Action announcement of 2005-12-08
+    - widened to cover last calls and adoption calls on the group list
   evidence:
   - kind: WG Review
     date: '2005-11-03'
@@ -66,6 +75,26 @@ chairs:
     date: '2005-12-08'
     subject: 'WG Action: RECHARTER: Telephone Number Mapping (enum)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/I-h_hH4_2qoqMzHF4_1tL9h_Sws/
+  - kind: chair activity
+    first: '2002-10-08'
+    last: '2009-06-27'
+    messages: 50
+    examples:
+    - date: '2002-10-08'
+      subject: '[Enum] Agenda for ENUM WG at IETF 55'
+      url: https://mailarchive.ietf.org/arch/msg/enum/8JHtsLFx6XhNzC9X8pW_dRu7uBo/
+    - date: '2003-02-26'
+      subject: '[Enum] Probable Agenda for IETF 56'
+      url: https://mailarchive.ietf.org/arch/msg/enum/Apm8cRcFTwdZUCZ52dJzh13qpQI/
+    - date: '2005-02-03'
+      subject: '[Enum] Working Group Last Call on Enumservice Registration VOID'
+      url: https://mailarchive.ietf.org/arch/msg/enum/3ZuMHMZYi482IaX7CudXe7xwecI/
+    - date: '2008-05-15'
+      subject: '[Enum] Working Group Last Call on 3761bis - 03'
+      url: https://mailarchive.ietf.org/arch/msg/enum/IeBOC5liN83B6OmbRQ_brvmbF04/
+    - date: '2008-09-06'
+      subject: '[Enum] Working Group Last Call on enumservices guide 12'
+      url: https://mailarchive.ietf.org/arch/msg/enum/aac6NTCqbfN28EZd4c7BXnNpjZs/
   - kind: session requests
     meetings:
     - '65'
@@ -92,6 +121,17 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 78
   evidence:
+  - kind: chair activity
+    first: '2010-04-09'
+    last: '2010-08-25'
+    messages: 3
+    examples:
+    - date: '2010-04-09'
+      subject: '[Enum] Question about Milestone: ENUM Privacy and Security Considerations'
+      url: https://mailarchive.ietf.org/arch/msg/enum/r4FmZSfNp5nHv_00s-boceC6cnk/
+    - date: '2010-07-17'
+      subject: '[Enum] Updated ENUM WG session agenda for IETF-78'
+      url: https://mailarchive.ietf.org/arch/msg/enum/pEY_5Mxk93HfvU6tlB3defF46JE/
   - kind: session requests
     meetings:
     - '78'

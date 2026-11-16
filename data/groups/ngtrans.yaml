@@ -18,6 +18,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2003-02-04'
+  evidence:
+  - kind: chair activity
+    first: '2001-06-05'
+    last: '2001-06-05'
+    messages: 1
+    examples:
+    - date: '2001-06-05'
+      subject: (ngtrans) Interim Meeting Logisics
+      url: https://mailarchive.ietf.org/arch/msg/ngtrans/XldbBF3ZcF3ZDBTYgT__0czVsiI/
 - person: 105328
   name: Alain Durand
   status: confirmed
@@ -38,6 +47,17 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/ngtrans/JltrtnKZmS47vUYasDFTtyScY8w/
     excerpt: Alain Durand, our new co-chair of ngtrans, has taken on the job of scheduling and planning
       the Oslo meeting.
+  - kind: chair activity
+    first: '1998-12-18'
+    last: '1999-01-21'
+    messages: 4
+    examples:
+    - date: '1998-12-18'
+      subject: (ngtrans) Interim Meeting, travel direction
+      url: https://mailarchive.ietf.org/arch/msg/ngtrans/jK8qKhlsGiX3OU1xhJXrvHf7K7Q/
+    - date: '1998-12-23'
+      subject: (ngtrans) Interim meeting Web server
+      url: https://mailarchive.ietf.org/arch/msg/ngtrans/LPRN5_4-SOm4UrUNEpax5OmwfJg/
 - person: 119947
   name: Margaret Cullen
   status: confirmed
@@ -49,3 +69,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2003-02-04'
+  evidence:
+  - kind: chair activity
+    first: '2002-07-03'
+    last: '2002-08-15'
+    messages: 3
+    examples:
+    - date: '2002-07-03'
+      subject: (ngtrans) Final Agenda for Yokohama
+      url: https://mailarchive.ietf.org/arch/msg/ngtrans/VkWEhl16Xzu8AjIO2x0N_i5tn7c/
+    - date: '2002-07-20'
+      subject: (ngtrans) Interim Meeting Proposal
+      url: https://mailarchive.ietf.org/arch/msg/ngtrans/O8UO1RQsxApBq2v3VWZFrHfrbbo/

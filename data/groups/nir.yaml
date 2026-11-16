@@ -18,6 +18,38 @@ chairs:
     end:
       certainty: group-closed
       date: '1994-08-17'
+  evidence:
+  - kind: chair activity
+    first: '1993-07-19'
+    last: '1994-04-26'
+    messages: 5
+    examples:
+    - date: '1993-07-19'
+      subject: NIR WG Minutes
+      url: https://mailarchive.ietf.org/arch/msg/nir/onKoSOUXgOYi3i_n1SbVhN3E4vE/
+    - date: '1993-10-28'
+      subject: IETF/RARE NIR WG Agenda for Houston
+      url: https://mailarchive.ietf.org/arch/msg/nir/m4DsDUZgquq0arGsGO2EZVC4Vnk/
+- person: 4829
+  name: Ellen Hoffman
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1993-07-23'
+    end:
+      certainty: approximate
+      date: '1993-07-23'
+    notes:
+    - end dated by list message of 1993-07-23
+  evidence:
+  - kind: list message
+    date: '1993-07-23'
+    says: end
+    subject: 'IETF Amsterdam: Report'
+    url: https://mailarchive.ietf.org/arch/msg/nir/0vJfnxLVHwaRdZ9RzNJeIrvJyzc/
+    excerpt: Ellen Hoffman announced that, due to a change in her role with Merit, she could no longer
+      act as co-chair.
 - person: 10743
   name: Kevin Gamiel
   status: confirmed

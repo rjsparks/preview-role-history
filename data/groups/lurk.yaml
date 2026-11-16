@@ -18,6 +18,18 @@ chairs:
     end:
       certainty: group-closed
       date: '2016-10-04'
+  evidence:
+  - kind: chair activity
+    first: '2016-04-17'
+    last: '2016-06-03'
+    messages: 5
+    examples:
+    - date: '2016-04-17'
+      subject: '[Lurk] Virtual Interim Doodle Poll'
+      url: https://mailarchive.ietf.org/arch/msg/lurk/0-ET57E5ppY_umGwGKF4JuWP23E/
+    - date: '2016-04-26'
+      subject: '[Lurk] LURK Interim Virtual BOF'
+      url: https://mailarchive.ietf.org/arch/msg/lurk/iqIIhuQJ2zK2imrJU0da3wrloqg/
 - person: 104278
   name: Yaron Sheffer
   status: confirmed
@@ -29,3 +41,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2016-10-04'
+  evidence:
+  - kind: chair activity
+    first: '2016-03-13'
+    last: '2016-04-10'
+    messages: 2
+    examples:
+    - date: '2016-03-13'
+      subject: '[Lurk] LURK agenda items'
+      url: https://mailarchive.ietf.org/arch/msg/lurk/FYGq8gFI2qnu2FxPZnXClWvzHfo/
+    - date: '2016-04-10'
+      subject: '[Lurk] LURK minutes - draft'
+      url: https://mailarchive.ietf.org/arch/msg/lurk/OmJovwYXCzc9_V5DfNU9g47bpLE/

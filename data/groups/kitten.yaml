@@ -13,7 +13,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2004-11-03'
+      not_after: '2004-09-03'
     end:
       certainty: evidence-only
       not_before: '2006-11-05'
@@ -22,6 +22,26 @@ chairs:
     date: '2004-11-03'
     subject: 'WG Action: Kitten (GSS-API Next Generation) (kitten)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/WOTS0VAWy5qIDjS14lbynRNqjcg/
+  - kind: chair activity
+    first: '2004-09-03'
+    last: '2006-08-16'
+    messages: 12
+    examples:
+    - date: '2004-09-03'
+      subject: '[Kitten] IETF-60 Minutes for Kitten (Draft 1)'
+      url: https://mailarchive.ietf.org/arch/msg/kitten/khzvVtA-iZUFcmLxHAOZpELD2Mk/
+    - date: '2004-10-21'
+      subject: Proposed Agenda for IETF 61 (Draft 1)
+      url: https://mailarchive.ietf.org/arch/msg/kitten/iRz9m48mO4rbpVrRJp22ICmxzQ4/
+    - date: '2004-12-02'
+      subject: 'Working Group Last Call: The Simple and Protected GSS-API Negotiation Mechanism'
+      url: https://mailarchive.ietf.org/arch/msg/kitten/_XN4WBFCPwEyVIOpY57OwjKRkbE/
+    - date: '2005-04-14'
+      subject: 'Working Group Last Call: draft-ietf-kitten-krb5-gssapi-prf-02.txt and draft-ietf-kitten-gssapi-prf-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/kitten/N6EMIzRlGefcAs_1kwT6lJvckpk/
+    - date: '2005-05-05'
+      subject: WGLC Cancelled - GSS PRF and GSS-KRB5 PRF
+      url: https://mailarchive.ietf.org/arch/msg/kitten/d0Kjh8-E5QYgfXJRRF_t3o6oX_w/
   - kind: session requests
     meetings:
     - '66'
@@ -57,6 +77,26 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/kitten/ooLs95i20RE0OrfNMdjAMvNX88Q/
     excerpt: Robbie has been doing everything on his own for some time now, and I'm happy to report that
       I've been able to enlist Alexey Melnikov to join Robbie as co-chair to spread the load.
+  - kind: chair activity
+    first: '2007-08-11'
+    last: '2025-02-12'
+    messages: 6
+    examples:
+    - date: '2007-08-11'
+      subject: Minutes for Kitten WG session in Chicago
+      url: https://mailarchive.ietf.org/arch/msg/kitten/Nb4lk5c_G6NSxoSOFmpbwaEZ-4Q/
+    - date: '2008-03-13'
+      subject: WGLC on draft-ietf-kitten-gssapi-channel-bindings-04.txt
+      url: https://mailarchive.ietf.org/arch/msg/kitten/WRlyxNJ0qlEbJINkIl386JlcB2I/
+    - date: '2012-09-23'
+      subject: '[kitten] WGLC on draft-ietf-kitten-sasl-oauth-08.txt'
+      url: https://mailarchive.ietf.org/arch/msg/kitten/rf6dpO4sLvJivoiCaXAzKazfWBo/
+    - date: '2023-01-25'
+      subject: '[kitten] Minutes for the KITTEN WG Virtual Meeting on 2023-01-17 uploaded'
+      url: https://mailarchive.ietf.org/arch/msg/kitten/8-JSjxwNUuGagiceHf3EyiLQ00o/
+    - date: '2025-02-06'
+      subject: '[kitten] Call for adoption on draft-schmaus-kitten-sasl-ht-10 and draft-bucksch-sasl-rememberme-00'
+      url: https://mailarchive.ietf.org/arch/msg/kitten/jgX4kwVhISMbNsDPLjUGuA9hK8g/
   - kind: session requests
     meetings:
     - '69'
@@ -96,6 +136,14 @@ chairs:
     date: '2011-06-28'
     subject: 'WG Action: RECHARTER: Common Authentication Technology Next Generation (kitten)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/VSJlkAvehmvXD-9nPj7Ae-GL6ZQ/
+  - kind: chair activity
+    first: '2012-04-26'
+    last: '2012-04-26'
+    messages: 1
+    examples:
+    - date: '2012-04-26'
+      subject: '[kitten] draft Kitten WG IETF83 minutes'
+      url: https://mailarchive.ietf.org/arch/msg/kitten/SdkRU_-9LuPUzqeBWe3q1QQHIr4/
 - person: 103048
   name: Sam Hartman
   status: confirmed
@@ -115,6 +163,17 @@ chairs:
     date: '2013-02-26'
     subject: 'WG Action: Rechartered Common Authentication Technology Next Generation (kitten)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/WPZydEpIbH295wvdxcw6t9Mof6U/
+  - kind: chair activity
+    first: '2013-02-13'
+    last: '2013-05-10'
+    messages: 2
+    examples:
+    - date: '2013-02-13'
+      subject: '[kitten] Call for Adoption: draft-burgin-kerberos-aes-cbc- hmac-sha2.'
+      url: https://mailarchive.ietf.org/arch/msg/kitten/lQDdRIGk3FfeyK4fHnidNRTOkio/
+    - date: '2013-05-10'
+      subject: '[kitten] Berlin Meeting: Agenda Items and Attendance'
+      url: https://mailarchive.ietf.org/arch/msg/kitten/rBpFFSlt7nqOtuSrsLl-oAxqkes/
 - person: 107956
   name: Shawn Emery
   status: confirmed
@@ -163,6 +222,26 @@ chairs:
     excerpt: I wish to thank my current and previous co-chairs for their work (including Shawn Emery,
       Ben Kaduk, and Robbie Harwood), the previous and current responsible ADs (Stephen Farrel, ekr, and
       Ben Kaduk), and of course the participants of KITTEN for all your contributions.
+  - kind: chair activity
+    first: '2010-03-10'
+    last: '2014-06-30'
+    messages: 22
+    examples:
+    - date: '2010-03-10'
+      subject: IETF 77 Draft Agenda
+      url: https://mailarchive.ietf.org/arch/msg/kitten/2OM-u9343AXbdhWO-kAWuxoih7E/
+    - date: '2010-07-14'
+      subject: 'IETF 78: Draft Agenda for Kitten'
+      url: https://mailarchive.ietf.org/arch/msg/kitten/931z0skIUtXJf4_cjE23DUJ84lE/
+    - date: '2010-08-07'
+      subject: WGLC on draft-ietf-kitten-digest-to-historic-00
+      url: https://mailarchive.ietf.org/arch/msg/kitten/z_f3YjY-lyQAstannO7S54yYvbY/
+    - date: '2011-03-02'
+      subject: '[kitten] WGLC on draft-ietf-kitten-gssapi-naming-exts-09'
+      url: https://mailarchive.ietf.org/arch/msg/kitten/1IHvOkPd0A2NineEcjdXZsY8jUs/
+    - date: '2011-03-09'
+      subject: '[kitten] WGLC on draft-ietf-kitten-sasl-openid-01'
+      url: https://mailarchive.ietf.org/arch/msg/kitten/JklkhLT9cf_uwc6m5aoJirrxEfw/
   - kind: session requests
     meetings:
     - '73'
@@ -217,6 +296,23 @@ chairs:
     subject: '[kitten] Stepping down as KITTEN co-chair'
     url: https://mailarchive.ietf.org/arch/msg/kitten/1c-gy24wLYhkHzbENzhiXy-EhtI/
     excerpt: Miller Former KITTEN co-chair
+  - kind: chair activity
+    first: '2014-10-15'
+    last: '2016-04-29'
+    messages: 5
+    examples:
+    - date: '2014-10-15'
+      subject: '[kitten] WGLC of draft-ietf-kitten-gss-loop-00'
+      url: https://mailarchive.ietf.org/arch/msg/kitten/tH_nlhRN8dyjR0uFQ4G9xvW9mxE/
+    - date: '2014-11-21'
+      subject: '[kitten] WGLC of draft-ietf-kitten-gss-loop-01'
+      url: https://mailarchive.ietf.org/arch/msg/kitten/rU6XYJEVEgwzZzpO_cmTUBJKkPo/
+    - date: '2014-11-21'
+      subject: '[kitten] IETF91 Draft Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/kitten/iDup-s6gNbZD0btu_Gap6YQPZUk/
+    - date: '2015-03-30'
+      subject: '[kitten] IETF 92 Meeting Minutes (DRAFT)'
+      url: https://mailarchive.ietf.org/arch/msg/kitten/zZCahun_sTYyKrwamYwXRwl9eHQ/
   - kind: shepherded
     documents:
     - draft-ietf-kitten-gss-loop
@@ -246,6 +342,27 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: chair activity
+    first: '2014-12-01'
+    last: '2017-01-25'
+    messages: 11
+    examples:
+    - date: '2014-12-01'
+      subject: '[kitten] Call for Adoption: draft-short-pkinit-freshness'
+      url: https://mailarchive.ietf.org/arch/msg/kitten/Pd2qx-XmE_UfCnspBtPC8TPYvHc/
+    - date: '2014-12-15'
+      subject: '[kitten] WGLC of draft-ietf-kitten-sasl-oauth-18'
+      url: https://mailarchive.ietf.org/arch/msg/kitten/0Pg8T0cXkqjq09YSZbUCODTFsc4/
+    - date: '2015-01-07'
+      subject: '[kitten] IETF 92 - Agenda items'
+      url: https://mailarchive.ietf.org/arch/msg/kitten/t1ftyFXnke3dPKsZ842J4GyEiPY/
+    - date: '2015-01-20'
+      subject: '[kitten] WGLC for three "bis" documents: draft-ietf-kitten-rfc4402bis-00, draft-ietf-kitten-rfc5653bis-01,
+        draft-ietf-kitten-rfc6112bis-00'
+      url: https://mailarchive.ietf.org/arch/msg/kitten/4wxLwm9s56VvlDniKPsuwavpMxA/
+    - date: '2015-03-09'
+      subject: '[kitten] draft agenda for Dallas posted'
+      url: https://mailarchive.ietf.org/arch/msg/kitten/vgm2SKxbyyVQjPYZnodim3E5irU/
   - kind: shepherded
     documents:
     - draft-ietf-kitten-aes-cts-hmac-sha2
@@ -265,6 +382,20 @@ chairs:
       certainty: exact
       date: '2022-01-12'
   evidence:
+  - kind: chair activity
+    first: '2019-08-02'
+    last: '2020-06-04'
+    messages: 3
+    examples:
+    - date: '2019-08-02'
+      subject: '[kitten] WGLC for sasl-saml-ec'
+      url: https://mailarchive.ietf.org/arch/msg/kitten/abW8mKZJhJmMRy4QOwdKgaid008/
+    - date: '2020-05-12'
+      subject: '[kitten] Call for adoption on draft-whited-kitten-password-storage'
+      url: https://mailarchive.ietf.org/arch/msg/kitten/ytSK8OQpWPvOOgrjADRhBmv89G8/
+    - date: '2020-06-04'
+      subject: '[kitten] Call for adoption on draft-whited-tls-channel-bindings-for-tls13'
+      url: https://mailarchive.ietf.org/arch/msg/kitten/07RgJ5Ix6KFgSKMnzUxYePMxKe0/
   - kind: shepherded
     documents:
     - draft-ietf-kitten-pkinit-alg-agility

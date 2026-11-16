@@ -28,11 +28,22 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2009-11-08'
+      not_after: '2009-08-12'
     end:
       certainty: evidence-only
       not_before: '2010-03-21'
   evidence:
+  - kind: chair activity
+    first: '2009-08-12'
+    last: '2010-03-05'
+    messages: 3
+    examples:
+    - date: '2009-08-12'
+      subject: '[xmpp] IETF 75 XMPP Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/xmpp/7RYR2TnuiGZnEItBYjV38jeEMmc/
+    - date: '2009-10-27'
+      subject: '[xmpp] Call for XMPP Agenda Items'
+      url: https://mailarchive.ietf.org/arch/msg/xmpp/EH3Jh9QIperszrMdBuVweoHb_8c/
   - kind: session requests
     meetings:
     - '76'
@@ -44,18 +55,39 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-07-25'
+      date: '2010-05-13'
       not_before: '2009-05-21'
     end:
       certainty: exact
       date: '2015-03-26'
     notes:
     - start moved earlier by session request for IETF 78
+    - widened to cover last calls and adoption calls on the group list
   evidence:
   - kind: WG Action
     date: '2013-03-05'
     subject: 'WG Action: Rechartered Extensible Messaging and Presence Protocol (xmpp)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/LnzCsvJACt54xcwsNHDYY-iB-Tc/
+  - kind: chair activity
+    first: '2010-03-26'
+    last: '2015-03-23'
+    messages: 28
+    examples:
+    - date: '2010-03-26'
+      subject: '[xmpp] Draft Minutes from IETF77'
+      url: https://mailarchive.ietf.org/arch/msg/xmpp/hWOZgOI322_AfLmrUJ7Fvd2o3ZQ/
+    - date: '2010-05-13'
+      subject: '[xmpp] WGLC on draft-ietf-xmpp-3920bis-08'
+      url: https://mailarchive.ietf.org/arch/msg/xmpp/iMNwXYdpqqMfTha_SV7igKhn4OM/
+    - date: '2010-06-29'
+      subject: '[xmpp] WGLC of draft-ietf-xmpp-address-00'
+      url: https://mailarchive.ietf.org/arch/msg/xmpp/tsi2Kgh5uEy_BkIBO_46Y8wsBNE/
+    - date: '2010-07-09'
+      subject: '[xmpp] Draft Agenda XMPP@IETF78'
+      url: https://mailarchive.ietf.org/arch/msg/xmpp/VYnvImx3X0wcpgcOziXQrqQhc6o/
+    - date: '2010-07-13'
+      subject: '[xmpp] WGLC of draft-ietf-xmpp-3921bis-08'
+      url: https://mailarchive.ietf.org/arch/msg/xmpp/zzuy81RgZUzQu4axWcDISksG4oE/
   - kind: session requests
     meetings:
     - '78'

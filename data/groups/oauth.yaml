@@ -27,6 +27,20 @@ chairs:
     date: '2016-01-22'
     subject: 'WG Action: Rechartered Web Authorization Protocol (oauth)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/I_F20gYvwwmnWjnp8VYIGaQvnDo/
+  - kind: chair activity
+    first: '2013-10-31'
+    last: '2015-03-10'
+    messages: 4
+    examples:
+    - date: '2013-10-31'
+      subject: '[OAUTH-WG] OAuth Agenda for IETF-88'
+      url: https://mailarchive.ietf.org/arch/msg/oauth/2G5CDqaD3jmA1ygajhoiLx6XXpY/
+    - date: '2013-11-07'
+      subject: '[OAUTH-WG] Draft Minutes from IETF-88'
+      url: https://mailarchive.ietf.org/arch/msg/oauth/pl1AJkSRY5wOyGL_WrSoA64mp_I/
+    - date: '2015-03-10'
+      subject: '[OAUTH-WG] WGLC for draft-ietf-oauth-proof-of-possession-01'
+      url: https://mailarchive.ietf.org/arch/msg/oauth/mkfpwdTqRSE3qKTOyjtK2tgmbBs/
   - kind: shepherded
     documents:
     - draft-ietf-oauth-urn-sub-ns
@@ -53,6 +67,20 @@ chairs:
     date: '2011-06-14'
     subject: 'WG Action: RECHARTER: Web Authorization Protocol Working Group (oauth)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/58fV3XJedcY8xv5u1Q7EDcMDyVk/
+  - kind: chair activity
+    first: '2011-07-27'
+    last: '2011-11-17'
+    messages: 3
+    examples:
+    - date: '2011-07-27'
+      subject: '[OAUTH-WG] Minutes from IETF 81 meeting'
+      url: https://mailarchive.ietf.org/arch/msg/oauth/hkpnrke4QMJ0V2qhvjTrgmaQegk/
+    - date: '2011-11-17'
+      subject: '[OAUTH-WG] WGLC on draft-ietf-oauth-v2-threatmodel-01, ends 9 Dec 2011'
+      url: https://mailarchive.ietf.org/arch/msg/oauth/ONpotrrFeP926wS_ZXMrDbBx8WY/
+    - date: '2011-11-17'
+      subject: '[OAUTH-WG] Meeting minutes from IETF 82'
+      url: https://mailarchive.ietf.org/arch/msg/oauth/-Ipqb8Mrt3AWxtx6dL5BG0ZBPxE/
   - kind: session requests
     meetings:
     - '82'
@@ -99,6 +127,26 @@ chairs:
     date: '2026-06-04'
     subject: 'WG Action: Rechartered Web Authorization Protocol (oauth)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/C10_OCOmAQWT9J0f_kvPuwmtp9o/
+  - kind: chair activity
+    first: '2010-04-19'
+    last: '2020-05-13'
+    messages: 75
+    examples:
+    - date: '2010-04-19'
+      subject: '[OAUTH-WG] Interim Meeting'
+      url: https://mailarchive.ietf.org/arch/msg/oauth/ViOIEHWEKXRT4MCFrk7q12NKBbc/
+    - date: '2011-03-02'
+      subject: '[OAUTH-WG] WGLC on draft-ietf-oauth-v2-13.txt'
+      url: https://mailarchive.ietf.org/arch/msg/oauth/GkJCX1gxlfJTUu9-LGwKtKGPrwE/
+    - date: '2011-03-02'
+      subject: '[OAUTH-WG] WGLC on draft-ietf-oauth-v2-bearer-03.txt'
+      url: https://mailarchive.ietf.org/arch/msg/oauth/rzT994PgOyWZXFHPHsdbGbwG9ko/
+    - date: '2011-03-19'
+      subject: '[OAUTH-WG] WGLC on draft-ietf-oauth-saml2-bearer-03.txt'
+      url: https://mailarchive.ietf.org/arch/msg/oauth/xfVG24NFCfAqISWJ3rtADQkI44Y/
+    - date: '2011-05-19'
+      subject: '[OAUTH-WG] OAuth Interim Meeting: Register by Today'
+      url: https://mailarchive.ietf.org/arch/msg/oauth/Sl7-JWQaWLT-GLHhA8h8F2MVVus/
   - kind: session requests
     meetings:
     - '78'
@@ -138,7 +186,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2010-03-21'
+      not_after: '2009-07-29'
     end:
       certainty: evidence-only
       not_before: '2011-05-31'
@@ -147,6 +195,20 @@ chairs:
     date: '2011-05-31'
     subject: 'WG Review: Recharter of Open Authentication Protocol (oauth)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/L1MUwpAdSzqyufO_uHiDBuNEwfY/
+  - kind: chair activity
+    first: '2009-07-29'
+    last: '2010-03-10'
+    messages: 16
+    examples:
+    - date: '2009-07-29'
+      subject: '[OAUTH-WG] Breakfast BoF minutes'
+      url: https://mailarchive.ietf.org/arch/msg/oauth/pLmT_F1J69y-YiWbA3HtnU_YQbQ/
+    - date: '2009-10-08'
+      subject: '[OAUTH-WG] Working Group Last Call for draft-hammer-oauth-03'
+      url: https://mailarchive.ietf.org/arch/msg/oauth/Nn88g5Rq4TxKN-uAzICLjTwbznc/
+    - date: '2010-01-07'
+      subject: '[OAUTH-WG] OAuth interim meeting, 2010-01-21'
+      url: https://mailarchive.ietf.org/arch/msg/oauth/r9JoT9vEFsHpsc0NE7QaDBGVhC8/
   - kind: session requests
     meetings:
     - '77'
@@ -157,7 +219,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2011-05-31'
+      not_after: '2010-02-17'
     end:
       certainty: evidence-only
       not_before: '2011-06-14'
@@ -170,6 +232,14 @@ chairs:
     date: '2011-06-14'
     subject: 'WG Action: RECHARTER: Web Authorization Protocol Working Group (oauth)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/58fV3XJedcY8xv5u1Q7EDcMDyVk/
+  - kind: chair activity
+    first: '2010-02-17'
+    last: '2010-02-17'
+    messages: 1
+    examples:
+    - date: '2010-02-17'
+      subject: '[OAUTH-WG] Proposed agenda for third interim meeting'
+      url: https://mailarchive.ietf.org/arch/msg/oauth/YXF8DBpwBebP8gEeDncmyq1r3ig/
 - person: 111355
   name: Rifaat Shekh-Yusef
   status: confirmed
@@ -188,6 +258,26 @@ chairs:
     date: '2026-06-04'
     subject: 'WG Action: Rechartered Web Authorization Protocol (oauth)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/C10_OCOmAQWT9J0f_kvPuwmtp9o/
+  - kind: chair activity
+    first: '2017-04-20'
+    last: '2026-11-08'
+    messages: 118
+    examples:
+    - date: '2017-04-20'
+      subject: '[OAUTH-WG] Meetings Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/oauth/SKCX-UGiuSLo0PnIgWIchT-q0v0/
+    - date: '2017-06-01'
+      subject: '[OAUTH-WG] WGLC draft-ietf-oauth-device-flow-06'
+      url: https://mailarchive.ietf.org/arch/msg/oauth/iN62FUcEGUP095ZibMGnSiSBn3g/
+    - date: '2017-06-02'
+      subject: '[OAUTH-WG] WGLC for draft-ietf-oauth-token-exchange-08'
+      url: https://mailarchive.ietf.org/arch/msg/oauth/A1TAsDAKmas4i4xamPbdGwyvXxg/
+    - date: '2017-07-12'
+      subject: '[OAUTH-WG] Agenda for IETF99'
+      url: https://mailarchive.ietf.org/arch/msg/oauth/BDBmcjSa_V7RdDSV5f61TrJQYQQ/
+    - date: '2017-07-20'
+      subject: '[OAUTH-WG] Call for Adoption: JSON Web Token Best Current Practices'
+      url: https://mailarchive.ietf.org/arch/msg/oauth/ysvgvKodF8OOvorJbhSSyEGjjvA/
   - kind: shepherded
     documents:
     - draft-ietf-oauth-browser-based-apps

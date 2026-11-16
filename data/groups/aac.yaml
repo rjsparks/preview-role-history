@@ -18,3 +18,15 @@ chairs:
     end:
       certainty: group-closed
       date: '1995-03-07'
+  evidence:
+  - kind: chair activity
+    first: '1993-03-27'
+    last: '1993-11-22'
+    messages: 7
+    examples:
+    - date: '1993-03-27'
+      subject: Proposed agenda for AAC BOF
+      url: https://mailarchive.ietf.org/arch/msg/aac/loRvc14yYRDWFrKogr0c9cFxy5k/
+    - date: '1993-04-09'
+      subject: Draft minutes for Columbus AAC BOF
+      url: https://mailarchive.ietf.org/arch/msg/aac/CUVKVwZ-FPn638bjxjyII7yHDdY/

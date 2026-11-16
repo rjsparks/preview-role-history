@@ -16,6 +16,18 @@ chairs:
       date: '2017-06-09'
     end:
       certainty: ongoing
+  evidence:
+  - kind: chair activity
+    first: '2017-07-24'
+    last: '2026-07-22'
+    messages: 12
+    examples:
+    - date: '2017-07-24'
+      subject: '[PANRG] Post-IETF99: minutes, next steps.'
+      url: https://mailarchive.ietf.org/arch/msg/panrg/_gI9SK-hB8gEIqRJs1_spJDrXIY/
+    - date: '2018-03-08'
+      subject: '[PANRG] PAN(P)RG Agenda for IETF101'
+      url: https://mailarchive.ietf.org/arch/msg/panrg/EcMmRs5QcXCfbcpVH4H2H4XK5vo/
 - person: 122661
   name: Jen Linkova
   status: confirmed
@@ -26,6 +38,17 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: chair activity
+    first: '2017-09-11'
+    last: '2025-08-09'
+    messages: 29
+    examples:
+    - date: '2017-09-11'
+      subject: '[PANRG] IETF100: Call for agenda items'
+      url: https://mailarchive.ietf.org/arch/msg/panrg/i2dGjJRwOIeEePLAeGqeRbRV8dI/
+    - date: '2018-07-05'
+      subject: '[PANRG] PANRG Agenda for IETF102'
+      url: https://mailarchive.ietf.org/arch/msg/panrg/Q1VZEaT1KfmUr1BTJLzYn5_UBLQ/
   - kind: shepherded
     documents:
     - draft-irtf-panrg-what-not-to-do

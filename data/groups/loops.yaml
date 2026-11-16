@@ -17,6 +17,15 @@ chairs:
     end:
       certainty: exact
       date: '2020-06-15'
+  evidence:
+  - kind: chair activity
+    first: '2019-07-24'
+    last: '2019-07-24'
+    messages: 1
+    examples:
+    - date: '2019-07-24'
+      subject: '[LOOPS] Loops session minutes posted'
+      url: https://mailarchive.ietf.org/arch/msg/loops/VMuXI4ywG7Mk05HPDuLkqJCA_2U/
 - person: 107190
   name: Spencer Dawkins
   status: confirmed
@@ -33,6 +42,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2020-10-09'
+  evidence:
+  - kind: chair activity
+    first: '2019-07-11'
+    last: '2019-07-11'
+    messages: 1
+    examples:
+    - date: '2019-07-11'
+      subject: '[LOOPS] Draft LOOPS agenda for IETF 105 uploaded'
+      url: https://mailarchive.ietf.org/arch/msg/loops/DCNMVnCTwWX4XrN5BqDoLi0eSFM/
 - person: 109354
   name: Brian Trammell
   status: confirmed

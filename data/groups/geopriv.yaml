@@ -16,12 +16,26 @@ chairs:
       not_after: '2001-06-15'
     end:
       certainty: evidence-only
-      not_before: '2006-03-19'
+      not_before: '2006-07-11'
   evidence:
   - kind: WG Action
     date: '2001-06-15'
     subject: 'WG ACTION: Geographic Location/Privacy (geopriv)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/s3vvmE3kHA7LXmH7IMjLXsjUQaY/
+  - kind: chair activity
+    first: '2004-03-04'
+    last: '2006-07-11'
+    messages: 3
+    examples:
+    - date: '2004-03-04'
+      subject: '[Geopriv] WGLC for draft-ietf-geopriv-pidf-lo-01.txt'
+      url: https://mailarchive.ietf.org/arch/msg/geopriv/z0c_D_FUKLIeEmbLlFVDu3Du3YE/
+    - date: '2006-02-20'
+      subject: '[Geopriv] WGLC on Common Policy'
+      url: https://mailarchive.ietf.org/arch/msg/geopriv/dnKZeDGFKPauIQzdd0DBV7O_yeI/
+    - date: '2006-07-11'
+      subject: '[Geopriv] WGLC for Geopriv-Radius draft'
+      url: https://mailarchive.ietf.org/arch/msg/geopriv/FWFNzxFZcIgWBXx7JjVJsNpPFRE/
   - kind: session requests
     meetings:
     - '65'
@@ -41,17 +55,93 @@ chairs:
     date: '2001-06-15'
     subject: 'WG ACTION: Geographic Location/Privacy (geopriv)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/s3vvmE3kHA7LXmH7IMjLXsjUQaY/
+- person: 103961
+  name: Robert Sparks
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: approximate
+      date: '2007-04-23'
+    end:
+      certainty: approximate
+      date: '2009-03-23'
+    notes:
+    - start dated by list message of 2007-04-23
+    - end dated by list message of 2009-03-23
+  evidence:
+  - kind: list message
+    date: '2007-04-23'
+    says: start
+    subject: '[Geopriv] New Geopriv Chair'
+    url: https://mailarchive.ietf.org/arch/msg/geopriv/MBEZWVM8_inkCx5PmaJpA6EyW7s/
+    excerpt: Robert Sparks has agreed to take over as the sole chair for the working group.
+  - kind: list message
+    date: '2009-03-23'
+    says: end
+    subject: '[Geopriv] New GEOPRIV co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/geopriv/tnFD41DjJ9qcLabh99ctxxIYlpQ/
+    excerpt: Many thanks to Robert Sparks for his service as co-chair over the past several IETFs, and
+      his help bringing a brand new co-chair (me) up to speed.
+  - kind: chair activity
+    first: '2007-06-04'
+    last: '2009-01-13'
+    messages: 22
+    examples:
+    - date: '2007-06-04'
+      subject: '[Geopriv] WGLC: draft-ietf-geopriv-pidf-lo-profile-07.txt'
+      url: https://mailarchive.ietf.org/arch/msg/geopriv/OvS3M3M-15ssiUImck2uD3O7jPI/
+    - date: '2007-07-10'
+      subject: '[Geopriv] Draft agenda for geopriv at ietf69'
+      url: https://mailarchive.ietf.org/arch/msg/geopriv/4xV8PJLOcYA4g6pJesuBdSgSPAs/
+    - date: '2007-07-26'
+      subject: '[Geopriv] Draft minutes: GEOPRIV at IETF69'
+      url: https://mailarchive.ietf.org/arch/msg/geopriv/_38P-BNKb30ZYnDSHLYGxlQng5g/
+    - date: '2008-04-30'
+      subject: '[Geopriv] WGLC: draft-ietf-geopriv-l7-lcp-ps-07.txt'
+      url: https://mailarchive.ietf.org/arch/msg/geopriv/doQDDm117rsnSfRImnGb92AesOI/
+    - date: '2008-06-30'
+      subject: '[Geopriv] WGLC: draft-ietf-geopriv-policy-17'
+      url: https://mailarchive.ietf.org/arch/msg/geopriv/jfcsbAMKWmajAChR4-kZnI_cJ8E/
+  - kind: session requests
+    meetings:
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
 - person: 106296
   name: Andy Newton
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2006-07-09'
+      not_after: '2004-01-09'
     end:
       certainty: evidence-only
       not_before: '2007-03-18'
   evidence:
+  - kind: chair activity
+    first: '2004-01-09'
+    last: '2007-03-06'
+    messages: 43
+    examples:
+    - date: '2004-01-09'
+      subject: '[Geopriv] working group milestones'
+      url: https://mailarchive.ietf.org/arch/msg/geopriv/qcxpOCmeopYGzlT7zTkRIFghcZI/
+    - date: '2004-01-22'
+      subject: '[Geopriv] agenda items for the 59th IETF meeting'
+      url: https://mailarchive.ietf.org/arch/msg/geopriv/PH2it6u0gNhQANWg_DckqZ0vT-E/
+    - date: '2004-10-13'
+      subject: '[Geopriv] WGLC for draft-ietf-geopriv-dhcp-civil-04.txt'
+      url: https://mailarchive.ietf.org/arch/msg/geopriv/pfCxHOUePc4sMUcyHhPqCNXX5x0/
+    - date: '2004-11-01'
+      subject: '[Geopriv] WGLC for draft-ietf-geopriv-common-policy-03.txt'
+      url: https://mailarchive.ietf.org/arch/msg/geopriv/pm0DoU2eoH_CRFeaxhZkZZ5erwQ/
+    - date: '2005-08-16'
+      subject: '[Geopriv] WGLC on draft-ietf-geopriv-location-types-registry-03.txt'
+      url: https://mailarchive.ietf.org/arch/msg/geopriv/a0xmCx0oKTiEZ7_q0JAg3LC3Jsk/
   - kind: session requests
     meetings:
     - '66'
@@ -94,6 +184,26 @@ chairs:
     subject: '[Geopriv] Draft GEOPRIV Minutes from IETF 73'
     url: https://mailarchive.ietf.org/arch/msg/geopriv/Ern69H3ITGDE91utDzq3U49fGw4/
     excerpt: 10m Administrivia/Status Richard Barnes welcomed as new co-chair.
+  - kind: chair activity
+    first: '2008-11-21'
+    last: '2012-03-29'
+    messages: 16
+    examples:
+    - date: '2008-11-21'
+      subject: '[Geopriv] Draft GEOPRIV Minutes from IETF 73'
+      url: https://mailarchive.ietf.org/arch/msg/geopriv/Ern69H3ITGDE91utDzq3U49fGw4/
+    - date: '2009-02-02'
+      subject: '[Geopriv] WGLC: draft-ietf-geopriv-http-location-delivery-12'
+      url: https://mailarchive.ietf.org/arch/msg/geopriv/fJbeL3hL9VSe1L3buIrQAESPoQ4/
+    - date: '2009-03-11'
+      subject: '[Geopriv] Draft agenda for IETF 74'
+      url: https://mailarchive.ietf.org/arch/msg/geopriv/Kn9IInPnyVwnHdhLuYQdU-STLB0/
+    - date: '2009-05-08'
+      subject: '[Geopriv] WGLC: draft-ietf-geopriv-lis-discovery-11.txt'
+      url: https://mailarchive.ietf.org/arch/msg/geopriv/dpKKQy73rIZ2EUpyYMbG-Xn98-I/
+    - date: '2009-09-01'
+      subject: '[Geopriv] WGLC: draft-ietf-geopriv-geo-uri-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/geopriv/0cOfuOcE3IQ6gbGnlao3-3Ah02w/
   - kind: session requests
     meetings:
     - '75'
@@ -121,6 +231,17 @@ chairs:
     subject: '[Geopriv] New GEOPRIV chair'
     url: https://mailarchive.ietf.org/arch/msg/geopriv/ZDoTWGQE7M7vv81xVJqu3Sf5e64/
     excerpt: I'm happy to announce that Ray Bellis has agreed to become the next chair of GEOPRIV.
+  - kind: chair activity
+    first: '2014-03-24'
+    last: '2014-07-09'
+    messages: 2
+    examples:
+    - date: '2014-03-24'
+      subject: '[Geopriv] IETF89 WG minutes online'
+      url: https://mailarchive.ietf.org/arch/msg/geopriv/mEnZsIlrNM0ijgIUCm-d4wemFtQ/
+    - date: '2014-07-09'
+      subject: '[Geopriv] WGLC for draft-ietf-geopriv-uncertainty-01'
+      url: https://mailarchive.ietf.org/arch/msg/geopriv/X8bTTNPu4HgHl05ZUyehpR2NODQ/
   - kind: shepherded
     documents:
     - draft-ietf-geopriv-uncertainty
@@ -158,6 +279,26 @@ chairs:
     subject: '[Geopriv] Draft GEOPRIV Minutes from IETF 74'
     url: https://mailarchive.ietf.org/arch/msg/geopriv/vjvdn-uKD96cBZu8yGHwD86Sgy4/
     excerpt: Administrivia Alyssa Cooper introduced as new co-chair.
+  - kind: chair activity
+    first: '2009-04-29'
+    last: '2013-11-14'
+    messages: 33
+    examples:
+    - date: '2009-04-29'
+      subject: '[Geopriv] Virtual interim'
+      url: https://mailarchive.ietf.org/arch/msg/geopriv/3izgQDPBKB6rsQdiPfksqecOLXg/
+    - date: '2009-05-01'
+      subject: '[Geopriv] Virtual Interim -- May 21 16:00 EDT'
+      url: https://mailarchive.ietf.org/arch/msg/geopriv/Z6lKeVB6Hrodz7Q_1_u3XzaafYM/
+    - date: '2009-10-12'
+      subject: '[Geopriv] WGLC: draft-ietf-geopriv-loc-filters-06'
+      url: https://mailarchive.ietf.org/arch/msg/geopriv/K1_4QjQG2f4jJD3vtWMGpMFsfKA/
+    - date: '2009-11-02'
+      subject: '[Geopriv] WGLC: draft-rosen-geopriv-prefix-00'
+      url: https://mailarchive.ietf.org/arch/msg/geopriv/3XxhPN_-65PPlV2px9O2hZuKfzI/
+    - date: '2009-11-02'
+      subject: '[Geopriv] WGLC of draft-ietf-geopriv-loc-filters ends today'
+      url: https://mailarchive.ietf.org/arch/msg/geopriv/SX3nIz8E0b9iTZdTV9UAFFqqrek/
   - kind: session requests
     meetings:
     - '78'

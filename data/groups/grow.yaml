@@ -16,7 +16,7 @@ chairs:
       not_after: '2003-05-02'
     end:
       certainty: evidence-only
-      not_before: '2004-05-17'
+      not_before: '2005-11-08'
   evidence:
   - kind: WG Action
     date: '2003-05-02'
@@ -26,6 +26,17 @@ chairs:
     date: '2004-05-17'
     subject: 'WG Action: RECHARTER: Global Routing Operations (grow)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/PJyL9FSi9v9zqBMaCdKUxh6l7LE/
+  - kind: chair activity
+    first: '2003-10-24'
+    last: '2005-11-08'
+    messages: 26
+    examples:
+    - date: '2003-10-24'
+      subject: 'grow: draft agenda for 58 IETF'
+      url: https://mailarchive.ietf.org/arch/msg/grow/RmYgAtoodZ8J2scUUczdpAT2Kl0/
+    - date: '2003-10-29'
+      subject: 'grow: Draft GROW agenda for Minneapolis'
+      url: https://mailarchive.ietf.org/arch/msg/grow/VKPiq3kEKm5TyRGXcXpqNVa1Ydo/
 - person: 104956
   name: Vijay Gill
   status: unconfirmed
@@ -35,12 +46,23 @@ chairs:
       not_after: '2003-05-02'
     end:
       certainty: evidence-only
-      not_before: '2003-05-02'
+      not_before: '2004-01-07'
   evidence:
   - kind: WG Action
     date: '2003-05-02'
     subject: 'WG Action: Global Routing Operations (grow)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/3mhkxa7Pj_-Z6gYTVQyS-J8V-08/
+  - kind: chair activity
+    first: '2004-01-07'
+    last: '2004-01-07'
+    messages: 2
+    examples:
+    - date: '2004-01-07'
+      subject: 'grow: Agenda items for Seoul'
+      url: https://mailarchive.ietf.org/arch/msg/grow/cRX5JdiToakBk46Mbl1ZemIDeAk/
+    - date: '2004-01-07'
+      subject: 'grow: Resend: Agenda items for Seoul'
+      url: https://mailarchive.ietf.org/arch/msg/grow/MzIFJMybc5Tzo6Hbc7DmCpreuQQ/
 - person: 106925
   name: Geoff Huston
   status: unconfirmed
@@ -56,6 +78,17 @@ chairs:
     date: '2004-05-17'
     subject: 'WG Action: RECHARTER: Global Routing Operations (grow)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/PJyL9FSi9v9zqBMaCdKUxh6l7LE/
+  - kind: chair activity
+    first: '2006-02-23'
+    last: '2006-03-22'
+    messages: 2
+    examples:
+    - date: '2006-02-23'
+      subject: 'grow: Draft agenda for GROW WG'
+      url: https://mailarchive.ietf.org/arch/msg/grow/hAnpDSs3YlpEgKTUWrTChIh1Zag/
+    - date: '2006-03-22'
+      subject: 'grow: GROW minutes from IETF65'
+      url: https://mailarchive.ietf.org/arch/msg/grow/Pce18GNbexEUPEPRF5lmM7GLdRU/
   - kind: session requests
     meetings:
     - '65'
@@ -75,6 +108,26 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 70
   evidence:
+  - kind: chair activity
+    first: '2008-11-05'
+    last: '2017-07-24'
+    messages: 30
+    examples:
+    - date: '2008-11-05'
+      subject: '[GROW] Agenda for Minneapolis'
+      url: https://mailarchive.ietf.org/arch/msg/grow/0zVSmxwR3Ud4gx_wBl5B9MzaWAU/
+    - date: '2009-02-17'
+      subject: '[GROW] Agenda Items for SF'
+      url: https://mailarchive.ietf.org/arch/msg/grow/_De_pUyfUZenCBnRZZ1P2HL0t2I/
+    - date: '2012-06-11'
+      subject: '[GROW] WGLC: draft-ietf-grow-diverse-bgp-path-dist-07'
+      url: https://mailarchive.ietf.org/arch/msg/grow/nOWk1-8ajIrDghHYWCdgpbrvQqg/
+    - date: '2013-08-07'
+      subject: '[GROW] call for adoption draft-cardona-filtering-threats'
+      url: https://mailarchive.ietf.org/arch/msg/grow/0B1Ppd0o4nWNcTTBfhXfuBuLUNc/
+    - date: '2013-08-07'
+      subject: '[GROW] call for adoption draft-hilliard-ix-bgp-route-server-operations'
+      url: https://mailarchive.ietf.org/arch/msg/grow/0zKYlPbiU9jjNdVFC6fDfhMhTnk/
   - kind: session requests
     meetings:
     - '70'
@@ -101,12 +154,34 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2012-02-01'
+      date: '2010-03-24'
       not_before: '2003-04-02'
     end:
       certainty: exact
       date: '2025-03-28'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
   evidence:
+  - kind: chair activity
+    first: '2010-03-24'
+    last: '2021-06-03'
+    messages: 32
+    examples:
+    - date: '2010-03-24'
+      subject: '[GROW] Working group last call for: draft-ietf-grow-bgp-graceful-shutdown-requirements'
+      url: https://mailarchive.ietf.org/arch/msg/grow/n10TZ_iAjLlz6EA4tqgXNvY9Xvs/
+    - date: '2010-07-29'
+      subject: '[GROW] Call for WG Adoption - draft-manderson-grow-geomrt-00'
+      url: https://mailarchive.ietf.org/arch/msg/grow/PFxUBs0NH4JD1pjrznQKpQLaK8M/
+    - date: '2010-07-29'
+      subject: '[GROW] Call for WG Adoption - draft-jasinska-ix-bgp-route-server-00'
+      url: https://mailarchive.ietf.org/arch/msg/grow/aFFzvpn9He_Z8Izf-JusMHkIPvo/
+    - date: '2011-02-24'
+      subject: '[GROW] Agenda items for IETF80'
+      url: https://mailarchive.ietf.org/arch/msg/grow/lqTjZJ-PgAa26mn0rrKUT0wm4do/
+    - date: '2012-11-10'
+      subject: '[GROW] Meeting minutes/slides'
+      url: https://mailarchive.ietf.org/arch/msg/grow/GtQs9kD7BLDLkRP1ilwtkR8k4uU/
   - kind: shepherded
     documents:
     - draft-ietf-grow-bgp-gshut
@@ -135,6 +210,26 @@ chairs:
     date: '2025-05-09'
     subject: 'WG Action: Rechartered Global Routing Operations (grow)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/wx9WBSgKgK6NE2kqRmXm6Es7ozc/
+  - kind: chair activity
+    first: '2018-03-10'
+    last: '2025-07-08'
+    messages: 25
+    examples:
+    - date: '2018-03-10'
+      subject: '[GROW] IETF 101 GROW draft agenda'
+      url: https://mailarchive.ietf.org/arch/msg/grow/Mafwv9ca45gj3Pqqazl5oAxBGUU/
+    - date: '2018-03-21'
+      subject: '[GROW] GROW IETF 101 minutes'
+      url: https://mailarchive.ietf.org/arch/msg/grow/EkJ9iDFHK4n4po07YbVYmxZSyIs/
+    - date: '2018-06-11'
+      subject: '[GROW] WG Adoption Call: draft-ymbk-grow-wkc-behavior-01 2018.06.11-2018.06.26'
+      url: https://mailarchive.ietf.org/arch/msg/grow/nu5ZGVVhvuNq_FFiNNPAZ624IKQ/
+    - date: '2018-09-25'
+      subject: '[GROW] WG Adoption Call: draft-scudder-grow-bmp-registries-change 2018.09.25-2018.10.09'
+      url: https://mailarchive.ietf.org/arch/msg/grow/RWw92s_S-T4RSU0t4nU1APztxa0/
+    - date: '2018-11-09'
+      subject: '[GROW] working group last call draft-ietf-grow-bmp-local-rib (ends 2018.11.26)'
+      url: https://mailarchive.ietf.org/arch/msg/grow/GtjlZ0JUUDpFoj_7MG3gds2pT6g/
   - kind: shepherded
     documents:
     - draft-ietf-grow-bgpopsecupd
@@ -168,6 +263,24 @@ chairs:
     subject: '[GROW] GROW Leadership Change'
     url: https://mailarchive.ietf.org/arch/msg/grow/wDVS5_-s_q8YJ2fzHW9u6-MK5xk/
     excerpt: '* Paolo Lucente (NTT) as a new WG Chair.'
+  - kind: chair activity
+    first: '2025-04-14'
+    last: '2026-11-02'
+    messages: 4
+    examples:
+    - date: '2025-04-14'
+      subject: '[GROW] IETF 122 minutes'
+      url: https://mailarchive.ietf.org/arch/msg/grow/9UL_3fSKRiokUEYBqrrvtmr106A/
+    - date: '2025-05-18'
+      subject: '[GROW] Working Group Last Call (WGLC) for draft-ietf-grow-bmp-bgp-rib-stats (start 18/May/2025
+        end 1/Jun/2025)'
+      url: https://mailarchive.ietf.org/arch/msg/grow/I54AWmBSMRA2VsNqpx5Hwohl3YQ/
+    - date: '2025-10-01'
+      subject: '[GROW] Call for agenda items for GROW @ IETF 124'
+      url: https://mailarchive.ietf.org/arch/msg/grow/WUKunoNiXomz8gAnoYlcZGQEsfI/
+    - date: '2026-11-02'
+      subject: '[GROW] WGLC draft-ietf-grow-bmp-tlv'
+      url: https://mailarchive.ietf.org/arch/msg/grow/wREVxrbttWk8hwUS0Sic2-YBfrA/
   - kind: shepherded
     documents:
     - draft-ietf-grow-nrtm-v4

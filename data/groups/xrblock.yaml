@@ -19,6 +19,17 @@ chairs:
       certainty: group-closed
       date: '2019-09-20'
   evidence:
+  - kind: chair activity
+    first: '2018-02-18'
+    last: '2018-03-29'
+    messages: 2
+    examples:
+    - date: '2018-02-18'
+      subject: '[xrblock] draft agenda for ietf101 loaded'
+      url: https://mailarchive.ietf.org/arch/msg/xrblock/DriUw5WMIFXfnn7gp60FHshVUcw/
+    - date: '2018-03-29'
+      subject: '[xrblock] xrblock draft minutes posted'
+      url: https://mailarchive.ietf.org/arch/msg/xrblock/7dg_XmLeoX2HD8fPaRuGNe5okKE/
   - kind: shepherded
     documents:
     - draft-ietf-xrblock-independent-burst-gap-discard
@@ -36,12 +47,42 @@ chairs:
       not_after: '2011-01-25'
     end:
       certainty: evidence-only
-      not_before: '2011-01-25'
+      not_before: '2011-03-21'
   evidence:
   - kind: WG Action
     date: '2011-01-25'
     subject: 'WG Action: Metric Blocks for use with RTCP''s Extended Report Framework (XRBLOCK)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/2C5q86N6j1xuGh-fKPucvQWw6kk/
+  - kind: chair activity
+    first: '2011-03-13'
+    last: '2011-03-21'
+    messages: 3
+    examples:
+    - date: '2011-03-13'
+      subject: '[xrblock] Initial WGs agenda for IETF80'
+      url: https://mailarchive.ietf.org/arch/msg/xrblock/FctfJqVcfdmrTeS-OpOvZb20pUk/
+    - date: '2011-03-15'
+      subject: '[xrblock] updated agenda for IETF80'
+      url: https://mailarchive.ietf.org/arch/msg/xrblock/qRxCcH9Uda_I0T2l4883Cr6JiXs/
+- person: 106438
+  name: David Bryan
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: approximate
+      date: '2011-08-17'
+    end:
+      certainty: evidence-only
+      not_before: '2011-08-17'
+    notes:
+    - start dated by list message of 2011-08-17
+  evidence:
+  - kind: list message
+    date: '2011-08-17'
+    says: start
+    subject: '[xrblock] New chairs for XRBLOCK'
+    url: https://mailarchive.ietf.org/arch/msg/xrblock/ksT3ozhFfxG50NVKWfYPISPsLWw/
+    excerpt: Please welcome David Bryan and Charles Eckel as the new co-chairs for XRBLOCK.
 - person: 107520
   name: Shida Schubert
   status: confirmed
@@ -54,6 +95,26 @@ chairs:
       certainty: group-closed
       date: '2019-09-20'
   evidence:
+  - kind: chair activity
+    first: '2011-12-07'
+    last: '2016-04-07'
+    messages: 17
+    examples:
+    - date: '2011-12-07'
+      subject: '[xrblock] Minutes from IETF82'
+      url: https://mailarchive.ietf.org/arch/msg/xrblock/U-fPmZymDv9_sjXH0e8DYzk01FE/
+    - date: '2011-12-14'
+      subject: '[xrblock] WGLC for draft-ietf-xrblock-rtcp-xr-meas-identity'
+      url: https://mailarchive.ietf.org/arch/msg/xrblock/JcybjuaZwAajL_-XrI5BVJfwhp4/
+    - date: '2012-03-14'
+      subject: '[xrblock] Polling the WG for interests in adding new milestones'
+      url: https://mailarchive.ietf.org/arch/msg/xrblock/FDuVtqQ3RVcOUnoWNKNX2djvxqo/
+    - date: '2012-05-02'
+      subject: '[xrblock] WGLC for Packet Delay Variation Metric Reporting'
+      url: https://mailarchive.ietf.org/arch/msg/xrblock/H6MJTSGCzh3Tw5Pa6N25-jy152w/
+    - date: '2012-05-31'
+      subject: '[xrblock] WGLC for xrblock-rtcp-xr-discard-rle-metrics'
+      url: https://mailarchive.ietf.org/arch/msg/xrblock/3ToVW2GBVkl5I1snjylqoLwLXII/
   - kind: shepherded
     documents:
     - draft-ietf-xrblock-rtcp-xr-bytes-discarded-metric
@@ -71,10 +132,11 @@ chairs:
       date: '2011-08-17'
     end:
       certainty: between
-      not_before: '2011-12-09'
+      not_before: '2012-01-20'
       not_after: '2015-05-29'
     notes:
     - start moved earlier by session request for IETF 82
+    - widened to cover last calls and adoption calls on the group list
     - start dated by list message of 2011-08-17
   evidence:
   - kind: list message
@@ -83,6 +145,20 @@ chairs:
     subject: '[xrblock] New chairs for XRBLOCK'
     url: https://mailarchive.ietf.org/arch/msg/xrblock/ksT3ozhFfxG50NVKWfYPISPsLWw/
     excerpt: Please welcome David Bryan and Charles Eckel as the new co-chairs for XRBLOCK.
+  - kind: chair activity
+    first: '2011-11-02'
+    last: '2012-03-14'
+    messages: 4
+    examples:
+    - date: '2011-11-02'
+      subject: '[xrblock] agenda for xrblock at IETF 82'
+      url: https://mailarchive.ietf.org/arch/msg/xrblock/bL-3NBdCXDUIqVZ2Ki-amVVpELk/
+    - date: '2011-11-03'
+      subject: '[xrblock] updated xrblock agenda for IETF 82'
+      url: https://mailarchive.ietf.org/arch/msg/xrblock/z9_0Wx9JA2OZIySMcUBjEFH3dSw/
+    - date: '2012-01-20'
+      subject: '[xrblock] WGLC for draft-ietf-xrblock-rtcp-xr-delay'
+      url: https://mailarchive.ietf.org/arch/msg/xrblock/d-pI15FezTrOu0YAvGDa97AsdU0/
   - kind: session requests
     meetings:
     - '82'

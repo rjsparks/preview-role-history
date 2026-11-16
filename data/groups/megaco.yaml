@@ -13,8 +13,25 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-27'
+      date: '2003-06-02'
       not_before: '1998-11-10'
     end:
       certainty: group-closed
       date: '2006-03-27'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
+  evidence:
+  - kind: chair activity
+    first: '2001-07-20'
+    last: '2003-06-02'
+    messages: 9
+    examples:
+    - date: '2001-07-20'
+      subject: '[Megaco] Agenda For The Meeting'
+      url: https://mailarchive.ietf.org/arch/msg/megaco/ojeJv5VHm4F8YBlun7ZA3O8_v3A/
+    - date: '2001-08-08'
+      subject: '[Megaco] Draft IETF 51 Megaco Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/megaco/RH-OLFDrlBZYp6Wo4Tu7nlW8wy0/
+    - date: '2003-06-02'
+      subject: '[Megaco] WG Last Call For Megaco MIB'
+      url: https://mailarchive.ietf.org/arch/msg/megaco/aRXSUAkoHD_2Hp8e3h9RuHB-F64/

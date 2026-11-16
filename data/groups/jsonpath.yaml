@@ -22,6 +22,17 @@ chairs:
     date: '2020-10-23'
     subject: 'WG Action: Formed JSON Path (jsonpath)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/gETCDPfifXG6y4iq3CrgD-sH3-c/
+  - kind: chair activity
+    first: '2021-03-10'
+    last: '2023-02-04'
+    messages: 12
+    examples:
+    - date: '2021-03-10'
+      subject: '[Jsonpath] Apologies, and an interim meeting'
+      url: https://mailarchive.ietf.org/arch/msg/jsonpath/PVV43heLfOWbk7_rLvXEyrm33dc/
+    - date: '2021-03-15'
+      subject: '[Jsonpath] Scheduling our interim meeting'
+      url: https://mailarchive.ietf.org/arch/msg/jsonpath/XagGHjAaSy3GL7OgpH0mp34j0Fc/
   - kind: shepherded
     documents:
     - draft-ietf-jsonpath-base
@@ -36,6 +47,26 @@ chairs:
       certainty: group-closed
       date: '2024-03-11'
   evidence:
+  - kind: chair activity
+    first: '2020-11-18'
+    last: '2023-04-18'
+    messages: 28
+    examples:
+    - date: '2020-11-18'
+      subject: '[Jsonpath] IETF 109 JSONPath draft minutes'
+      url: https://mailarchive.ietf.org/arch/msg/jsonpath/RBwTfc7v8t8xUwIPqEHWvaZvL_I/
+    - date: '2020-12-07'
+      subject: '[Jsonpath] Call for Adoption: draft-normington-jsonpath'
+      url: https://mailarchive.ietf.org/arch/msg/jsonpath/AG8nDfRNVQOfLoZQyQ4JSYDehlo/
+    - date: '2021-02-11'
+      subject: '[Jsonpath] IETF 110 - Call for Agenda Items'
+      url: https://mailarchive.ietf.org/arch/msg/jsonpath/bdhlkGWiNDMaOQ52UPXyjJqd64k/
+    - date: '2022-10-18'
+      subject: '[Jsonpath] Working Group Last Call: I-Regexp'
+      url: https://mailarchive.ietf.org/arch/msg/jsonpath/YRyStzEXl7etaq2kNTX_1D1EN48/
+    - date: '2023-04-18'
+      subject: '[Jsonpath] Working Group Last Call: draft-ietf-jsonpath-base'
+      url: https://mailarchive.ietf.org/arch/msg/jsonpath/nzOPidEBbXLLVm7zjyGalF3CgSI/
   - kind: shepherded
     documents:
     - draft-ietf-jsonpath-iregexp

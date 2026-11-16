@@ -19,6 +19,14 @@ chairs:
       certainty: group-closed
       date: '2010-06-11'
   evidence:
+  - kind: chair activity
+    first: '2010-03-04'
+    last: '2010-03-04'
+    messages: 1
+    examples:
+    - date: '2010-03-04'
+      subject: '[newprep] version 0.1 of proposed agenda for Anaheim newprep BOF'
+      url: https://mailarchive.ietf.org/arch/msg/newprep/mGX3UqJTW47e3v2fAkYJVyiMhPk/
   - kind: session requests
     meetings:
     - '78'
@@ -34,3 +42,12 @@ chairs:
     end:
       certainty: group-closed
       date: '2010-06-11'
+  evidence:
+  - kind: chair activity
+    first: '2010-04-02'
+    last: '2010-04-02'
+    messages: 1
+    examples:
+    - date: '2010-04-02'
+      subject: '[newprep] draft minutes'
+      url: https://mailarchive.ietf.org/arch/msg/newprep/1CPvklaKXecDV0xtr6swDR6BKhY/

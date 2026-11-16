@@ -28,6 +28,14 @@ chairs:
       certainty: exact
       date: '2017-05-02'
   evidence:
+  - kind: chair activity
+    first: '2015-07-27'
+    last: '2015-07-27'
+    messages: 1
+    examples:
+    - date: '2015-07-27'
+      subject: '[gaia] Preliminary GAIA RG meeting minutes from IETF93'
+      url: https://mailarchive.ietf.org/arch/msg/gaia/-gKLaNv7O8O5hfNipSUsAbKewD4/
   - kind: shepherded
     documents:
     - draft-irtf-gaia-alternative-network-deployments
@@ -59,6 +67,17 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/gaia/qZW-zwfRdyICEso9zG3i1xxnMWI/
     excerpt: Our GAIA group is now over 470 members and I am also delighted to say Prof Leandro Navarro
       will be replacing me as the new Chair along with Jane Coffin.
+  - kind: chair activity
+    first: '2017-07-13'
+    last: '2021-03-01'
+    messages: 5
+    examples:
+    - date: '2017-07-13'
+      subject: '[gaia] Agenda for next week''s GAIA meeting at IETF99 Prague'
+      url: https://mailarchive.ietf.org/arch/msg/gaia/GJeKejwxFfpfr53b5ie8BgKBqUE/
+    - date: '2019-07-23'
+      subject: '[gaia] IETF 105 Montreal - IRTF GAIA meeting - minutes'
+      url: https://mailarchive.ietf.org/arch/msg/gaia/Ao5LlBny2SrjGpcPmg0MszaK6Pk/
 - person: 123022
   name: Jane Coffin
   status: confirmed
@@ -68,6 +87,18 @@ chairs:
       date: '2017-05-02'
     end:
       certainty: ongoing
+  evidence:
+  - kind: chair activity
+    first: '2017-08-12'
+    last: '2019-09-26'
+    messages: 2
+    examples:
+    - date: '2017-08-12'
+      subject: '[gaia] GAIA - Minutes from 19 July Meeting posted and Next Steps'
+      url: https://mailarchive.ietf.org/arch/msg/gaia/B5CHhbAxhD_jbUACMWDAOwZ7ARY/
+    - date: '2019-09-26'
+      subject: '[gaia] IETF 106 Singapore (16-22 Nov) - IRTF GAIA meeting - Draft Agenda'
+      url: https://mailarchive.ietf.org/arch/msg/gaia/KUrZsrNhnU7slDPQd1v7GQ6SU3w/
 - person: 126108
   name: Kurtis Heimerl
   status: confirmed
@@ -94,3 +125,15 @@ chairs:
       date: '2025-07-25'
     end:
       certainty: ongoing
+  evidence:
+  - kind: chair activity
+    first: '2026-03-05'
+    last: '2026-03-31'
+    messages: 2
+    examples:
+    - date: '2026-03-05'
+      subject: '[gaia] Agenda for GAIA @ IETF 125'
+      url: https://mailarchive.ietf.org/arch/msg/gaia/ZpLhZFnTfmuxtFrCKd6C3LpBx7s/
+    - date: '2026-03-31'
+      subject: '[gaia] Call for Adoption: draft-gaia-circular-device-practices'
+      url: https://mailarchive.ietf.org/arch/msg/gaia/pVTHbJEG4C3hhATfgvkw6DPBIRI/

@@ -48,6 +48,17 @@ chairs:
     date: '2016-12-16'
     subject: 'WG Action: Rechartered Routing Over Low power and Lossy networks (roll)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/XedbN2MYXfT7QSChC-2hBNdC8ss/
+  - kind: chair activity
+    first: '2018-11-27'
+    last: '2019-03-26'
+    messages: 2
+    examples:
+    - date: '2018-11-27'
+      subject: '[Roll] call for adoption draft-koutsiamanis-roll-nsa-extension'
+      url: https://mailarchive.ietf.org/arch/msg/roll/tsNa6SOB3PDCcqlOuS1lVMv5ut8/
+    - date: '2019-03-26'
+      subject: '[Roll] WG last call draft-ietf-roll-aodv-rpl-06'
+      url: https://mailarchive.ietf.org/arch/msg/roll/mivTsAMq2EJowcZIDzFfqI_Lddg/
   - kind: shepherded
     documents:
     - draft-ietf-roll-efficient-npdao
@@ -66,6 +77,26 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 72
   evidence:
+  - kind: chair activity
+    first: '2008-02-22'
+    last: '2012-10-25'
+    messages: 44
+    examples:
+    - date: '2008-02-22'
+      subject: '[Roll] Draft Agenda posted'
+      url: https://mailarchive.ietf.org/arch/msg/roll/UJkONckOiUds1IGKXCEqyGqpJ60/
+    - date: '2008-03-26'
+      subject: '[Roll] IETF-71 ROLL WG Minutes posted'
+      url: https://mailarchive.ietf.org/arch/msg/roll/5cX8P_7K9B9KfFwyP5UqZTfzD54/
+    - date: '2008-10-23'
+      subject: '[Roll] WG Last Call: draft-ietf-roll-urban-routing-reqs-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/roll/3YLptnaz_4sNgjNgwjO4BqvVpvE/
+    - date: '2008-10-29'
+      subject: '[Roll] WG Last Call: draft-ietf-roll-home-routing-reqs-04'
+      url: https://mailarchive.ietf.org/arch/msg/roll/bNmjg3jLpcBpeegq_w8jrs45ct8/
+    - date: '2008-11-07'
+      subject: '[Roll] WG Last Call: draft-ietf-roll-indus-routing-reqs-02'
+      url: https://mailarchive.ietf.org/arch/msg/roll/zEbXZ9D97VfCqvz5qfAqm7APFds/
   - kind: session requests
     meetings:
     - '72'
@@ -91,12 +122,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2010-09-16'
       not_before: '2007-12-26'
     end:
       certainty: approximate
       date: '2012-02-10'
     notes:
+    - widened to cover last calls and adoption calls on the group list
     - end dated by list message of 2012-02-10
   evidence:
   - kind: list message
@@ -106,6 +138,14 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/roll/yd4dBV7je8ZNuWVX8a3KZanHhoY/
     excerpt: After providing years helping to lead the working group, David Culler has decided it is time
       to step down as co-chair.
+  - kind: chair activity
+    first: '2010-09-16'
+    last: '2010-09-16'
+    messages: 1
+    examples:
+    - date: '2010-09-16'
+      subject: '[Roll] WG Last Call on draft-ietf-roll-routing-metrics-09.txt'
+      url: https://mailarchive.ietf.org/arch/msg/roll/jGhfH27t9Ou5PFKMW5f7DVoe8Vc/
 - person: 109263
   name: Dominique Barthel
   status: confirmed
@@ -121,6 +161,23 @@ chairs:
     date: '2025-01-30'
     subject: 'WG Action: Rechartered Routing Over Low power and Lossy networks (roll)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/v79CSHFYas2R6xnpJfJUEpdGnqs/
+  - kind: chair activity
+    first: '2019-10-30'
+    last: '2023-11-06'
+    messages: 8
+    examples:
+    - date: '2019-10-30'
+      subject: '[Roll] WGLC for ​draft-ietf-roll-nsa-extension-04'
+      url: https://mailarchive.ietf.org/arch/msg/roll/lxWyPfBycT0a4wbM-sZxXDL4HsM/
+    - date: '2019-12-13'
+      subject: '[Roll] IETF106 ROLL minutes posted'
+      url: https://mailarchive.ietf.org/arch/msg/roll/0jw8UYREtW_fbx4jo_rSObZCUJQ/
+    - date: '2021-11-22'
+      subject: '[Roll] IETF112 ROLL minutes posted'
+      url: https://mailarchive.ietf.org/arch/msg/roll/6Xt6vvIWtiO14CBgz_pi48QybeQ/
+    - date: '2022-01-17'
+      subject: '[Roll] Call for adoption of " RNFD: Fast border router crash detection in RPL"'
+      url: https://mailarchive.ietf.org/arch/msg/roll/U2Xec1ipWWaensFHYHMXndcHCNc/
   - kind: shepherded
     documents:
     - draft-ietf-roll-nsa-extension

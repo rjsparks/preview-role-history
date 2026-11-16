@@ -13,7 +13,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2007-12-02'
+      not_after: '2007-02-28'
     end:
       certainty: evidence-only
       not_before: '2010-03-21'
@@ -22,6 +22,17 @@ chairs:
     date: '2008-03-11'
     subject: 'WG Action: Timing over IP Connection and Transfer of Clock (tictoc)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/AbzwHji-D0cLPqrrbELSwlT0Ac4/
+  - kind: chair activity
+    first: '2007-02-28'
+    last: '2009-05-08'
+    messages: 10
+    examples:
+    - date: '2007-02-28'
+      subject: '[TICTOC] TICTOC BOF draft agenda'
+      url: https://mailarchive.ietf.org/arch/msg/tictoc/7Q3ElGPpXVx1uxoDQPHSJ7MqxRQ/
+    - date: '2008-04-09'
+      subject: '[TICTOC] TICTOC Interim - propose 9-11 June Paris'
+      url: https://mailarchive.ietf.org/arch/msg/tictoc/etWaMW94dtgge3MWxOH6Ebuv9HE/
   - kind: session requests
     meetings:
     - '70'
@@ -45,6 +56,26 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 79
   evidence:
+  - kind: chair activity
+    first: '2010-09-01'
+    last: '2018-10-02'
+    messages: 33
+    examples:
+    - date: '2010-09-01'
+      subject: '[TICTOC] draft minutes for tictoc wg meeting - 27 jul 2010'
+      url: https://mailarchive.ietf.org/arch/msg/tictoc/R1LRwJQwdJAIajLI6Ixt751FSCQ/
+    - date: '2011-03-16'
+      subject: '[TICTOC] draft agenda for tictoc meeting at IETF 80'
+      url: https://mailarchive.ietf.org/arch/msg/tictoc/AB2LeT-W17e3RqJHB56pspHQpQQ/
+    - date: '2011-09-29'
+      subject: '[TICTOC] WGLC: draft-ietf-tictoc-ptp-mib-00.txt'
+      url: https://mailarchive.ietf.org/arch/msg/tictoc/g1ZkOV7VVrh1AnMNs5KAVWOaUHc/
+    - date: '2013-05-16'
+      subject: '[TICTOC] WGLC on draft-ietf-tictoc-ptp-mib-05.txt'
+      url: https://mailarchive.ietf.org/arch/msg/tictoc/1rwLzfbH2wVN-4gNY_96VYGdEh8/
+    - date: '2015-06-30'
+      subject: '[TICTOC] WGLC on draft-mizrahi-ntp-checksum-trailer-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/tictoc/2SOH436YfKEK-GbjnDWzK8xLw5k/
   - kind: session requests
     meetings:
     - '79'
@@ -76,6 +107,17 @@ chairs:
     date: '2008-03-11'
     subject: 'WG Action: Timing over IP Connection and Transfer of Clock (tictoc)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/AbzwHji-D0cLPqrrbELSwlT0Ac4/
+  - kind: chair activity
+    first: '2008-03-04'
+    last: '2012-04-09'
+    messages: 10
+    examples:
+    - date: '2008-03-04'
+      subject: '[TICTOC] Preliminary Agenda for TICTOC at IETF-71'
+      url: https://mailarchive.ietf.org/arch/msg/tictoc/ezd4fedx9a7lPkyTDt4eq9o803g/
+    - date: '2008-03-16'
+      subject: '[TICTOC] interim meeting / conference calls'
+      url: https://mailarchive.ietf.org/arch/msg/tictoc/GbiR8EhPTdXB91z6y3V5NfYPT34/
   - kind: session requests
     meetings:
     - '78'

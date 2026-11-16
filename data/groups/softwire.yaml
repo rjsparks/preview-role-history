@@ -13,12 +13,12 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2005-12-08'
+      not_after: '2005-09-06'
     end:
       certainty: approximate
-      date: '2011-02-04'
+      date: '2011-03-04'
     notes:
-    - end dated by list message of 2011-02-04
+    - end dated by list message of 2011-03-04
   evidence:
   - kind: WG Action
     date: '2005-12-08'
@@ -36,6 +36,17 @@ chairs:
     subject: '[Softwires] New co-chair'
     url: https://mailarchive.ietf.org/arch/msg/softwires/xKY_nJ4sTSzWqCoubtsrcEFx90Y/
     excerpt: David Ward has stepped down as co-chair of the softwire WG.
+  - kind: chair activity
+    first: '2005-09-06'
+    last: '2006-03-03'
+    messages: 6
+    examples:
+    - date: '2005-09-06'
+      subject: '[Softwires] Softwires website and interim meeting announcement'
+      url: https://mailarchive.ietf.org/arch/msg/softwires/wpuNMsFNl7KczOI69uvPNRPLXws/
+    - date: '2005-09-08'
+      subject: '[Softwires] Interim meeting update by tomorrow'
+      url: https://mailarchive.ietf.org/arch/msg/softwires/w63DwvAivSWjKmVM88UhSNFfBpc/
 - person: 105328
   name: Alain Durand
   status: confirmed
@@ -71,6 +82,26 @@ chairs:
     date: '2011-05-31'
     subject: 'WG Action: RECHARTER: Softwires (softwire)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/qyrLUKatB62QhakzNXA266Naw4k/
+  - kind: chair activity
+    first: '2007-11-30'
+    last: '2011-09-23'
+    messages: 14
+    examples:
+    - date: '2007-11-30'
+      subject: '[Softwires] Working group last call'
+      url: https://mailarchive.ietf.org/arch/msg/softwires/5Dyzre6e8o5OMFvDbBZCEWCUYo8/
+    - date: '2007-12-03'
+      subject: '[Softwires] WG last call on the security document'
+      url: https://mailarchive.ietf.org/arch/msg/softwires/IpIbEV3KhKcAsUpyaeBA3n8yXa8/
+    - date: '2008-02-20'
+      subject: '[Softwires] IETF 71 call for agenda'
+      url: https://mailarchive.ietf.org/arch/msg/softwires/UWDcg0xKs8mq3UxVRSe2oJYAC84/
+    - date: '2008-10-31'
+      subject: '[Softwires] IETF 73, call for agenda items'
+      url: https://mailarchive.ietf.org/arch/msg/softwires/eQSekt6WgFMBvSk479z7ZvBcnO4/
+    - date: '2010-12-10'
+      subject: '[Softwires] WG last call on draft-ietf-softwire-ds-lite-tunnel-option-07'
+      url: https://mailarchive.ietf.org/arch/msg/softwires/980Sjo0P0KC5Mjep1zPIiZ-7H-g/
   - kind: session requests
     meetings:
     - '65'
@@ -102,6 +133,26 @@ chairs:
       certainty: exact
       date: '2016-04-07'
   evidence:
+  - kind: chair activity
+    first: '2012-07-06'
+    last: '2015-01-21'
+    messages: 19
+    examples:
+    - date: '2012-07-06'
+      subject: '[Softwires] Call for adoption of draft-mdt-softwire-map-deployment-02 as wg draft'
+      url: https://mailarchive.ietf.org/arch/msg/softwires/E5p32gpXz8Zdv9qgkKEonL72BJM/
+    - date: '2012-07-06'
+      subject: '[Softwires] Call for adoption of draft-mdt-softwire-map-dhcp-option-03 as wg draft'
+      url: https://mailarchive.ietf.org/arch/msg/softwires/I8UmKnXezuD4z4oAIkV3XL7eQ2Q/
+    - date: '2012-08-17'
+      subject: '[Softwires] Minutes from IETF 84 available'
+      url: https://mailarchive.ietf.org/arch/msg/softwires/wTDYBUE-UxtN7A-A19deccho5bw/
+    - date: '2013-02-05'
+      subject: '[Softwires] Call for adoption of draft-bfmk-softwire-unified-cpe-02'
+      url: https://mailarchive.ietf.org/arch/msg/softwires/hv9sY9AwTQ4A31D1qW8QQ_ePFiA/
+    - date: '2013-03-26'
+      subject: '[Softwires] IETF86 minutes available'
+      url: https://mailarchive.ietf.org/arch/msg/softwires/Omc5rO18ijb5vgUwtkxBuwnhT1U/
   - kind: shepherded
     documents:
     - draft-ietf-softwire-4rd
@@ -141,6 +192,26 @@ chairs:
     date: '2011-05-31'
     subject: 'WG Action: RECHARTER: Softwires (softwire)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/qyrLUKatB62QhakzNXA266Naw4k/
+  - kind: chair activity
+    first: '2011-07-07'
+    last: '2018-12-19'
+    messages: 24
+    examples:
+    - date: '2011-07-07'
+      subject: '[Softwires] WG last call on RADIUS Attribute for 6rd'
+      url: https://mailarchive.ietf.org/arch/msg/softwires/dxTqdXrnPP5s4Eum8p9pQpo9844/
+    - date: '2011-07-07'
+      subject: '[Softwires] Call for Agenda @ IETF 81'
+      url: https://mailarchive.ietf.org/arch/msg/softwires/Eb3A1IbsUlz-LyRnDhVaQD9gl_M/
+    - date: '2011-08-19'
+      subject: '[Softwires] Softwire Interim Meeting in Beijing'
+      url: https://mailarchive.ietf.org/arch/msg/softwires/RgZ9ybn-gVG_1bPSgLgRJzVC0Eg/
+    - date: '2012-05-27'
+      subject: '[Softwires] WG last call on draft-ietf-softwire-dslite-deployment-03'
+      url: https://mailarchive.ietf.org/arch/msg/softwires/b3d2XgzFpINzGN-mJ2AChMNcYtI/
+    - date: '2012-05-27'
+      subject: '[Softwires] WG last call on draft-ietf-softwire-dslite-multicast-02'
+      url: https://mailarchive.ietf.org/arch/msg/softwires/t5mnC-VesRplVABY4ylIOusbPtE/
   - kind: shepherded
     documents:
     - draft-ietf-softwire-dslite-deployment

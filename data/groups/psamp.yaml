@@ -16,12 +16,23 @@ chairs:
       not_after: '2002-08-01'
     end:
       certainty: evidence-only
-      not_before: '2002-08-01'
+      not_before: '2004-11-01'
   evidence:
   - kind: WG Action
     date: '2002-08-01'
     subject: 'WG Action: Packet Sampling (psamp)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/3dy9_FKtofqP3UtpYiz84F9EcuA/
+  - kind: chair activity
+    first: '2004-07-29'
+    last: '2004-11-01'
+    messages: 2
+    examples:
+    - date: '2004-07-29'
+      subject: 'PSAMP WG meeting agenda for IETF #60'
+      url: https://mailarchive.ietf.org/arch/msg/psamp/rZ2gLxl5nAKreSKqpoyaGS__Gfg/
+    - date: '2004-11-01'
+      subject: 'PSAMP WG agenda for IETF #61'
+      url: https://mailarchive.ietf.org/arch/msg/psamp/8x3pisWAVtdZnop4z8VrvILpZKk/
 - person: 103651
   name: Juergen Quittek
   status: confirmed
@@ -40,6 +51,26 @@ chairs:
     date: '2002-08-01'
     subject: 'WG Action: Packet Sampling (psamp)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/3dy9_FKtofqP3UtpYiz84F9EcuA/
+  - kind: chair activity
+    first: '2004-09-01'
+    last: '2007-10-12'
+    messages: 11
+    examples:
+    - date: '2004-09-01'
+      subject: Draft minutes of San Diego PSAMP session
+      url: https://mailarchive.ietf.org/arch/msg/psamp/4klqUKicf5XRpmR4Q80j7TL2J84/
+    - date: '2004-10-22'
+      subject: WG last call on Sampling and Filtering Techniques for IP Packet Selection
+      url: https://mailarchive.ietf.org/arch/msg/psamp/MwY8rHN_1BLnCE3Mu1Od8lL97GI/
+    - date: '2004-12-02'
+      subject: draft PSAMP minutes of IETF §61
+      url: https://mailarchive.ietf.org/arch/msg/psamp/h3LgueWiuzz8yX5L0-aaOLwib58/
+    - date: '2005-02-22'
+      subject: WG last call on Sampling and Filtering Techniques until March 12
+      url: https://mailarchive.ietf.org/arch/msg/psamp/16f9ZdscvLzDk5ArX4W0SvRv3E0/
+    - date: '2006-06-29'
+      subject: '[PSAMP] WG last call on draft-ietf-psamp-protocol-05.txt until July 14'
+      url: https://mailarchive.ietf.org/arch/msg/psamp/j8qt5jrnLYpbHLbgF4ObqZ0W90k/
   - kind: session requests
     meetings:
     - '65'

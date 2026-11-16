@@ -17,6 +17,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2026-06-11'
+  evidence:
+  - kind: chair activity
+    first: '2026-03-23'
+    last: '2026-03-23'
+    messages: 1
+    examples:
+    - date: '2026-03-23'
+      subject: '[agent2agent] First draft minutes for CATALIST'
+      url: https://mailarchive.ietf.org/arch/msg/agent2agent/AmmhM9V0ksoeIbHTtiO_K0bSxnQ/
 - person: 116337
   name: Yingzhen Qu
   status: confirmed

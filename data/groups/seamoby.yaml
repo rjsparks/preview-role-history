@@ -25,14 +25,51 @@ chairs:
     date: '2000-11-18'
     subject: 'WG Action: Seamless Mobility (seamoby)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/CItbLns1JM90KMz7qL_pmO7SuEw/
+  - kind: chair activity
+    first: '2001-12-12'
+    last: '2001-12-14'
+    messages: 3
+    examples:
+    - date: '2001-12-12'
+      subject: '[Seamoby] WG Last Call: draft-ietf-seamoby-paging-protocol-assessment-00.tx t'
+      url: https://mailarchive.ietf.org/arch/msg/seamoby/Y5Bt-R0wOAMDybTF4KnMseyJ6xQ/
+    - date: '2001-12-12'
+      subject: '[Seamoby] WG Last Call: draft-ietf-seamoby-cardiscovery-issues-01.txt'
+      url: https://mailarchive.ietf.org/arch/msg/seamoby/j5dd3TNBZ3RQaLxjP1CWgXQ2_7o/
+    - date: '2001-12-14'
+      subject: '[Seamoby] WG Last Call: draft-ietf-seamoby-ct-reqs-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/seamoby/ae5w9kdw5QLLKNuMh1Rk2aVmo2s/
 - person: 106286
   name: James Kempf
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-10-04'
+      date: '2003-06-16'
       not_before: '2000-10-04'
     end:
       certainty: group-closed
       date: '2004-10-04'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
+  evidence:
+  - kind: chair activity
+    first: '2002-01-03'
+    last: '2003-11-20'
+    messages: 10
+    examples:
+    - date: '2002-01-03'
+      subject: '[Seamoby] Minutes of Meeting at IETF 52'
+      url: https://mailarchive.ietf.org/arch/msg/seamoby/NgTA5qthpFODzMQETKBkIHJoD2Q/
+    - date: '2002-03-11'
+      subject: '[Seamoby] Agenda for IETF 53 Meeting'
+      url: https://mailarchive.ietf.org/arch/msg/seamoby/e2r-57jwd2UAiu4H5wOJizLMim4/
+    - date: '2003-06-16'
+      subject: '[Seamoby] WG Last Call for CT Draft Over'
+      url: https://mailarchive.ietf.org/arch/msg/seamoby/Rnz9FSzY_s7YcAzpUScHaRrLOc0/
+    - date: '2003-10-07'
+      subject: '[Seamoby] Working Group Last Call on draft-ietf-seamoby-ctp-04.txt'
+      url: https://mailarchive.ietf.org/arch/msg/seamoby/lOR14lDedTOj9S7ODewUEOkGP0c/
+    - date: '2003-11-06'
+      subject: '[Seamoby] WG Last Call on draft-ietf-seamoby-ctp-05.txt'
+      url: https://mailarchive.ietf.org/arch/msg/seamoby/Wibu-45hVi718OnSfYQmwwBqJYs/

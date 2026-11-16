@@ -13,11 +13,22 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2010-07-25'
+      not_after: '2008-03-08'
     end:
       certainty: evidence-only
-      not_before: '2011-07-24'
+      not_before: '2011-08-23'
   evidence:
+  - kind: chair activity
+    first: '2008-03-08'
+    last: '2011-08-23'
+    messages: 12
+    examples:
+    - date: '2008-03-08'
+      subject: '[nvrg-bof] Draft agenda Network Virtualisation RG proposal'
+      url: https://mailarchive.ietf.org/arch/msg/vnrg/NqPkYGJ9j0yNgm26_Oaro4MdELo/
+    - date: '2008-05-05'
+      subject: '[nvrg-bof] Meeting minutes and slides'
+      url: https://mailarchive.ietf.org/arch/msg/vnrg/RMvOMw8MWxeRd381AbAS9aee-DQ/
   - kind: session requests
     meetings:
     - '78'

@@ -34,3 +34,21 @@ chairs:
       date: '2025-11-03'
     end:
       certainty: ongoing
+  evidence:
+  - kind: chair activity
+    first: '2025-11-07'
+    last: '2026-11-09'
+    messages: 5
+    examples:
+    - date: '2025-11-07'
+      subject: '[OCM] [ocm] Call for adoption: draft-lopresti-open-cloud-mesh-07 (Ends 2025-11-21)'
+      url: https://mailarchive.ietf.org/arch/msg/ocm/PjLlu85Ep45LCVMOsx4Dx5GAgMY/
+    - date: '2025-11-07'
+      subject: '[OCM] OCM Interim'
+      url: https://mailarchive.ietf.org/arch/msg/ocm/cYib2Sz3qLlQzgTL8crlGLISAHY/
+    - date: '2026-04-14'
+      subject: '[OCM] [ocm] Interim next week on Tuesday 2026-04-21 14:30-15:30 UTC'
+      url: https://mailarchive.ietf.org/arch/msg/ocm/9-ysY7nwXT2W1DSnMH3Yxzxe6l8/
+    - date: '2026-08-24'
+      subject: '[OCM] Call for adoption: extension until September 5th for ocm-ip and ocm-mls'
+      url: https://mailarchive.ietf.org/arch/msg/ocm/Y2ELzwFG799M810r7nfkpUXRLG8/

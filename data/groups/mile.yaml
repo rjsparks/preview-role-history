@@ -17,6 +17,21 @@ chairs:
     end:
       certainty: exact
       date: '2016-04-20'
+  evidence:
+  - kind: chair activity
+    first: '2015-07-12'
+    last: '2016-03-21'
+    messages: 3
+    examples:
+    - date: '2015-07-12'
+      subject: '[mile] Draft agenda for Prague'
+      url: https://mailarchive.ietf.org/arch/msg/mile/rWEMjesSbpYiCbnSU_hrvtbCvhg/
+    - date: '2015-12-02'
+      subject: '[mile] WGLC on draft-ietf-mile-rolie-01.txt'
+      url: https://mailarchive.ietf.org/arch/msg/mile/8_2EYyFms0OJDdamtkoCM2Z5p4s/
+    - date: '2016-03-21'
+      subject: '[mile] Call for agenda items for Buenos Aires'
+      url: https://mailarchive.ietf.org/arch/msg/mile/pV85buNb59H9KrRqxMkh_17cQek/
 - person: 104851
   name: Kathleen Moriarty
   status: confirmed
@@ -43,6 +58,26 @@ chairs:
     date: '2013-07-12'
     subject: 'WG Action: Rechartered Managed Incident Lightweight Exchange (mile)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/IvDrtYZgMByqJv9NX6Ttrd_mJiA/
+  - kind: chair activity
+    first: '2011-09-08'
+    last: '2012-04-18'
+    messages: 6
+    examples:
+    - date: '2011-09-08'
+      subject: '[mile] MILE Charter and Milestones'
+      url: https://mailarchive.ietf.org/arch/msg/mile/mdlR5Ug-dWJS-zfnzCEsDVkU2y0/
+    - date: '2011-11-21'
+      subject: '[mile] WGLC on draft-ietf-mile-rfc6046-bis-01 to 5 December 2011'
+      url: https://mailarchive.ietf.org/arch/msg/mile/4ESkdkUI-2P56JYsjHWczpfECB4/
+    - date: '2011-12-02'
+      subject: '[mile] WG Last call'
+      url: https://mailarchive.ietf.org/arch/msg/mile/w7Xm9CsMGmvvMKWZoRHYG9f7_NI/
+    - date: '2012-03-28'
+      subject: '[mile] MILE Meeting Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/mile/KTw8-ksaflY2ep0tOz_BKcW0wCk/
+    - date: '2012-04-18'
+      subject: '[mile] WGLC on draft-ietf-mile-iodef-xmlreg-00.txt'
+      url: https://mailarchive.ietf.org/arch/msg/mile/DmCTZyQrrbu9Y98kGEeyiINw1Ak/
   - kind: shepherded
     documents:
     - draft-ietf-mile-rfc6046-bis
@@ -66,6 +101,20 @@ chairs:
     date: '2018-11-21'
     subject: 'WG Action: Rechartered Managed Incident Lightweight Exchange (mile)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Nbb086AeXuY0iBrGv85VxQYBMxQ/
+  - kind: chair activity
+    first: '2017-03-28'
+    last: '2019-09-23'
+    messages: 6
+    examples:
+    - date: '2017-03-28'
+      subject: '[mile] Working Group Last Call for IODEF Guidance'
+      url: https://mailarchive.ietf.org/arch/msg/mile/OOuH9Fr7hp3NYPMVh-Wpf2qwmJw/
+    - date: '2017-03-28'
+      subject: '[mile] Working group last call for ROLIE'
+      url: https://mailarchive.ietf.org/arch/msg/mile/wZntYyPm0tZhlBcupohPYn2dn3U/
+    - date: '2017-11-29'
+      subject: '[mile] Adoption call for draft-banghart-mile-rolie-csirt-00'
+      url: https://mailarchive.ietf.org/arch/msg/mile/QdFaSij88WB9X998tx8Dkh97FBg/
   - kind: shepherded
     documents:
     - draft-ietf-mile-iodef-guidance
@@ -104,6 +153,23 @@ chairs:
     date: '2013-07-12'
     subject: 'WG Action: Rechartered Managed Incident Lightweight Exchange (mile)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/IvDrtYZgMByqJv9NX6Ttrd_mJiA/
+  - kind: chair activity
+    first: '2011-10-31'
+    last: '2014-02-14'
+    messages: 14
+    examples:
+    - date: '2011-10-31'
+      subject: '[mile] DRAFT WG Agenda for IETF 82, Taipei'
+      url: https://mailarchive.ietf.org/arch/msg/mile/OkwyAdGB3IEaqaKM01lQsF3dSfk/
+    - date: '2011-11-15'
+      subject: '[mile] minutes and "jabber scribe" for the MILE WG meeting Wednesday'
+      url: https://mailarchive.ietf.org/arch/msg/mile/3-j-xqKaTTBjwGTGnhIXOOpNwds/
+    - date: '2011-11-21'
+      subject: '[mile] WGLC on draft-ietf-mile-rfc6045-bis-01 to 5 December 2011'
+      url: https://mailarchive.ietf.org/arch/msg/mile/tQ728Zy4dLNpGJc9T0SkDq_vATY/
+    - date: '2013-07-09'
+      subject: '[mile] Working Group Last Call for draft-ietf-mile-sci'
+      url: https://mailarchive.ietf.org/arch/msg/mile/ua-ic3WILKEO6D7Wu_qDBuoUyNQ/
   - kind: session requests
     meetings:
     - '83'
@@ -137,6 +203,26 @@ chairs:
     date: '2018-11-21'
     subject: 'WG Action: Rechartered Managed Incident Lightweight Exchange (mile)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Nbb086AeXuY0iBrGv85VxQYBMxQ/
+  - kind: chair activity
+    first: '2014-03-07'
+    last: '2018-08-16'
+    messages: 22
+    examples:
+    - date: '2014-03-07'
+      subject: '[mile] minutes and "jabber scribe" for the MILE WG meeting today'
+      url: https://mailarchive.ietf.org/arch/msg/mile/FcbyPjI9VjFhFowC5IMbmIvXB4c/
+    - date: '2014-03-11'
+      subject: '[mile] minutes of the MILE session in IETF 89 is now available online'
+      url: https://mailarchive.ietf.org/arch/msg/mile/xAY7Hp_B7WHCYicX0HoNEGJshW0/
+    - date: '2014-05-08'
+      subject: '[mile] Working Group Last Call for draft-ietf-mile-enum-reference-format'
+      url: https://mailarchive.ietf.org/arch/msg/mile/Pl_OHh8JOding8WusvDFbHdTKl0/
+    - date: '2015-10-17'
+      subject: '[mile] WGLC on draft-ietf-mile-rfc5070-bis-15.txt'
+      url: https://mailarchive.ietf.org/arch/msg/mile/Qhbk8bBHWzwk57CBfs1cGRllpqQ/
+    - date: '2017-03-31'
+      subject: '[mile] Working group last call for XMPP-grid'
+      url: https://mailarchive.ietf.org/arch/msg/mile/B0wxc8hktVqbDUEo339Coal5d1o/
   - kind: shepherded
     documents:
     - draft-ietf-mile-implementreport

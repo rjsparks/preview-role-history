@@ -18,3 +18,15 @@ chairs:
     end:
       certainty: group-closed
       date: '1995-05-05'
+  evidence:
+  - kind: chair activity
+    first: '1994-03-23'
+    last: '1994-07-27'
+    messages: 2
+    examples:
+    - date: '1994-03-23'
+      subject: Open Issues/Agenda items
+      url: https://mailarchive.ietf.org/arch/msg/imap/E9bc5pROIE1Cxd-Gz6MbSFoi41I/
+    - date: '1994-07-27'
+      subject: IMAP WG Minutes
+      url: https://mailarchive.ietf.org/arch/msg/imap/AI_uMUe06dVLyTC8iMPTWr4feo4/

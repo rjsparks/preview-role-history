@@ -18,6 +18,17 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: chair activity
+    first: '2015-02-24'
+    last: '2026-06-23'
+    messages: 44
+    examples:
+    - date: '2015-02-24'
+      subject: '[T2TRG] Draft Agenda for IETF92 T2TRG meeting'
+      url: https://mailarchive.ietf.org/arch/msg/t2trg/mLbuNl0ZMBiV9n0OiwbS-ULift4/
+    - date: '2015-10-26'
+      subject: '[T2TRG] Agenda for Yokohama'
+      url: https://mailarchive.ietf.org/arch/msg/t2trg/AcULljEFkT_SXABgxA1ZJtQDUNY/
   - kind: shepherded
     documents:
     - draft-irtf-t2trg-security-setup-iot-devices
@@ -31,6 +42,17 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: chair activity
+    first: '2016-10-10'
+    last: '2026-10-22'
+    messages: 19
+    examples:
+    - date: '2016-10-10'
+      subject: '[T2TRG] T2TRG agenda for Ludwigsburg meeting'
+      url: https://mailarchive.ietf.org/arch/msg/t2trg/5NCqyvzfGAaPeRWjdusZB5p9qpk/
+    - date: '2016-10-17'
+      subject: '[T2TRG] Draft minutes for the Lisbon interim meeting'
+      url: https://mailarchive.ietf.org/arch/msg/t2trg/vUn5Ubecc4lKzhg9oI4txwa_ULc/
   - kind: shepherded
     documents:
     - draft-irtf-t2trg-iot-edge

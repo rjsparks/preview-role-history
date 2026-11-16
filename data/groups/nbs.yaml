@@ -17,6 +17,18 @@ chairs:
     end:
       certainty: group-closed
       date: '2011-12-09'
+  evidence:
+  - kind: chair activity
+    first: '2010-10-26'
+    last: '2010-11-03'
+    messages: 4
+    examples:
+    - date: '2010-10-26'
+      subject: '[nbs] First draft agenda'
+      url: https://mailarchive.ietf.org/arch/msg/nbs/cOrfD2uzN2BU__kc9mznUVzryEk/
+    - date: '2010-10-29'
+      subject: '[nbs] Draft agenda for NBS (w/ presentations'
+      url: https://mailarchive.ietf.org/arch/msg/nbs/4dz58mB2MIRvPNF-MWY3P0pkXZQ/
 - person: 108396
   name: Christian Vogt
   status: confirmed

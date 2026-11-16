@@ -18,6 +18,15 @@ chairs:
     end:
       certainty: group-closed
       date: '1995-08-04'
+  evidence:
+  - kind: chair activity
+    first: '1994-03-31'
+    last: '1994-03-31'
+    messages: 1
+    examples:
+    - date: '1994-03-31'
+      subject: opstat minutes
+      url: https://mailarchive.ietf.org/arch/msg/opstat/kqCzuQcBsu5etRApzBF_h99Bo8U/
 - person: 6766
   name: Nevil Brownlee
   status: confirmed

@@ -18,3 +18,12 @@ chairs:
     end:
       certainty: group-closed
       date: '2013-06-20'
+  evidence:
+  - kind: chair activity
+    first: '2013-04-01'
+    last: '2013-04-01'
+    messages: 1
+    examples:
+    - date: '2013-04-01'
+      subject: '[Aggsrv] BoF minutes'
+      url: https://mailarchive.ietf.org/arch/msg/aggsrv/d_cFqk7H1y9XszUknyEf_lQSd_8/

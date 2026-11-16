@@ -17,10 +17,25 @@ chairs:
       not_before: '2009-12-12'
     end:
       certainty: between
-      not_before: '2011-12-09'
+      not_before: '2012-02-13'
     notes:
     - start moved earlier by session request for IETF 77
+    - widened to cover last calls and adoption calls on the group list
   evidence:
+  - kind: chair activity
+    first: '2011-03-30'
+    last: '2012-02-13'
+    messages: 3
+    examples:
+    - date: '2011-03-30'
+      subject: '[marf] Minutes from IETF 80'
+      url: https://mailarchive.ietf.org/arch/msg/marf/5htXKXC1KXVhgIojetlVeviKzMU/
+    - date: '2012-01-31'
+      subject: '[marf] Working Group Last Call on draft-ietf-marf-as-05'
+      url: https://mailarchive.ietf.org/arch/msg/marf/-TnRUxc_rXH9d3HiEYIVPKRkITI/
+    - date: '2012-02-13'
+      subject: '[marf] Working Group Last Call on draft-ietf-marf-as... expired, and coming back'
+      url: https://mailarchive.ietf.org/arch/msg/marf/8FXtokoYhM4YYdSqeqxcy9CGPp0/
   - kind: session requests
     meetings:
     - '77'
@@ -49,6 +64,26 @@ chairs:
       certainty: group-closed
       date: '2012-06-26'
   evidence:
+  - kind: chair activity
+    first: '2010-02-18'
+    last: '2012-03-28'
+    messages: 10
+    examples:
+    - date: '2010-02-18'
+      subject: '[marf] Possible attendees, and a draft agenda'
+      url: https://mailarchive.ietf.org/arch/msg/marf/gjDVfj7I8zP9jT76jWKq630m7EY/
+    - date: '2010-02-18'
+      subject: '[marf] ...and that draft agenda'
+      url: https://mailarchive.ietf.org/arch/msg/marf/CZdq0wVTR1bbTTcw99vpDOJN8ys/
+    - date: '2010-04-06'
+      subject: '[marf] WGLC starting for draft-ietf-marf-base-01'
+      url: https://mailarchive.ietf.org/arch/msg/marf/HXRr_brhHvU9qO0vpCmdcj9-HAc/
+    - date: '2011-11-04'
+      subject: '[marf] Working Group Last Call on draft-ietf-marf-redaction'
+      url: https://mailarchive.ietf.org/arch/msg/marf/Yt6i4KQChAH23ppzl04qIxGJcUY/
+    - date: '2012-01-31'
+      subject: '[marf] WGLC pending on the reporting documents'
+      url: https://mailarchive.ietf.org/arch/msg/marf/XUzRGzU_gKFI8aNBQOu1D5o88XU/
   - kind: session requests
     meetings:
     - '78'

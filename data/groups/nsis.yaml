@@ -13,7 +13,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2001-11-30'
+      not_after: '2001-11-20'
     end:
       certainty: approximate
       date: '2008-04-17'
@@ -38,6 +38,26 @@ chairs:
     subject: '[NSIS] Looking for new WG chair for NSIS'
     url: https://mailarchive.ietf.org/arch/msg/nsis/y5m7neEN3LuoYfKLuEsAuXCAHFI/
     excerpt: John Loughney will step down as WG chair for NSIS.
+  - kind: chair activity
+    first: '2001-11-20'
+    last: '2008-02-04'
+    messages: 55
+    examples:
+    - date: '2001-11-20'
+      subject: '[NSIS] Preliminary Agenda for IETF 52'
+      url: https://mailarchive.ietf.org/arch/msg/nsis/zwsKTFHY3LFmnX_e-Jegax4AfO0/
+    - date: '2001-12-19'
+      subject: '[NSIS] meeting minutes'
+      url: https://mailarchive.ietf.org/arch/msg/nsis/uvOplMDEEIr452IhJjAgUPbU2GU/
+    - date: '2002-10-15'
+      subject: '[NSIS] WG Last call on the Requirements Draft?'
+      url: https://mailarchive.ietf.org/arch/msg/nsis/xip8fkp1b7ajDn9P9I09to9MDng/
+    - date: '2003-01-08'
+      subject: '[NSIS] WG Last Call on draft-ietf-nsis-req-06.txt'
+      url: https://mailarchive.ietf.org/arch/msg/nsis/bwiCfim6UntF11ojz_6of7bagLU/
+    - date: '2003-12-11'
+      subject: '[NSIS] WG Last Call on "Analysis of Existing Quality of Service Signaling Protocols"'
+      url: https://mailarchive.ietf.org/arch/msg/nsis/VZBzArXuM9SN0_EKL_zes1EYB1Q/
   - kind: session requests
     meetings:
     - '65'
@@ -58,6 +78,23 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 68
   evidence:
+  - kind: chair activity
+    first: '2007-03-04'
+    last: '2009-04-22'
+    messages: 17
+    examples:
+    - date: '2007-03-04'
+      subject: '[NSIS] NSIS Agenda for IETF 68'
+      url: https://mailarchive.ietf.org/arch/msg/nsis/TTuScTFSfLnf-0_X9KHOuym76EQ/
+    - date: '2007-03-08'
+      subject: '[NSIS] Draft agenda for IETF-68 in Prague'
+      url: https://mailarchive.ietf.org/arch/msg/nsis/3_zQK6UGEhvEEW7VS-Ubie7NT6s/
+    - date: '2007-05-04'
+      subject: '[NSIS] WGLC for GIST ended May 2nd'
+      url: https://mailarchive.ietf.org/arch/msg/nsis/NPf-9AMFE14WLEUaCE5MoXexLRY/
+    - date: '2007-11-23'
+      subject: '[NSIS] WGLC: draft-ietf-nsis-nslp-natfw-16.txt'
+      url: https://mailarchive.ietf.org/arch/msg/nsis/IUWO_0lgDWSAbbeVKETu5bQ1UuE/
   - kind: session requests
     meetings:
     - '68'
@@ -78,6 +115,7 @@ chairs:
       certainty: group-closed
       date: '2011-03-16'
     notes:
+    - widened to cover last calls and adoption calls on the group list
     - start dated by list message of 2008-05-13
   evidence:
   - kind: list message
@@ -86,3 +124,17 @@ chairs:
     subject: '[NSIS] WG chair changes'
     url: https://mailarchive.ietf.org/arch/msg/nsis/w-3Ckl9jbN3zGXS5rLNTObp1dLY/
     excerpt: I like to welcome Jukka Manner as new NSIS co-chair.
+  - kind: chair activity
+    first: '2008-09-22'
+    last: '2010-03-25'
+    messages: 7
+    examples:
+    - date: '2008-09-22'
+      subject: '[NSIS] Working Group Last Call: Y.1541 QOSM'
+      url: https://mailarchive.ietf.org/arch/msg/nsis/jCeRyFn8hTlsAdhkEeU-TH5uJm4/
+    - date: '2009-06-26'
+      subject: '[NSIS] Working Group Last Call for NTLP State Machine'
+      url: https://mailarchive.ietf.org/arch/msg/nsis/63mn77V38x7DBgGGu8qBRQQcVOg/
+    - date: '2010-01-20'
+      subject: '[NSIS] Working Group Last Call: NSIS Operation over IP Tunnels'
+      url: https://mailarchive.ietf.org/arch/msg/nsis/ix_kVJf0NjxRQx6z1eSOKrxJjdY/

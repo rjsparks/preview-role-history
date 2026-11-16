@@ -17,6 +17,27 @@ chairs:
     end:
       certainty: group-closed
       date: '2026-07-22'
+  evidence:
+  - kind: chair activity
+    first: '2025-03-08'
+    last: '2025-10-28'
+    messages: 5
+    examples:
+    - date: '2025-03-08'
+      subject: '[Mod-discuss] Agenda for modpod, Wednesday, March 19, 2025'
+      url: https://mailarchive.ietf.org/arch/msg/mod-discuss/sEggyoygY93QGMNoqWtMnS3XS70/
+    - date: '2025-08-25'
+      subject: '[Mod-discuss] WG Last call for draft-ietf-modpod-group-processes-10'
+      url: https://mailarchive.ietf.org/arch/msg/mod-discuss/xCG51vKCspV-TtFCXzMnpEgFIAo/
+    - date: '2025-09-02'
+      subject: '[Mod-discuss] WGLC continues until Sept 11'
+      url: https://mailarchive.ietf.org/arch/msg/mod-discuss/IHAc4DaTrZdO6mkqNeb3_2BJQE4/
+    - date: '2025-10-06'
+      subject: '[Mod-discuss] WGLC ending vs. "more time to evaluate" emails'
+      url: https://mailarchive.ietf.org/arch/msg/mod-discuss/PKIExWDzJBV7RJ3V4c8mbCzQrgg/
+    - date: '2025-10-28'
+      subject: '[Mod-discuss] Agenda for Montreal, IETF 124, Nov 7'
+      url: https://mailarchive.ietf.org/arch/msg/mod-discuss/Pi5si-wfoh2D_Yd8r3NklgCGbIk/
 - person: 104557
   name: Jon Peterson
   status: confirmed

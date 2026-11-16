@@ -18,6 +18,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2004-01-08'
+  evidence:
+  - kind: chair activity
+    first: '2003-08-08'
+    last: '2003-08-08'
+    messages: 1
+    examples:
+    - date: '2003-08-08'
+      subject: '[GSMP] Draft of minutes'
+      url: https://mailarchive.ietf.org/arch/msg/gsmp/5x6PZfH-MslTdWs7Yh_aotl6pec/
 - person: 19643
   name: Kenneth Sundell
   status: confirmed
@@ -29,3 +38,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2004-01-08'
+  evidence:
+  - kind: chair activity
+    first: '2001-12-14'
+    last: '2003-06-17'
+    messages: 11
+    examples:
+    - date: '2001-12-14'
+      subject: '[GSMP] correction to the gsmp minutes'
+      url: https://mailarchive.ietf.org/arch/msg/gsmp/RbrvvpKagMjDIJXHSb_5C6mh8YE/
+    - date: '2001-12-14'
+      subject: '[GSMP] Draft GSMP minutes'
+      url: https://mailarchive.ietf.org/arch/msg/gsmp/mRYPtyNfCpLWYJ1V893ZXnBBCNg/

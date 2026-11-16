@@ -21,6 +21,26 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 66
   evidence:
+  - kind: chair activity
+    first: '2007-04-04'
+    last: '2012-02-29'
+    messages: 22
+    examples:
+    - date: '2007-04-04'
+      subject: '[Fecframe] Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/fecframe/jGlBCYiVJRwLTa3eEOpQmWt-pus/
+    - date: '2007-12-30'
+      subject: '[Fecframe] Draft Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/fecframe/Q0Mn5qxtHBAg2lQHuk-rnf3vrI4/
+    - date: '2009-10-27'
+      subject: '[Fecframe] WG Last call'
+      url: https://mailarchive.ietf.org/arch/msg/fecframe/K40xxUJ689Wl8gm-zbi-0TdlmAI/
+    - date: '2009-12-04'
+      subject: '[Fecframe] WG Last Call - sdp-elements'
+      url: https://mailarchive.ietf.org/arch/msg/fecframe/bhOGLg0x1pVEC7DwTqWzKQHK-Ts/
+    - date: '2009-12-04'
+      subject: '[Fecframe] WG Last Call - Framework'
+      url: https://mailarchive.ietf.org/arch/msg/fecframe/GWT0drYKL20FRbCa0-11twEdyTI/
   - kind: session requests
     meetings:
     - '66'
@@ -53,6 +73,14 @@ chairs:
     subject: '[Fecframe] Marshall Eubanks steps down as chair'
     url: https://mailarchive.ietf.org/arch/msg/fecframe/2dZ0sPZnbvBOsqGKqU3lLJ3Uy58/
     excerpt: Marshall Eubanks is stepping down as WG chair.
+  - kind: chair activity
+    first: '2009-08-18'
+    last: '2009-08-18'
+    messages: 1
+    examples:
+    - date: '2009-08-18'
+      subject: '[Fecframe] WGLC on draft-ietf-fecframe-dvb-al-fec-02'
+      url: https://mailarchive.ietf.org/arch/msg/fecframe/yiKvu_CCsL3nzg4v3HwFgxAwgm0/
   - kind: session requests
     meetings:
     - '72'

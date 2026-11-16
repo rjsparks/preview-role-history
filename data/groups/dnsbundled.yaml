@@ -27,3 +27,12 @@ chairs:
     end:
       certainty: group-closed
       date: '2017-02-15'
+  evidence:
+  - kind: chair activity
+    first: '2016-08-12'
+    last: '2016-08-12'
+    messages: 1
+    examples:
+    - date: '2016-08-12'
+      subject: '[Bundled-domain-names] Bar BoF Minutes of Bundled Domain Name'
+      url: https://mailarchive.ietf.org/arch/msg/bundled-domain-names/-ESW98rxBPD8udZ0a49fmOIAkI0/

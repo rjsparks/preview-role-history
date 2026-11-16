@@ -18,6 +18,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2004-04-05'
+  evidence:
+  - kind: chair activity
+    first: '2001-09-07'
+    last: '2001-09-07'
+    messages: 1
+    examples:
+    - date: '2001-09-07'
+      subject: Provreg minutes from London, repost
+      url: https://mailarchive.ietf.org/arch/msg/provreg/KkLX-FmYSNM05b6Gxtcoam2fP8U/
 - person: 16366
   name: Edward Lewis
   status: confirmed
@@ -29,3 +38,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2004-04-05'
+  evidence:
+  - kind: chair activity
+    first: '2001-02-05'
+    last: '2003-06-02'
+    messages: 19
+    examples:
+    - date: '2001-02-05'
+      subject: Agenda for Interim Meeting
+      url: https://mailarchive.ietf.org/arch/msg/provreg/nxaVCCORjkt3RlLiJ5-0ba5FAhc/
+    - date: '2001-02-27'
+      subject: Interim meeting minutes
+      url: https://mailarchive.ietf.org/arch/msg/provreg/QPEncCqPCxkSjLeQmWYTHlk6rbI/

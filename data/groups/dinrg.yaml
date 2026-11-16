@@ -16,6 +16,15 @@ chairs:
       date: '2021-04-26'
     end:
       certainty: ongoing
+  evidence:
+  - kind: chair activity
+    first: '2024-10-09'
+    last: '2024-10-09'
+    messages: 1
+    examples:
+    - date: '2024-10-09'
+      subject: '[Din] DIN @ IETF 121 Call for Agenda input'
+      url: https://mailarchive.ietf.org/arch/msg/din/G6TR4khkkXoEEwZYz4_ymQQTKfg/
 - person: 101104
   name: Melinda Shore
   status: confirmed
@@ -35,6 +44,17 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/din/cVivcbY7y4esTSYff5wz2y5pyeI/
     excerpt: Melinda Shore has indicated that she wishes to step down as DINRG co-chair, due to lack of
       availability because of other commitments.
+  - kind: chair activity
+    first: '2017-11-27'
+    last: '2018-10-22'
+    messages: 4
+    examples:
+    - date: '2017-11-27'
+      subject: '[Din] Interim meeting in February'
+      url: https://mailarchive.ietf.org/arch/msg/din/kAz2nxGlh4PUTRVw6O1NjqogUuw/
+    - date: '2018-01-26'
+      subject: '[Din] Upcoming interim, some areas of discussion'
+      url: https://mailarchive.ietf.org/arch/msg/din/-sNxc2ArOevST3dbbA3KahKO2Hk/
 - person: 140639
   name: Dirk KUTSCHER
   status: confirmed
@@ -45,3 +65,15 @@ chairs:
       not_before: '2017-09-22'
     end:
       certainty: ongoing
+  evidence:
+  - kind: chair activity
+    first: '2018-02-14'
+    last: '2024-11-15'
+    messages: 19
+    examples:
+    - date: '2018-02-14'
+      subject: '[Din] DINRG interim meeting logistics and draft agenda'
+      url: https://mailarchive.ietf.org/arch/msg/din/dyMdbh3i6Dl2fUAwtXO-H5uldXA/
+    - date: '2018-02-19'
+      subject: '[Din] Draft Minutes of DINRG interim meeting at NDSS-2018'
+      url: https://mailarchive.ietf.org/arch/msg/din/atACJMQy6d5KD-HdkO7sbjTuk2g/

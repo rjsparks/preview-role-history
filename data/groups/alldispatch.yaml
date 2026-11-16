@@ -37,3 +37,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2025-02-06'
+  evidence:
+  - kind: chair activity
+    first: '2024-03-08'
+    last: '2024-11-06'
+    messages: 3
+    examples:
+    - date: '2024-03-08'
+      subject: '[Alldispatch] Alldispatch session agenda for IETF119'
+      url: https://mailarchive.ietf.org/arch/msg/alldispatch/ny_CmS5X7Xku4DyBb2i4Q2VRfrQ/
+    - date: '2024-03-18'
+      subject: '[Alldispatch] Alldispatch IETF 119 outcomes & minutes'
+      url: https://mailarchive.ietf.org/arch/msg/alldispatch/FOFxF85kF5mj1npnwRvJ9sSN2PQ/

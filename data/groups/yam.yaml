@@ -13,14 +13,32 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2009-11-08'
+      date: '2009-08-21'
       not_before: '2009-05-21'
     end:
       certainty: group-closed
       date: '2011-11-28'
     notes:
     - start moved earlier by session request for IETF 76
+    - widened to cover last calls and adoption calls on the group list
   evidence:
+  - kind: chair activity
+    first: '2009-08-21'
+    last: '2011-07-27'
+    messages: 5
+    examples:
+    - date: '2009-08-21'
+      subject: '[yam] WG Last Call on draft-ietf-yam-rfc1652bis-pre-evaluation-00.txt'
+      url: https://mailarchive.ietf.org/arch/msg/yam/t78RiUxe3EqwvXRETiGbf1N9XO4/
+    - date: '2009-08-28'
+      subject: '[yam] minutes from YAM meeting in Stockholm'
+      url: https://mailarchive.ietf.org/arch/msg/yam/X9Lu_LE5UCOMHCM44Qs4NEFkma4/
+    - date: '2010-02-19'
+      subject: '[yam] draft agenda up for Anaheim IETF 77'
+      url: https://mailarchive.ietf.org/arch/msg/yam/Yw1EpW79R5QG3ciQEDA9UCkX5Bo/
+    - date: '2010-06-11'
+      subject: '[yam] WG Last Call for draft-ietf-yam-rfc5322bis-msgfmt-pre-evaluation'
+      url: https://mailarchive.ietf.org/arch/msg/yam/e-JffgtZiG2YK6PmuQY3yWiGHns/
   - kind: session requests
     meetings:
     - '76'
@@ -34,8 +52,25 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-11-28'
+      date: '2011-05-26'
       not_before: '2009-05-21'
     end:
       certainty: group-closed
       date: '2011-11-28'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
+  evidence:
+  - kind: chair activity
+    first: '2009-12-05'
+    last: '2011-07-27'
+    messages: 5
+    examples:
+    - date: '2009-12-05'
+      subject: '[yam] IETF76 YAM WG minutes - Version 0.1'
+      url: https://mailarchive.ietf.org/arch/msg/yam/lhLJ1jy1Fn17MLBaBaluimuxIJQ/
+    - date: '2010-03-17'
+      subject: '[yam] Draft Agenda for IETF77'
+      url: https://mailarchive.ietf.org/arch/msg/yam/vGurpHog63XF7SMfKDAkzdvLBeQ/
+    - date: '2011-05-26'
+      subject: '[yam] WGLC: draft-ietf-yam-rfc4409bis-00'
+      url: https://mailarchive.ietf.org/arch/msg/yam/iafv_Q3NKPPDAHUshADGxifRuKw/

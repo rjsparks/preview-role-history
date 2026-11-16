@@ -26,6 +26,18 @@ chairs:
     end:
       certainty: exact
       date: '2023-09-21'
+  evidence:
+  - kind: chair activity
+    first: '2022-11-04'
+    last: '2023-07-20'
+    messages: 2
+    examples:
+    - date: '2022-11-04'
+      subject: '[Rswg] Agenda for London'
+      url: https://mailarchive.ietf.org/arch/msg/rswg/kR_Dvq_kYAKbgGYXZ_Hg9M2CFq0/
+    - date: '2023-07-20'
+      subject: '[Rswg] Preliminary Agenda for meeting at IETF 117'
+      url: https://mailarchive.ietf.org/arch/msg/rswg/-MRri0SlHwNR5Qtl3etRrTaMBLo/
 - person: 18321
   name: Pete Resnick
   status: confirmed
@@ -35,3 +47,41 @@ chairs:
       date: '2022-06-23'
     end:
       certainty: ongoing
+  evidence:
+  - kind: chair activity
+    first: '2023-09-11'
+    last: '2026-10-27'
+    messages: 13
+    examples:
+    - date: '2023-09-11'
+      subject: '[Rswg] RSWG Online Interim - Doodle poll'
+      url: https://mailarchive.ietf.org/arch/msg/rswg/LCUJWi5YZF5SDMqHTfBzoCQGmGg/
+    - date: '2023-09-27'
+      subject: '[Rswg] Interim - Questions to be answered'
+      url: https://mailarchive.ietf.org/arch/msg/rswg/2xaIer4aF-CfUm1gqMnQkoNVvqw/
+    - date: '2025-03-01'
+      subject: '[Rswg] Call for adoption of draft-rossi-svgsinrfcs'
+      url: https://mailarchive.ietf.org/arch/msg/rswg/mPsjPSGi0huBHUTDirZo-8P-FFY/
+- person: 132846
+  name: Alexis Rossi
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: approximate
+      date: '2024-07-23'
+    end:
+      certainty: evidence-only
+      not_before: '2024-07-23'
+    notes:
+    - start dated by list message of 2024-07-23
+  evidence:
+  - kind: list message
+    date: '2024-07-23'
+    says: start
+    subject: '[Rswg] New RSAB chair: Alexis Rossi'
+    url: https://mailarchive.ietf.org/arch/msg/rswg/tsjb9_B5P5f2Y7K9hF-n32GxmyE/
+    excerpt: With the start of this meeting, the RSAB selected Alexis Rossi as the new chair, who is a
+      member of the RSAB as the RFC Series Consulting Editor.
+  - kind: shepherded
+    documents:
+    - draft-rswg-rfc7997bis

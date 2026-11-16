@@ -21,6 +21,26 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 69
   evidence:
+  - kind: chair activity
+    first: '2006-10-25'
+    last: '2012-12-14'
+    messages: 28
+    examples:
+    - date: '2006-10-25'
+      subject: '[Rmt] IETF 67 RMT Draft Agenda has been posted.'
+      url: https://mailarchive.ietf.org/arch/msg/rmt/6UwQDs3KMUcHtjfKcT4-4LphqlQ/
+    - date: '2007-02-26'
+      subject: '[Rmt] Call for Agenda Items, 68th IETF - Prague'
+      url: https://mailarchive.ietf.org/arch/msg/rmt/1fklHuHicLRGWClg67oFXgeMHzM/
+    - date: '2008-09-23'
+      subject: '[Rmt] WGLC on MSEC'
+      url: https://mailarchive.ietf.org/arch/msg/rmt/PDLaPRBAHVqyrZRvHm32afrc4Q0/
+    - date: '2010-03-22'
+      subject: '[Rmt] WGLC: draft-ietf-rmt-fcast-00'
+      url: https://mailarchive.ietf.org/arch/msg/rmt/uEFsmGpdwoe4TS7uxVTmvxiwpHM/
+    - date: '2010-06-21'
+      subject: '[Rmt] WG Last Call: draft-ietf-rmt-bb-fec-raptorq-02'
+      url: https://mailarchive.ietf.org/arch/msg/rmt/6TbmC_v12ljBCW3BJr8IbbgpEZ4/
   - kind: session requests
     meetings:
     - '69'
@@ -44,7 +64,7 @@ chairs:
       not_after: '1999-04-28'
     end:
       certainty: evidence-only
-      not_before: '1999-04-30'
+      not_before: '2003-10-09'
   evidence:
   - kind: WG Action
     date: '1999-04-28'
@@ -54,6 +74,20 @@ chairs:
     date: '1999-04-30'
     subject: 'WG ACTION: Reliable Multicast Transport (rmt)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/Wjn5sF2vvdqp44j749OB4Bx92k0/
+  - kind: chair activity
+    first: '2002-07-11'
+    last: '2003-10-09'
+    messages: 3
+    examples:
+    - date: '2002-07-11'
+      subject: '[Rmt] rmt Agenda for Yokohama'
+      url: https://mailarchive.ietf.org/arch/msg/rmt/-hi7N4gyAiMNZb7tevhLmKjG_WU/
+    - date: '2002-07-11'
+      subject: '[Rmt] UPDATED rmt Agenda for Yokohama'
+      url: https://mailarchive.ietf.org/arch/msg/rmt/WkmSu7jxPkxuxUtizOFhww6llUY/
+    - date: '2003-10-09'
+      subject: '[Rmt] WG Last Call draft-ietf-rmt-flute-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/rmt/yFZMRJUCjNJDRRduW7W08dlK0cw/
 - person: 100609
   name: Lorenzo Vicisano
   status: confirmed
@@ -83,6 +117,26 @@ chairs:
     subject: '[Rmt] Change in RMT chair position'
     url: https://mailarchive.ietf.org/arch/msg/rmt/3_1k2vmj9orB-1lmH92HKa-fRbw/
     excerpt: Lorenzo Vicisano stepped down as co-chair of the RMT WG on my request.
+  - kind: chair activity
+    first: '2002-03-06'
+    last: '2006-06-23'
+    messages: 20
+    examples:
+    - date: '2002-03-06'
+      subject: '[Rmt] call for agenda items'
+      url: https://mailarchive.ietf.org/arch/msg/rmt/cUvgaYb-l9KAMb4Kkv0iZ7ztcPg/
+    - date: '2002-03-12'
+      subject: '[Rmt] RMT draft agenda'
+      url: https://mailarchive.ietf.org/arch/msg/rmt/m_XXz1N38P5wprneNGycJsKIk9M/
+    - date: '2002-12-20'
+      subject: '[Rmt] WG last call for draft-ietf-rmt-bb-webrc-04.txt'
+      url: https://mailarchive.ietf.org/arch/msg/rmt/eln8vam9BwP7TMyyJ6nvwj0gKFw/
+    - date: '2003-05-22'
+      subject: '[Rmt] WG last call for draft-ietf-rmt-bb-fec-supp-compact-01.txt'
+      url: https://mailarchive.ietf.org/arch/msg/rmt/Zwk2u2GZGBj2FVS8tiKUIvQ1DHU/
+    - date: '2004-10-29'
+      subject: '[Rmt] WG last call for draft-ietf-rmt-bb-pgmcc-03.txt'
+      url: https://mailarchive.ietf.org/arch/msg/rmt/J1vMvuRqtzrl5hw1e3SWTs1waBY/
   - kind: session requests
     meetings:
     - '65'

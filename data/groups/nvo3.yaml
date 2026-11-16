@@ -41,6 +41,14 @@ chairs:
     date: '2014-10-17'
     subject: 'WG Action: Rechartered Network Virtualization Overlays (nvo3)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/_AfgPteD94aA1X8gUN_vZVNNhGk/
+  - kind: chair activity
+    first: '2025-06-06'
+    last: '2025-06-06'
+    messages: 1
+    examples:
+    - date: '2025-06-06'
+      subject: '[nvo3] WG Last Call for draft-ietf-nvo3-rfc7348bis-00'
+      url: https://mailarchive.ietf.org/arch/msg/nvo3/zN6sCaCV5D4LUngq7YSky6puBGI/
   - kind: shepherded
     documents:
     - draft-ietf-nvo3-arch
@@ -85,10 +93,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2012-02-23'
-      not_after: '2014-03-05'
+      not_after: '2012-06-17'
     end:
       certainty: exact
       date: '2016-07-07'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
   evidence:
   - kind: WG Action
     date: '2012-05-01'
@@ -102,3 +112,23 @@ chairs:
     date: '2014-10-17'
     subject: 'WG Action: Rechartered Network Virtualization Overlays (nvo3)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/_AfgPteD94aA1X8gUN_vZVNNhGk/
+  - kind: chair activity
+    first: '2012-06-17'
+    last: '2015-07-10'
+    messages: 41
+    examples:
+    - date: '2012-06-17'
+      subject: '[nvo3] call for adoption: draft-narten-nvo3-overlay-problem-statement-02'
+      url: https://mailarchive.ietf.org/arch/msg/nvo3/LuMm5tVUY_l2LLF5wMyquGkZHUk/
+    - date: '2012-06-18'
+      subject: '[nvo3] call for adoption: draft-lasserre-nvo3-framework-02'
+      url: https://mailarchive.ietf.org/arch/msg/nvo3/NG5kAD_PJ5nrG-AqU1ZYja7BWAs/
+    - date: '2012-07-26'
+      subject: '[nvo3] READ ME - Agenda for IETF84'
+      url: https://mailarchive.ietf.org/arch/msg/nvo3/6FP3bhHevIuF2TIsOCybY0L0BTY/
+    - date: '2012-08-22'
+      subject: '[nvo3] Hotels for upcoming Interim Meeting'
+      url: https://mailarchive.ietf.org/arch/msg/nvo3/47Juuw7D3NZ3PeVcMnY-eXnLWp4/
+    - date: '2013-02-23'
+      subject: '[nvo3] WG Last Call for draft-ietf-nvo3-framework-02'
+      url: https://mailarchive.ietf.org/arch/msg/nvo3/fFTXPaNkius59RmFWGPWvGGKMvM/

@@ -16,7 +16,7 @@ chairs:
       not_after: '2001-03-12'
     end:
       certainty: evidence-only
-      not_before: '2007-03-21'
+      not_before: '2009-03-22'
   evidence:
   - kind: WG Action
     date: '2001-03-12'
@@ -34,6 +34,39 @@ chairs:
     date: '2007-03-21'
     subject: 'WG Action: RECHARTER: SIP for Instant Messaging and Presence Leveraging Extensions (simple)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/qwgAI49zPhO8Z3S-6Bn498R3K1g/
+  - kind: chair activity
+    first: '2003-03-26'
+    last: '2009-03-11'
+    messages: 46
+    examples:
+    - date: '2003-03-26'
+      subject: '[Simple] Draft minutes from the SIMPLE IETF56 meeting'
+      url: https://mailarchive.ietf.org/arch/msg/simple/82rhy7cgGx5E6LdLJ6rv3OL3UqI/
+    - date: '2003-03-26'
+      subject: '[Simple] Call for availability: Interim meeting'
+      url: https://mailarchive.ietf.org/arch/msg/simple/meuWWcSi4mXFfqVluV_mwu7N6nU/
+    - date: '2003-04-17'
+      subject: '[Simple] WG Last Call : draft-ietf-simple-data-req-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/simple/Q5BGU4ZMKEho_4zIFevQPwQzkII/
+    - date: '2003-07-07'
+      subject: '[Simple] WGLC: draft-ietf-simple-message-sessions-01'
+      url: https://mailarchive.ietf.org/arch/msg/simple/CUAjgzbSIHr5VsXd5dOeH26g2Zw/
+    - date: '2003-07-07'
+      subject: '[Simple] WGLC: draft-ietf-simple-publish-reqs-00.txt'
+      url: https://mailarchive.ietf.org/arch/msg/simple/ejwN1vrb9JlgBUtGWatifdDEl8Y/
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    - '68'
+    - '69'
+    - '70'
+    - '71'
+    - '72'
+    - '73'
+    - '74'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
 - person: 104140
   name: Ben Campbell
   status: confirmed
@@ -48,6 +81,26 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 75
   evidence:
+  - kind: chair activity
+    first: '2009-03-30'
+    last: '2012-05-03'
+    messages: 14
+    examples:
+    - date: '2009-03-30'
+      subject: '[Simple] Draft Minutes for SIMPLE at IETF74'
+      url: https://mailarchive.ietf.org/arch/msg/simple/zYZy7txPxYlCFASi00AxuNF_txc/
+    - date: '2009-07-15'
+      subject: '[Simple] Draft Agenda: SIMPLE@IETF75'
+      url: https://mailarchive.ietf.org/arch/msg/simple/G0gH4QvzjSBxJYd2Sy08qB2ZFsU/
+    - date: '2009-08-18'
+      subject: '[Simple] WGLC: draft-ietf-simple-intradomain-federation-04'
+      url: https://mailarchive.ietf.org/arch/msg/simple/auu62LgocuQbLQYVo-hDe8XcyaQ/
+    - date: '2009-12-09'
+      subject: '[Simple] WGLC of msrp-acm and msrp-sessionmatch'
+      url: https://mailarchive.ietf.org/arch/msg/simple/1ADhsBd2abHLJWv_u4V9wjdu6lM/
+    - date: '2010-02-22'
+      subject: '[Simple] WGLC (repeat) of draft-ietf-simple-xcap-diff-14'
+      url: https://mailarchive.ietf.org/arch/msg/simple/AYdEdYK5GGhz_0e3fRR2fcV2PxQ/
   - kind: session requests
     meetings:
     - '75'
@@ -84,6 +137,7 @@ chairs:
       date: '2013-02-26'
     notes:
     - start moved earlier by WG Action announcement of 2007-03-21
+    - widened to cover last calls and adoption calls on the group list
     - start dated by list message of 2003-11-17
   evidence:
   - kind: WG Review
@@ -101,3 +155,20 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/simple/0TxRi4YxuiR1k6-nqk_AsYkUrLo/
     excerpt: I am happy to announce that Hisham Khartabil is joining me as a chair of the SIMPLE working
       group.
+  - kind: chair activity
+    first: '2005-08-19'
+    last: '2009-11-16'
+    messages: 6
+    examples:
+    - date: '2005-08-19'
+      subject: '[Simple] IETF 63 SIMPLE WG Meeting Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/simple/YlaAeC1i73BC6057dewgdiZXtyU/
+    - date: '2005-09-26'
+      subject: '[Simple] WGLC: A Data Model for Presence'
+      url: https://mailarchive.ietf.org/arch/msg/simple/BWxgFZa8xUjaFqabqLZZ8ijJ9jQ/
+    - date: '2005-12-02'
+      subject: '[Simple] WGLC: User Agent Capability Extension to PIDF (prescaps)'
+      url: https://mailarchive.ietf.org/arch/msg/simple/SkA3kVG-fNcrof32cpRpfFAyKZY/
+    - date: '2006-05-02'
+      subject: '[Simple] WGLC: Presence Authorization Rules'
+      url: https://mailarchive.ietf.org/arch/msg/simple/c6LvNN_Y6ZFpmiC6tY2OkaQtRcY/

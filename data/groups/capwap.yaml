@@ -58,14 +58,32 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2008-11-16'
+      date: '2008-07-14'
       not_before: '2004-01-02'
     end:
       certainty: group-closed
       date: '2010-05-10'
     notes:
     - start moved earlier by session request for IETF 73
+    - widened to cover last calls and adoption calls on the group list
   evidence:
+  - kind: chair activity
+    first: '2008-07-14'
+    last: '2009-08-13'
+    messages: 6
+    examples:
+    - date: '2008-07-14'
+      subject: '[Capwap] WGLC on Base Spec -11 Changes'
+      url: https://mailarchive.ietf.org/arch/msg/capwap/5oPEhGfm33RnK8TjTwP3ZDene0o/
+    - date: '2008-07-21'
+      subject: '[Capwap] Call for Agenda Items'
+      url: https://mailarchive.ietf.org/arch/msg/capwap/toLrzIKQdkkBsvKLPKtXV-zVOt4/
+    - date: '2008-09-12'
+      subject: '[Capwap] CAPWAP Minutes from IETF72 Dublin'
+      url: https://mailarchive.ietf.org/arch/msg/capwap/VvPM_cMB1nAtw8Ji3ZMgsPhSaZ0/
+    - date: '2009-08-13'
+      subject: '[Capwap] WG Last Call on MIB Documents'
+      url: https://mailarchive.ietf.org/arch/msg/capwap/pZMmQ-qPXdpimi10Cpu3h2oK6HA/
   - kind: session requests
     meetings:
     - '73'

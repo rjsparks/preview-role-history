@@ -17,6 +17,18 @@ chairs:
       not_before: '2016-01-13'
     end:
       certainty: ongoing
+  evidence:
+  - kind: chair activity
+    first: '2016-04-19'
+    last: '2026-08-14'
+    messages: 43
+    examples:
+    - date: '2016-04-19'
+      subject: '[Maprg] Minutes uploaded'
+      url: https://mailarchive.ietf.org/arch/msg/maprg/rUg9V5MNzYS9p5yxsNHYaKK3bgQ/
+    - date: '2016-08-09'
+      subject: '[Maprg] Minutes uploaded!'
+      url: https://mailarchive.ietf.org/arch/msg/maprg/50KWwP3VDljQgKfEf55oojkgNrQ/
 - person: 121213
   name: David Plonka
   status: confirmed
@@ -26,3 +38,15 @@ chairs:
       date: '2016-01-14'
     end:
       certainty: ongoing
+  evidence:
+  - kind: chair activity
+    first: '2016-03-21'
+    last: '2026-07-15'
+    messages: 6
+    examples:
+    - date: '2016-03-21'
+      subject: '[Maprg] draft agenda posted for IETF 95'
+      url: https://mailarchive.ietf.org/arch/msg/maprg/pKRg9PkyL3NxsQ8Gzvq2WzDMlxg/
+    - date: '2017-06-19'
+      subject: '[Maprg] draft agenda online'
+      url: https://mailarchive.ietf.org/arch/msg/maprg/-JH1bUMbxS7Legdtkjjhrh8vpJM/

@@ -18,14 +18,46 @@ chairs:
     end:
       certainty: group-closed
       date: '1996-12-19'
+  evidence:
+  - kind: chair activity
+    first: '1996-03-12'
+    last: '1996-03-12'
+    messages: 1
+    examples:
+    - date: '1996-03-12'
+      subject: Notes/minutes of March 6th CIDRD meeting
+      url: https://mailarchive.ietf.org/arch/msg/cidrd/GqYZWC1iz4Iw_vD0K2iUSFmEzAo/
 - person: 4475
   name: Tony Li
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '1996-12-19'
+      date: '1995-07-18'
       not_before: '1994-03-08'
     end:
       certainty: group-closed
       date: '1996-12-19'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
+  evidence:
+  - kind: chair activity
+    first: '1995-05-02'
+    last: '1996-02-19'
+    messages: 9
+    examples:
+    - date: '1995-05-02'
+      subject: Minutes from Danvers
+      url: https://mailarchive.ietf.org/arch/msg/cidrd/ejNOaT3crdZ1e5VavM7GgJcUhIw/
+    - date: '1995-05-12'
+      subject: Agenda for Stockholm
+      url: https://mailarchive.ietf.org/arch/msg/cidrd/NfO8BEGzdJHVveqkuC5GC7W0FXw/
+    - date: '1995-07-18'
+      subject: Working group last call
+      url: https://mailarchive.ietf.org/arch/msg/cidrd/1nrjmO4JYA5HxlAfDgDXl9u2Z_o/
+    - date: '1995-09-01'
+      subject: WG Last call for "Address Allocation for Private Internets"
+      url: https://mailarchive.ietf.org/arch/msg/cidrd/ck_Zz2NraAQ-xHqgJB5YpW2LvXU/
+    - date: '1995-09-15'
+      subject: WG last call complete
+      url: https://mailarchive.ietf.org/arch/msg/cidrd/TLH9ud1LgzJnFSOgijQdqjfsH84/

@@ -27,3 +27,12 @@ chairs:
     end:
       certainty: group-closed
       date: '2026-10-08'
+  evidence:
+  - kind: chair activity
+    first: '2026-07-13'
+    last: '2026-07-13'
+    messages: 1
+    examples:
+    - date: '2026-07-13'
+      subject: '[km-fs-pcs] Draft agenda posted'
+      url: https://mailarchive.ietf.org/arch/msg/km-fs-pcs/aajadHZgPk9zDbrqkbaVSHUmV44/

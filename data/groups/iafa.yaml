@@ -18,6 +18,18 @@ chairs:
     end:
       certainty: group-closed
       date: '1994-05-25'
+  evidence:
+  - kind: chair activity
+    first: '1992-11-07'
+    last: '1993-04-14'
+    messages: 3
+    examples:
+    - date: '1992-11-07'
+      subject: Agenda for Washington
+      url: https://mailarchive.ietf.org/arch/msg/iafa/4cmEHlQSoOXymhIaEtEMkhyn0lo/
+    - date: '1992-11-07'
+      subject: URI agenda for Washington
+      url: https://mailarchive.ietf.org/arch/msg/iafa/BIvfXsYwHlP9kDwzb2rMcvOhDeE/
 - person: 7778
   name: Peter Deutsch
   status: confirmed

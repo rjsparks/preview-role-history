@@ -7,6 +7,53 @@ started: null
 closed: '1995-07-21'
 history_url: https://datatracker.ietf.org/group/uribof/history/
 chairs:
+- person: 7778
+  name: Peter Deutsch
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: approximate
+      date: '1992-12-09'
+    end:
+      certainty: evidence-only
+      not_before: '1993-07-09'
+    notes:
+    - start dated by list message of 1992-12-09
+  evidence:
+  - kind: list message
+    date: '1992-12-09'
+    says: start
+    subject: 'Minutes: Washington'
+    url: https://mailarchive.ietf.org/arch/msg/uri/lVkHRA5fUvZyJ80qFX1dPpL1UVM/
+    excerpt: 3) Peter Deutsch/Bunyip who was initially named to co-chair the group resigned the position
+      in order to follow a more activist role and avoid any potential conflict of interest.
+  - kind: chair activity
+    first: '1993-07-09'
+    last: '1993-07-09'
+    messages: 1
+    examples:
+    - date: '1993-07-09'
+      subject: Agenda for URI sessions
+      url: https://mailarchive.ietf.org/arch/msg/uri/62oBdw8dlT-GZcFlcfGWD2A00Fk/
+- person: 8393
+  name: Jim Fullton
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: approximate
+      date: '1992-12-09'
+    end:
+      certainty: evidence-only
+      not_before: '1992-12-09'
+    notes:
+    - start dated by list message of 1992-12-09
+  evidence:
+  - kind: list message
+    date: '1992-12-09'
+    says: start
+    subject: 'Minutes: Washington'
+    url: https://mailarchive.ietf.org/arch/msg/uri/lVkHRA5fUvZyJ80qFX1dPpL1UVM/
+    excerpt: Jim Fullton/CNIDR was installed as new co-chair.
 - person: 110451
   name: Larry Masinter
   status: confirmed
@@ -26,3 +73,14 @@ chairs:
     subject: So long....
     url: https://mailarchive.ietf.org/arch/msg/uri/P5AesPNi_oORX_dsLZRBymE5EX8/
     excerpt: Larry Masinter has been asked and has agreed to taking over the Chair of the group...
+  - kind: chair activity
+    first: '1994-09-24'
+    last: '1995-07-11'
+    messages: 11
+    examples:
+    - date: '1994-09-24'
+      subject: AGENDA ITEMS for December IETF meeting
+      url: https://mailarchive.ietf.org/arch/msg/uri/diHNZiDl3nhdk7lGxYDHvCgMKGU/
+    - date: '1994-12-24'
+      subject: Minutes, URI working group
+      url: https://mailarchive.ietf.org/arch/msg/uri/G-C_bgFJAxrdLgvsZ5ofB3zoWFI/

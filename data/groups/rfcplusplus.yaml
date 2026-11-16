@@ -28,3 +28,12 @@ chairs:
     end:
       certainty: group-closed
       date: '2018-09-26'
+  evidence:
+  - kind: chair activity
+    first: '2018-07-18'
+    last: '2018-07-18'
+    messages: 1
+    examples:
+    - date: '2018-07-18'
+      subject: '[Rfcplusplus] Draft minutes of the RFC++ BoF session'
+      url: https://mailarchive.ietf.org/arch/msg/rfcplusplus/CBhGCzFnCJsYg7mzV5ak1mZMiaw/

@@ -18,3 +18,12 @@ chairs:
     end:
       certainty: group-closed
       date: '1993-02-02'
+  evidence:
+  - kind: chair activity
+    first: '1991-12-06'
+    last: '1991-12-06'
+    messages: 1
+    examples:
+    - date: '1991-12-06'
+      subject: Santa Fe Minutes
+      url: https://mailarchive.ietf.org/arch/msg/ethermib/1jn-x9ttCEz1avoI61b6ollQ-Sw/

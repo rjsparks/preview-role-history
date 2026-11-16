@@ -16,19 +16,27 @@ chairs:
       not_after: '2000-03-13'
     end:
       certainty: evidence-only
-      not_before: '2000-03-13'
+      not_before: '2003-07-14'
   evidence:
   - kind: WG Action
     date: '2000-03-13'
     subject: 'WG ACTION: Robust Header Compression (rohc)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/r7nVnizWpGNFB1SUfxfsa1Z19cU/
+  - kind: chair activity
+    first: '2003-07-14'
+    last: '2003-07-14'
+    messages: 1
+    examples:
+    - date: '2003-07-14'
+      subject: '[rohc] Agenda for Tuesday meeting'
+      url: https://mailarchive.ietf.org/arch/msg/rohc/Z37eswkEj5w8_ZdNtSH6GH25FcA/
 - person: 103797
   name: Lars-Erik Jonsson
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2006-07-09'
+      not_after: '2004-11-02'
     end:
       certainty: evidence-only
       not_before: '2006-08-29'
@@ -41,6 +49,17 @@ chairs:
     date: '2006-08-29'
     subject: 'WG Action: RECHARTER: Robust Header Compression (rohc)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/2IbUtX4U95PoOsnZJuMuzc1Ns3M/
+  - kind: chair activity
+    first: '2004-11-02'
+    last: '2005-08-15'
+    messages: 8
+    examples:
+    - date: '2004-11-02'
+      subject: '[rohc] Agenda for the ROHC WG @ IETF61'
+      url: https://mailarchive.ietf.org/arch/msg/rohc/9K9b6GA1OYnAlPKos7KVxnyBgNU/
+    - date: '2004-11-12'
+      subject: '[rohc] Preliminary minutes from ROHC@IETF61, Part 1'
+      url: https://mailarchive.ietf.org/arch/msg/rohc/wZ_yYzmWyhnp_RH4mndEe6aUwbE/
   - kind: session requests
     meetings:
     - '66'
@@ -50,13 +69,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: approximate
-      date: '2007-09-28'
+      certainty: on-or-before
+      date: '2006-01-10'
+      not_before: '2000-02-21'
     end:
       certainty: group-closed
       date: '2010-03-16'
     notes:
-    - start dated by list message of 2007-09-28
+    - widened to cover last calls and adoption calls on the group list
   evidence:
   - kind: list message
     date: '2007-09-28'
@@ -64,3 +84,11 @@ chairs:
     subject: '[rohc] New WG chair for ROHC'
     url: https://mailarchive.ietf.org/arch/msg/rohc/94TFQL5FZwAKzx_q6HGqoESZpNk/
     excerpt: This is to announce that the ROHC WG now has a new chair in Carl Knutsson.
+  - kind: chair activity
+    first: '2006-01-10'
+    last: '2006-01-10'
+    messages: 1
+    examples:
+    - date: '2006-01-10'
+      subject: '[rohc] WGLC Reveiw RFC3095 Implementer''s guide'
+      url: https://mailarchive.ietf.org/arch/msg/rohc/jmF51lZyA3aaRo4XmWLjBJ9qTXk/

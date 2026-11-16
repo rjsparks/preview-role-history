@@ -36,6 +36,26 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 67
   evidence:
+  - kind: chair activity
+    first: '2007-03-21'
+    last: '2018-02-19'
+    messages: 56
+    examples:
+    - date: '2007-03-21'
+      subject: '[Isis-wg] Minutes and Presentations online.'
+      url: https://mailarchive.ietf.org/arch/msg/isis-wg/ng9zZXpeu5wobEjGN-nMoNMtEPY/
+    - date: '2007-12-19'
+      subject: '[Isis-wg] IETF-70 Meeting Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/isis-wg/WkAtgQ6qmkvL_NEr6R4Y-QjFhXs/
+    - date: '2008-01-09'
+      subject: '[Isis-wg] WG Last Call for draft-ietf-isis-hmac-sha-04.txt'
+      url: https://mailarchive.ietf.org/arch/msg/isis-wg/-42qXEQehe7bH9vA5aacz_j-cOU/
+    - date: '2008-02-26'
+      subject: '[Isis-wg] WG Last Call for draft-ietf-isis-wg-extlsp-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/isis-wg/_2faQzEcfnfN7wfMqCUQfpjTKSs/
+    - date: '2008-04-16'
+      subject: '[Isis-wg] WG Last Call for Info to Std Track Documents.'
+      url: https://mailarchive.ietf.org/arch/msg/isis-wg/MWw17LZt5xr0iHdUZg4pa3HCTQY/
   - kind: session requests
     meetings:
     - '67'
@@ -84,6 +104,17 @@ chairs:
       certainty: exact
       date: '2013-08-19'
   evidence:
+  - kind: chair activity
+    first: '2006-03-02'
+    last: '2010-11-09'
+    messages: 4
+    examples:
+    - date: '2006-03-02'
+      subject: '[Isis-wg] Call for agenda topics'
+      url: https://mailarchive.ietf.org/arch/msg/isis-wg/Buj3n2yHG8OX01b2bmblzV4kknc/
+    - date: '2006-03-13'
+      subject: '[Isis-wg] Agenda for ISIS WG meeting'
+      url: https://mailarchive.ietf.org/arch/msg/isis-wg/jWiuDM05o9xJZTtGJxyOskUQfn8/
   - kind: session requests
     meetings:
     - '69'
@@ -106,6 +137,26 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/isis-wg/oHldAh_BUgOFS_z1n9ReLllw6f4/
     excerpt: I'm pleased to say that Hannes Gredler has agreed to step in as the co-chair, and Chris Hopps
       will continue as his co-chair.
+  - kind: chair activity
+    first: '2013-08-19'
+    last: '2016-10-24'
+    messages: 7
+    examples:
+    - date: '2013-08-19'
+      subject: '[Isis-wg] WGLC draft-ietf-isis-rfc1142-to-historic'
+      url: https://mailarchive.ietf.org/arch/msg/isis-wg/s8MbHh1iO2Hf4NoGPWIt2rtkRro/
+    - date: '2013-08-19'
+      subject: '[Isis-wg] IETF87 ISIS-WG meeting minutes'
+      url: https://mailarchive.ietf.org/arch/msg/isis-wg/F6fnKeWDAwfF8MT1ZxSHWeN-kJ8/
+    - date: '2013-10-15'
+      subject: '[Isis-wg] IETF88: call for agenda items'
+      url: https://mailarchive.ietf.org/arch/msg/isis-wg/jbvRxoPAKc0v_Y1KdNeFSPRQOdA/
+    - date: '2014-06-11'
+      subject: '[Isis-wg] WGLC draft-ginsberg-isis-tlv-codepoints'
+      url: https://mailarchive.ietf.org/arch/msg/isis-wg/XJ3cy2xuTgzF6HkXx-iGLPp0pGU/
+    - date: '2014-10-31'
+      subject: '[Isis-wg] WGLC draft-ietf-isis-te-metric-extensions'
+      url: https://mailarchive.ietf.org/arch/msg/isis-wg/Xi441cidNJ4mArtTWHylep7WtMc/
   - kind: shepherded
     documents:
     - draft-ietf-isis-auto-conf

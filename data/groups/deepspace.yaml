@@ -27,3 +27,41 @@ chairs:
     end:
       certainty: group-closed
       date: '2025-02-06'
+  evidence:
+  - kind: chair activity
+    first: '2024-11-20'
+    last: '2024-11-20'
+    messages: 1
+    examples:
+    - date: '2024-11-20'
+      subject: '[deepspace] Draft minutes; please make corrections'
+      url: https://mailarchive.ietf.org/arch/msg/deepspace/m95OHxLYaVnnmm6_R8SX3srnRA8/
+- person: 121160
+  name: Padma Pillay-Esnault
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2025-02-13'
+    end:
+      certainty: evidence-only
+      not_before: '2025-12-04'
+  evidence:
+  - kind: chair activity
+    first: '2025-02-13'
+    last: '2025-12-04'
+    messages: 11
+    examples:
+    - date: '2025-02-13'
+      subject: '[deepspace] IETF 122: TIPTOP Call for Agenda Items'
+      url: https://mailarchive.ietf.org/arch/msg/deepspace/9kLtqhgBaQk0ekcwUTSGf0r2_CQ/
+    - date: '2025-03-01'
+      subject: '[deepspace] TIPTOP Draft Agenda at IETF 122'
+      url: https://mailarchive.ietf.org/arch/msg/deepspace/P628E0dSjZ_VqMA0mYwr6NzLfnw/
+    - date: '2025-06-24'
+      subject: '[deepspace] Call for WG Adoption of IP in Deep Space: Key Characteristics, Use Cases and
+        Requirements'
+      url: https://mailarchive.ietf.org/arch/msg/deepspace/QFBRZ_c2ILCdyJ-0GPZDlaE3SjM/
+    - date: '2025-12-04'
+      subject: '[deepspace] Call for WG adoption of draft-many-tiptop-ip-architecture'
+      url: https://mailarchive.ietf.org/arch/msg/deepspace/RF7zx4corHiVdix0D3dsViPxKk0/

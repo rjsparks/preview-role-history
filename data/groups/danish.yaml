@@ -18,6 +18,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2021-10-07'
+  evidence:
+  - kind: chair activity
+    first: '2021-07-26'
+    last: '2021-07-26'
+    messages: 1
+    examples:
+    - date: '2021-07-26'
+      subject: '[Danish] Meeting Agenda for 2021-07-27'
+      url: https://mailarchive.ietf.org/arch/msg/danish/VALGFe-LHNpXpHmhEcKOIpVrKgA/
 - person: 117099
   name: Wes Hardaker
   status: confirmed

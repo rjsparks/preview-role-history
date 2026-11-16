@@ -13,11 +13,22 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-03-21'
+      date: '2009-11-10'
       not_before: '2008-12-11'
     end:
       certainty: group-closed
       date: '2011-03-21'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
+  evidence:
+  - kind: chair activity
+    first: '2009-11-10'
+    last: '2009-11-10'
+    messages: 1
+    examples:
+    - date: '2009-11-10'
+      subject: '[MORG] WGLC'
+      url: https://mailarchive.ietf.org/arch/msg/morg/hhp2xEL9gNFzLtR1TzKNGZFVKa4/
 - person: 21684
   name: Barry Leiba
   status: confirmed
@@ -37,20 +48,48 @@ chairs:
     - '77'
     - '78'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 102154
+  name: Alexey Melnikov
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2008-07-27'
+    end:
+      certainty: evidence-only
+      not_before: '2009-03-22'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '72'
+    - '74'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
 - person: 109187
   name: Timo Sirainen
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2009-07-26'
+      date: '2009-02-13'
       not_before: '2008-12-11'
     end:
       certainty: group-closed
       date: '2011-03-21'
     notes:
     - start moved earlier by session request for IETF 75
+    - widened to cover last calls and adoption calls on the group list
   evidence:
+  - kind: chair activity
+    first: '2008-08-30'
+    last: '2009-02-13'
+    messages: 2
+    examples:
+    - date: '2008-08-30'
+      subject: '[MORG] minutes?'
+      url: https://mailarchive.ietf.org/arch/msg/morg/ITLj0o_ILpZW7s03J-WwziN9GTI/
+    - date: '2009-02-13'
+      subject: '[MORG] WGLC on draft-ietf-morg-inthread-00'
+      url: https://mailarchive.ietf.org/arch/msg/morg/uMh0CKC_8mXT6kWHVNBQwZZMoZs/
   - kind: session requests
     meetings:
     - '75'

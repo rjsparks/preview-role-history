@@ -19,6 +19,7 @@ chairs:
       date: '2015-08-27'
     notes:
     - start moved earlier by WG Action announcement of 2005-02-09
+    - widened to cover last calls and adoption calls on the group list
     - start dated by list message of 2003-07-30
   evidence:
   - kind: WG Action
@@ -59,6 +60,36 @@ chairs:
     subject: '[Mip4] Chairing and status of mip4 WG'
     url: https://mailarchive.ietf.org/arch/msg/mip4/F1d_GgZNSqzU3acLDkmPLzhe7JQ/
     excerpt: In terms of chairing, Henrik Levkowetz and Pete McCann have agreed to co-chair the new group.
+  - kind: chair activity
+    first: '2003-09-20'
+    last: '2010-01-08'
+    messages: 27
+    examples:
+    - date: '2003-09-20'
+      subject: '[Mip4] WG last call follow-up for vpn traversal problem statement'
+      url: https://mailarchive.ietf.org/arch/msg/mip4/RCPJTlfiFW-M8t1Gd0ooxbgM7Gc/
+    - date: '2003-10-28'
+      subject: '[Mip4] Draft agenda for Mip4 WG meeting in Minneapolis'
+      url: https://mailarchive.ietf.org/arch/msg/mip4/UdCoGtJjJE2COPUIHgtKaNChC2I/
+    - date: '2003-11-04'
+      subject: '[Mip4] Draft agenda for Mip4 WG meeting in Minneapolis, Take Two'
+      url: https://mailarchive.ietf.org/arch/msg/mip4/tCtUCqiPT3rDpn6oLQl5RKSMCrc/
+    - date: '2003-12-01'
+      subject: '[Mip4] WG adoption call on draft-patel-mobileip-experimental-messages-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/mip4/dDX-5v--ejfFMr6yfKZylVHVyFM/
+    - date: '2003-12-10'
+      subject: '[Mip4] WG adoption call on draft-kulkarni-mobileip-dynamic-assignment-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/mip4/qQCWlUKEkQPUopjj62t9dz5QE1w/
+  - kind: session requests
+    meetings:
+    - '65'
+    - '66'
+    - '67'
+    - '69'
+    - '72'
+    - '73'
+    - '76'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
 - person: 106010
   name: Pete McCann
   status: confirmed
@@ -89,6 +120,26 @@ chairs:
     date: '2009-08-18'
     subject: 'WG Action: RECHARTER: Mobility for IPv4 (mip4)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/OpMrho5FRMvQA0wuYxlHG7nUytk/
+  - kind: chair activity
+    first: '2006-07-18'
+    last: '2014-01-12'
+    messages: 31
+    examples:
+    - date: '2006-07-18'
+      subject: '[Mip4] Meeting minutes from Montreal'
+      url: https://mailarchive.ietf.org/arch/msg/mip4/NurZx-LGRIDqdq4wzyPSpAXWZqU/
+    - date: '2006-09-05'
+      subject: '[Mip4] Working Group Last Call on draft-ietf-mip4-fmipv4-01.txt'
+      url: https://mailarchive.ietf.org/arch/msg/mip4/zrdadc-v3z-WAwWJFBuw66lzdy8/
+    - date: '2006-09-21'
+      subject: '[Mip4] WGLC: draft-ietf-mip4-fmipv4-01.txt'
+      url: https://mailarchive.ietf.org/arch/msg/mip4/zIXczKALOJlAb2GCqdtfhMhDC0M/
+    - date: '2006-10-19'
+      subject: '[Mip4] WGLC: draft-ietf-mip4-gen-ext-00.txt'
+      url: https://mailarchive.ietf.org/arch/msg/mip4/np6A4MVwUKWhHTpNpBA15hftSQQ/
+    - date: '2006-10-25'
+      subject: '[Mip4] Agenda for MIP4'
+      url: https://mailarchive.ietf.org/arch/msg/mip4/f5l9yyS2eTsoOq2osK06t3uZzUs/
   - kind: session requests
     meetings:
     - '68'
@@ -110,7 +161,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2005-02-09'
+      not_after: '2003-08-06'
     end:
       certainty: evidence-only
       not_before: '2006-06-27'
@@ -131,3 +182,23 @@ chairs:
     date: '2006-06-27'
     subject: 'WG Review: Recharter of Mobility for IPv4 (mip4)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/JKSwspfE77Lb-t-Q4sgKCQjiwN8/
+  - kind: chair activity
+    first: '2003-08-06'
+    last: '2006-06-13'
+    messages: 9
+    examples:
+    - date: '2003-08-06'
+      subject: '[Mip4] Draft BOF Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/mip4/teZijLOMBvh04himZw39AeycMxM/
+    - date: '2003-11-19'
+      subject: '[Mip4] Draft minutes from IETF58'
+      url: https://mailarchive.ietf.org/arch/msg/mip4/NYWW6xsztRNXZwqJkqXndyAoTYk/
+    - date: '2004-04-29'
+      subject: '[Mip4] WGLC on draft-ietf-mip4-rfc3012bis-01.txt'
+      url: https://mailarchive.ietf.org/arch/msg/mip4/KasjclvMab-aDuw21rt1fR5zbaI/
+    - date: '2006-04-14'
+      subject: '[Mip4] Working Group Last Call for draft-ietf-mip4-mobike-connectivity-00'
+      url: https://mailarchive.ietf.org/arch/msg/mip4/BNG7AjmgioLkjQ4r90XjhI0Yj-8/
+    - date: '2006-06-13'
+      subject: '[Mip4] Working Group Last Call on draft-ietf-mip4-message-string-ext-00.txt'
+      url: https://mailarchive.ietf.org/arch/msg/mip4/puIxku-41aKPZ5ehp8OLuMPjd58/

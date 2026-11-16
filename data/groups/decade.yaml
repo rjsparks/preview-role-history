@@ -39,15 +39,26 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2010-04-27'
+      not_after: '2009-07-30'
     end:
       certainty: evidence-only
-      not_before: '2010-04-27'
+      not_before: '2010-10-28'
   evidence:
   - kind: WG Action
     date: '2010-04-27'
     subject: 'WG Action: DECoupled Application Data Enroute (decade)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Njq0TUvhIZXn3twFy6_ECp5W2X8/
+  - kind: chair activity
+    first: '2009-07-30'
+    last: '2010-10-28'
+    messages: 7
+    examples:
+    - date: '2009-07-30'
+      subject: '[decade] DECADE meeting minutes'
+      url: https://mailarchive.ietf.org/arch/msg/decade/SJm03pstjGg9MdANL3dtTo4jRyU/
+    - date: '2009-10-31'
+      subject: '[decade] Draft agenda for DECADE BOF @IETF76'
+      url: https://mailarchive.ietf.org/arch/msg/decade/CQ26FRYx5EDycR2nkOtP-w1GfRA/
 - person: 109430
   name: Haibin Song
   status: confirmed
@@ -62,6 +73,20 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 78
   evidence:
+  - kind: chair activity
+    first: '2010-12-14'
+    last: '2012-06-21'
+    messages: 7
+    examples:
+    - date: '2010-12-14'
+      subject: '[decade] DECADE meeting minutes for IETF 79'
+      url: https://mailarchive.ietf.org/arch/msg/decade/RHuwdAtJrGNslZ9cYmrY_I-pfA0/
+    - date: '2011-03-18'
+      subject: '[decade] DECADE Agenda for IETF 80'
+      url: https://mailarchive.ietf.org/arch/msg/decade/XXeF6WP5oFsznBiQWNmmddP1oLo/
+    - date: '2012-06-21'
+      subject: '[decade] Working Group Last Call: draft-ietf-decade-arch-07'
+      url: https://mailarchive.ietf.org/arch/msg/decade/vOdF3saaocJ5zjH7Xq4AqUYZVcQ/
   - kind: session requests
     meetings:
     - '78'

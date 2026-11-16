@@ -16,6 +16,18 @@ chairs:
       date: '2023-01-27'
     end:
       certainty: ongoing
+  evidence:
+  - kind: chair activity
+    first: '2023-03-29'
+    last: '2025-11-04'
+    messages: 11
+    examples:
+    - date: '2023-03-29'
+      subject: '[Ufmrg] draft UFMRG minutes from today'
+      url: https://mailarchive.ietf.org/arch/msg/ufmrg/wWPjP7AO9tXhsrekH1rxt8gr4eM/
+    - date: '2023-04-18'
+      subject: '[Ufmrg] poll for virtual interim meeting date in May'
+      url: https://mailarchive.ietf.org/arch/msg/ufmrg/g1tVSOQZ_sWoodkZ_VDooNI1Zyg/
 - person: 124591
   name: Jonathan Hoyland
   status: confirmed
@@ -25,3 +37,15 @@ chairs:
       date: '2023-01-16'
     end:
       certainty: ongoing
+  evidence:
+  - kind: chair activity
+    first: '2023-10-17'
+    last: '2024-05-29'
+    messages: 2
+    examples:
+    - date: '2023-10-17'
+      subject: '[Ufmrg] Call For Agenda Items'
+      url: https://mailarchive.ietf.org/arch/msg/ufmrg/fSgsGcLmAWgEZeJsN6ddIQEH1cY/
+    - date: '2024-05-29'
+      subject: '[Ufmrg] Call for Agenda Items - IETF 120'
+      url: https://mailarchive.ietf.org/arch/msg/ufmrg/0vma-EtAFZXCqftOMzrK5BijiXo/

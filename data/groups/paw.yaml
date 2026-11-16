@@ -17,6 +17,18 @@ chairs:
     end:
       certainty: group-closed
       date: '2019-06-11'
+  evidence:
+  - kind: chair activity
+    first: '2019-03-18'
+    last: '2019-03-25'
+    messages: 2
+    examples:
+    - date: '2019-03-18'
+      subject: '[Paw] Proposed Agenda for PAW in Prague'
+      url: https://mailarchive.ietf.org/arch/msg/paw/uNZy06jMamMjf2khnzPB0ekgblc/
+    - date: '2019-03-25'
+      subject: '[Paw] agenda for Thursday'
+      url: https://mailarchive.ietf.org/arch/msg/paw/M2b24TCRQsabObsJ8ot13B6DmdI/
 - person: 124759
   name: Ethan Grossman
   status: confirmed

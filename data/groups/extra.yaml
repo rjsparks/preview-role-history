@@ -18,6 +18,14 @@ chairs:
       certainty: group-closed
       date: '2025-03-17'
   evidence:
+  - kind: chair activity
+    first: '2023-07-28'
+    last: '2023-07-28'
+    messages: 1
+    examples:
+    - date: '2023-07-28'
+      subject: '[Extra] Draft Minutes of IETF 117 EXTRA WG'
+      url: https://mailarchive.ietf.org/arch/msg/extra/GwVID1FN1y8MBhTabbzYC4IAegs/
   - kind: shepherded
     documents:
     - draft-ietf-extra-imap-list-myrights
@@ -41,6 +49,26 @@ chairs:
     date: '2017-09-13'
     subject: 'WG Action: Formed Email mailstore and eXtensions To Revise or Amend (extra)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/CQ1lTzOoKn8bEaeoFIaCxxz-Q9A/
+  - kind: chair activity
+    first: '2017-11-15'
+    last: '2024-06-28'
+    messages: 46
+    examples:
+    - date: '2017-11-15'
+      subject: '[Extra] Meeting minutes and notes from today'
+      url: https://mailarchive.ietf.org/arch/msg/extra/E7e3ACVnD4X7rHEa3qN1qwGfB7I/
+    - date: '2018-03-22'
+      subject: '[Extra] Call for adoption: draft-leiba-extra-specialuse-important'
+      url: https://mailarchive.ietf.org/arch/msg/extra/QvzgYboqpFWbJpTObSIoFmLAiF4/
+    - date: '2018-03-22'
+      subject: '[Extra] Call for adoption: draft-newman-imap-unauth'
+      url: https://mailarchive.ietf.org/arch/msg/extra/rODTU2MSG-e9BvT0gOF-xT4wDg8/
+    - date: '2018-03-22'
+      subject: '[Extra] Call for adoption: draft-gondwana-imap-uniqueid'
+      url: https://mailarchive.ietf.org/arch/msg/extra/_mfd8GdsOalNzA39mRmaasXZ1tE/
+    - date: '2018-07-06'
+      subject: '[Extra] Montreal draft agenda'
+      url: https://mailarchive.ietf.org/arch/msg/extra/ZaX_Ue_xqhfndrf-vYYQ8UtzweU/
   - kind: shepherded
     documents:
     - draft-brandt-imap-replace

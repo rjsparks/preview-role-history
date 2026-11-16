@@ -18,6 +18,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2004-01-08'
+  evidence:
+  - kind: chair activity
+    first: '2002-01-12'
+    last: '2002-01-12'
+    messages: 1
+    examples:
+    - date: '2002-01-12'
+      subject: pilc minutes (better late than never....)
+      url: https://mailarchive.ietf.org/arch/msg/pilc/43ke-kAW3GMhwgbQKzqtSbc08Qs/
 - person: 107190
   name: Spencer Dawkins
   status: confirmed

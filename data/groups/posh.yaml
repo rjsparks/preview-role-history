@@ -18,6 +18,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2013-09-24'
+  evidence:
+  - kind: chair activity
+    first: '2013-07-24'
+    last: '2013-07-24'
+    messages: 1
+    examples:
+    - date: '2013-07-24'
+      subject: '[POSH] Proposed agenda for the BOF'
+      url: https://mailarchive.ietf.org/arch/msg/posh/juXAn5lPM2thF1IvP06gm5WoPT8/
 - person: 104851
   name: Kathleen Moriarty
   status: confirmed

@@ -25,6 +25,17 @@ chairs:
     date: '2001-07-30'
     subject: 'WG ACTION: Forwarding and Control Element Separation (forces)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/S4ydr0Ol33WUlxdcgF2vp_1NaKo/
+  - kind: chair activity
+    first: '2001-08-27'
+    last: '2007-03-22'
+    messages: 18
+    examples:
+    - date: '2001-08-27'
+      subject: ForCES Minutes
+      url: https://mailarchive.ietf.org/arch/msg/forces/FswOy77aGeODzUhKawu6oobdAiw/
+    - date: '2001-08-29'
+      subject: updated minutes
+      url: https://mailarchive.ietf.org/arch/msg/forces/QpFvRoEP3Ce7jXXN2AepJk6PbCE/
   - kind: session requests
     meetings:
     - '67'
@@ -69,11 +80,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2010-02-22'
       not_before: '2001-05-11'
     end:
       certainty: group-closed
       date: '2015-03-24'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
   evidence:
   - kind: WG Review
     date: '2013-04-26'
@@ -83,6 +96,26 @@ chairs:
     date: '2013-05-17'
     subject: 'WG Action: Rechartered Forwarding and Control Element Separation (forces)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/64hLYaqlZ7WvLNzwMn1WLCzPQZ8/
+  - kind: chair activity
+    first: '2007-11-27'
+    last: '2015-03-06'
+    messages: 24
+    examples:
+    - date: '2007-11-27'
+      subject: 'Vancouver meeting: Soliciting agenda items'
+      url: https://mailarchive.ietf.org/arch/msg/forces/gJv4E9lJwXlOVPJqUhHqPbjV1Ko/
+    - date: '2007-12-07'
+      subject: Preliminary minutes
+      url: https://mailarchive.ietf.org/arch/msg/forces/3j5RHPueLPwkwvfa0a6wjnDY9R4/
+    - date: '2010-02-22'
+      subject: '[forces] WG Last Call: Applicability draft'
+      url: https://mailarchive.ietf.org/arch/msg/forces/z7qDD8MMNWLhN33G6sou8moR33M/
+    - date: '2012-03-05'
+      subject: '[forces] WG Last call on LFBLib'
+      url: https://mailarchive.ietf.org/arch/msg/forces/K3T__NLeiobj_7Q-T95dVprJuW4/
+    - date: '2014-05-26'
+      subject: '[forces] WG last call: draft-ietf-forces-model-extension'
+      url: https://mailarchive.ietf.org/arch/msg/forces/KcOzNabTHOo6sSY6njKODPvfNAs/
   - kind: shepherded
     documents:
     - draft-ietf-forces-lfb-lib

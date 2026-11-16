@@ -13,14 +13,35 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2002-10-16'
       not_before: '1988-03-01'
     end:
       certainty: group-closed
       date: '2018-03-01'
     notes:
     - start moved earlier by session request for IETF 65
+    - widened to cover last calls and adoption calls on the group list
   evidence:
+  - kind: chair activity
+    first: '2002-10-16'
+    last: '2017-07-22'
+    messages: 88
+    examples:
+    - date: '2002-10-16'
+      subject: WG Last Call for <draft-ietf-ospf-dc-04.txt>
+      url: https://mailarchive.ietf.org/arch/msg/ospf/CEXMziYdcRq10iNM5GCodhjDMX0/
+    - date: '2002-11-27'
+      subject: 55th IETF OSPF WG Minutes
+      url: https://mailarchive.ietf.org/arch/msg/ospf/qrf2Ms71LCpcGtIw7ccxHwrr0I0/
+    - date: '2002-11-29'
+      subject: Updated 55th IETF OSPF WG Minutes
+      url: https://mailarchive.ietf.org/arch/msg/ospf/4rdrYM_nxp9vbeHCEkI2qyN3lXw/
+    - date: '2003-01-29'
+      subject: Working Group Last Call for draft-ietf-ospf-hitless-restart-05.txt
+      url: https://mailarchive.ietf.org/arch/msg/ospf/UmXwd3b7ffSYbcxNchIjDvFrDtU/
+    - date: '2003-03-21'
+      subject: WG Last Call on draft-ietf-ospf-hitless-restart-06.txt
+      url: https://mailarchive.ietf.org/arch/msg/ospf/4juExxF_PeE21iezeOP-twkMNck/
   - kind: session requests
     meetings:
     - '65'
@@ -59,6 +80,7 @@ chairs:
       date: '2018-03-01'
     notes:
     - start moved earlier by session request for IETF 73
+    - widened to cover last calls and adoption calls on the group list
     - start dated by list message of 2007-04-30
   evidence:
   - kind: list message
@@ -68,6 +90,26 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/ospf/gc7-Dv8BKid859PjnTAALTeq59c/
     excerpt: I'm delighted to announce that Abhay Roy will be joining me as OSPF WG Co-Chair effective
       immediately.
+  - kind: chair activity
+    first: '2007-06-22'
+    last: '2017-07-03'
+    messages: 14
+    examples:
+    - date: '2007-06-22'
+      subject: '[OSPF] IETF 69 - call for agenda'
+      url: https://mailarchive.ietf.org/arch/msg/ospf/Bwb1pDhCYP9GagGtn7lSOIZfsFg/
+    - date: '2008-09-22'
+      subject: '[OSPF] WG Last Call for draft-ietf-ospf-manet-or-01.txt'
+      url: https://mailarchive.ietf.org/arch/msg/ospf/3vikxzug8K669ZEttNz_eJpJyYs/
+    - date: '2008-10-06'
+      subject: '[OSPF] WG Last Call for draft-ietf-ospf-manet-mdr-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/ospf/Oc4i2HVjMBeSuhqkyAlFP6_IY7M/
+    - date: '2008-10-21'
+      subject: '[OSPF] WG Last call for draft-ietf-ospf-manet-mpr-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/ospf/7lv6Em-HvLj9AR4a5YMt0hL959E/
+    - date: '2015-11-05'
+      subject: '[OSPF] IETF94 OSPF WG Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/ospf/bRaofVQwSjylZ2C_wwma9B3q8VI/
   - kind: session requests
     meetings:
     - '73'

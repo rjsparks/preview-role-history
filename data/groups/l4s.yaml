@@ -18,6 +18,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2016-10-04'
+  evidence:
+  - kind: chair activity
+    first: '2016-08-08'
+    last: '2016-08-08'
+    messages: 1
+    examples:
+    - date: '2016-08-08'
+      subject: '[tcpPrague] draft minutes for the L4S BoF'
+      url: https://mailarchive.ietf.org/arch/msg/tcpprague/mYWh3xulCtqguygm1tTng2irQLA/
 - person: 112773
   name: Lars Eggert
   status: confirmed

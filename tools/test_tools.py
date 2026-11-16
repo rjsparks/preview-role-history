@@ -171,6 +171,10 @@ class RenderTests(DataDirMixin, unittest.TestCase):
         }, {
             "kind": "list message", "date": "2013-06-08", "says": "start", "subject": "[abc] New co-chair",
             "url": "https://mailarchive.ietf.org/arch/msg/abc/example/", "excerpt": "Please welcome Ada <Chair>.",
+        }, {
+            "kind": "chair activity", "first": "2013-07-01", "last": "2015-02-03", "messages": 12,
+            "examples": [{"date": "2014-01-02", "subject": "[abc] WGLC: draft-ietf-abc-foo",
+                          "url": "https://mailarchive.ietf.org/arch/msg/abc/wglc/"}],
         }]
         self.write_group(g)
         out = self.root / "site"
@@ -188,6 +192,8 @@ class RenderTests(DataDirMixin, unittest.TestCase):
         self.assertIn('<a href="https://mailarchive.ietf.org/arch/msg/ietf-announce-old/example/">', person)
         self.assertIn("Group list message about joining, 2013-06-08", person)
         self.assertIn("<q>Please welcome Ada &lt;Chair&gt;.</q>", person)
+        self.assertIn('Started 12 chair-type threads', person)
+        self.assertIn('<a href="https://mailarchive.ietf.org/arch/msg/abc/wglc/">', person)
         self.assertIn("about 1995", (out / "people" / "n-old-timer.html").read_text())
 
 

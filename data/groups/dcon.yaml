@@ -27,3 +27,12 @@ chairs:
     end:
       certainty: group-closed
       date: '2013-01-31'
+  evidence:
+  - kind: chair activity
+    first: '2011-12-13'
+    last: '2011-12-13'
+    messages: 1
+    examples:
+    - date: '2011-12-13'
+      subject: '[dcon] DCON BOF meeting minutes'
+      url: https://mailarchive.ietf.org/arch/msg/dcon/bZKZ8ZYftcGN6DzT1Lsdacoe2rE/

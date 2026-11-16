@@ -32,6 +32,15 @@ chairs:
     end:
       certainty: approximate
       date: '2015-01-07'
+  evidence:
+  - kind: chair activity
+    first: '2014-03-07'
+    last: '2014-03-07'
+    messages: 1
+    examples:
+    - date: '2014-03-07'
+      subject: '[Dbound] meeting minutes posted'
+      url: https://mailarchive.ietf.org/arch/msg/dbound/pQ9ChUeG-mYN8qPeg3j5Nf08M5c/
 - person: 106842
   name: Murray Kucherawy
   status: confirmed

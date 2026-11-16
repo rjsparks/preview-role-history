@@ -17,6 +17,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2008-04-23'
+  evidence:
+  - kind: chair activity
+    first: '2007-12-11'
+    last: '2007-12-11'
+    messages: 1
+    examples:
+    - date: '2007-12-11'
+      subject: '[PEPPERMINT] PRELIMINARY meeting minutes from PEPPERMINT BOF'
+      url: https://mailarchive.ietf.org/arch/msg/peppermint/nFMZsorwq2STePNrqD9pdKz4ZNA/
 - person: 106296
   name: Andy Newton
   status: confirmed

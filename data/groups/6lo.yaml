@@ -32,6 +32,14 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/6lo/ApoFGA_PqPSckFSYRONGMU8ST7Y/
     excerpt: Ralph Droms has agreed to serve as co-chair with Samita while I look for a permanent replacement
       for Ulrich.
+  - kind: chair activity
+    first: '2013-08-27'
+    last: '2013-08-27'
+    messages: 1
+    examples:
+    - date: '2013-08-27'
+      subject: '[6lo] Draft minutes from IETF 87 6lo BoF'
+      url: https://mailarchive.ietf.org/arch/msg/6lo/hauFE3v4RTO-LMVpulGZFagaqPE/
 - person: 21005
   name: Samita Chakrabarti
   status: confirmed
@@ -51,6 +59,26 @@ chairs:
     date: '2013-10-11'
     subject: 'WG Action: Formed IPv6 over Networks of Resource-constrained Nodes (6lo)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/RGckSzaHoplskpiWkV-u7QidI3I/
+  - kind: chair activity
+    first: '2013-10-11'
+    last: '2018-04-24'
+    messages: 26
+    examples:
+    - date: '2013-10-11'
+      subject: '[6lo] Revised draft Milestone for 6lo'
+      url: https://mailarchive.ietf.org/arch/msg/6lo/U-mLeXuMTF1xCkTDYcaKKdXrHmg/
+    - date: '2013-12-21'
+      subject: '[6lo] WG last call for draft-ietf-6lo-lowpanz-00'
+      url: https://mailarchive.ietf.org/arch/msg/6lo/IXeH4tY1u6bqczQSJq1gARJMmmg/
+    - date: '2014-08-12'
+      subject: '[6lo] IETF90 6lo Minutes uploaded'
+      url: https://mailarchive.ietf.org/arch/msg/6lo/6Xhb0jLm_WnQscCxG3YrbFwmC3k/
+    - date: '2015-01-21'
+      subject: '[6lo] WGLC: draft-ietf-6lo-btle-07 : LC ends Feb6, 2014'
+      url: https://mailarchive.ietf.org/arch/msg/6lo/YaQzXOYXiw8dtCz7pycYiV4rDrg/
+    - date: '2015-01-21'
+      subject: '[6lo] WG Adoption call for draft-hong-6lo-ipv6-over-nfc-03'
+      url: https://mailarchive.ietf.org/arch/msg/6lo/QYkGOs2046IVg_uSW7q_U0vRXFc/
   - kind: shepherded
     documents:
     - draft-ietf-6lo-6lobac
@@ -84,6 +112,26 @@ chairs:
       certainty: exact
       date: '2019-01-29'
   evidence:
+  - kind: chair activity
+    first: '2015-04-16'
+    last: '2019-01-17'
+    messages: 11
+    examples:
+    - date: '2015-04-16'
+      subject: '[6lo] 92 ietf minutes posted'
+      url: https://mailarchive.ietf.org/arch/msg/6lo/jWqf_2WqEGPs0LFO0uSQQhFTTSM/
+    - date: '2015-11-10'
+      subject: '[6lo] Call for adoption for MLE documents'
+      url: https://mailarchive.ietf.org/arch/msg/6lo/QorTqcsvuqZ1RcDsZiqUb1OypKI/
+    - date: '2015-11-17'
+      subject: '[6lo] Call for Adoption for draft-thubert-6lo-routing-dispatch'
+      url: https://mailarchive.ietf.org/arch/msg/6lo/hE7BnIGMYJN_sfortkMuiOhkR4o/
+    - date: '2017-06-27'
+      subject: '[6lo] WG Last Call on draft-ietf-6lo-rfc6775-update-06 through July 11'
+      url: https://mailarchive.ietf.org/arch/msg/6lo/o3QXbS1wS9KM3Q2P-uNs-O7IDiM/
+    - date: '2018-05-31'
+      subject: '[6lo] Call for Agenda items in Montreal'
+      url: https://mailarchive.ietf.org/arch/msg/6lo/bnuWkTbwwJpb1AZ0bLt7gIg2HMU/
   - kind: shepherded
     documents:
     - draft-ietf-6lo-btle
@@ -105,6 +153,26 @@ chairs:
     date: '2024-12-19'
     subject: 'WG Action: Rechartered IPv6 over Networks of Resource-constrained Nodes (6lo)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ah8aVw7XLo3tdo3fi0sgPM_j01U/
+  - kind: chair activity
+    first: '2019-03-13'
+    last: '2026-10-14'
+    messages: 67
+    examples:
+    - date: '2019-03-13'
+      subject: '[6lo] Preliminary agenda for 6lo at IETF 104'
+      url: https://mailarchive.ietf.org/arch/msg/6lo/IGLxo0wlTZdDYmfNE8dNeXiEQVU/
+    - date: '2019-04-02'
+      subject: '[6lo] Minutes from IETF 104'
+      url: https://mailarchive.ietf.org/arch/msg/6lo/l_hJKlzO4sIyI0c_fCBxPCD2Ba0/
+    - date: '2019-04-24'
+      subject: '[6lo] WG Last Call: draft-ietf-6lo-minimal-fragment-01'
+      url: https://mailarchive.ietf.org/arch/msg/6lo/5hX8m18cD-2f0RFIRCN_8OQHPy8/
+    - date: '2019-06-12'
+      subject: '[6lo] WGLC for draft-ietf-6lo-fragment-recovery-04'
+      url: https://mailarchive.ietf.org/arch/msg/6lo/tFIIzaCMAhjVtCBVCNaWvQhtyho/
+    - date: '2020-04-20'
+      subject: '[6lo] WG Last Call on draft-ietf-6lo-plc-02'
+      url: https://mailarchive.ietf.org/arch/msg/6lo/yhgn5uY0phGBpE5WROFB3x-LGrc/
   - kind: shepherded
     documents:
     - draft-ietf-6lo-fragment-recovery
@@ -140,6 +208,23 @@ chairs:
     date: '2013-10-11'
     subject: 'WG Action: Formed IPv6 over Networks of Resource-constrained Nodes (6lo)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/RGckSzaHoplskpiWkV-u7QidI3I/
+  - kind: chair activity
+    first: '2013-09-25'
+    last: '2014-07-24'
+    messages: 6
+    examples:
+    - date: '2013-09-25'
+      subject: '[6lo] Milestones up for discussion'
+      url: https://mailarchive.ietf.org/arch/msg/6lo/pYLdy5-sumWBEXpLxbYECBRRcng/
+    - date: '2013-10-22'
+      subject: '[6lo] Scribe + minutes taker'
+      url: https://mailarchive.ietf.org/arch/msg/6lo/1ErMih3ayU1uB3yKeK2VQxjJAF8/
+    - date: '2014-04-14'
+      subject: '[6lo] WGLC of draft-ietf-6lo-lowpan-mib-01'
+      url: https://mailarchive.ietf.org/arch/msg/6lo/vFs4HhsQmG2UsqqME2hiT2auFMo/
+    - date: '2014-07-24'
+      subject: '[6lo] WGLC for draft-ietf-6lo-ghc-03'
+      url: https://mailarchive.ietf.org/arch/msg/6lo/AnBELhipYyKNVZB-4JVDop7lhpI/
   - kind: shepherded
     documents:
     - draft-ietf-6lo-ghc
@@ -158,6 +243,26 @@ chairs:
     date: '2024-12-19'
     subject: 'WG Action: Rechartered IPv6 over Networks of Resource-constrained Nodes (6lo)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ah8aVw7XLo3tdo3fi0sgPM_j01U/
+  - kind: chair activity
+    first: '2019-02-28'
+    last: '2026-01-14'
+    messages: 15
+    examples:
+    - date: '2019-02-28'
+      subject: '[6lo] IETF 104 - Call for agenda items'
+      url: https://mailarchive.ietf.org/arch/msg/6lo/jAhO68zeorTaKyNQD_rlIcmSIw4/
+    - date: '2019-03-01'
+      subject: '[6lo] WG Last Call for draft-ietf-6lo-ap-nd-11'
+      url: https://mailarchive.ietf.org/arch/msg/6lo/w39fFTl_1Q6K1WIPzJWbEjlY4Xk/
+    - date: '2019-06-24'
+      subject: '[6lo] IETF 105 - Call for agenda items'
+      url: https://mailarchive.ietf.org/arch/msg/6lo/3r4W1rVXua99eSCVczklNsDgJbQ/
+    - date: '2024-04-30'
+      subject: '[6lo] Call for WG adoption of draft-choi-6lo-owc-02'
+      url: https://mailarchive.ietf.org/arch/msg/6lo/TWJNR7rShzI7SSMA7UXTGrXUeEA/
+    - date: '2024-12-09'
+      subject: '[6lo] WG Last Call on draft-ietf-6lo-path-aware-semantic-addressing-09'
+      url: https://mailarchive.ietf.org/arch/msg/6lo/msNjk3UrTgvMo84Q2UeTh3ksIB8/
   - kind: shepherded
     documents:
     - draft-ietf-6lo-ap-nd

@@ -13,11 +13,25 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2009-03-12'
+      date: '2006-05-25'
       not_before: '1997-10-20'
     end:
       certainty: group-closed
       date: '2009-03-12'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
+  evidence:
+  - kind: chair activity
+    first: '2006-05-25'
+    last: '2006-06-09'
+    messages: 2
+    examples:
+    - date: '2006-05-25'
+      subject: 'WG Last Call: draft-ietf-usefor-usefor-08'
+      url: https://mailarchive.ietf.org/arch/msg/usefor/u-p-BsdPDu4s2o4jsn1vZaQhM_w/
+    - date: '2006-06-09'
+      subject: WG Last Call on draft-ietf-usefor-usefor-08 has expired
+      url: https://mailarchive.ietf.org/arch/msg/usefor/VBKrVL27UM0h5gvlWMth4mpSIdU/
 - person: 102154
   name: Alexey Melnikov
   status: confirmed

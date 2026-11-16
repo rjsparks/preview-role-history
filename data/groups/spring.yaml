@@ -17,6 +17,15 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: chair activity
+    first: '2023-02-02'
+    last: '2023-02-02'
+    messages: 1
+    examples:
+    - date: '2023-02-02'
+      subject: '[spring] WG Adoption call for Segment Routing Header encapsulation for Alternate Marking
+        Method'
+      url: https://mailarchive.ietf.org/arch/msg/spring/X_p6sSLCROTGQc8qvdIxLP1WWXk/
   - kind: shepherded
     documents:
     - draft-ietf-spring-sr-yang
@@ -54,6 +63,20 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/spring/7rGZb0pcr1T6Cwyg8ZPsQIgfsKA/
     excerpt: I am pleased to inform you that I have appointed Jim Guichard and Joel Halpern as co-chairs
       of SPRING WG, alongside Bruno.
+  - kind: chair activity
+    first: '2020-07-13'
+    last: '2022-11-28'
+    messages: 14
+    examples:
+    - date: '2020-07-13'
+      subject: '[spring] WG Adoption Call for draft-raza-spring-srv6-yang'
+      url: https://mailarchive.ietf.org/arch/msg/spring/xyfFy8QEheS1O12PByU36zJ61kM/
+    - date: '2020-07-13'
+      subject: '[spring] WG Adoption Call for draft-raza-spring-sr-policy-yang'
+      url: https://mailarchive.ietf.org/arch/msg/spring/9Hy8jfOmVP9vmXXaSJ6mISwYCRM/
+    - date: '2020-07-15'
+      subject: '[spring] WG Adoption Call for draft-dong-spring-sr-for-enhanced-vpn'
+      url: https://mailarchive.ietf.org/arch/msg/spring/EykurXJrNf6WZFNAgJMVH1s6pTs/
   - kind: shepherded
     documents:
     - draft-ietf-spring-segment-routing-policy
@@ -75,6 +98,26 @@ chairs:
     date: '2018-10-02'
     subject: 'WG Action: Rechartered Source Packet Routing in Networking (spring)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/VeyycE_ss7NpK3wo7VCQdZ63TD8/
+  - kind: chair activity
+    first: '2015-03-30'
+    last: '2026-07-10'
+    messages: 22
+    examples:
+    - date: '2015-03-30'
+      subject: '[spring] SPRING Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/spring/KgbEY7onWQV2mjC_S3PIJEwa3M4/
+    - date: '2015-11-05'
+      subject: '[spring] Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/spring/2WXkh-_s9NJJpoN-K43W5FSEFP8/
+    - date: '2016-09-12'
+      subject: '[spring] WGLC for draft-ietf-spring-oam-usecase'
+      url: https://mailarchive.ietf.org/arch/msg/spring/hHErrnkW2yekiyf7URdqHoPMg0Q/
+    - date: '2017-02-13'
+      subject: '[spring] WG Last Call for draft-ietf-spring-segment-routing-central-epe'
+      url: https://mailarchive.ietf.org/arch/msg/spring/dkYKSh3ZRHZPUsTSWUv5Ft4aqkI/
+    - date: '2017-02-21'
+      subject: '[spring] WG Last Call for draft-ietf-spring-segment-routing-msdc-02'
+      url: https://mailarchive.ietf.org/arch/msg/spring/XAd1rcZDX66D9NRGvhKbamAgrLg/
   - kind: shepherded
     documents:
     - draft-ietf-spring-ipv6-use-cases
@@ -94,6 +137,20 @@ chairs:
       certainty: exact
       date: '2018-03-23'
   evidence:
+  - kind: chair activity
+    first: '2017-01-27'
+    last: '2017-06-29'
+    messages: 3
+    examples:
+    - date: '2017-01-27'
+      subject: '[spring] WG Last Call for draft-ietf-spring-segment-routing-mpls-06'
+      url: https://mailarchive.ietf.org/arch/msg/spring/STiYsQJWuVXA1C9hK4BiUnyMu7Y/
+    - date: '2017-02-06'
+      subject: '[spring] WG Last Call for draft-ietf-spring-segment-routing-ldp-interop-05'
+      url: https://mailarchive.ietf.org/arch/msg/spring/gFDoCFp1N7i_ULgxONGZqU_POUg/
+    - date: '2017-06-29'
+      subject: '[spring] WG Last Call for draft-ietf-spring-conflict-resolution'
+      url: https://mailarchive.ietf.org/arch/msg/spring/8FOgaL9eft6JrxBsZkLF56KR_0c/
   - kind: shepherded
     documents:
     - draft-ietf-spring-conflict-resolution
@@ -119,6 +176,23 @@ chairs:
     date: '2013-10-25'
     subject: 'WG Action: Formed Source Packet Routing in Networking (spring)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/aYgpezJMWXGFwx7hQy21UMFVM1M/
+  - kind: chair activity
+    first: '2024-08-05'
+    last: '2025-10-28'
+    messages: 4
+    examples:
+    - date: '2024-08-05'
+      subject: '[spring] WG Adoption Call for draft-bdmgct-spring-srv6-security (ends Aug/19)'
+      url: https://mailarchive.ietf.org/arch/msg/spring/uGQ3-WOahsbIMF4WbSG0-RF6zRs/
+    - date: '2024-12-02'
+      subject: '[spring] WGLC for draft-ietf-spring-bfd (ends Dec/16)'
+      url: https://mailarchive.ietf.org/arch/msg/spring/UJEQsBJ9Nhy5qNjSQ6UtvKrfiB8/
+    - date: '2025-04-02'
+      subject: '[spring] WG Adoption Call for draft-dong-spring-srv6-inter-layer-programming'
+      url: https://mailarchive.ietf.org/arch/msg/spring/GNQUDCf-v-7nvxnaSz8ylh0CqYQ/
+    - date: '2025-10-28'
+      subject: '[spring] Path Forward on how NRPs should be expressed (spring Interim from October/14)'
+      url: https://mailarchive.ietf.org/arch/msg/spring/3KIYhsp_DLQlWuKuVG8OScOk0lc/
   - kind: shepherded
     documents:
     - draft-ietf-spring-resource-aware-segments
@@ -142,6 +216,23 @@ chairs:
     date: '2018-10-02'
     subject: 'WG Action: Rechartered Source Packet Routing in Networking (spring)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/VeyycE_ss7NpK3wo7VCQdZ63TD8/
+  - kind: chair activity
+    first: '2018-03-08'
+    last: '2019-08-04'
+    messages: 5
+    examples:
+    - date: '2018-03-08'
+      subject: '[spring] Agenda for SPRING @ IETF 101 Posted'
+      url: https://mailarchive.ietf.org/arch/msg/spring/-KaYo9XtC-LEO0qCtavCTHdDdd4/
+    - date: '2019-06-27'
+      subject: '[spring] WG Adoption Call: draft-xuclad-spring-sr-service-programming'
+      url: https://mailarchive.ietf.org/arch/msg/spring/2qSolgqJec9ZOd0QVP0coLgi0A8/
+    - date: '2019-06-27'
+      subject: '[spring] WG Adoption Call: draft-guichard-spring-nsh-sr'
+      url: https://mailarchive.ietf.org/arch/msg/spring/VpW5jdHdq1n_D1Pze8DnGHu-TIY/
+    - date: '2019-07-11'
+      subject: '[spring] Agenda for IETF 105 Published'
+      url: https://mailarchive.ietf.org/arch/msg/spring/lDUNsK_fiVPNziDEA4OQqzM3ApQ/
   - kind: shepherded
     documents:
     - draft-ietf-spring-segment-routing-ldp-interop

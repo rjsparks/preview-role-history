@@ -34,3 +34,12 @@ chairs:
     end:
       certainty: group-closed
       date: '2011-12-09'
+  evidence:
+  - kind: chair activity
+    first: '2011-04-22'
+    last: '2011-04-22'
+    messages: 1
+    examples:
+    - date: '2011-04-22'
+      subject: '[plasma] Minutes for the PLASMA BOF in Prague'
+      url: https://mailarchive.ietf.org/arch/msg/plasma/d515wR56bbYeOjZH9Gtk9Y0bHcM/

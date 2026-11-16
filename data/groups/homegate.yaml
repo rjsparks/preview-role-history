@@ -27,6 +27,18 @@ chairs:
     end:
       certainty: group-closed
       date: '2011-12-09'
+  evidence:
+  - kind: chair activity
+    first: '2009-11-13'
+    last: '2010-02-15'
+    messages: 4
+    examples:
+    - date: '2009-11-13'
+      subject: '[homegate] Draft HomeGate BoF Minutes Posted'
+      url: https://mailarchive.ietf.org/arch/msg/homegate/t8HmR8ulespXBmk9GNgaXPV6xSI/
+    - date: '2010-02-02'
+      subject: '[homegate] Interim Meeting - Proposed Participants and Agenda (plus location + date selection)'
+      url: https://mailarchive.ietf.org/arch/msg/homegate/wK4TM_4Lnmh0YdjpqWXK6G958ho/
 - person: 109059
   name: Ray Bellis
   status: confirmed
@@ -37,3 +49,12 @@ chairs:
     end:
       certainty: group-closed
       date: '2011-12-09'
+  evidence:
+  - kind: chair activity
+    first: '2010-07-30'
+    last: '2010-07-30'
+    messages: 1
+    examples:
+    - date: '2010-07-30'
+      subject: '[homegate] HomeGate BoF - draft minutes available'
+      url: https://mailarchive.ietf.org/arch/msg/homegate/3o0LtM9IDJk6qT9BaetHejUy2HU/

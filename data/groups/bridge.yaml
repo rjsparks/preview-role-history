@@ -24,8 +24,28 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-02-13'
+      date: '2004-09-21'
       not_before: '1990-08-01'
     end:
       certainty: group-closed
       date: '2006-02-13'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
+  evidence:
+  - kind: chair activity
+    first: '2004-09-21'
+    last: '2005-01-12'
+    messages: 4
+    examples:
+    - date: '2004-09-21'
+      subject: '[Bridge-mib] WG last call:draft-ietf-bridge-rstpmib-05.txt'
+      url: https://mailarchive.ietf.org/arch/msg/bridge-mib/GE_gE4xkHAc7YGVuev5_C8Oqq2c/
+    - date: '2004-11-03'
+      subject: '[Bridge-mib] WG Last Call:dratf-ietf-bridge-ext-v2-03.txt'
+      url: https://mailarchive.ietf.org/arch/msg/bridge-mib/E--ogK0uRrd4IUB4rwXCRTC7DYU/
+    - date: '2004-12-15'
+      subject: '[Bridge-mib] milestone updates for the Bridge WG'
+      url: https://mailarchive.ietf.org/arch/msg/bridge-mib/q_Ok1kuvMh-dAkkeaCrEpxwfubE/
+    - date: '2005-01-12'
+      subject: '[Bridge-mib] WG Last Call'
+      url: https://mailarchive.ietf.org/arch/msg/bridge-mib/3RSbhk1TVw2CbSUtQ-OVOUiXkGA/

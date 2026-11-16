@@ -17,6 +17,15 @@ chairs:
     end:
       certainty: exact
       date: '2026-05-11'
+  evidence:
+  - kind: chair activity
+    first: '2025-08-04'
+    last: '2025-08-04'
+    messages: 1
+    examples:
+    - date: '2025-08-04'
+      subject: '[Lsvr] IETF 123 LSVR Meeting Minutes Posted'
+      url: https://mailarchive.ietf.org/arch/msg/lsvr/8-1LmCg0sBzscJXXCPRm-dKrzLw/
 - person: 108304
   name: Gunter Van de Velde
   status: confirmed
@@ -37,6 +46,14 @@ chairs:
     date: '2018-02-23'
     subject: 'WG Action: Formed Link State Vector Routing (lsvr)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/gpNq6qf4emJV5ynggJQ-Y2DR-MY/
+  - kind: chair activity
+    first: '2022-11-28'
+    last: '2022-11-28'
+    messages: 1
+    examples:
+    - date: '2022-11-28'
+      subject: '[Lsvr] WG Adoption Call for draft-mahesh-lsvr-bgp-ls-yang from 28Nov2022 until 11Dec2022'
+      url: https://mailarchive.ietf.org/arch/msg/lsvr/Dr9E3lzxXjCnpN0PbxE-RBeu2ZE/
 - person: 110737
   name: Jie Dong
   status: confirmed
@@ -63,6 +80,17 @@ chairs:
     excerpt: As Gunter makes this transition into his new role, I have asked Jie Dong to join Ketan as
       co-chair effective immediately and he has agreed to do so and work with both existing chairs to
       make the transition as seamless as possible.
+  - kind: chair activity
+    first: '2024-08-06'
+    last: '2026-10-19'
+    messages: 9
+    examples:
+    - date: '2024-08-06'
+      subject: '[Lsvr] Draft LSVR minutes posted'
+      url: https://mailarchive.ietf.org/arch/msg/lsvr/4x742sD52weIcOEO3Bc6ljNNGTE/
+    - date: '2024-11-19'
+      subject: '[Lsvr] LSVR meeting minutes posted'
+      url: https://mailarchive.ietf.org/arch/msg/lsvr/rLyst9PaPA0VuoqCHggqDEC3rwc/
   - kind: shepherded
     documents:
     - draft-ietf-lsvr-l3dl
@@ -86,6 +114,17 @@ chairs:
     date: '2018-02-23'
     subject: 'WG Action: Formed Link State Vector Routing (lsvr)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/gpNq6qf4emJV5ynggJQ-Y2DR-MY/
+  - kind: chair activity
+    first: '2018-07-08'
+    last: '2018-09-18'
+    messages: 2
+    examples:
+    - date: '2018-07-08'
+      subject: '[Lsvr] IETF102 Meeting Draft Agenda Posted'
+      url: https://mailarchive.ietf.org/arch/msg/lsvr/ogWDoivS4NwVdJCq8L88UxuETIc/
+    - date: '2018-09-18'
+      subject: '[Lsvr] Proposed Agenda (Draft) for LSVR Interim Meeting'
+      url: https://mailarchive.ietf.org/arch/msg/lsvr/kAzqB8J-kIXo1PxWohrTSq0kziE/
 - person: 122823
   name: Ketan Talaulikar
   status: confirmed

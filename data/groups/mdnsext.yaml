@@ -17,6 +17,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2013-01-31'
+  evidence:
+  - kind: chair activity
+    first: '2013-08-28'
+    last: '2013-08-28'
+    messages: 1
+    examples:
+    - date: '2013-08-28'
+      subject: '[mdnsext] Draft minutes, dnssdext BoF, Berlin'
+      url: https://mailarchive.ietf.org/arch/msg/mdnsext/tqSazQ31JaypS6AWINluTDyj7LI/
 - person: 111584
   name: Kerry Lynn
   status: confirmed

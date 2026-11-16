@@ -13,8 +13,25 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-07-19'
+      date: '2004-03-02'
       not_before: '1996-05-09'
     end:
       certainty: group-closed
       date: '2006-07-19'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
+  evidence:
+  - kind: chair activity
+    first: '2003-03-14'
+    last: '2004-04-02'
+    messages: 4
+    examples:
+    - date: '2003-03-14'
+      subject: '[Disman] Disman WG agenda for San Francisco IETF meeting'
+      url: https://mailarchive.ietf.org/arch/msg/disman/INbXFlBVU7xXG75YN--qijoTAAE/
+    - date: '2004-02-24'
+      subject: '[Disman] Disman WG Agenda for Seoul'
+      url: https://mailarchive.ietf.org/arch/msg/disman/7DZg2ZjzOvhsSqYLr0gpuxEwMYY/
+    - date: '2004-03-02'
+      subject: '[Disman] WG last call on draft-ietf-disman-remops-mib-v2-01.txt'
+      url: https://mailarchive.ietf.org/arch/msg/disman/PeGyTddTIP_j3ru_T_JItotEiu8/

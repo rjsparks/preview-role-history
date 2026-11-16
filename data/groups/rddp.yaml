@@ -13,8 +13,31 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2007-11-01'
+      date: '2003-03-05'
       not_before: '2002-06-13'
     end:
       certainty: group-closed
       date: '2007-11-01'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
+  evidence:
+  - kind: chair activity
+    first: '2002-07-23'
+    last: '2005-03-15'
+    messages: 23
+    examples:
+    - date: '2002-07-23'
+      subject: '[rddp] rddp Yokohama DRAFT minutes'
+      url: https://mailarchive.ietf.org/arch/msg/rddp/IqijmhsDicrYizx9QEmVjupy1R0/
+    - date: '2002-07-31'
+      subject: '[rddp] rddp Yokohama minutes'
+      url: https://mailarchive.ietf.org/arch/msg/rddp/tkAaKPgOhKJgG06YdkV_MZ-tvIM/
+    - date: '2003-03-05'
+      subject: '[rddp] WG Last Call: Problem Statement and Architecture'
+      url: https://mailarchive.ietf.org/arch/msg/rddp/YHx9HDFhCkfImvoum2RArVtHsfM/
+    - date: '2005-02-09'
+      subject: '[rddp] WG Last Call: Security, DDP, RDMAP'
+      url: https://mailarchive.ietf.org/arch/msg/rddp/gPI6KWpzQTCCss0riGRDimaHB5g/
+    - date: '2005-03-15'
+      subject: '[rddp] WG Last Call: Applicability, SCTP Adaptation, MPA'
+      url: https://mailarchive.ietf.org/arch/msg/rddp/bgzTJCKCd1akrY-X3pG6I0VeMsQ/

@@ -16,12 +16,23 @@ chairs:
       not_after: '1999-09-28'
     end:
       certainty: evidence-only
-      not_before: '1999-09-28'
+      not_before: '2000-07-10'
   evidence:
   - kind: WG Action
     date: '1999-09-28'
     subject: 'WG ACTION: Session Initiation Protocol (sip)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/WkDg71Lm0v4hsrhCDjYxd17FeBg/
+  - kind: chair activity
+    first: '1999-10-29'
+    last: '2000-07-10'
+    messages: 4
+    examples:
+    - date: '1999-10-29'
+      subject: 'Interim meeting: registration and room correction'
+      url: https://mailarchive.ietf.org/arch/msg/sip/YDEkNfgKRjimAtoO8vNsQs5Wm8Q/
+    - date: '2000-03-06'
+      subject: Agenda items for Adelaide
+      url: https://mailarchive.ietf.org/arch/msg/sip/MNfyIpCbcbEe1q-LMPmzIQbiWuQ/
 - person: 11842
   name: Joerg Ott
   status: unconfirmed
@@ -31,25 +42,34 @@ chairs:
       not_after: '1999-09-28'
     end:
       certainty: evidence-only
-      not_before: '1999-09-28'
+      not_before: '2002-08-17'
   evidence:
   - kind: WG Action
     date: '1999-09-28'
     subject: 'WG ACTION: Session Initiation Protocol (sip)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/WkDg71Lm0v4hsrhCDjYxd17FeBg/
+  - kind: chair activity
+    first: '2002-08-17'
+    last: '2002-08-17'
+    messages: 1
+    examples:
+    - date: '2002-08-17'
+      subject: '[Sip] Draft SIP Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/sip/lqT_awO5BEtMTkEFABHJCnbzWJc/
 - person: 103889
   name: Dean Willis
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-11-04'
+      date: '2000-08-07'
       not_before: '1999-09-14'
     end:
       certainty: group-closed
       date: '2009-05-01'
     notes:
     - start moved earlier by WG Action announcement of 2005-11-04
+    - widened to cover last calls and adoption calls on the group list
   evidence:
   - kind: WG Action
     date: '2005-11-04'
@@ -59,6 +79,26 @@ chairs:
     date: '2006-08-22'
     subject: 'WG Action: RECHARTER: Session Initiation Protocol (sip)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/fFlaX4aFdJT8nvBXaOrIO77W-Sc/
+  - kind: chair activity
+    first: '2000-08-07'
+    last: '2009-04-15'
+    messages: 96
+    examples:
+    - date: '2000-08-07'
+      subject: '[SIP] Working Group Last Call on draft-ietf-sip-dhcp-01.txt (DHCP Options for SIP) 21Aug2000'
+      url: https://mailarchive.ietf.org/arch/msg/sip/b-PvrZQb2qlG_J0IyrfuWuq0rQ8/
+    - date: '2000-08-31'
+      subject: '[SIP] Draft Minutes of SIP WG at IETF 48,'
+      url: https://mailarchive.ietf.org/arch/msg/sip/5OMchYpVpJjUGe1dRtWulsmlVCY/
+    - date: '2000-09-05'
+      subject: '[SIP] Revised minutes of SIP WG, meeting 48'
+      url: https://mailarchive.ietf.org/arch/msg/sip/PY8fyp_WAWb7eg_34TyTkw1tqAc/
+    - date: '2000-11-09'
+      subject: '[SIP] WG Last Call on draft-ietf-isup-mime-06.txt'
+      url: https://mailarchive.ietf.org/arch/msg/sip/lTD2YB9HNjMM6MYWY4f-gd1defM/
+    - date: '2000-11-30'
+      subject: '[SIP] WG Last Call on Caller Preferences'
+      url: https://mailarchive.ietf.org/arch/msg/sip/ouqpRzK71-FMr5wP95rEVzC4vV4/
   - kind: session requests
     meetings:
     - '65'
@@ -90,18 +130,58 @@ chairs:
     date: '2006-08-22'
     subject: 'WG Action: RECHARTER: Session Initiation Protocol (sip)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/fFlaX4aFdJT8nvBXaOrIO77W-Sc/
+- person: 107524
+  name: Jason Fischl
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: approximate
+      date: '2006-03-28'
+    end:
+      certainty: evidence-only
+      not_before: '2006-03-28'
+    notes:
+    - start dated by list message of 2006-03-28
+  evidence:
+  - kind: list message
+    date: '2006-03-28'
+    says: start
+    subject: '[Sip] draft-ietf-sipping-certs'
+    url: https://mailarchive.ietf.org/arch/msg/sip/PaY7Jva0dBc_jNvg3LOTcOXB5fs/
+    excerpt: The WG chairs would therefore like to announce that Jason Fischl will take over as editor
+      for this document.
 - person: 129485
   name: Rohan Mahy
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2005-11-04'
+      not_after: '2001-01-11'
     end:
       certainty: evidence-only
-      not_before: '2005-11-04'
+      not_before: '2006-02-23'
   evidence:
   - kind: WG Action
     date: '2005-11-04'
     subject: 'WG Action: RECHARTER: Session Initiation Protocol (sip)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/BV75YiNQWpWQOAxQX89_HtfNSg4/
+  - kind: chair activity
+    first: '2001-01-11'
+    last: '2006-02-23'
+    messages: 24
+    examples:
+    - date: '2001-01-11'
+      subject: '[SIP] Open Issues Interim Meeting Feb 8th and 9th'
+      url: https://mailarchive.ietf.org/arch/msg/sip/vkYGVjHSXyh7F7UfsfJl0_L73VI/
+    - date: '2001-01-15'
+      subject: '[SIP] Need rough count for interim meeting'
+      url: https://mailarchive.ietf.org/arch/msg/sip/4Ho8F82JUjLyBPVHXtpslgQeNAA/
+    - date: '2002-11-01'
+      subject: '[Sip] WGLC (redux) for draft-ietf-sip-sec-agree-05.txt'
+      url: https://mailarchive.ietf.org/arch/msg/sip/87sQqllzjr0sHbJYLlOx_7LZF64/
+    - date: '2002-11-01'
+      subject: '[Sip] WGLC on draft-ietf-sip-compression-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/sip/IwYXWj_ncXo2DL3pnMAfuwK_rfM/
+    - date: '2002-11-01'
+      subject: '[Sip] WGLC (official) for scvrtdisco'
+      url: https://mailarchive.ietf.org/arch/msg/sip/YrdPMzbV5b8HZkflj5LdzJv6Kcc/

@@ -33,6 +33,31 @@ chairs:
     end:
       certainty: group-closed
       date: '2026-06-09'
+- person: 108162
+  name: Robert Moskowitz
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2023-06-27'
+    end:
+      certainty: evidence-only
+      not_before: '2025-10-21'
+  evidence:
+  - kind: chair activity
+    first: '2023-06-27'
+    last: '2025-10-21'
+    messages: 3
+    examples:
+    - date: '2023-06-27'
+      subject: '[Drip] Call for adoption - draft-moskowitz-drip-dki-06.txt'
+      url: https://mailarchive.ietf.org/arch/msg/tm-rid/jLG3KEnwjGuf9i_CKr_l7LVIo3A/
+    - date: '2023-10-12'
+      subject: '[Drip] Call for wg adoption of draft-moskowitz-drip-dki'
+      url: https://mailarchive.ietf.org/arch/msg/tm-rid/eZlkjYw2UCZERf8AZKjaEe3Syrs/
+    - date: '2025-10-21'
+      subject: '[Drip] Oct 15 Interim and onward'
+      url: https://mailarchive.ietf.org/arch/msg/tm-rid/4NgISNW_uA5dti62GamsS3nYLq4/
 - person: 109969
   name: Daniel Migault
   status: confirmed
@@ -53,6 +78,26 @@ chairs:
     date: '2020-02-21'
     subject: 'WG Action: Formed Drone Remote ID Protocol (drip)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/wvdO4UmtjEo_ffsnk0CYAu8BLiY/
+  - kind: chair activity
+    first: '2019-11-29'
+    last: '2025-10-21'
+    messages: 12
+    examples:
+    - date: '2019-11-29'
+      subject: '[Tm-rid] TR-MID minutes of IETF 106'
+      url: https://mailarchive.ietf.org/arch/msg/tm-rid/dsUTjpMI0dosVV1pBzWtCB4fkes/
+    - date: '2020-01-11'
+      subject: '[Tm-rid] doodle for interim meeting for TM-RID'
+      url: https://mailarchive.ietf.org/arch/msg/tm-rid/R9EdsoYD5b0EW5AbBpNWgbTzGLY/
+    - date: '2020-09-09'
+      subject: '[Drip] call for adoption for draft-ietf-drip-uas-rid'
+      url: https://mailarchive.ietf.org/arch/msg/tm-rid/yD-a7itzD5t4-E0gVQnc9EcH7o8/
+    - date: '2021-02-23'
+      subject: '[Drip] WGLC for draft-ietf-drip-arch'
+      url: https://mailarchive.ietf.org/arch/msg/tm-rid/vdfKGJtDtQIUyirRoZUOEHL5vgQ/
+    - date: '2021-11-11'
+      subject: '[Drip] Call for adoption for -wiethuechter-drip-registries'
+      url: https://mailarchive.ietf.org/arch/msg/tm-rid/M4BqQrjYz_RjnxsS74ATW7Ii8SA/
   - kind: shepherded
     documents:
     - draft-ietf-drip-arch
@@ -68,6 +113,26 @@ chairs:
       certainty: exact
       date: '2025-03-19'
   evidence:
+  - kind: chair activity
+    first: '2020-04-21'
+    last: '2023-12-05'
+    messages: 17
+    examples:
+    - date: '2020-04-21'
+      subject: '[Tm-rid] Virtual Interim Meeting (22/04/2020): Agenda & Logistics'
+      url: https://mailarchive.ietf.org/arch/msg/tm-rid/mSkMC2IkbRAASDm1HJpSs9pJR18/
+    - date: '2020-04-27'
+      subject: '[Tm-rid] Adoption Call for draft-card-drip-arch (27/04-11/05)'
+      url: https://mailarchive.ietf.org/arch/msg/tm-rid/TinfFxPqJnDmTP_XS_z6Ji0Lq20/
+    - date: '2020-05-27'
+      subject: '[Tm-rid] Virtual Interim Meeting (27/05/2020): Logistics & Agenda'
+      url: https://mailarchive.ietf.org/arch/msg/tm-rid/BlAHjyUBHL5sM2ztxrFCc4poXTQ/
+    - date: '2020-09-09'
+      subject: '[Drip] WGLC of draft-ietf-drip-reqs-04 (Ends 23/09/2020)'
+      url: https://mailarchive.ietf.org/arch/msg/tm-rid/rYRt_GL4raxhM0QohcaEuPn9r28/
+    - date: '2020-12-03'
+      subject: '[Drip] Call for adoption for draft-wiethuechter-drip-auth'
+      url: https://mailarchive.ietf.org/arch/msg/tm-rid/Lg2P5BI0RoXGR5ytxEoB3m6L9XQ/
   - kind: shepherded
     documents:
     - draft-ietf-drip-auth

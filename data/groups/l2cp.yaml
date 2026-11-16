@@ -17,6 +17,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2006-05-12'
+  evidence:
+  - kind: chair activity
+    first: '2006-03-29'
+    last: '2006-03-29'
+    messages: 1
+    examples:
+    - date: '2006-03-29'
+      subject: '[L2CP] BoF minutes'
+      url: https://mailarchive.ietf.org/arch/msg/l2cp/LPBoT8zCj-4MlqoNsIDnfcTyqIw/
 - person: 106526
   name: Wojciech Dec
   status: confirmed

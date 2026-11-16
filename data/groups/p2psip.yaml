@@ -26,6 +26,17 @@ chairs:
     date: '2007-02-21'
     subject: 'WG Action: Peer-to-Peer Session Initiation Protocol (p2psip)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/_utDv9I2MG36X5V_OJ2bP0DUF9w/
+  - kind: chair activity
+    first: '2008-04-02'
+    last: '2012-03-15'
+    messages: 15
+    examples:
+    - date: '2008-04-02'
+      subject: '[P2PSIP] Draft meeting minutes and materials from IETF-71'
+      url: https://mailarchive.ietf.org/arch/msg/p2psip/imXlv1l2Jaof2VrYJBX2Kw-rqAM/
+    - date: '2008-07-16'
+      subject: '[P2PSIP] Draft WG Agenda for Dublin'
+      url: https://mailarchive.ietf.org/arch/msg/p2psip/4PitkBAY5GVCQJ0INuhve7cf5dg/
   - kind: session requests
     meetings:
     - '69'
@@ -53,11 +64,33 @@ chairs:
   - start:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2015-05-29'
+      not_after: '2012-06-21'
     end:
       certainty: group-closed
       date: '2016-12-23'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
   evidence:
+  - kind: chair activity
+    first: '2012-06-21'
+    last: '2015-07-07'
+    messages: 24
+    examples:
+    - date: '2012-06-21'
+      subject: '[P2PSIP] WG Call for adoption: draft-peng-p2psip-snmp-04'
+      url: https://mailarchive.ietf.org/arch/msg/p2psip/Es4XI4oqtSzH03_raPUiu4tdIQk/
+    - date: '2012-07-12'
+      subject: '[P2PSIP] Soliciting agenda items for IETF 84'
+      url: https://mailarchive.ietf.org/arch/msg/p2psip/L6kx4xRZQ_uozkMRrQM3K0PwXe8/
+    - date: '2012-07-16'
+      subject: '[P2PSIP] WG Call for adoption: draft-knauf-p2psip-disco-05'
+      url: https://mailarchive.ietf.org/arch/msg/p2psip/tT0r-MWK8mBIAuTpx4YrfZRY94o/
+    - date: '2012-07-16'
+      subject: '[P2PSIP] WG Call for adoption: draft-knauf-p2psip-share-03'
+      url: https://mailarchive.ietf.org/arch/msg/p2psip/-OpdpLSCdThSdQehyFug7ZJNB3U/
+    - date: '2012-08-01'
+      subject: '[P2PSIP] Draft of meeting minutes uploaded'
+      url: https://mailarchive.ietf.org/arch/msg/p2psip/C0s0a1pzuroL76H-WX5pdHb4j1o/
   - kind: shepherded
     documents:
     - draft-ietf-p2psip-diagnostics
@@ -84,6 +117,17 @@ chairs:
     date: '2007-02-21'
     subject: 'WG Action: Peer-to-Peer Session Initiation Protocol (p2psip)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/_utDv9I2MG36X5V_OJ2bP0DUF9w/
+  - kind: chair activity
+    first: '2008-02-29'
+    last: '2010-10-18'
+    messages: 2
+    examples:
+    - date: '2008-02-29'
+      subject: '[P2PSIP] Agenda for IETF-71'
+      url: https://mailarchive.ietf.org/arch/msg/p2psip/twRpLUm8ONBa4G2GABJ1ZVfufwU/
+    - date: '2010-10-18'
+      subject: '[P2PSIP] WGLC on draft-ietf-p2psip-base-11'
+      url: https://mailarchive.ietf.org/arch/msg/p2psip/NKz6LAbe7LXf2BeitLYBLHDSM5g/
   - kind: shepherded
     documents:
     - draft-ietf-p2psip-concepts

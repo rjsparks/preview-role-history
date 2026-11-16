@@ -18,6 +18,18 @@ chairs:
     end:
       certainty: exact
       date: '2016-05-09'
+  evidence:
+  - kind: chair activity
+    first: '2016-03-21'
+    last: '2016-04-11'
+    messages: 2
+    examples:
+    - date: '2016-03-21'
+      subject: '[babel] Draft Agenda'
+      url: https://mailarchive.ietf.org/arch/msg/babel/XE_CV1XaaX_qzYkeZhtTf-CGyjI/
+    - date: '2016-04-11'
+      subject: '[babel] Meeting Minutes from IETF 95'
+      url: https://mailarchive.ietf.org/arch/msg/babel/xrIn7Am_bvqU4YvgaZjvC14qIkw/
 - person: 102391
   name: Donald Eastlake
   status: confirmed
@@ -41,6 +53,27 @@ chairs:
     date: '2018-07-06'
     subject: 'WG Action: Rechartered Babel routing protocol (babel)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/zvaQS2dRooJ-wD8AXbcu8ydQEVU/
+  - kind: chair activity
+    first: '2016-07-09'
+    last: '2021-08-01'
+    messages: 30
+    examples:
+    - date: '2016-07-09'
+      subject: '[babel] Call for WG adoption of draft-chroboczek-babel-rfc6126bis (8 July through Berlin
+        21 July meeting)'
+      url: https://mailarchive.ietf.org/arch/msg/babel/7RRMICjgCSxEkQyi6igE1Ezq7Rc/
+    - date: '2016-08-01'
+      subject: '[babel] Draft minutes from Berlin uploaded'
+      url: https://mailarchive.ietf.org/arch/msg/babel/GlErCeBzMpbrhN5yfOQamAWYG70/
+    - date: '2016-12-28'
+      subject: '[babel] Draft minutes from Seoul uploaded'
+      url: https://mailarchive.ietf.org/arch/msg/babel/LjuO-8z4RbLajVzUYe3DD0OzeiQ/
+    - date: '2017-07-18'
+      subject: '[babel] Call for WG adoption of draft-boutier-babel-source-specific'
+      url: https://mailarchive.ietf.org/arch/msg/babel/3Nxc4GfFuJO7YdOzxDW6mIBNJQ8/
+    - date: '2017-10-30'
+      subject: '[babel] WG Last Call on draft-ietf-babel-rfc6126bis-04.txt (10/29 - 11/17)'
+      url: https://mailarchive.ietf.org/arch/msg/babel/Yc_xYy1nxq2Uio4JgSIFczgmUr8/
   - kind: shepherded
     documents:
     - draft-ietf-babel-applicability

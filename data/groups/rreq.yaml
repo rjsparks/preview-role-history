@@ -18,6 +18,15 @@ chairs:
     end:
       certainty: group-closed
       date: '1995-05-23'
+  evidence:
+  - kind: chair activity
+    first: '1995-04-04'
+    last: '1995-04-04'
+    messages: 1
+    examples:
+    - date: '1995-04-04'
+      subject: RREQ minutes
+      url: https://mailarchive.ietf.org/arch/msg/rreq/mQzMuUJix0BdnZPsY8JG8lWW6yw/
 - person: 123360
   name: Frank Kastenholz
   status: confirmed

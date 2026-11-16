@@ -39,6 +39,18 @@ chairs:
       certainty: between
       not_before: '2011-12-09'
       not_after: '2019-02-12'
+  evidence:
+  - kind: chair activity
+    first: '2012-08-10'
+    last: '2021-09-21'
+    messages: 4
+    examples:
+    - date: '2012-08-10'
+      subject: Draft Routing Area Meeting minutes from Vancouver
+      url: https://mailarchive.ietf.org/arch/msg/routing-discussion/KwAlagU3G0BVIRF2p4EV4K7q3lw/
+    - date: '2013-03-21'
+      subject: Routing Area meeting minutes
+      url: https://mailarchive.ietf.org/arch/msg/routing-discussion/LkCD7DlYMdO8_iR2JrR1fM8iJCw/
 - person: 105906
   name: Jim Guichard
   status: confirmed
@@ -102,11 +114,22 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2006-11-05'
+      not_after: '2006-07-31'
     end:
       certainty: evidence-only
       not_before: '2007-03-18'
   evidence:
+  - kind: chair activity
+    first: '2006-07-31'
+    last: '2006-10-25'
+    messages: 3
+    examples:
+    - date: '2006-07-31'
+      subject: Minutes for IETF-66 Routing Area Open Meeting
+      url: https://mailarchive.ietf.org/arch/msg/routing-discussion/o4T9AOtvx7IXG1Uc8evFQ5s4UEE/
+    - date: '2006-09-25'
+      subject: Call for agenda topics for IETF-67
+      url: https://mailarchive.ietf.org/arch/msg/routing-discussion/-rjWP0-ABEtw998UBi5aszMJ5EA/
   - kind: session requests
     meetings:
     - '67'

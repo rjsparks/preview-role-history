@@ -41,6 +41,26 @@ chairs:
     date: '2011-11-07'
     subject: 'WG Action: RECHARTER: IP Flow Information Export (ipfix)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/DE8i551vvE_eEb9jP3Ql8SQPtSA/
+  - kind: chair activity
+    first: '2002-03-09'
+    last: '2014-04-15'
+    messages: 73
+    examples:
+    - date: '2002-03-09'
+      subject: '[ipfix] Agenda for the Minneapolis meeting'
+      url: https://mailarchive.ietf.org/arch/msg/ipfix/jodfMtpertWiAjWzevmFsA8EJbg/
+    - date: '2002-07-03'
+      subject: '[ipfix] IPFIX WG agenda for Yokohama IETF'
+      url: https://mailarchive.ietf.org/arch/msg/ipfix/8sYtAjvxRAKQj5_N0GGz7VO1JUo/
+    - date: '2003-02-04'
+      subject: '[ipfix] WG Last Call for Requirements I-D'
+      url: https://mailarchive.ietf.org/arch/msg/ipfix/Szyujk3fHZRE5Q1q8epBxZSE77M/
+    - date: '2007-08-22'
+      subject: '[IPFIX] WG Last Call for Protocol-25 draft'
+      url: https://mailarchive.ietf.org/arch/msg/ipfix/zVaN1Sool_UAYGzvYWXUlJ9asRk/
+    - date: '2007-10-18'
+      subject: '[IPFIX] WG Last Call for draft-ietf-ipfix-testing-02'
+      url: https://mailarchive.ietf.org/arch/msg/ipfix/IfBerF6jsYE_U-diJH1FogCil7Q/
   - kind: session requests
     meetings:
     - '65'
@@ -61,13 +81,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2007-03-18'
+      date: '2006-11-13'
       not_before: '2001-08-17'
     end:
       certainty: group-closed
       date: '2015-03-16'
     notes:
     - start moved earlier by session request for IETF 68
+    - widened to cover last calls and adoption calls on the group list
   evidence:
   - kind: WG Review
     date: '2007-11-08'
@@ -81,6 +102,26 @@ chairs:
     date: '2011-11-07'
     subject: 'WG Action: RECHARTER: IP Flow Information Export (ipfix)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/DE8i551vvE_eEb9jP3Ql8SQPtSA/
+  - kind: chair activity
+    first: '2004-03-10'
+    last: '2014-01-28'
+    messages: 18
+    examples:
+    - date: '2004-03-10'
+      subject: '[ipfix] draft minutes of Seoul session'
+      url: https://mailarchive.ietf.org/arch/msg/ipfix/uw_3VCbYJPKcQO4syRvyMU1c77A/
+    - date: '2006-10-25'
+      subject: '[IPFIX] draft agenda for San Diego'
+      url: https://mailarchive.ietf.org/arch/msg/ipfix/3XRje43VNQykyeu9R9fnH-rtbJ0/
+    - date: '2006-11-13'
+      subject: '[IPFIX] WG last call on draft-ietf-ipfix-reducing-redundancy-01.txt until December 1st'
+      url: https://mailarchive.ietf.org/arch/msg/ipfix/uMV-t1wKtHd42jGo390m42BBrTE/
+    - date: '2007-12-05'
+      subject: '[IPFIX] WG last call on IPFIX MIB'
+      url: https://mailarchive.ietf.org/arch/msg/ipfix/yo_ySL0Q6EXctj0P-bVSC5MHq98/
+    - date: '2008-07-31'
+      subject: '[IPFIX] WG last call on draft-ietf-ipfix-export-per-sctp-stream-00'
+      url: https://mailarchive.ietf.org/arch/msg/ipfix/c72GARcIqZGIoyh0ywDtK97uiEk/
   - kind: session requests
     meetings:
     - '68'
@@ -126,3 +167,14 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/ipfix/OiD14NNnEKd8LnucJAjV1RPDYvM/
     excerpt: Juergen opened the meeting by thanking Dave Plonka for the five years work he has done as
       co-chair of IPFIX.
+  - kind: chair activity
+    first: '2001-12-13'
+    last: '2006-03-23'
+    messages: 15
+    examples:
+    - date: '2001-12-13'
+      subject: '[ipfix] DRAFT IPFIX WG minutes, IETF52'
+      url: https://mailarchive.ietf.org/arch/msg/ipfix/-LloWh7BL7w2wxiCAxMlkeSrD68/
+    - date: '2001-12-14'
+      subject: '[ipfix] IPFIX slides, minutes, etc. from IETF52'
+      url: https://mailarchive.ietf.org/arch/msg/ipfix/s0VHIUMQKDLpxAvPL-VWoJbdTHo/

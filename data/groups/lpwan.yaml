@@ -18,6 +18,15 @@ chairs:
     end:
       certainty: exact
       date: '2016-06-10'
+  evidence:
+  - kind: chair activity
+    first: '2016-04-07'
+    last: '2016-04-07'
+    messages: 1
+    examples:
+    - date: '2016-04-07'
+      subject: '[lp-wan] presentations updated, draft minutes uploaded'
+      url: https://mailarchive.ietf.org/arch/msg/lp-wan/cihGlfM8jhCx0K5dZI7T6SihztI/
 - person: 115824
   name: Pascal Thubert
   status: confirmed
@@ -37,6 +46,26 @@ chairs:
     date: '2020-03-16'
     subject: 'WG Action: Rechartered IPv6 over Low Power Wide-Area Networks (lpwan)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/jPe_5XB0RFPOawatee4dYowjV0g/
+  - kind: chair activity
+    first: '2016-07-18'
+    last: '2023-06-13'
+    messages: 83
+    examples:
+    - date: '2016-07-18'
+      subject: '[lp-wan] Minutes, IETF 96 LPWAN WG-forming BoF Meeting'
+      url: https://mailarchive.ietf.org/arch/msg/lp-wan/xv3OwnGTfOnUnIG_0iXs5GKj7GU/
+    - date: '2017-04-25'
+      subject: '[lp-wan] Agenda for LPWAN WG Interim, Wed. 2017-04-26'
+      url: https://mailarchive.ietf.org/arch/msg/lp-wan/CYyJdpJhDUYgsg9c-nJk5a6XhFk/
+    - date: '2017-12-22'
+      subject: '[lp-wan] WGLC on SCHC for IPv6 and UDP'
+      url: https://mailarchive.ietf.org/arch/msg/lp-wan/teYBgX_wMygf96iDA0snm9kyWBo/
+    - date: '2020-04-22'
+      subject: '[lp-wan] WGLC for draft-ietf-lpwan-schc-over-lorawan-07.txt'
+      url: https://mailarchive.ietf.org/arch/msg/lp-wan/cGzIi8M5iMdZpTuLiZ31sUIPdSk/
+    - date: '2021-05-10'
+      subject: '[lp-wan] Call for adoption of the SCHC architecture / framework'
+      url: https://mailarchive.ietf.org/arch/msg/lp-wan/KPOlfqaVzjfzidfMEWHcUE40GLg/
   - kind: shepherded
     documents:
     - draft-ietf-lpwan-coap-static-context-hc
@@ -62,6 +91,26 @@ chairs:
     date: '2020-03-16'
     subject: 'WG Action: Rechartered IPv6 over Low Power Wide-Area Networks (lpwan)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/jPe_5XB0RFPOawatee4dYowjV0g/
+  - kind: chair activity
+    first: '2016-06-03'
+    last: '2024-07-08'
+    messages: 126
+    examples:
+    - date: '2016-06-03'
+      subject: '[lp-wan] Draft agenda for the BoF in Berlin'
+      url: https://mailarchive.ietf.org/arch/msg/lp-wan/78hXvTWwj9oQiargFXBd5BsVLdc/
+    - date: '2016-11-01'
+      subject: '[lp-wan] Updated agenda for IETF 97 (v01)'
+      url: https://mailarchive.ietf.org/arch/msg/lp-wan/kuRMy0TAqxuB_9R5SfhGmAm6eOY/
+    - date: '2017-06-19'
+      subject: '[lp-wan] WGLC on LPWAN Overview draft'
+      url: https://mailarchive.ietf.org/arch/msg/lp-wan/PSaeVVG_zc0Yn2A3HZ7Q2ub-n6A/
+    - date: '2019-03-27'
+      subject: '[lp-wan] Call for adoption of 4 (!) drafts as WG items - ends April 12th'
+      url: https://mailarchive.ietf.org/arch/msg/lp-wan/iEv_hsjtTf3drYLAew7Z_r_FtSU/
+    - date: '2019-05-28'
+      subject: '[lp-wan] WGLC on SCHC for CoAP'
+      url: https://mailarchive.ietf.org/arch/msg/lp-wan/0qw1s-DgniVca6v0NhOuJ7EnDJI/
   - kind: shepherded
     documents:
     - draft-ietf-lpwan-overview

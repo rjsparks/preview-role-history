@@ -30,6 +30,26 @@ chairs:
     date: '2012-05-15'
     subject: 'WG Action: Web Extensible Internet Registration Data Service (weirds)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/-rWbTOUb28Vmr-_rIWpCdF8OW7Q/
+  - kind: chair activity
+    first: '2012-04-27'
+    last: '2014-09-05'
+    messages: 20
+    examples:
+    - date: '2012-04-27'
+      subject: '[weirds] Minutes or notes from Paris meeting?'
+      url: https://mailarchive.ietf.org/arch/msg/weirds/pkyg9fh--gR-VQYJq7h6exLDrC4/
+    - date: '2012-08-05'
+      subject: '[weirds] Minutes from IETF 84 WEIRDS meeting'
+      url: https://mailarchive.ietf.org/arch/msg/weirds/zYuFgf3jm50A0-JI0vzYeZV4X1M/
+    - date: '2013-03-27'
+      subject: '[weirds] Working Group Last Call: draft-ietf-weirds-using-http'
+      url: https://mailarchive.ietf.org/arch/msg/weirds/1F94mzK0fEVzr4FQSeYBGgg7hds/
+    - date: '2013-04-02'
+      subject: '[weirds] Call for adoption: draft-zhou-weirds-dnrd-ap-object-inventory'
+      url: https://mailarchive.ietf.org/arch/msg/weirds/EGjbMhqqYapw_pB1SO4aYKUomkE/
+    - date: '2013-04-12'
+      subject: '[weirds] Working Group Last Call: draft-ietf-weirds-rdap-sec'
+      url: https://mailarchive.ietf.org/arch/msg/weirds/gBIOyN849nDo8UNFUnPMqj4eveE/
   - kind: shepherded
     documents:
     - draft-ietf-weirds-json-response
@@ -49,6 +69,18 @@ chairs:
       certainty: between
       not_before: '2012-02-23'
       not_after: '2015-03-25'
+  evidence:
+  - kind: chair activity
+    first: '2011-10-14'
+    last: '2011-12-16'
+    messages: 2
+    examples:
+    - date: '2011-10-14'
+      subject: '[weirds] BOF slot on draft agenda'
+      url: https://mailarchive.ietf.org/arch/msg/weirds/uAyPtO3j86kJwe29q-G_9HAuIGM/
+    - date: '2011-12-16'
+      subject: '[weirds] Minutes uploaded'
+      url: https://mailarchive.ietf.org/arch/msg/weirds/_EDIberOwCAcOX1CKU93_GUBqMA/
 - person: 117929
   name: Olaf Kolkman
   status: confirmed
@@ -56,12 +88,25 @@ chairs:
   - start:
       certainty: between
       not_before: '2012-02-23'
-      not_after: '2015-03-25'
+      not_after: '2013-06-25'
     end:
       certainty: group-closed
       date: '2015-03-25'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
   evidence:
   - kind: WG Action
     date: '2012-05-15'
     subject: 'WG Action: Web Extensible Internet Registration Data Service (weirds)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/-rWbTOUb28Vmr-_rIWpCdF8OW7Q/
+  - kind: chair activity
+    first: '2012-07-26'
+    last: '2013-06-25'
+    messages: 2
+    examples:
+    - date: '2012-07-26'
+      subject: '[weirds] Updated Agenda for WEIRDS IETF 84'
+      url: https://mailarchive.ietf.org/arch/msg/weirds/0MuDBOq0BOAadazx_qjRCaVugNM/
+    - date: '2013-06-25'
+      subject: '[weirds] WGLC: draft-ietf-weirds-rdap-query-05'
+      url: https://mailarchive.ietf.org/arch/msg/weirds/xn-r9mcCi5sti7C16ZZblJbhW4w/

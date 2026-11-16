@@ -18,3 +18,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2002-03-22'
+  evidence:
+  - kind: chair activity
+    first: '1995-06-09'
+    last: '1999-11-12'
+    messages: 9
+    examples:
+    - date: '1995-06-09'
+      subject: Agenda for 33rd IETF
+      url: https://mailarchive.ietf.org/arch/msg/run/_mxdl7M65DV6L4fCHT0tCjBAHgc/
+    - date: '1995-07-07'
+      subject: Revised agenda for 33rd IETF
+      url: https://mailarchive.ietf.org/arch/msg/run/5Mgk7pmOiVIJSFRyTkJSnRSpOZM/

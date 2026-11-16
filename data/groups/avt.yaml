@@ -13,10 +13,10 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2003-10-08'
+      not_after: '2001-07-20'
     end:
       certainty: evidence-only
-      not_before: '2007-10-23'
+      not_before: '2008-08-12'
   evidence:
   - kind: WG Action
     date: '2003-10-08'
@@ -41,6 +41,26 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/avt/lIja-2UUgLcTOl4QqbOzIw7t8VU/
     excerpt: Colin Perkins announced that Magnus Westerlund will step down as AVT co-chair within a few
       weeks and thanked him for his contributions.
+  - kind: chair activity
+    first: '2001-07-20'
+    last: '2008-08-12'
+    messages: 56
+    examples:
+    - date: '2001-07-20'
+      subject: '[AVT] Last call for AVT agenda items'
+      url: https://mailarchive.ietf.org/arch/msg/avt/axE1w4LJslUnxZCpOi2EP2hOKaE/
+    - date: '2001-07-31'
+      subject: '[AVT] Revised AVT agenda for London'
+      url: https://mailarchive.ietf.org/arch/msg/avt/TMeAVKbjU2yRPyEq9d7q1t_9fzg/
+    - date: '2002-03-01'
+      subject: '[AVT] Working group last call: draft-ietf-avt-evrc-smv-00.txt'
+      url: https://mailarchive.ietf.org/arch/msg/avt/X5rXekL2jy8bTjZYfy1OExT4uLs/
+    - date: '2002-07-02'
+      subject: '[AVT] Working group last call: draft-ietf-avt-mpeg4-simple-04.txt'
+      url: https://mailarchive.ietf.org/arch/msg/avt/RxqkgaxHARWJM1uo8XXBQoLD_V8/
+    - date: '2002-10-09'
+      subject: '[AVT] Working group last call: DSR and SMPTE292 payload formats'
+      url: https://mailarchive.ietf.org/arch/msg/avt/sb8EfOxbP4B0A89SEXiHdH-paAs/
 - person: 100754
   name: Tom Taylor
   status: unconfirmed
@@ -87,10 +107,10 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2003-10-08'
+      not_after: '2003-09-17'
     end:
       certainty: evidence-only
-      not_before: '2006-07-09'
+      not_before: '2011-01-28'
   evidence:
   - kind: WG Action
     date: '2003-10-08'
@@ -107,6 +127,26 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/avt/lIja-2UUgLcTOl4QqbOzIw7t8VU/
     excerpt: Colin Perkins announced that Magnus Westerlund will step down as AVT co-chair within a few
       weeks and thanked him for his contributions.
+  - kind: chair activity
+    first: '2003-09-17'
+    last: '2011-01-28'
+    messages: 21
+    examples:
+    - date: '2003-09-17'
+      subject: '[AVT] Working group last call: draft-ietf-avt-rtp-clearmode-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/avt/NGLT7fi4_Kiv50lYkv4F0jnGPSg/
+    - date: '2004-02-02'
+      subject: '[AVT] WG Last Call: draft-ietf-avt-uncomp-video-05.txt'
+      url: https://mailarchive.ietf.org/arch/msg/avt/fWJebcB0HBTjpv88kiLUdJQO7Uk/
+    - date: '2004-03-25'
+      subject: '[AVT] WG Last Call: draft-ietf-avt-text-red-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/avt/BcyQKJe_881iC9_85DZf1J8VuF4/
+    - date: '2004-03-26'
+      subject: '[AVT] AVT WG Minutes from IEFT 59 in Seoul'
+      url: https://mailarchive.ietf.org/arch/msg/avt/rlIBb6QctKFGMKJn_OH0NCb6iY4/
+    - date: '2004-04-02'
+      subject: '[AVT] IETF 59 AVT minutes'
+      url: https://mailarchive.ietf.org/arch/msg/avt/DaQKxTUD6NXfTvgSn-zTUTbsfo8/
   - kind: session requests
     meetings:
     - '65'
@@ -153,6 +193,26 @@ chairs:
     date: '2010-02-09'
     subject: 'WG Action: RECHARTER: Audio/Video Transport (avt)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/avYDUSMF_a-LgcT_BD5RB2izFa0/
+  - kind: chair activity
+    first: '2008-08-23'
+    last: '2010-11-23'
+    messages: 27
+    examples:
+    - date: '2008-08-23'
+      subject: '[AVT] WGLC on draft-ietf-avt-rtp-g719-00'
+      url: https://mailarchive.ietf.org/arch/msg/avt/sLsuZ6EMcbTdEiGoXBPo05Rj-A8/
+    - date: '2008-09-18'
+      subject: '[AVT] WGLC on draft-ietf-avt-rtp-g719-02'
+      url: https://mailarchive.ietf.org/arch/msg/avt/89WHDZXseS1rcVvEa4f68wGBXFs/
+    - date: '2008-09-21'
+      subject: '[AVT] WGLC on draft-ietf-avt-post-repair-rtcp-xr-01'
+      url: https://mailarchive.ietf.org/arch/msg/avt/bZIVmXvtw5v7SRvfZdQaVgPa5VY/
+    - date: '2009-03-10'
+      subject: '[AVT] Agenda for AVT session in SF (draft)'
+      url: https://mailarchive.ietf.org/arch/msg/avt/mEQ8ul6C3x616g2aZAnbg7kn2jY/
+    - date: '2009-03-16'
+      subject: '[AVT] Updated agenda for IETF 74'
+      url: https://mailarchive.ietf.org/arch/msg/avt/aNGCh3xB2MKOG1KZ_j6KkIA08qs/
   - kind: session requests
     meetings:
     - '68'

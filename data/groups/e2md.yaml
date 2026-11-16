@@ -17,6 +17,18 @@ chairs:
     end:
       certainty: group-closed
       date: '2014-02-04'
+  evidence:
+  - kind: chair activity
+    first: '2010-03-26'
+    last: '2010-03-29'
+    messages: 2
+    examples:
+    - date: '2010-03-26'
+      subject: '[e2md] Draft minutes for E2MD BOF'
+      url: https://mailarchive.ietf.org/arch/msg/e2md/r5BD64EP-WMpeoR5YtZYvBrjEJE/
+    - date: '2010-03-29'
+      subject: '[e2md] Revised draft minutes of E2MD BOF at IETF 77'
+      url: https://mailarchive.ietf.org/arch/msg/e2md/KLE81IuSD7WY45Vhol69TrCQrhc/
 - person: 109505
   name: Bernie Hoeneisen
   status: confirmed
@@ -27,3 +39,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2014-02-04'
+  evidence:
+  - kind: chair activity
+    first: '2010-04-06'
+    last: '2010-07-17'
+    messages: 4
+    examples:
+    - date: '2010-04-06'
+      subject: '[e2md] Can we declare the BoF minutes final?'
+      url: https://mailarchive.ietf.org/arch/msg/e2md/ayLlpJuIEIeq2tlY33ldhr30b4E/
+    - date: '2010-04-26'
+      subject: '[e2md] Rough minutes of today''s conf call'
+      url: https://mailarchive.ietf.org/arch/msg/e2md/TXFmgMaWUU2RB73FjUSXEokkgzI/

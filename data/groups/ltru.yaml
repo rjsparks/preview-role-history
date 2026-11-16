@@ -33,19 +33,40 @@ chairs:
     date: '2006-09-06'
     subject: 'WG Action: RECHARTER: Language Tag Registry Update (ltru)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/j0bUWlJgO4kmQSFCwCwIqz-e4Eg/
+  - kind: chair activity
+    first: '2005-05-18'
+    last: '2005-08-26'
+    messages: 13
+    examples:
+    - date: '2005-05-18'
+      subject: '[Ltru] completed milestone for ltru charter'
+      url: https://mailarchive.ietf.org/arch/msg/ltru/WyjCKua2rhtBHSXq6YlKPp4M9fg/
+    - date: '2005-07-15'
+      subject: '[Ltru] [psg.com #1075] WGLC section 3.6 specification requirements for extensions'
+      url: https://mailarchive.ietf.org/arch/msg/ltru/MI5FF4AXPrkfC2o81EiaYiuMJZQ/
+    - date: '2005-07-15'
+      subject: '[Ltru] [psg.com #1073] WGLC add IANA adaptation of "UN disclaimer"'
+      url: https://mailarchive.ietf.org/arch/msg/ltru/-XzrVzDMZGoFAg6U2DqRKYJYLww/
+    - date: '2005-08-02'
+      subject: '[Ltru] [psg.com #1092] WGLC treat 0- as escape from syntax'
+      url: https://mailarchive.ietf.org/arch/msg/ltru/8XS6_O9iyGd_mCPoVz3W4r3X9Ng/
+    - date: '2005-08-15'
+      subject: '[Ltru] LTRU Milestones past due'
+      url: https://mailarchive.ietf.org/arch/msg/ltru/oEIQESZrdFes1cSDjCcyHkccFyw/
 - person: 18880
   name: Martin Dürst
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-09-06'
+      date: '2006-03-09'
       not_before: '2005-02-08'
     end:
       certainty: group-closed
       date: '2009-11-30'
     notes:
     - start moved earlier by WG Action announcement of 2006-09-06
+    - widened to cover last calls and adoption calls on the group list
   evidence:
   - kind: WG Review
     date: '2006-08-22'
@@ -55,3 +76,20 @@ chairs:
     date: '2006-09-06'
     subject: 'WG Action: RECHARTER: Language Tag Registry Update (ltru)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/j0bUWlJgO4kmQSFCwCwIqz-e4Eg/
+  - kind: chair activity
+    first: '2006-03-09'
+    last: '2008-09-20'
+    messages: 4
+    examples:
+    - date: '2006-03-09'
+      subject: '[Ltru] WG last call for draft-ietf-ltru-matching'
+      url: https://mailarchive.ietf.org/arch/msg/ltru/7tY6jWyU77boChp6c92WYWNH0zw/
+    - date: '2007-03-23'
+      subject: '[Ltru] WG milestones'
+      url: https://mailarchive.ietf.org/arch/msg/ltru/UfivIsI-r7xFVJr58hmDrVQwbN4/
+    - date: '2008-01-22'
+      subject: '[Ltru] Update of milestones'
+      url: https://mailarchive.ietf.org/arch/msg/ltru/Dnt5zFe-FDwEnu30sb1Hll6pd2M/
+    - date: '2008-09-20'
+      subject: '[Ltru] WG Last Call for draft-ietf-ltru-4646bis-17.txt'
+      url: https://mailarchive.ietf.org/arch/msg/ltru/L6ICLFCpU3rMWOAAW_bYVOLxyrs/

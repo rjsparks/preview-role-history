@@ -17,6 +17,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2014-09-04'
+  evidence:
+  - kind: chair activity
+    first: '2009-11-20'
+    last: '2009-11-20'
+    messages: 1
+    examples:
+    - date: '2009-11-20'
+      subject: '[grobj] draft GROBJ minutes posted'
+      url: https://mailarchive.ietf.org/arch/msg/grobj/bFBRwZdNb7LPbLyZX-XgfDBPANg/
 - person: 108054
   name: Sheng Jiang
   status: confirmed

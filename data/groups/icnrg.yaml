@@ -18,6 +18,26 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: chair activity
+    first: '2014-03-02'
+    last: '2026-08-08'
+    messages: 49
+    examples:
+    - date: '2014-03-02'
+      subject: '[icnrg] ICNRG Interim Meeting Room at Hilton'
+      url: https://mailarchive.ietf.org/arch/msg/icnrg/veTGbGLwFKDkm4efKNSw7gW5-jA/
+    - date: '2014-03-04'
+      subject: '[icnrg] Draft minutes from ICNRG Meeting Monday March 3, at IETF-89'
+      url: https://mailarchive.ietf.org/arch/msg/icnrg/TXn4Y14Z2BnxnrsvX-BH7HbLs9o/
+    - date: '2016-01-20'
+      subject: '[icnrg] Call for adoption of draft-seedorf-icn-disaster-05'
+      url: https://mailarchive.ietf.org/arch/msg/icnrg/E-pAxrk5w7veVjZ3TdWoC9ORZgs/
+    - date: '2017-06-15'
+      subject: '[icnrg] Call for adoption of FLIC Draft as ICNRG working document'
+      url: https://mailarchive.ietf.org/arch/msg/icnrg/LFabW2cOh5p7IrXilp3CFDVKEXg/
+    - date: '2024-11-06'
+      subject: '[icnrg] Adoption call for CCNx Chunking draft'
+      url: https://mailarchive.ietf.org/arch/msg/icnrg/5cDueSNvD_assyZJBk2UWI0gDJo/
   - kind: shepherded
     documents:
     - draft-irtf-icnrg-ccninfo
@@ -40,6 +60,17 @@ chairs:
       certainty: exact
       date: '2020-03-12'
   evidence:
+  - kind: chair activity
+    first: '2012-07-31'
+    last: '2019-11-11'
+    messages: 46
+    examples:
+    - date: '2012-07-31'
+      subject: '[icnrg] IETF 84 - ICNRG Preliminary & Interim Materials'
+      url: https://mailarchive.ietf.org/arch/msg/icnrg/05LNHSMKaSB69EqPDYNw12NTmYA/
+    - date: '2012-10-25'
+      subject: '[icnrg] ICNRG interim meeting planning'
+      url: https://mailarchive.ietf.org/arch/msg/icnrg/iuCjCsW1eBUQ6n_XPuAqdzRbAT8/
   - kind: shepherded
     documents:
     - draft-irtf-icnrg-challenges
@@ -59,6 +90,17 @@ chairs:
     subject: '[icnrg] new ICNRG co-chair Ryo Yanagida'
     url: https://mailarchive.ietf.org/arch/msg/icnrg/n-PPy_JtZ3CENLA62PDWb3QgfvA/
     excerpt: please welcome Ryo Yanagida as a new ICNRG co-chair!
+  - kind: chair activity
+    first: '2026-03-09'
+    last: '2026-11-10'
+    messages: 3
+    examples:
+    - date: '2026-03-09'
+      subject: '[icnrg] ICNRG agenda for IETF125'
+      url: https://mailarchive.ietf.org/arch/msg/icnrg/F6P_EgFoCyVuPq6CJuplg1UWziw/
+    - date: '2026-07-01'
+      subject: '[icnrg] ICNRG Agenda for IETF 126'
+      url: https://mailarchive.ietf.org/arch/msg/icnrg/_4K68_CPZ2j413NQBQQT21gSGZc/
   - kind: shepherded
     documents:
     - draft-irtf-icnrg-ccnxchunking
@@ -74,6 +116,23 @@ chairs:
       certainty: exact
       date: '2026-02-03'
   evidence:
+  - kind: chair activity
+    first: '2012-06-29'
+    last: '2025-03-11'
+    messages: 47
+    examples:
+    - date: '2012-06-29'
+      subject: '[icnrg] IETF-84 draft agenda'
+      url: https://mailarchive.ietf.org/arch/msg/icnrg/1p1cXtuDBJwS63gQndlJvunKoxo/
+    - date: '2012-10-30'
+      subject: '[icnrg] draft agenda for ATL posted'
+      url: https://mailarchive.ietf.org/arch/msg/icnrg/etTwhLZIycR-_86xma8m14r02O4/
+    - date: '2022-10-06'
+      subject: '[icnrg] call for adoption of draft-oran-icnrg-pathsteering'
+      url: https://mailarchive.ietf.org/arch/msg/icnrg/6UV6wfJnK6YLpPDONaEgxyeZVoI/
+    - date: '2023-11-22'
+      subject: '[icnrg] call for adoption of draft-oran-icnrg-reflexive-forwarding'
+      url: https://mailarchive.ietf.org/arch/msg/icnrg/73uTb8cbApON17FoGDLRMDwBAdA/
   - kind: shepherded
     documents:
     - draft-irtf-icnrg-ccnx-timetlv

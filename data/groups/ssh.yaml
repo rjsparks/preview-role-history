@@ -13,8 +13,19 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1999-02-08'
+      date: '1998-10-13'
       not_before: '1994-10-28'
     end:
       certainty: group-closed
       date: '1999-02-08'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
+  evidence:
+  - kind: chair activity
+    first: '1998-10-13'
+    last: '1998-10-13'
+    messages: 1
+    examples:
+    - date: '1998-10-13'
+      subject: Working group last call
+      url: https://mailarchive.ietf.org/arch/msg/ssh/gUPw93tyE51pMTRlQOMfnR4p5dQ/

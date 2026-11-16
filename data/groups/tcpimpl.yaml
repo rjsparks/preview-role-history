@@ -18,6 +18,18 @@ chairs:
     end:
       certainty: group-closed
       date: '2000-10-04'
+  evidence:
+  - kind: chair activity
+    first: '1997-04-02'
+    last: '1998-11-28'
+    messages: 8
+    examples:
+    - date: '1997-04-02'
+      subject: scheduling and agenda for Memphis
+      url: https://mailarchive.ietf.org/arch/msg/tcpimpl/Z9z1eM4lu5I4ikwTjT16v6zn3qY/
+    - date: '1997-08-06'
+      subject: seeking Munich agenda items
+      url: https://mailarchive.ietf.org/arch/msg/tcpimpl/VnZmfKH-Cd5xeGysxjn7HCEjCqc/
 - person: 20580
   name: Mark Allman
   status: confirmed
@@ -29,6 +41,7 @@ chairs:
       certainty: group-closed
       date: '2000-10-04'
     notes:
+    - widened to cover last calls and adoption calls on the group list
     - start dated by list message of 1998-03-10
   evidence:
   - kind: list message
@@ -37,3 +50,20 @@ chairs:
     subject: New co-chair, Mark Allman
     url: https://mailarchive.ietf.org/arch/msg/tcpimpl/10D6bmSKks4mu03zV6Cbnd-z0RI/
     excerpt: Welcome to Mark Allman as the new co-chair!
+  - kind: chair activity
+    first: '1998-03-24'
+    last: '2000-05-15'
+    messages: 5
+    examples:
+    - date: '1998-03-24'
+      subject: Minutes
+      url: https://mailarchive.ietf.org/arch/msg/tcpimpl/7IOIVxPpXlTckbNjGYlSNjg8zpQ/
+    - date: '1998-04-15'
+      subject: 'TCPIMPL: Minutes from LA Meeting'
+      url: https://mailarchive.ietf.org/arch/msg/tcpimpl/XzkNekT32u41HRMg0QS-jD-pm6g/
+    - date: '1998-12-01'
+      subject: WG Last Call for NewReno Draft
+      url: https://mailarchive.ietf.org/arch/msg/tcpimpl/G4F8RB-fwMIFfZbPMFYr12ce-IA/
+    - date: '2000-05-15'
+      subject: WG last call on pmtud doc
+      url: https://mailarchive.ietf.org/arch/msg/tcpimpl/5-CVXssTEm3e97y5AUBS4Wc8qFE/

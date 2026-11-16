@@ -17,6 +17,18 @@ chairs:
     end:
       certainty: exact
       date: '2024-05-03'
+  evidence:
+  - kind: chair activity
+    first: '2024-03-06'
+    last: '2025-06-17'
+    messages: 2
+    examples:
+    - date: '2024-03-06'
+      subject: '[dd] Proposed agenda for the BoF meeting at IETF 119 in Brisbane'
+      url: https://mailarchive.ietf.org/arch/msg/dd/KEKtKpd9N7_r1j7ujmybtS_ZWIE/
+    - date: '2025-06-17'
+      subject: '[dd] Instructions for today''s virtual interim meeting'
+      url: https://mailarchive.ietf.org/arch/msg/dd/yg9k8cQ4Me4G--ZA72NSYbVs40I/
 - person: 20778
   name: Duane Wessels
   status: confirmed
@@ -53,6 +65,20 @@ chairs:
     date: '2024-06-26'
     subject: 'WG Action: Formed DNS Delegation (deleg)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/gVcSU6-PCujcfquFgvBUFL14Vqc/
+  - kind: chair activity
+    first: '2024-06-07'
+    last: '2026-11-08'
+    messages: 19
+    examples:
+    - date: '2024-06-07'
+      subject: '[dd] IETF 120 : Call for agenda topics'
+      url: https://mailarchive.ietf.org/arch/msg/dd/HgQseNOtZsusSlB374qO3Upl2fU/
+    - date: '2024-07-09'
+      subject: '[dd] Preliminary DELEG Agenda for IETF 120'
+      url: https://mailarchive.ietf.org/arch/msg/dd/ECA7cTFdpktvc0Hg3GncTaPN4CY/
+    - date: '2025-04-21'
+      subject: '[dd] Call for Adoption : draft-wesplaap-deleg-02'
+      url: https://mailarchive.ietf.org/arch/msg/dd/St6uqBn5RLVsFMSDCSxZyZMiotQ/
 - person: 117099
   name: Wes Hardaker
   status: confirmed

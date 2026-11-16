@@ -29,6 +29,18 @@ chairs:
     end:
       certainty: group-closed
       date: '2016-02-29'
+  evidence:
+  - kind: chair activity
+    first: '2015-09-07'
+    last: '2016-09-05'
+    messages: 13
+    examples:
+    - date: '2015-09-07'
+      subject: '[Nmlrg] Primary call for agenda - meet in Yokohama, IETF 94'
+      url: https://mailarchive.ietf.org/arch/msg/nmlrg/g2WkIcMvALmGA6HcVp3aXPDlDvQ/
+    - date: '2015-10-08'
+      subject: '[Nmlrg] Call for Agenda NMLRG @IETF94, Yokohama'
+      url: https://mailarchive.ietf.org/arch/msg/nmlrg/6SBe1H6aUh_E0TxjHMIcnhuHbVE/
 - person: 121486
   name: Albert Cabellos
   status: confirmed

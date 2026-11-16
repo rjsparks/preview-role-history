@@ -29,6 +29,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2015-02-10'
+  evidence:
+  - kind: chair activity
+    first: '2014-11-21'
+    last: '2014-11-21'
+    messages: 1
+    examples:
+    - date: '2014-11-21'
+      subject: '[Actn] ACTN minutes available'
+      url: https://mailarchive.ietf.org/arch/msg/actn/fZBfFwydbPlYrRpM3Fz930Llbhs/
 - person: 118347
   name: Young Lee
   status: confirmed
@@ -46,3 +55,12 @@ chairs:
     end:
       certainty: group-closed
       date: '2015-02-10'
+  evidence:
+  - kind: chair activity
+    first: '2014-07-23'
+    last: '2014-07-23'
+    messages: 1
+    examples:
+    - date: '2014-07-23'
+      subject: '[Actn] Agenda for ACTN BoF, 1-3pm, July 24 @ Tudor 7/8'
+      url: https://mailarchive.ietf.org/arch/msg/actn/nsrk7nZWXQOhc04YcK71O1kPS-g/

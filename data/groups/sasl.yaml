@@ -13,14 +13,35 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-11-05'
+      date: '2005-11-28'
       not_before: '2002-11-25'
     end:
       certainty: group-closed
       date: '2010-08-23'
     notes:
     - start moved earlier by session request for IETF 67
+    - widened to cover last calls and adoption calls on the group list
   evidence:
+  - kind: chair activity
+    first: '2005-03-26'
+    last: '2009-08-26'
+    messages: 22
+    examples:
+    - date: '2005-03-26'
+      subject: IETF62 SASL draft minutes 0.1
+      url: https://mailarchive.ietf.org/arch/msg/sasl/y3Ej5jk_JjNFyZZ5xRjRud_EWv4/
+    - date: '2005-08-05'
+      subject: IETF63 SASL WG draft minutes
+      url: https://mailarchive.ietf.org/arch/msg/sasl/u5i_0M-zTSA0A1ub9CIIjwIYbxs/
+    - date: '2005-11-28'
+      subject: 'WG Last Call: Simple Authentication and Security Layer (SASL)'
+      url: https://mailarchive.ietf.org/arch/msg/sasl/40uThM6x7Dm0q-gfBYM1DD8oYe0/
+    - date: '2007-03-09'
+      subject: 'WG Last Call: draft-ietf-sasl-crammd5-08.txt'
+      url: https://mailarchive.ietf.org/arch/msg/sasl/kx_pMAGe-naJ7uoOze2E6EIuLmA/
+    - date: '2007-12-06'
+      subject: 'Working Group Last Call: draft-melnikov-digest-to-historic-00.txt'
+      url: https://mailarchive.ietf.org/arch/msg/sasl/qxqTtuwb5euzSE4oWzZEyVcl-ko/
   - kind: session requests
     meetings:
     - '67'
@@ -41,9 +62,9 @@ chairs:
       not_after: '2002-12-19'
     end:
       certainty: approximate
-      date: '2004-11-11'
+      date: '2004-12-10'
     notes:
-    - end dated by list message of 2004-11-11
+    - end dated by list message of 2004-12-10
   evidence:
   - kind: WG Action
     date: '2002-12-19'
@@ -62,6 +83,20 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/sasl/qaFmRKPBi3ayhzlEEV5DiUFpcT8/
     excerpt: It was noted that Sam Hartman would be stepping down as stepping down as co-chair after the
       session as he accepted an appointment to the IESG.
+  - kind: chair activity
+    first: '2003-03-31'
+    last: '2004-08-29'
+    messages: 10
+    examples:
+    - date: '2003-03-31'
+      subject: Draft minutes for IETF 56 SASL working group meeting
+      url: https://mailarchive.ietf.org/arch/msg/sasl/ElIzO3ApaDyoBTbYHEq8m9Ibg3o/
+    - date: '2003-04-04'
+      subject: Minutes for SASL working group at IETF 56
+      url: https://mailarchive.ietf.org/arch/msg/sasl/upyP2VkmrhpU0KhCYkDT7Xr1uPs/
+    - date: '2003-09-22'
+      subject: 'WG Last Call: draft-ietf-sasl-saslprep-03'
+      url: https://mailarchive.ietf.org/arch/msg/sasl/I_3mO_bGa_uFBa9dAbfLb8rym5w/
 - person: 103904
   name: Kurt Zeilenga
   status: confirmed
@@ -80,6 +115,26 @@ chairs:
     date: '2002-12-19'
     subject: 'WG Action: Simple Authentication and Security Layer (sasl)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/XgtwlUJoll0ly8suuEqtjvu8Hqs/
+  - kind: chair activity
+    first: '2003-03-10'
+    last: '2007-03-06'
+    messages: 13
+    examples:
+    - date: '2003-03-10'
+      subject: Agenda items for IETF#56
+      url: https://mailarchive.ietf.org/arch/msg/sasl/zYsRwD6QrOab4UYHcQF9OE8E4_E/
+    - date: '2003-09-15'
+      subject: 'WG Last Call: draft-ietf-sasl-rfc2222bis-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/sasl/ngU8R0ZB4B2OBCaRzJt9Y28QrAY/
+    - date: '2003-12-04'
+      subject: Proposed new slate of milestones for SASL WG
+      url: https://mailarchive.ietf.org/arch/msg/sasl/JltPRhW0vntydtoHpf0NVyZNxU0/
+    - date: '2004-07-21'
+      subject: 'WG Last Call: draft-ietf-sasl-rfc2222bis-08.txt [Corrected]'
+      url: https://mailarchive.ietf.org/arch/msg/sasl/IB5wL7qODAiXzO7ujI7xZTfjwGs/
+    - date: '2004-07-21'
+      subject: 'WG Last Call: draft-ietf-sasl-rfc2222bis-08.txt'
+      url: https://mailarchive.ietf.org/arch/msg/sasl/dZ5vhi4yNaBuN-sZFODi5-1iirg/
   - kind: session requests
     meetings:
     - '65'

@@ -27,3 +27,12 @@ chairs:
     end:
       certainty: group-closed
       date: '2024-09-27'
+  evidence:
+  - kind: chair activity
+    first: '2024-03-26'
+    last: '2024-03-26'
+    messages: 1
+    examples:
+    - date: '2024-03-26'
+      subject: '[Sadcdn] Minutes posted'
+      url: https://mailarchive.ietf.org/arch/msg/sadcdn/BEfkLOadmzf-UdpM5JOnXqb5L_E/

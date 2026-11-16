@@ -26,6 +26,17 @@ chairs:
     subject: '[VRRP] New WG co-chair'
     url: https://mailarchive.ietf.org/arch/msg/vrrp/e6EqhU3AMqvBZX3Fhm7hqUm4bT0/
     excerpt: Please welcome Radia Perlman as the new co-chair for VRRP.
+  - kind: chair activity
+    first: '2003-06-23'
+    last: '2003-07-29'
+    messages: 2
+    examples:
+    - date: '2003-06-23'
+      subject: '[VRRP] Need agenda items for the IETF meeting'
+      url: https://mailarchive.ietf.org/arch/msg/vrrp/iakP5P5Lc9-AbqQK_dfATemb8lU/
+    - date: '2003-07-29'
+      subject: '[VRRP] (re)post of minutes of VRRP WG, 7/16/2003, (this time without slides attached)'
+      url: https://mailarchive.ietf.org/arch/msg/vrrp/m6JITfGfSBzY30vXXN9RS4hbwCs/
 - person: 105893
   name: Mukesh Gupta
   status: confirmed
@@ -37,6 +48,7 @@ chairs:
       certainty: group-closed
       date: '2011-06-14'
     notes:
+    - widened to cover last calls and adoption calls on the group list
     - start dated by list message of 2002-11-06
   evidence:
   - kind: list message
@@ -46,3 +58,23 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/vrrp/sZgyARhJius9Y_39s-kwIHYTscw/
     excerpt: It is my pleasure to announce that we have selected Mukesh Gupta as the new WG chair for
       VRRP.
+  - kind: chair activity
+    first: '2003-02-25'
+    last: '2010-03-05'
+    messages: 15
+    examples:
+    - date: '2003-02-25'
+      subject: '[VRRP] Agenda items for the WG meeting.'
+      url: https://mailarchive.ietf.org/arch/msg/vrrp/hjkZVT_ahPLX-Jv38NzQ_CroI3A/
+    - date: '2003-03-06'
+      subject: '[VRRP] Agenda for IETF 56, San Francisco'
+      url: https://mailarchive.ietf.org/arch/msg/vrrp/8boGJbnVDkLUISWdLGYRPIgi0kc/
+    - date: '2003-07-22'
+      subject: '[VRRP] Working Group Last Call for draft-ietf-vrrp-spec-v2-08.txt'
+      url: https://mailarchive.ietf.org/arch/msg/vrrp/xppALmXRANgJ2u5xwMvodHtyEYI/
+    - date: '2008-03-30'
+      subject: '[VRRP] WG Last Call for draft-ietf-vrrp-unified-spec-01.txt'
+      url: https://mailarchive.ietf.org/arch/msg/vrrp/1FrnMtuiEbZkXvcoONfUVYtIdpc/
+    - date: '2010-03-05'
+      subject: '[VRRP] Working Group Last Call for draft-ietf-vrrp-unified-mib-07.txt'
+      url: https://mailarchive.ietf.org/arch/msg/vrrp/L5Cox4Ox98jcshCFRI7azNSMn6g/

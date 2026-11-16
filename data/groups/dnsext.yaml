@@ -65,6 +65,26 @@ chairs:
     date: '2011-03-08'
     subject: 'WG Action: RECHARTER: DNS Extensions (dnsext)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/lioxTqs5-kYZZzKOpqyL54ddw9s/
+  - kind: chair activity
+    first: '2000-07-10'
+    last: '2012-06-11'
+    messages: 49
+    examples:
+    - date: '2000-07-10'
+      subject: Agenda Items for DNSEXT meeting in Pittsburg
+      url: https://mailarchive.ietf.org/arch/msg/dnsext/8Ptut6wQQgNRSQqAI29UL4ZoO7Q/
+    - date: '2000-07-25'
+      subject: DNSEXT Draft Agenda
+      url: https://mailarchive.ietf.org/arch/msg/dnsext/ssnXHl77DMfmliw5WBNjMNAo0g4/
+    - date: '2000-08-12'
+      subject: 'WG Last Call: RFC2137 to Historic'
+      url: https://mailarchive.ietf.org/arch/msg/dnsext/UsSE6Ss-ssgqL_cW1e1_2kytdC8/
+    - date: '2000-09-08'
+      subject: 'WG Last call: RSA-SHA1'
+      url: https://mailarchive.ietf.org/arch/msg/dnsext/VEeg8FIq-L7iO3tmbF--sJW7Mwk/
+    - date: '2009-03-12'
+      subject: '[dnsext] WGLC: DNS Proxy Implementation Guidelines'
+      url: https://mailarchive.ietf.org/arch/msg/dnsext/pcODeYnuT0dWpzbVFCKkSzfoKWY/
   - kind: session requests
     meetings:
     - '65'
@@ -101,19 +121,37 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/dnsext/Hoi_QS6zMT2Y91feRFMQ7_8hZkM/
     excerpt: Olafur thanked Randy Bush for his long service as WG chair and welcomed Olaf Kolkman as the
       new co-chair.
+  - kind: chair activity
+    first: '2001-09-26'
+    last: '2002-08-13'
+    messages: 5
+    examples:
+    - date: '2001-09-26'
+      subject: wg last call for draft-ietf-dnsext-dhcid-rr-03.txt to ps
+      url: https://mailarchive.ietf.org/arch/msg/dnsext/7P1dvQOSudqVs3BwANZmcFoJwsk/
+    - date: '2001-09-26'
+      subject: wg last call for draft-ietf-dnsext-unknown-rrs-01.txt
+      url: https://mailarchive.ietf.org/arch/msg/dnsext/aedNrHeLw1lm0ZwW25fd07As8jE/
+    - date: '2002-01-13'
+      subject: draft minutes
+      url: https://mailarchive.ietf.org/arch/msg/dnsext/QNkHGrDFNhizPcLVPfi6HAguGuU/
+    - date: '2002-01-15'
+      subject: dnsext minutes
+      url: https://mailarchive.ietf.org/arch/msg/dnsext/mtLD9qE6A1EIp_324I39Ejp3LSc/
 - person: 109178
   name: Andrew Sullivan
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2008-11-16'
+      date: '2008-07-31'
       not_before: '1999-11-16'
     end:
       certainty: group-closed
       date: '2013-07-24'
     notes:
     - start moved earlier by session request for IETF 73
+    - widened to cover last calls and adoption calls on the group list
   evidence:
   - kind: WG Review
     date: '2009-07-07'
@@ -135,6 +173,26 @@ chairs:
     date: '2011-03-08'
     subject: 'WG Action: RECHARTER: DNS Extensions (dnsext)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/lioxTqs5-kYZZzKOpqyL54ddw9s/
+  - kind: chair activity
+    first: '2008-06-13'
+    last: '2012-01-20'
+    messages: 25
+    examples:
+    - date: '2008-06-13'
+      subject: Agenda for IETF 72
+      url: https://mailarchive.ietf.org/arch/msg/dnsext/3_QO-6Cefbo2Adntnsj83vvGhTg/
+    - date: '2008-07-14'
+      subject: Draft agenda for IETF 72 meeting
+      url: https://mailarchive.ietf.org/arch/msg/dnsext/BsC1JV8E2i3gCdLy95dVeZIvdI4/
+    - date: '2008-07-31'
+      subject: Working Group Last Call for draft-ietf-dnsext-rfc2672bis-dname-14
+      url: https://mailarchive.ietf.org/arch/msg/dnsext/EDgd5Jsc05O6KUuGSe1i-hts8wc/
+    - date: '2008-08-14'
+      subject: Working Group Last Call for draft-ietf-dnsext-dnssec-rsasha256-05
+      url: https://mailarchive.ietf.org/arch/msg/dnsext/N5B0VmYToH0Sf2YjDUwCDGbmVZg/
+    - date: '2010-11-25'
+      subject: '[dnsext] WGLC: draft-ietf-dnsext-dnssec-registry-fixes-06'
+      url: https://mailarchive.ietf.org/arch/msg/dnsext/6MMDOw4u75nnv_zC3yxYvt4RWH8/
   - kind: session requests
     meetings:
     - '73'
@@ -152,13 +210,11 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: approximate
-      date: '2003-08-13'
+      certainty: evidence-only
+      not_after: '2003-06-23'
     end:
       certainty: evidence-only
-      not_before: '2006-11-05'
-    notes:
-    - start dated by list message of 2003-08-13
+      not_before: '2007-01-10'
   evidence:
   - kind: WG Action
     date: '2003-10-06'
@@ -179,6 +235,26 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/dnsext/Hoi_QS6zMT2Y91feRFMQ7_8hZkM/
     excerpt: Olafur thanked Randy Bush for his long service as WG chair and welcomed Olaf Kolkman as the
       new co-chair.
+  - kind: chair activity
+    first: '2003-06-23'
+    last: '2007-01-10'
+    messages: 16
+    examples:
+    - date: '2003-06-23'
+      subject: Draft Agenda
+      url: https://mailarchive.ietf.org/arch/msg/dnsext/jBJJghJjOHZfm2bEwX8V9bTg6NY/
+    - date: '2003-12-18'
+      subject: WGLC on DNSSEC bis document set
+      url: https://mailarchive.ietf.org/arch/msg/dnsext/vJlANeYDRybNJw-WwFxV-SfQUWo/
+    - date: '2003-12-22'
+      subject: WGLC for draft-ietf-dnsext-nsec-rdata-03.txt
+      url: https://mailarchive.ietf.org/arch/msg/dnsext/X9LesQ2h_IjwJFfQlSf5Szuoq38/
+    - date: '2004-05-18'
+      subject: 'WG Last Call: DNSSEC bis documents'
+      url: https://mailarchive.ietf.org/arch/msg/dnsext/m2YkddW6Qc1u9kicVf_fsAfcaRA/
+    - date: '2004-07-07'
+      subject: DNSEXT Agenda Items for IETF 60
+      url: https://mailarchive.ietf.org/arch/msg/dnsext/uHTRyhjGVs97xSwsIRpb7x8n6O4/
   - kind: session requests
     meetings:
     - '67'

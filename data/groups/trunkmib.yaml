@@ -13,8 +13,28 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1999-02-15'
+      date: '1996-02-12'
       not_before: '1995-05-04'
     end:
       certainty: group-closed
       date: '1999-02-15'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
+  evidence:
+  - kind: chair activity
+    first: '1995-12-10'
+    last: '1998-06-12'
+    messages: 4
+    examples:
+    - date: '1995-12-10'
+      subject: Trunk MIB Minutes
+      url: https://mailarchive.ietf.org/arch/msg/trunkmib/4VH0aPnyf7zAQzoT5LdMwOxOr3M/
+    - date: '1996-02-12'
+      subject: working group last call on ds0, ds1, and ds3
+      url: https://mailarchive.ietf.org/arch/msg/trunkmib/qVD34fIv4hR0mi2XZWH7vWUZpN0/
+    - date: '1996-06-18'
+      subject: agenda for trunk mib meeting at Montreal
+      url: https://mailarchive.ietf.org/arch/msg/trunkmib/mW76EaRSJScGMTrnEmC9sNN9rVI/
+    - date: '1998-06-12'
+      subject: Working Group Last Call of DS0
+      url: https://mailarchive.ietf.org/arch/msg/trunkmib/EjgiMTpme-Nsb-nd2Utal4V-W4k/

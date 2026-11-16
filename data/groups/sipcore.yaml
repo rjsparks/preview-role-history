@@ -25,6 +25,26 @@ chairs:
     date: '2016-12-02'
     subject: 'WG Action: Rechartered Session Initiation Protocol Core (sipcore)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/dxLUpZitrdsIwKza3_d6eoYKPaY/
+  - kind: chair activity
+    first: '2010-07-14'
+    last: '2017-03-06'
+    messages: 21
+    examples:
+    - date: '2010-07-14'
+      subject: '[sipcore] WGLC: draft-ietf-sipcore-keep'
+      url: https://mailarchive.ietf.org/arch/msg/sipcore/y-DbYRBA0gYQsXKdK1siXszs6bs/
+    - date: '2010-08-04'
+      subject: '[sipcore] Preliminary minutes posted'
+      url: https://mailarchive.ietf.org/arch/msg/sipcore/l6q34uYjUmxdWyoWr_q5SRNQ-Eg/
+    - date: '2010-08-16'
+      subject: '[sipcore] WGLC: draft-ietf-sipcore-rfc4244bis'
+      url: https://mailarchive.ietf.org/arch/msg/sipcore/S4CJZTr2Lvo1IZ3eqROB1KG5o9A/
+    - date: '2010-10-13'
+      subject: '[sipcore] WGLC: draft-ietf-sipcore-sec-flows'
+      url: https://mailarchive.ietf.org/arch/msg/sipcore/uNSpoy8mMELxZul2Ol1tGMMi2gw/
+    - date: '2010-10-25'
+      subject: '[sipcore] Call for agenda items'
+      url: https://mailarchive.ietf.org/arch/msg/sipcore/2MImSP9ktk1UnB-9C2HmWMhGZLc/
   - kind: session requests
     meetings:
     - '75'
@@ -50,6 +70,23 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: chair activity
+    first: '2017-09-19'
+    last: '2023-04-10'
+    messages: 6
+    examples:
+    - date: '2017-09-19'
+      subject: '[sipcore] Call For Adoption draft-holmberg-sipcore-sessiontimer-race'
+      url: https://mailarchive.ietf.org/arch/msg/sipcore/f0OPMCcrWWil7w2CeHVP-ywwyaU/
+    - date: '2017-10-20'
+      subject: '[sipcore] Agenda Items for IETF 100'
+      url: https://mailarchive.ietf.org/arch/msg/sipcore/R_wm9AmEI8SRUiPfVHjS0an4FeQ/
+    - date: '2017-11-29'
+      subject: '[sipcore] Call For Adoption draft-holmberg-sipcore-sip-push'
+      url: https://mailarchive.ietf.org/arch/msg/sipcore/GVRBRlG_dFtOvZWwhVovOCjgnV0/
+    - date: '2020-10-09'
+      subject: '[sipcore] Call For Adoption draft-went-sipcore-callinfo-rcd'
+      url: https://mailarchive.ietf.org/arch/msg/sipcore/YTMKztoMuMla5mWcgNKUp0WVs0w/
   - kind: shepherded
     documents:
     - draft-ietf-sipcore-callinfo-spam
@@ -76,6 +113,32 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: list message
+    date: '2025-02-12'
+    says: start
+    subject: '[sipcore] Change of Chairs'
+    url: https://mailarchive.ietf.org/arch/msg/sipcore/FAkgn4d0F9JKEkShbNfJVSuBWDw/
+    excerpt: In her stead, I would also like to welcome Paul Kyzivat back to the Chair.
+  - kind: chair activity
+    first: '2011-04-18'
+    last: '2025-08-22'
+    messages: 11
+    examples:
+    - date: '2011-04-18'
+      subject: '[sipcore] Draft minutes for ietf-80 sipcore session'
+      url: https://mailarchive.ietf.org/arch/msg/sipcore/sqquhxB1Etr4ogpy29gGPDdwgI8/
+    - date: '2011-08-26'
+      subject: '[sipcore] WGLC of draft-ietf-sipcore-rfc3265bis-03.txt'
+      url: https://mailarchive.ietf.org/arch/msg/sipcore/jv_ghep8487G_pbzjuaPII9hk4c/
+    - date: '2012-05-18'
+      subject: '[sipcore] WGLC for draft-ietf-sipcore-proxy-feature-02'
+      url: https://mailarchive.ietf.org/arch/msg/sipcore/jKBq0Oy4QfGikUmpXkEGLgShKVY/
+    - date: '2014-03-21'
+      subject: '[sipcore] SIPCORE Minutes, IETF89, March 2014'
+      url: https://mailarchive.ietf.org/arch/msg/sipcore/lyRbyt41BW6DrOHpDCpZunuposI/
+    - date: '2014-04-10'
+      subject: '[sipcore] Call for adoption of draft-johansson-sip-dual-stack as WG draft'
+      url: https://mailarchive.ietf.org/arch/msg/sipcore/PfZBBbIyD8lSj7gWmC8V1wsjr4w/
   - kind: session requests
     meetings:
     - '81'
@@ -106,6 +169,32 @@ chairs:
     date: '2016-12-02'
     subject: 'WG Action: Rechartered Session Initiation Protocol Core (sipcore)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/dxLUpZitrdsIwKza3_d6eoYKPaY/
+  - kind: list message
+    date: '2025-02-12'
+    says: end
+    subject: '[sipcore] Change of Chairs'
+    url: https://mailarchive.ietf.org/arch/msg/sipcore/FAkgn4d0F9JKEkShbNfJVSuBWDw/
+    excerpt: Jean Mahoney has chosen to step down as co-Chair of SIPCORE.
+  - kind: chair activity
+    first: '2017-03-23'
+    last: '2023-08-10'
+    messages: 17
+    examples:
+    - date: '2017-03-23'
+      subject: '[sipcore] WGLC: draft-ietf-sipcore-content-id-01'
+      url: https://mailarchive.ietf.org/arch/msg/sipcore/qlzYTS9eexqm1Dsfe2pAPFrdVWw/
+    - date: '2018-01-25'
+      subject: '[sipcore] WGLC: draft-ietf-sipcore-sip-push'
+      url: https://mailarchive.ietf.org/arch/msg/sipcore/MrVpDyfCpute_AfQIQg62Vxhj4k/
+    - date: '2018-02-02'
+      subject: '[sipcore] WGLC: draft-ietf-sipcore-reason-q850-loc'
+      url: https://mailarchive.ietf.org/arch/msg/sipcore/T35MdOQKEHxalVwaPfiY4QVFm9Q/
+    - date: '2018-11-08'
+      subject: '[sipcore] Working group milestones'
+      url: https://mailarchive.ietf.org/arch/msg/sipcore/HWMNTQe3AXM_39_PmsbVN_JGx8k/
+    - date: '2018-11-08'
+      subject: '[sipcore] Minutes from the IETF 103 sipcore session'
+      url: https://mailarchive.ietf.org/arch/msg/sipcore/ubJIdvR76g3_i9dcwsxFEQLdawk/
   - kind: shepherded
     documents:
     - draft-ietf-sipcore-callinfo-rcd

@@ -13,11 +13,22 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2006-07-09'
+      not_after: '1999-12-01'
     end:
       certainty: evidence-only
-      not_before: '2010-07-25'
+      not_before: '2010-08-20'
   evidence:
+  - kind: chair activity
+    first: '1999-12-01'
+    last: '2010-08-20'
+    messages: 14
+    examples:
+    - date: '1999-12-01'
+      subject: '[nmrg] minutes from the Washington meeting'
+      url: https://mailarchive.ietf.org/arch/msg/nmrg/xNMkmQpy99R9WgCYp7BHdm_xh1A/
+    - date: '2000-09-19'
+      subject: '[nmrg] minutes from the 7th NMRG meeting'
+      url: https://mailarchive.ietf.org/arch/msg/nmrg/LVEW19e_ZfqLahLJ99kOqCOvxSk/
   - kind: session requests
     meetings:
     - '66'
@@ -56,6 +67,15 @@ chairs:
     end:
       certainty: exact
       date: '2015-11-03'
+  evidence:
+  - kind: chair activity
+    first: '2013-11-30'
+    last: '2013-11-30'
+    messages: 1
+    examples:
+    - date: '2013-11-30'
+      subject: '[nmrg] Minutes of NMRG 32'
+      url: https://mailarchive.ietf.org/arch/msg/nmrg/7KW3FJLe3fV2StssSNinIShGYR8/
 - person: 112599
   name: Lisandro Granville
   status: confirmed
@@ -116,6 +136,26 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/nmrg/kIafy2caqsIVGGdLLoMuM9k7DA4/
     excerpt: I’m pleased to announce that Jérôme François has agreed to serve as co-chair of the NMRG,
       effective from today.
+  - kind: chair activity
+    first: '2019-12-04'
+    last: '2024-12-18'
+    messages: 11
+    examples:
+    - date: '2019-12-04'
+      subject: '[nmrg] Adoption call for draft-li-nmrg-intent-classification-02'
+      url: https://mailarchive.ietf.org/arch/msg/nmrg/pQ5eJX9LOd--H2VS5pmthuCSoxM/
+    - date: '2019-12-04'
+      subject: '[nmrg] Adoption call for draft-clemm-nmrg-dist-intent-03'
+      url: https://mailarchive.ietf.org/arch/msg/nmrg/dErxuA6BTXPLUpHdOqNMRQTZOb8/
+    - date: '2020-03-04'
+      subject: '[nmrg] Minutes of Feb. meeting'
+      url: https://mailarchive.ietf.org/arch/msg/nmrg/Ba0YWT8aYX5eRAlGsnZmaKG0s-g/
+    - date: '2020-06-01'
+      subject: '[nmrg] Adoption call for draft-li-nmrg-intent-classification-03'
+      url: https://mailarchive.ietf.org/arch/msg/nmrg/AkYl8yCWd_9hqHTXO1ubqO1zzjE/
+    - date: '2021-07-23'
+      subject: '[nmrg] Agenda for NMRG meeting at IETF 111'
+      url: https://mailarchive.ietf.org/arch/msg/nmrg/hQZRBJrUyiRT39cC5Qs1nSOq96U/
   - kind: shepherded
     documents:
     - draft-irtf-nmrg-green-ps

@@ -16,6 +16,15 @@ chairs:
       date: '2025-01-12'
     end:
       certainty: ongoing
+  evidence:
+  - kind: chair activity
+    first: '2025-03-19'
+    last: '2025-03-19'
+    messages: 1
+    examples:
+    - date: '2025-03-19'
+      subject: '[sustain] Meeting minutes from our first meeting, March 18 in Bangkok'
+      url: https://mailarchive.ietf.org/arch/msg/sustain/VHngdUoPG-S-4NSKS-3-TKs-nhM/
 - person: 123468
   name: Eve Schooler
   status: confirmed
@@ -25,6 +34,18 @@ chairs:
       date: '2025-01-12'
     end:
       certainty: ongoing
+  evidence:
+  - kind: chair activity
+    first: '2025-03-13'
+    last: '2025-07-07'
+    messages: 2
+    examples:
+    - date: '2025-03-13'
+      subject: '[sustain] Draft agenda + Blog'
+      url: https://mailarchive.ietf.org/arch/msg/sustain/MkreSwaj7VdOvM_RjY9YbfYMqUc/
+    - date: '2025-07-07'
+      subject: '[sustain] IETF 123 SUSTAIN RG - draft agenda'
+      url: https://mailarchive.ietf.org/arch/msg/sustain/7EZAvxoCpX45YoOzLmRMHeo6vOQ/
 - person: 126088
   name: Ali Rezaki
   status: confirmed

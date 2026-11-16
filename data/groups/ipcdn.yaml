@@ -29,6 +29,36 @@ chairs:
     date: '2005-09-08'
     subject: 'WG Action: RECHARTER: IP over Cable Data Network (ipcdn)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/REl_MFln-_0DU6FIQ4OSmghPWFA/
+  - kind: chair activity
+    first: '2001-01-18'
+    last: '2001-12-21'
+    messages: 3
+    examples:
+    - date: '2001-01-18'
+      subject: '[ipcdn] IPCDN meeting minutes from San Diego'
+      url: https://mailarchive.ietf.org/arch/msg/ipcdn/brItnqtlPDLR72XSSzLGpP1pvz0/
+    - date: '2001-04-09'
+      subject: '[ipcdn] IPCDN meeting minutes from Minneapolis'
+      url: https://mailarchive.ietf.org/arch/msg/ipcdn/uv-q1FjSzGaUWy3Z8Z1dYITfpCI/
+- person: 21257
+  name: Andrew Valentine
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2002-04-12'
+    end:
+      certainty: approximate
+      date: '2002-04-12'
+    notes:
+    - end dated by list message of 2002-04-12
+  evidence:
+  - kind: list message
+    date: '2002-04-12'
+    says: end
+    subject: '[ipcdn] IPCDN meeting minutes from Minneapolis'
+    url: https://mailarchive.ietf.org/arch/msg/ipcdn/xD9sAFTA_3-32opH1YJhaC8yUsM/
+    excerpt: '- Andrew Valentine stepped down as co-chair due to a career change.'
 - person: 103612
   name: Jean-Francois Mule
   status: confirmed
@@ -41,6 +71,7 @@ chairs:
       date: '2009-04-02'
     notes:
     - start moved earlier by WG Action announcement of 2003-08-26
+    - widened to cover last calls and adoption calls on the group list
     - start dated by list message of 2002-07-01
   evidence:
   - kind: WG Action
@@ -58,3 +89,23 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/ipcdn/1T87YrsavZL_N0o8oe9btAOyVmU/
     excerpt: I hope to introduce Jean-Francois Mule as the new co-chair of the IPCDN working group, as
       he will help share the load of running this working group.
+  - kind: chair activity
+    first: '2002-12-27'
+    last: '2006-06-16'
+    messages: 21
+    examples:
+    - date: '2002-12-27'
+      subject: '[ipcdn] IPCDN meeting minutes from Atlanta - IETF#55'
+      url: https://mailarchive.ietf.org/arch/msg/ipcdn/zg8Pqrso0fwE4OUofYjw2Rf-EDM/
+    - date: '2003-06-24'
+      subject: '[ipcdn] WGLC for MTA device mib'
+      url: https://mailarchive.ietf.org/arch/msg/ipcdn/1bzShmjHLHLo76vjLH_9zKsWPrQ/
+    - date: '2003-06-24'
+      subject: '[ipcdn] WGLC for MTA signaling mib'
+      url: https://mailarchive.ietf.org/arch/msg/ipcdn/S1hQ38iqmidkdIVbeux92jaSMNc/
+    - date: '2003-06-26'
+      subject: '[ipcdn] Preliminary agenda for the IPCDN July 16''03 meeting in Vienna'
+      url: https://mailarchive.ietf.org/arch/msg/ipcdn/f4DOY9kMFqcJINooB1SCc0SZ7tU/
+    - date: '2004-01-23'
+      subject: '[ipcdn] WGLC on IPCDN RF MIBv2 draft09 - ends 2/6/2004'
+      url: https://mailarchive.ietf.org/arch/msg/ipcdn/FYVWKngutGtC6PBSTeWUMoppI6M/

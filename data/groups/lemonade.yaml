@@ -13,25 +13,86 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-02-11'
+      date: '2004-09-27'
       not_before: '2002-12-06'
     end:
       certainty: group-closed
       date: '2010-02-11'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
+  evidence:
+  - kind: chair activity
+    first: '2003-06-25'
+    last: '2008-10-01'
+    messages: 26
+    examples:
+    - date: '2003-06-25'
+      subject: '[lemonade] Agenda for Vienna'
+      url: https://mailarchive.ietf.org/arch/msg/lemonade/kBVPoZLXKGnDnwhjm5jtH2Ov_qo/
+    - date: '2003-11-07'
+      subject: '[lemonade] Agenda for IETF 58'
+      url: https://mailarchive.ietf.org/arch/msg/lemonade/qH5h28T5nQvSCugZqkgn7bWYvzw/
+    - date: '2004-09-27'
+      subject: '[lemonade] WG last call on MMS mapping'
+      url: https://mailarchive.ietf.org/arch/msg/lemonade/UxvyF6SuOBpF9VtHJDwH35bTqeE/
+    - date: '2004-10-19'
+      subject: '[lemonade] WG last call on Goals'
+      url: https://mailarchive.ietf.org/arch/msg/lemonade/mnoeUO90IxPC7T5wjC1fJ8ly9Zk/
+    - date: '2004-10-25'
+      subject: '[lemonade] WG last call on future delivery'
+      url: https://mailarchive.ietf.org/arch/msg/lemonade/L1duoTTXKS07jY2SZRECYX8xbk8/
+- person: 102154
+  name: Alexey Melnikov
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2007-07-22'
+    end:
+      certainty: evidence-only
+      not_before: '2008-07-27'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '69'
+    - '70'
+    - '72'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
 - person: 104196
   name: Eric Burger
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2004-11-20'
       not_before: '2002-12-06'
     end:
       certainty: group-closed
       date: '2010-02-11'
     notes:
     - start moved earlier by session request for IETF 65
+    - widened to cover last calls and adoption calls on the group list
   evidence:
+  - kind: chair activity
+    first: '2003-07-31'
+    last: '2008-05-16'
+    messages: 25
+    examples:
+    - date: '2003-07-31'
+      subject: '[lemonade] Raw Draft Meeting Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/lemonade/zYRdOWrfFerIKCdARPY2wgV8qn8/
+    - date: '2003-11-24'
+      subject: '[lemonade] Any changes to minutes?'
+      url: https://mailarchive.ietf.org/arch/msg/lemonade/LJO7HiKzsEqDFoxUiPbHpGIbGvw/
+    - date: '2004-11-20'
+      subject: '[lemonade] WGLC''s'
+      url: https://mailarchive.ietf.org/arch/msg/lemonade/uGPOHQUfnLYTQuWO1MVZFZnBg1o/
+    - date: '2005-01-19'
+      subject: '[lemonade] WGLC BURL'
+      url: https://mailarchive.ietf.org/arch/msg/lemonade/EcVM1QgOezwkXlLLpZ45EBeNE3g/
+    - date: '2005-01-19'
+      subject: '[lemonade] WGLC CATENATE'
+      url: https://mailarchive.ietf.org/arch/msg/lemonade/TuZrkdPiUNPaZGIuFPVmU7zi05Q/
   - kind: session requests
     meetings:
     - '65'

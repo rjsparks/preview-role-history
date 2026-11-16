@@ -18,3 +18,15 @@ chairs:
     end:
       certainty: group-closed
       date: '1995-02-28'
+  evidence:
+  - kind: chair activity
+    first: '1992-07-16'
+    last: '1994-12-12'
+    messages: 5
+    examples:
+    - date: '1992-07-16'
+      subject: Meeting minutes
+      url: https://mailarchive.ietf.org/arch/msg/ripv2/Tm8dWF4Qk0JKxMXU4wMOXSfufLM/
+    - date: '1993-07-15'
+      subject: minutes of RIPv2 meeting in Amsterdam
+      url: https://mailarchive.ietf.org/arch/msg/ripv2/XxtCz1aUic5l4YpSvHEPkqbWe7I/

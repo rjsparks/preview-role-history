@@ -29,6 +29,20 @@ chairs:
     date: '2005-01-12'
     subject: 'WG Action: RECHARTER: Mobile Ad-hoc Networks (manet)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/D_2cMzGhRu9bWqihzSh6nGO4Z34/
+  - kind: chair activity
+    first: '1996-07-09'
+    last: '2013-02-22'
+    messages: 24
+    examples:
+    - date: '1996-07-09'
+      subject: Minutes Submittal
+      url: https://mailarchive.ietf.org/arch/msg/manet/vRn73PJzO5QmlZJe-Tv-Y2awmag/
+    - date: '1996-07-10'
+      subject: Minutes Submittal
+      url: https://mailarchive.ietf.org/arch/msg/manet/LSZnR4oScW1852soHFTKq2HcR1Q/
+    - date: '2013-02-22'
+      subject: '[manet] WG Last Call for draft-ietf-manet-nhdp-sec-threats-01'
+      url: https://mailarchive.ietf.org/arch/msg/manet/i3077yWxNXJijHRGBoFfgjBVUfA/
   - kind: session requests
     meetings:
     - '67'
@@ -48,7 +62,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2003-02-26'
+      not_after: '2001-08-03'
     end:
       certainty: approximate
       date: '2004-12-08'
@@ -66,6 +80,14 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/manet/OQ5mP2YlVgJpc53T7La9HsyAF-c/
     excerpt: As part of this process we will also be adding Ian Chakeres as the new co-chair replacing
       Scott Corson.
+  - kind: chair activity
+    first: '2001-08-03'
+    last: '2001-08-03'
+    messages: 1
+    examples:
+    - date: '2001-08-03'
+      subject: Call for Agenda Items
+      url: https://mailarchive.ietf.org/arch/msg/manet/PBA2gEqW-rxG_sG5fUzdKPEQAGo/
 - person: 19150
   name: Stan Ratliff
   status: confirmed
@@ -93,6 +115,20 @@ chairs:
     subject: '[manet] New co-chair'
     url: https://mailarchive.ietf.org/arch/msg/manet/UB5ikY1aEAegXyChqUeeLbGVZu0/
     excerpt: I have appointed Stan Ratliff as your new co-chair to work with Joe Macker.
+  - kind: chair activity
+    first: '2014-08-06'
+    last: '2019-07-29'
+    messages: 3
+    examples:
+    - date: '2014-08-06'
+      subject: '[manet] Working Group Last Call for draft-ietf-manet-ibs'
+      url: https://mailarchive.ietf.org/arch/msg/manet/X-qOuO_YX0AE7NxxUNkLYwaxQeQ/
+    - date: '2016-04-26'
+      subject: '[manet] Interim call'
+      url: https://mailarchive.ietf.org/arch/msg/manet/7uyCGXQBXea8U1OWYb22yUhLOQo/
+    - date: '2019-07-29'
+      subject: '[manet] Meeting minutes for MANET WG at IETF 105'
+      url: https://mailarchive.ietf.org/arch/msg/manet/ASm1R7ZLSy569JwNpt0_Ifqc-1o/
   - kind: shepherded
     documents:
     - draft-ietf-manet-dlep-multi-hop-extension
@@ -109,6 +145,18 @@ chairs:
       date: '2023-06-22'
     end:
       certainty: ongoing
+  evidence:
+  - kind: chair activity
+    first: '2024-08-03'
+    last: '2026-08-02'
+    messages: 5
+    examples:
+    - date: '2024-08-03'
+      subject: '[manet] Draft MANET minutes from IETF 120 Vancouver'
+      url: https://mailarchive.ietf.org/arch/msg/manet/l7RgUnomiWa0hOUJ-lUDlTUNjRY/
+    - date: '2024-11-29'
+      subject: '[manet] Draft minutes from Dublin Meeting'
+      url: https://mailarchive.ietf.org/arch/msg/manet/mAGq19X3kFmtd7gM6GYCT_b0EOQ/
 - person: 106961
   name: Ian Chakeres
   status: unconfirmed
@@ -136,6 +184,17 @@ chairs:
     subject: '[manet] New co-chair'
     url: https://mailarchive.ietf.org/arch/msg/manet/UB5ikY1aEAegXyChqUeeLbGVZu0/
     excerpt: As previously discussed, Ian Chakeres has announced his desire to step down as co-chair.
+  - kind: chair activity
+    first: '2005-10-26'
+    last: '2010-04-21'
+    messages: 12
+    examples:
+    - date: '2005-10-26'
+      subject: '[manet] IETF 64 MANET WG Draft Agenda'
+      url: https://mailarchive.ietf.org/arch/msg/manet/DyPE0K86EKEm8XnBrZNFglRWY5U/
+    - date: '2005-11-20'
+      subject: '[manet] IETF 64 MANET Meeting Presentations and Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/manet/UYS_dMoFuMavZB1Q1kebak-Zxok/
   - kind: session requests
     meetings:
     - '65'
@@ -171,6 +230,14 @@ chairs:
     date: '2016-07-01'
     subject: 'WG Action: Rechartered Mobile Ad-hoc Networks (manet)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/5hkVGGen1ag7EHzqEt6oQI3gyzU/
+  - kind: chair activity
+    first: '2016-04-27'
+    last: '2016-04-27'
+    messages: 1
+    examples:
+    - date: '2016-04-27'
+      subject: '[manet] New interim meeting date/time'
+      url: https://mailarchive.ietf.org/arch/msg/manet/of05cqFN_KVblx2JCLh6Xj0e_LE/
   - kind: shepherded
     documents:
     - draft-ietf-manet-credit-window
@@ -191,6 +258,20 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: chair activity
+    first: '2021-11-15'
+    last: '2026-04-07'
+    messages: 6
+    examples:
+    - date: '2021-11-15'
+      subject: '[manet] WGLC draft-ietf-manet-dlep-ether-credit-extension'
+      url: https://mailarchive.ietf.org/arch/msg/manet/VVuDUizcATGi6PTi31JP-5imTBk/
+    - date: '2023-10-31'
+      subject: '[manet] Manet Meeting Agenda items'
+      url: https://mailarchive.ietf.org/arch/msg/manet/duNb6xOQtxv_EEV3yY5AAApBtO4/
+    - date: '2023-11-15'
+      subject: '[manet] IETF 118 Minutes available'
+      url: https://mailarchive.ietf.org/arch/msg/manet/QHe8cuNNPdc1fhXTSuXbngEe0Xg/
   - kind: shepherded
     documents:
     - draft-ietf-manet-dlep-channel-utilization

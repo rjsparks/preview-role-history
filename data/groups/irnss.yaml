@@ -17,3 +17,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2003-12-10'
+  evidence:
+  - kind: chair activity
+    first: '2001-12-05'
+    last: '2002-02-22'
+    messages: 2
+    examples:
+    - date: '2001-12-05'
+      subject: Revised agenda for Internet Resource Name Search Service
+      url: https://mailarchive.ietf.org/arch/msg/irnss/FLL5pPlbOFKjoDZu2cAneyfR8FY/
+    - date: '2002-02-22'
+      subject: Minutes/slides from Salt Lake City meeting
+      url: https://mailarchive.ietf.org/arch/msg/irnss/3c3iWABLhcKmVzEhD-07Zxn-5p0/

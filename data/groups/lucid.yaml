@@ -27,3 +27,12 @@ chairs:
     end:
       certainty: group-closed
       date: '2015-05-29'
+  evidence:
+  - kind: chair activity
+    first: '2015-03-30'
+    last: '2015-03-30'
+    messages: 1
+    examples:
+    - date: '2015-03-30'
+      subject: '[Lucid] minutes of the Dallas meeting'
+      url: https://mailarchive.ietf.org/arch/msg/lucid/LbDZt8eeo92Ib5M-M8gIHmHcamk/

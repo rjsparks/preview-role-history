@@ -18,3 +18,15 @@ chairs:
     end:
       certainty: group-closed
       date: '1993-05-27'
+  evidence:
+  - kind: chair activity
+    first: '1992-04-01'
+    last: '1992-07-28'
+    messages: 2
+    examples:
+    - date: '1992-04-01'
+      subject: Minutes of the San Diego Meetings
+      url: https://mailarchive.ietf.org/arch/msg/x25mib/9O0nvl3TN79RCTagtfzS5cLiZXk/
+    - date: '1992-07-28'
+      subject: Minutes of July x25mib working group meeting
+      url: https://mailarchive.ietf.org/arch/msg/x25mib/EzLqJR8-HUuoT9mEtjohkeJ-igY/

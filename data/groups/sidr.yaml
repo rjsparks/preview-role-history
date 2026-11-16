@@ -33,6 +33,26 @@ chairs:
     date: '2011-04-19'
     subject: 'WG Action: RECHARTER: Secure Inter-Domain Routing (sidr)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/SEI7mHDNXMD6kZQtODxzmWrUw9k/
+  - kind: chair activity
+    first: '2007-03-07'
+    last: '2017-04-10'
+    messages: 50
+    examples:
+    - date: '2007-03-07'
+      subject: '[Sidr] agenda for IETF 68'
+      url: https://mailarchive.ietf.org/arch/msg/sidr/hI-ehYjHKOA2KVVxFpzXYICiLVo/
+    - date: '2007-03-27'
+      subject: '[Sidr] minutes from IETF68 sidr meeting'
+      url: https://mailarchive.ietf.org/arch/msg/sidr/HvgDDBddvAFOuT5r_l7cMX2dnSY/
+    - date: '2010-03-05'
+      subject: '[sidr] Working Group Last Call on draft-ietf-sidr-cp-08'
+      url: https://mailarchive.ietf.org/arch/msg/sidr/gqBHcrQU4E03laHk4EJczt7O_m4/
+    - date: '2011-04-19'
+      subject: '[sidr] call for adoption of draft-ymbk-bgpsec-reqs-02'
+      url: https://mailarchive.ietf.org/arch/msg/sidr/aS-A1lw_dqLQkEdcIs9PTAGglLE/
+    - date: '2011-04-19'
+      subject: '[sidr] call for adoption of draft-lepinski-bgpsec-protocol-00'
+      url: https://mailarchive.ietf.org/arch/msg/sidr/nwzFKOGFmkQZ9Z-FD-xBC6t8aAc/
   - kind: session requests
     meetings:
     - '69'
@@ -69,6 +89,17 @@ chairs:
       certainty: exact
       date: '2013-07-31'
   evidence:
+  - kind: chair activity
+    first: '2012-05-25'
+    last: '2012-06-13'
+    messages: 2
+    examples:
+    - date: '2012-05-25'
+      subject: '[sidr] Date and type of the next (end of June/early July) interim'
+      url: https://mailarchive.ietf.org/arch/msg/sidr/UdhUDO_bLCxqcCq8mfG3hBrz3BU/
+    - date: '2012-06-13'
+      subject: '[sidr] Discussion topics for the virtual interim on June 29th'
+      url: https://mailarchive.ietf.org/arch/msg/sidr/nMXVCqPnqnwSeUEOTVAEb6A_CNs/
   - kind: shepherded
     documents:
     - draft-ietf-sidr-algorithm-agility
@@ -81,7 +112,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2006-04-18'
+      not_after: '2005-11-01'
     end:
       certainty: evidence-only
       not_before: '2009-11-08'
@@ -90,6 +121,26 @@ chairs:
     date: '2006-04-18'
     subject: 'WG Action: Secure Inter-Domain Routing (sidr)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/r38J66oxLvXa8SHvesS0nvRHIFg/
+  - kind: chair activity
+    first: '2005-11-01'
+    last: '2009-11-02'
+    messages: 12
+    examples:
+    - date: '2005-11-01'
+      subject: '[Sidr] SIDR BOF agenda for IETF 64'
+      url: https://mailarchive.ietf.org/arch/msg/sidr/jaupu4_tAz4vKPuZSYFCZNQxuxY/
+    - date: '2006-02-22'
+      subject: '[Sidr] Assembling the SIDR agenda for IETF 65'
+      url: https://mailarchive.ietf.org/arch/msg/sidr/VqDK18vuj5H04t4oE18NYmM7oWw/
+    - date: '2009-10-28'
+      subject: '[sidr] Working Group Last Call - draft-ietf-sidr-roa-format-06.txt'
+      url: https://mailarchive.ietf.org/arch/msg/sidr/jggP4mfpCT43cP2ppHHY1ckgwGU/
+    - date: '2009-10-28'
+      subject: '[sidr] Working Group Last Call - draft-ietf-sidr-arch-09.txt'
+      url: https://mailarchive.ietf.org/arch/msg/sidr/N7tAiNlwKwGWkiyX05w5KeIGuqY/
+    - date: '2009-10-28'
+      subject: '[sidr] Working Group Last Call - draft-ietf-sidr-cp-07.txt'
+      url: https://mailarchive.ietf.org/arch/msg/sidr/Tcegd343U8xtk-2Rt2R1wCEnKv4/
   - kind: session requests
     meetings:
     - '66'
@@ -111,6 +162,7 @@ chairs:
       date: '2018-09-06'
     notes:
     - start moved earlier by WG Action announcement of 2011-04-19
+    - widened to cover last calls and adoption calls on the group list
     - start dated by list message of 2010-03-12
   evidence:
   - kind: WG Review
@@ -128,6 +180,26 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/sidr/86zSa3Z3WHIh5ROfGE7sX6Jjs54/
     excerpt: I am very pleased to announce that Chris Morrow has agreed to help out Sandra as co-chair
       of the SIDR working group.
+  - kind: chair activity
+    first: '2010-10-08'
+    last: '2017-10-03'
+    messages: 30
+    examples:
+    - date: '2010-10-08'
+      subject: '[sidr] Call for WG Adoption - draft-pmohapat-sidr-origin-validation-signaling-00'
+      url: https://mailarchive.ietf.org/arch/msg/sidr/AmHe2l2wh2qUUhrHuUDEH6GTpOQ/
+    - date: '2011-02-10'
+      subject: '[sidr] WGLC - draft-manderson-iana-objects-03.txt'
+      url: https://mailarchive.ietf.org/arch/msg/sidr/VdF7V-fcBnpJIaTC-lkb37j0e0Q/
+    - date: '2011-02-16'
+      subject: '[sidr] WGLC draft-sidr-rpki-rtr - take 2?'
+      url: https://mailarchive.ietf.org/arch/msg/sidr/FtVr7K4Jsn4wjRz4qkl9z8KlfAY/
+    - date: '2012-03-26'
+      subject: '[sidr] Interim Meeting Dates/Locations (Proposed)'
+      url: https://mailarchive.ietf.org/arch/msg/sidr/676AElPJuEeJ2W6UbMKqpCsDNRY/
+    - date: '2012-03-29'
+      subject: '[sidr] SIDR Interim meeting 4/30/2012 (April 30, 2012) - IAD'
+      url: https://mailarchive.ietf.org/arch/msg/sidr/z_mLii9PKT3xMCt2O6snupTk-DM/
   - kind: shepherded
     documents:
     - draft-ietf-sidr-adverse-actions

@@ -18,6 +18,18 @@ chairs:
     end:
       certainty: group-closed
       date: '1995-03-25'
+  evidence:
+  - kind: chair activity
+    first: '1992-11-11'
+    last: '1994-12-16'
+    messages: 8
+    examples:
+    - date: '1992-11-11'
+      subject: Agenda for MHS-DS Working Group
+      url: https://mailarchive.ietf.org/arch/msg/mhsds/GkGHwi0wj3co3HR0vUvpreCtH00/
+    - date: '1992-11-30'
+      subject: Updated minutes to IETF MHS-DS WG meeting
+      url: https://mailarchive.ietf.org/arch/msg/mhsds/BW32ALDT77ueJr-22S7EeAYZ3vI/
 - person: 5778
   name: Harald Alvestrand
   status: confirmed

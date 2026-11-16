@@ -18,3 +18,15 @@ chairs:
     end:
       certainty: group-closed
       date: '1994-11-04'
+  evidence:
+  - kind: chair activity
+    first: '1992-03-09'
+    last: '1993-10-26'
+    messages: 13
+    examples:
+    - date: '1992-03-09'
+      subject: OSI-DS Agenda for March 9th
+      url: https://mailarchive.ietf.org/arch/msg/osids/-81TjfMcmu_z1wNaSJgNaxF_CbQ/
+    - date: '1992-03-09'
+      subject: DRAFT Agenda for BOF on WAIS and Directory Integration
+      url: https://mailarchive.ietf.org/arch/msg/osids/buRi8DXwboRryb6tYxvqjnUCyW8/

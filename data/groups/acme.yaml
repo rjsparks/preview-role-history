@@ -50,6 +50,26 @@ chairs:
     subject: '[Acme] ACME notes from IETF99'
     url: https://mailarchive.ietf.org/arch/msg/acme/3hW5nrL9KHGkQj5XUSmH9iDB5To/
     excerpt: Yoav Nir has replaced Ted Hardie as co-chair now that Ted has been appointed to the IAB.
+  - kind: chair activity
+    first: '2017-10-29'
+    last: '2025-07-16'
+    messages: 10
+    examples:
+    - date: '2017-10-29'
+      subject: '[Acme] Draft Agenda Uploaded'
+      url: https://mailarchive.ietf.org/arch/msg/acme/8RJ6aZc8cnzKuxTb9Mi7kxVH6Fc/
+    - date: '2018-03-22'
+      subject: '[Acme] Wednesday meeting - minutes uploaded'
+      url: https://mailarchive.ietf.org/arch/msg/acme/HPk5LimhbkW3PvDGTvPdtv-iW_k/
+    - date: '2020-10-03'
+      subject: '[Acme] WGLC on draft-ietf-acme-star-delegation'
+      url: https://mailarchive.ietf.org/arch/msg/acme/0iMBEyrwRyvQWEr9UmOhcNImdFQ/
+    - date: '2021-03-31'
+      subject: '[Acme] WGLC for ACME Integrations'
+      url: https://mailarchive.ietf.org/arch/msg/acme/T1V76AHGmtkYhWoiRnh-NOH5xaE/
+    - date: '2021-03-31'
+      subject: '[Acme] WGLC for ACME DTN Node ID'
+      url: https://mailarchive.ietf.org/arch/msg/acme/ncn3LR_i8mPcAKx3qt33FgYuoK4/
   - kind: shepherded
     documents:
     - draft-ietf-acme-acme
@@ -81,6 +101,17 @@ chairs:
     subject: '[Acme] ACME notes from IETF99'
     url: https://mailarchive.ietf.org/arch/msg/acme/3hW5nrL9KHGkQj5XUSmH9iDB5To/
     excerpt: Yoav Nir has replaced Ted Hardie as co-chair now that Ted has been appointed to the IAB.
+  - kind: chair activity
+    first: '2015-03-06'
+    last: '2017-03-31'
+    messages: 4
+    examples:
+    - date: '2015-03-06'
+      subject: '[Acme] Draft agenda timing'
+      url: https://mailarchive.ietf.org/arch/msg/acme/ePiKSD38pVayDT8bAWuKwGVvuJs/
+    - date: '2016-04-19'
+      subject: '[Acme] Draft Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/acme/Jzs0sdnYROYfJnKD0n3QyfGPIhs/
 - person: 123703
   name: Deb Cooley
   status: confirmed
@@ -99,6 +130,26 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/acme/HQ3bGNYVhRqbymtct92Vf482vqM/
     excerpt: I'm excited to announce that Deb Cooley has graciously agreed to serve as the co-chair with
       Yoav.
+  - kind: chair activity
+    first: '2021-07-22'
+    last: '2022-11-15'
+    messages: 14
+    examples:
+    - date: '2021-07-22'
+      subject: '[Acme] Agenda items'
+      url: https://mailarchive.ietf.org/arch/msg/acme/It-sATxPRoEPjVhYYzCu5RVLOE4/
+    - date: '2021-08-05'
+      subject: '[Acme] minutes for IETF 111 posted'
+      url: https://mailarchive.ietf.org/arch/msg/acme/DEngsFlSNrdhEMdAYESzgRZ1yfM/
+    - date: '2022-05-24'
+      subject: '[Acme] Call for adoption of draft-aaron-acme-ari-02'
+      url: https://mailarchive.ietf.org/arch/msg/acme/TQgSl_mfXQbIGRFT6hYLoqOhFJw/
+    - date: '2022-05-26'
+      subject: '[Acme] WG Last Call for draft-ietf-acme-integrations-07'
+      url: https://mailarchive.ietf.org/arch/msg/acme/_ybd9wN4BSNJRlMMac58nB1bO84/
+    - date: '2022-05-26'
+      subject: '[Acme] WG Last Call for draft-ietf-acme-subdomains-03'
+      url: https://mailarchive.ietf.org/arch/msg/acme/MDc7dJunVK0_lKQptf4bCSbmsyk/
   - kind: shepherded
     documents:
     - draft-ietf-acme-integrations
@@ -113,6 +164,23 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: chair activity
+    first: '2025-08-06'
+    last: '2026-11-03'
+    messages: 6
+    examples:
+    - date: '2025-08-06'
+      subject: '[Acme] Call for adoption for draft-aaron-acme-profiles'
+      url: https://mailarchive.ietf.org/arch/msg/acme/DmG40oAVZSqYN6pHJqFd-A8T1t0/
+    - date: '2025-09-08'
+      subject: '[Acme] Call for adoption for draft-wendt-acme-authority-token-jwtclaimcon'
+      url: https://mailarchive.ietf.org/arch/msg/acme/mDlxbgA1qKkmPscbOdgzC2RlDho/
+    - date: '2025-10-23'
+      subject: '[Acme] Agenda for ACME 124'
+      url: https://mailarchive.ietf.org/arch/msg/acme/cXQAE41l7eNlm0AIZzm7wKce0Ug/
+    - date: '2025-11-05'
+      subject: '[Acme] ACME 124 Minutes are posted'
+      url: https://mailarchive.ietf.org/arch/msg/acme/8WBUEY-y3UN8s_ORrGYXLIISw8g/
   - kind: shepherded
     documents:
     - draft-ietf-acme-authority-token-jwtclaimcon
@@ -136,3 +204,11 @@ chairs:
     subject: '[Acme] ACME leadership changes'
     url: https://mailarchive.ietf.org/arch/msg/acme/dz-3l0eE_DNKeGjqKnQTdNyjFEQ/
     excerpt: It is my pleasure to announced that Tomofumi Okubo will be stepping in as the new-chair.
+  - kind: chair activity
+    first: '2024-08-16'
+    last: '2024-08-16'
+    messages: 1
+    examples:
+    - date: '2024-08-16'
+      subject: '[Acme] WG Last Call for draft-ietf-acme-onion-02'
+      url: https://mailarchive.ietf.org/arch/msg/acme/0DGvqwUvV5f5axYbKcrHBbPiWwM/

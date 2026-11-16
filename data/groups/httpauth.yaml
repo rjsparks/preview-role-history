@@ -18,6 +18,15 @@ chairs:
     end:
       certainty: exact
       date: '2013-03-11'
+  evidence:
+  - kind: chair activity
+    first: '2012-11-28'
+    last: '2012-11-28'
+    messages: 1
+    examples:
+    - date: '2012-11-28'
+      subject: '[http-auth] Draft Minutes from IETF-85 in Atlanta'
+      url: https://mailarchive.ietf.org/arch/msg/http-auth/puTgkFH1GcduuwuQX2J05pP7a4w/
 - person: 102154
   name: Alexey Melnikov
   status: confirmed
@@ -60,6 +69,26 @@ chairs:
     date: '2013-03-12'
     subject: 'WG Action: Formed Hypertext Transmission Protocol Authentication (httpauth)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/9Ov6-uWfXkbLcf64zh5bEqNaU1c/
+  - kind: chair activity
+    first: '2013-07-17'
+    last: '2016-05-27'
+    messages: 12
+    examples:
+    - date: '2013-07-17'
+      subject: '[http-auth] Draft Agenda for Berlin'
+      url: https://mailarchive.ietf.org/arch/msg/http-auth/-tMXd2AoxSOub01DuDKPhpPqjH8/
+    - date: '2013-08-28'
+      subject: '[http-auth] Proposed Virtual Interim Meeting about MutualAuth'
+      url: https://mailarchive.ietf.org/arch/msg/http-auth/KAv7LUbdiAJ13sG-SAa2SuUbppc/
+    - date: '2014-09-22'
+      subject: '[http-auth] WGLC for draft-ietf-httpauth-hoba-04'
+      url: https://mailarchive.ietf.org/arch/msg/http-auth/3B6SxPqTEQ6KadDvXMDmqQhZEiQ/
+    - date: '2014-10-07'
+      subject: '[http-auth] WGLC for draft-ietf-httpauth-digest-08'
+      url: https://mailarchive.ietf.org/arch/msg/http-auth/7Xa2XdkSz8ySEeQW1mJA_Fnx5_o/
+    - date: '2015-02-03'
+      subject: '[http-auth] WGLC (take II) for draft-ietf-httpauth-digest'
+      url: https://mailarchive.ietf.org/arch/msg/http-auth/4mg-Jl2SVBK0tWROy17US8ow6DQ/
   - kind: shepherded
     documents:
     - draft-ietf-httpauth-basicauth-update
@@ -99,6 +128,20 @@ chairs:
     subject: '[http-auth] Chair change'
     url: https://mailarchive.ietf.org/arch/msg/http-auth/vQaICbcp59zHzl-5LjOTAOFayfQ/
     excerpt: First I'd like to thank Matt Lepinski for serving as co-chair to the httpauth working group.
+  - kind: chair activity
+    first: '2013-05-29'
+    last: '2014-12-05'
+    messages: 7
+    examples:
+    - date: '2013-05-29'
+      subject: '[http-auth] Call for Adoption: draft-ahrens-httpbis-digest-auth-update'
+      url: https://mailarchive.ietf.org/arch/msg/http-auth/1iZUw7Hnpe7WnCzdBcrPIzJHVyo/
+    - date: '2013-08-21'
+      subject: '[http-auth] Draft Minutes Posted for IETF 87 HTTP-AUTH Session'
+      url: https://mailarchive.ietf.org/arch/msg/http-auth/1k3OfQo50QcVaX3Wkgv97zo2h_k/
+    - date: '2013-10-28'
+      subject: '[http-auth] Minutes for October 8 Interim Meeting'
+      url: https://mailarchive.ietf.org/arch/msg/http-auth/KRo-hrCOPHVP7XqDUKORbRsrGQM/
 - person: 111355
   name: Rifaat Shekh-Yusef
   status: confirmed
@@ -117,6 +160,14 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/http-auth/vQaICbcp59zHzl-5LjOTAOFayfQ/
     excerpt: I'd also like to thank Rifaat Shekh-Yusef for stepping up as co-chair and look forward to
       continued productive results from httpsauth.
+  - kind: chair activity
+    first: '2015-10-21'
+    last: '2015-10-21'
+    messages: 1
+    examples:
+    - date: '2015-10-21'
+      subject: '[http-auth] WGLC for draft-ietf-httpauth-scram-auth-08'
+      url: https://mailarchive.ietf.org/arch/msg/http-auth/n3XXIFeFBvgGw92xwtRhfkOoi4A/
   - kind: shepherded
     documents:
     - draft-ietf-httpauth-mutual

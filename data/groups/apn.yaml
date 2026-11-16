@@ -37,6 +37,18 @@ chairs:
     end:
       certainty: exact
       date: '2022-09-22'
+  evidence:
+  - kind: chair activity
+    first: '2021-07-15'
+    last: '2021-08-02'
+    messages: 3
+    examples:
+    - date: '2021-07-15'
+      subject: '[Apn] Draft agenda posted'
+      url: https://mailarchive.ietf.org/arch/msg/apn/ZQzD81sB6Lp7lcxtXpO9Ydkeodw/
+    - date: '2021-07-30'
+      subject: '[Apn] Please check the minutes in CodiMD'
+      url: https://mailarchive.ietf.org/arch/msg/apn/kz_DORzFKe6Aw9KZcnuz6ojLs0c/
 - person: 117846
   name: Dan Voyer
   status: confirmed

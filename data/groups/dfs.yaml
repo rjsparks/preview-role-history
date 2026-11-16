@@ -18,3 +18,15 @@ chairs:
     end:
       certainty: group-closed
       date: '1993-06-18'
+  evidence:
+  - kind: chair activity
+    first: '1990-12-20'
+    last: '1991-12-05'
+    messages: 2
+    examples:
+    - date: '1990-12-20'
+      subject: Minutes of December '90 DFS-WG meeting
+      url: https://mailarchive.ietf.org/arch/msg/dfs/mbQGpe0-cmz9F9AAFy_RLtPF-OQ/
+    - date: '1991-12-05'
+      subject: Minutes from Santa Fe DFS-WG meeting
+      url: https://mailarchive.ietf.org/arch/msg/dfs/amsPEKBt9W6wwst-BNnkahgNDiA/

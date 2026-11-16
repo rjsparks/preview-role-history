@@ -17,6 +17,18 @@ chairs:
     end:
       certainty: exact
       date: '2023-09-05'
+  evidence:
+  - kind: chair activity
+    first: '2019-06-26'
+    last: '2022-10-21'
+    messages: 4
+    examples:
+    - date: '2019-06-26'
+      subject: '[Secdispatch] Call for Agenda items'
+      url: https://mailarchive.ietf.org/arch/msg/secdispatch/I_K7v_-bf20YD0Ec57Se9r6IHUM/
+    - date: '2019-07-22'
+      subject: '[Secdispatch] Minutes & Jabber volunteers'
+      url: https://mailarchive.ietf.org/arch/msg/secdispatch/alhrRMZQ2XU8gkLmJvPBwSr1xZA/
 - person: 105815
   name: Roman Danyliw
   status: confirmed
@@ -57,6 +69,18 @@ chairs:
     end:
       certainty: group-closed
       date: '2026-08-28'
+  evidence:
+  - kind: chair activity
+    first: '2023-10-25'
+    last: '2025-10-24'
+    messages: 3
+    examples:
+    - date: '2023-10-25'
+      subject: '[Secdispatch] IETF118 - Draft agenda'
+      url: https://mailarchive.ietf.org/arch/msg/secdispatch/r_UPlTfFdBQPK77S6w4WlzQm3tA/
+    - date: '2025-07-10'
+      subject: '[Secdispatch] Agenda for Madrid'
+      url: https://mailarchive.ietf.org/arch/msg/secdispatch/sKjr3Pz0ri74JxY0WRxqQoVrY6A/
 - person: 111614
   name: Daniel Gillmor
   status: confirmed
@@ -92,6 +116,17 @@ chairs:
     subject: '[Secdispatch] Leadership changes for the WG'
     url: https://mailarchive.ietf.org/arch/msg/secdispatch/62oNNVCo7cp6ABOn0u5FVWaVUOM/
     excerpt: In turn, please join me in welcoming Mohit Sethi as the new co-chair of SecDispatch.
+  - kind: chair activity
+    first: '2021-03-13'
+    last: '2022-07-04'
+    messages: 6
+    examples:
+    - date: '2021-03-13'
+      subject: '[Secdispatch] Minutes from secdispatch @ IETF 110'
+      url: https://mailarchive.ietf.org/arch/msg/secdispatch/y_5duKX66CcB3lbQu7RJ-ejLKkc/
+    - date: '2021-07-06'
+      subject: '[Secdispatch] Call for agenda items - Secdispatch @ IETF 111'
+      url: https://mailarchive.ietf.org/arch/msg/secdispatch/aJ30siuX0uNVuV7Hv3ptYX-8ACg/
 - person: 115214
   name: Benjamin Kaduk
   status: confirmed
@@ -102,6 +137,15 @@ chairs:
     end:
       certainty: exact
       date: '2022-01-18'
+  evidence:
+  - kind: chair activity
+    first: '2019-03-11'
+    last: '2019-03-11'
+    messages: 1
+    examples:
+    - date: '2019-03-11'
+      subject: '[Secdispatch] my thoughts on the EDHOC interim'
+      url: https://mailarchive.ietf.org/arch/msg/secdispatch/K0xTR5Ygj2Rbdsfkcfi4vLKyRkI/
 - person: 119822
   name: Francesca Palombini
   status: confirmed
@@ -120,3 +164,14 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/secdispatch/62oNNVCo7cp6ABOn0u5FVWaVUOM/
     excerpt: Please join me in thanking Francesca Palombini for her leadership as co-chair of SecDispatch
       as she departs to officially joins the IESG next week.
+  - kind: chair activity
+    first: '2019-12-03'
+    last: '2021-02-04'
+    messages: 10
+    examples:
+    - date: '2019-12-03'
+      subject: '[Secdispatch] IETF 106 minutes'
+      url: https://mailarchive.ietf.org/arch/msg/secdispatch/EJ2kjPZZwFtzmlGjYPXOYSH9bzI/
+    - date: '2020-02-20'
+      subject: '[Secdispatch] Call for agenda items at IETF107'
+      url: https://mailarchive.ietf.org/arch/msg/secdispatch/2AJkVIE9wGEaNVb4-yxxjnzatEM/

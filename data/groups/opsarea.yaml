@@ -24,20 +24,6 @@ chairs:
   - kind: session requests
     meetings:
     - '66'
-    - '68'
-    - '70'
-    - '71'
-    - '72'
-    - '73'
-    - '74'
-    - '75'
-    - '76'
-    - '77'
-    - '78'
-    - '79'
-    - '80'
-    - '81'
-    - '82'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
 - person: 20959
   name: Joel Jaeggli
@@ -70,6 +56,25 @@ chairs:
       certainty: between
       not_before: '2011-12-09'
       not_after: '2017-03-30'
+- person: 104212
+  name: Rob Austein
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2009-11-16'
+    end:
+      certainty: approximate
+      date: '2009-11-16'
+    notes:
+    - end dated by list message of 2009-11-16
+  evidence:
+  - kind: list message
+    date: '2009-11-16'
+    says: end
+    subject: '[OPS-AREA] DNSOPS'
+    url: https://mailarchive.ietf.org/arch/msg/ops-area/OaUG3YVXptvB8gVyGAPwJxENpTY/
+    excerpt: Rob Austein has expressed a wish to step down as chair of DNSOPS.
 - person: 105682
   name: Benoît Claise
   status: confirmed
@@ -81,6 +86,18 @@ chairs:
     end:
       certainty: exact
       date: '2017-03-30'
+  evidence:
+  - kind: chair activity
+    first: '2013-07-22'
+    last: '2015-06-12'
+    messages: 4
+    examples:
+    - date: '2013-07-22'
+      subject: '[OPS-AREA] call for agenda items for the OPSAREA open meeting at IETF-87'
+      url: https://mailarchive.ietf.org/arch/msg/ops-area/Kk347mFQihqPOQFveDl89np5h-c/
+    - date: '2014-06-25'
+      subject: '[OPS-AREA] call for agenda items for the OPSAREA open meeting at IETF-89'
+      url: https://mailarchive.ietf.org/arch/msg/ops-area/rvperRfFrMrsZl2Tpxr5KZTu6aQ/
 - person: 107859
   name: Mahesh Jethanandani
   status: confirmed

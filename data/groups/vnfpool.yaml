@@ -27,3 +27,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2014-09-11'
+  evidence:
+  - kind: chair activity
+    first: '2014-06-30'
+    last: '2014-08-14'
+    messages: 2
+    examples:
+    - date: '2014-06-30'
+      subject: '[vnfpool] Call for BoF agenda items'
+      url: https://mailarchive.ietf.org/arch/msg/vnfpool/PlbkMDTnRF8WFE1E1Uu1ma-o74w/
+    - date: '2014-08-14'
+      subject: '[vnfpool] BoF minutes'
+      url: https://mailarchive.ietf.org/arch/msg/vnfpool/j_IBeSUIMU7HBlCtnJM6Wl8a2Gk/

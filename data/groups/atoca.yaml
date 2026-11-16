@@ -45,6 +45,20 @@ chairs:
       certainty: group-closed
       date: '2012-11-13'
   evidence:
+  - kind: chair activity
+    first: '2012-02-24'
+    last: '2012-10-02'
+    messages: 5
+    examples:
+    - date: '2012-02-24'
+      subject: '[atoca] Draft Agenda'
+      url: https://mailarchive.ietf.org/arch/msg/atoca/rTSumi7lTS9nz_vq0i_J71lVdU0/
+    - date: '2012-08-17'
+      subject: '[atoca] ATOCA Milestones'
+      url: https://mailarchive.ietf.org/arch/msg/atoca/oi3PEpdozubpjB97fHBYxJoHCYc/
+    - date: '2012-10-02'
+      subject: '[atoca] Call for adoption: draft-barnes-atoca-escape'
+      url: https://mailarchive.ietf.org/arch/msg/atoca/Kp7VczMi9G-acVXWGSJgvDhNzpY/
   - kind: session requests
     meetings:
     - '80'

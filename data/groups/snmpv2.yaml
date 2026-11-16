@@ -18,3 +18,15 @@ chairs:
     end:
       certainty: group-closed
       date: '1995-12-06'
+  evidence:
+  - kind: chair activity
+    first: '1995-01-04'
+    last: '1995-01-26'
+    messages: 2
+    examples:
+    - date: '1995-01-04'
+      subject: Interim Meeting, Consensus Check
+      url: https://mailarchive.ietf.org/arch/msg/snmpv2/ig2RSCGCyW3GG3KhjyRydFYGKJo/
+    - date: '1995-01-26'
+      subject: Interim Meeting in Dallas
+      url: https://mailarchive.ietf.org/arch/msg/snmpv2/h5cuDdjjDi3dlJ_cTlwiEkdWA8g/

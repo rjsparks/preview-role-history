@@ -16,8 +16,22 @@ chairs:
       not_after: '2009-11-08'
     end:
       certainty: evidence-only
-      not_before: '2010-03-21'
+      not_before: '2010-04-23'
   evidence:
+  - kind: chair activity
+    first: '2009-11-12'
+    last: '2010-04-23'
+    messages: 3
+    examples:
+    - date: '2009-11-12'
+      subject: '[sip-clf] IETF 76 Minutes posted'
+      url: https://mailarchive.ietf.org/arch/msg/sip-clf/6lvSADEPW1w1eo86yEAe08ldvgQ/
+    - date: '2010-01-18'
+      subject: '[sip-clf] WGLC: SIPCLF Problem Statement (draft-gurbani-sipclf-problem-statement-01)'
+      url: https://mailarchive.ietf.org/arch/msg/sip-clf/jiTX0N2rqc2MBPbKXBbbn8y8x9Q/
+    - date: '2010-04-23'
+      subject: '[sip-clf] SIPCLF IETF 77 Meeting Minutes posted'
+      url: https://mailarchive.ietf.org/arch/msg/sip-clf/irGQqwV9WPQCHXms9DH3qnJU2Go/
   - kind: session requests
     meetings:
     - '76'
@@ -37,6 +51,14 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 78
   evidence:
+  - kind: chair activity
+    first: '2011-12-07'
+    last: '2011-12-07'
+    messages: 1
+    examples:
+    - date: '2011-12-07'
+      subject: '[sip-clf] WG Last Call: draft-ietf-sipclf-format-03'
+      url: https://mailarchive.ietf.org/arch/msg/sip-clf/5umCec3m5GLHhizXyVzdBSI3iaE/
   - kind: session requests
     meetings:
     - '78'

@@ -27,3 +27,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2025-05-29'
+  evidence:
+  - kind: chair activity
+    first: '2024-10-02'
+    last: '2025-02-11'
+    messages: 12
+    examples:
+    - date: '2024-10-02'
+      subject: '[nasr] Doodle for NASR interim'
+      url: https://mailarchive.ietf.org/arch/msg/nasr/4xEboY19vZwSzk4-j-rAVSAKvPQ/
+    - date: '2024-10-07'
+      subject: '[nasr] Interim Date'
+      url: https://mailarchive.ietf.org/arch/msg/nasr/CEMYgJYisu0RnFzHCxLHdsDJMU4/

@@ -21,13 +21,24 @@ chairs:
     date: '2025-02-20'
     subject: 'WG Action: Rechartered Domain Keys Identified Mail (dkim)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/QO-NwGQ-s4oxAog1lDhf1sqbWiU/
+  - kind: chair activity
+    first: '2025-04-04'
+    last: '2026-05-08'
+    messages: 4
+    examples:
+    - date: '2025-04-04'
+      subject: '[Ietf-dkim] IETF 122 DKIM Meeting Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/ietf-dkim/fbYPiNHgzWBWA8iBSZ_IhqCwX9o/
+    - date: '2025-07-14'
+      subject: '[Ietf-dkim] Next draft adoption / Agenda for Madrid meeting'
+      url: https://mailarchive.ietf.org/arch/msg/ietf-dkim/qIrkmhg9whbTyh-KkF3SmvG6JvM/
 - person: 19177
   name: Stephen Farrell
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2006-03-19'
+      not_after: '2006-02-21'
     end:
       certainty: evidence-only
       not_before: '2011-03-27'
@@ -36,6 +47,23 @@ chairs:
     date: '2010-06-08'
     subject: 'WG Action: RECHARTER: Domain Keys Identified Mail (dkim)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/8nmXArxxndlM9IIgChmzSjayOGU/
+  - kind: chair activity
+    first: '2006-02-21'
+    last: '2008-11-28'
+    messages: 14
+    examples:
+    - date: '2006-02-21'
+      subject: '[ietf-dkim] Draft DKIM agenda for Dallas.'
+      url: https://mailarchive.ietf.org/arch/msg/ietf-dkim/qDDJl0AdQKPA9hDCi_XcnIChwwE/
+    - date: '2006-03-09'
+      subject: '[ietf-dkim] WG last call on threats draft'
+      url: https://mailarchive.ietf.org/arch/msg/ietf-dkim/c1a7rbOhXvxMrieAd3B_rpl77dE/
+    - date: '2006-03-09'
+      subject: '[ietf-dkim] Draft agenda for Dallas...'
+      url: https://mailarchive.ietf.org/arch/msg/ietf-dkim/mD7syeGj6UZ4YMvxoa1PFgxpoUY/
+    - date: '2008-03-11'
+      subject: '[ietf-dkim] WGLC on overview document'
+      url: https://mailarchive.ietf.org/arch/msg/ietf-dkim/XiYD0VTUMRn-VQk9RGk8ZL0bomI/
   - kind: session requests
     meetings:
     - '65'
@@ -53,15 +81,35 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2006-07-09'
+      not_after: '2006-03-28'
     end:
       certainty: evidence-only
-      not_before: '2010-06-08'
+      not_before: '2011-04-12'
   evidence:
   - kind: WG Action
     date: '2010-06-08'
     subject: 'WG Action: RECHARTER: Domain Keys Identified Mail (dkim)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/8nmXArxxndlM9IIgChmzSjayOGU/
+  - kind: chair activity
+    first: '2006-03-28'
+    last: '2011-04-12'
+    messages: 9
+    examples:
+    - date: '2006-03-28'
+      subject: '[ietf-dkim] Draft DKIM minutes from IETF65'
+      url: https://mailarchive.ietf.org/arch/msg/ietf-dkim/TvOjJNpDOP-g0hwuA4Kpbaqc5T8/
+    - date: '2006-04-05'
+      subject: '[ietf-dkim] Dallas meeting minutes accepted.'
+      url: https://mailarchive.ietf.org/arch/msg/ietf-dkim/F23IHjO7nzdfZ59wJKjGCSoiffQ/
+    - date: '2010-10-04'
+      subject: '[ietf-dkim] Working group last call on draft-ietf-dkim-rfc4871bis'
+      url: https://mailarchive.ietf.org/arch/msg/ietf-dkim/0HLLHKDKdZy13RKqeewBv0STKhA/
+    - date: '2011-04-12'
+      subject: '[ietf-dkim] Working Group Last Call on 4871bis'
+      url: https://mailarchive.ietf.org/arch/msg/ietf-dkim/k1DpS4pC78A76qIn7McrwAASjpo/
+    - date: '2011-04-12'
+      subject: '[ietf-dkim] Working Group Last Call on mailinglists'
+      url: https://mailarchive.ietf.org/arch/msg/ietf-dkim/s83_M2I-W4fYUfotlvapZWpCwCs/
   - kind: session requests
     meetings:
     - '66'
@@ -84,6 +132,27 @@ chairs:
       date: '2025-03-19'
     end:
       certainty: ongoing
+  evidence:
+  - kind: chair activity
+    first: '2011-05-02'
+    last: '2026-09-23'
+    messages: 15
+    examples:
+    - date: '2011-05-02'
+      subject: '[ietf-dkim] WGLC version of drafts posted'
+      url: https://mailarchive.ietf.org/arch/msg/ietf-dkim/UDNc2Zc0bZpS86XsJ5SEW1XJIao/
+    - date: '2025-03-26'
+      subject: '[Ietf-dkim] Minutes from IETF 122 -- not yet...'
+      url: https://mailarchive.ietf.org/arch/msg/ietf-dkim/kO4NjS5p7lzlPkF0CSahOww_85c/
+    - date: '2025-03-31'
+      subject: '[Ietf-dkim] Call for Adoption: draft-gondwana-dkim2-modification-alegbra'
+      url: https://mailarchive.ietf.org/arch/msg/ietf-dkim/Z99QuL-FZgZ5y3UnzdCpx8lS5yY/
+    - date: '2025-03-31'
+      subject: '[Ietf-dkim] Call for Adoption: draft-gondwana-dkim2-motivation'
+      url: https://mailarchive.ietf.org/arch/msg/ietf-dkim/mpddNlDwTckfoBk214Q79TwiRQA/
+    - date: '2025-03-31'
+      subject: '[Ietf-dkim] Draft IETF 122 minutes uploaded'
+      url: https://mailarchive.ietf.org/arch/msg/ietf-dkim/NgTaOjg7KkUZw-CQckGF-3SlOOY/
 - person: 115244
   name: Tim Wicinski
   status: confirmed
@@ -122,3 +191,11 @@ chairs:
     date: '2025-02-06'
     subject: 'WG Review: Domain Keys Identified Mail (dkim)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/tkSJroGvtb4tH1iS6P3Mk4b-sas/
+  - kind: chair activity
+    first: '2023-04-04'
+    last: '2023-04-04'
+    messages: 1
+    examples:
+    - date: '2023-04-04'
+      subject: '[Ietf-dkim] Call for adoption'
+      url: https://mailarchive.ietf.org/arch/msg/ietf-dkim/2w7K-Mg8GOKjpPm_AozbriaLCak/

@@ -44,6 +44,15 @@ chairs:
     end:
       certainty: approximate
       date: '2014-07-04'
+  evidence:
+  - kind: chair activity
+    first: '2013-07-31'
+    last: '2013-07-31'
+    messages: 1
+    examples:
+    - date: '2013-07-31'
+      subject: '[dmarc-ietf] Draft DMARC BOF Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/dmarc/Q7Hr0F5bkBSFkNkj61OGhafe0y4/
 - person: 21684
   name: Barry Leiba
   status: confirmed
@@ -84,6 +93,26 @@ chairs:
     date: '2026-04-16'
     subject: 'WG Action: Rechartered Domain-based Message Authentication, Reporting & Conformance (dmarc)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/lSRQPcP4Lm2mJsCbSs7TGG7lKek/
+  - kind: chair activity
+    first: '2017-07-20'
+    last: '2023-07-06'
+    messages: 11
+    examples:
+    - date: '2017-07-20'
+      subject: '[dmarc-ietf] Draft minutes from DMARC session at IETF 99 (Prague)'
+      url: https://mailarchive.ietf.org/arch/msg/dmarc/3aDBDlKvwNhr19AhuSUcqmhW69k/
+    - date: '2018-03-11'
+      subject: '[dmarc-ietf] Agenda for IETF 101 DMARC session'
+      url: https://mailarchive.ietf.org/arch/msg/dmarc/hGr2LQhVQ1C7vrTeNBTg1HytfY4/
+    - date: '2018-07-15'
+      subject: '[dmarc-ietf] WGLC on draft-ietf-dmarc-rfc7601bis-02'
+      url: https://mailarchive.ietf.org/arch/msg/dmarc/HwtIVMwyBUTXuOOk-tVzLqmAa9w/
+    - date: '2018-07-16'
+      subject: '[dmarc-ietf] WGLC will be on ARC-16'
+      url: https://mailarchive.ietf.org/arch/msg/dmarc/jRy5qpfrUbt51Mmla2mN22cpifQ/
+    - date: '2018-07-17'
+      subject: '[dmarc-ietf] WGLC on draft-ietf-dmarc-arc-protocol-16'
+      url: https://mailarchive.ietf.org/arch/msg/dmarc/BDeQazPsFWekB5qlHiVq7N0SGv8/
   - kind: shepherded
     documents:
     - draft-ietf-dmarc-aggregate-reporting
@@ -134,6 +163,20 @@ chairs:
       certainty: exact
       date: '2021-04-15'
   evidence:
+  - kind: chair activity
+    first: '2020-06-13'
+    last: '2020-11-19'
+    messages: 3
+    examples:
+    - date: '2020-06-13'
+      subject: '[dmarc-ietf] Minutes from Interim uploaded'
+      url: https://mailarchive.ietf.org/arch/msg/dmarc/OM5Sr8eoIe87x0qCqWHChLLyfVE/
+    - date: '2020-08-10'
+      subject: '[dmarc-ietf] Call for Adoption: DMARC Use of the RFC5322.Sender Header Field'
+      url: https://mailarchive.ietf.org/arch/msg/dmarc/CMcfOuw6zwQGKJPwz7yAl9c2LTk/
+    - date: '2020-11-19'
+      subject: '[dmarc-ietf] Minutes for DMARC meeting'
+      url: https://mailarchive.ietf.org/arch/msg/dmarc/Ylt3cwl1LMrCmWy3wNxdPzYFyuQ/
   - kind: shepherded
     documents:
     - draft-ietf-dmarc-arc-protocol
@@ -161,6 +204,17 @@ chairs:
     date: '2018-12-07'
     subject: 'WG Action: Rechartered Domain-based Message Authentication, Reporting & Conformance (dmarc)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/dOmcGXJ8ph-wyc5iUyjX4nF9wbk/
+  - kind: chair activity
+    first: '2014-08-18'
+    last: '2014-11-21'
+    messages: 4
+    examples:
+    - date: '2014-08-18'
+      subject: '[dmarc-ietf] Start of DMARC WG + proposed milestones'
+      url: https://mailarchive.ietf.org/arch/msg/dmarc/fUAcpbeyxg0a6TtTeHMtNFUM0Is/
+    - date: '2014-09-14'
+      subject: '[dmarc-ietf] Milestone 1 wiki updated'
+      url: https://mailarchive.ietf.org/arch/msg/dmarc/t3O-tHOQIJp0340K5tJ-WOku6nw/
   - kind: shepherded
     documents:
     - draft-ietf-dmarc-rfc7601bis

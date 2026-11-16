@@ -18,3 +18,15 @@ chairs:
     end:
       certainty: group-closed
       date: '1996-02-08'
+  evidence:
+  - kind: chair activity
+    first: '1992-07-17'
+    last: '1994-08-01'
+    messages: 6
+    examples:
+    - date: '1992-07-17'
+      subject: IETF meeting minutes
+      url: https://mailarchive.ietf.org/arch/msg/pem/1tlnJk7RIgouohq2Xq14wWXd1vc/
+    - date: '1992-11-20'
+      subject: PEM WG minutes
+      url: https://mailarchive.ietf.org/arch/msg/pem/nOF5AIIX2QyP7gFR_L1BKcyvvaM/

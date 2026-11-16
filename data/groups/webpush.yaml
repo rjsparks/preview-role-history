@@ -18,6 +18,26 @@ chairs:
       certainty: group-closed
       date: '2017-12-07'
   evidence:
+  - kind: chair activity
+    first: '2014-11-14'
+    last: '2017-02-13'
+    messages: 14
+    examples:
+    - date: '2014-11-14'
+      subject: '[Webpush] Minutes online'
+      url: https://mailarchive.ietf.org/arch/msg/webpush/NC6GmHbrYKx5kAn9iYjxmsvoKxY/
+    - date: '2015-03-17'
+      subject: '[Webpush] Agenda for IETF92'
+      url: https://mailarchive.ietf.org/arch/msg/webpush/bp7Ohu6VdDjdM9MeRk3KXn07QC0/
+    - date: '2015-09-09'
+      subject: '[Webpush] Call for Adoption : encryption draft as a WG item'
+      url: https://mailarchive.ietf.org/arch/msg/webpush/4vwMshpoDpC1rt-b9j6IUkg2Nis/
+    - date: '2016-05-16'
+      subject: '[Webpush] WGLC for draft-ietf-webpush-protocol-05'
+      url: https://mailarchive.ietf.org/arch/msg/webpush/6s1lgkp0q9iu7bZ0M0UpY6X7RpU/
+    - date: '2016-06-23'
+      subject: '[Webpush] WGLC for draft-ietf-webpush-protocol (again)'
+      url: https://mailarchive.ietf.org/arch/msg/webpush/-0H0of_Us0KnP58Ffx1EI9cHVJM/
   - kind: shepherded
     documents:
     - draft-ietf-webpush-protocol
@@ -49,6 +69,14 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/webpush/eFyiuL-mtGvtci-gMt8lRCE3-Xw/
     excerpt: In order to facilitate moving the final Webpush items to completion, Phillip Sorber has agreed
       to come on as co-chair of Webpush.
+  - kind: chair activity
+    first: '2017-04-25'
+    last: '2017-04-25'
+    messages: 1
+    examples:
+    - date: '2017-04-25'
+      subject: '[Webpush] WGLC for draft-ietf-webpush-encryption-08'
+      url: https://mailarchive.ietf.org/arch/msg/webpush/wfRoiYk3oyEOY4L_km2fcCrcqjk/
   - kind: shepherded
     documents:
     - draft-ietf-webpush-encryption

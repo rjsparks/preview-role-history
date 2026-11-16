@@ -27,6 +27,15 @@ chairs:
     end:
       certainty: exact
       date: '2017-09-28'
+  evidence:
+  - kind: chair activity
+    first: '2017-07-03'
+    last: '2017-07-03'
+    messages: 1
+    examples:
+    - date: '2017-07-03'
+      subject: '[Ideas] Draft Agenda for IETF99'
+      url: https://mailarchive.ietf.org/arch/msg/ideas/fxbTHRCFENdxcdxb_ecGOBqrSbs/
 - person: 121160
   name: Padma Pillay-Esnault
   status: confirmed
@@ -42,3 +51,14 @@ chairs:
     date: '2017-09-29'
     subject: 'WG Review: IDentity Enabled Networks (ideas)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Cdy1nxzKzStkBJkwZ04bDiB5afM/
+  - kind: chair activity
+    first: '2016-12-11'
+    last: '2017-04-13'
+    messages: 2
+    examples:
+    - date: '2016-12-11'
+      subject: '[Ideas] Minutes of IDEAS side meeting @IETF97'
+      url: https://mailarchive.ietf.org/arch/msg/ideas/2UzD9yOCABW-3o9crat-fsm9Fow/
+    - date: '2017-04-13'
+      subject: '[Ideas] IDEAS @IETF98 Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/ideas/OAuopLKONpRrFHozwDOzVqdnT6Q/

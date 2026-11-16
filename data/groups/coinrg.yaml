@@ -17,6 +17,18 @@ chairs:
     end:
       certainty: group-closed
       date: '2025-03-21'
+  evidence:
+  - kind: chair activity
+    first: '2019-02-15'
+    last: '2023-11-02'
+    messages: 44
+    examples:
+    - date: '2019-02-15'
+      subject: '[Coin] Agenda Items'
+      url: https://mailarchive.ietf.org/arch/msg/coin/f5omzwNYDqqtsbHaZtMES4wcrlQ/
+    - date: '2019-03-08'
+      subject: '[Coin] Draft Agenda for Prague'
+      url: https://mailarchive.ietf.org/arch/msg/coin/V_RPDbZ2uzoAK0ZT70wMfAERn8g/
 - person: 123468
   name: Eve Schooler
   status: confirmed
@@ -27,6 +39,18 @@ chairs:
     end:
       certainty: group-closed
       date: '2025-03-21'
+  evidence:
+  - kind: chair activity
+    first: '2023-04-15'
+    last: '2023-12-01'
+    messages: 2
+    examples:
+    - date: '2023-04-15'
+      subject: '[Coin] COINRG minutes - IETF 116'
+      url: https://mailarchive.ietf.org/arch/msg/coin/GDr5X_HD5Azs_IoZNFRNyZ6wZ8s/
+    - date: '2023-12-01'
+      subject: '[Coin] IETF 118 COINRG minutes'
+      url: https://mailarchive.ietf.org/arch/msg/coin/o4LiMZGmvMXMCyhJ9syPnVi_2lg/
 - person: 125277
   name: Jianfei(Jeffrey) HE
   status: confirmed
@@ -38,6 +62,17 @@ chairs:
       certainty: group-closed
       date: '2025-03-21'
   evidence:
+  - kind: chair activity
+    first: '2021-08-19'
+    last: '2023-08-17'
+    messages: 5
+    examples:
+    - date: '2021-08-19'
+      subject: '[Coin] Draft minutes of COIN RG in IETF111'
+      url: https://mailarchive.ietf.org/arch/msg/coin/neFoBLOGI3s6gU8zdWnozvk8Hu4/
+    - date: '2022-03-03'
+      subject: '[Coin] Minutes of the interim meeting and some words from the cochairs'
+      url: https://mailarchive.ietf.org/arch/msg/coin/GrCQV27NiAYxsUUQHxsLYpewNuU/
   - kind: shepherded
     documents:
     - draft-irtf-coinrg-use-cases

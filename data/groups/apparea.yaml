@@ -94,22 +94,6 @@ chairs:
       certainty: between
       not_before: '2011-12-09'
       not_after: '2017-03-30'
-- person: 106459
-  name: Dinara Suleymanova
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: evidence-only
-      not_after: '2007-03-18'
-    end:
-      certainty: evidence-only
-      not_before: '2007-07-22'
-  evidence:
-  - kind: session requests
-    meetings:
-    - '68'
-    - '69'
-    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
 - person: 110077
   name: Alissa Cooper
   status: confirmed

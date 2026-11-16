@@ -13,16 +13,70 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2003-04-11'
       not_before: '1999-10-22'
     end:
       certainty: group-closed
       date: '2008-06-16'
     notes:
     - start moved earlier by session request for IETF 65
+    - widened to cover last calls and adoption calls on the group list
   evidence:
+  - kind: chair activity
+    first: '2000-07-24'
+    last: '2006-10-30'
+    messages: 7
+    examples:
+    - date: '2000-07-24'
+      subject: Agenda items?
+      url: https://mailarchive.ietf.org/arch/msg/imapext/eAt-H4-7ROuX-93Tkko-wr26uXg/
+    - date: '2001-08-21'
+      subject: Minutes soon....
+      url: https://mailarchive.ietf.org/arch/msg/imapext/KlzaDOAzpsQ5IN8eaJuj7RvvUnM/
+    - date: '2003-04-11'
+      subject: WG last call on draft-ietf-imapext-condstore-00.txt
+      url: https://mailarchive.ietf.org/arch/msg/imapext/7CkYzifuFnM0TxBlDDrA5xOLBnk/
   - kind: session requests
     meetings:
     - '65'
     - '67'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 22971
+  name: Lisa Dusseault
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: approximate
+      date: '2004-03-30'
+    end:
+      certainty: evidence-only
+      not_before: '2005-10-27'
+    notes:
+    - start dated by list message of 2004-03-30
+  evidence:
+  - kind: list message
+    date: '2004-03-30'
+    says: start
+    subject: New WG Co-Chair
+    url: https://mailarchive.ietf.org/arch/msg/imapext/aQLQvM0EKleKKDpdUWtL3P1nwh8/
+    excerpt: Please welcome Lisa Dusseault as WG co-chair.
+  - kind: chair activity
+    first: '2004-11-05'
+    last: '2005-10-27'
+    messages: 9
+    examples:
+    - date: '2004-11-05'
+      subject: Proposed agenda for IMAPEXT
+      url: https://mailarchive.ietf.org/arch/msg/imapext/okdHgvyfnVxTFBktE54s40qHLDQ/
+    - date: '2004-12-08'
+      subject: IMAPEXT Interim WG meeting
+      url: https://mailarchive.ietf.org/arch/msg/imapext/i5zabSJvYeelHujn8ETQQGHFBn4/
+    - date: '2004-12-09'
+      subject: WG last call for IMAP ACL small-scope changes (RFC2086bis)
+      url: https://mailarchive.ietf.org/arch/msg/imapext/fRO5PuT8D-FfyZeystknwHkPwZo/
+    - date: '2005-02-04'
+      subject: WG last call for ANNOTATE Feb 4-18
+      url: https://mailarchive.ietf.org/arch/msg/imapext/5_PclWhoHOXUb4UXqG5hbGHQoBo/
+    - date: '2005-05-16'
+      subject: WG Last Call of LISTEXT draft 13
+      url: https://mailarchive.ietf.org/arch/msg/imapext/TB6vxc77YLyUYunnz0VDts5rGqY/

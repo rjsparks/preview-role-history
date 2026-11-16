@@ -18,3 +18,15 @@ chairs:
     end:
       certainty: group-closed
       date: '1994-03-21'
+  evidence:
+  - kind: chair activity
+    first: '1992-04-20'
+    last: '1992-11-19'
+    messages: 2
+    examples:
+    - date: '1992-04-20'
+      subject: Final UCP WG Minutes
+      url: https://mailarchive.ietf.org/arch/msg/ucp/i5H06qd5zU2i9xYhHAraJ_cE1SY/
+    - date: '1992-11-19'
+      subject: Minutes of UCP meeting on 11/18/92
+      url: https://mailarchive.ietf.org/arch/msg/ucp/8rJ-oEWG4MV47QZlIfWrXxMLx84/

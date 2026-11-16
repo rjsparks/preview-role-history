@@ -18,6 +18,18 @@ chairs:
     end:
       certainty: group-closed
       date: '2006-07-05'
+  evidence:
+  - kind: chair activity
+    first: '2002-07-17'
+    last: '2002-11-19'
+    messages: 2
+    examples:
+    - date: '2002-07-17'
+      subject: '[Ipoverib] IETF-54 IPoIB meeting minutes'
+      url: https://mailarchive.ietf.org/arch/msg/ipoverib/07KECfDbaKZOsSHrgjMWTxzrzQU/
+    - date: '2002-11-19'
+      subject: '[Ipoverib] IETF-55 IPoIB WG meeting minutes'
+      url: https://mailarchive.ietf.org/arch/msg/ipoverib/G1uzRPhVzOL-g9DETaUN5twJjIA/
 - person: 21575
   name: Bill Strahm
   status: confirmed
@@ -29,3 +41,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2006-07-05'
+  evidence:
+  - kind: chair activity
+    first: '2001-12-03'
+    last: '2003-12-16'
+    messages: 3
+    examples:
+    - date: '2001-12-03'
+      subject: '[Ipoverib] Tentative agenda for IETF meeting'
+      url: https://mailarchive.ietf.org/arch/msg/ipoverib/3km3jv2VJKUdt7HE9VrkgNdcpnk/
+    - date: '2001-12-28'
+      subject: '[Ipoverib] Meeting minutes from the 12/10/01 meeting'
+      url: https://mailarchive.ietf.org/arch/msg/ipoverib/dUpzFwH5BaW_OtsYY4rjy86hLNg/

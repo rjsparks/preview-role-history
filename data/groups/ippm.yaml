@@ -7,6 +7,33 @@ started: '1997-10-02'
 closed: '2026-11-04'
 history_url: https://datatracker.ietf.org/group/ippm/history/
 chairs:
+- person: 5841
+  name: Merike Kaeo
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2003-10-27'
+    end:
+      certainty: approximate
+      date: '2003-12-18'
+    notes:
+    - end dated by list message of 2003-12-18
+  evidence:
+  - kind: list message
+    date: '2003-10-27'
+    says: end
+    subject: '[ippm] New ippm co-chair: Henk Uijterwaal'
+    url: https://mailarchive.ietf.org/arch/msg/ippm/D8J3XdyC_1ye6QD5QUpd-QYMisc/
+    excerpt: Merike Kaeo has decided to step down as the co-chair of the IPPM working group because of
+      her increasing focus on the scurity area.
+  - kind: list message
+    date: '2003-12-18'
+    says: end
+    subject: '[ippm] draft ietf58 ippm minutes'
+    url: https://mailarchive.ietf.org/arch/msg/ippm/s3kdkqWNRujzBmLWunsAI4VAHo4/
+    excerpt: There was no bashing, but Matt welcomed Henk Uijterwaal as the new co-chair, replacing Merike
+      Kaeo who is now focusing on security work.
 - person: 100603
   name: Henk Uijterwaal
   status: confirmed
@@ -19,6 +46,7 @@ chairs:
       date: '2012-11-27'
     notes:
     - start moved earlier by session request for IETF 76
+    - widened to cover last calls and adoption calls on the group list
     - start dated by list message of 2003-10-27
   evidence:
   - kind: list message
@@ -34,6 +62,26 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/ippm/s3kdkqWNRujzBmLWunsAI4VAHo4/
     excerpt: There was no bashing, but Matt welcomed Henk Uijterwaal as the new co-chair, replacing Merike
       Kaeo who is now focusing on security work.
+  - kind: chair activity
+    first: '2003-11-10'
+    last: '2012-10-24'
+    messages: 63
+    examples:
+    - date: '2003-11-10'
+      subject: '[ippm] Agenda for the IPPM WG (Thu 13/11, 13:00)'
+      url: https://mailarchive.ietf.org/arch/msg/ippm/hm_PdNos2PNcqgRw_OZxckznlho/
+    - date: '2003-12-18'
+      subject: '[ippm] draft ietf58 ippm minutes'
+      url: https://mailarchive.ietf.org/arch/msg/ippm/s3kdkqWNRujzBmLWunsAI4VAHo4/
+    - date: '2004-10-07'
+      subject: '[ippm] WGLC on draft-ietf-ippm-reordering-07.txt'
+      url: https://mailarchive.ietf.org/arch/msg/ippm/rIXBwHRVCwdCj6RpXKWZAPloQ3E/
+    - date: '2004-12-06'
+      subject: '[ippm] WGLC on draft-ietf-ippm-reordering-08.txt'
+      url: https://mailarchive.ietf.org/arch/msg/ippm/zIwOUVP_TS7Yndso7tkirfIZgrQ/
+    - date: '2006-01-04'
+      subject: '[ippm] WGLC on draft-ietf-ippm-reordering'
+      url: https://mailarchive.ietf.org/arch/msg/ippm/mtb3VmWbnYz6wA23cA2e7YsERfA/
   - kind: session requests
     meetings:
     - '76'
@@ -49,14 +97,32 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2003-05-16'
       not_before: '1997-10-02'
     end:
       certainty: exact
       date: '2012-11-27'
     notes:
     - start moved earlier by session request for IETF 65
+    - widened to cover last calls and adoption calls on the group list
   evidence:
+  - kind: chair activity
+    first: '2003-04-02'
+    last: '2011-04-29'
+    messages: 24
+    examples:
+    - date: '2003-04-02'
+      subject: '[ippm] draft minutes of the IPPM meeting at IETF56'
+      url: https://mailarchive.ietf.org/arch/msg/ippm/L5ZdVBVrPxfVa7IS3JXV9SxJASg/
+    - date: '2003-04-14'
+      subject: '[ippm] Minutes for IPPM at IETF 56 / San Francisco'
+      url: https://mailarchive.ietf.org/arch/msg/ippm/tGe6ypvEf0q-819LkBSB4UjTXrM/
+    - date: '2003-05-16'
+      subject: '[ippm] Working Group Last Call: draft-ietf-ippm-metrics-registry-04.txt'
+      url: https://mailarchive.ietf.org/arch/msg/ippm/2cD9zzSvVu0ooNd0b4ydQMzxf24/
+    - date: '2008-06-11'
+      subject: '[ippm] WGLC for draft-ietf-ippm-duplicate-03'
+      url: https://mailarchive.ietf.org/arch/msg/ippm/llkl-OqJHiqAeKkRDt74ytwMZrM/
   - kind: session requests
     meetings:
     - '65'
@@ -94,6 +160,26 @@ chairs:
     date: '2017-08-29'
     subject: 'WG Action: Rechartered IP Performance Measurement (ippm)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/PcnLIuYz0bws_hiOWOfcgRLKX70/
+  - kind: chair activity
+    first: '2012-11-29'
+    last: '2019-11-18'
+    messages: 46
+    examples:
+    - date: '2012-11-29'
+      subject: '[ippm] Draft minutes from IETF 85 in Atlanta'
+      url: https://mailarchive.ietf.org/arch/msg/ippm/mXmsiwqUQI8WYqrL0K8ZI5fDmQI/
+    - date: '2013-02-21'
+      subject: '[ippm] DRAFT agenda for IETF 86 Orlando posted'
+      url: https://mailarchive.ietf.org/arch/msg/ippm/bVpXGuH1os6ctqwoLL_DqepxfF4/
+    - date: '2013-10-03'
+      subject: '[ippm] WGLC announcement for draft-ietf-ippm-testplan-rfc2680'
+      url: https://mailarchive.ietf.org/arch/msg/ippm/VjJxnsva2tHSJisA2oFoHVzNGDg/
+    - date: '2014-04-24'
+      subject: '[ippm] WGLC on draft-ietf-ippm-lmap-path'
+      url: https://mailarchive.ietf.org/arch/msg/ippm/l4M6RY9kKSd0pFCcZq-iWpn-dnE/
+    - date: '2014-06-04'
+      subject: '[ippm] WGLC for draft-ietf-ippm-rate-problem-05'
+      url: https://mailarchive.ietf.org/arch/msg/ippm/Ke1wKv2xDBmV8Q7-kkcHsXNTYYI/
   - kind: shepherded
     documents:
     - draft-ietf-ippm-active-passive
@@ -134,6 +220,17 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/ippm/q7E7gAcCtB5Vx4pS8yM8A_ARJRs/
     excerpt: I've asked Bill Cerveny and Brian Trammell (on cc) to be the new co-chairs, and they should
       be showing up on the webpages and aliases like soon.
+  - kind: chair activity
+    first: '2015-08-04'
+    last: '2015-10-05'
+    messages: 2
+    examples:
+    - date: '2015-08-04'
+      subject: '[ippm] Draft Minutes From IPPM93 in Prague'
+      url: https://mailarchive.ietf.org/arch/msg/ippm/_haN2aYR0jfJaM47nLMqZq0A1ik/
+    - date: '2015-10-05'
+      subject: '[ippm] Call for agenda items'
+      url: https://mailarchive.ietf.org/arch/msg/ippm/g57fvSOvbAsgPdBzXeN_MOVmHsw/
   - kind: shepherded
     documents:
     - draft-ietf-ippm-2330-update
@@ -167,6 +264,26 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/ippm/VvMsqBs4K6XJFhDvnR7f-4wrAQs/
     excerpt: I'm very pleased to announce that I appointed Marcus Ihlar and Thomas Graf as the new directorate
       chairs.
+  - kind: chair activity
+    first: '2021-11-12'
+    last: '2026-02-26'
+    messages: 15
+    examples:
+    - date: '2021-11-12'
+      subject: '[ippm] Draft minutes'
+      url: https://mailarchive.ietf.org/arch/msg/ippm/mfmZsIW-_4ScER78cbWxT34ZmQU/
+    - date: '2021-12-17'
+      subject: '[ippm] WG Last Call for draft-ietf-ippm-ioam-ipv6-options'
+      url: https://mailarchive.ietf.org/arch/msg/ippm/670Mza_CCvZ1UGagNT7ewLk2-do/
+    - date: '2022-03-29'
+      subject: '[ippm] WGLC for draft-ietf-ippm-ioam-conf-state'
+      url: https://mailarchive.ietf.org/arch/msg/ippm/NPIu2Q9NfhWZb8_UIcDcDqWdSFM/
+    - date: '2022-09-01'
+      subject: '[ippm] Call for adoption of PM on LAG'
+      url: https://mailarchive.ietf.org/arch/msg/ippm/fREqTmpc03S520xgaSIn7U3hYWY/
+    - date: '2023-03-31'
+      subject: '[ippm] Draft minutes published'
+      url: https://mailarchive.ietf.org/arch/msg/ippm/cnhv2rsxnGFS3Eb_EuWdvhutogE/
   - kind: shepherded
     documents:
     - draft-ietf-ippm-alt-mark-yang
@@ -198,6 +315,26 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/ippm/kL9j8g7iKlE0O0-SHst06YkzIZw/
     excerpt: The other announcement is that Tommy Pauly agreed to serve as an additional co-chair for
       IPPM.
+  - kind: chair activity
+    first: '2018-06-26'
+    last: '2024-12-10'
+    messages: 47
+    examples:
+    - date: '2018-06-26'
+      subject: '[ippm] Draft IPPM agenda for IETF 102 in Montreal'
+      url: https://mailarchive.ietf.org/arch/msg/ippm/pebw_r0v5K00eX4NJ9IqeP_lbNA/
+    - date: '2018-07-23'
+      subject: '[ippm] Minutes from IETF 102 Meeting'
+      url: https://mailarchive.ietf.org/arch/msg/ippm/LrJtlLSHBE8X9D8wF6_NPP5Njjc/
+    - date: '2018-10-08'
+      subject: '[ippm] Adoption call for draft-fioccola-ippm-multipoint-alt-mark'
+      url: https://mailarchive.ietf.org/arch/msg/ippm/FZVlw9-xgqH0HWbXw4LHmwbMfeA/
+    - date: '2019-01-10'
+      subject: '[ippm] WG Last Call: draft-ietf-ippm-initial-registry & draft-ietf-ippm-metric-registry'
+      url: https://mailarchive.ietf.org/arch/msg/ippm/nZIBkTzGhjEBLBTwtBSia7xZfMc/
+    - date: '2019-07-08'
+      subject: '[ippm] Adoption call for draft-mirsky-ippm-stamp-option-tlv'
+      url: https://mailarchive.ietf.org/arch/msg/ippm/WfDOSosv_TLoEwIKEub4Fz3eL-E/
   - kind: shepherded
     documents:
     - draft-ietf-ippm-capacity-metric-method
@@ -226,6 +363,14 @@ chairs:
     subject: '[ippm] Welcome Ian Swett as new chair!'
     url: https://mailarchive.ietf.org/arch/msg/ippm/Cgqonv3r4BEuylnYZrZv-Z71Vqs/
     excerpt: I just added Ian Swett as a new chair to IPPM.
+  - kind: chair activity
+    first: '2020-05-22'
+    last: '2020-05-22'
+    messages: 1
+    examples:
+    - date: '2020-05-22'
+      subject: '[ippm] WGLC for STAMP Extensions'
+      url: https://mailarchive.ietf.org/arch/msg/ippm/fCwrTKvIIxy8h7jtmX8yNcsYa1E/
 - person: 125623
   name: Thomas Graf
   status: confirmed
@@ -237,6 +382,17 @@ chairs:
       certainty: group-closed
       date: '2026-11-04'
   evidence:
+  - kind: chair activity
+    first: '2025-07-11'
+    last: '2026-04-16'
+    messages: 4
+    examples:
+    - date: '2025-07-11'
+      subject: '[ippm] Initial BMWG/IPPM Agenda for IETF 123'
+      url: https://mailarchive.ietf.org/arch/msg/ippm/EScMeFheT4K6jYP0bNwiEFhiTdU/
+    - date: '2025-09-14'
+      subject: '[ippm] IPPM/BMWG IETF 124 and Interim Joint Session'
+      url: https://mailarchive.ietf.org/arch/msg/ippm/TXZZDeTGFr1l0VKJipqU08HJ7ik/
   - kind: shepherded
     documents:
     - draft-ietf-ippm-ioam-data-integrity

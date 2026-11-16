@@ -29,6 +29,17 @@ chairs:
     date: '2007-06-12'
     subject: 'WG Action: RECHARTER: MIPv6 Signaling and Handoff Optimization (mipshop)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/8F2I-tYEsj4s5OYDIqr9fbbpETA/
+  - kind: chair activity
+    first: '2005-09-02'
+    last: '2008-09-10'
+    messages: 3
+    examples:
+    - date: '2005-09-02'
+      subject: '[MIPSHOP] IETF#63 Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/mipshop/9Q0RtBTBs_9uaiznZ3rWwSu8ZRQ/
+    - date: '2005-12-08'
+      subject: '[Mipshop] MIPSHOP meeting minutes for IETF 64'
+      url: https://mailarchive.ietf.org/arch/msg/mipshop/0nNbku5bW-9nIouEVdUUXPfavM8/
   - kind: session requests
     meetings:
     - '65'
@@ -46,6 +57,7 @@ chairs:
       date: '2010-09-07'
     notes:
     - start moved earlier by session request for IETF 68
+    - widened to cover last calls and adoption calls on the group list
     - start dated by list message of 2006-09-01
   evidence:
   - kind: WG Action
@@ -58,6 +70,26 @@ chairs:
     subject: '[Mipshop] new mipshop co-chair'
     url: https://mailarchive.ietf.org/arch/msg/mipshop/xii5Fvko2lhE9GjOLI9NFds7NVM/
     excerpt: I am pleased to announce that Vijay Devarapalli has been selected as a new co-chair for MIPSHOP.
+  - kind: chair activity
+    first: '2006-09-11'
+    last: '2009-08-12'
+    messages: 30
+    examples:
+    - date: '2006-09-11'
+      subject: '[Mipshop] Milestones Update'
+      url: https://mailarchive.ietf.org/arch/msg/mipshop/-NQFpk7M2RYf4WQfOrCXL88QvXg/
+    - date: '2006-10-03'
+      subject: '[Mipshop] WG Last Call on draft-ietf-mipshop-cga-cba-01.txt'
+      url: https://mailarchive.ietf.org/arch/msg/mipshop/jdYs_WnOtFsntd8QIHP4ec1o5zE/
+    - date: '2006-10-25'
+      subject: '[Mipshop] MIPSHOP Draft Agenda for IETF 67'
+      url: https://mailarchive.ietf.org/arch/msg/mipshop/xdGv_DZZvVPMfdeFr5me8zaRsDk/
+    - date: '2006-12-14'
+      subject: '[Mipshop] WG last call on draft-ietf-mipshop-cga-cba-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/mipshop/-yizLjirQcq9-JikEZnpTiDqPDA/
+    - date: '2007-03-11'
+      subject: '[Mipshop] WG last call on draft-ietf-mipshop-mis-ps'
+      url: https://mailarchive.ietf.org/arch/msg/mipshop/nEqCq5wHovcbeS3wiCD9gCugHCM/
   - kind: session requests
     meetings:
     - '68'
@@ -74,7 +106,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2006-02-21'
+      not_after: '2003-07-27'
     end:
       certainty: approximate
       date: '2006-07-31'
@@ -97,6 +129,24 @@ chairs:
     excerpt: Gabriel Montenegro is stepping down as a co-chair of MIPSHOP, after having served years in
       this role and having taken the first incarnation of the WG to its successful conclusion (thank you
       Gabriel!).
+  - kind: chair activity
+    first: '2003-07-27'
+    last: '2006-04-20'
+    messages: 9
+    examples:
+    - date: '2003-07-27'
+      subject: '[Mipshop] preliminary minutes for mipshop sent'
+      url: https://mailarchive.ietf.org/arch/msg/mipshop/cyJNQArQnLWLkIl7JvJPNipe6Vo/
+    - date: '2003-07-27'
+      subject: '[Mipshop] Minutes for the MIPv6 Signaling and Handoff Optimization BOF (mipshop) - ietf
+        57'
+      url: https://mailarchive.ietf.org/arch/msg/mipshop/Merbz3XW_Hy_Tl5sNcla-Hj0UxE/
+    - date: '2003-11-03'
+      subject: '[Mipshop] working group last call on FMIPv6: draft: draft-ietf-mipshop-fast-mipv6-00.txt'
+      url: https://mailarchive.ietf.org/arch/msg/mipshop/FE3QZykOAG_2CRAMhkMcMwXrFfQ/
+    - date: '2003-11-03'
+      subject: '[Mipshop] working group last call on HMIPv6: draft-ietf-mipshop-hmipv6-00.txt'
+      url: https://mailarchive.ietf.org/arch/msg/mipshop/8bBmN5AdxvlEH1hsLFb1zXWUOC8/
   - kind: session requests
     meetings:
     - '66'

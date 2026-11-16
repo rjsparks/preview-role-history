@@ -29,6 +29,26 @@ chairs:
     date: '2025-02-20'
     subject: 'WG Action: Rechartered Mail Maintenance (mailmaint)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/aHmYu5lABlhJB5WjlkbNqqbxUSw/
+  - kind: chair activity
+    first: '2024-07-28'
+    last: '2026-11-07'
+    messages: 32
+    examples:
+    - date: '2024-07-28'
+      subject: '[mailmaint] Call for Adoption - Updated Use of the Expires Message Header Field'
+      url: https://mailarchive.ietf.org/arch/msg/mailmaint/M1LQbtgYExmOgL1hSFrkSAtDH54/
+    - date: '2024-07-28'
+      subject: '[mailmaint] Call for Adoption - Wrong Recipient URL for Handling Misdirected Emails'
+      url: https://mailarchive.ietf.org/arch/msg/mailmaint/Cn-jfCwScpbKYDFV6W4T8TeknXs/
+    - date: '2024-07-28'
+      subject: '[mailmaint] Call for Adoption - Mail Autoconfig'
+      url: https://mailarchive.ietf.org/arch/msg/mailmaint/ecMo8L5dIw-mY4seKzTZ9w2RiLU/
+    - date: '2024-10-16'
+      subject: '[mailmaint] Draft Agenda for Dublin'
+      url: https://mailarchive.ietf.org/arch/msg/mailmaint/1_clZTdRs9svMvpz4tZkIQWv4SY/
+    - date: '2024-10-31'
+      subject: '[mailmaint] Final Agenda for Dublin'
+      url: https://mailarchive.ietf.org/arch/msg/mailmaint/rBOScxJeXWlddovSuqEtIohuyKo/
   - kind: shepherded
     documents:
     - draft-ietf-mailmaint-imap-objectid-bis
@@ -44,6 +64,17 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: chair activity
+    first: '2025-03-20'
+    last: '2025-05-16'
+    messages: 2
+    examples:
+    - date: '2025-03-20'
+      subject: '[mailmaint] Call For Adoption: Personal Data Portability Archive'
+      url: https://mailarchive.ietf.org/arch/msg/mailmaint/6iYVzK-kLX1lUAgsNTtmANv0hWE/
+    - date: '2025-05-16'
+      subject: '[mailmaint] Milestones'
+      url: https://mailarchive.ietf.org/arch/msg/mailmaint/lUzJaYsoophyov6JOpG_AxT_SbU/
   - kind: shepherded
     documents:
     - draft-ietf-mailmaint-autoconfig

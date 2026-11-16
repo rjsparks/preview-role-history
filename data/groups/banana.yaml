@@ -27,3 +27,12 @@ chairs:
     end:
       certainty: group-closed
       date: '2017-10-05'
+  evidence:
+  - kind: chair activity
+    first: '2017-03-30'
+    last: '2017-03-30'
+    messages: 1
+    examples:
+    - date: '2017-03-30'
+      subject: '[Banana] Charter Text w/Milestones'
+      url: https://mailarchive.ietf.org/arch/msg/banana/_7RJCjOsFSzyQlCfiFglZtCHaNk/

@@ -25,7 +25,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2004-06-02'
+      not_after: '2003-11-03'
     end:
       certainty: evidence-only
       not_before: '2006-03-19'
@@ -34,6 +34,17 @@ chairs:
     date: '2004-06-02'
     subject: 'WG Action: RECHARTER: Layer 3 Virtual Private Networks (l3vpn)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/tczL4i8G3mpB271Xucf47UrsY-Q/
+  - kind: chair activity
+    first: '2003-11-03'
+    last: '2005-10-11'
+    messages: 5
+    examples:
+    - date: '2003-11-03'
+      subject: Agenda items for l3vpn in Minneapolis
+      url: https://mailarchive.ietf.org/arch/msg/l3vpn/d4q9hnE4aGc9pOTMRrl7bJioJJs/
+    - date: '2003-11-11'
+      subject: Draft Agenda for Working Group meeting
+      url: https://mailarchive.ietf.org/arch/msg/l3vpn/KvZm0KeFndKhq0TCrBhN6cmSnMs/
   - kind: session requests
     meetings:
     - '65'
@@ -44,7 +55,7 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-03-21'
+      date: '2009-06-03'
       not_before: '2003-06-09'
     end:
       certainty: between
@@ -52,6 +63,7 @@ chairs:
       not_after: '2014-03-05'
     notes:
     - start moved earlier by WG Action announcement of 2011-03-21
+    - widened to cover last calls and adoption calls on the group list
   evidence:
   - kind: WG Action
     date: '2011-03-21'
@@ -63,13 +75,27 @@ chairs:
     subject: Change in L3VPN Co-chair
     url: https://mailarchive.ietf.org/arch/msg/l3vpn/eoY6tQZtP_Ac-yFxXVfFte-Ltjw/
     excerpt: Danny McPherson has asked to step down as co-chair of the L3VPN working group.
+  - kind: chair activity
+    first: '2008-07-28'
+    last: '2009-06-03'
+    messages: 4
+    examples:
+    - date: '2008-07-28'
+      subject: Minutes and Meeting Materials - IETF 72
+      url: https://mailarchive.ietf.org/arch/msg/l3vpn/XkdPrtnAeKnui09RNUYFjwC0qTc/
+    - date: '2008-11-23'
+      subject: L3VPN @IETF73 Draft Minutes
+      url: https://mailarchive.ietf.org/arch/msg/l3vpn/hUWrs_k2AHtbEZOOsCcTZhQ-7Xs/
+    - date: '2009-06-03'
+      subject: 'WG Last Call: draft-ietf-l3vpn-mvpn-considerations-03'
+      url: https://mailarchive.ietf.org/arch/msg/l3vpn/e41H-jfR5UCrKZvFGa0nYgxuVhk/
 - person: 101568
   name: Ron Bonica
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2004-06-02'
+      not_after: '2003-07-22'
     end:
       certainty: evidence-only
       not_before: '2008-07-27'
@@ -78,6 +104,26 @@ chairs:
     date: '2004-06-02'
     subject: 'WG Action: RECHARTER: Layer 3 Virtual Private Networks (l3vpn)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/tczL4i8G3mpB271Xucf47UrsY-Q/
+  - kind: chair activity
+    first: '2003-07-22'
+    last: '2008-06-23'
+    messages: 18
+    examples:
+    - date: '2003-07-22'
+      subject: IETF 57 L3VPN Minutes
+      url: https://mailarchive.ietf.org/arch/msg/l3vpn/3bI6H5W-8m-vEzKpWgUaPX9TIMk/
+    - date: '2003-09-09'
+      subject: 'WG Last call: draft-ietf-l3vpn-security-framework-00.txt'
+      url: https://mailarchive.ietf.org/arch/msg/l3vpn/PoYnLr-8m38q7POJ6BGb5tVQQSU/
+    - date: '2003-10-09'
+      subject: WG Last Call
+      url: https://mailarchive.ietf.org/arch/msg/l3vpn/F-I3Y4gfotROgJ2CJYFM6-GGieY/
+    - date: '2004-01-30'
+      subject: 'WG Last Call: draft-ietf-l3vpn-mpls-vpn-mib-01'
+      url: https://mailarchive.ietf.org/arch/msg/l3vpn/B0mqa76D87dUFipEU2SmOBydx0I/
+    - date: '2005-03-10'
+      subject: IETF 62 minutes
+      url: https://mailarchive.ietf.org/arch/msg/l3vpn/DVgS5a76P3NHTsPWBLOJ3m2TR_8/
   - kind: session requests
     meetings:
     - '66'
@@ -94,11 +140,33 @@ chairs:
   - start:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2014-03-05'
+      not_after: '2012-10-04'
     end:
       certainty: group-closed
       date: '2014-10-22'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
   evidence:
+  - kind: chair activity
+    first: '2012-08-29'
+    last: '2014-10-28'
+    messages: 13
+    examples:
+    - date: '2012-08-29'
+      subject: Minutes of L3VPN IETF 84 sessions
+      url: https://mailarchive.ietf.org/arch/msg/l3vpn/ruUsIKmRjEI0U-mUqCtb5J99Ocw/
+    - date: '2012-10-04'
+      subject: WG Last Call for draft-ietf-l3vpn-virtual-hub
+      url: https://mailarchive.ietf.org/arch/msg/l3vpn/LkUNZeWRExbtQOh_6g_-am6JRyk/
+    - date: '2013-04-11'
+      subject: 'IETF 86 L3VPN minutes: please read'
+      url: https://mailarchive.ietf.org/arch/msg/l3vpn/5tYoyt7IGJvOXfC058hv8DPFG5A/
+    - date: '2013-08-21'
+      subject: WG Last Call for draft-ietf-l3vpn-mldp-vrf-in-band-signaling
+      url: https://mailarchive.ietf.org/arch/msg/l3vpn/wZQGEsnLkvW3O6eORFa1OvgvK-0/
+    - date: '2014-01-06'
+      subject: WG Last Call for draft-ietf-l3vpn-mvpn-mldp-nlri
+      url: https://mailarchive.ietf.org/arch/msg/l3vpn/cqPXox68_VqfHRH9Zcya7sSDQ2A/
   - kind: shepherded
     documents:
     - draft-bonica-l3vpn-orf-covering-prefixes
@@ -152,6 +220,26 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/l3vpn/eoY6tQZtP_Ac-yFxXVfFte-Ltjw/
     excerpt: I am very pleased to announce that Ben Niven-Jenkins has agreed to serve as co-chair (along
       with Marshall Eubanks, who will continue as co-chair).
+  - kind: chair activity
+    first: '2010-07-26'
+    last: '2011-12-06'
+    messages: 8
+    examples:
+    - date: '2010-07-26'
+      subject: Proposed new L3VPN milestones
+      url: https://mailarchive.ietf.org/arch/msg/l3vpn/tlkdYnhvVc8s8AH9skiGWpMotws/
+    - date: '2010-08-16'
+      subject: Discussing additional milestones that could be adopted by the WG?
+      url: https://mailarchive.ietf.org/arch/msg/l3vpn/xGTKJIkwvDikD6sSAUAh8sS9jkI/
+    - date: '2010-11-15'
+      subject: 'WG Last Call: draft-ietf-l3vpn-mvpn-infra-addrs-01'
+      url: https://mailarchive.ietf.org/arch/msg/l3vpn/TpnD-CWO7Fd-wlPqR0W_QbEP5P8/
+    - date: '2011-05-11'
+      subject: WG Last Call for draft-ietf-l3vpn-mvpn-infra-addrs-04
+      url: https://mailarchive.ietf.org/arch/msg/l3vpn/wnotJofHHkuQWNMJ5RD_im6Gjk0/
+    - date: '2011-12-06'
+      subject: 'WG Last Call: draft-ietf-l3vpn-mvpn-wildcards-00'
+      url: https://mailarchive.ietf.org/arch/msg/l3vpn/n1HGUrpfqmjRCdZ0PlGjzKLnzBc/
   - kind: session requests
     meetings:
     - '77'
@@ -169,11 +257,27 @@ chairs:
   - start:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2014-03-05'
+      not_after: '2014-01-08'
     end:
       certainty: group-closed
       date: '2014-10-22'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
   evidence:
+  - kind: chair activity
+    first: '2014-01-08'
+    last: '2014-10-19'
+    messages: 4
+    examples:
+    - date: '2014-01-08'
+      subject: WG adoption poll - draft-zzhang-l3vpn-mvpn-bidir-ingress-replication-01
+      url: https://mailarchive.ietf.org/arch/msg/l3vpn/6YC0qoxffSVOEsXTUvt51lqc6_k/
+    - date: '2014-06-12'
+      subject: WG Last Call on draft-ietf-l3vpn-pmsi-registry-02
+      url: https://mailarchive.ietf.org/arch/msg/l3vpn/qMn2XVnKWZQk5kqKqXdlgVHt9tg/
+    - date: '2014-10-08'
+      subject: WG Last Call on draft-ietf-l3vpn-mvpn-extranet
+      url: https://mailarchive.ietf.org/arch/msg/l3vpn/BYdxhymZlHE7dDFUtc2EFiTCdBs/
   - kind: shepherded
     documents:
     - draft-fang-l3vpn-virtual-pe

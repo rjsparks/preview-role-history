@@ -18,3 +18,12 @@ chairs:
     end:
       certainty: group-closed
       date: '1998-09-08'
+  evidence:
+  - kind: chair activity
+    first: '1996-12-15'
+    last: '1996-12-15'
+    messages: 1
+    examples:
+    - date: '1996-12-15'
+      subject: ISN WG Minutes
+      url: https://mailarchive.ietf.org/arch/msg/isn/K1j5T8xRA-0iCH5LcYjvs0pJW4o/

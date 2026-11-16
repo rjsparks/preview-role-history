@@ -18,3 +18,12 @@ chairs:
     end:
       certainty: group-closed
       date: '1993-02-02'
+  evidence:
+  - kind: chair activity
+    first: '1992-04-02'
+    last: '1992-04-02'
+    messages: 1
+    examples:
+    - date: '1992-04-02'
+      subject: Minutes from Santa Fe DISI meeting
+      url: https://mailarchive.ietf.org/arch/msg/disi/uvmw47FtDFFWCpVGyA6cbscIcvo/

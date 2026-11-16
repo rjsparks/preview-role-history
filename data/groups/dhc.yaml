@@ -13,10 +13,10 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2003-02-26'
+      not_after: '2001-11-27'
     end:
       certainty: evidence-only
-      not_before: '2008-07-27'
+      not_before: '2016-10-24'
   evidence:
   - kind: WG Action
     date: '2003-02-26'
@@ -34,6 +34,26 @@ chairs:
     date: '2007-10-23'
     subject: 'WG Action: RECHARTER: Dynamic Host Configuration WG (dhc)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/G7zYG3myD_loV97JOTT3WcVrDnM/
+  - kind: chair activity
+    first: '2001-11-27'
+    last: '2016-10-24'
+    messages: 89
+    examples:
+    - date: '2001-11-27'
+      subject: '[dhcwg] Call for WG meeting agenda items'
+      url: https://mailarchive.ietf.org/arch/msg/dhcwg/GGuI1btS_X7tADk3sa9bos1IWyM/
+    - date: '2001-11-28'
+      subject: '[dhcwg] Tentative agenda for DHC WG meeting in SLC'
+      url: https://mailarchive.ietf.org/arch/msg/dhcwg/Pg3QqBZRT2sVwsvpa9awDkfq1fk/
+    - date: '2002-07-02'
+      subject: '[dhcwg] WG last call for "Dynamic Host Configuration Protocol (DHCP) Server MIB"'
+      url: https://mailarchive.ietf.org/arch/msg/dhcwg/pzP7wOW0Ei2MP0yjnvruwxG-v88/
+    - date: '2002-07-02'
+      subject: '[dhcwg] WG last call for "DHCP Lease Query"'
+      url: https://mailarchive.ietf.org/arch/msg/dhcwg/jdROLc8pcRt5LGJwOReA5RMI_ok/
+    - date: '2002-07-26'
+      subject: '[dhcwg] WG last call for "DHCP Option for CableLabs Client Configuration"'
+      url: https://mailarchive.ietf.org/arch/msg/dhcwg/8uA9mAdlJDYV2_ZjCth-bGXt9F8/
   - kind: session requests
     meetings:
     - '71'
@@ -53,6 +73,7 @@ chairs:
       certainty: exact
       date: '2013-03-12'
     notes:
+    - widened to cover last calls and adoption calls on the group list
     - start dated by list message of 2009-04-16
   evidence:
   - kind: list message
@@ -61,6 +82,26 @@ chairs:
     subject: '[dhcwg] New dhc WG co-chair'
     url: https://mailarchive.ietf.org/arch/msg/dhcwg/8NEDQsIo8111Lk6otbnm2f2Y7ZQ/
     excerpt: I am pleased to announce that Ted Lemon has agreed to serve as dhc WG co-chair.
+  - kind: chair activity
+    first: '2009-05-08'
+    last: '2013-02-14'
+    messages: 61
+    examples:
+    - date: '2009-05-08'
+      subject: '[dhcwg] Minutes from IETF74 dhc meeting...'
+      url: https://mailarchive.ietf.org/arch/msg/dhcwg/last9D30Re6uw89zR2Bzfoh9YTw/
+    - date: '2009-05-13'
+      subject: '[dhcwg] IETF74 dhc working group meeting minutes posted...'
+      url: https://mailarchive.ietf.org/arch/msg/dhcwg/fZWdYSQYwo0llGFeBIglfvlf_kQ/
+    - date: '2009-09-21'
+      subject: '[dhcwg] WGLC on draft-ietf-dhc-opt-netboot'
+      url: https://mailarchive.ietf.org/arch/msg/dhcwg/snSzTZgb6sUyVyC2qqpohtsQ7qs/
+    - date: '2010-06-29'
+      subject: '[dhcwg] WGLC: draft-ietf-dhc-leasequery-by-remote-id'
+      url: https://mailarchive.ietf.org/arch/msg/dhcwg/Ct8E7S1tKwC6B0ZR1UPr7KvTaRs/
+    - date: '2010-09-14'
+      subject: '[dhcwg] Call for adoption: draft-lemon-dhcpv6-relay-supplied-options'
+      url: https://mailarchive.ietf.org/arch/msg/dhcwg/hdm_6wLYfSMErxYO1mvedOI1IZw/
 - person: 106173
   name: Stig Venaas
   status: unconfirmed
@@ -70,7 +111,7 @@ chairs:
       date: '2004-12-26'
     end:
       certainty: evidence-only
-      not_before: '2007-12-02'
+      not_before: '2007-12-23'
     notes:
     - start dated by list message of 2004-12-26
   evidence:
@@ -88,6 +129,17 @@ chairs:
     subject: '[dhcwg] Co-chair for dhc WG'
     url: https://mailarchive.ietf.org/arch/msg/dhcwg/-sLhuse2262UljDomD3tGiqey8U/
     excerpt: Stig Venaas has agreed to take on the role of co-chair of the dhc WG.
+  - kind: chair activity
+    first: '2005-07-11'
+    last: '2007-12-23'
+    messages: 7
+    examples:
+    - date: '2005-07-11'
+      subject: '[dhcwg] Draft agenda'
+      url: https://mailarchive.ietf.org/arch/msg/dhcwg/1xq4oni1Hk9T75Ome_8SKQ4i2s8/
+    - date: '2006-02-20'
+      subject: '[dhcwg] Agenda items and draft submission deadlines for Dallas'
+      url: https://mailarchive.ietf.org/arch/msg/dhcwg/Qg7HFOfgftk0Po-ByJBJsR9lKo0/
   - kind: session requests
     meetings:
     - '65'
@@ -136,6 +188,27 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/dhcwg/4Oauk6uwae7D598PlCJTd1tFPTc/
     excerpt: I'm very pleased to announce that Bernie Volz has agreed to become dhc WG co-chair, serving
       with John Brzozowski who will be continuing as co-chair.
+  - kind: chair activity
+    first: '2013-04-17'
+    last: '2023-10-23'
+    messages: 31
+    examples:
+    - date: '2013-04-17'
+      subject: '[dhcwg] WG Adoption Call - draft-lemon-dhc-topo-conf - Ends May 2, 2013'
+      url: https://mailarchive.ietf.org/arch/msg/dhcwg/hYPPc5qHUHN0arMGpeWoYoEpalA/
+    - date: '2013-04-17'
+      subject: '[dhcwg] WG Adoption Call - draft-bhandari-dhc-access-network-identifier-04 - Ends May
+        2, 2013'
+      url: https://mailarchive.ietf.org/arch/msg/dhcwg/TIF8AKqj7xkyvHTi3_pGnsZ7tio/
+    - date: '2013-05-23'
+      subject: '[dhcwg] IETF-87 (Berlin) Call for Agenda Items'
+      url: https://mailarchive.ietf.org/arch/msg/dhcwg/aw5s-3_-1j4SHE7Rbw-oKWgGGH4/
+    - date: '2013-07-01'
+      subject: '[dhcwg] Updated WG Milestones - Need Input from Authors!'
+      url: https://mailarchive.ietf.org/arch/msg/dhcwg/rxUHzAfvJKS4x53p3HMilqI9r74/
+    - date: '2013-10-17'
+      subject: '[dhcwg] WG Adoption Call - draft-jiang-dhc-sedhcpv6-02 - Ends November 11, 2013'
+      url: https://mailarchive.ietf.org/arch/msg/dhcwg/PTQJ_u_Ew4np3YOCOWmtvlRs5TQ/
   - kind: shepherded
     documents:
     - draft-ietf-dhc-addr-registration
@@ -178,6 +251,20 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/dhcwg/1Ugyq7oo5f0yCowHbmrCflmq098/
     excerpt: I am pleased to announce that John Brzozowski has agreed to take on a co-chair position in
       the DHC WG.
+  - kind: chair activity
+    first: '2009-05-14'
+    last: '2010-07-26'
+    messages: 7
+    examples:
+    - date: '2009-05-14'
+      subject: '[dhcwg] Agenda items for IETF75 dhcwg - First Call'
+      url: https://mailarchive.ietf.org/arch/msg/dhcwg/AZN21Lt3OFrRGwWjTsBAJ4Psceg/
+    - date: '2009-05-15'
+      subject: '[dhcwg] WGLC confirmation for draft-ietf-dhc-dhcpv4-bulk-leasequery'
+      url: https://mailarchive.ietf.org/arch/msg/dhcwg/E9rfeXcaXv4zoatPcmiBa9ST4EQ/
+    - date: '2010-03-16'
+      subject: '[dhcwg] DRAFT agenda for IETF77 dhcwg'
+      url: https://mailarchive.ietf.org/arch/msg/dhcwg/Rg7lMQgnZwqj981Znt7_TY44W5w/
   - kind: session requests
     meetings:
     - '73'
@@ -223,6 +310,23 @@ chairs:
     date: '2018-03-09'
     subject: 'WG Action: Rechartered Dynamic Host Configuration (dhc)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/LW0RQARG1iztzNoXk_W7ZKhazaY/
+  - kind: chair activity
+    first: '2011-06-06'
+    last: '2017-08-09'
+    messages: 8
+    examples:
+    - date: '2011-06-06'
+      subject: '[dhcwg] DHCPv6 Failover 2011-06-06 meeting minutes'
+      url: https://mailarchive.ietf.org/arch/msg/dhcwg/OiTFd0mVjVnsN4Fr_4qaabS7500/
+    - date: '2013-03-28'
+      subject: '[dhcwg] IETF86 DHC minutes available'
+      url: https://mailarchive.ietf.org/arch/msg/dhcwg/L-5UAQpocWxWC7jlK_byotv0-tA/
+    - date: '2013-04-03'
+      subject: '[dhcwg] Adoption call on draft-csl-dhc-dhcpv6-unknown-msg-3315update-00'
+      url: https://mailarchive.ietf.org/arch/msg/dhcwg/RgTnb79I_8bd429TTuAapHAgXp4/
+    - date: '2015-09-25'
+      subject: '[dhcwg] Call for adoption for draft-cui-dhc-dhcpv6-yang-04'
+      url: https://mailarchive.ietf.org/arch/msg/dhcwg/J3qxrL47ZHcSd7uUywuWnahMecI/
   - kind: shepherded
     documents:
     - draft-fkhp-dhc-dhcpv6-pd-relay-requirements
@@ -243,6 +347,17 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: chair activity
+    first: '2022-11-14'
+    last: '2025-03-06'
+    messages: 4
+    examples:
+    - date: '2022-11-14'
+      subject: '[dhcwg] IETF 115 DHC Meeting Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/dhcwg/I7va6fq6oTSbkAFpv0WbuAnIf2c/
+    - date: '2023-04-10'
+      subject: '[dhcwg] Meeting minutes - IETF - 116 DHC'
+      url: https://mailarchive.ietf.org/arch/msg/dhcwg/XBZ8AgiEBHSUzR4QnRPCyFb9EqI/
   - kind: shepherded
     documents:
     - draft-ietf-dhc-addr-notification

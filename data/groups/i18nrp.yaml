@@ -17,6 +17,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2018-09-26'
+  evidence:
+  - kind: chair activity
+    first: '2018-08-02'
+    last: '2018-08-02'
+    messages: 1
+    examples:
+    - date: '2018-08-02'
+      subject: '[I18nrp] Draft minutes'
+      url: https://mailarchive.ietf.org/arch/msg/i18nrp/zcDZvM8xuM1fCyRoOoz6rfbAMMI/
 - person: 105907
   name: Peter Saint-Andre
   status: confirmed
@@ -27,3 +36,12 @@ chairs:
     end:
       certainty: group-closed
       date: '2018-09-26'
+  evidence:
+  - kind: chair activity
+    first: '2018-07-10'
+    last: '2018-07-10'
+    messages: 1
+    examples:
+    - date: '2018-07-10'
+      subject: '[I18nrp] draft agenda'
+      url: https://mailarchive.ietf.org/arch/msg/i18nrp/4nPoVEbC0VrjrCp7FEhcHvsPpxw/

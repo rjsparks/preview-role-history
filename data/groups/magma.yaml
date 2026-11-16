@@ -28,11 +28,31 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2009-03-08'
+      date: '2003-10-28'
       not_before: '2001-06-20'
     end:
       certainty: group-closed
       date: '2009-03-08'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
+  evidence:
+  - kind: chair activity
+    first: '2003-07-21'
+    last: '2005-03-14'
+    messages: 6
+    examples:
+    - date: '2003-07-21'
+      subject: '[magma] MAGMA Minutes for IETF 57'
+      url: https://mailarchive.ietf.org/arch/msg/magma/Q5K8wTgkWz6Q7g3bp1F4TaRah54/
+    - date: '2003-10-28'
+      subject: '[magma] WG Last Call: draft-holbrook-idmr-igmpv3-ssm-05.txt'
+      url: https://mailarchive.ietf.org/arch/msg/magma/YpQ4onHH207Vlxqpb57y4lJnN2A/
+    - date: '2003-11-18'
+      subject: '[magma] MAGMA minutes for IETF 58'
+      url: https://mailarchive.ietf.org/arch/msg/magma/fNK_4zu7SE6H80szxvdQlqpFiw8/
+    - date: '2004-08-12'
+      subject: '[magma] WG Last Call: draft-ietf-magma-mrdisc-01.txt'
+      url: https://mailarchive.ietf.org/arch/msg/magma/yJrEn8GTfq7SQ3K8Kl-QGQ0cTOk/
 - person: 100664
   name: Brian Haberman
   status: confirmed
@@ -51,3 +71,23 @@ chairs:
     date: '2001-07-30'
     subject: 'WG ACTION: Multicast & Anycast Group Membership (magma)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/ZKk2V7EnCkjA0RpHe2M1V-rw6QU/
+  - kind: chair activity
+    first: '2002-05-08'
+    last: '2005-02-08'
+    messages: 19
+    examples:
+    - date: '2002-05-08'
+      subject: '[magma] Agenda items?'
+      url: https://mailarchive.ietf.org/arch/msg/magma/6x0Wi1O4zh0yVPrtPRHou4ThofQ/
+    - date: '2002-07-23'
+      subject: '[magma] draft minutes'
+      url: https://mailarchive.ietf.org/arch/msg/magma/cPnLDWZyqeUwlZmeUiiC0oF-rJ4/
+    - date: '2003-02-03'
+      subject: '[magma] WG Last Call: draft-ietf-magma-snoop-05.txt'
+      url: https://mailarchive.ietf.org/arch/msg/magma/QP7AbK25Q08_UkA0KyeNZTRZSWs/
+    - date: '2003-02-10'
+      subject: '[magma] WG Last Call: draft-ietf-magma-igmp-proxy-01.txt'
+      url: https://mailarchive.ietf.org/arch/msg/magma/ZydVxnctl-TAqr8QI8oQkCmkx8M/
+    - date: '2003-02-10'
+      subject: '[magma] WG Last Call: draft-ietf-magma-mrdssm-01.txt'
+      url: https://mailarchive.ietf.org/arch/msg/magma/4wizZsLY1YHvVVOak8pvRcb-wd0/

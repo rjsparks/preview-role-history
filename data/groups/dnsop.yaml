@@ -32,6 +32,26 @@ chairs:
     subject: '[DNSOP] dnsop co-chair announcement.'
     url: https://mailarchive.ietf.org/arch/msg/dnsop/b8Am42k9zGUKr3kxi0EfKkTMCJo/
     excerpt: Suzanne Woolf has accepted the role and will be joining Tim as co-chair.
+  - kind: chair activity
+    first: '2014-10-28'
+    last: '2025-02-06'
+    messages: 24
+    examples:
+    - date: '2014-10-28'
+      subject: '[DNSOP] call for adoption: draft-vandergaast-dnsop-edns-client-subnet'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/ZGTsdGfViMf1R1jQd1QdWhcfRKI/
+    - date: '2015-05-06'
+      subject: '[DNSOP] Interim DNSOP WG meeting on Special Use Names: some reading material'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/VnSjuXYiwd89K_mt05-CJLa0lbs/
+    - date: '2015-05-19'
+      subject: '[DNSOP] followup and proposed actions: RFC 6761 interim and next steps'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/0naJj_6yt3PkeGabV-XMBBEi8jc/
+    - date: '2015-09-16'
+      subject: '[DNSOP] Working Group Last Call for draft-ietf-dnsop-edns-client-subnet'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/hknoaYHizlUq6yNgfgVUjDchWSQ/
+    - date: '2017-02-02'
+      subject: '[DNSOP] WGLC for draft-ietf-dnsop-sutld-ps'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/9-m1LX2hhJxM3Lp-RZj2UihYLTM/
   - kind: shepherded
     documents:
     - draft-ietf-dnsop-7706bis
@@ -79,6 +99,26 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/dnsop/4nC4WAQHJHwYcZxM_CCIBDr5ZdE/
     excerpt: Last but not least, we would like to thank Dave Meyer again for his work as co-chair for
       the DNSOP working goup.
+  - kind: chair activity
+    first: '2003-05-29'
+    last: '2005-10-18'
+    messages: 34
+    examples:
+    - date: '2003-05-29'
+      subject: '[DNSOP] Agenda Items for Vienna'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/axw5GqJthb1Vh5OdhyV1IfeR4KA/
+    - date: '2003-07-08'
+      subject: Domain Name System Operations (dnsop) WG Agenda for IETF 57 (Vienna)
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/kSRrnxWmfNXubFvRhFgYdD-rOAk/
+    - date: '2004-03-23'
+      subject: '[dnsop] WG Last Call: draft-ietf-dnsop-misbehavior-against-aaaa-00.txt'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/9HVGUv9t10dZ3jqUcq3l21B1TXQ/
+    - date: '2004-03-23'
+      subject: '[dnsop] WG Last Call: draft-ietf-dnsop-ipv6-dns-issues-04.txt'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/KVhg84wHUMfGabIuvQhLphKD01o/
+    - date: '2004-04-28'
+      subject: '[dnsop] WGLC for draft-ietf-dnsop-ipv6-dns-issues-06.txt'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/0RiMpzLCs7eDR6IFv01hQfR1N_w/
 - person: 104212
   name: Rob Austein
   status: unconfirmed
@@ -102,20 +142,58 @@ chairs:
     subject: '[DNSOP] DNSOPS'
     url: https://mailarchive.ietf.org/arch/msg/dnsop/9-KX91ZRjelqPKJCwvLfitUzazU/
     excerpt: Rob Austein has expressed a wish to step down as chair of DNSOPS.
+  - kind: chair activity
+    first: '2004-11-19'
+    last: '2005-11-02'
+    messages: 4
+    examples:
+    - date: '2004-11-19'
+      subject: '[dnsop] WGLC on draft-ietf-dnsop-bad-dns-res-03.txt'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/7Ciwug9DDB-G06ugrsa91hBjwg8/
+    - date: '2005-02-23'
+      subject: '[dnsop] WGLC on draft-ietf-dnsop-dnssec-operational-practices-03'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/Q0WWq-OAMpmspfwAO5LzxmmO7rA/
+    - date: '2005-10-06'
+      subject: '[dnsop] WGLC on draft-ietf-dnsop-dnssec-operational-practices-05.txt'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/D0m51sz6hW3vym4oWqZENSLF56s/
+    - date: '2005-11-02'
+      subject: '[dnsop] Updated DNSOP agenda for IETF64'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/s0MQNfw0JAHMpx0T1jOQbLvSLQk/
 - person: 107363
   name: Peter Koch
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2006-03-09'
       not_before: '1999-05-18'
     end:
       certainty: exact
       date: '2013-12-20'
     notes:
     - start moved earlier by session request for IETF 65
+    - widened to cover last calls and adoption calls on the group list
   evidence:
+  - kind: chair activity
+    first: '2005-12-09'
+    last: '2012-08-23'
+    messages: 39
+    examples:
+    - date: '2005-12-09'
+      subject: '[dnsop] Draft DNSOP Vancouver minutes'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/Q6nTtQ_6gQYYWgs27rw0PmpoE60/
+    - date: '2006-03-04'
+      subject: '[dnsop] Call for Agenda Items for IETF 65'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/OF5TSvB_B0XMp0kJYAiW9tncW-U/
+    - date: '2006-03-09'
+      subject: '[dnsop] WGLC for draft-huston-6to4-reverse-dns-04.txt'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/K66AYm8IyBR1QV3whtHJ9Io0J5Q/
+    - date: '2006-08-08'
+      subject: '[dnsop] WGLC: draft-ietf-dnsop-default-local-zones-00.txt'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/18eteAw-0GckFEYYHukaNwDaUWM/
+    - date: '2006-10-26'
+      subject: '[dnsop] WGLC for draft-ietf-dnsop-reflectors-are-evil-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/U2EOqTRwPUifQL_q5kDbiyol-XU/
   - kind: session requests
     meetings:
     - '65'
@@ -145,13 +223,29 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2011-06-13'
       not_before: '1999-05-18'
     end:
       certainty: between
       not_before: '2013-03-13'
       not_after: '2013-12-20'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
   evidence:
+  - kind: chair activity
+    first: '2010-07-26'
+    last: '2012-08-09'
+    messages: 8
+    examples:
+    - date: '2010-07-26'
+      subject: '[DNSOP] Minutes of IETF-77 DNSOP WG'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/aBqrMkPEmbvMAPNXsW52Dx_hy0k/
+    - date: '2010-08-27'
+      subject: '[DNSOP] Minutes for WG meeting at IETF-78'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/oi-FW4UbmcENb3ff4b2lC6XxlQU/
+    - date: '2011-06-13'
+      subject: '[DNSOP] WGLC: draft-ietf-dnsop-dnssec-dps-framework-04.txt'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/GAsKRpwo4Drg-RXNuD3rIDp5b-8/
   - kind: shepherded
     documents:
     - draft-ietf-dnsop-dnssec-dps-framework
@@ -173,6 +267,20 @@ chairs:
     date: '2025-09-10'
     subject: 'WG Action: Rechartered Domain Name System Operations (dnsop)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/yC9NdahK0rmzn60_Dp7OYZSgI-k/
+  - kind: chair activity
+    first: '2025-05-28'
+    last: '2026-10-29'
+    messages: 4
+    examples:
+    - date: '2025-05-28'
+      subject: '[DNSOP] Working Group Last Call for draft-ietf-dnsop-cds-consistency'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/med-ORK40246WeDndieUf74lCMs/
+    - date: '2025-05-28'
+      subject: '[DNSOP] Call for Adoption for draft-sheth-dns-integration'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/1BtfsockeyjiJsukuOc3qEhFMF0/
+    - date: '2025-08-14'
+      subject: '[DNSOP] Call for Adoption for draft-shetho-dnsop-ds-automation'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/xukCnKB02RrVUPNrXVhXLWuKo5I/
   - kind: shepherded
     documents:
     - draft-ietf-dnsop-3901bis
@@ -197,6 +305,26 @@ chairs:
     date: '2014-06-27'
     subject: 'WG Action: Rechartered Domain Name System Operations (dnsop)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/7aMoqHBcMSIuE9WIVAO2YDHxND4/
+  - kind: chair activity
+    first: '2013-07-15'
+    last: '2025-03-31'
+    messages: 159
+    examples:
+    - date: '2013-07-15'
+      subject: '[DNSOP] Draft Agenda for IETF 87'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/c1NMFbqb4k2g4guHpQe3Mk9rIO8/
+    - date: '2013-08-02'
+      subject: '[DNSOP] Draft DNSOP Meeting Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/zRnoCeE5TDCL1OIpRLyJUr-s-QE/
+    - date: '2013-10-21'
+      subject: '[DNSOP] Call for Adoption: draft-andrews-dnsop-rfc6598-rfc6303'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/uMdE8LxeUXMWCYwjN2KJ_CO1jNU/
+    - date: '2013-12-07'
+      subject: '[DNSOP] Working Group Last Call for draft-ietf-dnsop-as112-dname-00'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/YtLGlhHCEmBV4DW4PifXiIIkWiw/
+    - date: '2013-12-07'
+      subject: '[DNSOP] Working Group Last Call for draft-ietf-dnsop-rfc6598-rfc6303-00'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/VbeVBsg8pfd_9BizgCNz5y-dtxo/
   - kind: shepherded
     documents:
     - draft-andrews-dns-no-response-issue
@@ -278,6 +406,26 @@ chairs:
     date: '2025-09-10'
     subject: 'WG Action: Rechartered Domain Name System Operations (dnsop)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/yC9NdahK0rmzn60_Dp7OYZSgI-k/
+  - kind: chair activity
+    first: '2018-06-25'
+    last: '2026-11-06'
+    messages: 64
+    examples:
+    - date: '2018-06-25'
+      subject: '[DNSOP] Working Group Last Call for: draft-ietf-dnsop-attrleaf'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/JdXblpzUWjlz1eoYQsM-E0A5CJw/
+    - date: '2018-06-27'
+      subject: '[DNSOP] Working Group Last Call for: draft-ietf-dnsop-attrleaf-fix'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/PDtlbtr3U5Dro5Ecg8hw0Tpwoqs/
+    - date: '2018-10-02'
+      subject: '[DNSOP] IETF 103: Call for agenda items'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/xoziVLnQuD8EveDDWEzt1AjtTLA/
+    - date: '2018-11-05'
+      subject: '[DNSOP] Volunteers for Minutes Takers and Jabber Scribes'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/idIXX-7xVEpYPc2v1_F_QcLwiqw/
+    - date: '2019-01-18'
+      subject: '[DNSOP] Call for Adoption: draft-song-atr-large-resp'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/pvUGkBzd0D8Y9p6y020XXvxvr58/
   - kind: shepherded
     documents:
     - draft-ietf-dnsop-attrleaf

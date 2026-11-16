@@ -27,3 +27,12 @@ chairs:
     end:
       certainty: group-closed
       date: '2025-09-08'
+  evidence:
+  - kind: chair activity
+    first: '2025-08-07'
+    last: '2025-08-07'
+    messages: 1
+    examples:
+    - date: '2025-08-07'
+      subject: '[fantel] FANTEL BoF Meeting Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/fantel/c5DenJt0Eolg-kO3p9fXRnw9jsg/

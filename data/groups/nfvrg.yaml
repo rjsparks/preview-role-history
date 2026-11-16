@@ -17,6 +17,18 @@ chairs:
     end:
       certainty: group-closed
       date: '2018-11-19'
+  evidence:
+  - kind: chair activity
+    first: '2014-08-22'
+    last: '2018-04-23'
+    messages: 12
+    examples:
+    - date: '2014-08-22'
+      subject: '[Nfvrg] IRTF NFVRG interim meeting in Bay Area, USA'
+      url: https://mailarchive.ietf.org/arch/msg/nfvrg/BmZQVGo_b2jUHYO1R0DuKdnHaHI/
+    - date: '2014-11-03'
+      subject: '[Nfvrg] Final Agenda for proposed NFVRG - IETF 91'
+      url: https://mailarchive.ietf.org/arch/msg/nfvrg/YItewapa8pEGIy_F-Ev2s4gIi6I/
 - person: 113084
   name: Diego Lopez
   status: confirmed
@@ -47,3 +59,18 @@ chairs:
     end:
       certainty: group-closed
       date: '2018-11-19'
+  evidence:
+  - kind: chair activity
+    first: '2015-03-11'
+    last: '2018-07-09'
+    messages: 15
+    examples:
+    - date: '2015-03-11'
+      subject: '[Nfvrg] Agenda for our meeting in Dallas'
+      url: https://mailarchive.ietf.org/arch/msg/nfvrg/ERayOXQd_PuOUOa5p4a5xrMDEr0/
+    - date: '2015-04-10'
+      subject: '[Nfvrg] Minutes of the IETF 92 meeting'
+      url: https://mailarchive.ietf.org/arch/msg/nfvrg/DDjYbOMk2mD1jqZUlBv2VHrkMx0/
+    - date: '2017-01-04'
+      subject: '[Nfvrg] Call for adoption of draft-natarajan-nfvrg-containers-for-nfv'
+      url: https://mailarchive.ietf.org/arch/msg/nfvrg/0X5vVOJo-HGXa28hesXsNnTUxp4/

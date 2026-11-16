@@ -17,3 +17,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2006-01-26'
+  evidence:
+  - kind: chair activity
+    first: '2005-07-06'
+    last: '2005-08-05'
+    messages: 3
+    examples:
+    - date: '2005-07-06'
+      subject: '[Hash] Proposed agenda for IETF 63 in Paris'
+      url: https://mailarchive.ietf.org/arch/msg/hash/PD6h67Exvbehia7IicotnNZGEIE/
+    - date: '2005-07-26'
+      subject: '[Hash] Revised proposed agenda for IETF 63 in Paris'
+      url: https://mailarchive.ietf.org/arch/msg/hash/_ib8OXnMgUUPHtyYa_ijOQpjUfE/

@@ -36,6 +36,26 @@ chairs:
     subject: Mark stepping down as QUIC WG chair
     url: https://mailarchive.ietf.org/arch/msg/quic/R5iRQvvdSFwo3jrQYhK5P9fGvRI/
     excerpt: Mark Nottingham has requested to step down as WG chair.
+  - kind: chair activity
+    first: '2016-10-26'
+    last: '2019-12-11'
+    messages: 39
+    examples:
+    - date: '2016-10-26'
+      subject: '[QUIC] First Interim planning -- availability poll'
+      url: https://mailarchive.ietf.org/arch/msg/quic/mtZPJWgzDkbfN4kbA3YEtJvi6eo/
+    - date: '2016-11-10'
+      subject: '[QUIC] QUIC WG Interim Meeting -- 24-26 January 2017'
+      url: https://mailarchive.ietf.org/arch/msg/quic/1PIVq7vaQUEglPawVGhqU-eWyCw/
+    - date: '2018-02-05'
+      subject: 'Call for Adoption: Invariants'
+      url: https://mailarchive.ietf.org/arch/msg/quic/uPhD2cPQze46J3haz0EGw_evrmY/
+    - date: '2018-02-05'
+      subject: 'Call for Adoption: QCRAM'
+      url: https://mailarchive.ietf.org/arch/msg/quic/Szj_NKeMfpGtI_ERBzP5WY59gIc/
+    - date: '2018-03-21'
+      subject: 'Working Group Last Call: QUIC Invariants'
+      url: https://mailarchive.ietf.org/arch/msg/quic/lEvcuJ0j0fHGBe-egLgk3yiEjlo/
   - kind: shepherded
     documents:
     - draft-ietf-quic-invariants
@@ -50,6 +70,15 @@ chairs:
     end:
       certainty: exact
       date: '2016-08-22'
+  evidence:
+  - kind: chair activity
+    first: '2016-07-25'
+    last: '2016-07-25'
+    messages: 1
+    examples:
+    - date: '2016-07-25'
+      subject: '[QUIC] QUIC BoF draft minutes posted'
+      url: https://mailarchive.ietf.org/arch/msg/quic/PcZAQlf49x2Dxv1-EQdJ78E3_IY/
 - person: 112773
   name: Lars Eggert
   status: confirmed
@@ -94,6 +123,20 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/quic/xRk1D3LX-xcnF39zUElR-_YRb2g/
     excerpt: In preparation for Lars Eggert having less time to do WG chairing as IETF chair, I am appointing
       a new WG chair.
+  - kind: chair activity
+    first: '2020-02-04'
+    last: '2020-11-04'
+    messages: 7
+    examples:
+    - date: '2020-02-04'
+      subject: Please send interim presentations
+      url: https://mailarchive.ietf.org/arch/msg/quic/hzmRgRJVSK1WGdpEV7XT9BBu5jI/
+    - date: '2020-07-30'
+      subject: Draft meeting minutes available, please check
+      url: https://mailarchive.ietf.org/arch/msg/quic/CjKbgOwLE8dcZuqdwMfZDJ8Pocc/
+    - date: '2020-09-17'
+      subject: 'Working Group Last Call: QUIC protocol drafts -30/-17'
+      url: https://mailarchive.ietf.org/arch/msg/quic/SIqU3HgJ0A8IHNH_vEOTuEWKaGM/
   - kind: shepherded
     documents:
     - draft-ietf-quic-recovery
@@ -132,6 +175,26 @@ chairs:
     date: '2025-10-08'
     subject: 'WG Action: Rechartered QUIC (quic)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/_vKewM99w_NSIWHZ7U1u-60bqME/
+  - kind: chair activity
+    first: '2018-02-14'
+    last: '2026-11-07'
+    messages: 43
+    examples:
+    - date: '2018-02-14'
+      subject: Multipath Milestones
+      url: https://mailarchive.ietf.org/arch/msg/quic/0Gj2gRXcgqUCuNnCubDDkwWOrhE/
+    - date: '2020-02-07'
+      subject: DRAFT minutes for the Zurich interim
+      url: https://mailarchive.ietf.org/arch/msg/quic/auOqIkwWcYRLqkTR2tzQDs1gnrY/
+    - date: '2020-06-10'
+      subject: 'Working Group Last Call: QUIC protocol drafts'
+      url: https://mailarchive.ietf.org/arch/msg/quic/F7wvKGnA1FJasmaE35XIxsc2Tno/
+    - date: '2021-05-17'
+      subject: 'Call for adoption: qlog documents (main schema, QUIC events, HTTP/3 & QPACK events)'
+      url: https://mailarchive.ietf.org/arch/msg/quic/fNxWYK84UjNzRJfPeU6DzU_lSW8/
+    - date: '2021-09-16'
+      subject: WGLC for Datagram Extension
+      url: https://mailarchive.ietf.org/arch/msg/quic/N8HG0Bdsc6kmw6yi8gs8_CVF6qU/
   - kind: shepherded
     documents:
     - draft-ietf-quic-bit-grease
@@ -172,6 +235,26 @@ chairs:
     subject: Appointing new QUIC WG chair
     url: https://mailarchive.ietf.org/arch/msg/quic/xRk1D3LX-xcnF39zUElR-_YRb2g/
     excerpt: Please welcome Matt Joras as new WG chair!
+  - kind: chair activity
+    first: '2021-01-21'
+    last: '2024-10-11'
+    messages: 15
+    examples:
+    - date: '2021-01-21'
+      subject: Agenda items for IETF 110
+      url: https://mailarchive.ietf.org/arch/msg/quic/wzeYRZl6UhpIqnsZtxifv2Ffv04/
+    - date: '2021-02-04'
+      subject: 'Working Group Last Call: QUIC Ops Drafts'
+      url: https://mailarchive.ietf.org/arch/msg/quic/UrwQrgqfg6S-3v9J_6Sk1KqPsgY/
+    - date: '2021-03-24'
+      subject: Version Negotiation Interim
+      url: https://mailarchive.ietf.org/arch/msg/quic/6K04UFoo88t8UsT4vxRcFeGZE68/
+    - date: '2021-03-30'
+      subject: 'Call For Adoption QUIC: delayed-ack'
+      url: https://mailarchive.ietf.org/arch/msg/quic/OT7FKT2iAP2CD3_HIOZ9WUXNukU/
+    - date: '2021-03-30'
+      subject: 'Call for adoption QUIC: QUIC bit grease'
+      url: https://mailarchive.ietf.org/arch/msg/quic/tUrQgkTXFiTkabVwB7VzmXhMb4Y/
   - kind: shepherded
     documents:
     - draft-ietf-quic-ack-frequency

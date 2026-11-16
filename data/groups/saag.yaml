@@ -17,6 +17,15 @@ chairs:
     end:
       certainty: exact
       date: '2017-03-30'
+  evidence:
+  - kind: chair activity
+    first: '2017-03-31'
+    last: '2017-03-31'
+    messages: 1
+    examples:
+    - date: '2017-03-31'
+      subject: '[saag] Draft minutes'
+      url: https://mailarchive.ietf.org/arch/msg/saag/ZfEOM50nlN63eGMrNIr7pqNeukk/
 - person: 19177
   name: Stephen Farrell
   status: confirmed
@@ -27,27 +36,38 @@ chairs:
     end:
       certainty: exact
       date: '2017-03-30'
+  evidence:
+  - kind: chair activity
+    first: '2011-12-16'
+    last: '2016-07-01'
+    messages: 12
+    examples:
+    - date: '2011-12-16'
+      subject: '[saag] Minutes from Taipei saag session...'
+      url: https://mailarchive.ietf.org/arch/msg/saag/z2bJ7hom3hRLtfIo_R5vOLh4MJQ/
+    - date: '2012-08-03'
+      subject: '[saag] draft minutes posted...'
+      url: https://mailarchive.ietf.org/arch/msg/saag/gytqBbLM8RWIOCJ3xnd1Uvsm3_c/
 - person: 19483
   name: Sean Turner
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-11-07'
+      date: '2011-12-09'
     end:
       certainty: between
       not_before: '2011-12-09'
       not_after: '2017-03-30'
-    notes:
-    - start moved earlier by session request for IETF 79
   evidence:
-  - kind: session requests
-    meetings:
-    - '79'
-    - '80'
-    - '81'
-    - '82'
-    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: chair activity
+    first: '2013-08-28'
+    last: '2013-08-28'
+    messages: 1
+    examples:
+    - date: '2013-08-28'
+      subject: '[saag] saag meeting minutes'
+      url: https://mailarchive.ietf.org/arch/msg/saag/GNQ73Qw0kj3alFkexT-UeqltRFQ/
 - person: 19790
   name: Tim Polk
   status: unconfirmed
@@ -59,6 +79,14 @@ chairs:
       certainty: evidence-only
       not_before: '2010-07-25'
   evidence:
+  - kind: chair activity
+    first: '2008-04-29'
+    last: '2008-04-29'
+    messages: 1
+    examples:
+    - date: '2008-04-29'
+      subject: '[saag] Minutes for SAAG session uploaded'
+      url: https://mailarchive.ietf.org/arch/msg/saag/obzuD5qH3_CbLhw3Lz6NGhZJsuo/
   - kind: session requests
     meetings:
     - '69'
@@ -85,6 +113,18 @@ chairs:
     end:
       certainty: exact
       date: '2022-01-18'
+  evidence:
+  - kind: chair activity
+    first: '2014-08-16'
+    last: '2018-03-20'
+    messages: 6
+    examples:
+    - date: '2014-08-16'
+      subject: '[saag] IETF90 Meeting Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/saag/3g_S2x6Oxz7ovG12mm4UpihRWhM/
+    - date: '2016-08-10'
+      subject: '[saag] Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/saag/_N1dV6deqQwYbw3pdNOD2a4rjI4/
 - person: 105815
   name: Roman Danyliw
   status: confirmed
@@ -105,6 +145,26 @@ chairs:
     end:
       certainty: exact
       date: '2022-01-18'
+- person: 111178
+  name: Matthew Miller
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2017-07-19'
+    end:
+      certainty: approximate
+      date: '2017-07-19'
+    notes:
+    - end dated by list message of 2017-07-19
+  evidence:
+  - kind: list message
+    date: '2017-07-19'
+    says: end
+    subject: '[saag] kitten report for IETF 99'
+    url: https://mailarchive.ietf.org/arch/msg/saag/leGGW2I1R9uGaXL_DkW03lRn0vI/
+    excerpt: We are also in the middle of a search for a new co-chair to replace Matthew Miller -- thanks
+      for your long service, Matt!
 - person: 112723
   name: Paul Wouters
   status: confirmed
@@ -144,6 +204,18 @@ chairs:
     end:
       certainty: exact
       date: '2022-03-23'
+  evidence:
+  - kind: chair activity
+    first: '2018-12-01'
+    last: '2021-02-09'
+    messages: 6
+    examples:
+    - date: '2018-12-01'
+      subject: '[saag] SAAG (IETF 103) minutes up'
+      url: https://mailarchive.ietf.org/arch/msg/saag/1KveDO2xr6FGZyWpImEECgLVTCs/
+    - date: '2019-03-08'
+      subject: '[saag] draft SAAG agenda for IETF 104 Prague'
+      url: https://mailarchive.ietf.org/arch/msg/saag/OzBy4CJN2uVt80LVbyN79KYOuyA/
 - person: 123703
   name: Deb Cooley
   status: confirmed

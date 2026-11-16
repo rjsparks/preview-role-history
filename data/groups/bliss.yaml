@@ -7,22 +7,6 @@ started: '2007-06-07'
 closed: '2013-02-26'
 history_url: https://datatracker.ietf.org/group/bliss/history/
 chairs:
-- person: 106459
-  name: Dinara Suleymanova
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: evidence-only
-      not_after: '2007-03-18'
-    end:
-      certainty: evidence-only
-      not_before: '2007-07-22'
-  evidence:
-  - kind: session requests
-    meetings:
-    - '68'
-    - '69'
-    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
 - person: 107520
   name: Shida Schubert
   status: confirmed
@@ -49,6 +33,20 @@ chairs:
     date: '2012-02-21'
     subject: 'WG Action: RECHARTER: Basic Level of Interoperability for SIP Services (bliss)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/OqmT1qrHVhWB58aBDfhJfkYt_L4/
+  - kind: chair activity
+    first: '2007-03-21'
+    last: '2009-11-03'
+    messages: 24
+    examples:
+    - date: '2007-03-21'
+      subject: '[BLISS] Minutes from IETF 68 available'
+      url: https://mailarchive.ietf.org/arch/msg/bliss/bIRhESqu3EbFUwVDVUxE4Av7DPk/
+    - date: '2007-06-05'
+      subject: '[BLISS] Internet-Drafts Submissions Cutoff Dates and Agenda for Chicago IETF'
+      url: https://mailarchive.ietf.org/arch/msg/bliss/NmrAV6QRJ46KPewYX3-ATtIcCGA/
+    - date: '2009-10-27'
+      subject: '[BLISS] WGLC for draft-ietf-bliss-shared-appearances'
+      url: https://mailarchive.ietf.org/arch/msg/bliss/Ca7_Cp-p3Q86W_YF9NaVYI1M-cY/
   - kind: session requests
     meetings:
     - '70'
@@ -82,3 +80,30 @@ chairs:
     subject: '[BLISS] BLISS co-chair changes'
     url: https://mailarchive.ietf.org/arch/msg/bliss/CMNLitP7GOFBreoWfeKorFyobQY/
     excerpt: As mentioned earlier, Jason Fischl has stepped down as BLISS co-chair.
+  - kind: chair activity
+    first: '2008-02-04'
+    last: '2008-02-04'
+    messages: 1
+    examples:
+    - date: '2008-02-04'
+      subject: '[BLISS] Minutes from MLA meeting of 1/29/08'
+      url: https://mailarchive.ietf.org/arch/msg/bliss/EVT14Jm4d8jomNYe-aM8sASUxHs/
+- person: 109569
+  name: Scott Lawrence
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: approximate
+      date: '2009-10-14'
+    end:
+      certainty: evidence-only
+      not_before: '2009-10-14'
+    notes:
+    - start dated by list message of 2009-10-14
+  evidence:
+  - kind: list message
+    date: '2009-10-14'
+    says: start
+    subject: '[BLISS] BLISS co-chair changes'
+    url: https://mailarchive.ietf.org/arch/msg/bliss/CMNLitP7GOFBreoWfeKorFyobQY/
+    excerpt: Scott Lawrence has joined Shida as co-chair.

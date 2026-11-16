@@ -47,6 +47,23 @@ chairs:
     subject: '[lisp] new working group chairs'
     url: https://mailarchive.ietf.org/arch/msg/lisp/gmFraKi3PNz7sSU8XDyFy-Grr8M/
     excerpt: Joel Halpern and Terry Manderson have agreed to chair the group.
+  - kind: chair activity
+    first: '2013-08-06'
+    last: '2017-12-15'
+    messages: 7
+    examples:
+    - date: '2013-08-06'
+      subject: '[lisp] Probably interim meeting'
+      url: https://mailarchive.ietf.org/arch/msg/lisp/ppormQvBWOpKYUe458zd0rF-Yis/
+    - date: '2013-08-13'
+      subject: '[lisp] WG Interim'
+      url: https://mailarchive.ietf.org/arch/msg/lisp/Jy_SkgwlRZsErlSp0wrwJ9js34k/
+    - date: '2014-10-08'
+      subject: '[lisp] WG Last Call on draft-ietf-lisp-eid-block-mgmnt-02'
+      url: https://mailarchive.ietf.org/arch/msg/lisp/lo4lpqFcHHJrC-5PfTNQMdj3o3s/
+    - date: '2017-12-15'
+      subject: '[lisp] Adoption call: draft-lewis-lisp-gpe-04.txt'
+      url: https://mailarchive.ietf.org/arch/msg/lisp/ZfZl8ZS3UsUPG1klJZ9ZbXB1AJc/
   - kind: session requests
     meetings:
     - '77'
@@ -67,12 +84,20 @@ chairs:
       not_after: '2009-04-28'
     end:
       certainty: evidence-only
-      not_before: '2009-04-28'
+      not_before: '2009-10-14'
   evidence:
   - kind: WG Action
     date: '2009-04-28'
     subject: 'WG Action: Locator/ID Separation Protocol (lisp)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/xSqQfhZHBDXW57yBNlCSx8okc4g/
+  - kind: chair activity
+    first: '2009-10-14'
+    last: '2009-10-14'
+    messages: 1
+    examples:
+    - date: '2009-10-14'
+      subject: '[lisp] Second call for Agenda items'
+      url: https://mailarchive.ietf.org/arch/msg/lisp/Hh8guzqR3fPrOxHaFRwK8_6QUAc/
 - person: 108822
   name: Terry Manderson
   status: confirmed
@@ -99,6 +124,26 @@ chairs:
     date: '2012-03-19'
     subject: 'WG Action: RECHARTER: Locator/ID Separation Protocol (lisp)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/5PZghFfFll9Lz_OD1fdFnfS89Dw/
+  - kind: chair activity
+    first: '2010-04-19'
+    last: '2013-11-29'
+    messages: 20
+    examples:
+    - date: '2010-04-19'
+      subject: '[lisp] draft minutes from ietf77'
+      url: https://mailarchive.ietf.org/arch/msg/lisp/3DVqys2fYo8cDctuikI_oBkn2ZA/
+    - date: '2010-07-14'
+      subject: '[lisp] IETF78 draft agenda'
+      url: https://mailarchive.ietf.org/arch/msg/lisp/3uxC2c35lCsgQP7_FqnEovdmMKY/
+    - date: '2012-07-10'
+      subject: '[lisp] WG Last call for draft-ietf-lisp-eid-block-02'
+      url: https://mailarchive.ietf.org/arch/msg/lisp/mUYPPnDw1rh0XLGQzrojW9tBeWw/
+    - date: '2012-08-13'
+      subject: '[lisp] Call for adoption of draft-farinacci-lisp-lcaf-10'
+      url: https://mailarchive.ietf.org/arch/msg/lisp/Tm0p2Hc8fTrbpDa3f8QImuzmX3k/
+    - date: '2012-08-13'
+      subject: '[lisp] WGLC for draft-ietf-lisp-mib-05'
+      url: https://mailarchive.ietf.org/arch/msg/lisp/YfPTxJXfDNaRYYSzKOPf-U20yuU/
   - kind: session requests
     meetings:
     - '80'
@@ -178,7 +223,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2009-04-28'
+      not_after: '2009-04-06'
     end:
       certainty: evidence-only
       not_before: '2009-11-08'
@@ -187,6 +232,17 @@ chairs:
     date: '2009-04-28'
     subject: 'WG Action: Locator/ID Separation Protocol (lisp)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/xSqQfhZHBDXW57yBNlCSx8okc4g/
+  - kind: chair activity
+    first: '2009-04-06'
+    last: '2009-08-20'
+    messages: 3
+    examples:
+    - date: '2009-04-06'
+      subject: '[lisp] LISP IETF-74 Meeting Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/lisp/uuV8mPHYeaMCVyfs_mKBnDbxcyM/
+    - date: '2009-07-14'
+      subject: '[lisp] Agenda for LISP WG in Stockholm'
+      url: https://mailarchive.ietf.org/arch/msg/lisp/oNAudgnjd_g96SoASqdi5ErL9sc/
   - kind: session requests
     meetings:
     - '75'

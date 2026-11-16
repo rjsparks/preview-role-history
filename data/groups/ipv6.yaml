@@ -25,21 +25,71 @@ chairs:
     date: '2004-05-05'
     subject: 'WG Action: RECHARTER: IP Version 6 Working Group (ipv6)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/2NqK5OhbIbDTJxztpxzx8d3TcWA/
+  - kind: chair activity
+    first: '2003-12-08'
+    last: '2005-11-02'
+    messages: 5
+    examples:
+    - date: '2003-12-08'
+      subject: Draft IPv6 Minutes from Minneapolis IETF
+      url: https://mailarchive.ietf.org/arch/msg/ipv6/ZSWCpnQ62RiOIBMKozKopDYR8Js/
+    - date: '2004-03-24'
+      subject: IPv6 w.g. minutes from the Seoul IETF
+      url: https://mailarchive.ietf.org/arch/msg/ipv6/X6sYfD8jBffiTzah_ZuH4CXgl-4/
 - person: 100664
   name: Brian Haberman
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2004-05-05'
-      not_before: '2000-10-05'
+      certainty: approximate
+      date: '2003-09-12'
     end:
       certainty: group-closed
       date: '2007-09-23'
     notes:
     - start moved earlier by WG Action announcement of 2004-05-05
+    - start dated by list message of 2003-09-12
   evidence:
   - kind: WG Action
     date: '2004-05-05'
     subject: 'WG Action: RECHARTER: IP Version 6 Working Group (ipv6)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/2NqK5OhbIbDTJxztpxzx8d3TcWA/
+  - kind: list message
+    date: '2003-09-12'
+    says: start
+    subject: New IPv6 co-chair
+    url: https://mailarchive.ietf.org/arch/msg/ipv6/Xo5AiVDtR4hRt0M0L7ZVI7ptP-4/
+    excerpt: I'm pleased to report that Brian Haberman has agreed to become the new co-chair of the IPv6
+      WG working group, working together with Bob Hinden, the other co-chair.
+  - kind: chair activity
+    first: '2003-10-08'
+    last: '2005-08-19'
+    messages: 9
+    examples:
+    - date: '2003-10-08'
+      subject: 2nd Call for Agenda Items
+      url: https://mailarchive.ietf.org/arch/msg/ipv6/Kz8uqcCrFdJ6g_ikNTzaYKD2YYk/
+    - date: '2003-10-28'
+      subject: 3rd Call for Agenda Items
+      url: https://mailarchive.ietf.org/arch/msg/ipv6/m7cp22pKeGt5UvIYr-Sx8rY7BAs/
+- person: 119947
+  name: Margaret Cullen
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: approximate
+      date: '2003-09-12'
+    end:
+      certainty: evidence-only
+      not_before: '2003-09-12'
+    notes:
+    - start dated by list message of 2003-09-12
+  evidence:
+  - kind: list message
+    date: '2003-09-12'
+    says: start
+    subject: New IPv6 co-chair
+    url: https://mailarchive.ietf.org/arch/msg/ipv6/Xo5AiVDtR4hRt0M0L7ZVI7ptP-4/
+    excerpt: With a new co-chair in place, Margaret Wasserman has now officially stepped down as co-chair
+      of the IPv6 WG and will become the new Area Advisor for the IPv6 WG in her role as Area Director
+      for the Internet Area.

@@ -30,6 +30,20 @@ chairs:
     date: '2014-04-25'
     subject: 'WG Action: Rechartered JavaScript Object Notation (json)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/8FuPwD53WOMQX16c1eL3FjTnyN8/
+  - kind: chair activity
+    first: '2013-08-05'
+    last: '2014-05-22'
+    messages: 4
+    examples:
+    - date: '2013-08-05'
+      subject: '[Json] Virtual interim meeting for the JSON WG'
+      url: https://mailarchive.ietf.org/arch/msg/json/Nu_TNGehHi1O3rBFesKhRNiEnP8/
+    - date: '2013-08-13'
+      subject: '[Json] Agenda for next week''s virtual interim WG meeting'
+      url: https://mailarchive.ietf.org/arch/msg/json/t92Ie7H5EzA42p3RE5FNLPtGPaQ/
+    - date: '2014-05-22'
+      subject: '[Json] Working Group Last Call on draft-ietf-json-text-sequence'
+      url: https://mailarchive.ietf.org/arch/msg/json/z6xtRoyV0wGi1wktUnBucVB5pSc/
   - kind: shepherded
     documents:
     - draft-ietf-json-rfc4627bis
@@ -45,6 +59,15 @@ chairs:
     end:
       certainty: approximate
       date: '2013-05-01'
+  evidence:
+  - kind: chair activity
+    first: '2013-04-10'
+    last: '2013-04-10'
+    messages: 1
+    examples:
+    - date: '2013-04-10'
+      subject: '[Json] Minutes from IETF86 JSON BoF'
+      url: https://mailarchive.ietf.org/arch/msg/json/4qaxYkf7XgwNWpdbYdv3LrCzqfU/
 - person: 111178
   name: Matthew Miller
   status: confirmed
@@ -68,6 +91,23 @@ chairs:
     date: '2014-04-25'
     subject: 'WG Action: Rechartered JavaScript Object Notation (json)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/8FuPwD53WOMQX16c1eL3FjTnyN8/
+  - kind: chair activity
+    first: '2013-07-17'
+    last: '2014-07-01'
+    messages: 10
+    examples:
+    - date: '2013-07-17'
+      subject: '[Json] Potential Agenda for IETF 87'
+      url: https://mailarchive.ietf.org/arch/msg/json/UnYi39g4XeUMcUOsOAqYETbF6fw/
+    - date: '2013-08-05'
+      subject: '[Json] IETF87 Minutes Posted'
+      url: https://mailarchive.ietf.org/arch/msg/json/sm5Qz15UN1iKGznQ_M-AV9_kVVw/
+    - date: '2013-09-26'
+      subject: '[Json] Working Group Last Call of draft-ietf-json-rfc4627bis-04'
+      url: https://mailarchive.ietf.org/arch/msg/json/-0PdQc8aqVv9A80vocSuXSFu39c/
+    - date: '2014-07-01'
+      subject: '[Json] Working Group Last Call on draft-ietf-i-json-02'
+      url: https://mailarchive.ietf.org/arch/msg/json/K7ONguKnoCGh-9RUGK8hVj01fJ4/
   - kind: shepherded
     documents:
     - draft-ietf-json-i-json

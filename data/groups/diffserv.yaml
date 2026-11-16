@@ -13,19 +13,56 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-03-11'
+      date: '2001-09-18'
       not_before: '1998-02-19'
     end:
       certainty: group-closed
       date: '2003-03-11'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
+  evidence:
+  - kind: chair activity
+    first: '2001-01-05'
+    last: '2001-11-12'
+    messages: 4
+    examples:
+    - date: '2001-01-05'
+      subject: '[Diffserv] Draft minutes of San Diego diffserv meetings'
+      url: https://mailarchive.ietf.org/arch/msg/diffserv/wrQ-Zo-xrHQMZPzdaOxY3xfP3cg/
+    - date: '2001-01-18'
+      subject: '[Diffserv] Final San Diego minutes'
+      url: https://mailarchive.ietf.org/arch/msg/diffserv/CkSTBTjv6hqdmu5BUTCNV4_U6DM/
+    - date: '2001-09-18'
+      subject: '[Diffserv] WG Last Call: MIB version 13 and Informal Model'
+      url: https://mailarchive.ietf.org/arch/msg/diffserv/NmLJm3n1hoMO8CxrLdKMGqHThWo/
+    - date: '2001-11-12'
+      subject: '[Diffserv] WG Last Call for draft-ietf-diffserv-pib-05.txt'
+      url: https://mailarchive.ietf.org/arch/msg/diffserv/P59CplzG4qQVY5VXYSJVpdqJTDo/
 - person: 125159
   name: Kathleen Nichols
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-03-11'
+      date: '1999-11-30'
       not_before: '1998-02-19'
     end:
       certainty: group-closed
       date: '2003-03-11'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
+  evidence:
+  - kind: chair activity
+    first: '1999-11-30'
+    last: '2001-10-30'
+    messages: 7
+    examples:
+    - date: '1999-11-30'
+      subject: '[Diffserv] WG Last Call: draft-ietf-diffserv-phbid-00.txt'
+      url: https://mailarchive.ietf.org/arch/msg/diffserv/7xX9nUBVKnyP-4aNTZrFC1MgzF0/
+    - date: '1999-12-01'
+      subject: '[Diffserv] Minutes from DC'
+      url: https://mailarchive.ietf.org/arch/msg/diffserv/IS3fqw_bQbekKuONbAK65RLghNM/
+    - date: '2000-02-29'
+      subject: '[Diffserv] Call for Agenda items'
+      url: https://mailarchive.ietf.org/arch/msg/diffserv/WMg6umFom6jrduyg88inEISRErQ/

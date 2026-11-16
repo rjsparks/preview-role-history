@@ -25,6 +25,26 @@ chairs:
       certainty: group-closed
       date: '2023-07-20'
   evidence:
+  - kind: chair activity
+    first: '2017-03-24'
+    last: '2019-12-05'
+    messages: 12
+    examples:
+    - date: '2017-03-24'
+      subject: '[rmcat] Proposal for revised RMCAT milestones'
+      url: https://mailarchive.ietf.org/arch/msg/rmcat/FQbuMJtvE4CjEC9x-KaJGvp_Wto/
+    - date: '2017-04-27'
+      subject: '[rmcat] Minutes from virtual interim meeting'
+      url: https://mailarchive.ietf.org/arch/msg/rmcat/tkADYfwm5y6KJqM92Bzv6S14rjk/
+    - date: '2018-06-20'
+      subject: '[rmcat] WG last call: draft-ietf-rmcat-video-traffic-model-04'
+      url: https://mailarchive.ietf.org/arch/msg/rmcat/kfMVDkkXLiVWmds1n6UphWU1jcQ/
+    - date: '2018-06-21'
+      subject: '[rmcat] WG last call draft-ietf-rmcat-eval-test-06'
+      url: https://mailarchive.ietf.org/arch/msg/rmcat/XE3C8Vl9bI0dcs21buaSOjrS9e4/
+    - date: '2019-01-14'
+      subject: '[rmcat] WG last call draft-ietf-rmcat-wireless-tests-06'
+      url: https://mailarchive.ietf.org/arch/msg/rmcat/sQlQvsfGLE3SbulGDkTajOdiUv8/
   - kind: shepherded
     documents:
     - draft-ietf-rmcat-eval-criteria
@@ -53,6 +73,17 @@ chairs:
       certainty: exact
       date: '2020-01-21'
   evidence:
+  - kind: chair activity
+    first: '2016-07-06'
+    last: '2019-06-03'
+    messages: 3
+    examples:
+    - date: '2016-07-06'
+      subject: '[rmcat] RMCAT draft agenda for IETF-96'
+      url: https://mailarchive.ietf.org/arch/msg/rmcat/5AOB9H5fYNj8Ww5iHsfBosWSx8k/
+    - date: '2017-06-22'
+      subject: '[rmcat] Next Steps & Call for agenda items for RMCAT session at IETF 99 in Prague'
+      url: https://mailarchive.ietf.org/arch/msg/rmcat/noPlLQ22Qsx6GXwdPGeShGu4TKI/
   - kind: shepherded
     documents:
     - draft-ietf-rmcat-nada
@@ -74,6 +105,17 @@ chairs:
     subject: '[rmcat] Karen Nielsen joining Lars and Mirja as RMCAT co-chair'
     url: https://mailarchive.ietf.org/arch/msg/rmcat/rW5zn83oBr5T7WKuN2dFMHzoDx0/
     excerpt: Please join me in welcoming Karen Nielsen as new co-chair for RMCAT, joining Lars and Mirja.
+  - kind: chair activity
+    first: '2014-10-28'
+    last: '2015-11-19'
+    messages: 10
+    examples:
+    - date: '2014-10-28'
+      subject: '[rmcat] Slides for Interim'
+      url: https://mailarchive.ietf.org/arch/msg/rmcat/pyzaONCXAvaXyCo6H02TSWsBGl4/
+    - date: '2014-11-06'
+      subject: '[rmcat] remote participation option for RMCAT Interim'
+      url: https://mailarchive.ietf.org/arch/msg/rmcat/s4l2jPoUzB5RQFE4XWtGGMe8bTE/
 - person: 112330
   name: Mirja Kühlewind
   status: confirmed
@@ -89,6 +131,26 @@ chairs:
     date: '2012-09-21'
     subject: 'WG Action: Formed RTP Media Congestion Avoidance Techniques (rmcat)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/LAPrpkE6LSWe6CeaZYs7y31Pdz4/
+  - kind: chair activity
+    first: '2012-11-23'
+    last: '2016-03-21'
+    messages: 20
+    examples:
+    - date: '2012-11-23'
+      subject: '[rmcat] Minutes & draft updates'
+      url: https://mailarchive.ietf.org/arch/msg/rmcat/oMTLL6m4ojY7jVaUnf9MSaJHm1I/
+    - date: '2013-03-28'
+      subject: '[rmcat] minutes IETF86'
+      url: https://mailarchive.ietf.org/arch/msg/rmcat/430-VaQEMtU4GWbGpfsSma8kJgs/
+    - date: '2015-07-27'
+      subject: '[rmcat] Call for adoption of draft-welzl-rmcat-coupled-cc-05'
+      url: https://mailarchive.ietf.org/arch/msg/rmcat/j3UssWiwOhauYq-naJygCXpvsmo/
+    - date: '2015-07-27'
+      subject: '[rmcat] Call for adoption of draft-alvestrand-rmcat-congestion-03'
+      url: https://mailarchive.ietf.org/arch/msg/rmcat/t0Rj1SxVC2l9tN9r8l_dJDLAPxM/
+    - date: '2015-07-27'
+      subject: '[rmcat] Call for adoption of draft-zanaty-rmcat-cc-codec-interactions'
+      url: https://mailarchive.ietf.org/arch/msg/rmcat/l3zBNawr_HeVVsEjLIPkq04NdWw/
   - kind: shepherded
     documents:
     - draft-ietf-rmcat-cc-requirements
@@ -118,6 +180,17 @@ chairs:
       certainty: group-closed
       date: '2023-07-20'
   evidence:
+  - kind: chair activity
+    first: '2016-04-12'
+    last: '2021-11-21'
+    messages: 13
+    examples:
+    - date: '2016-04-12'
+      subject: '[rmcat] ietf95 draft meeting minutes'
+      url: https://mailarchive.ietf.org/arch/msg/rmcat/5fMmtnIdZVN-SLXtssAben9SukE/
+    - date: '2016-08-12'
+      subject: '[rmcat] Berlin minutes posted'
+      url: https://mailarchive.ietf.org/arch/msg/rmcat/phgnvcUwhdTfL5wpDKgwDjCXlu4/
   - kind: shepherded
     documents:
     - draft-ietf-rmcat-coupled-cc

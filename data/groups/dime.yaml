@@ -7,6 +7,26 @@ started: '2005-12-08'
 closed: '2024-03-14'
 history_url: https://datatracker.ietf.org/group/dime/history/
 chairs:
+- person: 19587
+  name: David Kessens
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: approximate
+      date: '2007-02-13'
+    end:
+      certainty: evidence-only
+      not_before: '2007-02-13'
+    notes:
+    - start dated by list message of 2007-02-13
+  evidence:
+  - kind: list message
+    date: '2007-02-13'
+    says: start
+    subject: '[Dime] New dime WG co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/dime/krrTIL9QZ6c0rR7cBPUOcU76-Vc/
+    excerpt: David Kessens and myself decided to nominate David Frascone as new co-chair of dime, replacing
+      John.
 - person: 104183
   name: John Loughney
   status: unconfirmed
@@ -26,19 +46,64 @@ chairs:
     date: '2006-02-15'
     subject: 'WG Action: Diameter Maintenance and Extensions (dime)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Zjzs7SjjGaZmyKPO6n135vbEVq8/
+  - kind: chair activity
+    first: '2006-03-08'
+    last: '2006-04-18'
+    messages: 2
+    examples:
+    - date: '2006-03-08'
+      subject: '[Dime] WGLC on ACTION:draft-ietf-dime-diameter-api-00.txt'
+      url: https://mailarchive.ietf.org/arch/msg/dime/_SZpN8b0ePVSGMRU2vybxr_cY0E/
+    - date: '2006-04-18'
+      subject: '[Dime] DiME minutes'
+      url: https://mailarchive.ietf.org/arch/msg/dime/tTWem0RQsxzhU57j8RBAhFWQ4YU/
   - kind: session requests
     meetings:
     - '65'
     - '66'
     - '67'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 104707
+  name: David Frascone
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: approximate
+      date: '2007-02-13'
+    end:
+      certainty: evidence-only
+      not_before: '2008-05-13'
+    notes:
+    - start dated by list message of 2007-02-13
+  evidence:
+  - kind: list message
+    date: '2007-02-13'
+    says: start
+    subject: '[Dime] New dime WG co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/dime/krrTIL9QZ6c0rR7cBPUOcU76-Vc/
+    excerpt: David Kessens and myself decided to nominate David Frascone as new co-chair of dime, replacing
+      John.
+  - kind: chair activity
+    first: '2007-11-21'
+    last: '2008-05-13'
+    messages: 5
+    examples:
+    - date: '2007-11-21'
+      subject: '[Dime] WGLC for draft-ietf-dime-mip6-split-06.txt'
+      url: https://mailarchive.ietf.org/arch/msg/dime/n-xdJAxef0mRssmUsNniqlaqPHc/
+    - date: '2007-11-21'
+      subject: '[Dime] WGLC for draft-ietf-dime-qos-attributes-03.txt'
+      url: https://mailarchive.ietf.org/arch/msg/dime/1ZGcIl6LIm1zu9yS3QcsCpP4gg8/
+    - date: '2007-11-21'
+      subject: '[Dime] WGLC for draft-ietf-dime-rfc3588bis-09.txt'
+      url: https://mailarchive.ietf.org/arch/msg/dime/uXGG3i4OBFfaU444DGtAeKzHMNg/
 - person: 105857
   name: Hannes Tschofenig
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2007-03-18'
+      not_after: '2006-07-19'
     end:
       certainty: evidence-only
       not_before: '2010-03-21'
@@ -51,6 +116,27 @@ chairs:
     date: '2009-07-07'
     subject: 'WG Action: RECHARTER: Diameter Maintenance and Extensions (dime)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/p7QFyxZvVfF4qR-2a-BAyXoKthI/
+  - kind: chair activity
+    first: '2006-07-19'
+    last: '2010-03-02'
+    messages: 20
+    examples:
+    - date: '2006-07-19'
+      subject: '[Dime] IETF#66 Meeting Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/dime/qKuSlPtdX70a8jYTd5Ffgp2l0Ns/
+    - date: '2006-11-14'
+      subject: '[Dime] Meeting Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/dime/8Bw_Vq7SzqMnJiat3asvaa3eHyU/
+    - date: '2006-11-20'
+      subject: '[Dime] WGLC for Diameter API Document'
+      url: https://mailarchive.ietf.org/arch/msg/dime/Z-VLmUxOv6h4eIZJfmPELrN8J60/
+    - date: '2007-08-26'
+      subject: '[Dime] WGLC: Diameter Mobile IPv6: Support for Network Access Server to Diameter Server
+        Interaction'
+      url: https://mailarchive.ietf.org/arch/msg/dime/yAH-OL1OmFOpzfrn14ZFg71kf3I/
+    - date: '2007-10-02'
+      subject: '[Dime] WGLC for draft-ietf-dime-qos-parameters-01'
+      url: https://mailarchive.ietf.org/arch/msg/dime/Vttcvzaiai79P4POzT9KzFcGXzk/
   - kind: session requests
     meetings:
     - '68'
@@ -70,10 +156,10 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2009-06-23'
+      not_after: '2007-12-06'
     end:
       certainty: evidence-only
-      not_before: '2009-07-07'
+      not_before: '2009-07-30'
   evidence:
   - kind: WG Review
     date: '2009-06-23'
@@ -83,6 +169,17 @@ chairs:
     date: '2009-07-07'
     subject: 'WG Action: RECHARTER: Diameter Maintenance and Extensions (dime)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/p7QFyxZvVfF4qR-2a-BAyXoKthI/
+  - kind: chair activity
+    first: '2007-12-06'
+    last: '2009-07-30'
+    messages: 2
+    examples:
+    - date: '2007-12-06'
+      subject: '[Dime] DIME Meeting minutes (IETF70)'
+      url: https://mailarchive.ietf.org/arch/msg/dime/sSCVKR9jmO9dVkPkVD018R2Bh4g/
+    - date: '2009-07-30'
+      subject: '[Dime] DIME Meeting Minutes - IETF#75'
+      url: https://mailarchive.ietf.org/arch/msg/dime/T77-vxRb95CQCCFbq_lEgMEoERU/
   - kind: shepherded
     documents:
     - draft-ietf-dime-diameter-base-protocol-mib
@@ -115,6 +212,23 @@ chairs:
     date: '2012-08-21'
     subject: 'WG Action: Rechartered Diameter Maintenance and Extensions (dime)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/XXC-A5wgbLnUARjG1fDaB_e4H00/
+  - kind: chair activity
+    first: '2011-06-29'
+    last: '2016-07-08'
+    messages: 7
+    examples:
+    - date: '2011-06-29'
+      subject: '[Dime] Second call for agenda items'
+      url: https://mailarchive.ietf.org/arch/msg/dime/HeSTMrlCmFzif0C7rp7-8ETZIMY/
+    - date: '2014-09-08'
+      subject: '[Dime] DIME WG Interim Meeting'
+      url: https://mailarchive.ietf.org/arch/msg/dime/7dY8mQ8NFdgszWMiuRMVLK-p_wU/
+    - date: '2014-11-25'
+      subject: '[Dime] WGLC for draft-ietf-dime-congestion-flow-attributes-01'
+      url: https://mailarchive.ietf.org/arch/msg/dime/Hl9TegPfCOfClqtr8pAcEJF8mgo/
+    - date: '2015-01-13'
+      subject: '[Dime] Call for WG adoption: draft-zhou-dime-4over6-provisioning'
+      url: https://mailarchive.ietf.org/arch/msg/dime/w-YrWntqN6j8Rmu2RkNmoscgVeM/
   - kind: shepherded
     documents:
     - draft-ietf-dime-4over6-provisioning
@@ -159,6 +273,26 @@ chairs:
     date: '2012-08-21'
     subject: 'WG Action: Rechartered Diameter Maintenance and Extensions (dime)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/XXC-A5wgbLnUARjG1fDaB_e4H00/
+  - kind: chair activity
+    first: '2010-07-14'
+    last: '2017-05-22'
+    messages: 50
+    examples:
+    - date: '2010-07-14'
+      subject: '[Dime] Dime draft agenda for IETF#78'
+      url: https://mailarchive.ietf.org/arch/msg/dime/hjGtedDprFOGLuN4AmGwwnTkW9k/
+    - date: '2010-08-02'
+      subject: '[Dime] WGLC starting for draft-ietf-dime-realm-based-redirect'
+      url: https://mailarchive.ietf.org/arch/msg/dime/mHQkv9QgkK923piDtnYGRfdqew8/
+    - date: '2010-08-02'
+      subject: '[Dime] WG adoption call for draft-zorn-dime-rfc4005bis-01'
+      url: https://mailarchive.ietf.org/arch/msg/dime/osruX5h7NylAiND5FKQVRVyunbg/
+    - date: '2010-08-02'
+      subject: '[Dime] WGLC starting for draft-ietf-dime-nat-control'
+      url: https://mailarchive.ietf.org/arch/msg/dime/XKoItTIMeAosbbbVqM1U1Ckg39A/
+    - date: '2010-08-05'
+      subject: '[Dime] New milestones proporal'
+      url: https://mailarchive.ietf.org/arch/msg/dime/6Ej06wlA7hgzvm1G7swMM6C_HWk/
   - kind: session requests
     meetings:
     - '78'

@@ -29,3 +29,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2015-09-21'
+  evidence:
+  - kind: chair activity
+    first: '2015-03-29'
+    last: '2016-07-15'
+    messages: 3
+    examples:
+    - date: '2015-03-29'
+      subject: '[edu-team] Edu Team Meeting Minutes 26 March 2015'
+      url: https://mailarchive.ietf.org/arch/msg/edu-team/mPG193fc4TGHlTjsxgRa10pHYhY/
+    - date: '2015-07-21'
+      subject: '[edu-team] Minutes of Edu Team meeting on 21 July 2015'
+      url: https://mailarchive.ietf.org/arch/msg/edu-team/JPfsOjKQQ0vPwI3Y01FtQlbYrvc/

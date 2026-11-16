@@ -29,6 +29,18 @@ chairs:
     end:
       certainty: exact
       date: '2017-09-12'
+  evidence:
+  - kind: chair activity
+    first: '2014-02-26'
+    last: '2015-02-19'
+    messages: 3
+    examples:
+    - date: '2014-02-26'
+      subject: '[nwcrg] Agenda for our Thursday meeting'
+      url: https://mailarchive.ietf.org/arch/msg/nwcrg/tPZnLawg7u64AUcLJ5WfoEYItWU/
+    - date: '2014-04-09'
+      subject: '[nwcrg] Minutes from our London meeting'
+      url: https://mailarchive.ietf.org/arch/msg/nwcrg/HIcbKpWVajGzu0jmus5OaNjo8VU/
 - person: 103930
   name: Marie-Jose Montpetit
   status: confirmed
@@ -40,6 +52,17 @@ chairs:
       certainty: group-closed
       date: '2023-08-02'
   evidence:
+  - kind: chair activity
+    first: '2017-07-31'
+    last: '2019-07-01'
+    messages: 13
+    examples:
+    - date: '2017-07-31'
+      subject: '[nwcrg] Interim meeting'
+      url: https://mailarchive.ietf.org/arch/msg/nwcrg/i89O6c35sq1KMMzUTLBdj0kwOzY/
+    - date: '2017-09-18'
+      subject: '[nwcrg] Interim Meeting - Final Logistics'
+      url: https://mailarchive.ietf.org/arch/msg/nwcrg/XLahTor7HDRR9sWoh_JhvjyyhwA/
   - kind: shepherded
     documents:
     - draft-irtf-nwcrg-nwc-ccn-reqs
@@ -55,6 +78,17 @@ chairs:
       certainty: group-closed
       date: '2023-08-02'
   evidence:
+  - kind: chair activity
+    first: '2016-11-22'
+    last: '2021-08-27'
+    messages: 22
+    examples:
+    - date: '2016-11-22'
+      subject: '[nwcrg] About IETF''97 NWCRG meeting minutes'
+      url: https://mailarchive.ietf.org/arch/msg/nwcrg/GxhbrGwAwCos5Wf32uBW5sfGhCY/
+    - date: '2017-07-25'
+      subject: '[nwcrg] draft NWCRG@IETF''99 meeting minutes'
+      url: https://mailarchive.ietf.org/arch/msg/nwcrg/DrBFbBxbx4uuLwnr82TtgQfTR0I/
   - kind: shepherded
     documents:
     - draft-irtf-nwcrg-bats

@@ -32,16 +32,36 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2008-07-27'
+      not_after: '2008-07-14'
     end:
       certainty: evidence-only
-      not_before: '2010-07-25'
+      not_before: '2010-08-08'
   evidence:
   - kind: WG Review
     date: '2008-09-02'
     subject: 'WG Review: Recharter of Operational Security Capabilities for IP Network Infrastructure
       (opsec)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/JsCxtmGkxqP3Y-jtXUZZKaleuso/
+  - kind: chair activity
+    first: '2008-07-14'
+    last: '2010-08-08'
+    messages: 15
+    examples:
+    - date: '2008-07-14'
+      subject: '[OPSEC] Agenda Items for 72'
+      url: https://mailarchive.ietf.org/arch/msg/opsec/05qD4cEiuma7nTmfpQxUPdx8jBQ/
+    - date: '2008-12-08'
+      subject: '[OPSEC] minutes part 1'
+      url: https://mailarchive.ietf.org/arch/msg/opsec/XYdnSVf3h-Y_qOIAnH0JDpVxcLM/
+    - date: '2009-04-02'
+      subject: '[OPSEC] Working Group Last Call draft-ietf-opsec-blackhole-urpf-03.txt'
+      url: https://mailarchive.ietf.org/arch/msg/opsec/5ETNwVZ06QpBInbM7DXEr7otR6Q/
+    - date: '2009-12-02'
+      subject: '[OPSEC] Working Group last call for draft-ietf-opsec-ip-security'
+      url: https://mailarchive.ietf.org/arch/msg/opsec/x5uiX-8YDgDYu-QuQW_goZKKBr8/
+    - date: '2009-12-21'
+      subject: '[OPSEC] Working Group last call for draft-ietf-opsec-routing-protocols-crypto-issues-02'
+      url: https://mailarchive.ietf.org/arch/msg/opsec/KVIkPjot03colvPPHcJgtCLUAVo/
   - kind: session requests
     meetings:
     - '72'
@@ -61,6 +81,21 @@ chairs:
     end:
       certainty: group-closed
       date: '2024-08-05'
+  evidence:
+  - kind: chair activity
+    first: '2019-04-04'
+    last: '2021-02-10'
+    messages: 6
+    examples:
+    - date: '2019-04-04'
+      subject: '[OPSEC] WGLC: draft-ietf-opsec-urpf-improvements-02'
+      url: https://mailarchive.ietf.org/arch/msg/opsec/VK2-IyELsw5-UqI4P53fiuDEz9M/
+    - date: '2019-10-17'
+      subject: '[OPSEC] WGLC: draft-ietf-opsec-ipv6-eh-filtering'
+      url: https://mailarchive.ietf.org/arch/msg/opsec/meCxLrKfWFSr2D10bD2YimACNKE/
+    - date: '2020-06-05'
+      subject: '[OPSEC] Call For Adoption: draft-camwinget-opsec-ns-impact'
+      url: https://mailarchive.ietf.org/arch/msg/opsec/5dCuxM1clyVy3nBiDO_0T-ELPDA/
 - person: 105099
   name: Éric Vyncke
   status: confirmed
@@ -72,6 +107,20 @@ chairs:
       certainty: exact
       date: '2019-04-05'
   evidence:
+  - kind: chair activity
+    first: '2016-10-19'
+    last: '2018-07-19'
+    messages: 7
+    examples:
+    - date: '2016-10-19'
+      subject: '[OPSEC] Call for agenda items for the OPSEC WG'
+      url: https://mailarchive.ietf.org/arch/msg/opsec/QA2upy28qdY3wU_7rssysyhB0Gc/
+    - date: '2017-02-28'
+      subject: '[OPSEC] Call for OPSEC WG agenda items'
+      url: https://mailarchive.ietf.org/arch/msg/opsec/JVnOUpzo1SYVZMj7NT-3aNQdM24/
+    - date: '2018-04-04'
+      subject: '[OPSEC] Call for WG adoption of draft-sriram-opsec-urpf-improvements'
+      url: https://mailarchive.ietf.org/arch/msg/opsec/50zkojZIFPQ_gunMEGW03MnzX-U/
   - kind: shepherded
     documents:
     - draft-ietf-opsec-ipv6-eh-filtering
@@ -95,6 +144,27 @@ chairs:
     date: '2013-12-04'
     subject: 'WG Action: Rechartered Operational Security Capabilities for IP Network Infrastructure (opsec)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/LoZnAQpGGtEKPoaaDtKdHwpuKAs/
+  - kind: chair activity
+    first: '2011-09-22'
+    last: '2017-04-12'
+    messages: 14
+    examples:
+    - date: '2011-09-22'
+      subject: '[OPSEC] Call for agenda items'
+      url: https://mailarchive.ietf.org/arch/msg/opsec/M2JKUtKwgUOOQhdIUq0bS8rvRuE/
+    - date: '2011-09-26'
+      subject: '[OPSEC] Important milestone dates between now and Taiwan IETF meeting'
+      url: https://mailarchive.ietf.org/arch/msg/opsec/W53gew5jtvmp2NubWzCXR6yj-84/
+    - date: '2012-08-20'
+      subject: '[OPSEC] Call for WG adoption - draft-vyncke-opsec-v6-01'
+      url: https://mailarchive.ietf.org/arch/msg/opsec/BYRJzQekN1uPy2rYyuEvSpmKBZg/
+    - date: '2012-11-27'
+      subject: '[OPSEC] Call for WG adoption - Network Reconnaissance in IPv6 Networks'
+      url: https://mailarchive.ietf.org/arch/msg/opsec/6W3EJH-Ss7OhFu5BouFRW8KNeRs/
+    - date: '2012-11-27'
+      subject: '[OPSEC] Call for WG adoption in OPSEC - Virtual Private Network (VPN) traffic leakages
+        in dual-stack hosts/ networks'
+      url: https://mailarchive.ietf.org/arch/msg/opsec/9aUwoaxnBWw-zTdExckjp5ECTYg/
   - kind: shepherded
     documents:
     - draft-ietf-opsec-bgp-security
@@ -120,6 +190,17 @@ chairs:
     date: '2013-12-04'
     subject: 'WG Action: Rechartered Operational Security Capabilities for IP Network Infrastructure (opsec)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/LoZnAQpGGtEKPoaaDtKdHwpuKAs/
+  - kind: chair activity
+    first: '2012-05-15'
+    last: '2014-07-13'
+    messages: 12
+    examples:
+    - date: '2012-05-15'
+      subject: '[OPSEC] Question: Interim Meeting'
+      url: https://mailarchive.ietf.org/arch/msg/opsec/LzAbR_9CkuPMpo1ptyyz1UF6syM/
+    - date: '2012-07-25'
+      subject: '[OPSEC] OPSEC agenda for IETF84 has been published'
+      url: https://mailarchive.ietf.org/arch/msg/opsec/i0E9CL20_QizMg6cV19j68Yuz1M/
   - kind: shepherded
     documents:
     - draft-ietf-opsec-dhcpv6-shield
@@ -130,13 +211,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-11-13'
+      date: '2010-09-01'
       not_before: '2003-06-01'
     end:
       certainty: exact
       date: '2013-12-18'
     notes:
     - start moved earlier by session request for IETF 82
+    - widened to cover last calls and adoption calls on the group list
   evidence:
   - kind: WG Review
     date: '2013-10-15'
@@ -146,6 +228,14 @@ chairs:
     date: '2013-12-04'
     subject: 'WG Action: Rechartered Operational Security Capabilities for IP Network Infrastructure (opsec)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/LoZnAQpGGtEKPoaaDtKdHwpuKAs/
+  - kind: chair activity
+    first: '2010-09-01'
+    last: '2010-09-01'
+    messages: 1
+    examples:
+    - date: '2010-09-01'
+      subject: '[OPSEC] Working Group last call for draft-ietf-opsec-protect-control-plane'
+      url: https://mailarchive.ietf.org/arch/msg/opsec/ILz8eA3CZZ1boBPfJa9izbQgCUE/
   - kind: session requests
     meetings:
     - '82'
@@ -165,6 +255,26 @@ chairs:
       certainty: group-closed
       date: '2024-08-05'
   evidence:
+  - kind: chair activity
+    first: '2019-09-23'
+    last: '2023-10-13'
+    messages: 13
+    examples:
+    - date: '2019-09-23'
+      subject: '[OPSEC] WGLC for draft-ietf-opsec-v6-19'
+      url: https://mailarchive.ietf.org/arch/msg/opsec/S37TsuiULC1Ipt4nb8mTOuEo89g/
+    - date: '2021-07-31'
+      subject: '[OPSEC] OpSec@IETF111 Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/opsec/8Fj3tNUf2nOe5Vl2IV1p18efaMs/
+    - date: '2021-11-16'
+      subject: '[OPSEC] Adoption call for draft-paine-smart-indicators-of-compromise'
+      url: https://mailarchive.ietf.org/arch/msg/opsec/fZ6Z2Z0aZIgF9OqFAaKyaaZgMNU/
+    - date: '2022-07-20'
+      subject: '[OPSEC] Agenda for OpSec@IETF114'
+      url: https://mailarchive.ietf.org/arch/msg/opsec/BTtRXdU1RDFkseDq9FOCBy0KA6o/
+    - date: '2022-07-27'
+      subject: '[OPSEC] Adoption call for draft-vyncke-opsec-probe-attribution'
+      url: https://mailarchive.ietf.org/arch/msg/opsec/eFTofqiAB413O8od3ecgd8B_P0U/
   - kind: shepherded
     documents:
     - draft-ietf-opsec-indicators-of-compromise

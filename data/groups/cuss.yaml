@@ -13,14 +13,35 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-07-24'
+      date: '2011-05-31'
       not_before: '2010-06-10'
     end:
       certainty: group-closed
       date: '2015-01-27'
     notes:
     - start moved earlier by session request for IETF 81
+    - widened to cover last calls and adoption calls on the group list
   evidence:
+  - kind: chair activity
+    first: '2010-09-01'
+    last: '2013-12-02'
+    messages: 30
+    examples:
+    - date: '2010-09-01'
+      subject: '[cuss] Kick off for CUSS WG and virtual interim poll'
+      url: https://mailarchive.ietf.org/arch/msg/cuss/0Uqh2mAsJh8F71ss5y9a_X3Kj6k/
+    - date: '2010-09-09'
+      subject: '[cuss] Virtual interim meeting on Sept. 23, 2010'
+      url: https://mailarchive.ietf.org/arch/msg/cuss/xJoWDSpkoA7-BZ0qiqOsW9FG9ZI/
+    - date: '2011-05-31'
+      subject: '[cuss] WGLC for draft-ietf-cuss-sip-uui-reqs-02'
+      url: https://mailarchive.ietf.org/arch/msg/cuss/_XSHCjf6mDfoHzqcny5Q8G6lhtk/
+    - date: '2011-06-22'
+      subject: '[cuss] WGLC ended for draft-ietf-cuss-sip-uui-reqs-02'
+      url: https://mailarchive.ietf.org/arch/msg/cuss/EWKw8n8C9TFsBudnYVNYfVSTcuU/
+    - date: '2012-05-05'
+      subject: '[cuss] WGLC for sip-uui-06 and sip-uui-isdn-04'
+      url: https://mailarchive.ietf.org/arch/msg/cuss/l1aIZXYCFGwcrcchISnvB83sC08/
   - kind: session requests
     meetings:
     - '81'
@@ -44,6 +65,17 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 79
   evidence:
+  - kind: chair activity
+    first: '2010-09-14'
+    last: '2011-10-04'
+    messages: 7
+    examples:
+    - date: '2010-09-14'
+      subject: '[cuss] Virtual interim meeting: WebEx details'
+      url: https://mailarchive.ietf.org/arch/msg/cuss/fXgZM0dUI-IWleJwSqwLz8TsbDg/
+    - date: '2010-09-16'
+      subject: '[cuss] Tentative agenda for CUSS virtual interim'
+      url: https://mailarchive.ietf.org/arch/msg/cuss/H1bGKQPEG9yquabzGGb6vCAeg48/
   - kind: session requests
     meetings:
     - '79'

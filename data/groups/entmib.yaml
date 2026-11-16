@@ -13,8 +13,31 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-02-13'
+      date: '2002-03-25'
       not_before: '1995-09-21'
     end:
       certainty: group-closed
       date: '2006-02-13'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
+  evidence:
+  - kind: chair activity
+    first: '2001-08-09'
+    last: '2004-09-22'
+    messages: 18
+    examples:
+    - date: '2001-08-09'
+      subject: '[Entmib] Slides for Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/entmib/AclHsHvA8X6_R4mcJtyghRoaT0I/
+    - date: '2001-09-11'
+      subject: '[Entmib] London Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/entmib/Kz7yyH5CLuQNI1A4qFww7NnbAx8/
+    - date: '2002-03-25'
+      subject: '[Entmib] WG Last Call: draft-ietf-entmib-sensor-mib-00.txt'
+      url: https://mailarchive.ietf.org/arch/msg/entmib/4AidimbEOxwGTaA8WS6x9u6xllg/
+    - date: '2003-07-08'
+      subject: '[Entmib] WG Last Call: Entity State MIB'
+      url: https://mailarchive.ietf.org/arch/msg/entmib/u2RKHz9amSbebQQqfFbd2zfu2hE/
+    - date: '2003-07-22'
+      subject: '[Entmib] WG Last Call: Entity MIB for Draft Standard'
+      url: https://mailarchive.ietf.org/arch/msg/entmib/xRuibLT3p5F8SKYkR9Thfn2XYKE/

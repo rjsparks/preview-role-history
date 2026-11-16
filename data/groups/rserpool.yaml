@@ -24,14 +24,29 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2002-08-08'
       not_before: '2000-09-13'
     end:
       certainty: group-closed
       date: '2009-04-27'
     notes:
     - start moved earlier by session request for IETF 65
+    - widened to cover last calls and adoption calls on the group list
   evidence:
+  - kind: chair activity
+    first: '2001-03-01'
+    last: '2006-11-20'
+    messages: 51
+    examples:
+    - date: '2001-03-01'
+      subject: '[Rserpool] Draft Agenda for the 50th IETF Rserpool WG meeting'
+      url: https://mailarchive.ietf.org/arch/msg/rserpool/v20CpyOfdclCqFrhlYAIW47PcyM/
+    - date: '2001-07-18'
+      subject: '[Rserpool] Draft Agenda for 51st IETF in london for Rserpool'
+      url: https://mailarchive.ietf.org/arch/msg/rserpool/LIR1g_PU7TL7CU6mjlsbuuv3vSc/
+    - date: '2002-08-08'
+      subject: '[Rserpool] WG Last Call on Rserpool Comparison document'
+      url: https://mailarchive.ietf.org/arch/msg/rserpool/GkBncuNBCTfIB2BGuJspOgaPheU/
   - kind: session requests
     meetings:
     - '65'

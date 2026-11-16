@@ -35,6 +35,26 @@ chairs:
     subject: '[netmod] New WG co-chair for NETMOD'
     url: https://mailarchive.ietf.org/arch/msg/netmod/aEB0REmHzaSyA65ipc-vQV50Dw8/
     excerpt: As you know David Partain is stepping down from the position of co-chair of the NETMOD.
+  - kind: chair activity
+    first: '2008-07-28'
+    last: '2010-06-29'
+    messages: 20
+    examples:
+    - date: '2008-07-28'
+      subject: '[netmod] Interim in October?'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/_YSUA6qTM08gKzl1pxNy5A3t7v4/
+    - date: '2008-07-31'
+      subject: '[netmod] Interim on Oct 8 - 10'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/M3HyVVQTF7w8P5nof4-hPEECqAE/
+    - date: '2009-04-30'
+      subject: '[netmod] Working Group Last Call: draft-ietf-netmod-yang-05.txt'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/Qef3Re0ZLJl8i7yJ9J2rFpokawE/
+    - date: '2009-05-27'
+      subject: '[netmod] Working Group Last Call: draft-ietf-netmod-yang-types-03.txt'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/URuwFF7iTUF1VFUu7SulGimTRwo/
+    - date: '2009-12-03'
+      subject: '[netmod] Working Group Last Call: YANG - A data modeling language for NETCONF'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/L1iX5fUlT2yUJBZia9HBrVbua48/
   - kind: session requests
     meetings:
     - '72'
@@ -59,6 +79,26 @@ chairs:
     date: '2017-04-26'
     subject: 'WG Action: Rechartered NETCONF Data Modeling Language (netmod)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/at35WWZ5fZjfB9iaP0paEjhyN5A/
+  - kind: chair activity
+    first: '2016-02-29'
+    last: '2026-10-27'
+    messages: 34
+    examples:
+    - date: '2016-02-29'
+      subject: '[netmod] WG Last Call: draft-ietf-netmod-syslog-model-06'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/T6VMuA3WjRevkRW4lhRFfibBsKc/
+    - date: '2016-03-21'
+      subject: '[netmod] WG adoption poll draft-bjorklund-netmod-structural-mount-02 as draft-ietf-netmod-schema-mount'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/3GnkZZPdUfRcJhlsDxly6bgXdd4/
+    - date: '2016-03-21'
+      subject: '[netmod] Draft agenda posted'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/ptJPEV0t91K3ohaoN9JPkO4Rbwo/
+    - date: '2016-11-30'
+      subject: '[netmod] WG Last Call: draft-ietf-netmod-yang-model-classification-04'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/k_XZF7J7FSy39wjj9JcoKxPDD-g/
+    - date: '2016-12-09'
+      subject: '[netmod] IETF97 minutes posted'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/RutnDmS5K-TwUizdOX7TOCJSci0/
   - kind: shepherded
     documents:
     - draft-ietf-netmod-acl-extensions
@@ -72,6 +112,40 @@ chairs:
     - draft-ietf-netmod-yang-module-filename
     - draft-ietf-netmod-yang-module-versioning
     - draft-ietf-netmod-yang-semver
+- person: 17253
+  name: David Harrington
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2008-08-14'
+    end:
+      certainty: approximate
+      date: '2008-12-19'
+    notes:
+    - end dated by list message of 2008-12-19
+  evidence:
+  - kind: list message
+    date: '2008-12-19'
+    says: end
+    subject: '[netmod] Preliminary IETF73 meeting minutes'
+    url: https://mailarchive.ietf.org/arch/msg/netmod/26VAWb96kYN9oOpeAdtvOt6YszI/
+    excerpt: '- David Harrington: I''m stepping down as co-chair due to day-job requirements.'
+  - kind: chair activity
+    first: '2008-08-14'
+    last: '2008-12-18'
+    messages: 2
+    examples:
+    - date: '2008-08-14'
+      subject: '[netmod] ietf72 netmod session minutes'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/L017So1xUhmn3If2gN8WHXoXPDk/
+    - date: '2008-12-18'
+      subject: '[netmod] ietf73 netmod minutes'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/8dGYVjG9Onsor7r5srjISclB8l0/
+  - kind: session requests
+    meetings:
+    - '73'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
 - person: 19587
   name: David Kessens
   status: confirmed
@@ -119,6 +193,17 @@ chairs:
     subject: '[netmod] wg chair review of draft-ietf-netmod-routing-cfg-13'
     url: https://mailarchive.ietf.org/arch/msg/netmod/BNbRfww9cwyTNnj6BS3aCWuObuA/
     excerpt: d) In all three modules, replace David Kessens with Tom Nadeau as co-chair.
+  - kind: chair activity
+    first: '2009-03-03'
+    last: '2010-11-03'
+    messages: 8
+    examples:
+    - date: '2009-03-03'
+      subject: '[netmod] Call for agenda topics San Francisco IETF'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/U6RYAUhHOqTQVeVuuPpWX1MasNs/
+    - date: '2009-11-04'
+      subject: '[netmod] Draft agenda for netmod session in Hiroshima (v1)'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/liGfQGJxbXhraEWxlkmCD3jxTj0/
   - kind: session requests
     meetings:
     - '80'
@@ -137,6 +222,26 @@ chairs:
       certainty: exact
       date: '2022-10-13'
   evidence:
+  - kind: chair activity
+    first: '2018-01-01'
+    last: '2022-08-04'
+    messages: 17
+    examples:
+    - date: '2018-01-01'
+      subject: '[netmod] WGLC - draft-ietf-netmod-yang-tree-diagrams'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/LNKpfSWmkv6_myC_k9jFLmgT5-o/
+    - date: '2018-02-06'
+      subject: '[netmod] Adoption Poll: draft-rtgyangdt-netmod-module-tags-02'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/YpJjWCoybZn-XXimzsIh_AvMbiM/
+    - date: '2018-03-21'
+      subject: '[netmod] WGLC - draft-ietf-netmod-schema-mount (version 09)'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/mxNj3qXZugBZFB99SVRN6eErdKM/
+    - date: '2018-09-30'
+      subject: '[netmod] Important milestones for IETF 103'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/uRuPM43VAAil5TuTdDy4j_B5V8c/
+    - date: '2019-04-13'
+      subject: '[netmod] draft item 104 meeting 1/2 minutes'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/I2_rWCNjPDfUYzowE5KV85jMbp8/
   - kind: shepherded
     documents:
     - draft-ietf-netmod-module-tags
@@ -177,6 +282,26 @@ chairs:
     date: '2015-10-23'
     subject: 'WG Action: Rechartered NETCONF Data Modeling Language (netmod)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/UWAObpCtjC-XH6yMwqeL1x6jVRI/
+  - kind: chair activity
+    first: '2010-12-09'
+    last: '2015-10-12'
+    messages: 75
+    examples:
+    - date: '2010-12-09'
+      subject: '[netmod] ietf 79 draft minutes uploaded'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/fhVjuLkFUhYRREVb8pFuYlnktQc/
+    - date: '2011-04-01'
+      subject: '[netmod] draft minutes uploaded'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/b3vzE9pRc_qpLVqPUQQ_Kb1BnR8/
+    - date: '2012-07-16'
+      subject: '[netmod] wg last call on interfaces / ip / routing data models'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/rpfSWd7vskTkUHX9Fso8JHhb_O8/
+    - date: '2013-07-05'
+      subject: '[netmod] WG Last Call draft-ietf-netmod-iana-if-type-07 (until 2013-07-22)'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/gxf4OvQ5p9p8Z_YUmkMCpY8KOkA/
+    - date: '2013-07-05'
+      subject: '[netmod] WG Last Call draft-ietf-netmod-iana-timezones-00 (until 2013-07-22)'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/4NQwDmk2Tq1v5tF2D3r63r4mwxo/
   - kind: session requests
     meetings:
     - '81'
@@ -215,6 +340,23 @@ chairs:
     subject: '[netmod] Tom Nadeau as a new NETMOD co-chair'
     url: https://mailarchive.ietf.org/arch/msg/netmod/s_levS-Bt5p8ML0l1Blq5b4lBkQ/
     excerpt: Tom Nadeau accepted the position of NETMOD co-chair.
+  - kind: chair activity
+    first: '2014-09-25'
+    last: '2015-12-09'
+    messages: 16
+    examples:
+    - date: '2014-09-25'
+      subject: '[netmod] NETMOD Interim Meeting Format Update'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/JDWY5QZ5ugQWdfSCgmCYlSsMvQg/
+    - date: '2014-10-08'
+      subject: '[netmod] netmod wg interim meeting minutes .2014-10-08-14.00'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/FPW5qcHTwZDl6UtLavBXPuxWo5E/
+    - date: '2015-02-06'
+      subject: '[netmod] WG Last Call: draft-ietf-netmod-acl-model-01.txt'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/B8XBc_oDijptluXsouPJ4kMKK9M/
+    - date: '2015-12-09'
+      subject: '[netmod] Working group Last Call: draft-ietf-netmod-acl-model-06'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/bqV1N02ude7KXCLQ7wlW3gonyGE/
   - kind: shepherded
     documents:
     - draft-ietf-netmod-interfaces-cfg
@@ -244,6 +386,26 @@ chairs:
     subject: '[netmod] Next NETMOD chair'
     url: https://mailarchive.ietf.org/arch/msg/netmod/zPFwxiw_KXJ3eM-RWbhxooiFUMI/
     excerpt: Please welcome Kent Watsen, who has accepted to serve as NETMOD co-chair.
+  - kind: chair activity
+    first: '2014-11-14'
+    last: '2026-11-04'
+    messages: 84
+    examples:
+    - date: '2014-11-14'
+      subject: '[netmod] minutes for Nov 13 meeting'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/Vi646M686yw1tmKNtPJO3RlXCDM/
+    - date: '2015-05-22'
+      subject: '[netmod] scheduling interim meetings'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/NALIJOATS_blSJc0TMOTfTeMxVg/
+    - date: '2015-06-15'
+      subject: '[netmod] WG Last Call for draft-ietf-netmod-yang-json-04 (until 2015-06-29)'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/WDuNrtXRSU5Knqeco-ev51g0x3Q/
+    - date: '2015-06-15'
+      subject: '[netmod] WG Last Call for draft-ietf-netmod-yang-metadata-01 (until 2015-06-29)'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/Y6_eqgV8Kfrdi64VRiE3St6voeM/
+    - date: '2015-09-21'
+      subject: '[netmod] WG Last Call for draft-ietf-netmod-yang-json-05 (until 2015-10-05)'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/jCfddDA9iHbTpkTMMjDm04YgO6g/
   - kind: shepherded
     documents:
     - draft-ietf-netmod-acl-model

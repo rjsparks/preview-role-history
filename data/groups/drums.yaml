@@ -13,8 +13,22 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2001-04-26'
+      date: '1998-12-10'
       not_before: '1995-05-08'
     end:
       certainty: group-closed
       date: '2001-04-26'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
+  evidence:
+  - kind: chair activity
+    first: '1998-12-10'
+    last: '2000-09-28'
+    messages: 2
+    examples:
+    - date: '1998-12-10'
+      subject: WG last call on Message format draft
+      url: https://mailarchive.ietf.org/arch/msg/drums/hs8AaE7DtuzAKA5nTuV3DdaL154/
+    - date: '2000-09-28'
+      subject: WG Last Call of draft-ietf-drums-smtpupd-13.txt
+      url: https://mailarchive.ietf.org/arch/msg/drums/DfEt0NTGPAAHuhWA8P3y1jJUuh0/

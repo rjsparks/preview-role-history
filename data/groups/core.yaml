@@ -38,6 +38,24 @@ chairs:
     date: '2016-04-04'
     subject: 'WG Action: Rechartered Constrained RESTful Environments (core)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/450u3JMi5un7h9V8bb9i9KKJdFM/
+  - kind: chair activity
+    first: '2010-12-12'
+    last: '2026-06-23'
+    messages: 60
+    examples:
+    - date: '2010-12-12'
+      subject: '[core] IETF79 minutes uploaded'
+      url: https://mailarchive.ietf.org/arch/msg/core/7i9I1fuH1jU9CFG48Rdb8HCOSps/
+    - date: '2011-12-02'
+      subject: '[core] Invitation for a trip to the distant past: 2010-08-25 virtual interim minutes are
+        up'
+      url: https://mailarchive.ietf.org/arch/msg/core/xtPU7-_HjKZpTud8Dax3b5ec7Ts/
+    - date: '2012-04-16'
+      subject: '[core] WGLC draft-ietf-core-block-08: Disentangle Block and Token (#210)'
+      url: https://mailarchive.ietf.org/arch/msg/core/jGHFeMCpRIo_vdxynnLvpN0348c/
+    - date: '2013-12-09'
+      subject: '[core] WGLC of draft-ietf-core-groupcomm-17'
+      url: https://mailarchive.ietf.org/arch/msg/core/-uZP3ER45d2Re6-zqgcCL47qZ1w/
   - kind: shepherded
     documents:
     - draft-ietf-core-groupcomm
@@ -65,6 +83,26 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 78
   evidence:
+  - kind: chair activity
+    first: '2010-03-10'
+    last: '2012-06-04'
+    messages: 11
+    examples:
+    - date: '2010-03-10'
+      subject: '[core] CORE Draft Agenda for IETF 77'
+      url: https://mailarchive.ietf.org/arch/msg/core/MjbvWLdTJH9JnZpYhdVRP9yNef8/
+    - date: '2010-07-16'
+      subject: '[core] Draft Agenda for IETF 78 CORE WG'
+      url: https://mailarchive.ietf.org/arch/msg/core/zTLQDtWNwGgpM1i54XtzHZpJq-4/
+    - date: '2011-01-12'
+      subject: '[core] WGLC for draft-ietf-core-link-format-02'
+      url: https://mailarchive.ietf.org/arch/msg/core/WSj-oBY_aTDkjbt0gk7xopF8aHY/
+    - date: '2012-03-20'
+      subject: '[core] WGLC of draft-ietf-core-observe-05 draft-ietf-core-block-08 and draft-ietf-core-coap-09'
+      url: https://mailarchive.ietf.org/arch/msg/core/LxKmsstQVmFNkLzEnp33utH0af4/
+    - date: '2012-04-18'
+      subject: '[core] WGLC draft-ietf-core-coap-09 - packet size'
+      url: https://mailarchive.ietf.org/arch/msg/core/hdLH1YUJ9PfVCil0WuQVf_S7auA/
   - kind: session requests
     meetings:
     - '78'
@@ -73,6 +111,37 @@ chairs:
     - '81'
     - '82'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 107491
+  name: Salvatore Loreto
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2011-02-22'
+    end:
+      certainty: evidence-only
+      not_before: '2012-05-11'
+  evidence:
+  - kind: chair activity
+    first: '2011-02-22'
+    last: '2012-05-11'
+    messages: 5
+    examples:
+    - date: '2011-02-22'
+      subject: '[core] agenda items proposal for tomorrow interim'
+      url: https://mailarchive.ietf.org/arch/msg/core/ENAykFVpQrr1y2FGb9AA9To4b1E/
+    - date: '2012-04-16'
+      subject: '[core] wglc: coap caching and observe, caching underspecified'
+      url: https://mailarchive.ietf.org/arch/msg/core/pilv1ir4T0Pg7knakLkcBhcDnAQ/
+    - date: '2012-04-16'
+      subject: '[core] wglc: 4.6. Congestion Control'
+      url: https://mailarchive.ietf.org/arch/msg/core/Cq-wEakV6pSt79wuhJUHFFuNj30/
+    - date: '2012-04-16'
+      subject: '[core] wglc: coap-09 reference issue in section 4.5 Multicast'
+      url: https://mailarchive.ietf.org/arch/msg/core/FnLWeeKgdy6Ig9S1uoGEPeJgTfg/
+    - date: '2012-05-11'
+      subject: '[core] any Agenda for Virtual Interim - May 16?'
+      url: https://mailarchive.ietf.org/arch/msg/core/yPeGwKjzp3vKORfOP-9S-4pgyzQ/
 - person: 113152
   name: Jaime Jimenez
   status: confirmed
@@ -83,6 +152,17 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: chair activity
+    first: '2016-06-22'
+    last: '2020-07-29'
+    messages: 2
+    examples:
+    - date: '2016-06-22'
+      subject: '[core] WG Last Call for draft-ietf-core-http-mapping-11'
+      url: https://mailarchive.ietf.org/arch/msg/core/1BGuh0J627RslWBRPpzArD8xlRo/
+    - date: '2020-07-29'
+      subject: '[core] WGLC on draft-ietf-core-senml-data-ct-02'
+      url: https://mailarchive.ietf.org/arch/msg/core/xM5Bjh3sI7VzUxPhHXkmB_eFIhQ/
   - kind: shepherded
     documents:
     - draft-ietf-core-coap-tcp-tls
@@ -119,6 +199,20 @@ chairs:
     date: '2016-04-04'
     subject: 'WG Action: Rechartered Constrained RESTful Environments (core)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/450u3JMi5un7h9V8bb9i9KKJdFM/
+  - kind: chair activity
+    first: '2012-12-07'
+    last: '2015-11-03'
+    messages: 4
+    examples:
+    - date: '2012-12-07'
+      subject: '[core] WGLC for draft-ietf-core-coap-13'
+      url: https://mailarchive.ietf.org/arch/msg/core/WjRPmVZp1x2M8x9yv0nGUNDKs4I/
+    - date: '2014-07-04'
+      subject: '[core] WGLC for draft-ietf-core-block-15'
+      url: https://mailarchive.ietf.org/arch/msg/core/EyACuyFUeu7lfaM7_0GLezJJfRk/
+    - date: '2015-01-04'
+      subject: '[core] WGLC for draft-ietf-core-block-16'
+      url: https://mailarchive.ietf.org/arch/msg/core/LBBfBk9R5Q_T1p0IvJBniP7IoEs/
   - kind: shepherded
     documents:
     - draft-ietf-core-coap
@@ -138,6 +232,26 @@ chairs:
     subject: '[core] New CORE co-chair: Marco Tiloca'
     url: https://mailarchive.ietf.org/arch/msg/core/SFMtRzqsoH-lwX4F6Y8jun-lDpE/
     excerpt: I am pleased to announce that Marco Tiloca has agreed to co-chair CORE WG.
+  - kind: chair activity
+    first: '2020-03-16'
+    last: '2026-11-03'
+    messages: 168
+    examples:
+    - date: '2020-03-16'
+      subject: '[core] CoRE IETF 107 and interim meetings'
+      url: https://mailarchive.ietf.org/arch/msg/core/NKq9Nhtov-7IVim8tZXUmQsS4-s/
+    - date: '2020-03-24'
+      subject: '[core] CoRE virtual interim meetings'
+      url: https://mailarchive.ietf.org/arch/msg/core/S_tR0GIegfJQ7qzZOLQs5gigNdU/
+    - date: '2020-04-09'
+      subject: '[core] WGLC on draft-ietf-core-dev-urn'
+      url: https://mailarchive.ietf.org/arch/msg/core/wynxOmNy93YyO1VxQttMUXM1DEE/
+    - date: '2020-12-07'
+      subject: '[core] WG Last Call on draft-ietf-core-new-block'
+      url: https://mailarchive.ietf.org/arch/msg/core/u8Gpq0DvlRIlbQUcArtK3DJBbK0/
+    - date: '2021-03-12'
+      subject: '[core] WG Last Call on draft-ietf-core-senml-versions'
+      url: https://mailarchive.ietf.org/arch/msg/core/voiQrwhJUqHqwwwMoOy4rI5kVCM/
   - kind: shepherded
     documents:
     - draft-ietf-core-cf-reg-update

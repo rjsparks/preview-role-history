@@ -18,3 +18,12 @@ chairs:
     end:
       certainty: group-closed
       date: '2018-09-26'
+  evidence:
+  - kind: chair activity
+    first: '2018-07-23'
+    last: '2018-07-23'
+    messages: 1
+    examples:
+    - date: '2018-07-23'
+      subject: '[Driu] Minutes from the meeting'
+      url: https://mailarchive.ietf.org/arch/msg/driu/a3J5La_njBzq4oG9LSVlmSbzD7w/

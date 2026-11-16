@@ -24,6 +24,14 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/cbor/jooLJieA0ObpswvHbX8KXt8lsa0/
     excerpt: Paul Hoffman has graciously accepted the role of co-chair, working alongside Barry and Christian,
       for the CBOR working group.
+  - kind: chair activity
+    first: '2025-12-10'
+    last: '2025-12-10'
+    messages: 1
+    examples:
+    - date: '2025-12-10'
+      subject: '[Cbor] CBOR WG interim meeting tomorrow'
+      url: https://mailarchive.ietf.org/arch/msg/cbor/Bgle_YK5_Kv7-ELt7uweYdD-5n4/
   - kind: shepherded
     documents:
     - draft-ietf-cbor-cde
@@ -40,6 +48,18 @@ chairs:
     end:
       certainty: exact
       date: '2023-03-08'
+  evidence:
+  - kind: chair activity
+    first: '2017-02-26'
+    last: '2026-06-23'
+    messages: 35
+    examples:
+    - date: '2017-02-26'
+      subject: '[Cbor] Constrained Node/Network Cluster @ IETF98: DRAFT AGENDA'
+      url: https://mailarchive.ietf.org/arch/msg/cbor/-ulg1YR_3A4DAbGtsn0bGcNX7xo/
+    - date: '2017-06-16'
+      subject: '[Cbor] Constrained Node/Network Cluster @ IETF99: DRAFT AGENDA'
+      url: https://mailarchive.ietf.org/arch/msg/cbor/2KOgL1yRodcbjwnzH8BYA052RpQ/
 - person: 21684
   name: Barry Leiba
   status: confirmed
@@ -56,6 +76,26 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: chair activity
+    first: '2018-08-13'
+    last: '2026-07-30'
+    messages: 16
+    examples:
+    - date: '2018-08-13'
+      subject: '[Cbor] Working Group Last Call on draft-ietf-cbor-cddl-04'
+      url: https://mailarchive.ietf.org/arch/msg/cbor/e14k8qH2Rz7iTtDBwvlLzbqJGYE/
+    - date: '2021-08-02'
+      subject: '[Cbor] Minutes posted for the CBOR session at IETF 111'
+      url: https://mailarchive.ietf.org/arch/msg/cbor/wqlAU6NaczCggE3ghjvLmaZjT28/
+    - date: '2021-08-26'
+      subject: '[Cbor] CBOR interim sessions will resume on 8 September'
+      url: https://mailarchive.ietf.org/arch/msg/cbor/1Py4Tlw731A8NFB0W1S6vK5W_jY/
+    - date: '2022-04-20'
+      subject: '[Cbor] Working group last call on draft-ietf-cbor-packed'
+      url: https://mailarchive.ietf.org/arch/msg/cbor/CGzk3KMvJQ8hg-DzkfkPFECglRE/
+    - date: '2023-01-11'
+      subject: '[Cbor] Working group last call on draft-ietf-cbor-time-tag-04'
+      url: https://mailarchive.ietf.org/arch/msg/cbor/uo-wDfZVPdMerERGd2G4r-3vk0o/
   - kind: shepherded
     documents:
     - draft-ietf-cbor-cddl
@@ -108,6 +148,20 @@ chairs:
     subject: '[Cbor] CBOR co-chair change'
     url: https://mailarchive.ietf.org/arch/msg/cbor/pCldrp3HtW8AXrkjvcoF_75dyI4/
     excerpt: I am also pleased to announce that Jim Schaad has agreed to co-chair the WG.
+  - kind: chair activity
+    first: '2018-08-07'
+    last: '2020-07-13'
+    messages: 3
+    examples:
+    - date: '2018-08-07'
+      subject: '[Cbor] Agenda for tomorrow'
+      url: https://mailarchive.ietf.org/arch/msg/cbor/Zo67wDwKxcGNLl6-8DbVXlMqv8Q/
+    - date: '2019-07-29'
+      subject: '[Cbor] Adoption call for CBOR Sequences'
+      url: https://mailarchive.ietf.org/arch/msg/cbor/HjAAEkPicOCxe_M4EFEZiDYH0K4/
+    - date: '2020-07-13'
+      subject: '[Cbor] Agenda items for IETF 108'
+      url: https://mailarchive.ietf.org/arch/msg/cbor/pSH-pvANFgqQBsdvtfvGwWQEJVI/
   - kind: shepherded
     documents:
     - draft-ietf-cbor-sequence
@@ -159,6 +213,17 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: chair activity
+    first: '2021-01-27'
+    last: '2022-07-06'
+    messages: 5
+    examples:
+    - date: '2021-01-27'
+      subject: '[Cbor] Interim meeting today (interim-2021-cbor-02)'
+      url: https://mailarchive.ietf.org/arch/msg/cbor/s2Vv_Rn-PvqD5BvnQBWfQ9BGhog/
+    - date: '2021-02-24'
+      subject: '[Cbor] Interim today 2021-02-24'
+      url: https://mailarchive.ietf.org/arch/msg/cbor/_kcH3rZG_ypAUvAwQR39NBtI5dU/
   - kind: shepherded
     documents:
     - draft-ietf-cbor-cddl-control

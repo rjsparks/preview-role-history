@@ -13,7 +13,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2009-06-09'
+      not_after: '2004-04-18'
     end:
       certainty: evidence-only
       not_before: '2009-06-09'
@@ -22,6 +22,17 @@ chairs:
     date: '2009-06-09'
     subject: 'WG Action: RECHARTER: Point-to-Point Protocol Extensions (pppext)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/qjg8kPzDy2A5W1IDyHkFRyj2sg8/
+  - kind: chair activity
+    first: '2004-04-18'
+    last: '2004-11-23'
+    messages: 2
+    examples:
+    - date: '2004-04-18'
+      subject: '[Pppext] Working group last call: PWE3 DLL assignment'
+      url: https://mailarchive.ietf.org/arch/msg/pppext/o9e7y1FblLwXHEOB9tPStLPvjvc/
+    - date: '2004-11-23'
+      subject: '[Pppext] removing the milestones'
+      url: https://mailarchive.ietf.org/arch/msg/pppext/yfDDvoexTyaOnwqeUrNg4o_N75A/
 - person: 102391
   name: Donald Eastlake
   status: confirmed

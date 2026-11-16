@@ -24,8 +24,31 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2002-10-21'
+      date: '1997-03-04'
       not_before: '1996-09-06'
     end:
       certainty: group-closed
       date: '2002-10-21'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
+  evidence:
+  - kind: chair activity
+    first: '1996-12-16'
+    last: '1999-03-09'
+    messages: 19
+    examples:
+    - date: '1996-12-16'
+      subject: '[URN] DRAFT URN Meeting Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/urn/GYkIdOyRmjqNT9zWrfaNaOBaQ6U/
+    - date: '1997-03-04'
+      subject: '[URN] Working Group Last Call: Syntax and NAPTR'
+      url: https://mailarchive.ietf.org/arch/msg/urn/FxA-2-8KFzsdUhu5lq00TOGuexM/
+    - date: '1997-03-04'
+      subject: '[URN] Working Group Last Call -- THTTP'
+      url: https://mailarchive.ietf.org/arch/msg/urn/ZyTkK-lNTqisgL9rskgVhwWIaUE/
+    - date: '1997-03-20'
+      subject: '[URN] DRAFT agenda for URN meeting in Memphis'
+      url: https://mailarchive.ietf.org/arch/msg/urn/ehLwzBLQU1u-J2N64uEjb3LqDnw/
+    - date: '1997-06-10'
+      subject: '[URN] WG Last Call: Guidelines & Framework document'
+      url: https://mailarchive.ietf.org/arch/msg/urn/lYP6bdrIgCKr1U0zr_gR2fZfcg4/

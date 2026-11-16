@@ -18,3 +18,15 @@ chairs:
     end:
       certainty: group-closed
       date: '1991-08-02'
+  evidence:
+  - kind: chair activity
+    first: '1990-06-01'
+    last: '1990-08-23'
+    messages: 2
+    examples:
+    - date: '1990-06-01'
+      subject: spwg meeting minutes
+      url: https://mailarchive.ietf.org/arch/msg/spwg/GtljfkZ8AkE10U3cn_19S8MGX5s/
+    - date: '1990-08-23'
+      subject: spwg minutes
+      url: https://mailarchive.ietf.org/arch/msg/spwg/_HNzTRVooskZGsJQHaWP39doaQw/

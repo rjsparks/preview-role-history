@@ -17,3 +17,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2006-05-12'
+  evidence:
+  - kind: chair activity
+    first: '2005-11-08'
+    last: '2006-03-28'
+    messages: 2
+    examples:
+    - date: '2005-11-08'
+      subject: '[Techspec] scribe, minutes taker -- volunteers?'
+      url: https://mailarchive.ietf.org/arch/msg/techspec/CW2C7MjbUczm6mfnyHWvZh7bHPs/
+    - date: '2006-03-28'
+      subject: '[Techspec] DRAFT Techspec minutes'
+      url: https://mailarchive.ietf.org/arch/msg/techspec/Oplrn6_sjpNBl_eL2qM_6Fxs8Xo/

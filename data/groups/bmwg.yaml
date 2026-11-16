@@ -7,6 +7,66 @@ started: '1989-10-01'
 closed: '2026-11-04'
 history_url: https://datatracker.ietf.org/group/bmwg/history/
 chairs:
+- person: 5857
+  name: Jim McQuaid
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1996-07-22'
+    end:
+      certainty: approximate
+      date: '1996-07-22'
+    notes:
+    - end dated by list message of 1996-07-22
+  evidence:
+  - kind: list message
+    date: '1996-07-22'
+    says: end
+    subject: BMWG minutes (fwd)
+    url: https://mailarchive.ietf.org/arch/msg/bmwg/RlSah6hoxoiYl0pzR5TFb6QzF1w/
+    excerpt: Kevin Dubray introduced himself as co-chair of the BMWG, replacing Jim McQuaid.
+- person: 10044
+  name: Kevin Dubray
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1998-07-29'
+    end:
+      certainty: evidence-only
+      not_before: '2013-04-29'
+  evidence:
+  - kind: list message
+    date: '2013-04-29'
+    says: start
+    subject: '[bmwg] New Co-Chair'
+    url: https://mailarchive.ietf.org/arch/msg/bmwg/BXYguY1X-1U7131aG7xM6l9ss9Y/
+    excerpt: A long time ago (IAGFFA), Kevin Dubray asked me to join him as co-chair.
+  - kind: chair activity
+    first: '1998-07-29'
+    last: '2005-09-22'
+    messages: 49
+    examples:
+    - date: '1998-07-29'
+      subject: BMWG Agenda for the 42nd IETF
+      url: https://mailarchive.ietf.org/arch/msg/bmwg/PfFNwH0DiNwy1wsrJh_OrXZgOG0/
+    - date: '1998-07-31'
+      subject: WG Last Call
+      url: https://mailarchive.ietf.org/arch/msg/bmwg/TrKK8OYBDZq7nvDPzn7moKTf2Mw/
+    - date: '1998-09-22'
+      subject: BMWG minutes of the 42nd IETF (Chicago)
+      url: https://mailarchive.ietf.org/arch/msg/bmwg/2k6c245clw9oLvLD1CFkXN46CEM/
+    - date: '1999-01-13'
+      subject: 'WG Last Call: bmwg-secperf-05.txt'
+      url: https://mailarchive.ietf.org/arch/msg/bmwg/SEiwZcFeO86KKxgdiw3L8a5zKeY/
+    - date: '1999-10-13'
+      subject: 'WG Last Call: ATM Benchmarking Terminology'
+      url: https://mailarchive.ietf.org/arch/msg/bmwg/bQHYjP3UtE-QHbLHIxPLUyd0m9Y/
+  - kind: session requests
+    meetings:
+    - '65'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
 - person: 102900
   name: Al Morton
   status: confirmed
@@ -19,6 +79,7 @@ chairs:
       date: '2023-06-23'
     notes:
     - start moved earlier by session request for IETF 66
+    - widened to cover last calls and adoption calls on the group list
     - start dated by list message of 2003-03-04
   evidence:
   - kind: WG Review
@@ -47,6 +108,26 @@ chairs:
     subject: '[bmwg] New BMWG co-chair.'
     url: https://mailarchive.ietf.org/arch/msg/bmwg/daZhnaxDv1yS9uS4VlkADOJtqNc/
     excerpt: I'm very pleased to announce that Al Morton has agreed to contribute as co-chair of the BMWG.
+  - kind: chair activity
+    first: '2003-05-08'
+    last: '2012-10-27'
+    messages: 72
+    examples:
+    - date: '2003-05-08'
+      subject: '[bmwg] WG Last Call: draft-ietf-bmwg-dsmterm-06.txt'
+      url: https://mailarchive.ietf.org/arch/msg/bmwg/r3cOXb0rHQ0IngBGcuY7Kw1Whmc/
+    - date: '2003-06-24'
+      subject: '[bmwg] WG Last Call: draft-ietf-bmwg-dsmterm-07.txt'
+      url: https://mailarchive.ietf.org/arch/msg/bmwg/QFkrvcnHhU-_CNTNudHRtqzLVfs/
+    - date: '2003-07-22'
+      subject: '[bmwg] Draft minutes of BMWG at IETF-57'
+      url: https://mailarchive.ietf.org/arch/msg/bmwg/diArlyfQ51DaS6xoIZr_NkczQWU/
+    - date: '2003-10-31'
+      subject: '[bmwg] WG Last Call: draft-ietf-bmwg-dsmterm-08.txt'
+      url: https://mailarchive.ietf.org/arch/msg/bmwg/OOIoQG5SL6yPAOeim7e0qnCtnG4/
+    - date: '2003-11-05'
+      subject: '[bmwg] Tentative Agenda for Benchmarking Methodology WG (bmwg)'
+      url: https://mailarchive.ietf.org/arch/msg/bmwg/oIubF8TZr-ORa-eto0H-62BFSEk/
   - kind: session requests
     meetings:
     - '66'
@@ -99,12 +180,26 @@ chairs:
     date: '2018-05-23'
     subject: 'WG Action: Rechartered Benchmarking Methodology (bmwg)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/EDo9GIsEzWx8KMFDXcvreTI8CxQ/
-  - kind: list message
-    date: '2013-04-29'
-    says: start
-    subject: '[bmwg] New Co-Chair'
-    url: https://mailarchive.ietf.org/arch/msg/bmwg/BXYguY1X-1U7131aG7xM6l9ss9Y/
-    excerpt: With the concurrence of our Area Directors, Sarah Banks will now join me as co-chair.
+  - kind: chair activity
+    first: '2014-09-04'
+    last: '2023-12-06'
+    messages: 14
+    examples:
+    - date: '2014-09-04'
+      subject: '[bmwg] WGLC on draft-ietf-bmwg-bgp-basic-convergence-02'
+      url: https://mailarchive.ietf.org/arch/msg/bmwg/tAszOs2e64W7w4wE0ATV-l0T0os/
+    - date: '2014-11-17'
+      subject: '[bmwg] Minutes from IETF 91'
+      url: https://mailarchive.ietf.org/arch/msg/bmwg/CPdqCnorHoERQRSSbYH_MLixdgo/
+    - date: '2014-11-17'
+      subject: '[bmwg] IETF-90 (Toronto) Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/bmwg/q20A5y3AW-hJMUgPeRjQ2fmHUpc/
+    - date: '2015-12-08'
+      subject: '[bmwg] WGLC for draft-ietf-bmwg-virtual-net'
+      url: https://mailarchive.ietf.org/arch/msg/bmwg/XWCX9land0hUR_YdBCf-8HtGVS0/
+    - date: '2018-12-07'
+      subject: '[bmwg] Call for Adoption: draft-morton-bmwg-b2b-frame'
+      url: https://mailarchive.ietf.org/arch/msg/bmwg/EH3bAXxbQ4-Tj9j3gCoQq_cNBfA/
   - kind: shepherded
     documents:
     - draft-ietf-bmwg-b2b-frame
@@ -133,6 +228,21 @@ chairs:
     subject: '[bmwg] Minutes from IETF 117 and welcome our new co-chair'
     url: https://mailarchive.ietf.org/arch/msg/bmwg/yDexoTE-vUNY8YKacb6TRmI1V98/
     excerpt: On a separate note, please join me in welcoming Giuseppe Fioccola as my co-chair.
+  - kind: chair activity
+    first: '2023-11-16'
+    last: '2025-09-01'
+    messages: 16
+    examples:
+    - date: '2023-11-16'
+      subject: '[bmwg] IETF 118 minutes'
+      url: https://mailarchive.ietf.org/arch/msg/bmwg/z1GSqQjWvtdO1PlCC32cMmxe3Vg/
+    - date: '2024-03-06'
+      subject: '[bmwg] Draft Agenda for IETF119 BMWG meeting'
+      url: https://mailarchive.ietf.org/arch/msg/bmwg/E3-vontgy5NbzbVXNBrNjnSUpEo/
+    - date: '2025-09-01'
+      subject: '[bmwg] Working Group Last Call for draft-ietf-bmwg-network-tester-cfg (A YANG Data Model
+        for Network Tester Management)'
+      url: https://mailarchive.ietf.org/arch/msg/bmwg/pBesQ4diecOo-WJ4CwmpU1At-jU/
   - kind: shepherded
     documents:
     - draft-ietf-bmwg-mlrsearch

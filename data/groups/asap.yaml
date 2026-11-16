@@ -43,6 +43,17 @@ chairs:
     date: '2020-07-24'
     subject: 'WG Action: Formed Automatic SIP trunking And Peering (asap)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/CoJdXfFyLoQBo8IxpATgp3ayEWA/
+  - kind: chair activity
+    first: '2021-03-02'
+    last: '2021-08-04'
+    messages: 5
+    examples:
+    - date: '2021-03-02'
+      subject: '[Asap] IETF 110 Draft Agenda'
+      url: https://mailarchive.ietf.org/arch/msg/asap/fFHS4OTx2GFBSDVUsiG5Aix5QlA/
+    - date: '2021-03-15'
+      subject: '[Asap] IETF 110 ASAP minutes have been uploaded'
+      url: https://mailarchive.ietf.org/arch/msg/asap/xOxVnZk279Qw63r91iHwIhQmkXg/
 - person: 114455
   name: Jean Mahoney
   status: confirmed
@@ -54,6 +65,14 @@ chairs:
       certainty: group-closed
       date: '2026-02-17'
   evidence:
+  - kind: chair activity
+    first: '2023-08-07'
+    last: '2023-08-07'
+    messages: 1
+    examples:
+    - date: '2023-08-07'
+      subject: '[Asap] WGLC: draft-ietf-asap-sip-auto-peer'
+      url: https://mailarchive.ietf.org/arch/msg/asap/A_dKJ7bEiswuNs7_TlXW7MDcCfo/
   - kind: shepherded
     documents:
     - draft-ietf-asap-siptrunkingcapability-link

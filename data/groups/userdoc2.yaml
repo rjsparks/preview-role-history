@@ -18,6 +18,15 @@ chairs:
     end:
       certainty: group-closed
       date: '1994-08-10'
+  evidence:
+  - kind: chair activity
+    first: '1993-07-29'
+    last: '1993-07-29'
+    messages: 1
+    examples:
+    - date: '1993-07-29'
+      subject: Minutes for Amsterdam User-Doc WG
+      url: https://mailarchive.ietf.org/arch/msg/userdoc2/ZKhs9TDsl0hMEXlNjs4ajJU1uaU/
 - person: 4925
   name: Lenore Jackson
   status: confirmed

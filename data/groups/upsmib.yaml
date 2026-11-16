@@ -18,6 +18,18 @@ chairs:
     end:
       certainty: group-closed
       date: '1999-04-02'
+  evidence:
+  - kind: chair activity
+    first: '1992-12-21'
+    last: '1995-12-26'
+    messages: 3
+    examples:
+    - date: '1992-12-21'
+      subject: minutes interim meeting oct 16th
+      url: https://mailarchive.ietf.org/arch/msg/upsmib/aRFm-w2iVRw573ItM2AXO80jVMM/
+    - date: '1993-12-09'
+      subject: houston meeting minutes
+      url: https://mailarchive.ietf.org/arch/msg/upsmib/cZdv_yWdxGUVuWY-AUr6j6XQu_o/
 - person: 9728
   name: Maria Greene
   status: confirmed
@@ -29,3 +41,12 @@ chairs:
     end:
       certainty: group-closed
       date: '1999-04-02'
+  evidence:
+  - kind: chair activity
+    first: '1998-05-06'
+    last: '1998-05-06'
+    messages: 1
+    examples:
+    - date: '1998-05-06'
+      subject: Last WG Meeting Minutes (4/96)
+      url: https://mailarchive.ietf.org/arch/msg/upsmib/W20F-ZRiytkEjKRGDNgAUYkz2JY/

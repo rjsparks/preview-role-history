@@ -13,15 +13,35 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2004-07-29'
+      not_after: '2003-07-23'
     end:
       certainty: evidence-only
-      not_before: '2004-07-29'
+      not_before: '2005-02-28'
   evidence:
   - kind: WG Action
     date: '2004-07-29'
     subject: 'WG Action: RECHARTER: Layer 2 Virtual Private Networks (l2vpn)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/EZ4MQhrmNlIW-qLYn5TMvWPGw2c/
+  - kind: chair activity
+    first: '2003-07-23'
+    last: '2005-02-28'
+    messages: 9
+    examples:
+    - date: '2003-07-23'
+      subject: WG last call - l2vpn requirements and framework
+      url: https://mailarchive.ietf.org/arch/msg/l2vpn/dl8jW1__JP--cVXPkB7rpjum9Gc/
+    - date: '2003-10-18'
+      subject: ll2vpn agenda for Minneapolis
+      url: https://mailarchive.ietf.org/arch/msg/l2vpn/Up9qwY_vLW0mK7sR1rRnuCfiVi4/
+    - date: '2004-02-21'
+      subject: l2vpn agenda for seoul
+      url: https://mailarchive.ietf.org/arch/msg/l2vpn/zAD8GLkz66_A4YYw1KgBGKwh8oE/
+    - date: '2004-04-13'
+      subject: wg last call on ldp and bgp based vpls solutions
+      url: https://mailarchive.ietf.org/arch/msg/l2vpn/wEDCj4Nt0L9ud3BK2zw74VOeKz8/
+    - date: '2004-09-30'
+      subject: wg last call - draft-ietf-l2vpn-vpls-ldp-05.txt
+      url: https://mailarchive.ietf.org/arch/msg/l2vpn/uRxCO2KqG2A11l56INqhePewH-0/
 - person: 101552
   name: Shane Amante
   status: unconfirmed
@@ -94,13 +114,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-11-07'
+      date: '2010-06-24'
       not_before: '2003-06-09'
     end:
       certainty: group-closed
       date: '2014-11-20'
     notes:
     - start moved earlier by session request for IETF 79
+    - widened to cover last calls and adoption calls on the group list
   evidence:
   - kind: WG Review
     date: '2011-08-30'
@@ -110,6 +131,26 @@ chairs:
     date: '2011-09-13'
     subject: 'WG Action: RECHARTER: Layer 2 Virtual Private Networks (l2vpn)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/-oG-56sh4ZeIE4Q0M32ZCkJHuVo/
+  - kind: chair activity
+    first: '2010-03-16'
+    last: '2014-10-03'
+    messages: 27
+    examples:
+    - date: '2010-03-16'
+      subject: L2VPN agenda for IETF77
+      url: https://mailarchive.ietf.org/arch/msg/l2vpn/euIS9n288I25RzTxR4YX93T7ios/
+    - date: '2010-04-03'
+      subject: L2VPN Minutes from IETF77
+      url: https://mailarchive.ietf.org/arch/msg/l2vpn/OADmisZfaIQ3unbvnHd9OQQOtVk/
+    - date: '2010-06-24'
+      subject: 'WG Last Call: draft-ietf-l2vpn-vpls-mib-04'
+      url: https://mailarchive.ietf.org/arch/msg/l2vpn/jpQgaziduCvlMo4MgWvrD8GBvF4/
+    - date: '2012-08-23'
+      subject: WG adoption call for VPLS PE Model for E-Tree Support
+      url: https://mailarchive.ietf.org/arch/msg/l2vpn/ne62a57uCzEMCtuECKbJhp1qT74/
+    - date: '2012-10-02'
+      subject: WG Adoption call for draft-liu-l2vpn-vpls-inter-domain-redundancy-04
+      url: https://mailarchive.ietf.org/arch/msg/l2vpn/bvumOnJv1711M9SMaJBIYXZ6qqI/
   - kind: session requests
     meetings:
     - '79'
@@ -122,3 +163,74 @@ chairs:
     - draft-ietf-l2vpn-pbb-vpls-interop
     - draft-ietf-l2vpn-vpls-inter-domain-redundancy
     - draft-ietf-l2vpn-vpls-mib
+- person: 106881
+  name: Vach Kompella
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2003-08-01'
+    end:
+      certainty: evidence-only
+      not_before: '2008-08-18'
+  evidence:
+  - kind: WG Review
+    date: '2008-08-18'
+    subject: 'WG Review: Recharter of Layer 2 Virtual Private Networks (l2vpn)'
+    url: null
+  - kind: list message
+    date: '2005-07-13'
+    says: start
+    subject: New L2VPN WG Chair
+    url: https://mailarchive.ietf.org/arch/msg/l2vpn/-SPUQhDNCv3oA6MlUUcF7fRi1Vw/
+    excerpt: Please welcome Shane Amante as the new L2VPN Co-chair, serving beside Vach Kompella.
+  - kind: chair activity
+    first: '2003-08-01'
+    last: '2003-12-17'
+    messages: 2
+    examples:
+    - date: '2003-08-01'
+      subject: Minutes and action items from IETF 57
+      url: https://mailarchive.ietf.org/arch/msg/l2vpn/kJ5t3kPETtkkIIu4rMY5lf1V13g/
+    - date: '2003-12-17'
+      subject: IETF 58 - L2VPN minutes
+      url: https://mailarchive.ietf.org/arch/msg/l2vpn/zxQ0vy0gAFKAUSB0gXNEIbGq_tw/
+- person: 109004
+  name: Shane Amante
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: approximate
+      date: '2005-07-13'
+    end:
+      certainty: evidence-only
+      not_before: '2010-07-27'
+    notes:
+    - start dated by list message of 2005-07-13
+  evidence:
+  - kind: list message
+    date: '2005-07-13'
+    says: start
+    subject: New L2VPN WG Chair
+    url: https://mailarchive.ietf.org/arch/msg/l2vpn/-SPUQhDNCv3oA6MlUUcF7fRi1Vw/
+    excerpt: Please welcome Shane Amante as the new L2VPN Co-chair, serving beside Vach Kompella.
+  - kind: chair activity
+    first: '2005-07-22'
+    last: '2010-07-27'
+    messages: 35
+    examples:
+    - date: '2005-07-22'
+      subject: L2VPN agenda for IETF 63 (Paris)
+      url: https://mailarchive.ietf.org/arch/msg/l2vpn/VXODYQr0Rr_mda_u0UZKz7my_1s/
+    - date: '2005-08-07'
+      subject: Draft Minutes of L2VPN WG Meeting @ IETF 63 (Paris)
+      url: https://mailarchive.ietf.org/arch/msg/l2vpn/B01MilH8kdaGh5jDx7tIvokB8pA/
+    - date: '2005-12-19'
+      subject: 'WG Last Call: draft-ietf-l2vpn-ipls-05.txt'
+      url: https://mailarchive.ietf.org/arch/msg/l2vpn/Ecpc_ltyhocAkqL7TTUy8lel94Q/
+    - date: '2006-01-16'
+      subject: 'WG Last Call Ended: draft-ietf-l2vpn-ipls-05.txt'
+      url: https://mailarchive.ietf.org/arch/msg/l2vpn/Mq6P_PrzVYblv_BQhNoUxiyH4Lo/
+    - date: '2006-03-19'
+      subject: 'WG Last Call: draft-ietf-l2vpn-oam-req-frmk-05'
+      url: https://mailarchive.ietf.org/arch/msg/l2vpn/L3fyOs1aEn3mKnHG8qGMnUoEnyc/

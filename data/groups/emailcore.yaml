@@ -18,6 +18,15 @@ chairs:
     end:
       certainty: exact
       date: '2020-06-15'
+  evidence:
+  - kind: chair activity
+    first: '2022-12-07'
+    last: '2022-12-07'
+    messages: 1
+    examples:
+    - date: '2022-12-07'
+      subject: '[Emailcore] Interim coordinates'
+      url: https://mailarchive.ietf.org/arch/msg/emailcore/qmOMDZAr3IpkXO_rwYrii7m3adk/
 - person: 102154
   name: Alexey Melnikov
   status: confirmed
@@ -37,6 +46,26 @@ chairs:
     date: '2020-09-25'
     subject: 'WG Action: Formed Revision of core Email specifications (emailcore)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/YzZuNpMPIRJe4s7So32SdRSd0-U/
+  - kind: chair activity
+    first: '2021-12-07'
+    last: '2025-11-02'
+    messages: 14
+    examples:
+    - date: '2021-12-07'
+      subject: '[Emailcore] EMAILCORE Interim date/time and access info'
+      url: https://mailarchive.ietf.org/arch/msg/emailcore/fardW1HhbalNDNk87Mry3j6FDsI/
+    - date: '2021-12-07'
+      subject: '[Emailcore] Draft agenda for the Interim meeting this Thursday'
+      url: https://mailarchive.ietf.org/arch/msg/emailcore/WuHMvxSchlpMCFBxUewGJPgcThg/
+    - date: '2022-04-29'
+      subject: '[Emailcore] WGLC: draft-ietf-emailcore-rfc5322bis-03'
+      url: https://mailarchive.ietf.org/arch/msg/emailcore/BV8LLjKOm3y4KdJinfZLZm57YlU/
+    - date: '2023-12-11'
+      subject: '[Emailcore] WGLC on draft-ietf-emailcore-rfc5321bis-23'
+      url: https://mailarchive.ietf.org/arch/msg/emailcore/i6BNM1Qj7hofZfhh5Jv8cjduS9M/
+    - date: '2023-12-11'
+      subject: '[Emailcore] WGLC on draft-ietf-emailcore-rfc5322bis-08'
+      url: https://mailarchive.ietf.org/arch/msg/emailcore/hRRQJRPd7YZYow7vnkTq2prHpdA/
   - kind: shepherded
     documents:
     - draft-ietf-emailcore-rfc5321bis
@@ -91,6 +120,14 @@ chairs:
       certainty: exact
       date: '2025-07-26'
   evidence:
+  - kind: chair activity
+    first: '2022-12-22'
+    last: '2022-12-22'
+    messages: 1
+    examples:
+    - date: '2022-12-22'
+      subject: '[Emailcore] Notes from 7 December Interim Published'
+      url: https://mailarchive.ietf.org/arch/msg/emailcore/MKUFYw-X2n_DLF2Jgqdp9UmH8Xc/
   - kind: shepherded
     documents:
     - draft-ietf-emailcore-rfc5322bis

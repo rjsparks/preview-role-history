@@ -19,6 +19,20 @@ chairs:
       certainty: group-closed
       date: '2015-02-02'
   evidence:
+  - kind: chair activity
+    first: '2010-05-28'
+    last: '2013-12-09'
+    messages: 3
+    examples:
+    - date: '2010-05-28'
+      subject: '[sip-overload] SOC drafts / WebEx Interim'
+      url: https://mailarchive.ietf.org/arch/msg/sip-overload/AAtVgKGXrnXeFe9Fw9Y-HTrp-pM/
+    - date: '2012-07-31'
+      subject: '[sip-overload] minutes'
+      url: https://mailarchive.ietf.org/arch/msg/sip-overload/lUHk0xZsmKGl7jKIqnkAoSsXNVI/
+    - date: '2013-12-09'
+      subject: '[sip-overload] WGLC: draft-ietf-soc-overload-rate-control'
+      url: https://mailarchive.ietf.org/arch/msg/sip-overload/ZsbP2c2RyOIvf2W2-JhkdbZAXmU/
   - kind: shepherded
     documents:
     - draft-ietf-soc-load-control-event-package
@@ -37,6 +51,26 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 78
   evidence:
+  - kind: chair activity
+    first: '2010-07-02'
+    last: '2013-02-05'
+    messages: 15
+    examples:
+    - date: '2010-07-02'
+      subject: '[sip-overload] minutes from SoC Interim Meeting I'
+      url: https://mailarchive.ietf.org/arch/msg/sip-overload/QBl7-g3-MoqgOeatTGQHerphkho/
+    - date: '2010-07-12'
+      subject: '[sip-overload] draft Agenda: IETF78'
+      url: https://mailarchive.ietf.org/arch/msg/sip-overload/UVPRfGSQlzXoDBubFSkrzX6FrvI/
+    - date: '2010-08-22'
+      subject: '[sip-overload] WGLC: draft-ietf-soc-overload-design'
+      url: https://mailarchive.ietf.org/arch/msg/sip-overload/CEpUYjCtvhvnnjlP0ksmFEKaExM/
+    - date: '2012-03-01'
+      subject: '[sip-overload] WGLC: draft-ietf-soc-overload-control'
+      url: https://mailarchive.ietf.org/arch/msg/sip-overload/to8TvflhlqLuhgOnbH3F-g0HOH8/
+    - date: '2012-07-02'
+      subject: '[sip-overload] WGLC: draft-ietf-soc-oload-control-event-package'
+      url: https://mailarchive.ietf.org/arch/msg/sip-overload/mzh7wKACMsl81oF44tKK8q1aMJY/
   - kind: session requests
     meetings:
     - '78'

@@ -16,19 +16,36 @@ chairs:
       not_after: '1999-10-22'
     end:
       certainty: evidence-only
-      not_before: '1999-10-22'
+      not_before: '2002-12-11'
   evidence:
   - kind: WG Action
     date: '1999-10-22'
     subject: 'WG ACTION: Transport Area Working Group (tsvwg)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/WLfAChAQ8Pm3113E4E4r6ClJleM/
+  - kind: chair activity
+    first: '2000-11-30'
+    last: '2002-12-11'
+    messages: 5
+    examples:
+    - date: '2000-11-30'
+      subject: '[Tsvwg] agenda for tsvwg session in San Diego'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/bex7qSoUiHNlcmfdcVzaIHrcbeo/
+    - date: '2002-03-08'
+      subject: '[Tsvwg] WG last call on draft-ietf-tsvwg-sctpcsum-03.txt'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/WxE2kgvrQRzaL9lLIpiQ6N_CsEM/
+    - date: '2002-05-15'
+      subject: '[Tsvwg] WG last call on draft-allman-tcp-sack-10.txt'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/Kb2gV_vN9Al2WNecQDWfADbCzwc/
+    - date: '2002-08-09'
+      subject: '[Tsvwg] WG last call on draft-ietf-tsvwg-tcp-eifel-alg-04.txt'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/flPpfytqh-PGNwYXy3h1PtndfOw/
 - person: 2515
   name: Allison Mankin
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2004-02-25'
+      not_after: '2000-05-04'
     end:
       certainty: evidence-only
       not_before: '2006-03-19'
@@ -37,6 +54,26 @@ chairs:
     date: '2004-02-25'
     subject: 'WG Action: RECHARTER: Transport Area Working Group (tsvwg)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/tiJcjr6rvqxNY_MPQ1_whf3e01I/
+  - kind: chair activity
+    first: '2000-05-04'
+    last: '2005-08-23'
+    messages: 18
+    examples:
+    - date: '2000-05-04'
+      subject: '[Tsvwg] Working Group last call for RTO draft'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/0hWQ4WgV4e-mucg7JHTHFBIIfCY/
+    - date: '2000-12-12'
+      subject: '[Tsvwg] Working Group Last Call on ECN i-d'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/NVb6UhnEYFi9VXIx6bB_OaQkSu0/
+    - date: '2001-07-31'
+      subject: '[Tsvwg] Working Group Last Call for TFRC'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/eM6DB3AnQI6H4qtbArKod6UaXUw/
+    - date: '2001-07-31'
+      subject: '[Tsvwg] An agenda for TSVWG - IETF 51'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/Vu3QnAKoHlPPktkAIuH9t5omltw/
+    - date: '2001-09-10'
+      subject: '[Tsvwg] Draft Minutes of TSVWG WG meeting - IETF 51'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/gpSO3k58fbNjgrELgscVGPj_1RA/
   - kind: session requests
     meetings:
     - '65'
@@ -50,12 +87,23 @@ chairs:
       not_after: '1999-10-22'
     end:
       certainty: evidence-only
-      not_before: '1999-10-22'
+      not_before: '1999-11-25'
   evidence:
   - kind: WG Action
     date: '1999-10-22'
     subject: 'WG ACTION: Transport Area Working Group (tsvwg)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/WLfAChAQ8Pm3113E4E4r6ClJleM/
+  - kind: chair activity
+    first: '1999-11-04'
+    last: '1999-11-25'
+    messages: 2
+    examples:
+    - date: '1999-11-04'
+      subject: draft agenda for DC TSVWG meeting
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/VyEIabcHcdX53TddaGQ90L4U7uo/
+    - date: '1999-11-25'
+      subject: draft TSVWG minutes
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/06e6Rzx8G1hnDH03BXQo9sSvCqA/
 - person: 103156
   name: David Black
   status: confirmed
@@ -95,13 +143,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-06-28'
+      date: '2005-11-09'
       not_before: '1999-09-16'
     end:
       certainty: exact
       date: '2014-12-10'
     notes:
     - start moved earlier by WG Action announcement of 2006-06-28
+    - widened to cover last calls and adoption calls on the group list
   evidence:
   - kind: WG Action
     date: '2006-06-28'
@@ -118,6 +167,26 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/tsvwg/2ItnLN58bB9NdB9YHZiLAaVoKuE/
     excerpt: I've agreed to act as a co-chair for today's tsvwg session on diffserv to enable James Polk
       to focus on his drafts.
+  - kind: chair activity
+    first: '2004-02-28'
+    last: '2012-10-30'
+    messages: 61
+    examples:
+    - date: '2004-02-28'
+      subject: '[Tsvwg] Agenda for TSVWG yet?'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/GZSvy0eBsI6yQvLte7000lYAO-g/
+    - date: '2005-11-09'
+      subject: '[Tsvwg] WGLC for draft-tsvwg-rsvp-dste-00.txt starts NOW'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/A4QTGGz-V8jgVvy0v5cys-oO1WM/
+    - date: '2006-02-28'
+      subject: '[Tsvwg] WGLC for draft-ietf-tsvwg-ecn-alternates-00.txt starts NOW'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/luR8_PpAPfsTc8Te4RbGfbOS23Y/
+    - date: '2006-03-08'
+      subject: '[Tsvwg] WGLC for draft-ietf-tsvwg-rsvp-dste-01.txt'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/BVMRR4Eb6UBh3JfybjNu32DTe54/
+    - date: '2006-04-14'
+      subject: '[Tsvwg] Final IETF Minutes uploaded'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/klHWStZWxdawYawwss-1MVsKbhU/
   - kind: session requests
     meetings:
     - '66'
@@ -138,12 +207,32 @@ chairs:
       not_after: '2006-06-28'
     end:
       certainty: evidence-only
-      not_before: '2009-03-22'
+      not_before: '2021-03-23'
   evidence:
   - kind: WG Action
     date: '2006-06-28'
     subject: 'WG Action: RECHARTER: Transport Area Working Group (tsvwg)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/p1c5mLKg0xIxbOqunSVukn8X1nc/
+  - kind: chair activity
+    first: '2006-09-28'
+    last: '2021-03-23'
+    messages: 12
+    examples:
+    - date: '2006-09-28'
+      subject: '[Tsvwg] Working group last call on draft-ietf-tsvwg-sctp-padding-01'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/zM0-M5_qHf2P2ylSuWuO2-dpzH0/
+    - date: '2007-03-26'
+      subject: '[Tsvwg] WG last call of draft-ietf-tsvwg-emergency-rsvp-02'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/Z1LAXHOmTHIzKmt62KHPSz_F--s/
+    - date: '2007-07-31'
+      subject: '[Tsvwg] WG last call: draft-ietf-tsvwg-ecn-mpls-01'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/9e7P3IHvuRgJoO_v6T_kpCelWF8/
+    - date: '2008-04-07'
+      subject: '[Tsvwg] Draft minutes for TSVWG in Phily'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/qPxVciWm0vHR8UcXPew0fQtWSu4/
+    - date: '2021-03-23'
+      subject: '[tsvwg] Correction to IETF 110 minutes on DTLS over SCTP'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/FNoGu90oFRRDA81WIRTJuku5Pss/
   - kind: session requests
     meetings:
     - '72'
@@ -176,6 +265,26 @@ chairs:
     date: '2023-12-15'
     subject: 'WG Action: Rechartered Transport and Services Working Group (tsvwg)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/du1J8EnEZjp_DDWOjgWaUUmneAI/
+  - kind: chair activity
+    first: '2010-03-13'
+    last: '2023-11-13'
+    messages: 48
+    examples:
+    - date: '2010-03-13'
+      subject: Draft Agenda Uploaded for TSVWG (this will be updated)
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/FQ1Mt2B9RwHnLifrPxsp9r-5pPo/
+    - date: '2010-03-22'
+      subject: Volunteers needed to serve as TSVWG jabber scribes,and minutes taker
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/1ZgQleLk6NRv3wlj66Kl8e8TifM/
+    - date: '2010-05-25'
+      subject: Call for WG Adoption of draft-tuexen-tsvwg-sctp-chunk-flags-00
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/4lHy8cjnlgc-HfMmMnOeXDFwid0/
+    - date: '2010-10-30'
+      subject: WGLC Announcement for draft-ietf-tsvwg-iana-ports-08 - 26th November 2010
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/UznWyT-rH1R6-uRww2RaiOPIOkQ/
+    - date: '2011-06-20'
+      subject: Call for WG Adoption of draft-polk-tsvwg-intserv-multiple-tspec-06
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/TC8yIPDlOpghZsvoyPxel5V272Q/
   - kind: session requests
     meetings:
     - '77'
@@ -225,6 +334,27 @@ chairs:
       date: '2025-03-12'
     end:
       certainty: ongoing
+  evidence:
+  - kind: chair activity
+    first: '2025-03-19'
+    last: '2026-10-19'
+    messages: 10
+    examples:
+    - date: '2025-03-19'
+      subject: '[tsvwg] Adoption call for draft-custura-tsvwg-careful-resume-qlog-02'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/A-V5rhuGOkY7c3wQpFGghmiXRGg/
+    - date: '2025-03-24'
+      subject: '[tsvwg] Minutes from IETF 122'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/bzOycZOfsQ-X0l1bnHjahVZxFvo/
+    - date: '2025-05-22'
+      subject: '[tsvwg] Call for agenda items, IETF 123'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/0ThiNtf5YrjMdsG38gDB9bHy1qE/
+    - date: '2025-07-23'
+      subject: '[tsvwg] Adoption Call for DTLS/SCTP drafts'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/GxqIjMapu3rEznJC1Z9ubIVSnV8/
+    - date: '2025-08-25'
+      subject: '[tsvwg] Adoption Call for draft-tahiliani-tsvwg-fq-pie'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/nSQDbF9QDHFo79KJuxcgD9EhNyU/
 - person: 109753
   name: Zaheduzzaman Sarker
   status: confirmed
@@ -235,6 +365,23 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: chair activity
+    first: '2025-09-10'
+    last: '2026-02-12'
+    messages: 4
+    examples:
+    - date: '2025-09-10'
+      subject: '[tsvwg] WGLC for Configuring UDP Sockets for ECN for Common Platforms'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/RimuuVkY2GWA1jhQHqFxh-POb-8/
+    - date: '2025-10-07'
+      subject: '[tsvwg] WGLC consensus call on draft-ietf-tsvwg-udp-ecn-03'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/zTvh-D6AppFSiwfdGZ4tI4XWptI/
+    - date: '2025-11-18'
+      subject: '[tsvwg] IETF124 meeting minutes uploaded'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/uTrBMPmqEzKpK17v3dqFAL01nHo/
+    - date: '2026-02-12'
+      subject: '[tsvwg] Call for agenda item - IETF125 meeting'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/tA9owjdL1gWZjfI6thHXmjAqEg8/
   - kind: shepherded
     documents:
     - draft-ietf-tsvwg-nqb
@@ -280,6 +427,14 @@ chairs:
     subject: '[tsvwg] WG Status Update 15th Feb 2012'
     url: https://mailarchive.ietf.org/arch/msg/tsvwg/pdA-bDiUIqFJaYrICiGRi8ITP6o/
     excerpt: 'New co-chair: Rolf Winter'
+  - kind: chair activity
+    first: '2012-09-05'
+    last: '2012-09-05'
+    messages: 1
+    examples:
+    - date: '2012-09-05'
+      subject: '[tsvwg] minutes posted'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/GK2hk739p7GDJ6aIfAojdutgraA/
 - person: 110856
   name: Wesley Eddy
   status: confirmed
@@ -291,6 +446,26 @@ chairs:
       certainty: exact
       date: '2022-08-01'
   evidence:
+  - kind: chair activity
+    first: '2018-04-17'
+    last: '2021-09-22'
+    messages: 9
+    examples:
+    - date: '2018-04-17'
+      subject: '[tsvwg] WGLC on FECFRAME sliding window extensions and RLC FEC'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/25xhaHzPv5nxSFZOJR9p1NUTc7A/
+    - date: '2019-03-25'
+      subject: '[tsvwg] adoption call for TinyMT32'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/pABWBpo-_JKPcmZ8zbGS2COmmTQ/
+    - date: '2019-04-03'
+      subject: '[tsvwg] WGLC for TinyMT32 draft'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/TsINO5lSzASBPzoAUIaB61J3ISc/
+    - date: '2020-03-05'
+      subject: '[tsvwg] draft minutes from interim'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/Irgj13onxVzzByd1_J75kDtI1v0/
+    - date: '2020-03-23'
+      subject: '[tsvwg] interim meeting recording posted'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/4V7gBgn3dD0xdyeqopB94gE5KW4/
   - kind: shepherded
     documents:
     - draft-ietf-tsvwg-aqm-dualq-coupled
@@ -341,6 +516,20 @@ chairs:
     date: '2023-12-15'
     subject: 'WG Action: Rechartered Transport and Services Working Group (tsvwg)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/du1J8EnEZjp_DDWOjgWaUUmneAI/
+  - kind: chair activity
+    first: '2023-05-16'
+    last: '2025-01-19'
+    messages: 3
+    examples:
+    - date: '2023-05-16'
+      subject: '[tsvwg] Call for Adoption: draft-kuhn-tsvwg-careful-resume'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/fULLcyQtoQDDuNboPDkiAwN9oeY/
+    - date: '2024-02-29'
+      subject: '[tsvwg] IETF 119 draft agenda uploaded, call for items'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/curL0IgsenzuLqFsx4bHHTPzMAg/
+    - date: '2025-01-19'
+      subject: '[tsvwg] WGLC for Convergence of Congestion Control from Retained State (draft-ietf-tsvwg-careful-resume)'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/C5Rw2pkiZsHudgt7BOAmOsTOBR4/
   - kind: shepherded
     documents:
     - draft-ietf-tsvwg-careful-resume

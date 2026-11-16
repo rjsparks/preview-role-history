@@ -13,8 +13,31 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-02-08'
+      date: '2000-05-03'
       not_before: '1998-05-27'
     end:
       certainty: group-closed
       date: '2005-02-08'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
+  evidence:
+  - kind: chair activity
+    first: '1998-09-02'
+    last: '2004-04-05'
+    messages: 32
+    examples:
+    - date: '1998-09-02'
+      subject: Rough Agenda for Trade Meeting 9-11 Sep 1998
+      url: https://mailarchive.ietf.org/arch/msg/trade/pvGHsMNQP1klEuUsIyCUZHfOcJU/
+    - date: '1998-09-21'
+      subject: TRADE WG Minutes from IETF Chicago
+      url: https://mailarchive.ietf.org/arch/msg/trade/0gZvoD6SEDGg783JQu0y5O0p8jw/
+    - date: '2000-05-03'
+      subject: WG Last CAll draft-ietf-trade-iotp-http-05.txt
+      url: https://mailarchive.ietf.org/arch/msg/trade/i3nu1HMzyj2NFRUzini20L1jWSM/
+    - date: '2001-01-03'
+      subject: Working Group Last Call and naming for draft-ietf-trade-drt-requirements-01.txt
+      url: https://mailarchive.ietf.org/arch/msg/trade/cVZlolz80bQXMpLaHb5a8QW4njo/
+    - date: '2001-05-11'
+      subject: Working Group Last Call, ECML v2 Requirements
+      url: https://mailarchive.ietf.org/arch/msg/trade/92YWZ73EdjKctT6Qp9ZVlCXSCmw/

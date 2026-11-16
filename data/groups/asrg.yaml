@@ -27,6 +27,17 @@ chairs:
     subject: '[Asrg] Passing on the torch'
     url: https://mailarchive.ietf.org/arch/msg/asrg/hQq0EiEUz1ESIMPIK_nA53cHF7M/
     excerpt: As I step down Yakov will be joined by an equally capable co-chair, John Levine.
+  - kind: chair activity
+    first: '2006-03-17'
+    last: '2008-08-04'
+    messages: 5
+    examples:
+    - date: '2006-03-17'
+      subject: '[Asrg] Meeting agenda for next week'
+      url: https://mailarchive.ietf.org/arch/msg/asrg/TBuMBY--n-my0cDRR7yFJe-3r70/
+    - date: '2008-03-04'
+      subject: '[Asrg] Agenda for ASRG session on Tuesday'
+      url: https://mailarchive.ietf.org/arch/msg/asrg/xg8C4S7g6su9N93zRapLXTzzlaA/
   - kind: session requests
     meetings:
     - '65'
@@ -43,3 +54,41 @@ chairs:
     end:
       certainty: between
       not_before: '2012-02-26'
+- person: 106401
+  name: Yakov Shafranovich
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: approximate
+      date: '2003-08-22'
+    end:
+      certainty: approximate
+      date: '2004-05-21'
+    notes:
+    - start dated by list message of 2003-08-22
+    - end dated by list message of 2004-05-21
+  evidence:
+  - kind: list message
+    date: '2003-08-22'
+    says: start
+    subject: '[Asrg] 0. - General - Announcing Yakov Shafranovich as co-chair of ASRG'
+    url: https://mailarchive.ietf.org/arch/msg/asrg/lKC_N_uuF_nbqUN4f5SAc06BlgA/
+    excerpt: I am pleased to announce to the list that Yakov Shafranovich has agreed to serve as co-chair
+      of the ASRG.
+  - kind: list message
+    date: '2004-05-21'
+    says: end
+    subject: '[Asrg] Stepping down from the ASRG'
+    url: https://mailarchive.ietf.org/arch/msg/asrg/hjZTGBOftZV4IJD5hu3yIQcFf4s/
+    excerpt: Sincerely, Yakov Shafranovich Former co-chair, ASRG
+  - kind: chair activity
+    first: '2003-09-12'
+    last: '2004-03-04'
+    messages: 3
+    examples:
+    - date: '2003-09-12'
+      subject: '[Asrg] 0. General - RIPE WG on Spam Meeting Minutes from RIPE 46'
+      url: https://mailarchive.ietf.org/arch/msg/asrg/wa5gyCoXrSpa8SKAGvqzEdzKSdw/
+    - date: '2004-02-26'
+      subject: '[Asrg] 3b. SMTP Session Verification - Updated agenda for MARID'
+      url: https://mailarchive.ietf.org/arch/msg/asrg/hWZjbuJGL9yevg-moQKPF_RcETM/

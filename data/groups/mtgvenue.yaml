@@ -39,6 +39,17 @@ chairs:
       certainty: group-closed
       date: '2020-04-29'
   evidence:
+  - kind: chair activity
+    first: '2017-04-03'
+    last: '2017-08-04'
+    messages: 2
+    examples:
+    - date: '2017-04-03'
+      subject: '[Mtgvenue] Draft Meeting Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/mtgvenue/awVTRHM6xRSkSAceSL7Jj4zIpyM/
+    - date: '2017-08-04'
+      subject: '[Mtgvenue] Working Group Last Call on draft-ietf-mtgvenue-iaoc-venue-selection-process-08'
+      url: https://mailarchive.ietf.org/arch/msg/mtgvenue/LTYgumZVihnoiGxE-wYlKtzN1PI/
   - kind: shepherded
     documents:
     - draft-ietf-mtgvenue-iaoc-venue-selection-process
@@ -57,6 +68,17 @@ chairs:
     date: '2016-07-01'
     subject: 'WG Action: Formed Meeting Venue (mtgvenue)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/M0X7K69-npNKkmon9b5OzY862ps/
+  - kind: chair activity
+    first: '2016-07-08'
+    last: '2016-07-29'
+    messages: 2
+    examples:
+    - date: '2016-07-08'
+      subject: '[Mtgvenue] Call for adoption, draft-baker-mtgvenue-iaoc-venue-selection-process'
+      url: https://mailarchive.ietf.org/arch/msg/mtgvenue/oA0x9V3lc8_c1Cmzcvr_Mp5y2oQ/
+    - date: '2016-07-29'
+      subject: '[Mtgvenue] Session minutes'
+      url: https://mailarchive.ietf.org/arch/msg/mtgvenue/wModEUMDywD3vC2Fhwegp44CqhU/
 - person: 105800
   name: Jonne Soininen
   status: confirmed
@@ -83,6 +105,20 @@ chairs:
       certainty: group-closed
       date: '2020-04-29'
   evidence:
+  - kind: chair activity
+    first: '2017-07-07'
+    last: '2017-10-13'
+    messages: 3
+    examples:
+    - date: '2017-07-07'
+      subject: '[Mtgvenue] agenda for mtgvenue session in Prague'
+      url: https://mailarchive.ietf.org/arch/msg/mtgvenue/m4yzzl5MAk-hxeN2LG_bUotOGCc/
+    - date: '2017-08-11'
+      subject: '[Mtgvenue] meeting minutes from IETF 99'
+      url: https://mailarchive.ietf.org/arch/msg/mtgvenue/yxmP1zIFN-z8FyVHA6gAdAtGEE4/
+    - date: '2017-10-13'
+      subject: '[Mtgvenue] Working Group Last Call on draft-ietf-mtgvenue-meeting-policy-01'
+      url: https://mailarchive.ietf.org/arch/msg/mtgvenue/Rk9HXRNevJliVRNXeQk5YjYCMx4/
   - kind: shepherded
     documents:
     - draft-ietf-mtgvenue-meeting-policy

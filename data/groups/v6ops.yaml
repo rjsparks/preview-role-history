@@ -37,6 +37,26 @@ chairs:
     date: '2017-04-28'
     subject: 'WG Action: Rechartered IPv6 Operations (v6ops)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Z4w_Ib06xlbVV-L9piJLIW9Ge60/
+  - kind: chair activity
+    first: '2008-07-21'
+    last: '2021-10-29'
+    messages: 31
+    examples:
+    - date: '2008-07-21'
+      subject: IPv6 Operations Agenda for Dublin
+      url: https://mailarchive.ietf.org/arch/msg/v6ops/h78_th77cRUt6hc1XQnq5C9gMJY/
+    - date: '2008-10-08'
+      subject: Calling for agenda items
+      url: https://mailarchive.ietf.org/arch/msg/v6ops/YIAsCxWMxGmz0OsOm3XP29-Vnew/
+    - date: '2010-04-11'
+      subject: 'WGLC: draft-ietf-v6ops-cpe-simple-security-10.txt'
+      url: https://mailarchive.ietf.org/arch/msg/v6ops/4hDOFqUR_drDgaAivDcI43831LU/
+    - date: '2011-04-11'
+      subject: '[v6ops] WGLC draft-ietf-v6ops-ipv6-multihoming-without-ipv6nat'
+      url: https://mailarchive.ietf.org/arch/msg/v6ops/cuUeL4mWYd_sVY2lThH0805ksvQ/
+    - date: '2014-12-20'
+      subject: '[v6ops] Adoption call for draft-boucadair-6man-prefix-routing-reco'
+      url: https://mailarchive.ietf.org/arch/msg/v6ops/saZ3L9mbC59SZO0l6u8R5zMdce4/
   - kind: session requests
     meetings:
     - '66'
@@ -92,12 +112,34 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2010-09-13'
       not_before: '2002-08-12'
     end:
       certainty: exact
       date: '2013-02-21'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
   evidence:
+  - kind: chair activity
+    first: '2010-09-13'
+    last: '2013-01-26'
+    messages: 23
+    examples:
+    - date: '2010-09-13'
+      subject: '[v6ops] Working Group last Call draft-ietf-v6ops-incremental-cgn'
+      url: https://mailarchive.ietf.org/arch/msg/v6ops/N_LO0sBHeHrFOVfkOOBPeD7hc3Q/
+    - date: '2010-11-14'
+      subject: '[v6ops] IETF 79 Meeting minutes - Draft'
+      url: https://mailarchive.ietf.org/arch/msg/v6ops/zUi7KqoVoRBKpgGQ0xBKZWqXl4w/
+    - date: '2011-02-07'
+      subject: '[v6ops] WGLC draft-ietf-v6ops-v6-aaaa-whitelisting-implications-02'
+      url: https://mailarchive.ietf.org/arch/msg/v6ops/_PJoULpCxqkSoDYcQdZUXy-p9UQ/
+    - date: '2011-04-03'
+      subject: '[v6ops] draft minutes first session thursday March 31 0900'
+      url: https://mailarchive.ietf.org/arch/msg/v6ops/m7XtE6a3z6kTJEVjXHlDY36sXDg/
+    - date: '2011-10-11'
+      subject: '[v6ops] WGLC: draft-ietf-v6ops-ipv6-discard-prefix-00'
+      url: https://mailarchive.ietf.org/arch/msg/v6ops/Tgx4g5Y6AV32oAskfAzR_1Ioi-s/
   - kind: session requests
     meetings:
     - '83'
@@ -126,6 +168,23 @@ chairs:
     subject: '[v6ops] Please welcome new v6ops co-chair Ron Bonica'
     url: https://mailarchive.ietf.org/arch/msg/v6ops/sYeETMXYmpI2hTZiU3hiCNhI5_o/
     excerpt: Due our need for additional wg chair support, I have appointed Ron Bonica as v6ops co-chair.
+  - kind: chair activity
+    first: '2017-03-14'
+    last: '2024-09-26'
+    messages: 18
+    examples:
+    - date: '2017-03-14'
+      subject: '[v6ops] WGLC: draft-ietf-v6ops-unique-ipv6-prefix-per-host-02'
+      url: https://mailarchive.ietf.org/arch/msg/v6ops/yhDSU0wedj_DtNO5rDzoh1wB6Bs/
+    - date: '2017-07-21'
+      subject: '[v6ops] IETF 99 Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/v6ops/q-72Jv-cJJjXIeykPEKenDnxqXY/
+    - date: '2018-07-26'
+      subject: '[v6ops] Call for Adoption: draft-templin-v6ops-pdhost'
+      url: https://mailarchive.ietf.org/arch/msg/v6ops/9ToFTp3uK92YnfBoJiR759JnGaA/
+    - date: '2019-04-08'
+      subject: '[v6ops] WGLC: draft-ietf-v6ops-nat64-deployment-04'
+      url: https://mailarchive.ietf.org/arch/msg/v6ops/Px2PqQvTuBiHvFjqfOiAjZ-ruV8/
   - kind: shepherded
     documents:
     - draft-ietf-v6ops-cpe-lan-pd
@@ -208,6 +267,14 @@ chairs:
     subject: '[v6ops] New v6ops WG co-chair'
     url: https://mailarchive.ietf.org/arch/msg/v6ops/1H-N2Lmne8QUAcU2cU0dKzqSNM8/
     excerpt: Lee Howard has agreed to step into the role of V6ops WG co-chair.
+  - kind: chair activity
+    first: '2014-11-13'
+    last: '2014-11-13'
+    messages: 1
+    examples:
+    - date: '2014-11-13'
+      subject: '[v6ops] draft IETF91-v6ops minutes'
+      url: https://mailarchive.ietf.org/arch/msg/v6ops/W1fkUK4O3m9rYSwteILRvUnu-A8/
   - kind: shepherded
     documents:
     - draft-ietf-v6ops-cidr-prefix
@@ -230,6 +297,26 @@ chairs:
     date: '2025-10-23'
     subject: 'WG Action: Rechartered IPv6 Operations (v6ops)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/2olzUShyOc00T5TZCfLFo6tk-ns/
+  - kind: chair activity
+    first: '2022-10-29'
+    last: '2025-04-10'
+    messages: 10
+    examples:
+    - date: '2022-10-29'
+      subject: '[v6ops] v6ops agenda for IETF 115'
+      url: https://mailarchive.ietf.org/arch/msg/v6ops/VdUGVszDgCmZ2QKe7HKci671wAg/
+    - date: '2023-03-13'
+      subject: '[v6ops] v6ops agenda for IETF 116 published'
+      url: https://mailarchive.ietf.org/arch/msg/v6ops/ezlPeJtB-Oc2D_K69r4ozrr_8v4/
+    - date: '2023-04-08'
+      subject: '[v6ops] WG call for adoption: draft-collink-v6ops-ent64pd-03'
+      url: https://mailarchive.ietf.org/arch/msg/v6ops/yR-9mmq4Mq54QXIu8PVkJGhjLIQ/
+    - date: '2023-06-25'
+      subject: '[v6ops] WG call for adoption: draft-momoka-v6ops-ipv6-only-resolver-01'
+      url: https://mailarchive.ietf.org/arch/msg/v6ops/uNrPNbeUtA_D0xzqLfq5dNQ85OY/
+    - date: '2023-09-30'
+      subject: '[v6ops] WGLC: draft-ietf-v6ops-dhcp-pd-per-device-02'
+      url: https://mailarchive.ietf.org/arch/msg/v6ops/QW6ylXtNzqTj7qitnVQT6GNFpl8/
   - kind: shepherded
     documents:
     - draft-ietf-v6ops-rfc6146-bis
@@ -270,3 +357,23 @@ chairs:
     date: '2025-10-23'
     subject: 'WG Action: Rechartered IPv6 Operations (v6ops)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/2olzUShyOc00T5TZCfLFo6tk-ns/
+  - kind: chair activity
+    first: '2024-08-06'
+    last: '2026-10-22'
+    messages: 11
+    examples:
+    - date: '2024-08-06'
+      subject: '[v6ops] Working group Last call: draft-ietf-v6ops-cpe-lan-pd'
+      url: https://mailarchive.ietf.org/arch/msg/v6ops/9jtza7XPgG0bwJ5kA-naJlgV8bQ/
+    - date: '2024-08-16'
+      subject: '[v6ops] Adoption call for draft-winters-v6ops-rfc7084bis'
+      url: https://mailarchive.ietf.org/arch/msg/v6ops/yQWzXn7feD6-0CWd7rDo8njNJ8I/
+    - date: '2024-10-02'
+      subject: '[v6ops] IETF 121 v6ops call for agenda items'
+      url: https://mailarchive.ietf.org/arch/msg/v6ops/pPDSr9k2JZV1U_BMa52saI2dGmY/
+    - date: '2024-10-25'
+      subject: '[v6ops] v6ops agenda for IETF 121'
+      url: https://mailarchive.ietf.org/arch/msg/v6ops/l2VN39Dg1DdplUcZKnFw8qAA8F0/
+    - date: '2025-04-08'
+      subject: '[v6ops] Adoption call for <draft-equinox-v6ops-icmpext-xlat-v6only-source>'
+      url: https://mailarchive.ietf.org/arch/msg/v6ops/BGJe-JniBnAiY2BDwoCW-gSKGqc/

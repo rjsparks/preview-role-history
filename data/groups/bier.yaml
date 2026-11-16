@@ -7,6 +7,34 @@ started: '2014-10-01'
 closed: null
 history_url: https://datatracker.ietf.org/group/bier/history/
 chairs:
+- person: 102391
+  name: Donald Eastlake
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2021-11-23'
+    end:
+      certainty: evidence-only
+      not_before: '2024-02-01'
+  evidence:
+  - kind: chair activity
+    first: '2021-11-23'
+    last: '2024-02-01'
+    messages: 5
+    examples:
+    - date: '2021-11-23'
+      subject: '[Bier] Call for Adoption: draft-chen-bier-te-ospf'
+      url: https://mailarchive.ietf.org/arch/msg/bier/mIgO3XgDBYjLz-RZRz4-nJChDjs/
+    - date: '2021-12-22'
+      subject: '[Bier] Call for adoption: draft-chen-bier-te-ospfv3'
+      url: https://mailarchive.ietf.org/arch/msg/bier/UYWCS5dkxxBZxyog2C4AcKKqnvE/
+    - date: '2021-12-23'
+      subject: '[Bier] Call for adoption: draft-chen-bier-te-isis'
+      url: https://mailarchive.ietf.org/arch/msg/bier/Ziq1aGG6VycXE4Q0eApfdTst_C8/
+  - kind: shepherded
+    documents:
+    - draft-ietf-bier-bfd
 - person: 104151
   name: Tony Przygienda
   status: confirmed
@@ -41,6 +69,26 @@ chairs:
     date: '2025-03-06'
     subject: 'WG Action: Rechartered Bit Indexed Explicit Replication (bier)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ztFMMvpFdfTO_C_u2SomccgAKb8/
+  - kind: chair activity
+    first: '2016-05-24'
+    last: '2024-01-18'
+    messages: 14
+    examples:
+    - date: '2016-05-24'
+      subject: '[Bier] WG Adoption call for Yang model ?'
+      url: https://mailarchive.ietf.org/arch/msg/bier/W5OIUX2y4wkweN0XXkDpP_N2j6A/
+    - date: '2017-06-27'
+      subject: '[Bier] Call for agenda items ...'
+      url: https://mailarchive.ietf.org/arch/msg/bier/Di92RNMsIrvPI_OI8L1n3SmVi3k/
+    - date: '2017-10-25'
+      subject: '[Bier] Call for BIER Agenda items for IETF 1000 ...'
+      url: https://mailarchive.ietf.org/arch/msg/bier/p0Bqag0wuiT0k0oA8sAAbbvxM94/
+    - date: '2022-05-19'
+      subject: '[Bier] WG Adoption Call for draft-chen-bier-frr'
+      url: https://mailarchive.ietf.org/arch/msg/bier/zpLGJCURNbZsbhhuCQ4UUqx5GkI/
+    - date: '2023-03-06'
+      subject: '[Bier] WGLC [renewed]: draft-ietf-bier-idr-extensions'
+      url: https://mailarchive.ietf.org/arch/msg/bier/XkUOZ1UVtypWlNep3sGIiYUp73U/
   - kind: shepherded
     documents:
     - draft-ietf-bier-mpls-encapsulation
@@ -78,6 +126,26 @@ chairs:
     date: '2025-03-06'
     subject: 'WG Action: Rechartered Bit Indexed Explicit Replication (bier)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ztFMMvpFdfTO_C_u2SomccgAKb8/
+  - kind: chair activity
+    first: '2014-11-12'
+    last: '2025-02-12'
+    messages: 84
+    examples:
+    - date: '2014-11-12'
+      subject: '[Bier] Minutes?'
+      url: https://mailarchive.ietf.org/arch/msg/bier/3ztcFhZUoBXT9lnH0OpJy8kDLxA/
+    - date: '2014-11-24'
+      subject: '[Bier] Virtual Interim Meeting'
+      url: https://mailarchive.ietf.org/arch/msg/bier/vcNJURO_5M3LV2fpHbM3j8Dds98/
+    - date: '2015-08-26'
+      subject: '[Bier] Call for adoption: draft-xu-bier-idr-extensions-00'
+      url: https://mailarchive.ietf.org/arch/msg/bier/Q9IYYtPEoCgW4Wg_f5oFyVzqgWQ/
+    - date: '2015-08-26'
+      subject: '[Bier] Call for adoption: draft-eckert-bier-te-arch-01'
+      url: https://mailarchive.ietf.org/arch/msg/bier/GuL04bmtVjrEXu40ztFo5mk-uRg/
+    - date: '2015-08-26'
+      subject: '[Bier] Call for adoption: draft-mirsky-bier-oam-requirements-00'
+      url: https://mailarchive.ietf.org/arch/msg/bier/tQHWXDlVbwv1N-FvETaIJB4o7Rw/
   - kind: shepherded
     documents:
     - draft-ietf-bier-architecture

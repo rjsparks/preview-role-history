@@ -18,3 +18,12 @@ chairs:
     end:
       certainty: group-closed
       date: '1991-11-18'
+  evidence:
+  - kind: chair activity
+    first: '1991-11-23'
+    last: '1991-11-23'
+    messages: 1
+    examples:
+    - date: '1991-11-23'
+      subject: SNMP WG minutes from Santa Fe IETF
+      url: https://mailarchive.ietf.org/arch/msg/snmp/SykaJQpf61hIncC_BEYt_Kl5BV4/

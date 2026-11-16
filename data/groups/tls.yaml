@@ -13,13 +13,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-01-11'
+      date: '2004-10-18'
       not_before: '1996-05-07'
     end:
       certainty: exact
       date: '2014-07-22'
     notes:
     - start moved earlier by WG Action announcement of 2006-01-11
+    - widened to cover last calls and adoption calls on the group list
   evidence:
   - kind: WG Action
     date: '2006-01-11'
@@ -33,6 +34,26 @@ chairs:
     date: '2014-02-07'
     subject: 'WG Action: Rechartered Transport Layer Security (tls)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/_HS9YAurUktlC5jvWBG94co7_L4/
+  - kind: chair activity
+    first: '2004-10-18'
+    last: '2014-07-20'
+    messages: 11
+    examples:
+    - date: '2004-10-18'
+      subject: '[TLS] WG Last Call for draft-ietf-tls-psk-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/tls/Q7GWqiu_tYpIACWtxksQvxBFhDU/
+    - date: '2005-04-09'
+      subject: '[TLS] WGLC for draft-ietf-tls-rfc3546bis-00.txt'
+      url: https://mailarchive.ietf.org/arch/msg/tls/F6s6Km-_8uilgpMyL3OKsksgcfg/
+    - date: '2005-04-09'
+      subject: '[TLS] WGLC for draft-ietf-tls-ecc'
+      url: https://mailarchive.ietf.org/arch/msg/tls/EtcdIFPteG0XwrO4-QCL30VXXHY/
+    - date: '2005-10-06'
+      subject: '[TLS] Call for Agenda Items'
+      url: https://mailarchive.ietf.org/arch/msg/tls/RFhh7N565nG_Ns9a9XIqiBflYsc/
+    - date: '2005-10-17'
+      subject: '[TLS] Draft Agenda for IETF 64'
+      url: https://mailarchive.ietf.org/arch/msg/tls/OdIft1jbbpgAOrl_odsFXb294u4/
   - kind: session requests
     meetings:
     - '65'
@@ -63,6 +84,26 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/tls/3QlLhYFaLS01bW_0Bc6m6H4Ke3s/
     excerpt: Effective April 1st, Sean Turner will become a third TLS co-chair in order to free up Eric
       who will be a TLS 1.3 document editor.
+  - kind: chair activity
+    first: '2014-05-14'
+    last: '2026-04-09'
+    messages: 82
+    examples:
+    - date: '2014-05-14'
+      subject: '[TLS] TLS Interim: Remote Participation Details'
+      url: https://mailarchive.ietf.org/arch/msg/tls/i4CuN_JYHV2xEo8Gxapez3tnycc/
+    - date: '2014-06-18'
+      subject: '[TLS] doodle for interim TLS WG meeting'
+      url: https://mailarchive.ietf.org/arch/msg/tls/snuLL-Z12Po708uLTEkhH5sTjwU/
+    - date: '2014-07-21'
+      subject: '[TLS] Call for adoption: draft-bhargavan-tls-session-hash'
+      url: https://mailarchive.ietf.org/arch/msg/tls/4FY5mMz71ETRmlDXyucMIouG9o0/
+    - date: '2014-07-29'
+      subject: '[TLS] WGLC: draft-ietf-tls-cached-info'
+      url: https://mailarchive.ietf.org/arch/msg/tls/njky8Be3DYdXOlh-dp75j7BWOCk/
+    - date: '2014-08-08'
+      subject: '[TLS] WGLC: draft-ietf-tls-prohibiting-rc4-00'
+      url: https://mailarchive.ietf.org/arch/msg/tls/mwfHqxxL-XiT4ZBYzGuLK5GXbnw/
   - kind: shepherded
     documents:
     - draft-ietf-tls-certificate-compression
@@ -134,6 +175,26 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/tls/JRs-ar94uLtN89i3gN4rq6mcoy8/
     excerpt: Tim and I are happy to announce that Joe Salowey has agreed to co-chair the Transport Layer
       Security (TLS) working group.
+  - kind: chair activity
+    first: '2008-07-07'
+    last: '2026-02-12'
+    messages: 99
+    examples:
+    - date: '2008-07-07'
+      subject: '[TLS] Call for Agenda items for IETF 72'
+      url: https://mailarchive.ietf.org/arch/msg/tls/YKgpDAfRoV_M6XErkf7Rvowdzss/
+    - date: '2008-07-16'
+      subject: '[TLS] Preliminary Agenda for TLS'
+      url: https://mailarchive.ietf.org/arch/msg/tls/klQyfOZrOhLM8nKUt9pfcONlDo0/
+    - date: '2008-10-06'
+      subject: '[TLS] WGLC for draft-ietf-tls-psk-new-mac-aes-gcm-03.txt'
+      url: https://mailarchive.ietf.org/arch/msg/tls/GMglKKShKY-_ZU7O4CzMvXpRg6c/
+    - date: '2008-11-06'
+      subject: '[TLS] Working group last call on draft-ietf-tls-extractor-03'
+      url: https://mailarchive.ietf.org/arch/msg/tls/9L_RWiBswW4PPp0lXP755mo2hMM/
+    - date: '2009-03-02'
+      subject: '[TLS] Working Group Last Call on draft-ietf-tls-extractor-04.txt'
+      url: https://mailarchive.ietf.org/arch/msg/tls/FJCeSkfayTMoIM478JLv8qu66Ww/
   - kind: session requests
     meetings:
     - '72'
@@ -184,6 +245,26 @@ chairs:
     date: '2006-01-11'
     subject: 'WG Action: RECHARTER: Transport Layer Security (tls)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Rs0_8g6JKJm0hzY2cMB51hwGcn0/
+  - kind: chair activity
+    first: '2006-05-05'
+    last: '2008-02-12'
+    messages: 5
+    examples:
+    - date: '2006-05-05'
+      subject: '[TLS] WG last call on draft-ietf-tls-openpgp-keys-08'
+      url: https://mailarchive.ietf.org/arch/msg/tls/kZt_mDnouMUd6RtzMAT9K5Nj1wk/
+    - date: '2006-10-18'
+      subject: '[TLS] Agenda for IETF67'
+      url: https://mailarchive.ietf.org/arch/msg/tls/JvPqohFnaE_oax2qIJR-R46qEag/
+    - date: '2006-11-16'
+      subject: '[TLS] TLS minutes'
+      url: https://mailarchive.ietf.org/arch/msg/tls/bBDQMd_wplWwAjXJBCy3obSADPg/
+    - date: '2007-11-27'
+      subject: '[TLS] WGLC for draft-ietf-tls-rfc4346-bis-07'
+      url: https://mailarchive.ietf.org/arch/msg/tls/dFGXFOUvbr_Z4jPa-3HigAcYZXI/
+    - date: '2008-02-12'
+      subject: '[TLS] WGLC for rsa-aes-gcm and ecc-new-mac'
+      url: https://mailarchive.ietf.org/arch/msg/tls/W1VA7ziZYTRLRGpkJvN_mFCBisI/
   - kind: session requests
     meetings:
     - '66'
@@ -218,6 +299,27 @@ chairs:
     subject: '[TLS] please welcome new co-chair Chris Wood'
     url: https://mailarchive.ietf.org/arch/msg/tls/aR9MmWdSWsXqyvo9QrNMyAM3ry4/
     excerpt: Please welcome Chris Wood as a third TLS co-chair, joining Sean and Joe at the helm.
+  - kind: chair activity
+    first: '2018-07-26'
+    last: '2023-08-01'
+    messages: 33
+    examples:
+    - date: '2018-07-26'
+      subject: '[TLS] WG adoption call: draft-housley-tls-tls13-cert-with-extern-psk'
+      url: https://mailarchive.ietf.org/arch/msg/tls/7KbaxGPG1GdRwIfLTnLfitv3ky0/
+    - date: '2018-07-28'
+      subject: '[TLS] Minutes for TLS IETF 102 uploaded'
+      url: https://mailarchive.ietf.org/arch/msg/tls/MvLutFzSDR5xqXAV7qDbHj5aIck/
+    - date: '2018-08-22'
+      subject: '[TLS] TLS interim meeting'
+      url: https://mailarchive.ietf.org/arch/msg/tls/brtUE96HP9vBF95ynrs8F3Aaz9Q/
+    - date: '2018-11-07'
+      subject: '[TLS] WGLC for draft-ietf-tls-exported-authenticator'
+      url: https://mailarchive.ietf.org/arch/msg/tls/zCtxN0FHpkFlcX1PkT3m2auEvWs/
+    - date: '2019-01-25'
+      subject: '[TLS] Call for Adoption: TLS 1.3 Extension for Certificate-based Authentication with an
+        External Pre-Shared Key'
+      url: https://mailarchive.ietf.org/arch/msg/tls/6CLZyAPh0hF9PEog2aAIB82wrgs/
   - kind: shepherded
     documents:
     - draft-ietf-tls-cross-sni-resumption
@@ -240,6 +342,20 @@ chairs:
     excerpt: 'This complaint is regarding the following specific action: Joseph Salowey and Sean Turner,
       in their roles as chairs of an IETF "Working Group" (WG) named "Transport Layer Security" (TLS),
       declared that the WG had consensus to adopt a draft named "draft-connolly-tls-mlkem-key-agreement".'
+  - kind: chair activity
+    first: '2023-12-06'
+    last: '2024-10-16'
+    messages: 3
+    examples:
+    - date: '2023-12-06'
+      subject: '[TLS] Adoption call for ''TLS 1.2 Feature Freeze'''
+      url: https://mailarchive.ietf.org/arch/msg/tls/IXLGOVXzX_cyL4LFo7yQrBSN_Zo/
+    - date: '2024-08-12'
+      subject: '[TLS]Working Group Last Call for "Hybrid key exchange in TLS 1.3"'
+      url: https://mailarchive.ietf.org/arch/msg/tls/k5YpYt9rQjpkjdTMX8-_kpRGWuU/
+    - date: '2024-10-16'
+      subject: '[TLS] WG Last Call for draft-ietf-tls-rfc8447bis, "IANA Registry Updates for TLS and DTLS”'
+      url: https://mailarchive.ietf.org/arch/msg/tls/nVNTg1hQhQ-gGRUcxXXNDPP5U08/
   - kind: shepherded
     documents:
     - draft-ietf-tls-rfc8447bis

@@ -17,6 +17,18 @@ chairs:
     end:
       certainty: group-closed
       date: '2019-06-11'
+  evidence:
+  - kind: chair activity
+    first: '2019-03-15'
+    last: '2019-03-27'
+    messages: 2
+    examples:
+    - date: '2019-03-15'
+      subject: '[bcause] Draft agenda posted'
+      url: https://mailarchive.ietf.org/arch/msg/bcause/BS-X432ejNqKE00U1CZc1LwcqqA/
+    - date: '2019-03-27'
+      subject: '[bcause] Draft minutes posted'
+      url: https://mailarchive.ietf.org/arch/msg/bcause/epOKk4ZiKG9uibjCbb7m_Xb_oWM/
 - person: 114464
   name: Barbara Stark
   status: confirmed

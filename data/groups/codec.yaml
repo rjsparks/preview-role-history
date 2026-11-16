@@ -13,12 +13,28 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2011-11-01'
       not_before: '2009-12-10'
     end:
       certainty: exact
       date: '2015-02-24'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
   evidence:
+  - kind: chair activity
+    first: '2011-07-20'
+    last: '2013-09-15'
+    messages: 4
+    examples:
+    - date: '2011-07-20'
+      subject: '[codec] Meeting logistics and draft agenda for CODEC at IETF 81'
+      url: https://mailarchive.ietf.org/arch/msg/codec/Np02RM-pZlgsUpSXil5Fs0z6Gb8/
+    - date: '2011-08-22'
+      subject: '[codec] Updated CODEC milestones now posted'
+      url: https://mailarchive.ietf.org/arch/msg/codec/G3GhoNmmE__IGUxoroKXTMsLkgo/
+    - date: '2011-11-01'
+      subject: '[codec] WGLC #2 for draft-ietf-codec-opus-10'
+      url: https://mailarchive.ietf.org/arch/msg/codec/hcz8zjvsXJqcJzhw0m5tBZU2_jQ/
   - kind: shepherded
     documents:
     - draft-ietf-codec-opus
@@ -36,6 +52,23 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 78
   evidence:
+  - kind: chair activity
+    first: '2011-03-17'
+    last: '2011-07-09'
+    messages: 4
+    examples:
+    - date: '2011-03-17'
+      subject: '[codec] Draft Agenda for CODEC at IETF 80 Version 1'
+      url: https://mailarchive.ietf.org/arch/msg/codec/WIX-JQG07e_YPe6rXjSAt-hBhNk/
+    - date: '2011-04-26'
+      subject: '[codec] WGLC of draft-ietf-codec-requirements-03'
+      url: https://mailarchive.ietf.org/arch/msg/codec/qg1w6fU7BtX6o-x4S8qMTslEJC0/
+    - date: '2011-07-06'
+      subject: '[codec] WGLC of draft-ietf-codec-guidelines-02'
+      url: https://mailarchive.ietf.org/arch/msg/codec/svF66eHls-oKpPbpvCnrmHCXrXM/
+    - date: '2011-07-09'
+      subject: '[codec] WGLC of draft-ietf-codec-opus-07'
+      url: https://mailarchive.ietf.org/arch/msg/codec/6ZyeTNUHnHsmwv3kOEw8wmshe6o/
   - kind: session requests
     meetings:
     - '78'
@@ -55,6 +88,20 @@ chairs:
       certainty: group-closed
       date: '2018-09-20'
   evidence:
+  - kind: chair activity
+    first: '2016-11-17'
+    last: '2018-05-01'
+    messages: 3
+    examples:
+    - date: '2016-11-17'
+      subject: '[codec] WGLC of draft-ietf-codec-opus-update-04'
+      url: https://mailarchive.ietf.org/arch/msg/codec/-a6SJcfJ_nDfbj-S7jEXDxPYEYM/
+    - date: '2017-03-31'
+      subject: '[codec] IETF 98 Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/codec/JJDF9IASwioa38PALX5hXz4MAgo/
+    - date: '2018-05-01'
+      subject: '[codec] WGLC of draft-ietf-codec-ambisonics-05'
+      url: https://mailarchive.ietf.org/arch/msg/codec/PIcjZWHSrpJ80kCgPICYj1v3Byg/
   - kind: shepherded
     documents:
     - draft-ietf-codec-ambisonics
@@ -77,6 +124,14 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/codec/z6Fr9-N9YoPRoFc4NlEZfeAF7Cc/
     excerpt: Just wanted to let you know that Mo Zanaty has graciously agreed to serve as co-chair for
       this group, and Jonathan is stepping down.
+  - kind: chair activity
+    first: '2015-04-30'
+    last: '2015-04-30'
+    messages: 1
+    examples:
+    - date: '2015-04-30'
+      subject: '[codec] Milestone for testing document'
+      url: https://mailarchive.ietf.org/arch/msg/codec/RF72mR_vKajfDKi9w4d17GsnD4o/
   - kind: shepherded
     documents:
     - draft-ietf-codec-oggopus

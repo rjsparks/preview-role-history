@@ -18,6 +18,14 @@ chairs:
       certainty: group-closed
       date: '2023-02-14'
   evidence:
+  - kind: chair activity
+    first: '2018-08-21'
+    last: '2018-08-21'
+    messages: 1
+    examples:
+    - date: '2018-08-21'
+      subject: '[homenet] Minutes of today''s interim'
+      url: https://mailarchive.ietf.org/arch/msg/homenet/RdoEVN4GemERTIUtaJGnacu0iIw/
   - kind: shepherded
     documents:
     - draft-ietf-homenet-front-end-naming-delegation
@@ -34,6 +42,20 @@ chairs:
       certainty: exact
       date: '2017-07-27'
   evidence:
+  - kind: chair activity
+    first: '2011-09-16'
+    last: '2015-05-06'
+    messages: 6
+    examples:
+    - date: '2011-09-16'
+      subject: '[homenet] Homenet Architecture & Interim Meeting'
+      url: https://mailarchive.ietf.org/arch/msg/homenet/5O0tamJylICqeo6OOknIOT02-EA/
+    - date: '2011-10-18'
+      subject: '[homenet] Interim meeting minutes'
+      url: https://mailarchive.ietf.org/arch/msg/homenet/hFvf6qcVs_-19tYm8S101PThtaE/
+    - date: '2015-05-06'
+      subject: '[homenet] WG Last Call for draft-ietf-homenet-dncp-03'
+      url: https://mailarchive.ietf.org/arch/msg/homenet/UarnF35HLaOA4sNub8umibRIemQ/
   - kind: shepherded
     documents:
     - draft-ietf-homenet-dncp
@@ -53,6 +75,26 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 82
   evidence:
+  - kind: chair activity
+    first: '2011-08-05'
+    last: '2017-07-24'
+    messages: 32
+    examples:
+    - date: '2011-08-05'
+      subject: '[homenet] IETF 81 draft minutes'
+      url: https://mailarchive.ietf.org/arch/msg/homenet/Ojm3UCpg2SPUULEPAGCQBgDWZ04/
+    - date: '2011-08-31'
+      subject: '[homenet] Homenet Interim Meeting - *PRELIMINARY* announcement'
+      url: https://mailarchive.ietf.org/arch/msg/homenet/oeL41FoC5PQx9dEynlG7OV3qR4A/
+    - date: '2013-02-12'
+      subject: '[homenet] Working Group Last Call for draft-ietf-homenet-arch-07'
+      url: https://mailarchive.ietf.org/arch/msg/homenet/nL_eMzl97knhSUeXpzmUHAsa3k4/
+    - date: '2016-11-18'
+      subject: '[homenet] WGLC on "redact" and "homenet-dot"'
+      url: https://mailarchive.ietf.org/arch/msg/homenet/gPnWDwDXBiT1NHh_QXGmVCXrjqE/
+    - date: '2016-12-14'
+      subject: '[homenet] WGLC on -redact and -homenet-dot'
+      url: https://mailarchive.ietf.org/arch/msg/homenet/soqgTtpMN-UWty8WHlv3A___GVQ/
   - kind: session requests
     meetings:
     - '82'

@@ -18,6 +18,18 @@ chairs:
     end:
       certainty: group-closed
       date: '2001-12-06'
+  evidence:
+  - kind: chair activity
+    first: '1998-09-04'
+    last: '2002-07-09'
+    messages: 36
+    examples:
+    - date: '1998-09-04'
+      subject: (IPng 6413) Draft IPng Meeting Minutes
+      url: https://mailarchive.ietf.org/arch/msg/ipngwg/3DiZKJ-xUdBu3SGfbek8fdUOpx8/
+    - date: '1998-09-09'
+      subject: (IPng 6418) Chicago IPng w.g. Minutes
+      url: https://mailarchive.ietf.org/arch/msg/ipngwg/5LKYbQ79twlrLUDEtrHbczjLHEo/
 - person: 9009
   name: Steve Deering
   status: confirmed
@@ -29,3 +41,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2001-12-06'
+  evidence:
+  - kind: chair activity
+    first: '1999-07-28'
+    last: '2001-06-07'
+    messages: 5
+    examples:
+    - date: '1999-07-28'
+      subject: draft minutes from IPng WG meetings in Oslo
+      url: https://mailarchive.ietf.org/arch/msg/ipngwg/DOSaWXvi1KIUqgQvgaeoYYh1qKQ/
+    - date: '2001-03-31'
+      subject: interim meeting
+      url: https://mailarchive.ietf.org/arch/msg/ipngwg/MUQ2zoTNg1-K8FAeXfGvIUy53mo/

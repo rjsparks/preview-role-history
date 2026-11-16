@@ -7,6 +7,37 @@ started: '1997-10-30'
 closed: '2010-10-12'
 history_url: https://datatracker.ietf.org/group/smime/history/
 chairs:
+- person: 5376
+  name: Russ Housley
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1998-09-24'
+    end:
+      certainty: evidence-only
+      not_before: '2003-03-03'
+  evidence:
+  - kind: chair activity
+    first: '1998-09-24'
+    last: '2003-03-03'
+    messages: 15
+    examples:
+    - date: '1998-09-24'
+      subject: Minutes
+      url: https://mailarchive.ietf.org/arch/msg/smime/X1Iz-8IdzUH9FOv8nMLp20rpE30/
+    - date: '1999-10-22'
+      subject: Working Group Last Call:draft-ietf-smime-certdist-04.txt
+      url: https://mailarchive.ietf.org/arch/msg/smime/S0LZ_kgiOuzg7bNe9iDdqJGK5KE/
+    - date: '1999-11-05'
+      subject: S/MIME WG Agenda for Wasington, DC Meeting
+      url: https://mailarchive.ietf.org/arch/msg/smime/98OULilAKGfOvFOL-kiiyQE0NL0/
+    - date: '1999-11-12'
+      subject: 'Working Group Last Call: draft-ietf-smime-cmskea-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/smime/-_iBIGdgra1Iwnv5zyYJUJDfzYo/
+    - date: '1999-11-17'
+      subject: 'Working Group Last Call: draft-ietf-smime-small-subgroup-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/smime/5HfK-bg2yhl3M9f3zbSY5rqrILA/
 - person: 10083
   name: Paul Hoffman
   status: confirmed
@@ -27,13 +58,24 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/smime/tvjoI4PVZOw-HEUNNWPuKzg3hK8/
     excerpt: I am pleased to announce that Paul Hoffman has agreed to replace Sean Turner as smime WG
       co-chair.
+  - kind: chair activity
+    first: '2001-08-25'
+    last: '2004-03-08'
+    messages: 2
+    examples:
+    - date: '2001-08-25'
+      subject: 8 August 2001 S/MIME WG Minutes
+      url: https://mailarchive.ietf.org/arch/msg/smime/i54JiyqUSN0Wqx_Gc4LgvX9R8kk/
+    - date: '2004-03-08'
+      subject: Draft minutes from the Seoul meeting
+      url: https://mailarchive.ietf.org/arch/msg/smime/3JFdgVUHs4mr4GF-I3eGAe3EMk4/
 - person: 19483
   name: Sean Turner
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2004-09-29'
+      not_after: '2003-07-28'
     end:
       certainty: approximate
       date: '2010-03-21'
@@ -55,6 +97,20 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/smime/tvjoI4PVZOw-HEUNNWPuKzg3hK8/
     excerpt: I am pleased to announce that Paul Hoffman has agreed to replace Sean Turner as smime WG
       co-chair.
+  - kind: chair activity
+    first: '2003-07-28'
+    last: '2004-08-13'
+    messages: 3
+    examples:
+    - date: '2003-07-28'
+      subject: Draft Meeting Minutes
+      url: https://mailarchive.ietf.org/arch/msg/smime/SnTMpw7JSRBy8bMa0upbs5V85_U/
+    - date: '2004-08-10'
+      subject: 'WG Last Call: draft-ietf-smime-examples-14.txt'
+      url: https://mailarchive.ietf.org/arch/msg/smime/82tFz61k3hwa2Um1Xm3f9e31B6A/
+    - date: '2004-08-13'
+      subject: IETF 60 SMIME Minutes
+      url: https://mailarchive.ietf.org/arch/msg/smime/aoppKY1icUUjMZnq-BH7FRQ7-O4/
   - kind: session requests
     meetings:
     - '69'
@@ -82,6 +138,20 @@ chairs:
     date: '2007-05-21'
     subject: 'WG Action: RECHARTER: S/MIME Mail Security (smime)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ig_uBOEITFGV655voXR2RaFBrmI/
+  - kind: chair activity
+    first: '2005-01-18'
+    last: '2009-01-25'
+    messages: 11
+    examples:
+    - date: '2005-01-18'
+      subject: 'WG LAST CALL: draft-ietf-smime-certcapa-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/smime/_gt5gMZU-gQ470ZiKzvrsW0RWa4/
+    - date: '2006-01-09'
+      subject: 'WG LAST CALL: draft-ietf-smime-cades-00.txt'
+      url: https://mailarchive.ietf.org/arch/msg/smime/2-XoLvzjdIkXPQpCuW4Pyc_vuis/
+    - date: '2006-11-28'
+      subject: 'WG LAST CALL: draft-ietf-smime-cms-mult-sign-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/smime/4cPCEYL907-OIMmVNR_x2i6oXD4/
   - kind: session requests
     meetings:
     - '65'

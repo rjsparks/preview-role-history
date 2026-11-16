@@ -18,7 +18,6 @@ chairs:
       certainty: exact
       date: '2012-07-30'
     notes:
-    - start moved earlier by session request for IETF 81
     - start dated by list message of 2011-04-22
   evidence:
   - kind: list message
@@ -28,11 +27,17 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/websec/GbNv1FMIinS2k9Fso9CO9FdNZbU/
     excerpt: Folks, I have named Alexey Melnikov as co-chair of the WEBSEC WG, along with existing chair
       Tobias Gondrom.
-  - kind: session requests
-    meetings:
-    - '81'
-    - '83'
-    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: chair activity
+    first: '2012-04-30'
+    last: '2012-07-18'
+    messages: 2
+    examples:
+    - date: '2012-04-30'
+      subject: '[websec] Minutes for the Paris (IETF 83) meeting'
+      url: https://mailarchive.ietf.org/arch/msg/websec/Bt4JwrJvOaw63EZrFEl9JkX3Rcg/
+    - date: '2012-07-18'
+      subject: '[websec] Draft WebSec agenda for Vancouver'
+      url: https://mailarchive.ietf.org/arch/msg/websec/BbR4GoaxwaEQC56kUvgfwwZMs8I/
   - kind: shepherded
     documents:
     - draft-gondrom-frame-options
@@ -58,6 +63,23 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/websec/GbNv1FMIinS2k9Fso9CO9FdNZbU/
     excerpt: Folks, I have named Alexey Melnikov as co-chair of the WEBSEC WG, along with existing chair
       Tobias Gondrom.
+  - kind: chair activity
+    first: '2010-10-24'
+    last: '2013-08-28'
+    messages: 10
+    examples:
+    - date: '2010-10-24'
+      subject: '[websec] agenda for Beijing: topics and presentation ideas?'
+      url: https://mailarchive.ietf.org/arch/msg/websec/lv510N58EBqmGu_2jhRb88HWt2Y/
+    - date: '2010-11-01'
+      subject: '[websec] Draft agenda for Beijing is uploaded'
+      url: https://mailarchive.ietf.org/arch/msg/websec/MZKM8i4I6QJmr-vKLZhDFIrLDKs/
+    - date: '2011-07-18'
+      subject: '[websec] WG Last Call on draft-ietf-websec-origin-02 until Aug-15'
+      url: https://mailarchive.ietf.org/arch/msg/websec/9caDlKT6htVsTVOxKrjJ9P8HLbo/
+    - date: '2012-03-18'
+      subject: '[websec] WG Last Call on draft-ietf-websec-strict-transport-sec-06 until April-9'
+      url: https://mailarchive.ietf.org/arch/msg/websec/pAx2Nc4wdq-wTCYxHUrZf8zWzYU/
   - kind: session requests
     meetings:
     - '80'

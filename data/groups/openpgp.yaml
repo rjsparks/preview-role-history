@@ -7,6 +7,39 @@ started: '1997-09-19'
 closed: null
 history_url: https://datatracker.ietf.org/group/openpgp/history/
 chairs:
+- person: 6770
+  name: John Noerenberg
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1998-01-19'
+    end:
+      certainty: approximate
+      date: '2003-04-30'
+    notes:
+    - end dated by list message of 2003-04-30
+  evidence:
+  - kind: list message
+    date: '2003-04-30'
+    says: end
+    subject: new chair
+    url: https://mailarchive.ietf.org/arch/msg/openpgp/P1TtVGceGi3FpH2_3xht9b8Jbz4/
+    excerpt: As most of you know, John Noerenberg has asked to step down as chair of OpenPGP.
+  - kind: chair activity
+    first: '1998-01-19'
+    last: '2001-03-21'
+    messages: 4
+    examples:
+    - date: '1998-01-19'
+      subject: OpenPGP WG meeting minutes
+      url: https://mailarchive.ietf.org/arch/msg/openpgp/tGhD3e62yJG5zNz22WisYisp6IU/
+    - date: '1998-11-30'
+      subject: OpenPGP agenda for Dec 7
+      url: https://mailarchive.ietf.org/arch/msg/openpgp/-6SYwPgE0bemjxFSF6yJG_ZJxj8/
+    - date: '2001-03-21'
+      subject: WG Last Call - draft-ietf-openpgp-mime
+      url: https://mailarchive.ietf.org/arch/msg/openpgp/BVt_VIbe85UXug4Nh_agCXpN9i4/
 - person: 8698
   name: Derek Atkins
   status: confirmed
@@ -19,6 +52,7 @@ chairs:
       date: '2015-06-07'
     notes:
     - start moved earlier by session request for IETF 66
+    - widened to cover last calls and adoption calls on the group list
     - start dated by list message of 2003-04-30
   evidence:
   - kind: list message
@@ -27,6 +61,23 @@ chairs:
     subject: new chair
     url: https://mailarchive.ietf.org/arch/msg/openpgp/P1TtVGceGi3FpH2_3xht9b8Jbz4/
     excerpt: I've asked Derek Atkins to take over as chair, to get the remaining work finished.
+  - kind: chair activity
+    first: '2004-01-30'
+    last: '2006-04-19'
+    messages: 10
+    examples:
+    - date: '2004-01-30'
+      subject: Meeting in Seoul -- call for Agenda Items.
+      url: https://mailarchive.ietf.org/arch/msg/openpgp/tYDYa5ftaf9hjPPzFB5IC6RIF7o/
+    - date: '2004-02-24'
+      subject: Agenda for OpenPGP Working Group
+      url: https://mailarchive.ietf.org/arch/msg/openpgp/vROJf_2UEJ7P66ZlGGG3t_RzEmI/
+    - date: '2005-10-11'
+      subject: WGLC for draft-ietf-openpgp-openpgp-15 ends Oct 28 1700EDT
+      url: https://mailarchive.ietf.org/arch/msg/openpgp/SRKyGrKSGD0Iuzu7o2Vp3dcLzyI/
+    - date: '2006-04-19'
+      subject: 'WGLC: draft-ietf-openpgp-rfc2440bis-16 ends Wed, May 3'
+      url: https://mailarchive.ietf.org/arch/msg/openpgp/024xG-uUasKhJWS1vaEftRQgSvo/
   - kind: session requests
     meetings:
     - '66'
@@ -57,6 +108,26 @@ chairs:
     date: '2023-12-15'
     subject: 'WG Action: Rechartered Open Specification for Pretty Good Privacy (openpgp)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/-MSyMGXP_x7aYzYgqN9kyRxbLd8/
+  - kind: chair activity
+    first: '2021-01-08'
+    last: '2026-07-22'
+    messages: 27
+    examples:
+    - date: '2021-01-08'
+      subject: '[openpgp] Poll for OpenPGP WG virtual interim in Feb'
+      url: https://mailarchive.ietf.org/arch/msg/openpgp/-kIx6B9PWv1SFI_HubXsI2aZlQM/
+    - date: '2022-03-08'
+      subject: '[openpgp] draft agenda for ietf-113'
+      url: https://mailarchive.ietf.org/arch/msg/openpgp/kEecfcfeVT9pauBOLZv3E1fR2O4/
+    - date: '2022-06-07'
+      subject: '[openpgp] WGLC for draft-ietf-openpgp-crypto-refresh-06.txt'
+      url: https://mailarchive.ietf.org/arch/msg/openpgp/LAMorYvThRXucv11FxADkl1COvw/
+    - date: '2022-07-08'
+      subject: '[openpgp] WGLC issues created in gitlab'
+      url: https://mailarchive.ietf.org/arch/msg/openpgp/nC_WGIAt4i82t3veXXBGlgW3k-E/
+    - date: '2022-07-08'
+      subject: '[openpgp] WGLC issue - are we done yet?'
+      url: https://mailarchive.ietf.org/arch/msg/openpgp/hlrPvBmO_AW9rsSh8KUhTtDU4CE/
   - kind: shepherded
     documents:
     - draft-ietf-openpgp-crypto-refresh
@@ -70,6 +141,15 @@ chairs:
     end:
       certainty: approximate
       date: '2017-11-12'
+  evidence:
+  - kind: chair activity
+    first: '2016-07-29'
+    last: '2016-07-29'
+    messages: 1
+    examples:
+    - date: '2016-07-29'
+      subject: '[openpgp] Minutes from the IETF 96 openpgp session posted'
+      url: https://mailarchive.ietf.org/arch/msg/openpgp/fzUILZOrlyZY-4f-9ubER48rHCQ/
 - person: 104807
   name: Christopher Liljenstolpe
   status: confirmed
@@ -89,6 +169,14 @@ chairs:
     date: '2015-06-26'
     subject: 'WG Action: Rechartered Open Specification for Pretty Good Privacy (openpgp)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/MgVPCuLRd6_tZNSRC9OoM3qwG8w/
+  - kind: chair activity
+    first: '2015-07-17'
+    last: '2015-07-17'
+    messages: 1
+    examples:
+    - date: '2015-07-17'
+      subject: '[openpgp] Draft Agenda posted'
+      url: https://mailarchive.ietf.org/arch/msg/openpgp/0qHL46HUPOAvVTYIcmt7FiVEy9Y/
 - person: 111614
   name: Daniel Gillmor
   status: confirmed
@@ -123,6 +211,23 @@ chairs:
     date: '2023-12-15'
     subject: 'WG Action: Rechartered Open Specification for Pretty Good Privacy (openpgp)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/-MSyMGXP_x7aYzYgqN9kyRxbLd8/
+  - kind: chair activity
+    first: '2015-07-28'
+    last: '2026-08-18'
+    messages: 15
+    examples:
+    - date: '2015-07-28'
+      subject: '[openpgp] draft minutes available'
+      url: https://mailarchive.ietf.org/arch/msg/openpgp/YtvC4fUuWaGm_lqtbbn2yc086X4/
+    - date: '2016-06-25'
+      subject: '[openpgp] call for adoption of draft-koch-openpgp-rfc4880bis'
+      url: https://mailarchive.ietf.org/arch/msg/openpgp/9ojTkdWWfhMGdx_TnNy4xr5Aoss/
+    - date: '2021-02-25'
+      subject: '[openpgp] OpenPGP interim meeting tomorrow (2021-02-26 15:00Z)'
+      url: https://mailarchive.ietf.org/arch/msg/openpgp/rG8paWbUbwdcslG-OGDB-yfvj9w/
+    - date: '2024-04-06'
+      subject: '[openpgp] Call for adoption of draft-gallagher-openpgp-replacementkey'
+      url: https://mailarchive.ietf.org/arch/msg/openpgp/ijiy4WJQhPVA5-7kiBPOvHOWCNI/
   - kind: shepherded
     documents:
     - draft-ietf-openpgp-pqc

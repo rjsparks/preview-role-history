@@ -16,12 +16,52 @@ chairs:
       not_after: '1999-10-27'
     end:
       certainty: evidence-only
-      not_before: '1999-10-27'
+      not_before: '2004-11-18'
   evidence:
   - kind: WG Action
     date: '1999-10-27'
     subject: 'WG ACTION: Layer Two Tunneling Protocol Extensions (l2tpext)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/M1UA2WsZ6oKavSzA3Z1vi5PoAhs/
+  - kind: chair activity
+    first: '2001-12-10'
+    last: '2004-11-18'
+    messages: 21
+    examples:
+    - date: '2001-12-10'
+      subject: '[L2tpext] Meeting agenda for tomorrow'
+      url: https://mailarchive.ietf.org/arch/msg/l2tpext/GbTcR-9jIK1WMdO3NHZvjPvOvjE/
+    - date: '2001-12-20'
+      subject: '[L2tpext] Draft l2tpext minutes'
+      url: https://mailarchive.ietf.org/arch/msg/l2tpext/S-mfIswbDI2XhcvkREu1mxl9Zvw/
+    - date: '2003-08-18'
+      subject: '[L2tpext] WG Last Call for draft-ietf-l2tpext-l2tp-base-10.txt'
+      url: https://mailarchive.ietf.org/arch/msg/l2tpext/Mrw2fR9VCdh8KZVWvnE94UZUC-0/
+    - date: '2004-09-07'
+      subject: '[L2tpext] WG Last Call for WG Last Call? draft-ietf-l2tpext-l2vpn-01.txt'
+      url: https://mailarchive.ietf.org/arch/msg/l2tpext/OqB5s93veKBGIgGczDm49UxSr6U/
+    - date: '2004-11-17'
+      subject: '[L2tpext] WG Last Call'
+      url: https://mailarchive.ietf.org/arch/msg/l2tpext/Niv77ensMPAWzlQz6F8gDvwmY_8/
+- person: 101526
+  name: Ron Silva
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-09-05'
+    end:
+      certainty: approximate
+      date: '2006-09-05'
+    notes:
+    - end dated by list message of 2006-09-05
+  evidence:
+  - kind: list message
+    date: '2006-09-05'
+    says: end
+    subject: '[L2tpext] Please welcome Carlos Pignataro as L2TPEXT WG co-Chair'
+    url: https://mailarchive.ietf.org/arch/msg/l2tpext/D8beaF3ULjuyiu3-pSpxydd_lBg/
+    excerpt: Ron da Silva has asked to step down as chair as his current day job will not allow him to
+      devote the time necessary to be a WG chair.
 - person: 105547
   name: Ignacio Goyret
   status: confirmed
@@ -42,6 +82,23 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/l2tpext/lS5MWYdoCxTHEUvwMxAf4U1ld7s/
     excerpt: I am very happy to announce that Ignacio Goyret and Ron Da Silva have agreed to share the
       L2TPEXT chair seat going forward.
+  - kind: chair activity
+    first: '2005-12-16'
+    last: '2015-10-19'
+    messages: 4
+    examples:
+    - date: '2005-12-16'
+      subject: '[L2tpext] L2TPEXT Milestones past due'
+      url: https://mailarchive.ietf.org/arch/msg/l2tpext/5UsNUZ0w6gFWHyBDmPdjiF_NejE/
+    - date: '2015-06-08'
+      subject: '[L2tpext] Call for adoption: draft-gp-l2tpext-sbfd-discriminator'
+      url: https://mailarchive.ietf.org/arch/msg/l2tpext/p_yi5dn-xjYTJZXB96md5LT4EZY/
+    - date: '2015-06-08'
+      subject: '[L2tpext] Call for adoption: draft-sun-l2tpext-keyed-v6-tunnel-yang'
+      url: https://mailarchive.ietf.org/arch/msg/l2tpext/i-qBDVrmUxcTTCa3QwEYLSMV0vU/
+    - date: '2015-10-19'
+      subject: '[L2tpext] WGLC for draft-ietf-l2tpext-sbfd-discriminator'
+      url: https://mailarchive.ietf.org/arch/msg/l2tpext/_J8LETiqBHVH9bjB-Y6pbOPjvFQ/
   - kind: shepherded
     documents:
     - draft-ietf-l2tpext-sbfd-discriminator
@@ -51,12 +108,34 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2006-02-16'
       not_before: '1999-10-04'
     end:
       certainty: group-closed
       date: '2018-05-17'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
   evidence:
+  - kind: chair activity
+    first: '2006-02-16'
+    last: '2015-06-08'
+    messages: 5
+    examples:
+    - date: '2006-02-16'
+      subject: '[L2tpext] WG Last Call for draft-ietf-l2tpext-pwe3-ethernet-05.txt'
+      url: https://mailarchive.ietf.org/arch/msg/l2tpext/Es9uJ4Mf7IEwSDY-YtPJN_H4HSo/
+    - date: '2007-10-30'
+      subject: '[L2tpext] L2tpext Milestones'
+      url: https://mailarchive.ietf.org/arch/msg/l2tpext/LWXRrimNriF8_TBEVYNY3BXLwKk/
+    - date: '2008-08-04'
+      subject: '[L2tpext] WG Last Call: draft-ietf-l2tpext-tdm-05'
+      url: https://mailarchive.ietf.org/arch/msg/l2tpext/Vx4BeQqug6UsojqVoGcXamdhQ7E/
+    - date: '2010-06-10'
+      subject: '[L2tpext] L2TPext | Interest on Expired Milestones'
+      url: https://mailarchive.ietf.org/arch/msg/l2tpext/e72_iUAFeN4JtkFueg5JYb755QY/
+    - date: '2015-06-08'
+      subject: '[L2tpext] WGLC for draft-ietf-l2tpext-keyed-ipv6-tunnel-04'
+      url: https://mailarchive.ietf.org/arch/msg/l2tpext/HhA3eHVWBEKqtIJB7XR3sUdg6eA/
   - kind: shepherded
     documents:
     - draft-ietf-l2tpext-keyed-ipv6-tunnel

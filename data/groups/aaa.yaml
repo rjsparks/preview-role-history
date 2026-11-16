@@ -56,6 +56,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2007-01-29'
+  evidence:
+  - kind: chair activity
+    first: '2004-07-06'
+    last: '2004-07-06'
+    messages: 1
+    examples:
+    - date: '2004-07-06'
+      subject: '[AAA-WG]: Proposed AAA WG Agenda for IETF 60'
+      url: https://mailarchive.ietf.org/arch/msg/aaa/kHd64frikwD6BVYGsog2QoMnVhw/
 - person: 20264
   name: David Mitton
   status: confirmed
@@ -78,3 +87,12 @@ chairs:
     end:
       certainty: group-closed
       date: '2007-01-29'
+  evidence:
+  - kind: chair activity
+    first: '2004-09-01'
+    last: '2004-09-01'
+    messages: 1
+    examples:
+    - date: '2004-09-01'
+      subject: '[AAA-WG]: IETF 60 meeting minutes'
+      url: https://mailarchive.ietf.org/arch/msg/aaa/ZpVcyM-2iZgDSB972anehtaGRgc/

@@ -16,12 +16,32 @@ chairs:
       not_after: '2006-03-17'
     end:
       certainty: evidence-only
-      not_before: '2009-07-26'
+      not_before: '2010-01-19'
   evidence:
   - kind: WG Action
     date: '2006-03-17'
     subject: 'WG Action: Email Address Internationalization (eai)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/H3yXSctovO6Ypd69m6RLN5LNgUM/
+  - kind: chair activity
+    first: '2006-10-16'
+    last: '2010-01-19'
+    messages: 24
+    examples:
+    - date: '2006-10-16'
+      subject: '[EAI] WG LAST CALL: draft-ietf-eai-framework-02'
+      url: https://mailarchive.ietf.org/arch/msg/ima/9cOi8F8WzPUzfTCSJDML0ERabQs/
+    - date: '2006-12-22'
+      subject: '[EAI] Meeting minutes from the San Diego IETF meeting'
+      url: https://mailarchive.ietf.org/arch/msg/ima/hj-DG4QHHuIi83adRrw8AyqeCFs/
+    - date: '2007-03-09'
+      subject: '[EAI] DRAFT agenda, EAI WG'
+      url: https://mailarchive.ietf.org/arch/msg/ima/e3dPnIjrFULgaQ3WQBxCVou7wnA/
+    - date: '2007-09-11'
+      subject: '[EAI] WG Last Call on -smtp, -utf8 and -dsn'
+      url: https://mailarchive.ietf.org/arch/msg/ima/Sff8xY-JKTLyN0B-LzjnzJx4xkw/
+    - date: '2007-09-27'
+      subject: '[EAI] WG Last Call on core documents has ended'
+      url: https://mailarchive.ietf.org/arch/msg/ima/rUo6kDa6mmGSBpNtSfCxTR3mnmE/
   - kind: session requests
     meetings:
     - '67'
@@ -55,6 +75,23 @@ chairs:
     date: '2010-06-08'
     subject: 'WG Action: RECHARTER: Email Address Internationalization (eai)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/bWAiq0dlJYPDTGJim0KJruQ7abI/
+  - kind: chair activity
+    first: '2010-11-25'
+    last: '2012-10-25'
+    messages: 5
+    examples:
+    - date: '2010-11-25'
+      subject: '[EAI] WG last call expires Friday'
+      url: https://mailarchive.ietf.org/arch/msg/ima/B9G5kN-u6bMZzE7A8wG5PvWa2PA/
+    - date: '2012-03-15'
+      subject: '[EAI] IETF 83 (Paris) EAI meeting and follow-on Interim Meeting'
+      url: https://mailarchive.ietf.org/arch/msg/ima/xIVnguhFntWOYy9DsrMAN-WMhpQ/
+    - date: '2012-06-24'
+      subject: '[EAI] WG Last Call: draft-ietf-eai-mailinglistbis-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/ima/8Ds9lhGhNCa9hCuYdpH4zttbVgg/
+    - date: '2012-07-17'
+      subject: '[EAI] EAI agenda for IETF 84'
+      url: https://mailarchive.ietf.org/arch/msg/ima/IhH891qQAi1FTCiZz30taIMI5OE/
   - kind: shepherded
     documents:
     - draft-ietf-eai-5738bis
@@ -75,6 +112,26 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 78
   evidence:
+  - kind: chair activity
+    first: '2011-03-17'
+    last: '2012-11-16'
+    messages: 11
+    examples:
+    - date: '2011-03-17'
+      subject: '[EAI] Initial Agenda for IETF80'
+      url: https://mailarchive.ietf.org/arch/msg/ima/dHQgOumVvcZhQtLZGcxXP19Us-M/
+    - date: '2011-09-20'
+      subject: '[EAI] WG Last Call to RFC5336bis, RFC5335bis, RFC5337bis'
+      url: https://mailarchive.ietf.org/arch/msg/ima/1a-j40i6t2wa_sxKj5Lkz_RPGuM/
+    - date: '2011-11-18'
+      subject: '[EAI] WG Last Call to RFC5721bis'
+      url: https://mailarchive.ietf.org/arch/msg/ima/SsavtoVwz1Tqu9wyLzTi7MW4AhQ/
+    - date: '2011-11-18'
+      subject: '[EAI] Preliminary Minutes of EAI at IETF82'
+      url: https://mailarchive.ietf.org/arch/msg/ima/GcSd_0e5XHKcL1kKSgMe4Z8qPV4/
+    - date: '2012-07-10'
+      subject: '[EAI] WG Last Call to RFC5721bis, RFC5738bis, draft-ietf-eai-popimap-downgrade, draft-ietf-eai-simpledowngrade'
+      url: https://mailarchive.ietf.org/arch/msg/ima/9RrqXhDK3v2LlfrKEHltl9L044o/
   - kind: session requests
     meetings:
     - '78'

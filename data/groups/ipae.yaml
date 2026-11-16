@@ -18,3 +18,12 @@ chairs:
     end:
       certainty: group-closed
       date: '1993-05-30'
+  evidence:
+  - kind: chair activity
+    first: '1992-08-09'
+    last: '1992-08-09'
+    messages: 1
+    examples:
+    - date: '1992-08-09'
+      subject: Draft minutes of the Boston IPAE BOF
+      url: https://mailarchive.ietf.org/arch/msg/ipae/lZd1mhIc1O3eB1KRTVGjWID4ZwA/

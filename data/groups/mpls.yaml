@@ -18,6 +18,7 @@ chairs:
       certainty: exact
       date: '2016-07-22'
     notes:
+    - widened to cover last calls and adoption calls on the group list
     - start dated by list message of 2010-12-16
   evidence:
   - kind: WG Action
@@ -45,6 +46,20 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/mpls/xaJwDxSgwA-Yfo3KZnDS-5T1zDw/
     excerpt: At the end of last year I appointed Ross Callon and as a temporary third WG chair to help
       with the considerable management and technical load in the MPLS working group.
+  - kind: chair activity
+    first: '2011-09-06'
+    last: '2016-03-11'
+    messages: 8
+    examples:
+    - date: '2011-09-06'
+      subject: '[mpls] WG last call on draft-ietf-mpls-ldp-iana-01'
+      url: https://mailarchive.ietf.org/arch/msg/mpls/mdwf6A9bsvNKyQxNsl_Y0EPRWTs/
+    - date: '2012-06-14'
+      subject: '[mpls] WG last call on draft-ietf-mpls-entropy-label-03'
+      url: https://mailarchive.ietf.org/arch/msg/mpls/ErZkDoUeAMoXN2RqJRB8CMwy2gI/
+    - date: '2013-12-04'
+      subject: '[mpls] working group last call on draft-ietf-mpls-moving-iana-registries-00'
+      url: https://mailarchive.ietf.org/arch/msg/mpls/LNYhSjq3fac3eeX74wkkVbFDWuU/
   - kind: shepherded
     documents:
     - draft-akiya-mpls-lsp-ping-reply-mode-simple
@@ -84,6 +99,20 @@ chairs:
     date: '2025-08-07'
     subject: 'WG Action: Rechartered Multiprotocol Label Switching (mpls)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/qNDIhROEnSDosP826ZNJq1V5JDQ/
+  - kind: chair activity
+    first: '2024-04-25'
+    last: '2025-09-01'
+    messages: 6
+    examples:
+    - date: '2024-04-25'
+      subject: '[mpls] WG last call: draft-ietf-mpls-inband-pm-encapsulation'
+      url: https://mailarchive.ietf.org/arch/msg/mpls/V7AouC9OFs_61N1hX9pL9i55JyU/
+    - date: '2024-04-30'
+      subject: '[mpls] WG last call: draft-ietf-mpls-rfc6374-sr'
+      url: https://mailarchive.ietf.org/arch/msg/mpls/U3ekTawuEXyKlgkhFmncu_h6Py8/
+    - date: '2024-06-04'
+      subject: '[mpls] WGLC on draft-ietf-mpls-mna-usecases'
+      url: https://mailarchive.ietf.org/arch/msg/mpls/6NWMr8TebJfw5jvjSNBFTa1fm1Q/
   - kind: shepherded
     documents:
     - draft-ietf-mpls-frr-ext
@@ -131,6 +160,17 @@ chairs:
     date: '2014-12-05'
     subject: 'WG Action: Rechartered Multiprotocol Label Switching (mpls)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ufCVdCa-puOES8QLFQXA8h3d1RQ/
+  - kind: chair activity
+    first: '2006-08-15'
+    last: '2007-04-23'
+    messages: 2
+    examples:
+    - date: '2006-08-15'
+      subject: '[mpls] MPLS WG minutes'
+      url: https://mailarchive.ietf.org/arch/msg/mpls/3LvpMMUc5JFWwtELhVxibYodmsY/
+    - date: '2007-04-23'
+      subject: '[mpls] MPLS Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/mpls/iDFAA3SLg1SogV7ybbuFggACVaY/
   - kind: session requests
     meetings:
     - '65'
@@ -170,6 +210,26 @@ chairs:
     date: '2014-12-05'
     subject: 'WG Action: Rechartered Multiprotocol Label Switching (mpls)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ufCVdCa-puOES8QLFQXA8h3d1RQ/
+  - kind: chair activity
+    first: '2004-07-21'
+    last: '2023-09-24'
+    messages: 165
+    examples:
+    - date: '2004-07-21'
+      subject: '[mpls] preliminary wg agenda for SD'
+      url: https://mailarchive.ietf.org/arch/msg/mpls/EqwzLpRnhUpYzg5cAlcAsEv1OWQ/
+    - date: '2004-11-01'
+      subject: '[mpls] agenda for MPLS meeting in Washington DC'
+      url: https://mailarchive.ietf.org/arch/msg/mpls/Cx1tmwgmDgS_87TKlaf46GIgVKw/
+    - date: '2004-12-29'
+      subject: '[mpls] working group last call on draft-ietf-mpls-oam-frmwk-01.txt'
+      url: https://mailarchive.ietf.org/arch/msg/mpls/NfhNiyaJqOY1qR_YhQGNDt26Gr8/
+    - date: '2005-05-23'
+      subject: '[mpls] working group last call on draft-ietf-mpls-p2mp-sig-requirement-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/mpls/4Ub8c8oCVhs0N38-cu6oyQG9ECI/
+    - date: '2005-08-12'
+      subject: '[mpls] Working group last call on draft-ietf-mpls-rfc3036bis-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/mpls/wG1y6TbfXAlo1c57Zc6TVZTT2L8/
   - kind: session requests
     meetings:
     - '67'
@@ -317,6 +377,26 @@ chairs:
     date: '2025-08-07'
     subject: 'WG Action: Rechartered Multiprotocol Label Switching (mpls)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/qNDIhROEnSDosP826ZNJq1V5JDQ/
+  - kind: chair activity
+    first: '2020-09-24'
+    last: '2026-06-19'
+    messages: 8
+    examples:
+    - date: '2020-09-24'
+      subject: '[mpls] Working Group Last Call : draft-ietf-mpls-lsp-ping-registries-update-04'
+      url: https://mailarchive.ietf.org/arch/msg/mpls/cMz74ISGOaCABkHgwUkscV3gPAc/
+    - date: '2020-10-09'
+      subject: '[mpls] Working group last call completed: draft-ietf-mpls-lsp-ping-registries-update-04'
+      url: https://mailarchive.ietf.org/arch/msg/mpls/1hXqmF1S0vwb3KhCXqXT2aRl5KY/
+    - date: '2023-11-15'
+      subject: '[mpls] Minutes for IETF-118'
+      url: https://mailarchive.ietf.org/arch/msg/mpls/tYt68cutSdsLv4gR0Vd0KD53CbU/
+    - date: '2025-02-18'
+      subject: '[mpls] First cut of notes from today''s interim'
+      url: https://mailarchive.ietf.org/arch/msg/mpls/56v0ByZRXn1y7zlu4EQc2W1L4NE/
+    - date: '2025-05-06'
+      subject: '[mpls] Adoption poll for draft-jags-mpls-ps-mna-hdr'
+      url: https://mailarchive.ietf.org/arch/msg/mpls/mGJVSAQCpWOt5ZT23eNuFMutKIM/
   - kind: shepherded
     documents:
     - draft-andersson-mpls-lsp-ping-registries-update
@@ -342,6 +422,20 @@ chairs:
       certainty: exact
       date: '2025-04-28'
   evidence:
+  - kind: chair activity
+    first: '2017-05-24'
+    last: '2024-04-23'
+    messages: 5
+    examples:
+    - date: '2017-05-24'
+      subject: '[mpls] WGLC for draft-ietf-mpls-bfd-directed'
+      url: https://mailarchive.ietf.org/arch/msg/mpls/Cab3HqTfx7Iqy3rKwOpAFH5piXQ/
+    - date: '2018-01-10'
+      subject: '[mpls] WGLC for draft-ietf-mpls-ri-rsvp-frr-02'
+      url: https://mailarchive.ietf.org/arch/msg/mpls/tGexG5IZFk9Vj4WvFfLuJIO9FKI/
+    - date: '2018-07-25'
+      subject: '[mpls] WGLC for draft-ietf-mpls-ldp-yang'
+      url: https://mailarchive.ietf.org/arch/msg/mpls/6Lugu3tgKyrpYdZkcHBIc8JMenI/
   - kind: shepherded
     documents:
     - draft-andersson-mpls-mna-fwk
@@ -354,6 +448,26 @@ chairs:
     - draft-kompella-mpls-larp
     - draft-mb-mpls-ioam-dex
     - draft-mtaillon-mpls-summary-frr-rsvpte
+- person: 108279
+  name: Martin Vigoureux
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2010-03-21'
+    end:
+      certainty: evidence-only
+      not_before: '2011-11-13'
+  evidence:
+  - kind: session requests
+    meetings:
+    - '77'
+    - '78'
+    - '79'
+    - '80'
+    - '81'
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
 - person: 116516
   name: Tarek Saad
   status: confirmed

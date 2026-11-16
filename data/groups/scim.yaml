@@ -19,6 +19,17 @@ chairs:
       not_before: '2012-02-23'
       not_after: '2015-05-29'
   evidence:
+  - kind: chair activity
+    first: '2012-03-13'
+    last: '2012-03-16'
+    messages: 2
+    examples:
+    - date: '2012-03-13'
+      subject: '[scim] draft agenda for the SCIM BoF'
+      url: https://mailarchive.ietf.org/arch/msg/scim/Fc90yN-0wFZy8Q0T2StvRdP0aqk/
+    - date: '2012-03-16'
+      subject: '[scim] Agenda for the SCIM BoF'
+      url: https://mailarchive.ietf.org/arch/msg/scim/kPXdDzEL340vv9cnomfcUjmNzKc/
   - kind: shepherded
     documents:
     - draft-ietf-scim-events
@@ -61,6 +72,26 @@ chairs:
     date: '2021-10-22'
     subject: 'WG Action: Rechartered System for Cross-domain Identity Management (scim)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/6VKVy3tiC7tAsBVlk6b6y6_3tps/
+  - kind: chair activity
+    first: '2021-12-30'
+    last: '2025-08-12'
+    messages: 10
+    examples:
+    - date: '2021-12-30'
+      subject: '[scim] Cancelling Jan 5 virtual interim unless there''s topics to discuss'
+      url: https://mailarchive.ietf.org/arch/msg/scim/S6dp_lWrBooyc1bjwSgqCWCq8AI/
+    - date: '2022-09-06'
+      subject: '[scim] SCIM Virtual interim on Sept 20 8am Pacific Time'
+      url: https://mailarchive.ietf.org/arch/msg/scim/k6qTRImtXheHrCYBtc4MVB9FdKc/
+    - date: '2022-12-21'
+      subject: '[scim] Call for adoption of draft-peterson-scim-cursor-pagination/'
+      url: https://mailarchive.ietf.org/arch/msg/scim/ybptJlJq76wPC_cWknZfvBkqwuY/
+    - date: '2023-06-16'
+      subject: '[scim] Call for adoption draft-shahzad-scim-device-model'
+      url: https://mailarchive.ietf.org/arch/msg/scim/GwyltgqlgmSg1yYWi7YfB7pmSDA/
+    - date: '2023-08-23'
+      subject: '[scim] WGLC for draft-ietf-scim-cursor-pagination'
+      url: https://mailarchive.ietf.org/arch/msg/scim/R_OdaQRnBk-HtFT_DH_4B8l55nI/
   - kind: shepherded
     documents:
     - draft-ietf-scim-cursor-pagination
@@ -72,15 +103,34 @@ chairs:
   - start:
       certainty: between
       not_before: '2012-02-23'
-      not_after: '2015-05-29'
+      not_after: '2012-08-17'
     end:
       certainty: exact
       date: '2021-09-30'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
   evidence:
   - kind: WG Action
     date: '2012-06-21'
     subject: 'WG Action: Formed System for Cross-domain Identity Management (scim)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/MWl6WGkkCs1er4urUAA3l7o9cb0/
+  - kind: chair activity
+    first: '2012-07-12'
+    last: '2016-04-01'
+    messages: 13
+    examples:
+    - date: '2012-07-12'
+      subject: '[scim] draft agenda for Vancouver'
+      url: https://mailarchive.ietf.org/arch/msg/scim/JptF14FSykstnp-snKSANJyunvo/
+    - date: '2012-08-17'
+      subject: '[scim] call for wg adoption'
+      url: https://mailarchive.ietf.org/arch/msg/scim/i3Qh0gF_oqunesdtGm-tUTx8GUw/
+    - date: '2012-11-02'
+      subject: '[scim] Agenda for ATL'
+      url: https://mailarchive.ietf.org/arch/msg/scim/jaUdRFT5X7ydUr1euoiiD7xYGfs/
+    - date: '2014-02-16'
+      subject: '[scim] WGLC of draft-ietf-scim-use-cases-00.txt'
+      url: https://mailarchive.ietf.org/arch/msg/scim/_rfOBQ8hkTcELb-egXUGSIP9H2k/
   - kind: shepherded
     documents:
     - draft-ietf-scim-api
@@ -92,15 +142,28 @@ chairs:
   - start:
       certainty: between
       not_before: '2012-02-23'
-      not_after: '2015-05-29'
+      not_after: '2015-02-10'
     end:
       certainty: exact
       date: '2021-09-30'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
   evidence:
   - kind: WG Action
     date: '2012-06-21'
     subject: 'WG Action: Formed System for Cross-domain Identity Management (scim)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/MWl6WGkkCs1er4urUAA3l7o9cb0/
+  - kind: chair activity
+    first: '2013-08-07'
+    last: '2015-02-10'
+    messages: 2
+    examples:
+    - date: '2013-08-07'
+      subject: '[scim] Agenda for SCIM WG Aug. 21st conference call'
+      url: https://mailarchive.ietf.org/arch/msg/scim/0zPYzC337eg9yer1XvlyNqfo2ZI/
+    - date: '2015-02-10'
+      subject: '[scim] WGLC on core-schema-16 and API-15 drafts'
+      url: https://mailarchive.ietf.org/arch/msg/scim/5gSjErNg2MTta3m33rkMIODRNgE/
   - kind: shepherded
     documents:
     - draft-ietf-scim-use-cases
@@ -113,3 +176,18 @@ chairs:
       date: '2022-02-10'
     end:
       certainty: ongoing
+  evidence:
+  - kind: chair activity
+    first: '2022-08-01'
+    last: '2025-10-13'
+    messages: 5
+    examples:
+    - date: '2022-08-01'
+      subject: '[scim] interim meeting scheduling'
+      url: https://mailarchive.ietf.org/arch/msg/scim/6BCUeYg1tZzXEWPX1lXiStf-HWA/
+    - date: '2023-07-13'
+      subject: '[scim] IETF 117 Draft Agenda'
+      url: https://mailarchive.ietf.org/arch/msg/scim/RuMl-TTJaN7JC3JZgUfBHCgMi4w/
+    - date: '2024-08-16'
+      subject: '[scim] Working Group Last Call for SCIM Events'
+      url: https://mailarchive.ietf.org/arch/msg/scim/pYouWyuUox_wDDVj-y8LrPOHyrA/

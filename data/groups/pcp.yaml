@@ -21,6 +21,26 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 80
   evidence:
+  - kind: chair activity
+    first: '2010-12-04'
+    last: '2014-11-11'
+    messages: 20
+    examples:
+    - date: '2010-12-04'
+      subject: '[pcp] IETF 79 meeting minutes posted'
+      url: https://mailarchive.ietf.org/arch/msg/pcp/7SFmzr2sPMqPakuEbiUImhz7J2w/
+    - date: '2010-12-16'
+      subject: '[pcp] Draft slides for interim call'
+      url: https://mailarchive.ietf.org/arch/msg/pcp/Mwz7C1SrReb-Qg-vgpURbTXGXNo/
+    - date: '2011-05-20'
+      subject: '[pcp] WGLC: draft-ietf-pcp-base-12.txt'
+      url: https://mailarchive.ietf.org/arch/msg/pcp/1bOU1VgT17KvvyWsHdniAnerCPU/
+    - date: '2012-03-30'
+      subject: '[pcp] WG last call on draft-ietf-pcp-dhcp-02'
+      url: https://mailarchive.ietf.org/arch/msg/pcp/8jiCdEShpGKsi9kBZXyNHX8tOyM/
+    - date: '2012-07-13'
+      subject: '[pcp] WG last call on draft-ietf-pcp-upnp-igd-interworking-01'
+      url: https://mailarchive.ietf.org/arch/msg/pcp/f8vcLx7fu0f2bUJLYUJHj0jXFlI/
   - kind: session requests
     meetings:
     - '80'
@@ -42,11 +62,33 @@ chairs:
   - start:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2013-03-13'
+      not_after: '2013-01-02'
     end:
       certainty: group-closed
       date: '2017-11-13'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
   evidence:
+  - kind: chair activity
+    first: '2013-01-02'
+    last: '2014-08-24'
+    messages: 12
+    examples:
+    - date: '2013-01-02'
+      subject: '[pcp] WG Call for Adoption: draft-boucadair-pcp-nat64-prefix64-option'
+      url: https://mailarchive.ietf.org/arch/msg/pcp/3Wi8RwMB0Uiq5o9GdmB1GcmjRaQ/
+    - date: '2013-02-05'
+      subject: '[pcp] WG Call for Adoption: draft-boucadair-pcp-description-option-01'
+      url: https://mailarchive.ietf.org/arch/msg/pcp/zTLb22qtFuJYQ7t_rJ7-ja7V84w/
+    - date: '2013-02-07'
+      subject: '[pcp] PCP Call for Agenda Items at IETF 86 Orlando'
+      url: https://mailarchive.ietf.org/arch/msg/pcp/lgcfXPI70LxDUk4Sbs8Pc8FpMnA/
+    - date: '2013-04-01'
+      subject: '[pcp] MInutes posted + Action items'
+      url: https://mailarchive.ietf.org/arch/msg/pcp/WOMvBaJ0lgDnm1A5XKXlaTUDRvE/
+    - date: '2013-04-26'
+      subject: '[pcp] WG Call for Adoption: draft-maglione-pcp-radius-ext-07'
+      url: https://mailarchive.ietf.org/arch/msg/pcp/96r1YpVrof4VU4jaCkAyhP-Y1S0/
   - kind: shepherded
     documents:
     - draft-ietf-pcp-optimize-keepalives
@@ -67,6 +109,17 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 79
   evidence:
+  - kind: chair activity
+    first: '2010-09-13'
+    last: '2012-10-17'
+    messages: 11
+    examples:
+    - date: '2010-09-13'
+      subject: '[pcp] PCP Interim meeting announcement'
+      url: https://mailarchive.ietf.org/arch/msg/pcp/LmvSJsNTRbXvE6TWGlnoBLdtoXo/
+    - date: '2010-10-06'
+      subject: '[pcp] Tentative agenda for Interim meeting'
+      url: https://mailarchive.ietf.org/arch/msg/pcp/xx38imNENDn7Hp-lnn75aTXEB6I/
   - kind: session requests
     meetings:
     - '79'

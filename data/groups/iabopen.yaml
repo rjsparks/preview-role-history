@@ -108,6 +108,18 @@ chairs:
     end:
       certainty: exact
       date: '2024-05-29'
+  evidence:
+  - kind: chair activity
+    first: '2020-07-16'
+    last: '2022-08-15'
+    messages: 4
+    examples:
+    - date: '2020-07-16'
+      subject: '[arch-d] Agenda for IAB Open Meeting at IETF-108'
+      url: https://mailarchive.ietf.org/arch/msg/architecture-discuss/jNwIsBz6sNppqr_4uK4f9qnDQjk/
+    - date: '2020-12-02'
+      subject: '[arch-d] IABopen minutes from IETF-109'
+      url: https://mailarchive.ietf.org/arch/msg/architecture-discuss/FOENTWMSbOj5FnMhW6bnySRvBS0/
 - person: 113589
   name: Zhenbin Li
   status: confirmed
@@ -118,6 +130,15 @@ chairs:
     end:
       certainty: exact
       date: '2021-05-06'
+  evidence:
+  - kind: chair activity
+    first: '2021-03-24'
+    last: '2021-03-24'
+    messages: 1
+    examples:
+    - date: '2021-03-24'
+      subject: '[arch-d] IETF110 IABOpen Meeting Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/architecture-discuss/mP7T-xU9UUCjPo2CWYh8LqERk9A/
 - person: 116337
   name: Yingzhen Qu
   status: confirmed

@@ -13,13 +13,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-03-19'
+      date: '2004-04-27'
       not_before: '2003-08-04'
     end:
       certainty: group-closed
       date: '2007-11-20'
     notes:
     - start moved earlier by session request for IETF 65
+    - widened to cover last calls and adoption calls on the group list
   evidence:
   - kind: WG Review
     date: '2006-09-19'
@@ -29,6 +30,26 @@ chairs:
     date: '2006-10-05'
     subject: 'WG Action: RECHARTER: Mobility for IPv6 (mip6)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/cD5D4opuQGCW-yODUOpvugrCqeU/
+  - kind: chair activity
+    first: '2003-07-30'
+    last: '2007-08-24'
+    messages: 39
+    examples:
+    - date: '2003-07-30'
+      subject: '[Mip6] MIP6 BoF Meeting minutes from IETF57'
+      url: https://mailarchive.ietf.org/arch/msg/mip6/KE2L0yV4GhkBcpbxys6lvdBn74w/
+    - date: '2003-10-22'
+      subject: '[Mip6] Draft Agenda for WG meeting at IETF58'
+      url: https://mailarchive.ietf.org/arch/msg/mip6/XoqTLc-1L3Ikpa8C8iXJahMUOgc/
+    - date: '2004-04-27'
+      subject: '[Mip6] WG last call: draft-ietf-mip6-ro-sec-00.txt'
+      url: https://mailarchive.ietf.org/arch/msg/mip6/sQrAzmZPQfIMS260e8Ev8QUCU_M/
+    - date: '2004-04-27'
+      subject: '[Mip6] Working Group Last Call: draft-ietf-mip6-mipext-advapi-01.txt'
+      url: https://mailarchive.ietf.org/arch/msg/mip6/4lv4_Tu1NLWcvn49cqybsSan5FY/
+    - date: '2004-10-13'
+      subject: '[Mip6] WGLC: draft-ietf-mip6-firewalls-00.txt'
+      url: https://mailarchive.ietf.org/arch/msg/mip6/4oStKLfoBqfTO3pZ8rM74itYE_Q/
   - kind: session requests
     meetings:
     - '65'
@@ -59,3 +80,14 @@ chairs:
     date: '2006-10-05'
     subject: 'WG Action: RECHARTER: Mobility for IPv6 (mip6)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/cD5D4opuQGCW-yODUOpvugrCqeU/
+  - kind: chair activity
+    first: '2003-12-08'
+    last: '2004-05-17'
+    messages: 2
+    examples:
+    - date: '2003-12-08'
+      subject: '[Mip6] IETF 58 Meeting minutes'
+      url: https://mailarchive.ietf.org/arch/msg/mip6/88lEgfA6cd0Zg9NOz5Be7-squew/
+    - date: '2004-05-17'
+      subject: '[Mip6] Agenda for 60th IETF San Diego - MIP6 WG'
+      url: https://mailarchive.ietf.org/arch/msg/mip6/YBmAZut3aC0WxkuTPVIYi2q95Rg/

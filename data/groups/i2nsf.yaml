@@ -40,6 +40,15 @@ chairs:
     end:
       certainty: exact
       date: '2015-09-10'
+  evidence:
+  - kind: chair activity
+    first: '2014-11-20'
+    last: '2014-11-20'
+    messages: 1
+    examples:
+    - date: '2014-11-20'
+      subject: '[I2nsf] I2NSF IETF 91 Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/i2nsf/9X2U2CxsUjlzSLeGJhP2B9NJ6VU/
 - person: 104198
   name: Adrian Farrel
   status: confirmed
@@ -55,6 +64,20 @@ chairs:
     date: '2015-09-18'
     subject: 'WG Action: Formed Interface to Network Security Functions (i2nsf)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/yMjxyQT_dEWLHkjAWOmv4dXJudY/
+  - kind: chair activity
+    first: '2015-10-19'
+    last: '2017-06-16'
+    messages: 8
+    examples:
+    - date: '2015-10-19'
+      subject: '[I2nsf] Draft agenda coming soon'
+      url: https://mailarchive.ietf.org/arch/msg/i2nsf/096hIeiK5vA1SZpiNzgcT5P8YTE/
+    - date: '2015-10-24'
+      subject: '[I2nsf] Draft agenda uploaded for I2NSF'
+      url: https://mailarchive.ietf.org/arch/msg/i2nsf/QtI6NJtdKoh2UT06eFeFJpbYBXE/
+    - date: '2017-06-16'
+      subject: '[I2nsf] Working group last call on draft-ietf-i2nsf-framework'
+      url: https://mailarchive.ietf.org/arch/msg/i2nsf/Q_rBQ0VttGu-SPoQFVfQSuRkKFg/
   - kind: shepherded
     documents:
     - draft-ietf-i2nsf-problem-and-use-cases
@@ -69,6 +92,20 @@ chairs:
       certainty: group-closed
       date: '2023-06-21'
   evidence:
+  - kind: chair activity
+    first: '2017-07-28'
+    last: '2017-10-20'
+    messages: 4
+    examples:
+    - date: '2017-07-28'
+      subject: '[I2nsf] I2NSF Virtual Interim meeting on IPsec and draft-abad'
+      url: https://mailarchive.ietf.org/arch/msg/i2nsf/NDqm8BDqONKaeafxholz1rZCvYU/
+    - date: '2017-08-08'
+      subject: '[I2nsf] I2NSF Virtual Interim meeting on IPsec and draft-abad [Doodle]'
+      url: https://mailarchive.ietf.org/arch/msg/i2nsf/jKgKcu1i0wfJD7TLo3dcv2XLtRM/
+    - date: '2017-09-15'
+      subject: '[I2nsf] Call for adoption of draft-abad-i2nsf-sdn-ipsec-flow-protection'
+      url: https://mailarchive.ietf.org/arch/msg/i2nsf/NZNMU_4hViafegbE-GyKdywju4k/
   - kind: shepherded
     documents:
     - draft-ietf-i2nsf-framework
@@ -88,6 +125,27 @@ chairs:
     date: '2015-09-18'
     subject: 'WG Action: Formed Interface to Network Security Functions (i2nsf)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/yMjxyQT_dEWLHkjAWOmv4dXJudY/
+  - kind: chair activity
+    first: '2015-05-13'
+    last: '2023-03-27'
+    messages: 63
+    examples:
+    - date: '2015-05-13'
+      subject: '[I2nsf] Interim meeting to reach consensus on I2NSF charter'
+      url: https://mailarchive.ietf.org/arch/msg/i2nsf/TlHpvXqR5j1RwuOwuqWKJOEFkfY/
+    - date: '2015-05-19'
+      subject: '[I2nsf] Interim Meeting to reach consensus on I2NSF charter, and discuss if the problem
+        & framework drafts reflect the updated I2NSF charter'
+      url: https://mailarchive.ietf.org/arch/msg/i2nsf/6pFHgOTdQEF3N6iinhGUOv4xAdk/
+    - date: '2016-09-21'
+      subject: '[I2nsf] Call for WG adoption of draft-kumar-i2nsf-client-facing-interface-req'
+      url: https://mailarchive.ietf.org/arch/msg/i2nsf/RRiNGmkZquxZQEiRaGoxLxD6Img/
+    - date: '2016-11-02'
+      subject: '[I2nsf] Call for WG adoption of draft-xibassnez-i2nsf-capability'
+      url: https://mailarchive.ietf.org/arch/msg/i2nsf/WM_ikm9E0S0wsZc1e_CYKwIJnX4/
+    - date: '2016-12-08'
+      subject: '[I2nsf] WGLC for draft-ietf-i2nsf-problem-and-use-cases-06'
+      url: https://mailarchive.ietf.org/arch/msg/i2nsf/ZfADc1qFmoVm1gL65eOq6qJAUbE/
   - kind: shepherded
     documents:
     - draft-ietf-i2nsf-applicability

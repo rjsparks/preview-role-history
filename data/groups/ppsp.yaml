@@ -18,6 +18,7 @@ chairs:
       certainty: exact
       date: '2013-09-06'
     notes:
+    - widened to cover last calls and adoption calls on the group list
     - start dated by list message of 2012-03-27
   evidence:
   - kind: list message
@@ -38,13 +39,21 @@ chairs:
     subject: '[ppsp] New PPSP co-chair: Ning Zong'
     url: https://mailarchive.ietf.org/arch/msg/ppsp/maYA2WIrQInFg67AQkmCSsHhKIE/
     excerpt: Stefano Previdi is stepping down as PPSP co-chair, as announced on 7/30 to the PPSP list.
+  - kind: chair activity
+    first: '2012-07-12'
+    last: '2012-07-12'
+    messages: 1
+    examples:
+    - date: '2012-07-12'
+      subject: '[ppsp] WG Last Call for draft-ietf-ppsp-problem-statement'
+      url: https://mailarchive.ietf.org/arch/msg/ppsp/w_EL1TcKBkl9XfrCbjmTam6N71M/
 - person: 105519
   name: Martin Stiemerling
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-11-13'
+      date: '2011-08-01'
       not_before: '2010-01-22'
     end:
       certainty: between
@@ -52,7 +61,28 @@ chairs:
       not_after: '2013-09-06'
     notes:
     - start moved earlier by session request for IETF 82
+    - widened to cover last calls and adoption calls on the group list
   evidence:
+  - kind: chair activity
+    first: '2011-04-15'
+    last: '2011-11-24'
+    messages: 14
+    examples:
+    - date: '2011-04-15'
+      subject: '[ppsp] Draft meeting minutes IETF#80'
+      url: https://mailarchive.ietf.org/arch/msg/ppsp/gQ1f2I0aEnwck8Hpc8-iWB0-Fy8/
+    - date: '2011-08-01'
+      subject: '[ppsp] WGLC for draft-ietf-ppsp-problem-statement-02.txt starting today until August 15th'
+      url: https://mailarchive.ietf.org/arch/msg/ppsp/PxLzqu2Jc3Y0x61pgfNvb90FNsg/
+    - date: '2011-08-04'
+      subject: '[ppsp] Draft meeting minutes IETF#81 PPSP session'
+      url: https://mailarchive.ietf.org/arch/msg/ppsp/haD6fNbKDPje5phbkymsZkYUxKQ/
+    - date: '2011-08-22'
+      subject: '[ppsp] WGLC for draft-ietf-ppsp-reqs-03 starting today until September 5th'
+      url: https://mailarchive.ietf.org/arch/msg/ppsp/MhtLSh5AaqaHv9VCkwcDU38kUgA/
+    - date: '2011-11-21'
+      subject: '[ppsp] WGLC for draft-ietf-ppsp-survey-02 until Dec 5th'
+      url: https://mailarchive.ietf.org/arch/msg/ppsp/yFppoIqa1fug44t4ctoIstuZCjw/
   - kind: session requests
     meetings:
     - '82'
@@ -94,6 +124,20 @@ chairs:
     date: '2010-03-23'
     subject: 'WG Action: Peer-to-Peer Streaming Protocol (PPSP)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ex7DSi7W8scWmIADTP_LjR5bGIg/
+  - kind: chair activity
+    first: '2009-08-05'
+    last: '2014-12-02'
+    messages: 18
+    examples:
+    - date: '2009-08-05'
+      subject: '[ppsp] minutes of PPSP final Bar BOF'
+      url: https://mailarchive.ietf.org/arch/msg/ppsp/jYXtTgOR0y9ScPAOaR_aYB5RpNM/
+    - date: '2010-04-08'
+      subject: '[ppsp] IETF 77 minutes'
+      url: https://mailarchive.ietf.org/arch/msg/ppsp/3hwZZenukPKkavvBr8qGI4azc54/
+    - date: '2013-11-26'
+      subject: '[ppsp] WGLC for the survey draft'
+      url: https://mailarchive.ietf.org/arch/msg/ppsp/MUlKJAmAb9fNk_OHLtCGuLV_4Kc/
   - kind: session requests
     meetings:
     - '79'
@@ -123,6 +167,20 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/ppsp/maYA2WIrQInFg67AQkmCSsHhKIE/
     excerpt: 'Let me thank Stefano for his service as PPSP co-chair and welcome Ning Zong (email: as the
       new co-chair!'
+  - kind: chair activity
+    first: '2013-11-25'
+    last: '2015-03-09'
+    messages: 6
+    examples:
+    - date: '2013-11-25'
+      subject: '[ppsp] Meeting minutes'
+      url: https://mailarchive.ietf.org/arch/msg/ppsp/OY9Fd5iis8AMwyITsLnkf1hsKNg/
+    - date: '2014-06-30'
+      subject: '[ppsp] Call for agenda items'
+      url: https://mailarchive.ietf.org/arch/msg/ppsp/JMCaNUwAZU5GRfwlfOYQ0p_V6H8/
+    - date: '2015-01-13'
+      subject: '[ppsp] WGLC for base tracker protocol'
+      url: https://mailarchive.ietf.org/arch/msg/ppsp/SOvK3HTEP9-zOiBue3fVlroKrwE/
   - kind: shepherded
     documents:
     - draft-ietf-ppsp-base-tracker-protocol

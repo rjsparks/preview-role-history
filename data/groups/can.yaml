@@ -42,6 +42,15 @@ chairs:
     end:
       certainty: exact
       date: '2023-02-09'
+  evidence:
+  - kind: chair activity
+    first: '2022-10-28'
+    last: '2022-10-28'
+    messages: 1
+    examples:
+    - date: '2022-10-28'
+      subject: '[Can] Preliminary Agenda for Computing Aware Networking BoF'
+      url: https://mailarchive.ietf.org/arch/msg/can/CiNXxLqgVwAPLOtl9r-Mnn4unQs/
 - person: 125565
   name: Peng Liu
   status: confirmed

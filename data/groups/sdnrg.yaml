@@ -19,6 +19,12 @@ chairs:
       certainty: exact
       date: '2015-09-16'
   evidence:
+  - kind: list message
+    date: '2015-09-16'
+    says: end
+    subject: '[Sdn] Looking for a new co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/sdn/4cdRpgGeOmypPqqWYx6dVxSzHfs/
+    excerpt: David Meyer has decided to step down as a co-chair of this group.
   - kind: shepherded
     documents:
     - draft-irtf-sdnrg-layer-terminology
@@ -42,6 +48,13 @@ chairs:
     end:
       certainty: group-closed
       date: '2017-01-09'
+  evidence:
+  - kind: list message
+    date: '2014-11-11'
+    says: start
+    subject: '[Sdn] Please welcome Daniel King as new co-chair of the SDNRG'
+    url: https://mailarchive.ietf.org/arch/msg/sdn/UUYKXFN3ZG0HeG2GVdSmKEIAPWY/
+    excerpt: I'm pleased to announce that Daniel King will be joining me as co-chair of the SDNRG.
 - person: 114812
   name: Nick Feamster
   status: confirmed

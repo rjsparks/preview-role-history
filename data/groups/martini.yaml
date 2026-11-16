@@ -13,11 +13,28 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-03-08'
+      date: '2010-03-04'
       not_before: '2009-11-30'
     end:
       certainty: group-closed
       date: '2011-03-08'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
+  evidence:
+  - kind: chair activity
+    first: '2009-12-09'
+    last: '2010-11-30'
+    messages: 71
+    examples:
+    - date: '2009-12-09'
+      subject: '[martini] Virtual Interim meeting Doodle Poll'
+      url: https://mailarchive.ietf.org/arch/msg/martini/Gjg1OoTWgpVOcYnwkAQI2zCSxMM/
+    - date: '2009-12-17'
+      subject: '[martini] Virtual Interim for JUST-approved MARTINI WG'
+      url: https://mailarchive.ietf.org/arch/msg/martini/R2vfezTE5cYYfTgVl9GBcFG0U0o/
+    - date: '2010-03-04'
+      subject: '[martini] Call for Adoption of "Registration for Multiple Phone Numbers in the SIP"'
+      url: https://mailarchive.ietf.org/arch/msg/martini/SSckmpw3qG8QbORuwcUmttUJCr8/
 - person: 107190
   name: Spencer Dawkins
   status: confirmed
@@ -32,6 +49,14 @@ chairs:
     notes:
     - start moved earlier by session request for IETF 77
   evidence:
+  - kind: chair activity
+    first: '2010-12-04'
+    last: '2010-12-04'
+    messages: 1
+    examples:
+    - date: '2010-12-04'
+      subject: '[martini] MARTINI IETF 79 Meeting Minutes posted'
+      url: https://mailarchive.ietf.org/arch/msg/martini/7DOKDUg1XYUfnSgCRUB2NL2Pymo/
   - kind: session requests
     meetings:
     - '77'

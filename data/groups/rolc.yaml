@@ -18,3 +18,15 @@ chairs:
     end:
       certainty: group-closed
       date: '1996-05-21'
+  evidence:
+  - kind: chair activity
+    first: '1994-07-14'
+    last: '1995-04-14'
+    messages: 7
+    examples:
+    - date: '1994-07-14'
+      subject: Minutes from Seattle
+      url: https://mailarchive.ietf.org/arch/msg/rolc/rdbWW-fL-YIpJJenxAKHeIjqwz4/
+    - date: '1994-08-09'
+      subject: Draft Toronto minutes
+      url: https://mailarchive.ietf.org/arch/msg/rolc/_Zv0NrPNFN6YuMmHhEeFji5weWQ/

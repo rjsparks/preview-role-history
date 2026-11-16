@@ -18,6 +18,15 @@ chairs:
     end:
       certainty: exact
       date: '2021-05-06'
+  evidence:
+  - kind: chair activity
+    first: '2018-06-13'
+    last: '2018-06-13'
+    messages: 1
+    examples:
+    - date: '2018-06-13'
+      subject: '[hrpc] Draft Agenda'
+      url: https://mailarchive.ietf.org/arch/msg/hrpc/9qIuvBusLLNBLItN8DkvEQNu2Wo/
 - person: 116736
   name: Niels ten Oever
   status: confirmed
@@ -37,6 +46,17 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/hrpc/N7ki35zu7AT1dihcisC1U2z1iC8/
     excerpt: After serving as a founding co-chair of HRPC, Niels ten Oever let us know his interest in
       stepping down as co-chair, and this has just happened.
+  - kind: chair activity
+    first: '2015-05-13'
+    last: '2018-05-28'
+    messages: 4
+    examples:
+    - date: '2015-05-13'
+      subject: '[Hrpc] announcement hrpc proposed research group interim meeting'
+      url: https://mailarchive.ietf.org/arch/msg/hrpc/HYTzV44stSdsVBiXQyg4z6xnaLg/
+    - date: '2015-06-20'
+      subject: '[hrpc] minutes of interim meeting June 8 2015'
+      url: https://mailarchive.ietf.org/arch/msg/hrpc/SjG_4GnlbnHTKcgXmevg8g_Jl0o/
 - person: 124328
   name: Mallory Knodel
   status: confirmed
@@ -47,6 +67,20 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: chair activity
+    first: '2018-08-21'
+    last: '2026-03-11'
+    messages: 11
+    examples:
+    - date: '2018-08-21'
+      subject: '[hrpc] Meeting agenda for IETF 103'
+      url: https://mailarchive.ietf.org/arch/msg/hrpc/2O2AVrHjAAjD6bB-2HYfjPeHOCs/
+    - date: '2018-10-29'
+      subject: '[hrpc] draft agenda 103'
+      url: https://mailarchive.ietf.org/arch/msg/hrpc/UU9S6RD5PISjzG6-tenh3WwCpBU/
+    - date: '2021-05-19'
+      subject: '[hrpc] Working group last call for draft-irtf-hrpc-guidelines'
+      url: https://mailarchive.ietf.org/arch/msg/hrpc/dewMUgr0qzakzsqwBc24m-rHglE/
   - kind: shepherded
     documents:
     - draft-irtf-hrpc-guidelines

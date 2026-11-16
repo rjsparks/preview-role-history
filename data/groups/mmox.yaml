@@ -27,3 +27,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2011-12-09'
+  evidence:
+  - kind: chair activity
+    first: '2009-02-05'
+    last: '2009-03-06'
+    messages: 2
+    examples:
+    - date: '2009-02-05'
+      subject: '[mmox] Work Items and Planning Documents for the MMOX BoF session (Draft Agenda)'
+      url: https://mailarchive.ietf.org/arch/msg/mmox/NyH3TdL1g0GD21ns6-ZpEORa6_g/
+    - date: '2009-03-06'
+      subject: '[mmox] Agenda for 3/24 MMOX BoF'
+      url: https://mailarchive.ietf.org/arch/msg/mmox/TxhEmjlScx-cMk5qlB44he0Io9A/

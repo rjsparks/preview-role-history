@@ -27,3 +27,12 @@ chairs:
     end:
       certainty: group-closed
       date: '2008-04-23'
+  evidence:
+  - kind: chair activity
+    first: '2008-03-26'
+    last: '2008-03-26'
+    messages: 1
+    examples:
+    - date: '2008-03-26'
+      subject: '[Rucus] Meeting Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/rucus/1Mqw1bSno6oe2JHrBIL37NHWXjQ/

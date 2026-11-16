@@ -17,6 +17,15 @@ chairs:
     end:
       certainty: group-closed
       date: '2020-06-15'
+  evidence:
+  - kind: chair activity
+    first: '2020-03-27'
+    last: '2020-03-27'
+    messages: 1
+    examples:
+    - date: '2020-03-27'
+      subject: '[V3] Minutes from BoF session'
+      url: https://mailarchive.ietf.org/arch/msg/v3/RdNcB_RcvJiSXiUq047rbX0-r-U/
 - person: 116331
   name: Mo Zanaty
   status: confirmed

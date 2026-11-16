@@ -13,19 +13,101 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-04-29'
+      date: '2003-02-03'
       not_before: '1992-11-25'
     end:
       certainty: group-closed
       date: '2005-04-29'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
+  evidence:
+  - kind: chair activity
+    first: '2002-07-12'
+    last: '2003-06-03'
+    messages: 8
+    examples:
+    - date: '2002-07-12'
+      subject: Agenda Items Solicitation
+      url: https://mailarchive.ietf.org/arch/msg/ipsec/U8F65hzwCpSA570lSMe5Z5GpKsc/
+    - date: '2002-07-16'
+      subject: Draft Agenda for 7/17/02
+      url: https://mailarchive.ietf.org/arch/msg/ipsec/eL1kQrHmzK1B67SZJRnFkYIniAg/
+    - date: '2003-02-03'
+      subject: WG Last Call draft-ietf-ipsec-dpd-01.txt
+      url: https://mailarchive.ietf.org/arch/msg/ipsec/4p7Mp_yYDrs-JRy3bYq-4BhCSbI/
+    - date: '2003-06-03'
+      subject: Working Group Last Call IKEv2
+      url: https://mailarchive.ietf.org/arch/msg/ipsec/tUipNWI3tkDcp_GROzfYSucn5bA/
 - person: 4837
   name: Theodore Ts'o
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-04-29'
+      date: '2000-03-02'
       not_before: '1992-11-25'
     end:
       certainty: group-closed
       date: '2005-04-29'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
+  evidence:
+  - kind: chair activity
+    first: '1997-08-06'
+    last: '2004-09-29'
+    messages: 31
+    examples:
+    - date: '1997-08-06'
+      subject: DRAFT agenda
+      url: https://mailarchive.ietf.org/arch/msg/ipsec/BmQypH2QYpeOvOPmC_7BDPBWrEM/
+    - date: '1997-08-23'
+      subject: Draft IPSec working group minutes
+      url: https://mailarchive.ietf.org/arch/msg/ipsec/KlIIGphBUFSAf9_qYHfWEXT3zFo/
+    - date: '2000-03-02'
+      subject: 'WG Last call: draft-ietf-ipsec-isakmp-gss-auth-05.txt'
+      url: https://mailarchive.ietf.org/arch/msg/ipsec/4B11HnJT0f18le75VbmRyGhGDiI/
+    - date: '2000-03-02'
+      subject: 'WG Last call: draft-ietf-ipsec-ecn-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/ipsec/TFKwcm3uTXcBAMUHTJzMefuRZHY/
+    - date: '2000-07-08'
+      subject: 'WG Last call: draft-jenkins-ipsec-rekeying-06.txt'
+      url: https://mailarchive.ietf.org/arch/msg/ipsec/58LZA-tFRP6x67Wk8EhDGTCUqWw/
+- person: 111048
+  name: Ran Atkinson
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: approximate
+      date: '1995-03-30'
+    end:
+      certainty: evidence-only
+      not_before: '1996-12-03'
+    notes:
+    - start dated by list message of 1995-03-30
+  evidence:
+  - kind: list message
+    date: '1995-03-30'
+    says: start
+    subject: IPSEC Working Group Co-Chair
+    url: https://mailarchive.ietf.org/arch/msg/ipsec/DTG5woQKgEMLOLBRMDqXnX2N6Ik/
+    excerpt: Ran Atkinson has been appointed as a new co-chair (with Paul Lambert) of this working group.
+  - kind: chair activity
+    first: '1995-12-14'
+    last: '1996-12-03'
+    messages: 5
+    examples:
+    - date: '1995-12-14'
+      subject: WG Last Call on SKIP
+      url: https://mailarchive.ietf.org/arch/msg/ipsec/fLJKRydeI2ncN2DxCZVRALTJpnI/
+    - date: '1995-12-20'
+      subject: 'ADMIN: Dallas IETF Minutes for IP Security WG'
+      url: https://mailarchive.ietf.org/arch/msg/ipsec/23XOIpNniRQaJewAyuAjudADVKA/
+    - date: '1996-05-21'
+      subject: 'WG Last Call: AH Transforms to Proposed Standard'
+      url: https://mailarchive.ietf.org/arch/msg/ipsec/J3_H6235q_wraUluIrDiQ4aUsY4/
+    - date: '1996-12-03'
+      subject: 'WG Last Call: ISAKMP draft set to Proposed Standard'
+      url: https://mailarchive.ietf.org/arch/msg/ipsec/i3LLCCjI9QAEaErS7CScLInxODo/
+    - date: '1996-12-03'
+      subject: San Jose Agenda for IPsec
+      url: https://mailarchive.ietf.org/arch/msg/ipsec/axsIdAIbei72Y0FiF5afETqiO0I/

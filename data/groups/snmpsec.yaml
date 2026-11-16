@@ -29,3 +29,15 @@ chairs:
     end:
       certainty: group-closed
       date: '1993-05-03'
+  evidence:
+  - kind: chair activity
+    first: '1992-11-12'
+    last: '1992-12-02'
+    messages: 2
+    examples:
+    - date: '1992-11-12'
+      subject: Draft Agenda for Washington IETF Meeting
+      url: https://mailarchive.ietf.org/arch/msg/snmpsec/0dzTuHqFG-FIkWTCxaLUG-SfUBc/
+    - date: '1992-12-02'
+      subject: Minutes of SNMP Security WG Meeting
+      url: https://mailarchive.ietf.org/arch/msg/snmpsec/_bNo7ttE1Lb3opHqAyuAeuYItcg/

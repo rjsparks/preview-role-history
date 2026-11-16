@@ -18,3 +18,12 @@ chairs:
     end:
       certainty: group-closed
       date: '1996-01-17'
+  evidence:
+  - kind: chair activity
+    first: '1992-08-05'
+    last: '1992-08-05'
+    messages: 1
+    examples:
+    - date: '1992-08-05'
+      subject: 'fyi: July minutes for TNFS WG'
+      url: https://mailarchive.ietf.org/arch/msg/tnfs/Qq4HJbfUf4uJfX22nbFamLsoWH4/

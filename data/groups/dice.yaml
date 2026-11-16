@@ -18,6 +18,18 @@ chairs:
     end:
       certainty: approximate
       date: '2013-09-05'
+  evidence:
+  - kind: chair activity
+    first: '2016-03-05'
+    last: '2016-10-15'
+    messages: 3
+    examples:
+    - date: '2016-03-05'
+      subject: '[Dtls-iot] Constrained Node/Network Cluster @ IETF95: DRAFT AGENDA'
+      url: https://mailarchive.ietf.org/arch/msg/dtls-iot/9XP3Gab8UK6HpKyIb38mH_26Eak/
+    - date: '2016-06-17'
+      subject: '[Dtls-iot] Constrained Node/Network Cluster @ IETF96: DRAFT AGENDA'
+      url: https://mailarchive.ietf.org/arch/msg/dtls-iot/RXWwukR6z12VxHv5-vKEMvCrxu8/
 - person: 106530
   name: Dorothy Gellert
   status: confirmed
@@ -39,6 +51,14 @@ chairs:
     date: '2013-09-27'
     subject: 'WG Action: Formed DTLS In Constrained Environments (dice)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/5SJxZXLRwtDb_HyX6k9ZtnWUR7M/
+  - kind: chair activity
+    first: '2014-11-11'
+    last: '2014-11-11'
+    messages: 1
+    examples:
+    - date: '2014-11-11'
+      subject: '[Dtls-iot] WGLC for DTLS Profile draft: 11/11/2014 - 11/25/2014'
+      url: https://mailarchive.ietf.org/arch/msg/dtls-iot/0MGN7cj2NwnubipAZvpiiCuRhlM/
 - person: 109625
   name: Zach Shelby
   status: confirmed
@@ -61,6 +81,17 @@ chairs:
     date: '2013-09-27'
     subject: 'WG Action: Formed DTLS In Constrained Environments (dice)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/5SJxZXLRwtDb_HyX6k9ZtnWUR7M/
+  - kind: chair activity
+    first: '2013-07-30'
+    last: '2014-03-10'
+    messages: 2
+    examples:
+    - date: '2013-07-30'
+      subject: '[Dtls-iot] Work Items and Milestones'
+      url: https://mailarchive.ietf.org/arch/msg/dtls-iot/_BxMtNlyzAOhv_pFlbkMApYaNk0/
+    - date: '2014-03-10'
+      subject: '[Dtls-iot] Call for WG adoption of draft-hartke-dice-profile-03'
+      url: https://mailarchive.ietf.org/arch/msg/dtls-iot/R_tVA5kLno7biQgbA8Sd_iVcoF0/
   - kind: shepherded
     documents:
     - draft-ietf-dice-profile

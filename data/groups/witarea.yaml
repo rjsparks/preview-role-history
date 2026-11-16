@@ -45,3 +45,24 @@ chairs:
     end:
       certainty: exact
       date: '2025-03-19'
+- person: 133599
+  name: Nidhi Jaju
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: approximate
+      date: '2025-03-13'
+    end:
+      certainty: evidence-only
+      not_before: '2025-03-13'
+    notes:
+    - start dated by list message of 2025-03-13
+  evidence:
+  - kind: list message
+    date: '2025-03-13'
+    says: start
+    subject: '[Witarea] WEBTRANS report for IETF 122'
+    url: https://mailarchive.ietf.org/arch/msg/witarea/pe5ppK_q2lbhG0GD-Z8FJ_kt1gI/
+    excerpt: 'Chairs: With the sad news of our co-chair and good friend Bernard Aboba''s passing, and
+      David Schinazi stepping down as chair, we will have two new chairs incoming at IETF 122: Nidhi Jaju
+      and Lucas Pardue.'

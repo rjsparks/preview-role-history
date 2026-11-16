@@ -25,6 +25,17 @@ chairs:
     date: '2010-03-23'
     subject: 'WG Action: Internet Area Working Group (intarea)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/2xjvfZB_UJkaxmenbeEma_ZM8tw/
+  - kind: chair activity
+    first: '2011-04-04'
+    last: '2011-06-23'
+    messages: 2
+    examples:
+    - date: '2011-04-04'
+      subject: '[Int-area] intarea WG DRAFT meeting minutes'
+      url: https://mailarchive.ietf.org/arch/msg/int-area/KhX9imGEoWbxBtx7b-sO1l_GPWo/
+    - date: '2011-06-23'
+      subject: '[Int-area] WGLC for http://tools.ietf.org/html/draft-ietf-intarea-ipv6-required-00'
+      url: https://mailarchive.ietf.org/arch/msg/int-area/RbhRuWprkWDPHp0LPJ4TJXwD61w/
   - kind: session requests
     meetings:
     - '79'
@@ -46,6 +57,26 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: chair activity
+    first: '2016-05-19'
+    last: '2026-10-16'
+    messages: 46
+    examples:
+    - date: '2016-05-19'
+      subject: '[Int-area] Call for adoption of draft-xu-intarea-ip-in-udp-03'
+      url: https://mailarchive.ietf.org/arch/msg/int-area/VgmslAL_aIKUZXQTZ9jnCsmyD2o/
+    - date: '2016-10-18'
+      subject: '[Int-area] Call for Agenda Items @ IETF 96'
+      url: https://mailarchive.ietf.org/arch/msg/int-area/rfeKugFW2402iT9M-blJa_R3Ypg/
+    - date: '2017-01-19'
+      subject: '[Int-area] WG Adoption Call: IP over Intentionally Partitioned Links'
+      url: https://mailarchive.ietf.org/arch/msg/int-area/EQocdpPrxUdbrS-R4OqUy7lSfLo/
+    - date: '2017-02-24'
+      subject: '[Int-area] Call for Agenda Items @ IETF 98'
+      url: https://mailarchive.ietf.org/arch/msg/int-area/1S5xqyF_UsWUm9nEhRHg5n2c448/
+    - date: '2017-08-04'
+      subject: '[Int-area] WG Last Call on draft-ietf-intarea-probe-04'
+      url: https://mailarchive.ietf.org/arch/msg/int-area/-iRSl5YwBpAUr_qBwzNtz3Nd_dg/
   - kind: shepherded
     documents:
     - draft-ietf-intarea-hostname-practice
@@ -61,6 +92,26 @@ chairs:
       certainty: exact
       date: '2016-04-05'
   evidence:
+  - kind: chair activity
+    first: '2011-10-28'
+    last: '2015-10-14'
+    messages: 25
+    examples:
+    - date: '2011-10-28'
+      subject: '[Int-area] Call for agenda items'
+      url: https://mailarchive.ietf.org/arch/msg/int-area/R2cjVAXpQKZGhcBDnKH3y3sGpls/
+    - date: '2011-11-29'
+      subject: '[Int-area] Minutes from the intarea wg meeting at IETF82'
+      url: https://mailarchive.ietf.org/arch/msg/int-area/dBoml0I_TNDkH2_VjKvBeLceQlc/
+    - date: '2012-06-08'
+      subject: '[Int-area] Working group last call for draft-ietf-intarea-nat-reveal-analysis-02'
+      url: https://mailarchive.ietf.org/arch/msg/int-area/XA8iYUZvTMW0myQJBz2mpqdKbHg/
+    - date: '2012-12-18'
+      subject: '[Int-area] Call for adoption of draft-carpenter-flow-label-balancing-02'
+      url: https://mailarchive.ietf.org/arch/msg/int-area/KY4hdaNzJwsXPfNsBD8v68yj3Pk/
+    - date: '2013-07-10'
+      subject: '[Int-area] Working group last call for draft-ietf-intarea-flow-label-balancing-01'
+      url: https://mailarchive.ietf.org/arch/msg/int-area/HWQSlb-nh3g7ZF-Uc0QH4hsGw9g/
   - kind: shepherded
     documents:
     - draft-ietf-intarea-flow-label-balancing
@@ -76,6 +127,17 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: chair activity
+    first: '2026-06-29'
+    last: '2026-07-31'
+    messages: 2
+    examples:
+    - date: '2026-06-29'
+      subject: '[Int-area] Draft agenda for IETF 126 posted'
+      url: https://mailarchive.ietf.org/arch/msg/int-area/xnpay0YcfjRVUl4RTL1u3mNbr_4/
+    - date: '2026-07-31'
+      subject: '[Int-area] INTAREA WG minutes from IETF 126 published'
+      url: https://mailarchive.ietf.org/arch/msg/int-area/KsKRz0-sEOX-Zw8-UiaFW5EQZGw/
   - kind: shepherded
     documents:
     - draft-ietf-intarea-gre-ipv6
@@ -89,12 +151,29 @@ chairs:
       not_after: '2010-03-23'
     end:
       certainty: evidence-only
-      not_before: '2010-07-25'
+      not_before: '2010-11-11'
   evidence:
   - kind: WG Action
     date: '2010-03-23'
     subject: 'WG Action: Internet Area Working Group (intarea)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/2xjvfZB_UJkaxmenbeEma_ZM8tw/
+  - kind: chair activity
+    first: '2010-07-13'
+    last: '2010-11-11'
+    messages: 5
+    examples:
+    - date: '2010-07-13'
+      subject: '[Int-area] Intarea WG Meeting Agenda for IETF 78'
+      url: https://mailarchive.ietf.org/arch/msg/int-area/8Y333mzJxFa4umo57uShUy8rCl4/
+    - date: '2010-11-08'
+      subject: '[Int-area] Intarea meeting agenda for Thursday'
+      url: https://mailarchive.ietf.org/arch/msg/int-area/SnuKnIavY8Wa12bVWVzlb4WTZks/
+    - date: '2010-11-11'
+      subject: '[Int-area] Working group last call on draft-ietf-intarea-router-alert-considerations'
+      url: https://mailarchive.ietf.org/arch/msg/int-area/QmY0yV-1dSw-dpO1_ECakOF97f0/
+    - date: '2010-11-11'
+      subject: '[Int-area] Working group last call on draft-ietf-intarea-ipv4-id-update'
+      url: https://mailarchive.ietf.org/arch/msg/int-area/-HE04GJaBoKqZ5pIht2MuKkhySc/
   - kind: session requests
     meetings:
     - '78'
@@ -110,6 +189,26 @@ chairs:
       certainty: exact
       date: '2026-04-09'
   evidence:
+  - kind: chair activity
+    first: '2016-03-03'
+    last: '2025-11-05'
+    messages: 29
+    examples:
+    - date: '2016-03-03'
+      subject: '[Int-area] Call for agenda items @ IETF 95'
+      url: https://mailarchive.ietf.org/arch/msg/int-area/LyIUhbVp0fCw5Vi9zr6NGGclkGI/
+    - date: '2016-04-07'
+      subject: '[Int-area] IETF95 minutes'
+      url: https://mailarchive.ietf.org/arch/msg/int-area/LTbFUxlt-54WFYrV5BsX6R9sGY8/
+    - date: '2016-05-16'
+      subject: '[Int-area] WGLC for draft-ietf-intarea-adhoc-wireless-com-01'
+      url: https://mailarchive.ietf.org/arch/msg/int-area/IhRsauJKGhYssNo-X4uyR6PVTYM/
+    - date: '2016-05-16'
+      subject: '[Int-area] WGLC for draft-ietf-intarea-hostname-practice-02'
+      url: https://mailarchive.ietf.org/arch/msg/int-area/gDU4Jc7ee1Tei-mJ2cxpz2Fzuu0/
+    - date: '2016-08-25'
+      subject: '[Int-area] Call for adoption of draft-winfaa-intarea-broadcast-consider-02'
+      url: https://mailarchive.ietf.org/arch/msg/int-area/kt_v7rO1eHyGIftjoXqIxkN4voA/
   - kind: shepherded
     documents:
     - draft-ietf-intarea-broadcast-consider

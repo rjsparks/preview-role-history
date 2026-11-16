@@ -42,6 +42,21 @@ chairs:
       date: '2023-07-07'
     end:
       certainty: ongoing
+  evidence:
+  - kind: chair activity
+    first: '2023-08-23'
+    last: '2026-04-24'
+    messages: 5
+    examples:
+    - date: '2023-08-23'
+      subject: '[Snac] IETF 117 SNAC Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/snac/KRUpnN0Fo-ADlxFfCaJCngOPb-Q/
+    - date: '2024-01-30'
+      subject: '[Snac] SNAC Interim meeting February'
+      url: https://mailarchive.ietf.org/arch/msg/snac/rcNFNVio7Sj1rMRnlz-Bopycte8/
+    - date: '2026-04-24'
+      subject: '[Snac] WGLC: draft-ietf-snac-simple (ends 2026-05-15)'
+      url: https://mailarchive.ietf.org/arch/msg/snac/6zFfu2OUbTPA6PN3QfdDGWrryhg/
 - person: 106412
   name: Suresh Krishnan
   status: confirmed
@@ -71,6 +86,20 @@ chairs:
     date: '2022-09-23'
     subject: 'WG Action: Formed Stub Network Auto Configuration for IPv6 (snac)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/X1_hR_gPffWqEC1vfmCN4dDbVxI/
+  - kind: chair activity
+    first: '2022-10-27'
+    last: '2024-08-02'
+    messages: 12
+    examples:
+    - date: '2022-10-27'
+      subject: '[Snac] IETF 115 draft agenda posted'
+      url: https://mailarchive.ietf.org/arch/msg/snac/UCXo9RKtn5akqLF0p2yLhWBgxhc/
+    - date: '2022-11-14'
+      subject: '[Snac] WG adoption call for draft-lemon-stub-networks-07'
+      url: https://mailarchive.ietf.org/arch/msg/snac/uIoXLYUtg-M2mmteN2jLNlEfAwA/
+    - date: '2023-04-03'
+      subject: '[Snac] preliminary minutes'
+      url: https://mailarchive.ietf.org/arch/msg/snac/DPKTn9ptY7htx-NBCVRYBEZfWW8/
 - person: 125765
   name: David Lou
   status: confirmed
@@ -80,3 +109,12 @@ chairs:
       date: '2024-11-02'
     end:
       certainty: ongoing
+  evidence:
+  - kind: chair activity
+    first: '2024-11-27'
+    last: '2024-11-27'
+    messages: 1
+    examples:
+    - date: '2024-11-27'
+      subject: '[Snac] IETF 121 SNAC meeting minutes'
+      url: https://mailarchive.ietf.org/arch/msg/snac/tQq2tA-lpeiXaYZtfqERiC6V2JY/

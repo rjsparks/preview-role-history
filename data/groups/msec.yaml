@@ -28,14 +28,32 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2008-11-16'
+      date: '2008-09-19'
       not_before: '2001-01-17'
     end:
       certainty: group-closed
       date: '2011-10-17'
     notes:
     - start moved earlier by session request for IETF 73
+    - widened to cover last calls and adoption calls on the group list
   evidence:
+  - kind: chair activity
+    first: '2008-09-19'
+    last: '2010-11-17'
+    messages: 9
+    examples:
+    - date: '2008-09-19'
+      subject: '[MSEC] WGLC on draft-ietf-msec-tesla-for-alc-norm-05.txt'
+      url: https://mailarchive.ietf.org/arch/msg/msec/Ud-se1jXG-u7OnmOnRXJ2ze6SWQ/
+    - date: '2009-02-13'
+      subject: '[MSEC] WGLC on draft-ietf-msec-tesla-for-alc-norm-07.txt'
+      url: https://mailarchive.ietf.org/arch/msg/msec/mTNwMJ2Au5jVncnmwn7h12MtSR8/
+    - date: '2009-05-08'
+      subject: '[MSEC] MSEC meeting minutes posted'
+      url: https://mailarchive.ietf.org/arch/msg/msec/dmTFoorIiGBfKovYkggNqzfvKDs/
+    - date: '2009-11-25'
+      subject: '[MSEC] Draft minutes available for IETF76'
+      url: https://mailarchive.ietf.org/arch/msg/msec/eh9e1BjsGyI1i_oWfkZuTyIfwFg/
   - kind: session requests
     meetings:
     - '73'
@@ -57,6 +75,26 @@ chairs:
       certainty: evidence-only
       not_before: '2008-03-09'
   evidence:
+  - kind: chair activity
+    first: '2006-07-13'
+    last: '2007-11-12'
+    messages: 8
+    examples:
+    - date: '2006-07-13'
+      subject: '[MSEC] Draft minutes, thanks to Brian Weis'
+      url: https://mailarchive.ietf.org/arch/msg/msec/K_q11CMOhjlBBBGRUeOZr8woCuA/
+    - date: '2006-09-21'
+      subject: '[MSEC] WGLC on draft-ietf-msec-mikey-applicability-02, ending Oct 6, 2006 AOE'
+      url: https://mailarchive.ietf.org/arch/msg/msec/02I7B9Ir_kjBlAlRlaZRheBzpT8/
+    - date: '2006-10-16'
+      subject: '[MSEC] Call for agenda items'
+      url: https://mailarchive.ietf.org/arch/msg/msec/zLMRwllQYN90ydc9o3vB6TQbSYc/
+    - date: '2007-02-06'
+      subject: '[MSEC] WGLC on draft-ietf-msec-gdoi-update-01'
+      url: https://mailarchive.ietf.org/arch/msg/msec/iPOfM3XeDojZCl0falpkitAFBdE/
+    - date: '2007-02-06'
+      subject: '[MSEC] WGLC on draft-ietf-msec-ipsec-extensions-04'
+      url: https://mailarchive.ietf.org/arch/msg/msec/sQtZqs2nyt_7_hTfcOAooVN8JDE/
   - kind: session requests
     meetings:
     - '65'
@@ -72,8 +110,19 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-10-17'
+      date: '2011-03-31'
       not_before: '2001-01-17'
     end:
       certainty: group-closed
       date: '2011-10-17'
+    notes:
+    - widened to cover last calls and adoption calls on the group list
+  evidence:
+  - kind: chair activity
+    first: '2011-03-31'
+    last: '2011-03-31'
+    messages: 1
+    examples:
+    - date: '2011-03-31'
+      subject: '[MSEC] WGLC on draft-ietf-msec-gdoi-update-08'
+      url: https://mailarchive.ietf.org/arch/msg/msec/dITQAq-pHNIWcnBSnsCZXUckIWI/
