@@ -15,11 +15,10 @@ chairs:
       certainty: evidence-only
       not_after: '2006-03-09'
     end:
-      certainty: between
-      not_before: '2010-03-29'
-      not_after: '2010-06-08'
+      certainty: approximate
+      date: '2010-03-29'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - end dated by list message of 2010-03-29
   evidence:
   - kind: WG Action
     date: '2006-03-17'
@@ -27,7 +26,7 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/H3yXSctovO6Ypd69m6RLN5LNgUM/
   - kind: list message
     date: '2010-03-29'
-    says: start
+    says: end
     subject: '[EAI] EAI minutes at IETF 77'
     url: https://mailarchive.ietf.org/arch/msg/ima/N-AyOvCg-B6vmBFrjaTtoIsflNY/
     excerpt: 'New Chairs - many thanks to Harald Alvestrand and Xiaodong Lee - new chairs: John Klensin,
@@ -89,12 +88,18 @@ chairs:
       certainty: evidence-only
       not_after: '2006-05-01'
     end:
-      certainty: between
-      not_before: '2010-03-21'
-      not_after: '2010-06-08'
+      certainty: approximate
+      date: '2010-03-29'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - end dated by list message of 2010-03-29
   evidence:
+  - kind: list message
+    date: '2010-03-29'
+    says: end
+    subject: '[EAI] EAI minutes at IETF 77'
+    url: https://mailarchive.ietf.org/arch/msg/ima/N-AyOvCg-B6vmBFrjaTtoIsflNY/
+    excerpt: 'New Chairs - many thanks to Harald Alvestrand and Xiaodong Lee - new chairs: John Klensin,
+      Joseph Yee'
   - kind: chair activity
     first: '2006-05-01'
     last: '2006-06-27'
