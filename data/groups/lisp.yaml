@@ -94,19 +94,26 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '2009-03-22'
+      certainty: approximate
+      date: '2009-03-13'
     end:
       certainty: between
       not_before: '2009-10-14'
       not_after: '2009-12-01'
     notes:
+    - start dated by list message of 2009-03-13
     - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: WG Action
     date: '2009-04-28'
     subject: 'WG Action: Locator/ID Separation Protocol (lisp)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/xSqQfhZHBDXW57yBNlCSx8okc4g/
+  - kind: list message
+    date: '2009-03-13'
+    says: start
+    subject: '[lisp] LISP, San Francisco, and WG'
+    url: https://mailarchive.ietf.org/arch/msg/lisp/8VAvegjDYWSLLGH1vGsxqokJ6MA/
+    excerpt: Sam Hartman and Darrel Lewis have agreed to chair the group -- thank you!
   - kind: chair activity
     first: '2009-10-14'
     last: '2009-10-14'

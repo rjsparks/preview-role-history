@@ -114,6 +114,13 @@ chairs:
     date: '2023-12-15'
     subject: 'WG Action: Rechartered TCP Maintenance and Minor Extensions (tcpm)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/zyg-CssCjgoWECnq7H7OBmoXNbA/
+  - kind: list message
+    date: '2012-01-15'
+    says: start
+    subject: '[tcpm] chair shuffling'
+    url: https://mailarchive.ietf.org/arch/msg/tcpm/6nbzTE22-OM_gSuT6iNtZUCoJmY/
+    excerpt: So, joining Michael, I'd like to welcome Yoshifumi Nishida and Pasi Sarolahti as new co-chairs
+      of TCPM.
   - kind: chair activity
     first: '2012-07-04'
     last: '2026-11-07'
@@ -302,12 +309,17 @@ chairs:
       certainty: evidence-only
       not_after: '2008-08-21'
     end:
-      certainty: between
-      not_before: '2011-07-24'
-      not_after: '2011-11-13'
+      certainty: approximate
+      date: '2012-01-15'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - end dated by list message of 2012-01-15
   evidence:
+  - kind: list message
+    date: '2012-01-15'
+    says: end
+    subject: '[tcpm] chair shuffling'
+    url: https://mailarchive.ietf.org/arch/msg/tcpm/6nbzTE22-OM_gSuT6iNtZUCoJmY/
+    excerpt: After several years of service, David Borman has stepped down as a TCPM co-chair.
   - kind: chair activity
     first: '2008-08-21'
     last: '2010-09-16'
@@ -342,10 +354,6 @@ chairs:
     - date: '2011-07-24'
       subject: IETF 81 proceedings charter
       url: https://www.ietf.org/proceedings/81/tcpm.html
-  - kind: minutes without them
-    date: '2011-11-13'
-    subject: IETF 82 proceedings charter
-    url: https://www.ietf.org/proceedings/82/tcpm.html
 - person: 109321
   name: Pasi Sarolahti
   status: confirmed
@@ -372,6 +380,13 @@ chairs:
     date: '2015-04-10'
     subject: 'WG Action: Rechartered TCP Maintenance and Minor Extensions (tcpm)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/_TRhg8N-UF57A7WI3rMB5fO1nWw/
+  - kind: list message
+    date: '2012-01-15'
+    says: start
+    subject: '[tcpm] chair shuffling'
+    url: https://mailarchive.ietf.org/arch/msg/tcpm/6nbzTE22-OM_gSuT6iNtZUCoJmY/
+    excerpt: So, joining Michael, I'd like to welcome Yoshifumi Nishida and Pasi Sarolahti as new co-chairs
+      of TCPM.
   - kind: chair activity
     first: '2012-02-08'
     last: '2016-07-23'

@@ -472,3 +472,38 @@ chairs:
     - draft-ietf-idr-long-lived-gr
     - draft-ietf-idr-rfc7752bis
     - draft-minto-idr-bgp-autodiscovery
+- person: 110737
+  name: Jie Dong
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: approximate
+      date: '2020-01-29'
+    end:
+      certainty: evidence-only
+      not_before: '2020-01-29'
+    notes:
+    - start dated by list message of 2020-01-29
+  evidence:
+  - kind: list message
+    date: '2020-01-29'
+    says: start
+    subject: '[Idr] BGP Autoconf design team'
+    url: https://mailarchive.ietf.org/arch/msg/idr/NMv31El3RD7xdidpIPi-oJST6R8/
+    excerpt: Jie Dong has agreed to chair the group, thanks Jie.
+  - kind: minutes without them
+    date: '2004-08-24'
+    subject: '[Idr] Draft minutes for August 2 meeting'
+    url: https://mailarchive.ietf.org/arch/msg/idr/a8wOmtq_p6ccrm275EwJKfyOmHU/
+  - kind: shepherded
+    documents:
+    - draft-acee-idr-lldp-peer-discovery
+    - draft-ietf-idr-bgp-gr-notification
+    - draft-ietf-idr-bgp-ls-flex-algo
+    - draft-ietf-idr-bgp-ls-registry
+    - draft-ietf-idr-bgp-model
+    - draft-ietf-idr-flow-spec-v6
+    - draft-ietf-idr-ls-distribution
+    - draft-ietf-idr-ls-distribution-impl
+    - draft-ietf-idr-rfc5575bis
+    - draft-zzhang-idr-tunnel-encapsulation-label-stack

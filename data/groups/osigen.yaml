@@ -18,15 +18,6 @@ chairs:
     end:
       certainty: group-closed
       date: '1992-06-10'
-  evidence:
-  - kind: list message
-    date: '1992-11-12'
-    says: start
-    subject: New co-chair x400ops.
-    url: https://mailarchive.ietf.org/arch/msg/osigen/fd2mJsV1_B8k8B63-yR7W578Zi4/
-    excerpt: I am glad to announce that the Area Directors and IESG have accepted the nomination of Tony
-      Genovese as new co-chair of x400ops, taking over from Rob Hagens who is now assigned with work far
-      away from the X.400 stuff.
 - person: 2723
   name: Ross Callon
   status: confirmed
@@ -38,24 +29,3 @@ chairs:
     end:
       certainty: group-closed
       date: '1992-06-10'
-- person: 4473
-  name: Tony Genovese
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: approximate
-      date: '1992-11-12'
-    end:
-      certainty: evidence-only
-      not_before: '1992-11-12'
-    notes:
-    - start dated by list message of 1992-11-12
-  evidence:
-  - kind: list message
-    date: '1992-11-12'
-    says: start
-    subject: New co-chair x400ops.
-    url: https://mailarchive.ietf.org/arch/msg/osigen/fd2mJsV1_B8k8B63-yR7W578Zi4/
-    excerpt: I am glad to announce that the Area Directors and IESG have accepted the nomination of Tony
-      Genovese as new co-chair of x400ops, taking over from Rob Hagens who is now assigned with work far
-      away from the X.400 stuff.

@@ -149,36 +149,6 @@ chairs:
     date: '2011-07-25'
     subject: '[pkix] minutes, old style'
     url: https://mailarchive.ietf.org/arch/msg/pkix/LVYEROWks6DxdmziZcgbd3xx62c/
-- person: 103048
-  name: Sam Hartman
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: approximate
-      date: '2006-03-29'
-    end:
-      certainty: between
-      not_before: '2006-03-29'
-      not_after: '2006-07-09'
-    notes:
-    - start dated by list message of 2006-03-29
-    - bounded by a proceedings charter snapshot listing other chairs
-  evidence:
-  - kind: list message
-    date: '2006-03-29'
-    says: start
-    subject: New PKIX Co-chair
-    url: https://mailarchive.ietf.org/arch/msg/pkix/ogQb3EvHH8--Fry8nudnr2x8ETs/
-    excerpt: Sam Hartman and I are pleased to announce that Stefan Santesson has agreed to replace Tim
-      as PKIX co-chair.
-  - kind: minutes without them
-    date: '2005-08-12'
-    subject: PKIX meeting minutes, final
-    url: https://mailarchive.ietf.org/arch/msg/pkix/Znr_EEP6WemO6zH9qmfrt59XeSY/
-  - kind: minutes without them
-    date: '2011-07-25'
-    subject: '[pkix] minutes, old style'
-    url: https://mailarchive.ietf.org/arch/msg/pkix/LVYEROWks6DxdmziZcgbd3xx62c/
 - person: 106863
   name: Stefan Santesson
   status: confirmed

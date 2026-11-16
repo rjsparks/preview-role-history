@@ -212,6 +212,12 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: list message
+    date: '2025-07-15'
+    says: start
+    subject: '[Acme] chair changes for acme'
+    url: https://mailarchive.ietf.org/arch/msg/acme/9RTl9hhNFnXrjuUDdCChXuHRBSo/
+    excerpt: We would like to welcome Mike Ounsworth as the incoming acme chair.
   - kind: chair activity
     first: '2025-08-06'
     last: '2026-11-03'

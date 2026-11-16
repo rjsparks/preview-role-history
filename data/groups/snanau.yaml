@@ -130,3 +130,27 @@ chairs:
     date: '1994-04-14'
     subject: Minutes
     url: https://mailarchive.ietf.org/arch/msg/snanau/gWSQ50IO7OIz1Ci_OQdllfihRdM/
+- person: 110079
+  name: San Jose
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: approximate
+      date: '1997-07-29'
+    end:
+      certainty: evidence-only
+      not_before: '1997-07-29'
+    notes:
+    - start dated by list message of 1997-07-29
+  evidence:
+  - kind: list message
+    date: '1997-07-29'
+    says: start
+    subject: Minutes of Joint SNANAU WG / APPN MIBS SIG Meeting at AIW 14
+    url: https://mailarchive.ietf.org/arch/msg/snanau/YyUHM2R_kiuTXWhe8hqKaeCJjBg/
+    excerpt: The IETF SNA NAU Services MIB (snanau) WG and the AIW APPN MIBs SIG held a joint meeting
+      on July 17 at AIW 14 in San Jose, California, with Bob Moore serving as chair.
+  - kind: minutes without them
+    date: '1994-04-14'
+    subject: Minutes
+    url: https://mailarchive.ietf.org/arch/msg/snanau/gWSQ50IO7OIz1Ci_OQdllfihRdM/

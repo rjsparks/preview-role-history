@@ -88,3 +88,27 @@ chairs:
     - '75'
     - '78'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 107447
+  name: Bill Yeager
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-03-19'
+    end:
+      certainty: approximate
+      date: '2007-07-26'
+    notes:
+    - end dated by list message of 2007-07-26
+  evidence:
+  - kind: list message
+    date: '2007-07-26'
+    says: end
+    subject: '[P2Prg] research group news'
+    url: https://mailarchive.ietf.org/arch/msg/p2prg/24arIGs7bT8vF2qfnUWfLK60u3Y/
+    excerpt: I have been informed that Bill Yeager and Bobby Bhattacharjee are stepping down as chairs
+      of this Research Group.
+  - kind: session requests
+    meetings:
+    - '65'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

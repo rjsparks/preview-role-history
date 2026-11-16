@@ -60,9 +60,17 @@ chairs:
       certainty: evidence-only
       not_after: '2009-09-15'
     end:
-      certainty: evidence-only
-      not_before: '2010-05-19'
+      certainty: approximate
+      date: '2011-01-13'
+    notes:
+    - end dated by list message of 2011-01-13
   evidence:
+  - kind: list message
+    date: '2011-01-13'
+    says: end
+    subject: '[sip-clf] Chair changes for SIP-CLF'
+    url: https://mailarchive.ietf.org/arch/msg/sip-clf/PX8IulAeb71QG6ml-7NYv4he6BE/
+    excerpt: Theo Zourzouvillys is stepping down as a SIP-CLF co-chair.
   - kind: proceedings
     listed_in: 3
     first: '2009-09-15'

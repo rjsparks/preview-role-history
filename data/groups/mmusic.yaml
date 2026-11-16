@@ -272,17 +272,22 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2009-11-08'
-      not_after: '2010-02-10'
+      certainty: approximate
+      date: '2010-02-10'
     end:
       certainty: between
       not_before: '2010-12-09'
       not_after: '2011-03-27'
     notes:
+    - start dated by list message of 2010-02-10
     - bounded by a proceedings charter snapshot listing other chairs
-    - bounded by minutes listing other chairs
   evidence:
+  - kind: list message
+    date: '2010-02-10'
+    says: start
+    subject: '[MMUSIC] MMUSIC chair changes'
+    url: https://mailarchive.ietf.org/arch/msg/mmusic/ZEnnjzRv8SNZwkwkgYhQCC8_HoQ/
+    excerpt: Tom Taylor has agreed to join as an MMUSIC co-chair with Jean-Francois going forward.
   - kind: chair activity
     first: '2010-04-26'
     last: '2010-12-09'

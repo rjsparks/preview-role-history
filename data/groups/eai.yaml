@@ -16,8 +16,8 @@ chairs:
       not_after: '2006-03-09'
     end:
       certainty: between
-      not_before: '2010-01-19'
-      not_after: '2010-03-21'
+      not_before: '2010-03-29'
+      not_after: '2010-06-08'
     notes:
     - bounded by a proceedings charter snapshot listing other chairs
   evidence:
@@ -25,6 +25,13 @@ chairs:
     date: '2006-03-17'
     subject: 'WG Action: Email Address Internationalization (eai)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/H3yXSctovO6Ypd69m6RLN5LNgUM/
+  - kind: list message
+    date: '2010-03-29'
+    says: start
+    subject: '[EAI] EAI minutes at IETF 77'
+    url: https://mailarchive.ietf.org/arch/msg/ima/N-AyOvCg-B6vmBFrjaTtoIsflNY/
+    excerpt: 'New Chairs - many thanks to Harald Alvestrand and Xiaodong Lee - new chairs: John Klensin,
+      Joseph Yee'
   - kind: chair activity
     first: '2006-10-16'
     last: '2010-01-19'
@@ -134,15 +141,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-03-21'
-      not_before: '2006-02-08'
+      certainty: approximate
+      date: '2010-03-29'
     end:
       certainty: group-closed
       date: '2013-03-18'
     notes:
     - start moved earlier by WG Action announcement of 2010-06-08
-    - widened to cover charter snapshots in proceedings
+    - start dated by list message of 2010-03-29
   evidence:
   - kind: WG Review
     date: '2010-05-24'
@@ -152,6 +158,13 @@ chairs:
     date: '2010-06-08'
     subject: 'WG Action: RECHARTER: Email Address Internationalization (eai)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/bWAiq0dlJYPDTGJim0KJruQ7abI/
+  - kind: list message
+    date: '2010-03-29'
+    says: start
+    subject: '[EAI] EAI minutes at IETF 77'
+    url: https://mailarchive.ietf.org/arch/msg/ima/N-AyOvCg-B6vmBFrjaTtoIsflNY/
+    excerpt: 'New Chairs - many thanks to Harald Alvestrand and Xiaodong Lee - new chairs: John Klensin,
+      Joseph Yee'
   - kind: chair activity
     first: '2010-11-25'
     last: '2012-10-25'
@@ -205,16 +218,22 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-03-21'
-      not_before: '2006-02-08'
+      certainty: approximate
+      date: '2010-03-29'
     end:
       certainty: group-closed
       date: '2013-03-18'
     notes:
     - start moved earlier by session request for IETF 78
-    - widened to cover charter snapshots in proceedings
+    - start dated by list message of 2010-03-29
   evidence:
+  - kind: list message
+    date: '2010-03-29'
+    says: start
+    subject: '[EAI] EAI minutes at IETF 77'
+    url: https://mailarchive.ietf.org/arch/msg/ima/N-AyOvCg-B6vmBFrjaTtoIsflNY/
+    excerpt: 'New Chairs - many thanks to Harald Alvestrand and Xiaodong Lee - new chairs: John Klensin,
+      Joseph Yee'
   - kind: chair activity
     first: '2011-03-17'
     last: '2012-11-16'

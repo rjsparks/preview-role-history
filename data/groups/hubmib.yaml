@@ -52,16 +52,20 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2006-07-09'
-      not_before: '2002-04-05'
+      certainty: approximate
+      date: '2006-10-16'
     end:
       certainty: group-closed
       date: '2007-09-10'
     notes:
-    - widened to cover charter snapshots in proceedings
-    - bounded by minutes listing other chairs
+    - start dated by list message of 2006-10-16
   evidence:
+  - kind: list message
+    date: '2006-10-16'
+    says: start
+    subject: '[Hubmib] wg chair change'
+    url: https://mailarchive.ietf.org/arch/msg/hubmib/Cmx1DMOltVxsTzgC0F-hGG3C_RY/
+    excerpt: The new chair of the WG is Bert Wijnen, who all of you know very well.
   - kind: proceedings
     listed_in: 4
     first: '2006-07-09'

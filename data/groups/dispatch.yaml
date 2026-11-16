@@ -86,6 +86,46 @@ chairs:
     - '81'
     - '82'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 103539
+  name: Gonzalo Camarillo
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2009-04-20'
+    end:
+      certainty: between
+      not_before: '2016-05-17'
+      not_after: '2016-07-17'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
+  evidence:
+  - kind: list message
+    date: '2016-05-17'
+    says: start
+    subject: '[dispatch] Proposed SIPBRANDY Charter'
+    url: https://mailarchive.ietf.org/arch/msg/dispatch/wPZSo34sd5Iwsu90cthQpRDygPs/
+    excerpt: Gonzalo Camarillo has agreed to chair the group, if formed.
+  - kind: chair activity
+    first: '2009-11-26'
+    last: '2009-11-26'
+    messages: 1
+    examples:
+    - date: '2009-11-26'
+      subject: '[dispatch] Draft minutes of the main DISPATCH session'
+      url: https://mailarchive.ietf.org/arch/msg/dispatch/Ke_5jX7yih6P9OZOw2esvGW9L6w/
+  - kind: proceedings
+    listed_in: 1
+    first: '2009-04-20'
+    last: '2009-04-20'
+    examples:
+    - date: '2009-04-20'
+      subject: IETF 74 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/74/dispatch.html
+  - kind: minutes without them
+    date: '2019-03-23'
+    subject: '[dispatch] DISPATCH Minutes'
+    url: https://mailarchive.ietf.org/arch/msg/dispatch/Fld6mY5y5hkSD4E9OqI6_0Px1us/
 - person: 104140
   name: Ben Campbell
   status: confirmed

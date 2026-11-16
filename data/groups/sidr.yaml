@@ -96,15 +96,20 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2012-03-25'
+      certainty: approximate
+      date: '2012-04-20'
     end:
       certainty: exact
       date: '2013-07-31'
     notes:
-    - widened to cover charter snapshots in proceedings
+    - start dated by list message of 2012-04-20
   evidence:
+  - kind: list message
+    date: '2012-04-20'
+    says: start
+    subject: '[sidr] Alexey Melnikov - third SIDR Chair'
+    url: https://mailarchive.ietf.org/arch/msg/sidr/fIE79H6esfPTTXEl3NC7U7r5RBU/
+    excerpt: I have decided to appoint Alexey Melnikov as an additional chair of the SIDR Working Group.
   - kind: chair activity
     first: '2012-05-25'
     last: '2012-06-13'
