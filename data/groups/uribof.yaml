@@ -7,6 +7,42 @@ started: null
 closed: '1995-07-21'
 history_url: https://datatracker.ietf.org/group/uribof/history/
 chairs:
+- person: 4867
+  name: Alan Emtage
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1992-12-09'
+    end:
+      certainty: evidence-only
+      not_before: '1994-08-02'
+  evidence:
+  - kind: chair activity
+    first: '1992-12-09'
+    last: '1994-08-02'
+    messages: 6
+    examples:
+    - date: '1992-12-09'
+      subject: 'Minutes: Washington'
+      url: https://mailarchive.ietf.org/arch/msg/uri/lVkHRA5fUvZyJ80qFX1dPpL1UVM/
+    - date: '1993-10-22'
+      subject: Draft Agenda
+      url: https://mailarchive.ietf.org/arch/msg/uri/pbQUBA05oTUgYov95XZmQ_nqI38/
+  - kind: minutes
+    listed_in: 6
+    first: '1992-12-09'
+    last: '1994-08-02'
+    examples:
+    - date: '1992-12-09'
+      subject: 'Minutes: Washington'
+      url: https://mailarchive.ietf.org/arch/msg/uri/lVkHRA5fUvZyJ80qFX1dPpL1UVM/
+    - date: '1993-08-10'
+      subject: Minutes - Again
+      url: https://mailarchive.ietf.org/arch/msg/uri/JZ8VP-tSSd_kCCHGIZLq6g8Wog4/
+    - date: '1994-08-02'
+      subject: Toronto Minutes
+      url: https://mailarchive.ietf.org/arch/msg/uri/NjhQ-6Ty3rGrz7_JMA3xVtsNpKA/
 - person: 7778
   name: Peter Deutsch
   status: unconfirmed
@@ -15,10 +51,12 @@ chairs:
       certainty: approximate
       date: '1992-12-09'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '1993-07-09'
+      not_after: '1993-08-10'
     notes:
     - start dated by list message of 1992-12-09
+    - bounded by minutes listing other chairs
   evidence:
   - kind: list message
     date: '1992-12-09'
@@ -35,6 +73,10 @@ chairs:
     - date: '1993-07-09'
       subject: Agenda for URI sessions
       url: https://mailarchive.ietf.org/arch/msg/uri/62oBdw8dlT-GZcFlcfGWD2A00Fk/
+  - kind: minutes without them
+    date: '1993-08-10'
+    subject: Minutes - Again
+    url: https://mailarchive.ietf.org/arch/msg/uri/JZ8VP-tSSd_kCCHGIZLq6g8Wog4/
 - person: 8393
   name: Jim Fullton
   status: unconfirmed
@@ -44,7 +86,7 @@ chairs:
       date: '1992-12-09'
     end:
       certainty: evidence-only
-      not_before: '1992-12-09'
+      not_before: '1994-08-02'
     notes:
     - start dated by list message of 1992-12-09
   evidence:
@@ -54,6 +96,20 @@ chairs:
     subject: 'Minutes: Washington'
     url: https://mailarchive.ietf.org/arch/msg/uri/lVkHRA5fUvZyJ80qFX1dPpL1UVM/
     excerpt: Jim Fullton/CNIDR was installed as new co-chair.
+  - kind: minutes
+    listed_in: 6
+    first: '1992-12-09'
+    last: '1994-08-02'
+    examples:
+    - date: '1992-12-09'
+      subject: 'Minutes: Washington'
+      url: https://mailarchive.ietf.org/arch/msg/uri/lVkHRA5fUvZyJ80qFX1dPpL1UVM/
+    - date: '1993-08-10'
+      subject: Minutes - Again
+      url: https://mailarchive.ietf.org/arch/msg/uri/JZ8VP-tSSd_kCCHGIZLq6g8Wog4/
+    - date: '1994-08-02'
+      subject: Toronto Minutes
+      url: https://mailarchive.ietf.org/arch/msg/uri/NjhQ-6Ty3rGrz7_JMA3xVtsNpKA/
 - person: 110451
   name: Larry Masinter
   status: confirmed
@@ -84,3 +140,7 @@ chairs:
     - date: '1994-12-24'
       subject: Minutes, URI working group
       url: https://mailarchive.ietf.org/arch/msg/uri/G-C_bgFJAxrdLgvsZ5ofB3zoWFI/
+  - kind: minutes without them
+    date: '1994-05-17'
+    subject: Revised minutes
+    url: https://mailarchive.ietf.org/arch/msg/uri/qaP-iwNwGCLKXTJIx67TIgL2ddQ/

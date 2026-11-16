@@ -13,17 +13,39 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-12-10'
+      date: '2002-11-17'
     end:
       certainty: group-closed
       date: '2003-12-10'
+    notes:
+    - widened to cover chair lists in meeting minutes
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2002-11-17'
+    last: '2002-11-17'
+    examples:
+    - date: '2002-11-17'
+      subject: '[Trigtran] DRAFT TRIGTRAN Minutes from IETF 55'
+      url: https://mailarchive.ietf.org/arch/msg/trigtran/EFSgtSEii8IPiq52hBDizbtJdxw/
 - person: 107190
   name: Spencer Dawkins
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-12-10'
+      date: '2002-11-17'
     end:
       certainty: group-closed
       date: '2003-12-10'
+    notes:
+    - widened to cover chair lists in meeting minutes
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2002-11-17'
+    last: '2002-11-17'
+    examples:
+    - date: '2002-11-17'
+      subject: '[Trigtran] DRAFT TRIGTRAN Minutes from IETF 55'
+      url: https://mailarchive.ietf.org/arch/msg/trigtran/EFSgtSEii8IPiq52hBDizbtJdxw/
