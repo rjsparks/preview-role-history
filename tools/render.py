@@ -414,7 +414,7 @@ Each opens a short GitHub issue form, already filled in with the row you clicked
         if not phase:
             return ""
         label, meaning = PHASES[phase]
-        return f' <span class="tag tag-{phase}" title="{e(meaning)}">{e(label)}</span>'
+        return f'<div class="labels"><span class="label label-{phase}" title="{e(meaning)}">{e(label)}</span></div>'
 
     @staticmethod
     def bof_history(g):
@@ -436,7 +436,7 @@ Each opens a short GitHub issue form, already filled in with the row you clicked
             '<p>A <span class="q">?</span> marks a date that is not exact. Those are the dates most worth checking.</p>'
             f"<dl>{rows}</dl>"
             "<p>Rows for groups that began as a BOF may say which part the person chaired:</p><dl>"
-            + "".join(f'<dt><span class="tag tag-{k}">{e(label)}</span></dt><dd>{e(meaning)}</dd>'
+            + "".join(f'<dt><span class="label label-{k}">{e(label)}</span></dt><dd>{e(meaning)}</dd>'
                       for k, (label, meaning) in PHASES.items())
             + "</dl></section>"
         )
