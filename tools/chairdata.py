@@ -150,7 +150,8 @@ def is_uncertain(bound, which):
 
 
 class Data:
-    def __init__(self, groups, people, problems):
+    def __init__(self, groups, people, problems, people_path=None):
+        self.people_path = people_path
         self.groups = groups  # acronym -> group dict
         self.people = people  # id -> person dict
         self.problems = problems  # load errors: (path, message)
@@ -190,4 +191,4 @@ def load(data_dir):
             people[p["id"]] = p
     except (yaml.YAMLError, KeyError, TypeError) as err:
         problems.append((people_path, f"could not be read: {err}"))
-    return Data(groups, people, problems)
+    return Data(groups, people, problems, people_path)

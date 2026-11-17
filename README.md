@@ -42,7 +42,10 @@ chairs:
 ```
 
 - **person**: the datatracker person id. For someone with no datatracker record, use
-  `person: null` and give `name`. Anyone new must also be added to `data/people.yaml`.
+  `person: null` and give `name`. Anyone new must also be added to `data/people.yaml`
+  with their `id`, `name` and `uuid`: the primary UUID from their datatracker profile
+  address (`https://datatracker.ietf.org/person/<uuid>`). The site names each person's
+  page by that UUID.
 - **status**: `confirmed` (from datatracker records), `unconfirmed` (suggested by indirect
   evidence), or `contributed` (added or corrected by a contributor).
 - **periods**: one per stretch as chair. Dates are `YYYY-MM-DD`, `YYYY-MM` or `YYYY`.

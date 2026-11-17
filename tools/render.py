@@ -67,10 +67,17 @@ class Site:
             return self.data.people[key].get("name") or (entry or {}).get("name", "")
         return (entry or {}).get("name") or str(key).removeprefix("name:")
 
-    @staticmethod
-    def person_slug(key):
+    def person_uuid(self, key):
+        """The datatracker primary UUID of a person with an id; validate.py requires one."""
+        return str(self.data.people[key]["uuid"]) if isinstance(key, int) else ""
+
+    def person_slug(self, key):
+        """A person page's name: their datatracker primary UUID, never the internal id.
+
+        Only people with no datatracker record get a slug of their name.
+        """
         if isinstance(key, int):
-            return str(key)
+            return self.person_uuid(key)
         return "n-" + "".join(c if c.isalnum() else "-" for c in fold(str(key).removeprefix("name:"))).strip("-")
 
     def person_href(self, key, depth):
@@ -197,7 +204,7 @@ class Site:
             f"{g['acronym']}: {self.period_text(period)} "
             f"({cd.STATUSES.get(entry.get('status'), entry.get('status'))})"
         )
-        person = str(entry.get("person") or "")
+        person = self.person_uuid(cd.person_key(entry))
         correct = self.issue_url(
             "correction.yml", f"Correction: {name}, {g['acronym']}",
             group=g["acronym"], person=person, name=name, recorded=recorded,
@@ -226,7 +233,7 @@ class Site:
             profile = f'<a href="{cd.DATATRACKER}/person/{e(person["uuid"])}">datatracker profile</a>'
         missing = self.issue_url(
             "missing.yml", f"Missing chair role: {name}",
-            person=str(key) if isinstance(key, int) else "", name=name,
+            person=self.person_uuid(key), name=name,
         )
         lines = []
         flat = []

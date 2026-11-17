@@ -109,6 +109,11 @@ class ValidateTests(DataDirMixin, unittest.TestCase):
         self.write_group(g)
         self.assertTrue(any("periods overlap" in m for m in self.problems()))
 
+    def test_people_need_a_uuid(self):
+        self.write_people([{"id": 1, "name": "Ada Chair"}])
+        self.write_group(group())
+        self.assertTrue(any("person 1 needs `uuid`" in m for m in self.problems()))
+
     def test_duplicate_person(self):
         g = group()
         g["chairs"].append(dict(g["chairs"][0]))
@@ -187,14 +192,14 @@ class RenderTests(DataDirMixin, unittest.TestCase):
         out = self.root / "site"
         site = render.Site(cd.load(self.data), out, "example/chairs")
         site.build(Path(__file__).parent.parent / "site")
-        for page in ("index.html", "people.html", "groups.html", "groups/abc.html", "people/1.html", "people/n-old-timer.html"):
+        for page in ("index.html", "people.html", "groups.html", "groups/abc.html", "people/00000000-0000-4000-8000-000000000001.html", "people/n-old-timer.html"):
             self.assertTrue((out / page).exists(), page)
-        person = (out / "people" / "1.html").read_text()
+        person = (out / "people" / "00000000-0000-4000-8000-000000000001.html").read_text()
         self.assertIn("https://datatracker.ietf.org/person/00000000-0000-4000-8000-000000000001", person)
         link = next(part.split('"')[0] for part in person.split('href="') if "correction.yml" in part)
         query = parse_qs(urlparse(link.replace("&amp;", "&")).query)
         self.assertEqual(query["group"], ["abc"])
-        self.assertEqual(query["person"], ["1"])
+        self.assertEqual(query["person"], ["00000000-0000-4000-8000-000000000001"])
         self.assertIn("2012-03-04 to present", query["recorded"][0])
         self.assertIn('<a href="https://mailarchive.ietf.org/arch/msg/ietf-announce-old/example/">', person)
         self.assertIn("Group list message about joining, 2013-06-08", person)
@@ -203,6 +208,8 @@ class RenderTests(DataDirMixin, unittest.TestCase):
         self.assertIn("Listed as chair in 3 of the charter snapshots in meeting proceedings", person)
         self.assertIn('Not listed among the chairs in <a href="https://www.ietf.org/proceedings/44/abc.htm">', person)
         self.assertIn('<a href="https://mailarchive.ietf.org/arch/msg/abc/wglc/">', person)
+        self.assertFalse((out / "people" / "1.html").exists())
+        self.assertIn('href="../people/00000000-0000-4000-8000-000000000001.html"', (out / "groups" / "abc.html").read_text())
         self.assertIn("about 1995", (out / "people" / "n-old-timer.html").read_text())
 
 

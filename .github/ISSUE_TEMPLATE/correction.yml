@@ -24,7 +24,7 @@ body:
   - type: input
     id: person
     attributes:
-      label: Datatracker person id (if known)
+      label: Datatracker person UUID (if known)
   - type: textarea
     id: recorded
     attributes:

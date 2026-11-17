@@ -13,6 +13,7 @@ Problems are printed as GitHub Actions annotations when GITHUB_ACTIONS is set.
 import argparse
 import datetime
 import os
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -22,12 +23,16 @@ import yaml
 sys.path.insert(0, str(Path(__file__).parent))
 import chairdata as cd  # noqa: E402
 
+UUID = re.compile(r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$")
 GROUP_KEYS = ("acronym", "name", "type", "state", "chairs")
 
 
 def check(data):
     """Return a list of (path, message)."""
     problems = list(data.problems)
+    for pid, person in data.people.items():
+        if not UUID.match(str(person.get("uuid") or "")):
+            problems.append((data.people_path, f"person {pid} needs `uuid`, their datatracker primary UUID"))
     for acronym, g in data.groups.items():
         path = g["_path"]
 
