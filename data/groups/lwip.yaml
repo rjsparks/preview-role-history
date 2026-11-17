@@ -6,6 +6,7 @@ state: bof-conc
 started: null
 closed: null
 bof: true
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '79'
@@ -27,6 +28,7 @@ chairs:
       certainty: group-closed
       date: '2011-12-09'
     notes:
+    - widened to cover the BOF session in the proceedings
     - widened to cover charter snapshots in proceedings
   evidence:
   - kind: proceedings
@@ -54,6 +56,7 @@ chairs:
       certainty: group-closed
       date: '2011-12-09'
     notes:
+    - widened to cover the BOF session in the proceedings
     - widened to cover charter snapshots in proceedings
   evidence:
   - kind: proceedings

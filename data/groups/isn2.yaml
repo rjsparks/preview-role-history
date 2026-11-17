@@ -6,8 +6,12 @@ state: bof-conc
 started: null
 closed: '1997-01-01'
 bof: true
+never_chartered: true
 chartered: null
 bof_sessions:
+- meeting: '34'
+  date: '1995-12-04'
+  url: https://www.ietf.org/proceedings/34/area.and.wg.reports/usv/isn2/isn2-minutes-95dec.txt
 - meeting: '38'
   date: '1997-04-07'
   url: https://www.ietf.org/proceedings/38/97apr-final/xrtft128.htm

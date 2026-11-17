@@ -5,9 +5,13 @@ parent: tsv
 state: conclude
 started: null
 closed: '2003-12-10'
-bof: false
+bof: true
+never_chartered: false
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '49'
+  date: '2000-12-10'
+  url: https://www.ietf.org/proceedings/49/00dec-157.htm
 history_url: https://datatracker.ietf.org/group/rtfm2/history/
 chairs:
 - person: 6766

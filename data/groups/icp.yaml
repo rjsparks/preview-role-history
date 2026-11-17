@@ -6,11 +6,15 @@ state: bof-conc
 started: null
 closed: '1997-01-01'
 bof: true
+never_chartered: true
 chartered: null
 bof_sessions:
+- meeting: '37'
+  date: '1996-12-09'
+  url: https://www.ietf.org/proceedings/37/index.html
 - meeting: '38'
   date: '1997-04-07'
-  url: https://www.ietf.org/proceedings/38/97apr-final/xrtft123.htm
+  url: https://www.ietf.org/proceedings/38/97apr-final/httoc.htm
 history_url: https://datatracker.ietf.org/group/icp/history/
 chairs:
 - person: 20778
@@ -19,7 +23,9 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1997-01-01'
+      date: '1996-12-09'
     end:
       certainty: group-closed
       date: '1997-01-01'
+    notes:
+    - widened to cover the BOF session in the proceedings

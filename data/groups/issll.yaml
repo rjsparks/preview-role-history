@@ -5,9 +5,13 @@ parent: tsv
 state: conclude
 started: '1996-05-14'
 closed: '2002-05-13'
-bof: false
+bof: true
+never_chartered: false
 chartered: '1996-05-24'
-bof_sessions: []
+bof_sessions:
+- meeting: '35'
+  date: '1996-03-04'
+  url: https://www.ietf.org/proceedings/35/area.and.wg.reports/tsv/issll/issll-minutes-96mar.html
 history_url: https://datatracker.ietf.org/group/issll/history/
 chairs:
 - person: 8715

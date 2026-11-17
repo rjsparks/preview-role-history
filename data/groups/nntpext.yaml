@@ -5,9 +5,13 @@ parent: app
 state: conclude
 started: '1996-11-21'
 closed: '2005-10-07'
-bof: false
+bof: true
+never_chartered: false
 chartered: '1996-12-19'
-bof_sessions: []
+bof_sessions:
+- meeting: '37'
+  date: '1996-12-09'
+  url: https://www.ietf.org/proceedings/37/app/nntpext.html
 history_url: https://datatracker.ietf.org/group/nntpext/history/
 chairs:
 - person: 4397

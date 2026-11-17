@@ -5,9 +5,13 @@ parent: ops
 state: active
 started: '1996-08-26'
 closed: null
-bof: false
+bof: true
+never_chartered: false
 chartered: '1996-08-26'
-bof_sessions: []
+bof_sessions:
+- meeting: '36'
+  date: '1996-06-24'
+  url: https://www.ietf.org/proceedings/36/OLD/toc-96jun.html
 history_url: https://datatracker.ietf.org/group/mboned/history/
 chairs:
 - person: 19297

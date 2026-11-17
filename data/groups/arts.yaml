@@ -5,9 +5,19 @@ parent: usv
 state: conclude
 started: null
 closed: '1997-01-01'
-bof: false
+bof: true
+never_chartered: false
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '30'
+  date: '1994-07-25'
+  url: https://www.ietf.org/proceedings/30/0mtg-agenda.txt
+- meeting: '31'
+  date: '1994-12-05'
+  url: https://www.ietf.org/proceedings/31/area.and.wg.reports/usv/area.userservices.94dec.txt
+- meeting: '32'
+  date: '1995-04-03'
+  url: https://www.ietf.org/proceedings/32/area.and.wg.reports/usv/area.userservices.95apr.txt
 history_url: https://datatracker.ietf.org/group/arts/history/
 chairs:
 - person: 15675

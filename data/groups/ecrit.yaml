@@ -5,9 +5,13 @@ parent: art
 state: active
 started: '2004-10-01'
 closed: null
-bof: false
+bof: true
+never_chartered: false
 chartered: '2005-02-03'
-bof_sessions: []
+bof_sessions:
+- meeting: '61'
+  date: '2004-11-07'
+  url: https://www.ietf.org/proceedings/61/ecrit.html
 history_url: https://datatracker.ietf.org/group/ecrit/history/
 chairs:
 - person: 18621

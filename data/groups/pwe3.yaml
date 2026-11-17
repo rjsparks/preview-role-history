@@ -5,9 +5,13 @@ parent: rtg
 state: conclude
 started: '2001-03-26'
 closed: '2014-11-20'
-bof: false
+bof: true
+never_chartered: false
 chartered: '2001-05-04'
-bof_sessions: []
+bof_sessions:
+- meeting: '50'
+  date: '2001-03-18'
+  url: https://www.ietf.org/proceedings/50/ietf50-161.htm
 history_url: https://datatracker.ietf.org/group/pwe3/history/
 chairs:
 - person: 2329

@@ -5,9 +5,16 @@ parent: ops
 state: conclude
 started: '1995-02-04'
 closed: '2001-12-12'
-bof: false
+bof: true
+never_chartered: false
 chartered: '1995-02-09'
-bof_sessions: []
+bof_sessions:
+- meeting: '30'
+  date: '1994-07-25'
+  url: https://www.ietf.org/proceedings/30/0mtg-agenda.txt
+- meeting: '31'
+  date: '1994-12-05'
+  url: https://www.ietf.org/proceedings/31/area.and.wg.reports/ops/area.operations.94dec.txt
 history_url: https://datatracker.ietf.org/group/grip/history/
 chairs:
 - person: 2413

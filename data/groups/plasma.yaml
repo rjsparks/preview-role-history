@@ -6,6 +6,7 @@ state: bof-conc
 started: null
 closed: null
 bof: true
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '79'
@@ -28,7 +29,7 @@ chairs:
       date: '2011-12-09'
     notes:
     - start moved earlier by session request for IETF 80
-    - widened to cover charter snapshots in proceedings
+    - widened to cover the BOF session in the proceedings
   evidence:
   - kind: proceedings
     listed_in: 2
@@ -56,7 +57,7 @@ chairs:
       certainty: group-closed
       date: '2011-12-09'
     notes:
-    - widened to cover charter snapshots in proceedings
+    - widened to cover the BOF session in the proceedings
   evidence:
   - kind: chair activity
     first: '2011-04-22'

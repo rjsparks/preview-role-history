@@ -6,8 +6,12 @@ state: bof-conc
 started: null
 closed: '1997-01-01'
 bof: true
+never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '30'
+  date: '1994-07-25'
+  url: https://www.ietf.org/proceedings/30/0mtg-agenda.txt
 history_url: https://datatracker.ietf.org/group/sofa/history/
 chairs:
 - person: 108162
@@ -16,7 +20,9 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1997-01-01'
+      date: '1994-07-25'
     end:
       certainty: group-closed
       date: '1997-01-01'
+    notes:
+    - widened to cover the BOF session in the proceedings

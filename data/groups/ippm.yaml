@@ -6,8 +6,18 @@ state: conclude
 started: '1997-10-02'
 closed: '2026-11-04'
 bof: true
+never_chartered: false
 chartered: '1997-10-20'
 bof_sessions:
+- meeting: '32'
+  date: '1995-04-03'
+  url: https://www.ietf.org/proceedings/32/area.and.wg.reports/ops/area.operations.95apr.txt
+- meeting: '37'
+  date: '1996-12-09'
+  url: https://www.ietf.org/proceedings/37/index.html
+- meeting: '38'
+  date: '1997-04-07'
+  url: https://www.ietf.org/proceedings/38/97apr-final/httoc.htm
 - meeting: '39'
   date: '1997-08-11'
   url: https://www.ietf.org/proceedings/39/transit97aug-123.htm

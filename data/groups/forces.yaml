@@ -5,9 +5,19 @@ parent: rtg
 state: conclude
 started: '2001-05-11'
 closed: '2015-03-24'
-bof: false
+bof: true
+never_chartered: false
 chartered: '2001-07-27'
-bof_sessions: []
+bof_sessions:
+- meeting: '49'
+  date: '2000-12-10'
+  url: https://www.ietf.org/proceedings/49/00dec-156.htm
+- meeting: '50'
+  date: '2001-03-18'
+  url: https://www.ietf.org/proceedings/50/ietf50-159.htm
+- meeting: '51'
+  date: '2001-08-05'
+  url: https://www.ietf.org/proceedings/51/bettertoc.htm
 history_url: https://datatracker.ietf.org/group/forces/history/
 chairs:
 - person: 19925

@@ -6,8 +6,15 @@ state: bof-conc
 started: null
 closed: '1997-01-01'
 bof: true
+never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '33'
+  date: '1995-07-17'
+  url: https://www.ietf.org/proceedings/33/app/mimereg.html
+- meeting: '34'
+  date: '1995-12-04'
+  url: https://www.ietf.org/proceedings/34/app/mimereg.html
 history_url: https://datatracker.ietf.org/group/mimereg/history/
 chairs:
 - person: 106911
@@ -16,7 +23,9 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1997-01-01'
+      date: '1995-07-17'
     end:
       certainty: group-closed
       date: '1997-01-01'
+    notes:
+    - widened to cover the BOF session in the proceedings

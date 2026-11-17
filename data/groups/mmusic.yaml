@@ -6,6 +6,7 @@ state: conclude
 started: '1993-04-23'
 closed: '2024-08-14'
 bof: false
+never_chartered: false
 chartered: '1993-06-24'
 bof_sessions: []
 history_url: https://datatracker.ietf.org/group/mmusic/history/
@@ -19,15 +20,15 @@ chairs:
       not_after: '1994-03-28'
     end:
       certainty: between
-      not_before: '2008-03-09'
-      not_after: '2008-12-01'
+      not_before: '1994-12-05'
+      not_after: '1995-04-03'
     notes:
     - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: proceedings
-    listed_in: 13
+    listed_in: 2
     first: '1994-03-28'
-    last: '2008-03-09'
+    last: '1994-12-05'
     examples:
     - date: '1994-03-28'
       subject: IETF 29 proceedings charter
@@ -35,9 +36,6 @@ chairs:
     - date: '1994-12-05'
       subject: IETF 31 proceedings charter
       url: https://www.ietf.org/proceedings/31/area.and.wg.reports/tsv/mmusic/mmusic-charter.txt
-    - date: '2008-03-09'
-      subject: IETF 71 proceedings charter
-      url: https://www.ietf.org/proceedings/71/RFCs/rfc1603.txt
   - kind: minutes without them
     date: '2009-11-08'
     subject: '[MMUSIC] IETF 76 - Draft WG Meeting minutes posted'
@@ -212,7 +210,7 @@ chairs:
     end:
       certainty: between
       not_before: '2007-07-16'
-      not_after: '2007-07-22'
+      not_after: '2008-01-09'
     notes:
     - start dated by list message of 2000-08-31
     - bounded by a proceedings charter snapshot listing other chairs
@@ -699,8 +697,8 @@ chairs:
       not_after: '1994-03-28'
     end:
       certainty: between
-      not_before: '2008-03-09'
-      not_after: '2008-12-01'
+      not_before: '2000-07-17'
+      not_after: '2000-10-23'
     notes:
     - bounded by a proceedings charter snapshot listing other chairs
   evidence:
@@ -716,9 +714,9 @@ chairs:
       subject: MMusic WG Minutes/Slides
       url: https://mailarchive.ietf.org/arch/msg/mmusic/2z-mCDg0Q9I4G2rbjcHlSy5Crwo/
   - kind: proceedings
-    listed_in: 27
+    listed_in: 16
     first: '1994-03-28'
-    last: '2008-03-09'
+    last: '2000-07-17'
     examples:
     - date: '1994-03-28'
       subject: IETF 29 proceedings charter
@@ -726,9 +724,9 @@ chairs:
     - date: '1994-12-05'
       subject: IETF 31 proceedings charter
       url: https://www.ietf.org/proceedings/31/area.and.wg.reports/tsv/mmusic/mmusic-charter.txt
-    - date: '2008-03-09'
-      subject: IETF 71 proceedings charter
-      url: https://www.ietf.org/proceedings/71/RFCs/rfc1603.txt
+    - date: '2000-07-17'
+      subject: IETF 48 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/48/00july-131.htm
   - kind: minutes without them
     date: '2009-11-08'
     subject: '[MMUSIC] IETF 76 - Draft WG Meeting minutes posted'

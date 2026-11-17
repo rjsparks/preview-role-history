@@ -5,9 +5,13 @@ parent: gen
 state: conclude
 started: null
 closed: '1997-01-01'
-bof: false
+bof: true
+never_chartered: false
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '31'
+  date: '1994-12-05'
+  url: https://www.ietf.org/proceedings/31/area.and.wg.reports/gen/area.general.94dec.txt
 history_url: https://datatracker.ietf.org/group/inaparch/history/
 chairs:
 - person: 2687

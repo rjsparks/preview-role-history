@@ -5,9 +5,13 @@ parent: ops
 state: conclude
 started: '1998-09-25'
 closed: '2004-11-05'
-bof: false
+bof: true
+never_chartered: false
 chartered: '1998-10-22'
-bof_sessions: []
+bof_sessions:
+- meeting: '42'
+  date: '1998-08-24'
+  url: https://www.ietf.org/proceedings/42/98aug-01.htm
 history_url: https://datatracker.ietf.org/group/policy/history/
 chairs:
 - person: 3862

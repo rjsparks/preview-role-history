@@ -5,9 +5,13 @@ parent: app
 state: conclude
 started: null
 closed: null
-bof: false
+bof: true
+never_chartered: false
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '77'
+  date: '2010-03-21'
+  url: https://www.ietf.org/proceedings/77/agenda.html
 history_url: https://datatracker.ietf.org/group/6lowapp/history/
 chairs:
 - person: 11843

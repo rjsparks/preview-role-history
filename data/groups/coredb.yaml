@@ -5,9 +5,13 @@ parent: ops
 state: conclude
 started: null
 closed: '2000-10-10'
-bof: false
+bof: true
+never_chartered: false
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '38'
+  date: '1997-04-07'
+  url: https://www.ietf.org/proceedings/38/toc-97apr.html
 history_url: https://datatracker.ietf.org/group/coredb/history/
 chairs:
 - person: 15556

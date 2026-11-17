@@ -306,7 +306,7 @@ Dates marked <span class="q">?</span> are not exact; <a href="#dates">reading th
 <thead><tr><th>Chair</th><th>From</th><th>Until</th><th>Basis</th><th><span class="sr">Actions</span></th></tr></thead>
 <tbody>{''.join(lines)}</tbody></table></div>"""
         body = f"""<h1>{e(acronym)} <span class="muted">{e(g.get('name'))}</span></h1>
-<p class="lede">{e('BOF' if g.get('state') in cd.BOF_STATES else TYPE_NAMES.get(g.get('type'), g.get('type')))} in {e(g.get('parent') or 'no area')},
+<p class="lede">{e('BOF' if cd.never_chartered(g) else TYPE_NAMES.get(g.get('type'), g.get('type')))} in {e(g.get('parent') or 'no area')},
 {e(state)}{(', ' + e(life)) if life else ''}.
 <a href="{cd.DATATRACKER}/group/{e(acronym)}/about/">About</a> ·
 <a href="{e(g.get('history_url') or '')}">datatracker history</a></p>
@@ -420,7 +420,7 @@ Each opens a short GitHub issue form, already filled in with the row you clicked
     def bof_history(g):
         sessions = g.get("bof_sessions") or []
         met = ", ".join(f'<a href="{e(b["url"])}">IETF {e(b["meeting"])}</a>' for b in sessions)
-        if g.get("state") in cd.BOF_STATES:
+        if cd.never_chartered(g):
             return "A BOF that was not chartered as a working group" + (f"; it met at {met}" if met else "") + "."
         if not g.get("bof"):
             return ""

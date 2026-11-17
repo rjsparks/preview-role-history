@@ -5,9 +5,13 @@ parent: tsv
 state: conclude
 started: '1996-01-12'
 closed: '2000-10-10'
-bof: false
+bof: true
+never_chartered: false
 chartered: '1996-02-01'
-bof_sessions: []
+bof_sessions:
+- meeting: '34'
+  date: '1995-12-04'
+  url: https://www.ietf.org/proceedings/34/area.and.wg.reports/ops/rtfm/rtfm-minutes-95dec.txt
 history_url: https://datatracker.ietf.org/group/rtfm/history/
 chairs:
 - person: 4417

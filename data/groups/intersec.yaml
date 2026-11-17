@@ -6,11 +6,21 @@ state: conclude
 started: null
 closed: '2003-12-10'
 bof: true
+never_chartered: false
 chartered: null
 bof_sessions:
 - meeting: '56'
   date: '2003-03-16'
   url: https://www.ietf.org/proceedings/56/248.htm
+- meeting: '67'
+  date: '2006-11-05'
+  url: https://www.ietf.org/proceedings/67/IDs/draft-sarolahti-tsvwg-crosslayer-00.txt
+- meeting: '68'
+  date: '2007-03-18'
+  url: https://www.ietf.org/proceedings/68/IDs/draft-sarolahti-tsvwg-crosslayer-01.txt
+- meeting: '69'
+  date: '2007-07-22'
+  url: https://www.ietf.org/proceedings/69/IDs/draft-sarolahti-tsvwg-crosslayer-01.txt
 history_url: https://datatracker.ietf.org/group/intersec/history/
 chairs:
 - person: 2515

@@ -5,9 +5,16 @@ parent: rtg
 state: conclude
 started: '1997-02-20'
 closed: '1999-04-06'
-bof: false
+bof: true
+never_chartered: false
 chartered: '1997-02-20'
-bof_sessions: []
+bof_sessions:
+- meeting: '36'
+  date: '1996-06-24'
+  url: https://www.ietf.org/proceedings/36/OLD/toc-96jun.html
+- meeting: '37'
+  date: '1996-12-09'
+  url: https://www.ietf.org/proceedings/37/index.html
 history_url: https://datatracker.ietf.org/group/qosr/history/
 chairs:
 - person: 10513

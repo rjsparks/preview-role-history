@@ -5,9 +5,13 @@ parent: int
 state: conclude
 started: '1994-10-30'
 closed: '2001-12-06'
-bof: false
+bof: true
+never_chartered: false
 chartered: '1994-11-17'
-bof_sessions: []
+bof_sessions:
+- meeting: '30'
+  date: '1994-07-25'
+  url: https://www.ietf.org/proceedings/30/0mtg-agenda.txt
 history_url: https://datatracker.ietf.org/group/ipngwg/history/
 chairs:
 - person: 2723

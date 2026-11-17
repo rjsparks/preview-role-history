@@ -5,9 +5,13 @@ parent: int
 state: conclude
 started: '1995-03-06'
 closed: '1997-10-16'
-bof: false
+bof: true
+never_chartered: false
 chartered: '1995-03-23'
-bof_sessions: []
+bof_sessions:
+- meeting: '31'
+  date: '1994-12-05'
+  url: https://www.ietf.org/proceedings/31/area.and.wg.reports/ipng/area.ipng.94dec.txt
 history_url: https://datatracker.ietf.org/group/ipv6mib/history/
 chairs:
 - person: 8220

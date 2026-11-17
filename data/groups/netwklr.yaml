@@ -5,9 +5,13 @@ parent: int
 state: conclude
 started: null
 closed: null
-bof: false
+bof: true
+never_chartered: false
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '45'
+  date: '1999-07-11'
+  url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-44.html
 history_url: https://datatracker.ietf.org/group/netwklr/history/
 chairs:
 - person: 1958

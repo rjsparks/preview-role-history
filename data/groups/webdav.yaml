@@ -5,9 +5,13 @@ parent: app
 state: conclude
 started: '1997-03-12'
 closed: '2007-03-13'
-bof: false
+bof: true
+never_chartered: false
 chartered: '1997-03-24'
-bof_sessions: []
+bof_sessions:
+- meeting: '37'
+  date: '1996-12-09'
+  url: https://www.ietf.org/proceedings/37/app/webdav.html
 history_url: https://datatracker.ietf.org/group/webdav/history/
 chairs:
 - person: 11182

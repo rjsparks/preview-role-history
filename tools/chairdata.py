@@ -161,16 +161,21 @@ def earliest_end(end):
     return earliest(value) if value and valid_date(value) else None
 
 
+def never_chartered(group):
+    """A BOF that never became a working group, whatever state the datatracker gives it."""
+    return bool(group.get("never_chartered")) or group.get("state") in BOF_STATES
+
+
 def bof_phase(group, period):
     """"bof" for chairing only the BOF, "bof-wg" for the BOF and then the WG, or None.
 
     None also covers periods whose dates are too uncertain to place against
     the chartering date.
     """
+    if never_chartered(group):
+        return "bof"
     if not group.get("bof"):
         return None
-    if group.get("state") in BOF_STATES:
-        return "bof"
     chartered = group.get("chartered")
     if not chartered or not valid_date(norm_date(chartered)):
         return None

@@ -5,9 +5,13 @@ parent: rai
 state: conclude
 started: '2001-01-18'
 closed: '2013-02-26'
-bof: false
+bof: true
+never_chartered: false
 chartered: '2001-03-08'
-bof_sessions: []
+bof_sessions:
+- meeting: '49'
+  date: '2000-12-10'
+  url: https://www.ietf.org/proceedings/49/00dec-40.htm
 history_url: https://datatracker.ietf.org/group/simple/history/
 chairs:
 - person: 103961

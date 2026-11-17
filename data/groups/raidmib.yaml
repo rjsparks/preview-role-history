@@ -6,8 +6,12 @@ state: bof-conc
 started: null
 closed: '1997-03-01'
 bof: true
+never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '34'
+  date: '1995-12-04'
+  url: https://www.ietf.org/proceedings/34/area.and.wg.reports/mgt/raidmib/raidmib-minutes-95dec.txt
 history_url: https://datatracker.ietf.org/group/raidmib/history/
 chairs:
 - person: 6842
@@ -16,17 +20,21 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1997-03-01'
+      date: '1995-12-04'
     end:
       certainty: group-closed
       date: '1997-03-01'
+    notes:
+    - widened to cover the BOF session in the proceedings
 - person: 19319
   name: Tom Battle
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '1997-03-01'
+      date: '1995-12-04'
     end:
       certainty: group-closed
       date: '1997-03-01'
+    notes:
+    - widened to cover the BOF session in the proceedings

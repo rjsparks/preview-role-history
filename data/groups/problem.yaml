@@ -5,9 +5,13 @@ parent: gen
 state: conclude
 started: '2003-01-28'
 closed: '2004-11-01'
-bof: false
+bof: true
+never_chartered: false
 chartered: '2003-03-06'
-bof_sessions: []
+bof_sessions:
+- meeting: '56'
+  date: '2003-03-16'
+  url: https://www.ietf.org/proceedings/56/134.htm
 history_url: https://datatracker.ietf.org/group/problem/history/
 chairs:
 - person: 3747

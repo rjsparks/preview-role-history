@@ -5,9 +5,13 @@ parent: app
 state: conclude
 started: '2005-06-16'
 closed: '2010-12-10'
-bof: false
+bof: true
+never_chartered: false
 chartered: '2005-07-08'
-bof_sessions: []
+bof_sessions:
+- meeting: '63'
+  date: '2005-07-31'
+  url: https://www.ietf.org/proceedings/63/calsify.txt
 history_url: https://datatracker.ietf.org/group/calsify/history/
 chairs:
 - person: 2097

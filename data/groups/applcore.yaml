@@ -5,9 +5,13 @@ parent: app
 state: conclude
 started: null
 closed: null
-bof: false
+bof: true
+never_chartered: false
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '44'
+  date: '1999-03-14'
+  url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-21.html
 history_url: https://datatracker.ietf.org/group/applcore/history/
 chairs:
 - person: 9909

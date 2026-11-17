@@ -5,9 +5,13 @@ parent: int
 state: conclude
 started: '1995-05-10'
 closed: '1998-01-26'
-bof: false
+bof: true
+never_chartered: false
 chartered: '1995-05-18'
-bof_sessions: []
+bof_sessions:
+- meeting: '32'
+  date: '1995-04-03'
+  url: https://www.ietf.org/proceedings/32/area.and.wg.reports/mgt/vgmib/vgmib-minutes-95apr.txt
 history_url: https://datatracker.ietf.org/group/vgmib/history/
 chairs:
 - person: 8669

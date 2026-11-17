@@ -5,9 +5,13 @@ parent: int
 state: conclude
 started: '2005-06-15'
 closed: '2012-03-06'
-bof: false
+bof: true
+never_chartered: false
 chartered: '2005-10-13'
-bof_sessions: []
+bof_sessions:
+- meeting: '63'
+  date: '2005-07-31'
+  url: https://www.ietf.org/proceedings/63/autoconf.html
 history_url: https://datatracker.ietf.org/group/autoconf/history/
 chairs:
 - person: 105595

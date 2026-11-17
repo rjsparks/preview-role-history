@@ -5,9 +5,16 @@ parent: ops
 state: conclude
 started: '1995-06-16'
 closed: '2000-07-06'
-bof: false
+bof: true
+never_chartered: false
 chartered: '1995-12-21'
-bof_sessions: []
+bof_sessions:
+- meeting: '32'
+  date: '1995-04-03'
+  url: https://www.ietf.org/proceedings/32/area.and.wg.reports/ops/area.operations.95apr.txt
+- meeting: '34'
+  date: '1995-12-04'
+  url: https://www.ietf.org/proceedings/34/area.and.wg.reports/ops/radius/radius-minutes-95dec.txt
 history_url: https://datatracker.ietf.org/group/radius/history/
 chairs:
 - person: 14938

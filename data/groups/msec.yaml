@@ -5,9 +5,13 @@ parent: sec
 state: conclude
 started: '2001-01-17'
 closed: '2011-10-17'
-bof: false
+bof: true
+never_chartered: false
 chartered: '2001-02-08'
-bof_sessions: []
+bof_sessions:
+- meeting: '49'
+  date: '2000-12-10'
+  url: https://www.ietf.org/proceedings/49/00dec-127.htm
 history_url: https://datatracker.ietf.org/group/msec/history/
 chairs:
 - person: 19826

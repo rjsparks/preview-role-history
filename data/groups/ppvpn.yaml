@@ -5,9 +5,13 @@ parent: sub
 state: conclude
 started: '2000-07-06'
 closed: '2003-07-28'
-bof: false
+bof: true
+never_chartered: false
 chartered: '2001-01-31'
-bof_sessions: []
+bof_sessions:
+- meeting: '49'
+  date: '2000-12-10'
+  url: https://www.ietf.org/proceedings/49/00dec-105.htm
 history_url: https://datatracker.ietf.org/group/ppvpn/history/
 chairs:
 - person: 2492

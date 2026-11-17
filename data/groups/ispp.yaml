@@ -5,9 +5,13 @@ parent: sec
 state: conclude
 started: null
 closed: '1997-01-01'
-bof: false
+bof: true
+never_chartered: false
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '33'
+  date: '1995-07-17'
+  url: https://www.ietf.org/proceedings/33/area.and.wg.reports/sec/area.security.95jul/area.security.95jul.txt
 history_url: https://datatracker.ietf.org/group/ispp/history/
 chairs:
 - person: 15647

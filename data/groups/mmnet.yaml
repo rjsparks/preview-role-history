@@ -6,8 +6,15 @@ state: bof-conc
 started: null
 closed: '1997-01-01'
 bof: true
+never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '34'
+  date: '1995-12-04'
+  url: https://www.ietf.org/proceedings/34/index.html
+- meeting: '36'
+  date: '1996-06-24'
+  url: https://www.ietf.org/proceedings/36/OLD/toc-96jun.html
 history_url: https://datatracker.ietf.org/group/mmnet/history/
 chairs:
 - person: 13297
@@ -16,27 +23,33 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1997-01-01'
+      date: '1995-12-04'
     end:
       certainty: group-closed
       date: '1997-01-01'
+    notes:
+    - widened to cover the BOF session in the proceedings
 - person: 18331
   name: Joseph Macker
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '1997-01-01'
+      date: '1995-12-04'
     end:
       certainty: group-closed
       date: '1997-01-01'
+    notes:
+    - widened to cover the BOF session in the proceedings
 - person: 19037
   name: Scott Corson
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '1997-01-01'
+      date: '1995-12-04'
     end:
       certainty: group-closed
       date: '1997-01-01'
+    notes:
+    - widened to cover the BOF session in the proceedings

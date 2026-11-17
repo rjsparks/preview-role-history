@@ -6,8 +6,21 @@ state: bof-conc
 started: null
 closed: '1996-04-12'
 bof: true
+never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '29'
+  date: '1994-03-28'
+  url: https://www.ietf.org/proceedings/29/0mtg-agenda.txt
+- meeting: '30'
+  date: '1994-07-25'
+  url: https://www.ietf.org/proceedings/30/0mtg-agenda.txt
+- meeting: '31'
+  date: '1994-12-05'
+  url: https://www.ietf.org/proceedings/31/area.and.wg.reports/ipng/area.ipng.94dec.txt
+- meeting: '32'
+  date: '1995-04-03'
+  url: https://www.ietf.org/proceedings/32/area.and.wg.reports/ipng/ngtrans/ngtrans-tacit-minutes-95apr.txt
 history_url: https://datatracker.ietf.org/group/tacit/history/
 chairs:
 - person: 106925

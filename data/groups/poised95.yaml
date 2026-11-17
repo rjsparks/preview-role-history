@@ -5,9 +5,13 @@ parent: gen
 state: conclude
 started: '1995-07-01'
 closed: '1996-03-30'
-bof: false
+bof: true
+never_chartered: false
 chartered: '1995-07-13'
-bof_sessions: []
+bof_sessions:
+- meeting: '32'
+  date: '1995-04-03'
+  url: https://www.ietf.org/proceedings/32/area.and.wg.reports/gen/area.general.95apr.txt
 history_url: https://datatracker.ietf.org/group/poised95/history/
 chairs:
 - person: 807

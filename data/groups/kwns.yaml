@@ -6,6 +6,7 @@ state: bof-conc
 started: null
 closed: '2003-12-10'
 bof: true
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '53'
@@ -19,7 +20,9 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-12-10'
+      date: '2002-03-17'
     end:
       certainty: group-closed
       date: '2003-12-10'
+    notes:
+    - widened to cover the BOF session in the proceedings

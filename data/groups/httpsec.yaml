@@ -6,8 +6,15 @@ state: bof-conc
 started: null
 closed: '1997-01-01'
 bof: true
+never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '31'
+  date: '1994-12-05'
+  url: https://www.ietf.org/proceedings/31/area.and.wg.reports/app/area.applications.94dec.txt
+- meeting: '33'
+  date: '1995-07-17'
+  url: https://www.ietf.org/proceedings/33/area.and.wg.reports/app/area.applications.95jul.txt
 history_url: https://datatracker.ietf.org/group/httpsec/history/
 chairs:
 - person: 2900
@@ -16,7 +23,9 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1997-01-01'
+      date: '1994-12-05'
     end:
       certainty: group-closed
       date: '1997-01-01'
+    notes:
+    - widened to cover the BOF session in the proceedings

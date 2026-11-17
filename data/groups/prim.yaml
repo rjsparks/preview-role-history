@@ -6,11 +6,18 @@ state: conclude
 started: '2001-06-20'
 closed: '2003-03-28'
 bof: true
+never_chartered: false
 chartered: '2001-07-27'
 bof_sessions:
+- meeting: '49'
+  date: '2000-12-10'
+  url: https://www.ietf.org/proceedings/49/00dec-39.htm
 - meeting: '50'
   date: '2001-03-18'
   url: https://www.ietf.org/proceedings/50/ietf50-41.htm
+- meeting: '51'
+  date: '2001-08-05'
+  url: https://www.ietf.org/proceedings/51/bettertoc.htm
 history_url: https://datatracker.ietf.org/group/prim/history/
 chairs:
 - person: 16886

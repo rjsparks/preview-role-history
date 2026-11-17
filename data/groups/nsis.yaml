@@ -5,9 +5,16 @@ parent: tsv
 state: conclude
 started: '2001-10-26'
 closed: '2011-03-16'
-bof: false
+bof: true
+never_chartered: false
 chartered: '2001-11-30'
-bof_sessions: []
+bof_sessions:
+- meeting: '50'
+  date: '2001-03-18'
+  url: https://www.ietf.org/proceedings/50/ietf50-160.htm
+- meeting: '51'
+  date: '2001-08-05'
+  url: https://www.ietf.org/proceedings/51/bettertoc.htm
 history_url: https://datatracker.ietf.org/group/nsis/history/
 chairs:
 - person: 104183

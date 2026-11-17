@@ -5,9 +5,13 @@ parent: sec
 state: conclude
 started: null
 closed: '2003-04-11'
-bof: false
+bof: true
+never_chartered: false
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '49'
+  date: '2000-12-10'
+  url: https://www.ietf.org/proceedings/49/00dec-128.htm
 history_url: https://datatracker.ietf.org/group/telsec/history/
 chairs:
 - person: 102141

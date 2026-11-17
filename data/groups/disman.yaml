@@ -5,9 +5,13 @@ parent: ops
 state: conclude
 started: '1996-05-09'
 closed: '2006-07-19'
-bof: false
+bof: true
+never_chartered: false
 chartered: '1996-05-24'
-bof_sessions: []
+bof_sessions:
+- meeting: '32'
+  date: '1995-04-03'
+  url: https://www.ietf.org/proceedings/32/area.and.wg.reports/mgt/disman/disman-minutes-95apr.txt
 history_url: https://datatracker.ietf.org/group/disman/history/
 chairs:
 - person: 10492

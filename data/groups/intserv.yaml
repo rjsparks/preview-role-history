@@ -5,9 +5,13 @@ parent: tsv
 state: conclude
 started: '1994-05-12'
 closed: '2000-12-20'
-bof: false
+bof: true
+never_chartered: false
 chartered: '1994-05-12'
-bof_sessions: []
+bof_sessions:
+- meeting: '29'
+  date: '1994-03-28'
+  url: https://www.ietf.org/proceedings/29/0mtg-agenda.txt
 history_url: https://datatracker.ietf.org/group/intserv/history/
 chairs:
 - person: 182

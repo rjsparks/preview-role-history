@@ -5,9 +5,13 @@ parent: sec
 state: conclude
 started: null
 closed: '2006-01-26'
-bof: false
+bof: true
+never_chartered: false
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '63'
+  date: '2005-07-31'
+  url: https://www.ietf.org/proceedings/63/hash.txt
 history_url: https://datatracker.ietf.org/group/hash/history/
 chairs:
 - person: 10083

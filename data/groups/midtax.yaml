@@ -5,9 +5,16 @@ parent: gen
 state: conclude
 started: null
 closed: '2003-12-10'
-bof: false
+bof: true
+never_chartered: false
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '50'
+  date: '2001-03-18'
+  url: https://www.ietf.org/proceedings/50/ietf50-44.htm
+- meeting: '51'
+  date: '2001-08-05'
+  url: https://www.ietf.org/proceedings/51/bettertoc.htm
 history_url: https://datatracker.ietf.org/group/midtax/history/
 chairs:
 - person: 1958

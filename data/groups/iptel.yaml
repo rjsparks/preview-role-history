@@ -6,6 +6,7 @@ state: conclude
 started: '1998-01-23'
 closed: '2009-03-11'
 bof: false
+never_chartered: false
 chartered: '1998-03-09'
 bof_sessions: []
 history_url: https://datatracker.ietf.org/group/iptel/history/
@@ -52,9 +53,9 @@ chairs:
       subject: '[Iptel] FW: IPTEL Minutes - IETF 61'
       url: https://mailarchive.ietf.org/arch/msg/iptel/VgvUCZLiGAp6MHGdZXt7nl4oXok/
   - kind: proceedings
-    listed_in: 37
+    listed_in: 23
     first: '1998-04-01'
-    last: '2008-03-09'
+    last: '2007-10-15'
     examples:
     - date: '1998-04-01'
       subject: IETF 41 proceedings charter (last modified)
@@ -62,9 +63,9 @@ chairs:
     - date: '1998-07-31'
       subject: IETF 42 proceedings charter (last modified)
       url: https://www.ietf.org/proceedings/42/98aug-131.htm
-    - date: '2008-03-09'
-      subject: IETF 71 proceedings charter
-      url: https://www.ietf.org/proceedings/71/RFCs/bcp/bcp25.txt
+    - date: '2007-10-15'
+      subject: IETF 71 proceedings charter (last modified)
+      url: https://www.ietf.org/proceedings/71/iptel.html
 - person: 105791
   name: Cullen Jennings
   status: unconfirmed

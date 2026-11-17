@@ -6,6 +6,7 @@ state: bof-conc
 started: null
 closed: '2005-05-11'
 bof: true
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '58'
@@ -14,6 +15,15 @@ bof_sessions:
 - meeting: '59'
   date: '2004-02-29'
   url: https://www.ietf.org/proceedings/59/156.htm
+- meeting: '61'
+  date: '2004-11-07'
+  url: https://www.ietf.org/proceedings/61/dnm.html
+- meeting: '62'
+  date: '2005-03-06'
+  url: https://www.ietf.org/proceedings/62/hipbof.html
+- meeting: '63'
+  date: '2005-07-31'
+  url: https://www.ietf.org/proceedings/63/pr.html
 history_url: https://datatracker.ietf.org/group/hipbof/history/
 chairs:
 - person: 23057

@@ -5,9 +5,13 @@ parent: rtg
 state: conclude
 started: '1997-06-02'
 closed: '2011-06-14'
-bof: false
+bof: true
+never_chartered: false
 chartered: '1997-06-12'
-bof_sessions: []
+bof_sessions:
+- meeting: '38'
+  date: '1997-04-07'
+  url: https://www.ietf.org/proceedings/38/97apr-final/httoc.htm
 history_url: https://datatracker.ietf.org/group/vrrp/history/
 chairs:
 - person: 405

@@ -5,9 +5,13 @@ parent: int
 state: conclude
 started: '2005-06-01'
 closed: '2007-11-20'
-bof: false
+bof: true
+never_chartered: false
 chartered: '2005-10-01'
-bof_sessions: []
+bof_sessions:
+- meeting: '63'
+  date: '2005-07-31'
+  url: https://www.ietf.org/proceedings/63/monami6.txt
 history_url: https://datatracker.ietf.org/group/monami6/history/
 chairs:
 - person: 105712

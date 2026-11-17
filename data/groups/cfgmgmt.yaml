@@ -5,9 +5,13 @@ parent: ops
 state: conclude
 started: null
 closed: null
-bof: false
+bof: true
+never_chartered: false
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '46'
+  date: '1999-11-07'
+  url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-90.html
 history_url: https://datatracker.ietf.org/group/cfgmgmt/history/
 chairs:
 - person: 6842

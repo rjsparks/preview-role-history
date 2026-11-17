@@ -5,9 +5,13 @@ parent: ops
 state: conclude
 started: '1995-09-21'
 closed: '2006-02-13'
-bof: false
+bof: true
+never_chartered: false
 chartered: '1995-09-28'
-bof_sessions: []
+bof_sessions:
+- meeting: '33'
+  date: '1995-07-17'
+  url: https://www.ietf.org/proceedings/33/area.and.wg.reports/mgt/area.netmanagement.95jul.txt
 history_url: https://datatracker.ietf.org/group/entmib/history/
 chairs:
 - person: 2731

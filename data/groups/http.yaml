@@ -5,9 +5,13 @@ parent: app
 state: conclude
 started: '1995-01-20'
 closed: '2000-10-11'
-bof: false
+bof: true
+never_chartered: false
 chartered: '1995-01-26'
-bof_sessions: []
+bof_sessions:
+- meeting: '31'
+  date: '1994-12-05'
+  url: https://www.ietf.org/proceedings/31/area.and.wg.reports/app/area.applications.94dec.txt
 history_url: https://datatracker.ietf.org/group/http/history/
 chairs:
 - person: 6861

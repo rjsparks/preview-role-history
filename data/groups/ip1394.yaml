@@ -5,9 +5,13 @@ parent: int
 state: conclude
 started: '1997-07-07'
 closed: '2000-06-16'
-bof: false
+bof: true
+never_chartered: false
 chartered: '1997-07-11'
-bof_sessions: []
+bof_sessions:
+- meeting: '38'
+  date: '1997-04-07'
+  url: https://www.ietf.org/proceedings/38/97apr-final/httoc.htm
 history_url: https://datatracker.ietf.org/group/ip1394/history/
 chairs:
 - person: 4475

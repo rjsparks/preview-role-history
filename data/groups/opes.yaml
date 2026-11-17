@@ -6,8 +6,15 @@ state: conclude
 started: '2001-05-16'
 closed: '2007-03-17'
 bof: true
+never_chartered: false
 chartered: '2002-02-21'
 bof_sessions:
+- meeting: '49'
+  date: '2000-12-10'
+  url: https://www.ietf.org/proceedings/49/00dec-38.htm
+- meeting: '50'
+  date: '2001-03-18'
+  url: https://www.ietf.org/proceedings/50/ietf50-40.htm
 - meeting: '51'
   date: '2001-08-05'
   url: https://www.ietf.org/proceedings/51/51-39.htm

@@ -5,9 +5,13 @@ parent: ops
 state: conclude
 started: '1995-12-18'
 closed: '1998-06-26'
-bof: false
+bof: true
+never_chartered: false
 chartered: '1995-12-21'
-bof_sessions: []
+bof_sessions:
+- meeting: '34'
+  date: '1995-12-04'
+  url: https://www.ietf.org/proceedings/34/area.and.wg.reports/ops/pier/pier-minutes-95dec.txt
 history_url: https://datatracker.ietf.org/group/pier/history/
 chairs:
 - person: 2762

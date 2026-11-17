@@ -6,8 +6,12 @@ state: bof-conc
 started: null
 closed: '1997-01-01'
 bof: true
+never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '29'
+  date: '1994-03-28'
+  url: https://www.ietf.org/proceedings/29/0mtg-agenda.txt
 history_url: https://datatracker.ietf.org/group/compen/history/
 chairs:
 - person: 8663
@@ -16,17 +20,21 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1997-01-01'
+      date: '1994-03-28'
     end:
       certainty: group-closed
       date: '1997-01-01'
+    notes:
+    - widened to cover the BOF session in the proceedings
 - person: 13935
   name: Matt Lukens
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '1997-01-01'
+      date: '1994-03-28'
     end:
       certainty: group-closed
       date: '1997-01-01'
+    notes:
+    - widened to cover the BOF session in the proceedings

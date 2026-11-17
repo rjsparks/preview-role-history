@@ -5,9 +5,13 @@ parent: usv
 state: conclude
 started: null
 closed: '1997-01-01'
-bof: false
+bof: true
+never_chartered: false
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '29'
+  date: '1994-03-28'
+  url: https://www.ietf.org/proceedings/29/0mtg-agenda.txt
 history_url: https://datatracker.ietf.org/group/telework/history/
 chairs:
 - person: 1310

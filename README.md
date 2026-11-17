@@ -62,8 +62,9 @@ chairs:
   | `ongoing` | current chair (ends only) | none |
 
 - **sources**: required on any entry a pull request adds or changes. Links or citations.
-- **Group fields** `bof`, `chartered` and `bof_sessions` say whether the group began as a
-  BOF, when it was first chartered, and which BOF sessions the meeting proceedings show.
+- **Group fields** `bof`, `never_chartered`, `chartered` and `bof_sessions` say whether the
+  group began as a BOF, whether it never became a working group, when it was first
+  chartered, and which BOF sessions the meeting proceedings show.
   The site uses them to mark chairing that was only for the BOF ("BOF only") or that
   carried on into the working group ("BOF, then WG"). Correct them like any other field.
 - **evidence**: written by the seed extraction (announcements, session requests, documents

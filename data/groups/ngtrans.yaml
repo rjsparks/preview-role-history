@@ -5,9 +5,13 @@ parent: ops
 state: conclude
 started: '1994-11-28'
 closed: '2003-02-04'
-bof: false
+bof: true
+never_chartered: false
 chartered: '1994-12-22'
-bof_sessions: []
+bof_sessions:
+- meeting: '31'
+  date: '1994-12-05'
+  url: https://www.ietf.org/proceedings/31/area.and.wg.reports/ipng/area.ipng.94dec.txt
 history_url: https://datatracker.ietf.org/group/ngtrans/history/
 chairs:
 - person: 833

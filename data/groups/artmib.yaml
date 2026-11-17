@@ -5,9 +5,13 @@ parent: ops
 state: conclude
 started: null
 closed: null
-bof: false
+bof: true
+never_chartered: false
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '42'
+  date: '1998-08-24'
+  url: https://www.ietf.org/proceedings/42/98aug-93.htm
 history_url: https://datatracker.ietf.org/group/artmib/history/
 chairs:
 - person: 5857

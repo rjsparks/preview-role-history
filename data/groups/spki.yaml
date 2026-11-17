@@ -5,9 +5,16 @@ parent: sec
 state: conclude
 started: '1997-01-29'
 closed: '2001-02-10'
-bof: false
+bof: true
+never_chartered: false
 chartered: '1997-01-29'
-bof_sessions: []
+bof_sessions:
+- meeting: '35'
+  date: '1996-03-04'
+  url: https://www.ietf.org/proceedings/35/area.and.wg.reports/sec/spki/spki.html
+- meeting: '37'
+  date: '1996-12-09'
+  url: https://www.ietf.org/proceedings/37/index.html
 history_url: https://datatracker.ietf.org/group/spki/history/
 chairs:
 - person: 5797

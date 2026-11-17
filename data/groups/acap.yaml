@@ -5,9 +5,13 @@ parent: app
 state: conclude
 started: '1996-10-24'
 closed: '2004-04-22'
-bof: false
+bof: true
+never_chartered: false
 chartered: '1996-11-05'
-bof_sessions: []
+bof_sessions:
+- meeting: '36'
+  date: '1996-06-24'
+  url: https://www.ietf.org/proceedings/36/OLD/toc-96jun.html
 history_url: https://datatracker.ietf.org/group/acap/history/
 chairs:
 - person: 9909

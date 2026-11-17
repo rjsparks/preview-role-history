@@ -5,9 +5,16 @@ parent: sec
 state: conclude
 started: '1997-10-30'
 closed: '2010-10-12'
-bof: false
+bof: true
+never_chartered: false
 chartered: '1997-11-06'
-bof_sessions: []
+bof_sessions:
+- meeting: '37'
+  date: '1996-12-09'
+  url: https://www.ietf.org/proceedings/37/index.html
+- meeting: '38'
+  date: '1997-04-07'
+  url: https://www.ietf.org/proceedings/38/toc-97apr.html
 history_url: https://datatracker.ietf.org/group/smime/history/
 chairs:
 - person: 5376

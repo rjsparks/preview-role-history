@@ -6,6 +6,7 @@ state: bof-conc
 started: null
 closed: '2003-12-10'
 bof: true
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '51'
@@ -19,17 +20,21 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-12-10'
+      date: '2001-08-05'
     end:
       certainty: group-closed
       date: '2003-12-10'
+    notes:
+    - widened to cover the BOF session in the proceedings
 - person: 123306
   name: Subir Das
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-12-10'
+      date: '2001-08-05'
     end:
       certainty: group-closed
       date: '2003-12-10'
+    notes:
+    - widened to cover the BOF session in the proceedings

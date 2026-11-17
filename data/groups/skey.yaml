@@ -6,8 +6,12 @@ state: bof-conc
 started: null
 closed: '1997-01-01'
 bof: true
+never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '32'
+  date: '1995-04-03'
+  url: https://www.ietf.org/proceedings/32/area.and.wg.reports/sec/area.security.95apr/area.security.95apr.txt
 history_url: https://datatracker.ietf.org/group/skey/history/
 chairs:
 - person: 3367
@@ -16,17 +20,21 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1997-01-01'
+      date: '1995-04-03'
     end:
       certainty: group-closed
       date: '1997-01-01'
+    notes:
+    - widened to cover the BOF session in the proceedings
 - person: 111048
   name: Ran Atkinson
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '1997-01-01'
+      date: '1995-04-03'
     end:
       certainty: group-closed
       date: '1997-01-01'
+    notes:
+    - widened to cover the BOF session in the proceedings

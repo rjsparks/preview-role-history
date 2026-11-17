@@ -227,6 +227,11 @@ class BofPhaseTests(unittest.TestCase):
         self.assertEqual(cd.bof_phase(g, self.period({"certainty": "evidence-only", "not_after": "2010-03"},
                                                      {"certainty": "group-closed", "date": "2010-11-01"})), "bof")
 
+    def test_bof_the_datatracker_shows_as_concluded(self):
+        g = {"bof": True, "state": "conclude", "never_chartered": True, "chartered": None}
+        p = self.period({"certainty": "on-or-before", "date": "2003-12-10"}, {"certainty": "group-closed", "date": "2003-12-10"})
+        self.assertEqual(cd.bof_phase(g, p), "bof")
+
     def test_chartered_group(self):
         g = {"bof": True, "state": "conclude", "chartered": "2001-11-01"}
         bof_only = self.period({"certainty": "evidence-only", "not_after": "2001-08-05"},

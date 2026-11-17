@@ -5,9 +5,13 @@ parent: rtg
 state: conclude
 started: '1995-02-10'
 closed: '2001-04-05'
-bof: false
+bof: true
+never_chartered: false
 chartered: '1995-02-27'
-bof_sessions: []
+bof_sessions:
+- meeting: '31'
+  date: '1994-12-05'
+  url: https://www.ietf.org/proceedings/31/area.and.wg.reports/mgt/dlswmib/dlswmib-minutes-94dec.txt
 history_url: https://datatracker.ietf.org/group/dlswmib/history/
 chairs:
 - person: 10713
