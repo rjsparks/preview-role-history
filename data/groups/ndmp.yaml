@@ -5,6 +5,15 @@ parent: app
 state: conclude
 started: null
 closed: '2003-12-10'
+bof: true
+chartered: null
+bof_sessions:
+- meeting: '52'
+  date: '2001-12-09'
+  url: https://www.ietf.org/proceedings/52/131.htm
+- meeting: '53'
+  date: '2002-03-17'
+  url: https://www.ietf.org/proceedings/53/133.htm
 history_url: https://datatracker.ietf.org/group/ndmp/history/
 chairs:
 - person: 18587

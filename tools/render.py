@@ -32,6 +32,10 @@ CERTAINTY_HELP = {
     "evidence-only": "No datatracker record of the role, so this is the earliest or latest evidence we have.",
     "ongoing": "Current chair.",
 }
+PHASES = {
+    "bof": ("BOF only", "Chaired the BOF, before the group was chartered as a working group (or it never was)."),
+    "bof-wg": ("BOF, then WG", "Chaired the BOF and carried on as chair once the group was chartered."),
+}
 # (which end, example bound, what it means)
 DATE_FORMS = [
     ("start", {"certainty": "exact", "date": "2012-03-04"}, "Recorded on the day the change was made."),
@@ -259,7 +263,7 @@ class Site:
         flat.sort(key=lambda r: (r[0] is None, r[0] or 0, r[1]["acronym"]))
         for _, g, entry, p in flat:
             lines.append(f"""<tr>
-  <td><a href="{self.group_href(g['acronym'], 1)}">{e(g['acronym'])}</a> <span class="muted">{e(g.get('name'))}</span></td>
+  <td><a href="{self.group_href(g['acronym'], 1)}">{e(g['acronym'])}</a> <span class="muted">{e(g.get('name'))}</span>{self.phase_badge(g, p)}</td>
   <td>{self.bound_cell(p['start'], 'start')}</td>
   <td>{self.bound_cell(p['end'], 'end')}</td>
   <td>{self.status_html(entry)}{self.evidence_html(entry, 1)}</td>
@@ -289,7 +293,7 @@ Dates marked <span class="q">?</span> are not exact; <a href="#dates">reading th
                 rows.append((cd.earliest_start(p["start"]) or cd.latest_end(p["end"]), name, key, entry, p))
         rows.sort(key=lambda r: (r[0] is None, r[0] or 0, surname_key(r[1])))
         lines = [f"""<tr>
-  <td><a href="{self.person_href(key, 1)}">{e(name)}</a></td>
+  <td><a href="{self.person_href(key, 1)}">{e(name)}</a>{self.phase_badge(g, p)}</td>
   <td>{self.bound_cell(p['start'], 'start')}</td>
   <td>{self.bound_cell(p['end'], 'end')}</td>
   <td>{self.status_html(entry)}{self.evidence_html(entry, 1)}</td>
@@ -302,10 +306,11 @@ Dates marked <span class="q">?</span> are not exact; <a href="#dates">reading th
 <thead><tr><th>Chair</th><th>From</th><th>Until</th><th>Basis</th><th><span class="sr">Actions</span></th></tr></thead>
 <tbody>{''.join(lines)}</tbody></table></div>"""
         body = f"""<h1>{e(acronym)} <span class="muted">{e(g.get('name'))}</span></h1>
-<p class="lede">{e(TYPE_NAMES.get(g.get('type'), g.get('type')))} in {e(g.get('parent') or 'no area')},
+<p class="lede">{e('BOF' if g.get('state') in cd.BOF_STATES else TYPE_NAMES.get(g.get('type'), g.get('type')))} in {e(g.get('parent') or 'no area')},
 {e(state)}{(', ' + e(life)) if life else ''}.
 <a href="{cd.DATATRACKER}/group/{e(acronym)}/about/">About</a> ·
 <a href="{e(g.get('history_url') or '')}">datatracker history</a></p>
+{('<p>' + self.bof_history(g) + '</p>') if self.bof_history(g) else ''}
 <p>Know who chaired {e(acronym)} and when? <a class="act" href="{e(missing)}">Tell us about a missing chair</a>,
 or use the links on each row. Dates marked <span class="q">?</span> are not exact;
 <a href="#dates">reading the dates</a> explains each form.</p>
@@ -403,6 +408,25 @@ Each opens a short GitHub issue form, already filled in with the row you clicked
             f'<span id="{target}-count" class="muted" aria-live="polite"></span></p>'
         )
 
+    @staticmethod
+    def phase_badge(g, p):
+        phase = cd.bof_phase(g, p)
+        if not phase:
+            return ""
+        label, meaning = PHASES[phase]
+        return f' <span class="tag tag-{phase}" title="{e(meaning)}">{e(label)}</span>'
+
+    @staticmethod
+    def bof_history(g):
+        sessions = g.get("bof_sessions") or []
+        met = ", ".join(f'<a href="{e(b["url"])}">IETF {e(b["meeting"])}</a>' for b in sessions)
+        if g.get("state") in cd.BOF_STATES:
+            return "A BOF that was not chartered as a working group" + (f"; it met at {met}" if met else "") + "."
+        if not g.get("bof"):
+            return ""
+        when = f" Chartered {e(g['chartered'])}." if g.get("chartered") else ""
+        return ("Held as a BOF" + (f" at {met}" if met else "") + " before being chartered." + when).strip()
+
     def glossary(self):
         rows = "".join(
             f"<dt>{self.bound_cell(bound, which)}</dt><dd>{e(meaning)}</dd>" for which, bound, meaning in DATE_FORMS
@@ -410,7 +434,11 @@ Each opens a short GitHub issue form, already filled in with the row you clicked
         return (
             '<section class="glossary" id="dates"><h2>Reading the dates</h2>'
             '<p>A <span class="q">?</span> marks a date that is not exact. Those are the dates most worth checking.</p>'
-            f"<dl>{rows}</dl></section>"
+            f"<dl>{rows}</dl>"
+            "<p>Rows for groups that began as a BOF may say which part the person chaired:</p><dl>"
+            + "".join(f'<dt><span class="tag tag-{k}">{e(label)}</span></dt><dd>{e(meaning)}</dd>'
+                      for k, (label, meaning) in PHASES.items())
+            + "</dl></section>"
         )
 
     def build(self, assets):

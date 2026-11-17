@@ -5,6 +5,12 @@ parent: int
 state: conclude
 started: null
 closed: '1999-09-01'
+bof: true
+chartered: null
+bof_sessions:
+- meeting: '44'
+  date: '1999-03-14'
+  url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-47.html
 history_url: https://datatracker.ietf.org/group/nits/history/
 chairs:
 - person: 16916

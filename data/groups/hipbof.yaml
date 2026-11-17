@@ -5,6 +5,15 @@ parent: int
 state: bof-conc
 started: null
 closed: '2005-05-11'
+bof: true
+chartered: null
+bof_sessions:
+- meeting: '58'
+  date: '2003-11-09'
+  url: https://www.ietf.org/proceedings/58/151.htm
+- meeting: '59'
+  date: '2004-02-29'
+  url: https://www.ietf.org/proceedings/59/156.htm
 history_url: https://datatracker.ietf.org/group/hipbof/history/
 chairs:
 - person: 23057

@@ -5,6 +5,12 @@ parent: app
 state: conclude
 started: '2004-11-23'
 closed: '2012-11-14'
+bof: true
+chartered: '2004-11-23'
+bof_sessions:
+- meeting: '41'
+  date: '1998-03-30'
+  url: https://www.ietf.org/proceedings/41/98mar-edited-43.htm
 history_url: https://datatracker.ietf.org/group/sieve/history/
 chairs:
 - person: 101054

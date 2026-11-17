@@ -5,6 +5,15 @@ parent: int
 state: bof-conc
 started: null
 closed: null
+bof: true
+chartered: null
+bof_sessions:
+- meeting: '79'
+  date: '2010-11-07'
+  url: https://www.ietf.org/proceedings/79/lwip.html
+- meeting: '80'
+  date: '2011-03-27'
+  url: https://www.ietf.org/proceedings/80/lwip.html
 history_url: https://datatracker.ietf.org/group/lwip/history/
 chairs:
 - person: 2793

@@ -5,6 +5,12 @@ parent: int
 state: conclude
 started: '2002-06-14'
 closed: '2008-05-30'
+bof: true
+chartered: '2002-07-25'
+bof_sessions:
+- meeting: '53'
+  date: '2002-03-17'
+  url: https://www.ietf.org/proceedings/53/206.htm
 history_url: https://datatracker.ietf.org/group/eap/history/
 chairs:
 - person: 12620

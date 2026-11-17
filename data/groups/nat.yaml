@@ -5,6 +5,15 @@ parent: tsv
 state: conclude
 started: '1997-11-19'
 closed: '2002-02-06'
+bof: true
+chartered: '1998-03-06'
+bof_sessions:
+- meeting: '39'
+  date: '1997-08-11'
+  url: https://www.ietf.org/proceedings/39/transit97aug-124.htm
+- meeting: '40'
+  date: '1997-12-08'
+  url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-130.htm
 history_url: https://datatracker.ietf.org/group/nat/history/
 chairs:
 - person: 6837

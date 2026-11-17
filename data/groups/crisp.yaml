@@ -5,6 +5,12 @@ parent: app
 state: conclude
 started: '2002-05-17'
 closed: '2009-03-05'
+bof: true
+chartered: '2002-06-27'
+bof_sessions:
+- meeting: '53'
+  date: '2002-03-17'
+  url: https://www.ietf.org/proceedings/53/131.htm
 history_url: https://datatracker.ietf.org/group/crisp/history/
 chairs:
 - person: 4356

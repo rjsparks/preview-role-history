@@ -5,6 +5,12 @@ parent: app
 state: conclude
 started: '1999-10-22'
 closed: '2008-06-16'
+bof: true
+chartered: '2000-05-04'
+bof_sessions:
+- meeting: '47'
+  date: '2000-03-26'
+  url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-38.html
 history_url: https://datatracker.ietf.org/group/imapext/history/
 chairs:
 - person: 18321

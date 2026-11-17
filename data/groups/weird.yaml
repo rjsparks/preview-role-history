@@ -5,6 +5,12 @@ parent: usv
 state: conclude
 started: '1999-04-26'
 closed: '2001-02-17'
+bof: true
+chartered: '1999-05-06'
+bof_sessions:
+- meeting: '44'
+  date: '1999-03-14'
+  url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-149.html
 history_url: https://datatracker.ietf.org/group/weird/history/
 chairs:
 - person: 102892

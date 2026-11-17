@@ -5,6 +5,9 @@ parent: int
 state: conclude
 started: '1990-02-01'
 closed: '1990-12-03'
+bof: false
+chartered: '1990-02-01'
+bof_sessions: []
 history_url: https://datatracker.ietf.org/group/smds/history/
 chairs:
 - person: 2769

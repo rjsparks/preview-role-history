@@ -5,6 +5,12 @@ parent: app
 state: bof-conc
 started: null
 closed: '1995-07-21'
+bof: true
+chartered: null
+bof_sessions:
+- meeting: '56'
+  date: '2003-03-16'
+  url: https://www.ietf.org/proceedings/56/131.htm
 history_url: https://datatracker.ietf.org/group/uribof/history/
 chairs:
 - person: 4867

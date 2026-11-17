@@ -5,6 +5,12 @@ parent: int
 state: conclude
 started: null
 closed: '2003-12-10'
+bof: true
+chartered: null
+bof_sessions:
+- meeting: '56'
+  date: '2003-03-16'
+  url: https://www.ietf.org/proceedings/56/154.htm
 history_url: https://datatracker.ietf.org/group/nsiim/history/
 chairs:
 - person: 101390

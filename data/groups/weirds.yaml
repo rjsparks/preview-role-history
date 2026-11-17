@@ -5,6 +5,12 @@ parent: app
 state: conclude
 started: '2012-04-20'
 closed: '2015-03-25'
+bof: true
+chartered: '2012-05-15'
+bof_sessions:
+- meeting: '82'
+  date: '2011-11-13'
+  url: https://www.ietf.org/proceedings/82/weirds.html
 history_url: https://datatracker.ietf.org/group/weirds/history/
 chairs:
 - person: 106842

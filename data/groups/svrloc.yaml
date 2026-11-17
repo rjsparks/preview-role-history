@@ -5,6 +5,9 @@ parent: int
 state: conclude
 started: '1990-12-01'
 closed: '2001-05-31'
+bof: false
+chartered: '1990-12-01'
+bof_sessions: []
 history_url: https://datatracker.ietf.org/group/svrloc/history/
 chairs:
 - person: 2831

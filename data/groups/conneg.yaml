@@ -5,6 +5,12 @@ parent: app
 state: conclude
 started: '1998-02-05'
 closed: '2000-10-05'
+bof: true
+chartered: '1998-02-12'
+bof_sessions:
+- meeting: '40'
+  date: '1997-12-08'
+  url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-29.htm
 history_url: https://datatracker.ietf.org/group/conneg/history/
 chairs:
 - person: 110721

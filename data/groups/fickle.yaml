@@ -5,6 +5,12 @@ parent: int
 state: conclude
 started: null
 closed: '2003-12-10'
+bof: true
+chartered: null
+bof_sessions:
+- meeting: '47'
+  date: '2000-03-26'
+  url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-60.html
 history_url: https://datatracker.ietf.org/group/fickle/history/
 chairs:
 - person: 10513

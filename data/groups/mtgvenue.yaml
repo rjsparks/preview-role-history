@@ -5,6 +5,15 @@ parent: gen
 state: conclude
 started: '2016-02-26'
 closed: '2020-04-29'
+bof: true
+chartered: '2016-07-01'
+bof_sessions:
+- meeting: '94'
+  date: '2015-11-01'
+  url: https://www.ietf.org/proceedings/94/mtgvenue.html
+- meeting: '95'
+  date: '2016-04-03'
+  url: https://www.ietf.org/proceedings/95/mtgvenue.html
 history_url: https://datatracker.ietf.org/group/mtgvenue/history/
 chairs:
 - person: 2853

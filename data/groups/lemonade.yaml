@@ -5,6 +5,15 @@ parent: app
 state: conclude
 started: '2002-12-06'
 closed: '2010-02-11'
+bof: true
+chartered: '2003-02-27'
+bof_sessions:
+- meeting: '54'
+  date: '2002-07-14'
+  url: https://www.ietf.org/proceedings/54/131.htm
+- meeting: '56'
+  date: '2003-03-16'
+  url: https://www.ietf.org/proceedings/56/130.htm
 history_url: https://datatracker.ietf.org/group/lemonade/history/
 chairs:
 - person: 19651

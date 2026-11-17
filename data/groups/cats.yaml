@@ -5,6 +5,12 @@ parent: rtg
 state: active
 started: '2023-03-02'
 closed: null
+bof: true
+chartered: '2023-03-03'
+bof_sessions:
+- meeting: '53'
+  date: '2002-03-17'
+  url: https://www.ietf.org/proceedings/53/236.htm
 history_url: https://datatracker.ietf.org/group/cats/history/
 chairs:
 - person: 104198

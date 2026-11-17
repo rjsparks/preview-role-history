@@ -5,6 +5,12 @@ parent: int
 state: conclude
 started: null
 closed: '2005-05-11'
+bof: true
+chartered: null
+bof_sessions:
+- meeting: '60'
+  date: '2004-08-01'
+  url: https://www.ietf.org/proceedings/60/158.htm
 history_url: https://datatracker.ietf.org/group/ipvlx/history/
 chairs:
 - person: 8243

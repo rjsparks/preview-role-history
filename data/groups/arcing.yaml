@@ -5,6 +5,15 @@ parent: int
 state: bof-conc
 started: '2016-02-26'
 closed: '2016-06-10'
+bof: true
+chartered: null
+bof_sessions:
+- meeting: '94'
+  date: '2015-11-01'
+  url: https://www.ietf.org/proceedings/94/arcing.html
+- meeting: '95'
+  date: '2016-04-03'
+  url: https://www.ietf.org/proceedings/95/arcing.html
 history_url: https://datatracker.ietf.org/group/arcing/history/
 chairs:
 - person: 18009

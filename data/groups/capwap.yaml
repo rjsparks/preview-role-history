@@ -5,6 +5,15 @@ parent: ops
 state: conclude
 started: '2004-01-02'
 closed: '2010-05-10'
+bof: true
+chartered: '2004-01-22'
+bof_sessions:
+- meeting: '57'
+  date: '2003-07-13'
+  url: https://www.ietf.org/proceedings/57/181.htm
+- meeting: '58'
+  date: '2003-11-09'
+  url: https://www.ietf.org/proceedings/58/176.htm
 history_url: https://datatracker.ietf.org/group/capwap/history/
 chairs:
 - person: 106530

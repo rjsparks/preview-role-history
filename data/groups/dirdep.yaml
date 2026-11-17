@@ -5,6 +5,12 @@ parent: app
 state: conclude
 started: null
 closed: '2000-06-05'
+bof: true
+chartered: null
+bof_sessions:
+- meeting: '39'
+  date: '1997-08-11'
+  url: https://www.ietf.org/proceedings/39/transit97aug-35.htm
 history_url: https://datatracker.ietf.org/group/dirdep/history/
 chairs:
 - person: 10500

@@ -214,7 +214,34 @@ class RenderTests(DataDirMixin, unittest.TestCase):
         self.assertIn(">by 2006-03-19<", person)  # the legend shows each form as dates appear
         self.assertIn('href="#dates"', person)
         self.assertNotIn("on-or-before</dt>", person)
+        self.assertIn("BOF only", (out / "index.html").read_text() + person)  # explained in the legend
         self.assertIn("about 1995", (out / "people" / "n-old-timer.html").read_text())
+
+
+class BofPhaseTests(unittest.TestCase):
+    def period(self, start, end):
+        return {"start": start, "end": end}
+
+    def test_never_chartered_bof(self):
+        g = {"bof": True, "state": "bof-conc"}
+        self.assertEqual(cd.bof_phase(g, self.period({"certainty": "evidence-only", "not_after": "2010-03"},
+                                                     {"certainty": "group-closed", "date": "2010-11-01"})), "bof")
+
+    def test_chartered_group(self):
+        g = {"bof": True, "state": "conclude", "chartered": "2001-11-01"}
+        bof_only = self.period({"certainty": "evidence-only", "not_after": "2001-08-05"},
+                               {"certainty": "between", "not_before": "2001-08-05", "not_after": "2001-10-01"})
+        through = self.period({"certainty": "on-or-before", "date": "2001-08-14"},
+                              {"certainty": "group-closed", "date": "2009-05-01"})
+        at_charter = self.period({"certainty": "approximate", "date": "2001-10-25"},
+                                 {"certainty": "group-closed", "date": "2009-05-01"})
+        unknown_end = self.period({"certainty": "evidence-only", "not_after": "2001-08-14"},
+                                  {"certainty": "evidence-only", "not_before": "2001-09-01"})
+        self.assertEqual(cd.bof_phase(g, bof_only), "bof")
+        self.assertEqual(cd.bof_phase(g, through), "bof-wg")
+        self.assertIsNone(cd.bof_phase(g, at_charter))  # named at chartering, days before the state change
+        self.assertIsNone(cd.bof_phase(g, unknown_end))  # might have ended before or after chartering
+        self.assertIsNone(cd.bof_phase({"bof": False, "chartered": "2001-11-01"}, through))
 
 
 class DescribeTests(unittest.TestCase):

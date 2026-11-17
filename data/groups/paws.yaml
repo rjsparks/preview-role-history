@@ -5,6 +5,15 @@ parent: app
 state: conclude
 started: '2011-06-14'
 closed: '2015-05-22'
+bof: true
+chartered: '2011-06-14'
+bof_sessions:
+- meeting: '79'
+  date: '2010-11-07'
+  url: https://www.ietf.org/proceedings/79/paws.html
+- meeting: '80'
+  date: '2011-03-27'
+  url: https://www.ietf.org/proceedings/80/paws.html
 history_url: https://datatracker.ietf.org/group/paws/history/
 chairs:
 - person: 106987

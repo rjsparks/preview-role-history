@@ -5,6 +5,12 @@ parent: app
 state: conclude
 started: '2003-10-13'
 closed: '2011-08-02'
+bof: true
+chartered: '2004-01-28'
+bof_sessions:
+- meeting: '58'
+  date: '2003-11-09'
+  url: https://www.ietf.org/proceedings/58/152.htm
 history_url: https://datatracker.ietf.org/group/ipdvb/history/
 chairs:
 - person: 104331

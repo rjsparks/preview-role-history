@@ -5,6 +5,12 @@ parent: app
 state: conclude
 started: '1997-07-22'
 closed: '1999-11-15'
+bof: true
+chartered: '1997-07-24'
+bof_sessions:
+- meeting: '38'
+  date: '1997-04-07'
+  url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr34.htm
 history_url: https://datatracker.ietf.org/group/urlreg/history/
 chairs:
 - person: 18082

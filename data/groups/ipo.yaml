@@ -5,6 +5,12 @@ parent: sub
 state: conclude
 started: '2000-07-21'
 closed: '2004-01-08'
+bof: true
+chartered: '2001-01-31'
+bof_sessions:
+- meeting: '47'
+  date: '2000-03-26'
+  url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-62.html
 history_url: https://datatracker.ietf.org/group/ipo/history/
 chairs:
 - person: 18186

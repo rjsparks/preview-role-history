@@ -8,6 +8,8 @@
   --warn-fg: #6b4d00;
   --ok: #1e6b3a;
   --row: #f1f3f4;
+  --tag-bg: #e3ecfa;
+  --tag-fg: #1a3f7a;
   color-scheme: light dark;
 }
 @media (prefers-color-scheme: dark) {
@@ -21,6 +23,8 @@
     --warn-fg: #f6d58a;
     --ok: #81c995;
     --row: #202124;
+    --tag-bg: #1f2d44;
+    --tag-fg: #b9d0f5;
   }
 }
 * { box-sizing: border-box; }
@@ -74,3 +78,5 @@ code { font-size: .9em; }
   .glossary dd { margin-bottom: .5rem; }
   td.actions { white-space: normal; }
 }
+
+.tag { display: inline-block; margin-left: .35rem; padding: 0 .35rem; border-radius: 3px; font-size: .75rem; font-weight: 600; white-space: nowrap; background: var(--tag-bg); color: var(--tag-fg); }

@@ -44,6 +44,10 @@ def check(data):
                 bad(f"missing `{key}`")
         if g.get("acronym") != acronym:
             bad(f"`acronym` is {g.get('acronym')!r} but the file is named {acronym}.yaml")
+        if "bof" in g and not isinstance(g["bof"], bool):
+            bad("`bof` must be true or false")
+        if g.get("chartered") is not None and not cd.valid_date(cd.norm_date(g["chartered"])):
+            bad("`chartered` must be a date written YYYY-MM-DD, YYYY-MM or YYYY")
         closed = g.get("state") in cd.CLOSED_STATES
         seen = set()
         for i, e in enumerate(g.get("chairs") or []):

@@ -5,6 +5,15 @@ parent: wit
 state: active
 started: '2011-06-28'
 closed: null
+bof: true
+chartered: '2011-06-28'
+bof_sessions:
+- meeting: '79'
+  date: '2010-11-07'
+  url: https://www.ietf.org/proceedings/79/cdni.html
+- meeting: '80'
+  date: '2011-03-27'
+  url: https://www.ietf.org/proceedings/80/cdni.html
 history_url: https://datatracker.ietf.org/group/cdni/history/
 chairs:
 - person: 2690

@@ -5,6 +5,15 @@ parent: tsv
 state: bof-conc
 started: '2014-01-22'
 closed: null
+bof: true
+chartered: null
+bof_sessions:
+- meeting: '89'
+  date: '2014-03-02'
+  url: https://www.ietf.org/proceedings/89/vnfpool.html
+- meeting: '90'
+  date: '2014-07-20'
+  url: https://www.ietf.org/proceedings/90/vnfpool.html
 history_url: https://datatracker.ietf.org/group/vnfpool/history/
 chairs:
 - person: 101104

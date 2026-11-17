@@ -5,6 +5,18 @@ parent: int
 state: conclude
 started: '2016-02-26'
 closed: '2023-07-28'
+bof: true
+chartered: '2016-10-14'
+bof_sessions:
+- meeting: '94'
+  date: '2015-11-01'
+  url: https://www.ietf.org/proceedings/94/lpwan.html
+- meeting: '95'
+  date: '2016-04-03'
+  url: https://www.ietf.org/proceedings/95/lpwan.html
+- meeting: '96'
+  date: '2016-07-17'
+  url: https://www.ietf.org/proceedings/96/lpwan.html
 history_url: https://datatracker.ietf.org/group/lpwan/history/
 chairs:
 - person: 102391

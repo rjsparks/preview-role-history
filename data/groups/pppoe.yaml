@@ -5,6 +5,12 @@ parent: int
 state: conclude
 started: null
 closed: null
+bof: true
+chartered: null
+bof_sessions:
+- meeting: '42'
+  date: '1998-08-24'
+  url: https://www.ietf.org/proceedings/42/98aug-71.htm
 history_url: https://datatracker.ietf.org/group/pppoe/history/
 chairs:
 - person: 6703

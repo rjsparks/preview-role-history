@@ -5,6 +5,15 @@ parent: ops
 state: conclude
 started: null
 closed: '2003-12-10'
+bof: true
+chartered: null
+bof_sessions:
+- meeting: '52'
+  date: '2001-12-09'
+  url: https://www.ietf.org/proceedings/52/175.htm
+- meeting: '54'
+  date: '2002-07-14'
+  url: https://www.ietf.org/proceedings/54/167.htm
 history_url: https://datatracker.ietf.org/group/ippt/history/
 chairs:
 - person: 1307

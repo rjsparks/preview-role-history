@@ -5,6 +5,12 @@ parent: app
 state: conclude
 started: '1999-10-22'
 closed: '2003-10-08'
+bof: true
+chartered: '1999-12-02'
+bof_sessions:
+- meeting: '46'
+  date: '1999-11-07'
+  url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-47.html
 history_url: https://datatracker.ietf.org/group/rescap/history/
 chairs:
 - person: 2783

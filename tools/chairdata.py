@@ -141,6 +141,49 @@ def describe_end(b):
     return "unknown"
 
 
+BOF_STATES = {"bof", "bof-conc"}
+CHARTER_MARGIN = datetime.timedelta(days=30)  # chairs named at chartering can predate the state change by days
+
+
+def latest_start(start):
+    """The latest day a start could be, or None if nothing bounds it."""
+    f = bound_fields(start)
+    value = f["date"] if start.get("certainty") in ("exact", "approximate", "on-or-before") else f["not_after"]
+    return latest(value) if value and valid_date(value) else None
+
+
+def earliest_end(end):
+    """The earliest day an end could be, or None if nothing bounds it."""
+    if end.get("certainty") == "ongoing":
+        return datetime.date.max
+    f = bound_fields(end)
+    value = f["date"] if end.get("certainty") in ("exact", "approximate", "group-closed") else f["not_before"]
+    return earliest(value) if value and valid_date(value) else None
+
+
+def bof_phase(group, period):
+    """"bof" for chairing only the BOF, "bof-wg" for the BOF and then the WG, or None.
+
+    None also covers periods whose dates are too uncertain to place against
+    the chartering date.
+    """
+    if not group.get("bof"):
+        return None
+    if group.get("state") in BOF_STATES:
+        return "bof"
+    chartered = group.get("chartered")
+    if not chartered or not valid_date(norm_date(chartered)):
+        return None
+    chartered = earliest(norm_date(chartered))
+    end = latest_end(period["end"])
+    if end is not None and end < chartered:
+        return "bof"
+    start, finish = latest_start(period["start"]), earliest_end(period["end"])
+    if start is not None and finish is not None and start < chartered - CHARTER_MARGIN and finish >= chartered:
+        return "bof-wg"
+    return None
+
+
 def is_uncertain(bound, which):
     """Whether a boundary is worth asking someone about."""
     c = bound.get("certainty")

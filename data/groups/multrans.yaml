@@ -5,6 +5,15 @@ parent: ops
 state: bof-conc
 started: null
 closed: '2013-01-31'
+bof: true
+chartered: null
+bof_sessions:
+- meeting: '81'
+  date: '2011-07-24'
+  url: https://www.ietf.org/proceedings/81/multrans.html
+- meeting: '82'
+  date: '2011-11-13'
+  url: https://www.ietf.org/proceedings/82/multrans.html
 history_url: https://datatracker.ietf.org/group/multrans/history/
 chairs:
 - person: 106315

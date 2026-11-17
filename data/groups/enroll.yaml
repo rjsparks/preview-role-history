@@ -5,6 +5,15 @@ parent: sec
 state: conclude
 started: '2003-06-01'
 closed: '2005-10-24'
+bof: true
+chartered: '2003-11-24'
+bof_sessions:
+- meeting: '57'
+  date: '2003-07-13'
+  url: https://www.ietf.org/proceedings/57/218.htm
+- meeting: '58'
+  date: '2003-11-09'
+  url: https://www.ietf.org/proceedings/58/214.htm
 history_url: https://datatracker.ietf.org/group/enroll/history/
 chairs:
 - person: 10083

@@ -5,6 +5,12 @@ parent: int
 state: conclude
 started: null
 closed: '2003-12-10'
+bof: true
+chartered: null
+bof_sessions:
+- meeting: '57'
+  date: '2003-07-13'
+  url: https://www.ietf.org/proceedings/57/152.htm
 history_url: https://datatracker.ietf.org/group/ddbof/history/
 chairs:
 - person: 101526

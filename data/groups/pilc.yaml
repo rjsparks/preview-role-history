@@ -5,6 +5,15 @@ parent: tsv
 state: conclude
 started: '1999-04-02'
 closed: '2004-01-08'
+bof: true
+chartered: '1999-04-22'
+bof_sessions:
+- meeting: '43'
+  date: '1998-12-07'
+  url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-140.html
+- meeting: '44'
+  date: '1999-03-14'
+  url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-142.html
 history_url: https://datatracker.ietf.org/group/pilc/history/
 chairs:
 - person: 21226

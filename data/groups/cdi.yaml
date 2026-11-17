@@ -5,6 +5,18 @@ parent: app
 state: conclude
 started: '2001-07-23'
 closed: '2003-06-03'
+bof: true
+chartered: '2002-02-18'
+bof_sessions:
+- meeting: '50'
+  date: '2001-03-18'
+  url: https://www.ietf.org/proceedings/50/ietf50-38.htm
+- meeting: '51'
+  date: '2001-08-05'
+  url: https://www.ietf.org/proceedings/51/51-38.htm
+- meeting: '52'
+  date: '2001-12-09'
+  url: https://www.ietf.org/proceedings/52/128.htm
 history_url: https://datatracker.ietf.org/group/cdi/history/
 chairs:
 - person: 1992

@@ -5,6 +5,12 @@ parent: sec
 state: active
 started: '2015-02-12'
 closed: null
+bof: true
+chartered: '2015-06-26'
+bof_sessions:
+- meeting: '92'
+  date: '2015-03-22'
+  url: https://www.ietf.org/proceedings/92/acme.html
 history_url: https://datatracker.ietf.org/group/acme/history/
 chairs:
 - person: 18427

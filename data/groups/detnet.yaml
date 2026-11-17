@@ -5,6 +5,12 @@ parent: rtg
 state: active
 started: '2014-10-01'
 closed: null
+bof: true
+chartered: '2015-10-05'
+bof_sessions:
+- meeting: '91'
+  date: '2014-11-09'
+  url: https://www.ietf.org/proceedings/91/detnet.html
 history_url: https://datatracker.ietf.org/group/detnet/history/
 chairs:
 - person: 8243

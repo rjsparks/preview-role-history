@@ -5,6 +5,15 @@ parent: gen
 state: conclude
 started: '2003-10-01'
 closed: '2006-08-17'
+bof: true
+chartered: '2004-02-28'
+bof_sessions:
+- meeting: '58'
+  date: '2003-11-09'
+  url: https://www.ietf.org/proceedings/58/130.htm
+- meeting: '59'
+  date: '2004-02-29'
+  url: https://www.ietf.org/proceedings/59/134.htm
 history_url: https://datatracker.ietf.org/group/newtrk/history/
 chairs:
 - person: 2324

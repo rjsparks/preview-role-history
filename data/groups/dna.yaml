@@ -5,6 +5,15 @@ parent: int
 state: conclude
 started: '2004-01-15'
 closed: '2009-10-23'
+bof: true
+chartered: '2004-02-05'
+bof_sessions:
+- meeting: '57'
+  date: '2003-07-13'
+  url: https://www.ietf.org/proceedings/57/153.htm
+- meeting: '58'
+  date: '2003-11-09'
+  url: https://www.ietf.org/proceedings/58/150.htm
 history_url: https://datatracker.ietf.org/group/dna/history/
 chairs:
 - person: 6167

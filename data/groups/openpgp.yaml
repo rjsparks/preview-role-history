@@ -5,6 +5,12 @@ parent: sec
 state: active
 started: '1997-09-19'
 closed: null
+bof: true
+chartered: '1997-09-30'
+bof_sessions:
+- meeting: '39'
+  date: '1997-08-11'
+  url: https://www.ietf.org/proceedings/39/transit97aug-99.htm
 history_url: https://datatracker.ietf.org/group/openpgp/history/
 chairs:
 - person: 6770

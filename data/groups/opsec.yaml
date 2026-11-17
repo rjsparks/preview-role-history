@@ -5,6 +5,18 @@ parent: ops
 state: conclude
 started: '2003-06-01'
 closed: '2024-08-05'
+bof: true
+chartered: '2004-09-27'
+bof_sessions:
+- meeting: '57'
+  date: '2003-07-13'
+  url: https://www.ietf.org/proceedings/57/183.htm
+- meeting: '59'
+  date: '2004-02-29'
+  url: https://www.ietf.org/proceedings/59/220.htm
+- meeting: '60'
+  date: '2004-08-01'
+  url: https://www.ietf.org/proceedings/60/185.htm
 history_url: https://datatracker.ietf.org/group/opsec/history/
 chairs:
 - person: 2723
