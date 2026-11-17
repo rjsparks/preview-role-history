@@ -78,8 +78,25 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2011-07-24'
       not_before: '1989-10-02'
     end:
       certainty: group-closed
       date: '2013-10-10'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 7
+    first: '2011-07-24'
+    last: '2013-07-28'
+    examples:
+    - date: '2011-07-24'
+      subject: IETF 81 proceedings charter
+      url: https://www.ietf.org/proceedings/81/pppext.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/pppext.html
+    - date: '2013-07-28'
+      subject: IETF 87 proceedings charter
+      url: https://www.ietf.org/proceedings/87/pppext.html

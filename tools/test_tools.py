@@ -210,6 +210,10 @@ class RenderTests(DataDirMixin, unittest.TestCase):
         self.assertIn('<a href="https://mailarchive.ietf.org/arch/msg/abc/wglc/">', person)
         self.assertFalse((out / "people" / "1.html").exists())
         self.assertIn('href="../people/00000000-0000-4000-8000-000000000001.html"', (out / "groups" / "abc.html").read_text())
+        self.assertIn('<section class="glossary" id="dates">', person)
+        self.assertIn(">by 2006-03-19<", person)  # the legend shows each form as dates appear
+        self.assertIn('href="#dates"', person)
+        self.assertNotIn("on-or-before</dt>", person)
         self.assertIn("about 1995", (out / "people" / "n-old-timer.html").read_text())
 
 

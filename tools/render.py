@@ -22,15 +22,31 @@ import chairdata as cd  # noqa: E402
 
 SITE_TITLE = "IETF group chair history"
 TYPE_NAMES = {"wg": "WG", "rg": "RG", "ag": "AG", "rag": "RAG", "edwg": "EDWG"}
+# Hover text for each date, and the legend: keyed by how the date reads on the page.
 CERTAINTY_HELP = {
-    "exact": "Recorded when the change was made.",
-    "approximate": "Recorded in an edit that did not log the change itself; probably close.",
-    "on-or-before": "The earliest record we have. It may have started earlier.",
-    "between": "Changed without a dated record, sometime in this range.",
-    "group-closed": "Still listed as chair when the group closed.",
-    "evidence-only": "No datatracker record of the role; dated from announcements or session requests.",
+    "exact": "Recorded on the day the change was made.",
+    "approximate": "Dated from an announcement, a list message, minutes or a datatracker edit made near the time.",
+    "on-or-before": "The earliest evidence we have. The real date may be earlier.",
+    "between": "Sometime within this range.",
+    "group-closed": "Still chair when the group closed.",
+    "evidence-only": "No datatracker record of the role, so this is the earliest or latest evidence we have.",
     "ongoing": "Current chair.",
 }
+# (which end, example bound, what it means)
+DATE_FORMS = [
+    ("start", {"certainty": "exact", "date": "2012-03-04"}, "Recorded on the day the change was made."),
+    ("start", {"certainty": "approximate", "date": "2010-03-29"},
+     "Dated from an announcement, a mailing list message, meeting minutes or a datatracker edit made near the "
+     "time. Usually within a few weeks."),
+    ("start", {"certainty": "on-or-before", "date": "2006-03-19"},
+     "The earliest evidence we have. They may have started earlier."),
+    ("end", {"certainty": "evidence-only", "not_before": "2009-11-08"},
+     "The latest evidence we have. They may have continued longer."),
+    ("start", {"certainty": "between", "not_before": "2006-02-15", "not_after": "2006-03-19"},
+     "Sometime within that range."),
+    ("end", {"certainty": "group-closed", "date": "2009-05-01"}, "Still chair when the group closed."),
+    ("end", {"certainty": "ongoing"}, "Current chair."),
+]
 
 
 def e(text):
@@ -253,7 +269,7 @@ class Site:
 <p class="lede">Groups {e(name)} chaired, as far as we know. {profile}</p>
 <p>Is this list complete, and are the dates right? Use the links on each row, or
 <a class="act" href="{e(missing)}">tell us about a missing group</a>.
-Dates marked <span class="uncertain">?</span> are uncertain; hover over them for why.</p>
+Dates marked <span class="q">?</span> are not exact; <a href="#dates">reading the dates</a> explains each form.</p>
 <div class="scroll"><table>
 <thead><tr><th>Group</th><th>Chair from</th><th>Chair until</th><th>Basis</th><th><span class="sr">Actions</span></th></tr></thead>
 <tbody>
@@ -291,7 +307,8 @@ Dates marked <span class="uncertain">?</span> are uncertain; hover over them for
 <a href="{cd.DATATRACKER}/group/{e(acronym)}/about/">About</a> ·
 <a href="{e(g.get('history_url') or '')}">datatracker history</a></p>
 <p>Know who chaired {e(acronym)} and when? <a class="act" href="{e(missing)}">Tell us about a missing chair</a>,
-or use the links on each row.</p>
+or use the links on each row. Dates marked <span class="q">?</span> are not exact;
+<a href="#dates">reading the dates</a> explains each form.</p>
 {empty}{table}
 {self.glossary()}"""
         self.page(f"groups/{acronym}.html", acronym, body, depth=1)
@@ -363,7 +380,7 @@ and asks the people who were there to fill in the rest.</p>
 <h2 id="help">How to help</h2>
 <ol>
 <li>Find yourself on the <a href="people.html">people list</a>, or a group you know on the <a href="groups.html">groups list</a>.</li>
-<li>Check that every group you chaired is listed, and that the dates are right. Uncertain dates are marked <span class="uncertain">?</span>.</li>
+<li>Check that every group you chaired is listed, and that the dates are right. Dates marked <span class="q">?</span> are not exact; <a href="#dates">reading the dates</a> explains each form.</li>
 <li>Use <b>This is right</b> to confirm a row, <b>Correct this</b> to fix one, or the link at the top of the page to add a missing group.
 Each opens a short GitHub issue form, already filled in with the row you clicked. A link to an announcement, minutes or a mailing list message helps the reviewers.</li>
 </ol>
@@ -386,10 +403,15 @@ Each opens a short GitHub issue form, already filled in with the row you clicked
             f'<span id="{target}-count" class="muted" aria-live="polite"></span></p>'
         )
 
-    @staticmethod
-    def glossary():
-        rows = "".join(f"<dt>{e(k)}</dt><dd>{e(v)}</dd>" for k, v in CERTAINTY_HELP.items())
-        return f'<details class="glossary"><summary>How certain is each date?</summary><dl>{rows}</dl></details>'
+    def glossary(self):
+        rows = "".join(
+            f"<dt>{self.bound_cell(bound, which)}</dt><dd>{e(meaning)}</dd>" for which, bound, meaning in DATE_FORMS
+        )
+        return (
+            '<section class="glossary" id="dates"><h2>Reading the dates</h2>'
+            '<p>A <span class="q">?</span> marks a date that is not exact. Those are the dates most worth checking.</p>'
+            f"<dl>{rows}</dl></section>"
+        )
 
     def build(self, assets):
         if self.out.exists():

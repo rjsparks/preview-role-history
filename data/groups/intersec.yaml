@@ -13,7 +13,18 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-12-10'
+      date: '2003-03-16'
     end:
       certainty: group-closed
       date: '2003-12-10'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2003-03-16'
+    last: '2003-03-16'
+    examples:
+    - date: '2003-03-16'
+      subject: IETF 56 proceedings charter
+      url: https://www.ietf.org/proceedings/56/proxigen/intersec.txt

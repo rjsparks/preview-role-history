@@ -13,10 +13,21 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '1999-07-11'
     end:
       certainty: group-closed
       date: '2011-12-09'
+    notes:
+    - widened to cover charter snapshots in proceedings
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '1999-07-11'
+    last: '1999-07-11'
+    examples:
+    - date: '1999-07-11'
+      subject: IETF 45 proceedings charter
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-81.html
 - person: 10554
   name: Roland Hedberg
   status: confirmed

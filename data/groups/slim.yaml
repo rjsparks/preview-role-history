@@ -26,28 +26,6 @@ chairs:
     documents:
     - draft-ietf-slim-multilangcontent
     - draft-ietf-slim-negotiating-human-language
-- person: 21684
-  name: Barry Leiba
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: evidence-only
-      not_after: '2014-07-20'
-    end:
-      certainty: evidence-only
-      not_before: '2015-03-22'
-  evidence:
-  - kind: proceedings
-    listed_in: 2
-    first: '2014-07-20'
-    last: '2015-03-22'
-    examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
-      url: https://www.ietf.org/proceedings/90/slim.html
-    - date: '2015-03-22'
-      subject: IETF 92 proceedings charter
-      url: https://www.ietf.org/proceedings/92/slim.html
 - person: 120508
   name: Natasha Rooney
   status: confirmed

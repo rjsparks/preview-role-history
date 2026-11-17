@@ -54,9 +54,9 @@ chairs:
       subject: '[yam] IETF81 YAM minutes - Version 0.1'
       url: https://mailarchive.ietf.org/arch/msg/yam/_-8sfO6PFNX4D57eheKBP9b4DFA/
   - kind: proceedings
-    listed_in: 3
+    listed_in: 6
     first: '2009-03-22'
-    last: '2009-08-04'
+    last: '2011-07-24'
     examples:
     - date: '2009-03-22'
       subject: IETF 74 proceedings charter
@@ -64,9 +64,9 @@ chairs:
     - date: '2009-08-04'
       subject: IETF 75 proceedings charter (last modified)
       url: https://www.ietf.org/proceedings/75/yam.html
-    - date: '2009-08-04'
-      subject: IETF 77 proceedings charter (last modified)
-      url: https://www.ietf.org/proceedings/77/yam.html
+    - date: '2011-07-24'
+      subject: IETF 81 proceedings charter
+      url: https://www.ietf.org/proceedings/81/yam.html
   - kind: session requests
     meetings:
     - '76'
@@ -82,8 +82,11 @@ chairs:
       certainty: evidence-only
       not_after: '2009-03-22'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2009-08-04'
+      not_after: '2010-11-07'
+    notes:
+    - bounded by a proceedings charter snapshot listing other chairs
   evidence:
   - kind: proceedings
     listed_in: 3
@@ -99,19 +102,24 @@ chairs:
     - date: '2009-08-04'
       subject: IETF 77 proceedings charter (last modified)
       url: https://www.ietf.org/proceedings/77/yam.html
+  - kind: minutes without them
+    date: '2010-11-07'
+    subject: IETF 79 proceedings charter
+    url: https://www.ietf.org/proceedings/79/yam.html
 - person: 109918
   name: S Moonesamy
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-05-26'
+      date: '2010-11-07'
       not_before: '2009-05-21'
     end:
       certainty: group-closed
       date: '2011-11-28'
     notes:
     - widened to cover last calls and adoption calls on the group list
+    - widened to cover charter snapshots in proceedings
   evidence:
   - kind: chair activity
     first: '2009-12-05'
@@ -127,3 +135,17 @@ chairs:
     - date: '2011-05-26'
       subject: '[yam] WGLC: draft-ietf-yam-rfc4409bis-00'
       url: https://mailarchive.ietf.org/arch/msg/yam/iafv_Q3NKPPDAHUshADGxifRuKw/
+  - kind: proceedings
+    listed_in: 3
+    first: '2010-11-07'
+    last: '2011-07-24'
+    examples:
+    - date: '2010-11-07'
+      subject: IETF 79 proceedings charter
+      url: https://www.ietf.org/proceedings/79/yam.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/yam.html
+    - date: '2011-07-24'
+      subject: IETF 81 proceedings charter
+      url: https://www.ietf.org/proceedings/81/yam.html

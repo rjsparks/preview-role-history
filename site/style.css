@@ -53,7 +53,7 @@ td.actions { white-space: nowrap; }
 .act { font-size: .875rem; }
 .act.ok { color: var(--ok); margin-left: .5rem; }
 .uncertain { border-bottom: 1px dotted var(--muted); cursor: help; }
-.uncertain .q { color: var(--warn-fg); background: var(--warn-bg); border-radius: 3px; padding: 0 .25rem; margin-left: .25rem; font-size: .75rem; font-weight: 600; }
+.q { color: var(--warn-fg); background: var(--warn-bg); border-radius: 3px; padding: 0 .25rem; margin-left: .25rem; font-size: .75rem; font-weight: 600; }
 .badge { display: inline-block; font-size: .75rem; padding: .0625rem .375rem; border-radius: 3px; }
 .badge.warn { background: var(--warn-bg); color: var(--warn-fg); }
 details { margin-top: .25rem; }
