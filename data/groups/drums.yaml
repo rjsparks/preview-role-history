@@ -19,17 +19,12 @@ chairs:
       certainty: evidence-only
       not_after: '1995-04-03'
     end:
-      certainty: evidence-only
-      not_before: '2000-02-14'
+      certainty: between
+      not_before: '1995-12-04'
+      not_after: '1996-03-04'
+    notes:
+    - 'End: became an Area Director, first serving at IETF 35 (1996-03-04)'
   evidence:
-  - kind: chair activity
-    first: '2000-02-14'
-    last: '2000-02-14'
-    messages: 1
-    examples:
-    - date: '2000-02-14'
-      subject: IETF Adelaide and interim meetings for APPS WGs
-      url: https://mailarchive.ietf.org/arch/msg/drums/O7YUGQjdSYHk9LVU2BMymzmoCag/
   - kind: proceedings
     listed_in: 3
     first: '1995-04-03'

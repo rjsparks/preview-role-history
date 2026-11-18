@@ -19,8 +19,11 @@ chairs:
       certainty: evidence-only
       not_after: '1999-08-12'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2004-07-15'
+      not_after: '2007-07-22'
+    notes:
+    - 'End: became an Area Director, first serving at IETF 69 (2007-07-22)'
   evidence:
   - kind: WG Action
     date: '1999-08-13'

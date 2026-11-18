@@ -50,15 +50,16 @@ chairs:
       date: '1997-08-11'
       not_before: '1997-01-31'
     end:
-      certainty: group-closed
-      date: '2000-10-04'
+      certainty: on-or-before
+      date: '1998-03-30'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1997-08-11)'
+    - 'End: became an Area Director, first serving at IETF 41 (1998-03-30)'
   evidence:
   - kind: chair activity
     first: '1997-04-02'
-    last: '1998-11-28'
-    messages: 8
+    last: '1998-03-24'
+    messages: 5
     examples:
     - date: '1997-04-02'
       subject: scheduling and agenda for Memphis

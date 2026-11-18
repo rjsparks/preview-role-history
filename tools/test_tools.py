@@ -271,6 +271,7 @@ class DescribeTests(unittest.TestCase):
         self.assertEqual(cd.describe_start({"certainty": "on-or-before", "date": "2011-12-09"}), "by 2011-12-09")
         self.assertEqual(cd.describe_end({"certainty": "between", "not_before": "2011-12-09"}), "after 2011-12-09")
         self.assertEqual(cd.describe_end({"certainty": "group-closed", "date": "2003-12-10"}), "2003-12-10 (group closed)")
+        self.assertEqual(cd.describe_end({"certainty": "on-or-before", "date": "2000-03-26"}), "ended by 2000-03-26")
 
 
 if __name__ == "__main__":

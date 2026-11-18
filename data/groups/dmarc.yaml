@@ -133,7 +133,7 @@ chairs:
   - kind: chair activity
     first: '2017-07-20'
     last: '2023-07-06'
-    messages: 11
+    messages: 10
     examples:
     - date: '2017-07-20'
       subject: '[dmarc-ietf] Draft minutes from DMARC session at IETF 99 (Prague)'
@@ -197,6 +197,14 @@ chairs:
     excerpt: Dear WG participants, After talking to various candidates and discussing them with my ART
       co-ADs, I am pleased to announce that Murray Kucherawy and Tim Wicinski agreed to co-chair the DMARC
       going forward.
+  - kind: chair activity
+    first: '2019-06-26'
+    last: '2019-06-26'
+    messages: 1
+    examples:
+    - date: '2019-06-26'
+      subject: '[dmarc-ietf] Working Group Last Call: draft-ietf-dmarc-psd'
+      url: https://mailarchive.ietf.org/arch/msg/dmarc/Fr_R22oKe7Rc2I32AH_aZQpWPlI/
   - kind: shepherded
     documents:
     - draft-ietf-dmarc-failure-reporting

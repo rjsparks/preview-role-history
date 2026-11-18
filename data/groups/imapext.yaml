@@ -83,10 +83,12 @@ chairs:
       certainty: approximate
       date: '2004-03-30'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2005-10-27'
+      not_after: '2006-07-09'
     notes:
     - 'Start: announced on the group''s list (2004-03-30)'
+    - 'End: became an Area Director, first serving at IETF 66 (2006-07-09)'
   evidence:
   - kind: list message
     date: '2004-03-30'

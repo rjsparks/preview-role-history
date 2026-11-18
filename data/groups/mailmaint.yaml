@@ -68,17 +68,6 @@ chairs:
     end:
       certainty: ongoing
   evidence:
-  - kind: chair activity
-    first: '2025-03-20'
-    last: '2025-05-16'
-    messages: 2
-    examples:
-    - date: '2025-03-20'
-      subject: '[mailmaint] Call For Adoption: Personal Data Portability Archive'
-      url: https://mailarchive.ietf.org/arch/msg/mailmaint/6iYVzK-kLX1lUAgsNTtmANv0hWE/
-    - date: '2025-05-16'
-      subject: '[mailmaint] Milestones'
-      url: https://mailarchive.ietf.org/arch/msg/mailmaint/lUzJaYsoophyov6JOpG_AxT_SbU/
   - kind: shepherded
     documents:
     - draft-ietf-mailmaint-autoconfig

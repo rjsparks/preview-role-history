@@ -137,7 +137,7 @@ def describe_end(b):
     if c == "evidence-only":
         return f"after {f['not_before']}" if f["not_before"] else "unknown"
     if c == "on-or-before":
-        return f"by {f['date']}"
+        return f"ended by {f['date']}"
     return "unknown"
 
 

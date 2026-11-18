@@ -20,10 +20,11 @@ chairs:
       date: '1999-10-22'
       not_before: '1999-10-01'
     end:
-      certainty: group-closed
-      date: '2005-05-05'
+      certainty: on-or-before
+      date: '2002-07-14'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1999-10-22)'
+    - 'End: became an Area Director, first serving at IETF 54 (2002-07-14)'
   evidence:
   - kind: WG Action
     date: '1999-10-27'

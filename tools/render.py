@@ -26,7 +26,8 @@ TYPE_NAMES = {"wg": "WG", "rg": "RG", "ag": "AG", "rag": "RAG", "edwg": "EDWG"}
 CERTAINTY_HELP = {
     "exact": "Recorded on the day the change was made.",
     "approximate": "Dated from an announcement, a list message, minutes or a datatracker edit made near the time.",
-    "on-or-before": "The earliest evidence we have. The real date may be earlier.",
+    "on-or-before": "The real date may be earlier: for a start, the earliest evidence we have; for an end, when they "
+                    "had stopped (usually on becoming an Area Director).",
     "between": "Sometime within this range.",
     "group-closed": "Still chair when the group closed.",
     "evidence-only": "No datatracker record of the role, so this is the earliest or latest evidence we have.",
@@ -48,6 +49,8 @@ DATE_FORMS = [
      "The latest evidence we have. They may have continued longer."),
     ("start", {"certainty": "between", "not_before": "2006-02-15", "not_after": "2006-03-19"},
      "Sometime within that range."),
+    ("end", {"certainty": "on-or-before", "date": "2000-03-26"},
+     "Had stopped by then, usually because they became an Area Director. They may have stopped earlier."),
     ("end", {"certainty": "group-closed", "date": "2009-05-01"}, "Still chair when the group closed."),
     ("end", {"certainty": "ongoing"}, "Current chair."),
 ]

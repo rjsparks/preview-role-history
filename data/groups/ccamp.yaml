@@ -235,8 +235,11 @@ chairs:
       certainty: evidence-only
       not_after: '2003-10-20'
     end:
-      certainty: evidence-only
-      not_before: '2013-08-20'
+      certainty: between
+      not_before: '2009-01-24'
+      not_after: '2009-04-02'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-04-02)'
   evidence:
   - kind: WG Action
     date: '2005-11-04'
@@ -252,8 +255,8 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/aK4cef81bT_t9w-ZzGl_LGGVSyI/
   - kind: chair activity
     first: '2003-10-27'
-    last: '2013-08-20'
-    messages: 46
+    last: '2009-01-24'
+    messages: 44
     examples:
     - date: '2003-10-27'
       subject: Agenda for Minneapolis
@@ -298,6 +301,10 @@ chairs:
     - date: '2008-02-28'
       subject: IETF 71 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/71/ccamp.html
+  - kind: minutes without them
+    date: '2009-04-02'
+    subject: IETF 74 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/74/ccamp.html
   - kind: session requests
     meetings:
     - '65'

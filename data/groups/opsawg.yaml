@@ -327,6 +327,26 @@ chairs:
       certainty: exact
       date: '2017-04-24'
   evidence:
+  - kind: chair activity
+    first: '2014-01-31'
+    last: '2016-10-03'
+    messages: 13
+    examples:
+    - date: '2014-01-31'
+      subject: '[OPSAWG] Call for OpsAWG agenda items.'
+      url: https://mailarchive.ietf.org/arch/msg/opsawg/NbIbUGHyK1vYcpt6U2lpTZXQP14/
+    - date: '2014-03-20'
+      subject: '[OPSAWG] Draft minutes from OpsAWG meeting.'
+      url: https://mailarchive.ietf.org/arch/msg/opsawg/WWnLNx52lKVY-cKk2EFXcfO2PsI/
+    - date: '2014-04-07'
+      subject: '[OPSAWG] Call for Adoption: draft-zhang-opsawg-capwap-cds'
+      url: https://mailarchive.ietf.org/arch/msg/opsawg/oWewsMKqjSQbhWCVF8DUD4avbA8/
+    - date: '2014-08-11'
+      subject: '[OPSAWG] Call for Adoption: draft-hmac-sha-2-usm-snmp'
+      url: https://mailarchive.ietf.org/arch/msg/opsawg/npBIgRAzrtj9NV2reFDMb7SeR_k/
+    - date: '2015-01-07'
+      subject: '[OPSAWG] Call for Adoption: draft-opsawg-operators-ietf'
+      url: https://mailarchive.ietf.org/arch/msg/opsawg/c4SkJI4L4iwc5IBWbAseku57sGM/
   - kind: proceedings
     listed_in: 12
     first: '2013-07-28'

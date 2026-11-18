@@ -64,10 +64,11 @@ chairs:
       date: '1994-03-28'
       not_before: '1989-10-01'
     end:
-      certainty: group-closed
-      date: '1995-05-23'
+      certainty: on-or-before
+      date: '1995-04-03'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
+    - 'End: became an Area Director, first serving at IETF 32 (1995-04-03)'
   evidence:
   - kind: minutes
     listed_in: 1

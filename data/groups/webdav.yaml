@@ -76,8 +76,11 @@ chairs:
       certainty: evidence-only
       not_after: '2002-01-30'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2005-02-01'
+      not_after: '2006-07-09'
+    notes:
+    - 'End: became an Area Director, first serving at IETF 66 (2006-07-09)'
   evidence:
   - kind: proceedings
     listed_in: 10
@@ -102,10 +105,11 @@ chairs:
       date: '2005-06-14'
       not_before: '1997-03-12'
     end:
-      certainty: group-closed
-      date: '2007-03-13'
+      certainty: on-or-before
+      date: '2006-07-09'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2005-06-14)'
+    - 'End: became an Area Director, first serving at IETF 66 (2006-07-09)'
   evidence:
   - kind: proceedings
     listed_in: 2

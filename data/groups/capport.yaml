@@ -103,8 +103,10 @@ chairs:
       certainty: exact
       date: '2017-03-31'
     end:
-      certainty: group-closed
-      date: '2020-12-07'
+      certainty: on-or-before
+      date: '2020-07-27'
+    notes:
+    - 'End: became an Area Director, first serving at IETF 108 (2020-07-27)'
   evidence:
   - kind: list message
     date: '2017-04-01'
