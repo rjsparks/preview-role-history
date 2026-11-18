@@ -206,8 +206,10 @@ chairs:
       certainty: exact
       date: '2013-09-25'
     end:
-      certainty: group-closed
-      date: '2023-07-12'
+      certainty: approximate
+      date: '2023-03-29'
+    notes:
+    - 'End: became an Area Director, per the datatracker''s IESG roles (2023-03-29)'
   evidence:
   - kind: WG Review
     date: '2013-12-12'

@@ -65,11 +65,10 @@ chairs:
       date: '2016-06-10'
       not_before: '2016-06-10'
     end:
-      certainty: between
-      not_before: '2016-08-08'
-      not_after: '2021-07-26'
+      certainty: approximate
+      date: '2021-03-11'
     notes:
-    - 'End: became an Area Director, first serving at IETF 111 (2021-07-26)'
+    - 'End: became an Area Director, per the datatracker''s IESG roles (2021-03-11)'
   evidence:
   - kind: minutes
     listed_in: 1

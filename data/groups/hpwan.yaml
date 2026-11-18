@@ -22,11 +22,10 @@ chairs:
       certainty: exact
       date: '2024-10-01'
     end:
-      certainty: between
-      not_before: '2024-11-02'
-      not_after: '2025-07-19'
+      certainty: approximate
+      date: '2025-03-19'
     notes:
-    - 'End: became an Area Director, first serving at IETF 123 (2025-07-19)'
+    - 'End: became an Area Director, per the datatracker''s IESG roles (2025-03-19)'
   evidence:
   - kind: BOF session
     meeting: '121'

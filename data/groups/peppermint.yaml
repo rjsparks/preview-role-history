@@ -66,12 +66,11 @@ chairs:
       certainty: on-or-before
       date: '2007-05-31'
     end:
-      certainty: between
-      not_before: '2008-03-09'
-      not_after: '2025-07-19'
+      certainty: approximate
+      date: '2025-03-19'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2007-05-31)'
-    - 'End: became an Area Director, first serving at IETF 123 (2025-07-19)'
+    - 'End: became an Area Director, per the datatracker''s IESG roles (2025-03-19)'
   evidence:
   - kind: BOF session
     meeting: '70'

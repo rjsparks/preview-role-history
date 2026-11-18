@@ -23,12 +23,11 @@ chairs:
       not_before: '2013-06-20'
       not_after: '2013-07-28'
     end:
-      certainty: between
-      not_before: '2013-07-28'
-      not_after: '2021-07-26'
+      certainty: approximate
+      date: '2021-03-11'
     notes:
     - 'Start: the BOF met at IETF 87 (2013-07-28)'
-    - 'End: became an Area Director, first serving at IETF 111 (2021-07-26)'
+    - 'End: became an Area Director, per the datatracker''s IESG roles (2021-03-11)'
   evidence:
   - kind: BOF session
     meeting: '87'

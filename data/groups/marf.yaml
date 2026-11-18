@@ -77,12 +77,11 @@ chairs:
       date: '2010-07-25'
       not_before: '2009-12-12'
     end:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2020-07-27'
+      certainty: approximate
+      date: '2020-06-15'
     notes:
     - 'Start: requested the group''s session for IETF 78 (2010-07-25)'
-    - 'End: became an Area Director, first serving at IETF 108 (2020-07-27)'
+    - 'End: became an Area Director, per the datatracker''s IESG roles (2020-06-15)'
   - start:
       certainty: between
       not_before: '2011-12-09'
