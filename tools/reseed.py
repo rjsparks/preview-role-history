@@ -13,7 +13,8 @@ reference/people.yaml). Contributions survive:
   contributed chairs and sources are merged in. A seed group with the same
   acronym but a different name is a clash for a maintainer to resolve, and
   nothing is written;
-- people contributors added to people.yaml are kept.
+- people contributors added to people.yaml are kept, including people the
+  datatracker doesn't know about (entries with a `key` instead of an `id`).
 """
 
 import argparse
@@ -86,8 +87,9 @@ def reseed(seed_dir, data_dir):
 
     people = {p["id"]: p for p in load_yaml(seed_dir / "reference" / "people.yaml") or []}
     for p in load_yaml(data_dir / "people.yaml") or []:
-        people.setdefault(p["id"], p)
-    dump(data_dir / "people.yaml", [people[k] for k in sorted(people)])
+        # People added by contributors (an id the seed lacks, or a key for someone the datatracker doesn't know).
+        people.setdefault(p["id"] if p.get("id") is not None else p["key"], p)
+    dump(data_dir / "people.yaml", [people[k] for k in sorted(people, key=lambda k: (isinstance(k, str), str(k).zfill(12)))])
     return []
 
 

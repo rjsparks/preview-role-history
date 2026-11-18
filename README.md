@@ -41,8 +41,11 @@ chairs:
   - https://mailarchive.ietf.org/arch/msg/ietf-announce/...
 ```
 
-- **person**: the datatracker person id. For someone with no datatracker record, use
-  `person: null` and give `name`. Anyone new must also be added to `data/people.yaml`
+- **person**: the datatracker person id. For someone the datatracker doesn't know about, add
+  them to `data/people.yaml` with a `key` instead of an id (lower-case letters, digits and
+  hyphens, such as `jane-doe`), their `name`, `datatracker: false` and a `sources` list, and
+  use that key here: `person: jane-doe`. Their roles in every group then share one page.
+  Anyone new must also be added to `data/people.yaml`
   with their `id`, `name` and `uuid`: the primary UUID from their datatracker profile
   address (`https://datatracker.ietf.org/person/<uuid>`). The site names each person's
   page by that UUID.

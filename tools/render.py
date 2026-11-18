@@ -86,7 +86,7 @@ class Site:
         return f"https://github.com/{self.repo}/issues/new?{urlencode(params)}"
 
     def person_name(self, key, entry=None):
-        if isinstance(key, int) and key in self.data.people:
+        if key in self.data.people:
             return self.data.people[key].get("name") or (entry or {}).get("name", "")
         return (entry or {}).get("name") or str(key).removeprefix("name:")
 
@@ -101,6 +101,8 @@ class Site:
         """
         if isinstance(key, int):
             return self.person_uuid(key)
+        if cd.is_contributed_person(key):
+            return "c-" + key
         return "n-" + "".join(c if c.isalnum() else "-" for c in fold(str(key).removeprefix("name:"))).strip("-")
 
     def person_href(self, key, depth):
@@ -272,10 +274,16 @@ class Site:
 
     def person_page(self, key, rows):
         name = self.person_name(key, rows[0][1])
-        person = self.data.people.get(key) if isinstance(key, int) else None
+        person = self.data.people.get(key)
         profile = ""
         if person and person.get("uuid"):
             profile = f'<a href="{cd.DATATRACKER}/person/{e(person["uuid"])}">datatracker profile</a>'
+        elif person and person.get("datatracker") is False:
+            sources = "; ".join(
+                f'<a href="{e(x)}">{e(x)}</a>' if x.startswith(("http://", "https://")) else e(x)
+                for x in person.get("sources") or []
+            )
+            profile = f"Not in the datatracker: added from what contributors told us ({sources})."
         missing = self.issue_url(
             "missing.yml", f"Missing chair role: {name}",
             person=self.person_uuid(key), name=name,

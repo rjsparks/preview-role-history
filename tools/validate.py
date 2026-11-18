@@ -26,14 +26,27 @@ import chairdata as cd  # noqa: E402
 UUID = re.compile(r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$")
 GROUP_KEYS = ("acronym", "name", "type", "state", "chairs")
 GROUP_TYPES = ("wg", "rg", "edwg", "bof")
+PERSON_KEY = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 
 
 def check(data):
     """Return a list of (path, message)."""
     problems = list(data.problems)
     for pid, person in data.people.items():
-        if not UUID.match(str(person.get("uuid") or "")):
-            problems.append((data.people_path, f"person {pid} needs `uuid`, their datatracker primary UUID"))
+        if isinstance(pid, int):
+            if not UUID.match(str(person.get("uuid") or "")):
+                problems.append((data.people_path, f"person {pid} needs `uuid`, their datatracker primary UUID"))
+            continue
+        # Someone the datatracker doesn't know about yet.
+        if not PERSON_KEY.match(str(pid)):
+            problems.append((data.people_path, f"person key {pid!r} must be lower-case letters, digits and hyphens"))
+        if person.get("datatracker") is not False:
+            problems.append((data.people_path, f"person {pid!r} has no datatracker `id`, so needs `datatracker: false`"))
+        if not person.get("name"):
+            problems.append((data.people_path, f"person {pid!r} needs a `name`"))
+        sources = person.get("sources")
+        if not (isinstance(sources, list) and sources and all(isinstance(x, str) and x.strip() for x in sources)):
+            problems.append((data.people_path, f"person {pid!r} needs a `sources` list saying how we know of them"))
     for acronym, g in data.groups.items():
         path = g["_path"]
 
@@ -70,10 +83,10 @@ def check(data):
             if pid is None:
                 if not e.get("name"):
                     bad(f"{where}: needs `person` (datatracker id) or, for someone with no datatracker record, `name`")
-            elif not isinstance(pid, int):
-                bad(f"{where}: `person` must be a datatracker person id (a number)")
+            elif not isinstance(pid, (int, str)):
+                bad(f"{where}: `person` must be a datatracker person id, or the key of someone added to people.yaml")
             elif pid not in data.people:
-                bad(f"{where}: person {pid} is not in data/people.yaml; add them there too")
+                bad(f"{where}: person {pid!r} is not in data/people.yaml; add them there too")
             key = cd.person_key(e)
             if key in seen:
                 bad(f"{where}: this person appears twice; put all their periods in one entry")

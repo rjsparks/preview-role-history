@@ -20,6 +20,12 @@ body:
     id: person
     attributes:
       label: Datatracker person UUID (if known)
+  - type: checkboxes
+    id: unknown-person
+    attributes:
+      label: Not in the datatracker?
+      options:
+        - label: This person has no datatracker profile that I can find
   - type: textarea
     id: dates
     attributes:

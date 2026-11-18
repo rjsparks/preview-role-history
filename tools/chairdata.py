@@ -213,6 +213,11 @@ class Data:
         return result
 
 
+def is_contributed_person(key):
+    """A people.yaml key for someone the datatracker doesn't know (not an id, not a bare name)."""
+    return isinstance(key, str) and not key.startswith("name:")
+
+
 def person_key(entry):
     return entry["person"] if entry.get("person") is not None else f"name:{entry.get('name', '')}"
 
@@ -236,7 +241,8 @@ def load(data_dir):
     people_path = data_dir / "people.yaml"
     try:
         for p in yaml.safe_load(people_path.read_text()) or []:
-            people[p["id"]] = p
+            # Datatracker people by id; people the datatracker doesn't know by a contributor-chosen key.
+            people[p["id"] if p.get("id") is not None else p["key"]] = p
     except (yaml.YAMLError, KeyError, TypeError) as err:
         problems.append((people_path, f"could not be read: {err}"))
     return Data(groups, people, problems, people_path)

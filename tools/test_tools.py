@@ -149,6 +149,50 @@ class MissingGroupTests(DataDirMixin, unittest.TestCase):
         self.assertTrue(any("needs a `sources` list" in m for m in self.problems()))
 
 
+class MissingPersonTests(DataDirMixin, unittest.TestCase):
+    jane = {"key": "jane-doe", "name": "Jane Doe", "datatracker": False, "sources": ["IETF 54 minutes"]}
+
+    def chair_entry(self):
+        return {"person": "jane-doe", "name": "Jane Doe", "status": "contributed", "sources": ["issue #7"],
+                "periods": [{"start": {"certainty": "approximate", "date": "2002"}, "end": {"certainty": "approximate", "date": "2003"}}]}
+
+    def test_a_person_unknown_to_the_datatracker_chairs_two_groups(self):
+        self.write_people(PEOPLE + [self.jane])
+        g = group()
+        g["chairs"].append(self.chair_entry())
+        self.write_group(g)
+        other = group(acronym="xyz", name="Another Group")
+        other["chairs"] = [self.chair_entry()]
+        self.write_group(other)
+        self.assertEqual(self.problems(), [])
+        out = self.root / "site"
+        render.Site(cd.load(self.data), out, "example/chairs").build(Path(__file__).parent.parent / "site")
+        page = (out / "people" / "c-jane-doe.html").read_text()
+        self.assertIn("Not in the datatracker", page)
+        self.assertIn("groups/abc.html", page)
+        self.assertIn("groups/xyz.html", page)  # one page for both roles
+
+    def test_people_need_sources_and_must_exist(self):
+        self.write_people(PEOPLE + [{**self.jane, "sources": []}])
+        g = group()
+        g["chairs"].append({**self.chair_entry(), "person": "john-roe"})
+        self.write_group(g)
+        problems = self.problems()
+        self.assertTrue(any("'jane-doe' needs a `sources` list" in m for m in problems))
+        self.assertTrue(any("'john-roe' is not in data/people.yaml" in m for m in problems))
+
+    def test_reseed_keeps_them(self):
+        self.write_people(PEOPLE + [self.jane])
+        self.write_group(group())
+        seed = self.root / "seed"
+        (seed / "groups").mkdir(parents=True)
+        (seed / "reference").mkdir()
+        (seed / "groups" / "abc.yaml").write_text(yaml.safe_dump(group(), sort_keys=False))
+        (seed / "reference" / "people.yaml").write_text(yaml.safe_dump(PEOPLE))
+        self.assertEqual(reseed.reseed(seed, self.data), [])
+        self.assertIn("jane-doe", [p.get("key") for p in yaml.safe_load((self.data / "people.yaml").read_text())])
+
+
 class ReseedTests(DataDirMixin, unittest.TestCase):
     def seed(self, groups, people=PEOPLE):
         seed = self.root / "seed"
