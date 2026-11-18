@@ -96,3 +96,67 @@ chairs:
     after: '2025-03-15'
     by_meeting: '123'
     by: '2025-07-19'
+- person: 107710
+  name: Tom Creighton
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2007-12-02'
+    end:
+      certainty: between
+      not_before: '2008-03-09'
+    notes:
+    - 'End: after the BOF''s last session, IETF 71 (2008-03-09)'
+  evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '2007-12-02'
+    last: '2007-12-02'
+    examples:
+    - date: '2007-12-02'
+      subject: '[PEPPERMINT] PRELIMINARY meeting minutes from PEPPERMINT BOF'
+      url: https://mailarchive.ietf.org/arch/msg/peppermint/nFMZsorwq2STePNrqD9pdKz4ZNA/
+    - date: '2007-12-02'
+      subject: IETF 70 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/70/minutes/peppermint.txt
+  - kind: BOF session
+    meeting: '70'
+    date: '2007-12-02'
+    url: https://datatracker.ietf.org/meeting/70/session/peppermint/
+  - kind: BOF session
+    meeting: '71'
+    date: '2008-03-09'
+    url: https://datatracker.ietf.org/meeting/71/session/peppermint/
+- person: 108141
+  name: Richard Shockey
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2007-12-02'
+    end:
+      certainty: between
+      not_before: '2008-03-09'
+    notes:
+    - 'End: after the BOF''s last session, IETF 71 (2008-03-09)'
+  evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '2007-12-02'
+    last: '2007-12-02'
+    examples:
+    - date: '2007-12-02'
+      subject: '[PEPPERMINT] PRELIMINARY meeting minutes from PEPPERMINT BOF'
+      url: https://mailarchive.ietf.org/arch/msg/peppermint/nFMZsorwq2STePNrqD9pdKz4ZNA/
+    - date: '2007-12-02'
+      subject: IETF 70 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/70/minutes/peppermint.txt
+  - kind: BOF session
+    meeting: '70'
+    date: '2007-12-02'
+    url: https://datatracker.ietf.org/meeting/70/session/peppermint/
+  - kind: BOF session
+    meeting: '71'
+    date: '2008-03-09'
+    url: https://datatracker.ietf.org/meeting/71/session/peppermint/

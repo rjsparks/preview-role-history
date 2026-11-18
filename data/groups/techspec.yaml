@@ -6,7 +6,7 @@ state: conclude
 started: null
 closed: '2006-05-12'
 bof: true
-never_chartered: false
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '63'
@@ -23,12 +23,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-10-03'
+      date: '2005-07-31'
     end:
-      certainty: group-closed
-      date: '2006-05-12'
+      certainty: between
+      not_before: '2006-03-19'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2005-10-03)'
+    - 'Start: the BOF met at IETF 63 (2005-07-31)'
+    - 'End: after the BOF''s last session, IETF 65 (2006-03-19)'
   evidence:
   - kind: chair activity
     first: '2005-11-08'
@@ -41,6 +42,22 @@ chairs:
     - date: '2006-03-28'
       subject: '[Techspec] DRAFT Techspec minutes'
       url: https://mailarchive.ietf.org/arch/msg/techspec/Oplrn6_sjpNBl_eL2qM_6Fxs8Xo/
+  - kind: minutes
+    listed_in: 1
+    first: '2005-11-06'
+    last: '2005-11-06'
+    examples:
+    - date: '2005-11-06'
+      subject: IETF 64 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/64/minutes/techspec.html
+  - kind: BOF session
+    meeting: '63'
+    date: '2005-07-31'
+    url: https://www.ietf.org/proceedings/63/techspec.txt
+  - kind: BOF session
+    meeting: '65'
+    date: '2006-03-19'
+    url: https://datatracker.ietf.org/meeting/65/session/techspec/
   - kind: proceedings
     listed_in: 2
     first: '2005-10-03'

@@ -11,6 +11,38 @@ chartered: '1993-05-13'
 bof_sessions: []
 history_url: https://datatracker.ietf.org/group/snanau/history/
 chairs:
+- person: 2455
+  name: Marshall Rose
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1993-10-05'
+    end:
+      certainty: between
+      not_before: '1994-04-14'
+      not_after: '1994-12-05'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (1994-12-05)'
+  evidence:
+  - kind: minutes
+    listed_in: 4
+    first: '1993-10-05'
+    last: '1994-04-14'
+    examples:
+    - date: '1993-10-05'
+      subject: Sept. 28 Meeting Minutes
+      url: https://mailarchive.ietf.org/arch/msg/snanau/ErN0G-g059z0UO_-Hq3dCnEVGdw/
+    - date: '1993-11-05'
+      subject: 11/3/93 WG Mtg Minutes
+      url: https://mailarchive.ietf.org/arch/msg/snanau/Lc8MwHpiulr-sGVORG5oKUdR2vk/
+    - date: '1994-04-14'
+      subject: Minutes
+      url: https://mailarchive.ietf.org/arch/msg/snanau/gWSQ50IO7OIz1Ci_OQdllfihRdM/
+  - kind: minutes without them
+    date: '1994-12-05'
+    subject: IETF 31 proceedings charter
+    url: https://www.ietf.org/proceedings/31/area.and.wg.reports/mgt/snanau/snanau-charter.txt
 - person: 4763
   name: Deirdre Kostick
   status: unconfirmed

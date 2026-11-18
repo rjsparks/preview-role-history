@@ -6,7 +6,7 @@ state: replaced
 started: '2014-06-11'
 closed: null
 bof: true
-never_chartered: false
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '90'
@@ -23,9 +23,15 @@ chairs:
       date: '2014-06-11'
       not_before: '2014-06-11'
     end:
-      certainty: group-closed
-      date: '2014-09-11'
+      certainty: between
+      not_before: '2014-07-20'
+    notes:
+    - 'End: after the BOF''s last session, IETF 90 (2014-07-20)'
   evidence:
+  - kind: BOF session
+    meeting: '90'
+    date: '2014-07-20'
+    url: https://www.ietf.org/proceedings/90/dtnwg.html
   - kind: proceedings
     listed_in: 1
     first: '2014-07-20'
@@ -41,11 +47,18 @@ chairs:
   - start:
       certainty: between
       not_before: '2014-06-11'
-      not_after: '2014-09-11'
+      not_after: '2014-07-20'
     end:
       certainty: between
       not_before: '2014-06-11'
       not_after: '2014-09-11'
+    notes:
+    - 'Start: the BOF met at IETF 90 (2014-07-20)'
+  evidence:
+  - kind: BOF session
+    meeting: '90'
+    date: '2014-07-20'
+    url: https://www.ietf.org/proceedings/90/dtnwg.html
 - person: 106709
   name: Fred Templin
   status: confirmed
@@ -55,11 +68,16 @@ chairs:
       not_before: '2014-06-11'
       not_after: '2014-07-20'
     end:
-      certainty: group-closed
-      date: '2014-09-11'
+      certainty: between
+      not_before: '2014-07-20'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
+    - 'Start: the BOF met at IETF 90 (2014-07-20)'
+    - 'End: after the BOF''s last session, IETF 90 (2014-07-20)'
   evidence:
+  - kind: BOF session
+    meeting: '90'
+    date: '2014-07-20'
+    url: https://www.ietf.org/proceedings/90/dtnwg.html
   - kind: proceedings
     listed_in: 1
     first: '2014-07-20'

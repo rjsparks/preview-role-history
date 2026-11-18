@@ -26,16 +26,19 @@ chairs:
     - 'End: no longer listed among the chairs in a proceedings charter snapshot (2005-07-13)'
   evidence:
   - kind: minutes
-    listed_in: 2
-    first: '2004-11-07'
+    listed_in: 4
+    first: '2004-08-01'
     last: '2005-03-06'
     examples:
+    - date: '2004-08-01'
+      subject: IETF 60 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/60/minutes/l2vpn.htm
     - date: '2004-11-07'
       subject: minutes for IETF61 L2VPN meeting
       url: https://mailarchive.ietf.org/arch/msg/l2vpn/599TvtvrNXy3C5temZ2Lkt6U1yo/
     - date: '2005-03-06'
-      subject: IETF 62 L2VPN draft minutes
-      url: https://mailarchive.ietf.org/arch/msg/l2vpn/S6oB1zUFQlhKs5mdoZdPKKjbo70/
+      subject: IETF 62 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/62/minutes/l2vpn.html
   - kind: proceedings
     listed_in: 6
     first: '2003-07-09'
@@ -99,13 +102,19 @@ chairs:
       subject: wg last call - draft-ietf-l2vpn-vpls-ldp-05.txt
       url: https://mailarchive.ietf.org/arch/msg/l2vpn/uRxCO2KqG2A11l56INqhePewH-0/
   - kind: minutes
-    listed_in: 1
-    first: '2005-03-06'
+    listed_in: 3
+    first: '2004-08-01'
     last: '2005-03-06'
     examples:
+    - date: '2004-08-01'
+      subject: IETF 60 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/60/minutes/l2vpn.htm
     - date: '2005-03-06'
       subject: IETF 62 L2VPN draft minutes
       url: https://mailarchive.ietf.org/arch/msg/l2vpn/S6oB1zUFQlhKs5mdoZdPKKjbo70/
+    - date: '2005-03-06'
+      subject: IETF 62 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/62/minutes/l2vpn.html
   - kind: proceedings
     listed_in: 6
     first: '2003-07-09'
@@ -165,12 +174,12 @@ chairs:
       url: https://www.ietf.org/proceedings/77/l2vpn.html
   - kind: minutes without them
     date: '2005-03-06'
-    subject: IETF 62 L2VPN draft minutes
-    url: https://mailarchive.ietf.org/arch/msg/l2vpn/S6oB1zUFQlhKs5mdoZdPKKjbo70/
+    subject: IETF 62 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/62/minutes/l2vpn.html
   - kind: minutes without them
-    date: '2010-11-07'
-    subject: IETF 79 proceedings charter
-    url: https://www.ietf.org/proceedings/79/l2vpn.html
+    date: '2012-11-04'
+    subject: IETF 85 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/85/minutes/minutes-85-l2vpn.txt
   - kind: session requests
     meetings:
     - '65'
@@ -210,6 +219,17 @@ chairs:
     date: '2011-09-13'
     subject: 'WG Action: RECHARTER: Layer 2 Virtual Private Networks (l2vpn)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/-oG-56sh4ZeIE4Q0M32ZCkJHuVo/
+  - kind: minutes
+    listed_in: 2
+    first: '2012-11-04'
+    last: '2014-07-20'
+    examples:
+    - date: '2012-11-04'
+      subject: IETF 85 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/85/minutes/minutes-85-l2vpn.txt
+    - date: '2014-07-20'
+      subject: IETF 90 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/90/minutes/minutes-90-l2vpn.txt
   - kind: proceedings
     listed_in: 7
     first: '2010-11-07'
@@ -226,8 +246,8 @@ chairs:
       url: https://www.ietf.org/proceedings/85/l2vpn.html
   - kind: minutes without them
     date: '2005-07-31'
-    subject: Final Minutes of L2VPN WG Meeting @ IETF 63 (Paris)
-    url: https://mailarchive.ietf.org/arch/msg/l2vpn/Lr5v086nXdMhV9hZNjY9jp2bcV8/
+    subject: IETF 63 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/63/minutes/l2vpn.html
   - kind: shepherded
     documents:
     - draft-ietf-l2vpn-etree-frwk
@@ -276,6 +296,20 @@ chairs:
     - date: '2012-10-02'
       subject: WG Adoption call for draft-liu-l2vpn-vpls-inter-domain-redundancy-04
       url: https://mailarchive.ietf.org/arch/msg/l2vpn/bvumOnJv1711M9SMaJBIYXZ6qqI/
+  - kind: minutes
+    listed_in: 3
+    first: '2010-03-21'
+    last: '2014-07-20'
+    examples:
+    - date: '2010-03-21'
+      subject: IETF 77 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/77/minutes/l2vpn.txt
+    - date: '2012-11-04'
+      subject: IETF 85 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/85/minutes/minutes-85-l2vpn.txt
+    - date: '2014-07-20'
+      subject: IETF 90 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/90/minutes/minutes-90-l2vpn.txt
   - kind: proceedings
     listed_in: 10
     first: '2009-07-26'
@@ -292,8 +326,8 @@ chairs:
       url: https://www.ietf.org/proceedings/85/l2vpn.html
   - kind: minutes without them
     date: '2005-07-31'
-    subject: Final Minutes of L2VPN WG Meeting @ IETF 63 (Paris)
-    url: https://mailarchive.ietf.org/arch/msg/l2vpn/Lr5v086nXdMhV9hZNjY9jp2bcV8/
+    subject: IETF 63 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/63/minutes/l2vpn.html
   - kind: session requests
     meetings:
     - '79'
@@ -342,19 +376,19 @@ chairs:
       subject: IETF 58 - L2VPN minutes
       url: https://mailarchive.ietf.org/arch/msg/l2vpn/zxQ0vy0gAFKAUSB0gXNEIbGq_tw/
   - kind: minutes
-    listed_in: 4
-    first: '2004-11-07'
-    last: '2005-07-31'
+    listed_in: 14
+    first: '2004-08-01'
+    last: '2009-03-22'
     examples:
+    - date: '2004-08-01'
+      subject: IETF 60 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/60/minutes/l2vpn.htm
     - date: '2004-11-07'
       subject: minutes for IETF61 L2VPN meeting
       url: https://mailarchive.ietf.org/arch/msg/l2vpn/599TvtvrNXy3C5temZ2Lkt6U1yo/
-    - date: '2005-03-06'
-      subject: IETF 62 L2VPN draft minutes
-      url: https://mailarchive.ietf.org/arch/msg/l2vpn/S6oB1zUFQlhKs5mdoZdPKKjbo70/
-    - date: '2005-07-31'
-      subject: Final Minutes of L2VPN WG Meeting @ IETF 63 (Paris)
-      url: https://mailarchive.ietf.org/arch/msg/l2vpn/Lr5v086nXdMhV9hZNjY9jp2bcV8/
+    - date: '2009-03-22'
+      subject: IETF 74 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/74/minutes/l2vpn.txt
   - kind: proceedings
     listed_in: 11
     first: '2003-07-09'
@@ -370,9 +404,9 @@ chairs:
       subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/l2vpn.html
   - kind: minutes without them
-    date: '2009-07-26'
-    subject: IETF 75 proceedings charter
-    url: https://www.ietf.org/proceedings/75/l2vpn.html
+    date: '2012-11-04'
+    subject: IETF 85 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/85/minutes/minutes-85-l2vpn.txt
 - person: 109004
   name: Shane Amante
   status: unconfirmed
@@ -415,7 +449,7 @@ chairs:
       subject: 'WG Last Call: draft-ietf-l2vpn-oam-req-frmk-05'
       url: https://mailarchive.ietf.org/arch/msg/l2vpn/L3fyOs1aEn3mKnHG8qGMnUoEnyc/
   - kind: minutes
-    listed_in: 2
+    listed_in: 3
     first: '2005-07-31'
     last: '2005-07-31'
     examples:
@@ -425,11 +459,14 @@ chairs:
     - date: '2005-07-31'
       subject: Final Minutes of L2VPN WG Meeting @ IETF 63 (Paris)
       url: https://mailarchive.ietf.org/arch/msg/l2vpn/Lr5v086nXdMhV9hZNjY9jp2bcV8/
+    - date: '2005-07-31'
+      subject: IETF 63 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/63/minutes/l2vpn.html
   - kind: minutes without them
     date: '2005-03-06'
-    subject: IETF 62 L2VPN draft minutes
-    url: https://mailarchive.ietf.org/arch/msg/l2vpn/S6oB1zUFQlhKs5mdoZdPKKjbo70/
+    subject: IETF 62 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/62/minutes/l2vpn.html
   - kind: minutes without them
-    date: '2010-11-07'
-    subject: IETF 79 proceedings charter
-    url: https://www.ietf.org/proceedings/79/l2vpn.html
+    date: '2012-11-04'
+    subject: IETF 85 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/85/minutes/minutes-85-l2vpn.txt

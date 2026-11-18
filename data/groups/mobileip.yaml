@@ -11,6 +11,32 @@ chartered: '1992-06-26'
 bof_sessions: []
 history_url: https://datatracker.ietf.org/group/mobileip/history/
 chairs:
+- person: 2740
+  name: Greg Minshall
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1994-03-28'
+    end:
+      certainty: between
+      not_before: '1994-03-28'
+      not_after: '1994-12-05'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (1994-12-05)'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '1994-03-28'
+    last: '1994-03-28'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/rtg/mobileip/mobileip-charter.txt
+  - kind: minutes without them
+    date: '2002-03-17'
+    subject: IETF 53 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/53/minutes/mobileip.htm
 - person: 4475
   name: Tony Li
   status: unconfirmed
@@ -40,9 +66,9 @@ chairs:
       subject: IETF 34 proceedings charter
       url: https://www.ietf.org/proceedings/34/area.and.wg.reports/rtg/mobileip/mobileip-charter.txt
   - kind: minutes without them
-    date: '1997-04-07'
-    subject: IETF 38 proceedings charter
-    url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr85.htm
+    date: '2002-03-17'
+    subject: IETF 53 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/53/minutes/mobileip.htm
 - person: 5794
   name: Kannan Alagappan
   status: unconfirmed
@@ -69,9 +95,9 @@ chairs:
       subject: IETF 31 proceedings charter
       url: https://www.ietf.org/proceedings/31/area.and.wg.reports/rtg/mobileip/mobileip-charter.txt
   - kind: minutes without them
-    date: '1995-04-03'
-    subject: IETF 32 proceedings charter
-    url: https://www.ietf.org/proceedings/32/area.and.wg.reports/rtg/mobileip/mobileip-charter.txt
+    date: '2002-03-17'
+    subject: IETF 53 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/53/minutes/mobileip.htm
 - person: 8243
   name: Erik Nordmark
   status: unconfirmed
@@ -101,9 +127,9 @@ chairs:
       subject: IETF 45 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-86.html
   - kind: minutes without them
-    date: '1999-09-29'
-    subject: IETF 46 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-97.html
+    date: '2002-03-17'
+    subject: IETF 53 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/53/minutes/mobileip.htm
 - person: 8782
   name: Jim Solomon
   status: unconfirmed
@@ -133,9 +159,9 @@ chairs:
       subject: IETF 44 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-88.html
   - kind: minutes without them
-    date: '1999-07-06'
-    subject: IETF 45 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-86.html
+    date: '2002-03-17'
+    subject: IETF 53 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/53/minutes/mobileip.htm
 - person: 101390
   name: Phil Roberts
   status: confirmed
@@ -150,6 +176,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1999-09-29)'
   evidence:
+  - kind: minutes
+    listed_in: 3
+    first: '2002-03-17'
+    last: '2003-03-16'
+    examples:
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/minutes/mobileip.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/minutes/mobileip.htm
+    - date: '2003-03-16'
+      subject: IETF 56 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/56/minutes/mobileip.htm
   - kind: proceedings
     listed_in: 11
     first: '1999-09-29'
@@ -178,6 +218,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1999-07-06)'
   evidence:
+  - kind: minutes
+    listed_in: 3
+    first: '2002-03-17'
+    last: '2003-03-16'
+    examples:
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/minutes/mobileip.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/minutes/mobileip.htm
+    - date: '2003-03-16'
+      subject: IETF 56 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/56/minutes/mobileip.htm
   - kind: proceedings
     listed_in: 12
     first: '1999-07-06'
@@ -199,13 +253,25 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2002-08-08'
-      not_before: '1992-06-12'
+      not_before: '2002-03-17'
     end:
       certainty: group-closed
       date: '2003-11-11'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2002-08-08)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2002-03-17)'
   evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '2002-11-17'
+    last: '2003-03-16'
+    examples:
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/minutes/mobileip.htm
+    - date: '2003-03-16'
+      subject: IETF 56 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/56/minutes/mobileip.htm
   - kind: proceedings
     listed_in: 2
     first: '2002-08-08'
@@ -217,3 +283,7 @@ chairs:
     - date: '2003-02-19'
       subject: IETF 56 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/56/145.htm
+  - kind: minutes without them
+    date: '2002-03-17'
+    subject: IETF 53 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/53/minutes/mobileip.htm

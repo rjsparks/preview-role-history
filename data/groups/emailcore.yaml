@@ -14,26 +14,6 @@ bof_sessions:
   url: https://datatracker.ietf.org/meeting/108/session/emailcore/
 history_url: https://datatracker.ietf.org/group/emailcore/history/
 chairs:
-- person: 18321
-  name: Pete Resnick
-  status: confirmed
-  periods:
-  - start:
-      certainty: on-or-before
-      date: '2020-06-15'
-      not_before: '2020-06-15'
-    end:
-      certainty: exact
-      date: '2020-06-15'
-  evidence:
-  - kind: chair activity
-    first: '2022-12-07'
-    last: '2022-12-07'
-    messages: 1
-    examples:
-    - date: '2022-12-07'
-      subject: '[Emailcore] Interim coordinates'
-      url: https://mailarchive.ietf.org/arch/msg/emailcore/qmOMDZAr3IpkXO_rwYrii7m3adk/
 - person: 102154
   name: Alexey Melnikov
   status: confirmed

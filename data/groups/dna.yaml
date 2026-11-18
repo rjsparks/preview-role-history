@@ -23,7 +23,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2004-02-11'
+      not_after: '2003-11-09'
     end:
       certainty: between
       not_before: '2005-06-27'
@@ -39,6 +39,20 @@ chairs:
     date: '2004-02-20'
     subject: 'WG Action: UPDATED: Detecting Network Attachment (dna)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/TBmLcfHaL9bLW0ZrPvXVeDYn0Xo/
+  - kind: minutes
+    listed_in: 3
+    first: '2003-11-09'
+    last: '2005-03-06'
+    examples:
+    - date: '2003-11-09'
+      subject: IETF 58 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/58/minutes/dna.htm
+    - date: '2004-02-29'
+      subject: IETF 59 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/59/minutes/dna.htm
+    - date: '2005-03-06'
+      subject: IETF 62 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/62/minutes/dna.html
   - kind: proceedings
     listed_in: 5
     first: '2004-02-20'
@@ -54,9 +68,9 @@ chairs:
       subject: IETF 63 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/63/dna.html
   - kind: minutes without them
-    date: '2005-10-03'
-    subject: IETF 64 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/64/dna.html
+    date: '2005-11-06'
+    subject: IETF 64 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/64/minutes/dna.txt
 - person: 105988
   name: Greg Daley
   status: confirmed
@@ -79,6 +93,20 @@ chairs:
     date: '2004-02-20'
     subject: 'WG Action: UPDATED: Detecting Network Attachment (dna)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/TBmLcfHaL9bLW0ZrPvXVeDYn0Xo/
+  - kind: minutes
+    listed_in: 10
+    first: '2003-07-13'
+    last: '2008-11-16'
+    examples:
+    - date: '2003-07-13'
+      subject: IETF 57 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/57/minutes/DNA.TXT
+    - date: '2003-07-13'
+      subject: IETF 57 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/57/minutes/dna.htm
+    - date: '2008-11-16'
+      subject: IETF 73 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/73/minutes/dna.txt
   - kind: proceedings
     listed_in: 10
     first: '2004-02-20'
@@ -100,12 +128,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2005-10-03'
-      not_before: '2004-01-15'
+      not_before: '2005-03-06'
     end:
       certainty: group-closed
       date: '2009-10-23'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2005-10-03)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2005-03-06)'
   evidence:
   - kind: chair activity
     first: '2008-09-03'
@@ -124,6 +153,20 @@ chairs:
     - date: '2009-06-16'
       subject: '[dna] WGLC for draft-ietf-dna-tentative-02.txt'
       url: https://mailarchive.ietf.org/arch/msg/dna/uPPstEmI1PmYo8rC-QIzGFrydRo/
+  - kind: minutes
+    listed_in: 5
+    first: '2005-11-06'
+    last: '2008-11-16'
+    examples:
+    - date: '2005-11-06'
+      subject: IETF 64 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/64/minutes/dna.txt
+    - date: '2006-11-05'
+      subject: IETF 67 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/67/minutes/dna.txt
+    - date: '2008-11-16'
+      subject: IETF 73 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/73/minutes/dna.txt
   - kind: proceedings
     listed_in: 5
     first: '2005-10-03'
@@ -138,6 +181,10 @@ chairs:
     - date: '2008-09-23'
       subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/dna.html
+  - kind: minutes without them
+    date: '2005-03-06'
+    subject: IETF 62 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/62/minutes/dna.html
   - kind: session requests
     meetings:
     - '65'

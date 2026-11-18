@@ -11,12 +11,39 @@ chartered: '2010-01-26'
 bof_sessions: []
 history_url: https://datatracker.ietf.org/group/iri/history/
 chairs:
+- person: 18321
+  name: Pete Resnick
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2009-11-08'
+    end:
+      certainty: between
+      not_before: '2009-11-08'
+      not_after: '2010-03-21'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-03-21)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2009-11-08'
+    last: '2009-11-08'
+    examples:
+    - date: '2009-11-08'
+      subject: IETF 76 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/76/minutes/iri.txt
+  - kind: minutes without them
+    date: '2010-03-21'
+    subject: IETF 77 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/77/minutes/iri.txt
 - person: 19869
   name: Marc Blanchet
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2009-11-08'
       not_after: '2010-03-21'
     end:
       certainty: between
@@ -24,7 +51,16 @@ chairs:
       not_after: '2012-03-25'
     notes:
     - 'End: no longer listed among the chairs in a proceedings charter snapshot (2012-03-25)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2009-11-08)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2010-03-21'
+    last: '2010-03-21'
+    examples:
+    - date: '2010-03-21'
+      subject: IETF 77 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/77/minutes/iri.txt
   - kind: proceedings
     listed_in: 5
     first: '2010-03-21'
@@ -39,6 +75,10 @@ chairs:
     - date: '2011-07-24'
       subject: IETF 81 proceedings charter
       url: https://www.ietf.org/proceedings/81/iri.html
+  - kind: minutes without them
+    date: '2009-11-08'
+    subject: IETF 76 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/76/minutes/iri.txt
   - kind: minutes without them
     date: '2012-03-25'
     subject: IETF 83 proceedings charter
@@ -76,12 +116,17 @@ chairs:
     - date: '2012-11-04'
       subject: IETF 85 proceedings charter
       url: https://www.ietf.org/proceedings/85/iri.html
+  - kind: minutes without them
+    date: '2010-03-21'
+    subject: IETF 77 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/77/minutes/iri.txt
 - person: 106493
   name: Addison Phillips
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2009-11-08'
       not_after: '2010-03-21'
     end:
       certainty: between
@@ -89,6 +134,7 @@ chairs:
       not_after: '2011-03-27'
     notes:
     - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-03-27)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2009-11-08)'
   evidence:
   - kind: proceedings
     listed_in: 2
@@ -102,9 +148,54 @@ chairs:
       subject: IETF 78 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/78/iiri.html
   - kind: minutes without them
+    date: '2009-11-08'
+    subject: IETF 76 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/76/minutes/iri.txt
+  - kind: minutes without them
     date: '2011-03-27'
     subject: IETF 80 proceedings charter
     url: https://www.ietf.org/proceedings/80/iri.html
+- person: 110721
+  name: Ted Hardie
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2009-11-08'
+    end:
+      certainty: between
+      not_before: '2010-03-21'
+      not_after: '2010-05-04'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-05-04)'
+  evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '2009-11-08'
+    last: '2010-03-21'
+    examples:
+    - date: '2009-11-08'
+      subject: IETF 76 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/76/minutes/iri.txt
+    - date: '2010-03-21'
+      subject: IETF 77 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/77/minutes/iri.txt
+  - kind: proceedings
+    listed_in: 1
+    first: '2009-11-08'
+    last: '2009-11-08'
+    examples:
+    - date: '2009-11-08'
+      subject: IETF 76 proceedings charter
+      url: https://www.ietf.org/proceedings/76/iri.html
+  - kind: minutes without them
+    date: '2010-05-04'
+    subject: IETF 78 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/78/iiri.html
+  - kind: session requests
+    meetings:
+    - '77'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
 - person: 112547
   name: Chris Weber
   status: confirmed
@@ -112,12 +203,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2011-03-27'
-      not_before: '2009-12-12'
+      not_before: '2010-03-21'
     end:
       certainty: group-closed
       date: '2013-01-18'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2011-03-27)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2010-03-21)'
   evidence:
   - kind: proceedings
     listed_in: 6
@@ -133,3 +225,7 @@ chairs:
     - date: '2012-11-04'
       subject: IETF 85 proceedings charter
       url: https://www.ietf.org/proceedings/85/iri.html
+  - kind: minutes without them
+    date: '2010-03-21'
+    subject: IETF 77 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/77/minutes/iri.txt

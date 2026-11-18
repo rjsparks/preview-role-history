@@ -41,13 +41,19 @@ chairs:
       subject: '[Ieprep] draft ieprep minutes'
       url: https://mailarchive.ietf.org/arch/msg/ieprep/bqvXkG_Clb9fJQBbkDDfuZkHFiM/
   - kind: minutes
-    listed_in: 1
-    first: '2003-03-28'
-    last: '2003-03-28'
+    listed_in: 3
+    first: '2003-03-16'
+    last: '2004-08-01'
     examples:
+    - date: '2003-03-16'
+      subject: IETF 56 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/56/minutes/ieprep.htm
     - date: '2003-03-28'
       subject: '[Ieprep] ieprep minutes San Francisco'
       url: https://mailarchive.ietf.org/arch/msg/ieprep/YJPmjvhTNtFQcPAlzFwNZxKEN-M/
+    - date: '2004-08-01'
+      subject: IETF 60 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/60/minutes/ieprep.htm
   - kind: proceedings
     listed_in: 9
     first: '2002-08-16'
@@ -107,9 +113,9 @@ chairs:
       subject: IETF 54 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/54/220.htm
   - kind: minutes without them
-    date: '2003-03-28'
-    subject: '[Ieprep] ieprep minutes San Francisco'
-    url: https://mailarchive.ietf.org/arch/msg/ieprep/YJPmjvhTNtFQcPAlzFwNZxKEN-M/
+    date: '2003-03-16'
+    subject: IETF 56 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/56/minutes/ieprep.htm
 - person: 102997
   name: Kimberly King
   status: confirmed
@@ -131,13 +137,19 @@ chairs:
     excerpt: this is to announce that Kimberly King has agreed to become the co-chair for the ieprep working
       group
   - kind: minutes
-    listed_in: 1
-    first: '2003-03-28'
-    last: '2003-03-28'
+    listed_in: 3
+    first: '2003-03-16'
+    last: '2004-08-01'
     examples:
+    - date: '2003-03-16'
+      subject: IETF 56 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/56/minutes/ieprep.htm
     - date: '2003-03-28'
       subject: '[Ieprep] ieprep minutes San Francisco'
       url: https://mailarchive.ietf.org/arch/msg/ieprep/YJPmjvhTNtFQcPAlzFwNZxKEN-M/
+    - date: '2004-08-01'
+      subject: IETF 60 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/60/minutes/ieprep.htm
   - kind: proceedings
     listed_in: 8
     first: '2003-01-14'

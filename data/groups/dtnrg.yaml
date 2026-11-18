@@ -17,12 +17,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2006-11-05'
+      date: '2005-07-31'
     end:
       certainty: group-closed
       date: '2016-04-05'
     notes:
-    - 'Start: requested the group''s session for IETF 67 (2006-11-05)'
+    - 'Start: listed as chair in meeting minutes (2005-07-31)'
   evidence:
   - kind: chair activity
     first: '2013-07-12'
@@ -32,6 +32,17 @@ chairs:
     - date: '2013-07-12'
       subject: '[dtn-interest] draft DTNRG agenda for Berlin IETF meeting'
       url: https://mailarchive.ietf.org/arch/msg/dtn-interest/--j0NgZOGeUGdRD5PhfpZTsmfk4/
+  - kind: minutes
+    listed_in: 2
+    first: '2005-07-31'
+    last: '2010-07-25'
+    examples:
+    - date: '2005-07-31'
+      subject: IETF 63 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/63/minutes/DTNRG.html
+    - date: '2010-07-25'
+      subject: IETF 78 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/78/minutes/DTNRG.txt
   - kind: proceedings
     listed_in: 12
     first: '2012-03-25'
@@ -59,11 +70,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2011-07-24'
+      not_before: '2010-07-25'
     end:
       certainty: group-closed
       date: '2016-04-05'
     notes:
     - 'Start: requested the group''s session for IETF 81 (2011-07-24)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2010-07-25)'
   evidence:
   - kind: chair activity
     first: '2011-07-19'
@@ -87,6 +100,10 @@ chairs:
     - date: '2015-11-01'
       subject: IETF 94 proceedings charter
       url: https://www.ietf.org/proceedings/94/dtnrg.html
+  - kind: minutes without them
+    date: '2010-07-25'
+    subject: IETF 78 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/78/minutes/DTNRG.txt
   - kind: session requests
     meetings:
     - '81'
@@ -119,6 +136,14 @@ chairs:
     - date: '2006-10-24'
       subject: '[dtn-interest] Agenda for IETF-67'
       url: https://mailarchive.ietf.org/arch/msg/dtn-interest/YrumQQEIk_K6xpxy5MHFxIbAUt8/
+  - kind: minutes
+    listed_in: 1
+    first: '2010-07-25'
+    last: '2010-07-25'
+    examples:
+    - date: '2010-07-25'
+      subject: IETF 78 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/78/minutes/DTNRG.txt
   - kind: proceedings
     listed_in: 8
     first: '2012-03-25'

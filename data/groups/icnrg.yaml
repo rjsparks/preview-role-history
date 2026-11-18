@@ -73,10 +73,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2012-04-24'
-      not_after: '2014-11-13'
+      not_after: '2013-07-28'
     end:
       certainty: exact
       date: '2020-03-12'
+    notes:
+    - 'Start: listed as chair in meeting minutes (2013-07-28)'
   evidence:
   - kind: chair activity
     first: '2012-07-31'
@@ -89,6 +91,17 @@ chairs:
     - date: '2012-10-25'
       subject: '[icnrg] ICNRG interim meeting planning'
       url: https://mailarchive.ietf.org/arch/msg/icnrg/iuCjCsW1eBUQ6n_XPuAqdzRbAT8/
+  - kind: minutes
+    listed_in: 2
+    first: '2013-07-28'
+    last: '2013-11-03'
+    examples:
+    - date: '2013-07-28'
+      subject: IETF 87 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/87/minutes/minutes-87-icnrg.txt
+    - date: '2013-11-03'
+      subject: IETF 88 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/88/minutes/minutes-88-icnrg.txt
   - kind: proceedings
     listed_in: 16
     first: '2012-03-25'
@@ -143,10 +156,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2012-04-24'
-      not_after: '2014-11-13'
+      not_after: '2013-07-28'
     end:
       certainty: exact
       date: '2026-02-03'
+    notes:
+    - 'Start: listed as chair in meeting minutes (2013-07-28)'
   evidence:
   - kind: chair activity
     first: '2012-06-29'
@@ -165,6 +180,14 @@ chairs:
     - date: '2023-11-22'
       subject: '[icnrg] call for adoption of draft-oran-icnrg-reflexive-forwarding'
       url: https://mailarchive.ietf.org/arch/msg/icnrg/73uTb8cbApON17FoGDLRMDwBAdA/
+  - kind: minutes
+    listed_in: 1
+    first: '2013-07-28'
+    last: '2013-07-28'
+    examples:
+    - date: '2013-07-28'
+      subject: IETF 87 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/87/minutes/minutes-87-icnrg.txt
   - kind: proceedings
     listed_in: 16
     first: '2012-03-25'

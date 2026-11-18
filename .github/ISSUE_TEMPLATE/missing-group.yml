@@ -1,0 +1,47 @@
+name: A group that isn't listed
+description: An older working group, research group or BOF that the datatracker doesn't know about.
+title: "Missing group: "
+labels: [missing-group]
+body:
+  - type: markdown
+    attributes:
+      value: >
+        Some early groups and BOFs never made it into the datatracker. Tell us what you know;
+        partial information is fine.
+  - type: input
+    id: group
+    attributes:
+      label: Group name and acronym, as used at the time
+      placeholder: Jabber Protocol BOF (jabber)
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of group was it?
+      options:
+        - BOF (never became a working group)
+        - Working group
+        - Research group
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: when
+    attributes:
+      label: When did it meet or exist?
+      description: Meetings or years are fine ("met at IETF 54, July 2002").
+    validations:
+      required: true
+  - type: textarea
+    id: chairs
+    attributes:
+      label: Who chaired it, and when?
+      placeholder: Pete Resnick, IETF 54
+  - type: textarea
+    id: source
+    attributes:
+      label: How do you know?
+      description: >
+        Proceedings, minutes, an announcement or a mailing list message help the reviewers most.
+        "I was there" is useful too.

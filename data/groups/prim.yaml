@@ -78,3 +78,29 @@ chairs:
     - date: '2001-07-31'
       subject: IETF 54 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/54/121.htm
+- person: 104440
+  name: Athanassios Diacakis
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2000-12-10'
+    end:
+      certainty: between
+      not_before: '2000-12-10'
+      not_after: '2001-07-31'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2001-07-31)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2000-12-10'
+    last: '2000-12-10'
+    examples:
+    - date: '2000-12-10'
+      subject: IETF 49 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/49/minutes/PRIM.txt
+  - kind: minutes without them
+    date: '2001-07-31'
+    subject: IETF 51 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/51/51-27.htm

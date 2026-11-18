@@ -37,9 +37,9 @@ chairs:
       subject: IETF 31 proceedings charter
       url: https://www.ietf.org/proceedings/31/area.and.wg.reports/tsv/mmusic/mmusic-charter.txt
   - kind: minutes without them
-    date: '2009-11-08'
-    subject: '[MMUSIC] IETF 76 - Draft WG Meeting minutes posted'
-    url: https://mailarchive.ietf.org/arch/msg/mmusic/_pBA9KQvfz_8GOAtiRv_n3u3tpA/
+    date: '2009-07-26'
+    subject: IETF 75 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/75/minutes/mmusic.html
 - person: 4493
   name: Ruth Lang
   status: unconfirmed
@@ -69,9 +69,9 @@ chairs:
       subject: IETF 48 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/48/00july-131.htm
   - kind: minutes without them
-    date: '2009-11-08'
-    subject: '[MMUSIC] IETF 76 - Draft WG Meeting minutes posted'
-    url: https://mailarchive.ietf.org/arch/msg/mmusic/_pBA9KQvfz_8GOAtiRv_n3u3tpA/
+    date: '2009-07-26'
+    subject: IETF 75 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/75/minutes/mmusic.html
 - person: 9052
   name: Mark Handley
   status: unconfirmed
@@ -115,9 +115,9 @@ chairs:
       subject: IETF 48 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/48/00july-131.htm
   - kind: minutes without them
-    date: '2009-11-08'
-    subject: '[MMUSIC] IETF 76 - Draft WG Meeting minutes posted'
-    url: https://mailarchive.ietf.org/arch/msg/mmusic/_pBA9KQvfz_8GOAtiRv_n3u3tpA/
+    date: '2009-07-26'
+    subject: IETF 75 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/75/minutes/mmusic.html
 - person: 11842
   name: Joerg Ott
   status: unconfirmed
@@ -164,13 +164,19 @@ chairs:
       subject: WG Last Call on ATM/SDP
       url: https://mailarchive.ietf.org/arch/msg/mmusic/0mrnF46JWgPi_pmxLIBMUVIxPTw/
   - kind: minutes
-    listed_in: 1
-    first: '2009-11-08'
+    listed_in: 3
+    first: '2009-07-26'
     last: '2009-11-08'
     examples:
+    - date: '2009-07-26'
+      subject: IETF 75 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/75/minutes/mmusic.html
     - date: '2009-11-08'
       subject: '[MMUSIC] IETF 76 - Draft WG Meeting minutes posted'
       url: https://mailarchive.ietf.org/arch/msg/mmusic/_pBA9KQvfz_8GOAtiRv_n3u3tpA/
+    - date: '2009-11-08'
+      subject: IETF 76 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/76/minutes/mmusic.html
   - kind: proceedings
     listed_in: 31
     first: '1997-08-11'
@@ -261,9 +267,9 @@ chairs:
       subject: IETF 66 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/66/mmusic.html
   - kind: minutes without them
-    date: '2009-11-08'
-    subject: '[MMUSIC] IETF 76 - Draft WG Meeting minutes posted'
-    url: https://mailarchive.ietf.org/arch/msg/mmusic/_pBA9KQvfz_8GOAtiRv_n3u3tpA/
+    date: '2009-07-26'
+    subject: IETF 75 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/75/minutes/mmusic.html
   - kind: session requests
     meetings:
     - '66'
@@ -304,13 +310,16 @@ chairs:
       subject: '[MMUSIC] IETF 79 minutes posted'
       url: https://mailarchive.ietf.org/arch/msg/mmusic/ncE-RE0DFewJLtAlB-pAVMDiwfM/
   - kind: minutes
-    listed_in: 1
+    listed_in: 2
     first: '2010-03-21'
     last: '2010-03-21'
     examples:
     - date: '2010-03-21'
       subject: '[MMUSIC] minutes from IETF 77 posted'
       url: https://mailarchive.ietf.org/arch/msg/mmusic/SMmKBpTDPkFm2IvrPtfusw0NqiY/
+    - date: '2010-03-21'
+      subject: IETF 77 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/77/minutes/mmusic.html
   - kind: proceedings
     listed_in: 2
     first: '2010-02-10'
@@ -324,8 +333,8 @@ chairs:
       url: https://www.ietf.org/proceedings/78/mmusic.html
   - kind: minutes without them
     date: '2009-11-08'
-    subject: '[MMUSIC] IETF 76 - Draft WG Meeting minutes posted'
-    url: https://mailarchive.ietf.org/arch/msg/mmusic/_pBA9KQvfz_8GOAtiRv_n3u3tpA/
+    subject: IETF 76 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/76/minutes/mmusic.html
   - kind: minutes without them
     date: '2011-03-27'
     subject: IETF 80 proceedings charter
@@ -389,8 +398,8 @@ chairs:
       url: https://www.ietf.org/proceedings/84/mmusic.html
   - kind: minutes without them
     date: '2010-03-21'
-    subject: '[MMUSIC] minutes from IETF 77 posted'
-    url: https://mailarchive.ietf.org/arch/msg/mmusic/SMmKBpTDPkFm2IvrPtfusw0NqiY/
+    subject: IETF 77 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/77/minutes/mmusic.html
   - kind: session requests
     meetings:
     - '81'
@@ -444,16 +453,19 @@ chairs:
       subject: '[MMUSIC] WGLC: draft-ietf-mmusic-connectivity-precon-05.txt'
       url: https://mailarchive.ietf.org/arch/msg/mmusic/Vt8On34W8T1qCAGK_-am5Auepsk/
   - kind: minutes
-    listed_in: 2
-    first: '2009-11-08'
+    listed_in: 5
+    first: '2009-07-26'
     last: '2010-03-21'
     examples:
+    - date: '2009-07-26'
+      subject: IETF 75 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/75/minutes/mmusic.html
     - date: '2009-11-08'
       subject: '[MMUSIC] IETF 76 - Draft WG Meeting minutes posted'
       url: https://mailarchive.ietf.org/arch/msg/mmusic/_pBA9KQvfz_8GOAtiRv_n3u3tpA/
     - date: '2010-03-21'
-      subject: '[MMUSIC] minutes from IETF 77 posted'
-      url: https://mailarchive.ietf.org/arch/msg/mmusic/SMmKBpTDPkFm2IvrPtfusw0NqiY/
+      subject: IETF 77 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/77/minutes/mmusic.html
   - kind: proceedings
     listed_in: 6
     first: '2006-07-05'
@@ -619,8 +631,8 @@ chairs:
       url: https://www.ietf.org/proceedings/98/mmusic.html
   - kind: minutes without them
     date: '2010-03-21'
-    subject: '[MMUSIC] minutes from IETF 77 posted'
-    url: https://mailarchive.ietf.org/arch/msg/mmusic/SMmKBpTDPkFm2IvrPtfusw0NqiY/
+    subject: IETF 77 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/77/minutes/mmusic.html
   - kind: shepherded
     documents:
     - draft-ietf-mmusic-data-channel-sdpneg
@@ -677,8 +689,8 @@ chairs:
       url: https://www.ietf.org/proceedings/93/mmusic.html
   - kind: minutes without them
     date: '2010-03-21'
-    subject: '[MMUSIC] minutes from IETF 77 posted'
-    url: https://mailarchive.ietf.org/arch/msg/mmusic/SMmKBpTDPkFm2IvrPtfusw0NqiY/
+    subject: IETF 77 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/77/minutes/mmusic.html
   - kind: shepherded
     documents:
     - draft-ietf-mmusic-delayed-duplication
@@ -729,6 +741,6 @@ chairs:
       subject: IETF 48 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/48/00july-131.htm
   - kind: minutes without them
-    date: '2009-11-08'
-    subject: '[MMUSIC] IETF 76 - Draft WG Meeting minutes posted'
-    url: https://mailarchive.ietf.org/arch/msg/mmusic/_pBA9KQvfz_8GOAtiRv_n3u3tpA/
+    date: '2009-07-26'
+    subject: IETF 75 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/75/minutes/mmusic.html

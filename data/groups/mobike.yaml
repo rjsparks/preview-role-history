@@ -21,17 +21,32 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2004-02-12'
-      not_before: '2003-10-01'
+      not_before: '2003-11-09'
     end:
       certainty: group-closed
       date: '2006-04-21'
     notes:
     - 'Start: named as chair in the WG Action announcement (2004-02-12)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2003-11-09)'
   evidence:
   - kind: WG Action
     date: '2004-02-12'
     subject: 'WG Action: IKEv2 Mobility and Multihoming (mobike)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/SdhC_qPf4tIbcxMJ4rvztDNvWjk/
+  - kind: minutes
+    listed_in: 5
+    first: '2004-02-29'
+    last: '2005-11-06'
+    examples:
+    - date: '2004-02-29'
+      subject: IETF 59 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/59/minutes/mobike.htm
+    - date: '2004-08-01'
+      subject: IETF 60 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/60/minutes/mobike.htm
+    - date: '2005-11-06'
+      subject: IETF 64 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/64/minutes/mobike.txt
   - kind: proceedings
     listed_in: 7
     first: '2004-02-13'
@@ -46,6 +61,10 @@ chairs:
     - date: '2006-02-15'
       subject: IETF 65 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/65/mobike.html
+  - kind: minutes without them
+    date: '2003-11-09'
+    subject: IETF 58 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/58/minutes/mobike.htm
   - kind: session requests
     meetings:
     - '65'
@@ -56,7 +75,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2004-02-12'
+      not_after: '2003-11-09'
     end:
       certainty: between
       not_before: '2006-02-15'
@@ -68,6 +87,20 @@ chairs:
     date: '2004-02-12'
     subject: 'WG Action: IKEv2 Mobility and Multihoming (mobike)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/SdhC_qPf4tIbcxMJ4rvztDNvWjk/
+  - kind: minutes
+    listed_in: 6
+    first: '2003-11-09'
+    last: '2005-11-06'
+    examples:
+    - date: '2003-11-09'
+      subject: IETF 58 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/58/minutes/mobike.htm
+    - date: '2004-02-29'
+      subject: IETF 59 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/59/minutes/mobike.htm
+    - date: '2005-11-06'
+      subject: IETF 64 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/64/minutes/mobike.txt
   - kind: proceedings
     listed_in: 7
     first: '2004-02-13'
@@ -87,3 +120,29 @@ chairs:
     after: '2006-03-19'
     by_meeting: '66'
     by: '2006-07-09'
+- person: 110121
+  name: Tero Kivinen
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2003-11-09'
+    end:
+      certainty: between
+      not_before: '2003-11-09'
+      not_after: '2004-02-13'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2004-02-13)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2003-11-09'
+    last: '2003-11-09'
+    examples:
+    - date: '2003-11-09'
+      subject: IETF 58 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/58/minutes/mobike.htm
+  - kind: minutes without them
+    date: '2004-02-29'
+    subject: IETF 59 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/59/minutes/mobike.htm

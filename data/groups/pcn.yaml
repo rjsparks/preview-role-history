@@ -43,13 +43,19 @@ chairs:
       subject: '[PCN] WGLC for draft-ietf-pcn-3-in-1-encoding-07.txt'
       url: https://mailarchive.ietf.org/arch/msg/pcn/oyUvpyG27bzn6sHJbSppuq2yzlY/
   - kind: minutes
-    listed_in: 1
+    listed_in: 8
     first: '2007-03-18'
-    last: '2007-03-18'
+    last: '2011-07-24'
     examples:
     - date: '2007-03-18'
       subject: '[PCN] Preliminary minutes from IETF 68 meeting'
       url: https://mailarchive.ietf.org/arch/msg/pcn/fEVK56NjgXN56Ux2j-OL79Q0LOM/
+    - date: '2007-03-18'
+      subject: IETF 68 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/68/minutes/pcn.txt
+    - date: '2011-07-24'
+      subject: IETF 81 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/81/minutes/pcn.txt
   - kind: proceedings
     listed_in: 11
     first: '2006-10-31'
@@ -72,6 +78,32 @@ chairs:
     - '79'
     - '81'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 19756
+  name: Anna Charny
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-10-31'
+    end:
+      certainty: between
+      not_before: '2006-10-31'
+      not_after: '2007-02-28'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2007-02-28)'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2006-10-31'
+    last: '2006-10-31'
+    examples:
+    - date: '2006-10-31'
+      subject: IETF 67 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/67/pcn.html
+  - kind: minutes without them
+    date: '2007-03-18'
+    subject: '[PCN] Preliminary minutes from IETF 68 meeting'
+    url: https://mailarchive.ietf.org/arch/msg/pcn/fEVK56NjgXN56Ux2j-OL79Q0LOM/
 - person: 106638
   name: Steven Blake
   status: confirmed
@@ -107,13 +139,19 @@ chairs:
       subject: '[PCN] WGLC for draft-ietf-pcn-signaling-requirements-03'
       url: https://mailarchive.ietf.org/arch/msg/pcn/c7_wBSisCW3AbwyZlRoepq2NFQE/
   - kind: minutes
-    listed_in: 1
+    listed_in: 8
     first: '2007-03-18'
-    last: '2007-03-18'
+    last: '2011-07-24'
     examples:
     - date: '2007-03-18'
       subject: '[PCN] Preliminary minutes from IETF 68 meeting'
       url: https://mailarchive.ietf.org/arch/msg/pcn/fEVK56NjgXN56Ux2j-OL79Q0LOM/
+    - date: '2007-03-18'
+      subject: IETF 68 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/68/minutes/pcn.txt
+    - date: '2011-07-24'
+      subject: IETF 81 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/81/minutes/pcn.txt
   - kind: proceedings
     listed_in: 10
     first: '2007-02-28'

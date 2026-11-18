@@ -11,6 +11,32 @@ chartered: '2008-01-24'
 bof_sessions: []
 history_url: https://datatracker.ietf.org/group/vcarddav/history/
 chairs:
+- person: 2097
+  name: Eliot Lear
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2007-06-28'
+    end:
+      certainty: between
+      not_before: '2007-06-28'
+      not_after: '2008-01-31'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2008-01-31)'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2007-06-28'
+    last: '2007-06-28'
+    examples:
+    - date: '2007-06-28'
+      subject: IETF 69 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/69/vcarddav.html
+  - kind: minutes without them
+    date: '2009-03-22'
+    subject: IETF 74 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/74/minutes/vcarddav.txt
 - person: 19869
   name: Marc Blanchet
   status: unconfirmed
@@ -43,6 +69,14 @@ chairs:
     - date: '2010-12-10'
       subject: '[VCARDDAV] wglc on vcardrev and vcardxml: deadline: Dec 31st 2010'
       url: https://mailarchive.ietf.org/arch/msg/vcarddav/i7URsSECisCjbWi8ZO_-dFDWbaM/
+  - kind: minutes
+    listed_in: 1
+    first: '2009-03-22'
+    last: '2009-03-22'
+    examples:
+    - date: '2009-03-22'
+      subject: IETF 74 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/74/minutes/vcarddav.txt
   - kind: proceedings
     listed_in: 5
     first: '2008-01-31'
@@ -84,6 +118,14 @@ chairs:
     date: '2008-01-31'
     subject: 'WG Action: vCard and vCardDAV (vcarddav)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/6CxQHJtUXWWREfBxOWCXFZ7VFiw/
+  - kind: minutes
+    listed_in: 1
+    first: '2009-03-22'
+    last: '2009-03-22'
+    examples:
+    - date: '2009-03-22'
+      subject: IETF 74 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/74/minutes/vcarddav.txt
   - kind: proceedings
     listed_in: 4
     first: '2007-06-28'

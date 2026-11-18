@@ -21,7 +21,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 import chairdata as cd  # noqa: E402
 
 SITE_TITLE = "IETF group chair history"
-TYPE_NAMES = {"wg": "WG", "rg": "RG", "ag": "AG", "rag": "RAG", "edwg": "EDWG"}
+TYPE_NAMES = {"wg": "WG", "rg": "RG", "ag": "AG", "rag": "RAG", "edwg": "EDWG", "bof": "BOF"}
 # Hover text for each date, and the legend: keyed by how the date reads on the page.
 CERTAINTY_HELP = {
     "exact": "Recorded on the day the change was made.",
@@ -333,8 +333,7 @@ Dates marked <span class="q">?</span> are not exact; <a href="#dates">reading th
         body = f"""<h1>{e(acronym)} <span class="muted">{e(g.get('name'))}</span></h1>
 <p class="lede">{e('BOF' if cd.never_chartered(g) else TYPE_NAMES.get(g.get('type'), g.get('type')))} in {e(g.get('parent') or 'no area')},
 {e(state)}{(', ' + e(life)) if life else ''}.
-<a href="{cd.DATATRACKER}/group/{e(acronym)}/about/">About</a> ·
-<a href="{e(g.get('history_url') or '')}">datatracker history</a></p>
+{self.group_links(g)}</p>
 {('<p>' + self.bof_history(g) + '</p>') if self.bof_history(g) else ''}
 <p>Know who chaired {e(acronym)} and when? <a class="act" href="{e(missing)}">Tell us about a missing chair</a>,
 or use the links on each row. Dates marked <span class="q">?</span> are not exact;
@@ -360,6 +359,17 @@ or use the links on each row. Dates marked <span class="q">?</span> are not exac
 <ul id="people-list" class="list">{''.join(items)}</ul>"""
         self.page("people.html", "People", body, depth=0, scripts=True)
 
+    @staticmethod
+    def group_links(g):
+        if g.get("datatracker") is False:
+            sources = "; ".join(
+                f'<a href="{e(x)}">{e(x)}</a>' if x.startswith(("http://", "https://")) else e(x)
+                for x in g.get("sources") or []
+            )
+            return f"Not in the datatracker: added from what contributors told us ({sources})."
+        return (f'<a href="{cd.DATATRACKER}/group/{e(g["acronym"])}/about/">About</a> · '
+                f'<a href="{e(g.get("history_url") or "")}">datatracker history</a>')
+
     def groups_index(self):
         by_parent = defaultdict(list)
         for g in self.data.groups.values():
@@ -368,12 +378,15 @@ or use the links on each row. Dates marked <span class="q">?</span> are not exac
         for parent in sorted(by_parent):
             items = "".join(
                 f'<li data-filter="{e(fold(g["acronym"] + " " + (g.get("name") or "")))}"><a href="{self.group_href(g["acronym"], 0)}">{e(g["acronym"])}</a>'
-                f' <span class="muted">{e(g.get("name"))} · {e(TYPE_NAMES.get(g.get("type"), g.get("type")))}, {e(g.get("state"))}</span></li>'
+                f' <span class="muted">{e(g.get("name"))} · {e(TYPE_NAMES.get(g.get("type"), g.get("type")))}, {e(g.get("state"))}'
+                f'{" · not in the datatracker" if g.get("datatracker") is False else ""}</span></li>'
                 for g in sorted(by_parent[parent], key=lambda g: g["acronym"])
             )
             sections.append(f'<section data-filter-section><h2>{e(parent)}</h2><ul class="list">{items}</ul></section>')
+        missing_group = self.issue_url("missing-group.yml", "Missing group: ")
         body = f"""<h1>Groups</h1>
-<p>Working groups, research groups and similar groups, by area or parent.</p>
+<p>Working groups, research groups and similar groups, by area or parent.
+Know of an older group or BOF that isn't here? <a class="act" href="{e(missing_group)}">Tell us about it</a>.</p>
 {self.filter_box("groups-list", "Filter by acronym or name")}
 <div id="groups-list">{''.join(sections)}</div>"""
         self.page("groups.html", "Groups", body, depth=0, scripts=True)

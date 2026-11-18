@@ -40,9 +40,9 @@ chairs:
       subject: IETF 50 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/50/ietf50-69.htm
   - kind: minutes without them
-    date: '2004-10-20'
-    subject: IETF 61 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/61/bridge.html
+    date: '2004-11-07'
+    subject: IETF 61 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/61/minutes/bridge.html
 - person: 2853
   name: Fred Baker
   status: unconfirmed
@@ -73,9 +73,9 @@ chairs:
       subject: IETF 39 proceedings charter
       url: https://www.ietf.org/proceedings/39/transit97aug-60.htm
   - kind: minutes without them
-    date: '2004-10-20'
-    subject: IETF 61 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/61/bridge.html
+    date: '2004-11-07'
+    subject: IETF 61 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/61/minutes/bridge.html
   - kind: joined the IESG
     after_meeting: '47'
     after: '2000-03-26'
@@ -95,6 +95,14 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2004-10-20)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2004-11-07'
+    last: '2004-11-07'
+    examples:
+    - date: '2004-11-07'
+      subject: IETF 61 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/61/minutes/bridge.html
   - kind: proceedings
     listed_in: 3
     first: '2004-10-20'
@@ -145,6 +153,14 @@ chairs:
     - date: '2005-01-12'
       subject: '[Bridge-mib] WG Last Call'
       url: https://mailarchive.ietf.org/arch/msg/bridge-mib/3RSbhk1TVw2CbSUtQ-OVOUiXkGA/
+  - kind: minutes
+    listed_in: 1
+    first: '2004-11-07'
+    last: '2004-11-07'
+    examples:
+    - date: '2004-11-07'
+      subject: IETF 61 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/61/minutes/bridge.html
   - kind: proceedings
     listed_in: 3
     first: '2004-10-20'
@@ -188,6 +204,6 @@ chairs:
       subject: IETF 60 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/60/163.htm
   - kind: minutes without them
-    date: '2004-10-20'
-    subject: IETF 61 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/61/bridge.html
+    date: '2004-11-07'
+    subject: IETF 61 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/61/minutes/bridge.html

@@ -23,6 +23,14 @@ chairs:
       certainty: exact
       date: '2016-02-29'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2015-11-01'
+    last: '2015-11-01'
+    examples:
+    - date: '2015-11-01'
+      subject: IETF 94 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/94/minutes/minutes-94-nmlrg.txt
   - kind: proceedings
     listed_in: 2
     first: '2014-07-20'
@@ -34,6 +42,10 @@ chairs:
     - date: '2015-07-19'
       subject: IETF 93 proceedings charter
       url: https://www.ietf.org/proceedings/93/nmlrg.html
+  - kind: minutes without them
+    date: '2016-04-03'
+    subject: IETF 95 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/95/minutes/minutes-95-nmlrg.txt
 - person: 108054
   name: Sheng Jiang
   status: confirmed
@@ -57,6 +69,20 @@ chairs:
     - date: '2015-10-08'
       subject: '[Nmlrg] Call for Agenda NMLRG @IETF94, Yokohama'
       url: https://mailarchive.ietf.org/arch/msg/nmlrg/6SBe1H6aUh_E0TxjHMIcnhuHbVE/
+  - kind: minutes
+    listed_in: 3
+    first: '2015-11-01'
+    last: '2016-07-17'
+    examples:
+    - date: '2015-11-01'
+      subject: IETF 94 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/94/minutes/minutes-94-nmlrg.txt
+    - date: '2016-04-03'
+      subject: IETF 95 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/95/minutes/minutes-95-nmlrg.txt
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/minutes/minutes-96-nmlrg.txt
   - kind: proceedings
     listed_in: 6
     first: '2014-07-20'
@@ -82,6 +108,17 @@ chairs:
       certainty: group-closed
       date: '2016-02-29'
   evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '2016-04-03'
+    last: '2016-07-17'
+    examples:
+    - date: '2016-04-03'
+      subject: IETF 95 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/95/minutes/minutes-95-nmlrg.txt
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/minutes/minutes-96-nmlrg.txt
   - kind: proceedings
     listed_in: 4
     first: '2015-11-01'

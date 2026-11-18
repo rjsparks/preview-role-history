@@ -95,6 +95,14 @@ chairs:
     - date: '2006-03-09'
       subject: '[Emu] EMU WG agenda for IETF-65, take one'
       url: https://mailarchive.ietf.org/arch/msg/emu/jEAQZ27VMfB3MS7i_CgGYRIzSyI/
+  - kind: minutes
+    listed_in: 1
+    first: '2005-11-06'
+    last: '2005-11-06'
+    examples:
+    - date: '2005-11-06'
+      subject: IETF 64 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/64/minutes/emu.txt
   - kind: proceedings
     listed_in: 2
     first: '2005-10-03'
@@ -107,9 +115,9 @@ chairs:
       subject: IETF 65 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/65/emu.html
   - kind: minutes without them
-    date: '2009-02-11'
-    subject: IETF 74 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/74/emu.html
+    date: '2009-03-22'
+    subject: IETF 74 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/74/minutes/emu.txt
   - kind: joined the IESG
     after_meeting: '65'
     after: '2006-03-19'
@@ -193,13 +201,19 @@ chairs:
       subject: '[Emu] Working Group Last Call for draft-ietf-emu-crypto-bind-03'
       url: https://mailarchive.ietf.org/arch/msg/emu/3B0KcTUPSmO0JKn8E1RExJ32a2s/
   - kind: minutes
-    listed_in: 1
-    first: '2007-04-09'
-    last: '2007-04-09'
+    listed_in: 9
+    first: '2007-03-18'
+    last: '2012-07-29'
     examples:
+    - date: '2007-03-18'
+      subject: IETF 68 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/68/minutes/emu.txt
     - date: '2007-04-09'
       subject: '[Emu] Draft Meeting Minutes from IETF-68'
       url: https://mailarchive.ietf.org/arch/msg/emu/e54TIkY7MhbdEsqTvDWAb8yDcUM/
+    - date: '2012-07-29'
+      subject: IETF 84 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/84/minutes/minutes-84-emu.txt
   - kind: proceedings
     listed_in: 19
     first: '2005-10-03'
@@ -271,6 +285,20 @@ chairs:
     - date: '2022-08-11'
       subject: '[Emu] WG last call for draft-ietf-emu-tls-eap-types ?'
       url: https://mailarchive.ietf.org/arch/msg/emu/_xkmyn-O3yU5-2ffMRkF52koXBo/
+  - kind: minutes
+    listed_in: 8
+    first: '2009-03-22'
+    last: '2013-03-10'
+    examples:
+    - date: '2009-03-22'
+      subject: IETF 74 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/74/minutes/emu.txt
+    - date: '2009-11-08'
+      subject: IETF 76 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/76/minutes/emu.txt
+    - date: '2013-03-10'
+      subject: IETF 86 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/86/minutes/minutes-86-emu.txt
   - kind: proceedings
     listed_in: 13
     first: '2009-02-11'
@@ -285,6 +313,10 @@ chairs:
     - date: '2014-07-20'
       subject: IETF 90 proceedings charter
       url: https://www.ietf.org/proceedings/90/emu.html
+  - kind: minutes without them
+    date: '2005-11-06'
+    subject: IETF 64 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/64/minutes/emu.txt
   - kind: session requests
     meetings:
     - '73'
@@ -342,6 +374,10 @@ chairs:
     - date: '2019-11-26'
       subject: '[Emu] WGLC for draft-ietf-emu-eap-session-id-01'
       url: https://mailarchive.ietf.org/arch/msg/emu/aKS0AqsObXtgqGKnxQY5VOAf_v4/
+  - kind: minutes without them
+    date: '2013-03-10'
+    subject: IETF 86 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/86/minutes/minutes-86-emu.txt
   - kind: shepherded
     documents:
     - draft-ietf-emu-eap-session-id
@@ -351,29 +387,29 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2006-11-05'
+      not_after: '2005-11-06'
     end:
       certainty: between
-      not_before: '2008-03-09'
-      not_after: '2009-02-11'
+      not_before: '2013-07-28'
+      not_after: '2013-11-03'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-02-11)'
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2013-11-03)'
   evidence:
   - kind: minutes
-    listed_in: 3
-    first: '2006-11-05'
-    last: '2008-03-09'
+    listed_in: 11
+    first: '2005-11-06'
+    last: '2013-07-28'
     examples:
+    - date: '2005-11-06'
+      subject: IETF 64 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/64/minutes/emu.txt
     - date: '2006-11-05'
       subject: '[Emu] Draft minutes for EMU working group'
       url: https://mailarchive.ietf.org/arch/msg/emu/G31gAlWyw4OnukpmhpjWfhBMkJg/
-    - date: '2007-12-17'
-      subject: '[Emu] Draft minutes for IETF-70 EMU meeting'
-      url: https://mailarchive.ietf.org/arch/msg/emu/1p5wvvsw5ul4yBeEckviunXzxyI/
-    - date: '2008-03-09'
-      subject: '[Emu] Draft meeting minutes for IETF 71'
-      url: https://mailarchive.ietf.org/arch/msg/emu/kaXXODhs30EX_Rte9jHipQfAm2I/
+    - date: '2013-07-28'
+      subject: IETF 87 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/87/minutes/minutes-87-emu.txt
   - kind: minutes without them
-    date: '2009-02-11'
-    subject: IETF 74 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/74/emu.html
+    date: '2013-11-03'
+    subject: IETF 88 proceedings charter
+    url: https://www.ietf.org/proceedings/88/emu.html

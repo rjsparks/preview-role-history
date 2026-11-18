@@ -6,7 +6,7 @@ state: replaced
 started: '2024-09-27'
 closed: '2025-02-06'
 bof: true
-never_chartered: false
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '121'
@@ -22,8 +22,10 @@ chairs:
       certainty: exact
       date: '2024-10-23'
     end:
-      certainty: group-closed
-      date: '2025-02-06'
+      certainty: between
+      not_before: '2024-11-20'
+    notes:
+    - 'End: listed as chair in meeting minutes (2024-11-20)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -33,6 +35,10 @@ chairs:
     - date: '2024-11-20'
       subject: '[deepspace] Draft minutes; please make corrections'
       url: https://mailarchive.ietf.org/arch/msg/deepspace/m95OHxLYaVnnmm6_R8SX3srnRA8/
+  - kind: BOF session
+    meeting: '121'
+    date: '2024-11-02'
+    url: https://datatracker.ietf.org/meeting/121/session/deepspace/
 - person: 112773
   name: Lars Eggert
   status: confirmed
@@ -41,8 +47,10 @@ chairs:
       certainty: exact
       date: '2024-10-23'
     end:
-      certainty: group-closed
-      date: '2025-02-06'
+      certainty: between
+      not_before: '2024-11-20'
+    notes:
+    - 'End: listed as chair in meeting minutes (2024-11-20)'
   evidence:
   - kind: chair activity
     first: '2024-11-20'
@@ -60,19 +68,22 @@ chairs:
     - date: '2024-11-20'
       subject: '[deepspace] Draft minutes; please make corrections'
       url: https://mailarchive.ietf.org/arch/msg/deepspace/m95OHxLYaVnnmm6_R8SX3srnRA8/
+  - kind: BOF session
+    meeting: '121'
+    date: '2024-11-02'
+    url: https://datatracker.ietf.org/meeting/121/session/deepspace/
 - person: 121160
   name: Padma Pillay-Esnault
   status: unconfirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2024-11-20'
-      not_after: '2025-02-13'
+      certainty: evidence-only
+      not_after: '2024-11-02'
     end:
       certainty: evidence-only
       not_before: '2025-12-04'
     notes:
-    - 'Start: not yet listed among the chairs in meeting minutes (2024-11-20)'
+    - 'Start: the BOF met at IETF 121 (2024-11-02)'
   evidence:
   - kind: chair activity
     first: '2025-02-13'
@@ -92,7 +103,7 @@ chairs:
     - date: '2025-12-04'
       subject: '[deepspace] Call for WG adoption of draft-many-tiptop-ip-architecture'
       url: https://mailarchive.ietf.org/arch/msg/deepspace/RF7zx4corHiVdix0D3dsViPxKk0/
-  - kind: minutes without them
-    date: '2024-11-20'
-    subject: '[deepspace] Draft minutes; please make corrections'
-    url: https://mailarchive.ietf.org/arch/msg/deepspace/m95OHxLYaVnnmm6_R8SX3srnRA8/
+  - kind: BOF session
+    meeting: '121'
+    date: '2024-11-02'
+    url: https://datatracker.ietf.org/meeting/121/session/deepspace/

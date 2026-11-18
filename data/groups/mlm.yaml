@@ -6,7 +6,7 @@ state: conclude
 started: null
 closed: '2003-12-10'
 bof: true
-never_chartered: false
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '57'
@@ -20,17 +20,33 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-12-10'
+      date: '2003-07-13'
     end:
-      certainty: group-closed
-      date: '2003-12-10'
+      certainty: between
+      not_before: '2003-07-13'
+    notes:
+    - 'Start: the BOF met at IETF 57 (2003-07-13)'
+    - 'End: after the BOF''s last session, IETF 57 (2003-07-13)'
+  evidence:
+  - kind: BOF session
+    meeting: '57'
+    date: '2003-07-13'
+    url: https://www.ietf.org/proceedings/57/198.htm
 - person: 106315
   name: Greg Shepherd
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-12-10'
+      date: '2003-07-13'
     end:
-      certainty: group-closed
-      date: '2003-12-10'
+      certainty: between
+      not_before: '2003-07-13'
+    notes:
+    - 'Start: the BOF met at IETF 57 (2003-07-13)'
+    - 'End: after the BOF''s last session, IETF 57 (2003-07-13)'
+  evidence:
+  - kind: BOF session
+    meeting: '57'
+    date: '2003-07-13'
+    url: https://www.ietf.org/proceedings/57/198.htm

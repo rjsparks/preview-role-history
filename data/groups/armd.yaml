@@ -11,6 +11,58 @@ chartered: '2011-03-21'
 bof_sessions: []
 history_url: https://datatracker.ietf.org/group/armd/history/
 chairs:
+- person: 3056
+  name: Sue Hares
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2010-07-25'
+    end:
+      certainty: between
+      not_before: '2010-07-25'
+      not_after: '2010-11-07'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-11-07)'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2010-07-25'
+    last: '2010-07-25'
+    examples:
+    - date: '2010-07-25'
+      subject: IETF 78 proceedings charter
+      url: https://www.ietf.org/proceedings/78/armd.html
+  - kind: minutes without them
+    date: '2011-03-27'
+    subject: '[armd] Draft Minutes of IETF80 ARMD session'
+    url: https://mailarchive.ietf.org/arch/msg/armd/PGxot1o32LImVR11mw8ElLS1NVI/
+- person: 106186
+  name: Julien Laganier
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2010-07-25'
+    end:
+      certainty: between
+      not_before: '2010-07-25'
+      not_after: '2010-11-07'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-11-07)'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2010-07-25'
+    last: '2010-07-25'
+    examples:
+    - date: '2010-07-25'
+      subject: IETF 78 proceedings charter
+      url: https://www.ietf.org/proceedings/78/armd.html
+  - kind: minutes without them
+    date: '2011-03-27'
+    subject: '[armd] Draft Minutes of IETF80 ARMD session'
+    url: https://mailarchive.ietf.org/arch/msg/armd/PGxot1o32LImVR11mw8ElLS1NVI/
 - person: 111086
   name: Linda Dunbar
   status: confirmed
@@ -47,16 +99,16 @@ chairs:
       subject: '[armd] WG Last Call: draft-ietf-armd-problem-statement-03.txt [corrected one]'
       url: https://mailarchive.ietf.org/arch/msg/armd/BvP79tgCpPuJKwufPuyrK5vGUeI/
   - kind: minutes
-    listed_in: 3
+    listed_in: 7
     first: '2011-03-27'
     last: '2012-04-27'
     examples:
     - date: '2011-03-27'
       subject: '[armd] Draft Minutes of IETF80 ARMD session'
       url: https://mailarchive.ietf.org/arch/msg/armd/PGxot1o32LImVR11mw8ElLS1NVI/
-    - date: '2011-08-26'
-      subject: '[armd] 81st IETF ARMD WG session minutes'
-      url: https://mailarchive.ietf.org/arch/msg/armd/SqYoAR9cZeewAxZMNN2efRKPBDE/
+    - date: '2011-03-27'
+      subject: IETF 80 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/80/minutes/armd.txt
     - date: '2012-04-27'
       subject: '[armd] 83rd IETF ARMD minutes'
       url: https://mailarchive.ietf.org/arch/msg/armd/-LJ2xfkd4dV0tDrwPUjWY4OS8wA/
@@ -113,16 +165,16 @@ chairs:
       subject: '[armd] Agenda for ARMD at IETF80'
       url: https://mailarchive.ietf.org/arch/msg/armd/doZ1sYawDXqZqAWvGJxz-yLEd-c/
   - kind: minutes
-    listed_in: 3
+    listed_in: 7
     first: '2011-03-27'
     last: '2012-04-27'
     examples:
     - date: '2011-03-27'
       subject: '[armd] Draft Minutes of IETF80 ARMD session'
       url: https://mailarchive.ietf.org/arch/msg/armd/PGxot1o32LImVR11mw8ElLS1NVI/
-    - date: '2011-08-26'
-      subject: '[armd] 81st IETF ARMD WG session minutes'
-      url: https://mailarchive.ietf.org/arch/msg/armd/SqYoAR9cZeewAxZMNN2efRKPBDE/
+    - date: '2011-03-27'
+      subject: IETF 80 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/80/minutes/armd.txt
     - date: '2012-04-27'
       subject: '[armd] 83rd IETF ARMD minutes'
       url: https://mailarchive.ietf.org/arch/msg/armd/-LJ2xfkd4dV0tDrwPUjWY4OS8wA/

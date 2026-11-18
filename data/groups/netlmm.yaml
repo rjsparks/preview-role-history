@@ -54,6 +54,17 @@ chairs:
     - date: '2006-11-09'
       subject: '[netlmm] revised agenda for tomorrow morning''s meeting'
       url: https://mailarchive.ietf.org/arch/msg/netlmm/KPnz4AZMyrFaaxrtIGnxCIvmknA/
+  - kind: minutes
+    listed_in: 2
+    first: '2005-07-31'
+    last: '2007-03-18'
+    examples:
+    - date: '2005-07-31'
+      subject: IETF 63 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/63/minutes/netlmm.html
+    - date: '2007-03-18'
+      subject: IETF 68 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/68/minutes/netlmm.txt
   - kind: proceedings
     listed_in: 7
     first: '2005-03-06'
@@ -68,6 +79,10 @@ chairs:
     - date: '2007-02-13'
       subject: IETF 68 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/68/netlmm.html
+  - kind: minutes without them
+    date: '2007-12-02'
+    subject: IETF 70 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/70/minutes/netlmm.txt
   - kind: session requests
     meetings:
     - '65'
@@ -115,6 +130,14 @@ chairs:
     - date: '2009-01-07'
       subject: '[netlmm] WG Last Call notice: draft-ietf-netlmm-grekey-option (second last call)'
       url: https://mailarchive.ietf.org/arch/msg/netlmm/LdwfPMfjZ_J93bcr66IreIhNkbM/
+  - kind: minutes
+    listed_in: 1
+    first: '2007-12-02'
+    last: '2007-12-02'
+    examples:
+    - date: '2007-12-02'
+      subject: IETF 70 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/70/minutes/netlmm.txt
   - kind: proceedings
     listed_in: 2
     first: '2007-07-10'
@@ -126,6 +149,10 @@ chairs:
     - date: '2008-12-16'
       subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/netlmm.html
+  - kind: minutes without them
+    date: '2007-03-18'
+    subject: IETF 68 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/68/minutes/netlmm.txt
 - person: 106286
   name: James Kempf
   status: unconfirmed
@@ -158,6 +185,14 @@ chairs:
     - date: '2006-08-02'
       subject: '[netlmm] More Minutes'
       url: https://mailarchive.ietf.org/arch/msg/netlmm/iKkyIzlDPMgkBFfF7XWqXp5Hvew/
+  - kind: minutes
+    listed_in: 1
+    first: '2005-07-31'
+    last: '2005-07-31'
+    examples:
+    - date: '2005-07-31'
+      subject: IETF 63 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/63/minutes/netlmm.html
   - kind: proceedings
     listed_in: 6
     first: '2005-03-06'
@@ -173,9 +208,9 @@ chairs:
       subject: IETF 67 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/67/inetlmm.html
   - kind: minutes without them
-    date: '2007-02-13'
-    subject: IETF 68 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/68/netlmm.html
+    date: '2007-03-18'
+    subject: IETF 68 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/68/minutes/netlmm.txt
 - person: 107134
   name: Vidya Narayanan
   status: confirmed
@@ -200,6 +235,17 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/netlmm/D9aZbM9VFEJEgbElWV_XqxCDnXk/
     excerpt: Please help to support Vidya as she takes on this enlarged responsibility as a new WG chair
       in IETF.
+  - kind: minutes
+    listed_in: 2
+    first: '2007-03-18'
+    last: '2007-12-02'
+    examples:
+    - date: '2007-03-18'
+      subject: IETF 68 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/68/minutes/netlmm.txt
+    - date: '2007-12-02'
+      subject: IETF 70 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/70/minutes/netlmm.txt
   - kind: proceedings
     listed_in: 3
     first: '2007-02-13'
@@ -214,6 +260,10 @@ chairs:
     - date: '2008-12-16'
       subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/netlmm.html
+  - kind: minutes without them
+    date: '2005-07-31'
+    subject: IETF 63 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/63/minutes/netlmm.html
   - kind: session requests
     meetings:
     - '68'

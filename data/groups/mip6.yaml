@@ -57,19 +57,19 @@ chairs:
       subject: '[Mip6] WGLC: draft-ietf-mip6-firewalls-00.txt'
       url: https://mailarchive.ietf.org/arch/msg/mip6/4oStKLfoBqfTO3pZ8rM74itYE_Q/
   - kind: minutes
-    listed_in: 12
+    listed_in: 24
     first: '2003-07-13'
     last: '2007-07-22'
     examples:
     - date: '2003-07-13'
       subject: '[Mip6] MIP6 BoF Meeting minutes from IETF57'
       url: https://mailarchive.ietf.org/arch/msg/mip6/KE2L0yV4GhkBcpbxys6lvdBn74w/
-    - date: '2003-11-09'
-      subject: '[Mip6] IETF 58 Meeting minutes'
-      url: https://mailarchive.ietf.org/arch/msg/mip6/88lEgfA6cd0Zg9NOz5Be7-squew/
+    - date: '2003-07-13'
+      subject: IETF 57 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/57/minutes/MIP6.TXT
     - date: '2007-07-22'
-      subject: '[Mip6] IETF69: MIP6 WG meeting minutes'
-      url: https://mailarchive.ietf.org/arch/msg/mip6/LK_wiS-qhIbcwEYQ-9bDiwgJCDk/
+      subject: IETF 69 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/69/minutes/mip6.txt
   - kind: proceedings
     listed_in: 11
     first: '2003-10-20'
@@ -126,19 +126,19 @@ chairs:
       subject: '[Mip6] Agenda for 60th IETF San Diego - MIP6 WG'
       url: https://mailarchive.ietf.org/arch/msg/mip6/YBmAZut3aC0WxkuTPVIYi2q95Rg/
   - kind: minutes
-    listed_in: 8
+    listed_in: 16
     first: '2003-11-09'
     last: '2007-07-22'
     examples:
     - date: '2003-11-09'
       subject: '[Mip6] IETF 58 Meeting minutes'
       url: https://mailarchive.ietf.org/arch/msg/mip6/88lEgfA6cd0Zg9NOz5Be7-squew/
-    - date: '2004-02-29'
-      subject: '[Mip6] IETF59: Minutes of MIP6 WG meeting'
-      url: https://mailarchive.ietf.org/arch/msg/mip6/UY4Y5ivmQCg1eo_Hbgufk9Nj6wA/
+    - date: '2003-11-09'
+      subject: IETF 58 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/58/minutes/mip6.htm
     - date: '2007-07-22'
-      subject: '[Mip6] IETF69: MIP6 WG meeting minutes'
-      url: https://mailarchive.ietf.org/arch/msg/mip6/LK_wiS-qhIbcwEYQ-9bDiwgJCDk/
+      subject: IETF 69 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/69/minutes/mip6.txt
   - kind: proceedings
     listed_in: 11
     first: '2003-10-20'
@@ -155,5 +155,107 @@ chairs:
       url: https://www.ietf.org/proceedings/69/mip6.html
   - kind: minutes without them
     date: '2003-07-13'
-    subject: '[Mip6] MIP6 BoF Meeting minutes from IETF57'
-    url: https://mailarchive.ietf.org/arch/msg/mip6/KE2L0yV4GhkBcpbxys6lvdBn74w/
+    subject: IETF 57 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/57/minutes/mip6.htm
+- person: 104305
+  name: Hesham Soliman
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2006-03-19'
+      not_after: '2006-07-09'
+    end:
+      certainty: between
+      not_before: '2006-07-09'
+      not_after: '2006-10-05'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2006-10-05)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2006-03-19)'
+  evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '2006-07-09'
+    last: '2006-07-09'
+    examples:
+    - date: '2006-07-09'
+      subject: '[Mip6] MIP6 WG meeting minutes from IETF66'
+      url: https://mailarchive.ietf.org/arch/msg/mip6/TnS_kLc-0IpeqvOg-RCf2CVuuWA/
+    - date: '2006-07-09'
+      subject: IETF 66 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/66/minutes/mip6.txt
+  - kind: minutes without them
+    date: '2006-03-19'
+    subject: IETF 65 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/65/minutes/mip6.txt
+  - kind: minutes without them
+    date: '2006-11-05'
+    subject: '[Mip6] IETF67: MIP6 WG meeting minutes'
+    url: https://mailarchive.ietf.org/arch/msg/mip6/_VxKi5kkhnU48CtW67IMkB4jcNU/
+- person: 104886
+  name: Vijay Devarapalli
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2006-03-19'
+      not_after: '2006-07-09'
+    end:
+      certainty: between
+      not_before: '2006-07-09'
+      not_after: '2006-10-05'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2006-10-05)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2006-03-19)'
+  evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '2006-07-09'
+    last: '2006-07-09'
+    examples:
+    - date: '2006-07-09'
+      subject: '[Mip6] MIP6 WG meeting minutes from IETF66'
+      url: https://mailarchive.ietf.org/arch/msg/mip6/TnS_kLc-0IpeqvOg-RCf2CVuuWA/
+    - date: '2006-07-09'
+      subject: IETF 66 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/66/minutes/mip6.txt
+  - kind: minutes without them
+    date: '2006-03-19'
+    subject: IETF 65 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/65/minutes/mip6.txt
+  - kind: minutes without them
+    date: '2006-11-05'
+    subject: '[Mip6] IETF67: MIP6 WG meeting minutes'
+    url: https://mailarchive.ietf.org/arch/msg/mip6/_VxKi5kkhnU48CtW67IMkB4jcNU/
+- person: 108488
+  name: Gabriel Montenegro
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2003-07-13'
+    end:
+      certainty: between
+      not_before: '2003-07-13'
+      not_after: '2003-10-20'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2003-10-20)'
+  evidence:
+  - kind: minutes
+    listed_in: 3
+    first: '2003-07-13'
+    last: '2003-07-13'
+    examples:
+    - date: '2003-07-13'
+      subject: '[Mip6] MIP6 BoF Meeting minutes from IETF57'
+      url: https://mailarchive.ietf.org/arch/msg/mip6/KE2L0yV4GhkBcpbxys6lvdBn74w/
+    - date: '2003-07-13'
+      subject: IETF 57 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/57/minutes/MIP6.TXT
+    - date: '2003-07-13'
+      subject: IETF 57 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/57/minutes/mip6.htm
+  - kind: minutes without them
+    date: '2003-11-09'
+    subject: '[Mip6] IETF 58 Meeting minutes'
+    url: https://mailarchive.ietf.org/arch/msg/mip6/88lEgfA6cd0Zg9NOz5Be7-squew/

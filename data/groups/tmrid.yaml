@@ -6,7 +6,7 @@ state: replaced
 started: '2019-10-09'
 closed: '2020-02-11'
 bof: true
-never_chartered: false
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '106'
@@ -22,8 +22,15 @@ chairs:
       certainty: exact
       date: '2019-11-07'
     end:
-      certainty: group-closed
-      date: '2020-02-11'
+      certainty: between
+      not_before: '2019-11-16'
+    notes:
+    - 'End: after the BOF''s last session, IETF 106 (2019-11-16)'
+  evidence:
+  - kind: BOF session
+    meeting: '106'
+    date: '2019-11-16'
+    url: https://datatracker.ietf.org/meeting/106/session/tmrid/
 - person: 109969
   name: Daniel Migault
   status: confirmed
@@ -32,5 +39,12 @@ chairs:
       certainty: exact
       date: '2019-11-07'
     end:
-      certainty: group-closed
-      date: '2020-02-11'
+      certainty: between
+      not_before: '2019-11-16'
+    notes:
+    - 'End: after the BOF''s last session, IETF 106 (2019-11-16)'
+  evidence:
+  - kind: BOF session
+    meeting: '106'
+    date: '2019-11-16'
+    url: https://datatracker.ietf.org/meeting/106/session/tmrid/

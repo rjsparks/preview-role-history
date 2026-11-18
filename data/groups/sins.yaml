@@ -6,7 +6,7 @@ state: replaced
 started: '2021-06-23'
 closed: '2021-10-27'
 bof: true
-never_chartered: false
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '111'
@@ -22,8 +22,15 @@ chairs:
       certainty: exact
       date: '2021-07-09'
     end:
-      certainty: group-closed
-      date: '2021-10-27'
+      certainty: between
+      not_before: '2021-07-26'
+    notes:
+    - 'End: after the BOF''s last session, IETF 111 (2021-07-26)'
+  evidence:
+  - kind: BOF session
+    meeting: '111'
+    date: '2021-07-26'
+    url: https://datatracker.ietf.org/meeting/111/session/sins/
 - person: 105785
   name: Nancy Cam-Winget
   status: confirmed
@@ -32,8 +39,15 @@ chairs:
       certainty: exact
       date: '2021-07-09'
     end:
-      certainty: group-closed
-      date: '2021-10-27'
+      certainty: between
+      not_before: '2021-07-26'
+    notes:
+    - 'End: after the BOF''s last session, IETF 111 (2021-07-26)'
+  evidence:
+  - kind: BOF session
+    meeting: '111'
+    date: '2021-07-26'
+    url: https://datatracker.ietf.org/meeting/111/session/sins/
 - person: 113270
   name: Morteza Ansari
   status: confirmed
@@ -42,5 +56,12 @@ chairs:
       certainty: exact
       date: '2021-07-15'
     end:
-      certainty: group-closed
-      date: '2021-10-27'
+      certainty: between
+      not_before: '2021-07-26'
+    notes:
+    - 'End: after the BOF''s last session, IETF 111 (2021-07-26)'
+  evidence:
+  - kind: BOF session
+    meeting: '111'
+    date: '2021-07-26'
+    url: https://datatracker.ietf.org/meeting/111/session/sins/

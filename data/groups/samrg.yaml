@@ -17,13 +17,29 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-07-25'
+      date: '2010-03-21'
+      not_before: '2006-07-09'
     end:
       certainty: group-closed
       date: '2013-12-17'
     notes:
-    - 'Start: requested the group''s session for IETF 78 (2010-07-25)'
+    - 'Start: listed as chair in meeting minutes (2010-03-21)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2006-07-09)'
   evidence:
+  - kind: minutes
+    listed_in: 6
+    first: '2010-03-21'
+    last: '2012-03-25'
+    examples:
+    - date: '2010-03-21'
+      subject: IETF 77 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/77/minutes/SAMRG.txt
+    - date: '2010-07-25'
+      subject: IETF 78 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/78/minutes/SAMRG.txt
+    - date: '2012-03-25'
+      subject: IETF 83 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/83/minutes/minutes-83-samrg.txt
   - kind: proceedings
     listed_in: 5
     first: '2012-03-25'
@@ -38,6 +54,10 @@ chairs:
     - date: '2013-07-28'
       subject: IETF 87 proceedings charter
       url: https://www.ietf.org/proceedings/87/samrg.html
+  - kind: minutes without them
+    date: '2006-07-09'
+    subject: IETF 66 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/66/minutes/SAMRG.txt
   - kind: session requests
     meetings:
     - '78'
@@ -62,6 +82,20 @@ chairs:
     notes:
     - 'Start: requested the group''s session for IETF 66 (2006-07-09)'
   evidence:
+  - kind: minutes
+    listed_in: 5
+    first: '2006-07-09'
+    last: '2012-03-25'
+    examples:
+    - date: '2006-07-09'
+      subject: IETF 66 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/66/minutes/SAMRG.txt
+    - date: '2010-03-21'
+      subject: IETF 77 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/77/minutes/SAMRG.txt
+    - date: '2012-03-25'
+      subject: IETF 83 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/83/minutes/minutes-83-samrg.txt
   - kind: proceedings
     listed_in: 5
     first: '2012-03-25'
@@ -85,3 +119,29 @@ chairs:
     - '76'
     - '77'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 107595
+  name: Jeremy Mineweaser
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2006-07-09'
+    end:
+      certainty: between
+      not_before: '2006-07-09'
+      not_after: '2010-03-21'
+    notes:
+    - 'End: no longer listed among the chairs in meeting minutes (2010-03-21)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2006-07-09'
+    last: '2006-07-09'
+    examples:
+    - date: '2006-07-09'
+      subject: IETF 66 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/66/minutes/SAMRG.txt
+  - kind: minutes without them
+    date: '2010-03-21'
+    subject: IETF 77 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/77/minutes/SAMRG.txt

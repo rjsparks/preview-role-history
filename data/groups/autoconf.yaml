@@ -21,12 +21,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2009-04-02'
-      not_before: '2005-06-15'
+      not_before: '2008-11-16'
     end:
       certainty: group-closed
       date: '2012-03-06'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2009-04-02)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2008-11-16)'
   evidence:
   - kind: WG Review
     date: '2010-11-30'
@@ -48,13 +49,19 @@ chairs:
       subject: '[Autoconf] Updated IETF 75 meeting minutes'
       url: https://mailarchive.ietf.org/arch/msg/autoconf/inxzUlka3H3odtZSi98vm3iDOSA/
   - kind: minutes
-    listed_in: 1
+    listed_in: 3
     first: '2009-07-26'
-    last: '2009-07-26'
+    last: '2009-11-08'
     examples:
     - date: '2009-07-26'
       subject: '[Autoconf] Updated IETF 75 meeting minutes'
       url: https://mailarchive.ietf.org/arch/msg/autoconf/inxzUlka3H3odtZSi98vm3iDOSA/
+    - date: '2009-07-26'
+      subject: IETF 75 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/75/minutes/autoconf.txt
+    - date: '2009-11-08'
+      subject: IETF 76 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/76/minutes/autoconf.txt
   - kind: proceedings
     listed_in: 5
     first: '2009-04-02'
@@ -69,6 +76,10 @@ chairs:
     - date: '2011-11-13'
       subject: IETF 82 proceedings charter
       url: https://www.ietf.org/proceedings/82/autoconf.html
+  - kind: minutes without them
+    date: '2008-11-16'
+    subject: IETF 73 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/73/minutes/autoconf.txt
   - kind: session requests
     meetings:
     - '75'
@@ -111,13 +122,19 @@ chairs:
       subject: '[Autoconf] Working Group Last Call for draft-ietf-autoconf-addr-model-01'
       url: https://mailarchive.ietf.org/arch/msg/autoconf/TR5o4Ez3htMCKk6fQFgjGUW7-tY/
   - kind: minutes
-    listed_in: 1
-    first: '2009-07-26'
-    last: '2009-07-26'
+    listed_in: 9
+    first: '2005-03-06'
+    last: '2009-11-08'
     examples:
-    - date: '2009-07-26'
-      subject: '[Autoconf] Updated IETF 75 meeting minutes'
-      url: https://mailarchive.ietf.org/arch/msg/autoconf/inxzUlka3H3odtZSi98vm3iDOSA/
+    - date: '2005-03-06'
+      subject: IETF 62 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/62/minutes/autoconf.html
+    - date: '2005-07-31'
+      subject: IETF 63 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/63/minutes/autoconf.html
+    - date: '2009-11-08'
+      subject: IETF 76 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/76/minutes/autoconf.txt
   - kind: proceedings
     listed_in: 14
     first: '2005-02-09'
@@ -170,6 +187,20 @@ chairs:
     - date: '2007-09-03'
       subject: '[Autoconf] WG Last Call: Draft-ietf-autoconf-manetarch-05.txt'
       url: https://mailarchive.ietf.org/arch/msg/autoconf/B11EJVPzaDGX6kfbNo65EyDQUQ0/
+  - kind: minutes
+    listed_in: 5
+    first: '2005-03-06'
+    last: '2008-11-16'
+    examples:
+    - date: '2005-03-06'
+      subject: IETF 62 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/62/minutes/autoconf.html
+    - date: '2005-07-31'
+      subject: IETF 63 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/63/minutes/autoconf.html
+    - date: '2008-11-16'
+      subject: IETF 73 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/73/minutes/autoconf.txt
   - kind: proceedings
     listed_in: 9
     first: '2005-02-09'

@@ -173,6 +173,56 @@ chairs:
     - '73'
     - '74'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 104204
+  name: Volker Hilt
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2010-07-25'
+    end:
+      certainty: evidence-only
+      not_before: '2010-07-25'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2010-07-25'
+    last: '2010-07-25'
+    examples:
+    - date: '2010-07-25'
+      subject: IETF 78 proceedings charter
+      url: https://www.ietf.org/proceedings/78/isoc_new.html
+- person: 104557
+  name: Jon Peterson
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2003-01-27'
+    end:
+      certainty: between
+      not_before: '2003-01-27'
+      not_after: '2003-07-13'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2003-07-13)'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2003-01-27'
+    last: '2003-01-27'
+    examples:
+    - date: '2003-01-27'
+      subject: IETF 56 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/56/243.htm
+  - kind: minutes without them
+    date: '2003-07-13'
+    subject: IETF 57 proceedings charter
+    url: https://www.ietf.org/proceedings/57/245.htm
+  - kind: joined the IESG
+    after_meeting: '56'
+    after: '2003-03-16'
+    by_meeting: '57'
+    by: '2003-07-13'
 - person: 105097
   name: Keith Drage
   status: confirmed
@@ -239,6 +289,25 @@ chairs:
     - date: '2002-07-03'
       subject: IETF 54 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/54/238.htm
+- person: 107491
+  name: Salvatore Loreto
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2010-07-25'
+    end:
+      certainty: evidence-only
+      not_before: '2010-07-25'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2010-07-25'
+    last: '2010-07-25'
+    examples:
+    - date: '2010-07-25'
+      subject: IETF 78 proceedings charter
+      url: https://www.ietf.org/proceedings/78/isoc_new.html
 - person: 129485
   name: Rohan Mahy
   status: unconfirmed

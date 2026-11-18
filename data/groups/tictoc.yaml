@@ -41,6 +41,17 @@ chairs:
     - date: '2008-04-09'
       subject: '[TICTOC] TICTOC Interim - propose 9-11 June Paris'
       url: https://mailarchive.ietf.org/arch/msg/tictoc/etWaMW94dtgge3MWxOH6Ebuv9HE/
+  - kind: minutes
+    listed_in: 2
+    first: '2007-12-02'
+    last: '2009-03-22'
+    examples:
+    - date: '2007-12-02'
+      subject: IETF 70 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/70/minutes/tictoc.txt
+    - date: '2009-03-22'
+      subject: IETF 74 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/74/minutes/tictoc.txt
   - kind: proceedings
     listed_in: 2
     first: '2008-03-11'
@@ -53,9 +64,9 @@ chairs:
       subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/tictoc.html
   - kind: minutes without them
-    date: '2016-11-13'
-    subject: '[TICTOC] IETF 97 NTPWG/TICTOC minutes'
-    url: https://mailarchive.ietf.org/arch/msg/tictoc/hYtbOoMjeB5CQfPuSRUqtsrOZI8/
+    date: '2014-03-02'
+    subject: IETF 89 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/89/minutes/minutes-89-tictoc.txt
   - kind: session requests
     meetings:
     - '70'
@@ -77,12 +88,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2010-08-19'
-      not_before: '2007-12-17'
+      not_before: '2009-03-22'
     end:
       certainty: group-closed
       date: '2025-03-19'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2010-08-19)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2009-03-22)'
   evidence:
   - kind: chair activity
     first: '2010-09-01'
@@ -104,6 +116,14 @@ chairs:
     - date: '2015-06-30'
       subject: '[TICTOC] WGLC on draft-mizrahi-ntp-checksum-trailer-02.txt'
       url: https://mailarchive.ietf.org/arch/msg/tictoc/2SOH436YfKEK-GbjnDWzK8xLw5k/
+  - kind: minutes
+    listed_in: 1
+    first: '2014-03-02'
+    last: '2014-03-02'
+    examples:
+    - date: '2014-03-02'
+      subject: IETF 89 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/89/minutes/minutes-89-tictoc.txt
   - kind: proceedings
     listed_in: 21
     first: '2010-08-19'
@@ -118,6 +138,10 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/tictoc.html
+  - kind: minutes without them
+    date: '2009-03-22'
+    subject: IETF 74 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/74/minutes/tictoc.txt
   - kind: session requests
     meetings:
     - '79'
@@ -141,9 +165,9 @@ chairs:
     end:
       certainty: between
       not_before: '2007-05-31'
-      not_after: '2008-03-11'
+      not_after: '2007-12-02'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2008-03-11)'
+    - 'End: no longer listed among the chairs in meeting minutes (2007-12-02)'
   evidence:
   - kind: proceedings
     listed_in: 2
@@ -157,9 +181,9 @@ chairs:
       subject: IETF 69 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/69/tictoc.html
   - kind: minutes without them
-    date: '2016-11-13'
-    subject: '[TICTOC] IETF 97 NTPWG/TICTOC minutes'
-    url: https://mailarchive.ietf.org/arch/msg/tictoc/hYtbOoMjeB5CQfPuSRUqtsrOZI8/
+    date: '2007-12-02'
+    subject: IETF 70 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/70/minutes/tictoc.txt
 - person: 106414
   name: Yaakov Stein
   status: confirmed
@@ -190,10 +214,16 @@ chairs:
       subject: '[TICTOC] interim meeting / conference calls'
       url: https://mailarchive.ietf.org/arch/msg/tictoc/GbiR8EhPTdXB91z6y3V5NfYPT34/
   - kind: minutes
-    listed_in: 1
-    first: '2016-11-13'
+    listed_in: 5
+    first: '2007-12-02'
     last: '2016-11-13'
     examples:
+    - date: '2007-12-02'
+      subject: IETF 70 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/70/minutes/tictoc.txt
+    - date: '2009-03-22'
+      subject: IETF 74 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/74/minutes/tictoc.txt
     - date: '2016-11-13'
       subject: '[TICTOC] IETF 97 NTPWG/TICTOC minutes'
       url: https://mailarchive.ietf.org/arch/msg/tictoc/hYtbOoMjeB5CQfPuSRUqtsrOZI8/

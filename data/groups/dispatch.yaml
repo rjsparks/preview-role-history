@@ -55,13 +55,16 @@ chairs:
       subject: '[dispatch] WGLC: draft-ietf-dispatch-javascript-mjs-02.txt'
       url: https://mailarchive.ietf.org/arch/msg/dispatch/X3aBzTbPFT8bJRAYcO7ldjJmAls/
   - kind: minutes
-    listed_in: 2
+    listed_in: 6
     first: '2009-11-12'
     last: '2019-03-23'
     examples:
     - date: '2009-11-12'
       subject: '[dispatch] DREGS Ad Hoc minutes'
       url: https://mailarchive.ietf.org/arch/msg/dispatch/3KKDr_eQvKeJmYOaTxuVsDQ79KQ/
+    - date: '2013-03-10'
+      subject: IETF 86 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/86/minutes/minutes-86-dispatch.txt
     - date: '2019-03-23'
       subject: '[dispatch] DISPATCH Minutes'
       url: https://mailarchive.ietf.org/arch/msg/dispatch/Fld6mY5y5hkSD4E9OqI6_0Px1us/
@@ -177,9 +180,9 @@ chairs:
       subject: '[dispatch] DISPATCH Minutes'
       url: https://mailarchive.ietf.org/arch/msg/dispatch/Fld6mY5y5hkSD4E9OqI6_0Px1us/
   - kind: minutes without them
-    date: '2009-11-12'
-    subject: '[dispatch] DREGS Ad Hoc minutes'
-    url: https://mailarchive.ietf.org/arch/msg/dispatch/3KKDr_eQvKeJmYOaTxuVsDQ79KQ/
+    date: '2014-07-20'
+    subject: IETF 90 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/90/minutes/minutes-90-dispatch.txt
   - kind: shepherded
     documents:
     - draft-ietf-dispatch-javascript-mjs
@@ -227,6 +230,20 @@ chairs:
     - date: '2016-04-04'
       subject: '[dispatch] Draft dispatch minutes IETF95'
       url: https://mailarchive.ietf.org/arch/msg/dispatch/Oruu5sbf7SnaiFVLkLpQg16PBuM/
+  - kind: minutes
+    listed_in: 3
+    first: '2013-11-03'
+    last: '2014-07-20'
+    examples:
+    - date: '2013-11-03'
+      subject: IETF 88 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/88/minutes/minutes-88-dispatch.txt
+    - date: '2014-03-02'
+      subject: IETF 89 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/89/minutes/minutes-89-dispatch.txt
+    - date: '2014-07-20'
+      subject: IETF 90 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/90/minutes/minutes-90-dispatch.txt
   - kind: proceedings
     listed_in: 21
     first: '2010-04-16'
@@ -294,9 +311,46 @@ chairs:
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/dispatch.html
   - kind: minutes without them
+    date: '2014-07-20'
+    subject: IETF 90 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/90/minutes/minutes-90-dispatch.txt
+- person: 108049
+  name: Richard Barnes
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2009-11-12'
+      not_after: '2013-03-10'
+    end:
+      certainty: between
+      not_before: '2013-03-10'
+      not_after: '2013-07-28'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2013-07-28)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2009-11-12)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2013-03-10'
+    last: '2013-03-10'
+    examples:
+    - date: '2013-03-10'
+      subject: IETF 86 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/86/minutes/minutes-86-dispatch.txt
+  - kind: minutes without them
     date: '2009-11-12'
     subject: '[dispatch] DREGS Ad Hoc minutes'
     url: https://mailarchive.ietf.org/arch/msg/dispatch/3KKDr_eQvKeJmYOaTxuVsDQ79KQ/
+  - kind: minutes without them
+    date: '2013-11-03'
+    subject: IETF 88 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/88/minutes/minutes-88-dispatch.txt
+  - kind: joined the IESG
+    after_meeting: '86'
+    after: '2013-03-10'
+    by_meeting: '87'
+    by: '2013-07-28'
 - person: 111355
   name: Rifaat Shekh-Yusef
   status: confirmed

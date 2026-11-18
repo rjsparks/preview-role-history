@@ -39,3 +39,22 @@ chairs:
     - date: '2004-03-15'
       subject: IETF 60 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/60/117.htm
+- person: 19267
+  name: Gordon Jones
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1998-11-25'
+    end:
+      certainty: evidence-only
+      not_before: '1998-11-25'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '1998-11-25'
+    last: '1998-11-25'
+    examples:
+    - date: '1998-11-25'
+      subject: IETF 43 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-28.html

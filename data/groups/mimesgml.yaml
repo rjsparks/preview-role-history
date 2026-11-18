@@ -11,6 +11,25 @@ chartered: '1995-01-12'
 bof_sessions: []
 history_url: https://datatracker.ietf.org/group/mimesgml/history/
 chairs:
+- person: 490
+  name: Einar Stefferud
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1996-06-24'
+    end:
+      certainty: evidence-only
+      not_before: '1996-06-24'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '1996-06-24'
+    last: '1996-06-24'
+    examples:
+    - date: '1996-06-24'
+      subject: IETF 36 proceedings charter
+      url: https://www.ietf.org/proceedings/36/report/area-applications-96jun.txt
 - person: 8098
   name: Ed Levinson
   status: confirmed

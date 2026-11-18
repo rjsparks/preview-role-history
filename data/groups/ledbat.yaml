@@ -11,6 +11,46 @@ chartered: '2008-11-11'
 bof_sessions: []
 history_url: https://datatracker.ietf.org/group/ledbat/history/
 chairs:
+- person: 12620
+  name: Bernard Aboba
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2009-07-17'
+    end:
+      certainty: between
+      not_before: '2009-08-04'
+      not_after: '2009-08-10'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-08-10)'
+  evidence:
+  - kind: chair activity
+    first: '2009-07-17'
+    last: '2009-08-04'
+    messages: 3
+    examples:
+    - date: '2009-07-17'
+      subject: '[ledbat] Strawman Agenda for LEDBAT WG at IETF 75: Take One'
+      url: https://mailarchive.ietf.org/arch/msg/ledbat/9HkwTK4PdP8mY_r3NyF0U4whzHs/
+    - date: '2009-07-27'
+      subject: '[ledbat] Strawman Agenda for LEDBAT WG at IETF 75: Take Two'
+      url: https://mailarchive.ietf.org/arch/msg/ledbat/wPDPwxLyUeLnocXY3OLOMlHPOkk/
+  - kind: minutes
+    listed_in: 2
+    first: '2009-07-26'
+    last: '2009-07-26'
+    examples:
+    - date: '2009-07-26'
+      subject: '[ledbat] Draft minutes of the LEDBAT WG meeting at IETF 75'
+      url: https://mailarchive.ietf.org/arch/msg/ledbat/sTWgtjL2KfLXpLS9Lo_Fneidyb0/
+    - date: '2009-07-26'
+      subject: IETF 75 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/75/minutes/ledbat.txt
+  - kind: minutes without them
+    date: '2009-08-10'
+    subject: IETF 75 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/75/ledbat.html
 - person: 109422
   name: Stanislav Shalunov
   status: unconfirmed
@@ -66,13 +106,19 @@ chairs:
       subject: '[ledbat] missing minutes'
       url: https://mailarchive.ietf.org/arch/msg/ledbat/euHXGUWFi9S1eQqhIk3IihuYjyA/
   - kind: minutes
-    listed_in: 1
+    listed_in: 3
     first: '2009-07-26'
-    last: '2009-07-26'
+    last: '2010-03-21'
     examples:
     - date: '2009-07-26'
       subject: '[ledbat] Draft minutes of the LEDBAT WG meeting at IETF 75'
       url: https://mailarchive.ietf.org/arch/msg/ledbat/sTWgtjL2KfLXpLS9Lo_Fneidyb0/
+    - date: '2009-07-26'
+      subject: IETF 75 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/75/minutes/ledbat.txt
+    - date: '2010-03-21'
+      subject: IETF 77 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/77/minutes/ledbat.txt
   - kind: proceedings
     listed_in: 10
     first: '2009-01-21'
@@ -143,5 +189,5 @@ chairs:
       url: https://www.ietf.org/proceedings/84/ledbat.html
   - kind: minutes without them
     date: '2009-07-26'
-    subject: '[ledbat] Draft minutes of the LEDBAT WG meeting at IETF 75'
-    url: https://mailarchive.ietf.org/arch/msg/ledbat/sTWgtjL2KfLXpLS9Lo_Fneidyb0/
+    subject: IETF 75 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/75/minutes/ledbat.txt

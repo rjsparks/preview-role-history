@@ -14,6 +14,39 @@ bof_sessions:
   url: https://www.ietf.org/proceedings/57/157.htm
 history_url: https://datatracker.ietf.org/group/mipshop/history/
 chairs:
+- person: 103283
+  name: Basavaraj Patil
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2003-07-13'
+    end:
+      certainty: between
+      not_before: '2003-07-13'
+      not_after: '2005-09-28'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2005-09-28)'
+  evidence:
+  - kind: minutes
+    listed_in: 3
+    first: '2003-07-13'
+    last: '2003-07-13'
+    examples:
+    - date: '2003-07-13'
+      subject: '[Mipshop] Minutes for the MIPv6 Signaling and Handoff Optimization BOF (mipshop) - ietf
+        57'
+      url: https://mailarchive.ietf.org/arch/msg/mipshop/Merbz3XW_Hy_Tl5sNcla-Hj0UxE/
+    - date: '2003-07-13'
+      subject: IETF 57 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/57/minutes/mipshop.htm
+    - date: '2003-07-13'
+      subject: IETF 57 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/57/minutes/mipshop.txt
+  - kind: minutes without them
+    date: '2005-09-28'
+    subject: IETF 64 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/64/mipshop.html
 - person: 104540
   name: Stefano Faccin
   status: confirmed
@@ -69,9 +102,8 @@ chairs:
       url: https://www.ietf.org/proceedings/75/mipshop.html
   - kind: minutes without them
     date: '2003-07-13'
-    subject: '[Mipshop] Minutes for the MIPv6 Signaling and Handoff Optimization BOF (mipshop) - ietf
-      57'
-    url: https://mailarchive.ietf.org/arch/msg/mipshop/Merbz3XW_Hy_Tl5sNcla-Hj0UxE/
+    subject: IETF 57 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/57/minutes/mipshop.txt
   - kind: session requests
     meetings:
     - '65'
@@ -136,9 +168,8 @@ chairs:
       url: https://www.ietf.org/proceedings/75/mipshop.html
   - kind: minutes without them
     date: '2003-07-13'
-    subject: '[Mipshop] Minutes for the MIPv6 Signaling and Handoff Optimization BOF (mipshop) - ietf
-      57'
-    url: https://mailarchive.ietf.org/arch/msg/mipshop/Merbz3XW_Hy_Tl5sNcla-Hj0UxE/
+    subject: IETF 57 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/57/minutes/mipshop.txt
   - kind: session requests
     meetings:
     - '68'
@@ -203,14 +234,20 @@ chairs:
       subject: '[Mipshop] working group last call on HMIPv6: draft-ietf-mipshop-hmipv6-00.txt'
       url: https://mailarchive.ietf.org/arch/msg/mipshop/8bBmN5AdxvlEH1hsLFb1zXWUOC8/
   - kind: minutes
-    listed_in: 1
+    listed_in: 4
     first: '2003-07-13'
-    last: '2003-07-13'
+    last: '2003-11-09'
     examples:
     - date: '2003-07-13'
       subject: '[Mipshop] Minutes for the MIPv6 Signaling and Handoff Optimization BOF (mipshop) - ietf
         57'
       url: https://mailarchive.ietf.org/arch/msg/mipshop/Merbz3XW_Hy_Tl5sNcla-Hj0UxE/
+    - date: '2003-07-13'
+      subject: IETF 57 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/57/minutes/mipshop.htm
+    - date: '2003-11-09'
+      subject: IETF 58 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/58/minutes/mipshop.htm
   - kind: proceedings
     listed_in: 6
     first: '2003-10-20'

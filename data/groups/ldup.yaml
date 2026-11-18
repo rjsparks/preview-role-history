@@ -28,6 +28,14 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1998-11-25)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2003-03-16'
+    last: '2003-03-16'
+    examples:
+    - date: '2003-03-16'
+      subject: IETF 56 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/56/minutes/ldup.htm
   - kind: proceedings
     listed_in: 15
     first: '1998-11-25'
@@ -60,6 +68,20 @@ chairs:
     date: '1998-11-24'
     subject: 'WG ACTION: LDAP Duplication/Replication/Update Protocols (ldup)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/rJwGQokUfWxJ5CW1_lkVDK8NofQ/
+  - kind: minutes
+    listed_in: 3
+    first: '2003-03-16'
+    last: '2003-07-13'
+    examples:
+    - date: '2003-03-16'
+      subject: IETF 56 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/56/minutes/ldup.htm
+    - date: '2003-07-13'
+      subject: IETF 57 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/57/minutes/ldup.htm
+    - date: '2003-07-13'
+      subject: IETF 57 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/57/minutes/ldup.txt
   - kind: proceedings
     listed_in: 16
     first: '1998-11-25'

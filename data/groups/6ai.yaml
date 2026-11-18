@@ -17,13 +17,21 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2009-04-13'
+      date: '2009-03-22'
     end:
       certainty: group-closed
       date: '2011-12-09'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2009-04-13)'
+    - 'Start: listed as chair in meeting minutes (2009-03-22)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2009-03-22'
+    last: '2009-03-22'
+    examples:
+    - date: '2009-03-22'
+      subject: IETF 74 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/74/minutes/6ai.txt
   - kind: proceedings
     listed_in: 1
     first: '2009-04-13'
@@ -38,13 +46,21 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2009-04-13'
+      date: '2009-03-22'
     end:
       certainty: group-closed
       date: '2011-12-09'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2009-04-13)'
+    - 'Start: listed as chair in meeting minutes (2009-03-22)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2009-03-22'
+    last: '2009-03-22'
+    examples:
+    - date: '2009-03-22'
+      subject: IETF 74 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/74/minutes/6ai.txt
   - kind: proceedings
     listed_in: 1
     first: '2009-04-13'

@@ -29,6 +29,20 @@ chairs:
     date: '2002-07-02'
     subject: 'WG Action: Datagram Congestion Control Protocol (dccp)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/09M7QuPAqT3CNuCc_iIlTJnGrUY/
+  - kind: minutes
+    listed_in: 3
+    first: '2002-11-17'
+    last: '2003-07-13'
+    examples:
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/minutes/dccp.htm
+    - date: '2003-07-13'
+      subject: IETF 57 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/57/minutes/DCCP.TXT
+    - date: '2003-07-13'
+      subject: IETF 57 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/57/minutes/dccp.htm
   - kind: proceedings
     listed_in: 8
     first: '2002-07-02'
@@ -44,9 +58,9 @@ chairs:
       subject: IETF 62 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/62/dccp.html
   - kind: minutes without them
-    date: '2005-06-27'
-    subject: IETF 63 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/63/dccp.html
+    date: '2005-07-31'
+    subject: IETF 63 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/63/minutes/dccp.html
 - person: 101742
   name: Thomas Phelan
   status: confirmed
@@ -69,6 +83,20 @@ chairs:
     date: '2006-07-11'
     subject: 'WG Action: RECHARTER: Datagram Congestion Control Protocol (dccp)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/wdeOMBJCbkAZFcF3XSEU65wp1CY/
+  - kind: minutes
+    listed_in: 9
+    first: '2005-07-31'
+    last: '2008-11-16'
+    examples:
+    - date: '2005-07-31'
+      subject: IETF 63 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/63/minutes/dccp.html
+    - date: '2005-11-06'
+      subject: IETF 64 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/64/minutes/dccp.txt
+    - date: '2008-11-16'
+      subject: IETF 73 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/73/minutes/dccp.txt
   - kind: proceedings
     listed_in: 13
     first: '2005-06-27'
@@ -88,7 +116,8 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2005-11-06'
       not_after: '2006-06-27'
     end:
       certainty: between
@@ -96,6 +125,7 @@ chairs:
       not_after: '2009-06-26'
     notes:
     - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-06-26)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2005-11-06)'
   evidence:
   - kind: WG Review
     date: '2006-06-27'
@@ -105,6 +135,20 @@ chairs:
     date: '2006-07-11'
     subject: 'WG Action: RECHARTER: Datagram Congestion Control Protocol (dccp)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/wdeOMBJCbkAZFcF3XSEU65wp1CY/
+  - kind: minutes
+    listed_in: 8
+    first: '2006-07-09'
+    last: '2009-03-22'
+    examples:
+    - date: '2006-07-09'
+      subject: IETF 66 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/66/minutes/dccp.txt
+    - date: '2006-11-05'
+      subject: IETF 67 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/67/minutes/dccp.txt
+    - date: '2009-03-22'
+      subject: IETF 74 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/74/minutes/dccp.txt
   - kind: proceedings
     listed_in: 3
     first: '2006-07-11'
@@ -119,6 +163,10 @@ chairs:
     - date: '2008-03-18'
       subject: IETF 71 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/71/dccp.html
+  - kind: minutes without them
+    date: '2005-11-06'
+    subject: IETF 64 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/64/minutes/dccp.txt
   - kind: minutes without them
     date: '2009-06-26'
     subject: IETF 75 proceedings charter, as last modified
@@ -142,13 +190,22 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2009-03-22'
-      not_before: '2002-06-07'
+      not_before: '2008-11-16'
     end:
       certainty: group-closed
       date: '2012-11-27'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2009-03-22)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2008-11-16)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2009-11-08'
+    last: '2009-11-08'
+    examples:
+    - date: '2009-11-08'
+      subject: IETF 76 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/76/minutes/dccp.txt
   - kind: proceedings
     listed_in: 8
     first: '2009-03-22'
@@ -163,6 +220,10 @@ chairs:
     - date: '2012-07-29'
       subject: IETF 84 proceedings charter
       url: https://www.ietf.org/proceedings/84/dccp.html
+  - kind: minutes without them
+    date: '2008-11-16'
+    subject: IETF 73 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/73/minutes/dccp.txt
   - kind: session requests
     meetings:
     - '76'
@@ -179,9 +240,19 @@ chairs:
       not_before: '2006-03-19'
       not_after: '2006-07-09'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2006-07-11)'
-    - 'End: became an Area Director, first serving at IETF 66 (2006-07-09)'
+    - 'End: no longer listed among the chairs in meeting minutes (2006-07-09)'
   evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '2005-07-31'
+    last: '2005-11-06'
+    examples:
+    - date: '2005-07-31'
+      subject: IETF 63 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/63/minutes/dccp.html
+    - date: '2005-11-06'
+      subject: IETF 64 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/64/minutes/dccp.txt
   - kind: proceedings
     listed_in: 2
     first: '2005-06-27'
@@ -194,9 +265,9 @@ chairs:
       subject: IETF 64 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/64/dccp.html
   - kind: minutes without them
-    date: '2006-07-11'
-    subject: IETF 66 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/66/dccp.html
+    date: '2006-07-09'
+    subject: IETF 66 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/66/minutes/dccp.txt
   - kind: session requests
     meetings:
     - '65'

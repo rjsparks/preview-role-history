@@ -20,7 +20,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2004-09-03'
+      not_after: '2004-08-01'
     end:
       certainty: between
       not_before: '2007-03-12'
@@ -52,6 +52,17 @@ chairs:
     - date: '2005-05-05'
       subject: WGLC Cancelled - GSS PRF and GSS-KRB5 PRF
       url: https://mailarchive.ietf.org/arch/msg/kitten/d0Kjh8-E5QYgfXJRRF_t3o6oX_w/
+  - kind: minutes
+    listed_in: 2
+    first: '2004-08-01'
+    last: '2005-11-06'
+    examples:
+    - date: '2004-08-01'
+      subject: IETF 60 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/60/minutes/kitten.htm
+    - date: '2005-11-06'
+      subject: IETF 64 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/64/minutes/kitten.txt
   - kind: proceedings
     listed_in: 6
     first: '2004-11-03'
@@ -67,9 +78,9 @@ chairs:
       subject: IETF 68 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/68/kitten.html
   - kind: minutes without them
-    date: '2015-03-22'
-    subject: '[kitten] IETF 92 Meeting Minutes (DRAFT)'
-    url: https://mailarchive.ietf.org/arch/msg/kitten/zZCahun_sTYyKrwamYwXRwl9eHQ/
+    date: '2007-07-22'
+    subject: IETF 69 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/69/minutes/kitten.txt
   - kind: session requests
     meetings:
     - '66'
@@ -125,6 +136,20 @@ chairs:
     - date: '2025-02-06'
       subject: '[kitten] Call for adoption on draft-schmaus-kitten-sasl-ht-10 and draft-bucksch-sasl-rememberme-00'
       url: https://mailarchive.ietf.org/arch/msg/kitten/jgX4kwVhISMbNsDPLjUGuA9hK8g/
+  - kind: minutes
+    listed_in: 6
+    first: '2007-07-22'
+    last: '2011-11-13'
+    examples:
+    - date: '2007-07-22'
+      subject: IETF 69 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/69/minutes/kitten.txt
+    - date: '2007-12-02'
+      subject: IETF 70 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/70/minutes/kitten.txt
+    - date: '2011-11-13'
+      subject: IETF 82 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/82/minutes/kitten.txt
   - kind: proceedings
     listed_in: 7
     first: '2007-06-14'
@@ -159,12 +184,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2009-03-22'
-      not_before: '2004-06-10'
+      not_before: '2008-03-09'
     end:
       certainty: exact
       date: '2012-10-01'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2009-03-22)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2008-03-09)'
   evidence:
   - kind: WG Review
     date: '2010-07-08'
@@ -186,6 +212,20 @@ chairs:
     - date: '2012-04-26'
       subject: '[kitten] draft Kitten WG IETF83 minutes'
       url: https://mailarchive.ietf.org/arch/msg/kitten/SdkRU_-9LuPUzqeBWe3q1QQHIr4/
+  - kind: minutes
+    listed_in: 9
+    first: '2009-07-26'
+    last: '2012-03-25'
+    examples:
+    - date: '2009-07-26'
+      subject: IETF 75 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/75/minutes/kitten.txt
+    - date: '2009-11-08'
+      subject: IETF 76 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/76/minutes/kitten.txt
+    - date: '2012-03-25'
+      subject: IETF 83 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/83/minutes/minutes-83-kitten.txt
   - kind: proceedings
     listed_in: 9
     first: '2009-03-22'
@@ -201,9 +241,13 @@ chairs:
       subject: IETF 83 proceedings charter
       url: https://www.ietf.org/proceedings/83/kitten.html
   - kind: minutes without them
-    date: '2015-03-22'
-    subject: '[kitten] IETF 92 Meeting Minutes (DRAFT)'
-    url: https://mailarchive.ietf.org/arch/msg/kitten/zZCahun_sTYyKrwamYwXRwl9eHQ/
+    date: '2008-03-09'
+    subject: IETF 71 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/71/minutes/kitten.txt
+  - kind: minutes without them
+    date: '2012-11-04'
+    subject: IETF 85 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/85/minutes/minutes-85-kitten.txt
 - person: 103048
   name: Sam Hartman
   status: confirmed
@@ -240,6 +284,20 @@ chairs:
     - date: '2013-05-10'
       subject: '[kitten] Berlin Meeting: Agenda Items and Attendance'
       url: https://mailarchive.ietf.org/arch/msg/kitten/rBpFFSlt7nqOtuSrsLl-oAxqkes/
+  - kind: minutes
+    listed_in: 6
+    first: '2012-11-04'
+    last: '2014-07-20'
+    examples:
+    - date: '2012-11-04'
+      subject: IETF 85 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/85/minutes/minutes-85-kitten.txt
+    - date: '2013-03-10'
+      subject: IETF 86 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/86/minutes/minutes-86-kitten.txt
+    - date: '2014-07-20'
+      subject: IETF 90 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/90/minutes/minutes-90-kitten.txt
   - kind: proceedings
     listed_in: 1
     first: '2012-07-29'
@@ -249,9 +307,13 @@ chairs:
       subject: IETF 84 proceedings charter
       url: https://www.ietf.org/proceedings/84/kitten.html
   - kind: minutes without them
-    date: '2015-03-22'
-    subject: '[kitten] IETF 92 Meeting Minutes (DRAFT)'
-    url: https://mailarchive.ietf.org/arch/msg/kitten/zZCahun_sTYyKrwamYwXRwl9eHQ/
+    date: '2011-11-13'
+    subject: IETF 82 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/82/minutes/kitten.txt
+  - kind: minutes without them
+    date: '2014-11-09'
+    subject: IETF 91 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/91/minutes/minutes-91-kitten.txt
 - person: 107956
   name: Shawn Emery
   status: confirmed
@@ -321,13 +383,19 @@ chairs:
       subject: '[kitten] WGLC on draft-ietf-kitten-sasl-openid-01'
       url: https://mailarchive.ietf.org/arch/msg/kitten/JklkhLT9cf_uwc6m5aoJirrxEfw/
   - kind: minutes
-    listed_in: 1
-    first: '2015-03-22'
+    listed_in: 23
+    first: '2007-07-22'
     last: '2015-03-22'
     examples:
+    - date: '2007-07-22'
+      subject: IETF 69 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/69/minutes/kitten.txt
+    - date: '2007-12-02'
+      subject: IETF 70 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/70/minutes/kitten.txt
     - date: '2015-03-22'
-      subject: '[kitten] IETF 92 Meeting Minutes (DRAFT)'
-      url: https://mailarchive.ietf.org/arch/msg/kitten/zZCahun_sTYyKrwamYwXRwl9eHQ/
+      subject: IETF 92 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/92/minutes/minutes-92-kitten.txt
   - kind: proceedings
     listed_in: 12
     first: '2007-06-14'
@@ -378,6 +446,20 @@ chairs:
     subject: '[kitten] chair changes'
     url: https://mailarchive.ietf.org/arch/msg/kitten/8M80wlkBFtVH67m-2wy_CPWo9c8/
     excerpt: Josh unfortunately also has to step down due to $dayjob.
+  - kind: minutes
+    listed_in: 6
+    first: '2012-11-04'
+    last: '2014-07-20'
+    examples:
+    - date: '2012-11-04'
+      subject: IETF 85 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/85/minutes/minutes-85-kitten.txt
+    - date: '2013-03-10'
+      subject: IETF 86 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/86/minutes/minutes-86-kitten.txt
+    - date: '2014-07-20'
+      subject: IETF 90 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/90/minutes/minutes-90-kitten.txt
   - kind: proceedings
     listed_in: 1
     first: '2012-07-29'
@@ -387,9 +469,13 @@ chairs:
       subject: IETF 84 proceedings charter
       url: https://www.ietf.org/proceedings/84/kitten.html
   - kind: minutes without them
-    date: '2015-03-22'
-    subject: '[kitten] IETF 92 Meeting Minutes (DRAFT)'
-    url: https://mailarchive.ietf.org/arch/msg/kitten/zZCahun_sTYyKrwamYwXRwl9eHQ/
+    date: '2011-11-13'
+    subject: IETF 82 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/82/minutes/kitten.txt
+  - kind: minutes without them
+    date: '2014-11-09'
+    subject: IETF 91 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/91/minutes/minutes-91-kitten.txt
 - person: 111178
   name: Matthew Miller
   status: confirmed
@@ -438,13 +524,23 @@ chairs:
       subject: '[kitten] IETF 92 Meeting Minutes (DRAFT)'
       url: https://mailarchive.ietf.org/arch/msg/kitten/zZCahun_sTYyKrwamYwXRwl9eHQ/
   - kind: minutes
-    listed_in: 1
-    first: '2015-03-22'
+    listed_in: 3
+    first: '2014-11-09'
     last: '2015-03-22'
     examples:
+    - date: '2014-11-09'
+      subject: IETF 91 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/91/minutes/minutes-91-kitten.txt
     - date: '2015-03-22'
       subject: '[kitten] IETF 92 Meeting Minutes (DRAFT)'
       url: https://mailarchive.ietf.org/arch/msg/kitten/zZCahun_sTYyKrwamYwXRwl9eHQ/
+    - date: '2015-03-22'
+      subject: IETF 92 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/92/minutes/minutes-92-kitten.txt
+  - kind: minutes without them
+    date: '2014-07-20'
+    subject: IETF 90 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/90/minutes/minutes-90-kitten.txt
   - kind: shepherded
     documents:
     - draft-ietf-kitten-gss-loop
@@ -461,8 +557,8 @@ chairs:
   evidence:
   - kind: minutes without them
     date: '2015-03-22'
-    subject: '[kitten] IETF 92 Meeting Minutes (DRAFT)'
-    url: https://mailarchive.ietf.org/arch/msg/kitten/zZCahun_sTYyKrwamYwXRwl9eHQ/
+    subject: IETF 92 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/92/minutes/minutes-92-kitten.txt
 - person: 115214
   name: Benjamin Kaduk
   status: confirmed
@@ -516,13 +612,19 @@ chairs:
       subject: '[kitten] draft agenda for Dallas posted'
       url: https://mailarchive.ietf.org/arch/msg/kitten/vgm2SKxbyyVQjPYZnodim3E5irU/
   - kind: minutes
-    listed_in: 1
-    first: '2015-03-22'
+    listed_in: 3
+    first: '2014-11-09'
     last: '2015-03-22'
     examples:
+    - date: '2014-11-09'
+      subject: IETF 91 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/91/minutes/minutes-91-kitten.txt
     - date: '2015-03-22'
       subject: '[kitten] IETF 92 Meeting Minutes (DRAFT)'
       url: https://mailarchive.ietf.org/arch/msg/kitten/zZCahun_sTYyKrwamYwXRwl9eHQ/
+    - date: '2015-03-22'
+      subject: IETF 92 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/92/minutes/minutes-92-kitten.txt
   - kind: shepherded
     documents:
     - draft-ietf-kitten-aes-cts-hmac-sha2
@@ -563,8 +665,8 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/kitten/07RgJ5Ix6KFgSKMnzUxYePMxKe0/
   - kind: minutes without them
     date: '2015-03-22'
-    subject: '[kitten] IETF 92 Meeting Minutes (DRAFT)'
-    url: https://mailarchive.ietf.org/arch/msg/kitten/zZCahun_sTYyKrwamYwXRwl9eHQ/
+    subject: IETF 92 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/92/minutes/minutes-92-kitten.txt
   - kind: shepherded
     documents:
     - draft-ietf-kitten-pkinit-alg-agility

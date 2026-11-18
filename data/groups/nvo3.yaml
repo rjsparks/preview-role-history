@@ -30,8 +30,8 @@ chairs:
   evidence:
   - kind: minutes without them
     date: '2012-03-25'
-    subject: IETF 83 proceedings charter
-    url: https://www.ietf.org/proceedings/83/nvo3.html
+    subject: IETF 83 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/83/minutes/minutes-83-nvo3.txt
 - person: 105786
   name: Matthew Bocci
   status: confirmed
@@ -65,6 +65,20 @@ chairs:
     - date: '2025-06-06'
       subject: '[nvo3] WG Last Call for draft-ietf-nvo3-rfc7348bis-00'
       url: https://mailarchive.ietf.org/arch/msg/nvo3/zN6sCaCV5D4LUngq7YSky6puBGI/
+  - kind: minutes
+    listed_in: 11
+    first: '2012-03-25'
+    last: '2016-07-17'
+    examples:
+    - date: '2012-03-25'
+      subject: IETF 83 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/83/minutes/minutes-83-nvo3.txt
+    - date: '2012-07-29'
+      subject: IETF 84 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/84/minutes/minutes-84-nvo3.txt
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/minutes/minutes-96-nvo3.txt
   - kind: proceedings
     listed_in: 7
     first: '2012-03-25'
@@ -112,6 +126,14 @@ chairs:
     subject: '[nvo3] New NVO3 Chair: Sam Aldrin'
     url: https://mailarchive.ietf.org/arch/msg/nvo3/sWkXMucrPe_P9wks4RnKV91TAcM/
     excerpt: I am pleased to announce that Sam Aldrin has accepted my request to serve as NVO3 chair.
+  - kind: minutes
+    listed_in: 1
+    first: '2016-07-17'
+    last: '2016-07-17'
+    examples:
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/minutes/minutes-96-nvo3.txt
   - kind: shepherded
     documents:
     - draft-ietf-nvo3-evpn-applicability
@@ -174,6 +196,20 @@ chairs:
     - date: '2013-02-23'
       subject: '[nvo3] WG Last Call for draft-ietf-nvo3-framework-02'
       url: https://mailarchive.ietf.org/arch/msg/nvo3/fFTXPaNkius59RmFWGPWvGGKMvM/
+  - kind: minutes
+    listed_in: 10
+    first: '2012-03-25'
+    last: '2015-11-01'
+    examples:
+    - date: '2012-03-25'
+      subject: IETF 83 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/83/minutes/minutes-83-nvo3.txt
+    - date: '2012-07-29'
+      subject: IETF 84 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/84/minutes/minutes-84-nvo3.txt
+    - date: '2015-11-01'
+      subject: IETF 94 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/94/minutes/minutes-94-nvo3.txt
   - kind: proceedings
     listed_in: 7
     first: '2012-03-25'
@@ -188,3 +224,7 @@ chairs:
     - date: '2014-03-02'
       subject: IETF 89 proceedings charter
       url: https://www.ietf.org/proceedings/89/nvo3.html
+  - kind: minutes without them
+    date: '2016-07-17'
+    subject: IETF 96 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-nvo3.txt

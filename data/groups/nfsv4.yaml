@@ -21,9 +21,9 @@ chairs:
     end:
       certainty: between
       not_before: '2002-02-27'
-      not_after: '2002-05-07'
+      not_after: '2002-03-17'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2002-05-07)'
+    - 'End: no longer listed among the chairs in meeting minutes (2002-03-17)'
   evidence:
   - kind: proceedings
     listed_in: 11
@@ -40,9 +40,9 @@ chairs:
       subject: IETF 53 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/53/228.htm
   - kind: minutes without them
-    date: '2006-12-07'
-    subject: '[nfsv4] Minutes from November 6 and 8 IETF NFSv4 WG Meeting'
-    url: https://mailarchive.ietf.org/arch/msg/nfsv4/IcD8Hy00qK7bPLnThUwbFwV6DfA/
+    date: '2002-03-17'
+    subject: IETF 53 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/53/minutes/nfsv4.htm
 - person: 18587
   name: Brian Pawlowski
   status: confirmed
@@ -109,16 +109,19 @@ chairs:
       subject: '[nfsv4] WG last call on "Add LAYOUT_WCC to NFSv4.2''s Flex File Layout Type" - draft-ietf-nfsv4-layoutwcc'
       url: https://mailarchive.ietf.org/arch/msg/nfsv4/0z9bfUFpnCSS0OQ-x-b2-TVXAnY/
   - kind: minutes
-    listed_in: 2
-    first: '2006-12-07'
-    last: '2007-04-20'
+    listed_in: 17
+    first: '2002-03-17'
+    last: '2007-12-02'
     examples:
-    - date: '2006-12-07'
-      subject: '[nfsv4] Minutes from November 6 and 8 IETF NFSv4 WG Meeting'
-      url: https://mailarchive.ietf.org/arch/msg/nfsv4/IcD8Hy00qK7bPLnThUwbFwV6DfA/
-    - date: '2007-04-20'
-      subject: '[nfsv4] [LATE] Draft Minutes from March 18, 2007 NFS V4 Prague Meeting'
-      url: https://mailarchive.ietf.org/arch/msg/nfsv4/2asoqLQwtvYp0z6RJqlqVj4wFTE/
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/minutes/nfsv4.htm
+    - date: '2002-07-14'
+      subject: IETF 54 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/54/minutes/nfsv4.htm
+    - date: '2007-12-02'
+      subject: IETF 70 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/70/minutes/nfsv4.txt
   - kind: proceedings
     listed_in: 35
     first: '1998-08-05'
@@ -143,13 +146,13 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2002-05-07'
+      not_after: '2002-03-17'
     end:
       certainty: between
       not_before: '2003-07-10'
-      not_after: '2003-08-01'
+      not_after: '2003-07-13'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2003-08-01)'
+    - 'End: no longer listed among the chairs in meeting minutes (2003-07-13)'
   evidence:
   - kind: chair activity
     first: '2003-04-07'
@@ -162,6 +165,20 @@ chairs:
     - date: '2003-07-10'
       subject: '[nfsv4] Draft agenda for NFSv4 meeting in Vienna, Austria IETF 57 Meeting'
       url: https://mailarchive.ietf.org/arch/msg/nfsv4/HNcbvBxe9ZCKDqP-o9CSPcN1ktQ/
+  - kind: minutes
+    listed_in: 4
+    first: '2002-03-17'
+    last: '2003-03-16'
+    examples:
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/minutes/nfsv4.htm
+    - date: '2002-07-14'
+      subject: IETF 54 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/54/minutes/nfsv4.htm
+    - date: '2003-03-16'
+      subject: IETF 56 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/56/minutes/nfsv4.htm
   - kind: proceedings
     listed_in: 2
     first: '2002-05-07'
@@ -174,22 +191,23 @@ chairs:
       subject: IETF 56 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/56/233.htm
   - kind: minutes without them
-    date: '2006-12-07'
-    subject: '[nfsv4] Minutes from November 6 and 8 IETF NFSv4 WG Meeting'
-    url: https://mailarchive.ietf.org/arch/msg/nfsv4/IcD8Hy00qK7bPLnThUwbFwV6DfA/
+    date: '2003-07-13'
+    subject: IETF 57 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/57/minutes/nfsv4.txt
 - person: 21097
   name: Spencer Shepler
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-08-01'
-      not_before: '1996-07-28'
+      date: '2003-07-13'
+      not_before: '2003-03-16'
     end:
       certainty: exact
       date: '2019-11-21'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2003-08-01)'
+    - 'Start: listed as chair in meeting minutes (2003-07-13)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2003-03-16)'
   evidence:
   - kind: WG Review
     date: '2007-10-09'
@@ -236,16 +254,19 @@ chairs:
       subject: '[nfsv4] WG last call for pNFS Block Disk Protection I-D'
       url: https://mailarchive.ietf.org/arch/msg/nfsv4/cDLULeU1mDbgWpF-vDdbF3W7wW0/
   - kind: minutes
-    listed_in: 2
-    first: '2006-12-07'
-    last: '2007-04-20'
+    listed_in: 13
+    first: '2003-07-13'
+    last: '2007-12-02'
     examples:
-    - date: '2006-12-07'
-      subject: '[nfsv4] Minutes from November 6 and 8 IETF NFSv4 WG Meeting'
-      url: https://mailarchive.ietf.org/arch/msg/nfsv4/IcD8Hy00qK7bPLnThUwbFwV6DfA/
-    - date: '2007-04-20'
-      subject: '[nfsv4] [LATE] Draft Minutes from March 18, 2007 NFS V4 Prague Meeting'
-      url: https://mailarchive.ietf.org/arch/msg/nfsv4/2asoqLQwtvYp0z6RJqlqVj4wFTE/
+    - date: '2003-07-13'
+      subject: IETF 57 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/57/minutes/nfsv4.txt
+    - date: '2003-11-09'
+      subject: IETF 58 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/58/minutes/nfsv4.htm
+    - date: '2007-12-02'
+      subject: IETF 70 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/70/minutes/nfsv4.txt
   - kind: proceedings
     listed_in: 22
     first: '2003-08-01'
@@ -260,6 +281,10 @@ chairs:
     - date: '2013-11-03'
       subject: IETF 88 proceedings charter
       url: https://www.ietf.org/proceedings/88/nfsv4.html
+  - kind: minutes without them
+    date: '2003-03-16'
+    subject: IETF 56 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/56/minutes/nfsv4.htm
   - kind: session requests
     meetings:
     - '65'
@@ -348,9 +373,9 @@ chairs:
       subject: '[nfsv4] Adoption call for draft-dnoveck-nfsv4-security'
       url: https://mailarchive.ietf.org/arch/msg/nfsv4/9ahuOIEKpWhgwvywPd9oOKLCVGw/
   - kind: minutes without them
-    date: '2007-04-20'
-    subject: '[nfsv4] [LATE] Draft Minutes from March 18, 2007 NFS V4 Prague Meeting'
-    url: https://mailarchive.ietf.org/arch/msg/nfsv4/2asoqLQwtvYp0z6RJqlqVj4wFTE/
+    date: '2007-12-02'
+    subject: IETF 70 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/70/minutes/nfsv4.txt
   - kind: shepherded
     documents:
     - draft-ietf-nfsv4-rpc-tls
@@ -427,9 +452,9 @@ chairs:
       subject: '[nfsv4] Adoption call for draft-rmacklem-nfsv4-posix-acls-11.txt'
       url: https://mailarchive.ietf.org/arch/msg/nfsv4/SiIdolXZIi7931N4M4loalei34c/
   - kind: minutes without them
-    date: '2007-04-20'
-    subject: '[nfsv4] [LATE] Draft Minutes from March 18, 2007 NFS V4 Prague Meeting'
-    url: https://mailarchive.ietf.org/arch/msg/nfsv4/2asoqLQwtvYp0z6RJqlqVj4wFTE/
+    date: '2007-12-02'
+    subject: IETF 70 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/70/minutes/nfsv4.txt
   - kind: shepherded
     documents:
     - draft-ietf-nfsv4-delstid

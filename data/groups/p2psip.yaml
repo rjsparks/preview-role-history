@@ -47,6 +47,20 @@ chairs:
     - date: '2008-07-16'
       subject: '[P2PSIP] Draft WG Agenda for Dublin'
       url: https://mailarchive.ietf.org/arch/msg/p2psip/4PitkBAY5GVCQJ0INuhve7cf5dg/
+  - kind: minutes
+    listed_in: 4
+    first: '2007-03-18'
+    last: '2010-11-07'
+    examples:
+    - date: '2007-03-18'
+      subject: IETF 68 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/68/minutes/p2psip.html
+    - date: '2008-03-09'
+      subject: IETF 71 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/71/minutes/p2psip.txt
+    - date: '2010-11-07'
+      subject: IETF 79 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/79/minutes/p2psip.html
   - kind: proceedings
     listed_in: 8
     first: '2007-02-22'
@@ -129,6 +143,10 @@ chairs:
     - date: '2016-07-17'
       subject: IETF 96 proceedings charter
       url: https://www.ietf.org/proceedings/96/p2psip.html
+  - kind: minutes without them
+    date: '2010-11-07'
+    subject: IETF 79 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/79/minutes/p2psip.html
   - kind: shepherded
     documents:
     - draft-ietf-p2psip-diagnostics
@@ -166,6 +184,20 @@ chairs:
     - date: '2010-10-18'
       subject: '[P2PSIP] WGLC on draft-ietf-p2psip-base-11'
       url: https://mailarchive.ietf.org/arch/msg/p2psip/NKz6LAbe7LXf2BeitLYBLHDSM5g/
+  - kind: minutes
+    listed_in: 3
+    first: '2007-03-18'
+    last: '2008-07-27'
+    examples:
+    - date: '2007-03-18'
+      subject: IETF 68 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/68/minutes/p2psip.html
+    - date: '2008-03-09'
+      subject: IETF 71 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/71/minutes/p2psip.txt
+    - date: '2008-07-27'
+      subject: IETF 72 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/72/minutes/p2psip.txt
   - kind: proceedings
     listed_in: 23
     first: '2007-02-22'
@@ -183,3 +215,35 @@ chairs:
   - kind: shepherded
     documents:
     - draft-ietf-p2psip-concepts
+- person: 107435
+  name: Enrico Marocco
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2008-07-27'
+      not_after: '2010-11-07'
+    end:
+      certainty: between
+      not_before: '2010-11-07'
+      not_after: '2011-03-27'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-03-27)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2008-07-27)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2010-11-07'
+    last: '2010-11-07'
+    examples:
+    - date: '2010-11-07'
+      subject: IETF 79 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/79/minutes/p2psip.html
+  - kind: minutes without them
+    date: '2008-07-27'
+    subject: IETF 72 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/72/minutes/p2psip.txt
+  - kind: minutes without them
+    date: '2011-03-27'
+    subject: IETF 80 proceedings charter
+    url: https://www.ietf.org/proceedings/80/p2psip.html

@@ -23,13 +23,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-03-29'
+      date: '2003-11-09'
       not_before: '2003-10-01'
     end:
       certainty: group-closed
       date: '2006-08-17'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2004-03-29)'
+    - 'Start: listed as chair in meeting minutes (2003-11-09)'
   evidence:
   - kind: WG Action
     date: '2004-03-29'
@@ -56,6 +56,20 @@ chairs:
     - date: '2005-10-04'
       subject: '[newtrk] WG last call on draft-ietf-newtrk-decruft-experiment-01.txt'
       url: https://mailarchive.ietf.org/arch/msg/newtrk/ktNFUdrWSNjk1hFkSLn-r6dDNgs/
+  - kind: minutes
+    listed_in: 4
+    first: '2003-11-09'
+    last: '2005-03-06'
+    examples:
+    - date: '2003-11-09'
+      subject: IETF 58 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/58/minutes/newtrk.htm
+    - date: '2004-08-01'
+      subject: IETF 60 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/60/minutes/newtrk.htm
+    - date: '2005-03-06'
+      subject: IETF 62 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/62/minutes/newtrk.html
   - kind: proceedings
     listed_in: 4
     first: '2004-06-17'
@@ -70,3 +84,22 @@ chairs:
     - date: '2005-05-19'
       subject: IETF 63 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/63/newtrk.html
+- person: 5778
+  name: Harald Alvestrand
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2005-07-31'
+    end:
+      certainty: evidence-only
+      not_before: '2005-07-31'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2005-07-31'
+    last: '2005-07-31'
+    examples:
+    - date: '2005-07-31'
+      subject: IETF 63 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/63/minutes/newtrk.html

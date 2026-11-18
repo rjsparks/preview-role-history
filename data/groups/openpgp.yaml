@@ -191,6 +191,14 @@ chairs:
     - date: '2016-07-29'
       subject: '[openpgp] Minutes from the IETF 96 openpgp session posted'
       url: https://mailarchive.ietf.org/arch/msg/openpgp/fzUILZOrlyZY-4f-9ubER48rHCQ/
+  - kind: minutes
+    listed_in: 1
+    first: '2016-07-17'
+    last: '2016-07-17'
+    examples:
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/minutes/minutes-96-openpgp.txt
   - kind: proceedings
     listed_in: 2
     first: '2016-04-03'
@@ -204,8 +212,8 @@ chairs:
       url: https://www.ietf.org/proceedings/96/openpgp.html
   - kind: minutes without them
     date: '2015-11-01'
-    subject: '[openpgp] DRAFT minutes for OpenPGP at IETF 94'
-    url: https://mailarchive.ietf.org/arch/msg/openpgp/QMNaGHrINiY7ZxGatG82tqfBtS4/
+    subject: IETF 94 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/94/minutes/minutes-94-openpgp.txt
 - person: 104807
   name: Christopher Liljenstolpe
   status: confirmed
@@ -234,13 +242,16 @@ chairs:
       subject: '[openpgp] Draft Agenda posted'
       url: https://mailarchive.ietf.org/arch/msg/openpgp/0qHL46HUPOAvVTYIcmt7FiVEy9Y/
   - kind: minutes
-    listed_in: 1
+    listed_in: 2
     first: '2015-11-01'
     last: '2015-11-01'
     examples:
     - date: '2015-11-01'
       subject: '[openpgp] DRAFT minutes for OpenPGP at IETF 94'
       url: https://mailarchive.ietf.org/arch/msg/openpgp/QMNaGHrINiY7ZxGatG82tqfBtS4/
+    - date: '2015-11-01'
+      subject: IETF 94 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/94/minutes/minutes-94-openpgp.txt
   - kind: proceedings
     listed_in: 3
     first: '2014-07-20'
@@ -307,13 +318,19 @@ chairs:
       subject: '[openpgp] Call for adoption of draft-gallagher-openpgp-replacementkey'
       url: https://mailarchive.ietf.org/arch/msg/openpgp/ijiy4WJQhPVA5-7kiBPOvHOWCNI/
   - kind: minutes
-    listed_in: 1
+    listed_in: 3
     first: '2015-11-01'
-    last: '2015-11-01'
+    last: '2016-04-03'
     examples:
     - date: '2015-11-01'
       subject: '[openpgp] DRAFT minutes for OpenPGP at IETF 94'
       url: https://mailarchive.ietf.org/arch/msg/openpgp/QMNaGHrINiY7ZxGatG82tqfBtS4/
+    - date: '2015-11-01'
+      subject: IETF 94 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/94/minutes/minutes-94-openpgp.txt
+    - date: '2016-04-03'
+      subject: IETF 95 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/95/minutes/minutes-95-openpgp.txt
   - kind: proceedings
     listed_in: 5
     first: '2014-07-20'

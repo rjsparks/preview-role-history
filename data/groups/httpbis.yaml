@@ -11,6 +11,38 @@ chartered: '2007-10-18'
 bof_sessions: []
 history_url: https://datatracker.ietf.org/group/httpbis/history/
 chairs:
+- person: 102154
+  name: Alexey Melnikov
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2007-07-05'
+    end:
+      certainty: between
+      not_before: '2007-07-05'
+      not_after: '2009-07-26'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2016-07-17)'
+    - 'End: became an Area Director, first serving at IETF 75 (2009-07-26)'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2007-07-05'
+    last: '2007-07-05'
+    examples:
+    - date: '2007-07-05'
+      subject: IETF 69 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/69/httpbis.html
+  - kind: minutes without them
+    date: '2016-07-17'
+    subject: IETF 96 proceedings charter
+    url: https://www.ietf.org/proceedings/96/httpbis.html
+  - kind: joined the IESG
+    after_meeting: '74'
+    after: '2009-03-22'
+    by_meeting: '75'
+    by: '2009-07-26'
 - person: 103881
   name: Mark Nottingham
   status: confirmed
@@ -60,6 +92,14 @@ chairs:
     date: '2025-10-13'
     subject: 'WG Action: Rechartered HTTP (httpbis)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/byFbrBsueBZlnCrI4ytJb1khlmA/
+  - kind: minutes
+    listed_in: 1
+    first: '2014-03-02'
+    last: '2014-03-02'
+    examples:
+    - date: '2014-03-02'
+      subject: IETF 89 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/89/minutes/minutes-89-httpbis.txt
   - kind: proceedings
     listed_in: 25
     first: '2007-07-05'

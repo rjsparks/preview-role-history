@@ -11,42 +11,32 @@ chartered: '2009-05-29'
 bof_sessions: []
 history_url: https://datatracker.ietf.org/group/xmpp/history/
 chairs:
-- person: 18321
-  name: Pete Resnick
+- person: 12695
+  name: Eric Rescorla
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2002-11-06'
+      not_after: '2009-03-22'
     end:
       certainty: between
-      not_before: '2004-04-16'
-      not_after: '2009-03-22'
+      not_before: '2009-03-22'
+      not_after: '2009-05-29'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-03-22)'
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-05-29)'
   evidence:
-  - kind: WG Action
-    date: '2002-11-06'
-    subject: 'WG Action: Extensible Messaging and Presence Protocol (xmpp)'
-    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/23SCZ_Rd_AvNNdLQHzGQXzNG874/
   - kind: proceedings
-    listed_in: 4
-    first: '2003-02-14'
-    last: '2004-04-16'
+    listed_in: 1
+    first: '2009-03-22'
+    last: '2009-03-22'
     examples:
-    - date: '2003-02-14'
-      subject: IETF 56 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/56/108.htm
-    - date: '2003-06-16'
-      subject: IETF 57 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/57/126.htm
-    - date: '2004-04-16'
-      subject: IETF 60 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/60/127.htm
+    - date: '2009-03-22'
+      subject: IETF 74 proceedings charter
+      url: https://www.ietf.org/proceedings/74/xmpp.html
   - kind: minutes without them
-    date: '2009-03-22'
-    subject: IETF 74 proceedings charter
-    url: https://www.ietf.org/proceedings/74/xmpp.html
+    date: '2009-07-26'
+    subject: IETF 75 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/75/minutes/xmpp.txt
 - person: 19483
   name: Sean Turner
   status: unconfirmed
@@ -72,6 +62,17 @@ chairs:
     - date: '2009-10-27'
       subject: '[xmpp] Call for XMPP Agenda Items'
       url: https://mailarchive.ietf.org/arch/msg/xmpp/EH3Jh9QIperszrMdBuVweoHb_8c/
+  - kind: minutes
+    listed_in: 2
+    first: '2009-07-26'
+    last: '2009-11-08'
+    examples:
+    - date: '2009-07-26'
+      subject: IETF 75 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/75/minutes/xmpp.txt
+    - date: '2009-11-08'
+      subject: IETF 76 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/76/minutes/xmpp.txt
   - kind: proceedings
     listed_in: 1
     first: '2009-05-29'
@@ -81,9 +82,9 @@ chairs:
       subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/xmpp.html
   - kind: minutes without them
-    date: '2010-04-01'
-    subject: IETF 77 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/77/xmpp.html
+    date: '2012-03-25'
+    subject: IETF 83 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/83/minutes/minutes-83-xmpp.txt
   - kind: session requests
     meetings:
     - '76'
@@ -94,44 +95,6 @@ chairs:
     after: '2010-03-21'
     by_meeting: '78'
     by: '2010-07-25'
-- person: 22971
-  name: Lisa Dusseault
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: evidence-only
-      not_after: '2003-02-14'
-    end:
-      certainty: between
-      not_before: '2004-04-16'
-      not_after: '2006-07-09'
-    notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-03-22)'
-    - 'End: became an Area Director, first serving at IETF 66 (2006-07-09)'
-  evidence:
-  - kind: proceedings
-    listed_in: 4
-    first: '2003-02-14'
-    last: '2004-04-16'
-    examples:
-    - date: '2003-02-14'
-      subject: IETF 56 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/56/108.htm
-    - date: '2003-06-16'
-      subject: IETF 57 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/57/126.htm
-    - date: '2004-04-16'
-      subject: IETF 60 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/60/127.htm
-  - kind: minutes without them
-    date: '2009-03-22'
-    subject: IETF 74 proceedings charter
-    url: https://www.ietf.org/proceedings/74/xmpp.html
-  - kind: joined the IESG
-    after_meeting: '65'
-    after: '2006-03-19'
-    by_meeting: '66'
-    by: '2006-07-09'
 - person: 104140
   name: Ben Campbell
   status: confirmed
@@ -139,12 +102,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2010-04-01'
-      not_before: '2009-05-21'
+      not_before: '2009-11-08'
     end:
       certainty: exact
       date: '2015-03-26'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2010-04-01)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2009-11-08)'
   evidence:
   - kind: WG Action
     date: '2013-03-05'
@@ -170,6 +134,14 @@ chairs:
     - date: '2010-07-13'
       subject: '[xmpp] WGLC of draft-ietf-xmpp-3921bis-08'
       url: https://mailarchive.ietf.org/arch/msg/xmpp/zzuy81RgZUzQu4axWcDISksG4oE/
+  - kind: minutes
+    listed_in: 1
+    first: '2012-03-25'
+    last: '2012-03-25'
+    examples:
+    - date: '2012-03-25'
+      subject: IETF 83 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/83/minutes/minutes-83-xmpp.txt
   - kind: proceedings
     listed_in: 13
     first: '2010-04-01'
@@ -184,6 +156,10 @@ chairs:
     - date: '2014-11-09'
       subject: IETF 91 proceedings charter
       url: https://www.ietf.org/proceedings/91/xmpp.html
+  - kind: minutes without them
+    date: '2009-11-08'
+    subject: IETF 76 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/76/minutes/xmpp.txt
   - kind: session requests
     meetings:
     - '78'
@@ -195,6 +171,58 @@ chairs:
     after: '2015-03-22'
     by_meeting: '93'
     by: '2015-07-19'
+- person: 105071
+  name: Jack Moffitt
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2009-03-22'
+    end:
+      certainty: between
+      not_before: '2009-03-22'
+      not_after: '2009-05-29'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-05-29)'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2009-03-22'
+    last: '2009-03-22'
+    examples:
+    - date: '2009-03-22'
+      subject: IETF 74 proceedings charter
+      url: https://www.ietf.org/proceedings/74/xmpp.html
+  - kind: minutes without them
+    date: '2009-07-26'
+    subject: IETF 75 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/75/minutes/xmpp.txt
+- person: 105791
+  name: Cullen Jennings
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2009-03-22'
+    end:
+      certainty: between
+      not_before: '2009-03-22'
+      not_after: '2009-05-29'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-05-29)'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2009-03-22'
+    last: '2009-03-22'
+    examples:
+    - date: '2009-03-22'
+      subject: IETF 74 proceedings charter
+      url: https://www.ietf.org/proceedings/74/xmpp.html
+  - kind: minutes without them
+    date: '2009-07-26'
+    subject: IETF 75 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/75/minutes/xmpp.txt
 - person: 110049
   name: Joe Hildebrand
   status: confirmed
@@ -213,6 +241,20 @@ chairs:
     date: '2013-03-05'
     subject: 'WG Action: Rechartered Extensible Messaging and Presence Protocol (xmpp)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/LnzCsvJACt54xcwsNHDYY-iB-Tc/
+  - kind: minutes
+    listed_in: 3
+    first: '2009-07-26'
+    last: '2012-03-25'
+    examples:
+    - date: '2009-07-26'
+      subject: IETF 75 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/75/minutes/xmpp.txt
+    - date: '2009-11-08'
+      subject: IETF 76 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/76/minutes/xmpp.txt
+    - date: '2012-03-25'
+      subject: IETF 83 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/83/minutes/minutes-83-xmpp.txt
   - kind: proceedings
     listed_in: 17
     first: '2009-05-29'

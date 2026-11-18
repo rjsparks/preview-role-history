@@ -40,6 +40,14 @@ chairs:
     - date: '2016-04-07'
       subject: '[lp-wan] presentations updated, draft minutes uploaded'
       url: https://mailarchive.ietf.org/arch/msg/lp-wan/cihGlfM8jhCx0K5dZI7T6SihztI/
+  - kind: minutes
+    listed_in: 1
+    first: '2016-04-03'
+    last: '2016-04-03'
+    examples:
+    - date: '2016-04-03'
+      subject: IETF 95 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/95/minutes/minutes-95-lpwan.txt
   - kind: proceedings
     listed_in: 2
     first: '2015-11-01'
@@ -51,6 +59,10 @@ chairs:
     - date: '2016-04-03'
       subject: IETF 95 proceedings charter
       url: https://www.ietf.org/proceedings/95/lpwan.html
+  - kind: minutes without them
+    date: '2016-07-17'
+    subject: '[lp-wan] Minutes, IETF 96 LPWAN WG-forming BoF Meeting'
+    url: https://mailarchive.ietf.org/arch/msg/lp-wan/xv3OwnGTfOnUnIG_0iXs5GKj7GU/
 - person: 115824
   name: Pascal Thubert
   status: confirmed
@@ -91,13 +103,16 @@ chairs:
       subject: '[lp-wan] Call for adoption of the SCHC architecture / framework'
       url: https://mailarchive.ietf.org/arch/msg/lp-wan/KPOlfqaVzjfzidfMEWHcUE40GLg/
   - kind: minutes
-    listed_in: 1
+    listed_in: 2
     first: '2016-07-17'
     last: '2016-07-17'
     examples:
     - date: '2016-07-17'
       subject: '[lp-wan] Minutes, IETF 96 LPWAN WG-forming BoF Meeting'
       url: https://mailarchive.ietf.org/arch/msg/lp-wan/xv3OwnGTfOnUnIG_0iXs5GKj7GU/
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/minutes/minutes-96-lpwan.txt
   - kind: proceedings
     listed_in: 3
     first: '2016-07-17'
@@ -157,6 +172,17 @@ chairs:
     - date: '2019-05-28'
       subject: '[lp-wan] WGLC on SCHC for CoAP'
       url: https://mailarchive.ietf.org/arch/msg/lp-wan/0qw1s-DgniVca6v0NhOuJ7EnDJI/
+  - kind: minutes
+    listed_in: 2
+    first: '2016-07-17'
+    last: '2016-07-17'
+    examples:
+    - date: '2016-07-17'
+      subject: '[lp-wan] Minutes, IETF 96 LPWAN WG-forming BoF Meeting'
+      url: https://mailarchive.ietf.org/arch/msg/lp-wan/xv3OwnGTfOnUnIG_0iXs5GKj7GU/
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/minutes/minutes-96-lpwan.txt
   - kind: proceedings
     listed_in: 3
     first: '2016-07-17'

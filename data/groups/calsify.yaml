@@ -46,6 +46,20 @@ chairs:
     - date: '2009-12-01'
       subject: '[calsify] WGLC for draft-ietf-calsify-rfc2447bis-07.txt'
       url: https://mailarchive.ietf.org/arch/msg/calsify/mXHIV9OM_cW8hcXrrapUqcxtNzY/
+  - kind: minutes
+    listed_in: 3
+    first: '2007-03-18'
+    last: '2008-03-09'
+    examples:
+    - date: '2007-03-18'
+      subject: IETF 68 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/68/minutes/calsify.txt
+    - date: '2007-07-22'
+      subject: IETF 69 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/69/minutes/calsify.txt
+    - date: '2008-03-09'
+      subject: IETF 71 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/71/minutes/calsify.txt
   - kind: proceedings
     listed_in: 5
     first: '2006-07-26'
@@ -102,14 +116,66 @@ chairs:
       subject: IETF 65 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/65/calsify.html
   - kind: minutes without them
-    date: '2006-07-26'
-    subject: IETF 66 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/66/calsify.html
+    date: '2007-03-18'
+    subject: IETF 68 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/68/minutes/calsify.txt
   - kind: joined the IESG
     after_meeting: '65'
     after: '2006-03-19'
     by_meeting: '66'
     by: '2006-07-09'
+- person: 101054
+  name: Cyrus Daboo
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2005-02-02'
+    end:
+      certainty: between
+      not_before: '2005-02-02'
+      not_after: '2005-07-27'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2005-07-27)'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2005-02-02'
+    last: '2005-02-02'
+    examples:
+    - date: '2005-02-02'
+      subject: IETF 62 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/62/calsify.html
+  - kind: minutes without them
+    date: '2007-03-18'
+    subject: IETF 68 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/68/minutes/calsify.txt
+- person: 104380
+  name: Morgan Rl
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2005-02-02'
+    end:
+      certainty: between
+      not_before: '2005-02-02'
+      not_after: '2005-07-27'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2005-07-27)'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2005-02-02'
+    last: '2005-02-02'
+    examples:
+    - date: '2005-02-02'
+      subject: IETF 62 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/62/calsify.html
+  - kind: minutes without them
+    date: '2007-03-18'
+    subject: IETF 68 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/68/minutes/calsify.txt
 - person: 105274
   name: Aki Niemi
   status: unconfirmed
@@ -137,6 +203,20 @@ chairs:
     - date: '2008-04-14'
       subject: '[Ietf-calsify] IETF71 draft minutes posted'
       url: https://mailarchive.ietf.org/arch/msg/calsify/FDjHNkbVCrw54R97rYe94xTd8Bk/
+  - kind: minutes
+    listed_in: 3
+    first: '2007-03-18'
+    last: '2008-03-09'
+    examples:
+    - date: '2007-03-18'
+      subject: IETF 68 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/68/minutes/calsify.txt
+    - date: '2007-07-22'
+      subject: IETF 69 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/69/minutes/calsify.txt
+    - date: '2008-03-09'
+      subject: IETF 71 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/71/minutes/calsify.txt
   - kind: proceedings
     listed_in: 7
     first: '2005-07-27'

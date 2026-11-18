@@ -50,6 +50,14 @@ chairs:
     - date: '2012-07-12'
       subject: '[ppsp] WG Last Call for draft-ietf-ppsp-problem-statement'
       url: https://mailarchive.ietf.org/arch/msg/ppsp/w_EL1TcKBkl9XfrCbjmTam6N71M/
+  - kind: minutes
+    listed_in: 1
+    first: '2012-11-04'
+    last: '2012-11-04'
+    examples:
+    - date: '2012-11-04'
+      subject: IETF 85 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/85/minutes/minutes-85-ppsp.txt
   - kind: proceedings
     listed_in: 4
     first: '2012-03-25'
@@ -64,6 +72,64 @@ chairs:
     - date: '2013-03-10'
       subject: IETF 86 proceedings charter
       url: https://www.ietf.org/proceedings/86/ppsp.html
+  - kind: minutes without them
+    date: '2011-10-04'
+    subject: '[ppsp] Draft meeting minutes PPSP virtual interim meeting (Sept. 28th 2011)'
+    url: https://mailarchive.ietf.org/arch/msg/ppsp/aeliB_2RHvdaicwl4GEdG2vt0bk/
+  - kind: minutes without them
+    date: '2014-03-02'
+    subject: IETF 89 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/89/minutes/minutes-89-ppsp.txt
+- person: 103539
+  name: Gonzalo Camarillo
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2009-08-05'
+    end:
+      certainty: between
+      not_before: '2009-12-02'
+      not_after: '2010-03-23'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-03-23)'
+  evidence:
+  - kind: chair activity
+    first: '2009-10-28'
+    last: '2009-12-02'
+    messages: 2
+    examples:
+    - date: '2009-10-28'
+      subject: '[ppsp] Draft agenda for our meeting in Japan'
+      url: https://mailarchive.ietf.org/arch/msg/ppsp/pNg8DD79tk9nZbWEinGRzji560Y/
+    - date: '2009-12-02'
+      subject: '[ppsp] Minutes from the BOF'
+      url: https://mailarchive.ietf.org/arch/msg/ppsp/M9VCu6tQcpMTvlWyX0pIJE3AKfc/
+  - kind: minutes
+    listed_in: 1
+    first: '2009-08-05'
+    last: '2009-08-05'
+    examples:
+    - date: '2009-08-05'
+      subject: '[ppsp] minutes of PPSP final Bar BOF'
+      url: https://mailarchive.ietf.org/arch/msg/ppsp/jYXtTgOR0y9ScPAOaR_aYB5RpNM/
+  - kind: proceedings
+    listed_in: 1
+    first: '2009-11-08'
+    last: '2009-11-08'
+    examples:
+    - date: '2009-11-08'
+      subject: IETF 76 proceedings charter
+      url: https://www.ietf.org/proceedings/76/ppsp.html
+  - kind: minutes without them
+    date: '2011-07-24'
+    subject: IETF 81 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/81/minutes/ppsp.html
+  - kind: joined the IESG
+    after_meeting: '77'
+    after: '2010-03-21'
+    by_meeting: '78'
+    by: '2010-07-25'
 - person: 105519
   name: Martin Stiemerling
   status: confirmed
@@ -100,6 +166,20 @@ chairs:
     - date: '2011-11-21'
       subject: '[ppsp] WGLC for draft-ietf-ppsp-survey-02 until Dec 5th'
       url: https://mailarchive.ietf.org/arch/msg/ppsp/yFppoIqa1fug44t4ctoIstuZCjw/
+  - kind: minutes
+    listed_in: 3
+    first: '2011-07-24'
+    last: '2011-10-04'
+    examples:
+    - date: '2011-07-24'
+      subject: IETF 81 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/81/minutes/ppsp.html
+    - date: '2011-07-24'
+      subject: IETF 81 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/81/minutes/ppsp.txt
+    - date: '2011-10-04'
+      subject: '[ppsp] Draft meeting minutes PPSP virtual interim meeting (Sept. 28th 2011)'
+      url: https://mailarchive.ietf.org/arch/msg/ppsp/aeliB_2RHvdaicwl4GEdG2vt0bk/
   - kind: proceedings
     listed_in: 4
     first: '2010-11-07'
@@ -115,9 +195,13 @@ chairs:
       subject: IETF 82 proceedings charter
       url: https://www.ietf.org/proceedings/82/ppsp.html
   - kind: minutes without them
-    date: '2012-03-25'
-    subject: IETF 83 proceedings charter
-    url: https://www.ietf.org/proceedings/83/ppsp.html
+    date: '2009-08-05'
+    subject: '[ppsp] minutes of PPSP final Bar BOF'
+    url: https://mailarchive.ietf.org/arch/msg/ppsp/jYXtTgOR0y9ScPAOaR_aYB5RpNM/
+  - kind: minutes without them
+    date: '2012-11-04'
+    subject: IETF 85 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/85/minutes/minutes-85-ppsp.txt
   - kind: session requests
     meetings:
     - '82'
@@ -132,13 +216,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2009-08-05'
       not_after: '2010-03-23'
     end:
       certainty: approximate
       date: '2011-03-28'
     notes:
     - 'End: announced on the group''s list (2011-03-28)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2009-08-05)'
   evidence:
   - kind: WG Action
     date: '2010-03-23'
@@ -158,6 +244,14 @@ chairs:
     - date: '2010-03-23'
       subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/ppsp.html
+  - kind: minutes without them
+    date: '2009-08-05'
+    subject: '[ppsp] minutes of PPSP final Bar BOF'
+    url: https://mailarchive.ietf.org/arch/msg/ppsp/jYXtTgOR0y9ScPAOaR_aYB5RpNM/
+  - kind: minutes without them
+    date: '2011-07-24'
+    subject: IETF 81 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/81/minutes/ppsp.html
   - kind: session requests
     meetings:
     - '78'
@@ -194,6 +288,20 @@ chairs:
     - date: '2013-11-26'
       subject: '[ppsp] WGLC for the survey draft'
       url: https://mailarchive.ietf.org/arch/msg/ppsp/MUlKJAmAb9fNk_OHLtCGuLV_4Kc/
+  - kind: minutes
+    listed_in: 8
+    first: '2009-08-05'
+    last: '2014-11-09'
+    examples:
+    - date: '2009-08-05'
+      subject: '[ppsp] minutes of PPSP final Bar BOF'
+      url: https://mailarchive.ietf.org/arch/msg/ppsp/jYXtTgOR0y9ScPAOaR_aYB5RpNM/
+    - date: '2011-07-24'
+      subject: IETF 81 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/81/minutes/ppsp.html
+    - date: '2014-11-09'
+      subject: IETF 91 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/91/minutes/minutes-91-ppsp.txt
   - kind: proceedings
     listed_in: 18
     first: '2009-11-08'
@@ -251,6 +359,20 @@ chairs:
     - date: '2015-01-13'
       subject: '[ppsp] WGLC for base tracker protocol'
       url: https://mailarchive.ietf.org/arch/msg/ppsp/SOvK3HTEP9-zOiBue3fVlroKrwE/
+  - kind: minutes
+    listed_in: 4
+    first: '2009-08-05'
+    last: '2014-11-09'
+    examples:
+    - date: '2009-08-05'
+      subject: '[ppsp] minutes of PPSP final Bar BOF'
+      url: https://mailarchive.ietf.org/arch/msg/ppsp/jYXtTgOR0y9ScPAOaR_aYB5RpNM/
+    - date: '2014-03-02'
+      subject: IETF 89 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/89/minutes/minutes-89-ppsp.txt
+    - date: '2014-11-09'
+      subject: IETF 91 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/91/minutes/minutes-91-ppsp.txt
   - kind: proceedings
     listed_in: 8
     first: '2013-07-28'

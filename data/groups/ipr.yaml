@@ -21,12 +21,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2006-03-07'
-      not_before: '2002-06-04'
+      not_before: '2002-07-14'
     end:
       certainty: group-closed
       date: '2008-11-11'
     notes:
     - 'Start: named as chair in the WG Action announcement (2006-03-07)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2002-07-14)'
   evidence:
   - kind: WG Review
     date: '2006-02-22'
@@ -56,6 +57,20 @@ chairs:
     - date: '2007-11-26'
       subject: WG Last Call for IPR -incoming document
       url: https://mailarchive.ietf.org/arch/msg/ipr-wg/08_LJ3Nvu-J7MViPQ-gPy6QA360/
+  - kind: minutes
+    listed_in: 3
+    first: '2007-07-22'
+    last: '2008-07-27'
+    examples:
+    - date: '2007-07-22'
+      subject: IETF 69 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/69/minutes/ipr.txt
+    - date: '2007-12-02'
+      subject: IETF 70 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/70/minutes/ipr.txt
+    - date: '2008-07-27'
+      subject: IETF 72 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/72/minutes/ipr.txt
   - kind: proceedings
     listed_in: 2
     first: '2006-03-07'
@@ -67,6 +82,10 @@ chairs:
     - date: '2007-07-23'
       subject: IETF 71 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/71/ipr.html
+  - kind: minutes without them
+    date: '2002-07-14'
+    subject: IETF 54 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/54/minutes/ipr.htm
   - kind: session requests
     meetings:
     - '65'
@@ -82,7 +101,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2002-07-26'
+      not_after: '2002-07-14'
     end:
       certainty: evidence-only
       not_before: '2006-11-12'
@@ -119,6 +138,14 @@ chairs:
     - date: '2006-10-26'
       subject: WG Last Call on draft-narten-ipr-3979-3rd-party-fix-00.txt
       url: https://mailarchive.ietf.org/arch/msg/ipr-wg/6dybd0WGTx7fBqUm736RpIAv7_0/
+  - kind: minutes
+    listed_in: 1
+    first: '2002-07-14'
+    last: '2002-07-14'
+    examples:
+    - date: '2002-07-14'
+      subject: IETF 54 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/54/minutes/ipr.htm
   - kind: proceedings
     listed_in: 8
     first: '2002-07-26'
@@ -143,7 +170,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2002-07-26'
+      not_after: '2002-07-14'
     end:
       certainty: approximate
       date: '2003-11-26'
@@ -169,6 +196,14 @@ chairs:
     - date: '2002-09-17'
       subject: IPR BOF minutes and discussion itmes
       url: https://mailarchive.ietf.org/arch/msg/ipr-wg/Ja0zUMnTCqc7aiJCZuzKq4FeKFU/
+  - kind: minutes
+    listed_in: 1
+    first: '2002-07-14'
+    last: '2002-07-14'
+    examples:
+    - date: '2002-07-14'
+      subject: IETF 54 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/54/minutes/ipr.htm
   - kind: proceedings
     listed_in: 2
     first: '2002-07-26'

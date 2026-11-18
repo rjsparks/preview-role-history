@@ -25,6 +25,14 @@ chairs:
     notes:
     - 'Start: requested the group''s session for IETF 79 (2010-11-07)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2011-11-13'
+    last: '2011-11-13'
+    examples:
+    - date: '2011-11-13'
+      subject: IETF 82 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/82/minutes/atoca.html
   - kind: proceedings
     listed_in: 9
     first: '2010-03-21'
@@ -43,6 +51,40 @@ chairs:
     meetings:
     - '79'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 106987
+  name: Brian Rosen
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2009-02-10'
+    end:
+      certainty: between
+      not_before: '2009-03-22'
+      not_after: '2010-03-21'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-03-21)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2009-03-22'
+    last: '2009-03-22'
+    examples:
+    - date: '2009-03-22'
+      subject: IETF 74 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/74/minutes/atoca.txt
+  - kind: proceedings
+    listed_in: 1
+    first: '2009-02-10'
+    last: '2009-02-10'
+    examples:
+    - date: '2009-02-10'
+      subject: IETF 74 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/74/atoca.html
+  - kind: minutes without them
+    date: '2010-03-21'
+    subject: IETF 77 proceedings charter
+    url: https://www.ietf.org/proceedings/77/atoca.html
 - person: 107131
   name: Martin Thomson
   status: confirmed
@@ -96,3 +138,29 @@ chairs:
     - '80'
     - '81'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 107982
+  name: Steve Norreys
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2009-02-10'
+    end:
+      certainty: between
+      not_before: '2009-02-10'
+      not_after: '2010-03-21'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-03-21)'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2009-02-10'
+    last: '2009-02-10'
+    examples:
+    - date: '2009-02-10'
+      subject: IETF 74 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/74/atoca.html
+  - kind: minutes without them
+    date: '2010-03-21'
+    subject: IETF 77 proceedings charter
+    url: https://www.ietf.org/proceedings/77/atoca.html

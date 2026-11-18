@@ -17,13 +17,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-04-08'
+      date: '2011-03-27'
       not_before: '2010-09-16'
     end:
       certainty: group-closed
       date: '2016-09-30'
     notes:
-    - 'Start: started a last call or adoption call on the group''s list (2011-04-08)'
+    - 'Start: listed as chair in meeting minutes (2011-03-27)'
   evidence:
   - kind: chair activity
     first: '2011-02-11'
@@ -45,6 +45,20 @@ chairs:
     - date: '2012-07-19'
       subject: '[abfab] WGLC on draft-ietf-abfab-gss-eap-naming-03 (ending August 3d 2012)'
       url: https://mailarchive.ietf.org/arch/msg/abfab/Eqz1wVTVZbj60vrsrGX4QVyRPhc/
+  - kind: minutes
+    listed_in: 4
+    first: '2011-03-27'
+    last: '2011-07-24'
+    examples:
+    - date: '2011-03-27'
+      subject: '[abfab] abfab@IETF80 minutes'
+      url: https://mailarchive.ietf.org/arch/msg/abfab/oRweXENTm_ol_GmZyqFiyTb8X5c/
+    - date: '2011-03-27'
+      subject: IETF 80 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/80/minutes/abfab.txt
+    - date: '2011-07-24'
+      subject: IETF 81 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/81/minutes/abfab.txt
   - kind: proceedings
     listed_in: 19
     first: '2010-07-25'
@@ -103,6 +117,20 @@ chairs:
     - date: '2013-11-10'
       subject: '[abfab] WGLC of draft-ietf-abfab-arch-08'
       url: https://mailarchive.ietf.org/arch/msg/abfab/QGsyEnm8nmr8CddMojA9mZeVSuI/
+  - kind: minutes
+    listed_in: 4
+    first: '2011-03-27'
+    last: '2011-07-24'
+    examples:
+    - date: '2011-03-27'
+      subject: '[abfab] abfab@IETF80 minutes'
+      url: https://mailarchive.ietf.org/arch/msg/abfab/oRweXENTm_ol_GmZyqFiyTb8X5c/
+    - date: '2011-03-27'
+      subject: IETF 80 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/80/minutes/abfab.txt
+    - date: '2011-07-24'
+      subject: IETF 81 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/81/minutes/abfab.txt
   - kind: proceedings
     listed_in: 19
     first: '2010-07-25'

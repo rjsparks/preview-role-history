@@ -47,6 +47,20 @@ chairs:
     - date: '2016-11-21'
       subject: '[tram] WGLC: draft-ietf-tram-stun-pmtud-03'
       url: https://mailarchive.ietf.org/arch/msg/tram/klJhzUmn6w4OIdSVHZ0gwqMxKPE/
+  - kind: minutes
+    listed_in: 3
+    first: '2014-03-02'
+    last: '2016-07-17'
+    examples:
+    - date: '2014-03-02'
+      subject: IETF 89 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/89/minutes/minutes-89-tram.txt
+    - date: '2014-07-20'
+      subject: IETF 90 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/90/minutes/minutes-90-tram.txt
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/minutes/minutes-96-tram.txt
   - kind: proceedings
     listed_in: 9
     first: '2014-03-02'
@@ -82,6 +96,11 @@ chairs:
     end:
       certainty: exact
       date: '2014-02-14'
+  evidence:
+  - kind: minutes without them
+    date: '2014-03-02'
+    subject: IETF 89 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/89/minutes/minutes-89-tram.txt
 - person: 108717
   name: Simon Perreault
   status: confirmed
@@ -128,6 +147,20 @@ chairs:
     - date: '2014-09-10'
       subject: '[tram] WGLC draft-ietf-tram-turn-third-party-authz-03'
       url: https://mailarchive.ietf.org/arch/msg/tram/zpT1TXAztnTK3VZVc1RNIdqRus0/
+  - kind: minutes
+    listed_in: 3
+    first: '2014-03-02'
+    last: '2016-07-17'
+    examples:
+    - date: '2014-03-02'
+      subject: IETF 89 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/89/minutes/minutes-89-tram.txt
+    - date: '2014-07-20'
+      subject: IETF 90 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/90/minutes/minutes-90-tram.txt
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/minutes/minutes-96-tram.txt
   - kind: proceedings
     listed_in: 9
     first: '2014-03-02'

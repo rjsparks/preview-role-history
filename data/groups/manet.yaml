@@ -54,19 +54,19 @@ chairs:
       subject: '[manet] WG Last Call for draft-ietf-manet-nhdp-sec-threats-01'
       url: https://mailarchive.ietf.org/arch/msg/manet/i3077yWxNXJijHRGBoFfgjBVUfA/
   - kind: minutes
-    listed_in: 3
+    listed_in: 30
     first: '1999-01-05'
-    last: '2002-12-03'
+    last: '2014-07-20'
     examples:
     - date: '1999-01-05'
       subject: minutes
       url: https://mailarchive.ietf.org/arch/msg/manet/cOzmpBfQoiENkElqJjTmxVLynLs/
-    - date: '2002-11-26'
-      subject: '[manet] MANET minutes'
-      url: https://mailarchive.ietf.org/arch/msg/manet/jpfQO9Y6NjPuv4K5E89wfRQj1VQ/
-    - date: '2002-12-03'
-      subject: '[manet] Update to Manet Minutes'
-      url: https://mailarchive.ietf.org/arch/msg/manet/uTGune_71297wJbZeG-IENXvOKY/
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/minutes/MANET.HTM
+    - date: '2014-07-20'
+      subject: IETF 90 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/90/minutes/minutes-90-manet.txt
   - kind: proceedings
     listed_in: 35
     first: '1997-08-11'
@@ -81,6 +81,10 @@ chairs:
     - date: '2011-11-13'
       subject: IETF 82 proceedings charter
       url: https://www.ietf.org/proceedings/82/manet.html
+  - kind: minutes without them
+    date: '2015-07-19'
+    subject: IETF 93 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/93/minutes/minutes-93-manet.txt
   - kind: session requests
     meetings:
     - '67'
@@ -127,19 +131,19 @@ chairs:
       subject: Call for Agenda Items
       url: https://mailarchive.ietf.org/arch/msg/manet/PBA2gEqW-rxG_sG5fUzdKPEQAGo/
   - kind: minutes
-    listed_in: 3
+    listed_in: 8
     first: '1999-01-05'
-    last: '2002-12-03'
+    last: '2003-11-09'
     examples:
     - date: '1999-01-05'
       subject: minutes
       url: https://mailarchive.ietf.org/arch/msg/manet/cOzmpBfQoiENkElqJjTmxVLynLs/
-    - date: '2002-11-26'
-      subject: '[manet] MANET minutes'
-      url: https://mailarchive.ietf.org/arch/msg/manet/jpfQO9Y6NjPuv4K5E89wfRQj1VQ/
-    - date: '2002-12-03'
-      subject: '[manet] Update to Manet Minutes'
-      url: https://mailarchive.ietf.org/arch/msg/manet/uTGune_71297wJbZeG-IENXvOKY/
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/minutes/MANET.HTM
+    - date: '2003-11-09'
+      subject: IETF 58 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/58/minutes/manet.htm
   - kind: proceedings
     listed_in: 23
     first: '1997-08-11'
@@ -154,6 +158,10 @@ chairs:
     - date: '2004-09-16'
       subject: IETF 61 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/61/manet.html
+  - kind: minutes without them
+    date: '2007-03-18'
+    subject: IETF 68 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/68/minutes/manet.txt
 - person: 19150
   name: Stan Ratliff
   status: confirmed
@@ -195,6 +203,20 @@ chairs:
     - date: '2019-07-29'
       subject: '[manet] Meeting minutes for MANET WG at IETF 105'
       url: https://mailarchive.ietf.org/arch/msg/manet/ASm1R7ZLSy569JwNpt0_Ifqc-1o/
+  - kind: minutes
+    listed_in: 11
+    first: '2011-11-13'
+    last: '2016-07-17'
+    examples:
+    - date: '2011-11-13'
+      subject: IETF 82 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/82/minutes/manet.txt
+    - date: '2012-03-25'
+      subject: IETF 83 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/83/minutes/minutes-83-manet.txt
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/minutes/minutes-96-manet.txt
   - kind: proceedings
     listed_in: 2
     first: '2011-07-24'
@@ -207,9 +229,9 @@ chairs:
       subject: IETF 82 proceedings charter
       url: https://www.ietf.org/proceedings/82/manet.html
   - kind: minutes without them
-    date: '2002-12-03'
-    subject: '[manet] Update to Manet Minutes'
-    url: https://mailarchive.ietf.org/arch/msg/manet/uTGune_71297wJbZeG-IENXvOKY/
+    date: '2010-11-07'
+    subject: IETF 79 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/79/minutes/manet.txt
   - kind: shepherded
     documents:
     - draft-ietf-manet-dlep-multi-hop-extension
@@ -282,6 +304,20 @@ chairs:
     - date: '2005-11-20'
       subject: '[manet] IETF 64 MANET Meeting Presentations and Minutes'
       url: https://mailarchive.ietf.org/arch/msg/manet/UYS_dMoFuMavZB1Q1kebak-Zxok/
+  - kind: minutes
+    listed_in: 13
+    first: '2007-03-18'
+    last: '2011-07-24'
+    examples:
+    - date: '2007-03-18'
+      subject: IETF 68 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/68/minutes/manet.txt
+    - date: '2007-07-22'
+      subject: IETF 69 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/69/minutes/manet.txt
+    - date: '2011-07-24'
+      subject: IETF 81 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/81/minutes/manet.txt
   - kind: proceedings
     listed_in: 11
     first: '2005-02-01'
@@ -297,9 +333,13 @@ chairs:
       subject: IETF 80 proceedings charter
       url: https://www.ietf.org/proceedings/80/manet.html
   - kind: minutes without them
-    date: '2002-12-03'
-    subject: '[manet] Update to Manet Minutes'
-    url: https://mailarchive.ietf.org/arch/msg/manet/uTGune_71297wJbZeG-IENXvOKY/
+    date: '2003-11-09'
+    subject: IETF 58 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/58/minutes/manet.htm
+  - kind: minutes without them
+    date: '2011-11-13'
+    subject: IETF 82 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/82/minutes/manet.txt
   - kind: session requests
     meetings:
     - '65'
@@ -343,10 +383,21 @@ chairs:
     - date: '2016-04-27'
       subject: '[manet] New interim meeting date/time'
       url: https://mailarchive.ietf.org/arch/msg/manet/of05cqFN_KVblx2JCLh6Xj0e_LE/
+  - kind: minutes
+    listed_in: 2
+    first: '2015-07-19'
+    last: '2016-07-17'
+    examples:
+    - date: '2015-07-19'
+      subject: IETF 93 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/93/minutes/minutes-93-manet.txt
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/minutes/minutes-96-manet.txt
   - kind: minutes without them
-    date: '2002-12-03'
-    subject: '[manet] Update to Manet Minutes'
-    url: https://mailarchive.ietf.org/arch/msg/manet/uTGune_71297wJbZeG-IENXvOKY/
+    date: '2014-07-20'
+    subject: IETF 90 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/90/minutes/minutes-90-manet.txt
   - kind: shepherded
     documents:
     - draft-ietf-manet-credit-window

@@ -51,6 +51,17 @@ chairs:
     - date: '2005-09-08'
       subject: '[Softwires] Interim meeting update by tomorrow'
       url: https://mailarchive.ietf.org/arch/msg/softwires/w63DwvAivSWjKmVM88UhSNFfBpc/
+  - kind: minutes
+    listed_in: 2
+    first: '2007-07-22'
+    last: '2007-12-02'
+    examples:
+    - date: '2007-07-22'
+      subject: IETF 69 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/69/minutes/softwire.html
+    - date: '2007-12-02'
+      subject: IETF 70 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/70/minutes/softwire.txt
   - kind: proceedings
     listed_in: 5
     first: '2006-02-22'
@@ -65,6 +76,10 @@ chairs:
     - date: '2010-08-11'
       subject: IETF 78 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/78/softwire.html
+  - kind: minutes without them
+    date: '2012-03-25'
+    subject: IETF 83 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/83/minutes/minutes-83-softwire.txt
 - person: 105328
   name: Alain Durand
   status: confirmed
@@ -127,6 +142,20 @@ chairs:
     - date: '2010-12-10'
       subject: '[Softwires] WG last call on draft-ietf-softwire-ds-lite-tunnel-option-07'
       url: https://mailarchive.ietf.org/arch/msg/softwires/980Sjo0P0KC5Mjep1zPIiZ-7H-g/
+  - kind: minutes
+    listed_in: 3
+    first: '2007-07-22'
+    last: '2012-03-25'
+    examples:
+    - date: '2007-07-22'
+      subject: IETF 69 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/69/minutes/softwire.html
+    - date: '2007-12-02'
+      subject: IETF 70 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/70/minutes/softwire.txt
+    - date: '2012-03-25'
+      subject: IETF 83 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/83/minutes/minutes-83-softwire.txt
   - kind: proceedings
     listed_in: 11
     first: '2005-10-10'
@@ -141,6 +170,10 @@ chairs:
     - date: '2012-03-25'
       subject: IETF 83 proceedings charter
       url: https://www.ietf.org/proceedings/83/softwire.html
+  - kind: minutes without them
+    date: '2015-07-19'
+    subject: IETF 93 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/93/minutes/minutes-93-softwire.txt
   - kind: session requests
     meetings:
     - '65'
@@ -192,6 +225,14 @@ chairs:
     - date: '2013-03-26'
       subject: '[Softwires] IETF86 minutes available'
       url: https://mailarchive.ietf.org/arch/msg/softwires/Omc5rO18ijb5vgUwtkxBuwnhT1U/
+  - kind: minutes
+    listed_in: 1
+    first: '2015-07-19'
+    last: '2015-07-19'
+    examples:
+    - date: '2015-07-19'
+      subject: IETF 93 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/93/minutes/minutes-93-softwire.txt
   - kind: proceedings
     listed_in: 11
     first: '2012-07-29'
@@ -206,6 +247,10 @@ chairs:
     - date: '2015-11-01'
       subject: IETF 94 proceedings charter
       url: https://www.ietf.org/proceedings/94/softwire.html
+  - kind: minutes without them
+    date: '2012-03-25'
+    subject: IETF 83 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/83/minutes/minutes-83-softwire.txt
   - kind: shepherded
     documents:
     - draft-ietf-softwire-4rd
@@ -227,12 +272,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2010-11-07'
-      not_before: '2005-10-10'
+      not_before: '2007-12-02'
     end:
       certainty: group-closed
       date: '2019-11-22'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2007-12-02)'
   evidence:
   - kind: WG Review
     date: '2011-03-21'
@@ -270,6 +316,17 @@ chairs:
     - date: '2012-05-27'
       subject: '[Softwires] WG last call on draft-ietf-softwire-dslite-multicast-02'
       url: https://mailarchive.ietf.org/arch/msg/softwires/t5mnC-VesRplVABY4ylIOusbPtE/
+  - kind: minutes
+    listed_in: 2
+    first: '2012-03-25'
+    last: '2015-07-19'
+    examples:
+    - date: '2012-03-25'
+      subject: IETF 83 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/83/minutes/minutes-83-softwire.txt
+    - date: '2015-07-19'
+      subject: IETF 93 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/93/minutes/minutes-93-softwire.txt
   - kind: proceedings
     listed_in: 18
     first: '2010-11-07'
@@ -284,6 +341,10 @@ chairs:
     - date: '2016-07-17'
       subject: IETF 96 proceedings charter
       url: https://www.ietf.org/proceedings/96/softwire.html
+  - kind: minutes without them
+    date: '2007-12-02'
+    subject: IETF 70 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/70/minutes/softwire.txt
   - kind: shepherded
     documents:
     - draft-ietf-softwire-dslite-deployment
@@ -317,6 +378,10 @@ chairs:
     - date: '2016-07-17'
       subject: IETF 96 proceedings charter
       url: https://www.ietf.org/proceedings/96/softwire.html
+  - kind: minutes without them
+    date: '2015-07-19'
+    subject: IETF 93 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/93/minutes/minutes-93-softwire.txt
   - kind: shepherded
     documents:
     - draft-ietf-softwire-dslite-multicast

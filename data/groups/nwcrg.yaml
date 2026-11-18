@@ -18,13 +18,21 @@ chairs:
   - start:
       certainty: between
       not_before: '2013-02-13'
-      not_after: '2013-11-03'
+      not_after: '2013-03-10'
     end:
       certainty: exact
       date: '2016-10-06'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2013-11-03)'
+    - 'Start: listed as chair in meeting minutes (2013-03-10)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2013-03-10'
+    last: '2013-03-10'
+    examples:
+    - date: '2013-03-10'
+      subject: IETF 86 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/86/minutes/minutes-86-nwcrg.txt
   - kind: proceedings
     listed_in: 9
     first: '2013-11-03'
@@ -46,12 +54,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2013-02-13'
-      not_after: '2013-11-03'
+      not_after: '2013-03-10'
     end:
       certainty: exact
       date: '2017-09-12'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2013-11-03)'
+    - 'Start: listed as chair in meeting minutes (2013-03-10)'
   evidence:
   - kind: chair activity
     first: '2014-02-26'
@@ -64,6 +72,17 @@ chairs:
     - date: '2014-04-09'
       subject: '[nwcrg] Minutes from our London meeting'
       url: https://mailarchive.ietf.org/arch/msg/nwcrg/HIcbKpWVajGzu0jmus5OaNjo8VU/
+  - kind: minutes
+    listed_in: 2
+    first: '2013-03-10'
+    last: '2013-07-28'
+    examples:
+    - date: '2013-03-10'
+      subject: IETF 86 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/86/minutes/minutes-86-nwcrg.txt
+    - date: '2013-07-28'
+      subject: IETF 87 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/87/minutes/minutes-87-nwcrg.txt
   - kind: proceedings
     listed_in: 10
     first: '2013-11-03'
@@ -100,6 +119,10 @@ chairs:
     - date: '2017-09-18'
       subject: '[nwcrg] Interim Meeting - Final Logistics'
       url: https://mailarchive.ietf.org/arch/msg/nwcrg/XLahTor7HDRR9sWoh_JhvjyyhwA/
+  - kind: minutes without them
+    date: '2013-03-10'
+    subject: IETF 86 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/86/minutes/minutes-86-nwcrg.txt
   - kind: shepherded
     documents:
     - draft-irtf-nwcrg-nwc-ccn-reqs
@@ -134,6 +157,10 @@ chairs:
     - date: '2016-11-13'
       subject: IETF 97 proceedings charter
       url: https://www.ietf.org/proceedings/97/nwcrg.html
+  - kind: minutes without them
+    date: '2013-03-10'
+    subject: IETF 86 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/86/minutes/minutes-86-nwcrg.txt
   - kind: shepherded
     documents:
     - draft-irtf-nwcrg-bats

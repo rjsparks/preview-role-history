@@ -66,13 +66,19 @@ chairs:
       subject: '[IPFIX] WG Last Call for draft-ietf-ipfix-testing-02'
       url: https://mailarchive.ietf.org/arch/msg/ipfix/IfBerF6jsYE_U-diJH1FogCil7Q/
   - kind: minutes
-    listed_in: 1
-    first: '2008-03-13'
-    last: '2008-03-13'
+    listed_in: 6
+    first: '2007-03-18'
+    last: '2009-07-26'
     examples:
-    - date: '2008-03-13'
-      subject: '[IPFIX] DRAFT minutes for IPFIX meeting at IETF-71'
-      url: https://mailarchive.ietf.org/arch/msg/ipfix/Bkx2dODI4a-zdIQaLhXw_GA95gg/
+    - date: '2007-03-18'
+      subject: IETF 68 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/68/minutes/ipfix.htm
+    - date: '2008-03-09'
+      subject: IETF 71 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/71/minutes/ipfix.txt
+    - date: '2009-07-26'
+      subject: IETF 75 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/75/minutes/ipfix.txt
   - kind: proceedings
     listed_in: 36
     first: '2001-12-04'
@@ -147,6 +153,20 @@ chairs:
     - date: '2008-07-31'
       subject: '[IPFIX] WG last call on draft-ietf-ipfix-export-per-sctp-stream-00'
       url: https://mailarchive.ietf.org/arch/msg/ipfix/c72GARcIqZGIoyh0ywDtK97uiEk/
+  - kind: minutes
+    listed_in: 5
+    first: '2006-11-05'
+    last: '2009-07-26'
+    examples:
+    - date: '2006-11-05'
+      subject: IETF 67 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/67/minutes/ipfix.txt
+    - date: '2007-03-18'
+      subject: IETF 68 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/68/minutes/ipfix.htm
+    - date: '2009-07-26'
+      subject: IETF 75 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/75/minutes/ipfix.txt
   - kind: proceedings
     listed_in: 23
     first: '2006-07-09'
@@ -231,3 +251,7 @@ chairs:
     - date: '2006-01-19'
       subject: IETF 65 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/65/ipfix.html
+  - kind: minutes without them
+    date: '2007-03-18'
+    subject: IETF 68 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/68/minutes/ipfix.htm

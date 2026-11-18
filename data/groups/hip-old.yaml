@@ -5,10 +5,16 @@ parent: tsv
 state: conclude
 started: null
 closed: '2003-12-10'
-bof: false
+bof: true
 never_chartered: false
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '50'
+  date: '2001-03-18'
+  url: https://www.ietf.org/proceedings/50/ietf50-61.htm
+- meeting: '51'
+  date: '2001-08-05'
+  url: https://www.ietf.org/proceedings/51/51-154.htm
 history_url: https://datatracker.ietf.org/group/hip-old/history/
 chairs:
 - person: 20923
@@ -21,3 +27,71 @@ chairs:
     end:
       certainty: group-closed
       date: '2003-12-10'
+- person: 23057
+  name: David Ward
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2004-03-24'
+    end:
+      certainty: between
+      not_before: '2004-11-02'
+      not_after: '2007-07-22'
+    notes:
+    - 'End: became an Area Director, first serving at IETF 69 (2007-07-22)'
+  evidence:
+  - kind: WG Action
+    date: '2004-03-24'
+    subject: 'WG Action: Host Identity Protocol (hip)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/qqfa9Kvpq_SYnCn-A7PtASN8At8/
+  - kind: proceedings
+    listed_in: 2
+    first: '2004-05-18'
+    last: '2004-11-02'
+    examples:
+    - date: '2004-05-18'
+      subject: IETF 60 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/60/139.htm
+    - date: '2004-11-02'
+      subject: IETF 61 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/61/hip.html
+  - kind: joined the IESG
+    after_meeting: '68'
+    after: '2007-03-18'
+    by_meeting: '69'
+    by: '2007-07-22'
+- person: 103539
+  name: Gonzalo Camarillo
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2004-03-24'
+    end:
+      certainty: between
+      not_before: '2004-11-02'
+      not_after: '2010-07-25'
+    notes:
+    - 'End: became an Area Director, first serving at IETF 78 (2010-07-25)'
+  evidence:
+  - kind: WG Action
+    date: '2004-03-24'
+    subject: 'WG Action: Host Identity Protocol (hip)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/qqfa9Kvpq_SYnCn-A7PtASN8At8/
+  - kind: proceedings
+    listed_in: 2
+    first: '2004-05-18'
+    last: '2004-11-02'
+    examples:
+    - date: '2004-05-18'
+      subject: IETF 60 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/60/139.htm
+    - date: '2004-11-02'
+      subject: IETF 61 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/61/hip.html
+  - kind: joined the IESG
+    after_meeting: '77'
+    after: '2010-03-21'
+    by_meeting: '78'
+    by: '2010-07-25'

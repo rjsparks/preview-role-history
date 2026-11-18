@@ -6,7 +6,7 @@ state: replaced
 started: '2021-06-07'
 closed: '2021-10-11'
 bof: true
-never_chartered: false
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '111'
@@ -22,8 +22,15 @@ chairs:
       certainty: exact
       date: '2021-07-16'
     end:
-      certainty: group-closed
-      date: '2021-10-11'
+      certainty: between
+      not_before: '2021-07-26'
+    notes:
+    - 'End: after the BOF''s last session, IETF 111 (2021-07-26)'
+  evidence:
+  - kind: BOF session
+    meeting: '111'
+    date: '2021-07-26'
+    url: https://datatracker.ietf.org/meeting/111/session/ohttp/
 - person: 108049
   name: Richard Barnes
   status: confirmed
@@ -32,5 +39,12 @@ chairs:
       certainty: exact
       date: '2021-07-16'
     end:
-      certainty: group-closed
-      date: '2021-10-11'
+      certainty: between
+      not_before: '2021-07-26'
+    notes:
+    - 'End: after the BOF''s last session, IETF 111 (2021-07-26)'
+  evidence:
+  - kind: BOF session
+    meeting: '111'
+    date: '2021-07-26'
+    url: https://datatracker.ietf.org/meeting/111/session/ohttp/

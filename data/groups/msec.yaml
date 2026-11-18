@@ -32,6 +32,17 @@ chairs:
     date: '2001-02-10'
     subject: 'WG ACTION: Multicast Security (msec)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/uu5x1Wq_1KNg5zII4jsvB1U6PBA/
+  - kind: minutes
+    listed_in: 2
+    first: '2005-07-31'
+    last: '2006-11-05'
+    examples:
+    - date: '2005-07-31'
+      subject: IETF 63 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/63/minutes/msec.html
+    - date: '2006-11-05'
+      subject: IETF 67 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/67/minutes/msec.txt
   - kind: proceedings
     listed_in: 17
     first: '2001-03-14'
@@ -47,9 +58,9 @@ chairs:
       subject: IETF 69 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/69/msec.html
   - kind: minutes without them
-    date: '2009-02-11'
-    subject: IETF 74 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/74/msec.html
+    date: '2010-11-07'
+    subject: IETF 79 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/79/minutes/msec.txt
 - person: 21395
   name: Brian Weis
   status: confirmed
@@ -57,12 +68,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2008-09-19'
-      not_before: '2001-01-17'
+      not_before: '2006-11-05'
     end:
       certainty: group-closed
       date: '2011-10-17'
     notes:
     - 'Start: started a last call or adoption call on the group''s list (2008-09-19)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2006-11-05)'
   evidence:
   - kind: chair activity
     first: '2008-09-19'
@@ -81,6 +93,14 @@ chairs:
     - date: '2009-11-25'
       subject: '[MSEC] Draft minutes available for IETF76'
       url: https://mailarchive.ietf.org/arch/msg/msec/eh9e1BjsGyI1i_oWfkZuTyIfwFg/
+  - kind: minutes
+    listed_in: 1
+    first: '2010-11-07'
+    last: '2010-11-07'
+    examples:
+    - date: '2010-11-07'
+      subject: IETF 79 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/79/minutes/msec.txt
   - kind: proceedings
     listed_in: 6
     first: '2009-02-11'
@@ -95,6 +115,10 @@ chairs:
     - date: '2011-07-24'
       subject: IETF 81 proceedings charter
       url: https://www.ietf.org/proceedings/81/msec.html
+  - kind: minutes without them
+    date: '2006-11-05'
+    subject: IETF 67 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/67/minutes/msec.txt
   - kind: session requests
     meetings:
     - '73'
@@ -134,9 +158,9 @@ chairs:
       subject: IETF 61 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/61/msec.html
   - kind: minutes without them
-    date: '2005-03-02'
-    subject: IETF 62 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/62/msec.html
+    date: '2006-11-05'
+    subject: IETF 67 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/67/minutes/msec.txt
 - person: 105234
   name: Lakshminath Dondeti
   status: unconfirmed
@@ -171,6 +195,14 @@ chairs:
     - date: '2007-02-06'
       subject: '[MSEC] WGLC on draft-ietf-msec-ipsec-extensions-04'
       url: https://mailarchive.ietf.org/arch/msg/msec/sQtZqs2nyt_7_hTfcOAooVN8JDE/
+  - kind: minutes
+    listed_in: 1
+    first: '2006-11-05'
+    last: '2006-11-05'
+    examples:
+    - date: '2006-11-05'
+      subject: IETF 67 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/67/minutes/msec.txt
   - kind: proceedings
     listed_in: 8
     first: '2005-03-02'
@@ -186,9 +218,9 @@ chairs:
       subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/msec.html
   - kind: minutes without them
-    date: '2010-02-23'
-    subject: IETF 77 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/77/msec.html
+    date: '2010-11-07'
+    subject: IETF 79 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/79/minutes/msec.txt
   - kind: session requests
     meetings:
     - '65'
@@ -205,12 +237,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2010-02-23'
-      not_before: '2001-01-17'
+      not_before: '2006-11-05'
     end:
       certainty: group-closed
       date: '2011-10-17'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2010-02-23)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2006-11-05)'
   evidence:
   - kind: chair activity
     first: '2011-03-31'
@@ -220,6 +253,14 @@ chairs:
     - date: '2011-03-31'
       subject: '[MSEC] WGLC on draft-ietf-msec-gdoi-update-08'
       url: https://mailarchive.ietf.org/arch/msg/msec/dITQAq-pHNIWcnBSnsCZXUckIWI/
+  - kind: minutes
+    listed_in: 1
+    first: '2010-11-07'
+    last: '2010-11-07'
+    examples:
+    - date: '2010-11-07'
+      subject: IETF 79 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/79/minutes/msec.txt
   - kind: proceedings
     listed_in: 4
     first: '2010-02-23'
@@ -234,3 +275,7 @@ chairs:
     - date: '2011-07-24'
       subject: IETF 81 proceedings charter
       url: https://www.ietf.org/proceedings/81/msec.html
+  - kind: minutes without them
+    date: '2006-11-05'
+    subject: IETF 67 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/67/minutes/msec.txt

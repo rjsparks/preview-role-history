@@ -6,7 +6,7 @@ state: replaced
 started: '2017-02-15'
 closed: '2018-05-09'
 bof: true
-never_chartered: false
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '98'
@@ -33,6 +33,23 @@ chairs:
     end:
       certainty: exact
       date: '2017-03-13'
+  evidence:
+  - kind: BOF session
+    meeting: '98'
+    date: '2017-03-26'
+    url: https://datatracker.ietf.org/meeting/98/session/iasa20/
+  - kind: BOF session
+    meeting: '99'
+    date: '2017-07-16'
+    url: https://datatracker.ietf.org/meeting/99/session/iasa20/
+  - kind: BOF session
+    meeting: '100'
+    date: '2017-11-11'
+    url: https://datatracker.ietf.org/meeting/100/session/iasa20/
+  - kind: BOF session
+    meeting: '101'
+    date: '2018-03-17'
+    url: https://datatracker.ietf.org/meeting/101/session/iasa20/
 - person: 104557
   name: Jon Peterson
   status: confirmed
@@ -41,9 +58,27 @@ chairs:
       certainty: exact
       date: '2017-03-13'
     end:
-      certainty: group-closed
-      date: '2018-05-09'
+      certainty: between
+      not_before: '2018-03-17'
+    notes:
+    - 'End: after the BOF''s last session, IETF 101 (2018-03-17)'
   evidence:
+  - kind: BOF session
+    meeting: '98'
+    date: '2017-03-26'
+    url: https://datatracker.ietf.org/meeting/98/session/iasa20/
+  - kind: BOF session
+    meeting: '99'
+    date: '2017-07-16'
+    url: https://datatracker.ietf.org/meeting/99/session/iasa20/
+  - kind: BOF session
+    meeting: '100'
+    date: '2017-11-11'
+    url: https://datatracker.ietf.org/meeting/100/session/iasa20/
+  - kind: BOF session
+    meeting: '101'
+    date: '2018-03-17'
+    url: https://datatracker.ietf.org/meeting/101/session/iasa20/
   - kind: proceedings
     listed_in: 1
     first: '2017-03-26'
@@ -62,3 +97,20 @@ chairs:
     end:
       certainty: exact
       date: '2017-03-13'
+  evidence:
+  - kind: BOF session
+    meeting: '98'
+    date: '2017-03-26'
+    url: https://datatracker.ietf.org/meeting/98/session/iasa20/
+  - kind: BOF session
+    meeting: '99'
+    date: '2017-07-16'
+    url: https://datatracker.ietf.org/meeting/99/session/iasa20/
+  - kind: BOF session
+    meeting: '100'
+    date: '2017-11-11'
+    url: https://datatracker.ietf.org/meeting/100/session/iasa20/
+  - kind: BOF session
+    meeting: '101'
+    date: '2018-03-17'
+    url: https://datatracker.ietf.org/meeting/101/session/iasa20/

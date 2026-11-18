@@ -11,19 +11,87 @@ chartered: '2009-10-15'
 bof_sessions: []
 history_url: https://datatracker.ietf.org/group/mptcp/history/
 chairs:
+- person: 2325
+  name: Scott Brim
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2009-07-26'
+    end:
+      certainty: between
+      not_before: '2009-08-24'
+      not_after: '2009-10-29'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-10-29)'
+  evidence:
+  - kind: chair activity
+    first: '2009-08-24'
+    last: '2009-08-24'
+    messages: 1
+    examples:
+    - date: '2009-08-24'
+      subject: '[multipathtcp] BOF minutes uploaded'
+      url: https://mailarchive.ietf.org/arch/msg/multipathtcp/mB0CS863CJbPziWrhK6zRuj3hC8/
+  - kind: minutes
+    listed_in: 1
+    first: '2009-07-26'
+    last: '2009-07-26'
+    examples:
+    - date: '2009-07-26'
+      subject: IETF 75 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/75/minutes/mptcp.txt
+  - kind: minutes without them
+    date: '2009-11-08'
+    subject: IETF 76 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/76/minutes/mptcp.txt
+- person: 9052
+  name: Mark Handley
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2009-07-01'
+    end:
+      certainty: between
+      not_before: '2009-07-26'
+      not_after: '2009-10-29'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-10-29)'
+  evidence:
+  - kind: chair activity
+    first: '2009-07-01'
+    last: '2009-07-01'
+    messages: 1
+    examples:
+    - date: '2009-07-01'
+      subject: '[multipathtcp] Draft agenda for Stockholm BoF'
+      url: https://mailarchive.ietf.org/arch/msg/multipathtcp/0I4TbxqoEPd0hXQRHNZvGiH2s-4/
+  - kind: minutes
+    listed_in: 1
+    first: '2009-07-26'
+    last: '2009-07-26'
+    examples:
+    - date: '2009-07-26'
+      subject: IETF 75 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/75/minutes/mptcp.txt
+  - kind: minutes without them
+    date: '2009-11-08'
+    subject: IETF 76 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/76/minutes/mptcp.txt
 - person: 15951
   name: Yoshifumi Nishida
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-11-07'
+      date: '2009-11-08'
       not_before: '2009-09-16'
     end:
       certainty: group-closed
       date: '2020-03-17'
     notes:
-    - 'Start: requested the group''s session for IETF 79 (2010-11-07)'
+    - 'Start: listed as chair in meeting minutes (2009-11-08)'
   evidence:
   - kind: WG Review
     date: '2012-05-15'
@@ -48,13 +116,19 @@ chairs:
       subject: '[multipathtcp] WGLC for draft-ietf-mptcp-attacks'
       url: https://mailarchive.ietf.org/arch/msg/multipathtcp/gnwTNzZrHqqlZ3JyikJosDF4-OI/
   - kind: minutes
-    listed_in: 1
-    first: '2012-04-07'
-    last: '2012-04-07'
+    listed_in: 20
+    first: '2009-11-08'
+    last: '2016-07-17'
     examples:
-    - date: '2012-04-07'
-      subject: '[multipathtcp] Draft MPTCP WG meeting minutes'
-      url: https://mailarchive.ietf.org/arch/msg/multipathtcp/6EKOgdE0j5o4izJp8yl3zkWlyZs/
+    - date: '2009-11-08'
+      subject: IETF 76 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/76/minutes/mptcp.txt
+    - date: '2010-03-21'
+      subject: IETF 77 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/77/minutes/mptcp.txt
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/minutes/minutes-96-mptcp.txt
   - kind: proceedings
     listed_in: 23
     first: '2009-07-26'
@@ -120,13 +194,19 @@ chairs:
       subject: '[multipathtcp] WG Last call for "Coupled Congestion Control for Multipath Transport Protocols"'
       url: https://mailarchive.ietf.org/arch/msg/multipathtcp/kBXxwtoZEQUdEh-2i-z6BJWbCJU/
   - kind: minutes
-    listed_in: 1
-    first: '2012-04-07'
-    last: '2012-04-07'
+    listed_in: 20
+    first: '2009-11-08'
+    last: '2016-07-17'
     examples:
-    - date: '2012-04-07'
-      subject: '[multipathtcp] Draft MPTCP WG meeting minutes'
-      url: https://mailarchive.ietf.org/arch/msg/multipathtcp/6EKOgdE0j5o4izJp8yl3zkWlyZs/
+    - date: '2009-11-08'
+      subject: IETF 76 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/76/minutes/mptcp.txt
+    - date: '2010-03-21'
+      subject: IETF 77 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/77/minutes/mptcp.txt
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/minutes/minutes-96-mptcp.txt
   - kind: proceedings
     listed_in: 23
     first: '2009-07-26'

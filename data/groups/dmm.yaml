@@ -93,6 +93,10 @@ chairs:
     - date: '2013-07-28'
       subject: IETF 87 proceedings charter
       url: https://www.ietf.org/proceedings/87/dmm.html
+  - kind: minutes without them
+    date: '2014-03-02'
+    subject: IETF 89 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/89/minutes/minutes-89-dmm.txt
 - person: 109589
   name: Dapeng Liu
   status: confirmed
@@ -139,6 +143,17 @@ chairs:
     - date: '2015-11-25'
       subject: '[DMM] Call for adoption confirmation: draft-yan-dmm-hnprenum-03'
       url: https://mailarchive.ietf.org/arch/msg/dmm/LCsnXjNos74_JNSYTu8ZDvfJlGM/
+  - kind: minutes
+    listed_in: 2
+    first: '2014-03-02'
+    last: '2016-04-03'
+    examples:
+    - date: '2014-03-02'
+      subject: IETF 89 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/89/minutes/minutes-89-dmm.txt
+    - date: '2016-04-03'
+      subject: IETF 95 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/95/minutes/minutes-95-dmm.txt
   - kind: proceedings
     listed_in: 11
     first: '2013-11-03'
@@ -213,6 +228,14 @@ chairs:
     - date: '2013-03-20'
       subject: '[DMM] WGLC starts for draft-ietf-dmm-requirements-03'
       url: https://mailarchive.ietf.org/arch/msg/dmm/g0DaV_8X__5xSL_8LLLhfV5foP0/
+  - kind: minutes
+    listed_in: 1
+    first: '2014-03-02'
+    last: '2014-03-02'
+    examples:
+    - date: '2014-03-02'
+      subject: IETF 89 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/89/minutes/minutes-89-dmm.txt
   - kind: proceedings
     listed_in: 17
     first: '2011-11-13'

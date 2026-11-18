@@ -16,13 +16,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2007-12-02'
       not_after: '2008-11-05'
     end:
       certainty: approximate
       date: '2009-12-17'
     notes:
     - 'End: announced on the group''s list (2009-12-17)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2007-12-02)'
   evidence:
   - kind: list message
     date: '2009-12-17'
@@ -42,13 +44,51 @@ chairs:
       subject: IETF 76 proceedings charter
       url: https://www.ietf.org/proceedings/76/savi.html
   - kind: minutes without them
-    date: '2010-07-25'
-    subject: '[savi] Draft Minutes - IETF 78 meeting'
-    url: https://mailarchive.ietf.org/arch/msg/savi/7tkmGChMhgct3Q2xtDJVlFtnnAA/
+    date: '2007-12-02'
+    subject: IETF 70 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/70/minutes/savi.txt
+  - kind: minutes without them
+    date: '2010-03-21'
+    subject: IETF 77 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/77/minutes/savi.txt
   - kind: session requests
     meetings:
     - '73'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 19987
+  name: Danny McPherson
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2007-12-02'
+    end:
+      certainty: between
+      not_before: '2008-02-19'
+      not_after: '2008-11-05'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2008-11-05)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2007-12-02'
+    last: '2007-12-02'
+    examples:
+    - date: '2007-12-02'
+      subject: IETF 70 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/70/minutes/savi.txt
+  - kind: proceedings
+    listed_in: 1
+    first: '2008-02-19'
+    last: '2008-02-19'
+    examples:
+    - date: '2008-02-19'
+      subject: IETF 72 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/72/savi.html
+  - kind: minutes without them
+    date: '2010-03-21'
+    subject: IETF 77 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/77/minutes/savi.txt
 - person: 108396
   name: Christian Vogt
   status: confirmed
@@ -84,13 +124,19 @@ chairs:
       subject: '[savi] Working group last call on draft-ietf-savi-fcfs'
       url: https://mailarchive.ietf.org/arch/msg/savi/RFAZuSk5LoyzJECcHSeuCK6mIJ4/
   - kind: minutes
-    listed_in: 1
-    first: '2010-07-25'
+    listed_in: 5
+    first: '2007-12-02'
     last: '2010-07-25'
     examples:
+    - date: '2007-12-02'
+      subject: IETF 70 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/70/minutes/savi.txt
+    - date: '2009-11-08'
+      subject: IETF 76 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/76/minutes/savi.txt
     - date: '2010-07-25'
-      subject: '[savi] Draft Minutes - IETF 78 meeting'
-      url: https://mailarchive.ietf.org/arch/msg/savi/7tkmGChMhgct3Q2xtDJVlFtnnAA/
+      subject: IETF 78 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/78/minutes/savi.txt
   - kind: proceedings
     listed_in: 8
     first: '2008-02-19'
@@ -158,13 +204,19 @@ chairs:
       subject: '[savi] WGLC: draft-ietf-savi-dhcp-22'
       url: https://mailarchive.ietf.org/arch/msg/savi/0ymjxtFOwLB-d2nNOYpFLTcx858/
   - kind: minutes
-    listed_in: 1
-    first: '2010-07-25'
-    last: '2010-07-25'
+    listed_in: 5
+    first: '2010-03-21'
+    last: '2011-11-13'
     examples:
+    - date: '2010-03-21'
+      subject: IETF 77 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/77/minutes/savi.txt
     - date: '2010-07-25'
       subject: '[savi] Draft Minutes - IETF 78 meeting'
       url: https://mailarchive.ietf.org/arch/msg/savi/7tkmGChMhgct3Q2xtDJVlFtnnAA/
+    - date: '2011-11-13'
+      subject: IETF 82 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/82/minutes/savi.txt
   - kind: proceedings
     listed_in: 5
     first: '2010-02-16'
@@ -179,6 +231,10 @@ chairs:
     - date: '2011-11-13'
       subject: IETF 82 proceedings charter
       url: https://www.ietf.org/proceedings/82/savi.html
+  - kind: minutes without them
+    date: '2007-12-02'
+    subject: IETF 70 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/70/minutes/savi.txt
   - kind: session requests
     meetings:
     - '80'

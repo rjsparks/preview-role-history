@@ -20,11 +20,25 @@ chairs:
       not_after: '2009-04-20'
     end:
       certainty: between
-      not_before: '2009-09-09'
+      not_before: '2010-03-21'
       not_after: '2010-04-16'
     notes:
     - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-04-16)'
   evidence:
+  - kind: minutes
+    listed_in: 3
+    first: '2009-07-26'
+    last: '2010-03-21'
+    examples:
+    - date: '2009-07-26'
+      subject: IETF 75 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/75/minutes/sipcore.html
+    - date: '2009-11-08'
+      subject: IETF 76 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/76/minutes/sipcore.html
+    - date: '2010-03-21'
+      subject: IETF 77 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/77/minutes/sipcore.html
   - kind: proceedings
     listed_in: 3
     first: '2009-04-20'
@@ -40,9 +54,9 @@ chairs:
       subject: IETF 76 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/76/sipcore.html
   - kind: minutes without them
-    date: '2018-11-03'
-    subject: '[sipcore] Minutes from the IETF 103 sipcore session'
-    url: https://mailarchive.ietf.org/arch/msg/sipcore/ubJIdvR76g3_i9dcwsxFEQLdawk/
+    date: '2010-07-25'
+    subject: IETF 78 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/78/minutes/sipcore.html
   - kind: joined the IESG
     after_meeting: '77'
     after: '2010-03-21'
@@ -86,6 +100,20 @@ chairs:
     - date: '2010-10-25'
       subject: '[sipcore] Call for agenda items'
       url: https://mailarchive.ietf.org/arch/msg/sipcore/2MImSP9ktk1UnB-9C2HmWMhGZLc/
+  - kind: minutes
+    listed_in: 10
+    first: '2009-07-26'
+    last: '2016-04-03'
+    examples:
+    - date: '2009-07-26'
+      subject: IETF 75 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/75/minutes/sipcore.html
+    - date: '2009-11-08'
+      subject: IETF 76 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/76/minutes/sipcore.html
+    - date: '2016-04-03'
+      subject: IETF 95 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/95/minutes/minutes-95-sipcore.html
   - kind: proceedings
     listed_in: 22
     first: '2009-04-20'
@@ -237,6 +265,20 @@ chairs:
     - date: '2014-04-10'
       subject: '[sipcore] Call for adoption of draft-johansson-sip-dual-stack as WG draft'
       url: https://mailarchive.ietf.org/arch/msg/sipcore/PfZBBbIyD8lSj7gWmC8V1wsjr4w/
+  - kind: minutes
+    listed_in: 8
+    first: '2010-03-21'
+    last: '2012-07-29'
+    examples:
+    - date: '2010-03-21'
+      subject: IETF 77 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/77/minutes/sipcore.html
+    - date: '2010-07-25'
+      subject: IETF 78 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/78/minutes/sipcore.html
+    - date: '2012-07-29'
+      subject: IETF 84 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/84/minutes/minutes-84-sipcore.html
   - kind: proceedings
     listed_in: 13
     first: '2010-04-16'
@@ -347,6 +389,10 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/sipcore.html
+  - kind: minutes without them
+    date: '2012-07-29'
+    subject: IETF 84 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/84/minutes/minutes-84-sipcore.html
   - kind: shepherded
     documents:
     - draft-ietf-sipcore-callinfo-rcd
@@ -356,3 +402,35 @@ chairs:
     - draft-ietf-sipcore-originating-cdiv-parameter
     - draft-ietf-sipcore-rejected
     - draft-ietf-sipcore-sip-token-authnz
+- person: 116331
+  name: Mo Zanaty
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2012-07-29'
+      not_after: '2016-04-03'
+    end:
+      certainty: between
+      not_before: '2016-04-03'
+      not_after: '2016-07-17'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2016-07-17)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2012-07-29)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2016-04-03'
+    last: '2016-04-03'
+    examples:
+    - date: '2016-04-03'
+      subject: IETF 95 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/95/minutes/minutes-95-sipcore.html
+  - kind: minutes without them
+    date: '2012-07-29'
+    subject: IETF 84 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/84/minutes/minutes-84-sipcore.html
+  - kind: minutes without them
+    date: '2018-11-03'
+    subject: '[sipcore] Minutes from the IETF 103 sipcore session'
+    url: https://mailarchive.ietf.org/arch/msg/sipcore/ubJIdvR76g3_i9dcwsxFEQLdawk/

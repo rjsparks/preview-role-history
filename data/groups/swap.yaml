@@ -6,7 +6,7 @@ state: conclude
 started: null
 closed: '2000-06-05'
 bof: true
-never_chartered: false
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '43'
@@ -20,7 +20,15 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2000-06-05'
+      date: '1998-12-07'
     end:
-      certainty: group-closed
-      date: '2000-06-05'
+      certainty: between
+      not_before: '1998-12-07'
+    notes:
+    - 'Start: the BOF met at IETF 43 (1998-12-07)'
+    - 'End: after the BOF''s last session, IETF 43 (1998-12-07)'
+  evidence:
+  - kind: BOF session
+    meeting: '43'
+    date: '1998-12-07'
+    url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-42.html

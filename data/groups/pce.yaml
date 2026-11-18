@@ -66,13 +66,19 @@ chairs:
       subject: '[Pce] Working Group Last Call on PCEP'
       url: https://mailarchive.ietf.org/arch/msg/pce/nKdLEEnukjS6f60Z8qn0fNrc7DM/
   - kind: minutes
-    listed_in: 1
-    first: '2004-11-15'
-    last: '2004-11-15'
+    listed_in: 5
+    first: '2004-08-01'
+    last: '2009-03-22'
     examples:
-    - date: '2004-11-15'
-      subject: '[Pce] PCE BOF - Draft minutes'
-      url: https://mailarchive.ietf.org/arch/msg/pce/cPVLAhhCf7cAj_7jQgQ5_uVEQv8/
+    - date: '2004-08-01'
+      subject: IETF 60 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/60/minutes/pce.htm
+    - date: '2004-11-07'
+      subject: IETF 61 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/61/minutes/pce.html
+    - date: '2009-03-22'
+      subject: IETF 74 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/74/minutes/pce.txt
   - kind: proceedings
     listed_in: 8
     first: '2004-10-28'
@@ -106,13 +112,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-10-28'
+      date: '2004-08-01'
       not_before: '2004-03-01'
     end:
       certainty: exact
       date: '2017-08-22'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2004-10-28)'
+    - 'Start: listed as chair in meeting minutes (2004-08-01)'
   evidence:
   - kind: WG Action
     date: '2005-01-12'
@@ -151,16 +157,16 @@ chairs:
       subject: '[Pce] Working Group Last call on draft-ietf-pce-discovery-reqs-02.txt'
       url: https://mailarchive.ietf.org/arch/msg/pce/8z-pkrqH7Rd-FVFhygEn1GstvKA/
   - kind: minutes
-    listed_in: 4
-    first: '2004-11-15'
+    listed_in: 11
+    first: '2004-08-01'
     last: '2017-03-26'
     examples:
-    - date: '2004-11-15'
-      subject: '[Pce] PCE BOF - Draft minutes'
-      url: https://mailarchive.ietf.org/arch/msg/pce/cPVLAhhCf7cAj_7jQgQ5_uVEQv8/
-    - date: '2016-04-03'
-      subject: '[Pce] Draft minutes from PCE WG meeting'
-      url: https://mailarchive.ietf.org/arch/msg/pce/ZPxSFlWJXpta9KMKh3-g9mRvg5U/
+    - date: '2004-08-01'
+      subject: IETF 60 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/60/minutes/pce.htm
+    - date: '2004-11-07'
+      subject: IETF 61 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/61/minutes/pce.html
     - date: '2017-03-26'
       subject: '[Pce] PCE WG meeting minutes available'
       url: https://mailarchive.ietf.org/arch/msg/pce/JgPawTQjdJunPcchj9WWFL7vqkU/
@@ -261,16 +267,16 @@ chairs:
       subject: '[Pce] WG Last Call of draft-ietf-pce-pcep-inter-domain-p2mp-procedures'
       url: https://mailarchive.ietf.org/arch/msg/pce/2q-IbqAdAqFXoSxgKJ_HAs_IcwM/
   - kind: minutes
-    listed_in: 3
-    first: '2016-04-03'
+    listed_in: 6
+    first: '2014-03-02'
     last: '2017-03-26'
     examples:
+    - date: '2014-03-02'
+      subject: IETF 89 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/89/minutes/minutes-89-pce.html
     - date: '2016-04-03'
       subject: '[Pce] Draft minutes from PCE WG meeting'
       url: https://mailarchive.ietf.org/arch/msg/pce/ZPxSFlWJXpta9KMKh3-g9mRvg5U/
-    - date: '2016-07-17'
-      subject: '[Pce] PCE WG meeting minutes available'
-      url: https://mailarchive.ietf.org/arch/msg/pce/QHlu3QNsX1Obv6SW0APTE6ikk0Q/
     - date: '2017-03-26'
       subject: '[Pce] PCE WG meeting minutes available'
       url: https://mailarchive.ietf.org/arch/msg/pce/JgPawTQjdJunPcchj9WWFL7vqkU/
@@ -320,6 +326,38 @@ chairs:
     - draft-ietf-pce-stateful-pce
     - draft-ietf-pce-vendor-constraints
     - draft-ietf-pce-wson-routing-wavelength
+- person: 109558
+  name: Daniel King
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2014-03-02'
+      not_after: '2014-11-09'
+    end:
+      certainty: between
+      not_before: '2014-11-09'
+      not_after: '2016-04-03'
+    notes:
+    - 'Start: not yet listed among the chairs in meeting minutes (2014-03-02)'
+    - 'End: no longer listed among the chairs in meeting minutes (2016-04-03)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2014-11-09'
+    last: '2014-11-09'
+    examples:
+    - date: '2014-11-09'
+      subject: IETF 91 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/91/minutes/minutes-91-pce.htm
+  - kind: minutes without them
+    date: '2014-03-02'
+    subject: IETF 89 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/89/minutes/minutes-89-pce.html
+  - kind: minutes without them
+    date: '2016-04-03'
+    subject: '[Pce] Draft minutes from PCE WG meeting'
+    url: https://mailarchive.ietf.org/arch/msg/pce/ZPxSFlWJXpta9KMKh3-g9mRvg5U/
 - person: 111477
   name: Dhruv Dhody
   status: confirmed
@@ -366,6 +404,38 @@ chairs:
     - draft-ietf-pce-sr-bidir-path
     - draft-ietf-pce-stateful-pce-optional
     - draft-ietf-pce-stateful-pce-vendor
+- person: 111837
+  name: Ramon Casellas
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2014-03-02'
+      not_after: '2014-11-09'
+    end:
+      certainty: between
+      not_before: '2014-11-09'
+      not_after: '2016-04-03'
+    notes:
+    - 'Start: not yet listed among the chairs in meeting minutes (2014-03-02)'
+    - 'End: no longer listed among the chairs in meeting minutes (2016-04-03)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2014-11-09'
+    last: '2014-11-09'
+    examples:
+    - date: '2014-11-09'
+      subject: IETF 91 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/91/minutes/minutes-91-pce.htm
+  - kind: minutes without them
+    date: '2014-03-02'
+    subject: IETF 89 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/89/minutes/minutes-89-pce.html
+  - kind: minutes without them
+    date: '2016-04-03'
+    subject: '[Pce] Draft minutes from PCE WG meeting'
+    url: https://mailarchive.ietf.org/arch/msg/pce/ZPxSFlWJXpta9KMKh3-g9mRvg5U/
 - person: 113543
   name: Jonathan Hardwick
   status: confirmed
@@ -410,23 +480,23 @@ chairs:
       subject: '[Pce] Working group last call (including final IPR check) for draft-ietf-pce-inter-area-as-applicability-06'
       url: https://mailarchive.ietf.org/arch/msg/pce/suEcJ7iS_ujxA6vVtTpwpkTPicc/
   - kind: minutes
-    listed_in: 3
+    listed_in: 5
     first: '2016-04-03'
     last: '2017-03-26'
     examples:
     - date: '2016-04-03'
       subject: '[Pce] Draft minutes from PCE WG meeting'
       url: https://mailarchive.ietf.org/arch/msg/pce/ZPxSFlWJXpta9KMKh3-g9mRvg5U/
-    - date: '2016-07-17'
-      subject: '[Pce] PCE WG meeting minutes available'
-      url: https://mailarchive.ietf.org/arch/msg/pce/QHlu3QNsX1Obv6SW0APTE6ikk0Q/
+    - date: '2016-04-03'
+      subject: IETF 95 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/95/minutes/minutes-95-pce.txt
     - date: '2017-03-26'
       subject: '[Pce] PCE WG meeting minutes available'
       url: https://mailarchive.ietf.org/arch/msg/pce/JgPawTQjdJunPcchj9WWFL7vqkU/
   - kind: minutes without them
-    date: '2004-11-15'
-    subject: '[Pce] PCE BOF - Draft minutes'
-    url: https://mailarchive.ietf.org/arch/msg/pce/cPVLAhhCf7cAj_7jQgQ5_uVEQv8/
+    date: '2014-11-09'
+    subject: IETF 91 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/91/minutes/minutes-91-pce.htm
   - kind: shepherded
     documents:
     - draft-ietf-pce-inter-area-as-applicability

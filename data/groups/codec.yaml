@@ -17,13 +17,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-04-01'
+      date: '2010-03-21'
       not_before: '2009-12-10'
     end:
       certainty: exact
       date: '2015-02-24'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-04-01)'
+    - 'Start: listed as chair in meeting minutes (2010-03-21)'
   evidence:
   - kind: list message
     date: '2015-02-24'
@@ -46,6 +46,14 @@ chairs:
     - date: '2011-11-01'
       subject: '[codec] WGLC #2 for draft-ietf-codec-opus-10'
       url: https://mailarchive.ietf.org/arch/msg/codec/hcz8zjvsXJqcJzhw0m5tBZU2_jQ/
+  - kind: minutes
+    listed_in: 1
+    first: '2010-03-21'
+    last: '2010-03-21'
+    examples:
+    - date: '2010-03-21'
+      subject: IETF 77 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/77/minutes/codec.html
   - kind: proceedings
     listed_in: 13
     first: '2010-04-01'
@@ -62,8 +70,8 @@ chairs:
       url: https://www.ietf.org/proceedings/91/codec.html
   - kind: minutes without them
     date: '2009-11-08'
-    subject: '[codec] updated minutes from IETF 76'
-    url: https://mailarchive.ietf.org/arch/msg/codec/xDhiifcdLtPG1cZfk-zXiDE5rzg/
+    subject: IETF 76 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/76/minutes/codec.txt
   - kind: shepherded
     documents:
     - draft-ietf-codec-opus
@@ -77,10 +85,10 @@ chairs:
       not_after: '2009-11-08'
     end:
       certainty: between
-      not_before: '2010-07-02'
-      not_after: '2010-11-07'
+      not_before: '2010-11-07'
+      not_after: '2011-03-27'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-11-07)'
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-03-27)'
     - 'Start: not yet listed among the chairs in meeting minutes (2009-07-26)'
   evidence:
   - kind: chair activity
@@ -91,6 +99,17 @@ chairs:
     - date: '2010-07-02'
       subject: '[codec] Draft codec WG agenda for Maastricht IETF 78'
       url: https://mailarchive.ietf.org/arch/msg/codec/acB6MR_oKrxFRCiTV193pj2lwPo/
+  - kind: minutes
+    listed_in: 2
+    first: '2010-03-21'
+    last: '2010-11-07'
+    examples:
+    - date: '2010-03-21'
+      subject: IETF 77 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/77/minutes/codec.html
+    - date: '2010-11-07'
+      subject: IETF 79 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/79/minutes/codec.txt
   - kind: proceedings
     listed_in: 2
     first: '2009-11-08'
@@ -104,25 +123,68 @@ chairs:
       url: https://www.ietf.org/proceedings/77/codec.html
   - kind: minutes without them
     date: '2009-07-26'
-    subject: '[codec] Minutes from IETF 75 BoF'
-    url: https://mailarchive.ietf.org/arch/msg/codec/uo_ENSwsRwlnaM6tgiTPL95VfRk/
+    subject: IETF 75 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/75/minutes/codec.txt
   - kind: minutes without them
-    date: '2010-11-07'
-    subject: IETF 79 proceedings charter
-    url: https://www.ietf.org/proceedings/79/codec.html
+    date: '2011-03-27'
+    subject: IETF 80 proceedings charter
+    url: https://www.ietf.org/proceedings/80/codec.html
+- person: 104196
+  name: Eric Burger
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2009-07-26'
+      not_after: '2009-11-08'
+    end:
+      certainty: between
+      not_before: '2009-11-12'
+      not_after: '2010-03-21'
+    notes:
+    - 'Start: not yet listed among the chairs in meeting minutes (2009-07-26)'
+    - 'End: no longer listed among the chairs in meeting minutes (2010-03-21)'
+  evidence:
+  - kind: chair activity
+    first: '2009-11-12'
+    last: '2009-11-12'
+    messages: 1
+    examples:
+    - date: '2009-11-12'
+      subject: '[codec] DRAFT Minutes Posted'
+      url: https://mailarchive.ietf.org/arch/msg/codec/IsUffjxKSnYSl_kNjhwWDTpS83E/
+  - kind: minutes
+    listed_in: 2
+    first: '2009-11-08'
+    last: '2009-11-08'
+    examples:
+    - date: '2009-11-08'
+      subject: '[codec] updated minutes from IETF 76'
+      url: https://mailarchive.ietf.org/arch/msg/codec/xDhiifcdLtPG1cZfk-zXiDE5rzg/
+    - date: '2009-11-08'
+      subject: IETF 76 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/76/minutes/codec.txt
+  - kind: minutes without them
+    date: '2009-07-26'
+    subject: IETF 75 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/75/minutes/codec.txt
+  - kind: minutes without them
+    date: '2010-03-21'
+    subject: IETF 77 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/77/minutes/codec.html
 - person: 105791
   name: Cullen Jennings
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-04-01'
+      date: '2010-03-21'
       not_before: '2009-12-10'
     end:
       certainty: exact
       date: '2013-01-11'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-04-01)'
+    - 'Start: listed as chair in meeting minutes (2010-03-21)'
   evidence:
   - kind: chair activity
     first: '2011-03-17'
@@ -141,6 +203,14 @@ chairs:
     - date: '2011-07-09'
       subject: '[codec] WGLC of draft-ietf-codec-opus-07'
       url: https://mailarchive.ietf.org/arch/msg/codec/6ZyeTNUHnHsmwv3kOEw8wmshe6o/
+  - kind: minutes
+    listed_in: 1
+    first: '2010-03-21'
+    last: '2010-03-21'
+    examples:
+    - date: '2010-03-21'
+      subject: IETF 77 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/77/minutes/codec.html
   - kind: proceedings
     listed_in: 7
     first: '2010-04-01'
@@ -157,8 +227,8 @@ chairs:
       url: https://www.ietf.org/proceedings/84/codec.html
   - kind: minutes without them
     date: '2009-11-08'
-    subject: '[codec] updated minutes from IETF 76'
-    url: https://mailarchive.ietf.org/arch/msg/codec/xDhiifcdLtPG1cZfk-zXiDE5rzg/
+    subject: IETF 76 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/76/minutes/codec.txt
   - kind: session requests
     meetings:
     - '78'
@@ -193,13 +263,19 @@ chairs:
       subject: '[codec] updated minutes from IETF 76'
       url: https://mailarchive.ietf.org/arch/msg/codec/xDhiifcdLtPG1cZfk-zXiDE5rzg/
   - kind: minutes
-    listed_in: 1
+    listed_in: 3
     first: '2009-11-08'
-    last: '2009-11-08'
+    last: '2010-03-21'
     examples:
     - date: '2009-11-08'
       subject: '[codec] updated minutes from IETF 76'
       url: https://mailarchive.ietf.org/arch/msg/codec/xDhiifcdLtPG1cZfk-zXiDE5rzg/
+    - date: '2009-11-08'
+      subject: IETF 76 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/76/minutes/codec.txt
+    - date: '2010-03-21'
+      subject: IETF 77 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/77/minutes/codec.html
   - kind: proceedings
     listed_in: 2
     first: '2009-07-26'
@@ -224,6 +300,72 @@ chairs:
     after: '2010-03-21'
     by_meeting: '78'
     by: '2010-07-25'
+- person: 107524
+  name: Jason Fischl
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2009-07-08'
+    end:
+      certainty: between
+      not_before: '2009-07-26'
+      not_after: '2009-11-08'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-11-08)'
+  evidence:
+  - kind: chair activity
+    first: '2009-07-08'
+    last: '2009-07-08'
+    messages: 1
+    examples:
+    - date: '2009-07-08'
+      subject: '[codec] Updated Agenda for Codec BOF'
+      url: https://mailarchive.ietf.org/arch/msg/codec/7ld8Q8GT06jMCA4x77KF7693c2k/
+  - kind: minutes
+    listed_in: 2
+    first: '2009-07-26'
+    last: '2009-07-26'
+    examples:
+    - date: '2009-07-26'
+      subject: '[codec] Minutes from IETF 75 BoF'
+      url: https://mailarchive.ietf.org/arch/msg/codec/uo_ENSwsRwlnaM6tgiTPL95VfRk/
+    - date: '2009-07-26'
+      subject: IETF 75 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/75/minutes/codec.txt
+  - kind: minutes without them
+    date: '2009-11-08'
+    subject: '[codec] updated minutes from IETF 76'
+    url: https://mailarchive.ietf.org/arch/msg/codec/xDhiifcdLtPG1cZfk-zXiDE5rzg/
+- person: 108744
+  name: Jean-Marc Valin
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2009-07-26'
+    end:
+      certainty: between
+      not_before: '2009-07-26'
+      not_after: '2009-11-08'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-11-08)'
+  evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '2009-07-26'
+    last: '2009-07-26'
+    examples:
+    - date: '2009-07-26'
+      subject: '[codec] Minutes from IETF 75 BoF'
+      url: https://mailarchive.ietf.org/arch/msg/codec/uo_ENSwsRwlnaM6tgiTPL95VfRk/
+    - date: '2009-07-26'
+      subject: IETF 75 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/75/minutes/codec.txt
+  - kind: minutes without them
+    date: '2009-11-08'
+    subject: '[codec] updated minutes from IETF 76'
+    url: https://mailarchive.ietf.org/arch/msg/codec/xDhiifcdLtPG1cZfk-zXiDE5rzg/
 - person: 112724
   name: Timothy Terriberry
   status: confirmed
@@ -264,9 +406,9 @@ chairs:
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/codec.html
   - kind: minutes without them
-    date: '2009-11-08'
-    subject: '[codec] updated minutes from IETF 76'
-    url: https://mailarchive.ietf.org/arch/msg/codec/xDhiifcdLtPG1cZfk-zXiDE5rzg/
+    date: '2010-03-21'
+    subject: IETF 77 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/77/minutes/codec.html
   - kind: shepherded
     documents:
     - draft-ietf-codec-ambisonics
@@ -312,9 +454,9 @@ chairs:
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/codec.html
   - kind: minutes without them
-    date: '2009-11-08'
-    subject: '[codec] updated minutes from IETF 76'
-    url: https://mailarchive.ietf.org/arch/msg/codec/xDhiifcdLtPG1cZfk-zXiDE5rzg/
+    date: '2010-03-21'
+    subject: IETF 77 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/77/minutes/codec.html
   - kind: shepherded
     documents:
     - draft-ietf-codec-oggopus

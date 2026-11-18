@@ -35,19 +35,19 @@ chairs:
       subject: '[rohc] Agenda for Tuesday meeting'
       url: https://mailarchive.ietf.org/arch/msg/rohc/Z37eswkEj5w8_ZdNtSH6GH25FcA/
   - kind: minutes
-    listed_in: 7
+    listed_in: 12
     first: '2002-11-17'
     last: '2005-07-31'
     examples:
     - date: '2002-11-17'
       subject: '[rohc] ROHC Minutes, IETF 55'
       url: https://mailarchive.ietf.org/arch/msg/rohc/ELVaeKHZs9x0mLPrvwc7NxeemDY/
-    - date: '2003-03-16'
-      subject: '[rohc] Preliminary minutes from San Francisco'
-      url: https://mailarchive.ietf.org/arch/msg/rohc/aB5ZOvGlRYCcsCVrlHV0Z_igoqE/
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/minutes/rohc.htm
     - date: '2005-07-31'
-      subject: '[rohc] Minutes from ROHC@IETF63'
-      url: https://mailarchive.ietf.org/arch/msg/rohc/8lInIwcihd2AskYPEF67vIZVf4g/
+      subject: IETF 63 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/63/minutes/rohc.html
   - kind: proceedings
     listed_in: 17
     first: '2000-03-13'
@@ -94,6 +94,32 @@ chairs:
     date: '2002-11-17'
     subject: '[rohc] ROHC Minutes, IETF 55'
     url: https://mailarchive.ietf.org/arch/msg/rohc/ELVaeKHZs9x0mLPrvwc7NxeemDY/
+- person: 100739
+  name: Christian Schmidt
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2002-11-17'
+    end:
+      certainty: between
+      not_before: '2002-11-17'
+      not_after: '2003-01-27'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2003-01-27)'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2002-11-17'
+    last: '2002-11-17'
+    examples:
+    - date: '2002-11-17'
+      subject: IETF 55 proceedings charter
+      url: https://www.ietf.org/proceedings/55/proxigen/rohc.txt
+  - kind: minutes without them
+    date: '2003-03-16'
+    subject: '[rohc] Preliminary minutes from San Francisco'
+    url: https://mailarchive.ietf.org/arch/msg/rohc/aB5ZOvGlRYCcsCVrlHV0Z_igoqE/
 - person: 103797
   name: Lars-Erik Jonsson
   status: unconfirmed
@@ -140,19 +166,19 @@ chairs:
       subject: '[rohc] Preliminary minutes from ROHC@IETF61, Part 1'
       url: https://mailarchive.ietf.org/arch/msg/rohc/wZ_yYzmWyhnp_RH4mndEe6aUwbE/
   - kind: minutes
-    listed_in: 9
+    listed_in: 15
     first: '2002-11-17'
     last: '2006-07-09'
     examples:
     - date: '2002-11-17'
       subject: '[rohc] ROHC Minutes, IETF 55'
       url: https://mailarchive.ietf.org/arch/msg/rohc/ELVaeKHZs9x0mLPrvwc7NxeemDY/
-    - date: '2003-03-16'
-      subject: '[rohc] Preliminary minutes from San Francisco'
-      url: https://mailarchive.ietf.org/arch/msg/rohc/aB5ZOvGlRYCcsCVrlHV0Z_igoqE/
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/minutes/rohc.htm
     - date: '2006-07-09'
-      subject: '[rohc] ROHC minutes from IETF 66'
-      url: https://mailarchive.ietf.org/arch/msg/rohc/lyVJlvejfcvF5hRMmzlUaB4GExc/
+      subject: IETF 66 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/66/minutes/rohc.txt
   - kind: proceedings
     listed_in: 15
     first: '2002-03-05'
@@ -171,6 +197,58 @@ chairs:
     meetings:
     - '66'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 104331
+  name: Gorry Fairhurst
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2002-11-17'
+    end:
+      certainty: between
+      not_before: '2002-11-17'
+      not_after: '2003-01-27'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2003-01-27)'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2002-11-17'
+    last: '2002-11-17'
+    examples:
+    - date: '2002-11-17'
+      subject: IETF 55 proceedings charter
+      url: https://www.ietf.org/proceedings/55/proxigen/rohc.txt
+  - kind: minutes without them
+    date: '2003-03-16'
+    subject: '[rohc] Preliminary minutes from San Francisco'
+    url: https://mailarchive.ietf.org/arch/msg/rohc/aB5ZOvGlRYCcsCVrlHV0Z_igoqE/
+- person: 105585
+  name: Mark West
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2002-11-17'
+    end:
+      certainty: between
+      not_before: '2002-11-17'
+      not_after: '2003-01-27'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2003-01-27)'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2002-11-17'
+    last: '2002-11-17'
+    examples:
+    - date: '2002-11-17'
+      subject: IETF 55 proceedings charter
+      url: https://www.ietf.org/proceedings/55/proxigen/rohc.txt
+  - kind: minutes without them
+    date: '2003-03-16'
+    subject: '[rohc] Preliminary minutes from San Francisco'
+    url: https://mailarchive.ietf.org/arch/msg/rohc/aB5ZOvGlRYCcsCVrlHV0Z_igoqE/
 - person: 108150
   name: Carl Knutsson
   status: confirmed
@@ -210,5 +288,5 @@ chairs:
       url: https://www.ietf.org/proceedings/71/rohc.html
   - kind: minutes without them
     date: '2005-07-31'
-    subject: '[rohc] Minutes from ROHC@IETF63'
-    url: https://mailarchive.ietf.org/arch/msg/rohc/8lInIwcihd2AskYPEF67vIZVf4g/
+    subject: IETF 63 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/63/minutes/rohc.html

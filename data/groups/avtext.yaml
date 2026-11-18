@@ -49,13 +49,19 @@ chairs:
       subject: '[avtext] WGLC for draft-ietf-avtext-splicing-notification-01'
       url: https://mailarchive.ietf.org/arch/msg/avtext/uCi3XhqkbxT9QzMAmr1y0_WH68M/
   - kind: minutes
-    listed_in: 1
-    first: '2015-07-19'
-    last: '2015-07-19'
+    listed_in: 11
+    first: '2013-07-28'
+    last: '2016-07-17'
     examples:
-    - date: '2015-07-19'
-      subject: '[avtext] AVTEXT Minutes for IETF 93'
-      url: https://mailarchive.ietf.org/arch/msg/avtext/ciFDwF6S0X1U8JYcpbyDjOxnTRo/
+    - date: '2013-07-28'
+      subject: IETF 87 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/87/minutes/minutes-87-avtext.txt
+    - date: '2013-11-03'
+      subject: IETF 88 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/88/minutes/minutes-88-avtext.txt
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/minutes/minutes-96-avtext.txt
   - kind: proceedings
     listed_in: 13
     first: '2012-11-04'
@@ -70,6 +76,10 @@ chairs:
     - date: '2016-11-13'
       subject: IETF 97 proceedings charter
       url: https://www.ietf.org/proceedings/97/avtext.html
+  - kind: minutes without them
+    date: '2012-07-29'
+    subject: IETF 84 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/84/minutes/minutes-84-avtext.txt
   - kind: shepherded
     documents:
     - draft-ietf-avtext-multiple-clock-rates
@@ -121,13 +131,19 @@ chairs:
       subject: '[avtext] WG last call on changes'
       url: https://mailarchive.ietf.org/arch/msg/avtext/ALw5BD9UGHxMOMfD5n1-WBTwVcs/
   - kind: minutes
-    listed_in: 1
-    first: '2015-07-19'
+    listed_in: 7
+    first: '2011-03-27'
     last: '2015-07-19'
     examples:
+    - date: '2011-03-27'
+      subject: IETF 80 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/80/minutes/avtext.txt
+    - date: '2011-11-13'
+      subject: IETF 82 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/82/minutes/avtext.txt
     - date: '2015-07-19'
-      subject: '[avtext] AVTEXT Minutes for IETF 93'
-      url: https://mailarchive.ietf.org/arch/msg/avtext/ciFDwF6S0X1U8JYcpbyDjOxnTRo/
+      subject: IETF 93 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/93/minutes/minutes-93-avtext.txt
   - kind: proceedings
     listed_in: 6
     first: '2010-11-07'
@@ -142,6 +158,10 @@ chairs:
     - date: '2012-07-29'
       subject: IETF 84 proceedings charter
       url: https://www.ietf.org/proceedings/84/avtext.html
+  - kind: minutes without them
+    date: '2015-11-01'
+    subject: IETF 94 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/94/minutes/minutes-94-avtext.txt
   - kind: shepherded
     documents:
     - draft-ietf-avtext-splicing-for-rtp
@@ -170,6 +190,20 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/avtext/Ncsw-q5Jh34t7Fq61Df75_5Uq7Q/
     excerpt: Rachel Huang will replace Keith as co-chair of AVTEXT, effective as soon as the Secretariat
       makes the change.
+  - kind: minutes
+    listed_in: 11
+    first: '2011-03-27'
+    last: '2015-03-22'
+    examples:
+    - date: '2011-03-27'
+      subject: IETF 80 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/80/minutes/avtext.txt
+    - date: '2011-11-13'
+      subject: IETF 82 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/82/minutes/avtext.txt
+    - date: '2015-03-22'
+      subject: IETF 92 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/92/minutes/minutes-92-avtext.txt
   - kind: proceedings
     listed_in: 15
     first: '2010-11-07'
@@ -184,6 +218,10 @@ chairs:
     - date: '2015-07-19'
       subject: IETF 93 proceedings charter
       url: https://www.ietf.org/proceedings/93/avtext.html
+  - kind: minutes without them
+    date: '2016-04-03'
+    subject: IETF 95 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/95/minutes/minutes-95-avtext.txt
   - kind: session requests
     meetings:
     - '80'
@@ -230,6 +268,20 @@ chairs:
     - date: '2016-07-24'
       subject: '[avtext] WGLC: draft-ietf-avtext-avpf-ccm-layered-01'
       url: https://mailarchive.ietf.org/arch/msg/avtext/GyyDVfFyiJRXPXaKq88uVQDKEqQ/
+  - kind: minutes
+    listed_in: 3
+    first: '2015-11-01'
+    last: '2016-07-17'
+    examples:
+    - date: '2015-11-01'
+      subject: IETF 94 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/94/minutes/minutes-94-avtext.txt
+    - date: '2016-04-03'
+      subject: IETF 95 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/95/minutes/minutes-95-avtext.txt
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/minutes/minutes-96-avtext.txt
   - kind: proceedings
     listed_in: 4
     first: '2015-11-01'
@@ -246,8 +298,8 @@ chairs:
       url: https://www.ietf.org/proceedings/97/avtext.html
   - kind: minutes without them
     date: '2015-07-19'
-    subject: '[avtext] AVTEXT Minutes for IETF 93'
-    url: https://mailarchive.ietf.org/arch/msg/avtext/ciFDwF6S0X1U8JYcpbyDjOxnTRo/
+    subject: IETF 93 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/93/minutes/minutes-93-avtext.txt
   - kind: shepherded
     documents:
     - draft-ietf-avtext-avpf-ccm-layered

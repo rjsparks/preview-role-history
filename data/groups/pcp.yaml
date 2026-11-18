@@ -11,6 +11,38 @@ chartered: '2010-08-31'
 bof_sessions: []
 history_url: https://datatracker.ietf.org/group/pcp/history/
 chairs:
+- person: 2348
+  name: Ralph Droms
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2011-11-13'
+      not_after: '2012-03-25'
+    end:
+      certainty: between
+      not_before: '2012-03-25'
+      not_after: '2012-07-29'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2012-07-29)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2011-11-13)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2012-03-25'
+    last: '2012-03-25'
+    examples:
+    - date: '2012-03-25'
+      subject: IETF 83 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/83/minutes/minutes-83-pcp.txt
+  - kind: minutes without them
+    date: '2011-11-13'
+    subject: IETF 82 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/82/minutes/pcp.txt
+  - kind: minutes without them
+    date: '2012-07-29'
+    subject: IETF 84 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/84/minutes/minutes-84-pcp.txt
 - person: 15927
   name: Dave Thaler
   status: confirmed
@@ -46,13 +78,19 @@ chairs:
       subject: '[pcp] WG last call on draft-ietf-pcp-upnp-igd-interworking-01'
       url: https://mailarchive.ietf.org/arch/msg/pcp/f8vcLx7fu0f2bUJLYUJHj0jXFlI/
   - kind: minutes
-    listed_in: 1
-    first: '2011-07-24'
-    last: '2011-07-24'
+    listed_in: 8
+    first: '2011-03-27'
+    last: '2013-11-03'
     examples:
+    - date: '2011-03-27'
+      subject: IETF 80 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/80/minutes/pcp.htm
     - date: '2011-07-24'
       subject: '[pcp] IETF 81 WG minutes'
       url: https://mailarchive.ietf.org/arch/msg/pcp/DI7q-TSxcpVbmygt4oQ3Rvx2x8U/
+    - date: '2013-11-03'
+      subject: IETF 88 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/88/minutes/minutes-88-pcp.txt
   - kind: proceedings
     listed_in: 20
     first: '2010-07-25'
@@ -87,13 +125,14 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2011-12-09'
+      not_before: '2012-07-29'
       not_after: '2012-11-04'
     end:
       certainty: group-closed
       date: '2017-11-13'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2012-11-04)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2012-07-29)'
   evidence:
   - kind: chair activity
     first: '2013-01-02'
@@ -115,6 +154,17 @@ chairs:
     - date: '2013-04-26'
       subject: '[pcp] WG Call for Adoption: draft-maglione-pcp-radius-ext-07'
       url: https://mailarchive.ietf.org/arch/msg/pcp/96r1YpVrof4VU4jaCkAyhP-Y1S0/
+  - kind: minutes
+    listed_in: 2
+    first: '2013-07-28'
+    last: '2013-11-03'
+    examples:
+    - date: '2013-07-28'
+      subject: IETF 87 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/87/minutes/minutes-87-pcp.txt
+    - date: '2013-11-03'
+      subject: IETF 88 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/88/minutes/minutes-88-pcp.txt
   - kind: proceedings
     listed_in: 12
     first: '2012-11-04'
@@ -130,9 +180,9 @@ chairs:
       subject: IETF 96 proceedings charter
       url: https://www.ietf.org/proceedings/96/pcp.html
   - kind: minutes without them
-    date: '2011-07-24'
-    subject: '[pcp] IETF 81 WG minutes'
-    url: https://mailarchive.ietf.org/arch/msg/pcp/DI7q-TSxcpVbmygt4oQ3Rvx2x8U/
+    date: '2012-07-29'
+    subject: IETF 84 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/84/minutes/minutes-84-pcp.txt
   - kind: shepherded
     documents:
     - draft-ietf-pcp-optimize-keepalives
@@ -148,11 +198,12 @@ chairs:
       not_before: '2010-07-09'
     end:
       certainty: between
-      not_before: '2011-12-09'
+      not_before: '2012-07-29'
       not_after: '2012-11-04'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
     - 'End: no longer listed among the chairs in a proceedings charter snapshot (2012-11-04)'
+    - 'End: listed as chair in meeting minutes (2012-07-29)'
   evidence:
   - kind: chair activity
     first: '2010-09-13'
@@ -166,13 +217,19 @@ chairs:
       subject: '[pcp] Tentative agenda for Interim meeting'
       url: https://mailarchive.ietf.org/arch/msg/pcp/xx38imNENDn7Hp-lnn75aTXEB6I/
   - kind: minutes
-    listed_in: 1
-    first: '2011-07-24'
-    last: '2011-07-24'
+    listed_in: 5
+    first: '2011-03-27'
+    last: '2012-07-29'
     examples:
+    - date: '2011-03-27'
+      subject: IETF 80 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/80/minutes/pcp.htm
     - date: '2011-07-24'
       subject: '[pcp] IETF 81 WG minutes'
       url: https://mailarchive.ietf.org/arch/msg/pcp/DI7q-TSxcpVbmygt4oQ3Rvx2x8U/
+    - date: '2012-07-29'
+      subject: IETF 84 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/84/minutes/minutes-84-pcp.txt
   - kind: proceedings
     listed_in: 8
     first: '2010-07-25'
@@ -188,9 +245,9 @@ chairs:
       subject: IETF 84 proceedings charter
       url: https://www.ietf.org/proceedings/84/pcp.html
   - kind: minutes without them
-    date: '2012-11-04'
-    subject: IETF 85 proceedings charter
-    url: https://www.ietf.org/proceedings/85/pcp.html
+    date: '2013-07-28'
+    subject: IETF 87 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/87/minutes/minutes-87-pcp.txt
   - kind: session requests
     meetings:
     - '79'

@@ -26,7 +26,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2004-10-14'
+      not_after: '2004-02-29'
     end:
       certainty: between
       not_before: '2007-05-21'
@@ -38,6 +38,17 @@ chairs:
     date: '2004-10-14'
     subject: 'WG Action: Operational Security Capabilities for IP Network Infrastructure (opsec)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/uJKKF8RhxINbf6DDBBJFgp_kBDs/
+  - kind: minutes
+    listed_in: 2
+    first: '2004-02-29'
+    last: '2005-07-31'
+    examples:
+    - date: '2004-02-29'
+      subject: IETF 59 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/59/minutes/opsec.htm
+    - date: '2005-07-31'
+      subject: IETF 63 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/63/minutes/opsec.html
   - kind: proceedings
     listed_in: 7
     first: '2004-10-14'
@@ -97,7 +108,8 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2005-07-31'
       not_after: '2007-12-17'
     end:
       certainty: between
@@ -105,6 +117,7 @@ chairs:
       not_after: '2010-08-23'
     notes:
     - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-08-23)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2005-07-31)'
   evidence:
   - kind: WG Review
     date: '2008-09-02'
@@ -142,6 +155,10 @@ chairs:
     - date: '2009-04-20'
       subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/opsec.html
+  - kind: minutes without them
+    date: '2005-07-31'
+    subject: IETF 63 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/63/minutes/opsec.html
   - kind: minutes without them
     date: '2010-08-23'
     subject: IETF 78 proceedings charter, as last modified
@@ -187,6 +204,10 @@ chairs:
     - date: '2020-06-05'
       subject: '[OPSEC] Call For Adoption: draft-camwinget-opsec-ns-impact'
       url: https://mailarchive.ietf.org/arch/msg/opsec/5dCuxM1clyVy3nBiDO_0T-ELPDA/
+  - kind: minutes without them
+    date: '2005-07-31'
+    subject: IETF 63 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/63/minutes/opsec.html
 - person: 105099
   name: Éric Vyncke
   status: confirmed
@@ -226,6 +247,10 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/opsec.html
+  - kind: minutes without them
+    date: '2005-07-31'
+    subject: IETF 63 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/63/minutes/opsec.html
   - kind: shepherded
     documents:
     - draft-ietf-opsec-ipv6-eh-filtering
@@ -239,13 +264,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2005-07-31'
       not_after: '2007-12-17'
     end:
       certainty: approximate
       date: '2011-08-08'
     notes:
     - 'End: announced on the group''s list (2011-08-08)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2005-07-31)'
   evidence:
   - kind: WG Review
     date: '2008-09-02'
@@ -284,6 +311,10 @@ chairs:
     - date: '2011-03-27'
       subject: IETF 80 proceedings charter
       url: https://www.ietf.org/proceedings/80/opsec.html
+  - kind: minutes without them
+    date: '2005-07-31'
+    subject: IETF 63 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/63/minutes/opsec.html
 - person: 108304
   name: Gunter Van de Velde
   status: confirmed
@@ -353,6 +384,10 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/opsec.html
+  - kind: minutes without them
+    date: '2005-07-31'
+    subject: IETF 63 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/63/minutes/opsec.html
   - kind: shepherded
     documents:
     - draft-ietf-opsec-bgp-security
@@ -405,6 +440,10 @@ chairs:
     - date: '2015-03-22'
       subject: IETF 92 proceedings charter
       url: https://www.ietf.org/proceedings/92/opsec.html
+  - kind: minutes without them
+    date: '2005-07-31'
+    subject: IETF 63 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/63/minutes/opsec.html
   - kind: shepherded
     documents:
     - draft-ietf-opsec-dhcpv6-shield
@@ -416,12 +455,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2010-08-23'
-      not_before: '2003-06-01'
+      not_before: '2005-07-31'
     end:
       certainty: exact
       date: '2013-12-18'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2010-08-23)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2005-07-31)'
   evidence:
   - kind: WG Review
     date: '2013-10-15'
@@ -465,6 +505,10 @@ chairs:
     - date: '2013-07-28'
       subject: IETF 87 proceedings charter
       url: https://www.ietf.org/proceedings/87/opsec.html
+  - kind: minutes without them
+    date: '2005-07-31'
+    subject: IETF 63 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/63/minutes/opsec.html
   - kind: session requests
     meetings:
     - '82'
@@ -504,7 +548,37 @@ chairs:
     - date: '2022-07-27'
       subject: '[OPSEC] Adoption call for draft-vyncke-opsec-probe-attribution'
       url: https://mailarchive.ietf.org/arch/msg/opsec/eFTofqiAB413O8od3ecgd8B_P0U/
+  - kind: minutes without them
+    date: '2005-07-31'
+    subject: IETF 63 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/63/minutes/opsec.html
   - kind: shepherded
     documents:
     - draft-ietf-opsec-indicators-of-compromise
     - draft-ietf-opsec-probe-attribution
+- person: 137805
+  name: Pat Cain
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2005-07-31'
+    end:
+      certainty: between
+      not_before: '2005-07-31'
+      not_after: '2005-09-27'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2005-09-27)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2005-07-31'
+    last: '2005-07-31'
+    examples:
+    - date: '2005-07-31'
+      subject: IETF 63 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/63/minutes/opsec.html
+  - kind: minutes without them
+    date: '2005-09-27'
+    subject: IETF 64 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/64/opsec.html

@@ -11,6 +11,58 @@ chartered: '1995-06-15'
 bof_sessions: []
 history_url: https://datatracker.ietf.org/group/hubmib/history/
 chairs:
+- person: 2731
+  name: Keith McCloghrie
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1995-07-17'
+    end:
+      certainty: between
+      not_before: '1995-07-17'
+      not_after: '2002-01-08'
+    notes:
+    - 'End: no longer listed among the chairs in meeting minutes (2002-01-08)'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '1995-07-17'
+    last: '1995-07-17'
+    examples:
+    - date: '1995-07-17'
+      subject: IETF 33 proceedings charter
+      url: https://www.ietf.org/proceedings/33/area.and.wg.reports/mgt/hubmib/hubmib-charter.txt
+  - kind: minutes without them
+    date: '2002-01-08'
+    subject: '[Hubmib] Preliminary Minutes of the SLC Joint Meeting of hubmib and atommib'
+    url: https://mailarchive.ietf.org/arch/msg/hubmib/gZleS6dQ9avq3C57Ktid_bEvlC4/
+- person: 4029
+  name: Donna McMaster
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1995-07-17'
+    end:
+      certainty: between
+      not_before: '1995-07-17'
+      not_after: '2002-01-08'
+    notes:
+    - 'End: no longer listed among the chairs in meeting minutes (2002-01-08)'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '1995-07-17'
+    last: '1995-07-17'
+    examples:
+    - date: '1995-07-17'
+      subject: IETF 33 proceedings charter
+      url: https://www.ietf.org/proceedings/33/area.and.wg.reports/mgt/hubmib/hubmib-charter.txt
+  - kind: minutes without them
+    date: '2002-01-08'
+    subject: '[Hubmib] Preliminary Minutes of the SLC Joint Meeting of hubmib and atommib'
+    url: https://mailarchive.ietf.org/arch/msg/hubmib/gZleS6dQ9avq3C57Ktid_bEvlC4/
 - person: 6699
   name: Dan Romascanu
   status: unconfirmed
@@ -30,13 +82,16 @@ chairs:
     subject: 'WG Action: RECHARTER: Ethernet Interfaces and Hub MIB (hubmib)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/x-AtpEovmOnSEnFqlz9ueiUldhU/
   - kind: minutes
-    listed_in: 2
+    listed_in: 3
     first: '2002-01-08'
     last: '2002-04-05'
     examples:
     - date: '2002-01-08'
       subject: '[Hubmib] Preliminary Minutes of the SLC Joint Meeting of hubmib and atommib'
       url: https://mailarchive.ietf.org/arch/msg/hubmib/gZleS6dQ9avq3C57Ktid_bEvlC4/
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/minutes/hubmib.htm
     - date: '2002-04-05'
       subject: '[Hubmib] Minutes of the Joint Meeting of hubmib and atommib at the 53rd IETF'
       url: https://mailarchive.ietf.org/arch/msg/hubmib/2-HqpEG3tdBRjPfmS9-Biz_FBKM/
@@ -108,13 +163,16 @@ chairs:
       not_before: '2002-04-05'
   evidence:
   - kind: minutes
-    listed_in: 2
+    listed_in: 3
     first: '2002-01-08'
     last: '2002-04-05'
     examples:
     - date: '2002-01-08'
       subject: '[Hubmib] Preliminary Minutes of the SLC Joint Meeting of hubmib and atommib'
       url: https://mailarchive.ietf.org/arch/msg/hubmib/gZleS6dQ9avq3C57Ktid_bEvlC4/
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/minutes/hubmib.htm
     - date: '2002-04-05'
       subject: '[Hubmib] Minutes of the Joint Meeting of hubmib and atommib at the 53rd IETF'
       url: https://mailarchive.ietf.org/arch/msg/hubmib/2-HqpEG3tdBRjPfmS9-Biz_FBKM/

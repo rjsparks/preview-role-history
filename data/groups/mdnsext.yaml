@@ -14,6 +14,29 @@ bof_sessions:
   url: https://datatracker.ietf.org/meeting/85/session/mdnsext/
 history_url: https://datatracker.ietf.org/group/mdnsext/history/
 chairs:
+- person: 7262
+  name: Thomas Narten
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2012-11-04'
+    end:
+      certainty: evidence-only
+      not_before: '2012-11-04'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2012-11-04'
+    last: '2012-11-04'
+    examples:
+    - date: '2012-11-04'
+      subject: IETF 85 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/85/minutes/minutes-85-mdnsext.txt
+  - kind: BOF session
+    meeting: '85'
+    date: '2012-11-04'
+    url: https://datatracker.ietf.org/meeting/85/session/mdnsext/
 - person: 106461
   name: Tim Chown
   status: confirmed
@@ -35,6 +58,14 @@ chairs:
     - date: '2013-08-28'
       subject: '[mdnsext] Draft minutes, dnssdext BoF, Berlin'
       url: https://mailarchive.ietf.org/arch/msg/mdnsext/tqSazQ31JaypS6AWINluTDyj7LI/
+  - kind: minutes
+    listed_in: 1
+    first: '2012-11-04'
+    last: '2012-11-04'
+    examples:
+    - date: '2012-11-04'
+      subject: IETF 85 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/85/minutes/minutes-85-mdnsext.txt
   - kind: BOF session
     meeting: '85'
     date: '2012-11-04'

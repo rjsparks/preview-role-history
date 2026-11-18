@@ -60,6 +60,10 @@ chairs:
     - date: '2022-07-23'
       subject: '[dns-privacy] Minutes from IETF114'
       url: https://mailarchive.ietf.org/arch/msg/dns-privacy/d8SJFhPyNWBLqbWVCvdl7wap_bk/
+  - kind: minutes without them
+    date: '2016-04-03'
+    subject: IETF 95 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/95/minutes/minutes-95-dprive.txt
   - kind: shepherded
     documents:
     - draft-ietf-dprive-dnsoquic
@@ -108,6 +112,20 @@ chairs:
     - date: '2016-11-18'
       subject: '[dns-privacy] Call for Adoption: draft-mayrhofer-dprive-padding-profile'
       url: https://mailarchive.ietf.org/arch/msg/dns-privacy/YwOKYsqBcPn-htXdOcKvLpK_LoA/
+  - kind: minutes
+    listed_in: 3
+    first: '2015-07-19'
+    last: '2016-04-03'
+    examples:
+    - date: '2015-07-19'
+      subject: IETF 93 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/93/minutes/minutes-93-dprive.txt
+    - date: '2015-11-01'
+      subject: IETF 94 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/94/minutes/minutes-94-dprive.txt
+    - date: '2016-04-03'
+      subject: IETF 95 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/95/minutes/minutes-95-dprive.txt
   - kind: proceedings
     listed_in: 8
     first: '2014-07-20'
@@ -174,10 +192,16 @@ chairs:
       subject: '[dns-privacy] Working Group Last Call for draft-ietf-dprive-edns0-padding'
       url: https://mailarchive.ietf.org/arch/msg/dns-privacy/CiVh46EnPFtgU05Cn3XR04QEwXM/
   - kind: minutes
-    listed_in: 1
-    first: '2022-07-23'
+    listed_in: 4
+    first: '2015-07-19'
     last: '2022-07-23'
     examples:
+    - date: '2015-07-19'
+      subject: IETF 93 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/93/minutes/minutes-93-dprive.txt
+    - date: '2015-11-01'
+      subject: IETF 94 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/94/minutes/minutes-94-dprive.txt
     - date: '2022-07-23'
       subject: '[dns-privacy] Minutes from IETF114'
       url: https://mailarchive.ietf.org/arch/msg/dns-privacy/d8SJFhPyNWBLqbWVCvdl7wap_bk/

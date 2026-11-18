@@ -36,6 +36,14 @@ chairs:
     - date: '1993-12-09'
       subject: houston meeting minutes
       url: https://mailarchive.ietf.org/arch/msg/upsmib/cZdv_yWdxGUVuWY-AUr6j6XQu_o/
+  - kind: minutes
+    listed_in: 1
+    first: '1992-08-08'
+    last: '1992-08-08'
+    examples:
+    - date: '1992-08-08'
+      subject: minutes ups mib bof cambridge july 1992
+      url: https://mailarchive.ietf.org/arch/msg/upsmib/DFhA_8hmmrjk2hIbHw4NWvWvw0o/
   - kind: proceedings
     listed_in: 4
     first: '1997-03-06'
@@ -80,3 +88,7 @@ chairs:
     - date: '1998-08-20'
       subject: IETF 42 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/42/98aug-92.htm
+  - kind: minutes without them
+    date: '1992-08-08'
+    subject: minutes ups mib bof cambridge july 1992
+    url: https://mailarchive.ietf.org/arch/msg/upsmib/DFhA_8hmmrjk2hIbHw4NWvWvw0o/

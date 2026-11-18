@@ -20,7 +20,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2004-07-14'
+      not_after: '2003-11-09'
     end:
       certainty: between
       not_before: '2010-03-21'
@@ -51,6 +51,20 @@ chairs:
     - date: '2007-07-20'
       subject: Revised RADEXT Agenda for IETF-69
       url: https://mailarchive.ietf.org/arch/msg/radext/5PtPIkEBdqZTOmZ0PkbYyHghDzI/
+  - kind: minutes
+    listed_in: 5
+    first: '2003-11-09'
+    last: '2009-03-22'
+    examples:
+    - date: '2003-11-09'
+      subject: IETF 58 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/58/minutes/radext.htm
+    - date: '2005-11-06'
+      subject: IETF 64 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/64/minutes/radext.txt
+    - date: '2009-03-22'
+      subject: IETF 74 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/74/minutes/radext.htm
   - kind: proceedings
     listed_in: 13
     first: '2004-07-14'
@@ -66,9 +80,9 @@ chairs:
       subject: IETF 77 proceedings charter
       url: https://www.ietf.org/proceedings/77/radext.html
   - kind: minutes without them
-    date: '2011-03-27'
-    subject: Minutes of RADEXT meeting at IETF 80
-    url: https://mailarchive.ietf.org/arch/msg/radext/8WNIBXRJvkeJwy6SnKOO_m_b69c/
+    date: '2010-07-12'
+    subject: Draft minutes of the RADEXT Virtual Interim Meeting of July 12, 2010
+    url: https://mailarchive.ietf.org/arch/msg/radext/ajRUZcVtnOOnelTGWvQOxwujd-k/
   - kind: session requests
     meetings:
     - '65'
@@ -141,19 +155,19 @@ chairs:
       subject: WG Last Call on RADSEC
       url: https://mailarchive.ietf.org/arch/msg/radext/z8nW_n5A3U3-BQN5zBxoDW8DJuw/
   - kind: minutes
-    listed_in: 3
-    first: '2010-07-12'
+    listed_in: 11
+    first: '2003-11-09'
     last: '2011-03-27'
     examples:
-    - date: '2010-07-12'
-      subject: Draft minutes of the RADEXT Virtual Interim Meeting of July 12, 2010
-      url: https://mailarchive.ietf.org/arch/msg/radext/ajRUZcVtnOOnelTGWvQOxwujd-k/
-    - date: '2010-11-07'
-      subject: Minutes of RADEXT meeting at IETF 79
-      url: https://mailarchive.ietf.org/arch/msg/radext/Kd_SWTcdKbNvCXKx-282_r1KGnc/
+    - date: '2003-11-09'
+      subject: IETF 58 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/58/minutes/radext.htm
+    - date: '2005-11-06'
+      subject: IETF 64 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/64/minutes/radext.txt
     - date: '2011-03-27'
-      subject: Minutes of RADEXT meeting at IETF 80
-      url: https://mailarchive.ietf.org/arch/msg/radext/8WNIBXRJvkeJwy6SnKOO_m_b69c/
+      subject: IETF 80 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/80/minutes/radext.txt
   - kind: proceedings
     listed_in: 15
     first: '2004-07-14'
@@ -168,6 +182,10 @@ chairs:
     - date: '2010-11-07'
       subject: IETF 79 proceedings charter
       url: https://www.ietf.org/proceedings/79/radext.html
+  - kind: minutes without them
+    date: '2011-07-24'
+    subject: IETF 81 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/81/minutes/radext.txt
   - kind: session requests
     meetings:
     - '77'
@@ -261,9 +279,9 @@ chairs:
       subject: IETF 97 proceedings charter
       url: https://www.ietf.org/proceedings/97/radext.html
   - kind: minutes without them
-    date: '2011-03-27'
-    subject: Minutes of RADEXT meeting at IETF 80
-    url: https://mailarchive.ietf.org/arch/msg/radext/8WNIBXRJvkeJwy6SnKOO_m_b69c/
+    date: '2011-07-24'
+    subject: IETF 81 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/81/minutes/radext.txt
   - kind: shepherded
     documents:
     - draft-ietf-radext-ip-port-radius-ext
@@ -311,9 +329,9 @@ chairs:
       subject: IETF 97 proceedings charter
       url: https://www.ietf.org/proceedings/97/radext.html
   - kind: minutes without them
-    date: '2011-03-27'
-    subject: Minutes of RADEXT meeting at IETF 80
-    url: https://mailarchive.ietf.org/arch/msg/radext/8WNIBXRJvkeJwy6SnKOO_m_b69c/
+    date: '2011-07-24'
+    subject: IETF 81 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/81/minutes/radext.txt
   - kind: shepherded
     documents:
     - draft-ietf-radext-bigger-packets
@@ -364,6 +382,14 @@ chairs:
     - date: '2013-02-27'
       subject: '[radext] draft agenda has been uploaded'
       url: https://mailarchive.ietf.org/arch/msg/radext/-3b-FmuI30chywr_MBbsMywjJG0/
+  - kind: minutes
+    listed_in: 1
+    first: '2011-07-24'
+    last: '2011-07-24'
+    examples:
+    - date: '2011-07-24'
+      subject: IETF 81 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/81/minutes/radext.txt
   - kind: proceedings
     listed_in: 10
     first: '2011-03-27'
@@ -378,6 +404,10 @@ chairs:
     - date: '2014-03-02'
       subject: IETF 89 proceedings charter
       url: https://www.ietf.org/proceedings/89/radext.html
+  - kind: minutes without them
+    date: '2010-11-07'
+    subject: IETF 79 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/79/minutes/radext.txt
   - kind: shepherded
     documents:
     - draft-ietf-radext-dtls
@@ -411,13 +441,19 @@ chairs:
     excerpt: Please welcome Mauricio Sanchez as the new co-chair of the RADEXT WG, working together with
       Bernard Aboba.
   - kind: minutes
-    listed_in: 1
-    first: '2011-03-27'
-    last: '2011-03-27'
+    listed_in: 7
+    first: '2010-07-12'
+    last: '2011-07-24'
     examples:
-    - date: '2011-03-27'
-      subject: Minutes of RADEXT meeting at IETF 80
-      url: https://mailarchive.ietf.org/arch/msg/radext/8WNIBXRJvkeJwy6SnKOO_m_b69c/
+    - date: '2010-07-12'
+      subject: Draft minutes of the RADEXT Virtual Interim Meeting of July 12, 2010
+      url: https://mailarchive.ietf.org/arch/msg/radext/ajRUZcVtnOOnelTGWvQOxwujd-k/
+    - date: '2010-07-25'
+      subject: IETF 78 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/78/minutes/radext.txt
+    - date: '2011-07-24'
+      subject: IETF 81 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/81/minutes/radext.txt
   - kind: proceedings
     listed_in: 11
     first: '2010-06-21'
@@ -432,6 +468,10 @@ chairs:
     - date: '2013-11-03'
       subject: IETF 88 proceedings charter
       url: https://www.ietf.org/proceedings/88/radext.html
+  - kind: minutes without them
+    date: '2009-03-22'
+    subject: IETF 74 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/74/minutes/radext.htm
   - kind: session requests
     meetings:
     - '79'

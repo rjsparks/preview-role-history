@@ -45,9 +45,9 @@ chairs:
       subject: IETF 45 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-41.html
   - kind: minutes without them
-    date: '1999-09-29'
-    subject: IETF 46 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-69.html
+    date: '2002-03-17'
+    subject: IETF 53 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/53/minutes/aaa.htm
 - person: 5395
   name: Paul Krumviede
   status: unconfirmed
@@ -85,9 +85,9 @@ chairs:
       subject: IETF 48 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/48/00july-58.htm
   - kind: minutes without them
-    date: '2000-10-11'
-    subject: IETF 49 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/49/00dec-64.htm
+    date: '2002-03-17'
+    subject: IETF 53 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/53/minutes/aaa.htm
 - person: 12620
   name: Bernard Aboba
   status: confirmed
@@ -110,6 +110,20 @@ chairs:
     - date: '2004-07-06'
       subject: '[AAA-WG]: Proposed AAA WG Agenda for IETF 60'
       url: https://mailarchive.ietf.org/arch/msg/aaa/kHd64frikwD6BVYGsog2QoMnVhw/
+  - kind: minutes
+    listed_in: 6
+    first: '2002-03-17'
+    last: '2004-08-01'
+    examples:
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/minutes/aaa.htm
+    - date: '2003-03-16'
+      subject: IETF 56 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/56/minutes/aaa.htm
+    - date: '2004-08-01'
+      subject: IETF 60 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/60/minutes/aaa.htm
   - kind: proceedings
     listed_in: 18
     first: '1999-09-29'
@@ -138,6 +152,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2000-10-11)'
   evidence:
+  - kind: minutes
+    listed_in: 6
+    first: '2002-03-17'
+    last: '2004-08-01'
+    examples:
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/minutes/aaa.htm
+    - date: '2003-03-16'
+      subject: IETF 56 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/56/minutes/aaa.htm
+    - date: '2004-08-01'
+      subject: IETF 60 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/60/minutes/aaa.htm
   - kind: proceedings
     listed_in: 15
     first: '2000-10-11'
@@ -159,12 +187,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2003-10-24'
-      not_before: '1999-02-22'
+      not_before: '2003-07-13'
     end:
       certainty: group-closed
       date: '2007-01-29'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2003-10-24)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2003-07-13)'
   evidence:
   - kind: chair activity
     first: '2004-09-01'
@@ -174,6 +203,17 @@ chairs:
     - date: '2004-09-01'
       subject: '[AAA-WG]: IETF 60 meeting minutes'
       url: https://mailarchive.ietf.org/arch/msg/aaa/ZpVcyM-2iZgDSB972anehtaGRgc/
+  - kind: minutes
+    listed_in: 2
+    first: '2003-11-09'
+    last: '2004-08-01'
+    examples:
+    - date: '2003-11-09'
+      subject: IETF 58 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/58/minutes/aaa.htm
+    - date: '2004-08-01'
+      subject: IETF 60 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/60/minutes/aaa.htm
   - kind: proceedings
     listed_in: 7
     first: '2003-10-24'
@@ -188,3 +228,7 @@ chairs:
     - date: '2006-03-24'
       subject: IETF 66 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/66/aaa.html
+  - kind: minutes without them
+    date: '2003-07-13'
+    subject: IETF 57 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/57/minutes/aaa.htm

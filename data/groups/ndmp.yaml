@@ -33,7 +33,18 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-12-10'
+      date: '2002-03-17'
     end:
       certainty: group-closed
       date: '2003-12-10'
+    notes:
+    - 'Start: listed as chair in meeting minutes (2002-03-17)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2002-03-17'
+    last: '2002-03-17'
+    examples:
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/minutes/ndmp.htm

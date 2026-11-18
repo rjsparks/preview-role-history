@@ -121,6 +121,33 @@ class ValidateTests(DataDirMixin, unittest.TestCase):
         self.assertTrue(any("appears twice" in m for m in self.problems()))
 
 
+class MissingGroupTests(DataDirMixin, unittest.TestCase):
+    def jabber(self, **overrides):
+        g = group(acronym="jabber", name="Jabber Protocol BOF", type="bof", state="bof-conc", parent=None,
+                  started=None, closed=None, history_url=None, datatracker=False,
+                  sources=["https://www.ietf.org/proceedings/54/minutes/jabber.htm"])
+        g["chairs"][0]["status"] = "contributed"
+        g["chairs"][0]["sources"] = ["https://www.ietf.org/proceedings/54/minutes/jabber.htm"]
+        g["chairs"][0]["periods"] = [{"start": {"certainty": "approximate", "date": "2002-07-15"},
+                                       "end": {"certainty": "approximate", "date": "2002-07-15"}}]
+        g.update(overrides)
+        return g
+
+    def test_a_group_unknown_to_the_datatracker(self):
+        self.write_group(self.jabber())
+        self.assertEqual(self.problems(), [])
+        out = self.root / "site"
+        render.Site(cd.load(self.data), out, "example/chairs").build(Path(__file__).parent.parent / "site")
+        page = (out / "groups" / "jabber.html").read_text()
+        self.assertIn("Not in the datatracker", page)
+        self.assertNotIn("datatracker.ietf.org/group/jabber", page)
+        self.assertIn("missing-group.yml", (out / "groups.html").read_text())
+
+    def test_it_needs_sources(self):
+        self.write_group(self.jabber(sources=[]))
+        self.assertTrue(any("needs a `sources` list" in m for m in self.problems()))
+
+
 class SourcesRequiredTests(DataDirMixin, unittest.TestCase):
     def git(self, *args):
         subprocess.run(["git", *args], cwd=self.root, check=True, capture_output=True)

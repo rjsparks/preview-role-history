@@ -11,6 +11,40 @@ chartered: '2011-11-07'
 bof_sessions: []
 history_url: https://datatracker.ietf.org/group/repute/history/
 chairs:
+- person: 21684
+  name: Barry Leiba
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2011-07-24'
+    end:
+      certainty: between
+      not_before: '2011-07-29'
+      not_after: '2011-11-13'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-11-13)'
+  evidence:
+  - kind: chair activity
+    first: '2011-07-29'
+    last: '2011-07-29'
+    messages: 1
+    examples:
+    - date: '2011-07-29'
+      subject: '[domainrep] Minutes from the BoF posted'
+      url: https://mailarchive.ietf.org/arch/msg/domainrep/4dexDjKEF29gBrQ1OdMMj4gav-k/
+  - kind: proceedings
+    listed_in: 1
+    first: '2011-07-24'
+    last: '2011-07-24'
+    examples:
+    - date: '2011-07-24'
+      subject: IETF 81 proceedings charter
+      url: https://www.ietf.org/proceedings/81/repute.html
+  - kind: minutes without them
+    date: '2011-11-13'
+    subject: IETF 82 proceedings charter
+    url: https://www.ietf.org/proceedings/82/repute.html
 - person: 100927
   name: Dave Crocker
   status: confirmed

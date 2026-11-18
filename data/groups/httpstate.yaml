@@ -40,10 +40,13 @@ chairs:
       subject: '[http-state] Draft httpstate agenda for IETF-78 Maastricht'
       url: https://mailarchive.ietf.org/arch/msg/http-state/-NCzpJmQ6z1o7G4vAm0wlOt5LBY/
   - kind: minutes
-    listed_in: 1
-    first: '2010-08-20'
+    listed_in: 2
+    first: '2010-07-25'
     last: '2010-08-20'
     examples:
+    - date: '2010-07-25'
+      subject: IETF 78 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/78/minutes/httpstate.txt
     - date: '2010-08-20'
       subject: '[http-state] Draft httpstate minutes IETF-78 Maastricht'
       url: https://mailarchive.ietf.org/arch/msg/http-state/4i2HAtD4C-4eA5xnggdw1x9J0aw/
@@ -66,3 +69,22 @@ chairs:
     - '77'
     - '78'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 110899
+  name: Eran Hammer-Lahav
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2009-11-08'
+    end:
+      certainty: evidence-only
+      not_before: '2009-11-08'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2009-11-08'
+    last: '2009-11-08'
+    examples:
+    - date: '2009-11-08'
+      subject: IETF 76 proceedings charter
+      url: https://www.ietf.org/proceedings/76/httpstate.html

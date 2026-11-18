@@ -29,6 +29,14 @@ chairs:
       certainty: exact
       date: '2015-10-01'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2015-07-19'
+    last: '2015-07-19'
+    examples:
+    - date: '2015-07-19'
+      subject: IETF 93 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/93/minutes/minutes-93-capport.txt
   - kind: proceedings
     listed_in: 1
     first: '2014-07-20'
@@ -90,6 +98,10 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/capport.html
+  - kind: minutes without them
+    date: '2015-07-19'
+    subject: IETF 93 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/93/minutes/minutes-93-capport.txt
   - kind: shepherded
     documents:
     - draft-ietf-capport-api
@@ -133,6 +145,10 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/capport.html
+  - kind: minutes without them
+    date: '2015-07-19'
+    subject: IETF 93 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/93/minutes/minutes-93-capport.txt
   - kind: joined the IESG
     after_meeting: '107'
     after: '2020-03-23'
@@ -169,6 +185,14 @@ chairs:
     - date: '2015-08-06'
       subject: '[Captive-portals] Draft minutes from IETF93 - Prague.'
       url: https://mailarchive.ietf.org/arch/msg/captive-portals/3mq86ZEjDulTN3kerThCyAfGV1s/
+  - kind: minutes
+    listed_in: 1
+    first: '2015-07-19'
+    last: '2015-07-19'
+    examples:
+    - date: '2015-07-19'
+      subject: IETF 93 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/93/minutes/minutes-93-capport.txt
   - kind: proceedings
     listed_in: 5
     first: '2014-07-20'

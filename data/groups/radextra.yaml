@@ -6,7 +6,7 @@ state: abandon
 started: '2022-09-30'
 closed: '2022-10-13'
 bof: true
-never_chartered: false
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '115'
@@ -22,5 +22,12 @@ chairs:
       certainty: exact
       date: '2022-10-13'
     end:
-      certainty: group-closed
-      date: '2022-10-13'
+      certainty: between
+      not_before: '2022-11-05'
+    notes:
+    - 'End: after the BOF''s last session, IETF 115 (2022-11-05)'
+  evidence:
+  - kind: BOF session
+    meeting: '115'
+    date: '2022-11-05'
+    url: https://datatracker.ietf.org/meeting/115/session/radextra/

@@ -16,14 +16,16 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '2009-04-22'
+      certainty: between
+      not_before: '2008-07-27'
+      not_after: '2008-11-16'
     end:
       certainty: between
-      not_before: '2011-03-27'
-      not_after: '2011-07-24'
+      not_before: '2011-07-24'
+      not_after: '2011-11-13'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-07-24)'
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-11-13)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2008-07-27)'
   evidence:
   - kind: WG Action
     date: '2010-10-12'
@@ -37,6 +39,20 @@ chairs:
     - date: '2009-05-29'
       subject: '[alto] WGLC: draft-ietf-alto-problem-statement-01'
       url: https://mailarchive.ietf.org/arch/msg/alto/zmylnaDNGz8TJ70K_G16PkSS3Ys/
+  - kind: minutes
+    listed_in: 8
+    first: '2008-11-16'
+    last: '2011-07-24'
+    examples:
+    - date: '2008-11-16'
+      subject: IETF 73 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/73/minutes/alto.html
+    - date: '2009-03-22'
+      subject: IETF 74 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/74/minutes/alto.html
+    - date: '2011-07-24'
+      subject: IETF 81 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/81/minutes/alto.html
   - kind: proceedings
     listed_in: 5
     first: '2009-04-22'
@@ -52,9 +68,13 @@ chairs:
       subject: IETF 80 proceedings charter
       url: https://www.ietf.org/proceedings/80/alto.html
   - kind: minutes without them
-    date: '2020-07-27'
-    subject: '[alto] ALTO Minutes from IETF-108'
-    url: https://mailarchive.ietf.org/arch/msg/alto/o5eL1q9V_ghpXR8Ys-pYxuQRnR4/
+    date: '2008-07-27'
+    subject: IETF 72 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/72/minutes/alto.txt
+  - kind: minutes without them
+    date: '2011-11-13'
+    subject: IETF 82 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/82/minutes/alto.html
 - person: 106812
   name: Vijay Gurbani
   status: confirmed
@@ -105,10 +125,16 @@ chairs:
       subject: '[alto] Call for adoption for incremental updates and server-side notifications'
       url: https://mailarchive.ietf.org/arch/msg/alto/1nLabIj25PJz3M0SOuXAAdLlSBs/
   - kind: minutes
-    listed_in: 1
-    first: '2020-07-27'
+    listed_in: 20
+    first: '2008-07-27'
     last: '2020-07-27'
     examples:
+    - date: '2008-07-27'
+      subject: IETF 72 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/72/minutes/alto.txt
+    - date: '2008-11-16'
+      subject: IETF 73 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/73/minutes/alto.html
     - date: '2020-07-27'
       subject: '[alto] ALTO Minutes from IETF-108'
       url: https://mailarchive.ietf.org/arch/msg/alto/o5eL1q9V_ghpXR8Ys-pYxuQRnR4/
@@ -177,6 +203,20 @@ chairs:
     - date: '2013-10-03'
       subject: '[alto] WGLC (second): draft-ietf-alto-protocol-20'
       url: https://mailarchive.ietf.org/arch/msg/alto/PcNHiaSlQrwjIlS05tVW3KHzZkU/
+  - kind: minutes
+    listed_in: 19
+    first: '2008-07-27'
+    last: '2015-03-22'
+    examples:
+    - date: '2008-07-27'
+      subject: IETF 72 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/72/minutes/alto.txt
+    - date: '2008-11-16'
+      subject: IETF 73 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/73/minutes/alto.html
+    - date: '2015-03-22'
+      subject: IETF 92 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/92/minutes/minutes-92-alto.txt
   - kind: proceedings
     listed_in: 19
     first: '2009-04-22'
@@ -192,9 +232,9 @@ chairs:
       subject: IETF 94 proceedings charter
       url: https://www.ietf.org/proceedings/94/alto.html
   - kind: minutes without them
-    date: '2020-07-27'
-    subject: '[alto] ALTO Minutes from IETF-108'
-    url: https://mailarchive.ietf.org/arch/msg/alto/o5eL1q9V_ghpXR8Ys-pYxuQRnR4/
+    date: '2016-07-17'
+    subject: IETF 96 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-alto.html
   - kind: session requests
     meetings:
     - '74'
@@ -264,10 +304,16 @@ chairs:
       subject: '[alto] Working Group Last Call on draft-ietf-alto-incr-update-sse-02'
       url: https://mailarchive.ietf.org/arch/msg/alto/mnuzhFkDTBDTuRMSDIV2GKXk96A/
   - kind: minutes
-    listed_in: 1
-    first: '2020-07-27'
+    listed_in: 4
+    first: '2014-11-09'
     last: '2020-07-27'
     examples:
+    - date: '2014-11-09'
+      subject: IETF 91 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/91/minutes/minutes-91-alto.txt
+    - date: '2015-03-22'
+      subject: IETF 92 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/92/minutes/minutes-92-alto.txt
     - date: '2020-07-27'
       subject: '[alto] ALTO Minutes from IETF-108'
       url: https://mailarchive.ietf.org/arch/msg/alto/o5eL1q9V_ghpXR8Ys-pYxuQRnR4/
@@ -285,6 +331,10 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/alto.html
+  - kind: minutes without them
+    date: '2013-11-03'
+    subject: IETF 88 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/88/minutes/minutes-88-alto.html
   - kind: shepherded
     documents:
     - draft-ietf-alto-multi-cost

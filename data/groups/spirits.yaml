@@ -20,16 +20,29 @@ chairs:
       date: '1999-10-22'
       not_before: '1999-10-01'
     end:
-      certainty: on-or-before
-      date: '2002-07-14'
+      certainty: group-closed
+      date: '2005-05-05'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1999-10-22)'
-    - 'End: became an Area Director, first serving at IETF 54 (2002-07-14)'
   evidence:
   - kind: WG Action
     date: '1999-10-27'
     subject: 'WG ACTION: Service in the PSTN/IN Requesting InTernet Service (spirits)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/DAY8CrwsUe-tWPIx2RqXcCAOOck/
+  - kind: minutes
+    listed_in: 5
+    first: '2001-08-05'
+    last: '2003-03-16'
+    examples:
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/minutes/SPIRITS.HTM
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/minutes/spirits.htm
+    - date: '2003-03-16'
+      subject: IETF 56 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/56/minutes/spirits.htm
   - kind: proceedings
     listed_in: 12
     first: '1999-10-22'
@@ -44,11 +57,6 @@ chairs:
     - date: '2003-03-31'
       subject: IETF 62 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/62/spirits.html
-  - kind: joined the IESG
-    after_meeting: '53'
-    after: '2002-03-17'
-    by_meeting: '54'
-    by: '2002-07-14'
 - person: 101245
   name: Alec Brusilovsky
   status: confirmed
@@ -67,6 +75,20 @@ chairs:
     date: '1999-10-27'
     subject: 'WG ACTION: Service in the PSTN/IN Requesting InTernet Service (spirits)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/DAY8CrwsUe-tWPIx2RqXcCAOOck/
+  - kind: minutes
+    listed_in: 5
+    first: '2001-08-05'
+    last: '2003-03-16'
+    examples:
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/minutes/SPIRITS.HTM
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/minutes/spirits.htm
+    - date: '2003-03-16'
+      subject: IETF 56 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/56/minutes/spirits.htm
   - kind: proceedings
     listed_in: 12
     first: '1999-10-22'

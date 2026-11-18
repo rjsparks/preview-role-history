@@ -33,6 +33,17 @@ chairs:
     subject: '[Isms] New co-chair'
     url: https://mailarchive.ietf.org/arch/msg/isms/PK-dTcGRdvKnwIB-vPgX9k0wQw0/
     excerpt: Tim and I are happy to announce that Russ Mundy has agreed to co-chair the ISMS WG with Juergen.
+  - kind: minutes
+    listed_in: 2
+    first: '2009-11-08'
+    last: '2010-11-07'
+    examples:
+    - date: '2009-11-08'
+      subject: IETF 76 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/76/minutes/isms.txt
+    - date: '2010-11-07'
+      subject: IETF 79 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/79/minutes/isms.txt
   - kind: proceedings
     listed_in: 6
     first: '2009-08-04'
@@ -47,6 +58,10 @@ chairs:
     - date: '2011-03-27'
       subject: IETF 80 proceedings charter
       url: https://www.ietf.org/proceedings/80/isms.html
+  - kind: minutes without them
+    date: '2007-07-22'
+    subject: IETF 69 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/69/minutes/isms.txt
 - person: 21106
   name: Jürgen Schönwälder
   status: confirmed
@@ -54,12 +69,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2005-10-24'
-      not_before: '2004-09-02'
+      not_before: '2005-07-31'
     end:
       certainty: group-closed
       date: '2011-08-12'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2005-10-24)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2005-07-31)'
   evidence:
   - kind: WG Action
     date: '2005-10-25'
@@ -93,6 +109,20 @@ chairs:
     - date: '2009-10-29'
       subject: '[Isms] wg last call on the (d)tls transport model'
       url: https://mailarchive.ietf.org/arch/msg/isms/8ah-r_EhyyePQF38itmJYXJjon8/
+  - kind: minutes
+    listed_in: 12
+    first: '2005-11-06'
+    last: '2010-11-07'
+    examples:
+    - date: '2005-11-06'
+      subject: IETF 64 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/64/minutes/isms.txt
+    - date: '2006-03-19'
+      subject: IETF 65 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/65/minutes/isms.txt
+    - date: '2010-11-07'
+      subject: IETF 79 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/79/minutes/isms.txt
   - kind: proceedings
     listed_in: 12
     first: '2005-10-24'
@@ -107,6 +137,10 @@ chairs:
     - date: '2011-03-27'
       subject: IETF 80 proceedings charter
       url: https://www.ietf.org/proceedings/80/isms.html
+  - kind: minutes without them
+    date: '2005-07-31'
+    subject: IETF 63 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/63/minutes/isms.html
   - kind: session requests
     meetings:
     - '72'
@@ -159,6 +193,17 @@ chairs:
     - date: '2004-11-09'
       subject: '[Isms] DRAFT minutes for ISMS'
       url: https://mailarchive.ietf.org/arch/msg/isms/zQZKoEUQYUH2igcaBA-_HEzezic/
+  - kind: minutes
+    listed_in: 2
+    first: '2005-03-06'
+    last: '2005-07-31'
+    examples:
+    - date: '2005-03-06'
+      subject: IETF 62 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/62/minutes/isms.html
+    - date: '2005-07-31'
+      subject: IETF 63 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/63/minutes/isms.html
   - kind: proceedings
     listed_in: 3
     first: '2004-10-04'
@@ -173,6 +218,10 @@ chairs:
     - date: '2005-07-08'
       subject: IETF 63 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/63/isms.html
+  - kind: minutes without them
+    date: '2005-11-06'
+    subject: IETF 64 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/64/minutes/isms.txt
 - person: 103651
   name: Juergen Quittek
   status: unconfirmed
@@ -226,6 +275,20 @@ chairs:
     - date: '2007-07-18'
       subject: '[Isms] Working Group Last Call on three documents'
       url: https://mailarchive.ietf.org/arch/msg/isms/DcHFXMjNHROVNddHCrhWxwWpf5k/
+  - kind: minutes
+    listed_in: 8
+    first: '2005-03-06'
+    last: '2007-07-22'
+    examples:
+    - date: '2005-03-06'
+      subject: IETF 62 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/62/minutes/isms.html
+    - date: '2005-07-31'
+      subject: IETF 63 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/63/minutes/isms.html
+    - date: '2007-07-22'
+      subject: IETF 69 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/69/minutes/isms.txt
   - kind: proceedings
     listed_in: 7
     first: '2004-10-04'
@@ -241,9 +304,9 @@ chairs:
       subject: IETF 69 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/69/isms.html
   - kind: minutes without them
-    date: '2009-08-04'
-    subject: IETF 75 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/75/isms.html
+    date: '2009-11-08'
+    subject: IETF 76 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/76/minutes/isms.txt
   - kind: session requests
     meetings:
     - '65'

@@ -19,7 +19,8 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2003-03-16'
       not_after: '2004-05-19'
     end:
       certainty: between
@@ -27,11 +28,16 @@ chairs:
       not_after: '2004-06-15'
     notes:
     - 'End: no longer listed among the chairs in a proceedings charter snapshot (2004-06-15)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2003-03-16)'
   evidence:
   - kind: WG Action
     date: '2004-05-19'
     subject: 'WG Action: RECHARTER: WWW Distributed Authoring and Versioning (webdav)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/2vcgzFsJ4kAnOEvHBemGC1z9cic/
+  - kind: minutes without them
+    date: '2003-03-16'
+    subject: IETF 56 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/56/minutes/webdav.htm
   - kind: minutes without them
     date: '2004-06-15'
     subject: IETF 60 proceedings charter, as last modified
@@ -50,6 +56,14 @@ chairs:
     notes:
     - 'End: no longer listed among the chairs in a proceedings charter snapshot (2004-06-15)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2003-03-16'
+    last: '2003-03-16'
+    examples:
+    - date: '2003-03-16'
+      subject: IETF 56 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/56/minutes/webdav.htm
   - kind: proceedings
     listed_in: 10
     first: '2001-03-14'
@@ -82,6 +96,14 @@ chairs:
     notes:
     - 'End: became an Area Director, first serving at IETF 66 (2006-07-09)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2003-03-16'
+    last: '2003-03-16'
+    examples:
+    - date: '2003-03-16'
+      subject: IETF 56 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/56/minutes/webdav.htm
   - kind: proceedings
     listed_in: 10
     first: '2002-01-30'
@@ -108,12 +130,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2005-06-14'
-      not_before: '1997-03-12'
+      not_before: '2003-03-16'
     end:
       certainty: on-or-before
       date: '2006-07-09'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2005-06-14)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2003-03-16)'
     - 'End: became an Area Director, first serving at IETF 66 (2006-07-09)'
   evidence:
   - kind: proceedings
@@ -127,6 +150,10 @@ chairs:
     - date: '2006-02-15'
       subject: IETF 65 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/65/webdav.html
+  - kind: minutes without them
+    date: '2003-03-16'
+    subject: IETF 56 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/56/minutes/webdav.htm
   - kind: joined the IESG
     after_meeting: '65'
     after: '2006-03-19'
@@ -137,11 +164,14 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2003-03-16'
       not_after: '2004-06-15'
     end:
       certainty: evidence-only
       not_before: '2005-02-01'
+    notes:
+    - 'Start: not yet listed among the chairs in meeting minutes (2003-03-16)'
   evidence:
   - kind: proceedings
     listed_in: 3
@@ -157,6 +187,10 @@ chairs:
     - date: '2005-02-01'
       subject: IETF 62 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/62/webdav.html
+  - kind: minutes without them
+    date: '2003-03-16'
+    subject: IETF 56 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/56/minutes/webdav.htm
 - person: 123163
   name: E. Whitehead
   status: unconfirmed
@@ -186,6 +220,6 @@ chairs:
       subject: IETF 49 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/49/00dec-31.htm
   - kind: minutes without them
-    date: '2002-01-30'
-    subject: IETF 53 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/53/129.htm
+    date: '2003-03-16'
+    subject: IETF 56 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/56/minutes/webdav.htm

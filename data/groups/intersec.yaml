@@ -6,7 +6,7 @@ state: conclude
 started: null
 closed: '2003-12-10'
 bof: true
-never_chartered: false
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '56'
@@ -31,11 +31,36 @@ chairs:
       certainty: on-or-before
       date: '2003-03-16'
     end:
-      certainty: group-closed
-      date: '2003-12-10'
+      certainty: between
+      not_before: '2007-07-22'
     notes:
+    - 'End: after the BOF''s last session, IETF 69 (2007-07-22)'
     - 'Start: listed as chair in a proceedings charter snapshot (2003-03-16)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2003-03-16'
+    last: '2003-03-16'
+    examples:
+    - date: '2003-03-16'
+      subject: IETF 56 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/56/minutes/intersec.htm
+  - kind: BOF session
+    meeting: '56'
+    date: '2003-03-16'
+    url: https://www.ietf.org/proceedings/56/248.htm
+  - kind: BOF session
+    meeting: '67'
+    date: '2006-11-05'
+    url: https://www.ietf.org/proceedings/67/IDs/draft-sarolahti-tsvwg-crosslayer-00.txt
+  - kind: BOF session
+    meeting: '68'
+    date: '2007-03-18'
+    url: https://www.ietf.org/proceedings/68/IDs/draft-sarolahti-tsvwg-crosslayer-01.txt
+  - kind: BOF session
+    meeting: '69'
+    date: '2007-07-22'
+    url: https://www.ietf.org/proceedings/69/IDs/draft-sarolahti-tsvwg-crosslayer-01.txt
   - kind: proceedings
     listed_in: 1
     first: '2003-03-16'

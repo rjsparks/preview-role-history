@@ -6,7 +6,7 @@ state: conclude
 started: null
 closed: '2005-05-11'
 bof: true
-never_chartered: false
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '58'
@@ -17,19 +17,66 @@ bof_sessions:
   url: https://www.ietf.org/proceedings/59/126.htm
 history_url: https://datatracker.ietf.org/group/iea/history/
 chairs:
+- person: 11182
+  name: Patrik Fältström
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2003-11-09'
+    end:
+      certainty: between
+      not_before: '2004-02-29'
+    notes:
+    - 'End: after the BOF''s last session, IETF 59 (2004-02-29)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2003-11-09'
+    last: '2003-11-09'
+    examples:
+    - date: '2003-11-09'
+      subject: IETF 58 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/58/minutes/iea.htm
+  - kind: BOF session
+    meeting: '58'
+    date: '2003-11-09'
+    url: https://www.ietf.org/proceedings/58/126.htm
+  - kind: BOF session
+    meeting: '59'
+    date: '2004-02-29'
+    url: https://www.ietf.org/proceedings/59/126.htm
 - person: 18321
   name: Pete Resnick
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-02-09'
+      date: '2003-11-09'
     end:
-      certainty: group-closed
-      date: '2005-05-11'
+      certainty: between
+      not_before: '2004-02-29'
+      not_after: '2011-07-24'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2004-02-09)'
+    - 'Start: the BOF met at IETF 58 (2003-11-09)'
+    - 'End: became an Area Director, first serving at IETF 81 (2011-07-24)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2003-11-09'
+    last: '2003-11-09'
+    examples:
+    - date: '2003-11-09'
+      subject: IETF 58 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/58/minutes/iea.htm
+  - kind: BOF session
+    meeting: '58'
+    date: '2003-11-09'
+    url: https://www.ietf.org/proceedings/58/126.htm
+  - kind: BOF session
+    meeting: '59'
+    date: '2004-02-29'
+    url: https://www.ietf.org/proceedings/59/126.htm
   - kind: proceedings
     listed_in: 1
     first: '2004-02-09'
@@ -38,3 +85,8 @@ chairs:
     - date: '2004-02-09'
       subject: IETF 61 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/61/iea.html
+  - kind: joined the IESG
+    after_meeting: '80'
+    after: '2011-03-27'
+    by_meeting: '81'
+    by: '2011-07-24'

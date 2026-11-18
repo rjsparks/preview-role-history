@@ -61,6 +61,20 @@ chairs:
     - date: '2010-01-26'
       subject: '[MEXT] WGLC for firewall drafts'
       url: https://mailarchive.ietf.org/arch/msg/mext/akng7Qfwf7iISI5ocd7Vn2XgBoU/
+  - kind: minutes
+    listed_in: 6
+    first: '2007-12-02'
+    last: '2009-11-08'
+    examples:
+    - date: '2007-12-02'
+      subject: IETF 70 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/70/minutes/mext.txt
+    - date: '2008-03-09'
+      subject: '[MEXT] IETF71 minutes'
+      url: https://mailarchive.ietf.org/arch/msg/mext/s_Z1w1DW4A2MCMxlNeMXmPFIdAw/
+    - date: '2009-11-08'
+      subject: IETF 76 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/76/minutes/mext.txt
   - kind: proceedings
     listed_in: 7
     first: '2007-11-26'
@@ -136,6 +150,20 @@ chairs:
     - date: '2011-04-19'
       subject: '[MEXT] IETF-80 meeting minutes posted'
       url: https://mailarchive.ietf.org/arch/msg/mext/SmEr2QYO2L0sIJ2iTDoQFPoS2FU/
+  - kind: minutes
+    listed_in: 6
+    first: '2007-12-02'
+    last: '2009-11-08'
+    examples:
+    - date: '2007-12-02'
+      subject: IETF 70 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/70/minutes/mext.txt
+    - date: '2008-03-09'
+      subject: '[MEXT] IETF71 minutes'
+      url: https://mailarchive.ietf.org/arch/msg/mext/s_Z1w1DW4A2MCMxlNeMXmPFIdAw/
+    - date: '2009-11-08'
+      subject: IETF 76 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/76/minutes/mext.txt
   - kind: proceedings
     listed_in: 8
     first: '2007-11-26'
@@ -164,12 +192,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2011-11-13'
-      not_before: '2007-06-18'
+      not_before: '2009-11-08'
     end:
       certainty: group-closed
       date: '2012-03-05'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2011-11-13)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2009-11-08)'
   evidence:
   - kind: WG Action
     date: '2012-01-10'
@@ -192,3 +221,7 @@ chairs:
     - date: '2011-11-13'
       subject: IETF 82 proceedings charter
       url: https://www.ietf.org/proceedings/82/mext.html
+  - kind: minutes without them
+    date: '2009-11-08'
+    subject: IETF 76 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/76/minutes/mext.txt

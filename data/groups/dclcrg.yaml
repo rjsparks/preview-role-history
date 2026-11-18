@@ -22,6 +22,14 @@ chairs:
       certainty: exact
       date: '2016-08-31'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2014-07-20'
+    last: '2014-07-20'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/90/minutes/minutes-90-dclcrg.txt
   - kind: proceedings
     listed_in: 6
     first: '2014-07-20'
@@ -61,3 +69,29 @@ chairs:
     - date: '2016-04-03'
       subject: IETF 95 proceedings charter
       url: https://www.ietf.org/proceedings/95/dclcrg.html
+- person: 116885
+  name: Lingli Deng
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2014-07-20'
+    end:
+      certainty: between
+      not_before: '2014-07-20'
+      not_after: '2014-11-09'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2014-11-09)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2014-07-20'
+    last: '2014-07-20'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/90/minutes/minutes-90-dclcrg.txt
+  - kind: minutes without them
+    date: '2014-11-09'
+    subject: IETF 91 proceedings charter
+    url: https://www.ietf.org/proceedings/91/dclcrg.html

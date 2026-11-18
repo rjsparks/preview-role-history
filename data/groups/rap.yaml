@@ -40,9 +40,9 @@ chairs:
       subject: IETF 49 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/49/00dec-80.htm
   - kind: minutes without them
-    date: '2001-03-14'
-    subject: IETF 50 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/50/ietf50-83.htm
+    date: '2001-08-05'
+    subject: IETF 51 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/51/minutes/RAP.htm
 - person: 23162
   name: Scott Hahn
   status: confirmed
@@ -57,6 +57,17 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2001-03-14)'
   evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '2001-08-05'
+    last: '2002-07-14'
+    examples:
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/minutes/RAP.htm
+    - date: '2002-07-14'
+      subject: IETF 54 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/54/minutes/rap.htm
   - kind: proceedings
     listed_in: 7
     first: '2001-03-14'
@@ -85,6 +96,17 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2000-02-29)'
   evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '2001-08-05'
+    last: '2002-07-14'
+    examples:
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/minutes/RAP.htm
+    - date: '2002-07-14'
+      subject: IETF 54 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/54/minutes/rap.htm
   - kind: proceedings
     listed_in: 10
     first: '2000-02-29'

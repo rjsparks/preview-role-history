@@ -11,6 +11,38 @@ chartered: '2009-04-28'
 bof_sessions: []
 history_url: https://datatracker.ietf.org/group/mif/history/
 chairs:
+- person: 15927
+  name: Dave Thaler
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2010-03-21'
+      not_after: '2011-07-24'
+    end:
+      certainty: between
+      not_before: '2011-07-24'
+      not_after: '2011-11-13'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-11-13)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2010-03-21)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2011-07-24'
+    last: '2011-07-24'
+    examples:
+    - date: '2011-07-24'
+      subject: IETF 81 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/81/minutes/mif.txt
+  - kind: minutes without them
+    date: '2010-03-21'
+    subject: IETF 77 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/77/minutes/mif.txt
+  - kind: minutes without them
+    date: '2012-07-29'
+    subject: IETF 84 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/84/minutes/minutes-84-mif.txt
 - person: 109884
   name: Hui Deng
   status: confirmed
@@ -61,6 +93,20 @@ chairs:
     - date: '2015-07-14'
       subject: '[mif] WGLC for draft-ietf-mif-mpvd-id'
       url: https://mailarchive.ietf.org/arch/msg/mif/u5kcM5XWLz5ZOtte2d-NlWk3dno/
+  - kind: minutes
+    listed_in: 10
+    first: '2009-03-22'
+    last: '2014-03-02'
+    examples:
+    - date: '2009-03-22'
+      subject: '[mif] MIF SFO Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/mif/wBJmc-edmZp1OxBBfM74ZvRBylM/
+    - date: '2009-03-22'
+      subject: IETF 74 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/74/minutes/mif.txt
+    - date: '2014-03-02'
+      subject: IETF 89 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/89/minutes/minutes-89-mif.TXT
   - kind: proceedings
     listed_in: 20
     first: '2009-03-22'
@@ -127,6 +173,20 @@ chairs:
     date: '2013-12-20'
     subject: 'WG Action: Rechartered Multiple Interfaces (mif)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/K0rxfhe70egCWsz0nHZufHzkyPM/
+  - kind: minutes
+    listed_in: 9
+    first: '2009-03-22'
+    last: '2013-11-03'
+    examples:
+    - date: '2009-03-22'
+      subject: '[mif] MIF SFO Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/mif/wBJmc-edmZp1OxBBfM74ZvRBylM/
+    - date: '2009-03-22'
+      subject: IETF 74 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/74/minutes/mif.txt
+    - date: '2013-11-03'
+      subject: IETF 88 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/88/minutes/minutes-88-mif.txt
   - kind: proceedings
     listed_in: 20
     first: '2009-03-22'

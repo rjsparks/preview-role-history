@@ -29,6 +29,20 @@ chairs:
     date: '2010-04-27'
     subject: 'WG Action: DECoupled Application Data Enroute (decade)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Njq0TUvhIZXn3twFy6_ECp5W2X8/
+  - kind: minutes
+    listed_in: 8
+    first: '2009-11-08'
+    last: '2011-11-13'
+    examples:
+    - date: '2009-11-08'
+      subject: IETF 76 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/76/minutes/decade.txt
+    - date: '2010-03-21'
+      subject: IETF 77 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/77/minutes/decade.html
+    - date: '2011-11-13'
+      subject: IETF 82 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/82/minutes/decade.txt
   - kind: proceedings
     listed_in: 9
     first: '2009-11-07'
@@ -51,6 +65,58 @@ chairs:
   - kind: shepherded
     documents:
     - draft-ietf-decade-problem-statement
+- person: 102154
+  name: Alexey Melnikov
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2009-11-07'
+    end:
+      certainty: between
+      not_before: '2009-11-07'
+      not_after: '2009-11-08'
+    notes:
+    - 'End: no longer listed among the chairs in meeting minutes (2009-11-08)'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2009-11-07'
+    last: '2009-11-07'
+    examples:
+    - date: '2009-11-07'
+      subject: IETF 76 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/76/decade.html
+  - kind: minutes without them
+    date: '2009-11-08'
+    subject: IETF 76 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/76/minutes/decade.txt
+- person: 107435
+  name: Enrico Marocco
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2009-11-07'
+    end:
+      certainty: between
+      not_before: '2009-11-07'
+      not_after: '2009-11-08'
+    notes:
+    - 'End: no longer listed among the chairs in meeting minutes (2009-11-08)'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2009-11-07'
+    last: '2009-11-07'
+    examples:
+    - date: '2009-11-07'
+      subject: IETF 76 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/76/decade.html
+  - kind: minutes without them
+    date: '2009-11-08'
+    subject: IETF 76 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/76/minutes/decade.txt
 - person: 108750
   name: Song Yongchao
   status: unconfirmed
@@ -96,8 +162,8 @@ chairs:
       url: https://www.ietf.org/proceedings/78/decade.html
   - kind: minutes without them
     date: '2010-11-07'
-    subject: IETF 79 proceedings charter
-    url: https://www.ietf.org/proceedings/79/decade.html
+    subject: IETF 79 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/79/minutes/decade.txt
 - person: 109430
   name: Haibin Song
   status: confirmed
@@ -126,6 +192,20 @@ chairs:
     - date: '2012-06-21'
       subject: '[decade] Working Group Last Call: draft-ietf-decade-arch-07'
       url: https://mailarchive.ietf.org/arch/msg/decade/vOdF3saaocJ5zjH7Xq4AqUYZVcQ/
+  - kind: minutes
+    listed_in: 8
+    first: '2009-11-08'
+    last: '2011-11-13'
+    examples:
+    - date: '2009-11-08'
+      subject: IETF 76 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/76/minutes/decade.txt
+    - date: '2010-03-21'
+      subject: IETF 77 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/77/minutes/decade.html
+    - date: '2011-11-13'
+      subject: IETF 82 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/82/minutes/decade.txt
   - kind: proceedings
     listed_in: 6
     first: '2010-11-07'

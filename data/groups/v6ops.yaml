@@ -16,15 +16,31 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2002-11-17'
       not_after: '2003-01-20'
     end:
       certainty: between
-      not_before: '2003-11-04'
+      not_before: '2003-11-09'
       not_after: '2004-02-12'
     notes:
     - 'End: no longer listed among the chairs in a proceedings charter snapshot (2004-02-12)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2002-11-17)'
   evidence:
+  - kind: minutes
+    listed_in: 3
+    first: '2003-07-13'
+    last: '2003-11-09'
+    examples:
+    - date: '2003-07-13'
+      subject: IETF 57 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/57/minutes/V6OPS.TXT
+    - date: '2003-07-13'
+      subject: IETF 57 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/57/minutes/v6ops.htm
+    - date: '2003-11-09'
+      subject: IETF 58 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/58/minutes/v6ops.htm
   - kind: proceedings
     listed_in: 3
     first: '2003-01-20'
@@ -40,9 +56,13 @@ chairs:
       subject: IETF 58 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/58/167.htm
   - kind: minutes without them
-    date: '2004-02-12'
-    subject: IETF 59 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/59/181.htm
+    date: '2002-11-17'
+    subject: IETF 55 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/55/minutes/v6ops.htm
+  - kind: minutes without them
+    date: '2004-02-29'
+    subject: IETF 59 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/59/minutes/v6ops.htm
 - person: 2853
   name: Fred Baker
   status: confirmed
@@ -50,12 +70,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2005-05-04'
-      not_before: '2002-08-12'
+      not_before: '2005-03-06'
     end:
       certainty: exact
       date: '2022-08-31'
     notes:
     - 'Start: named as chair in the WG Action announcement (2005-05-04)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2005-03-06)'
   evidence:
   - kind: WG Action
     date: '2005-05-04'
@@ -93,6 +114,20 @@ chairs:
     - date: '2014-12-20'
       subject: '[v6ops] Adoption call for draft-boucadair-6man-prefix-routing-reco'
       url: https://mailarchive.ietf.org/arch/msg/v6ops/saZ3L9mbC59SZO0l6u8R5zMdce4/
+  - kind: minutes
+    listed_in: 4
+    first: '2005-07-31'
+    last: '2016-07-17'
+    examples:
+    - date: '2005-07-31'
+      subject: IETF 63 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/63/minutes/v6ops.txt
+    - date: '2015-11-01'
+      subject: IETF 94 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/94/minutes/minutes-94-v6ops.txt
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/minutes/minutes-96-v6ops.txt
   - kind: proceedings
     listed_in: 27
     first: '2005-06-15'
@@ -107,6 +142,10 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/v6ops.html
+  - kind: minutes without them
+    date: '2005-03-06'
+    subject: IETF 62 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/62/minutes/v6ops.html
   - kind: session requests
     meetings:
     - '66'
@@ -163,12 +202,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2010-07-25'
-      not_before: '2002-08-12'
+      not_before: '2005-07-31'
     end:
       certainty: exact
       date: '2013-02-21'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2005-07-31)'
   evidence:
   - kind: chair activity
     first: '2010-09-13'
@@ -204,6 +244,14 @@ chairs:
     - date: '2012-11-04'
       subject: IETF 85 proceedings charter
       url: https://www.ietf.org/proceedings/85/v6ops.html
+  - kind: minutes without them
+    date: '2005-07-31'
+    subject: IETF 63 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/63/minutes/v6ops.txt
+  - kind: minutes without them
+    date: '2015-11-01'
+    subject: IETF 94 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/94/minutes/minutes-94-v6ops.txt
   - kind: session requests
     meetings:
     - '83'
@@ -271,6 +319,10 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/v6ops.html
+  - kind: minutes without them
+    date: '2016-07-17'
+    subject: IETF 96 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-v6ops.txt
   - kind: shepherded
     documents:
     - draft-ietf-v6ops-cpe-lan-pd
@@ -302,6 +354,14 @@ chairs:
     date: '2002-09-10'
     subject: 'WG ACTION: IPv6 Operations (v6ops)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/VCgQfCNCoSkyuKZM0ED5lKVUNxM/
+  - kind: minutes
+    listed_in: 1
+    first: '2002-11-17'
+    last: '2002-11-17'
+    examples:
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/minutes/v6ops.htm
   - kind: proceedings
     listed_in: 1
     first: '2003-01-20'
@@ -312,22 +372,38 @@ chairs:
       url: https://www.ietf.org/proceedings/56/167.htm
   - kind: minutes without them
     date: '2003-07-13'
-    subject: IETF 57 proceedings charter
-    url: https://www.ietf.org/proceedings/57/180.htm
+    subject: IETF 57 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/57/minutes/V6OPS.TXT
 - person: 105452
   name: Pekka Savola
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2002-11-17'
       not_after: '2003-07-13'
     end:
       certainty: between
-      not_before: '2005-01-24'
+      not_before: '2005-03-06'
       not_after: '2005-06-15'
     notes:
     - 'End: no longer listed among the chairs in a proceedings charter snapshot (2005-06-15)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2002-11-17)'
   evidence:
+  - kind: minutes
+    listed_in: 6
+    first: '2003-07-13'
+    last: '2005-03-06'
+    examples:
+    - date: '2003-07-13'
+      subject: IETF 57 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/57/minutes/V6OPS.TXT
+    - date: '2003-07-13'
+      subject: IETF 57 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/57/minutes/v6ops.htm
+    - date: '2005-03-06'
+      subject: IETF 62 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/62/minutes/v6ops.html
   - kind: proceedings
     listed_in: 6
     first: '2003-07-13'
@@ -343,23 +419,43 @@ chairs:
       subject: IETF 62 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/62/v6ops.html
   - kind: minutes without them
-    date: '2005-06-15'
-    subject: IETF 63 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/63/v6ops.html
+    date: '2002-11-17'
+    subject: IETF 55 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/55/minutes/v6ops.htm
+  - kind: minutes without them
+    date: '2005-07-31'
+    subject: IETF 63 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/63/minutes/v6ops.txt
 - person: 105800
   name: Jonne Soininen
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2003-07-13'
       not_after: '2003-11-04'
     end:
       certainty: between
-      not_before: '2005-01-24'
+      not_before: '2005-03-06'
       not_after: '2005-06-15'
     notes:
     - 'End: no longer listed among the chairs in a proceedings charter snapshot (2005-06-15)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2003-07-13)'
   evidence:
+  - kind: minutes
+    listed_in: 5
+    first: '2003-11-09'
+    last: '2005-03-06'
+    examples:
+    - date: '2003-11-09'
+      subject: IETF 58 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/58/minutes/v6ops.htm
+    - date: '2004-02-29'
+      subject: IETF 59 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/59/minutes/v6ops.htm
+    - date: '2005-03-06'
+      subject: IETF 62 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/62/minutes/v6ops.html
   - kind: proceedings
     listed_in: 5
     first: '2003-11-04'
@@ -375,15 +471,20 @@ chairs:
       subject: IETF 62 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/62/v6ops.html
   - kind: minutes without them
-    date: '2005-06-15'
-    subject: IETF 63 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/63/v6ops.html
+    date: '2003-07-13'
+    subject: IETF 57 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/57/minutes/v6ops.htm
+  - kind: minutes without them
+    date: '2005-07-31'
+    subject: IETF 63 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/63/minutes/v6ops.txt
 - person: 106114
   name: Kurt Lindqvist
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2005-03-06'
       not_after: '2005-05-04'
     end:
       certainty: between
@@ -391,11 +492,20 @@ chairs:
       not_after: '2011-07-24'
     notes:
     - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-07-24)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2005-03-06)'
   evidence:
   - kind: WG Action
     date: '2005-05-04'
     subject: 'WG Action: RECHARTER: IPv6 Operations (v6ops)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/BgUtHpa2MPmNwykBzBK1AKrtz5w/
+  - kind: minutes
+    listed_in: 1
+    first: '2005-07-31'
+    last: '2005-07-31'
+    examples:
+    - date: '2005-07-31'
+      subject: IETF 63 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/63/minutes/v6ops.txt
   - kind: proceedings
     listed_in: 9
     first: '2005-06-15'
@@ -411,9 +521,13 @@ chairs:
       subject: IETF 80 proceedings charter
       url: https://www.ietf.org/proceedings/80/v6ops.html
   - kind: minutes without them
-    date: '2011-07-24'
-    subject: IETF 81 proceedings charter
-    url: https://www.ietf.org/proceedings/81/v6ops.html
+    date: '2005-03-06'
+    subject: IETF 62 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/62/minutes/v6ops.html
+  - kind: minutes without them
+    date: '2015-11-01'
+    subject: IETF 94 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/94/minutes/minutes-94-v6ops.txt
 - person: 107618
   name: John Brzozowski
   status: confirmed
@@ -439,6 +553,14 @@ chairs:
     - date: '2014-03-02'
       subject: IETF 89 proceedings charter
       url: https://www.ietf.org/proceedings/89/v6ops.html
+  - kind: minutes without them
+    date: '2005-07-31'
+    subject: IETF 63 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/63/minutes/v6ops.txt
+  - kind: minutes without them
+    date: '2015-11-01'
+    subject: IETF 94 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/94/minutes/minutes-94-v6ops.txt
 - person: 110307
   name: Lee Howard
   status: confirmed
@@ -476,6 +598,20 @@ chairs:
     - date: '2014-11-13'
       subject: '[v6ops] draft IETF91-v6ops minutes'
       url: https://mailarchive.ietf.org/arch/msg/v6ops/W1fkUK4O3m9rYSwteILRvUnu-A8/
+  - kind: minutes
+    listed_in: 3
+    first: '2015-11-01'
+    last: '2016-07-17'
+    examples:
+    - date: '2015-11-01'
+      subject: IETF 94 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/94/minutes/minutes-94-v6ops.txt
+    - date: '2016-04-03'
+      subject: IETF 95 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/95/minutes/minutes-95-v6ops.txt
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/minutes/minutes-96-v6ops.txt
   - kind: proceedings
     listed_in: 9
     first: '2014-07-20'
@@ -490,6 +626,10 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/v6ops.html
+  - kind: minutes without them
+    date: '2005-07-31'
+    subject: IETF 63 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/63/minutes/v6ops.txt
   - kind: shepherded
     documents:
     - draft-ietf-v6ops-cidr-prefix
@@ -557,6 +697,20 @@ chairs:
     date: '2002-09-10'
     subject: 'WG ACTION: IPv6 Operations (v6ops)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/VCgQfCNCoSkyuKZM0ED5lKVUNxM/
+  - kind: minutes
+    listed_in: 3
+    first: '2002-11-17'
+    last: '2003-07-13'
+    examples:
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/minutes/v6ops.htm
+    - date: '2003-07-13'
+      subject: IETF 57 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/57/minutes/V6OPS.TXT
+    - date: '2003-07-13'
+      subject: IETF 57 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/57/minutes/v6ops.htm
   - kind: proceedings
     listed_in: 2
     first: '2003-01-20'
@@ -569,9 +723,9 @@ chairs:
       subject: IETF 57 proceedings charter
       url: https://www.ietf.org/proceedings/57/180.htm
   - kind: minutes without them
-    date: '2003-11-04'
-    subject: IETF 58 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/58/167.htm
+    date: '2003-11-09'
+    subject: IETF 58 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/58/minutes/v6ops.htm
   - kind: joined the IESG
     after_meeting: '57'
     after: '2003-07-13'

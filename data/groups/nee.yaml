@@ -14,6 +14,29 @@ bof_sessions:
   url: https://datatracker.ietf.org/meeting/69/session/nee/
 history_url: https://datatracker.ietf.org/group/nee/history/
 chairs:
+- person: 8319
+  name: David Partain
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2007-07-22'
+    end:
+      certainty: evidence-only
+      not_before: '2007-07-22'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2007-07-22'
+    last: '2007-07-22'
+    examples:
+    - date: '2007-07-22'
+      subject: IETF 69 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/69/minutes/nee.txt
+  - kind: BOF session
+    meeting: '69'
+    date: '2007-07-22'
+    url: https://datatracker.ietf.org/meeting/69/session/nee/
 - person: 104659
   name: Sharon Chisholm
   status: confirmed
@@ -28,6 +51,14 @@ chairs:
     - 'End: after the BOF''s last session, IETF 69 (2007-07-22)'
     - 'Start: listed as chair in a proceedings charter snapshot (2007-06-05)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2007-07-22'
+    last: '2007-07-22'
+    examples:
+    - date: '2007-07-22'
+      subject: IETF 69 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/69/minutes/nee.txt
   - kind: BOF session
     meeting: '69'
     date: '2007-07-22'

@@ -6,7 +6,7 @@ state: replaced
 started: '2022-02-10'
 closed: '2023-03-03'
 bof: true
-never_chartered: false
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '113'
@@ -32,6 +32,14 @@ chairs:
     date: '2023-02-17'
     subject: 'WG Review: Computing-Aware Networking (can)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/0WbDSaDpdUU5q3TxvP9YUDSJBs4/
+  - kind: BOF session
+    meeting: '113'
+    date: '2022-03-19'
+    url: https://datatracker.ietf.org/meeting/113/session/can/
+  - kind: BOF session
+    meeting: '115'
+    date: '2022-11-05'
+    url: https://datatracker.ietf.org/meeting/115/session/can/
 - person: 110966
   name: Zhaohui Zhang
   status: confirmed
@@ -42,6 +50,15 @@ chairs:
     end:
       certainty: exact
       date: '2023-02-09'
+  evidence:
+  - kind: BOF session
+    meeting: '113'
+    date: '2022-03-19'
+    url: https://datatracker.ietf.org/meeting/113/session/can/
+  - kind: BOF session
+    meeting: '115'
+    date: '2022-11-05'
+    url: https://datatracker.ietf.org/meeting/115/session/can/
 - person: 111086
   name: Linda Dunbar
   status: confirmed
@@ -61,6 +78,14 @@ chairs:
     - date: '2022-10-28'
       subject: '[Can] Preliminary Agenda for Computing Aware Networking BoF'
       url: https://mailarchive.ietf.org/arch/msg/can/CiNXxLqgVwAPLOtl9r-Mnn4unQs/
+  - kind: BOF session
+    meeting: '113'
+    date: '2022-03-19'
+    url: https://datatracker.ietf.org/meeting/113/session/can/
+  - kind: BOF session
+    meeting: '115'
+    date: '2022-11-05'
+    url: https://datatracker.ietf.org/meeting/115/session/can/
 - person: 125565
   name: Peng Liu
   status: confirmed
@@ -76,3 +101,11 @@ chairs:
     date: '2023-02-17'
     subject: 'WG Review: Computing-Aware Networking (can)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/0WbDSaDpdUU5q3TxvP9YUDSJBs4/
+  - kind: BOF session
+    meeting: '113'
+    date: '2022-03-19'
+    url: https://datatracker.ietf.org/meeting/113/session/can/
+  - kind: BOF session
+    meeting: '115'
+    date: '2022-11-05'
+    url: https://datatracker.ietf.org/meeting/115/session/can/

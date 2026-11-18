@@ -47,6 +47,18 @@ chairs:
     - date: '2013-08-27'
       subject: '[6lo] Draft minutes from IETF 87 6lo BoF'
       url: https://mailarchive.ietf.org/arch/msg/6lo/hauFE3v4RTO-LMVpulGZFagaqPE/
+  - kind: minutes
+    listed_in: 1
+    first: '2014-11-09'
+    last: '2014-11-09'
+    examples:
+    - date: '2014-11-09'
+      subject: IETF 91 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/91/minutes/minutes-91-6lo.txt
+  - kind: minutes without them
+    date: '2015-07-19'
+    subject: IETF 93 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/93/minutes/minutes-93-6lo.txt
 - person: 21005
   name: Samita Chakrabarti
   status: confirmed
@@ -92,6 +104,20 @@ chairs:
     - date: '2015-01-21'
       subject: '[6lo] WG Adoption call for draft-hong-6lo-ipv6-over-nfc-03'
       url: https://mailarchive.ietf.org/arch/msg/6lo/QYkGOs2046IVg_uSW7q_U0vRXFc/
+  - kind: minutes
+    listed_in: 8
+    first: '2013-11-03'
+    last: '2016-07-17'
+    examples:
+    - date: '2013-11-03'
+      subject: IETF 88 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/88/minutes/minutes-88-6lo.txt
+    - date: '2014-03-02'
+      subject: IETF 89 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/89/minutes/minutes-89-6lo.txt
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/minutes/minutes-96-6lo.txt
   - kind: proceedings
     listed_in: 3
     first: '2013-07-28'
@@ -165,6 +191,24 @@ chairs:
     - date: '2018-05-31'
       subject: '[6lo] Call for Agenda items in Montreal'
       url: https://mailarchive.ietf.org/arch/msg/6lo/bnuWkTbwwJpb1AZ0bLt7gIg2HMU/
+  - kind: minutes
+    listed_in: 4
+    first: '2015-07-19'
+    last: '2016-07-17'
+    examples:
+    - date: '2015-07-19'
+      subject: IETF 93 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/93/minutes/minutes-93-6lo.txt
+    - date: '2015-11-01'
+      subject: IETF 94 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/94/minutes/minutes-94-6lo.txt
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/minutes/minutes-96-6lo.txt
+  - kind: minutes without them
+    date: '2014-11-09'
+    subject: IETF 91 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/91/minutes/minutes-91-6lo.txt
   - kind: shepherded
     documents:
     - draft-ietf-6lo-btle
@@ -258,6 +302,20 @@ chairs:
     - date: '2014-07-24'
       subject: '[6lo] WGLC for draft-ietf-6lo-ghc-03'
       url: https://mailarchive.ietf.org/arch/msg/6lo/AnBELhipYyKNVZB-4JVDop7lhpI/
+  - kind: minutes
+    listed_in: 3
+    first: '2013-11-03'
+    last: '2014-07-20'
+    examples:
+    - date: '2013-11-03'
+      subject: IETF 88 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/88/minutes/minutes-88-6lo.txt
+    - date: '2014-03-02'
+      subject: IETF 89 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/89/minutes/minutes-89-6lo.txt
+    - date: '2014-07-20'
+      subject: IETF 90 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/90/minutes/minutes-90-6lo.txt
   - kind: proceedings
     listed_in: 3
     first: '2013-07-28'
@@ -272,6 +330,10 @@ chairs:
     - date: '2014-03-02'
       subject: IETF 89 proceedings charter
       url: https://www.ietf.org/proceedings/89/6lo.html
+  - kind: minutes without them
+    date: '2014-11-09'
+    subject: IETF 91 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/91/minutes/minutes-91-6lo.txt
   - kind: shepherded
     documents:
     - draft-ietf-6lo-ghc

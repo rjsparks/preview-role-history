@@ -11,6 +11,40 @@ chartered: '2011-05-03'
 bof_sessions: []
 history_url: https://datatracker.ietf.org/group/rtcweb/history/
 chairs:
+- person: 5778
+  name: Harald Alvestrand
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2011-03-27'
+    end:
+      certainty: between
+      not_before: '2011-05-11'
+      not_after: '2011-07-24'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-07-24)'
+  evidence:
+  - kind: chair activity
+    first: '2011-05-11'
+    last: '2011-05-11'
+    messages: 1
+    examples:
+    - date: '2011-05-11'
+      subject: '[rtcweb] Meeting minutes from Prague'
+      url: https://mailarchive.ietf.org/arch/msg/rtcweb/8tzLRgtMbP57BdPLAUm04Jga-0c/
+  - kind: minutes
+    listed_in: 1
+    first: '2011-03-27'
+    last: '2011-03-27'
+    examples:
+    - date: '2011-03-27'
+      subject: IETF 80 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/80/minutes/rtcweb.txt
+  - kind: minutes without them
+    date: '2011-07-24'
+    subject: IETF 81 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/81/minutes/rtcweb.txt
 - person: 19483
   name: Sean Turner
   status: confirmed
@@ -56,6 +90,20 @@ chairs:
     - date: '2015-06-25'
       subject: '[rtcweb] 20150618 Virtual Interim notes/minutes'
       url: https://mailarchive.ietf.org/arch/msg/rtcweb/RqEcv7h75ZYnq9oxjHm1Vj5RJjo/
+  - kind: minutes
+    listed_in: 3
+    first: '2014-11-09'
+    last: '2015-11-01'
+    examples:
+    - date: '2014-11-09'
+      subject: IETF 91 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/91/minutes/minutes-91-rtcweb.txt
+    - date: '2015-03-22'
+      subject: IETF 92 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/92/minutes/minutes-92-rtcweb.txt
+    - date: '2015-11-01'
+      subject: IETF 94 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/94/minutes/minutes-94-rtcweb.txt
   - kind: proceedings
     listed_in: 10
     first: '2014-03-02'
@@ -71,9 +119,9 @@ chairs:
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/rtcweb.html
   - kind: minutes without them
-    date: '2012-02-14'
-    subject: '[rtcweb] Draft minutes for 82.5 meeting'
-    url: https://mailarchive.ietf.org/arch/msg/rtcweb/HvJyPwv4X3k0U2wtg9w9kgQtV7I/
+    date: '2013-11-03'
+    subject: IETF 88 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/88/minutes/minutes-88-rtcweb.txt
   - kind: shepherded
     documents:
     - draft-ietf-rtcweb-alpn
@@ -126,13 +174,19 @@ chairs:
       subject: '[rtcweb] WG Last Call: draft-ietf-rtcweb-use-cases-and-requirements-10'
       url: https://mailarchive.ietf.org/arch/msg/rtcweb/USVq10RXcqEIEbS0OE6pCsCse84/
   - kind: minutes
-    listed_in: 1
-    first: '2012-02-14'
-    last: '2012-02-14'
+    listed_in: 5
+    first: '2011-07-24'
+    last: '2013-11-03'
     examples:
-    - date: '2012-02-14'
-      subject: '[rtcweb] Draft minutes for 82.5 meeting'
-      url: https://mailarchive.ietf.org/arch/msg/rtcweb/HvJyPwv4X3k0U2wtg9w9kgQtV7I/
+    - date: '2011-07-24'
+      subject: IETF 81 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/81/minutes/rtcweb.txt
+    - date: '2011-11-13'
+      subject: IETF 82 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/82/minutes/rtcweb.txt
+    - date: '2013-11-03'
+      subject: IETF 88 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/88/minutes/minutes-88-rtcweb.txt
   - kind: proceedings
     listed_in: 10
     first: '2010-11-07'
@@ -147,6 +201,10 @@ chairs:
     - date: '2013-11-03'
       subject: IETF 88 proceedings charter
       url: https://www.ietf.org/proceedings/88/rtcweb.html
+  - kind: minutes without them
+    date: '2014-11-09'
+    subject: IETF 91 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/91/minutes/minutes-91-rtcweb.txt
 - person: 105791
   name: Cullen Jennings
   status: confirmed
@@ -186,13 +244,19 @@ chairs:
       subject: '[rtcweb] Call for WG adoption of draft-uberti-rtcweb-fec'
       url: https://mailarchive.ietf.org/arch/msg/rtcweb/Ywq2HRaoJFYnyG8eyHgTzXUVDo4/
   - kind: minutes
-    listed_in: 1
-    first: '2012-02-14'
-    last: '2012-02-14'
+    listed_in: 8
+    first: '2011-07-24'
+    last: '2015-11-01'
     examples:
-    - date: '2012-02-14'
-      subject: '[rtcweb] Draft minutes for 82.5 meeting'
-      url: https://mailarchive.ietf.org/arch/msg/rtcweb/HvJyPwv4X3k0U2wtg9w9kgQtV7I/
+    - date: '2011-07-24'
+      subject: IETF 81 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/81/minutes/rtcweb.txt
+    - date: '2011-11-13'
+      subject: IETF 82 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/82/minutes/rtcweb.txt
+    - date: '2015-11-01'
+      subject: IETF 94 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/94/minutes/minutes-94-rtcweb.txt
   - kind: proceedings
     listed_in: 20
     first: '2010-11-07'
@@ -263,13 +327,19 @@ chairs:
       subject: '[rtcweb] Working group last call for draft-ietf-rtcweb-security-arch'
       url: https://mailarchive.ietf.org/arch/msg/rtcweb/rMiljYIsuTCJ5b58YtAooMhx6is/
   - kind: minutes
-    listed_in: 1
-    first: '2012-02-14'
-    last: '2012-02-14'
+    listed_in: 9
+    first: '2011-03-27'
+    last: '2015-11-01'
     examples:
-    - date: '2012-02-14'
-      subject: '[rtcweb] Draft minutes for 82.5 meeting'
-      url: https://mailarchive.ietf.org/arch/msg/rtcweb/HvJyPwv4X3k0U2wtg9w9kgQtV7I/
+    - date: '2011-03-27'
+      subject: IETF 80 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/80/minutes/rtcweb.txt
+    - date: '2011-07-24'
+      subject: IETF 81 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/81/minutes/rtcweb.txt
+    - date: '2015-11-01'
+      subject: IETF 94 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/94/minutes/minutes-94-rtcweb.txt
   - kind: proceedings
     listed_in: 20
     first: '2010-11-07'

@@ -11,6 +11,58 @@ chartered: '1993-02-25'
 bof_sessions: []
 history_url: https://datatracker.ietf.org/group/ids/history/
 chairs:
+- person: 3428
+  name: Chris Weider
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1994-03-28'
+    end:
+      certainty: between
+      not_before: '1994-03-28'
+      not_after: '1994-12-05'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (1994-12-05)'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '1994-03-28'
+    last: '1994-03-28'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/usv/ids/ids-charter.txt
+  - kind: minutes without them
+    date: '1994-12-05'
+    subject: IETF 31 proceedings charter
+    url: https://www.ietf.org/proceedings/31/area.and.wg.reports/usv/ids/ids-charter.txt
+- person: 4502
+  name: Tim Howes
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1994-03-28'
+    end:
+      certainty: between
+      not_before: '1994-03-28'
+      not_after: '1994-12-05'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (1994-12-05)'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '1994-03-28'
+    last: '1994-03-28'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/usv/ids/ids-charter.txt
+  - kind: minutes without them
+    date: '1994-12-05'
+    subject: IETF 31 proceedings charter
+    url: https://www.ietf.org/proceedings/31/area.and.wg.reports/usv/ids/ids-charter.txt
 - person: 8225
   name: Srinivas Sataluri
   status: confirmed

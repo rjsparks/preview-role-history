@@ -18,12 +18,12 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2011-12-09'
-      not_before: '2010-01-27'
+      not_before: '2011-03-27'
     end:
       certainty: exact
       date: '2017-04-05'
     notes:
-    - 'Start: not yet listed among the chairs in meeting minutes (2010-01-27)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2011-03-27)'
   evidence:
   - kind: WG Action
     date: '2012-05-15'
@@ -60,6 +60,20 @@ chairs:
     - date: '2015-03-10'
       subject: '[OAUTH-WG] WGLC for draft-ietf-oauth-proof-of-possession-01'
       url: https://mailarchive.ietf.org/arch/msg/oauth/mkfpwdTqRSE3qKTOyjtK2tgmbBs/
+  - kind: minutes
+    listed_in: 4
+    first: '2012-03-25'
+    last: '2016-04-03'
+    examples:
+    - date: '2012-03-25'
+      subject: IETF 83 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/83/minutes/minutes-83-oauth.txt
+    - date: '2013-07-28'
+      subject: IETF 87 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/87/minutes/minutes-87-oauth.txt
+    - date: '2016-04-03'
+      subject: IETF 95 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/95/minutes/minutes-95-oauth.txt
   - kind: proceedings
     listed_in: 15
     first: '2012-03-25'
@@ -75,9 +89,9 @@ chairs:
       subject: IETF 97 proceedings charter
       url: https://www.ietf.org/proceedings/97/oauth.html
   - kind: minutes without them
-    date: '2010-01-27'
-    subject: '[OAUTH-WG] draft minutes of OAuth WG interim meeting, 2010-01-21'
-    url: https://mailarchive.ietf.org/arch/msg/oauth/GdWYMNEd9277XVzIEil5qES2VJY/
+    date: '2011-03-27'
+    subject: IETF 80 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/80/minutes/oauth.txt
   - kind: shepherded
     documents:
     - draft-ietf-oauth-urn-sub-ns
@@ -144,6 +158,10 @@ chairs:
     date: '2010-01-27'
     subject: '[OAUTH-WG] draft minutes of OAuth WG interim meeting, 2010-01-21'
     url: https://mailarchive.ietf.org/arch/msg/oauth/GdWYMNEd9277XVzIEil5qES2VJY/
+  - kind: minutes without them
+    date: '2012-03-25'
+    subject: IETF 83 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/83/minutes/minutes-83-oauth.txt
   - kind: session requests
     meetings:
     - '82'
@@ -158,6 +176,75 @@ chairs:
     after: '2012-03-25'
     by_meeting: '84'
     by: '2012-07-29'
+- person: 103048
+  name: Sam Hartman
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2008-11-16'
+    end:
+      certainty: between
+      not_before: '2008-12-01'
+      not_after: '2009-03-22'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-03-22)'
+  evidence:
+  - kind: chair activity
+    first: '2008-11-25'
+    last: '2008-12-01'
+    messages: 2
+    examples:
+    - date: '2008-11-25'
+      subject: '[oauth] Time line for Minutes and blocking issues'
+      url: https://mailarchive.ietf.org/arch/msg/oauth/zJ1_5FZyJfdmubTHJLfnCJUrsqo/
+    - date: '2008-12-01'
+      subject: '[oauth] Draft minutes for the oauth bof'
+      url: https://mailarchive.ietf.org/arch/msg/oauth/01B-7AC7AtX6vpJSy7Kko-4tNG4/
+  - kind: minutes
+    listed_in: 2
+    first: '2008-11-16'
+    last: '2008-12-01'
+    examples:
+    - date: '2008-11-16'
+      subject: IETF 73 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/73/minutes/oauth.txt
+    - date: '2008-12-01'
+      subject: '[oauth] Draft minutes for the oauth bof'
+      url: https://mailarchive.ietf.org/arch/msg/oauth/01B-7AC7AtX6vpJSy7Kko-4tNG4/
+  - kind: minutes without them
+    date: '2010-01-27'
+    subject: '[OAUTH-WG] draft minutes of OAuth WG interim meeting, 2010-01-21'
+    url: https://mailarchive.ietf.org/arch/msg/oauth/GdWYMNEd9277XVzIEil5qES2VJY/
+- person: 103881
+  name: Mark Nottingham
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2008-11-16'
+    end:
+      certainty: between
+      not_before: '2008-12-01'
+      not_after: '2009-03-22'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-03-22)'
+  evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '2008-11-16'
+    last: '2008-12-01'
+    examples:
+    - date: '2008-11-16'
+      subject: IETF 73 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/73/minutes/oauth.txt
+    - date: '2008-12-01'
+      subject: '[oauth] Draft minutes for the oauth bof'
+      url: https://mailarchive.ietf.org/arch/msg/oauth/01B-7AC7AtX6vpJSy7Kko-4tNG4/
+  - kind: minutes without them
+    date: '2010-01-27'
+    subject: '[OAUTH-WG] draft minutes of OAuth WG interim meeting, 2010-01-21'
+    url: https://mailarchive.ietf.org/arch/msg/oauth/GdWYMNEd9277XVzIEil5qES2VJY/
 - person: 105857
   name: Hannes Tschofenig
   status: confirmed
@@ -215,6 +302,20 @@ chairs:
     - date: '2011-05-19'
       subject: '[OAUTH-WG] OAuth Interim Meeting: Register by Today'
       url: https://mailarchive.ietf.org/arch/msg/oauth/Sl7-JWQaWLT-GLHhA8h8F2MVVus/
+  - kind: minutes
+    listed_in: 5
+    first: '2011-03-27'
+    last: '2016-04-03'
+    examples:
+    - date: '2011-03-27'
+      subject: IETF 80 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/80/minutes/oauth.txt
+    - date: '2012-03-25'
+      subject: IETF 83 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/83/minutes/minutes-83-oauth.txt
+    - date: '2016-04-03'
+      subject: IETF 95 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/95/minutes/minutes-95-oauth.txt
   - kind: proceedings
     listed_in: 21
     first: '2010-03-25'
@@ -320,9 +421,9 @@ chairs:
     subject: '[oauth] Draft minutes for the oauth bof'
     url: https://mailarchive.ietf.org/arch/msg/oauth/01B-7AC7AtX6vpJSy7Kko-4tNG4/
   - kind: minutes without them
-    date: '2011-07-24'
-    subject: IETF 81 proceedings charter
-    url: https://www.ietf.org/proceedings/81/oauth.html
+    date: '2012-03-25'
+    subject: IETF 83 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/83/minutes/minutes-83-oauth.txt
   - kind: session requests
     meetings:
     - '77'
@@ -360,13 +461,16 @@ chairs:
       subject: '[OAUTH-WG] Proposed agenda for third interim meeting'
       url: https://mailarchive.ietf.org/arch/msg/oauth/YXF8DBpwBebP8gEeDncmyq1r3ig/
   - kind: minutes
-    listed_in: 1
+    listed_in: 2
     first: '2010-01-27'
-    last: '2010-01-27'
+    last: '2011-03-27'
     examples:
     - date: '2010-01-27'
       subject: '[OAUTH-WG] draft minutes of OAuth WG interim meeting, 2010-01-21'
       url: https://mailarchive.ietf.org/arch/msg/oauth/GdWYMNEd9277XVzIEil5qES2VJY/
+    - date: '2011-03-27'
+      subject: IETF 80 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/80/minutes/oauth.txt
   - kind: proceedings
     listed_in: 5
     first: '2009-03-22'
@@ -386,9 +490,9 @@ chairs:
     subject: '[oauth] Draft minutes for the oauth bof'
     url: https://mailarchive.ietf.org/arch/msg/oauth/01B-7AC7AtX6vpJSy7Kko-4tNG4/
   - kind: minutes without them
-    date: '2011-07-24'
-    subject: IETF 81 proceedings charter
-    url: https://www.ietf.org/proceedings/81/oauth.html
+    date: '2012-03-25'
+    subject: IETF 83 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/83/minutes/minutes-83-oauth.txt
 - person: 111355
   name: Rifaat Shekh-Yusef
   status: confirmed

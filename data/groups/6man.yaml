@@ -56,6 +56,20 @@ chairs:
     - date: '2020-05-15'
       subject: Adoption Call for "IPv6 Application of the Alternate Marking Method"
       url: https://mailarchive.ietf.org/arch/msg/ipv6/B6-wkK7Rid3W3GSokWfDFz_NMZY/
+  - kind: minutes
+    listed_in: 21
+    first: '2008-11-16'
+    last: '2016-04-03'
+    examples:
+    - date: '2008-11-16'
+      subject: IETF 73 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/73/minutes/6man.txt
+    - date: '2009-03-22'
+      subject: IETF 74 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/74/minutes/6man.txt
+    - date: '2016-04-03'
+      subject: IETF 95 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/95/minutes/minutes-95-6man.txt
   - kind: proceedings
     listed_in: 22
     first: '2007-12-18'
@@ -107,11 +121,12 @@ chairs:
       not_before: '2007-08-24'
     end:
       certainty: between
-      not_before: '2011-12-09'
-      not_after: '2012-03-25'
+      not_before: '2012-03-25'
+      not_after: '2012-07-29'
     notes:
     - 'Start: named as chair in the WG Action announcement (2007-09-25)'
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2012-03-25)'
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2012-07-29)'
+    - 'End: listed as chair in meeting minutes (2012-03-25)'
   evidence:
   - kind: WG Action
     date: '2007-09-25'
@@ -134,6 +149,20 @@ chairs:
     - date: '2010-12-08'
       subject: Call for adoption:draft-gont-6man-flowlabel-security-01.txt
       url: https://mailarchive.ietf.org/arch/msg/ipv6/rzxJRecmEvLxK9QHT-HLlMuEu3o/
+  - kind: minutes
+    listed_in: 10
+    first: '2008-11-16'
+    last: '2012-03-25'
+    examples:
+    - date: '2008-11-16'
+      subject: IETF 73 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/73/minutes/6man.txt
+    - date: '2009-03-22'
+      subject: IETF 74 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/74/minutes/6man.txt
+    - date: '2012-03-25'
+      subject: IETF 83 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/83/minutes/minutes-83-6man.txt
   - kind: proceedings
     listed_in: 6
     first: '2007-12-18'
@@ -149,9 +178,9 @@ chairs:
       subject: IETF 82 proceedings charter
       url: https://www.ietf.org/proceedings/82/6man.html
   - kind: minutes without them
-    date: '2012-03-25'
-    subject: IETF 83 proceedings charter
-    url: https://www.ietf.org/proceedings/83/6man.html
+    date: '2012-07-29'
+    subject: IETF 84 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/84/minutes/minutes-84-6man.txt
   - kind: session requests
     meetings:
     - '70'
@@ -179,10 +208,12 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2011-12-09'
-      not_before: '2007-08-24'
+      not_before: '2011-11-13'
     end:
       certainty: exact
       date: '2024-07-31'
+    notes:
+    - 'Start: not yet listed among the chairs in meeting minutes (2011-11-13)'
   evidence:
   - kind: WG Review
     date: '2013-10-11'
@@ -218,6 +249,20 @@ chairs:
     - date: '2014-10-03'
       subject: Adoption call of draft-boucadair-6man-prefix-routing-reco for 6MAN
       url: https://mailarchive.ietf.org/arch/msg/ipv6/GUflSFClQaF9pnyC_QT1JB9yFnw/
+  - kind: minutes
+    listed_in: 12
+    first: '2012-03-25'
+    last: '2016-04-03'
+    examples:
+    - date: '2012-03-25'
+      subject: IETF 83 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/83/minutes/minutes-83-6man.txt
+    - date: '2012-07-29'
+      subject: IETF 84 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/84/minutes/minutes-84-6man.txt
+    - date: '2016-04-03'
+      subject: IETF 95 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/95/minutes/minutes-95-6man.txt
   - kind: proceedings
     listed_in: 16
     first: '2012-03-25'
@@ -232,6 +277,10 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/6man.html
+  - kind: minutes without them
+    date: '2011-11-13'
+    subject: IETF 82 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/82/minutes/6man.txt
   - kind: shepherded
     documents:
     - draft-ietf-6man-addr-select-opt
@@ -298,6 +347,10 @@ chairs:
     - date: '2022-07-24'
       subject: 'WANTED: Minutes Taker'
       url: https://mailarchive.ietf.org/arch/msg/ipv6/4puxHbrxlB6We248He7KksD7rWU/
+  - kind: minutes without them
+    date: '2016-04-03'
+    subject: IETF 95 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/95/minutes/minutes-95-6man.txt
   - kind: shepherded
     documents:
     - draft-ietf-6man-hbh-processing

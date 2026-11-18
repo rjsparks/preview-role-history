@@ -6,7 +6,7 @@ state: conclude
 started: null
 closed: '2006-01-26'
 bof: true
-never_chartered: false
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '63'
@@ -22,11 +22,27 @@ chairs:
       certainty: on-or-before
       date: '2005-03-06'
     end:
-      certainty: group-closed
-      date: '2006-01-26'
+      certainty: between
+      not_before: '2005-11-06'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2005-03-06)'
+    - 'End: listed as chair in meeting minutes (2005-11-06)'
   evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '2005-07-31'
+    last: '2005-11-06'
+    examples:
+    - date: '2005-07-31'
+      subject: IETF 63 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/63/minutes/voipeer.html
+    - date: '2005-11-06'
+      subject: IETF 64 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/64/minutes/voipeer.html
+  - kind: BOF session
+    meeting: '63'
+    date: '2005-07-31'
+    url: https://www.ietf.org/proceedings/63/IDs/1id-abstracts.txt
   - kind: proceedings
     listed_in: 3
     first: '2005-03-06'

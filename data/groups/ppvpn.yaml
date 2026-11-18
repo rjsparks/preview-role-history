@@ -28,6 +28,14 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2001-03-14)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2002-03-17'
+    last: '2002-03-17'
+    examples:
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/minutes/ppvpn.htm
   - kind: proceedings
     listed_in: 7
     first: '2001-03-14'
@@ -49,10 +57,17 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2003-07-28'
-      not_before: '2000-07-06'
+      not_before: '2002-03-17'
     end:
       certainty: group-closed
       date: '2003-07-28'
+    notes:
+    - 'Start: not yet listed among the chairs in meeting minutes (2002-03-17)'
+  evidence:
+  - kind: minutes without them
+    date: '2002-03-17'
+    subject: IETF 53 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/53/minutes/ppvpn.htm
 - person: 20871
   name: Marco Carugi
   status: unconfirmed
@@ -64,6 +79,14 @@ chairs:
       certainty: evidence-only
       not_before: '2003-03-04'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2002-03-17'
+    last: '2002-03-17'
+    examples:
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/minutes/ppvpn.htm
   - kind: proceedings
     listed_in: 7
     first: '2001-03-14'

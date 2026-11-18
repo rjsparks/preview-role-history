@@ -26,6 +26,14 @@ chairs:
       certainty: group-closed
       date: '2011-02-25'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2005-07-31'
+    last: '2005-07-31'
+    examples:
+    - date: '2005-07-31'
+      subject: IETF 63 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/63/minutes/lrw.html
   - kind: proceedings
     listed_in: 2
     first: '2005-03-06'

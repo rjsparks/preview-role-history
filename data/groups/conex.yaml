@@ -63,6 +63,10 @@ chairs:
     - date: '2015-11-01'
       subject: IETF 94 proceedings charter
       url: https://www.ietf.org/proceedings/94/conex.html
+  - kind: minutes without them
+    date: '2009-11-08'
+    subject: IETF 76 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/76/minutes/conex.txt
   - kind: session requests
     meetings:
     - '78'
@@ -73,6 +77,84 @@ chairs:
   - kind: shepherded
     documents:
     - draft-ietf-conex-abstract-mech
+- person: 107998
+  name: Philip Eardley
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2009-11-08'
+    end:
+      certainty: between
+      not_before: '2010-03-21'
+      not_after: '2010-06-03'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-06-03)'
+  evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '2009-11-08'
+    last: '2010-03-21'
+    examples:
+    - date: '2009-11-08'
+      subject: IETF 76 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/76/minutes/conex.txt
+    - date: '2010-03-21'
+      subject: IETF 77 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/77/minutes/conex.txt
+  - kind: proceedings
+    listed_in: 1
+    first: '2009-11-08'
+    last: '2009-11-08'
+    examples:
+    - date: '2009-11-08'
+      subject: IETF 76 proceedings charter
+      url: https://www.ietf.org/proceedings/76/conex.html
+  - kind: minutes without them
+    date: '2010-06-03'
+    subject: IETF 78 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/78/conex.html
+  - kind: session requests
+    meetings:
+    - '77'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 109223
+  name: Leslie Daigle
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2009-11-08'
+    end:
+      certainty: between
+      not_before: '2010-03-21'
+      not_after: '2010-06-03'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-06-03)'
+  evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '2009-11-08'
+    last: '2010-03-21'
+    examples:
+    - date: '2009-11-08'
+      subject: IETF 76 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/76/minutes/conex.txt
+    - date: '2010-03-21'
+      subject: IETF 77 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/77/minutes/conex.txt
+  - kind: proceedings
+    listed_in: 1
+    first: '2009-11-08'
+    last: '2009-11-08'
+    examples:
+    - date: '2009-11-08'
+      subject: IETF 76 proceedings charter
+      url: https://www.ietf.org/proceedings/76/conex.html
+  - kind: minutes without them
+    date: '2010-06-03'
+    subject: IETF 78 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/78/conex.html
 - person: 111110
   name: Nandita Dukkipati
   status: confirmed
@@ -125,6 +207,10 @@ chairs:
     - date: '2015-11-01'
       subject: IETF 94 proceedings charter
       url: https://www.ietf.org/proceedings/94/conex.html
+  - kind: minutes without them
+    date: '2009-11-08'
+    subject: IETF 76 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/76/minutes/conex.txt
   - kind: session requests
     meetings:
     - '80'

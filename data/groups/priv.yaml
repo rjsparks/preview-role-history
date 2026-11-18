@@ -6,7 +6,7 @@ state: replaced
 started: '2021-10-07'
 closed: '2022-01-28'
 bof: true
-never_chartered: false
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '112'
@@ -22,8 +22,15 @@ chairs:
       certainty: exact
       date: '2021-10-27'
     end:
-      certainty: group-closed
-      date: '2022-01-28'
+      certainty: between
+      not_before: '2021-11-08'
+    notes:
+    - 'End: after the BOF''s last session, IETF 112 (2021-11-08)'
+  evidence:
+  - kind: BOF session
+    meeting: '112'
+    date: '2021-11-08'
+    url: https://datatracker.ietf.org/meeting/112/session/priv/
 - person: 110077
   name: Alissa Cooper
   status: confirmed
@@ -32,5 +39,12 @@ chairs:
       certainty: exact
       date: '2021-10-27'
     end:
-      certainty: group-closed
-      date: '2022-01-28'
+      certainty: between
+      not_before: '2021-11-08'
+    notes:
+    - 'End: after the BOF''s last session, IETF 112 (2021-11-08)'
+  evidence:
+  - kind: BOF session
+    meeting: '112'
+    date: '2021-11-08'
+    url: https://datatracker.ietf.org/meeting/112/session/priv/

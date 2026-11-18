@@ -20,13 +20,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-05-12'
+      date: '2003-03-16'
       not_before: '2002-05-17'
     end:
       certainty: group-closed
       date: '2009-03-05'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2003-05-12)'
+    - 'Start: listed as chair in meeting minutes (2003-03-16)'
   evidence:
   - kind: WG Action
     date: '2004-01-28'
@@ -53,13 +53,19 @@ chairs:
       subject: '[Crisp] WGLC - 4 docs'
       url: https://mailarchive.ietf.org/arch/msg/crisp/Qd-lt8aRANWiU7JTrC8pGGJd3uo/
   - kind: minutes
-    listed_in: 1
-    first: '2004-11-24'
-    last: '2004-11-24'
+    listed_in: 9
+    first: '2003-03-16'
+    last: '2006-11-05'
     examples:
-    - date: '2004-11-24'
-      subject: '[Crisp] Minutes of CRISP mtg in Washingon'
-      url: https://mailarchive.ietf.org/arch/msg/crisp/oWzmsU_qpVjCCT2N29tJEcMXD1I/
+    - date: '2003-03-16'
+      subject: IETF 56 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/56/minutes/crisp.htm
+    - date: '2003-11-09'
+      subject: IETF 58 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/58/minutes/crisp.htm
+    - date: '2006-11-05'
+      subject: IETF 67 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/67/minutes/crisp.txt
   - kind: proceedings
     listed_in: 11
     first: '2003-05-12'
@@ -85,28 +91,32 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2003-10-02'
-      not_before: '2002-05-17'
+      not_before: '2003-03-16'
     end:
       certainty: group-closed
       date: '2009-03-05'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2003-10-02)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2003-03-16)'
   evidence:
   - kind: WG Action
     date: '2004-01-28'
     subject: 'WG Action: RECHARTER: Cross Registry Information Service Protocol (crisp)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/keXPUomlc_79HTWO061N8DwfrSg/
   - kind: minutes
-    listed_in: 2
-    first: '2004-11-24'
-    last: '2005-11-06'
+    listed_in: 12
+    first: '2003-11-09'
+    last: '2006-11-05'
     examples:
-    - date: '2004-11-24'
-      subject: '[Crisp] Minutes of CRISP mtg in Washingon'
-      url: https://mailarchive.ietf.org/arch/msg/crisp/oWzmsU_qpVjCCT2N29tJEcMXD1I/
-    - date: '2005-11-06'
-      subject: '[Crisp] minutes of CRISP mtg in vancouver'
-      url: https://mailarchive.ietf.org/arch/msg/crisp/gV2PuCa8n9573iVfdusfvSkKH_I/
+    - date: '2003-11-09'
+      subject: IETF 58 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/58/minutes/crisp.htm
+    - date: '2004-02-29'
+      subject: IETF 59 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/59/minutes/crisp.htm
+    - date: '2006-11-05'
+      subject: IETF 67 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/67/minutes/crisp.txt
   - kind: proceedings
     listed_in: 10
     first: '2003-10-02'
@@ -121,6 +131,10 @@ chairs:
     - date: '2007-03-29'
       subject: IETF 69 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/69/crisp.html
+  - kind: minutes without them
+    date: '2003-03-16'
+    subject: IETF 56 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/56/minutes/crisp.htm
   - kind: session requests
     meetings:
     - '65'
@@ -140,6 +154,17 @@ chairs:
     - 'End: no longer listed among the chairs in a proceedings charter snapshot (2003-10-02)'
     - 'End: became an Area Director, first serving at IETF 57 (2003-07-13)'
   evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '2002-11-17'
+    last: '2003-03-16'
+    examples:
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/minutes/crisp.htm
+    - date: '2003-03-16'
+      subject: IETF 56 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/56/minutes/crisp.htm
   - kind: proceedings
     listed_in: 3
     first: '2002-07-29'
@@ -155,9 +180,9 @@ chairs:
       subject: IETF 57 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/57/104.htm
   - kind: minutes without them
-    date: '2004-11-24'
-    subject: '[Crisp] Minutes of CRISP mtg in Washingon'
-    url: https://mailarchive.ietf.org/arch/msg/crisp/oWzmsU_qpVjCCT2N29tJEcMXD1I/
+    date: '2003-11-09'
+    subject: IETF 58 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/58/minutes/crisp.htm
   - kind: joined the IESG
     after_meeting: '56'
     after: '2003-03-16'

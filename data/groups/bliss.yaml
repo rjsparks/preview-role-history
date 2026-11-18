@@ -11,6 +11,48 @@ chartered: '2007-06-07'
 bof_sessions: []
 history_url: https://datatracker.ietf.org/group/bliss/history/
 chairs:
+- person: 2250
+  name: Jonathan Rosenberg
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2007-02-06'
+    end:
+      certainty: between
+      not_before: '2007-03-18'
+      not_after: '2007-06-26'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2007-06-26)'
+  evidence:
+  - kind: chair activity
+    first: '2007-03-05'
+    last: '2007-03-05'
+    messages: 1
+    examples:
+    - date: '2007-03-05'
+      subject: '[BLISS] Proposed Pragua agenda for BLISS'
+      url: https://mailarchive.ietf.org/arch/msg/bliss/n6wf_IT7bzVK2YJYCO4_WS4xHi4/
+  - kind: minutes
+    listed_in: 1
+    first: '2007-03-18'
+    last: '2007-03-18'
+    examples:
+    - date: '2007-03-18'
+      subject: IETF 68 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/68/minutes/bliss.html
+  - kind: proceedings
+    listed_in: 1
+    first: '2007-02-06'
+    last: '2007-02-06'
+    examples:
+    - date: '2007-02-06'
+      subject: IETF 68 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/68/bliss.html
+  - kind: minutes without them
+    date: '2007-06-26'
+    subject: IETF 69 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/69/bliss.html
 - person: 107520
   name: Shida Schubert
   status: confirmed
@@ -57,6 +99,14 @@ chairs:
     - date: '2009-10-27'
       subject: '[BLISS] WGLC for draft-ietf-bliss-shared-appearances'
       url: https://mailarchive.ietf.org/arch/msg/bliss/Ca7_Cp-p3Q86W_YF9NaVYI1M-cY/
+  - kind: minutes
+    listed_in: 1
+    first: '2007-03-18'
+    last: '2007-03-18'
+    examples:
+    - date: '2007-03-18'
+      subject: IETF 68 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/68/minutes/bliss.html
   - kind: proceedings
     listed_in: 13
     first: '2007-06-26'
@@ -86,13 +136,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2007-03-18'
       not_after: '2007-06-26'
     end:
       certainty: approximate
       date: '2009-10-14'
     notes:
     - 'End: announced on the group''s list (2009-10-14)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2007-03-18)'
   evidence:
   - kind: WG Action
     date: '2007-06-26'
@@ -126,16 +178,23 @@ chairs:
     - date: '2009-03-30'
       subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/bliss.html
+  - kind: minutes without them
+    date: '2007-03-18'
+    subject: IETF 68 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/68/minutes/bliss.html
 - person: 109569
   name: Scott Lawrence
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2007-03-18'
       not_after: '2009-07-26'
     end:
       certainty: evidence-only
       not_before: '2011-03-27'
+    notes:
+    - 'Start: not yet listed among the chairs in meeting minutes (2007-03-18)'
   evidence:
   - kind: list message
     date: '2009-10-14'
@@ -157,3 +216,7 @@ chairs:
     - date: '2011-03-27'
       subject: IETF 80 proceedings charter
       url: https://www.ietf.org/proceedings/80/bliss.html
+  - kind: minutes without them
+    date: '2007-03-18'
+    subject: IETF 68 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/68/minutes/bliss.html

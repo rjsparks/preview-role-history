@@ -17,6 +17,49 @@ bof_sessions:
   url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-142.html
 history_url: https://datatracker.ietf.org/group/pilc/history/
 chairs:
+- person: 20580
+  name: Mark Allman
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1999-01-06'
+    end:
+      certainty: between
+      not_before: '2000-10-17'
+      not_after: '2001-03-14'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2001-03-14)'
+  evidence:
+  - kind: chair activity
+    first: '1999-01-06'
+    last: '2000-10-17'
+    messages: 4
+    examples:
+    - date: '1999-01-06'
+      subject: PILC minutes
+      url: https://mailarchive.ietf.org/arch/msg/pilc/hzS4EktdhqWsT6ybgyA4uyZSCYU/
+    - date: '1999-04-06'
+      subject: draft PILC minutes
+      url: https://mailarchive.ietf.org/arch/msg/pilc/7ABaLip5Jr545A21fs87oaJNqbQ/
+    - date: '2000-10-17'
+      subject: WG last call for ERROR
+      url: https://mailarchive.ietf.org/arch/msg/pilc/rI4CXZlsq4JH3wY_viKbHPQi81w/
+  - kind: minutes
+    listed_in: 2
+    first: '1999-03-14'
+    last: '1999-03-14'
+    examples:
+    - date: '1999-03-14'
+      subject: PILC minutes
+      url: https://mailarchive.ietf.org/arch/msg/pilc/27l1G_CNeqrrQ_oMhxDGI5VLu50/
+    - date: '1999-03-14'
+      subject: draft PILC minutes
+      url: https://mailarchive.ietf.org/arch/msg/pilc/7ABaLip5Jr545A21fs87oaJNqbQ/
+  - kind: minutes without them
+    date: '2001-08-05'
+    subject: LAST-minute PILC IETF 51 minutes review
+    url: https://mailarchive.ietf.org/arch/msg/pilc/Su9DcGz601SEVvsteyTTUGnEaHw/
 - person: 21226
   name: Aaron Falk
   status: confirmed
@@ -40,16 +83,19 @@ chairs:
       subject: pilc minutes (better late than never....)
       url: https://mailarchive.ietf.org/arch/msg/pilc/43ke-kAW3GMhwgbQKzqtSbc08Qs/
   - kind: minutes
-    listed_in: 2
-    first: '1999-07-11'
+    listed_in: 5
+    first: '1999-03-14'
     last: '2001-08-05'
     examples:
-    - date: '1999-07-11'
-      subject: 'IETF 45 Meeting Minutes: PILC'
-      url: https://mailarchive.ietf.org/arch/msg/pilc/CLp58bVSZa75BoTTMfMx-UCBHDc/
+    - date: '1999-03-14'
+      subject: PILC minutes
+      url: https://mailarchive.ietf.org/arch/msg/pilc/27l1G_CNeqrrQ_oMhxDGI5VLu50/
+    - date: '1999-03-14'
+      subject: draft PILC minutes
+      url: https://mailarchive.ietf.org/arch/msg/pilc/7ABaLip5Jr545A21fs87oaJNqbQ/
     - date: '2001-08-05'
-      subject: LAST-minute PILC IETF 51 minutes review
-      url: https://mailarchive.ietf.org/arch/msg/pilc/Su9DcGz601SEVvsteyTTUGnEaHw/
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/minutes/PILC.HTM
   - kind: proceedings
     listed_in: 11
     first: '1999-06-15'
@@ -83,16 +129,19 @@ chairs:
     subject: 'WG ACTION: Performance Implications of Link Characteristics (pilc)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/rZIsWKzfv72dnz5eEn0Dab0WqXM/
   - kind: minutes
-    listed_in: 2
-    first: '1999-07-11'
+    listed_in: 5
+    first: '1999-03-14'
     last: '2001-08-05'
     examples:
-    - date: '1999-07-11'
-      subject: 'IETF 45 Meeting Minutes: PILC'
-      url: https://mailarchive.ietf.org/arch/msg/pilc/CLp58bVSZa75BoTTMfMx-UCBHDc/
+    - date: '1999-03-14'
+      subject: PILC minutes
+      url: https://mailarchive.ietf.org/arch/msg/pilc/27l1G_CNeqrrQ_oMhxDGI5VLu50/
+    - date: '1999-03-14'
+      subject: draft PILC minutes
+      url: https://mailarchive.ietf.org/arch/msg/pilc/7ABaLip5Jr545A21fs87oaJNqbQ/
     - date: '2001-08-05'
-      subject: LAST-minute PILC IETF 51 minutes review
-      url: https://mailarchive.ietf.org/arch/msg/pilc/Su9DcGz601SEVvsteyTTUGnEaHw/
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/minutes/PILC.HTM
   - kind: proceedings
     listed_in: 11
     first: '1999-06-15'

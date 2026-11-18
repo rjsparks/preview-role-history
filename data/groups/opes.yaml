@@ -29,7 +29,7 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2002-05-30'
+      not_after: '2002-03-17'
     end:
       certainty: between
       not_before: '2004-04-22'
@@ -41,6 +41,20 @@ chairs:
     date: '2004-04-22'
     subject: 'WG Action: RECHARTER: Open Pluggable Edge Services (opes)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/fbD7a2nJztRzfA1VYIo2I3QMlec/
+  - kind: minutes
+    listed_in: 3
+    first: '2002-03-17'
+    last: '2003-03-16'
+    examples:
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/minutes/opes.htm
+    - date: '2002-07-14'
+      subject: IETF 54 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/54/minutes/opes.htm
+    - date: '2003-03-16'
+      subject: IETF 56 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/56/minutes/opes.htm
   - kind: proceedings
     listed_in: 5
     first: '2002-05-30'
@@ -56,9 +70,9 @@ chairs:
       subject: IETF 59 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/59/117.htm
   - kind: minutes without them
-    date: '2005-01-07'
-    subject: IETF 62 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/62/opes.html
+    date: '2005-11-06'
+    subject: IETF 64 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/64/minutes/opes.txt
 - person: 6771
   name: Tony Hansen
   status: confirmed
@@ -66,17 +80,26 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2004-11-25'
-      not_before: '2001-05-16'
+      not_before: '2003-03-16'
     end:
       certainty: group-closed
       date: '2007-03-17'
     notes:
     - 'Start: named as chair in the WG Action announcement (2004-11-25)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2003-03-16)'
   evidence:
   - kind: WG Action
     date: '2004-11-25'
     subject: 'WG Action: RECHARTER: Open Pluggable Edge Services (opes)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/rm65Xez6PNVuSeuWVurF5sNtrE8/
+  - kind: minutes
+    listed_in: 1
+    first: '2005-11-06'
+    last: '2005-11-06'
+    examples:
+    - date: '2005-11-06'
+      subject: IETF 64 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/64/minutes/opes.txt
   - kind: proceedings
     listed_in: 6
     first: '2005-01-07'
@@ -91,6 +114,10 @@ chairs:
     - date: '2006-08-16'
       subject: IETF 67 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/67/opes.html
+  - kind: minutes without them
+    date: '2003-03-16'
+    subject: IETF 56 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/56/minutes/opes.htm
 - person: 104819
   name: Markus Hofmann
   status: confirmed
@@ -117,6 +144,20 @@ chairs:
     date: '2004-11-25'
     subject: 'WG Action: RECHARTER: Open Pluggable Edge Services (opes)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/rm65Xez6PNVuSeuWVurF5sNtrE8/
+  - kind: minutes
+    listed_in: 6
+    first: '2002-03-17'
+    last: '2005-11-06'
+    examples:
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/minutes/opes.htm
+    - date: '2002-07-14'
+      subject: IETF 54 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/54/minutes/opes.htm
+    - date: '2005-11-06'
+      subject: IETF 64 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/64/minutes/opes.txt
   - kind: proceedings
     listed_in: 14
     first: '2002-02-22'

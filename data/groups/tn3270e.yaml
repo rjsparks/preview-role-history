@@ -42,3 +42,22 @@ chairs:
     - date: '2003-03-25'
       subject: IETF 57 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/57/121.htm
+- person: 108162
+  name: Robert Moskowitz
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1994-03-28'
+    end:
+      certainty: evidence-only
+      not_before: '1994-03-28'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '1994-03-28'
+    last: '1994-03-28'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/app/tn3270e/tn3270e-charter.txt

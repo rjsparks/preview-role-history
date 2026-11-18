@@ -74,6 +74,20 @@ chairs:
     - date: '2013-12-09'
       subject: '[core] WGLC of draft-ietf-core-groupcomm-17'
       url: https://mailarchive.ietf.org/arch/msg/core/-uZP3ER45d2Re6-zqgcCL47qZ1w/
+  - kind: minutes
+    listed_in: 8
+    first: '2013-03-10'
+    last: '2016-07-17'
+    examples:
+    - date: '2013-03-10'
+      subject: IETF 86 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/86/minutes/minutes-86-core.txt
+    - date: '2013-07-28'
+      subject: IETF 87 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/87/minutes/minutes-87-core.txt
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/minutes/minutes-96-core.html
   - kind: proceedings
     listed_in: 21
     first: '2010-03-25'
@@ -156,6 +170,10 @@ chairs:
     - date: '2012-03-25'
       subject: IETF 83 proceedings charter
       url: https://www.ietf.org/proceedings/83/core.html
+  - kind: minutes without them
+    date: '2013-03-10'
+    subject: IETF 86 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/86/minutes/minutes-86-core.txt
   - kind: session requests
     meetings:
     - '78'
@@ -199,9 +217,9 @@ chairs:
       subject: '[core] any Agenda for Virtual Interim - May 16?'
       url: https://mailarchive.ietf.org/arch/msg/core/yPeGwKjzp3vKORfOP-9S-4pgyzQ/
   - kind: minutes without them
-    date: '2012-07-29'
-    subject: IETF 84 proceedings charter
-    url: https://www.ietf.org/proceedings/84/core.html
+    date: '2013-03-10'
+    subject: IETF 86 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/86/minutes/minutes-86-core.txt
 - person: 113152
   name: Jaime Jimenez
   status: confirmed
@@ -223,6 +241,14 @@ chairs:
     - date: '2020-07-29'
       subject: '[core] WGLC on draft-ietf-core-senml-data-ct-02'
       url: https://mailarchive.ietf.org/arch/msg/core/xM5Bjh3sI7VzUxPhHXkmB_eFIhQ/
+  - kind: minutes
+    listed_in: 1
+    first: '2016-07-17'
+    last: '2016-07-17'
+    examples:
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/minutes/minutes-96-core.html
   - kind: proceedings
     listed_in: 4
     first: '2016-04-03'
@@ -293,6 +319,20 @@ chairs:
     - date: '2015-01-04'
       subject: '[core] WGLC for draft-ietf-core-block-16'
       url: https://mailarchive.ietf.org/arch/msg/core/LBBfBk9R5Q_T1p0IvJBniP7IoEs/
+  - kind: minutes
+    listed_in: 7
+    first: '2013-03-10'
+    last: '2015-11-01'
+    examples:
+    - date: '2013-03-10'
+      subject: IETF 86 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/86/minutes/minutes-86-core.txt
+    - date: '2013-07-28'
+      subject: IETF 87 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/87/minutes/minutes-87-core.txt
+    - date: '2015-11-01'
+      subject: IETF 94 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/94/minutes/minutes-94-core.txt
   - kind: proceedings
     listed_in: 11
     first: '2012-07-29'
@@ -307,6 +347,10 @@ chairs:
     - date: '2015-11-01'
       subject: IETF 94 proceedings charter
       url: https://www.ietf.org/proceedings/94/core.html
+  - kind: minutes without them
+    date: '2016-07-17'
+    subject: IETF 96 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-core.html
   - kind: shepherded
     documents:
     - draft-ietf-core-coap

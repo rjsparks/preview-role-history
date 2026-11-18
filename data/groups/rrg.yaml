@@ -48,6 +48,29 @@ chairs:
     - '76'
     - '77'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 3747
+  name: avri doria
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2004-08-01'
+    end:
+      certainty: evidence-only
+      not_before: '2006-11-05'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2004-08-01'
+    last: '2004-08-01'
+    examples:
+    - date: '2004-08-01'
+      subject: IETF 60 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/60/minutes/rrg.htm
+  - kind: session requests
+    meetings:
+    - '67'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
 - person: 4475
   name: Tony Li
   status: confirmed

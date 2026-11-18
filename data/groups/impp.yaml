@@ -25,6 +25,17 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2001-07-31)'
   evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '2001-08-05'
+    last: '2002-11-17'
+    examples:
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/minutes/IMPP.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/minutes/impp.htm
   - kind: proceedings
     listed_in: 7
     first: '2001-07-31'
@@ -65,9 +76,9 @@ chairs:
       subject: IETF 50 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/50/ietf50-17.htm
   - kind: minutes without them
-    date: '2001-07-31'
-    subject: IETF 51 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/51/51-17.htm
+    date: '2001-08-05'
+    subject: IETF 51 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/51/minutes/IMPP.htm
   - kind: joined the IESG
     after_meeting: '50'
     after: '2001-03-18'
@@ -80,13 +91,22 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2002-02-21'
-      not_before: '1998-11-20'
+      not_before: '2001-08-05'
     end:
       certainty: group-closed
       date: '2004-09-08'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2002-02-21)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2001-08-05)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2002-11-17'
+    last: '2002-11-17'
+    examples:
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/minutes/impp.htm
   - kind: proceedings
     listed_in: 5
     first: '2002-02-21'
@@ -101,6 +121,10 @@ chairs:
     - date: '2003-11-03'
       subject: IETF 58 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/58/110.htm
+  - kind: minutes without them
+    date: '2001-08-05'
+    subject: IETF 51 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/51/minutes/IMPP.htm
 - person: 16886
   name: Vijay Saraswat
   status: unconfirmed
@@ -130,9 +154,9 @@ chairs:
       subject: IETF 48 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/48/00july-18.htm
   - kind: minutes without them
-    date: '2000-10-13'
-    subject: IETF 49 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/49/00dec-16.htm
+    date: '2001-08-05'
+    subject: IETF 51 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/51/minutes/IMPP.htm
 - person: 101696
   name: Dave Marvit
   status: unconfirmed
@@ -166,9 +190,9 @@ chairs:
       subject: IETF 48 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/48/00july-18.htm
   - kind: minutes without them
-    date: '2000-10-13'
-    subject: IETF 49 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/49/00dec-16.htm
+    date: '2001-08-05'
+    subject: IETF 51 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/51/minutes/IMPP.htm
 - person: 109223
   name: Leslie Daigle
   status: unconfirmed
@@ -183,6 +207,14 @@ chairs:
     notes:
     - 'End: no longer listed among the chairs in a proceedings charter snapshot (2002-02-21)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2001-08-05'
+    last: '2001-08-05'
+    examples:
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/minutes/IMPP.htm
   - kind: proceedings
     listed_in: 4
     first: '2000-10-13'
@@ -198,6 +230,6 @@ chairs:
       subject: IETF 52 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/52/109.htm
   - kind: minutes without them
-    date: '2002-02-21'
-    subject: IETF 53 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/53/110.htm
+    date: '2002-11-17'
+    subject: IETF 55 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/55/minutes/impp.htm

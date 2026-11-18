@@ -6,7 +6,7 @@ state: conclude
 started: null
 closed: '2003-12-10'
 bof: true
-never_chartered: false
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '57'
@@ -17,13 +17,72 @@ bof_sessions:
   url: https://www.ietf.org/proceedings/58/248.htm
 history_url: https://datatracker.ietf.org/group/alias/history/
 chairs:
+- person: 3354
+  name: Kevin Fall
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2003-07-13'
+    end:
+      certainty: evidence-only
+      not_before: '2003-11-09'
+  evidence:
+  - kind: minutes
+    listed_in: 3
+    first: '2003-07-13'
+    last: '2003-11-09'
+    examples:
+    - date: '2003-07-13'
+      subject: IETF 57 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/57/minutes/ALIAS.TXT
+    - date: '2003-07-13'
+      subject: IETF 57 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/57/minutes/alias.htm
+    - date: '2003-11-09'
+      subject: IETF 58 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/58/minutes/alias.htm
+  - kind: BOF session
+    meeting: '57'
+    date: '2003-07-13'
+    url: https://www.ietf.org/proceedings/57/250.htm
+  - kind: BOF session
+    meeting: '58'
+    date: '2003-11-09'
+    url: https://www.ietf.org/proceedings/58/248.htm
 - person: 20550
   name: Hui-Lan Lu
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-12-10'
+      date: '2003-07-13'
     end:
-      certainty: group-closed
-      date: '2003-12-10'
+      certainty: between
+      not_before: '2003-11-09'
+    notes:
+    - 'Start: the BOF met at IETF 57 (2003-07-13)'
+    - 'End: after the BOF''s last session, IETF 58 (2003-11-09)'
+  evidence:
+  - kind: minutes
+    listed_in: 3
+    first: '2003-07-13'
+    last: '2003-11-09'
+    examples:
+    - date: '2003-07-13'
+      subject: IETF 57 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/57/minutes/ALIAS.TXT
+    - date: '2003-07-13'
+      subject: IETF 57 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/57/minutes/alias.htm
+    - date: '2003-11-09'
+      subject: IETF 58 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/58/minutes/alias.htm
+  - kind: BOF session
+    meeting: '57'
+    date: '2003-07-13'
+    url: https://www.ietf.org/proceedings/57/250.htm
+  - kind: BOF session
+    meeting: '58'
+    date: '2003-11-09'
+    url: https://www.ietf.org/proceedings/58/248.htm

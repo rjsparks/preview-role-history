@@ -49,13 +49,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-07-25'
+      date: '2010-03-21'
       not_before: '2009-12-10'
     end:
       certainty: group-closed
       date: '2016-01-04'
     notes:
-    - 'Start: requested the group''s session for IETF 78 (2010-07-25)'
+    - 'Start: listed as chair in meeting minutes (2010-03-21)'
   evidence:
   - kind: WG Review
     date: '2012-02-07'
@@ -80,6 +80,17 @@ chairs:
       subject: '[hybi] working group last call on draft-ietf-hybi-permessage-compression-04 (until November
         14th)'
       url: https://mailarchive.ietf.org/arch/msg/hybi/MxIeMLRBvIDy4m-igmiV6T31J54/
+  - kind: minutes
+    listed_in: 2
+    first: '2010-03-21'
+    last: '2010-07-25'
+    examples:
+    - date: '2010-03-21'
+      subject: IETF 77 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/77/minutes/hybi.txt
+    - date: '2010-07-25'
+      subject: IETF 78 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/78/minutes/hybi.txt
   - kind: proceedings
     listed_in: 7
     first: '2009-11-08'
@@ -156,6 +167,10 @@ chairs:
     - date: '2011-11-13'
       subject: IETF 82 proceedings charter
       url: https://www.ietf.org/proceedings/82/hybi.html
+  - kind: minutes without them
+    date: '2010-07-25'
+    subject: IETF 78 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/78/minutes/hybi.txt
 - person: 110049
   name: Joe Hildebrand
   status: unconfirmed
@@ -170,6 +185,17 @@ chairs:
     notes:
     - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-11-07)'
   evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '2010-03-21'
+    last: '2010-07-25'
+    examples:
+    - date: '2010-03-21'
+      subject: IETF 77 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/77/minutes/hybi.txt
+    - date: '2010-07-25'
+      subject: IETF 78 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/78/minutes/hybi.txt
   - kind: proceedings
     listed_in: 3
     first: '2009-11-08'

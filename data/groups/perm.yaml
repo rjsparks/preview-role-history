@@ -6,7 +6,7 @@ state: conclude
 started: null
 closed: '2005-05-11'
 bof: true
-never_chartered: false
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '60'
@@ -20,13 +20,18 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-10-22'
+      date: '2004-08-01'
     end:
-      certainty: group-closed
-      date: '2005-05-11'
+      certainty: between
+      not_before: '2004-08-01'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2004-10-22)'
+    - 'Start: the BOF met at IETF 60 (2004-08-01)'
+    - 'End: after the BOF''s last session, IETF 60 (2004-08-01)'
   evidence:
+  - kind: BOF session
+    meeting: '60'
+    date: '2004-08-01'
+    url: https://www.ietf.org/proceedings/60/231.htm
   - kind: proceedings
     listed_in: 2
     first: '2004-10-22'
@@ -44,13 +49,18 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-10-22'
+      date: '2004-08-01'
     end:
-      certainty: group-closed
-      date: '2005-05-11'
+      certainty: between
+      not_before: '2004-08-01'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2004-10-22)'
+    - 'Start: the BOF met at IETF 60 (2004-08-01)'
+    - 'End: after the BOF''s last session, IETF 60 (2004-08-01)'
   evidence:
+  - kind: BOF session
+    meeting: '60'
+    date: '2004-08-01'
+    url: https://www.ietf.org/proceedings/60/231.htm
   - kind: proceedings
     listed_in: 2
     first: '2004-10-22'

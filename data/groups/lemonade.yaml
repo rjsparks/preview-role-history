@@ -52,10 +52,16 @@ chairs:
       subject: '[lemonade] WG last call on future delivery'
       url: https://mailarchive.ietf.org/arch/msg/lemonade/L1duoTTXKS07jY2SZRECYX8xbk8/
   - kind: minutes
-    listed_in: 1
-    first: '2007-08-08'
+    listed_in: 6
+    first: '2002-07-14'
     last: '2007-08-08'
     examples:
+    - date: '2002-07-14'
+      subject: IETF 54 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/54/minutes/lemonade.htm
+    - date: '2006-06-01'
+      subject: '[lemonade] Draft Minutes, Interim Day 1'
+      url: https://mailarchive.ietf.org/arch/msg/lemonade/-TgBFln4YY0cXI-YtK9PMUvEQs8/
     - date: '2007-08-08'
       subject: '[lemonade] DRAFT Minutes'
       url: https://mailarchive.ietf.org/arch/msg/lemonade/VP_3c7k6GeQmwQLFAPcenhMOSWc/
@@ -78,7 +84,8 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2006-07-09'
       not_after: '2007-07-22'
     end:
       certainty: between
@@ -86,7 +93,12 @@ chairs:
       not_after: '2009-04-03'
     notes:
     - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-04-03)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2006-07-09)'
   evidence:
+  - kind: minutes without them
+    date: '2006-07-09'
+    subject: IETF 66 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/66/minutes/lemonade.txt
   - kind: minutes without them
     date: '2009-04-03'
     subject: IETF 74 proceedings charter, as last modified
@@ -137,13 +149,16 @@ chairs:
       subject: '[lemonade] WGLC CATENATE'
       url: https://mailarchive.ietf.org/arch/msg/lemonade/TuZrkdPiUNPaZGIuFPVmU7zi05Q/
   - kind: minutes
-    listed_in: 2
-    first: '2003-07-30'
+    listed_in: 9
+    first: '2002-07-14'
     last: '2007-08-08'
     examples:
-    - date: '2003-07-30'
-      subject: '[lemonade] Raw Draft Meeting Minutes'
-      url: https://mailarchive.ietf.org/arch/msg/lemonade/zYRdOWrfFerIKCdARPY2wgV8qn8/
+    - date: '2002-07-14'
+      subject: IETF 54 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/54/minutes/lemonade.htm
+    - date: '2003-07-13'
+      subject: IETF 57 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/57/minutes/lemonade.htm
     - date: '2007-08-08'
       subject: '[lemonade] DRAFT Minutes'
       url: https://mailarchive.ietf.org/arch/msg/lemonade/VP_3c7k6GeQmwQLFAPcenhMOSWc/

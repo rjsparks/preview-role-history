@@ -31,6 +31,14 @@ chairs:
     - 'End: after the BOF''s last session, IETF 80 (2011-03-27)'
     - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2010-11-07'
+    last: '2010-11-07'
+    examples:
+    - date: '2010-11-07'
+      subject: IETF 79 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/79/minutes/lwip.txt
   - kind: BOF session
     meeting: '79'
     date: '2010-11-07'
@@ -67,6 +75,14 @@ chairs:
     - 'End: after the BOF''s last session, IETF 80 (2011-03-27)'
     - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2011-03-27'
+    last: '2011-03-27'
+    examples:
+    - date: '2011-03-27'
+      subject: IETF 80 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/80/minutes/lwip.txt
   - kind: BOF session
     meeting: '79'
     date: '2010-11-07'
@@ -89,3 +105,61 @@ chairs:
     - date: '2011-03-27'
       subject: IETF 80 proceedings charter
       url: https://www.ietf.org/proceedings/80/lwip.html
+- person: 111055
+  name: Zehn Cao
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2010-11-07'
+    end:
+      certainty: between
+      not_before: '2011-03-27'
+    notes:
+    - 'End: after the BOF''s last session, IETF 80 (2011-03-27)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2010-11-07'
+    last: '2010-11-07'
+    examples:
+    - date: '2010-11-07'
+      subject: IETF 79 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/79/minutes/lwip.txt
+  - kind: BOF session
+    meeting: '79'
+    date: '2010-11-07'
+    url: https://www.ietf.org/proceedings/79/lwip.html
+  - kind: BOF session
+    meeting: '80'
+    date: '2011-03-27'
+    url: https://www.ietf.org/proceedings/80/lwip.html
+- person: 111293
+  name: Robert Cragie
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2010-11-07'
+    end:
+      certainty: evidence-only
+      not_before: '2011-03-27'
+    notes:
+    - 'Start: the BOF met at IETF 79 (2010-11-07)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2011-03-27'
+    last: '2011-03-27'
+    examples:
+    - date: '2011-03-27'
+      subject: IETF 80 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/80/minutes/lwip.txt
+  - kind: BOF session
+    meeting: '79'
+    date: '2010-11-07'
+    url: https://www.ietf.org/proceedings/79/lwip.html
+  - kind: BOF session
+    meeting: '80'
+    date: '2011-03-27'
+    url: https://www.ietf.org/proceedings/80/lwip.html

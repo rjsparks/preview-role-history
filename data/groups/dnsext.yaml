@@ -90,19 +90,19 @@ chairs:
       subject: '[dnsext] WGLC: DNS Proxy Implementation Guidelines'
       url: https://mailarchive.ietf.org/arch/msg/dnsext/pcODeYnuT0dWpzbVFCKkSzfoKWY/
   - kind: minutes
-    listed_in: 4
+    listed_in: 15
     first: '2001-08-05'
-    last: '2008-07-27'
+    last: '2011-03-27'
     examples:
     - date: '2001-08-05'
       subject: IETF 51, DNSEXT final minutes
       url: https://mailarchive.ietf.org/arch/msg/dnsext/-ZZAZO2PtqOb6HGnj7_K_j8Sr7k/
-    - date: '2001-08-21'
-      subject: Draft IETF-51 DNSEXT WG minutes
-      url: https://mailarchive.ietf.org/arch/msg/dnsext/6QewpN4N-Z8IJK7Wc4BPliswMV4/
-    - date: '2008-07-27'
-      subject: IETF-72 DNSEXT draft minutes
-      url: https://mailarchive.ietf.org/arch/msg/dnsext/8TJU-HWpnedZRJmyy1yt2I0Ntm8/
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/minutes/DNSEXT.HTM
+    - date: '2011-03-27'
+      subject: IETF 80 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/80/minutes/dnsext.txt
   - kind: proceedings
     listed_in: 36
     first: '2000-02-03'
@@ -178,16 +178,19 @@ chairs:
       subject: dnsext minutes
       url: https://mailarchive.ietf.org/arch/msg/dnsext/mtLD9qE6A1EIp_324I39Ejp3LSc/
   - kind: minutes
-    listed_in: 2
+    listed_in: 4
     first: '2001-08-05'
-    last: '2001-08-21'
+    last: '2002-11-17'
     examples:
     - date: '2001-08-05'
       subject: IETF 51, DNSEXT final minutes
       url: https://mailarchive.ietf.org/arch/msg/dnsext/-ZZAZO2PtqOb6HGnj7_K_j8Sr7k/
-    - date: '2001-08-21'
-      subject: Draft IETF-51 DNSEXT WG minutes
-      url: https://mailarchive.ietf.org/arch/msg/dnsext/6QewpN4N-Z8IJK7Wc4BPliswMV4/
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/minutes/DNSEXT.HTM
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/minutes/dnsext.htm
   - kind: proceedings
     listed_in: 10
     first: '2000-02-03'
@@ -203,9 +206,9 @@ chairs:
       subject: IETF 56 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/56/136.htm
   - kind: minutes without them
-    date: '2006-12-07'
-    subject: DNSEXT IETF-67 meeting minutes
-    url: https://mailarchive.ietf.org/arch/msg/dnsext/tUiYf2sZKAwGyyMbCGO4sAJMpUI/
+    date: '2005-03-06'
+    subject: IETF 62 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/62/minutes/dnsext.html
 - person: 109178
   name: Andrew Sullivan
   status: confirmed
@@ -213,13 +216,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2008-07-27'
-      not_before: '2006-12-07'
+      not_before: '2007-03-18'
     end:
       certainty: group-closed
       date: '2013-07-24'
     notes:
     - 'Start: listed as chair in meeting minutes (2008-07-27)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2006-12-07)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2007-03-18)'
   evidence:
   - kind: WG Review
     date: '2009-07-07'
@@ -262,13 +265,19 @@ chairs:
       subject: '[dnsext] WGLC: draft-ietf-dnsext-dnssec-registry-fixes-06'
       url: https://mailarchive.ietf.org/arch/msg/dnsext/6MMDOw4u75nnv_zC3yxYvt4RWH8/
   - kind: minutes
-    listed_in: 1
+    listed_in: 4
     first: '2008-07-27'
-    last: '2008-07-27'
+    last: '2011-03-27'
     examples:
     - date: '2008-07-27'
       subject: IETF-72 DNSEXT draft minutes
       url: https://mailarchive.ietf.org/arch/msg/dnsext/8TJU-HWpnedZRJmyy1yt2I0Ntm8/
+    - date: '2008-07-27'
+      subject: IETF 72 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/72/minutes/dnsext.txt
+    - date: '2011-03-27'
+      subject: IETF 80 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/80/minutes/dnsext.txt
   - kind: proceedings
     listed_in: 13
     first: '2009-04-13'
@@ -284,9 +293,9 @@ chairs:
       subject: IETF 86 proceedings charter
       url: https://www.ietf.org/proceedings/86/dnsext.html
   - kind: minutes without them
-    date: '2006-12-07'
-    subject: DNSEXT IETF-67 meeting minutes
-    url: https://mailarchive.ietf.org/arch/msg/dnsext/tUiYf2sZKAwGyyMbCGO4sAJMpUI/
+    date: '2007-03-18'
+    subject: IETF 68 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/68/minutes/dnsext.txt
   - kind: session requests
     meetings:
     - '73'
@@ -360,13 +369,19 @@ chairs:
       subject: DNSEXT Agenda Items for IETF 60
       url: https://mailarchive.ietf.org/arch/msg/dnsext/uHTRyhjGVs97xSwsIRpb7x8n6O4/
   - kind: minutes
-    listed_in: 1
-    first: '2006-12-07'
-    last: '2006-12-07'
+    listed_in: 7
+    first: '2005-03-06'
+    last: '2007-03-18'
     examples:
-    - date: '2006-12-07'
-      subject: DNSEXT IETF-67 meeting minutes
-      url: https://mailarchive.ietf.org/arch/msg/dnsext/tUiYf2sZKAwGyyMbCGO4sAJMpUI/
+    - date: '2005-03-06'
+      subject: IETF 62 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/62/minutes/dnsext.html
+    - date: '2005-07-31'
+      subject: IETF 63 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/63/minutes/dnsext.html
+    - date: '2007-03-18'
+      subject: IETF 68 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/68/minutes/dnsext.txt
   - kind: proceedings
     listed_in: 12
     first: '2003-08-11'
@@ -382,9 +397,9 @@ chairs:
       subject: IETF 69 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/69/dnsext.html
   - kind: minutes without them
-    date: '2001-08-21'
-    subject: Draft IETF-51 DNSEXT WG minutes
-    url: https://mailarchive.ietf.org/arch/msg/dnsext/6QewpN4N-Z8IJK7Wc4BPliswMV4/
+    date: '2002-11-17'
+    subject: IETF 55 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/55/minutes/dnsext.htm
   - kind: minutes without them
     date: '2008-07-27'
     subject: IETF-72 DNSEXT draft minutes

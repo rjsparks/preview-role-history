@@ -29,6 +29,14 @@ chairs:
     date: '2006-02-08'
     subject: 'WG Action: Session PEERing for Multimedia INTerconnect (speermint)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/kuGBM4sooTp-UQJYujf3kAyNSKw/
+  - kind: minutes
+    listed_in: 1
+    first: '2007-03-18'
+    last: '2007-03-18'
+    examples:
+    - date: '2007-03-18'
+      subject: IETF 68 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/68/minutes/speermint.txt
   - kind: proceedings
     listed_in: 3
     first: '2006-02-14'
@@ -44,9 +52,9 @@ chairs:
       subject: IETF 69 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/69/speermint.html
   - kind: minutes without them
-    date: '2008-02-06'
-    subject: IETF 71 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/71/speermint.html
+    date: '2008-03-09'
+    subject: IETF 71 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/71/minutes/speermint.txt
 - person: 107154
   name: Jason Livingood
   status: confirmed
@@ -73,6 +81,20 @@ chairs:
     - date: '2010-07-12'
       subject: '[Speermint] WGLC: draft-ietf-speermint-voipthreats-03'
       url: https://mailarchive.ietf.org/arch/msg/speermint/JHUR4fuMbbjXxvcmYKdMg9wJ2iY/
+  - kind: minutes
+    listed_in: 3
+    first: '2007-03-18'
+    last: '2009-03-22'
+    examples:
+    - date: '2007-03-18'
+      subject: IETF 68 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/68/minutes/speermint.txt
+    - date: '2008-03-09'
+      subject: IETF 71 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/71/minutes/speermint.txt
+    - date: '2009-03-22'
+      subject: IETF 74 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/74/minutes/speermint.txt
   - kind: proceedings
     listed_in: 9
     first: '2006-02-14'
@@ -131,6 +153,17 @@ chairs:
     - date: '2009-11-12'
       subject: '[Speermint] IETF 76 Speermint Meeting Minutes'
       url: https://mailarchive.ietf.org/arch/msg/speermint/syBYESKGsbZQJwak_4Xu7hQQazU/
+  - kind: minutes
+    listed_in: 2
+    first: '2008-03-09'
+    last: '2009-03-22'
+    examples:
+    - date: '2008-03-09'
+      subject: IETF 71 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/71/minutes/speermint.txt
+    - date: '2009-03-22'
+      subject: IETF 74 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/74/minutes/speermint.txt
   - kind: proceedings
     listed_in: 6
     first: '2008-02-06'
@@ -145,6 +178,10 @@ chairs:
     - date: '2011-07-24'
       subject: IETF 81 proceedings charter
       url: https://www.ietf.org/proceedings/81/speermint.html
+  - kind: minutes without them
+    date: '2007-03-18'
+    subject: IETF 68 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/68/minutes/speermint.txt
   - kind: session requests
     meetings:
     - '73'

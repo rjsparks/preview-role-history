@@ -11,6 +11,40 @@ chartered: '2005-03-30'
 bof_sessions: []
 history_url: https://datatracker.ietf.org/group/btns/history/
 chairs:
+- person: 3664
+  name: Joseph Touch
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2004-10-28'
+    end:
+      certainty: between
+      not_before: '2004-11-07'
+      not_after: '2005-07-06'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2005-07-06)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2004-11-07'
+    last: '2004-11-07'
+    examples:
+    - date: '2004-11-07'
+      subject: IETF 61 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/61/minutes/btns.html
+  - kind: proceedings
+    listed_in: 1
+    first: '2004-10-28'
+    last: '2004-10-28'
+    examples:
+    - date: '2004-10-28'
+      subject: IETF 61 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/61/btns.html
+  - kind: minutes without them
+    date: '2007-12-02'
+    subject: IETF 70 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/70/minutes/btns.txt
 - person: 6167
   name: Pekka Nikander
   status: unconfirmed
@@ -20,7 +54,7 @@ chairs:
       not_after: '2005-04-08'
     end:
       certainty: between
-      not_before: '2005-10-24'
+      not_before: '2006-03-19'
       not_after: '2007-01-11'
     notes:
     - 'End: no longer listed among the chairs in a proceedings charter snapshot (2007-01-11)'
@@ -30,13 +64,19 @@ chairs:
     subject: 'WG Action: Better-Than-Nothing Security (btns)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/j_VVuRNnzVn9okKIF2oDsqmtiV8/
   - kind: minutes
-    listed_in: 1
+    listed_in: 4
     first: '2005-07-31'
-    last: '2005-07-31'
+    last: '2006-03-19'
     examples:
     - date: '2005-07-31'
       subject: '[anonsec] draft BTNS minutes for IETF 63'
       url: https://mailarchive.ietf.org/arch/msg/btns/2KALgVcp-cbGBW3pMFZos0d9f3c/
+    - date: '2005-07-31'
+      subject: IETF 63 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/63/minutes/btns.html
+    - date: '2006-03-19'
+      subject: IETF 65 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/65/minutes/btns.txt
   - kind: proceedings
     listed_in: 2
     first: '2005-07-06'
@@ -49,9 +89,35 @@ chairs:
       subject: IETF 64 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/64/btns.html
   - kind: minutes without them
-    date: '2007-01-11'
-    subject: IETF 68 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/68/btns.html
+    date: '2007-12-02'
+    subject: IETF 70 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/70/minutes/btns.txt
+- person: 20106
+  name: Sam Weiler
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2005-02-04'
+    end:
+      certainty: between
+      not_before: '2005-02-04'
+      not_after: '2005-07-06'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2005-07-06)'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2005-02-04'
+    last: '2005-02-04'
+    examples:
+    - date: '2005-02-04'
+      subject: IETF 62 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/62/btns.html
+  - kind: minutes without them
+    date: '2007-12-02'
+    subject: IETF 70 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/70/minutes/btns.txt
 - person: 106186
   name: Julien Laganier
   status: confirmed
@@ -74,6 +140,17 @@ chairs:
     - date: '2007-12-13'
       subject: '[anonsec] Minutes of BTNS session at IETF-70'
       url: https://mailarchive.ietf.org/arch/msg/btns/-Z-LMtb4tyJ61wVAkx-gkIyn_tE/
+  - kind: minutes
+    listed_in: 2
+    first: '2007-03-18'
+    last: '2007-12-02'
+    examples:
+    - date: '2007-03-18'
+      subject: IETF 68 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/68/minutes/btns.txt
+    - date: '2007-12-02'
+      subject: IETF 70 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/70/minutes/btns.txt
   - kind: proceedings
     listed_in: 5
     first: '2007-01-11'
@@ -112,6 +189,20 @@ chairs:
     date: '2005-04-08'
     subject: 'WG Action: Better-Than-Nothing Security (btns)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/j_VVuRNnzVn9okKIF2oDsqmtiV8/
+  - kind: minutes
+    listed_in: 3
+    first: '2006-07-09'
+    last: '2007-12-02'
+    examples:
+    - date: '2006-07-09'
+      subject: IETF 66 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/66/minutes/btns.txt
+    - date: '2006-11-05'
+      subject: IETF 67 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/67/minutes/btns.txt
+    - date: '2007-12-02'
+      subject: IETF 70 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/70/minutes/btns.txt
   - kind: proceedings
     listed_in: 8
     first: '2005-07-06'

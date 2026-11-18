@@ -17,14 +17,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2009-04-02'
-      not_before: '2007-03-28'
+      date: '2009-03-22'
+      not_before: '2008-11-16'
     end:
       certainty: exact
       date: '2014-12-04'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2009-04-02)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2007-03-28)'
+    - 'Start: listed as chair in meeting minutes (2009-03-22)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2008-11-16)'
   evidence:
   - kind: WG Action
     date: '2010-03-17'
@@ -61,6 +61,17 @@ chairs:
     - date: '2012-03-07'
       subject: '[CCAMP] WG Last Call: draft-ietf-ccamp-dpm'
       url: https://mailarchive.ietf.org/arch/msg/ccamp/gW00Q4weoSJ1BLlrPfDXFnqOpds/
+  - kind: minutes
+    listed_in: 2
+    first: '2009-03-22'
+    last: '2011-11-13'
+    examples:
+    - date: '2009-03-22'
+      subject: IETF 74 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/74/minutes/ccamp.htm
+    - date: '2011-11-13'
+      subject: IETF 82 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/82/minutes/ccamp.htm
   - kind: proceedings
     listed_in: 7
     first: '2009-04-02'
@@ -76,9 +87,9 @@ chairs:
       subject: IETF 82 proceedings charter
       url: https://www.ietf.org/proceedings/82/ccamp.html
   - kind: minutes without them
-    date: '2007-03-28'
-    subject: Draft minutes - Session II
-    url: https://mailarchive.ietf.org/arch/msg/ccamp/j2_pcfJAylrjQFF-Wb-rCjHF4Vg/
+    date: '2008-11-16'
+    subject: IETF 73 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/73/minutes/ccamp.htm
   - kind: session requests
     meetings:
     - '76'
@@ -149,9 +160,9 @@ chairs:
       subject: IETF 57 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/57/219.htm
   - kind: minutes without them
-    date: '2004-03-12'
-    subject: Draft minutes from Seoul
-    url: https://mailarchive.ietf.org/arch/msg/ccamp/d7rE4RylTmlVRCSczKksxEm62fw/
+    date: '2003-11-09'
+    subject: IETF 58 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/58/minutes/ccamp.htm
 - person: 102960
   name: Kireeti Kompella
   status: unconfirmed
@@ -196,19 +207,19 @@ chairs:
       subject: 'WG Last Call: draft-ietf-ccamp-tracereq-00.txt (#1)'
       url: https://mailarchive.ietf.org/arch/msg/ccamp/PHpH1pmIbbC_57u2vHI31wY0ANo/
   - kind: minutes
-    listed_in: 3
-    first: '2004-03-12'
-    last: '2004-03-18'
+    listed_in: 6
+    first: '2003-11-09'
+    last: '2006-03-19'
     examples:
-    - date: '2004-03-12'
-      subject: Draft minutes from Seoul
-      url: https://mailarchive.ietf.org/arch/msg/ccamp/d7rE4RylTmlVRCSczKksxEm62fw/
-    - date: '2004-03-14'
-      subject: Revised draft minutes
-      url: https://mailarchive.ietf.org/arch/msg/ccamp/ebegw-6WQvGqYw-Ieq86AqOO_5U/
-    - date: '2004-03-18'
-      subject: CCAMP WG Minutes - 59th IETF Seoul
-      url: https://mailarchive.ietf.org/arch/msg/ccamp/q1UX0v2K4JHr5LDalDMiVyqkH3M/
+    - date: '2003-11-09'
+      subject: IETF 58 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/58/minutes/ccamp.htm
+    - date: '2004-02-29'
+      subject: IETF 59 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/59/minutes/ccamp.htm
+    - date: '2006-03-19'
+      subject: IETF 65 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/65/minutes/ccamp.html
   - kind: proceedings
     listed_in: 15
     first: '2001-03-14'
@@ -224,9 +235,9 @@ chairs:
       subject: IETF 65 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/65/ccamp.html
   - kind: minutes without them
-    date: '2007-03-28'
-    subject: Draft minutes - Session II
-    url: https://mailarchive.ietf.org/arch/msg/ccamp/j2_pcfJAylrjQFF-Wb-rCjHF4Vg/
+    date: '2006-07-09'
+    subject: IETF 66 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/66/minutes/ccamp.htm
 - person: 104198
   name: Adrian Farrel
   status: unconfirmed
@@ -237,9 +248,9 @@ chairs:
     end:
       certainty: between
       not_before: '2009-01-24'
-      not_after: '2009-04-02'
+      not_after: '2009-03-22'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-04-02)'
+    - 'End: no longer listed among the chairs in meeting minutes (2009-03-22)'
   evidence:
   - kind: WG Action
     date: '2005-11-04'
@@ -274,19 +285,19 @@ chairs:
       subject: Working group last call on draft-ietf-ccamp-tranport-lmp-00.txt
       url: https://mailarchive.ietf.org/arch/msg/ccamp/Qrw6V-TCaH42DIXCQh8VlsZ70CY/
   - kind: minutes
-    listed_in: 4
-    first: '2004-03-12'
-    last: '2007-03-28'
+    listed_in: 18
+    first: '2003-11-09'
+    last: '2008-11-16'
     examples:
-    - date: '2004-03-12'
-      subject: Draft minutes from Seoul
-      url: https://mailarchive.ietf.org/arch/msg/ccamp/d7rE4RylTmlVRCSczKksxEm62fw/
-    - date: '2004-03-14'
-      subject: Revised draft minutes
-      url: https://mailarchive.ietf.org/arch/msg/ccamp/ebegw-6WQvGqYw-Ieq86AqOO_5U/
-    - date: '2007-03-28'
-      subject: Draft minutes - Session II
-      url: https://mailarchive.ietf.org/arch/msg/ccamp/j2_pcfJAylrjQFF-Wb-rCjHF4Vg/
+    - date: '2003-11-09'
+      subject: IETF 58 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/58/minutes/ccamp.htm
+    - date: '2004-02-29'
+      subject: IETF 59 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/59/minutes/ccamp.htm
+    - date: '2008-11-16'
+      subject: IETF 73 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/73/minutes/ccamp.htm
   - kind: proceedings
     listed_in: 13
     first: '2003-10-20'
@@ -302,9 +313,9 @@ chairs:
       subject: IETF 71 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/71/ccamp.html
   - kind: minutes without them
-    date: '2009-04-02'
-    subject: IETF 74 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/74/ccamp.html
+    date: '2009-03-22'
+    subject: IETF 74 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/74/minutes/ccamp.htm
   - kind: session requests
     meetings:
     - '65'
@@ -369,9 +380,9 @@ chairs:
       subject: IETF 52 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/52/211.htm
   - kind: minutes without them
-    date: '2004-03-12'
-    subject: Draft minutes from Seoul
-    url: https://mailarchive.ietf.org/arch/msg/ccamp/d7rE4RylTmlVRCSczKksxEm62fw/
+    date: '2003-11-09'
+    subject: IETF 58 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/58/minutes/ccamp.htm
 - person: 106471
   name: Deborah Brungard
   status: confirmed
@@ -423,13 +434,19 @@ chairs:
     excerpt: Thanks to Deborah and Lou for the hard work with CCAMP over the years, and good luck to all
       moving forward.
   - kind: minutes
-    listed_in: 1
-    first: '2007-03-28'
-    last: '2007-03-28'
+    listed_in: 14
+    first: '2006-07-09'
+    last: '2011-11-13'
     examples:
-    - date: '2007-03-28'
-      subject: Draft minutes - Session II
-      url: https://mailarchive.ietf.org/arch/msg/ccamp/j2_pcfJAylrjQFF-Wb-rCjHF4Vg/
+    - date: '2006-07-09'
+      subject: IETF 66 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/66/minutes/ccamp.htm
+    - date: '2006-07-09'
+      subject: IETF 66 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/66/minutes/ccamp.html
+    - date: '2011-11-13'
+      subject: IETF 82 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/82/minutes/ccamp.htm
   - kind: proceedings
     listed_in: 12
     first: '2006-07-09'
@@ -445,9 +462,9 @@ chairs:
       subject: IETF 82 proceedings charter
       url: https://www.ietf.org/proceedings/82/ccamp.html
   - kind: minutes without them
-    date: '2004-03-18'
-    subject: CCAMP WG Minutes - 59th IETF Seoul
-    url: https://mailarchive.ietf.org/arch/msg/ccamp/q1UX0v2K4JHr5LDalDMiVyqkH3M/
+    date: '2006-03-19'
+    subject: IETF 65 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/65/minutes/ccamp.html
   - kind: session requests
     meetings:
     - '68'

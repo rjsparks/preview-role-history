@@ -45,6 +45,10 @@ chairs:
     - date: '2015-03-22'
       subject: IETF 92 proceedings charter
       url: https://www.ietf.org/proceedings/92/sdnrg.html
+  - kind: minutes without them
+    date: '2016-07-17'
+    subject: IETF 96 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-sdnrg.txt
   - kind: shepherded
     documents:
     - draft-irtf-sdnrg-layer-terminology
@@ -65,6 +69,14 @@ chairs:
     subject: '[Sdn] Please welcome Kohei Shiomoto as the new SDN RG Co-Chair'
     url: https://mailarchive.ietf.org/arch/msg/sdn/EFUpWawX-ntHIwD2oRytoKH9dJw/
     excerpt: Please welcome Kohei.
+  - kind: minutes
+    listed_in: 1
+    first: '2016-07-17'
+    last: '2016-07-17'
+    examples:
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/minutes/minutes-96-sdnrg.txt
   - kind: proceedings
     listed_in: 3
     first: '2015-11-01'
@@ -79,6 +91,25 @@ chairs:
     - date: '2016-07-17'
       subject: IETF 96 proceedings charter
       url: https://www.ietf.org/proceedings/96/sdnrg.html
+- person: 108591
+  name: Laurent Ciavaglia
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2016-07-17'
+    end:
+      certainty: evidence-only
+      not_before: '2016-07-17'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2016-07-17'
+    last: '2016-07-17'
+    examples:
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/minutes/minutes-96-sdnrg.txt
 - person: 109558
   name: Daniel King
   status: confirmed
@@ -138,3 +169,7 @@ chairs:
     - date: '2014-03-02'
       subject: IETF 89 proceedings charter
       url: https://www.ietf.org/proceedings/89/sdnrg.html
+  - kind: minutes without them
+    date: '2016-07-17'
+    subject: IETF 96 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-sdnrg.txt

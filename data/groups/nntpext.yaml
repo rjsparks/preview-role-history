@@ -14,6 +14,32 @@ bof_sessions:
   url: https://www.ietf.org/proceedings/37/app/nntpext.html
 history_url: https://datatracker.ietf.org/group/nntpext/history/
 chairs:
+- person: 2965
+  name: Erik Fair
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1997-04-07'
+    end:
+      certainty: between
+      not_before: '1997-04-07'
+      not_after: '1997-08-11'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (1997-08-11)'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '1997-04-07'
+    last: '1997-04-07'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr24.htm
+  - kind: minutes without them
+    date: '1997-08-11'
+    subject: IETF 39 proceedings charter
+    url: https://www.ietf.org/proceedings/39/transit97aug-25.htm
 - person: 4397
   name: Ned Freed
   status: confirmed

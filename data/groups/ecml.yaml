@@ -11,6 +11,25 @@ chartered: null
 bof_sessions: []
 history_url: https://datatracker.ietf.org/group/ecml/history/
 chairs:
+- person: 16174
+  name: Walter Houser
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2001-03-18'
+    end:
+      certainty: evidence-only
+      not_before: '2001-03-18'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2001-03-18'
+    last: '2001-03-18'
+    examples:
+    - date: '2001-03-18'
+      subject: IETF 50 proceedings charter
+      url: https://www.ietf.org/proceedings/50/ietf50-20.htm
 - person: 102391
   name: Donald Eastlake
   status: confirmed

@@ -64,6 +64,17 @@ chairs:
     - date: '2011-04-19'
       subject: '[sidr] call for adoption of draft-lepinski-bgpsec-protocol-00'
       url: https://mailarchive.ietf.org/arch/msg/sidr/nwzFKOGFmkQZ9Z-FD-xBC6t8aAc/
+  - kind: minutes
+    listed_in: 2
+    first: '2008-11-16'
+    last: '2008-11-16'
+    examples:
+    - date: '2008-11-16'
+      subject: '[sidr] minutes from sidr IETF 73'
+      url: https://mailarchive.ietf.org/arch/msg/sidr/lRqwncTvtoeSCg3Zy2dGyix0ORQ/
+    - date: '2008-11-16'
+      subject: IETF 73 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/73/minutes/sidr.txt
   - kind: proceedings
     listed_in: 20
     first: '2006-04-18'
@@ -153,6 +164,10 @@ chairs:
     - date: '2013-03-10'
       subject: IETF 86 proceedings charter
       url: https://www.ietf.org/proceedings/86/sidr.html
+  - kind: minutes without them
+    date: '2009-03-22'
+    subject: IETF 74 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/74/minutes/sidr.html
   - kind: shepherded
     documents:
     - draft-ietf-sidr-algorithm-agility
@@ -203,6 +218,17 @@ chairs:
     - date: '2009-10-28'
       subject: '[sidr] Working Group Last Call - draft-ietf-sidr-cp-07.txt'
       url: https://mailarchive.ietf.org/arch/msg/sidr/Tcegd343U8xtk-2Rt2R1wCEnKv4/
+  - kind: minutes
+    listed_in: 2
+    first: '2008-07-27'
+    last: '2009-03-22'
+    examples:
+    - date: '2008-07-27'
+      subject: IETF 72 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/72/minutes/sidr.html
+    - date: '2009-03-22'
+      subject: IETF 74 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/74/minutes/sidr.html
   - kind: proceedings
     listed_in: 6
     first: '2005-10-14'
@@ -283,13 +309,16 @@ chairs:
       subject: '[sidr] SIDR Interim meeting 4/30/2012 (April 30, 2012) - IAD'
       url: https://mailarchive.ietf.org/arch/msg/sidr/z_mLii9PKT3xMCt2O6snupTk-DM/
   - kind: minutes
-    listed_in: 1
+    listed_in: 2
     first: '2010-07-25'
     last: '2010-07-25'
     examples:
     - date: '2010-07-25'
       subject: '[sidr] Draft minutes from IETF78 Maastricht'
       url: https://mailarchive.ietf.org/arch/msg/sidr/tsisR87uPj2mIh-kXBCCMIFYCUs/
+    - date: '2010-07-25'
+      subject: IETF 78 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/78/minutes/sidr.txt
   - kind: proceedings
     listed_in: 15
     first: '2010-03-12'
@@ -304,6 +333,10 @@ chairs:
     - date: '2016-11-13'
       subject: IETF 97 proceedings charter
       url: https://www.ietf.org/proceedings/97/sidr.html
+  - kind: minutes without them
+    date: '2009-03-22'
+    subject: IETF 74 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/74/minutes/sidr.html
   - kind: shepherded
     documents:
     - draft-ietf-sidr-adverse-actions
@@ -320,3 +353,32 @@ chairs:
     - draft-ietf-sidr-rpki-rtr-rfc6810-bis
     - draft-ietf-sidr-rpki-validation-reconsidered
     - draft-ietf-sidr-slurm
+- person: 113167
+  name: Sandy Murphy
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2008-07-27'
+    end:
+      certainty: between
+      not_before: '2009-03-22'
+      not_after: '2009-04-02'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-04-02)'
+  evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '2008-07-27'
+    last: '2009-03-22'
+    examples:
+    - date: '2008-07-27'
+      subject: IETF 72 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/72/minutes/sidr.html
+    - date: '2009-03-22'
+      subject: IETF 74 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/74/minutes/sidr.html
+  - kind: minutes without them
+    date: '2009-04-02'
+    subject: IETF 74 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/74/sidr.html

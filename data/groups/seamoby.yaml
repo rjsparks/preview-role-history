@@ -43,6 +43,17 @@ chairs:
     - date: '2001-12-14'
       subject: '[Seamoby] WG Last Call: draft-ietf-seamoby-ct-reqs-02.txt'
       url: https://mailarchive.ietf.org/arch/msg/seamoby/ae5w9kdw5QLLKNuMh1Rk2aVmo2s/
+  - kind: minutes
+    listed_in: 2
+    first: '2003-07-13'
+    last: '2003-07-13'
+    examples:
+    - date: '2003-07-13'
+      subject: IETF 57 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/57/minutes/SEAMOBY.TXT
+    - date: '2003-07-13'
+      subject: IETF 57 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/57/minutes/seamoby.htm
   - kind: proceedings
     listed_in: 12
     first: '2000-11-20'
@@ -57,6 +68,32 @@ chairs:
     - date: '2004-06-08'
       subject: IETF 60 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/60/254.htm
+- person: 102460
+  name: Phillip Neumiller
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2000-11-20'
+    end:
+      certainty: between
+      not_before: '2000-11-20'
+      not_after: '2001-10-26'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2001-10-26)'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2000-11-20'
+    last: '2000-11-20'
+    examples:
+    - date: '2000-11-20'
+      subject: IETF 49 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/49/00dec-131.htm
+  - kind: minutes without them
+    date: '2003-07-13'
+    subject: IETF 57 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/57/minutes/SEAMOBY.TXT
 - person: 106286
   name: James Kempf
   status: confirmed
@@ -91,6 +128,17 @@ chairs:
     - date: '2003-11-06'
       subject: '[Seamoby] WG Last Call on draft-ietf-seamoby-ctp-05.txt'
       url: https://mailarchive.ietf.org/arch/msg/seamoby/Wibu-45hVi718OnSfYQmwwBqJYs/
+  - kind: minutes
+    listed_in: 2
+    first: '2003-07-13'
+    last: '2003-07-13'
+    examples:
+    - date: '2003-07-13'
+      subject: IETF 57 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/57/minutes/SEAMOBY.TXT
+    - date: '2003-07-13'
+      subject: IETF 57 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/57/minutes/seamoby.htm
   - kind: proceedings
     listed_in: 9
     first: '2001-10-26'

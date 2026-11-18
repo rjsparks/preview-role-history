@@ -14,6 +14,58 @@ bof_sessions:
   url: https://www.ietf.org/proceedings/41/98mar-edited-43.htm
 history_url: https://datatracker.ietf.org/group/sieve/history/
 chairs:
+- person: 4397
+  name: Ned Freed
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2004-10-20'
+    end:
+      certainty: between
+      not_before: '2004-10-20'
+      not_after: '2005-02-18'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2005-02-18)'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2004-10-20'
+    last: '2004-10-20'
+    examples:
+    - date: '2004-10-20'
+      subject: IETF 61 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/61/sieve.html
+  - kind: minutes without them
+    date: '2005-02-18'
+    subject: IETF 62 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/62/sieve.html
+- person: 19521
+  name: Matt Wall
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2004-10-20'
+    end:
+      certainty: between
+      not_before: '2004-10-20'
+      not_after: '2005-02-18'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2005-02-18)'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2004-10-20'
+    last: '2004-10-20'
+    examples:
+    - date: '2004-10-20'
+      subject: IETF 61 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/61/sieve.html
+  - kind: minutes without them
+    date: '2005-02-18'
+    subject: IETF 62 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/62/sieve.html
 - person: 101054
   name: Cyrus Daboo
   status: confirmed

@@ -74,6 +74,10 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/quic.html
+  - kind: minutes without them
+    date: '2016-07-17'
+    subject: IETF 96 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-quic.txt
   - kind: shepherded
     documents:
     - draft-ietf-quic-invariants
@@ -97,6 +101,14 @@ chairs:
     - date: '2016-07-25'
       subject: '[QUIC] QUIC BoF draft minutes posted'
       url: https://mailarchive.ietf.org/arch/msg/quic/PcZAQlf49x2Dxv1-EQdJ78E3_IY/
+  - kind: minutes
+    listed_in: 1
+    first: '2016-07-17'
+    last: '2016-07-17'
+    examples:
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/minutes/minutes-96-quic.txt
 - person: 112773
   name: Lars Eggert
   status: confirmed
@@ -155,6 +167,14 @@ chairs:
     - date: '2020-09-17'
       subject: 'Working Group Last Call: QUIC protocol drafts -30/-17'
       url: https://mailarchive.ietf.org/arch/msg/quic/SIqU3HgJ0A8IHNH_vEOTuEWKaGM/
+  - kind: minutes
+    listed_in: 1
+    first: '2016-07-17'
+    last: '2016-07-17'
+    examples:
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/minutes/minutes-96-quic.txt
   - kind: proceedings
     listed_in: 2
     first: '2016-11-13'

@@ -14,6 +14,25 @@ bof_sessions:
   url: https://www.ietf.org/proceedings/31/area.and.wg.reports/ipng/area.ipng.94dec.txt
 history_url: https://datatracker.ietf.org/group/ipv6mib/history/
 chairs:
+- person: 3703
+  name: Manu Kaycee
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1995-04-03'
+    end:
+      certainty: evidence-only
+      not_before: '1995-04-03'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '1995-04-03'
+    last: '1995-04-03'
+    examples:
+    - date: '1995-04-03'
+      subject: IETF 32 proceedings charter
+      url: https://www.ietf.org/proceedings/32/area.and.wg.reports/int/ipv6mib/ipv6mib-charter.txt
 - person: 8220
   name: David Arneson
   status: confirmed

@@ -6,7 +6,7 @@ state: replaced
 started: '2014-06-11'
 closed: null
 bof: true
-never_chartered: false
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '90'
@@ -23,11 +23,24 @@ chairs:
       not_before: '2014-06-11'
       not_after: '2014-07-20'
     end:
-      certainty: group-closed
-      date: '2014-09-12'
+      certainty: between
+      not_before: '2014-07-20'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
+    - 'Start: the BOF met at IETF 90 (2014-07-20)'
+    - 'End: after the BOF''s last session, IETF 90 (2014-07-20)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2014-07-20'
+    last: '2014-07-20'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/90/minutes/minutes-90-ucan.txt
+  - kind: BOF session
+    meeting: '90'
+    date: '2014-07-20'
+    url: https://www.ietf.org/proceedings/90/ucan.html
   - kind: proceedings
     listed_in: 1
     first: '2014-07-20'
@@ -45,11 +58,24 @@ chairs:
       not_before: '2014-06-11'
       not_after: '2014-07-20'
     end:
-      certainty: group-closed
-      date: '2014-09-12'
+      certainty: between
+      not_before: '2014-07-20'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
+    - 'Start: the BOF met at IETF 90 (2014-07-20)'
+    - 'End: after the BOF''s last session, IETF 90 (2014-07-20)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2014-07-20'
+    last: '2014-07-20'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/90/minutes/minutes-90-ucan.txt
+  - kind: BOF session
+    meeting: '90'
+    date: '2014-07-20'
+    url: https://www.ietf.org/proceedings/90/ucan.html
   - kind: proceedings
     listed_in: 1
     first: '2014-07-20'

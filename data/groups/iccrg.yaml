@@ -17,10 +17,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2012-02-26'
+      date: '2011-03-27'
     end:
       certainty: exact
       date: '2017-11-27'
+    notes:
+    - 'Start: listed as chair in meeting minutes (2011-03-27)'
   evidence:
   - kind: chair activity
     first: '2007-01-12'
@@ -33,6 +35,14 @@ chairs:
     - date: '2008-02-01'
       subject: '[Iccrg] Preliminary agenda for the next meeting'
       url: https://mailarchive.ietf.org/arch/msg/iccrg/uSe53N0NH_n2W21EuBXarBgf8ck/
+  - kind: minutes
+    listed_in: 1
+    first: '2011-03-27'
+    last: '2011-03-27'
+    examples:
+    - date: '2011-03-27'
+      subject: IETF 80 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/80/minutes/iccrg.txt
   - kind: proceedings
     listed_in: 16
     first: '2012-03-25'
@@ -96,6 +106,10 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/iccrg.html
+  - kind: minutes without them
+    date: '2011-03-27'
+    subject: IETF 80 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/80/minutes/iccrg.txt
 - person: 109727
   name: Murari Sridharan
   status: confirmed
@@ -128,6 +142,14 @@ chairs:
     subject: '[Iccrg] New co-chair'
     url: https://mailarchive.ietf.org/arch/msg/iccrg/OVDx7MZkXxYWVOQg5YWM-N01CDs/
     excerpt: Murari, thank you very much for your service over the years!
+  - kind: minutes
+    listed_in: 1
+    first: '2011-03-27'
+    last: '2011-03-27'
+    examples:
+    - date: '2011-03-27'
+      subject: IETF 80 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/80/minutes/iccrg.txt
   - kind: proceedings
     listed_in: 2
     first: '2012-03-25'
@@ -245,6 +267,10 @@ chairs:
     - date: '2015-07-19'
       subject: IETF 93 proceedings charter
       url: https://www.ietf.org/proceedings/93/iccrg.html
+  - kind: minutes without them
+    date: '2011-03-27'
+    subject: IETF 80 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/80/minutes/iccrg.txt
 - person: 123344
   name: Reese Enghardt
   status: confirmed
@@ -291,6 +317,10 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/iccrg/mNTwZF8Zj-MiXOSSUX_E7-7yn4U/
     excerpt: Jana Iyengar and Michael Schapira have requested to step down as ICCRG co-chairs due to changes
       in their day jobs that limit their availability.
+  - kind: minutes without them
+    date: '2011-03-27'
+    subject: IETF 80 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/80/minutes/iccrg.txt
 - person: 127141
   name: Vidhi Goel
   status: confirmed

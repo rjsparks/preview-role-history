@@ -14,6 +14,38 @@ bof_sessions:
   url: https://www.ietf.org/proceedings/56/180.htm
 history_url: https://datatracker.ietf.org/group/netconf/history/
 chairs:
+- person: 6699
+  name: Dan Romascanu
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2005-03-06'
+      not_after: '2005-07-31'
+    end:
+      certainty: between
+      not_before: '2005-07-31'
+      not_after: '2006-01-13'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2006-01-13)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2005-03-06)'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2005-07-31'
+    last: '2005-07-31'
+    examples:
+    - date: '2005-07-31'
+      subject: IETF 63 proceedings charter
+      url: https://www.ietf.org/proceedings/63/netconf.html
+  - kind: minutes without them
+    date: '2005-03-06'
+    subject: IETF 62 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/62/minutes/netconf.html
+  - kind: minutes without them
+    date: '2006-03-19'
+    subject: IETF 65 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/65/minutes/netconf.html
 - person: 6842
   name: Bert Wijnen
   status: confirmed
@@ -88,6 +120,20 @@ chairs:
     - date: '2014-09-25'
       subject: '[Netconf] Draft minutes/notes for our Virtual meting we had on Monday Sept 22, 2014'
       url: https://mailarchive.ietf.org/arch/msg/netconf/Bns2tQoon4ces7NMX83qqzIiFIg/
+  - kind: minutes
+    listed_in: 9
+    first: '2008-03-09'
+    last: '2011-07-24'
+    examples:
+    - date: '2008-03-09'
+      subject: IETF 71 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/71/minutes/netconf.txt
+    - date: '2008-07-27'
+      subject: IETF 72 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/72/minutes/netconf.txt
+    - date: '2011-07-24'
+      subject: IETF 81 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/81/minutes/netconf.txt
   - kind: proceedings
     listed_in: 16
     first: '2008-03-13'
@@ -102,6 +148,10 @@ chairs:
     - date: '2014-03-02'
       subject: IETF 89 proceedings charter
       url: https://www.ietf.org/proceedings/89/netconf.html
+  - kind: minutes without them
+    date: '2006-08-13'
+    subject: 'Draft: Montreal NETCONF Interim Meeting Minutes'
+    url: https://mailarchive.ietf.org/arch/msg/netconf/HcHZO0NHsm9snOEAtKZB1On3KV0/
 - person: 8244
   name: Andy Bierman
   status: unconfirmed
@@ -146,6 +196,20 @@ chairs:
     - date: '2004-09-03'
       subject: 'NETCONF WG minutes for IETF #60'
       url: https://mailarchive.ietf.org/arch/msg/netconf/3B4lVF_vZbZJefbwKU6uwvSP5LY/
+  - kind: minutes
+    listed_in: 5
+    first: '2005-03-06'
+    last: '2006-08-13'
+    examples:
+    - date: '2005-03-06'
+      subject: IETF 62 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/62/minutes/netconf.html
+    - date: '2005-07-31'
+      subject: IETF 63 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/63/minutes/netconf.html
+    - date: '2006-08-13'
+      subject: 'Draft: Montreal NETCONF Interim Meeting Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/netconf/HcHZO0NHsm9snOEAtKZB1On3KV0/
   - kind: proceedings
     listed_in: 11
     first: '2003-07-13'
@@ -162,8 +226,8 @@ chairs:
       url: https://www.ietf.org/proceedings/68/netconf.html
   - kind: minutes without them
     date: '2011-03-27'
-    subject: IETF 80 proceedings charter
-    url: https://www.ietf.org/proceedings/80/netconf.html
+    subject: IETF 80 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/80/minutes/netconf.txt
   - kind: session requests
     meetings:
     - '65'
@@ -179,12 +243,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2008-03-09'
-      not_before: '2002-06-01'
+      not_before: '2006-08-13'
     end:
       certainty: exact
       date: '2017-07-27'
     notes:
     - 'Start: requested the group''s session for IETF 71 (2008-03-09)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2006-08-13)'
   evidence:
   - kind: WG Review
     date: '2009-01-15'
@@ -240,6 +305,20 @@ chairs:
     - date: '2017-07-11'
       subject: '[Netconf] Draft NETCONF Agenda for IETF #99'
       url: https://mailarchive.ietf.org/arch/msg/netconf/BksO0qQM4e6GOzyq77BbgN0809g/
+  - kind: minutes
+    listed_in: 9
+    first: '2008-03-09'
+    last: '2011-07-24'
+    examples:
+    - date: '2008-03-09'
+      subject: IETF 71 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/71/minutes/netconf.txt
+    - date: '2008-07-27'
+      subject: IETF 72 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/72/minutes/netconf.txt
+    - date: '2011-07-24'
+      subject: IETF 81 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/81/minutes/netconf.txt
   - kind: proceedings
     listed_in: 25
     first: '2008-03-13'
@@ -254,6 +333,10 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/netconf.html
+  - kind: minutes without them
+    date: '2006-08-13'
+    subject: 'Draft: Montreal NETCONF Interim Meeting Minutes'
+    url: https://mailarchive.ietf.org/arch/msg/netconf/HcHZO0NHsm9snOEAtKZB1On3KV0/
   - kind: session requests
     meetings:
     - '71'
@@ -334,6 +417,10 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/netconf.html
+  - kind: minutes without them
+    date: '2011-07-24'
+    subject: IETF 81 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/81/minutes/netconf.txt
   - kind: shepherded
     documents:
     - draft-ietf-netconf-call-home
@@ -447,6 +534,20 @@ chairs:
     - date: '2007-11-22'
       subject: DRAFT agenda for NETCONF meeting at IETF 70 in Vancouver
       url: https://mailarchive.ietf.org/arch/msg/netconf/xLXWTSCgvEHSWKptZH4DKth0Ps4/
+  - kind: minutes
+    listed_in: 6
+    first: '2004-02-29'
+    last: '2006-08-13'
+    examples:
+    - date: '2004-02-29'
+      subject: IETF 59 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/59/minutes/netconf.htm
+    - date: '2005-03-06'
+      subject: IETF 62 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/62/minutes/netconf.html
+    - date: '2006-08-13'
+      subject: 'Draft: Montreal NETCONF Interim Meeting Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/netconf/HcHZO0NHsm9snOEAtKZB1On3KV0/
   - kind: proceedings
     listed_in: 11
     first: '2003-07-13'
@@ -461,6 +562,10 @@ chairs:
     - date: '2007-03-08'
       subject: IETF 68 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/68/netconf.html
+  - kind: minutes without them
+    date: '2008-03-09'
+    subject: IETF 71 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/71/minutes/netconf.txt
   - kind: session requests
     meetings:
     - '70'

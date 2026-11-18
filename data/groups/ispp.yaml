@@ -6,7 +6,7 @@ state: conclude
 started: null
 closed: '1997-01-01'
 bof: true
-never_chartered: false
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '33'
@@ -20,17 +20,33 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1997-01-01'
+      date: '1995-07-17'
     end:
-      certainty: group-closed
-      date: '1997-01-01'
+      certainty: between
+      not_before: '1995-07-17'
+    notes:
+    - 'Start: the BOF met at IETF 33 (1995-07-17)'
+    - 'End: after the BOF''s last session, IETF 33 (1995-07-17)'
+  evidence:
+  - kind: BOF session
+    meeting: '33'
+    date: '1995-07-17'
+    url: https://www.ietf.org/proceedings/33/area.and.wg.reports/sec/area.security.95jul/area.security.95jul.txt
 - person: 100927
   name: Dave Crocker
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '1997-01-01'
+      date: '1995-07-17'
     end:
-      certainty: group-closed
-      date: '1997-01-01'
+      certainty: between
+      not_before: '1995-07-17'
+    notes:
+    - 'Start: the BOF met at IETF 33 (1995-07-17)'
+    - 'End: after the BOF''s last session, IETF 33 (1995-07-17)'
+  evidence:
+  - kind: BOF session
+    meeting: '33'
+    date: '1995-07-17'
+    url: https://www.ietf.org/proceedings/33/area.and.wg.reports/sec/area.security.95jul/area.security.95jul.txt

@@ -36,6 +36,17 @@ chairs:
     - date: '2009-03-03'
       subject: '[drinks] I''d like to finalize any agenda items other than the use case..'
       url: https://mailarchive.ietf.org/arch/msg/drinks/7qr8VoNmrMqEEddlxqcd1MLv6KA/
+  - kind: minutes
+    listed_in: 2
+    first: '2009-03-22'
+    last: '2010-03-21'
+    examples:
+    - date: '2009-03-22'
+      subject: IETF 74 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/74/minutes/drinks.txt
+    - date: '2010-03-21'
+      subject: IETF 77 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/77/minutes/drinks.txt
   - kind: proceedings
     listed_in: 2
     first: '2009-03-30'
@@ -48,15 +59,79 @@ chairs:
       subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/drinks.html
   - kind: minutes without them
-    date: '2011-07-24'
-    subject: '[drinks] DRAFT meeting minutes of DRINKS WG session @IETF81'
-    url: https://mailarchive.ietf.org/arch/msg/drinks/2qYYzEaQKYca3VqnupyowUtacq4/
+    date: '2010-11-07'
+    subject: IETF 79 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/79/minutes/drinks.txt
   - kind: session requests
     meetings:
     - '72'
     - '74'
     - '75'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 103961
+  name: Robert Sparks
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2009-07-26'
+      not_after: '2010-03-21'
+    end:
+      certainty: between
+      not_before: '2010-03-21'
+      not_after: '2010-03-26'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-03-26)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2009-07-26)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2010-03-21'
+    last: '2010-03-21'
+    examples:
+    - date: '2010-03-21'
+      subject: IETF 77 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/77/minutes/drinks.txt
+  - kind: minutes without them
+    date: '2009-07-26'
+    subject: IETF 75 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/75/minutes/drinks.txt
+  - kind: minutes without them
+    date: '2010-11-07'
+    subject: IETF 79 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/79/minutes/drinks.txt
+- person: 105791
+  name: Cullen Jennings
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2009-07-26'
+      not_after: '2010-03-21'
+    end:
+      certainty: between
+      not_before: '2010-03-21'
+      not_after: '2010-03-26'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-03-26)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2009-07-26)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2010-03-21'
+    last: '2010-03-21'
+    examples:
+    - date: '2010-03-21'
+      subject: IETF 77 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/77/minutes/drinks.txt
+  - kind: minutes without them
+    date: '2009-07-26'
+    subject: IETF 75 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/75/minutes/drinks.txt
+  - kind: minutes without them
+    date: '2010-11-07'
+    subject: IETF 79 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/79/minutes/drinks.txt
 - person: 105920
   name: Sumanth Channabasappa
   status: confirmed
@@ -64,12 +139,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2010-07-25'
-      not_before: '2008-05-01'
+      not_before: '2010-03-21'
     end:
       certainty: exact
       date: '2014-03-03'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2010-03-21)'
   evidence:
   - kind: chair activity
     first: '2010-08-26'
@@ -92,13 +168,19 @@ chairs:
       subject: '[drinks] WGLC announcement for draft-ietf-drinks-spp-protocol-over-soap-02.txt'
       url: https://mailarchive.ietf.org/arch/msg/drinks/eTvZtTOc9VvLiEuTYljSI-J1ZHQ/
   - kind: minutes
-    listed_in: 1
-    first: '2011-07-24'
-    last: '2011-07-24'
+    listed_in: 4
+    first: '2010-11-07'
+    last: '2012-03-25'
     examples:
+    - date: '2010-11-07'
+      subject: IETF 79 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/79/minutes/drinks.txt
     - date: '2011-07-24'
       subject: '[drinks] DRAFT meeting minutes of DRINKS WG session @IETF81'
       url: https://mailarchive.ietf.org/arch/msg/drinks/2qYYzEaQKYca3VqnupyowUtacq4/
+    - date: '2012-03-25'
+      subject: IETF 83 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/83/minutes/minutes-83-drinks.txt
   - kind: proceedings
     listed_in: 11
     first: '2010-07-25'
@@ -113,6 +195,45 @@ chairs:
     - date: '2013-11-03'
       subject: IETF 88 proceedings charter
       url: https://www.ietf.org/proceedings/88/drinks.html
+  - kind: minutes without them
+    date: '2010-03-21'
+    subject: IETF 77 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/77/minutes/drinks.txt
+- person: 106851
+  name: Alex Mayrhofer
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2010-11-07'
+      not_after: '2011-07-24'
+    end:
+      certainty: between
+      not_before: '2011-07-24'
+      not_after: '2011-11-13'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-11-13)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2010-11-07)'
+  evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '2011-07-24'
+    last: '2011-07-24'
+    examples:
+    - date: '2011-07-24'
+      subject: '[drinks] DRAFT meeting minutes of DRINKS WG session @IETF81'
+      url: https://mailarchive.ietf.org/arch/msg/drinks/2qYYzEaQKYca3VqnupyowUtacq4/
+    - date: '2011-07-24'
+      subject: IETF 81 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/81/minutes/drinks.txt
+  - kind: minutes without them
+    date: '2010-11-07'
+    subject: IETF 79 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/79/minutes/drinks.txt
+  - kind: minutes without them
+    date: '2012-03-25'
+    subject: IETF 83 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/83/minutes/minutes-83-drinks.txt
 - person: 107406
   name: Alexander Mayrhofer
   status: confirmed
@@ -144,6 +265,20 @@ chairs:
     - date: '2012-07-30'
       subject: '[drinks] WGLC announcement for draft-ietf-drinks-spp-framework-02.txt'
       url: https://mailarchive.ietf.org/arch/msg/drinks/SoPhnBZJPJc8pJMCAa-HZyuMXSg/
+  - kind: minutes
+    listed_in: 6
+    first: '2008-11-16'
+    last: '2012-03-25'
+    examples:
+    - date: '2008-11-16'
+      subject: IETF 73 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/73/minutes/drinks.txt
+    - date: '2009-03-22'
+      subject: IETF 74 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/74/minutes/drinks.txt
+    - date: '2012-03-25'
+      subject: IETF 83 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/83/minutes/minutes-83-drinks.txt
   - kind: proceedings
     listed_in: 19
     first: '2009-03-30'
@@ -171,3 +306,72 @@ chairs:
   - kind: shepherded
     documents:
     - draft-ietf-drinks-spp-framework
+- person: 108141
+  name: Richard Shockey
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2008-11-16'
+    end:
+      certainty: between
+      not_before: '2009-07-26'
+      not_after: '2010-03-21'
+    notes:
+    - 'End: no longer listed among the chairs in meeting minutes (2010-03-21)'
+  evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '2008-11-16'
+    last: '2009-07-26'
+    examples:
+    - date: '2008-11-16'
+      subject: IETF 73 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/73/minutes/drinks.txt
+    - date: '2009-07-26'
+      subject: IETF 75 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/75/minutes/drinks.txt
+  - kind: minutes without them
+    date: '2010-03-21'
+    subject: IETF 77 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/77/minutes/drinks.txt
+- person: 109339
+  name: Debbie Guyton
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2008-11-16'
+      not_after: '2009-03-22'
+    end:
+      certainty: between
+      not_before: '2009-03-30'
+      not_after: '2009-07-26'
+    notes:
+    - 'Start: not yet listed among the chairs in meeting minutes (2008-11-16)'
+    - 'End: no longer listed among the chairs in meeting minutes (2009-07-26)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2009-03-22'
+    last: '2009-03-22'
+    examples:
+    - date: '2009-03-22'
+      subject: IETF 74 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/74/minutes/drinks.txt
+  - kind: proceedings
+    listed_in: 1
+    first: '2009-03-30'
+    last: '2009-03-30'
+    examples:
+    - date: '2009-03-30'
+      subject: IETF 74 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/74/drinks.html
+  - kind: minutes without them
+    date: '2008-11-16'
+    subject: IETF 73 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/73/minutes/drinks.txt
+  - kind: minutes without them
+    date: '2009-07-26'
+    subject: IETF 75 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/75/minutes/drinks.txt

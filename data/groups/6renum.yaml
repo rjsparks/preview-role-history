@@ -29,6 +29,20 @@ chairs:
     date: '2011-06-14'
     subject: 'WG Action: IPv6 Site Renumbering (6renum)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/mwZxxPSJP5wN1dcssz7I30E9qss/
+  - kind: minutes
+    listed_in: 3
+    first: '2011-07-24'
+    last: '2012-07-29'
+    examples:
+    - date: '2011-07-24'
+      subject: IETF 81 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/81/minutes/6renum.txt
+    - date: '2012-03-25'
+      subject: IETF 83 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/83/minutes/minutes-83-6renum.txt
+    - date: '2012-07-29'
+      subject: IETF 84 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/84/minutes/minutes-84-6renum.txt
   - kind: proceedings
     listed_in: 2
     first: '2011-07-24'
@@ -63,6 +77,18 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/renum/fviUpApIKUquz8cQiFUmv_M3DQI/
     excerpt: So, I would like to thank Wes for his service and announce that Lee Howard will be our new
       co-chair, along with Tim Chown.
+  - kind: minutes
+    listed_in: 1
+    first: '2012-07-29'
+    last: '2012-07-29'
+    examples:
+    - date: '2012-07-29'
+      subject: IETF 84 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/84/minutes/minutes-84-6renum.txt
+  - kind: minutes without them
+    date: '2012-03-25'
+    subject: IETF 83 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/83/minutes/minutes-83-6renum.txt
 - person: 112160
   name: Wesley George
   status: confirmed
@@ -84,6 +110,17 @@ chairs:
     subject: '[renum] WG Chairs'
     url: https://mailarchive.ietf.org/arch/msg/renum/fviUpApIKUquz8cQiFUmv_M3DQI/
     excerpt: Wes George has asked to step down as 6renum chair.
+  - kind: minutes
+    listed_in: 2
+    first: '2011-07-24'
+    last: '2012-03-25'
+    examples:
+    - date: '2011-07-24'
+      subject: IETF 81 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/81/minutes/6renum.txt
+    - date: '2012-03-25'
+      subject: IETF 83 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/83/minutes/minutes-83-6renum.txt
   - kind: proceedings
     listed_in: 2
     first: '2011-07-24'
@@ -95,6 +132,10 @@ chairs:
     - date: '2011-11-13'
       subject: IETF 82 proceedings charter
       url: https://www.ietf.org/proceedings/82/6renum.html
+  - kind: minutes without them
+    date: '2012-07-29'
+    subject: IETF 84 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/84/minutes/minutes-84-6renum.txt
   - kind: session requests
     meetings:
     - '82'

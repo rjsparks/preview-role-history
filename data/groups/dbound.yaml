@@ -43,6 +43,10 @@ chairs:
     - date: '2016-07-17'
       subject: IETF 96 proceedings charter
       url: https://www.ietf.org/proceedings/96/dbound.html
+  - kind: minutes without them
+    date: '2014-03-02'
+    subject: IETF 89 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/89/minutes/minutes-89-dbound.txt
 - person: 19869
   name: Marc Blanchet
   status: confirmed
@@ -62,6 +66,14 @@ chairs:
     - date: '2014-03-07'
       subject: '[Dbound] meeting minutes posted'
       url: https://mailarchive.ietf.org/arch/msg/dbound/pQ9ChUeG-mYN8qPeg3j5Nf08M5c/
+  - kind: minutes
+    listed_in: 1
+    first: '2014-03-02'
+    last: '2014-03-02'
+    examples:
+    - date: '2014-03-02'
+      subject: IETF 89 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/89/minutes/minutes-89-dbound.txt
   - kind: proceedings
     listed_in: 1
     first: '2014-03-02'
@@ -110,6 +122,10 @@ chairs:
     - date: '2016-07-17'
       subject: IETF 96 proceedings charter
       url: https://www.ietf.org/proceedings/96/dbound.html
+  - kind: minutes without them
+    date: '2014-03-02'
+    subject: IETF 89 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/89/minutes/minutes-89-dbound.txt
 - person: 117929
   name: Olaf Kolkman
   status: confirmed
@@ -121,6 +137,14 @@ chairs:
       certainty: approximate
       date: '2015-01-07'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2014-03-02'
+    last: '2014-03-02'
+    examples:
+    - date: '2014-03-02'
+      subject: IETF 89 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/89/minutes/minutes-89-dbound.txt
   - kind: proceedings
     listed_in: 1
     first: '2014-03-02'

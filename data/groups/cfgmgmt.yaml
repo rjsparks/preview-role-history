@@ -14,6 +14,33 @@ bof_sessions:
   url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-90.html
 history_url: https://datatracker.ietf.org/group/cfgmgmt/history/
 chairs:
+- person: 5234
+  name: Randy Bush
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1999-11-07'
+    end:
+      certainty: between
+      not_before: '1999-11-07'
+      not_after: '2001-12-09'
+    notes:
+    - 'End: became an Area Director, first serving at IETF 52 (2001-12-09)'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '1999-11-07'
+    last: '1999-11-07'
+    examples:
+    - date: '1999-11-07'
+      subject: IETF 46 proceedings charter
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-90.html
+  - kind: joined the IESG
+    after_meeting: '51'
+    after: '2001-08-05'
+    by_meeting: '52'
+    by: '2001-12-09'
 - person: 6842
   name: Bert Wijnen
   status: confirmed

@@ -41,6 +41,17 @@ chairs:
     - date: '2016-07-12'
       subject: '[COSE] Draft agenda for Berlin meeting'
       url: https://mailarchive.ietf.org/arch/msg/cose/CtoNlblZ2Yq3YZnD-7U9bs6xjGk/
+  - kind: minutes
+    listed_in: 2
+    first: '2015-11-01'
+    last: '2016-07-17'
+    examples:
+    - date: '2015-11-01'
+      subject: IETF 94 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/94/minutes/minutes-94-cose.txt
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/minutes/minutes-96-cose.txt
   - kind: proceedings
     listed_in: 5
     first: '2014-07-20'
@@ -95,6 +106,10 @@ chairs:
     - date: '2019-03-13'
       subject: '[COSE] IETF 104 Draft Agenda'
       url: https://mailarchive.ietf.org/arch/msg/cose/Edw_GY-vzfII7tCNjz6oFjlvL50/
+  - kind: minutes without them
+    date: '2016-07-17'
+    subject: IETF 96 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-cose.txt
   - kind: shepherded
     documents:
     - draft-ietf-cose-rfc8152bis-algs
@@ -132,6 +147,17 @@ chairs:
     - date: '2016-06-08'
       subject: '[COSE] WGLC'
       url: https://mailarchive.ietf.org/arch/msg/cose/7NUP1jKXLR2IvaWu1ESk5kOA634/
+  - kind: minutes
+    listed_in: 2
+    first: '2015-11-01'
+    last: '2016-07-17'
+    examples:
+    - date: '2015-11-01'
+      subject: IETF 94 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/94/minutes/minutes-94-cose.txt
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/minutes/minutes-96-cose.txt
   - kind: proceedings
     listed_in: 5
     first: '2014-07-20'

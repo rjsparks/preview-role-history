@@ -70,3 +70,29 @@ chairs:
     after: '2001-08-05'
     by_meeting: '52'
     by: '2001-12-09'
+- person: 105085
+  name: Paul Francis
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1994-03-28'
+    end:
+      certainty: between
+      not_before: '1994-03-28'
+      not_after: '1997-08-11'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (1997-08-11)'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '1994-03-28'
+    last: '1994-03-28'
+    examples:
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/rtg/idmr/idmr-charter.txt
+  - kind: minutes without them
+    date: '1997-08-11'
+    subject: IETF 39 proceedings charter
+    url: https://www.ietf.org/proceedings/39/transit97aug-84.htm

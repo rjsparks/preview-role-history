@@ -49,6 +49,14 @@ chairs:
     - date: '2012-04-30'
       subject: '[websec] Minutes for the Paris (IETF 83) meeting'
       url: https://mailarchive.ietf.org/arch/msg/websec/Bt4JwrJvOaw63EZrFEl9JkX3Rcg/
+  - kind: minutes
+    listed_in: 1
+    first: '2011-07-24'
+    last: '2011-07-24'
+    examples:
+    - date: '2011-07-24'
+      subject: IETF 81 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/81/minutes/websec.txt
   - kind: proceedings
     listed_in: 5
     first: '2010-11-07'
@@ -77,13 +85,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-03-27'
+      date: '2010-11-07'
       not_before: '2010-09-23'
     end:
       certainty: group-closed
       date: '2015-04-21'
     notes:
-    - 'Start: requested the group''s session for IETF 80 (2011-03-27)'
+    - 'Start: listed as chair in meeting minutes (2010-11-07)'
   evidence:
   - kind: list message
     date: '2011-04-22'
@@ -109,6 +117,20 @@ chairs:
     - date: '2012-03-18'
       subject: '[websec] WG Last Call on draft-ietf-websec-strict-transport-sec-06 until April-9'
       url: https://mailarchive.ietf.org/arch/msg/websec/pAx2Nc4wdq-wTCYxHUrZf8zWzYU/
+  - kind: minutes
+    listed_in: 3
+    first: '2010-11-07'
+    last: '2011-07-24'
+    examples:
+    - date: '2010-11-07'
+      subject: IETF 79 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/79/minutes/websec.txt
+    - date: '2011-03-27'
+      subject: IETF 80 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/80/minutes/websec.txt
+    - date: '2011-07-24'
+      subject: IETF 81 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/81/minutes/websec.txt
   - kind: proceedings
     listed_in: 13
     first: '2010-07-25'
@@ -153,6 +175,10 @@ chairs:
     - date: '2014-11-09'
       subject: IETF 91 proceedings charter
       url: https://www.ietf.org/proceedings/91/websec.html
+  - kind: minutes without them
+    date: '2011-07-24'
+    subject: IETF 81 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/81/minutes/websec.txt
   - kind: shepherded
     documents:
     - draft-ietf-websec-key-pinning

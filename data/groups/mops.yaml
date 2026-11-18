@@ -38,6 +38,32 @@ chairs:
     subject: '[Mops] Change about the MOPS WG chair'
     url: https://mailarchive.ietf.org/arch/msg/mops/VllJ3vvwGd75aZY2nbz8IdwM5Ww/
     excerpt: And also, please join me to thank Jana for taking over Kyle's role.
+- person: 109073
+  name: John Moy
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1997-08-11'
+    end:
+      certainty: between
+      not_before: '1997-08-11'
+      not_after: '2019-11-16'
+    notes:
+    - 'End: no longer listed among the chairs in meeting minutes (2019-11-16)'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '1997-08-11'
+    last: '1997-08-11'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 proceedings charter
+      url: https://www.ietf.org/proceedings/39/transit97aug-87.htm
+  - kind: minutes without them
+    date: '2019-11-16'
+    subject: '[Mops] Last Call -- Minutes from MOPS at IETF 106 in Singapore'
+    url: https://mailarchive.ietf.org/arch/msg/mops/XNSXxdJAz_0fFEs6YFQQ28Gg1Zo/
 - person: 109223
   name: Leslie Daigle
   status: confirmed

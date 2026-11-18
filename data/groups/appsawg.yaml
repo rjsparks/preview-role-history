@@ -63,6 +63,37 @@ chairs:
     after: '2012-03-25'
     by_meeting: '84'
     by: '2012-07-29'
+- person: 100927
+  name: Dave Crocker
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2011-11-13'
+    end:
+      certainty: between
+      not_before: '2011-11-13'
+      not_after: '2012-03-25'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2012-03-25)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2011-11-13'
+    last: '2011-11-13'
+    examples:
+    - date: '2011-11-13'
+      subject: IETF 82 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/82/minutes/appsawg.txt
+  - kind: minutes without them
+    date: '2012-03-25'
+    subject: IETF 83 proceedings charter
+    url: https://www.ietf.org/proceedings/83/appsawg.html
+  - kind: shepherded
+    documents:
+    - draft-delany-nullmx
+    - draft-ietf-appsawg-file-scheme
+    - draft-ietf-appsawg-nullmx
 - person: 102154
   name: Alexey Melnikov
   status: confirmed
@@ -145,6 +176,10 @@ chairs:
     - date: '2016-07-17'
       subject: IETF 96 proceedings charter
       url: https://www.ietf.org/proceedings/96/appsawg.html
+  - kind: minutes without them
+    date: '2011-11-13'
+    subject: IETF 82 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/82/minutes/appsawg.txt
   - kind: shepherded
     documents:
     - draft-ietf-appsawg-http-problem
@@ -226,8 +261,38 @@ chairs:
     - date: '2014-03-02'
       subject: IETF 89 proceedings charter
       url: https://www.ietf.org/proceedings/89/appsawg.html
+  - kind: minutes without them
+    date: '2011-11-13'
+    subject: IETF 82 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/82/minutes/appsawg.txt
   - kind: shepherded
     documents:
     - draft-ietf-appsawg-acct-uri
     - draft-ietf-appsawg-multipart-form-data
     - draft-ietf-appsawg-webfinger
+- person: 109033
+  name: Chris Lewis
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2011-11-13'
+    end:
+      certainty: between
+      not_before: '2011-11-13'
+      not_after: '2012-03-25'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2012-03-25)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2011-11-13'
+    last: '2011-11-13'
+    examples:
+    - date: '2011-11-13'
+      subject: IETF 82 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/82/minutes/appsawg.txt
+  - kind: minutes without them
+    date: '2012-03-25'
+    subject: IETF 83 proceedings charter
+    url: https://www.ietf.org/proceedings/83/appsawg.html

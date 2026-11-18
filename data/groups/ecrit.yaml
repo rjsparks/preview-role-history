@@ -44,6 +44,40 @@ chairs:
     - date: '2022-07-08'
       subject: '[Ecrit] Virtual interim meeting 8/18'
       url: https://mailarchive.ietf.org/arch/msg/ecrit/sRS9h9nOg2iCEQzabjyQCIzhWPs/
+- person: 104557
+  name: Jon Peterson
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2004-10-28'
+    end:
+      certainty: between
+      not_before: '2004-11-07'
+      not_after: '2005-02-09'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2005-02-09)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2004-11-07'
+    last: '2004-11-07'
+    examples:
+    - date: '2004-11-07'
+      subject: IETF 61 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/61/minutes/ecrit.html
+  - kind: proceedings
+    listed_in: 1
+    first: '2004-10-28'
+    last: '2004-10-28'
+    examples:
+    - date: '2004-10-28'
+      subject: IETF 61 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/61/ecrit.html
+  - kind: minutes without them
+    date: '2005-07-31'
+    subject: IETF 63 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/63/minutes/ecrit.html
 - person: 105857
   name: Hannes Tschofenig
   status: unconfirmed
@@ -82,6 +116,20 @@ chairs:
     - date: '2007-03-02'
       subject: '[Ecrit] WGLC for draft-ietf-ecrit-mapping-arch-01.txt'
       url: https://mailarchive.ietf.org/arch/msg/ecrit/aZMMm-TQvnnAT8yvA1sy42E_Uno/
+  - kind: minutes
+    listed_in: 6
+    first: '2004-11-07'
+    last: '2009-03-22'
+    examples:
+    - date: '2004-11-07'
+      subject: IETF 61 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/61/minutes/ecrit.html
+    - date: '2005-07-31'
+      subject: IETF 63 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/63/minutes/ecrit.html
+    - date: '2009-03-22'
+      subject: IETF 74 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/74/minutes/ecrit.txt
   - kind: proceedings
     listed_in: 12
     first: '2004-10-28'
@@ -115,12 +163,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2005-02-09'
-      not_before: '2004-10-01'
+      not_before: '2004-11-07'
     end:
       certainty: exact
       date: '2016-08-19'
     notes:
     - 'Start: named as chair in the WG Action announcement (2005-02-09)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2004-11-07)'
   evidence:
   - kind: WG Action
     date: '2005-02-09'
@@ -162,13 +211,19 @@ chairs:
       subject: '[Ecrit] WGLC - Location-to-URL Mapping Architecture and Framework'
       url: https://mailarchive.ietf.org/arch/msg/ecrit/wJ9KV-KVjKlafEtU0yMdEiyghTU/
   - kind: minutes
-    listed_in: 1
-    first: '2012-11-04'
-    last: '2012-11-04'
+    listed_in: 9
+    first: '2005-07-31'
+    last: '2016-04-03'
     examples:
-    - date: '2012-11-04'
-      subject: '[Ecrit] IETF85 - Atlanta: ECRIT Minutes for 11/08/2012'
-      url: https://mailarchive.ietf.org/arch/msg/ecrit/GRmRaSPlfu_ZkbuzS1hUK75XJr0/
+    - date: '2005-07-31'
+      subject: IETF 63 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/63/minutes/ecrit.html
+    - date: '2005-11-06'
+      subject: IETF 64 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/64/minutes/ecrit.txt
+    - date: '2016-04-03'
+      subject: IETF 95 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/95/minutes/minutes-95-ecrit.txt
   - kind: proceedings
     listed_in: 30
     first: '2005-02-09'
@@ -183,6 +238,10 @@ chairs:
     - date: '2016-04-03'
       subject: IETF 95 proceedings charter
       url: https://www.ietf.org/proceedings/95/ecrit.html
+  - kind: minutes without them
+    date: '2004-11-07'
+    subject: IETF 61 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/61/minutes/ecrit.html
   - kind: session requests
     meetings:
     - '65'
@@ -235,13 +294,19 @@ chairs:
     excerpt: The time has come to complete the transition, and so we bid adieu to Roger as chair, and
       thank him for his service.
   - kind: minutes
-    listed_in: 1
+    listed_in: 4
     first: '2012-11-04'
-    last: '2012-11-04'
+    last: '2016-04-03'
     examples:
     - date: '2012-11-04'
       subject: '[Ecrit] IETF85 - Atlanta: ECRIT Minutes for 11/08/2012'
       url: https://mailarchive.ietf.org/arch/msg/ecrit/GRmRaSPlfu_ZkbuzS1hUK75XJr0/
+    - date: '2012-11-04'
+      subject: IETF 85 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/85/minutes/minutes-85-ecrit.txt
+    - date: '2016-04-03'
+      subject: IETF 95 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/95/minutes/minutes-95-ecrit.txt
   - kind: proceedings
     listed_in: 14
     first: '2012-03-25'
@@ -256,6 +321,10 @@ chairs:
     - date: '2016-07-17'
       subject: IETF 96 proceedings charter
       url: https://www.ietf.org/proceedings/96/ecrit.html
+  - kind: minutes without them
+    date: '2009-03-22'
+    subject: IETF 74 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/74/minutes/ecrit.txt
   - kind: shepherded
     documents:
     - draft-ietf-ecrit-held-routing
@@ -270,13 +339,14 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2010-03-30'
-      not_before: '2004-10-01'
+      not_before: '2009-03-22'
     end:
       certainty: approximate
       date: '2012-05-14'
     notes:
     - 'End: announced on the group''s list (2012-05-14)'
     - 'Start: listed as chair in a proceedings charter snapshot (2010-03-30)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2009-03-22)'
   evidence:
   - kind: list message
     date: '2012-05-14'
@@ -298,6 +368,10 @@ chairs:
     - date: '2011-11-13'
       subject: IETF 82 proceedings charter
       url: https://www.ietf.org/proceedings/82/ecrit.html
+  - kind: minutes without them
+    date: '2009-03-22'
+    subject: IETF 74 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/74/minutes/ecrit.txt
   - kind: minutes without them
     date: '2012-11-04'
     subject: '[Ecrit] IETF85 - Atlanta: ECRIT Minutes for 11/08/2012'
@@ -348,9 +422,9 @@ chairs:
       subject: IETF 96 proceedings charter
       url: https://www.ietf.org/proceedings/96/ecrit.html
   - kind: minutes without them
-    date: '2012-11-04'
-    subject: '[Ecrit] IETF85 - Atlanta: ECRIT Minutes for 11/08/2012'
-    url: https://mailarchive.ietf.org/arch/msg/ecrit/GRmRaSPlfu_ZkbuzS1hUK75XJr0/
+    date: '2016-04-03'
+    subject: IETF 95 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/95/minutes/minutes-95-ecrit.txt
   - kind: shepherded
     documents:
     - draft-ecrit-lost-planned-changes

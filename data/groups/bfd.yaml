@@ -66,13 +66,19 @@ chairs:
       subject: WG Last call on base and single hop
       url: https://mailarchive.ietf.org/arch/msg/rtg-bfd/9iS6637rB3ma3k7Z2Q2yK1C7VFY/
   - kind: minutes
-    listed_in: 1
-    first: '2010-07-25'
+    listed_in: 3
+    first: '2005-03-06'
     last: '2010-07-25'
     examples:
+    - date: '2005-03-06'
+      subject: IETF 62 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/62/minutes/bfd.html
     - date: '2010-07-25'
       subject: Draft Minutes from IETF 78, Maastricht
       url: https://mailarchive.ietf.org/arch/msg/rtg-bfd/Q5pegaq8t9XT-awSbYhX-4sPuU4/
+    - date: '2010-07-25'
+      subject: IETF 78 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/78/minutes/bfd.txt
   - kind: proceedings
     listed_in: 20
     first: '2004-06-17'
@@ -88,9 +94,9 @@ chairs:
       subject: IETF 86 proceedings charter
       url: https://www.ietf.org/proceedings/86/bfd.html
   - kind: minutes without them
-    date: '2013-11-12'
-    subject: Draft minutes for BFD session for IETF-88, Vancouver
-    url: https://mailarchive.ietf.org/arch/msg/rtg-bfd/LTNeYI1y4VzVIpiiCrxBahipPAM/
+    date: '2013-11-03'
+    subject: IETF 88 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/88/minutes/minutes-88-bfd.txt
 - person: 105046
   name: Jeffrey Haas
   status: confirmed
@@ -153,16 +159,16 @@ chairs:
       subject: WGLC issues on BFD MIBs - IANA maintenance
       url: https://mailarchive.ietf.org/arch/msg/rtg-bfd/FCXO9u4xjhuE-nn8X_7XA5pbyhg/
   - kind: minutes
-    listed_in: 3
+    listed_in: 6
     first: '2010-07-25'
     last: '2020-07-27'
     examples:
     - date: '2010-07-25'
       subject: Draft Minutes from IETF 78, Maastricht
       url: https://mailarchive.ietf.org/arch/msg/rtg-bfd/Q5pegaq8t9XT-awSbYhX-4sPuU4/
-    - date: '2013-11-12'
-      subject: Draft minutes for BFD session for IETF-88, Vancouver
-      url: https://mailarchive.ietf.org/arch/msg/rtg-bfd/LTNeYI1y4VzVIpiiCrxBahipPAM/
+    - date: '2010-07-25'
+      subject: IETF 78 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/78/minutes/bfd.txt
     - date: '2020-07-27'
       subject: IETF 108 candidate minutes
       url: https://mailarchive.ietf.org/arch/msg/rtg-bfd/0FE6R-kf1pZEF675EL_QsmB39IE/
@@ -306,13 +312,19 @@ chairs:
       subject: IETF 90 BFD WG Meeting Minutes
       url: https://mailarchive.ietf.org/arch/msg/rtg-bfd/7FiKIgjqnDYbDkFZyiD1USNOI1Q/
   - kind: minutes
-    listed_in: 1
-    first: '2013-11-12'
-    last: '2013-11-12'
+    listed_in: 3
+    first: '2013-11-03'
+    last: '2015-03-22'
     examples:
+    - date: '2013-11-03'
+      subject: IETF 88 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/88/minutes/minutes-88-bfd.txt
     - date: '2013-11-12'
       subject: Draft minutes for BFD session for IETF-88, Vancouver
       url: https://mailarchive.ietf.org/arch/msg/rtg-bfd/LTNeYI1y4VzVIpiiCrxBahipPAM/
+    - date: '2015-03-22'
+      subject: IETF 92 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/92/minutes/minutes-92-bfd.txt
   - kind: proceedings
     listed_in: 7
     first: '2013-07-28'
@@ -329,8 +341,8 @@ chairs:
       url: https://www.ietf.org/proceedings/93/bfd.html
   - kind: minutes without them
     date: '2010-07-25'
-    subject: Draft Minutes from IETF 78, Maastricht
-    url: https://mailarchive.ietf.org/arch/msg/rtg-bfd/Q5pegaq8t9XT-awSbYhX-4sPuU4/
+    subject: IETF 78 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/78/minutes/bfd.txt
   - kind: minutes without them
     date: '2015-11-01'
     subject: IETF 94 candiate minutes
@@ -338,3 +350,32 @@ chairs:
   - kind: shepherded
     documents:
     - draft-ietf-bfd-on-lags
+- person: 159695
+  name: Jeff Haas
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2005-03-06'
+    end:
+      certainty: between
+      not_before: '2015-11-01'
+      not_after: '2016-04-03'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2016-04-03)'
+  evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '2005-03-06'
+    last: '2015-11-01'
+    examples:
+    - date: '2005-03-06'
+      subject: IETF 62 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/62/minutes/bfd.html
+    - date: '2015-11-01'
+      subject: IETF 94 candiate minutes
+      url: https://mailarchive.ietf.org/arch/msg/rtg-bfd/Kw-HZ5MEA3c31nNTLk-qVWarlYw/
+  - kind: minutes without them
+    date: '2020-07-27'
+    subject: IETF 108 candidate minutes
+    url: https://mailarchive.ietf.org/arch/msg/rtg-bfd/0FE6R-kf1pZEF675EL_QsmB39IE/

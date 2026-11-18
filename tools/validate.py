@@ -25,6 +25,7 @@ import chairdata as cd  # noqa: E402
 
 UUID = re.compile(r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$")
 GROUP_KEYS = ("acronym", "name", "type", "state", "chairs")
+GROUP_TYPES = ("wg", "rg", "edwg", "bof")
 
 
 def check(data):
@@ -42,6 +43,15 @@ def check(data):
         for key in GROUP_KEYS:
             if key not in g:
                 bad(f"missing `{key}`")
+        if g.get("datatracker") is False:
+            # A group the datatracker never knew about rests on what contributors tell us.
+            sources = g.get("sources")
+            if not (isinstance(sources, list) and sources and all(isinstance(x, str) and x.strip() for x in sources)):
+                bad("a group with `datatracker: false` needs a `sources` list saying how we know it existed")
+            if g.get("type") not in GROUP_TYPES:
+                bad(f"`type` must be one of {', '.join(GROUP_TYPES)}")
+        elif "datatracker" in g and g["datatracker"] is not True:
+            bad("`datatracker` must be true or false")
         if g.get("acronym") != acronym:
             bad(f"`acronym` is {g.get('acronym')!r} but the file is named {acronym}.yaml")
         for flag in ("bof", "never_chartered"):

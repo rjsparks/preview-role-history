@@ -41,10 +41,13 @@ chairs:
       subject: 'PSAMP WG agenda for IETF #61'
       url: https://mailarchive.ietf.org/arch/msg/psamp/8x3pisWAVtdZnop4z8VrvILpZKk/
   - kind: minutes
-    listed_in: 2
-    first: '2004-12-02'
+    listed_in: 4
+    first: '2004-11-07'
     last: '2005-04-08'
     examples:
+    - date: '2004-11-07'
+      subject: IETF 61 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/61/minutes/psamp.html
     - date: '2004-12-02'
       subject: draft PSAMP minutes of IETF §61
       url: https://mailarchive.ietf.org/arch/msg/psamp/h3LgueWiuzz8yX5L0-aaOLwib58/
@@ -65,6 +68,32 @@ chairs:
     - date: '2005-02-02'
       subject: IETF 62 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/62/psamp.html
+- person: 19274
+  name: Nick Duffield
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2002-06-28'
+    end:
+      certainty: between
+      not_before: '2002-06-28'
+      not_after: '2002-07-23'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2002-07-23)'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2002-06-28'
+    last: '2002-06-28'
+    examples:
+    - date: '2002-06-28'
+      subject: IETF 54 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/54/170.htm
+  - kind: minutes without them
+    date: '2004-11-07'
+    subject: IETF 61 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/61/minutes/psamp.html
 - person: 103651
   name: Juergen Quittek
   status: confirmed
@@ -104,16 +133,19 @@ chairs:
       subject: '[PSAMP] WG last call on draft-ietf-psamp-protocol-05.txt until July 14'
       url: https://mailarchive.ietf.org/arch/msg/psamp/j8qt5jrnLYpbHLbgF4ObqZ0W90k/
   - kind: minutes
-    listed_in: 2
-    first: '2004-12-02'
-    last: '2005-04-08'
+    listed_in: 6
+    first: '2004-11-07'
+    last: '2006-03-19'
     examples:
+    - date: '2004-11-07'
+      subject: IETF 61 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/61/minutes/psamp.html
     - date: '2004-12-02'
       subject: draft PSAMP minutes of IETF §61
       url: https://mailarchive.ietf.org/arch/msg/psamp/h3LgueWiuzz8yX5L0-aaOLwib58/
-    - date: '2005-04-08'
-      subject: 'PSAMP minutes of IETF #62'
-      url: https://mailarchive.ietf.org/arch/msg/psamp/HlNkcx_B4EKOyQtCEbJrqKuipw0/
+    - date: '2006-03-19'
+      subject: IETF 65 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/65/minutes/psamp.txt
   - kind: proceedings
     listed_in: 13
     first: '2002-07-23'

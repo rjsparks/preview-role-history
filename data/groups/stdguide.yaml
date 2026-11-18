@@ -11,6 +11,44 @@ chartered: '1995-10-26'
 bof_sessions: []
 history_url: https://datatracker.ietf.org/group/stdguide/history/
 chairs:
+- person: 6970
+  name: Art Mellor
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1995-12-04'
+    end:
+      certainty: evidence-only
+      not_before: '1995-12-04'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '1995-12-04'
+    last: '1995-12-04'
+    examples:
+    - date: '1995-12-04'
+      subject: IETF 34 proceedings charter
+      url: https://www.ietf.org/proceedings/34/area.and.wg.reports/ops/stdguide/stdguide-charter.txt
+- person: 9501
+  name: Peter Desnoyers
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1995-12-04'
+    end:
+      certainty: evidence-only
+      not_before: '1995-12-04'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '1995-12-04'
+    last: '1995-12-04'
+    examples:
+    - date: '1995-12-04'
+      subject: IETF 34 proceedings charter
+      url: https://www.ietf.org/proceedings/34/area.and.wg.reports/ops/stdguide/stdguide-charter.txt
 - person: 18327
   name: Gregor Scott
   status: confirmed

@@ -6,7 +6,7 @@ state: conclude
 started: null
 closed: '2003-12-10'
 bof: true
-never_chartered: false
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '56'
@@ -20,17 +20,33 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-12-10'
+      date: '2003-03-16'
     end:
-      certainty: group-closed
-      date: '2003-12-10'
+      certainty: between
+      not_before: '2003-03-16'
+    notes:
+    - 'Start: the BOF met at IETF 56 (2003-03-16)'
+    - 'End: after the BOF''s last session, IETF 56 (2003-03-16)'
+  evidence:
+  - kind: BOF session
+    meeting: '56'
+    date: '2003-03-16'
+    url: https://www.ietf.org/proceedings/56/249.htm
 - person: 105572
   name: Sven Van den Bosch
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-12-10'
+      date: '2003-03-16'
     end:
-      certainty: group-closed
-      date: '2003-12-10'
+      certainty: between
+      not_before: '2003-03-16'
+    notes:
+    - 'Start: the BOF met at IETF 56 (2003-03-16)'
+    - 'End: after the BOF''s last session, IETF 56 (2003-03-16)'
+  evidence:
+  - kind: BOF session
+    meeting: '56'
+    date: '2003-03-16'
+    url: https://www.ietf.org/proceedings/56/249.htm

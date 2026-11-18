@@ -64,3 +64,29 @@ chairs:
     - date: '1997-04-07'
       subject: IETF 38 proceedings charter
       url: https://www.ietf.org/proceedings/38/97apr-final/xrtft126.htm
+- person: 18176
+  name: Susan Siegfried
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1995-07-17'
+    end:
+      certainty: between
+      not_before: '1995-07-17'
+      not_after: '1995-12-04'
+    notes:
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (1995-12-04)'
+  evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '1995-07-17'
+    last: '1995-07-17'
+    examples:
+    - date: '1995-07-17'
+      subject: IETF 33 proceedings charter
+      url: https://www.ietf.org/proceedings/33/area.and.wg.reports/usv/harts/harts-charter.txt
+  - kind: minutes without them
+    date: '1995-12-04'
+    subject: IETF 34 proceedings charter
+    url: https://www.ietf.org/proceedings/34/area.and.wg.reports/usv/harts/harts-charter.txt

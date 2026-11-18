@@ -73,20 +73,19 @@ chairs:
     excerpt: I would like also to thank Laurent for his dedication and contributions as co-chair over
       the past years.
   - kind: minutes
-    listed_in: 3
+    listed_in: 5
     first: '2015-11-01'
-    last: '2018-07-13'
+    last: '2019-11-18'
     examples:
     - date: '2015-11-01'
       subject: '[nmrg] NMRG 38th/IETF94 meeting minutes'
       url: https://mailarchive.ietf.org/arch/msg/nmrg/hUebwaXLr_bK4k_KtcVHXUSHdRg/
-    - date: '2016-07-17'
-      subject: '[nmrg] Draft minutes for IETF96/Berlin SDNRG/NFVRG/NMRG joint meeting on Managing Virtualized
-        and Programmable Networks'
-      url: https://mailarchive.ietf.org/arch/msg/nmrg/NLRYp6Et1l0leKBLdEWllj359Ac/
-    - date: '2018-07-13'
-      subject: '[nmrg] Minutes and Jabber scribes - RE: NMRG @ IETF 102 - Agenda is online'
-      url: https://mailarchive.ietf.org/arch/msg/nmrg/iJp6-u8StuSLjwmYB_HeBcEwOnE/
+    - date: '2015-11-01'
+      subject: IETF 94 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/94/minutes/minutes-94-nmrg.txt
+    - date: '2019-11-18'
+      subject: '[nmrg] Minutes and Meetecho scribes wanted'
+      url: https://mailarchive.ietf.org/arch/msg/nmrg/Usj_vhM_sN-5tC2QTS-rWzprcjg/
   - kind: proceedings
     listed_in: 2
     first: '2015-11-01'
@@ -178,6 +177,10 @@ chairs:
     - date: '2016-04-03'
       subject: IETF 95 proceedings charter
       url: https://www.ietf.org/proceedings/95/nmrg.html
+  - kind: minutes without them
+    date: '2019-11-18'
+    subject: '[nmrg] Minutes and Meetecho scribes wanted'
+    url: https://mailarchive.ietf.org/arch/msg/nmrg/Usj_vhM_sN-5tC2QTS-rWzprcjg/
   - kind: shepherded
     documents:
     - draft-irtf-nmrg-an-gap-analysis
@@ -240,6 +243,14 @@ chairs:
     - date: '2021-07-23'
       subject: '[nmrg] Agenda for NMRG meeting at IETF 111'
       url: https://mailarchive.ietf.org/arch/msg/nmrg/hQZRBJrUyiRT39cC5Qs1nSOq96U/
+  - kind: minutes
+    listed_in: 1
+    first: '2019-11-18'
+    last: '2019-11-18'
+    examples:
+    - date: '2019-11-18'
+      subject: '[nmrg] Minutes and Meetecho scribes wanted'
+      url: https://mailarchive.ietf.org/arch/msg/nmrg/Usj_vhM_sN-5tC2QTS-rWzprcjg/
   - kind: shepherded
     documents:
     - draft-irtf-nmrg-green-ps
