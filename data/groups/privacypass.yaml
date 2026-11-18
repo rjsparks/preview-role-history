@@ -8,7 +8,10 @@ closed: null
 bof: true
 never_chartered: false
 chartered: '2020-07-10'
-bof_sessions: []
+bof_sessions:
+- meeting: '107'
+  date: '2020-03-23'
+  url: https://datatracker.ietf.org/meeting/107/session/privacypass/
 history_url: https://datatracker.ietf.org/group/privacypass/history/
 chairs:
 - person: 101208

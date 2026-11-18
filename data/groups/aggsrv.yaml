@@ -8,7 +8,10 @@ closed: null
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '86'
+  date: '2013-03-10'
+  url: https://datatracker.ietf.org/meeting/86/session/aggsrv/
 history_url: https://datatracker.ietf.org/group/aggsrv/history/
 chairs:
 - person: 105907
@@ -20,10 +23,11 @@ chairs:
       not_before: '2013-01-31'
       not_after: '2013-03-10'
     end:
-      certainty: group-closed
-      date: '2013-06-20'
+      certainty: between
+      not_before: '2013-03-10'
     notes:
-    - 'Start: listed as chair in meeting minutes (2013-03-10)'
+    - 'Start: the BOF met at IETF 86 (2013-03-10)'
+    - 'End: after the BOF''s last session, IETF 86 (2013-03-10)'
   evidence:
   - kind: chair activity
     first: '2013-04-01'
@@ -41,6 +45,10 @@ chairs:
     - date: '2013-03-10'
       subject: '[Aggsrv] BoF minutes'
       url: https://mailarchive.ietf.org/arch/msg/aggsrv/d_cFqk7H1y9XszUknyEf_lQSd_8/
+  - kind: BOF session
+    meeting: '86'
+    date: '2013-03-10'
+    url: https://datatracker.ietf.org/meeting/86/session/aggsrv/
   - kind: proceedings
     listed_in: 2
     first: '2012-11-04'

@@ -8,7 +8,10 @@ closed: '2014-02-04'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '77'
+  date: '2010-03-21'
+  url: https://datatracker.ietf.org/meeting/77/session/e2md/
 history_url: https://datatracker.ietf.org/group/e2md/history/
 chairs:
 - person: 103889
@@ -17,12 +20,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-03-23'
+      date: '2010-03-21'
     end:
-      certainty: group-closed
-      date: '2014-02-04'
+      certainty: between
+      not_before: '2010-03-21'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-03-23)'
+    - 'Start: the BOF met at IETF 77 (2010-03-21)'
+    - 'End: after the BOF''s last session, IETF 77 (2010-03-21)'
   evidence:
   - kind: chair activity
     first: '2010-03-26'
@@ -35,6 +39,10 @@ chairs:
     - date: '2010-03-29'
       subject: '[e2md] Revised draft minutes of E2MD BOF at IETF 77'
       url: https://mailarchive.ietf.org/arch/msg/e2md/KLE81IuSD7WY45Vhol69TrCQrhc/
+  - kind: BOF session
+    meeting: '77'
+    date: '2010-03-21'
+    url: https://datatracker.ietf.org/meeting/77/session/e2md/
   - kind: proceedings
     listed_in: 1
     first: '2010-03-23'
@@ -49,12 +57,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-03-23'
+      date: '2010-03-21'
     end:
-      certainty: group-closed
-      date: '2014-02-04'
+      certainty: between
+      not_before: '2010-03-21'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-03-23)'
+    - 'Start: the BOF met at IETF 77 (2010-03-21)'
+    - 'End: after the BOF''s last session, IETF 77 (2010-03-21)'
   evidence:
   - kind: chair activity
     first: '2010-04-06'
@@ -67,6 +76,10 @@ chairs:
     - date: '2010-04-26'
       subject: '[e2md] Rough minutes of today''s conf call'
       url: https://mailarchive.ietf.org/arch/msg/e2md/TXFmgMaWUU2RB73FjUSXEokkgzI/
+  - kind: BOF session
+    meeting: '77'
+    date: '2010-03-21'
+    url: https://datatracker.ietf.org/meeting/77/session/e2md/
   - kind: proceedings
     listed_in: 1
     first: '2010-03-23'

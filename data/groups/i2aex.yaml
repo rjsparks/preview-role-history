@@ -8,7 +8,10 @@ closed: '2013-01-31'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '83'
+  date: '2012-03-25'
+  url: https://datatracker.ietf.org/meeting/83/session/i2aex/
 history_url: https://datatracker.ietf.org/group/i2aex/history/
 chairs:
 - person: 106812
@@ -19,9 +22,15 @@ chairs:
       certainty: between
       not_before: '2012-02-23'
     end:
-      certainty: group-closed
-      date: '2013-01-31'
+      certainty: between
+      not_before: '2012-03-25'
+    notes:
+    - 'End: after the BOF''s last session, IETF 83 (2012-03-25)'
   evidence:
+  - kind: BOF session
+    meeting: '83'
+    date: '2012-03-25'
+    url: https://datatracker.ietf.org/meeting/83/session/i2aex/
   - kind: proceedings
     listed_in: 3
     first: '2012-03-25'
@@ -44,9 +53,15 @@ chairs:
       certainty: between
       not_before: '2012-02-23'
     end:
-      certainty: group-closed
-      date: '2013-01-31'
+      certainty: between
+      not_before: '2012-03-25'
+    notes:
+    - 'End: after the BOF''s last session, IETF 83 (2012-03-25)'
   evidence:
+  - kind: BOF session
+    meeting: '83'
+    date: '2012-03-25'
+    url: https://datatracker.ietf.org/meeting/83/session/i2aex/
   - kind: proceedings
     listed_in: 3
     first: '2012-03-25'

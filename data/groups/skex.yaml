@@ -8,7 +8,10 @@ closed: '2025-06-05'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '122'
+  date: '2025-03-15'
+  url: https://datatracker.ietf.org/meeting/122/session/skex/
 history_url: https://datatracker.ietf.org/group/skex/history/
 chairs:
 - person: 102154
@@ -19,8 +22,15 @@ chairs:
       certainty: exact
       date: '2025-02-06'
     end:
-      certainty: group-closed
-      date: '2025-06-05'
+      certainty: between
+      not_before: '2025-03-15'
+    notes:
+    - 'End: after the BOF''s last session, IETF 122 (2025-03-15)'
+  evidence:
+  - kind: BOF session
+    meeting: '122'
+    date: '2025-03-15'
+    url: https://datatracker.ietf.org/meeting/122/session/skex/
 - person: 104278
   name: Yaron Sheffer
   status: confirmed
@@ -29,5 +39,12 @@ chairs:
       certainty: exact
       date: '2025-02-06'
     end:
-      certainty: group-closed
-      date: '2025-06-05'
+      certainty: between
+      not_before: '2025-03-15'
+    notes:
+    - 'End: after the BOF''s last session, IETF 122 (2025-03-15)'
+  evidence:
+  - kind: BOF session
+    meeting: '122'
+    date: '2025-03-15'
+    url: https://datatracker.ietf.org/meeting/122/session/skex/

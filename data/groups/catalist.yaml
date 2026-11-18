@@ -8,7 +8,10 @@ closed: '2026-06-11'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '125'
+  date: '2026-03-14'
+  url: https://datatracker.ietf.org/meeting/125/session/catalist/
 history_url: https://datatracker.ietf.org/group/catalist/history/
 chairs:
 - person: 104198
@@ -19,8 +22,10 @@ chairs:
       certainty: exact
       date: '2026-03-04'
     end:
-      certainty: group-closed
-      date: '2026-06-11'
+      certainty: between
+      not_before: '2026-03-14'
+    notes:
+    - 'End: after the BOF''s last session, IETF 125 (2026-03-14)'
   evidence:
   - kind: chair activity
     first: '2026-03-23'
@@ -30,6 +35,10 @@ chairs:
     - date: '2026-03-23'
       subject: '[agent2agent] First draft minutes for CATALIST'
       url: https://mailarchive.ietf.org/arch/msg/agent2agent/AmmhM9V0ksoeIbHTtiO_K0bSxnQ/
+  - kind: BOF session
+    meeting: '125'
+    date: '2026-03-14'
+    url: https://datatracker.ietf.org/meeting/125/session/catalist/
 - person: 116337
   name: Yingzhen Qu
   status: confirmed
@@ -38,5 +47,12 @@ chairs:
       certainty: exact
       date: '2026-03-04'
     end:
-      certainty: group-closed
-      date: '2026-06-11'
+      certainty: between
+      not_before: '2026-03-14'
+    notes:
+    - 'End: after the BOF''s last session, IETF 125 (2026-03-14)'
+  evidence:
+  - kind: BOF session
+    meeting: '125'
+    date: '2026-03-14'
+    url: https://datatracker.ietf.org/meeting/125/session/catalist/

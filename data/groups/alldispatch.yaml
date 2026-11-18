@@ -8,7 +8,16 @@ closed: '2025-02-06'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '119'
+  date: '2024-03-16'
+  url: https://datatracker.ietf.org/meeting/119/session/alldispatch/
+- meeting: '120'
+  date: '2024-07-20'
+  url: https://datatracker.ietf.org/meeting/120/session/alldispatch/
+- meeting: '121'
+  date: '2024-11-02'
+  url: https://datatracker.ietf.org/meeting/121/session/alldispatch/
 history_url: https://datatracker.ietf.org/group/alldispatch/history/
 chairs:
 - person: 111355
@@ -19,8 +28,23 @@ chairs:
       certainty: exact
       date: '2024-02-08'
     end:
-      certainty: group-closed
-      date: '2025-02-06'
+      certainty: between
+      not_before: '2024-11-02'
+    notes:
+    - 'End: after the BOF''s last session, IETF 121 (2024-11-02)'
+  evidence:
+  - kind: BOF session
+    meeting: '119'
+    date: '2024-03-16'
+    url: https://datatracker.ietf.org/meeting/119/session/alldispatch/
+  - kind: BOF session
+    meeting: '120'
+    date: '2024-07-20'
+    url: https://datatracker.ietf.org/meeting/120/session/alldispatch/
+  - kind: BOF session
+    meeting: '121'
+    date: '2024-11-02'
+    url: https://datatracker.ietf.org/meeting/121/session/alldispatch/
 - person: 121191
   name: Jim Fenton
   status: confirmed
@@ -29,8 +53,23 @@ chairs:
       certainty: exact
       date: '2024-02-08'
     end:
-      certainty: group-closed
-      date: '2025-02-06'
+      certainty: between
+      not_before: '2024-11-02'
+    notes:
+    - 'End: after the BOF''s last session, IETF 121 (2024-11-02)'
+  evidence:
+  - kind: BOF session
+    meeting: '119'
+    date: '2024-03-16'
+    url: https://datatracker.ietf.org/meeting/119/session/alldispatch/
+  - kind: BOF session
+    meeting: '120'
+    date: '2024-07-20'
+    url: https://datatracker.ietf.org/meeting/120/session/alldispatch/
+  - kind: BOF session
+    meeting: '121'
+    date: '2024-11-02'
+    url: https://datatracker.ietf.org/meeting/121/session/alldispatch/
 - person: 122637
   name: Shuping Peng
   status: confirmed
@@ -39,8 +78,10 @@ chairs:
       certainty: exact
       date: '2024-02-08'
     end:
-      certainty: group-closed
-      date: '2025-02-06'
+      certainty: between
+      not_before: '2024-11-02'
+    notes:
+    - 'End: after the BOF''s last session, IETF 121 (2024-11-02)'
   evidence:
   - kind: chair activity
     first: '2024-03-08'
@@ -53,3 +94,15 @@ chairs:
     - date: '2024-03-18'
       subject: '[Alldispatch] Alldispatch IETF 119 outcomes & minutes'
       url: https://mailarchive.ietf.org/arch/msg/alldispatch/FOFxF85kF5mj1npnwRvJ9sSN2PQ/
+  - kind: BOF session
+    meeting: '119'
+    date: '2024-03-16'
+    url: https://datatracker.ietf.org/meeting/119/session/alldispatch/
+  - kind: BOF session
+    meeting: '120'
+    date: '2024-07-20'
+    url: https://datatracker.ietf.org/meeting/120/session/alldispatch/
+  - kind: BOF session
+    meeting: '121'
+    date: '2024-11-02'
+    url: https://datatracker.ietf.org/meeting/121/session/alldispatch/

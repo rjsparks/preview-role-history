@@ -8,7 +8,10 @@ closed: '2022-09-29'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '114'
+  date: '2022-07-23'
+  url: https://datatracker.ietf.org/meeting/114/session/msr6/
 history_url: https://datatracker.ietf.org/group/msr6/history/
 chairs:
 - person: 106412
@@ -19,8 +22,15 @@ chairs:
       certainty: exact
       date: '2022-06-30'
     end:
-      certainty: group-closed
-      date: '2022-09-29'
+      certainty: between
+      not_before: '2022-07-23'
+    notes:
+    - 'End: after the BOF''s last session, IETF 114 (2022-07-23)'
+  evidence:
+  - kind: BOF session
+    meeting: '114'
+    date: '2022-07-23'
+    url: https://datatracker.ietf.org/meeting/114/session/msr6/
 - person: 122661
   name: Jen Linkova
   status: confirmed
@@ -29,8 +39,10 @@ chairs:
       certainty: exact
       date: '2022-06-30'
     end:
-      certainty: group-closed
-      date: '2022-09-29'
+      certainty: between
+      not_before: '2022-07-23'
+    notes:
+    - 'End: after the BOF''s last session, IETF 114 (2022-07-23)'
   evidence:
   - kind: chair activity
     first: '2022-07-26'
@@ -40,3 +52,7 @@ chairs:
     - date: '2022-07-26'
       subject: '[Msr6] WANTED: Meeting minutes taker'
       url: https://mailarchive.ietf.org/arch/msg/msr6/M55iZQCD-lk6ixLuuLU133hi4WM/
+  - kind: BOF session
+    meeting: '114'
+    date: '2022-07-23'
+    url: https://datatracker.ietf.org/meeting/114/session/msr6/

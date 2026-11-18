@@ -8,7 +8,10 @@ closed: '2007-05-31'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '68'
+  date: '2007-03-18'
+  url: https://datatracker.ietf.org/meeting/68/session/sava/
 history_url: https://datatracker.ietf.org/group/sava/history/
 chairs:
 - person: 101568
@@ -19,11 +22,16 @@ chairs:
       certainty: on-or-before
       date: '2007-02-08'
     end:
-      certainty: group-closed
-      date: '2007-05-31'
+      certainty: between
+      not_before: '2007-03-18'
     notes:
+    - 'End: after the BOF''s last session, IETF 68 (2007-03-18)'
     - 'Start: listed as chair in a proceedings charter snapshot (2007-02-08)'
   evidence:
+  - kind: BOF session
+    meeting: '68'
+    date: '2007-03-18'
+    url: https://datatracker.ietf.org/meeting/68/session/sava/
   - kind: proceedings
     listed_in: 1
     first: '2007-02-08'
@@ -40,11 +48,16 @@ chairs:
       certainty: on-or-before
       date: '2007-02-08'
     end:
-      certainty: group-closed
-      date: '2007-05-31'
+      certainty: between
+      not_before: '2007-03-18'
     notes:
+    - 'End: after the BOF''s last session, IETF 68 (2007-03-18)'
     - 'Start: listed as chair in a proceedings charter snapshot (2007-02-08)'
   evidence:
+  - kind: BOF session
+    meeting: '68'
+    date: '2007-03-18'
+    url: https://datatracker.ietf.org/meeting/68/session/sava/
   - kind: proceedings
     listed_in: 1
     first: '2007-02-08'

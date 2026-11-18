@@ -8,7 +8,13 @@ closed: null
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '86'
+  date: '2013-03-10'
+  url: https://datatracker.ietf.org/meeting/86/session/iprbis/
+- meeting: '87'
+  date: '2013-07-28'
+  url: https://datatracker.ietf.org/meeting/87/session/iprbis/
 history_url: https://datatracker.ietf.org/group/iprbis/history/
 chairs:
 - person: 2324
@@ -23,8 +29,16 @@ chairs:
       certainty: exact
       date: '2013-06-20'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2013-03-10)'
+    - 'Start: the BOF met at IETF 86 (2013-03-10)'
   evidence:
+  - kind: BOF session
+    meeting: '86'
+    date: '2013-03-10'
+    url: https://datatracker.ietf.org/meeting/86/session/iprbis/
+  - kind: BOF session
+    meeting: '87'
+    date: '2013-07-28'
+    url: https://datatracker.ietf.org/meeting/87/session/iprbis/
   - kind: proceedings
     listed_in: 1
     first: '2013-03-10'
@@ -40,11 +54,21 @@ chairs:
   - start:
       certainty: between
       not_before: '2013-01-31'
-      not_after: '2013-06-20'
+      not_after: '2013-03-10'
     end:
       certainty: exact
       date: '2013-06-20'
+    notes:
+    - 'Start: the BOF met at IETF 86 (2013-03-10)'
   evidence:
+  - kind: BOF session
+    meeting: '86'
+    date: '2013-03-10'
+    url: https://datatracker.ietf.org/meeting/86/session/iprbis/
+  - kind: BOF session
+    meeting: '87'
+    date: '2013-07-28'
+    url: https://datatracker.ietf.org/meeting/87/session/iprbis/
   - kind: proceedings
     listed_in: 2
     first: '2012-11-04'
@@ -64,9 +88,19 @@ chairs:
       certainty: exact
       date: '2013-06-20'
     end:
-      certainty: group-closed
-      date: '2013-09-24'
+      certainty: between
+      not_before: '2013-07-28'
+    notes:
+    - 'End: after the BOF''s last session, IETF 87 (2013-07-28)'
   evidence:
+  - kind: BOF session
+    meeting: '86'
+    date: '2013-03-10'
+    url: https://datatracker.ietf.org/meeting/86/session/iprbis/
+  - kind: BOF session
+    meeting: '87'
+    date: '2013-07-28'
+    url: https://datatracker.ietf.org/meeting/87/session/iprbis/
   - kind: proceedings
     listed_in: 1
     first: '2013-07-28'

@@ -8,7 +8,10 @@ closed: '2008-04-22'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '71'
+  date: '2008-03-09'
+  url: https://datatracker.ietf.org/meeting/71/session/canmod/
 history_url: https://datatracker.ietf.org/group/canmod/history/
 chairs:
 - person: 10492
@@ -19,11 +22,16 @@ chairs:
       certainty: on-or-before
       date: '2008-02-13'
     end:
-      certainty: group-closed
-      date: '2008-04-22'
+      certainty: between
+      not_before: '2008-03-09'
     notes:
+    - 'End: after the BOF''s last session, IETF 71 (2008-03-09)'
     - 'Start: listed as chair in a proceedings charter snapshot (2008-02-13)'
   evidence:
+  - kind: BOF session
+    meeting: '71'
+    date: '2008-03-09'
+    url: https://datatracker.ietf.org/meeting/71/session/canmod/
   - kind: proceedings
     listed_in: 1
     first: '2008-02-13'

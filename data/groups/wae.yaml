@@ -8,7 +8,10 @@ closed: '2006-08-28'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '66'
+  date: '2006-07-09'
+  url: https://datatracker.ietf.org/meeting/66/session/wae/
 history_url: https://datatracker.ietf.org/group/wae/history/
 chairs:
 - person: 18321
@@ -19,11 +22,16 @@ chairs:
       certainty: on-or-before
       date: '2006-07-09'
     end:
-      certainty: group-closed
-      date: '2006-08-28'
+      certainty: between
+      not_before: '2006-07-09'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2006-07-09)'
+    - 'Start: the BOF met at IETF 66 (2006-07-09)'
+    - 'End: after the BOF''s last session, IETF 66 (2006-07-09)'
   evidence:
+  - kind: BOF session
+    meeting: '66'
+    date: '2006-07-09'
+    url: https://datatracker.ietf.org/meeting/66/session/wae/
   - kind: proceedings
     listed_in: 2
     first: '2006-07-09'

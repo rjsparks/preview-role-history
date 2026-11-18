@@ -8,7 +8,10 @@ closed: '2019-06-11'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '104'
+  date: '2019-03-23'
+  url: https://datatracker.ietf.org/meeting/104/session/wgtlgo/
 history_url: https://datatracker.ietf.org/group/wgtlgo/history/
 chairs:
 - person: 4857
@@ -19,8 +22,15 @@ chairs:
       certainty: exact
       date: '2019-03-15'
     end:
-      certainty: group-closed
-      date: '2019-06-11'
+      certainty: between
+      not_before: '2019-03-23'
+    notes:
+    - 'End: after the BOF''s last session, IETF 104 (2019-03-23)'
+  evidence:
+  - kind: BOF session
+    meeting: '104'
+    date: '2019-03-23'
+    url: https://datatracker.ietf.org/meeting/104/session/wgtlgo/
 - person: 107190
   name: Spencer Dawkins
   status: confirmed
@@ -30,8 +40,15 @@ chairs:
       date: '2019-02-15'
       not_before: '2019-02-15'
     end:
-      certainty: group-closed
-      date: '2019-06-11'
+      certainty: between
+      not_before: '2019-03-23'
+    notes:
+    - 'End: after the BOF''s last session, IETF 104 (2019-03-23)'
+  evidence:
+  - kind: BOF session
+    meeting: '104'
+    date: '2019-03-23'
+    url: https://datatracker.ietf.org/meeting/104/session/wgtlgo/
 - person: 109802
   name: Alvaro Retana
   status: confirmed
@@ -40,5 +57,12 @@ chairs:
       certainty: exact
       date: '2019-03-15'
     end:
-      certainty: group-closed
-      date: '2019-06-11'
+      certainty: between
+      not_before: '2019-03-23'
+    notes:
+    - 'End: after the BOF''s last session, IETF 104 (2019-03-23)'
+  evidence:
+  - kind: BOF session
+    meeting: '104'
+    date: '2019-03-23'
+    url: https://datatracker.ietf.org/meeting/104/session/wgtlgo/

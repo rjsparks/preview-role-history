@@ -8,7 +8,10 @@ closed: '2025-02-06'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '121'
+  date: '2024-11-02'
+  url: https://datatracker.ietf.org/meeting/121/session/hpwan/
 history_url: https://datatracker.ietf.org/group/hpwan/history/
 chairs:
 - person: 104331
@@ -19,8 +22,15 @@ chairs:
       certainty: exact
       date: '2024-10-01'
     end:
-      certainty: group-closed
-      date: '2025-02-06'
+      certainty: between
+      not_before: '2024-11-02'
+    notes:
+    - 'End: after the BOF''s last session, IETF 121 (2024-11-02)'
+  evidence:
+  - kind: BOF session
+    meeting: '121'
+    date: '2024-11-02'
+    url: https://datatracker.ietf.org/meeting/121/session/hpwan/
 - person: 106461
   name: Tim Chown
   status: confirmed
@@ -29,5 +39,12 @@ chairs:
       certainty: exact
       date: '2024-10-01'
     end:
-      certainty: group-closed
-      date: '2025-02-06'
+      certainty: between
+      not_before: '2024-11-02'
+    notes:
+    - 'End: after the BOF''s last session, IETF 121 (2024-11-02)'
+  evidence:
+  - kind: BOF session
+    meeting: '121'
+    date: '2024-11-02'
+    url: https://datatracker.ietf.org/meeting/121/session/hpwan/

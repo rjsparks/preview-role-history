@@ -8,7 +8,13 @@ closed: '2020-10-09'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '105'
+  date: '2019-07-20'
+  url: https://datatracker.ietf.org/meeting/105/session/loops/
+- meeting: '108'
+  date: '2020-07-27'
+  url: https://datatracker.ietf.org/meeting/108/session/loops/
 history_url: https://datatracker.ietf.org/group/loops/history/
 chairs:
 - person: 105691
@@ -30,6 +36,14 @@ chairs:
     - date: '2019-07-24'
       subject: '[LOOPS] Loops session minutes posted'
       url: https://mailarchive.ietf.org/arch/msg/loops/VMuXI4ywG7Mk05HPDuLkqJCA_2U/
+  - kind: BOF session
+    meeting: '105'
+    date: '2019-07-20'
+    url: https://datatracker.ietf.org/meeting/105/session/loops/
+  - kind: BOF session
+    meeting: '108'
+    date: '2020-07-27'
+    url: https://datatracker.ietf.org/meeting/108/session/loops/
 - person: 107190
   name: Spencer Dawkins
   status: confirmed
@@ -44,8 +58,10 @@ chairs:
       certainty: exact
       date: '2020-06-19'
     end:
-      certainty: group-closed
-      date: '2020-10-09'
+      certainty: between
+      not_before: '2020-07-27'
+    notes:
+    - 'End: after the BOF''s last session, IETF 108 (2020-07-27)'
   evidence:
   - kind: chair activity
     first: '2019-07-11'
@@ -55,6 +71,14 @@ chairs:
     - date: '2019-07-11'
       subject: '[LOOPS] Draft LOOPS agenda for IETF 105 uploaded'
       url: https://mailarchive.ietf.org/arch/msg/loops/DCNMVnCTwWX4XrN5BqDoLi0eSFM/
+  - kind: BOF session
+    meeting: '105'
+    date: '2019-07-20'
+    url: https://datatracker.ietf.org/meeting/105/session/loops/
+  - kind: BOF session
+    meeting: '108'
+    date: '2020-07-27'
+    url: https://datatracker.ietf.org/meeting/108/session/loops/
 - person: 109354
   name: Brian Trammell
   status: confirmed
@@ -63,8 +87,19 @@ chairs:
       certainty: exact
       date: '2020-06-19'
     end:
-      certainty: group-closed
-      date: '2020-10-09'
+      certainty: between
+      not_before: '2020-07-27'
+    notes:
+    - 'End: after the BOF''s last session, IETF 108 (2020-07-27)'
+  evidence:
+  - kind: BOF session
+    meeting: '105'
+    date: '2019-07-20'
+    url: https://datatracker.ietf.org/meeting/105/session/loops/
+  - kind: BOF session
+    meeting: '108'
+    date: '2020-07-27'
+    url: https://datatracker.ietf.org/meeting/108/session/loops/
 - person: 114099
   name: Andrew McGregor
   status: confirmed
@@ -73,5 +108,16 @@ chairs:
       certainty: exact
       date: '2020-06-19'
     end:
-      certainty: group-closed
-      date: '2020-10-09'
+      certainty: between
+      not_before: '2020-07-27'
+    notes:
+    - 'End: after the BOF''s last session, IETF 108 (2020-07-27)'
+  evidence:
+  - kind: BOF session
+    meeting: '105'
+    date: '2019-07-20'
+    url: https://datatracker.ietf.org/meeting/105/session/loops/
+  - kind: BOF session
+    meeting: '108'
+    date: '2020-07-27'
+    url: https://datatracker.ietf.org/meeting/108/session/loops/

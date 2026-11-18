@@ -8,7 +8,10 @@ closed: '2018-09-26'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '102'
+  date: '2018-07-14'
+  url: https://datatracker.ietf.org/meeting/102/session/i18nrp/
 history_url: https://datatracker.ietf.org/group/i18nrp/history/
 chairs:
 - person: 18321
@@ -19,8 +22,10 @@ chairs:
       certainty: exact
       date: '2018-06-14'
     end:
-      certainty: group-closed
-      date: '2018-09-26'
+      certainty: between
+      not_before: '2018-07-14'
+    notes:
+    - 'End: after the BOF''s last session, IETF 102 (2018-07-14)'
   evidence:
   - kind: chair activity
     first: '2018-08-02'
@@ -38,6 +43,10 @@ chairs:
     - date: '2018-07-14'
       subject: '[I18nrp] Draft minutes'
       url: https://mailarchive.ietf.org/arch/msg/i18nrp/zcDZvM8xuM1fCyRoOoz6rfbAMMI/
+  - kind: BOF session
+    meeting: '102'
+    date: '2018-07-14'
+    url: https://datatracker.ietf.org/meeting/102/session/i18nrp/
 - person: 105907
   name: Peter Saint-Andre
   status: confirmed
@@ -46,8 +55,10 @@ chairs:
       certainty: exact
       date: '2018-06-14'
     end:
-      certainty: group-closed
-      date: '2018-09-26'
+      certainty: between
+      not_before: '2018-07-14'
+    notes:
+    - 'End: after the BOF''s last session, IETF 102 (2018-07-14)'
   evidence:
   - kind: chair activity
     first: '2018-07-10'
@@ -65,3 +76,7 @@ chairs:
     - date: '2018-07-14'
       subject: '[I18nrp] Draft minutes'
       url: https://mailarchive.ietf.org/arch/msg/i18nrp/zcDZvM8xuM1fCyRoOoz6rfbAMMI/
+  - kind: BOF session
+    meeting: '102'
+    date: '2018-07-14'
+    url: https://datatracker.ietf.org/meeting/102/session/i18nrp/

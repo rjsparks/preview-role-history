@@ -8,7 +8,13 @@ closed: '2024-09-27'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '119'
+  date: '2024-03-16'
+  url: https://datatracker.ietf.org/meeting/119/session/sconepro/
+- meeting: '120'
+  date: '2024-07-20'
+  url: https://datatracker.ietf.org/meeting/120/session/sconepro/
 history_url: https://datatracker.ietf.org/group/sconepro/history/
 chairs:
 - person: 105791
@@ -19,8 +25,19 @@ chairs:
       certainty: exact
       date: '2024-03-06'
     end:
-      certainty: group-closed
-      date: '2024-09-27'
+      certainty: between
+      not_before: '2024-07-20'
+    notes:
+    - 'End: after the BOF''s last session, IETF 120 (2024-07-20)'
+  evidence:
+  - kind: BOF session
+    meeting: '119'
+    date: '2024-03-16'
+    url: https://datatracker.ietf.org/meeting/119/session/sconepro/
+  - kind: BOF session
+    meeting: '120'
+    date: '2024-07-20'
+    url: https://datatracker.ietf.org/meeting/120/session/sconepro/
 - person: 107131
   name: Martin Thomson
   status: confirmed
@@ -29,8 +46,10 @@ chairs:
       certainty: exact
       date: '2024-03-06'
     end:
-      certainty: group-closed
-      date: '2024-09-27'
+      certainty: between
+      not_before: '2024-07-20'
+    notes:
+    - 'End: after the BOF''s last session, IETF 120 (2024-07-20)'
   evidence:
   - kind: chair activity
     first: '2024-03-26'
@@ -40,3 +59,11 @@ chairs:
     - date: '2024-03-26'
       subject: '[Sadcdn] Minutes posted'
       url: https://mailarchive.ietf.org/arch/msg/sadcdn/BEfkLOadmzf-UdpM5JOnXqb5L_E/
+  - kind: BOF session
+    meeting: '119'
+    date: '2024-03-16'
+    url: https://datatracker.ietf.org/meeting/119/session/sconepro/
+  - kind: BOF session
+    meeting: '120'
+    date: '2024-07-20'
+    url: https://datatracker.ietf.org/meeting/120/session/sconepro/

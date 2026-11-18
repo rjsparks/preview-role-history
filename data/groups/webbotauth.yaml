@@ -8,7 +8,10 @@ closed: null
 bof: true
 never_chartered: false
 chartered: '2025-10-23'
-bof_sessions: []
+bof_sessions:
+- meeting: '123'
+  date: '2025-07-19'
+  url: https://datatracker.ietf.org/meeting/123/session/webbotauth/
 history_url: https://datatracker.ietf.org/group/webbotauth/history/
 chairs:
 - person: 111355

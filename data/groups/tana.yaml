@@ -8,7 +8,10 @@ closed: null
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '72'
+  date: '2008-07-27'
+  url: https://datatracker.ietf.org/meeting/72/session/tana/
 history_url: https://datatracker.ietf.org/group/tana/history/
 chairs:
 - person: 104331
@@ -19,11 +22,16 @@ chairs:
       certainty: on-or-before
       date: '2008-07-27'
     end:
-      certainty: group-closed
-      date: '2011-12-09'
+      certainty: between
+      not_before: '2008-07-27'
     notes:
     - 'Start: requested the group''s session for IETF 72 (2008-07-27)'
+    - 'End: after the BOF''s last session, IETF 72 (2008-07-27)'
   evidence:
+  - kind: BOF session
+    meeting: '72'
+    date: '2008-07-27'
+    url: https://datatracker.ietf.org/meeting/72/session/tana/
   - kind: session requests
     meetings:
     - '72'
@@ -34,7 +42,15 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '2008-07-27'
     end:
-      certainty: group-closed
-      date: '2011-12-09'
+      certainty: between
+      not_before: '2008-07-27'
+    notes:
+    - 'Start: the BOF met at IETF 72 (2008-07-27)'
+    - 'End: after the BOF''s last session, IETF 72 (2008-07-27)'
+  evidence:
+  - kind: BOF session
+    meeting: '72'
+    date: '2008-07-27'
+    url: https://datatracker.ietf.org/meeting/72/session/tana/

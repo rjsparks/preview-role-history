@@ -8,7 +8,10 @@ closed: '2010-06-11'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '77'
+  date: '2010-03-21'
+  url: https://datatracker.ietf.org/meeting/77/session/newprep/
 history_url: https://datatracker.ietf.org/group/newprep/history/
 chairs:
 - person: 19869
@@ -31,6 +34,10 @@ chairs:
     - date: '2010-03-04'
       subject: '[newprep] version 0.1 of proposed agenda for Anaheim newprep BOF'
       url: https://mailarchive.ietf.org/arch/msg/newprep/mGX3UqJTW47e3v2fAkYJVyiMhPk/
+  - kind: BOF session
+    meeting: '77'
+    date: '2010-03-21'
+    url: https://datatracker.ietf.org/meeting/77/session/newprep/
   - kind: proceedings
     listed_in: 1
     first: '2010-03-21'
@@ -63,6 +70,10 @@ chairs:
     - date: '2010-04-02'
       subject: '[newprep] draft minutes'
       url: https://mailarchive.ietf.org/arch/msg/newprep/1CPvklaKXecDV0xtr6swDR6BKhY/
+  - kind: BOF session
+    meeting: '77'
+    date: '2010-03-21'
+    url: https://datatracker.ietf.org/meeting/77/session/newprep/
   - kind: proceedings
     listed_in: 1
     first: '2010-03-21'

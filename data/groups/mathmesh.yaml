@@ -8,7 +8,10 @@ closed: '2020-02-13'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '106'
+  date: '2019-11-16'
+  url: https://datatracker.ietf.org/meeting/106/session/mathmesh/
 history_url: https://datatracker.ietf.org/group/mathmesh/history/
 chairs:
 - person: 18427
@@ -19,8 +22,15 @@ chairs:
       certainty: exact
       date: '2019-10-18'
     end:
-      certainty: group-closed
-      date: '2020-02-13'
+      certainty: between
+      not_before: '2019-11-16'
+    notes:
+    - 'End: after the BOF''s last session, IETF 106 (2019-11-16)'
+  evidence:
+  - kind: BOF session
+    meeting: '106'
+    date: '2019-11-16'
+    url: https://datatracker.ietf.org/meeting/106/session/mathmesh/
 - person: 117099
   name: Wes Hardaker
   status: confirmed
@@ -29,5 +39,12 @@ chairs:
       certainty: exact
       date: '2019-11-08'
     end:
-      certainty: group-closed
-      date: '2020-02-13'
+      certainty: between
+      not_before: '2019-11-16'
+    notes:
+    - 'End: after the BOF''s last session, IETF 106 (2019-11-16)'
+  evidence:
+  - kind: BOF session
+    meeting: '106'
+    date: '2019-11-16'
+    url: https://datatracker.ietf.org/meeting/106/session/mathmesh/

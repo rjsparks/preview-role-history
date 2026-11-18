@@ -8,7 +8,10 @@ closed: '2018-09-26'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '102'
+  date: '2018-07-14'
+  url: https://datatracker.ietf.org/meeting/102/session/rfcplusplus/
 history_url: https://datatracker.ietf.org/group/rfcplusplus/history/
 chairs:
 - person: 19483
@@ -19,8 +22,15 @@ chairs:
       certainty: exact
       date: '2018-06-21'
     end:
-      certainty: group-closed
-      date: '2018-09-26'
+      certainty: between
+      not_before: '2018-07-14'
+    notes:
+    - 'End: after the BOF''s last session, IETF 102 (2018-07-14)'
+  evidence:
+  - kind: BOF session
+    meeting: '102'
+    date: '2018-07-14'
+    url: https://datatracker.ietf.org/meeting/102/session/rfcplusplus/
 - person: 103539
   name: Gonzalo Camarillo
   status: confirmed
@@ -30,8 +40,10 @@ chairs:
       date: '2018-06-05'
       not_before: '2018-06-05'
     end:
-      certainty: group-closed
-      date: '2018-09-26'
+      certainty: between
+      not_before: '2018-07-14'
+    notes:
+    - 'End: after the BOF''s last session, IETF 102 (2018-07-14)'
   evidence:
   - kind: chair activity
     first: '2018-07-18'
@@ -41,3 +53,7 @@ chairs:
     - date: '2018-07-18'
       subject: '[Rfcplusplus] Draft minutes of the RFC++ BoF session'
       url: https://mailarchive.ietf.org/arch/msg/rfcplusplus/CBhGCzFnCJsYg7mzV5ak1mZMiaw/
+  - kind: BOF session
+    meeting: '102'
+    date: '2018-07-14'
+    url: https://datatracker.ietf.org/meeting/102/session/rfcplusplus/

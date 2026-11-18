@@ -8,7 +8,10 @@ closed: '2018-06-05'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '101'
+  date: '2018-03-17'
+  url: https://datatracker.ietf.org/meeting/101/session/coms/
 history_url: https://datatracker.ietf.org/group/coms/history/
 chairs:
 - person: 103539
@@ -19,9 +22,15 @@ chairs:
       certainty: exact
       date: '2018-02-27'
     end:
-      certainty: group-closed
-      date: '2018-06-05'
+      certainty: between
+      not_before: '2018-03-17'
+    notes:
+    - 'End: after the BOF''s last session, IETF 101 (2018-03-17)'
   evidence:
+  - kind: BOF session
+    meeting: '101'
+    date: '2018-03-17'
+    url: https://datatracker.ietf.org/meeting/101/session/coms/
   - kind: minutes without them
     date: '2017-03-26'
     subject: '[Netslices] IETF98 netslices side meeting minutes and audio record'
@@ -34,8 +43,10 @@ chairs:
       certainty: exact
       date: '2018-02-27'
     end:
-      certainty: group-closed
-      date: '2018-06-05'
+      certainty: between
+      not_before: '2018-03-17'
+    notes:
+    - 'End: after the BOF''s last session, IETF 101 (2018-03-17)'
   evidence:
   - kind: chair activity
     first: '2017-07-05'
@@ -48,6 +59,10 @@ chairs:
     - date: '2017-07-20'
       subject: '[Netslices] Netslices draft minutes posted'
       url: https://mailarchive.ietf.org/arch/msg/netslices/MjnWG0dt4EgJgVKu7fkCcNSWYsg/
+  - kind: BOF session
+    meeting: '101'
+    date: '2018-03-17'
+    url: https://datatracker.ietf.org/meeting/101/session/coms/
   - kind: minutes without them
     date: '2017-03-26'
     subject: '[Netslices] IETF98 netslices side meeting minutes and audio record'

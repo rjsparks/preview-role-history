@@ -217,7 +217,7 @@ class Site:
                 items.append(f"<li>Source: {e(s)}</li>")
         reasons = []
         for p in entry.get("periods") or []:
-            for n in p.get("notes") or []:
+            for n in sorted(p.get("notes") or [], key=lambda n: not n.startswith("Start:")):
                 side, sep, why = n.partition(": ")
                 if sep and side in ("Start", "End"):
                     reasons.append(f"<li><b>{e(side)}:</b> {e(why)}</li>")

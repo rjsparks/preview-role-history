@@ -8,7 +8,10 @@ closed: null
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '127'
+  date: '2026-11-14'
+  url: https://datatracker.ietf.org/meeting/127/session/squad/
 history_url: https://datatracker.ietf.org/group/squad/history/
 chairs:
 - person: 104329
@@ -20,6 +23,11 @@ chairs:
       date: '2026-10-08'
     end:
       certainty: ongoing
+  evidence:
+  - kind: BOF session
+    meeting: '127'
+    date: '2026-11-14'
+    url: https://datatracker.ietf.org/meeting/127/session/squad/
 - person: 122812
   name: Lucas Pardue
   status: confirmed
@@ -29,3 +37,8 @@ chairs:
       date: '2026-10-08'
     end:
       certainty: ongoing
+  evidence:
+  - kind: BOF session
+    meeting: '127'
+    date: '2026-11-14'
+    url: https://datatracker.ietf.org/meeting/127/session/squad/

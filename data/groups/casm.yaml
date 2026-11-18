@@ -8,7 +8,10 @@ closed: '2017-06-06'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '98'
+  date: '2017-03-26'
+  url: https://datatracker.ietf.org/meeting/98/session/casm/
 history_url: https://datatracker.ietf.org/group/casm/history/
 chairs:
 - person: 2348
@@ -19,9 +22,15 @@ chairs:
       certainty: exact
       date: '2017-02-21'
     end:
-      certainty: group-closed
-      date: '2017-06-06'
+      certainty: between
+      not_before: '2017-03-26'
+    notes:
+    - 'End: after the BOF''s last session, IETF 98 (2017-03-26)'
   evidence:
+  - kind: BOF session
+    meeting: '98'
+    date: '2017-03-26'
+    url: https://datatracker.ietf.org/meeting/98/session/casm/
   - kind: proceedings
     listed_in: 1
     first: '2017-03-26'
@@ -38,9 +47,15 @@ chairs:
       certainty: exact
       date: '2017-02-21'
     end:
-      certainty: group-closed
-      date: '2017-06-06'
+      certainty: between
+      not_before: '2017-03-26'
+    notes:
+    - 'End: after the BOF''s last session, IETF 98 (2017-03-26)'
   evidence:
+  - kind: BOF session
+    meeting: '98'
+    date: '2017-03-26'
+    url: https://datatracker.ietf.org/meeting/98/session/casm/
   - kind: proceedings
     listed_in: 1
     first: '2017-03-26'

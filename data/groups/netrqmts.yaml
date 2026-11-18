@@ -8,7 +8,10 @@ closed: '2019-10-09'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '105'
+  date: '2019-07-20'
+  url: https://datatracker.ietf.org/meeting/105/session/netrqmts/
 history_url: https://datatracker.ietf.org/group/netrqmts/history/
 chairs:
 - person: 4857
@@ -20,8 +23,15 @@ chairs:
       date: '2019-06-11'
       not_before: '2019-06-11'
     end:
-      certainty: group-closed
-      date: '2019-10-09'
+      certainty: between
+      not_before: '2019-07-20'
+    notes:
+    - 'End: after the BOF''s last session, IETF 105 (2019-07-20)'
+  evidence:
+  - kind: BOF session
+    meeting: '105'
+    date: '2019-07-20'
+    url: https://datatracker.ietf.org/meeting/105/session/netrqmts/
 - person: 5376
   name: Russ Housley
   status: confirmed
@@ -31,8 +41,10 @@ chairs:
       date: '2019-06-11'
       not_before: '2019-06-11'
     end:
-      certainty: group-closed
-      date: '2019-10-09'
+      certainty: between
+      not_before: '2019-07-20'
+    notes:
+    - 'End: after the BOF''s last session, IETF 105 (2019-07-20)'
   evidence:
   - kind: chair activity
     first: '2019-07-30'
@@ -42,3 +54,7 @@ chairs:
     - date: '2019-07-30'
       subject: '[Netrqmts] IETF 105 Minutes'
       url: https://mailarchive.ietf.org/arch/msg/netrqmts/2HbcneDHotyOa81t5vFWF1eTr7s/
+  - kind: BOF session
+    meeting: '105'
+    date: '2019-07-20'
+    url: https://datatracker.ietf.org/meeting/105/session/netrqmts/

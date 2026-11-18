@@ -8,7 +8,10 @@ closed: '2026-10-08'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '126'
+  date: '2026-07-18'
+  url: https://datatracker.ietf.org/meeting/126/session/current/
 history_url: https://datatracker.ietf.org/group/current/history/
 chairs:
 - person: 112723
@@ -19,8 +22,15 @@ chairs:
       certainty: exact
       date: '2026-06-17'
     end:
-      certainty: group-closed
-      date: '2026-10-08'
+      certainty: between
+      not_before: '2026-07-18'
+    notes:
+    - 'End: after the BOF''s last session, IETF 126 (2026-07-18)'
+  evidence:
+  - kind: BOF session
+    meeting: '126'
+    date: '2026-07-18'
+    url: https://datatracker.ietf.org/meeting/126/session/current/
 - person: 140229
   name: Yaroslav Rosomakho
   status: confirmed
@@ -29,8 +39,10 @@ chairs:
       certainty: exact
       date: '2026-06-11'
     end:
-      certainty: group-closed
-      date: '2026-10-08'
+      certainty: between
+      not_before: '2026-07-18'
+    notes:
+    - 'End: after the BOF''s last session, IETF 126 (2026-07-18)'
   evidence:
   - kind: chair activity
     first: '2026-07-13'
@@ -40,3 +52,7 @@ chairs:
     - date: '2026-07-13'
       subject: '[km-fs-pcs] Draft agenda posted'
       url: https://mailarchive.ietf.org/arch/msg/km-fs-pcs/aajadHZgPk9zDbrqkbaVSHUmV44/
+  - kind: BOF session
+    meeting: '126'
+    date: '2026-07-18'
+    url: https://datatracker.ietf.org/meeting/126/session/current/

@@ -8,7 +8,10 @@ closed: '2017-10-05'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '99'
+  date: '2017-07-16'
+  url: https://datatracker.ietf.org/meeting/99/session/netslicing/
 history_url: https://datatracker.ietf.org/group/netslicing/history/
 chairs:
 - person: 103539
@@ -19,8 +22,15 @@ chairs:
       certainty: exact
       date: '2017-06-12'
     end:
-      certainty: group-closed
-      date: '2017-10-05'
+      certainty: between
+      not_before: '2017-07-16'
+    notes:
+    - 'End: after the BOF''s last session, IETF 99 (2017-07-16)'
+  evidence:
+  - kind: BOF session
+    meeting: '99'
+    date: '2017-07-16'
+    url: https://datatracker.ietf.org/meeting/99/session/netslicing/
 - person: 104198
   name: Adrian Farrel
   status: confirmed
@@ -29,5 +39,12 @@ chairs:
       certainty: exact
       date: '2017-06-12'
     end:
-      certainty: group-closed
-      date: '2017-10-05'
+      certainty: between
+      not_before: '2017-07-16'
+    notes:
+    - 'End: after the BOF''s last session, IETF 99 (2017-07-16)'
+  evidence:
+  - kind: BOF session
+    meeting: '99'
+    date: '2017-07-16'
+    url: https://datatracker.ietf.org/meeting/99/session/netslicing/

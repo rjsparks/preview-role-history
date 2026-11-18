@@ -8,7 +8,10 @@ closed: '2007-12-17'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '70'
+  date: '2007-12-02'
+  url: https://datatracker.ietf.org/meeting/70/session/safe/
 history_url: https://datatracker.ietf.org/group/safe/history/
 chairs:
 - person: 20209
@@ -19,10 +22,11 @@ chairs:
       certainty: on-or-before
       date: '2007-12-02'
     end:
-      certainty: group-closed
-      date: '2007-12-17'
+      certainty: between
+      not_before: '2007-12-02'
     notes:
-    - 'Start: listed as chair in meeting minutes (2007-12-02)'
+    - 'Start: the BOF met at IETF 70 (2007-12-02)'
+    - 'End: after the BOF''s last session, IETF 70 (2007-12-02)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -32,6 +36,10 @@ chairs:
     - date: '2007-12-02'
       subject: '[SAFE] Draft summary and minutes of SAFE BOF'
       url: https://mailarchive.ietf.org/arch/msg/safe/g1y6n5-GzHmLIJUTqLJkww4FtLo/
+  - kind: BOF session
+    meeting: '70'
+    date: '2007-12-02'
+    url: https://datatracker.ietf.org/meeting/70/session/safe/
 - person: 105305
   name: Markus Isomaki
   status: confirmed
@@ -40,10 +48,11 @@ chairs:
       certainty: on-or-before
       date: '2007-12-02'
     end:
-      certainty: group-closed
-      date: '2007-12-17'
+      certainty: between
+      not_before: '2007-12-02'
     notes:
-    - 'Start: listed as chair in meeting minutes (2007-12-02)'
+    - 'Start: the BOF met at IETF 70 (2007-12-02)'
+    - 'End: after the BOF''s last session, IETF 70 (2007-12-02)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -53,3 +62,7 @@ chairs:
     - date: '2007-12-02'
       subject: '[SAFE] Draft summary and minutes of SAFE BOF'
       url: https://mailarchive.ietf.org/arch/msg/safe/g1y6n5-GzHmLIJUTqLJkww4FtLo/
+  - kind: BOF session
+    meeting: '70'
+    date: '2007-12-02'
+    url: https://datatracker.ietf.org/meeting/70/session/safe/

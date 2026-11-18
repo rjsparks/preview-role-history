@@ -8,7 +8,13 @@ closed: '2020-06-19'
 bof: true
 never_chartered: false
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '106'
+  date: '2019-11-16'
+  url: https://datatracker.ietf.org/meeting/106/session/txauth/
+- meeting: '107'
+  date: '2020-03-23'
+  url: https://datatracker.ietf.org/meeting/107/session/txauth/
 history_url: https://datatracker.ietf.org/group/txauth/history/
 chairs:
 - person: 104278

@@ -8,7 +8,10 @@ closed: '2008-08-21'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '72'
+  date: '2008-07-27'
+  url: https://datatracker.ietf.org/meeting/72/session/ippmxx/
 history_url: https://datatracker.ietf.org/group/ippmxx/history/
 chairs:
 - person: 100603
@@ -17,17 +20,33 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2008-08-21'
+      date: '2008-07-27'
     end:
-      certainty: group-closed
-      date: '2008-08-21'
+      certainty: between
+      not_before: '2008-07-27'
+    notes:
+    - 'Start: the BOF met at IETF 72 (2008-07-27)'
+    - 'End: after the BOF''s last session, IETF 72 (2008-07-27)'
+  evidence:
+  - kind: BOF session
+    meeting: '72'
+    date: '2008-07-27'
+    url: https://datatracker.ietf.org/meeting/72/session/ippmxx/
 - person: 101818
   name: Matthew Zekauskas
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2008-08-21'
+      date: '2008-07-27'
     end:
-      certainty: group-closed
-      date: '2008-08-21'
+      certainty: between
+      not_before: '2008-07-27'
+    notes:
+    - 'Start: the BOF met at IETF 72 (2008-07-27)'
+    - 'End: after the BOF''s last session, IETF 72 (2008-07-27)'
+  evidence:
+  - kind: BOF session
+    meeting: '72'
+    date: '2008-07-27'
+    url: https://datatracker.ietf.org/meeting/72/session/ippmxx/

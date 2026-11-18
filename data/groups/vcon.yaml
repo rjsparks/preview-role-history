@@ -8,7 +8,13 @@ closed: null
 bof: true
 never_chartered: false
 chartered: '2023-12-02'
-bof_sessions: []
+bof_sessions:
+- meeting: '116'
+  date: '2023-03-25'
+  url: https://datatracker.ietf.org/meeting/116/session/vcon/
+- meeting: '118'
+  date: '2023-11-04'
+  url: https://datatracker.ietf.org/meeting/118/session/vcon/
 history_url: https://datatracker.ietf.org/group/vcon/history/
 chairs:
 - person: 106987

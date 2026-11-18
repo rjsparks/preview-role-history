@@ -8,7 +8,10 @@ closed: null
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '87'
+  date: '2013-07-28'
+  url: https://datatracker.ietf.org/meeting/87/session/nsc/
 history_url: https://datatracker.ietf.org/group/nsc/history/
 chairs:
 - person: 7262
@@ -20,11 +23,16 @@ chairs:
       not_before: '2013-06-20'
       not_after: '2013-07-28'
     end:
-      certainty: group-closed
-      date: '2013-09-24'
+      certainty: between
+      not_before: '2013-07-28'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2013-07-28)'
+    - 'Start: the BOF met at IETF 87 (2013-07-28)'
+    - 'End: after the BOF''s last session, IETF 87 (2013-07-28)'
   evidence:
+  - kind: BOF session
+    meeting: '87'
+    date: '2013-07-28'
+    url: https://datatracker.ietf.org/meeting/87/session/nsc/
   - kind: proceedings
     listed_in: 1
     first: '2013-07-28'
@@ -42,11 +50,16 @@ chairs:
       not_before: '2013-06-20'
       not_after: '2013-07-28'
     end:
-      certainty: group-closed
-      date: '2013-09-24'
+      certainty: between
+      not_before: '2013-07-28'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2013-07-28)'
+    - 'Start: the BOF met at IETF 87 (2013-07-28)'
+    - 'End: after the BOF''s last session, IETF 87 (2013-07-28)'
   evidence:
+  - kind: BOF session
+    meeting: '87'
+    date: '2013-07-28'
+    url: https://datatracker.ietf.org/meeting/87/session/nsc/
   - kind: proceedings
     listed_in: 1
     first: '2013-07-28'

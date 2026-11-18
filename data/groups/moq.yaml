@@ -8,7 +8,13 @@ closed: null
 bof: true
 never_chartered: false
 chartered: '2022-09-08'
-bof_sessions: []
+bof_sessions:
+- meeting: '113'
+  date: '2022-03-19'
+  url: https://datatracker.ietf.org/meeting/113/session/moq/
+- meeting: '114'
+  date: '2022-07-23'
+  url: https://datatracker.ietf.org/meeting/114/session/moq/
 history_url: https://datatracker.ietf.org/group/moq/history/
 chairs:
 - person: 104294

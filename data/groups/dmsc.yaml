@@ -8,7 +8,10 @@ closed: '2026-10-08'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '126'
+  date: '2026-07-18'
+  url: https://datatracker.ietf.org/meeting/126/session/dmsc/
 history_url: https://datatracker.ietf.org/group/dmsc/history/
 chairs:
 - person: 108591
@@ -19,8 +22,15 @@ chairs:
       certainty: exact
       date: '2026-06-17'
     end:
-      certainty: group-closed
-      date: '2026-10-08'
+      certainty: between
+      not_before: '2026-07-18'
+    notes:
+    - 'End: after the BOF''s last session, IETF 126 (2026-07-18)'
+  evidence:
+  - kind: BOF session
+    meeting: '126'
+    date: '2026-07-18'
+    url: https://datatracker.ietf.org/meeting/126/session/dmsc/
 - person: 113086
   name: Joe Clarke
   status: confirmed
@@ -29,5 +39,12 @@ chairs:
       certainty: exact
       date: '2026-06-17'
     end:
-      certainty: group-closed
-      date: '2026-10-08'
+      certainty: between
+      not_before: '2026-07-18'
+    notes:
+    - 'End: after the BOF''s last session, IETF 126 (2026-07-18)'
+  evidence:
+  - kind: BOF session
+    meeting: '126'
+    date: '2026-07-18'
+    url: https://datatracker.ietf.org/meeting/126/session/dmsc/

@@ -8,7 +8,10 @@ closed: null
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '78'
+  date: '2010-07-25'
+  url: https://datatracker.ietf.org/meeting/78/session/hasmat/
 history_url: https://datatracker.ietf.org/group/hasmat/history/
 chairs:
 - person: 105857
@@ -19,11 +22,16 @@ chairs:
       certainty: on-or-before
       date: '2010-03-21'
     end:
-      certainty: group-closed
-      date: '2011-12-09'
+      certainty: between
+      not_before: '2010-07-25'
     notes:
+    - 'End: after the BOF''s last session, IETF 78 (2010-07-25)'
     - 'Start: listed as chair in a proceedings charter snapshot (2010-03-21)'
   evidence:
+  - kind: BOF session
+    meeting: '78'
+    date: '2010-07-25'
+    url: https://datatracker.ietf.org/meeting/78/session/hasmat/
   - kind: proceedings
     listed_in: 2
     first: '2010-03-21'
@@ -47,11 +55,16 @@ chairs:
       certainty: on-or-before
       date: '2010-03-21'
     end:
-      certainty: group-closed
-      date: '2011-12-09'
+      certainty: between
+      not_before: '2010-07-25'
     notes:
+    - 'End: after the BOF''s last session, IETF 78 (2010-07-25)'
     - 'Start: listed as chair in a proceedings charter snapshot (2010-03-21)'
   evidence:
+  - kind: BOF session
+    meeting: '78'
+    date: '2010-07-25'
+    url: https://datatracker.ietf.org/meeting/78/session/hasmat/
   - kind: proceedings
     listed_in: 2
     first: '2010-03-21'

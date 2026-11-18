@@ -8,7 +8,13 @@ closed: '2025-05-29'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '120'
+  date: '2024-07-20'
+  url: https://datatracker.ietf.org/meeting/120/session/nasr/
+- meeting: '122'
+  date: '2025-03-15'
+  url: https://datatracker.ietf.org/meeting/122/session/nasr/
 history_url: https://datatracker.ietf.org/group/nasr/history/
 chairs:
 - person: 105785
@@ -19,8 +25,19 @@ chairs:
       certainty: exact
       date: '2024-06-19'
     end:
-      certainty: group-closed
-      date: '2025-05-29'
+      certainty: between
+      not_before: '2025-03-15'
+    notes:
+    - 'End: after the BOF''s last session, IETF 122 (2025-03-15)'
+  evidence:
+  - kind: BOF session
+    meeting: '120'
+    date: '2024-07-20'
+    url: https://datatracker.ietf.org/meeting/120/session/nasr/
+  - kind: BOF session
+    meeting: '122'
+    date: '2025-03-15'
+    url: https://datatracker.ietf.org/meeting/122/session/nasr/
 - person: 108833
   name: Luigi Iannone
   status: confirmed
@@ -29,8 +46,10 @@ chairs:
       certainty: exact
       date: '2024-06-19'
     end:
-      certainty: group-closed
-      date: '2025-05-29'
+      certainty: between
+      not_before: '2025-03-15'
+    notes:
+    - 'End: after the BOF''s last session, IETF 122 (2025-03-15)'
   evidence:
   - kind: chair activity
     first: '2024-10-02'
@@ -43,3 +62,11 @@ chairs:
     - date: '2024-10-07'
       subject: '[nasr] Interim Date'
       url: https://mailarchive.ietf.org/arch/msg/nasr/CEMYgJYisu0RnFzHCxLHdsDJMU4/
+  - kind: BOF session
+    meeting: '120'
+    date: '2024-07-20'
+    url: https://datatracker.ietf.org/meeting/120/session/nasr/
+  - kind: BOF session
+    meeting: '122'
+    date: '2025-03-15'
+    url: https://datatracker.ietf.org/meeting/122/session/nasr/

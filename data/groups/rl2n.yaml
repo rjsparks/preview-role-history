@@ -8,7 +8,10 @@ closed: '2007-12-17'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '70'
+  date: '2007-12-02'
+  url: https://datatracker.ietf.org/meeting/70/session/rl2n/
 history_url: https://datatracker.ietf.org/group/rl2n/history/
 chairs:
 - person: 5033
@@ -17,17 +20,33 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2007-12-17'
+      date: '2007-12-02'
     end:
-      certainty: group-closed
-      date: '2007-12-17'
+      certainty: between
+      not_before: '2007-12-02'
+    notes:
+    - 'Start: the BOF met at IETF 70 (2007-12-02)'
+    - 'End: after the BOF''s last session, IETF 70 (2007-12-02)'
+  evidence:
+  - kind: BOF session
+    meeting: '70'
+    date: '2007-12-02'
+    url: https://datatracker.ietf.org/meeting/70/session/rl2n/
 - person: 106269
   name: JP Vasseur
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2007-12-17'
+      date: '2007-12-02'
     end:
-      certainty: group-closed
-      date: '2007-12-17'
+      certainty: between
+      not_before: '2007-12-02'
+    notes:
+    - 'Start: the BOF met at IETF 70 (2007-12-02)'
+    - 'End: after the BOF''s last session, IETF 70 (2007-12-02)'
+  evidence:
+  - kind: BOF session
+    meeting: '70'
+    date: '2007-12-02'
+    url: https://datatracker.ietf.org/meeting/70/session/rl2n/

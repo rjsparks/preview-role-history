@@ -8,7 +8,10 @@ closed: '2017-10-02'
 bof: true
 never_chartered: false
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '99'
+  date: '2017-07-16'
+  url: https://datatracker.ietf.org/meeting/99/session/ideas/
 history_url: https://datatracker.ietf.org/group/ideas/history/
 chairs:
 - person: 100664

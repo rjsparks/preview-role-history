@@ -8,7 +8,13 @@ closed: '2007-05-31'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '66'
+  date: '2006-07-09'
+  url: https://datatracker.ietf.org/meeting/66/session/rtpsec/
+- meeting: '68'
+  date: '2007-03-18'
+  url: https://datatracker.ietf.org/meeting/68/session/rtpsec/
 history_url: https://datatracker.ietf.org/group/rtpsec/history/
 chairs:
 - person: 5376
@@ -19,11 +25,20 @@ chairs:
       certainty: on-or-before
       date: '2006-07-09'
     end:
-      certainty: group-closed
-      date: '2007-05-31'
+      certainty: between
+      not_before: '2007-03-18'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2006-07-09)'
+    - 'Start: the BOF met at IETF 66 (2006-07-09)'
+    - 'End: after the BOF''s last session, IETF 68 (2007-03-18)'
   evidence:
+  - kind: BOF session
+    meeting: '66'
+    date: '2006-07-09'
+    url: https://datatracker.ietf.org/meeting/66/session/rtpsec/
+  - kind: BOF session
+    meeting: '68'
+    date: '2007-03-18'
+    url: https://datatracker.ietf.org/meeting/68/session/rtpsec/
   - kind: proceedings
     listed_in: 3
     first: '2006-07-09'
@@ -46,11 +61,20 @@ chairs:
       certainty: on-or-before
       date: '2006-07-09'
     end:
-      certainty: group-closed
-      date: '2007-05-31'
+      certainty: between
+      not_before: '2007-03-18'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2006-07-09)'
+    - 'Start: the BOF met at IETF 66 (2006-07-09)'
+    - 'End: after the BOF''s last session, IETF 68 (2007-03-18)'
   evidence:
+  - kind: BOF session
+    meeting: '66'
+    date: '2006-07-09'
+    url: https://datatracker.ietf.org/meeting/66/session/rtpsec/
+  - kind: BOF session
+    meeting: '68'
+    date: '2007-03-18'
+    url: https://datatracker.ietf.org/meeting/68/session/rtpsec/
   - kind: proceedings
     listed_in: 3
     first: '2006-07-09'

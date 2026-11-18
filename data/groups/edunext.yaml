@@ -12,6 +12,9 @@ bof_sessions:
 - meeting: '90'
   date: '2014-07-20'
   url: https://www.ietf.org/proceedings/90/edunext.html
+- meeting: '93'
+  date: '2015-07-19'
+  url: https://datatracker.ietf.org/meeting/93/session/edunext/
 history_url: https://datatracker.ietf.org/group/edunext/history/
 chairs:
 - person: 6699
@@ -23,13 +26,19 @@ chairs:
       date: '2015-06-11'
       not_before: '2015-06-11'
     end:
-      certainty: group-closed
-      date: '2015-09-21'
+      certainty: between
+      not_before: '2015-07-19'
+    notes:
+    - 'End: after the BOF''s last session, IETF 93 (2015-07-19)'
   evidence:
   - kind: BOF session
     meeting: '90'
     date: '2014-07-20'
     url: https://www.ietf.org/proceedings/90/edunext.html
+  - kind: BOF session
+    meeting: '93'
+    date: '2015-07-19'
+    url: https://datatracker.ietf.org/meeting/93/session/edunext/
   - kind: proceedings
     listed_in: 2
     first: '2014-07-20'
@@ -50,8 +59,10 @@ chairs:
       date: '2015-06-11'
       not_before: '2015-06-11'
     end:
-      certainty: group-closed
-      date: '2015-09-21'
+      certainty: between
+      not_before: '2015-07-19'
+    notes:
+    - 'End: after the BOF''s last session, IETF 93 (2015-07-19)'
   evidence:
   - kind: chair activity
     first: '2015-03-29'
@@ -68,6 +79,10 @@ chairs:
     meeting: '90'
     date: '2014-07-20'
     url: https://www.ietf.org/proceedings/90/edunext.html
+  - kind: BOF session
+    meeting: '93'
+    date: '2015-07-19'
+    url: https://datatracker.ietf.org/meeting/93/session/edunext/
   - kind: proceedings
     listed_in: 2
     first: '2014-07-20'

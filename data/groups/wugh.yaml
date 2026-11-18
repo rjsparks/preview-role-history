@@ -8,7 +8,13 @@ closed: '2019-02-15'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '98'
+  date: '2017-03-26'
+  url: https://datatracker.ietf.org/meeting/98/session/wugh/
+- meeting: '103'
+  date: '2018-11-03'
+  url: https://datatracker.ietf.org/meeting/103/session/wugh/
 history_url: https://datatracker.ietf.org/group/wugh/history/
 chairs:
 - person: 10083
@@ -19,9 +25,19 @@ chairs:
       certainty: exact
       date: '2017-03-11'
     end:
-      certainty: group-closed
-      date: '2019-02-15'
+      certainty: between
+      not_before: '2018-11-03'
+    notes:
+    - 'End: after the BOF''s last session, IETF 103 (2018-11-03)'
   evidence:
+  - kind: BOF session
+    meeting: '98'
+    date: '2017-03-26'
+    url: https://datatracker.ietf.org/meeting/98/session/wugh/
+  - kind: BOF session
+    meeting: '103'
+    date: '2018-11-03'
+    url: https://datatracker.ietf.org/meeting/103/session/wugh/
   - kind: proceedings
     listed_in: 1
     first: '2017-03-26'

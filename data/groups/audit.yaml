@@ -8,7 +8,10 @@ closed: null
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '127'
+  date: '2026-11-14'
+  url: https://datatracker.ietf.org/meeting/127/session/audit/
 history_url: https://datatracker.ietf.org/group/audit/history/
 chairs:
 - person: 130012
@@ -20,6 +23,11 @@ chairs:
       date: '2026-11-05'
     end:
       certainty: ongoing
+  evidence:
+  - kind: BOF session
+    meeting: '127'
+    date: '2026-11-14'
+    url: https://datatracker.ietf.org/meeting/127/session/audit/
 - person: 140229
   name: Yaroslav Rosomakho
   status: confirmed
@@ -29,3 +37,8 @@ chairs:
       date: '2026-11-05'
     end:
       certainty: ongoing
+  evidence:
+  - kind: BOF session
+    meeting: '127'
+    date: '2026-11-14'
+    url: https://datatracker.ietf.org/meeting/127/session/audit/

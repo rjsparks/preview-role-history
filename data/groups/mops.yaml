@@ -8,7 +8,10 @@ closed: null
 bof: true
 never_chartered: false
 chartered: '2019-11-01'
-bof_sessions: []
+bof_sessions:
+- meeting: '105'
+  date: '2019-07-20'
+  url: https://datatracker.ietf.org/meeting/105/session/mops/
 history_url: https://datatracker.ietf.org/group/mops/history/
 chairs:
 - person: 105721

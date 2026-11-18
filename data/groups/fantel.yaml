@@ -8,7 +8,10 @@ closed: '2025-09-08'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '123'
+  date: '2025-07-19'
+  url: https://datatracker.ietf.org/meeting/123/session/fantel/
 history_url: https://datatracker.ietf.org/group/fantel/history/
 chairs:
 - person: 106740
@@ -19,8 +22,15 @@ chairs:
       certainty: exact
       date: '2025-06-18'
     end:
-      certainty: group-closed
-      date: '2025-09-08'
+      certainty: between
+      not_before: '2025-07-19'
+    notes:
+    - 'End: after the BOF''s last session, IETF 123 (2025-07-19)'
+  evidence:
+  - kind: BOF session
+    meeting: '123'
+    date: '2025-07-19'
+    url: https://datatracker.ietf.org/meeting/123/session/fantel/
 - person: 116337
   name: Yingzhen Qu
   status: confirmed
@@ -29,8 +39,10 @@ chairs:
       certainty: exact
       date: '2025-06-18'
     end:
-      certainty: group-closed
-      date: '2025-09-08'
+      certainty: between
+      not_before: '2025-07-19'
+    notes:
+    - 'End: after the BOF''s last session, IETF 123 (2025-07-19)'
   evidence:
   - kind: chair activity
     first: '2025-08-07'
@@ -40,3 +52,7 @@ chairs:
     - date: '2025-08-07'
       subject: '[fantel] FANTEL BoF Meeting Minutes'
       url: https://mailarchive.ietf.org/arch/msg/fantel/c5DenJt0Eolg-kO3p9fXRnw9jsg/
+  - kind: BOF session
+    meeting: '123'
+    date: '2025-07-19'
+    url: https://datatracker.ietf.org/meeting/123/session/fantel/

@@ -8,7 +8,10 @@ closed: null
 bof: true
 never_chartered: false
 chartered: '2020-09-25'
-bof_sessions: []
+bof_sessions:
+- meeting: '108'
+  date: '2020-07-27'
+  url: https://datatracker.ietf.org/meeting/108/session/emailcore/
 history_url: https://datatracker.ietf.org/group/emailcore/history/
 chairs:
 - person: 18321

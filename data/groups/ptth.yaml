@@ -8,7 +8,13 @@ closed: null
 bof: true
 never_chartered: false
 chartered: '2026-11-05'
-bof_sessions: []
+bof_sessions:
+- meeting: '123'
+  date: '2025-07-19'
+  url: https://datatracker.ietf.org/meeting/123/session/ptth/
+- meeting: '126'
+  date: '2026-07-18'
+  url: https://datatracker.ietf.org/meeting/126/session/ptth/
 history_url: https://datatracker.ietf.org/group/ptth/history/
 chairs:
 - person: 105857

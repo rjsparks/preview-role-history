@@ -8,7 +8,10 @@ closed: '2008-04-23'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '71'
+  date: '2008-03-09'
+  url: https://datatracker.ietf.org/meeting/71/session/rucus/
 history_url: https://datatracker.ietf.org/group/rucus/history/
 chairs:
 - person: 20858
@@ -19,11 +22,16 @@ chairs:
       certainty: on-or-before
       date: '2008-02-22'
     end:
-      certainty: group-closed
-      date: '2008-04-23'
+      certainty: between
+      not_before: '2008-03-09'
     notes:
+    - 'End: after the BOF''s last session, IETF 71 (2008-03-09)'
     - 'Start: listed as chair in a proceedings charter snapshot (2008-02-22)'
   evidence:
+  - kind: BOF session
+    meeting: '71'
+    date: '2008-03-09'
+    url: https://datatracker.ietf.org/meeting/71/session/rucus/
   - kind: proceedings
     listed_in: 1
     first: '2008-02-22'
@@ -40,9 +48,10 @@ chairs:
       certainty: on-or-before
       date: '2008-02-22'
     end:
-      certainty: group-closed
-      date: '2008-04-23'
+      certainty: between
+      not_before: '2008-03-09'
     notes:
+    - 'End: after the BOF''s last session, IETF 71 (2008-03-09)'
     - 'Start: listed as chair in a proceedings charter snapshot (2008-02-22)'
   evidence:
   - kind: chair activity
@@ -53,6 +62,10 @@ chairs:
     - date: '2008-03-26'
       subject: '[Rucus] Meeting Minutes'
       url: https://mailarchive.ietf.org/arch/msg/rucus/1Mqw1bSno6oe2JHrBIL37NHWXjQ/
+  - kind: BOF session
+    meeting: '71'
+    date: '2008-03-09'
+    url: https://datatracker.ietf.org/meeting/71/session/rucus/
   - kind: proceedings
     listed_in: 1
     first: '2008-02-22'

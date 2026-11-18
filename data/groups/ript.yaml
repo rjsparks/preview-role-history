@@ -8,7 +8,10 @@ closed: '2020-06-15'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '107'
+  date: '2020-03-23'
+  url: https://datatracker.ietf.org/meeting/107/session/ript/
 history_url: https://datatracker.ietf.org/group/ript/history/
 chairs:
 - person: 107131
@@ -19,8 +22,10 @@ chairs:
       certainty: exact
       date: '2020-02-14'
     end:
-      certainty: group-closed
-      date: '2020-06-15'
+      certainty: between
+      not_before: '2020-03-23'
+    notes:
+    - 'End: after the BOF''s last session, IETF 107 (2020-03-23)'
   evidence:
   - kind: chair activity
     first: '2020-03-27'
@@ -30,6 +35,10 @@ chairs:
     - date: '2020-03-27'
       subject: '[V3] Minutes from BoF session'
       url: https://mailarchive.ietf.org/arch/msg/v3/RdNcB_RcvJiSXiUq047rbX0-r-U/
+  - kind: BOF session
+    meeting: '107'
+    date: '2020-03-23'
+    url: https://datatracker.ietf.org/meeting/107/session/ript/
 - person: 116331
   name: Mo Zanaty
   status: confirmed
@@ -38,5 +47,12 @@ chairs:
       certainty: exact
       date: '2020-02-14'
     end:
-      certainty: group-closed
-      date: '2020-06-15'
+      certainty: between
+      not_before: '2020-03-23'
+    notes:
+    - 'End: after the BOF''s last session, IETF 107 (2020-03-23)'
+  evidence:
+  - kind: BOF session
+    meeting: '107'
+    date: '2020-03-23'
+    url: https://datatracker.ietf.org/meeting/107/session/ript/

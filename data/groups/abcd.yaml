@@ -8,7 +8,10 @@ closed: '2020-02-13'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '106'
+  date: '2019-11-16'
+  url: https://datatracker.ietf.org/meeting/106/session/abcd/
 history_url: https://datatracker.ietf.org/group/abcd/history/
 chairs:
 - person: 117988
@@ -19,8 +22,15 @@ chairs:
       certainty: exact
       date: '2019-10-16'
     end:
-      certainty: group-closed
-      date: '2020-02-13'
+      certainty: between
+      not_before: '2019-11-16'
+    notes:
+    - 'End: after the BOF''s last session, IETF 106 (2019-11-16)'
+  evidence:
+  - kind: BOF session
+    meeting: '106'
+    date: '2019-11-16'
+    url: https://datatracker.ietf.org/meeting/106/session/abcd/
 - person: 120845
   name: David Lawrence
   status: confirmed
@@ -29,5 +39,12 @@ chairs:
       certainty: exact
       date: '2019-10-16'
     end:
-      certainty: group-closed
-      date: '2020-02-13'
+      certainty: between
+      not_before: '2019-11-16'
+    notes:
+    - 'End: after the BOF''s last session, IETF 106 (2019-11-16)'
+  evidence:
+  - kind: BOF session
+    meeting: '106'
+    date: '2019-11-16'
+    url: https://datatracker.ietf.org/meeting/106/session/abcd/

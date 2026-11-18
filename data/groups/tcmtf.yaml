@@ -9,6 +9,9 @@ bof: true
 never_chartered: true
 chartered: null
 bof_sessions:
+- meeting: '87'
+  date: '2013-07-28'
+  url: https://datatracker.ietf.org/meeting/87/session/tcmtf/
 - meeting: '89'
   date: '2014-03-02'
   url: https://www.ietf.org/proceedings/89/tcmtf.html
@@ -26,8 +29,12 @@ chairs:
       certainty: exact
       date: '2014-01-22'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2013-07-28)'
+    - 'Start: the BOF met at IETF 87 (2013-07-28)'
   evidence:
+  - kind: BOF session
+    meeting: '87'
+    date: '2013-07-28'
+    url: https://datatracker.ietf.org/meeting/87/session/tcmtf/
   - kind: BOF session
     meeting: '89'
     date: '2014-03-02'
@@ -61,6 +68,10 @@ chairs:
       date: '2014-01-22'
   evidence:
   - kind: BOF session
+    meeting: '87'
+    date: '2013-07-28'
+    url: https://datatracker.ietf.org/meeting/87/session/tcmtf/
+  - kind: BOF session
     meeting: '89'
     date: '2014-03-02'
     url: https://www.ietf.org/proceedings/89/tcmtf.html
@@ -85,6 +96,10 @@ chairs:
     notes:
     - 'End: after the BOF''s last session, IETF 89 (2014-03-02)'
   evidence:
+  - kind: BOF session
+    meeting: '87'
+    date: '2013-07-28'
+    url: https://datatracker.ietf.org/meeting/87/session/tcmtf/
   - kind: BOF session
     meeting: '89'
     date: '2014-03-02'
@@ -121,6 +136,10 @@ chairs:
     - date: '2014-02-17'
       subject: '[tcmtf] Draft agenda'
       url: https://mailarchive.ietf.org/arch/msg/tcmtf/lvwHXm2KAKTTdoB09tz7tuvar64/
+  - kind: BOF session
+    meeting: '87'
+    date: '2013-07-28'
+    url: https://datatracker.ietf.org/meeting/87/session/tcmtf/
   - kind: BOF session
     meeting: '89'
     date: '2014-03-02'

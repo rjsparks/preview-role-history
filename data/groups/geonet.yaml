@@ -8,7 +8,10 @@ closed: null
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '88'
+  date: '2013-11-03'
+  url: https://datatracker.ietf.org/meeting/88/session/geonet/
 history_url: https://datatracker.ietf.org/group/geonet/history/
 chairs:
 - person: 118769
@@ -42,6 +45,10 @@ chairs:
     - date: '2014-03-11'
       subject: '[geonet/its] minutes of the ''geonet'' meeting in London IETF89'
       url: https://mailarchive.ietf.org/arch/msg/its/vI4DcyT9UnvULuxwf2TtoSx_6kA/
+  - kind: BOF session
+    meeting: '88'
+    date: '2013-11-03'
+    url: https://datatracker.ietf.org/meeting/88/session/geonet/
   - kind: proceedings
     listed_in: 1
     first: '2013-11-03'
@@ -59,11 +66,16 @@ chairs:
       not_before: '2013-10-18'
       not_after: '2013-11-03'
     end:
-      certainty: group-closed
-      date: '2014-01-23'
+      certainty: between
+      not_before: '2013-11-03'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2013-11-03)'
+    - 'Start: the BOF met at IETF 88 (2013-11-03)'
+    - 'End: after the BOF''s last session, IETF 88 (2013-11-03)'
   evidence:
+  - kind: BOF session
+    meeting: '88'
+    date: '2013-11-03'
+    url: https://datatracker.ietf.org/meeting/88/session/geonet/
   - kind: proceedings
     listed_in: 1
     first: '2013-11-03'

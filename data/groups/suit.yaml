@@ -8,7 +8,10 @@ closed: null
 bof: true
 never_chartered: false
 chartered: '2017-12-15'
-bof_sessions: []
+bof_sessions:
+- meeting: '100'
+  date: '2017-11-11'
+  url: https://datatracker.ietf.org/meeting/100/session/suit/
 history_url: https://datatracker.ietf.org/group/suit/history/
 chairs:
 - person: 5376

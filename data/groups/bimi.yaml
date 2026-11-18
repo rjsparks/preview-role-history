@@ -8,7 +8,10 @@ closed: '2019-06-11'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '104'
+  date: '2019-03-23'
+  url: https://datatracker.ietf.org/meeting/104/session/bimi/
 history_url: https://datatracker.ietf.org/group/bimi/history/
 chairs:
 - person: 106842
@@ -19,8 +22,15 @@ chairs:
       certainty: exact
       date: '2019-02-20'
     end:
-      certainty: group-closed
-      date: '2019-06-11'
+      certainty: between
+      not_before: '2019-03-23'
+    notes:
+    - 'End: after the BOF''s last session, IETF 104 (2019-03-23)'
+  evidence:
+  - kind: BOF session
+    meeting: '104'
+    date: '2019-03-23'
+    url: https://datatracker.ietf.org/meeting/104/session/bimi/
 - person: 108049
   name: Richard Barnes
   status: confirmed
@@ -29,5 +39,12 @@ chairs:
       certainty: exact
       date: '2019-03-01'
     end:
-      certainty: group-closed
-      date: '2019-06-11'
+      certainty: between
+      not_before: '2019-03-23'
+    notes:
+    - 'End: after the BOF''s last session, IETF 104 (2019-03-23)'
+  evidence:
+  - kind: BOF session
+    meeting: '104'
+    date: '2019-03-23'
+    url: https://datatracker.ietf.org/meeting/104/session/bimi/

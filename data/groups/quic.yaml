@@ -8,7 +8,10 @@ closed: null
 bof: true
 never_chartered: false
 chartered: '2016-10-04'
-bof_sessions: []
+bof_sessions:
+- meeting: '96'
+  date: '2016-07-17'
+  url: https://datatracker.ietf.org/meeting/96/session/quic/
 history_url: https://datatracker.ietf.org/group/quic/history/
 chairs:
 - person: 103881

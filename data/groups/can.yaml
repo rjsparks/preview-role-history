@@ -8,7 +8,13 @@ closed: '2023-03-03'
 bof: true
 never_chartered: false
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '113'
+  date: '2022-03-19'
+  url: https://datatracker.ietf.org/meeting/113/session/can/
+- meeting: '115'
+  date: '2022-11-05'
+  url: https://datatracker.ietf.org/meeting/115/session/can/
 history_url: https://datatracker.ietf.org/group/can/history/
 chairs:
 - person: 104198

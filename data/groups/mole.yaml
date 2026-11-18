@@ -8,7 +8,10 @@ closed: null
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '127'
+  date: '2026-11-14'
+  url: https://datatracker.ietf.org/meeting/127/session/mole/
 history_url: https://datatracker.ietf.org/group/mole/history/
 chairs:
 - person: 101208
@@ -20,6 +23,11 @@ chairs:
       date: '2026-10-23'
     end:
       certainty: ongoing
+  evidence:
+  - kind: BOF session
+    meeting: '127'
+    date: '2026-11-14'
+    url: https://datatracker.ietf.org/meeting/127/session/mole/
 - person: 112723
   name: Paul Wouters
   status: confirmed
@@ -29,3 +37,8 @@ chairs:
       date: '2026-10-23'
     end:
       certainty: ongoing
+  evidence:
+  - kind: BOF session
+    meeting: '127'
+    date: '2026-11-14'
+    url: https://datatracker.ietf.org/meeting/127/session/mole/

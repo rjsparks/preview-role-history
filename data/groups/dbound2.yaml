@@ -8,7 +8,10 @@ closed: '2023-06-16'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '116'
+  date: '2023-03-25'
+  url: https://datatracker.ietf.org/meeting/116/session/dbound2/
 history_url: https://datatracker.ietf.org/group/dbound2/history/
 chairs:
 - person: 18009
@@ -19,8 +22,15 @@ chairs:
       certainty: exact
       date: '2023-02-23'
     end:
-      certainty: group-closed
-      date: '2023-06-16'
+      certainty: between
+      not_before: '2023-03-25'
+    notes:
+    - 'End: after the BOF''s last session, IETF 116 (2023-03-25)'
+  evidence:
+  - kind: BOF session
+    meeting: '116'
+    date: '2023-03-25'
+    url: https://datatracker.ietf.org/meeting/116/session/dbound2/
 - person: 115244
   name: Tim Wicinski
   status: confirmed
@@ -29,5 +39,12 @@ chairs:
       certainty: exact
       date: '2023-02-23'
     end:
-      certainty: group-closed
-      date: '2023-06-16'
+      certainty: between
+      not_before: '2023-03-25'
+    notes:
+    - 'End: after the BOF''s last session, IETF 116 (2023-03-25)'
+  evidence:
+  - kind: BOF session
+    meeting: '116'
+    date: '2023-03-25'
+    url: https://datatracker.ietf.org/meeting/116/session/dbound2/

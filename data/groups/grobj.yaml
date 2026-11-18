@@ -8,7 +8,10 @@ closed: '2014-09-04'
 bof: true
 never_chartered: true
 chartered: null
-bof_sessions: []
+bof_sessions:
+- meeting: '76'
+  date: '2009-11-08'
+  url: https://datatracker.ietf.org/meeting/76/session/grobj/
 history_url: https://datatracker.ietf.org/group/grobj/history/
 chairs:
 - person: 100038
@@ -19,9 +22,10 @@ chairs:
       certainty: on-or-before
       date: '2009-10-07'
     end:
-      certainty: group-closed
-      date: '2014-09-04'
+      certainty: between
+      not_before: '2009-11-08'
     notes:
+    - 'End: after the BOF''s last session, IETF 76 (2009-11-08)'
     - 'Start: listed as chair in a proceedings charter snapshot (2009-10-07)'
   evidence:
   - kind: chair activity
@@ -32,6 +36,10 @@ chairs:
     - date: '2009-11-20'
       subject: '[grobj] draft GROBJ minutes posted'
       url: https://mailarchive.ietf.org/arch/msg/grobj/bFBRwZdNb7LPbLyZX-XgfDBPANg/
+  - kind: BOF session
+    meeting: '76'
+    date: '2009-11-08'
+    url: https://datatracker.ietf.org/meeting/76/session/grobj/
   - kind: proceedings
     listed_in: 1
     first: '2009-10-07'
@@ -48,11 +56,16 @@ chairs:
       certainty: on-or-before
       date: '2009-10-07'
     end:
-      certainty: group-closed
-      date: '2014-09-04'
+      certainty: between
+      not_before: '2009-11-08'
     notes:
+    - 'End: after the BOF''s last session, IETF 76 (2009-11-08)'
     - 'Start: listed as chair in a proceedings charter snapshot (2009-10-07)'
   evidence:
+  - kind: BOF session
+    meeting: '76'
+    date: '2009-11-08'
+    url: https://datatracker.ietf.org/meeting/76/session/grobj/
   - kind: proceedings
     listed_in: 1
     first: '2009-10-07'
