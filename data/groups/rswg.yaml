@@ -71,13 +71,11 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: approximate
-      date: '2024-07-23'
+      certainty: evidence-only
+      not_after: '2024-07-23'
     end:
       certainty: evidence-only
       not_before: '2024-07-23'
-    notes:
-    - 'Start: announced on the group''s list (2024-07-23)'
   evidence:
   - kind: list message
     date: '2024-07-23'

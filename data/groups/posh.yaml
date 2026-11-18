@@ -21,12 +21,12 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2013-06-20'
-      not_before: '2013-06-20'
     end:
       certainty: between
       not_before: '2013-07-28'
       not_after: '2016-07-17'
     notes:
+    - 'End: the BOF met at IETF 87 (2013-07-28)'
     - 'End: became an Area Director, first serving at IETF 96 (2016-07-17)'
   evidence:
   - kind: chair activity
@@ -37,10 +37,6 @@ chairs:
     - date: '2013-07-24'
       subject: '[POSH] Proposed agenda for the BOF'
       url: https://mailarchive.ietf.org/arch/msg/posh/juXAn5lPM2thF1IvP06gm5WoPT8/
-  - kind: BOF session
-    meeting: '87'
-    date: '2013-07-28'
-    url: https://datatracker.ietf.org/meeting/87/session/posh/
   - kind: proceedings
     listed_in: 1
     first: '2013-07-28'
@@ -49,6 +45,10 @@ chairs:
     - date: '2013-07-28'
       subject: IETF 87 proceedings charter
       url: https://www.ietf.org/proceedings/87/posh.html
+  - kind: BOF session
+    meeting: '87'
+    date: '2013-07-28'
+    url: https://datatracker.ietf.org/meeting/87/session/posh/
   - kind: joined the IESG
     after_meeting: '95'
     after: '2016-04-03'
@@ -61,18 +61,14 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2013-06-20'
-      not_before: '2013-06-20'
     end:
       certainty: between
       not_before: '2013-07-28'
       not_after: '2014-07-20'
     notes:
+    - 'End: the BOF met at IETF 87 (2013-07-28)'
     - 'End: became an Area Director, first serving at IETF 90 (2014-07-20)'
   evidence:
-  - kind: BOF session
-    meeting: '87'
-    date: '2013-07-28'
-    url: https://datatracker.ietf.org/meeting/87/session/posh/
   - kind: proceedings
     listed_in: 1
     first: '2013-07-28'
@@ -81,6 +77,10 @@ chairs:
     - date: '2013-07-28'
       subject: IETF 87 proceedings charter
       url: https://www.ietf.org/proceedings/87/posh.html
+  - kind: BOF session
+    meeting: '87'
+    date: '2013-07-28'
+    url: https://datatracker.ietf.org/meeting/87/session/posh/
   - kind: joined the IESG
     after_meeting: '89'
     after: '2014-03-02'

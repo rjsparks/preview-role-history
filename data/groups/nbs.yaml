@@ -30,6 +30,7 @@ chairs:
       not_after: '2012-07-29'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
+    - 'End: the BOF met at IETF 80 (2011-03-27)'
     - 'End: became an Area Director, first serving at IETF 84 (2012-07-29)'
   evidence:
   - kind: chair activity
@@ -51,14 +52,6 @@ chairs:
     - date: '2010-11-07'
       subject: IETF 79 minutes in the proceedings
       url: https://www.ietf.org/proceedings/79/minutes/nbs.txt
-  - kind: BOF session
-    meeting: '79'
-    date: '2010-11-07'
-    url: https://www.ietf.org/proceedings/79/nbs.html
-  - kind: BOF session
-    meeting: '80'
-    date: '2011-03-27'
-    url: https://www.ietf.org/proceedings/80/nbs.html
   - kind: proceedings
     listed_in: 3
     first: '2010-07-25'
@@ -73,6 +66,14 @@ chairs:
     - date: '2011-03-27'
       subject: IETF 80 proceedings charter
       url: https://www.ietf.org/proceedings/80/nbs.html
+  - kind: BOF session
+    meeting: '79'
+    date: '2010-11-07'
+    url: https://www.ietf.org/proceedings/79/nbs.html
+  - kind: BOF session
+    meeting: '80'
+    date: '2011-03-27'
+    url: https://www.ietf.org/proceedings/80/nbs.html
   - kind: joined the IESG
     after_meeting: '83'
     after: '2012-03-25'
@@ -86,10 +87,8 @@ chairs:
       certainty: on-or-before
       date: '2010-07-25'
     end:
-      certainty: between
-      not_before: '2011-03-27'
+      certainty: group-closed
     notes:
-    - 'End: after the BOF''s last session, IETF 80 (2011-03-27)'
     - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
   evidence:
   - kind: minutes
@@ -100,14 +99,6 @@ chairs:
     - date: '2010-11-07'
       subject: IETF 79 minutes in the proceedings
       url: https://www.ietf.org/proceedings/79/minutes/nbs.txt
-  - kind: BOF session
-    meeting: '79'
-    date: '2010-11-07'
-    url: https://www.ietf.org/proceedings/79/nbs.html
-  - kind: BOF session
-    meeting: '80'
-    date: '2011-03-27'
-    url: https://www.ietf.org/proceedings/80/nbs.html
   - kind: proceedings
     listed_in: 3
     first: '2010-07-25'
@@ -122,3 +113,11 @@ chairs:
     - date: '2011-03-27'
       subject: IETF 80 proceedings charter
       url: https://www.ietf.org/proceedings/80/nbs.html
+  - kind: BOF session
+    meeting: '79'
+    date: '2010-11-07'
+    url: https://www.ietf.org/proceedings/79/nbs.html
+  - kind: BOF session
+    meeting: '80'
+    date: '2011-03-27'
+    url: https://www.ietf.org/proceedings/80/nbs.html

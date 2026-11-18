@@ -5,10 +5,13 @@ parent: tsv
 state: conclude
 started: '2009-09-16'
 closed: '2020-03-17'
-bof: false
+bof: true
 never_chartered: false
 chartered: '2009-10-15'
-bof_sessions: []
+bof_sessions:
+- meeting: '75'
+  date: '2009-07-26'
+  url: https://datatracker.ietf.org/meeting/75/session/mptcp/
 history_url: https://datatracker.ietf.org/group/mptcp/history/
 chairs:
 - person: 2325
@@ -23,7 +26,9 @@ chairs:
       not_before: '2009-08-24'
       not_after: '2009-10-29'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-10-29)'
+    - 'Start: listed as chair in meeting minutes (2009-07-26)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2009-08-24)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2009-10-29)'
   evidence:
   - kind: chair activity
     first: '2009-08-24'
@@ -42,9 +47,9 @@ chairs:
       subject: IETF 75 minutes in the proceedings
       url: https://www.ietf.org/proceedings/75/minutes/mptcp.txt
   - kind: minutes without them
-    date: '2009-11-08'
-    subject: IETF 76 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/76/minutes/mptcp.txt
+    date: '2009-10-29'
+    subject: IETF 76 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/76/mptcp.html
 - person: 9052
   name: Mark Handley
   status: unconfirmed
@@ -57,7 +62,9 @@ chairs:
       not_before: '2009-07-26'
       not_after: '2009-10-29'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-10-29)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2009-07-01)'
+    - 'End: listed as chair in meeting minutes (2009-07-26)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2009-10-29)'
   evidence:
   - kind: chair activity
     first: '2009-07-01'
@@ -76,22 +83,21 @@ chairs:
       subject: IETF 75 minutes in the proceedings
       url: https://www.ietf.org/proceedings/75/minutes/mptcp.txt
   - kind: minutes without them
-    date: '2009-11-08'
-    subject: IETF 76 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/76/minutes/mptcp.txt
+    date: '2009-10-29'
+    subject: IETF 76 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/76/mptcp.html
 - person: 15951
   name: Yoshifumi Nishida
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2009-11-08'
-      not_before: '2009-09-16'
+      date: '2009-07-26'
     end:
       certainty: group-closed
       date: '2020-03-17'
     notes:
-    - 'Start: listed as chair in meeting minutes (2009-11-08)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2009-07-26)'
   evidence:
   - kind: WG Review
     date: '2012-05-15'
@@ -157,13 +163,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2009-11-08'
-      not_before: '2009-09-16'
+      date: '2009-07-26'
     end:
       certainty: group-closed
       date: '2020-03-17'
     notes:
-    - 'Start: requested the group''s session for IETF 76 (2009-11-08)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2009-07-26)'
   evidence:
   - kind: WG Review
     date: '2012-05-15'

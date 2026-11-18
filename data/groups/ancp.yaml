@@ -16,19 +16,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2006-06-28'
+      certainty: between
       not_before: '2006-06-01'
+      not_after: '2006-06-28'
     end:
       certainty: group-closed
       date: '2015-03-23'
     notes:
     - 'Start: named as chair in the WG Action announcement (2006-06-28)'
   evidence:
-  - kind: WG Action
-    date: '2006-06-28'
-    subject: 'WG Action: Access Node Control Protocol (ancp)'
-    url: null
   - kind: WG Action
     date: '2006-07-03'
     subject: 'WG Action: Access Node Control Protocol (ancp)'
@@ -117,19 +113,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2006-06-28'
+      certainty: between
       not_before: '2006-06-01'
+      not_after: '2006-06-28'
     end:
       certainty: group-closed
       date: '2015-03-23'
     notes:
     - 'Start: named as chair in the WG Action announcement (2006-06-28)'
   evidence:
-  - kind: WG Action
-    date: '2006-06-28'
-    subject: 'WG Action: Access Node Control Protocol (ancp)'
-    url: null
   - kind: WG Action
     date: '2006-07-03'
     subject: 'WG Action: Access Node Control Protocol (ancp)'

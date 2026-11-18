@@ -19,10 +19,13 @@ chairs:
       certainty: evidence-only
       not_after: '2009-09-15'
     end:
-      certainty: approximate
-      date: '2010-05-29'
+      certainty: between
+      not_before: '2010-04-23'
+      not_after: '2010-05-19'
     notes:
-    - 'End: announced on the group''s list (2010-05-29)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2009-09-15)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2010-04-23)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2010-05-19)'
   evidence:
   - kind: list message
     date: '2010-05-29'
@@ -52,6 +55,10 @@ chairs:
     - date: '2009-09-15'
       subject: IETF 76 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/76/sipclf.html
+  - kind: minutes without them
+    date: '2010-05-19'
+    subject: IETF 78 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/78/sipclf.html
   - kind: session requests
     meetings:
     - '76'
@@ -65,9 +72,10 @@ chairs:
       certainty: evidence-only
       not_after: '2009-09-15'
     end:
-      certainty: approximate
+      certainty: announced
       date: '2011-01-13'
     notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2009-09-15)'
     - 'End: announced on the group''s list (2011-01-13)'
   evidence:
   - kind: list message
@@ -95,9 +103,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-03-21'
+      certainty: between
       not_before: '2009-08-24'
+      not_after: '2010-03-21'
     end:
       certainty: group-closed
       date: '2013-02-19'

@@ -5,10 +5,13 @@ parent: irtf
 state: active
 started: '2017-06-09'
 closed: null
-bof: false
+bof: true
 never_chartered: false
 chartered: '2017-09-18'
-bof_sessions: []
+bof_sessions:
+- meeting: '99'
+  date: '2017-07-16'
+  url: https://datatracker.ietf.org/meeting/99/session/panrg/
 history_url: https://datatracker.ietf.org/group/panrg/history/
 chairs:
 - person: 109354

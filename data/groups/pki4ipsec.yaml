@@ -23,24 +23,26 @@ chairs:
       not_before: '2004-01-30'
       not_after: '2004-02-12'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2004-02-12)'
+    - 'Start: named as chair in the WG Action announcement (2004-01-30)'
+    - 'End: named as chair in the WG Action announcement (2004-01-30)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2004-02-12)'
   evidence:
   - kind: WG Action
     date: '2004-01-30'
     subject: 'WG Action: Profiling Use of PKI in IPSEC (pki4ipsec)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/eTfFYFzHQjxuiWOSdXSca8PY9t4/
   - kind: minutes without them
-    date: '2005-07-31'
-    subject: IETF 63 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/63/minutes/pki4ipsec.html
+    date: '2004-02-12'
+    subject: IETF 59 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/59/210.htm
 - person: 105598
   name: Paul Knight
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2004-02-12'
+      certainty: between
       not_before: '2004-01-02'
+      not_after: '2004-02-12'
     end:
       certainty: group-closed
       date: '2007-03-29'
@@ -74,9 +76,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2004-02-12'
+      certainty: between
       not_before: '2004-01-02'
+      not_after: '2004-02-12'
     end:
       certainty: group-closed
       date: '2007-03-29'

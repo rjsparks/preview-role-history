@@ -22,8 +22,12 @@ chairs:
       certainty: evidence-only
       not_after: '1994-12-05'
     end:
-      certainty: evidence-only
-      not_before: '1995-04-03'
+      certainty: between
+      not_before: '1994-12-05'
+      not_after: '1996-04-11'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (1994-12-05)'
+    - 'End: the group closed (1996-04-11)'
   evidence:
   - kind: proceedings
     listed_in: 2
@@ -41,12 +45,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1994-12-05'
+      certainty: between
       not_before: '1994-10-30'
+      not_after: '1994-12-05'
     end:
-      certainty: on-or-before
-      date: '1995-04-03'
+      certainty: between
+      not_before: '1994-12-05'
+      not_after: '1995-04-03'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-12-05)'
     - 'End: became an Area Director, first serving at IETF 32 (1995-04-03)'

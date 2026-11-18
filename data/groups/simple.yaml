@@ -26,7 +26,9 @@ chairs:
       not_before: '2009-03-22'
       not_after: '2009-03-30'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-03-30)'
+    - 'Start: named as chair in the WG Action announcement (2001-03-12)'
+    - 'End: requested the group''s session for IETF 74 (2009-03-22)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2009-03-30)'
   evidence:
   - kind: WG Action
     date: '2001-03-12'
@@ -96,6 +98,11 @@ chairs:
     date: '2009-03-30'
     subject: IETF 74 proceedings charter, as last modified
     url: https://www.ietf.org/proceedings/74/simple.html
+  - kind: joined the IESG
+    after_meeting: '74'
+    after: '2009-03-22'
+    by_meeting: '75'
+    by: '2009-07-26'
   - kind: session requests
     meetings:
     - '65'
@@ -109,25 +116,20 @@ chairs:
     - '73'
     - '74'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
-  - kind: joined the IESG
-    after_meeting: '74'
-    after: '2009-03-22'
-    by_meeting: '75'
-    by: '2009-07-26'
 - person: 104140
   name: Ben Campbell
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2009-03-30'
+      certainty: between
       not_before: '2008-03-09'
+      not_after: '2009-03-30'
     end:
       certainty: group-closed
       date: '2013-02-26'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2009-03-30)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2008-03-09)'
+    - 'Start: not listed among the chairs in meeting minutes (2008-03-09)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2009-03-30)'
   evidence:
   - kind: chair activity
     first: '2009-03-30'
@@ -195,9 +197,10 @@ chairs:
       certainty: evidence-only
       not_after: '2001-03-14'
     end:
-      certainty: approximate
+      certainty: announced
       date: '2003-11-17'
     notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2001-03-14)'
     - 'End: announced on the group''s list (2003-11-17)'
   evidence:
   - kind: WG Action
@@ -239,23 +242,20 @@ chairs:
     - date: '2003-09-16'
       subject: IETF 58 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/58/121.htm
-  - kind: minutes without them
-    date: '2004-08-01'
-    subject: IETF 60 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/60/minutes/simple.htm
 - person: 105426
   name: Hisham Khartabil
   status: confirmed
   periods:
   - start:
-      certainty: approximate
-      date: '2003-11-17'
+      certainty: between
+      not_before: '2003-11-09'
+      not_after: '2004-02-02'
     end:
-      certainty: approximate
-      date: '2003-11-17'
+      certainty: group-closed
+      date: '2013-02-26'
     notes:
-    - 'Start: announced on the group''s list (2003-11-17)'
-    - 'End: announced on the group''s list (2003-11-17)'
+    - 'Start: not listed among the chairs in meeting minutes (2003-11-09)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2004-02-02)'
   evidence:
   - kind: WG Review
     date: '2007-02-14'
@@ -265,20 +265,6 @@ chairs:
     date: '2007-03-21'
     subject: 'WG Action: RECHARTER: SIP for Instant Messaging and Presence Leveraging Extensions (simple)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/qwgAI49zPhO8Z3S-6Bn498R3K1g/
-  - kind: list message
-    date: '2003-11-17'
-    says: start
-    subject: '[Simple] ANNOUNCEMENT: Change of chairs'
-    url: https://mailarchive.ietf.org/arch/msg/simple/0TxRi4YxuiR1k6-nqk_AsYkUrLo/
-    excerpt: I am happy to announce that Hisham Khartabil is joining me as a chair of the SIMPLE working
-      group.
-  - kind: list message
-    date: '2003-11-17'
-    says: end
-    subject: '[Simple] ANNOUNCEMENT: Change of chairs'
-    url: https://mailarchive.ietf.org/arch/msg/simple/0TxRi4YxuiR1k6-nqk_AsYkUrLo/
-    excerpt: Please join me in extending thanks to both Hisham and Jon for helping us get SIMPLE's work
-      done!
   - kind: chair activity
     first: '2005-08-19'
     last: '2009-11-16'

@@ -24,15 +24,12 @@ chairs:
     end:
       certainty: between
       not_before: '2007-03-18'
-      not_after: '2011-07-24'
+      not_after: '2007-05-31'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2007-02-06)'
-    - 'End: became an Area Director, first serving at IETF 81 (2011-07-24)'
+    - 'End: the BOF met at IETF 68 (2007-03-18)'
+    - 'End: the group closed (2007-05-31)'
   evidence:
-  - kind: BOF session
-    meeting: '68'
-    date: '2007-03-18'
-    url: https://datatracker.ietf.org/meeting/68/session/fsm/
   - kind: proceedings
     listed_in: 1
     first: '2007-02-06'
@@ -41,11 +38,10 @@ chairs:
     - date: '2007-02-06'
       subject: IETF 68 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/68/fsm.html
-  - kind: joined the IESG
-    after_meeting: '80'
-    after: '2011-03-27'
-    by_meeting: '81'
-    by: '2011-07-24'
+  - kind: BOF session
+    meeting: '68'
+    date: '2007-03-18'
+    url: https://datatracker.ietf.org/meeting/68/session/fsm/
 - person: 107725
   name: Stéphane Bortzmeyer
   status: confirmed
@@ -56,9 +52,11 @@ chairs:
     end:
       certainty: between
       not_before: '2007-03-18'
+      not_after: '2007-05-31'
     notes:
     - 'Start: the BOF met at IETF 68 (2007-03-18)'
-    - 'End: after the BOF''s last session, IETF 68 (2007-03-18)'
+    - 'End: the BOF met at IETF 68 (2007-03-18)'
+    - 'End: the group closed (2007-05-31)'
   evidence:
   - kind: BOF session
     meeting: '68'

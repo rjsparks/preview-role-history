@@ -20,13 +20,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-01-28'
-      not_before: '2003-10-13'
+      date: '2003-07-13'
     end:
       certainty: group-closed
       date: '2011-08-02'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2004-01-28)'
+    - 'Start: listed as chair in meeting minutes (2003-07-13)'
   evidence:
   - kind: chair activity
     first: '2008-07-10'
@@ -84,8 +83,13 @@ chairs:
       certainty: evidence-only
       not_after: '2003-07-13'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2003-07-13'
+      not_after: '2011-08-02'
+    notes:
+    - 'Start: listed as chair in meeting minutes (2003-07-13)'
+    - 'End: listed as chair in meeting minutes (2003-07-13)'
+    - 'End: the group closed (2011-08-02)'
   evidence:
   - kind: minutes
     listed_in: 2

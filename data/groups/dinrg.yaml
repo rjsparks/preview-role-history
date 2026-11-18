@@ -42,7 +42,6 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2017-09-22'
-      not_before: '2017-09-22'
     end:
       certainty: exact
       date: '2021-04-26'
@@ -72,7 +71,6 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2017-09-22'
-      not_before: '2017-09-22'
     end:
       certainty: ongoing
   evidence:

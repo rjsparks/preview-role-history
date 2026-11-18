@@ -19,8 +19,13 @@ chairs:
       certainty: evidence-only
       not_after: '1999-05-25'
     end:
-      certainty: evidence-only
-      not_before: '2003-03-05'
+      certainty: between
+      not_before: '1999-05-25'
+      not_after: '2004-01-15'
+    notes:
+    - 'Start: named as chair in the WG Action announcement (1999-05-25)'
+    - 'End: named as chair in the WG Action announcement (1999-05-25)'
+    - 'End: the group closed (2004-01-15)'
   evidence:
   - kind: WG Action
     date: '1999-05-25'
@@ -45,9 +50,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1999-05-25'
+      certainty: between
       not_before: '1999-05-03'
+      not_after: '1999-05-25'
     end:
       certainty: group-closed
       date: '2004-01-15'

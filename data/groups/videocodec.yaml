@@ -21,16 +21,16 @@ chairs:
   - start:
       certainty: between
       not_before: '2012-09-26'
+      not_after: '2012-11-04'
     end:
       certainty: between
       not_before: '2012-11-04'
+      not_after: '2013-01-31'
     notes:
-    - 'End: after the BOF''s last session, IETF 85 (2012-11-04)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2012-11-04)'
+    - 'End: the BOF met at IETF 85 (2012-11-04)'
+    - 'End: the group closed (2013-01-31)'
   evidence:
-  - kind: BOF session
-    meeting: '85'
-    date: '2012-11-04'
-    url: https://datatracker.ietf.org/meeting/85/session/videocodec/
   - kind: proceedings
     listed_in: 1
     first: '2012-11-04'
@@ -39,18 +39,25 @@ chairs:
     - date: '2012-11-04'
       subject: IETF 85 proceedings charter
       url: https://www.ietf.org/proceedings/85/videocodec.html
+  - kind: BOF session
+    meeting: '85'
+    date: '2012-11-04'
+    url: https://datatracker.ietf.org/meeting/85/session/videocodec/
 - person: 105907
   name: Peter Saint-Andre
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2012-09-26'
+      certainty: on-or-before
+      date: '2012-07-29'
     end:
       certainty: between
       not_before: '2012-11-04'
+      not_after: '2013-01-31'
     notes:
-    - 'End: after the BOF''s last session, IETF 85 (2012-11-04)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2012-07-29)'
+    - 'End: the BOF met at IETF 85 (2012-11-04)'
+    - 'End: the group closed (2013-01-31)'
   evidence:
   - kind: chair activity
     first: '2012-10-19'
@@ -60,10 +67,6 @@ chairs:
     - date: '2012-10-19'
       subject: '[video-codec] draft agenda'
       url: https://mailarchive.ietf.org/arch/msg/video-codec/panIyBgvkjlFAGsmyrb2M1pXaMc/
-  - kind: BOF session
-    meeting: '85'
-    date: '2012-11-04'
-    url: https://datatracker.ietf.org/meeting/85/session/videocodec/
   - kind: proceedings
     listed_in: 2
     first: '2012-07-29'
@@ -75,3 +78,7 @@ chairs:
     - date: '2012-11-04'
       subject: IETF 85 proceedings charter
       url: https://www.ietf.org/proceedings/85/videocodec.html
+  - kind: BOF session
+    meeting: '85'
+    date: '2012-11-04'
+    url: https://datatracker.ietf.org/meeting/85/session/videocodec/

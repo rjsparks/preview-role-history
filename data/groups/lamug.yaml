@@ -23,11 +23,13 @@ chairs:
       date: '1996-04-01'
     end:
       certainty: between
-      not_before: '1996-06-24'
+      not_before: '1996-04-01'
+      not_after: '1996-04-01'
     notes:
-    - 'End: after the BOF''s last session, IETF 36 (1996-06-24)'
+    - 'End: the BOF met at IETF 36 (1996-06-24)'
+    - 'End: the group closed (1996-04-01)'
   evidence:
   - kind: BOF session
     meeting: '36'
-    date: '1996-06-24'
+    date: '1996-04-01'
     url: https://www.ietf.org/proceedings/36/OLD/toc-96jun.html

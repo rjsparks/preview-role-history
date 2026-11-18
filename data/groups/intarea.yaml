@@ -5,10 +5,49 @@ parent: int
 state: active
 started: '2009-10-22'
 closed: null
-bof: false
+bof: true
 never_chartered: false
 chartered: '2010-03-23'
-bof_sessions: []
+bof_sessions:
+- meeting: '65'
+  date: '2006-03-19'
+  url: https://datatracker.ietf.org/meeting/65/session/intarea/
+- meeting: '66'
+  date: '2006-07-09'
+  url: https://datatracker.ietf.org/meeting/66/session/intarea/
+- meeting: '67'
+  date: '2006-11-05'
+  url: https://datatracker.ietf.org/meeting/67/session/intarea/
+- meeting: '68'
+  date: '2007-03-18'
+  url: https://datatracker.ietf.org/meeting/68/session/intarea/
+- meeting: '69'
+  date: '2007-07-22'
+  url: https://datatracker.ietf.org/meeting/69/session/intarea/
+- meeting: '70'
+  date: '2007-12-02'
+  url: https://datatracker.ietf.org/meeting/70/session/intarea/
+- meeting: '71'
+  date: '2008-03-09'
+  url: https://datatracker.ietf.org/meeting/71/session/intarea/
+- meeting: '72'
+  date: '2008-07-27'
+  url: https://datatracker.ietf.org/meeting/72/session/intarea/
+- meeting: '73'
+  date: '2008-11-16'
+  url: https://datatracker.ietf.org/meeting/73/session/intarea/
+- meeting: '74'
+  date: '2009-03-22'
+  url: https://datatracker.ietf.org/meeting/74/session/intarea/
+- meeting: '75'
+  date: '2009-07-26'
+  url: https://datatracker.ietf.org/meeting/75/session/intarea/
+- meeting: '76'
+  date: '2009-11-08'
+  url: https://datatracker.ietf.org/meeting/76/session/intarea/
+- meeting: '77'
+  date: '2010-03-21'
+  url: https://datatracker.ietf.org/meeting/77/session/intarea/
 history_url: https://datatracker.ietf.org/group/intarea/history/
 chairs:
 - person: 2325
@@ -24,8 +63,10 @@ chairs:
       not_before: '2011-07-24'
       not_after: '2011-11-13'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-11-13)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2010-03-21)'
+    - 'Start: not listed among the chairs in meeting minutes (2010-03-21)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
+    - 'End: requested the group''s session for IETF 81 (2011-07-24)'
+    - 'End: not listed among the chairs in meeting minutes (2011-11-13)'
   evidence:
   - kind: proceedings
     listed_in: 2
@@ -55,16 +96,14 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2007-03-18'
+      certainty: evidence-only
       not_after: '2008-08-21'
     end:
       certainty: between
       not_before: '2008-08-21'
       not_after: '2009-07-26'
     notes:
-    - 'Start: not yet listed among the chairs in meeting minutes (2007-03-18)'
-    - 'End: no longer listed among the chairs in meeting minutes (2010-03-21)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2008-08-21)'
     - 'End: became an Area Director, first serving at IETF 75 (2009-07-26)'
   evidence:
   - kind: proceedings
@@ -75,121 +114,19 @@ chairs:
     - date: '2008-08-21'
       subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/intarea.html
-  - kind: minutes without them
-    date: '2007-03-18'
-    subject: IETF 68 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/68/minutes/intarea.txt
-  - kind: minutes without them
-    date: '2010-03-21'
-    subject: IETF 77 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/77/minutes/intarea.txt
   - kind: joined the IESG
     after_meeting: '74'
     after: '2009-03-22'
     by_meeting: '75'
     by: '2009-07-26'
-- person: 7262
-  name: Thomas Narten
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: evidence-only
-      not_after: '2007-03-18'
-    end:
-      certainty: between
-      not_before: '2007-03-18'
-      not_after: '2008-08-21'
-    notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2008-08-21)'
-  evidence:
-  - kind: minutes
-    listed_in: 1
-    first: '2007-03-18'
-    last: '2007-03-18'
-    examples:
-    - date: '2007-03-18'
-      subject: IETF 68 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/68/minutes/intarea.txt
-  - kind: minutes without them
-    date: '2010-03-21'
-    subject: IETF 77 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/77/minutes/intarea.txt
-- person: 21072
-  name: Jari Arkko
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: evidence-only
-      not_after: '2006-04-14'
-    end:
-      certainty: between
-      not_before: '2008-08-21'
-      not_after: '2010-03-21'
-    notes:
-    - 'End: no longer listed among the chairs in meeting minutes (2010-03-21)'
-  evidence:
-  - kind: proceedings
-    listed_in: 3
-    first: '2006-04-14'
-    last: '2008-08-21'
-    examples:
-    - date: '2006-04-14'
-      subject: IETF 66 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/66/intarea.html
-    - date: '2008-08-21'
-      subject: IETF 74 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/74/intarea.html
-    - date: '2008-08-21'
-      subject: IETF 75 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/75/intarea.html
-  - kind: minutes without them
-    date: '2010-03-21'
-    subject: IETF 77 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/77/minutes/intarea.txt
-  - kind: session requests
-    meetings:
-    - '66'
-    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
-- person: 22948
-  name: Mark Townsley
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: evidence-only
-      not_after: '2005-03-06'
-    end:
-      certainty: between
-      not_before: '2008-08-21'
-      not_after: '2010-03-21'
-    notes:
-    - 'End: no longer listed among the chairs in meeting minutes (2010-03-21)'
-  evidence:
-  - kind: proceedings
-    listed_in: 6
-    first: '2005-03-06'
-    last: '2008-08-21'
-    examples:
-    - date: '2005-03-06'
-      subject: IETF 62 proceedings charter
-      url: https://www.ietf.org/proceedings/62/intarea.html
-    - date: '2005-07-10'
-      subject: IETF 63 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/63/intarea.html
-    - date: '2008-08-21'
-      subject: IETF 75 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/75/intarea.html
-  - kind: minutes without them
-    date: '2010-03-21'
-    subject: IETF 77 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/77/minutes/intarea.txt
 - person: 106186
   name: Julien Laganier
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-03-21'
+      certainty: between
       not_before: '2009-10-22'
+      not_after: '2010-03-21'
     end:
       certainty: exact
       date: '2013-12-23'
@@ -239,14 +176,6 @@ chairs:
     - date: '2013-07-28'
       subject: IETF 87 proceedings charter
       url: https://www.ietf.org/proceedings/87/intarea.html
-  - kind: minutes without them
-    date: '2007-03-18'
-    subject: IETF 68 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/68/minutes/intarea.txt
-  - kind: minutes without them
-    date: '2014-11-09'
-    subject: IETF 91 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/91/minutes/minutes-91-intarea.txt
   - kind: session requests
     meetings:
     - '79'
@@ -263,10 +192,24 @@ chairs:
   status: confirmed
   periods:
   - start:
+      certainty: between
+      not_before: '2015-07-19'
+      not_after: '2015-11-01'
+    end:
+      certainty: between
+      not_before: '2015-11-01'
+      not_after: '2016-02-18'
+    notes:
+    - 'Start: not listed among the chairs in meeting minutes (2015-07-19)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2015-11-01)'
+  - start:
       certainty: exact
       date: '2016-02-18'
     end:
-      certainty: ongoing
+      certainty: announced
+      date: '2026-11-12'
+    notes:
+    - 'End: announced on the group''s list (2026-11-12)'
   evidence:
   - kind: list message
     date: '2026-11-12'
@@ -317,6 +260,10 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/intarea.html
+  - kind: minutes without them
+    date: '2015-07-19'
+    subject: IETF 93 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/93/minutes/minutes-93-intarea.txt
   - kind: shepherded
     documents:
     - draft-ietf-intarea-hostname-practice
@@ -325,15 +272,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-07-24'
+      certainty: between
       not_before: '2010-03-21'
+      not_after: '2011-07-24'
     end:
       certainty: exact
       date: '2016-04-05'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2010-03-21)'
     - 'Start: listed as chair in a proceedings charter snapshot (2011-07-24)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2010-03-21)'
   evidence:
   - kind: chair activity
     first: '2011-10-28'
@@ -387,20 +334,16 @@ chairs:
     date: '2010-03-21'
     subject: IETF 77 minutes in the proceedings
     url: https://www.ietf.org/proceedings/77/minutes/intarea.txt
-  - kind: minutes without them
-    date: '2016-07-17'
-    subject: IETF 96 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-intarea.txt
-  - kind: shepherded
-    documents:
-    - draft-ietf-intarea-flow-label-balancing
-    - draft-ietf-intarea-gre-mtu
-    - draft-ietf-intarea-nat-reveal-analysis
   - kind: joined the IESG
     after_meeting: '95'
     after: '2016-04-03'
     by_meeting: '96'
     by: '2016-07-17'
+  - kind: shepherded
+    documents:
+    - draft-ietf-intarea-flow-label-balancing
+    - draft-ietf-intarea-gre-mtu
+    - draft-ietf-intarea-nat-reveal-analysis
 - person: 106740
   name: Carlos Jesús Bernardos
   status: confirmed
@@ -426,47 +369,21 @@ chairs:
     documents:
     - draft-ietf-intarea-gre-ipv6
     - draft-ietf-intarea-multicast-application-port
-- person: 107992
-  name: Peter Schoenmaker
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: evidence-only
-      not_after: '2007-03-18'
-    end:
-      certainty: between
-      not_before: '2007-03-18'
-      not_after: '2008-08-21'
-    notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2008-08-21)'
-  evidence:
-  - kind: minutes
-    listed_in: 1
-    first: '2007-03-18'
-    last: '2007-03-18'
-    examples:
-    - date: '2007-03-18'
-      subject: IETF 68 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/68/minutes/intarea.txt
-  - kind: minutes without them
-    date: '2010-03-21'
-    subject: IETF 77 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/77/minutes/intarea.txt
 - person: 108396
   name: Christian Vogt
   status: unconfirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2007-03-18'
+      certainty: evidence-only
       not_after: '2010-03-21'
     end:
       certainty: between
       not_before: '2010-11-11'
-      not_after: '2011-03-27'
+      not_after: '2011-11-13'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-03-27)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2007-03-18)'
+    - 'Start: listed as chair in meeting minutes (2010-03-21)'
+    - 'End: started a last call or adoption call on the group''s list (2010-11-11)'
+    - 'End: not listed among the chairs in meeting minutes (2011-11-13)'
   evidence:
   - kind: WG Action
     date: '2010-03-23'
@@ -505,10 +422,6 @@ chairs:
     - date: '2010-03-23'
       subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/intarea.html
-  - kind: minutes without them
-    date: '2007-03-18'
-    subject: IETF 68 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/68/minutes/intarea.txt
   - kind: minutes without them
     date: '2011-11-13'
     subject: IETF 82 minutes in the proceedings
@@ -576,10 +489,6 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/intarea.html
-  - kind: minutes without them
-    date: '2012-03-25'
-    subject: IETF 83 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/83/minutes/minutes-83-intarea.txt
   - kind: shepherded
     documents:
     - draft-ietf-intarea-broadcast-consider
@@ -600,35 +509,3 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/int-area/sQ9OoyNB6Xrnpz8eM3O8tBCod94/
     excerpt: 'This will be a stepped process: Tim joins now as a third co-chair, and in December Wassim
       will step down from his role.'
-- person: 119947
-  name: Margaret Cullen
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: evidence-only
-      not_after: '2005-03-06'
-    end:
-      certainty: between
-      not_before: '2006-02-15'
-      not_after: '2006-04-14'
-    notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2006-04-14)'
-  evidence:
-  - kind: proceedings
-    listed_in: 3
-    first: '2005-03-06'
-    last: '2006-02-15'
-    examples:
-    - date: '2005-03-06'
-      subject: IETF 62 proceedings charter
-      url: https://www.ietf.org/proceedings/62/intarea.html
-    - date: '2005-07-10'
-      subject: IETF 63 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/63/intarea.html
-    - date: '2006-02-15'
-      subject: IETF 65 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/65/intarea.html
-  - kind: minutes without them
-    date: '2007-03-18'
-    subject: IETF 68 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/68/minutes/intarea.txt

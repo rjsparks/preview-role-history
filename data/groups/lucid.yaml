@@ -24,8 +24,10 @@ chairs:
     end:
       certainty: between
       not_before: '2015-03-22'
+      not_after: '2015-05-29'
     notes:
-    - 'End: after the BOF''s last session, IETF 92 (2015-03-22)'
+    - 'End: listed as chair in meeting minutes (2015-03-22)'
+    - 'End: the group closed (2015-05-29)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -35,10 +37,6 @@ chairs:
     - date: '2015-03-22'
       subject: IETF 92 minutes in the proceedings
       url: https://www.ietf.org/proceedings/92/minutes/minutes-92-lucid.txt
-  - kind: BOF session
-    meeting: '92'
-    date: '2015-03-22'
-    url: https://www.ietf.org/proceedings/92/lucid.html
   - kind: proceedings
     listed_in: 1
     first: '2015-03-22'
@@ -47,18 +45,25 @@ chairs:
     - date: '2015-03-22'
       subject: IETF 92 proceedings charter
       url: https://www.ietf.org/proceedings/92/lucid.html
+  - kind: BOF session
+    meeting: '92'
+    date: '2015-03-22'
+    url: https://www.ietf.org/proceedings/92/lucid.html
 - person: 19869
   name: Marc Blanchet
   status: confirmed
   periods:
   - start:
-      certainty: approximate
-      date: '2015-02-12'
+      certainty: between
+      not_before: '2015-02-12'
+      not_after: '2015-02-17'
     end:
       certainty: between
-      not_before: '2015-03-22'
+      not_before: '2015-03-30'
+      not_after: '2015-05-29'
     notes:
-    - 'End: after the BOF''s last session, IETF 92 (2015-03-22)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2015-03-30)'
+    - 'End: the group closed (2015-05-29)'
   evidence:
   - kind: chair activity
     first: '2015-03-30'
@@ -76,10 +81,6 @@ chairs:
     - date: '2015-03-22'
       subject: IETF 92 minutes in the proceedings
       url: https://www.ietf.org/proceedings/92/minutes/minutes-92-lucid.txt
-  - kind: BOF session
-    meeting: '92'
-    date: '2015-03-22'
-    url: https://www.ietf.org/proceedings/92/lucid.html
   - kind: proceedings
     listed_in: 1
     first: '2015-03-22'
@@ -88,3 +89,7 @@ chairs:
     - date: '2015-03-22'
       subject: IETF 92 proceedings charter
       url: https://www.ietf.org/proceedings/92/lucid.html
+  - kind: BOF session
+    meeting: '92'
+    date: '2015-03-22'
+    url: https://www.ietf.org/proceedings/92/lucid.html

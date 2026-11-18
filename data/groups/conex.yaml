@@ -5,10 +5,16 @@ parent: tsv
 state: conclude
 started: '2010-01-19'
 closed: '2016-01-21'
-bof: false
+bof: true
 never_chartered: false
 chartered: '2010-06-03'
-bof_sessions: []
+bof_sessions:
+- meeting: '76'
+  date: '2009-11-08'
+  url: https://datatracker.ietf.org/meeting/76/session/conex/
+- meeting: '77'
+  date: '2010-03-21'
+  url: https://datatracker.ietf.org/meeting/77/session/conex/
 history_url: https://datatracker.ietf.org/group/conex/history/
 chairs:
 - person: 105255
@@ -16,9 +22,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-03-21'
+      certainty: between
       not_before: '2010-01-19'
+      not_after: '2010-03-21'
     end:
       certainty: group-closed
       date: '2016-01-21'
@@ -63,10 +69,6 @@ chairs:
     - date: '2015-11-01'
       subject: IETF 94 proceedings charter
       url: https://www.ietf.org/proceedings/94/conex.html
-  - kind: minutes without them
-    date: '2009-11-08'
-    subject: IETF 76 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/76/minutes/conex.txt
   - kind: session requests
     meetings:
     - '78'
@@ -89,7 +91,9 @@ chairs:
       not_before: '2010-03-21'
       not_after: '2010-06-03'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-06-03)'
+    - 'Start: listed as chair in meeting minutes (2009-11-08)'
+    - 'End: requested the group''s session for IETF 77 (2010-03-21)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2010-06-03)'
   evidence:
   - kind: minutes
     listed_in: 2
@@ -130,7 +134,9 @@ chairs:
       not_before: '2010-03-21'
       not_after: '2010-06-03'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-06-03)'
+    - 'Start: listed as chair in meeting minutes (2009-11-08)'
+    - 'End: listed as chair in meeting minutes (2010-03-21)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2010-06-03)'
   evidence:
   - kind: minutes
     listed_in: 2
@@ -160,9 +166,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-03-21'
+      certainty: between
       not_before: '2010-01-19'
+      not_after: '2010-03-21'
     end:
       certainty: group-closed
       date: '2016-01-21'
@@ -207,10 +213,6 @@ chairs:
     - date: '2015-11-01'
       subject: IETF 94 proceedings charter
       url: https://www.ietf.org/proceedings/94/conex.html
-  - kind: minutes without them
-    date: '2009-11-08'
-    subject: IETF 76 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/76/minutes/conex.txt
   - kind: session requests
     meetings:
     - '80'

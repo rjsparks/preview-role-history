@@ -21,11 +21,15 @@ chairs:
   - start:
       certainty: between
       not_before: '2012-06-20'
+      not_after: '2012-07-29'
     end:
       certainty: between
       not_before: '2012-07-29'
+      not_after: '2013-01-31'
     notes:
-    - 'End: after the BOF''s last session, IETF 84 (2012-07-29)'
+    - 'Start: listed as chair in meeting minutes (2012-07-29)'
+    - 'End: listed as chair in meeting minutes (2012-07-29)'
+    - 'End: the group closed (2013-01-31)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -35,10 +39,6 @@ chairs:
     - date: '2012-07-29'
       subject: IETF 84 minutes in the proceedings
       url: https://www.ietf.org/proceedings/84/minutes/minutes-84-dsii.txt
-  - kind: BOF session
-    meeting: '84'
-    date: '2012-07-29'
-    url: https://datatracker.ietf.org/meeting/84/session/dsii/
   - kind: proceedings
     listed_in: 2
     first: '2012-07-29'
@@ -50,6 +50,10 @@ chairs:
     - date: '2012-11-04'
       subject: IETF 85 proceedings charter
       url: https://www.ietf.org/proceedings/85/dsii.html
+  - kind: BOF session
+    meeting: '84'
+    date: '2012-07-29'
+    url: https://datatracker.ietf.org/meeting/84/session/dsii/
 - person: 113697
   name: Beth Plale
   status: confirmed
@@ -57,11 +61,15 @@ chairs:
   - start:
       certainty: between
       not_before: '2012-06-20'
+      not_after: '2012-07-29'
     end:
       certainty: between
       not_before: '2012-07-29'
+      not_after: '2013-01-31'
     notes:
-    - 'End: after the BOF''s last session, IETF 84 (2012-07-29)'
+    - 'Start: listed as chair in meeting minutes (2012-07-29)'
+    - 'End: listed as chair in meeting minutes (2012-07-29)'
+    - 'End: the group closed (2013-01-31)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -71,10 +79,6 @@ chairs:
     - date: '2012-07-29'
       subject: IETF 84 minutes in the proceedings
       url: https://www.ietf.org/proceedings/84/minutes/minutes-84-dsii.txt
-  - kind: BOF session
-    meeting: '84'
-    date: '2012-07-29'
-    url: https://datatracker.ietf.org/meeting/84/session/dsii/
   - kind: proceedings
     listed_in: 2
     first: '2012-07-29'
@@ -86,3 +90,7 @@ chairs:
     - date: '2012-11-04'
       subject: IETF 85 proceedings charter
       url: https://www.ietf.org/proceedings/85/dsii.html
+  - kind: BOF session
+    meeting: '84'
+    date: '2012-07-29'
+    url: https://datatracker.ietf.org/meeting/84/session/dsii/

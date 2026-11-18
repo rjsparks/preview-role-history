@@ -5,10 +5,13 @@ parent: int
 state: conclude
 started: '2005-09-30'
 closed: '2010-06-07'
-bof: false
+bof: true
 never_chartered: false
 chartered: '2006-06-22'
-bof_sessions: []
+bof_sessions:
+- meeting: '65'
+  date: '2006-03-19'
+  url: https://datatracker.ietf.org/meeting/65/session/16ng/
 history_url: https://datatracker.ietf.org/group/16ng/history/
 chairs:
 - person: 107670
@@ -16,9 +19,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2005-10-04'
+      certainty: between
       not_before: '2005-09-30'
+      not_after: '2005-10-04'
     end:
       certainty: group-closed
       date: '2010-06-07'
@@ -87,9 +90,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2005-10-04'
+      certainty: between
       not_before: '2005-09-30'
+      not_after: '2005-10-04'
     end:
       certainty: group-closed
       date: '2010-06-07'

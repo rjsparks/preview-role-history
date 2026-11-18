@@ -21,7 +21,6 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2013-06-20'
-      not_before: '2013-06-20'
     end:
       certainty: approximate
       date: '2013-08-20'
@@ -55,10 +54,6 @@ chairs:
     - date: '2014-11-09'
       subject: IETF 91 minutes in the proceedings
       url: https://www.ietf.org/proceedings/91/minutes/minutes-91-6lo.txt
-  - kind: minutes without them
-    date: '2015-07-19'
-    subject: IETF 93 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/93/minutes/minutes-93-6lo.txt
 - person: 21005
   name: Samita Chakrabarti
   status: confirmed
@@ -205,10 +200,6 @@ chairs:
     - date: '2016-07-17'
       subject: IETF 96 minutes in the proceedings
       url: https://www.ietf.org/proceedings/96/minutes/minutes-96-6lo.txt
-  - kind: minutes without them
-    date: '2014-11-09'
-    subject: IETF 91 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/91/minutes/minutes-91-6lo.txt
   - kind: shepherded
     documents:
     - draft-ietf-6lo-btle
@@ -266,7 +257,6 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2013-06-20'
-      not_before: '2013-06-20'
     end:
       certainty: approximate
       date: '2013-08-20'
@@ -330,10 +320,6 @@ chairs:
     - date: '2014-03-02'
       subject: IETF 89 proceedings charter
       url: https://www.ietf.org/proceedings/89/6lo.html
-  - kind: minutes without them
-    date: '2014-11-09'
-    subject: IETF 91 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/91/minutes/minutes-91-6lo.txt
   - kind: shepherded
     documents:
     - draft-ietf-6lo-ghc

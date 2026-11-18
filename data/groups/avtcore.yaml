@@ -64,10 +64,6 @@ chairs:
     - date: '2021-07-26'
       subject: '[AVTCORE] Draft minutes of the IETF 111 AVTCORE WG Meeting'
       url: https://mailarchive.ietf.org/arch/msg/avt/S6liHcz4Am785_KrKIuuyI738rQ/
-  - kind: minutes without them
-    date: '2016-07-17'
-    subject: IETF 96 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-avtcore.txt
   - kind: shepherded
     documents:
     - draft-dawkins-avtcore-sdp-rtp-quic-issues
@@ -152,13 +148,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-01-25'
-      not_before: '2010-12-02'
+      date: '2010-11-07'
     end:
       certainty: exact
       date: '2017-03-08'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2011-01-25)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
   evidence:
   - kind: WG Action
     date: '2011-01-25'
@@ -216,10 +211,6 @@ chairs:
     - date: '2016-11-13'
       subject: IETF 97 proceedings charter
       url: https://www.ietf.org/proceedings/97/avtcore.html
-  - kind: minutes without them
-    date: '2021-07-26'
-    subject: '[AVTCORE] Draft minutes of the IETF 111 AVTCORE WG Meeting'
-    url: https://mailarchive.ietf.org/arch/msg/avt/S6liHcz4Am785_KrKIuuyI738rQ/
   - kind: session requests
     meetings:
     - '81'
@@ -248,21 +239,22 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-01-25'
-      not_before: '2010-12-02'
+      date: '2010-11-07'
     end:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2013-03-13'
+      not_after: '2011-12-09'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2011-01-25)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
   - start:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2013-03-13'
+      not_after: '2012-06-17'
     end:
       certainty: exact
       date: '2017-03-08'
+    notes:
+    - 'Start: started a last call or adoption call on the group''s list (2012-06-17)'
   - start:
       certainty: exact
       date: '2019-09-20'
@@ -337,10 +329,6 @@ chairs:
     - date: '2016-11-13'
       subject: IETF 97 proceedings charter
       url: https://www.ietf.org/proceedings/97/avtcore.html
-  - kind: minutes without them
-    date: '2021-07-26'
-    subject: '[AVTCORE] Draft minutes of the IETF 111 AVTCORE WG Meeting'
-    url: https://mailarchive.ietf.org/arch/msg/avt/S6liHcz4Am785_KrKIuuyI738rQ/
   - kind: session requests
     meetings:
     - '80'
@@ -408,14 +396,6 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/avtcore.html
-  - kind: minutes without them
-    date: '2016-07-17'
-    subject: IETF 96 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-avtcore.txt
-  - kind: minutes without them
-    date: '2021-07-26'
-    subject: '[AVTCORE] Draft minutes of the IETF 111 AVTCORE WG Meeting'
-    url: https://mailarchive.ietf.org/arch/msg/avt/S6liHcz4Am785_KrKIuuyI738rQ/
 - person: 129844
   name: Marius Kleidl
   status: confirmed

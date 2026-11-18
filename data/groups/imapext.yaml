@@ -19,9 +19,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2000-07-17'
+      certainty: between
       not_before: '1999-10-22'
+      not_after: '2000-07-17'
     end:
       certainty: group-closed
       date: '2008-06-16'
@@ -80,7 +80,7 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2004-03-30'
     end:
       certainty: between
@@ -88,6 +88,7 @@ chairs:
       not_after: '2006-07-09'
     notes:
     - 'Start: announced on the group''s list (2004-03-30)'
+    - 'End: started a last call or adoption call on the group''s list (2005-10-27)'
     - 'End: became an Area Director, first serving at IETF 66 (2006-07-09)'
   evidence:
   - kind: list message

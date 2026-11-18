@@ -17,13 +17,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1997-03-06'
-      not_before: '1992-09-25'
+      date: '1992-08-08'
     end:
       certainty: group-closed
       date: '1999-04-02'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1997-03-06)'
+    - 'Start: listed as chair in meeting minutes (1992-08-08)'
   evidence:
   - kind: chair activity
     first: '1992-12-21'
@@ -63,14 +62,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1998-08-20'
+      certainty: between
       not_before: '1992-09-25'
+      not_after: '1998-05-06'
     end:
       certainty: group-closed
       date: '1999-04-02'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1998-08-20)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (1998-05-06)'
   evidence:
   - kind: chair activity
     first: '1998-05-06'
@@ -88,7 +87,3 @@ chairs:
     - date: '1998-08-20'
       subject: IETF 42 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/42/98aug-92.htm
-  - kind: minutes without them
-    date: '1992-08-08'
-    subject: minutes ups mib bof cambridge july 1992
-    url: https://mailarchive.ietf.org/arch/msg/upsmib/DFhA_8hmmrjk2hIbHw4NWvWvw0o/

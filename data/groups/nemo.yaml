@@ -19,9 +19,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2002-10-21'
+      certainty: between
       not_before: '2002-09-13'
+      not_after: '2002-10-21'
     end:
       certainty: group-closed
       date: '2007-11-20'
@@ -32,10 +32,6 @@ chairs:
     date: '2002-10-21'
     subject: 'WG Action: Review: Network Mobility (nemo)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/aqPvcV1wwqw-tMILBsszxIeKfF0/
-  - kind: WG Review
-    date: '2007-02-21'
-    subject: 'WG Review: Recharter of Network Mobility (nemo)'
-    url: null
   - kind: WG Review
     date: '2007-03-22'
     subject: 'WG Review: Recharter of Network Mobility (nemo)'
@@ -93,19 +89,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2003-02-24'
+      certainty: between
       not_before: '2002-09-13'
+      not_after: '2003-02-24'
     end:
       certainty: group-closed
       date: '2007-11-20'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2003-02-24)'
   evidence:
-  - kind: WG Review
-    date: '2007-02-21'
-    subject: 'WG Review: Recharter of Network Mobility (nemo)'
-    url: null
   - kind: WG Review
     date: '2007-03-22'
     subject: 'WG Review: Recharter of Network Mobility (nemo)'

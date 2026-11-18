@@ -19,9 +19,10 @@ STATUSES = {
 CERTAINTIES = {
     "exact": ("date",),
     "approximate": ("date",),
+    "announced": ("date",),  # dated by an announcement or list message about the change
     "on-or-before": ("date",),
     "between": ("not_before",),
-    "group-closed": ("date",),
+    "group-closed": (),  # date optional: some groups closed without a dated record
     "evidence-only": (),  # start needs not_after, end needs not_before (checked separately)
     "ongoing": (),
 }
@@ -92,7 +93,7 @@ def latest_end(end):
 def firm_start(start):
     """The latest day a firmly dated start could be, or None if it is not firm."""
     f = bound_fields(start)
-    if start.get("certainty") in ("exact", "approximate") and f["date"] and valid_date(f["date"]):
+    if start.get("certainty") in ("exact", "approximate", "announced") and f["date"] and valid_date(f["date"]):
         return latest(f["date"])
     return None
 
@@ -102,7 +103,7 @@ def firm_end(end):
     f = bound_fields(end)
     if end.get("certainty") == "ongoing":
         return datetime.date.max
-    if end.get("certainty") in ("exact", "approximate", "group-closed") and f["date"] and valid_date(f["date"]):
+    if end.get("certainty") in ("exact", "approximate", "announced", "group-closed") and f["date"] and valid_date(f["date"]):
         return earliest(f["date"])
     return None
 
@@ -113,8 +114,10 @@ def describe_start(b):
         return f["date"]
     if c == "approximate":
         return f"about {f['date']}"
+    if c == "announced":
+        return f"{f['date']} (announced)"
     if c == "on-or-before":
-        return f"by {f['date']}"
+        return f"by {f['date']}" + (f", after {f['not_before']}" if f["not_before"] else "")
     if c == "between":
         return f"between {f['not_before']} and {f['not_after']}" if f["not_after"] else f"after {f['not_before']}"
     if c == "evidence-only":
@@ -130,8 +133,10 @@ def describe_end(b):
         return f["date"]
     if c == "approximate":
         return f"about {f['date']}"
+    if c == "announced":
+        return f"{f['date']} (announced)"
     if c == "group-closed":
-        return f"{f['date']} (group closed)"
+        return f"{f['date']} (group closed)" if f["date"] else "group closed (date unknown)"
     if c == "between":
         return f"between {f['not_before']} and {f['not_after']}" if f["not_after"] else f"after {f['not_before']}"
     if c == "evidence-only":
@@ -148,7 +153,7 @@ CHARTER_MARGIN = datetime.timedelta(days=30)  # chairs named at chartering can p
 def latest_start(start):
     """The latest day a start could be, or None if nothing bounds it."""
     f = bound_fields(start)
-    value = f["date"] if start.get("certainty") in ("exact", "approximate", "on-or-before") else f["not_after"]
+    value = f["date"] if start.get("certainty") in ("exact", "approximate", "announced", "on-or-before") else f["not_after"]
     return latest(value) if value and valid_date(value) else None
 
 
@@ -157,7 +162,7 @@ def earliest_end(end):
     if end.get("certainty") == "ongoing":
         return datetime.date.max
     f = bound_fields(end)
-    value = f["date"] if end.get("certainty") in ("exact", "approximate", "group-closed") else f["not_before"]
+    value = f["date"] if end.get("certainty") in ("exact", "approximate", "announced", "group-closed") else f["not_before"]
     return earliest(value) if value and valid_date(value) else None
 
 

@@ -5,10 +5,13 @@ parent: int
 state: conclude
 started: '2008-01-03'
 closed: '2013-02-11'
-bof: false
+bof: true
 never_chartered: false
 chartered: '2008-02-11'
-bof_sessions: []
+bof_sessions:
+- meeting: '70'
+  date: '2007-12-02'
+  url: https://datatracker.ietf.org/meeting/70/session/csi/
 history_url: https://datatracker.ietf.org/group/csi/history/
 chairs:
 - person: 105255
@@ -17,13 +20,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2008-02-13'
-      not_before: '2008-01-03'
+      date: '2007-11-24'
     end:
       certainty: group-closed
       date: '2013-02-11'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2008-02-13)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2007-11-24)'
   evidence:
   - kind: WG Action
     date: '2008-02-13'
@@ -89,9 +91,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2008-02-13'
+      certainty: between
       not_before: '2008-01-03'
+      not_after: '2008-02-13'
     end:
       certainty: group-closed
       date: '2013-02-11'

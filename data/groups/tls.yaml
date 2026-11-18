@@ -23,10 +23,11 @@ chairs:
       not_after: '1997-04-07'
     end:
       certainty: between
-      not_before: '2005-02-11'
+      not_before: '1997-04-07'
       not_after: '2006-02-02'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2006-02-02)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2006-02-02)'
   evidence:
   - kind: proceedings
     listed_in: 15
@@ -43,17 +44,17 @@ chairs:
       subject: IETF 62 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/62/tls.html
   - kind: minutes without them
-    date: '2006-07-09'
-    subject: IETF 66 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/66/minutes/tls.txt
+    date: '2006-02-02'
+    subject: IETF 65 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/65/tls.html
 - person: 12695
   name: Eric Rescorla
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2003-11-14'
+      certainty: between
       not_before: '1996-05-07'
+      not_after: '2003-11-14'
     end:
       certainty: exact
       date: '2014-07-22'
@@ -120,10 +121,6 @@ chairs:
     - date: '2014-03-02'
       subject: IETF 89 proceedings charter
       url: https://www.ietf.org/proceedings/89/tls.html
-  - kind: minutes without them
-    date: '2014-11-09'
-    subject: IETF 91 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/91/minutes/minutes-91-tls.txt
   - kind: session requests
     meetings:
     - '65'
@@ -189,16 +186,16 @@ chairs:
       subject: '[TLS] Drafts minutes for TLS at IETF-100'
       url: https://mailarchive.ietf.org/arch/msg/tls/vjfcOEA-TR0cxXiKOTth7IjSryE/
   - kind: proceedings
-    listed_in: 10
-    first: '2014-03-02'
+    listed_in: 9
+    first: '2014-07-20'
     last: '2017-03-26'
     examples:
-    - date: '2014-03-02'
-      subject: IETF 89 proceedings charter
-      url: https://www.ietf.org/proceedings/89/tls.html
     - date: '2014-07-20'
       subject: IETF 90 proceedings charter
       url: https://www.ietf.org/proceedings/90/tls.html
+    - date: '2014-11-09'
+      subject: IETF 91 proceedings charter
+      url: https://www.ietf.org/proceedings/91/tls.html
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/tls.html
@@ -236,7 +233,7 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2008-05-07'
     end:
       certainty: exact
@@ -360,7 +357,7 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2005-11-11'
     end:
       certainty: between
@@ -368,7 +365,8 @@ chairs:
       not_after: '2008-07-27'
     notes:
     - 'Start: announced on the group''s list (2005-11-11)'
-    - 'End: no longer listed among the chairs in meeting minutes (2008-07-27)'
+    - 'End: requested the group''s session for IETF 71 (2008-03-09)'
+    - 'End: became an Area Director, first serving at IETF 72 (2008-07-27)'
   evidence:
   - kind: WG Action
     date: '2006-01-11'
@@ -428,10 +426,11 @@ chairs:
     - date: '2007-10-01'
       subject: IETF 71 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/71/tls.html
-  - kind: minutes without them
-    date: '2008-07-27'
-    subject: '[TLS] IETF 72 - TLS Working Group Draft Minutes'
-    url: https://mailarchive.ietf.org/arch/msg/tls/_n0YActyK9tW6ESUewjXn4r3bno/
+  - kind: joined the IESG
+    after_meeting: '71'
+    after: '2008-03-09'
+    by_meeting: '72'
+    by: '2008-07-27'
   - kind: session requests
     meetings:
     - '66'
@@ -441,11 +440,6 @@ chairs:
     - '70'
     - '71'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
-  - kind: joined the IESG
-    after_meeting: '71'
-    after: '2008-03-09'
-    by_meeting: '72'
-    by: '2008-07-27'
 - person: 121595
   name: Christopher Wood
   status: confirmed
@@ -499,10 +493,6 @@ chairs:
       subject: '[TLS] Call for Adoption: TLS 1.3 Extension for Certificate-based Authentication with an
         External Pre-Shared Key'
       url: https://mailarchive.ietf.org/arch/msg/tls/6CLZyAPh0hF9PEog2aAIB82wrgs/
-  - kind: minutes without them
-    date: '2017-11-11'
-    subject: '[TLS] Drafts minutes for TLS at IETF-100'
-    url: https://mailarchive.ietf.org/arch/msg/tls/vjfcOEA-TR0cxXiKOTth7IjSryE/
   - kind: shepherded
     documents:
     - draft-ietf-tls-cross-sni-resumption
@@ -517,27 +507,6 @@ chairs:
     end:
       certainty: ongoing
   evidence:
-  - kind: list message
-    date: '2023-11-17'
-    says: end
-    subject: '[TLS] TLS chair update: Deirdre Connolly replacing Christopher Wood'
-    url: https://mailarchive.ietf.org/arch/msg/tls/uCzUOW4KEudNl8X1vSxdtR5TGgs/
-    excerpt: Christopher Wood has stepped down as TLS WG chair and Deirdre Connolly has stepped up to
-      replace him.
-  - kind: list message
-    date: '2023-11-17'
-    says: start
-    subject: '[TLS] TLS chair update: Deirdre Connolly replacing Christopher Wood'
-    url: https://mailarchive.ietf.org/arch/msg/tls/uCzUOW4KEudNl8X1vSxdtR5TGgs/
-    excerpt: Thanks to Chris for all his work and welcome to Deirdre!
-  - kind: list message
-    date: '2025-10-13'
-    says: start
-    subject: '[TLS] Complaint to ADs regarding a declaration of consensus to adopt a non-hybrid draft'
-    url: https://mailarchive.ietf.org/arch/msg/tls/pxFgT-VA6hgdd-cAoIkA_7xS99Y/
-    excerpt: 'This complaint is regarding the following specific action: Joseph Salowey and Sean Turner,
-      in their roles as chairs of an IETF "Working Group" (WG) named "Transport Layer Security" (TLS),
-      declared that the WG had consensus to adopt a draft named "draft-connolly-tls-mlkem-key-agreement".'
   - kind: chair activity
     first: '2023-12-06'
     last: '2024-10-16'
@@ -567,7 +536,9 @@ chairs:
       certainty: evidence-only
       not_before: '2017-11-11'
     notes:
-    - 'Start: not yet listed among the chairs in meeting minutes (2008-03-09)'
+    - 'Start: not listed among the chairs in meeting minutes (2008-03-09)'
+    - 'Start: listed as chair in meeting minutes (2008-07-27)'
+    - 'End: listed as chair in meeting minutes (2017-11-11)'
   evidence:
   - kind: minutes
     listed_in: 11

@@ -22,6 +22,15 @@ chairs:
   status: confirmed
   periods:
   - start:
+      certainty: evidence-only
+      not_after: '2004-08-01'
+    end:
+      certainty: announced
+      date: '2009-04-15'
+    notes:
+    - 'Start: listed as chair in meeting minutes (2004-08-01)'
+    - 'End: announced on the group''s list (2009-04-15)'
+  - start:
       certainty: exact
       date: '2019-01-28'
     end:
@@ -93,6 +102,11 @@ chairs:
     - date: '2007-09-26'
       subject: IETF 71 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/71/pce.html
+  - kind: joined the IESG
+    after_meeting: '74'
+    after: '2009-03-22'
+    by_meeting: '75'
+    by: '2009-07-26'
   - kind: session requests
     meetings:
     - '73'
@@ -111,9 +125,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2004-08-01'
+      certainty: between
       not_before: '2004-03-01'
+      not_after: '2004-08-01'
     end:
       certainty: exact
       date: '2017-08-22'
@@ -204,7 +218,7 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2009-04-15'
     end:
       certainty: ongoing
@@ -237,15 +251,6 @@ chairs:
     subject: '[Pce] Change in Co-chairs'
     url: https://mailarchive.ietf.org/arch/msg/pce/Br8pIxo_NgnQVaOnJS4acNTTDPo/
     excerpt: Julien Meuric has agreed to take Adrian's place as PCE co-chair.
-  - kind: list message
-    date: '2017-08-22'
-    says: start
-    subject: '[Pce] Best Wishes for the future of PCE WG !'
-    url: https://mailarchive.ietf.org/arch/msg/pce/z2V-yc9Pey1KQXmDG9aLn9ZhOn4/
-    excerpt: I would like to warmly thank my friend Adrian whom I started the PCE WG with in 2005 and
-      many years of close collaboration, Julien Meuric who has been a terrific co-chair, and Jonathan
-      who stepped up as new co-chair at light speed, not forgetting Dan for years as secretary and now
-      Dhruv.
   - kind: chair activity
     first: '2010-03-11'
     last: '2025-09-19'
@@ -326,38 +331,6 @@ chairs:
     - draft-ietf-pce-stateful-pce
     - draft-ietf-pce-vendor-constraints
     - draft-ietf-pce-wson-routing-wavelength
-- person: 109558
-  name: Daniel King
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: between
-      not_before: '2014-03-02'
-      not_after: '2014-11-09'
-    end:
-      certainty: between
-      not_before: '2014-11-09'
-      not_after: '2016-04-03'
-    notes:
-    - 'Start: not yet listed among the chairs in meeting minutes (2014-03-02)'
-    - 'End: no longer listed among the chairs in meeting minutes (2016-04-03)'
-  evidence:
-  - kind: minutes
-    listed_in: 1
-    first: '2014-11-09'
-    last: '2014-11-09'
-    examples:
-    - date: '2014-11-09'
-      subject: IETF 91 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/91/minutes/minutes-91-pce.htm
-  - kind: minutes without them
-    date: '2014-03-02'
-    subject: IETF 89 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/89/minutes/minutes-89-pce.html
-  - kind: minutes without them
-    date: '2016-04-03'
-    subject: '[Pce] Draft minutes from PCE WG meeting'
-    url: https://mailarchive.ietf.org/arch/msg/pce/ZPxSFlWJXpta9KMKh3-g9mRvg5U/
 - person: 111477
   name: Dhruv Dhody
   status: confirmed
@@ -382,13 +355,20 @@ chairs:
     subject: '[Pce] Replacing Jon as PCE Co-Chair'
     url: https://mailarchive.ietf.org/arch/msg/pce/RZSN_XWhThON5i-s1ei1tBHIkGE/
     excerpt: Welcome to both Dhruv and Adrian!
-  - kind: list message
-    date: '2019-09-11'
-    says: start
-    subject: '[Pce] Adrian stepping down as PCE co-chair'
-    url: https://mailarchive.ietf.org/arch/msg/pce/CMdFGg_Ttggr63pDpDjH5uP0h-o/
-    excerpt: As we noted earlier, Adrian stepped in to help us with the PCE document queue and help bring
-      Dhruv on as a new chair.
+  - kind: chair activity
+    first: '2019-02-22'
+    last: '2025-11-09'
+    messages: 18
+    examples:
+    - date: '2019-02-22'
+      subject: '[Pce] WG Adoption Call for draft-negi-pce-segment-routing-ipv6'
+      url: https://mailarchive.ietf.org/arch/msg/pce/xq5LlVi6jzMYHHnvMnMamB8YXQE/
+    - date: '2019-08-20'
+      subject: '[Pce] WG adoption poll for draft-sivabalan-pce-binding-label-sid-07'
+      url: https://mailarchive.ietf.org/arch/msg/pce/JU4_2tkL6C5Hk4VLDyl7xsPwxF0/
+    - date: '2020-06-07'
+      subject: '[Pce] WG adoption poll for draft-barth-pce-segment-routing-policy-cp-06'
+      url: https://mailarchive.ietf.org/arch/msg/pce/MdyThSBrMcw8WcK3BFFVC3dPr5o/
   - kind: shepherded
     documents:
     - draft-ietf-pce-association-bidir
@@ -404,38 +384,6 @@ chairs:
     - draft-ietf-pce-sr-bidir-path
     - draft-ietf-pce-stateful-pce-optional
     - draft-ietf-pce-stateful-pce-vendor
-- person: 111837
-  name: Ramon Casellas
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: between
-      not_before: '2014-03-02'
-      not_after: '2014-11-09'
-    end:
-      certainty: between
-      not_before: '2014-11-09'
-      not_after: '2016-04-03'
-    notes:
-    - 'Start: not yet listed among the chairs in meeting minutes (2014-03-02)'
-    - 'End: no longer listed among the chairs in meeting minutes (2016-04-03)'
-  evidence:
-  - kind: minutes
-    listed_in: 1
-    first: '2014-11-09'
-    last: '2014-11-09'
-    examples:
-    - date: '2014-11-09'
-      subject: IETF 91 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/91/minutes/minutes-91-pce.htm
-  - kind: minutes without them
-    date: '2014-03-02'
-    subject: IETF 89 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/89/minutes/minutes-89-pce.html
-  - kind: minutes without them
-    date: '2016-04-03'
-    subject: '[Pce] Draft minutes from PCE WG meeting'
-    url: https://mailarchive.ietf.org/arch/msg/pce/ZPxSFlWJXpta9KMKh3-g9mRvg5U/
 - person: 113543
   name: Jonathan Hardwick
   status: confirmed
@@ -493,10 +441,6 @@ chairs:
     - date: '2017-03-26'
       subject: '[Pce] PCE WG meeting minutes available'
       url: https://mailarchive.ietf.org/arch/msg/pce/JgPawTQjdJunPcchj9WWFL7vqkU/
-  - kind: minutes without them
-    date: '2014-11-09'
-    subject: IETF 91 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/91/minutes/minutes-91-pce.htm
   - kind: shepherded
     documents:
     - draft-ietf-pce-inter-area-as-applicability

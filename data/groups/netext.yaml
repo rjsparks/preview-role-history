@@ -5,10 +5,13 @@ parent: int
 state: conclude
 started: '2009-04-03'
 closed: '2016-05-11'
-bof: false
+bof: true
 never_chartered: false
 chartered: '2009-05-19'
-bof_sessions: []
+bof_sessions:
+- meeting: '74'
+  date: '2009-03-22'
+  url: https://datatracker.ietf.org/meeting/74/session/netext/
 history_url: https://datatracker.ietf.org/group/netext/history/
 chairs:
 - person: 101214
@@ -17,13 +20,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2009-05-20'
-      not_before: '2009-04-03'
+      date: '2009-03-22'
     end:
       certainty: group-closed
       date: '2016-05-11'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2009-05-20)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2009-03-22)'
   evidence:
   - kind: WG Action
     date: '2009-05-20'
@@ -78,13 +80,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2009-05-20'
-      not_before: '2009-04-03'
+      date: '2009-03-22'
     end:
       certainty: group-closed
       date: '2016-05-11'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2009-05-20)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2009-03-22)'
   evidence:
   - kind: WG Action
     date: '2009-05-20'

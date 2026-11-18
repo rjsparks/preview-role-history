@@ -16,14 +16,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1993-04-08'
+      certainty: between
       not_before: '1993-02-08'
+      not_after: '1993-03-27'
     end:
       certainty: group-closed
       date: '1995-03-07'
     notes:
-    - 'Start: listed as chair in meeting minutes (1993-04-08)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (1993-03-27)'
   evidence:
   - kind: chair activity
     first: '1993-03-27'
@@ -36,20 +36,6 @@ chairs:
     - date: '1993-04-09'
       subject: Draft minutes for Columbus AAC BOF
       url: https://mailarchive.ietf.org/arch/msg/aac/CUVKVwZ-FPn638bjxjyII7yHDdY/
-  - kind: minutes
-    listed_in: 5
-    first: '1993-04-08'
-    last: '1993-11-21'
-    examples:
-    - date: '1993-04-08'
-      subject: Draft minutes for Columbus AAC BOF
-      url: https://mailarchive.ietf.org/arch/msg/aac/CUVKVwZ-FPn638bjxjyII7yHDdY/
-    - date: '1993-04-16'
-      subject: Minutes of Columbus Authorization and Access Control BOF
-      url: https://mailarchive.ietf.org/arch/msg/aac/-hBiFILQP-sYk4it1kI-8c20ZsE/
-    - date: '1993-11-21'
-      subject: Minutes from Houston
-      url: https://mailarchive.ietf.org/arch/msg/aac/mlKVDlGQwMF7LXCGaQwu5VrW3uU/
   - kind: proceedings
     listed_in: 2
     first: '1994-03-28'

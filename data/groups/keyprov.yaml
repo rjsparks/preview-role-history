@@ -5,10 +5,13 @@ parent: sec
 state: conclude
 started: '2007-01-16'
 closed: '2010-12-21'
-bof: false
+bof: true
 never_chartered: false
 chartered: '2007-01-25'
-bof_sessions: []
+bof_sessions:
+- meeting: '67'
+  date: '2006-11-05'
+  url: https://datatracker.ietf.org/meeting/67/session/keyprov/
 history_url: https://datatracker.ietf.org/group/keyprov/history/
 chairs:
 - person: 105857
@@ -16,9 +19,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2007-01-30'
+      certainty: between
       not_before: '2007-01-16'
+      not_after: '2007-01-30'
     end:
       certainty: group-closed
       date: '2010-12-21'
@@ -89,13 +92,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2007-01-30'
-      not_before: '2007-01-16'
+      date: '2006-10-17'
     end:
       certainty: group-closed
       date: '2010-12-21'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2007-01-30)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2006-10-17)'
   evidence:
   - kind: WG Action
     date: '2007-01-30'

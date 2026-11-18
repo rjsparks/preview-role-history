@@ -20,11 +20,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2015-02-12'
-      not_before: '2015-02-12'
+      date: '2014-07-20'
     end:
       certainty: exact
       date: '2021-07-09'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   evidence:
   - kind: WG Review
     date: '2015-06-12'
@@ -116,11 +117,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2015-02-12'
-      not_before: '2015-02-12'
+      date: '2014-07-20'
     end:
       certainty: exact
       date: '2017-09-07'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   evidence:
   - kind: WG Review
     date: '2015-06-12'
@@ -213,19 +215,15 @@ chairs:
     - date: '2022-05-26'
       subject: '[Acme] WG Last Call for draft-ietf-acme-subdomains-03'
       url: https://mailarchive.ietf.org/arch/msg/acme/MDc7dJunVK0_lKQptf4bCSbmsyk/
-  - kind: minutes without them
-    date: '2016-11-13'
-    subject: '[Acme] Draft Minutes (and Memes)'
-    url: https://mailarchive.ietf.org/arch/msg/acme/jnvG-_jv7qII47D3X6aomUPWqgE/
-  - kind: shepherded
-    documents:
-    - draft-ietf-acme-integrations
-    - draft-ietf-acme-subdomains
   - kind: joined the IESG
     after_meeting: '119'
     after: '2024-03-16'
     by_meeting: '120'
     by: '2024-07-20'
+  - kind: shepherded
+    documents:
+    - draft-ietf-acme-integrations
+    - draft-ietf-acme-subdomains
 - person: 124414
   name: Mike Ounsworth
   status: confirmed
@@ -290,7 +288,3 @@ chairs:
     - date: '2024-08-16'
       subject: '[Acme] WG Last Call for draft-ietf-acme-onion-02'
       url: https://mailarchive.ietf.org/arch/msg/acme/0DGvqwUvV5f5axYbKcrHBbPiWwM/
-  - kind: minutes without them
-    date: '2016-11-13'
-    subject: '[Acme] Draft Minutes (and Memes)'
-    url: https://mailarchive.ietf.org/arch/msg/acme/jnvG-_jv7qII47D3X6aomUPWqgE/

@@ -23,11 +23,7 @@ chairs:
       date: '1997-01-01'
     end:
       certainty: between
-      not_before: '2003-03-16'
+      not_before: '1997-01-01'
+      not_after: '1997-01-01'
     notes:
-    - 'End: after the BOF''s last session, IETF 56 (2003-03-16)'
-  evidence:
-  - kind: BOF session
-    meeting: '56'
-    date: '2003-03-16'
-    url: https://www.ietf.org/proceedings/56/178.htm
+    - 'End: the group closed (1997-01-01)'

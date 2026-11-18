@@ -5,10 +5,13 @@ parent: tsv
 state: conclude
 started: '2007-02-07'
 closed: '2012-07-19'
-bof: false
+bof: true
 never_chartered: false
 chartered: '2007-02-23'
-bof_sessions: []
+bof_sessions:
+- meeting: '67'
+  date: '2006-11-05'
+  url: https://datatracker.ietf.org/meeting/67/session/pcn/
 history_url: https://datatracker.ietf.org/group/pcn/history/
 chairs:
 - person: 2324
@@ -17,13 +20,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2007-03-18'
-      not_before: '2007-02-07'
+      date: '2006-10-31'
     end:
       certainty: group-closed
       date: '2012-07-19'
     notes:
-    - 'Start: listed as chair in meeting minutes (2007-03-18)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2006-10-31)'
   evidence:
   - kind: chair activity
     first: '2008-03-31'
@@ -90,7 +92,8 @@ chairs:
       not_before: '2006-10-31'
       not_after: '2007-02-28'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2007-02-28)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2006-10-31)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2007-02-28)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -101,17 +104,17 @@ chairs:
       subject: IETF 67 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/67/pcn.html
   - kind: minutes without them
-    date: '2007-03-18'
-    subject: '[PCN] Preliminary minutes from IETF 68 meeting'
-    url: https://mailarchive.ietf.org/arch/msg/pcn/fEVK56NjgXN56Ux2j-OL79Q0LOM/
+    date: '2007-02-28'
+    subject: IETF 68 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/68/pcn.html
 - person: 106638
   name: Steven Blake
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2007-02-28'
+      certainty: between
       not_before: '2007-02-07'
+      not_after: '2007-02-28'
     end:
       certainty: group-closed
       date: '2012-07-19'

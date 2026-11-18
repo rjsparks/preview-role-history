@@ -22,13 +22,24 @@ chairs:
   status: confirmed
   periods:
   - start:
+      certainty: evidence-only
+      not_after: '2015-07-19'
+    end:
+      certainty: between
+      not_before: '2015-07-19'
+      not_after: '2015-11-01'
+    notes:
+    - 'Start: the BOF met at IETF 93 (2015-07-19)'
+    - 'End: the BOF met at IETF 93 (2015-07-19)'
+  - start:
       certainty: exact
       date: '2015-11-01'
     end:
       certainty: between
       not_before: '2015-11-01'
+      not_after: '2016-02-26'
     notes:
-    - 'End: after the BOF''s last session, IETF 94 (2015-11-01)'
+    - 'End: the group closed (2016-02-26)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -38,14 +49,6 @@ chairs:
     - date: '2015-11-01'
       subject: IETF 94 minutes in the proceedings
       url: https://www.ietf.org/proceedings/94/minutes/minutes-94-iss.txt
-  - kind: BOF session
-    meeting: '93'
-    date: '2015-07-19'
-    url: https://www.ietf.org/proceedings/93/iss.html
-  - kind: BOF session
-    meeting: '94'
-    date: '2015-11-01'
-    url: https://www.ietf.org/proceedings/94/iss.html
   - kind: proceedings
     listed_in: 1
     first: '2015-11-01'
@@ -54,18 +57,6 @@ chairs:
     - date: '2015-11-01'
       subject: IETF 94 proceedings charter
       url: https://www.ietf.org/proceedings/94/iss.html
-- person: 103881
-  name: Mark Nottingham
-  status: confirmed
-  periods:
-  - start:
-      certainty: on-or-before
-      date: '2015-09-22'
-      not_before: '2015-09-22'
-    end:
-      certainty: exact
-      date: '2015-11-01'
-  evidence:
   - kind: BOF session
     meeting: '93'
     date: '2015-07-19'
@@ -74,6 +65,19 @@ chairs:
     meeting: '94'
     date: '2015-11-01'
     url: https://www.ietf.org/proceedings/94/iss.html
+- person: 103881
+  name: Mark Nottingham
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2015-07-19'
+    end:
+      certainty: exact
+      date: '2015-11-01'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2015-07-19)'
+  evidence:
   - kind: proceedings
     listed_in: 1
     first: '2015-07-19'
@@ -82,19 +86,29 @@ chairs:
     - date: '2015-07-19'
       subject: IETF 93 proceedings charter
       url: https://www.ietf.org/proceedings/93/iss.html
+  - kind: BOF session
+    meeting: '93'
+    date: '2015-07-19'
+    url: https://www.ietf.org/proceedings/93/iss.html
+  - kind: BOF session
+    meeting: '94'
+    date: '2015-11-01'
+    url: https://www.ietf.org/proceedings/94/iss.html
 - person: 108848
   name: Yong Cui
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2015-09-22'
-      not_before: '2015-09-22'
+      date: '2015-07-19'
     end:
       certainty: between
       not_before: '2015-11-01'
+      not_after: '2016-02-26'
     notes:
-    - 'End: after the BOF''s last session, IETF 94 (2015-11-01)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2015-07-19)'
+    - 'End: listed as chair in meeting minutes (2015-11-01)'
+    - 'End: the group closed (2016-02-26)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -104,14 +118,6 @@ chairs:
     - date: '2015-11-01'
       subject: IETF 94 minutes in the proceedings
       url: https://www.ietf.org/proceedings/94/minutes/minutes-94-iss.txt
-  - kind: BOF session
-    meeting: '93'
-    date: '2015-07-19'
-    url: https://www.ietf.org/proceedings/93/iss.html
-  - kind: BOF session
-    meeting: '94'
-    date: '2015-11-01'
-    url: https://www.ietf.org/proceedings/94/iss.html
   - kind: proceedings
     listed_in: 2
     first: '2015-07-19'
@@ -123,3 +129,11 @@ chairs:
     - date: '2015-11-01'
       subject: IETF 94 proceedings charter
       url: https://www.ietf.org/proceedings/94/iss.html
+  - kind: BOF session
+    meeting: '93'
+    date: '2015-07-19'
+    url: https://www.ietf.org/proceedings/93/iss.html
+  - kind: BOF session
+    meeting: '94'
+    date: '2015-11-01'
+    url: https://www.ietf.org/proceedings/94/iss.html

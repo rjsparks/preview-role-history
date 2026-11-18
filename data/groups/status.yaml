@@ -26,7 +26,7 @@ chairs:
       certainty: approximate
       date: '2021-03-11'
     notes:
-    - 'Start: the BOF met at IETF 87 (2013-07-28)'
+    - 'Start: listed as chair in meeting minutes (2013-07-28)'
     - 'End: became an Area Director, per the datatracker''s IESG roles (2021-03-11)'
   evidence:
   - kind: minutes
@@ -37,10 +37,6 @@ chairs:
     - date: '2013-07-28'
       subject: IETF 87 minutes in the proceedings
       url: https://www.ietf.org/proceedings/87/minutes/minutes-87-status.html
-  - kind: BOF session
-    meeting: '87'
-    date: '2013-07-28'
-    url: https://datatracker.ietf.org/meeting/87/session/status/
   - kind: proceedings
     listed_in: 1
     first: '2013-07-28'
@@ -49,6 +45,10 @@ chairs:
     - date: '2013-07-28'
       subject: IETF 87 proceedings charter
       url: https://www.ietf.org/proceedings/87/status.html
+  - kind: BOF session
+    meeting: '87'
+    date: '2013-07-28'
+    url: https://datatracker.ietf.org/meeting/87/session/status/
   - kind: joined the IESG
     after_meeting: '110'
     after: '2021-03-08'
@@ -67,7 +67,8 @@ chairs:
       not_before: '2013-07-28'
       not_after: '2015-07-19'
     notes:
-    - 'Start: the BOF met at IETF 87 (2013-07-28)'
+    - 'Start: listed as chair in meeting minutes (2013-07-28)'
+    - 'End: listed as chair in meeting minutes (2013-07-28)'
     - 'End: became an Area Director, first serving at IETF 93 (2015-07-19)'
   evidence:
   - kind: minutes
@@ -78,10 +79,6 @@ chairs:
     - date: '2013-07-28'
       subject: IETF 87 minutes in the proceedings
       url: https://www.ietf.org/proceedings/87/minutes/minutes-87-status.html
-  - kind: BOF session
-    meeting: '87'
-    date: '2013-07-28'
-    url: https://datatracker.ietf.org/meeting/87/session/status/
   - kind: proceedings
     listed_in: 1
     first: '2013-07-28'
@@ -90,6 +87,10 @@ chairs:
     - date: '2013-07-28'
       subject: IETF 87 proceedings charter
       url: https://www.ietf.org/proceedings/87/status.html
+  - kind: BOF session
+    meeting: '87'
+    date: '2013-07-28'
+    url: https://datatracker.ietf.org/meeting/87/session/status/
   - kind: joined the IESG
     after_meeting: '92'
     after: '2015-03-22'

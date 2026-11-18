@@ -22,8 +22,13 @@ chairs:
       certainty: evidence-only
       not_after: '2007-07-22'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2007-07-22'
+      not_after: '2007-07-30'
+    notes:
+    - 'Start: listed as chair in meeting minutes (2007-07-22)'
+    - 'End: listed as chair in meeting minutes (2007-07-22)'
+    - 'End: the group closed (2007-07-30)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -47,9 +52,11 @@ chairs:
     end:
       certainty: between
       not_before: '2007-07-22'
+      not_after: '2007-07-30'
     notes:
-    - 'End: after the BOF''s last session, IETF 69 (2007-07-22)'
     - 'Start: listed as chair in a proceedings charter snapshot (2007-06-05)'
+    - 'End: listed as chair in meeting minutes (2007-07-22)'
+    - 'End: the group closed (2007-07-30)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -59,10 +66,6 @@ chairs:
     - date: '2007-07-22'
       subject: IETF 69 minutes in the proceedings
       url: https://www.ietf.org/proceedings/69/minutes/nee.txt
-  - kind: BOF session
-    meeting: '69'
-    date: '2007-07-22'
-    url: https://datatracker.ietf.org/meeting/69/session/nee/
   - kind: proceedings
     listed_in: 1
     first: '2007-06-05'
@@ -71,3 +74,7 @@ chairs:
     - date: '2007-06-05'
       subject: IETF 69 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/69/nee.html
+  - kind: BOF session
+    meeting: '69'
+    date: '2007-07-22'
+    url: https://datatracker.ietf.org/meeting/69/session/nee/

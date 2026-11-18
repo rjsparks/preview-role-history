@@ -19,9 +19,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2006-07-25'
+      certainty: between
       not_before: '2005-06-16'
+      not_after: '2006-07-25'
     end:
       certainty: group-closed
       date: '2010-12-10'
@@ -91,10 +91,11 @@ chairs:
       not_after: '2005-07-27'
     end:
       certainty: between
-      not_before: '2005-11-11'
+      not_before: '2005-07-28'
       not_after: '2006-07-09'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2006-07-26)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2005-07-27)'
+    - 'End: named as chair in the WG Action announcement (2005-07-28)'
     - 'End: became an Area Director, first serving at IETF 66 (2006-07-09)'
   evidence:
   - kind: WG Action
@@ -115,10 +116,6 @@ chairs:
     - date: '2005-11-11'
       subject: IETF 65 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/65/calsify.html
-  - kind: minutes without them
-    date: '2007-03-18'
-    subject: IETF 68 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/68/minutes/calsify.txt
   - kind: joined the IESG
     after_meeting: '65'
     after: '2006-03-19'
@@ -136,7 +133,8 @@ chairs:
       not_before: '2005-02-02'
       not_after: '2005-07-27'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2005-07-27)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2005-02-02)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2005-07-27)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -147,9 +145,9 @@ chairs:
       subject: IETF 62 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/62/calsify.html
   - kind: minutes without them
-    date: '2007-03-18'
-    subject: IETF 68 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/68/minutes/calsify.txt
+    date: '2005-07-27'
+    subject: IETF 63 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/63/calsify.html
 - person: 104380
   name: Morgan Rl
   status: unconfirmed
@@ -162,7 +160,8 @@ chairs:
       not_before: '2005-02-02'
       not_after: '2005-07-27'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2005-07-27)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2005-02-02)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2005-07-27)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -173,9 +172,9 @@ chairs:
       subject: IETF 62 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/62/calsify.html
   - kind: minutes without them
-    date: '2007-03-18'
-    subject: IETF 68 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/68/minutes/calsify.txt
+    date: '2005-07-27'
+    subject: IETF 63 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/63/calsify.html
 - person: 105274
   name: Aki Niemi
   status: unconfirmed
@@ -184,8 +183,13 @@ chairs:
       certainty: evidence-only
       not_after: '2005-07-27'
     end:
-      certainty: evidence-only
-      not_before: '2008-04-23'
+      certainty: between
+      not_before: '2008-04-14'
+      not_after: '2010-12-10'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2005-07-27)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2008-04-14)'
+    - 'End: the group closed (2010-12-10)'
   evidence:
   - kind: WG Action
     date: '2005-07-28'

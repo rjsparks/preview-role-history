@@ -23,7 +23,8 @@ chairs:
       not_before: '2006-02-16'
       not_after: '2006-10-24'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2006-10-24)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2006-02-16)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2006-10-24)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -34,9 +35,9 @@ chairs:
       subject: IETF 65 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/65/p2p-sip.html
   - kind: minutes without them
-    date: '2006-11-05'
-    subject: IETF 67 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/67/minutes/p2p-sip.txt
+    date: '2006-10-24'
+    subject: IETF 67 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/67/p2p-sip.html
 - person: 106438
   name: David Bryan
   status: confirmed

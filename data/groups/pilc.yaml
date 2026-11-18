@@ -29,7 +29,9 @@ chairs:
       not_before: '2000-10-17'
       not_after: '2001-03-14'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2001-03-14)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (1999-01-06)'
+    - 'End: started a last call or adoption call on the group''s list (2000-10-17)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2001-03-14)'
   evidence:
   - kind: chair activity
     first: '1999-01-06'
@@ -57,22 +59,21 @@ chairs:
       subject: draft PILC minutes
       url: https://mailarchive.ietf.org/arch/msg/pilc/7ABaLip5Jr545A21fs87oaJNqbQ/
   - kind: minutes without them
-    date: '2001-08-05'
-    subject: LAST-minute PILC IETF 51 minutes review
-    url: https://mailarchive.ietf.org/arch/msg/pilc/Su9DcGz601SEVvsteyTTUGnEaHw/
+    date: '2001-03-14'
+    subject: IETF 50 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/50/ietf50-149.htm
 - person: 21226
   name: Aaron Falk
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '1999-06-15'
-      not_before: '1999-04-02'
+      date: '1999-03-14'
     end:
       certainty: group-closed
       date: '2004-01-08'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1999-06-15)'
+    - 'Start: listed as chair in meeting minutes (1999-03-14)'
   evidence:
   - kind: chair activity
     first: '2002-01-12'
@@ -116,13 +117,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1999-04-28'
-      not_before: '1999-04-02'
+      date: '1999-03-14'
     end:
       certainty: group-closed
       date: '2004-01-08'
     notes:
-    - 'Start: named as chair in the WG Action announcement (1999-04-28)'
+    - 'Start: listed as chair in meeting minutes (1999-03-14)'
   evidence:
   - kind: WG Action
     date: '1999-04-28'

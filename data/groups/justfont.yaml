@@ -17,11 +17,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2015-11-05'
-      not_before: '2015-11-05'
+      date: '2015-11-01'
     end:
       certainty: group-closed
       date: '2017-03-01'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2015-11-01)'
   evidence:
   - kind: WG Review
     date: '2015-12-04'
@@ -51,11 +52,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2015-11-05'
-      not_before: '2015-11-05'
+      date: '2015-11-01'
     end:
       certainty: group-closed
       date: '2017-03-01'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2015-11-01)'
   evidence:
   - kind: WG Review
     date: '2015-12-04'

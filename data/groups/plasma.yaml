@@ -25,20 +25,10 @@ chairs:
       certainty: on-or-before
       date: '2010-11-07'
     end:
-      certainty: between
-      not_before: '2011-03-27'
+      certainty: group-closed
     notes:
-    - 'Start: the BOF met at IETF 79 (2010-11-07)'
-    - 'End: after the BOF''s last session, IETF 80 (2011-03-27)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
   evidence:
-  - kind: BOF session
-    meeting: '79'
-    date: '2010-11-07'
-    url: https://www.ietf.org/proceedings/79/plasma.html
-  - kind: BOF session
-    meeting: '80'
-    date: '2011-03-27'
-    url: https://www.ietf.org/proceedings/80/plasma.html
   - kind: proceedings
     listed_in: 2
     first: '2010-11-07'
@@ -50,6 +40,14 @@ chairs:
     - date: '2011-03-27'
       subject: IETF 80 proceedings charter
       url: https://www.ietf.org/proceedings/80/plasma.html
+  - kind: BOF session
+    meeting: '79'
+    date: '2010-11-07'
+    url: https://www.ietf.org/proceedings/79/plasma.html
+  - kind: BOF session
+    meeting: '80'
+    date: '2011-03-27'
+    url: https://www.ietf.org/proceedings/80/plasma.html
   - kind: session requests
     meetings:
     - '80'
@@ -63,10 +61,11 @@ chairs:
       date: '2010-11-07'
     end:
       certainty: between
-      not_before: '2011-03-27'
+      not_before: '2011-04-22'
       not_after: '2016-07-17'
     notes:
-    - 'Start: the BOF met at IETF 79 (2010-11-07)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2011-04-22)'
     - 'End: became an Area Director, first serving at IETF 96 (2016-07-17)'
   evidence:
   - kind: chair activity
@@ -77,14 +76,6 @@ chairs:
     - date: '2011-04-22'
       subject: '[plasma] Minutes for the PLASMA BOF in Prague'
       url: https://mailarchive.ietf.org/arch/msg/plasma/d515wR56bbYeOjZH9Gtk9Y0bHcM/
-  - kind: BOF session
-    meeting: '79'
-    date: '2010-11-07'
-    url: https://www.ietf.org/proceedings/79/plasma.html
-  - kind: BOF session
-    meeting: '80'
-    date: '2011-03-27'
-    url: https://www.ietf.org/proceedings/80/plasma.html
   - kind: proceedings
     listed_in: 2
     first: '2010-11-07'
@@ -96,6 +87,14 @@ chairs:
     - date: '2011-03-27'
       subject: IETF 80 proceedings charter
       url: https://www.ietf.org/proceedings/80/plasma.html
+  - kind: BOF session
+    meeting: '79'
+    date: '2010-11-07'
+    url: https://www.ietf.org/proceedings/79/plasma.html
+  - kind: BOF session
+    meeting: '80'
+    date: '2011-03-27'
+    url: https://www.ietf.org/proceedings/80/plasma.html
   - kind: joined the IESG
     after_meeting: '95'
     after: '2016-04-03'

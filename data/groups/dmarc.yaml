@@ -124,12 +124,6 @@ chairs:
     date: '2026-04-16'
     subject: 'WG Action: Rechartered Domain-based Message Authentication, Reporting & Conformance (dmarc)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/lSRQPcP4Lm2mJsCbSs7TGG7lKek/
-  - kind: list message
-    date: '2021-04-14'
-    says: end
-    subject: '[dmarc-ietf] Chair rotation'
-    url: https://mailarchive.ietf.org/arch/msg/dmarc/fMH-y8EV3yw_BBS9CzWyel3Nvac/
-    excerpt: As Barry has stepped down from the IESG, he's available to re-engage in other roles.
   - kind: chair activity
     first: '2017-07-20'
     last: '2023-07-06'
@@ -151,24 +145,21 @@ chairs:
       subject: '[dmarc-ietf] WGLC on draft-ietf-dmarc-arc-protocol-16'
       url: https://mailarchive.ietf.org/arch/msg/dmarc/BDeQazPsFWekB5qlHiVq7N0SGv8/
   - kind: proceedings
-    listed_in: 2
-    first: '2016-04-03'
+    listed_in: 1
+    first: '2016-07-17'
     last: '2016-07-17'
     examples:
-    - date: '2016-04-03'
-      subject: IETF 95 proceedings charter
-      url: https://www.ietf.org/proceedings/95/dmarc.html
     - date: '2016-07-17'
       subject: IETF 96 proceedings charter
       url: https://www.ietf.org/proceedings/96/dmarc.html
-  - kind: shepherded
-    documents:
-    - draft-ietf-dmarc-aggregate-reporting
   - kind: joined the IESG
     after_meeting: '104'
     after: '2019-03-23'
     by_meeting: '105'
     by: '2019-07-20'
+  - kind: shepherded
+    documents:
+    - draft-ietf-dmarc-aggregate-reporting
 - person: 102154
   name: Alexey Melnikov
   status: confirmed
@@ -210,14 +201,14 @@ chairs:
     - date: '2019-06-26'
       subject: '[dmarc-ietf] Working Group Last Call: draft-ietf-dmarc-psd'
       url: https://mailarchive.ietf.org/arch/msg/dmarc/Fr_R22oKe7Rc2I32AH_aZQpWPlI/
-  - kind: shepherded
-    documents:
-    - draft-ietf-dmarc-failure-reporting
   - kind: joined the IESG
     after_meeting: '107'
     after: '2020-03-23'
     by_meeting: '108'
     by: '2020-07-27'
+  - kind: shepherded
+    documents:
+    - draft-ietf-dmarc-failure-reporting
 - person: 115244
   name: Tim Wicinski
   status: confirmed
@@ -303,6 +294,16 @@ chairs:
   status: confirmed
   periods:
   - start:
+      certainty: evidence-only
+      not_after: '2018-07-25'
+    end:
+      certainty: between
+      not_before: '2018-07-25'
+      not_after: '2020-03-05'
+    notes:
+    - 'Start: started a last call or adoption call on the group''s list (2018-07-25)'
+    - 'End: started a last call or adoption call on the group''s list (2018-07-25)'
+  - start:
       certainty: exact
       date: '2020-03-05'
     end:
@@ -317,3 +318,17 @@ chairs:
     date: '2025-06-05'
     subject: 'WG Action: Rechartered Domain-based Message Authentication, Reporting & Conformance (dmarc)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/OHRqFhjKVatgSChcKB3_3UHEB8U/
+  - kind: chair activity
+    first: '2018-07-25'
+    last: '2024-04-01'
+    messages: 4
+    examples:
+    - date: '2018-07-25'
+      subject: '[dmarc-ietf] WGLC ARC-16 concern on Section 5.1.2 - cv=fail should sign greedily'
+      url: https://mailarchive.ietf.org/arch/msg/dmarc/ZXw_6xNsexXmfC0K-ctjWkg2xQ0/
+    - date: '2018-07-25'
+      subject: '[dmarc-ietf] WGLC ARC-16 minor change to Section 7.2.2 for DMARC Reporting'
+      url: https://mailarchive.ietf.org/arch/msg/dmarc/a6v4X_OfHGdlJhUF3GFxXnJ73_4/
+    - date: '2018-07-25'
+      subject: '[dmarc-ietf] WGLC ARC-16 section 5.2.2 should be stricken'
+      url: https://mailarchive.ietf.org/arch/msg/dmarc/uJls75ej1YNG1K7afqhfF95T3Fg/

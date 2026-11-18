@@ -23,7 +23,9 @@ chairs:
       not_before: '2009-08-04'
       not_after: '2009-08-10'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-08-10)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2009-07-17)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2009-08-04)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2009-08-10)'
   evidence:
   - kind: chair activity
     first: '2009-07-17'
@@ -60,10 +62,11 @@ chairs:
       not_after: '2009-01-21'
     end:
       certainty: between
-      not_before: '2009-08-10'
-      not_after: '2010-03-21'
+      not_before: '2009-01-21'
+      not_after: '2010-06-03'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-03-21)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2009-01-21)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2010-06-03)'
   evidence:
   - kind: proceedings
     listed_in: 2
@@ -77,17 +80,17 @@ chairs:
       subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/ledbat.html
   - kind: minutes without them
-    date: '2010-03-21'
-    subject: IETF 77 proceedings charter
-    url: https://www.ietf.org/proceedings/77/ledbat.html
+    date: '2010-06-03'
+    subject: IETF 78 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/78/ledbat.html
 - person: 109727
   name: Murari Sridharan
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2009-01-21'
+      certainty: between
       not_before: '2008-10-30'
+      not_after: '2009-01-21'
     end:
       certainty: group-closed
       date: '2012-12-20'
@@ -146,15 +149,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-03-21'
-      not_before: '2009-07-26'
+      certainty: between
+      not_before: '2008-10-30'
+      not_after: '2010-03-21'
     end:
       certainty: group-closed
       date: '2012-12-20'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2010-03-21)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2009-07-26)'
   evidence:
   - kind: chair activity
     first: '2010-10-13'
@@ -187,7 +189,3 @@ chairs:
     - date: '2012-07-29'
       subject: IETF 84 proceedings charter
       url: https://www.ietf.org/proceedings/84/ledbat.html
-  - kind: minutes without them
-    date: '2009-07-26'
-    subject: IETF 75 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/75/minutes/ledbat.txt

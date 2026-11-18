@@ -27,9 +27,11 @@ chairs:
     end:
       certainty: between
       not_before: '2005-07-31'
+      not_after: '2006-01-26'
     notes:
-    - 'End: after the BOF''s last session, IETF 63 (2005-07-31)'
     - 'Start: listed as chair in a proceedings charter snapshot (2004-07-26)'
+    - 'End: the BOF met at IETF 63 (2005-07-31)'
+    - 'End: the group closed (2006-01-26)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -39,14 +41,6 @@ chairs:
     - date: '2004-08-01'
       subject: IETF 60 minutes in the proceedings
       url: https://www.ietf.org/proceedings/60/minutes/mass.htm
-  - kind: BOF session
-    meeting: '60'
-    date: '2004-08-01'
-    url: https://www.ietf.org/proceedings/60/230.htm
-  - kind: BOF session
-    meeting: '63'
-    date: '2005-07-31'
-    url: https://www.ietf.org/proceedings/63/mass.txt
   - kind: proceedings
     listed_in: 2
     first: '2004-07-26'
@@ -58,6 +52,14 @@ chairs:
     - date: '2004-11-11'
       subject: IETF 62 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/62/mass.html
+  - kind: BOF session
+    meeting: '60'
+    date: '2004-08-01'
+    url: https://www.ietf.org/proceedings/60/230.htm
+  - kind: BOF session
+    meeting: '63'
+    date: '2005-07-31'
+    url: https://www.ietf.org/proceedings/63/mass.txt
 - person: 100927
   name: Dave Crocker
   status: unconfirmed
@@ -66,10 +68,13 @@ chairs:
       certainty: evidence-only
       not_after: '2004-08-01'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2005-07-31'
+      not_after: '2006-01-26'
     notes:
     - 'Start: the BOF met at IETF 60 (2004-08-01)'
+    - 'End: listed as chair in meeting minutes (2005-07-31)'
+    - 'End: the group closed (2006-01-26)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -79,14 +84,6 @@ chairs:
     - date: '2005-07-31'
       subject: IETF 63 minutes in the proceedings
       url: https://www.ietf.org/proceedings/63/minutes/mass.html
-  - kind: BOF session
-    meeting: '60'
-    date: '2004-08-01'
-    url: https://www.ietf.org/proceedings/60/230.htm
-  - kind: BOF session
-    meeting: '63'
-    date: '2005-07-31'
-    url: https://www.ietf.org/proceedings/63/mass.txt
   - kind: proceedings
     listed_in: 1
     first: '2005-07-14'
@@ -95,6 +92,14 @@ chairs:
     - date: '2005-07-14'
       subject: IETF 63 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/63/mass.html
+  - kind: BOF session
+    meeting: '60'
+    date: '2004-08-01'
+    url: https://www.ietf.org/proceedings/60/230.htm
+  - kind: BOF session
+    meeting: '63'
+    date: '2005-07-31'
+    url: https://www.ietf.org/proceedings/63/mass.txt
 - person: 121191
   name: Jim Fenton
   status: confirmed
@@ -105,9 +110,11 @@ chairs:
     end:
       certainty: between
       not_before: '2005-07-31'
+      not_after: '2006-01-26'
     notes:
-    - 'End: after the BOF''s last session, IETF 63 (2005-07-31)'
     - 'Start: listed as chair in a proceedings charter snapshot (2004-07-26)'
+    - 'End: listed as chair in meeting minutes (2005-07-31)'
+    - 'End: the group closed (2006-01-26)'
   evidence:
   - kind: minutes
     listed_in: 2
@@ -120,14 +127,6 @@ chairs:
     - date: '2005-07-31'
       subject: IETF 63 minutes in the proceedings
       url: https://www.ietf.org/proceedings/63/minutes/mass.html
-  - kind: BOF session
-    meeting: '60'
-    date: '2004-08-01'
-    url: https://www.ietf.org/proceedings/60/230.htm
-  - kind: BOF session
-    meeting: '63'
-    date: '2005-07-31'
-    url: https://www.ietf.org/proceedings/63/mass.txt
   - kind: proceedings
     listed_in: 3
     first: '2004-07-26'
@@ -142,3 +141,11 @@ chairs:
     - date: '2005-07-14'
       subject: IETF 63 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/63/mass.html
+  - kind: BOF session
+    meeting: '60'
+    date: '2004-08-01'
+    url: https://www.ietf.org/proceedings/60/230.htm
+  - kind: BOF session
+    meeting: '63'
+    date: '2005-07-31'
+    url: https://www.ietf.org/proceedings/63/mass.txt

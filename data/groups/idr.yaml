@@ -16,9 +16,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1994-12-05'
+      certainty: between
       not_before: '1994-07-06'
+      not_after: '1994-12-05'
     end:
       certainty: ongoing
     notes:
@@ -206,13 +206,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: approximate
-      date: '2009-06-30'
+      certainty: between
+      not_before: '2004-08-01'
+      not_after: '2004-08-24'
     end:
       certainty: exact
       date: '2021-03-23'
     notes:
-    - 'Start: announced on the group''s list (2009-06-30)'
+    - 'Start: not listed among the chairs in meeting minutes (2004-08-01)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2004-08-24)'
   evidence:
   - kind: WG Review
     date: '2010-02-08'
@@ -295,6 +297,11 @@ chairs:
     date: '2004-08-01'
     subject: IETF 60 minutes in the proceedings
     url: https://www.ietf.org/proceedings/60/minutes/idr.htm
+  - kind: joined the IESG
+    after_meeting: '110'
+    after: '2021-03-08'
+    by_meeting: '111'
+    by: '2021-07-26'
   - kind: session requests
     meetings:
     - '76'
@@ -310,11 +317,6 @@ chairs:
     - draft-ietf-idr-deprecate-30-31-129
     - draft-ietf-idr-large-community
     - draft-ietf-idr-rtc-no-rt
-  - kind: joined the IESG
-    after_meeting: '110'
-    after: '2021-03-08'
-    by_meeting: '111'
-    by: '2021-07-26'
 - person: 10535
   name: Yakov Rekhter
   status: unconfirmed
@@ -323,11 +325,11 @@ chairs:
       certainty: evidence-only
       not_after: '1994-12-05'
     end:
-      certainty: between
-      not_before: '2009-07-26'
-      not_after: '2009-11-08'
+      certainty: announced
+      date: '2009-06-30'
     notes:
-    - 'End: no longer listed among the chairs in meeting minutes (2009-11-08)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1994-12-05)'
+    - 'End: announced on the group''s list (2009-06-30)'
   evidence:
   - kind: list message
     date: '2009-06-30'
@@ -383,10 +385,6 @@ chairs:
     - date: '2009-04-02'
       subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/idr.html
-  - kind: minutes without them
-    date: '2009-11-08'
-    subject: IETF 76 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/76/minutes/idr.txt
   - kind: session requests
     meetings:
     - '65'
@@ -504,13 +502,14 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2020-01-29'
     end:
       certainty: evidence-only
-      not_before: '2020-01-29'
+      not_before: '2026-05-13'
     notes:
     - 'Start: announced on the group''s list (2020-01-29)'
+    - 'End: started a last call or adoption call on the group''s list (2026-05-13)'
   evidence:
   - kind: list message
     date: '2020-01-29'
@@ -518,10 +517,22 @@ chairs:
     subject: '[Idr] BGP Autoconf design team'
     url: https://mailarchive.ietf.org/arch/msg/idr/NMv31El3RD7xdidpIPi-oJST6R8/
     excerpt: Jie Dong has agreed to chair the group, thanks Jie.
-  - kind: minutes without them
-    date: '2016-04-03'
-    subject: IETF 95 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/95/minutes/minutes-95-idr.html
+  - kind: chair activity
+    first: '2023-04-11'
+    last: '2026-05-13'
+    messages: 3
+    examples:
+    - date: '2023-04-11'
+      subject: '[Idr] WG Last Call on draft-ietf-idr-bgp-model-16'
+      url: https://mailarchive.ietf.org/arch/msg/idr/263_yrn_ZnNRokmUwgye7Id5mHo/
+    - date: '2025-12-11'
+      subject: '[Idr] WG last call and IPR call for draft-ietf-idr-rt-derived-community (December 11,
+        2025 to January 5, 2026)'
+      url: https://mailarchive.ietf.org/arch/msg/idr/_51JdiKO37tSfBjkVHd3UXOIHFc/
+    - date: '2026-05-13'
+      subject: '[Idr] WG last call and IPR call for draft-ietf-idr-linklocal-capability (May 13, 2026
+        to May 27, 2026)'
+      url: https://mailarchive.ietf.org/arch/msg/idr/ZsLHdmThstk66e-g6hqfBh0whH4/
   - kind: shepherded
     documents:
     - draft-acee-idr-lldp-peer-discovery

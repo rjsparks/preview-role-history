@@ -19,8 +19,13 @@ chairs:
       certainty: evidence-only
       not_after: '1995-04-14'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '1995-04-19'
+      not_after: '1996-05-21'
+    notes:
+    - 'Start: listed as chair in meeting minutes (1995-04-14)'
+    - 'End: listed as chair in meeting minutes (1995-04-19)'
+    - 'End: the group closed (1996-05-21)'
   evidence:
   - kind: minutes
     listed_in: 2
@@ -38,9 +43,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1994-03-28'
+      certainty: between
       not_before: '1993-10-11'
+      not_after: '1994-03-28'
     end:
       certainty: group-closed
       date: '1996-05-21'

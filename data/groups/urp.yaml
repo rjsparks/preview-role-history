@@ -24,9 +24,11 @@ chairs:
     end:
       certainty: between
       not_before: '2001-08-05'
+      not_after: '2003-12-10'
     notes:
     - 'Start: the BOF met at IETF 51 (2001-08-05)'
-    - 'End: after the BOF''s last session, IETF 51 (2001-08-05)'
+    - 'End: the BOF met at IETF 51 (2001-08-05)'
+    - 'End: the group closed (2003-12-10)'
   evidence:
   - kind: BOF session
     meeting: '51'
@@ -42,9 +44,11 @@ chairs:
     end:
       certainty: between
       not_before: '2001-08-05'
+      not_after: '2003-12-10'
     notes:
     - 'Start: the BOF met at IETF 51 (2001-08-05)'
-    - 'End: after the BOF''s last session, IETF 51 (2001-08-05)'
+    - 'End: the BOF met at IETF 51 (2001-08-05)'
+    - 'End: the group closed (2003-12-10)'
   evidence:
   - kind: BOF session
     meeting: '51'

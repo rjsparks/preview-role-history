@@ -22,16 +22,10 @@ chairs:
       certainty: on-or-before
       date: '2009-06-24'
     end:
-      certainty: between
-      not_before: '2009-07-26'
+      certainty: group-closed
     notes:
-    - 'End: after the BOF''s last session, IETF 75 (2009-07-26)'
     - 'Start: listed as chair in a proceedings charter snapshot (2009-06-24)'
   evidence:
-  - kind: BOF session
-    meeting: '75'
-    date: '2009-07-26'
-    url: https://datatracker.ietf.org/meeting/75/session/netext2/
   - kind: proceedings
     listed_in: 1
     first: '2009-06-24'
@@ -40,6 +34,10 @@ chairs:
     - date: '2009-06-24'
       subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/netext2.html
+  - kind: BOF session
+    meeting: '75'
+    date: '2009-07-26'
+    url: https://datatracker.ietf.org/meeting/75/session/netext2/
 - person: 105800
   name: Jonne Soininen
   status: confirmed
@@ -48,16 +46,10 @@ chairs:
       certainty: on-or-before
       date: '2009-06-24'
     end:
-      certainty: between
-      not_before: '2009-07-26'
+      certainty: group-closed
     notes:
-    - 'End: after the BOF''s last session, IETF 75 (2009-07-26)'
     - 'Start: listed as chair in a proceedings charter snapshot (2009-06-24)'
   evidence:
-  - kind: BOF session
-    meeting: '75'
-    date: '2009-07-26'
-    url: https://datatracker.ietf.org/meeting/75/session/netext2/
   - kind: proceedings
     listed_in: 1
     first: '2009-06-24'
@@ -66,3 +58,7 @@ chairs:
     - date: '2009-06-24'
       subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/netext2.html
+  - kind: BOF session
+    meeting: '75'
+    date: '2009-07-26'
+    url: https://datatracker.ietf.org/meeting/75/session/netext2/

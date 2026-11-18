@@ -19,7 +19,7 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2009-07-31'
     end:
       certainty: group-closed
@@ -58,24 +58,20 @@ chairs:
     - date: '2011-03-27'
       subject: IETF 80 proceedings charter
       url: https://www.ietf.org/proceedings/80/isms.html
-  - kind: minutes without them
-    date: '2007-07-22'
-    subject: IETF 69 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/69/minutes/isms.txt
 - person: 21106
   name: Jürgen Schönwälder
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2005-10-24'
+      certainty: between
       not_before: '2005-07-31'
+      not_after: '2005-10-24'
     end:
       certainty: group-closed
       date: '2011-08-12'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2005-07-31)'
     - 'Start: listed as chair in a proceedings charter snapshot (2005-10-24)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2005-07-31)'
   evidence:
   - kind: WG Action
     date: '2005-10-25'
@@ -159,9 +155,10 @@ chairs:
       certainty: evidence-only
       not_after: '2004-09-23'
     end:
-      certainty: approximate
+      certainty: announced
       date: '2005-10-19'
     notes:
+    - 'Start: named as chair in the WG Action announcement (2004-09-23)'
     - 'End: announced on the group''s list (2005-10-19)'
   evidence:
   - kind: WG Action
@@ -172,12 +169,6 @@ chairs:
     date: '2005-09-07'
     subject: 'WG Review: Recharter of Integrated Security Model for SNMP (isms)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Tng5_g805PGzr2a8kUsC_JBQhPE/
-  - kind: list message
-    date: '2005-09-21'
-    says: start
-    subject: '[Isms] Looking for new chair'
-    url: https://mailarchive.ietf.org/arch/msg/isms/SbvHZ8WtsGtm-16-M_F6wZVFIto/
-    excerpt: I'm sorry to report that Ken Hornstein has agreed to step down as an ISMS chair.
   - kind: list message
     date: '2005-10-19'
     says: end
@@ -218,10 +209,6 @@ chairs:
     - date: '2005-07-08'
       subject: IETF 63 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/63/isms.html
-  - kind: minutes without them
-    date: '2005-11-06'
-    subject: IETF 64 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/64/minutes/isms.txt
 - person: 103651
   name: Juergen Quittek
   status: unconfirmed
@@ -234,7 +221,9 @@ chairs:
       not_before: '2007-07-22'
       not_after: '2009-08-04'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-08-04)'
+    - 'Start: named as chair in the WG Action announcement (2004-09-23)'
+    - 'End: requested the group''s session for IETF 69 (2007-07-22)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2009-08-04)'
   evidence:
   - kind: WG Action
     date: '2004-09-23'
@@ -248,13 +237,6 @@ chairs:
     date: '2005-10-25'
     subject: 'WG Action: RECHARTER: Integrated Security Model for SNMP (isms)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/cNklkIsQIO5lIgW1_AtJxGN13kU/
-  - kind: list message
-    date: '2005-10-19'
-    says: start
-    subject: '[Isms] Please welcome Juergen Schoenwaelder as the second ISMS chair'
-    url: https://mailarchive.ietf.org/arch/msg/isms/nCf5r0Cje-ocBc4rFek8vwocEiI/
-    excerpt: I'm quite pleased to announce that Juergen Schoenwaelder has agreed to replace Ken Hornstein
-      as an ISMS co-chair.
   - kind: chair activity
     first: '2005-04-09'
     last: '2007-07-18'
@@ -304,9 +286,9 @@ chairs:
       subject: IETF 69 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/69/isms.html
   - kind: minutes without them
-    date: '2009-11-08'
-    subject: IETF 76 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/76/minutes/isms.txt
+    date: '2009-08-04'
+    subject: IETF 75 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/75/isms.html
   - kind: session requests
     meetings:
     - '65'

@@ -16,9 +16,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1994-03-28'
+      certainty: between
       not_before: '1994-02-01'
+      not_after: '1994-03-28'
     end:
       certainty: group-closed
       date: '1995-11-09'
@@ -44,20 +44,21 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1994-03-28'
+      certainty: between
       not_before: '1994-02-01'
+      not_after: '1994-03-28'
     end:
-      certainty: on-or-before
-      date: '1995-04-03'
+      certainty: between
+      not_before: '1994-03-28'
+      not_after: '1995-04-03'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
     - 'End: became an Area Director, first serving at IETF 32 (1995-04-03)'
   evidence:
   - kind: proceedings
-    listed_in: 4
+    listed_in: 2
     first: '1994-03-28'
-    last: '1995-07-17'
+    last: '1994-12-05'
     examples:
     - date: '1994-03-28'
       subject: IETF 29 proceedings charter
@@ -65,9 +66,6 @@ chairs:
     - date: '1994-12-05'
       subject: IETF 31 proceedings charter
       url: https://www.ietf.org/proceedings/31/area.and.wg.reports/app/notary/notary-charter.txt
-    - date: '1995-07-17'
-      subject: IETF 33 proceedings charter
-      url: https://www.ietf.org/proceedings/33/area.and.wg.reports/app/notary/notary-charter.txt
   - kind: joined the IESG
     after_meeting: '31'
     after: '1994-12-05'

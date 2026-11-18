@@ -133,22 +133,29 @@ chairs:
     - date: '2020-07-15'
       subject: '[spring] WG Adoption Call for draft-dong-spring-sr-for-enhanced-vpn'
       url: https://mailarchive.ietf.org/arch/msg/spring/EykurXJrNf6WZFNAgJMVH1s6pTs/
-  - kind: minutes without them
-    date: '2016-04-03'
-    subject: IETF 95 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/95/minutes/minutes-95-spring.txt
-  - kind: shepherded
-    documents:
-    - draft-ietf-spring-segment-routing-policy
   - kind: joined the IESG
     after_meeting: '116'
     after: '2023-03-25'
     by_meeting: '117'
     by: '2023-07-22'
+  - kind: shepherded
+    documents:
+    - draft-ietf-spring-segment-routing-policy
 - person: 107172
   name: Bruno Decraene
   status: confirmed
   periods:
+  - start:
+      certainty: between
+      not_before: '2013-11-03'
+      not_after: '2014-07-20'
+    end:
+      certainty: between
+      not_before: '2014-07-20'
+      not_after: '2015-02-24'
+    notes:
+    - 'Start: not listed among the chairs in meeting minutes (2013-11-03)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   - start:
       certainty: exact
       date: '2015-02-24'
@@ -208,6 +215,10 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/spring.html
+  - kind: minutes without them
+    date: '2013-11-03'
+    subject: IETF 88 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/88/minutes/minutes-88-spring.html
   - kind: shepherded
     documents:
     - draft-ietf-spring-ipv6-use-cases
@@ -234,7 +245,7 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/spring/tJPDVkDYiX13mTq28HWq5gaNxO0/
     excerpt: Welcome Martin!
   - kind: list message
-    date: '2018-02-21'
+    date: '2018-03-17'
     says: end
     subject: '[spring] New spring WG Co-Chair'
     url: https://mailarchive.ietf.org/arch/msg/spring/qS6IMutj1rtw4S20AwNKi-9o5PU/
@@ -267,20 +278,16 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/spring.html
-  - kind: minutes without them
-    date: '2016-04-03'
-    subject: IETF 95 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/95/minutes/minutes-95-spring.txt
-  - kind: shepherded
-    documents:
-    - draft-ietf-spring-conflict-resolution
-    - draft-ietf-spring-segment-routing
-    - draft-psarkar-spring-mpls-anycast-segments
   - kind: joined the IESG
     after_meeting: '101'
     after: '2018-03-17'
     by_meeting: '102'
     by: '2018-07-14'
+  - kind: shepherded
+    documents:
+    - draft-ietf-spring-conflict-resolution
+    - draft-ietf-spring-segment-routing
+    - draft-psarkar-spring-mpls-anycast-segments
 - person: 109802
   name: Alvaro Retana
   status: confirmed
@@ -343,15 +350,15 @@ chairs:
     - date: '2014-11-09'
       subject: IETF 91 proceedings charter
       url: https://www.ietf.org/proceedings/91/spring.html
-  - kind: shepherded
-    documents:
-    - draft-ietf-spring-resource-aware-segments
-    - draft-ietf-spring-srv6-inter-layer-programming
   - kind: joined the IESG
     after_meeting: '92'
     after: '2015-03-22'
     by_meeting: '93'
     by: '2015-07-19'
+  - kind: shepherded
+    documents:
+    - draft-ietf-spring-resource-aware-segments
+    - draft-ietf-spring-srv6-inter-layer-programming
 - person: 116387
   name: Rob Shakir
   status: confirmed
@@ -388,10 +395,6 @@ chairs:
     - date: '2019-07-11'
       subject: '[spring] Agenda for IETF 105 Published'
       url: https://mailarchive.ietf.org/arch/msg/spring/lDUNsK_fiVPNziDEA4OQqzM3ApQ/
-  - kind: minutes without them
-    date: '2016-04-03'
-    subject: IETF 95 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/95/minutes/minutes-95-spring.txt
   - kind: shepherded
     documents:
     - draft-ietf-spring-segment-routing-ldp-interop

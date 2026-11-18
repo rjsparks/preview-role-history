@@ -19,5 +19,8 @@ chairs:
       certainty: on-or-before
       date: '2011-12-09'
     end:
-      certainty: group-closed
-      date: '2013-04-23'
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2013-04-23'
+    notes:
+    - 'End: the group closed (2013-04-23)'

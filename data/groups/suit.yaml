@@ -21,7 +21,6 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2017-10-13'
-      not_before: '2017-10-13'
     end:
       certainty: exact
       date: '2023-11-01'
@@ -126,7 +125,6 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2017-10-13'
-      not_before: '2017-10-13'
     end:
       certainty: exact
       date: '2025-03-10'
@@ -147,13 +145,6 @@ chairs:
     date: '2021-12-17'
     subject: 'WG Action: Rechartered Software Updates for Internet of Things (suit)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/iNxuZVFCEGZVTybrsu1fjLYUY-8/
-  - kind: list message
-    date: '2024-03-11'
-    says: start
-    subject: '[Suit] SUIT WG leadership changes'
-    url: https://mailarchive.ietf.org/arch/msg/suit/LkpXpaPjyB4TO7KI0jXjKYFV10s/
-    excerpt: It is my pleasure to announce that Akira Tsukamoto will be stepping in as co-chair to work
-      with Dave (Waltermire).
 - person: 125657
   name: Akira Tsukamoto
   status: confirmed

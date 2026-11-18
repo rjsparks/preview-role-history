@@ -5,10 +5,16 @@ parent: irtf
 state: active
 started: '2015-02-12'
 closed: null
-bof: false
+bof: true
 never_chartered: false
 chartered: '2015-12-02'
-bof_sessions: []
+bof_sessions:
+- meeting: '93'
+  date: '2015-07-19'
+  url: https://datatracker.ietf.org/meeting/93/session/t2trg/
+- meeting: '94'
+  date: '2015-11-01'
+  url: https://datatracker.ietf.org/meeting/94/session/t2trg/
 history_url: https://datatracker.ietf.org/group/t2trg/history/
 chairs:
 - person: 11843
@@ -17,10 +23,11 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2015-02-12'
-      not_before: '2015-02-12'
+      date: '2014-07-20'
     end:
       certainty: ongoing
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   evidence:
   - kind: chair activity
     first: '2015-02-24'

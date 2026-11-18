@@ -16,9 +16,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1990-09-03'
+      certainty: between
       not_before: '1989-10-02'
+      not_after: '1990-09-03'
     end:
       certainty: group-closed
       date: '1990-09-03'

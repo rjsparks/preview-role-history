@@ -19,16 +19,14 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2004-08-01'
-      not_after: '2005-05-11'
+      certainty: evidence-only
+      not_after: '2008-07-27'
     end:
-      certainty: between
-      not_before: '2010-11-07'
-      not_after: '2011-03-27'
+      certainty: announced
+      date: '2010-10-12'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-03-27)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2004-08-01)'
+    - 'Start: requested the group''s session for IETF 72 (2008-07-27)'
+    - 'End: announced on the group''s list (2010-10-12)'
   evidence:
   - kind: WG Review
     date: '2010-10-14'
@@ -82,27 +80,19 @@ chairs:
       subject: IETF 78 minutes in the proceedings
       url: https://www.ietf.org/proceedings/78/minutes/netmod.txt
   - kind: proceedings
-    listed_in: 4
-    first: '2005-05-11'
+    listed_in: 3
+    first: '2009-03-22'
     last: '2010-03-01'
     examples:
-    - date: '2005-05-11'
-      subject: IETF 73 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/73/netmod.html
     - date: '2009-03-22'
       subject: IETF 74 proceedings charter
       url: https://www.ietf.org/proceedings/74/netmod.html
+    - date: '2009-05-06'
+      subject: IETF 75 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/75/netmod.html
     - date: '2010-03-01'
       subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/netmod.html
-  - kind: minutes without them
-    date: '2004-08-01'
-    subject: IETF 60 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/60/minutes/netmod.htm
-  - kind: minutes without them
-    date: '2011-03-27'
-    subject: IETF 80 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/80/minutes/netmod.txt
   - kind: session requests
     meetings:
     - '72'
@@ -168,46 +158,19 @@ chairs:
     - draft-ietf-netmod-yang-module-filename
     - draft-ietf-netmod-yang-module-versioning
     - draft-ietf-netmod-yang-semver
-- person: 10492
-  name: Randy Presuhn
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: evidence-only
-      not_after: '2004-08-01'
-    end:
-      certainty: between
-      not_before: '2004-08-01'
-      not_after: '2005-05-11'
-    notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2005-05-11)'
-  evidence:
-  - kind: minutes
-    listed_in: 1
-    first: '2004-08-01'
-    last: '2004-08-01'
-    examples:
-    - date: '2004-08-01'
-      subject: IETF 60 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/60/minutes/netmod.htm
-  - kind: minutes without them
-    date: '2008-11-16'
-    subject: '[netmod] Preliminary IETF73 meeting minutes'
-    url: https://mailarchive.ietf.org/arch/msg/netmod/26VAWb96kYN9oOpeAdtvOt6YszI/
 - person: 17253
   name: David Harrington
   status: unconfirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2004-08-01'
-      not_after: '2005-05-11'
+      certainty: evidence-only
+      not_after: '2008-08-14'
     end:
-      certainty: approximate
+      certainty: announced
       date: '2008-12-19'
     notes:
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2008-08-14)'
     - 'End: announced on the group''s list (2008-12-19)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2004-08-01)'
   evidence:
   - kind: list message
     date: '2008-12-19'
@@ -237,23 +200,6 @@ chairs:
     - date: '2008-11-16'
       subject: IETF 73 minutes in the proceedings
       url: https://www.ietf.org/proceedings/73/minutes/netmod.txt
-  - kind: proceedings
-    listed_in: 1
-    first: '2005-05-11'
-    last: '2005-05-11'
-    examples:
-    - date: '2005-05-11'
-      subject: IETF 73 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/73/netmod.html
-  - kind: minutes without them
-    date: '2004-08-01'
-    subject: IETF 60 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/60/minutes/netmod.htm
-  - kind: minutes without them
-    date: '2010-07-25'
-    subject: '[netmod] Approval of minutes 20100820: Draft minutes (v1) of netmod working group session
-      IETF 78'
-    url: https://mailarchive.ietf.org/arch/msg/netmod/lHdhpFTLbEhXok3jtDWfkevrYTo/
   - kind: session requests
     meetings:
     - '73'
@@ -263,21 +209,23 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2008-12-19'
     end:
-      certainty: approximate
-      date: '2013-12-18'
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2011-12-09'
     notes:
     - 'Start: announced on the group''s list (2008-12-19)'
-    - 'End: announced on the group''s list (2013-12-18)'
   - start:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2014-01-13'
+      not_after: '2012-02-07'
     end:
       certainty: exact
       date: '2014-01-13'
+    notes:
+    - 'Start: named as chair in the WG Action announcement (2012-02-07)'
   evidence:
   - kind: WG Review
     date: '2010-10-14'
@@ -356,14 +304,6 @@ chairs:
     - date: '2013-11-03'
       subject: IETF 88 proceedings charter
       url: https://www.ietf.org/proceedings/88/netmod.html
-  - kind: minutes without them
-    date: '2008-11-16'
-    subject: IETF 73 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/73/minutes/netmod.txt
-  - kind: minutes without them
-    date: '2014-07-20'
-    subject: IETF 90 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/90/minutes/minutes-90-netmod.txt
   - kind: session requests
     meetings:
     - '80'
@@ -408,10 +348,6 @@ chairs:
     - date: '2019-04-13'
       subject: '[netmod] draft item 104 meeting 1/2 minutes'
       url: https://mailarchive.ietf.org/arch/msg/netmod/I2_rWCNjPDfUYzowE5KV85jMbp8/
-  - kind: minutes without them
-    date: '2015-11-01'
-    subject: IETF 94 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/94/minutes/minutes-94-netmod.txt
   - kind: shepherded
     documents:
     - draft-ietf-netmod-module-tags
@@ -427,15 +363,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-10-26'
+      certainty: between
       not_before: '2010-07-25'
+      not_after: '2010-10-26'
     end:
       certainty: exact
       date: '2016-06-27'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2010-07-25)'
     - 'Start: named as chair in the WG Action announcement (2010-10-26)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2010-07-25)'
   evidence:
   - kind: WG Action
     date: '2010-10-26'
@@ -453,13 +389,6 @@ chairs:
     date: '2015-10-23'
     subject: 'WG Action: Rechartered NETCONF Data Modeling Language (netmod)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/UWAObpCtjC-XH6yMwqeL1x6jVRI/
-  - kind: list message
-    date: '2015-05-13'
-    says: end
-    subject: '[netmod] Next NETMOD chair'
-    url: https://mailarchive.ietf.org/arch/msg/netmod/zPFwxiw_KXJ3eM-RWbhxooiFUMI/
-    excerpt: As you probably know from a previous message to the list, Jürgen announced his plans to step
-      down as co-chair.
   - kind: chair activity
     first: '2010-12-09'
     last: '2015-10-12'
@@ -510,8 +439,9 @@ chairs:
       url: https://www.ietf.org/proceedings/92/netmod.html
   - kind: minutes without them
     date: '2010-07-25'
-    subject: IETF 78 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/78/minutes/netmod.txt
+    subject: '[netmod] Approval of minutes 20100820: Draft minutes (v1) of netmod working group session
+      IETF 78'
+    url: https://mailarchive.ietf.org/arch/msg/netmod/lHdhpFTLbEhXok3jtDWfkevrYTo/
   - kind: session requests
     meetings:
     - '81'
@@ -602,56 +532,28 @@ chairs:
     - date: '2015-03-22'
       subject: IETF 92 proceedings charter
       url: https://www.ietf.org/proceedings/92/netmod.html
-  - kind: minutes without them
-    date: '2013-11-03'
-    subject: IETF 88 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/88/minutes/minutes-88-netmod.txt
   - kind: shepherded
     documents:
     - draft-ietf-netmod-interfaces-cfg
     - draft-ietf-netmod-ip-cfg
     - draft-ietf-netmod-snmp-cfg
-- person: 104659
-  name: Sharon Chisholm
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: evidence-only
-      not_after: '2004-07-27'
-    end:
-      certainty: between
-      not_before: '2005-05-11'
-      not_after: '2008-11-16'
-    notes:
-    - 'End: no longer listed among the chairs in meeting minutes (2008-11-16)'
-  evidence:
-  - kind: minutes
-    listed_in: 1
-    first: '2004-08-01'
-    last: '2004-08-01'
-    examples:
-    - date: '2004-08-01'
-      subject: IETF 60 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/60/minutes/netmod.htm
-  - kind: proceedings
-    listed_in: 2
-    first: '2004-07-27'
-    last: '2005-05-11'
-    examples:
-    - date: '2004-07-27'
-      subject: IETF 61 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/61/netmod.html
-    - date: '2005-05-11'
-      subject: IETF 71 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/71/netmod.html
-  - kind: minutes without them
-    date: '2008-11-16'
-    subject: '[netmod] Preliminary IETF73 meeting minutes'
-    url: https://mailarchive.ietf.org/arch/msg/netmod/26VAWb96kYN9oOpeAdtvOt6YszI/
 - person: 112548
   name: Kent Watsen
   status: confirmed
   periods:
+  - start:
+      certainty: between
+      not_before: '2014-03-02'
+      not_after: '2014-07-20'
+    end:
+      certainty: between
+      not_before: '2014-11-14'
+      not_after: '2015-03-22'
+    notes:
+    - 'Start: not listed among the chairs in meeting minutes (2014-03-02)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2014-11-14)'
+    - 'End: not listed among the chairs in meeting minutes (2015-03-22)'
   - start:
       certainty: exact
       date: '2015-05-13'
@@ -714,6 +616,14 @@ chairs:
     - date: '2016-11-13'
       subject: IETF 97 proceedings charter
       url: https://www.ietf.org/proceedings/97/netmod.html
+  - kind: minutes without them
+    date: '2014-03-02'
+    subject: IETF 89 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/89/minutes/minutes-89-netmod.txt
+  - kind: minutes without them
+    date: '2015-03-22'
+    subject: IETF 92 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/92/minutes/minutes-92-netmod.txt
   - kind: shepherded
     documents:
     - draft-ietf-netmod-acl-model

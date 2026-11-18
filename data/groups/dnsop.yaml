@@ -11,38 +11,6 @@ chartered: '1999-06-03'
 bof_sessions: []
 history_url: https://datatracker.ietf.org/group/dnsop/history/
 chairs:
-- person: 2890
-  name: Jaap Akkerhuis
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: between
-      not_before: '2009-03-22'
-      not_after: '2009-07-26'
-    end:
-      certainty: between
-      not_before: '2009-07-26'
-      not_after: '2009-11-08'
-    notes:
-    - 'Start: not yet listed among the chairs in meeting minutes (2009-03-22)'
-    - 'End: no longer listed among the chairs in meeting minutes (2009-11-08)'
-  evidence:
-  - kind: minutes
-    listed_in: 1
-    first: '2009-07-26'
-    last: '2009-07-26'
-    examples:
-    - date: '2009-07-26'
-      subject: IETF 75 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/75/minutes/dnsop.txt
-  - kind: minutes without them
-    date: '2009-03-22'
-    subject: IETF 74 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/74/minutes/dnsop.txt
-  - kind: minutes without them
-    date: '2009-11-08'
-    subject: IETF 76 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/76/minutes/dnsop.txt
 - person: 18009
   name: Suzanne Woolf
   status: confirmed
@@ -116,14 +84,6 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/dnsop.html
-  - kind: minutes without them
-    date: '2013-07-28'
-    subject: IETF 87 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/87/minutes/minutes-87-dnsop.txt
-  - kind: minutes without them
-    date: '2026-02-25'
-    subject: '[DNSOP] DNSOP WG Virtual Meeting interim-2026-dnsop-01 recording and minutes'
-    url: https://mailarchive.ietf.org/arch/msg/dnsop/h62y2vuhhFnPz834RSsi0Bk4SoA/
   - kind: shepherded
     documents:
     - draft-ietf-dnsop-7706bis
@@ -148,10 +108,12 @@ chairs:
       not_after: '1999-06-09'
     end:
       certainty: between
-      not_before: '2003-02-24'
+      not_before: '2003-01-22'
       not_after: '2003-03-16'
     notes:
-    - 'End: no longer listed among the chairs in meeting minutes (2003-03-16)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1999-06-09)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2003-01-22)'
+    - 'End: not listed among the chairs in meeting minutes (2003-03-16)'
   evidence:
   - kind: chair activity
     first: '2001-03-12'
@@ -190,14 +152,14 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2003-03-07'
     end:
-      certainty: approximate
-      date: '2005-10-20'
+      certainty: announced
+      date: '2005-09-20'
     notes:
     - 'Start: announced on the group''s list (2003-03-07)'
-    - 'End: announced on the group''s list (2005-10-20)'
+    - 'End: announced on the group''s list (2005-09-20)'
   evidence:
   - kind: WG Action
     date: '2004-03-24'
@@ -272,10 +234,6 @@ chairs:
     - date: '2005-06-27'
       subject: IETF 63 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/63/dnsop.html
-  - kind: minutes without them
-    date: '2005-11-06'
-    subject: IETF 64 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/64/minutes/dnsop.txt
 - person: 104212
   name: Rob Austein
   status: unconfirmed
@@ -284,9 +242,10 @@ chairs:
       certainty: evidence-only
       not_after: '2003-03-16'
     end:
-      certainty: approximate
+      certainty: announced
       date: '2009-11-16'
     notes:
+    - 'Start: listed as chair in meeting minutes (2003-03-16)'
     - 'End: announced on the group''s list (2009-11-16)'
   evidence:
   - kind: WG Action
@@ -344,24 +303,20 @@ chairs:
     - date: '2008-12-16'
       subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/dnsop.html
-  - kind: minutes without them
-    date: '2010-03-21'
-    subject: '[DNSOP] Minutes of IETF-77 DNSOP WG'
-    url: https://mailarchive.ietf.org/arch/msg/dnsop/aBqrMkPEmbvMAPNXsW52Dx_hy0k/
 - person: 107363
   name: Peter Koch
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2005-11-06'
+      certainty: between
       not_before: '2005-07-31'
+      not_after: '2005-11-06'
     end:
       certainty: exact
       date: '2013-12-20'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2005-07-31)'
     - 'Start: listed as chair in meeting minutes (2005-11-06)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2005-07-31)'
   evidence:
   - kind: chair activity
     first: '2005-12-09'
@@ -415,10 +370,6 @@ chairs:
     date: '2005-07-31'
     subject: '[dnsop] draft DNSOP minutes for IETF 63'
     url: https://mailarchive.ietf.org/arch/msg/dnsop/c2BXRMwHiHRmO7F7_xshAdnG8ho/
-  - kind: minutes without them
-    date: '2014-03-02'
-    subject: IETF 89 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/89/minutes/minutes-89-dnsop.txt
   - kind: session requests
     meetings:
     - '65'
@@ -447,16 +398,17 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-03-16'
+      certainty: between
       not_before: '2009-11-08'
+      not_after: '2010-03-16'
     end:
-      certainty: approximate
-      date: '2013-12-10'
+      certainty: between
+      not_before: '2013-03-13'
+      not_after: '2013-07-28'
     notes:
-    - 'End: announced on the group''s list (2013-12-10)'
+    - 'Start: not listed among the chairs in meeting minutes (2009-11-08)'
     - 'Start: listed as chair in a proceedings charter snapshot (2010-03-16)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2009-11-08)'
+    - 'End: not listed among the chairs in meeting minutes (2013-07-28)'
   evidence:
   - kind: list message
     date: '2013-12-10'
@@ -511,9 +463,9 @@ chairs:
     subject: IETF 76 minutes in the proceedings
     url: https://www.ietf.org/proceedings/76/minutes/dnsop.txt
   - kind: minutes without them
-    date: '2014-03-02'
-    subject: IETF 89 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/89/minutes/minutes-89-dnsop.txt
+    date: '2013-07-28'
+    subject: IETF 87 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/87/minutes/minutes-87-dnsop.txt
   - kind: shepherded
     documents:
     - draft-ietf-dnsop-dnssec-dps-framework
@@ -571,10 +523,11 @@ chairs:
       not_after: '1999-06-09'
     end:
       certainty: between
-      not_before: '2003-02-24'
+      not_before: '1999-06-09'
       not_after: '2003-03-16'
     notes:
-    - 'End: no longer listed among the chairs in meeting minutes (2003-03-16)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1999-06-09)'
+    - 'End: not listed among the chairs in meeting minutes (2003-03-16)'
   evidence:
   - kind: proceedings
     listed_in: 11
@@ -599,11 +552,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: approximate
-      date: '2013-03-13'
+      certainty: on-or-before
+      date: '2013-03-10'
     end:
       certainty: exact
       date: '2025-04-16'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2013-03-10)'
   evidence:
   - kind: WG Review
     date: '2014-06-04'
@@ -661,14 +616,6 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/dnsop.html
-  - kind: minutes without them
-    date: '2012-07-29'
-    subject: IETF 84 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/84/minutes/minutes-84-dnsop.txt
-  - kind: minutes without them
-    date: '2026-02-25'
-    subject: '[DNSOP] DNSOP WG Virtual Meeting interim-2026-dnsop-01 recording and minutes'
-    url: https://mailarchive.ietf.org/arch/msg/dnsop/h62y2vuhhFnPz834RSsi0Bk4SoA/
   - kind: shepherded
     documents:
     - draft-andrews-dns-no-response-issue
@@ -797,14 +744,37 @@ chairs:
   status: confirmed
   periods:
   - start:
+      certainty: between
+      not_before: '2016-07-17'
+      not_after: '2026-01-24'
+    end:
+      certainty: between
+      not_before: '2026-01-24'
+      not_after: '2026-02-25'
+    notes:
+    - 'Start: not listed among the chairs in meeting minutes (2016-07-17)'
+    - 'Start: started a last call or adoption call on the group''s list (2026-01-24)'
+    - 'End: started a last call or adoption call on the group''s list (2026-01-24)'
+    - 'End: not listed among the chairs in meeting minutes (2026-02-25)'
+  - start:
       certainty: exact
       date: '2026-10-06'
     end:
       certainty: ongoing
   evidence:
-  - kind: list message
-    date: '2026-10-06'
-    says: start
-    subject: '[DNSOP] DNSOP Split & Leadership Change'
-    url: https://mailarchive.ietf.org/arch/msg/dnsop/Yvhf_x4LiDToSxVCzuwfVSEMcUc/
-    excerpt: '* Peter Thomassen is appointed as a new DNSOP Chair (effective immediately).'
+  - kind: chair activity
+    first: '2026-01-24'
+    last: '2026-01-24'
+    messages: 1
+    examples:
+    - date: '2026-01-24'
+      subject: '[DNSOP] Call for adoption: draft-crocker-dnsop-dnssec-algorithm-lifecycle-02 (Ends 2026-02-06)'
+      url: https://mailarchive.ietf.org/arch/msg/dnsop/QMtu6h50FTZD4-vHleluxJV7CIc/
+  - kind: minutes without them
+    date: '2016-07-17'
+    subject: IETF 96 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-dnsop.txt
+  - kind: minutes without them
+    date: '2026-02-25'
+    subject: '[DNSOP] DNSOP WG Virtual Meeting interim-2026-dnsop-01 recording and minutes'
+    url: https://mailarchive.ietf.org/arch/msg/dnsop/h62y2vuhhFnPz834RSsi0Bk4SoA/

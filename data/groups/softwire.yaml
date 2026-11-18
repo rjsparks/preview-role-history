@@ -19,10 +19,11 @@ chairs:
       certainty: evidence-only
       not_after: '2005-09-06'
     end:
-      certainty: approximate
-      date: '2011-03-04'
+      certainty: announced
+      date: '2011-02-04'
     notes:
-    - 'End: announced on the group''s list (2011-03-04)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2005-09-06)'
+    - 'End: announced on the group''s list (2011-02-04)'
   evidence:
   - kind: WG Action
     date: '2005-12-08'
@@ -76,10 +77,6 @@ chairs:
     - date: '2010-08-11'
       subject: IETF 78 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/78/softwire.html
-  - kind: minutes without them
-    date: '2012-03-25'
-    subject: IETF 83 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/83/minutes/minutes-83-softwire.txt
 - person: 105328
   name: Alain Durand
   status: confirmed
@@ -87,13 +84,12 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2005-10-10'
-      not_before: '2005-10-10'
     end:
-      certainty: approximate
+      certainty: announced
       date: '2012-06-19'
     notes:
-    - 'End: announced on the group''s list (2012-06-19)'
     - 'Start: listed as chair in a proceedings charter snapshot (2005-10-10)'
+    - 'End: announced on the group''s list (2012-06-19)'
   evidence:
   - kind: WG Action
     date: '2005-12-08'
@@ -103,10 +99,6 @@ chairs:
     date: '2011-03-21'
     subject: 'WG Review: Recharter of Softwires (softwire)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/h3qksr6XbrNQIQfn5THrJkFEQZE/
-  - kind: WG Review
-    date: '2011-03-21'
-    subject: 'WG Review: Recharter of Recharter of Softwires (softwire)'
-    url: null
   - kind: WG Review
     date: '2011-04-19'
     subject: 'WG Review: Recharter of Softwires (softwire)'
@@ -170,10 +162,6 @@ chairs:
     - date: '2012-03-25'
       subject: IETF 83 proceedings charter
       url: https://www.ietf.org/proceedings/83/softwire.html
-  - kind: minutes without them
-    date: '2015-07-19'
-    subject: IETF 93 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/93/minutes/minutes-93-softwire.txt
   - kind: session requests
     meetings:
     - '65'
@@ -247,10 +235,11 @@ chairs:
     - date: '2015-11-01'
       subject: IETF 94 proceedings charter
       url: https://www.ietf.org/proceedings/94/softwire.html
-  - kind: minutes without them
-    date: '2012-03-25'
-    subject: IETF 83 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/83/minutes/minutes-83-softwire.txt
+  - kind: joined the IESG
+    after_meeting: '95'
+    after: '2016-04-03'
+    by_meeting: '96'
+    by: '2016-07-17'
   - kind: shepherded
     documents:
     - draft-ietf-softwire-4rd
@@ -260,34 +249,25 @@ chairs:
     - draft-ietf-softwire-map-t
     - draft-ietf-softwire-mesh-mib
     - draft-ietf-softwire-public-4over6
-  - kind: joined the IESG
-    after_meeting: '95'
-    after: '2016-04-03'
-    by_meeting: '96'
-    by: '2016-07-17'
 - person: 108848
   name: Yong Cui
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-11-07'
+      certainty: between
       not_before: '2007-12-02'
+      not_after: '2010-11-07'
     end:
       certainty: group-closed
       date: '2019-11-22'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2007-12-02)'
     - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2007-12-02)'
   evidence:
   - kind: WG Review
     date: '2011-03-21'
     subject: 'WG Review: Recharter of Softwires (softwire)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/h3qksr6XbrNQIQfn5THrJkFEQZE/
-  - kind: WG Review
-    date: '2011-03-21'
-    subject: 'WG Review: Recharter of Recharter of Softwires (softwire)'
-    url: null
   - kind: WG Review
     date: '2011-04-19'
     subject: 'WG Review: Recharter of Softwires (softwire)'
@@ -357,6 +337,17 @@ chairs:
   name: Ian Farrer
   status: confirmed
   periods:
+  - start:
+      certainty: between
+      not_before: '2015-07-19'
+      not_after: '2015-11-01'
+    end:
+      certainty: between
+      not_before: '2015-11-01'
+      not_after: '2016-03-03'
+    notes:
+    - 'Start: not listed among the chairs in meeting minutes (2015-07-19)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2015-11-01)'
   - start:
       certainty: exact
       date: '2016-03-03'

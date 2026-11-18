@@ -4,7 +4,8 @@
     python tools/reseed.py <seed dir> data
 
 The seed directory is the extractor's output (groups/*.yaml and
-reference/people.yaml). Contributions survive:
+reference/people.yaml). Contributions survive, and nothing that carries one is
+deleted:
 
 - chair entries with status `contributed` are kept, and replace the seed's
   entry for the same person;
@@ -13,6 +14,12 @@ reference/people.yaml). Contributions survive:
   contributed chairs and sources are merged in. A seed group with the same
   acronym but a different name is a clash for a maintainer to resolve, and
   nothing is written;
+- `confirmations` ("This is right") move to the seed's entry for that
+  person, which keeps updating from new evidence; a confirmed person the new
+  seed no longer has is kept as a contributed entry;
+- `rejected` people stay rejected: the seed's entries for them are dropped;
+- `overrides` (corrected group fields) are applied over the seed's values;
+- a group file the new seed no longer has is kept if it carries any of these;
 - people contributors added to people.yaml are kept: people the datatracker
   knows, added by `uuid` (folded into the seed's entry once it has them by
   id, along with chair entries naming them by UUID), and people it doesn't
@@ -58,8 +65,39 @@ def merge_chairs(seed_chairs, kept, by_uuid):
     return out + list(kept.values())
 
 
-def reseed(seed_dir, data_dir):
-    """Return a list of clashes; write nothing if there are any."""
+def has_contributions(group):
+    chairs = group.get("chairs") or []
+    return bool(
+        group.get("datatracker") is False or group.get("rejected") or group.get("overrides")
+        or any(isinstance(e, dict) and (e.get("status") == "contributed" or e.get("confirmations")) for e in chairs)
+    )
+
+
+def overlay(seed, mine, by_uuid, notes, acronym):
+    """The seed's group with the contributions in mine applied."""
+    for field in ("overrides", "rejected"):
+        if mine.get(field):
+            seed[field] = mine[field]
+    for k, v in (mine.get("overrides") or {}).items():
+        seed[k] = v
+    rejected = {r.get("person") for r in mine.get("rejected") or [] if isinstance(r, dict)}
+    seed["chairs"] = [e for e in seed.get("chairs") or [] if e.get("person") not in rejected]
+    by_key = {cd.person_key(e): e for e in seed["chairs"]}
+    for e in mine.get("chairs") or []:
+        if not isinstance(e, dict) or e.get("status") == "contributed" or not e.get("confirmations"):
+            continue
+        key = by_uuid.get(cd.person_key(e), cd.person_key(e))
+        if key in by_key:
+            by_key[key]["confirmations"] = list(dict.fromkeys((by_key[key].get("confirmations") or []) + e["confirmations"]))
+        else:
+            notes.append(f"{acronym}: {e.get('name')} was confirmed but the new seed no longer has them; kept as contributed")
+            seed["chairs"].append({**e, "status": "contributed"})
+    return seed
+
+
+def reseed(seed_dir, data_dir, notes=None):
+    """Return a list of clashes; write nothing if there are any. Messages for the maintainer go in notes."""
+    notes = [] if notes is None else notes
     seed_dir, data_dir = Path(seed_dir), Path(data_dir)
     groups_dir = data_dir / "groups"
     current = {p.stem: load_yaml(p) for p in sorted(groups_dir.glob("*.yaml"))}
@@ -80,12 +118,18 @@ def reseed(seed_dir, data_dir):
             # Every chair of a contributed group came from contributors, whatever its status says.
             kept = {cd.person_key(e): {**e, "status": "contributed"} for e in mine.get("chairs") or [] if isinstance(e, dict)}
             seed["sources"] = list(dict.fromkeys((seed.get("sources") or []) + (mine.get("sources") or [])))
+        seed = overlay(seed, mine, by_uuid, notes, acronym)
         seed["chairs"] = merge_chairs(seed.get("chairs"), kept, by_uuid)
         result[acronym] = seed
     for acronym, mine in current.items():
-        if acronym not in result and mine and mine.get("datatracker") is False:
+        if acronym in result or not mine:
+            continue
+        if mine.get("datatracker") is False:
             mine["chairs"] = merge_chairs([], {cd.person_key(e): e for e in mine.get("chairs") or []}, by_uuid)
             result[acronym] = mine  # still unknown to the datatracker
+        elif has_contributions(mine):
+            notes.append(f"{acronym}: not in the new seed (renamed or out of scope?); kept for its contributions")
+            result[acronym] = mine
     if clashes:
         return clashes
 
@@ -110,9 +154,12 @@ def main(argv=None):
     ap.add_argument("seed_dir")
     ap.add_argument("data_dir")
     args = ap.parse_args(argv)
-    clashes = reseed(args.seed_dir, args.data_dir)
+    notes = []
+    clashes = reseed(args.seed_dir, args.data_dir, notes)
     for c in clashes:
         print(c, file=sys.stderr)
+    for n in notes:
+        print(n)
     return 1 if clashes else 0
 
 

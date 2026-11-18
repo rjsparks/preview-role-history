@@ -58,12 +58,6 @@ chairs:
     end:
       certainty: ongoing
   evidence:
-  - kind: list message
-    date: '2019-03-25'
-    says: end
-    subject: '[Cbor] CBOR co-chair change'
-    url: https://mailarchive.ietf.org/arch/msg/cbor/pCldrp3HtW8AXrkjvcoF_75dyI4/
-    excerpt: I would like to thank Barry for his contributions!
   - kind: chair activity
     first: '2018-08-13'
     last: '2026-07-30'
@@ -98,16 +92,16 @@ chairs:
     - date: '2019-01-16'
       subject: '[Cbor] Minutes from today''s interim'
       url: https://mailarchive.ietf.org/arch/msg/cbor/iBMnbtNx6bzOnNXkLZZ2jwOyuTc/
-  - kind: shepherded
-    documents:
-    - draft-ietf-cbor-cddl
-    - draft-ietf-cbor-network-addresses
-    - draft-ietf-cbor-time-tag
   - kind: joined the IESG
     after_meeting: '104'
     after: '2019-03-23'
     by_meeting: '105'
     by: '2019-07-20'
+  - kind: shepherded
+    documents:
+    - draft-ietf-cbor-cddl
+    - draft-ietf-cbor-network-addresses
+    - draft-ietf-cbor-time-tag
 - person: 110049
   name: Joe Hildebrand
   status: confirmed
@@ -152,14 +146,23 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/cbor.html
-  - kind: minutes without them
-    date: '2018-07-14'
-    subject: '[Cbor] Minutes IETF102 CBOR'
-    url: https://mailarchive.ietf.org/arch/msg/cbor/gr85btGI3IJPJVJnDGelUEwrBYQ/
 - person: 110910
   name: Jim Schaad
   status: confirmed
   periods:
+  - start:
+      certainty: between
+      not_before: '2018-07-14'
+      not_after: '2018-08-07'
+    end:
+      certainty: between
+      not_before: '2018-08-07'
+      not_after: '2018-08-08'
+    notes:
+    - 'Start: not listed among the chairs in meeting minutes (2018-07-14)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2018-08-07)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2018-08-07)'
+    - 'End: not listed among the chairs in meeting minutes (2018-08-08)'
   - start:
       certainty: exact
       date: '2019-03-23'
@@ -207,6 +210,10 @@ chairs:
     date: '2018-07-14'
     subject: '[Cbor] Minutes IETF102 CBOR'
     url: https://mailarchive.ietf.org/arch/msg/cbor/gr85btGI3IJPJVJnDGelUEwrBYQ/
+  - kind: minutes without them
+    date: '2018-08-08'
+    subject: '[Cbor] Minutes from 1st webex call'
+    url: https://mailarchive.ietf.org/arch/msg/cbor/5RqY-vtdALAe3RLu5ctMR1J3Rbs/
   - kind: shepherded
     documents:
     - draft-ietf-cbor-sequence
@@ -243,20 +250,6 @@ chairs:
     date: '2020-10-09'
     subject: 'WG Action: Rechartered Concise Binary Object Representation Maintenance and Extensions (cbor)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/veSVSXF0__UHKva73F5xBwDhRmw/
-  - kind: list message
-    date: '2019-03-25'
-    says: start
-    subject: '[Cbor] CBOR co-chair change'
-    url: https://mailarchive.ietf.org/arch/msg/cbor/pCldrp3HtW8AXrkjvcoF_75dyI4/
-    excerpt: With Barry Leiba being selected as another ART Area Director this WG needs a new co-chair
-      for Francesca.
-  - kind: list message
-    date: '2021-01-27'
-    says: start
-    subject: '[Cbor] New CBOR chair needed'
-    url: https://mailarchive.ietf.org/arch/msg/cbor/XptShRz-ewF6ZHahHMPChYoRx7o/
-    excerpt: Congratulations to Francesca Palombini on her appointment to ART Director, and many thanks
-      for her willingness to take on that role and for all the work she's done in CBOR over the past years!
   - kind: list message
     date: '2021-03-07'
     says: end
@@ -297,16 +290,16 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/cbor.html
-  - kind: shepherded
-    documents:
-    - draft-ietf-cbor-7049bis
-    - draft-ietf-cbor-array-tags
-    - draft-ietf-cbor-date-tag
   - kind: joined the IESG
     after_meeting: '110'
     after: '2021-03-08'
     by_meeting: '111'
     by: '2021-07-26'
+  - kind: shepherded
+    documents:
+    - draft-ietf-cbor-7049bis
+    - draft-ietf-cbor-array-tags
+    - draft-ietf-cbor-date-tag
 - person: 122861
   name: Christian Amsüss
   status: confirmed

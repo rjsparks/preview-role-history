@@ -17,13 +17,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1997-08-11'
-      not_before: '1997-06-02'
+      date: '1996-07-09'
     end:
       certainty: exact
       date: '2014-11-13'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1997-08-11)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (1996-07-09)'
   evidence:
   - kind: WG Action
     date: '2003-02-26'
@@ -81,10 +80,6 @@ chairs:
     - date: '2011-11-13'
       subject: IETF 82 proceedings charter
       url: https://www.ietf.org/proceedings/82/manet.html
-  - kind: minutes without them
-    date: '2015-07-19'
-    subject: IETF 93 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/93/minutes/minutes-93-manet.txt
   - kind: session requests
     meetings:
     - '67'
@@ -106,9 +101,10 @@ chairs:
       certainty: evidence-only
       not_after: '1997-08-11'
     end:
-      certainty: approximate
+      certainty: announced
       date: '2004-12-08'
     notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (1997-08-11)'
     - 'End: announced on the group''s list (2004-12-08)'
   evidence:
   - kind: WG Action
@@ -131,7 +127,7 @@ chairs:
       subject: Call for Agenda Items
       url: https://mailarchive.ietf.org/arch/msg/manet/PBA2gEqW-rxG_sG5fUzdKPEQAGo/
   - kind: minutes
-    listed_in: 8
+    listed_in: 6
     first: '1999-01-05'
     last: '2003-11-09'
     examples:
@@ -158,22 +154,20 @@ chairs:
     - date: '2004-09-16'
       subject: IETF 61 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/61/manet.html
-  - kind: minutes without them
-    date: '2007-03-18'
-    subject: IETF 68 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/68/minutes/manet.txt
 - person: 19150
   name: Stan Ratliff
   status: confirmed
   periods:
   - start:
-      certainty: approximate
-      date: '2011-09-14'
+      certainty: between
+      not_before: '2010-11-07'
+      not_after: '2011-07-24'
     end:
       certainty: exact
       date: '2019-11-20'
     notes:
-    - 'Start: announced on the group''s list (2011-09-14)'
+    - 'Start: not listed among the chairs in meeting minutes (2010-11-07)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2011-07-24)'
   evidence:
   - kind: WG Review
     date: '2016-06-20'
@@ -271,10 +265,10 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2004-12-08'
     end:
-      certainty: approximate
+      certainty: announced
       date: '2011-09-14'
     notes:
     - 'Start: announced on the group''s list (2004-12-08)'
@@ -332,14 +326,6 @@ chairs:
     - date: '2011-03-27'
       subject: IETF 80 proceedings charter
       url: https://www.ietf.org/proceedings/80/manet.html
-  - kind: minutes without them
-    date: '2003-11-09'
-    subject: IETF 58 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/58/minutes/manet.htm
-  - kind: minutes without them
-    date: '2011-11-13'
-    subject: IETF 82 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/82/minutes/manet.txt
   - kind: session requests
     meetings:
     - '65'
@@ -394,10 +380,6 @@ chairs:
     - date: '2016-07-17'
       subject: IETF 96 minutes in the proceedings
       url: https://www.ietf.org/proceedings/96/minutes/minutes-96-manet.txt
-  - kind: minutes without them
-    date: '2014-07-20'
-    subject: IETF 90 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/90/minutes/minutes-90-manet.txt
   - kind: shepherded
     documents:
     - draft-ietf-manet-credit-window

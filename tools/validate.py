@@ -77,7 +77,20 @@ def check(data):
                 bad(f"`{flag}` must be true or false")
         if g.get("chartered") is not None and not cd.valid_date(cd.norm_date(g["chartered"])):
             bad("`chartered` must be a date written YYYY-MM-DD, YYYY-MM or YYYY")
+        overrides = g.get("overrides")
+        if overrides is not None and not (isinstance(overrides, dict) and set(overrides) <= OVERRIDABLE):
+            bad(f"`overrides` may only set {', '.join(sorted(OVERRIDABLE))}")
+        rejected = g.get("rejected") or []
+        rejected_people = set()
+        for r in rejected if isinstance(rejected, list) else [None]:
+            if not (isinstance(r, dict) and r.get("person") is not None and _string_list(r.get("sources"))):
+                bad("each `rejected` item needs `person` and a `sources` list saying why they were not a chair")
+                continue
+            rejected_people.add(r["person"])
+        for problem in _link_problems(g):
+            bad(problem)
         closed = g.get("state") in cd.CLOSED_STATES
+        closed_on = cd.norm_date(g.get("closed"))
         seen = set()
         for i, e in enumerate(g.get("chairs") or []):
             where = f"chairs[{i}] ({e.get('name', '?')})" if isinstance(e, dict) else f"chairs[{i}]"
@@ -92,6 +105,10 @@ def check(data):
                 bad(f"{where}: `person` must be a datatracker person id, or the key of someone added to people.yaml")
             elif pid not in data.people:
                 bad(f"{where}: person {pid!r} is not in data/people.yaml; add them there too")
+            if e.get("person") in rejected_people:
+                bad(f"{where}: this person is listed under `rejected`; remove one or the other")
+            if "confirmations" in e and not _string_list(e["confirmations"]):
+                bad(f"{where}: `confirmations` must be a list of sources (an issue, a link or a citation)")
             key = cd.person_key(e)
             if key in seen:
                 bad(f"{where}: this person appears twice; put all their periods in one entry")
@@ -123,6 +140,13 @@ def check(data):
                 s, t = cd.earliest_start(p["start"]), cd.latest_end(p["end"])
                 if s and t and t < s:
                     bad(f"{pw}: ends before it starts")
+                for which in ("start", "end"):
+                    f = cd.bound_fields(p[which])
+                    if f["not_before"] and f["not_after"] and cd.valid_date(f["not_before"]) and cd.valid_date(f["not_after"]) \
+                            and cd.earliest(f["not_after"]) < cd.earliest(f["not_before"]):
+                        bad(f"{pw} {which}: `not_after` is before `not_before`")
+                if closed_on and cd.valid_date(closed_on) and s and s > cd.latest(closed_on):
+                    bad(f"{pw}: starts after the group closed ({closed_on}): a sign that something has gone wrong")
                 spans.append((p, s, t))
             # Only certain overlaps: the later period's latest possible start
             # falls before the earlier period's earliest possible end.
@@ -135,6 +159,31 @@ def check(data):
                     shown = "present" if b1 == datetime.date.max else b1
                     bad(f"{where}: periods overlap (one runs {a1} to {shown}, the next starts {a2}); merge them")
     return problems
+
+
+OVERRIDABLE = {"name", "state", "parent", "started", "closed", "bof", "never_chartered", "chartered"}
+
+
+def _string_list(value):
+    return isinstance(value, list) and bool(value) and all(isinstance(x, str) and x.strip() for x in value)
+
+
+def _link_problems(node, where="group"):
+    """Links anywhere in a group file must be http(s): no javascript: or data: links reach the site."""
+    if isinstance(node, dict):
+        for k, v in node.items():
+            if isinstance(v, str) and (k == "url" or k.endswith("_url")) and v and not v.startswith(("https://", "http://")):
+                yield f"{where}.{k}: links must start with https://"
+            elif isinstance(v, str) and k != "url_template" and re.match(r"^\s*(javascript|data|vbscript):", v, re.I):
+                yield f"{where}.{k}: links must start with https://"
+            else:
+                yield from _link_problems(v, f"{where}.{k}")
+    elif isinstance(node, list):
+        for i, v in enumerate(node):
+            if isinstance(v, str) and re.match(r"^\s*(javascript|data|vbscript):", v, re.I):
+                yield f"{where}[{i}]: links must start with https://"
+            else:
+                yield from _link_problems(v, f"{where}[{i}]")
 
 
 def check_bound(b, which):
@@ -182,15 +231,24 @@ def changed_without_sources(data, base, repo_root):
             old = before.get(cd.person_key(e))
             if old is not None and strip_sources(old) == strip_sources(e):
                 continue
-            if not e.get("sources"):
-                verb = "adds" if old is None else "changes"
+            verb = "adds" if old is None else "changes"
+            confirming = old is not None and strip_confirmations(old) == strip_confirmations(e)
+            if not e.get("sources") and not confirming:
                 problems.append((g["_path"], f"this change {verb} the entry for {e.get('name', '?')}; "
                                              f"add a `sources` list saying where the information comes from"))
+            if not confirming and e.get("status") != "contributed":
+                problems.append((g["_path"], f"this change {verb} the entry for {e.get('name', '?')}; set its "
+                                             f"`status` to `contributed` so the next reseed keeps it"))
     return problems
 
 
 def strip_sources(e):
     return {k: v for k, v in e.items() if k != "sources"}
+
+
+def strip_confirmations(e):
+    """An entry without its confirmations: adding one is not a change to the record."""
+    return {k: v for k, v in e.items() if k not in ("sources", "confirmations")}
 
 
 def report(problems, repo_root):

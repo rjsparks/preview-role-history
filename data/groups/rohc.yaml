@@ -19,8 +19,13 @@ chairs:
       certainty: evidence-only
       not_after: '2000-03-13'
     end:
-      certainty: evidence-only
-      not_before: '2006-02-15'
+      certainty: between
+      not_before: '2005-07-31'
+      not_after: '2010-03-16'
+    notes:
+    - 'Start: named as chair in the WG Action announcement (2000-03-13)'
+    - 'End: listed as chair in meeting minutes (2005-07-31)'
+    - 'End: the group closed (2010-03-16)'
   evidence:
   - kind: WG Action
     date: '2000-03-13'
@@ -71,10 +76,11 @@ chairs:
       not_after: '2000-03-13'
     end:
       certainty: between
-      not_before: '2001-11-19'
+      not_before: '2000-03-13'
       not_after: '2002-03-05'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2002-03-05)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2000-03-13)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2002-03-05)'
   evidence:
   - kind: proceedings
     listed_in: 6
@@ -91,9 +97,9 @@ chairs:
       subject: IETF 52 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/52/237.htm
   - kind: minutes without them
-    date: '2002-11-17'
-    subject: '[rohc] ROHC Minutes, IETF 55'
-    url: https://mailarchive.ietf.org/arch/msg/rohc/ELVaeKHZs9x0mLPrvwc7NxeemDY/
+    date: '2002-03-05'
+    subject: IETF 53 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/53/234.htm
 - person: 100739
   name: Christian Schmidt
   status: unconfirmed
@@ -106,7 +112,8 @@ chairs:
       not_before: '2002-11-17'
       not_after: '2003-01-27'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2003-01-27)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2002-11-17)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2003-01-27)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -117,9 +124,9 @@ chairs:
       subject: IETF 55 proceedings charter
       url: https://www.ietf.org/proceedings/55/proxigen/rohc.txt
   - kind: minutes without them
-    date: '2003-03-16'
-    subject: '[rohc] Preliminary minutes from San Francisco'
-    url: https://mailarchive.ietf.org/arch/msg/rohc/aB5ZOvGlRYCcsCVrlHV0Z_igoqE/
+    date: '2003-01-27'
+    subject: IETF 56 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/56/240.htm
 - person: 103797
   name: Lars-Erik Jonsson
   status: unconfirmed
@@ -128,10 +135,11 @@ chairs:
       certainty: evidence-only
       not_after: '2002-03-05'
     end:
-      certainty: approximate
-      date: '2007-09-28'
+      certainty: announced
+      date: '2007-09-14'
     notes:
-    - 'End: announced on the group''s list (2007-09-28)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2002-03-05)'
+    - 'End: announced on the group''s list (2007-09-14)'
   evidence:
   - kind: WG Review
     date: '2006-07-11'
@@ -209,7 +217,8 @@ chairs:
       not_before: '2002-11-17'
       not_after: '2003-01-27'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2003-01-27)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2002-11-17)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2003-01-27)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -220,9 +229,9 @@ chairs:
       subject: IETF 55 proceedings charter
       url: https://www.ietf.org/proceedings/55/proxigen/rohc.txt
   - kind: minutes without them
-    date: '2003-03-16'
-    subject: '[rohc] Preliminary minutes from San Francisco'
-    url: https://mailarchive.ietf.org/arch/msg/rohc/aB5ZOvGlRYCcsCVrlHV0Z_igoqE/
+    date: '2003-01-27'
+    subject: IETF 56 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/56/240.htm
 - person: 105585
   name: Mark West
   status: unconfirmed
@@ -235,7 +244,8 @@ chairs:
       not_before: '2002-11-17'
       not_after: '2003-01-27'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2003-01-27)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2002-11-17)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2003-01-27)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -246,30 +256,27 @@ chairs:
       subject: IETF 55 proceedings charter
       url: https://www.ietf.org/proceedings/55/proxigen/rohc.txt
   - kind: minutes without them
-    date: '2003-03-16'
-    subject: '[rohc] Preliminary minutes from San Francisco'
-    url: https://mailarchive.ietf.org/arch/msg/rohc/aB5ZOvGlRYCcsCVrlHV0Z_igoqE/
+    date: '2003-01-27'
+    subject: IETF 56 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/56/240.htm
 - person: 108150
   name: Carl Knutsson
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2006-01-10'
+      certainty: between
       not_before: '2005-07-31'
+      not_after: '2006-01-10'
     end:
-      certainty: group-closed
-      date: '2010-03-16'
+      certainty: between
+      not_before: '2006-01-10'
+      not_after: '2006-02-15'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2005-07-31)'
     - 'Start: started a last call or adoption call on the group''s list (2006-01-10)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2005-07-31)'
+    - 'End: started a last call or adoption call on the group''s list (2006-01-10)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2006-02-15)'
   evidence:
-  - kind: list message
-    date: '2007-09-28'
-    says: start
-    subject: '[rohc] New WG chair for ROHC'
-    url: https://mailarchive.ietf.org/arch/msg/rohc/94TFQL5FZwAKzx_q6HGqoESZpNk/
-    excerpt: This is to announce that the ROHC WG now has a new chair in Carl Knutsson.
   - kind: chair activity
     first: '2006-01-10'
     last: '2006-01-10'
@@ -288,5 +295,9 @@ chairs:
       url: https://www.ietf.org/proceedings/71/rohc.html
   - kind: minutes without them
     date: '2005-07-31'
-    subject: IETF 63 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/63/minutes/rohc.html
+    subject: '[rohc] Preliminary minutes from ROHC@IETF63'
+    url: https://mailarchive.ietf.org/arch/msg/rohc/3oBVCH5fg134Br3rpdGsr-6bhlc/
+  - kind: minutes without them
+    date: '2006-02-15'
+    subject: IETF 65 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/65/rohc.html

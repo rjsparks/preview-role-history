@@ -29,7 +29,9 @@ chairs:
       not_before: '2003-03-03'
       not_after: '2003-06-06'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2003-06-06)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1997-11-10)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2003-03-03)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2003-06-06)'
   evidence:
   - kind: chair activity
     first: '1998-09-24'
@@ -79,13 +81,17 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: approximate
-      date: '2010-03-21'
+      certainty: between
+      not_before: '1997-10-30'
+      not_after: '2001-08-25'
     end:
-      certainty: group-closed
-      date: '2010-10-12'
+      certainty: between
+      not_before: '2004-03-08'
+      not_after: '2004-05-18'
     notes:
-    - 'Start: announced on the group''s list (2010-03-21)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2001-08-25)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2004-03-08)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2004-05-18)'
   evidence:
   - kind: list message
     date: '2010-03-21'
@@ -113,6 +119,10 @@ chairs:
     - date: '2010-03-23'
       subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/smime.html
+  - kind: minutes without them
+    date: '2004-05-18'
+    subject: IETF 60 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/60/223.htm
 - person: 19483
   name: Sean Turner
   status: unconfirmed
@@ -121,10 +131,13 @@ chairs:
       certainty: evidence-only
       not_after: '2003-06-06'
     end:
-      certainty: approximate
-      date: '2010-03-21'
+      certainty: between
+      not_before: '2007-12-02'
+      not_after: '2010-03-23'
     notes:
-    - 'End: announced on the group''s list (2010-03-21)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2003-06-06)'
+    - 'End: requested the group''s session for IETF 70 (2007-12-02)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2010-03-23)'
   evidence:
   - kind: WG Action
     date: '2004-09-29'
@@ -134,19 +147,6 @@ chairs:
     date: '2007-05-21'
     subject: 'WG Action: RECHARTER: S/MIME Mail Security (smime)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ig_uBOEITFGV655voXR2RaFBrmI/
-  - kind: list message
-    date: '2010-03-21'
-    says: end
-    subject: '[smime] Announcing new smime wg co-chair'
-    url: https://mailarchive.ietf.org/arch/msg/smime/tvjoI4PVZOw-HEUNNWPuKzg3hK8/
-    excerpt: I am pleased to announce that Paul Hoffman has agreed to replace Sean Turner as smime WG
-      co-chair.
-  - kind: list message
-    date: '2010-03-21'
-    says: start
-    subject: '[smime] Announcing new smime wg co-chair'
-    url: https://mailarchive.ietf.org/arch/msg/smime/tvjoI4PVZOw-HEUNNWPuKzg3hK8/
-    excerpt: (Sean is taking over Pasi Eronen's position on the IESG.)
   - kind: chair activity
     first: '2003-07-28'
     last: '2004-08-13'
@@ -175,22 +175,26 @@ chairs:
     - date: '2009-11-08'
       subject: IETF 76 proceedings charter
       url: https://www.ietf.org/proceedings/76/smime.html
-  - kind: session requests
-    meetings:
-    - '69'
-    - '70'
-    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: minutes without them
+    date: '2010-03-23'
+    subject: IETF 77 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/77/smime.html
   - kind: joined the IESG
     after_meeting: '77'
     after: '2010-03-21'
     by_meeting: '78'
     by: '2010-07-25'
+  - kind: session requests
+    meetings:
+    - '69'
+    - '70'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
 - person: 21446
   name: Blake Ramsdell
   status: confirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2003-03-25'
     end:
       certainty: group-closed

@@ -16,20 +16,12 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2005-01-25'
+      certainty: between
       not_before: '2005-01-19'
+      not_after: '2011-02-25'
     end:
-      certainty: group-closed
-      date: '2011-02-25'
+      certainty: between
+      not_before: '2011-02-25'
+      not_after: '2011-02-25'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2005-01-25)'
-  evidence:
-  - kind: proceedings
-    listed_in: 1
-    first: '2005-01-25'
-    last: '2005-01-25'
-    examples:
-    - date: '2005-01-25'
-      subject: IETF 62 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/62/lowpan.html
+    - 'End: the group closed (2011-02-25)'

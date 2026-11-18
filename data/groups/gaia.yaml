@@ -98,6 +98,16 @@ chairs:
   status: confirmed
   periods:
   - start:
+      certainty: evidence-only
+      not_after: '2017-07-13'
+    end:
+      certainty: between
+      not_before: '2017-07-13'
+      not_after: '2018-02-27'
+    notes:
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2017-07-13)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2017-07-13)'
+  - start:
       certainty: exact
       date: '2018-02-27'
     end:

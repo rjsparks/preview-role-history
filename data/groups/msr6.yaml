@@ -24,8 +24,10 @@ chairs:
     end:
       certainty: between
       not_before: '2022-07-23'
+      not_after: '2022-09-29'
     notes:
-    - 'End: after the BOF''s last session, IETF 114 (2022-07-23)'
+    - 'End: the BOF met at IETF 114 (2022-07-23)'
+    - 'End: the group closed (2022-09-29)'
   evidence:
   - kind: BOF session
     meeting: '114'
@@ -40,9 +42,11 @@ chairs:
       date: '2022-06-30'
     end:
       certainty: between
-      not_before: '2022-07-23'
+      not_before: '2022-07-26'
+      not_after: '2022-09-29'
     notes:
-    - 'End: after the BOF''s last session, IETF 114 (2022-07-23)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2022-07-26)'
+    - 'End: the group closed (2022-09-29)'
   evidence:
   - kind: chair activity
     first: '2022-07-26'

@@ -21,7 +21,6 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2014-06-11'
-      not_before: '2014-06-11'
     end:
       certainty: group-closed
       date: '2016-11-15'
@@ -82,10 +81,6 @@ chairs:
     - date: '2014-07-11'
       subject: '[Ianaplan] Agenda for IETF 90'
       url: https://mailarchive.ietf.org/arch/msg/ianaplan/-EpJMGrjkqFshIS4RDFrtLCQtK0/
-  - kind: minutes without them
-    date: '2014-11-09'
-    subject: IETF 91 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/91/minutes/minutes-91-ianaplan.txt
   - kind: shepherded
     documents:
     - draft-ietf-ianaplan-icg-response

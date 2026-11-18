@@ -16,14 +16,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1994-03-28'
+      certainty: between
       not_before: '1993-04-23'
+      not_after: '1994-03-23'
     end:
       certainty: group-closed
       date: '1995-05-05'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (1994-03-23)'
   evidence:
   - kind: chair activity
     first: '1994-03-23'

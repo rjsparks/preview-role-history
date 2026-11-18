@@ -20,9 +20,10 @@ chairs:
       not_after: '1995-04-03'
     end:
       certainty: between
-      not_before: '1995-12-04'
+      not_before: '1995-04-03'
       not_after: '1996-03-04'
     notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (1995-04-03)'
     - 'End: became an Area Director, first serving at IETF 35 (1996-03-04)'
   evidence:
   - kind: proceedings
@@ -49,9 +50,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1997-04-07'
+      certainty: between
       not_before: '1995-05-08'
+      not_after: '1997-04-07'
     end:
       certainty: group-closed
       date: '2001-04-26'
@@ -70,7 +71,7 @@ chairs:
       subject: WG Last Call of draft-ietf-drums-smtpupd-13.txt
       url: https://mailarchive.ietf.org/arch/msg/drums/DfEt0NTGPAAHuhWA8P3y1jJUuh0/
   - kind: proceedings
-    listed_in: 11
+    listed_in: 10
     first: '1997-04-07'
     last: '2001-03-14'
     examples:

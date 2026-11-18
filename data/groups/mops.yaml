@@ -38,32 +38,6 @@ chairs:
     subject: '[Mops] Change about the MOPS WG chair'
     url: https://mailarchive.ietf.org/arch/msg/mops/VllJ3vvwGd75aZY2nbz8IdwM5Ww/
     excerpt: And also, please join me to thank Jana for taking over Kyle's role.
-- person: 109073
-  name: John Moy
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: evidence-only
-      not_after: '1997-08-11'
-    end:
-      certainty: between
-      not_before: '1997-08-11'
-      not_after: '2019-11-16'
-    notes:
-    - 'End: no longer listed among the chairs in meeting minutes (2019-11-16)'
-  evidence:
-  - kind: proceedings
-    listed_in: 1
-    first: '1997-08-11'
-    last: '1997-08-11'
-    examples:
-    - date: '1997-08-11'
-      subject: IETF 39 proceedings charter
-      url: https://www.ietf.org/proceedings/39/transit97aug-87.htm
-  - kind: minutes without them
-    date: '2019-11-16'
-    subject: '[Mops] Last Call -- Minutes from MOPS at IETF 106 in Singapore'
-    url: https://mailarchive.ietf.org/arch/msg/mops/XNSXxdJAz_0fFEs6YFQQ28Gg1Zo/
 - person: 109223
   name: Leslie Daigle
   status: confirmed
@@ -71,7 +45,6 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2019-06-11'
-      not_before: '2019-06-11'
     end:
       certainty: ongoing
   evidence:
@@ -91,13 +64,6 @@ chairs:
     date: '2026-10-08'
     subject: 'WG Action: Rechartered Media OPerationS (mops)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ri8_doJu2QnOxjfziWWsZPwhPNo/
-  - kind: list message
-    date: '2026-02-22'
-    says: end
-    subject: '[Mops] Change about the MOPS WG chair'
-    url: https://mailarchive.ietf.org/arch/msg/mops/VllJ3vvwGd75aZY2nbz8IdwM5Ww/
-    excerpt: As you may remember, Kyle Rose, our initial MOPS WG chair with Leslie, wanted to step down
-      as WG Chair.
   - kind: chair activity
     first: '2019-07-31'
     last: '2026-11-09'
@@ -130,7 +96,6 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2019-06-11'
-      not_before: '2019-06-11'
     end:
       certainty: exact
       date: '2019-09-30'
@@ -166,19 +131,6 @@ chairs:
     subject: '[Mops] Change in the MOPS chairs'
     url: https://mailarchive.ietf.org/arch/msg/mops/5f9efXfXQo_jBmibF6aA1R3l2bs/
     excerpt: So, please welcome Kyle in this role :-)
-  - kind: list message
-    date: '2026-02-22'
-    says: end
-    subject: '[Mops] Change about the MOPS WG chair'
-    url: https://mailarchive.ietf.org/arch/msg/mops/VllJ3vvwGd75aZY2nbz8IdwM5Ww/
-    excerpt: As you may remember, Kyle Rose, our initial MOPS WG chair with Leslie, wanted to step down
-      as WG Chair.
-  - kind: list message
-    date: '2026-02-22'
-    says: start
-    subject: '[Mops] Change about the MOPS WG chair'
-    url: https://mailarchive.ietf.org/arch/msg/mops/VllJ3vvwGd75aZY2nbz8IdwM5Ww/
-    excerpt: Please join me to thank Kyle for having been the MOPS chair since December 2019.
   - kind: chair activity
     first: '2020-04-22'
     last: '2023-11-30'
@@ -193,7 +145,3 @@ chairs:
     - date: '2023-11-30'
       subject: '[Mops] WGLC started for TreeDN'
       url: https://mailarchive.ietf.org/arch/msg/mops/kuIlPp80M0_iisjP_JA2QNDMlx4/
-  - kind: minutes without them
-    date: '2019-11-16'
-    subject: '[Mops] Last Call -- Minutes from MOPS at IETF 106 in Singapore'
-    url: https://mailarchive.ietf.org/arch/msg/mops/XNSXxdJAz_0fFEs6YFQQ28Gg1Zo/

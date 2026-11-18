@@ -16,13 +16,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: approximate
-      date: '2003-08-21'
+      certainty: announced
+      date: '2003-08-26'
     end:
       certainty: group-closed
       date: '2007-04-04'
     notes:
-    - 'Start: announced on the group''s list (2003-08-21)'
+    - 'Start: announced on the group''s list (2003-08-26)'
   evidence:
   - kind: list message
     date: '2003-08-21'
@@ -79,14 +79,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2004-07-23'
+      certainty: between
       not_before: '2003-06-26'
+      not_after: '2003-08-21'
     end:
       certainty: group-closed
       date: '2007-04-04'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2004-07-23)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2003-08-21)'
   evidence:
   - kind: chair activity
     first: '2003-08-21'

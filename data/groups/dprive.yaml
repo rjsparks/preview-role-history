@@ -60,10 +60,6 @@ chairs:
     - date: '2022-07-23'
       subject: '[dns-privacy] Minutes from IETF114'
       url: https://mailarchive.ietf.org/arch/msg/dns-privacy/d8SJFhPyNWBLqbWVCvdl7wap_bk/
-  - kind: minutes without them
-    date: '2016-04-03'
-    subject: IETF 95 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/95/minutes/minutes-95-dprive.txt
   - kind: shepherded
     documents:
     - draft-ietf-dprive-dnsoquic
@@ -140,18 +136,14 @@ chairs:
     - date: '2016-11-13'
       subject: IETF 97 proceedings charter
       url: https://www.ietf.org/proceedings/97/dprive.html
-  - kind: minutes without them
-    date: '2022-07-23'
-    subject: '[dns-privacy] Minutes from IETF114'
-    url: https://mailarchive.ietf.org/arch/msg/dns-privacy/d8SJFhPyNWBLqbWVCvdl7wap_bk/
-  - kind: shepherded
-    documents:
-    - draft-ietf-dprive-problem-statement
   - kind: joined the IESG
     after_meeting: '98'
     after: '2017-03-26'
     by_meeting: '99'
     by: '2017-07-16'
+  - kind: shepherded
+    documents:
+    - draft-ietf-dprive-problem-statement
 - person: 115244
   name: Tim Wicinski
   status: confirmed

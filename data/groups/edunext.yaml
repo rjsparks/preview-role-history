@@ -23,22 +23,16 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2015-06-11'
-      not_before: '2015-06-11'
+      date: '2014-07-20'
     end:
       certainty: between
       not_before: '2015-07-19'
+      not_after: '2015-09-21'
     notes:
-    - 'End: after the BOF''s last session, IETF 93 (2015-07-19)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
+    - 'End: the BOF met at IETF 93 (2015-07-19)'
+    - 'End: the group closed (2015-09-21)'
   evidence:
-  - kind: BOF session
-    meeting: '90'
-    date: '2014-07-20'
-    url: https://www.ietf.org/proceedings/90/edunext.html
-  - kind: BOF session
-    meeting: '93'
-    date: '2015-07-19'
-    url: https://datatracker.ietf.org/meeting/93/session/edunext/
   - kind: proceedings
     listed_in: 2
     first: '2014-07-20'
@@ -50,24 +44,34 @@ chairs:
     - date: '2015-07-19'
       subject: IETF 93 proceedings charter
       url: https://www.ietf.org/proceedings/93/edunext.html
+  - kind: BOF session
+    meeting: '90'
+    date: '2014-07-20'
+    url: https://www.ietf.org/proceedings/90/edunext.html
+  - kind: BOF session
+    meeting: '93'
+    date: '2015-07-19'
+    url: https://datatracker.ietf.org/meeting/93/session/edunext/
 - person: 116229
   name: Mirjam Kuehne
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2015-06-11'
-      not_before: '2015-06-11'
+      date: '2014-07-20'
     end:
       certainty: between
-      not_before: '2015-07-19'
+      not_before: '2015-07-21'
+      not_after: '2015-09-21'
     notes:
-    - 'End: after the BOF''s last session, IETF 93 (2015-07-19)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2015-07-21)'
+    - 'End: the group closed (2015-09-21)'
   evidence:
   - kind: chair activity
     first: '2015-03-29'
-    last: '2016-07-15'
-    messages: 3
+    last: '2015-07-21'
+    messages: 2
     examples:
     - date: '2015-03-29'
       subject: '[edu-team] Edu Team Meeting Minutes 26 March 2015'
@@ -75,14 +79,6 @@ chairs:
     - date: '2015-07-21'
       subject: '[edu-team] Minutes of Edu Team meeting on 21 July 2015'
       url: https://mailarchive.ietf.org/arch/msg/edu-team/JPfsOjKQQ0vPwI3Y01FtQlbYrvc/
-  - kind: BOF session
-    meeting: '90'
-    date: '2014-07-20'
-    url: https://www.ietf.org/proceedings/90/edunext.html
-  - kind: BOF session
-    meeting: '93'
-    date: '2015-07-19'
-    url: https://datatracker.ietf.org/meeting/93/session/edunext/
   - kind: proceedings
     listed_in: 2
     first: '2014-07-20'
@@ -94,3 +90,11 @@ chairs:
     - date: '2015-07-19'
       subject: IETF 93 proceedings charter
       url: https://www.ietf.org/proceedings/93/edunext.html
+  - kind: BOF session
+    meeting: '90'
+    date: '2014-07-20'
+    url: https://www.ietf.org/proceedings/90/edunext.html
+  - kind: BOF session
+    meeting: '93'
+    date: '2015-07-19'
+    url: https://datatracker.ietf.org/meeting/93/session/edunext/

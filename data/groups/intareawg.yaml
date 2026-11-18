@@ -16,20 +16,26 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-02-25'
+      certainty: between
       not_before: '2009-09-30'
+      not_after: '2011-02-25'
     end:
-      certainty: group-closed
-      date: '2011-02-25'
+      certainty: between
+      not_before: '2011-02-25'
+      not_after: '2011-02-25'
+    notes:
+    - 'End: the group closed (2011-02-25)'
 - person: 21072
   name: Jari Arkko
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-02-25'
+      certainty: between
       not_before: '2009-09-30'
+      not_after: '2011-02-25'
     end:
-      certainty: group-closed
-      date: '2011-02-25'
+      certainty: between
+      not_before: '2011-02-25'
+      not_after: '2011-02-25'
+    notes:
+    - 'End: the group closed (2011-02-25)'

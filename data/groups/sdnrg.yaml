@@ -45,10 +45,6 @@ chairs:
     - date: '2015-03-22'
       subject: IETF 92 proceedings charter
       url: https://www.ietf.org/proceedings/92/sdnrg.html
-  - kind: minutes without them
-    date: '2016-07-17'
-    subject: IETF 96 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-sdnrg.txt
   - kind: shepherded
     documents:
     - draft-irtf-sdnrg-layer-terminology
@@ -91,29 +87,19 @@ chairs:
     - date: '2016-07-17'
       subject: IETF 96 proceedings charter
       url: https://www.ietf.org/proceedings/96/sdnrg.html
-- person: 108591
-  name: Laurent Ciavaglia
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: evidence-only
-      not_after: '2016-07-17'
-    end:
-      certainty: evidence-only
-      not_before: '2016-07-17'
-  evidence:
-  - kind: minutes
-    listed_in: 1
-    first: '2016-07-17'
-    last: '2016-07-17'
-    examples:
-    - date: '2016-07-17'
-      subject: IETF 96 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/96/minutes/minutes-96-sdnrg.txt
 - person: 109558
   name: Daniel King
   status: confirmed
   periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2013-03-10'
+    end:
+      certainty: between
+      not_before: '2013-03-10'
+      not_after: '2014-11-11'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2013-03-10)'
   - start:
       certainty: exact
       date: '2014-11-11'
@@ -169,7 +155,3 @@ chairs:
     - date: '2014-03-02'
       subject: IETF 89 proceedings charter
       url: https://www.ietf.org/proceedings/89/sdnrg.html
-  - kind: minutes without them
-    date: '2016-07-17'
-    subject: IETF 96 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-sdnrg.txt

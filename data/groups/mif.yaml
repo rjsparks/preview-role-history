@@ -5,57 +5,27 @@ parent: int
 state: conclude
 started: '2009-04-02'
 closed: '2016-05-10'
-bof: false
+bof: true
 never_chartered: false
 chartered: '2009-04-28'
-bof_sessions: []
+bof_sessions:
+- meeting: '74'
+  date: '2009-03-22'
+  url: https://datatracker.ietf.org/meeting/74/session/mif/
 history_url: https://datatracker.ietf.org/group/mif/history/
 chairs:
-- person: 15927
-  name: Dave Thaler
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: between
-      not_before: '2010-03-21'
-      not_after: '2011-07-24'
-    end:
-      certainty: between
-      not_before: '2011-07-24'
-      not_after: '2011-11-13'
-    notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-11-13)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2010-03-21)'
-  evidence:
-  - kind: minutes
-    listed_in: 1
-    first: '2011-07-24'
-    last: '2011-07-24'
-    examples:
-    - date: '2011-07-24'
-      subject: IETF 81 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/81/minutes/mif.txt
-  - kind: minutes without them
-    date: '2010-03-21'
-    subject: IETF 77 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/77/minutes/mif.txt
-  - kind: minutes without them
-    date: '2012-07-29'
-    subject: IETF 84 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/84/minutes/minutes-84-mif.txt
 - person: 109884
   name: Hui Deng
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2009-07-26'
-      not_before: '2009-04-02'
+      date: '2009-03-22'
     end:
       certainty: group-closed
       date: '2016-05-10'
     notes:
-    - 'Start: requested the group''s session for IETF 75 (2009-07-26)'
+    - 'Start: listed as chair in meeting minutes (2009-03-22)'
   evidence:
   - kind: WG Review
     date: '2010-10-25'
@@ -142,20 +112,22 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-11-23'
-      not_before: '2009-04-02'
+      date: '2009-03-22'
     end:
-      certainty: approximate
-      date: '2013-03-13'
+      certainty: between
+      not_before: '2013-03-13'
+      not_after: '2013-03-13'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2010-11-23)'
+    - 'Start: listed as chair in meeting minutes (2009-03-22)'
   - start:
       certainty: between
       not_before: '2013-03-13'
-      not_after: '2015-03-26'
+      not_after: '2013-07-28'
     end:
       certainty: group-closed
       date: '2016-05-10'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2013-07-28)'
   evidence:
   - kind: WG Review
     date: '2010-10-25'

@@ -19,9 +19,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2000-10-11'
+      certainty: between
       not_before: '1998-09-25'
+      not_after: '2000-10-11'
     end:
       certainty: group-closed
       date: '2004-11-05'
@@ -47,9 +47,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1998-11-25'
+      certainty: between
       not_before: '1998-09-25'
+      not_after: '1998-11-25'
     end:
       certainty: group-closed
       date: '2004-11-05'
@@ -79,10 +79,12 @@ chairs:
       not_after: '1998-10-23'
     end:
       certainty: between
-      not_before: '2000-07-17'
+      not_before: '1998-10-23'
       not_after: '2000-10-11'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2000-10-11)'
+    - 'Start: named as chair in the WG Action announcement (1998-10-23)'
+    - 'End: named as chair in the WG Action announcement (1998-10-23)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2000-10-11)'
   evidence:
   - kind: WG Action
     date: '1998-10-23'

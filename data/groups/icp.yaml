@@ -26,16 +26,14 @@ chairs:
       date: '1996-12-09'
     end:
       certainty: between
-      not_before: '1997-04-07'
+      not_before: '1996-12-09'
+      not_after: '1997-01-01'
     notes:
     - 'Start: the BOF met at IETF 37 (1996-12-09)'
-    - 'End: after the BOF''s last session, IETF 38 (1997-04-07)'
+    - 'End: the BOF met at IETF 37 (1996-12-09)'
+    - 'End: the group closed (1997-01-01)'
   evidence:
   - kind: BOF session
     meeting: '37'
     date: '1996-12-09'
     url: https://www.ietf.org/proceedings/37/index.html
-  - kind: BOF session
-    meeting: '38'
-    date: '1997-04-07'
-    url: https://www.ietf.org/proceedings/38/97apr-final/httoc.htm

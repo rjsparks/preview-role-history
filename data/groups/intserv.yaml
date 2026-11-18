@@ -23,10 +23,11 @@ chairs:
       not_after: '1994-12-05'
     end:
       certainty: between
-      not_before: '1997-04-07'
-      not_after: '1997-08-11'
+      not_before: '1994-12-05'
+      not_after: '2000-12-20'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (1997-08-11)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1994-12-05)'
+    - 'End: the group closed (2000-12-20)'
   evidence:
   - kind: proceedings
     listed_in: 5
@@ -42,10 +43,6 @@ chairs:
     - date: '1997-04-07'
       subject: IETF 38 proceedings charter
       url: https://www.ietf.org/proceedings/38/97apr-final/xrtft114.htm
-  - kind: minutes without them
-    date: '1997-08-11'
-    subject: IETF 39 proceedings charter
-    url: https://www.ietf.org/proceedings/39/transit97aug-112.htm
 - person: 1307
   name: Craig Partridge
   status: unconfirmed
@@ -54,8 +51,12 @@ chairs:
       certainty: evidence-only
       not_after: '1994-03-28'
     end:
-      certainty: evidence-only
-      not_before: '1997-08-11'
+      certainty: between
+      not_before: '1994-03-28'
+      not_after: '2000-12-20'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
+    - 'End: the group closed (2000-12-20)'
   evidence:
   - kind: proceedings
     listed_in: 7
@@ -80,10 +81,11 @@ chairs:
       not_after: '1994-03-28'
     end:
       certainty: between
-      not_before: '1995-07-17'
-      not_after: '1995-12-04'
+      not_before: '1994-03-28'
+      not_after: '2000-12-20'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (1995-12-04)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
+    - 'End: the group closed (2000-12-20)'
   evidence:
   - kind: proceedings
     listed_in: 4
@@ -99,21 +101,18 @@ chairs:
     - date: '1995-07-17'
       subject: IETF 33 proceedings charter
       url: https://www.ietf.org/proceedings/33/area.and.wg.reports/tsv/intserv/intserv-charter.txt
-  - kind: minutes without them
-    date: '1995-12-04'
-    subject: IETF 34 proceedings charter
-    url: https://www.ietf.org/proceedings/34/area.and.wg.reports/tsv/intserv/intserv-charter.txt
 - person: 8715
   name: John Wroclawski
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2000-12-20'
-      not_before: '1994-05-12'
+      date: '1994-03-28'
     end:
       certainty: group-closed
       date: '2000-12-20'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
   evidence:
   - kind: proceedings
     listed_in: 13

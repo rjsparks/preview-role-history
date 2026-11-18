@@ -131,6 +131,16 @@ chairs:
     end:
       certainty: exact
       date: '2025-03-20'
+  - start:
+      certainty: between
+      not_before: '2025-03-20'
+      not_after: '2025-03-31'
+    end:
+      certainty: evidence-only
+      not_before: '2026-10-26'
+    notes:
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2025-03-31)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2026-10-26)'
   evidence:
   - kind: WG Review
     date: '2022-08-15'

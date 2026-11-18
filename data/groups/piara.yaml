@@ -24,20 +24,16 @@ chairs:
     end:
       certainty: between
       not_before: '1996-06-24'
-      not_after: '2002-07-14'
+      not_after: '1997-01-01'
     notes:
     - 'Start: the BOF met at IETF 36 (1996-06-24)'
-    - 'End: became an Area Director, first serving at IETF 54 (2002-07-14)'
+    - 'End: the BOF met at IETF 36 (1996-06-24)'
+    - 'End: the group closed (1997-01-01)'
   evidence:
   - kind: BOF session
     meeting: '36'
     date: '1996-06-24'
     url: https://www.ietf.org/proceedings/36/OLD/toc-96jun.html
-  - kind: joined the IESG
-    after_meeting: '53'
-    after: '2002-03-17'
-    by_meeting: '54'
-    by: '2002-07-14'
 - person: 10535
   name: Yakov Rekhter
   status: confirmed
@@ -48,9 +44,11 @@ chairs:
     end:
       certainty: between
       not_before: '1996-06-24'
+      not_after: '1997-01-01'
     notes:
     - 'Start: the BOF met at IETF 36 (1996-06-24)'
-    - 'End: after the BOF''s last session, IETF 36 (1996-06-24)'
+    - 'End: the BOF met at IETF 36 (1996-06-24)'
+    - 'End: the group closed (1997-01-01)'
   evidence:
   - kind: BOF session
     meeting: '36'
@@ -66,9 +64,11 @@ chairs:
     end:
       certainty: between
       not_before: '1996-06-24'
+      not_after: '1997-01-01'
     notes:
     - 'Start: the BOF met at IETF 36 (1996-06-24)'
-    - 'End: after the BOF''s last session, IETF 36 (1996-06-24)'
+    - 'End: the BOF met at IETF 36 (1996-06-24)'
+    - 'End: the group closed (1997-01-01)'
   evidence:
   - kind: BOF session
     meeting: '36'

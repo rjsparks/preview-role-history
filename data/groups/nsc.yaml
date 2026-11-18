@@ -14,6 +14,28 @@ bof_sessions:
   url: https://datatracker.ietf.org/meeting/87/session/nsc/
 history_url: https://datatracker.ietf.org/group/nsc/history/
 chairs:
+- person: 3862
+  name: Joel Halpern
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2013-07-28'
+    end:
+      certainty: group-closed
+    notes:
+    - 'Start: the BOF met at IETF 87 (2013-07-28)'
+  evidence:
+  - kind: list message
+    date: '2016-11-01'
+    says: start
+    subject: '[sfc] SFC Chair Changes'
+    url: https://mailarchive.ietf.org/arch/msg/sfc/L9MINb-1gNrn9NAE40SoBH3TdFo/
+    excerpt: I am appointing Joel Halpern to replace them.
+  - kind: BOF session
+    meeting: '87'
+    date: '2013-07-28'
+    url: https://datatracker.ietf.org/meeting/87/session/nsc/
 - person: 7262
   name: Thomas Narten
   status: confirmed
@@ -23,16 +45,10 @@ chairs:
       not_before: '2013-06-20'
       not_after: '2013-07-28'
     end:
-      certainty: between
-      not_before: '2013-07-28'
+      certainty: group-closed
     notes:
-    - 'Start: the BOF met at IETF 87 (2013-07-28)'
-    - 'End: after the BOF''s last session, IETF 87 (2013-07-28)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2013-07-28)'
   evidence:
-  - kind: BOF session
-    meeting: '87'
-    date: '2013-07-28'
-    url: https://datatracker.ietf.org/meeting/87/session/nsc/
   - kind: proceedings
     listed_in: 1
     first: '2013-07-28'
@@ -41,6 +57,10 @@ chairs:
     - date: '2013-07-28'
       subject: IETF 87 proceedings charter
       url: https://www.ietf.org/proceedings/87/nsc.html
+  - kind: BOF session
+    meeting: '87'
+    date: '2013-07-28'
+    url: https://datatracker.ietf.org/meeting/87/session/nsc/
 - person: 105906
   name: Jim Guichard
   status: confirmed
@@ -53,13 +73,9 @@ chairs:
       certainty: approximate
       date: '2023-03-29'
     notes:
-    - 'Start: the BOF met at IETF 87 (2013-07-28)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2013-07-28)'
     - 'End: became an Area Director, per the datatracker''s IESG roles (2023-03-29)'
   evidence:
-  - kind: BOF session
-    meeting: '87'
-    date: '2013-07-28'
-    url: https://datatracker.ietf.org/meeting/87/session/nsc/
   - kind: proceedings
     listed_in: 1
     first: '2013-07-28'
@@ -68,6 +84,10 @@ chairs:
     - date: '2013-07-28'
       subject: IETF 87 proceedings charter
       url: https://www.ietf.org/proceedings/87/nsc.html
+  - kind: BOF session
+    meeting: '87'
+    date: '2013-07-28'
+    url: https://datatracker.ietf.org/meeting/87/session/nsc/
   - kind: joined the IESG
     after_meeting: '116'
     after: '2023-03-25'

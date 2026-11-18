@@ -24,14 +24,12 @@ chairs:
     end:
       certainty: between
       not_before: '2011-11-13'
+      not_after: '2013-01-31'
     notes:
-    - 'Start: the BOF met at IETF 82 (2011-11-13)'
-    - 'End: after the BOF''s last session, IETF 82 (2011-11-13)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2011-11-13)'
+    - 'End: the BOF met at IETF 82 (2011-11-13)'
+    - 'End: the group closed (2013-01-31)'
   evidence:
-  - kind: BOF session
-    meeting: '82'
-    date: '2011-11-13'
-    url: https://www.ietf.org/proceedings/82/sdn.html
   - kind: proceedings
     listed_in: 4
     first: '2011-11-13'
@@ -46,6 +44,10 @@ chairs:
     - date: '2012-11-04'
       subject: IETF 85 proceedings charter
       url: https://www.ietf.org/proceedings/85/sdn.html
+  - kind: BOF session
+    meeting: '82'
+    date: '2011-11-13'
+    url: https://www.ietf.org/proceedings/82/sdn.html
 - person: 112160
   name: Wesley George
   status: confirmed
@@ -56,14 +58,12 @@ chairs:
     end:
       certainty: between
       not_before: '2011-11-13'
+      not_after: '2013-01-31'
     notes:
-    - 'Start: the BOF met at IETF 82 (2011-11-13)'
-    - 'End: after the BOF''s last session, IETF 82 (2011-11-13)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2011-11-13)'
+    - 'End: the BOF met at IETF 82 (2011-11-13)'
+    - 'End: the group closed (2013-01-31)'
   evidence:
-  - kind: BOF session
-    meeting: '82'
-    date: '2011-11-13'
-    url: https://www.ietf.org/proceedings/82/sdn.html
   - kind: proceedings
     listed_in: 4
     first: '2011-11-13'
@@ -78,3 +78,7 @@ chairs:
     - date: '2012-11-04'
       subject: IETF 85 proceedings charter
       url: https://www.ietf.org/proceedings/85/sdn.html
+  - kind: BOF session
+    meeting: '82'
+    date: '2011-11-13'
+    url: https://www.ietf.org/proceedings/82/sdn.html

@@ -5,10 +5,16 @@ parent: irtf
 state: active
 started: '2016-01-13'
 closed: null
-bof: false
+bof: true
 never_chartered: false
 chartered: '2016-08-22'
-bof_sessions: []
+bof_sessions:
+- meeting: '95'
+  date: '2016-04-03'
+  url: https://datatracker.ietf.org/meeting/95/session/maprg/
+- meeting: '96'
+  date: '2016-07-17'
+  url: https://datatracker.ietf.org/meeting/96/session/maprg/
 history_url: https://datatracker.ietf.org/group/maprg/history/
 chairs:
 - person: 112330
@@ -17,10 +23,11 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2016-01-13'
-      not_before: '2016-01-13'
+      date: '2015-11-01'
     end:
       certainty: ongoing
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2015-11-01)'
   evidence:
   - kind: chair activity
     first: '2016-04-19'

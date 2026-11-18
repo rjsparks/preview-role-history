@@ -32,15 +32,24 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-02-13'
+      date: '2003-11-09'
     end:
       certainty: between
-      not_before: '2005-07-31'
-      not_after: '2007-07-22'
+      not_before: '2005-05-11'
+      not_after: '2005-05-11'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2004-02-13)'
-    - 'End: became an Area Director, first serving at IETF 69 (2007-07-22)'
+    - 'Start: the BOF met at IETF 58 (2003-11-09)'
+    - 'End: the BOF met at IETF 63 (2005-07-31)'
+    - 'End: the group closed (2005-05-11)'
   evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2004-02-13'
+    last: '2004-02-13'
+    examples:
+    - date: '2004-02-13'
+      subject: IETF 61 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/61/hipbof.html
   - kind: BOF session
     meeting: '58'
     date: '2003-11-09'
@@ -59,36 +68,32 @@ chairs:
     url: https://www.ietf.org/proceedings/62/hipbof.html
   - kind: BOF session
     meeting: '63'
-    date: '2005-07-31'
+    date: '2005-05-11'
     url: https://www.ietf.org/proceedings/63/pr.html
-  - kind: proceedings
-    listed_in: 1
-    first: '2004-02-13'
-    last: '2004-02-13'
-    examples:
-    - date: '2004-02-13'
-      subject: IETF 61 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/61/hipbof.html
-  - kind: joined the IESG
-    after_meeting: '68'
-    after: '2007-03-18'
-    by_meeting: '69'
-    by: '2007-07-22'
 - person: 103539
   name: Gonzalo Camarillo
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-02-13'
+      date: '2003-11-09'
     end:
       certainty: between
-      not_before: '2005-07-31'
-      not_after: '2010-07-25'
+      not_before: '2005-05-11'
+      not_after: '2005-05-11'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2004-02-13)'
-    - 'End: became an Area Director, first serving at IETF 78 (2010-07-25)'
+    - 'Start: the BOF met at IETF 58 (2003-11-09)'
+    - 'End: the BOF met at IETF 63 (2005-07-31)'
+    - 'End: the group closed (2005-05-11)'
   evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2004-02-13'
+    last: '2004-02-13'
+    examples:
+    - date: '2004-02-13'
+      subject: IETF 61 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/61/hipbof.html
   - kind: BOF session
     meeting: '58'
     date: '2003-11-09'
@@ -107,18 +112,5 @@ chairs:
     url: https://www.ietf.org/proceedings/62/hipbof.html
   - kind: BOF session
     meeting: '63'
-    date: '2005-07-31'
+    date: '2005-05-11'
     url: https://www.ietf.org/proceedings/63/pr.html
-  - kind: proceedings
-    listed_in: 1
-    first: '2004-02-13'
-    last: '2004-02-13'
-    examples:
-    - date: '2004-02-13'
-      subject: IETF 61 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/61/hipbof.html
-  - kind: joined the IESG
-    after_meeting: '77'
-    after: '2010-03-21'
-    by_meeting: '78'
-    by: '2010-07-25'

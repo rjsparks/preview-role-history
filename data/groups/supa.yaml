@@ -24,7 +24,6 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2015-02-12'
-      not_before: '2015-02-12'
     end:
       certainty: approximate
       date: '2015-09-02'
@@ -37,10 +36,6 @@ chairs:
     - date: '2015-03-22'
       subject: IETF 92 proceedings charter
       url: https://www.ietf.org/proceedings/92/supa.html
-  - kind: minutes without them
-    date: '2016-04-03'
-    subject: '[Supa] DRAFT minutes for SUPA WG at IETF 95'
-    url: https://mailarchive.ietf.org/arch/msg/supa/yaRqMOSRQvkbdWqCE_CmqHUIg28/
 - person: 6766
   name: Nevil Brownlee
   status: confirmed
@@ -107,11 +102,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2015-02-12'
-      not_before: '2015-02-12'
+      date: '2014-11-03'
     end:
       certainty: approximate
       date: '2015-09-02'
+    notes:
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2014-11-03)'
   evidence:
   - kind: chair activity
     first: '2014-11-03'
@@ -132,10 +128,6 @@ chairs:
     - date: '2015-03-22'
       subject: IETF 92 proceedings charter
       url: https://www.ietf.org/proceedings/92/supa.html
-  - kind: minutes without them
-    date: '2016-04-03'
-    subject: '[Supa] DRAFT minutes for SUPA WG at IETF 95'
-    url: https://mailarchive.ietf.org/arch/msg/supa/yaRqMOSRQvkbdWqCE_CmqHUIg28/
 - person: 109558
   name: Daniel King
   status: confirmed

@@ -24,10 +24,11 @@ chairs:
     end:
       certainty: between
       not_before: '2006-07-09'
-      not_after: '2011-07-24'
+      not_after: '2006-08-28'
     notes:
-    - 'Start: the BOF met at IETF 66 (2006-07-09)'
-    - 'End: became an Area Director, first serving at IETF 81 (2011-07-24)'
+    - 'Start: listed as chair in meeting minutes (2006-07-09)'
+    - 'End: listed as chair in meeting minutes (2006-07-09)'
+    - 'End: the group closed (2006-08-28)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -37,10 +38,6 @@ chairs:
     - date: '2006-07-09'
       subject: IETF 66 minutes in the proceedings
       url: https://www.ietf.org/proceedings/66/minutes/wae.txt
-  - kind: BOF session
-    meeting: '66'
-    date: '2006-07-09'
-    url: https://datatracker.ietf.org/meeting/66/session/wae/
   - kind: proceedings
     listed_in: 2
     first: '2006-07-09'
@@ -52,8 +49,7 @@ chairs:
     - date: '2006-08-28'
       subject: IETF 67 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/67/wae.html
-  - kind: joined the IESG
-    after_meeting: '80'
-    after: '2011-03-27'
-    by_meeting: '81'
-    by: '2011-07-24'
+  - kind: BOF session
+    meeting: '66'
+    date: '2006-07-09'
+    url: https://datatracker.ietf.org/meeting/66/session/wae/

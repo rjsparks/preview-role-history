@@ -21,11 +21,15 @@ chairs:
   - start:
       certainty: between
       not_before: '2012-02-23'
+      not_after: '2012-03-25'
     end:
       certainty: between
       not_before: '2012-03-25'
+      not_after: '2013-01-31'
     notes:
-    - 'End: after the BOF''s last session, IETF 83 (2012-03-25)'
+    - 'Start: listed as chair in meeting minutes (2012-03-25)'
+    - 'End: listed as chair in meeting minutes (2012-03-25)'
+    - 'End: the group closed (2013-01-31)'
   evidence:
   - kind: minutes
     listed_in: 2
@@ -38,10 +42,6 @@ chairs:
     - date: '2012-03-25'
       subject: IETF 83 minutes in the proceedings
       url: https://www.ietf.org/proceedings/83/minutes/minutes-83-i2aex.txt
-  - kind: BOF session
-    meeting: '83'
-    date: '2012-03-25'
-    url: https://datatracker.ietf.org/meeting/83/session/i2aex/
   - kind: proceedings
     listed_in: 3
     first: '2012-03-25'
@@ -56,6 +56,10 @@ chairs:
     - date: '2012-11-04'
       subject: IETF 85 proceedings charter
       url: https://www.ietf.org/proceedings/85/i2aex.html
+  - kind: BOF session
+    meeting: '83'
+    date: '2012-03-25'
+    url: https://datatracker.ietf.org/meeting/83/session/i2aex/
 - person: 107190
   name: Spencer Dawkins
   status: confirmed
@@ -63,11 +67,15 @@ chairs:
   - start:
       certainty: between
       not_before: '2012-02-23'
+      not_after: '2012-03-25'
     end:
       certainty: between
       not_before: '2012-03-25'
+      not_after: '2013-01-31'
     notes:
-    - 'End: after the BOF''s last session, IETF 83 (2012-03-25)'
+    - 'Start: listed as chair in meeting minutes (2012-03-25)'
+    - 'End: listed as chair in meeting minutes (2012-03-25)'
+    - 'End: the group closed (2013-01-31)'
   evidence:
   - kind: minutes
     listed_in: 2
@@ -80,10 +88,6 @@ chairs:
     - date: '2012-03-25'
       subject: IETF 83 minutes in the proceedings
       url: https://www.ietf.org/proceedings/83/minutes/minutes-83-i2aex.txt
-  - kind: BOF session
-    meeting: '83'
-    date: '2012-03-25'
-    url: https://datatracker.ietf.org/meeting/83/session/i2aex/
   - kind: proceedings
     listed_in: 3
     first: '2012-03-25'
@@ -98,3 +102,12 @@ chairs:
     - date: '2012-11-04'
       subject: IETF 85 proceedings charter
       url: https://www.ietf.org/proceedings/85/i2aex.html
+  - kind: BOF session
+    meeting: '83'
+    date: '2012-03-25'
+    url: https://datatracker.ietf.org/meeting/83/session/i2aex/
+  - kind: joined the IESG
+    after_meeting: '86'
+    after: '2013-03-10'
+    by_meeting: '87'
+    by: '2013-07-28'

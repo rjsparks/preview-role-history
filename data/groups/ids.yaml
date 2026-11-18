@@ -21,9 +21,10 @@ chairs:
     end:
       certainty: between
       not_before: '1994-03-28'
-      not_after: '1994-12-05'
+      not_after: '1997-10-29'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (1994-12-05)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (1997-10-29)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -34,9 +35,9 @@ chairs:
       subject: IETF 29 proceedings charter
       url: https://www.ietf.org/proceedings/29/area.and.wg.reports/usv/ids/ids-charter.txt
   - kind: minutes without them
-    date: '1994-12-05'
-    subject: IETF 31 proceedings charter
-    url: https://www.ietf.org/proceedings/31/area.and.wg.reports/usv/ids/ids-charter.txt
+    date: '1997-10-29'
+    subject: IETF 40 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-11.htm
 - person: 4502
   name: Tim Howes
   status: unconfirmed
@@ -47,9 +48,10 @@ chairs:
     end:
       certainty: between
       not_before: '1994-03-28'
-      not_after: '1994-12-05'
+      not_after: '1997-10-29'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (1994-12-05)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (1997-10-29)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -60,17 +62,17 @@ chairs:
       subject: IETF 29 proceedings charter
       url: https://www.ietf.org/proceedings/29/area.and.wg.reports/usv/ids/ids-charter.txt
   - kind: minutes without them
-    date: '1994-12-05'
-    subject: IETF 31 proceedings charter
-    url: https://www.ietf.org/proceedings/31/area.and.wg.reports/usv/ids/ids-charter.txt
+    date: '1997-10-29'
+    subject: IETF 40 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-11.htm
 - person: 8225
   name: Srinivas Sataluri
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1994-12-05'
+      certainty: between
       not_before: '1993-01-29'
+      not_after: '1994-12-05'
     end:
       certainty: group-closed
       date: '1998-10-15'
@@ -96,9 +98,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1994-12-05'
+      certainty: between
       not_before: '1993-01-29'
+      not_after: '1994-12-05'
     end:
       certainty: group-closed
       date: '1998-10-15'

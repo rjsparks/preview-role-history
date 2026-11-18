@@ -24,14 +24,12 @@ chairs:
     end:
       certainty: between
       not_before: '2011-07-24'
+      not_after: '2012-05-17'
     notes:
-    - 'Start: the BOF met at IETF 81 (2011-07-24)'
-    - 'End: after the BOF''s last session, IETF 81 (2011-07-24)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2011-07-24)'
+    - 'End: the BOF met at IETF 81 (2011-07-24)'
+    - 'End: the group closed (2012-05-17)'
   evidence:
-  - kind: BOF session
-    meeting: '81'
-    date: '2011-07-24'
-    url: https://www.ietf.org/proceedings/81/cicm.html
   - kind: proceedings
     listed_in: 2
     first: '2011-07-24'
@@ -43,6 +41,10 @@ chairs:
     - date: '2012-03-25'
       subject: IETF 83 proceedings charter
       url: https://www.ietf.org/proceedings/83/cicm.html
+  - kind: BOF session
+    meeting: '81'
+    date: '2011-07-24'
+    url: https://www.ietf.org/proceedings/81/cicm.html
 - person: 110934
   name: Lev Novikov
   status: confirmed
@@ -53,14 +55,12 @@ chairs:
     end:
       certainty: between
       not_before: '2011-07-24'
+      not_after: '2012-05-17'
     notes:
-    - 'Start: the BOF met at IETF 81 (2011-07-24)'
-    - 'End: after the BOF''s last session, IETF 81 (2011-07-24)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2011-07-24)'
+    - 'End: the BOF met at IETF 81 (2011-07-24)'
+    - 'End: the group closed (2012-05-17)'
   evidence:
-  - kind: BOF session
-    meeting: '81'
-    date: '2011-07-24'
-    url: https://www.ietf.org/proceedings/81/cicm.html
   - kind: proceedings
     listed_in: 2
     first: '2011-07-24'
@@ -72,3 +72,7 @@ chairs:
     - date: '2012-03-25'
       subject: IETF 83 proceedings charter
       url: https://www.ietf.org/proceedings/83/cicm.html
+  - kind: BOF session
+    meeting: '81'
+    date: '2011-07-24'
+    url: https://www.ietf.org/proceedings/81/cicm.html

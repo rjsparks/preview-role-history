@@ -11,42 +11,23 @@ chartered: '1987-02-01'
 bof_sessions: []
 history_url: https://datatracker.ietf.org/group/snmp/history/
 chairs:
-- person: 1615
-  name: Russ Mundy
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: evidence-only
-      not_after: '1998-12-07'
-    end:
-      certainty: evidence-only
-      not_before: '1998-12-07'
-  evidence:
-  - kind: proceedings
-    listed_in: 1
-    first: '1998-12-07'
-    last: '1998-12-07'
-    examples:
-    - date: '1998-12-07'
-      subject: IETF 43 proceedings charter
-      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-80.html
 - person: 2455
   name: Marshall Rose
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1991-11-18'
+      certainty: between
       not_before: '1987-02-01'
+      not_after: '1991-11-18'
     end:
       certainty: group-closed
       date: '1991-11-18'
   evidence:
   - kind: chair activity
-    first: '1991-11-23'
-    last: '1991-11-23'
+    first: '1991-11-18'
+    last: '1991-11-18'
     messages: 1
     examples:
-    - date: '1991-11-23'
+    - date: '1991-11-18'
       subject: SNMP WG minutes from Santa Fe IETF
       url: https://mailarchive.ietf.org/arch/msg/snmp/SykaJQpf61hIncC_BEYt_Kl5BV4/

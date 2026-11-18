@@ -21,11 +21,13 @@ chairs:
       not_after: '2006-07-21'
     end:
       certainty: between
-      not_before: '2011-03-27'
-      not_after: '2011-07-24'
+      not_before: '2010-11-07'
+      not_after: '2012-11-04'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-07-24)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2005-04-08)'
+    - 'Start: not listed among the chairs in meeting minutes (2005-04-08)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2006-07-21)'
+    - 'End: requested the group''s session for IETF 79 (2010-11-07)'
+    - 'End: not listed among the chairs in meeting minutes (2012-11-04)'
   evidence:
   - kind: chair activity
     first: '2007-07-27'
@@ -101,44 +103,21 @@ chairs:
       not_after: '2004-02-26'
     end:
       certainty: between
-      not_before: '2005-10-07'
+      not_before: '2004-02-26'
       not_after: '2006-07-21'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2006-07-21)'
+    - 'Start: named as chair in the WG Action announcement (2004-02-26)'
+    - 'End: named as chair in the WG Action announcement (2004-02-26)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2006-07-21)'
   evidence:
   - kind: WG Action
     date: '2004-02-26'
     subject: 'WG Action: Routing Area Working Group (rtgwg)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/9YS_U19_AiQN2nQgOxSAARApj6c/
-  - kind: minutes
-    listed_in: 2
-    first: '2005-03-06'
-    last: '2005-04-08'
-    examples:
-    - date: '2005-03-06'
-      subject: IETF 62 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/62/minutes/rtgwg.html
-    - date: '2005-04-08'
-      subject: IETF-62 RTGWG Minutes
-      url: https://mailarchive.ietf.org/arch/msg/rtgwg/P4FUNLKnXNXKbd-lPkdjnvoLPCU/
-  - kind: proceedings
-    listed_in: 5
-    first: '2004-06-24'
-    last: '2005-10-07'
-    examples:
-    - date: '2004-06-24'
-      subject: IETF 60 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/60/200.htm
-    - date: '2004-10-14'
-      subject: IETF 61 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/61/rtgwg.html
-    - date: '2005-10-07'
-      subject: IETF 64 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/64/rtgwg.html
   - kind: minutes without them
-    date: '2010-03-21'
-    subject: IETF 77 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/77/minutes/rtgwg.txt
+    date: '2006-07-21'
+    subject: IETF 66 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/66/rtgwg.html
 - person: 103264
   name: Alex Zinin
   status: unconfirmed
@@ -148,21 +127,17 @@ chairs:
       not_after: '2004-02-26'
     end:
       certainty: between
-      not_before: '2011-03-27'
-      not_after: '2011-07-24'
+      not_before: '2010-03-21'
+      not_after: '2010-07-25'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-07-24)'
+    - 'Start: named as chair in the WG Action announcement (2004-02-26)'
+    - 'End: listed as chair in meeting minutes (2010-03-21)'
+    - 'End: not listed among the chairs in meeting minutes (2010-07-25)'
   evidence:
   - kind: WG Action
     date: '2004-02-26'
     subject: 'WG Action: Routing Area Working Group (rtgwg)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/9YS_U19_AiQN2nQgOxSAARApj6c/
-  - kind: list message
-    date: '2008-04-03'
-    says: start
-    subject: Welcome Alia Atlas as RTGWG co-chair
-    url: https://mailarchive.ietf.org/arch/msg/rtgwg/EymQpN-KPxOkRuXncAZOfuwF5EA/
-    excerpt: Alia Atlas has agreed to help out as WG co-chair, in order to help Alex
   - kind: chair activity
     first: '2007-02-17'
     last: '2007-02-17'
@@ -172,43 +147,37 @@ chairs:
       subject: Call for Agenda for IETF-68
       url: https://mailarchive.ietf.org/arch/msg/rtgwg/SHVnCvooX6YzJOWjfFU2TCwIK-4/
   - kind: minutes
-    listed_in: 3
-    first: '2005-03-06'
+    listed_in: 1
+    first: '2010-03-21'
     last: '2010-03-21'
     examples:
-    - date: '2005-03-06'
-      subject: IETF 62 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/62/minutes/rtgwg.html
-    - date: '2005-04-08'
-      subject: IETF-62 RTGWG Minutes
-      url: https://mailarchive.ietf.org/arch/msg/rtgwg/P4FUNLKnXNXKbd-lPkdjnvoLPCU/
     - date: '2010-03-21'
       subject: IETF 77 minutes in the proceedings
       url: https://www.ietf.org/proceedings/77/minutes/rtgwg.txt
   - kind: proceedings
-    listed_in: 14
-    first: '2004-06-24'
+    listed_in: 9
+    first: '2006-07-21'
     last: '2011-03-27'
     examples:
-    - date: '2004-06-24'
-      subject: IETF 60 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/60/200.htm
-    - date: '2004-10-14'
-      subject: IETF 61 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/61/rtgwg.html
+    - date: '2006-07-21'
+      subject: IETF 66 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/66/rtgwg.html
+    - date: '2007-02-20'
+      subject: IETF 68 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/68/rtgwg.html
     - date: '2011-03-27'
       subject: IETF 80 proceedings charter
       url: https://www.ietf.org/proceedings/80/rtgwg.html
   - kind: minutes without them
-    date: '2012-11-04'
-    subject: IETF 85 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/85/minutes/minutes-85-rtgwg.txt
+    date: '2010-07-25'
+    subject: IETF 78 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/78/minutes/rtgwg.txt
 - person: 106742
   name: Alia Atlas
   status: confirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2008-04-03'
     end:
       certainty: exact
@@ -274,14 +243,11 @@ chairs:
     - date: '2013-11-03'
       subject: IETF 88 proceedings charter
       url: https://www.ietf.org/proceedings/88/rtgwg.html
-  - kind: minutes without them
-    date: '2005-04-08'
-    subject: IETF-62 RTGWG Minutes
-    url: https://mailarchive.ietf.org/arch/msg/rtgwg/P4FUNLKnXNXKbd-lPkdjnvoLPCU/
-  - kind: minutes without them
-    date: '2014-07-20'
-    subject: IETF 90 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/90/minutes/minutes-90-rtgwg.txt
+  - kind: joined the IESG
+    after_meeting: '89'
+    after: '2014-03-02'
+    by_meeting: '90'
+    by: '2014-07-20'
   - kind: session requests
     meetings:
     - '80'
@@ -290,32 +256,30 @@ chairs:
   - kind: shepherded
     documents:
     - draft-ietf-rtgwg-cl-requirement
-  - kind: joined the IESG
-    after_meeting: '89'
-    after: '2014-03-02'
-    by_meeting: '90'
-    by: '2014-07-20'
 - person: 109802
   name: Alvaro Retana
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-11-13'
-      not_before: '2003-12-22'
+      certainty: between
+      not_before: '2010-07-25'
+      not_after: '2011-07-24'
     end:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2014-02-24'
+      not_after: '2011-12-09'
     notes:
-    - 'Start: requested the group''s session for IETF 82 (2011-11-13)'
+    - 'Start: not listed among the chairs in meeting minutes (2010-07-25)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2011-07-24)'
   - start:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2014-02-24'
+      not_after: '2012-01-10'
     end:
       certainty: exact
       date: '2015-02-23'
+    notes:
+    - 'Start: named as chair in the WG Action announcement (2012-01-10)'
   evidence:
   - kind: WG Action
     date: '2012-01-10'
@@ -377,10 +341,11 @@ chairs:
     date: '2010-07-25'
     subject: IETF 78 minutes in the proceedings
     url: https://www.ietf.org/proceedings/78/minutes/rtgwg.txt
-  - kind: minutes without them
-    date: '2015-03-22'
-    subject: IETF 92 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/92/minutes/minutes-92-rtgwg.txt
+  - kind: joined the IESG
+    after_meeting: '92'
+    after: '2015-03-22'
+    by_meeting: '93'
+    by: '2015-07-19'
   - kind: session requests
     meetings:
     - '82'
@@ -393,11 +358,6 @@ chairs:
     - draft-ietf-rtgwg-mofrr
     - draft-ietf-rtgwg-ordered-fib
     - draft-ietf-rtgwg-remote-lfa
-  - kind: joined the IESG
-    after_meeting: '92'
-    after: '2015-03-22'
-    by_meeting: '93'
-    by: '2015-07-19'
 - person: 112405
   name: Jeff Tantsura
   status: confirmed
@@ -473,6 +433,17 @@ chairs:
   name: Chris Bowers
   status: confirmed
   periods:
+  - start:
+      certainty: between
+      not_before: '2014-03-02'
+      not_after: '2014-07-20'
+    end:
+      certainty: between
+      not_before: '2014-07-20'
+      not_after: '2015-02-23'
+    notes:
+    - 'Start: not listed among the chairs in meeting minutes (2014-03-02)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   - start:
       certainty: exact
       date: '2015-02-23'
@@ -559,6 +530,20 @@ chairs:
     subject: New rtgwg WG Co-Chair
     url: https://mailarchive.ietf.org/arch/msg/rtgwg/Z9LkfBnkItsChLZSFHZhxQW3Q2g/
     excerpt: Welcome Yingzhen!
+  - kind: chair activity
+    first: '2021-12-03'
+    last: '2026-01-11'
+    messages: 10
+    examples:
+    - date: '2021-12-03'
+      subject: WG Adoption Call for draft-mtm-rtgwg-vrrp-p2mp-bfd
+      url: https://mailarchive.ietf.org/arch/msg/rtgwg/bBsdthi02NHwZm8QosY2TKfsfc8/
+    - date: '2022-04-07'
+      subject: WG Adoption Call for draft-addogra-rtgwg-vrrp-rfc5798bis
+      url: https://mailarchive.ietf.org/arch/msg/rtgwg/GwwVFEPnxWgCwUYKYp0H9jrOM6g/
+    - date: '2023-07-13'
+      subject: WGLC for draft-ietf-rtgwg-vrrp-rfc5798bis (7/13 - 8/4)
+      url: https://mailarchive.ietf.org/arch/msg/rtgwg/cse7M3gLN8IYBpCGDyVxJN-qzx4/
   - kind: shepherded
     documents:
     - draft-ietf-rtgwg-atn-bgp

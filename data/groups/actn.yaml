@@ -24,20 +24,9 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2014-06-11'
-      not_before: '2014-06-11'
     end:
-      certainty: between
-      not_before: '2014-09-11'
-      not_after: '2014-10-02'
+      certainty: group-closed
   evidence:
-  - kind: BOF session
-    meeting: '90'
-    date: '2014-07-20'
-    url: https://www.ietf.org/proceedings/90/actn.html
-  - kind: BOF session
-    meeting: '91'
-    date: '2014-11-09'
-    url: https://www.ietf.org/proceedings/91/actn.html
   - kind: proceedings
     listed_in: 1
     first: '2014-07-20'
@@ -46,6 +35,14 @@ chairs:
     - date: '2014-07-20'
       subject: IETF 90 proceedings charter
       url: https://www.ietf.org/proceedings/90/actn.html
+  - kind: BOF session
+    meeting: '90'
+    date: '2014-07-20'
+    url: https://www.ietf.org/proceedings/90/actn.html
+  - kind: BOF session
+    meeting: '91'
+    date: '2014-11-09'
+    url: https://www.ietf.org/proceedings/91/actn.html
 - person: 109703
   name: Daniele Ceccarelli
   status: confirmed
@@ -54,10 +51,7 @@ chairs:
       certainty: exact
       date: '2014-10-02'
     end:
-      certainty: between
-      not_before: '2014-11-09'
-    notes:
-    - 'End: after the BOF''s last session, IETF 91 (2014-11-09)'
+      certainty: group-closed
   evidence:
   - kind: chair activity
     first: '2014-11-21'
@@ -82,18 +76,15 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2014-06-11'
-      not_before: '2014-06-11'
     end:
-      certainty: approximate
-      date: '2014-09-11'
+      certainty: between
+      not_before: '2014-09-11'
+      not_after: '2014-10-02'
   - start:
       certainty: exact
       date: '2014-10-02'
     end:
-      certainty: between
-      not_before: '2014-11-09'
-    notes:
-    - 'End: after the BOF''s last session, IETF 91 (2014-11-09)'
+      certainty: group-closed
   evidence:
   - kind: chair activity
     first: '2014-07-23'
@@ -103,14 +94,6 @@ chairs:
     - date: '2014-07-23'
       subject: '[Actn] Agenda for ACTN BoF, 1-3pm, July 24 @ Tudor 7/8'
       url: https://mailarchive.ietf.org/arch/msg/actn/nsrk7nZWXQOhc04YcK71O1kPS-g/
-  - kind: BOF session
-    meeting: '90'
-    date: '2014-07-20'
-    url: https://www.ietf.org/proceedings/90/actn.html
-  - kind: BOF session
-    meeting: '91'
-    date: '2014-11-09'
-    url: https://www.ietf.org/proceedings/91/actn.html
   - kind: proceedings
     listed_in: 1
     first: '2014-07-20'
@@ -119,3 +102,11 @@ chairs:
     - date: '2014-07-20'
       subject: IETF 90 proceedings charter
       url: https://www.ietf.org/proceedings/90/actn.html
+  - kind: BOF session
+    meeting: '90'
+    date: '2014-07-20'
+    url: https://www.ietf.org/proceedings/90/actn.html
+  - kind: BOF session
+    meeting: '91'
+    date: '2014-11-09'
+    url: https://www.ietf.org/proceedings/91/actn.html

@@ -24,14 +24,12 @@ chairs:
     end:
       certainty: between
       not_before: '2004-08-01'
+      not_after: '2005-05-11'
     notes:
     - 'Start: the BOF met at IETF 60 (2004-08-01)'
-    - 'End: after the BOF''s last session, IETF 60 (2004-08-01)'
+    - 'End: the BOF met at IETF 60 (2004-08-01)'
+    - 'End: the group closed (2005-05-11)'
   evidence:
-  - kind: BOF session
-    meeting: '60'
-    date: '2004-08-01'
-    url: https://www.ietf.org/proceedings/60/231.htm
   - kind: proceedings
     listed_in: 2
     first: '2004-10-22'
@@ -43,6 +41,10 @@ chairs:
     - date: '2004-11-11'
       subject: IETF 62 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/62/perm.html
+  - kind: BOF session
+    meeting: '60'
+    date: '2004-08-01'
+    url: https://www.ietf.org/proceedings/60/231.htm
 - person: 101648
   name: Thomas Hardjono
   status: confirmed
@@ -53,14 +55,12 @@ chairs:
     end:
       certainty: between
       not_before: '2004-08-01'
+      not_after: '2005-05-11'
     notes:
     - 'Start: the BOF met at IETF 60 (2004-08-01)'
-    - 'End: after the BOF''s last session, IETF 60 (2004-08-01)'
+    - 'End: the BOF met at IETF 60 (2004-08-01)'
+    - 'End: the group closed (2005-05-11)'
   evidence:
-  - kind: BOF session
-    meeting: '60'
-    date: '2004-08-01'
-    url: https://www.ietf.org/proceedings/60/231.htm
   - kind: proceedings
     listed_in: 2
     first: '2004-10-22'
@@ -72,3 +72,7 @@ chairs:
     - date: '2004-11-11'
       subject: IETF 62 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/62/perm.html
+  - kind: BOF session
+    meeting: '60'
+    date: '2004-08-01'
+    url: https://www.ietf.org/proceedings/60/231.htm

@@ -20,10 +20,11 @@ chairs:
       not_after: '1998-08-05'
     end:
       certainty: between
-      not_before: '2002-02-27'
+      not_before: '1998-08-05'
       not_after: '2002-03-17'
     notes:
-    - 'End: no longer listed among the chairs in meeting minutes (2002-03-17)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1998-08-05)'
+    - 'End: not listed among the chairs in meeting minutes (2002-03-17)'
   evidence:
   - kind: proceedings
     listed_in: 11
@@ -48,18 +49,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1998-08-05'
+      certainty: between
       not_before: '1996-07-28'
+      not_after: '1998-08-05'
     end:
       certainty: ongoing
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1998-08-05)'
   evidence:
-  - kind: WG Review
-    date: '2007-10-09'
-    subject: 'WG Review: Recharter of Network File System Version 4 WG (nfsv4)'
-    url: null
   - kind: WG Review
     date: '2009-03-04'
     subject: 'WG Review: Recharter of Network File System Version 4 (nfsv4)'
@@ -152,7 +149,9 @@ chairs:
       not_before: '2003-07-10'
       not_after: '2003-07-13'
     notes:
-    - 'End: no longer listed among the chairs in meeting minutes (2003-07-13)'
+    - 'Start: listed as chair in meeting minutes (2002-03-17)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2003-07-10)'
+    - 'End: not listed among the chairs in meeting minutes (2003-07-13)'
   evidence:
   - kind: chair activity
     first: '2003-04-07'
@@ -199,20 +198,16 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2003-07-13'
+      certainty: between
       not_before: '2003-03-16'
+      not_after: '2003-04-30'
     end:
       certainty: exact
       date: '2019-11-21'
     notes:
-    - 'Start: listed as chair in meeting minutes (2003-07-13)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2003-03-16)'
+    - 'Start: not listed among the chairs in meeting minutes (2003-03-16)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2003-04-30)'
   evidence:
-  - kind: WG Review
-    date: '2007-10-09'
-    subject: 'WG Review: Recharter of Network File System Version 4 WG (nfsv4)'
-    url: null
   - kind: WG Review
     date: '2009-03-04'
     subject: 'WG Review: Recharter of Network File System Version 4 (nfsv4)'
@@ -283,8 +278,8 @@ chairs:
       url: https://www.ietf.org/proceedings/88/nfsv4.html
   - kind: minutes without them
     date: '2003-03-16'
-    subject: IETF 56 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/56/minutes/nfsv4.htm
+    subject: '[nfsv4] Draft Minutes from San Francisco IETF March 18 meeting'
+    url: https://mailarchive.ietf.org/arch/msg/nfsv4/cXW6ONXk0xb-Y8Plp-rVyTdevIc/
   - kind: session requests
     meetings:
     - '65'
@@ -332,11 +327,33 @@ chairs:
   status: confirmed
   periods:
   - start:
+      certainty: between
+      not_before: '2007-12-02'
+      not_after: '2016-06-15'
+    end:
+      certainty: between
+      not_before: '2019-08-05'
+      not_after: '2019-11-21'
+    notes:
+    - 'Start: not listed among the chairs in meeting minutes (2007-12-02)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2016-06-15)'
+    - 'End: started a last call or adoption call on the group''s list (2019-08-05)'
+  - start:
       certainty: exact
       date: '2019-11-21'
     end:
       certainty: exact
       date: '2023-11-21'
+  - start:
+      certainty: between
+      not_before: '2023-11-21'
+      not_after: '2024-07-04'
+    end:
+      certainty: evidence-only
+      not_before: '2026-07-06'
+    notes:
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2024-07-04)'
+    - 'End: started a last call or adoption call on the group''s list (2026-07-06)'
   evidence:
   - kind: WG Review
     date: '2020-07-17'
@@ -346,12 +363,6 @@ chairs:
     date: '2020-08-31'
     subject: 'WG Action: Rechartered Network File System Version 4 (nfsv4)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/fWbEQGfPyd52pkmbE0oLhn9drZc/
-  - kind: list message
-    date: '2019-11-21'
-    says: start
-    subject: '[nfsv4] WG chair changes'
-    url: https://mailarchive.ietf.org/arch/msg/nfsv4/f6Gh-54f3T_N_Pg0dsYsiv6Nsew/
-    excerpt: David Noveck is appointed WG chair.
   - kind: chair activity
     first: '2016-06-15'
     last: '2026-07-06'
@@ -384,6 +395,18 @@ chairs:
   status: confirmed
   periods:
   - start:
+      certainty: between
+      not_before: '2007-12-02'
+      not_after: '2016-03-22'
+    end:
+      certainty: between
+      not_before: '2020-07-10'
+      not_after: '2026-06-10'
+    notes:
+    - 'Start: not listed among the chairs in meeting minutes (2007-12-02)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2016-03-22)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2020-07-10)'
+  - start:
       certainty: exact
       date: '2026-06-10'
     end:
@@ -403,6 +426,10 @@ chairs:
     - date: '2026-07-30'
       subject: '[nfsv4] WG Last Call (2nd): draft-ietf-nfsv4-uncacheable-directories-09 (Ends 2026-08-20)'
       url: https://mailarchive.ietf.org/arch/msg/nfsv4/FxbBc4PoRIBuWrk--JcB9GJrgA8/
+  - kind: minutes without them
+    date: '2007-12-02'
+    subject: IETF 70 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/70/minutes/nfsv4.txt
   - kind: shepherded
     documents:
     - draft-ietf-nfsv4-uncacheable-directories
@@ -451,18 +478,14 @@ chairs:
     - date: '2025-05-29'
       subject: '[nfsv4] Adoption call for draft-rmacklem-nfsv4-posix-acls-11.txt'
       url: https://mailarchive.ietf.org/arch/msg/nfsv4/SiIdolXZIi7931N4M4loalei34c/
-  - kind: minutes without them
-    date: '2007-12-02'
-    subject: IETF 70 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/70/minutes/nfsv4.txt
+  - kind: joined the IESG
+    after_meeting: '125'
+    after: '2026-03-14'
+    by_meeting: '126'
+    by: '2026-07-18'
   - kind: shepherded
     documents:
     - draft-ietf-nfsv4-delstid
     - draft-ietf-nfsv4-layoutwcc
     - draft-ietf-nfsv4-layrec
     - draft-ietf-nfsv4-scsi-layout-nvme
-  - kind: joined the IESG
-    after_meeting: '125'
-    after: '2026-03-14'
-    by_meeting: '126'
-    by: '2026-07-18'

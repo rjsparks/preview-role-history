@@ -23,10 +23,12 @@ chairs:
       date: '2010-03-21'
     end:
       certainty: between
-      not_before: '2010-03-21'
+      not_before: '2010-03-29'
+      not_after: '2014-02-04'
     notes:
     - 'Start: the BOF met at IETF 77 (2010-03-21)'
-    - 'End: after the BOF''s last session, IETF 77 (2010-03-21)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2010-03-29)'
+    - 'End: the group closed (2014-02-04)'
   evidence:
   - kind: chair activity
     first: '2010-03-26'
@@ -39,10 +41,6 @@ chairs:
     - date: '2010-03-29'
       subject: '[e2md] Revised draft minutes of E2MD BOF at IETF 77'
       url: https://mailarchive.ietf.org/arch/msg/e2md/KLE81IuSD7WY45Vhol69TrCQrhc/
-  - kind: BOF session
-    meeting: '77'
-    date: '2010-03-21'
-    url: https://datatracker.ietf.org/meeting/77/session/e2md/
   - kind: proceedings
     listed_in: 1
     first: '2010-03-23'
@@ -51,6 +49,10 @@ chairs:
     - date: '2010-03-23'
       subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/e2md.html
+  - kind: BOF session
+    meeting: '77'
+    date: '2010-03-21'
+    url: https://datatracker.ietf.org/meeting/77/session/e2md/
 - person: 109505
   name: Bernie Hoeneisen
   status: confirmed
@@ -60,10 +62,12 @@ chairs:
       date: '2010-03-21'
     end:
       certainty: between
-      not_before: '2010-03-21'
+      not_before: '2010-07-17'
+      not_after: '2014-02-04'
     notes:
     - 'Start: the BOF met at IETF 77 (2010-03-21)'
-    - 'End: after the BOF''s last session, IETF 77 (2010-03-21)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2010-07-17)'
+    - 'End: the group closed (2014-02-04)'
   evidence:
   - kind: chair activity
     first: '2010-04-06'
@@ -76,10 +80,6 @@ chairs:
     - date: '2010-04-26'
       subject: '[e2md] Rough minutes of today''s conf call'
       url: https://mailarchive.ietf.org/arch/msg/e2md/TXFmgMaWUU2RB73FjUSXEokkgzI/
-  - kind: BOF session
-    meeting: '77'
-    date: '2010-03-21'
-    url: https://datatracker.ietf.org/meeting/77/session/e2md/
   - kind: proceedings
     listed_in: 1
     first: '2010-03-23'
@@ -88,3 +88,7 @@ chairs:
     - date: '2010-03-23'
       subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/e2md.html
+  - kind: BOF session
+    meeting: '77'
+    date: '2010-03-21'
+    url: https://datatracker.ietf.org/meeting/77/session/e2md/

@@ -26,13 +26,15 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2016-02-26'
-      not_before: '2016-02-26'
+      date: '2015-11-01'
     end:
       certainty: between
       not_before: '2016-07-18'
+      not_after: '2016-10-04'
     notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2015-11-01)'
     - 'End: listed as chair in meeting minutes (2016-07-18)'
+    - 'End: the group closed (2016-10-04)'
   evidence:
   - kind: chair activity
     first: '2016-04-17'
@@ -56,18 +58,6 @@ chairs:
     - date: '2016-07-18'
       subject: '[Lurk] IETF-96 LURK raw minutes'
       url: https://mailarchive.ietf.org/arch/msg/lurk/OnXCTZpQPb9yFM_FHSdI4H71gOo/
-  - kind: BOF session
-    meeting: '94'
-    date: '2015-11-01'
-    url: https://www.ietf.org/proceedings/94/lurk.html
-  - kind: BOF session
-    meeting: '95'
-    date: '2016-04-03'
-    url: https://www.ietf.org/proceedings/95/lurk.html
-  - kind: BOF session
-    meeting: '96'
-    date: '2016-07-17'
-    url: https://www.ietf.org/proceedings/96/lurk.html
   - kind: proceedings
     listed_in: 3
     first: '2015-11-01'
@@ -82,19 +72,33 @@ chairs:
     - date: '2016-07-17'
       subject: IETF 96 proceedings charter
       url: https://www.ietf.org/proceedings/96/lurk.html
+  - kind: BOF session
+    meeting: '94'
+    date: '2015-11-01'
+    url: https://www.ietf.org/proceedings/94/lurk.html
+  - kind: BOF session
+    meeting: '95'
+    date: '2016-04-03'
+    url: https://www.ietf.org/proceedings/95/lurk.html
+  - kind: BOF session
+    meeting: '96'
+    date: '2016-07-17'
+    url: https://www.ietf.org/proceedings/96/lurk.html
 - person: 104278
   name: Yaron Sheffer
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2016-02-26'
-      not_before: '2016-02-26'
+      date: '2015-11-01'
     end:
       certainty: between
       not_before: '2016-07-18'
+      not_after: '2016-10-04'
     notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2015-11-01)'
     - 'End: listed as chair in meeting minutes (2016-07-18)'
+    - 'End: the group closed (2016-10-04)'
   evidence:
   - kind: chair activity
     first: '2016-03-13'
@@ -118,18 +122,6 @@ chairs:
     - date: '2016-07-18'
       subject: '[Lurk] IETF-96 LURK raw minutes'
       url: https://mailarchive.ietf.org/arch/msg/lurk/OnXCTZpQPb9yFM_FHSdI4H71gOo/
-  - kind: BOF session
-    meeting: '94'
-    date: '2015-11-01'
-    url: https://www.ietf.org/proceedings/94/lurk.html
-  - kind: BOF session
-    meeting: '95'
-    date: '2016-04-03'
-    url: https://www.ietf.org/proceedings/95/lurk.html
-  - kind: BOF session
-    meeting: '96'
-    date: '2016-07-17'
-    url: https://www.ietf.org/proceedings/96/lurk.html
   - kind: proceedings
     listed_in: 3
     first: '2015-11-01'
@@ -144,3 +136,15 @@ chairs:
     - date: '2016-07-17'
       subject: IETF 96 proceedings charter
       url: https://www.ietf.org/proceedings/96/lurk.html
+  - kind: BOF session
+    meeting: '94'
+    date: '2015-11-01'
+    url: https://www.ietf.org/proceedings/94/lurk.html
+  - kind: BOF session
+    meeting: '95'
+    date: '2016-04-03'
+    url: https://www.ietf.org/proceedings/95/lurk.html
+  - kind: BOF session
+    meeting: '96'
+    date: '2016-07-17'
+    url: https://www.ietf.org/proceedings/96/lurk.html

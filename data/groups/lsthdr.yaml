@@ -23,20 +23,10 @@ chairs:
       date: '1997-01-01'
     end:
       certainty: between
-      not_before: '1997-04-07'
-      not_after: '2000-03-26'
+      not_before: '1997-01-01'
+      not_after: '1997-01-01'
     notes:
-    - 'End: became an Area Director, first serving at IETF 47 (2000-03-26)'
-  evidence:
-  - kind: BOF session
-    meeting: '38'
-    date: '1997-04-07'
-    url: https://www.ietf.org/proceedings/38/toc-97apr.html
-  - kind: joined the IESG
-    after_meeting: '46'
-    after: '1999-11-07'
-    by_meeting: '47'
-    by: '2000-03-26'
+    - 'End: the group closed (1997-01-01)'
 - person: 106911
   name: John Klensin
   status: confirmed
@@ -46,11 +36,7 @@ chairs:
       date: '1997-01-01'
     end:
       certainty: between
-      not_before: '1997-04-07'
+      not_before: '1997-01-01'
+      not_after: '1997-01-01'
     notes:
-    - 'End: after the BOF''s last session, IETF 38 (1997-04-07)'
-  evidence:
-  - kind: BOF session
-    meeting: '38'
-    date: '1997-04-07'
-    url: https://www.ietf.org/proceedings/38/toc-97apr.html
+    - 'End: the group closed (1997-01-01)'

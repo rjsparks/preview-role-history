@@ -21,7 +21,6 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2013-06-20'
-      not_before: '2013-06-20'
     end:
       certainty: ongoing
   evidence:
@@ -196,10 +195,19 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2013-06-20'
-      not_before: '2013-06-20'
     end:
       certainty: exact
       date: '2013-08-29'
+  - start:
+      certainty: between
+      not_before: '2013-08-29'
+      not_after: '2017-11-07'
+    end:
+      certainty: evidence-only
+      not_before: '2017-11-07'
+    notes:
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2017-11-07)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2017-11-07)'
   evidence:
   - kind: chair activity
     first: '2017-11-07'

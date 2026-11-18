@@ -5,10 +5,13 @@ parent: sec
 state: conclude
 started: '2010-11-22'
 closed: '2017-03-21'
-bof: false
+bof: true
 never_chartered: false
 chartered: '2010-12-10'
-bof_sessions: []
+bof_sessions:
+- meeting: '79'
+  date: '2010-11-07'
+  url: https://datatracker.ietf.org/meeting/79/session/dane/
 history_url: https://datatracker.ietf.org/group/dane/history/
 chairs:
 - person: 3760
@@ -54,10 +57,6 @@ chairs:
     - date: '2014-03-02'
       subject: IETF 89 minutes in the proceedings
       url: https://www.ietf.org/proceedings/89/minutes/minutes-89-dane.txt
-  - kind: minutes without them
-    date: '2013-07-28'
-    subject: IETF 87 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/87/minutes/minutes-87-dane.txt
   - kind: shepherded
     documents:
     - draft-ietf-dane-openpgpkey
@@ -74,9 +73,10 @@ chairs:
     end:
       certainty: between
       not_before: '2010-07-25'
-      not_after: '2010-11-07'
+      not_after: '2011-03-27'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-11-07)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
+    - 'End: not listed among the chairs in meeting minutes (2011-03-27)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -96,13 +96,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-12-10'
-      not_before: '2010-11-22'
+      date: '2010-07-25'
     end:
       certainty: exact
       date: '2014-03-06'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2010-12-10)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
   evidence:
   - kind: WG Action
     date: '2010-12-10'
@@ -157,13 +156,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-12-10'
-      not_before: '2010-11-22'
+      date: '2010-07-25'
     end:
       certainty: group-closed
       date: '2017-03-21'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2010-12-10)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
   evidence:
   - kind: WG Action
     date: '2010-12-10'
@@ -221,6 +219,11 @@ chairs:
     - date: '2011-11-13'
       subject: IETF 82 proceedings charter
       url: https://www.ietf.org/proceedings/82/dane.html
+  - kind: joined the IESG
+    after_meeting: '98'
+    after: '2017-03-26'
+    by_meeting: '99'
+    by: '2017-07-16'
   - kind: session requests
     meetings:
     - '81'
@@ -230,8 +233,3 @@ chairs:
     documents:
     - draft-ietf-dane-ops
     - draft-ietf-dane-protocol
-  - kind: joined the IESG
-    after_meeting: '98'
-    after: '2017-03-26'
-    by_meeting: '99'
-    by: '2017-07-16'

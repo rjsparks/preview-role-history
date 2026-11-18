@@ -23,13 +23,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-06-20'
-      not_before: '2002-12-06'
+      date: '2002-07-14'
     end:
       certainty: group-closed
       date: '2010-02-11'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2003-06-20)'
+    - 'Start: listed as chair in meeting minutes (2002-07-14)'
   evidence:
   - kind: chair activity
     first: '2003-06-25'
@@ -92,8 +91,10 @@ chairs:
       not_before: '2008-07-27'
       not_after: '2009-04-03'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-04-03)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2006-07-09)'
+    - 'Start: not listed among the chairs in meeting minutes (2006-07-09)'
+    - 'Start: requested the group''s session for IETF 69 (2007-07-22)'
+    - 'End: requested the group''s session for IETF 72 (2008-07-27)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2009-04-03)'
   evidence:
   - kind: minutes without them
     date: '2006-07-09'
@@ -103,30 +104,29 @@ chairs:
     date: '2009-04-03'
     subject: IETF 74 proceedings charter, as last modified
     url: https://www.ietf.org/proceedings/74/lemonade.html
+  - kind: joined the IESG
+    after_meeting: '74'
+    after: '2009-03-22'
+    by_meeting: '75'
+    by: '2009-07-26'
   - kind: session requests
     meetings:
     - '69'
     - '70'
     - '72'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
-  - kind: joined the IESG
-    after_meeting: '74'
-    after: '2009-03-22'
-    by_meeting: '75'
-    by: '2009-07-26'
 - person: 104196
   name: Eric Burger
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-06-20'
-      not_before: '2002-12-06'
+      date: '2002-07-14'
     end:
       certainty: group-closed
       date: '2010-02-11'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2003-06-20)'
+    - 'Start: listed as chair in meeting minutes (2002-07-14)'
   evidence:
   - kind: chair activity
     first: '2003-07-31'

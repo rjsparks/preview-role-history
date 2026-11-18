@@ -27,17 +27,11 @@ chairs:
     end:
       certainty: between
       not_before: '2017-07-16'
+      not_after: '2017-10-05'
     notes:
-    - 'End: after the BOF''s last session, IETF 99 (2017-07-16)'
+    - 'End: the BOF met at IETF 99 (2017-07-16)'
+    - 'End: the group closed (2017-10-05)'
   evidence:
-  - kind: BOF session
-    meeting: '97'
-    date: '2016-11-13'
-    url: https://datatracker.ietf.org/meeting/97/session/banana/
-  - kind: BOF session
-    meeting: '99'
-    date: '2017-07-16'
-    url: https://datatracker.ietf.org/meeting/99/session/banana/
   - kind: proceedings
     listed_in: 1
     first: '2016-11-13'
@@ -46,6 +40,14 @@ chairs:
     - date: '2016-11-13'
       subject: IETF 97 proceedings charter
       url: https://www.ietf.org/proceedings/97/banana.html
+  - kind: BOF session
+    meeting: '97'
+    date: '2016-11-13'
+    url: https://datatracker.ietf.org/meeting/97/session/banana/
+  - kind: BOF session
+    meeting: '99'
+    date: '2017-07-16'
+    url: https://datatracker.ietf.org/meeting/99/session/banana/
 - person: 119947
   name: Margaret Cullen
   status: confirmed
@@ -56,8 +58,10 @@ chairs:
     end:
       certainty: between
       not_before: '2017-07-16'
+      not_after: '2017-10-05'
     notes:
-    - 'End: after the BOF''s last session, IETF 99 (2017-07-16)'
+    - 'End: the BOF met at IETF 99 (2017-07-16)'
+    - 'End: the group closed (2017-10-05)'
   evidence:
   - kind: chair activity
     first: '2017-03-30'
@@ -67,14 +71,6 @@ chairs:
     - date: '2017-03-30'
       subject: '[Banana] Charter Text w/Milestones'
       url: https://mailarchive.ietf.org/arch/msg/banana/_7RJCjOsFSzyQlCfiFglZtCHaNk/
-  - kind: BOF session
-    meeting: '97'
-    date: '2016-11-13'
-    url: https://datatracker.ietf.org/meeting/97/session/banana/
-  - kind: BOF session
-    meeting: '99'
-    date: '2017-07-16'
-    url: https://datatracker.ietf.org/meeting/99/session/banana/
   - kind: proceedings
     listed_in: 1
     first: '2016-11-13'
@@ -83,3 +79,11 @@ chairs:
     - date: '2016-11-13'
       subject: IETF 97 proceedings charter
       url: https://www.ietf.org/proceedings/97/banana.html
+  - kind: BOF session
+    meeting: '97'
+    date: '2016-11-13'
+    url: https://datatracker.ietf.org/meeting/97/session/banana/
+  - kind: BOF session
+    meeting: '99'
+    date: '2017-07-16'
+    url: https://datatracker.ietf.org/meeting/99/session/banana/

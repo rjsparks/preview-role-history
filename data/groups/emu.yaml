@@ -37,32 +37,6 @@ chairs:
     date: '2025-06-26'
     subject: 'WG Action: Rechartered EAP Method Update (emu)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/vmaxDL1wOrOW1HgdhNmJWQ2uTFk/
-  - kind: list message
-    date: '2022-07-25'
-    says: start
-    subject: '[Emu] Change of WG chair'
-    url: https://mailarchive.ietf.org/arch/msg/emu/N9-Ukcbq3pUpxWwquWDBWiTHqDE/
-    excerpt: Peter Yee has graciously accepted to step in as our new co-chair to help Joe run things.
-  - kind: chair activity
-    first: '2022-08-16'
-    last: '2026-06-20'
-    messages: 19
-    examples:
-    - date: '2022-08-16'
-      subject: '[Emu] Adoption call for EAP-DPP'
-      url: https://mailarchive.ietf.org/arch/msg/emu/94sNeAkv7VTfi40lNLbmfFYZXYE/
-    - date: '2022-10-10'
-      subject: '[Emu] Call for EMU agenda Items for IETF 115'
-      url: https://mailarchive.ietf.org/arch/msg/emu/nmMJ6HS3z2lAYUuZmF4c7svyIzw/
-    - date: '2022-11-30'
-      subject: '[Emu] Minutes from IETF 115 are available'
-      url: https://mailarchive.ietf.org/arch/msg/emu/LvyVJnFbOoIpwjILIAEGiylasuQ/
-    - date: '2022-12-15'
-      subject: '[Emu] Adoption call for RFC 7170bis'
-      url: https://mailarchive.ietf.org/arch/msg/emu/emFdlQWb0agicDvEDO8uFqwbwSQ/
-    - date: '2023-08-14'
-      subject: '[Emu] WGLC on draft-ietf-emu-rfc7170bis-11'
-      url: https://mailarchive.ietf.org/arch/msg/emu/d3eWBqfQU8IkUK105IIkcOslcro/
   - kind: shepherded
     documents:
     - draft-ietf-emu-aka-pfs
@@ -80,7 +54,8 @@ chairs:
       not_before: '2006-03-09'
       not_after: '2006-07-09'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-02-11)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2005-10-03)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2006-03-09)'
     - 'End: became an Area Director, first serving at IETF 66 (2006-07-09)'
   evidence:
   - kind: WG Action
@@ -114,10 +89,6 @@ chairs:
     - date: '2006-01-20'
       subject: IETF 65 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/65/emu.html
-  - kind: minutes without them
-    date: '2009-03-22'
-    subject: IETF 74 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/74/minutes/emu.txt
   - kind: joined the IESG
     after_meeting: '65'
     after: '2006-03-19'
@@ -128,14 +99,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2006-01-20'
+      certainty: between
       not_before: '2005-10-01'
+      not_after: '2005-10-03'
     end:
       certainty: exact
       date: '2018-02-02'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2006-01-20)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2005-10-03)'
   - start:
       certainty: exact
       date: '2018-03-01'
@@ -174,16 +145,10 @@ chairs:
     date: '2025-06-26'
     subject: 'WG Action: Rechartered EAP Method Update (emu)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/vmaxDL1wOrOW1HgdhNmJWQ2uTFk/
-  - kind: list message
-    date: '2022-07-25'
-    says: start
-    subject: '[Emu] Change of WG chair'
-    url: https://mailarchive.ietf.org/arch/msg/emu/N9-Ukcbq3pUpxWwquWDBWiTHqDE/
-    excerpt: Peter Yee has graciously accepted to step in as our new co-chair to help Joe run things.
   - kind: chair activity
     first: '2007-11-19'
-    last: '2025-04-09'
-    messages: 57
+    last: '2013-03-18'
+    messages: 24
     examples:
     - date: '2007-11-19'
       subject: '[Emu] Draft Agenda for IETF 70'
@@ -256,7 +221,7 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2008-04-25'
     end:
       certainty: exact
@@ -273,8 +238,8 @@ chairs:
       who has been flying solo for some time now.
   - kind: chair activity
     first: '2008-06-24'
-    last: '2022-08-11'
-    messages: 14
+    last: '2012-03-06'
+    messages: 13
     examples:
     - date: '2008-06-24'
       subject: '[Emu] Call for Agenda Items for IETF 72'
@@ -282,9 +247,6 @@ chairs:
     - date: '2008-07-09'
       subject: '[Emu] Draft agenda for IETF 72'
       url: https://mailarchive.ietf.org/arch/msg/emu/Lkzop5lhF9bX8Rox-6qUqSMivgc/
-    - date: '2022-08-11'
-      subject: '[Emu] WG last call for draft-ietf-emu-tls-eap-types ?'
-      url: https://mailarchive.ietf.org/arch/msg/emu/_xkmyn-O3yU5-2ffMRkF52koXBo/
   - kind: minutes
     listed_in: 8
     first: '2009-03-22'
@@ -313,10 +275,6 @@ chairs:
     - date: '2014-07-20'
       subject: IETF 90 proceedings charter
       url: https://www.ietf.org/proceedings/90/emu.html
-  - kind: minutes without them
-    date: '2005-11-06'
-    subject: IETF 64 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/64/minutes/emu.txt
   - kind: session requests
     meetings:
     - '73'
@@ -348,36 +306,6 @@ chairs:
     date: '2019-12-06'
     subject: 'WG Action: Rechartered EAP Method Update (emu)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/_SnRiCIu7c3lPKb5DJmt1Y9EyDE/
-  - kind: list message
-    date: '2018-07-20'
-    says: start
-    subject: '[Emu] New Chair: Mohit Sethi'
-    url: https://mailarchive.ietf.org/arch/msg/emu/UCLcp7xmqevCrsT-uuau56A7QjY/
-    excerpt: I am pleased to announce that Mohit Sethi has agreed to serve as co-chair for EMU.
-  - kind: list message
-    date: '2022-07-25'
-    says: end
-    subject: '[Emu] Change of WG chair'
-    url: https://mailarchive.ietf.org/arch/msg/emu/N9-Ukcbq3pUpxWwquWDBWiTHqDE/
-    excerpt: Mohit stepped down as co-chair of EMU.
-  - kind: chair activity
-    first: '2018-08-03'
-    last: '2022-03-23'
-    messages: 18
-    examples:
-    - date: '2018-08-03'
-      subject: '[Emu] Minutes from EMU @ IETF102'
-      url: https://mailarchive.ietf.org/arch/msg/emu/1dDdeDNSxu_bXHcDlOonAhtT5Xk/
-    - date: '2018-10-09'
-      subject: '[Emu] Agenda Items for IETF 103'
-      url: https://mailarchive.ietf.org/arch/msg/emu/_yx1yKdWM5EsIxNku7QPgY2CGis/
-    - date: '2019-11-26'
-      subject: '[Emu] WGLC for draft-ietf-emu-eap-session-id-01'
-      url: https://mailarchive.ietf.org/arch/msg/emu/aKS0AqsObXtgqGKnxQY5VOAf_v4/
-  - kind: minutes without them
-    date: '2013-03-10'
-    subject: IETF 86 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/86/minutes/minutes-86-emu.txt
   - kind: shepherded
     documents:
     - draft-ietf-emu-eap-session-id
@@ -389,11 +317,11 @@ chairs:
       certainty: evidence-only
       not_after: '2005-11-06'
     end:
-      certainty: between
+      certainty: evidence-only
       not_before: '2013-07-28'
-      not_after: '2013-11-03'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2013-11-03)'
+    - 'Start: listed as chair in meeting minutes (2005-11-06)'
+    - 'End: listed as chair in meeting minutes (2013-07-28)'
   evidence:
   - kind: minutes
     listed_in: 11
@@ -409,7 +337,3 @@ chairs:
     - date: '2013-07-28'
       subject: IETF 87 minutes in the proceedings
       url: https://www.ietf.org/proceedings/87/minutes/minutes-87-emu.txt
-  - kind: minutes without them
-    date: '2013-11-03'
-    subject: IETF 88 proceedings charter
-    url: https://www.ietf.org/proceedings/88/emu.html

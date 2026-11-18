@@ -20,10 +20,12 @@ chairs:
       not_after: '2005-10-03'
     end:
       certainty: between
-      not_before: '2006-01-26'
+      not_before: '2005-11-22'
       not_after: '2006-05-02'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2006-05-02)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2005-10-03)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2005-11-22)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2006-05-02)'
   evidence:
   - kind: chair activity
     first: '2005-11-22'
@@ -53,17 +55,17 @@ chairs:
       subject: IETF 65 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/65/fecframe.html
   - kind: minutes without them
-    date: '2006-07-09'
-    subject: IETF 66 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/66/minutes/fecframe.txt
+    date: '2006-05-02'
+    subject: IETF 66 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/66/fecframe.html
 - person: 106315
   name: Greg Shepherd
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2006-05-02'
+      certainty: between
       not_before: '2006-03-24'
+      not_after: '2006-05-02'
     end:
       certainty: group-closed
       date: '2013-03-05'
@@ -133,9 +135,10 @@ chairs:
       certainty: evidence-only
       not_after: '2006-05-02'
     end:
-      certainty: approximate
+      certainty: announced
       date: '2009-11-10'
     notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2006-05-02)'
     - 'End: announced on the group''s list (2009-11-10)'
   evidence:
   - kind: list message

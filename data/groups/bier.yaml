@@ -24,6 +24,9 @@ chairs:
     end:
       certainty: evidence-only
       not_before: '2024-02-01'
+    notes:
+    - 'Start: started a last call or adoption call on the group''s list (2021-11-23)'
+    - 'End: started a last call or adoption call on the group''s list (2024-02-01)'
   evidence:
   - kind: chair activity
     first: '2021-11-23'
@@ -46,6 +49,15 @@ chairs:
   name: Tony Przygienda
   status: confirmed
   periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2014-07-20'
+    end:
+      certainty: between
+      not_before: '2014-07-20'
+      not_after: '2015-02-11'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   - start:
       certainty: exact
       date: '2015-02-11'

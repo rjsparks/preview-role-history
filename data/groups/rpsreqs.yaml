@@ -24,13 +24,11 @@ chairs:
     end:
       certainty: between
       not_before: '2012-03-25'
+      not_after: '2013-01-31'
     notes:
-    - 'End: after the BOF''s last session, IETF 83 (2012-03-25)'
+    - 'End: the BOF met at IETF 83 (2012-03-25)'
+    - 'End: the group closed (2013-01-31)'
   evidence:
-  - kind: BOF session
-    meeting: '83'
-    date: '2012-03-25'
-    url: https://datatracker.ietf.org/meeting/83/session/rpsreqs/
   - kind: proceedings
     listed_in: 3
     first: '2012-03-25'
@@ -45,3 +43,7 @@ chairs:
     - date: '2012-11-04'
       subject: IETF 85 proceedings charter
       url: https://www.ietf.org/proceedings/85/rpsreqs.html
+  - kind: BOF session
+    meeting: '83'
+    date: '2012-03-25'
+    url: https://datatracker.ietf.org/meeting/83/session/rpsreqs/

@@ -24,8 +24,10 @@ chairs:
     end:
       certainty: between
       not_before: '2024-11-20'
+      not_after: '2025-02-06'
     notes:
     - 'End: listed as chair in meeting minutes (2024-11-20)'
+    - 'End: the group closed (2025-02-06)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -49,8 +51,10 @@ chairs:
     end:
       certainty: between
       not_before: '2024-11-20'
+      not_after: '2025-02-06'
     notes:
-    - 'End: listed as chair in meeting minutes (2024-11-20)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2024-11-20)'
+    - 'End: the group closed (2025-02-06)'
   evidence:
   - kind: chair activity
     first: '2024-11-20'
@@ -68,41 +72,6 @@ chairs:
     - date: '2024-11-20'
       subject: '[deepspace] Draft minutes; please make corrections'
       url: https://mailarchive.ietf.org/arch/msg/deepspace/m95OHxLYaVnnmm6_R8SX3srnRA8/
-  - kind: BOF session
-    meeting: '121'
-    date: '2024-11-02'
-    url: https://datatracker.ietf.org/meeting/121/session/deepspace/
-- person: 121160
-  name: Padma Pillay-Esnault
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: evidence-only
-      not_after: '2024-11-02'
-    end:
-      certainty: evidence-only
-      not_before: '2025-12-04'
-    notes:
-    - 'Start: the BOF met at IETF 121 (2024-11-02)'
-  evidence:
-  - kind: chair activity
-    first: '2025-02-13'
-    last: '2025-12-04'
-    messages: 11
-    examples:
-    - date: '2025-02-13'
-      subject: '[deepspace] IETF 122: TIPTOP Call for Agenda Items'
-      url: https://mailarchive.ietf.org/arch/msg/deepspace/9kLtqhgBaQk0ekcwUTSGf0r2_CQ/
-    - date: '2025-03-01'
-      subject: '[deepspace] TIPTOP Draft Agenda at IETF 122'
-      url: https://mailarchive.ietf.org/arch/msg/deepspace/P628E0dSjZ_VqMA0mYwr6NzLfnw/
-    - date: '2025-06-24'
-      subject: '[deepspace] Call for WG Adoption of IP in Deep Space: Key Characteristics, Use Cases and
-        Requirements'
-      url: https://mailarchive.ietf.org/arch/msg/deepspace/QFBRZ_c2ILCdyJ-0GPZDlaE3SjM/
-    - date: '2025-12-04'
-      subject: '[deepspace] Call for WG adoption of draft-many-tiptop-ip-architecture'
-      url: https://mailarchive.ietf.org/arch/msg/deepspace/RF7zx4corHiVdix0D3dsViPxKk0/
   - kind: BOF session
     meeting: '121'
     date: '2024-11-02'

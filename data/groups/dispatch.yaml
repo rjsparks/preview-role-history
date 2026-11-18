@@ -16,9 +16,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2009-04-20'
+      certainty: between
       not_before: '2009-02-27'
+      not_after: '2009-04-20'
     end:
       certainty: exact
       date: '2019-12-20'
@@ -101,10 +101,12 @@ chairs:
       not_after: '2009-04-20'
     end:
       certainty: between
-      not_before: '2016-05-17'
-      not_after: '2016-07-17'
+      not_before: '2009-11-26'
+      not_after: '2010-04-16'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2016-07-17)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2009-04-20)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2009-11-26)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2010-04-16)'
   evidence:
   - kind: list message
     date: '2016-05-17'
@@ -129,9 +131,14 @@ chairs:
       subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/dispatch.html
   - kind: minutes without them
-    date: '2019-03-23'
-    subject: '[dispatch] DISPATCH Minutes'
-    url: https://mailarchive.ietf.org/arch/msg/dispatch/Fld6mY5y5hkSD4E9OqI6_0Px1us/
+    date: '2010-04-16'
+    subject: IETF 77 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/77/dispatch.html
+  - kind: joined the IESG
+    after_meeting: '77'
+    after: '2010-03-21'
+    by_meeting: '78'
+    by: '2010-07-25'
 - person: 104140
   name: Ben Campbell
   status: confirmed
@@ -171,18 +178,6 @@ chairs:
     - date: '2020-04-23'
       subject: '[dispatch] WGLC of draft-ietf-dispatch-javascript-mjs-07'
       url: https://mailarchive.ietf.org/arch/msg/dispatch/MOp48vAf_K4cjoS9XoFgxBUqXg0/
-  - kind: minutes
-    listed_in: 1
-    first: '2019-03-23'
-    last: '2019-03-23'
-    examples:
-    - date: '2019-03-23'
-      subject: '[dispatch] DISPATCH Minutes'
-      url: https://mailarchive.ietf.org/arch/msg/dispatch/Fld6mY5y5hkSD4E9OqI6_0Px1us/
-  - kind: minutes without them
-    date: '2014-07-20'
-    subject: IETF 90 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/90/minutes/minutes-90-dispatch.txt
   - kind: shepherded
     documents:
     - draft-ietf-dispatch-javascript-mjs
@@ -191,15 +186,26 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-04-16'
+      certainty: between
       not_before: '2009-11-12'
+      not_after: '2010-11-07'
     end:
       certainty: exact
       date: '2019-02-11'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-04-16)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2009-11-12)'
+    - 'Start: not listed among the chairs in meeting minutes (2009-11-12)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
+  - start:
+      certainty: between
+      not_before: '2019-03-23'
+      not_after: '2022-07-25'
+    end:
+      certainty: evidence-only
+      not_before: '2022-07-25'
+    notes:
+    - 'Start: not listed among the chairs in meeting minutes (2019-03-23)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2022-07-25)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2022-07-25)'
   evidence:
   - kind: WG Review
     date: '2016-02-12'
@@ -245,16 +251,16 @@ chairs:
       subject: IETF 90 minutes in the proceedings
       url: https://www.ietf.org/proceedings/90/minutes/minutes-90-dispatch.txt
   - kind: proceedings
-    listed_in: 21
-    first: '2010-04-16'
+    listed_in: 20
+    first: '2010-11-07'
     last: '2017-03-26'
     examples:
-    - date: '2010-04-16'
-      subject: IETF 77 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/77/dispatch.html
     - date: '2010-11-07'
       subject: IETF 79 proceedings charter
       url: https://www.ietf.org/proceedings/79/dispatch.html
+    - date: '2011-03-27'
+      subject: IETF 80 proceedings charter
+      url: https://www.ietf.org/proceedings/80/dispatch.html
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/dispatch.html
@@ -262,6 +268,10 @@ chairs:
     date: '2009-11-12'
     subject: '[dispatch] DREGS Ad Hoc minutes'
     url: https://mailarchive.ietf.org/arch/msg/dispatch/3KKDr_eQvKeJmYOaTxuVsDQ79KQ/
+  - kind: minutes without them
+    date: '2019-03-23'
+    subject: '[dispatch] DISPATCH Minutes'
+    url: https://mailarchive.ietf.org/arch/msg/dispatch/Fld6mY5y5hkSD4E9OqI6_0Px1us/
 - person: 106842
   name: Murray Kucherawy
   status: confirmed
@@ -310,47 +320,6 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/dispatch.html
-  - kind: minutes without them
-    date: '2014-07-20'
-    subject: IETF 90 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/90/minutes/minutes-90-dispatch.txt
-- person: 108049
-  name: Richard Barnes
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: between
-      not_before: '2009-11-12'
-      not_after: '2013-03-10'
-    end:
-      certainty: between
-      not_before: '2013-03-10'
-      not_after: '2013-07-28'
-    notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2013-07-28)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2009-11-12)'
-  evidence:
-  - kind: minutes
-    listed_in: 1
-    first: '2013-03-10'
-    last: '2013-03-10'
-    examples:
-    - date: '2013-03-10'
-      subject: IETF 86 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/86/minutes/minutes-86-dispatch.txt
-  - kind: minutes without them
-    date: '2009-11-12'
-    subject: '[dispatch] DREGS Ad Hoc minutes'
-    url: https://mailarchive.ietf.org/arch/msg/dispatch/3KKDr_eQvKeJmYOaTxuVsDQ79KQ/
-  - kind: minutes without them
-    date: '2013-11-03'
-    subject: IETF 88 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/88/minutes/minutes-88-dispatch.txt
-  - kind: joined the IESG
-    after_meeting: '86'
-    after: '2013-03-10'
-    by_meeting: '87'
-    by: '2013-07-28'
 - person: 111355
   name: Rifaat Shekh-Yusef
   status: confirmed
@@ -379,10 +348,6 @@ chairs:
     - date: '2020-04-20'
       subject: '[dispatch] Dispatch Minutes (v1) from IETF 107'
       url: https://mailarchive.ietf.org/arch/msg/dispatch/TxeO7Wz6qRxL0kr7hIFn9RoHDdk/
-  - kind: minutes without them
-    date: '2019-03-23'
-    subject: '[dispatch] DISPATCH Minutes'
-    url: https://mailarchive.ietf.org/arch/msg/dispatch/Fld6mY5y5hkSD4E9OqI6_0Px1us/
 - person: 121191
   name: Jim Fenton
   status: confirmed
@@ -473,7 +438,3 @@ chairs:
     - date: '2021-07-14'
       subject: '[dispatch] IETF 111 DISPATCH draft agenda'
       url: https://mailarchive.ietf.org/arch/msg/dispatch/aBxhdAfmqmeKh3M76sCqCAz9pX8/
-  - kind: minutes without them
-    date: '2019-03-23'
-    subject: '[dispatch] DISPATCH Minutes'
-    url: https://mailarchive.ietf.org/arch/msg/dispatch/Fld6mY5y5hkSD4E9OqI6_0Px1us/

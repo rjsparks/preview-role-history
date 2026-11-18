@@ -17,11 +17,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2015-08-19'
-      not_before: '2015-08-19'
+      date: '2014-07-20'
     end:
       certainty: exact
       date: '2016-02-29'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -42,26 +43,23 @@ chairs:
     - date: '2015-07-19'
       subject: IETF 93 proceedings charter
       url: https://www.ietf.org/proceedings/93/nmlrg.html
-  - kind: minutes without them
-    date: '2016-04-03'
-    subject: IETF 95 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/95/minutes/minutes-95-nmlrg.txt
 - person: 108054
   name: Sheng Jiang
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2015-08-19'
-      not_before: '2015-08-19'
+      date: '2014-07-20'
     end:
       certainty: group-closed
       date: '2016-02-29'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   evidence:
   - kind: chair activity
     first: '2015-09-07'
-    last: '2016-09-05'
-    messages: 13
+    last: '2016-02-29'
+    messages: 8
     examples:
     - date: '2015-09-07'
       subject: '[Nmlrg] Primary call for agenda - meet in Yokohama, IETF 94'
@@ -70,23 +68,20 @@ chairs:
       subject: '[Nmlrg] Call for Agenda NMLRG @IETF94, Yokohama'
       url: https://mailarchive.ietf.org/arch/msg/nmlrg/6SBe1H6aUh_E0TxjHMIcnhuHbVE/
   - kind: minutes
-    listed_in: 3
+    listed_in: 2
     first: '2015-11-01'
-    last: '2016-07-17'
+    last: '2016-02-29'
     examples:
     - date: '2015-11-01'
       subject: IETF 94 minutes in the proceedings
       url: https://www.ietf.org/proceedings/94/minutes/minutes-94-nmlrg.txt
-    - date: '2016-04-03'
+    - date: '2016-02-29'
       subject: IETF 95 minutes in the proceedings
       url: https://www.ietf.org/proceedings/95/minutes/minutes-95-nmlrg.txt
-    - date: '2016-07-17'
-      subject: IETF 96 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/96/minutes/minutes-96-nmlrg.txt
   - kind: proceedings
-    listed_in: 6
+    listed_in: 4
     first: '2014-07-20'
-    last: '2016-11-13'
+    last: '2016-02-29'
     examples:
     - date: '2014-07-20'
       subject: IETF 90 proceedings charter
@@ -94,13 +89,23 @@ chairs:
     - date: '2015-07-19'
       subject: IETF 93 proceedings charter
       url: https://www.ietf.org/proceedings/93/nmlrg.html
-    - date: '2016-11-13'
-      subject: IETF 97 proceedings charter
-      url: https://www.ietf.org/proceedings/97/nmlrg.html
+    - date: '2016-02-29'
+      subject: IETF 95 proceedings charter
+      url: https://www.ietf.org/proceedings/95/nmlrg.html
 - person: 121486
   name: Albert Cabellos
   status: confirmed
   periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2015-11-01'
+    end:
+      certainty: between
+      not_before: '2015-11-01'
+      not_after: '2016-02-29'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2015-11-01)'
+    - 'End: the group closed (2016-02-29)'
   - start:
       certainty: exact
       date: '2016-02-29'
@@ -109,27 +114,21 @@ chairs:
       date: '2016-02-29'
   evidence:
   - kind: minutes
-    listed_in: 2
-    first: '2016-04-03'
-    last: '2016-07-17'
+    listed_in: 1
+    first: '2016-02-29'
+    last: '2016-02-29'
     examples:
-    - date: '2016-04-03'
+    - date: '2016-02-29'
       subject: IETF 95 minutes in the proceedings
       url: https://www.ietf.org/proceedings/95/minutes/minutes-95-nmlrg.txt
-    - date: '2016-07-17'
-      subject: IETF 96 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/96/minutes/minutes-96-nmlrg.txt
   - kind: proceedings
-    listed_in: 4
+    listed_in: 2
     first: '2015-11-01'
-    last: '2016-11-13'
+    last: '2016-02-29'
     examples:
     - date: '2015-11-01'
       subject: IETF 94 proceedings charter
       url: https://www.ietf.org/proceedings/94/nmlrg.html
-    - date: '2016-04-03'
+    - date: '2016-02-29'
       subject: IETF 95 proceedings charter
       url: https://www.ietf.org/proceedings/95/nmlrg.html
-    - date: '2016-11-13'
-      subject: IETF 97 proceedings charter
-      url: https://www.ietf.org/proceedings/97/nmlrg.html

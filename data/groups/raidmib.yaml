@@ -24,20 +24,16 @@ chairs:
     end:
       certainty: between
       not_before: '1995-12-04'
-      not_after: '1998-03-30'
+      not_after: '1997-03-01'
     notes:
     - 'Start: the BOF met at IETF 34 (1995-12-04)'
-    - 'End: became an Area Director, first serving at IETF 41 (1998-03-30)'
+    - 'End: the BOF met at IETF 34 (1995-12-04)'
+    - 'End: the group closed (1997-03-01)'
   evidence:
   - kind: BOF session
     meeting: '34'
     date: '1995-12-04'
     url: https://www.ietf.org/proceedings/34/area.and.wg.reports/mgt/raidmib/raidmib-minutes-95dec.txt
-  - kind: joined the IESG
-    after_meeting: '40'
-    after: '1997-12-08'
-    by_meeting: '41'
-    by: '1998-03-30'
 - person: 19319
   name: Tom Battle
   status: confirmed
@@ -48,9 +44,11 @@ chairs:
     end:
       certainty: between
       not_before: '1995-12-04'
+      not_after: '1997-03-01'
     notes:
     - 'Start: the BOF met at IETF 34 (1995-12-04)'
-    - 'End: after the BOF''s last session, IETF 34 (1995-12-04)'
+    - 'End: the BOF met at IETF 34 (1995-12-04)'
+    - 'End: the group closed (1997-03-01)'
   evidence:
   - kind: BOF session
     meeting: '34'

@@ -5,10 +5,13 @@ parent: app
 state: conclude
 started: '2007-12-26'
 closed: '2012-11-13'
-bof: false
+bof: true
 never_chartered: false
 chartered: '2008-01-24'
-bof_sessions: []
+bof_sessions:
+- meeting: '69'
+  date: '2007-07-22'
+  url: https://datatracker.ietf.org/meeting/69/session/vcarddav/
 history_url: https://datatracker.ietf.org/group/vcarddav/history/
 chairs:
 - person: 2097
@@ -23,7 +26,8 @@ chairs:
       not_before: '2007-06-28'
       not_after: '2008-01-31'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2008-01-31)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2007-06-28)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2008-01-31)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -34,9 +38,9 @@ chairs:
       subject: IETF 69 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/69/vcarddav.html
   - kind: minutes without them
-    date: '2009-03-22'
-    subject: IETF 74 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/74/minutes/vcarddav.txt
+    date: '2008-01-31'
+    subject: IETF 71 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/71/vcarddav.html
 - person: 19869
   name: Marc Blanchet
   status: unconfirmed
@@ -45,8 +49,13 @@ chairs:
       certainty: evidence-only
       not_after: '2008-01-31'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2011-07-24'
+      not_after: '2012-11-13'
+    notes:
+    - 'Start: named as chair in the WG Action announcement (2008-01-31)'
+    - 'End: requested the group''s session for IETF 81 (2011-07-24)'
+    - 'End: the group closed (2012-11-13)'
   evidence:
   - kind: WG Action
     date: '2008-01-31'
@@ -111,8 +120,13 @@ chairs:
       certainty: evidence-only
       not_after: '2007-06-28'
     end:
-      certainty: evidence-only
-      not_before: '2010-03-25'
+      certainty: between
+      not_before: '2009-03-22'
+      not_after: '2012-11-13'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2007-06-28)'
+    - 'End: listed as chair in meeting minutes (2009-03-22)'
+    - 'End: the group closed (2012-11-13)'
   evidence:
   - kind: WG Action
     date: '2008-01-31'
@@ -149,14 +163,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-07-24'
+      certainty: between
       not_before: '2007-12-26'
+      not_after: '2009-02-03'
     end:
       certainty: group-closed
       date: '2012-11-13'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2011-07-24)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2009-02-03)'
   evidence:
   - kind: WG Action
     date: '2011-08-16'

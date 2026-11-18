@@ -24,9 +24,11 @@ chairs:
     end:
       certainty: between
       not_before: '1994-12-05'
+      not_after: '1997-01-01'
     notes:
     - 'Start: the BOF met at IETF 31 (1994-12-05)'
-    - 'End: after the BOF''s last session, IETF 31 (1994-12-05)'
+    - 'End: the BOF met at IETF 31 (1994-12-05)'
+    - 'End: the group closed (1997-01-01)'
   evidence:
   - kind: BOF session
     meeting: '31'

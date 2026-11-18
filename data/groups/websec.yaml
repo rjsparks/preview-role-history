@@ -16,7 +16,7 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2011-04-22'
     end:
       certainty: exact
@@ -58,16 +58,16 @@ chairs:
       subject: IETF 81 minutes in the proceedings
       url: https://www.ietf.org/proceedings/81/minutes/websec.txt
   - kind: proceedings
-    listed_in: 5
-    first: '2010-11-07'
+    listed_in: 3
+    first: '2011-07-24'
     last: '2012-07-29'
     examples:
-    - date: '2010-11-07'
-      subject: IETF 79 proceedings charter
-      url: https://www.ietf.org/proceedings/79/websec.html
-    - date: '2011-03-27'
-      subject: IETF 80 proceedings charter
-      url: https://www.ietf.org/proceedings/80/websec.html
+    - date: '2011-07-24'
+      subject: IETF 81 proceedings charter
+      url: https://www.ietf.org/proceedings/81/websec.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/websec.html
     - date: '2012-07-29'
       subject: IETF 84 proceedings charter
       url: https://www.ietf.org/proceedings/84/websec.html
@@ -85,21 +85,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-11-07'
-      not_before: '2010-09-23'
+      date: '2010-07-25'
     end:
       certainty: group-closed
       date: '2015-04-21'
     notes:
-    - 'Start: listed as chair in meeting minutes (2010-11-07)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
   evidence:
-  - kind: list message
-    date: '2011-04-22'
-    says: start
-    subject: '[websec] new co-chair'
-    url: https://mailarchive.ietf.org/arch/msg/websec/GbNv1FMIinS2k9Fso9CO9FdNZbU/
-    excerpt: Folks, I have named Alexey Melnikov as co-chair of the WEBSEC WG, along with existing chair
-      Tobias Gondrom.
   - kind: chair activity
     first: '2010-10-24'
     last: '2013-08-28'
@@ -161,6 +153,17 @@ chairs:
       certainty: group-closed
       date: '2015-04-21'
   evidence:
+  - kind: chair activity
+    first: '2012-10-23'
+    last: '2013-06-19'
+    messages: 2
+    examples:
+    - date: '2012-10-23'
+      subject: '[websec] WGLC for X-Frame-Options'
+      url: https://mailarchive.ietf.org/arch/msg/websec/bLqVz6QrzkBgBio27FzFGq5edOs/
+    - date: '2013-06-19'
+      subject: '[websec] WGLC: draft-ietf-websec-key-pinning-06'
+      url: https://mailarchive.ietf.org/arch/msg/websec/_EXn5xTQHPG8Hor6UIEUqPFL9H0/
   - kind: proceedings
     listed_in: 8
     first: '2012-07-29'
@@ -175,10 +178,6 @@ chairs:
     - date: '2014-11-09'
       subject: IETF 91 proceedings charter
       url: https://www.ietf.org/proceedings/91/websec.html
-  - kind: minutes without them
-    date: '2011-07-24'
-    subject: IETF 81 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/81/minutes/websec.txt
   - kind: shepherded
     documents:
     - draft-ietf-websec-key-pinning

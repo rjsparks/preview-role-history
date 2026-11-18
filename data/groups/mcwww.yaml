@@ -23,14 +23,10 @@ chairs:
       date: '1997-01-01'
     end:
       certainty: between
-      not_before: '1997-04-07'
+      not_before: '1997-01-01'
+      not_after: '1997-01-01'
     notes:
-    - 'End: after the BOF''s last session, IETF 38 (1997-04-07)'
-  evidence:
-  - kind: BOF session
-    meeting: '38'
-    date: '1997-04-07'
-    url: https://www.ietf.org/proceedings/38/97apr-final/httoc.htm
+    - 'End: the group closed (1997-01-01)'
 - person: 17226
   name: Ross Finlayson
   status: confirmed
@@ -40,11 +36,7 @@ chairs:
       date: '1997-01-01'
     end:
       certainty: between
-      not_before: '1997-04-07'
+      not_before: '1997-01-01'
+      not_after: '1997-01-01'
     notes:
-    - 'End: after the BOF''s last session, IETF 38 (1997-04-07)'
-  evidence:
-  - kind: BOF session
-    meeting: '38'
-    date: '1997-04-07'
-    url: https://www.ietf.org/proceedings/38/97apr-final/httoc.htm
+    - 'End: the group closed (1997-01-01)'

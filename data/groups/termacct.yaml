@@ -19,8 +19,11 @@ chairs:
       certainty: on-or-before
       date: '1997-03-01'
     end:
-      certainty: group-closed
-      date: '1997-03-01'
+      certainty: between
+      not_before: '1997-03-01'
+      not_after: '1997-03-01'
+    notes:
+    - 'End: the group closed (1997-03-01)'
 - person: 5451
   name: Larry Blunk
   status: confirmed
@@ -29,5 +32,8 @@ chairs:
       certainty: on-or-before
       date: '1997-03-01'
     end:
-      certainty: group-closed
-      date: '1997-03-01'
+      certainty: between
+      not_before: '1997-03-01'
+      not_after: '1997-03-01'
+    notes:
+    - 'End: the group closed (1997-03-01)'

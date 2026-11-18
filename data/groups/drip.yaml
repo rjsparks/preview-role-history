@@ -18,7 +18,6 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2020-02-11'
-      not_before: '2020-02-11'
     end:
       certainty: exact
       date: '2020-02-12'
@@ -45,8 +44,13 @@ chairs:
       certainty: evidence-only
       not_after: '2023-06-27'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2025-10-21'
+      not_after: '2026-06-09'
+    notes:
+    - 'Start: started a last call or adoption call on the group''s list (2023-06-27)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2025-10-21)'
+    - 'End: the group closed (2026-06-09)'
   evidence:
   - kind: chair activity
     first: '2023-06-27'
@@ -68,11 +72,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2020-02-11'
-      not_before: '2020-02-11'
+      date: '2019-11-29'
     end:
       certainty: group-closed
       date: '2026-06-09'
+    notes:
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2019-11-29)'
   evidence:
   - kind: WG Review
     date: '2020-02-11'
@@ -137,13 +142,13 @@ chairs:
     - date: '2020-12-03'
       subject: '[Drip] Call for adoption for draft-wiethuechter-drip-auth'
       url: https://mailarchive.ietf.org/arch/msg/tm-rid/Lg2P5BI0RoXGR5ytxEoB3m6L9XQ/
-  - kind: shepherded
-    documents:
-    - draft-ietf-drip-auth
-    - draft-ietf-drip-reqs
-    - draft-ietf-drip-rid
   - kind: joined the IESG
     after_meeting: '122'
     after: '2025-03-15'
     by_meeting: '123'
     by: '2025-07-19'
+  - kind: shepherded
+    documents:
+    - draft-ietf-drip-auth
+    - draft-ietf-drip-reqs
+    - draft-ietf-drip-rid

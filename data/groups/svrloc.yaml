@@ -19,8 +19,12 @@ chairs:
       certainty: evidence-only
       not_after: '1994-03-28'
     end:
-      certainty: evidence-only
-      not_before: '1998-02-12'
+      certainty: between
+      not_before: '1994-03-28'
+      not_after: '2001-05-31'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
+    - 'End: the group closed (2001-05-31)'
   evidence:
   - kind: proceedings
     listed_in: 9
@@ -45,10 +49,11 @@ chairs:
       not_after: '1994-03-28'
     end:
       certainty: between
-      not_before: '1995-07-17'
-      not_after: '1997-04-07'
+      not_before: '1994-03-28'
+      not_after: '1997-10-27'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (1997-04-07)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (1997-10-27)'
   evidence:
   - kind: proceedings
     listed_in: 4
@@ -65,17 +70,17 @@ chairs:
       subject: IETF 33 proceedings charter
       url: https://www.ietf.org/proceedings/33/area.and.wg.reports/int/svrloc/svrloc-charter.txt
   - kind: minutes without them
-    date: '1997-04-07'
-    subject: IETF 38 proceedings charter
-    url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr54.htm
+    date: '1997-10-27'
+    subject: IETF 40 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-54.htm
 - person: 16916
   name: Erik Guttman
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1997-04-07'
+      certainty: between
       not_before: '1990-12-01'
+      not_after: '1997-04-07'
     end:
       certainty: group-closed
       date: '2001-05-31'

@@ -16,14 +16,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2012-02-06'
     end:
-      certainty: approximate
-      date: '2012-03-13'
+      certainty: group-closed
+      date: '2015-06-08'
     notes:
     - 'Start: announced on the group''s list (2012-02-06)'
-    - 'End: announced on the group''s list (2012-03-13)'
   evidence:
   - kind: list message
     date: '2012-02-06'
@@ -32,13 +31,6 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/eman/klSlSj03nz5YO5CL5s-GxJWhPjA/
     excerpt: In consultation with Benoit we decided to ask Nevil Brownlee to take over this responsibility,
       and Nevil graciously accepted.
-  - kind: list message
-    date: '2012-03-13'
-    says: end
-    subject: '[eman] Fwd: I-D Action: draft-ietf-eman-framework-04.txt'
-    url: https://mailarchive.ietf.org/arch/msg/eman/Zu6qnAcGZrw98zKq2K90AbuyzfY/
-    excerpt: This stems from my promise to Nevil Brownlee to try to leave a clean plate to our brand new
-      co-chair.
   - kind: chair activity
     first: '2012-03-29'
     last: '2014-03-05'
@@ -124,10 +116,6 @@ chairs:
     - date: '2015-03-22'
       subject: IETF 92 proceedings charter
       url: https://www.ietf.org/proceedings/92/eman.html
-  - kind: minutes without them
-    date: '2012-07-29'
-    subject: IETF 84 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/84/minutes/minutes-84-eman.txt
   - kind: shepherded
     documents:
     - draft-ietf-eman-framework
@@ -137,15 +125,14 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-09-28'
-      not_before: '2010-08-26'
+      date: '2010-07-25'
     end:
       certainty: between
       not_before: '2011-12-09'
       not_after: '2012-03-25'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2010-09-28)'
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2012-03-25)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
+    - 'End: not listed among the chairs in meeting minutes (2012-03-25)'
   evidence:
   - kind: WG Action
     date: '2010-09-28'
@@ -180,28 +167,27 @@ chairs:
     date: '2012-03-25'
     subject: '[eman] DRAFT minutes for Tuesday''s EMAN WG meeting'
     url: https://mailarchive.ietf.org/arch/msg/eman/ho6aIs-wM9X6kD-ZnTrfEFP1H1w/
-  - kind: session requests
-    meetings:
-    - '80'
-    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
   - kind: joined the IESG
     after_meeting: '83'
     after: '2012-03-25'
     by_meeting: '84'
     by: '2012-07-29'
+  - kind: session requests
+    meetings:
+    - '80'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
 - person: 111529
   name: Bruce Nordman
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-09-28'
-      not_before: '2010-08-26'
+      date: '2010-07-25'
     end:
       certainty: exact
       date: '2013-06-26'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2010-09-28)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
   evidence:
   - kind: WG Action
     date: '2010-09-28'

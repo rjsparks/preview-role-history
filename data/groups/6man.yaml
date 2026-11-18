@@ -16,9 +16,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2007-09-25'
+      certainty: between
       not_before: '2007-08-24'
+      not_after: '2007-09-25'
     end:
       certainty: ongoing
     notes:
@@ -116,17 +116,17 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2007-09-25'
+      certainty: between
       not_before: '2007-08-24'
+      not_after: '2007-09-25'
     end:
       certainty: between
       not_before: '2012-03-25'
       not_after: '2012-07-29'
     notes:
     - 'Start: named as chair in the WG Action announcement (2007-09-25)'
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2012-07-29)'
     - 'End: listed as chair in meeting minutes (2012-03-25)'
+    - 'End: not listed among the chairs in meeting minutes (2012-07-29)'
   evidence:
   - kind: WG Action
     date: '2007-09-25'
@@ -181,6 +181,11 @@ chairs:
     date: '2012-07-29'
     subject: IETF 84 minutes in the proceedings
     url: https://www.ietf.org/proceedings/84/minutes/minutes-84-6man.txt
+  - kind: joined the IESG
+    after_meeting: '83'
+    after: '2012-03-25'
+    by_meeting: '84'
+    by: '2012-07-29'
   - kind: session requests
     meetings:
     - '70'
@@ -196,24 +201,19 @@ chairs:
     - '81'
     - '82'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
-  - kind: joined the IESG
-    after_meeting: '83'
-    after: '2012-03-25'
-    by_meeting: '84'
-    by: '2012-07-29'
 - person: 105691
   name: Ole Trøan
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-12-09'
+      certainty: between
       not_before: '2011-11-13'
+      not_after: '2011-12-09'
     end:
       certainty: exact
       date: '2024-07-31'
     notes:
-    - 'Start: not yet listed among the chairs in meeting minutes (2011-11-13)'
+    - 'Start: not listed among the chairs in meeting minutes (2011-11-13)'
   evidence:
   - kind: WG Review
     date: '2013-10-11'
@@ -347,10 +347,6 @@ chairs:
     - date: '2022-07-24'
       subject: 'WANTED: Minutes Taker'
       url: https://mailarchive.ietf.org/arch/msg/ipv6/4puxHbrxlB6We248He7KksD7rWU/
-  - kind: minutes without them
-    date: '2016-04-03'
-    subject: IETF 95 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/95/minutes/minutes-95-6man.txt
   - kind: shepherded
     documents:
     - draft-ietf-6man-hbh-processing

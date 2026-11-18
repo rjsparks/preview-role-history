@@ -16,9 +16,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1994-03-28'
+      certainty: between
       not_before: '1989-10-01'
+      not_after: '1994-03-28'
     end:
       certainty: group-closed
       date: '1995-05-23'
@@ -60,14 +60,16 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1994-03-28'
+      certainty: between
       not_before: '1989-10-01'
+      not_after: '1994-03-28'
     end:
-      certainty: on-or-before
-      date: '1995-04-03'
+      certainty: between
+      not_before: '1994-04-14'
+      not_after: '1995-04-03'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
+    - 'End: listed as chair in meeting minutes (1994-04-14)'
     - 'End: became an Area Director, first serving at IETF 32 (1995-04-03)'
   evidence:
   - kind: minutes

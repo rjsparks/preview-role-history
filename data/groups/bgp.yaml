@@ -11,43 +11,24 @@ chartered: '1989-01-01'
 bof_sessions: []
 history_url: https://datatracker.ietf.org/group/bgp/history/
 chairs:
-- person: 4475
-  name: Tony Li
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: evidence-only
-      not_after: '2002-07-03'
-    end:
-      certainty: evidence-only
-      not_before: '2002-07-03'
-  evidence:
-  - kind: proceedings
-    listed_in: 1
-    first: '2002-07-03'
-    last: '2002-07-03'
-    examples:
-    - date: '2002-07-03'
-      subject: IETF 54 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/54/allcharters.htm
 - person: 10535
   name: Yakov Rekhter
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1994-03-28'
+      certainty: between
       not_before: '1989-01-01'
+      not_after: '1992-06-14'
     end:
       certainty: group-closed
       date: '1994-08-15'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (1992-06-14)'
   evidence:
   - kind: chair activity
     first: '1992-06-14'
-    last: '1995-03-24'
-    messages: 11
+    last: '1994-08-01'
+    messages: 8
     examples:
     - date: '1992-06-14'
       subject: agenda for the WG meeting
@@ -63,22 +44,3 @@ chairs:
     - date: '1994-03-28'
       subject: IETF 29 proceedings charter
       url: https://www.ietf.org/proceedings/29/area.and.wg.reports/rtg/bgp/bgp-charter.txt
-- person: 104151
-  name: Tony Przygienda
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: evidence-only
-      not_after: '2002-07-03'
-    end:
-      certainty: evidence-only
-      not_before: '2002-07-03'
-  evidence:
-  - kind: proceedings
-    listed_in: 1
-    first: '2002-07-03'
-    last: '2002-07-03'
-    examples:
-    - date: '2002-07-03'
-      subject: IETF 54 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/54/allcharters.htm

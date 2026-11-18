@@ -16,26 +16,20 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1994-12-05'
+      certainty: between
       not_before: '1994-06-22'
+      not_after: '1995-07-17'
     end:
       certainty: group-closed
       date: '1996-06-17'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1994-12-05)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1995-07-17)'
   evidence:
   - kind: proceedings
-    listed_in: 4
-    first: '1994-12-05'
-    last: '1996-03-04'
+    listed_in: 1
+    first: '1995-07-17'
+    last: '1995-07-17'
     examples:
-    - date: '1994-12-05'
-      subject: IETF 31 proceedings charter
-      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/app/mailext/mailext-charter.txt
-    - date: '1995-04-03'
-      subject: IETF 32 proceedings charter
-      url: https://www.ietf.org/proceedings/32/area.and.wg.reports/app/mailext/mailext-charter.txt
-    - date: '1996-03-04'
-      subject: IETF 35 proceedings charter
-      url: https://www.ietf.org/proceedings/35/area.and.wg.reports/app/area.applications.html
+    - date: '1995-07-17'
+      subject: IETF 33 proceedings charter
+      url: https://www.ietf.org/proceedings/33/area.and.wg.reports/app/mailext/mailext-charter.txt

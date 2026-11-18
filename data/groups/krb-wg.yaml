@@ -20,10 +20,12 @@ chairs:
       not_after: '2000-07-17'
     end:
       certainty: between
-      not_before: '2004-02-13'
+      not_before: '2000-07-18'
       not_after: '2007-06-27'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2007-06-27)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2000-07-17)'
+    - 'End: named as chair in the WG Action announcement (2000-07-18)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2007-06-27)'
   evidence:
   - kind: WG Action
     date: '2000-07-18'
@@ -44,23 +46,23 @@ chairs:
       subject: IETF 59 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/59/256.htm
   - kind: minutes without them
-    date: '2007-12-02'
-    subject: IETF 70 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/70/minutes/krb-wg.txt
+    date: '2007-06-27'
+    subject: IETF 69 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/69/krb-wg.html
 - person: 103048
   name: Sam Hartman
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-11-07'
+      certainty: between
       not_before: '2010-03-21'
+      not_after: '2010-11-07'
     end:
       certainty: group-closed
       date: '2013-03-18'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2010-03-21)'
     - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2010-03-21)'
   evidence:
   - kind: WG Action
     date: '2011-06-28'
@@ -129,9 +131,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2003-10-20'
+      certainty: between
       not_before: '2000-06-15'
+      not_after: '2003-10-20'
     end:
       certainty: exact
       date: '2012-10-01'
@@ -198,10 +200,6 @@ chairs:
     - date: '2012-03-25'
       subject: IETF 83 proceedings charter
       url: https://www.ietf.org/proceedings/83/krb-wg.html
-  - kind: minutes without them
-    date: '2012-11-04'
-    subject: IETF 85 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/85/minutes/minutes-85-krb-wg.txt
   - kind: session requests
     meetings:
     - '65'
@@ -233,9 +231,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2007-06-27'
+      certainty: between
       not_before: '2000-06-15'
+      not_after: '2007-06-27'
     end:
       certainty: exact
       date: '2012-10-01'
@@ -296,10 +294,6 @@ chairs:
     - date: '2012-03-25'
       subject: IETF 83 proceedings charter
       url: https://www.ietf.org/proceedings/83/krb-wg.html
-  - kind: minutes without them
-    date: '2012-11-04'
-    subject: IETF 85 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/85/minutes/minutes-85-krb-wg.txt
 - person: 107956
   name: Shawn Emery
   status: confirmed
@@ -327,10 +321,6 @@ chairs:
     - date: '2012-07-29'
       subject: IETF 84 proceedings charter
       url: https://www.ietf.org/proceedings/84/krb-wg.html
-  - kind: minutes without them
-    date: '2011-11-13'
-    subject: IETF 82 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/82/minutes/krb-wg.txt
 - person: 111163
   name: Josh Howlett
   status: confirmed
@@ -358,7 +348,3 @@ chairs:
     - date: '2012-07-29'
       subject: IETF 84 proceedings charter
       url: https://www.ietf.org/proceedings/84/krb-wg.html
-  - kind: minutes without them
-    date: '2011-11-13'
-    subject: IETF 82 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/82/minutes/krb-wg.txt

@@ -19,8 +19,11 @@ chairs:
       certainty: on-or-before
       date: '1992-07-01'
     end:
-      certainty: group-closed
-      date: '1992-07-01'
+      certainty: between
+      not_before: '1992-07-01'
+      not_after: '1992-07-01'
+    notes:
+    - 'End: the group closed (1992-07-01)'
 - person: 4230
   name: John Renwick
   status: confirmed
@@ -29,5 +32,8 @@ chairs:
       certainty: on-or-before
       date: '1992-07-01'
     end:
-      certainty: group-closed
-      date: '1992-07-01'
+      certainty: between
+      not_before: '1992-07-01'
+      not_after: '1992-07-01'
+    notes:
+    - 'End: the group closed (1992-07-01)'

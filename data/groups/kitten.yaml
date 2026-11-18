@@ -23,10 +23,12 @@ chairs:
       not_after: '2004-08-01'
     end:
       certainty: between
-      not_before: '2007-03-12'
+      not_before: '2006-11-05'
       not_after: '2007-06-14'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2007-06-14)'
+    - 'Start: listed as chair in meeting minutes (2004-08-01)'
+    - 'End: requested the group''s session for IETF 67 (2006-11-05)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2007-06-14)'
   evidence:
   - kind: WG Action
     date: '2004-11-03'
@@ -78,9 +80,9 @@ chairs:
       subject: IETF 68 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/68/kitten.html
   - kind: minutes without them
-    date: '2007-07-22'
-    subject: IETF 69 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/69/minutes/kitten.txt
+    date: '2007-06-14'
+    subject: IETF 69 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/69/kitten.html
   - kind: session requests
     meetings:
     - '66'
@@ -91,14 +93,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2007-07-22'
+      certainty: between
       not_before: '2004-06-10'
+      not_after: '2007-06-14'
     end:
       certainty: exact
       date: '2012-10-01'
     notes:
-    - 'Start: requested the group''s session for IETF 69 (2007-07-22)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2007-06-14)'
   - start:
       certainty: exact
       date: '2021-01-11'
@@ -109,13 +111,6 @@ chairs:
     date: '2011-06-28'
     subject: 'WG Action: RECHARTER: Common Authentication Technology Next Generation (kitten)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/VSJlkAvehmvXD-9nPj7Ae-GL6ZQ/
-  - kind: list message
-    date: '2021-02-11'
-    says: start
-    subject: '[kitten] Please welcome Alexey Melnikov as kitten co-chair!'
-    url: https://mailarchive.ietf.org/arch/msg/kitten/ooLs95i20RE0OrfNMdjAMvNX88Q/
-    excerpt: Robbie has been doing everything on his own for some time now, and I'm happy to report that
-      I've been able to enlist Alexey Melnikov to join Robbie as co-chair to spread the load.
   - kind: chair activity
     first: '2007-08-11'
     last: '2025-02-12'
@@ -182,15 +177,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2009-03-22'
+      certainty: between
       not_before: '2008-03-09'
+      not_after: '2009-03-22'
     end:
       certainty: exact
       date: '2012-10-01'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2008-03-09)'
     - 'Start: listed as chair in a proceedings charter snapshot (2009-03-22)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2008-03-09)'
   evidence:
   - kind: WG Review
     date: '2010-07-08'
@@ -244,10 +239,6 @@ chairs:
     date: '2008-03-09'
     subject: IETF 71 minutes in the proceedings
     url: https://www.ietf.org/proceedings/71/minutes/kitten.txt
-  - kind: minutes without them
-    date: '2012-11-04'
-    subject: IETF 85 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/85/minutes/minutes-85-kitten.txt
 - person: 103048
   name: Sam Hartman
   status: confirmed
@@ -306,27 +297,19 @@ chairs:
     - date: '2012-07-29'
       subject: IETF 84 proceedings charter
       url: https://www.ietf.org/proceedings/84/kitten.html
-  - kind: minutes without them
-    date: '2011-11-13'
-    subject: IETF 82 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/82/minutes/kitten.txt
-  - kind: minutes without them
-    date: '2014-11-09'
-    subject: IETF 91 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/91/minutes/minutes-91-kitten.txt
 - person: 107956
   name: Shawn Emery
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2008-11-16'
+      certainty: between
       not_before: '2004-06-10'
+      not_after: '2007-06-14'
     end:
       certainty: exact
       date: '2014-07-23'
     notes:
-    - 'Start: requested the group''s session for IETF 73 (2008-11-16)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2007-06-14)'
   - start:
       certainty: exact
       date: '2014-07-24'
@@ -468,14 +451,6 @@ chairs:
     - date: '2012-07-29'
       subject: IETF 84 proceedings charter
       url: https://www.ietf.org/proceedings/84/kitten.html
-  - kind: minutes without them
-    date: '2011-11-13'
-    subject: IETF 82 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/82/minutes/kitten.txt
-  - kind: minutes without them
-    date: '2014-11-09'
-    subject: IETF 91 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/91/minutes/minutes-91-kitten.txt
 - person: 111178
   name: Matthew Miller
   status: confirmed
@@ -537,10 +512,6 @@ chairs:
     - date: '2015-03-22'
       subject: IETF 92 minutes in the proceedings
       url: https://www.ietf.org/proceedings/92/minutes/minutes-92-kitten.txt
-  - kind: minutes without them
-    date: '2014-07-20'
-    subject: IETF 90 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/90/minutes/minutes-90-kitten.txt
   - kind: shepherded
     documents:
     - draft-ietf-kitten-gss-loop
@@ -554,11 +525,6 @@ chairs:
     end:
       certainty: exact
       date: '2019-08-28'
-  evidence:
-  - kind: minutes without them
-    date: '2015-03-22'
-    subject: IETF 92 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/92/minutes/minutes-92-kitten.txt
 - person: 115214
   name: Benjamin Kaduk
   status: confirmed
@@ -625,6 +591,11 @@ chairs:
     - date: '2015-03-22'
       subject: IETF 92 minutes in the proceedings
       url: https://www.ietf.org/proceedings/92/minutes/minutes-92-kitten.txt
+  - kind: joined the IESG
+    after_meeting: '101'
+    after: '2018-03-17'
+    by_meeting: '102'
+    by: '2018-07-14'
   - kind: shepherded
     documents:
     - draft-ietf-kitten-aes-cts-hmac-sha2
@@ -633,11 +604,6 @@ chairs:
     - draft-ietf-kitten-rfc4402bis
     - draft-ietf-kitten-sasl-oauth
     - draft-ietf-krb-wg-cammac
-  - kind: joined the IESG
-    after_meeting: '101'
-    after: '2018-03-17'
-    by_meeting: '102'
-    by: '2018-07-14'
 - person: 124911
   name: Robbie Harwood
   status: confirmed
@@ -663,10 +629,6 @@ chairs:
     - date: '2020-06-04'
       subject: '[kitten] Call for adoption on draft-whited-tls-channel-bindings-for-tls13'
       url: https://mailarchive.ietf.org/arch/msg/kitten/07RgJ5Ix6KFgSKMnzUxYePMxKe0/
-  - kind: minutes without them
-    date: '2015-03-22'
-    subject: IETF 92 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/92/minutes/minutes-92-kitten.txt
   - kind: shepherded
     documents:
     - draft-ietf-kitten-pkinit-alg-agility

@@ -22,11 +22,25 @@ chairs:
   status: confirmed
   periods:
   - start:
+      certainty: evidence-only
+      not_after: '2022-03-19'
+    end:
+      certainty: between
+      not_before: '2022-11-05'
+      not_after: '2023-02-14'
+    notes:
+    - 'Start: the BOF met at IETF 113 (2022-03-19)'
+    - 'End: the BOF met at IETF 115 (2022-11-05)'
+  - start:
       certainty: exact
       date: '2023-02-14'
     end:
-      certainty: group-closed
-      date: '2023-03-03'
+      certainty: between
+      not_before: '2023-02-17'
+      not_after: '2023-03-03'
+    notes:
+    - 'End: named as a proposed chair in a WG Review announcement (2023-02-17)'
+    - 'End: the group closed (2023-03-03)'
   evidence:
   - kind: WG Review
     date: '2023-02-17'
@@ -91,11 +105,25 @@ chairs:
   status: confirmed
   periods:
   - start:
+      certainty: evidence-only
+      not_after: '2022-03-19'
+    end:
+      certainty: between
+      not_before: '2022-11-05'
+      not_after: '2023-02-14'
+    notes:
+    - 'Start: the BOF met at IETF 113 (2022-03-19)'
+    - 'End: the BOF met at IETF 115 (2022-11-05)'
+  - start:
       certainty: exact
       date: '2023-02-14'
     end:
-      certainty: group-closed
-      date: '2023-03-03'
+      certainty: between
+      not_before: '2023-02-17'
+      not_after: '2023-03-03'
+    notes:
+    - 'End: named as a proposed chair in a WG Review announcement (2023-02-17)'
+    - 'End: the group closed (2023-03-03)'
   evidence:
   - kind: WG Review
     date: '2023-02-17'

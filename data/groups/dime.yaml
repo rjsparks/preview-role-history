@@ -11,32 +11,6 @@ chartered: '2006-01-05'
 bof_sessions: []
 history_url: https://datatracker.ietf.org/group/dime/history/
 chairs:
-- person: 101704
-  name: John Merrells
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: evidence-only
-      not_after: '2006-03-19'
-    end:
-      certainty: between
-      not_before: '2006-03-19'
-      not_after: '2006-03-29'
-    notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2006-03-29)'
-  evidence:
-  - kind: minutes
-    listed_in: 1
-    first: '2006-03-19'
-    last: '2006-03-19'
-    examples:
-    - date: '2006-03-19'
-      subject: IETF 65 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/65/minutes/dime.txt
-  - kind: minutes without them
-    date: '2006-07-09'
-    subject: IETF 66 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/66/minutes/dime.txt
 - person: 104183
   name: John Loughney
   status: unconfirmed
@@ -45,15 +19,12 @@ chairs:
       certainty: evidence-only
       not_after: '2006-02-13'
     end:
-      certainty: approximate
+      certainty: announced
       date: '2007-02-13'
     notes:
+    - 'Start: named as chair in the WG Action announcement (2006-02-13)'
     - 'End: announced on the group''s list (2007-02-13)'
   evidence:
-  - kind: WG Action
-    date: '2006-02-13'
-    subject: 'WG Action: Diameter Maintenance and Extensions (dime)'
-    url: null
   - kind: WG Action
     date: '2006-02-15'
     subject: 'WG Action: Diameter Maintenance and Extensions (dime)'
@@ -94,10 +65,6 @@ chairs:
     - date: '2006-03-29'
       subject: IETF 66 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/66/dime.html
-  - kind: minutes without them
-    date: '2010-11-07'
-    subject: IETF 79 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/79/minutes/dime.txt
   - kind: session requests
     meetings:
     - '65'
@@ -109,15 +76,16 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2007-02-13'
     end:
       certainty: between
-      not_before: '2009-02-11'
+      not_before: '2008-05-13'
       not_after: '2009-07-07'
     notes:
     - 'Start: announced on the group''s list (2007-02-13)'
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-07-07)'
+    - 'End: started a last call or adoption call on the group''s list (2008-05-13)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2009-07-07)'
   evidence:
   - kind: list message
     date: '2007-02-13'
@@ -155,28 +123,24 @@ chairs:
       subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/dime.html
   - kind: minutes without them
-    date: '2006-07-09'
-    subject: IETF 66 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/66/minutes/dime.txt
-  - kind: minutes without them
-    date: '2010-11-07'
-    subject: IETF 79 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/79/minutes/dime.txt
+    date: '2009-07-07'
+    subject: IETF 75 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/75/dime.html
 - person: 105857
   name: Hannes Tschofenig
   status: unconfirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2006-03-19'
+      certainty: evidence-only
       not_after: '2006-03-29'
     end:
       certainty: between
       not_before: '2010-03-21'
       not_after: '2010-08-19'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-08-19)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2006-03-19)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2006-03-29)'
+    - 'End: requested the group''s session for IETF 77 (2010-03-21)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2010-08-19)'
   evidence:
   - kind: WG Review
     date: '2009-06-23'
@@ -230,13 +194,9 @@ chairs:
       subject: IETF 76 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/76/dime.html
   - kind: minutes without them
-    date: '2006-03-19'
-    subject: IETF 65 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/65/minutes/dime.txt
-  - kind: minutes without them
-    date: '2010-11-07'
-    subject: IETF 79 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/79/minutes/dime.txt
+    date: '2010-08-19'
+    subject: IETF 78 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/78/dime.html
   - kind: session requests
     meetings:
     - '68'
@@ -263,8 +223,10 @@ chairs:
       not_before: '2009-07-30'
       not_after: '2010-03-15'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-03-15)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2006-07-09)'
+    - 'Start: not listed among the chairs in meeting minutes (2006-07-09)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2007-12-06)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2009-07-30)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2010-03-15)'
   evidence:
   - kind: WG Review
     date: '2009-06-23'
@@ -301,9 +263,9 @@ chairs:
     subject: IETF 66 minutes in the proceedings
     url: https://www.ietf.org/proceedings/66/minutes/dime.txt
   - kind: minutes without them
-    date: '2010-11-07'
-    subject: IETF 79 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/79/minutes/dime.txt
+    date: '2010-03-15'
+    subject: IETF 77 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/77/dime.html
   - kind: shepherded
     documents:
     - draft-ietf-dime-diameter-base-protocol-mib
@@ -313,15 +275,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-03-15'
+      certainty: between
       not_before: '2006-07-09'
+      not_after: '2010-03-15'
     end:
       certainty: group-closed
       date: '2024-03-14'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2006-07-09)'
     - 'Start: listed as chair in a proceedings charter snapshot (2010-03-15)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2006-07-09)'
   evidence:
   - kind: WG Review
     date: '2012-01-11'
@@ -404,15 +366,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-03-15'
+      certainty: between
       not_before: '2006-07-09'
+      not_after: '2010-03-15'
     end:
       certainty: group-closed
       date: '2024-03-14'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2006-07-09)'
     - 'Start: listed as chair in a proceedings charter snapshot (2010-03-15)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2006-07-09)'
   evidence:
   - kind: WG Review
     date: '2012-01-11'
@@ -497,29 +459,3 @@ chairs:
     - draft-ietf-dime-overload-reqs
     - draft-ietf-dime-rfc3588bis
     - draft-ietf-dime-rfc4006bis
-- person: 110104
-  name: Scott Hollenbeck
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: evidence-only
-      not_after: '2006-03-19'
-    end:
-      certainty: between
-      not_before: '2006-03-19'
-      not_after: '2006-03-29'
-    notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2006-03-29)'
-  evidence:
-  - kind: minutes
-    listed_in: 1
-    first: '2006-03-19'
-    last: '2006-03-19'
-    examples:
-    - date: '2006-03-19'
-      subject: IETF 65 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/65/minutes/dime.txt
-  - kind: minutes without them
-    date: '2006-07-09'
-    subject: IETF 66 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/66/minutes/dime.txt

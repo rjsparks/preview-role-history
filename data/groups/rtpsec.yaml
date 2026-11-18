@@ -27,10 +27,11 @@ chairs:
     end:
       certainty: between
       not_before: '2007-03-18'
-      not_after: '2007-07-22'
+      not_after: '2007-05-31'
     notes:
-    - 'Start: the BOF met at IETF 66 (2006-07-09)'
-    - 'End: became an Area Director, first serving at IETF 69 (2007-07-22)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2006-07-09)'
+    - 'End: listed as chair in meeting minutes (2007-03-18)'
+    - 'End: the group closed (2007-05-31)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -40,14 +41,6 @@ chairs:
     - date: '2007-03-18'
       subject: IETF 68 minutes in the proceedings
       url: https://www.ietf.org/proceedings/68/minutes/rtpsec.txt
-  - kind: BOF session
-    meeting: '66'
-    date: '2006-07-09'
-    url: https://datatracker.ietf.org/meeting/66/session/rtpsec/
-  - kind: BOF session
-    meeting: '68'
-    date: '2007-03-18'
-    url: https://datatracker.ietf.org/meeting/68/session/rtpsec/
   - kind: proceedings
     listed_in: 3
     first: '2006-07-09'
@@ -62,6 +55,14 @@ chairs:
     - date: '2007-02-06'
       subject: IETF 68 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/68/rtpsec.html
+  - kind: BOF session
+    meeting: '66'
+    date: '2006-07-09'
+    url: https://datatracker.ietf.org/meeting/66/session/rtpsec/
+  - kind: BOF session
+    meeting: '68'
+    date: '2007-03-18'
+    url: https://datatracker.ietf.org/meeting/68/session/rtpsec/
   - kind: joined the IESG
     after_meeting: '68'
     after: '2007-03-18'
@@ -77,9 +78,11 @@ chairs:
     end:
       certainty: between
       not_before: '2007-03-18'
+      not_after: '2007-05-31'
     notes:
-    - 'Start: the BOF met at IETF 66 (2006-07-09)'
-    - 'End: after the BOF''s last session, IETF 68 (2007-03-18)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2006-07-09)'
+    - 'End: listed as chair in meeting minutes (2007-03-18)'
+    - 'End: the group closed (2007-05-31)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -89,14 +92,6 @@ chairs:
     - date: '2007-03-18'
       subject: IETF 68 minutes in the proceedings
       url: https://www.ietf.org/proceedings/68/minutes/rtpsec.txt
-  - kind: BOF session
-    meeting: '66'
-    date: '2006-07-09'
-    url: https://datatracker.ietf.org/meeting/66/session/rtpsec/
-  - kind: BOF session
-    meeting: '68'
-    date: '2007-03-18'
-    url: https://datatracker.ietf.org/meeting/68/session/rtpsec/
   - kind: proceedings
     listed_in: 3
     first: '2006-07-09'
@@ -111,3 +106,11 @@ chairs:
     - date: '2007-02-06'
       subject: IETF 68 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/68/rtpsec.html
+  - kind: BOF session
+    meeting: '66'
+    date: '2006-07-09'
+    url: https://datatracker.ietf.org/meeting/66/session/rtpsec/
+  - kind: BOF session
+    meeting: '68'
+    date: '2007-03-18'
+    url: https://datatracker.ietf.org/meeting/68/session/rtpsec/

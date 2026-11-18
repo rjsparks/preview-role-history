@@ -20,11 +20,15 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-02-25'
-      not_before: '2005-09-22'
+      date: '2005-03-06'
     end:
-      certainty: group-closed
-      date: '2011-02-25'
+      certainty: between
+      not_before: '2005-07-31'
+      not_after: '2007-07-22'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2005-03-06)'
+    - 'End: listed as chair in meeting minutes (2005-07-31)'
+    - 'End: became an Area Director, first serving at IETF 69 (2007-07-22)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -45,17 +49,23 @@ chairs:
     - date: '2005-07-20'
       subject: IETF 63 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/63/lrw.html
+  - kind: joined the IESG
+    after_meeting: '68'
+    after: '2007-03-18'
+    by_meeting: '69'
+    by: '2007-07-22'
 - person: 105328
   name: Alain Durand
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-02-25'
-      not_before: '2005-09-22'
+      date: '2005-03-06'
     end:
       certainty: group-closed
       date: '2011-02-25'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2005-03-06)'
   evidence:
   - kind: proceedings
     listed_in: 2

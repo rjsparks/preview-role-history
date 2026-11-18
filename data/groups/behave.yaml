@@ -19,15 +19,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2008-02-19'
+      certainty: between
       not_before: '2005-03-06'
+      not_after: '2008-02-19'
     end:
       certainty: group-closed
       date: '2013-10-17'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2005-03-06)'
     - 'Start: listed as chair in a proceedings charter snapshot (2008-02-19)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2005-03-06)'
   evidence:
   - kind: WG Review
     date: '2009-06-08'
@@ -110,15 +110,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2006-07-09'
+      certainty: between
       not_before: '2005-03-06'
+      not_after: '2006-04-19'
     end:
       certainty: group-closed
       date: '2013-10-17'
     notes:
-    - 'Start: requested the group''s session for IETF 66 (2006-07-09)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2005-03-06)'
+    - 'Start: not listed among the chairs in meeting minutes (2005-03-06)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2006-04-19)'
   evidence:
   - kind: WG Review
     date: '2009-06-08'
@@ -218,9 +218,10 @@ chairs:
       certainty: evidence-only
       not_after: '2004-08-01'
     end:
-      certainty: approximate
+      certainty: announced
       date: '2006-04-19'
     notes:
+    - 'Start: listed as chair in meeting minutes (2004-08-01)'
     - 'End: announced on the group''s list (2006-04-19)'
   evidence:
   - kind: WG Action
@@ -273,10 +274,6 @@ chairs:
     - date: '2006-03-07'
       subject: IETF 65 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/65/behave.html
-  - kind: minutes without them
-    date: '2008-11-16'
-    subject: IETF 73 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/73/minutes/behave.html
 - person: 105791
   name: Cullen Jennings
   status: unconfirmed
@@ -289,7 +286,9 @@ chairs:
       not_before: '2007-08-12'
       not_after: '2008-02-19'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2008-02-19)'
+    - 'Start: listed as chair in meeting minutes (2004-08-01)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2007-08-12)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2008-02-19)'
   evidence:
   - kind: WG Action
     date: '2006-03-07'
@@ -344,9 +343,9 @@ chairs:
       subject: IETF 65 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/65/behave.html
   - kind: minutes without them
-    date: '2008-11-16'
-    subject: IETF 73 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/73/minutes/behave.html
+    date: '2008-02-19'
+    subject: IETF 73 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/73/behave.html
   - kind: session requests
     meetings:
     - '65'

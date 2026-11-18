@@ -17,12 +17,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-03-27'
+      date: '2007-01-12'
     end:
       certainty: exact
       date: '2017-11-27'
     notes:
-    - 'Start: listed as chair in meeting minutes (2011-03-27)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2007-01-12)'
   evidence:
   - kind: chair activity
     first: '2007-01-12'
@@ -106,19 +106,15 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/iccrg.html
-  - kind: minutes without them
-    date: '2011-03-27'
-    subject: IETF 80 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/80/minutes/iccrg.txt
 - person: 109727
   name: Murari Sridharan
   status: confirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2011-02-28'
     end:
-      certainty: approximate
+      certainty: announced
       date: '2012-10-29'
     notes:
     - 'Start: announced on the group''s list (2011-02-28)'
@@ -173,15 +169,10 @@ chairs:
       not_before: '2011-03-27'
       not_after: '2011-07-24'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2012-03-25)'
+    - 'Start: requested the group''s session for IETF 69 (2007-07-22)'
+    - 'End: requested the group''s session for IETF 80 (2011-03-27)'
     - 'End: became an Area Director, first serving at IETF 81 (2011-07-24)'
   evidence:
-  - kind: list message
-    date: '2011-02-28'
-    says: start
-    subject: '[Iccrg] New co-chair'
-    url: https://mailarchive.ietf.org/arch/msg/iccrg/uDaaIqoxX3JvHg2Dw_4kxY2EBP4/
-    excerpt: 'ICCRG has a new co-chair, replacing Wes Eddy: Murari Sridharan !'
   - kind: chair activity
     first: '2008-03-26'
     last: '2008-03-26'
@@ -190,10 +181,11 @@ chairs:
     - date: '2008-03-26'
       subject: '[Iccrg] philadelphia meeting minutes'
       url: https://mailarchive.ietf.org/arch/msg/iccrg/BIr0kfDCHxo34flrovMFaz2KoqQ/
-  - kind: minutes without them
-    date: '2012-03-25'
-    subject: IETF 83 proceedings charter
-    url: https://www.ietf.org/proceedings/83/iccrg.html
+  - kind: joined the IESG
+    after_meeting: '80'
+    after: '2011-03-27'
+    by_meeting: '81'
+    by: '2011-07-24'
   - kind: session requests
     meetings:
     - '69'
@@ -204,31 +196,25 @@ chairs:
     - '78'
     - '80'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
-  - kind: joined the IESG
-    after_meeting: '80'
-    after: '2011-03-27'
-    by_meeting: '81'
-    by: '2011-07-24'
 - person: 111166
   name: David Ros
   status: confirmed
   periods:
   - start:
-      certainty: approximate
-      date: '2012-10-29'
+      certainty: between
+      not_before: '2012-02-26'
+      not_after: '2014-11-13'
     end:
-      certainty: between
-      not_before: '2012-02-26'
-      not_after: '2014-11-13'
-    notes:
-    - 'Start: announced on the group''s list (2012-10-29)'
+      certainty: evidence-only
+      not_before: '2014-11-13'
   - start:
-      certainty: between
-      not_before: '2012-02-26'
-      not_after: '2014-11-13'
+      certainty: announced
+      date: '2012-10-29'
     end:
       certainty: exact
       date: '2016-01-21'
+    notes:
+    - 'Start: announced on the group''s list (2012-10-29)'
   evidence:
   - kind: list message
     date: '2012-10-29'
@@ -267,10 +253,6 @@ chairs:
     - date: '2015-07-19'
       subject: IETF 93 proceedings charter
       url: https://www.ietf.org/proceedings/93/iccrg.html
-  - kind: minutes without them
-    date: '2011-03-27'
-    subject: IETF 80 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/80/minutes/iccrg.txt
 - person: 123344
   name: Reese Enghardt
   status: confirmed
@@ -317,10 +299,6 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/iccrg/mNTwZF8Zj-MiXOSSUX_E7-7yn4U/
     excerpt: Jana Iyengar and Michael Schapira have requested to step down as ICCRG co-chairs due to changes
       in their day jobs that limit their availability.
-  - kind: minutes without them
-    date: '2011-03-27'
-    subject: IETF 80 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/80/minutes/iccrg.txt
 - person: 127141
   name: Vidhi Goel
   status: confirmed

@@ -17,15 +17,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-10-26'
-      not_before: '2010-09-17'
+      date: '2010-07-25'
     end:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2012-03-25'
+      not_after: '2012-06-22'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2010-10-26)'
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2012-03-25)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
   evidence:
   - kind: WG Action
     date: '2010-10-26'
@@ -45,10 +43,11 @@ chairs:
     - date: '2011-11-13'
       subject: IETF 82 proceedings charter
       url: https://www.ietf.org/proceedings/82/appsawg.html
-  - kind: minutes without them
-    date: '2012-03-25'
-    subject: IETF 83 proceedings charter
-    url: https://www.ietf.org/proceedings/83/appsawg.html
+  - kind: joined the IESG
+    after_meeting: '83'
+    after: '2012-03-25'
+    by_meeting: '84'
+    by: '2012-07-29'
   - kind: session requests
     meetings:
     - '81'
@@ -58,53 +57,19 @@ chairs:
     documents:
     - draft-ietf-appsawg-rfc3462bis
     - draft-ietf-appsawg-rfc3536bis
-  - kind: joined the IESG
-    after_meeting: '83'
-    after: '2012-03-25'
-    by_meeting: '84'
-    by: '2012-07-29'
-- person: 100927
-  name: Dave Crocker
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: evidence-only
-      not_after: '2011-11-13'
-    end:
-      certainty: between
-      not_before: '2011-11-13'
-      not_after: '2012-03-25'
-    notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2012-03-25)'
-  evidence:
-  - kind: minutes
-    listed_in: 1
-    first: '2011-11-13'
-    last: '2011-11-13'
-    examples:
-    - date: '2011-11-13'
-      subject: IETF 82 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/82/minutes/appsawg.txt
-  - kind: minutes without them
-    date: '2012-03-25'
-    subject: IETF 83 proceedings charter
-    url: https://www.ietf.org/proceedings/83/appsawg.html
-  - kind: shepherded
-    documents:
-    - draft-delany-nullmx
-    - draft-ietf-appsawg-file-scheme
-    - draft-ietf-appsawg-nullmx
 - person: 102154
   name: Alexey Melnikov
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-12-09'
+      certainty: between
       not_before: '2010-09-17'
+      not_after: '2011-07-24'
     end:
       certainty: exact
       date: '2012-07-03'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2011-07-24)'
   - start:
       certainty: exact
       date: '2014-07-16'
@@ -113,19 +78,24 @@ chairs:
       date: '2016-03-15'
   evidence:
   - kind: proceedings
-    listed_in: 9
-    first: '2010-11-07'
+    listed_in: 7
+    first: '2011-07-24'
     last: '2015-07-19'
     examples:
-    - date: '2010-11-07'
-      subject: IETF 79 proceedings charter
-      url: https://www.ietf.org/proceedings/79/appsawg.html
-    - date: '2011-03-27'
-      subject: IETF 80 proceedings charter
-      url: https://www.ietf.org/proceedings/80/appsawg.html
+    - date: '2011-07-24'
+      subject: IETF 81 proceedings charter
+      url: https://www.ietf.org/proceedings/81/appsawg.html
+    - date: '2011-11-13'
+      subject: IETF 82 proceedings charter
+      url: https://www.ietf.org/proceedings/82/appsawg.html
     - date: '2015-07-19'
       subject: IETF 93 proceedings charter
       url: https://www.ietf.org/proceedings/93/appsawg.html
+  - kind: joined the IESG
+    after_meeting: '95'
+    after: '2016-04-03'
+    by_meeting: '96'
+    by: '2016-07-17'
   - kind: session requests
     meetings:
     - '83'
@@ -137,11 +107,6 @@ chairs:
     - draft-ietf-appsawg-received-state
     - draft-ietf-appsawg-uri-scheme-reg
     - draft-ietf-appsawg-xdash
-  - kind: joined the IESG
-    after_meeting: '95'
-    after: '2016-04-03'
-    by_meeting: '96'
-    by: '2016-07-17'
 - person: 106842
   name: Murray Kucherawy
   status: confirmed
@@ -152,12 +117,12 @@ chairs:
       not_after: '2012-06-22'
     end:
       certainty: between
-      not_before: '2011-12-09'
-      not_after: '2012-06-22'
+      not_before: '2012-06-22'
+      not_after: '2017-07-06'
   - start:
-      certainty: between
+      certainty: on-or-before
+      date: '2012-06-22'
       not_before: '2011-12-09'
-      not_after: '2012-06-22'
     end:
       certainty: group-closed
       date: '2017-07-06'
@@ -176,10 +141,6 @@ chairs:
     - date: '2016-07-17'
       subject: IETF 96 proceedings charter
       url: https://www.ietf.org/proceedings/96/appsawg.html
-  - kind: minutes without them
-    date: '2011-11-13'
-    subject: IETF 82 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/82/minutes/appsawg.txt
   - kind: shepherded
     documents:
     - draft-ietf-appsawg-http-problem
@@ -200,15 +161,13 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-10-26'
-      not_before: '2010-09-17'
+      date: '2010-07-25'
     end:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2012-03-25'
+      not_after: '2012-06-22'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2010-10-26)'
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2012-03-25)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
   evidence:
   - kind: WG Action
     date: '2010-10-26'
@@ -228,10 +187,6 @@ chairs:
     - date: '2011-11-13'
       subject: IETF 82 proceedings charter
       url: https://www.ietf.org/proceedings/82/appsawg.html
-  - kind: minutes without them
-    date: '2012-03-25'
-    subject: IETF 83 proceedings charter
-    url: https://www.ietf.org/proceedings/83/appsawg.html
   - kind: shepherded
     documents:
     - draft-faltstrom-5892bis
@@ -261,38 +216,8 @@ chairs:
     - date: '2014-03-02'
       subject: IETF 89 proceedings charter
       url: https://www.ietf.org/proceedings/89/appsawg.html
-  - kind: minutes without them
-    date: '2011-11-13'
-    subject: IETF 82 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/82/minutes/appsawg.txt
   - kind: shepherded
     documents:
     - draft-ietf-appsawg-acct-uri
     - draft-ietf-appsawg-multipart-form-data
     - draft-ietf-appsawg-webfinger
-- person: 109033
-  name: Chris Lewis
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: evidence-only
-      not_after: '2011-11-13'
-    end:
-      certainty: between
-      not_before: '2011-11-13'
-      not_after: '2012-03-25'
-    notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2012-03-25)'
-  evidence:
-  - kind: minutes
-    listed_in: 1
-    first: '2011-11-13'
-    last: '2011-11-13'
-    examples:
-    - date: '2011-11-13'
-      subject: IETF 82 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/82/minutes/appsawg.txt
-  - kind: minutes without them
-    date: '2012-03-25'
-    subject: IETF 83 proceedings charter
-    url: https://www.ietf.org/proceedings/83/appsawg.html

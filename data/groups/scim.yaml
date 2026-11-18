@@ -5,10 +5,13 @@ parent: sec
 state: active
 started: '2012-05-07'
 closed: null
-bof: false
+bof: true
 never_chartered: false
 chartered: '2012-06-12'
-bof_sessions: []
+bof_sessions:
+- meeting: '83'
+  date: '2012-03-25'
+  url: https://datatracker.ietf.org/meeting/83/session/scim/
 history_url: https://datatracker.ietf.org/group/scim/history/
 chairs:
 - person: 2097
@@ -20,10 +23,10 @@ chairs:
       date: '2012-02-23'
     end:
       certainty: between
-      not_before: '2012-02-23'
-      not_after: '2012-07-29'
+      not_before: '2012-03-16'
+      not_after: '2015-05-29'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2012-07-29)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2012-03-16)'
   evidence:
   - kind: chair activity
     first: '2012-03-13'
@@ -44,10 +47,6 @@ chairs:
     - date: '2012-03-25'
       subject: IETF 83 proceedings charter
       url: https://www.ietf.org/proceedings/83/scim.html
-  - kind: minutes without them
-    date: '2012-07-29'
-    subject: IETF 84 proceedings charter
-    url: https://www.ietf.org/proceedings/84/scim.html
   - kind: shepherded
     documents:
     - draft-ietf-scim-events
@@ -61,9 +60,7 @@ chairs:
     end:
       certainty: between
       not_before: '2012-02-23'
-      not_after: '2012-07-29'
-    notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2012-07-29)'
+      not_after: '2015-05-29'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -73,10 +70,6 @@ chairs:
     - date: '2012-03-25'
       subject: IETF 83 proceedings charter
       url: https://www.ietf.org/proceedings/83/scim.html
-  - kind: minutes without them
-    date: '2012-07-29'
-    subject: IETF 84 proceedings charter
-    url: https://www.ietf.org/proceedings/84/scim.html
 - person: 21684
   name: Barry Leiba
   status: confirmed
@@ -105,26 +98,6 @@ chairs:
     date: '2021-10-22'
     subject: 'WG Action: Rechartered System for Cross-domain Identity Management (scim)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/6VKVy3tiC7tAsBVlk6b6y6_3tps/
-  - kind: chair activity
-    first: '2021-12-30'
-    last: '2025-08-12'
-    messages: 10
-    examples:
-    - date: '2021-12-30'
-      subject: '[scim] Cancelling Jan 5 virtual interim unless there''s topics to discuss'
-      url: https://mailarchive.ietf.org/arch/msg/scim/S6dp_lWrBooyc1bjwSgqCWCq8AI/
-    - date: '2022-09-06'
-      subject: '[scim] SCIM Virtual interim on Sept 20 8am Pacific Time'
-      url: https://mailarchive.ietf.org/arch/msg/scim/k6qTRImtXheHrCYBtc4MVB9FdKc/
-    - date: '2022-12-21'
-      subject: '[scim] Call for adoption of draft-peterson-scim-cursor-pagination/'
-      url: https://mailarchive.ietf.org/arch/msg/scim/ybptJlJq76wPC_cWknZfvBkqwuY/
-    - date: '2023-06-16'
-      subject: '[scim] Call for adoption draft-shahzad-scim-device-model'
-      url: https://mailarchive.ietf.org/arch/msg/scim/GwyltgqlgmSg1yYWi7YfB7pmSDA/
-    - date: '2023-08-23'
-      subject: '[scim] WGLC for draft-ietf-scim-cursor-pagination'
-      url: https://mailarchive.ietf.org/arch/msg/scim/R_OdaQRnBk-HtFT_DH_4B8l55nI/
   - kind: shepherded
     documents:
     - draft-ietf-scim-cursor-pagination
@@ -136,12 +109,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2012-02-23'
-      not_after: '2012-07-29'
+      not_after: '2012-06-21'
     end:
       certainty: exact
       date: '2021-09-30'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2012-07-29)'
+    - 'Start: named as chair in the WG Action announcement (2012-06-21)'
   evidence:
   - kind: WG Action
     date: '2012-06-21'
@@ -197,12 +170,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2012-02-23'
-      not_after: '2012-07-29'
+      not_after: '2012-06-21'
     end:
       certainty: exact
       date: '2021-09-30'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2012-07-29)'
+    - 'Start: named as chair in the WG Action announcement (2012-06-21)'
   evidence:
   - kind: WG Action
     date: '2012-06-21'
@@ -245,18 +218,3 @@ chairs:
       date: '2022-02-10'
     end:
       certainty: ongoing
-  evidence:
-  - kind: chair activity
-    first: '2022-08-01'
-    last: '2025-10-13'
-    messages: 5
-    examples:
-    - date: '2022-08-01'
-      subject: '[scim] interim meeting scheduling'
-      url: https://mailarchive.ietf.org/arch/msg/scim/6BCUeYg1tZzXEWPX1lXiStf-HWA/
-    - date: '2023-07-13'
-      subject: '[scim] IETF 117 Draft Agenda'
-      url: https://mailarchive.ietf.org/arch/msg/scim/RuMl-TTJaN7JC3JZgUfBHCgMi4w/
-    - date: '2024-08-16'
-      subject: '[scim] Working Group Last Call for SCIM Events'
-      url: https://mailarchive.ietf.org/arch/msg/scim/pYouWyuUox_wDDVj-y8LrPOHyrA/

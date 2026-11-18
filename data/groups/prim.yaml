@@ -25,9 +25,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2001-07-30'
+      certainty: between
       not_before: '2001-06-20'
+      not_after: '2001-07-30'
     end:
       certainty: group-closed
       date: '2003-03-28'
@@ -54,9 +54,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2001-07-30'
+      certainty: between
       not_before: '2001-06-20'
+      not_after: '2001-07-30'
     end:
       certainty: group-closed
       date: '2003-03-28'
@@ -90,7 +90,9 @@ chairs:
       not_before: '2000-12-10'
       not_after: '2001-07-31'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2001-07-31)'
+    - 'Start: listed as chair in meeting minutes (2000-12-10)'
+    - 'End: listed as chair in meeting minutes (2000-12-10)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2001-07-31)'
   evidence:
   - kind: minutes
     listed_in: 1

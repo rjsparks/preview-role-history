@@ -86,7 +86,6 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2014-01-22'
-      not_before: '2014-01-22'
     end:
       certainty: approximate
       date: '2014-01-24'
@@ -96,11 +95,6 @@ chairs:
     end:
       certainty: exact
       date: '2014-02-14'
-  evidence:
-  - kind: minutes without them
-    date: '2014-03-02'
-    subject: IETF 89 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/89/minutes/minutes-89-tram.txt
 - person: 108717
   name: Simon Perreault
   status: confirmed
@@ -108,7 +102,6 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2014-01-22'
-      not_before: '2014-01-22'
     end:
       certainty: approximate
       date: '2014-01-24'

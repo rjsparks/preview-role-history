@@ -109,6 +109,15 @@ chairs:
   status: confirmed
   periods:
   - start:
+      certainty: evidence-only
+      not_after: '2014-07-20'
+    end:
+      certainty: between
+      not_before: '2014-07-20'
+      not_after: '2015-07-24'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
+  - start:
       certainty: exact
       date: '2015-07-24'
     end:

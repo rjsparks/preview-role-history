@@ -24,15 +24,12 @@ chairs:
     end:
       certainty: between
       not_before: '2007-07-22'
-      not_after: '2010-07-25'
+      not_after: '2007-07-30'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2007-06-06)'
-    - 'End: became an Area Director, first serving at IETF 78 (2010-07-25)'
+    - 'End: the BOF met at IETF 69 (2007-07-22)'
+    - 'End: the group closed (2007-07-30)'
   evidence:
-  - kind: BOF session
-    meeting: '69'
-    date: '2007-07-22'
-    url: https://datatracker.ietf.org/meeting/69/session/xsdmi/
   - kind: proceedings
     listed_in: 1
     first: '2007-06-06'
@@ -41,8 +38,7 @@ chairs:
     - date: '2007-06-06'
       subject: IETF 69 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/69/xsdmi.html
-  - kind: joined the IESG
-    after_meeting: '77'
-    after: '2010-03-21'
-    by_meeting: '78'
-    by: '2010-07-25'
+  - kind: BOF session
+    meeting: '69'
+    date: '2007-07-22'
+    url: https://datatracker.ietf.org/meeting/69/session/xsdmi/

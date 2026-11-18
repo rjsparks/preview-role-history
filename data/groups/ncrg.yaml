@@ -44,7 +44,7 @@ chairs:
   - kind: proceedings
     listed_in: 8
     first: '2012-03-25'
-    last: '2014-07-20'
+    last: '2014-06-13'
     examples:
     - date: '2012-03-25'
       subject: IETF 83 proceedings charter
@@ -52,7 +52,7 @@ chairs:
     - date: '2012-07-29'
       subject: IETF 84 proceedings charter
       url: https://www.ietf.org/proceedings/84/ncrg.html
-    - date: '2014-07-20'
+    - date: '2014-06-13'
       subject: IETF 90 proceedings charter
       url: https://www.ietf.org/proceedings/90/ncrg.html
 - person: 103708
@@ -60,7 +60,7 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2013-04-22'
     end:
       certainty: group-closed
@@ -78,7 +78,7 @@ chairs:
   - kind: proceedings
     listed_in: 4
     first: '2013-07-28'
-    last: '2014-07-20'
+    last: '2014-06-13'
     examples:
     - date: '2013-07-28'
       subject: IETF 87 proceedings charter
@@ -86,7 +86,7 @@ chairs:
     - date: '2013-11-03'
       subject: IETF 88 proceedings charter
       url: https://www.ietf.org/proceedings/88/ncrg.html
-    - date: '2014-07-20'
+    - date: '2014-06-13'
       subject: IETF 90 proceedings charter
       url: https://www.ietf.org/proceedings/90/ncrg.html
 - person: 106925
@@ -97,24 +97,10 @@ chairs:
       certainty: on-or-before
       date: '2012-02-26'
     end:
-      certainty: approximate
-      date: '2013-04-22'
-    notes:
-    - 'End: announced on the group''s list (2013-04-22)'
+      certainty: between
+      not_before: '2012-02-26'
+      not_after: '2014-06-13'
   evidence:
-  - kind: list message
-    date: '2013-04-22'
-    says: end
-    subject: '[ncrg] Change of NCRG chair'
-    url: https://mailarchive.ietf.org/arch/msg/ncrg/7EZib1RZneoANOKWhwM_fh3Pj8g/
-    excerpt: Unfortunately Geoff Huston has decided to step down as the NCRG co-chair.
-  - kind: list message
-    date: '2013-04-22'
-    says: start
-    subject: '[ncrg] Change of NCRG chair'
-    url: https://mailarchive.ietf.org/arch/msg/ncrg/7EZib1RZneoANOKWhwM_fh3Pj8g/
-    excerpt: Thanks for Geoff for his engagement and support of the NCRG, and welcome Dave in this new
-      challenge!
   - kind: proceedings
     listed_in: 4
     first: '2012-03-25'

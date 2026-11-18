@@ -22,8 +22,12 @@ chairs:
       certainty: evidence-only
       not_after: '2000-07-17'
     end:
-      certainty: evidence-only
-      not_before: '2003-03-25'
+      certainty: between
+      not_before: '2000-07-17'
+      not_after: '2005-04-12'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2000-07-17)'
+    - 'End: the group closed (2005-04-12)'
   evidence:
   - kind: proceedings
     listed_in: 8
@@ -44,9 +48,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2000-07-17'
+      certainty: between
       not_before: '1999-08-30'
+      not_after: '2000-07-17'
     end:
       certainty: group-closed
       date: '2005-04-12'

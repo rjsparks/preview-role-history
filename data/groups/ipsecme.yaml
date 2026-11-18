@@ -16,9 +16,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2008-08-21'
+      certainty: between
       not_before: '2008-06-09'
+      not_after: '2008-08-21'
     end:
       certainty: exact
       date: '2016-05-31'
@@ -93,9 +93,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2008-08-21'
+      certainty: between
       not_before: '2008-06-09'
+      not_after: '2008-08-21'
     end:
       certainty: exact
       date: '2015-09-04'
@@ -274,6 +274,17 @@ chairs:
   name: David Waltermire
   status: confirmed
   periods:
+  - start:
+      certainty: between
+      not_before: '2010-03-21'
+      not_after: '2014-07-20'
+    end:
+      certainty: between
+      not_before: '2014-07-20'
+      not_after: '2015-09-04'
+    notes:
+    - 'Start: not listed among the chairs in meeting minutes (2010-03-21)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   - start:
       certainty: exact
       date: '2015-09-04'

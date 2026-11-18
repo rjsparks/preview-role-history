@@ -22,16 +22,10 @@ chairs:
       certainty: on-or-before
       date: '2010-03-21'
     end:
-      certainty: between
-      not_before: '2010-07-25'
+      certainty: group-closed
     notes:
-    - 'End: after the BOF''s last session, IETF 78 (2010-07-25)'
     - 'Start: listed as chair in a proceedings charter snapshot (2010-03-21)'
   evidence:
-  - kind: BOF session
-    meeting: '78'
-    date: '2010-07-25'
-    url: https://datatracker.ietf.org/meeting/78/session/fedauth/
   - kind: proceedings
     listed_in: 2
     first: '2010-03-21'
@@ -43,6 +37,10 @@ chairs:
     - date: '2010-06-10'
       subject: IETF 78 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/78/fedauth.html
+  - kind: BOF session
+    meeting: '78'
+    date: '2010-07-25'
+    url: https://datatracker.ietf.org/meeting/78/session/fedauth/
 - person: 110406
   name: Leif Johansson
   status: confirmed
@@ -51,16 +49,10 @@ chairs:
       certainty: on-or-before
       date: '2010-03-21'
     end:
-      certainty: between
-      not_before: '2010-07-25'
+      certainty: group-closed
     notes:
-    - 'End: after the BOF''s last session, IETF 78 (2010-07-25)'
     - 'Start: listed as chair in a proceedings charter snapshot (2010-03-21)'
   evidence:
-  - kind: BOF session
-    meeting: '78'
-    date: '2010-07-25'
-    url: https://datatracker.ietf.org/meeting/78/session/fedauth/
   - kind: proceedings
     listed_in: 2
     first: '2010-03-21'
@@ -72,6 +64,10 @@ chairs:
     - date: '2010-06-10'
       subject: IETF 78 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/78/fedauth.html
+  - kind: BOF session
+    meeting: '78'
+    date: '2010-07-25'
+    url: https://datatracker.ietf.org/meeting/78/session/fedauth/
 - person: 111163
   name: Josh Howlett
   status: confirmed
@@ -80,16 +76,10 @@ chairs:
       certainty: on-or-before
       date: '2010-03-21'
     end:
-      certainty: between
-      not_before: '2010-07-25'
+      certainty: group-closed
     notes:
-    - 'End: after the BOF''s last session, IETF 78 (2010-07-25)'
     - 'Start: listed as chair in a proceedings charter snapshot (2010-03-21)'
   evidence:
-  - kind: BOF session
-    meeting: '78'
-    date: '2010-07-25'
-    url: https://datatracker.ietf.org/meeting/78/session/fedauth/
   - kind: proceedings
     listed_in: 2
     first: '2010-03-21'
@@ -101,3 +91,7 @@ chairs:
     - date: '2010-06-10'
       subject: IETF 78 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/78/fedauth.html
+  - kind: BOF session
+    meeting: '78'
+    date: '2010-07-25'
+    url: https://datatracker.ietf.org/meeting/78/session/fedauth/

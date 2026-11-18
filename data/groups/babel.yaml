@@ -23,11 +23,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2016-02-26'
-      not_before: '2016-02-26'
+      date: '2015-11-01'
     end:
       certainty: exact
       date: '2016-05-09'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2015-11-01)'
   evidence:
   - kind: chair activity
     first: '2016-03-21'
@@ -48,10 +49,6 @@ chairs:
     - date: '2015-11-01'
       subject: IETF 94 proceedings charter
       url: https://www.ietf.org/proceedings/94/babel.html
-  - kind: minutes without them
-    date: '2016-07-17'
-    subject: IETF 96 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-babel.txt
 - person: 102391
   name: Donald Eastlake
   status: confirmed

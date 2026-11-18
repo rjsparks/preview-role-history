@@ -19,8 +19,13 @@ chairs:
       certainty: evidence-only
       not_after: '1994-12-05'
     end:
-      certainty: evidence-only
-      not_before: '1999-04-21'
+      certainty: between
+      not_before: '1995-04-12'
+      not_after: '2002-03-22'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (1994-12-05)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (1995-04-12)'
+    - 'End: the group closed (2002-03-22)'
   evidence:
   - kind: chair activity
     first: '1994-12-12'
@@ -52,9 +57,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1994-12-05'
+      certainty: between
       not_before: '1994-09-22'
+      not_after: '1994-12-05'
     end:
       certainty: group-closed
       date: '2002-03-22'

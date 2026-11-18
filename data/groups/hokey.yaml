@@ -23,7 +23,9 @@ chairs:
       not_before: '2009-03-22'
       not_after: '2009-07-20'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-07-20)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2006-10-31)'
+    - 'End: requested the group''s session for IETF 74 (2009-03-22)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2009-07-20)'
   evidence:
   - kind: WG Action
     date: '2006-11-01'
@@ -62,9 +64,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2006-10-31'
+      certainty: between
       not_before: '2006-09-22'
+      not_after: '2006-10-31'
     end:
       certainty: group-closed
       date: '2012-08-02'
@@ -121,9 +123,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2009-07-20'
+      certainty: between
       not_before: '2006-09-22'
+      not_after: '2009-07-20'
     end:
       certainty: group-closed
       date: '2012-08-02'

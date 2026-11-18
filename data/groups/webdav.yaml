@@ -27,8 +27,10 @@ chairs:
       not_before: '2004-05-19'
       not_after: '2004-06-15'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2004-06-15)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2003-03-16)'
+    - 'Start: not listed among the chairs in meeting minutes (2003-03-16)'
+    - 'Start: named as chair in the WG Action announcement (2004-05-19)'
+    - 'End: named as chair in the WG Action announcement (2004-05-19)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2004-06-15)'
   evidence:
   - kind: WG Action
     date: '2004-05-19'
@@ -51,10 +53,12 @@ chairs:
       not_after: '2001-03-14'
     end:
       certainty: between
-      not_before: '2004-02-02'
+      not_before: '2003-03-16'
       not_after: '2004-06-15'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2004-06-15)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2001-03-14)'
+    - 'End: listed as chair in meeting minutes (2003-03-16)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2004-06-15)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -91,9 +95,11 @@ chairs:
       not_after: '2002-01-30'
     end:
       certainty: between
-      not_before: '2005-02-01'
+      not_before: '2003-03-16'
       not_after: '2006-07-09'
     notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2002-01-30)'
+    - 'End: listed as chair in meeting minutes (2003-03-16)'
     - 'End: became an Area Director, first serving at IETF 66 (2006-07-09)'
   evidence:
   - kind: minutes
@@ -128,15 +134,16 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2005-06-14'
+      certainty: between
       not_before: '2003-03-16'
+      not_after: '2005-06-14'
     end:
-      certainty: on-or-before
-      date: '2006-07-09'
+      certainty: between
+      not_before: '2005-06-14'
+      not_after: '2006-07-09'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2003-03-16)'
     - 'Start: listed as chair in a proceedings charter snapshot (2005-06-14)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2003-03-16)'
     - 'End: became an Area Director, first serving at IETF 66 (2006-07-09)'
   evidence:
   - kind: proceedings
@@ -168,10 +175,13 @@ chairs:
       not_before: '2003-03-16'
       not_after: '2004-06-15'
     end:
-      certainty: evidence-only
-      not_before: '2005-02-01'
+      certainty: between
+      not_before: '2004-06-15'
+      not_after: '2007-03-13'
     notes:
-    - 'Start: not yet listed among the chairs in meeting minutes (2003-03-16)'
+    - 'Start: not listed among the chairs in meeting minutes (2003-03-16)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2004-06-15)'
+    - 'End: the group closed (2007-03-13)'
   evidence:
   - kind: proceedings
     listed_in: 3
@@ -200,10 +210,11 @@ chairs:
       not_after: '1997-04-07'
     end:
       certainty: between
-      not_before: '2000-10-11'
+      not_before: '1997-04-07'
       not_after: '2002-01-30'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2002-01-30)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2002-01-30)'
   evidence:
   - kind: proceedings
     listed_in: 11
@@ -220,6 +231,6 @@ chairs:
       subject: IETF 49 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/49/00dec-31.htm
   - kind: minutes without them
-    date: '2003-03-16'
-    subject: IETF 56 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/56/minutes/webdav.htm
+    date: '2002-01-30'
+    subject: IETF 53 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/53/129.htm

@@ -19,9 +19,10 @@ chairs:
       certainty: evidence-only
       not_after: '2003-11-03'
     end:
-      certainty: approximate
+      certainty: announced
       date: '2005-10-17'
     notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2003-11-03)'
     - 'End: announced on the group''s list (2005-10-17)'
   evidence:
   - kind: list message
@@ -64,22 +65,18 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2005-10-21'
+      certainty: between
       not_before: '2003-09-15'
+      not_after: '2005-08-09'
     end:
       certainty: group-closed
       date: '2009-01-15'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2005-10-21)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2005-08-09)'
   evidence:
-  - kind: WG Action
-    date: '2007-04-24'
-    subject: 'WG Action: RECHARTER: Internet and Management Support for Storage (imss)'
-    url: null
   - kind: chair activity
     first: '2005-08-09'
-    last: '2009-03-27'
+    last: '2009-01-15'
     messages: 6
     examples:
     - date: '2005-08-09'

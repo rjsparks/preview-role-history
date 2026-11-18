@@ -16,16 +16,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2004-06-07'
+      certainty: between
       not_before: '2002-07-17'
+      not_after: '2004-06-07'
     end:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2012-03-25'
+      not_after: '2014-11-13'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2004-06-07)'
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2012-03-25)'
   evidence:
   - kind: proceedings
     listed_in: 2
@@ -38,10 +37,6 @@ chairs:
     - date: '2004-11-11'
       subject: IETF 62 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/62/cfrg.html
-  - kind: minutes without them
-    date: '2016-04-03'
-    subject: IETF 95 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/95/minutes/minutes-95-cfrg.txt
 - person: 102154
   name: Alexey Melnikov
   status: confirmed
@@ -51,30 +46,14 @@ chairs:
       not_before: '2011-12-09'
       not_after: '2014-07-20'
     end:
-      certainty: ongoing
+      certainty: between
+      not_before: '2016-07-17'
+      not_after: '2016-07-17'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
+    - 'End: listed as chair in meeting minutes (2016-07-17)'
+    - 'End: became an Area Director, first serving at IETF 96 (2016-07-17)'
   evidence:
-  - kind: chair activity
-    first: '2014-07-14'
-    last: '2022-12-06'
-    messages: 16
-    examples:
-    - date: '2014-07-14'
-      subject: '[Cfrg] Draft Agenda for Toronto'
-      url: https://mailarchive.ietf.org/arch/msg/cfrg/Fql3DpdMhgT0WmO3D1ztqicP4eE/
-    - date: '2014-08-14'
-      subject: '[Cfrg] Minutes from the Toronto meeting are posted'
-      url: https://mailarchive.ietf.org/arch/msg/cfrg/39qUJVAega9dwtCfSnY8zx91p54/
-    - date: '2017-07-21'
-      subject: '[Cfrg] Adoption call for "Verifiable Random Functions": draft-goldbe-vrf-01'
-      url: https://mailarchive.ietf.org/arch/msg/cfrg/-U81Hdjf4k11iyYZV_RAgT4pkxg/
-    - date: '2018-02-10'
-      subject: '[Cfrg] Adoption call for draft-hoffman-c2pq-02'
-      url: https://mailarchive.ietf.org/arch/msg/cfrg/K9O_6HnoMQN_GW8oTieANXT0TN8/
-    - date: '2018-04-08'
-      subject: '[Cfrg] Adoption call for draft-harkins-pkex-05'
-      url: https://mailarchive.ietf.org/arch/msg/cfrg/wzsM3G6KowSQarby9GjPmOpBv7o/
   - kind: minutes
     listed_in: 2
     first: '2016-04-03'
@@ -100,6 +79,11 @@ chairs:
     - date: '2016-11-13'
       subject: IETF 97 proceedings charter
       url: https://www.ietf.org/proceedings/97/cfrg.html
+  - kind: joined the IESG
+    after_meeting: '95'
+    after: '2016-04-03'
+    by_meeting: '96'
+    by: '2016-07-17'
   - kind: shepherded
     documents:
     - draft-irtf-cfrg-aead-properties
@@ -114,41 +98,24 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2004-06-07'
+      certainty: between
       not_before: '2002-07-17'
+      not_after: '2002-11-05'
     end:
-      certainty: approximate
-      date: '2014-05-14'
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2014-11-13'
     notes:
-    - 'End: announced on the group''s list (2014-05-14)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2004-06-07)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2002-11-05)'
   evidence:
-  - kind: list message
-    date: '2014-05-14'
-    says: end
-    subject: '[Cfrg] Looking for two new CFRG co-chairs'
-    url: https://mailarchive.ietf.org/arch/msg/cfrg/XLvmnRFJlwmkzU6CH0Dgy7xTHlI/
-    excerpt: David McGrew has informed me that he needs to step down as co-chair of CFRG soon, because
-      other responsibilities no longer allow him the time that to do a good job in that function.
-  - kind: list message
-    date: '2014-06-02'
-    says: end
-    subject: '[Cfrg] New co-chairs selected'
-    url: https://mailarchive.ietf.org/arch/msg/cfrg/W_bUWmPdzMiG95Jwbdx1j3wn2BY/
-    excerpt: As announced earlier, David will step down (thank you again, David) and Kevin will work with
-      the two new chairs until he retires next year.
   - kind: chair activity
     first: '2002-11-05'
-    last: '2014-02-28'
-    messages: 6
+    last: '2002-11-05'
+    messages: 1
     examples:
     - date: '2002-11-05'
       subject: '[Cfrg] CFRG Agenda for IETF 55'
       url: https://mailarchive.ietf.org/arch/msg/cfrg/tmqEoWWICoWWjZTxbenbnkioaho/
-    - date: '2012-03-23'
-      subject: '[Cfrg] agenda for meeting at IETF 83'
-      url: https://mailarchive.ietf.org/arch/msg/cfrg/I54bLoQHaghPVVfj0Yiov3QQj14/
   - kind: proceedings
     listed_in: 9
     first: '2004-06-07'
@@ -163,10 +130,6 @@ chairs:
     - date: '2014-03-02'
       subject: IETF 89 proceedings charter
       url: https://www.ietf.org/proceedings/89/cfrg.html
-  - kind: minutes without them
-    date: '2016-04-03'
-    subject: IETF 95 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/95/minutes/minutes-95-cfrg.txt
   - kind: shepherded
     documents:
     - draft-irtf-cfrg-ocb
@@ -175,27 +138,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-12-09'
+      certainty: between
       not_before: '2002-07-17'
+      not_after: '2011-12-09'
     end:
       certainty: exact
       date: '2015-07-12'
   evidence:
-  - kind: list message
-    date: '2014-05-14'
-    says: end
-    subject: '[Cfrg] Looking for two new CFRG co-chairs'
-    url: https://mailarchive.ietf.org/arch/msg/cfrg/XLvmnRFJlwmkzU6CH0Dgy7xTHlI/
-    excerpt: The CFRG's other current co-chair, Kevin Igoe, is retiring in 2015 and will then also step
-      down.
-  - kind: list message
-    date: '2014-06-02'
-    says: end
-    subject: '[Cfrg] New co-chairs selected'
-    url: https://mailarchive.ietf.org/arch/msg/cfrg/W_bUWmPdzMiG95Jwbdx1j3wn2BY/
-    excerpt: As announced earlier, David will step down (thank you again, David) and Kevin will work with
-      the two new chairs until he retires next year.
   - kind: proceedings
     listed_in: 9
     first: '2012-03-25'
@@ -210,10 +159,6 @@ chairs:
     - date: '2015-03-22'
       subject: IETF 92 proceedings charter
       url: https://www.ietf.org/proceedings/92/cfrg.html
-  - kind: minutes without them
-    date: '2016-04-03'
-    subject: IETF 95 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/95/minutes/minutes-95-cfrg.txt
 - person: 113609
   name: Kenny Paterson
   status: confirmed
@@ -228,33 +173,6 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   evidence:
-  - kind: list message
-    date: '2020-01-15'
-    says: end
-    subject: '[Cfrg] Change of CFRG chairs'
-    url: https://mailarchive.ietf.org/arch/msg/cfrg/EpXvipbsVcrxjKCjhxuRfhJjROM/
-    excerpt: Kenny Paterson has requested to step down as CFRG co-chair, due to increased workload in
-      his day job.
-  - kind: list message
-    date: '2020-01-15'
-    says: start
-    subject: '[Cfrg] Change of CFRG chairs'
-    url: https://mailarchive.ietf.org/arch/msg/cfrg/EpXvipbsVcrxjKCjhxuRfhJjROM/
-    excerpt: Thank you, Kenny -- you’ll be missed -- and welcome, Stanislav!
-  - kind: chair activity
-    first: '2019-04-26'
-    last: '2019-09-06'
-    messages: 4
-    examples:
-    - date: '2019-04-26'
-      subject: '[Cfrg] Adoption call for draft-boneh-bls-signature'
-      url: https://mailarchive.ietf.org/arch/msg/cfrg/awJwF7vb61BBOraEQHIMKG_slaM/
-    - date: '2019-04-26'
-      subject: '[Cfrg] Adoption call for draft-barnes-cfrg-hpke'
-      url: https://mailarchive.ietf.org/arch/msg/cfrg/W1uz8OfSh-_IEX3A5583a-dGAsE/
-    - date: '2019-05-07'
-      subject: '[Cfrg] Adoption call for draft-sullivan-cfrg-voprf'
-      url: https://mailarchive.ietf.org/arch/msg/cfrg/F49EPSwfZLTfXQ9B1PhhJGlzekk/
   - kind: minutes
     listed_in: 2
     first: '2016-04-03'
@@ -293,13 +211,6 @@ chairs:
     end:
       certainty: ongoing
   evidence:
-  - kind: list message
-    date: '2020-01-15'
-    says: start
-    subject: '[Cfrg] Change of CFRG chairs'
-    url: https://mailarchive.ietf.org/arch/msg/cfrg/EpXvipbsVcrxjKCjhxuRfhJjROM/
-    excerpt: Stanislav Smyshlyaev has agreed to act as co-chair, and will join Alexey and Nick in that
-      role going forward.
   - kind: shepherded
     documents:
     - draft-fluhrer-lms-more-parm-sets
@@ -324,30 +235,6 @@ chairs:
     end:
       certainty: ongoing
   evidence:
-  - kind: list message
-    date: '2019-05-01'
-    says: start
-    subject: '[Cfrg] New CFRG co-chair'
-    url: https://mailarchive.ietf.org/arch/msg/cfrg/PJys3Q0jSeNMTVi7UpjcftCe8RE/
-    excerpt: I’m pleased to announce that Nick Sullivan has agreed to serve as co-chair of the CFRG, effective
-      from today.
-  - kind: list message
-    date: '2019-07-25'
-    says: start
-    subject: '[Cfrg] Raw minutes of today''s meeting'
-    url: https://mailarchive.ietf.org/arch/msg/cfrg/ERmg_AlQJim6yW5j3rUqFfhQiXg/
-    excerpt: New co-chair (Nick Sullivan).
-  - kind: chair activity
-    first: '2019-07-12'
-    last: '2020-10-08'
-    messages: 2
-    examples:
-    - date: '2019-07-12'
-      subject: '[Cfrg] Agenda for CFRG meeting at IETF 105'
-      url: https://mailarchive.ietf.org/arch/msg/cfrg/tx8mxSboor9PyV1DYQfx2VLE8gU/
-    - date: '2020-10-08'
-      subject: '[Cfrg] Call for adoption: Threshold Signatures'
-      url: https://mailarchive.ietf.org/arch/msg/cfrg/TQqf9AzvdxA-pPtgRSxmElGJtbI/
   - kind: shepherded
     documents:
     - draft-irtf-cfrg-frost

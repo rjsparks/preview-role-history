@@ -37,7 +37,6 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2018-01-25'
-      not_before: '2018-01-25'
     end:
       certainty: exact
       date: '2024-05-01'
@@ -50,20 +49,6 @@ chairs:
     date: '2018-02-23'
     subject: 'WG Action: Formed Link State Vector Routing (lsvr)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/gpNq6qf4emJV5ynggJQ-Y2DR-MY/
-  - kind: list message
-    date: '2024-01-24'
-    says: start
-    subject: '[Lsvr] LSVR Chair'
-    url: https://mailarchive.ietf.org/arch/msg/lsvr/-6LnSeKE1UI5gQEfh5F9CO9DKgs/
-    excerpt: As Gunter makes this transition into his new role, I have asked Jie Dong to join Ketan as
-      co-chair effective immediately and he has agreed to do so and work with both existing chairs to
-      make the transition as seamless as possible.
-  - kind: list message
-    date: '2024-01-24'
-    says: end
-    subject: '[Lsvr] LSVR Chair'
-    url: https://mailarchive.ietf.org/arch/msg/lsvr/-6LnSeKE1UI5gQEfh5F9CO9DKgs/
-    excerpt: Please welcome Jie and thank you Gunter for all of your work!
   - kind: chair activity
     first: '2022-11-28'
     last: '2023-10-09'
@@ -133,7 +118,6 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2018-01-25'
-      not_before: '2018-01-25'
     end:
       certainty: exact
       date: '2023-03-26'
@@ -209,15 +193,15 @@ chairs:
     - date: '2024-09-18'
       subject: '[Lsvr] WGLC closure for draft-ietf-lsvr-bgp-spf'
       url: https://mailarchive.ietf.org/arch/msg/lsvr/20KSjVaMWCpTL9UaAI-fOBQLXhs/
-  - kind: shepherded
-    documents:
-    - draft-ietf-lsvr-applicability
-    - draft-ietf-lsvr-bgp-spf
   - kind: joined the IESG
     after_meeting: '122'
     after: '2025-03-15'
     by_meeting: '123'
     by: '2025-07-19'
+  - kind: shepherded
+    documents:
+    - draft-ietf-lsvr-applicability
+    - draft-ietf-lsvr-bgp-spf
 - person: 124018
   name: Krishnaswamy Ananthamurthy
   status: confirmed

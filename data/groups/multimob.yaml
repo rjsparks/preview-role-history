@@ -5,10 +5,16 @@ parent: int
 state: conclude
 started: '2009-08-07'
 closed: '2014-12-01'
-bof: false
+bof: true
 never_chartered: false
 chartered: '2009-09-07'
-bof_sessions: []
+bof_sessions:
+- meeting: '73'
+  date: '2008-11-16'
+  url: https://datatracker.ietf.org/meeting/73/session/multimob/
+- meeting: '75'
+  date: '2009-07-26'
+  url: https://datatracker.ietf.org/meeting/75/session/multimob/
 history_url: https://datatracker.ietf.org/group/multimob/history/
 chairs:
 - person: 104331
@@ -23,7 +29,9 @@ chairs:
       not_before: '2009-07-26'
       not_after: '2009-09-09'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-09-09)'
+    - 'Start: listed as chair in meeting minutes (2009-07-26)'
+    - 'End: listed as chair in meeting minutes (2009-07-26)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2009-09-09)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -34,22 +42,21 @@ chairs:
       subject: IETF 75 minutes in the proceedings
       url: https://www.ietf.org/proceedings/75/minutes/multimob.txt
   - kind: minutes without them
-    date: '2010-03-21'
-    subject: IETF 77 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/77/minutes/multimob.txt
+    date: '2009-09-09'
+    subject: IETF 76 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/76/multimob.html
 - person: 105992
   name: Behcet Sarikaya
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-03-21'
-      not_before: '2009-08-07'
+      date: '2009-07-26'
     end:
       certainty: group-closed
       date: '2014-12-01'
     notes:
-    - 'Start: requested the group''s session for IETF 77 (2010-03-21)'
+    - 'Start: listed as chair in meeting minutes (2009-07-26)'
   evidence:
   - kind: WG Review
     date: '2010-11-23'
@@ -107,13 +114,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2009-11-08'
-      not_before: '2009-08-07'
+      date: '2009-07-26'
     end:
       certainty: group-closed
       date: '2014-12-01'
     notes:
-    - 'Start: requested the group''s session for IETF 76 (2009-11-08)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2009-07-26)'
   evidence:
   - kind: WG Review
     date: '2010-11-23'

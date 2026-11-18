@@ -21,17 +21,9 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2014-06-11'
-      not_before: '2014-06-11'
     end:
-      certainty: between
-      not_before: '2014-07-20'
-    notes:
-    - 'End: after the BOF''s last session, IETF 90 (2014-07-20)'
+      certainty: group-closed
   evidence:
-  - kind: BOF session
-    meeting: '90'
-    date: '2014-07-20'
-    url: https://www.ietf.org/proceedings/90/dtnwg.html
   - kind: proceedings
     listed_in: 1
     first: '2014-07-20'
@@ -40,6 +32,10 @@ chairs:
     - date: '2014-07-20'
       subject: IETF 90 proceedings charter
       url: https://www.ietf.org/proceedings/90/dtnwg.html
+  - kind: BOF session
+    meeting: '90'
+    date: '2014-07-20'
+    url: https://www.ietf.org/proceedings/90/dtnwg.html
 - person: 102675
   name: Fred Templin
   status: confirmed
@@ -50,10 +46,11 @@ chairs:
       not_after: '2014-07-20'
     end:
       certainty: between
-      not_before: '2014-06-11'
+      not_before: '2014-07-20'
       not_after: '2014-09-11'
     notes:
     - 'Start: the BOF met at IETF 90 (2014-07-20)'
+    - 'End: the BOF met at IETF 90 (2014-07-20)'
   evidence:
   - kind: BOF session
     meeting: '90'
@@ -68,16 +65,10 @@ chairs:
       not_before: '2014-06-11'
       not_after: '2014-07-20'
     end:
-      certainty: between
-      not_before: '2014-07-20'
+      certainty: group-closed
     notes:
-    - 'Start: the BOF met at IETF 90 (2014-07-20)'
-    - 'End: after the BOF''s last session, IETF 90 (2014-07-20)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   evidence:
-  - kind: BOF session
-    meeting: '90'
-    date: '2014-07-20'
-    url: https://www.ietf.org/proceedings/90/dtnwg.html
   - kind: proceedings
     listed_in: 1
     first: '2014-07-20'
@@ -86,3 +77,7 @@ chairs:
     - date: '2014-07-20'
       subject: IETF 90 proceedings charter
       url: https://www.ietf.org/proceedings/90/dtnwg.html
+  - kind: BOF session
+    meeting: '90'
+    date: '2014-07-20'
+    url: https://www.ietf.org/proceedings/90/dtnwg.html

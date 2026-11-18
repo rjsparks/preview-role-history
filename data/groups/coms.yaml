@@ -24,29 +24,39 @@ chairs:
     end:
       certainty: between
       not_before: '2018-03-17'
+      not_after: '2018-06-05'
     notes:
-    - 'End: after the BOF''s last session, IETF 101 (2018-03-17)'
+    - 'End: the BOF met at IETF 101 (2018-03-17)'
+    - 'End: the group closed (2018-06-05)'
   evidence:
   - kind: BOF session
     meeting: '101'
     date: '2018-03-17'
     url: https://datatracker.ietf.org/meeting/101/session/coms/
-  - kind: minutes without them
-    date: '2017-03-26'
-    subject: '[Netslices] IETF98 netslices side meeting minutes and audio record'
-    url: https://mailarchive.ietf.org/arch/msg/netslices/PWSjMeTDq0iV_cOI-igw6yE-J40/
 - person: 104198
   name: Adrian Farrel
   status: confirmed
   periods:
   - start:
+      certainty: evidence-only
+      not_after: '2017-07-05'
+    end:
+      certainty: between
+      not_before: '2017-07-20'
+      not_after: '2018-02-27'
+    notes:
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2017-07-05)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2017-07-20)'
+  - start:
       certainty: exact
       date: '2018-02-27'
     end:
       certainty: between
-      not_before: '2018-03-17'
+      not_before: '2018-04-12'
+      not_after: '2018-06-05'
     notes:
-    - 'End: after the BOF''s last session, IETF 101 (2018-03-17)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2018-04-12)'
+    - 'End: the group closed (2018-06-05)'
   evidence:
   - kind: chair activity
     first: '2017-07-05'
@@ -63,7 +73,3 @@ chairs:
     meeting: '101'
     date: '2018-03-17'
     url: https://datatracker.ietf.org/meeting/101/session/coms/
-  - kind: minutes without them
-    date: '2017-03-26'
-    subject: '[Netslices] IETF98 netslices side meeting minutes and audio record'
-    url: https://mailarchive.ietf.org/arch/msg/netslices/PWSjMeTDq0iV_cOI-igw6yE-J40/

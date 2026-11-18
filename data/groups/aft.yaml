@@ -19,13 +19,17 @@ chairs:
       certainty: evidence-only
       not_after: '1994-12-05'
     end:
-      certainty: evidence-only
-      not_before: '1999-06-15'
+      certainty: between
+      not_before: '1994-12-05'
+      not_after: '1998-03-30'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (1994-12-05)'
+    - 'End: became an Area Director, first serving at IETF 41 (1998-03-30)'
   evidence:
   - kind: proceedings
-    listed_in: 9
+    listed_in: 7
     first: '1994-12-05'
-    last: '1999-06-15'
+    last: '1997-11-03'
     examples:
     - date: '1994-12-05'
       subject: IETF 31 proceedings charter
@@ -33,17 +37,22 @@ chairs:
     - date: '1995-04-03'
       subject: IETF 32 proceedings charter
       url: https://www.ietf.org/proceedings/32/area.and.wg.reports/sec/aft/aft-charter.txt
-    - date: '1999-06-15'
-      subject: IETF 45 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-104.html
+    - date: '1997-11-03'
+      subject: IETF 40 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-102.htm
+  - kind: joined the IESG
+    after_meeting: '40'
+    after: '1997-12-08'
+    by_meeting: '41'
+    by: '1998-03-30'
 - person: 17795
   name: Wei Lu
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1999-09-02'
+      certainty: between
       not_before: '1994-08-26'
+      not_after: '1999-09-02'
     end:
       certainty: group-closed
       date: '2002-10-09'

@@ -192,15 +192,11 @@ chairs:
       certainty: exact
       date: '2024-03-21'
   evidence:
-  - kind: minutes without them
-    date: '2016-04-03'
-    subject: IETF 95 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/95/minutes/minutes-95-uta.txt
-  - kind: shepherded
-    documents:
-    - draft-ietf-uta-rfc6125bis
   - kind: joined the IESG
     after_meeting: '119'
     after: '2024-03-16'
     by_meeting: '120'
     by: '2024-07-20'
+  - kind: shepherded
+    documents:
+    - draft-ietf-uta-rfc6125bis

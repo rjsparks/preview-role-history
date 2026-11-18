@@ -19,9 +19,10 @@ chairs:
       certainty: evidence-only
       not_after: '1997-08-11'
     end:
-      certainty: approximate
+      certainty: announced
       date: '1998-03-10'
     notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (1997-08-11)'
     - 'End: announced on the group''s list (1998-03-10)'
   evidence:
   - kind: list message
@@ -46,14 +47,16 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1997-08-11'
+      certainty: between
       not_before: '1997-01-31'
+      not_after: '1997-04-02'
     end:
-      certainty: on-or-before
-      date: '1998-03-30'
+      certainty: between
+      not_before: '1998-03-24'
+      not_after: '1998-03-30'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1997-08-11)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (1997-04-02)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (1998-03-24)'
     - 'End: became an Area Director, first serving at IETF 41 (1998-03-30)'
   evidence:
   - kind: chair activity
@@ -68,7 +71,7 @@ chairs:
       subject: seeking Munich agenda items
       url: https://mailarchive.ietf.org/arch/msg/tcpimpl/VnZmfKH-Cd5xeGysxjn7HCEjCqc/
   - kind: proceedings
-    listed_in: 8
+    listed_in: 4
     first: '1997-08-11'
     last: '2000-07-03'
     examples:
@@ -91,7 +94,7 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '1998-03-10'
     end:
       certainty: group-closed

@@ -26,7 +26,9 @@ chairs:
       not_before: '2005-11-08'
       not_after: '2007-06-19'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2007-06-19)'
+    - 'Start: named as chair in the WG Action announcement (2003-05-02)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2005-11-08)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2007-06-19)'
   evidence:
   - kind: WG Action
     date: '2003-05-02'
@@ -76,9 +78,9 @@ chairs:
       subject: IETF 64 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/64/grow.html
   - kind: minutes without them
-    date: '2015-11-01'
-    subject: IETF 94 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/94/minutes/minutes-94-grow.txt
+    date: '2007-06-19'
+    subject: IETF 69 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/69/grow.html
 - person: 104956
   name: Vijay Gill
   status: unconfirmed
@@ -87,9 +89,10 @@ chairs:
       certainty: evidence-only
       not_after: '2003-05-02'
     end:
-      certainty: approximate
+      certainty: announced
       date: '2004-02-29'
     notes:
+    - 'Start: named as chair in the WG Action announcement (2003-05-02)'
     - 'End: announced on the group''s list (2004-02-29)'
   evidence:
   - kind: WG Action
@@ -128,16 +131,12 @@ chairs:
     - date: '2004-01-22'
       subject: IETF 59 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/59/167.htm
-  - kind: minutes without them
-    date: '2004-08-01'
-    subject: 'grow: draft GROW WG minutes for IETF 60 (San Diego)'
-    url: https://mailarchive.ietf.org/arch/msg/grow/kkRWaLnYsZHy_XV8M3G0TOKyVmw/
 - person: 106925
   name: Geoff Huston
   status: unconfirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2004-02-29'
     end:
       certainty: between
@@ -145,7 +144,8 @@ chairs:
       not_after: '2008-12-16'
     notes:
     - 'Start: announced on the group''s list (2004-02-29)'
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2008-12-16)'
+    - 'End: requested the group''s session for IETF 69 (2007-07-22)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2008-12-16)'
   evidence:
   - kind: WG Action
     date: '2004-05-17'
@@ -197,9 +197,9 @@ chairs:
       subject: IETF 68 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/68/grow.html
   - kind: minutes without them
-    date: '2015-11-01'
-    subject: IETF 94 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/94/minutes/minutes-94-grow.txt
+    date: '2008-12-16'
+    subject: IETF 74 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/74/grow.html
   - kind: session requests
     meetings:
     - '65'
@@ -210,15 +210,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2007-06-19'
+      certainty: between
       not_before: '2005-11-06'
+      not_after: '2007-06-19'
     end:
       certainty: exact
       date: '2018-03-26'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2005-11-06)'
     - 'Start: listed as chair in a proceedings charter snapshot (2007-06-19)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2005-11-06)'
   evidence:
   - kind: list message
     date: '2018-02-27'
@@ -298,15 +298,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2007-06-19'
+      certainty: between
       not_before: '2005-11-06'
+      not_after: '2007-06-19'
     end:
       certainty: exact
       date: '2025-03-28'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2005-11-06)'
     - 'Start: listed as chair in a proceedings charter snapshot (2007-06-19)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2005-11-06)'
   evidence:
   - kind: chair activity
     first: '2010-03-24'

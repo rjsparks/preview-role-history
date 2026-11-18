@@ -19,8 +19,11 @@ chairs:
       certainty: on-or-before
       date: '1994-03-30'
     end:
-      certainty: group-closed
-      date: '1994-03-30'
+      certainty: between
+      not_before: '1994-03-30'
+      not_after: '1994-03-30'
+    notes:
+    - 'End: the group closed (1994-03-30)'
 - person: 5991
   name: Marko Kaittola
   status: confirmed
@@ -29,5 +32,8 @@ chairs:
       certainty: on-or-before
       date: '1994-03-30'
     end:
-      certainty: group-closed
-      date: '1994-03-30'
+      certainty: between
+      not_before: '1994-03-30'
+      not_after: '1994-03-30'
+    notes:
+    - 'End: the group closed (1994-03-30)'

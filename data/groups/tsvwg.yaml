@@ -20,64 +20,22 @@ chairs:
       not_after: '1999-10-22'
     end:
       certainty: between
-      not_before: '2003-03-04'
-      not_after: '2003-06-18'
+      not_before: '1999-10-22'
+      not_after: '2001-08-05'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2003-06-18)'
+    - 'Start: named as chair in the WG Action announcement (1999-10-22)'
+    - 'End: named as chair in the WG Action announcement (1999-10-22)'
+    - 'End: became an Area Director, first serving at IETF 51 (2001-08-05)'
   evidence:
   - kind: WG Action
     date: '1999-10-22'
     subject: 'WG ACTION: Transport Area Working Group (tsvwg)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/WLfAChAQ8Pm3113E4E4r6ClJleM/
-  - kind: chair activity
-    first: '2000-11-30'
-    last: '2002-12-11'
-    messages: 5
-    examples:
-    - date: '2000-11-30'
-      subject: '[Tsvwg] agenda for tsvwg session in San Diego'
-      url: https://mailarchive.ietf.org/arch/msg/tsvwg/bex7qSoUiHNlcmfdcVzaIHrcbeo/
-    - date: '2002-03-08'
-      subject: '[Tsvwg] WG last call on draft-ietf-tsvwg-sctpcsum-03.txt'
-      url: https://mailarchive.ietf.org/arch/msg/tsvwg/WxE2kgvrQRzaL9lLIpiQ6N_CsEM/
-    - date: '2002-05-15'
-      subject: '[Tsvwg] WG last call on draft-allman-tcp-sack-10.txt'
-      url: https://mailarchive.ietf.org/arch/msg/tsvwg/Kb2gV_vN9Al2WNecQDWfADbCzwc/
-    - date: '2002-08-09'
-      subject: '[Tsvwg] WG last call on draft-ietf-tsvwg-tcp-eifel-alg-04.txt'
-      url: https://mailarchive.ietf.org/arch/msg/tsvwg/flPpfytqh-PGNwYXy3h1PtndfOw/
-  - kind: minutes
-    listed_in: 4
-    first: '1999-11-07'
-    last: '2002-11-17'
-    examples:
-    - date: '1999-11-07'
-      subject: draft TSVWG minutes
-      url: https://mailarchive.ietf.org/arch/msg/tsvwg/06e6Rzx8G1hnDH03BXQo9sSvCqA/
-    - date: '2001-08-05'
-      subject: '[Tsvwg] Draft Minutes of TSVWG WG meeting - IETF 51'
-      url: https://mailarchive.ietf.org/arch/msg/tsvwg/gpSO3k58fbNjgrELgscVGPj_1RA/
-    - date: '2002-11-17'
-      subject: '[Tsvwg] IETF 55 TSVWG Minutes - draft'
-      url: https://mailarchive.ietf.org/arch/msg/tsvwg/MVyHy9upTub-jMwRBmZl1yF83ng/
-  - kind: proceedings
-    listed_in: 10
-    first: '1999-11-01'
-    last: '2003-03-04'
-    examples:
-    - date: '1999-11-01'
-      subject: IETF 46 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-157.html
-    - date: '2000-03-09'
-      subject: IETF 47 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-148.html
-    - date: '2003-03-04'
-      subject: IETF 56 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/56/247.htm
-  - kind: minutes without them
-    date: '2003-11-09'
-    subject: '[Tsvwg] Draft tsvwg meeting minutes'
-    url: https://mailarchive.ietf.org/arch/msg/tsvwg/xI9YlRV2izekf2ikhqkpA2R4qGM/
+  - kind: joined the IESG
+    after_meeting: '50'
+    after: '2001-03-18'
+    by_meeting: '51'
+    by: '2001-08-05'
 - person: 2515
   name: Allison Mankin
   status: unconfirmed
@@ -91,8 +49,10 @@ chairs:
       not_before: '2006-03-19'
       not_after: '2006-08-02'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2006-08-02)'
-    - 'Start: not yet listed among the chairs in meeting minutes (1999-11-07)'
+    - 'Start: not listed among the chairs in meeting minutes (1999-11-07)'
+    - 'Start: started a last call or adoption call on the group''s list (2000-05-04)'
+    - 'End: requested the group''s session for IETF 65 (2006-03-19)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2006-08-02)'
   evidence:
   - kind: WG Action
     date: '2004-02-25'
@@ -119,30 +79,30 @@ chairs:
       subject: '[Tsvwg] Draft Minutes of TSVWG WG meeting - IETF 51'
       url: https://mailarchive.ietf.org/arch/msg/tsvwg/gpSO3k58fbNjgrELgscVGPj_1RA/
   - kind: minutes
-    listed_in: 6
-    first: '2002-11-17'
+    listed_in: 8
+    first: '2001-08-05'
     last: '2005-03-06'
     examples:
-    - date: '2002-11-17'
-      subject: '[Tsvwg] IETF 55 TSVWG Minutes - draft'
-      url: https://mailarchive.ietf.org/arch/msg/tsvwg/MVyHy9upTub-jMwRBmZl1yF83ng/
-    - date: '2003-11-09'
-      subject: '[Tsvwg] Draft tsvwg meeting minutes'
-      url: https://mailarchive.ietf.org/arch/msg/tsvwg/xI9YlRV2izekf2ikhqkpA2R4qGM/
+    - date: '2001-08-05'
+      subject: '[Tsvwg] Draft Minutes of TSVWG WG meeting - IETF 51'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/gpSO3k58fbNjgrELgscVGPj_1RA/
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/minutes/TSVWG.HTM
     - date: '2005-03-06'
       subject: IETF 62 minutes in the proceedings
       url: https://www.ietf.org/proceedings/62/minutes/tsvwg.html
   - kind: proceedings
-    listed_in: 13
-    first: '2001-07-31'
+    listed_in: 16
+    first: '2000-07-17'
     last: '2005-10-31'
     examples:
-    - date: '2001-07-31'
-      subject: IETF 51 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/51/51-153.htm
-    - date: '2001-11-19'
-      subject: IETF 52 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/52/243.htm
+    - date: '2000-07-17'
+      subject: IETF 48 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/48/00july-145.htm
+    - date: '2000-10-16'
+      subject: IETF 49 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/49/00dec-155.htm
     - date: '2005-10-31'
       subject: IETF 64 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/64/tsvwg.html
@@ -151,9 +111,9 @@ chairs:
     subject: draft TSVWG minutes
     url: https://mailarchive.ietf.org/arch/msg/tsvwg/06e6Rzx8G1hnDH03BXQo9sSvCqA/
   - kind: minutes without them
-    date: '2007-03-18'
-    subject: IETF 68 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/68/minutes/tsvwg.txt
+    date: '2006-08-02'
+    subject: IETF 66 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/66/tsvwg.html
   - kind: session requests
     meetings:
     - '65'
@@ -167,49 +127,21 @@ chairs:
       not_after: '1999-10-22'
     end:
       certainty: between
-      not_before: '2000-03-09'
+      not_before: '1999-10-22'
       not_after: '2000-07-17'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2000-07-17)'
+    - 'Start: named as chair in the WG Action announcement (1999-10-22)'
+    - 'End: named as chair in the WG Action announcement (1999-10-22)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2000-07-17)'
   evidence:
   - kind: WG Action
     date: '1999-10-22'
     subject: 'WG ACTION: Transport Area Working Group (tsvwg)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/WLfAChAQ8Pm3113E4E4r6ClJleM/
-  - kind: chair activity
-    first: '1999-11-04'
-    last: '1999-11-25'
-    messages: 2
-    examples:
-    - date: '1999-11-04'
-      subject: draft agenda for DC TSVWG meeting
-      url: https://mailarchive.ietf.org/arch/msg/tsvwg/VyEIabcHcdX53TddaGQ90L4U7uo/
-    - date: '1999-11-25'
-      subject: draft TSVWG minutes
-      url: https://mailarchive.ietf.org/arch/msg/tsvwg/06e6Rzx8G1hnDH03BXQo9sSvCqA/
-  - kind: minutes
-    listed_in: 1
-    first: '1999-11-07'
-    last: '1999-11-07'
-    examples:
-    - date: '1999-11-07'
-      subject: draft TSVWG minutes
-      url: https://mailarchive.ietf.org/arch/msg/tsvwg/06e6Rzx8G1hnDH03BXQo9sSvCqA/
-  - kind: proceedings
-    listed_in: 2
-    first: '1999-11-01'
-    last: '2000-03-09'
-    examples:
-    - date: '1999-11-01'
-      subject: IETF 46 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-157.html
-    - date: '2000-03-09'
-      subject: IETF 47 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-148.html
   - kind: minutes without them
-    date: '2001-08-05'
-    subject: '[Tsvwg] Draft Minutes of TSVWG WG meeting - IETF 51'
-    url: https://mailarchive.ietf.org/arch/msg/tsvwg/gpSO3k58fbNjgrELgscVGPj_1RA/
+    date: '2000-07-17'
+    subject: IETF 48 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/48/00july-145.htm
 - person: 103156
   name: David Black
   status: confirmed
@@ -222,16 +154,9 @@ chairs:
       certainty: exact
       date: '2023-02-15'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2012-07-29)'
     - 'Start: listed as chair in a proceedings charter snapshot (2012-11-04)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2012-07-29)'
   evidence:
-  - kind: list message
-    date: '2012-11-14'
-    says: end
-    subject: '[tsvwg] New co-chair as replacement for Rolf: David Black'
-    url: https://mailarchive.ietf.org/arch/msg/tsvwg/UYF3u99G3yslGN1h61lqE72rBFo/
-    excerpt: Rolf Winter has to step down as TSVWG co-chair for personal reasons and he will be replaced
-      by David Black.
   - kind: minutes
     listed_in: 7
     first: '2013-03-10'
@@ -283,15 +208,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2005-10-31'
+      certainty: between
       not_before: '2003-11-09'
+      not_after: '2004-02-28'
     end:
       certainty: exact
       date: '2014-12-10'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2005-10-31)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2003-11-09)'
+    - 'Start: not listed among the chairs in meeting minutes (2003-11-09)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2004-02-28)'
   evidence:
   - kind: WG Action
     date: '2006-06-28'
@@ -301,20 +226,6 @@ chairs:
     date: '2011-05-31'
     subject: 'WG Action: RECHARTER: Transport Area Working Group (tsvwg)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/SKyQyBhDM9ZYfMyaGryeLxf1VeY/
-  - kind: list message
-    date: '2009-05-20'
-    says: end
-    subject: '[Tsvwg] TSVWG chair change'
-    url: https://mailarchive.ietf.org/arch/msg/tsvwg/qfPvR8iP0uUcBb5vWVkHBHffczg/
-    excerpt: for a while now, Magnus and me have been discussing to step down as TSVWG chairs and find
-      James a "real" co-chair.
-  - kind: list message
-    date: '2012-11-08'
-    says: start
-    subject: '[tsvwg] Today''s tsvwg meeting: Diffserv'
-    url: https://mailarchive.ietf.org/arch/msg/tsvwg/2ItnLN58bB9NdB9YHZiLAaVoKuE/
-    excerpt: I've agreed to act as a co-chair for today's tsvwg session on diffserv to enable James Polk
-      to focus on his drafts.
   - kind: chair activity
     first: '2004-02-28'
     last: '2012-10-30'
@@ -365,12 +276,8 @@ chairs:
       url: https://www.ietf.org/proceedings/89/tsvwg.html
   - kind: minutes without them
     date: '2003-11-09'
-    subject: IETF 58 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/58/minutes/tsvwg.htm
-  - kind: minutes without them
-    date: '2015-03-22'
-    subject: IETF 92 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/92/minutes/minutes-92-tsvwg.txt
+    subject: '[Tsvwg] Draft tsvwg meeting minutes'
+    url: https://mailarchive.ietf.org/arch/msg/tsvwg/xI9YlRV2izekf2ikhqkpA2R4qGM/
   - kind: session requests
     meetings:
     - '66'
@@ -391,85 +298,42 @@ chairs:
       not_before: '2005-03-06'
       not_after: '2006-06-28'
     end:
-      certainty: evidence-only
-      not_before: '2021-03-23'
+      certainty: between
+      not_before: '2006-06-28'
+      not_after: '2006-07-09'
     notes:
-    - 'Start: not yet listed among the chairs in meeting minutes (2005-03-06)'
+    - 'Start: not listed among the chairs in meeting minutes (2005-03-06)'
+    - 'Start: named as chair in the WG Action announcement (2006-06-28)'
+    - 'End: named as chair in the WG Action announcement (2006-06-28)'
+    - 'End: became an Area Director, first serving at IETF 66 (2006-07-09)'
   evidence:
   - kind: WG Action
     date: '2006-06-28'
     subject: 'WG Action: RECHARTER: Transport Area Working Group (tsvwg)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/p1c5mLKg0xIxbOqunSVukn8X1nc/
-  - kind: chair activity
-    first: '2006-09-28'
-    last: '2021-03-23'
-    messages: 12
-    examples:
-    - date: '2006-09-28'
-      subject: '[Tsvwg] Working group last call on draft-ietf-tsvwg-sctp-padding-01'
-      url: https://mailarchive.ietf.org/arch/msg/tsvwg/zM0-M5_qHf2P2ylSuWuO2-dpzH0/
-    - date: '2007-03-26'
-      subject: '[Tsvwg] WG last call of draft-ietf-tsvwg-emergency-rsvp-02'
-      url: https://mailarchive.ietf.org/arch/msg/tsvwg/Z1LAXHOmTHIzKmt62KHPSz_F--s/
-    - date: '2007-07-31'
-      subject: '[Tsvwg] WG last call: draft-ietf-tsvwg-ecn-mpls-01'
-      url: https://mailarchive.ietf.org/arch/msg/tsvwg/9e7P3IHvuRgJoO_v6T_kpCelWF8/
-    - date: '2008-04-07'
-      subject: '[Tsvwg] Draft minutes for TSVWG in Phily'
-      url: https://mailarchive.ietf.org/arch/msg/tsvwg/qPxVciWm0vHR8UcXPew0fQtWSu4/
-    - date: '2021-03-23'
-      subject: '[tsvwg] Correction to IETF 110 minutes on DTLS over SCTP'
-      url: https://mailarchive.ietf.org/arch/msg/tsvwg/FNoGu90oFRRDA81WIRTJuku5Pss/
-  - kind: minutes
-    listed_in: 6
-    first: '2007-03-18'
-    last: '2009-03-22'
-    examples:
-    - date: '2007-03-18'
-      subject: IETF 68 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/68/minutes/tsvwg.txt
-    - date: '2007-07-22'
-      subject: IETF 69 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/69/minutes/tsvwg.txt
-    - date: '2009-03-22'
-      subject: IETF 74 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/74/minutes/tsvwg.txt
-  - kind: proceedings
-    listed_in: 4
-    first: '2006-08-02'
-    last: '2008-02-27'
-    examples:
-    - date: '2006-08-02'
-      subject: IETF 66 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/66/tsvwg.html
-    - date: '2006-12-15'
-      subject: IETF 68 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/68/tsvwg.html
-    - date: '2008-02-27'
-      subject: IETF 71 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/71/tsvwg.html
   - kind: minutes without them
     date: '2005-03-06'
     subject: IETF 62 minutes in the proceedings
     url: https://www.ietf.org/proceedings/62/minutes/tsvwg.html
-  - kind: session requests
-    meetings:
-    - '72'
-    - '73'
-    - '74'
-    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: joined the IESG
+    after_meeting: '65'
+    after: '2006-03-19'
+    by_meeting: '66'
+    by: '2006-07-09'
 - person: 104331
   name: Gorry Fairhurst
   status: confirmed
   periods:
   - start:
-      certainty: approximate
-      date: '2009-05-20'
+      certainty: between
+      not_before: '2008-07-27'
+      not_after: '2009-03-22'
     end:
       certainty: exact
       date: '2025-03-21'
     notes:
-    - 'Start: announced on the group''s list (2009-05-20)'
+    - 'Start: not listed among the chairs in meeting minutes (2008-07-27)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2009-03-22)'
   evidence:
   - kind: WG Action
     date: '2011-05-31'
@@ -542,6 +406,11 @@ chairs:
     date: '2008-07-27'
     subject: IETF 72 minutes in the proceedings
     url: https://www.ietf.org/proceedings/72/minutes/tsvwg.txt
+  - kind: joined the IESG
+    after_meeting: '122'
+    after: '2025-03-15'
+    by_meeting: '123'
+    by: '2025-07-19'
   - kind: session requests
     meetings:
     - '77'
@@ -567,11 +436,6 @@ chairs:
     - draft-ietf-tsvwg-sctp-prpolicies
     - draft-ietf-tsvwg-sctp-sack-immediately
     - draft-ietf-tsvwg-udp-options
-  - kind: joined the IESG
-    after_meeting: '122'
-    after: '2025-03-15'
-    by_meeting: '123'
-    by: '2025-07-19'
 - person: 104557
   name: Jon Peterson
   status: unconfirmed
@@ -582,52 +446,35 @@ chairs:
       not_after: '2003-06-18'
     end:
       certainty: between
-      not_before: '2005-10-31'
-      not_after: '2006-08-02'
+      not_before: '2004-02-25'
+      not_after: '2006-07-09'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2006-08-02)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2002-11-17)'
+    - 'Start: not listed among the chairs in meeting minutes (2002-11-17)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2003-06-18)'
+    - 'End: named as chair in the WG Action announcement (2004-02-25)'
+    - 'End: became an Area Director, first serving at IETF 66 (2006-07-09)'
   evidence:
   - kind: WG Action
     date: '2004-02-25'
     subject: 'WG Action: RECHARTER: Transport Area Working Group (tsvwg)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/tiJcjr6rvqxNY_MPQ1_whf3e01I/
-  - kind: minutes
-    listed_in: 5
-    first: '2003-11-09'
-    last: '2005-03-06'
-    examples:
-    - date: '2003-11-09'
-      subject: '[Tsvwg] Draft tsvwg meeting minutes'
-      url: https://mailarchive.ietf.org/arch/msg/tsvwg/xI9YlRV2izekf2ikhqkpA2R4qGM/
-    - date: '2003-11-09'
-      subject: IETF 58 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/58/minutes/tsvwg.htm
-    - date: '2005-03-06'
-      subject: IETF 62 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/62/minutes/tsvwg.html
   - kind: proceedings
-    listed_in: 8
+    listed_in: 1
     first: '2003-06-18'
-    last: '2005-10-31'
+    last: '2003-06-18'
     examples:
     - date: '2003-06-18'
       subject: IETF 57 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/57/249.htm
-    - date: '2003-10-20'
-      subject: IETF 58 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/58/247.htm
-    - date: '2005-10-31'
-      subject: IETF 64 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/64/tsvwg.html
   - kind: minutes without them
     date: '2002-11-17'
     subject: '[Tsvwg] IETF 55 TSVWG Minutes - draft'
     url: https://mailarchive.ietf.org/arch/msg/tsvwg/MVyHy9upTub-jMwRBmZl1yF83ng/
-  - kind: minutes without them
-    date: '2007-03-18'
-    subject: IETF 68 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/68/minutes/tsvwg.txt
+  - kind: joined the IESG
+    after_meeting: '65'
+    after: '2006-03-19'
+    by_meeting: '66'
+    by: '2006-07-09'
 - person: 106541
   name: Martin Duke
   status: confirmed
@@ -696,8 +543,10 @@ chairs:
       certainty: exact
       date: '2012-06-26'
     end:
-      certainty: approximate
-      date: '2012-07-06'
+      certainty: announced
+      date: '2012-11-14'
+    notes:
+    - 'End: announced on the group''s list (2012-11-14)'
   evidence:
   - kind: list message
     date: '2012-06-26'
@@ -754,14 +603,6 @@ chairs:
     - date: '2012-07-29'
       subject: IETF 84 proceedings charter
       url: https://www.ietf.org/proceedings/84/tsvwg.html
-  - kind: minutes without them
-    date: '2012-03-25'
-    subject: IETF 83 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/83/minutes/minutes-83-tsvwg.txt
-  - kind: minutes without them
-    date: '2013-03-10'
-    subject: IETF 86 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/86/minutes/minutes-86-tsvwg.txt
 - person: 110856
   name: Wesley Eddy
   status: confirmed
@@ -810,10 +651,6 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/tsvwg.html
-  - kind: minutes without them
-    date: '2016-07-17'
-    subject: IETF 96 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-tsvwg.txt
   - kind: shepherded
     documents:
     - draft-ietf-tsvwg-aqm-dualq-coupled
@@ -835,106 +672,27 @@ chairs:
       not_after: '2006-06-28'
     end:
       certainty: between
-      not_before: '2009-03-22'
-      not_after: '2009-07-26'
+      not_before: '2006-06-28'
+      not_after: '2006-07-09'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-07-26)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2005-03-06)'
+    - 'Start: not listed among the chairs in meeting minutes (2005-03-06)'
+    - 'Start: named as chair in the WG Action announcement (2006-06-28)'
+    - 'End: named as chair in the WG Action announcement (2006-06-28)'
+    - 'End: became an Area Director, first serving at IETF 66 (2006-07-09)'
   evidence:
   - kind: WG Action
     date: '2006-06-28'
     subject: 'WG Action: RECHARTER: Transport Area Working Group (tsvwg)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/p1c5mLKg0xIxbOqunSVukn8X1nc/
-  - kind: minutes
-    listed_in: 6
-    first: '2007-03-18'
-    last: '2009-03-22'
-    examples:
-    - date: '2007-03-18'
-      subject: IETF 68 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/68/minutes/tsvwg.txt
-    - date: '2007-07-22'
-      subject: IETF 69 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/69/minutes/tsvwg.txt
-    - date: '2009-03-22'
-      subject: IETF 74 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/74/minutes/tsvwg.txt
-  - kind: proceedings
-    listed_in: 4
-    first: '2006-08-02'
-    last: '2008-02-27'
-    examples:
-    - date: '2006-08-02'
-      subject: IETF 66 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/66/tsvwg.html
-    - date: '2006-12-15'
-      subject: IETF 68 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/68/tsvwg.html
-    - date: '2008-02-27'
-      subject: IETF 71 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/71/tsvwg.html
   - kind: minutes without them
     date: '2005-03-06'
     subject: IETF 62 minutes in the proceedings
     url: https://www.ietf.org/proceedings/62/minutes/tsvwg.html
-  - kind: minutes without them
-    date: '2009-07-26'
-    subject: IETF 75 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/75/minutes/tsvwg.txt
-  - kind: session requests
-    meetings:
-    - '68'
-    - '70'
-    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
-- person: 114505
-  name: Allison Mankin
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: between
-      not_before: '1999-11-07'
-      not_after: '2000-07-17'
-    end:
-      certainty: between
-      not_before: '2001-08-05'
-      not_after: '2001-11-19'
-    notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2001-11-19)'
-    - 'Start: not yet listed among the chairs in meeting minutes (1999-11-07)'
-  evidence:
-  - kind: minutes
-    listed_in: 2
-    first: '2001-08-05'
-    last: '2001-08-05'
-    examples:
-    - date: '2001-08-05'
-      subject: '[Tsvwg] Draft Minutes of TSVWG WG meeting - IETF 51'
-      url: https://mailarchive.ietf.org/arch/msg/tsvwg/gpSO3k58fbNjgrELgscVGPj_1RA/
-    - date: '2001-08-05'
-      subject: IETF 51 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/51/minutes/TSVWG.HTM
-  - kind: proceedings
-    listed_in: 3
-    first: '2000-07-17'
-    last: '2001-03-14'
-    examples:
-    - date: '2000-07-17'
-      subject: IETF 48 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/48/00july-145.htm
-    - date: '2000-10-16'
-      subject: IETF 49 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/49/00dec-155.htm
-    - date: '2001-03-14'
-      subject: IETF 50 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/50/ietf50-158.htm
-  - kind: minutes without them
-    date: '1999-11-07'
-    subject: draft TSVWG minutes
-    url: https://mailarchive.ietf.org/arch/msg/tsvwg/06e6Rzx8G1hnDH03BXQo9sSvCqA/
-  - kind: minutes without them
-    date: '2002-11-17'
-    subject: '[Tsvwg] IETF 55 TSVWG Minutes - draft'
-    url: https://mailarchive.ietf.org/arch/msg/tsvwg/MVyHy9upTub-jMwRBmZl1yF83ng/
+  - kind: joined the IESG
+    after_meeting: '65'
+    after: '2006-03-19'
+    by_meeting: '66'
+    by: '2006-07-09'
 - person: 124189
   name: Marten Seemann
   status: confirmed
@@ -968,10 +726,6 @@ chairs:
     - date: '2025-01-19'
       subject: '[tsvwg] WGLC for Convergence of Congestion Control from Retained State (draft-ietf-tsvwg-careful-resume)'
       url: https://mailarchive.ietf.org/arch/msg/tsvwg/C5Rw2pkiZsHudgt7BOAmOsTOBR4/
-  - kind: minutes without them
-    date: '2016-07-17'
-    subject: IETF 96 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-tsvwg.txt
   - kind: shepherded
     documents:
     - draft-ietf-tsvwg-careful-resume

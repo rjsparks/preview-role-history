@@ -5,10 +5,13 @@ parent: art
 state: conclude
 started: '2009-12-10'
 closed: '2016-01-04'
-bof: false
+bof: true
 never_chartered: false
 chartered: '2010-01-21'
-bof_sessions: []
+bof_sessions:
+- meeting: '76'
+  date: '2009-11-08'
+  url: https://datatracker.ietf.org/meeting/76/session/hybi/
 history_url: https://datatracker.ietf.org/group/hybi/history/
 chairs:
 - person: 105907
@@ -20,10 +23,12 @@ chairs:
       not_after: '2009-07-30'
     end:
       certainty: between
-      not_before: '2011-03-30'
-      not_after: '2011-07-24'
+      not_before: '2009-07-30'
+      not_after: '2010-03-21'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-07-24)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2009-07-30)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2009-07-30)'
+    - 'End: not listed among the chairs in meeting minutes (2010-03-21)'
   evidence:
   - kind: list message
     date: '2011-03-30'
@@ -40,22 +45,26 @@ chairs:
       subject: '[hybi] breakfast BoF minutes'
       url: https://mailarchive.ietf.org/arch/msg/hybi/m6Vz1JPiTGDO0ngzfEnglxmMaHU/
   - kind: minutes without them
-    date: '2011-07-24'
-    subject: IETF 81 proceedings charter
-    url: https://www.ietf.org/proceedings/81/hybi.html
+    date: '2010-03-21'
+    subject: IETF 77 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/77/minutes/hybi.txt
+  - kind: joined the IESG
+    after_meeting: '77'
+    after: '2010-03-21'
+    by_meeting: '78'
+    by: '2010-07-25'
 - person: 107491
   name: Salvatore Loreto
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-03-21'
-      not_before: '2009-12-10'
+      date: '2009-10-30'
     end:
       certainty: group-closed
       date: '2016-01-04'
     notes:
-    - 'Start: listed as chair in meeting minutes (2010-03-21)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2009-10-30)'
   evidence:
   - kind: WG Review
     date: '2012-02-07'
@@ -120,13 +129,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: approximate
-      date: '2011-03-30'
+      certainty: between
+      not_before: '2010-07-25'
+      not_after: '2010-11-07'
     end:
       certainty: group-closed
       date: '2016-01-04'
     notes:
-    - 'Start: announced on the group''s list (2011-03-30)'
+    - 'Start: not listed among the chairs in meeting minutes (2010-07-25)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
   evidence:
   - kind: WG Review
     date: '2012-02-07'
@@ -180,10 +191,12 @@ chairs:
       not_after: '2009-11-08'
     end:
       certainty: between
-      not_before: '2010-07-29'
-      not_after: '2010-11-07'
+      not_before: '2010-07-25'
+      not_after: '2016-01-04'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-11-07)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2009-11-08)'
+    - 'End: listed as chair in meeting minutes (2010-07-25)'
+    - 'End: the group closed (2016-01-04)'
   evidence:
   - kind: minutes
     listed_in: 2
@@ -210,10 +223,6 @@ chairs:
     - date: '2010-07-29'
       subject: IETF 78 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/78/hybi.html
-  - kind: minutes without them
-    date: '2010-11-07'
-    subject: IETF 79 proceedings charter
-    url: https://www.ietf.org/proceedings/79/hybi.html
   - kind: session requests
     meetings:
     - '77'

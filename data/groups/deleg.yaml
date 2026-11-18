@@ -24,6 +24,16 @@ chairs:
     end:
       certainty: exact
       date: '2024-05-03'
+  - start:
+      certainty: between
+      not_before: '2024-05-03'
+      not_after: '2025-06-17'
+    end:
+      certainty: evidence-only
+      not_before: '2025-06-17'
+    notes:
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2025-06-17)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2025-06-17)'
   evidence:
   - kind: chair activity
     first: '2024-03-06'

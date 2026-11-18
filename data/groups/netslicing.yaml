@@ -24,8 +24,10 @@ chairs:
     end:
       certainty: between
       not_before: '2017-07-16'
+      not_after: '2017-10-05'
     notes:
-    - 'End: after the BOF''s last session, IETF 99 (2017-07-16)'
+    - 'End: the BOF met at IETF 99 (2017-07-16)'
+    - 'End: the group closed (2017-10-05)'
   evidence:
   - kind: BOF session
     meeting: '99'
@@ -41,8 +43,10 @@ chairs:
     end:
       certainty: between
       not_before: '2017-07-16'
+      not_after: '2017-10-05'
     notes:
-    - 'End: after the BOF''s last session, IETF 99 (2017-07-16)'
+    - 'End: the BOF met at IETF 99 (2017-07-16)'
+    - 'End: the group closed (2017-10-05)'
   evidence:
   - kind: BOF session
     meeting: '99'

@@ -63,8 +63,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: approximate
-      date: '2013-04-12'
+      certainty: between
+      not_before: '2013-04-12'
+      not_after: '2013-05-31'
     end:
       certainty: group-closed
       date: '2017-01-25'

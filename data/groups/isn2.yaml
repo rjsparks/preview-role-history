@@ -23,39 +23,37 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1997-01-01'
+      date: '1995-12-04'
     end:
       certainty: between
-      not_before: '1997-04-07'
+      not_before: '1995-12-04'
+      not_after: '1997-01-01'
     notes:
-    - 'End: after the BOF''s last session, IETF 38 (1997-04-07)'
+    - 'Start: the BOF met at IETF 34 (1995-12-04)'
+    - 'End: the BOF met at IETF 34 (1995-12-04)'
+    - 'End: the group closed (1997-01-01)'
   evidence:
   - kind: BOF session
     meeting: '34'
     date: '1995-12-04'
     url: https://www.ietf.org/proceedings/34/area.and.wg.reports/usv/isn2/isn2-minutes-95dec.txt
-  - kind: BOF session
-    meeting: '38'
-    date: '1997-04-07'
-    url: https://www.ietf.org/proceedings/38/97apr-final/xrtft128.htm
 - person: 8211
   name: Jennifer Sellers
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '1997-01-01'
+      date: '1995-12-04'
     end:
       certainty: between
-      not_before: '1997-04-07'
+      not_before: '1995-12-04'
+      not_after: '1997-01-01'
     notes:
-    - 'End: after the BOF''s last session, IETF 38 (1997-04-07)'
+    - 'Start: the BOF met at IETF 34 (1995-12-04)'
+    - 'End: the BOF met at IETF 34 (1995-12-04)'
+    - 'End: the group closed (1997-01-01)'
   evidence:
   - kind: BOF session
     meeting: '34'
     date: '1995-12-04'
     url: https://www.ietf.org/proceedings/34/area.and.wg.reports/usv/isn2/isn2-minutes-95dec.txt
-  - kind: BOF session
-    meeting: '38'
-    date: '1997-04-07'
-    url: https://www.ietf.org/proceedings/38/97apr-final/xrtft128.htm

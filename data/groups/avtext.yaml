@@ -76,10 +76,6 @@ chairs:
     - date: '2016-11-13'
       subject: IETF 97 proceedings charter
       url: https://www.ietf.org/proceedings/97/avtext.html
-  - kind: minutes without them
-    date: '2012-07-29'
-    subject: IETF 84 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/84/minutes/minutes-84-avtext.txt
   - kind: shepherded
     documents:
     - draft-ietf-avtext-multiple-clock-rates
@@ -94,25 +90,30 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-01-25'
-      not_before: '2010-12-03'
+      date: '2010-11-07'
     end:
       certainty: exact
       date: '2013-01-11'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2011-01-25)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
+  - start:
+      certainty: between
+      not_before: '2015-03-22'
+      not_after: '2015-07-19'
+    end:
+      certainty: between
+      not_before: '2015-07-19'
+      not_after: '2015-11-01'
+    notes:
+    - 'Start: not listed among the chairs in meeting minutes (2015-03-22)'
+    - 'Start: listed as chair in meeting minutes (2015-07-19)'
+    - 'End: listed as chair in meeting minutes (2015-07-19)'
+    - 'End: not listed among the chairs in meeting minutes (2015-11-01)'
   evidence:
   - kind: WG Action
     date: '2011-01-25'
     subject: 'WG Action: Audio/Video Transport Extensions (AVTEXT)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/KSkpUe5SYXgkjfT6qL3RziUxemM/
-  - kind: list message
-    date: '2013-01-11'
-    says: end
-    subject: '[avtext] Jonathan Lennox joining as AVTEXT co-chair'
-    url: https://mailarchive.ietf.org/arch/msg/avtext/qzgjAL2WB-CQ7TxNWA1sDXaCWbQ/
-    excerpt: Magnus Westerlund is stepping down as co-chair for this group (but is continuing in his other
-      chair roles).
   - kind: chair activity
     first: '2011-03-17'
     last: '2012-11-26'
@@ -159,6 +160,10 @@ chairs:
       subject: IETF 84 proceedings charter
       url: https://www.ietf.org/proceedings/84/avtext.html
   - kind: minutes without them
+    date: '2015-03-22'
+    subject: IETF 92 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/92/minutes/minutes-92-avtext.txt
+  - kind: minutes without them
     date: '2015-11-01'
     subject: IETF 94 minutes in the proceedings
     url: https://www.ietf.org/proceedings/94/minutes/minutes-94-avtext.txt
@@ -171,13 +176,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-01-25'
-      not_before: '2010-12-03'
+      date: '2010-11-07'
     end:
       certainty: exact
       date: '2015-11-05'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2011-01-25)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
   evidence:
   - kind: WG Action
     date: '2011-01-25'
@@ -218,10 +222,6 @@ chairs:
     - date: '2015-07-19'
       subject: IETF 93 proceedings charter
       url: https://www.ietf.org/proceedings/93/avtext.html
-  - kind: minutes without them
-    date: '2016-04-03'
-    subject: IETF 95 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/95/minutes/minutes-95-avtext.txt
   - kind: session requests
     meetings:
     - '80'
@@ -296,10 +296,6 @@ chairs:
     - date: '2016-11-13'
       subject: IETF 97 proceedings charter
       url: https://www.ietf.org/proceedings/97/avtext.html
-  - kind: minutes without them
-    date: '2015-07-19'
-    subject: IETF 93 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/93/minutes/minutes-93-avtext.txt
   - kind: shepherded
     documents:
     - draft-ietf-avtext-avpf-ccm-layered

@@ -22,9 +22,10 @@ chairs:
       certainty: evidence-only
       not_after: '2005-03-06'
     end:
-      certainty: approximate
+      certainty: announced
       date: '2007-04-16'
     notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2005-03-06)'
     - 'End: announced on the group''s list (2007-04-16)'
   evidence:
   - kind: WG Action
@@ -79,10 +80,6 @@ chairs:
     - date: '2007-02-13'
       subject: IETF 68 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/68/netlmm.html
-  - kind: minutes without them
-    date: '2007-12-02'
-    subject: IETF 70 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/70/minutes/netlmm.txt
   - kind: session requests
     meetings:
     - '65'
@@ -94,7 +91,7 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2007-04-16'
     end:
       certainty: group-closed
@@ -149,10 +146,6 @@ chairs:
     - date: '2008-12-16'
       subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/netlmm.html
-  - kind: minutes without them
-    date: '2007-03-18'
-    subject: IETF 68 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/68/minutes/netlmm.txt
 - person: 106286
   name: James Kempf
   status: unconfirmed
@@ -165,7 +158,9 @@ chairs:
       not_before: '2006-11-16'
       not_after: '2007-02-13'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2007-02-13)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2005-03-06)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2006-11-16)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2007-02-13)'
   evidence:
   - kind: WG Action
     date: '2006-01-12'
@@ -208,15 +203,15 @@ chairs:
       subject: IETF 67 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/67/inetlmm.html
   - kind: minutes without them
-    date: '2007-03-18'
-    subject: IETF 68 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/68/minutes/netlmm.txt
+    date: '2007-02-13'
+    subject: IETF 68 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/68/netlmm.html
 - person: 107134
   name: Vidya Narayanan
   status: confirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2006-11-21'
     end:
       certainty: group-closed
@@ -260,10 +255,6 @@ chairs:
     - date: '2008-12-16'
       subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/netlmm.html
-  - kind: minutes without them
-    date: '2005-07-31'
-    subject: IETF 63 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/63/minutes/netlmm.html
   - kind: session requests
     meetings:
     - '68'

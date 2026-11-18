@@ -19,10 +19,13 @@ chairs:
       certainty: on-or-before
       date: '2005-10-25'
     end:
-      certainty: group-closed
-      date: '2006-01-26'
+      certainty: between
+      not_before: '2005-11-06'
+      not_after: '2006-01-26'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2005-10-25)'
+    - 'End: listed as chair in meeting minutes (2005-11-06)'
+    - 'End: the group closed (2006-01-26)'
   evidence:
   - kind: minutes
     listed_in: 1

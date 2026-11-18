@@ -20,10 +20,12 @@ chairs:
       not_after: '1999-10-22'
     end:
       certainty: between
-      not_before: '2004-12-13'
+      not_before: '2004-11-18'
       not_after: '2005-03-22'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2005-03-22)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1999-10-22)'
+    - 'End: started a last call or adoption call on the group''s list (2004-11-18)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2005-03-22)'
   evidence:
   - kind: WG Action
     date: '1999-10-27'
@@ -88,9 +90,10 @@ chairs:
       certainty: evidence-only
       not_after: '2005-03-22'
     end:
-      certainty: approximate
+      certainty: announced
       date: '2006-09-05'
     notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2005-03-22)'
     - 'End: announced on the group''s list (2006-09-05)'
   evidence:
   - kind: list message
@@ -119,7 +122,7 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2005-03-20'
     end:
       certainty: group-closed
@@ -173,22 +176,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2006-02-16'
+      certainty: between
       not_before: '1999-10-04'
+      not_after: '2006-02-16'
     end:
       certainty: group-closed
       date: '2018-05-17'
     notes:
     - 'Start: started a last call or adoption call on the group''s list (2006-02-16)'
   evidence:
-  - kind: list message
-    date: '2006-09-05'
-    says: start
-    subject: '[L2tpext] Please welcome Carlos Pignataro as L2TPEXT WG co-Chair'
-    url: https://mailarchive.ietf.org/arch/msg/l2tpext/D8beaF3ULjuyiu3-pSpxydd_lBg/
-    excerpt: Thanks to Ron for his leadership over the past year and a half, and please welcome Carlos
-      to his new post.
   - kind: chair activity
     first: '2006-02-16'
     last: '2015-06-08'

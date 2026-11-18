@@ -21,9 +21,11 @@ chairs:
     end:
       certainty: between
       not_before: '2011-07-24'
-      not_after: '2011-11-13'
+      not_after: '2012-03-05'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-11-13)'
+    - 'Start: named as chair in the WG Action announcement (2007-11-26)'
+    - 'End: requested the group''s session for IETF 81 (2011-07-24)'
+    - 'End: the group closed (2012-03-05)'
   evidence:
   - kind: WG Action
     date: '2007-11-26'
@@ -89,10 +91,6 @@ chairs:
     - date: '2011-07-24'
       subject: IETF 81 proceedings charter
       url: https://www.ietf.org/proceedings/81/mext.html
-  - kind: minutes without them
-    date: '2011-11-13'
-    subject: IETF 82 proceedings charter
-    url: https://www.ietf.org/proceedings/82/mext.html
   - kind: session requests
     meetings:
     - '71'
@@ -109,9 +107,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2007-11-26'
+      certainty: between
       not_before: '2007-06-18'
+      not_after: '2007-11-26'
     end:
       certainty: group-closed
       date: '2012-03-05'
@@ -190,15 +188,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-11-13'
+      certainty: between
       not_before: '2009-11-08'
+      not_after: '2011-11-02'
     end:
       certainty: group-closed
       date: '2012-03-05'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2011-11-13)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2009-11-08)'
+    - 'Start: not listed among the chairs in meeting minutes (2009-11-08)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2011-11-02)'
   evidence:
   - kind: WG Action
     date: '2012-01-10'

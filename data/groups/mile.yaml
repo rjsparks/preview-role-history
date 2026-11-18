@@ -36,14 +36,6 @@ chairs:
     - date: '2016-03-21'
       subject: '[mile] Call for agenda items for Buenos Aires'
       url: https://mailarchive.ietf.org/arch/msg/mile/pV85buNb59H9KrRqxMkh_17cQek/
-  - kind: minutes without them
-    date: '2012-11-04'
-    subject: IETF 85 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/85/minutes/minutes-85-mile.txt
-  - kind: minutes without them
-    date: '2016-07-17'
-    subject: IETF 96 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-mile.txt
   - kind: joined the IESG
     after_meeting: '95'
     after: '2016-04-03'
@@ -55,13 +47,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-10-25'
-      not_before: '2011-09-21'
+      date: '2011-07-24'
     end:
       certainty: exact
       date: '2014-03-06'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2011-10-25)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2011-07-24)'
   evidence:
   - kind: WG Action
     date: '2011-10-25'
@@ -123,19 +114,15 @@ chairs:
     - date: '2013-11-03'
       subject: IETF 88 proceedings charter
       url: https://www.ietf.org/proceedings/88/mile.html
-  - kind: minutes without them
-    date: '2016-07-17'
-    subject: IETF 96 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-mile.txt
-  - kind: shepherded
-    documents:
-    - draft-ietf-mile-rfc6046-bis
-    - draft-ietf-mile-template
   - kind: joined the IESG
     after_meeting: '89'
     after: '2014-03-02'
     by_meeting: '90'
     by: '2014-07-20'
+  - kind: shepherded
+    documents:
+    - draft-ietf-mile-rfc6046-bis
+    - draft-ietf-mile-template
 - person: 105785
   name: Nancy Cam-Winget
   status: confirmed
@@ -177,10 +164,6 @@ chairs:
     - date: '2016-07-17'
       subject: IETF 96 minutes in the proceedings
       url: https://www.ietf.org/proceedings/96/minutes/minutes-96-mile.txt
-  - kind: minutes without them
-    date: '2012-11-04'
-    subject: IETF 85 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/85/minutes/minutes-85-mile.txt
   - kind: shepherded
     documents:
     - draft-ietf-mile-iodef-guidance
@@ -193,13 +176,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-10-25'
-      not_before: '2011-09-21'
+      date: '2011-07-24'
     end:
       certainty: exact
       date: '2014-03-06'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2011-10-25)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2011-07-24)'
   - start:
       certainty: exact
       date: '2014-03-07'
@@ -264,10 +246,6 @@ chairs:
     - date: '2013-11-03'
       subject: IETF 88 proceedings charter
       url: https://www.ietf.org/proceedings/88/mile.html
-  - kind: minutes without them
-    date: '2016-07-17'
-    subject: IETF 96 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-mile.txt
   - kind: session requests
     meetings:
     - '83'
@@ -326,10 +304,6 @@ chairs:
     - date: '2016-07-17'
       subject: IETF 96 minutes in the proceedings
       url: https://www.ietf.org/proceedings/96/minutes/minutes-96-mile.txt
-  - kind: minutes without them
-    date: '2012-11-04'
-    subject: IETF 85 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/85/minutes/minutes-85-mile.txt
   - kind: shepherded
     documents:
     - draft-ietf-mile-implementreport

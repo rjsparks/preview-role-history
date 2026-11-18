@@ -24,8 +24,10 @@ chairs:
     end:
       certainty: between
       not_before: '2018-07-14'
+      not_after: '2018-09-26'
     notes:
-    - 'End: after the BOF''s last session, IETF 102 (2018-07-14)'
+    - 'End: the BOF met at IETF 102 (2018-07-14)'
+    - 'End: the group closed (2018-09-26)'
   evidence:
   - kind: BOF session
     meeting: '102'
@@ -38,12 +40,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2018-06-05'
-      not_before: '2018-06-05'
     end:
       certainty: between
-      not_before: '2018-07-14'
+      not_before: '2018-07-18'
+      not_after: '2018-09-26'
     notes:
-    - 'End: after the BOF''s last session, IETF 102 (2018-07-14)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2018-07-18)'
+    - 'End: the group closed (2018-09-26)'
   evidence:
   - kind: chair activity
     first: '2018-07-18'

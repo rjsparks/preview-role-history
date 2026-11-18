@@ -20,11 +20,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1998-02-09'
-      not_before: '1995-05-11'
+      date: '1995-04-03'
     end:
       certainty: group-closed
       date: '1998-02-09'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (1995-04-03)'
   evidence:
   - kind: proceedings
     listed_in: 6

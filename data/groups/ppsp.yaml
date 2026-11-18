@@ -5,10 +5,16 @@ parent: tsv
 state: conclude
 started: '2010-01-22'
 closed: '2016-01-13'
-bof: false
+bof: true
 never_chartered: false
 chartered: '2010-03-22'
-bof_sessions: []
+bof_sessions:
+- meeting: '76'
+  date: '2009-11-08'
+  url: https://datatracker.ietf.org/meeting/76/session/ppsp/
+- meeting: '77'
+  date: '2010-03-21'
+  url: https://datatracker.ietf.org/meeting/77/session/ppsp/
 history_url: https://datatracker.ietf.org/group/ppsp/history/
 chairs:
 - person: 103392
@@ -16,7 +22,7 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2012-03-27'
     end:
       certainty: exact
@@ -72,14 +78,6 @@ chairs:
     - date: '2013-03-10'
       subject: IETF 86 proceedings charter
       url: https://www.ietf.org/proceedings/86/ppsp.html
-  - kind: minutes without them
-    date: '2011-10-04'
-    subject: '[ppsp] Draft meeting minutes PPSP virtual interim meeting (Sept. 28th 2011)'
-    url: https://mailarchive.ietf.org/arch/msg/ppsp/aeliB_2RHvdaicwl4GEdG2vt0bk/
-  - kind: minutes without them
-    date: '2014-03-02'
-    subject: IETF 89 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/89/minutes/minutes-89-ppsp.txt
 - person: 103539
   name: Gonzalo Camarillo
   status: unconfirmed
@@ -92,7 +90,9 @@ chairs:
       not_before: '2009-12-02'
       not_after: '2010-03-23'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-03-23)'
+    - 'Start: listed as chair in meeting minutes (2009-08-05)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2009-12-02)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2010-03-23)'
   evidence:
   - kind: chair activity
     first: '2009-10-28'
@@ -122,9 +122,9 @@ chairs:
       subject: IETF 76 proceedings charter
       url: https://www.ietf.org/proceedings/76/ppsp.html
   - kind: minutes without them
-    date: '2011-07-24'
-    subject: IETF 81 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/81/minutes/ppsp.html
+    date: '2010-03-23'
+    subject: IETF 77 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/77/ppsp.html
   - kind: joined the IESG
     after_meeting: '77'
     after: '2010-03-21'
@@ -135,16 +135,17 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-11-07'
+      certainty: between
       not_before: '2010-01-22'
+      not_after: '2010-11-07'
     end:
       certainty: between
-      not_before: '2011-12-09'
-      not_after: '2012-03-25'
+      not_before: '2012-03-14'
+      not_after: '2012-07-29'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2012-03-25)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2012-03-14)'
+    - 'End: became an Area Director, first serving at IETF 84 (2012-07-29)'
   evidence:
   - kind: chair activity
     first: '2011-04-15'
@@ -194,23 +195,15 @@ chairs:
     - date: '2011-11-13'
       subject: IETF 82 proceedings charter
       url: https://www.ietf.org/proceedings/82/ppsp.html
-  - kind: minutes without them
-    date: '2009-08-05'
-    subject: '[ppsp] minutes of PPSP final Bar BOF'
-    url: https://mailarchive.ietf.org/arch/msg/ppsp/jYXtTgOR0y9ScPAOaR_aYB5RpNM/
-  - kind: minutes without them
-    date: '2012-11-04'
-    subject: IETF 85 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/85/minutes/minutes-85-ppsp.txt
-  - kind: session requests
-    meetings:
-    - '82'
-    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
   - kind: joined the IESG
     after_meeting: '83'
     after: '2012-03-25'
     by_meeting: '84'
     by: '2012-07-29'
+  - kind: session requests
+    meetings:
+    - '82'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
 - person: 105791
   name: Cullen Jennings
   status: unconfirmed
@@ -220,11 +213,12 @@ chairs:
       not_before: '2009-08-05'
       not_after: '2010-03-23'
     end:
-      certainty: approximate
+      certainty: announced
       date: '2011-03-28'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2009-08-05)'
+    - 'Start: named as chair in the WG Action announcement (2010-03-23)'
     - 'End: announced on the group''s list (2011-03-28)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2009-08-05)'
   evidence:
   - kind: WG Action
     date: '2010-03-23'
@@ -248,10 +242,6 @@ chairs:
     date: '2009-08-05'
     subject: '[ppsp] minutes of PPSP final Bar BOF'
     url: https://mailarchive.ietf.org/arch/msg/ppsp/jYXtTgOR0y9ScPAOaR_aYB5RpNM/
-  - kind: minutes without them
-    date: '2011-07-24'
-    subject: IETF 81 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/81/minutes/ppsp.html
   - kind: session requests
     meetings:
     - '78'
@@ -262,13 +252,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-03-23'
-      not_before: '2010-01-22'
+      date: '2009-08-05'
     end:
       certainty: group-closed
       date: '2016-01-13'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2010-03-23)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2009-08-05)'
   evidence:
   - kind: WG Action
     date: '2010-03-23'
@@ -330,21 +319,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: approximate
-      date: '2013-09-06'
+      certainty: on-or-before
+      date: '2009-08-05'
     end:
       certainty: group-closed
       date: '2016-01-13'
     notes:
-    - 'Start: announced on the group''s list (2013-09-06)'
+    - 'Start: listed as chair in meeting minutes (2009-08-05)'
   evidence:
-  - kind: list message
-    date: '2013-09-06'
-    says: start
-    subject: '[ppsp] New PPSP co-chair: Ning Zong'
-    url: https://mailarchive.ietf.org/arch/msg/ppsp/maYA2WIrQInFg67AQkmCSsHhKIE/
-    excerpt: 'Let me thank Stefano for his service as PPSP co-chair and welcome Ning Zong (email: as the
-      new co-chair!'
   - kind: chair activity
     first: '2013-11-25'
     last: '2015-03-09'

@@ -24,17 +24,13 @@ chairs:
     end:
       certainty: between
       not_before: '2000-12-10'
-      not_after: '2011-07-24'
+      not_after: '2003-12-10'
     notes:
     - 'Start: the BOF met at IETF 49 (2000-12-10)'
-    - 'End: became an Area Director, first serving at IETF 81 (2011-07-24)'
+    - 'End: the BOF met at IETF 49 (2000-12-10)'
+    - 'End: the group closed (2003-12-10)'
   evidence:
   - kind: BOF session
     meeting: '49'
     date: '2000-12-10'
     url: https://www.ietf.org/proceedings/49/00dec-37.htm
-  - kind: joined the IESG
-    after_meeting: '80'
-    after: '2011-03-27'
-    by_meeting: '81'
-    by: '2011-07-24'

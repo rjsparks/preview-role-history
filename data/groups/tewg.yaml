@@ -16,9 +16,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1999-09-29'
+      certainty: between
       not_before: '1999-09-14'
+      not_after: '1999-09-29'
     end:
       certainty: group-closed
       date: '2005-01-26'
@@ -58,9 +58,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2000-11-28'
+      certainty: between
       not_before: '1999-09-14'
+      not_after: '2000-11-28'
     end:
       certainty: group-closed
       date: '2005-01-26'
@@ -104,10 +104,11 @@ chairs:
       not_after: '1999-09-29'
     end:
       certainty: between
-      not_before: '2000-07-17'
+      not_before: '1999-09-29'
       not_after: '2000-11-28'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2000-11-28)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1999-09-29)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2000-11-28)'
   evidence:
   - kind: proceedings
     listed_in: 3
@@ -124,6 +125,6 @@ chairs:
       subject: IETF 48 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/48/00july-67.htm
   - kind: minutes without them
-    date: '2003-07-13'
-    subject: IETF 57 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/57/minutes/TEWG.TXT
+    date: '2000-11-28'
+    subject: IETF 49 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/49/00dec-73.htm

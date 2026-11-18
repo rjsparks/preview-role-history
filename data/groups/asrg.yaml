@@ -16,7 +16,7 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2003-11-13'
     end:
       certainty: group-closed
@@ -71,15 +71,18 @@ chairs:
     end:
       certainty: between
       not_before: '2012-02-26'
+      not_after: '2013-03-18'
+    notes:
+    - 'End: the group closed (2013-03-18)'
 - person: 106401
   name: Yakov Shafranovich
   status: unconfirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2003-08-22'
     end:
-      certainty: approximate
+      certainty: announced
       date: '2004-05-21'
     notes:
     - 'Start: announced on the group''s list (2003-08-22)'

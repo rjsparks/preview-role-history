@@ -20,13 +20,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-10-20'
-      not_before: '2003-08-04'
+      date: '2003-07-13'
     end:
       certainty: group-closed
       date: '2007-11-20'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2003-10-20)'
+    - 'Start: listed as chair in meeting minutes (2003-07-13)'
   evidence:
   - kind: WG Review
     date: '2006-09-19'
@@ -97,9 +96,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2003-10-20'
+      certainty: between
       not_before: '2003-08-04'
+      not_after: '2003-10-20'
     end:
       certainty: group-closed
       date: '2007-11-20'
@@ -153,10 +152,6 @@ chairs:
     - date: '2007-06-15'
       subject: IETF 69 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/69/mip6.html
-  - kind: minutes without them
-    date: '2003-07-13'
-    subject: IETF 57 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/57/minutes/mip6.htm
 - person: 104305
   name: Hesham Soliman
   status: unconfirmed
@@ -170,8 +165,10 @@ chairs:
       not_before: '2006-07-09'
       not_after: '2006-10-05'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2006-10-05)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2006-03-19)'
+    - 'Start: not listed among the chairs in meeting minutes (2006-03-19)'
+    - 'Start: listed as chair in meeting minutes (2006-07-09)'
+    - 'End: listed as chair in meeting minutes (2006-07-09)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2006-10-05)'
   evidence:
   - kind: minutes
     listed_in: 2
@@ -186,12 +183,12 @@ chairs:
       url: https://www.ietf.org/proceedings/66/minutes/mip6.txt
   - kind: minutes without them
     date: '2006-03-19'
-    subject: IETF 65 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/65/minutes/mip6.txt
+    subject: '[Mip6] Minutes of MIP6 WG meeting from IETF65'
+    url: https://mailarchive.ietf.org/arch/msg/mip6/3PbW1gYAN3nFsfzXZN_xz4M3XtM/
   - kind: minutes without them
-    date: '2006-11-05'
-    subject: '[Mip6] IETF67: MIP6 WG meeting minutes'
-    url: https://mailarchive.ietf.org/arch/msg/mip6/_VxKi5kkhnU48CtW67IMkB4jcNU/
+    date: '2006-10-05'
+    subject: IETF 67 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/67/mip6.html
 - person: 104886
   name: Vijay Devarapalli
   status: unconfirmed
@@ -205,8 +202,10 @@ chairs:
       not_before: '2006-07-09'
       not_after: '2006-10-05'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2006-10-05)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2006-03-19)'
+    - 'Start: not listed among the chairs in meeting minutes (2006-03-19)'
+    - 'Start: listed as chair in meeting minutes (2006-07-09)'
+    - 'End: listed as chair in meeting minutes (2006-07-09)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2006-10-05)'
   evidence:
   - kind: minutes
     listed_in: 2
@@ -221,12 +220,12 @@ chairs:
       url: https://www.ietf.org/proceedings/66/minutes/mip6.txt
   - kind: minutes without them
     date: '2006-03-19'
-    subject: IETF 65 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/65/minutes/mip6.txt
+    subject: '[Mip6] Minutes of MIP6 WG meeting from IETF65'
+    url: https://mailarchive.ietf.org/arch/msg/mip6/3PbW1gYAN3nFsfzXZN_xz4M3XtM/
   - kind: minutes without them
-    date: '2006-11-05'
-    subject: '[Mip6] IETF67: MIP6 WG meeting minutes'
-    url: https://mailarchive.ietf.org/arch/msg/mip6/_VxKi5kkhnU48CtW67IMkB4jcNU/
+    date: '2006-10-05'
+    subject: IETF 67 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/67/mip6.html
 - person: 108488
   name: Gabriel Montenegro
   status: unconfirmed
@@ -239,7 +238,9 @@ chairs:
       not_before: '2003-07-13'
       not_after: '2003-10-20'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2003-10-20)'
+    - 'Start: listed as chair in meeting minutes (2003-07-13)'
+    - 'End: listed as chair in meeting minutes (2003-07-13)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2003-10-20)'
   evidence:
   - kind: minutes
     listed_in: 3
@@ -256,6 +257,6 @@ chairs:
       subject: IETF 57 minutes in the proceedings
       url: https://www.ietf.org/proceedings/57/minutes/mip6.htm
   - kind: minutes without them
-    date: '2003-11-09'
-    subject: '[Mip6] IETF 58 Meeting minutes'
-    url: https://mailarchive.ietf.org/arch/msg/mip6/88lEgfA6cd0Zg9NOz5Be7-squew/
+    date: '2003-10-20'
+    subject: IETF 58 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/58/143.htm

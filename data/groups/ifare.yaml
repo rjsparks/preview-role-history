@@ -24,14 +24,12 @@ chairs:
     end:
       certainty: between
       not_before: '2007-03-18'
+      not_after: '2007-06-15'
     notes:
-    - 'End: after the BOF''s last session, IETF 68 (2007-03-18)'
     - 'Start: listed as chair in a proceedings charter snapshot (2007-01-22)'
+    - 'End: the BOF met at IETF 68 (2007-03-18)'
+    - 'End: the group closed (2007-06-15)'
   evidence:
-  - kind: BOF session
-    meeting: '68'
-    date: '2007-03-18'
-    url: https://datatracker.ietf.org/meeting/68/session/ifare/
   - kind: proceedings
     listed_in: 1
     first: '2007-01-22'
@@ -40,6 +38,10 @@ chairs:
     - date: '2007-01-22'
       subject: IETF 68 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/68/ifare.html
+  - kind: BOF session
+    meeting: '68'
+    date: '2007-03-18'
+    url: https://datatracker.ietf.org/meeting/68/session/ifare/
 - person: 107134
   name: Vidya Narayanan
   status: confirmed
@@ -49,15 +51,13 @@ chairs:
       date: '2007-01-22'
     end:
       certainty: between
-      not_before: '2007-03-18'
+      not_before: '2007-06-15'
+      not_after: '2007-06-15'
     notes:
-    - 'End: after the BOF''s last session, IETF 68 (2007-03-18)'
     - 'Start: listed as chair in a proceedings charter snapshot (2007-01-22)'
+    - 'End: requested the group''s session for IETF 69 (2007-07-22)'
+    - 'End: the group closed (2007-06-15)'
   evidence:
-  - kind: BOF session
-    meeting: '68'
-    date: '2007-03-18'
-    url: https://datatracker.ietf.org/meeting/68/session/ifare/
   - kind: proceedings
     listed_in: 1
     first: '2007-01-22'
@@ -66,6 +66,10 @@ chairs:
     - date: '2007-01-22'
       subject: IETF 68 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/68/ifare.html
+  - kind: BOF session
+    meeting: '68'
+    date: '2007-03-18'
+    url: https://datatracker.ietf.org/meeting/68/session/ifare/
   - kind: session requests
     meetings:
     - '69'

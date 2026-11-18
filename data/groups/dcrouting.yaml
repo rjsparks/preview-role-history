@@ -21,22 +21,18 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2017-10-05'
-      not_before: '2017-10-05'
     end:
-      certainty: approximate
-      date: '2024-03-20'
+      certainty: between
+      not_before: '2017-11-11'
+      not_after: '2018-02-05'
     notes:
-    - 'End: became an Area Director, per the datatracker''s IESG roles (2024-03-20)'
+    - 'End: the BOF met at IETF 100 (2017-11-11)'
+    - 'End: the group closed (2018-02-05)'
   evidence:
   - kind: BOF session
     meeting: '100'
     date: '2017-11-11'
     url: https://datatracker.ietf.org/meeting/100/session/dcrouting/
-  - kind: joined the IESG
-    after_meeting: '119'
-    after: '2024-03-16'
-    by_meeting: '120'
-    by: '2024-07-20'
 - person: 111493
   name: Victor Kuarsingh
   status: confirmed
@@ -44,12 +40,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2017-10-05'
-      not_before: '2017-10-05'
     end:
       certainty: between
       not_before: '2017-11-11'
+      not_after: '2018-02-05'
     notes:
-    - 'End: after the BOF''s last session, IETF 100 (2017-11-11)'
+    - 'End: the BOF met at IETF 100 (2017-11-11)'
+    - 'End: the group closed (2018-02-05)'
   evidence:
   - kind: BOF session
     meeting: '100'

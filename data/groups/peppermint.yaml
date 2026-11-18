@@ -27,9 +27,11 @@ chairs:
     end:
       certainty: between
       not_before: '2008-03-09'
+      not_after: '2008-04-23'
     notes:
-    - 'End: after the BOF''s last session, IETF 71 (2008-03-09)'
     - 'Start: listed as chair in a proceedings charter snapshot (2007-05-31)'
+    - 'End: the BOF met at IETF 71 (2008-03-09)'
+    - 'End: the group closed (2008-04-23)'
   evidence:
   - kind: chair activity
     first: '2007-12-11'
@@ -39,76 +41,6 @@ chairs:
     - date: '2007-12-11'
       subject: '[PEPPERMINT] PRELIMINARY meeting minutes from PEPPERMINT BOF'
       url: https://mailarchive.ietf.org/arch/msg/peppermint/nFMZsorwq2STePNrqD9pdKz4ZNA/
-  - kind: BOF session
-    meeting: '70'
-    date: '2007-12-02'
-    url: https://datatracker.ietf.org/meeting/70/session/peppermint/
-  - kind: BOF session
-    meeting: '71'
-    date: '2008-03-09'
-    url: https://datatracker.ietf.org/meeting/71/session/peppermint/
-  - kind: proceedings
-    listed_in: 2
-    first: '2007-05-31'
-    last: '2008-02-07'
-    examples:
-    - date: '2007-05-31'
-      subject: IETF 69 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/69/peppermint.html
-    - date: '2008-02-07'
-      subject: IETF 71 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/71/peppermint.html
-- person: 106296
-  name: Andy Newton
-  status: confirmed
-  periods:
-  - start:
-      certainty: on-or-before
-      date: '2007-05-31'
-    end:
-      certainty: approximate
-      date: '2025-03-19'
-    notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2007-05-31)'
-    - 'End: became an Area Director, per the datatracker''s IESG roles (2025-03-19)'
-  evidence:
-  - kind: BOF session
-    meeting: '70'
-    date: '2007-12-02'
-    url: https://datatracker.ietf.org/meeting/70/session/peppermint/
-  - kind: BOF session
-    meeting: '71'
-    date: '2008-03-09'
-    url: https://datatracker.ietf.org/meeting/71/session/peppermint/
-  - kind: proceedings
-    listed_in: 2
-    first: '2007-05-31'
-    last: '2008-02-07'
-    examples:
-    - date: '2007-05-31'
-      subject: IETF 69 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/69/peppermint.html
-    - date: '2008-02-07'
-      subject: IETF 71 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/71/peppermint.html
-  - kind: joined the IESG
-    after_meeting: '122'
-    after: '2025-03-15'
-    by_meeting: '123'
-    by: '2025-07-19'
-- person: 107710
-  name: Tom Creighton
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: evidence-only
-      not_after: '2007-12-02'
-    end:
-      certainty: between
-      not_before: '2008-03-09'
-    notes:
-    - 'End: after the BOF''s last session, IETF 71 (2008-03-09)'
-  evidence:
   - kind: minutes
     listed_in: 2
     first: '2007-12-02'
@@ -120,6 +52,17 @@ chairs:
     - date: '2007-12-02'
       subject: IETF 70 minutes in the proceedings
       url: https://www.ietf.org/proceedings/70/minutes/peppermint.txt
+  - kind: proceedings
+    listed_in: 2
+    first: '2007-05-31'
+    last: '2008-02-07'
+    examples:
+    - date: '2007-05-31'
+      subject: IETF 69 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/69/peppermint.html
+    - date: '2008-02-07'
+      subject: IETF 71 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/71/peppermint.html
   - kind: BOF session
     meeting: '70'
     date: '2007-12-02'
@@ -128,8 +71,43 @@ chairs:
     meeting: '71'
     date: '2008-03-09'
     url: https://datatracker.ietf.org/meeting/71/session/peppermint/
-- person: 108141
-  name: Richard Shockey
+- person: 106296
+  name: Andy Newton
+  status: confirmed
+  periods:
+  - start:
+      certainty: on-or-before
+      date: '2007-05-31'
+    end:
+      certainty: between
+      not_before: '2008-03-09'
+      not_after: '2008-04-23'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2007-05-31)'
+    - 'End: the BOF met at IETF 71 (2008-03-09)'
+    - 'End: the group closed (2008-04-23)'
+  evidence:
+  - kind: proceedings
+    listed_in: 2
+    first: '2007-05-31'
+    last: '2008-02-07'
+    examples:
+    - date: '2007-05-31'
+      subject: IETF 69 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/69/peppermint.html
+    - date: '2008-02-07'
+      subject: IETF 71 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/71/peppermint.html
+  - kind: BOF session
+    meeting: '70'
+    date: '2007-12-02'
+    url: https://datatracker.ietf.org/meeting/70/session/peppermint/
+  - kind: BOF session
+    meeting: '71'
+    date: '2008-03-09'
+    url: https://datatracker.ietf.org/meeting/71/session/peppermint/
+- person: 107710
+  name: Tom Creighton
   status: unconfirmed
   periods:
   - start:
@@ -138,8 +116,11 @@ chairs:
     end:
       certainty: between
       not_before: '2008-03-09'
+      not_after: '2008-04-23'
     notes:
-    - 'End: after the BOF''s last session, IETF 71 (2008-03-09)'
+    - 'Start: listed as chair in meeting minutes (2007-12-02)'
+    - 'End: the BOF met at IETF 71 (2008-03-09)'
+    - 'End: the group closed (2008-04-23)'
   evidence:
   - kind: minutes
     listed_in: 2

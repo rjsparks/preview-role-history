@@ -21,7 +21,6 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2013-06-20'
-      not_before: '2013-06-20'
     end:
       certainty: exact
       date: '2017-11-13'
@@ -76,10 +75,6 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/dnssd.html
-  - kind: minutes without them
-    date: '2018-03-17'
-    subject: '[dnssd] Draft minutes of IETF 101 WG meeting'
-    url: https://mailarchive.ietf.org/arch/msg/dnssd/tTUx7x2gtdLcHk81hPrTg8G7-lU/
 - person: 106461
   name: Tim Chown
   status: confirmed
@@ -87,7 +82,6 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2013-06-20'
-      not_before: '2013-06-20'
     end:
       certainty: exact
       date: '2018-10-02'
@@ -169,11 +163,6 @@ chairs:
     end:
       certainty: exact
       date: '2021-12-14'
-  evidence:
-  - kind: minutes without them
-    date: '2018-03-17'
-    subject: '[dnssd] Draft minutes of IETF 101 WG meeting'
-    url: https://mailarchive.ietf.org/arch/msg/dnssd/tTUx7x2gtdLcHk81hPrTg8G7-lU/
 - person: 119562
   name: David Schinazi
   status: confirmed
@@ -185,13 +174,6 @@ chairs:
       certainty: exact
       date: '2024-12-17'
   evidence:
-  - kind: list message
-    date: '2021-12-14'
-    says: end
-    subject: '[dnssd] Barbara is officially stepping down as homenet and dnssd chair'
-    url: https://mailarchive.ietf.org/arch/msg/dnssd/KXLYDCQjP-GSyJhcWMa63F_z3Yo/
-    excerpt: Barbara Stark just contacted me and the DNSSD chairs (David Schinazi and Chris Box) with
-      the message that she is ready to step down from her duties as the DNSSD co-chair.
   - kind: chair activity
     first: '2017-08-01'
     last: '2022-11-10'
@@ -283,13 +265,6 @@ chairs:
     subject: '[dnssd] Please welcome Chris Box as the new DNSSD WG co-chair'
     url: https://mailarchive.ietf.org/arch/msg/dnssd/QliSWb7fLbkV7DxICMUUuWA36Is/
     excerpt: Please welcome Chris Box as the 3rd co-chair for the DNSSD WG as of today.
-  - kind: list message
-    date: '2021-12-14'
-    says: end
-    subject: '[dnssd] Barbara is officially stepping down as homenet and dnssd chair'
-    url: https://mailarchive.ietf.org/arch/msg/dnssd/KXLYDCQjP-GSyJhcWMa63F_z3Yo/
-    excerpt: Barbara Stark just contacted me and the DNSSD chairs (David Schinazi and Chris Box) with
-      the message that she is ready to step down from her duties as the DNSSD co-chair.
   - kind: chair activity
     first: '2021-08-18'
     last: '2026-11-10'

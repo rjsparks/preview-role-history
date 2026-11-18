@@ -22,31 +22,12 @@ chairs:
       certainty: exact
       date: '2013-10-15'
     end:
-      certainty: between
-      not_before: '2013-11-03'
-    notes:
-    - 'End: after the BOF''s last session, IETF 88 (2013-11-03)'
+      certainty: group-closed
   evidence:
-  - kind: minutes
-    listed_in: 1
-    first: '2013-11-03'
-    last: '2013-11-03'
-    examples:
-    - date: '2013-11-03'
-      subject: IETF 88 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/88/minutes/minutes-88-perpass.txt
   - kind: BOF session
     meeting: '88'
     date: '2013-11-03'
     url: https://datatracker.ietf.org/meeting/88/session/perpass/
-  - kind: proceedings
-    listed_in: 1
-    first: '2013-11-03'
-    last: '2013-11-03'
-    examples:
-    - date: '2013-11-03'
-      subject: IETF 88 proceedings charter
-      url: https://www.ietf.org/proceedings/88/perpass.html
 - person: 19483
   name: Sean Turner
   status: confirmed
@@ -55,28 +36,9 @@ chairs:
       certainty: exact
       date: '2013-10-15'
     end:
-      certainty: between
-      not_before: '2013-11-03'
-    notes:
-    - 'End: after the BOF''s last session, IETF 88 (2013-11-03)'
+      certainty: group-closed
   evidence:
-  - kind: minutes
-    listed_in: 1
-    first: '2013-11-03'
-    last: '2013-11-03'
-    examples:
-    - date: '2013-11-03'
-      subject: IETF 88 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/88/minutes/minutes-88-perpass.txt
   - kind: BOF session
     meeting: '88'
     date: '2013-11-03'
     url: https://datatracker.ietf.org/meeting/88/session/perpass/
-  - kind: proceedings
-    listed_in: 1
-    first: '2013-11-03'
-    last: '2013-11-03'
-    examples:
-    - date: '2013-11-03'
-      subject: IETF 88 proceedings charter
-      url: https://www.ietf.org/proceedings/88/perpass.html

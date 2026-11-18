@@ -20,10 +20,11 @@ chairs:
       not_after: '1997-04-07'
     end:
       certainty: between
-      not_before: '1998-11-25'
+      not_before: '1997-04-07'
       not_after: '1999-02-16'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (1999-02-16)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (1999-02-16)'
   evidence:
   - kind: proceedings
     listed_in: 6
@@ -52,10 +53,11 @@ chairs:
       not_after: '2000-02-03'
     end:
       certainty: between
-      not_before: '2003-09-30'
+      not_before: '2000-02-03'
       not_after: '2004-02-10'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2004-02-10)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2000-02-03)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2004-02-10)'
   evidence:
   - kind: proceedings
     listed_in: 10
@@ -80,9 +82,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1999-02-16'
+      certainty: between
       not_before: '1996-10-07'
+      not_after: '1999-02-16'
     end:
       certainty: group-closed
       date: '2004-09-08'
@@ -108,9 +110,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2004-02-10'
+      certainty: between
       not_before: '1996-10-07'
+      not_after: '2004-02-10'
     end:
       certainty: group-closed
       date: '2004-09-08'
@@ -137,10 +139,11 @@ chairs:
       not_after: '1997-08-11'
     end:
       certainty: between
-      not_before: '1999-09-29'
+      not_before: '1997-08-11'
       not_after: '2000-02-03'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2000-02-03)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1997-08-11)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2000-02-03)'
   evidence:
   - kind: proceedings
     listed_in: 8

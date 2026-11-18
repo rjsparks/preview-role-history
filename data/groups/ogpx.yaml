@@ -19,10 +19,12 @@ chairs:
       certainty: on-or-before
       date: '2009-06-19'
     end:
-      certainty: group-closed
-      date: '2011-12-09'
+      certainty: between
+      not_before: '2009-06-19'
+      not_after: '2012-07-29'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2009-06-19)'
+    - 'End: became an Area Director, first serving at IETF 84 (2012-07-29)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -32,6 +34,11 @@ chairs:
     - date: '2009-06-19'
       subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/ogpx.html
+  - kind: joined the IESG
+    after_meeting: '83'
+    after: '2012-03-25'
+    by_meeting: '84'
+    by: '2012-07-29'
 - person: 104557
   name: Jon Peterson
   status: confirmed
@@ -41,7 +48,6 @@ chairs:
       date: '2009-06-19'
     end:
       certainty: group-closed
-      date: '2011-12-09'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2009-06-19)'
   evidence:
@@ -62,7 +68,6 @@ chairs:
       date: '2009-06-19'
     end:
       certainty: group-closed
-      date: '2011-12-09'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2009-06-19)'
   evidence:

@@ -24,12 +24,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2021-01-28'
-      not_before: '2021-01-28'
     end:
       certainty: between
       not_before: '2021-07-26'
+      not_after: '2021-10-07'
     notes:
-    - 'End: after the BOF''s last session, IETF 111 (2021-07-26)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2021-07-26)'
+    - 'End: the group closed (2021-10-07)'
   evidence:
   - kind: chair activity
     first: '2021-07-26'
@@ -54,12 +55,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2021-01-28'
-      not_before: '2021-01-28'
     end:
       certainty: between
       not_before: '2021-07-26'
+      not_after: '2021-10-07'
     notes:
-    - 'End: after the BOF''s last session, IETF 111 (2021-07-26)'
+    - 'End: the BOF met at IETF 111 (2021-07-26)'
+    - 'End: the group closed (2021-10-07)'
   evidence:
   - kind: BOF session
     meeting: '110'

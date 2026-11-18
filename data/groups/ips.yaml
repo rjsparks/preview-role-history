@@ -22,9 +22,10 @@ chairs:
       certainty: evidence-only
       not_after: '2000-08-10'
     end:
-      certainty: approximate
+      certainty: announced
       date: '2001-03-02'
     notes:
+    - 'Start: listed as chair in meeting minutes (2000-08-10)'
     - 'End: announced on the group''s list (2001-03-02)'
   evidence:
   - kind: WG Action
@@ -66,10 +67,13 @@ chairs:
       not_before: '2000-08-22'
       not_after: '2000-10-23'
     end:
-      certainty: evidence-only
-      not_before: '2005-06-27'
+      certainty: between
+      not_before: '2000-10-23'
+      not_after: '2007-11-01'
     notes:
-    - 'Start: not yet listed among the chairs in meeting minutes (2000-08-22)'
+    - 'Start: not listed among the chairs in meeting minutes (2000-08-22)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2000-10-23)'
+    - 'End: the group closed (2007-11-01)'
   evidence:
   - kind: proceedings
     listed_in: 15
@@ -95,13 +99,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2000-09-25'
-      not_before: '2000-08-30'
+      date: '2000-07-27'
     end:
       certainty: group-closed
       date: '2007-11-01'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2000-09-25)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2000-07-27)'
   evidence:
   - kind: WG Action
     date: '2000-09-25'

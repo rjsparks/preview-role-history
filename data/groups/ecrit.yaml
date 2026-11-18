@@ -56,7 +56,9 @@ chairs:
       not_before: '2004-11-07'
       not_after: '2005-02-09'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2005-02-09)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2004-10-28)'
+    - 'End: listed as chair in meeting minutes (2004-11-07)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2005-02-09)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -75,9 +77,9 @@ chairs:
       subject: IETF 61 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/61/ecrit.html
   - kind: minutes without them
-    date: '2005-07-31'
-    subject: IETF 63 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/63/minutes/ecrit.html
+    date: '2005-02-09'
+    subject: IETF 62 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/62/ecrit.html
 - person: 105857
   name: Hannes Tschofenig
   status: unconfirmed
@@ -90,7 +92,9 @@ chairs:
       not_before: '2010-03-21'
       not_after: '2010-03-30'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-03-30)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2004-10-28)'
+    - 'End: requested the group''s session for IETF 77 (2010-03-21)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2010-03-30)'
   evidence:
   - kind: WG Action
     date: '2005-02-09'
@@ -145,9 +149,9 @@ chairs:
       subject: IETF 76 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/76/ecrit.html
   - kind: minutes without them
-    date: '2012-11-04'
-    subject: '[Ecrit] IETF85 - Atlanta: ECRIT Minutes for 11/08/2012'
-    url: https://mailarchive.ietf.org/arch/msg/ecrit/GRmRaSPlfu_ZkbuzS1hUK75XJr0/
+    date: '2010-03-30'
+    subject: IETF 77 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/77/ecrit.html
   - kind: session requests
     meetings:
     - '70'
@@ -161,15 +165,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2005-02-09'
+      certainty: between
       not_before: '2004-11-07'
+      not_after: '2005-02-09'
     end:
       certainty: exact
       date: '2016-08-19'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2004-11-07)'
     - 'Start: named as chair in the WG Action announcement (2005-02-09)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2004-11-07)'
   evidence:
   - kind: WG Action
     date: '2005-02-09'
@@ -264,7 +268,7 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2012-04-20'
     end:
       certainty: exact
@@ -293,6 +297,20 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/ecrit/3td0314FMzxAWGrO6V7kUOLTSrs/
     excerpt: The time has come to complete the transition, and so we bid adieu to Roger as chair, and
       thank him for his service.
+  - kind: chair activity
+    first: '2013-01-29'
+    last: '2016-07-19'
+    messages: 8
+    examples:
+    - date: '2013-01-29'
+      subject: '[Ecrit] WGLC announce - draft-ietf-ecrit-psap-callback'
+      url: https://mailarchive.ietf.org/arch/msg/ecrit/_mBmtdy2cjNdgUg2nvt-L21ZVro/
+    - date: '2013-03-12'
+      subject: '[Ecrit] WGLC announce - draft-ietf-ecrit-unauthenticated-access'
+      url: https://mailarchive.ietf.org/arch/msg/ecrit/qIXO-yadux-PzIk-Q8IIjmBmu8M/
+    - date: '2013-07-15'
+      subject: '[Ecrit] WGLC announce - draft-ietf-ecrit-trustworthy-location'
+      url: https://mailarchive.ietf.org/arch/msg/ecrit/IPFYGC23luiLIAlU-Cl0G1ysSaY/
   - kind: minutes
     listed_in: 4
     first: '2012-11-04'
@@ -321,10 +339,6 @@ chairs:
     - date: '2016-07-17'
       subject: IETF 96 proceedings charter
       url: https://www.ietf.org/proceedings/96/ecrit.html
-  - kind: minutes without them
-    date: '2009-03-22'
-    subject: IETF 74 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/74/minutes/ecrit.txt
   - kind: shepherded
     documents:
     - draft-ietf-ecrit-held-routing
@@ -337,16 +351,16 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-03-30'
+      certainty: between
       not_before: '2009-03-22'
+      not_after: '2010-03-30'
     end:
-      certainty: approximate
+      certainty: announced
       date: '2012-05-14'
     notes:
-    - 'End: announced on the group''s list (2012-05-14)'
+    - 'Start: not listed among the chairs in meeting minutes (2009-03-22)'
     - 'Start: listed as chair in a proceedings charter snapshot (2010-03-30)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2009-03-22)'
+    - 'End: announced on the group''s list (2012-05-14)'
   evidence:
   - kind: list message
     date: '2012-05-14'
@@ -372,10 +386,6 @@ chairs:
     date: '2009-03-22'
     subject: IETF 74 minutes in the proceedings
     url: https://www.ietf.org/proceedings/74/minutes/ecrit.txt
-  - kind: minutes without them
-    date: '2012-11-04'
-    subject: '[Ecrit] IETF85 - Atlanta: ECRIT Minutes for 11/08/2012'
-    url: https://mailarchive.ietf.org/arch/msg/ecrit/GRmRaSPlfu_ZkbuzS1hUK75XJr0/
   - kind: session requests
     meetings:
     - '78'
@@ -421,10 +431,6 @@ chairs:
     - date: '2016-07-17'
       subject: IETF 96 proceedings charter
       url: https://www.ietf.org/proceedings/96/ecrit.html
-  - kind: minutes without them
-    date: '2016-04-03'
-    subject: IETF 95 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/95/minutes/minutes-95-ecrit.txt
   - kind: shepherded
     documents:
     - draft-ecrit-lost-planned-changes

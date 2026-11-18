@@ -11,46 +11,14 @@ chartered: '2010-08-31'
 bof_sessions: []
 history_url: https://datatracker.ietf.org/group/pcp/history/
 chairs:
-- person: 2348
-  name: Ralph Droms
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: between
-      not_before: '2011-11-13'
-      not_after: '2012-03-25'
-    end:
-      certainty: between
-      not_before: '2012-03-25'
-      not_after: '2012-07-29'
-    notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2012-07-29)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2011-11-13)'
-  evidence:
-  - kind: minutes
-    listed_in: 1
-    first: '2012-03-25'
-    last: '2012-03-25'
-    examples:
-    - date: '2012-03-25'
-      subject: IETF 83 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/83/minutes/minutes-83-pcp.txt
-  - kind: minutes without them
-    date: '2011-11-13'
-    subject: IETF 82 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/82/minutes/pcp.txt
-  - kind: minutes without them
-    date: '2012-07-29'
-    subject: IETF 84 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/84/minutes/minutes-84-pcp.txt
 - person: 15927
   name: Dave Thaler
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-07-25'
+      certainty: between
       not_before: '2010-07-09'
+      not_after: '2010-07-25'
     end:
       certainty: group-closed
       date: '2017-11-13'
@@ -131,8 +99,8 @@ chairs:
       certainty: group-closed
       date: '2017-11-13'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2012-07-29)'
     - 'Start: listed as chair in a proceedings charter snapshot (2012-11-04)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2012-07-29)'
   evidence:
   - kind: chair activity
     first: '2013-01-02'
@@ -193,17 +161,16 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-07-25'
+      certainty: between
       not_before: '2010-07-09'
+      not_after: '2010-07-25'
     end:
       certainty: between
-      not_before: '2012-07-29'
-      not_after: '2012-11-04'
+      not_before: '2012-10-17'
+      not_after: '2013-03-13'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2012-11-04)'
-    - 'End: listed as chair in meeting minutes (2012-07-29)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2012-10-17)'
   evidence:
   - kind: chair activity
     first: '2010-09-13'
@@ -244,10 +211,6 @@ chairs:
     - date: '2012-07-29'
       subject: IETF 84 proceedings charter
       url: https://www.ietf.org/proceedings/84/pcp.html
-  - kind: minutes without them
-    date: '2013-07-28'
-    subject: IETF 87 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/87/minutes/minutes-87-pcp.txt
   - kind: session requests
     meetings:
     - '79'

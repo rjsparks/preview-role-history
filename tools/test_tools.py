@@ -115,6 +115,30 @@ class ValidateTests(DataDirMixin, unittest.TestCase):
         self.write_group(group())
         self.assertTrue(any("person 1 needs `uuid`" in m for m in self.problems()))
 
+    def test_links_must_be_https(self):
+        g = group()
+        g["chairs"][0]["evidence"] = [{"kind": "list message", "url": "javascript:alert(1)"}]
+        g["chairs"][0]["sources"] = ["javascript:alert(2)"]
+        self.write_group(g)
+        self.assertEqual(sum("links must start with https://" in m for m in self.problems()), 2)
+
+    def test_ranges_and_starts_after_closing(self):
+        g = group(state="conclude", closed="2009-05-01")
+        g["chairs"][0]["periods"] = [{"start": {"certainty": "between", "not_before": "2010-07-25", "not_after": "2010-01-01"},
+                                       "end": {"certainty": "group-closed"}}]
+        self.write_group(g)
+        problems = self.problems()
+        self.assertTrue(any("`not_after` is before `not_before`" in m for m in problems))
+        self.assertTrue(any("starts after the group closed" in m for m in problems))
+
+    def test_rejections(self):
+        g = group(rejected=[{"person": 1, "sources": ["issue #5: never chaired it"]}])
+        self.write_group(g)
+        self.assertTrue(any("listed under `rejected`" in m for m in self.problems()))
+        g = group(rejected=[{"person": 2}])
+        self.write_group(g)
+        self.assertTrue(any("each `rejected` item needs" in m for m in self.problems()))
+
     def test_duplicate_person(self):
         g = group()
         g["chairs"].append(dict(g["chairs"][0]))
@@ -269,6 +293,30 @@ class ReseedTests(DataDirMixin, unittest.TestCase):
         kept = yaml.safe_load((self.data / "groups" / "abc.yaml").read_text())
         self.assertEqual(kept["chairs"][0]["status"], "contributed")
 
+    def test_confirmations_rejections_and_overrides_survive(self):
+        g = group(overrides={"bof": True}, rejected=[{"person": 9, "sources": ["issue #4"]}])
+        g["chairs"][0]["confirmations"] = ["issue #3"]
+        self.write_group(g)
+        newer = group(bof=False)
+        newer["chairs"][0]["periods"][0]["end"] = {"certainty": "exact", "date": "2020-01-01"}
+        newer["chairs"].append({"person": 9, "name": "Not Achair", "status": "unconfirmed",
+                                "periods": [{"start": {"certainty": "approximate", "date": "2001"}, "end": {"certainty": "approximate", "date": "2002"}}]})
+        self.assertEqual(reseed.reseed(self.seed([newer]), self.data), [])
+        kept = yaml.safe_load((self.data / "groups" / "abc.yaml").read_text())
+        self.assertTrue(kept["bof"])  # the override wins
+        self.assertEqual([c["person"] for c in kept["chairs"]], [1])  # the rejected candidate stays out
+        self.assertEqual(kept["chairs"][0]["confirmations"], ["issue #3"])
+        self.assertEqual(kept["chairs"][0]["periods"][0]["end"]["date"], "2020-01-01")  # still updates
+
+    def test_a_group_with_contributions_is_not_deleted(self):
+        g = group(acronym="old")
+        g["chairs"][0] = self.entry(1, "Ada Chair")
+        self.write_group(g)
+        notes = []
+        self.assertEqual(reseed.reseed(self.seed([group()]), self.data, notes), [])
+        self.assertTrue((self.data / "groups" / "old.yaml").exists())
+        self.assertTrue(any("kept for its contributions" in n for n in notes))
+
     def test_an_acronym_clash_writes_nothing(self):
         self.write_group(group(acronym="sip", name="Simple Internet Protocol", datatracker=False, sources=["x"]))
         clash = group(acronym="sip", name="Session Initiation Protocol")
@@ -299,8 +347,18 @@ class SourcesRequiredTests(DataDirMixin, unittest.TestCase):
         g["chairs"][0]["periods"][0]["start"]["date"] = "2011-05-06"
         self.write_group(g)
         self.commit()
-        self.assertEqual(len(self.sources_problems()), 1)
+        problems = [m for _, m in self.sources_problems()]
+        self.assertTrue(any("add a `sources` list" in m for m in problems))
+        self.assertTrue(any("set its `status` to `contributed`" in m for m in problems))  # or the next reseed drops it
         g["chairs"][0]["sources"] = ["https://mailarchive.ietf.org/arch/msg/ietf-announce/example"]
+        g["chairs"][0]["status"] = "contributed"
+        self.write_group(g)
+        self.commit()
+        self.assertEqual(self.sources_problems(), [])
+
+    def test_a_confirmation_is_not_a_change(self):
+        g = group()
+        g["chairs"][0]["confirmations"] = ["issue #3"]
         self.write_group(g)
         self.commit()
         self.assertEqual(self.sources_problems(), [])

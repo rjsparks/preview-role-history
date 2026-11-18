@@ -16,7 +16,7 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2012-02-10'
     end:
       certainty: exact
@@ -44,6 +44,14 @@ chairs:
     subject: '[Roll] New roll WG Co-Chair'
     url: https://mailarchive.ietf.org/arch/msg/roll/7lv0JLUcIGh8uP7kxb4dft1Krk0/
     excerpt: Michael has decided to step down as roll Co-Chair, a position he has held since 2012.
+  - kind: chair activity
+    first: '2013-09-04'
+    last: '2013-09-04'
+    messages: 1
+    examples:
+    - date: '2013-09-04'
+      subject: '[Roll] WGLC - Working Group Last Call - draft-ietf-roll-trickle-mcast-05'
+      url: https://mailarchive.ietf.org/arch/msg/roll/qmVkWRXdxShyihFbWvLX8yx-Yj8/
   - kind: proceedings
     listed_in: 6
     first: '2013-11-03'
@@ -58,10 +66,6 @@ chairs:
     - date: '2015-07-19'
       subject: IETF 93 proceedings charter
       url: https://www.ietf.org/proceedings/93/roll.html
-  - kind: minutes without them
-    date: '2011-07-24'
-    subject: IETF 81 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/81/minutes/roll.txt
   - kind: shepherded
     documents:
     - draft-ietf-roll-applicability-ami
@@ -107,10 +111,6 @@ chairs:
     - date: '2019-03-26'
       subject: '[Roll] WG last call draft-ietf-roll-aodv-rpl-06'
       url: https://mailarchive.ietf.org/arch/msg/roll/mivTsAMq2EJowcZIDzFfqI_Lddg/
-  - kind: minutes without them
-    date: '2011-07-24'
-    subject: IETF 81 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/81/minutes/roll.txt
   - kind: shepherded
     documents:
     - draft-ietf-roll-efficient-npdao
@@ -120,9 +120,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2008-02-15'
+      certainty: between
       not_before: '2007-12-26'
+      not_after: '2008-02-15'
     end:
       certainty: exact
       date: '2013-12-05'
@@ -195,29 +195,16 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2008-02-15'
+      certainty: between
       not_before: '2007-12-26'
+      not_after: '2008-02-15'
     end:
-      certainty: approximate
-      date: '2012-02-10'
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2013-10-03'
     notes:
-    - 'End: announced on the group''s list (2012-02-10)'
     - 'Start: listed as chair in a proceedings charter snapshot (2008-02-15)'
   evidence:
-  - kind: list message
-    date: '2012-02-10'
-    says: end
-    subject: '[Roll] Planned change in ROLL co-chair'
-    url: https://mailarchive.ietf.org/arch/msg/roll/yd4dBV7je8ZNuWVX8a3KZanHhoY/
-    excerpt: After providing years helping to lead the working group, David Culler has decided it is time
-      to step down as co-chair.
-  - kind: list message
-    date: '2012-02-10'
-    says: start
-    subject: '[Roll] Planned change in ROLL co-chair'
-    url: https://mailarchive.ietf.org/arch/msg/roll/yd4dBV7je8ZNuWVX8a3KZanHhoY/
-    excerpt: I know you will join with me in thanking David for his expert guidance.
   - kind: chair activity
     first: '2010-09-16'
     last: '2010-09-16'
@@ -286,10 +273,6 @@ chairs:
     - date: '2022-01-17'
       subject: '[Roll] Call for adoption of " RNFD: Fast border router crash detection in RPL"'
       url: https://mailarchive.ietf.org/arch/msg/roll/U2Xec1ipWWaensFHYHMXndcHCNc/
-  - kind: minutes without them
-    date: '2011-07-24'
-    subject: IETF 81 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/81/minutes/roll.txt
   - kind: shepherded
     documents:
     - draft-ietf-roll-nsa-extension
@@ -319,20 +302,20 @@ chairs:
     date: '2025-01-30'
     subject: 'WG Action: Rechartered Routing Over Low power and Lossy networks (roll)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/v79CSHFYas2R6xnpJfJUEpdGnqs/
-  - kind: list message
-    date: '2013-11-26'
-    says: start
-    subject: '[Roll] Working group chairs'
-    url: https://mailarchive.ietf.org/arch/msg/roll/rY8vZ4OotI5AzsZC-xRDRye3i4w/
-    excerpt: At this stage in the WG's work cycle this is exactly the set of skills we need push the remaining
-      documents forward and to make sure that all of the issues are tracked correctly, so I am happy to
-      appoint Ines as the new co-chair of ROLL to work alongside Michael Richardson.
-  - kind: list message
-    date: '2013-11-26'
-    says: end
-    subject: '[Roll] Working group chairs'
-    url: https://mailarchive.ietf.org/arch/msg/roll/rY8vZ4OotI5AzsZC-xRDRye3i4w/
-    excerpt: Many thanks to JP for his work, and good luck to Ines.
+  - kind: chair activity
+    first: '2014-02-11'
+    last: '2025-07-07'
+    messages: 22
+    examples:
+    - date: '2014-02-11'
+      subject: '[Roll] Wg adoption call for draft-roll-mpl-parameter-configuration'
+      url: https://mailarchive.ietf.org/arch/msg/roll/-JgrmW1BmIASg_lfOoalfz5jJ4E/
+    - date: '2014-03-20'
+      subject: '[Roll] WG Call for Adoption: draft-vanderstok-roll-admin-local-policy'
+      url: https://mailarchive.ietf.org/arch/msg/roll/TWOdM6oAPCU1AAnupe-VIwu9FzM/
+    - date: '2014-07-29'
+      subject: '[Roll] WGLC for draft-thubert-6man-flow-label-for-rpl-03'
+      url: https://mailarchive.ietf.org/arch/msg/roll/pk6SPBXCPQM3XXCex3TWX9pBsM8/
   - kind: proceedings
     listed_in: 6
     first: '2013-11-03'

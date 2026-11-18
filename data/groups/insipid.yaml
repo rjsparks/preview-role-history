@@ -21,12 +21,12 @@ chairs:
       not_after: '2015-03-26'
     end:
       certainty: between
-      not_before: '2012-02-23'
-      not_after: '2015-03-26'
+      not_before: '2015-03-26'
+      not_after: '2018-10-02'
   - start:
-      certainty: between
+      certainty: on-or-before
+      date: '2015-03-26'
       not_before: '2012-02-23'
-      not_after: '2015-03-26'
     end:
       certainty: group-closed
       date: '2018-10-02'
@@ -81,16 +81,24 @@ chairs:
   - start:
       certainty: between
       not_before: '2012-02-23'
-      not_after: '2015-03-26'
+      not_after: '2012-03-19'
     end:
       certainty: between
-      not_before: '2012-02-23'
-      not_after: '2015-03-26'
+      not_before: '2012-03-19'
+      not_after: '2012-11-04'
+    notes:
+    - 'Start: named as chair in the WG Action announcement (2012-03-19)'
+    - 'End: named as chair in the WG Action announcement (2012-03-19)'
+    - 'End: not listed among the chairs in meeting minutes (2012-11-04)'
   evidence:
   - kind: WG Action
     date: '2012-03-19'
     subject: 'WG Action: INtermediary-safe SIP session ID (insipid)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/TYngI2kssJfGqBecN8DoQ_yJulM/
+  - kind: minutes without them
+    date: '2012-11-04'
+    subject: IETF 85 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/85/minutes/minutes-85-insipid.txt
 - person: 110842
   name: Gonzalo Salgueiro
   status: confirmed

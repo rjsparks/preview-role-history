@@ -5,10 +5,13 @@ parent: rai
 state: conclude
 started: '2007-01-05'
 closed: '2013-10-28'
-bof: false
+bof: true
 never_chartered: false
 chartered: '2007-02-22'
-bof_sessions: []
+bof_sessions:
+- meeting: '67'
+  date: '2006-11-05'
+  url: https://datatracker.ietf.org/meeting/67/session/mediactrl/
 history_url: https://datatracker.ietf.org/group/mediactrl/history/
 chairs:
 - person: 15979
@@ -16,15 +19,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-03-21'
+      certainty: between
       not_before: '2008-07-27'
+      not_after: '2010-03-21'
     end:
       certainty: group-closed
       date: '2013-10-28'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2008-07-27)'
     - 'Start: listed as chair in a proceedings charter snapshot (2010-03-21)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2008-07-27)'
   evidence:
   - kind: proceedings
     listed_in: 11
@@ -53,13 +56,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2007-03-18'
-      not_before: '2007-01-05'
+      date: '2006-09-28'
     end:
       certainty: group-closed
       date: '2013-10-28'
     notes:
-    - 'Start: requested the group''s session for IETF 68 (2007-03-18)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2006-09-28)'
   evidence:
   - kind: chair activity
     first: '2006-11-14'
@@ -118,7 +120,7 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2007-05-02'
     end:
       certainty: between
@@ -126,7 +128,8 @@ chairs:
       not_after: '2010-05-18'
     notes:
     - 'Start: announced on the group''s list (2007-05-02)'
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-05-18)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2010-04-22)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2010-05-18)'
   evidence:
   - kind: list message
     date: '2007-05-02'

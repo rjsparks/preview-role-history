@@ -5,10 +5,13 @@ parent: tsv
 state: conclude
 started: '2009-04-27'
 closed: '2016-02-24'
-bof: false
+bof: true
 never_chartered: false
 chartered: '2009-08-04'
-bof_sessions: []
+bof_sessions:
+- meeting: '74'
+  date: '2009-03-22'
+  url: https://datatracker.ietf.org/meeting/74/session/storm/
 history_url: https://datatracker.ietf.org/group/storm/history/
 chairs:
 - person: 8209
@@ -16,9 +19,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2009-07-26'
+      certainty: between
       not_before: '2009-04-27'
+      not_after: '2009-07-26'
     end:
       certainty: group-closed
       date: '2016-02-24'
@@ -81,13 +84,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2009-08-04'
-      not_before: '2009-04-27'
+      date: '2009-03-22'
     end:
       certainty: group-closed
       date: '2016-02-24'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2009-08-04)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2009-03-22)'
   evidence:
   - kind: WG Action
     date: '2009-08-04'

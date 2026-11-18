@@ -27,8 +27,9 @@ chairs:
       not_before: '2005-07-31'
       not_after: '2006-01-13'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2006-01-13)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2005-03-06)'
+    - 'Start: not listed among the chairs in meeting minutes (2005-03-06)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2005-07-31)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2006-01-13)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -43,15 +44,15 @@ chairs:
     subject: IETF 62 minutes in the proceedings
     url: https://www.ietf.org/proceedings/62/minutes/netconf.html
   - kind: minutes without them
-    date: '2006-03-19'
-    subject: IETF 65 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/65/minutes/netconf.html
+    date: '2006-01-13'
+    subject: IETF 65 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/65/netconf.html
 - person: 6842
   name: Bert Wijnen
   status: confirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2008-01-09'
     end:
       certainty: exact
@@ -148,10 +149,6 @@ chairs:
     - date: '2014-03-02'
       subject: IETF 89 proceedings charter
       url: https://www.ietf.org/proceedings/89/netconf.html
-  - kind: minutes without them
-    date: '2006-08-13'
-    subject: 'Draft: Montreal NETCONF Interim Meeting Minutes'
-    url: https://mailarchive.ietf.org/arch/msg/netconf/HcHZO0NHsm9snOEAtKZB1On3KV0/
 - person: 8244
   name: Andy Bierman
   status: unconfirmed
@@ -164,7 +161,9 @@ chairs:
       not_before: '2011-02-13'
       not_after: '2011-03-27'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-03-27)'
+    - 'Start: named as chair in the WG Action announcement (2003-05-23)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2011-02-13)'
+    - 'End: not listed among the chairs in meeting minutes (2011-03-27)'
   evidence:
   - kind: WG Action
     date: '2003-05-23'
@@ -241,15 +240,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2008-03-09'
+      certainty: between
       not_before: '2006-08-13'
+      not_after: '2008-03-09'
     end:
       certainty: exact
       date: '2017-07-27'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2006-08-13)'
     - 'Start: requested the group''s session for IETF 71 (2008-03-09)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2006-08-13)'
   evidence:
   - kind: WG Review
     date: '2009-01-15'
@@ -361,6 +360,17 @@ chairs:
   status: confirmed
   periods:
   - start:
+      certainty: between
+      not_before: '2011-07-24'
+      not_after: '2014-07-20'
+    end:
+      certainty: between
+      not_before: '2014-07-20'
+      not_after: '2014-11-13'
+    notes:
+    - 'Start: not listed among the chairs in meeting minutes (2011-07-24)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
+  - start:
       certainty: exact
       date: '2014-11-13'
     end:
@@ -421,6 +431,11 @@ chairs:
     date: '2011-07-24'
     subject: IETF 81 minutes in the proceedings
     url: https://www.ietf.org/proceedings/81/minutes/netconf.txt
+  - kind: joined the IESG
+    after_meeting: '119'
+    after: '2024-03-16'
+    by_meeting: '120'
+    by: '2024-07-20'
   - kind: shepherded
     documents:
     - draft-ietf-netconf-call-home
@@ -434,11 +449,6 @@ chairs:
     - draft-ietf-netconf-yang-library
     - draft-ietf-netconf-yang-patch
     - draft-ietf-netconf-zerotouch
-  - kind: joined the IESG
-    after_meeting: '119'
-    after: '2024-03-16'
-    by_meeting: '120'
-    by: '2024-07-20'
 - person: 112548
   name: Kent Watsen
   status: confirmed
@@ -499,9 +509,10 @@ chairs:
       certainty: evidence-only
       not_after: '2003-05-23'
     end:
-      certainty: approximate
+      certainty: announced
       date: '2008-01-10'
     notes:
+    - 'Start: named as chair in the WG Action announcement (2003-05-23)'
     - 'End: announced on the group''s list (2008-01-10)'
   evidence:
   - kind: WG Action
@@ -562,10 +573,6 @@ chairs:
     - date: '2007-03-08'
       subject: IETF 68 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/68/netconf.html
-  - kind: minutes without them
-    date: '2008-03-09'
-    subject: IETF 71 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/71/minutes/netconf.txt
   - kind: session requests
     meetings:
     - '70'
@@ -588,6 +595,20 @@ chairs:
     date: '2026-10-09'
     subject: 'WG Action: Rechartered Network Configuration (netconf)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/QmLV1QpwRO14wPGIQ_WinFdTGhI/
+  - kind: chair activity
+    first: '2025-01-30'
+    last: '2025-06-11'
+    messages: 3
+    examples:
+    - date: '2025-01-30'
+      subject: '[netconf] WGLC for udp-notif'
+      url: https://mailarchive.ietf.org/arch/msg/netconf/GwQ5KyshDl_3ojnDDD7MQANQILs/
+    - date: '2025-02-06'
+      subject: '[netconf] WGLC for udp-client-server'
+      url: https://mailarchive.ietf.org/arch/msg/netconf/fa95BE_szTIY0ja5hf7ifhnH5oA/
+    - date: '2025-06-11'
+      subject: '[netconf] WGLC on yang-library-augmentedby'
+      url: https://mailarchive.ietf.org/arch/msg/netconf/0peRjEqtbzSyfLRs8yqPxkodKGM/
   - kind: shepherded
     documents:
     - draft-ietf-netconf-restconf-trace-ctx-headers

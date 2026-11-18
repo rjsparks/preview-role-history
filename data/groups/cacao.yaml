@@ -24,8 +24,10 @@ chairs:
     end:
       certainty: between
       not_before: '2019-03-23'
+      not_after: '2019-10-09'
     notes:
-    - 'End: after the BOF''s last session, IETF 104 (2019-03-23)'
+    - 'End: the BOF met at IETF 104 (2019-03-23)'
+    - 'End: the group closed (2019-10-09)'
   evidence:
   - kind: BOF session
     meeting: '104'
@@ -39,17 +41,14 @@ chairs:
       certainty: exact
       date: '2019-02-25'
     end:
-      certainty: approximate
-      date: '2026-03-18'
+      certainty: between
+      not_before: '2019-03-23'
+      not_after: '2019-10-09'
     notes:
-    - 'End: became an Area Director, per the datatracker''s IESG roles (2026-03-18)'
+    - 'End: the BOF met at IETF 104 (2019-03-23)'
+    - 'End: the group closed (2019-10-09)'
   evidence:
   - kind: BOF session
     meeting: '104'
     date: '2019-03-23'
     url: https://datatracker.ietf.org/meeting/104/session/cacao/
-  - kind: joined the IESG
-    after_meeting: '125'
-    after: '2026-03-14'
-    by_meeting: '126'
-    by: '2026-07-18'

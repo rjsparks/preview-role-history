@@ -19,15 +19,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2009-04-02'
+      certainty: between
       not_before: '2008-11-16'
+      not_after: '2009-04-02'
     end:
       certainty: group-closed
       date: '2012-03-06'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2008-11-16)'
     - 'Start: listed as chair in a proceedings charter snapshot (2009-04-02)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2008-11-16)'
   evidence:
   - kind: WG Review
     date: '2010-11-30'
@@ -93,13 +93,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-10-25'
-      not_before: '2005-06-15'
+      date: '2005-02-09'
     end:
       certainty: group-closed
       date: '2012-03-06'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2005-10-25)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2005-02-09)'
   evidence:
   - kind: WG Action
     date: '2005-10-25'
@@ -167,7 +166,9 @@ chairs:
       not_before: '2008-11-16'
       not_after: '2009-04-02'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-04-02)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2005-02-09)'
+    - 'End: requested the group''s session for IETF 73 (2008-11-16)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2009-04-02)'
   evidence:
   - kind: WG Action
     date: '2005-10-25'
@@ -216,9 +217,9 @@ chairs:
       subject: IETF 71 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/71/autoconf.html
   - kind: minutes without them
-    date: '2009-07-26'
-    subject: '[Autoconf] Updated IETF 75 meeting minutes'
-    url: https://mailarchive.ietf.org/arch/msg/autoconf/inxzUlka3H3odtZSi98vm3iDOSA/
+    date: '2009-04-02'
+    subject: IETF 74 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/74/autoconf.html
   - kind: session requests
     meetings:
     - '65'

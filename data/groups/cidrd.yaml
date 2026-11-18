@@ -16,9 +16,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1994-03-28'
+      certainty: between
       not_before: '1994-03-08'
+      not_after: '1994-03-28'
     end:
       certainty: group-closed
       date: '1996-12-19'
@@ -57,9 +57,11 @@ chairs:
     end:
       certainty: between
       not_before: '1995-01-02'
-      not_after: '1995-04-03'
+      not_after: '1996-12-19'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (1995-04-03)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (1993-07-27)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (1995-01-02)'
+    - 'End: the group closed (1996-12-19)'
   evidence:
   - kind: chair activity
     first: '1993-07-27'
@@ -94,18 +96,14 @@ chairs:
     - date: '1994-12-05'
       subject: IETF 31 proceedings charter
       url: https://www.ietf.org/proceedings/31/area.and.wg.reports/ops/cidrd/cidrd-charter.txt
-  - kind: minutes without them
-    date: '1995-04-03'
-    subject: IETF 32 proceedings charter
-    url: https://www.ietf.org/proceedings/32/area.and.wg.reports/ops/cidrd/cidrd-charter.txt
 - person: 4475
   name: Tony Li
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1994-12-05'
+      certainty: between
       not_before: '1994-03-08'
+      not_after: '1994-12-05'
     end:
       certainty: group-closed
       date: '1996-12-19'

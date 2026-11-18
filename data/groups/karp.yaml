@@ -5,10 +5,16 @@ parent: rtg
 state: conclude
 started: '2010-01-29'
 closed: '2014-05-30'
-bof: false
+bof: true
 never_chartered: false
 chartered: '2010-02-23'
-bof_sessions: []
+bof_sessions:
+- meeting: '71'
+  date: '2008-03-09'
+  url: https://datatracker.ietf.org/meeting/71/session/karp/
+- meeting: '76'
+  date: '2009-11-08'
+  url: https://datatracker.ietf.org/meeting/76/session/karp/
 history_url: https://datatracker.ietf.org/group/karp/history/
 chairs:
 - person: 3862
@@ -17,13 +23,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-02-23'
-      not_before: '2010-01-29'
+      date: '2009-11-08'
     end:
       certainty: group-closed
       date: '2014-05-30'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2010-02-23)'
+    - 'Start: listed as chair in meeting minutes (2009-11-08)'
   evidence:
   - kind: WG Action
     date: '2010-02-23'
@@ -60,7 +65,7 @@ chairs:
   - kind: proceedings
     listed_in: 14
     first: '2009-11-08'
-    last: '2014-07-20'
+    last: '2014-05-30'
     examples:
     - date: '2009-11-08'
       subject: IETF 76 proceedings charter
@@ -68,7 +73,7 @@ chairs:
     - date: '2010-02-23'
       subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/karp.html
-    - date: '2014-07-20'
+    - date: '2014-05-30'
       subject: IETF 90 proceedings charter
       url: https://www.ietf.org/proceedings/90/karp.html
   - kind: session requests
@@ -84,13 +89,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-02-23'
-      not_before: '2010-01-29'
+      date: '2009-11-08'
     end:
       certainty: group-closed
       date: '2014-05-30'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2010-02-23)'
+    - 'Start: listed as chair in meeting minutes (2009-11-08)'
   evidence:
   - kind: WG Action
     date: '2010-02-23'
@@ -133,7 +137,7 @@ chairs:
   - kind: proceedings
     listed_in: 14
     first: '2009-11-08'
-    last: '2014-07-20'
+    last: '2014-05-30'
     examples:
     - date: '2009-11-08'
       subject: IETF 76 proceedings charter
@@ -141,7 +145,7 @@ chairs:
     - date: '2010-02-23'
       subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/karp.html
-    - date: '2014-07-20'
+    - date: '2014-05-30'
       subject: IETF 90 proceedings charter
       url: https://www.ietf.org/proceedings/90/karp.html
   - kind: session requests

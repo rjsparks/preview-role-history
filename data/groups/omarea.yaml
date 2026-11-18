@@ -19,8 +19,11 @@ chairs:
       certainty: on-or-before
       date: '1997-01-01'
     end:
-      certainty: group-closed
-      date: '1997-01-01'
+      certainty: between
+      not_before: '1997-01-01'
+      not_after: '1997-01-01'
+    notes:
+    - 'End: the group closed (1997-01-01)'
   evidence:
   - kind: joined the IESG
     after_meeting: '37'
@@ -35,8 +38,11 @@ chairs:
       certainty: on-or-before
       date: '1997-01-01'
     end:
-      certainty: group-closed
-      date: '1997-01-01'
+      certainty: between
+      not_before: '1997-01-01'
+      not_after: '1997-01-01'
+    notes:
+    - 'End: the group closed (1997-01-01)'
 - person: 4817
   name: Michael O'Dell
   status: confirmed
@@ -45,5 +51,8 @@ chairs:
       certainty: on-or-before
       date: '1997-01-01'
     end:
-      certainty: group-closed
-      date: '1997-01-01'
+      certainty: between
+      not_before: '1997-01-01'
+      not_after: '1997-01-01'
+    notes:
+    - 'End: the group closed (1997-01-01)'

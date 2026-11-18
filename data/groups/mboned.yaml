@@ -22,9 +22,10 @@ chairs:
       certainty: evidence-only
       not_after: '2006-03-13'
     end:
-      certainty: approximate
+      certainty: announced
       date: '2009-01-27'
     notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2006-03-13)'
     - 'End: announced on the group''s list (2009-01-27)'
   evidence:
   - kind: list message
@@ -81,10 +82,6 @@ chairs:
     - date: '2007-12-17'
       subject: IETF 71 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/71/mboned.html
-  - kind: minutes without them
-    date: '2009-03-22'
-    subject: IETF 74 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/74/minutes/mboned.txt
   - kind: session requests
     meetings:
     - '67'
@@ -106,7 +103,9 @@ chairs:
       not_before: '2006-03-19'
       not_after: '2006-11-05'
     notes:
-    - 'End: no longer listed among the chairs in meeting minutes (2006-11-05)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
+    - 'End: requested the group''s session for IETF 65 (2006-03-19)'
+    - 'End: not listed among the chairs in meeting minutes (2006-11-05)'
   evidence:
   - kind: WG Action
     date: '2004-01-14'
@@ -153,12 +152,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2009-01-28'
-      not_before: '1996-08-26'
+      certainty: between
+      not_before: '2008-11-16'
+      not_after: '2009-01-28'
     end:
       certainty: ongoing
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2008-11-16)'
     - 'Start: listed as chair in a proceedings charter snapshot (2009-01-28)'
   evidence:
   - kind: WG Review
@@ -222,6 +222,10 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/mboned.html
+  - kind: minutes without them
+    date: '2008-11-16'
+    subject: IETF 73 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/73/minutes/mboned.txt
   - kind: session requests
     meetings:
     - '81'
@@ -235,12 +239,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: approximate
-      date: '2009-01-27'
+      certainty: between
+      not_before: '2008-11-16'
+      not_after: '2009-01-28'
     end:
       certainty: ongoing
     notes:
-    - 'Start: announced on the group''s list (2009-01-27)'
+    - 'Start: not listed among the chairs in meeting minutes (2008-11-16)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2009-01-28)'
   evidence:
   - kind: WG Review
     date: '2013-09-23'
@@ -258,12 +264,6 @@ chairs:
     date: '2025-07-10'
     subject: 'WG Action: Rechartered MBONE Deployment (mboned)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Vk9mG6n0o33z2W2tXEZOtNuv6h4/
-  - kind: list message
-    date: '2009-01-27'
-    says: start
-    subject: '[MBONED] MBONED Chairs'
-    url: https://mailarchive.ietf.org/arch/msg/mboned/etXNGe27sjUI_LAEJXhpD88A0T4/
-    excerpt: Marshal Eubanks will continues as co-chairs, joined by Greg Shepard and Lenny Giulano.
   - kind: chair activity
     first: '2010-03-04'
     last: '2025-01-23'
@@ -309,6 +309,10 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/mboned.html
+  - kind: minutes without them
+    date: '2008-11-16'
+    subject: IETF 73 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/73/minutes/mboned.txt
   - kind: session requests
     meetings:
     - '77'
@@ -328,7 +332,9 @@ chairs:
       not_before: '2010-03-21'
       not_after: '2010-03-30'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-03-30)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2006-03-13)'
+    - 'End: listed as chair in meeting minutes (2010-03-21)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2010-03-30)'
   evidence:
   - kind: chair activity
     first: '2009-10-09'

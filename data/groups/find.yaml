@@ -16,9 +16,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1995-12-04'
+      certainty: between
       not_before: '1995-10-17'
+      not_after: '1995-12-04'
     end:
       certainty: group-closed
       date: '1999-08-17'
@@ -44,20 +44,21 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1995-12-04'
+      certainty: between
       not_before: '1995-10-17'
+      not_after: '1995-12-04'
     end:
-      certainty: on-or-before
-      date: '1998-03-30'
+      certainty: between
+      not_before: '1995-12-04'
+      not_after: '1998-03-30'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1995-12-04)'
     - 'End: became an Area Director, first serving at IETF 41 (1998-03-30)'
   evidence:
   - kind: proceedings
-    listed_in: 6
+    listed_in: 5
     first: '1995-12-04'
-    last: '1998-04-07'
+    last: '1998-01-20'
     examples:
     - date: '1995-12-04'
       subject: IETF 34 proceedings charter
@@ -65,9 +66,9 @@ chairs:
     - date: '1997-04-07'
       subject: IETF 38 proceedings charter
       url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr12.htm
-    - date: '1998-04-07'
-      subject: IETF 42 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/42/98aug-13.htm
+    - date: '1998-01-20'
+      subject: IETF 41 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/41/98mar-edited-14.htm
   - kind: joined the IESG
     after_meeting: '40'
     after: '1997-12-08'

@@ -74,10 +74,6 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/quic.html
-  - kind: minutes without them
-    date: '2016-07-17'
-    subject: IETF 96 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-quic.txt
   - kind: shepherded
     documents:
     - draft-ietf-quic-invariants
@@ -146,13 +142,6 @@ chairs:
     date: '2021-03-26'
     subject: 'WG Action: Rechartered QUIC (quic)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/YTbD6oGF506rFVrHr3X4Ln5KcQs/
-  - kind: list message
-    date: '2021-01-20'
-    says: start
-    subject: Appointing new QUIC WG chair
-    url: https://mailarchive.ietf.org/arch/msg/quic/xRk1D3LX-xcnF39zUElR-_YRb2g/
-    excerpt: In preparation for Lars Eggert having less time to do WG chairing as IETF chair, I am appointing
-      a new WG chair.
   - kind: chair activity
     first: '2020-02-04'
     last: '2020-11-04'
@@ -186,19 +175,31 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/quic.html
-  - kind: shepherded
-    documents:
-    - draft-ietf-quic-recovery
-    - draft-ietf-quic-transport
   - kind: joined the IESG
     after_meeting: '110'
     after: '2021-03-08'
     by_meeting: '111'
     by: '2021-07-26'
+  - kind: shepherded
+    documents:
+    - draft-ietf-quic-recovery
+    - draft-ietf-quic-transport
 - person: 122812
   name: Lucas Pardue
   status: confirmed
   periods:
+  - start:
+      certainty: between
+      not_before: '2016-07-17'
+      not_after: '2018-02-14'
+    end:
+      certainty: between
+      not_before: '2018-02-14'
+      not_after: '2020-01-15'
+    notes:
+    - 'Start: not listed among the chairs in meeting minutes (2016-07-17)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2018-02-14)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2018-02-14)'
   - start:
       certainty: exact
       date: '2020-01-15'
@@ -249,6 +250,10 @@ chairs:
     - date: '2021-09-16'
       subject: WGLC for Datagram Extension
       url: https://mailarchive.ietf.org/arch/msg/quic/N8HG0Bdsc6kmw6yi8gs8_CVF6qU/
+  - kind: minutes without them
+    date: '2016-07-17'
+    subject: IETF 96 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-quic.txt
   - kind: shepherded
     documents:
     - draft-ietf-quic-bit-grease

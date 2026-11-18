@@ -23,7 +23,8 @@ chairs:
       not_before: '1994-03-28'
       not_after: '1994-10-20'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (1994-10-20)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (1994-10-20)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -34,9 +35,9 @@ chairs:
       subject: IETF 29 proceedings charter
       url: https://www.ietf.org/proceedings/29/area.and.wg.reports/rtg/isis/isis-charter.txt
   - kind: minutes without them
-    date: '2005-11-06'
-    subject: IETF 64 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/64/minutes/isis.txt
+    date: '1994-10-20'
+    subject: IETF 40 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-85.htm
 - person: 2995
   name: Doug Montgomery
   status: unconfirmed
@@ -46,10 +47,11 @@ chairs:
       not_after: '1994-10-20'
     end:
       certainty: between
-      not_before: '1997-08-11'
+      not_before: '1994-10-20'
       not_after: '1998-11-25'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (1998-11-25)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1994-10-20)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (1998-11-25)'
   evidence:
   - kind: proceedings
     listed_in: 6
@@ -66,9 +68,9 @@ chairs:
       subject: IETF 39 proceedings charter
       url: https://www.ietf.org/proceedings/39/transit97aug-83.htm
   - kind: minutes without them
-    date: '2005-11-06'
-    subject: IETF 64 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/64/minutes/isis.txt
+    date: '1998-11-25'
+    subject: IETF 43 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-88.html
 - person: 3366
   name: Chris Gunner
   status: unconfirmed
@@ -78,10 +80,11 @@ chairs:
       not_after: '1994-03-28'
     end:
       certainty: between
-      not_before: '1997-08-11'
+      not_before: '1994-03-28'
       not_after: '1998-11-25'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (1998-11-25)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (1998-11-25)'
   evidence:
   - kind: proceedings
     listed_in: 7
@@ -98,9 +101,9 @@ chairs:
       subject: IETF 39 proceedings charter
       url: https://www.ietf.org/proceedings/39/transit97aug-83.htm
   - kind: minutes without them
-    date: '2005-11-06'
-    subject: IETF 64 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/64/minutes/isis.txt
+    date: '1998-11-25'
+    subject: IETF 43 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-88.html
 - person: 4475
   name: Tony Li
   status: unconfirmed
@@ -109,9 +112,10 @@ chairs:
       certainty: evidence-only
       not_after: '1998-11-18'
     end:
-      certainty: approximate
+      certainty: announced
       date: '2004-02-26'
     notes:
+    - 'Start: named as chair in the WG Action announcement (1998-11-18)'
     - 'End: announced on the group''s list (2004-02-26)'
   evidence:
   - kind: WG Action
@@ -138,50 +142,14 @@ chairs:
     - date: '2003-05-19'
       subject: IETF 57 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/57/189.htm
-  - kind: minutes without them
-    date: '2005-11-06'
-    subject: IETF 64 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/64/minutes/isis.txt
-- person: 10784
-  name: Acee Lindem
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: between
-      not_before: '2010-11-07'
-      not_after: '2011-07-24'
-    end:
-      certainty: between
-      not_before: '2011-07-24'
-      not_after: '2011-11-13'
-    notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-11-13)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2010-11-07)'
-  evidence:
-  - kind: minutes
-    listed_in: 1
-    first: '2011-07-24'
-    last: '2011-07-24'
-    examples:
-    - date: '2011-07-24'
-      subject: IETF 81 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/81/minutes/isis.txt
-  - kind: minutes without them
-    date: '2010-11-07'
-    subject: IETF 79 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/79/minutes/isis.txt
-  - kind: minutes without them
-    date: '2012-11-04'
-    subject: IETF 85 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/85/minutes/minutes-85-isis.txt
 - person: 22933
   name: Christian Hopps
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2004-07-23'
+      certainty: between
       not_before: '1998-09-10'
+      not_after: '2004-07-23'
     end:
       certainty: group-closed
       date: '2018-03-01'
@@ -267,21 +235,23 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2004-02-26'
     end:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2012-06-14'
+      not_after: '2011-12-09'
     notes:
     - 'Start: announced on the group''s list (2004-02-26)'
   - start:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2012-06-14'
+      not_after: '2012-03-25'
     end:
       certainty: exact
       date: '2013-08-19'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2012-03-25)'
   evidence:
   - kind: list message
     date: '2004-02-26'
@@ -322,7 +292,7 @@ chairs:
       subject: IETF 86 minutes in the proceedings
       url: https://www.ietf.org/proceedings/86/minutes/minutes-86-isis.txt
   - kind: proceedings
-    listed_in: 21
+    listed_in: 19
     first: '2004-07-23'
     last: '2013-03-10'
     examples:
@@ -335,10 +305,6 @@ chairs:
     - date: '2013-03-10'
       subject: IETF 86 proceedings charter
       url: https://www.ietf.org/proceedings/86/isis.html
-  - kind: minutes without them
-    date: '2013-11-03'
-    subject: IETF 88 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/88/minutes/minutes-88-isis.txt
   - kind: session requests
     meetings:
     - '69'
@@ -351,9 +317,10 @@ chairs:
       certainty: evidence-only
       not_after: '1998-11-25'
     end:
-      certainty: approximate
+      certainty: announced
       date: '2004-02-26'
     notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (1998-11-25)'
     - 'End: announced on the group''s list (2004-02-26)'
   evidence:
   - kind: list message
@@ -398,10 +365,6 @@ chairs:
     - date: '2003-05-19'
       subject: IETF 57 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/57/189.htm
-  - kind: minutes without them
-    date: '2005-11-06'
-    subject: IETF 64 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/64/minutes/isis.txt
 - person: 111495
   name: Hannes Gredler
   status: confirmed
@@ -468,10 +431,6 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/isis.html
-  - kind: minutes without them
-    date: '2013-03-10'
-    subject: IETF 86 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/86/minutes/minutes-86-isis.txt
   - kind: shepherded
     documents:
     - draft-ietf-isis-auto-conf

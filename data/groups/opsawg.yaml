@@ -16,9 +16,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2007-06-13'
+      certainty: between
       not_before: '2007-05-17'
+      not_after: '2007-06-13'
     end:
       certainty: exact
       date: '2016-04-07'
@@ -38,7 +38,7 @@ chairs:
     subject: 'WG Action: Rechartered Operations and Management Area Working Group (opsawg)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/qbCJxJPiqiOyOAXxb_tO2WZZt_o/
   - kind: list message
-    date: '2016-02-01'
+    date: '2016-04-03'
     says: end
     subject: '[OPSAWG] Please welcome our new chair!'
     url: https://mailarchive.ietf.org/arch/msg/opsawg/VgZpYx3D23DXdlk9UTjLla30ujU/
@@ -106,52 +106,19 @@ chairs:
     documents:
     - draft-ietf-opsawg-oam-overview
     - draft-ietf-opsawg-vmm-mib
-- person: 6842
-  name: Bert Wijnen
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: between
-      not_before: '2008-03-09'
-      not_after: '2010-07-25'
-    end:
-      certainty: between
-      not_before: '2010-07-25'
-      not_after: '2010-11-07'
-    notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-11-07)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2008-03-09)'
-  evidence:
-  - kind: minutes
-    listed_in: 1
-    first: '2010-07-25'
-    last: '2010-07-25'
-    examples:
-    - date: '2010-07-25'
-      subject: IETF 78 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/78/minutes/opsawg.txt
-  - kind: minutes without them
-    date: '2008-03-09'
-    subject: '[OPSAWG] OPSAWG Minutes from IETF 71 (Philadelphia)'
-    url: https://mailarchive.ietf.org/arch/msg/opsawg/81PajgRenEWt1FCqqAARNE_axtk/
-  - kind: minutes without them
-    date: '2011-11-13'
-    subject: IETF 82 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/82/minutes/opsawg.txt
 - person: 101104
   name: Melinda Shore
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-11-13'
-      not_before: '2008-03-09'
+      certainty: between
+      not_before: '2007-05-17'
+      not_after: '2011-11-13'
     end:
       certainty: exact
       date: '2014-06-24'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2011-11-13)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2008-03-09)'
   evidence:
   - kind: WG Review
     date: '2012-10-02'
@@ -195,14 +162,6 @@ chairs:
     - date: '2014-03-02'
       subject: IETF 89 proceedings charter
       url: https://www.ietf.org/proceedings/89/opsawg.html
-  - kind: minutes without them
-    date: '2008-03-09'
-    subject: '[OPSAWG] OPSAWG Minutes from IETF 71 (Philadelphia)'
-    url: https://mailarchive.ietf.org/arch/msg/opsawg/81PajgRenEWt1FCqqAARNE_axtk/
-  - kind: minutes without them
-    date: '2016-04-03'
-    subject: IETF 95 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/95/minutes/minutes-95-opsawg.txt
   - kind: shepherded
     documents:
     - draft-baker-opsawg-firewalls
@@ -212,20 +171,24 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-12-09'
+      certainty: between
       not_before: '2007-05-17'
+      not_after: '2009-11-17'
     end:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2013-03-13'
+      not_after: '2011-12-09'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2009-11-17)'
   - start:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2013-03-13'
+      not_after: '2012-01-17'
     end:
       certainty: exact
       date: '2013-09-06'
+    notes:
+    - 'Start: started a last call or adoption call on the group''s list (2012-01-17)'
   evidence:
   - kind: WG Review
     date: '2012-10-02'
@@ -277,14 +240,6 @@ chairs:
     - date: '2013-03-10'
       subject: IETF 86 proceedings charter
       url: https://www.ietf.org/proceedings/86/opsawg.html
-  - kind: minutes without them
-    date: '2008-03-09'
-    subject: '[OPSAWG] OPSAWG Minutes from IETF 71 (Philadelphia)'
-    url: https://mailarchive.ietf.org/arch/msg/opsawg/81PajgRenEWt1FCqqAARNE_axtk/
-  - kind: minutes without them
-    date: '2016-04-03'
-    subject: IETF 95 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/95/minutes/minutes-95-opsawg.txt
 - person: 105682
   name: Benoît Claise
   status: confirmed
@@ -333,10 +288,12 @@ chairs:
       not_after: '2007-06-19'
     end:
       certainty: between
-      not_before: '2009-07-30'
+      not_before: '2008-11-16'
       not_after: '2009-11-17'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-11-17)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2007-06-19)'
+    - 'End: requested the group''s session for IETF 73 (2008-11-16)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2009-11-17)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -361,9 +318,9 @@ chairs:
       subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/opsawg.html
   - kind: minutes without them
-    date: '2011-11-13'
-    subject: IETF 82 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/82/minutes/opsawg.txt
+    date: '2009-11-17'
+    subject: IETF 76 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/76/opsawg.html
   - kind: session requests
     meetings:
     - '71'
@@ -423,10 +380,11 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/opsawg.html
-  - kind: minutes without them
-    date: '2011-11-13'
-    subject: IETF 82 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/82/minutes/opsawg.txt
+  - kind: joined the IESG
+    after_meeting: '98'
+    after: '2017-03-26'
+    by_meeting: '99'
+    by: '2017-07-16'
   - kind: shepherded
     documents:
     - draft-ietf-opsawg-capwap-extension
@@ -436,11 +394,6 @@ chairs:
     - draft-ietf-opsawg-hmac-sha-2-usm-snmp
     - draft-ietf-opsawg-large-flow-load-balancing
     - draft-ietf-opsawg-mibs-to-ieee80231
-  - kind: joined the IESG
-    after_meeting: '98'
-    after: '2017-03-26'
-    by_meeting: '99'
-    by: '2017-07-16'
 - person: 113086
   name: Joe Clarke
   status: confirmed
@@ -501,6 +454,17 @@ chairs:
   name: Tianran Zhou
   status: confirmed
   periods:
+  - start:
+      certainty: between
+      not_before: '2011-11-13'
+      not_after: '2015-11-01'
+    end:
+      certainty: between
+      not_before: '2015-11-01'
+      not_after: '2016-02-02'
+    notes:
+    - 'Start: not listed among the chairs in meeting minutes (2011-11-13)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2015-11-01)'
   - start:
       certainty: exact
       date: '2016-02-02'
@@ -583,10 +547,6 @@ chairs:
       certainty: exact
       date: '2024-11-02'
   evidence:
-  - kind: minutes without them
-    date: '2016-04-03'
-    subject: IETF 95 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/95/minutes/minutes-95-opsawg.txt
   - kind: shepherded
     documents:
     - draft-ietf-opsawg-mud-acceptable-urls
@@ -610,10 +570,6 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/opsawg.html
-  - kind: minutes without them
-    date: '2016-04-03'
-    subject: IETF 95 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/95/minutes/minutes-95-opsawg.txt
   - kind: joined the IESG
     after_meeting: '101'
     after: '2018-03-17'

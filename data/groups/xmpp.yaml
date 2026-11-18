@@ -5,10 +5,13 @@ parent: art
 state: conclude
 started: '2009-05-21'
 closed: '2015-09-14'
-bof: false
+bof: true
 never_chartered: false
 chartered: '2009-05-29'
-bof_sessions: []
+bof_sessions:
+- meeting: '74'
+  date: '2009-03-22'
+  url: https://datatracker.ietf.org/meeting/74/session/xmpp/
 history_url: https://datatracker.ietf.org/group/xmpp/history/
 chairs:
 - person: 12695
@@ -23,7 +26,8 @@ chairs:
       not_before: '2009-03-22'
       not_after: '2009-05-29'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-05-29)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2009-03-22)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2009-05-29)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -34,9 +38,9 @@ chairs:
       subject: IETF 74 proceedings charter
       url: https://www.ietf.org/proceedings/74/xmpp.html
   - kind: minutes without them
-    date: '2009-07-26'
-    subject: IETF 75 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/75/minutes/xmpp.txt
+    date: '2009-05-29'
+    subject: IETF 75 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/75/xmpp.html
 - person: 19483
   name: Sean Turner
   status: unconfirmed
@@ -49,7 +53,9 @@ chairs:
       not_before: '2010-03-21'
       not_after: '2010-04-01'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-04-01)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2009-05-29)'
+    - 'End: requested the group''s session for IETF 77 (2010-03-21)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2010-04-01)'
   evidence:
   - kind: chair activity
     first: '2009-08-12'
@@ -82,33 +88,33 @@ chairs:
       subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/xmpp.html
   - kind: minutes without them
-    date: '2012-03-25'
-    subject: IETF 83 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/83/minutes/minutes-83-xmpp.txt
-  - kind: session requests
-    meetings:
-    - '76'
-    - '77'
-    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+    date: '2010-04-01'
+    subject: IETF 77 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/77/xmpp.html
   - kind: joined the IESG
     after_meeting: '77'
     after: '2010-03-21'
     by_meeting: '78'
     by: '2010-07-25'
+  - kind: session requests
+    meetings:
+    - '76'
+    - '77'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
 - person: 104140
   name: Ben Campbell
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-04-01'
+      certainty: between
       not_before: '2009-11-08'
+      not_after: '2010-03-26'
     end:
       certainty: exact
       date: '2015-03-26'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-04-01)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2009-11-08)'
+    - 'Start: not listed among the chairs in meeting minutes (2009-11-08)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2010-03-26)'
   evidence:
   - kind: WG Action
     date: '2013-03-05'
@@ -160,17 +166,17 @@ chairs:
     date: '2009-11-08'
     subject: IETF 76 minutes in the proceedings
     url: https://www.ietf.org/proceedings/76/minutes/xmpp.txt
+  - kind: joined the IESG
+    after_meeting: '92'
+    after: '2015-03-22'
+    by_meeting: '93'
+    by: '2015-07-19'
   - kind: session requests
     meetings:
     - '78'
     - '80'
     - '81'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
-  - kind: joined the IESG
-    after_meeting: '92'
-    after: '2015-03-22'
-    by_meeting: '93'
-    by: '2015-07-19'
 - person: 105071
   name: Jack Moffitt
   status: unconfirmed
@@ -183,7 +189,8 @@ chairs:
       not_before: '2009-03-22'
       not_after: '2009-05-29'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-05-29)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2009-03-22)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2009-05-29)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -194,43 +201,17 @@ chairs:
       subject: IETF 74 proceedings charter
       url: https://www.ietf.org/proceedings/74/xmpp.html
   - kind: minutes without them
-    date: '2009-07-26'
-    subject: IETF 75 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/75/minutes/xmpp.txt
-- person: 105791
-  name: Cullen Jennings
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: evidence-only
-      not_after: '2009-03-22'
-    end:
-      certainty: between
-      not_before: '2009-03-22'
-      not_after: '2009-05-29'
-    notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-05-29)'
-  evidence:
-  - kind: proceedings
-    listed_in: 1
-    first: '2009-03-22'
-    last: '2009-03-22'
-    examples:
-    - date: '2009-03-22'
-      subject: IETF 74 proceedings charter
-      url: https://www.ietf.org/proceedings/74/xmpp.html
-  - kind: minutes without them
-    date: '2009-07-26'
-    subject: IETF 75 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/75/minutes/xmpp.txt
+    date: '2009-05-29'
+    subject: IETF 75 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/75/xmpp.html
 - person: 110049
   name: Joe Hildebrand
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2009-05-29'
+      certainty: between
       not_before: '2009-05-21'
+      not_after: '2009-05-29'
     end:
       certainty: group-closed
       date: '2015-09-14'

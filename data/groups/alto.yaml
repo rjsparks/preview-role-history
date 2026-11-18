@@ -5,10 +5,13 @@ parent: ops
 state: conclude
 started: '2008-09-18'
 closed: '2024-01-24'
-bof: false
+bof: true
 never_chartered: false
 chartered: '2008-11-11'
-bof_sessions: []
+bof_sessions:
+- meeting: '72'
+  date: '2008-07-27'
+  url: https://datatracker.ietf.org/meeting/72/session/alto/
 history_url: https://datatracker.ietf.org/group/alto/history/
 chairs:
 - person: 104557
@@ -16,16 +19,16 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2008-07-27'
+      certainty: evidence-only
       not_after: '2008-11-16'
     end:
       certainty: between
       not_before: '2011-07-24'
       not_after: '2011-11-13'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-11-13)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2008-07-27)'
+    - 'Start: listed as chair in meeting minutes (2008-11-16)'
+    - 'End: listed as chair in meeting minutes (2011-07-24)'
+    - 'End: not listed among the chairs in meeting minutes (2011-11-13)'
   evidence:
   - kind: WG Action
     date: '2010-10-12'
@@ -68,10 +71,6 @@ chairs:
       subject: IETF 80 proceedings charter
       url: https://www.ietf.org/proceedings/80/alto.html
   - kind: minutes without them
-    date: '2008-07-27'
-    subject: IETF 72 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/72/minutes/alto.txt
-  - kind: minutes without them
     date: '2011-11-13'
     subject: IETF 82 minutes in the proceedings
     url: https://www.ietf.org/proceedings/82/minutes/alto.html
@@ -81,13 +80,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2009-04-22'
-      not_before: '2008-09-18'
+      date: '2008-07-27'
     end:
       certainty: exact
       date: '2021-07-29'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2009-04-22)'
+    - 'Start: listed as chair in meeting minutes (2008-07-27)'
   evidence:
   - kind: WG Action
     date: '2010-10-12'
@@ -167,13 +165,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2009-03-22'
-      not_before: '2008-09-18'
+      date: '2008-07-27'
     end:
       certainty: exact
       date: '2016-04-18'
     notes:
-    - 'Start: requested the group''s session for IETF 74 (2009-03-22)'
+    - 'Start: listed as chair in meeting minutes (2008-07-27)'
   evidence:
   - kind: WG Action
     date: '2010-10-12'
@@ -231,10 +228,6 @@ chairs:
     - date: '2015-11-01'
       subject: IETF 94 proceedings charter
       url: https://www.ietf.org/proceedings/94/alto.html
-  - kind: minutes without them
-    date: '2016-07-17'
-    subject: IETF 96 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-alto.html
   - kind: session requests
     meetings:
     - '74'
@@ -270,13 +263,6 @@ chairs:
     date: '2021-09-21'
     subject: 'WG Action: Rechartered Application-Layer Traffic Optimization (alto)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/fcD6N6m6QStYe0QjHxcAL3wDNYY/
-  - kind: list message
-    date: '2020-09-30'
-    says: end
-    subject: '[alto] Seeking a new ALTO chair'
-    url: https://mailarchive.ietf.org/arch/msg/alto/OfM8aHEhkiO3D_6JQ26fqmbcIXg/
-    excerpt: Vijay and Jan will step down when these milestones are complete, after years of diligent
-      service to the IETF and the working group.
   - kind: list message
     date: '2021-12-06'
     says: end
@@ -331,10 +317,6 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/alto.html
-  - kind: minutes without them
-    date: '2013-11-03'
-    subject: IETF 88 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/88/minutes/minutes-88-alto.html
   - kind: shepherded
     documents:
     - draft-ietf-alto-multi-cost
@@ -376,10 +358,6 @@ chairs:
     - date: '2023-03-14'
       subject: '[alto] WGLC for draft-ietf-alto-new-transport (Ends 28/03/2023)'
       url: https://mailarchive.ietf.org/arch/msg/alto/fr8djMcRk_wyYh0MwNGS1PiYFuY/
-  - kind: minutes without them
-    date: '2020-07-27'
-    subject: '[alto] ALTO Minutes from IETF-108'
-    url: https://mailarchive.ietf.org/arch/msg/alto/o5eL1q9V_ghpXR8Ys-pYxuQRnR4/
 - person: 112869
   name: Mohamed Boucadair
   status: confirmed
@@ -388,23 +366,9 @@ chairs:
       certainty: exact
       date: '2021-12-06'
     end:
-      certainty: approximate
-      date: '2021-12-06'
-    notes:
-    - 'End: announced on the group''s list (2021-12-06)'
+      certainty: group-closed
+      date: '2024-01-24'
   evidence:
-  - kind: list message
-    date: '2021-12-06'
-    says: start
-    subject: '[alto] New chair!'
-    url: https://mailarchive.ietf.org/arch/msg/alto/817zS6BqZaerVmf7YLRasuF6wqA/
-    excerpt: I'd like to welcome Mohamed Boucadair, of Orange, as the new ALTO chair.
-  - kind: list message
-    date: '2021-12-06'
-    says: end
-    subject: '[alto] New chair!'
-    url: https://mailarchive.ietf.org/arch/msg/alto/817zS6BqZaerVmf7YLRasuF6wqA/
-    excerpt: Thanks for serving, Mohamed!
   - kind: chair activity
     first: '2022-03-23'
     last: '2023-04-04'
@@ -419,10 +383,6 @@ chairs:
     - date: '2023-04-04'
       subject: '[alto] Proposed Agenda for Interims #2-5'
       url: https://mailarchive.ietf.org/arch/msg/alto/uGdgKHkbZlAQ4JaBoDm__9V6zw4/
-  - kind: minutes without them
-    date: '2020-07-27'
-    subject: '[alto] ALTO Minutes from IETF-108'
-    url: https://mailarchive.ietf.org/arch/msg/alto/o5eL1q9V_ghpXR8Ys-pYxuQRnR4/
   - kind: shepherded
     documents:
     - draft-ietf-alto-new-transport
@@ -436,10 +396,14 @@ chairs:
       not_before: '2020-07-27'
       not_after: '2020-10-14'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2023-07-11'
+      not_after: '2024-01-24'
     notes:
-    - 'Start: not yet listed among the chairs in meeting minutes (2020-07-27)'
+    - 'Start: not listed among the chairs in meeting minutes (2020-07-27)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2020-10-14)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2023-07-11)'
+    - 'End: the group closed (2024-01-24)'
   evidence:
   - kind: chair activity
     first: '2020-10-14'

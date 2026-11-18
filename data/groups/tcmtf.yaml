@@ -29,7 +29,7 @@ chairs:
       certainty: exact
       date: '2014-01-22'
     notes:
-    - 'Start: the BOF met at IETF 87 (2013-07-28)'
+    - 'Start: listed as chair in meeting minutes (2013-07-28)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -39,14 +39,6 @@ chairs:
     - date: '2013-07-28'
       subject: IETF 87 minutes in the proceedings
       url: https://www.ietf.org/proceedings/87/minutes/minutes-87-tcmtf.txt
-  - kind: BOF session
-    meeting: '87'
-    date: '2013-07-28'
-    url: https://datatracker.ietf.org/meeting/87/session/tcmtf/
-  - kind: BOF session
-    meeting: '89'
-    date: '2014-03-02'
-    url: https://www.ietf.org/proceedings/89/tcmtf.html
   - kind: proceedings
     listed_in: 1
     first: '2013-07-28'
@@ -55,10 +47,14 @@ chairs:
     - date: '2013-07-28'
       subject: IETF 87 proceedings charter
       url: https://www.ietf.org/proceedings/87/tcmtf.html
-  - kind: minutes without them
+  - kind: BOF session
+    meeting: '87'
+    date: '2013-07-28'
+    url: https://datatracker.ietf.org/meeting/87/session/tcmtf/
+  - kind: BOF session
+    meeting: '89'
     date: '2014-03-02'
-    subject: IETF 89 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/89/minutes/minutes-89-tcmtf.txt
+    url: https://www.ietf.org/proceedings/89/tcmtf.html
 - person: 105721
   name: Jana Iyengar
   status: confirmed
@@ -68,16 +64,16 @@ chairs:
       not_before: '2013-06-20'
       not_after: '2013-09-24'
     end:
-      certainty: between
-      not_before: '2013-06-20'
-      not_after: '2013-09-24'
+      certainty: group-closed
   - start:
       certainty: between
       not_before: '2013-06-20'
-      not_after: '2013-09-24'
+      not_after: '2013-07-28'
     end:
       certainty: exact
       date: '2014-01-22'
+    notes:
+    - 'Start: listed as chair in meeting minutes (2013-07-28)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -87,14 +83,6 @@ chairs:
     - date: '2013-07-28'
       subject: IETF 87 minutes in the proceedings
       url: https://www.ietf.org/proceedings/87/minutes/minutes-87-tcmtf.txt
-  - kind: BOF session
-    meeting: '87'
-    date: '2013-07-28'
-    url: https://datatracker.ietf.org/meeting/87/session/tcmtf/
-  - kind: BOF session
-    meeting: '89'
-    date: '2014-03-02'
-    url: https://www.ietf.org/proceedings/89/tcmtf.html
   - kind: proceedings
     listed_in: 1
     first: '2013-07-28'
@@ -103,22 +91,33 @@ chairs:
     - date: '2013-07-28'
       subject: IETF 87 proceedings charter
       url: https://www.ietf.org/proceedings/87/tcmtf.html
-  - kind: minutes without them
+  - kind: BOF session
+    meeting: '87'
+    date: '2013-07-28'
+    url: https://datatracker.ietf.org/meeting/87/session/tcmtf/
+  - kind: BOF session
+    meeting: '89'
     date: '2014-03-02'
-    subject: IETF 89 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/89/minutes/minutes-89-tcmtf.txt
+    url: https://www.ietf.org/proceedings/89/tcmtf.html
 - person: 109354
   name: Brian Trammell
   status: confirmed
   periods:
   - start:
+      certainty: evidence-only
+      not_after: '2013-07-28'
+    end:
+      certainty: between
+      not_before: '2013-07-28'
+      not_after: '2014-02-10'
+    notes:
+    - 'Start: the BOF met at IETF 87 (2013-07-28)'
+    - 'End: the BOF met at IETF 87 (2013-07-28)'
+  - start:
       certainty: exact
       date: '2014-02-10'
     end:
-      certainty: between
-      not_before: '2014-03-02'
-    notes:
-    - 'End: after the BOF''s last session, IETF 89 (2014-03-02)'
+      certainty: group-closed
   evidence:
   - kind: minutes
     listed_in: 1
@@ -128,14 +127,6 @@ chairs:
     - date: '2014-03-02'
       subject: IETF 89 minutes in the proceedings
       url: https://www.ietf.org/proceedings/89/minutes/minutes-89-tcmtf.txt
-  - kind: BOF session
-    meeting: '87'
-    date: '2013-07-28'
-    url: https://datatracker.ietf.org/meeting/87/session/tcmtf/
-  - kind: BOF session
-    meeting: '89'
-    date: '2014-03-02'
-    url: https://www.ietf.org/proceedings/89/tcmtf.html
   - kind: proceedings
     listed_in: 2
     first: '2014-03-02'
@@ -147,14 +138,28 @@ chairs:
     - date: '2014-07-20'
       subject: IETF 90 proceedings charter
       url: https://www.ietf.org/proceedings/90/tcmtf.html
-  - kind: minutes without them
+  - kind: BOF session
+    meeting: '87'
     date: '2013-07-28'
-    subject: IETF 87 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/87/minutes/minutes-87-tcmtf.txt
+    url: https://datatracker.ietf.org/meeting/87/session/tcmtf/
+  - kind: BOF session
+    meeting: '89'
+    date: '2014-03-02'
+    url: https://www.ietf.org/proceedings/89/tcmtf.html
 - person: 112330
   name: Mirja Kühlewind
   status: confirmed
   periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2013-07-28'
+    end:
+      certainty: between
+      not_before: '2013-07-28'
+      not_after: '2014-02-12'
+    notes:
+    - 'Start: the BOF met at IETF 87 (2013-07-28)'
+    - 'End: the BOF met at IETF 87 (2013-07-28)'
   - start:
       certainty: exact
       date: '2014-02-12'
@@ -163,6 +168,7 @@ chairs:
       not_before: '2014-03-02'
       not_after: '2016-07-17'
     notes:
+    - 'End: listed as chair in meeting minutes (2014-03-02)'
     - 'End: became an Area Director, first serving at IETF 96 (2016-07-17)'
   evidence:
   - kind: chair activity
@@ -181,14 +187,6 @@ chairs:
     - date: '2014-03-02'
       subject: IETF 89 minutes in the proceedings
       url: https://www.ietf.org/proceedings/89/minutes/minutes-89-tcmtf.txt
-  - kind: BOF session
-    meeting: '87'
-    date: '2013-07-28'
-    url: https://datatracker.ietf.org/meeting/87/session/tcmtf/
-  - kind: BOF session
-    meeting: '89'
-    date: '2014-03-02'
-    url: https://www.ietf.org/proceedings/89/tcmtf.html
   - kind: proceedings
     listed_in: 2
     first: '2014-03-02'
@@ -200,10 +198,14 @@ chairs:
     - date: '2014-07-20'
       subject: IETF 90 proceedings charter
       url: https://www.ietf.org/proceedings/90/tcmtf.html
-  - kind: minutes without them
+  - kind: BOF session
+    meeting: '87'
     date: '2013-07-28'
-    subject: IETF 87 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/87/minutes/minutes-87-tcmtf.txt
+    url: https://datatracker.ietf.org/meeting/87/session/tcmtf/
+  - kind: BOF session
+    meeting: '89'
+    date: '2014-03-02'
+    url: https://www.ietf.org/proceedings/89/tcmtf.html
   - kind: joined the IESG
     after_meeting: '95'
     after: '2016-04-03'

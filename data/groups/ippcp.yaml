@@ -16,9 +16,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1997-08-11'
+      certainty: between
       not_before: '1997-06-02'
+      not_after: '1997-08-11'
     end:
       certainty: group-closed
       date: '1999-09-16'
@@ -40,7 +40,7 @@ chairs:
       subject: Meeting minutes
       url: https://mailarchive.ietf.org/arch/msg/ippcp/bHZkTY-pqlPl8AYGO8JQTJ68Ivw/
   - kind: proceedings
-    listed_in: 4
+    listed_in: 3
     first: '1997-08-11'
     last: '1998-08-06'
     examples:

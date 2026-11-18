@@ -5,10 +5,16 @@ parent: sec
 state: active
 started: '2009-04-06'
 closed: null
-bof: false
+bof: true
 never_chartered: false
 chartered: '2009-05-12'
-bof_sessions: []
+bof_sessions:
+- meeting: '73'
+  date: '2008-11-16'
+  url: https://datatracker.ietf.org/meeting/73/session/oauth/
+- meeting: '74'
+  date: '2009-03-22'
+  url: https://datatracker.ietf.org/meeting/74/session/oauth/
 history_url: https://datatracker.ietf.org/group/oauth/history/
 chairs:
 - person: 8698
@@ -16,14 +22,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-12-09'
+      certainty: between
       not_before: '2011-03-27'
+      not_after: '2011-12-09'
     end:
       certainty: exact
       date: '2017-04-05'
     notes:
-    - 'Start: not yet listed among the chairs in meeting minutes (2011-03-27)'
+    - 'Start: not listed among the chairs in meeting minutes (2011-03-27)'
   evidence:
   - kind: WG Action
     date: '2012-05-15'
@@ -40,12 +46,6 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/oauth/85wP9i3F49Zwj9twHfeVFmWg6FU/
     excerpt: However, we've been quite lucky in that Derek Atkins (cc'd) has agreed to help out along
       with Hannes as OAuth re-charters and goes on to do more good stuff.
-  - kind: list message
-    date: '2012-03-08'
-    says: end
-    subject: '[OAUTH-WG] Reminder: Contacting the chairs'
-    url: https://mailarchive.ietf.org/arch/msg/oauth/BfvvP4HVhxPdmKFhcsGhpTS4CRE/
-    excerpt: (1) This leaves Derek out.
   - kind: chair activity
     first: '2013-10-31'
     last: '2015-03-10'
@@ -100,16 +100,16 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-11-07'
+      certainty: between
       not_before: '2010-01-27'
+      not_after: '2010-11-07'
     end:
-      certainty: approximate
+      certainty: announced
       date: '2012-02-13'
     notes:
-    - 'End: announced on the group''s list (2012-02-13)'
+    - 'Start: not listed among the chairs in meeting minutes (2010-01-27)'
     - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2010-01-27)'
+    - 'End: announced on the group''s list (2012-02-13)'
   evidence:
   - kind: WG Review
     date: '2011-05-31'
@@ -158,10 +158,11 @@ chairs:
     date: '2010-01-27'
     subject: '[OAUTH-WG] draft minutes of OAuth WG interim meeting, 2010-01-21'
     url: https://mailarchive.ietf.org/arch/msg/oauth/GdWYMNEd9277XVzIEil5qES2VJY/
-  - kind: minutes without them
-    date: '2012-03-25'
-    subject: IETF 83 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/83/minutes/minutes-83-oauth.txt
+  - kind: joined the IESG
+    after_meeting: '83'
+    after: '2012-03-25'
+    by_meeting: '84'
+    by: '2012-07-29'
   - kind: session requests
     meetings:
     - '82'
@@ -171,11 +172,6 @@ chairs:
     - draft-ietf-oauth-v2
     - draft-ietf-oauth-v2-http-mac
     - draft-ietf-oauth-v2-threatmodel
-  - kind: joined the IESG
-    after_meeting: '83'
-    after: '2012-03-25'
-    by_meeting: '84'
-    by: '2012-07-29'
 - person: 103048
   name: Sam Hartman
   status: unconfirmed
@@ -186,9 +182,11 @@ chairs:
     end:
       certainty: between
       not_before: '2008-12-01'
-      not_after: '2009-03-22'
+      not_after: '2009-05-15'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-03-22)'
+    - 'Start: listed as chair in meeting minutes (2008-11-16)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2008-12-01)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2009-05-15)'
   evidence:
   - kind: chair activity
     first: '2008-11-25'
@@ -213,9 +211,9 @@ chairs:
       subject: '[oauth] Draft minutes for the oauth bof'
       url: https://mailarchive.ietf.org/arch/msg/oauth/01B-7AC7AtX6vpJSy7Kko-4tNG4/
   - kind: minutes without them
-    date: '2010-01-27'
-    subject: '[OAUTH-WG] draft minutes of OAuth WG interim meeting, 2010-01-21'
-    url: https://mailarchive.ietf.org/arch/msg/oauth/GdWYMNEd9277XVzIEil5qES2VJY/
+    date: '2009-05-15'
+    subject: IETF 75 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/75/oauth.html
 - person: 103881
   name: Mark Nottingham
   status: unconfirmed
@@ -226,9 +224,11 @@ chairs:
     end:
       certainty: between
       not_before: '2008-12-01'
-      not_after: '2009-03-22'
+      not_after: '2009-05-15'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-03-22)'
+    - 'Start: listed as chair in meeting minutes (2008-11-16)'
+    - 'End: listed as chair in meeting minutes (2008-12-01)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2009-05-15)'
   evidence:
   - kind: minutes
     listed_in: 2
@@ -242,20 +242,21 @@ chairs:
       subject: '[oauth] Draft minutes for the oauth bof'
       url: https://mailarchive.ietf.org/arch/msg/oauth/01B-7AC7AtX6vpJSy7Kko-4tNG4/
   - kind: minutes without them
-    date: '2010-01-27'
-    subject: '[OAUTH-WG] draft minutes of OAuth WG interim meeting, 2010-01-21'
-    url: https://mailarchive.ietf.org/arch/msg/oauth/GdWYMNEd9277XVzIEil5qES2VJY/
+    date: '2009-05-15'
+    subject: IETF 75 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/75/oauth.html
 - person: 105857
   name: Hannes Tschofenig
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-03-25'
-      not_before: '2009-04-06'
+      certainty: between
+      not_before: '2010-01-27'
+      not_after: '2010-03-25'
     end:
       certainty: ongoing
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2010-01-27)'
     - 'Start: listed as chair in a proceedings charter snapshot (2010-03-25)'
   evidence:
   - kind: WG Review
@@ -330,6 +331,10 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/oauth.html
+  - kind: minutes without them
+    date: '2010-01-27'
+    subject: '[OAUTH-WG] draft minutes of OAuth WG interim meeting, 2010-01-21'
+    url: https://mailarchive.ietf.org/arch/msg/oauth/GdWYMNEd9277XVzIEil5qES2VJY/
   - kind: session requests
     meetings:
     - '78'
@@ -368,16 +373,16 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2008-12-01'
+      certainty: evidence-only
       not_after: '2009-03-22'
     end:
       certainty: between
       not_before: '2011-05-31'
-      not_after: '2011-07-24'
+      not_after: '2012-03-25'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-07-24)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2008-12-01)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2009-03-22)'
+    - 'End: named as a proposed chair in a WG Review announcement (2011-05-31)'
+    - 'End: not listed among the chairs in meeting minutes (2012-03-25)'
   evidence:
   - kind: WG Review
     date: '2011-05-31'
@@ -417,10 +422,6 @@ chairs:
       subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/oauth.html
   - kind: minutes without them
-    date: '2008-12-01'
-    subject: '[oauth] Draft minutes for the oauth bof'
-    url: https://mailarchive.ietf.org/arch/msg/oauth/01B-7AC7AtX6vpJSy7Kko-4tNG4/
-  - kind: minutes without them
     date: '2012-03-25'
     subject: IETF 83 minutes in the proceedings
     url: https://www.ietf.org/proceedings/83/minutes/minutes-83-oauth.txt
@@ -433,16 +434,16 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2008-12-01'
+      certainty: evidence-only
       not_after: '2009-03-22'
     end:
       certainty: between
       not_before: '2011-06-14'
-      not_after: '2011-07-24'
+      not_after: '2012-03-25'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-07-24)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2008-12-01)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2009-03-22)'
+    - 'End: named as chair in the WG Action announcement (2011-06-14)'
+    - 'End: not listed among the chairs in meeting minutes (2012-03-25)'
   evidence:
   - kind: WG Review
     date: '2011-05-31'
@@ -485,10 +486,6 @@ chairs:
     - date: '2011-03-27'
       subject: IETF 80 proceedings charter
       url: https://www.ietf.org/proceedings/80/oauth.html
-  - kind: minutes without them
-    date: '2008-12-01'
-    subject: '[oauth] Draft minutes for the oauth bof'
-    url: https://mailarchive.ietf.org/arch/msg/oauth/01B-7AC7AtX6vpJSy7Kko-4tNG4/
   - kind: minutes without them
     date: '2012-03-25'
     subject: IETF 83 minutes in the proceedings

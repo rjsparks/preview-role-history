@@ -60,8 +60,10 @@ chairs:
     end:
       certainty: between
       not_before: '2020-07-27'
+      not_after: '2020-10-09'
     notes:
-    - 'End: after the BOF''s last session, IETF 108 (2020-07-27)'
+    - 'End: the BOF met at IETF 108 (2020-07-27)'
+    - 'End: the group closed (2020-10-09)'
   evidence:
   - kind: BOF session
     meeting: '105'
@@ -76,13 +78,25 @@ chairs:
   status: confirmed
   periods:
   - start:
+      certainty: evidence-only
+      not_after: '2019-07-20'
+    end:
+      certainty: between
+      not_before: '2019-07-20'
+      not_after: '2020-06-19'
+    notes:
+    - 'Start: the BOF met at IETF 105 (2019-07-20)'
+    - 'End: the BOF met at IETF 105 (2019-07-20)'
+  - start:
       certainty: exact
       date: '2020-06-19'
     end:
       certainty: between
       not_before: '2020-07-27'
+      not_after: '2020-10-09'
     notes:
-    - 'End: after the BOF''s last session, IETF 108 (2020-07-27)'
+    - 'End: the BOF met at IETF 108 (2020-07-27)'
+    - 'End: the group closed (2020-10-09)'
   evidence:
   - kind: BOF session
     meeting: '105'
@@ -97,13 +111,25 @@ chairs:
   status: confirmed
   periods:
   - start:
+      certainty: evidence-only
+      not_after: '2019-07-20'
+    end:
+      certainty: between
+      not_before: '2019-07-20'
+      not_after: '2020-06-19'
+    notes:
+    - 'Start: the BOF met at IETF 105 (2019-07-20)'
+    - 'End: the BOF met at IETF 105 (2019-07-20)'
+  - start:
       certainty: exact
       date: '2020-06-19'
     end:
       certainty: between
       not_before: '2020-07-27'
+      not_after: '2020-10-09'
     notes:
-    - 'End: after the BOF''s last session, IETF 108 (2020-07-27)'
+    - 'End: the BOF met at IETF 108 (2020-07-27)'
+    - 'End: the group closed (2020-10-09)'
   evidence:
   - kind: BOF session
     meeting: '105'

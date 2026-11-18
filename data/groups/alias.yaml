@@ -25,8 +25,13 @@ chairs:
       certainty: evidence-only
       not_after: '2003-07-13'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2003-11-09'
+      not_after: '2003-12-10'
+    notes:
+    - 'Start: listed as chair in meeting minutes (2003-07-13)'
+    - 'End: listed as chair in meeting minutes (2003-11-09)'
+    - 'End: the group closed (2003-12-10)'
   evidence:
   - kind: minutes
     listed_in: 3
@@ -60,9 +65,11 @@ chairs:
     end:
       certainty: between
       not_before: '2003-11-09'
+      not_after: '2003-12-10'
     notes:
-    - 'Start: the BOF met at IETF 57 (2003-07-13)'
-    - 'End: after the BOF''s last session, IETF 58 (2003-11-09)'
+    - 'Start: listed as chair in meeting minutes (2003-07-13)'
+    - 'End: listed as chair in meeting minutes (2003-11-09)'
+    - 'End: the group closed (2003-12-10)'
   evidence:
   - kind: minutes
     listed_in: 3

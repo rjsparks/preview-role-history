@@ -27,10 +27,11 @@ chairs:
     end:
       certainty: between
       not_before: '1995-04-03'
-      not_after: '2005-07-31'
+      not_after: '1996-04-12'
     notes:
     - 'Start: the BOF met at IETF 31 (1994-12-05)'
-    - 'End: became an Area Director, first serving at IETF 63 (2005-07-31)'
+    - 'End: the BOF met at IETF 32 (1995-04-03)'
+    - 'End: the group closed (1996-04-12)'
   evidence:
   - kind: BOF session
     meeting: '31'
@@ -40,8 +41,3 @@ chairs:
     meeting: '32'
     date: '1995-04-03'
     url: https://www.ietf.org/proceedings/32/area.and.wg.reports/ipng/nosi/nosi-minutes-95apr.txt
-  - kind: joined the IESG
-    after_meeting: '62'
-    after: '2005-03-06'
-    by_meeting: '63'
-    by: '2005-07-31'

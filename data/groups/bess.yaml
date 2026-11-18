@@ -76,11 +76,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2014-09-25'
-      not_before: '2014-09-25'
+      date: '2014-07-20'
     end:
       certainty: exact
       date: '2017-12-01'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   evidence:
   - kind: WG Action
     date: '2014-10-17'
@@ -142,11 +143,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2014-09-25'
-      not_before: '2014-09-25'
+      date: '2014-07-20'
     end:
       certainty: exact
       date: '2018-03-21'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   evidence:
   - kind: WG Action
     date: '2014-10-17'
@@ -190,6 +192,11 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/bess.html
+  - kind: joined the IESG
+    after_meeting: '101'
+    after: '2018-03-17'
+    by_meeting: '102'
+    by: '2018-07-14'
   - kind: shepherded
     documents:
     - draft-fm-bess-service-chaining
@@ -214,11 +221,6 @@ chairs:
     - draft-sajassi-bess-evpn-vpls-seamless-integ
     - draft-xu-l3vpn-virtual-subnet-fib-reduction
     - draft-zzhang-bess-evpn-bum-procedure-updates
-  - kind: joined the IESG
-    after_meeting: '101'
-    after: '2018-03-17'
-    by_meeting: '102'
-    by: '2018-07-14'
 - person: 110966
   name: Zhaohui Zhang
   status: confirmed

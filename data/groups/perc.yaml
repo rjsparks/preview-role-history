@@ -17,11 +17,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2015-06-01'
-      not_before: '2015-06-01'
+      date: '2014-07-20'
     end:
       certainty: exact
       date: '2017-04-18'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   evidence:
   - kind: WG Review
     date: '2015-06-12'
@@ -68,6 +69,15 @@ chairs:
   name: Suhas Nandakumar
   status: confirmed
   periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2014-07-20'
+    end:
+      certainty: between
+      not_before: '2014-07-20'
+      not_after: '2015-06-03'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   - start:
       certainty: exact
       date: '2015-06-03'
@@ -160,10 +170,6 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/perc.html
-  - kind: minutes without them
-    date: '2016-04-03'
-    subject: IETF 95 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/95/minutes/minutes-95-perc.txt
   - kind: shepherded
     documents:
     - draft-ietf-perc-private-media-framework

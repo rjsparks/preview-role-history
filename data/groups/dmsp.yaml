@@ -24,14 +24,12 @@ chairs:
     end:
       certainty: between
       not_before: '2006-07-09'
+      not_after: '2006-08-28'
     notes:
-    - 'Start: the BOF met at IETF 66 (2006-07-09)'
-    - 'End: after the BOF''s last session, IETF 66 (2006-07-09)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2006-07-09)'
+    - 'End: the BOF met at IETF 66 (2006-07-09)'
+    - 'End: the group closed (2006-08-28)'
   evidence:
-  - kind: BOF session
-    meeting: '66'
-    date: '2006-07-09'
-    url: https://datatracker.ietf.org/meeting/66/session/dmsp/
   - kind: proceedings
     listed_in: 2
     first: '2006-07-09'
@@ -43,6 +41,10 @@ chairs:
     - date: '2006-08-28'
       subject: IETF 67 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/67/dmsp.html
+  - kind: BOF session
+    meeting: '66'
+    date: '2006-07-09'
+    url: https://datatracker.ietf.org/meeting/66/session/dmsp/
 - person: 107174
   name: Chris Cross
   status: confirmed
@@ -53,14 +55,12 @@ chairs:
     end:
       certainty: between
       not_before: '2006-07-09'
+      not_after: '2006-08-28'
     notes:
-    - 'Start: the BOF met at IETF 66 (2006-07-09)'
-    - 'End: after the BOF''s last session, IETF 66 (2006-07-09)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2006-07-09)'
+    - 'End: the BOF met at IETF 66 (2006-07-09)'
+    - 'End: the group closed (2006-08-28)'
   evidence:
-  - kind: BOF session
-    meeting: '66'
-    date: '2006-07-09'
-    url: https://datatracker.ietf.org/meeting/66/session/dmsp/
   - kind: proceedings
     listed_in: 2
     first: '2006-07-09'
@@ -72,3 +72,7 @@ chairs:
     - date: '2006-08-28'
       subject: IETF 67 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/67/dmsp.html
+  - kind: BOF session
+    meeting: '66'
+    date: '2006-07-09'
+    url: https://datatracker.ietf.org/meeting/66/session/dmsp/

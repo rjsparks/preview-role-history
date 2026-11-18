@@ -5,10 +5,13 @@ parent: wit
 state: conclude
 started: '2011-03-31'
 closed: '2024-04-15'
-bof: false
+bof: true
 never_chartered: false
 chartered: '2011-05-03'
-bof_sessions: []
+bof_sessions:
+- meeting: '80'
+  date: '2011-03-27'
+  url: https://datatracker.ietf.org/meeting/80/session/rtcweb/
 history_url: https://datatracker.ietf.org/group/rtcweb/history/
 chairs:
 - person: 5778
@@ -23,7 +26,9 @@ chairs:
       not_before: '2011-05-11'
       not_after: '2011-07-24'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-07-24)'
+    - 'Start: listed as chair in meeting minutes (2011-03-27)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2011-05-11)'
+    - 'End: not listed among the chairs in meeting minutes (2011-07-24)'
   evidence:
   - kind: chair activity
     first: '2011-05-11'
@@ -118,10 +123,6 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/rtcweb.html
-  - kind: minutes without them
-    date: '2013-11-03'
-    subject: IETF 88 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/88/minutes/minutes-88-rtcweb.txt
   - kind: shepherded
     documents:
     - draft-ietf-rtcweb-alpn
@@ -138,13 +139,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-05-03'
-      not_before: '2011-03-31'
+      date: '2010-11-07'
     end:
       certainty: exact
       date: '2014-04-16'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2011-05-03)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
   evidence:
   - kind: WG Action
     date: '2011-05-03'
@@ -201,23 +201,18 @@ chairs:
     - date: '2013-11-03'
       subject: IETF 88 proceedings charter
       url: https://www.ietf.org/proceedings/88/rtcweb.html
-  - kind: minutes without them
-    date: '2014-11-09'
-    subject: IETF 91 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/91/minutes/minutes-91-rtcweb.txt
 - person: 105791
   name: Cullen Jennings
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-05-03'
-      not_before: '2011-03-31'
+      date: '2010-11-07'
     end:
       certainty: exact
       date: '2018-11-19'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2011-05-03)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
   evidence:
   - kind: WG Action
     date: '2011-05-03'
@@ -286,13 +281,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-05-03'
-      not_before: '2011-03-31'
+      date: '2010-11-07'
     end:
       certainty: group-closed
       date: '2024-04-15'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2011-05-03)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
   evidence:
   - kind: WG Action
     date: '2011-05-03'

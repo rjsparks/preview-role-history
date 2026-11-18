@@ -23,22 +23,16 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2016-02-26'
-      not_before: '2016-02-26'
+      date: '2015-11-01'
     end:
       certainty: between
       not_before: '2016-04-03'
+      not_after: '2016-06-10'
     notes:
-    - 'End: after the BOF''s last session, IETF 95 (2016-04-03)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2015-11-01)'
+    - 'End: the BOF met at IETF 95 (2016-04-03)'
+    - 'End: the group closed (2016-06-10)'
   evidence:
-  - kind: BOF session
-    meeting: '94'
-    date: '2015-11-01'
-    url: https://www.ietf.org/proceedings/94/arcing.html
-  - kind: BOF session
-    meeting: '95'
-    date: '2016-04-03'
-    url: https://www.ietf.org/proceedings/95/arcing.html
   - kind: proceedings
     listed_in: 2
     first: '2015-11-01'
@@ -50,28 +44,30 @@ chairs:
     - date: '2016-04-03'
       subject: IETF 95 proceedings charter
       url: https://www.ietf.org/proceedings/95/arcing.html
+  - kind: BOF session
+    meeting: '94'
+    date: '2015-11-01'
+    url: https://www.ietf.org/proceedings/94/arcing.html
+  - kind: BOF session
+    meeting: '95'
+    date: '2016-04-03'
+    url: https://www.ietf.org/proceedings/95/arcing.html
 - person: 110049
   name: Joe Hildebrand
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2016-02-26'
-      not_before: '2016-02-26'
+      date: '2015-11-01'
     end:
       certainty: between
       not_before: '2016-04-03'
+      not_after: '2016-06-10'
     notes:
-    - 'End: after the BOF''s last session, IETF 95 (2016-04-03)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2015-11-01)'
+    - 'End: the BOF met at IETF 95 (2016-04-03)'
+    - 'End: the group closed (2016-06-10)'
   evidence:
-  - kind: BOF session
-    meeting: '94'
-    date: '2015-11-01'
-    url: https://www.ietf.org/proceedings/94/arcing.html
-  - kind: BOF session
-    meeting: '95'
-    date: '2016-04-03'
-    url: https://www.ietf.org/proceedings/95/arcing.html
   - kind: proceedings
     listed_in: 2
     first: '2015-11-01'
@@ -83,3 +79,11 @@ chairs:
     - date: '2016-04-03'
       subject: IETF 95 proceedings charter
       url: https://www.ietf.org/proceedings/95/arcing.html
+  - kind: BOF session
+    meeting: '94'
+    date: '2015-11-01'
+    url: https://www.ietf.org/proceedings/94/arcing.html
+  - kind: BOF session
+    meeting: '95'
+    date: '2016-04-03'
+    url: https://www.ietf.org/proceedings/95/arcing.html

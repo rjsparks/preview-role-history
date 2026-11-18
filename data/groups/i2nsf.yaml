@@ -25,8 +25,9 @@ chairs:
       certainty: exact
       date: '2014-10-23'
     end:
-      certainty: approximate
-      date: '2015-02-10'
+      certainty: between
+      not_before: '2015-02-10'
+      not_after: '2015-06-12'
   - start:
       certainty: exact
       date: '2015-06-12'
@@ -103,6 +104,16 @@ chairs:
   status: confirmed
   periods:
   - start:
+      certainty: evidence-only
+      not_after: '2014-07-20'
+    end:
+      certainty: between
+      not_before: '2014-07-20'
+      not_after: '2014-11-09'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
+    - 'End: not listed among the chairs in meeting minutes (2014-11-09)'
+  - start:
       certainty: exact
       date: '2015-09-10'
     end:
@@ -147,6 +158,10 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/i2nsf.html
+  - kind: minutes without them
+    date: '2014-11-09'
+    subject: IETF 91 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/91/minutes/minutes-91-i2nsf.txt
   - kind: shepherded
     documents:
     - draft-ietf-i2nsf-problem-and-use-cases
@@ -175,10 +190,6 @@ chairs:
     - date: '2017-09-15'
       subject: '[I2nsf] Call for adoption of draft-abad-i2nsf-sdn-ipsec-flow-protection'
       url: https://mailarchive.ietf.org/arch/msg/i2nsf/NZNMU_4hViafegbE-GyKdywju4k/
-  - kind: minutes without them
-    date: '2015-07-19'
-    subject: IETF 93 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/93/minutes/minutes-93-i2nsf.txt
   - kind: shepherded
     documents:
     - draft-ietf-i2nsf-framework
@@ -188,24 +199,27 @@ chairs:
   status: confirmed
   periods:
   - start:
+      certainty: evidence-only
+      not_after: '2014-07-20'
+    end:
+      certainty: between
+      not_before: '2015-06-02'
+      not_after: '2015-07-19'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2015-06-02)'
+    - 'End: not listed among the chairs in meeting minutes (2015-07-19)'
+  - start:
       certainty: exact
       date: '2015-09-10'
     end:
-      certainty: approximate
-      date: '2017-06-19'
-    notes:
-    - 'End: announced on the group''s list (2017-06-19)'
+      certainty: group-closed
+      date: '2023-06-21'
   evidence:
   - kind: WG Action
     date: '2015-09-18'
     subject: 'WG Action: Formed Interface to Network Security Functions (i2nsf)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/yMjxyQT_dEWLHkjAWOmv4dXJudY/
-  - kind: list message
-    date: '2017-06-19'
-    says: end
-    subject: '[I2nsf] Chairs'
-    url: https://mailarchive.ietf.org/arch/msg/i2nsf/rvRx1dWFSRgQ2iDOGK5J09Jy190/
-    excerpt: I'd like to thank him for his service, helping to get I2NSF off to a good start with Linda.
   - kind: chair activity
     first: '2015-05-13'
     last: '2023-03-27'
@@ -241,6 +255,10 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/i2nsf.html
+  - kind: minutes without them
+    date: '2015-07-19'
+    subject: IETF 93 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/93/minutes/minutes-93-i2nsf.txt
   - kind: shepherded
     documents:
     - draft-ietf-i2nsf-applicability

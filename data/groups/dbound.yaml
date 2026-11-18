@@ -30,23 +30,19 @@ chairs:
     subject: 'WG Action: Formed Domain Boundaries (dbound)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/0Fk6DhobDBZW58yRSciM44F3pqA/
   - kind: proceedings
-    listed_in: 6
-    first: '2014-07-20'
+    listed_in: 4
+    first: '2015-07-19'
     last: '2016-07-17'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
-      url: https://www.ietf.org/proceedings/90/dbound.html
-    - date: '2015-03-22'
-      subject: IETF 92 proceedings charter
-      url: https://www.ietf.org/proceedings/92/dbound.html
+    - date: '2015-07-19'
+      subject: IETF 93 proceedings charter
+      url: https://www.ietf.org/proceedings/93/dbound.html
+    - date: '2015-11-01'
+      subject: IETF 94 proceedings charter
+      url: https://www.ietf.org/proceedings/94/dbound.html
     - date: '2016-07-17'
       subject: IETF 96 proceedings charter
       url: https://www.ietf.org/proceedings/96/dbound.html
-  - kind: minutes without them
-    date: '2014-03-02'
-    subject: IETF 89 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/89/minutes/minutes-89-dbound.txt
 - person: 19869
   name: Marc Blanchet
   status: confirmed
@@ -86,6 +82,17 @@ chairs:
   name: Murray Kucherawy
   status: confirmed
   periods:
+  - start:
+      certainty: between
+      not_before: '2014-03-02'
+      not_after: '2014-07-20'
+    end:
+      certainty: between
+      not_before: '2014-07-20'
+      not_after: '2015-03-23'
+    notes:
+    - 'Start: not listed among the chairs in meeting minutes (2014-03-02)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   - start:
       certainty: exact
       date: '2015-03-23'

@@ -5,10 +5,19 @@ parent: irtf
 state: active
 started: '2015-01-23'
 closed: null
-bof: false
+bof: true
 never_chartered: false
 chartered: '2015-11-30'
-bof_sessions: []
+bof_sessions:
+- meeting: '92'
+  date: '2015-03-22'
+  url: https://datatracker.ietf.org/meeting/92/session/hrpc/
+- meeting: '93'
+  date: '2015-07-19'
+  url: https://datatracker.ietf.org/meeting/93/session/hrpc/
+- meeting: '94'
+  date: '2015-11-01'
+  url: https://datatracker.ietf.org/meeting/94/session/hrpc/
 history_url: https://datatracker.ietf.org/group/hrpc/history/
 chairs:
 - person: 3747
@@ -17,11 +26,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2015-01-23'
-      not_before: '2015-01-23'
+      date: '2014-07-20'
     end:
       certainty: exact
       date: '2021-05-06'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   evidence:
   - kind: chair activity
     first: '2018-06-13'
@@ -51,11 +61,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2015-01-23'
-      not_before: '2015-01-23'
+      date: '2014-07-20'
     end:
       certainty: exact
       date: '2018-04-17'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   evidence:
   - kind: list message
     date: '2018-04-17'

@@ -20,10 +20,11 @@ chairs:
       not_after: '1994-03-28'
     end:
       certainty: between
-      not_before: '1994-12-05'
+      not_before: '1994-03-28'
       not_after: '1999-02-09'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (1999-02-09)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (1999-02-09)'
   evidence:
   - kind: proceedings
     listed_in: 2
@@ -49,10 +50,11 @@ chairs:
       not_after: '1994-03-28'
     end:
       certainty: between
-      not_before: '1994-12-05'
+      not_before: '1994-03-28'
       not_after: '1999-02-09'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (1999-02-09)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (1999-02-09)'
   evidence:
   - kind: proceedings
     listed_in: 2
@@ -74,9 +76,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1999-02-09'
+      certainty: between
       not_before: '1999-01-14'
+      not_after: '1999-02-09'
     end:
       certainty: group-closed
       date: '2003-07-21'
@@ -102,9 +104,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1999-02-01'
+      certainty: between
       not_before: '1999-01-14'
+      not_after: '1999-02-01'
     end:
       certainty: group-closed
       date: '2003-07-21'

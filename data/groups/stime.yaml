@@ -20,10 +20,12 @@ chairs:
       not_after: '1999-08-12'
     end:
       certainty: between
-      not_before: '2004-07-15'
-      not_after: '2007-07-22'
+      not_before: '1999-08-13'
+      not_after: '2005-02-08'
     notes:
-    - 'End: became an Area Director, first serving at IETF 69 (2007-07-22)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1999-08-12)'
+    - 'End: named as chair in the WG Action announcement (1999-08-13)'
+    - 'End: the group closed (2005-02-08)'
   evidence:
   - kind: WG Action
     date: '1999-08-13'
@@ -43,19 +45,14 @@ chairs:
     - date: '2004-07-15'
       subject: IETF 60 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/60/224.htm
-  - kind: joined the IESG
-    after_meeting: '68'
-    after: '2007-03-18'
-    by_meeting: '69'
-    by: '2007-07-22'
 - person: 20713
   name: Patrick Cain
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1999-08-12'
+      certainty: between
       not_before: '1999-06-23'
+      not_after: '1999-08-12'
     end:
       certainty: group-closed
       date: '2005-02-08'

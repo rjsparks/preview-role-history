@@ -14,32 +14,6 @@ bof_sessions:
   url: https://www.ietf.org/proceedings/51/51-121.htm
 history_url: https://datatracker.ietf.org/group/sasl/history/
 chairs:
-- person: 10554
-  name: Roland Hedberg
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: evidence-only
-      not_after: '2001-08-05'
-    end:
-      certainty: between
-      not_before: '2001-08-05'
-      not_after: '2003-03-07'
-    notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2003-03-07)'
-  evidence:
-  - kind: proceedings
-    listed_in: 1
-    first: '2001-08-05'
-    last: '2001-08-05'
-    examples:
-    - date: '2001-08-05'
-      subject: IETF 51 proceedings charter
-      url: https://www.ietf.org/proceedings/51/51-121.htm
-  - kind: minutes without them
-    date: '2003-07-13'
-    subject: IETF 57 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/57/minutes/SASL.TXT
 - person: 102154
   name: Alexey Melnikov
   status: unconfirmed
@@ -52,7 +26,9 @@ chairs:
       not_before: '2003-10-08'
       not_after: '2003-11-09'
     notes:
-    - 'End: no longer listed among the chairs in meeting minutes (2003-11-09)'
+    - 'Start: listed as chair in meeting minutes (2001-08-05)'
+    - 'End: started a last call or adoption call on the group''s list (2003-10-08)'
+    - 'End: not listed among the chairs in meeting minutes (2003-11-09)'
   evidence:
   - kind: chair activity
     first: '2003-10-08'
@@ -70,14 +46,6 @@ chairs:
     - date: '2001-08-05'
       subject: IETF 51 minutes in the proceedings
       url: https://www.ietf.org/proceedings/51/minutes/SASL.HTM
-  - kind: proceedings
-    listed_in: 1
-    first: '2001-08-05'
-    last: '2001-08-05'
-    examples:
-    - date: '2001-08-05'
-      subject: IETF 51 proceedings charter
-      url: https://www.ietf.org/proceedings/51/51-121.htm
   - kind: minutes without them
     date: '2003-11-09'
     subject: Draft Minutes for SASL working group meeting
@@ -87,15 +55,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2005-02-24'
+      certainty: between
       not_before: '2004-11-07'
+      not_after: '2005-02-24'
     end:
       certainty: group-closed
       date: '2010-08-23'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2004-11-07)'
     - 'Start: listed as chair in a proceedings charter snapshot (2005-02-24)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2004-11-07)'
   evidence:
   - kind: chair activity
     first: '2005-03-26'
@@ -147,8 +115,8 @@ chairs:
       url: https://www.ietf.org/proceedings/77/sasl.html
   - kind: minutes without them
     date: '2004-11-07'
-    subject: IETF 61 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/61/minutes/sasl.html
+    subject: minutes of the IETF#61 SASL session
+    url: https://mailarchive.ietf.org/arch/msg/sasl/qaFmRKPBi3ayhzlEEV5DiUFpcT8/
   - kind: session requests
     meetings:
     - '67'
@@ -169,11 +137,12 @@ chairs:
       not_before: '2001-08-05'
       not_after: '2002-12-19'
     end:
-      certainty: approximate
-      date: '2004-12-10'
+      certainty: announced
+      date: '2004-11-11'
     notes:
-    - 'End: announced on the group''s list (2004-12-10)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2001-08-05)'
+    - 'Start: not listed among the chairs in meeting minutes (2001-08-05)'
+    - 'Start: named as chair in the WG Action announcement (2002-12-19)'
+    - 'End: announced on the group''s list (2004-11-11)'
   evidence:
   - kind: WG Action
     date: '2002-12-19'
@@ -238,10 +207,6 @@ chairs:
     date: '2001-08-05'
     subject: IETF 51 minutes in the proceedings
     url: https://www.ietf.org/proceedings/51/minutes/SASL.HTM
-  - kind: minutes without them
-    date: '2005-03-06'
-    subject: IETF62 SASL draft minutes 0.1
-    url: https://mailarchive.ietf.org/arch/msg/sasl/y3Ej5jk_JjNFyZZ5xRjRud_EWv4/
   - kind: joined the IESG
     after_meeting: '61'
     after: '2004-11-07'
@@ -253,25 +218,17 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2002-12-19'
-      not_before: '2002-11-25'
+      date: '2001-08-05'
     end:
       certainty: group-closed
       date: '2010-08-23'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2002-12-19)'
+    - 'Start: listed as chair in meeting minutes (2001-08-05)'
   evidence:
   - kind: WG Action
     date: '2002-12-19'
     subject: 'WG Action: Simple Authentication and Security Layer (sasl)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/XgtwlUJoll0ly8suuEqtjvu8Hqs/
-  - kind: list message
-    date: '2005-01-17'
-    says: start
-    subject: Please welcome Tom Yu as a SASL co-chair
-    url: https://mailarchive.ietf.org/arch/msg/sasl/uIWRe8TN4kndxTSis5xECFyf3QU/
-    excerpt: I'd like to welcome Tom Yu who will be joining Kurt as one of the chairs of the SASL working
-      group.
   - kind: chair activity
     first: '2003-03-10'
     last: '2007-03-06'
@@ -307,16 +264,16 @@ chairs:
       subject: IETF 76 minutes in the proceedings
       url: https://www.ietf.org/proceedings/76/minutes/sasl.txt
   - kind: proceedings
-    listed_in: 17
-    first: '2001-08-05'
+    listed_in: 16
+    first: '2003-03-07'
     last: '2010-03-25'
     examples:
-    - date: '2001-08-05'
-      subject: IETF 51 proceedings charter
-      url: https://www.ietf.org/proceedings/51/51-121.htm
     - date: '2003-03-07'
       subject: IETF 56 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/56/213.htm
+    - date: '2003-06-26'
+      subject: IETF 57 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/57/211.htm
     - date: '2010-03-25'
       subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/sasl.html

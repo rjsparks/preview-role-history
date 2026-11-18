@@ -16,9 +16,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1999-12-30'
+      certainty: between
       not_before: '1999-11-16'
+      not_after: '1999-12-30'
     end:
       certainty: group-closed
       date: '2013-07-24'
@@ -137,10 +137,11 @@ chairs:
       certainty: evidence-only
       not_after: '1999-12-30'
     end:
-      certainty: approximate
-      date: '2003-08-13'
+      certainty: announced
+      date: '2003-06-19'
     notes:
-    - 'End: announced on the group''s list (2003-08-13)'
+    - 'Start: named as chair in the WG Action announcement (1999-12-30)'
+    - 'End: announced on the group''s list (2003-06-19)'
   evidence:
   - kind: WG Action
     date: '1999-12-30'
@@ -205,24 +206,20 @@ chairs:
     - date: '2003-02-04'
       subject: IETF 56 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/56/136.htm
-  - kind: minutes without them
-    date: '2005-03-06'
-    subject: IETF 62 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/62/minutes/dnsext.html
 - person: 109178
   name: Andrew Sullivan
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2008-07-27'
+      certainty: between
       not_before: '2007-03-18'
+      not_after: '2008-06-13'
     end:
       certainty: group-closed
       date: '2013-07-24'
     notes:
-    - 'Start: listed as chair in meeting minutes (2008-07-27)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2007-03-18)'
+    - 'Start: not listed among the chairs in meeting minutes (2007-03-18)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2008-06-13)'
   evidence:
   - kind: WG Review
     date: '2009-07-07'
@@ -313,15 +310,16 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2003-06-19'
     end:
       certainty: between
-      not_before: '2007-06-11'
+      not_before: '2007-03-18'
       not_after: '2008-07-27'
     notes:
     - 'Start: announced on the group''s list (2003-06-19)'
-    - 'End: no longer listed among the chairs in meeting minutes (2008-07-27)'
+    - 'End: listed as chair in meeting minutes (2007-03-18)'
+    - 'End: not listed among the chairs in meeting minutes (2008-07-27)'
   evidence:
   - kind: WG Action
     date: '2003-10-06'
@@ -396,10 +394,6 @@ chairs:
     - date: '2007-06-11'
       subject: IETF 69 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/69/dnsext.html
-  - kind: minutes without them
-    date: '2002-11-17'
-    subject: IETF 55 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/55/minutes/dnsext.htm
   - kind: minutes without them
     date: '2008-07-27'
     subject: IETF-72 DNSEXT draft minutes

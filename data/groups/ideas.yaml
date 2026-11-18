@@ -57,11 +57,25 @@ chairs:
   status: confirmed
   periods:
   - start:
+      certainty: evidence-only
+      not_after: '2016-12-11'
+    end:
+      certainty: between
+      not_before: '2017-07-16'
+      not_after: '2017-09-07'
+    notes:
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2016-12-11)'
+    - 'End: the BOF met at IETF 99 (2017-07-16)'
+  - start:
       certainty: exact
       date: '2017-09-07'
     end:
-      certainty: group-closed
-      date: '2017-10-02'
+      certainty: between
+      not_before: '2017-09-29'
+      not_after: '2017-10-02'
+    notes:
+    - 'End: named as a proposed chair in a WG Review announcement (2017-09-29)'
+    - 'End: the group closed (2017-10-02)'
   evidence:
   - kind: WG Review
     date: '2017-09-29'

@@ -41,10 +41,6 @@ chairs:
     - date: '2015-03-22'
       subject: IETF 92 proceedings charter
       url: https://www.ietf.org/proceedings/92/dots.html
-  - kind: minutes without them
-    date: '2015-07-19'
-    subject: IETF 93 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/93/minutes/minutes-93-dots.txt
 - person: 103686
   name: Valery Smyslov
   status: confirmed
@@ -82,10 +78,6 @@ chairs:
     - date: '2019-11-12'
       subject: '[Dots] DOTS agenda for IETF106'
       url: https://mailarchive.ietf.org/arch/msg/dots/TxrYHXE0J2X-h0V0GgqC9c_jwQo/
-  - kind: minutes without them
-    date: '2016-04-03'
-    subject: IETF 95 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/95/minutes/minutes-95-dots.txt
   - kind: shepherded
     documents:
     - draft-ietf-dots-architecture
@@ -101,6 +93,15 @@ chairs:
   name: Roman Danyliw
   status: confirmed
   periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2014-07-20'
+    end:
+      certainty: between
+      not_before: '2014-07-20'
+      not_after: '2015-02-17'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   - start:
       certainty: exact
       date: '2015-02-17'
@@ -171,18 +172,28 @@ chairs:
     - date: '2016-11-13'
       subject: IETF 97 proceedings charter
       url: https://www.ietf.org/proceedings/97/dots.html
-  - kind: shepherded
-    documents:
-    - draft-ietf-dots-data-channel
   - kind: joined the IESG
     after_meeting: '104'
     after: '2019-03-23'
     by_meeting: '105'
     by: '2019-07-20'
+  - kind: shepherded
+    documents:
+    - draft-ietf-dots-data-channel
 - person: 106405
   name: Tobias Gondrom
   status: confirmed
   periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2014-07-20'
+    end:
+      certainty: between
+      not_before: '2014-07-20'
+      not_after: '2015-03-22'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
+    - 'End: not listed among the chairs in meeting minutes (2015-03-22)'
   - start:
       certainty: exact
       date: '2015-07-16'
@@ -243,6 +254,10 @@ chairs:
     - date: '2016-11-13'
       subject: IETF 97 proceedings charter
       url: https://www.ietf.org/proceedings/97/dots.html
+  - kind: minutes without them
+    date: '2015-03-22'
+    subject: IETF 92 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/92/minutes/minutes-92-dots.txt
 - person: 111620
   name: Liang Xia
   status: confirmed
@@ -261,10 +276,14 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/dots/De-dhTB0Fyn7ymYlOYSIoFSO1wM/
     excerpt: Please welcome Liang Xia as a third DOTS co-chair, as he moves up from the Secretary position
       to join Roman and Tobias at the helm.
-  - kind: minutes without them
-    date: '2016-04-03'
-    subject: IETF 95 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/95/minutes/minutes-95-dots.txt
+  - kind: chair activity
+    first: '2019-08-26'
+    last: '2019-08-26'
+    messages: 1
+    examples:
+    - date: '2019-08-26'
+      subject: '[Dots] WGLC for draft-ietf-dots-signal-filter-control:'
+      url: https://mailarchive.ietf.org/arch/msg/dots/apxTHn0E97cGp15g2jLzVWcUNYo/
   - kind: shepherded
     documents:
     - draft-ietf-dots-requirements

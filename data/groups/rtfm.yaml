@@ -19,9 +19,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1997-08-11'
+      certainty: between
       not_before: '1996-01-12'
+      not_after: '1997-08-11'
     end:
       certainty: group-closed
       date: '2000-10-10'
@@ -47,9 +47,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1997-04-07'
+      certainty: between
       not_before: '1996-01-12'
+      not_after: '1997-04-07'
     end:
       certainty: group-closed
       date: '2000-10-10'
@@ -75,9 +75,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1997-04-07'
+      certainty: between
       not_before: '1996-01-12'
+      not_after: '1997-04-07'
     end:
       certainty: group-closed
       date: '2000-10-10'
@@ -108,9 +108,10 @@ chairs:
     end:
       certainty: between
       not_before: '1997-04-07'
-      not_after: '1997-08-11'
+      not_after: '1997-10-24'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (1997-08-11)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (1997-10-24)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -121,6 +122,6 @@ chairs:
       subject: IETF 38 proceedings charter
       url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr70.htm
   - kind: minutes without them
-    date: '1997-08-11'
-    subject: IETF 39 proceedings charter
-    url: https://www.ietf.org/proceedings/39/transit97aug-117.htm
+    date: '1997-10-24'
+    subject: IETF 40 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-122.htm

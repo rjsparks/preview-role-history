@@ -30,8 +30,10 @@ chairs:
     end:
       certainty: between
       not_before: '2024-11-02'
+      not_after: '2025-02-06'
     notes:
-    - 'End: after the BOF''s last session, IETF 121 (2024-11-02)'
+    - 'End: the BOF met at IETF 121 (2024-11-02)'
+    - 'End: the group closed (2025-02-06)'
   evidence:
   - kind: BOF session
     meeting: '119'
@@ -55,8 +57,10 @@ chairs:
     end:
       certainty: between
       not_before: '2024-11-02'
+      not_after: '2025-02-06'
     notes:
-    - 'End: after the BOF''s last session, IETF 121 (2024-11-02)'
+    - 'End: the BOF met at IETF 121 (2024-11-02)'
+    - 'End: the group closed (2025-02-06)'
   evidence:
   - kind: BOF session
     meeting: '119'
@@ -79,9 +83,11 @@ chairs:
       date: '2024-02-08'
     end:
       certainty: between
-      not_before: '2024-11-02'
+      not_before: '2024-11-06'
+      not_after: '2025-02-06'
     notes:
-    - 'End: after the BOF''s last session, IETF 121 (2024-11-02)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2024-11-06)'
+    - 'End: the group closed (2025-02-06)'
   evidence:
   - kind: chair activity
     first: '2024-03-08'

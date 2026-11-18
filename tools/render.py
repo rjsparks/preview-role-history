@@ -25,7 +25,8 @@ TYPE_NAMES = {"wg": "WG", "rg": "RG", "ag": "AG", "rag": "RAG", "edwg": "EDWG", 
 # Hover text for each date, and the legend: keyed by how the date reads on the page.
 CERTAINTY_HELP = {
     "exact": "Recorded on the day the change was made.",
-    "approximate": "Dated from an announcement, a list message, minutes or a datatracker edit made near the time.",
+    "approximate": "Dated from a datatracker edit made near the time.",
+    "announced": "Dated from an announcement or mailing list message about the change.",
     "on-or-before": "The real date may be earlier: for a start, the earliest evidence we have; for an end, when they "
                     "had stopped (usually on becoming an Area Director).",
     "between": "Sometime within this range.",
@@ -41,8 +42,11 @@ PHASES = {
 DATE_FORMS = [
     ("start", {"certainty": "exact", "date": "2012-03-04"}, "Recorded on the day the change was made."),
     ("start", {"certainty": "approximate", "date": "2010-03-29"},
-     "Dated from an announcement, a mailing list message, meeting minutes or a datatracker edit made near the "
-     "time. Usually within a few weeks."),
+     "Dated from a datatracker edit made near the time, or from when the datatracker recorded someone joining "
+     "the IESG. Usually within a few weeks."),
+    ("start", {"certainty": "announced", "date": "2007-04-23"},
+     "The date of an announcement or mailing list message about the change. The change itself may have taken "
+     "effect a little before or after."),
     ("start", {"certainty": "on-or-before", "date": "2006-03-19"},
      "The earliest evidence we have. They may have started earlier."),
     ("end", {"certainty": "evidence-only", "not_before": "2009-11-08"},
@@ -52,6 +56,7 @@ DATE_FORMS = [
     ("end", {"certainty": "on-or-before", "date": "2000-03-26"},
      "Had stopped by then, usually because they became an Area Director. They may have stopped earlier."),
     ("end", {"certainty": "group-closed", "date": "2009-05-01"}, "Still chair when the group closed."),
+    ("end", {"certainty": "group-closed"}, "Still chair when the group closed; no record dates the closing."),
     ("end", {"certainty": "ongoing"}, "Current chair."),
 ]
 
@@ -268,9 +273,11 @@ class Site:
     def status_html(entry):
         status = entry.get("status")
         label = cd.STATUSES.get(status, status)
+        n = len(entry.get("confirmations") or [])
+        confirmed = f' <span class="muted">· confirmed by {n} contributor{"s" if n != 1 else ""}</span>' if n else ""
         if status == "unconfirmed":
-            return f'<span class="badge warn">{e(label)}</span>'
-        return f'<span class="muted">{e(label)}</span>'
+            return f'<span class="badge warn">{e(label)}</span>{confirmed}'
+        return f'<span class="muted">{e(label)}</span>{confirmed}'
 
     # --- pages ---
 

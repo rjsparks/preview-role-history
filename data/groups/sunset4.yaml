@@ -16,12 +16,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2012-04-05'
-      not_after: '2013-03-13'
+      certainty: on-or-before
+      date: '2012-03-25'
     end:
       certainty: group-closed
       date: '2018-05-16'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2012-03-25)'
   evidence:
   - kind: WG Review
     date: '2013-01-04'
@@ -78,12 +79,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2012-04-05'
-      not_after: '2013-03-13'
+      certainty: on-or-before
+      date: '2012-03-25'
     end:
       certainty: group-closed
       date: '2018-05-16'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2012-03-25)'
   evidence:
   - kind: WG Review
     date: '2013-01-04'

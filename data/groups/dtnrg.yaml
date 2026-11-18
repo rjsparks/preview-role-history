@@ -68,15 +68,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-07-24'
+      certainty: between
       not_before: '2010-07-25'
+      not_after: '2011-07-19'
     end:
       certainty: group-closed
       date: '2016-04-05'
     notes:
-    - 'Start: requested the group''s session for IETF 81 (2011-07-24)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2010-07-25)'
+    - 'Start: not listed among the chairs in meeting minutes (2010-07-25)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2011-07-19)'
   evidence:
   - kind: chair activity
     first: '2011-07-19'
@@ -118,12 +118,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2007-07-22'
+      date: '2006-10-17'
     end:
       certainty: exact
       date: '2015-01-23'
     notes:
-    - 'Start: requested the group''s session for IETF 69 (2007-07-22)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2006-10-17)'
   evidence:
   - kind: chair activity
     first: '2006-10-17'

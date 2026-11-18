@@ -19,9 +19,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1997-08-11'
+      certainty: between
       not_before: '1997-06-10'
+      not_after: '1997-08-11'
     end:
       certainty: group-closed
       date: '1998-10-22'
@@ -29,7 +29,7 @@ chairs:
     - 'Start: listed as chair in a proceedings charter snapshot (1997-08-11)'
   evidence:
   - kind: proceedings
-    listed_in: 5
+    listed_in: 4
     first: '1997-08-11'
     last: '1998-04-07'
     examples:
@@ -47,9 +47,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1997-08-11'
+      certainty: between
       not_before: '1997-06-10'
+      not_after: '1997-08-11'
     end:
       certainty: group-closed
       date: '1998-10-22'
@@ -57,7 +57,7 @@ chairs:
     - 'Start: listed as chair in a proceedings charter snapshot (1997-08-11)'
   evidence:
   - kind: proceedings
-    listed_in: 5
+    listed_in: 4
     first: '1997-08-11'
     last: '1998-04-07'
     examples:

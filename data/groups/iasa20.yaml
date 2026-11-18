@@ -33,6 +33,18 @@ chairs:
     end:
       certainty: exact
       date: '2017-03-13'
+  - start:
+      certainty: between
+      not_before: '2017-03-13'
+      not_after: '2017-03-26'
+    end:
+      certainty: between
+      not_before: '2018-03-17'
+      not_after: '2018-05-09'
+    notes:
+    - 'Start: the BOF met at IETF 98 (2017-03-26)'
+    - 'End: the BOF met at IETF 101 (2018-03-17)'
+    - 'End: the group closed (2018-05-09)'
   evidence:
   - kind: BOF session
     meeting: '98'
@@ -60,9 +72,19 @@ chairs:
     end:
       certainty: between
       not_before: '2018-03-17'
+      not_after: '2018-05-09'
     notes:
-    - 'End: after the BOF''s last session, IETF 101 (2018-03-17)'
+    - 'End: the BOF met at IETF 101 (2018-03-17)'
+    - 'End: the group closed (2018-05-09)'
   evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2017-03-26'
+    last: '2017-03-26'
+    examples:
+    - date: '2017-03-26'
+      subject: IETF 98 proceedings charter
+      url: https://www.ietf.org/proceedings/98/iasa20.html
   - kind: BOF session
     meeting: '98'
     date: '2017-03-26'
@@ -79,14 +101,6 @@ chairs:
     meeting: '101'
     date: '2018-03-17'
     url: https://datatracker.ietf.org/meeting/101/session/iasa20/
-  - kind: proceedings
-    listed_in: 1
-    first: '2017-03-26'
-    last: '2017-03-26'
-    examples:
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
-      url: https://www.ietf.org/proceedings/98/iasa20.html
 - person: 109223
   name: Leslie Daigle
   status: confirmed
@@ -97,6 +111,18 @@ chairs:
     end:
       certainty: exact
       date: '2017-03-13'
+  - start:
+      certainty: between
+      not_before: '2017-03-13'
+      not_after: '2017-03-26'
+    end:
+      certainty: between
+      not_before: '2018-03-17'
+      not_after: '2018-05-09'
+    notes:
+    - 'Start: the BOF met at IETF 98 (2017-03-26)'
+    - 'End: the BOF met at IETF 101 (2018-03-17)'
+    - 'End: the group closed (2018-05-09)'
   evidence:
   - kind: BOF session
     meeting: '98'

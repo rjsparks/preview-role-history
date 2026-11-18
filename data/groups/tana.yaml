@@ -40,15 +40,15 @@ chairs:
     meeting: '72'
     date: '2008-07-27'
     url: https://datatracker.ietf.org/meeting/72/session/tana/
-  - kind: session requests
-    meetings:
-    - '72'
-    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
   - kind: joined the IESG
     after_meeting: '122'
     after: '2025-03-15'
     by_meeting: '123'
     by: '2025-07-19'
+  - kind: session requests
+    meetings:
+    - '72'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
 - person: 109422
   name: Stanislav Shalunov
   status: confirmed
@@ -57,11 +57,9 @@ chairs:
       certainty: on-or-before
       date: '2008-07-27'
     end:
-      certainty: between
-      not_before: '2008-07-27'
+      certainty: group-closed
     notes:
-    - 'Start: the BOF met at IETF 72 (2008-07-27)'
-    - 'End: after the BOF''s last session, IETF 72 (2008-07-27)'
+    - 'Start: listed as chair in meeting minutes (2008-07-27)'
   evidence:
   - kind: minutes
     listed_in: 1

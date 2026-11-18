@@ -28,57 +28,40 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: exact
-      date: '2016-02-26'
+      certainty: evidence-only
+      not_after: '2013-11-03'
     end:
       certainty: between
-      not_before: '2016-07-17'
+      not_before: '2015-11-01'
+      not_after: '2016-02-26'
     notes:
-    - 'End: after the BOF''s last session, IETF 96 (2016-07-17)'
-  evidence:
-  - kind: BOF session
-    meeting: '88'
-    date: '2013-11-03'
-    url: https://datatracker.ietf.org/meeting/88/session/its/
-  - kind: BOF session
-    meeting: '94'
-    date: '2015-11-01'
-    url: https://www.ietf.org/proceedings/94/its.html
-  - kind: BOF session
-    meeting: '95'
-    date: '2016-04-03'
-    url: https://www.ietf.org/proceedings/95/its.html
-  - kind: BOF session
-    meeting: '96'
-    date: '2016-07-17'
-    url: https://www.ietf.org/proceedings/96/its.html
-  - kind: proceedings
-    listed_in: 3
-    first: '2015-11-01'
-    last: '2016-07-17'
-    examples:
-    - date: '2015-11-01'
-      subject: IETF 94 proceedings charter
-      url: https://www.ietf.org/proceedings/94/its.html
-    - date: '2016-04-03'
-      subject: IETF 95 proceedings charter
-      url: https://www.ietf.org/proceedings/95/its.html
-    - date: '2016-07-17'
-      subject: IETF 96 proceedings charter
-      url: https://www.ietf.org/proceedings/96/its.html
-- person: 107247
-  name: Carlos Pignataro
-  status: confirmed
-  periods:
+    - 'Start: the BOF met at IETF 88 (2013-11-03)'
+    - 'End: the BOF met at IETF 94 (2015-11-01)'
   - start:
       certainty: exact
       date: '2016-02-26'
     end:
       certainty: between
       not_before: '2016-07-17'
+      not_after: '2016-10-04'
     notes:
-    - 'End: after the BOF''s last session, IETF 96 (2016-07-17)'
+    - 'End: the BOF met at IETF 96 (2016-07-17)'
+    - 'End: the group closed (2016-10-04)'
   evidence:
+  - kind: proceedings
+    listed_in: 3
+    first: '2015-11-01'
+    last: '2016-07-17'
+    examples:
+    - date: '2015-11-01'
+      subject: IETF 94 proceedings charter
+      url: https://www.ietf.org/proceedings/94/its.html
+    - date: '2016-04-03'
+      subject: IETF 95 proceedings charter
+      url: https://www.ietf.org/proceedings/95/its.html
+    - date: '2016-07-17'
+      subject: IETF 96 proceedings charter
+      url: https://www.ietf.org/proceedings/96/its.html
   - kind: BOF session
     meeting: '88'
     date: '2013-11-03'
@@ -95,6 +78,31 @@ chairs:
     meeting: '96'
     date: '2016-07-17'
     url: https://www.ietf.org/proceedings/96/its.html
+- person: 107247
+  name: Carlos Pignataro
+  status: confirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2013-11-03'
+    end:
+      certainty: between
+      not_before: '2015-11-01'
+      not_after: '2016-02-26'
+    notes:
+    - 'Start: the BOF met at IETF 88 (2013-11-03)'
+    - 'End: the BOF met at IETF 94 (2015-11-01)'
+  - start:
+      certainty: exact
+      date: '2016-02-26'
+    end:
+      certainty: between
+      not_before: '2016-07-17'
+      not_after: '2016-10-04'
+    notes:
+    - 'End: the BOF met at IETF 96 (2016-07-17)'
+    - 'End: the group closed (2016-10-04)'
+  evidence:
   - kind: proceedings
     listed_in: 3
     first: '2015-11-01'
@@ -109,6 +117,22 @@ chairs:
     - date: '2016-07-17'
       subject: IETF 96 proceedings charter
       url: https://www.ietf.org/proceedings/96/its.html
+  - kind: BOF session
+    meeting: '88'
+    date: '2013-11-03'
+    url: https://datatracker.ietf.org/meeting/88/session/its/
+  - kind: BOF session
+    meeting: '94'
+    date: '2015-11-01'
+    url: https://www.ietf.org/proceedings/94/its.html
+  - kind: BOF session
+    meeting: '95'
+    date: '2016-04-03'
+    url: https://www.ietf.org/proceedings/95/its.html
+  - kind: BOF session
+    meeting: '96'
+    date: '2016-07-17'
+    url: https://www.ietf.org/proceedings/96/its.html
 - person: 118769
   name: Alexandre Petrescu
   status: confirmed
@@ -119,7 +143,27 @@ chairs:
     end:
       certainty: exact
       date: '2016-02-26'
+  - start:
+      certainty: between
+      not_before: '2016-02-26'
+      not_after: '2016-04-03'
+    end:
+      certainty: between
+      not_before: '2016-07-17'
+      not_after: '2016-10-04'
+    notes:
+    - 'Start: the BOF met at IETF 95 (2016-04-03)'
+    - 'End: the BOF met at IETF 96 (2016-07-17)'
+    - 'End: the group closed (2016-10-04)'
   evidence:
+  - kind: proceedings
+    listed_in: 1
+    first: '2013-11-03'
+    last: '2013-11-03'
+    examples:
+    - date: '2013-11-03'
+      subject: IETF 88 proceedings charter
+      url: https://www.ietf.org/proceedings/88/its.html
   - kind: BOF session
     meeting: '88'
     date: '2013-11-03'
@@ -136,11 +180,3 @@ chairs:
     meeting: '96'
     date: '2016-07-17'
     url: https://www.ietf.org/proceedings/96/its.html
-  - kind: proceedings
-    listed_in: 1
-    first: '2013-11-03'
-    last: '2013-11-03'
-    examples:
-    - date: '2013-11-03'
-      subject: IETF 88 proceedings charter
-      url: https://www.ietf.org/proceedings/88/its.html

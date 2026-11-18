@@ -18,12 +18,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2004-01-30'
-      not_before: '2004-01-30'
     end:
-      certainty: group-closed
-      date: '2011-02-25'
+      certainty: between
+      not_before: '2004-01-30'
+      not_after: '2011-02-25'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2004-01-30)'
+    - 'End: the group closed (2011-02-25)'
   evidence:
   - kind: proceedings
     listed_in: 1

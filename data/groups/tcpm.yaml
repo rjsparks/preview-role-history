@@ -19,9 +19,10 @@ chairs:
       certainty: evidence-only
       not_after: '2004-02-12'
     end:
-      certainty: approximate
+      certainty: announced
       date: '2008-06-16'
     notes:
+    - 'Start: named as chair in the WG Action announcement (2004-02-12)'
     - 'End: announced on the group''s list (2008-06-16)'
   evidence:
   - kind: WG Action
@@ -85,10 +86,6 @@ chairs:
     - date: '2006-08-08'
       subject: IETF 66 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/66/tcpm.html
-  - kind: minutes without them
-    date: '2009-03-22'
-    subject: IETF 74 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/74/minutes/tcpm.txt
   - kind: session requests
     meetings:
     - '67'
@@ -100,12 +97,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-11-13'
-      not_before: '2004-01-15'
+      certainty: between
+      not_before: '2011-07-24'
+      not_after: '2011-11-13'
     end:
       certainty: ongoing
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2011-07-24)'
     - 'Start: listed as chair in a proceedings charter snapshot (2011-11-13)'
   evidence:
   - kind: WG Action
@@ -187,6 +185,10 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/tcpm.html
+  - kind: minutes without them
+    date: '2011-07-24'
+    subject: IETF 81 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/81/minutes/tcpm.txt
   - kind: shepherded
     documents:
     - draft-ietf-tcpm-cubic
@@ -209,7 +211,9 @@ chairs:
       not_before: '2008-07-27'
       not_after: '2009-03-10'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-03-10)'
+    - 'Start: named as chair in the WG Action announcement (2004-02-12)'
+    - 'End: requested the group''s session for IETF 72 (2008-07-27)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2009-03-10)'
   evidence:
   - kind: WG Action
     date: '2004-02-12'
@@ -258,9 +262,9 @@ chairs:
       subject: IETF 66 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/66/tcpm.html
   - kind: minutes without them
-    date: '2009-03-22'
-    subject: IETF 74 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/74/minutes/tcpm.txt
+    date: '2009-03-10'
+    subject: IETF 74 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/74/tcpm.html
   - kind: session requests
     meetings:
     - '65'
@@ -341,9 +345,10 @@ chairs:
       certainty: evidence-only
       not_after: '2008-08-21'
     end:
-      certainty: approximate
+      certainty: announced
       date: '2012-01-15'
     notes:
+    - 'Start: started a last call or adoption call on the group''s list (2008-08-21)'
     - 'End: announced on the group''s list (2012-01-15)'
   evidence:
   - kind: list message
@@ -400,24 +405,20 @@ chairs:
     - date: '2011-07-24'
       subject: IETF 81 proceedings charter
       url: https://www.ietf.org/proceedings/81/tcpm.html
-  - kind: minutes without them
-    date: '2012-03-25'
-    subject: IETF 83 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/83/minutes/minutes-83-tcpm.txt
 - person: 109321
   name: Pasi Sarolahti
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-11-13'
+      certainty: between
       not_before: '2011-07-24'
+      not_after: '2011-11-13'
     end:
       certainty: exact
       date: '2016-08-17'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2011-07-24)'
     - 'Start: listed as chair in a proceedings charter snapshot (2011-11-13)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2011-07-24)'
   evidence:
   - kind: WG Action
     date: '2012-06-21'
@@ -500,15 +501,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-11-07'
+      certainty: between
       not_before: '2009-07-26'
+      not_after: '2010-11-07'
     end:
       certainty: exact
       date: '2022-03-15'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2009-07-26)'
     - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2009-07-26)'
   evidence:
   - kind: WG Action
     date: '2012-06-21'
@@ -578,7 +579,7 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2008-06-16'
     end:
       certainty: between
@@ -586,7 +587,8 @@ chairs:
       not_after: '2011-07-24'
     notes:
     - 'Start: announced on the group''s list (2008-06-16)'
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-07-24)'
+    - 'End: requested the group''s session for IETF 80 (2011-03-27)'
+    - 'End: not listed among the chairs in meeting minutes (2011-07-24)'
   evidence:
   - kind: list message
     date: '2008-06-16'
@@ -644,6 +646,11 @@ chairs:
     date: '2011-07-24'
     subject: IETF 81 minutes in the proceedings
     url: https://www.ietf.org/proceedings/81/minutes/tcpm.txt
+  - kind: joined the IESG
+    after_meeting: '80'
+    after: '2011-03-27'
+    by_meeting: '81'
+    by: '2011-07-24'
   - kind: session requests
     meetings:
     - '73'
@@ -652,11 +659,6 @@ chairs:
     - '77'
     - '80'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
-  - kind: joined the IESG
-    after_meeting: '80'
-    after: '2011-03-27'
-    by_meeting: '81'
-    by: '2011-07-24'
 - person: 119702
   name: Ian Swett
   status: confirmed
@@ -676,7 +678,3 @@ chairs:
     date: '2023-12-15'
     subject: 'WG Action: Rechartered TCP Maintenance and Minor Extensions (tcpm)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/zyg-CssCjgoWECnq7H7OBmoXNbA/
-  - kind: minutes without them
-    date: '2016-07-17'
-    subject: IETF 96 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-tcpm.txt

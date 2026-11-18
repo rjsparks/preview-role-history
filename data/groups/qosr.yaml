@@ -22,20 +22,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1999-04-06'
+      certainty: between
       not_before: '1997-02-20'
-    end:
-      certainty: group-closed
-      date: '1999-04-06'
-- person: 14474
-  name: Eric Crawley
-  status: confirmed
-  periods:
-  - start:
-      certainty: on-or-before
-      date: '1997-04-07'
-      not_before: '1997-02-20'
+      not_after: '1997-04-07'
     end:
       certainty: group-closed
       date: '1999-04-06'
@@ -56,16 +45,19 @@ chairs:
     - date: '1998-08-17'
       subject: IETF 42 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/42/98aug-106.htm
-- person: 106652
-  name: Hal Sandick
-  status: unconfirmed
+- person: 14474
+  name: Eric Crawley
+  status: confirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '1997-02-20'
       not_after: '1997-04-07'
     end:
-      certainty: evidence-only
-      not_before: '1998-08-17'
+      certainty: group-closed
+      date: '1999-04-06'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
   evidence:
   - kind: proceedings
     listed_in: 4

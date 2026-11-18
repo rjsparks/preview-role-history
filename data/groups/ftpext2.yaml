@@ -5,10 +5,13 @@ parent: app
 state: conclude
 started: '2010-10-25'
 closed: '2012-04-03'
-bof: false
+bof: true
 never_chartered: false
 chartered: '2010-11-23'
-bof_sessions: []
+bof_sessions:
+- meeting: '78'
+  date: '2010-07-25'
+  url: https://datatracker.ietf.org/meeting/78/session/ftpext2/
 history_url: https://datatracker.ietf.org/group/ftpext2/history/
 chairs:
 - person: 6771
@@ -16,9 +19,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-11-07'
+      certainty: between
       not_before: '2010-10-25'
+      not_after: '2010-11-07'
     end:
       certainty: group-closed
       date: '2012-04-03'
@@ -52,10 +55,11 @@ chairs:
       not_after: '2010-03-21'
     end:
       certainty: between
-      not_before: '2010-06-15'
-      not_after: '2010-11-07'
+      not_before: '2010-03-21'
+      not_after: '2012-04-03'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-11-07)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-03-21)'
+    - 'End: the group closed (2012-04-03)'
   evidence:
   - kind: proceedings
     listed_in: 2
@@ -68,18 +72,19 @@ chairs:
     - date: '2010-06-15'
       subject: IETF 78 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/78/ftpext2.html
-  - kind: minutes without them
-    date: '2010-11-07'
-    subject: IETF 79 proceedings charter
-    url: https://www.ietf.org/proceedings/79/ftpext2.html
+  - kind: joined the IESG
+    after_meeting: '83'
+    after: '2012-03-25'
+    by_meeting: '84'
+    by: '2012-07-29'
 - person: 109498
   name: Anthony Bryan
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-11-07'
+      certainty: between
       not_before: '2010-10-25'
+      not_after: '2010-11-07'
     end:
       certainty: group-closed
       date: '2012-04-03'

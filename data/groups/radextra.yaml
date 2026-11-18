@@ -23,11 +23,13 @@ chairs:
       date: '2022-10-13'
     end:
       certainty: between
-      not_before: '2022-11-05'
+      not_before: '2022-10-13'
+      not_after: '2022-10-13'
     notes:
-    - 'End: after the BOF''s last session, IETF 115 (2022-11-05)'
+    - 'End: the BOF met at IETF 115 (2022-11-05)'
+    - 'End: the group closed (2022-10-13)'
   evidence:
   - kind: BOF session
     meeting: '115'
-    date: '2022-11-05'
+    date: '2022-10-13'
     url: https://datatracker.ietf.org/meeting/115/session/radextra/

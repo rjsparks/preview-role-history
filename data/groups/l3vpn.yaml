@@ -21,13 +21,8 @@ chairs:
       not_after: '2014-03-05'
     end:
       certainty: between
-      not_before: '2011-12-09'
-      not_after: '2014-03-05'
-  evidence:
-  - kind: minutes without them
-    date: '2009-03-22'
-    subject: IETF 74 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/74/minutes/l3vpn.txt
+      not_before: '2014-03-05'
+      not_after: '2014-10-22'
 - person: 2492
   name: Rick Wilder
   status: unconfirmed
@@ -40,7 +35,9 @@ chairs:
       not_before: '2008-03-31'
       not_after: '2008-11-16'
     notes:
-    - 'End: no longer listed among the chairs in meeting minutes (2008-11-16)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2003-07-09)'
+    - 'End: listed as chair in meeting minutes (2008-03-31)'
+    - 'End: not listed among the chairs in meeting minutes (2008-11-16)'
   evidence:
   - kind: minutes
     listed_in: 12
@@ -90,7 +87,9 @@ chairs:
       not_before: '2006-03-19'
       not_after: '2006-03-30'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2006-03-30)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2003-07-09)'
+    - 'End: requested the group''s session for IETF 65 (2006-03-19)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2006-03-30)'
   evidence:
   - kind: WG Action
     date: '2004-06-02'
@@ -136,44 +135,38 @@ chairs:
       subject: IETF 65 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/65/l3vpn.html
   - kind: minutes without them
-    date: '2006-07-09'
-    subject: IETF 66 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/66/minutes/l3vpn.txt
-  - kind: session requests
-    meetings:
-    - '65'
-    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+    date: '2006-03-30'
+    subject: IETF 66 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/66/l3vpn.html
   - kind: joined the IESG
     after_meeting: '65'
     after: '2006-03-19'
     by_meeting: '66'
     by: '2006-07-09'
+  - kind: session requests
+    meetings:
+    - '65'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
 - person: 19987
   name: Danny McPherson
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2008-11-16'
+      certainty: between
       not_before: '2008-03-31'
+      not_after: '2008-07-28'
     end:
       certainty: between
       not_before: '2011-12-09'
       not_after: '2014-03-05'
     notes:
-    - 'Start: listed as chair in meeting minutes (2008-11-16)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2008-03-31)'
+    - 'Start: not listed among the chairs in meeting minutes (2008-03-31)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2008-07-28)'
   evidence:
   - kind: WG Action
     date: '2011-03-21'
     subject: 'WG Action: RECHARTER: Layer 3 Virtual Private Networks (l3vpn)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/BBXmPKqbnJcup_MtHUvD4SBn0hs/
-  - kind: list message
-    date: '2009-10-07'
-    says: end
-    subject: Change in L3VPN Co-chair
-    url: https://mailarchive.ietf.org/arch/msg/l3vpn/eoY6tQZtP_Ac-yFxXVfFte-Ltjw/
-    excerpt: Danny McPherson has asked to step down as co-chair of the L3VPN working group.
   - kind: chair activity
     first: '2008-07-28'
     last: '2009-06-03'
@@ -229,7 +222,9 @@ chairs:
       not_before: '2008-07-27'
       not_after: '2008-11-16'
     notes:
-    - 'End: no longer listed among the chairs in meeting minutes (2008-11-16)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2003-07-09)'
+    - 'End: requested the group''s session for IETF 72 (2008-07-27)'
+    - 'End: not listed among the chairs in meeting minutes (2008-11-16)'
   evidence:
   - kind: WG Action
     date: '2004-06-02'
@@ -303,16 +298,16 @@ chairs:
   - start:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2012-10-04'
+      not_after: '2012-08-29'
     end:
       certainty: group-closed
       date: '2014-10-22'
     notes:
-    - 'Start: started a last call or adoption call on the group''s list (2012-10-04)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2012-08-29)'
   evidence:
   - kind: chair activity
     first: '2012-08-29'
-    last: '2014-10-28'
+    last: '2014-10-22'
     messages: 13
     examples:
     - date: '2012-08-29'
@@ -330,10 +325,6 @@ chairs:
     - date: '2014-01-06'
       subject: WG Last Call for draft-ietf-l3vpn-mvpn-mldp-nlri
       url: https://mailarchive.ietf.org/arch/msg/l3vpn/cqPXox68_VqfHRH9Zcya7sSDQ2A/
-  - kind: minutes without them
-    date: '2009-03-22'
-    subject: IETF 74 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/74/minutes/l3vpn.txt
   - kind: shepherded
     documents:
     - draft-bonica-l3vpn-orf-covering-prefixes
@@ -344,16 +335,16 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2008-11-16'
+      certainty: between
       not_before: '2008-03-31'
+      not_after: '2008-11-16'
     end:
       certainty: between
       not_before: '2011-12-09'
       not_after: '2014-03-05'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2008-03-31)'
     - 'Start: requested the group''s session for IETF 73 (2008-11-16)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2008-03-31)'
   evidence:
   - kind: minutes
     listed_in: 2
@@ -396,14 +387,16 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: approximate
-      date: '2009-10-07'
+      certainty: between
+      not_before: '2009-03-22'
+      not_after: '2009-07-26'
     end:
       certainty: between
       not_before: '2011-12-09'
       not_after: '2014-03-05'
     notes:
-    - 'Start: announced on the group''s list (2009-10-07)'
+    - 'Start: not listed among the chairs in meeting minutes (2009-03-22)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2009-07-26)'
   evidence:
   - kind: WG Action
     date: '2011-03-21'
@@ -492,10 +485,6 @@ chairs:
     - date: '2014-10-08'
       subject: WG Last Call on draft-ietf-l3vpn-mvpn-extranet
       url: https://mailarchive.ietf.org/arch/msg/l3vpn/BYdxhymZlHE7dDFUtc2EFiTCdBs/
-  - kind: minutes without them
-    date: '2009-03-22'
-    subject: IETF 74 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/74/minutes/l3vpn.txt
   - kind: shepherded
     documents:
     - draft-fang-l3vpn-virtual-pe

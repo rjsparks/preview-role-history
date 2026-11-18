@@ -119,10 +119,6 @@ chairs:
     - date: '2014-03-02'
       subject: IETF 89 proceedings charter
       url: https://www.ietf.org/proceedings/89/taps.html
-  - kind: minutes without them
-    date: '2016-07-17'
-    subject: IETF 96 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-taps.txt
   - kind: shepherded
     documents:
     - draft-ietf-taps-arch
@@ -145,10 +141,6 @@ chairs:
     - date: '2014-03-02'
       subject: IETF 89 proceedings charter
       url: https://www.ietf.org/proceedings/89/taps.html
-  - kind: minutes without them
-    date: '2014-07-20'
-    subject: IETF 90 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/90/minutes/minutes-90-taps.txt
 - person: 109753
   name: Zaheduzzaman Sarker
   status: confirmed
@@ -197,19 +189,15 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/taps.html
-  - kind: minutes without them
-    date: '2014-07-20'
-    subject: IETF 90 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/90/minutes/minutes-90-taps.txt
-  - kind: shepherded
-    documents:
-    - draft-ietf-taps-transports-usage
-    - draft-ietf-taps-transports-usage-udp
   - kind: joined the IESG
     after_meeting: '110'
     after: '2021-03-08'
     by_meeting: '111'
     by: '2021-07-26'
+  - kind: shepherded
+    documents:
+    - draft-ietf-taps-transports-usage
+    - draft-ietf-taps-transports-usage-udp
 - person: 123344
   name: Reese Enghardt
   status: confirmed
@@ -238,10 +226,6 @@ chairs:
     - date: '2022-02-21'
       subject: '[Taps] IETF 113 TAPS session - Call for agenda items'
       url: https://mailarchive.ietf.org/arch/msg/taps/5hzFBxjSB9JLxGeBjWScgBCbFEs/
-  - kind: minutes without them
-    date: '2016-07-17'
-    subject: IETF 96 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-taps.txt
   - kind: shepherded
     documents:
     - draft-ietf-taps-minset

@@ -16,15 +16,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2009-03-22'
+      certainty: between
       not_before: '2008-11-16'
+      not_after: '2009-03-22'
     end:
       certainty: exact
       date: '2014-12-04'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2008-11-16)'
     - 'Start: listed as chair in meeting minutes (2009-03-22)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2008-11-16)'
   evidence:
   - kind: WG Action
     date: '2010-03-17'
@@ -114,7 +114,7 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2002-02-28'
     end:
       certainty: between
@@ -122,7 +122,8 @@ chairs:
       not_after: '2003-10-20'
     notes:
     - 'Start: announced on the group''s list (2002-02-28)'
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2003-10-20)'
+    - 'End: named as a proposed chair in a WG Review announcement (2003-09-24)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2003-10-20)'
   evidence:
   - kind: WG Review
     date: '2003-09-24'
@@ -160,9 +161,9 @@ chairs:
       subject: IETF 57 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/57/219.htm
   - kind: minutes without them
-    date: '2003-11-09'
-    subject: IETF 58 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/58/minutes/ccamp.htm
+    date: '2003-10-20'
+    subject: IETF 58 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/58/180.htm
 - person: 102960
   name: Kireeti Kompella
   status: unconfirmed
@@ -171,9 +172,10 @@ chairs:
       certainty: evidence-only
       not_after: '2001-02-02'
     end:
-      certainty: approximate
+      certainty: announced
       date: '2006-05-02'
     notes:
+    - 'Start: named as chair in the WG Action announcement (2001-02-02)'
     - 'End: announced on the group''s list (2006-05-02)'
   evidence:
   - kind: WG Action
@@ -234,10 +236,6 @@ chairs:
     - date: '2006-01-13'
       subject: IETF 65 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/65/ccamp.html
-  - kind: minutes without them
-    date: '2006-07-09'
-    subject: IETF 66 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/66/minutes/ccamp.htm
 - person: 104198
   name: Adrian Farrel
   status: unconfirmed
@@ -250,7 +248,9 @@ chairs:
       not_before: '2009-01-24'
       not_after: '2009-03-22'
     notes:
-    - 'End: no longer listed among the chairs in meeting minutes (2009-03-22)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2003-10-20)'
+    - 'End: started a last call or adoption call on the group''s list (2009-01-24)'
+    - 'End: not listed among the chairs in meeting minutes (2009-03-22)'
   evidence:
   - kind: WG Action
     date: '2005-11-04'
@@ -316,6 +316,11 @@ chairs:
     date: '2009-03-22'
     subject: IETF 74 minutes in the proceedings
     url: https://www.ietf.org/proceedings/74/minutes/ccamp.htm
+  - kind: joined the IESG
+    after_meeting: '74'
+    after: '2009-03-22'
+    by_meeting: '75'
+    by: '2009-07-26'
   - kind: session requests
     meetings:
     - '65'
@@ -326,11 +331,6 @@ chairs:
     documents:
     - draft-ietf-ccamp-flexigrid-yang
     - draft-ietf-ccamp-gmpls-otn-b100g-applicability
-  - kind: joined the IESG
-    after_meeting: '74'
-    after: '2009-03-22'
-    by_meeting: '75'
-    by: '2009-07-26'
 - person: 104956
   name: Vijay Gill
   status: unconfirmed
@@ -339,9 +339,10 @@ chairs:
       certainty: evidence-only
       not_after: '2001-02-02'
     end:
-      certainty: approximate
+      certainty: announced
       date: '2002-02-28'
     notes:
+    - 'Start: named as chair in the WG Action announcement (2001-02-02)'
     - 'End: announced on the group''s list (2002-02-28)'
   evidence:
   - kind: WG Action
@@ -379,16 +380,12 @@ chairs:
     - date: '2001-11-26'
       subject: IETF 52 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/52/211.htm
-  - kind: minutes without them
-    date: '2003-11-09'
-    subject: IETF 58 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/58/minutes/ccamp.htm
 - person: 106471
   name: Deborah Brungard
   status: confirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2006-05-02'
     end:
       certainty: exact
@@ -419,20 +416,6 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/ccamp/gD0ru1nK2fFgGDJnsv92X1tDc4I/
     excerpt: I'm sure you'll all join me in thanking Kireeti for his long service to the working group,
       and in welcoming Deborah.
-  - kind: list message
-    date: '2014-12-04'
-    says: start
-    subject: '[CCAMP] New chairs and re-chartering and TEAS'
-    url: https://mailarchive.ietf.org/arch/msg/ccamp/dMuH33dwHuPInlnzoFzg61mikjw/
-    excerpt: Deborah and Lou will move to be the chairs of TEAS, and Fatai and Daniele will take over
-      as chairs of CCAMP.
-  - kind: list message
-    date: '2014-12-04'
-    says: end
-    subject: '[CCAMP] New chairs and re-chartering and TEAS'
-    url: https://mailarchive.ietf.org/arch/msg/ccamp/dMuH33dwHuPInlnzoFzg61mikjw/
-    excerpt: Thanks to Deborah and Lou for the hard work with CCAMP over the years, and good luck to all
-      moving forward.
   - kind: minutes
     listed_in: 14
     first: '2006-07-09'
@@ -461,10 +444,6 @@ chairs:
     - date: '2011-11-13'
       subject: IETF 82 proceedings charter
       url: https://www.ietf.org/proceedings/82/ccamp.html
-  - kind: minutes without them
-    date: '2006-03-19'
-    subject: IETF 65 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/65/minutes/ccamp.html
   - kind: session requests
     meetings:
     - '68'
@@ -562,6 +541,20 @@ chairs:
     date: '2026-04-03'
     subject: 'WG Action: Rechartered Common Control and Measurement Plane (ccamp)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/V8YfcdmW0RJUS6Wonhpc0TThgys/
+  - kind: chair activity
+    first: '2015-04-27'
+    last: '2026-06-18'
+    messages: 40
+    examples:
+    - date: '2015-04-27'
+      subject: '[CCAMP] WG Last Call on draft-ietf-ccamp-flexi-grid-fwk-03 and call for sheperd'
+      url: https://mailarchive.ietf.org/arch/msg/ccamp/TREEBrlCsEbYYSXKD5gPsR0cmHA/
+    - date: '2015-06-17'
+      subject: '[CCAMP] WG LAST CALL - draft-ietf-ccamp-flexigrid-lambda-label-03'
+      url: https://mailarchive.ietf.org/arch/msg/ccamp/YSqLifrKyPW1wWlmDdpzwpdnsa4/
+    - date: '2015-11-27'
+      subject: '[CCAMP] WG Last Call on draft-ietf-ccamp-otn-signal-type-subregistry-02 and call for sheperd'
+      url: https://mailarchive.ietf.org/arch/msg/ccamp/UZeDhs0rkrq2ZYDirN9njN_syHc/
   - kind: shepherded
     documents:
     - draft-ietf-ccamp-additional-signal-type-g709v3

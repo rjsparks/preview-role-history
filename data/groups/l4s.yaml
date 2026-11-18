@@ -21,12 +21,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2016-06-10'
-      not_before: '2016-06-10'
     end:
       certainty: between
       not_before: '2016-08-08'
+      not_after: '2016-10-04'
     notes:
-    - 'End: listed as chair in meeting minutes (2016-08-08)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2016-08-08)'
+    - 'End: the group closed (2016-10-04)'
   evidence:
   - kind: chair activity
     first: '2016-08-08'
@@ -47,10 +48,6 @@ chairs:
     - date: '2016-08-08'
       subject: '[tcpPrague] draft minutes for the L4S BoF'
       url: https://mailarchive.ietf.org/arch/msg/tcpprague/mYWh3xulCtqguygm1tTng2irQLA/
-  - kind: BOF session
-    meeting: '96'
-    date: '2016-07-17'
-    url: https://www.ietf.org/proceedings/96/l4s.html
   - kind: proceedings
     listed_in: 1
     first: '2016-07-17'
@@ -59,6 +56,10 @@ chairs:
     - date: '2016-07-17'
       subject: IETF 96 proceedings charter
       url: https://www.ietf.org/proceedings/96/l4s.html
+  - kind: BOF session
+    meeting: '96'
+    date: '2016-07-17'
+    url: https://www.ietf.org/proceedings/96/l4s.html
 - person: 112773
   name: Lars Eggert
   status: confirmed
@@ -66,12 +67,13 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2016-06-10'
-      not_before: '2016-06-10'
     end:
-      certainty: approximate
-      date: '2021-03-11'
+      certainty: between
+      not_before: '2016-08-08'
+      not_after: '2016-10-04'
     notes:
-    - 'End: became an Area Director, per the datatracker''s IESG roles (2021-03-11)'
+    - 'End: listed as chair in meeting minutes (2016-08-08)'
+    - 'End: the group closed (2016-10-04)'
   evidence:
   - kind: minutes
     listed_in: 2
@@ -84,10 +86,6 @@ chairs:
     - date: '2016-08-08'
       subject: '[tcpPrague] draft minutes for the L4S BoF'
       url: https://mailarchive.ietf.org/arch/msg/tcpprague/mYWh3xulCtqguygm1tTng2irQLA/
-  - kind: BOF session
-    meeting: '96'
-    date: '2016-07-17'
-    url: https://www.ietf.org/proceedings/96/l4s.html
   - kind: proceedings
     listed_in: 1
     first: '2016-07-17'
@@ -96,8 +94,7 @@ chairs:
     - date: '2016-07-17'
       subject: IETF 96 proceedings charter
       url: https://www.ietf.org/proceedings/96/l4s.html
-  - kind: joined the IESG
-    after_meeting: '110'
-    after: '2021-03-08'
-    by_meeting: '111'
-    by: '2021-07-26'
+  - kind: BOF session
+    meeting: '96'
+    date: '2016-07-17'
+    url: https://www.ietf.org/proceedings/96/l4s.html

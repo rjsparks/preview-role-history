@@ -16,23 +16,25 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2004-06-02'
+      certainty: between
       not_before: '2004-05-05'
+      not_after: '2004-06-02'
     end:
-      certainty: approximate
-      date: '2013-06-08'
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2011-12-09'
     notes:
     - 'Start: named as chair in the WG Action announcement (2004-06-02)'
-    - 'End: announced on the group''s list (2013-06-08)'
   - start:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2013-06-11'
+      not_after: '2012-03-25'
     end:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2013-06-11'
+      certainty: announced
+      date: '2013-06-08'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2012-03-25)'
+    - 'End: announced on the group''s list (2013-06-08)'
   evidence:
   - kind: WG Action
     date: '2004-06-02'
@@ -80,7 +82,7 @@ chairs:
       subject: IETF 78 minutes in the proceedings
       url: https://www.ietf.org/proceedings/78/minutes/bfd.txt
   - kind: proceedings
-    listed_in: 20
+    listed_in: 18
     first: '2004-06-17'
     last: '2013-03-10'
     examples:
@@ -93,18 +95,14 @@ chairs:
     - date: '2013-03-10'
       subject: IETF 86 proceedings charter
       url: https://www.ietf.org/proceedings/86/bfd.html
-  - kind: minutes without them
-    date: '2013-11-03'
-    subject: IETF 88 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/88/minutes/minutes-88-bfd.txt
 - person: 105046
   name: Jeffrey Haas
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2004-06-02'
+      certainty: between
       not_before: '2004-05-05'
+      not_after: '2004-06-02'
     end:
       certainty: ongoing
     notes:
@@ -278,7 +276,7 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2013-06-08'
     end:
       certainty: exact
@@ -339,14 +337,6 @@ chairs:
     - date: '2015-07-19'
       subject: IETF 93 proceedings charter
       url: https://www.ietf.org/proceedings/93/bfd.html
-  - kind: minutes without them
-    date: '2010-07-25'
-    subject: IETF 78 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/78/minutes/bfd.txt
-  - kind: minutes without them
-    date: '2015-11-01'
-    subject: IETF 94 candiate minutes
-    url: https://mailarchive.ietf.org/arch/msg/rtg-bfd/Kw-HZ5MEA3c31nNTLk-qVWarlYw/
   - kind: shepherded
     documents:
     - draft-ietf-bfd-on-lags
@@ -360,9 +350,11 @@ chairs:
     end:
       certainty: between
       not_before: '2015-11-01'
-      not_after: '2016-04-03'
+      not_after: '2020-07-27'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2016-04-03)'
+    - 'Start: listed as chair in meeting minutes (2005-03-06)'
+    - 'End: listed as chair in meeting minutes (2015-11-01)'
+    - 'End: not listed among the chairs in meeting minutes (2020-07-27)'
   evidence:
   - kind: minutes
     listed_in: 2

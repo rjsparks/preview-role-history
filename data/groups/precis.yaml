@@ -17,13 +17,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-06-11'
-      not_before: '2010-04-23'
+      date: '2010-03-21'
     end:
       certainty: group-closed
       date: '2017-11-15'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2010-06-11)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-03-21)'
   evidence:
   - kind: WG Action
     date: '2010-06-11'
@@ -93,6 +92,18 @@ chairs:
   status: confirmed
   periods:
   - start:
+      certainty: between
+      not_before: '2014-03-02'
+      not_after: '2014-07-20'
+    end:
+      certainty: between
+      not_before: '2014-07-20'
+      not_after: '2014-11-09'
+    notes:
+    - 'Start: not listed among the chairs in meeting minutes (2014-03-02)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
+    - 'End: not listed among the chairs in meeting minutes (2014-11-09)'
+  - start:
       certainty: exact
       date: '2015-03-22'
     end:
@@ -124,27 +135,30 @@ chairs:
     date: '2014-03-02'
     subject: IETF 89 minutes in the proceedings
     url: https://www.ietf.org/proceedings/89/minutes/minutes-89-precis.txt
-  - kind: shepherded
-    documents:
-    - draft-ietf-precis-framework
+  - kind: minutes without them
+    date: '2014-11-09'
+    subject: IETF 91 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/91/minutes/minutes-91-precis.txt
   - kind: joined the IESG
     after_meeting: '95'
     after: '2016-04-03'
     by_meeting: '96'
     by: '2016-07-17'
+  - kind: shepherded
+    documents:
+    - draft-ietf-precis-framework
 - person: 107041
   name: Yoshiro Yoneya
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-06-11'
-      not_before: '2010-04-23'
+      date: '2010-03-21'
     end:
       certainty: exact
       date: '2015-03-22'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2010-06-11)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-03-21)'
   evidence:
   - kind: WG Action
     date: '2010-06-11'

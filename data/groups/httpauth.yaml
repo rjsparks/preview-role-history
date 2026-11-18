@@ -53,10 +53,6 @@ chairs:
     - date: '2012-11-04'
       subject: IETF 85 proceedings charter
       url: https://www.ietf.org/proceedings/85/httpauth.html
-  - kind: minutes without them
-    date: '2013-07-28'
-    subject: IETF 87 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/87/minutes/minutes-87-httpauth.txt
 - person: 102154
   name: Alexey Melnikov
   status: confirmed
@@ -67,10 +63,9 @@ chairs:
     end:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2012-07-29'
+      not_after: '2013-01-31'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2011-07-24)'
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2012-07-29)'
   evidence:
   - kind: proceedings
     listed_in: 2
@@ -83,10 +78,6 @@ chairs:
     - date: '2012-03-25'
       subject: IETF 83 proceedings charter
       url: https://www.ietf.org/proceedings/83/httpauth.html
-  - kind: minutes without them
-    date: '2013-03-10'
-    subject: IETF 86 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/86/minutes/minutes-86-httpauth.txt
 - person: 103881
   name: Mark Nottingham
   status: confirmed
@@ -97,10 +88,9 @@ chairs:
     end:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2012-07-29'
+      not_after: '2013-01-31'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2011-07-24)'
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2012-07-29)'
   evidence:
   - kind: proceedings
     listed_in: 2
@@ -113,10 +103,6 @@ chairs:
     - date: '2012-03-25'
       subject: IETF 83 proceedings charter
       url: https://www.ietf.org/proceedings/83/httpauth.html
-  - kind: minutes without them
-    date: '2013-03-10'
-    subject: IETF 86 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/86/minutes/minutes-86-httpauth.txt
 - person: 106745
   name: Yoav Nir
   status: confirmed
@@ -126,10 +112,9 @@ chairs:
       not_before: '2011-12-09'
       not_after: '2012-07-29'
     end:
-      certainty: approximate
-      date: '2015-07-23'
+      certainty: group-closed
+      date: '2017-02-01'
     notes:
-    - 'End: announced on the group''s list (2015-07-23)'
     - 'Start: listed as chair in a proceedings charter snapshot (2012-07-29)'
   evidence:
   - kind: WG Action
@@ -140,13 +125,6 @@ chairs:
     date: '2013-03-12'
     subject: 'WG Action: Formed Hypertext Transmission Protocol Authentication (httpauth)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/9Ov6-uWfXkbLcf64zh5bEqNaU1c/
-  - kind: list message
-    date: '2015-07-23'
-    says: end
-    subject: '[http-auth] Chair change'
-    url: https://mailarchive.ietf.org/arch/msg/http-auth/vQaICbcp59zHzl-5LjOTAOFayfQ/
-    excerpt: As Yoav already announced, Matt has to step down, but will hopefully be back at the IETF
-      in the future.
   - kind: chair activity
     first: '2013-07-17'
     last: '2016-05-27'
@@ -210,12 +188,12 @@ chairs:
       certainty: exact
       date: '2013-03-11'
     end:
-      certainty: approximate
-      date: '2013-03-12'
-  - start:
       certainty: between
       not_before: '2013-03-12'
       not_after: '2013-03-12'
+  - start:
+      certainty: on-or-before
+      date: '2013-03-12'
     end:
       certainty: exact
       date: '2015-07-23'
@@ -281,6 +259,18 @@ chairs:
   status: confirmed
   periods:
   - start:
+      certainty: between
+      not_before: '2014-03-02'
+      not_after: '2014-07-20'
+    end:
+      certainty: between
+      not_before: '2014-07-20'
+      not_after: '2014-11-09'
+    notes:
+    - 'Start: not listed among the chairs in meeting minutes (2014-03-02)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
+    - 'End: not listed among the chairs in meeting minutes (2014-11-09)'
+  - start:
       certainty: exact
       date: '2015-07-23'
     end:
@@ -320,6 +310,10 @@ chairs:
     date: '2014-03-02'
     subject: IETF 89 minutes in the proceedings
     url: https://www.ietf.org/proceedings/89/minutes/minutes-89-httpauth.txt
+  - kind: minutes without them
+    date: '2014-11-09'
+    subject: IETF 91 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/91/minutes/minutes-91-httpauth.txt
   - kind: shepherded
     documents:
     - draft-ietf-httpauth-mutual
@@ -337,8 +331,10 @@ chairs:
       not_before: '2013-06-19'
       not_after: '2013-07-28'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2013-07-28)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2013-03-10)'
+    - 'Start: not listed among the chairs in meeting minutes (2013-03-10)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2013-06-06)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2013-06-19)'
+    - 'End: not listed among the chairs in meeting minutes (2013-07-28)'
   evidence:
   - kind: chair activity
     first: '2013-06-06'

@@ -20,10 +20,12 @@ chairs:
       not_after: '2002-07-02'
     end:
       certainty: between
-      not_before: '2005-02-18'
+      not_before: '2003-07-13'
       not_after: '2005-06-27'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2005-06-27)'
+    - 'Start: named as chair in the WG Action announcement (2002-07-02)'
+    - 'End: listed as chair in meeting minutes (2003-07-13)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2005-06-27)'
   evidence:
   - kind: WG Action
     date: '2002-07-02'
@@ -58,17 +60,17 @@ chairs:
       subject: IETF 62 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/62/dccp.html
   - kind: minutes without them
-    date: '2005-07-31'
-    subject: IETF 63 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/63/minutes/dccp.html
+    date: '2005-06-27'
+    subject: IETF 63 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/63/dccp.html
 - person: 101742
   name: Thomas Phelan
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2005-06-27'
+      certainty: between
       not_before: '2002-06-07'
+      not_after: '2005-06-27'
     end:
       certainty: group-closed
       date: '2012-11-27'
@@ -124,8 +126,10 @@ chairs:
       not_before: '2009-03-22'
       not_after: '2009-06-26'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-06-26)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2005-11-06)'
+    - 'Start: not listed among the chairs in meeting minutes (2005-11-06)'
+    - 'Start: named as a proposed chair in a WG Review announcement (2006-06-27)'
+    - 'End: requested the group''s session for IETF 74 (2009-03-22)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2009-06-26)'
   evidence:
   - kind: WG Review
     date: '2006-06-27'
@@ -188,15 +192,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2009-03-22'
+      certainty: between
       not_before: '2008-11-16'
+      not_after: '2009-03-22'
     end:
       certainty: group-closed
       date: '2012-11-27'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2008-11-16)'
     - 'Start: listed as chair in a proceedings charter snapshot (2009-03-22)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2008-11-16)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -240,7 +244,9 @@ chairs:
       not_before: '2006-03-19'
       not_after: '2006-07-09'
     notes:
-    - 'End: no longer listed among the chairs in meeting minutes (2006-07-09)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2005-06-27)'
+    - 'End: requested the group''s session for IETF 65 (2006-03-19)'
+    - 'End: not listed among the chairs in meeting minutes (2006-07-09)'
   evidence:
   - kind: minutes
     listed_in: 2
@@ -268,12 +274,12 @@ chairs:
     date: '2006-07-09'
     subject: IETF 66 minutes in the proceedings
     url: https://www.ietf.org/proceedings/66/minutes/dccp.txt
-  - kind: session requests
-    meetings:
-    - '65'
-    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
   - kind: joined the IESG
     after_meeting: '65'
     after: '2006-03-19'
     by_meeting: '66'
     by: '2006-07-09'
+  - kind: session requests
+    meetings:
+    - '65'
+    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests

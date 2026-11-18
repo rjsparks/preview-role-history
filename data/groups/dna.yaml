@@ -26,10 +26,12 @@ chairs:
       not_after: '2003-11-09'
     end:
       certainty: between
-      not_before: '2005-06-27'
+      not_before: '2005-03-06'
       not_after: '2005-10-03'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2005-10-03)'
+    - 'Start: listed as chair in meeting minutes (2003-11-09)'
+    - 'End: listed as chair in meeting minutes (2005-03-06)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2005-10-03)'
   evidence:
   - kind: WG Action
     date: '2004-02-11'
@@ -68,22 +70,21 @@ chairs:
       subject: IETF 63 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/63/dna.html
   - kind: minutes without them
-    date: '2005-11-06'
-    subject: IETF 64 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/64/minutes/dna.txt
+    date: '2005-10-03'
+    subject: IETF 64 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/64/dna.html
 - person: 105988
   name: Greg Daley
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2004-02-11'
-      not_before: '2004-01-15'
+      date: '2003-07-13'
     end:
       certainty: group-closed
       date: '2009-10-23'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2004-02-11)'
+    - 'Start: listed as chair in meeting minutes (2003-07-13)'
   evidence:
   - kind: WG Action
     date: '2004-02-11'
@@ -126,15 +127,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2005-10-03'
+      certainty: between
       not_before: '2005-03-06'
+      not_after: '2005-10-03'
     end:
       certainty: group-closed
       date: '2009-10-23'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2005-03-06)'
     - 'Start: listed as chair in a proceedings charter snapshot (2005-10-03)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2005-03-06)'
   evidence:
   - kind: chair activity
     first: '2008-09-03'

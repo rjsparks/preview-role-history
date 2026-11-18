@@ -5,10 +5,13 @@ parent: rtg
 state: active
 started: '2009-04-27'
 closed: null
-bof: false
+bof: true
 never_chartered: false
 chartered: '2009-04-28'
-bof_sessions: []
+bof_sessions:
+- meeting: '74'
+  date: '2009-03-22'
+  url: https://datatracker.ietf.org/meeting/74/session/lisp/
 history_url: https://datatracker.ietf.org/group/lisp/history/
 chairs:
 - person: 2764
@@ -17,15 +20,17 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2009-11-08'
-      not_after: '2009-11-30'
+      not_before: '2013-03-10'
+      not_after: '2013-07-17'
     end:
       certainty: between
       not_before: '2013-07-17'
       not_after: '2013-11-03'
     notes:
-    - 'Start: not yet listed among the chairs in meeting minutes (2009-11-08)'
-    - 'End: no longer listed among the chairs in meeting minutes (2013-11-03)'
+    - 'Start: not listed among the chairs in meeting minutes (2013-03-10)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2013-07-17)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2013-07-17)'
+    - 'End: not listed among the chairs in meeting minutes (2013-11-03)'
   evidence:
   - kind: list message
     date: '2009-11-30'
@@ -42,9 +47,9 @@ chairs:
       subject: '[lisp] Latest agenda for "All Things LISP" Meeting at Berlin IETF'
       url: https://mailarchive.ietf.org/arch/msg/lisp/Ue8Xn_uXVPfauyH8f_3zi0kznXg/
   - kind: minutes without them
-    date: '2009-11-08'
-    subject: IETF 76 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/76/minutes/lisp.txt
+    date: '2013-03-10'
+    subject: IETF 86 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/86/minutes/minutes-86-lisp.txt
   - kind: minutes without them
     date: '2013-11-03'
     subject: IETF 88 minutes in the proceedings
@@ -54,7 +59,7 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2009-11-30'
     end:
       certainty: exact
@@ -139,10 +144,6 @@ chairs:
     - date: '2011-11-13'
       subject: IETF 82 proceedings charter
       url: https://www.ietf.org/proceedings/82/lisp.html
-  - kind: minutes without them
-    date: '2009-11-08'
-    subject: IETF 76 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/76/minutes/lisp.txt
   - kind: session requests
     meetings:
     - '77'
@@ -159,10 +160,10 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2009-03-13'
     end:
-      certainty: approximate
+      certainty: announced
       date: '2009-11-30'
     notes:
     - 'Start: announced on the group''s list (2009-03-13)'
@@ -211,16 +212,12 @@ chairs:
     - date: '2009-06-24'
       subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/lisp.html
-  - kind: minutes without them
-    date: '2012-07-29'
-    subject: IETF 84 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/84/minutes/minutes-84-lisp.txt
 - person: 108822
   name: Terry Manderson
   status: confirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2009-11-30'
     end:
       certainty: exact
@@ -301,14 +298,6 @@ chairs:
     - date: '2011-11-13'
       subject: IETF 82 proceedings charter
       url: https://www.ietf.org/proceedings/82/lisp.html
-  - kind: minutes without them
-    date: '2009-11-08'
-    subject: IETF 76 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/76/minutes/lisp.txt
-  - kind: minutes without them
-    date: '2014-11-09'
-    subject: IETF 91 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/91/minutes/minutes-91-lisp.txt
   - kind: session requests
     meetings:
     - '80'
@@ -347,6 +336,20 @@ chairs:
     subject: '[lisp] Welcome a new co-chair'
     url: https://mailarchive.ietf.org/arch/msg/lisp/ptDhz3qy1L3teQ3H79JemDamRN8/
     excerpt: Welcome, Luigi!
+  - kind: chair activity
+    first: '2014-10-25'
+    last: '2026-01-12'
+    messages: 36
+    examples:
+    - date: '2014-10-25'
+      subject: '[lisp] WG Last Call on draft-lisp-introduction-07'
+      url: https://mailarchive.ietf.org/arch/msg/lisp/H4fa5mF7Ndo-iyGiScR5vEEi93c/
+    - date: '2014-12-04'
+      subject: '[lisp] WG Last Call draft-ietf-lisp-eid-block-mgmnt-03'
+      url: https://mailarchive.ietf.org/arch/msg/lisp/kEAjyER2dqYH9U6cKkr7Rwtq_Nc/
+    - date: '2015-01-29'
+      subject: '[lisp] WG Last Call for draft-ietf-lisp-ddt-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/lisp/c7hMjpa10k7M7LVXFW8KcX0vxP0/
   - kind: minutes
     listed_in: 3
     first: '2014-11-09'
@@ -403,6 +406,21 @@ chairs:
     subject: '[lisp] New lisp WG Co-Chair'
     url: https://mailarchive.ietf.org/arch/msg/lisp/AFIvo-rOACj3XrPHlyEjG7u8grE/
     excerpt: Welcome Padma!
+  - kind: chair activity
+    first: '2025-01-06'
+    last: '2025-06-24'
+    messages: 3
+    examples:
+    - date: '2025-01-06'
+      subject: '[lisp] WG Last Call for draft-ietf-lisp-te-20'
+      url: https://mailarchive.ietf.org/arch/msg/lisp/wXb2V_yZxFyXFV0gn0EinzNvTDE/
+    - date: '2025-06-24'
+      subject: '[lisp] Call for WG Adoption of Locator/ID Separation Protocol Delegated Database Tree
+        (LISP-DDT)'
+      url: https://mailarchive.ietf.org/arch/msg/lisp/53Li0y-W2kmFj8m6sJl_FUupf8Q/
+    - date: '2025-06-24'
+      subject: '[lisp] Call for WG Adoption of NAT traversal for LISP'
+      url: https://mailarchive.ietf.org/arch/msg/lisp/4NKxOiPTV2txBCDgUCb8xr-oKTg/
   - kind: shepherded
     documents:
     - draft-iannone-6834bis
@@ -416,9 +434,10 @@ chairs:
       certainty: evidence-only
       not_after: '2009-03-22'
     end:
-      certainty: approximate
+      certainty: announced
       date: '2009-11-30'
     notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2009-03-22)'
     - 'End: announced on the group''s list (2009-11-30)'
   evidence:
   - kind: WG Action
@@ -461,10 +480,6 @@ chairs:
     - date: '2009-06-24'
       subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/lisp.html
-  - kind: minutes without them
-    date: '2012-07-29'
-    subject: IETF 84 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/84/minutes/minutes-84-lisp.txt
   - kind: session requests
     meetings:
     - '75'

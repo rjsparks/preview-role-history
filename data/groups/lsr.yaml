@@ -18,7 +18,6 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2018-01-23'
-      not_before: '2018-01-23'
     end:
       certainty: ongoing
   evidence:
@@ -91,7 +90,6 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2018-01-23'
-      not_before: '2018-01-23'
     end:
       certainty: ongoing
   evidence:
@@ -163,6 +161,20 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: chair activity
+    first: '2023-11-17'
+    last: '2025-11-18'
+    messages: 7
+    examples:
+    - date: '2023-11-17'
+      subject: '[Lsr] WG Adoption Call - draft-pkaneria-lsr-multi-tlv (11/17/2023 - 12/09/2023)'
+      url: https://mailarchive.ietf.org/arch/msg/lsr/V4r9wJuDA1Wl9wMEXRyX3MtQMxk/
+    - date: '2024-01-06'
+      subject: '[Lsr] WG Adoption Call - draft-wang-lsr-stub-link-attributes (01/05/2024 - 01/19/2024)'
+      url: https://mailarchive.ietf.org/arch/msg/lsr/lQS4gI5U9oVfjnZN3v1BedKhvrc/
+    - date: '2024-02-23'
+      subject: '[Lsr] WG Adoption Call - draft-gong-lsr-ospf-unreachable-link (02/23/24 - 03/08/24)'
+      url: https://mailarchive.ietf.org/arch/msg/lsr/7CdrRmgfXvzFIcKPF2fwwrRINVg/
   - kind: shepherded
     documents:
     - draft-ietf-isis-yang-isis-cfg

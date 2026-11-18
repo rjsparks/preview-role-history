@@ -23,12 +23,34 @@ chairs:
       date: '2018-03-19'
   evidence:
   - kind: list message
+    date: '2014-02-18'
+    says: end
+    subject: '[trill] Jon Hudson has replaced Erik Nordmark as Co-Chair of TRILL'
+    url: https://mailarchive.ietf.org/arch/msg/trill/6-zxtbmqPQ8n09uL-xIP8gf1D2Y/
+    excerpt: Erik was the only Chair of TRILL at the beginning before I was appointed Co-Chair and the
+      efforts of this WG would not have been as successful as they have been without Erik's able assistance.
+    implied: another chair became the sole chair
+  - kind: list message
     date: '2014-09-25'
     says: start
     subject: '[trill] Trill working group leadership change'
     url: https://mailarchive.ietf.org/arch/msg/trill/-wSOpYXkJmbkmpOLbuW1P-47Xo0/
     excerpt: I'm pleased to announce that Susan Hares will be stepping up as Trill working group co-chair
       effective immediately.
+  - kind: chair activity
+    first: '2014-12-16'
+    last: '2017-11-16'
+    messages: 10
+    examples:
+    - date: '2014-12-16'
+      subject: '[trill] WG Adoption call for draft-hao-trill-yang-01 (12/15 to 12/29)'
+      url: https://mailarchive.ietf.org/arch/msg/trill/zC9sMytdAo3gRVopcyq0BVndB7U/
+    - date: '2014-12-16'
+      subject: '[trill] Adoption call for draft-deepak-trill-yang-pm (12/15/2014 to 12/30/2014)'
+      url: https://mailarchive.ietf.org/arch/msg/trill/14TRPG9dGPWf5u7J4iJ1MgQmXvI/
+    - date: '2015-01-05'
+      subject: '[trill] WG Adoption call complete -draft-hao-trill-yang'
+      url: https://mailarchive.ietf.org/arch/msg/trill/Ql3iQ7YkP7RNqZ0n83s2VD14Qpc/
   - kind: minutes
     listed_in: 5
     first: '2014-11-09'
@@ -43,10 +65,6 @@ chairs:
     - date: '2016-07-17'
       subject: IETF 96 minutes in the proceedings
       url: https://www.ietf.org/proceedings/96/minutes/minutes-96-trill.html
-  - kind: minutes without them
-    date: '2013-11-03'
-    subject: IETF 88 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/88/minutes/minutes-88-trill.txt
   - kind: shepherded
     documents:
     - draft-dunbar-trill-directory-assisted-encap
@@ -85,13 +103,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-06-29'
-      not_before: '2005-06-15'
+      date: '2005-02-07'
     end:
       certainty: exact
       date: '2014-02-17'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2005-06-29)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2005-02-07)'
   evidence:
   - kind: WG Action
     date: '2005-06-29'
@@ -113,20 +130,6 @@ chairs:
     date: '2013-08-19'
     subject: 'WG Action: Rechartered Transparent Interconnection of Lots of Links (trill)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/tAa0UMVae9rz-46nhGTLaBGw63E/
-  - kind: list message
-    date: '2014-02-18'
-    says: end
-    subject: '[trill] Jon Hudson has replaced Erik Nordmark as Co-Chair of TRILL'
-    url: https://mailarchive.ietf.org/arch/msg/trill/6-zxtbmqPQ8n09uL-xIP8gf1D2Y/
-    excerpt: I also want to thank Erik Nordmark for his many years of service to and support of the TRILL
-      Working Group and protocol.
-  - kind: list message
-    date: '2014-02-18'
-    says: start
-    subject: '[trill] Jon Hudson has replaced Erik Nordmark as Co-Chair of TRILL'
-    url: https://mailarchive.ietf.org/arch/msg/trill/6-zxtbmqPQ8n09uL-xIP8gf1D2Y/
-    excerpt: Erik was the only Chair of TRILL at the beginning before I was appointed Co-Chair and the
-      efforts of this WG would not have been as successful as they have been without Erik's able assistance.
   - kind: chair activity
     first: '2012-10-29'
     last: '2014-02-08'
@@ -169,10 +172,6 @@ chairs:
     - date: '2012-07-29'
       subject: IETF 84 proceedings charter
       url: https://www.ietf.org/proceedings/84/trill.html
-  - kind: minutes without them
-    date: '2014-11-09'
-    subject: IETF 91 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/91/minutes/minutes-91-trill.txt
   - kind: shepherded
     documents:
     - draft-ietf-trill-esadi
@@ -182,14 +181,27 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2006-01-31'
+      certainty: between
       not_before: '2005-06-15'
+      not_after: '2006-01-31'
     end:
       certainty: exact
       date: '2014-09-25'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2006-01-31)'
+  - start:
+      certainty: between
+      not_before: '2016-07-17'
+      not_after: '2018-02-15'
+    end:
+      certainty: between
+      not_before: '2018-02-15'
+      not_after: '2018-03-19'
+    notes:
+    - 'Start: not listed among the chairs in meeting minutes (2016-07-17)'
+    - 'Start: started a last call or adoption call on the group''s list (2018-02-15)'
+    - 'End: started a last call or adoption call on the group''s list (2018-02-15)'
+    - 'End: the group closed (2018-03-19)'
   evidence:
   - kind: WG Review
     date: '2010-07-22'
@@ -207,14 +219,20 @@ chairs:
     date: '2013-08-19'
     subject: 'WG Action: Rechartered Transparent Interconnection of Lots of Links (trill)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/tAa0UMVae9rz-46nhGTLaBGw63E/
-  - kind: list message
-    date: '2014-02-18'
-    says: end
-    subject: '[trill] Jon Hudson has replaced Erik Nordmark as Co-Chair of TRILL'
-    url: https://mailarchive.ietf.org/arch/msg/trill/6-zxtbmqPQ8n09uL-xIP8gf1D2Y/
-    excerpt: Erik was the only Chair of TRILL at the beginning before I was appointed Co-Chair and the
-      efforts of this WG would not have been as successful as they have been without Erik's able assistance.
-    implied: another chair became the sole chair
+  - kind: chair activity
+    first: '2012-10-25'
+    last: '2018-02-15'
+    messages: 14
+    examples:
+    - date: '2012-10-25'
+      subject: '[trill] WG Last Call: draft-ietf-trill-directory-framework-01.txt'
+      url: https://mailarchive.ietf.org/arch/msg/trill/6yZ75Rjdot3N7v4Jx6xAG39TpJ0/
+    - date: '2012-11-06'
+      subject: '[trill] WG Last Call: draft-ietf-trill-fine-labeling-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/trill/wY6ZZmqntEsBWyouKjWZJ4A81oI/
+    - date: '2013-07-17'
+      subject: '[trill] WG Last Call: draft-ietf-trill-rfc6327bis'
+      url: https://mailarchive.ietf.org/arch/msg/trill/b7A21s5m462qT-mEdRr0IFB5KMc/
   - kind: minutes
     listed_in: 15
     first: '2007-03-18'
@@ -244,9 +262,9 @@ chairs:
       subject: IETF 84 proceedings charter
       url: https://www.ietf.org/proceedings/84/trill.html
   - kind: minutes without them
-    date: '2014-11-09'
-    subject: IETF 91 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/91/minutes/minutes-91-trill.txt
+    date: '2016-07-17'
+    subject: IETF 96 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-trill.html
   - kind: session requests
     meetings:
     - '65'
@@ -285,19 +303,9 @@ chairs:
       certainty: exact
       date: '2014-02-17'
     end:
-      certainty: approximate
-      date: '2014-02-18'
-    notes:
-    - 'End: another chair became the sole chair (2014-02-18)'
+      certainty: group-closed
+      date: '2018-03-19'
   evidence:
-  - kind: list message
-    date: '2014-02-18'
-    says: end
-    subject: '[trill] Jon Hudson has replaced Erik Nordmark as Co-Chair of TRILL'
-    url: https://mailarchive.ietf.org/arch/msg/trill/6-zxtbmqPQ8n09uL-xIP8gf1D2Y/
-    excerpt: Erik was the only Chair of TRILL at the beginning before I was appointed Co-Chair and the
-      efforts of this WG would not have been as successful as they have been without Erik's able assistance.
-    implied: another chair became the sole chair
   - kind: minutes
     listed_in: 5
     first: '2014-11-09'
@@ -312,10 +320,6 @@ chairs:
     - date: '2016-07-17'
       subject: IETF 96 minutes in the proceedings
       url: https://www.ietf.org/proceedings/96/minutes/minutes-96-trill.html
-  - kind: minutes without them
-    date: '2013-11-03'
-    subject: IETF 88 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/88/minutes/minutes-88-trill.txt
   - kind: shepherded
     documents:
     - draft-ietf-trill-directory-framework

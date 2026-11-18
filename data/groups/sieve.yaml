@@ -26,7 +26,8 @@ chairs:
       not_before: '2004-10-20'
       not_after: '2005-02-18'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2005-02-18)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2004-10-20)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2005-02-18)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -52,7 +53,8 @@ chairs:
       not_before: '2004-10-20'
       not_after: '2005-02-18'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2005-02-18)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2004-10-20)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2005-02-18)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -71,9 +73,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2005-02-18'
+      certainty: between
       not_before: '2004-11-23'
+      not_after: '2005-02-18'
     end:
       certainty: group-closed
       date: '2012-11-14'
@@ -141,10 +143,13 @@ chairs:
       certainty: evidence-only
       not_after: '2004-11-25'
     end:
-      certainty: approximate
-      date: '2009-03-30'
+      certainty: between
+      not_before: '2009-03-22'
+      not_after: '2009-03-27'
     notes:
-    - 'End: announced on the group''s list (2009-03-30)'
+    - 'Start: named as chair in the WG Action announcement (2004-11-25)'
+    - 'End: requested the group''s session for IETF 74 (2009-03-22)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2009-03-27)'
   evidence:
   - kind: WG Action
     date: '2004-11-25'
@@ -194,6 +199,15 @@ chairs:
     - date: '2007-12-17'
       subject: IETF 71 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/71/sieve.html
+  - kind: minutes without them
+    date: '2009-03-27'
+    subject: IETF 74 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/74/sieve.html
+  - kind: joined the IESG
+    after_meeting: '74'
+    after: '2009-03-22'
+    by_meeting: '75'
+    by: '2009-07-26'
   - kind: session requests
     meetings:
     - '65'
@@ -207,19 +221,14 @@ chairs:
     - '73'
     - '74'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
-  - kind: joined the IESG
-    after_meeting: '74'
-    after: '2009-03-22'
-    by_meeting: '75'
-    by: '2009-07-26'
 - person: 110093
   name: Aaron Stone
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2009-03-27'
+      certainty: between
       not_before: '2004-11-23'
+      not_after: '2009-03-27'
     end:
       certainty: group-closed
       date: '2012-11-14'
@@ -234,12 +243,6 @@ chairs:
     date: '2010-06-08'
     subject: 'WG Action: RECHARTER: Sieve Mail Filtering Language (sieve)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/06aZ9jVS4SbCWgjaZU_S55cPoPA/
-  - kind: list message
-    date: '2009-03-30'
-    says: end
-    subject: 'New chair: Aaron Stone'
-    url: https://mailarchive.ietf.org/arch/msg/sieve/Y0FzW0yH_50khYsaA_7sH3e1has/
-    excerpt: Thanks Aaron for jumping into this, and thanks Alexey for all your hard work, Lisa
   - kind: chair activity
     first: '2010-03-30'
     last: '2010-03-30'

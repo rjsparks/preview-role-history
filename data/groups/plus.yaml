@@ -24,8 +24,10 @@ chairs:
     end:
       certainty: between
       not_before: '2016-07-17'
+      not_after: '2016-10-04'
     notes:
-    - 'End: after the BOF''s last session, IETF 96 (2016-07-17)'
+    - 'End: listed as chair in meeting minutes (2016-07-17)'
+    - 'End: the group closed (2016-10-04)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -35,10 +37,6 @@ chairs:
     - date: '2016-07-17'
       subject: IETF 96 minutes in the proceedings
       url: https://www.ietf.org/proceedings/96/minutes/minutes-96-plus.txt
-  - kind: BOF session
-    meeting: '96'
-    date: '2016-07-17'
-    url: https://www.ietf.org/proceedings/96/plus.html
   - kind: proceedings
     listed_in: 1
     first: '2016-07-17'
@@ -47,6 +45,10 @@ chairs:
     - date: '2016-07-17'
       subject: IETF 96 proceedings charter
       url: https://www.ietf.org/proceedings/96/plus.html
+  - kind: BOF session
+    meeting: '96'
+    date: '2016-07-17'
+    url: https://www.ietf.org/proceedings/96/plus.html
 - person: 120508
   name: Natasha Rooney
   status: confirmed
@@ -57,8 +59,10 @@ chairs:
     end:
       certainty: between
       not_before: '2016-07-17'
+      not_after: '2016-10-04'
     notes:
-    - 'End: after the BOF''s last session, IETF 96 (2016-07-17)'
+    - 'End: listed as chair in meeting minutes (2016-07-17)'
+    - 'End: the group closed (2016-10-04)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -68,10 +72,6 @@ chairs:
     - date: '2016-07-17'
       subject: IETF 96 minutes in the proceedings
       url: https://www.ietf.org/proceedings/96/minutes/minutes-96-plus.txt
-  - kind: BOF session
-    meeting: '96'
-    date: '2016-07-17'
-    url: https://www.ietf.org/proceedings/96/plus.html
   - kind: proceedings
     listed_in: 1
     first: '2016-07-17'
@@ -80,3 +80,7 @@ chairs:
     - date: '2016-07-17'
       subject: IETF 96 proceedings charter
       url: https://www.ietf.org/proceedings/96/plus.html
+  - kind: BOF session
+    meeting: '96'
+    date: '2016-07-17'
+    url: https://www.ietf.org/proceedings/96/plus.html

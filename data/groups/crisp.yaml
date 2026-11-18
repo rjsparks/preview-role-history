@@ -19,9 +19,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2003-03-16'
+      certainty: between
       not_before: '2002-05-17'
+      not_after: '2003-03-16'
     end:
       certainty: group-closed
       date: '2009-03-05'
@@ -89,15 +89,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2003-10-02'
+      certainty: between
       not_before: '2003-03-16'
+      not_after: '2003-10-02'
     end:
       certainty: group-closed
       date: '2009-03-05'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2003-03-16)'
     - 'Start: listed as chair in a proceedings charter snapshot (2003-10-02)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2003-03-16)'
   evidence:
   - kind: WG Action
     date: '2004-01-28'
@@ -148,10 +148,11 @@ chairs:
       not_after: '2002-07-29'
     end:
       certainty: between
-      not_before: '2003-05-12'
+      not_before: '2003-03-16'
       not_after: '2003-07-13'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2003-10-02)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2002-07-29)'
+    - 'End: listed as chair in meeting minutes (2003-03-16)'
     - 'End: became an Area Director, first serving at IETF 57 (2003-07-13)'
   evidence:
   - kind: minutes
@@ -179,10 +180,6 @@ chairs:
     - date: '2003-05-12'
       subject: IETF 57 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/57/104.htm
-  - kind: minutes without them
-    date: '2003-11-09'
-    subject: IETF 58 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/58/minutes/crisp.htm
   - kind: joined the IESG
     after_meeting: '56'
     after: '2003-03-16'

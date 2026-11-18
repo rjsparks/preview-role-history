@@ -22,10 +22,8 @@ chairs:
       certainty: on-or-before
       date: '2009-03-01'
     end:
-      certainty: between
-      not_before: '2009-03-22'
+      certainty: group-closed
     notes:
-    - 'End: after the BOF''s last session, IETF 74 (2009-03-22)'
     - 'Start: listed as chair in a proceedings charter snapshot (2009-03-01)'
   evidence:
   - kind: minutes
@@ -36,10 +34,6 @@ chairs:
     - date: '2009-03-22'
       subject: IETF 74 minutes in the proceedings
       url: https://www.ietf.org/proceedings/74/minutes/pre8prob.txt
-  - kind: BOF session
-    meeting: '74'
-    date: '2009-03-22'
-    url: https://datatracker.ietf.org/meeting/74/session/pre8prob/
   - kind: proceedings
     listed_in: 1
     first: '2009-03-01'
@@ -48,6 +42,10 @@ chairs:
     - date: '2009-03-01'
       subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/pre8prob.html
+  - kind: BOF session
+    meeting: '74'
+    date: '2009-03-22'
+    url: https://datatracker.ietf.org/meeting/74/session/pre8prob/
 - person: 6696
   name: Ed Juskevicius
   status: confirmed
@@ -56,10 +54,8 @@ chairs:
       certainty: on-or-before
       date: '2009-03-01'
     end:
-      certainty: between
-      not_before: '2009-03-22'
+      certainty: group-closed
     notes:
-    - 'End: after the BOF''s last session, IETF 74 (2009-03-22)'
     - 'Start: listed as chair in a proceedings charter snapshot (2009-03-01)'
   evidence:
   - kind: minutes
@@ -70,10 +66,6 @@ chairs:
     - date: '2009-03-22'
       subject: IETF 74 minutes in the proceedings
       url: https://www.ietf.org/proceedings/74/minutes/pre8prob.txt
-  - kind: BOF session
-    meeting: '74'
-    date: '2009-03-22'
-    url: https://datatracker.ietf.org/meeting/74/session/pre8prob/
   - kind: proceedings
     listed_in: 1
     first: '2009-03-01'
@@ -82,3 +74,7 @@ chairs:
     - date: '2009-03-01'
       subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/pre8prob.html
+  - kind: BOF session
+    meeting: '74'
+    date: '2009-03-22'
+    url: https://datatracker.ietf.org/meeting/74/session/pre8prob/

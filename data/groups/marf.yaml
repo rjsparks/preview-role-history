@@ -16,16 +16,17 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-01-26'
+      certainty: between
       not_before: '2009-12-12'
+      not_after: '2010-01-26'
     end:
       certainty: between
       not_before: '2012-02-13'
-      not_after: '2012-07-29'
+      not_after: '2012-06-26'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2010-01-26)'
-    - 'End: became an Area Director, first serving at IETF 84 (2012-07-29)'
+    - 'End: started a last call or adoption call on the group''s list (2012-02-13)'
+    - 'End: the group closed (2012-06-26)'
   evidence:
   - kind: chair activity
     first: '2011-03-30'
@@ -55,6 +56,11 @@ chairs:
     - date: '2011-11-13'
       subject: IETF 82 proceedings charter
       url: https://www.ietf.org/proceedings/82/marf.html
+  - kind: joined the IESG
+    after_meeting: '83'
+    after: '2012-03-25'
+    by_meeting: '84'
+    by: '2012-07-29'
   - kind: session requests
     meetings:
     - '77'
@@ -63,31 +69,29 @@ chairs:
     documents:
     - draft-ietf-marf-as
     - draft-ietf-marf-dkim-reporting
-  - kind: joined the IESG
-    after_meeting: '83'
-    after: '2012-03-25'
-    by_meeting: '84'
-    by: '2012-07-29'
 - person: 106842
   name: Murray Kucherawy
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-07-25'
+      certainty: between
       not_before: '2009-12-12'
+      not_after: '2010-01-26'
     end:
-      certainty: approximate
-      date: '2020-06-15'
+      certainty: between
+      not_before: '2011-12-09'
+      not_after: '2011-12-09'
     notes:
-    - 'Start: requested the group''s session for IETF 78 (2010-07-25)'
-    - 'End: became an Area Director, per the datatracker''s IESG roles (2020-06-15)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-01-26)'
   - start:
       certainty: between
       not_before: '2011-12-09'
+      not_after: '2012-01-31'
     end:
       certainty: group-closed
       date: '2012-06-26'
+    notes:
+    - 'Start: started a last call or adoption call on the group''s list (2012-01-31)'
   evidence:
   - kind: chair activity
     first: '2010-02-18'
@@ -142,8 +146,3 @@ chairs:
     - draft-ietf-marf-not-spam-feedback
     - draft-ietf-marf-redaction
     - draft-ietf-marf-spf-reporting
-  - kind: joined the IESG
-    after_meeting: '107'
-    after: '2020-03-23'
-    by_meeting: '108'
-    by: '2020-07-27'

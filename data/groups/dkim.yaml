@@ -25,17 +25,6 @@ chairs:
     date: '2025-02-20'
     subject: 'WG Action: Rechartered Domain Keys Identified Mail (dkim)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/QO-NwGQ-s4oxAog1lDhf1sqbWiU/
-  - kind: chair activity
-    first: '2025-04-04'
-    last: '2026-05-08'
-    messages: 4
-    examples:
-    - date: '2025-04-04'
-      subject: '[Ietf-dkim] IETF 122 DKIM Meeting Minutes'
-      url: https://mailarchive.ietf.org/arch/msg/ietf-dkim/fbYPiNHgzWBWA8iBSZ_IhqCwX9o/
-    - date: '2025-07-14'
-      subject: '[Ietf-dkim] Next draft adoption / Agenda for Madrid meeting'
-      url: https://mailarchive.ietf.org/arch/msg/ietf-dkim/qIrkmhg9whbTyh-KkF3SmvG6JvM/
 - person: 19177
   name: Stephen Farrell
   status: unconfirmed
@@ -48,6 +37,8 @@ chairs:
       not_before: '2011-03-27'
       not_after: '2011-07-24'
     notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2005-10-17)'
+    - 'End: requested the group''s session for IETF 80 (2011-03-27)'
     - 'End: became an Area Director, first serving at IETF 81 (2011-07-24)'
   evidence:
   - kind: WG Action
@@ -93,6 +84,11 @@ chairs:
     - date: '2010-06-08'
       subject: IETF 78 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/78/dkim.html
+  - kind: joined the IESG
+    after_meeting: '80'
+    after: '2011-03-27'
+    by_meeting: '81'
+    by: '2011-07-24'
   - kind: session requests
     meetings:
     - '65'
@@ -104,11 +100,6 @@ chairs:
     - '78'
     - '80'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
-  - kind: joined the IESG
-    after_meeting: '80'
-    after: '2011-03-27'
-    by_meeting: '81'
-    by: '2011-07-24'
 - person: 21684
   name: Barry Leiba
   status: unconfirmed
@@ -118,9 +109,11 @@ chairs:
       not_after: '2005-10-17'
     end:
       certainty: between
-      not_before: '2011-07-24'
+      not_before: '2011-04-12'
       not_after: '2012-07-29'
     notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2005-10-17)'
+    - 'End: started a last call or adoption call on the group''s list (2011-04-12)'
     - 'End: became an Area Director, first serving at IETF 84 (2012-07-29)'
   evidence:
   - kind: WG Action
@@ -169,6 +162,11 @@ chairs:
     - date: '2011-07-24'
       subject: IETF 81 proceedings charter
       url: https://www.ietf.org/proceedings/81/dkim.html
+  - kind: joined the IESG
+    after_meeting: '83'
+    after: '2012-03-25'
+    by_meeting: '84'
+    by: '2012-07-29'
   - kind: session requests
     meetings:
     - '66'
@@ -182,15 +180,21 @@ chairs:
     - draft-ietf-dkim-implementation-report
     - draft-ietf-dkim-mailinglists
     - draft-ietf-dkim-rfc4871bis
-  - kind: joined the IESG
-    after_meeting: '83'
-    after: '2012-03-25'
-    by_meeting: '84'
-    by: '2012-07-29'
 - person: 106842
   name: Murray Kucherawy
   status: confirmed
   periods:
+  - start:
+      certainty: between
+      not_before: '2006-07-09'
+      not_after: '2011-05-02'
+    end:
+      certainty: approximate
+      date: '2020-06-15'
+    notes:
+    - 'Start: not listed among the chairs in meeting minutes (2006-07-09)'
+    - 'Start: started a last call or adoption call on the group''s list (2011-05-02)'
+    - 'End: became an Area Director, per the datatracker''s IESG roles (2020-06-15)'
   - start:
       certainty: exact
       date: '2025-03-19'
@@ -199,18 +203,21 @@ chairs:
   evidence:
   - kind: chair activity
     first: '2011-05-02'
-    last: '2026-09-23'
-    messages: 10
+    last: '2011-05-02'
+    messages: 1
     examples:
     - date: '2011-05-02'
       subject: '[ietf-dkim] WGLC version of drafts posted'
       url: https://mailarchive.ietf.org/arch/msg/ietf-dkim/UDNc2Zc0bZpS86XsJ5SEW1XJIao/
-    - date: '2026-01-07'
-      subject: '[Ietf-dkim] Meetings, Part I: Interim(s)'
-      url: https://mailarchive.ietf.org/arch/msg/ietf-dkim/LpN6AXVZZMnhwrY9mxJAf8GqZ-M/
-    - date: '2026-03-09'
-      subject: '[Ietf-dkim] Minutes from the January iterim'
-      url: https://mailarchive.ietf.org/arch/msg/ietf-dkim/jGWPEXmbsuETV17V0aBcfXCfubA/
+  - kind: minutes without them
+    date: '2006-07-09'
+    subject: IETF 66 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/66/minutes/dkim.html
+  - kind: joined the IESG
+    after_meeting: '107'
+    after: '2020-03-23'
+    by_meeting: '108'
+    by: '2020-07-27'
 - person: 115244
   name: Tim Wicinski
   status: confirmed
@@ -230,10 +237,6 @@ chairs:
     date: '2025-02-06'
     subject: 'WG Review: Domain Keys Identified Mail (dkim)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/tkSJroGvtb4tH1iS6P3Mk4b-sas/
-  - kind: minutes without them
-    date: '2006-07-09'
-    subject: IETF 66 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/66/minutes/dkim.html
 - person: 128319
   name: Laura A
   status: confirmed
@@ -261,7 +264,3 @@ chairs:
     - date: '2023-04-04'
       subject: '[Ietf-dkim] Call for adoption'
       url: https://mailarchive.ietf.org/arch/msg/ietf-dkim/2w7K-Mg8GOKjpPm_AozbriaLCak/
-  - kind: minutes without them
-    date: '2006-07-09'
-    subject: IETF 66 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/66/minutes/dkim.html

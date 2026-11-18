@@ -24,13 +24,11 @@ chairs:
     end:
       certainty: between
       not_before: '2016-11-13'
+      not_after: '2017-02-15'
     notes:
-    - 'End: after the BOF''s last session, IETF 97 (2016-11-13)'
+    - 'End: the BOF met at IETF 97 (2016-11-13)'
+    - 'End: the group closed (2017-02-15)'
   evidence:
-  - kind: BOF session
-    meeting: '97'
-    date: '2016-11-13'
-    url: https://datatracker.ietf.org/meeting/97/session/dnsbundled/
   - kind: proceedings
     listed_in: 1
     first: '2016-11-13'
@@ -39,6 +37,10 @@ chairs:
     - date: '2016-11-13'
       subject: IETF 97 proceedings charter
       url: https://www.ietf.org/proceedings/97/dnsbundled.html
+  - kind: BOF session
+    meeting: '97'
+    date: '2016-11-13'
+    url: https://datatracker.ietf.org/meeting/97/session/dnsbundled/
 - person: 109667
   name: Ning Kong
   status: confirmed
@@ -49,8 +51,10 @@ chairs:
     end:
       certainty: between
       not_before: '2016-11-13'
+      not_after: '2017-02-15'
     notes:
-    - 'End: after the BOF''s last session, IETF 97 (2016-11-13)'
+    - 'End: the BOF met at IETF 97 (2016-11-13)'
+    - 'End: the group closed (2017-02-15)'
   evidence:
   - kind: chair activity
     first: '2016-08-12'
@@ -60,10 +64,6 @@ chairs:
     - date: '2016-08-12'
       subject: '[Bundled-domain-names] Bar BoF Minutes of Bundled Domain Name'
       url: https://mailarchive.ietf.org/arch/msg/bundled-domain-names/-ESW98rxBPD8udZ0a49fmOIAkI0/
-  - kind: BOF session
-    meeting: '97'
-    date: '2016-11-13'
-    url: https://datatracker.ietf.org/meeting/97/session/dnsbundled/
   - kind: proceedings
     listed_in: 1
     first: '2016-11-13'
@@ -72,3 +72,7 @@ chairs:
     - date: '2016-11-13'
       subject: IETF 97 proceedings charter
       url: https://www.ietf.org/proceedings/97/dnsbundled.html
+  - kind: BOF session
+    meeting: '97'
+    date: '2016-11-13'
+    url: https://datatracker.ietf.org/meeting/97/session/dnsbundled/

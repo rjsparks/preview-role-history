@@ -26,7 +26,7 @@ chairs:
       not_before: '2012-02-23'
       not_after: '2012-03-25'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2012-03-25)'
+    - 'End: not listed among the chairs in meeting minutes (2012-03-25)'
   evidence:
   - kind: minutes without them
     date: '2012-03-25'
@@ -43,7 +43,7 @@ chairs:
     end:
       certainty: ongoing
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2012-03-25)'
+    - 'Start: listed as chair in meeting minutes (2012-03-25)'
   evidence:
   - kind: WG Action
     date: '2012-05-01'
@@ -126,6 +126,17 @@ chairs:
     subject: '[nvo3] New NVO3 Chair: Sam Aldrin'
     url: https://mailarchive.ietf.org/arch/msg/nvo3/sWkXMucrPe_P9wks4RnKV91TAcM/
     excerpt: I am pleased to announce that Sam Aldrin has accepted my request to serve as NVO3 chair.
+  - kind: chair activity
+    first: '2021-03-29'
+    last: '2023-06-28'
+    messages: 2
+    examples:
+    - date: '2021-03-29'
+      subject: '[nvo3] WG Last call and IPR Poll for draft-ietf-nvo3-yang-cfg-04'
+      url: https://mailarchive.ietf.org/arch/msg/nvo3/jTZNMV-YTJ8hPHMMgPHKVGPISVY/
+    - date: '2023-06-28'
+      subject: '[nvo3] Working Group Last Call and IPR Poll for draft-ietf-nvo3-geneve-oam-07'
+      url: https://mailarchive.ietf.org/arch/msg/nvo3/d3NkqmG_qBUd-Zg2MDPpMwB6n3E/
   - kind: minutes
     listed_in: 1
     first: '2016-07-17'
@@ -150,7 +161,7 @@ chairs:
       certainty: exact
       date: '2016-07-07'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2012-03-25)'
+    - 'Start: listed as chair in meeting minutes (2012-03-25)'
   evidence:
   - kind: WG Action
     date: '2012-05-01'
@@ -224,7 +235,3 @@ chairs:
     - date: '2014-03-02'
       subject: IETF 89 proceedings charter
       url: https://www.ietf.org/proceedings/89/nvo3.html
-  - kind: minutes without them
-    date: '2016-07-17'
-    subject: IETF 96 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-nvo3.txt

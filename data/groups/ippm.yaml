@@ -32,10 +32,11 @@ chairs:
       not_after: '1997-11-10'
     end:
       certainty: between
-      not_before: '1998-07-27'
+      not_before: '1997-11-10'
       not_after: '1998-11-25'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (1998-11-25)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1997-11-10)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (1998-11-25)'
   evidence:
   - kind: proceedings
     listed_in: 3
@@ -52,9 +53,9 @@ chairs:
       subject: IETF 42 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/42/98aug-130.htm
   - kind: minutes without them
-    date: '2002-07-14'
-    subject: IETF 54 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/54/minutes/ippm.htm
+    date: '1998-11-25'
+    subject: IETF 43 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-122.html
 - person: 5841
   name: Merike Kaeo
   status: unconfirmed
@@ -63,10 +64,11 @@ chairs:
       certainty: evidence-only
       not_after: '2000-11-09'
     end:
-      certainty: approximate
-      date: '2003-12-18'
+      certainty: announced
+      date: '2003-10-27'
     notes:
-    - 'End: announced on the group''s list (2003-12-18)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2000-11-09)'
+    - 'End: announced on the group''s list (2003-10-27)'
   evidence:
   - kind: list message
     date: '2003-10-27'
@@ -113,10 +115,10 @@ chairs:
       not_after: '1997-11-10'
     end:
       certainty: between
-      not_before: '1998-03-11'
+      not_before: '1997-11-10'
       not_after: '1998-03-30'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (1998-07-27)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1997-11-10)'
     - 'End: became an Area Director, first serving at IETF 41 (1998-03-30)'
   evidence:
   - kind: proceedings
@@ -130,10 +132,6 @@ chairs:
     - date: '1998-03-11'
       subject: IETF 41 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/41/98mar-edited-123.htm
-  - kind: minutes without them
-    date: '2002-07-14'
-    subject: IETF 54 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/54/minutes/ippm.htm
   - kind: joined the IESG
     after_meeting: '40'
     after: '1997-12-08'
@@ -148,10 +146,11 @@ chairs:
       not_after: '1998-07-27'
     end:
       certainty: between
-      not_before: '2000-07-17'
+      not_before: '1998-07-27'
       not_after: '2000-11-09'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2000-11-09)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1998-07-27)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2000-11-09)'
   evidence:
   - kind: proceedings
     listed_in: 6
@@ -168,21 +167,21 @@ chairs:
       subject: IETF 48 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/48/00july-125.htm
   - kind: minutes without them
-    date: '2002-07-14'
-    subject: IETF 54 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/54/minutes/ippm.htm
+    date: '2000-11-09'
+    subject: IETF 49 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/49/00dec-134.htm
 - person: 100603
   name: Henk Uijterwaal
   status: confirmed
   periods:
   - start:
-      certainty: approximate
-      date: '2003-10-27'
+      certainty: announced
+      date: '2003-12-18'
     end:
       certainty: exact
       date: '2012-11-27'
     notes:
-    - 'Start: announced on the group''s list (2003-10-27)'
+    - 'Start: announced on the group''s list (2003-12-18)'
   evidence:
   - kind: list message
     date: '2003-10-27'
@@ -252,10 +251,6 @@ chairs:
     - date: '2011-11-13'
       subject: IETF 82 proceedings charter
       url: https://www.ietf.org/proceedings/82/ippm.html
-  - kind: minutes without them
-    date: '2002-07-14'
-    subject: IETF 54 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/54/minutes/ippm.htm
   - kind: session requests
     meetings:
     - '76'
@@ -270,9 +265,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1998-11-25'
+      certainty: between
       not_before: '1997-10-02'
+      not_after: '1998-11-25'
     end:
       certainty: exact
       date: '2012-11-27'
@@ -402,10 +397,6 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/ippm.html
-  - kind: minutes without them
-    date: '2002-07-14'
-    subject: IETF 54 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/54/minutes/ippm.htm
   - kind: shepherded
     documents:
     - draft-ietf-ippm-active-passive
@@ -471,10 +462,6 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/ippm.html
-  - kind: minutes without them
-    date: '2002-07-14'
-    subject: IETF 54 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/54/minutes/ippm.htm
   - kind: shepherded
     documents:
     - draft-ietf-ippm-2330-update
@@ -484,32 +471,6 @@ chairs:
     - draft-ietf-ippm-owamp-registry
     - draft-ietf-ippm-rate-problem
     - draft-ietf-ippm-twamp-time-format
-- person: 114382
-  name: Matt Zekauskas
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: evidence-only
-      not_after: '2002-07-14'
-    end:
-      certainty: between
-      not_before: '2002-07-14'
-      not_after: '2003-02-19'
-    notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2003-02-19)'
-  evidence:
-  - kind: minutes
-    listed_in: 1
-    first: '2002-07-14'
-    last: '2002-07-14'
-    examples:
-    - date: '2002-07-14'
-      subject: IETF 54 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/54/minutes/ippm.htm
-  - kind: minutes without them
-    date: '2003-02-19'
-    subject: IETF 56 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/56/226.htm
 - person: 118407
   name: Marcus Ihlar
   status: confirmed
@@ -527,13 +488,6 @@ chairs:
     subject: '[ippm] New chair!'
     url: https://mailarchive.ietf.org/arch/msg/ippm/dv_RI6ElgB9lI5mO1xbzM0poaeo/
     excerpt: I'm pleased to announce that Marcus Ihlar is joining IPPM as our newest chair.
-  - kind: list message
-    date: '2025-04-17'
-    says: start
-    subject: '[ippm] Performance Metrics Directorate (perfmetrdir) New Chairs'
-    url: https://mailarchive.ietf.org/arch/msg/ippm/VvMsqBs4K6XJFhDvnR7f-4wrAQs/
-    excerpt: I'm very pleased to announce that I appointed Marcus Ihlar and Thomas Graf as the new directorate
-      chairs.
   - kind: chair activity
     first: '2021-11-12'
     last: '2026-02-26'
@@ -554,10 +508,6 @@ chairs:
     - date: '2023-03-31'
       subject: '[ippm] Draft minutes published'
       url: https://mailarchive.ietf.org/arch/msg/ippm/cnhv2rsxnGFS3Eb_EuWdvhutogE/
-  - kind: minutes without them
-    date: '2002-07-14'
-    subject: IETF 54 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/54/minutes/ippm.htm
   - kind: shepherded
     documents:
     - draft-ietf-ippm-alt-mark-yang
@@ -609,10 +559,6 @@ chairs:
     - date: '2019-07-08'
       subject: '[ippm] Adoption call for draft-mirsky-ippm-stamp-option-tlv'
       url: https://mailarchive.ietf.org/arch/msg/ippm/WfDOSosv_TLoEwIKEub4Fz3eL-E/
-  - kind: minutes without them
-    date: '2002-07-14'
-    subject: IETF 54 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/54/minutes/ippm.htm
   - kind: shepherded
     documents:
     - draft-ietf-ippm-capacity-metric-method
@@ -656,10 +602,6 @@ chairs:
     - date: '2020-05-22'
       subject: '[ippm] WGLC for STAMP Extensions'
       url: https://mailarchive.ietf.org/arch/msg/ippm/fCwrTKvIIxy8h7jtmX8yNcsYa1E/
-  - kind: minutes without them
-    date: '2002-07-14'
-    subject: IETF 54 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/54/minutes/ippm.htm
 - person: 125623
   name: Thomas Graf
   status: confirmed
@@ -682,10 +624,6 @@ chairs:
     - date: '2025-09-14'
       subject: '[ippm] IPPM/BMWG IETF 124 and Interim Joint Session'
       url: https://mailarchive.ietf.org/arch/msg/ippm/TXZZDeTGFr1l0VKJipqU08HJ7ik/
-  - kind: minutes without them
-    date: '2002-07-14'
-    subject: IETF 54 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/54/minutes/ippm.htm
   - kind: shepherded
     documents:
     - draft-ietf-ippm-ioam-data-integrity

@@ -19,9 +19,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1997-08-11'
+      certainty: between
       not_before: '1997-07-07'
+      not_after: '1997-08-11'
     end:
       certainty: group-closed
       date: '2000-06-16'
@@ -47,9 +47,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1997-08-11'
+      certainty: between
       not_before: '1997-07-07'
+      not_after: '1997-08-11'
     end:
       certainty: group-closed
       date: '2000-06-16'

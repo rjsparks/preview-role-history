@@ -27,8 +27,11 @@ chairs:
     end:
       certainty: between
       not_before: '2004-02-29'
+      not_after: '2005-05-11'
     notes:
-    - 'End: after the BOF''s last session, IETF 59 (2004-02-29)'
+    - 'Start: listed as chair in meeting minutes (2003-11-09)'
+    - 'End: the BOF met at IETF 59 (2004-02-29)'
+    - 'End: the group closed (2005-05-11)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -56,10 +59,11 @@ chairs:
     end:
       certainty: between
       not_before: '2004-02-29'
-      not_after: '2011-07-24'
+      not_after: '2005-05-11'
     notes:
-    - 'Start: the BOF met at IETF 58 (2003-11-09)'
-    - 'End: became an Area Director, first serving at IETF 81 (2011-07-24)'
+    - 'Start: listed as chair in meeting minutes (2003-11-09)'
+    - 'End: the BOF met at IETF 59 (2004-02-29)'
+    - 'End: the group closed (2005-05-11)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -69,14 +73,6 @@ chairs:
     - date: '2003-11-09'
       subject: IETF 58 minutes in the proceedings
       url: https://www.ietf.org/proceedings/58/minutes/iea.htm
-  - kind: BOF session
-    meeting: '58'
-    date: '2003-11-09'
-    url: https://www.ietf.org/proceedings/58/126.htm
-  - kind: BOF session
-    meeting: '59'
-    date: '2004-02-29'
-    url: https://www.ietf.org/proceedings/59/126.htm
   - kind: proceedings
     listed_in: 1
     first: '2004-02-09'
@@ -85,8 +81,11 @@ chairs:
     - date: '2004-02-09'
       subject: IETF 61 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/61/iea.html
-  - kind: joined the IESG
-    after_meeting: '80'
-    after: '2011-03-27'
-    by_meeting: '81'
-    by: '2011-07-24'
+  - kind: BOF session
+    meeting: '58'
+    date: '2003-11-09'
+    url: https://www.ietf.org/proceedings/58/126.htm
+  - kind: BOF session
+    meeting: '59'
+    date: '2004-02-29'
+    url: https://www.ietf.org/proceedings/59/126.htm

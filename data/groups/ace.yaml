@@ -52,18 +52,14 @@ chairs:
     - date: '2018-11-30'
       subject: '[Ace] Call for adoption of draft-tiloca-ace-oscoap-joining'
       url: https://mailarchive.ietf.org/arch/msg/ace/lxixg7naanRbkP34B_IZYsy7PNE/
-  - kind: minutes without them
-    date: '2016-07-17'
-    subject: IETF 96 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-ace.txt
-  - kind: shepherded
-    documents:
-    - draft-ietf-ace-cwt-proof-of-possession
   - kind: joined the IESG
     after_meeting: '104'
     after: '2019-03-23'
     by_meeting: '105'
     by: '2019-07-20'
+  - kind: shepherded
+    documents:
+    - draft-ietf-ace-cwt-proof-of-possession
 - person: 105857
   name: Hannes Tschofenig
   status: confirmed
@@ -71,7 +67,6 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2014-01-22'
-      not_before: '2014-01-22'
     end:
       certainty: exact
       date: '2017-10-29'
@@ -192,10 +187,6 @@ chairs:
     - date: '2020-09-01'
       subject: '[Ace] WGLC draft-ietf-ace-mqtt-tls-profile'
       url: https://mailarchive.ietf.org/arch/msg/ace/5bhWlr_kEKK2FUQUaNrY9BNoypg/
-  - kind: minutes without them
-    date: '2016-07-17'
-    subject: IETF 96 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-ace.txt
   - kind: shepherded
     documents:
     - draft-ietf-ace-cmpv2-coap-transport
@@ -239,10 +230,6 @@ chairs:
     - date: '2018-10-08'
       subject: '[Ace] WGLC for draft-ietf-ace-oscore-profile'
       url: https://mailarchive.ietf.org/arch/msg/ace/zL9r3da3sRULWsTfdwKXZA0o158/
-  - kind: minutes without them
-    date: '2016-07-17'
-    subject: IETF 96 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-ace.txt
   - kind: shepherded
     documents:
     - draft-ietf-ace-coap-est
@@ -253,7 +240,6 @@ chairs:
   - start:
       certainty: on-or-before
       date: '2014-01-22'
-      not_before: '2014-01-22'
     end:
       certainty: exact
       date: '2017-10-29'
@@ -345,18 +331,14 @@ chairs:
     - date: '2018-03-13'
       subject: '[Ace] Draft agenda for London'
       url: https://mailarchive.ietf.org/arch/msg/ace/uUnLOueap_s5IQQL6uuF0-khtlc/
-  - kind: minutes without them
-    date: '2016-07-17'
-    subject: IETF 96 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-ace.txt
-  - kind: shepherded
-    documents:
-    - draft-ietf-ace-cbor-web-token
   - kind: joined the IESG
     after_meeting: '101'
     after: '2018-03-17'
     by_meeting: '102'
     by: '2018-07-14'
+  - kind: shepherded
+    documents:
+    - draft-ietf-ace-cbor-web-token
 - person: 122416
   name: Loganaden Velvindron
   status: confirmed

@@ -16,9 +16,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1993-05-03'
+      certainty: between
       not_before: '1991-03-01'
+      not_after: '1993-05-03'
     end:
       certainty: group-closed
       date: '1993-05-03'
@@ -27,12 +27,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1993-05-03'
+      certainty: between
       not_before: '1991-03-01'
+      not_after: '1992-11-12'
     end:
       certainty: group-closed
       date: '1993-05-03'
+    notes:
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (1992-11-12)'
   evidence:
   - kind: chair activity
     first: '1992-11-12'

@@ -27,9 +27,11 @@ chairs:
     end:
       certainty: between
       not_before: '2003-03-16'
+      not_after: '2003-12-10'
     notes:
-    - 'Start: the BOF met at IETF 55 (2002-11-17)'
-    - 'End: after the BOF''s last session, IETF 56 (2003-03-16)'
+    - 'Start: listed as chair in meeting minutes (2002-11-17)'
+    - 'End: listed as chair in meeting minutes (2003-03-16)'
+    - 'End: the group closed (2003-12-10)'
   evidence:
   - kind: minutes
     listed_in: 3
@@ -63,10 +65,11 @@ chairs:
     end:
       certainty: between
       not_before: '2003-03-16'
-      not_after: '2013-07-28'
+      not_after: '2003-12-10'
     notes:
-    - 'Start: the BOF met at IETF 55 (2002-11-17)'
-    - 'End: became an Area Director, first serving at IETF 87 (2013-07-28)'
+    - 'Start: listed as chair in meeting minutes (2002-11-17)'
+    - 'End: listed as chair in meeting minutes (2003-03-16)'
+    - 'End: the group closed (2003-12-10)'
   evidence:
   - kind: minutes
     listed_in: 3
@@ -90,8 +93,3 @@ chairs:
     meeting: '56'
     date: '2003-03-16'
     url: https://www.ietf.org/proceedings/56/251.htm
-  - kind: joined the IESG
-    after_meeting: '86'
-    after: '2013-03-10'
-    by_meeting: '87'
-    by: '2013-07-28'

@@ -22,8 +22,13 @@ chairs:
       certainty: evidence-only
       not_after: '2002-07-23'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2005-04-08'
+      not_after: '2009-07-16'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2002-07-23)'
+    - 'End: listed as chair in meeting minutes (2005-04-08)'
+    - 'End: the group closed (2009-07-16)'
   evidence:
   - kind: WG Action
     date: '2002-08-01'
@@ -80,7 +85,8 @@ chairs:
       not_before: '2002-06-28'
       not_after: '2002-07-23'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2002-07-23)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2002-06-28)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2002-07-23)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -91,17 +97,17 @@ chairs:
       subject: IETF 54 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/54/170.htm
   - kind: minutes without them
-    date: '2004-11-07'
-    subject: IETF 61 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/61/minutes/psamp.html
+    date: '2002-07-23'
+    subject: IETF 55 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/55/165.htm
 - person: 103651
   name: Juergen Quittek
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2002-07-23'
+      certainty: between
       not_before: '2002-06-04'
+      not_after: '2002-07-23'
     end:
       certainty: group-closed
       date: '2009-07-16'

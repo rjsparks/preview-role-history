@@ -5,10 +5,16 @@ parent: int
 state: conclude
 started: '2007-12-17'
 closed: '2025-03-19'
-bof: false
+bof: true
 never_chartered: false
 chartered: '2008-03-06'
-bof_sessions: []
+bof_sessions:
+- meeting: '68'
+  date: '2007-03-18'
+  url: https://datatracker.ietf.org/meeting/68/session/tictoc/
+- meeting: '70'
+  date: '2007-12-02'
+  url: https://datatracker.ietf.org/meeting/70/session/tictoc/
 history_url: https://datatracker.ietf.org/group/tictoc/history/
 chairs:
 - person: 2329
@@ -23,7 +29,8 @@ chairs:
       not_before: '2010-03-21'
       not_after: '2010-07-25'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-08-19)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2007-02-28)'
+    - 'End: requested the group''s session for IETF 77 (2010-03-21)'
     - 'End: became an Area Director, first serving at IETF 78 (2010-07-25)'
   evidence:
   - kind: WG Action
@@ -63,10 +70,11 @@ chairs:
     - date: '2009-04-13'
       subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/tictoc.html
-  - kind: minutes without them
-    date: '2014-03-02'
-    subject: IETF 89 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/89/minutes/minutes-89-tictoc.txt
+  - kind: joined the IESG
+    after_meeting: '77'
+    after: '2010-03-21'
+    by_meeting: '78'
+    by: '2010-07-25'
   - kind: session requests
     meetings:
     - '70'
@@ -76,25 +84,20 @@ chairs:
     - '75'
     - '77'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
-  - kind: joined the IESG
-    after_meeting: '77'
-    after: '2010-03-21'
-    by_meeting: '78'
-    by: '2010-07-25'
 - person: 4857
   name: Karen O'Donoghue
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-08-19'
+      certainty: between
       not_before: '2009-03-22'
+      not_after: '2010-08-19'
     end:
       certainty: group-closed
       date: '2025-03-19'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2009-03-22)'
     - 'Start: listed as chair in a proceedings charter snapshot (2010-08-19)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2009-03-22)'
   evidence:
   - kind: chair activity
     first: '2010-09-01'
@@ -164,10 +167,11 @@ chairs:
       not_after: '2007-03-18'
     end:
       certainty: between
-      not_before: '2007-05-31'
+      not_before: '2007-03-18'
       not_after: '2007-12-02'
     notes:
-    - 'End: no longer listed among the chairs in meeting minutes (2007-12-02)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2007-03-18)'
+    - 'End: not listed among the chairs in meeting minutes (2007-12-02)'
   evidence:
   - kind: proceedings
     listed_in: 2
@@ -190,13 +194,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2008-03-11'
-      not_before: '2007-12-17'
+      date: '2007-03-18'
     end:
       certainty: group-closed
       date: '2025-03-19'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2008-03-11)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2007-03-18)'
   evidence:
   - kind: WG Action
     date: '2008-03-11'

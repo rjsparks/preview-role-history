@@ -16,11 +16,12 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2012-04-24'
-      not_after: '2014-11-13'
+      certainty: on-or-before
+      date: '2012-03-25'
     end:
       certainty: ongoing
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2012-03-25)'
   evidence:
   - kind: chair activity
     first: '2014-03-02'
@@ -71,14 +72,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2012-04-24'
-      not_after: '2013-07-28'
+      certainty: on-or-before
+      date: '2012-03-25'
     end:
       certainty: exact
       date: '2020-03-12'
     notes:
-    - 'Start: listed as chair in meeting minutes (2013-07-28)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2012-03-25)'
   evidence:
   - kind: chair activity
     first: '2012-07-31'
@@ -154,14 +154,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2012-04-24'
-      not_after: '2013-07-28'
+      certainty: on-or-before
+      date: '2012-03-25'
     end:
       certainty: exact
       date: '2026-02-03'
     notes:
-    - 'Start: listed as chair in meeting minutes (2013-07-28)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2012-03-25)'
   evidence:
   - kind: chair activity
     first: '2012-06-29'

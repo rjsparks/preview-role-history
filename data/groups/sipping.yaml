@@ -19,15 +19,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2006-03-19'
+      certainty: between
       not_before: '2002-11-17'
+      not_after: '2006-03-19'
     end:
       certainty: group-closed
       date: '2009-05-01'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2002-11-17)'
     - 'Start: listed as chair in meeting minutes (2006-03-19)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2002-11-17)'
   evidence:
   - kind: chair activity
     first: '2006-06-29'
@@ -73,8 +73,8 @@ chairs:
       url: https://www.ietf.org/proceedings/75/sipping.html
   - kind: minutes without them
     date: '2002-11-17'
-    subject: IETF 55 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/55/minutes/sipping.htm
+    subject: '[Sipping] Minutes, SIPPING WG, IETF 55'
+    url: https://mailarchive.ietf.org/arch/msg/sipping/2rESReosnTVDs2MuHRmPMv8CWfg/
   - kind: session requests
     meetings:
     - '67'
@@ -90,13 +90,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: approximate
-      date: '2002-10-24'
+      certainty: announced
+      date: '2002-12-20'
     end:
       certainty: group-closed
       date: '2009-05-01'
     notes:
-    - 'Start: announced on the group''s list (2002-10-24)'
+    - 'Start: announced on the group''s list (2002-12-20)'
   evidence:
   - kind: WG Action
     date: '2004-07-14'
@@ -184,7 +184,9 @@ chairs:
       not_before: '2006-03-19'
       not_after: '2006-03-24'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2006-03-24)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2001-08-14)'
+    - 'End: requested the group''s session for IETF 65 (2006-03-19)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2006-03-24)'
   evidence:
   - kind: WG Action
     date: '2001-11-02'
@@ -259,9 +261,10 @@ chairs:
       certainty: evidence-only
       not_after: '2001-11-02'
     end:
-      certainty: approximate
+      certainty: announced
       date: '2002-10-24'
     notes:
+    - 'Start: named as chair in the WG Action announcement (2001-11-02)'
     - 'End: announced on the group''s list (2002-10-24)'
   evidence:
   - kind: WG Action
@@ -289,10 +292,6 @@ chairs:
     - date: '2002-05-29'
       subject: IETF 54 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/54/237.htm
-  - kind: minutes without them
-    date: '2002-11-17'
-    subject: '[Sipping] Minutes, SIPPING WG, IETF 55'
-    url: https://mailarchive.ietf.org/arch/msg/sipping/2rESReosnTVDs2MuHRmPMv8CWfg/
 - person: 129485
   name: Rohan Mahy
   status: unconfirmed
@@ -302,10 +301,12 @@ chairs:
       not_after: '2001-11-02'
     end:
       certainty: between
-      not_before: '2006-02-15'
+      not_before: '2005-11-04'
       not_after: '2006-03-19'
     notes:
-    - 'End: no longer listed among the chairs in meeting minutes (2006-03-19)'
+    - 'Start: named as chair in the WG Action announcement (2001-11-02)'
+    - 'End: named as chair in the WG Action announcement (2005-11-04)'
+    - 'End: not listed among the chairs in meeting minutes (2006-03-19)'
   evidence:
   - kind: WG Action
     date: '2001-11-02'

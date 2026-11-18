@@ -16,7 +16,7 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: approximate
+      certainty: announced
       date: '2010-12-16'
     end:
       certainty: exact
@@ -83,10 +83,6 @@ chairs:
     - date: '2011-11-13'
       subject: IETF 82 proceedings charter
       url: https://www.ietf.org/proceedings/82/mpls.html
-  - kind: minutes without them
-    date: '2008-03-09'
-    subject: IETF 71 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/71/minutes/mpls.txt
   - kind: shepherded
     documents:
     - draft-akiya-mpls-lsp-ping-reply-mode-simple
@@ -166,9 +162,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1997-04-07'
+      certainty: between
       not_before: '1997-01-10'
+      not_after: '1997-04-07'
     end:
       certainty: exact
       date: '2018-03-22'
@@ -248,10 +244,11 @@ chairs:
       not_after: '1997-04-07'
     end:
       certainty: between
-      not_before: '2001-10-11'
+      not_before: '1997-04-07'
       not_after: '2002-02-11'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2002-02-11)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2002-02-11)'
   evidence:
   - kind: proceedings
     listed_in: 15
@@ -268,17 +265,17 @@ chairs:
       subject: IETF 52 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/52/217.htm
   - kind: minutes without them
-    date: '2002-11-17'
-    subject: IETF 55 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/55/minutes/mpls.htm
+    date: '2002-02-11'
+    subject: IETF 53 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/53/214.htm
 - person: 20682
   name: Loa Andersson
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2002-02-11'
+      certainty: between
       not_before: '1997-01-10'
+      not_after: '2002-02-11'
     end:
       certainty: exact
       date: '2023-10-21'
@@ -487,6 +484,18 @@ chairs:
   status: confirmed
   periods:
   - start:
+      certainty: between
+      not_before: '2008-03-09'
+      not_after: '2020-09-24'
+    end:
+      certainty: between
+      not_before: '2020-10-09'
+      not_after: '2023-10-24'
+    notes:
+    - 'Start: not listed among the chairs in meeting minutes (2008-03-09)'
+    - 'Start: started a last call or adoption call on the group''s list (2020-09-24)'
+    - 'End: started a last call or adoption call on the group''s list (2020-10-09)'
+  - start:
       certainty: exact
       date: '2023-10-24'
     end:
@@ -506,22 +515,6 @@ chairs:
     date: '2025-08-07'
     subject: 'WG Action: Rechartered Multiprotocol Label Switching (mpls)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/qNDIhROEnSDosP826ZNJq1V5JDQ/
-  - kind: list message
-    date: '2024-01-30'
-    says: start
-    subject: '[mpls] MPLS Chairs'
-    url: https://mailarchive.ietf.org/arch/msg/mpls/pSlcUzJq3PBXRjiD0UUEbVIi69Q/
-    excerpt: When Adrian agreed to take the reins as MPLS chair, there was an agreement, at his request,
-      that it would be a temporary appointment until the Brisbane meeting, whereafter a permanent chair
-      would be appointed.
-  - kind: list message
-    date: '2024-01-30'
-    says: end
-    subject: '[mpls] MPLS Chairs'
-    url: https://mailarchive.ietf.org/arch/msg/mpls/pSlcUzJq3PBXRjiD0UUEbVIi69Q/
-    excerpt: Having had discussions with my fellow AD’s the agreement is that we will be appointing a
-      4th chair for an interim period between now and the Brisbane meeting, to allow for proper handover
-      and orientation, whereafter Adrian will step down.
   - kind: chair activity
     first: '2020-09-24'
     last: '2026-06-19'
@@ -542,6 +535,10 @@ chairs:
     - date: '2025-05-06'
       subject: '[mpls] Adoption poll for draft-jags-mpls-ps-mna-hdr'
       url: https://mailarchive.ietf.org/arch/msg/mpls/mGJVSAQCpWOt5ZT23eNuFMutKIM/
+  - kind: minutes without them
+    date: '2008-03-09'
+    subject: IETF 71 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/71/minutes/mpls.txt
   - kind: shepherded
     documents:
     - draft-andersson-mpls-lsp-ping-registries-update
@@ -581,10 +578,6 @@ chairs:
     - date: '2018-07-25'
       subject: '[mpls] WGLC for draft-ietf-mpls-ldp-yang'
       url: https://mailarchive.ietf.org/arch/msg/mpls/6Lugu3tgKyrpYdZkcHBIc8JMenI/
-  - kind: minutes without them
-    date: '2008-03-09'
-    subject: IETF 71 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/71/minutes/mpls.txt
   - kind: shepherded
     documents:
     - draft-andersson-mpls-mna-fwk
@@ -610,13 +603,20 @@ chairs:
       not_before: '2011-11-13'
       not_after: '2018-07-14'
     notes:
-    - 'Start: not yet listed among the chairs in meeting minutes (2008-03-09)'
+    - 'Start: not listed among the chairs in meeting minutes (2008-03-09)'
+    - 'Start: requested the group''s session for IETF 77 (2010-03-21)'
+    - 'End: requested the group''s session for IETF 82 (2011-11-13)'
     - 'End: became an Area Director, first serving at IETF 102 (2018-07-14)'
   evidence:
   - kind: minutes without them
     date: '2008-03-09'
     subject: IETF 71 minutes in the proceedings
     url: https://www.ietf.org/proceedings/71/minutes/mpls.txt
+  - kind: joined the IESG
+    after_meeting: '101'
+    after: '2018-03-17'
+    by_meeting: '102'
+    by: '2018-07-14'
   - kind: session requests
     meetings:
     - '77'
@@ -626,11 +626,6 @@ chairs:
     - '81'
     - '82'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
-  - kind: joined the IESG
-    after_meeting: '101'
-    after: '2018-03-17'
-    by_meeting: '102'
-    by: '2018-07-14'
 - person: 116516
   name: Tarek Saad
   status: confirmed
@@ -655,14 +650,20 @@ chairs:
     subject: '[mpls] New MPLS WG Co-Chair'
     url: https://mailarchive.ietf.org/arch/msg/mpls/aJ9rDOyV5_eFNyv5X-875e8gdsQ/
     excerpt: Please welcome Tarek as your new MPLS WG Co-Chair!
-  - kind: list message
-    date: '2024-01-30'
-    says: end
-    subject: '[mpls] MPLS Chairs'
-    url: https://mailarchive.ietf.org/arch/msg/mpls/pSlcUzJq3PBXRjiD0UUEbVIi69Q/
-    excerpt: I have decided to appoint Tony Li effectively immediately and this appointment is done following
-      consultation with my fellow AD’s and with the agreement of Nic and Tarek and the support of Adrian
-      as the outgoing interim chair.
+  - kind: chair activity
+    first: '2019-09-13'
+    last: '2025-08-12'
+    messages: 10
+    examples:
+    - date: '2019-09-13'
+      subject: '[mpls] WGLC, IPR and implementation poll for draft-ietf-mpls-mldp-yang-06'
+      url: https://mailarchive.ietf.org/arch/msg/mpls/P-pJ9NkliW5BAVqUOilXghmT-e4/
+    - date: '2021-01-05'
+      subject: '[mpls] WG adoption poll for draft-cheng-mpls-inband-pm-encapsulation'
+      url: https://mailarchive.ietf.org/arch/msg/mpls/q0LoebxOAuRKoSt3-5aajCbfEvk/
+    - date: '2021-08-30'
+      subject: '[mpls] WG adoption poll for draft-rathi-mpls-egress-tlv-for-nil-fec'
+      url: https://mailarchive.ietf.org/arch/msg/mpls/el69kKXM3lxpig94auzXxPeE8VY/
   - kind: shepherded
     documents:
     - draft-gandhi-mpls-rfc6374-sr

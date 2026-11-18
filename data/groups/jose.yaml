@@ -47,8 +47,8 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Gk-KmF2rs7sDFiHPuTEIer7H2oc/
   - kind: chair activity
     first: '2012-10-24'
-    last: '2026-11-03'
-    messages: 38
+    last: '2015-04-09'
+    messages: 19
     examples:
     - date: '2012-10-24'
       subject: '[jose] call for agenda items'
@@ -62,9 +62,6 @@ chairs:
     - date: '2014-07-23'
       subject: '[jose] Working Group Last Call (WGLC) for draft-ietf-jose-cookbook-03'
       url: https://mailarchive.ietf.org/arch/msg/jose/QMIKnBA1QJlxvdnv8JZ_Eza57xI/
-    - date: '2024-01-02'
-      subject: '[jose] Call for Adoption: draft-jones-jose-fully-specified-algorithms'
-      url: https://mailarchive.ietf.org/arch/msg/jose/W2RHg__04A9K6tx91NmgO4SAZGY/
   - kind: proceedings
     listed_in: 12
     first: '2012-07-29'
@@ -94,13 +91,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-11-13'
-      not_before: '2011-08-18'
+      date: '2011-07-24'
     end:
       certainty: exact
       date: '2012-08-01'
     notes:
-    - 'Start: requested the group''s session for IETF 82 (2011-11-13)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2011-07-24)'
   evidence:
   - kind: proceedings
     listed_in: 3
@@ -146,11 +142,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
-      not_before: '2011-08-18'
+      date: '2011-07-24'
     end:
       certainty: exact
       date: '2022-10-25'
+    notes:
+    - 'Start: listed as chair in a proceedings charter snapshot (2011-07-24)'
   evidence:
   - kind: WG Review
     date: '2013-04-16'
@@ -226,14 +223,6 @@ chairs:
     date: '2023-12-15'
     subject: 'WG Action: Rechartered Javascript Object Signing and Encryption (jose)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Gk-KmF2rs7sDFiHPuTEIer7H2oc/
-  - kind: chair activity
-    first: '2022-10-14'
-    last: '2022-10-14'
-    messages: 1
-    examples:
-    - date: '2022-10-14'
-      subject: '[jose] Oct 12 Interim JWP BOF minutes and Draft charter'
-      url: https://mailarchive.ietf.org/arch/msg/jose/X2QDTjmE5CZyAZPHXIYbfZ-rnuI/
 - person: 139514
   name: Michael P
   status: confirmed
@@ -244,12 +233,6 @@ chairs:
     end:
       certainty: ongoing
   evidence:
-  - kind: list message
-    date: '2025-11-25'
-    says: start
-    subject: '[jose] chair changes for jose'
-    url: https://mailarchive.ietf.org/arch/msg/jose/yF5y-mK7GM34IWfuL1DllNTI-bQ/
-    excerpt: We would like to welcome Michael P as the incoming jose chair.
   - kind: shepherded
     documents:
     - draft-ietf-jose-hpke-encrypt
