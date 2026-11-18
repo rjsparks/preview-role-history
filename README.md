@@ -68,9 +68,11 @@ chairs:
   The site uses them to mark chairing that was only for the BOF ("BOF only") or that
   carried on into the working group ("BOF, then WG"). Correct them like any other field.
 - **Groups the datatracker doesn't know about.** Some early groups and BOFs never made it
-  into the datatracker. Add a file for one with `datatracker: false`, a `type` of `bof`,
-  `wg` or `rg`, its `state` as best known, and a group-level `sources` list saying how we
-  know it existed. Anyone can report one with the "A group that isn't listed" issue form.
+  into the datatracker, and we collect their chairs anyway. Add a file for one with
+  `datatracker: false`, a `type` of `bof`, `wg` or `rg`, its `state` as best known (or
+  `unknown`), and a group-level `sources` list saying how we know it existed. Anyone can
+  report one with the "A group that isn't listed" issue form; once its file exists, its page
+  takes further chairs and corrections like any other group's.
 - **evidence**: written by the seed extraction (announcements, session requests, documents
   shepherded). Leave it as it is.
 
@@ -90,8 +92,11 @@ python tools/render.py data _site     # then open _site/index.html
   `unconfirmed` entry changes its status to `contributed`.
 - **Review.** The checks catch malformed data and missing sources; reviewers judge whether
   the sources support the claim.
-- **Reseeding.** Group files with `datatracker: false` come from contributors, not the
-  extraction: keep them when replacing `data/` with a new seed.
+- **Reseeding.** Run `python tools/reseed.py <seed dir> data` rather than replacing `data/`.
+  It keeps contributed chair entries and groups the datatracker doesn't know about, and
+  merges a contributed group into the datatracker's once the datatracker has it. If a
+  contributed group's acronym turns out to belong to a different datatracker group, it
+  stops and says so: rename the contributed file and run it again.
 - **Publishing.** Merging to `main` rebuilds the site and deploys it to GitHub Pages.
 - **Setup.** Enable Pages with "GitHub Actions" as the source. Create the labels
   `correction`, `confirmation`, `missing` and `missing-group`, which the issue forms apply.

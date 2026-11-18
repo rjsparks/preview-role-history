@@ -12,6 +12,7 @@ import yaml
 sys.path.insert(0, str(Path(__file__).parent))
 import chairdata as cd  # noqa: E402
 import render  # noqa: E402
+import reseed  # noqa: E402
 import validate  # noqa: E402
 
 PEOPLE = [{"id": 1, "name": "Ada Chair", "uuid": "00000000-0000-4000-8000-000000000001"}]
@@ -146,6 +147,55 @@ class MissingGroupTests(DataDirMixin, unittest.TestCase):
     def test_it_needs_sources(self):
         self.write_group(self.jabber(sources=[]))
         self.assertTrue(any("needs a `sources` list" in m for m in self.problems()))
+
+
+class ReseedTests(DataDirMixin, unittest.TestCase):
+    def seed(self, groups, people=PEOPLE):
+        seed = self.root / "seed"
+        (seed / "groups").mkdir(parents=True, exist_ok=True)
+        (seed / "reference").mkdir(exist_ok=True)
+        for p in (seed / "groups").glob("*.yaml"):
+            p.unlink()
+        for g in groups:
+            (seed / "groups" / f"{g['acronym']}.yaml").write_text(yaml.safe_dump(g, sort_keys=False))
+        (seed / "reference" / "people.yaml").write_text(yaml.safe_dump(people))
+        return seed
+
+    def entry(self, person, name, status="contributed"):
+        return {"person": person, "name": name, "status": status, "sources": ["issue #1"],
+                "periods": [{"start": {"certainty": "approximate", "date": "2002"}, "end": {"certainty": "approximate", "date": "2003"}}]}
+
+    def test_a_reports_b_adds_then_the_datatracker_learns_of_the_group(self):
+        jabber = group(acronym="jabber", name="Jabber Protocol BOF", type="bof", state="unknown", datatracker=False,
+                       sources=["IETF 54 proceedings"], chairs=[self.entry(1, "Ada Chair")])
+        self.write_group(jabber)                       # person A reports the group and their role
+        jabber["chairs"].append(self.entry(None, "Bea Helper"))
+        self.write_group(jabber)                       # person B adds another chair
+        self.assertEqual(reseed.reseed(self.seed([group()]), self.data), [])
+        kept = yaml.safe_load((self.data / "groups" / "jabber.yaml").read_text())
+        self.assertEqual([c["name"] for c in kept["chairs"]], ["Ada Chair", "Bea Helper"])  # untouched by the reseed
+
+        later = group(acronym="jabber", name="Jabber Protocol", type="wg", state="conclude",
+                      chairs=[{**self.entry(2, "Cy Recorded", status="confirmed"), "sources": None}])
+        self.assertEqual(reseed.reseed(self.seed([group(), later]), self.data), [])
+        merged = yaml.safe_load((self.data / "groups" / "jabber.yaml").read_text())
+        self.assertNotIn("datatracker", merged)
+        self.assertEqual(sorted(c["name"] for c in merged["chairs"]), ["Ada Chair", "Bea Helper", "Cy Recorded"])
+        self.assertIn("IETF 54 proceedings", merged["sources"])
+
+    def test_contributed_entries_in_seeded_groups_survive(self):
+        g = group()
+        g["chairs"][0] = self.entry(1, "Ada Chair")
+        self.write_group(g)
+        self.assertEqual(reseed.reseed(self.seed([group()]), self.data), [])
+        kept = yaml.safe_load((self.data / "groups" / "abc.yaml").read_text())
+        self.assertEqual(kept["chairs"][0]["status"], "contributed")
+
+    def test_an_acronym_clash_writes_nothing(self):
+        self.write_group(group(acronym="sip", name="Simple Internet Protocol", datatracker=False, sources=["x"]))
+        clash = group(acronym="sip", name="Session Initiation Protocol")
+        self.assertEqual(len(reseed.reseed(self.seed([clash]), self.data)), 1)
+        self.assertEqual(yaml.safe_load((self.data / "groups" / "sip.yaml").read_text())["name"], "Simple Internet Protocol")
 
 
 class SourcesRequiredTests(DataDirMixin, unittest.TestCase):
