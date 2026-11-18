@@ -193,6 +193,40 @@ class MissingPersonTests(DataDirMixin, unittest.TestCase):
         self.assertIn("jane-doe", [p.get("key") for p in yaml.safe_load((self.data / "people.yaml").read_text())])
 
 
+class KnownPersonNewChairTests(DataDirMixin, unittest.TestCase):
+    uuid = "5f065c18-439d-4462-81b0-7647979d946c"
+
+    def chair_entry(self):
+        return {"person": self.uuid, "name": "Lars Example", "status": "contributed", "sources": ["issue #9"],
+                "periods": [{"start": {"certainty": "approximate", "date": "1999"}, "end": {"certainty": "approximate", "date": "2001"}}]}
+
+    def test_added_by_uuid_then_seeded_by_id(self):
+        self.write_people(PEOPLE + [{"uuid": self.uuid, "name": "Lars Example"}])
+        g = group()
+        g["chairs"].append(self.chair_entry())
+        self.write_group(g)
+        self.assertEqual(self.problems(), [])
+        out = self.root / "site"
+        render.Site(cd.load(self.data), out, "example/chairs").build(Path(__file__).parent.parent / "site")
+        self.assertTrue((out / "people" / f"{self.uuid}.html").exists())  # the same page the seed would give them
+
+        seed = self.root / "seed"
+        (seed / "groups").mkdir(parents=True)
+        (seed / "reference").mkdir()
+        other = group(acronym="xyz", name="Another Group")
+        other["chairs"] = [{"person": 77, "name": "Lars Example", "status": "confirmed",
+                            "periods": [{"start": {"certainty": "exact", "date": "2012-01-01"}, "end": {"certainty": "ongoing"}}]}]
+        for x in (group(), other):
+            (seed / "groups" / f"{x['acronym']}.yaml").write_text(yaml.safe_dump(x, sort_keys=False))
+        (seed / "reference" / "people.yaml").write_text(yaml.safe_dump(PEOPLE + [{"id": 77, "name": "Lars Example", "uuid": self.uuid}]))
+        self.assertEqual(reseed.reseed(seed, self.data), [])
+        abc = yaml.safe_load((self.data / "groups" / "abc.yaml").read_text())
+        self.assertIn(77, [c["person"] for c in abc["chairs"]])  # the contributed entry now names them by id
+        people = yaml.safe_load((self.data / "people.yaml").read_text())
+        self.assertEqual([p.get("id") for p in people if p.get("uuid") == self.uuid], [77])  # one entry, not two
+        self.assertEqual(self.problems(), [])
+
+
 class ReseedTests(DataDirMixin, unittest.TestCase):
     def seed(self, groups, people=PEOPLE):
         seed = self.root / "seed"

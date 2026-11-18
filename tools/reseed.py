@@ -13,8 +13,10 @@ reference/people.yaml). Contributions survive:
   contributed chairs and sources are merged in. A seed group with the same
   acronym but a different name is a clash for a maintainer to resolve, and
   nothing is written;
-- people contributors added to people.yaml are kept, including people the
-  datatracker doesn't know about (entries with a `key` instead of an `id`).
+- people contributors added to people.yaml are kept: people the datatracker
+  knows, added by `uuid` (folded into the seed's entry once it has them by
+  id, along with chair entries naming them by UUID), and people it doesn't
+  know, added by `key`.
 """
 
 import argparse
@@ -45,8 +47,13 @@ def contributed(entries):
     return {cd.person_key(e): e for e in entries or [] if isinstance(e, dict) and e.get("status") == "contributed"}
 
 
-def merge_chairs(seed_chairs, kept):
-    """The seed's chairs with contributed entries in place of the seed's for the same person, then the rest."""
+def merge_chairs(seed_chairs, kept, by_uuid):
+    """The seed's chairs with contributed entries in place of the seed's for the same person, then the rest.
+
+    A contributed entry that names someone by UUID is the seed's entry for
+    them once the seed has them by id; it then names them by id.
+    """
+    kept = {by_uuid.get(k, k): ({**e, "person": by_uuid[k]} if k in by_uuid else e) for k, e in kept.items()}
     out = [kept.pop(cd.person_key(e), e) for e in seed_chairs or []]
     return out + list(kept.values())
 
@@ -57,6 +64,8 @@ def reseed(seed_dir, data_dir):
     groups_dir = data_dir / "groups"
     current = {p.stem: load_yaml(p) for p in sorted(groups_dir.glob("*.yaml"))}
     seeded = {p.stem: load_yaml(p) for p in sorted((seed_dir / "groups").glob("*.yaml"))}
+    seed_people = load_yaml(seed_dir / "reference" / "people.yaml") or []
+    by_uuid = {str(p["uuid"]): p["id"] for p in seed_people if p.get("uuid")}
 
     clashes = []
     result = {}
@@ -71,10 +80,11 @@ def reseed(seed_dir, data_dir):
             # Every chair of a contributed group came from contributors, whatever its status says.
             kept = {cd.person_key(e): {**e, "status": "contributed"} for e in mine.get("chairs") or [] if isinstance(e, dict)}
             seed["sources"] = list(dict.fromkeys((seed.get("sources") or []) + (mine.get("sources") or [])))
-        seed["chairs"] = merge_chairs(seed.get("chairs"), kept)
+        seed["chairs"] = merge_chairs(seed.get("chairs"), kept, by_uuid)
         result[acronym] = seed
     for acronym, mine in current.items():
         if acronym not in result and mine and mine.get("datatracker") is False:
+            mine["chairs"] = merge_chairs([], {cd.person_key(e): e for e in mine.get("chairs") or []}, by_uuid)
             result[acronym] = mine  # still unknown to the datatracker
     if clashes:
         return clashes
@@ -85,10 +95,12 @@ def reseed(seed_dir, data_dir):
     for acronym, data in result.items():
         dump(groups_dir / f"{acronym}.yaml", data)
 
-    people = {p["id"]: p for p in load_yaml(seed_dir / "reference" / "people.yaml") or []}
+    people = {p["id"]: p for p in seed_people}
     for p in load_yaml(data_dir / "people.yaml") or []:
-        # People added by contributors (an id the seed lacks, or a key for someone the datatracker doesn't know).
-        people.setdefault(p["id"] if p.get("id") is not None else p["key"], p)
+        # People contributors added: by UUID (dropped once the seed has them by id) or by key.
+        if p.get("id") is None and p.get("uuid") and str(p["uuid"]) in by_uuid:
+            continue
+        people.setdefault(cd.people_entry_key(p), p)
     dump(data_dir / "people.yaml", [people[k] for k in sorted(people, key=lambda k: (isinstance(k, str), str(k).zfill(12)))])
     return []
 

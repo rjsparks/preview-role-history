@@ -91,15 +91,17 @@ class Site:
         return (entry or {}).get("name") or str(key).removeprefix("name:")
 
     def person_uuid(self, key):
-        """The datatracker primary UUID of a person with an id; validate.py requires one."""
-        return str(self.data.people[key]["uuid"]) if isinstance(key, int) else ""
+        """The datatracker primary UUID of a person the datatracker knows; validate.py requires one."""
+        if isinstance(key, int):
+            return str(self.data.people[key]["uuid"])
+        return key if cd.is_uuid(key) else ""
 
     def person_slug(self, key):
         """A person page's name: their datatracker primary UUID, never the internal id.
 
         Only people with no datatracker record get a slug of their name.
         """
-        if isinstance(key, int):
+        if isinstance(key, int) or cd.is_uuid(key):
             return self.person_uuid(key)
         if cd.is_contributed_person(key):
             return "c-" + key

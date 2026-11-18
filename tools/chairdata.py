@@ -213,9 +213,30 @@ class Data:
         return result
 
 
+UUID_RE = re.compile(r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$")
+
+
+def people_entry_key(p):
+    """How chair entries refer to a people.yaml entry.
+
+    By datatracker id (the seed); by datatracker UUID (someone the
+    datatracker knows whom a contributor added, before the seed has them);
+    or by a contributor-chosen key (someone the datatracker doesn't know).
+    """
+    if p.get("id") is not None:
+        return p["id"]
+    if p.get("uuid"):
+        return str(p["uuid"])
+    return p["key"]
+
+
+def is_uuid(key):
+    return isinstance(key, str) and bool(UUID_RE.match(key))
+
+
 def is_contributed_person(key):
-    """A people.yaml key for someone the datatracker doesn't know (not an id, not a bare name)."""
-    return isinstance(key, str) and not key.startswith("name:")
+    """A people.yaml key for someone the datatracker doesn't know (not an id, a UUID or a bare name)."""
+    return isinstance(key, str) and not key.startswith("name:") and not is_uuid(key)
 
 
 def person_key(entry):
@@ -241,8 +262,14 @@ def load(data_dir):
     people_path = data_dir / "people.yaml"
     try:
         for p in yaml.safe_load(people_path.read_text()) or []:
-            # Datatracker people by id; people the datatracker doesn't know by a contributor-chosen key.
-            people[p["id"] if p.get("id") is not None else p["key"]] = p
+            people[people_entry_key(p)] = p
     except (yaml.YAMLError, KeyError, TypeError) as err:
         problems.append((people_path, f"could not be read: {err}"))
+    # A contributor may name someone the datatracker knows by their UUID before the seed has them
+    # by id; once it does, both are the same person.
+    by_uuid = {str(p["uuid"]): pid for pid, p in people.items() if isinstance(pid, int) and p.get("uuid")}
+    for g in groups.values():
+        for e in g.get("chairs") or []:
+            if isinstance(e, dict) and isinstance(e.get("person"), str) and e["person"] in by_uuid:
+                e["person"] = by_uuid[e["person"]]
     return Data(groups, people, problems, people_path)

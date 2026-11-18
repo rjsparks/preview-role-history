@@ -37,6 +37,11 @@ def check(data):
             if not UUID.match(str(person.get("uuid") or "")):
                 problems.append((data.people_path, f"person {pid} needs `uuid`, their datatracker primary UUID"))
             continue
+        if cd.is_uuid(pid):
+            # Someone the datatracker knows, added by a contributor before the seed has them.
+            if not person.get("name"):
+                problems.append((data.people_path, f"person {pid} needs a `name`"))
+            continue
         # Someone the datatracker doesn't know about yet.
         if not PERSON_KEY.match(str(pid)):
             problems.append((data.people_path, f"person key {pid!r} must be lower-case letters, digits and hyphens"))
