@@ -184,6 +184,11 @@ chairs:
     - '73'
     - '74'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: joined the IESG
+    after_meeting: '74'
+    after: '2009-03-22'
+    by_meeting: '75'
+    by: '2009-07-26'
 - person: 106296
   name: Andy Newton
   status: unconfirmed
@@ -335,6 +340,11 @@ chairs:
     - '81'
     - '82'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: joined the IESG
+    after_meeting: '86'
+    after: '2013-03-10'
+    by_meeting: '87'
+    by: '2013-07-28'
 - person: 109059
   name: Ray Bellis
   status: confirmed
@@ -464,3 +474,8 @@ chairs:
     documents:
     - draft-ietf-geopriv-relative-location
     - draft-ietf-geopriv-res-gw-lis-discovery
+  - kind: joined the IESG
+    after_meeting: '89'
+    after: '2014-03-02'
+    by_meeting: '90'
+    by: '2014-07-20'

@@ -394,6 +394,11 @@ chairs:
     - '70'
     - '71'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: joined the IESG
+    after_meeting: '71'
+    after: '2008-03-09'
+    by_meeting: '72'
+    by: '2008-07-27'
 - person: 121595
   name: Christopher Wood
   status: confirmed

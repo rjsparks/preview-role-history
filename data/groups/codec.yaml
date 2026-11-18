@@ -219,6 +219,11 @@ chairs:
     meetings:
     - '77'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: joined the IESG
+    after_meeting: '77'
+    after: '2010-03-21'
+    by_meeting: '78'
+    by: '2010-07-25'
 - person: 112724
   name: Timothy Terriberry
   status: confirmed

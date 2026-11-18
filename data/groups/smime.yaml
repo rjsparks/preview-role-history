@@ -69,6 +69,11 @@ chairs:
     date: '2003-06-06'
     subject: IETF 57 proceedings charter, as last modified
     url: https://www.ietf.org/proceedings/57/213.htm
+  - kind: joined the IESG
+    after_meeting: '56'
+    after: '2003-03-16'
+    by_meeting: '57'
+    by: '2003-07-13'
 - person: 10083
   name: Paul Hoffman
   status: confirmed
@@ -175,6 +180,11 @@ chairs:
     - '69'
     - '70'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: joined the IESG
+    after_meeting: '77'
+    after: '2010-03-21'
+    by_meeting: '78'
+    by: '2010-07-25'
 - person: 21446
   name: Blake Ramsdell
   status: confirmed

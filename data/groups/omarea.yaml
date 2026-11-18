@@ -21,6 +21,12 @@ chairs:
     end:
       certainty: group-closed
       date: '1997-01-01'
+  evidence:
+  - kind: joined the IESG
+    after_meeting: '37'
+    after: '1996-12-09'
+    by_meeting: '38'
+    by: '1997-04-07'
 - person: 4763
   name: Deirdre Kostick
   status: confirmed

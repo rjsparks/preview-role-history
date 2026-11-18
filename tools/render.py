@@ -195,6 +195,15 @@ class Site:
                 span = f"on {e(first)}" if first == last else f"{e(first)} to {e(last)}"
                 count = "one" if n == 1 else e(n)
                 items.append(f"<li>Listed as chair in {count} of {what}, {span}" + (f": {examples}" if examples else "") + "</li>")
+            elif kind == "joined the IESG":
+                if ev.get("after_meeting"):
+                    items.append(
+                        f"<li>Joined the IESG after IETF {e(ev['after_meeting'])} ({e(ev.get('after'))}) and by "
+                        f"IETF {e(ev.get('by_meeting'))} ({e(ev.get('by'))}). The NomCom usually seats new Area "
+                        "Directors at the end of the earlier meeting, and they usually stop chairing then.</li>"
+                    )
+                else:
+                    items.append(f"<li>Joined the IESG by IETF {e(ev.get('by_meeting'))} ({e(ev.get('by'))}).</li>")
             elif kind == "BOF session":
                 items.append(
                     f'<li>The BOF met at <a href="{e(ev.get("url", ""))}">IETF {e(ev.get("meeting"))}</a> ({e(ev.get("date"))})</li>'

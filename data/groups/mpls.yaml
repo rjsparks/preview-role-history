@@ -620,6 +620,11 @@ chairs:
     - '81'
     - '82'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: joined the IESG
+    after_meeting: '101'
+    after: '2018-03-17'
+    by_meeting: '102'
+    by: '2018-07-14'
 - person: 116516
   name: Tarek Saad
   status: confirmed

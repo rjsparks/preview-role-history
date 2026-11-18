@@ -556,6 +556,11 @@ chairs:
     - '77'
     - '80'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: joined the IESG
+    after_meeting: '80'
+    after: '2011-03-27'
+    by_meeting: '81'
+    by: '2011-07-24'
 - person: 119702
   name: Ian Swett
   status: confirmed

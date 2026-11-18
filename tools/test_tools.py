@@ -190,6 +190,8 @@ class RenderTests(DataDirMixin, unittest.TestCase):
             "subject": "[abc] New chair", "url": "https://mailarchive.ietf.org/arch/msg/abc/sole/",
             "excerpt": "Bob has agreed to take over as the sole chair.",
         }, {
+            "kind": "joined the IESG", "after_meeting": "74", "after": "2009-03-22", "by_meeting": "75", "by": "2009-07-26",
+        }, {
             "kind": "BOF session", "meeting": "49", "date": "2000-12-10",
             "url": "https://www.ietf.org/proceedings/49/abc.htm",
         }, {
@@ -224,6 +226,7 @@ class RenderTests(DataDirMixin, unittest.TestCase):
         self.assertNotIn("on-or-before</dt>", person)
         self.assertIn("BOF only", (out / "index.html").read_text() + person)  # explained in the legend
         self.assertIn("Group list message naming a new sole chair, so the other chairs&#x27; terms ended, 2007-04-23", person)
+        self.assertIn("Joined the IESG after IETF 74 (2009-03-22) and by IETF 75 (2009-07-26).", person)
         self.assertIn("How the dates were set:", person)
         self.assertIn("<b>Start:</b> the BOF met at IETF 49 (2000-12-10)", person)
         self.assertIn('The BOF met at <a href="https://www.ietf.org/proceedings/49/abc.htm">IETF 49</a>', person)

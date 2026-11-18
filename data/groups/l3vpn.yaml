@@ -140,6 +140,11 @@ chairs:
     meetings:
     - '65'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: joined the IESG
+    after_meeting: '65'
+    after: '2006-03-19'
+    by_meeting: '66'
+    by: '2006-07-09'
 - person: 19987
   name: Danny McPherson
   status: confirmed

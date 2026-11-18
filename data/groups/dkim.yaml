@@ -96,6 +96,11 @@ chairs:
     - '78'
     - '80'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: joined the IESG
+    after_meeting: '80'
+    after: '2011-03-27'
+    by_meeting: '81'
+    by: '2011-07-24'
 - person: 21684
   name: Barry Leiba
   status: unconfirmed
@@ -161,6 +166,11 @@ chairs:
     - draft-ietf-dkim-implementation-report
     - draft-ietf-dkim-mailinglists
     - draft-ietf-dkim-rfc4871bis
+  - kind: joined the IESG
+    after_meeting: '83'
+    after: '2012-03-25'
+    by_meeting: '84'
+    by: '2012-07-29'
 - person: 106842
   name: Murray Kucherawy
   status: confirmed

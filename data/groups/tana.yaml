@@ -37,6 +37,11 @@ chairs:
     meetings:
     - '72'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+  - kind: joined the IESG
+    after_meeting: '122'
+    after: '2025-03-15'
+    by_meeting: '123'
+    by: '2025-07-19'
 - person: 109422
   name: Stanislav Shalunov
   status: confirmed
