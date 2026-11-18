@@ -19,12 +19,17 @@ chairs:
       certainty: evidence-only
       not_after: '1997-08-11'
     end:
-      certainty: between
-      not_before: '1997-11-12'
-      not_after: '1998-08-17'
+      certainty: approximate
+      date: '1998-03-10'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (1998-08-17)'
+    - 'End: announced on the group''s list (1998-03-10)'
   evidence:
+  - kind: list message
+    date: '1998-03-10'
+    says: end
+    subject: New co-chair, Mark Allman
+    url: https://mailarchive.ietf.org/arch/msg/tcpimpl/10D6bmSKks4mu03zV6Cbnd-z0RI/
+    excerpt: Steve Alexander had to step down due to other commitments.
   - kind: proceedings
     listed_in: 2
     first: '1997-08-11'
@@ -36,10 +41,6 @@ chairs:
     - date: '1997-11-12'
       subject: IETF 40 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-124.htm
-  - kind: minutes without them
-    date: '1998-08-17'
-    subject: IETF 42 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/42/98aug-143.htm
 - person: 17625
   name: Vern Paxson
   status: confirmed

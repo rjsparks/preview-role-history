@@ -122,9 +122,10 @@ chairs:
       not_before: '2011-12-09'
       not_after: '2012-07-29'
     end:
-      certainty: group-closed
-      date: '2017-02-01'
+      certainty: approximate
+      date: '2015-07-23'
     notes:
+    - 'End: announced on the group''s list (2015-07-23)'
     - 'Start: listed as chair in a proceedings charter snapshot (2012-07-29)'
   evidence:
   - kind: WG Action
@@ -135,6 +136,13 @@ chairs:
     date: '2013-03-12'
     subject: 'WG Action: Formed Hypertext Transmission Protocol Authentication (httpauth)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/9Ov6-uWfXkbLcf64zh5bEqNaU1c/
+  - kind: list message
+    date: '2015-07-23'
+    says: end
+    subject: '[http-auth] Chair change'
+    url: https://mailarchive.ietf.org/arch/msg/http-auth/vQaICbcp59zHzl-5LjOTAOFayfQ/
+    excerpt: As Yoav already announced, Matt has to step down, but will hopefully be back at the IETF
+      in the future.
   - kind: chair activity
     first: '2013-07-17'
     last: '2016-05-27'

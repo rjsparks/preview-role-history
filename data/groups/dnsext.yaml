@@ -304,15 +304,14 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2001-08-21'
-      not_after: '2003-06-23'
+      certainty: approximate
+      date: '2003-06-19'
     end:
       certainty: between
       not_before: '2007-06-11'
       not_after: '2008-07-27'
     notes:
-    - 'Start: not yet listed among the chairs in meeting minutes (2001-08-21)'
+    - 'Start: announced on the group''s list (2003-06-19)'
     - 'End: no longer listed among the chairs in meeting minutes (2008-07-27)'
   evidence:
   - kind: WG Action
@@ -327,6 +326,12 @@ chairs:
     date: '2005-02-09'
     subject: 'WG Action: RECHARTER: DNS Extensions (dnsext)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/UqWK3uRL1Nv4q8sCRDy9IpcplN0/
+  - kind: list message
+    date: '2003-06-19'
+    says: start
+    subject: Change of chairs
+    url: https://mailarchive.ietf.org/arch/msg/dnsext/Tmcp3JNwhSBeOXucJmI0n5qxsoU/
+    excerpt: Welcome Olaf.
   - kind: list message
     date: '2003-08-13'
     says: start

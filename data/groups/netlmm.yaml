@@ -22,16 +22,21 @@ chairs:
       certainty: evidence-only
       not_after: '2005-03-06'
     end:
-      certainty: between
-      not_before: '2007-02-13'
-      not_after: '2007-07-10'
+      certainty: approximate
+      date: '2007-04-16'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2007-07-10)'
+    - 'End: announced on the group''s list (2007-04-16)'
   evidence:
   - kind: WG Action
     date: '2006-01-12'
     subject: 'WG Action: Network-based Localized Mobility Management (netlmm)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Z7KBfKxkXW2p4uMAYPJX2ihnmfY/
+  - kind: list message
+    date: '2007-04-16'
+    says: end
+    subject: '[netlmm] new co-chair for NETLMM WG'
+    url: https://mailarchive.ietf.org/arch/msg/netlmm/iw4PfRDL2air_Wel4fchSSkoiP8/
+    excerpt: As you know, Phil Roberts has stepped down.
   - kind: chair activity
     first: '2006-07-25'
     last: '2006-11-09'
@@ -63,10 +68,6 @@ chairs:
     - date: '2007-02-13'
       subject: IETF 68 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/68/netlmm.html
-  - kind: minutes without them
-    date: '2007-07-10'
-    subject: IETF 69 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/69/netlmm.html
   - kind: session requests
     meetings:
     - '65'
@@ -180,19 +181,25 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2007-02-13'
-      not_before: '2005-05-30'
+      certainty: approximate
+      date: '2006-11-21'
     end:
       certainty: group-closed
       date: '2010-10-05'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2007-02-13)'
+    - 'Start: announced on the group''s list (2006-11-21)'
   evidence:
   - kind: WG Review
     date: '2008-07-08'
     subject: 'WG Review: Recharter of Network-based Localized Mobility Management (netlmm)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/B7GAysrotb-6vyU7CEirt_3UTM8/
+  - kind: list message
+    date: '2006-11-21'
+    says: start
+    subject: '[netlmm] Change in WG Chair'
+    url: https://mailarchive.ietf.org/arch/msg/netlmm/D9aZbM9VFEJEgbElWV_XqxCDnXk/
+    excerpt: Please help to support Vidya as she takes on this enlarged responsibility as a new WG chair
+      in IETF.
   - kind: proceedings
     listed_in: 3
     first: '2007-02-13'

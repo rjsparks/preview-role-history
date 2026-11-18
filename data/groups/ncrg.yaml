@@ -52,15 +52,21 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2012-02-26'
-      not_after: '2013-07-28'
+      certainty: approximate
+      date: '2013-04-22'
     end:
       certainty: group-closed
       date: '2014-06-13'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2013-07-28)'
+    - 'Start: announced on the group''s list (2013-04-22)'
   evidence:
+  - kind: list message
+    date: '2013-04-22'
+    says: start
+    subject: '[ncrg] Change of NCRG chair'
+    url: https://mailarchive.ietf.org/arch/msg/ncrg/7EZib1RZneoANOKWhwM_fh3Pj8g/
+    excerpt: Thanks for Geoff for his engagement and support of the NCRG, and welcome Dave in this new
+      challenge!
   - kind: proceedings
     listed_in: 4
     first: '2013-07-28'
@@ -94,6 +100,13 @@ chairs:
     subject: '[ncrg] Change of NCRG chair'
     url: https://mailarchive.ietf.org/arch/msg/ncrg/7EZib1RZneoANOKWhwM_fh3Pj8g/
     excerpt: Unfortunately Geoff Huston has decided to step down as the NCRG co-chair.
+  - kind: list message
+    date: '2013-04-22'
+    says: start
+    subject: '[ncrg] Change of NCRG chair'
+    url: https://mailarchive.ietf.org/arch/msg/ncrg/7EZib1RZneoANOKWhwM_fh3Pj8g/
+    excerpt: Thanks for Geoff for his engagement and support of the NCRG, and welcome Dave in this new
+      challenge!
   - kind: proceedings
     listed_in: 4
     first: '2012-03-25'

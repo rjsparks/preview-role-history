@@ -44,6 +44,12 @@ chairs:
       certainty: group-closed
       date: '2023-04-12'
   evidence:
+  - kind: list message
+    date: '2019-03-23'
+    says: start
+    subject: '[Dots] please welcome new DOTS co-chair Valery Smyslov'
+    url: https://mailarchive.ietf.org/arch/msg/dots/D0_6J76HF4tY26__D9HroAyuJso/
+    excerpt: Please give Valery a warm welcome!
   - kind: chair activity
     first: '2019-04-08'
     last: '2022-02-09'
@@ -94,6 +100,13 @@ chairs:
     date: '2015-06-26'
     subject: 'WG Action: Formed DDoS Open Threat Signaling (dots)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/vYNQz6fK_r1YLHu5HfGn6LsbUak/
+  - kind: list message
+    date: '2019-03-23'
+    says: end
+    subject: '[Dots] please welcome new DOTS co-chair Valery Smyslov'
+    url: https://mailarchive.ietf.org/arch/msg/dots/D0_6J76HF4tY26__D9HroAyuJso/
+    excerpt: As Roman will be stepping down as co-chair to take up the mantle of Security AD, I would
+      like to introduce Valery Smyslov as the incoming DOTS co-chair.
   - kind: proceedings
     listed_in: 7
     first: '2014-07-20'
@@ -122,6 +135,20 @@ chairs:
       certainty: exact
       date: '2019-03-23'
   evidence:
+  - kind: list message
+    date: '2018-07-14'
+    says: end
+    subject: '[Dots] please welcome new co-chair Liang Xia'
+    url: https://mailarchive.ietf.org/arch/msg/dots/De-dhTB0Fyn7ymYlOYSIoFSO1wM/
+    excerpt: Frank will be taking over for Tobias, who will be moving on soon to free up some time for
+      other matters.
+  - kind: list message
+    date: '2019-03-23'
+    says: end
+    subject: '[Dots] please welcome new DOTS co-chair Valery Smyslov'
+    url: https://mailarchive.ietf.org/arch/msg/dots/D0_6J76HF4tY26__D9HroAyuJso/
+    excerpt: I'd also like to take this opportunity to thank Roman for his time as co-chair, as well as
+      a belated thanks to Tobias for his service -- I never gave him a proper send-off!
   - kind: chair activity
     first: '2015-10-11'
     last: '2018-06-13'

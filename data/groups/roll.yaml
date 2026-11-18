@@ -16,12 +16,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2013-10-03'
+      certainty: approximate
+      date: '2012-02-10'
     end:
       certainty: exact
       date: '2016-03-08'
+    notes:
+    - 'Start: announced on the group''s list (2012-02-10)'
   evidence:
   - kind: WG Review
     date: '2015-04-10'
@@ -31,6 +32,18 @@ chairs:
     date: '2015-04-24'
     subject: 'WG Action: Rechartered Routing Over Low power and Lossy networks (roll)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/0i_m7eLenh3muGqIoFFi6JcLWeA/
+  - kind: list message
+    date: '2012-02-10'
+    says: start
+    subject: '[Roll] Planned change in ROLL co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/roll/yd4dBV7je8ZNuWVX8a3KZanHhoY/
+    excerpt: Michael Richardson has agreed to step into the breach.
+  - kind: list message
+    date: '2016-03-08'
+    says: end
+    subject: '[Roll] New roll WG Co-Chair'
+    url: https://mailarchive.ietf.org/arch/msg/roll/7lv0JLUcIGh8uP7kxb4dft1Krk0/
+    excerpt: Michael has decided to step down as roll Co-Chair, a position he has held since 2012.
   - kind: proceedings
     listed_in: 6
     first: '2013-11-03'
@@ -66,6 +79,19 @@ chairs:
     date: '2016-12-16'
     subject: 'WG Action: Rechartered Routing Over Low power and Lossy networks (roll)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/XedbN2MYXfT7QSChC-2hBNdC8ss/
+  - kind: list message
+    date: '2016-03-08'
+    says: start
+    subject: '[Roll] New roll WG Co-Chair'
+    url: https://mailarchive.ietf.org/arch/msg/roll/7lv0JLUcIGh8uP7kxb4dft1Krk0/
+    excerpt: Welcome Peter!
+  - kind: list message
+    date: '2019-10-29'
+    says: end
+    subject: '[Roll] New roll Co-Chair'
+    url: https://mailarchive.ietf.org/arch/msg/roll/t1AWmACbzj6fsVMnWdSIx5tlzH4/
+    excerpt: 'Peter: thank you for all the time and effort you have put into the WG — we all look forward
+      to working with you in the future!'
   - kind: chair activity
     first: '2018-11-27'
     last: '2019-03-26'
@@ -170,6 +196,12 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/roll/yd4dBV7je8ZNuWVX8a3KZanHhoY/
     excerpt: After providing years helping to lead the working group, David Culler has decided it is time
       to step down as co-chair.
+  - kind: list message
+    date: '2012-02-10'
+    says: start
+    subject: '[Roll] Planned change in ROLL co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/roll/yd4dBV7je8ZNuWVX8a3KZanHhoY/
+    excerpt: I know you will join with me in thanking David for his expert guidance.
   - kind: chair activity
     first: '2010-09-16'
     last: '2010-09-16'
@@ -207,6 +239,12 @@ chairs:
     date: '2025-01-30'
     subject: 'WG Action: Rechartered Routing Over Low power and Lossy networks (roll)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/v79CSHFYas2R6xnpJfJUEpdGnqs/
+  - kind: list message
+    date: '2019-10-29'
+    says: start
+    subject: '[Roll] New roll Co-Chair'
+    url: https://mailarchive.ietf.org/arch/msg/roll/t1AWmACbzj6fsVMnWdSIx5tlzH4/
+    excerpt: Welcome Dominique!
   - kind: chair activity
     first: '2019-10-30'
     last: '2023-11-06'
@@ -253,6 +291,20 @@ chairs:
     date: '2025-01-30'
     subject: 'WG Action: Rechartered Routing Over Low power and Lossy networks (roll)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/v79CSHFYas2R6xnpJfJUEpdGnqs/
+  - kind: list message
+    date: '2013-11-26'
+    says: start
+    subject: '[Roll] Working group chairs'
+    url: https://mailarchive.ietf.org/arch/msg/roll/rY8vZ4OotI5AzsZC-xRDRye3i4w/
+    excerpt: At this stage in the WG's work cycle this is exactly the set of skills we need push the remaining
+      documents forward and to make sure that all of the issues are tracked correctly, so I am happy to
+      appoint Ines as the new co-chair of ROLL to work alongside Michael Richardson.
+  - kind: list message
+    date: '2013-11-26'
+    says: end
+    subject: '[Roll] Working group chairs'
+    url: https://mailarchive.ietf.org/arch/msg/roll/rY8vZ4OotI5AzsZC-xRDRye3i4w/
+    excerpt: Many thanks to JP for his work, and good luck to Ines.
   - kind: proceedings
     listed_in: 6
     first: '2013-11-03'

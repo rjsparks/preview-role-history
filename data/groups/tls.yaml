@@ -326,19 +326,26 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '2006-01-11'
+      certainty: approximate
+      date: '2005-11-11'
     end:
       certainty: between
       not_before: '2008-03-09'
       not_after: '2009-02-04'
     notes:
+    - 'Start: announced on the group''s list (2005-11-11)'
     - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-02-04)'
   evidence:
   - kind: WG Action
     date: '2006-01-11'
     subject: 'WG Action: RECHARTER: Transport Layer Security (tls)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Rs0_8g6JKJm0hzY2cMB51hwGcn0/
+  - kind: list message
+    date: '2005-11-11'
+    says: start
+    subject: '[TLS] New Co-Chair/TLS 1.2'
+    url: https://mailarchive.ietf.org/arch/msg/tls/u93MLzj7f_uKduoh5JMSbS2yNXA/
+    excerpt: Pasi Eronen has agreed to take up this position.
   - kind: chair activity
     first: '2006-05-05'
     last: '2008-02-12'
@@ -457,6 +464,19 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: list message
+    date: '2023-11-17'
+    says: end
+    subject: '[TLS] TLS chair update: Deirdre Connolly replacing Christopher Wood'
+    url: https://mailarchive.ietf.org/arch/msg/tls/uCzUOW4KEudNl8X1vSxdtR5TGgs/
+    excerpt: Christopher Wood has stepped down as TLS WG chair and Deirdre Connolly has stepped up to
+      replace him.
+  - kind: list message
+    date: '2023-11-17'
+    says: start
+    subject: '[TLS] TLS chair update: Deirdre Connolly replacing Christopher Wood'
+    url: https://mailarchive.ietf.org/arch/msg/tls/uCzUOW4KEudNl8X1vSxdtR5TGgs/
+    excerpt: Thanks to Chris for all his work and welcome to Deirdre!
   - kind: list message
     date: '2025-10-13'
     says: start

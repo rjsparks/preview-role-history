@@ -205,14 +205,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2012-03-25'
+      certainty: approximate
+      date: '2012-04-20'
     end:
       certainty: exact
       date: '2023-09-08'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2012-03-25)'
+    - 'Start: announced on the group''s list (2012-04-20)'
   evidence:
   - kind: WG Review
     date: '2013-11-22'
@@ -222,6 +221,19 @@ chairs:
     date: '2013-12-06'
     subject: 'WG Action: Rechartered Emergency Context Resolution with Internet Technologies (ecrit)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/cdW3y0MhX-loL41189rfXPaKsHs/
+  - kind: list message
+    date: '2012-04-20'
+    says: start
+    subject: '[Ecrit] Please welcome Roger Marshall as an ECRIT cochair'
+    url: https://mailarchive.ietf.org/arch/msg/ecrit/eDoBPhz9qlNpcs7LQHdhTTvSDDU/
+    excerpt: Roger has agreed to take on the chair role for the ECRIT working group.
+  - kind: list message
+    date: '2023-09-07'
+    says: end
+    subject: '[Ecrit] Chair rotation'
+    url: https://mailarchive.ietf.org/arch/msg/ecrit/3td0314FMzxAWGrO6V7kUOLTSrs/
+    excerpt: The time has come to complete the transition, and so we bid adieu to Roger as chair, and
+      thank him for his service.
   - kind: minutes
     listed_in: 1
     first: '2012-11-04'
@@ -260,13 +272,18 @@ chairs:
       date: '2010-03-30'
       not_before: '2004-10-01'
     end:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2012-03-25'
+      certainty: approximate
+      date: '2012-05-14'
     notes:
+    - 'End: announced on the group''s list (2012-05-14)'
     - 'Start: listed as chair in a proceedings charter snapshot (2010-03-30)'
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2012-03-25)'
   evidence:
+  - kind: list message
+    date: '2012-05-14'
+    says: end
+    subject: '[Ecrit] Richard Barnes is stepping down as Ecrit chair'
+    url: https://mailarchive.ietf.org/arch/msg/ecrit/oNxiVfVQRgUTB1G80z8JJPjtHsw/
+    excerpt: The chairs have completed the transition, and Richard is stepping down.
   - kind: proceedings
     listed_in: 6
     first: '2010-03-30'

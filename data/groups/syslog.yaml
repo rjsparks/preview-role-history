@@ -19,15 +19,20 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2006-04-12'
-      not_before: '2000-04-27'
+      certainty: approximate
+      date: '2006-04-06'
     end:
       certainty: group-closed
       date: '2010-10-26'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2006-04-12)'
+    - 'Start: announced on the group''s list (2006-04-06)'
   evidence:
+  - kind: list message
+    date: '2006-04-06'
+    says: start
+    subject: '[Syslog] Welcome David Harrington as the new syslog WG Co-Chair'
+    url: https://mailarchive.ietf.org/arch/msg/syslog/KgCLhG1J9Mp0xXwwOXtUQdOTpkw/
+    excerpt: Please join me in welcoming David to this position.
   - kind: chair activity
     first: '2006-08-15'
     last: '2010-02-04'

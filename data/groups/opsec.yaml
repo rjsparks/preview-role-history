@@ -237,17 +237,23 @@ chairs:
       certainty: evidence-only
       not_after: '2007-12-17'
     end:
-      certainty: between
-      not_before: '2011-03-27'
-      not_after: '2011-07-24'
+      certainty: approximate
+      date: '2011-08-08'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-07-24)'
+    - 'End: announced on the group''s list (2011-08-08)'
   evidence:
   - kind: WG Review
     date: '2008-09-02'
     subject: 'WG Review: Recharter of Operational Security Capabilities for IP Network Infrastructure
       (opsec)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/JsCxtmGkxqP3Y-jtXUZZKaleuso/
+  - kind: list message
+    date: '2011-08-08'
+    says: end
+    subject: '[OPSEC] WG Chairs'
+    url: https://mailarchive.ietf.org/arch/msg/opsec/1kdL77GjgdncdHfTZ8zT7Wk0FlQ/
+    excerpt: So, I would like to thank Joe for his years of service and say that I look forward to his
+      ongoing participation.
   - kind: chair activity
     first: '2008-07-30'
     last: '2010-07-26'
@@ -273,23 +279,18 @@ chairs:
     - date: '2011-03-27'
       subject: IETF 80 proceedings charter
       url: https://www.ietf.org/proceedings/80/opsec.html
-  - kind: minutes without them
-    date: '2011-07-24'
-    subject: IETF 81 proceedings charter
-    url: https://www.ietf.org/proceedings/81/opsec.html
 - person: 108304
   name: Gunter Van de Velde
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-07-24'
-      not_before: '2003-06-01'
+      certainty: approximate
+      date: '2011-08-08'
     end:
       certainty: exact
       date: '2018-03-26'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2011-07-24)'
+    - 'Start: announced on the group''s list (2011-08-08)'
   evidence:
   - kind: WG Review
     date: '2013-10-15'
@@ -299,6 +300,19 @@ chairs:
     date: '2013-12-04'
     subject: 'WG Action: Rechartered Operational Security Capabilities for IP Network Infrastructure (opsec)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/LoZnAQpGGtEKPoaaDtKdHwpuKAs/
+  - kind: list message
+    date: '2011-08-08'
+    says: start
+    subject: '[OPSEC] WG Chairs'
+    url: https://mailarchive.ietf.org/arch/msg/opsec/1kdL77GjgdncdHfTZ8zT7Wk0FlQ/
+    excerpt: Please join me in welcoming Gunter.
+  - kind: list message
+    date: '2018-03-05'
+    says: end
+    subject: '[OPSEC] Appointing Ron Bonica as new OpSec chair.'
+    url: https://mailarchive.ietf.org/arch/msg/opsec/D34DynO3w2YPkL1vKVYgjSk83KA/
+    excerpt: I'm pleased to announce that Ron Bonica has agreed to become the new OpSec chair, replacing
+      Gunter who is stepping down to be able to focus on chairing LSVR (and running the OpsDir group).
   - kind: chair activity
     first: '2011-09-22'
     last: '2017-04-12'

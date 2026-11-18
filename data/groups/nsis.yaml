@@ -26,9 +26,9 @@ chairs:
       not_after: '2001-11-20'
     end:
       certainty: approximate
-      date: '2008-04-17'
+      date: '2008-05-13'
     notes:
-    - 'End: announced on the group''s list (2008-04-17)'
+    - 'End: announced on the group''s list (2008-05-13)'
   evidence:
   - kind: WG Action
     date: '2001-11-30'
@@ -48,6 +48,12 @@ chairs:
     subject: '[NSIS] Looking for new WG chair for NSIS'
     url: https://mailarchive.ietf.org/arch/msg/nsis/y5m7neEN3LuoYfKLuEsAuXCAHFI/
     excerpt: John Loughney will step down as WG chair for NSIS.
+  - kind: list message
+    date: '2008-05-13'
+    says: end
+    subject: '[NSIS] WG chair changes'
+    url: https://mailarchive.ietf.org/arch/msg/nsis/w-3Ckl9jbN3zGXS5rLNTObp1dLY/
+    excerpt: I would like to start with thank John Loughney for his long service as WG chair of NSIS.
   - kind: chair activity
     first: '2001-11-20'
     last: '2008-02-04'

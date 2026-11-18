@@ -176,6 +176,13 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: list message
+    date: '2026-11-12'
+    says: end
+    subject: '[Int-area] Rotating the intarea WG chairs'
+    url: https://mailarchive.ietf.org/arch/msg/int-area/sQ9OoyNB6Xrnpz8eM3O8tBCod94/
+    excerpt: In that spirit, I have decided to replace Wassim, who has chaired INTAREA since February
+      2016 (wow!), with Tim Winters [TW].
   - kind: chair activity
     first: '2016-05-19'
     last: '2026-10-16'
@@ -399,6 +406,14 @@ chairs:
       date: '2026-11-12'
     end:
       certainty: ongoing
+  evidence:
+  - kind: list message
+    date: '2026-11-12'
+    says: start
+    subject: '[Int-area] Rotating the intarea WG chairs'
+    url: https://mailarchive.ietf.org/arch/msg/int-area/sQ9OoyNB6Xrnpz8eM3O8tBCod94/
+    excerpt: 'This will be a stepped process: Tim joins now as a third co-chair, and in December Wassim
+      will step down from his role.'
 - person: 119947
   name: Margaret Cullen
   status: unconfirmed

@@ -19,8 +19,10 @@ chairs:
       certainty: evidence-only
       not_after: '1998-07-23'
     end:
-      certainty: evidence-only
-      not_before: '2009-08-24'
+      certainty: approximate
+      date: '2009-08-27'
+    notes:
+    - 'End: announced on the group''s list (2009-08-27)'
   evidence:
   - kind: WG Action
     date: '2003-09-03'
@@ -46,6 +48,21 @@ chairs:
     date: '2006-10-05'
     subject: 'WG Action: RECHARTER: ADSL MIB (adslmib)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ANPFP3oxsP9jA87nHo7Ru3cvSaI/
+  - kind: list message
+    date: '2005-12-21'
+    says: end
+    subject: '[Adslmib] Change of WG chairs - status of Re-chartering'
+    url: https://mailarchive.ietf.org/arch/msg/adslmib/68d1A5XFn1ZK2zutt2Ibbkcjex8/
+    excerpt: Mike also wants to step down, but he has agreed to stay as co-chair for a bit longer, to
+      make sure that Menachem has a place to ask questions if he runs into new-chair-questions that Mike
+      probably knows the answer to.
+  - kind: list message
+    date: '2009-08-27'
+    says: end
+    subject: '[Adslmib] WG chair change'
+    url: https://mailarchive.ietf.org/arch/msg/adslmib/zJuO2HrgpUjPL1GXyBeCYksGTZg/
+    excerpt: On behalf of the WG, please join me in thanking Michael for all his great efforts and contributions
+      over the years.
   - kind: chair activity
     first: '2002-05-30'
     last: '2002-05-30'
@@ -105,14 +122,14 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '2005-02-01'
+      certainty: approximate
+      date: '2004-11-18'
     end:
-      certainty: between
-      not_before: '2005-11-02'
-      not_after: '2006-03-13'
+      certainty: approximate
+      date: '2005-12-21'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2006-03-13)'
+    - 'Start: announced on the group''s list (2004-11-18)'
+    - 'End: announced on the group''s list (2005-12-21)'
   evidence:
   - kind: WG Review
     date: '2005-05-18'
@@ -122,6 +139,18 @@ chairs:
     date: '2005-06-01'
     subject: 'WG Action: RECHARTER: ADSL MIB (adslmib)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/0_uMqiIZhh-hQwMS_eJaXqsnyAE/
+  - kind: list message
+    date: '2004-11-18'
+    says: start
+    subject: '[Adslmib] welcome to new co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/adslmib/QipOtteaAgpw9MhFj6xvvuM1UZ0/
+    excerpt: Bob has agreed to this task.
+  - kind: list message
+    date: '2005-12-21'
+    says: end
+    subject: '[Adslmib] Change of WG chairs - status of Re-chartering'
+    url: https://mailarchive.ietf.org/arch/msg/adslmib/68d1A5XFn1ZK2zutt2Ibbkcjex8/
+    excerpt: Bob is stepping down.
   - kind: proceedings
     listed_in: 3
     first: '2005-02-01'
@@ -136,24 +165,19 @@ chairs:
     - date: '2005-11-02'
       subject: IETF 64 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/64/adslmib.html
-  - kind: minutes without them
-    date: '2006-03-13'
-    subject: IETF 65 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/65/adslmib.html
 - person: 106345
   name: Menachem Dodge
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2006-01-26'
-      not_before: '1998-05-12'
+      certainty: approximate
+      date: '2005-12-21'
     end:
       certainty: between
       not_before: '2011-12-09'
       not_after: '2014-01-06'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2006-01-26)'
+    - 'Start: announced on the group''s list (2005-12-21)'
   - start:
       certainty: between
       not_before: '2011-12-09'
@@ -182,6 +206,14 @@ chairs:
     date: '2010-03-09'
     subject: 'WG Action: RECHARTER: ADSL MIB (adslmib)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/50-Iyx3FMMZHFOHniHHmGHD7vxg/
+  - kind: list message
+    date: '2005-12-21'
+    says: start
+    subject: '[Adslmib] Change of WG chairs - status of Re-chartering'
+    url: https://mailarchive.ietf.org/arch/msg/adslmib/68d1A5XFn1ZK2zutt2Ibbkcjex8/
+    excerpt: Mike also wants to step down, but he has agreed to stay as co-chair for a bit longer, to
+      make sure that Menachem has a place to ask questions if he runs into new-chair-questions that Mike
+      probably knows the answer to.
   - kind: chair activity
     first: '2007-03-25'
     last: '2007-11-29'

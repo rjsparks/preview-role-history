@@ -122,10 +122,11 @@ chairs:
       certainty: approximate
       date: '2010-02-15'
     end:
-      certainty: group-closed
-      date: '2018-10-18'
+      certainty: approximate
+      date: '2010-02-15'
     notes:
     - 'Start: announced on the group''s list (2010-02-15)'
+    - 'End: announced on the group''s list (2010-02-15)'
   evidence:
   - kind: list message
     date: '2010-02-15'
@@ -133,6 +134,12 @@ chairs:
     subject: '[savi] new working group chair'
     url: https://mailarchive.ietf.org/arch/msg/savi/Mi_-B3cDdn84qOQSV_foTMqnL-s/
     excerpt: I'm happy to announce that Jean-Michel Combes will be a new chair of SAVI.
+  - kind: list message
+    date: '2010-02-15'
+    says: end
+    subject: '[savi] new working group chair'
+    url: https://mailarchive.ietf.org/arch/msg/savi/Mi_-B3cDdn84qOQSV_foTMqnL-s/
+    excerpt: Thank you for volunteering to take on this work, Jean-Michel!
   - kind: chair activity
     first: '2010-03-22'
     last: '2014-04-08'

@@ -62,6 +62,12 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/netconf/pxF3bLHxkLHaGpypu_G_Y1mp31w/
     excerpt: We would like to inform you that we completed the process of choosing the new co-chairs for
       NETCONF and decided to nominate Bert Wijnen and Mehmet Ersue as co-chairs.
+  - kind: list message
+    date: '2014-10-13'
+    says: end
+    subject: '[Netconf] Looking for a new NETCONF co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/netconf/MCSGKq2UrhKNtMMd2aFTRXM7Gkw/
+    excerpt: On one hand, I'm pretty happy for *Bert Wijnen* to enjoy his well deserved retirement.
   - kind: chair activity
     first: '2010-07-27'
     last: '2014-09-25'
@@ -122,6 +128,13 @@ chairs:
     date: '2007-11-26'
     subject: 'WG Action: RECHARTER: Network Configuration WG (netconf)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/oP5fMfc0TjJkyU20GRyenzIAt3c/
+  - kind: list message
+    date: '2008-01-10'
+    says: end
+    subject: Hello from your new NetConf WG chairs
+    url: https://mailarchive.ietf.org/arch/msg/netconf/3U7FxNlb6Gr_kL7b9v6Cvwu3_MM/
+    excerpt: First, we would like to thank Simon and Andy for their good work in the past and getting
+      NETCONF to the point of a Proposed Standard.
   - kind: chair activity
     first: '2004-07-28'
     last: '2011-02-13'
@@ -394,11 +407,10 @@ chairs:
       certainty: evidence-only
       not_after: '2003-05-23'
     end:
-      certainty: between
-      not_before: '2007-12-31'
-      not_after: '2008-03-13'
+      certainty: approximate
+      date: '2008-01-10'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2008-03-13)'
+    - 'End: announced on the group''s list (2008-01-10)'
   evidence:
   - kind: WG Action
     date: '2003-05-23'
@@ -412,6 +424,13 @@ chairs:
     date: '2007-11-26'
     subject: 'WG Action: RECHARTER: Network Configuration WG (netconf)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/oP5fMfc0TjJkyU20GRyenzIAt3c/
+  - kind: list message
+    date: '2008-01-10'
+    says: end
+    subject: Hello from your new NetConf WG chairs
+    url: https://mailarchive.ietf.org/arch/msg/netconf/3U7FxNlb6Gr_kL7b9v6Cvwu3_MM/
+    excerpt: First, we would like to thank Simon and Andy for their good work in the past and getting
+      NETCONF to the point of a Proposed Standard.
   - kind: chair activity
     first: '2007-07-01'
     last: '2007-12-31'
@@ -437,10 +456,6 @@ chairs:
     - date: '2007-03-08'
       subject: IETF 68 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/68/netconf.html
-  - kind: minutes without them
-    date: '2008-03-13'
-    subject: IETF 71 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/71/netconf.html
   - kind: session requests
     meetings:
     - '70'

@@ -70,16 +70,23 @@ chairs:
       certainty: evidence-only
       not_after: '2002-02-22'
     end:
-      certainty: between
-      not_before: '2002-07-24'
-      not_after: '2003-01-14'
+      certainty: approximate
+      date: '2002-08-15'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2003-01-14)'
+    - 'End: announced on the group''s list (2002-08-15)'
   evidence:
   - kind: WG Action
     date: '2002-02-22'
     subject: 'WG ACTION: Internet Emergency Preparedness (ieprep)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/ADsECCEHBlm6yj0kTW9qg6vazEA/
+  - kind: list message
+    date: '2002-08-15'
+    says: end
+    subject: '[Ieprep] change in chairs for ieprep'
+    url: https://mailarchive.ietf.org/arch/msg/ieprep/U_8yoREvfY5fFqinUidsZVeBV-0/
+    excerpt: I want to thank Fred profusely for all the work he as put into this topic over a number of
+      years, without him the working group probably would not have gotten going and without his vision,
+      would not be in as good a shape if it had.
   - kind: chair activity
     first: '2002-07-24'
     last: '2002-07-24'

@@ -16,15 +16,20 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2002-10-16'
-      not_before: '1988-03-01'
+      certainty: approximate
+      date: '2002-10-09'
     end:
       certainty: group-closed
       date: '2018-03-01'
     notes:
-    - 'Start: started a last call or adoption call on the group''s list (2002-10-16)'
+    - 'Start: announced on the group''s list (2002-10-09)'
   evidence:
+  - kind: list message
+    date: '2002-10-09'
+    says: start
+    subject: Welcome new WG co-chairs
+    url: https://mailarchive.ietf.org/arch/msg/ospf/1IebMWyI2-_USXiZjHIpKXQE2rw/
+    excerpt: Please welcome Acee and Rohit.
   - kind: chair activity
     first: '2002-10-16'
     last: '2017-07-22'

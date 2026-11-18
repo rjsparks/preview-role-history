@@ -11,6 +11,31 @@ chartered: '2009-04-28'
 bof_sessions: []
 history_url: https://datatracker.ietf.org/group/lisp/history/
 chairs:
+- person: 2764
+  name: Dino Farinacci
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2009-11-30'
+    end:
+      certainty: evidence-only
+      not_before: '2013-07-17'
+  evidence:
+  - kind: list message
+    date: '2009-11-30'
+    says: end
+    subject: '[lisp] new working group chairs'
+    url: https://mailarchive.ietf.org/arch/msg/lisp/gmFraKi3PNz7sSU8XDyFy-Grr8M/
+    excerpt: I would also like to thank Darrel, Sam, and Dino very much for their hard work so far.
+  - kind: chair activity
+    first: '2013-07-17'
+    last: '2013-07-17'
+    messages: 1
+    examples:
+    - date: '2013-07-17'
+      subject: '[lisp] Latest agenda for "All Things LISP" Meeting at Berlin IETF'
+      url: https://mailarchive.ietf.org/arch/msg/lisp/Ue8Xn_uXVPfauyH8f_3zi0kznXg/
 - person: 3862
   name: Joel Halpern
   status: confirmed
@@ -50,6 +75,12 @@ chairs:
     subject: '[lisp] new working group chairs'
     url: https://mailarchive.ietf.org/arch/msg/lisp/gmFraKi3PNz7sSU8XDyFy-Grr8M/
     excerpt: Joel Halpern and Terry Manderson have agreed to chair the group.
+  - kind: list message
+    date: '2022-08-17'
+    says: end
+    subject: '[lisp] New lisp WG Co-Chair'
+    url: https://mailarchive.ietf.org/arch/msg/lisp/AFIvo-rOACj3XrPHlyEjG7u8grE/
+    excerpt: Joel has decided to step down as lisp Co-Chair.
   - kind: chair activity
     first: '2013-08-06'
     last: '2017-12-15'
@@ -100,12 +131,11 @@ chairs:
       certainty: approximate
       date: '2009-03-13'
     end:
-      certainty: between
-      not_before: '2009-10-14'
-      not_after: '2009-12-01'
+      certainty: approximate
+      date: '2009-11-30'
     notes:
     - 'Start: announced on the group''s list (2009-03-13)'
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-12-01)'
+    - 'End: announced on the group''s list (2009-11-30)'
   evidence:
   - kind: WG Action
     date: '2009-04-28'
@@ -117,6 +147,12 @@ chairs:
     subject: '[lisp] LISP, San Francisco, and WG'
     url: https://mailarchive.ietf.org/arch/msg/lisp/8VAvegjDYWSLLGH1vGsxqokJ6MA/
     excerpt: Sam Hartman and Darrel Lewis have agreed to chair the group -- thank you!
+  - kind: list message
+    date: '2009-11-30'
+    says: end
+    subject: '[lisp] new working group chairs'
+    url: https://mailarchive.ietf.org/arch/msg/lisp/gmFraKi3PNz7sSU8XDyFy-Grr8M/
+    excerpt: I would also like to thank Darrel, Sam, and Dino very much for their hard work so far.
   - kind: chair activity
     first: '2009-10-14'
     last: '2009-10-14'
@@ -136,23 +172,18 @@ chairs:
     - date: '2009-06-24'
       subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/lisp.html
-  - kind: minutes without them
-    date: '2009-12-01'
-    subject: IETF 76 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/76/lisp.html
 - person: 108822
   name: Terry Manderson
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2009-12-01'
-      not_before: '2009-04-27'
+      certainty: approximate
+      date: '2009-11-30'
     end:
       certainty: exact
       date: '2014-07-24'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2009-12-01)'
+    - 'Start: announced on the group''s list (2009-11-30)'
   evidence:
   - kind: WG Review
     date: '2012-01-19'
@@ -166,6 +197,19 @@ chairs:
     date: '2012-03-19'
     subject: 'WG Action: RECHARTER: Locator/ID Separation Protocol (lisp)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/5PZghFfFll9Lz_OD1fdFnfS89Dw/
+  - kind: list message
+    date: '2009-11-30'
+    says: start
+    subject: '[lisp] new working group chairs'
+    url: https://mailarchive.ietf.org/arch/msg/lisp/gmFraKi3PNz7sSU8XDyFy-Grr8M/
+    excerpt: I would like to thank Joel and Terry for taking on this task, lets all welcome them to the
+      task and work together to move Lisp specifications forward.
+  - kind: list message
+    date: '2014-07-25'
+    says: end
+    subject: '[lisp] Terry stepping down as co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/lisp/vPvBPSNh0Gt908gnYZYnFNFLVxc/
+    excerpt: All, For those of you who were not able to be in Toronto, Terry is stepping down as co-chair.
   - kind: chair activity
     first: '2010-04-19'
     last: '2013-11-29'
@@ -232,6 +276,12 @@ chairs:
     date: '2024-01-25'
     subject: 'WG Action: Rechartered Locator/ID Separation Protocol (lisp)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/32GjeHzousRb5g_ecpODKJV7sug/
+  - kind: list message
+    date: '2014-03-18'
+    says: start
+    subject: '[lisp] Welcome a new co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/lisp/ptDhz3qy1L3teQ3H79JemDamRN8/
+    excerpt: Welcome, Luigi!
   - kind: shepherded
     documents:
     - draft-ietf-lisp-crypto
@@ -268,6 +318,12 @@ chairs:
     date: '2024-01-25'
     subject: 'WG Action: Rechartered Locator/ID Separation Protocol (lisp)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/32GjeHzousRb5g_ecpODKJV7sug/
+  - kind: list message
+    date: '2022-08-17'
+    says: start
+    subject: '[lisp] New lisp WG Co-Chair'
+    url: https://mailarchive.ietf.org/arch/msg/lisp/AFIvo-rOACj3XrPHlyEjG7u8grE/
+    excerpt: Welcome Padma!
   - kind: shepherded
     documents:
     - draft-iannone-6834bis
@@ -281,16 +337,21 @@ chairs:
       certainty: evidence-only
       not_after: '2009-03-22'
     end:
-      certainty: between
-      not_before: '2009-11-08'
-      not_after: '2009-12-01'
+      certainty: approximate
+      date: '2009-11-30'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-12-01)'
+    - 'End: announced on the group''s list (2009-11-30)'
   evidence:
   - kind: WG Action
     date: '2009-04-28'
     subject: 'WG Action: Locator/ID Separation Protocol (lisp)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/xSqQfhZHBDXW57yBNlCSx8okc4g/
+  - kind: list message
+    date: '2009-11-30'
+    says: end
+    subject: '[lisp] new working group chairs'
+    url: https://mailarchive.ietf.org/arch/msg/lisp/gmFraKi3PNz7sSU8XDyFy-Grr8M/
+    excerpt: I would also like to thank Darrel, Sam, and Dino very much for their hard work so far.
   - kind: chair activity
     first: '2009-04-06'
     last: '2009-08-20'
@@ -313,10 +374,6 @@ chairs:
     - date: '2009-06-24'
       subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/lisp.html
-  - kind: minutes without them
-    date: '2009-12-01'
-    subject: IETF 76 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/76/lisp.html
   - kind: session requests
     meetings:
     - '75'

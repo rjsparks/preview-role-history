@@ -37,6 +37,13 @@ chairs:
     date: '2011-04-19'
     subject: 'WG Action: RECHARTER: Secure Inter-Domain Routing (sidr)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/SEI7mHDNXMD6kZQtODxzmWrUw9k/
+  - kind: list message
+    date: '2010-03-12'
+    says: start
+    subject: '[sidr] SIDR Co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/sidr/86zSa3Z3WHIh5ROfGE7sX6Jjs54/
+    excerpt: I am very pleased to announce that Chris Morrow has agreed to help out Sandra as co-chair
+      of the SIDR working group.
   - kind: chair activity
     first: '2007-03-07'
     last: '2017-04-10'
@@ -114,6 +121,13 @@ chairs:
     subject: '[sidr] Alexey Melnikov - third SIDR Chair'
     url: https://mailarchive.ietf.org/arch/msg/sidr/fIE79H6esfPTTXEl3NC7U7r5RBU/
     excerpt: I have decided to appoint Alexey Melnikov as an additional chair of the SIDR Working Group.
+  - kind: list message
+    date: '2012-04-20'
+    says: end
+    subject: '[sidr] Alexey Melnikov - third SIDR Chair'
+    url: https://mailarchive.ietf.org/arch/msg/sidr/fIE79H6esfPTTXEl3NC7U7r5RBU/
+    excerpt: I have asked Alexey to initially focus on the process aspects of running the SIDR WG, leaving
+      Sandy and Chris with more time to focus on the technology aspects of the WG.
   - kind: chair activity
     first: '2012-05-25'
     last: '2012-06-13'
@@ -153,16 +167,22 @@ chairs:
       certainty: evidence-only
       not_after: '2005-10-14'
     end:
-      certainty: between
-      not_before: '2009-11-08'
-      not_after: '2010-03-12'
+      certainty: approximate
+      date: '2010-01-12'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-03-12)'
+    - 'End: announced on the group''s list (2010-01-12)'
   evidence:
   - kind: WG Action
     date: '2006-04-18'
     subject: 'WG Action: Secure Inter-Domain Routing (sidr)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/r38J66oxLvXa8SHvesS0nvRHIFg/
+  - kind: list message
+    date: '2010-01-12'
+    says: end
+    subject: '[sidr] SIDR Co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/sidr/wDiUvC_1GIWt-iVeV_cWNH-34m4/
+    excerpt: I would like to thank Geoff for his contributions as SIDR Co-chair, and also for the excellent
+      technical work that he has done and is continuing to do for the WG.
   - kind: chair activity
     first: '2005-11-01'
     last: '2009-11-02'
@@ -197,10 +217,6 @@ chairs:
     - date: '2009-04-02'
       subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/sidr.html
-  - kind: minutes without them
-    date: '2010-03-12'
-    subject: IETF 77 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/77/sidr.html
   - kind: session requests
     meetings:
     - '66'
@@ -218,10 +234,11 @@ chairs:
       certainty: approximate
       date: '2010-03-12'
     end:
-      certainty: group-closed
-      date: '2018-09-06'
+      certainty: approximate
+      date: '2012-04-20'
     notes:
     - 'Start: announced on the group''s list (2010-03-12)'
+    - 'End: announced on the group''s list (2012-04-20)'
   evidence:
   - kind: WG Review
     date: '2011-03-21'
@@ -238,6 +255,13 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/sidr/86zSa3Z3WHIh5ROfGE7sX6Jjs54/
     excerpt: I am very pleased to announce that Chris Morrow has agreed to help out Sandra as co-chair
       of the SIDR working group.
+  - kind: list message
+    date: '2012-04-20'
+    says: end
+    subject: '[sidr] Alexey Melnikov - third SIDR Chair'
+    url: https://mailarchive.ietf.org/arch/msg/sidr/fIE79H6esfPTTXEl3NC7U7r5RBU/
+    excerpt: I have asked Alexey to initially focus on the process aspects of running the SIDR WG, leaving
+      Sandy and Chris with more time to focus on the technology aspects of the WG.
   - kind: chair activity
     first: '2010-10-08'
     last: '2017-10-03'

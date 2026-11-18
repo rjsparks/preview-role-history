@@ -83,16 +83,21 @@ chairs:
       certainty: evidence-only
       not_after: '1998-11-18'
     end:
-      certainty: between
-      not_before: '2003-05-19'
-      not_after: '2004-07-23'
+      certainty: approximate
+      date: '2004-02-26'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2004-07-23)'
+    - 'End: announced on the group''s list (2004-02-26)'
   evidence:
   - kind: WG Action
     date: '1998-11-18'
     subject: 'WG ACTION: IS-IS for IP Internets (isis)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/dztdpIo2gAb29d8ZwbsuNTOW4I4/
+  - kind: list message
+    date: '2004-02-26'
+    says: end
+    subject: '[Isis-wg] New WG chairs for ISIS'
+    url: https://mailarchive.ietf.org/arch/msg/isis-wg/NknmIEkQF3vSGdikNoGTgNQ9fYg/
+    excerpt: --will be replacing Tony Li and Tony Przygienda, who decided to step down.
   - kind: proceedings
     listed_in: 13
     first: '1998-11-25'
@@ -107,10 +112,6 @@ chairs:
     - date: '2003-05-19'
       subject: IETF 57 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/57/189.htm
-  - kind: minutes without them
-    date: '2004-07-23'
-    subject: IETF 60 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/60/193.htm
 - person: 22933
   name: Christian Hopps
   status: confirmed
@@ -190,15 +191,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2007-07-22'
-      not_before: '1998-09-10'
+      certainty: approximate
+      date: '2004-02-26'
     end:
       certainty: between
       not_before: '2011-12-09'
       not_after: '2012-06-14'
     notes:
-    - 'Start: requested the group''s session for IETF 69 (2007-07-22)'
+    - 'Start: announced on the group''s list (2004-02-26)'
   - start:
       certainty: between
       not_before: '2011-12-09'
@@ -207,6 +207,19 @@ chairs:
       certainty: exact
       date: '2013-08-19'
   evidence:
+  - kind: list message
+    date: '2004-02-26'
+    says: start
+    subject: '[Isis-wg] New WG chairs for ISIS'
+    url: https://mailarchive.ietf.org/arch/msg/isis-wg/NknmIEkQF3vSGdikNoGTgNQ9fYg/
+    excerpt: I would also like to welcome Chris and Dave to their new positions.
+  - kind: list message
+    date: '2013-07-17'
+    says: end
+    subject: '[Isis-wg] Change of WG chair'
+    url: https://mailarchive.ietf.org/arch/msg/isis-wg/oHldAh_BUgOFS_z1n9ReLllw6f4/
+    excerpt: After very many years providing guidance and leadership to the working group, Dave has decided
+      to step back to concentrate on his day job and to make room for a new chair.
   - kind: chair activity
     first: '2006-03-02'
     last: '2010-11-09'
@@ -244,12 +257,17 @@ chairs:
       certainty: evidence-only
       not_after: '1998-11-25'
     end:
-      certainty: between
-      not_before: '2003-09-24'
-      not_after: '2004-07-23'
+      certainty: approximate
+      date: '2004-02-26'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2004-07-23)'
+    - 'End: announced on the group''s list (2004-02-26)'
   evidence:
+  - kind: list message
+    date: '2004-02-26'
+    says: end
+    subject: '[Isis-wg] New WG chairs for ISIS'
+    url: https://mailarchive.ietf.org/arch/msg/isis-wg/NknmIEkQF3vSGdikNoGTgNQ9fYg/
+    excerpt: --will be replacing Tony Li and Tony Przygienda, who decided to step down.
   - kind: chair activity
     first: '2002-07-26'
     last: '2003-09-24'
@@ -283,10 +301,6 @@ chairs:
     - date: '2003-05-19'
       subject: IETF 57 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/57/189.htm
-  - kind: minutes without them
-    date: '2004-07-23'
-    subject: IETF 60 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/60/193.htm
 - person: 111495
   name: Hannes Gredler
   status: confirmed

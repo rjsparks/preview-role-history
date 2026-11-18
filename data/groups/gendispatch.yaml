@@ -59,6 +59,12 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: list message
+    date: '2022-09-01'
+    says: start
+    subject: '[Gendispatch] Thanks and welcome! [was: Re: Chair vacancy]'
+    url: https://mailarchive.ietf.org/arch/msg/gendispatch/dUlXAOPdJPiFc3gCs95kJ4_Gxbg/
+    excerpt: Welcome Martin!
   - kind: chair activity
     first: '2022-10-31'
     last: '2023-03-24'
@@ -89,6 +95,12 @@ chairs:
     date: '2019-10-18'
     subject: 'WG Action: Formed General Area Dispatch (gendispatch)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/XidsZWV45iqCNWaac7z6ovfHNVo/
+  - kind: list message
+    date: '2021-03-08'
+    says: end
+    subject: '[Gendispatch] Co-chair changes'
+    url: https://mailarchive.ietf.org/arch/msg/gendispatch/O33CfIHwQOutyJSumOrWwBMezCQ/
+    excerpt: Kirsty will be joining Pete after Francesca steps down later this week.
   - kind: chair activity
     first: '2019-10-28'
     last: '2021-02-22'
@@ -110,6 +122,12 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: list message
+    date: '2023-03-27'
+    says: end
+    subject: '[Gendispatch] New co-chair: Peng Shuping'
+    url: https://mailarchive.ietf.org/arch/msg/gendispatch/blsDSFfcNr2hrWb69n4ln-OcJzY/
+    excerpt: Thanks for being willing to serve, Shuping, and thank you very much for your service, Kirsty!
   - kind: chair activity
     first: '2023-07-13'
     last: '2026-11-13'
@@ -140,6 +158,19 @@ chairs:
     date: '2021-12-17'
     subject: 'WG Action: Rechartered General Area Dispatch (gendispatch)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/CAhUPEBj_uOS-dPyVXbxk3kDKfE/
+  - kind: list message
+    date: '2021-03-08'
+    says: start
+    subject: '[Gendispatch] Co-chair changes'
+    url: https://mailarchive.ietf.org/arch/msg/gendispatch/O33CfIHwQOutyJSumOrWwBMezCQ/
+    excerpt: Please join me in welcoming Kirsty P as the new gendispatch co-chair.
+  - kind: list message
+    date: '2023-03-27'
+    says: end
+    subject: '[Gendispatch] New co-chair: Peng Shuping'
+    url: https://mailarchive.ietf.org/arch/msg/gendispatch/blsDSFfcNr2hrWb69n4ln-OcJzY/
+    excerpt: I'm happy to announce that I've selected Peng Shuping as a new co0chair for GENDISPATCH,
+      to replace Kirsty after IETF 116.
   - kind: chair activity
     first: '2022-07-29'
     last: '2022-07-29'

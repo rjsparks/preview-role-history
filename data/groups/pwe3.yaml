@@ -39,6 +39,12 @@ chairs:
     subject: New PWE3 Co-Chair
     url: https://mailarchive.ietf.org/arch/msg/pwe3/WPW6EoDGG1quRhXY1HmG-QqErpE/
     excerpt: Folks, Please join Allison, Jon & I in welcoming Stewart Bryant as my PWE3 co-chair.
+  - kind: list message
+    date: '2008-07-11'
+    says: start
+    subject: '[PWE3] New co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/pwe3/t2bIKHxVDwWP3gbhlJkINM-pqJw/
+    excerpt: Matthew Bocci will be stepping in next to Stewart to run PWE3.
   - kind: chair activity
     first: '2003-07-02'
     last: '2009-05-01'
@@ -175,11 +181,10 @@ chairs:
       certainty: evidence-only
       not_after: '2001-03-29'
     end:
-      certainty: between
-      not_before: '2007-12-13'
-      not_after: '2009-04-13'
+      certainty: approximate
+      date: '2008-07-11'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-04-13)'
+    - 'End: announced on the group''s list (2008-07-11)'
   evidence:
   - kind: WG Action
     date: '2001-05-14'
@@ -189,6 +194,12 @@ chairs:
     date: '2005-12-21'
     subject: 'WG Review: Recharter of Pseudo Wire Emulation Edge to Edge (pwe3)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/gPoklPQeKdcGvcvFyYdd_IfVtPo/
+  - kind: list message
+    date: '2008-07-11'
+    says: end
+    subject: '[PWE3] New co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/pwe3/t2bIKHxVDwWP3gbhlJkINM-pqJw/
+    excerpt: Many thanks Danny, for all of your hard work over the years.
   - kind: chair activity
     first: '2001-03-29'
     last: '2007-07-31'
@@ -237,10 +248,6 @@ chairs:
     - date: '2007-09-26'
       subject: IETF 71 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/71/pwe3.html
-  - kind: minutes without them
-    date: '2009-04-13'
-    subject: IETF 74 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/74/pwe3.html
 - person: 104107
   name: Luca Martini
   status: unconfirmed
@@ -292,6 +299,12 @@ chairs:
     - 'Start: requested the group''s session for IETF 65 (2006-03-19)'
     - 'Start: not yet listed among the chairs in meeting minutes (2004-11-07)'
   evidence:
+  - kind: list message
+    date: '2008-07-11'
+    says: start
+    subject: '[PWE3] New co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/pwe3/t2bIKHxVDwWP3gbhlJkINM-pqJw/
+    excerpt: Matthew Bocci will be stepping in next to Stewart to run PWE3.
   - kind: chair activity
     first: '2005-08-11'
     last: '2010-02-01'

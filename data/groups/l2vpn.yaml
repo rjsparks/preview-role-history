@@ -62,16 +62,22 @@ chairs:
       certainty: evidence-only
       not_after: '2003-07-09'
     end:
-      certainty: between
-      not_before: '2005-03-06'
-      not_after: '2005-07-13'
+      certainty: approximate
+      date: '2005-07-13'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2005-07-13)'
+    - 'End: announced on the group''s list (2005-07-13)'
   evidence:
   - kind: WG Action
     date: '2004-07-29'
     subject: 'WG Action: RECHARTER: Layer 2 Virtual Private Networks (l2vpn)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/EZ4MQhrmNlIW-qLYn5TMvWPGw2c/
+  - kind: list message
+    date: '2005-07-13'
+    says: end
+    subject: New L2VPN WG Chair
+    url: https://mailarchive.ietf.org/arch/msg/l2vpn/-SPUQhDNCv3oA6MlUUcF7fRi1Vw/
+    excerpt: Loa will be stepping down as L2VPN Chair due to his additional workload as a member of the
+      IAB.
   - kind: chair activity
     first: '2003-07-23'
     last: '2005-02-28'

@@ -74,10 +74,10 @@ chairs:
       date: '2005-10-10'
       not_before: '2005-10-10'
     end:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2012-06-20'
+      certainty: approximate
+      date: '2012-06-19'
     notes:
+    - 'End: announced on the group''s list (2012-06-19)'
     - 'Start: listed as chair in a proceedings charter snapshot (2005-10-10)'
   evidence:
   - kind: WG Action
@@ -100,6 +100,13 @@ chairs:
     date: '2011-05-31'
     subject: 'WG Action: RECHARTER: Softwires (softwire)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/qyrLUKatB62QhakzNXA266Naw4k/
+  - kind: list message
+    date: '2012-06-19'
+    says: end
+    subject: '[Softwires] New WG co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/softwires/78biRiE9hEXk2ubA5kmp5PT79I0/
+    excerpt: And, many thanks and gratitude to Alain for his efforts over many years in organizing and
+      guiding the WG through the production of several protocols and 13 RFCs.
   - kind: chair activity
     first: '2007-11-30'
     last: '2011-09-23'

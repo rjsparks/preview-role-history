@@ -53,14 +53,20 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2007-12-02'
+      certainty: approximate
+      date: '2007-02-13'
     end:
       certainty: group-closed
       date: '2014-06-10'
     notes:
-    - 'Start: requested the group''s session for IETF 70 (2007-12-02)'
+    - 'Start: announced on the group''s list (2007-02-13)'
   evidence:
+  - kind: list message
+    date: '2007-02-13'
+    says: start
+    subject: '[RRG] new chairs for the RRG'
+    url: https://mailarchive.ietf.org/arch/msg/rrg/FGqNqWlf-CnyuKoh3O5ZNeAj8Ws/
+    excerpt: Welcome Lixia & Tony!
   - kind: chair activity
     first: '2007-12-11'
     last: '2008-02-10'

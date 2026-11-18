@@ -20,17 +20,22 @@ chairs:
       date: '2007-02-21'
       not_before: '2007-01-05'
     end:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2012-07-29'
+      certainty: approximate
+      date: '2012-05-30'
     notes:
     - 'Start: named as chair in the WG Action announcement (2007-02-21)'
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2012-07-29)'
+    - 'End: announced on the group''s list (2012-05-30)'
   evidence:
   - kind: WG Action
     date: '2007-02-21'
     subject: 'WG Action: Peer-to-Peer Session Initiation Protocol (p2psip)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/_utDv9I2MG36X5V_OJ2bP0DUF9w/
+  - kind: list message
+    date: '2012-05-30'
+    says: end
+    subject: '[P2PSIP] New cochair'
+    url: https://mailarchive.ietf.org/arch/msg/p2psip/gVr15sEmprSIbm1FFEbsz0jbLu0/
+    excerpt: as you know, David had to step down from his cochair position some time ago.
   - kind: chair activity
     first: '2008-04-02'
     last: '2012-03-15'
@@ -56,10 +61,6 @@ chairs:
     - date: '2011-07-24'
       subject: IETF 81 proceedings charter
       url: https://www.ietf.org/proceedings/81/p2psip.html
-  - kind: minutes without them
-    date: '2012-07-29'
-    subject: IETF 84 proceedings charter
-    url: https://www.ietf.org/proceedings/84/p2psip.html
   - kind: session requests
     meetings:
     - '69'

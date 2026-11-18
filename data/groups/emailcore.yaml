@@ -86,6 +86,13 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: list message
+    date: '2025-07-26'
+    says: start
+    subject: '[Emailcore] new co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/emailcore/bxF0wid_1tQ8HIVN8olr4a4QoH8/
+    excerpt: Murray will be stepping in as a co-chair, and I thank him for helping especially given his
+      other commitments to the IETF.
   - kind: shepherded
     documents:
     - draft-ietf-emailcore-as
@@ -127,6 +134,13 @@ chairs:
       certainty: exact
       date: '2025-07-26'
   evidence:
+  - kind: list message
+    date: '2025-07-26'
+    says: end
+    subject: '[Emailcore] new co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/emailcore/bxF0wid_1tQ8HIVN8olr4a4QoH8/
+    excerpt: I wish to thank Todd for all his work and time helping us get to these documents published
+      and setting the working group on the path to finish up its final two docs.
   - kind: chair activity
     first: '2022-12-22'
     last: '2022-12-22'

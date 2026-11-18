@@ -88,6 +88,12 @@ chairs:
       certainty: exact
       date: '2020-01-21'
   evidence:
+  - kind: list message
+    date: '2016-04-12'
+    says: start
+    subject: '[rmcat] Chair change - Welcome Martin!'
+    url: https://mailarchive.ietf.org/arch/msg/rmcat/9xQGriTTN17knHpdwLaUzd4O7Is/
+    excerpt: Welcome Martin!
   - kind: chair activity
     first: '2016-07-06'
     last: '2019-06-03'
@@ -134,6 +140,12 @@ chairs:
     subject: '[rmcat] Karen Nielsen joining Lars and Mirja as RMCAT co-chair'
     url: https://mailarchive.ietf.org/arch/msg/rmcat/rW5zn83oBr5T7WKuN2dFMHzoDx0/
     excerpt: Please join me in welcoming Karen Nielsen as new co-chair for RMCAT, joining Lars and Mirja.
+  - kind: list message
+    date: '2016-02-08'
+    says: end
+    subject: '[rmcat] Karen Nielsen stepping down as RMCAT co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/rmcat/z9d12-y5UUSO8dzWS3WWil6TA_s/
+    excerpt: I wanted to let the working group know that Karen has stepped down as co-chair for RMCAT.
   - kind: chair activity
     first: '2014-10-28'
     last: '2015-11-19'
@@ -226,6 +238,12 @@ chairs:
     date: '2012-09-21'
     subject: 'WG Action: Formed RTP Media Congestion Avoidance Techniques (rmcat)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/LAPrpkE6LSWe6CeaZYs7y31Pdz4/
+  - kind: list message
+    date: '2015-01-14'
+    says: end
+    subject: '[rmcat] Lars Eggert stepping down as RMCAT co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/rmcat/sYST2FrceYpNhusvI19d3zzeBW0/
+    excerpt: Lars has asked to step down as RMCAT co-chair.
   - kind: proceedings
     listed_in: 7
     first: '2012-07-29'

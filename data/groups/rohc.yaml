@@ -102,8 +102,10 @@ chairs:
       certainty: evidence-only
       not_after: '2002-03-05'
     end:
-      certainty: evidence-only
-      not_before: '2007-06-15'
+      certainty: approximate
+      date: '2007-09-28'
+    notes:
+    - 'End: announced on the group''s list (2007-09-28)'
   evidence:
   - kind: WG Review
     date: '2006-07-11'
@@ -113,6 +115,19 @@ chairs:
     date: '2006-08-29'
     subject: 'WG Action: RECHARTER: Robust Header Compression (rohc)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/2IbUtX4U95PoOsnZJuMuzc1Ns3M/
+  - kind: list message
+    date: '2007-09-14'
+    says: end
+    subject: '[rohc] Call for volunteers: WG chair'
+    url: https://mailarchive.ietf.org/arch/msg/rohc/qm3rm7dPGhVW81SGuuG6YX8ST9M/
+    excerpt: We are looking for a chair to take over from Lars-Erik for the work needed until ROHC can
+      conclude as WG.
+  - kind: list message
+    date: '2007-09-28'
+    says: end
+    subject: '[rohc] New WG chair for ROHC'
+    url: https://mailarchive.ietf.org/arch/msg/rohc/94TFQL5FZwAKzx_q6HGqoESZpNk/
+    excerpt: Lars-Erik Jonsson is also stepping down at this point.
   - kind: chair activity
     first: '2004-11-02'
     last: '2005-08-15'

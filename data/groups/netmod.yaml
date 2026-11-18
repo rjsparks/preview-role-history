@@ -223,11 +223,11 @@ chairs:
       certainty: approximate
       date: '2008-12-19'
     end:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2014-01-13'
+      certainty: approximate
+      date: '2013-12-18'
     notes:
     - 'Start: announced on the group''s list (2008-12-19)'
+    - 'End: announced on the group''s list (2013-12-18)'
   - start:
       certainty: between
       not_before: '2011-12-09'
@@ -255,6 +255,18 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/netmod/26VAWb96kYN9oOpeAdtvOt6YszI/
     excerpt: David Kessens will be the new chair which keeps the dave and dave chairs consistent and first
       names don't break.
+  - kind: list message
+    date: '2013-12-18'
+    says: end
+    subject: '[netmod] New chair selection process'
+    url: https://mailarchive.ietf.org/arch/msg/netmod/rdEGYRD1Dg2tLqSYxh1ZkZtHV6M/
+    excerpt: As you probably know (from the last IETF meeting) , David Kessens decided to step down.
+  - kind: list message
+    date: '2014-01-13'
+    says: end
+    subject: '[netmod] Tom Nadeau as a new NETMOD co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/netmod/s_levS-Bt5p8ML0l1Blq5b4lBkQ/
+    excerpt: Some time ago, David Kessens expressed his desire to step down.
   - kind: list message
     date: '2014-05-19'
     says: end
@@ -317,6 +329,12 @@ chairs:
       certainty: exact
       date: '2022-10-13'
   evidence:
+  - kind: list message
+    date: '2022-10-13'
+    says: end
+    subject: '[netmod] Change in NETMOD Chairs'
+    url: https://mailarchive.ietf.org/arch/msg/netmod/nDziOYcYCBDGQxBq6tFjFwlEC_Q/
+    excerpt: Kent and Lou will continue as NETMOD chairs, Joel is stepping down.
   - kind: chair activity
     first: '2018-01-01'
     last: '2022-08-04'
@@ -383,6 +401,13 @@ chairs:
     date: '2015-10-23'
     subject: 'WG Action: Rechartered NETCONF Data Modeling Language (netmod)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/UWAObpCtjC-XH6yMwqeL1x6jVRI/
+  - kind: list message
+    date: '2015-05-13'
+    says: end
+    subject: '[netmod] Next NETMOD chair'
+    url: https://mailarchive.ietf.org/arch/msg/netmod/zPFwxiw_KXJ3eM-RWbhxooiFUMI/
+    excerpt: As you probably know from a previous message to the list, Jürgen announced his plans to step
+      down as co-chair.
   - kind: chair activity
     first: '2010-12-09'
     last: '2015-10-12'
@@ -460,6 +485,13 @@ chairs:
     subject: '[netmod] Tom Nadeau as a new NETMOD co-chair'
     url: https://mailarchive.ietf.org/arch/msg/netmod/s_levS-Bt5p8ML0l1Blq5b4lBkQ/
     excerpt: Tom Nadeau accepted the position of NETMOD co-chair.
+  - kind: list message
+    date: '2016-02-18'
+    says: end
+    subject: '[netmod] Welcome Lou Berger as NETMOD co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/netmod/ai2APv9r7iGWYer1eLyTLnu7lZE/
+    excerpt: I want to be the first one to thank Lou Berger who accepted to become the NETMOD co-chair,
+      replacing Tom Nadeau.
   - kind: chair activity
     first: '2014-09-25'
     last: '2015-12-09'

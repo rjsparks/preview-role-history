@@ -184,16 +184,22 @@ chairs:
       certainty: evidence-only
       not_after: '2001-03-14'
     end:
-      certainty: between
-      not_before: '2003-09-16'
-      not_after: '2004-02-02'
+      certainty: approximate
+      date: '2003-11-17'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2004-02-02)'
+    - 'End: announced on the group''s list (2003-11-17)'
   evidence:
   - kind: WG Action
     date: '2003-06-03'
     subject: 'WG Action: RECHARTER: SIP for Instant Messaging and Presence Leveraging Extensions (simple)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/q00khRbnUVJDD1ZlS4vcFaD0EYw/
+  - kind: list message
+    date: '2003-11-17'
+    says: end
+    subject: '[Simple] ANNOUNCEMENT: Change of chairs'
+    url: https://mailarchive.ietf.org/arch/msg/simple/0TxRi4YxuiR1k6-nqk_AsYkUrLo/
+    excerpt: Please join me in extending thanks to both Hisham and Jon for helping us get SIMPLE's work
+      done!
   - kind: proceedings
     listed_in: 9
     first: '2001-03-14'
@@ -220,10 +226,11 @@ chairs:
       certainty: approximate
       date: '2003-11-17'
     end:
-      certainty: group-closed
-      date: '2013-02-26'
+      certainty: approximate
+      date: '2003-11-17'
     notes:
     - 'Start: announced on the group''s list (2003-11-17)'
+    - 'End: announced on the group''s list (2003-11-17)'
   evidence:
   - kind: WG Review
     date: '2007-02-14'
@@ -240,6 +247,13 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/simple/0TxRi4YxuiR1k6-nqk_AsYkUrLo/
     excerpt: I am happy to announce that Hisham Khartabil is joining me as a chair of the SIMPLE working
       group.
+  - kind: list message
+    date: '2003-11-17'
+    says: end
+    subject: '[Simple] ANNOUNCEMENT: Change of chairs'
+    url: https://mailarchive.ietf.org/arch/msg/simple/0TxRi4YxuiR1k6-nqk_AsYkUrLo/
+    excerpt: Please join me in extending thanks to both Hisham and Jon for helping us get SIMPLE's work
+      done!
   - kind: chair activity
     first: '2005-08-19'
     last: '2009-11-16'

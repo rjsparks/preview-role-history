@@ -22,12 +22,17 @@ chairs:
       certainty: evidence-only
       not_after: '2006-03-13'
     end:
-      certainty: between
-      not_before: '2008-09-10'
-      not_after: '2009-01-28'
+      certainty: approximate
+      date: '2009-01-27'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-01-28)'
+    - 'End: announced on the group''s list (2009-01-27)'
   evidence:
+  - kind: list message
+    date: '2009-01-27'
+    says: end
+    subject: '[MBONED] MBONED Chairs'
+    url: https://mailarchive.ietf.org/arch/msg/mboned/etXNGe27sjUI_LAEJXhpD88A0T4/
+    excerpt: I would like to thank Hiroshi for his years of service.
   - kind: chair activity
     first: '2006-12-07'
     last: '2008-09-10'
@@ -70,10 +75,6 @@ chairs:
     - date: '2007-12-17'
       subject: IETF 71 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/71/mboned.html
-  - kind: minutes without them
-    date: '2009-01-28'
-    subject: IETF 74 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/74/mboned.html
   - kind: session requests
     meetings:
     - '67'
@@ -199,13 +200,12 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2009-01-28'
-      not_before: '1996-08-26'
+      certainty: approximate
+      date: '2009-01-27'
     end:
       certainty: ongoing
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2009-01-28)'
+    - 'Start: announced on the group''s list (2009-01-27)'
   evidence:
   - kind: WG Review
     date: '2013-09-23'
@@ -223,6 +223,12 @@ chairs:
     date: '2025-07-10'
     subject: 'WG Action: Rechartered MBONE Deployment (mboned)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Vk9mG6n0o33z2W2tXEZOtNuv6h4/
+  - kind: list message
+    date: '2009-01-27'
+    says: start
+    subject: '[MBONED] MBONED Chairs'
+    url: https://mailarchive.ietf.org/arch/msg/mboned/etXNGe27sjUI_LAEJXhpD88A0T4/
+    excerpt: Marshal Eubanks will continues as co-chairs, joined by Greg Shepard and Lenny Giulano.
   - kind: chair activity
     first: '2010-03-04'
     last: '2025-01-23'

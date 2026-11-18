@@ -19,9 +19,18 @@ chairs:
       certainty: evidence-only
       not_after: '2003-11-03'
     end:
-      certainty: evidence-only
-      not_before: '2005-06-27'
+      certainty: approximate
+      date: '2005-10-17'
+    notes:
+    - 'End: announced on the group''s list (2005-10-17)'
   evidence:
+  - kind: list message
+    date: '2005-10-17'
+    says: end
+    subject: '[imss] Your new WG chair is: David Black'
+    url: https://mailarchive.ietf.org/arch/msg/imss/0fziNdMSV2Wt9FCAcDpsULrtWdQ/
+    excerpt: Let me also take this opportunity to thank Elizabeth for chairing the WG up till the time
+      that her new job made it impossible (time-wise) to continue chairing.
   - kind: chair activity
     first: '2003-11-20'
     last: '2005-02-09'

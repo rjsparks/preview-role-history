@@ -148,12 +148,11 @@ chairs:
       certainty: approximate
       date: '2004-12-26'
     end:
-      certainty: between
-      not_before: '2007-12-23'
-      not_after: '2008-01-21'
+      certainty: approximate
+      date: '2008-01-22'
     notes:
     - 'Start: announced on the group''s list (2004-12-26)'
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2008-01-21)'
+    - 'End: announced on the group''s list (2008-01-22)'
   evidence:
   - kind: WG Review
     date: '2007-10-09'
@@ -169,6 +168,12 @@ chairs:
     subject: '[dhcwg] Co-chair for dhc WG'
     url: https://mailarchive.ietf.org/arch/msg/dhcwg/-sLhuse2262UljDomD3tGiqey8U/
     excerpt: Stig Venaas has agreed to take on the role of co-chair of the dhc WG.
+  - kind: list message
+    date: '2008-01-22'
+    says: end
+    subject: '[dhcwg] new DHC WG co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/dhcwg/1Ugyq7oo5f0yCowHbmrCflmq098/
+    excerpt: Stig Venaas is stepping down, as was announced in IETF-70.
   - kind: chair activity
     first: '2005-07-11'
     last: '2007-12-23'
@@ -194,10 +199,6 @@ chairs:
     - date: '2006-03-30'
       subject: IETF 66 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/66/dhc.html
-  - kind: minutes without them
-    date: '2008-01-21'
-    subject: IETF 71 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/71/dhc.html
   - kind: session requests
     meetings:
     - '65'

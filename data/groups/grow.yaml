@@ -87,16 +87,22 @@ chairs:
       certainty: evidence-only
       not_after: '2003-05-02'
     end:
-      certainty: between
-      not_before: '2004-01-22'
-      not_after: '2004-02-29'
+      certainty: approximate
+      date: '2004-02-29'
     notes:
-    - 'End: no longer listed among the chairs in meeting minutes (2004-02-29)'
+    - 'End: announced on the group''s list (2004-02-29)'
   evidence:
   - kind: WG Action
     date: '2003-05-02'
     subject: 'WG Action: Global Routing Operations (grow)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/3mhkxa7Pj_-Z6gYTVQyS-J8V-08/
+  - kind: list message
+    date: '2004-02-29'
+    says: end
+    subject: 'grow: Change of WG co-chair and Ad'
+    url: https://mailarchive.ietf.org/arch/msg/grow/OpzZs6SjEMyUu5jwvAjkzVlQFT0/
+    excerpt: '- Thanks to Vijay for his contributions and work as co-chair in the past and thanks for
+      continuing to participate as technical advisor.'
   - kind: chair activity
     first: '2004-01-07'
     last: '2004-01-07'
@@ -123,27 +129,34 @@ chairs:
       subject: IETF 59 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/59/167.htm
   - kind: minutes without them
-    date: '2004-02-29'
-    subject: 'grow: GROW minutes'
-    url: https://mailarchive.ietf.org/arch/msg/grow/GyjI5OMZN7JLe4gL4RqUwIo3xuM/
+    date: '2004-08-01'
+    subject: 'grow: draft GROW WG minutes for IETF 60 (San Diego)'
+    url: https://mailarchive.ietf.org/arch/msg/grow/kkRWaLnYsZHy_XV8M3G0TOKyVmw/
 - person: 106925
   name: Geoff Huston
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '2004-02-29'
+      certainty: approximate
+      date: '2004-02-29'
     end:
       certainty: between
       not_before: '2007-07-22'
       not_after: '2008-12-16'
     notes:
+    - 'Start: announced on the group''s list (2004-02-29)'
     - 'End: no longer listed among the chairs in a proceedings charter snapshot (2008-12-16)'
   evidence:
   - kind: WG Action
     date: '2004-05-17'
     subject: 'WG Action: RECHARTER: Global Routing Operations (grow)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/PJyL9FSi9v9zqBMaCdKUxh6l7LE/
+  - kind: list message
+    date: '2004-02-29'
+    says: start
+    subject: 'grow: Change of WG co-chair and Ad'
+    url: https://mailarchive.ietf.org/arch/msg/grow/OpzZs6SjEMyUu5jwvAjkzVlQFT0/
+    excerpt: '- Welcome to Geoff as new co-chair.'
   - kind: chair activity
     first: '2006-02-23'
     last: '2006-03-22'
@@ -207,6 +220,13 @@ chairs:
     - 'Start: listed as chair in a proceedings charter snapshot (2007-06-19)'
     - 'Start: not yet listed among the chairs in meeting minutes (2005-08-04)'
   evidence:
+  - kind: list message
+    date: '2018-02-27'
+    says: end
+    subject: '[GROW] Peter stepping down as chair - volunteers?'
+    url: https://mailarchive.ietf.org/arch/msg/grow/v9Nmtqv5sY0B6WvVO4t65OxuWyY/
+    excerpt: Sadly, Peter has just let me know that, due to other time commitments, he will be stepping
+      down as one of the GROW chairs.
   - kind: chair activity
     first: '2008-11-05'
     last: '2017-07-24'

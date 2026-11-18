@@ -339,16 +339,20 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-11-07'
-      not_before: '2010-03-21'
+      certainty: approximate
+      date: '2011-03-03'
     end:
       certainty: exact
       date: '2013-01-11'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
-    - 'Start: not yet listed among the chairs in meeting minutes (2010-03-21)'
+    - 'Start: announced on the group''s list (2011-03-03)'
   evidence:
+  - kind: list message
+    date: '2011-03-03'
+    says: start
+    subject: '[MMUSIC] Stepping down as Chair'
+    url: https://mailarchive.ietf.org/arch/msg/mmusic/jHWYz5H-hU7fL8D1CzuC1TBWL98/
+    excerpt: Please welcome Miguel Angel Garcia as your new MMUSIC co-Chair.
   - kind: chair activity
     first: '2011-04-13'
     last: '2012-08-03'

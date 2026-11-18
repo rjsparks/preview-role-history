@@ -25,8 +25,10 @@ chairs:
       certainty: exact
       date: '2015-11-23'
     end:
-      certainty: group-closed
-      date: '2022-07-20'
+      certainty: approximate
+      date: '2015-11-23'
+    notes:
+    - 'End: announced on the group''s list (2015-11-23)'
   evidence:
   - kind: WG Action
     date: '2016-08-05'
@@ -40,6 +42,12 @@ chairs:
     date: '2018-01-24'
     subject: 'WG Action: Rechartered Security Automation and Continuous Monitoring (sacm)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/BVvdABx-0dPDGuSBWzvHYFB0Lxk/
+  - kind: list message
+    date: '2015-11-23'
+    says: end
+    subject: '[sacm] Chair change'
+    url: https://mailarchive.ietf.org/arch/msg/sacm/ZoTyFBBbnNJG0NONsF_m18pQFdw/
+    excerpt: He'll be stepping down and Karen O'Donoghue has graciously agreed to help and chair SACM.
   - kind: chair activity
     first: '2016-05-17'
     last: '2021-07-22'
@@ -209,6 +217,27 @@ chairs:
     date: '2018-01-24'
     subject: 'WG Action: Rechartered Security Automation and Continuous Monitoring (sacm)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/BVvdABx-0dPDGuSBWzvHYFB0Lxk/
+  - kind: list message
+    date: '2017-10-02'
+    says: end
+    subject: '[sacm] Chair opening'
+    url: https://mailarchive.ietf.org/arch/msg/sacm/J2Bh4P_zJPs8yafIq3srZaV6LjI/
+    excerpt: First, I'd like to thank Adam for his hard work helping to get the WG on track and working
+      towards solutions that will be helpful to the community.
+  - kind: list message
+    date: '2017-10-19'
+    says: start
+    subject: '[sacm] Chairs'
+    url: https://mailarchive.ietf.org/arch/msg/sacm/5JB3excSPuFKZjI33D9AcyM96KM/
+    excerpt: Thank you to all considering stepping up to help in SACM as Adam transitions to a contributor
+      role.
+  - kind: list message
+    date: '2017-10-19'
+    says: end
+    subject: '[sacm] Chairs'
+    url: https://mailarchive.ietf.org/arch/msg/sacm/5JB3excSPuFKZjI33D9AcyM96KM/
+    excerpt: Again, many thanks to Adam for all of your work as a co-chair (and continued through the
+      Singapore meeting).
   - kind: chair activity
     first: '2013-08-08'
     last: '2017-10-31'

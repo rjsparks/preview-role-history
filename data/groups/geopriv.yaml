@@ -19,16 +19,22 @@ chairs:
       certainty: evidence-only
       not_after: '2001-06-15'
     end:
-      certainty: between
-      not_before: '2006-07-11'
-      not_after: '2009-03-23'
+      certainty: approximate
+      date: '2007-04-23'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-03-23)'
+    - 'End: announced on the group''s list (2007-04-23)'
   evidence:
   - kind: WG Action
     date: '2001-06-15'
     subject: 'WG ACTION: Geographic Location/Privacy (geopriv)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/s3vvmE3kHA7LXmH7IMjLXsjUQaY/
+  - kind: list message
+    date: '2007-04-23'
+    says: end
+    subject: '[Geopriv] New Geopriv Chair'
+    url: https://mailarchive.ietf.org/arch/msg/geopriv/MBEZWVM8_inkCx5PmaJpA6EyW7s/
+    excerpt: We would like to thank Andy, Allison, and Randy for all the work they have put into this
+      WG.
   - kind: chair activity
     first: '2004-03-04'
     last: '2006-07-11'
@@ -73,16 +79,22 @@ chairs:
       certainty: evidence-only
       not_after: '2001-06-15'
     end:
-      certainty: between
-      not_before: '2006-03-24'
-      not_after: '2009-03-23'
+      certainty: approximate
+      date: '2007-04-23'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-03-23)'
+    - 'End: announced on the group''s list (2007-04-23)'
   evidence:
   - kind: WG Action
     date: '2001-06-15'
     subject: 'WG ACTION: Geographic Location/Privacy (geopriv)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/s3vvmE3kHA7LXmH7IMjLXsjUQaY/
+  - kind: list message
+    date: '2007-04-23'
+    says: end
+    subject: '[Geopriv] New Geopriv Chair'
+    url: https://mailarchive.ietf.org/arch/msg/geopriv/MBEZWVM8_inkCx5PmaJpA6EyW7s/
+    excerpt: We would like to thank Andy, Allison, and Randy for all the work they have put into this
+      WG.
   - kind: proceedings
     listed_in: 15
     first: '2001-07-31'
@@ -97,6 +109,31 @@ chairs:
     - date: '2006-03-24'
       subject: IETF 66 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/66/geopriv.html
+  - kind: minutes without them
+    date: '2012-11-04'
+    subject: '[Geopriv] IETF 85 Minutes'
+    url: https://mailarchive.ietf.org/arch/msg/geopriv/-j5ozXagC2KiwbDzXIuLSc67HyA/
+- person: 22971
+  name: Lisa Dusseault
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: approximate
+      date: '2007-04-23'
+    end:
+      certainty: between
+      not_before: '2007-04-23'
+      not_after: '2009-03-23'
+    notes:
+    - 'Start: announced on the group''s list (2007-04-23)'
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-03-23)'
+  evidence:
+  - kind: list message
+    date: '2007-04-23'
+    says: start
+    subject: '[Geopriv] New Geopriv Chair'
+    url: https://mailarchive.ietf.org/arch/msg/geopriv/MBEZWVM8_inkCx5PmaJpA6EyW7s/
+    excerpt: Lisa Dusseault has agreed to become a technical advisor for the group.
   - kind: minutes without them
     date: '2012-11-04'
     subject: '[Geopriv] IETF 85 Minutes'
@@ -180,12 +217,18 @@ chairs:
       certainty: evidence-only
       not_after: '2004-01-09'
     end:
-      certainty: between
-      not_before: '2007-03-18'
-      not_after: '2009-03-23'
+      certainty: approximate
+      date: '2007-04-23'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-03-23)'
+    - 'End: announced on the group''s list (2007-04-23)'
   evidence:
+  - kind: list message
+    date: '2007-04-23'
+    says: end
+    subject: '[Geopriv] New Geopriv Chair'
+    url: https://mailarchive.ietf.org/arch/msg/geopriv/MBEZWVM8_inkCx5PmaJpA6EyW7s/
+    excerpt: We would like to thank Andy, Allison, and Randy for all the work they have put into this
+      WG.
   - kind: chair activity
     first: '2004-01-09'
     last: '2007-03-06'

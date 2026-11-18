@@ -16,16 +16,22 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2012-03-25'
+      certainty: approximate
+      date: '2012-02-06'
     end:
       certainty: approximate
       date: '2012-03-13'
     notes:
+    - 'Start: announced on the group''s list (2012-02-06)'
     - 'End: announced on the group''s list (2012-03-13)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2012-03-25)'
   evidence:
+  - kind: list message
+    date: '2012-02-06'
+    says: start
+    subject: '[eman] New WG co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/eman/klSlSj03nz5YO5CL5s-GxJWhPjA/
+    excerpt: In consultation with Benoit we decided to ask Nevil Brownlee to take over this responsibility,
+      and Nevil graciously accepted.
   - kind: list message
     date: '2012-03-13'
     says: end

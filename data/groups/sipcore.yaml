@@ -124,6 +124,12 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: list message
+    date: '2017-03-26'
+    says: start
+    subject: '[sipcore] New SIPCORE Chair'
+    url: https://mailarchive.ietf.org/arch/msg/sipcore/Tw49aL-4aZy6wGO1JM5N0NhetWY/
+    excerpt: Please welcome Brian Rosen, who has agreed to take that on.
   - kind: chair activity
     first: '2017-09-19'
     last: '2023-04-10'
@@ -184,11 +190,23 @@ chairs:
       certainty: ongoing
   evidence:
   - kind: list message
+    date: '2015-04-27'
+    says: end
+    subject: '[sipcore] Chair Change'
+    url: https://mailarchive.ietf.org/arch/msg/sipcore/Az_RuJHSrqlgY19rvgVzpvzjNsE/
+    excerpt: Paul is stepping down as co-chair of sipcore.
+  - kind: list message
     date: '2025-02-12'
     says: start
     subject: '[sipcore] Change of Chairs'
     url: https://mailarchive.ietf.org/arch/msg/sipcore/FAkgn4d0F9JKEkShbNfJVSuBWDw/
     excerpt: In her stead, I would also like to welcome Paul Kyzivat back to the Chair.
+  - kind: list message
+    date: '2025-02-12'
+    says: end
+    subject: '[sipcore] Change of Chairs'
+    url: https://mailarchive.ietf.org/arch/msg/sipcore/FAkgn4d0F9JKEkShbNfJVSuBWDw/
+    excerpt: Paul previously chaired SIPCORE, and will take up the work where Jean leaves off.
   - kind: chair activity
     first: '2011-04-18'
     last: '2025-08-22'
@@ -254,11 +272,29 @@ chairs:
     subject: 'WG Action: Rechartered Session Initiation Protocol Core (sipcore)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/dxLUpZitrdsIwKza3_d6eoYKPaY/
   - kind: list message
+    date: '2015-04-27'
+    says: end
+    subject: '[sipcore] Chair Change'
+    url: https://mailarchive.ietf.org/arch/msg/sipcore/Az_RuJHSrqlgY19rvgVzpvzjNsE/
+    excerpt: Jean Mahoney will fill the vacancy left by Paul.
+  - kind: list message
+    date: '2015-04-27'
+    says: start
+    subject: '[sipcore] Chair Change'
+    url: https://mailarchive.ietf.org/arch/msg/sipcore/Az_RuJHSrqlgY19rvgVzpvzjNsE/
+    excerpt: Please join me in welcoming Jean to the new role.
+  - kind: list message
     date: '2025-02-12'
     says: end
     subject: '[sipcore] Change of Chairs'
     url: https://mailarchive.ietf.org/arch/msg/sipcore/FAkgn4d0F9JKEkShbNfJVSuBWDw/
     excerpt: Jean Mahoney has chosen to step down as co-Chair of SIPCORE.
+  - kind: list message
+    date: '2025-02-12'
+    says: start
+    subject: '[sipcore] Change of Chairs'
+    url: https://mailarchive.ietf.org/arch/msg/sipcore/FAkgn4d0F9JKEkShbNfJVSuBWDw/
+    excerpt: Thanks again, Jean, and welcome back, Paul!
   - kind: chair activity
     first: '2017-03-23'
     last: '2023-08-10'

@@ -393,6 +393,19 @@ chairs:
       certainty: exact
       date: '2026-05-04'
   evidence:
+  - kind: list message
+    date: '2022-11-02'
+    says: start
+    subject: '[nfsv4] welcome our new chair'
+    url: https://mailarchive.ietf.org/arch/msg/nfsv4/Qx92ji3sppIyFEUseeR5IELO_58/
+    excerpt: Welcome Chris !!!
+  - kind: list message
+    date: '2026-05-07'
+    says: end
+    subject: '[nfsv4] Change of Chair for the NFSv4 WG'
+    url: https://mailarchive.ietf.org/arch/msg/nfsv4/M-c2uKGsyqD0pAI8J2NXS73trZ4/
+    excerpt: This is a short note to say there has been a change of personel for the NFSv4 WG, and that
+      Christopher Inacio has stepped back as chair, to avoid a conflict of interest in the IESG process.
   - kind: chair activity
     first: '2023-02-03'
     last: '2025-12-17'

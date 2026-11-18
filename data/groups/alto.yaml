@@ -77,6 +77,13 @@ chairs:
     date: '2014-06-05'
     subject: 'WG Action: Rechartered Application-Layer Traffic Optimization (alto)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/aQR2rwoXyBG_RSXSce6ZeMxju5k/
+  - kind: list message
+    date: '2020-09-30'
+    says: end
+    subject: '[alto] Seeking a new ALTO chair'
+    url: https://mailarchive.ietf.org/arch/msg/alto/OfM8aHEhkiO3D_6JQ26fqmbcIXg/
+    excerpt: Vijay and Jan will step down when these milestones are complete, after years of diligent
+      service to the IETF and the working group.
   - kind: chair activity
     first: '2008-11-25'
     last: '2020-11-05'
@@ -223,6 +230,19 @@ chairs:
     date: '2021-09-21'
     subject: 'WG Action: Rechartered Application-Layer Traffic Optimization (alto)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/fcD6N6m6QStYe0QjHxcAL3wDNYY/
+  - kind: list message
+    date: '2020-09-30'
+    says: end
+    subject: '[alto] Seeking a new ALTO chair'
+    url: https://mailarchive.ietf.org/arch/msg/alto/OfM8aHEhkiO3D_6JQ26fqmbcIXg/
+    excerpt: Vijay and Jan will step down when these milestones are complete, after years of diligent
+      service to the IETF and the working group.
+  - kind: list message
+    date: '2021-12-06'
+    says: end
+    subject: '[alto] New chair!'
+    url: https://mailarchive.ietf.org/arch/msg/alto/817zS6BqZaerVmf7YLRasuF6wqA/
+    excerpt: This frees Jan to step down at his convenience.
   - kind: chair activity
     first: '2015-04-20'
     last: '2020-09-28'
@@ -318,8 +338,10 @@ chairs:
       certainty: exact
       date: '2021-12-06'
     end:
-      certainty: group-closed
-      date: '2024-01-24'
+      certainty: approximate
+      date: '2021-12-06'
+    notes:
+    - 'End: announced on the group''s list (2021-12-06)'
   evidence:
   - kind: list message
     date: '2021-12-06'
@@ -327,6 +349,12 @@ chairs:
     subject: '[alto] New chair!'
     url: https://mailarchive.ietf.org/arch/msg/alto/817zS6BqZaerVmf7YLRasuF6wqA/
     excerpt: I'd like to welcome Mohamed Boucadair, of Orange, as the new ALTO chair.
+  - kind: list message
+    date: '2021-12-06'
+    says: end
+    subject: '[alto] New chair!'
+    url: https://mailarchive.ietf.org/arch/msg/alto/817zS6BqZaerVmf7YLRasuF6wqA/
+    excerpt: Thanks for serving, Mohamed!
   - kind: chair activity
     first: '2022-03-23'
     last: '2022-03-23'

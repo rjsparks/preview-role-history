@@ -89,11 +89,10 @@ chairs:
       certainty: evidence-only
       not_after: '2004-11-25'
     end:
-      certainty: between
-      not_before: '2009-03-22'
-      not_after: '2009-03-27'
+      certainty: approximate
+      date: '2009-03-30'
     notes:
-    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-03-27)'
+    - 'End: announced on the group''s list (2009-03-30)'
   evidence:
   - kind: WG Action
     date: '2004-11-25'
@@ -103,6 +102,12 @@ chairs:
     date: '2008-07-21'
     subject: 'WG Review: Recharter of Sieve Mail Filtering (sieve)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/_t07eN_LALUem8HMCl2Y3rWhr8A/
+  - kind: list message
+    date: '2009-03-30'
+    says: end
+    subject: 'New chair: Aaron Stone'
+    url: https://mailarchive.ietf.org/arch/msg/sieve/Y0FzW0yH_50khYsaA_7sH3e1has/
+    excerpt: Thanks Aaron for jumping into this, and thanks Alexey for all your hard work, Lisa
   - kind: chair activity
     first: '2004-12-21'
     last: '2009-01-15'
@@ -137,10 +142,6 @@ chairs:
     - date: '2007-12-17'
       subject: IETF 71 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/71/sieve.html
-  - kind: minutes without them
-    date: '2009-03-27'
-    subject: IETF 74 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/74/sieve.html
   - kind: session requests
     meetings:
     - '65'
@@ -176,6 +177,12 @@ chairs:
     date: '2010-06-08'
     subject: 'WG Action: RECHARTER: Sieve Mail Filtering Language (sieve)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/06aZ9jVS4SbCWgjaZU_S55cPoPA/
+  - kind: list message
+    date: '2009-03-30'
+    says: end
+    subject: 'New chair: Aaron Stone'
+    url: https://mailarchive.ietf.org/arch/msg/sieve/Y0FzW0yH_50khYsaA_7sH3e1has/
+    excerpt: Thanks Aaron for jumping into this, and thanks Alexey for all your hard work, Lisa
   - kind: chair activity
     first: '2010-03-30'
     last: '2010-03-30'

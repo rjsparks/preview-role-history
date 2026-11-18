@@ -183,15 +183,20 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2002-06-05'
-      not_before: '1994-11-28'
+      certainty: approximate
+      date: '2002-03-18'
     end:
       certainty: group-closed
       date: '2003-02-04'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2002-06-05)'
+    - 'Start: announced on the group''s list (2002-03-18)'
   evidence:
+  - kind: list message
+    date: '2002-03-18'
+    says: start
+    subject: (ngtrans) new co-chair for ngtrans
+    url: https://mailarchive.ietf.org/arch/msg/ngtrans/MMhU8Vk8gnbj22gDHNAWK_0ieTc/
+    excerpt: I am pleased to announce that Margaret Wasserman has agreed to become a co-chair of ngtrans.
   - kind: chair activity
     first: '2002-07-03'
     last: '2002-08-15'
