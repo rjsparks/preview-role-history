@@ -22,8 +22,10 @@ chairs:
       certainty: exact
       date: '2015-02-17'
     end:
-      certainty: group-closed
-      date: '2015-05-29'
+      certainty: between
+      not_before: '2015-03-22'
+    notes:
+    - end set after the last BOF session (IETF 92)
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -41,8 +43,10 @@ chairs:
       certainty: approximate
       date: '2015-02-12'
     end:
-      certainty: group-closed
-      date: '2015-05-29'
+      certainty: between
+      not_before: '2015-03-22'
+    notes:
+    - end set after the last BOF session (IETF 92)
   evidence:
   - kind: chair activity
     first: '2015-03-30'

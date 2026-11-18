@@ -22,10 +22,11 @@ chairs:
       certainty: on-or-before
       date: '1995-07-17'
     end:
-      certainty: group-closed
-      date: '1996-04-12'
+      certainty: between
+      not_before: '1995-07-17'
     notes:
     - widened to cover the BOF session in the proceedings
+    - end set after the last BOF session (IETF 33)
 - person: 17336
   name: Alan Lloyd
   status: confirmed
@@ -34,7 +35,8 @@ chairs:
       certainty: on-or-before
       date: '1995-07-17'
     end:
-      certainty: group-closed
-      date: '1996-04-12'
+      certainty: between
+      not_before: '1995-07-17'
     notes:
     - widened to cover the BOF session in the proceedings
+    - end set after the last BOF session (IETF 33)

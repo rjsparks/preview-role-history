@@ -22,10 +22,11 @@ chairs:
       certainty: on-or-before
       date: '2001-08-05'
     end:
-      certainty: group-closed
-      date: '2003-12-10'
+      certainty: between
+      not_before: '2001-08-05'
     notes:
     - widened to cover the BOF session in the proceedings
+    - end set after the last BOF session (IETF 51)
 - person: 123306
   name: Subir Das
   status: confirmed
@@ -34,7 +35,8 @@ chairs:
       certainty: on-or-before
       date: '2001-08-05'
     end:
-      certainty: group-closed
-      date: '2003-12-10'
+      certainty: between
+      not_before: '2001-08-05'
     notes:
     - widened to cover the BOF session in the proceedings
+    - end set after the last BOF session (IETF 51)

@@ -22,10 +22,11 @@ chairs:
       certainty: on-or-before
       date: '2011-11-13'
     end:
-      certainty: group-closed
-      date: '2013-01-31'
+      certainty: between
+      not_before: '2011-11-13'
     notes:
     - widened to cover the BOF session in the proceedings
+    - end set after the last BOF session (IETF 82)
   evidence:
   - kind: proceedings
     listed_in: 4
@@ -49,10 +50,11 @@ chairs:
       certainty: on-or-before
       date: '2011-11-13'
     end:
-      certainty: group-closed
-      date: '2013-01-31'
+      certainty: between
+      not_before: '2011-11-13'
     notes:
     - widened to cover the BOF session in the proceedings
+    - end set after the last BOF session (IETF 82)
   evidence:
   - kind: chair activity
     first: '2011-12-13'

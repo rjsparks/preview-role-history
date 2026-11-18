@@ -22,10 +22,11 @@ chairs:
       certainty: on-or-before
       date: '1995-04-03'
     end:
-      certainty: group-closed
-      date: '1997-01-01'
+      certainty: between
+      not_before: '1995-04-03'
     notes:
     - widened to cover the BOF session in the proceedings
+    - end set after the last BOF session (IETF 32)
 - person: 9501
   name: Peter Desnoyers
   status: confirmed
@@ -34,7 +35,8 @@ chairs:
       certainty: on-or-before
       date: '1995-04-03'
     end:
-      certainty: group-closed
-      date: '1997-01-01'
+      certainty: between
+      not_before: '1995-04-03'
     notes:
     - widened to cover the BOF session in the proceedings
+    - end set after the last BOF session (IETF 32)

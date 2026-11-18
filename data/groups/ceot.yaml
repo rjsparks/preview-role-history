@@ -22,10 +22,11 @@ chairs:
       certainty: on-or-before
       date: '2000-12-10'
     end:
-      certainty: group-closed
-      date: '2003-12-10'
+      certainty: between
+      not_before: '2000-12-10'
     notes:
     - widened to cover the BOF session in the proceedings
+    - end set after the last BOF session (IETF 49)
 - person: 104807
   name: Christopher Liljenstolpe
   status: confirmed
@@ -34,7 +35,8 @@ chairs:
       certainty: on-or-before
       date: '2000-12-10'
     end:
-      certainty: group-closed
-      date: '2003-12-10'
+      certainty: between
+      not_before: '2000-12-10'
     notes:
     - widened to cover the BOF session in the proceedings
+    - end set after the last BOF session (IETF 49)

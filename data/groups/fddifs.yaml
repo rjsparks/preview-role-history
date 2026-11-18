@@ -22,5 +22,7 @@ chairs:
       certainty: on-or-before
       date: '1997-01-01'
     end:
-      certainty: group-closed
-      date: '1997-01-01'
+      certainty: between
+      not_before: '1997-04-07'
+    notes:
+    - end set after the last BOF session (IETF 38)

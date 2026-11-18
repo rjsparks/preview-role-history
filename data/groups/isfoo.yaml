@@ -22,10 +22,11 @@ chairs:
       certainty: on-or-before
       date: '1996-03-04'
     end:
-      certainty: group-closed
-      date: '1997-01-01'
+      certainty: between
+      not_before: '1996-03-04'
     notes:
     - widened to cover the BOF session in the proceedings
+    - end set after the last BOF session (IETF 35)
 - person: 14474
   name: Eric Crawley
   status: confirmed
@@ -34,7 +35,8 @@ chairs:
       certainty: on-or-before
       date: '1996-03-04'
     end:
-      certainty: group-closed
-      date: '1997-01-01'
+      certainty: between
+      not_before: '1996-03-04'
     notes:
     - widened to cover the BOF session in the proceedings
+    - end set after the last BOF session (IETF 35)

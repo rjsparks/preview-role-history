@@ -22,8 +22,10 @@ chairs:
       certainty: evidence-only
       not_after: '1992-12-09'
     end:
-      certainty: evidence-only
-      not_before: '1994-08-02'
+      certainty: between
+      not_before: '2003-03-16'
+    notes:
+    - end set after the last BOF session (IETF 56)
   evidence:
   - kind: chair activity
     first: '1992-12-09'
@@ -59,11 +61,10 @@ chairs:
       date: '1992-12-09'
     end:
       certainty: between
-      not_before: '1993-07-09'
-      not_after: '1993-08-10'
+      not_before: '2003-03-16'
     notes:
     - start dated by list message of 1992-12-09
-    - bounded by minutes listing other chairs
+    - end set after the last BOF session (IETF 56)
   evidence:
   - kind: list message
     date: '1992-12-09'
@@ -80,10 +81,6 @@ chairs:
     - date: '1993-07-09'
       subject: Agenda for URI sessions
       url: https://mailarchive.ietf.org/arch/msg/uri/62oBdw8dlT-GZcFlcfGWD2A00Fk/
-  - kind: minutes without them
-    date: '1993-08-10'
-    subject: Minutes - Again
-    url: https://mailarchive.ietf.org/arch/msg/uri/JZ8VP-tSSd_kCCHGIZLq6g8Wog4/
 - person: 8393
   name: Jim Fullton
   status: unconfirmed
@@ -92,10 +89,11 @@ chairs:
       certainty: approximate
       date: '1992-12-09'
     end:
-      certainty: evidence-only
-      not_before: '1994-08-02'
+      certainty: between
+      not_before: '2003-03-16'
     notes:
     - start dated by list message of 1992-12-09
+    - end set after the last BOF session (IETF 56)
   evidence:
   - kind: list message
     date: '1992-12-09'
@@ -125,10 +123,11 @@ chairs:
       certainty: approximate
       date: '1994-08-02'
     end:
-      certainty: group-closed
-      date: '1995-07-21'
+      certainty: between
+      not_before: '2003-03-16'
     notes:
     - start dated by list message of 1994-08-02
+    - end set after the last BOF session (IETF 56)
   evidence:
   - kind: list message
     date: '1994-08-02'

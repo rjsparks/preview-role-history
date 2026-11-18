@@ -22,7 +22,8 @@ chairs:
       certainty: on-or-before
       date: '2003-07-13'
     end:
-      certainty: group-closed
-      date: '2003-12-10'
+      certainty: between
+      not_before: '2003-07-13'
     notes:
     - widened to cover the BOF session in the proceedings
+    - end set after the last BOF session (IETF 57)

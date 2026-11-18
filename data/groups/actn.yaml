@@ -46,8 +46,10 @@ chairs:
       certainty: exact
       date: '2014-10-02'
     end:
-      certainty: group-closed
-      date: '2015-02-10'
+      certainty: between
+      not_before: '2014-11-09'
+    notes:
+    - end set after the last BOF session (IETF 91)
   evidence:
   - kind: chair activity
     first: '2014-11-21'
@@ -72,8 +74,10 @@ chairs:
       certainty: exact
       date: '2014-10-02'
     end:
-      certainty: group-closed
-      date: '2015-02-10'
+      certainty: between
+      not_before: '2014-11-09'
+    notes:
+    - end set after the last BOF session (IETF 91)
   evidence:
   - kind: chair activity
     first: '2014-07-23'

@@ -22,8 +22,10 @@ chairs:
       certainty: exact
       date: '2014-02-20'
     end:
-      certainty: group-closed
-      date: '2014-06-11'
+      certainty: between
+      not_before: '2014-03-02'
+    notes:
+    - end set after the last BOF session (IETF 89)
   evidence:
   - kind: proceedings
     listed_in: 2

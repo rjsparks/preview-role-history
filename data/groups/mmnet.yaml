@@ -25,10 +25,11 @@ chairs:
       certainty: on-or-before
       date: '1995-12-04'
     end:
-      certainty: group-closed
-      date: '1997-01-01'
+      certainty: between
+      not_before: '1996-06-24'
     notes:
     - widened to cover the BOF session in the proceedings
+    - end set after the last BOF session (IETF 36)
 - person: 18331
   name: Joseph Macker
   status: confirmed
@@ -37,10 +38,11 @@ chairs:
       certainty: on-or-before
       date: '1995-12-04'
     end:
-      certainty: group-closed
-      date: '1997-01-01'
+      certainty: between
+      not_before: '1996-06-24'
     notes:
     - widened to cover the BOF session in the proceedings
+    - end set after the last BOF session (IETF 36)
 - person: 19037
   name: Scott Corson
   status: confirmed
@@ -49,7 +51,8 @@ chairs:
       certainty: on-or-before
       date: '1995-12-04'
     end:
-      certainty: group-closed
-      date: '1997-01-01'
+      certainty: between
+      not_before: '1996-06-24'
     notes:
     - widened to cover the BOF session in the proceedings
+    - end set after the last BOF session (IETF 36)

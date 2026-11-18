@@ -22,10 +22,11 @@ chairs:
       certainty: on-or-before
       date: '2003-11-09'
     end:
-      certainty: group-closed
-      date: '2003-12-10'
+      certainty: between
+      not_before: '2003-11-09'
     notes:
     - widened to cover the BOF session in the proceedings
+    - end set after the last BOF session (IETF 58)
 - person: 117099
   name: Wes Hardaker
   status: confirmed
@@ -34,7 +35,8 @@ chairs:
       certainty: on-or-before
       date: '2003-11-09'
     end:
-      certainty: group-closed
-      date: '2003-12-10'
+      certainty: between
+      not_before: '2003-11-09'
     notes:
     - widened to cover the BOF session in the proceedings
+    - end set after the last BOF session (IETF 58)

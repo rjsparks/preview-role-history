@@ -22,10 +22,11 @@ chairs:
       certainty: on-or-before
       date: '1996-06-24'
     end:
-      certainty: group-closed
-      date: '1997-01-01'
+      certainty: between
+      not_before: '1996-06-24'
     notes:
     - widened to cover the BOF session in the proceedings
+    - end set after the last BOF session (IETF 36)
 - person: 10535
   name: Yakov Rekhter
   status: confirmed
@@ -34,10 +35,11 @@ chairs:
       certainty: on-or-before
       date: '1996-06-24'
     end:
-      certainty: group-closed
-      date: '1997-01-01'
+      certainty: between
+      not_before: '1996-06-24'
     notes:
     - widened to cover the BOF session in the proceedings
+    - end set after the last BOF session (IETF 36)
 - person: 19385
   name: Paul Resnick
   status: confirmed
@@ -46,7 +48,8 @@ chairs:
       certainty: on-or-before
       date: '1996-06-24'
     end:
-      certainty: group-closed
-      date: '1997-01-01'
+      certainty: between
+      not_before: '1996-06-24'
     notes:
     - widened to cover the BOF session in the proceedings
+    - end set after the last BOF session (IETF 36)

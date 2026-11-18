@@ -34,9 +34,10 @@ chairs:
       certainty: on-or-before
       date: '2004-02-13'
     end:
-      certainty: group-closed
-      date: '2005-05-11'
+      certainty: between
+      not_before: '2005-07-31'
     notes:
+    - end set after the last BOF session (IETF 63)
     - widened to cover charter snapshots in proceedings
   evidence:
   - kind: proceedings
@@ -55,9 +56,10 @@ chairs:
       certainty: on-or-before
       date: '2004-02-13'
     end:
-      certainty: group-closed
-      date: '2005-05-11'
+      certainty: between
+      not_before: '2005-07-31'
     notes:
+    - end set after the last BOF session (IETF 63)
     - widened to cover charter snapshots in proceedings
   evidence:
   - kind: proceedings
