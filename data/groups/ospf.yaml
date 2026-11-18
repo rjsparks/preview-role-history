@@ -23,8 +23,7 @@ chairs:
       certainty: group-closed
       date: '2018-03-01'
     notes:
-    - start moved earlier by session request for IETF 65
-    - widened to cover last calls and adoption calls on the group list
+    - 'Start: started a last call or adoption call on the group''s list (2002-10-16)'
   evidence:
   - kind: chair activity
     first: '2002-10-16'
@@ -52,10 +51,10 @@ chairs:
     last: '2017-03-26'
     examples:
     - date: '2003-01-14'
-      subject: IETF 56 proceedings charter (last modified)
+      subject: IETF 56 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/56/189.htm
     - date: '2003-01-14'
-      subject: IETF 56 proceedings charter (last modified)
+      subject: IETF 56 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/56/allcharters.html
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
@@ -98,7 +97,7 @@ chairs:
       not_before: '2006-06-07'
       not_after: '2007-05-02'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2007-05-02)'
   evidence:
   - kind: proceedings
     listed_in: 11
@@ -106,17 +105,17 @@ chairs:
     last: '2006-06-07'
     examples:
     - date: '2003-01-14'
-      subject: IETF 56 proceedings charter (last modified)
+      subject: IETF 56 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/56/189.htm
     - date: '2003-01-14'
-      subject: IETF 56 proceedings charter (last modified)
+      subject: IETF 56 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/56/allcharters.html
     - date: '2006-06-07'
-      subject: IETF 68 proceedings charter (last modified)
+      subject: IETF 68 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/68/ospf.html
   - kind: minutes without them
     date: '2007-05-02'
-    subject: IETF 69 proceedings charter (last modified)
+    subject: IETF 69 proceedings charter, as last modified
     url: https://www.ietf.org/proceedings/69/ospf.html
 - person: 104816
   name: Abhay Roy
@@ -129,9 +128,7 @@ chairs:
       certainty: group-closed
       date: '2018-03-01'
     notes:
-    - start moved earlier by session request for IETF 73
-    - widened to cover last calls and adoption calls on the group list
-    - start dated by list message of 2007-04-30
+    - 'Start: announced on the group''s list (2007-04-30)'
   evidence:
   - kind: list message
     date: '2007-04-30'
@@ -166,10 +163,10 @@ chairs:
     last: '2017-03-26'
     examples:
     - date: '2007-05-02'
-      subject: IETF 69 proceedings charter (last modified)
+      subject: IETF 69 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/69/ospf.html
     - date: '2007-09-26'
-      subject: IETF 71 proceedings charter (last modified)
+      subject: IETF 71 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/71/ospf.html
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
@@ -193,7 +190,7 @@ chairs:
       not_before: '2003-09-16'
       not_after: '2004-07-09'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2004-07-09)'
   evidence:
   - kind: proceedings
     listed_in: 24
@@ -207,9 +204,9 @@ chairs:
       subject: IETF 31 proceedings charter
       url: https://www.ietf.org/proceedings/31/area.and.wg.reports/rtg/ospf/ospf-charter.txt
     - date: '2003-09-16'
-      subject: IETF 58 proceedings charter (last modified)
+      subject: IETF 58 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/58/188.htm
   - kind: minutes without them
     date: '2004-07-09'
-    subject: IETF 60 proceedings charter (last modified)
+    subject: IETF 60 proceedings charter, as last modified
     url: https://www.ietf.org/proceedings/60/197.htm

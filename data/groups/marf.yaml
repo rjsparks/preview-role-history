@@ -23,9 +23,8 @@ chairs:
       certainty: between
       not_before: '2012-02-13'
     notes:
-    - start moved earlier by session request for IETF 77
-    - widened to cover last calls and adoption calls on the group list
-    - widened to cover charter snapshots in proceedings
+    - 'End: started a last call or adoption call on the group''s list (2012-02-13)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-01-26)'
   evidence:
   - kind: chair activity
     first: '2011-03-30'
@@ -47,7 +46,7 @@ chairs:
     last: '2011-11-13'
     examples:
     - date: '2010-01-26'
-      subject: IETF 77 proceedings charter (last modified)
+      subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/marf.html
     - date: '2010-11-07'
       subject: IETF 79 proceedings charter
@@ -75,7 +74,7 @@ chairs:
       certainty: between
       not_before: '2011-12-09'
     notes:
-    - start moved earlier by session request for IETF 78
+    - 'Start: requested the group''s session for IETF 78 (2010-07-25)'
   - start:
       certainty: between
       not_before: '2011-12-09'
@@ -109,7 +108,7 @@ chairs:
     last: '2012-03-25'
     examples:
     - date: '2010-01-26'
-      subject: IETF 77 proceedings charter (last modified)
+      subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/marf.html
     - date: '2010-11-07'
       subject: IETF 79 proceedings charter

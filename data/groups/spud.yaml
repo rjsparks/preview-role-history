@@ -26,8 +26,12 @@ chairs:
       certainty: between
       not_before: '2015-03-22'
     notes:
-    - end set after the last BOF session (IETF 92)
+    - 'End: after the BOF''s last session, IETF 92 (2015-03-22)'
   evidence:
+  - kind: BOF session
+    meeting: '92'
+    date: '2015-03-22'
+    url: https://www.ietf.org/proceedings/92/spud.html
   - kind: proceedings
     listed_in: 1
     first: '2015-03-22'
@@ -48,7 +52,7 @@ chairs:
       certainty: between
       not_before: '2015-03-22'
     notes:
-    - end set after the last BOF session (IETF 92)
+    - 'End: after the BOF''s last session, IETF 92 (2015-03-22)'
   evidence:
   - kind: chair activity
     first: '2015-03-09'
@@ -61,6 +65,10 @@ chairs:
     - date: '2015-05-07'
       subject: '[Spud] Minutes'
       url: https://mailarchive.ietf.org/arch/msg/spud/9umYw-EeD-yLnq1RohzdpLIlu10/
+  - kind: BOF session
+    meeting: '92'
+    date: '2015-03-22'
+    url: https://www.ietf.org/proceedings/92/spud.html
   - kind: proceedings
     listed_in: 1
     first: '2015-03-22'

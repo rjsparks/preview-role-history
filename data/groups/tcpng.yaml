@@ -25,5 +25,10 @@ chairs:
       certainty: between
       not_before: '1994-12-05'
     notes:
-    - widened to cover the BOF session in the proceedings
-    - end set after the last BOF session (IETF 31)
+    - 'Start: the BOF met at IETF 31 (1994-12-05)'
+    - 'End: after the BOF''s last session, IETF 31 (1994-12-05)'
+  evidence:
+  - kind: BOF session
+    meeting: '31'
+    date: '1994-12-05'
+    url: https://www.ietf.org/proceedings/31/area.and.wg.reports/tsv/area.transport.94dec.txt

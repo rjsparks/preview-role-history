@@ -25,9 +25,7 @@ chairs:
       certainty: group-closed
       date: '2015-08-27'
     notes:
-    - start moved earlier by WG Action announcement of 2005-02-09
-    - widened to cover last calls and adoption calls on the group list
-    - start dated by list message of 2003-07-30
+    - 'Start: announced on the group''s list (2003-07-30)'
   evidence:
   - kind: WG Action
     date: '2005-02-09'
@@ -104,10 +102,10 @@ chairs:
     last: '2015-03-22'
     examples:
     - date: '2003-10-07'
-      subject: IETF 58 proceedings charter (last modified)
+      subject: IETF 58 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/58/142.htm
     - date: '2004-02-19'
-      subject: IETF 59 proceedings charter (last modified)
+      subject: IETF 59 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/59/147.htm
     - date: '2015-03-22'
       subject: IETF 92 proceedings charter
@@ -134,9 +132,8 @@ chairs:
       certainty: group-closed
       date: '2015-08-27'
     notes:
-    - start moved earlier by WG Action announcement of 2006-07-25
-    - widened to cover chair lists in meeting minutes
-    - bounded by minutes listing other chairs
+    - 'Start: listed as chair in meeting minutes (2003-11-09)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2003-08-06)'
   evidence:
   - kind: WG Action
     date: '2006-07-25'
@@ -188,10 +185,10 @@ chairs:
     last: '2015-03-22'
     examples:
     - date: '2006-07-25'
-      subject: IETF 66 proceedings charter (last modified)
+      subject: IETF 66 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/66/mip4.html
     - date: '2007-02-20'
-      subject: IETF 68 proceedings charter (last modified)
+      subject: IETF 68 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/68/mip4.html
     - date: '2015-03-22'
       subject: IETF 92 proceedings charter
@@ -227,7 +224,7 @@ chairs:
       not_before: '2006-06-27'
       not_after: '2006-07-25'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2006-07-25)'
   evidence:
   - kind: WG Action
     date: '2005-02-09'
@@ -271,15 +268,15 @@ chairs:
     last: '2005-12-21'
     examples:
     - date: '2003-10-07'
-      subject: IETF 58 proceedings charter (last modified)
+      subject: IETF 58 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/58/142.htm
     - date: '2004-02-19'
-      subject: IETF 59 proceedings charter (last modified)
+      subject: IETF 59 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/59/147.htm
     - date: '2005-12-21'
-      subject: IETF 65 proceedings charter (last modified)
+      subject: IETF 65 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/65/mip4.html
   - kind: minutes without them
     date: '2006-07-25'
-    subject: IETF 66 proceedings charter (last modified)
+    subject: IETF 66 proceedings charter, as last modified
     url: https://www.ietf.org/proceedings/66/mip4.html

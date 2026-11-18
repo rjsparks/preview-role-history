@@ -22,8 +22,7 @@ chairs:
       certainty: exact
       date: '2013-09-06'
     notes:
-    - widened to cover last calls and adoption calls on the group list
-    - start dated by list message of 2012-03-27
+    - 'Start: announced on the group''s list (2012-03-27)'
   evidence:
   - kind: list message
     date: '2012-03-27'
@@ -78,10 +77,8 @@ chairs:
       not_before: '2011-12-09'
       not_after: '2012-03-25'
     notes:
-    - start moved earlier by session request for IETF 82
-    - widened to cover last calls and adoption calls on the group list
-    - widened to cover charter snapshots in proceedings
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2012-03-25)'
   evidence:
   - kind: chair activity
     first: '2011-04-15'
@@ -137,7 +134,7 @@ chairs:
       not_before: '2010-07-25'
       not_after: '2010-11-07'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-11-07)'
   evidence:
   - kind: WG Action
     date: '2010-03-23'
@@ -149,7 +146,7 @@ chairs:
     last: '2010-03-23'
     examples:
     - date: '2010-03-23'
-      subject: IETF 77 proceedings charter (last modified)
+      subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/ppsp.html
   - kind: minutes without them
     date: '2010-11-07'
@@ -171,7 +168,7 @@ chairs:
       certainty: group-closed
       date: '2016-01-13'
     notes:
-    - start moved earlier by WG Action announcement of 2010-03-23
+    - 'Start: named as chair in the WG Action announcement (2010-03-23)'
   evidence:
   - kind: WG Action
     date: '2010-03-23'
@@ -200,7 +197,7 @@ chairs:
       subject: IETF 76 proceedings charter
       url: https://www.ietf.org/proceedings/76/ppsp.html
     - date: '2010-03-23'
-      subject: IETF 77 proceedings charter (last modified)
+      subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/ppsp.html
     - date: '2015-11-01'
       subject: IETF 94 proceedings charter
@@ -225,7 +222,7 @@ chairs:
       certainty: group-closed
       date: '2016-01-13'
     notes:
-    - start dated by list message of 2013-09-06
+    - 'Start: announced on the group''s list (2013-09-06)'
   evidence:
   - kind: list message
     date: '2013-09-06'

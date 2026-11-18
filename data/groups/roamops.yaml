@@ -23,7 +23,7 @@ chairs:
       certainty: group-closed
       date: '2001-01-24'
     notes:
-    - widened to cover charter snapshots in proceedings
+    - 'Start: listed as chair in a proceedings charter snapshot (1998-07-23)'
   evidence:
   - kind: proceedings
     listed_in: 8
@@ -31,13 +31,13 @@ chairs:
     last: '2000-06-02'
     examples:
     - date: '1998-07-23'
-      subject: IETF 42 proceedings charter (last modified)
+      subject: IETF 42 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/42/98aug-87.htm
     - date: '1998-11-25'
-      subject: IETF 43 proceedings charter (last modified)
+      subject: IETF 43 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-77.html
     - date: '2000-06-02'
-      subject: IETF 49 proceedings charter (last modified)
+      subject: IETF 49 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/49/00dec-81.htm
 - person: 106988
   name: Glen Zorn
@@ -51,7 +51,7 @@ chairs:
       certainty: group-closed
       date: '2001-01-24'
     notes:
-    - widened to cover charter snapshots in proceedings
+    - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
   evidence:
   - kind: proceedings
     listed_in: 12
@@ -65,7 +65,7 @@ chairs:
       subject: IETF 39 proceedings charter
       url: https://www.ietf.org/proceedings/39/transit97aug-73.htm
     - date: '2000-06-02'
-      subject: IETF 49 proceedings charter (last modified)
+      subject: IETF 49 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/49/00dec-81.htm
 - person: 108140
   name: Pat Calhoun
@@ -79,7 +79,7 @@ chairs:
       not_before: '1998-02-12'
       not_after: '1998-07-23'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (1998-07-23)'
   evidence:
   - kind: proceedings
     listed_in: 4
@@ -93,9 +93,9 @@ chairs:
       subject: IETF 39 proceedings charter
       url: https://www.ietf.org/proceedings/39/transit97aug-73.htm
     - date: '1998-02-12'
-      subject: IETF 41 proceedings charter (last modified)
+      subject: IETF 41 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/41/98mar-edited-81.htm
   - kind: minutes without them
     date: '1998-07-23'
-    subject: IETF 42 proceedings charter (last modified)
+    subject: IETF 42 proceedings charter, as last modified
     url: https://www.ietf.org/proceedings/42/98aug-87.htm

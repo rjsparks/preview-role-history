@@ -31,8 +31,20 @@ chairs:
       certainty: between
       not_before: '2016-07-17'
     notes:
-    - end set after the last BOF session (IETF 96)
+    - 'End: after the BOF''s last session, IETF 96 (2016-07-17)'
   evidence:
+  - kind: BOF session
+    meeting: '94'
+    date: '2015-11-01'
+    url: https://www.ietf.org/proceedings/94/its.html
+  - kind: BOF session
+    meeting: '95'
+    date: '2016-04-03'
+    url: https://www.ietf.org/proceedings/95/its.html
+  - kind: BOF session
+    meeting: '96'
+    date: '2016-07-17'
+    url: https://www.ietf.org/proceedings/96/its.html
   - kind: proceedings
     listed_in: 3
     first: '2015-11-01'
@@ -58,8 +70,20 @@ chairs:
       certainty: between
       not_before: '2016-07-17'
     notes:
-    - end set after the last BOF session (IETF 96)
+    - 'End: after the BOF''s last session, IETF 96 (2016-07-17)'
   evidence:
+  - kind: BOF session
+    meeting: '94'
+    date: '2015-11-01'
+    url: https://www.ietf.org/proceedings/94/its.html
+  - kind: BOF session
+    meeting: '95'
+    date: '2016-04-03'
+    url: https://www.ietf.org/proceedings/95/its.html
+  - kind: BOF session
+    meeting: '96'
+    date: '2016-07-17'
+    url: https://www.ietf.org/proceedings/96/its.html
   - kind: proceedings
     listed_in: 3
     first: '2015-11-01'
@@ -85,6 +109,18 @@ chairs:
       certainty: exact
       date: '2016-02-26'
   evidence:
+  - kind: BOF session
+    meeting: '94'
+    date: '2015-11-01'
+    url: https://www.ietf.org/proceedings/94/its.html
+  - kind: BOF session
+    meeting: '95'
+    date: '2016-04-03'
+    url: https://www.ietf.org/proceedings/95/its.html
+  - kind: BOF session
+    meeting: '96'
+    date: '2016-07-17'
+    url: https://www.ietf.org/proceedings/96/its.html
   - kind: proceedings
     listed_in: 1
     first: '2013-11-03'

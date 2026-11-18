@@ -28,10 +28,17 @@ chairs:
       certainty: between
       not_before: '2011-03-27'
     notes:
-    - start moved earlier by session request for IETF 80
-    - widened to cover the BOF session in the proceedings
-    - end set after the last BOF session (IETF 80)
+    - 'Start: the BOF met at IETF 79 (2010-11-07)'
+    - 'End: after the BOF''s last session, IETF 80 (2011-03-27)'
   evidence:
+  - kind: BOF session
+    meeting: '79'
+    date: '2010-11-07'
+    url: https://www.ietf.org/proceedings/79/plasma.html
+  - kind: BOF session
+    meeting: '80'
+    date: '2011-03-27'
+    url: https://www.ietf.org/proceedings/80/plasma.html
   - kind: proceedings
     listed_in: 2
     first: '2010-11-07'
@@ -58,8 +65,8 @@ chairs:
       certainty: between
       not_before: '2011-03-27'
     notes:
-    - widened to cover the BOF session in the proceedings
-    - end set after the last BOF session (IETF 80)
+    - 'Start: the BOF met at IETF 79 (2010-11-07)'
+    - 'End: after the BOF''s last session, IETF 80 (2011-03-27)'
   evidence:
   - kind: chair activity
     first: '2011-04-22'
@@ -69,6 +76,14 @@ chairs:
     - date: '2011-04-22'
       subject: '[plasma] Minutes for the PLASMA BOF in Prague'
       url: https://mailarchive.ietf.org/arch/msg/plasma/d515wR56bbYeOjZH9Gtk9Y0bHcM/
+  - kind: BOF session
+    meeting: '79'
+    date: '2010-11-07'
+    url: https://www.ietf.org/proceedings/79/plasma.html
+  - kind: BOF session
+    meeting: '80'
+    date: '2011-03-27'
+    url: https://www.ietf.org/proceedings/80/plasma.html
   - kind: proceedings
     listed_in: 2
     first: '2010-11-07'

@@ -26,10 +26,8 @@ chairs:
       certainty: group-closed
       date: '2010-08-23'
     notes:
-    - start moved earlier by session request for IETF 67
-    - widened to cover last calls and adoption calls on the group list
-    - widened to cover charter snapshots in proceedings
-    - bounded by minutes listing other chairs
+    - 'Start: listed as chair in a proceedings charter snapshot (2005-02-24)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2004-11-07)'
   evidence:
   - kind: chair activity
     first: '2005-03-26'
@@ -57,13 +55,13 @@ chairs:
     last: '2010-03-25'
     examples:
     - date: '2005-02-24'
-      subject: IETF 62 proceedings charter (last modified)
+      subject: IETF 62 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/62/sasl.html
     - date: '2005-06-27'
-      subject: IETF 63 proceedings charter (last modified)
+      subject: IETF 63 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/63/sasl.html
     - date: '2010-03-25'
-      subject: IETF 77 proceedings charter (last modified)
+      subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/sasl.html
   - kind: minutes without them
     date: '2004-11-07'
@@ -91,7 +89,7 @@ chairs:
       certainty: approximate
       date: '2004-12-10'
     notes:
-    - end dated by list message of 2004-12-10
+    - 'End: announced on the group''s list (2004-12-10)'
   evidence:
   - kind: WG Action
     date: '2002-12-19'
@@ -144,13 +142,13 @@ chairs:
     last: '2004-09-22'
     examples:
     - date: '2003-03-07'
-      subject: IETF 56 proceedings charter (last modified)
+      subject: IETF 56 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/56/213.htm
     - date: '2003-06-26'
-      subject: IETF 57 proceedings charter (last modified)
+      subject: IETF 57 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/57/211.htm
     - date: '2004-09-22'
-      subject: IETF 61 proceedings charter (last modified)
+      subject: IETF 61 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/61/sasl.html
 - person: 103904
   name: Kurt Zeilenga
@@ -164,7 +162,7 @@ chairs:
       certainty: group-closed
       date: '2010-08-23'
     notes:
-    - start moved earlier by WG Action announcement of 2002-12-19
+    - 'Start: named as chair in the WG Action announcement (2002-12-19)'
   evidence:
   - kind: WG Action
     date: '2002-12-19'
@@ -213,10 +211,10 @@ chairs:
       subject: IETF 51 proceedings charter
       url: https://www.ietf.org/proceedings/51/51-121.htm
     - date: '2003-03-07'
-      subject: IETF 56 proceedings charter (last modified)
+      subject: IETF 56 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/56/213.htm
     - date: '2010-03-25'
-      subject: IETF 77 proceedings charter (last modified)
+      subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/sasl.html
   - kind: session requests
     meetings:

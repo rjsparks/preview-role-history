@@ -25,8 +25,12 @@ chairs:
       certainty: between
       not_before: '2014-03-02'
     notes:
-    - end set after the last BOF session (IETF 89)
+    - 'End: after the BOF''s last session, IETF 89 (2014-03-02)'
   evidence:
+  - kind: BOF session
+    meeting: '89'
+    date: '2014-03-02'
+    url: https://www.ietf.org/proceedings/89/dnse.html
   - kind: proceedings
     listed_in: 2
     first: '2014-03-02'

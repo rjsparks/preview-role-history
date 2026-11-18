@@ -37,16 +37,36 @@ chairs:
       certainty: between
       not_before: '2005-07-31'
     notes:
-    - end set after the last BOF session (IETF 63)
-    - widened to cover charter snapshots in proceedings
+    - 'End: after the BOF''s last session, IETF 63 (2005-07-31)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2004-02-13)'
   evidence:
+  - kind: BOF session
+    meeting: '58'
+    date: '2003-11-09'
+    url: https://www.ietf.org/proceedings/58/151.htm
+  - kind: BOF session
+    meeting: '59'
+    date: '2004-02-29'
+    url: https://www.ietf.org/proceedings/59/156.htm
+  - kind: BOF session
+    meeting: '61'
+    date: '2004-11-07'
+    url: https://www.ietf.org/proceedings/61/dnm.html
+  - kind: BOF session
+    meeting: '62'
+    date: '2005-03-06'
+    url: https://www.ietf.org/proceedings/62/hipbof.html
+  - kind: BOF session
+    meeting: '63'
+    date: '2005-07-31'
+    url: https://www.ietf.org/proceedings/63/pr.html
   - kind: proceedings
     listed_in: 1
     first: '2004-02-13'
     last: '2004-02-13'
     examples:
     - date: '2004-02-13'
-      subject: IETF 61 proceedings charter (last modified)
+      subject: IETF 61 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/61/hipbof.html
 - person: 103539
   name: Gonzalo Camarillo
@@ -59,14 +79,34 @@ chairs:
       certainty: between
       not_before: '2005-07-31'
     notes:
-    - end set after the last BOF session (IETF 63)
-    - widened to cover charter snapshots in proceedings
+    - 'End: after the BOF''s last session, IETF 63 (2005-07-31)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2004-02-13)'
   evidence:
+  - kind: BOF session
+    meeting: '58'
+    date: '2003-11-09'
+    url: https://www.ietf.org/proceedings/58/151.htm
+  - kind: BOF session
+    meeting: '59'
+    date: '2004-02-29'
+    url: https://www.ietf.org/proceedings/59/156.htm
+  - kind: BOF session
+    meeting: '61'
+    date: '2004-11-07'
+    url: https://www.ietf.org/proceedings/61/dnm.html
+  - kind: BOF session
+    meeting: '62'
+    date: '2005-03-06'
+    url: https://www.ietf.org/proceedings/62/hipbof.html
+  - kind: BOF session
+    meeting: '63'
+    date: '2005-07-31'
+    url: https://www.ietf.org/proceedings/63/pr.html
   - kind: proceedings
     listed_in: 1
     first: '2004-02-13'
     last: '2004-02-13'
     examples:
     - date: '2004-02-13'
-      subject: IETF 61 proceedings charter (last modified)
+      subject: IETF 61 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/61/hipbof.html

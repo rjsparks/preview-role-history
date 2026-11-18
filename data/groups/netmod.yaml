@@ -26,7 +26,7 @@ chairs:
       not_before: '2010-11-07'
       not_after: '2011-03-27'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-03-27)'
   evidence:
   - kind: WG Review
     date: '2010-10-14'
@@ -83,13 +83,13 @@ chairs:
     last: '2010-03-01'
     examples:
     - date: '2005-05-11'
-      subject: IETF 73 proceedings charter (last modified)
+      subject: IETF 73 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/73/netmod.html
     - date: '2009-03-22'
       subject: IETF 74 proceedings charter
       url: https://www.ietf.org/proceedings/74/netmod.html
     - date: '2010-03-01'
-      subject: IETF 77 proceedings charter (last modified)
+      subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/netmod.html
   - kind: minutes without them
     date: '2011-03-27'
@@ -171,7 +171,7 @@ chairs:
       certainty: approximate
       date: '2008-12-19'
     notes:
-    - end dated by list message of 2008-12-19
+    - 'End: announced on the group''s list (2008-12-19)'
   evidence:
   - kind: list message
     date: '2008-12-19'
@@ -204,7 +204,7 @@ chairs:
     last: '2005-05-11'
     examples:
     - date: '2005-05-11'
-      subject: IETF 73 proceedings charter (last modified)
+      subject: IETF 73 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/73/netmod.html
   - kind: minutes without them
     date: '2010-07-25'
@@ -227,8 +227,7 @@ chairs:
       not_before: '2011-12-09'
       not_after: '2014-01-13'
     notes:
-    - start moved earlier by WG Action announcement of 2010-10-26
-    - start dated by list message of 2008-12-19
+    - 'Start: announced on the group''s list (2008-12-19)'
   - start:
       certainty: between
       not_before: '2011-12-09'
@@ -291,7 +290,7 @@ chairs:
       subject: IETF 74 proceedings charter
       url: https://www.ietf.org/proceedings/74/netmod.html
     - date: '2009-05-06'
-      subject: IETF 75 proceedings charter (last modified)
+      subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/netmod.html
     - date: '2013-11-03'
       subject: IETF 88 proceedings charter
@@ -365,8 +364,8 @@ chairs:
       certainty: exact
       date: '2016-06-27'
     notes:
-    - start moved earlier by WG Action announcement of 2010-10-26
-    - bounded by minutes listing other chairs
+    - 'Start: named as chair in the WG Action announcement (2010-10-26)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2010-07-25)'
   evidence:
   - kind: WG Action
     date: '2010-10-26'
@@ -514,8 +513,7 @@ chairs:
       not_before: '2005-05-11'
       not_after: '2008-11-16'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
-    - bounded by minutes listing other chairs
+    - 'End: no longer listed among the chairs in meeting minutes (2008-11-16)'
   evidence:
   - kind: proceedings
     listed_in: 2
@@ -523,10 +521,10 @@ chairs:
     last: '2005-05-11'
     examples:
     - date: '2004-07-27'
-      subject: IETF 61 proceedings charter (last modified)
+      subject: IETF 61 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/61/netmod.html
     - date: '2005-05-11'
-      subject: IETF 71 proceedings charter (last modified)
+      subject: IETF 71 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/71/netmod.html
   - kind: minutes without them
     date: '2008-11-16'

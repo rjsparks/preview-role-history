@@ -22,8 +22,7 @@ chairs:
       certainty: exact
       date: '2016-07-22'
     notes:
-    - widened to cover last calls and adoption calls on the group list
-    - start dated by list message of 2010-12-16
+    - 'Start: announced on the group''s list (2010-12-16)'
   evidence:
   - kind: WG Action
     date: '2013-08-16'
@@ -168,8 +167,7 @@ chairs:
       certainty: exact
       date: '2018-03-22'
     notes:
-    - start moved earlier by WG Action announcement of 2004-06-25
-    - widened to cover charter snapshots in proceedings
+    - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
   evidence:
   - kind: WG Action
     date: '2004-06-25'
@@ -244,7 +242,7 @@ chairs:
       not_before: '2001-10-11'
       not_after: '2002-02-11'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2002-02-11)'
   evidence:
   - kind: proceedings
     listed_in: 15
@@ -258,7 +256,7 @@ chairs:
       subject: IETF 39 proceedings charter
       url: https://www.ietf.org/proceedings/39/transit97aug-88.htm
     - date: '2001-10-11'
-      subject: IETF 52 proceedings charter (last modified)
+      subject: IETF 52 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/52/217.htm
   - kind: minutes without them
     date: '2005-03-06'
@@ -276,8 +274,7 @@ chairs:
       certainty: exact
       date: '2023-10-21'
     notes:
-    - start moved earlier by WG Action announcement of 2004-06-25
-    - widened to cover charter snapshots in proceedings
+    - 'Start: listed as chair in a proceedings charter snapshot (2002-02-11)'
   evidence:
   - kind: WG Action
     date: '2004-06-25'
@@ -336,10 +333,10 @@ chairs:
     last: '2011-11-13'
     examples:
     - date: '2002-02-11'
-      subject: IETF 53 proceedings charter (last modified)
+      subject: IETF 53 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/53/214.htm
     - date: '2002-05-20'
-      subject: IETF 54 proceedings charter (last modified)
+      subject: IETF 54 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/54/214.htm
     - date: '2011-11-13'
       subject: IETF 82 proceedings charter
@@ -578,7 +575,7 @@ chairs:
       certainty: evidence-only
       not_before: '2011-11-13'
     notes:
-    - bounded by minutes listing other chairs
+    - 'Start: not yet listed among the chairs in meeting minutes (2005-08-16)'
   evidence:
   - kind: minutes without them
     date: '2005-08-16'

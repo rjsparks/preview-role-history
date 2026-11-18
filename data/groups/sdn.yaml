@@ -25,9 +25,13 @@ chairs:
       certainty: between
       not_before: '2011-11-13'
     notes:
-    - widened to cover the BOF session in the proceedings
-    - end set after the last BOF session (IETF 82)
+    - 'Start: the BOF met at IETF 82 (2011-11-13)'
+    - 'End: after the BOF''s last session, IETF 82 (2011-11-13)'
   evidence:
+  - kind: BOF session
+    meeting: '82'
+    date: '2011-11-13'
+    url: https://www.ietf.org/proceedings/82/sdn.html
   - kind: proceedings
     listed_in: 4
     first: '2011-11-13'
@@ -53,9 +57,13 @@ chairs:
       certainty: between
       not_before: '2011-11-13'
     notes:
-    - widened to cover the BOF session in the proceedings
-    - end set after the last BOF session (IETF 82)
+    - 'Start: the BOF met at IETF 82 (2011-11-13)'
+    - 'End: after the BOF''s last session, IETF 82 (2011-11-13)'
   evidence:
+  - kind: BOF session
+    meeting: '82'
+    date: '2011-11-13'
+    url: https://www.ietf.org/proceedings/82/sdn.html
   - kind: proceedings
     listed_in: 4
     first: '2011-11-13'

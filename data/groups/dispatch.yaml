@@ -23,8 +23,7 @@ chairs:
       certainty: exact
       date: '2019-12-20'
     notes:
-    - start moved earlier by session request for IETF 75
-    - widened to cover charter snapshots in proceedings
+    - 'Start: listed as chair in a proceedings charter snapshot (2009-04-20)'
   evidence:
   - kind: WG Review
     date: '2016-02-12'
@@ -72,10 +71,10 @@ chairs:
     last: '2017-03-26'
     examples:
     - date: '2009-04-20'
-      subject: IETF 74 proceedings charter (last modified)
+      subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/dispatch.html
     - date: '2010-04-16'
-      subject: IETF 77 proceedings charter (last modified)
+      subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/dispatch.html
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
@@ -102,7 +101,7 @@ chairs:
       not_before: '2016-05-17'
       not_after: '2016-07-17'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2016-07-17)'
   evidence:
   - kind: list message
     date: '2016-05-17'
@@ -124,7 +123,7 @@ chairs:
     last: '2009-04-20'
     examples:
     - date: '2009-04-20'
-      subject: IETF 74 proceedings charter (last modified)
+      subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/dispatch.html
   - kind: minutes without them
     date: '2019-03-23'
@@ -196,8 +195,8 @@ chairs:
       certainty: exact
       date: '2019-02-11'
     notes:
-    - widened to cover charter snapshots in proceedings
-    - bounded by minutes listing other chairs
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-04-16)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2009-11-12)'
   evidence:
   - kind: WG Review
     date: '2016-02-12'
@@ -234,7 +233,7 @@ chairs:
     last: '2017-03-26'
     examples:
     - date: '2010-04-16'
-      subject: IETF 77 proceedings charter (last modified)
+      subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/dispatch.html
     - date: '2010-11-07'
       subject: IETF 79 proceedings charter

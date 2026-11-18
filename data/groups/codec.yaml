@@ -23,8 +23,7 @@ chairs:
       certainty: exact
       date: '2015-02-24'
     notes:
-    - widened to cover last calls and adoption calls on the group list
-    - widened to cover charter snapshots in proceedings
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-04-01)'
   evidence:
   - kind: chair activity
     first: '2011-07-20'
@@ -46,7 +45,7 @@ chairs:
     last: '2014-11-09'
     examples:
     - date: '2010-04-01'
-      subject: IETF 77 proceedings charter (last modified)
+      subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/codec.html
     - date: '2010-11-07'
       subject: IETF 79 proceedings charter
@@ -74,8 +73,8 @@ chairs:
       not_before: '2010-07-02'
       not_after: '2010-11-07'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
-    - bounded by minutes listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-11-07)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2009-07-26)'
   evidence:
   - kind: chair activity
     first: '2010-07-02'
@@ -94,7 +93,7 @@ chairs:
       subject: IETF 76 proceedings charter
       url: https://www.ietf.org/proceedings/76/codec.html
     - date: '2010-04-01'
-      subject: IETF 77 proceedings charter (last modified)
+      subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/codec.html
   - kind: minutes without them
     date: '2009-07-26'
@@ -116,8 +115,7 @@ chairs:
       certainty: exact
       date: '2013-01-11'
     notes:
-    - start moved earlier by session request for IETF 78
-    - widened to cover charter snapshots in proceedings
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-04-01)'
   evidence:
   - kind: chair activity
     first: '2011-03-17'
@@ -142,7 +140,7 @@ chairs:
     last: '2012-07-29'
     examples:
     - date: '2010-04-01'
-      subject: IETF 77 proceedings charter (last modified)
+      subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/codec.html
     - date: '2010-11-07'
       subject: IETF 79 proceedings charter
@@ -174,7 +172,7 @@ chairs:
       not_before: '2010-03-21'
       not_after: '2010-04-01'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-04-01)'
   evidence:
   - kind: chair activity
     first: '2009-09-04'
@@ -208,7 +206,7 @@ chairs:
       url: https://www.ietf.org/proceedings/76/codec.html
   - kind: minutes without them
     date: '2010-04-01'
-    subject: IETF 77 proceedings charter (last modified)
+    subject: IETF 77 proceedings charter, as last modified
     url: https://www.ietf.org/proceedings/77/codec.html
   - kind: session requests
     meetings:

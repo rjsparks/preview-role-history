@@ -25,4 +25,9 @@ chairs:
       certainty: between
       not_before: '2003-03-16'
     notes:
-    - end set after the last BOF session (IETF 56)
+    - 'End: after the BOF''s last session, IETF 56 (2003-03-16)'
+  evidence:
+  - kind: BOF session
+    meeting: '56'
+    date: '2003-03-16'
+    url: https://www.ietf.org/proceedings/56/178.htm

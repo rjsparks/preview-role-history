@@ -26,7 +26,7 @@ chairs:
       certainty: exact
       date: '2013-03-11'
     notes:
-    - widened to cover charter snapshots in proceedings
+    - 'Start: listed as chair in a proceedings charter snapshot (2012-07-29)'
   evidence:
   - kind: chair activity
     first: '2012-11-28'
@@ -59,8 +59,8 @@ chairs:
       not_before: '2011-12-09'
       not_after: '2012-07-29'
     notes:
-    - widened to cover charter snapshots in proceedings
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'Start: listed as chair in a proceedings charter snapshot (2011-07-24)'
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2012-07-29)'
   evidence:
   - kind: proceedings
     listed_in: 2
@@ -89,8 +89,8 @@ chairs:
       not_before: '2011-12-09'
       not_after: '2012-07-29'
     notes:
-    - widened to cover charter snapshots in proceedings
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'Start: listed as chair in a proceedings charter snapshot (2011-07-24)'
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2012-07-29)'
   evidence:
   - kind: proceedings
     listed_in: 2
@@ -119,7 +119,7 @@ chairs:
       certainty: group-closed
       date: '2017-02-01'
     notes:
-    - widened to cover charter snapshots in proceedings
+    - 'Start: listed as chair in a proceedings charter snapshot (2012-07-29)'
   evidence:
   - kind: WG Action
     date: '2013-03-12'
@@ -286,7 +286,7 @@ chairs:
       not_before: '2013-06-19'
       not_after: '2013-07-28'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2013-07-28)'
   evidence:
   - kind: chair activity
     first: '2013-06-06'

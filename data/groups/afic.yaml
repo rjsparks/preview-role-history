@@ -25,8 +25,13 @@ chairs:
       certainty: between
       not_before: '1995-07-17'
     notes:
-    - widened to cover the BOF session in the proceedings
-    - end set after the last BOF session (IETF 33)
+    - 'Start: the BOF met at IETF 33 (1995-07-17)'
+    - 'End: after the BOF''s last session, IETF 33 (1995-07-17)'
+  evidence:
+  - kind: BOF session
+    meeting: '33'
+    date: '1995-07-17'
+    url: https://www.ietf.org/proceedings/33/area.and.wg.reports/gen/afic/afic-minutes-95jul.txt
 - person: 18563
   name: Jim Grace
   status: confirmed
@@ -38,5 +43,10 @@ chairs:
       certainty: between
       not_before: '1995-07-17'
     notes:
-    - widened to cover the BOF session in the proceedings
-    - end set after the last BOF session (IETF 33)
+    - 'Start: the BOF met at IETF 33 (1995-07-17)'
+    - 'End: after the BOF''s last session, IETF 33 (1995-07-17)'
+  evidence:
+  - kind: BOF session
+    meeting: '33'
+    date: '1995-07-17'
+    url: https://www.ietf.org/proceedings/33/area.and.wg.reports/gen/afic/afic-minutes-95jul.txt

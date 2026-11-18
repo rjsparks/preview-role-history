@@ -25,5 +25,10 @@ chairs:
       certainty: between
       not_before: '1996-12-09'
     notes:
-    - widened to cover the BOF session in the proceedings
-    - end set after the last BOF session (IETF 37)
+    - 'Start: the BOF met at IETF 37 (1996-12-09)'
+    - 'End: after the BOF''s last session, IETF 37 (1996-12-09)'
+  evidence:
+  - kind: BOF session
+    meeting: '37'
+    date: '1996-12-09'
+    url: https://www.ietf.org/proceedings/37/app/url.html

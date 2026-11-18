@@ -23,7 +23,7 @@ chairs:
       certainty: exact
       date: '2017-04-05'
     notes:
-    - bounded by minutes listing other chairs
+    - 'Start: not yet listed among the chairs in meeting minutes (2010-01-27)'
   evidence:
   - kind: WG Action
     date: '2012-05-15'
@@ -81,10 +81,9 @@ chairs:
       not_before: '2011-12-09'
       not_after: '2012-03-25'
     notes:
-    - start moved earlier by WG Action announcement of 2011-06-14
-    - widened to cover charter snapshots in proceedings
-    - bounded by a proceedings charter snapshot listing other chairs
-    - bounded by minutes listing other chairs
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2012-03-25)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2010-01-27)'
   evidence:
   - kind: WG Review
     date: '2011-05-31'
@@ -150,8 +149,7 @@ chairs:
     end:
       certainty: ongoing
     notes:
-    - start moved earlier by session request for IETF 78
-    - widened to cover charter snapshots in proceedings
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-03-25)'
   evidence:
   - kind: WG Review
     date: '2011-05-31'
@@ -203,7 +201,7 @@ chairs:
     last: '2017-03-26'
     examples:
     - date: '2010-03-25'
-      subject: IETF 77 proceedings charter (last modified)
+      subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/oauth.html
     - date: '2010-11-07'
       subject: IETF 79 proceedings charter
@@ -257,8 +255,8 @@ chairs:
       not_before: '2011-05-31'
       not_after: '2011-07-24'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
-    - bounded by minutes listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-07-24)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2008-12-01)'
   evidence:
   - kind: WG Review
     date: '2011-05-31'
@@ -295,7 +293,7 @@ chairs:
       subject: IETF 74 proceedings charter
       url: https://www.ietf.org/proceedings/74/oauth.html
     - date: '2009-05-15'
-      subject: IETF 75 proceedings charter (last modified)
+      subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/oauth.html
   - kind: minutes without them
     date: '2008-12-01'
@@ -322,8 +320,8 @@ chairs:
       not_before: '2011-06-14'
       not_after: '2011-07-24'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
-    - bounded by minutes listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-07-24)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2008-12-01)'
   evidence:
   - kind: WG Review
     date: '2011-05-31'
@@ -358,7 +356,7 @@ chairs:
       subject: IETF 74 proceedings charter
       url: https://www.ietf.org/proceedings/74/oauth.html
     - date: '2009-05-15'
-      subject: IETF 75 proceedings charter (last modified)
+      subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/oauth.html
     - date: '2011-03-27'
       subject: IETF 80 proceedings charter

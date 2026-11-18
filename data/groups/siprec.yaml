@@ -22,7 +22,7 @@ chairs:
       certainty: approximate
       date: '2011-08-11'
     notes:
-    - end dated by list message of 2011-08-11
+    - 'End: announced on the group''s list (2011-08-11)'
   evidence:
   - kind: list message
     date: '2011-08-11'
@@ -36,7 +36,7 @@ chairs:
     last: '2011-03-27'
     examples:
     - date: '2010-03-26'
-      subject: IETF 77 proceedings charter (last modified)
+      subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/siprec.html
     - date: '2010-07-25'
       subject: IETF 78 proceedings charter
@@ -62,8 +62,7 @@ chairs:
       certainty: group-closed
       date: '2016-12-23'
     notes:
-    - start moved earlier by session request for IETF 78
-    - widened to cover charter snapshots in proceedings
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-03-26)'
   evidence:
   - kind: WG Action
     date: '2014-06-11'
@@ -86,7 +85,7 @@ chairs:
     last: '2016-07-17'
     examples:
     - date: '2010-03-26'
-      subject: IETF 77 proceedings charter (last modified)
+      subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/siprec.html
     - date: '2010-07-25'
       subject: IETF 78 proceedings charter
@@ -116,7 +115,7 @@ chairs:
       not_before: '2011-12-09'
       not_after: '2014-10-10'
     notes:
-    - start moved earlier by session request for IETF 82
+    - 'Start: requested the group''s session for IETF 82 (2011-11-13)'
   - start:
       certainty: between
       not_before: '2011-12-09'

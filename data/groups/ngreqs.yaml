@@ -25,8 +25,13 @@ chairs:
       certainty: between
       not_before: '1994-03-28'
     notes:
-    - widened to cover the BOF session in the proceedings
-    - end set after the last BOF session (IETF 29)
+    - 'Start: the BOF met at IETF 29 (1994-03-28)'
+    - 'End: after the BOF''s last session, IETF 29 (1994-03-28)'
+  evidence:
+  - kind: BOF session
+    meeting: '29'
+    date: '1994-03-28'
+    url: https://www.ietf.org/proceedings/29/0mtg-agenda.txt
 - person: 123360
   name: Frank Kastenholz
   status: confirmed
@@ -38,5 +43,10 @@ chairs:
       certainty: between
       not_before: '1994-03-28'
     notes:
-    - widened to cover the BOF session in the proceedings
-    - end set after the last BOF session (IETF 29)
+    - 'Start: the BOF met at IETF 29 (1994-03-28)'
+    - 'End: after the BOF''s last session, IETF 29 (1994-03-28)'
+  evidence:
+  - kind: BOF session
+    meeting: '29'
+    date: '1994-03-28'
+    url: https://www.ietf.org/proceedings/29/0mtg-agenda.txt

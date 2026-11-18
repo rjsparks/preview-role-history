@@ -23,8 +23,7 @@ chairs:
       certainty: group-closed
       date: '2011-03-21'
     notes:
-    - widened to cover last calls and adoption calls on the group list
-    - widened to cover charter snapshots in proceedings
+    - 'Start: listed as chair in a proceedings charter snapshot (2009-04-03)'
   evidence:
   - kind: chair activity
     first: '2009-11-10'
@@ -40,10 +39,10 @@ chairs:
     last: '2011-03-27'
     examples:
     - date: '2009-04-03'
-      subject: IETF 74 proceedings charter (last modified)
+      subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/morg.html
     - date: '2010-03-25'
-      subject: IETF 77 proceedings charter (last modified)
+      subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/morg.html
     - date: '2011-03-27'
       subject: IETF 80 proceedings charter
@@ -60,7 +59,7 @@ chairs:
       certainty: group-closed
       date: '2011-03-21'
     notes:
-    - start moved earlier by session request for IETF 77
+    - 'Start: requested the group''s session for IETF 77 (2010-03-21)'
   evidence:
   - kind: proceedings
     listed_in: 3
@@ -68,7 +67,7 @@ chairs:
     last: '2011-03-27'
     examples:
     - date: '2010-03-25'
-      subject: IETF 77 proceedings charter (last modified)
+      subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/morg.html
     - date: '2010-11-07'
       subject: IETF 79 proceedings charter
@@ -93,11 +92,11 @@ chairs:
       not_before: '2009-03-22'
       not_after: '2009-04-03'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-04-03)'
   evidence:
   - kind: minutes without them
     date: '2009-04-03'
-    subject: IETF 74 proceedings charter (last modified)
+    subject: IETF 74 proceedings charter, as last modified
     url: https://www.ietf.org/proceedings/74/morg.html
   - kind: session requests
     meetings:
@@ -116,8 +115,7 @@ chairs:
       certainty: group-closed
       date: '2011-03-21'
     notes:
-    - start moved earlier by session request for IETF 75
-    - widened to cover last calls and adoption calls on the group list
+    - 'Start: started a last call or adoption call on the group''s list (2009-02-13)'
   evidence:
   - kind: chair activity
     first: '2008-08-30'
@@ -136,10 +134,10 @@ chairs:
     last: '2011-03-27'
     examples:
     - date: '2009-04-03'
-      subject: IETF 74 proceedings charter (last modified)
+      subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/morg.html
     - date: '2010-03-25'
-      subject: IETF 77 proceedings charter (last modified)
+      subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/morg.html
     - date: '2011-03-27'
       subject: IETF 80 proceedings charter

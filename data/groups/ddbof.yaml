@@ -25,5 +25,10 @@ chairs:
       certainty: between
       not_before: '2003-07-13'
     notes:
-    - widened to cover the BOF session in the proceedings
-    - end set after the last BOF session (IETF 57)
+    - 'Start: the BOF met at IETF 57 (2003-07-13)'
+    - 'End: after the BOF''s last session, IETF 57 (2003-07-13)'
+  evidence:
+  - kind: BOF session
+    meeting: '57'
+    date: '2003-07-13'
+    url: https://www.ietf.org/proceedings/57/152.htm

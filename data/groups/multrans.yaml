@@ -28,9 +28,8 @@ chairs:
       certainty: between
       not_before: '2011-11-13'
     notes:
-    - start moved earlier by session request for IETF 82
-    - widened to cover the BOF session in the proceedings
-    - end set after the last BOF session (IETF 82)
+    - 'Start: the BOF met at IETF 81 (2011-07-24)'
+    - 'End: after the BOF''s last session, IETF 82 (2011-11-13)'
   evidence:
   - kind: chair activity
     first: '2011-09-02'
@@ -40,6 +39,14 @@ chairs:
     - date: '2011-09-02'
       subject: '[multrans] Multrans Quebec Minutes'
       url: https://mailarchive.ietf.org/arch/msg/multrans/ww9WApNT75v5xybWZ8SWN9eNuyI/
+  - kind: BOF session
+    meeting: '81'
+    date: '2011-07-24'
+    url: https://www.ietf.org/proceedings/81/multrans.html
+  - kind: BOF session
+    meeting: '82'
+    date: '2011-11-13'
+    url: https://www.ietf.org/proceedings/82/multrans.html
   - kind: proceedings
     listed_in: 5
     first: '2011-07-24'
@@ -69,9 +76,17 @@ chairs:
       certainty: between
       not_before: '2011-11-13'
     notes:
-    - widened to cover the BOF session in the proceedings
-    - end set after the last BOF session (IETF 82)
+    - 'Start: the BOF met at IETF 81 (2011-07-24)'
+    - 'End: after the BOF''s last session, IETF 82 (2011-11-13)'
   evidence:
+  - kind: BOF session
+    meeting: '81'
+    date: '2011-07-24'
+    url: https://www.ietf.org/proceedings/81/multrans.html
+  - kind: BOF session
+    meeting: '82'
+    date: '2011-11-13'
+    url: https://www.ietf.org/proceedings/82/multrans.html
   - kind: proceedings
     listed_in: 5
     first: '2011-07-24'

@@ -23,7 +23,7 @@ chairs:
       certainty: group-closed
       date: '2013-10-28'
     notes:
-    - widened to cover charter snapshots in proceedings
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-03-21)'
   evidence:
   - kind: proceedings
     listed_in: 11
@@ -34,7 +34,7 @@ chairs:
       subject: IETF 77 proceedings charter
       url: https://www.ietf.org/proceedings/77/mediactrl.html
     - date: '2010-05-18'
-      subject: IETF 78 proceedings charter (last modified)
+      subject: IETF 78 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/78/mediactrl.html
     - date: '2013-07-28'
       subject: IETF 87 proceedings charter
@@ -54,7 +54,7 @@ chairs:
       certainty: group-closed
       date: '2013-10-28'
     notes:
-    - start moved earlier by session request for IETF 68
+    - 'Start: requested the group''s session for IETF 68 (2007-03-18)'
   evidence:
   - kind: chair activity
     first: '2006-11-14'
@@ -79,10 +79,10 @@ chairs:
     last: '2013-07-28'
     examples:
     - date: '2006-09-28'
-      subject: IETF 67 proceedings charter (last modified)
+      subject: IETF 67 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/67/mediactrl.html
     - date: '2007-01-05'
-      subject: IETF 68 proceedings charter (last modified)
+      subject: IETF 68 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/68/mediactrl.html
     - date: '2013-07-28'
       subject: IETF 87 proceedings charter
@@ -106,8 +106,8 @@ chairs:
       not_before: '2010-04-22'
       not_after: '2010-05-18'
     notes:
-    - start dated by list message of 2007-05-02
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'Start: announced on the group''s list (2007-05-02)'
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-05-18)'
   evidence:
   - kind: list message
     date: '2007-05-02'
@@ -141,17 +141,17 @@ chairs:
     last: '2009-11-09'
     examples:
     - date: '2007-05-02'
-      subject: IETF 69 proceedings charter (last modified)
+      subject: IETF 69 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/69/mediactrl.html
     - date: '2007-12-19'
-      subject: IETF 71 proceedings charter (last modified)
+      subject: IETF 71 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/71/mediactrl.html
     - date: '2009-11-09'
-      subject: IETF 76 proceedings charter (last modified)
+      subject: IETF 76 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/76/mediactrl.html
   - kind: minutes without them
     date: '2010-05-18'
-    subject: IETF 78 proceedings charter (last modified)
+    subject: IETF 78 proceedings charter, as last modified
     url: https://www.ietf.org/proceedings/78/mediactrl.html
   - kind: session requests
     meetings:

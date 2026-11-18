@@ -25,8 +25,12 @@ chairs:
       certainty: between
       not_before: '2015-03-22'
     notes:
-    - end set after the last BOF session (IETF 92)
+    - 'End: after the BOF''s last session, IETF 92 (2015-03-22)'
   evidence:
+  - kind: BOF session
+    meeting: '92'
+    date: '2015-03-22'
+    url: https://www.ietf.org/proceedings/92/lucid.html
   - kind: proceedings
     listed_in: 1
     first: '2015-03-22'
@@ -46,7 +50,7 @@ chairs:
       certainty: between
       not_before: '2015-03-22'
     notes:
-    - end set after the last BOF session (IETF 92)
+    - 'End: after the BOF''s last session, IETF 92 (2015-03-22)'
   evidence:
   - kind: chair activity
     first: '2015-03-30'
@@ -56,6 +60,10 @@ chairs:
     - date: '2015-03-30'
       subject: '[Lucid] minutes of the Dallas meeting'
       url: https://mailarchive.ietf.org/arch/msg/lucid/LbDZt8eeo92Ib5M-M8gIHmHcamk/
+  - kind: BOF session
+    meeting: '92'
+    date: '2015-03-22'
+    url: https://www.ietf.org/proceedings/92/lucid.html
   - kind: proceedings
     listed_in: 1
     first: '2015-03-22'

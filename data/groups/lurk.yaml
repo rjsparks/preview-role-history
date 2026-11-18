@@ -32,8 +32,7 @@ chairs:
       certainty: between
       not_before: '2016-07-18'
     notes:
-    - end set after the last BOF session (IETF 96)
-    - widened to cover chair lists in meeting minutes
+    - 'End: listed as chair in meeting minutes (2016-07-18)'
   evidence:
   - kind: chair activity
     first: '2016-04-17'
@@ -54,6 +53,18 @@ chairs:
     - date: '2016-07-18'
       subject: '[Lurk] IETF-96 LURK raw minutes'
       url: https://mailarchive.ietf.org/arch/msg/lurk/OnXCTZpQPb9yFM_FHSdI4H71gOo/
+  - kind: BOF session
+    meeting: '94'
+    date: '2015-11-01'
+    url: https://www.ietf.org/proceedings/94/lurk.html
+  - kind: BOF session
+    meeting: '95'
+    date: '2016-04-03'
+    url: https://www.ietf.org/proceedings/95/lurk.html
+  - kind: BOF session
+    meeting: '96'
+    date: '2016-07-17'
+    url: https://www.ietf.org/proceedings/96/lurk.html
   - kind: proceedings
     listed_in: 3
     first: '2015-11-01'
@@ -80,8 +91,7 @@ chairs:
       certainty: between
       not_before: '2016-07-18'
     notes:
-    - end set after the last BOF session (IETF 96)
-    - widened to cover chair lists in meeting minutes
+    - 'End: listed as chair in meeting minutes (2016-07-18)'
   evidence:
   - kind: chair activity
     first: '2016-03-13'
@@ -102,6 +112,18 @@ chairs:
     - date: '2016-07-18'
       subject: '[Lurk] IETF-96 LURK raw minutes'
       url: https://mailarchive.ietf.org/arch/msg/lurk/OnXCTZpQPb9yFM_FHSdI4H71gOo/
+  - kind: BOF session
+    meeting: '94'
+    date: '2015-11-01'
+    url: https://www.ietf.org/proceedings/94/lurk.html
+  - kind: BOF session
+    meeting: '95'
+    date: '2016-04-03'
+    url: https://www.ietf.org/proceedings/95/lurk.html
+  - kind: BOF session
+    meeting: '96'
+    date: '2016-07-17'
+    url: https://www.ietf.org/proceedings/96/lurk.html
   - kind: proceedings
     listed_in: 3
     first: '2015-11-01'

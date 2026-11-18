@@ -25,8 +25,13 @@ chairs:
       certainty: between
       not_before: '1996-06-24'
     notes:
-    - widened to cover the BOF session in the proceedings
-    - end set after the last BOF session (IETF 36)
+    - 'Start: the BOF met at IETF 36 (1996-06-24)'
+    - 'End: after the BOF''s last session, IETF 36 (1996-06-24)'
+  evidence:
+  - kind: BOF session
+    meeting: '36'
+    date: '1996-06-24'
+    url: https://www.ietf.org/proceedings/36/OLD/toc-96jun.html
 - person: 10535
   name: Yakov Rekhter
   status: confirmed
@@ -38,8 +43,13 @@ chairs:
       certainty: between
       not_before: '1996-06-24'
     notes:
-    - widened to cover the BOF session in the proceedings
-    - end set after the last BOF session (IETF 36)
+    - 'Start: the BOF met at IETF 36 (1996-06-24)'
+    - 'End: after the BOF''s last session, IETF 36 (1996-06-24)'
+  evidence:
+  - kind: BOF session
+    meeting: '36'
+    date: '1996-06-24'
+    url: https://www.ietf.org/proceedings/36/OLD/toc-96jun.html
 - person: 19385
   name: Paul Resnick
   status: confirmed
@@ -51,5 +61,10 @@ chairs:
       certainty: between
       not_before: '1996-06-24'
     notes:
-    - widened to cover the BOF session in the proceedings
-    - end set after the last BOF session (IETF 36)
+    - 'Start: the BOF met at IETF 36 (1996-06-24)'
+    - 'End: after the BOF''s last session, IETF 36 (1996-06-24)'
+  evidence:
+  - kind: BOF session
+    meeting: '36'
+    date: '1996-06-24'
+    url: https://www.ietf.org/proceedings/36/OLD/toc-96jun.html

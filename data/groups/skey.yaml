@@ -25,8 +25,13 @@ chairs:
       certainty: between
       not_before: '1995-04-03'
     notes:
-    - widened to cover the BOF session in the proceedings
-    - end set after the last BOF session (IETF 32)
+    - 'Start: the BOF met at IETF 32 (1995-04-03)'
+    - 'End: after the BOF''s last session, IETF 32 (1995-04-03)'
+  evidence:
+  - kind: BOF session
+    meeting: '32'
+    date: '1995-04-03'
+    url: https://www.ietf.org/proceedings/32/area.and.wg.reports/sec/area.security.95apr/area.security.95apr.txt
 - person: 111048
   name: Ran Atkinson
   status: confirmed
@@ -38,5 +43,10 @@ chairs:
       certainty: between
       not_before: '1995-04-03'
     notes:
-    - widened to cover the BOF session in the proceedings
-    - end set after the last BOF session (IETF 32)
+    - 'Start: the BOF met at IETF 32 (1995-04-03)'
+    - 'End: after the BOF''s last session, IETF 32 (1995-04-03)'
+  evidence:
+  - kind: BOF session
+    meeting: '32'
+    date: '1995-04-03'
+    url: https://www.ietf.org/proceedings/32/area.and.wg.reports/sec/area.security.95apr/area.security.95apr.txt

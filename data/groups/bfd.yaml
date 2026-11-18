@@ -23,8 +23,8 @@ chairs:
       certainty: approximate
       date: '2013-06-08'
     notes:
-    - start moved earlier by WG Action announcement of 2004-06-02
-    - end dated by list message of 2013-06-08
+    - 'Start: named as chair in the WG Action announcement (2004-06-02)'
+    - 'End: announced on the group''s list (2013-06-08)'
   - start:
       certainty: between
       not_before: '2011-12-09'
@@ -79,10 +79,10 @@ chairs:
     last: '2013-03-10'
     examples:
     - date: '2004-06-17'
-      subject: IETF 60 proceedings charter (last modified)
+      subject: IETF 60 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/60/187.htm
     - date: '2004-09-03'
-      subject: IETF 61 proceedings charter (last modified)
+      subject: IETF 61 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/61/bfd.html
     - date: '2013-03-10'
       subject: IETF 86 proceedings charter
@@ -102,7 +102,7 @@ chairs:
     end:
       certainty: ongoing
     notes:
-    - start moved earlier by WG Action announcement of 2004-06-02
+    - 'Start: named as chair in the WG Action announcement (2004-06-02)'
   evidence:
   - kind: WG Action
     date: '2004-06-02'
@@ -172,10 +172,10 @@ chairs:
     last: '2017-03-26'
     examples:
     - date: '2004-06-17'
-      subject: IETF 60 proceedings charter (last modified)
+      subject: IETF 60 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/60/187.htm
     - date: '2004-09-03'
-      subject: IETF 61 proceedings charter (last modified)
+      subject: IETF 61 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/61/bfd.html
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
@@ -272,7 +272,7 @@ chairs:
       certainty: exact
       date: '2015-10-26'
     notes:
-    - start dated by list message of 2013-06-08
+    - 'Start: announced on the group''s list (2013-06-08)'
   evidence:
   - kind: WG Action
     date: '2013-12-06'

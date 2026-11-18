@@ -23,7 +23,7 @@ chairs:
       certainty: group-closed
       date: '2009-12-04'
     notes:
-    - start moved earlier by WG Action announcement of 2001-11-30
+    - 'Start: named as chair in the WG Action announcement (2001-11-30)'
   evidence:
   - kind: WG Action
     date: '2001-11-30'
@@ -78,13 +78,13 @@ chairs:
     last: '2008-08-21'
     examples:
     - date: '2001-12-03'
-      subject: IETF 52 proceedings charter (last modified)
+      subject: IETF 52 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/52/150.htm
     - date: '2002-03-03'
-      subject: IETF 53 proceedings charter (last modified)
+      subject: IETF 53 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/53/147.htm
     - date: '2008-08-21'
-      subject: IETF 74 proceedings charter (last modified)
+      subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/pana.html
   - kind: session requests
     meetings:
@@ -108,8 +108,7 @@ chairs:
       certainty: group-closed
       date: '2009-12-04'
     notes:
-    - start moved earlier by WG Action announcement of 2004-06-16
-    - widened to cover charter snapshots in proceedings
+    - 'Start: listed as chair in a proceedings charter snapshot (2002-03-03)'
   evidence:
   - kind: WG Action
     date: '2004-06-16'
@@ -154,13 +153,13 @@ chairs:
     last: '2008-08-21'
     examples:
     - date: '2002-03-03'
-      subject: IETF 53 proceedings charter (last modified)
+      subject: IETF 53 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/53/147.htm
     - date: '2002-05-20'
-      subject: IETF 54 proceedings charter (last modified)
+      subject: IETF 54 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/54/149.htm
     - date: '2008-08-21'
-      subject: IETF 74 proceedings charter (last modified)
+      subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/pana.html
   - kind: session requests
     meetings:
@@ -179,7 +178,7 @@ chairs:
       not_before: '2001-12-03'
       not_after: '2002-03-03'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2002-03-03)'
   evidence:
   - kind: WG Action
     date: '2001-11-30'
@@ -191,7 +190,7 @@ chairs:
     last: '2001-12-03'
     examples:
     - date: '2001-12-03'
-      subject: IETF 52 proceedings charter (last modified)
+      subject: IETF 52 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/52/150.htm
   - kind: minutes without them
     date: '2003-11-09'

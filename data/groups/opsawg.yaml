@@ -23,7 +23,7 @@ chairs:
       certainty: exact
       date: '2016-04-07'
     notes:
-    - start moved earlier by WG Action announcement of 2007-06-13
+    - 'Start: named as chair in the WG Action announcement (2007-06-13)'
   evidence:
   - kind: WG Action
     date: '2007-06-13'
@@ -71,10 +71,10 @@ chairs:
     last: '2015-11-01'
     examples:
     - date: '2007-06-19'
-      subject: IETF 69 proceedings charter (last modified)
+      subject: IETF 69 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/69/opsawg.html
     - date: '2007-11-26'
-      subject: IETF 71 proceedings charter (last modified)
+      subject: IETF 71 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/71/opsawg.html
     - date: '2015-11-01'
       subject: IETF 94 proceedings charter
@@ -106,8 +106,8 @@ chairs:
       certainty: exact
       date: '2014-06-24'
     notes:
-    - widened to cover charter snapshots in proceedings
-    - bounded by minutes listing other chairs
+    - 'Start: listed as chair in a proceedings charter snapshot (2011-11-13)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2008-03-09)'
   evidence:
   - kind: WG Review
     date: '2012-10-02'
@@ -213,10 +213,10 @@ chairs:
     last: '2013-03-10'
     examples:
     - date: '2009-11-17'
-      subject: IETF 76 proceedings charter (last modified)
+      subject: IETF 76 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/76/opsawg.html
     - date: '2009-11-17'
-      subject: IETF 78 proceedings charter (last modified)
+      subject: IETF 78 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/78/opsawg.html
     - date: '2013-03-10'
       subject: IETF 86 proceedings charter
@@ -276,7 +276,7 @@ chairs:
       not_before: '2009-07-30'
       not_after: '2009-11-17'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-11-17)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -292,17 +292,17 @@ chairs:
     last: '2009-07-30'
     examples:
     - date: '2007-06-19'
-      subject: IETF 69 proceedings charter (last modified)
+      subject: IETF 69 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/69/opsawg.html
     - date: '2007-11-26'
-      subject: IETF 71 proceedings charter (last modified)
+      subject: IETF 71 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/71/opsawg.html
     - date: '2009-07-30'
-      subject: IETF 75 proceedings charter (last modified)
+      subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/opsawg.html
   - kind: minutes without them
     date: '2009-11-17'
-    subject: IETF 76 proceedings charter (last modified)
+    subject: IETF 76 proceedings charter, as last modified
     url: https://www.ietf.org/proceedings/76/opsawg.html
   - kind: session requests
     meetings:

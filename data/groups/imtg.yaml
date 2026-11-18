@@ -25,8 +25,12 @@ chairs:
       certainty: between
       not_before: '2016-07-17'
     notes:
-    - end set after the last BOF session (IETF 96)
+    - 'End: after the BOF''s last session, IETF 96 (2016-07-17)'
   evidence:
+  - kind: BOF session
+    meeting: '96'
+    date: '2016-07-17'
+    url: https://www.ietf.org/proceedings/96/imtg.html
   - kind: proceedings
     listed_in: 1
     first: '2016-07-17'

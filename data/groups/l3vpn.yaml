@@ -40,7 +40,7 @@ chairs:
       not_before: '2008-03-31'
       not_after: '2009-03-22'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-03-22)'
   evidence:
   - kind: minutes
     listed_in: 3
@@ -62,13 +62,13 @@ chairs:
     last: '2007-08-15'
     examples:
     - date: '2003-07-09'
-      subject: IETF 57 proceedings charter (last modified)
+      subject: IETF 57 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/57/143.htm
     - date: '2003-09-25'
-      subject: IETF 58 proceedings charter (last modified)
+      subject: IETF 58 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/58/139.htm
     - date: '2007-08-15'
-      subject: IETF 71 proceedings charter (last modified)
+      subject: IETF 71 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/71/l3vpn.html
   - kind: minutes without them
     date: '2009-03-22'
@@ -90,7 +90,7 @@ chairs:
       not_before: '2006-03-19'
       not_after: '2006-03-30'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2006-03-30)'
   evidence:
   - kind: WG Action
     date: '2004-06-02'
@@ -124,13 +124,13 @@ chairs:
     last: '2005-09-20'
     examples:
     - date: '2003-07-09'
-      subject: IETF 57 proceedings charter (last modified)
+      subject: IETF 57 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/57/143.htm
     - date: '2003-09-25'
-      subject: IETF 58 proceedings charter (last modified)
+      subject: IETF 58 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/58/139.htm
     - date: '2005-09-20'
-      subject: IETF 65 proceedings charter (last modified)
+      subject: IETF 65 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/65/l3vpn.html
   - kind: minutes without them
     date: '2007-03-18'
@@ -153,10 +153,8 @@ chairs:
       not_before: '2011-12-09'
       not_after: '2014-03-05'
     notes:
-    - start moved earlier by WG Action announcement of 2011-03-21
-    - widened to cover last calls and adoption calls on the group list
-    - widened to cover charter snapshots in proceedings
-    - bounded by minutes listing other chairs
+    - 'Start: listed as chair in a proceedings charter snapshot (2009-03-22)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2008-03-31)'
   evidence:
   - kind: WG Action
     date: '2011-03-21'
@@ -212,7 +210,7 @@ chairs:
       not_before: '2008-07-27'
       not_after: '2009-03-22'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-03-22)'
   evidence:
   - kind: WG Action
     date: '2004-06-02'
@@ -258,13 +256,13 @@ chairs:
     last: '2007-08-15'
     examples:
     - date: '2003-07-09'
-      subject: IETF 57 proceedings charter (last modified)
+      subject: IETF 57 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/57/143.htm
     - date: '2003-09-25'
-      subject: IETF 58 proceedings charter (last modified)
+      subject: IETF 58 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/58/139.htm
     - date: '2007-08-15'
-      subject: IETF 71 proceedings charter (last modified)
+      subject: IETF 71 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/71/l3vpn.html
   - kind: minutes without them
     date: '2009-03-22'
@@ -291,7 +289,7 @@ chairs:
       certainty: group-closed
       date: '2014-10-22'
     notes:
-    - widened to cover last calls and adoption calls on the group list
+    - 'Start: started a last call or adoption call on the group''s list (2012-10-04)'
   evidence:
   - kind: chair activity
     first: '2012-08-29'
@@ -335,8 +333,8 @@ chairs:
       not_before: '2011-12-09'
       not_after: '2014-03-05'
     notes:
-    - start moved earlier by session request for IETF 73
-    - bounded by minutes listing other chairs
+    - 'Start: requested the group''s session for IETF 73 (2008-11-16)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2008-03-31)'
   evidence:
   - kind: proceedings
     listed_in: 9
@@ -375,8 +373,7 @@ chairs:
       not_before: '2011-12-09'
       not_after: '2014-03-05'
     notes:
-    - start moved earlier by session request for IETF 77
-    - start dated by list message of 2009-10-07
+    - 'Start: announced on the group''s list (2009-10-07)'
   evidence:
   - kind: WG Action
     date: '2011-03-21'
@@ -418,7 +415,7 @@ chairs:
       subject: IETF 75 proceedings charter
       url: https://www.ietf.org/proceedings/75/l3vpn.html
     - date: '2009-10-07'
-      subject: IETF 76 proceedings charter (last modified)
+      subject: IETF 76 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/76/l3vpn.html
     - date: '2011-11-13'
       subject: IETF 82 proceedings charter
@@ -449,7 +446,7 @@ chairs:
       certainty: group-closed
       date: '2014-10-22'
     notes:
-    - widened to cover last calls and adoption calls on the group list
+    - 'Start: started a last call or adoption call on the group''s list (2014-01-08)'
   evidence:
   - kind: chair activity
     first: '2014-01-08'

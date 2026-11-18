@@ -25,5 +25,10 @@ chairs:
       certainty: between
       not_before: '1996-03-04'
     notes:
-    - widened to cover the BOF session in the proceedings
-    - end set after the last BOF session (IETF 35)
+    - 'Start: the BOF met at IETF 35 (1996-03-04)'
+    - 'End: after the BOF''s last session, IETF 35 (1996-03-04)'
+  evidence:
+  - kind: BOF session
+    meeting: '35'
+    date: '1996-03-04'
+    url: https://www.ietf.org/proceedings/35/area.and.wg.reports/sec/msp/msp.html

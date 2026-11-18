@@ -25,8 +25,13 @@ chairs:
       certainty: between
       not_before: '1995-12-04'
     notes:
-    - widened to cover the BOF session in the proceedings
-    - end set after the last BOF session (IETF 34)
+    - 'Start: the BOF met at IETF 34 (1995-12-04)'
+    - 'End: after the BOF''s last session, IETF 34 (1995-12-04)'
+  evidence:
+  - kind: BOF session
+    meeting: '34'
+    date: '1995-12-04'
+    url: https://www.ietf.org/proceedings/34/app/vac.html
 - person: 15797
   name: Roxana Bradescu
   status: confirmed
@@ -38,5 +43,10 @@ chairs:
       certainty: between
       not_before: '1995-12-04'
     notes:
-    - widened to cover the BOF session in the proceedings
-    - end set after the last BOF session (IETF 34)
+    - 'Start: the BOF met at IETF 34 (1995-12-04)'
+    - 'End: after the BOF''s last session, IETF 34 (1995-12-04)'
+  evidence:
+  - kind: BOF session
+    meeting: '34'
+    date: '1995-12-04'
+    url: https://www.ietf.org/proceedings/34/app/vac.html

@@ -29,7 +29,7 @@ chairs:
       not_before: '2003-03-03'
       not_after: '2003-06-06'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2003-06-06)'
   evidence:
   - kind: chair activity
     first: '1998-09-24'
@@ -57,17 +57,17 @@ chairs:
     last: '2003-01-23'
     examples:
     - date: '1997-11-10'
-      subject: IETF 40 proceedings charter (last modified)
+      subject: IETF 40 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-108.htm
     - date: '1998-01-22'
-      subject: IETF 41 proceedings charter (last modified)
+      subject: IETF 41 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/41/98mar-edited-111.htm
     - date: '2003-01-23'
-      subject: IETF 56 proceedings charter (last modified)
+      subject: IETF 56 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/56/208.htm
   - kind: minutes without them
     date: '2003-06-06'
-    subject: IETF 57 proceedings charter (last modified)
+    subject: IETF 57 proceedings charter, as last modified
     url: https://www.ietf.org/proceedings/57/213.htm
 - person: 10083
   name: Paul Hoffman
@@ -80,7 +80,7 @@ chairs:
       certainty: group-closed
       date: '2010-10-12'
     notes:
-    - start dated by list message of 2010-03-21
+    - 'Start: announced on the group''s list (2010-03-21)'
   evidence:
   - kind: list message
     date: '2010-03-21'
@@ -106,7 +106,7 @@ chairs:
     last: '2010-03-23'
     examples:
     - date: '2010-03-23'
-      subject: IETF 77 proceedings charter (last modified)
+      subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/smime.html
 - person: 19483
   name: Sean Turner
@@ -119,7 +119,7 @@ chairs:
       certainty: approximate
       date: '2010-03-21'
     notes:
-    - end dated by list message of 2010-03-21
+    - 'End: announced on the group''s list (2010-03-21)'
   evidence:
   - kind: WG Action
     date: '2004-09-29'
@@ -156,10 +156,10 @@ chairs:
     last: '2009-11-08'
     examples:
     - date: '2003-06-06'
-      subject: IETF 57 proceedings charter (last modified)
+      subject: IETF 57 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/57/213.htm
     - date: '2003-10-13'
-      subject: IETF 58 proceedings charter (last modified)
+      subject: IETF 58 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/58/206.htm
     - date: '2009-11-08'
       subject: IETF 76 proceedings charter
@@ -180,8 +180,7 @@ chairs:
       certainty: group-closed
       date: '2010-10-12'
     notes:
-    - start moved earlier by WG Action announcement of 2004-09-29
-    - start dated by list message of 2003-03-25
+    - 'Start: announced on the group''s list (2003-03-25)'
   evidence:
   - kind: WG Action
     date: '2004-09-29'
@@ -217,13 +216,13 @@ chairs:
     last: '2010-03-23'
     examples:
     - date: '2003-06-06'
-      subject: IETF 57 proceedings charter (last modified)
+      subject: IETF 57 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/57/213.htm
     - date: '2003-10-13'
-      subject: IETF 58 proceedings charter (last modified)
+      subject: IETF 58 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/58/206.htm
     - date: '2010-03-23'
-      subject: IETF 77 proceedings charter (last modified)
+      subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/smime.html
   - kind: session requests
     meetings:

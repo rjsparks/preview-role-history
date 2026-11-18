@@ -25,8 +25,13 @@ chairs:
       certainty: between
       not_before: '2000-12-10'
     notes:
-    - widened to cover the BOF session in the proceedings
-    - end set after the last BOF session (IETF 49)
+    - 'Start: the BOF met at IETF 49 (2000-12-10)'
+    - 'End: after the BOF''s last session, IETF 49 (2000-12-10)'
+  evidence:
+  - kind: BOF session
+    meeting: '49'
+    date: '2000-12-10'
+    url: https://www.ietf.org/proceedings/49/00dec-158.htm
 - person: 104807
   name: Christopher Liljenstolpe
   status: confirmed
@@ -38,5 +43,10 @@ chairs:
       certainty: between
       not_before: '2000-12-10'
     notes:
-    - widened to cover the BOF session in the proceedings
-    - end set after the last BOF session (IETF 49)
+    - 'Start: the BOF met at IETF 49 (2000-12-10)'
+    - 'End: after the BOF''s last session, IETF 49 (2000-12-10)'
+  evidence:
+  - kind: BOF session
+    meeting: '49'
+    date: '2000-12-10'
+    url: https://www.ietf.org/proceedings/49/00dec-158.htm

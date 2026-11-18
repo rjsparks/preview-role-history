@@ -26,8 +26,7 @@ chairs:
       not_before: '2002-07-02'
       not_after: '2002-11-17'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
-    - bounded by minutes listing other chairs
+    - 'End: no longer listed among the chairs in meeting minutes (2002-11-17)'
   evidence:
   - kind: WG Action
     date: '2002-07-02'
@@ -39,7 +38,7 @@ chairs:
     last: '2002-07-02'
     examples:
     - date: '2002-07-02'
-      subject: IETF 54 proceedings charter (last modified)
+      subject: IETF 54 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/54/187.htm
   - kind: minutes without them
     date: '2002-11-17'
@@ -57,9 +56,7 @@ chairs:
       certainty: group-closed
       date: '2009-03-27'
     notes:
-    - start moved earlier by WG Action announcement of 2004-03-24
-    - widened to cover charter snapshots in proceedings
-    - widened to cover chair lists in meeting minutes
+    - 'Start: listed as chair in meeting minutes (2002-11-17)'
   evidence:
   - kind: WG Action
     date: '2004-03-24'
@@ -96,13 +93,13 @@ chairs:
     last: '2007-04-02'
     examples:
     - date: '2003-01-22'
-      subject: IETF 56 proceedings charter (last modified)
+      subject: IETF 56 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/56/192.htm
     - date: '2003-05-28'
-      subject: IETF 57 proceedings charter (last modified)
+      subject: IETF 57 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/57/194.htm
     - date: '2007-04-02'
-      subject: IETF 69 proceedings charter (last modified)
+      subject: IETF 69 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/69/rpsec.html
   - kind: session requests
     meetings:
@@ -122,7 +119,7 @@ chairs:
       certainty: group-closed
       date: '2009-03-27'
     notes:
-    - start moved earlier by WG Action announcement of 2002-07-02
+    - 'Start: named as chair in the WG Action announcement (2002-07-02)'
   evidence:
   - kind: WG Action
     date: '2002-07-02'
@@ -163,13 +160,13 @@ chairs:
     last: '2007-04-02'
     examples:
     - date: '2002-07-02'
-      subject: IETF 54 proceedings charter (last modified)
+      subject: IETF 54 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/54/187.htm
     - date: '2003-01-22'
-      subject: IETF 56 proceedings charter (last modified)
+      subject: IETF 56 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/56/192.htm
     - date: '2007-04-02'
-      subject: IETF 69 proceedings charter (last modified)
+      subject: IETF 69 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/69/rpsec.html
   - kind: session requests
     meetings:

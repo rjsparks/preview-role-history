@@ -25,7 +25,7 @@ chairs:
       certainty: approximate
       date: '2003-04-30'
     notes:
-    - end dated by list message of 2003-04-30
+    - 'End: announced on the group''s list (2003-04-30)'
   evidence:
   - kind: list message
     date: '2003-04-30'
@@ -53,13 +53,13 @@ chairs:
     last: '2001-07-31'
     examples:
     - date: '1997-12-17'
-      subject: IETF 40 proceedings charter (last modified)
+      subject: IETF 40 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-101.htm
     - date: '1998-03-18'
-      subject: IETF 41 proceedings charter (last modified)
+      subject: IETF 41 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/41/98mar-edited-104.htm
     - date: '2001-07-31'
-      subject: IETF 51 proceedings charter (last modified)
+      subject: IETF 51 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/51/51-101.htm
   - kind: minutes without them
     date: '2015-11-01'
@@ -76,9 +76,7 @@ chairs:
       certainty: approximate
       date: '2015-06-07'
     notes:
-    - start moved earlier by session request for IETF 66
-    - widened to cover last calls and adoption calls on the group list
-    - start dated by list message of 2003-04-30
+    - 'Start: announced on the group''s list (2003-04-30)'
   evidence:
   - kind: list message
     date: '2003-04-30'
@@ -109,13 +107,13 @@ chairs:
     last: '2005-07-10'
     examples:
     - date: '2003-05-01'
-      subject: IETF 57 proceedings charter (last modified)
+      subject: IETF 57 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/57/208.htm
     - date: '2004-02-11'
-      subject: IETF 59 proceedings charter (last modified)
+      subject: IETF 59 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/59/209.htm
     - date: '2005-07-10'
-      subject: IETF 63 proceedings charter (last modified)
+      subject: IETF 63 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/63/openpgp.html
   - kind: minutes without them
     date: '2015-11-01'

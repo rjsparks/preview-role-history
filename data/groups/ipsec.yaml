@@ -23,8 +23,7 @@ chairs:
       certainty: group-closed
       date: '2005-04-29'
     notes:
-    - widened to cover last calls and adoption calls on the group list
-    - widened to cover charter snapshots in proceedings
+    - 'Start: listed as chair in a proceedings charter snapshot (2001-03-14)'
   evidence:
   - kind: chair activity
     first: '2002-07-12'
@@ -49,13 +48,13 @@ chairs:
     last: '2004-06-07'
     examples:
     - date: '2001-03-14'
-      subject: IETF 50 proceedings charter (last modified)
+      subject: IETF 50 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/50/ietf50-110.htm
     - date: '2001-07-31'
-      subject: IETF 51 proceedings charter (last modified)
+      subject: IETF 51 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/51/51-105.htm
     - date: '2004-06-07'
-      subject: IETF 60 proceedings charter (last modified)
+      subject: IETF 60 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/60/209.htm
 - person: 4837
   name: Theodore Ts'o
@@ -69,8 +68,7 @@ chairs:
       certainty: group-closed
       date: '2005-04-29'
     notes:
-    - widened to cover last calls and adoption calls on the group list
-    - widened to cover charter snapshots in proceedings
+    - 'Start: listed as chair in a proceedings charter snapshot (1997-08-11)'
   evidence:
   - kind: chair activity
     first: '1997-08-06'
@@ -101,10 +99,10 @@ chairs:
       subject: IETF 39 proceedings charter
       url: https://www.ietf.org/proceedings/39/transit97aug-103.htm
     - date: '1997-11-01'
-      subject: IETF 40 proceedings charter (last modified)
+      subject: IETF 40 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-105.htm
     - date: '2004-06-07'
-      subject: IETF 60 proceedings charter (last modified)
+      subject: IETF 60 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/60/209.htm
 - person: 10009
   name: James Zmuda
@@ -118,7 +116,7 @@ chairs:
       not_before: '1994-12-05'
       not_after: '1997-08-11'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (1997-08-11)'
   evidence:
   - kind: proceedings
     listed_in: 2
@@ -147,7 +145,7 @@ chairs:
       not_before: '1999-10-26'
       not_after: '2001-03-14'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2001-03-14)'
   evidence:
   - kind: proceedings
     listed_in: 8
@@ -158,14 +156,14 @@ chairs:
       subject: IETF 39 proceedings charter
       url: https://www.ietf.org/proceedings/39/transit97aug-103.htm
     - date: '1997-11-01'
-      subject: IETF 40 proceedings charter (last modified)
+      subject: IETF 40 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-105.htm
     - date: '1999-10-26'
-      subject: IETF 46 proceedings charter (last modified)
+      subject: IETF 46 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-116.html
   - kind: minutes without them
     date: '2001-03-14'
-    subject: IETF 50 proceedings charter (last modified)
+    subject: IETF 50 proceedings charter, as last modified
     url: https://www.ietf.org/proceedings/50/ietf50-110.htm
 - person: 111048
   name: Ran Atkinson
@@ -179,8 +177,8 @@ chairs:
       not_before: '1997-04-07'
       not_after: '1997-08-11'
     notes:
-    - start dated by list message of 1995-03-30
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'Start: announced on the group''s list (1995-03-30)'
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (1997-08-11)'
   evidence:
   - kind: list message
     date: '1995-03-30'

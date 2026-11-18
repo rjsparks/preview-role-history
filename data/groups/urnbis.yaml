@@ -84,8 +84,7 @@ chairs:
       certainty: group-closed
       date: '2017-10-25'
     notes:
-    - start moved earlier by WG Action announcement of 2010-11-23
-    - widened to cover charter snapshots in proceedings
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
   evidence:
   - kind: WG Action
     date: '2010-11-23'
@@ -121,7 +120,7 @@ chairs:
       not_before: '2010-06-10'
       not_after: '2010-11-07'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-11-07)'
   evidence:
   - kind: proceedings
     listed_in: 2
@@ -132,7 +131,7 @@ chairs:
       subject: IETF 77 proceedings charter
       url: https://www.ietf.org/proceedings/77/urnbis.html
     - date: '2010-06-10'
-      subject: IETF 78 proceedings charter (last modified)
+      subject: IETF 78 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/78/urnbis.html
   - kind: minutes without them
     date: '2010-11-07'
@@ -150,7 +149,7 @@ chairs:
       certainty: exact
       date: '2014-12-09'
     notes:
-    - start moved earlier by WG Action announcement of 2010-11-23
+    - 'Start: named as chair in the WG Action announcement (2010-11-23)'
   evidence:
   - kind: WG Action
     date: '2010-11-23'
@@ -165,7 +164,7 @@ chairs:
       subject: IETF 77 proceedings charter
       url: https://www.ietf.org/proceedings/77/urnbis.html
     - date: '2010-06-10'
-      subject: IETF 78 proceedings charter (last modified)
+      subject: IETF 78 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/78/urnbis.html
     - date: '2014-03-02'
       subject: IETF 89 proceedings charter

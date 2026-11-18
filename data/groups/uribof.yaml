@@ -25,7 +25,7 @@ chairs:
       certainty: between
       not_before: '2003-03-16'
     notes:
-    - end set after the last BOF session (IETF 56)
+    - 'End: after the BOF''s last session, IETF 56 (2003-03-16)'
   evidence:
   - kind: chair activity
     first: '1992-12-09'
@@ -52,6 +52,10 @@ chairs:
     - date: '1994-08-02'
       subject: Toronto Minutes
       url: https://mailarchive.ietf.org/arch/msg/uri/NjhQ-6Ty3rGrz7_JMA3xVtsNpKA/
+  - kind: BOF session
+    meeting: '56'
+    date: '2003-03-16'
+    url: https://www.ietf.org/proceedings/56/131.htm
 - person: 7778
   name: Peter Deutsch
   status: unconfirmed
@@ -63,8 +67,8 @@ chairs:
       certainty: between
       not_before: '2003-03-16'
     notes:
-    - start dated by list message of 1992-12-09
-    - end set after the last BOF session (IETF 56)
+    - 'Start: announced on the group''s list (1992-12-09)'
+    - 'End: after the BOF''s last session, IETF 56 (2003-03-16)'
   evidence:
   - kind: list message
     date: '1992-12-09'
@@ -81,6 +85,10 @@ chairs:
     - date: '1993-07-09'
       subject: Agenda for URI sessions
       url: https://mailarchive.ietf.org/arch/msg/uri/62oBdw8dlT-GZcFlcfGWD2A00Fk/
+  - kind: BOF session
+    meeting: '56'
+    date: '2003-03-16'
+    url: https://www.ietf.org/proceedings/56/131.htm
 - person: 8393
   name: Jim Fullton
   status: unconfirmed
@@ -92,8 +100,8 @@ chairs:
       certainty: between
       not_before: '2003-03-16'
     notes:
-    - start dated by list message of 1992-12-09
-    - end set after the last BOF session (IETF 56)
+    - 'Start: announced on the group''s list (1992-12-09)'
+    - 'End: after the BOF''s last session, IETF 56 (2003-03-16)'
   evidence:
   - kind: list message
     date: '1992-12-09'
@@ -115,6 +123,10 @@ chairs:
     - date: '1994-08-02'
       subject: Toronto Minutes
       url: https://mailarchive.ietf.org/arch/msg/uri/NjhQ-6Ty3rGrz7_JMA3xVtsNpKA/
+  - kind: BOF session
+    meeting: '56'
+    date: '2003-03-16'
+    url: https://www.ietf.org/proceedings/56/131.htm
 - person: 110451
   name: Larry Masinter
   status: confirmed
@@ -126,8 +138,8 @@ chairs:
       certainty: between
       not_before: '2003-03-16'
     notes:
-    - start dated by list message of 1994-08-02
-    - end set after the last BOF session (IETF 56)
+    - 'Start: announced on the group''s list (1994-08-02)'
+    - 'End: after the BOF''s last session, IETF 56 (2003-03-16)'
   evidence:
   - kind: list message
     date: '1994-08-02'
@@ -146,6 +158,10 @@ chairs:
     - date: '1994-12-24'
       subject: Minutes, URI working group
       url: https://mailarchive.ietf.org/arch/msg/uri/G-C_bgFJAxrdLgvsZ5ofB3zoWFI/
+  - kind: BOF session
+    meeting: '56'
+    date: '2003-03-16'
+    url: https://www.ietf.org/proceedings/56/131.htm
   - kind: minutes without them
     date: '1994-05-17'
     subject: Revised minutes

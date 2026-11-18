@@ -170,6 +170,7 @@ class RenderTests(DataDirMixin, unittest.TestCase):
             "periods": [{"start": {"certainty": "approximate", "date": "1995"}, "end": {"certainty": "approximate", "date": "1998"}}],
             "sources": ["IETF 35 proceedings"],
         })
+        g["chairs"][0]["periods"][0]["notes"] = ["Start: the BOF met at IETF 49 (2000-12-10)"]
         g["chairs"][0]["evidence"] = [{
             "kind": "WG Action", "date": "2001-03-12", "subject": "WG ACTION: A Big Charter (abc)",
             "url": "https://mailarchive.ietf.org/arch/msg/ietf-announce-old/example/",
@@ -184,6 +185,9 @@ class RenderTests(DataDirMixin, unittest.TestCase):
             "kind": "proceedings", "listed_in": 3, "first": "1997-04-07", "last": "1998-11-25",
             "examples": [{"date": "1997-04-07", "subject": "IETF 38 proceedings charter",
                           "url": "https://www.ietf.org/proceedings/38/abc.htm"}],
+        }, {
+            "kind": "BOF session", "meeting": "49", "date": "2000-12-10",
+            "url": "https://www.ietf.org/proceedings/49/abc.htm",
         }, {
             "kind": "minutes without them", "date": "1999-03-01", "subject": "IETF 44 proceedings charter",
             "url": "https://www.ietf.org/proceedings/44/abc.htm",
@@ -215,6 +219,9 @@ class RenderTests(DataDirMixin, unittest.TestCase):
         self.assertIn('href="#dates"', person)
         self.assertNotIn("on-or-before</dt>", person)
         self.assertIn("BOF only", (out / "index.html").read_text() + person)  # explained in the legend
+        self.assertIn("How the dates were set:", person)
+        self.assertIn("<b>Start:</b> the BOF met at IETF 49 (2000-12-10)", person)
+        self.assertIn('The BOF met at <a href="https://www.ietf.org/proceedings/49/abc.htm">IETF 49</a>', person)
         self.assertIn("about 1995", (out / "people" / "n-old-timer.html").read_text())
 
 

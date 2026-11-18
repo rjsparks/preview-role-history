@@ -28,7 +28,16 @@ chairs:
       certainty: between
       not_before: '1997-04-07'
     notes:
-    - end set after the last BOF session (IETF 38)
+    - 'End: after the BOF''s last session, IETF 38 (1997-04-07)'
+  evidence:
+  - kind: BOF session
+    meeting: '34'
+    date: '1995-12-04'
+    url: https://www.ietf.org/proceedings/34/area.and.wg.reports/usv/isn2/isn2-minutes-95dec.txt
+  - kind: BOF session
+    meeting: '38'
+    date: '1997-04-07'
+    url: https://www.ietf.org/proceedings/38/97apr-final/xrtft128.htm
 - person: 8211
   name: Jennifer Sellers
   status: confirmed
@@ -40,4 +49,13 @@ chairs:
       certainty: between
       not_before: '1997-04-07'
     notes:
-    - end set after the last BOF session (IETF 38)
+    - 'End: after the BOF''s last session, IETF 38 (1997-04-07)'
+  evidence:
+  - kind: BOF session
+    meeting: '34'
+    date: '1995-12-04'
+    url: https://www.ietf.org/proceedings/34/area.and.wg.reports/usv/isn2/isn2-minutes-95dec.txt
+  - kind: BOF session
+    meeting: '38'
+    date: '1997-04-07'
+    url: https://www.ietf.org/proceedings/38/97apr-final/xrtft128.htm

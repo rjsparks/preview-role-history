@@ -23,7 +23,7 @@ chairs:
       certainty: group-closed
       date: '2019-09-20'
     notes:
-    - widened to cover charter snapshots in proceedings
+    - 'Start: listed as chair in a proceedings charter snapshot (2012-07-29)'
   evidence:
   - kind: chair activity
     first: '2018-02-18'
@@ -70,7 +70,7 @@ chairs:
       not_before: '2011-03-27'
       not_after: '2011-07-24'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-07-24)'
   evidence:
   - kind: WG Action
     date: '2011-01-25'
@@ -114,7 +114,7 @@ chairs:
       not_before: '2011-08-17'
       not_after: '2011-11-13'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-11-13)'
   evidence:
   - kind: list message
     date: '2011-08-17'
@@ -146,7 +146,7 @@ chairs:
       certainty: group-closed
       date: '2019-09-20'
     notes:
-    - widened to cover charter snapshots in proceedings
+    - 'Start: listed as chair in a proceedings charter snapshot (2011-11-13)'
   evidence:
   - kind: chair activity
     first: '2011-12-07'
@@ -202,7 +202,7 @@ chairs:
       not_before: '2011-03-27'
       not_after: '2011-07-24'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-07-24)'
   evidence:
   - kind: proceedings
     listed_in: 2
@@ -231,10 +231,9 @@ chairs:
       not_before: '2012-01-20'
       not_after: '2012-07-29'
     notes:
-    - start moved earlier by session request for IETF 82
-    - widened to cover last calls and adoption calls on the group list
-    - start dated by list message of 2011-08-17
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'End: started a last call or adoption call on the group''s list (2012-01-20)'
+    - 'Start: announced on the group''s list (2011-08-17)'
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2012-07-29)'
   evidence:
   - kind: list message
     date: '2011-08-17'

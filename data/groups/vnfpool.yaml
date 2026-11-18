@@ -28,8 +28,16 @@ chairs:
       certainty: between
       not_before: '2014-07-20'
     notes:
-    - end set after the last BOF session (IETF 90)
+    - 'End: after the BOF''s last session, IETF 90 (2014-07-20)'
   evidence:
+  - kind: BOF session
+    meeting: '89'
+    date: '2014-03-02'
+    url: https://www.ietf.org/proceedings/89/vnfpool.html
+  - kind: BOF session
+    meeting: '90'
+    date: '2014-07-20'
+    url: https://www.ietf.org/proceedings/90/vnfpool.html
   - kind: proceedings
     listed_in: 1
     first: '2014-07-20'
@@ -49,7 +57,7 @@ chairs:
       certainty: between
       not_before: '2014-07-20'
     notes:
-    - end set after the last BOF session (IETF 90)
+    - 'End: after the BOF''s last session, IETF 90 (2014-07-20)'
   evidence:
   - kind: chair activity
     first: '2014-06-30'
@@ -62,6 +70,14 @@ chairs:
     - date: '2014-08-14'
       subject: '[vnfpool] BoF minutes'
       url: https://mailarchive.ietf.org/arch/msg/vnfpool/j_IBeSUIMU7HBlCtnJM6Wl8a2Gk/
+  - kind: BOF session
+    meeting: '89'
+    date: '2014-03-02'
+    url: https://www.ietf.org/proceedings/89/vnfpool.html
+  - kind: BOF session
+    meeting: '90'
+    date: '2014-07-20'
+    url: https://www.ietf.org/proceedings/90/vnfpool.html
   - kind: proceedings
     listed_in: 2
     first: '2014-03-02'

@@ -22,9 +22,7 @@ chairs:
     end:
       certainty: ongoing
     notes:
-    - start moved earlier by WG Action announcement of 2010-03-26
-    - widened to cover last calls and adoption calls on the group list
-    - widened to cover charter snapshots in proceedings
+    - 'Start: listed as chair in a proceedings charter snapshot (1994-12-05)'
   evidence:
   - kind: WG Review
     date: '2010-02-08'
@@ -214,8 +212,7 @@ chairs:
       certainty: exact
       date: '2021-03-23'
     notes:
-    - start moved earlier by session request for IETF 76
-    - start dated by list message of 2009-06-30
+    - 'Start: announced on the group''s list (2009-06-30)'
   evidence:
   - kind: WG Review
     date: '2010-02-08'
@@ -265,7 +262,7 @@ chairs:
     last: '2016-11-13'
     examples:
     - date: '2009-06-01'
-      subject: IETF 75 proceedings charter (last modified)
+      subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/idr.html
     - date: '2010-11-07'
       subject: IETF 79 proceedings charter
@@ -304,7 +301,7 @@ chairs:
       not_before: '2009-07-26'
       not_after: '2010-11-07'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-11-07)'
   evidence:
   - kind: list message
     date: '2009-06-30'
@@ -358,7 +355,7 @@ chairs:
       subject: IETF 32 proceedings charter
       url: https://www.ietf.org/proceedings/32/area.and.wg.reports/rtg/idr/idr-charter.txt
     - date: '2009-04-02'
-      subject: IETF 74 proceedings charter (last modified)
+      subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/idr.html
   - kind: minutes without them
     date: '2010-11-07'
@@ -487,7 +484,7 @@ chairs:
       certainty: evidence-only
       not_before: '2020-01-29'
     notes:
-    - start dated by list message of 2020-01-29
+    - 'Start: announced on the group''s list (2020-01-29)'
   evidence:
   - kind: list message
     date: '2020-01-29'

@@ -28,5 +28,14 @@ chairs:
       certainty: between
       not_before: '1995-04-03'
     notes:
-    - widened to cover the BOF session in the proceedings
-    - end set after the last BOF session (IETF 32)
+    - 'Start: the BOF met at IETF 31 (1994-12-05)'
+    - 'End: after the BOF''s last session, IETF 32 (1995-04-03)'
+  evidence:
+  - kind: BOF session
+    meeting: '31'
+    date: '1994-12-05'
+    url: https://www.ietf.org/proceedings/31/area.and.wg.reports/ipng/area.ipng.94dec.txt
+  - kind: BOF session
+    meeting: '32'
+    date: '1995-04-03'
+    url: https://www.ietf.org/proceedings/32/area.and.wg.reports/ipng/nosi/nosi-minutes-95apr.txt

@@ -66,7 +66,7 @@ chairs:
     last: '2017-03-26'
     examples:
     - date: '2010-03-25'
-      subject: IETF 77 proceedings charter (last modified)
+      subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/core.html
     - date: '2010-11-07'
       subject: IETF 79 proceedings charter
@@ -99,8 +99,7 @@ chairs:
       certainty: exact
       date: '2012-09-10'
     notes:
-    - start moved earlier by session request for IETF 78
-    - widened to cover charter snapshots in proceedings
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-03-25)'
   evidence:
   - kind: list message
     date: '2012-09-06'
@@ -135,7 +134,7 @@ chairs:
     last: '2012-03-25'
     examples:
     - date: '2010-03-25'
-      subject: IETF 77 proceedings charter (last modified)
+      subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/core.html
     - date: '2010-11-07'
       subject: IETF 79 proceedings charter
@@ -163,7 +162,7 @@ chairs:
       not_before: '2012-05-11'
       not_after: '2012-07-29'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2012-07-29)'
   evidence:
   - kind: chair activity
     first: '2011-02-22'

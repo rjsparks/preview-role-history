@@ -25,5 +25,10 @@ chairs:
       certainty: between
       not_before: '1994-07-25'
     notes:
-    - widened to cover the BOF session in the proceedings
-    - end set after the last BOF session (IETF 30)
+    - 'Start: the BOF met at IETF 30 (1994-07-25)'
+    - 'End: after the BOF''s last session, IETF 30 (1994-07-25)'
+  evidence:
+  - kind: BOF session
+    meeting: '30'
+    date: '1994-07-25'
+    url: https://www.ietf.org/proceedings/30/0mtg-agenda.txt

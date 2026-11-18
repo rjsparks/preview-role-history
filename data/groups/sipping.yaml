@@ -26,11 +26,8 @@ chairs:
       certainty: group-closed
       date: '2009-05-01'
     notes:
-    - start moved earlier by session request for IETF 67
-    - widened to cover last calls and adoption calls on the group list
-    - widened to cover charter snapshots in proceedings
-    - widened to cover chair lists in meeting minutes
-    - bounded by minutes listing other chairs
+    - 'Start: listed as chair in meeting minutes (2006-03-19)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2002-11-17)'
   evidence:
   - kind: chair activity
     first: '2006-06-29'
@@ -66,13 +63,13 @@ chairs:
     last: '2009-05-01'
     examples:
     - date: '2006-03-24'
-      subject: IETF 66 proceedings charter (last modified)
+      subject: IETF 66 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/66/sipping.html
     - date: '2007-01-23'
-      subject: IETF 68 proceedings charter (last modified)
+      subject: IETF 68 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/68/sipping.html
     - date: '2009-05-01'
-      subject: IETF 75 proceedings charter (last modified)
+      subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/sipping.html
   - kind: minutes without them
     date: '2002-11-17'
@@ -99,9 +96,7 @@ chairs:
       certainty: group-closed
       date: '2009-05-01'
     notes:
-    - start moved earlier by WG Action announcement of 2004-07-14
-    - widened to cover last calls and adoption calls on the group list
-    - start dated by list message of 2002-10-24
+    - 'Start: announced on the group''s list (2002-10-24)'
   evidence:
   - kind: WG Action
     date: '2004-07-14'
@@ -161,13 +156,13 @@ chairs:
     last: '2009-05-01'
     examples:
     - date: '2003-01-27'
-      subject: IETF 56 proceedings charter (last modified)
+      subject: IETF 56 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/56/242.htm
     - date: '2003-07-01'
-      subject: IETF 57 proceedings charter (last modified)
+      subject: IETF 57 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/57/246.htm
     - date: '2009-05-01'
-      subject: IETF 75 proceedings charter (last modified)
+      subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/sipping.html
   - kind: session requests
     meetings:
@@ -186,7 +181,7 @@ chairs:
       not_before: '2006-03-19'
       not_after: '2006-03-24'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2006-03-24)'
   evidence:
   - kind: WG Action
     date: '2001-11-02'
@@ -234,17 +229,17 @@ chairs:
     last: '2006-02-15'
     examples:
     - date: '2001-11-06'
-      subject: IETF 52 proceedings charter (last modified)
+      subject: IETF 52 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/52/239.htm
     - date: '2002-03-05'
-      subject: IETF 53 proceedings charter (last modified)
+      subject: IETF 53 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/53/238.htm
     - date: '2006-02-15'
-      subject: IETF 65 proceedings charter (last modified)
+      subject: IETF 65 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/65/sipping.html
   - kind: minutes without them
     date: '2006-03-24'
-    subject: IETF 66 proceedings charter (last modified)
+    subject: IETF 66 proceedings charter, as last modified
     url: https://www.ietf.org/proceedings/66/sipping.html
   - kind: session requests
     meetings:
@@ -261,7 +256,7 @@ chairs:
       certainty: approximate
       date: '2002-10-24'
     notes:
-    - end dated by list message of 2002-10-24
+    - 'End: announced on the group''s list (2002-10-24)'
   evidence:
   - kind: WG Action
     date: '2001-11-02'
@@ -280,13 +275,13 @@ chairs:
     last: '2002-05-29'
     examples:
     - date: '2001-11-06'
-      subject: IETF 52 proceedings charter (last modified)
+      subject: IETF 52 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/52/239.htm
     - date: '2002-03-05'
-      subject: IETF 53 proceedings charter (last modified)
+      subject: IETF 53 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/53/238.htm
     - date: '2002-05-29'
-      subject: IETF 54 proceedings charter (last modified)
+      subject: IETF 54 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/54/237.htm
   - kind: minutes without them
     date: '2002-11-17'
@@ -304,8 +299,7 @@ chairs:
       not_before: '2006-02-15'
       not_after: '2006-03-19'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
-    - bounded by minutes listing other chairs
+    - 'End: no longer listed among the chairs in meeting minutes (2006-03-19)'
   evidence:
   - kind: WG Action
     date: '2001-11-02'
@@ -353,13 +347,13 @@ chairs:
     last: '2006-02-15'
     examples:
     - date: '2001-11-06'
-      subject: IETF 52 proceedings charter (last modified)
+      subject: IETF 52 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/52/239.htm
     - date: '2002-03-05'
-      subject: IETF 53 proceedings charter (last modified)
+      subject: IETF 53 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/53/238.htm
     - date: '2006-02-15'
-      subject: IETF 65 proceedings charter (last modified)
+      subject: IETF 65 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/65/sipping.html
   - kind: minutes without them
     date: '2006-03-19'

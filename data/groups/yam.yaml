@@ -23,8 +23,7 @@ chairs:
       certainty: group-closed
       date: '2011-11-28'
     notes:
-    - start moved earlier by session request for IETF 76
-    - widened to cover last calls and adoption calls on the group list
+    - 'Start: started a last call or adoption call on the group''s list (2009-08-21)'
   evidence:
   - kind: chair activity
     first: '2009-08-21'
@@ -66,7 +65,7 @@ chairs:
       subject: IETF 74 proceedings charter
       url: https://www.ietf.org/proceedings/74/yam.html
     - date: '2009-08-04'
-      subject: IETF 75 proceedings charter (last modified)
+      subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/yam.html
     - date: '2011-07-24'
       subject: IETF 81 proceedings charter
@@ -90,7 +89,7 @@ chairs:
       not_before: '2009-08-04'
       not_after: '2010-11-07'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2010-11-07)'
   evidence:
   - kind: proceedings
     listed_in: 3
@@ -101,10 +100,10 @@ chairs:
       subject: IETF 74 proceedings charter
       url: https://www.ietf.org/proceedings/74/yam.html
     - date: '2009-08-04'
-      subject: IETF 75 proceedings charter (last modified)
+      subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/yam.html
     - date: '2009-08-04'
-      subject: IETF 77 proceedings charter (last modified)
+      subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/yam.html
   - kind: minutes without them
     date: '2010-11-07'
@@ -122,8 +121,7 @@ chairs:
       certainty: group-closed
       date: '2011-11-28'
     notes:
-    - widened to cover last calls and adoption calls on the group list
-    - widened to cover charter snapshots in proceedings
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
   evidence:
   - kind: chair activity
     first: '2009-12-05'

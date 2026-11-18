@@ -25,9 +25,13 @@ chairs:
       certainty: between
       not_before: '2011-11-13'
     notes:
-    - widened to cover the BOF session in the proceedings
-    - end set after the last BOF session (IETF 82)
+    - 'Start: the BOF met at IETF 82 (2011-11-13)'
+    - 'End: after the BOF''s last session, IETF 82 (2011-11-13)'
   evidence:
+  - kind: BOF session
+    meeting: '82'
+    date: '2011-11-13'
+    url: https://www.ietf.org/proceedings/82/dcon.html
   - kind: proceedings
     listed_in: 4
     first: '2011-11-13'
@@ -53,8 +57,8 @@ chairs:
       certainty: between
       not_before: '2011-11-13'
     notes:
-    - widened to cover the BOF session in the proceedings
-    - end set after the last BOF session (IETF 82)
+    - 'Start: the BOF met at IETF 82 (2011-11-13)'
+    - 'End: after the BOF''s last session, IETF 82 (2011-11-13)'
   evidence:
   - kind: chair activity
     first: '2011-12-13'
@@ -64,6 +68,10 @@ chairs:
     - date: '2011-12-13'
       subject: '[dcon] DCON BOF meeting minutes'
       url: https://mailarchive.ietf.org/arch/msg/dcon/bZKZ8ZYftcGN6DzT1Lsdacoe2rE/
+  - kind: BOF session
+    meeting: '82'
+    date: '2011-11-13'
+    url: https://www.ietf.org/proceedings/82/dcon.html
   - kind: proceedings
     listed_in: 4
     first: '2011-11-13'

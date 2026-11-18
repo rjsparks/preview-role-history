@@ -25,7 +25,7 @@ chairs:
       certainty: approximate
       date: '2001-03-02'
     notes:
-    - end dated by list message of 2001-03-02
+    - 'End: announced on the group''s list (2001-03-02)'
   evidence:
   - kind: WG Action
     date: '2000-09-25'
@@ -55,7 +55,7 @@ chairs:
     last: '2000-10-23'
     examples:
     - date: '2000-10-23'
-      subject: IETF 49 proceedings charter (last modified)
+      subject: IETF 49 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/49/00dec-135.htm
 - person: 103024
   name: Elizabeth Rodriguez
@@ -69,7 +69,7 @@ chairs:
       certainty: evidence-only
       not_before: '2005-06-27'
     notes:
-    - bounded by minutes listing other chairs
+    - 'Start: not yet listed among the chairs in meeting minutes (2000-08-22)'
   evidence:
   - kind: proceedings
     listed_in: 15
@@ -77,13 +77,13 @@ chairs:
     last: '2005-06-27'
     examples:
     - date: '2000-10-23'
-      subject: IETF 49 proceedings charter (last modified)
+      subject: IETF 49 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/49/00dec-135.htm
     - date: '2001-03-14'
-      subject: IETF 50 proceedings charter (last modified)
+      subject: IETF 50 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/50/ietf50-140.htm
     - date: '2005-06-27'
-      subject: IETF 63 proceedings charter (last modified)
+      subject: IETF 63 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/63/ips.html
   - kind: minutes without them
     date: '2000-08-22'
@@ -101,7 +101,7 @@ chairs:
       certainty: group-closed
       date: '2007-11-01'
     notes:
-    - start moved earlier by WG Action announcement of 2000-09-25
+    - 'Start: named as chair in the WG Action announcement (2000-09-25)'
   evidence:
   - kind: WG Action
     date: '2000-09-25'
@@ -138,13 +138,13 @@ chairs:
     last: '2007-05-31'
     examples:
     - date: '2000-10-23'
-      subject: IETF 49 proceedings charter (last modified)
+      subject: IETF 49 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/49/00dec-135.htm
     - date: '2001-03-14'
-      subject: IETF 50 proceedings charter (last modified)
+      subject: IETF 50 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/50/ietf50-140.htm
     - date: '2007-05-31'
-      subject: IETF 69 proceedings charter (last modified)
+      subject: IETF 69 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/69/ips.html
   - kind: session requests
     meetings:

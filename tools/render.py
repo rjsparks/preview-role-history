@@ -186,9 +186,13 @@ class Site:
                     for x in ev.get("examples") or []
                 )
                 what = "the charter snapshots in meeting proceedings" if kind == "proceedings" else "the chair lists of meeting minutes"
+                n, first, last = ev.get("listed_in"), ev.get("first"), ev.get("last")
+                span = f"on {e(first)}" if first == last else f"{e(first)} to {e(last)}"
+                count = "one" if n == 1 else e(n)
+                items.append(f"<li>Listed as chair in {count} of {what}, {span}" + (f": {examples}" if examples else "") + "</li>")
+            elif kind == "BOF session":
                 items.append(
-                    f"<li>Listed as chair in {e(ev.get('listed_in'))} of {what}, {e(ev.get('first'))} to {e(ev.get('last'))}"
-                    + (f": {examples}" if examples else "") + "</li>"
+                    f'<li>The BOF met at <a href="{e(ev.get("url", ""))}">IETF {e(ev.get("meeting"))}</a> ({e(ev.get("date"))})</li>'
                 )
             elif kind == "minutes without them":
                 subject = e(ev.get("subject"))
@@ -211,9 +215,16 @@ class Site:
                 items.append(f'<li>Source: <a href="{e(s)}">{e(s)}</a></li>')
             else:
                 items.append(f"<li>Source: {e(s)}</li>")
+        reasons = []
         for p in entry.get("periods") or []:
             for n in p.get("notes") or []:
-                items.append(f"<li>Note: {e(n)}</li>")
+                side, sep, why = n.partition(": ")
+                if sep and side in ("Start", "End"):
+                    reasons.append(f"<li><b>{e(side)}:</b> {e(why)}</li>")
+                else:
+                    reasons.append(f"<li>{e(n)}</li>")
+        if reasons:
+            items.append(f'<li>How the dates were set:<ul class="reasons">{"".join(reasons)}</ul></li>')
         if not items:
             return ""
         return f'<details><summary>Evidence</summary><ul class="evidence">{"".join(items)}</ul></details>'

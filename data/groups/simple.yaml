@@ -26,7 +26,7 @@ chairs:
       not_before: '2009-03-22'
       not_after: '2009-03-30'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2009-03-30)'
   evidence:
   - kind: WG Action
     date: '2001-03-12'
@@ -81,17 +81,17 @@ chairs:
     last: '2007-03-21'
     examples:
     - date: '2001-03-14'
-      subject: IETF 50 proceedings charter (last modified)
+      subject: IETF 50 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/50/ietf50-29.htm
     - date: '2001-07-31'
-      subject: IETF 51 proceedings charter (last modified)
+      subject: IETF 51 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/51/51-30.htm
     - date: '2007-03-21'
-      subject: IETF 69 proceedings charter (last modified)
+      subject: IETF 69 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/69/simple.html
   - kind: minutes without them
     date: '2009-03-30'
-    subject: IETF 74 proceedings charter (last modified)
+    subject: IETF 74 proceedings charter, as last modified
     url: https://www.ietf.org/proceedings/74/simple.html
   - kind: session requests
     meetings:
@@ -118,9 +118,8 @@ chairs:
       certainty: group-closed
       date: '2013-02-26'
     notes:
-    - start moved earlier by session request for IETF 75
-    - widened to cover charter snapshots in proceedings
-    - bounded by minutes listing other chairs
+    - 'Start: listed as chair in a proceedings charter snapshot (2009-03-30)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2006-07-09)'
   evidence:
   - kind: chair activity
     first: '2009-03-30'
@@ -156,10 +155,10 @@ chairs:
     last: '2012-11-04'
     examples:
     - date: '2009-03-30'
-      subject: IETF 74 proceedings charter (last modified)
+      subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/simple.html
     - date: '2010-04-02'
-      subject: IETF 77 proceedings charter (last modified)
+      subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/simple.html
     - date: '2012-11-04'
       subject: IETF 85 proceedings charter
@@ -189,7 +188,7 @@ chairs:
       not_before: '2003-09-16'
       not_after: '2004-02-02'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2004-02-02)'
   evidence:
   - kind: WG Action
     date: '2003-06-03'
@@ -201,13 +200,13 @@ chairs:
     last: '2003-09-16'
     examples:
     - date: '2001-03-14'
-      subject: IETF 50 proceedings charter (last modified)
+      subject: IETF 50 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/50/ietf50-29.htm
     - date: '2001-07-31'
-      subject: IETF 51 proceedings charter (last modified)
+      subject: IETF 51 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/51/51-30.htm
     - date: '2003-09-16'
-      subject: IETF 58 proceedings charter (last modified)
+      subject: IETF 58 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/58/121.htm
   - kind: minutes without them
     date: '2006-07-09'
@@ -224,9 +223,7 @@ chairs:
       certainty: group-closed
       date: '2013-02-26'
     notes:
-    - start moved earlier by WG Action announcement of 2007-03-21
-    - widened to cover last calls and adoption calls on the group list
-    - start dated by list message of 2003-11-17
+    - 'Start: announced on the group''s list (2003-11-17)'
   evidence:
   - kind: WG Review
     date: '2007-02-14'
@@ -274,10 +271,10 @@ chairs:
     last: '2012-11-04'
     examples:
     - date: '2004-02-02'
-      subject: IETF 59 proceedings charter (last modified)
+      subject: IETF 59 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/59/119.htm
     - date: '2004-06-14'
-      subject: IETF 60 proceedings charter (last modified)
+      subject: IETF 60 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/60/121.htm
     - date: '2012-11-04'
       subject: IETF 85 proceedings charter

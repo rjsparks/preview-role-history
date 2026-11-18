@@ -28,8 +28,16 @@ chairs:
       certainty: between
       not_before: '2015-11-01'
     notes:
-    - end set after the last BOF session (IETF 94)
+    - 'End: after the BOF''s last session, IETF 94 (2015-11-01)'
   evidence:
+  - kind: BOF session
+    meeting: '93'
+    date: '2015-07-19'
+    url: https://www.ietf.org/proceedings/93/iss.html
+  - kind: BOF session
+    meeting: '94'
+    date: '2015-11-01'
+    url: https://www.ietf.org/proceedings/94/iss.html
   - kind: proceedings
     listed_in: 1
     first: '2015-11-01'
@@ -50,6 +58,14 @@ chairs:
       certainty: exact
       date: '2015-11-01'
   evidence:
+  - kind: BOF session
+    meeting: '93'
+    date: '2015-07-19'
+    url: https://www.ietf.org/proceedings/93/iss.html
+  - kind: BOF session
+    meeting: '94'
+    date: '2015-11-01'
+    url: https://www.ietf.org/proceedings/94/iss.html
   - kind: proceedings
     listed_in: 1
     first: '2015-07-19'
@@ -70,8 +86,16 @@ chairs:
       certainty: between
       not_before: '2015-11-01'
     notes:
-    - end set after the last BOF session (IETF 94)
+    - 'End: after the BOF''s last session, IETF 94 (2015-11-01)'
   evidence:
+  - kind: BOF session
+    meeting: '93'
+    date: '2015-07-19'
+    url: https://www.ietf.org/proceedings/93/iss.html
+  - kind: BOF session
+    meeting: '94'
+    date: '2015-11-01'
+    url: https://www.ietf.org/proceedings/94/iss.html
   - kind: proceedings
     listed_in: 2
     first: '2015-07-19'

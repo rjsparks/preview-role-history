@@ -24,8 +24,8 @@ chairs:
       not_before: '2011-03-27'
       not_after: '2011-07-24'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
-    - bounded by minutes listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-07-24)'
+    - 'Start: not yet listed among the chairs in meeting minutes (2005-04-08)'
   evidence:
   - kind: chair activity
     first: '2007-07-27'
@@ -53,10 +53,10 @@ chairs:
     last: '2011-03-27'
     examples:
     - date: '2006-07-21'
-      subject: IETF 66 proceedings charter (last modified)
+      subject: IETF 66 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/66/rtgwg.html
     - date: '2007-02-20'
-      subject: IETF 68 proceedings charter (last modified)
+      subject: IETF 68 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/68/rtgwg.html
     - date: '2011-03-27'
       subject: IETF 80 proceedings charter
@@ -93,7 +93,7 @@ chairs:
       not_before: '2005-10-07'
       not_after: '2006-07-21'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2006-07-21)'
   evidence:
   - kind: WG Action
     date: '2004-02-26'
@@ -113,17 +113,17 @@ chairs:
     last: '2005-10-07'
     examples:
     - date: '2004-06-24'
-      subject: IETF 60 proceedings charter (last modified)
+      subject: IETF 60 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/60/200.htm
     - date: '2004-10-14'
-      subject: IETF 61 proceedings charter (last modified)
+      subject: IETF 61 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/61/rtgwg.html
     - date: '2005-10-07'
-      subject: IETF 64 proceedings charter (last modified)
+      subject: IETF 64 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/64/rtgwg.html
   - kind: minutes without them
     date: '2006-07-21'
-    subject: IETF 66 proceedings charter (last modified)
+    subject: IETF 66 proceedings charter, as last modified
     url: https://www.ietf.org/proceedings/66/rtgwg.html
 - person: 103264
   name: Alex Zinin
@@ -137,7 +137,7 @@ chairs:
       not_before: '2011-03-27'
       not_after: '2011-07-24'
     notes:
-    - bounded by a proceedings charter snapshot listing other chairs
+    - 'End: no longer listed among the chairs in a proceedings charter snapshot (2011-07-24)'
   evidence:
   - kind: WG Action
     date: '2004-02-26'
@@ -171,10 +171,10 @@ chairs:
     last: '2011-03-27'
     examples:
     - date: '2004-06-24'
-      subject: IETF 60 proceedings charter (last modified)
+      subject: IETF 60 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/60/200.htm
     - date: '2004-10-14'
-      subject: IETF 61 proceedings charter (last modified)
+      subject: IETF 61 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/61/rtgwg.html
     - date: '2011-03-27'
       subject: IETF 80 proceedings charter
@@ -194,9 +194,7 @@ chairs:
       certainty: exact
       date: '2014-03-12'
     notes:
-    - start moved earlier by session request for IETF 80
-    - widened to cover last calls and adoption calls on the group list
-    - start dated by list message of 2008-04-03
+    - 'Start: announced on the group''s list (2008-04-03)'
   evidence:
   - kind: WG Action
     date: '2012-01-10'
@@ -234,10 +232,10 @@ chairs:
     last: '2013-11-03'
     examples:
     - date: '2009-04-02'
-      subject: IETF 74 proceedings charter (last modified)
+      subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/rtgwg.html
     - date: '2009-04-02'
-      subject: IETF 75 proceedings charter (last modified)
+      subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/rtgwg.html
     - date: '2013-11-03'
       subject: IETF 88 proceedings charter
@@ -267,7 +265,7 @@ chairs:
       not_before: '2011-12-09'
       not_after: '2014-02-24'
     notes:
-    - start moved earlier by session request for IETF 82
+    - 'Start: requested the group''s session for IETF 82 (2011-11-13)'
   - start:
       certainty: between
       not_before: '2011-12-09'
