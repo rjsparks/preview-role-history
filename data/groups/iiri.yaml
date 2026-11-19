@@ -10,7 +10,7 @@ state: conclude
 started: null
 closed: '2005-05-11'
 bof: true
-never_chartered: true
+never_chartered: false
 chartered: null
 bof_sessions:
 - meeting: '59'
@@ -26,13 +26,10 @@ chairs:
       certainty: on-or-before
       date: '2004-02-16'
     end:
-      certainty: between
-      not_before: '2004-02-29'
-      not_after: '2005-05-11'
+      certainty: group-closed
+      date: '2005-05-11'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2004-02-16)'
-    - 'End: listed as chair in meeting minutes (2004-02-29)'
-    - 'End: the group closed (2005-05-11)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -50,7 +47,3 @@ chairs:
     - date: '2004-02-16'
       subject: IETF 61 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/61/iiri.html
-  - kind: BOF session
-    meeting: '59'
-    date: '2004-02-29'
-    url: https://www.ietf.org/proceedings/59/127.htm

@@ -10,7 +10,7 @@ state: conclude
 started: null
 closed: '2005-05-11'
 bof: true
-never_chartered: true
+never_chartered: false
 chartered: null
 bof_sessions:
 - meeting: '60'
@@ -27,14 +27,11 @@ chairs:
       not_before: '2003-11-09'
       not_after: '2004-07-26'
     end:
-      certainty: between
-      not_before: '2004-08-01'
-      not_after: '2005-05-11'
+      certainty: group-closed
+      date: '2005-05-11'
     notes:
     - 'Start: became an Area Director, first serving at IETF 44 (1999-03-14)'
     - 'Start: listed as chair in a proceedings charter snapshot (2004-07-26)'
-    - 'End: the BOF met at IETF 60 (2004-08-01)'
-    - 'End: the group closed (2005-05-11)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -44,10 +41,6 @@ chairs:
     - date: '2004-07-26'
       subject: IETF 61 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/61/ipvlx.html
-  - kind: BOF session
-    meeting: '60'
-    date: '2004-08-01'
-    url: https://www.ietf.org/proceedings/60/158.htm
   - kind: joined the IESG
     after_meeting: '43'
     after: '1998-12-07'

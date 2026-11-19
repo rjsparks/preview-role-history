@@ -10,7 +10,7 @@ state: conclude
 started: null
 closed: '2000-06-05'
 bof: true
-never_chartered: false
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '39'
@@ -26,10 +26,13 @@ chairs:
       certainty: on-or-before
       date: '1997-08-11'
     end:
-      certainty: group-closed
-      date: '2000-06-05'
+      certainty: between
+      not_before: '1997-08-11'
+      not_after: '2000-06-05'
     notes:
     - 'Start: listed as chair in meeting minutes (1997-08-11)'
+    - 'End: listed as chair in meeting minutes (1997-08-11)'
+    - 'End: the group closed (2000-06-05)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -39,6 +42,10 @@ chairs:
     - date: '1997-08-11'
       subject: IETF 39 minutes in the proceedings
       url: https://www.ietf.org/proceedings/39/transit97aug-35.htm
+  - kind: BOF session
+    meeting: '39'
+    date: '1997-08-11'
+    url: https://www.ietf.org/proceedings/39/transit97aug-35.htm
 - person: 10554
   name: Roland Hedberg
   status: confirmed
@@ -47,10 +54,13 @@ chairs:
       certainty: on-or-before
       date: '1997-08-11'
     end:
-      certainty: group-closed
-      date: '2000-06-05'
+      certainty: between
+      not_before: '1997-08-11'
+      not_after: '2000-06-05'
     notes:
     - 'Start: listed as chair in meeting minutes (1997-08-11)'
+    - 'End: listed as chair in meeting minutes (1997-08-11)'
+    - 'End: the group closed (2000-06-05)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -60,3 +70,7 @@ chairs:
     - date: '1997-08-11'
       subject: IETF 39 minutes in the proceedings
       url: https://www.ietf.org/proceedings/39/transit97aug-35.htm
+  - kind: BOF session
+    meeting: '39'
+    date: '1997-08-11'
+    url: https://www.ietf.org/proceedings/39/transit97aug-35.htm

@@ -10,7 +10,7 @@ state: conclude
 started: null
 closed: '2000-06-05'
 bof: true
-never_chartered: false
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '40'
@@ -25,13 +25,21 @@ chairs:
   - start:
       certainty: between
       not_before: '1996-03-04'
-      not_after: '2000-06-05'
+      not_after: '1997-12-08'
     end:
-      certainty: group-closed
-      date: '2000-06-05'
+      certainty: between
+      not_before: '1997-12-08'
+      not_after: '2000-06-05'
     notes:
     - 'Start: became an Area Director, first serving at IETF 27 (1993-07-12)'
+    - 'Start: the BOF met at IETF 40 (1997-12-08)'
+    - 'End: the BOF met at IETF 40 (1997-12-08)'
+    - 'End: the group closed (2000-06-05)'
   evidence:
+  - kind: BOF session
+    meeting: '40'
+    date: '1997-12-08'
+    url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-30.htm
   - kind: joined the IESG
     after_meeting: '26'
     after: '1993-03-29'

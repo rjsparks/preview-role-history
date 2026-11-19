@@ -10,7 +10,7 @@ state: conclude
 started: null
 closed: '2003-12-10'
 bof: true
-never_chartered: false
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '53'
@@ -24,17 +24,37 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-12-10'
+      date: '2002-03-17'
     end:
-      certainty: group-closed
-      date: '2003-12-10'
+      certainty: between
+      not_before: '2002-03-17'
+      not_after: '2003-12-10'
+    notes:
+    - 'Start: the BOF met at IETF 53 (2002-03-17)'
+    - 'End: the BOF met at IETF 53 (2002-03-17)'
+    - 'End: the group closed (2003-12-10)'
+  evidence:
+  - kind: BOF session
+    meeting: '53'
+    date: '2002-03-17'
+    url: https://www.ietf.org/proceedings/53/148.htm
 - person: 105712
   name: Thierry Ernst
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-12-10'
+      date: '2002-03-17'
     end:
-      certainty: group-closed
-      date: '2003-12-10'
+      certainty: between
+      not_before: '2002-03-17'
+      not_after: '2003-12-10'
+    notes:
+    - 'Start: the BOF met at IETF 53 (2002-03-17)'
+    - 'End: the BOF met at IETF 53 (2002-03-17)'
+    - 'End: the group closed (2003-12-10)'
+  evidence:
+  - kind: BOF session
+    meeting: '53'
+    date: '2002-03-17'
+    url: https://www.ietf.org/proceedings/53/148.htm

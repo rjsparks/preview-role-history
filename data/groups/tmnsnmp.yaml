@@ -10,7 +10,7 @@ state: conclude
 started: null
 closed: '2003-12-10'
 bof: true
-never_chartered: false
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '47'
@@ -23,15 +23,21 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2002-07-14'
-      not_after: '2003-12-10'
+      certainty: on-or-before
+      date: '2000-03-26'
     end:
-      certainty: group-closed
-      date: '2003-12-10'
+      certainty: between
+      not_before: '2000-03-26'
+      not_after: '2001-12-09'
     notes:
-    - 'Start: became an Area Director, first serving at IETF 52 (2001-12-09)'
+    - 'Start: the BOF met at IETF 47 (2000-03-26)'
+    - 'End: the BOF met at IETF 47 (2000-03-26)'
+    - 'End: became an Area Director, first serving at IETF 52 (2001-12-09)'
   evidence:
+  - kind: BOF session
+    meeting: '47'
+    date: '2000-03-26'
+    url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-87.html
   - kind: joined the IESG
     after_meeting: '51'
     after: '2001-08-05'
@@ -43,7 +49,22 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-12-10'
+      date: '2000-03-26'
     end:
-      certainty: group-closed
-      date: '2003-12-10'
+      certainty: between
+      not_before: '2000-03-26'
+      not_after: '2001-08-05'
+    notes:
+    - 'Start: the BOF met at IETF 47 (2000-03-26)'
+    - 'End: the BOF met at IETF 47 (2000-03-26)'
+    - 'End: became an Area Director, first serving at IETF 51 (2001-08-05)'
+  evidence:
+  - kind: BOF session
+    meeting: '47'
+    date: '2000-03-26'
+    url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-87.html
+  - kind: joined the IESG
+    after_meeting: '50'
+    after: '2001-03-18'
+    by_meeting: '51'
+    by: '2001-08-05'

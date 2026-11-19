@@ -10,7 +10,7 @@ state: conclude
 started: null
 closed: '2006-01-26'
 bof: true
-never_chartered: true
+never_chartered: false
 chartered: null
 bof_sessions:
 - meeting: '63'
@@ -26,13 +26,10 @@ chairs:
       certainty: on-or-before
       date: '2005-03-06'
     end:
-      certainty: between
-      not_before: '2005-08-05'
-      not_after: '2006-01-26'
+      certainty: group-closed
+      date: '2006-01-26'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2005-03-06)'
-    - 'End: posted an agenda, minutes or interim notice to the group''s list (2005-08-05)'
-    - 'End: the group closed (2006-01-26)'
   evidence:
   - kind: chair activity
     first: '2005-07-06'
@@ -67,7 +64,3 @@ chairs:
     - date: '2005-06-27'
       subject: IETF 63 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/63/hash.html
-  - kind: BOF session
-    meeting: '63'
-    date: '2005-07-31'
-    url: https://www.ietf.org/proceedings/63/hash.txt

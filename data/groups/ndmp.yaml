@@ -10,7 +10,7 @@ state: conclude
 started: null
 closed: '2003-12-10'
 bof: true
-never_chartered: false
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '52'
@@ -27,22 +27,39 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-12-10'
+      date: '2001-12-09'
     end:
-      certainty: group-closed
-      date: '2003-12-10'
+      certainty: between
+      not_before: '2002-03-17'
+      not_after: '2003-12-10'
+    notes:
+    - 'Start: the BOF met at IETF 52 (2001-12-09)'
+    - 'End: the BOF met at IETF 53 (2002-03-17)'
+    - 'End: the group closed (2003-12-10)'
+  evidence:
+  - kind: BOF session
+    meeting: '52'
+    date: '2001-12-09'
+    url: https://www.ietf.org/proceedings/52/131.htm
+  - kind: BOF session
+    meeting: '53'
+    date: '2002-03-17'
+    url: https://www.ietf.org/proceedings/53/133.htm
 - person: 19781
   name: Greg Linn
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2002-03-17'
+      date: '2001-12-09'
     end:
-      certainty: group-closed
-      date: '2003-12-10'
+      certainty: between
+      not_before: '2002-03-17'
+      not_after: '2003-12-10'
     notes:
-    - 'Start: listed as chair in meeting minutes (2002-03-17)'
+    - 'Start: the BOF met at IETF 52 (2001-12-09)'
+    - 'End: listed as chair in meeting minutes (2002-03-17)'
+    - 'End: the group closed (2003-12-10)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -52,3 +69,11 @@ chairs:
     - date: '2002-03-17'
       subject: IETF 53 minutes in the proceedings
       url: https://www.ietf.org/proceedings/53/133.htm
+  - kind: BOF session
+    meeting: '52'
+    date: '2001-12-09'
+    url: https://www.ietf.org/proceedings/52/131.htm
+  - kind: BOF session
+    meeting: '53'
+    date: '2002-03-17'
+    url: https://www.ietf.org/proceedings/53/133.htm

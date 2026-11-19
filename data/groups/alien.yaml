@@ -10,7 +10,7 @@ state: conclude
 started: null
 closed: '2006-01-26'
 bof: true
-never_chartered: true
+never_chartered: false
 chartered: null
 bof_sessions:
 - meeting: '63'
@@ -26,13 +26,10 @@ chairs:
       certainty: on-or-before
       date: '2005-03-06'
     end:
-      certainty: between
-      not_before: '2005-07-31'
-      not_after: '2006-01-26'
+      certainty: group-closed
+      date: '2006-01-26'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2005-03-06)'
-    - 'End: the BOF met at IETF 63 (2005-07-31)'
-    - 'End: the group closed (2006-01-26)'
   evidence:
   - kind: proceedings
     listed_in: 2
@@ -45,10 +42,6 @@ chairs:
     - date: '2005-07-01'
       subject: IETF 63 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/63/alien.html
-  - kind: BOF session
-    meeting: '63'
-    date: '2005-07-31'
-    url: https://www.ietf.org/proceedings/63/alien.txt
 - person: 106286
   name: James Kempf
   status: confirmed
@@ -57,13 +50,10 @@ chairs:
       certainty: on-or-before
       date: '2005-03-06'
     end:
-      certainty: between
-      not_before: '2005-07-31'
-      not_after: '2006-01-26'
+      certainty: group-closed
+      date: '2006-01-26'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2005-03-06)'
-    - 'End: the BOF met at IETF 63 (2005-07-31)'
-    - 'End: the group closed (2006-01-26)'
   evidence:
   - kind: proceedings
     listed_in: 2
@@ -76,7 +66,3 @@ chairs:
     - date: '2005-07-01'
       subject: IETF 63 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/63/alien.html
-  - kind: BOF session
-    meeting: '63'
-    date: '2005-07-31'
-    url: https://www.ietf.org/proceedings/63/alien.txt

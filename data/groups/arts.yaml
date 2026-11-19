@@ -10,7 +10,7 @@ state: conclude
 started: null
 closed: '1997-01-01'
 bof: true
-never_chartered: false
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '30'
@@ -30,17 +30,53 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1997-01-01'
+      date: '1994-07-25'
     end:
-      certainty: group-closed
-      date: '1997-01-01'
+      certainty: between
+      not_before: '1995-04-03'
+      not_after: '1997-01-01'
+    notes:
+    - 'Start: the BOF met at IETF 30 (1994-07-25)'
+    - 'End: the BOF met at IETF 32 (1995-04-03)'
+    - 'End: the group closed (1997-01-01)'
+  evidence:
+  - kind: BOF session
+    meeting: '30'
+    date: '1994-07-25'
+    url: https://www.ietf.org/proceedings/30/0mtg-agenda.txt
+  - kind: BOF session
+    meeting: '31'
+    date: '1994-12-05'
+    url: https://www.ietf.org/proceedings/31/area.and.wg.reports/usv/area.userservices.94dec.txt
+  - kind: BOF session
+    meeting: '32'
+    date: '1995-04-03'
+    url: https://www.ietf.org/proceedings/32/area.and.wg.reports/usv/area.userservices.95apr.txt
 - person: 18176
   name: Susan Siegfried
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '1997-01-01'
+      date: '1994-07-25'
     end:
-      certainty: group-closed
-      date: '1997-01-01'
+      certainty: between
+      not_before: '1995-04-03'
+      not_after: '1997-01-01'
+    notes:
+    - 'Start: the BOF met at IETF 30 (1994-07-25)'
+    - 'End: the BOF met at IETF 32 (1995-04-03)'
+    - 'End: the group closed (1997-01-01)'
+  evidence:
+  - kind: BOF session
+    meeting: '30'
+    date: '1994-07-25'
+    url: https://www.ietf.org/proceedings/30/0mtg-agenda.txt
+  - kind: BOF session
+    meeting: '31'
+    date: '1994-12-05'
+    url: https://www.ietf.org/proceedings/31/area.and.wg.reports/usv/area.userservices.94dec.txt
+  - kind: BOF session
+    meeting: '32'
+    date: '1995-04-03'
+    url: https://www.ietf.org/proceedings/32/area.and.wg.reports/usv/area.userservices.95apr.txt

@@ -10,7 +10,7 @@ state: conclude
 started: null
 closed: '2006-01-26'
 bof: true
-never_chartered: true
+never_chartered: false
 chartered: null
 bof_sessions:
 - meeting: '60'
@@ -30,12 +30,12 @@ chairs:
       date: '2004-07-26'
     end:
       certainty: between
-      not_before: '2005-07-31'
-      not_after: '2006-01-26'
+      not_before: '2004-08-01'
+      not_after: '2005-07-14'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2004-07-26)'
-    - 'End: the BOF met at IETF 63 (2005-07-31)'
-    - 'End: the group closed (2006-01-26)'
+    - 'End: listed as chair in meeting minutes (2004-08-01)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2005-07-14)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -56,14 +56,10 @@ chairs:
     - date: '2004-11-11'
       subject: IETF 62 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/62/mass.html
-  - kind: BOF session
-    meeting: '60'
-    date: '2004-08-01'
-    url: https://www.ietf.org/proceedings/60/230.htm
-  - kind: BOF session
-    meeting: '63'
-    date: '2005-07-31'
-    url: https://www.ietf.org/proceedings/63/mass.txt
+  - kind: minutes without them
+    date: '2005-07-14'
+    subject: IETF 63 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/63/mass.html
 - person: 100927
   name: Dave Crocker
   status: unconfirmed
@@ -102,10 +98,6 @@ chairs:
     date: '2004-08-01'
     subject: IETF 60 minutes in the proceedings
     url: https://www.ietf.org/proceedings/60/230.htm
-  - kind: BOF session
-    meeting: '63'
-    date: '2005-07-31'
-    url: https://www.ietf.org/proceedings/63/mass.txt
 - person: 121191
   name: Jim Fenton
   status: confirmed
@@ -114,13 +106,10 @@ chairs:
       certainty: on-or-before
       date: '2004-07-26'
     end:
-      certainty: between
-      not_before: '2005-07-31'
-      not_after: '2006-01-26'
+      certainty: group-closed
+      date: '2006-01-26'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2004-07-26)'
-    - 'End: listed as chair in meeting minutes (2005-07-31)'
-    - 'End: the group closed (2006-01-26)'
   evidence:
   - kind: minutes
     listed_in: 2
@@ -147,11 +136,3 @@ chairs:
     - date: '2005-07-14'
       subject: IETF 63 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/63/mass.html
-  - kind: BOF session
-    meeting: '60'
-    date: '2004-08-01'
-    url: https://www.ietf.org/proceedings/60/230.htm
-  - kind: BOF session
-    meeting: '63'
-    date: '2005-07-31'
-    url: https://www.ietf.org/proceedings/63/mass.txt

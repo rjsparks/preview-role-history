@@ -10,7 +10,7 @@ state: conclude
 started: null
 closed: '1997-01-01'
 bof: true
-never_chartered: false
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '31'
@@ -24,7 +24,17 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1997-01-01'
+      date: '1994-12-05'
     end:
-      certainty: group-closed
-      date: '1997-01-01'
+      certainty: between
+      not_before: '1994-12-05'
+      not_after: '1997-01-01'
+    notes:
+    - 'Start: the BOF met at IETF 31 (1994-12-05)'
+    - 'End: the BOF met at IETF 31 (1994-12-05)'
+    - 'End: the group closed (1997-01-01)'
+  evidence:
+  - kind: BOF session
+    meeting: '31'
+    date: '1994-12-05'
+    url: https://www.ietf.org/proceedings/31/area.and.wg.reports/int/area.internet.94dec.txt

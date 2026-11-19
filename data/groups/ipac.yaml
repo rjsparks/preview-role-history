@@ -10,7 +10,7 @@ state: conclude
 started: null
 closed: '2003-12-10'
 bof: true
-never_chartered: false
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '50'
@@ -27,17 +27,45 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-12-10'
+      date: '2001-03-18'
     end:
-      certainty: group-closed
-      date: '2003-12-10'
+      certainty: between
+      not_before: '2001-08-05'
+      not_after: '2003-12-10'
+    notes:
+    - 'Start: the BOF met at IETF 50 (2001-03-18)'
+    - 'End: the BOF met at IETF 51 (2001-08-05)'
+    - 'End: the group closed (2003-12-10)'
+  evidence:
+  - kind: BOF session
+    meeting: '50'
+    date: '2001-03-18'
+    url: https://www.ietf.org/proceedings/50/ietf50-63.htm
+  - kind: BOF session
+    meeting: '51'
+    date: '2001-08-05'
+    url: https://www.ietf.org/proceedings/51/bettertoc.htm
 - person: 104612
   name: Stanley Moyer
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-12-10'
+      date: '2001-03-18'
     end:
-      certainty: group-closed
-      date: '2003-12-10'
+      certainty: between
+      not_before: '2001-08-05'
+      not_after: '2003-12-10'
+    notes:
+    - 'Start: the BOF met at IETF 50 (2001-03-18)'
+    - 'End: the BOF met at IETF 51 (2001-08-05)'
+    - 'End: the group closed (2003-12-10)'
+  evidence:
+  - kind: BOF session
+    meeting: '50'
+    date: '2001-03-18'
+    url: https://www.ietf.org/proceedings/50/ietf50-63.htm
+  - kind: BOF session
+    meeting: '51'
+    date: '2001-08-05'
+    url: https://www.ietf.org/proceedings/51/bettertoc.htm

@@ -10,7 +10,7 @@ state: conclude
 started: null
 closed: '2003-12-10'
 bof: true
-never_chartered: false
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '52'
@@ -27,11 +27,14 @@ chairs:
       not_before: '2000-03-26'
       not_after: '2001-12-09'
     end:
-      certainty: group-closed
-      date: '2003-12-10'
+      certainty: between
+      not_before: '2001-12-09'
+      not_after: '2003-12-10'
     notes:
     - 'Start: became an Area Director, first serving at IETF 41 (1998-03-30)'
     - 'Start: listed as chair in meeting minutes (2001-12-09)'
+    - 'End: listed as chair in meeting minutes (2001-12-09)'
+    - 'End: the group closed (2003-12-10)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -41,6 +44,10 @@ chairs:
     - date: '2001-12-09'
       subject: IETF 52 minutes in the proceedings
       url: https://www.ietf.org/proceedings/52/174.htm
+  - kind: BOF session
+    meeting: '52'
+    date: '2001-12-09'
+    url: https://www.ietf.org/proceedings/52/174.htm
   - kind: joined the IESG
     after_meeting: '40'
     after: '1997-12-08'

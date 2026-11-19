@@ -10,7 +10,7 @@ state: conclude
 started: null
 closed: '2003-12-10'
 bof: true
-never_chartered: false
+never_chartered: true
 chartered: null
 bof_sessions:
 - meeting: '47'
@@ -24,10 +24,20 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-12-10'
+      date: '2000-03-26'
     end:
-      certainty: group-closed
-      date: '2003-12-10'
+      certainty: between
+      not_before: '2000-03-26'
+      not_after: '2003-12-10'
+    notes:
+    - 'Start: the BOF met at IETF 47 (2000-03-26)'
+    - 'End: the BOF met at IETF 47 (2000-03-26)'
+    - 'End: the group closed (2003-12-10)'
+  evidence:
+  - kind: BOF session
+    meeting: '47'
+    date: '2000-03-26'
+    url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-43.html
 - person: 2793
   name: Bob Hinden
   status: confirmed
@@ -35,13 +45,21 @@ chairs:
   - start:
       certainty: between
       not_before: '1994-03-28'
-      not_after: '2003-12-10'
+      not_after: '2000-03-26'
     end:
-      certainty: group-closed
-      date: '2003-12-10'
+      certainty: between
+      not_before: '2000-03-26'
+      not_after: '2003-12-10'
     notes:
     - 'Start: became an Area Director, first serving at IETF 14 (1989-07-25)'
+    - 'Start: the BOF met at IETF 47 (2000-03-26)'
+    - 'End: the BOF met at IETF 47 (2000-03-26)'
+    - 'End: the group closed (2003-12-10)'
   evidence:
+  - kind: BOF session
+    meeting: '47'
+    date: '2000-03-26'
+    url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-43.html
   - kind: joined the IESG
     after_meeting: null
     after: null
@@ -53,14 +71,27 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2001-08-05'
-      not_after: '2003-12-10'
+      not_before: '1997-04-07'
+      not_after: '2000-03-26'
     end:
-      certainty: group-closed
-      date: '2003-12-10'
+      certainty: between
+      not_before: '2000-03-26'
+      not_after: '2000-07-31'
     notes:
-    - 'Start: became an Area Director, first serving at IETF 48 (2000-07-31)'
+    - 'Start: became an Area Director, first serving at IETF 36 (1996-06-24)'
+    - 'Start: the BOF met at IETF 47 (2000-03-26)'
+    - 'End: the BOF met at IETF 47 (2000-03-26)'
+    - 'End: became an Area Director, first serving at IETF 48 (2000-07-31)'
   evidence:
+  - kind: BOF session
+    meeting: '47'
+    date: '2000-03-26'
+    url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-43.html
+  - kind: joined the IESG
+    after_meeting: '35'
+    after: '1996-03-04'
+    by_meeting: '36'
+    by: '1996-06-24'
   - kind: joined the IESG
     after_meeting: '47'
     after: '2000-03-26'
