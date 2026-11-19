@@ -70,6 +70,8 @@ def check(data):
                 bad(f"`type` must be one of {', '.join(GROUP_TYPES)}")
         elif "datatracker" in g and g["datatracker"] is not True:
             bad("`datatracker` must be true or false")
+        if g.get("state") not in cd.STATE_NAMES:
+            bad(f"`state` must be one of {', '.join(cd.STATE_NAMES)}")
         if g.get("acronym") != acronym:
             bad(f"`acronym` is {g.get('acronym')!r} but the file is named {acronym}.yaml")
         for flag in ("bof", "never_chartered"):
@@ -142,7 +144,7 @@ def check(data):
                 if not ok:
                     continue
                 if p["end"].get("certainty") == "ongoing" and closed:
-                    bad(f"{pw}: end is `ongoing` but the group is {g.get('state')}")
+                    bad(f"{pw}: end is `ongoing` but the group is {cd.state_text(g.get('state'))}")
                 s, t = cd.earliest_start(p["start"]), cd.latest_end(p["end"])
                 if s and t and t < s:
                     bad(f"{pw}: ends before it starts")

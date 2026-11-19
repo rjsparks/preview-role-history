@@ -27,6 +27,19 @@ CERTAINTIES = {
     "ongoing": (),
 }
 CLOSED_STATES = {"conclude", "bof-conc", "abandon", "replaced"}
+# The datatracker's names for its group state slugs (ietf.name GroupStateName), for people to read.
+STATE_NAMES = {
+    "bof": "BOF", "proposed": "Proposed", "active": "Active", "dormant": "Dormant", "conclude": "Concluded",
+    "unknown": "Unknown", "abandon": "Abandoned", "bof-conc": "BOF Concluded", "replaced": "Replaced",
+}
+
+
+def state_text(slug):
+    """A group state as it reads mid-sentence: "conclude" -> "concluded", "bof-conc" -> "BOF concluded"."""
+    name = STATE_NAMES.get(slug)
+    if name is None:
+        return slug or "state unknown"
+    return " ".join(w if w.isupper() else w.lower() for w in name.split())
 DATATRACKER = "https://datatracker.ietf.org"
 
 _PARTIAL_DATE = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?$")

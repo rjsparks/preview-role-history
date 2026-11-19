@@ -84,7 +84,7 @@ class ValidateTests(DataDirMixin, unittest.TestCase):
 
     def test_ongoing_needs_open_group(self):
         self.write_group(group(state="conclude", closed="2015-01-01"))
-        self.assertTrue(any("end is `ongoing` but the group is conclude" in m for m in self.problems()))
+        self.assertTrue(any("end is `ongoing` but the group is concluded" in m for m in self.problems()))
 
     def test_period_must_not_end_before_it_starts(self):
         g = group()
@@ -455,7 +455,7 @@ class AreaHistoryTests(DataDirMixin, unittest.TestCase):
         self.assertEqual(self.problems(), [])
         out = self.root / "site"
         render.Site(cd.load(self.data), out, "example/chairs").build(Path(__file__).parent.parent / "site")
-        self.assertIn("tsv (1995–2005), then rai (2006–2011)", (out / "groups" / "avt.html").read_text())
+        self.assertIn("tsv (1995–2005), then rai (2006–2011),\nconcluded, ", (out / "groups" / "avt.html").read_text())
         index = (out / "groups.html").read_text()
         self.assertGreater(index.index("<h2>tsv</h2>"), index.index("<h2>rai</h2>"))
         self.assertEqual(index.count("groups/avt.html"), 2)  # under both areas
@@ -468,6 +468,13 @@ class AreaHistoryTests(DataDirMixin, unittest.TestCase):
         out = self.root / "site"
         render.Site(cd.load(self.data), out, "example/chairs").build(Path(__file__).parent.parent / "site")
         self.assertIn("tsv (1998–2023), then wit (since 2024)", (out / "groups" / "nfsv4.html").read_text())
+
+    def test_state_names(self):
+        self.assertEqual(cd.state_text("conclude"), "concluded")
+        self.assertEqual(cd.state_text("bof-conc"), "BOF concluded")
+        self.write_people(PEOPLE)
+        self.write_group(group(state="concluded"))
+        self.assertTrue(any("`state` must be one of" in m for m in self.problems()))
 
     def test_areas_need_dates(self):
         self.write_people(PEOPLE)

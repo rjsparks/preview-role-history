@@ -349,7 +349,7 @@ Dates marked <span class="q">?</span> are not exact; <a href="#dates">reading th
 <tbody>{''.join(lines)}</tbody></table></div>"""
         body = f"""<h1>{e(acronym)} <span class="muted">{e(g.get('name'))}</span></h1>
 <p class="lede">{e('BOF' if cd.never_chartered(g) else TYPE_NAMES.get(g.get('type'), g.get('type')))} in {self.areas_text(g)},
-{e(state)}{(', ' + e(life)) if life else ''}.
+{e(cd.state_text(state))}{(', ' + e(life)) if life else ''}.
 {self.group_links(g)}</p>
 {('<p>' + self.bof_history(g) + '</p>') if self.bof_history(g) else ''}
 <p>Know who chaired {e(acronym)} and when? <a class="act" href="{e(missing)}">Tell us about a missing chair</a>,
@@ -398,7 +398,7 @@ or use the links on each row. Dates marked <span class="q">?</span> are not exac
         for parent in sorted(by_parent):
             items = "".join(
                 f'<li data-filter="{e(fold(g["acronym"] + " " + (g.get("name") or "")))}"><a href="{self.group_href(g["acronym"], 0)}">{e(g["acronym"])}</a>'
-                f' <span class="muted">{e(g.get("name"))} · {e(TYPE_NAMES.get(g.get("type"), g.get("type")))}, {e(g.get("state"))}'
+                f' <span class="muted">{e(g.get("name"))} · {e(TYPE_NAMES.get(g.get("type"), g.get("type")))}, {e(cd.state_text(g.get("state")))}'
                 f'{" · not in the datatracker" if g.get("datatracker") is False else ""}</span></li>'
                 for g in sorted(by_parent[parent], key=lambda g: g["acronym"])
             )
