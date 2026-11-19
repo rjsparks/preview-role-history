@@ -465,7 +465,8 @@ class AreaHistoryTests(DataDirMixin, unittest.TestCase):
         self.write_people(PEOPLE)
         self.write_group(group(acronym="nfsv4", parent="wit", areas=[
             {"area": "tsv", "first": "1998-08-05", "last": "2023-11-21"},
-            {"area": "wit", "first": "2024-01-17", "last": "2026-05-04"}]), "nfsv4")
+            {"area": "wit", "first": "2024-01-17", "last": None}]), "nfsv4")
+        self.assertEqual(self.problems(), [])
         out = self.root / "site"
         render.Site(cd.load(self.data), out, "example/chairs").build(Path(__file__).parent.parent / "site")
         self.assertIn("tsv (1998–2023), then wit (since 2024)", (out / "groups" / "nfsv4.html").read_text())
@@ -487,7 +488,13 @@ class AreaHistoryTests(DataDirMixin, unittest.TestCase):
 
     def test_areas_need_dates(self):
         self.write_people(PEOPLE)
-        self.write_group(group(areas=[{"area": "tsv", "first": "1995"}]))
+        self.write_group(group(areas=[{"area": "tsv", "first": "1995"}, {"area": "rai", "first": "2006"}]))
+        self.assertTrue(any("`areas` must be" in m for m in self.problems()))  # only the current area is open
+
+    def test_a_closed_groups_areas_all_end(self):
+        self.write_people(PEOPLE)
+        self.write_group(group(state="conclude", closed="2011-03-18", chairs=[],
+                               areas=[{"area": "rai", "first": "2006", "last": None}]))
         self.assertTrue(any("`areas` must be" in m for m in self.problems()))
 
 

@@ -501,7 +501,7 @@ Each opens a short GitHub issue form, already filled in with the row you clicked
         still_open = g.get("state") not in cd.CLOSED_STATES
 
         def years(r, last):
-            a, b = str(r.get("first", ""))[:4], str(r.get("last", ""))[:4]
+            a, b = str(r.get("first", ""))[:4], str(r.get("last") or "")[:4]
             if last and still_open:
                 return f"since {a}"
             return a if a == b else f"{a}–{b}"

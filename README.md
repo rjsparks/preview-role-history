@@ -77,7 +77,7 @@ chairs:
 - **overrides** (group level): corrected group fields (`name`, `state`, `parent`, `areas`,
   `started`, `closed`, `bof`, `never_chartered`, `chartered`), kept over the seed's values.
 - **Group field** `areas` lists every area the group was in, each `{area, first, last}`: the
-  dates it was first and last seen there. `parent` is only its current (or final) area.
+  dates it was first and last seen there. An open group's current area has `last: null`. `parent` is only its current (or final) area.
   Before 2011 the areas come from the area director block of the charter pages in the
   meeting proceedings; after that, from the datatracker's history. Groups move (avt went
   from tsv to rai in 2006), and the site shows each area in turn. Chairs are not tied to

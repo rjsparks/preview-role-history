@@ -78,11 +78,17 @@ def check(data):
             if flag in g and not isinstance(g[flag], bool):
                 bad(f"`{flag}` must be true or false")
         areas = g.get("areas")
-        if areas is not None and not (isinstance(areas, list) and all(
-                isinstance(a, dict) and isinstance(a.get("area"), str) and a["area"].strip()
-                and all(a.get(k) is not None and cd.valid_date(cd.norm_date(a[k])) for k in ("first", "last"))
-                for a in areas)):
-            bad("`areas` must be a list of {area, first, last}, with dates written YYYY-MM-DD, YYYY-MM or YYYY")
+        still_open = g.get("state") not in cd.CLOSED_STATES
+
+        def area_ok(i, a):
+            # Only an open group's current area may be left without an end (`last: null`).
+            open_end = still_open and i == len(areas) - 1
+            return (isinstance(a, dict) and isinstance(a.get("area"), str) and a["area"].strip()
+                    and all(cd.valid_date(cd.norm_date(a[k])) if a.get(k) is not None else (k == "last" and open_end)
+                            for k in ("first", "last")))
+        if areas is not None and not (isinstance(areas, list) and all(area_ok(i, a) for i, a in enumerate(areas))):
+            bad("`areas` must be a list of {area, first, last}, with dates written YYYY-MM-DD, YYYY-MM or YYYY;"
+                " only an open group's last area may have `last: null`")
         if g.get("chartered") is not None and not cd.valid_date(cd.norm_date(g["chartered"])):
             bad("`chartered` must be a date written YYYY-MM-DD, YYYY-MM or YYYY")
         overrides = g.get("overrides")
