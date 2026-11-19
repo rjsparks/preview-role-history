@@ -16,6 +16,10 @@ bof_sessions:
 - meeting: '106'
   date: '2019-11-16'
   url: https://datatracker.ietf.org/meeting/106/session/tmrid/
+became:
+  group: drip
+  how: the datatracker says so
+began_as: []
 history_url: https://datatracker.ietf.org/group/tmrid/history/
 chairs:
 - person: 103539
@@ -46,12 +50,23 @@ chairs:
       date: '2019-11-07'
     end:
       certainty: between
-      not_before: '2019-11-16'
+      not_before: '2020-02-06'
       not_after: '2020-02-11'
     notes:
-    - 'End: the BOF met at IETF 106 (2019-11-16)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2020-02-06)'
     - 'End: the group closed (2020-02-11)'
   evidence:
+  - kind: chair activity
+    first: '2019-11-29'
+    last: '2020-02-06'
+    messages: 3
+    examples:
+    - date: '2019-11-29'
+      subject: '[Tm-rid] TR-MID minutes of IETF 106'
+      url: https://mailarchive.ietf.org/arch/msg/tm-rid/dsUTjpMI0dosVV1pBzWtCB4fkes/
+    - date: '2020-01-11'
+      subject: '[Tm-rid] doodle for interim meeting for TM-RID'
+      url: https://mailarchive.ietf.org/arch/msg/tm-rid/R9EdsoYD5b0EW5AbBpNWgbTzGLY/
   - kind: BOF session
     meeting: '106'
     date: '2019-11-16'

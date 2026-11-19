@@ -82,6 +82,12 @@ class Site:
         self.out = Path(out)
         self.repo = repo
         self.by_person = data.chairs_by_person()
+        # Derived from each group's `became`, so a contributed `became` shows on both pages.
+        self.began_as = {}
+        for acronym, g in sorted(data.groups.items()):
+            became = g.get("became")
+            if isinstance(became, dict) and isinstance(became.get("group"), str):
+                self.began_as.setdefault(became["group"].lower(), []).append(acronym)
 
     # --- links ---
 
@@ -507,16 +513,35 @@ Each opens a short GitHub issue form, already filled in with the row you clicked
             return a if a == b else f"{a}–{b}"
         return "Areas: " + ", then ".join(f"{e(r['area'])} ({years(r, i == len(runs) - 1)})" for i, r in enumerate(runs)) + "."
 
-    @staticmethod
-    def bof_history(g):
+    def bof_history(self, g):
         sessions = g.get("bof_sessions") or []
         met = ", ".join(f'<a href="{e(b["url"])}">IETF {e(b["meeting"])}</a>' for b in sessions)
+        began = self.began_as_text(g)
+        became = g.get("became") if isinstance(g.get("became"), dict) and g["became"].get("group") else None
+        went_on = ""
+        if became:
+            how = f" ({e(became['how'])})" if became.get("how") else ""
+            went_on = f'went on as <a href="{e(self.group_href(became["group"], 1))}">{e(became["group"])}</a>{how}'
         if cd.never_chartered(g):
-            return "A BOF that was not chartered as a working group" + (f"; it met at {met}" if met else "") + "."
+            if became:
+                return f"A BOF that {went_on}" + (f"; it met at {met}" if met else "") + "." + began
+            # Nothing shows a successor, which is not the same as there being none.
+            tell = self.issue_url("successor.yml", f"Became: {g['acronym']}", group=g["acronym"])
+            return ("A BOF; no working group was chartered under this acronym" + (f". It met at {met}" if met else "")
+                    + f'. If it went on under another acronym, <a href="{e(tell)}">tell us which</a>.' + began)
+        after = f" It {went_on}." if became else ""  # bmwg and ippm went on as bpm
         if not g.get("bof"):
-            return ""
+            return (began + after).strip()
         when = f" Chartered {e(g['chartered'])}." if g.get("chartered") else ""
-        return ("Held as a BOF" + (f" at {met}" if met else "") + " before being chartered." + when).strip()
+        return ("Held as a BOF" + (f" at {met}" if met else "") + " before being chartered." + when + began + after).strip()
+
+    def began_as_text(self, g):
+        """" Carries on from iasa20." for a group other groups went on as, from their `became`."""
+        earlier = self.began_as.get(g["acronym"].lower(), [])
+        if not earlier:
+            return ""
+        links = " and ".join(f'<a href="{e(self.group_href(a, 1))}">{e(a)}</a>' for a in earlier)
+        return f" Carries on from {links}."
 
     def glossary(self):
         rows = "".join(

@@ -16,6 +16,8 @@ bof_sessions:
 - meeting: '99'
   date: '2017-07-16'
   url: https://datatracker.ietf.org/meeting/99/session/netslicing/
+became: null
+began_as: []
 history_url: https://datatracker.ietf.org/group/netslicing/history/
 chairs:
 - person: 103539
@@ -46,12 +48,23 @@ chairs:
       date: '2017-06-12'
     end:
       certainty: between
-      not_before: '2017-07-16'
+      not_before: '2017-07-20'
       not_after: '2017-10-05'
     notes:
-    - 'End: the BOF met at IETF 99 (2017-07-16)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2017-07-20)'
     - 'End: the group closed (2017-10-05)'
   evidence:
+  - kind: chair activity
+    first: '2017-07-05'
+    last: '2017-07-20'
+    messages: 2
+    examples:
+    - date: '2017-07-05'
+      subject: '[Netslices] Draft agenda for Netslices BoF'
+      url: https://mailarchive.ietf.org/arch/msg/netslices/5FnqjDhVeJ0ueSg44MqZxzAIWwY/
+    - date: '2017-07-20'
+      subject: '[Netslices] Netslices draft minutes posted'
+      url: https://mailarchive.ietf.org/arch/msg/netslices/MjnWG0dt4EgJgVKu7fkCcNSWYsg/
   - kind: BOF session
     meeting: '99'
     date: '2017-07-16'

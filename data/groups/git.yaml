@@ -13,22 +13,15 @@ bof: false
 never_chartered: false
 chartered: '2019-02-08'
 bof_sessions: []
+became: null
+began_as:
+- wugh
 history_url: https://datatracker.ietf.org/group/git/history/
 chairs:
 - person: 10083
   name: Paul Hoffman
   status: confirmed
   periods:
-  - start:
-      certainty: evidence-only
-      not_after: '2018-10-26'
-    end:
-      certainty: between
-      not_before: '2018-10-26'
-      not_after: '2019-01-29'
-    notes:
-    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2018-10-26)'
-    - 'End: posted an agenda, minutes or interim notice to the group''s list (2018-10-26)'
   - start:
       certainty: exact
       date: '2019-01-29'
@@ -40,14 +33,6 @@ chairs:
     date: '2019-02-08'
     subject: 'WG Action: Formed GitHub Integration and Tooling (git)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/C_F5PoO01g0tOfnHiw-Z-znJOWQ/
-  - kind: chair activity
-    first: '2018-10-26'
-    last: '2018-10-26'
-    messages: 1
-    examples:
-    - date: '2018-10-26'
-      subject: '[Ietf-and-github] Proposed agenda for the upcoming meeting'
-      url: https://mailarchive.ietf.org/arch/msg/ietf-and-github/8uh-RHNwZF814k93_VOM6UsR0AI/
 - person: 121595
   name: Christopher Wood
   status: confirmed

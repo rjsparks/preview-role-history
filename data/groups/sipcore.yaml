@@ -16,6 +16,8 @@ bof: false
 never_chartered: false
 chartered: '2009-04-13'
 bof_sessions: []
+became: null
+began_as: []
 history_url: https://datatracker.ietf.org/group/sipcore/history/
 chairs:
 - person: 103539
@@ -34,6 +36,23 @@ chairs:
     - 'End: listed as chair in meeting minutes (2010-03-21)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2010-04-16)'
   evidence:
+  - kind: chair activity
+    first: '2009-06-12'
+    last: '2010-02-22'
+    messages: 7
+    examples:
+    - date: '2009-06-12'
+      subject: '[sipcore] Milestone to revise RFC 3265'
+      url: https://mailarchive.ietf.org/arch/msg/sipcore/A2NrXFU4clxorE4_Yftpf6N8d_o/
+    - date: '2009-07-15'
+      subject: '[sipcore] WGLC: draft-ietf-sipcore-info-events-00'
+      url: https://mailarchive.ietf.org/arch/msg/sipcore/1B_3wv7Sly9HPrcAUrZCaEAChkg/
+    - date: '2009-07-20'
+      subject: '[sipcore] WGLC: draft-ietf-sipcore-location-conveyance-01.txt'
+      url: https://mailarchive.ietf.org/arch/msg/sipcore/ZhIPHx3TUtnY8W_D39H_I_xNQq8/
+    - date: '2009-12-10'
+      subject: '[sipcore] WGLC draft-ietf-sipcore-info-events-03.txt'
+      url: https://mailarchive.ietf.org/arch/msg/sipcore/mL9FqfrNl5ekZjcI__XMN3KM_Js/
   - kind: minutes
     listed_in: 3
     first: '2009-07-26'
@@ -90,25 +109,25 @@ chairs:
     subject: 'WG Action: Rechartered Session Initiation Protocol Core (sipcore)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/dxLUpZitrdsIwKza3_d6eoYKPaY/
   - kind: chair activity
-    first: '2010-07-14'
+    first: '2009-08-06'
     last: '2017-03-06'
-    messages: 21
+    messages: 24
     examples:
+    - date: '2009-08-06'
+      subject: '[sipcore] Meeting Minutes Posted'
+      url: https://mailarchive.ietf.org/arch/msg/sipcore/_a1nnzGP8IIvce_YrcSXM2DMXus/
+    - date: '2009-11-10'
+      subject: '[sipcore] IETF 76 SIPCORE Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/sipcore/4DTXNnyMsne4uy0ZcBRNbTDLI94/
     - date: '2010-07-14'
       subject: '[sipcore] WGLC: draft-ietf-sipcore-keep'
       url: https://mailarchive.ietf.org/arch/msg/sipcore/y-DbYRBA0gYQsXKdK1siXszs6bs/
-    - date: '2010-08-04'
-      subject: '[sipcore] Preliminary minutes posted'
-      url: https://mailarchive.ietf.org/arch/msg/sipcore/l6q34uYjUmxdWyoWr_q5SRNQ-Eg/
     - date: '2010-08-16'
       subject: '[sipcore] WGLC: draft-ietf-sipcore-rfc4244bis'
       url: https://mailarchive.ietf.org/arch/msg/sipcore/S4CJZTr2Lvo1IZ3eqROB1KG5o9A/
     - date: '2010-10-13'
       subject: '[sipcore] WGLC: draft-ietf-sipcore-sec-flows'
       url: https://mailarchive.ietf.org/arch/msg/sipcore/uNSpoy8mMELxZul2Ol1tGMMi2gw/
-    - date: '2010-10-25'
-      subject: '[sipcore] Call for agenda items'
-      url: https://mailarchive.ietf.org/arch/msg/sipcore/2MImSP9ktk1UnB-9C2HmWMhGZLc/
   - kind: minutes
     listed_in: 10
     first: '2009-07-26'

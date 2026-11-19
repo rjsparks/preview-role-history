@@ -13,6 +13,8 @@ bof: false
 never_chartered: false
 chartered: '2020-07-10'
 bof_sessions: []
+became: null
+began_as: []
 history_url: https://datatracker.ietf.org/group/shmoo/history/
 chairs:
 - person: 106412
@@ -43,19 +45,25 @@ chairs:
     subject: 'WG Action: Rechartered Stay Home Meet Only Online (shmoo)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/szhqlB5LIRNb4noHR2gfBsLvTPo/
   - kind: chair activity
-    first: '2021-08-17'
+    first: '2020-07-14'
     last: '2021-10-24'
-    messages: 3
+    messages: 9
     examples:
-    - date: '2021-08-17'
-      subject: '[Manycouches] Working group last call for draft-ietf-shmoo-remote-fee-01'
-      url: https://mailarchive.ietf.org/arch/msg/manycouches/KD0ex8TPxmFy3DTlup30A33chEo/
-    - date: '2021-09-30'
-      subject: '[Manycouches] Working group last call for draft-ietf-shmoo-hackathon-01'
-      url: https://mailarchive.ietf.org/arch/msg/manycouches/MYCFXQlkWSsvlL24gEA43J-elzY/
-    - date: '2021-10-24'
-      subject: '[Manycouches] Call for agenda items shmoo@IETF112'
-      url: https://mailarchive.ietf.org/arch/msg/manycouches/MAHH_PP6PHjpl3l7o7-vYRx_r5E/
+    - date: '2020-07-14'
+      subject: '[Manycouches] Call for agenda items'
+      url: https://mailarchive.ietf.org/arch/msg/manycouches/ed-7MYurqL3C5AoL1i4dP13FzPI/
+    - date: '2020-10-18'
+      subject: '[Manycouches] Call for agenda items shmoo@IETF109'
+      url: https://mailarchive.ietf.org/arch/msg/manycouches/UNz9z0442F2CAMplHOFHIKmcFMA/
+    - date: '2021-02-05'
+      subject: '[Manycouches] Call for WG adoption: draft-duke-shmoo-cancel-meeting-01'
+      url: https://mailarchive.ietf.org/arch/msg/manycouches/kny0CophudVhxnpK2H_tWXDNJVs/
+    - date: '2021-02-05'
+      subject: '[Manycouches] Call for WG adoption: draft-kuehlewind-shmoo-remote-fee-02'
+      url: https://mailarchive.ietf.org/arch/msg/manycouches/mtR51BwXTs7O0HuTKddrCy-qc0A/
+    - date: '2021-04-27'
+      subject: '[Manycouches] Call for WG adoption: draft-eckel-shmoo-ietf-hackathon-04'
+      url: https://mailarchive.ietf.org/arch/msg/manycouches/8HqbIynle2FTK8ytmycGXO27wjQ/
   - kind: shepherded
     documents:
     - draft-ietf-shmoo-remote-fee

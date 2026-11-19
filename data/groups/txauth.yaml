@@ -19,6 +19,10 @@ bof_sessions:
 - meeting: '107'
   date: '2020-03-23'
   url: https://datatracker.ietf.org/meeting/107/session/txauth/
+became:
+  group: gnap
+  how: the datatracker says so
+began_as: []
 history_url: https://datatracker.ietf.org/group/txauth/history/
 chairs:
 - person: 104278
@@ -30,12 +34,20 @@ chairs:
       date: '2019-10-28'
     end:
       certainty: between
-      not_before: '2020-03-23'
+      not_before: '2020-03-26'
       not_after: '2020-06-19'
     notes:
-    - 'End: the BOF met at IETF 107 (2020-03-23)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2020-03-26)'
     - 'End: the group closed (2020-06-19)'
   evidence:
+  - kind: chair activity
+    first: '2020-03-26'
+    last: '2020-03-26'
+    messages: 1
+    examples:
+    - date: '2020-03-26'
+      subject: '[Txauth] TxAuth at IETF-107, draft minutes'
+      url: https://mailarchive.ietf.org/arch/msg/txauth/S308xN3B84IDeHaxkjOLp8bsXKg/
   - kind: BOF session
     meeting: '106'
     date: '2019-11-16'
@@ -59,6 +71,17 @@ chairs:
     - 'End: the BOF met at IETF 107 (2020-03-23)'
     - 'End: the group closed (2020-06-19)'
   evidence:
+  - kind: chair activity
+    first: '2019-10-28'
+    last: '2020-03-16'
+    messages: 2
+    examples:
+    - date: '2019-10-28'
+      subject: '[Txauth] Tx Auth BOF agenda items'
+      url: https://mailarchive.ietf.org/arch/msg/txauth/xBnS2U-CtAlaJjuKYXwgEGnWDmQ/
+    - date: '2020-03-16'
+      subject: '[Txauth] TxAuth BoF draft agenda'
+      url: https://mailarchive.ietf.org/arch/msg/txauth/fdSjbuzx0oJG-n67lBU92sEnrlY/
   - kind: BOF session
     meeting: '106'
     date: '2019-11-16'

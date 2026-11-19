@@ -180,7 +180,10 @@ def earliest_end(end):
 
 
 def never_chartered(group):
-    """A BOF that never became a working group, whatever state the datatracker gives it."""
+    """A BOF never chartered under its own acronym, whatever state the datatracker gives it.
+
+    It may still have gone on as a group under another acronym: see its `became`.
+    """
     return bool(group.get("never_chartered")) or group.get("state") in BOF_STATES
 
 

@@ -16,6 +16,9 @@ bof_sessions:
 - meeting: '88'
   date: '2013-11-03'
   url: https://datatracker.ietf.org/meeting/88/session/sfc/
+became: null
+began_as:
+- nsc
 history_url: https://datatracker.ietf.org/group/sfc/history/
 chairs:
 - person: 3862
@@ -37,6 +40,32 @@ chairs:
     date: '2018-02-12'
     subject: 'WG Action: Rechartered Service Function Chaining (sfc)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/JKv_eZudxRm9FLu3XK_fduqg4X8/
+  - kind: list message
+    date: '2016-11-01'
+    says: start
+    subject: '[sfc] SFC Chair Changes'
+    url: https://mailarchive.ietf.org/arch/msg/sfc/L9MINb-1gNrn9NAE40SoBH3TdFo/
+    excerpt: I am appointing Joel Halpern to replace them.
+  - kind: chair activity
+    first: '2016-12-07'
+    last: '2022-03-07'
+    messages: 13
+    examples:
+    - date: '2016-12-07'
+      subject: '[sfc] Meeting minutes'
+      url: https://mailarchive.ietf.org/arch/msg/sfc/EzRVXSLm6O71JAWMVcpfkunESbU/
+    - date: '2016-12-09'
+      subject: '[sfc] SFC WG Interim'
+      url: https://mailarchive.ietf.org/arch/msg/sfc/CKAu7ScvJhPoC8ALvggfO-HDEvk/
+    - date: '2017-03-14'
+      subject: '[sfc] WG Last call - Hierarchical SFC'
+      url: https://mailarchive.ietf.org/arch/msg/sfc/oLVDene_yBx3hCTzLcnn7WyNrE8/
+    - date: '2017-04-25'
+      subject: '[sfc] Call for Adoption: draft-quinn-sfc-nsh-tlv-03.txt'
+      url: https://mailarchive.ietf.org/arch/msg/sfc/ElDPeWBI0yOLEJ-mfCjPN4mMujo/
+    - date: '2017-09-22'
+      subject: '[sfc] Adoption call for https://datatracker.ietf.org/doc/draft-guichard-sfc-nsh-dc-allocation/'
+      url: https://mailarchive.ietf.org/arch/msg/sfc/J2m8HU4i0LO-rxkZ1deta8w9NUs/
   - kind: proceedings
     listed_in: 2
     first: '2016-11-13'
@@ -71,6 +100,39 @@ chairs:
     date: '2013-12-20'
     subject: 'WG Action: Formed Service Function Chaining (sfc)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Tx22e3tUa_EhgBDcWlRctmYMDWk/
+  - kind: list message
+    date: '2016-10-24'
+    says: end
+    subject: '[sfc] SFC Chair changes & request for private suggestions on replacement'
+    url: https://mailarchive.ietf.org/arch/msg/sfc/RO0qLb4d6V7l6Dpiul4OI49BDq0/
+    excerpt: Thomas & Martin will be stepping down as SFC WG Chairs once I have appointed a replacement.
+  - kind: list message
+    date: '2016-11-01'
+    says: end
+    subject: '[sfc] SFC Chair Changes'
+    url: https://mailarchive.ietf.org/arch/msg/sfc/L9MINb-1gNrn9NAE40SoBH3TdFo/
+    excerpt: I would again like to thank Thomas Narten and and Martin Stiemerling for their work as SFC
+      Chairs.
+  - kind: chair activity
+    first: '2014-01-10'
+    last: '2016-03-31'
+    messages: 6
+    examples:
+    - date: '2014-01-10'
+      subject: '[sfc] Call for WG Adoption of draft-quinn-sfc-problem-statement-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/sfc/TMqq4hhzi7XY3hQEyfbtcmFtTXE/
+    - date: '2014-02-19'
+      subject: '[sfc] Draft SFC agenda for London'
+      url: https://mailarchive.ietf.org/arch/msg/sfc/HqUEPR5Xobii0jMkI_u7Gqj7lUM/
+    - date: '2014-05-02'
+      subject: '[sfc] WG Last Call for SFC Problem Statement'
+      url: https://mailarchive.ietf.org/arch/msg/sfc/cTu7Xy8DiYEZ_eWM692zDOJ3MVk/
+    - date: '2015-10-28'
+      subject: '[sfc] SFC Agenda for Yokohoma'
+      url: https://mailarchive.ietf.org/arch/msg/sfc/MGklIRnWkgwis-OXjUdl3eaq7ak/
+    - date: '2016-03-31'
+      subject: '[sfc] WG last call for draft-ietf-sfc-nsh-04.txt'
+      url: https://mailarchive.ietf.org/arch/msg/sfc/wChwczqQbYV6nUb7XHGef5-R3og/
   - kind: proceedings
     listed_in: 9
     first: '2013-11-03'
@@ -99,6 +161,39 @@ chairs:
       certainty: exact
       date: '2016-11-01'
   evidence:
+  - kind: list message
+    date: '2015-12-17'
+    says: start
+    subject: '[sfc] Adding Martin Stiemerling as WG Chair for SFC'
+    url: https://mailarchive.ietf.org/arch/msg/sfc/Gd7gF13WVg1RByiliiZE672_WlU/
+    excerpt: I am appointing Martin Stiemerling as a third WG chair for SFC.
+  - kind: list message
+    date: '2016-10-24'
+    says: end
+    subject: '[sfc] SFC Chair changes & request for private suggestions on replacement'
+    url: https://mailarchive.ietf.org/arch/msg/sfc/RO0qLb4d6V7l6Dpiul4OI49BDq0/
+    excerpt: Thomas & Martin will be stepping down as SFC WG Chairs once I have appointed a replacement.
+  - kind: list message
+    date: '2016-11-01'
+    says: end
+    subject: '[sfc] SFC Chair Changes'
+    url: https://mailarchive.ietf.org/arch/msg/sfc/L9MINb-1gNrn9NAE40SoBH3TdFo/
+    excerpt: I would again like to thank Thomas Narten and and Martin Stiemerling for their work as SFC
+      Chairs.
+  - kind: chair activity
+    first: '2016-03-25'
+    last: '2016-10-07'
+    messages: 5
+    examples:
+    - date: '2016-03-25'
+      subject: '[sfc] Agenda for IETF-95 SFC session'
+      url: https://mailarchive.ietf.org/arch/msg/sfc/yqxVsdpmW0Slj10DOE17gRD8sVA/
+    - date: '2016-04-27'
+      subject: '[sfc] WGLC for draft-ietf-sfc-control-plane-04.txt'
+      url: https://mailarchive.ietf.org/arch/msg/sfc/vZgGmdNV5mcrdobZiPNmYu3DRpU/
+    - date: '2016-04-29'
+      subject: '[sfc] Draft minutes SFC session @ IETF-95 in Buenos Airs'
+      url: https://mailarchive.ietf.org/arch/msg/sfc/KeBLbuQDGDrXvTxlDoAet_tgddo/
   - kind: proceedings
     listed_in: 3
     first: '2015-11-01'
@@ -145,6 +240,26 @@ chairs:
     date: '2018-02-12'
     subject: 'WG Action: Rechartered Service Function Chaining (sfc)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/JKv_eZudxRm9FLu3XK_fduqg4X8/
+  - kind: chair activity
+    first: '2014-04-18'
+    last: '2022-04-11'
+    messages: 22
+    examples:
+    - date: '2014-04-18'
+      subject: '[sfc] Call for adoption of draft-haeffner-sfc-use-case-mobility-01'
+      url: https://mailarchive.ietf.org/arch/msg/sfc/aDsfxckCiKSQsF5Sz0SPfX-Mu4g/
+    - date: '2014-04-18'
+      subject: '[sfc] Call for adoption of draft-kumar-sfc-dc-use-cases-01'
+      url: https://mailarchive.ietf.org/arch/msg/sfc/7z5sr9ejiRPLZHu5siheMuen1oA/
+    - date: '2014-05-19'
+      subject: '[sfc] Call for WG adoption of draft-krishnan-sfc-long-lived-flow-use-cases-02'
+      url: https://mailarchive.ietf.org/arch/msg/sfc/zcI0NnSD-VBLBz8UjoOzJv2K64w/
+    - date: '2016-10-21'
+      subject: '[sfc] SFC Virtual Interim 10/14 Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/sfc/J9x-jwEWqe_IX9eECVCRHI1a4UM/
+    - date: '2017-01-13'
+      subject: '[sfc] Upcoming SFC WG Interim meeting'
+      url: https://mailarchive.ietf.org/arch/msg/sfc/7IngVUZcqNDFVdqtMHtsL7kihhY/
   - kind: minutes
     listed_in: 1
     first: '2016-07-17'

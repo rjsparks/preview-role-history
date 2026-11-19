@@ -16,6 +16,8 @@ bof_sessions:
 - meeting: '101'
   date: '2018-03-17'
   url: https://datatracker.ietf.org/meeting/101/session/coms/
+became: null
+began_as: []
 history_url: https://datatracker.ietf.org/group/coms/history/
 chairs:
 - person: 103539
@@ -42,18 +44,6 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2015-07-19'
-      not_after: '2017-07-05'
-    end:
-      certainty: between
-      not_before: '2017-07-20'
-      not_after: '2018-02-27'
-    notes:
-    - 'Start: became an Area Director, first serving at IETF 75 (2009-07-26)'
-    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2017-07-05)'
-    - 'End: posted an agenda, minutes or interim notice to the group''s list (2017-07-20)'
-  - start:
       certainty: exact
       date: '2018-02-27'
     end:
@@ -65,22 +55,17 @@ chairs:
     - 'End: the group closed (2018-06-05)'
   evidence:
   - kind: chair activity
-    first: '2017-07-05'
+    first: '2018-03-07'
     last: '2018-04-12'
-    messages: 5
+    messages: 3
     examples:
-    - date: '2017-07-05'
-      subject: '[Netslices] Draft agenda for Netslices BoF'
-      url: https://mailarchive.ietf.org/arch/msg/netslices/5FnqjDhVeJ0ueSg44MqZxzAIWwY/
-    - date: '2017-07-20'
-      subject: '[Netslices] Netslices draft minutes posted'
-      url: https://mailarchive.ietf.org/arch/msg/netslices/MjnWG0dt4EgJgVKu7fkCcNSWYsg/
+    - date: '2018-03-07'
+      subject: '[Netslices] Initial Draft Agenda for COMS BoF'
+      url: https://mailarchive.ietf.org/arch/msg/netslices/L6euOJe3OLYuF6Azia5_Wk0TSjI/
+    - date: '2018-03-19'
+      subject: '[Netslices] "Final" Agenda for COMS BoF'
+      url: https://mailarchive.ietf.org/arch/msg/netslices/5lwYzAsbmJ4ZlO3JCS_fUCh1Yvo/
   - kind: BOF session
     meeting: '101'
     date: '2018-03-17'
     url: https://datatracker.ietf.org/meeting/101/session/coms/
-  - kind: joined the IESG
-    after_meeting: '74'
-    after: '2009-03-22'
-    by_meeting: '75'
-    by: '2009-07-26'

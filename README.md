@@ -75,7 +75,7 @@ chairs:
 - **rejected** (group level): people who were *not* chairs of the group although the seed
   suggested it, each `{person, sources}`. The seed won't list them again.
 - **overrides** (group level): corrected group fields (`name`, `state`, `parent`, `areas`,
-  `started`, `closed`, `bof`, `never_chartered`, `chartered`), kept over the seed's values.
+  `started`, `closed`, `bof`, `never_chartered`, `chartered`, `became`), kept over the seed's values.
 - **Group field** `areas` lists every area the group was in, each `{area, first, last}`: the
   dates it was first and last seen there. An open group's current area has `last: null`. `parent` is only its current (or final) area.
   Before 2011 the areas come from the area director block of the charter pages in the
@@ -83,10 +83,17 @@ chairs:
   from tsv to rai in 2006), and the site shows each area in turn. Chairs are not tied to
   areas.
 - **Group fields** `bof`, `never_chartered`, `chartered` and `bof_sessions` say whether the
-  group began as a BOF, whether it never became a working group, when it was first
+  group began as a BOF, whether it was never chartered under its own acronym, when it was first
   chartered, and which BOF sessions the meeting proceedings show.
   The site uses them to mark chairing that was only for the BOF ("BOF only") or that
   carried on into the working group ("BOF, then WG"). Correct them under `overrides`.
+- **Group fields** `became` and `began_as` link a group to the one it went on as under another
+  acronym: the iasa20 BOF became the iasa2 working group, and bmwg and ippm went on as bpm. `became` is `{group, how}`, where
+  `how` says why we believe it: the datatracker says so, or (for a BOF) the two shared a mailing list and
+  a chair (or the BOF is marked replaced) and the WG was chartered within two years of the
+  BOF's last meeting. `began_as` lists, on the WG, the groups whose `became` names it.
+  `became: null` means nothing we have shows a successor, not that there was none. Add one
+  under `overrides`, or report it with the "A BOF went on as another group" issue form.
 - **Groups the datatracker doesn't know about.** Some early groups and BOFs never made it
   into the datatracker, and we collect their chairs anyway. Add a file for one with
   `datatracker: false`, a `type` of `bof`, `wg` or `rg`, its `state` as best known (or

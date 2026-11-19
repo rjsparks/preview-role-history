@@ -19,6 +19,10 @@ bof_sessions:
 - meeting: '103'
   date: '2018-11-03'
   url: https://datatracker.ietf.org/meeting/103/session/wugh/
+became:
+  group: git
+  how: same mailing list, and a chair in common
+began_as: []
 history_url: https://datatracker.ietf.org/group/wugh/history/
 chairs:
 - person: 10083
@@ -36,6 +40,14 @@ chairs:
     - 'End: the BOF met at IETF 103 (2018-11-03)'
     - 'End: the group closed (2019-02-15)'
   evidence:
+  - kind: chair activity
+    first: '2018-10-26'
+    last: '2018-10-26'
+    messages: 1
+    examples:
+    - date: '2018-10-26'
+      subject: '[Ietf-and-github] Proposed agenda for the upcoming meeting'
+      url: https://mailarchive.ietf.org/arch/msg/ietf-and-github/8uh-RHNwZF814k93_VOM6UsR0AI/
   - kind: minutes
     listed_in: 1
     first: '2017-03-26'

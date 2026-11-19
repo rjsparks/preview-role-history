@@ -13,6 +13,9 @@ bof: false
 never_chartered: false
 chartered: '2020-02-21'
 bof_sessions: []
+became: null
+began_as:
+- tmrid
 history_url: https://datatracker.ietf.org/group/drip/history/
 chairs:
 - person: 103539
@@ -84,12 +87,10 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2019-11-29'
+      date: '2020-02-11'
     end:
       certainty: group-closed
       date: '2026-06-09'
-    notes:
-    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2019-11-29)'
   evidence:
   - kind: WG Review
     date: '2020-02-11'
@@ -100,16 +101,16 @@ chairs:
     subject: 'WG Action: Formed Drone Remote ID Protocol (drip)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/wvdO4UmtjEo_ffsnk0CYAu8BLiY/
   - kind: chair activity
-    first: '2019-11-29'
+    first: '2020-03-27'
     last: '2025-10-21'
-    messages: 12
+    messages: 9
     examples:
-    - date: '2019-11-29'
-      subject: '[Tm-rid] TR-MID minutes of IETF 106'
-      url: https://mailarchive.ietf.org/arch/msg/tm-rid/dsUTjpMI0dosVV1pBzWtCB4fkes/
-    - date: '2020-01-11'
-      subject: '[Tm-rid] doodle for interim meeting for TM-RID'
-      url: https://mailarchive.ietf.org/arch/msg/tm-rid/R9EdsoYD5b0EW5AbBpNWgbTzGLY/
+    - date: '2020-03-27'
+      subject: '[Tm-rid] planning interim meetings'
+      url: https://mailarchive.ietf.org/arch/msg/tm-rid/kAqQWogdBbz4g4ZHjwuJI5u-k0c/
+    - date: '2020-03-30'
+      subject: '[Tm-rid] Planning DRIP interim meetings'
+      url: https://mailarchive.ietf.org/arch/msg/tm-rid/s3yhyxL-YpkDrdb3r8MNAxWAIHI/
     - date: '2020-09-09'
       subject: '[Drip] call for adoption for draft-ietf-drip-uas-rid'
       url: https://mailarchive.ietf.org/arch/msg/tm-rid/yD-a7itzD5t4-E0gVQnc9EcH7o8/

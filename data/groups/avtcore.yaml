@@ -19,6 +19,8 @@ bof: false
 never_chartered: false
 chartered: '2011-01-25'
 bof_sessions: []
+became: null
+began_as: []
 history_url: https://datatracker.ietf.org/group/avtcore/history/
 chairs:
 - person: 12620
@@ -112,19 +114,19 @@ chairs:
     excerpt: As we already have two other fine chairs, in Jonathan and Roni, I think there's no reason
       to appoint a replacement chair, and AVTCORE will continue with two chairs.
   - kind: chair activity
-    first: '2017-03-31'
+    first: '2017-11-03'
     last: '2026-11-06'
-    messages: 24
+    messages: 22
     examples:
-    - date: '2017-03-31'
-      subject: '[AVTCORE] Minutes for AVTCORE session at IETF98'
-      url: https://mailarchive.ietf.org/arch/msg/avt/zEff4c2GU4yenuhewQ4drwICdI0/
-    - date: '2017-07-08'
-      subject: '[AVTCORE] Agenda for AVTCore at IETF 99'
-      url: https://mailarchive.ietf.org/arch/msg/avt/SV7TSb4nWdQnDm6a8_UhRWmH1Sg/
+    - date: '2017-11-03'
+      subject: '[AVTCORE] Draft agenda for AVTCore meeting in Singapore'
+      url: https://mailarchive.ietf.org/arch/msg/avt/2n25YgyObj9wP5XL2SHrXs9WU_M/
     - date: '2020-04-15'
       subject: '[AVTCORE] Call for adoption: RTP mixer formatting of multi-party real-time text'
       url: https://mailarchive.ietf.org/arch/msg/avt/Grt4jzeckM2al-frfhCUnlQe3uk/
+    - date: '2020-07-15'
+      subject: '[AVTCORE] Draft agenda for AVTCore at IETF 108'
+      url: https://mailarchive.ietf.org/arch/msg/avt/xSQkYoAB83lq3sq3z-6ZNMYpagQ/
     - date: '2020-07-30'
       subject: '[AVTCORE] Call for Adoption: Multiplexing Scheme Updates for QUIC'
       url: https://mailarchive.ietf.org/arch/msg/avt/rSHpufbOC16YznQiMkUqbaNLuZ0/
@@ -175,28 +177,8 @@ chairs:
     date: '2017-03-06'
     subject: 'WG Action: Rechartered Audio/Video Transport Core Maintenance (avtcore)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/eXjXqqapfI7FZsH0fESrsYo-toY/
-  - kind: chair activity
-    first: '2012-03-29'
-    last: '2017-02-27'
-    messages: 22
-    examples:
-    - date: '2012-03-29'
-      subject: '[AVTCORE] Milestone update for AVTCORE WG'
-      url: https://mailarchive.ietf.org/arch/msg/avt/PJyfnytEim0uBHR9hdJ-ITW26x8/
-    - date: '2012-04-23'
-      subject: '[AVTCORE] Draft minutes'
-      url: https://mailarchive.ietf.org/arch/msg/avt/K919x9hMWWDKOgSa_A5ngeNu6s4/
-    - date: '2012-11-27'
-      subject: '[AVTCORE] Working group last call on draft-ietf-avtcore-srtp-aes-gcm-03'
-      url: https://mailarchive.ietf.org/arch/msg/avt/peBT-5kjsUiO900VBDUVhv3uRuA/
-    - date: '2013-01-21'
-      subject: '[AVTCORE] WG last call (Second) on draft-ietf-avtcore-idms-08'
-      url: https://mailarchive.ietf.org/arch/msg/avt/CNnYcwEbkcanhOkkvamz6V_uM9I/
-    - date: '2013-03-12'
-      subject: '[AVTCORE] WG last call on draft-ietf-avtcore-avp-codecs-01'
-      url: https://mailarchive.ietf.org/arch/msg/avt/edaxNlhbIeDquPyAc2hLt519QlI/
   - kind: minutes
-    listed_in: 8
+    listed_in: 6
     first: '2011-03-27'
     last: '2016-07-17'
     examples:
@@ -289,27 +271,15 @@ chairs:
     excerpt: As many of you likely know, Roni Even has retired, and he's asked me to find a chair for
       AVTCORE to replace him.
   - kind: chair activity
-    first: '2012-06-17'
+    first: '2020-02-27'
     last: '2020-02-27'
-    messages: 34
+    messages: 1
     examples:
-    - date: '2012-06-17'
-      subject: '[AVTCORE] WGLC on draft-ietf-avtcore-idms-05'
-      url: https://mailarchive.ietf.org/arch/msg/avt/kFHy0Yqki3NkSgLZg1YgGhumiLQ/
-    - date: '2012-07-17'
-      subject: '[AVTCORE] Proposed AVTcore agenda for IETF84'
-      url: https://mailarchive.ietf.org/arch/msg/avt/e7g7LG3-TPyiDYz_zcjsSfZWLZE/
-    - date: '2012-08-06'
-      subject: '[AVTCORE] IETF 84 AVTcore minutes'
-      url: https://mailarchive.ietf.org/arch/msg/avt/RdwR7OQEicIoQga9QmPzg9UKZSM/
-    - date: '2013-04-21'
-      subject: '[AVTCORE] WGLC on draft-ietf-avtcore-clksrc-03'
-      url: https://mailarchive.ietf.org/arch/msg/avt/45_9qwL9hsHsBkf0ZxKS-CvjyNc/
-    - date: '2013-09-04'
-      subject: '[AVTCORE] WGLC on srtp not mandatory and security options drafts'
-      url: https://mailarchive.ietf.org/arch/msg/avt/_3rSclkqH3dt8JcFDFdUy8fFQV4/
+    - date: '2020-02-27'
+      subject: '[AVTCORE] proposed agenda for Vancouver'
+      url: https://mailarchive.ietf.org/arch/msg/avt/KXrfjYpN70tQCdbtE82zjebnkfM/
   - kind: minutes
-    listed_in: 8
+    listed_in: 6
     first: '2011-03-27'
     last: '2016-07-17'
     examples:
@@ -379,19 +349,16 @@ chairs:
     subject: 'WG Action: Rechartered Audio/Video Transport Core Maintenance (avtcore)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/9BOrN1vjO7aDzPkil2gL2nGe4YE/
   - kind: chair activity
-    first: '2017-03-15'
+    first: '2017-11-20'
     last: '2019-11-07'
-    messages: 17
+    messages: 14
     examples:
-    - date: '2017-03-15'
-      subject: '[AVTCORE] Agenda for Chicago IETF 98'
-      url: https://mailarchive.ietf.org/arch/msg/avt/4Pcy4Yr1O5NYC_DtxSDgxIC4zIE/
-    - date: '2017-06-29'
-      subject: '[AVTCORE] [avtcore] WGLC for mux-category issue of draft-ietf-avtcore-rfc5282-bis-12'
-      url: https://mailarchive.ietf.org/arch/msg/avt/k-vDHyTg0iOMTGyz2R9TbRLj5XM/
-    - date: '2017-07-27'
-      subject: '[AVTCORE] AVTCORE minutes for IETF99'
-      url: https://mailarchive.ietf.org/arch/msg/avt/6DyCG9KccppsMfxmAQERVMbfMFg/
+    - date: '2017-11-20'
+      subject: '[AVTCORE] minutes for AVTcore in IETF 100'
+      url: https://mailarchive.ietf.org/arch/msg/avt/TjLYE3Ra31ydDAwdDCe2ER0doYI/
+    - date: '2018-03-07'
+      subject: '[AVTCORE] Avtcore agenda for IETF 101'
+      url: https://mailarchive.ietf.org/arch/msg/avt/NxrRxN7jqhHgJ--zFvsG47W5ntM/
     - date: '2019-01-09'
       subject: '[AVTCORE] WGLC for draft-ietf-avtcore-multiplex-guidelines-08'
       url: https://mailarchive.ietf.org/arch/msg/avt/Maw-dV8a5Qn5_suswrPLaBkSwoA/

@@ -19,6 +19,8 @@ bof_sessions:
 - meeting: '80'
   date: '2011-03-27'
   url: https://www.ietf.org/proceedings/80/renum.html
+became: null
+began_as: []
 history_url: https://datatracker.ietf.org/group/renum/history/
 chairs:
 - person: 1958
@@ -71,6 +73,17 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
   evidence:
+  - kind: chair activity
+    first: '2011-04-05'
+    last: '2011-04-13'
+    messages: 2
+    examples:
+    - date: '2011-04-05'
+      subject: '[renum] Draft BoF minutes from IETF80'
+      url: https://mailarchive.ietf.org/arch/msg/renum/08SXmnDGw_dxsV4UpLQOclQo1iM/
+    - date: '2011-04-13'
+      subject: '[renum] IETF 80 BoF minutes uploaded'
+      url: https://mailarchive.ietf.org/arch/msg/renum/3zftTELEidqOaCZ7ehXlzlBPB3Q/
   - kind: proceedings
     listed_in: 2
     first: '2010-11-07'

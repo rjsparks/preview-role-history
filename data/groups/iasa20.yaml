@@ -25,6 +25,10 @@ bof_sessions:
 - meeting: '101'
   date: '2018-03-17'
   url: https://datatracker.ietf.org/meeting/101/session/iasa20/
+became:
+  group: iasa2
+  how: the datatracker says so
+began_as: []
 history_url: https://datatracker.ietf.org/group/iasa20/history/
 chairs:
 - person: 103539
@@ -53,13 +57,16 @@ chairs:
     - 'End: the group closed (2018-05-09)'
   evidence:
   - kind: minutes
-    listed_in: 1
+    listed_in: 2
     first: '2017-03-26'
-    last: '2017-03-26'
+    last: '2017-11-11'
     examples:
     - date: '2017-03-26'
       subject: IETF 98 minutes in the proceedings
       url: https://www.ietf.org/proceedings/98/iasa20.html
+    - date: '2017-11-11'
+      subject: '[Iasa20] Raw minutes'
+      url: https://mailarchive.ietf.org/arch/msg/iasa20/xIGHtXpJL6F5veMgv1giChAJc2U/
   - kind: proceedings
     listed_in: 1
     first: '2017-03-26'

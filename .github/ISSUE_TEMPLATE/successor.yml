@@ -1,0 +1,32 @@
+name: A BOF went on as another group
+description: A BOF (or other group) became a working or research group under a different acronym.
+title: "Became: "
+labels: [correction]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping. Many BOFs were chartered under a new acronym (the iasa20 BOF became the
+        iasa2 working group), and the datatracker often doesn't say so. If you came from the site,
+        the first field is already filled in.
+  - type: input
+    id: group
+    attributes:
+      label: The BOF's acronym
+      placeholder: iasa20
+    validations:
+      required: true
+  - type: input
+    id: became
+    attributes:
+      label: The acronym of the group it became
+      placeholder: iasa2
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: How do you know?
+      description: A charter, a WG Action announcement, a list message or minutes. Links are best.
+    validations:
+      required: true

@@ -16,37 +16,12 @@ bof_sessions:
 - meeting: '87'
   date: '2013-07-28'
   url: https://datatracker.ietf.org/meeting/87/session/nsc/
+became:
+  group: sfc
+  how: same mailing list, and a chair in common
+began_as: []
 history_url: https://datatracker.ietf.org/group/nsc/history/
 chairs:
-- person: 3862
-  name: Joel Halpern
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: between
-      not_before: '1998-03-30'
-      not_after: '2013-07-28'
-    end:
-      certainty: group-closed
-    notes:
-    - 'Start: became an Area Director, first serving at IETF 29 (1994-03-28)'
-    - 'Start: the BOF met at IETF 87 (2013-07-28)'
-  evidence:
-  - kind: list message
-    date: '2016-11-01'
-    says: start
-    subject: '[sfc] SFC Chair Changes'
-    url: https://mailarchive.ietf.org/arch/msg/sfc/L9MINb-1gNrn9NAE40SoBH3TdFo/
-    excerpt: I am appointing Joel Halpern to replace them.
-  - kind: BOF session
-    meeting: '87'
-    date: '2013-07-28'
-    url: https://datatracker.ietf.org/meeting/87/session/nsc/
-  - kind: joined the IESG
-    after_meeting: '28'
-    after: '1993-11-01'
-    by_meeting: '29'
-    by: '1994-03-28'
 - person: 7262
   name: Thomas Narten
   status: confirmed

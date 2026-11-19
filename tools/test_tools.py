@@ -498,6 +498,50 @@ class AreaHistoryTests(DataDirMixin, unittest.TestCase):
         self.assertTrue(any("`areas` must be" in m for m in self.problems()))
 
 
+class SuccessionTests(DataDirMixin, unittest.TestCase):
+    def build(self):
+        out = self.root / "site"
+        render.Site(cd.load(self.data), out, "example/chairs").build(Path(__file__).parent.parent / "site")
+        return out
+
+    def test_a_bof_that_went_on_under_another_acronym(self):
+        self.write_people(PEOPLE)
+        self.write_group(group(acronym="iasa20", state="replaced", closed="2018-05-09", chairs=[], bof=True,
+                               never_chartered=True, became={"group": "iasa2", "how": "the datatracker says so"}), "iasa20")
+        self.write_group(group(acronym="iasa2", chairs=[], began_as=["iasa20"]), "iasa2")
+        self.assertEqual(self.problems(), [])
+        out = self.build()
+        bof = (out / "groups" / "iasa20.html").read_text()
+        self.assertIn('A BOF that went on as <a href="../groups/iasa2.html">iasa2</a> (the datatracker says so)', bof)
+        self.assertIn('Carries on from <a href="../groups/iasa20.html">iasa20</a>.', (out / "groups" / "iasa2.html").read_text())
+
+    def test_a_working_group_that_went_on_as_another(self):
+        self.write_people(PEOPLE)
+        for a in ("bmwg", "ippm"):
+            self.write_group(group(acronym=a, state="conclude", closed="2026-11-04", chairs=[],
+                                   became={"group": "bpm", "how": "the datatracker says so"}), a)
+        self.write_group(group(acronym="bpm", chairs=[]), "bpm")
+        out = self.build()
+        self.assertIn('It went on as <a href="../groups/bpm.html">bpm</a> (the datatracker says so).',
+                      (out / "groups" / "bmwg.html").read_text())
+        self.assertIn("Carries on from <a href=\"../groups/bmwg.html\">bmwg</a> and <a href=\"../groups/ippm.html\">ippm</a>.",
+                      (out / "groups" / "bpm.html").read_text())
+
+    def test_no_known_successor_is_not_a_claim_there_was_none(self):
+        self.write_people(PEOPLE)
+        self.write_group(group(acronym="furi", state="conclude", closed="2003-12-10", chairs=[], bof=True,
+                               never_chartered=True, became=None), "furi")
+        page = (self.build() / "groups" / "furi.html").read_text()
+        self.assertIn("no working group was chartered under this acronym", page)
+        self.assertNotIn("not chartered as a working group", page)
+        self.assertIn("template=successor.yml", page)
+
+    def test_became_must_name_another_group(self):
+        self.write_people(PEOPLE)
+        self.write_group(group(acronym="iasa20", chairs=[], became={"group": "nosuch"}), "iasa20")
+        self.assertTrue(any("`became` names 'nosuch'" in m for m in self.problems()))
+
+
 class BofPhaseTests(unittest.TestCase):
     def period(self, start, end):
         return {"start": start, "end": end}

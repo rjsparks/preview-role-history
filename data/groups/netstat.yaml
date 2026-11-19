@@ -13,6 +13,8 @@ bof: false
 never_chartered: false
 chartered: '1994-06-02'
 bof_sessions: []
+became: null
+began_as: []
 history_url: https://datatracker.ietf.org/group/netstat/history/
 chairs:
 - person: 2790
@@ -21,24 +23,24 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '1993-11-19'
+      date: '1994-03-28'
     end:
       certainty: group-closed
       date: '1996-06-17'
     notes:
-    - 'Start: posted an agenda, minutes or interim notice to the group''s list (1993-11-19)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
   evidence:
   - kind: chair activity
-    first: '1993-11-19'
+    first: '1995-01-13'
     last: '1995-01-23'
-    messages: 4
+    messages: 2
     examples:
-    - date: '1993-11-19'
-      subject: NJM/NSR minutes draft.
-      url: https://mailarchive.ietf.org/arch/msg/njm/GSJZ9ddMI2kp-smOGOMXh8ffXz4/
-    - date: '1994-03-24'
-      subject: March '94 IETF Agenda for NJM/NETSTAT
-      url: https://mailarchive.ietf.org/arch/msg/njm/2jFjf2XIGjMsE7c2BqtpC2BbyYU/
+    - date: '1995-01-13'
+      subject: Draft NETSTAT Minutes for 7 Dec. 1995
+      url: https://mailarchive.ietf.org/arch/msg/njm/VYEBu3_huzBi7w6ev8pIpBOaQb4/
+    - date: '1995-01-23'
+      subject: Amended NETSTAT Minutes for 7 Dec. 1995
+      url: https://mailarchive.ietf.org/arch/msg/njm/ThIZrifw9jBiun_t7LH_fT8hSWQ/
   - kind: proceedings
     listed_in: 4
     first: '1994-03-28'

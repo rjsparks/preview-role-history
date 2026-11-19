@@ -13,6 +13,8 @@ bof: false
 never_chartered: false
 chartered: '2020-06-08'
 bof_sessions: []
+became: null
+began_as: []
 history_url: https://datatracker.ietf.org/group/shmo/history/
 chairs:
 - person: 106412
@@ -25,15 +27,6 @@ chairs:
     end:
       certainty: group-closed
       date: '2020-06-18'
-  evidence:
-  - kind: chair activity
-    first: '2020-06-18'
-    last: '2020-06-18'
-    messages: 1
-    examples:
-    - date: '2020-06-18'
-      subject: '[Manycouches] Call for agenda items'
-      url: https://mailarchive.ietf.org/arch/msg/manycouches/ed-7MYurqL3C5AoL1i4dP13FzPI/
 - person: 123969
   name: Amelia Andersdotter
   status: confirmed
