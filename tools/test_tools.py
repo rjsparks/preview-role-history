@@ -455,7 +455,8 @@ class AreaHistoryTests(DataDirMixin, unittest.TestCase):
         self.assertEqual(self.problems(), [])
         out = self.root / "site"
         render.Site(cd.load(self.data), out, "example/chairs").build(Path(__file__).parent.parent / "site")
-        self.assertIn("tsv (1995–2005), then rai (2006–2011),\nconcluded, ", (out / "groups" / "avt.html").read_text())
+        page = (out / "groups" / "avt.html").read_text()
+        self.assertIn("concluded 2011-03-18.\nAreas: tsv (1995–2005), then rai (2006–2011).", page)
         index = (out / "groups.html").read_text()
         self.assertGreater(index.index("<h2>tsv</h2>"), index.index("<h2>rai</h2>"))
         self.assertEqual(index.count("groups/avt.html"), 2)  # under both areas
@@ -468,6 +469,14 @@ class AreaHistoryTests(DataDirMixin, unittest.TestCase):
         out = self.root / "site"
         render.Site(cd.load(self.data), out, "example/chairs").build(Path(__file__).parent.parent / "site")
         self.assertIn("tsv (1998–2023), then wit (since 2024)", (out / "groups" / "nfsv4.html").read_text())
+
+    def test_lifespan_puts_the_closing_date_with_the_closing_state(self):
+        life = render.Site.lifespan_text
+        self.assertEqual(life(group(state="conclude", closed="2014-11-08")),
+                         "WG, started 2010-01-01, concluded 2014-11-08.")
+        self.assertEqual(life(group()), "WG, started 2010-01-01, active.")
+        self.assertEqual(life(group(state="bof-conc", started=None, never_chartered=True)), "BOF, concluded.")
+        self.assertEqual(life(group(state="bof", started=None, never_chartered=True)), "BOF.")
 
     def test_state_names(self):
         self.assertEqual(cd.state_text("conclude"), "concluded")

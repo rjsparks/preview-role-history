@@ -341,15 +341,13 @@ Dates marked <span class="q">?</span> are not exact; <a href="#dates">reading th
   <td>{self.status_html(entry)}{self.evidence_html(entry, 1)}</td>
   <td class="actions">{self.actions_html(g, entry, p)}</td>
 </tr>""" for _, name, key, entry, p in rows]
-        state = g.get("state")
-        life = " to ".join(x for x in (g.get("started"), g.get("closed")) if x)
         empty = "" if lines else "<p>No chairs recorded yet.</p>"
         table = "" if not lines else f"""<div class="scroll"><table>
 <thead><tr><th>Chair</th><th>From</th><th>Until</th><th>Basis</th><th><span class="sr">Actions</span></th></tr></thead>
 <tbody>{''.join(lines)}</tbody></table></div>"""
         body = f"""<h1>{e(acronym)} <span class="muted">{e(g.get('name'))}</span></h1>
-<p class="lede">{e('BOF' if cd.never_chartered(g) else TYPE_NAMES.get(g.get('type'), g.get('type')))} in {self.areas_text(g)},
-{e(cd.state_text(state))}{(', ' + e(life)) if life else ''}.
+<p class="lede">{self.lifespan_text(g)}
+{self.areas_text(g)}
 {self.group_links(g)}</p>
 {('<p>' + self.bof_history(g) + '</p>') if self.bof_history(g) else ''}
 <p>Know who chaired {e(acronym)} and when? <a class="act" href="{e(missing)}">Tell us about a missing chair</a>,
@@ -475,11 +473,30 @@ Each opens a short GitHub issue form, already filled in with the row you clicked
         return f'<div class="labels"><span class="label label-{phase}" title="{e(meaning)}">{e(label)}</span></div>'
 
     @staticmethod
+    def lifespan_text(g):
+        """What the group is and when it ran: "Working group, started 2001-04-06, concluded 2014-11-08."
+
+        The closing date goes with the state that ended the group, so the dates read as the group's
+        lifetime rather than as the span of its current state."""
+        kind = "BOF" if cd.never_chartered(g) else TYPE_NAMES.get(g.get("type"), g.get("type"))
+        state = cd.state_text(g.get("state"))
+        if kind == "BOF" and state.startswith("BOF"):
+            state = state[len("BOF"):].strip()  # "BOF, concluded", not "BOF, BOF concluded"
+        parts = [kind]
+        if g.get("started"):
+            parts.append(f"started {g['started']}")
+        closed = g.get("closed") if g.get("state") in cd.CLOSED_STATES else None
+        parts.append(" ".join(x for x in (state, closed) if x))
+        parts = [x for x in parts if x]
+        return e(", ".join(str(x) for x in parts)) + "."
+
+    @staticmethod
     def areas_text(g):
-        """Every area the group was in, with years: "tsv (1995–2005), then rai (2006–2011)"."""
+        """Every area the group was in, with years: "Areas: tsv (1995–2005), then rai (2006–2011)."."""
         runs = [r for r in (g.get("areas") or []) if isinstance(r, dict) and r.get("area")]
         if len(runs) < 2:
-            return e((runs[0]["area"] if runs else None) or g.get("parent") or "no area")
+            area = (runs[0]["area"] if runs else None) or g.get("parent")
+            return f"Area: {e(area)}." if area else "No area recorded."
 
         still_open = g.get("state") not in cd.CLOSED_STATES
 
@@ -488,7 +505,7 @@ Each opens a short GitHub issue form, already filled in with the row you clicked
             if last and still_open:
                 return f"since {a}"
             return a if a == b else f"{a}–{b}"
-        return ", then ".join(f"{e(r['area'])} ({years(r, i == len(runs) - 1)})" for i, r in enumerate(runs))
+        return "Areas: " + ", then ".join(f"{e(r['area'])} ({years(r, i == len(runs) - 1)})" for i, r in enumerate(runs)) + "."
 
     @staticmethod
     def bof_history(g):
