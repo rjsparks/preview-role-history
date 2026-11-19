@@ -2,6 +2,10 @@ acronym: find
 name: Common Indexing Protocol
 type: wg
 parent: app
+areas:
+- area: app
+  first: '1995-12-04'
+  last: '2011-12-09'
 state: conclude
 started: '1995-10-17'
 closed: '1999-08-17'
@@ -25,6 +29,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1995-12-04)'
   evidence:
+  - kind: minutes
+    listed_in: 5
+    first: '1997-08-11'
+    last: '1999-07-11'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-13.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-06.htm
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-12.html
   - kind: proceedings
     listed_in: 6
     first: '1995-12-04'
@@ -49,12 +67,24 @@ chairs:
       not_after: '1995-12-04'
     end:
       certainty: between
-      not_before: '1995-12-04'
+      not_before: '1997-12-08'
       not_after: '1998-03-30'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1995-12-04)'
+    - 'End: listed as chair in meeting minutes (1997-12-08)'
     - 'End: became an Area Director, first serving at IETF 41 (1998-03-30)'
   evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '1997-08-11'
+    last: '1997-12-08'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-13.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-06.htm
   - kind: proceedings
     listed_in: 5
     first: '1995-12-04'

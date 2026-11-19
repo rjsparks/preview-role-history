@@ -2,6 +2,10 @@ acronym: 6tisch
 name: IPv6 over the TSCH mode of IEEE 802.15.4e
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2013-09-04'
+  last: '2023-07-19'
 state: conclude
 started: '2013-09-04'
 closed: '2023-07-19'

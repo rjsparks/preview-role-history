@@ -2,6 +2,13 @@ acronym: ediint
 name: Electronic Data Interchange-Internet Integration
 type: wg
 parent: art
+areas:
+- area: app
+  first: '1997-04-07'
+  last: '2025-11-24'
+- area: art
+  first: '2025-12-04'
+  last: '2026-11-18'
 state: active
 started: '1996-05-14'
 closed: null
@@ -34,6 +41,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
   evidence:
+  - kind: minutes
+    listed_in: 5
+    first: '1997-12-08'
+    last: '1999-11-07'
+    examples:
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-08.htm
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-17.html
+    - date: '1999-11-07'
+      subject: IETF 46 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-15.html
   - kind: proceedings
     listed_in: 16
     first: '1997-04-07'

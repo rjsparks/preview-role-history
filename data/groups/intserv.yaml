@@ -2,6 +2,10 @@ acronym: intserv
 name: Integrated Services
 type: wg
 parent: tsv
+areas:
+- area: tsv
+  first: '1994-12-05'
+  last: '2000-12-20'
 state: conclude
 started: '1994-05-12'
 closed: '2000-12-20'
@@ -23,12 +27,21 @@ chairs:
       not_after: '1994-12-05'
     end:
       certainty: between
-      not_before: '1994-12-05'
+      not_before: '1997-04-07'
       not_after: '2000-12-20'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-12-05)'
+    - 'End: listed as chair in meeting minutes (1997-04-07)'
     - 'End: the group closed (2000-12-20)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '1997-04-07'
+    last: '1997-04-07'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtft114.htm
   - kind: proceedings
     listed_in: 5
     first: '1994-12-05'
@@ -48,16 +61,27 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '1990-12-03'
       not_after: '1994-03-28'
     end:
       certainty: between
-      not_before: '1994-03-28'
+      not_before: '1997-04-07'
       not_after: '2000-12-20'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 15 (1989-10-31)'
     - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
+    - 'End: listed as chair in meeting minutes (1997-04-07)'
     - 'End: the group closed (2000-12-20)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '1997-04-07'
+    last: '1997-04-07'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtft114.htm
   - kind: proceedings
     listed_in: 7
     first: '1994-03-28'
@@ -72,6 +96,11 @@ chairs:
     - date: '1997-08-11'
       subject: IETF 39 proceedings charter
       url: https://www.ietf.org/proceedings/39/transit97aug-112.htm
+  - kind: joined the IESG
+    after_meeting: '14'
+    after: '1989-07-25'
+    by_meeting: '15'
+    by: '1989-10-31'
 - person: 3021
   name: Scott Shenker
   status: unconfirmed
@@ -82,10 +111,10 @@ chairs:
     end:
       certainty: between
       not_before: '1994-03-28'
-      not_after: '2000-12-20'
+      not_after: '1997-04-07'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
-    - 'End: the group closed (2000-12-20)'
+    - 'End: not listed among the chairs in meeting minutes (1997-04-07)'
   evidence:
   - kind: proceedings
     listed_in: 4
@@ -101,6 +130,10 @@ chairs:
     - date: '1995-07-17'
       subject: IETF 33 proceedings charter
       url: https://www.ietf.org/proceedings/33/area.and.wg.reports/tsv/intserv/intserv-charter.txt
+  - kind: minutes without them
+    date: '1997-04-07'
+    subject: IETF 38 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/38/97apr-final/xrtft114.htm
 - person: 8715
   name: John Wroclawski
   status: confirmed
@@ -114,6 +147,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
   evidence:
+  - kind: minutes
+    listed_in: 5
+    first: '1997-04-07'
+    last: '1999-07-11'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtft114.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-116.htm
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-123.html
   - kind: proceedings
     listed_in: 13
     first: '1994-03-28'

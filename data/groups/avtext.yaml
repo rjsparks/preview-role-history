@@ -2,6 +2,13 @@ acronym: avtext
 name: Audio/Video Transport Extensions
 type: wg
 parent: art
+areas:
+- area: rai
+  first: '2011-12-09'
+  last: '2015-03-26'
+- area: art
+  first: '2015-05-29'
+  last: '2017-08-11'
 state: conclude
 started: '2010-12-03'
 closed: '2017-08-11'
@@ -89,12 +96,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-11-07'
+      certainty: between
+      not_before: '2010-07-25'
+      not_after: '2010-11-07'
     end:
       certainty: exact
       date: '2013-01-11'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 66 (2006-07-09)'
     - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
   - start:
       certainty: between
@@ -114,6 +123,13 @@ chairs:
     date: '2011-01-25'
     subject: 'WG Action: Audio/Video Transport Extensions (AVTEXT)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/KSkpUe5SYXgkjfT6qL3RziUxemM/
+  - kind: list message
+    date: '2013-01-11'
+    says: end
+    subject: '[avtext] Jonathan Lennox joining as AVTEXT co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/avtext/qzgjAL2WB-CQ7TxNWA1sDXaCWbQ/
+    excerpt: Magnus Westerlund is stepping down as co-chair for this group (but is continuing in his other
+      chair roles).
   - kind: chair activity
     first: '2011-03-17'
     last: '2012-11-26'
@@ -167,6 +183,11 @@ chairs:
     date: '2015-11-01'
     subject: IETF 94 minutes in the proceedings
     url: https://www.ietf.org/proceedings/94/minutes/minutes-94-avtext.txt
+  - kind: joined the IESG
+    after_meeting: '65'
+    after: '2006-03-19'
+    by_meeting: '66'
+    by: '2006-07-09'
   - kind: shepherded
     documents:
     - draft-ietf-avtext-splicing-for-rtp

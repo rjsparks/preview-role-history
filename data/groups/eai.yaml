@@ -2,6 +2,10 @@ acronym: eai
 name: Email Address Internationalization
 type: wg
 parent: app
+areas:
+- area: app
+  first: '2006-03-09'
+  last: '2013-03-18'
 state: conclude
 started: '2006-02-08'
 closed: '2013-03-18'
@@ -16,21 +20,23 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2005-07-31'
       not_after: '2006-03-09'
     end:
       certainty: announced
-      date: '2010-03-29'
+      date: '2010-03-21'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 51 (2001-08-05)'
     - 'Start: listed as chair in a proceedings charter snapshot (2006-03-09)'
-    - 'End: announced on the group''s list (2010-03-29)'
+    - 'End: announced on the group''s list (2010-03-21)'
   evidence:
   - kind: WG Action
     date: '2006-03-17'
     subject: 'WG Action: Email Address Internationalization (eai)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/H3yXSctovO6Ypd69m6RLN5LNgUM/
   - kind: list message
-    date: '2010-03-29'
+    date: '2010-03-21'
     says: end
     subject: '[EAI] EAI minutes at IETF 77'
     url: https://mailarchive.ietf.org/arch/msg/ima/N-AyOvCg-B6vmBFrjaTtoIsflNY/
@@ -84,6 +90,11 @@ chairs:
     - date: '2009-11-08'
       subject: IETF 76 proceedings charter
       url: https://www.ietf.org/proceedings/76/eai.html
+  - kind: joined the IESG
+    after_meeting: '50'
+    after: '2001-03-18'
+    by_meeting: '51'
+    by: '2001-08-05'
   - kind: session requests
     meetings:
     - '67'
@@ -104,13 +115,13 @@ chairs:
       not_after: '2006-05-01'
     end:
       certainty: announced
-      date: '2010-03-29'
+      date: '2010-03-21'
     notes:
     - 'Start: posted an agenda, minutes or interim notice to the group''s list (2006-05-01)'
-    - 'End: announced on the group''s list (2010-03-29)'
+    - 'End: announced on the group''s list (2010-03-21)'
   evidence:
   - kind: list message
-    date: '2010-03-29'
+    date: '2010-03-21'
     says: end
     subject: '[EAI] EAI minutes at IETF 77'
     url: https://mailarchive.ietf.org/arch/msg/ima/N-AyOvCg-B6vmBFrjaTtoIsflNY/
@@ -165,12 +176,12 @@ chairs:
   periods:
   - start:
       certainty: announced
-      date: '2010-03-29'
+      date: '2010-03-21'
     end:
       certainty: group-closed
       date: '2013-03-18'
     notes:
-    - 'Start: announced on the group''s list (2010-03-29)'
+    - 'Start: announced on the group''s list (2010-03-21)'
   evidence:
   - kind: WG Review
     date: '2010-05-24'
@@ -181,7 +192,7 @@ chairs:
     subject: 'WG Action: RECHARTER: Email Address Internationalization (eai)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/bWAiq0dlJYPDTGJim0KJruQ7abI/
   - kind: list message
-    date: '2010-03-29'
+    date: '2010-03-21'
     says: start
     subject: '[EAI] EAI minutes at IETF 77'
     url: https://mailarchive.ietf.org/arch/msg/ima/N-AyOvCg-B6vmBFrjaTtoIsflNY/
@@ -244,15 +255,15 @@ chairs:
   periods:
   - start:
       certainty: announced
-      date: '2010-03-29'
+      date: '2010-03-21'
     end:
       certainty: group-closed
       date: '2013-03-18'
     notes:
-    - 'Start: announced on the group''s list (2010-03-29)'
+    - 'Start: announced on the group''s list (2010-03-21)'
   evidence:
   - kind: list message
-    date: '2010-03-29'
+    date: '2010-03-21'
     says: start
     subject: '[EAI] EAI minutes at IETF 77'
     url: https://mailarchive.ietf.org/arch/msg/ima/N-AyOvCg-B6vmBFrjaTtoIsflNY/

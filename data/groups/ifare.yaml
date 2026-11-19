@@ -2,6 +2,10 @@ acronym: ifare
 name: IPsec FAilover and REdundancy
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '2007-01-22'
+  last: '2007-06-15'
 state: bof-conc
 started: null
 closed: '2007-06-15'

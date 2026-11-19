@@ -2,6 +2,10 @@ acronym: atoca
 name: Authority-to-Citizen Alert
 type: wg
 parent: rai
+areas:
+- area: rai
+  first: '2009-02-10'
+  last: '2012-11-13'
 state: conclude
 started: '2010-07-01'
 closed: '2012-11-13'
@@ -19,12 +23,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-03-21'
+      certainty: between
+      not_before: '2003-07-13'
+      not_after: '2010-03-21'
     end:
       certainty: group-closed
       date: '2012-11-13'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 38 (1997-04-07)'
     - 'Start: listed as chair in a proceedings charter snapshot (2010-03-21)'
   evidence:
   - kind: minutes
@@ -49,6 +55,11 @@ chairs:
     - date: '2012-11-04'
       subject: IETF 85 proceedings charter
       url: https://www.ietf.org/proceedings/85/atoca.html
+  - kind: joined the IESG
+    after_meeting: '37'
+    after: '1996-12-09'
+    by_meeting: '38'
+    by: '1997-04-07'
   - kind: session requests
     meetings:
     - '79'

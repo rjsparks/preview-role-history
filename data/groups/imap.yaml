@@ -2,6 +2,10 @@ acronym: imap
 name: Internet Message Access Protocol
 type: wg
 parent: app
+areas:
+- area: app
+  first: '1994-12-05'
+  last: '1995-05-05'
 state: conclude
 started: '1993-04-23'
 closed: '1995-05-05'

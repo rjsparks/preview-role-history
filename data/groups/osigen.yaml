@@ -2,6 +2,10 @@ acronym: osigen
 name: OSI General
 type: wg
 parent: osi
+areas:
+- area: osi
+  first: '1992-06-10'
+  last: '1992-06-10'
 state: conclude
 started: '1989-01-01'
 closed: '1992-06-10'
@@ -17,19 +21,35 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '1989-01-01'
+      not_before: '1991-07-29'
       not_after: '1992-06-10'
     end:
       certainty: group-closed
       date: '1992-06-10'
+    notes:
+    - 'Start: became an Area Director, first serving at IETF 15 (1989-10-31)'
+  evidence:
+  - kind: joined the IESG
+    after_meeting: '14'
+    after: '1989-07-25'
+    by_meeting: '15'
+    by: '1989-10-31'
 - person: 2723
   name: Ross Callon
   status: confirmed
   periods:
   - start:
       certainty: between
-      not_before: '1989-01-01'
+      not_before: '1991-11-18'
       not_after: '1992-06-10'
     end:
       certainty: group-closed
       date: '1992-06-10'
+    notes:
+    - 'Start: became an Area Director, first serving at IETF 15 (1989-10-31)'
+  evidence:
+  - kind: joined the IESG
+    after_meeting: '14'
+    after: '1989-07-25'
+    by_meeting: '15'
+    by: '1989-10-31'

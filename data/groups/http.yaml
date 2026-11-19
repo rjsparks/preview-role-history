@@ -2,6 +2,10 @@ acronym: http
 name: HyperText Transfer Protocol
 type: wg
 parent: app
+areas:
+- area: app
+  first: '1994-12-05'
+  last: '2000-10-11'
 state: conclude
 started: '1995-01-20'
 closed: '2000-10-11'
@@ -24,10 +28,10 @@ chairs:
     end:
       certainty: between
       not_before: '1994-12-05'
-      not_after: '1997-10-27'
+      not_after: '1997-08-11'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-12-05)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (1997-10-27)'
+    - 'End: not listed among the chairs in meeting minutes (1997-08-11)'
   evidence:
   - kind: proceedings
     listed_in: 2
@@ -41,9 +45,9 @@ chairs:
       subject: IETF 32 proceedings charter
       url: https://www.ietf.org/proceedings/32/area.and.wg.reports/app/http/http-charter.txt
   - kind: minutes without them
-    date: '1997-10-27'
-    subject: IETF 40 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-10.htm
+    date: '1997-08-11'
+    subject: IETF 39 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/39/transit97aug-17.htm
 - person: 13417
   name: Dave Raggett
   status: unconfirmed
@@ -53,12 +57,24 @@ chairs:
       not_after: '1994-12-05'
     end:
       certainty: between
-      not_before: '1994-12-05'
+      not_before: '1997-12-08'
       not_after: '2000-10-11'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-12-05)'
+    - 'End: listed as chair in meeting minutes (1997-12-08)'
     - 'End: the group closed (2000-10-11)'
   evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '1997-08-11'
+    last: '1997-12-08'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-17.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-10.htm
   - kind: proceedings
     listed_in: 8
     first: '1994-12-05'
@@ -87,6 +103,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1995-12-04)'
   evidence:
+  - kind: minutes
+    listed_in: 6
+    first: '1997-08-11'
+    last: '1999-07-11'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-17.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-10.htm
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-18.html
   - kind: proceedings
     listed_in: 10
     first: '1995-12-04'

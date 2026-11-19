@@ -2,6 +2,10 @@ acronym: l2cp
 name: Layer 2 Control Protocol
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2006-02-16'
+  last: '2006-05-12'
 state: conclude
 started: null
 closed: '2006-05-12'

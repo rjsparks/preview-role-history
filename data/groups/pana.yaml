@@ -2,6 +2,10 @@ acronym: pana
 name: Protocol for carrying Authentication for Network Access
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2001-12-03'
+  last: '2009-12-04'
 state: conclude
 started: '2001-10-26'
 closed: '2009-12-04'
@@ -59,16 +63,16 @@ chairs:
       subject: '[Pana] Working group last call for I-D: draft-ietf-pana-statemachine-07'
       url: https://mailarchive.ietf.org/arch/msg/pana/aOfcQ3Fn_Naju-9cUGdaQ5kRPZU/
   - kind: minutes
-    listed_in: 24
-    first: '2002-07-14'
+    listed_in: 26
+    first: '2001-12-09'
     last: '2008-11-16'
     examples:
-    - date: '2002-07-14'
-      subject: IETF 54 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/54/minutes/pana.htm
-    - date: '2002-11-17'
-      subject: IETF 55 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/55/minutes/pana.htm
+    - date: '2001-12-09'
+      subject: IETF 52 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/52/150.htm
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/147.htm
     - date: '2008-11-16'
       subject: IETF 73 minutes in the proceedings
       url: https://www.ietf.org/proceedings/73/minutes/pana.txt
@@ -102,12 +106,13 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2001-10-26'
+      not_before: '2001-12-09'
       not_after: '2002-03-03'
     end:
       certainty: group-closed
       date: '2009-12-04'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2001-12-09)'
     - 'Start: listed as chair in a proceedings charter snapshot (2002-03-03)'
   evidence:
   - kind: WG Action
@@ -135,15 +140,15 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/pana/NkkaQsIuDr3Sgs8U6p87R6oWYo4/
   - kind: minutes
     listed_in: 25
-    first: '2002-07-14'
+    first: '2002-03-17'
     last: '2008-11-16'
     examples:
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/147.htm
     - date: '2002-07-14'
       subject: IETF 54 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/54/minutes/pana.htm
-    - date: '2002-11-17'
-      subject: IETF 55 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/55/minutes/pana.htm
+      url: https://www.ietf.org/proceedings/54/149.htm
     - date: '2008-11-16'
       subject: IETF 73 minutes in the proceedings
       url: https://www.ietf.org/proceedings/73/minutes/pana.txt
@@ -161,6 +166,10 @@ chairs:
     - date: '2008-08-21'
       subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/pana.html
+  - kind: minutes without them
+    date: '2001-12-09'
+    subject: IETF 52 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/52/150.htm
   - kind: session requests
     meetings:
     - '67'
@@ -175,17 +184,25 @@ chairs:
       not_after: '2001-11-30'
     end:
       certainty: between
-      not_before: '2001-11-30'
+      not_before: '2001-12-09'
       not_after: '2002-03-03'
     notes:
     - 'Start: named as chair in the WG Action announcement (2001-11-30)'
-    - 'End: named as chair in the WG Action announcement (2001-11-30)'
+    - 'End: listed as chair in meeting minutes (2001-12-09)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2002-03-03)'
   evidence:
   - kind: WG Action
     date: '2001-11-30'
     subject: 'WG ACTION: Protocol for carrying Authentication for Network Access (pana)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/RZj3X26Pj14AzAf8VcAfNqkIB5g/
+  - kind: minutes
+    listed_in: 1
+    first: '2001-12-09'
+    last: '2001-12-09'
+    examples:
+    - date: '2001-12-09'
+      subject: IETF 52 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/52/150.htm
   - kind: proceedings
     listed_in: 1
     first: '2001-12-03'

@@ -2,6 +2,10 @@ acronym: bgp
 name: Border Gateway Protocol
 type: wg
 parent: rtg
+areas:
+- area: rtg
+  first: '1994-08-15'
+  last: '1994-08-15'
 state: conclude
 started: '1989-01-01'
 closed: '1994-08-15'

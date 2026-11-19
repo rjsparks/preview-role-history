@@ -2,6 +2,10 @@ acronym: smds
 name: IP Over Switched Megabit Data Service
 type: wg
 parent: int
+areas:
+- area: int
+  first: '1990-12-03'
+  last: '1990-12-03'
 state: conclude
 started: '1990-02-01'
 closed: '1990-12-03'

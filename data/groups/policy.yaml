@@ -2,6 +2,13 @@ acronym: policy
 name: Policy Framework
 type: wg
 parent: ops
+areas:
+- area: gen
+  first: '1998-11-25'
+  last: '1999-07-06'
+- area: ops
+  first: '1999-10-18'
+  last: '2004-11-05'
 state: conclude
 started: '1998-09-25'
 closed: '2004-11-05'
@@ -20,14 +27,29 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '1998-09-25'
+      not_before: '2000-07-31'
       not_after: '2000-10-11'
     end:
       certainty: group-closed
       date: '2004-11-05'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2000-07-31)'
     - 'Start: listed as chair in a proceedings charter snapshot (2000-10-11)'
   evidence:
+  - kind: minutes
+    listed_in: 4
+    first: '2000-12-10'
+    last: '2001-12-09'
+    examples:
+    - date: '2000-12-10'
+      subject: IETF 49 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/49/00dec-78.htm
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-81.htm
+    - date: '2001-12-09'
+      subject: IETF 52 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/52/168.htm
   - kind: proceedings
     listed_in: 7
     first: '2000-10-11'
@@ -42,6 +64,10 @@ chairs:
     - date: '2004-06-07'
       subject: IETF 60 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/60/176.htm
+  - kind: minutes without them
+    date: '2000-07-31'
+    subject: IETF 48 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/48/00july-72.htm
 - person: 10585
   name: Ed Ellesson
   status: confirmed
@@ -56,6 +82,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1998-11-25)'
   evidence:
+  - kind: minutes
+    listed_in: 10
+    first: '1998-12-07'
+    last: '2001-12-09'
+    examples:
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-45.html
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-45.html
+    - date: '2001-12-09'
+      subject: IETF 52 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/52/168.htm
   - kind: proceedings
     listed_in: 13
     first: '1998-11-25'
@@ -79,17 +119,31 @@ chairs:
       not_after: '1998-10-23'
     end:
       certainty: between
-      not_before: '1998-10-23'
+      not_before: '2000-07-31'
       not_after: '2000-10-11'
     notes:
     - 'Start: named as chair in the WG Action announcement (1998-10-23)'
-    - 'End: named as chair in the WG Action announcement (1998-10-23)'
+    - 'End: listed as chair in meeting minutes (2000-07-31)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2000-10-11)'
   evidence:
   - kind: WG Action
     date: '1998-10-23'
     subject: 'WG ACTION: Policy Framework (policy)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/kOwLPY5WCnyp6fwP6Xlah4RDOgU/
+  - kind: minutes
+    listed_in: 6
+    first: '1998-12-07'
+    last: '2000-07-31'
+    examples:
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-45.html
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-45.html
+    - date: '2000-07-31'
+      subject: IETF 48 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/48/00july-72.htm
   - kind: proceedings
     listed_in: 6
     first: '1998-11-25'

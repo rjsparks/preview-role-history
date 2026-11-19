@@ -2,6 +2,10 @@ acronym: iss
 name: Internet Storage Sync
 type: wg
 parent: art
+areas:
+- area: art
+  first: '2015-09-22'
+  last: '2016-02-26'
 state: bof-conc
 started: '2015-09-22'
 closed: '2016-02-26'
@@ -39,6 +43,7 @@ chairs:
       not_before: '2015-11-01'
       not_after: '2016-02-26'
     notes:
+    - 'End: listed as chair in meeting minutes (2015-11-01)'
     - 'End: the group closed (2016-02-26)'
   evidence:
   - kind: minutes

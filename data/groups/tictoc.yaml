@@ -2,6 +2,10 @@ acronym: tictoc
 name: Timing over IP Connection and Transfer of Clock
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2007-03-18'
+  last: '2025-03-19'
 state: conclude
 started: '2007-12-17'
 closed: '2025-03-19'
@@ -23,13 +27,13 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2007-02-28'
+      not_after: '2007-12-02'
     end:
       certainty: between
       not_before: '2010-03-21'
       not_after: '2010-07-25'
     notes:
-    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2007-02-28)'
+    - 'Start: requested the group''s session for IETF 70 (2007-12-02)'
     - 'End: requested the group''s session for IETF 77 (2010-03-21)'
     - 'End: became an Area Director, first serving at IETF 78 (2010-07-25)'
   evidence:
@@ -38,16 +42,16 @@ chairs:
     subject: 'WG Action: Timing over IP Connection and Transfer of Clock (tictoc)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/AbzwHji-D0cLPqrrbELSwlT0Ac4/
   - kind: chair activity
-    first: '2007-02-28'
+    first: '2008-04-09'
     last: '2009-05-08'
-    messages: 10
+    messages: 9
     examples:
-    - date: '2007-02-28'
-      subject: '[TICTOC] TICTOC BOF draft agenda'
-      url: https://mailarchive.ietf.org/arch/msg/tictoc/7Q3ElGPpXVx1uxoDQPHSJ7MqxRQ/
     - date: '2008-04-09'
       subject: '[TICTOC] TICTOC Interim - propose 9-11 June Paris'
       url: https://mailarchive.ietf.org/arch/msg/tictoc/etWaMW94dtgge3MWxOH6Ebuv9HE/
+    - date: '2008-04-11'
+      subject: '[TICTOC] TICTOC @ IETF 71 minutes'
+      url: https://mailarchive.ietf.org/arch/msg/tictoc/cxsBil5qkg42mkC9TxS1veO9reM/
   - kind: minutes
     listed_in: 2
     first: '2007-12-02'

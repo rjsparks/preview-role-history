@@ -2,6 +2,13 @@ acronym: enum
 name: Telephone Number Mapping
 type: wg
 parent: rai
+areas:
+- area: tsv
+  first: '1999-10-28'
+  last: '2005-10-10'
+- area: rai
+  first: '2006-01-20'
+  last: '2011-12-09'
 state: conclude
 started: '1999-10-04'
 closed: '2011-05-10'
@@ -35,7 +42,7 @@ chairs:
     subject: 'WG Action: RECHARTER: Telephone Number Mapping (enum)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/I-h_hH4_2qoqMzHF4_1tL9h_Sws/
   - kind: minutes
-    listed_in: 23
+    listed_in: 26
     first: '2002-03-17'
     last: '2010-07-25'
     examples:
@@ -44,7 +51,7 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/enum/7tZBMhuuRx-ENMfCCoUPT4vlBzg/
     - date: '2002-03-17'
       subject: IETF 53 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/53/minutes/enum.htm
+      url: https://www.ietf.org/proceedings/53/241.htm
     - date: '2010-07-25'
       subject: IETF 78 minutes in the proceedings
       url: https://www.ietf.org/proceedings/78/minutes/enum.txt
@@ -72,13 +79,13 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '1999-10-28'
+      not_after: '1998-08-24'
     end:
       certainty: between
       not_before: '2000-07-31'
       not_after: '2001-03-14'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1999-10-28)'
+    - 'Start: listed as chair in meeting minutes (1998-08-24)'
     - 'End: listed as chair in meeting minutes (2000-07-31)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2001-03-14)'
   evidence:
@@ -95,13 +102,19 @@ chairs:
       subject: '[Enum] Agenda for ENUM and Adelaide - The WG chair comes clean'
       url: https://mailarchive.ietf.org/arch/msg/enum/iaSsgWTN-mPa9fWiNykUr3FeVEw/
   - kind: minutes
-    listed_in: 1
-    first: '2000-07-31'
+    listed_in: 5
+    first: '1998-08-24'
     last: '2000-07-31'
     examples:
+    - date: '1998-08-24'
+      subject: IETF 42 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/42/98aug-37.htm
+    - date: '1999-11-07'
+      subject: IETF 46 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-156.html
     - date: '2000-07-31'
-      subject: '[Enum] Yes ...the Meeting Minutes from ENUM WG at IETF 48 Pittsburgh'
-      url: https://mailarchive.ietf.org/arch/msg/enum/n2J3UiXG-KcScyaRot_q4JqF48w/
+      subject: IETF 48 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/48/00july-144.htm
   - kind: proceedings
     listed_in: 3
     first: '1999-10-28'
@@ -166,16 +179,16 @@ chairs:
       subject: '[Enum] Working Group Last Call on enumservices guide 12'
       url: https://mailarchive.ietf.org/arch/msg/enum/aac6NTCqbfN28EZd4c7BXnNpjZs/
   - kind: minutes
-    listed_in: 23
+    listed_in: 28
     first: '2000-07-31'
     last: '2008-07-27'
     examples:
     - date: '2000-07-31'
       subject: '[Enum] Yes ...the Meeting Minutes from ENUM WG at IETF 48 Pittsburgh'
       url: https://mailarchive.ietf.org/arch/msg/enum/n2J3UiXG-KcScyaRot_q4JqF48w/
-    - date: '2002-03-17'
-      subject: '[Enum] IETF 53 ENUM WG Minutes Preliminary'
-      url: https://mailarchive.ietf.org/arch/msg/enum/7tZBMhuuRx-ENMfCCoUPT4vlBzg/
+    - date: '2000-07-31'
+      subject: IETF 48 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/48/00july-144.htm
     - date: '2008-07-27'
       subject: IETF 72 minutes in the proceedings
       url: https://www.ietf.org/proceedings/72/minutes/enum.txt

@@ -2,6 +2,13 @@ acronym: radext
 name: RADIUS EXTensions
 type: wg
 parent: sec
+areas:
+- area: ops
+  first: '2004-07-14'
+  last: '2023-02-09'
+- area: sec
+  first: '2023-03-25'
+  last: '2026-11-18'
 state: active
 started: '2004-05-12'
 closed: null
@@ -60,7 +67,7 @@ chairs:
     examples:
     - date: '2003-11-09'
       subject: IETF 58 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/58/minutes/radext.htm
+      url: https://www.ietf.org/proceedings/58/177.htm
     - date: '2005-11-06'
       subject: IETF 64 minutes in the proceedings
       url: https://www.ietf.org/proceedings/64/minutes/radext.txt
@@ -164,7 +171,7 @@ chairs:
     examples:
     - date: '2003-11-09'
       subject: IETF 58 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/58/minutes/radext.htm
+      url: https://www.ietf.org/proceedings/58/177.htm
     - date: '2005-11-06'
       subject: IETF 64 minutes in the proceedings
       url: https://www.ietf.org/proceedings/64/minutes/radext.txt

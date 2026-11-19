@@ -2,6 +2,10 @@ acronym: 6man
 name: IPv6 Maintenance
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2007-12-18'
+  last: '2026-11-18'
 state: active
 started: '2007-08-24'
 closed: null
@@ -57,7 +61,7 @@ chairs:
       subject: Adoption Call for "IPv6 Application of the Alternate Marking Method"
       url: https://mailarchive.ietf.org/arch/msg/ipv6/B6-wkK7Rid3W3GSokWfDFz_NMZY/
   - kind: minutes
-    listed_in: 21
+    listed_in: 20
     first: '2008-11-16'
     last: '2016-04-03'
     examples:
@@ -150,7 +154,7 @@ chairs:
       subject: Call for adoption:draft-gont-6man-flowlabel-security-01.txt
       url: https://mailarchive.ietf.org/arch/msg/ipv6/rzxJRecmEvLxK9QHT-HLlMuEu3o/
   - kind: minutes
-    listed_in: 10
+    listed_in: 9
     first: '2008-11-16'
     last: '2012-03-25'
     examples:

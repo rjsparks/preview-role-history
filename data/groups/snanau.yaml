@@ -2,6 +2,13 @@ acronym: snanau
 name: SNA NAU Services MIB
 type: wg
 parent: rtg
+areas:
+- area: mgt
+  first: '1994-12-05'
+  last: '1995-07-17'
+- area: rtg
+  first: '1997-04-07'
+  last: '1999-06-09'
 state: conclude
 started: '1993-05-07'
 closed: '1999-06-09'
@@ -161,6 +168,20 @@ chairs:
     subject: New Chair
     url: https://mailarchive.ietf.org/arch/msg/snanau/Cxo5ThCZI86WNsAo6QZjH463lqY/
     excerpt: Bob Moore of IBM has agreed to be the new chair.
+  - kind: minutes
+    listed_in: 6
+    first: '1997-04-07'
+    last: '1999-03-14'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr96.htm
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-94.htm
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-101.html
   - kind: proceedings
     listed_in: 4
     first: '1997-04-07'

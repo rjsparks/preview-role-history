@@ -2,6 +2,13 @@ acronym: trill
 name: Transparent Interconnection of Lots of Links
 type: wg
 parent: rtg
+areas:
+- area: int
+  first: '2005-02-07'
+  last: '2015-03-26'
+- area: rtg
+  first: '2015-03-26'
+  last: '2018-03-19'
 state: conclude
 started: '2005-06-15'
 closed: '2018-03-19'
@@ -102,12 +109,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2005-02-07'
+      certainty: between
+      not_before: '2003-11-09'
+      not_after: '2005-02-07'
     end:
       certainty: exact
       date: '2014-02-17'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 44 (1999-03-14)'
     - 'Start: listed as chair in a proceedings charter snapshot (2005-02-07)'
   evidence:
   - kind: WG Action
@@ -172,6 +181,11 @@ chairs:
     - date: '2012-07-29'
       subject: IETF 84 proceedings charter
       url: https://www.ietf.org/proceedings/84/trill.html
+  - kind: joined the IESG
+    after_meeting: '43'
+    after: '1998-12-07'
+    by_meeting: '44'
+    by: '1999-03-14'
   - kind: shepherded
     documents:
     - draft-ietf-trill-esadi
@@ -219,6 +233,14 @@ chairs:
     date: '2013-08-19'
     subject: 'WG Action: Rechartered Transparent Interconnection of Lots of Links (trill)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/tAa0UMVae9rz-46nhGTLaBGw63E/
+  - kind: list message
+    date: '2014-02-18'
+    says: end
+    subject: '[trill] Jon Hudson has replaced Erik Nordmark as Co-Chair of TRILL'
+    url: https://mailarchive.ietf.org/arch/msg/trill/6-zxtbmqPQ8n09uL-xIP8gf1D2Y/
+    excerpt: Erik was the only Chair of TRILL at the beginning before I was appointed Co-Chair and the
+      efforts of this WG would not have been as successful as they have been without Erik's able assistance.
+    implied: another chair became the sole chair
   - kind: chair activity
     first: '2012-10-25'
     last: '2018-02-15'

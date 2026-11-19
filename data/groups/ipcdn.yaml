@@ -2,6 +2,13 @@ acronym: ipcdn
 name: IP over Cable Data Network
 type: wg
 parent: ops
+areas:
+- area: int
+  first: '1997-04-07'
+  last: '2003-02-03'
+- area: ops
+  first: '2003-07-13'
+  last: '2009-04-02'
 state: conclude
 started: '1996-08-30'
 closed: '2009-04-02'
@@ -44,6 +51,20 @@ chairs:
     - date: '2001-04-09'
       subject: '[ipcdn] IPCDN meeting minutes from Minneapolis'
       url: https://mailarchive.ietf.org/arch/msg/ipcdn/uv-q1FjSzGaUWy3Z8Z1dYITfpCI/
+  - kind: minutes
+    listed_in: 6
+    first: '2000-12-10'
+    last: '2002-11-17'
+    examples:
+    - date: '2000-12-10'
+      subject: IETF 49 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/49/00dec-51.htm
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-51.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/140.htm
   - kind: proceedings
     listed_in: 17
     first: '2000-10-13'
@@ -111,6 +132,20 @@ chairs:
     subject: '[ipcdn] IPCDN meeting minutes from Minneapolis'
     url: https://mailarchive.ietf.org/arch/msg/ipcdn/xD9sAFTA_3-32opH1YJhaC8yUsM/
     excerpt: '- Andrew Valentine stepped down as co-chair due to a career change.'
+  - kind: minutes
+    listed_in: 5
+    first: '2000-12-10'
+    last: '2002-03-17'
+    examples:
+    - date: '2000-12-10'
+      subject: IETF 49 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/49/00dec-51.htm
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-51.htm
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/140.htm
   - kind: proceedings
     listed_in: 5
     first: '2000-10-13'
@@ -173,6 +208,14 @@ chairs:
     - date: '2004-01-23'
       subject: '[ipcdn] WGLC on IPCDN RF MIBv2 draft09 - ends 2/6/2004'
       url: https://mailarchive.ietf.org/arch/msg/ipcdn/FYVWKngutGtC6PBSTeWUMoppI6M/
+  - kind: minutes
+    listed_in: 1
+    first: '2002-11-17'
+    last: '2002-11-17'
+    examples:
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/140.htm
   - kind: proceedings
     listed_in: 12
     first: '2002-07-23'
@@ -196,12 +239,21 @@ chairs:
       not_after: '1997-07-29'
     end:
       certainty: between
-      not_before: '1997-07-29'
+      not_before: '2000-03-26'
       not_after: '2000-10-13'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1997-07-29)'
+    - 'End: listed as chair in meeting minutes (2000-03-26)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2000-10-13)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2000-03-26'
+    last: '2000-03-26'
+    examples:
+    - date: '2000-03-26'
+      subject: IETF 47 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-51.html
   - kind: proceedings
     listed_in: 10
     first: '1997-07-29'

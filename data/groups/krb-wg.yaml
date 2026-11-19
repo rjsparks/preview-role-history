@@ -2,6 +2,10 @@ acronym: krb-wg
 name: Kerberos
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '2000-07-17'
+  last: '2013-03-18'
 state: conclude
 started: '2000-06-15'
 closed: '2013-03-18'
@@ -20,17 +24,31 @@ chairs:
       not_after: '2000-07-17'
     end:
       certainty: between
-      not_before: '2000-07-18'
+      not_before: '2004-02-29'
       not_after: '2007-06-27'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2000-07-17)'
-    - 'End: named as chair in the WG Action announcement (2000-07-18)'
+    - 'End: listed as chair in meeting minutes (2004-02-29)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2007-06-27)'
   evidence:
   - kind: WG Action
     date: '2000-07-18'
     subject: 'WG Action: Kerberos WG (krb-wg)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/cqSQrka07FrjCDNt_yTkJXQU7yI/
+  - kind: minutes
+    listed_in: 9
+    first: '2000-07-31'
+    last: '2004-02-29'
+    examples:
+    - date: '2000-07-31'
+      subject: IETF 48 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/48/00july-109.htm
+    - date: '2000-12-10'
+      subject: IETF 49 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/49/00dec-115.htm
+    - date: '2004-02-29'
+      subject: IETF 59 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/59/256.htm
   - kind: proceedings
     listed_in: 11
     first: '2000-07-17'
@@ -174,15 +192,15 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/krb-wg/nCdaXJ5PrzopSEQZxldnqmFGElA/
   - kind: minutes
     listed_in: 14
-    first: '2004-11-07'
+    first: '2004-02-29'
     last: '2011-11-13'
     examples:
+    - date: '2004-02-29'
+      subject: IETF 59 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/59/256.htm
     - date: '2004-11-07'
       subject: IETF 61 minutes in the proceedings
       url: https://www.ietf.org/proceedings/61/minutes/krb-wg.html
-    - date: '2005-03-06'
-      subject: IETF 62 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/62/minutes/krb-wg.html
     - date: '2011-11-13'
       subject: IETF 82 minutes in the proceedings
       url: https://www.ietf.org/proceedings/82/minutes/krb-wg.txt
@@ -232,12 +250,13 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2000-06-15'
+      not_before: '2004-02-29'
       not_after: '2007-06-27'
     end:
       certainty: exact
       date: '2012-10-01'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2004-02-29)'
     - 'Start: listed as chair in a proceedings charter snapshot (2007-06-27)'
   evidence:
   - kind: WG Action
@@ -267,7 +286,7 @@ chairs:
       subject: '[Ietf-krb-wg] IETF 72 @ Dublin krb-wg meeting minutes'
       url: https://mailarchive.ietf.org/arch/msg/krb-wg/RgtCtqPnjEso4lPIwoUa1Ibaadc/
   - kind: minutes
-    listed_in: 11
+    listed_in: 10
     first: '2007-12-02'
     last: '2011-11-13'
     examples:
@@ -294,6 +313,10 @@ chairs:
     - date: '2012-03-25'
       subject: IETF 83 proceedings charter
       url: https://www.ietf.org/proceedings/83/krb-wg.html
+  - kind: minutes without them
+    date: '2004-02-29'
+    subject: IETF 59 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/59/256.htm
 - person: 107956
   name: Shawn Emery
   status: confirmed

@@ -2,6 +2,10 @@ acronym: manet
 name: Mobile Ad-hoc Networks
 type: wg
 parent: rtg
+areas:
+- area: rtg
+  first: '1997-08-11'
+  last: '2026-11-18'
 state: active
 started: '1997-06-02'
 closed: null
@@ -53,16 +57,16 @@ chairs:
       subject: '[manet] WG Last Call for draft-ietf-manet-nhdp-sec-threats-01'
       url: https://mailarchive.ietf.org/arch/msg/manet/i3077yWxNXJijHRGBoFfgjBVUfA/
   - kind: minutes
-    listed_in: 30
-    first: '1999-01-05'
+    listed_in: 43
+    first: '1997-08-11'
     last: '2014-07-20'
     examples:
-    - date: '1999-01-05'
-      subject: minutes
-      url: https://mailarchive.ietf.org/arch/msg/manet/cOzmpBfQoiENkElqJjTmxVLynLs/
-    - date: '2001-08-05'
-      subject: IETF 51 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/51/minutes/MANET.HTM
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-86.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-88.htm
     - date: '2014-07-20'
       subject: IETF 90 minutes in the proceedings
       url: https://www.ietf.org/proceedings/90/minutes/minutes-90-manet.txt
@@ -104,7 +108,7 @@ chairs:
       certainty: announced
       date: '2004-12-08'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1997-08-11)'
+    - 'Start: listed as chair in meeting minutes (1997-08-11)'
     - 'End: announced on the group''s list (2004-12-08)'
   evidence:
   - kind: WG Action
@@ -127,19 +131,19 @@ chairs:
       subject: Call for Agenda Items
       url: https://mailarchive.ietf.org/arch/msg/manet/PBA2gEqW-rxG_sG5fUzdKPEQAGo/
   - kind: minutes
-    listed_in: 6
-    first: '1999-01-05'
+    listed_in: 21
+    first: '1997-08-11'
     last: '2003-11-09'
     examples:
-    - date: '1999-01-05'
-      subject: minutes
-      url: https://mailarchive.ietf.org/arch/msg/manet/cOzmpBfQoiENkElqJjTmxVLynLs/
-    - date: '2001-08-05'
-      subject: IETF 51 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/51/minutes/MANET.HTM
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-86.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-88.htm
     - date: '2003-11-09'
       subject: IETF 58 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/58/minutes/manet.htm
+      url: https://www.ietf.org/proceedings/58/185.htm
   - kind: proceedings
     listed_in: 23
     first: '1997-08-11'
@@ -299,7 +303,7 @@ chairs:
       subject: '[manet] IETF 64 MANET Meeting Presentations and Minutes'
       url: https://mailarchive.ietf.org/arch/msg/manet/UYS_dMoFuMavZB1Q1kebak-Zxok/
   - kind: minutes
-    listed_in: 13
+    listed_in: 12
     first: '2007-03-18'
     last: '2011-07-24'
     examples:
@@ -311,7 +315,7 @@ chairs:
       url: https://www.ietf.org/proceedings/69/minutes/manet.txt
     - date: '2011-07-24'
       subject: IETF 81 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/81/minutes/manet.txt
+      url: https://www.ietf.org/proceedings/81/minutes/manet.html
   - kind: proceedings
     listed_in: 11
     first: '2005-02-01'

@@ -2,6 +2,10 @@ acronym: mobike
 name: IKEv2 Mobility and Multihoming
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '2004-02-13'
+  last: '2006-04-21'
 state: conclude
 started: '2003-10-01'
 closed: '2006-04-21'
@@ -91,7 +95,7 @@ chairs:
     examples:
     - date: '2003-11-09'
       subject: IETF 58 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/58/minutes/mobike.htm
+      url: https://www.ietf.org/proceedings/58/215.htm
     - date: '2004-02-29'
       subject: IETF 59 minutes in the proceedings
       url: https://www.ietf.org/proceedings/59/minutes/mobike.htm
@@ -140,7 +144,7 @@ chairs:
     examples:
     - date: '2003-11-09'
       subject: IETF 58 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/58/minutes/mobike.htm
+      url: https://www.ietf.org/proceedings/58/215.htm
   - kind: minutes without them
     date: '2004-02-13'
     subject: IETF 59 proceedings charter, as last modified

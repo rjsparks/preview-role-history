@@ -2,6 +2,10 @@ acronym: kink
 name: Kerberized Internet Negotiation of Keys
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '2000-10-23'
+  last: '2006-04-05'
 state: conclude
 started: '2000-08-21'
 closed: '2006-04-05'
@@ -30,10 +34,16 @@ chairs:
     subject: 'WG Action: Kerberized Internet Negotiation of Keys (kink)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/VAO3F4fmor36fCBTwk6oaIJxiQQ/
   - kind: minutes
-    listed_in: 1
-    first: '2005-03-06'
+    listed_in: 5
+    first: '2000-12-10'
     last: '2005-03-06'
     examples:
+    - date: '2000-12-10'
+      subject: IETF 49 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/49/00dec-114.htm
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-113.htm
     - date: '2005-03-06'
       subject: IETF 62 minutes in the proceedings
       url: https://www.ietf.org/proceedings/62/minutes/kink.html
@@ -66,10 +76,16 @@ chairs:
     - 'Start: listed as chair in a proceedings charter snapshot (2000-10-23)'
   evidence:
   - kind: minutes
-    listed_in: 1
-    first: '2005-03-06'
+    listed_in: 5
+    first: '2000-12-10'
     last: '2005-03-06'
     examples:
+    - date: '2000-12-10'
+      subject: IETF 49 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/49/00dec-114.htm
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-113.htm
     - date: '2005-03-06'
       subject: IETF 62 minutes in the proceedings
       url: https://www.ietf.org/proceedings/62/minutes/kink.html

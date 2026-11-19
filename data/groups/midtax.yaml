@@ -2,6 +2,10 @@ acronym: midtax
 name: Middle box Taxonomy
 type: wg
 parent: gen
+areas:
+- area: gen
+  first: '2003-12-10'
+  last: '2011-12-09'
 state: conclude
 started: null
 closed: '2003-12-10'
@@ -23,17 +27,39 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-12-10'
+      date: '2001-03-18'
     end:
       certainty: group-closed
       date: '2003-12-10'
+    notes:
+    - 'Start: listed as chair in meeting minutes (2001-03-18)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2001-03-18'
+    last: '2001-03-18'
+    examples:
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-44.htm
 - person: 104212
   name: Rob Austein
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-12-10'
+      date: '2001-03-18'
     end:
       certainty: group-closed
       date: '2003-12-10'
+    notes:
+    - 'Start: listed as chair in meeting minutes (2001-03-18)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2001-03-18'
+    last: '2001-03-18'
+    examples:
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-44.htm

@@ -2,6 +2,10 @@ acronym: autoconf
 name: Ad-Hoc Network Autoconfiguration
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2005-02-09'
+  last: '2012-03-06'
 state: conclude
 started: '2005-06-15'
 closed: '2012-03-06'
@@ -130,7 +134,7 @@ chairs:
       url: https://www.ietf.org/proceedings/62/minutes/autoconf.html
     - date: '2005-07-31'
       subject: IETF 63 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/63/minutes/autoconf.html
+      url: https://www.ietf.org/proceedings/63/autoconf.html
     - date: '2009-11-08'
       subject: IETF 76 minutes in the proceedings
       url: https://www.ietf.org/proceedings/76/minutes/autoconf.txt
@@ -198,7 +202,7 @@ chairs:
       url: https://www.ietf.org/proceedings/62/minutes/autoconf.html
     - date: '2005-07-31'
       subject: IETF 63 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/63/minutes/autoconf.html
+      url: https://www.ietf.org/proceedings/63/autoconf.html
     - date: '2008-11-16'
       subject: IETF 73 minutes in the proceedings
       url: https://www.ietf.org/proceedings/73/minutes/autoconf.txt

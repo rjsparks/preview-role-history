@@ -2,6 +2,10 @@ acronym: nemo
 name: Network Mobility
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2003-02-24'
+  last: '2007-11-20'
 state: conclude
 started: '2002-09-13'
 closed: '2007-11-20'
@@ -58,10 +62,13 @@ chairs:
       subject: '[nemo] WG Last Call for NEMO MIB'
       url: https://mailarchive.ietf.org/arch/msg/nemo/8fgVIwrpFy68hyCYcYqdHRqEi_E/
   - kind: minutes
-    listed_in: 1
-    first: '2007-03-18'
+    listed_in: 2
+    first: '2003-03-16'
     last: '2007-03-18'
     examples:
+    - date: '2003-03-16'
+      subject: IETF 56 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/56/149.htm
     - date: '2007-03-18'
       subject: IETF 68 minutes in the proceedings
       url: https://www.ietf.org/proceedings/68/minutes/nemo.txt
@@ -122,15 +129,15 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/nemo/ck7AN_Zq3oRUqKgGu-aTlhxAKf4/
   - kind: minutes
     listed_in: 3
-    first: '2003-07-13'
+    first: '2003-03-16'
     last: '2007-03-18'
     examples:
+    - date: '2003-03-16'
+      subject: IETF 56 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/56/149.htm
     - date: '2003-07-13'
       subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/nemo.htm
-    - date: '2003-07-13'
-      subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/nemo.txt
+      url: https://www.ietf.org/proceedings/57/147.htm
     - date: '2007-03-18'
       subject: IETF 68 minutes in the proceedings
       url: https://www.ietf.org/proceedings/68/minutes/nemo.txt

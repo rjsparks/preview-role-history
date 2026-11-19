@@ -2,6 +2,10 @@ acronym: intarea
 name: Internet Area Working Group
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2005-03-06'
+  last: '2026-11-18'
 state: active
 started: '2009-10-22'
 closed: null
@@ -206,10 +210,7 @@ chairs:
       certainty: exact
       date: '2016-02-18'
     end:
-      certainty: announced
-      date: '2026-11-12'
-    notes:
-    - 'End: announced on the group''s list (2026-11-12)'
+      certainty: ongoing
   evidence:
   - kind: list message
     date: '2026-11-12'

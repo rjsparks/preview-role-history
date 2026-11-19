@@ -2,6 +2,13 @@ acronym: dispatch
 name: Dispatch
 type: wg
 parent: art
+areas:
+- area: rai
+  first: '2009-04-20'
+  last: '2015-03-26'
+- area: art
+  first: '2015-05-29'
+  last: '2026-11-18'
 state: active
 started: '2009-02-27'
 closed: null
@@ -187,13 +194,13 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2009-11-12'
+      not_before: '2010-07-25'
       not_after: '2010-11-07'
     end:
       certainty: exact
       date: '2019-02-11'
     notes:
-    - 'Start: not listed among the chairs in meeting minutes (2009-11-12)'
+    - 'Start: became an Area Director, first serving at IETF 66 (2006-07-09)'
     - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
   - start:
       certainty: between
@@ -265,13 +272,14 @@ chairs:
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/dispatch.html
   - kind: minutes without them
-    date: '2009-11-12'
-    subject: '[dispatch] DREGS Ad Hoc minutes'
-    url: https://mailarchive.ietf.org/arch/msg/dispatch/3KKDr_eQvKeJmYOaTxuVsDQ79KQ/
-  - kind: minutes without them
     date: '2019-03-23'
     subject: '[dispatch] DISPATCH Minutes'
     url: https://mailarchive.ietf.org/arch/msg/dispatch/Fld6mY5y5hkSD4E9OqI6_0Px1us/
+  - kind: joined the IESG
+    after_meeting: '65'
+    after: '2006-03-19'
+    by_meeting: '66'
+    by: '2006-07-09'
 - person: 106842
   name: Murray Kucherawy
   status: confirmed

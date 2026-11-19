@@ -2,6 +2,16 @@ acronym: atommib
 name: AToM MIB
 type: wg
 parent: ops
+areas:
+- area: mgt
+  first: '1995-04-03'
+  last: '1995-12-04'
+- area: int
+  first: '1997-04-07'
+  last: '2003-02-20'
+- area: ops
+  first: '2003-07-13'
+  last: '2004-11-01'
 state: conclude
 started: '1993-04-09'
 closed: '2004-11-01'
@@ -20,12 +30,27 @@ chairs:
       not_after: '1994-03-28'
     end:
       certainty: between
-      not_before: '1994-03-28'
+      not_before: '2000-12-10'
       not_after: '2003-02-20'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
+    - 'End: listed as chair in meeting minutes (2000-12-10)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2003-02-20)'
   evidence:
+  - kind: minutes
+    listed_in: 4
+    first: '1998-12-07'
+    last: '2000-12-10'
+    examples:
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-48.html
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-48.html
+    - date: '2000-12-10'
+      subject: IETF 49 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/49/00dec-46.htm
   - kind: proceedings
     listed_in: 10
     first: '1994-03-28'
@@ -59,16 +84,19 @@ chairs:
     - 'Start: listed as chair in a proceedings charter snapshot (2001-03-14)'
   evidence:
   - kind: minutes
-    listed_in: 2
-    first: '2001-08-05'
-    last: '2002-03-17'
+    listed_in: 6
+    first: '2001-03-18'
+    last: '2002-11-17'
     examples:
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-46.htm
     - date: '2001-08-05'
       subject: IETF 51 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/51/minutes/ATOMMIB.htm
-    - date: '2002-03-17'
-      subject: IETF 53 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/53/minutes/atommib.htm
+      url: https://www.ietf.org/proceedings/51/51-44.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/133.htm
   - kind: proceedings
     listed_in: 10
     first: '2001-03-14'

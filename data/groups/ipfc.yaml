@@ -2,6 +2,10 @@ acronym: ipfc
 name: IP over Fibre Channel
 type: wg
 parent: int
+areas:
+- area: int
+  first: '1998-07-23'
+  last: '2002-01-22'
 state: conclude
 started: '1998-04-30'
 closed: '2002-01-22'
@@ -25,6 +29,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1998-07-23)'
   evidence:
+  - kind: minutes
+    listed_in: 8
+    first: '1998-08-24'
+    last: '2000-12-10'
+    examples:
+    - date: '1998-08-24'
+      subject: IETF 42 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/42/98aug-59.htm
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-53.html
+    - date: '2000-12-10'
+      subject: IETF 49 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/49/00dec-52.htm
   - kind: proceedings
     listed_in: 10
     first: '1998-07-23'

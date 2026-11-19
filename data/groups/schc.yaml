@@ -2,6 +2,10 @@ acronym: schc
 name: Static Context Header Compression
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2023-03-03'
+  last: '2026-11-18'
 state: active
 started: '2023-03-03'
 closed: null

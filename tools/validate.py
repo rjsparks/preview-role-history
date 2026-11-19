@@ -75,6 +75,12 @@ def check(data):
         for flag in ("bof", "never_chartered"):
             if flag in g and not isinstance(g[flag], bool):
                 bad(f"`{flag}` must be true or false")
+        areas = g.get("areas")
+        if areas is not None and not (isinstance(areas, list) and all(
+                isinstance(a, dict) and isinstance(a.get("area"), str) and a["area"].strip()
+                and all(a.get(k) is not None and cd.valid_date(cd.norm_date(a[k])) for k in ("first", "last"))
+                for a in areas)):
+            bad("`areas` must be a list of {area, first, last}, with dates written YYYY-MM-DD, YYYY-MM or YYYY")
         if g.get("chartered") is not None and not cd.valid_date(cd.norm_date(g["chartered"])):
             bad("`chartered` must be a date written YYYY-MM-DD, YYYY-MM or YYYY")
         overrides = g.get("overrides")
@@ -161,7 +167,7 @@ def check(data):
     return problems
 
 
-OVERRIDABLE = {"name", "state", "parent", "started", "closed", "bof", "never_chartered", "chartered"}
+OVERRIDABLE = {"name", "state", "parent", "areas", "started", "closed", "bof", "never_chartered", "chartered"}
 
 
 def _string_list(value):

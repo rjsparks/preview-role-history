@@ -2,6 +2,10 @@ acronym: iea
 name: Internationalizing Email Address
 type: wg
 parent: app
+areas:
+- area: app
+  first: '2004-02-09'
+  last: '2011-12-09'
 state: conclude
 started: null
 closed: '2005-05-11'
@@ -22,13 +26,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2003-07-13'
       not_after: '2003-11-09'
     end:
       certainty: between
       not_before: '2004-02-29'
       not_after: '2005-05-11'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 41 (1998-03-30)'
     - 'Start: listed as chair in meeting minutes (2003-11-09)'
     - 'End: the BOF met at IETF 59 (2004-02-29)'
     - 'End: the group closed (2005-05-11)'
@@ -40,7 +46,7 @@ chairs:
     examples:
     - date: '2003-11-09'
       subject: IETF 58 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/58/minutes/iea.htm
+      url: https://www.ietf.org/proceedings/58/126.htm
   - kind: BOF session
     meeting: '58'
     date: '2003-11-09'
@@ -49,6 +55,11 @@ chairs:
     meeting: '59'
     date: '2004-02-29'
     url: https://www.ietf.org/proceedings/59/126.htm
+  - kind: joined the IESG
+    after_meeting: '40'
+    after: '1997-12-08'
+    by_meeting: '41'
+    by: '1998-03-30'
 - person: 18321
   name: Pete Resnick
   status: confirmed
@@ -72,7 +83,7 @@ chairs:
     examples:
     - date: '2003-11-09'
       subject: IETF 58 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/58/minutes/iea.htm
+      url: https://www.ietf.org/proceedings/58/126.htm
   - kind: proceedings
     listed_in: 1
     first: '2004-02-09'

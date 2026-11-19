@@ -2,6 +2,10 @@ acronym: otp
 name: One Time Password Authentication
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '1995-06-08'
+  last: '2002-10-29'
 state: conclude
 started: '1995-05-28'
 closed: '2002-10-29'
@@ -25,6 +29,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1995-06-08)'
   evidence:
+  - kind: minutes
+    listed_in: 5
+    first: '1997-04-07'
+    last: '1999-07-11'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtft104.htm
+    - date: '1998-03-30'
+      subject: IETF 41 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/41/98mar-edited-109.htm
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-109.html
   - kind: proceedings
     listed_in: 9
     first: '1995-06-08'
@@ -53,6 +71,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1995-06-08)'
   evidence:
+  - kind: minutes
+    listed_in: 5
+    first: '1997-04-07'
+    last: '1999-07-11'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtft104.htm
+    - date: '1998-03-30'
+      subject: IETF 41 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/41/98mar-edited-109.htm
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-109.html
   - kind: proceedings
     listed_in: 9
     first: '1995-06-08'

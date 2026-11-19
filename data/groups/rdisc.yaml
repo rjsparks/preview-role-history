@@ -2,6 +2,10 @@ acronym: rdisc
 name: Router Discovery
 type: wg
 parent: int
+areas:
+- area: int
+  first: '1991-08-08'
+  last: '1991-08-08'
 state: conclude
 started: '1988-10-01'
 closed: '1991-08-08'

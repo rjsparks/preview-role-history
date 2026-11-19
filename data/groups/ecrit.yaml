@@ -2,6 +2,16 @@ acronym: ecrit
 name: Emergency Context Resolution with Internet Technologies
 type: wg
 parent: art
+areas:
+- area: tsv
+  first: '2004-10-28'
+  last: '2005-09-20'
+- area: rai
+  first: '2006-01-20'
+  last: '2013-03-13'
+- area: art
+  first: '2015-05-29'
+  last: '2026-11-18'
 state: active
 started: '2004-10-01'
 closed: null
@@ -67,7 +77,7 @@ chairs:
     examples:
     - date: '2004-11-07'
       subject: IETF 61 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/61/minutes/ecrit.html
+      url: https://www.ietf.org/proceedings/61/ecrit.html
   - kind: proceedings
     listed_in: 1
     first: '2004-10-28'
@@ -127,10 +137,10 @@ chairs:
     examples:
     - date: '2004-11-07'
       subject: IETF 61 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/61/minutes/ecrit.html
+      url: https://www.ietf.org/proceedings/61/ecrit.html
     - date: '2005-07-31'
       subject: IETF 63 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/63/minutes/ecrit.html
+      url: https://www.ietf.org/proceedings/63/ecrit.html
     - date: '2009-03-22'
       subject: IETF 74 minutes in the proceedings
       url: https://www.ietf.org/proceedings/74/minutes/ecrit.txt
@@ -221,7 +231,7 @@ chairs:
     examples:
     - date: '2005-07-31'
       subject: IETF 63 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/63/minutes/ecrit.html
+      url: https://www.ietf.org/proceedings/63/ecrit.html
     - date: '2005-11-06'
       subject: IETF 64 minutes in the proceedings
       url: https://www.ietf.org/proceedings/64/minutes/ecrit.txt
@@ -245,7 +255,7 @@ chairs:
   - kind: minutes without them
     date: '2004-11-07'
     subject: IETF 61 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/61/minutes/ecrit.html
+    url: https://www.ietf.org/proceedings/61/ecrit.html
   - kind: session requests
     meetings:
     - '65'

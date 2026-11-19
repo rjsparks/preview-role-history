@@ -2,6 +2,13 @@ acronym: agentx
 name: SNMP Agent Extensibility
 type: wg
 parent: ops
+areas:
+- area: mgt
+  first: '1995-12-04'
+  last: '1995-12-04'
+- area: ops
+  first: '1997-02-11'
+  last: '2002-05-24'
 state: conclude
 started: '1995-10-12'
 closed: '2002-05-24'
@@ -25,6 +32,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1995-12-04)'
   evidence:
+  - kind: minutes
+    listed_in: 5
+    first: '1997-04-07'
+    last: '1999-07-11'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr76.htm
+    - date: '1998-08-24'
+      subject: IETF 42 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/42/98aug-89.htm
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-78.html
   - kind: proceedings
     listed_in: 12
     first: '1995-12-04'

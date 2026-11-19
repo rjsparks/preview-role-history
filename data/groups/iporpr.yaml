@@ -2,6 +2,16 @@ acronym: iporpr
 name: IP over Resilient Packet Rings
 type: wg
 parent: int
+areas:
+- area: gen
+  first: '2001-03-14'
+  last: '2001-03-14'
+- area: sub
+  first: '2001-07-31'
+  last: '2001-10-01'
+- area: int
+  first: '2002-06-13'
+  last: '2008-09-29'
 state: conclude
 started: '2000-11-10'
 closed: '2008-09-29'
@@ -17,12 +27,13 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2000-11-10'
+      not_before: '2001-08-05'
       not_after: '2004-01-29'
     end:
       certainty: group-closed
       date: '2008-09-29'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2001-08-05)'
     - 'Start: listed as chair in a proceedings charter snapshot (2004-01-29)'
   evidence:
   - kind: WG Action
@@ -43,6 +54,10 @@ chairs:
     - date: '2005-05-03'
       subject: IETF 63 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/63/iporpr.html
+  - kind: minutes without them
+    date: '2001-08-05'
+    subject: IETF 51 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/51/51-126.htm
 - person: 104577
   name: Albert Herrera
   status: unconfirmed
@@ -52,12 +67,24 @@ chairs:
       not_after: '2001-03-14'
     end:
       certainty: between
-      not_before: '2001-03-14'
+      not_before: '2001-08-05'
       not_after: '2004-01-29'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2001-03-14)'
+    - 'End: listed as chair in meeting minutes (2001-08-05)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2004-01-29)'
   evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '2001-03-18'
+    last: '2001-08-05'
+    examples:
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-130.htm
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/51-126.htm
   - kind: proceedings
     listed_in: 6
     first: '2001-03-14'
@@ -81,13 +108,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '1997-04-07'
       not_after: '2001-03-14'
     end:
       certainty: between
       not_before: '2002-12-09'
       not_after: '2008-09-29'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 32 (1995-04-03)'
     - 'Start: listed as chair in a proceedings charter snapshot (2001-03-14)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2002-12-09)'
     - 'End: the group closed (2008-09-29)'
@@ -100,6 +129,17 @@ chairs:
     - date: '2002-12-09'
       subject: '[IPORPR] milestone accomplished'
       url: https://mailarchive.ietf.org/arch/msg/iporpr/6wxP36bgSKHvqpi1vonwM7FKuOc/
+  - kind: minutes
+    listed_in: 2
+    first: '2001-03-18'
+    last: '2001-08-05'
+    examples:
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-130.htm
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/51-126.htm
   - kind: proceedings
     listed_in: 9
     first: '2001-03-14'
@@ -114,3 +154,8 @@ chairs:
     - date: '2004-06-07'
       subject: IETF 62 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/62/iporpr.html
+  - kind: joined the IESG
+    after_meeting: '31'
+    after: '1994-12-05'
+    by_meeting: '32'
+    by: '1995-04-03'

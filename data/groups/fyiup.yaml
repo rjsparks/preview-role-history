@@ -2,6 +2,10 @@ acronym: fyiup
 name: FYI Updates
 type: wg
 parent: usv
+areas:
+- area: usv
+  first: '1999-05-20'
+  last: '2001-02-17'
 state: conclude
 started: '1999-05-03'
 closed: '2001-02-17'
@@ -25,6 +29,14 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1999-05-20)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '1999-07-11'
+    last: '1999-07-11'
+    examples:
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-143.html
   - kind: proceedings
     listed_in: 1
     first: '1999-05-20'
@@ -51,6 +63,14 @@ chairs:
     date: '1999-05-28'
     subject: 'WG ACTION: FYI Updates (fyiup)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/QoLGs-ANEiQ5bWayszKzmj9Q19Y/
+  - kind: minutes
+    listed_in: 1
+    first: '1999-07-11'
+    last: '1999-07-11'
+    examples:
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-143.html
   - kind: proceedings
     listed_in: 1
     first: '1999-05-20'

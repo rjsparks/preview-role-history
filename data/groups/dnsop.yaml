@@ -2,6 +2,10 @@ acronym: dnsop
 name: Domain Name System Operations
 type: wg
 parent: ops
+areas:
+- area: ops
+  first: '1999-06-09'
+  last: '2026-11-18'
 state: active
 started: '1999-05-18'
 closed: null
@@ -129,6 +133,20 @@ chairs:
     - date: '2001-05-02'
       subject: WG Last Call
       url: https://mailarchive.ietf.org/arch/msg/dnsop/bFpRCQEgLyocVIXRNuXgHCX-FIc/
+  - kind: minutes
+    listed_in: 11
+    first: '1999-07-11'
+    last: '2002-11-17'
+    examples:
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-66.html
+    - date: '1999-11-07'
+      subject: IETF 46 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-73.html
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/156.htm
   - kind: proceedings
     listed_in: 11
     first: '1999-06-09'
@@ -207,7 +225,7 @@ chairs:
       subject: '[dnsop] WGLC for draft-ietf-dnsop-ipv6-dns-issues-06.txt'
       url: https://mailarchive.ietf.org/arch/msg/dnsop/0RiMpzLCs7eDR6IFv01hQfR1N_w/
   - kind: minutes
-    listed_in: 13
+    listed_in: 12
     first: '2003-03-16'
     last: '2005-07-31'
     examples:
@@ -239,12 +257,14 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2002-11-17'
       not_after: '2003-03-16'
     end:
       certainty: announced
       date: '2009-11-16'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2002-11-17)'
     - 'Start: listed as chair in meeting minutes (2003-03-16)'
     - 'End: announced on the group''s list (2009-11-16)'
   evidence:
@@ -276,7 +296,7 @@ chairs:
       subject: '[dnsop] Updated DNSOP agenda for IETF64'
       url: https://mailarchive.ietf.org/arch/msg/dnsop/s0MQNfw0JAHMpx0T1jOQbLvSLQk/
   - kind: minutes
-    listed_in: 28
+    listed_in: 27
     first: '2003-03-16'
     last: '2009-11-08'
     examples:
@@ -303,6 +323,10 @@ chairs:
     - date: '2008-12-16'
       subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/dnsop.html
+  - kind: minutes without them
+    date: '2002-11-17'
+    subject: IETF 55 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/55/156.htm
 - person: 107363
   name: Peter Koch
   status: confirmed
@@ -523,12 +547,27 @@ chairs:
       not_after: '1999-06-09'
     end:
       certainty: between
-      not_before: '1999-06-09'
+      not_before: '2002-11-17'
       not_after: '2003-03-16'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1999-06-09)'
+    - 'End: listed as chair in meeting minutes (2002-11-17)'
     - 'End: not listed among the chairs in meeting minutes (2003-03-16)'
   evidence:
+  - kind: minutes
+    listed_in: 11
+    first: '1999-07-11'
+    last: '2002-11-17'
+    examples:
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-66.html
+    - date: '1999-11-07'
+      subject: IETF 46 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-73.html
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/156.htm
   - kind: proceedings
     listed_in: 11
     first: '1999-06-09'
@@ -552,12 +591,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2013-03-10'
+      certainty: between
+      not_before: '2012-07-29'
+      not_after: '2013-03-10'
     end:
       certainty: exact
       date: '2025-04-16'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2012-07-29)'
     - 'Start: listed as chair in a proceedings charter snapshot (2013-03-10)'
   evidence:
   - kind: WG Review
@@ -616,6 +657,10 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/dnsop.html
+  - kind: minutes without them
+    date: '2012-07-29'
+    subject: '[DNSOP] Minutes from IETF 84 DNSOP Meeting'
+    url: https://mailarchive.ietf.org/arch/msg/dnsop/X4FWb5wiF_HoOazAzeml7_0h-rw/
   - kind: shepherded
     documents:
     - draft-andrews-dns-no-response-issue

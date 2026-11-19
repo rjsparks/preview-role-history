@@ -2,6 +2,13 @@ acronym: savnet
 name: Source Address Validation in Intra-domain and Inter-domain Networks
 type: wg
 parent: rtg
+areas:
+- area: int
+  first: '2022-02-10'
+  last: '2022-05-13'
+- area: rtg
+  first: '2022-05-23'
+  last: '2026-11-18'
 state: active
 started: '2022-02-10'
 closed: null

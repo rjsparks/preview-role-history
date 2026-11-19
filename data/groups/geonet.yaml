@@ -2,6 +2,10 @@ acronym: geonet
 name: Internet-wide Geo-Networking
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2013-10-18'
+  last: '2026-11-18'
 state: bof-conc
 started: '2013-10-18'
 closed: null
@@ -18,12 +22,6 @@ chairs:
   name: Alexandre Petrescu
   status: confirmed
   periods:
-  - start:
-      certainty: between
-      not_before: '2013-10-18'
-      not_after: '2014-01-23'
-    end:
-      certainty: group-closed
   - start:
       certainty: between
       not_before: '2013-10-18'

@@ -2,6 +2,10 @@ acronym: beep
 name: Blocks Extensible Exchange Protocol
 type: wg
 parent: app
+areas:
+- area: app
+  first: '2000-07-17'
+  last: '2011-12-09'
 state: conclude
 started: '2000-06-13'
 closed: '2002-03-24'
@@ -20,17 +24,28 @@ chairs:
       not_after: '2000-07-05'
     end:
       certainty: between
-      not_before: '2000-07-05'
+      not_before: '2000-12-10'
       not_after: '2002-03-24'
     notes:
     - 'Start: named as chair in the WG Action announcement (2000-07-05)'
-    - 'End: named as chair in the WG Action announcement (2000-07-05)'
+    - 'End: listed as chair in meeting minutes (2000-12-10)'
     - 'End: the group closed (2002-03-24)'
   evidence:
   - kind: WG Action
     date: '2000-07-05'
     subject: 'WG Action: Blocks Extensible Exchange Protocol (beep)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/QFiTuon1vqZ6Ln8n8ByUZfynM8c/
+  - kind: minutes
+    listed_in: 2
+    first: '2000-07-31'
+    last: '2000-12-10'
+    examples:
+    - date: '2000-07-31'
+      subject: IETF 48 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/48/00july-10.htm
+    - date: '2000-12-10'
+      subject: IETF 49 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/49/00dec-10.htm
   - kind: proceedings
     listed_in: 3
     first: '2000-07-17'

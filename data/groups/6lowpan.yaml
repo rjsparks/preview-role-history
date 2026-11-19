@@ -2,6 +2,10 @@ acronym: 6lowpan
 name: IPv6 over Low power WPAN
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2004-10-28'
+  last: '2014-01-16'
 state: conclude
 started: '2004-10-01'
 closed: '2014-01-16'

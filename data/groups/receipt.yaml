@@ -2,6 +2,10 @@ acronym: receipt
 name: Receipt Notifications for Internet Mail
 type: wg
 parent: app
+areas:
+- area: app
+  first: '1995-07-17'
+  last: '1998-04-28'
 state: conclude
 started: '1995-08-04'
 closed: '1998-04-28'
@@ -27,6 +31,14 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1995-07-17)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '1997-04-07'
+    last: '1997-04-07'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr26.htm
   - kind: proceedings
     listed_in: 6
     first: '1995-07-17'
@@ -54,6 +66,14 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1995-07-17)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '1997-04-07'
+    last: '1997-04-07'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr26.htm
   - kind: proceedings
     listed_in: 6
     first: '1995-07-17'

@@ -2,6 +2,10 @@ acronym: calsch
 name: Calendaring and Scheduling
 type: wg
 parent: app
+areas:
+- area: app
+  first: '1997-04-07'
+  last: '2004-09-08'
 state: conclude
 started: '1996-10-07'
 closed: '2004-09-08'
@@ -20,12 +24,27 @@ chairs:
       not_after: '1997-04-07'
     end:
       certainty: between
-      not_before: '1997-04-07'
+      not_before: '1998-12-07'
       not_after: '1999-02-16'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
+    - 'End: listed as chair in meeting minutes (1998-12-07)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (1999-02-16)'
   evidence:
+  - kind: minutes
+    listed_in: 5
+    first: '1997-08-11'
+    last: '1998-12-07'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-12.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-05.htm
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-12.html
   - kind: proceedings
     listed_in: 6
     first: '1997-04-07'
@@ -49,16 +68,33 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '1999-11-07'
       not_after: '2000-02-03'
     end:
       certainty: between
-      not_before: '2000-02-03'
+      not_before: '2003-11-09'
       not_after: '2004-02-10'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (1999-11-07)'
     - 'Start: listed as chair in a proceedings charter snapshot (2000-02-03)'
+    - 'End: listed as chair in meeting minutes (2003-11-09)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2004-02-10)'
   evidence:
+  - kind: minutes
+    listed_in: 10
+    first: '2000-03-26'
+    last: '2003-11-09'
+    examples:
+    - date: '2000-03-26'
+      subject: IETF 47 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-10.html
+    - date: '2000-07-31'
+      subject: IETF 48 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/48/00july-11.htm
+    - date: '2003-11-09'
+      subject: IETF 58 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/58/allchars.htm
   - kind: proceedings
     listed_in: 10
     first: '2000-02-03'
@@ -74,6 +110,10 @@ chairs:
       subject: IETF 58 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/58/103.htm
   - kind: minutes without them
+    date: '1999-11-07'
+    subject: IETF 46 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-10.html
+  - kind: minutes without them
     date: '2004-02-10'
     subject: IETF 59 proceedings charter, as last modified
     url: https://www.ietf.org/proceedings/59/103.htm
@@ -83,14 +123,29 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '1996-10-07'
+      not_before: '1998-12-07'
       not_after: '1999-02-16'
     end:
       certainty: group-closed
       date: '2004-09-08'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (1998-12-07)'
     - 'Start: listed as chair in a proceedings charter snapshot (1999-02-16)'
   evidence:
+  - kind: minutes
+    listed_in: 14
+    first: '1999-03-14'
+    last: '2004-02-29'
+    examples:
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-11.html
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-11.html
+    - date: '2004-02-29'
+      subject: IETF 59 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/59/allchars.htm
   - kind: proceedings
     listed_in: 15
     first: '1999-02-16'
@@ -105,20 +160,33 @@ chairs:
     - date: '2004-07-01'
       subject: IETF 60 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/60/104.htm
+  - kind: minutes without them
+    date: '1998-12-07'
+    subject: IETF 43 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-12.html
 - person: 104380
   name: Morgan Rl
   status: confirmed
   periods:
   - start:
       certainty: between
-      not_before: '1996-10-07'
+      not_before: '2003-11-09'
       not_after: '2004-02-10'
     end:
       certainty: group-closed
       date: '2004-09-08'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2003-11-09)'
     - 'Start: listed as chair in a proceedings charter snapshot (2004-02-10)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2004-02-29'
+    last: '2004-02-29'
+    examples:
+    - date: '2004-02-29'
+      subject: IETF 59 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/59/allchars.htm
   - kind: proceedings
     listed_in: 2
     first: '2004-02-10'
@@ -130,32 +198,51 @@ chairs:
     - date: '2004-07-01'
       subject: IETF 60 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/60/104.htm
+  - kind: minutes without them
+    date: '2003-11-09'
+    subject: IETF 58 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/58/allchars.htm
 - person: 108162
   name: Robert Moskowitz
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '1997-08-11'
+      not_after: '1997-04-07'
     end:
       certainty: between
-      not_before: '1997-08-11'
+      not_before: '1999-11-07'
       not_after: '2000-02-03'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1997-08-11)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
+    - 'End: listed as chair in meeting minutes (1999-11-07)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2000-02-03)'
   evidence:
-  - kind: proceedings
+  - kind: minutes
     listed_in: 8
     first: '1997-08-11'
+    last: '1999-11-07'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-12.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-05.htm
+    - date: '1999-11-07'
+      subject: IETF 46 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-10.html
+  - kind: proceedings
+    listed_in: 9
+    first: '1997-04-07'
     last: '1999-09-29'
     examples:
+    - date: '1997-04-07'
+      subject: IETF 38 proceedings charter
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr11.htm
     - date: '1997-08-11'
       subject: IETF 39 proceedings charter
       url: https://www.ietf.org/proceedings/39/transit97aug-12.htm
-    - date: '1997-10-27'
-      subject: IETF 40 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-05.htm
     - date: '1999-09-29'
       subject: IETF 46 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-10.html

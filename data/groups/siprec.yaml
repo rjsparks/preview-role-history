@@ -2,6 +2,13 @@ acronym: siprec
 name: SIP Recording
 type: wg
 parent: art
+areas:
+- area: rai
+  first: '2010-03-26'
+  last: '2014-10-10'
+- area: art
+  first: '2015-05-29'
+  last: '2016-12-23'
 state: conclude
 started: '2010-02-09'
 closed: '2016-12-23'
@@ -112,20 +119,10 @@ chairs:
       not_before: '2010-02-09'
       not_after: '2011-07-24'
     end:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2011-12-09'
-    notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2011-07-24)'
-  - start:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2012-03-25'
-    end:
       certainty: group-closed
       date: '2016-12-23'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2012-03-25)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2011-07-24)'
   evidence:
   - kind: WG Action
     date: '2014-06-11'

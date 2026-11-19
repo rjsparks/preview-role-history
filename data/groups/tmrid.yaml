@@ -2,6 +2,10 @@ acronym: tmrid
 name: Trustworthy Multipurpose Remote ID
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2019-10-09'
+  last: '2020-02-11'
 state: replaced
 started: '2019-10-09'
 closed: '2020-02-11'

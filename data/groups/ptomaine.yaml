@@ -2,6 +2,10 @@ acronym: ptomaine
 name: Prefix Taxonomy Ongoing Measurement & Inter Network Experiment
 type: wg
 parent: ops
+areas:
+- area: ops
+  first: '2001-11-19'
+  last: '2004-07-23'
 state: conclude
 started: '2001-08-13'
 closed: '2004-07-23'
@@ -31,6 +35,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2002-02-11)'
   evidence:
+  - kind: minutes
+    listed_in: 3
+    first: '2002-03-17'
+    last: '2002-11-17'
+    examples:
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/168.htm
+    - date: '2002-07-14'
+      subject: IETF 54 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/54/172.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/167.htm
   - kind: proceedings
     listed_in: 4
     first: '2002-02-11'
@@ -59,6 +77,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2002-02-11)'
   evidence:
+  - kind: minutes
+    listed_in: 3
+    first: '2002-03-17'
+    last: '2002-11-17'
+    examples:
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/168.htm
+    - date: '2002-07-14'
+      subject: IETF 54 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/54/172.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/167.htm
   - kind: proceedings
     listed_in: 4
     first: '2002-02-11'

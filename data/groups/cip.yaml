@@ -2,6 +2,10 @@ acronym: cip
 name: Connection IP
 type: wg
 parent: int
+areas:
+- area: int
+  first: '1992-09-11'
+  last: '1992-09-11'
 state: conclude
 started: '1988-10-01'
 closed: '1992-09-11'

@@ -2,6 +2,10 @@ acronym: iup
 name: Internet User Population
 type: wg
 parent: usv
+areas:
+- area: usv
+  first: '1990-11-16'
+  last: '1990-11-16'
 state: conclude
 started: '1989-10-02'
 closed: '1990-11-16'
@@ -17,8 +21,16 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '1989-10-02'
+      not_before: '1989-10-31'
       not_after: '1990-11-16'
     end:
       certainty: group-closed
       date: '1990-11-16'
+    notes:
+    - 'Start: became an Area Director, first serving at IETF 14 (1989-07-25)'
+  evidence:
+  - kind: joined the IESG
+    after_meeting: null
+    after: null
+    by_meeting: '14'
+    by: '1989-07-25'

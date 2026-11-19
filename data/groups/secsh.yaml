@@ -2,6 +2,10 @@ acronym: secsh
 name: Secure Shell
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '1997-02-26'
+  last: '2006-10-09'
 state: conclude
 started: '1997-02-14'
 closed: '2006-10-09'
@@ -25,6 +29,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2000-07-25)'
   evidence:
+  - kind: minutes
+    listed_in: 8
+    first: '2000-07-31'
+    last: '2002-11-17'
+    examples:
+    - date: '2000-07-31'
+      subject: IETF 48 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/48/00july-114.htm
+    - date: '2000-12-10'
+      subject: IETF 49 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/49/00dec-120.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/200.htm
   - kind: proceedings
     listed_in: 13
     first: '2000-07-25'
@@ -48,12 +66,27 @@ chairs:
       not_after: '1997-02-26'
     end:
       certainty: between
-      not_before: '1997-02-26'
+      not_before: '1999-07-11'
       not_after: '2006-10-09'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1997-02-26)'
+    - 'End: listed as chair in meeting minutes (1999-07-11)'
     - 'End: the group closed (2006-10-09)'
   evidence:
+  - kind: minutes
+    listed_in: 5
+    first: '1997-08-11'
+    last: '1999-07-11'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-106.htm
+    - date: '1998-08-24'
+      subject: IETF 42 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/42/98aug-121.htm
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-112.html
   - kind: proceedings
     listed_in: 5
     first: '1997-02-26'

@@ -2,6 +2,10 @@ acronym: multi6
 name: Site Multihoming in IPv6
 type: wg
 parent: ops
+areas:
+- area: ops
+  first: '2001-03-14'
+  last: '2007-03-17'
 state: conclude
 started: '2001-02-21'
 closed: '2007-03-17'
@@ -19,13 +23,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2001-12-09'
       not_after: '2004-02-12'
     end:
       certainty: between
       not_before: '2004-04-08'
       not_after: '2005-07-31'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2001-12-09)'
     - 'Start: listed as chair in a proceedings charter snapshot (2004-02-12)'
     - 'End: named as chair in the WG Action announcement (2004-04-08)'
     - 'End: became an Area Director, first serving at IETF 63 (2005-07-31)'
@@ -48,6 +54,10 @@ chairs:
     - date: '2005-01-18'
       subject: IETF 62 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/62/multi6.html
+  - kind: minutes without them
+    date: '2001-12-09'
+    subject: IETF 52 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/52/177.htm
   - kind: joined the IESG
     after_meeting: '62'
     after: '2005-03-06'
@@ -62,17 +72,31 @@ chairs:
       not_after: '2001-03-12'
     end:
       certainty: between
-      not_before: '2001-03-12'
+      not_before: '2001-12-09'
       not_after: '2003-06-04'
     notes:
     - 'Start: named as chair in the WG Action announcement (2001-03-12)'
-    - 'End: named as chair in the WG Action announcement (2001-03-12)'
+    - 'End: listed as chair in meeting minutes (2001-12-09)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2003-06-04)'
   evidence:
   - kind: WG Action
     date: '2001-03-12'
     subject: 'WG ACTION: Site Multihoming in IPv6 (multi6)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/PSm1lZ5QZ4s4y1YV7eRYI5DC7GA/
+  - kind: minutes
+    listed_in: 3
+    first: '2001-03-18'
+    last: '2001-12-09'
+    examples:
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-86.htm
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/51-85.htm
+    - date: '2001-12-09'
+      subject: IETF 52 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/52/177.htm
   - kind: proceedings
     listed_in: 4
     first: '2001-03-14'
@@ -100,12 +124,24 @@ chairs:
       not_after: '2001-07-31'
     end:
       certainty: between
-      not_before: '2001-07-31'
+      not_before: '2001-12-09'
       not_after: '2004-02-12'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2001-07-31)'
+    - 'End: listed as chair in meeting minutes (2001-12-09)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2004-02-12)'
   evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '2001-08-05'
+    last: '2001-12-09'
+    examples:
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/51-85.htm
+    - date: '2001-12-09'
+      subject: IETF 52 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/52/177.htm
   - kind: proceedings
     listed_in: 5
     first: '2001-07-31'
@@ -130,12 +166,13 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2001-02-21'
+      not_before: '2001-12-09'
       not_after: '2003-06-04'
     end:
       certainty: group-closed
       date: '2007-03-17'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2001-12-09)'
     - 'Start: listed as chair in a proceedings charter snapshot (2003-06-04)'
   evidence:
   - kind: WG Action
@@ -156,3 +193,7 @@ chairs:
     - date: '2005-04-19'
       subject: IETF 63 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/63/multi6.html
+  - kind: minutes without them
+    date: '2001-12-09'
+    subject: IETF 52 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/52/177.htm

@@ -2,6 +2,10 @@ acronym: openpgp
 name: Open Specification for Pretty Good Privacy
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '1997-12-17'
+  last: '2026-11-18'
 state: active
 started: '1997-09-19'
 closed: null
@@ -20,12 +24,12 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '1997-12-17'
+      not_after: '1997-12-08'
     end:
       certainty: announced
       date: '2003-04-30'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1997-12-17)'
+    - 'Start: listed as chair in meeting minutes (1997-12-08)'
     - 'End: announced on the group''s list (2003-04-30)'
   evidence:
   - kind: list message
@@ -48,6 +52,20 @@ chairs:
     - date: '2001-03-21'
       subject: WG Last Call - draft-ietf-openpgp-mime
       url: https://mailarchive.ietf.org/arch/msg/openpgp/BVt_VIbe85UXug4Nh_agCXpN9i4/
+  - kind: minutes
+    listed_in: 7
+    first: '1997-12-08'
+    last: '2001-03-18'
+    examples:
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-101.htm
+    - date: '1998-03-30'
+      subject: IETF 41 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/41/98mar-edited-104.htm
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-106.htm
   - kind: proceedings
     listed_in: 10
     first: '1997-12-17'

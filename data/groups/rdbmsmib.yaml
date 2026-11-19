@@ -2,6 +2,10 @@ acronym: rdbmsmib
 name: Relational Database Management Systems MIB
 type: wg
 parent: mgt
+areas:
+- area: mgt
+  first: '1994-08-23'
+  last: '1994-08-23'
 state: conclude
 started: '1994-01-19'
 closed: '1994-08-23'

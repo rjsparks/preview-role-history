@@ -2,6 +2,10 @@ acronym: cbor
 name: Concise Binary Object Representation Maintenance and Extensions
 type: wg
 parent: art
+areas:
+- area: art
+  first: '2016-11-17'
+  last: '2026-11-18'
 state: active
 started: '2016-11-17'
 closed: null
@@ -58,6 +62,12 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: list message
+    date: '2019-03-25'
+    says: end
+    subject: '[Cbor] CBOR co-chair change'
+    url: https://mailarchive.ietf.org/arch/msg/cbor/pCldrp3HtW8AXrkjvcoF_75dyI4/
+    excerpt: I would like to thank Barry for his contributions!
   - kind: chair activity
     first: '2018-08-13'
     last: '2026-07-30'

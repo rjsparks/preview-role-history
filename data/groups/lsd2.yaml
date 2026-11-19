@@ -2,6 +2,10 @@ acronym: lsd2
 name: LDAP Service Deployment - Take 2
 type: wg
 parent: ops
+areas:
+- area: ops
+  first: '2026-11-18'
+  last: '2026-11-18'
 state: conclude
 started: null
 closed: null
@@ -16,10 +20,37 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-12-09'
+      certainty: between
+      not_before: '1999-03-14'
+      not_after: '1999-07-11'
     end:
-      certainty: group-closed
+      certainty: between
+      not_before: '1999-07-11'
+      not_after: '2001-08-05'
+    notes:
+    - 'Start: became an Area Director, first serving at IETF 41 (1998-03-30)'
+    - 'Start: listed as chair in meeting minutes (1999-07-11)'
+    - 'End: listed as chair in meeting minutes (1999-07-11)'
+    - 'End: became an Area Director, first serving at IETF 51 (2001-08-05)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '1999-07-11'
+    last: '1999-07-11'
+    examples:
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-81.html
+  - kind: joined the IESG
+    after_meeting: '40'
+    after: '1997-12-08'
+    by_meeting: '41'
+    by: '1998-03-30'
+  - kind: joined the IESG
+    after_meeting: '50'
+    after: '2001-03-18'
+    by_meeting: '51'
+    by: '2001-08-05'
 - person: 10554
   name: Roland Hedberg
   status: confirmed

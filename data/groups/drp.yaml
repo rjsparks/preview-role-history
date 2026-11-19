@@ -2,6 +2,10 @@ acronym: drp
 name: Domain Registry Protocol
 type: wg
 parent: app
+areas:
+- area: app
+  first: '2026-11-18'
+  last: '2026-11-18'
 state: conclude
 started: null
 closed: null
@@ -16,7 +20,16 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-12-09'
+      certainty: between
+      not_before: '1996-06-24'
+      not_after: '2011-12-09'
     end:
       certainty: group-closed
+    notes:
+    - 'Start: became an Area Director, first serving at IETF 26 (1993-03-29)'
+  evidence:
+  - kind: joined the IESG
+    after_meeting: '25'
+    after: '1992-11-16'
+    by_meeting: '26'
+    by: '1993-03-29'

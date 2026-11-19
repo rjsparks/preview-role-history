@@ -2,6 +2,10 @@ acronym: rescap
 name: Resource Capabilities Discovery
 type: wg
 parent: app
+areas:
+- area: app
+  first: '2000-03-09'
+  last: '2003-10-08'
 state: conclude
 started: '1999-10-22'
 closed: '2003-10-08'
@@ -32,6 +36,14 @@ chairs:
     date: '1999-12-07'
     subject: 'WG ACTION: Resource Capabilities Discovery (rescap)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/xjg5L9kbSHWvSpM6-oT8Cd-iQWI/
+  - kind: minutes
+    listed_in: 1
+    first: '2000-03-26'
+    last: '2000-03-26'
+    examples:
+    - date: '2000-03-26'
+      subject: IETF 47 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-28.html
   - kind: proceedings
     listed_in: 6
     first: '2000-03-09'
@@ -80,12 +92,13 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '1999-10-22'
+      not_before: '2000-03-26'
       not_after: '2001-07-31'
     end:
       certainty: group-closed
       date: '2003-10-08'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2000-03-26)'
     - 'Start: listed as chair in a proceedings charter snapshot (2001-07-31)'
   evidence:
   - kind: proceedings
@@ -102,3 +115,7 @@ chairs:
     - date: '2003-03-25'
       subject: IETF 57 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/57/119.htm
+  - kind: minutes without them
+    date: '2000-03-26'
+    subject: IETF 47 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-28.html

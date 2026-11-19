@@ -2,6 +2,10 @@ acronym: mass
 name: Message Authentication Signature Standards
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '2004-07-26'
+  last: '2006-01-26'
 state: conclude
 started: null
 closed: '2006-01-26'
@@ -40,7 +44,7 @@ chairs:
     examples:
     - date: '2004-08-01'
       subject: IETF 60 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/60/minutes/mass.htm
+      url: https://www.ietf.org/proceedings/60/230.htm
   - kind: proceedings
     listed_in: 2
     first: '2004-07-26'
@@ -65,14 +69,16 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '2004-08-01'
+      certainty: between
+      not_before: '2004-08-01'
+      not_after: '2005-07-14'
     end:
       certainty: between
       not_before: '2005-07-31'
       not_after: '2006-01-26'
     notes:
-    - 'Start: the BOF met at IETF 60 (2004-08-01)'
+    - 'Start: not listed among the chairs in meeting minutes (2004-08-01)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2005-07-14)'
     - 'End: listed as chair in meeting minutes (2005-07-31)'
     - 'End: the group closed (2006-01-26)'
   evidence:
@@ -83,7 +89,7 @@ chairs:
     examples:
     - date: '2005-07-31'
       subject: IETF 63 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/63/minutes/mass.html
+      url: https://www.ietf.org/proceedings/63/mass.html
   - kind: proceedings
     listed_in: 1
     first: '2005-07-14'
@@ -92,9 +98,9 @@ chairs:
     - date: '2005-07-14'
       subject: IETF 63 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/63/mass.html
-  - kind: BOF session
-    meeting: '60'
+  - kind: minutes without them
     date: '2004-08-01'
+    subject: IETF 60 minutes in the proceedings
     url: https://www.ietf.org/proceedings/60/230.htm
   - kind: BOF session
     meeting: '63'
@@ -123,10 +129,10 @@ chairs:
     examples:
     - date: '2004-08-01'
       subject: IETF 60 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/60/minutes/mass.htm
+      url: https://www.ietf.org/proceedings/60/230.htm
     - date: '2005-07-31'
       subject: IETF 63 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/63/minutes/mass.html
+      url: https://www.ietf.org/proceedings/63/mass.html
   - kind: proceedings
     listed_in: 3
     first: '2004-07-26'

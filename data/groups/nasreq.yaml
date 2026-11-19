@@ -2,6 +2,13 @@ acronym: nasreq
 name: Network Access Server Requirements
 type: wg
 parent: ops
+areas:
+- area: sec
+  first: '1994-12-05'
+  last: '1994-12-05'
+- area: ops
+  first: '1999-02-09'
+  last: '2003-07-21'
 state: conclude
 started: '1999-01-14'
 closed: '2003-07-21'
@@ -85,6 +92,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1999-02-09)'
   evidence:
+  - kind: minutes
+    listed_in: 4
+    first: '1999-03-14'
+    last: '2000-03-26'
+    examples:
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-73.html
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-71.html
+    - date: '2000-03-26'
+      subject: IETF 47 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-76.html
   - kind: proceedings
     listed_in: 9
     first: '1999-02-09'
@@ -117,6 +138,20 @@ chairs:
     date: '1999-02-01'
     subject: 'WG Action: Network Access Server Requirements (nasreq)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/uk-25izZaaNrcHbwUg1rjlJRDk0/
+  - kind: minutes
+    listed_in: 4
+    first: '1999-03-14'
+    last: '2000-03-26'
+    examples:
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-73.html
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-71.html
+    - date: '2000-03-26'
+      subject: IETF 47 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-76.html
   - kind: proceedings
     listed_in: 9
     first: '1999-02-09'

@@ -2,6 +2,10 @@ acronym: marid
 name: MTA Authorization Records in DNS
 type: wg
 parent: app
+areas:
+- area: app
+  first: '2004-06-18'
+  last: '2004-09-22'
 state: conclude
 started: '2004-01-15'
 closed: '2004-09-22'
@@ -32,6 +36,14 @@ chairs:
     date: '2004-04-08'
     subject: 'WG Action: MTA Authorization Records in DNS (marid)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/l4ht9i7n8qcLWA5Yp_-zIDBEY4Y/
+  - kind: minutes
+    listed_in: 1
+    first: '2004-08-01'
+    last: '2004-08-01'
+    examples:
+    - date: '2004-08-01'
+      subject: IETF 60 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/60/116i.htm
   - kind: proceedings
     listed_in: 1
     first: '2004-06-18'
@@ -45,13 +57,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2003-07-13'
       not_after: '2004-02-29'
     end:
       certainty: between
       not_before: '2004-02-29'
       not_after: '2004-06-18'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 41 (1998-03-30)'
     - 'Start: listed as chair in meeting minutes (2004-02-29)'
     - 'End: listed as chair in meeting minutes (2004-02-29)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2004-06-18)'
@@ -63,11 +77,16 @@ chairs:
     examples:
     - date: '2004-02-29'
       subject: IETF 59 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/59/minutes/marid.htm
+      url: https://www.ietf.org/proceedings/59/128.htm
   - kind: minutes without them
     date: '2004-06-18'
     subject: IETF 60 proceedings charter, as last modified
     url: https://www.ietf.org/proceedings/60/116.htm
+  - kind: joined the IESG
+    after_meeting: '40'
+    after: '1997-12-08'
+    by_meeting: '41'
+    by: '1998-03-30'
 - person: 106296
   name: Andy Newton
   status: confirmed
@@ -86,6 +105,14 @@ chairs:
     date: '2004-04-08'
     subject: 'WG Action: MTA Authorization Records in DNS (marid)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/l4ht9i7n8qcLWA5Yp_-zIDBEY4Y/
+  - kind: minutes
+    listed_in: 1
+    first: '2004-08-01'
+    last: '2004-08-01'
+    examples:
+    - date: '2004-08-01'
+      subject: IETF 60 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/60/116i.htm
   - kind: proceedings
     listed_in: 1
     first: '2004-06-18'

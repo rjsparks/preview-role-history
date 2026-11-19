@@ -2,6 +2,16 @@ acronym: entmib
 name: Entity MIB
 type: wg
 parent: ops
+areas:
+- area: mgt
+  first: '1995-12-04'
+  last: '1995-12-04'
+- area: ops-old
+  first: '1997-04-07'
+  last: '1997-04-07'
+- area: ops
+  first: '1997-08-11'
+  last: '2011-12-09'
 state: conclude
 started: '1995-09-21'
 closed: '2006-02-13'
@@ -23,12 +33,27 @@ chairs:
       not_after: '1995-12-04'
     end:
       certainty: between
-      not_before: '1995-12-04'
+      not_before: '1999-07-11'
       not_after: '2006-02-13'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1995-12-04)'
+    - 'End: listed as chair in meeting minutes (1999-07-11)'
     - 'End: the group closed (2006-02-13)'
   evidence:
+  - kind: minutes
+    listed_in: 7
+    first: '1997-04-07'
+    last: '1999-07-11'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr61.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-63.htm
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-67.html
   - kind: proceedings
     listed_in: 11
     first: '1995-12-04'
@@ -78,19 +103,19 @@ chairs:
       subject: '[Entmib] WG Last Call: Entity MIB for Draft Standard'
       url: https://mailarchive.ietf.org/arch/msg/entmib/xRuibLT3p5F8SKYkR9Thfn2XYKE/
   - kind: minutes
-    listed_in: 5
-    first: '2001-12-13'
+    listed_in: 11
+    first: '2001-08-05'
     last: '2004-08-01'
     examples:
-    - date: '2001-12-13'
-      subject: '[Entmib] Minutes from 52nd IETF'
-      url: https://mailarchive.ietf.org/arch/msg/entmib/iye6czw7YxcnmPRYZo9_T4fR0aE/
-    - date: '2002-11-19'
-      subject: '[Entmib] Fwd: Entity MIB Minutes'
-      url: https://mailarchive.ietf.org/arch/msg/entmib/VZqrCBwj_I_4OlXgT5sH0s9iywE/
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/51-69.htm
+    - date: '2001-12-09'
+      subject: IETF 52 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/52/159.htm
     - date: '2004-08-01'
-      subject: '[Entmib] DRAFT Minutes from IETF 60'
-      url: https://mailarchive.ietf.org/arch/msg/entmib/CjvTk6wJ--i3ZYG6R4sGVPtBUhY/
+      subject: IETF 60 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/60/167.htm
   - kind: proceedings
     listed_in: 10
     first: '2001-07-31'

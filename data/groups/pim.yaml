@@ -2,6 +2,10 @@ acronym: pim
 name: Protocols for IP Multicast
 type: wg
 parent: rtg
+areas:
+- area: rtg
+  first: '1998-08-05'
+  last: '2026-11-18'
 state: active
 started: '1998-07-09'
 closed: null
@@ -39,16 +43,16 @@ chairs:
       subject: '[pim] Working Group Last Call: PIM MIB'
       url: https://mailarchive.ietf.org/arch/msg/pim/XHpjkaI8uLpNM4c8Te4UUJr-at8/
   - kind: minutes
-    listed_in: 3
-    first: '2005-11-06'
+    listed_in: 18
+    first: '1998-08-24'
     last: '2006-07-09'
     examples:
-    - date: '2005-11-06'
-      subject: IETF 64 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/64/minutes/pim.txt
-    - date: '2006-03-19'
-      subject: IETF 65 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/65/minutes/pim.txt
+    - date: '1998-08-24'
+      subject: IETF 42 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/42/98aug-105.htm
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-96.html
     - date: '2006-07-09'
       subject: IETF 66 minutes in the proceedings
       url: https://www.ietf.org/proceedings/66/minutes/pim.txt
@@ -79,14 +83,29 @@ chairs:
       not_after: '1998-08-05'
     end:
       certainty: between
-      not_before: '1998-08-05'
+      not_before: '2002-11-17'
       not_after: '2004-06-07'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1998-08-05)'
+    - 'End: listed as chair in meeting minutes (2002-11-17)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2004-06-07)'
   evidence:
+  - kind: minutes
+    listed_in: 10
+    first: '1998-08-24'
+    last: '2002-11-17'
+    examples:
+    - date: '1998-08-24'
+      subject: IETF 42 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/42/98aug-105.htm
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-96.html
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/180.htm
   - kind: proceedings
-    listed_in: 13
+    listed_in: 17
     first: '1998-08-05'
     last: '2003-10-30'
     examples:
@@ -155,16 +174,16 @@ chairs:
       subject: '[pim] call for adoption: draft-zhou-pim-vrrp-01'
       url: https://mailarchive.ietf.org/arch/msg/pim/XyamDWlT_7p-9Enzj6osu2SFumM/
   - kind: minutes
-    listed_in: 4
-    first: '2005-11-06'
+    listed_in: 5
+    first: '2005-03-06'
     last: '2009-03-22'
     examples:
+    - date: '2005-03-06'
+      subject: IETF 62 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/62/pim.html
     - date: '2005-11-06'
       subject: IETF 64 minutes in the proceedings
       url: https://www.ietf.org/proceedings/64/minutes/pim.txt
-    - date: '2006-03-19'
-      subject: IETF 65 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/65/minutes/pim.txt
     - date: '2009-03-22'
       subject: IETF 74 minutes in the proceedings
       url: https://www.ietf.org/proceedings/74/minutes/pim.txt

@@ -2,6 +2,10 @@ acronym: netconf
 name: Network Configuration
 type: wg
 parent: ops
+areas:
+- area: ops
+  first: '2003-07-13'
+  last: '2026-11-18'
 state: active
 started: '2002-06-01'
 closed: null
@@ -157,13 +161,11 @@ chairs:
       certainty: evidence-only
       not_after: '2003-05-23'
     end:
-      certainty: between
-      not_before: '2011-02-13'
-      not_after: '2011-03-27'
+      certainty: announced
+      date: '2008-01-10'
     notes:
     - 'Start: named as chair in the WG Action announcement (2003-05-23)'
-    - 'End: posted an agenda, minutes or interim notice to the group''s list (2011-02-13)'
-    - 'End: not listed among the chairs in meeting minutes (2011-03-27)'
+    - 'End: announced on the group''s list (2008-01-10)'
   evidence:
   - kind: WG Action
     date: '2003-05-23'
@@ -186,8 +188,8 @@ chairs:
       NETCONF to the point of a Proposed Standard.
   - kind: chair activity
     first: '2004-07-28'
-    last: '2011-02-13'
-    messages: 21
+    last: '2007-08-24'
+    messages: 20
     examples:
     - date: '2004-07-28'
       subject: 'Agenda for NETCONF WG meeting at IETF #60'
@@ -223,10 +225,6 @@ chairs:
     - date: '2007-03-08'
       subject: IETF 68 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/68/netconf.html
-  - kind: minutes without them
-    date: '2011-03-27'
-    subject: IETF 80 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/80/minutes/netconf.txt
   - kind: session requests
     meetings:
     - '65'
@@ -552,7 +550,7 @@ chairs:
     examples:
     - date: '2004-02-29'
       subject: IETF 59 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/59/minutes/netconf.htm
+      url: https://www.ietf.org/proceedings/59/174.htm
     - date: '2005-03-06'
       subject: IETF 62 minutes in the proceedings
       url: https://www.ietf.org/proceedings/62/minutes/netconf.html

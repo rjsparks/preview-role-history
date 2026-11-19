@@ -2,6 +2,13 @@ acronym: rap
 name: Resource Allocation Protocol
 type: wg
 parent: ops
+areas:
+- area: tsv
+  first: '1997-11-17'
+  last: '1999-09-29'
+- area: ops
+  first: '2000-02-29'
+  last: '2005-06-01'
 state: conclude
 started: '1997-10-23'
 closed: '2005-06-01'
@@ -20,12 +27,27 @@ chairs:
       not_after: '1998-11-25'
     end:
       certainty: between
-      not_before: '1998-11-25'
+      not_before: '2000-12-10'
       not_after: '2001-03-14'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1998-11-25)'
+    - 'End: listed as chair in meeting minutes (2000-12-10)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2001-03-14)'
   evidence:
+  - kind: minutes
+    listed_in: 7
+    first: '1998-12-07'
+    last: '2000-12-10'
+    examples:
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-132.html
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-136.html
+    - date: '2000-12-10'
+      subject: IETF 49 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/49/00dec-80.htm
   - kind: proceedings
     listed_in: 7
     first: '1998-11-25'
@@ -50,25 +72,29 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '1997-10-23'
+      not_before: '2000-12-10'
       not_after: '2001-03-14'
     end:
       certainty: group-closed
       date: '2005-06-01'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2000-12-10)'
     - 'Start: listed as chair in a proceedings charter snapshot (2001-03-14)'
   evidence:
   - kind: minutes
-    listed_in: 2
-    first: '2001-08-05'
+    listed_in: 5
+    first: '2001-03-18'
     last: '2002-07-14'
     examples:
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-83.htm
     - date: '2001-08-05'
       subject: IETF 51 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/51/minutes/RAP.htm
+      url: https://www.ietf.org/proceedings/51/51-79.htm
     - date: '2002-07-14'
       subject: IETF 54 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/54/minutes/rap.htm
+      url: https://www.ietf.org/proceedings/54/174.htm
   - kind: proceedings
     listed_in: 7
     first: '2001-03-14'
@@ -83,6 +109,10 @@ chairs:
     - date: '2004-11-30'
       subject: IETF 62 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/62/rap.html
+  - kind: minutes without them
+    date: '2000-12-10'
+    subject: IETF 49 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/49/00dec-80.htm
 - person: 102976
   name: Mark Stevens
   status: confirmed
@@ -98,16 +128,19 @@ chairs:
     - 'Start: listed as chair in a proceedings charter snapshot (2000-02-29)'
   evidence:
   - kind: minutes
-    listed_in: 2
-    first: '2001-08-05'
+    listed_in: 8
+    first: '2000-03-26'
     last: '2002-07-14'
     examples:
-    - date: '2001-08-05'
-      subject: IETF 51 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/51/minutes/RAP.htm
+    - date: '2000-03-26'
+      subject: IETF 47 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-82.html
+    - date: '2000-07-31'
+      subject: IETF 48 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/48/00july-74.htm
     - date: '2002-07-14'
       subject: IETF 54 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/54/minutes/rap.htm
+      url: https://www.ietf.org/proceedings/54/174.htm
   - kind: proceedings
     listed_in: 10
     first: '2000-02-29'

@@ -2,6 +2,10 @@ acronym: ipsecme
 name: IP Security Maintenance and Extensions
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '2008-08-21'
+  last: '2026-11-18'
 state: active
 started: '2008-06-09'
 closed: null

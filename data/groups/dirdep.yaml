@@ -2,6 +2,10 @@ acronym: dirdep
 name: Directory Deployment
 type: wg
 parent: app
+areas:
+- area: app
+  first: '2000-06-05'
+  last: '2000-06-05'
 state: conclude
 started: null
 closed: '2000-06-05'
@@ -20,17 +24,39 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2000-06-05'
+      date: '1997-08-11'
     end:
       certainty: group-closed
       date: '2000-06-05'
+    notes:
+    - 'Start: listed as chair in meeting minutes (1997-08-11)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '1997-08-11'
+    last: '1997-08-11'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-35.htm
 - person: 10554
   name: Roland Hedberg
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2000-06-05'
+      date: '1997-08-11'
     end:
       certainty: group-closed
       date: '2000-06-05'
+    notes:
+    - 'Start: listed as chair in meeting minutes (1997-08-11)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '1997-08-11'
+    last: '1997-08-11'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-35.htm

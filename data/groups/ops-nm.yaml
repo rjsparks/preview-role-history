@@ -2,6 +2,10 @@ acronym: ops-nm
 name: OPS-NM Configuration Management Requirements
 type: wg
 parent: ops
+areas:
+- area: ops
+  first: '2003-12-10'
+  last: '2003-12-10'
 state: conclude
 started: null
 closed: '2003-12-10'
@@ -20,7 +24,18 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-12-10'
+      date: '2001-12-09'
     end:
       certainty: group-closed
       date: '2003-12-10'
+    notes:
+    - 'Start: listed as chair in meeting minutes (2001-12-09)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2001-12-09'
+    last: '2001-12-09'
+    examples:
+    - date: '2001-12-09'
+      subject: IETF 52 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/52/176.htm

@@ -2,6 +2,16 @@ acronym: upsmib
 name: Uninterruptible Power Supply
 type: wg
 parent: ops
+areas:
+- area: ops
+  first: '1997-03-06'
+  last: '1997-03-06'
+- area: ops-old
+  first: '1997-04-07'
+  last: '1997-04-07'
+- area: ops
+  first: '1997-08-11'
+  last: '1999-04-02'
 state: conclude
 started: '1992-09-25'
 closed: '1999-04-02'
@@ -36,13 +46,19 @@ chairs:
       subject: houston meeting minutes
       url: https://mailarchive.ietf.org/arch/msg/upsmib/cZdv_yWdxGUVuWY-AUr6j6XQu_o/
   - kind: minutes
-    listed_in: 1
+    listed_in: 4
     first: '1992-08-08'
-    last: '1992-08-08'
+    last: '1999-03-14'
     examples:
     - date: '1992-08-08'
       subject: minutes ups mib bof cambridge july 1992
       url: https://mailarchive.ietf.org/arch/msg/upsmib/DFhA_8hmmrjk2hIbHw4NWvWvw0o/
+    - date: '1997-04-07'
+      subject: IETF 38 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr79.htm
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-83.html
   - kind: proceedings
     listed_in: 4
     first: '1997-03-06'
@@ -79,6 +95,17 @@ chairs:
     - date: '1998-05-06'
       subject: Last WG Meeting Minutes (4/96)
       url: https://mailarchive.ietf.org/arch/msg/upsmib/W20F-ZRiytkEjKRGDNgAUYkz2JY/
+  - kind: minutes
+    listed_in: 2
+    first: '1998-12-07'
+    last: '1999-03-14'
+    examples:
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-82.html
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-83.html
   - kind: proceedings
     listed_in: 1
     first: '1998-08-20'

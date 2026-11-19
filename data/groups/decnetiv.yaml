@@ -2,6 +2,10 @@ acronym: decnetiv
 name: DECnet Phase IV MIB
 type: wg
 parent: mgt
+areas:
+- area: mgt
+  first: '1993-12-27'
+  last: '1993-12-27'
 state: conclude
 started: '1993-04-15'
 closed: '1993-12-27'

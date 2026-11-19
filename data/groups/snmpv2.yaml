@@ -2,6 +2,10 @@ acronym: snmpv2
 name: SNMP Version 2
 type: wg
 parent: mgt
+areas:
+- area: mgt
+  first: '1994-12-05'
+  last: '1995-12-06'
 state: conclude
 started: '1994-09-22'
 closed: '1995-12-06'

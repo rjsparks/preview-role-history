@@ -2,6 +2,10 @@ acronym: opsec
 name: Operational Security Capabilities for IP Network Infrastructure
 type: wg
 parent: ops
+areas:
+- area: ops
+  first: '2004-10-14'
+  last: '2024-08-05'
 state: conclude
 started: '2003-06-01'
 closed: '2024-08-05'
@@ -25,13 +29,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '1991-11-18'
       not_after: '2004-02-29'
     end:
       certainty: between
       not_before: '2006-03-19'
       not_after: '2006-07-09'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 15 (1989-10-31)'
     - 'Start: listed as chair in meeting minutes (2004-02-29)'
     - 'End: requested the group''s session for IETF 65 (2006-03-19)'
     - 'End: became an Area Director, first serving at IETF 66 (2006-07-09)'
@@ -47,7 +53,7 @@ chairs:
     examples:
     - date: '2004-02-29'
       subject: IETF 59 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/59/minutes/opsec.htm
+      url: https://www.ietf.org/proceedings/59/220.htm
     - date: '2005-07-31'
       subject: IETF 63 minutes in the proceedings
       url: https://www.ietf.org/proceedings/63/minutes/opsec.html
@@ -65,6 +71,11 @@ chairs:
     - date: '2007-05-21'
       subject: IETF 69 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/69/opsec.html
+  - kind: joined the IESG
+    after_meeting: '14'
+    after: '1989-07-25'
+    by_meeting: '15'
+    by: '1989-10-31'
   - kind: joined the IESG
     after_meeting: '65'
     after: '2006-03-19'

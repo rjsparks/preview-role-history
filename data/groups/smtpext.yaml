@@ -2,6 +2,10 @@ acronym: smtpext
 name: Internet Mail Extensions
 type: wg
 parent: app
+areas:
+- area: app
+  first: '1993-03-11'
+  last: '1993-03-11'
 state: conclude
 started: '1990-12-03'
 closed: '1993-03-11'

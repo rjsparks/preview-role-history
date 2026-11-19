@@ -2,6 +2,10 @@ acronym: ipseckey
 name: IPSEC KEYing information resource record
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '2003-02-26'
+  last: '2005-03-14'
 state: conclude
 started: '2003-01-31'
 closed: '2005-03-14'

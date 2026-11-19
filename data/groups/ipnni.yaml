@@ -2,6 +2,10 @@ acronym: ipnni
 name: Integrated PNNI
 type: wg
 parent: rtg
+areas:
+- area: rtg
+  first: '1997-01-01'
+  last: '1997-01-01'
 state: bof-conc
 started: null
 closed: '1997-01-01'
@@ -19,13 +23,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1996-03-04'
+      certainty: between
+      not_before: '1991-11-18'
+      not_after: '1996-03-04'
     end:
       certainty: between
       not_before: '1996-03-04'
       not_after: '1997-01-01'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 15 (1989-10-31)'
     - 'Start: the BOF met at IETF 35 (1996-03-04)'
     - 'End: the BOF met at IETF 35 (1996-03-04)'
     - 'End: the group closed (1997-01-01)'
@@ -34,3 +40,8 @@ chairs:
     meeting: '35'
     date: '1996-03-04'
     url: https://www.ietf.org/proceedings/35/area.and.wg.reports/rtg/ipnni/ipnni-agenda-96mar.txt
+  - kind: joined the IESG
+    after_meeting: '14'
+    after: '1989-07-25'
+    by_meeting: '15'
+    by: '1989-10-31'

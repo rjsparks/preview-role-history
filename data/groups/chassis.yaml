@@ -2,6 +2,10 @@ acronym: chassis
 name: Chassis MIB
 type: wg
 parent: mgt
+areas:
+- area: mgt
+  first: '1993-07-19'
+  last: '1993-07-19'
 state: conclude
 started: '1992-03-05'
 closed: '1993-07-19'

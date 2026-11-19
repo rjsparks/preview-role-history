@@ -2,6 +2,10 @@ acronym: kitten
 name: Common Authentication Technology Next Generation
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '2004-11-03'
+  last: '2026-11-18'
 state: active
 started: '2004-06-10'
 closed: null
@@ -61,10 +65,10 @@ chairs:
     examples:
     - date: '2004-08-01'
       subject: IETF 60 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/60/minutes/kitten.htm
+      url: https://www.ietf.org/proceedings/60/229.htm
     - date: '2005-11-06'
       subject: IETF 64 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/64/minutes/kitten.txt
+      url: https://www.ietf.org/proceedings/64/kitten.html
   - kind: proceedings
     listed_in: 6
     first: '2004-11-03'
@@ -111,6 +115,13 @@ chairs:
     date: '2011-06-28'
     subject: 'WG Action: RECHARTER: Common Authentication Technology Next Generation (kitten)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/VSJlkAvehmvXD-9nPj7Ae-GL6ZQ/
+  - kind: list message
+    date: '2021-02-11'
+    says: start
+    subject: '[kitten] Please welcome Alexey Melnikov as kitten co-chair!'
+    url: https://mailarchive.ietf.org/arch/msg/kitten/ooLs95i20RE0OrfNMdjAMvNX88Q/
+    excerpt: Robbie has been doing everything on his own for some time now, and I'm happy to report that
+      I've been able to enlist Alexey Melnikov to join Robbie as co-chair to spread the load.
   - kind: chair activity
     first: '2007-08-11'
     last: '2025-02-12'

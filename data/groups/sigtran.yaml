@@ -2,6 +2,13 @@ acronym: sigtran
 name: Signaling Transport
 type: wg
 parent: rai
+areas:
+- area: tsv
+  first: '1998-11-20'
+  last: '2004-06-08'
+- area: rai
+  first: '2006-01-20'
+  last: '2009-03-19'
 state: conclude
 started: '1998-11-10'
 closed: '2009-03-19'
@@ -25,6 +32,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1998-11-20)'
   evidence:
+  - kind: minutes
+    listed_in: 9
+    first: '1998-12-07'
+    last: '2001-08-05'
+    examples:
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-135.html
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-139.html
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/51-151.htm
   - kind: proceedings
     listed_in: 18
     first: '1998-11-20'

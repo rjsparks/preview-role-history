@@ -2,6 +2,10 @@ acronym: rpsec
 name: Routing Protocol Security Requirements
 type: wg
 parent: rtg
+areas:
+- area: rtg
+  first: '2002-07-02'
+  last: '2011-12-09'
 state: conclude
 started: '2002-05-06'
 closed: '2009-03-27'
@@ -140,16 +144,16 @@ chairs:
       subject: '[RPSEC] Minutes and Presentations from Paris are now Posted...'
       url: https://mailarchive.ietf.org/arch/msg/rpsec/O_IxPIapDbtLyBNb5GyimPv0bdY/
   - kind: minutes
-    listed_in: 9
-    first: '2002-11-17'
+    listed_in: 11
+    first: '2002-07-14'
     last: '2007-07-22'
     examples:
+    - date: '2002-07-14'
+      subject: IETF 54 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/54/187.htm
     - date: '2002-11-17'
       subject: '[RPSEC] RPSEC minutes from IETF 55'
       url: https://mailarchive.ietf.org/arch/msg/rpsec/Gnl1IN3lcNx2SLpbM5dmhqdVZlI/
-    - date: '2003-03-16'
-      subject: IETF 56 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/56/minutes/rpsec.htm
     - date: '2007-07-22'
       subject: IETF 69 minutes in the proceedings
       url: https://www.ietf.org/proceedings/69/minutes/rpsec.txt

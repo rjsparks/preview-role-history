@@ -2,6 +2,10 @@ acronym: snmpv3
 name: SNMP Version 3
 type: wg
 parent: ops
+areas:
+- area: ops
+  first: '1997-04-07'
+  last: '2003-09-04'
 state: conclude
 started: '1997-03-17'
 closed: '2003-09-04'
@@ -25,6 +29,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
   evidence:
+  - kind: minutes
+    listed_in: 12
+    first: '1997-08-11'
+    last: '2001-12-09'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-76.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-77.htm
+    - date: '2001-12-09'
+      subject: IETF 52 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/52/173.htm
   - kind: proceedings
     listed_in: 16
     first: '1997-04-07'
@@ -53,6 +71,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2000-02-03)'
   evidence:
+  - kind: minutes
+    listed_in: 4
+    first: '2000-03-26'
+    last: '2001-12-09'
+    examples:
+    - date: '2000-03-26'
+      subject: IETF 47 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-85.html
+    - date: '2000-07-31'
+      subject: IETF 48 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/48/00july-77.htm
+    - date: '2001-12-09'
+      subject: IETF 52 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/52/173.htm
   - kind: proceedings
     listed_in: 7
     first: '2000-02-03'

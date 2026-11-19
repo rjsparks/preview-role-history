@@ -2,6 +2,13 @@ acronym: insipid
 name: INtermediary-safe SIP session ID
 type: wg
 parent: art
+areas:
+- area: rai
+  first: '2012-02-23'
+  last: '2015-03-26'
+- area: art
+  first: '2015-05-29'
+  last: '2018-10-02'
 state: conclude
 started: '2012-02-22'
 closed: '2018-10-02'
@@ -18,18 +25,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2012-02-23'
-      not_after: '2015-03-26'
-    end:
-      certainty: between
-      not_before: '2015-03-26'
-      not_after: '2018-10-02'
-  - start:
-      certainty: on-or-before
-      date: '2015-03-26'
-      not_before: '2012-02-23'
+      not_after: '2012-03-19'
     end:
       certainty: group-closed
       date: '2018-10-02'
+    notes:
+    - 'Start: named as chair in the WG Action announcement (2012-03-19)'
   evidence:
   - kind: WG Action
     date: '2012-03-19'

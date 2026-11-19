@@ -2,6 +2,10 @@ acronym: can
 name: Computing-Aware Networking
 type: wg
 parent: rtg
+areas:
+- area: rtg
+  first: '2022-02-10'
+  last: '2023-03-03'
 state: replaced
 started: '2022-02-10'
 closed: '2023-03-03'
@@ -22,13 +26,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2015-07-19'
       not_after: '2022-03-19'
     end:
       certainty: between
       not_before: '2022-11-05'
       not_after: '2023-02-14'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 75 (2009-07-26)'
     - 'Start: the BOF met at IETF 113 (2022-03-19)'
     - 'End: the BOF met at IETF 115 (2022-11-05)'
   - start:
@@ -54,6 +60,11 @@ chairs:
     meeting: '115'
     date: '2022-11-05'
     url: https://datatracker.ietf.org/meeting/115/session/can/
+  - kind: joined the IESG
+    after_meeting: '74'
+    after: '2009-03-22'
+    by_meeting: '75'
+    by: '2009-07-26'
 - person: 110966
   name: Zhaohui Zhang
   status: confirmed

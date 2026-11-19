@@ -2,6 +2,13 @@ acronym: iptel
 name: IP Telephony
 type: wg
 parent: rai
+areas:
+- area: tsv
+  first: '1998-04-01'
+  last: '2004-11-02'
+- area: rai
+  first: '2006-02-17'
+  last: '2009-03-11'
 state: conclude
 started: '1998-01-23'
 closed: '2009-03-11'
@@ -18,12 +25,12 @@ chairs:
   - start:
       certainty: between
       not_before: '1998-01-23'
-      not_after: '1998-04-01'
+      not_after: '1998-03-30'
     end:
       certainty: group-closed
       date: '2009-03-11'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1998-04-01)'
+    - 'Start: listed as chair in meeting minutes (1998-03-30)'
   evidence:
   - kind: chair activity
     first: '2003-12-18'
@@ -37,16 +44,16 @@ chairs:
       subject: '[Iptel] Agenda for iptel meeting'
       url: https://mailarchive.ietf.org/arch/msg/iptel/IqBiKbhatgem-KmU7tj17vFYCkE/
   - kind: minutes
-    listed_in: 5
-    first: '2002-11-17'
+    listed_in: 19
+    first: '1998-03-30'
     last: '2004-11-07'
     examples:
-    - date: '2002-11-17'
-      subject: '[Iptel] draft meeting iptel meeting minutes from IETF 55'
-      url: https://mailarchive.ietf.org/arch/msg/iptel/RHcqtds8I7PxaX0BUxi496iJMl0/
-    - date: '2002-11-17'
-      subject: IETF 55 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/55/minutes/iptel.htm
+    - date: '1998-03-30'
+      subject: IETF 41 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/41/98mar-edited-124.htm
+    - date: '1998-08-24'
+      subject: IETF 42 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/42/98aug-131.htm
     - date: '2004-11-07'
       subject: IETF 61 minutes in the proceedings
       url: https://www.ietf.org/proceedings/61/minutes/iptel.html
@@ -107,16 +114,16 @@ chairs:
       subject: '[Iptel] WGLC for draft-ietf-iptel-tel-enumdi-00'
       url: https://mailarchive.ietf.org/arch/msg/iptel/1GiQ2nZ8tx1i7iryWUmQyeJKIk4/
   - kind: minutes
-    listed_in: 5
+    listed_in: 4
     first: '2002-11-17'
     last: '2004-11-07'
     examples:
     - date: '2002-11-17'
       subject: '[Iptel] draft meeting iptel meeting minutes from IETF 55'
       url: https://mailarchive.ietf.org/arch/msg/iptel/RHcqtds8I7PxaX0BUxi496iJMl0/
-    - date: '2002-11-17'
-      subject: IETF 55 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/55/minutes/iptel.htm
+    - date: '2002-12-02'
+      subject: '[Iptel] FW: Draft IPTEL WG meeting minutes from the 55th IETF'
+      url: https://mailarchive.ietf.org/arch/msg/iptel/vR8kj4WITnMbkeHWjtJ2VNmY5Fo/
     - date: '2004-11-07'
       subject: IETF 61 minutes in the proceedings
       url: https://www.ietf.org/proceedings/61/minutes/iptel.html

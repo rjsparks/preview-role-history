@@ -2,6 +2,13 @@ acronym: ipdvb
 name: IP over DVB
 type: wg
 parent: app
+areas:
+- area: int
+  first: '2004-01-28'
+  last: '2009-05-26'
+- area: app
+  first: '2011-08-02'
+  last: '2011-08-02'
 state: conclude
 started: '2003-10-13'
 closed: '2011-08-02'
@@ -39,16 +46,16 @@ chairs:
       subject: Call for Agenda Items for IPDVB WG meeting in week July 26-31, 2009
       url: https://mailarchive.ietf.org/arch/msg/ipdvb/EkzDmVshV66OidgMQdu_KLKcazc/
   - kind: minutes
-    listed_in: 9
+    listed_in: 8
     first: '2003-07-13'
     last: '2009-07-26'
     examples:
     - date: '2003-07-13'
       subject: IETF 57 minutes in the proceedings
       url: https://www.ietf.org/proceedings/57/minutes/ipdvb.htm
-    - date: '2003-07-13'
-      subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/ipdvb.txt
+    - date: '2003-11-09'
+      subject: IETF 58 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/58/152.htm
     - date: '2009-07-26'
       subject: IETF 75 minutes in the proceedings
       url: https://www.ietf.org/proceedings/75/minutes/ipdvb.txt
@@ -92,13 +99,10 @@ chairs:
     - 'End: the group closed (2011-08-02)'
   evidence:
   - kind: minutes
-    listed_in: 2
+    listed_in: 1
     first: '2003-07-13'
     last: '2003-07-13'
     examples:
     - date: '2003-07-13'
       subject: IETF 57 minutes in the proceedings
       url: https://www.ietf.org/proceedings/57/minutes/ipdvb.htm
-    - date: '2003-07-13'
-      subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/ipdvb.txt

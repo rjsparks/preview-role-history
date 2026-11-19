@@ -2,6 +2,10 @@ acronym: dasl
 name: DAV Searching and Locating
 type: wg
 parent: app
+areas:
+- area: app
+  first: '1998-11-25'
+  last: '2000-04-17'
 state: conclude
 started: '1998-10-19'
 closed: '2000-04-17'
@@ -29,6 +33,20 @@ chairs:
     date: '1998-11-23'
     subject: 'WG ACTION: DAV Searching and Locating (dasl)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/4rNQfqf6BF1EvRiGD2O4JJnqSd0/
+  - kind: minutes
+    listed_in: 3
+    first: '1998-12-07'
+    last: '1999-07-11'
+    examples:
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-15.html
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-14.html
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-14.html
   - kind: proceedings
     listed_in: 3
     first: '1998-11-25'

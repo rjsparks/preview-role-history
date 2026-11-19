@@ -2,6 +2,10 @@ acronym: sls
 name: Service Level Specification and Usage
 type: wg
 parent: ops
+areas:
+- area: ops
+  first: '2003-12-10'
+  last: '2003-12-10'
 state: conclude
 started: null
 closed: '2003-12-10'
@@ -20,17 +24,39 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-12-10'
+      date: '2000-12-10'
     end:
       certainty: group-closed
       date: '2003-12-10'
+    notes:
+    - 'Start: listed as chair in meeting minutes (2000-12-10)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2000-12-10'
+    last: '2000-12-10'
+    examples:
+    - date: '2000-12-10'
+      subject: IETF 49 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/49/00dec-84.htm
 - person: 102145
   name: Yves T'Joens
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-12-10'
+      date: '2000-12-10'
     end:
       certainty: group-closed
       date: '2003-12-10'
+    notes:
+    - 'Start: listed as chair in meeting minutes (2000-12-10)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2000-12-10'
+    last: '2000-12-10'
+    examples:
+    - date: '2000-12-10'
+      subject: IETF 49 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/49/00dec-84.htm

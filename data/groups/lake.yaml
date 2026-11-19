@@ -2,6 +2,10 @@ acronym: lake
 name: Lightweight Authenticated Key Exchange
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '2019-06-11'
+  last: '2026-11-18'
 state: active
 started: '2019-06-11'
 closed: null
@@ -19,11 +23,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2019-06-11'
+      certainty: between
+      not_before: '2017-07-16'
+      not_after: '2019-06-11'
     end:
       certainty: exact
       date: '2025-01-28'
+    notes:
+    - 'Start: became an Area Director, first serving at IETF 81 (2011-07-24)'
   evidence:
   - kind: WG Review
     date: '2019-10-08'
@@ -61,6 +68,11 @@ chairs:
     - date: '2025-01-13'
       subject: '[Lake] Adoption call for draft-song-lake-ra-02'
       url: https://mailarchive.ietf.org/arch/msg/lake/lzdm7pCz9-kl2x7isXW-CfUzL7M/
+  - kind: joined the IESG
+    after_meeting: '80'
+    after: '2011-03-27'
+    by_meeting: '81'
+    by: '2011-07-24'
   - kind: shepherded
     documents:
     - draft-ietf-lake-traces

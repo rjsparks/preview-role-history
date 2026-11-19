@@ -2,6 +2,13 @@ acronym: sipping
 name: Session Initiation Proposal Investigation
 type: wg
 parent: rai
+areas:
+- area: tsv
+  first: '2001-11-06'
+  last: '2005-11-04'
+- area: rai
+  first: '2006-02-15'
+  last: '2011-12-09'
 state: conclude
 started: '2001-03-29'
 closed: '2009-05-01'
@@ -91,12 +98,12 @@ chairs:
   periods:
   - start:
       certainty: announced
-      date: '2002-12-20'
+      date: '2002-11-17'
     end:
       certainty: group-closed
       date: '2009-05-01'
     notes:
-    - 'Start: announced on the group''s list (2002-12-20)'
+    - 'Start: announced on the group''s list (2002-11-17)'
   evidence:
   - kind: WG Action
     date: '2004-07-14'
@@ -114,7 +121,7 @@ chairs:
     excerpt: Gonzalo Camarillo has agreed to join Rohan Mahy and Dean Willis as a co-chair of the SIPPING
       WG.
   - kind: list message
-    date: '2002-12-20'
+    date: '2002-11-17'
     says: start
     subject: '[Sipping] Minutes, SIPPING WG, IETF 55'
     url: https://mailarchive.ietf.org/arch/msg/sipping/2rESReosnTVDs2MuHRmPMv8CWfg/
@@ -140,16 +147,13 @@ chairs:
       subject: '[Sipping] Draft minutes of IETF 63'
       url: https://mailarchive.ietf.org/arch/msg/sipping/yMyguZ9FXPFA9KEwiSsaMcdQZmE/
   - kind: minutes
-    listed_in: 3
+    listed_in: 2
     first: '2002-11-17'
     last: '2006-03-19'
     examples:
     - date: '2002-11-17'
       subject: '[Sipping] Minutes, SIPPING WG, IETF 55'
       url: https://mailarchive.ietf.org/arch/msg/sipping/2rESReosnTVDs2MuHRmPMv8CWfg/
-    - date: '2002-11-17'
-      subject: IETF 55 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/55/minutes/sipping.htm
     - date: '2006-03-19'
       subject: '[Sipping] Please review for minutes'
       url: https://mailarchive.ietf.org/arch/msg/sipping/ZtBS2nKougHWekr-7jM3CczXsMQ/
@@ -221,16 +225,19 @@ chairs:
       subject: '[Sipping] Working Group Last Call -- draft-ietf-sipping-nai-reqs'
       url: https://mailarchive.ietf.org/arch/msg/sipping/FDCFsKAxN6Lvn2QK_P-eMod66A0/
   - kind: minutes
-    listed_in: 2
-    first: '2002-11-17'
+    listed_in: 5
+    first: '2001-12-09'
     last: '2002-11-17'
     examples:
-    - date: '2002-11-17'
-      subject: '[Sipping] Minutes, SIPPING WG, IETF 55'
-      url: https://mailarchive.ietf.org/arch/msg/sipping/2rESReosnTVDs2MuHRmPMv8CWfg/
+    - date: '2001-12-09'
+      subject: IETF 52 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/52/239.htm
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/238.htm
     - date: '2002-11-17'
       subject: IETF 55 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/55/minutes/sipping.htm
+      url: https://www.ietf.org/proceedings/55/233.htm
   - kind: proceedings
     listed_in: 14
     first: '2001-11-06'
@@ -278,6 +285,20 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/sipping/22IkuSYeQteXCnx5V_Fp_acu8T8/
     excerpt: Due to increased day job work, Brian Rosen is stepping down from his SIPPING co-chairship,
       as well as the SIP co-chairship (see that mailing list).
+  - kind: minutes
+    listed_in: 4
+    first: '2001-12-09'
+    last: '2002-11-17'
+    examples:
+    - date: '2001-12-09'
+      subject: IETF 52 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/52/239.htm
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/238.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/233.htm
   - kind: proceedings
     listed_in: 3
     first: '2001-11-06'
@@ -341,16 +362,19 @@ chairs:
       subject: '[Sipping] WGLC for ISUP overlap signaling'
       url: https://mailarchive.ietf.org/arch/msg/sipping/SYCgEQZ8AgXg2LWpnCjpPxLExD4/
   - kind: minutes
-    listed_in: 2
-    first: '2002-11-17'
+    listed_in: 5
+    first: '2001-12-09'
     last: '2002-11-17'
     examples:
-    - date: '2002-11-17'
-      subject: '[Sipping] Minutes, SIPPING WG, IETF 55'
-      url: https://mailarchive.ietf.org/arch/msg/sipping/2rESReosnTVDs2MuHRmPMv8CWfg/
+    - date: '2001-12-09'
+      subject: IETF 52 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/52/239.htm
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/238.htm
     - date: '2002-11-17'
       subject: IETF 55 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/55/minutes/sipping.htm
+      url: https://www.ietf.org/proceedings/55/233.htm
   - kind: proceedings
     listed_in: 14
     first: '2001-11-06'

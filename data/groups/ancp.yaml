@@ -2,6 +2,10 @@ acronym: ancp
 name: Access Node Control Protocol
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2006-07-09'
+  last: '2015-03-23'
 state: conclude
 started: '2006-06-01'
 closed: '2015-03-23'

@@ -2,6 +2,13 @@ acronym: taps
 name: Transport Services
 type: wg
 parent: wit
+areas:
+- area: tsv
+  first: '2014-01-22'
+  last: '2022-05-06'
+- area: wit
+  first: '2024-01-17'
+  last: '2025-03-17'
 state: conclude
 started: '2014-01-22'
 closed: '2025-03-17'
@@ -104,10 +111,13 @@ chairs:
       subject: '[Taps] Draft minutes available!'
       url: https://mailarchive.ietf.org/arch/msg/taps/naZNhs1NinAIM9SEb2Ko0JgEJ2A/
   - kind: minutes
-    listed_in: 1
-    first: '2014-07-20'
+    listed_in: 2
+    first: '2014-03-02'
     last: '2014-07-20'
     examples:
+    - date: '2014-03-02'
+      subject: IETF 89 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/89/taps.html
     - date: '2014-07-20'
       subject: IETF 90 minutes in the proceedings
       url: https://www.ietf.org/proceedings/90/minutes/minutes-90-taps.txt
@@ -133,6 +143,14 @@ chairs:
       certainty: approximate
       date: '2014-06-14'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2014-03-02'
+    last: '2014-03-02'
+    examples:
+    - date: '2014-03-02'
+      subject: IETF 89 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/89/taps.html
   - kind: proceedings
     listed_in: 1
     first: '2014-03-02'

@@ -2,6 +2,10 @@ acronym: dnse
 name: Encryption of DNS requests for confidentiality
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2014-01-22'
+  last: '2026-11-18'
 state: bof-conc
 started: '2014-01-22'
 closed: null

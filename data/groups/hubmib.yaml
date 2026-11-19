@@ -2,6 +2,19 @@ acronym: hubmib
 name: Ethernet Interfaces and Hub MIB
 type: wg
 parent: ops
+areas:
+- area: mgt
+  first: '1995-07-17'
+  last: '1995-12-04'
+- area: ops
+  first: '1997-02-11'
+  last: '1997-02-11'
+- area: ops-old
+  first: '1997-04-07'
+  last: '1997-04-07'
+- area: ops
+  first: '1997-08-11'
+  last: '2011-12-09'
 state: conclude
 started: '1995-06-15'
 closed: '2007-09-10'
@@ -78,19 +91,19 @@ chairs:
     subject: 'WG Action: RECHARTER: Ethernet Interfaces and Hub MIB (hubmib)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/x-AtpEovmOnSEnFqlz9ueiUldhU/
   - kind: minutes
-    listed_in: 3
-    first: '2002-01-08'
-    last: '2002-04-05'
+    listed_in: 13
+    first: '1997-04-07'
+    last: '2004-02-29'
     examples:
-    - date: '2002-01-08'
-      subject: '[Hubmib] Preliminary Minutes of the SLC Joint Meeting of hubmib and atommib'
-      url: https://mailarchive.ietf.org/arch/msg/hubmib/gZleS6dQ9avq3C57Ktid_bEvlC4/
-    - date: '2002-03-17'
-      subject: IETF 53 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/53/minutes/hubmib.htm
-    - date: '2002-04-05'
-      subject: '[Hubmib] Minutes of the Joint Meeting of hubmib and atommib at the 53rd IETF'
-      url: https://mailarchive.ietf.org/arch/msg/hubmib/2-HqpEG3tdBRjPfmS9-Biz_FBKM/
+    - date: '1997-04-07'
+      subject: IETF 38 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr64.htm
+    - date: '1998-03-30'
+      subject: IETF 41 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/41/98mar-edited-73.htm
+    - date: '2004-02-29'
+      subject: IETF 59 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/59/168.htm
   - kind: proceedings
     listed_in: 20
     first: '1995-12-04'
@@ -115,9 +128,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
+      certainty: on-or-before
+      date: '2006-07-09'
       not_before: '1995-06-15'
-      not_after: '2006-07-09'
     end:
       certainty: group-closed
       date: '2007-09-10'
@@ -161,16 +174,13 @@ chairs:
     - 'End: the group closed (2007-09-10)'
   evidence:
   - kind: minutes
-    listed_in: 3
+    listed_in: 2
     first: '2002-01-08'
     last: '2002-04-05'
     examples:
     - date: '2002-01-08'
       subject: '[Hubmib] Preliminary Minutes of the SLC Joint Meeting of hubmib and atommib'
       url: https://mailarchive.ietf.org/arch/msg/hubmib/gZleS6dQ9avq3C57Ktid_bEvlC4/
-    - date: '2002-03-17'
-      subject: IETF 53 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/53/minutes/hubmib.htm
     - date: '2002-04-05'
       subject: '[Hubmib] Minutes of the Joint Meeting of hubmib and atommib at the 53rd IETF'
       url: https://mailarchive.ietf.org/arch/msg/hubmib/2-HqpEG3tdBRjPfmS9-Biz_FBKM/

@@ -2,6 +2,10 @@ acronym: ispp
 name: Internet Secure Payments Protocol
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '1997-01-01'
+  last: '1997-01-01'
 state: conclude
 started: null
 closed: '1997-01-01'
@@ -39,13 +43,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1995-07-17'
+      certainty: between
+      not_before: '1993-03-29'
+      not_after: '1995-07-17'
     end:
       certainty: between
       not_before: '1995-07-17'
       not_after: '1997-01-01'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 25 (1992-11-16)'
     - 'Start: the BOF met at IETF 33 (1995-07-17)'
     - 'End: the BOF met at IETF 33 (1995-07-17)'
     - 'End: the group closed (1997-01-01)'
@@ -54,3 +60,8 @@ chairs:
     meeting: '33'
     date: '1995-07-17'
     url: https://www.ietf.org/proceedings/33/area.and.wg.reports/sec/area.security.95jul/area.security.95jul.txt
+  - kind: joined the IESG
+    after_meeting: '24'
+    after: '1992-07-13'
+    by_meeting: '25'
+    by: '1992-11-16'

@@ -2,6 +2,10 @@ acronym: eos
 name: Evolution of SNMP
 type: wg
 parent: ops
+areas:
+- area: ops
+  first: '2001-03-14'
+  last: '2003-04-04'
 state: conclude
 started: '2001-01-05'
 closed: '2003-04-04'
@@ -34,13 +38,19 @@ chairs:
     subject: 'WG ACTION: Evolution of SNMP (eos)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/rkec1zt85hqj43-3WDEf-YOLFCI/
   - kind: minutes
-    listed_in: 1
-    first: '2001-08-05'
-    last: '2001-08-05'
+    listed_in: 5
+    first: '2001-03-18'
+    last: '2002-11-17'
     examples:
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-75.htm
     - date: '2001-08-05'
       subject: IETF 51 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/51/minutes/EOS.HTM
+      url: https://www.ietf.org/proceedings/51/51-71.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/159.htm
   - kind: proceedings
     listed_in: 5
     first: '2001-03-14'
@@ -78,13 +88,19 @@ chairs:
     subject: 'WG ACTION: Evolution of SNMP (eos)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/rkec1zt85hqj43-3WDEf-YOLFCI/
   - kind: minutes
-    listed_in: 1
-    first: '2001-08-05'
-    last: '2001-08-05'
+    listed_in: 5
+    first: '2001-03-18'
+    last: '2002-11-17'
     examples:
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-75.htm
     - date: '2001-08-05'
       subject: IETF 51 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/51/minutes/EOS.HTM
+      url: https://www.ietf.org/proceedings/51/51-71.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/159.htm
   - kind: proceedings
     listed_in: 5
     first: '2001-03-14'

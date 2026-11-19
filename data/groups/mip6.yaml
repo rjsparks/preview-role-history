@@ -2,6 +2,10 @@ acronym: mip6
 name: Mobility for IPv6
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2003-10-20'
+  last: '2007-11-20'
 state: conclude
 started: '2003-08-04'
 closed: '2007-11-20'
@@ -56,7 +60,7 @@ chairs:
       subject: '[Mip6] WGLC: draft-ietf-mip6-firewalls-00.txt'
       url: https://mailarchive.ietf.org/arch/msg/mip6/4oStKLfoBqfTO3pZ8rM74itYE_Q/
   - kind: minutes
-    listed_in: 24
+    listed_in: 23
     first: '2003-07-13'
     last: '2007-07-22'
     examples:
@@ -65,7 +69,7 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/mip6/KE2L0yV4GhkBcpbxys6lvdBn74w/
     - date: '2003-07-13'
       subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/MIP6.TXT
+      url: https://www.ietf.org/proceedings/57/156.htm
     - date: '2007-07-22'
       subject: IETF 69 minutes in the proceedings
       url: https://www.ietf.org/proceedings/69/minutes/mip6.txt
@@ -243,7 +247,7 @@ chairs:
     - 'End: not listed among the chairs in a proceedings charter snapshot (2003-10-20)'
   evidence:
   - kind: minutes
-    listed_in: 3
+    listed_in: 2
     first: '2003-07-13'
     last: '2003-07-13'
     examples:
@@ -252,10 +256,7 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/mip6/KE2L0yV4GhkBcpbxys6lvdBn74w/
     - date: '2003-07-13'
       subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/MIP6.TXT
-    - date: '2003-07-13'
-      subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/mip6.htm
+      url: https://www.ietf.org/proceedings/57/156.htm
   - kind: minutes without them
     date: '2003-10-20'
     subject: IETF 58 proceedings charter, as last modified

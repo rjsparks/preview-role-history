@@ -2,6 +2,7 @@ acronym: t2trg
 name: Thing-to-Thing
 type: rg
 parent: irtf
+areas: []
 state: active
 started: '2015-02-12'
 closed: null
@@ -27,7 +28,7 @@ chairs:
     end:
       certainty: ongoing
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
+    - 'Start: listed as chair in meeting minutes (2014-07-20)'
   evidence:
   - kind: chair activity
     first: '2015-02-24'
@@ -41,13 +42,19 @@ chairs:
       subject: '[T2TRG] Agenda for Yokohama'
       url: https://mailarchive.ietf.org/arch/msg/t2trg/AcULljEFkT_SXABgxA1ZJtQDUNY/
   - kind: minutes
-    listed_in: 1
-    first: '2016-04-03'
-    last: '2016-04-03'
+    listed_in: 8
+    first: '2014-07-20'
+    last: '2017-03-26'
     examples:
-    - date: '2016-04-03'
-      subject: IETF 95 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/95/minutes/minutes-95-t2trg.txt
+    - date: '2014-07-20'
+      subject: IETF 90 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/90/t2trg.html
+    - date: '2015-03-22'
+      subject: IETF 92 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/92/t2trg.html
+    - date: '2017-03-26'
+      subject: IETF 98 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/98/t2trg.html
   - kind: proceedings
     listed_in: 8
     first: '2014-07-20'
@@ -87,13 +94,19 @@ chairs:
       subject: '[T2TRG] Draft minutes for the Lisbon interim meeting'
       url: https://mailarchive.ietf.org/arch/msg/t2trg/vUn5Ubecc4lKzhg9oI4txwa_ULc/
   - kind: minutes
-    listed_in: 1
-    first: '2016-04-03'
-    last: '2016-04-03'
+    listed_in: 5
+    first: '2015-11-01'
+    last: '2017-03-26'
     examples:
+    - date: '2015-11-01'
+      subject: IETF 94 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/94/t2trg.html
     - date: '2016-04-03'
       subject: IETF 95 minutes in the proceedings
       url: https://www.ietf.org/proceedings/95/minutes/minutes-95-t2trg.txt
+    - date: '2017-03-26'
+      subject: IETF 98 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/98/t2trg.html
   - kind: proceedings
     listed_in: 5
     first: '2015-11-01'

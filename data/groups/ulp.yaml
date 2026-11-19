@@ -2,6 +2,10 @@ acronym: ulp
 name: Universal Logging Protocol
 type: wg
 parent: app
+areas:
+- area: app
+  first: '2000-06-05'
+  last: '2000-06-05'
 state: conclude
 started: null
 closed: '2000-06-05'
@@ -20,7 +24,18 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2000-06-05'
+      date: '1997-12-08'
     end:
       certainty: group-closed
       date: '2000-06-05'
+    notes:
+    - 'Start: listed as chair in meeting minutes (1997-12-08)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '1997-12-08'
+    last: '1997-12-08'
+    examples:
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-final-39.htm

@@ -2,6 +2,13 @@ acronym: geopriv
 name: Geographic Location/Privacy
 type: wg
 parent: rai
+areas:
+- area: app
+  first: '2001-07-31'
+  last: '2005-11-08'
+- area: rai
+  first: '2006-01-20'
+  last: '2014-11-08'
 state: conclude
 started: '2001-04-06'
 closed: '2014-11-08'
@@ -51,16 +58,16 @@ chairs:
       subject: '[Geopriv] WGLC for Geopriv-Radius draft'
       url: https://mailarchive.ietf.org/arch/msg/geopriv/FWFNzxFZcIgWBXx7JjVJsNpPFRE/
   - kind: minutes
-    listed_in: 12
-    first: '2003-03-16'
+    listed_in: 17
+    first: '2001-08-05'
     last: '2006-11-05'
     examples:
-    - date: '2003-03-16'
-      subject: IETF 56 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/56/minutes/geopriv.htm
-    - date: '2003-11-09'
-      subject: '[Geopriv] (draft) meeting minutes of the GEOPRIV working group at IETF 58'
-      url: https://mailarchive.ietf.org/arch/msg/geopriv/ATf9K4FA7cRjBApDAlyPE045As4/
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/51-16.htm
+    - date: '2001-12-09'
+      subject: IETF 52 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/52/108.htm
     - date: '2006-11-05'
       subject: IETF 67 minutes in the proceedings
       url: https://www.ietf.org/proceedings/67/minutes/geopriv.txt
@@ -108,16 +115,16 @@ chairs:
     excerpt: We would like to thank Andy, Allison, and Randy for all the work they have put into this
       WG.
   - kind: minutes
-    listed_in: 11
-    first: '2003-03-16'
+    listed_in: 16
+    first: '2001-08-05'
     last: '2006-11-05'
     examples:
-    - date: '2003-03-16'
-      subject: IETF 56 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/56/minutes/geopriv.htm
-    - date: '2003-11-09'
-      subject: '[Geopriv] (draft) meeting minutes of the GEOPRIV working group at IETF 58'
-      url: https://mailarchive.ietf.org/arch/msg/geopriv/ATf9K4FA7cRjBApDAlyPE045As4/
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/51-16.htm
+    - date: '2001-12-09'
+      subject: IETF 52 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/52/108.htm
     - date: '2006-11-05'
       subject: IETF 67 minutes in the proceedings
       url: https://www.ietf.org/proceedings/67/minutes/geopriv.txt
@@ -212,12 +219,14 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2002-11-17'
       not_after: '2003-11-09'
     end:
       certainty: announced
       date: '2007-04-23'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2002-11-17)'
     - 'Start: listed as chair in meeting minutes (2003-11-09)'
     - 'End: announced on the group''s list (2007-04-23)'
   evidence:
@@ -276,6 +285,10 @@ chairs:
     - date: '2006-03-24'
       subject: IETF 66 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/66/geopriv.html
+  - kind: minutes without them
+    date: '2002-11-17'
+    subject: IETF 55 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/55/109.htm
   - kind: session requests
     meetings:
     - '66'
@@ -288,22 +301,12 @@ chairs:
   periods:
   - start:
       certainty: announced
-      date: '2008-11-21'
-    end:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2011-12-09'
-    notes:
-    - 'Start: announced on the group''s list (2008-11-21)'
-  - start:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2012-03-25'
+      date: '2008-11-16'
     end:
       certainty: exact
       date: '2013-04-09'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2012-03-25)'
+    - 'Start: announced on the group''s list (2008-11-16)'
   evidence:
   - kind: WG Review
     date: '2009-06-08'
@@ -321,7 +324,7 @@ chairs:
     excerpt: Robert Sparks has agreed to take over as the sole chair for the working group.
     implied: another chair became the sole chair
   - kind: list message
-    date: '2008-11-21'
+    date: '2008-11-16'
     says: start
     subject: '[Geopriv] Draft GEOPRIV Minutes from IETF 73'
     url: https://mailarchive.ietf.org/arch/msg/geopriv/Ern69H3ITGDE91utDzq3U49fGw4/
@@ -441,12 +444,12 @@ chairs:
   periods:
   - start:
       certainty: announced
-      date: '2009-04-01'
+      date: '2009-03-23'
     end:
       certainty: exact
       date: '2014-03-01'
     notes:
-    - 'Start: announced on the group''s list (2009-04-01)'
+    - 'Start: announced on the group''s list (2009-03-23)'
   evidence:
   - kind: WG Review
     date: '2009-06-08'
@@ -464,17 +467,17 @@ chairs:
     excerpt: Robert Sparks has agreed to take over as the sole chair for the working group.
     implied: another chair became the sole chair
   - kind: list message
+    date: '2009-03-22'
+    says: start
+    subject: '[Geopriv] Draft GEOPRIV Minutes from IETF 74'
+    url: https://mailarchive.ietf.org/arch/msg/geopriv/vjvdn-uKD96cBZu8yGHwD86Sgy4/
+    excerpt: Administrivia Alyssa Cooper introduced as new co-chair.
+  - kind: list message
     date: '2009-03-23'
     says: start
     subject: '[Geopriv] New GEOPRIV co-chair'
     url: https://mailarchive.ietf.org/arch/msg/geopriv/tnFD41DjJ9qcLabh99ctxxIYlpQ/
     excerpt: Please welcome Alissa Cooper as the latest GEOPRIV co-chair.
-  - kind: list message
-    date: '2009-04-01'
-    says: start
-    subject: '[Geopriv] Draft GEOPRIV Minutes from IETF 74'
-    url: https://mailarchive.ietf.org/arch/msg/geopriv/vjvdn-uKD96cBZu8yGHwD86Sgy4/
-    excerpt: Administrivia Alyssa Cooper introduced as new co-chair.
   - kind: chair activity
     first: '2009-04-29'
     last: '2013-11-14'

@@ -2,6 +2,10 @@ acronym: trans
 name: Public Notary Transparency
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '2014-01-14'
+  last: '2021-08-31'
 state: conclude
 started: '2014-01-14'
 closed: '2021-08-31'
@@ -50,16 +54,16 @@ chairs:
       subject: '[Trans] Call for adoption, draft-ietf-trans-gossip'
       url: https://mailarchive.ietf.org/arch/msg/trans/xYNKRSdM3TszZMtFe1sOi3urxDs/
   - kind: minutes
-    listed_in: 4
-    first: '2014-11-09'
+    listed_in: 5
+    first: '2014-03-02'
     last: '2015-11-01'
     examples:
+    - date: '2014-03-02'
+      subject: IETF 89 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/89/trans.html
     - date: '2014-11-09'
       subject: IETF 91 minutes in the proceedings
       url: https://www.ietf.org/proceedings/91/minutes/minutes-91-trans.txt
-    - date: '2015-07-19'
-      subject: IETF 93 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/93/minutes/minutes-93-trans.txt
     - date: '2015-11-01'
       subject: IETF 94 minutes in the proceedings
       url: https://www.ietf.org/proceedings/94/minutes/minutes-94-trans.txt

@@ -2,6 +2,10 @@ acronym: iasa20
 name: IASA 2.0
 type: wg
 parent: gen
+areas:
+- area: gen
+  first: '2017-02-15'
+  last: '2018-05-09'
 state: replaced
 started: '2017-02-15'
 closed: '2018-05-09'
@@ -36,13 +40,13 @@ chairs:
   - start:
       certainty: between
       not_before: '2017-03-13'
-      not_after: '2017-03-26'
+      not_after: '2017-07-16'
     end:
       certainty: between
       not_before: '2018-03-17'
       not_after: '2018-05-09'
     notes:
-    - 'Start: the BOF met at IETF 98 (2017-03-26)'
+    - 'Start: the BOF met at IETF 99 (2017-07-16)'
     - 'End: the BOF met at IETF 101 (2018-03-17)'
     - 'End: the group closed (2018-05-09)'
   evidence:
@@ -77,6 +81,14 @@ chairs:
     - 'End: the BOF met at IETF 101 (2018-03-17)'
     - 'End: the group closed (2018-05-09)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2017-03-26'
+    last: '2017-03-26'
+    examples:
+    - date: '2017-03-26'
+      subject: IETF 98 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/98/iasa20.html
   - kind: proceedings
     listed_in: 1
     first: '2017-03-26'
@@ -114,13 +126,13 @@ chairs:
   - start:
       certainty: between
       not_before: '2017-03-13'
-      not_after: '2017-03-26'
+      not_after: '2017-07-16'
     end:
       certainty: between
       not_before: '2018-03-17'
       not_after: '2018-05-09'
     notes:
-    - 'Start: the BOF met at IETF 98 (2017-03-26)'
+    - 'Start: the BOF met at IETF 99 (2017-07-16)'
     - 'End: the BOF met at IETF 101 (2018-03-17)'
     - 'End: the group closed (2018-05-09)'
   evidence:

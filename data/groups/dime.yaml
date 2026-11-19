@@ -2,6 +2,10 @@ acronym: dime
 name: Diameter Maintenance and Extensions
 type: wg
 parent: ops
+areas:
+- area: ops
+  first: '2006-02-13'
+  last: '2024-03-14'
 state: conclude
 started: '2005-12-08'
 closed: '2024-03-14'
@@ -135,12 +139,12 @@ chairs:
       not_after: '2006-03-29'
     end:
       certainty: between
-      not_before: '2010-03-21'
-      not_after: '2010-08-19'
+      not_before: '2010-03-02'
+      not_after: '2010-03-15'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2006-03-29)'
-    - 'End: requested the group''s session for IETF 77 (2010-03-21)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (2010-08-19)'
+    - 'End: started a last call or adoption call on the group''s list (2010-03-02)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2010-03-15)'
   evidence:
   - kind: WG Review
     date: '2009-06-23'
@@ -194,9 +198,9 @@ chairs:
       subject: IETF 76 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/76/dime.html
   - kind: minutes without them
-    date: '2010-08-19'
-    subject: IETF 78 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/78/dime.html
+    date: '2010-03-15'
+    subject: IETF 77 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/77/dime.html
   - kind: session requests
     meetings:
     - '68'
@@ -208,7 +212,6 @@ chairs:
     - '74'
     - '75'
     - '76'
-    - '77'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
 - person: 106019
   name: Victor Fajardo
@@ -217,14 +220,14 @@ chairs:
   - start:
       certainty: between
       not_before: '2006-07-09'
-      not_after: '2007-12-06'
+      not_after: '2009-06-23'
     end:
       certainty: between
       not_before: '2009-07-30'
       not_after: '2010-03-15'
     notes:
     - 'Start: not listed among the chairs in meeting minutes (2006-07-09)'
-    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2007-12-06)'
+    - 'Start: named as a proposed chair in a WG Review announcement (2009-06-23)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2009-07-30)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2010-03-15)'
   evidence:
@@ -237,13 +240,10 @@ chairs:
     subject: 'WG Action: RECHARTER: Diameter Maintenance and Extensions (dime)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/p7QFyxZvVfF4qR-2a-BAyXoKthI/
   - kind: chair activity
-    first: '2007-12-06'
+    first: '2009-07-30'
     last: '2009-07-30'
-    messages: 2
+    messages: 1
     examples:
-    - date: '2007-12-06'
-      subject: '[Dime] DIME Meeting minutes (IETF70)'
-      url: https://mailarchive.ietf.org/arch/msg/dime/sSCVKR9jmO9dVkPkVD018R2Bh4g/
     - date: '2009-07-30'
       subject: '[Dime] DIME Meeting Minutes - IETF#75'
       url: https://mailarchive.ietf.org/arch/msg/dime/T77-vxRb95CQCCFbq_lEgMEoERU/

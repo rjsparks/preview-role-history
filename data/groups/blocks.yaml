@@ -2,6 +2,10 @@ acronym: blocks
 name: An Application Protocol Framework & A Model Applic
 type: wg
 parent: app
+areas:
+- area: app
+  first: '2003-12-10'
+  last: '2003-12-10'
 state: conclude
 started: null
 closed: '2003-12-10'
@@ -19,11 +23,20 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2003-12-10'
+      certainty: between
+      not_before: '1995-04-03'
+      not_after: '2003-12-10'
     end:
       certainty: group-closed
       date: '2003-12-10'
+    notes:
+    - 'Start: became an Area Director, first serving at IETF 26 (1993-03-29)'
+  evidence:
+  - kind: joined the IESG
+    after_meeting: '25'
+    after: '1992-11-16'
+    by_meeting: '26'
+    by: '1993-03-29'
 - person: 3752
   name: Carl Malamud
   status: confirmed

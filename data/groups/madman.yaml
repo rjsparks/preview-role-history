@@ -2,6 +2,10 @@ acronym: madman
 name: Mail and Directory Management
 type: wg
 parent: app
+areas:
+- area: app
+  first: '1995-12-04'
+  last: '2000-04-17'
 state: conclude
 started: '1993-03-15'
 closed: '2000-04-17'
@@ -25,6 +29,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1995-12-04)'
   evidence:
+  - kind: minutes
+    listed_in: 4
+    first: '1997-04-07'
+    last: '1999-07-11'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr23.htm
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-27.html
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-26.html
   - kind: proceedings
     listed_in: 6
     first: '1995-12-04'

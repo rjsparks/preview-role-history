@@ -2,6 +2,10 @@ acronym: st2
 name: Internet Stream Protocol V2
 type: wg
 parent: int
+areas:
+- area: int
+  first: '1994-12-05'
+  last: '1996-03-15'
 state: conclude
 started: '1993-08-30'
 closed: '1996-03-15'

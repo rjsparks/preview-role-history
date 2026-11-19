@@ -2,6 +2,10 @@ acronym: tmnsnmp
 name: TMN-SNMP
 type: wg
 parent: ops
+areas:
+- area: ops
+  first: '2003-12-10'
+  last: '2011-12-09'
 state: conclude
 started: null
 closed: '2003-12-10'
@@ -19,11 +23,20 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2003-12-10'
+      certainty: between
+      not_before: '2002-07-14'
+      not_after: '2003-12-10'
     end:
       certainty: group-closed
       date: '2003-12-10'
+    notes:
+    - 'Start: became an Area Director, first serving at IETF 52 (2001-12-09)'
+  evidence:
+  - kind: joined the IESG
+    after_meeting: '51'
+    after: '2001-08-05'
+    by_meeting: '52'
+    by: '2001-12-09'
 - person: 6842
   name: Bert Wijnen
   status: confirmed

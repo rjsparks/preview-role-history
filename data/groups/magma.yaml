@@ -2,6 +2,10 @@ acronym: magma
 name: Multicast & Anycast Group Membership
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2001-07-31'
+  last: '2009-03-08'
 state: conclude
 started: '2001-06-20'
 closed: '2009-03-08'
@@ -32,13 +36,19 @@ chairs:
     subject: 'WG ACTION: Multicast & Anycast Group Membership (magma)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/ZKk2V7EnCkjA0RpHe2M1V-rw6QU/
   - kind: minutes
-    listed_in: 1
-    first: '2002-11-17'
+    listed_in: 5
+    first: '2001-08-05'
     last: '2002-11-17'
     examples:
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/51-56.htm
+    - date: '2001-12-09'
+      subject: IETF 52 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/52/148.htm
     - date: '2002-11-17'
       subject: IETF 55 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/55/minutes/magma.htm
+      url: https://www.ietf.org/proceedings/55/146.htm
   - kind: proceedings
     listed_in: 5
     first: '2001-07-31'
@@ -99,7 +109,7 @@ chairs:
       url: https://www.ietf.org/proceedings/58/minutes/magma.htm
     - date: '2004-02-29'
       subject: IETF 59 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/59/minutes/magma.htm
+      url: https://www.ietf.org/proceedings/59/146.htm
   - kind: proceedings
     listed_in: 8
     first: '2003-07-29'
@@ -117,7 +127,7 @@ chairs:
   - kind: minutes without them
     date: '2002-11-17'
     subject: IETF 55 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/55/minutes/magma.htm
+    url: https://www.ietf.org/proceedings/55/146.htm
 - person: 100664
   name: Brian Haberman
   status: confirmed
@@ -157,19 +167,19 @@ chairs:
       subject: '[magma] WG Last Call: draft-ietf-magma-mrdssm-01.txt'
       url: https://mailarchive.ietf.org/arch/msg/magma/4wizZsLY1YHvVVOak8pvRcb-wd0/
   - kind: minutes
-    listed_in: 3
-    first: '2002-11-17'
+    listed_in: 7
+    first: '2001-08-05'
     last: '2004-02-29'
     examples:
-    - date: '2002-11-17'
-      subject: IETF 55 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/55/minutes/magma.htm
-    - date: '2003-11-09'
-      subject: IETF 58 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/58/minutes/magma.htm
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/51-56.htm
+    - date: '2001-12-09'
+      subject: IETF 52 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/52/148.htm
     - date: '2004-02-29'
       subject: IETF 59 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/59/minutes/magma.htm
+      url: https://www.ietf.org/proceedings/59/146.htm
   - kind: proceedings
     listed_in: 13
     first: '2001-07-31'

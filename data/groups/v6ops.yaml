@@ -2,6 +2,10 @@ acronym: v6ops
 name: IPv6 Operations
 type: wg
 parent: ops
+areas:
+- area: ops
+  first: '2003-01-20'
+  last: '2026-11-18'
 state: active
 started: '2002-08-12'
 closed: null
@@ -30,19 +34,16 @@ chairs:
     - 'End: not listed among the chairs in a proceedings charter snapshot (2004-02-12)'
   evidence:
   - kind: minutes
-    listed_in: 3
+    listed_in: 2
     first: '2003-07-13'
     last: '2003-11-09'
     examples:
     - date: '2003-07-13'
       subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/V6OPS.TXT
-    - date: '2003-07-13'
-      subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/v6ops.htm
+      url: https://www.ietf.org/proceedings/57/180.htm
     - date: '2003-11-09'
       subject: IETF 58 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/58/minutes/v6ops.htm
+      url: https://www.ietf.org/proceedings/58/167.htm
   - kind: proceedings
     listed_in: 3
     first: '2003-01-20'
@@ -357,7 +358,7 @@ chairs:
   - kind: minutes without them
     date: '2003-07-13'
     subject: IETF 57 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/57/minutes/V6OPS.TXT
+    url: https://www.ietf.org/proceedings/57/180.htm
 - person: 105452
   name: Pekka Savola
   status: unconfirmed
@@ -377,16 +378,16 @@ chairs:
     - 'End: not listed among the chairs in a proceedings charter snapshot (2005-06-15)'
   evidence:
   - kind: minutes
-    listed_in: 6
+    listed_in: 5
     first: '2003-07-13'
     last: '2005-03-06'
     examples:
     - date: '2003-07-13'
       subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/V6OPS.TXT
-    - date: '2003-07-13'
-      subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/v6ops.htm
+      url: https://www.ietf.org/proceedings/57/180.htm
+    - date: '2004-02-29'
+      subject: IETF 59 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/59/181.htm
     - date: '2005-03-06'
       subject: IETF 62 minutes in the proceedings
       url: https://www.ietf.org/proceedings/62/minutes/v6ops.html
@@ -437,10 +438,10 @@ chairs:
     examples:
     - date: '2003-11-09'
       subject: IETF 58 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/58/minutes/v6ops.htm
+      url: https://www.ietf.org/proceedings/58/167.htm
     - date: '2004-02-29'
       subject: IETF 59 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/59/minutes/v6ops.htm
+      url: https://www.ietf.org/proceedings/59/181.htm
     - date: '2005-03-06'
       subject: IETF 62 minutes in the proceedings
       url: https://www.ietf.org/proceedings/62/minutes/v6ops.html
@@ -461,7 +462,7 @@ chairs:
   - kind: minutes without them
     date: '2003-07-13'
     subject: IETF 57 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/57/minutes/V6OPS.TXT
+    url: https://www.ietf.org/proceedings/57/180.htm
   - kind: minutes without them
     date: '2005-06-15'
     subject: IETF 63 proceedings charter, as last modified
@@ -678,7 +679,7 @@ chairs:
     subject: 'WG ACTION: IPv6 Operations (v6ops)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/VCgQfCNCoSkyuKZM0ED5lKVUNxM/
   - kind: minutes
-    listed_in: 3
+    listed_in: 2
     first: '2002-11-17'
     last: '2003-07-13'
     examples:
@@ -687,10 +688,7 @@ chairs:
       url: https://www.ietf.org/proceedings/55/minutes/v6ops.htm
     - date: '2003-07-13'
       subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/V6OPS.TXT
-    - date: '2003-07-13'
-      subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/v6ops.htm
+      url: https://www.ietf.org/proceedings/57/180.htm
   - kind: proceedings
     listed_in: 2
     first: '2003-01-20'

@@ -2,6 +2,10 @@ acronym: osix400
 name: OSI X.400
 type: wg
 parent: osi
+areas:
+- area: osi
+  first: '1991-08-02'
+  last: '1991-08-02'
 state: conclude
 started: '1990-02-03'
 closed: '1991-08-02'
@@ -17,8 +21,16 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '1990-02-03'
+      not_before: '1991-07-29'
       not_after: '1991-08-02'
     end:
       certainty: group-closed
       date: '1991-08-02'
+    notes:
+    - 'Start: became an Area Director, first serving at IETF 15 (1989-10-31)'
+  evidence:
+  - kind: joined the IESG
+    after_meeting: '14'
+    after: '1989-07-25'
+    by_meeting: '15'
+    by: '1989-10-31'

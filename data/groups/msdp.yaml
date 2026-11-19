@@ -2,6 +2,10 @@ acronym: msdp
 name: Multicast Source Discovery Protocol
 type: wg
 parent: rtg
+areas:
+- area: rtg
+  first: '1998-11-25'
+  last: '2004-01-15'
 state: conclude
 started: '1998-10-09'
 closed: '2004-01-15'
@@ -29,6 +33,20 @@ chairs:
     date: '1998-11-10'
     subject: 'WG ACTION: Multicast Source Distribution Protocol (msdp)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/Oho4T9XLMSDKgFIF349EYKhhryo/
+  - kind: minutes
+    listed_in: 11
+    first: '1998-12-07'
+    last: '2002-07-14'
+    examples:
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-93.html
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-94.html
+    - date: '2002-07-14'
+      subject: IETF 54 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/54/183.htm
   - kind: proceedings
     listed_in: 14
     first: '1998-11-25'

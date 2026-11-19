@@ -2,6 +2,10 @@ acronym: msec
 name: Multicast Security
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '2001-03-14'
+  last: '2011-10-17'
 state: conclude
 started: '2001-01-17'
 closed: '2011-10-17'
@@ -35,13 +39,16 @@ chairs:
     subject: 'WG ACTION: Multicast Security (msec)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/uu5x1Wq_1KNg5zII4jsvB1U6PBA/
   - kind: minutes
-    listed_in: 2
-    first: '2005-07-31'
+    listed_in: 7
+    first: '2001-03-18'
     last: '2006-11-05'
     examples:
-    - date: '2005-07-31'
-      subject: IETF 63 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/63/minutes/msec.html
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-115.htm
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/51-110.htm
     - date: '2006-11-05'
       subject: IETF 67 minutes in the proceedings
       url: https://www.ietf.org/proceedings/67/minutes/msec.txt
@@ -140,12 +147,27 @@ chairs:
       not_after: '2001-03-14'
     end:
       certainty: between
-      not_before: '2001-03-14'
+      not_before: '2002-11-17'
       not_after: '2005-03-02'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2001-03-14)'
+    - 'End: listed as chair in meeting minutes (2002-11-17)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2005-03-02)'
   evidence:
+  - kind: minutes
+    listed_in: 5
+    first: '2001-03-18'
+    last: '2002-11-17'
+    examples:
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-115.htm
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/51-110.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/195.htm
   - kind: proceedings
     listed_in: 10
     first: '2001-03-14'
@@ -169,13 +191,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2002-11-17'
       not_after: '2005-03-02'
     end:
       certainty: between
       not_before: '2008-03-09'
       not_after: '2010-02-23'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2002-11-17)'
     - 'Start: listed as chair in a proceedings charter snapshot (2005-03-02)'
     - 'End: requested the group''s session for IETF 71 (2008-03-09)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2010-02-23)'
@@ -222,6 +246,10 @@ chairs:
     - date: '2009-02-11'
       subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/msec.html
+  - kind: minutes without them
+    date: '2002-11-17'
+    subject: IETF 55 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/55/195.htm
   - kind: minutes without them
     date: '2010-02-23'
     subject: IETF 77 proceedings charter, as last modified

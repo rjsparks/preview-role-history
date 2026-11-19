@@ -2,6 +2,10 @@ acronym: ternli
 name: Transport-Enhancing Refinements to the Network Layer
 type: wg
 parent: tsv
+areas:
+- area: tsv
+  first: '2011-12-09'
+  last: '2013-04-23'
 state: bof-conc
 started: null
 closed: '2013-04-23'
@@ -16,11 +20,19 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-12-09'
+      certainty: between
+      not_before: '2011-07-24'
+      not_after: '2011-12-09'
     end:
       certainty: between
       not_before: '2011-12-09'
       not_after: '2013-04-23'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 66 (2006-07-09)'
     - 'End: the group closed (2013-04-23)'
+  evidence:
+  - kind: joined the IESG
+    after_meeting: '65'
+    after: '2006-03-19'
+    by_meeting: '66'
+    by: '2006-07-09'

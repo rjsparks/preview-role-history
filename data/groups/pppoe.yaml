@@ -2,6 +2,10 @@ acronym: pppoe
 name: PPP Over Ethernet
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2026-11-18'
+  last: '2026-11-18'
 state: conclude
 started: null
 closed: null
@@ -20,6 +24,17 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '1998-08-24'
     end:
       certainty: group-closed
+    notes:
+    - 'Start: listed as chair in meeting minutes (1998-08-24)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '1998-08-24'
+    last: '1998-08-24'
+    examples:
+    - date: '1998-08-24'
+      subject: IETF 42 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/42/98aug-71.htm

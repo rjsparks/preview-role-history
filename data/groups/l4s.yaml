@@ -2,6 +2,10 @@ acronym: l4s
 name: Low Latency Low Loss Scalable throughput
 type: wg
 parent: tsv
+areas:
+- area: tsv
+  first: '2016-06-10'
+  last: '2016-10-04'
 state: bof-conc
 started: '2016-06-10'
 closed: '2016-10-04'
@@ -65,13 +69,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2016-06-10'
+      certainty: between
+      not_before: '2011-07-24'
+      not_after: '2016-06-10'
     end:
       certainty: between
       not_before: '2016-08-08'
       not_after: '2016-10-04'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 66 (2006-07-09)'
     - 'End: listed as chair in meeting minutes (2016-08-08)'
     - 'End: the group closed (2016-10-04)'
   evidence:
@@ -98,3 +104,8 @@ chairs:
     meeting: '96'
     date: '2016-07-17'
     url: https://www.ietf.org/proceedings/96/l4s.html
+  - kind: joined the IESG
+    after_meeting: '65'
+    after: '2006-03-19'
+    by_meeting: '66'
+    by: '2006-07-09'

@@ -2,6 +2,10 @@ acronym: nvo3
 name: Network Virtualization Overlays
 type: wg
 parent: rtg
+areas:
+- area: rtg
+  first: '2012-02-23'
+  last: '2026-11-18'
 state: active
 started: '2012-04-03'
 closed: null
@@ -19,19 +23,26 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2012-02-23'
+      certainty: between
+      not_before: '2005-07-31'
+      not_after: '2012-02-23'
     end:
       certainty: between
       not_before: '2012-02-23'
       not_after: '2012-03-25'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 38 (1997-04-07)'
     - 'End: not listed among the chairs in meeting minutes (2012-03-25)'
   evidence:
   - kind: minutes without them
     date: '2012-03-25'
     subject: IETF 83 minutes in the proceedings
     url: https://www.ietf.org/proceedings/83/minutes/minutes-83-nvo3.txt
+  - kind: joined the IESG
+    after_meeting: '37'
+    after: '1996-12-09'
+    by_meeting: '38'
+    by: '1997-04-07'
 - person: 105786
   name: Matthew Bocci
   status: confirmed

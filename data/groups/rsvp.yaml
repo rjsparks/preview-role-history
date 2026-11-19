@@ -2,6 +2,10 @@ acronym: rsvp
 name: Resource Reservation Setup Protocol
 type: wg
 parent: tsv
+areas:
+- area: tsv
+  first: '1994-12-05'
+  last: '2001-05-02'
 state: conclude
 started: '1993-11-30'
 closed: '2001-05-02'
@@ -25,6 +29,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
   evidence:
+  - kind: minutes
+    listed_in: 6
+    first: '1997-08-11'
+    last: '1999-11-07'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-118.htm
+    - date: '1998-08-24'
+      subject: IETF 42 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/42/98aug-142.htm
+    - date: '1999-11-07'
+      subject: IETF 46 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-150.html
   - kind: proceedings
     listed_in: 16
     first: '1994-03-28'
@@ -53,6 +71,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
   evidence:
+  - kind: minutes
+    listed_in: 6
+    first: '1997-08-11'
+    last: '1999-11-07'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-118.htm
+    - date: '1998-08-24'
+      subject: IETF 42 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/42/98aug-142.htm
+    - date: '1999-11-07'
+      subject: IETF 46 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-150.html
   - kind: proceedings
     listed_in: 16
     first: '1994-03-28'

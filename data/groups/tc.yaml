@@ -2,6 +2,10 @@ acronym: tc
 name: Tunneling Configuration
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2005-02-09'
+  last: '2005-05-11'
 state: conclude
 started: null
 closed: '2005-05-11'

@@ -2,6 +2,10 @@ acronym: lwip
 name: Light-Weight IP Protocol Design
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2010-07-25'
+  last: '2026-11-18'
 state: bof-conc
 started: null
 closed: null
@@ -22,11 +26,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-07-25'
+      certainty: between
+      not_before: '1994-03-28'
+      not_after: '2010-07-25'
     end:
       certainty: group-closed
     notes:
+    - 'Start: became an Area Director, first serving at IETF 14 (1989-07-25)'
     - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
   evidence:
   - kind: minutes
@@ -59,6 +65,11 @@ chairs:
     meeting: '80'
     date: '2011-03-27'
     url: https://www.ietf.org/proceedings/80/lwip.html
+  - kind: joined the IESG
+    after_meeting: null
+    after: null
+    by_meeting: '14'
+    by: '1989-07-25'
 - person: 110531
   name: Zhen Cao
   status: confirmed

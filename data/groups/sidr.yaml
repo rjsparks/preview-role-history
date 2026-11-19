@@ -2,6 +2,10 @@ acronym: sidr
 name: Secure Inter-Domain Routing
 type: wg
 parent: rtg
+areas:
+- area: rtg
+  first: '2005-10-14'
+  last: '2018-09-06'
 state: conclude
 started: '2006-01-27'
 closed: '2018-09-06'

@@ -2,6 +2,10 @@ acronym: lager
 name: Label Generation Rules
 type: wg
 parent: art
+areas:
+- area: art
+  first: '2015-05-29'
+  last: '2016-10-27'
 state: conclude
 started: '2015-05-29'
 closed: '2016-10-27'
@@ -72,13 +76,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2006-07-09'
       not_after: '2014-07-20'
     end:
       certainty: between
       not_before: '2014-07-20'
       not_after: '2015-06-24'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 60 (2004-08-01)'
     - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   - start:
       certainty: exact
@@ -109,3 +115,8 @@ chairs:
     - date: '2016-07-17'
       subject: IETF 96 proceedings charter
       url: https://www.ietf.org/proceedings/96/lager.html
+  - kind: joined the IESG
+    after_meeting: '59'
+    after: '2004-02-29'
+    by_meeting: '60'
+    by: '2004-08-01'

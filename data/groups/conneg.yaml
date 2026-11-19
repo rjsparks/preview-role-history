@@ -2,6 +2,10 @@ acronym: conneg
 name: Content Negotiation
 type: wg
 parent: app
+areas:
+- area: app
+  first: '1998-03-11'
+  last: '2000-10-05'
 state: conclude
 started: '1998-02-05'
 closed: '2000-10-05'
@@ -14,6 +18,30 @@ bof_sessions:
   url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-29.htm
 history_url: https://datatracker.ietf.org/group/conneg/history/
 chairs:
+- person: 110451
+  name: Larry Masinter
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1997-12-08'
+    end:
+      certainty: between
+      not_before: '1997-12-08'
+      not_after: '2000-10-05'
+    notes:
+    - 'Start: listed as chair in meeting minutes (1997-12-08)'
+    - 'End: listed as chair in meeting minutes (1997-12-08)'
+    - 'End: the group closed (2000-10-05)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '1997-12-08'
+    last: '1997-12-08'
+    examples:
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-final-33.htm
 - person: 110721
   name: Ted Hardie
   status: confirmed
@@ -28,6 +56,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1998-11-25)'
   evidence:
+  - kind: minutes
+    listed_in: 5
+    first: '1998-12-07'
+    last: '2000-03-26'
+    examples:
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-14.html
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-13.html
+    - date: '2000-03-26'
+      subject: IETF 47 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-12.html
   - kind: proceedings
     listed_in: 6
     first: '1998-11-25'

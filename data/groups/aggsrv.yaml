@@ -2,6 +2,10 @@ acronym: aggsrv
 name: Aggregated Service Discovery
 type: wg
 parent: app
+areas:
+- area: app
+  first: '2013-01-31'
+  last: '2026-11-18'
 state: bof-conc
 started: '2013-01-31'
 closed: null
@@ -19,11 +23,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2012-11-04'
+      certainty: between
+      not_before: '2012-07-29'
+      not_after: '2012-11-04'
     end:
       certainty: group-closed
     notes:
+    - 'Start: became an Area Director, first serving at IETF 78 (2010-07-25)'
     - 'Start: listed as chair in a proceedings charter snapshot (2012-11-04)'
   evidence:
   - kind: chair activity
@@ -60,3 +66,8 @@ chairs:
     meeting: '86'
     date: '2013-03-10'
     url: https://datatracker.ietf.org/meeting/86/session/aggsrv/
+  - kind: joined the IESG
+    after_meeting: '77'
+    after: '2010-03-21'
+    by_meeting: '78'
+    by: '2010-07-25'

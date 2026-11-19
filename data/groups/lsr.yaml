@@ -2,6 +2,10 @@ acronym: lsr
 name: Link State Routing
 type: wg
 parent: rtg
+areas:
+- area: rtg
+  first: '2018-01-23'
+  last: '2026-11-18'
 state: active
 started: '2018-01-23'
 closed: null

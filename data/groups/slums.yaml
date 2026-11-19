@@ -2,6 +2,10 @@ acronym: slums
 name: Support for Lots of Unicast Multiplexed Sessions
 type: wg
 parent: tsv
+areas:
+- area: tsv
+  first: '2026-11-18'
+  last: '2026-11-18'
 state: conclude
 started: null
 closed: null
@@ -16,16 +20,34 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-12-09'
+      certainty: between
+      not_before: '2003-07-13'
+      not_after: '2011-12-09'
     end:
       certainty: group-closed
+    notes:
+    - 'Start: became an Area Director, first serving at IETF 38 (1997-04-07)'
+  evidence:
+  - kind: joined the IESG
+    after_meeting: '37'
+    after: '1996-12-09'
+    by_meeting: '38'
+    by: '1997-04-07'
 - person: 17625
   name: Vern Paxson
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-12-09'
+      certainty: between
+      not_before: '2000-03-26'
+      not_after: '2011-12-09'
     end:
       certainty: group-closed
+    notes:
+    - 'Start: became an Area Director, first serving at IETF 41 (1998-03-30)'
+  evidence:
+  - kind: joined the IESG
+    after_meeting: '40'
+    after: '1997-12-08'
+    by_meeting: '41'
+    by: '1998-03-30'

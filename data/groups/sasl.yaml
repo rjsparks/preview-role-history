@@ -2,6 +2,10 @@ acronym: sasl
 name: Simple Authentication and Security Layer
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '2003-03-07'
+  last: '2010-08-23'
 state: conclude
 started: '2002-11-25'
 closed: '2010-08-23'
@@ -23,21 +27,13 @@ chairs:
       not_after: '2001-08-05'
     end:
       certainty: between
-      not_before: '2003-10-08'
-      not_after: '2003-11-09'
+      not_before: '2001-08-05'
+      not_after: '2003-03-07'
     notes:
     - 'Start: listed as chair in meeting minutes (2001-08-05)'
-    - 'End: started a last call or adoption call on the group''s list (2003-10-08)'
-    - 'End: not listed among the chairs in meeting minutes (2003-11-09)'
+    - 'End: listed as chair in meeting minutes (2001-08-05)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2003-03-07)'
   evidence:
-  - kind: chair activity
-    first: '2003-10-08'
-    last: '2003-10-08'
-    messages: 1
-    examples:
-    - date: '2003-10-08'
-      subject: WG Last Call on draft-ietf-sasl-rfc2222bis-02
-      url: https://mailarchive.ietf.org/arch/msg/sasl/pW4lKfH4O46FQbWQqz8ovyMF7ss/
   - kind: minutes
     listed_in: 1
     first: '2001-08-05'
@@ -45,11 +41,11 @@ chairs:
     examples:
     - date: '2001-08-05'
       subject: IETF 51 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/51/minutes/SASL.HTM
+      url: https://www.ietf.org/proceedings/51/51-121.htm
   - kind: minutes without them
-    date: '2003-11-09'
-    subject: Draft Minutes for SASL working group meeting
-    url: https://mailarchive.ietf.org/arch/msg/sasl/y50z9aWghD-K9YIirtG3Gl_wH58/
+    date: '2003-03-07'
+    subject: IETF 56 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/56/213.htm
 - person: 102191
   name: Taylor Yu
   status: confirmed
@@ -138,29 +134,29 @@ chairs:
       not_after: '2002-12-19'
     end:
       certainty: announced
-      date: '2004-11-11'
+      date: '2004-11-07'
     notes:
     - 'Start: not listed among the chairs in meeting minutes (2001-08-05)'
     - 'Start: named as chair in the WG Action announcement (2002-12-19)'
-    - 'End: announced on the group''s list (2004-11-11)'
+    - 'End: announced on the group''s list (2004-11-07)'
   evidence:
   - kind: WG Action
     date: '2002-12-19'
     subject: 'WG Action: Simple Authentication and Security Layer (sasl)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/XgtwlUJoll0ly8suuEqtjvu8Hqs/
   - kind: list message
-    date: '2004-11-11'
-    says: end
-    subject: Summary of the SASL WG session @ IETF#61
-    url: https://mailarchive.ietf.org/arch/msg/sasl/yHf7io9Wuc24xyhbPDLQqA2jmjQ/
-    excerpt: It was noted that Sam Hartman will be stepping down as co-chair to take on Security AD duties.
-  - kind: list message
-    date: '2004-12-10'
+    date: '2004-11-07'
     says: end
     subject: minutes of the IETF#61 SASL session
     url: https://mailarchive.ietf.org/arch/msg/sasl/qaFmRKPBi3ayhzlEEV5DiUFpcT8/
     excerpt: It was noted that Sam Hartman would be stepping down as stepping down as co-chair after the
       session as he accepted an appointment to the IESG.
+  - kind: list message
+    date: '2004-11-11'
+    says: end
+    subject: Summary of the SASL WG session @ IETF#61
+    url: https://mailarchive.ietf.org/arch/msg/sasl/yHf7io9Wuc24xyhbPDLQqA2jmjQ/
+    excerpt: It was noted that Sam Hartman will be stepping down as co-chair to take on Security AD duties.
   - kind: chair activity
     first: '2003-03-31'
     last: '2004-08-29'
@@ -176,16 +172,16 @@ chairs:
       subject: 'WG Last Call: draft-ietf-sasl-saslprep-03'
       url: https://mailarchive.ietf.org/arch/msg/sasl/I_3mO_bGa_uFBa9dAbfLb8rym5w/
   - kind: minutes
-    listed_in: 10
+    listed_in: 9
     first: '2003-07-13'
     last: '2004-11-07'
     examples:
     - date: '2003-07-13'
       subject: IETF 57 minutes in the proceedings
       url: https://www.ietf.org/proceedings/57/minutes/SASL.TXT
-    - date: '2003-07-13'
-      subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/sasl.htm
+    - date: '2003-07-25'
+      subject: Draft minutes
+      url: https://mailarchive.ietf.org/arch/msg/sasl/SwkjLp0bsnDW3fUfHElaWj805lE/
     - date: '2004-11-07'
       subject: IETF 61 minutes in the proceedings
       url: https://www.ietf.org/proceedings/61/minutes/sasl.html
@@ -206,7 +202,7 @@ chairs:
   - kind: minutes without them
     date: '2001-08-05'
     subject: IETF 51 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/51/minutes/SASL.HTM
+    url: https://www.ietf.org/proceedings/51/51-121.htm
   - kind: joined the IESG
     after_meeting: '61'
     after: '2004-11-07'
@@ -250,13 +246,13 @@ chairs:
       subject: 'WG Last Call: draft-ietf-sasl-rfc2222bis-08.txt'
       url: https://mailarchive.ietf.org/arch/msg/sasl/dZ5vhi4yNaBuN-sZFODi5-1iirg/
   - kind: minutes
-    listed_in: 31
+    listed_in: 30
     first: '2001-08-05'
     last: '2009-11-08'
     examples:
     - date: '2001-08-05'
       subject: IETF 51 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/51/minutes/SASL.HTM
+      url: https://www.ietf.org/proceedings/51/51-121.htm
     - date: '2003-07-13'
       subject: IETF 57 minutes in the proceedings
       url: https://www.ietf.org/proceedings/57/minutes/SASL.TXT

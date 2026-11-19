@@ -2,6 +2,10 @@ acronym: atp
 name: Authenticated Transfer
 type: wg
 parent: art
+areas:
+- area: art
+  first: '2025-09-30'
+  last: '2026-11-18'
 state: active
 started: '2025-09-30'
 closed: null

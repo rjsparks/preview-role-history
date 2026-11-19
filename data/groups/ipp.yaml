@@ -2,6 +2,10 @@ acronym: ipp
 name: Internet Printing Protocol
 type: wg
 parent: app
+areas:
+- area: app
+  first: '1997-04-07'
+  last: '2004-08-25'
 state: conclude
 started: '1997-03-06'
 closed: '2004-08-25'
@@ -23,12 +27,27 @@ chairs:
       not_after: '1997-04-07'
     end:
       certainty: between
-      not_before: '1997-04-07'
+      not_before: '1998-03-30'
       not_after: '2004-08-25'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
+    - 'End: listed as chair in meeting minutes (1998-03-30)'
     - 'End: the group closed (2004-08-25)'
   evidence:
+  - kind: minutes
+    listed_in: 3
+    first: '1997-08-11'
+    last: '1998-03-30'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-20.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-13.htm
+    - date: '1998-03-30'
+      subject: IETF 41 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/41/98mar-edited-22.htm
   - kind: proceedings
     listed_in: 4
     first: '1997-04-07'
@@ -57,6 +76,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
   evidence:
+  - kind: minutes
+    listed_in: 11
+    first: '1997-08-11'
+    last: '2002-03-17'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-20.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-13.htm
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/114.htm
   - kind: proceedings
     listed_in: 17
     first: '1997-04-07'

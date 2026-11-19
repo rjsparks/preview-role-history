@@ -2,6 +2,10 @@ acronym: dprive
 name: DNS PRIVate Exchange
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2014-09-16'
+  last: '2025-07-11'
 state: conclude
 started: '2014-09-16'
 closed: '2025-07-11'

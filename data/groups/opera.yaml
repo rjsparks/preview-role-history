@@ -2,6 +2,7 @@ acronym: opera
 name: Establishing a Forum for Operational Issues
 type: wg
 parent: null
+areas: []
 state: bof-conc
 started: null
 closed: '1997-01-01'
@@ -19,13 +20,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1994-03-28'
+      certainty: between
+      not_before: '1993-03-29'
+      not_after: '1994-03-28'
     end:
       certainty: between
       not_before: '1994-03-28'
       not_after: '1997-01-01'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 22 (1991-11-18)'
     - 'Start: the BOF met at IETF 29 (1994-03-28)'
     - 'End: the BOF met at IETF 29 (1994-03-28)'
     - 'End: the group closed (1997-01-01)'
@@ -34,3 +37,8 @@ chairs:
     meeting: '29'
     date: '1994-03-28'
     url: https://www.ietf.org/proceedings/29/0mtg-agenda.txt
+  - kind: joined the IESG
+    after_meeting: '21'
+    after: '1991-07-29'
+    by_meeting: '22'
+    by: '1991-11-18'

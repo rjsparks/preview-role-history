@@ -2,6 +2,13 @@ acronym: sipcore
 name: Session Initiation Protocol Core
 type: wg
 parent: art
+areas:
+- area: rai
+  first: '2009-04-20'
+  last: '2015-04-27'
+- area: art
+  first: '2015-05-29'
+  last: '2026-11-18'
 state: active
 started: '2009-03-01'
 closed: null

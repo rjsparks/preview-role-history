@@ -2,6 +2,10 @@ acronym: hoakey
 name: Handover and Application Keying and Pre-authentication
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '2006-03-01'
+  last: '2006-10-16'
 state: bof-conc
 started: null
 closed: '2006-10-16'

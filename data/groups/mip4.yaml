@@ -2,6 +2,10 @@ acronym: mip4
 name: Mobility for IPv4
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2003-07-13'
+  last: '2015-08-27'
 state: conclude
 started: '2003-07-30'
 closed: '2015-08-27'
@@ -31,16 +35,13 @@ chairs:
     - 'End: not listed among the chairs in a proceedings charter snapshot (2003-10-07)'
   evidence:
   - kind: minutes
-    listed_in: 3
+    listed_in: 2
     first: '2003-07-13'
     last: '2003-08-06'
     examples:
     - date: '2003-07-13'
       subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/MIP4.TXT
-    - date: '2003-07-13'
-      subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/mip4.htm
+      url: https://www.ietf.org/proceedings/57/145.htm
     - date: '2003-08-06'
       subject: '[Mip4] Draft BOF Minutes'
       url: https://mailarchive.ietf.org/arch/msg/mip4/teZijLOMBvh04himZw39AeycMxM/
@@ -128,7 +129,7 @@ chairs:
       subject: '[Mip4] WG adoption call on draft-kulkarni-mobileip-dynamic-assignment-02.txt'
       url: https://mailarchive.ietf.org/arch/msg/mip4/qQCWlUKEkQPUopjj62t9dz5QE1w/
   - kind: minutes
-    listed_in: 12
+    listed_in: 11
     first: '2003-11-09'
     last: '2010-11-07'
     examples:
@@ -275,16 +276,13 @@ chairs:
     - 'End: not listed among the chairs in a proceedings charter snapshot (2003-10-07)'
   evidence:
   - kind: minutes
-    listed_in: 3
+    listed_in: 2
     first: '2003-07-13'
     last: '2003-08-06'
     examples:
     - date: '2003-07-13'
       subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/MIP4.TXT
-    - date: '2003-07-13'
-      subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/mip4.htm
+      url: https://www.ietf.org/proceedings/57/145.htm
     - date: '2003-08-06'
       subject: '[Mip4] Draft BOF Minutes'
       url: https://mailarchive.ietf.org/arch/msg/mip4/teZijLOMBvh04himZw39AeycMxM/
@@ -305,14 +303,28 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2003-07-13'
       not_after: '2003-08-06'
+    end:
+      certainty: between
+      not_before: '2003-08-06'
+      not_after: '2003-11-09'
+    notes:
+    - 'Start: not listed among the chairs in meeting minutes (2003-07-13)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2003-08-06)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2003-08-06)'
+    - 'End: not listed among the chairs in meeting minutes (2003-11-09)'
+  - start:
+      certainty: between
+      not_before: '2003-11-09'
+      not_after: '2003-11-19'
     end:
       certainty: between
       not_before: '2006-06-27'
       not_after: '2006-07-25'
     notes:
-    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2003-08-06)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2003-11-19)'
     - 'End: named as a proposed chair in a WG Review announcement (2006-06-27)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2006-07-25)'
   evidence:
@@ -353,16 +365,13 @@ chairs:
       subject: '[Mip4] Working Group Last Call on draft-ietf-mip4-message-string-ext-00.txt'
       url: https://mailarchive.ietf.org/arch/msg/mip4/puIxku-41aKPZ5ehp8OLuMPjd58/
   - kind: minutes
-    listed_in: 3
+    listed_in: 2
     first: '2005-11-06'
     last: '2005-12-09'
     examples:
     - date: '2005-11-06'
       subject: IETF 64 minutes in the proceedings
       url: https://www.ietf.org/proceedings/64/minutes/mip4.html
-    - date: '2005-11-06'
-      subject: IETF 64 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/64/minutes/mip4.txt
     - date: '2005-12-09'
       subject: '[Mip4] IETF-64 Minutes'
       url: https://mailarchive.ietf.org/arch/msg/mip4/e9TF9oSaIdoM4v6onp1sWxB1Y5A/
@@ -380,6 +389,14 @@ chairs:
     - date: '2005-12-21'
       subject: IETF 65 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/65/mip4.html
+  - kind: minutes without them
+    date: '2003-07-13'
+    subject: IETF 57 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/57/145.htm
+  - kind: minutes without them
+    date: '2003-11-09'
+    subject: '[Mip4] Draft minutes from IETF58'
+    url: https://mailarchive.ietf.org/arch/msg/mip4/NYWW6xsztRNXZwqJkqXndyAoTYk/
   - kind: minutes without them
     date: '2006-07-25'
     subject: IETF 66 proceedings charter, as last modified

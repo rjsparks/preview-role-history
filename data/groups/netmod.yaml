@@ -2,6 +2,10 @@ acronym: netmod
 name: Network Modeling
 type: wg
 parent: ops
+areas:
+- area: ops
+  first: '2004-07-27'
+  last: '2026-11-18'
 state: active
 started: '2008-04-03'
 closed: null
@@ -167,13 +171,13 @@ chairs:
       not_after: '2008-08-14'
     end:
       certainty: announced
-      date: '2008-12-19'
+      date: '2008-11-16'
     notes:
     - 'Start: posted an agenda, minutes or interim notice to the group''s list (2008-08-14)'
-    - 'End: announced on the group''s list (2008-12-19)'
+    - 'End: announced on the group''s list (2008-11-16)'
   evidence:
   - kind: list message
-    date: '2008-12-19'
+    date: '2008-11-16'
     says: end
     subject: '[netmod] Preliminary IETF73 meeting minutes'
     url: https://mailarchive.ietf.org/arch/msg/netmod/26VAWb96kYN9oOpeAdtvOt6YszI/
@@ -210,22 +214,12 @@ chairs:
   periods:
   - start:
       certainty: announced
-      date: '2008-12-19'
-    end:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2011-12-09'
-    notes:
-    - 'Start: announced on the group''s list (2008-12-19)'
-  - start:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2012-02-07'
+      date: '2008-11-16'
     end:
       certainty: exact
       date: '2014-01-13'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2012-02-07)'
+    - 'Start: announced on the group''s list (2008-11-16)'
   evidence:
   - kind: WG Review
     date: '2010-10-14'
@@ -240,7 +234,7 @@ chairs:
     subject: 'WG Action: RECHARTER: NETCONF Data Modeling Language (netmod)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/tIPPLJQGW3aKlJu7pyNozvg3fY0/
   - kind: list message
-    date: '2008-12-19'
+    date: '2008-11-16'
     says: start
     subject: '[netmod] Preliminary IETF73 meeting minutes'
     url: https://mailarchive.ietf.org/arch/msg/netmod/26VAWb96kYN9oOpeAdtvOt6YszI/

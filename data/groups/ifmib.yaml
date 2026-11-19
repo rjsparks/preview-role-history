@@ -2,6 +2,13 @@ acronym: ifmib
 name: Interfaces MIB
 type: wg
 parent: int
+areas:
+- area: mgt
+  first: '1995-07-17'
+  last: '1995-12-04'
+- area: int
+  first: '1997-04-07'
+  last: '2003-09-03'
 state: conclude
 started: '1993-04-30'
 closed: '2003-09-03'
@@ -25,6 +32,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
   evidence:
+  - kind: minutes
+    listed_in: 5
+    first: '1997-04-07'
+    last: '1999-07-11'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr50.htm
+    - date: '1998-03-30'
+      subject: IETF 41 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/41/98mar-edited-53.htm
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-54.html
   - kind: proceedings
     listed_in: 14
     first: '1994-03-28'

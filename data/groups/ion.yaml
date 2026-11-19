@@ -2,6 +2,10 @@ acronym: ion
 name: Internetworking Over NBMA
 type: wg
 parent: int
+areas:
+- area: int
+  first: '1997-04-07'
+  last: '2011-12-09'
 state: conclude
 started: '1996-05-06'
 closed: '2000-06-15'
@@ -25,6 +29,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
   evidence:
+  - kind: minutes
+    listed_in: 7
+    first: '1997-08-11'
+    last: '1999-07-11'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-54.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-51.htm
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-55.html
   - kind: proceedings
     listed_in: 10
     first: '1997-04-07'
@@ -48,12 +66,27 @@ chairs:
       not_after: '1997-04-07'
     end:
       certainty: between
-      not_before: '1997-04-07'
+      not_before: '1999-03-14'
       not_after: '2000-06-15'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
+    - 'End: listed as chair in meeting minutes (1999-03-14)'
     - 'End: the group closed (2000-06-15)'
   evidence:
+  - kind: minutes
+    listed_in: 6
+    first: '1997-08-11'
+    last: '1999-03-14'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-54.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-51.htm
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-58.html
   - kind: proceedings
     listed_in: 7
     first: '1997-04-07'

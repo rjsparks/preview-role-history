@@ -2,6 +2,10 @@ acronym: transmib
 name: Transmission Mib
 type: wg
 parent: mgt
+areas:
+- area: mgt
+  first: '1990-12-03'
+  last: '1990-12-03'
 state: conclude
 started: '1990-05-03'
 closed: '1990-12-03'

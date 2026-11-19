@@ -2,6 +2,10 @@ acronym: crisp
 name: Cross Registry Information Service Protocol
 type: wg
 parent: app
+areas:
+- area: app
+  first: '2002-07-29'
+  last: '2009-03-05'
 state: conclude
 started: '2002-05-17'
 closed: '2009-03-05'
@@ -20,12 +24,13 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2002-05-17'
+      not_before: '2002-07-14'
       not_after: '2003-03-16'
     end:
       certainty: group-closed
       date: '2009-03-05'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 41 (1998-03-30)'
     - 'Start: listed as chair in meeting minutes (2003-03-16)'
   evidence:
   - kind: WG Action
@@ -62,7 +67,7 @@ chairs:
       url: https://www.ietf.org/proceedings/56/minutes/crisp.htm
     - date: '2003-11-09'
       subject: IETF 58 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/58/minutes/crisp.htm
+      url: https://www.ietf.org/proceedings/58/104.htm
     - date: '2006-11-05'
       subject: IETF 67 minutes in the proceedings
       url: https://www.ietf.org/proceedings/67/minutes/crisp.txt
@@ -80,6 +85,11 @@ chairs:
     - date: '2007-03-29'
       subject: IETF 69 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/69/crisp.html
+  - kind: joined the IESG
+    after_meeting: '40'
+    after: '1997-12-08'
+    by_meeting: '41'
+    by: '1998-03-30'
   - kind: session requests
     meetings:
     - '67'
@@ -110,10 +120,10 @@ chairs:
     examples:
     - date: '2003-11-09'
       subject: IETF 58 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/58/minutes/crisp.htm
+      url: https://www.ietf.org/proceedings/58/104.htm
     - date: '2004-02-29'
       subject: IETF 59 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/59/minutes/crisp.htm
+      url: https://www.ietf.org/proceedings/59/104.htm
     - date: '2006-11-05'
       subject: IETF 67 minutes in the proceedings
       url: https://www.ietf.org/proceedings/67/minutes/crisp.txt
@@ -162,7 +172,7 @@ chairs:
     examples:
     - date: '2002-11-17'
       subject: IETF 55 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/55/minutes/crisp.htm
+      url: https://www.ietf.org/proceedings/55/106.htm
     - date: '2003-03-16'
       subject: IETF 56 minutes in the proceedings
       url: https://www.ietf.org/proceedings/56/minutes/crisp.htm

@@ -2,6 +2,10 @@ acronym: forces
 name: Forwarding and Control Element Separation
 type: wg
 parent: rtg
+areas:
+- area: rtg
+  first: '2001-07-31'
+  last: '2015-03-24'
 state: conclude
 started: '2001-05-11'
 closed: '2015-03-24'
@@ -57,16 +61,16 @@ chairs:
       subject: updated minutes
       url: https://mailarchive.ietf.org/arch/msg/forces/QpFvRoEP3Ce7jXXN2AepJk6PbCE/
   - kind: minutes
-    listed_in: 16
-    first: '2002-11-17'
+    listed_in: 20
+    first: '2001-08-05'
     last: '2007-07-22'
     examples:
-    - date: '2002-11-17'
-      subject: Draft ForCES Meeting Minutes, IETF 55
-      url: https://mailarchive.ietf.org/arch/msg/forces/y4B_yjCf3SrLxpkieVXtS0EFqIw/
-    - date: '2002-11-17'
-      subject: IETF 55 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/55/minutes/forces.htm
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/51-87.htm
+    - date: '2001-12-09'
+      subject: IETF 52 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/52/179.htm
     - date: '2007-07-22'
       subject: IETF 69 minutes in the proceedings
       url: https://www.ietf.org/proceedings/69/minutes/forces.txt
@@ -123,16 +127,16 @@ chairs:
     subject: 'WG ACTION: Forwarding and Control Element Separation (forces)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/S4ydr0Ol33WUlxdcgF2vp_1NaKo/
   - kind: minutes
-    listed_in: 16
-    first: '2002-11-17'
+    listed_in: 20
+    first: '2001-08-05'
     last: '2007-07-22'
     examples:
-    - date: '2002-11-17'
-      subject: Draft ForCES Meeting Minutes, IETF 55
-      url: https://mailarchive.ietf.org/arch/msg/forces/y4B_yjCf3SrLxpkieVXtS0EFqIw/
-    - date: '2002-11-17'
-      subject: IETF 55 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/55/minutes/forces.htm
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/51-87.htm
+    - date: '2001-12-09'
+      subject: IETF 52 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/52/179.htm
     - date: '2007-07-22'
       subject: IETF 69 minutes in the proceedings
       url: https://www.ietf.org/proceedings/69/minutes/forces.txt

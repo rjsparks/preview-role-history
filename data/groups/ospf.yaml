@@ -2,6 +2,10 @@ acronym: ospf
 name: Open Shortest Path First IGP
 type: wg
 parent: rtg
+areas:
+- area: rtg
+  first: '1994-12-05'
+  last: '2018-03-01'
 state: conclude
 started: '1988-03-01'
 closed: '2018-03-01'
@@ -51,16 +55,16 @@ chairs:
       subject: WG Last Call on draft-ietf-ospf-hitless-restart-06.txt
       url: https://mailarchive.ietf.org/arch/msg/ospf/4juExxF_PeE21iezeOP-twkMNck/
   - kind: minutes
-    listed_in: 24
-    first: '2003-03-16'
+    listed_in: 22
+    first: '2003-07-13'
     last: '2016-07-17'
     examples:
-    - date: '2003-03-16'
-      subject: IETF 56 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/56/minutes/ospf.htm
     - date: '2003-07-13'
       subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/OSPF.TXT
+      url: https://www.ietf.org/proceedings/57/192.htm
+    - date: '2003-11-09'
+      subject: IETF 58 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/58/minutes/ospf.htm
     - date: '2016-07-17'
       subject: IETF 96 minutes in the proceedings
       url: https://www.ietf.org/proceedings/96/minutes/minutes-96-ospf.txt
@@ -113,27 +117,27 @@ chairs:
       not_after: '2003-01-14'
     end:
       certainty: between
-      not_before: '2004-11-07'
+      not_before: '2005-07-31'
       not_after: '2007-05-02'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2003-01-14)'
-    - 'End: listed as chair in meeting minutes (2004-11-07)'
+    - 'End: listed as chair in meeting minutes (2005-07-31)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2007-05-02)'
   evidence:
   - kind: minutes
     listed_in: 4
     first: '2003-03-16'
-    last: '2004-11-07'
+    last: '2005-07-31'
     examples:
     - date: '2003-03-16'
       subject: IETF 56 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/56/minutes/ospf.htm
+      url: https://www.ietf.org/proceedings/56/189.htm
     - date: '2003-07-13'
       subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/OSPF.TXT
-    - date: '2004-11-07'
-      subject: IETF 61 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/61/minutes/ospf.html
+      url: https://www.ietf.org/proceedings/57/192.htm
+    - date: '2005-07-31'
+      subject: IETF 63 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/63/ospf.html
   - kind: proceedings
     listed_in: 11
     first: '2003-01-14'
@@ -193,7 +197,7 @@ chairs:
       subject: '[OSPF] IETF94 OSPF WG Minutes'
       url: https://mailarchive.ietf.org/arch/msg/ospf/bRaofVQwSjylZ2C_wwma9B3q8VI/
   - kind: minutes
-    listed_in: 19
+    listed_in: 18
     first: '2007-12-02'
     last: '2016-07-17'
     examples:
@@ -236,12 +240,27 @@ chairs:
       not_after: '1994-03-28'
     end:
       certainty: between
-      not_before: '1994-03-28'
-      not_after: '2003-03-16'
+      not_before: '2002-11-17'
+      not_after: '2003-07-13'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
-    - 'End: not listed among the chairs in meeting minutes (2003-03-16)'
+    - 'End: listed as chair in meeting minutes (2002-11-17)'
+    - 'End: not listed among the chairs in meeting minutes (2003-07-13)'
   evidence:
+  - kind: minutes
+    listed_in: 12
+    first: '1997-12-08'
+    last: '2002-11-17'
+    examples:
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-92.htm
+    - date: '1998-03-30'
+      subject: IETF 41 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/41/98mar-edited-96.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/179.htm
   - kind: proceedings
     listed_in: 24
     first: '1994-03-28'
@@ -257,6 +276,6 @@ chairs:
       subject: IETF 58 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/58/188.htm
   - kind: minutes without them
-    date: '2003-03-16'
-    subject: IETF 56 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/56/minutes/ospf.htm
+    date: '2003-07-13'
+    subject: IETF 57 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/57/192.htm

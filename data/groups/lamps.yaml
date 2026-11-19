@@ -2,6 +2,10 @@ acronym: lamps
 name: Limited Additional Mechanisms for PKIX and SMIME
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '2016-06-30'
+  last: '2026-11-18'
 state: active
 started: '2016-06-30'
 closed: null
@@ -16,10 +20,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2016-06-30'
+      certainty: between
+      not_before: '2013-07-28'
+      not_after: '2016-06-30'
     end:
       certainty: ongoing
+    notes:
+    - 'Start: became an Area Director, first serving at IETF 69 (2007-07-22)'
   evidence:
   - kind: WG Action
     date: '2016-07-01'
@@ -115,6 +122,11 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/lamps.html
+  - kind: joined the IESG
+    after_meeting: '68'
+    after: '2007-03-18'
+    by_meeting: '69'
+    by: '2007-07-22'
   - kind: shepherded
     documents:
     - draft-ietf-lamps-5480-ku-clarifications

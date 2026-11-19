@@ -2,6 +2,10 @@ acronym: malloc
 name: Multicast-Address Allocation
 type: wg
 parent: tsv
+areas:
+- area: tsv
+  first: '1998-08-17'
+  last: '2003-06-27'
 state: conclude
 started: '1998-05-08'
 closed: '2003-06-27'
@@ -31,6 +35,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1998-08-17)'
   evidence:
+  - kind: minutes
+    listed_in: 6
+    first: '1998-08-24'
+    last: '2000-03-26'
+    examples:
+    - date: '1998-08-24'
+      subject: IETF 42 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/42/98aug-134.htm
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-126.html
+    - date: '2000-03-26'
+      subject: IETF 47 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-133.html
   - kind: proceedings
     listed_in: 13
     first: '1998-08-17'
@@ -59,6 +77,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1998-08-17)'
   evidence:
+  - kind: minutes
+    listed_in: 6
+    first: '1998-08-24'
+    last: '2000-03-26'
+    examples:
+    - date: '1998-08-24'
+      subject: IETF 42 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/42/98aug-134.htm
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-126.html
+    - date: '2000-03-26'
+      subject: IETF 47 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-133.html
   - kind: proceedings
     listed_in: 13
     first: '1998-08-17'

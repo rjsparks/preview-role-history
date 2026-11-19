@@ -2,6 +2,10 @@ acronym: i2nsf
 name: Interface to Network Security Functions
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '2014-10-01'
+  last: '2023-06-21'
 state: conclude
 started: '2014-10-01'
 closed: '2023-06-21'
@@ -42,7 +46,7 @@ chairs:
     examples:
     - date: '2014-11-09'
       subject: IETF 91 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/91/minutes/minutes-91-i2nsf.txt
+      url: https://www.ietf.org/proceedings/91/i2nsf.html
     - date: '2015-07-19'
       subject: IETF 93 minutes in the proceedings
       url: https://www.ietf.org/proceedings/93/minutes/minutes-93-i2nsf.txt
@@ -87,7 +91,7 @@ chairs:
     examples:
     - date: '2014-11-09'
       subject: IETF 91 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/91/minutes/minutes-91-i2nsf.txt
+      url: https://www.ietf.org/proceedings/91/i2nsf.html
     - date: '2015-07-19'
       subject: IETF 93 minutes in the proceedings
       url: https://www.ietf.org/proceedings/93/minutes/minutes-93-i2nsf.txt
@@ -161,7 +165,7 @@ chairs:
   - kind: minutes without them
     date: '2014-11-09'
     subject: IETF 91 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/91/minutes/minutes-91-i2nsf.txt
+    url: https://www.ietf.org/proceedings/91/i2nsf.html
   - kind: shepherded
     documents:
     - draft-ietf-i2nsf-problem-and-use-cases

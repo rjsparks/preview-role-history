@@ -2,6 +2,10 @@ acronym: pdnrout
 name: Private Data Network Routing
 type: wg
 parent: rtg
+areas:
+- area: rtg
+  first: '1990-08-04'
+  last: '1990-08-04'
 state: conclude
 started: '1988-06-01'
 closed: '1990-08-04'

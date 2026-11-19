@@ -2,6 +2,13 @@ acronym: ngtrans
 name: Next Generation Transition
 type: wg
 parent: ops
+areas:
+- area: ipng
+  first: '1994-12-05'
+  last: '1995-07-17'
+- area: ops
+  first: '1997-04-07'
+  last: '2011-12-09'
 state: conclude
 started: '1994-11-28'
 closed: '2003-02-04'
@@ -23,12 +30,64 @@ chairs:
       not_after: '1997-08-11'
     end:
       certainty: between
-      not_before: '1999-11-07'
+      not_before: '2000-03-26'
       not_after: '2000-04-13'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1997-08-11)'
-    - 'End: listed as chair in meeting minutes (1999-11-07)'
+    - 'Start: listed as chair in meeting minutes (1997-08-11)'
+    - 'End: listed as chair in meeting minutes (2000-03-26)'
     - 'End: not listed among the chairs in meeting minutes (2000-04-13)'
+  - start:
+      certainty: between
+      not_before: '2000-04-28'
+      not_after: '2000-07-17'
+    end:
+      certainty: between
+      not_before: '2001-03-18'
+      not_after: '2001-03-23'
+    notes:
+    - 'Start: not listed among the chairs in meeting minutes (2000-04-28)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2000-07-17)'
+    - 'End: listed as chair in meeting minutes (2001-03-18)'
+    - 'End: not listed among the chairs in meeting minutes (2001-03-23)'
+  - start:
+      certainty: between
+      not_before: '2001-06-09'
+      not_after: '2001-07-31'
+    end:
+      certainty: between
+      not_before: '2001-08-05'
+      not_after: '2001-08-09'
+    notes:
+    - 'Start: not listed among the chairs in meeting minutes (2001-06-09)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2001-07-31)'
+    - 'End: listed as chair in meeting minutes (2001-08-05)'
+    - 'End: not listed among the chairs in meeting minutes (2001-08-09)'
+  - start:
+      certainty: between
+      not_before: '2001-08-10'
+      not_after: '2001-10-11'
+    end:
+      certainty: between
+      not_before: '2001-12-09'
+      not_after: '2001-12-26'
+    notes:
+    - 'Start: not listed among the chairs in meeting minutes (2001-08-10)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2001-10-11)'
+    - 'End: listed as chair in meeting minutes (2001-12-09)'
+    - 'End: not listed among the chairs in meeting minutes (2001-12-26)'
+  - start:
+      certainty: between
+      not_before: '2002-01-02'
+      not_after: '2002-02-27'
+    end:
+      certainty: between
+      not_before: '2002-03-17'
+      not_after: '2002-06-05'
+    notes:
+    - 'Start: not listed among the chairs in meeting minutes (2002-01-02)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2002-02-27)'
+    - 'End: listed as chair in meeting minutes (2002-03-17)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2002-06-05)'
   evidence:
   - kind: chair activity
     first: '1998-09-21'
@@ -42,19 +101,19 @@ chairs:
       subject: (ngtrans) call for Orlando IETF agenda items
       url: https://mailarchive.ietf.org/arch/msg/ngtrans/x6RBzu-_j06he5HgXWY5CCnnBz8/
   - kind: minutes
-    listed_in: 3
-    first: '1999-03-24'
-    last: '1999-11-07'
+    listed_in: 18
+    first: '1997-08-11'
+    last: '2002-03-17'
     examples:
-    - date: '1999-03-24'
-      subject: (ngtrans) NGtrans minutes draft - please send comments/corrections
-      url: https://mailarchive.ietf.org/arch/msg/ngtrans/js_VMgsJog-fLclKaZokS5nf3Xk/
-    - date: '1999-07-27'
-      subject: (ngtrans) draft Minutes of Oslo NGtrans WG Meeting
-      url: https://mailarchive.ietf.org/arch/msg/ngtrans/dbgV4W9SgMRL3R_a60CIGld3AMY/
-    - date: '1999-11-07'
-      subject: (ngtrans) draft minutes of NGtrans WG Meeting at IETF46 in WashDC
-      url: https://mailarchive.ietf.org/arch/msg/ngtrans/CRWKewmlwb624wxfTvf_CHfTAZ0/
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-67.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-68.htm
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/166.htm
   - kind: proceedings
     listed_in: 15
     first: '1997-08-11'
@@ -73,6 +132,38 @@ chairs:
     date: '2000-04-13'
     subject: (ngtrans) draft minutes of NGtrans WG Meeting at IETF-47 in Adelaide
     url: https://mailarchive.ietf.org/arch/msg/ngtrans/LEeO146nvzyYOXUvLr-ePDxpO1o/
+  - kind: minutes without them
+    date: '2000-04-28'
+    subject: (ngtrans) final minutes from ngtrans Adelaide
+    url: https://mailarchive.ietf.org/arch/msg/ngtrans/-UHM2VA7MDYUqBeSWwRu385n560/
+  - kind: minutes without them
+    date: '2001-03-23'
+    subject: (ngtrans) draft ngtrans minutes from IETF-50
+    url: https://mailarchive.ietf.org/arch/msg/ngtrans/bcJtReRHti7iVQpv3DzodBZcA4U/
+  - kind: minutes without them
+    date: '2001-06-09'
+    subject: (ngtrans) Redmond interim ngtrans minutes
+    url: https://mailarchive.ietf.org/arch/msg/ngtrans/bKF3qX7tPZoJIjquuJMDUYuK5OM/
+  - kind: minutes without them
+    date: '2001-08-09'
+    subject: (ngtrans) NGtrans rough 1st draft minutes, IETF-51, London
+    url: https://mailarchive.ietf.org/arch/msg/ngtrans/Ku5tbYp7JDEHMXJMUFn6blyZZMI/
+  - kind: minutes without them
+    date: '2001-08-10'
+    subject: (ngtrans) NGtrans 2nd draft minutes (w/pdf), IETF-51, London
+    url: https://mailarchive.ietf.org/arch/msg/ngtrans/6HO5f50ozx5G_7WrDnM6owgbAi8/
+  - kind: minutes without them
+    date: '2001-12-26'
+    subject: (ngtrans) draft minutes of NGtrans WG meeting, Salt Lake City, IETF-52
+    url: https://mailarchive.ietf.org/arch/msg/ngtrans/RwxpAcsavK0NofCCw1CbNZjSbq0/
+  - kind: minutes without them
+    date: '2002-01-02'
+    subject: (ngtrans) 2nd draft minutes of NGtrans WG meeting, Salt Lake City, IETF-52
+    url: https://mailarchive.ietf.org/arch/msg/ngtrans/Lvf5s3inkAJma-nDBTvLcl1WXkI/
+  - kind: minutes without them
+    date: '2002-06-05'
+    subject: IETF 54 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/54/169.htm
 - person: 2972
   name: Robert Gilligan
   status: unconfirmed
@@ -82,12 +173,27 @@ chairs:
       not_after: '1994-12-05'
     end:
       certainty: between
-      not_before: '1994-12-05'
+      not_before: '1998-12-07'
       not_after: '1998-12-12'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-12-05)'
+    - 'End: listed as chair in meeting minutes (1998-12-07)'
     - 'End: not listed among the chairs in meeting minutes (1998-12-12)'
   evidence:
+  - kind: minutes
+    listed_in: 5
+    first: '1997-08-11'
+    last: '1998-12-07'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-67.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-68.htm
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-73.html
   - kind: proceedings
     listed_in: 9
     first: '1994-12-05'
@@ -111,42 +217,110 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '1998-09-21'
+      certainty: between
+      not_before: '2000-03-26'
+      not_after: '2000-04-13'
     end:
       certainty: between
-      not_before: '2002-07-29'
-      not_after: '2003-02-04'
+      not_before: '2000-04-28'
+      not_after: '2000-07-17'
     notes:
-    - 'Start: listed as chair in meeting minutes (1998-09-21)'
-    - 'End: posted an agenda, minutes or interim notice to the group''s list (2002-07-29)'
-    - 'End: the group closed (2003-02-04)'
+    - 'Start: not listed among the chairs in meeting minutes (2000-03-26)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2000-04-13)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2000-04-28)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2000-07-17)'
+  - start:
+      certainty: between
+      not_before: '2001-03-18'
+      not_after: '2001-03-20'
+    end:
+      certainty: between
+      not_before: '2001-07-24'
+      not_after: '2001-07-31'
+    notes:
+    - 'Start: not listed among the chairs in meeting minutes (2001-03-18)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2001-03-20)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2001-07-24)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2001-07-31)'
+  - start:
+      certainty: between
+      not_before: '2001-08-05'
+      not_after: '2001-08-09'
+    end:
+      certainty: between
+      not_before: '2001-08-10'
+      not_after: '2001-10-11'
+    notes:
+    - 'Start: not listed among the chairs in meeting minutes (2001-08-05)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2001-08-09)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2001-08-10)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2001-10-11)'
+  - start:
+      certainty: between
+      not_before: '2001-10-11'
+      not_after: '2001-11-29'
+    end:
+      certainty: between
+      not_before: '2002-02-18'
+      not_after: '2002-02-27'
+    notes:
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2001-11-29)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2002-02-18)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2002-02-27)'
   evidence:
   - kind: chair activity
-    first: '1999-01-27'
-    last: '2002-07-29'
-    messages: 35
+    first: '2000-04-13'
+    last: '2002-02-18'
+    messages: 15
     examples:
-    - date: '1999-01-27'
-      subject: (ngtrans) Current NGtrans agenda for 2nd day of Grenoble interim meetings
-      url: https://mailarchive.ietf.org/arch/msg/ngtrans/YRXj5XZ9e-kThfyeaAjBc8hr7yc/
-    - date: '1999-01-28'
-      subject: (ngtrans) projection equipment at the IPv6 Interim meetings
-      url: https://mailarchive.ietf.org/arch/msg/ngtrans/fIc3ftL8Gw3v2OfMzMGnZWBy3hM/
+    - date: '2000-04-13'
+      subject: (ngtrans) draft minutes of NGtrans WG Meeting at IETF-47 in Adelaide
+      url: https://mailarchive.ietf.org/arch/msg/ngtrans/LEeO146nvzyYOXUvLr-ePDxpO1o/
+    - date: '2000-04-28'
+      subject: (ngtrans) final minutes from ngtrans Adelaide
+      url: https://mailarchive.ietf.org/arch/msg/ngtrans/-UHM2VA7MDYUqBeSWwRu385n560/
   - kind: minutes
-    listed_in: 12
-    first: '1998-09-21'
+    listed_in: 8
+    first: '2000-04-13'
     last: '2002-01-02'
     examples:
-    - date: '1998-09-21'
-      subject: (ngtrans) Minutes of NGTRANS WG Meeting - 25 August 1998 - Chicago IETF
-      url: https://mailarchive.ietf.org/arch/msg/ngtrans/qUz31s6Nqfo7r4wXAid4_onDZIk/
-    - date: '1998-12-12'
-      subject: (ngtrans) Minutes of NGtrans WG Meeting Orlando IETF Dec 98
-      url: https://mailarchive.ietf.org/arch/msg/ngtrans/tzAXID3KuXHjSrJdgGI81BoO8M4/
+    - date: '2000-04-13'
+      subject: (ngtrans) draft minutes of NGtrans WG Meeting at IETF-47 in Adelaide
+      url: https://mailarchive.ietf.org/arch/msg/ngtrans/LEeO146nvzyYOXUvLr-ePDxpO1o/
+    - date: '2000-04-28'
+      subject: (ngtrans) final minutes from ngtrans Adelaide
+      url: https://mailarchive.ietf.org/arch/msg/ngtrans/-UHM2VA7MDYUqBeSWwRu385n560/
     - date: '2002-01-02'
       subject: (ngtrans) 2nd draft minutes of NGtrans WG meeting, Salt Lake City, IETF-52
       url: https://mailarchive.ietf.org/arch/msg/ngtrans/Lvf5s3inkAJma-nDBTvLcl1WXkI/
+  - kind: minutes without them
+    date: '2000-03-26'
+    subject: IETF 47 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-77.html
+  - kind: minutes without them
+    date: '2000-07-17'
+    subject: IETF 48 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/48/00july-70.htm
+  - kind: minutes without them
+    date: '2001-03-18'
+    subject: IETF 50 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/50/ietf50-80.htm
+  - kind: minutes without them
+    date: '2001-07-31'
+    subject: IETF 51 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/51/51-76.htm
+  - kind: minutes without them
+    date: '2001-08-05'
+    subject: IETF 51 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/51/51-76.htm
+  - kind: minutes without them
+    date: '2001-10-11'
+    subject: IETF 52 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/52/167.htm
+  - kind: minutes without them
+    date: '2002-02-27'
+    subject: IETF 53 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/53/166.htm
 - person: 9051
   name: Tony Hain
   status: confirmed
@@ -170,19 +344,19 @@ chairs:
       subject: (ngtrans) Interim Meeting Logisics
       url: https://mailarchive.ietf.org/arch/msg/ngtrans/XldbBF3ZcF3ZDBTYgT__0czVsiI/
   - kind: minutes
-    listed_in: 16
-    first: '1998-09-21'
+    listed_in: 30
+    first: '1997-08-11'
     last: '2002-07-14'
     examples:
-    - date: '1998-09-21'
-      subject: (ngtrans) Minutes of NGTRANS WG Meeting - 25 August 1998 - Chicago IETF
-      url: https://mailarchive.ietf.org/arch/msg/ngtrans/qUz31s6Nqfo7r4wXAid4_onDZIk/
-    - date: '1998-12-12'
-      subject: (ngtrans) Minutes of NGtrans WG Meeting Orlando IETF Dec 98
-      url: https://mailarchive.ietf.org/arch/msg/ngtrans/tzAXID3KuXHjSrJdgGI81BoO8M4/
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-67.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-68.htm
     - date: '2002-07-14'
       subject: IETF 54 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/54/minutes/ngtrans.htm
+      url: https://www.ietf.org/proceedings/54/169.htm
   - kind: proceedings
     listed_in: 20
     first: '1994-12-05'
@@ -231,19 +405,19 @@ chairs:
       subject: (ngtrans) Interim meeting Web server
       url: https://mailarchive.ietf.org/arch/msg/ngtrans/LPRN5_4-SOm4UrUNEpax5OmwfJg/
   - kind: minutes
-    listed_in: 14
+    listed_in: 22
     first: '1999-03-24'
     last: '2002-07-14'
     examples:
     - date: '1999-03-24'
       subject: (ngtrans) NGtrans minutes draft - please send comments/corrections
       url: https://mailarchive.ietf.org/arch/msg/ngtrans/js_VMgsJog-fLclKaZokS5nf3Xk/
-    - date: '1999-07-27'
-      subject: (ngtrans) draft Minutes of Oslo NGtrans WG Meeting
-      url: https://mailarchive.ietf.org/arch/msg/ngtrans/dbgV4W9SgMRL3R_a60CIGld3AMY/
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-72.html
     - date: '2002-07-14'
       subject: IETF 54 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/54/minutes/ngtrans.htm
+      url: https://www.ietf.org/proceedings/54/169.htm
   - kind: proceedings
     listed_in: 10
     first: '1999-05-27'
@@ -299,7 +473,7 @@ chairs:
     examples:
     - date: '2002-07-14'
       subject: IETF 54 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/54/minutes/ngtrans.htm
+      url: https://www.ietf.org/proceedings/54/169.htm
   - kind: proceedings
     listed_in: 1
     first: '2002-06-05'

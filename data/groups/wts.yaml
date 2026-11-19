@@ -2,6 +2,10 @@ acronym: wts
 name: Web Transaction Security
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '1995-04-03'
+  last: '2001-07-16'
 state: conclude
 started: '1995-04-13'
 closed: '2001-07-16'
@@ -18,21 +22,21 @@ chairs:
   - start:
       certainty: between
       not_before: '1995-04-13'
-      not_after: '1995-08-23'
+      not_after: '1998-12-07'
     end:
       certainty: group-closed
       date: '2001-07-16'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1995-08-23)'
+    - 'Start: listed as chair in meeting minutes (1998-12-07)'
   evidence:
-  - kind: proceedings
+  - kind: minutes
     listed_in: 1
-    first: '1995-08-23'
-    last: '1995-08-23'
+    first: '1998-12-07'
+    last: '1998-12-07'
     examples:
-    - date: '1995-08-23'
-      subject: IETF 42 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/42/98aug-124.htm
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-117.html
 - person: 113165
   name: Charles Kaufman
   status: unconfirmed
@@ -42,12 +46,27 @@ chairs:
       not_after: '1995-04-03'
     end:
       certainty: between
-      not_before: '1995-04-03'
+      not_before: '1999-07-11'
       not_after: '2001-07-16'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1995-04-03)'
+    - 'End: listed as chair in meeting minutes (1999-07-11)'
     - 'End: the group closed (2001-07-16)'
   evidence:
+  - kind: minutes
+    listed_in: 3
+    first: '1997-04-07'
+    last: '1999-07-11'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtft110.htm
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-117.html
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-115.html
   - kind: proceedings
     listed_in: 7
     first: '1995-04-03'

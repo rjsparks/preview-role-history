@@ -2,6 +2,10 @@ acronym: aqm
 name: Active Queue Management and Packet Scheduling
 type: wg
 parent: tsv
+areas:
+- area: tsv
+  first: '2013-06-20'
+  last: '2017-10-16'
 state: conclude
 started: '2013-06-20'
 closed: '2017-10-16'
@@ -20,11 +24,13 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2013-06-20'
+      not_before: '2013-07-28'
       not_after: '2013-08-08'
     end:
       certainty: approximate
       date: '2013-08-08'
+    notes:
+    - 'Start: became an Area Director, first serving at IETF 81 (2011-07-24)'
   - start:
       certainty: exact
       date: '2013-09-24'
@@ -81,6 +87,11 @@ chairs:
     - date: '2016-07-17'
       subject: IETF 96 proceedings charter
       url: https://www.ietf.org/proceedings/96/aqm.html
+  - kind: joined the IESG
+    after_meeting: '80'
+    after: '2011-03-27'
+    by_meeting: '81'
+    by: '2011-07-24'
   - kind: shepherded
     documents:
     - draft-ietf-aqm-codel

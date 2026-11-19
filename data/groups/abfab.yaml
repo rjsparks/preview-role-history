@@ -2,6 +2,10 @@ acronym: abfab
 name: Application Bridging for Federated Access Beyond web
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '2010-07-25'
+  last: '2016-09-30'
 state: conclude
 started: '2010-09-16'
 closed: '2016-09-30'
@@ -45,7 +49,7 @@ chairs:
       subject: '[abfab] WGLC on draft-ietf-abfab-gss-eap-naming-03 (ending August 3d 2012)'
       url: https://mailarchive.ietf.org/arch/msg/abfab/Eqz1wVTVZbj60vrsrGX4QVyRPhc/
   - kind: minutes
-    listed_in: 4
+    listed_in: 3
     first: '2011-03-27'
     last: '2011-07-24'
     examples:
@@ -57,7 +61,7 @@ chairs:
       url: https://www.ietf.org/proceedings/80/minutes/abfab.txt
     - date: '2011-07-24'
       subject: IETF 81 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/81/minutes/abfab.txt
+      url: https://www.ietf.org/proceedings/81/minutes/abfab.html
   - kind: proceedings
     listed_in: 19
     first: '2010-07-25'
@@ -116,7 +120,7 @@ chairs:
       subject: '[abfab] WGLC of draft-ietf-abfab-arch-08'
       url: https://mailarchive.ietf.org/arch/msg/abfab/QGsyEnm8nmr8CddMojA9mZeVSuI/
   - kind: minutes
-    listed_in: 4
+    listed_in: 3
     first: '2011-03-27'
     last: '2011-07-24'
     examples:
@@ -128,7 +132,7 @@ chairs:
       url: https://www.ietf.org/proceedings/80/minutes/abfab.txt
     - date: '2011-07-24'
       subject: IETF 81 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/81/minutes/abfab.txt
+      url: https://www.ietf.org/proceedings/81/minutes/abfab.html
   - kind: proceedings
     listed_in: 19
     first: '2010-07-25'

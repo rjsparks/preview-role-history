@@ -2,6 +2,10 @@ acronym: antitrust
 name: Does the IETF Need an Anti-Trust Policy
 type: wg
 parent: gen
+areas:
+- area: gen
+  first: '2012-02-23'
+  last: '2013-01-31'
 state: bof-conc
 started: null
 closed: '2013-01-31'
@@ -23,20 +27,26 @@ chairs:
       date: '2012-02-23'
     end:
       certainty: between
-      not_before: '2012-03-25'
+      not_before: '2012-11-04'
       not_after: '2013-01-31'
     notes:
-    - 'End: listed as chair in meeting minutes (2012-03-25)'
+    - 'End: listed as chair in meeting minutes (2012-11-04)'
     - 'End: the group closed (2013-01-31)'
   evidence:
   - kind: minutes
-    listed_in: 1
+    listed_in: 3
     first: '2012-03-25'
-    last: '2012-03-25'
+    last: '2012-11-04'
     examples:
     - date: '2012-03-25'
       subject: IETF 83 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/83/minutes/minutes-83-antitrust.txt
+      url: https://www.ietf.org/proceedings/83/antitrust.html
+    - date: '2012-07-29'
+      subject: IETF 84 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/84/antitrust.html
+    - date: '2012-11-04'
+      subject: IETF 85 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/85/antitrust.html
   - kind: proceedings
     listed_in: 3
     first: '2012-03-25'
@@ -64,20 +74,26 @@ chairs:
       date: '2012-02-23'
     end:
       certainty: between
-      not_before: '2012-03-25'
+      not_before: '2012-11-04'
       not_after: '2013-01-31'
     notes:
-    - 'End: listed as chair in meeting minutes (2012-03-25)'
+    - 'End: listed as chair in meeting minutes (2012-11-04)'
     - 'End: the group closed (2013-01-31)'
   evidence:
   - kind: minutes
-    listed_in: 1
+    listed_in: 3
     first: '2012-03-25'
-    last: '2012-03-25'
+    last: '2012-11-04'
     examples:
     - date: '2012-03-25'
       subject: IETF 83 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/83/minutes/minutes-83-antitrust.txt
+      url: https://www.ietf.org/proceedings/83/antitrust.html
+    - date: '2012-07-29'
+      subject: IETF 84 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/84/antitrust.html
+    - date: '2012-11-04'
+      subject: IETF 85 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/85/antitrust.html
   - kind: proceedings
     listed_in: 3
     first: '2012-03-25'

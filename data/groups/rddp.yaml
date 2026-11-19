@@ -2,6 +2,10 @@ acronym: rddp
 name: Remote Direct Data Placement
 type: wg
 parent: tsv
+areas:
+- area: tsv
+  first: '2002-07-05'
+  last: '2011-12-09'
 state: conclude
 started: '2002-06-13'
 closed: '2007-11-01'
@@ -46,16 +50,19 @@ chairs:
       subject: '[rddp] WG Last Call: Applicability, SCTP Adaptation, MPA'
       url: https://mailarchive.ietf.org/arch/msg/rddp/bgzTJCKCd1akrY-X3pG6I0VeMsQ/
   - kind: minutes
-    listed_in: 2
+    listed_in: 4
     first: '2002-07-14'
-    last: '2002-07-23'
+    last: '2003-11-09'
     examples:
     - date: '2002-07-14'
       subject: IETF 54 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/54/minutes/rddp.htm
+      url: https://www.ietf.org/proceedings/54/234.htm
     - date: '2002-07-23'
       subject: '[rddp] rddp Yokohama DRAFT minutes'
       url: https://mailarchive.ietf.org/arch/msg/rddp/IqijmhsDicrYizx9QEmVjupy1R0/
+    - date: '2003-11-09'
+      subject: IETF 58 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/58/239.htm
   - kind: proceedings
     listed_in: 12
     first: '2002-07-05'

@@ -74,8 +74,14 @@ chairs:
   not a change to the entry: it keeps its status and keeps updating from new evidence.
 - **rejected** (group level): people who were *not* chairs of the group although the seed
   suggested it, each `{person, sources}`. The seed won't list them again.
-- **overrides** (group level): corrected group fields (`name`, `state`, `parent`, `started`,
-  `closed`, `bof`, `never_chartered`, `chartered`), kept over the seed's values.
+- **overrides** (group level): corrected group fields (`name`, `state`, `parent`, `areas`,
+  `started`, `closed`, `bof`, `never_chartered`, `chartered`), kept over the seed's values.
+- **Group field** `areas` lists every area the group was in, each `{area, first, last}`: the
+  dates it was first and last seen there. `parent` is only its current (or final) area.
+  Before 2011 the areas come from the area director block of the charter pages in the
+  meeting proceedings; after that, from the datatracker's history. Groups move (avt went
+  from tsv to rai in 2006), and the site shows each area in turn. Chairs are not tied to
+  areas.
 - **Group fields** `bof`, `never_chartered`, `chartered` and `bof_sessions` say whether the
   group began as a BOF, whether it never became a working group, when it was first
   chartered, and which BOF sessions the meeting proceedings show.

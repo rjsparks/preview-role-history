@@ -2,6 +2,10 @@ acronym: vompls
 name: Voice over IP over MPLS
 type: wg
 parent: tsv
+areas:
+- area: tsv
+  first: '2003-12-10'
+  last: '2003-12-10'
 state: conclude
 started: null
 closed: '2003-12-10'
@@ -20,17 +24,39 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-12-10'
+      date: '2000-03-26'
     end:
       certainty: group-closed
       date: '2003-12-10'
+    notes:
+    - 'Start: listed as chair in meeting minutes (2000-03-26)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2000-03-26'
+    last: '2000-03-26'
+    examples:
+    - date: '2000-03-26'
+      subject: IETF 47 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-152.html
 - person: 108224
   name: Gerald Ash
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-12-10'
+      date: '2000-03-26'
     end:
       certainty: group-closed
       date: '2003-12-10'
+    notes:
+    - 'Start: listed as chair in meeting minutes (2000-03-26)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2000-03-26'
+    last: '2000-03-26'
+    examples:
+    - date: '2000-03-26'
+      subject: IETF 47 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-152.html

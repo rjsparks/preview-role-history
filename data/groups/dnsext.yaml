@@ -2,6 +2,10 @@ acronym: dnsext
 name: DNS Extensions
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2000-02-03'
+  last: '2013-07-24'
 state: conclude
 started: '1999-11-16'
 closed: '2013-07-24'
@@ -90,16 +94,16 @@ chairs:
       subject: '[dnsext] WGLC: DNS Proxy Implementation Guidelines'
       url: https://mailarchive.ietf.org/arch/msg/dnsext/pcODeYnuT0dWpzbVFCKkSzfoKWY/
   - kind: minutes
-    listed_in: 15
-    first: '2001-08-05'
+    listed_in: 22
+    first: '2000-03-26'
     last: '2011-03-27'
     examples:
-    - date: '2001-08-05'
-      subject: IETF 51, DNSEXT final minutes
-      url: https://mailarchive.ietf.org/arch/msg/dnsext/-ZZAZO2PtqOb6HGnj7_K_j8Sr7k/
-    - date: '2001-08-05'
-      subject: IETF 51 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/51/minutes/DNSEXT.HTM
+    - date: '2000-03-26'
+      subject: IETF 47 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-46.html
+    - date: '2000-07-31'
+      subject: IETF 48 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/48/00july-41.htm
     - date: '2011-03-27'
       subject: IETF 80 minutes in the proceedings
       url: https://www.ietf.org/proceedings/80/minutes/dnsext.txt
@@ -155,7 +159,7 @@ chairs:
     excerpt: After long service as the co-chair of DNSIND and DNSEXT working groups Randy Bush has decided
       to step down as chair.
   - kind: list message
-    date: '2003-08-13'
+    date: '2003-07-13'
     says: end
     subject: DNSEXT IETF-57 WG minutes (draft)
     url: https://mailarchive.ietf.org/arch/msg/dnsext/Hoi_QS6zMT2Y91feRFMQ7_8hZkM/
@@ -179,19 +183,19 @@ chairs:
       subject: dnsext minutes
       url: https://mailarchive.ietf.org/arch/msg/dnsext/mtLD9qE6A1EIp_324I39Ejp3LSc/
   - kind: minutes
-    listed_in: 4
-    first: '2001-08-05'
+    listed_in: 11
+    first: '2000-03-26'
     last: '2002-11-17'
     examples:
-    - date: '2001-08-05'
-      subject: IETF 51, DNSEXT final minutes
-      url: https://mailarchive.ietf.org/arch/msg/dnsext/-ZZAZO2PtqOb6HGnj7_K_j8Sr7k/
-    - date: '2001-08-05'
-      subject: IETF 51 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/51/minutes/DNSEXT.HTM
+    - date: '2000-03-26'
+      subject: IETF 47 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-46.html
+    - date: '2000-07-31'
+      subject: IETF 48 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/48/00july-41.htm
     - date: '2002-11-17'
       subject: IETF 55 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/55/minutes/dnsext.htm
+      url: https://www.ietf.org/proceedings/55/134.htm
   - kind: proceedings
     listed_in: 10
     first: '2000-02-03'
@@ -311,13 +315,13 @@ chairs:
   periods:
   - start:
       certainty: announced
-      date: '2003-06-19'
+      date: '2003-07-13'
     end:
       certainty: between
       not_before: '2007-03-18'
       not_after: '2008-07-27'
     notes:
-    - 'Start: announced on the group''s list (2003-06-19)'
+    - 'Start: announced on the group''s list (2003-07-13)'
     - 'End: listed as chair in meeting minutes (2007-03-18)'
     - 'End: not listed among the chairs in meeting minutes (2008-07-27)'
   evidence:
@@ -340,7 +344,7 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/dnsext/Tmcp3JNwhSBeOXucJmI0n5qxsoU/
     excerpt: Welcome Olaf.
   - kind: list message
-    date: '2003-08-13'
+    date: '2003-07-13'
     says: start
     subject: DNSEXT IETF-57 WG minutes (draft)
     url: https://mailarchive.ietf.org/arch/msg/dnsext/Hoi_QS6zMT2Y91feRFMQ7_8hZkM/

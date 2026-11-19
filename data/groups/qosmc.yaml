@@ -2,6 +2,10 @@ acronym: qosmc
 name: Protocols for Negotiated-QOS Multicast Communicat.
 type: wg
 parent: tsv
+areas:
+- area: tsv
+  first: '2026-11-18'
+  last: '2026-11-18'
 state: conclude
 started: null
 closed: null
@@ -17,6 +21,17 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '1998-12-07'
     end:
       certainty: group-closed
+    notes:
+    - 'Start: listed as chair in meeting minutes (1998-12-07)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '1998-12-07'
+    last: '1998-12-07'
+    examples:
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-141.html

@@ -2,6 +2,7 @@ acronym: nwcrg
 name: Coding for efficient NetWork Communications Research Group
 type: rg
 parent: irtf
+areas: []
 state: conclude
 started: '2013-02-13'
 closed: '2023-08-02'
@@ -26,13 +27,19 @@ chairs:
     - 'Start: listed as chair in meeting minutes (2013-03-10)'
   evidence:
   - kind: minutes
-    listed_in: 1
+    listed_in: 10
     first: '2013-03-10'
-    last: '2013-03-10'
+    last: '2016-07-17'
     examples:
     - date: '2013-03-10'
       subject: IETF 86 minutes in the proceedings
       url: https://www.ietf.org/proceedings/86/minutes/minutes-86-nwcrg.txt
+    - date: '2013-11-03'
+      subject: IETF 88 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/88/nwcrg.html
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/nwcrg.html
   - kind: proceedings
     listed_in: 9
     first: '2013-11-03'
@@ -73,9 +80,9 @@ chairs:
       subject: '[nwcrg] Minutes from our London meeting'
       url: https://mailarchive.ietf.org/arch/msg/nwcrg/HIcbKpWVajGzu0jmus5OaNjo8VU/
   - kind: minutes
-    listed_in: 2
+    listed_in: 12
     first: '2013-03-10'
-    last: '2013-07-28'
+    last: '2016-11-13'
     examples:
     - date: '2013-03-10'
       subject: IETF 86 minutes in the proceedings
@@ -83,6 +90,9 @@ chairs:
     - date: '2013-07-28'
       subject: IETF 87 minutes in the proceedings
       url: https://www.ietf.org/proceedings/87/minutes/minutes-87-nwcrg.txt
+    - date: '2016-11-13'
+      subject: IETF 97 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/97/nwcrg.html
   - kind: proceedings
     listed_in: 10
     first: '2013-11-03'
@@ -145,6 +155,14 @@ chairs:
     - date: '2017-07-25'
       subject: '[nwcrg] draft NWCRG@IETF''99 meeting minutes'
       url: https://mailarchive.ietf.org/arch/msg/nwcrg/DrBFbBxbx4uuLwnr82TtgQfTR0I/
+  - kind: minutes
+    listed_in: 1
+    first: '2016-11-13'
+    last: '2016-11-13'
+    examples:
+    - date: '2016-11-13'
+      subject: IETF 97 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/97/nwcrg.html
   - kind: proceedings
     listed_in: 1
     first: '2016-11-13'
@@ -164,13 +182,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2012-11-04'
+      certainty: between
+      not_before: '2011-07-24'
+      not_after: '2012-11-04'
     end:
       certainty: between
       not_before: '2013-02-13'
       not_after: '2013-03-10'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 66 (2006-07-09)'
     - 'Start: listed as chair in a proceedings charter snapshot (2012-11-04)'
     - 'End: not listed among the chairs in meeting minutes (2013-03-10)'
   evidence:
@@ -192,3 +212,8 @@ chairs:
     date: '2013-03-10'
     subject: IETF 86 minutes in the proceedings
     url: https://www.ietf.org/proceedings/86/minutes/minutes-86-nwcrg.txt
+  - kind: joined the IESG
+    after_meeting: '65'
+    after: '2006-03-19'
+    by_meeting: '66'
+    by: '2006-07-09'

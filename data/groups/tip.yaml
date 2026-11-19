@@ -2,6 +2,10 @@ acronym: tip
 name: Transaction Internet Protocol
 type: wg
 parent: app
+areas:
+- area: app
+  first: '1997-08-11'
+  last: '1998-10-22'
 state: conclude
 started: '1997-06-10'
 closed: '1998-10-22'
@@ -26,8 +30,22 @@ chairs:
       certainty: group-closed
       date: '1998-10-22'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1997-08-11)'
+    - 'Start: listed as chair in meeting minutes (1997-08-11)'
   evidence:
+  - kind: minutes
+    listed_in: 3
+    first: '1997-08-11'
+    last: '1998-03-30'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-29.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-24.htm
+    - date: '1998-03-30'
+      subject: IETF 41 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/41/98mar-edited-32.htm
   - kind: proceedings
     listed_in: 4
     first: '1997-08-11'
@@ -54,8 +72,22 @@ chairs:
       certainty: group-closed
       date: '1998-10-22'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1997-08-11)'
+    - 'Start: listed as chair in meeting minutes (1997-08-11)'
   evidence:
+  - kind: minutes
+    listed_in: 3
+    first: '1997-08-11'
+    last: '1998-03-30'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-29.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-24.htm
+    - date: '1998-03-30'
+      subject: IETF 41 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/41/98mar-edited-32.htm
   - kind: proceedings
     listed_in: 4
     first: '1997-08-11'

@@ -2,6 +2,10 @@ acronym: edi
 name: Electronic Data Interchange
 type: wg
 parent: app
+areas:
+- area: app
+  first: '1994-12-05'
+  last: '1995-07-07'
 state: conclude
 started: '1994-05-23'
 closed: '1995-07-07'
@@ -19,12 +23,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1994-03-28'
+      certainty: between
+      not_before: '1993-03-29'
+      not_after: '1994-03-28'
     end:
       certainty: group-closed
       date: '1995-07-07'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 25 (1992-11-16)'
     - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
   evidence:
   - kind: proceedings
@@ -41,3 +47,8 @@ chairs:
     - date: '1995-04-03'
       subject: IETF 32 proceedings charter
       url: https://www.ietf.org/proceedings/32/area.and.wg.reports/app/edi/edi-charter.txt
+  - kind: joined the IESG
+    after_meeting: '24'
+    after: '1992-07-13'
+    by_meeting: '25'
+    by: '1992-11-16'

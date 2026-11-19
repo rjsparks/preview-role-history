@@ -2,6 +2,13 @@ acronym: detnet
 name: Deterministic Networking
 type: wg
 parent: rtg
+areas:
+- area: int
+  first: '2014-10-01'
+  last: '2015-06-11'
+- area: rtg
+  first: '2015-06-11'
+  last: '2026-11-18'
 state: active
 started: '2014-10-01'
 closed: null
@@ -29,6 +36,14 @@ chairs:
       not_before: '2015-02-10'
       not_after: '2015-06-11'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2014-11-09'
+    last: '2014-11-09'
+    examples:
+    - date: '2014-11-09'
+      subject: IETF 91 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/91/detnet.html
   - kind: proceedings
     listed_in: 1
     first: '2014-11-09'
@@ -127,6 +142,14 @@ chairs:
       not_before: '2015-02-10'
       not_after: '2015-06-11'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2014-11-09'
+    last: '2014-11-09'
+    examples:
+    - date: '2014-11-09'
+      subject: IETF 91 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/91/detnet.html
   - kind: proceedings
     listed_in: 1
     first: '2014-11-09'
@@ -191,12 +214,13 @@ chairs:
       date: '2014-11-07'
   - start:
       certainty: between
-      not_before: '2014-11-07'
+      not_before: '2014-11-09'
       not_after: '2015-03-09'
     end:
       certainty: evidence-only
       not_before: '2015-03-09'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2014-11-09)'
     - 'Start: posted an agenda, minutes or interim notice to the group''s list (2015-03-09)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2015-03-09)'
   evidence:
@@ -208,6 +232,10 @@ chairs:
     - date: '2015-03-09'
       subject: '[Detnet] 6TiSCH (inviting DetNet) agenda for IETF 92'
       url: https://mailarchive.ietf.org/arch/msg/detnet/nefUIbgpq8V-TnFjAkco9U_Hi3Q/
+  - kind: minutes without them
+    date: '2014-11-09'
+    subject: IETF 91 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/91/detnet.html
 - person: 118295
   name: János Farkas
   status: confirmed

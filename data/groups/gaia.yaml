@@ -2,6 +2,7 @@ acronym: gaia
 name: Global Access to the Internet for All
 type: rg
 parent: irtf
+areas: []
 state: active
 started: '2014-10-06'
 closed: null
@@ -22,6 +23,20 @@ chairs:
       certainty: exact
       date: '2018-02-25'
   evidence:
+  - kind: minutes
+    listed_in: 7
+    first: '2014-07-20'
+    last: '2016-07-17'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/90/gaia.html
+    - date: '2014-11-09'
+      subject: IETF 91 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/91/gaia.html
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/gaia.html
   - kind: proceedings
     listed_in: 7
     first: '2014-07-20'
@@ -56,16 +71,19 @@ chairs:
       subject: '[gaia] Preliminary GAIA RG meeting minutes from IETF93'
       url: https://mailarchive.ietf.org/arch/msg/gaia/-gKLaNv7O8O5hfNipSUsAbKewD4/
   - kind: minutes
-    listed_in: 2
-    first: '2015-07-19'
-    last: '2015-07-19'
+    listed_in: 8
+    first: '2014-07-20'
+    last: '2016-07-17'
     examples:
-    - date: '2015-07-19'
-      subject: '[gaia] Preliminary GAIA RG meeting minutes from IETF93'
-      url: https://mailarchive.ietf.org/arch/msg/gaia/-gKLaNv7O8O5hfNipSUsAbKewD4/
-    - date: '2015-07-19'
-      subject: IETF 93 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/93/minutes/minutes-93-gaia.txt
+    - date: '2014-07-20'
+      subject: IETF 90 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/90/gaia.html
+    - date: '2014-11-09'
+      subject: IETF 91 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/91/gaia.html
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/gaia.html
   - kind: proceedings
     listed_in: 7
     first: '2014-07-20'
@@ -98,13 +116,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2016-07-17'
       not_after: '2017-07-13'
     end:
       certainty: between
       not_before: '2017-07-13'
       not_after: '2018-02-27'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2016-07-17)'
     - 'Start: posted an agenda, minutes or interim notice to the group''s list (2017-07-13)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2017-07-13)'
   - start:
@@ -132,6 +152,10 @@ chairs:
     - date: '2019-07-23'
       subject: '[gaia] IETF 105 Montreal - IRTF GAIA meeting - minutes'
       url: https://mailarchive.ietf.org/arch/msg/gaia/Ao5LlBny2SrjGpcPmg0MszaK6Pk/
+  - kind: minutes without them
+    date: '2016-07-17'
+    subject: IETF 96 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/96/gaia.html
 - person: 123022
   name: Jane Coffin
   status: confirmed

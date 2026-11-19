@@ -2,6 +2,10 @@ acronym: anycast
 name: Anycast
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2026-11-18'
+  last: '2026-11-18'
 state: conclude
 started: null
 closed: null

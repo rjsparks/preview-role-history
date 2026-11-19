@@ -2,6 +2,10 @@ acronym: multimob
 name: Multicast Mobility
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2009-07-26'
+  last: '2014-12-01'
 state: conclude
 started: '2009-08-07'
 closed: '2014-12-01'

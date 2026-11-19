@@ -2,6 +2,7 @@ acronym: iccrg
 name: Internet Congestion Control
 type: rg
 parent: irtf
+areas: []
 state: active
 started: null
 closed: null
@@ -36,13 +37,19 @@ chairs:
       subject: '[Iccrg] Preliminary agenda for the next meeting'
       url: https://mailarchive.ietf.org/arch/msg/iccrg/uSe53N0NH_n2W21EuBXarBgf8ck/
   - kind: minutes
-    listed_in: 1
+    listed_in: 13
     first: '2011-03-27'
-    last: '2011-03-27'
+    last: '2017-03-26'
     examples:
     - date: '2011-03-27'
       subject: IETF 80 minutes in the proceedings
       url: https://www.ietf.org/proceedings/80/minutes/iccrg.txt
+    - date: '2013-07-28'
+      subject: IETF 87 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/87/iccrg.html
+    - date: '2017-03-26'
+      subject: IETF 98 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/98/iccrg.html
   - kind: proceedings
     listed_in: 16
     first: '2012-03-25'
@@ -92,6 +99,20 @@ chairs:
     - date: '2018-07-31'
       subject: '[iccrg] IETF 102 minutes posted'
       url: https://mailarchive.ietf.org/arch/msg/iccrg/mxxDYy6sDmSN651YTcEJ-e2im3M/
+  - kind: minutes
+    listed_in: 5
+    first: '2015-11-01'
+    last: '2017-03-26'
+    examples:
+    - date: '2015-11-01'
+      subject: IETF 94 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/94/iccrg.html
+    - date: '2016-04-03'
+      subject: IETF 95 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/95/iccrg.html
+    - date: '2017-03-26'
+      subject: IETF 98 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/98/iccrg.html
   - kind: proceedings
     listed_in: 5
     first: '2015-11-01'
@@ -201,13 +222,6 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2012-02-26'
-      not_after: '2014-11-13'
-    end:
-      certainty: evidence-only
-      not_before: '2014-11-13'
-  - start:
       certainty: announced
       date: '2012-10-29'
     end:
@@ -239,6 +253,20 @@ chairs:
     - date: '2013-08-03'
       subject: '[iccrg] meeting minutes'
       url: https://mailarchive.ietf.org/arch/msg/iccrg/jo7vsgVeklLeeMaGDUVDOb1hYQs/
+  - kind: minutes
+    listed_in: 7
+    first: '2013-07-28'
+    last: '2015-07-19'
+    examples:
+    - date: '2013-07-28'
+      subject: IETF 87 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/87/iccrg.html
+    - date: '2013-11-03'
+      subject: IETF 88 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/88/iccrg.html
+    - date: '2015-07-19'
+      subject: IETF 93 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/93/iccrg.html
   - kind: proceedings
     listed_in: 9
     first: '2012-11-04'

@@ -2,6 +2,10 @@ acronym: ride
 name: Registry Information Database Exchange Formats & P
 type: wg
 parent: ops
+areas:
+- area: ops
+  first: '2026-11-18'
+  last: '2026-11-18'
 state: conclude
 started: null
 closed: null
@@ -19,7 +23,16 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-12-09'
+      certainty: between
+      not_before: '2007-07-22'
+      not_after: '2011-12-09'
     end:
       certainty: group-closed
+    notes:
+    - 'Start: became an Area Director, first serving at IETF 59 (2004-02-29)'
+  evidence:
+  - kind: joined the IESG
+    after_meeting: '58'
+    after: '2003-11-09'
+    by_meeting: '59'
+    by: '2004-02-29'

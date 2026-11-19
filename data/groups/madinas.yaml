@@ -2,6 +2,10 @@ acronym: madinas
 name: MAC Address Device Identification for Network and Application Services
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2020-10-09'
+  last: '2025-07-03'
 state: conclude
 started: '2020-10-09'
 closed: '2025-07-03'

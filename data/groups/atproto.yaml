@@ -2,6 +2,10 @@ acronym: atproto
 name: Authenticated Transfer
 type: wg
 parent: art
+areas:
+- area: art
+  first: '2025-09-29'
+  last: '2025-09-30'
 state: abandon
 started: '2025-09-29'
 closed: '2025-09-30'

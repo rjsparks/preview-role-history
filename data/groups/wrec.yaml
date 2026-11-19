@@ -2,6 +2,10 @@ acronym: wrec
 name: Web Replication and Caching
 type: wg
 parent: app
+areas:
+- area: app
+  first: '1999-02-26'
+  last: '2001-03-30'
 state: conclude
 started: '1999-02-21'
 closed: '2001-03-30'
@@ -25,6 +29,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1999-02-26)'
   evidence:
+  - kind: minutes
+    listed_in: 5
+    first: '1999-03-14'
+    last: '2000-12-10'
+    examples:
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-37.html
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-36.html
+    - date: '2000-12-10'
+      subject: IETF 49 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/49/00dec-32.htm
   - kind: proceedings
     listed_in: 6
     first: '1999-02-26'
@@ -53,6 +71,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1999-02-26)'
   evidence:
+  - kind: minutes
+    listed_in: 5
+    first: '1999-03-14'
+    last: '2000-12-10'
+    examples:
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-37.html
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-36.html
+    - date: '2000-12-10'
+      subject: IETF 49 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/49/00dec-32.htm
   - kind: proceedings
     listed_in: 6
     first: '1999-02-26'

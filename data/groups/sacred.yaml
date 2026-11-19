@@ -2,6 +2,10 @@ acronym: sacred
 name: Securely Available Credentials
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '2000-10-23'
+  last: '2006-02-01'
 state: conclude
 started: '2000-09-19'
 closed: '2006-02-01'
@@ -29,6 +33,20 @@ chairs:
     date: '2000-10-23'
     subject: 'WG ACTION: Securely Available Credentials (sacred)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/ew5Fg0Qknpp_vIeG9A1cHYov3J8/
+  - kind: minutes
+    listed_in: 6
+    first: '2000-12-10'
+    last: '2002-11-17'
+    examples:
+    - date: '2000-12-10'
+      subject: IETF 49 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/49/00dec-121.htm
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-121.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/201.htm
   - kind: proceedings
     listed_in: 12
     first: '2000-10-23'
@@ -57,6 +75,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2000-10-23)'
   evidence:
+  - kind: minutes
+    listed_in: 6
+    first: '2000-12-10'
+    last: '2002-11-17'
+    examples:
+    - date: '2000-12-10'
+      subject: IETF 49 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/49/00dec-121.htm
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-121.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/201.htm
   - kind: proceedings
     listed_in: 12
     first: '2000-10-23'

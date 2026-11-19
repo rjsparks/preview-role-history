@@ -2,6 +2,10 @@ acronym: ipv6
 name: IP Version 6 Working Group
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2001-12-05'
+  last: '2007-09-23'
 state: conclude
 started: '2000-10-05'
 closed: '2007-09-23'
@@ -41,19 +45,19 @@ chairs:
       subject: IPv6 w.g. minutes from the Seoul IETF
       url: https://mailarchive.ietf.org/arch/msg/ipv6/X6sYfD8jBffiTzah_ZuH4CXgl-4/
   - kind: minutes
-    listed_in: 8
-    first: '2002-07-14'
+    listed_in: 10
+    first: '2001-12-09'
     last: '2005-07-31'
     examples:
-    - date: '2002-07-14'
-      subject: IETF 54 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/54/minutes/ipv6.htm
-    - date: '2003-07-13'
-      subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/IPV6.TXT
+    - date: '2001-12-09'
+      subject: IETF 52 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/52/141.htm
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/139.htm
     - date: '2005-07-31'
       subject: IETF 63 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/63/minutes/ipv6.txt
+      url: https://www.ietf.org/proceedings/63/ipv6.html
   - kind: proceedings
     listed_in: 17
     first: '2001-12-05'
@@ -77,21 +81,27 @@ chairs:
       not_after: '2001-12-05'
     end:
       certainty: between
-      not_before: '2002-07-14'
+      not_before: '2002-11-17'
       not_after: '2003-02-03'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2001-12-05)'
-    - 'End: listed as chair in meeting minutes (2002-07-14)'
+    - 'End: listed as chair in meeting minutes (2002-11-17)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2003-02-03)'
   evidence:
   - kind: minutes
-    listed_in: 1
-    first: '2002-07-14'
-    last: '2002-07-14'
+    listed_in: 4
+    first: '2001-12-09'
+    last: '2002-11-17'
     examples:
-    - date: '2002-07-14'
-      subject: IETF 54 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/54/minutes/ipv6.htm
+    - date: '2001-12-09'
+      subject: IETF 52 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/52/141.htm
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/139.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/139.htm
   - kind: proceedings
     listed_in: 4
     first: '2001-12-05'
@@ -158,7 +168,7 @@ chairs:
       url: https://www.ietf.org/proceedings/59/minutes/ipv6.htm
     - date: '2005-07-31'
       subject: IETF 63 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/63/minutes/ipv6.txt
+      url: https://www.ietf.org/proceedings/63/ipv6.html
   - kind: proceedings
     listed_in: 11
     first: '2003-10-24'
@@ -178,17 +188,27 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2002-03-17'
       not_after: '2002-06-25'
     end:
       certainty: between
       not_before: '2003-07-13'
       not_after: '2003-10-24'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2002-03-17)'
     - 'Start: listed as chair in a proceedings charter snapshot (2002-06-25)'
     - 'End: listed as chair in meeting minutes (2003-07-13)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2003-10-24)'
   evidence:
+  - kind: list message
+    date: '2003-09-12'
+    says: start
+    subject: New IPv6 co-chair
+    url: https://mailarchive.ietf.org/arch/msg/ipv6/Xo5AiVDtR4hRt0M0L7ZVI7ptP-4/
+    excerpt: With a new co-chair in place, Margaret Wasserman has now officially stepped down as co-chair
+      of the IPv6 WG and will become the new Area Advisor for the IPv6 WG in her role as Area Director
+      for the Internet Area.
   - kind: minutes
     listed_in: 3
     first: '2002-07-14'
@@ -196,13 +216,13 @@ chairs:
     examples:
     - date: '2002-07-14'
       subject: IETF 54 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/54/minutes/ipv6.htm
+      url: https://www.ietf.org/proceedings/54/145.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/139.htm
     - date: '2003-07-13'
       subject: IETF 57 minutes in the proceedings
       url: https://www.ietf.org/proceedings/57/minutes/IPV6.TXT
-    - date: '2003-07-13'
-      subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/ipv6.htm
   - kind: proceedings
     listed_in: 4
     first: '2002-06-25'
@@ -217,6 +237,10 @@ chairs:
     - date: '2003-06-25'
       subject: IETF 57 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/57/139.htm
+  - kind: minutes without them
+    date: '2002-03-17'
+    subject: IETF 53 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/53/139.htm
   - kind: minutes without them
     date: '2003-10-24'
     subject: IETF 58 proceedings charter, as last modified

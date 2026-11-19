@@ -2,6 +2,10 @@ acronym: poisson
 name: Process for Organization of Internet Standards ONgoing
 type: wg
 parent: gen
+areas:
+- area: gen
+  first: '1997-04-07'
+  last: '2001-10-26'
 state: conclude
 started: '1995-07-06'
 closed: '2001-10-26'
@@ -25,6 +29,17 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1999-09-01)'
   evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '1999-11-07'
+    last: '2001-08-05'
+    examples:
+    - date: '1999-11-07'
+      subject: IETF 46 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-46.html
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/51-42.htm
   - kind: proceedings
     listed_in: 5
     first: '1999-09-01'
@@ -44,16 +59,33 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '1995-04-03'
       not_after: '1997-04-07'
     end:
       certainty: between
-      not_before: '1997-04-07'
+      not_before: '1999-07-11'
       not_after: '1999-09-01'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 26 (1993-03-29)'
     - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
+    - 'End: listed as chair in meeting minutes (1999-07-11)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (1999-09-01)'
   evidence:
+  - kind: minutes
+    listed_in: 4
+    first: '1997-08-11'
+    last: '1999-07-11'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-38.htm
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-46.html
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-43.html
   - kind: proceedings
     listed_in: 6
     first: '1997-04-07'
@@ -72,20 +104,37 @@ chairs:
     date: '1999-09-01'
     subject: IETF 46 proceedings charter, as last modified
     url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-46.html
+  - kind: joined the IESG
+    after_meeting: '25'
+    after: '1992-11-16'
+    by_meeting: '26'
+    by: '1993-03-29'
 - person: 106911
   name: John Klensin
   status: confirmed
   periods:
   - start:
       certainty: between
-      not_before: '1995-07-06'
+      not_before: '1996-03-04'
       not_after: '1999-09-01'
     end:
       certainty: group-closed
       date: '2001-10-26'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 27 (1993-07-12)'
     - 'Start: listed as chair in a proceedings charter snapshot (1999-09-01)'
   evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '1999-11-07'
+    last: '2001-08-05'
+    examples:
+    - date: '1999-11-07'
+      subject: IETF 46 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-46.html
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/51-42.htm
   - kind: proceedings
     listed_in: 5
     first: '1999-09-01'
@@ -100,3 +149,8 @@ chairs:
     - date: '2001-07-31'
       subject: IETF 51 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/51/51-42.htm
+  - kind: joined the IESG
+    after_meeting: '26'
+    after: '1993-03-29'
+    by_meeting: '27'
+    by: '1993-07-12'

@@ -2,6 +2,10 @@ acronym: ianabis
 name: Update to IANA Considerations
 type: wg
 parent: gen
+areas:
+- area: gen
+  first: '2024-10-02'
+  last: '2026-11-18'
 state: active
 started: '2024-10-02'
 closed: null

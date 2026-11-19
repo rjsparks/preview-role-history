@@ -2,6 +2,10 @@ acronym: ndmp
 name: Network Data Management Protocol
 type: wg
 parent: app
+areas:
+- area: app
+  first: '2003-12-10'
+  last: '2003-12-10'
 state: conclude
 started: null
 closed: '2003-12-10'
@@ -47,4 +51,4 @@ chairs:
     examples:
     - date: '2002-03-17'
       subject: IETF 53 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/53/minutes/ndmp.htm
+      url: https://www.ietf.org/proceedings/53/133.htm

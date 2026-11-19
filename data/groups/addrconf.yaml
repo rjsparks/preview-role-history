@@ -2,6 +2,10 @@ acronym: addrconf
 name: Address Autoconfiguration
 type: wg
 parent: ipng
+areas:
+- area: ipng
+  first: '1994-12-05'
+  last: '1996-04-11'
 state: conclude
 started: '1994-10-30'
 closed: '1996-04-11'

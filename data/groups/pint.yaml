@@ -2,6 +2,10 @@ acronym: pint
 name: PSTN and Internet Internetworking
 type: wg
 parent: tsv
+areas:
+- area: tsv
+  first: '1997-08-11'
+  last: '2001-02-12'
 state: conclude
 started: '1997-07-18'
 closed: '2001-02-12'
@@ -26,8 +30,22 @@ chairs:
       certainty: group-closed
       date: '2001-02-12'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1997-08-11)'
+    - 'Start: listed as chair in meeting minutes (1997-08-11)'
   evidence:
+  - kind: minutes
+    listed_in: 7
+    first: '1997-08-11'
+    last: '1999-07-11'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-116.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-120.htm
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-131.html
   - kind: proceedings
     listed_in: 10
     first: '1997-08-11'
@@ -54,8 +72,22 @@ chairs:
       certainty: group-closed
       date: '2001-02-12'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1997-08-11)'
+    - 'Start: listed as chair in meeting minutes (1997-08-11)'
   evidence:
+  - kind: minutes
+    listed_in: 7
+    first: '1997-08-11'
+    last: '1999-07-11'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-116.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-120.htm
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-131.html
   - kind: proceedings
     listed_in: 10
     first: '1997-08-11'

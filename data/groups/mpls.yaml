@@ -2,6 +2,19 @@ acronym: mpls
 name: Multiprotocol Label Switching
 type: wg
 parent: rtg
+areas:
+- area: rtg
+  first: '1997-04-07'
+  last: '2000-11-17'
+- area: gen
+  first: '2001-03-14'
+  last: '2001-03-14'
+- area: sub
+  first: '2001-07-31'
+  last: '2003-05-19'
+- area: rtg
+  first: '2003-10-22'
+  last: '2026-11-18'
 state: active
 started: '1997-01-10'
 closed: null
@@ -203,16 +216,16 @@ chairs:
       subject: '[mpls] MPLS Minutes'
       url: https://mailarchive.ietf.org/arch/msg/mpls/iDFAA3SLg1SogV7ybbuFggACVaY/
   - kind: minutes
-    listed_in: 8
-    first: '2002-11-17'
+    listed_in: 24
+    first: '1997-08-11'
     last: '2008-03-09'
     examples:
-    - date: '2002-11-17'
-      subject: IETF 55 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/55/minutes/mpls.htm
-    - date: '2003-03-16'
-      subject: IETF 56 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/56/minutes/mpls.htm
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-88.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-90.htm
     - date: '2008-03-09'
       subject: IETF 71 minutes in the proceedings
       url: https://www.ietf.org/proceedings/71/minutes/mpls.txt
@@ -244,12 +257,27 @@ chairs:
       not_after: '1997-04-07'
     end:
       certainty: between
-      not_before: '1997-04-07'
+      not_before: '2001-12-09'
       not_after: '2002-02-11'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
+    - 'End: listed as chair in meeting minutes (2001-12-09)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2002-02-11)'
   evidence:
+  - kind: minutes
+    listed_in: 14
+    first: '1997-08-11'
+    last: '2001-12-09'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-88.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-90.htm
+    - date: '2001-12-09'
+      subject: IETF 52 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/52/217.htm
   - kind: proceedings
     listed_in: 15
     first: '1997-04-07'
@@ -274,12 +302,13 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '1997-01-10'
+      not_before: '2001-12-09'
       not_after: '2002-02-11'
     end:
       certainty: exact
       date: '2023-10-21'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2001-12-09)'
     - 'Start: listed as chair in a proceedings charter snapshot (2002-02-11)'
   evidence:
   - kind: WG Action
@@ -329,16 +358,16 @@ chairs:
       subject: '[mpls] Working group last call on draft-ietf-mpls-rfc3036bis-02.txt'
       url: https://mailarchive.ietf.org/arch/msg/mpls/wG1y6TbfXAlo1c57Zc6TVZTT2L8/
   - kind: minutes
-    listed_in: 10
-    first: '2002-07-14'
+    listed_in: 11
+    first: '2002-03-17'
     last: '2008-03-09'
     examples:
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/214.htm
     - date: '2002-07-14'
       subject: IETF 54 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/54/minutes/mpls.htm
-    - date: '2002-11-17'
-      subject: IETF 55 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/55/minutes/mpls.htm
+      url: https://www.ietf.org/proceedings/54/214.htm
     - date: '2008-03-09'
       subject: IETF 71 minutes in the proceedings
       url: https://www.ietf.org/proceedings/71/minutes/mpls.txt
@@ -356,6 +385,10 @@ chairs:
     - date: '2011-11-13'
       subject: IETF 82 proceedings charter
       url: https://www.ietf.org/proceedings/82/mpls.html
+  - kind: minutes without them
+    date: '2001-12-09'
+    subject: IETF 52 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/52/217.htm
   - kind: session requests
     meetings:
     - '67'
@@ -485,14 +518,14 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2008-03-09'
+      not_before: '2015-07-19'
       not_after: '2020-09-24'
     end:
       certainty: between
       not_before: '2020-10-09'
       not_after: '2023-10-24'
     notes:
-    - 'Start: not listed among the chairs in meeting minutes (2008-03-09)'
+    - 'Start: became an Area Director, first serving at IETF 75 (2009-07-26)'
     - 'Start: started a last call or adoption call on the group''s list (2020-09-24)'
     - 'End: started a last call or adoption call on the group''s list (2020-10-09)'
   - start:
@@ -535,10 +568,11 @@ chairs:
     - date: '2025-05-06'
       subject: '[mpls] Adoption poll for draft-jags-mpls-ps-mna-hdr'
       url: https://mailarchive.ietf.org/arch/msg/mpls/mGJVSAQCpWOt5ZT23eNuFMutKIM/
-  - kind: minutes without them
-    date: '2008-03-09'
-    subject: IETF 71 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/71/minutes/mpls.txt
+  - kind: joined the IESG
+    after_meeting: '74'
+    after: '2009-03-22'
+    by_meeting: '75'
+    by: '2009-07-26'
   - kind: shepherded
     documents:
     - draft-andersson-mpls-lsp-ping-registries-update

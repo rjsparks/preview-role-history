@@ -2,6 +2,13 @@ acronym: ipngwg
 name: IPNG
 type: wg
 parent: int
+areas:
+- area: ipng
+  first: '1994-12-05'
+  last: '1995-07-17'
+- area: int
+  first: '1997-04-07'
+  last: '2001-12-06'
 state: conclude
 started: '1994-10-30'
 closed: '2001-12-06'
@@ -19,15 +26,17 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '1991-11-18'
       not_after: '1994-12-05'
     end:
       certainty: between
       not_before: '1994-12-05'
-      not_after: '1997-10-28'
+      not_after: '1997-08-11'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 15 (1989-10-31)'
     - 'Start: listed as chair in a proceedings charter snapshot (1994-12-05)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (1997-10-28)'
+    - 'End: not listed among the chairs in meeting minutes (1997-08-11)'
   evidence:
   - kind: proceedings
     listed_in: 3
@@ -44,9 +53,14 @@ chairs:
       subject: IETF 33 proceedings charter
       url: https://www.ietf.org/proceedings/33/area.and.wg.reports/ipng/ipngwg/ipngwg-charter.txt
   - kind: minutes without them
-    date: '1997-10-28'
-    subject: IETF 40 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-48.htm
+    date: '1997-08-11'
+    subject: IETF 39 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/39/transit97aug-50.htm
+  - kind: joined the IESG
+    after_meeting: '14'
+    after: '1989-07-25'
+    by_meeting: '15'
+    by: '1989-10-31'
 - person: 2793
   name: Bob Hinden
   status: confirmed
@@ -72,6 +86,20 @@ chairs:
     - date: '1998-09-09'
       subject: (IPng 6418) Chicago IPng w.g. Minutes
       url: https://mailarchive.ietf.org/arch/msg/ipngwg/5LKYbQ79twlrLUDEtrHbczjLHEo/
+  - kind: minutes
+    listed_in: 13
+    first: '1997-08-11'
+    last: '2001-08-05'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-50.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-48.htm
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/51-52.htm
   - kind: proceedings
     listed_in: 14
     first: '1997-04-07'
@@ -111,6 +139,20 @@ chairs:
     - date: '2001-03-31'
       subject: interim meeting
       url: https://mailarchive.ietf.org/arch/msg/ipngwg/MUQ2zoTNg1-K8FAeXfGvIUy53mo/
+  - kind: minutes
+    listed_in: 13
+    first: '1997-08-11'
+    last: '2001-08-05'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-50.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-48.htm
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/51-52.htm
   - kind: proceedings
     listed_in: 17
     first: '1994-12-05'

@@ -2,6 +2,10 @@ acronym: odv
 name: Open Distance Vector IGP
 type: wg
 parent: rtg
+areas:
+- area: rtg
+  first: '1990-05-10'
+  last: '1990-05-10'
 state: conclude
 started: '1989-10-01'
 closed: '1990-05-10'

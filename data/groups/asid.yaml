@@ -2,6 +2,10 @@ acronym: asid
 name: Access, Searching and Indexing of Directories
 type: wg
 parent: app
+areas:
+- area: app
+  first: '1994-12-05'
+  last: '2011-12-09'
 state: conclude
 started: '1994-05-30'
 closed: '1999-02-26'
@@ -28,6 +32,17 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-12-05)'
   evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '1996-06-24'
+    last: '1998-12-07'
+    examples:
+    - date: '1996-06-24'
+      subject: IETF 36 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/36/report/area-applications-96jun.txt
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-09.html
   - kind: proceedings
     listed_in: 9
     first: '1994-12-05'

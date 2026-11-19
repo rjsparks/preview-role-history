@@ -2,6 +2,10 @@ acronym: dcrouting
 name: Data Center Routing
 type: wg
 parent: rtg
+areas:
+- area: rtg
+  first: '2017-10-05'
+  last: '2018-02-05'
 state: bof-conc
 started: '2017-10-05'
 closed: '2018-02-05'

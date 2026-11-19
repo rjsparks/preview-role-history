@@ -2,6 +2,10 @@ acronym: qualdocs
 name: High Quality Document Transfer
 type: wg
 parent: app
+areas:
+- area: app
+  first: '2003-12-10'
+  last: '2003-12-10'
 state: conclude
 started: null
 closed: '2003-12-10'
@@ -20,7 +24,18 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-12-10'
+      date: '1999-11-07'
     end:
       certainty: group-closed
       date: '2003-12-10'
+    notes:
+    - 'Start: listed as chair in meeting minutes (1999-11-07)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '1999-11-07'
+    last: '1999-11-07'
+    examples:
+    - date: '1999-11-07'
+      subject: IETF 46 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-43.html

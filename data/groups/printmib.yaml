@@ -2,6 +2,13 @@ acronym: printmib
 name: Printer MIB
 type: wg
 parent: app
+areas:
+- area: mgt
+  first: '1994-12-05'
+  last: '1994-12-05'
+- area: app
+  first: '1997-04-07'
+  last: '2000-04-17'
 state: conclude
 started: '1994-01-19'
 closed: '2000-04-17'
@@ -25,6 +32,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
   evidence:
+  - kind: minutes
+    listed_in: 3
+    first: '1998-12-07'
+    last: '1999-07-11'
+    examples:
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-30.html
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-30.html
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-29.html
   - kind: proceedings
     listed_in: 5
     first: '1997-04-07'

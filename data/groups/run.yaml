@@ -2,6 +2,10 @@ acronym: run
 name: Responsible Use of the Network
 type: wg
 parent: usv
+areas:
+- area: usv
+  first: '1994-12-05'
+  last: '2002-03-22'
 state: conclude
 started: '1994-09-22'
 closed: '2002-03-22'
@@ -20,11 +24,11 @@ chairs:
       not_after: '1994-12-05'
     end:
       certainty: between
-      not_before: '1995-04-12'
+      not_before: '1999-07-11'
       not_after: '2002-03-22'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-12-05)'
-    - 'End: posted an agenda, minutes or interim notice to the group''s list (1995-04-12)'
+    - 'End: listed as chair in meeting minutes (1999-07-11)'
     - 'End: the group closed (2002-03-22)'
   evidence:
   - kind: chair activity
@@ -38,6 +42,20 @@ chairs:
     - date: '1995-04-12'
       subject: minutes of Danvers meeting
       url: https://mailarchive.ietf.org/arch/msg/run/mdVREONB1bVgZe1pZ4AhcbXAWE8/
+  - kind: minutes
+    listed_in: 6
+    first: '1997-08-11'
+    last: '1999-07-11'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-127.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-134.htm
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-144.html
   - kind: proceedings
     listed_in: 10
     first: '1994-12-05'
@@ -78,10 +96,16 @@ chairs:
       subject: Revised agenda for 33rd IETF
       url: https://mailarchive.ietf.org/arch/msg/run/5Mgk7pmOiVIJSFRyTkJSnRSpOZM/
   - kind: minutes
-    listed_in: 1
-    first: '1999-11-12'
+    listed_in: 8
+    first: '1997-08-11'
     last: '1999-11-12'
     examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-127.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-134.htm
     - date: '1999-11-12'
       subject: Draft Minutes
       url: https://mailarchive.ietf.org/arch/msg/run/ZjmwDMS64XvS3Uz6tn2UHOqlTYI/

@@ -2,6 +2,10 @@ acronym: netrqmts
 name: IETF Meeting Network Requirements
 type: wg
 parent: gen
+areas:
+- area: gen
+  first: '2019-06-11'
+  last: '2019-10-09'
 state: bof-conc
 started: '2019-06-11'
 closed: '2019-10-09'
@@ -38,13 +42,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2019-06-11'
+      certainty: between
+      not_before: '2013-07-28'
+      not_after: '2019-06-11'
     end:
       certainty: between
       not_before: '2019-07-30'
       not_after: '2019-10-09'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 69 (2007-07-22)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2019-07-30)'
     - 'End: the group closed (2019-10-09)'
   evidence:
@@ -60,3 +66,8 @@ chairs:
     meeting: '105'
     date: '2019-07-20'
     url: https://datatracker.ietf.org/meeting/105/session/netrqmts/
+  - kind: joined the IESG
+    after_meeting: '68'
+    after: '2007-03-18'
+    by_meeting: '69'
+    by: '2007-07-22'

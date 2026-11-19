@@ -2,6 +2,10 @@ acronym: laser
 name: LDAP Schema for E-mail Routing
 type: wg
 parent: app
+areas:
+- area: app
+  first: '2026-11-18'
+  last: '2026-11-18'
 state: conclude
 started: null
 closed: null

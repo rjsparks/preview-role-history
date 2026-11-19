@@ -2,6 +2,10 @@ acronym: lsvr
 name: Link State Vector Routing
 type: wg
 parent: rtg
+areas:
+- area: rtg
+  first: '2018-01-25'
+  last: '2026-11-18'
 state: active
 started: '2018-01-25'
 closed: null

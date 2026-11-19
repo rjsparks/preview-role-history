@@ -2,6 +2,10 @@ acronym: ippt
 name: IP Path Tracing
 type: wg
 parent: ops
+areas:
+- area: ops
+  first: '2003-12-10'
+  last: '2003-12-10'
 state: conclude
 started: null
 closed: '2003-12-10'
@@ -22,8 +26,17 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2003-12-10'
+      certainty: between
+      not_before: '1990-12-03'
+      not_after: '2003-12-10'
     end:
       certainty: group-closed
       date: '2003-12-10'
+    notes:
+    - 'Start: became an Area Director, first serving at IETF 15 (1989-10-31)'
+  evidence:
+  - kind: joined the IESG
+    after_meeting: '14'
+    after: '1989-07-25'
+    by_meeting: '15'
+    by: '1989-10-31'

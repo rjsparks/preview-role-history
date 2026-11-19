@@ -2,6 +2,10 @@ acronym: rip
 name: Routing Information Protocol
 type: wg
 parent: rtg
+areas:
+- area: rtg
+  first: '1995-04-03'
+  last: '2003-06-17'
 state: conclude
 started: '1995-02-01'
 closed: '2003-06-17'
@@ -25,6 +29,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1995-04-03)'
   evidence:
+  - kind: minutes
+    listed_in: 5
+    first: '1997-04-07'
+    last: '2000-03-26'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr94.htm
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-98.html
+    - date: '2000-03-26'
+      subject: IETF 47 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-102.html
   - kind: proceedings
     listed_in: 13
     first: '1995-04-03'

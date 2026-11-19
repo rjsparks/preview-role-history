@@ -2,6 +2,13 @@ acronym: bmwg
 name: Benchmarking Methodology
 type: wg
 parent: ops
+areas:
+- area: ops-old
+  first: '1994-12-05'
+  last: '1995-12-04'
+- area: ops
+  first: '1997-04-07'
+  last: '2026-11-04'
 state: conclude
 started: '1989-10-01'
 closed: '2026-11-04'
@@ -20,12 +27,24 @@ chairs:
       not_after: '1995-07-17'
     end:
       certainty: between
-      not_before: '1995-07-17'
+      not_before: '1997-12-08'
       not_after: '2003-03-10'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1995-07-17)'
+    - 'End: listed as chair in meeting minutes (1997-12-08)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2003-03-10)'
   evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '1997-08-11'
+    last: '1997-12-08'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-59.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-60.htm
   - kind: proceedings
     listed_in: 5
     first: '1995-07-17'
@@ -115,16 +134,16 @@ chairs:
       subject: 'WG Last Call: ATM Benchmarking Terminology'
       url: https://mailarchive.ietf.org/arch/msg/bmwg/bQHYjP3UtE-QHbLHIxPLUyd0m9Y/
   - kind: minutes
-    listed_in: 15
-    first: '1998-09-21'
+    listed_in: 30
+    first: '1997-08-11'
     last: '2006-03-19'
     examples:
-    - date: '1998-09-21'
-      subject: BMWG minutes of the 42nd IETF (Chicago)
-      url: https://mailarchive.ietf.org/arch/msg/bmwg/2k6c245clw9oLvLD1CFkXN46CEM/
-    - date: '1999-04-08'
-      subject: BMWG minutes of the 44th IETF (Minneapolis)
-      url: https://mailarchive.ietf.org/arch/msg/bmwg/YjUwwcY4sRIsqPVSLBTHocWFdfU/
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-59.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-60.htm
     - date: '2006-03-19'
       subject: IETF 65 minutes in the proceedings
       url: https://www.ietf.org/proceedings/65/minutes/bmwg.html
@@ -216,10 +235,10 @@ chairs:
     examples:
     - date: '2004-08-01'
       subject: IETF 60 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/60/minutes/bmwg.htm
+      url: https://www.ietf.org/proceedings/60/162.htm
     - date: '2004-11-07'
       subject: IETF 61 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/61/minutes/bmwg.html
+      url: https://www.ietf.org/proceedings/61/bmwg.html
     - date: '2015-03-22'
       subject: IETF 92 minutes in the proceedings
       url: https://www.ietf.org/proceedings/92/minutes/minutes-92-bmwg.txt
@@ -361,7 +380,7 @@ chairs:
       date: '2026-11-04'
   evidence:
   - kind: list message
-    date: '2023-08-01'
+    date: '2023-07-22'
     says: start
     subject: '[bmwg] Minutes from IETF 117 and welcome our new co-chair'
     url: https://mailarchive.ietf.org/arch/msg/bmwg/yDexoTE-vUNY8YKacb6TRmI1V98/

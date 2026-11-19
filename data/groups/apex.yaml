@@ -2,6 +2,10 @@ acronym: apex
 name: Application Exchange
 type: wg
 parent: app
+areas:
+- area: app
+  first: '2001-03-14'
+  last: '2011-12-09'
 state: conclude
 started: '2001-01-18'
 closed: '2003-12-19'
@@ -29,6 +33,20 @@ chairs:
     date: '2001-03-12'
     subject: 'WG ACTION: Application Exchange (apex)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/cVUtgG1lVeoTnsvNYyoa9Wq8Ozg/
+  - kind: minutes
+    listed_in: 5
+    first: '2001-03-18'
+    last: '2003-03-16'
+    examples:
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-10.htm
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/allcharters.html
+    - date: '2003-03-16'
+      subject: IETF 56 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/56/allcharters.html
   - kind: proceedings
     listed_in: 3
     first: '2001-03-14'

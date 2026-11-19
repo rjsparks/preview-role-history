@@ -2,6 +2,10 @@ acronym: dnssec
 name: Domain Name System Security
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '1994-12-05'
+  last: '1999-12-20'
 state: conclude
 started: '1994-02-17'
 closed: '1999-12-20'
@@ -25,6 +29,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
   evidence:
+  - kind: minutes
+    listed_in: 5
+    first: '1997-04-07'
+    last: '1999-07-11'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtft102.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-104.htm
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-106.html
   - kind: proceedings
     listed_in: 10
     first: '1994-03-28'

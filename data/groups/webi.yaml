@@ -2,6 +2,10 @@ acronym: webi
 name: Web Intermediaries
 type: wg
 parent: app
+areas:
+- area: app
+  first: '2001-03-14'
+  last: '2002-06-03'
 state: conclude
 started: '2000-11-13'
 closed: '2002-06-03'
@@ -30,13 +34,19 @@ chairs:
     subject: 'WG ACTION: Web Intermediaries (webi)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/7dm5iaIdLnW-hcuBPBk2Dg16Ck8/
   - kind: minutes
-    listed_in: 1
-    first: '2001-08-05'
-    last: '2001-08-05'
+    listed_in: 3
+    first: '2001-03-18'
+    last: '2002-03-17'
     examples:
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-35.htm
     - date: '2001-08-05'
       subject: IETF 51 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/51/minutes/WEBI.HTM
+      url: https://www.ietf.org/proceedings/51/51-36.htm
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/130.htm
   - kind: proceedings
     listed_in: 4
     first: '2001-03-14'
@@ -66,13 +76,19 @@ chairs:
     - 'Start: listed as chair in a proceedings charter snapshot (2001-03-14)'
   evidence:
   - kind: minutes
-    listed_in: 1
-    first: '2001-08-05'
-    last: '2001-08-05'
+    listed_in: 3
+    first: '2001-03-18'
+    last: '2002-03-17'
     examples:
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-35.htm
     - date: '2001-08-05'
       subject: IETF 51 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/51/minutes/WEBI.HTM
+      url: https://www.ietf.org/proceedings/51/51-36.htm
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/130.htm
   - kind: proceedings
     listed_in: 4
     first: '2001-03-14'

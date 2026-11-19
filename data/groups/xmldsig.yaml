@@ -2,6 +2,10 @@ acronym: xmldsig
 name: XML Digital Signatures
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '1999-06-09'
+  last: '2004-01-15'
 state: conclude
 started: '1999-05-03'
 closed: '2004-01-15'
@@ -20,17 +24,31 @@ chairs:
       not_after: '1999-05-25'
     end:
       certainty: between
-      not_before: '1999-05-25'
+      not_before: '2000-07-31'
       not_after: '2004-01-15'
     notes:
     - 'Start: named as chair in the WG Action announcement (1999-05-25)'
-    - 'End: named as chair in the WG Action announcement (1999-05-25)'
+    - 'End: listed as chair in meeting minutes (2000-07-31)'
     - 'End: the group closed (2004-01-15)'
   evidence:
   - kind: WG Action
     date: '1999-05-25'
     subject: 'WG ACTION: XML Digital Signatures (xmldsig)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/P370YqJazq1jyDEf4uXQDsfA7C0/
+  - kind: minutes
+    listed_in: 4
+    first: '1999-07-11'
+    last: '2000-07-31'
+    examples:
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-116.html
+    - date: '1999-11-07'
+      subject: IETF 46 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-126.html
+    - date: '2000-07-31'
+      subject: IETF 48 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/48/00july-119.htm
   - kind: proceedings
     listed_in: 9
     first: '1999-06-09'
@@ -63,6 +81,20 @@ chairs:
     date: '1999-05-25'
     subject: 'WG ACTION: XML Digital Signatures (xmldsig)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/P370YqJazq1jyDEf4uXQDsfA7C0/
+  - kind: minutes
+    listed_in: 4
+    first: '1999-07-11'
+    last: '2000-07-31'
+    examples:
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-116.html
+    - date: '1999-11-07'
+      subject: IETF 46 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-126.html
+    - date: '2000-07-31'
+      subject: IETF 48 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/48/00july-119.htm
   - kind: proceedings
     listed_in: 11
     first: '1999-06-09'

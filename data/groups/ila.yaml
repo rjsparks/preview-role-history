@@ -2,6 +2,10 @@ acronym: ila
 name: Identifier Locator Addressing
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2018-02-05'
+  last: '2018-06-05'
 state: bof-conc
 started: '2018-02-05'
 closed: '2018-06-05'

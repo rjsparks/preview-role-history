@@ -2,6 +2,10 @@ acronym: netlmm
 name: Network-based Localized Mobility Management
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2005-03-06'
+  last: '2010-10-05'
 state: conclude
 started: '2005-05-30'
 closed: '2010-10-05'

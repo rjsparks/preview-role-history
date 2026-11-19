@@ -2,6 +2,10 @@ acronym: karp
 name: Keying and Authentication for Routing Protocols
 type: wg
 parent: rtg
+areas:
+- area: rtg
+  first: '2009-11-08'
+  last: '2014-05-30'
 state: conclude
 started: '2010-01-29'
 closed: '2014-05-30'
@@ -22,12 +26,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2009-11-08'
+      certainty: between
+      not_before: '1998-03-30'
+      not_after: '2009-11-08'
     end:
       certainty: group-closed
       date: '2014-05-30'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 29 (1994-03-28)'
     - 'Start: listed as chair in meeting minutes (2009-11-08)'
   evidence:
   - kind: WG Action
@@ -76,6 +82,11 @@ chairs:
     - date: '2014-05-30'
       subject: IETF 90 proceedings charter
       url: https://www.ietf.org/proceedings/90/karp.html
+  - kind: joined the IESG
+    after_meeting: '28'
+    after: '1993-11-01'
+    by_meeting: '29'
+    by: '1994-03-28'
   - kind: session requests
     meetings:
     - '78'

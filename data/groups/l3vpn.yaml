@@ -2,6 +2,13 @@ acronym: l3vpn
 name: Layer 3 Virtual Private Networks
 type: wg
 parent: rtg
+areas:
+- area: int
+  first: '2003-07-09'
+  last: '2007-08-15'
+- area: rtg
+  first: '2009-03-22'
+  last: '2014-10-22'
 state: conclude
 started: '2003-06-09'
 closed: '2014-10-22'
@@ -46,7 +53,7 @@ chairs:
     examples:
     - date: '2004-02-29'
       subject: IETF 59 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/59/minutes/l3vpn.htm
+      url: https://www.ietf.org/proceedings/59/145.htm
     - date: '2005-07-31'
       subject: IETF 63 L3VPN Minutes
       url: https://mailarchive.ietf.org/arch/msg/l3vpn/W6hlB5CB4Ha6lNGVZZ_HSm5DEQw/
@@ -80,13 +87,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '1991-11-18'
       not_after: '2003-07-09'
     end:
       certainty: between
       not_before: '2006-03-19'
       not_after: '2006-03-30'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 15 (1989-10-31)'
     - 'Start: listed as chair in a proceedings charter snapshot (2003-07-09)'
     - 'End: requested the group''s session for IETF 65 (2006-03-19)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2006-03-30)'
@@ -116,7 +125,7 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/l3vpn/3bI6H5W-8m-vEzKpWgUaPX9TIMk/
     - date: '2004-02-29'
       subject: IETF 59 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/59/minutes/l3vpn.htm
+      url: https://www.ietf.org/proceedings/59/145.htm
     - date: '2006-03-19'
       subject: IETF 65 minutes in the proceedings
       url: https://www.ietf.org/proceedings/65/minutes/l3vpn.txt
@@ -138,6 +147,11 @@ chairs:
     date: '2006-03-30'
     subject: IETF 66 proceedings charter, as last modified
     url: https://www.ietf.org/proceedings/66/l3vpn.html
+  - kind: joined the IESG
+    after_meeting: '14'
+    after: '1989-07-25'
+    by_meeting: '15'
+    by: '1989-10-31'
   - kind: joined the IESG
     after_meeting: '65'
     after: '2006-03-19'
@@ -260,7 +274,7 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/l3vpn/3bI6H5W-8m-vEzKpWgUaPX9TIMk/
     - date: '2004-02-29'
       subject: IETF 59 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/59/minutes/l3vpn.htm
+      url: https://www.ietf.org/proceedings/59/145.htm
     - date: '2008-03-31'
       subject: Philadelphia meeting minutes
       url: https://mailarchive.ietf.org/arch/msg/l3vpn/kAYtpgvPa5d8h9Jn3hIUB10vf-k/

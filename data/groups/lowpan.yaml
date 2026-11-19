@@ -2,6 +2,10 @@ acronym: lowpan
 name: IPv6 over IEEE 802.15.4
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2005-01-25'
+  last: '2011-02-25'
 state: bof-conc
 started: '2005-01-19'
 closed: '2011-02-25'
@@ -17,11 +21,18 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2005-01-19'
+      not_before: '2005-07-31'
       not_after: '2011-02-25'
     end:
       certainty: between
       not_before: '2011-02-25'
       not_after: '2011-02-25'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 38 (1997-04-07)'
     - 'End: the group closed (2011-02-25)'
+  evidence:
+  - kind: joined the IESG
+    after_meeting: '37'
+    after: '1996-12-09'
+    by_meeting: '38'
+    by: '1997-04-07'

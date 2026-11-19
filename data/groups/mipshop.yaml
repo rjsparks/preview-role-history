@@ -2,6 +2,10 @@ acronym: mipshop
 name: 'Mobility for IP: Performance, Signaling and Handoff Optimization'
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2003-10-20'
+  last: '2010-09-07'
 state: conclude
 started: '2003-06-10'
 closed: '2010-09-07'
@@ -31,7 +35,7 @@ chairs:
     - 'End: not listed among the chairs in a proceedings charter snapshot (2005-09-28)'
   evidence:
   - kind: minutes
-    listed_in: 3
+    listed_in: 2
     first: '2003-07-13'
     last: '2003-07-13'
     examples:
@@ -41,10 +45,7 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/mipshop/Merbz3XW_Hy_Tl5sNcla-Hj0UxE/
     - date: '2003-07-13'
       subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/mipshop.htm
-    - date: '2003-07-13'
-      subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/mipshop.txt
+      url: https://www.ietf.org/proceedings/57/157.htm
   - kind: minutes without them
     date: '2005-09-28'
     subject: IETF 64 proceedings charter, as last modified
@@ -230,7 +231,7 @@ chairs:
       subject: '[Mipshop] working group last call on HMIPv6: draft-ietf-mipshop-hmipv6-00.txt'
       url: https://mailarchive.ietf.org/arch/msg/mipshop/8bBmN5AdxvlEH1hsLFb1zXWUOC8/
   - kind: minutes
-    listed_in: 4
+    listed_in: 3
     first: '2003-07-13'
     last: '2003-11-09'
     examples:
@@ -240,7 +241,7 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/mipshop/Merbz3XW_Hy_Tl5sNcla-Hj0UxE/
     - date: '2003-07-13'
       subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/mipshop.htm
+      url: https://www.ietf.org/proceedings/57/157.htm
     - date: '2003-11-09'
       subject: IETF 58 minutes in the proceedings
       url: https://www.ietf.org/proceedings/58/minutes/mipshop.htm

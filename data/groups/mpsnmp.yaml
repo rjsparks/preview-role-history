@@ -2,6 +2,10 @@ acronym: mpsnmp
 name: SNMP Over a Multi-Protocol Internet
 type: wg
 parent: mgt
+areas:
+- area: mgt
+  first: '1993-03-15'
+  last: '1993-03-15'
 state: conclude
 started: '1992-04-02'
 closed: '1993-03-15'

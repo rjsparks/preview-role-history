@@ -2,6 +2,10 @@ acronym: lemonade
 name: Enhancements to Internet email to Support Diverse Service Environments
 type: wg
 parent: app
+areas:
+- area: app
+  first: '2003-06-20'
+  last: '2010-02-11'
 state: conclude
 started: '2002-12-06'
 closed: '2010-02-11'
@@ -57,7 +61,7 @@ chairs:
     examples:
     - date: '2002-07-14'
       subject: IETF 54 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/54/minutes/lemonade.htm
+      url: https://www.ietf.org/proceedings/54/131.htm
     - date: '2006-06-01'
       subject: '[lemonade] Draft Minutes, Interim Day 1'
       url: https://mailarchive.ietf.org/arch/msg/lemonade/-TgBFln4YY0cXI-YtK9PMUvEQs8/
@@ -88,32 +92,26 @@ chairs:
       not_after: '2007-07-22'
     end:
       certainty: between
-      not_before: '2008-07-27'
-      not_after: '2009-04-03'
+      not_before: '2007-12-02'
+      not_after: '2008-03-17'
     notes:
     - 'Start: not listed among the chairs in meeting minutes (2006-07-09)'
     - 'Start: requested the group''s session for IETF 69 (2007-07-22)'
-    - 'End: requested the group''s session for IETF 72 (2008-07-27)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (2009-04-03)'
+    - 'End: requested the group''s session for IETF 70 (2007-12-02)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2008-03-17)'
   evidence:
   - kind: minutes without them
     date: '2006-07-09'
     subject: IETF 66 minutes in the proceedings
     url: https://www.ietf.org/proceedings/66/minutes/lemonade.txt
   - kind: minutes without them
-    date: '2009-04-03'
-    subject: IETF 74 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/74/lemonade.html
-  - kind: joined the IESG
-    after_meeting: '74'
-    after: '2009-03-22'
-    by_meeting: '75'
-    by: '2009-07-26'
+    date: '2008-03-17'
+    subject: IETF 71 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/71/lemonade.html
   - kind: session requests
     meetings:
     - '69'
     - '70'
-    - '72'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
 - person: 104196
   name: Eric Burger
@@ -149,13 +147,13 @@ chairs:
       subject: '[lemonade] WGLC CATENATE'
       url: https://mailarchive.ietf.org/arch/msg/lemonade/TuZrkdPiUNPaZGIuFPVmU7zi05Q/
   - kind: minutes
-    listed_in: 9
+    listed_in: 8
     first: '2002-07-14'
     last: '2007-08-08'
     examples:
     - date: '2002-07-14'
       subject: IETF 54 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/54/minutes/lemonade.htm
+      url: https://www.ietf.org/proceedings/54/131.htm
     - date: '2003-07-13'
       subject: IETF 57 minutes in the proceedings
       url: https://www.ietf.org/proceedings/57/minutes/lemonade.htm

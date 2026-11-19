@@ -2,6 +2,10 @@ acronym: vrrp
 name: Virtual Router Redundancy Protocol
 type: wg
 parent: rtg
+areas:
+- area: rtg
+  first: '1997-08-11'
+  last: '2011-06-14'
 state: conclude
 started: '1997-06-02'
 closed: '2011-06-14'
@@ -51,13 +55,13 @@ chairs:
     examples:
     - date: '2003-11-09'
       subject: IETF 58 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/58/minutes/vrrp.htm
+      url: https://www.ietf.org/proceedings/58/193.htm
     - date: '2003-11-20'
       subject: '[VRRP] Minutes from IETF58th'
       url: https://mailarchive.ietf.org/arch/msg/vrrp/RCxqAzmKbqb9DT45O7gIQz8JwR4/
     - date: '2004-08-01'
       subject: IETF 60 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/60/minutes/vrrp.htm
+      url: https://www.ietf.org/proceedings/60/203.htm
   - kind: proceedings
     listed_in: 14
     first: '2003-07-13'
@@ -77,14 +81,16 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '1994-03-28'
       not_after: '1997-08-11'
     end:
       certainty: between
       not_before: '2002-08-13'
       not_after: '2003-10-15'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1997-08-11)'
+    - 'Start: became an Area Director, first serving at IETF 14 (1989-07-25)'
+    - 'Start: listed as chair in meeting minutes (1997-08-11)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2002-08-13)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2003-10-15)'
   evidence:
@@ -97,10 +103,16 @@ chairs:
       subject: '[VRRP] VRRP Working Group Minutes'
       url: https://mailarchive.ietf.org/arch/msg/vrrp/XJ9r0a5EPxc43TplTSmzAWmcFNQ/
   - kind: minutes
-    listed_in: 1
-    first: '2002-08-13'
+    listed_in: 13
+    first: '1997-08-11'
     last: '2002-08-13'
     examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-97.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-99.htm
     - date: '2002-08-13'
       subject: '[VRRP] VRRP Working Group Minutes'
       url: https://mailarchive.ietf.org/arch/msg/vrrp/XJ9r0a5EPxc43TplTSmzAWmcFNQ/
@@ -122,6 +134,11 @@ chairs:
     date: '2003-10-15'
     subject: IETF 58 proceedings charter, as last modified
     url: https://www.ietf.org/proceedings/58/193.htm
+  - kind: joined the IESG
+    after_meeting: null
+    after: null
+    by_meeting: '14'
+    by: '1989-07-25'
 - person: 105893
   name: Mukesh Gupta
   status: confirmed
@@ -175,7 +192,7 @@ chairs:
       url: https://www.ietf.org/proceedings/56/minutes/vrrp.htm
     - date: '2004-08-01'
       subject: IETF 60 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/60/minutes/vrrp.htm
+      url: https://www.ietf.org/proceedings/60/203.htm
   - kind: proceedings
     listed_in: 15
     first: '2003-01-14'

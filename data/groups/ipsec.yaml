@@ -2,6 +2,10 @@ acronym: ipsec
 name: IP Security Protocol
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '1994-12-05'
+  last: '2005-04-29'
 state: conclude
 started: '1992-11-25'
 closed: '2005-04-29'
@@ -17,12 +21,13 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '1992-11-25'
+      not_before: '1999-11-07'
       not_after: '2001-03-14'
     end:
       certainty: group-closed
       date: '2005-04-29'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (1999-11-07)'
     - 'Start: listed as chair in a proceedings charter snapshot (2001-03-14)'
   evidence:
   - kind: chair activity
@@ -42,6 +47,20 @@ chairs:
     - date: '2003-06-03'
       subject: Working Group Last Call IKEv2
       url: https://mailarchive.ietf.org/arch/msg/ipsec/tUipNWI3tkDcp_GROzfYSucn5bA/
+  - kind: minutes
+    listed_in: 6
+    first: '2001-03-18'
+    last: '2002-11-17'
+    examples:
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-110.htm
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/51-105.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/190.htm
   - kind: proceedings
     listed_in: 10
     first: '2001-03-14'
@@ -56,6 +75,10 @@ chairs:
     - date: '2004-06-07'
       subject: IETF 60 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/60/209.htm
+  - kind: minutes without them
+    date: '1999-11-07'
+    subject: IETF 46 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-116.html
 - person: 4837
   name: Theodore Ts'o
   status: confirmed
@@ -90,6 +113,20 @@ chairs:
     - date: '2000-07-08'
       subject: 'WG Last call: draft-jenkins-ipsec-rekeying-06.txt'
       url: https://mailarchive.ietf.org/arch/msg/ipsec/58LZA-tFRP6x67Wk8EhDGTCUqWw/
+  - kind: minutes
+    listed_in: 17
+    first: '1997-08-11'
+    last: '2002-11-17'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-103.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-105.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/190.htm
   - kind: proceedings
     listed_in: 21
     first: '1997-08-11'
@@ -114,10 +151,10 @@ chairs:
     end:
       certainty: between
       not_before: '1994-03-28'
-      not_after: '1997-11-01'
+      not_after: '1997-08-11'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (1997-11-01)'
+    - 'End: not listed among the chairs in meeting minutes (1997-08-11)'
   evidence:
   - kind: proceedings
     listed_in: 2
@@ -131,9 +168,9 @@ chairs:
       subject: IETF 31 proceedings charter
       url: https://www.ietf.org/proceedings/31/area.and.wg.reports/sec/ipsec/ipsec-charter.txt
   - kind: minutes without them
-    date: '1997-11-01'
-    subject: IETF 40 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-105.htm
+    date: '1997-08-11'
+    subject: IETF 39 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/39/transit97aug-103.htm
 - person: 108162
   name: Robert Moskowitz
   status: unconfirmed
@@ -143,12 +180,27 @@ chairs:
       not_after: '1997-08-11'
     end:
       certainty: between
-      not_before: '1997-08-11'
+      not_before: '1999-11-07'
       not_after: '2001-03-14'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1997-08-11)'
+    - 'Start: listed as chair in meeting minutes (1997-08-11)'
+    - 'End: listed as chair in meeting minutes (1999-11-07)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2001-03-14)'
   evidence:
+  - kind: minutes
+    listed_in: 8
+    first: '1997-08-11'
+    last: '1999-11-07'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-103.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-105.htm
+    - date: '1999-11-07'
+      subject: IETF 46 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-116.html
   - kind: proceedings
     listed_in: 8
     first: '1997-08-11'
@@ -177,11 +229,11 @@ chairs:
     end:
       certainty: between
       not_before: '1996-12-03'
-      not_after: '1997-11-01'
+      not_after: '1997-08-11'
     notes:
     - 'Start: announced on the group''s list (1995-03-30)'
     - 'End: started a last call or adoption call on the group''s list (1996-12-03)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (1997-11-01)'
+    - 'End: not listed among the chairs in meeting minutes (1997-08-11)'
   evidence:
   - kind: list message
     date: '1995-03-30'
@@ -224,6 +276,6 @@ chairs:
       subject: IETF 38 proceedings charter
       url: https://www.ietf.org/proceedings/38/97apr-final/xrtft103.htm
   - kind: minutes without them
-    date: '1997-11-01'
-    subject: IETF 40 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-105.htm
+    date: '1997-08-11'
+    subject: IETF 39 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/39/transit97aug-103.htm

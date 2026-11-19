@@ -2,6 +2,13 @@ acronym: moq
 name: Media Over QUIC
 type: wg
 parent: wit
+areas:
+- area: art
+  first: '2022-02-10'
+  last: '2023-01-30'
+- area: wit
+  first: '2024-01-17'
+  last: '2026-11-18'
 state: active
 started: '2022-02-10'
 closed: null
@@ -134,12 +141,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2025-03-20'
-      not_after: '2025-03-31'
+      not_after: '2025-08-04'
     end:
       certainty: evidence-only
       not_before: '2026-10-26'
     notes:
-    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2025-03-31)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2025-08-04)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2026-10-26)'
   evidence:
   - kind: WG Review

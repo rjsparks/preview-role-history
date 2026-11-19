@@ -2,6 +2,13 @@ acronym: l2tpext
 name: Layer Two Tunneling Protocol Extensions
 type: wg
 parent: rtg
+areas:
+- area: int
+  first: '1999-10-22'
+  last: '2013-03-13'
+- area: rtg
+  first: '2015-03-26'
+  last: '2018-05-17'
 state: conclude
 started: '1999-10-04'
 closed: '2018-05-17'
@@ -52,13 +59,19 @@ chairs:
       subject: '[L2tpext] WG Last Call'
       url: https://mailarchive.ietf.org/arch/msg/l2tpext/Niv77ensMPAWzlQz6F8gDvwmY_8/
   - kind: minutes
-    listed_in: 1
-    first: '2002-07-19'
-    last: '2002-07-19'
+    listed_in: 11
+    first: '1999-11-07'
+    last: '2002-11-17'
     examples:
-    - date: '2002-07-19'
-      subject: '[L2tpext] Draft minutes from l2tpext'
-      url: https://mailarchive.ietf.org/arch/msg/l2tpext/1TXhWCreHdWFT8dYi3j5qr2oQ-w/
+    - date: '1999-11-07'
+      subject: IETF 46 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-60.html
+    - date: '2000-03-26'
+      subject: IETF 47 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-56.html
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/145.htm
   - kind: proceedings
     listed_in: 16
     first: '1999-10-22'

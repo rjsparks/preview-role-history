@@ -2,6 +2,16 @@ acronym: masque
 name: Multiplexed Application Substrate over QUIC Encryption
 type: wg
 parent: wit
+areas:
+- area: int
+  first: '2020-02-13'
+  last: '2020-04-22'
+- area: tsv
+  first: '2020-05-11'
+  last: '2023-11-14'
+- area: wit
+  first: '2024-01-17'
+  last: '2026-11-18'
 state: active
 started: '2020-02-13'
 closed: null

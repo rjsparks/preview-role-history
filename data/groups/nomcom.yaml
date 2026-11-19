@@ -2,6 +2,10 @@ acronym: nomcom
 name: Operation of the IESG/IAB Nominating and Recall Committees
 type: wg
 parent: gen
+areas:
+- area: gen
+  first: '2002-06-14'
+  last: '2004-06-24'
 state: conclude
 started: '2002-03-30'
 closed: '2004-06-24'
@@ -29,6 +33,17 @@ chairs:
     date: '2002-04-23'
     subject: 'WG ACTION: Operation of the IESG/IAB Nominating and Recall Committees (nomcom)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/IK-YRahngaITlbI2PWZ0zg-eObQ/
+  - kind: minutes
+    listed_in: 2
+    first: '2002-07-14'
+    last: '2002-11-17'
+    examples:
+    - date: '2002-07-14'
+      subject: IETF 54 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/54/132.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/131.htm
   - kind: proceedings
     listed_in: 5
     first: '2002-06-14'

@@ -2,6 +2,10 @@ acronym: ecm
 name: Endpoint Congestion Management
 type: wg
 parent: tsv
+areas:
+- area: tsv
+  first: '1999-10-26'
+  last: '2001-06-28'
 state: conclude
 started: '1999-10-01'
 closed: '2001-06-28'
@@ -29,6 +33,17 @@ chairs:
     date: '1999-10-27'
     subject: 'WG ACTION: Endpoint Congestion Management (ecm)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/TEj3u-WfBOymvcIWuyJ0jWOt5-E/
+  - kind: minutes
+    listed_in: 2
+    first: '2000-03-26'
+    last: '2000-07-31'
+    examples:
+    - date: '2000-03-26'
+      subject: IETF 47 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-127.html
+    - date: '2000-07-31'
+      subject: IETF 48 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/48/00july-124.htm
   - kind: proceedings
     listed_in: 3
     first: '2000-07-17'

@@ -2,6 +2,10 @@ acronym: imp
 name: Internet Mercantile Protocols
 type: wg
 parent: app
+areas:
+- area: app
+  first: '1993-08-01'
+  last: '1993-08-01'
 state: conclude
 started: null
 closed: '1993-08-01'
@@ -16,11 +20,20 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1993-08-01'
+      certainty: between
+      not_before: '1993-03-29'
+      not_after: '1993-08-01'
     end:
       certainty: group-closed
       date: '1993-08-01'
+    notes:
+    - 'Start: became an Area Director, first serving at IETF 18 (1990-07-30)'
+  evidence:
+  - kind: joined the IESG
+    after_meeting: '17'
+    after: '1990-05-01'
+    by_meeting: '18'
+    by: '1990-07-30'
 - person: 10197
   name: Taso Devetzis
   status: confirmed

@@ -2,6 +2,10 @@ acronym: edunext
 name: Education and Mentoring Next Generation
 type: wg
 parent: gen
+areas:
+- area: gen
+  first: '2015-06-11'
+  last: '2015-09-21'
 state: bof-conc
 started: '2015-06-11'
 closed: '2015-09-21'
@@ -22,13 +26,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2014-07-20'
+      certainty: between
+      not_before: '2012-07-29'
+      not_after: '2014-07-20'
     end:
       certainty: between
       not_before: '2015-07-19'
       not_after: '2015-09-21'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 66 (2006-07-09)'
     - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
     - 'End: the BOF met at IETF 93 (2015-07-19)'
     - 'End: the group closed (2015-09-21)'
@@ -52,6 +58,11 @@ chairs:
     meeting: '93'
     date: '2015-07-19'
     url: https://datatracker.ietf.org/meeting/93/session/edunext/
+  - kind: joined the IESG
+    after_meeting: '65'
+    after: '2006-03-19'
+    by_meeting: '66'
+    by: '2006-07-09'
 - person: 116229
   name: Mirjam Kuehne
   status: confirmed

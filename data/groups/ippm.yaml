@@ -2,6 +2,13 @@ acronym: ippm
 name: IP Performance Measurement
 type: wg
 parent: ops
+areas:
+- area: tsv
+  first: '1997-11-10'
+  last: '2023-02-17'
+- area: ops
+  first: '2024-01-17'
+  last: '2026-11-04'
 state: conclude
 started: '1997-10-02'
 closed: '2026-11-04'
@@ -32,12 +39,27 @@ chairs:
       not_after: '1997-11-10'
     end:
       certainty: between
-      not_before: '1997-11-10'
+      not_before: '1998-08-24'
       not_after: '1998-11-25'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1997-11-10)'
+    - 'End: listed as chair in meeting minutes (1998-08-24)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (1998-11-25)'
   evidence:
+  - kind: minutes
+    listed_in: 3
+    first: '1997-12-08'
+    last: '1998-08-24'
+    examples:
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-115.htm
+    - date: '1998-03-30'
+      subject: IETF 41 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/41/98mar-edited-123.htm
+    - date: '1998-08-24'
+      subject: IETF 42 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/42/98aug-130.htm
   - kind: proceedings
     listed_in: 3
     first: '1997-11-10'
@@ -61,12 +83,14 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2000-07-31'
       not_after: '2000-11-09'
     end:
       certainty: announced
       date: '2003-10-27'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2000-07-31)'
     - 'Start: listed as chair in a proceedings charter snapshot (2000-11-09)'
     - 'End: announced on the group''s list (2003-10-27)'
   evidence:
@@ -78,20 +102,26 @@ chairs:
     excerpt: Merike Kaeo has decided to step down as the co-chair of the IPPM working group because of
       her increasing focus on the scurity area.
   - kind: list message
-    date: '2003-12-18'
+    date: '2003-11-09'
     says: end
     subject: '[ippm] draft ietf58 ippm minutes'
     url: https://mailarchive.ietf.org/arch/msg/ippm/s3kdkqWNRujzBmLWunsAI4VAHo4/
     excerpt: There was no bashing, but Matt welcomed Henk Uijterwaal as the new co-chair, replacing Merike
       Kaeo who is now focusing on security work.
   - kind: minutes
-    listed_in: 1
-    first: '2002-07-14'
-    last: '2002-07-14'
+    listed_in: 7
+    first: '2000-12-10'
+    last: '2002-11-17'
     examples:
-    - date: '2002-07-14'
-      subject: IETF 54 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/54/minutes/ippm.htm
+    - date: '2000-12-10'
+      subject: IETF 49 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/49/00dec-134.htm
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-139.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/216.htm
   - kind: proceedings
     listed_in: 8
     first: '2000-11-09'
@@ -106,6 +136,10 @@ chairs:
     - date: '2003-07-13'
       subject: IETF 57 proceedings charter
       url: https://www.ietf.org/proceedings/57/228.htm
+  - kind: minutes without them
+    date: '2000-07-31'
+    subject: IETF 48 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/48/00july-125.htm
 - person: 17625
   name: Vern Paxson
   status: unconfirmed
@@ -115,12 +149,21 @@ chairs:
       not_after: '1997-11-10'
     end:
       certainty: between
-      not_before: '1997-11-10'
+      not_before: '1997-12-08'
       not_after: '1998-03-30'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1997-11-10)'
+    - 'End: listed as chair in meeting minutes (1997-12-08)'
     - 'End: became an Area Director, first serving at IETF 41 (1998-03-30)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '1997-12-08'
+    last: '1997-12-08'
+    examples:
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-115.htm
   - kind: proceedings
     listed_in: 2
     first: '1997-11-10'
@@ -142,16 +185,33 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '1998-03-30'
       not_after: '1998-07-27'
     end:
       certainty: between
-      not_before: '1998-07-27'
+      not_before: '2000-07-31'
       not_after: '2000-11-09'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (1998-03-30)'
     - 'Start: listed as chair in a proceedings charter snapshot (1998-07-27)'
+    - 'End: listed as chair in meeting minutes (2000-07-31)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2000-11-09)'
   evidence:
+  - kind: minutes
+    listed_in: 6
+    first: '1998-08-24'
+    last: '2000-07-31'
+    examples:
+    - date: '1998-08-24'
+      subject: IETF 42 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/42/98aug-130.htm
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-122.html
+    - date: '2000-07-31'
+      subject: IETF 48 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/48/00july-125.htm
   - kind: proceedings
     listed_in: 6
     first: '1998-07-27'
@@ -167,6 +227,10 @@ chairs:
       subject: IETF 48 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/48/00july-125.htm
   - kind: minutes without them
+    date: '1998-03-30'
+    subject: IETF 41 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/41/98mar-edited-123.htm
+  - kind: minutes without them
     date: '2000-11-09'
     subject: IETF 49 proceedings charter, as last modified
     url: https://www.ietf.org/proceedings/49/00dec-134.htm
@@ -176,12 +240,12 @@ chairs:
   periods:
   - start:
       certainty: announced
-      date: '2003-12-18'
+      date: '2003-11-09'
     end:
       certainty: exact
       date: '2012-11-27'
     notes:
-    - 'Start: announced on the group''s list (2003-12-18)'
+    - 'Start: announced on the group''s list (2003-11-09)'
   evidence:
   - kind: list message
     date: '2003-10-27'
@@ -190,7 +254,7 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/ippm/D8J3XdyC_1ye6QD5QUpd-QYMisc/
     excerpt: Henk Uijterwaal has agreed to replace Merike as co-chair.
   - kind: list message
-    date: '2003-12-18'
+    date: '2003-11-09'
     says: start
     subject: '[ippm] draft ietf58 ippm minutes'
     url: https://mailarchive.ietf.org/arch/msg/ippm/s3kdkqWNRujzBmLWunsAI4VAHo4/
@@ -266,12 +330,13 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '1997-10-02'
+      not_before: '1998-08-24'
       not_after: '1998-11-25'
     end:
       certainty: exact
       date: '2012-11-27'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (1998-08-24)'
     - 'Start: listed as chair in a proceedings charter snapshot (1998-11-25)'
   evidence:
   - kind: list message
@@ -299,13 +364,19 @@ chairs:
       subject: '[ippm] WGLC for draft-ietf-ippm-duplicate-03'
       url: https://mailarchive.ietf.org/arch/msg/ippm/llkl-OqJHiqAeKkRDt74ytwMZrM/
   - kind: minutes
-    listed_in: 1
-    first: '2002-07-14'
-    last: '2002-07-14'
+    listed_in: 12
+    first: '1998-12-07'
+    last: '2002-11-17'
     examples:
-    - date: '2002-07-14'
-      subject: IETF 54 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/54/minutes/ippm.htm
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-122.html
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-125.html
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/216.htm
   - kind: proceedings
     listed_in: 34
     first: '1998-11-25'
@@ -320,6 +391,10 @@ chairs:
     - date: '2012-07-29'
       subject: IETF 84 proceedings charter
       url: https://www.ietf.org/proceedings/84/ippm.html
+  - kind: minutes without them
+    date: '1998-08-24'
+    subject: IETF 42 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/42/98aug-130.htm
   - kind: session requests
     meetings:
     - '65'

@@ -446,6 +446,35 @@ class RenderTests(DataDirMixin, unittest.TestCase):
         self.assertIn("about 1995", (out / "people" / "n-old-timer.html").read_text())
 
 
+class AreaHistoryTests(DataDirMixin, unittest.TestCase):
+    def test_a_group_that_moved_shows_every_area(self):
+        self.write_people(PEOPLE)
+        self.write_group(group(acronym="avt", parent="rai", state="conclude", closed="2011-03-18", chairs=[], areas=[
+            {"area": "tsv", "first": "1995-04-03", "last": "2005-03-06"},
+            {"area": "rai", "first": "2006-07-09", "last": "2011-03-18"}]), "avt")
+        self.assertEqual(self.problems(), [])
+        out = self.root / "site"
+        render.Site(cd.load(self.data), out, "example/chairs").build(Path(__file__).parent.parent / "site")
+        self.assertIn("tsv (1995–2005), then rai (2006–2011)", (out / "groups" / "avt.html").read_text())
+        index = (out / "groups.html").read_text()
+        self.assertGreater(index.index("<h2>tsv</h2>"), index.index("<h2>rai</h2>"))
+        self.assertEqual(index.count("groups/avt.html"), 2)  # under both areas
+
+    def test_an_active_group_is_still_in_its_last_area(self):
+        self.write_people(PEOPLE)
+        self.write_group(group(acronym="nfsv4", parent="wit", areas=[
+            {"area": "tsv", "first": "1998-08-05", "last": "2023-11-21"},
+            {"area": "wit", "first": "2024-01-17", "last": "2026-05-04"}]), "nfsv4")
+        out = self.root / "site"
+        render.Site(cd.load(self.data), out, "example/chairs").build(Path(__file__).parent.parent / "site")
+        self.assertIn("tsv (1998–2023), then wit (since 2024)", (out / "groups" / "nfsv4.html").read_text())
+
+    def test_areas_need_dates(self):
+        self.write_people(PEOPLE)
+        self.write_group(group(areas=[{"area": "tsv", "first": "1995"}]))
+        self.assertTrue(any("`areas` must be" in m for m in self.problems()))
+
+
 class BofPhaseTests(unittest.TestCase):
     def period(self, start, end):
         return {"start": start, "end": end}

@@ -2,6 +2,10 @@ acronym: lsthdr
 name: Listheader
 type: wg
 parent: app
+areas:
+- area: app
+  first: '1997-01-01'
+  last: '1997-01-01'
 state: bof-conc
 started: null
 closed: '1997-01-01'
@@ -32,11 +36,19 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1997-01-01'
+      certainty: between
+      not_before: '1996-03-04'
+      not_after: '1997-01-01'
     end:
       certainty: between
       not_before: '1997-01-01'
       not_after: '1997-01-01'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 27 (1993-07-12)'
     - 'End: the group closed (1997-01-01)'
+  evidence:
+  - kind: joined the IESG
+    after_meeting: '26'
+    after: '1993-03-29'
+    by_meeting: '27'
+    by: '1993-07-12'

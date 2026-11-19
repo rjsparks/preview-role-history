@@ -2,6 +2,10 @@ acronym: nsc
 name: Network Service Chaining
 type: wg
 parent: rtg
+areas:
+- area: rtg
+  first: '2013-06-20'
+  last: '2026-11-18'
 state: bof-conc
 started: '2013-06-20'
 closed: null
@@ -19,11 +23,13 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '1998-03-30'
       not_after: '2013-07-28'
     end:
       certainty: group-closed
     notes:
+    - 'Start: became an Area Director, first serving at IETF 29 (1994-03-28)'
     - 'Start: the BOF met at IETF 87 (2013-07-28)'
   evidence:
   - kind: list message
@@ -36,6 +42,11 @@ chairs:
     meeting: '87'
     date: '2013-07-28'
     url: https://datatracker.ietf.org/meeting/87/session/nsc/
+  - kind: joined the IESG
+    after_meeting: '28'
+    after: '1993-11-01'
+    by_meeting: '29'
+    by: '1994-03-28'
 - person: 7262
   name: Thomas Narten
   status: confirmed

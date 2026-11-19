@@ -2,6 +2,10 @@ acronym: snac
 name: Stub Network Auto Configuration for IPv6
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2022-06-16'
+  last: '2026-11-18'
 state: active
 started: '2022-06-16'
 closed: null

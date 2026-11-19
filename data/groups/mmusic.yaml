@@ -2,6 +2,16 @@ acronym: mmusic
 name: Multiparty Multimedia Session Control
 type: wg
 parent: art
+areas:
+- area: tsv
+  first: '1994-12-05'
+  last: '2005-10-03'
+- area: rai
+  first: '2006-01-20'
+  last: '2015-03-26'
+- area: art
+  first: '2015-05-29'
+  last: '2024-08-14'
 state: conclude
 started: '1993-04-23'
 closed: '2024-08-14'
@@ -21,10 +31,10 @@ chairs:
     end:
       certainty: between
       not_before: '1994-03-28'
-      not_after: '1997-11-26'
+      not_after: '1997-08-11'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (1997-11-26)'
+    - 'End: not listed among the chairs in meeting minutes (1997-08-11)'
   evidence:
   - kind: proceedings
     listed_in: 2
@@ -38,9 +48,9 @@ chairs:
       subject: IETF 31 proceedings charter
       url: https://www.ietf.org/proceedings/31/area.and.wg.reports/tsv/mmusic/mmusic-charter.txt
   - kind: minutes without them
-    date: '1997-11-26'
-    subject: IETF 40 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-118.htm
+    date: '1997-08-11'
+    subject: IETF 39 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/39/transit97aug-114.htm
 - person: 4493
   name: Ruth Lang
   status: unconfirmed
@@ -50,12 +60,27 @@ chairs:
       not_after: '1995-04-03'
     end:
       certainty: between
-      not_before: '1995-04-03'
+      not_before: '2000-07-31'
       not_after: '2000-10-23'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1995-04-03)'
+    - 'End: listed as chair in meeting minutes (2000-07-31)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2000-10-23)'
   evidence:
+  - kind: minutes
+    listed_in: 10
+    first: '1997-08-11'
+    last: '2000-07-31'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-114.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-118.htm
+    - date: '2000-07-31'
+      subject: IETF 48 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/48/00july-131.htm
   - kind: proceedings
     listed_in: 14
     first: '1995-04-03'
@@ -83,11 +108,11 @@ chairs:
       not_after: '1995-04-03'
     end:
       certainty: between
-      not_before: '1998-09-17'
+      not_before: '2000-07-31'
       not_after: '2000-10-23'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1995-04-03)'
-    - 'End: posted an agenda, minutes or interim notice to the group''s list (1998-09-17)'
+    - 'End: listed as chair in meeting minutes (2000-07-31)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2000-10-23)'
   evidence:
   - kind: chair activity
@@ -104,6 +129,20 @@ chairs:
     - date: '1998-09-17'
       subject: Chicago MMUSIC WG minutes
       url: https://mailarchive.ietf.org/arch/msg/mmusic/TrzQXba3CrNnfk9TP65NtaTWUuk/
+  - kind: minutes
+    listed_in: 10
+    first: '1997-08-11'
+    last: '2000-07-31'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-114.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-118.htm
+    - date: '2000-07-31'
+      subject: IETF 48 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/48/00july-131.htm
   - kind: proceedings
     listed_in: 14
     first: '1995-04-03'
@@ -169,16 +208,16 @@ chairs:
       subject: WG Last Call on ATM/SDP
       url: https://mailarchive.ietf.org/arch/msg/mmusic/0mrnF46JWgPi_pmxLIBMUVIxPTw/
   - kind: minutes
-    listed_in: 3
-    first: '2009-07-26'
+    listed_in: 20
+    first: '1997-08-11'
     last: '2009-11-08'
     examples:
-    - date: '2009-07-26'
-      subject: IETF 75 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/75/minutes/mmusic.html
-    - date: '2009-11-08'
-      subject: '[MMUSIC] IETF 76 - Draft WG Meeting minutes posted'
-      url: https://mailarchive.ietf.org/arch/msg/mmusic/_pBA9KQvfz_8GOAtiRv_n3u3tpA/
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-114.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-118.htm
     - date: '2009-11-08'
       subject: IETF 76 minutes in the proceedings
       url: https://www.ietf.org/proceedings/76/minutes/mmusic.html
@@ -258,6 +297,20 @@ chairs:
     - date: '2002-12-16'
       subject: '[MMUSIC] Draft MMUSIC minutes from Atlanta'
       url: https://mailarchive.ietf.org/arch/msg/mmusic/0G7zRT1j82sT7udgRCm7h1EF70Q/
+  - kind: minutes
+    listed_in: 7
+    first: '2000-12-10'
+    last: '2002-11-17'
+    examples:
+    - date: '2000-12-10'
+      subject: IETF 49 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/49/00dec-141.htm
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-146.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/223.htm
   - kind: proceedings
     listed_in: 17
     first: '2000-10-23'
@@ -495,12 +548,13 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '1993-04-23'
+      not_before: '2002-11-17'
       not_after: '2006-12-17'
     end:
       certainty: group-closed
       date: '2024-08-14'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2002-11-17)'
     - 'Start: posted an agenda, minutes or interim notice to the group''s list (2006-12-17)'
   evidence:
   - kind: WG Action
@@ -547,6 +601,10 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/mmusic.html
+  - kind: minutes without them
+    date: '2002-11-17'
+    subject: IETF 55 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/55/223.htm
   - kind: session requests
     meetings:
     - '80'
@@ -701,11 +759,11 @@ chairs:
       not_after: '1994-03-28'
     end:
       certainty: between
-      not_before: '1998-03-25'
+      not_before: '2000-07-31'
       not_after: '2000-10-23'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
-    - 'End: posted an agenda, minutes or interim notice to the group''s list (1998-03-25)'
+    - 'End: listed as chair in meeting minutes (2000-07-31)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2000-10-23)'
   evidence:
   - kind: chair activity
@@ -719,6 +777,20 @@ chairs:
     - date: '1996-03-22'
       subject: MMusic WG Minutes/Slides
       url: https://mailarchive.ietf.org/arch/msg/mmusic/2z-mCDg0Q9I4G2rbjcHlSy5Crwo/
+  - kind: minutes
+    listed_in: 10
+    first: '1997-08-11'
+    last: '2000-07-31'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-114.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-118.htm
+    - date: '2000-07-31'
+      subject: IETF 48 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/48/00july-131.htm
   - kind: proceedings
     listed_in: 16
     first: '1994-03-28'

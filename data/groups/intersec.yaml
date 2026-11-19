@@ -2,6 +2,10 @@ acronym: intersec
 name: Transport Service at Intermediary
 type: wg
 parent: tsv
+areas:
+- area: tsv
+  first: '2003-12-10'
+  last: '2003-12-10'
 state: conclude
 started: null
 closed: '2003-12-10'
@@ -46,7 +50,7 @@ chairs:
     examples:
     - date: '2003-03-16'
       subject: IETF 56 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/56/minutes/intersec.htm
+      url: https://www.ietf.org/proceedings/56/248.htm
   - kind: proceedings
     listed_in: 1
     first: '2003-03-16'

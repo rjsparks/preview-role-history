@@ -2,6 +2,10 @@ acronym: vpim
 name: Voice Profile for Internet Mail
 type: wg
 parent: app
+areas:
+- area: app
+  first: '2000-07-17'
+  last: '2005-04-12'
 state: conclude
 started: '1999-08-30'
 closed: '2005-04-12'
@@ -23,12 +27,27 @@ chairs:
       not_after: '2000-07-17'
     end:
       certainty: between
-      not_before: '2000-07-17'
+      not_before: '2002-11-17'
       not_after: '2005-04-12'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2000-07-17)'
+    - 'End: listed as chair in meeting minutes (2002-11-17)'
     - 'End: the group closed (2005-04-12)'
   evidence:
+  - kind: minutes
+    listed_in: 8
+    first: '2000-07-31'
+    last: '2002-11-17'
+    examples:
+    - date: '2000-07-31'
+      subject: IETF 48 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/48/00july-31.htm
+    - date: '2000-12-10'
+      subject: IETF 49 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/49/00dec-30.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/128.htm
   - kind: proceedings
     listed_in: 8
     first: '2000-07-17'
@@ -50,27 +69,27 @@ chairs:
   - start:
       certainty: between
       not_before: '1999-08-30'
-      not_after: '2000-07-17'
+      not_after: '1999-11-07'
     end:
       certainty: group-closed
       date: '2005-04-12'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2000-07-17)'
+    - 'Start: listed as chair in meeting minutes (1999-11-07)'
   evidence:
   - kind: minutes
-    listed_in: 3
-    first: '2001-08-05'
-    last: '2002-07-14'
+    listed_in: 9
+    first: '1999-11-07'
+    last: '2002-11-17'
     examples:
-    - date: '2001-08-05'
-      subject: IETF 51 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/51/minutes/VPIM.HTM
-    - date: '2002-03-17'
-      subject: IETF 53 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/53/minutes/vpim.htm
-    - date: '2002-07-14'
-      subject: IETF 54 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/54/minutes/vpim.htm
+    - date: '1999-11-07'
+      subject: IETF 46 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-44.html
+    - date: '2000-07-31'
+      subject: IETF 48 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/48/00july-31.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/128.htm
   - kind: proceedings
     listed_in: 10
     first: '2000-07-17'

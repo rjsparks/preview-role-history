@@ -2,6 +2,13 @@ acronym: xcon
 name: Centralized Conferencing
 type: wg
 parent: rai
+areas:
+- area: tsv
+  first: '2003-10-20'
+  last: '2005-10-24'
+- area: rai
+  first: '2006-01-20'
+  last: '2011-12-09'
 state: conclude
 started: '2003-08-14'
 closed: '2011-09-26'
@@ -55,16 +62,13 @@ chairs:
       subject: '[XCON] WGLC: draft-ietf-xcon-framework-06'
       url: https://mailarchive.ietf.org/arch/msg/xcon/uLkHYFPgh2HGHqQBCDDOCzgEwvA/
   - kind: minutes
-    listed_in: 2
+    listed_in: 1
     first: '2003-07-13'
     last: '2003-07-13'
     examples:
     - date: '2003-07-13'
       subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/xcon.htm
-    - date: '2003-07-13'
-      subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/xcon.txt
+      url: https://www.ietf.org/proceedings/57/251.htm
   - kind: proceedings
     listed_in: 11
     first: '2003-10-20'
@@ -132,16 +136,13 @@ chairs:
       subject: '[XCON] WGLC of CCMP and Examples'
       url: https://mailarchive.ietf.org/arch/msg/xcon/_q8av7f0ykJSopvKXBV0dpwLQ2U/
   - kind: minutes
-    listed_in: 3
+    listed_in: 2
     first: '2003-07-13'
     last: '2005-03-06'
     examples:
     - date: '2003-07-13'
       subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/xcon.htm
-    - date: '2003-07-13'
-      subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/xcon.txt
+      url: https://www.ietf.org/proceedings/57/251.htm
     - date: '2005-03-06'
       subject: IETF 62 minutes in the proceedings
       url: https://www.ietf.org/proceedings/62/minutes/xcon.html

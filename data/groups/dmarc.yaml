@@ -2,6 +2,13 @@ acronym: dmarc
 name: Domain-based Message Authentication, Reporting & Conformance
 type: wg
 parent: art
+areas:
+- area: app
+  first: '2013-06-20'
+  last: '2015-03-25'
+- area: art
+  first: '2015-05-29'
+  last: '2026-11-18'
 state: active
 started: '2013-06-20'
 closed: null
@@ -59,9 +66,9 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
+      certainty: on-or-before
+      date: '2013-07-28'
       not_before: '2013-06-20'
-      not_after: '2013-07-28'
     end:
       certainty: approximate
       date: '2014-07-04'

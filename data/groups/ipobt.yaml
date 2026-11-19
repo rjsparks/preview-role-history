@@ -2,6 +2,10 @@ acronym: ipobt
 name: IP over Bluetooth
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2003-12-10'
+  last: '2003-12-10'
 state: conclude
 started: null
 closed: '2003-12-10'
@@ -23,17 +27,39 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-12-10'
+      date: '2000-07-31'
     end:
       certainty: group-closed
       date: '2003-12-10'
+    notes:
+    - 'Start: listed as chair in meeting minutes (2000-07-31)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2000-07-31'
+    last: '2000-07-31'
+    examples:
+    - date: '2000-07-31'
+      subject: IETF 48 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/48/00july-54.htm
 - person: 101872
   name: Kristoffer Fleming
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2003-12-10'
+      date: '2000-07-31'
     end:
       certainty: group-closed
       date: '2003-12-10'
+    notes:
+    - 'Start: listed as chair in meeting minutes (2000-07-31)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2000-07-31'
+    last: '2000-07-31'
+    examples:
+    - date: '2000-07-31'
+      subject: IETF 48 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/48/00july-54.htm

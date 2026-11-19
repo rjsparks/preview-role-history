@@ -2,6 +2,10 @@ acronym: ppsp
 name: Peer to Peer Streaming Protocol
 type: wg
 parent: tsv
+areas:
+- area: tsv
+  first: '2009-11-08'
+  last: '2016-01-13'
 state: conclude
 started: '2010-01-22'
 closed: '2016-01-13'
@@ -168,16 +172,13 @@ chairs:
       subject: '[ppsp] WGLC for draft-ietf-ppsp-survey-02 until Dec 5th'
       url: https://mailarchive.ietf.org/arch/msg/ppsp/yFppoIqa1fug44t4ctoIstuZCjw/
   - kind: minutes
-    listed_in: 3
+    listed_in: 2
     first: '2011-07-24'
     last: '2011-10-04'
     examples:
     - date: '2011-07-24'
       subject: IETF 81 minutes in the proceedings
       url: https://www.ietf.org/proceedings/81/minutes/ppsp.html
-    - date: '2011-07-24'
-      subject: IETF 81 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/81/minutes/ppsp.txt
     - date: '2011-10-04'
       subject: '[ppsp] Draft meeting minutes PPSP virtual interim meeting (Sept. 28th 2011)'
       url: https://mailarchive.ietf.org/arch/msg/ppsp/aeliB_2RHvdaicwl4GEdG2vt0bk/
@@ -278,7 +279,7 @@ chairs:
       subject: '[ppsp] WGLC for the survey draft'
       url: https://mailarchive.ietf.org/arch/msg/ppsp/MUlKJAmAb9fNk_OHLtCGuLV_4Kc/
   - kind: minutes
-    listed_in: 8
+    listed_in: 7
     first: '2009-08-05'
     last: '2014-11-09'
     examples:
@@ -327,6 +328,13 @@ chairs:
     notes:
     - 'Start: listed as chair in meeting minutes (2009-08-05)'
   evidence:
+  - kind: list message
+    date: '2013-09-06'
+    says: start
+    subject: '[ppsp] New PPSP co-chair: Ning Zong'
+    url: https://mailarchive.ietf.org/arch/msg/ppsp/maYA2WIrQInFg67AQkmCSsHhKIE/
+    excerpt: 'Let me thank Stefano for his service as PPSP co-chair and welcome Ning Zong (email: as the
+      new co-chair!'
   - kind: chair activity
     first: '2013-11-25'
     last: '2015-03-09'

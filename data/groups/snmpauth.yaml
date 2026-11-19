@@ -2,6 +2,10 @@ acronym: snmpauth
 name: SNMP Authentication
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '1990-12-03'
+  last: '1990-12-03'
 state: conclude
 started: '1989-10-02'
 closed: '1990-12-03'

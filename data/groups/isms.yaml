@@ -2,6 +2,13 @@ acronym: isms
 name: Integrated Security Model for SNMP
 type: wg
 parent: app
+areas:
+- area: sec
+  first: '2004-10-04'
+  last: '2010-05-24'
+- area: app
+  first: '2011-08-12'
+  last: '2011-08-12'
 state: conclude
 started: '2004-09-02'
 closed: '2011-08-12'
@@ -169,6 +176,12 @@ chairs:
     date: '2005-09-07'
     subject: 'WG Review: Recharter of Integrated Security Model for SNMP (isms)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Tng5_g805PGzr2a8kUsC_JBQhPE/
+  - kind: list message
+    date: '2005-09-21'
+    says: start
+    subject: '[Isms] Looking for new chair'
+    url: https://mailarchive.ietf.org/arch/msg/isms/SbvHZ8WtsGtm-16-M_F6wZVFIto/
+    excerpt: I'm sorry to report that Ken Hornstein has agreed to step down as an ISMS chair.
   - kind: list message
     date: '2005-10-19'
     says: end

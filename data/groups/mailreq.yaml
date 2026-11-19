@@ -2,6 +2,10 @@ acronym: mailreq
 name: Email Requirements
 type: wg
 parent: app
+areas:
+- area: app
+  first: '1993-08-01'
+  last: '1993-08-01'
 state: bof-conc
 started: null
 closed: '1993-08-01'
@@ -16,11 +20,19 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '1993-08-01'
+      certainty: between
+      not_before: '1993-03-29'
+      not_after: '1993-08-01'
     end:
       certainty: between
       not_before: '1993-08-01'
       not_after: '1993-08-01'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 15 (1989-10-31)'
     - 'End: the group closed (1993-08-01)'
+  evidence:
+  - kind: joined the IESG
+    after_meeting: '14'
+    after: '1989-07-25'
+    by_meeting: '15'
+    by: '1989-10-31'

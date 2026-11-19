@@ -2,6 +2,10 @@ acronym: dnsind
 name: DNS IXFR, Notification, and Dynamic Update
 type: wg
 parent: int
+areas:
+- area: int
+  first: '1994-12-05'
+  last: '2000-01-26'
 state: conclude
 started: '1994-05-13'
 closed: '2000-01-26'
@@ -20,12 +24,27 @@ chairs:
       not_after: '1998-11-25'
     end:
       certainty: between
-      not_before: '1998-11-25'
+      not_before: '1999-07-11'
       not_after: '1999-10-08'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1998-11-25)'
+    - 'End: listed as chair in meeting minutes (1999-07-11)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (1999-10-08)'
   evidence:
+  - kind: minutes
+    listed_in: 3
+    first: '1998-12-07'
+    last: '1999-07-11'
+    examples:
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-49.html
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-49.html
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-46.html
   - kind: proceedings
     listed_in: 3
     first: '1998-11-25'
@@ -50,14 +69,23 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '1994-05-13'
+      not_before: '1999-07-11'
       not_after: '1999-10-08'
     end:
       certainty: group-closed
       date: '2000-01-26'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (1999-07-11)'
     - 'Start: listed as chair in a proceedings charter snapshot (1999-10-08)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '1999-11-07'
+    last: '1999-11-07'
+    examples:
+    - date: '1999-11-07'
+      subject: IETF 46 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-50.html
   - kind: proceedings
     listed_in: 1
     first: '1999-10-08'
@@ -66,6 +94,10 @@ chairs:
     - date: '1999-10-08'
       subject: IETF 46 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-50.html
+  - kind: minutes without them
+    date: '1999-07-11'
+    subject: IETF 45 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-46.html
 - person: 5234
   name: Randy Bush
   status: confirmed
@@ -75,13 +107,25 @@ chairs:
       not_before: '1994-05-13'
       not_after: '1994-12-05'
     end:
-      certainty: between
-      not_before: '1994-12-05'
-      not_after: '1999-03-14'
+      certainty: group-closed
+      date: '2000-01-26'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-12-05)'
-    - 'End: became an Area Director, first serving at IETF 44 (1999-03-14)'
   evidence:
+  - kind: minutes
+    listed_in: 8
+    first: '1997-08-11'
+    last: '1999-11-07'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-43.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-41.htm
+    - date: '1999-11-07'
+      subject: IETF 46 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-50.html
   - kind: proceedings
     listed_in: 13
     first: '1994-12-05'
@@ -96,8 +140,3 @@ chairs:
     - date: '1999-10-08'
       subject: IETF 46 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-50.html
-  - kind: joined the IESG
-    after_meeting: '43'
-    after: '1998-12-07'
-    by_meeting: '44'
-    by: '1999-03-14'

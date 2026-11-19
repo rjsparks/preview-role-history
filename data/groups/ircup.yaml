@@ -2,6 +2,10 @@ acronym: ircup
 name: IRC Update
 type: wg
 parent: app
+areas:
+- area: app
+  first: '2000-06-05'
+  last: '2000-06-05'
 state: conclude
 started: null
 closed: '2000-06-05'

@@ -2,6 +2,10 @@ acronym: sming
 name: Next Generation Structure of Management Information
 type: wg
 parent: ops
+areas:
+- area: ops
+  first: '2000-11-21'
+  last: '2003-04-04'
 state: conclude
 started: '2000-10-10'
 closed: '2003-04-04'
@@ -30,16 +34,19 @@ chairs:
     subject: 'WG Action: Next Generation Structure of Management Informatio (sming)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/l0lBrkn5xFuvyynLXXAFMS-YbcE/
   - kind: minutes
-    listed_in: 2
-    first: '2001-08-05'
+    listed_in: 7
+    first: '2000-12-10'
     last: '2002-11-17'
     examples:
-    - date: '2001-08-05'
-      subject: IETF 51 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/51/minutes/SMING.HTM
+    - date: '2000-12-10'
+      subject: IETF 49 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/49/00dec-76.htm
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-79.htm
     - date: '2002-11-17'
       subject: IETF 55 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/55/minutes/sming.htm
+      url: https://www.ietf.org/proceedings/55/163.htm
   - kind: proceedings
     listed_in: 7
     first: '2000-11-21'

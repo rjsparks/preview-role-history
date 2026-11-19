@@ -2,6 +2,10 @@ acronym: posse
 name: Packet Over SONET/SDH Examination
 type: wg
 parent: ops
+areas:
+- area: ops
+  first: '2026-11-18'
+  last: '2026-11-18'
 state: conclude
 started: null
 closed: null
@@ -19,10 +23,19 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-12-09'
+      certainty: between
+      not_before: '1998-03-30'
+      not_after: '2011-12-09'
     end:
       certainty: group-closed
+    notes:
+    - 'Start: became an Area Director, first serving at IETF 36 (1996-06-24)'
+  evidence:
+  - kind: joined the IESG
+    after_meeting: '35'
+    after: '1996-03-04'
+    by_meeting: '36'
+    by: '1996-06-24'
 - person: 5058
   name: Peter Lothberg
   status: confirmed

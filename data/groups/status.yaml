@@ -2,6 +2,10 @@ acronym: status
 name: Stacked Tunnels for Source Routing
 type: wg
 parent: rtg
+areas:
+- area: rtg
+  first: '2013-06-20'
+  last: '2026-11-18'
 state: bof-conc
 started: '2013-06-20'
 closed: null

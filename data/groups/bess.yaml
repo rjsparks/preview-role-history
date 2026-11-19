@@ -2,6 +2,10 @@ acronym: bess
 name: BGP Enabled ServiceS
 type: wg
 parent: rtg
+areas:
+- area: rtg
+  first: '2014-09-25'
+  last: '2026-11-18'
 state: active
 started: '2014-09-25'
 closed: null

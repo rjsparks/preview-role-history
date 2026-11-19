@@ -2,6 +2,10 @@ acronym: rserpool
 name: Reliable Server Pooling
 type: wg
 parent: tsv
+areas:
+- area: tsv
+  first: '2000-12-04'
+  last: '2009-04-27'
 state: conclude
 started: '2000-09-13'
 closed: '2009-04-27'
@@ -26,16 +30,16 @@ chairs:
     - 'Start: listed as chair in a proceedings charter snapshot (2000-12-04)'
   evidence:
   - kind: minutes
-    listed_in: 13
-    first: '2001-08-05'
+    listed_in: 19
+    first: '2000-12-10'
     last: '2005-03-06'
     examples:
-    - date: '2001-08-05'
-      subject: '[Rserpool] Full minutest of 51st IETF Rserpool meeting'
-      url: https://mailarchive.ietf.org/arch/msg/rserpool/6OY6lhY9Wfe-cw0N00rnrvE4QXs/
-    - date: '2001-08-05'
-      subject: IETF 51 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/51/minutes/RSERPOOL.HTM
+    - date: '2000-12-10'
+      subject: IETF 49 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/49/00dec-148.htm
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-151.htm
     - date: '2005-03-06'
       subject: IETF 62 minutes in the proceedings
       url: https://www.ietf.org/proceedings/62/minutes/rserpool.html
@@ -82,16 +86,16 @@ chairs:
       subject: '[Rserpool] WG Last Call on Rserpool Comparison document'
       url: https://mailarchive.ietf.org/arch/msg/rserpool/GkBncuNBCTfIB2BGuJspOgaPheU/
   - kind: minutes
-    listed_in: 12
-    first: '2001-08-05'
+    listed_in: 18
+    first: '2000-12-10'
     last: '2005-03-06'
     examples:
-    - date: '2001-08-05'
-      subject: '[Rserpool] Full minutest of 51st IETF Rserpool meeting'
-      url: https://mailarchive.ietf.org/arch/msg/rserpool/6OY6lhY9Wfe-cw0N00rnrvE4QXs/
-    - date: '2001-08-05'
-      subject: IETF 51 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/51/minutes/RSERPOOL.HTM
+    - date: '2000-12-10'
+      subject: IETF 49 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/49/00dec-148.htm
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-151.htm
     - date: '2005-03-06'
       subject: IETF 62 minutes in the proceedings
       url: https://www.ietf.org/proceedings/62/minutes/rserpool.html

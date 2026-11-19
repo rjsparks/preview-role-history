@@ -2,6 +2,10 @@ acronym: hip
 name: Host Identity Protocol
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2005-01-17'
+  last: '2021-08-23'
 state: conclude
 started: '2004-02-05'
 closed: '2021-08-23'
@@ -22,19 +26,9 @@ chairs:
     end:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2011-12-09'
+      not_after: '2013-03-13'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2005-01-17)'
-  - start:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2012-03-25'
-    end:
-      certainty: between
-      not_before: '2012-03-25'
-      not_after: '2021-08-23'
-    notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2012-03-25)'
   evidence:
   - kind: WG Review
     date: '2006-10-17'

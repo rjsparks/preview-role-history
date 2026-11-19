@@ -2,6 +2,10 @@ acronym: ippcp
 name: IP Payload Compression Protocol
 type: wg
 parent: int
+areas:
+- area: int
+  first: '1997-08-11'
+  last: '1999-09-16'
 state: conclude
 started: '1997-06-02'
 closed: '1999-09-16'
@@ -23,7 +27,7 @@ chairs:
       certainty: group-closed
       date: '1999-09-16'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1997-08-11)'
+    - 'Start: listed as chair in meeting minutes (1997-08-11)'
   evidence:
   - kind: chair activity
     first: '1997-08-29'
@@ -39,6 +43,20 @@ chairs:
     - date: '1997-12-22'
       subject: Meeting minutes
       url: https://mailarchive.ietf.org/arch/msg/ippcp/bHZkTY-pqlPl8AYGO8JQTJ68Ivw/
+  - kind: minutes
+    listed_in: 3
+    first: '1997-08-11'
+    last: '1998-12-07'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-48.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-46.htm
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-55.html
   - kind: proceedings
     listed_in: 3
     first: '1997-08-11'

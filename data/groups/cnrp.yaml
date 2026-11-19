@@ -2,6 +2,10 @@ acronym: cnrp
 name: Common Name Resolution Protocol
 type: wg
 parent: app
+areas:
+- area: app
+  first: '1999-10-18'
+  last: '2011-12-09'
 state: conclude
 started: '1999-08-30'
 closed: '2002-09-07'
@@ -16,19 +20,32 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '1999-08-30'
-      not_after: '1999-09-28'
+      certainty: on-or-before
+      date: '1999-07-11'
     end:
       certainty: group-closed
       date: '2002-09-07'
     notes:
-    - 'Start: named as chair in the WG Action announcement (1999-09-28)'
+    - 'Start: listed as chair in meeting minutes (1999-07-11)'
   evidence:
   - kind: WG Action
     date: '1999-09-28'
     subject: 'WG ACTION: Common Name Resolution Protocol (cnrp)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/0Jn2lA1abU9lmbuuSbX8-BLG670/
+  - kind: minutes
+    listed_in: 3
+    first: '1999-07-11'
+    last: '2000-03-26'
+    examples:
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-37.html
+    - date: '1999-11-07'
+      subject: IETF 46 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-11.html
+    - date: '2000-03-26'
+      subject: IETF 47 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-11.html
   - kind: proceedings
     listed_in: 6
     first: '1999-10-18'

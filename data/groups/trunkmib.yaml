@@ -2,6 +2,13 @@ acronym: trunkmib
 name: DS1/DS3 MIB
 type: wg
 parent: int
+areas:
+- area: mgt
+  first: '1995-07-17'
+  last: '1995-12-04'
+- area: int
+  first: '1997-04-07'
+  last: '1999-02-15'
 state: conclude
 started: '1995-05-04'
 closed: '1999-02-15'
@@ -42,6 +49,17 @@ chairs:
     - date: '1998-06-12'
       subject: Working Group Last Call of DS0
       url: https://mailarchive.ietf.org/arch/msg/trunkmib/EjgiMTpme-Nsb-nd2Utal4V-W4k/
+  - kind: minutes
+    listed_in: 2
+    first: '1997-04-07'
+    last: '1998-12-07'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr42.htm
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-50.html
   - kind: proceedings
     listed_in: 5
     first: '1995-07-17'

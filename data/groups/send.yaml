@@ -2,6 +2,10 @@ acronym: send
 name: Securing Neighbor Discovery
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2003-02-12'
+  last: '2004-08-20'
 state: conclude
 started: '2002-09-13'
 closed: '2004-08-20'
@@ -35,7 +39,7 @@ chairs:
     examples:
     - date: '2003-03-16'
       subject: IETF 56 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/56/minutes/send.htm
+      url: https://www.ietf.org/proceedings/56/152.htm
   - kind: proceedings
     listed_in: 4
     first: '2003-02-12'
@@ -71,7 +75,7 @@ chairs:
     examples:
     - date: '2003-03-16'
       subject: IETF 56 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/56/minutes/send.htm
+      url: https://www.ietf.org/proceedings/56/152.htm
   - kind: proceedings
     listed_in: 4
     first: '2003-02-12'

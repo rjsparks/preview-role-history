@@ -2,6 +2,13 @@ acronym: dbound
 name: Domain Boundaries
 type: wg
 parent: art
+areas:
+- area: app
+  first: '2014-01-22'
+  last: '2015-04-10'
+- area: art
+  first: '2015-05-29'
+  last: '2017-04-24'
 state: conclude
 started: '2014-01-22'
 closed: '2017-04-24'
@@ -69,7 +76,7 @@ chairs:
     examples:
     - date: '2014-03-02'
       subject: IETF 89 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/89/minutes/minutes-89-dbound.txt
+      url: https://www.ietf.org/proceedings/89/dbound.html
   - kind: proceedings
     listed_in: 1
     first: '2014-03-02'
@@ -132,7 +139,7 @@ chairs:
   - kind: minutes without them
     date: '2014-03-02'
     subject: IETF 89 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/89/minutes/minutes-89-dbound.txt
+    url: https://www.ietf.org/proceedings/89/dbound.html
 - person: 117929
   name: Olaf Kolkman
   status: confirmed
@@ -151,7 +158,7 @@ chairs:
     examples:
     - date: '2014-03-02'
       subject: IETF 89 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/89/minutes/minutes-89-dbound.txt
+      url: https://www.ietf.org/proceedings/89/dbound.html
   - kind: proceedings
     listed_in: 1
     first: '2014-03-02'

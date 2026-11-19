@@ -2,6 +2,10 @@ acronym: idpr
 name: Inter-Domain Policy Routing
 type: wg
 parent: rtg
+areas:
+- area: rtg
+  first: '1994-12-05'
+  last: '1995-02-22'
 state: conclude
 started: '1988-10-01'
 closed: '1995-02-22'

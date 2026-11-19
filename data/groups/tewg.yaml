@@ -2,6 +2,16 @@ acronym: tewg
 name: Internet Traffic Engineering
 type: wg
 parent: sub
+areas:
+- area: ops
+  first: '1999-09-29'
+  last: '2000-11-28'
+- area: gen
+  first: '2001-03-14'
+  last: '2001-03-14'
+- area: sub
+  first: '2001-07-31'
+  last: '2005-01-26'
 state: conclude
 started: '1999-09-14'
 closed: '2005-01-26'
@@ -26,19 +36,19 @@ chairs:
     - 'Start: listed as chair in a proceedings charter snapshot (1999-09-29)'
   evidence:
   - kind: minutes
-    listed_in: 3
-    first: '2003-07-13'
+    listed_in: 11
+    first: '1999-11-07'
     last: '2003-11-09'
     examples:
-    - date: '2003-07-13'
-      subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/TEWG.TXT
-    - date: '2003-07-13'
-      subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/tewg.htm
+    - date: '1999-11-07'
+      subject: IETF 46 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-77.html
+    - date: '2000-03-26'
+      subject: IETF 47 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-74.html
     - date: '2003-11-09'
       subject: IETF 58 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/58/minutes/tewg.htm
+      url: https://www.ietf.org/proceedings/58/219.htm
   - kind: proceedings
     listed_in: 14
     first: '1999-09-29'
@@ -59,28 +69,29 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '1999-09-14'
+      not_before: '2000-07-31'
       not_after: '2000-11-28'
     end:
       certainty: group-closed
       date: '2005-01-26'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2000-07-31)'
     - 'Start: listed as chair in a proceedings charter snapshot (2000-11-28)'
   evidence:
   - kind: minutes
-    listed_in: 3
-    first: '2003-07-13'
+    listed_in: 8
+    first: '2000-12-10'
     last: '2003-11-09'
     examples:
-    - date: '2003-07-13'
-      subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/TEWG.TXT
-    - date: '2003-07-13'
-      subject: IETF 57 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/57/minutes/tewg.htm
+    - date: '2000-12-10'
+      subject: IETF 49 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/49/00dec-73.htm
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-131.htm
     - date: '2003-11-09'
       subject: IETF 58 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/58/minutes/tewg.htm
+      url: https://www.ietf.org/proceedings/58/219.htm
   - kind: proceedings
     listed_in: 11
     first: '2000-11-28'
@@ -95,6 +106,10 @@ chairs:
     - date: '2004-08-16'
       subject: IETF 61 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/61/tewg.html
+  - kind: minutes without them
+    date: '2000-07-31'
+    subject: IETF 48 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/48/00july-67.htm
 - person: 101471
   name: Daniel Awduche
   status: unconfirmed
@@ -104,12 +119,27 @@ chairs:
       not_after: '1999-09-29'
     end:
       certainty: between
-      not_before: '1999-09-29'
+      not_before: '2000-07-31'
       not_after: '2000-11-28'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1999-09-29)'
+    - 'End: listed as chair in meeting minutes (2000-07-31)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2000-11-28)'
   evidence:
+  - kind: minutes
+    listed_in: 3
+    first: '1999-11-07'
+    last: '2000-07-31'
+    examples:
+    - date: '1999-11-07'
+      subject: IETF 46 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-77.html
+    - date: '2000-03-26'
+      subject: IETF 47 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-74.html
+    - date: '2000-07-31'
+      subject: IETF 48 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/48/00july-67.htm
   - kind: proceedings
     listed_in: 3
     first: '1999-09-29'

@@ -2,6 +2,10 @@ acronym: pmtud
 name: Path MTU Discovery
 type: wg
 parent: tsv
+areas:
+- area: tsv
+  first: '2003-07-13'
+  last: '2007-04-04'
 state: conclude
 started: '2003-06-26'
 closed: '2007-04-04'
@@ -17,22 +21,22 @@ chairs:
   periods:
   - start:
       certainty: announced
-      date: '2003-08-26'
+      date: '2003-07-13'
     end:
       certainty: group-closed
       date: '2007-04-04'
     notes:
-    - 'Start: announced on the group''s list (2003-08-26)'
+    - 'Start: announced on the group''s list (2003-07-13)'
   evidence:
   - kind: list message
-    date: '2003-08-21'
+    date: '2003-07-13'
     says: start
     subject: '[pmtud] pmtud ietf57 vienna minutes, version 0'
     url: https://mailarchive.ietf.org/arch/msg/pmtud/BBHNF8oBl039j6slQoZS6lQEutA/
     excerpt: Matt Mathis led off the meeting presenting the new co-chair, the agenda, the changes to the
       proposed charter, and the aggressive milestones.
   - kind: list message
-    date: '2003-08-26'
+    date: '2003-07-13'
     says: start
     subject: '[pmtud] Minutes from the pmtud meeting at IETF57 - VIE'
     url: https://mailarchive.ietf.org/arch/msg/pmtud/JyIBOK2SmYAYoBp7YnfsRyvxlP4/

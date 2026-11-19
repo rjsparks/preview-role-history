@@ -2,6 +2,13 @@ acronym: payload
 name: Audio/Video Transport Payloads
 type: wg
 parent: art
+areas:
+- area: rai
+  first: '2011-12-09'
+  last: '2015-03-26'
+- area: art
+  first: '2015-05-29'
+  last: '2019-09-20'
 state: conclude
 started: '2010-12-03'
 closed: '2019-09-20'
@@ -19,20 +26,10 @@ chairs:
       certainty: on-or-before
       date: '2010-11-07'
     end:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2011-12-09'
-    notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
-  - start:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2012-03-13'
-    end:
       certainty: group-closed
       date: '2019-09-20'
     notes:
-    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2012-03-13)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
   evidence:
   - kind: WG Action
     date: '2011-01-25'

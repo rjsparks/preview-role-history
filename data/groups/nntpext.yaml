@@ -2,6 +2,10 @@ acronym: nntpext
 name: NNTP Extensions
 type: wg
 parent: app
+areas:
+- area: app
+  first: '1997-04-07'
+  last: '2005-10-07'
 state: conclude
 started: '1996-11-21'
 closed: '2005-10-07'
@@ -26,9 +30,18 @@ chairs:
       not_before: '1997-04-07'
       not_after: '1997-10-27'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
+    - 'Start: listed as chair in meeting minutes (1997-04-07)'
+    - 'End: listed as chair in meeting minutes (1997-04-07)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (1997-10-27)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '1997-04-07'
+    last: '1997-04-07'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr24.htm
   - kind: proceedings
     listed_in: 1
     first: '1997-04-07'
@@ -51,12 +64,27 @@ chairs:
       not_after: '1997-08-11'
     end:
       certainty: between
-      not_before: '1997-08-11'
+      not_before: '1999-11-07'
       not_after: '2000-03-26'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1997-08-11)'
+    - 'End: listed as chair in meeting minutes (1999-11-07)'
     - 'End: became an Area Director, first serving at IETF 47 (2000-03-26)'
   evidence:
+  - kind: minutes
+    listed_in: 7
+    first: '1997-12-08'
+    last: '1999-11-07'
+    examples:
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-19.htm
+    - date: '1998-03-30'
+      subject: IETF 41 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/41/98mar-edited-27.htm
+    - date: '1999-11-07'
+      subject: IETF 46 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-27.html
   - kind: proceedings
     listed_in: 8
     first: '1997-08-11'
@@ -85,12 +113,27 @@ chairs:
       not_after: '1997-08-11'
     end:
       certainty: between
-      not_before: '1997-08-11'
+      not_before: '2002-03-17'
       not_after: '2003-01-22'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1997-08-11)'
+    - 'End: listed as chair in meeting minutes (2002-03-17)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2003-01-22)'
   evidence:
+  - kind: minutes
+    listed_in: 12
+    first: '1997-12-08'
+    last: '2002-03-17'
+    examples:
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-19.htm
+    - date: '1998-03-30'
+      subject: IETF 41 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/41/98mar-edited-27.htm
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/119.htm
   - kind: proceedings
     listed_in: 14
     first: '1997-08-11'
@@ -115,12 +158,13 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '1996-11-21'
+      not_before: '2002-03-17'
       not_after: '2003-01-22'
     end:
       certainty: group-closed
       date: '2005-10-07'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2002-03-17)'
     - 'Start: listed as chair in a proceedings charter snapshot (2003-01-22)'
   evidence:
   - kind: proceedings
@@ -137,3 +181,7 @@ chairs:
     - date: '2005-06-27'
       subject: IETF 63 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/63/nntpext.html
+  - kind: minutes without them
+    date: '2002-03-17'
+    subject: IETF 53 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/53/119.htm

@@ -2,6 +2,10 @@ acronym: snmpconf
 name: Configuration Management with SNMP
 type: wg
 parent: ops
+areas:
+- area: ops
+  first: '2000-02-29'
+  last: '2005-03-25'
 state: conclude
 started: '2000-01-10'
 closed: '2005-03-25'
@@ -25,6 +29,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2000-02-29)'
   evidence:
+  - kind: minutes
+    listed_in: 4
+    first: '2000-03-26'
+    last: '2001-03-18'
+    examples:
+    - date: '2000-03-26'
+      subject: IETF 47 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-68.html
+    - date: '2000-07-31'
+      subject: IETF 48 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/48/00july-61.htm
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-70.htm
   - kind: proceedings
     listed_in: 12
     first: '2000-02-29'
@@ -45,14 +63,26 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2000-01-10'
+      not_before: '2000-07-31'
       not_after: '2000-11-05'
     end:
       certainty: group-closed
       date: '2005-03-25'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2000-07-31)'
     - 'Start: listed as chair in a proceedings charter snapshot (2000-11-05)'
   evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '2000-12-10'
+    last: '2001-03-18'
+    examples:
+    - date: '2000-12-10'
+      subject: IETF 49 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/49/00dec-67.htm
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-70.htm
   - kind: proceedings
     listed_in: 10
     first: '2000-11-05'
@@ -67,6 +97,10 @@ chairs:
     - date: '2005-01-18'
       subject: IETF 62 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/62/snmpconf.html
+  - kind: minutes without them
+    date: '2000-07-31'
+    subject: IETF 48 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/48/00july-61.htm
 - person: 17253
   name: David Harrington
   status: unconfirmed
@@ -76,17 +110,28 @@ chairs:
       not_after: '2000-01-31'
     end:
       certainty: between
-      not_before: '2000-01-31'
+      not_before: '2000-07-31'
       not_after: '2000-11-05'
     notes:
     - 'Start: named as chair in the WG Action announcement (2000-01-31)'
-    - 'End: named as chair in the WG Action announcement (2000-01-31)'
+    - 'End: listed as chair in meeting minutes (2000-07-31)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2000-11-05)'
   evidence:
   - kind: WG Action
     date: '2000-01-31'
     subject: 'WG Action: Configuration Management with SNMP (snmpconf)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/ITjOT24srEoZUnO_SlnRaCzAQdo/
+  - kind: minutes
+    listed_in: 2
+    first: '2000-03-26'
+    last: '2000-07-31'
+    examples:
+    - date: '2000-03-26'
+      subject: IETF 47 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-68.html
+    - date: '2000-07-31'
+      subject: IETF 48 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/48/00july-61.htm
   - kind: proceedings
     listed_in: 2
     first: '2000-02-29'

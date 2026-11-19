@@ -2,6 +2,16 @@ acronym: gsmp
 name: General Switch Management Protocol
 type: wg
 parent: sub
+areas:
+- area: rtg
+  first: '1999-02-01'
+  last: '2000-10-30'
+- area: gen
+  first: '2001-03-14'
+  last: '2001-03-14'
+- area: sub
+  first: '2001-07-31'
+  last: '2004-01-08'
 state: conclude
 started: '1999-01-07'
 closed: '2004-01-08'
@@ -34,19 +44,19 @@ chairs:
       subject: '[GSMP] Draft of minutes'
       url: https://mailarchive.ietf.org/arch/msg/gsmp/5x6PZfH-MslTdWs7Yh_aotl6pec/
   - kind: minutes
-    listed_in: 3
-    first: '2001-08-05'
-    last: '2002-03-17'
+    listed_in: 13
+    first: '1999-03-14'
+    last: '2002-11-17'
     examples:
-    - date: '2001-08-05'
-      subject: IETF 51 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/51/minutes/GSMP.HTM
-    - date: '2001-12-14'
-      subject: '[GSMP] Draft GSMP minutes'
-      url: https://mailarchive.ietf.org/arch/msg/gsmp/mRYPtyNfCpLWYJ1V893ZXnBBCNg/
-    - date: '2002-03-17'
-      subject: IETF 53 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/53/minutes/gsmp.htm
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-87.html
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-85.html
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/207.htm
   - kind: proceedings
     listed_in: 14
     first: '1999-02-01'
@@ -87,19 +97,19 @@ chairs:
       subject: '[GSMP] Draft GSMP minutes'
       url: https://mailarchive.ietf.org/arch/msg/gsmp/mRYPtyNfCpLWYJ1V893ZXnBBCNg/
   - kind: minutes
-    listed_in: 3
-    first: '2001-08-05'
-    last: '2002-03-17'
+    listed_in: 11
+    first: '1999-11-07'
+    last: '2002-11-17'
     examples:
-    - date: '2001-08-05'
-      subject: IETF 51 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/51/minutes/GSMP.HTM
-    - date: '2001-12-14'
-      subject: '[GSMP] Draft GSMP minutes'
-      url: https://mailarchive.ietf.org/arch/msg/gsmp/mRYPtyNfCpLWYJ1V893ZXnBBCNg/
-    - date: '2002-03-17'
-      subject: IETF 53 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/53/minutes/gsmp.htm
+    - date: '1999-11-07'
+      subject: IETF 46 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-96.html
+    - date: '2000-03-26'
+      subject: IETF 47 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-91.html
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/207.htm
   - kind: proceedings
     listed_in: 12
     first: '1999-10-26'

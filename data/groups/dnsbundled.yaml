@@ -2,6 +2,10 @@ acronym: dnsbundled
 name: Bundled Domains
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2016-10-06'
+  last: '2017-02-15'
 state: bof-conc
 started: '2016-10-06'
 closed: '2017-02-15'

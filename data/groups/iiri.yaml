@@ -2,6 +2,10 @@ acronym: iiri
 name: Internet Information Retrieval Infrastructure
 type: wg
 parent: app
+areas:
+- area: app
+  first: '2004-02-16'
+  last: '2005-05-11'
 state: conclude
 started: null
 closed: '2005-05-11'
@@ -37,7 +41,7 @@ chairs:
     examples:
     - date: '2004-02-29'
       subject: IETF 59 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/59/minutes/iiri.htm
+      url: https://www.ietf.org/proceedings/59/127.htm
   - kind: proceedings
     listed_in: 1
     first: '2004-02-16'

@@ -2,6 +2,10 @@ acronym: dmm
 name: Distributed Mobility Management
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2012-01-10'
+  last: '2026-11-18'
 state: active
 started: '2012-03-05'
 closed: null
@@ -76,12 +80,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2012-03-05'
-      not_after: '2012-03-25'
+      not_after: '2013-03-10'
     end:
       certainty: exact
       date: '2013-12-23'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2012-03-25)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2013-03-10)'
   evidence:
   - kind: proceedings
     listed_in: 6
@@ -192,12 +196,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2012-03-05'
-      not_after: '2012-03-14'
+      not_after: '2013-02-27'
     end:
       certainty: exact
       date: '2017-09-25'
     notes:
-    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2012-03-14)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2013-02-27)'
   evidence:
   - kind: WG Review
     date: '2014-10-03'

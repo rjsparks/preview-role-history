@@ -2,6 +2,10 @@ acronym: pcp
 name: Port Control Protocol
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2010-07-25'
+  last: '2017-11-13'
 state: conclude
 started: '2010-07-09'
 closed: '2017-11-13'

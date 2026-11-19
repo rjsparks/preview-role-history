@@ -2,6 +2,10 @@ acronym: psamp
 name: Packet Sampling
 type: wg
 parent: ops
+areas:
+- area: ops
+  first: '2002-06-28'
+  last: '2009-07-16'
 state: conclude
 started: '2002-06-04'
 closed: '2009-07-16'
@@ -46,16 +50,16 @@ chairs:
       subject: 'PSAMP WG agenda for IETF #61'
       url: https://mailarchive.ietf.org/arch/msg/psamp/8x3pisWAVtdZnop4z8VrvILpZKk/
   - kind: minutes
-    listed_in: 4
-    first: '2004-11-07'
+    listed_in: 5
+    first: '2002-11-17'
     last: '2005-04-08'
     examples:
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/165.htm
     - date: '2004-11-07'
       subject: IETF 61 minutes in the proceedings
       url: https://www.ietf.org/proceedings/61/minutes/psamp.html
-    - date: '2004-12-02'
-      subject: draft PSAMP minutes of IETF §61
-      url: https://mailarchive.ietf.org/arch/msg/psamp/h3LgueWiuzz8yX5L0-aaOLwib58/
     - date: '2005-04-08'
       subject: 'PSAMP minutes of IETF #62'
       url: https://mailarchive.ietf.org/arch/msg/psamp/HlNkcx_B4EKOyQtCEbJrqKuipw0/
@@ -82,12 +86,21 @@ chairs:
       not_after: '2002-06-28'
     end:
       certainty: between
-      not_before: '2002-06-28'
+      not_before: '2002-07-14'
       not_after: '2002-07-23'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2002-06-28)'
+    - 'End: listed as chair in meeting minutes (2002-07-14)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2002-07-23)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2002-07-14'
+    last: '2002-07-14'
+    examples:
+    - date: '2002-07-14'
+      subject: IETF 54 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/54/170.htm
   - kind: proceedings
     listed_in: 1
     first: '2002-06-28'
@@ -139,16 +152,16 @@ chairs:
       subject: '[PSAMP] WG last call on draft-ietf-psamp-protocol-05.txt until July 14'
       url: https://mailarchive.ietf.org/arch/msg/psamp/j8qt5jrnLYpbHLbgF4ObqZ0W90k/
   - kind: minutes
-    listed_in: 6
-    first: '2004-11-07'
+    listed_in: 7
+    first: '2002-11-17'
     last: '2006-03-19'
     examples:
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/165.htm
     - date: '2004-11-07'
       subject: IETF 61 minutes in the proceedings
       url: https://www.ietf.org/proceedings/61/minutes/psamp.html
-    - date: '2004-12-02'
-      subject: draft PSAMP minutes of IETF §61
-      url: https://mailarchive.ietf.org/arch/msg/psamp/h3LgueWiuzz8yX5L0-aaOLwib58/
     - date: '2006-03-19'
       subject: IETF 65 minutes in the proceedings
       url: https://www.ietf.org/proceedings/65/minutes/psamp.txt

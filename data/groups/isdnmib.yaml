@@ -2,6 +2,13 @@ acronym: isdnmib
 name: ISDN MIB
 type: wg
 parent: int
+areas:
+- area: mgt
+  first: '1995-04-03'
+  last: '1995-12-04'
+- area: int
+  first: '1997-04-07'
+  last: '1998-02-09'
 state: conclude
 started: '1995-05-11'
 closed: '1998-02-09'
@@ -27,6 +34,14 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1995-04-03)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '1997-04-07'
+    last: '1997-04-07'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr49.htm
   - kind: proceedings
     listed_in: 6
     first: '1995-04-03'

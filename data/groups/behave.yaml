@@ -2,6 +2,10 @@ acronym: behave
 name: Behavior Engineering for Hindrance Avoidance
 type: wg
 parent: tsv
+areas:
+- area: tsv
+  first: '2004-10-04'
+  last: '2013-10-17'
 state: conclude
 started: '2004-05-30'
 closed: '2013-10-17'
@@ -70,16 +74,16 @@ chairs:
       subject: '[BEHAVE] WGLC on draft-ietf-behave-nat-mib'
       url: https://mailarchive.ietf.org/arch/msg/behave/lVWc-a9UyjxyPN52WtMx1HNFoHk/
   - kind: minutes
-    listed_in: 15
+    listed_in: 14
     first: '2008-11-16'
     last: '2013-07-28'
     examples:
     - date: '2008-11-16'
       subject: IETF 73 minutes in the proceedings
       url: https://www.ietf.org/proceedings/73/minutes/behave.html
-    - date: '2008-11-16'
-      subject: IETF 73 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/73/minutes/behave.txt
+    - date: '2009-03-22'
+      subject: IETF 74 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/74/minutes/behave.txt
     - date: '2013-07-28'
       subject: IETF 87 minutes in the proceedings
       url: https://www.ietf.org/proceedings/87/minutes/minutes-87-behave.txt
@@ -161,7 +165,7 @@ chairs:
       subject: '[BEHAVE] WGLC draft-ietf-behave-tcp-04 completed'
       url: https://mailarchive.ietf.org/arch/msg/behave/nWyO4JoqhZ010Cu7xwTwFWjacw0/
   - kind: minutes
-    listed_in: 20
+    listed_in: 19
     first: '2006-07-09'
     last: '2013-07-28'
     examples:
@@ -256,7 +260,7 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/behave/oYLuFQxT8KMhe3aaEiD2FPNSo5Y/
     - date: '2004-11-07'
       subject: IETF 61 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/61/minutes/behave.html
+      url: https://www.ietf.org/proceedings/61/behave.html
     - date: '2005-03-06'
       subject: IETF 62 minutes in the proceedings
       url: https://www.ietf.org/proceedings/62/minutes/behave.html
@@ -283,12 +287,12 @@ chairs:
       not_after: '2004-08-01'
     end:
       certainty: between
-      not_before: '2007-08-12'
-      not_after: '2008-02-19'
+      not_before: '2006-03-19'
+      not_after: '2006-07-09'
     notes:
     - 'Start: listed as chair in meeting minutes (2004-08-01)'
-    - 'End: posted an agenda, minutes or interim notice to the group''s list (2007-08-12)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (2008-02-19)'
+    - 'End: requested the group''s session for IETF 65 (2006-03-19)'
+    - 'End: became an Area Director, first serving at IETF 66 (2006-07-09)'
   evidence:
   - kind: WG Action
     date: '2006-03-07'
@@ -302,8 +306,8 @@ chairs:
     excerpt: Effectively immediately Cullen Jennings has stepped down as Chair of the Behave WG.
   - kind: chair activity
     first: '2004-11-02'
-    last: '2007-08-12'
-    messages: 8
+    last: '2006-03-13'
+    messages: 7
     examples:
     - date: '2004-11-02'
       subject: '[Ietf-behave] Draft Agenda for BEHAVE'
@@ -324,7 +328,7 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/behave/oYLuFQxT8KMhe3aaEiD2FPNSo5Y/
     - date: '2004-11-07'
       subject: IETF 61 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/61/minutes/behave.html
+      url: https://www.ietf.org/proceedings/61/behave.html
     - date: '2005-03-06'
       subject: IETF 62 minutes in the proceedings
       url: https://www.ietf.org/proceedings/62/minutes/behave.html
@@ -342,10 +346,11 @@ chairs:
     - date: '2006-03-07'
       subject: IETF 65 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/65/behave.html
-  - kind: minutes without them
-    date: '2008-02-19'
-    subject: IETF 73 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/73/behave.html
+  - kind: joined the IESG
+    after_meeting: '65'
+    after: '2006-03-19'
+    by_meeting: '66'
+    by: '2006-07-09'
   - kind: session requests
     meetings:
     - '65'

@@ -2,6 +2,10 @@ acronym: tfesp
 name: Transport Friendly ESP
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '2026-11-18'
+  last: '2026-11-18'
 state: conclude
 started: null
 closed: null
@@ -16,7 +20,16 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-12-09'
+      certainty: between
+      not_before: '2005-03-06'
+      not_after: '2011-12-09'
     end:
       certainty: group-closed
+    notes:
+    - 'Start: became an Area Director, first serving at IETF 54 (2002-07-14)'
+  evidence:
+  - kind: joined the IESG
+    after_meeting: '53'
+    after: '2002-03-17'
+    by_meeting: '54'
+    by: '2002-07-14'

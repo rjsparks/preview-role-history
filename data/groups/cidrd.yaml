@@ -2,6 +2,10 @@ acronym: cidrd
 name: CIDR Deployment
 type: wg
 parent: ops-old
+areas:
+- area: ops-old
+  first: '1994-12-05'
+  last: '1996-12-19'
 state: conclude
 started: '1994-03-08'
 closed: '1996-12-19'

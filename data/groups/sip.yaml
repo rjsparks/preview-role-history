@@ -2,6 +2,13 @@ acronym: sip
 name: Session Initiation Protocol
 type: wg
 parent: rai
+areas:
+- area: tsv
+  first: '1999-10-25'
+  last: '2005-11-03'
+- area: rai
+  first: '2006-03-09'
+  last: '2009-05-01'
 state: conclude
 started: '1999-09-14'
 closed: '2009-05-01'
@@ -20,11 +27,11 @@ chairs:
       not_after: '1999-09-28'
     end:
       certainty: between
-      not_before: '2000-07-10'
+      not_before: '2000-07-31'
       not_after: '2000-10-13'
     notes:
     - 'Start: named as chair in the WG Action announcement (1999-09-28)'
-    - 'End: posted an agenda, minutes or interim notice to the group''s list (2000-07-10)'
+    - 'End: listed as chair in meeting minutes (2000-07-31)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2000-10-13)'
   evidence:
   - kind: WG Action
@@ -42,6 +49,20 @@ chairs:
     - date: '2000-03-06'
       subject: Agenda items for Adelaide
       url: https://mailarchive.ietf.org/arch/msg/sip/MNfyIpCbcbEe1q-LMPmzIQbiWuQ/
+  - kind: minutes
+    listed_in: 3
+    first: '1999-11-07'
+    last: '2000-07-31'
+    examples:
+    - date: '1999-11-07'
+      subject: IETF 46 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-152.html
+    - date: '2000-03-26'
+      subject: IETF 47 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-144.html
+    - date: '2000-07-31'
+      subject: IETF 48 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/48/00july-141.htm
   - kind: proceedings
     listed_in: 3
     first: '1999-10-25'
@@ -93,6 +114,20 @@ chairs:
     - date: '2002-08-17'
       subject: '[Sip] Draft SIP Minutes'
       url: https://mailarchive.ietf.org/arch/msg/sip/lqT_awO5BEtMTkEFABHJCnbzWJc/
+  - kind: minutes
+    listed_in: 10
+    first: '1999-11-07'
+    last: '2002-11-17'
+    examples:
+    - date: '1999-11-07'
+      subject: IETF 46 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-152.html
+    - date: '2000-03-26'
+      subject: IETF 47 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-144.html
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/234.htm
   - kind: proceedings
     listed_in: 9
     first: '1999-10-25'
@@ -149,6 +184,20 @@ chairs:
     - date: '2000-11-30'
       subject: '[SIP] WG Last Call on Caller Preferences'
       url: https://mailarchive.ietf.org/arch/msg/sip/ouqpRzK71-FMr5wP95rEVzC4vV4/
+  - kind: minutes
+    listed_in: 10
+    first: '1999-11-07'
+    last: '2002-11-17'
+    examples:
+    - date: '1999-11-07'
+      subject: IETF 46 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-152.html
+    - date: '2000-03-26'
+      subject: IETF 47 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-144.html
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/234.htm
   - kind: proceedings
     listed_in: 25
     first: '1999-10-25'
@@ -181,13 +230,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2002-11-17'
       not_after: '2003-01-27'
     end:
       certainty: between
       not_before: '2003-01-27'
       not_after: '2003-07-13'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2002-11-17)'
     - 'Start: listed as chair in a proceedings charter snapshot (2003-01-27)'
     - 'End: became an Area Director, first serving at IETF 57 (2003-07-13)'
   evidence:
@@ -199,6 +250,10 @@ chairs:
     - date: '2003-01-27'
       subject: IETF 56 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/56/243.htm
+  - kind: minutes without them
+    date: '2002-11-17'
+    subject: IETF 55 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/55/234.htm
   - kind: joined the IESG
     after_meeting: '56'
     after: '2003-03-16'
@@ -210,12 +265,13 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '1999-09-14'
+      not_before: '2002-11-17'
       not_after: '2006-07-09'
     end:
       certainty: group-closed
       date: '2009-05-01'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2002-11-17)'
     - 'Start: listed as chair in a proceedings charter snapshot (2006-07-09)'
   evidence:
   - kind: WG Action
@@ -236,17 +292,23 @@ chairs:
     - date: '2009-05-01'
       subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/sip.html
+  - kind: minutes without them
+    date: '2002-11-17'
+    subject: IETF 55 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/55/234.htm
 - person: 106987
   name: Brian Rosen
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2000-07-31'
       not_after: '2000-10-13'
     end:
       certainty: announced
       date: '2002-10-23'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2000-07-31)'
     - 'Start: listed as chair in a proceedings charter snapshot (2000-10-13)'
     - 'End: announced on the group''s list (2002-10-23)'
   evidence:
@@ -257,6 +319,20 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/sip/575N51yvUy7F2HyxvH8qca0_vD8/
     excerpt: Due to increased day job work, both Brian Rosen and Joerg Ott are stepping down from their
       SIP co-chairships.
+  - kind: minutes
+    listed_in: 7
+    first: '2000-12-10'
+    last: '2002-11-17'
+    examples:
+    - date: '2000-12-10'
+      subject: IETF 49 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/49/00dec-152.htm
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-155.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/234.htm
   - kind: proceedings
     listed_in: 6
     first: '2000-10-13'
@@ -271,19 +347,23 @@ chairs:
     - date: '2002-07-03'
       subject: IETF 54 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/54/238.htm
+  - kind: minutes without them
+    date: '2000-07-31'
+    subject: IETF 48 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/48/00july-141.htm
 - person: 129485
   name: Rohan Mahy
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '2001-01-11'
+      certainty: announced
+      date: '2002-11-17'
     end:
       certainty: between
       not_before: '2006-02-23'
       not_after: '2006-10-17'
     notes:
-    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2001-01-11)'
+    - 'Start: announced on the group''s list (2002-11-17)'
     - 'End: started a last call or adoption call on the group''s list (2006-02-23)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2006-10-17)'
   evidence:
@@ -292,22 +372,16 @@ chairs:
     subject: 'WG Action: RECHARTER: Session Initiation Protocol (sip)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/BV75YiNQWpWQOAxQX89_HtfNSg4/
   - kind: list message
-    date: '2002-12-20'
+    date: '2002-11-17'
     says: start
     subject: '[Sip] Minutes, SIP Working Group, IETF 55'
     url: https://mailarchive.ietf.org/arch/msg/sip/gjoO0a4jfXWh4oKK1Z2iFp_PFks/
     excerpt: New co-chairs Rohan Mahy and Jon Peterson introduced.
   - kind: chair activity
-    first: '2001-01-11'
+    first: '2002-11-01'
     last: '2006-02-23'
-    messages: 24
+    messages: 15
     examples:
-    - date: '2001-01-11'
-      subject: '[SIP] Open Issues Interim Meeting Feb 8th and 9th'
-      url: https://mailarchive.ietf.org/arch/msg/sip/vkYGVjHSXyh7F7UfsfJl0_L73VI/
-    - date: '2001-01-15'
-      subject: '[SIP] Need rough count for interim meeting'
-      url: https://mailarchive.ietf.org/arch/msg/sip/4Ho8F82JUjLyBPVHXtpslgQeNAA/
     - date: '2002-11-01'
       subject: '[Sip] WGLC (redux) for draft-ietf-sip-sec-agree-05.txt'
       url: https://mailarchive.ietf.org/arch/msg/sip/87sQqllzjr0sHbJYLlOx_7LZF64/
@@ -317,6 +391,9 @@ chairs:
     - date: '2002-11-01'
       subject: '[Sip] WGLC (official) for scvrtdisco'
       url: https://mailarchive.ietf.org/arch/msg/sip/YrdPMzbV5b8HZkflj5LdzJv6Kcc/
+    - date: '2004-04-06'
+      subject: '[Sip] Joint Interim Meeting Mon May 24 - Wed May 26'
+      url: https://mailarchive.ietf.org/arch/msg/sip/l8ZO-Cr7vjk8SsN27uUg5ch4fK8/
   - kind: proceedings
     listed_in: 9
     first: '2003-01-27'

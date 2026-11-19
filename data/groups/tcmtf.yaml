@@ -2,6 +2,10 @@ acronym: tcmtf
 name: Tunneling Compressed Multiplexed Traffic Flows
 type: wg
 parent: tsv
+areas:
+- area: tsv
+  first: '2013-06-20'
+  last: '2026-11-18'
 state: bof-conc
 started: '2013-06-20'
 closed: null
@@ -59,12 +63,6 @@ chairs:
   name: Jana Iyengar
   status: confirmed
   periods:
-  - start:
-      certainty: between
-      not_before: '2013-06-20'
-      not_after: '2013-09-24'
-    end:
-      certainty: group-closed
   - start:
       certainty: between
       not_before: '2013-06-20'

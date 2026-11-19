@@ -2,6 +2,13 @@ acronym: l2vpn
 name: Layer 2 Virtual Private Networks
 type: wg
 parent: rtg
+areas:
+- area: int
+  first: '2003-07-09'
+  last: '2009-10-19'
+- area: rtg
+  first: '2010-03-25'
+  last: '2014-11-20'
 state: conclude
 started: '2003-06-09'
 closed: '2014-11-20'
@@ -193,7 +200,7 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/l2vpn/Lr5v086nXdMhV9hZNjY9jp2bcV8/
     - date: '2005-07-31'
       subject: IETF 63 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/63/minutes/l2vpn.html
+      url: https://www.ietf.org/proceedings/63/l2vpn.html
   - kind: proceedings
     listed_in: 8
     first: '2005-07-13'

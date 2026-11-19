@@ -2,6 +2,16 @@ acronym: cdni
 name: Content Delivery Networks Interconnection
 type: wg
 parent: wit
+areas:
+- area: tsv
+  first: '2011-12-09'
+  last: '2013-05-29'
+- area: art
+  first: '2015-05-29'
+  last: '2022-05-06'
+- area: wit
+  first: '2024-01-17'
+  last: '2026-11-18'
 state: active
 started: '2011-06-28'
 closed: null
@@ -48,16 +58,16 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/cdni/2oynU_0oOGb22gQSayBWzJoq2JQ/
     excerpt: Rich Woundy stepped down as CDNI co-chair at the end of the IETF-86 meeting.
   - kind: minutes
-    listed_in: 5
+    listed_in: 4
     first: '2011-03-27'
     last: '2012-03-25'
     examples:
     - date: '2011-03-27'
       subject: IETF 80 minutes in the proceedings
       url: https://www.ietf.org/proceedings/80/minutes/cdni.htm
-    - date: '2011-03-27'
-      subject: IETF 80 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/80/minutes/cdni.txt
+    - date: '2011-07-24'
+      subject: IETF 81 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/81/minutes/cdni.txt
     - date: '2012-03-25'
       subject: IETF 83 minutes in the proceedings
       url: https://www.ietf.org/proceedings/83/minutes/minutes-83-cdni.txt
@@ -119,16 +129,16 @@ chairs:
       subject: '[CDNi] WG Last Call on draft-ietf-cdni-requirements-06.txt'
       url: https://mailarchive.ietf.org/arch/msg/cdni/fpJOVGtUeZXQ6aJHOBbH4sTpX4U/
   - kind: minutes
-    listed_in: 5
+    listed_in: 4
     first: '2011-03-27'
     last: '2012-03-25'
     examples:
     - date: '2011-03-27'
       subject: IETF 80 minutes in the proceedings
       url: https://www.ietf.org/proceedings/80/minutes/cdni.htm
-    - date: '2011-03-27'
-      subject: IETF 80 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/80/minutes/cdni.txt
+    - date: '2011-07-24'
+      subject: IETF 81 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/81/minutes/cdni.txt
     - date: '2012-03-25'
       subject: IETF 83 minutes in the proceedings
       url: https://www.ietf.org/proceedings/83/minutes/minutes-83-cdni.txt

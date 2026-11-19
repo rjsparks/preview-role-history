@@ -2,6 +2,10 @@ acronym: mhtml
 name: MIME Encapsulation of Aggregate HTML Documents
 type: wg
 parent: app
+areas:
+- area: app
+  first: '1997-04-07'
+  last: '1999-06-25'
 state: conclude
 started: '1996-03-25'
 closed: '1999-06-25'
@@ -23,8 +27,22 @@ chairs:
       certainty: group-closed
       date: '1999-06-25'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
+    - 'Start: listed as chair in meeting minutes (1997-04-07)'
   evidence:
+  - kind: minutes
+    listed_in: 6
+    first: '1997-04-07'
+    last: '1999-03-14'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr22.htm
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-23.htm
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-26.html
   - kind: proceedings
     listed_in: 5
     first: '1997-04-07'

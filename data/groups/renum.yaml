@@ -2,6 +2,10 @@ acronym: renum
 name: Site Renumbering
 type: wg
 parent: ops
+areas:
+- area: ops
+  first: '2011-12-09'
+  last: '2026-11-18'
 state: bof-conc
 started: null
 closed: null
@@ -22,11 +26,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-11-07'
+      certainty: between
+      not_before: '2007-07-22'
+      not_after: '2010-11-07'
     end:
       certainty: group-closed
     notes:
+    - 'Start: became an Area Director, first serving at IETF 63 (2005-07-31)'
     - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
   evidence:
   - kind: proceedings
@@ -48,6 +54,11 @@ chairs:
     meeting: '80'
     date: '2011-03-27'
     url: https://www.ietf.org/proceedings/80/renum.html
+  - kind: joined the IESG
+    after_meeting: '62'
+    after: '2005-03-06'
+    by_meeting: '63'
+    by: '2005-07-31'
 - person: 106461
   name: Tim Chown
   status: confirmed

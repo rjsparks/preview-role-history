@@ -2,6 +2,10 @@ acronym: sipbrandy
 name: SIP Best-practice Recommendations Against Network Dangers to privacY
 type: wg
 parent: art
+areas:
+- area: art
+  first: '2016-05-15'
+  last: '2021-02-04'
 state: conclude
 started: '2016-05-15'
 closed: '2021-02-04'
@@ -16,12 +20,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2016-04-03'
+      certainty: between
+      not_before: '2014-07-20'
+      not_after: '2016-04-03'
     end:
       certainty: group-closed
       date: '2021-02-04'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 78 (2010-07-25)'
     - 'Start: listed as chair in a proceedings charter snapshot (2016-04-03)'
   evidence:
   - kind: WG Review
@@ -68,6 +74,11 @@ chairs:
     - date: '2016-11-13'
       subject: IETF 97 proceedings charter
       url: https://www.ietf.org/proceedings/97/sipbrandy.html
+  - kind: joined the IESG
+    after_meeting: '77'
+    after: '2010-03-21'
+    by_meeting: '78'
+    by: '2010-07-25'
   - kind: shepherded
     documents:
     - draft-ietf-sipbrandy-osrtp

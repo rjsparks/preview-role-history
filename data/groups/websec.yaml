@@ -2,6 +2,10 @@ acronym: websec
 name: Web Security
 type: wg
 parent: app
+areas:
+- area: app
+  first: '2010-07-25'
+  last: '2015-04-21'
 state: conclude
 started: '2010-09-23'
 closed: '2015-04-21'
@@ -16,13 +20,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: announced
-      date: '2011-04-22'
+      certainty: on-or-before
+      date: '2011-07-24'
+      not_before: '2010-09-23'
     end:
       certainty: exact
       date: '2012-07-30'
     notes:
-    - 'Start: announced on the group''s list (2011-04-22)'
+    - 'Start: listed as chair in meeting minutes (2011-07-24)'
   evidence:
   - kind: list message
     date: '2011-04-22'

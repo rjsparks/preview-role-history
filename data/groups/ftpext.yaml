@@ -2,6 +2,10 @@ acronym: ftpext
 name: Extensions to FTP
 type: wg
 parent: app
+areas:
+- area: app
+  first: '1997-04-07'
+  last: '2004-01-08'
 state: conclude
 started: '1996-09-19'
 closed: '2004-01-08'
@@ -25,6 +29,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
   evidence:
+  - kind: minutes
+    listed_in: 3
+    first: '1998-12-07'
+    last: '1999-07-11'
+    examples:
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-18.html
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-17.html
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-17.html
   - kind: proceedings
     listed_in: 9
     first: '1997-04-07'

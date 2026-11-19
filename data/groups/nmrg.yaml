@@ -2,6 +2,7 @@ acronym: nmrg
 name: Network Management
 type: rg
 parent: irtf
+areas: []
 state: active
 started: null
 closed: null
@@ -21,11 +22,11 @@ chairs:
     end:
       certainty: between
       not_before: '2010-08-20'
-      not_after: '2018-07-13'
+      not_after: '2013-07-28'
     notes:
     - 'Start: posted an agenda, minutes or interim notice to the group''s list (1999-12-01)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2010-08-20)'
-    - 'End: not listed among the chairs in meeting minutes (2018-07-13)'
+    - 'End: not listed among the chairs in meeting minutes (2013-07-28)'
   evidence:
   - kind: chair activity
     first: '1999-12-01'
@@ -39,9 +40,9 @@ chairs:
       subject: '[nmrg] minutes from the 7th NMRG meeting'
       url: https://mailarchive.ietf.org/arch/msg/nmrg/LVEW19e_ZfqLahLJ99kOqCOvxSk/
   - kind: minutes without them
-    date: '2018-07-13'
-    subject: '[nmrg] Minutes and Jabber scribes - RE: NMRG @ IETF 102 - Agenda is online'
-    url: https://mailarchive.ietf.org/arch/msg/nmrg/iJp6-u8StuSLjwmYB_HeBcEwOnE/
+    date: '2013-07-28'
+    subject: IETF 87 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/87/nmrg.html
   - kind: session requests
     meetings:
     - '66'
@@ -89,7 +90,7 @@ chairs:
       subject: '[nmrg] call for adoption as RG document : draft-kdj-nmrg-ibn-use-cases'
       url: https://mailarchive.ietf.org/arch/msg/nmrg/QuX27wdWxvup939IEN28ugxmu7U/
   - kind: minutes
-    listed_in: 5
+    listed_in: 9
     first: '2015-11-01'
     last: '2019-11-18'
     examples:
@@ -135,6 +136,20 @@ chairs:
     - date: '2013-11-30'
       subject: '[nmrg] Minutes of NMRG 32'
       url: https://mailarchive.ietf.org/arch/msg/nmrg/7KW3FJLe3fV2StssSNinIShGYR8/
+  - kind: minutes
+    listed_in: 7
+    first: '2013-07-28'
+    last: '2015-07-19'
+    examples:
+    - date: '2013-07-28'
+      subject: IETF 87 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/87/nmrg.html
+    - date: '2013-11-03'
+      subject: IETF 88 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/88/nmrg.html
+    - date: '2015-07-19'
+      subject: IETF 93 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/93/nmrg.html
   - kind: proceedings
     listed_in: 11
     first: '2012-03-25'
@@ -168,10 +183,16 @@ chairs:
     excerpt: I would like to deeply thank Lisandro for all the great work achieved under his guidance,
       and the nice interactions we had and will continue to have through the NMRG!
   - kind: minutes
-    listed_in: 1
-    first: '2018-07-13'
+    listed_in: 12
+    first: '2013-07-28'
     last: '2018-07-13'
     examples:
+    - date: '2013-07-28'
+      subject: IETF 87 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/87/nmrg.html
+    - date: '2013-11-03'
+      subject: IETF 88 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/88/nmrg.html
     - date: '2018-07-13'
       subject: '[nmrg] Minutes and Jabber scribes - RE: NMRG @ IETF 102 - Agenda is online'
       url: https://mailarchive.ietf.org/arch/msg/nmrg/iJp6-u8StuSLjwmYB_HeBcEwOnE/
@@ -214,6 +235,86 @@ chairs:
     - draft-irtf-nmrg-ai-challenges
     - draft-irtf-nmrg-ibn-usecases
     - draft-kdj-nmrg-ibn-usecases
+- person: 120085
+  name: Ricardo Schmidt
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2016-04-03'
+      not_after: '2016-07-17'
+    end:
+      certainty: between
+      not_before: '2017-03-26'
+      not_after: '2018-07-13'
+    notes:
+    - 'Start: not listed among the chairs in meeting minutes (2016-04-03)'
+    - 'Start: listed as chair in meeting minutes (2016-07-17)'
+    - 'End: listed as chair in meeting minutes (2017-03-26)'
+    - 'End: not listed among the chairs in meeting minutes (2018-07-13)'
+  evidence:
+  - kind: minutes
+    listed_in: 3
+    first: '2016-07-17'
+    last: '2017-03-26'
+    examples:
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/nmrg.html
+    - date: '2016-11-13'
+      subject: IETF 97 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/97/nmrg.html
+    - date: '2017-03-26'
+      subject: IETF 98 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/98/nmrg.html
+  - kind: minutes without them
+    date: '2016-04-03'
+    subject: IETF 95 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/95/nmrg.html
+  - kind: minutes without them
+    date: '2018-07-13'
+    subject: '[nmrg] Minutes and Jabber scribes - RE: NMRG @ IETF 102 - Agenda is online'
+    url: https://mailarchive.ietf.org/arch/msg/nmrg/iJp6-u8StuSLjwmYB_HeBcEwOnE/
+- person: 120087
+  name: Ramin Sadre
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: between
+      not_before: '2016-04-03'
+      not_after: '2016-07-17'
+    end:
+      certainty: between
+      not_before: '2017-03-26'
+      not_after: '2018-07-13'
+    notes:
+    - 'Start: not listed among the chairs in meeting minutes (2016-04-03)'
+    - 'Start: listed as chair in meeting minutes (2016-07-17)'
+    - 'End: listed as chair in meeting minutes (2017-03-26)'
+    - 'End: not listed among the chairs in meeting minutes (2018-07-13)'
+  evidence:
+  - kind: minutes
+    listed_in: 3
+    first: '2016-07-17'
+    last: '2017-03-26'
+    examples:
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/nmrg.html
+    - date: '2016-11-13'
+      subject: IETF 97 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/97/nmrg.html
+    - date: '2017-03-26'
+      subject: IETF 98 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/98/nmrg.html
+  - kind: minutes without them
+    date: '2016-04-03'
+    subject: IETF 95 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/95/nmrg.html
+  - kind: minutes without them
+    date: '2018-07-13'
+    subject: '[nmrg] Minutes and Jabber scribes - RE: NMRG @ IETF 102 - Agenda is online'
+    url: https://mailarchive.ietf.org/arch/msg/nmrg/iJp6-u8StuSLjwmYB_HeBcEwOnE/
 - person: 121666
   name: Jérôme François
   status: confirmed

@@ -2,6 +2,10 @@ acronym: pktway
 name: PacketWay
 type: wg
 parent: int
+areas:
+- area: int
+  first: '1997-04-07'
+  last: '1999-08-11'
 state: conclude
 started: '1995-06-28'
 closed: '1999-08-11'
@@ -25,6 +29,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
   evidence:
+  - kind: minutes
+    listed_in: 7
+    first: '1997-08-11'
+    last: '1999-07-11'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-55.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-52.htm
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-56.html
   - kind: proceedings
     listed_in: 6
     first: '1997-04-07'

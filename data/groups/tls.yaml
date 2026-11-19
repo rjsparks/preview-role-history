@@ -2,6 +2,10 @@ acronym: tls
 name: Transport Layer Security
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '1997-04-07'
+  last: '2026-11-18'
 state: active
 started: '1996-05-07'
 closed: null
@@ -23,12 +27,27 @@ chairs:
       not_after: '1997-04-07'
     end:
       certainty: between
-      not_before: '1997-04-07'
+      not_before: '2002-11-17'
       not_after: '2006-02-02'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
+    - 'End: listed as chair in meeting minutes (2002-11-17)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2006-02-02)'
   evidence:
+  - kind: minutes
+    listed_in: 12
+    first: '1997-12-08'
+    last: '2002-11-17'
+    examples:
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-111.htm
+    - date: '1998-03-30'
+      subject: IETF 41 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/41/98mar-edited-114.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/203.htm
   - kind: proceedings
     listed_in: 15
     first: '1997-04-07'
@@ -530,31 +549,31 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2008-03-09'
-      not_after: '2008-07-27'
+      not_before: '2011-11-13'
+      not_after: '2012-03-25'
     end:
       certainty: evidence-only
       not_before: '2017-11-11'
     notes:
-    - 'Start: not listed among the chairs in meeting minutes (2008-03-09)'
-    - 'Start: listed as chair in meeting minutes (2008-07-27)'
+    - 'Start: not listed among the chairs in meeting minutes (2011-11-13)'
+    - 'Start: listed as chair in meeting minutes (2012-03-25)'
     - 'End: listed as chair in meeting minutes (2017-11-11)'
   evidence:
   - kind: minutes
-    listed_in: 11
-    first: '2008-07-27'
+    listed_in: 9
+    first: '2012-03-25'
     last: '2017-11-11'
     examples:
-    - date: '2008-07-27'
-      subject: '[TLS] IETF 72 - TLS Working Group Draft Minutes'
-      url: https://mailarchive.ietf.org/arch/msg/tls/_n0YActyK9tW6ESUewjXn4r3bno/
-    - date: '2009-03-22'
-      subject: IETF 74 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/74/minutes/tls.txt
+    - date: '2012-03-25'
+      subject: IETF 83 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/83/minutes/minutes-83-tls.txt
+    - date: '2012-11-04'
+      subject: IETF 85 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/85/minutes/minutes-85-tls.txt
     - date: '2017-11-11'
       subject: '[TLS] Drafts minutes for TLS at IETF-100'
       url: https://mailarchive.ietf.org/arch/msg/tls/vjfcOEA-TR0cxXiKOTth7IjSryE/
   - kind: minutes without them
-    date: '2008-03-09'
-    subject: IETF 71 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/71/minutes/tls.txt
+    date: '2011-11-13'
+    subject: IETF 82 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/82/minutes/tls.txt

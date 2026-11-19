@@ -2,6 +2,10 @@ acronym: artmib
 name: Application Response Time MIB
 type: wg
 parent: ops
+areas:
+- area: ops
+  first: '2026-11-18'
+  last: '2026-11-18'
 state: conclude
 started: null
 closed: null

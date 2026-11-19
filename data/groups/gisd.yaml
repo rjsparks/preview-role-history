@@ -2,6 +2,10 @@ acronym: gisd
 name: Generic Internet Service Description
 type: wg
 parent: ops-old
+areas:
+- area: ops-old
+  first: '1994-12-05'
+  last: '1995-10-17'
 state: conclude
 started: '1993-09-22'
 closed: '1995-10-17'

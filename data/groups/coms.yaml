@@ -2,6 +2,10 @@ acronym: coms
 name: Common Operations and Management on network Slices
 type: wg
 parent: ops
+areas:
+- area: ops
+  first: '2018-02-05'
+  last: '2018-06-05'
 state: bof-conc
 started: '2018-02-05'
 closed: '2018-06-05'
@@ -38,13 +42,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2015-07-19'
       not_after: '2017-07-05'
     end:
       certainty: between
       not_before: '2017-07-20'
       not_after: '2018-02-27'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 75 (2009-07-26)'
     - 'Start: posted an agenda, minutes or interim notice to the group''s list (2017-07-05)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2017-07-20)'
   - start:
@@ -73,3 +79,8 @@ chairs:
     meeting: '101'
     date: '2018-03-17'
     url: https://datatracker.ietf.org/meeting/101/session/coms/
+  - kind: joined the IESG
+    after_meeting: '74'
+    after: '2009-03-22'
+    by_meeting: '75'
+    by: '2009-07-26'

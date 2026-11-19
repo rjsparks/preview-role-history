@@ -2,6 +2,10 @@ acronym: issll
 name: Integrated Services over Specific Link Layers
 type: wg
 parent: tsv
+areas:
+- area: tsv
+  first: '1997-04-07'
+  last: '2002-05-13'
 state: conclude
 started: '1996-05-14'
 closed: '2002-05-13'
@@ -28,6 +32,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
   evidence:
+  - kind: minutes
+    listed_in: 12
+    first: '1997-08-11'
+    last: '2001-03-18'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-113.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-117.htm
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-142.htm
   - kind: proceedings
     listed_in: 14
     first: '1997-04-07'
@@ -56,6 +74,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
   evidence:
+  - kind: minutes
+    listed_in: 12
+    first: '1997-08-11'
+    last: '2001-03-18'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-113.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-117.htm
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-142.htm
   - kind: proceedings
     listed_in: 14
     first: '1997-04-07'

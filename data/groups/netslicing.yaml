@@ -2,6 +2,10 @@ acronym: netslicing
 name: Network Slicing
 type: wg
 parent: ops
+areas:
+- area: ops
+  first: '2017-06-07'
+  last: '2017-10-05'
 state: bof-conc
 started: '2017-06-07'
 closed: '2017-10-05'

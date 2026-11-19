@@ -2,6 +2,10 @@ acronym: ppp
 name: Point-to-Point Protocol
 type: wg
 parent: int
+areas:
+- area: int
+  first: '1989-11-03'
+  last: '1989-11-03'
 state: conclude
 started: '1988-03-01'
 closed: '1989-11-03'

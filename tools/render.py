@@ -348,7 +348,7 @@ Dates marked <span class="q">?</span> are not exact; <a href="#dates">reading th
 <thead><tr><th>Chair</th><th>From</th><th>Until</th><th>Basis</th><th><span class="sr">Actions</span></th></tr></thead>
 <tbody>{''.join(lines)}</tbody></table></div>"""
         body = f"""<h1>{e(acronym)} <span class="muted">{e(g.get('name'))}</span></h1>
-<p class="lede">{e('BOF' if cd.never_chartered(g) else TYPE_NAMES.get(g.get('type'), g.get('type')))} in {e(g.get('parent') or 'no area')},
+<p class="lede">{e('BOF' if cd.never_chartered(g) else TYPE_NAMES.get(g.get('type'), g.get('type')))} in {self.areas_text(g)},
 {e(state)}{(', ' + e(life)) if life else ''}.
 {self.group_links(g)}</p>
 {('<p>' + self.bof_history(g) + '</p>') if self.bof_history(g) else ''}
@@ -390,7 +390,10 @@ or use the links on each row. Dates marked <span class="q">?</span> are not exac
     def groups_index(self):
         by_parent = defaultdict(list)
         for g in self.data.groups.values():
-            by_parent[g.get("parent") or "(none)"].append(g)
+            # A group that moved is listed under every area it was in.
+            for area in dict.fromkeys(r["area"] for r in (g.get("areas") or []) if isinstance(r, dict) and r.get("area")) \
+                    or [g.get("parent") or "(none)"]:
+                by_parent[area].append(g)
         sections = []
         for parent in sorted(by_parent):
             items = "".join(
@@ -470,6 +473,22 @@ Each opens a short GitHub issue form, already filled in with the row you clicked
             return ""
         label, meaning = PHASES[phase]
         return f'<div class="labels"><span class="label label-{phase}" title="{e(meaning)}">{e(label)}</span></div>'
+
+    @staticmethod
+    def areas_text(g):
+        """Every area the group was in, with years: "tsv (1995–2005), then rai (2006–2011)"."""
+        runs = [r for r in (g.get("areas") or []) if isinstance(r, dict) and r.get("area")]
+        if len(runs) < 2:
+            return e((runs[0]["area"] if runs else None) or g.get("parent") or "no area")
+
+        still_open = g.get("state") not in cd.CLOSED_STATES
+
+        def years(r, last):
+            a, b = str(r.get("first", ""))[:4], str(r.get("last", ""))[:4]
+            if last and still_open:
+                return f"since {a}"
+            return a if a == b else f"{a}–{b}"
+        return ", then ".join(f"{e(r['area'])} ({years(r, i == len(runs) - 1)})" for i, r in enumerate(runs))
 
     @staticmethod
     def bof_history(g):

@@ -2,6 +2,10 @@ acronym: iotops
 name: IOT Operations
 type: wg
 parent: ops
+areas:
+- area: ops
+  first: '2020-10-08'
+  last: '2026-11-18'
 state: active
 started: '2020-10-08'
 closed: null
@@ -16,10 +20,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2020-10-08'
+      certainty: between
+      not_before: '2020-07-27'
+      not_after: '2020-10-08'
     end:
       certainty: ongoing
+    notes:
+    - 'Start: became an Area Director, first serving at IETF 96 (2016-07-17)'
   evidence:
   - kind: WG Review
     date: '2021-01-22'
@@ -57,6 +64,11 @@ chairs:
     - date: '2024-04-17'
       subject: '[Iotops] WGLC on draft-ietf-iotops-security-protocol-comparison-06'
       url: https://mailarchive.ietf.org/arch/msg/iotops/5a7aUkDAgeDuoMpck_goHC6BeVk/
+  - kind: joined the IESG
+    after_meeting: '95'
+    after: '2016-04-03'
+    by_meeting: '96'
+    by: '2016-07-17'
 - person: 117723
   name: Henk Birkholz
   status: confirmed

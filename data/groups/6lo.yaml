@@ -2,6 +2,10 @@ acronym: 6lo
 name: IPv6 over Networks of Resource-constrained Nodes
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2013-06-20'
+  last: '2026-11-18'
 state: active
 started: '2013-06-20'
 closed: null

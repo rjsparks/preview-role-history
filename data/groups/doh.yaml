@@ -2,6 +2,10 @@ acronym: doh
 name: DNS Over HTTPS
 type: wg
 parent: art
+areas:
+- area: art
+  first: '2017-09-06'
+  last: '2020-03-17'
 state: conclude
 started: '2017-09-06'
 closed: '2020-03-17'

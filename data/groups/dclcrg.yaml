@@ -2,6 +2,7 @@ acronym: dclcrg
 name: Proposed Data Center Latency Control Research Group
 type: rg
 parent: irtf
+areas: []
 state: abandon
 started: '2014-06-26'
 closed: '2016-08-31'
@@ -23,13 +24,19 @@ chairs:
       date: '2016-08-31'
   evidence:
   - kind: minutes
-    listed_in: 1
+    listed_in: 6
     first: '2014-07-20'
-    last: '2014-07-20'
+    last: '2016-04-03'
     examples:
     - date: '2014-07-20'
       subject: IETF 90 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/90/minutes/minutes-90-dclcrg.txt
+      url: https://www.ietf.org/proceedings/90/dclcrg.html
+    - date: '2014-11-09'
+      subject: IETF 91 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/91/dclcrg.html
+    - date: '2016-04-03'
+      subject: IETF 95 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/95/dclcrg.html
   - kind: proceedings
     listed_in: 6
     first: '2014-07-20'
@@ -55,6 +62,20 @@ chairs:
       certainty: exact
       date: '2016-08-31'
   evidence:
+  - kind: minutes
+    listed_in: 6
+    first: '2014-07-20'
+    last: '2016-04-03'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/90/dclcrg.html
+    - date: '2014-11-09'
+      subject: IETF 91 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/91/dclcrg.html
+    - date: '2016-04-03'
+      subject: IETF 95 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/95/dclcrg.html
   - kind: proceedings
     listed_in: 6
     first: '2014-07-20'

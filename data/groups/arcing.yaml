@@ -2,6 +2,10 @@ acronym: arcing
 name: Alternative Resolution Contexts for Internet Naming
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2016-02-26'
+  last: '2016-06-10'
 state: bof-conc
 started: '2016-02-26'
 closed: '2016-06-10'
@@ -30,9 +34,17 @@ chairs:
       not_after: '2016-06-10'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2015-11-01)'
-    - 'End: the BOF met at IETF 95 (2016-04-03)'
+    - 'End: listed as chair in meeting minutes (2016-04-03)'
     - 'End: the group closed (2016-06-10)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2016-04-03'
+    last: '2016-04-03'
+    examples:
+    - date: '2016-04-03'
+      subject: IETF 95 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/95/arcing.html
   - kind: proceedings
     listed_in: 2
     first: '2015-11-01'
@@ -65,9 +77,17 @@ chairs:
       not_after: '2016-06-10'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2015-11-01)'
-    - 'End: the BOF met at IETF 95 (2016-04-03)'
+    - 'End: listed as chair in meeting minutes (2016-04-03)'
     - 'End: the group closed (2016-06-10)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2016-04-03'
+    last: '2016-04-03'
+    examples:
+    - date: '2016-04-03'
+      subject: IETF 95 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/95/arcing.html
   - kind: proceedings
     listed_in: 2
     first: '2015-11-01'

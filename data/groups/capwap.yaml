@@ -2,6 +2,10 @@ acronym: capwap
 name: Control And Provisioning of Wireless Access Points
 type: wg
 parent: ops
+areas:
+- area: ops
+  first: '2004-02-02'
+  last: '2011-12-09'
 state: conclude
 started: '2004-01-02'
 closed: '2010-05-10'
@@ -76,10 +80,13 @@ chairs:
     subject: 'WG Action: RECHARTER: Control And Provisioning of Wireless Access Points (capwap)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/l11oIrgcj7zCCmfJyLSnxk9FNWc/
   - kind: minutes
-    listed_in: 1
-    first: '2007-03-18'
+    listed_in: 2
+    first: '2004-02-29'
     last: '2007-03-18'
     examples:
+    - date: '2004-02-29'
+      subject: IETF 59 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/59/163.htm
     - date: '2007-03-18'
       subject: IETF 68 minutes in the proceedings
       url: https://www.ietf.org/proceedings/68/minutes/capwap.htm
@@ -115,12 +122,13 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2004-01-02'
+      not_before: '2006-07-09'
       not_after: '2006-07-17'
     end:
       certainty: group-closed
       date: '2010-05-10'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 58 (2003-11-09)'
     - 'Start: listed as chair in a proceedings charter snapshot (2006-07-17)'
   evidence:
   - kind: chair activity
@@ -162,6 +170,11 @@ chairs:
     - date: '2008-08-21'
       subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/capwap.html
+  - kind: joined the IESG
+    after_meeting: '57'
+    after: '2003-07-13'
+    by_meeting: '58'
+    by: '2003-11-09'
   - kind: session requests
     meetings:
     - '73'

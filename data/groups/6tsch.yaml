@@ -2,6 +2,10 @@ acronym: 6tsch
 name: 'Deterministic IPv6 over IEEE802.15.4e Timeslotted Channel Hopping '
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2013-06-20'
+  last: '2026-11-18'
 state: bof-conc
 started: '2013-06-20'
 closed: null

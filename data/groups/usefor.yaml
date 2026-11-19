@@ -2,6 +2,10 @@ acronym: usefor
 name: Usenet Article Standard Update
 type: wg
 parent: app
+areas:
+- area: app
+  first: '1997-12-02'
+  last: '2009-03-12'
 state: conclude
 started: '1997-10-20'
 closed: '2009-03-12'
@@ -17,12 +21,13 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '1997-10-20'
+      not_before: '1999-03-14'
       not_after: '2005-05-18'
     end:
       certainty: group-closed
       date: '2009-03-12'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 41 (1998-03-30)'
     - 'Start: listed as chair in a proceedings charter snapshot (2005-05-18)'
   evidence:
   - kind: chair activity
@@ -50,6 +55,11 @@ chairs:
     - date: '2007-02-13'
       subject: IETF 68 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/68/usefor.html
+  - kind: joined the IESG
+    after_meeting: '40'
+    after: '1997-12-08'
+    by_meeting: '41'
+    by: '1998-03-30'
 - person: 18321
   name: Pete Resnick
   status: unconfirmed
@@ -119,12 +129,27 @@ chairs:
       not_after: '1997-12-02'
     end:
       certainty: between
-      not_before: '1997-12-02'
+      not_before: '1999-07-11'
       not_after: '2005-05-18'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1997-12-02)'
+    - 'End: listed as chair in meeting minutes (1999-07-11)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2005-05-18)'
   evidence:
+  - kind: minutes
+    listed_in: 4
+    first: '1998-08-24'
+    last: '1999-07-11'
+    examples:
+    - date: '1998-08-24'
+      subject: IETF 42 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/42/98aug-34.htm
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-35.html
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-34.html
   - kind: proceedings
     listed_in: 3
     first: '1997-12-02'

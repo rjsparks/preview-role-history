@@ -2,6 +2,10 @@ acronym: nimrod
 name: New Internet Routing and Addressing Architecture
 type: wg
 parent: rtg
+areas:
+- area: rtg
+  first: '1994-12-05'
+  last: '1998-03-23'
 state: conclude
 started: '1994-01-15'
 closed: '1998-03-23'
@@ -25,6 +29,14 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-12-05)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '1997-04-07'
+    last: '1997-04-07'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr91.htm
   - kind: proceedings
     listed_in: 6
     first: '1994-12-05'
@@ -53,6 +65,14 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1995-04-03)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '1997-04-07'
+    last: '1997-04-07'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr91.htm
   - kind: proceedings
     listed_in: 5
     first: '1995-04-03'
@@ -81,6 +101,14 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-12-05)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '1997-04-07'
+    last: '1997-04-07'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr91.htm
   - kind: proceedings
     listed_in: 6
     first: '1994-12-05'

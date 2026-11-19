@@ -2,6 +2,10 @@ acronym: babel
 name: Babel routing protocol
 type: wg
 parent: rtg
+areas:
+- area: rtg
+  first: '2016-02-26'
+  last: '2025-05-09'
 state: conclude
 started: '2016-02-26'
 closed: '2025-05-09'
@@ -22,12 +26,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2015-11-01'
+      certainty: between
+      not_before: '1998-03-30'
+      not_after: '2015-11-01'
     end:
       certainty: exact
       date: '2016-05-09'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 29 (1994-03-28)'
     - 'Start: listed as chair in a proceedings charter snapshot (2015-11-01)'
   evidence:
   - kind: chair activity
@@ -49,6 +55,11 @@ chairs:
     - date: '2015-11-01'
       subject: IETF 94 proceedings charter
       url: https://www.ietf.org/proceedings/94/babel.html
+  - kind: joined the IESG
+    after_meeting: '28'
+    after: '1993-11-01'
+    by_meeting: '29'
+    by: '1994-03-28'
 - person: 102391
   name: Donald Eastlake
   status: confirmed

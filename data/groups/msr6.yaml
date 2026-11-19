@@ -2,6 +2,10 @@ acronym: msr6
 name: Multicast Source Routing over IPv6
 type: wg
 parent: rtg
+areas:
+- area: rtg
+  first: '2022-06-16'
+  last: '2022-09-29'
 state: bof-conc
 started: '2022-06-16'
 closed: '2022-09-29'

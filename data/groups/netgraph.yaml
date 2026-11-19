@@ -2,6 +2,10 @@ acronym: netgraph
 name: Network Graphics
 type: wg
 parent: app
+areas:
+- area: app
+  first: '1991-01-01'
+  last: '1991-01-01'
 state: bof-conc
 started: '1990-02-07'
 closed: '1991-01-01'
@@ -17,11 +21,18 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '1990-02-07'
+      not_before: '1990-12-03'
       not_after: '1991-01-01'
     end:
       certainty: between
       not_before: '1991-01-01'
       not_after: '1991-01-01'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 15 (1989-10-31)'
     - 'End: the group closed (1991-01-01)'
+  evidence:
+  - kind: joined the IESG
+    after_meeting: '14'
+    after: '1989-07-25'
+    by_meeting: '15'
+    by: '1989-10-31'

@@ -2,6 +2,10 @@ acronym: httpauth
 name: Hypertext Transfer Protocol Authentication
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '2011-12-09'
+  last: '2017-02-01'
 state: conclude
 started: '2013-02-19'
 closed: '2017-02-01'
@@ -187,13 +191,6 @@ chairs:
   - start:
       certainty: exact
       date: '2013-03-11'
-    end:
-      certainty: between
-      not_before: '2013-03-12'
-      not_after: '2013-03-12'
-  - start:
-      certainty: on-or-before
-      date: '2013-03-12'
     end:
       certainty: exact
       date: '2015-07-23'

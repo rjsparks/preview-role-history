@@ -2,6 +2,10 @@ acronym: disman
 name: Distributed Management
 type: wg
 parent: ops
+areas:
+- area: ops
+  first: '1997-04-07'
+  last: '2006-07-19'
 state: conclude
 started: '1996-05-09'
 closed: '2006-07-19'
@@ -43,10 +47,16 @@ chairs:
       subject: '[Disman] WG last call on draft-ietf-disman-remops-mib-v2-01.txt'
       url: https://mailarchive.ietf.org/arch/msg/disman/PeGyTddTIP_j3ru_T_JItotEiu8/
   - kind: minutes
-    listed_in: 1
-    first: '2004-03-03'
+    listed_in: 14
+    first: '1997-08-11'
     last: '2004-03-03'
     examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-61.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-62.htm
     - date: '2004-03-03'
       subject: '[Disman] Disman WG Meeting Minutes'
       url: https://mailarchive.ietf.org/arch/msg/disman/xJomFWQ8ARIQNYipI_EQ0no6m_E/

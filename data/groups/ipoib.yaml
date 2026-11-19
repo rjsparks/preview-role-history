@@ -2,6 +2,10 @@ acronym: ipoib
 name: IP over InfiniBand
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2001-07-31'
+  last: '2006-07-05'
 state: conclude
 started: '2001-05-16'
 closed: '2006-07-05'
@@ -36,6 +40,20 @@ chairs:
     - date: '2002-11-19'
       subject: '[Ipoverib] IETF-55 IPoIB WG meeting minutes'
       url: https://mailarchive.ietf.org/arch/msg/ipoverib/G1uzRPhVzOL-g9DETaUN5twJjIA/
+  - kind: minutes
+    listed_in: 3
+    first: '2002-03-17'
+    last: '2002-11-17'
+    examples:
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/141.htm
+    - date: '2002-07-14'
+      subject: IETF 54 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/54/142.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/141.htm
   - kind: proceedings
     listed_in: 9
     first: '2002-03-08'
@@ -75,6 +93,20 @@ chairs:
     - date: '2001-12-28'
       subject: '[Ipoverib] Meeting minutes from the 12/10/01 meeting'
       url: https://mailarchive.ietf.org/arch/msg/ipoverib/dUpzFwH5BaW_OtsYY4rjy86hLNg/
+  - kind: minutes
+    listed_in: 5
+    first: '2001-08-05'
+    last: '2002-11-17'
+    examples:
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/51-51.htm
+    - date: '2001-12-09'
+      subject: IETF 52 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/52/144.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/141.htm
   - kind: proceedings
     listed_in: 11
     first: '2001-07-31'

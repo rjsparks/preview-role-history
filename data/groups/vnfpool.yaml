@@ -2,6 +2,10 @@ acronym: vnfpool
 name: Virtualized Network Function Pool
 type: wg
 parent: tsv
+areas:
+- area: tsv
+  first: '2014-01-24'
+  last: '2026-11-18'
 state: bof-conc
 started: '2014-01-22'
 closed: null
@@ -37,6 +41,14 @@ chairs:
     end:
       certainty: group-closed
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2014-07-20'
+    last: '2014-07-20'
+    examples:
+    - date: '2014-07-20'
+      subject: IETF 90 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/90/vnfpool.html
   - kind: proceedings
     listed_in: 1
     first: '2014-07-20'
@@ -74,6 +86,17 @@ chairs:
     - date: '2014-08-14'
       subject: '[vnfpool] BoF minutes'
       url: https://mailarchive.ietf.org/arch/msg/vnfpool/j_IBeSUIMU7HBlCtnJM6Wl8a2Gk/
+  - kind: minutes
+    listed_in: 2
+    first: '2014-03-02'
+    last: '2014-07-20'
+    examples:
+    - date: '2014-03-02'
+      subject: IETF 89 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/89/vnfpool.html
+    - date: '2014-07-20'
+      subject: IETF 90 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/90/vnfpool.html
   - kind: proceedings
     listed_in: 2
     first: '2014-03-02'

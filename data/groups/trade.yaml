@@ -2,6 +2,10 @@ acronym: trade
 name: Internet Open Trading Protocol
 type: wg
 parent: app
+areas:
+- area: app
+  first: '1998-07-23'
+  last: '2005-02-08'
 state: conclude
 started: '1998-05-27'
 closed: '2005-02-08'
@@ -45,19 +49,19 @@ chairs:
       subject: Working Group Last Call, ECML v2 Requirements
       url: https://mailarchive.ietf.org/arch/msg/trade/92YWZ73EdjKctT6Qp9ZVlCXSCmw/
   - kind: minutes
-    listed_in: 5
+    listed_in: 18
     first: '1998-03-31'
-    last: '2002-07-23'
+    last: '2002-11-17'
     examples:
     - date: '1998-03-31'
       subject: Minutes of Internet Open Trading Protocol BOF
       url: https://mailarchive.ietf.org/arch/msg/trade/TnfPvrcJYTv8_ud1yGbQQ9F3Yzc/
-    - date: '2000-12-14'
-      subject: 'FW: Draft minutes of trade IETF San Diego'
-      url: https://mailarchive.ietf.org/arch/msg/trade/GKVPpernMehpdJuOc9b_zq9vArs/
-    - date: '2002-07-23'
-      subject: Edited Draft Minutes of TRADE WG Yokohama meeting
-      url: https://mailarchive.ietf.org/arch/msg/trade/l1Ciysn0YE45yNFXcF3PZigRI94/
+    - date: '1998-08-24'
+      subject: IETF 42 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/42/98aug-21.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/113.htm
   - kind: proceedings
     listed_in: 18
     first: '1998-07-23'

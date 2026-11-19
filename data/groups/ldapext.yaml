@@ -2,6 +2,10 @@ acronym: ldapext
 name: LDAP Extension
 type: wg
 parent: app
+areas:
+- area: app
+  first: '1997-11-06'
+  last: '2003-04-04'
 state: conclude
 started: '1997-01-20'
 closed: '2003-04-04'
@@ -20,12 +24,27 @@ chairs:
       not_after: '1997-11-06'
     end:
       certainty: between
-      not_before: '1997-11-06'
+      not_before: '2000-03-26'
       not_after: '2000-10-16'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1997-11-06)'
+    - 'End: listed as chair in meeting minutes (2000-03-26)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2000-10-16)'
   evidence:
+  - kind: minutes
+    listed_in: 8
+    first: '1997-12-08'
+    last: '2000-03-26'
+    examples:
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-14.htm
+    - date: '1998-03-30'
+      subject: IETF 41 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/41/98mar-edited-24.htm
+    - date: '2000-03-26'
+      subject: IETF 47 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-23.html
   - kind: proceedings
     listed_in: 8
     first: '1997-11-06'
@@ -50,14 +69,29 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '1997-01-20'
+      not_before: '2000-03-26'
       not_after: '2000-10-16'
     end:
       certainty: group-closed
       date: '2003-04-04'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2000-03-26)'
     - 'Start: listed as chair in a proceedings charter snapshot (2000-10-16)'
   evidence:
+  - kind: minutes
+    listed_in: 3
+    first: '2000-12-10'
+    last: '2001-08-05'
+    examples:
+    - date: '2000-12-10'
+      subject: IETF 49 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/49/00dec-23.htm
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-24.htm
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/51-24.htm
   - kind: proceedings
     listed_in: 6
     first: '2000-10-16'
@@ -72,6 +106,10 @@ chairs:
     - date: '2003-01-14'
       subject: IETF 56 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/56/118.htm
+  - kind: minutes without them
+    date: '2000-03-26'
+    subject: IETF 47 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-23.html
 - person: 19108
   name: Mark Wahl
   status: confirmed
@@ -86,6 +124,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1997-11-06)'
   evidence:
+  - kind: minutes
+    listed_in: 12
+    first: '1997-12-08'
+    last: '2001-08-05'
+    examples:
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-14.htm
+    - date: '1998-03-30'
+      subject: IETF 41 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/41/98mar-edited-24.htm
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/51-24.htm
   - kind: proceedings
     listed_in: 15
     first: '1997-11-06'

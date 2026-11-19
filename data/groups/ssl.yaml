@@ -2,6 +2,7 @@ acronym: ssl
 name: Session Layer Security
 type: wg
 parent: null
+areas: []
 state: bof-conc
 started: null
 closed: '1997-01-01'
@@ -26,10 +27,18 @@ chairs:
       not_before: '1995-07-17'
       not_after: '1997-01-01'
     notes:
-    - 'Start: the BOF met at IETF 33 (1995-07-17)'
-    - 'End: the BOF met at IETF 33 (1995-07-17)'
+    - 'Start: listed as chair in meeting minutes (1995-07-17)'
+    - 'End: listed as chair in meeting minutes (1995-07-17)'
     - 'End: the group closed (1997-01-01)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '1995-07-17'
+    last: '1995-07-17'
+    examples:
+    - date: '1995-07-17'
+      subject: IETF 33 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/33/area.and.wg.reports/sec/ssl/ssl-minutes-95jul.txt
   - kind: BOF session
     meeting: '33'
     date: '1995-07-17'

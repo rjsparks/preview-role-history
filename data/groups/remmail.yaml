@@ -2,6 +2,10 @@ acronym: remmail
 name: Remote Mail Protocol
 type: wg
 parent: app
+areas:
+- area: app
+  first: '1992-12-31'
+  last: '1992-12-31'
 state: bof-conc
 started: null
 closed: '1992-12-31'

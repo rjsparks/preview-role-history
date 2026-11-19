@@ -2,6 +2,10 @@ acronym: ip1394
 name: IP Over IEEE 1394
 type: wg
 parent: int
+areas:
+- area: int
+  first: '1997-08-11'
+  last: '2000-06-16'
 state: conclude
 started: '1997-07-07'
 closed: '2000-06-16'
@@ -26,8 +30,22 @@ chairs:
       certainty: group-closed
       date: '2000-06-16'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1997-08-11)'
+    - 'Start: listed as chair in meeting minutes (1997-08-11)'
   evidence:
+  - kind: minutes
+    listed_in: 7
+    first: '1997-08-11'
+    last: '1999-07-11'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-47.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-45.htm
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-50.html
   - kind: proceedings
     listed_in: 5
     first: '1997-08-11'
@@ -54,8 +72,22 @@ chairs:
       certainty: group-closed
       date: '2000-06-16'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1997-08-11)'
+    - 'Start: listed as chair in meeting minutes (1997-08-11)'
   evidence:
+  - kind: minutes
+    listed_in: 7
+    first: '1997-08-11'
+    last: '1999-07-11'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-47.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-45.htm
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-50.html
   - kind: proceedings
     listed_in: 5
     first: '1997-08-11'

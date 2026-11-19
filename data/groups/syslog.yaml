@@ -2,6 +2,10 @@ acronym: syslog
 name: Security Issues in Network Event Logging
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '2000-05-26'
+  last: '2010-10-26'
 state: conclude
 started: '2000-04-27'
 closed: '2010-10-26'
@@ -111,16 +115,16 @@ chairs:
       subject: Agenda for our Meeting at the 59th IETF
       url: https://mailarchive.ietf.org/arch/msg/syslog/LyDlmo6t1ExXSrR_3-Hb1iTFk34/
   - kind: minutes
-    listed_in: 5
-    first: '2002-11-20'
+    listed_in: 7
+    first: '2000-12-10'
     last: '2004-03-03'
     examples:
-    - date: '2002-11-20'
-      subject: draft minutes from syslog meeting, 55th IETF
-      url: https://mailarchive.ietf.org/arch/msg/syslog/GDOL7VGffvbCw9JJorcM3eTxzSY/
-    - date: '2003-03-16'
-      subject: IETF 56 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/56/minutes/syslog.htm
+    - date: '2000-12-10'
+      subject: IETF 49 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/49/00dec-122.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/202.htm
     - date: '2004-03-03'
       subject: Minutes from the syslog meeting at the 59th IETF
       url: https://mailarchive.ietf.org/arch/msg/syslog/OXDRGgAT4jsRiMEzrZExgMjvQP0/

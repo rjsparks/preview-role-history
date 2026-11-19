@@ -2,6 +2,10 @@ acronym: dhc
 name: Dynamic Host Configuration
 type: wg
 parent: int
+areas:
+- area: int
+  first: '1994-12-05'
+  last: '2026-11-18'
 state: active
 started: '1991-01-01'
 closed: null
@@ -19,11 +23,13 @@ chairs:
       certainty: evidence-only
       not_after: '1994-03-28'
     end:
-      certainty: evidence-only
-      not_before: '2016-10-24'
+      certainty: between
+      not_before: '2009-03-15'
+      not_after: '2009-04-16'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
-    - 'End: started a last call or adoption call on the group''s list (2016-10-24)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2009-03-15)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2009-04-16)'
   evidence:
   - kind: WG Action
     date: '2003-02-26'
@@ -43,8 +49,8 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/G7zYG3myD_loV97JOTT3WcVrDnM/
   - kind: chair activity
     first: '2001-11-27'
-    last: '2016-10-24'
-    messages: 89
+    last: '2009-03-15'
+    messages: 88
     examples:
     - date: '2001-11-27'
       subject: '[dhcwg] Call for WG meeting agenda items'
@@ -62,10 +68,16 @@ chairs:
       subject: '[dhcwg] WG last call for "DHCP Option for CableLabs Client Configuration"'
       url: https://mailarchive.ietf.org/arch/msg/dhcwg/8uA9mAdlJDYV2_ZjCth-bGXt9F8/
   - kind: minutes
-    listed_in: 1
-    first: '2007-12-02'
+    listed_in: 19
+    first: '1997-04-07'
     last: '2007-12-02'
     examples:
+    - date: '1997-04-07'
+      subject: IETF 38 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr44.htm
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-45.htm
     - date: '2007-12-02'
       subject: IETF 70 minutes in the proceedings
       url: https://www.ietf.org/proceedings/70/minutes/dhc.txt
@@ -83,6 +95,15 @@ chairs:
     - date: '2008-01-21'
       subject: IETF 71 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/71/dhc.html
+  - kind: minutes without them
+    date: '2009-04-16'
+    subject: IETF 74 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/74/dhc.html
+  - kind: joined the IESG
+    after_meeting: '74'
+    after: '2009-03-22'
+    by_meeting: '75'
+    by: '2009-07-26'
   - kind: session requests
     meetings:
     - '71'

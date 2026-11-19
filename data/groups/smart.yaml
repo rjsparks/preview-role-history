@@ -2,6 +2,7 @@ acronym: smart
 name: Stopping Malware and Researching Threats
 type: rg
 parent: irtf
+areas: []
 state: abandon
 started: null
 closed: null
@@ -25,11 +26,20 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2019-02-18'
+      certainty: between
+      not_before: '2006-07-09'
+      not_after: '2019-02-18'
     end:
       certainty: exact
       date: '2019-03-24'
+    notes:
+    - 'Start: became an Area Director, first serving at IETF 47 (2000-03-26)'
+  evidence:
+  - kind: joined the IESG
+    after_meeting: '46'
+    after: '1999-11-07'
+    by_meeting: '47'
+    by: '2000-03-26'
 - person: 124655
   name: Kirsty Paine
   status: confirmed

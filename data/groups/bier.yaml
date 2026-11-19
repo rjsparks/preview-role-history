@@ -2,6 +2,10 @@ acronym: bier
 name: Bit Indexed Explicit Replication
 type: wg
 parent: rtg
+areas:
+- area: rtg
+  first: '2014-10-01'
+  last: '2026-11-18'
 state: active
 started: '2014-10-01'
 closed: null
@@ -179,6 +183,14 @@ chairs:
     - date: '2015-08-26'
       subject: '[Bier] Call for adoption: draft-mirsky-bier-oam-requirements-00'
       url: https://mailarchive.ietf.org/arch/msg/bier/tQHWXDlVbwv1N-FvETaIJB4o7Rw/
+  - kind: minutes
+    listed_in: 1
+    first: '2014-11-09'
+    last: '2014-11-09'
+    examples:
+    - date: '2014-11-09'
+      subject: IETF 91 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/91/bier.html
   - kind: proceedings
     listed_in: 9
     first: '2014-07-20'

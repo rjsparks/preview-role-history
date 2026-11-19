@@ -2,6 +2,10 @@ acronym: mboned
 name: MBONE Deployment
 type: wg
 parent: ops
+areas:
+- area: ops
+  first: '1997-04-07'
+  last: '2026-11-18'
 state: active
 started: '1996-08-26'
 closed: null
@@ -100,31 +104,31 @@ chairs:
       not_after: '1997-04-07'
     end:
       certainty: between
-      not_before: '2006-03-19'
-      not_after: '2006-11-05'
+      not_before: '2005-11-06'
+      not_after: '2006-03-13'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
-    - 'End: requested the group''s session for IETF 65 (2006-03-19)'
-    - 'End: not listed among the chairs in meeting minutes (2006-11-05)'
+    - 'End: listed as chair in meeting minutes (2005-11-06)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2006-03-13)'
   evidence:
   - kind: WG Action
     date: '2004-01-14'
     subject: 'WG Action: RECHARTER: MBONE Deployment (mboned)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/K9HE816JaJHS0wCYtRmFtIk5qOo/
   - kind: minutes
-    listed_in: 3
-    first: '2004-11-07'
+    listed_in: 22
+    first: '1997-08-11'
     last: '2005-11-06'
     examples:
-    - date: '2004-11-07'
-      subject: IETF 61 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/61/minutes/mboned.html
-    - date: '2005-03-06'
-      subject: IETF 62 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/62/minutes/mboned.html
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-66.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-67.htm
     - date: '2005-11-06'
       subject: IETF 64 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/64/minutes/mboned.txt
+      url: https://www.ietf.org/proceedings/64/mboned.html
   - kind: proceedings
     listed_in: 26
     first: '1997-04-07'
@@ -140,13 +144,9 @@ chairs:
       subject: IETF 64 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/64/mboned.html
   - kind: minutes without them
-    date: '2006-11-05'
-    subject: IETF 67 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/67/minutes/mboned.txt
-  - kind: session requests
-    meetings:
-    - '65'
-    url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+    date: '2006-03-13'
+    subject: IETF 65 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/65/mboned.html
 - person: 104329
   name: Lenny Giuliano
   status: confirmed

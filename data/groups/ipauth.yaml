@@ -2,6 +2,10 @@ acronym: ipauth
 name: IP Authentication
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '1991-01-01'
+  last: '1991-01-01'
 state: conclude
 started: '1988-10-01'
 closed: '1991-01-01'

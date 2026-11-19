@@ -2,6 +2,10 @@ acronym: adslmib
 name: ADSL MIB
 type: wg
 parent: ops
+areas:
+- area: ops
+  first: '1998-07-23'
+  last: '2014-01-06'
 state: conclude
 started: '1998-05-12'
 closed: '2014-01-06'
@@ -64,6 +68,20 @@ chairs:
     - date: '2002-05-30'
       subject: '[Adslmib] Call for agenda items'
       url: https://mailarchive.ietf.org/arch/msg/adslmib/Lr-fk5fIm08EFXnu0Y1dMMHltfQ/
+  - kind: minutes
+    listed_in: 13
+    first: '1998-08-24'
+    last: '2002-11-17'
+    examples:
+    - date: '1998-08-24'
+      subject: IETF 42 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/42/98aug-73.htm
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-65.html
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/150.htm
   - kind: proceedings
     listed_in: 28
     first: '1998-07-23'
@@ -87,12 +105,27 @@ chairs:
       not_after: '1998-07-23'
     end:
       certainty: between
-      not_before: '1998-07-23'
+      not_before: '2001-03-18'
       not_after: '2005-02-01'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1998-07-23)'
+    - 'End: listed as chair in meeting minutes (2001-03-18)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2005-02-01)'
   evidence:
+  - kind: minutes
+    listed_in: 9
+    first: '1998-08-24'
+    last: '2001-03-18'
+    examples:
+    - date: '1998-08-24'
+      subject: IETF 42 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/42/98aug-73.htm
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-65.html
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-66.htm
   - kind: proceedings
     listed_in: 9
     first: '1998-07-23'
@@ -167,20 +200,10 @@ chairs:
       certainty: announced
       date: '2005-12-21'
     end:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2011-12-09'
-    notes:
-    - 'Start: announced on the group''s list (2005-12-21)'
-  - start:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2012-03-25'
-    end:
       certainty: group-closed
       date: '2014-01-06'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2012-03-25)'
+    - 'Start: announced on the group''s list (2005-12-21)'
   evidence:
   - kind: WG Review
     date: '2006-01-11'

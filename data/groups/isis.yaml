@@ -2,6 +2,10 @@ acronym: isis
 name: IS-IS for IP Internets
 type: wg
 parent: rtg
+areas:
+- area: rtg
+  first: '1994-10-20'
+  last: '2018-03-01'
 state: conclude
 started: '1998-09-10'
 closed: '2018-03-01'
@@ -16,13 +20,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '1991-11-18'
       not_after: '1994-03-28'
     end:
       certainty: between
       not_before: '1994-03-28'
       not_after: '1994-10-20'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 15 (1989-10-31)'
     - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (1994-10-20)'
   evidence:
@@ -38,6 +44,11 @@ chairs:
     date: '1994-10-20'
     subject: IETF 40 proceedings charter, as last modified
     url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-85.htm
+  - kind: joined the IESG
+    after_meeting: '14'
+    after: '1989-07-25'
+    by_meeting: '15'
+    by: '1989-10-31'
 - person: 2995
   name: Doug Montgomery
   status: unconfirmed
@@ -47,12 +58,21 @@ chairs:
       not_after: '1994-10-20'
     end:
       certainty: between
-      not_before: '1994-10-20'
+      not_before: '1997-04-07'
       not_after: '1998-11-25'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-10-20)'
+    - 'End: listed as chair in meeting minutes (1997-04-07)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (1998-11-25)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '1997-04-07'
+    last: '1997-04-07'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr86.htm
   - kind: proceedings
     listed_in: 6
     first: '1994-10-20'
@@ -80,12 +100,21 @@ chairs:
       not_after: '1994-03-28'
     end:
       certainty: between
-      not_before: '1994-03-28'
+      not_before: '1997-04-07'
       not_after: '1998-11-25'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
+    - 'End: listed as chair in meeting minutes (1997-04-07)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (1998-11-25)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '1997-04-07'
+    last: '1997-04-07'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr86.htm
   - kind: proceedings
     listed_in: 7
     first: '1994-03-28'
@@ -109,12 +138,14 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '1997-04-07'
       not_after: '1998-11-18'
     end:
       certainty: announced
       date: '2004-02-26'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (1997-04-07)'
     - 'Start: named as chair in the WG Action announcement (1998-11-18)'
     - 'End: announced on the group''s list (2004-02-26)'
   evidence:
@@ -128,6 +159,20 @@ chairs:
     subject: '[Isis-wg] New WG chairs for ISIS'
     url: https://mailarchive.ietf.org/arch/msg/isis-wg/NknmIEkQF3vSGdikNoGTgNQ9fYg/
     excerpt: --will be replacing Tony Li and Tony Przygienda, who decided to step down.
+  - kind: minutes
+    listed_in: 8
+    first: '1998-12-07'
+    last: '2002-11-17'
+    examples:
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-88.html
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-89.html
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/174.htm
   - kind: proceedings
     listed_in: 13
     first: '1998-11-25'
@@ -142,18 +187,23 @@ chairs:
     - date: '2003-05-19'
       subject: IETF 57 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/57/189.htm
+  - kind: minutes without them
+    date: '1997-04-07'
+    subject: IETF 38 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr86.htm
 - person: 22933
   name: Christian Hopps
   status: confirmed
   periods:
   - start:
       certainty: between
-      not_before: '1998-09-10'
+      not_before: '2002-11-17'
       not_after: '2004-07-23'
     end:
       certainty: group-closed
       date: '2018-03-01'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2002-11-17)'
     - 'Start: listed as chair in a proceedings charter snapshot (2004-07-23)'
   evidence:
   - kind: chair activity
@@ -177,7 +227,7 @@ chairs:
       subject: '[Isis-wg] WG Last Call for Info to Std Track Documents.'
       url: https://mailarchive.ietf.org/arch/msg/isis-wg/MWw17LZt5xr0iHdUZg4pa3HCTQY/
   - kind: minutes
-    listed_in: 13
+    listed_in: 12
     first: '2005-11-06'
     last: '2016-07-17'
     examples:
@@ -204,6 +254,10 @@ chairs:
     - date: '2017-03-26'
       subject: IETF 98 proceedings charter
       url: https://www.ietf.org/proceedings/98/isis.html
+  - kind: minutes without them
+    date: '2002-11-17'
+    subject: IETF 55 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/55/174.htm
   - kind: session requests
     meetings:
     - '67'
@@ -238,20 +292,10 @@ chairs:
       certainty: announced
       date: '2004-02-26'
     end:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2011-12-09'
-    notes:
-    - 'Start: announced on the group''s list (2004-02-26)'
-  - start:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2012-03-25'
-    end:
       certainty: exact
       date: '2013-08-19'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2012-03-25)'
+    - 'Start: announced on the group''s list (2004-02-26)'
   evidence:
   - kind: list message
     date: '2004-02-26'
@@ -278,7 +322,7 @@ chairs:
       subject: '[Isis-wg] Agenda for ISIS WG meeting'
       url: https://mailarchive.ietf.org/arch/msg/isis-wg/jWiuDM05o9xJZTtGJxyOskUQfn8/
   - kind: minutes
-    listed_in: 6
+    listed_in: 5
     first: '2005-11-06'
     last: '2013-03-10'
     examples:
@@ -314,12 +358,14 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '1997-04-07'
       not_after: '1998-11-25'
     end:
       certainty: announced
       date: '2004-02-26'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (1997-04-07)'
     - 'Start: listed as chair in a proceedings charter snapshot (1998-11-25)'
     - 'End: announced on the group''s list (2004-02-26)'
   evidence:
@@ -341,16 +387,19 @@ chairs:
       subject: '[Isis-wg] meeting minutes ...'
       url: https://mailarchive.ietf.org/arch/msg/isis-wg/smJk8NV-MfkNMkHIo9lLUFtb7c4/
   - kind: minutes
-    listed_in: 2
-    first: '2002-11-17'
+    listed_in: 9
+    first: '1998-12-07'
     last: '2002-11-17'
     examples:
-    - date: '2002-11-17'
-      subject: '[Isis-wg] meeting minutes ...'
-      url: https://mailarchive.ietf.org/arch/msg/isis-wg/smJk8NV-MfkNMkHIo9lLUFtb7c4/
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-88.html
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-89.html
     - date: '2002-11-17'
       subject: IETF 55 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/55/minutes/isis.htm
+      url: https://www.ietf.org/proceedings/55/174.htm
   - kind: proceedings
     listed_in: 13
     first: '1998-11-25'
@@ -365,6 +414,10 @@ chairs:
     - date: '2003-05-19'
       subject: IETF 57 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/57/189.htm
+  - kind: minutes without them
+    date: '1997-04-07'
+    subject: IETF 38 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr86.htm
 - person: 111495
   name: Hannes Gredler
   status: confirmed

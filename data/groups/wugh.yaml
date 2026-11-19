@@ -2,6 +2,10 @@ acronym: wugh
 name: WGs Using GitHub
 type: wg
 parent: gen
+areas:
+- area: gen
+  first: '2017-02-15'
+  last: '2019-02-15'
 state: bof-conc
 started: '2017-02-15'
 closed: '2019-02-15'
@@ -32,6 +36,14 @@ chairs:
     - 'End: the BOF met at IETF 103 (2018-11-03)'
     - 'End: the group closed (2019-02-15)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '2017-03-26'
+    last: '2017-03-26'
+    examples:
+    - date: '2017-03-26'
+      subject: IETF 98 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/98/wugh.html
   - kind: proceedings
     listed_in: 1
     first: '2017-03-26'

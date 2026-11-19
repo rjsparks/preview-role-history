@@ -2,6 +2,10 @@ acronym: easycert
 name: Easy-to-Use Certificates
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '2004-11-02'
+  last: '2005-05-11'
 state: conclude
 started: null
 closed: '2005-05-11'
@@ -26,8 +30,17 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2005-05-11'
+      certainty: between
+      not_before: '2005-03-06'
+      not_after: '2005-05-11'
     end:
       certainty: group-closed
       date: '2005-05-11'
+    notes:
+    - 'Start: became an Area Director, first serving at IETF 54 (2002-07-14)'
+  evidence:
+  - kind: joined the IESG
+    after_meeting: '53'
+    after: '2002-03-17'
+    by_meeting: '54'
+    by: '2002-07-14'

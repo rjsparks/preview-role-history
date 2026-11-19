@@ -2,6 +2,10 @@ acronym: imapext
 name: Internet Message Access Protocol Extension
 type: wg
 parent: app
+areas:
+- area: app
+  first: '2000-07-17'
+  last: '2011-12-09'
 state: conclude
 started: '1999-10-22'
 closed: '2008-06-16'
@@ -43,16 +47,16 @@ chairs:
       subject: WG last call on draft-ietf-imapext-condstore-00.txt
       url: https://mailarchive.ietf.org/arch/msg/imapext/7CkYzifuFnM0TxBlDDrA5xOLBnk/
   - kind: minutes
-    listed_in: 5
-    first: '2000-08-03'
+    listed_in: 9
+    first: '2000-07-31'
     last: '2006-11-05'
     examples:
+    - date: '2000-07-31'
+      subject: IETF 48 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/48/00july-20.htm
     - date: '2000-08-03'
       subject: Minutes from IMAPEXT WG
       url: https://mailarchive.ietf.org/arch/msg/imapext/MU08FJmGj0EuA1dWN1dP2FSJ78k/
-    - date: '2001-08-05'
-      subject: IETF 51 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/51/minutes/IMAPEXT.HTM
     - date: '2006-11-05'
       subject: IETF 67 minutes in the proceedings
       url: https://www.ietf.org/proceedings/67/minutes/imapext.txt

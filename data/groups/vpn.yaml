@@ -2,6 +2,10 @@ acronym: vpn
 name: Virtual Private Networking
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2026-11-18'
+  last: '2026-11-18'
 state: conclude
 started: null
 closed: null
@@ -20,6 +24,17 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-12-09'
+      date: '1997-12-08'
     end:
       certainty: group-closed
+    notes:
+    - 'Start: listed as chair in meeting minutes (1997-12-08)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '1997-12-08'
+    last: '1997-12-08'
+    examples:
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-final-63.htm

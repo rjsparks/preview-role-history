@@ -2,6 +2,10 @@ acronym: trmon
 name: Token Ring Remote Monitoring
 type: wg
 parent: mgt
+areas:
+- area: mgt
+  first: '1993-09-21'
+  last: '1993-09-21'
 state: conclude
 started: '1992-03-21'
 closed: '1993-09-21'

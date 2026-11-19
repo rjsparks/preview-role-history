@@ -2,6 +2,10 @@ acronym: banana
 name: BANdwidth Aggregation for interNet Access
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2016-10-06'
+  last: '2017-10-05'
 state: bof-conc
 started: '2016-10-06'
 closed: '2017-10-05'

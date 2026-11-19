@@ -2,6 +2,10 @@ acronym: tuba
 name: TCP/UDP Over CLNP-Addressed Networks
 type: wg
 parent: int
+areas:
+- area: int
+  first: '1994-12-05'
+  last: '1995-05-22'
 state: conclude
 started: '1992-08-12'
 closed: '1995-05-22'

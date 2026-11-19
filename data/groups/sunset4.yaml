@@ -2,6 +2,10 @@ acronym: sunset4
 name: Sunsetting IPv4
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2012-04-05'
+  last: '2018-05-16'
 state: conclude
 started: '2012-04-05'
 closed: '2018-05-16'

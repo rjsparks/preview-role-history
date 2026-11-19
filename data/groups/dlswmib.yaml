@@ -2,6 +2,13 @@ acronym: dlswmib
 name: Data Link Switching MIB
 type: wg
 parent: rtg
+areas:
+- area: mgt
+  first: '1995-04-03'
+  last: '1995-07-17'
+- area: rtg
+  first: '1997-07-29'
+  last: '2001-04-05'
 state: conclude
 started: '1995-02-10'
 closed: '2001-04-05'
@@ -28,6 +35,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1995-04-03)'
   evidence:
+  - kind: minutes
+    listed_in: 3
+    first: '1998-12-07'
+    last: '1999-07-11'
+    examples:
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-86.html
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-86.html
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-84.html
   - kind: proceedings
     listed_in: 8
     first: '1995-04-03'

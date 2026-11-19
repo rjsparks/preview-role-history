@@ -2,6 +2,10 @@ acronym: snmp
 name: Simple Network Management Protocol
 type: wg
 parent: mgt
+areas:
+- area: mgt
+  first: '1991-11-18'
+  last: '1991-11-18'
 state: conclude
 started: '1987-02-01'
 closed: '1991-11-18'

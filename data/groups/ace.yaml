@@ -2,6 +2,13 @@ acronym: ace
 name: Authentication and Authorization for Constrained Environments
 type: wg
 parent: sec
+areas:
+- area: app
+  first: '2014-01-22'
+  last: '2014-05-05'
+- area: sec
+  first: '2014-05-15'
+  last: '2026-11-18'
 state: active
 started: '2014-01-22'
 closed: null
@@ -106,16 +113,16 @@ chairs:
       subject: '[Ace] WGLC for draft-ietf-ace-usecases-03'
       url: https://mailarchive.ietf.org/arch/msg/ace/LLuQzJ4v0epneHx_g9gt3I5IVaI/
   - kind: minutes
-    listed_in: 7
-    first: '2014-11-09'
+    listed_in: 8
+    first: '2014-03-02'
     last: '2016-07-17'
     examples:
+    - date: '2014-03-02'
+      subject: IETF 89 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/89/ace.html
     - date: '2014-11-09'
       subject: IETF 91 minutes in the proceedings
       url: https://www.ietf.org/proceedings/91/minutes/minutes-91-ace.txt
-    - date: '2015-03-22'
-      subject: IETF 92 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/92/minutes/minutes-92-ace.txt
     - date: '2016-07-17'
       subject: IETF 96 minutes in the proceedings
       url: https://www.ietf.org/proceedings/96/minutes/minutes-96-ace.txt
@@ -279,16 +286,16 @@ chairs:
       subject: '[Ace] Call for adoption for draft-somaraju-ace-multicast-02'
       url: https://mailarchive.ietf.org/arch/msg/ace/oN8n1LmWK97LO7BJT4sQkJxJsEs/
   - kind: minutes
-    listed_in: 7
-    first: '2014-11-09'
+    listed_in: 8
+    first: '2014-03-02'
     last: '2016-07-17'
     examples:
+    - date: '2014-03-02'
+      subject: IETF 89 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/89/ace.html
     - date: '2014-11-09'
       subject: IETF 91 minutes in the proceedings
       url: https://www.ietf.org/proceedings/91/minutes/minutes-91-ace.txt
-    - date: '2015-03-22'
-      subject: IETF 92 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/92/minutes/minutes-92-ace.txt
     - date: '2016-07-17'
       subject: IETF 96 minutes in the proceedings
       url: https://www.ietf.org/proceedings/96/minutes/minutes-96-ace.txt

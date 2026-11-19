@@ -2,6 +2,10 @@ acronym: stime
 name: Secure Network Time Protocol
 type: wg
 parent: sec
+areas:
+- area: sec
+  first: '1999-08-12'
+  last: '2005-02-08'
 state: conclude
 started: '1999-06-23'
 closed: '2005-02-08'
@@ -17,20 +21,34 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '1999-08-12'
+      not_after: '1999-03-14'
     end:
       certainty: between
-      not_before: '1999-08-13'
+      not_before: '2001-03-18'
       not_after: '2005-02-08'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1999-08-12)'
-    - 'End: named as chair in the WG Action announcement (1999-08-13)'
+    - 'Start: listed as chair in meeting minutes (1999-03-14)'
+    - 'End: listed as chair in meeting minutes (2001-03-18)'
     - 'End: the group closed (2005-02-08)'
   evidence:
   - kind: WG Action
     date: '1999-08-13'
     subject: 'WG ACTION: Secure Network Time Protocol (stime)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/nfuPeZrhOx1wPVVcQrc7VyLd0mE/
+  - kind: minutes
+    listed_in: 3
+    first: '1999-03-14'
+    last: '2001-03-18'
+    examples:
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-120.html
+    - date: '2000-07-31'
+      subject: IETF 48 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/48/00july-113.htm
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-119.htm
   - kind: proceedings
     listed_in: 8
     first: '1999-08-12'
@@ -63,6 +81,17 @@ chairs:
     date: '1999-08-13'
     subject: 'WG ACTION: Secure Network Time Protocol (stime)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/nfuPeZrhOx1wPVVcQrc7VyLd0mE/
+  - kind: minutes
+    listed_in: 2
+    first: '2000-07-31'
+    last: '2001-03-18'
+    examples:
+    - date: '2000-07-31'
+      subject: IETF 48 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/48/00july-113.htm
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-119.htm
   - kind: proceedings
     listed_in: 8
     first: '1999-08-12'

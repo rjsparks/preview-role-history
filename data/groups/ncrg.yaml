@@ -2,6 +2,7 @@ acronym: ncrg
 name: Network Complexity Research Group
 type: rg
 parent: irtf
+areas: []
 state: conclude
 started: null
 closed: '2014-06-13'
@@ -34,13 +35,19 @@ chairs:
       subject: '[ncrg] NCRG Draft agenda'
       url: https://mailarchive.ietf.org/arch/msg/ncrg/UzIW_XaEzGQy4KACNc_9lZDlEjE/
   - kind: minutes
-    listed_in: 1
+    listed_in: 5
     first: '2013-03-10'
-    last: '2013-03-10'
+    last: '2014-06-13'
     examples:
     - date: '2013-03-10'
       subject: IETF 86 minutes in the proceedings
       url: https://www.ietf.org/proceedings/86/minutes/minutes-86-ncrg.txt
+    - date: '2013-07-28'
+      subject: IETF 87 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/87/ncrg.html
+    - date: '2014-06-13'
+      subject: IETF 90 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/90/ncrg.html
   - kind: proceedings
     listed_in: 8
     first: '2012-03-25'
@@ -75,6 +82,20 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/ncrg/7EZib1RZneoANOKWhwM_fh3Pj8g/
     excerpt: Thanks for Geoff for his engagement and support of the NCRG, and welcome Dave in this new
       challenge!
+  - kind: minutes
+    listed_in: 4
+    first: '2013-07-28'
+    last: '2014-06-13'
+    examples:
+    - date: '2013-07-28'
+      subject: IETF 87 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/87/ncrg.html
+    - date: '2013-11-03'
+      subject: IETF 88 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/88/ncrg.html
+    - date: '2014-06-13'
+      subject: IETF 90 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/90/ncrg.html
   - kind: proceedings
     listed_in: 4
     first: '2013-07-28'
@@ -99,7 +120,9 @@ chairs:
     end:
       certainty: between
       not_before: '2012-02-26'
-      not_after: '2014-06-13'
+      not_after: '2013-07-28'
+    notes:
+    - 'End: not listed among the chairs in meeting minutes (2013-07-28)'
   evidence:
   - kind: proceedings
     listed_in: 4
@@ -115,3 +138,7 @@ chairs:
     - date: '2013-03-10'
       subject: IETF 86 proceedings charter
       url: https://www.ietf.org/proceedings/86/ncrg.html
+  - kind: minutes without them
+    date: '2013-07-28'
+    subject: IETF 87 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/87/ncrg.html

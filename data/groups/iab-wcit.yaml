@@ -2,6 +2,10 @@ acronym: iab-wcit
 name: IAB-sponsored Discussion of WCIT
 type: wg
 parent: null
+areas:
+- area: gen
+  first: '2013-01-31'
+  last: '2013-01-31'
 state: bof-conc
 started: '2013-01-31'
 closed: null
@@ -19,11 +23,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2012-11-04'
+      certainty: between
+      not_before: '2010-07-25'
+      not_after: '2012-11-04'
     end:
       certainty: group-closed
     notes:
+    - 'Start: became an Area Director, first serving at IETF 66 (2006-07-09)'
     - 'Start: listed as chair in a proceedings charter snapshot (2012-11-04)'
   evidence:
   - kind: proceedings
@@ -41,16 +47,23 @@ chairs:
     meeting: '86'
     date: '2013-03-10'
     url: https://datatracker.ietf.org/meeting/86/session/iab-wcit/
+  - kind: joined the IESG
+    after_meeting: '65'
+    after: '2006-03-19'
+    by_meeting: '66'
+    by: '2006-07-09'
 - person: 3862
   name: Joel Halpern
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2012-11-04'
+      certainty: between
+      not_before: '1998-03-30'
+      not_after: '2012-11-04'
     end:
       certainty: group-closed
     notes:
+    - 'Start: became an Area Director, first serving at IETF 29 (1994-03-28)'
     - 'Start: listed as chair in a proceedings charter snapshot (2012-11-04)'
   evidence:
   - kind: proceedings
@@ -68,3 +81,8 @@ chairs:
     meeting: '86'
     date: '2013-03-10'
     url: https://datatracker.ietf.org/meeting/86/session/iab-wcit/
+  - kind: joined the IESG
+    after_meeting: '28'
+    after: '1993-11-01'
+    by_meeting: '29'
+    by: '1994-03-28'

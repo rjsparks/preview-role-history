@@ -2,6 +2,10 @@ acronym: impp
 name: Instant Messaging and Presence Protocol
 type: wg
 parent: app
+areas:
+- area: app
+  first: '1999-02-26'
+  last: '2004-09-08'
 state: conclude
 started: '1998-11-20'
 closed: '2004-09-08'
@@ -17,25 +21,29 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '1998-11-20'
+      not_before: '2001-03-18'
       not_after: '2001-07-31'
     end:
       certainty: group-closed
       date: '2004-09-08'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2001-03-18)'
     - 'Start: listed as chair in a proceedings charter snapshot (2001-07-31)'
   evidence:
   - kind: minutes
-    listed_in: 2
+    listed_in: 4
     first: '2001-08-05'
     last: '2002-11-17'
     examples:
     - date: '2001-08-05'
       subject: IETF 51 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/51/minutes/IMPP.htm
+      url: https://www.ietf.org/proceedings/51/51-17.htm
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/110.htm
     - date: '2002-11-17'
       subject: IETF 55 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/55/minutes/impp.htm
+      url: https://www.ietf.org/proceedings/55/110.htm
   - kind: proceedings
     listed_in: 7
     first: '2001-07-31'
@@ -50,21 +58,39 @@ chairs:
     - date: '2003-11-03'
       subject: IETF 58 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/58/110.htm
+  - kind: minutes without them
+    date: '2001-03-18'
+    subject: IETF 50 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/50/ietf50-17.htm
 - person: 5778
   name: Harald Alvestrand
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2000-07-31'
       not_after: '2000-10-13'
     end:
       certainty: between
-      not_before: '2000-10-13'
+      not_before: '2001-03-18'
       not_after: '2001-07-31'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2000-07-31)'
     - 'Start: listed as chair in a proceedings charter snapshot (2000-10-13)'
+    - 'End: listed as chair in meeting minutes (2001-03-18)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2001-07-31)'
   evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '2000-12-10'
+    last: '2001-03-18'
+    examples:
+    - date: '2000-12-10'
+      subject: IETF 49 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/49/00dec-16.htm
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-17.htm
   - kind: proceedings
     listed_in: 2
     first: '2000-10-13'
@@ -76,6 +102,10 @@ chairs:
     - date: '2001-03-14'
       subject: IETF 50 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/50/ietf50-17.htm
+  - kind: minutes without them
+    date: '2000-07-31'
+    subject: IETF 48 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/48/00july-18.htm
   - kind: minutes without them
     date: '2001-07-31'
     subject: IETF 51 proceedings charter, as last modified
@@ -101,13 +131,19 @@ chairs:
     - 'Start: listed as chair in a proceedings charter snapshot (2002-02-21)'
   evidence:
   - kind: minutes
-    listed_in: 1
-    first: '2002-11-17'
+    listed_in: 3
+    first: '2002-03-17'
     last: '2002-11-17'
     examples:
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/110.htm
+    - date: '2002-07-14'
+      subject: IETF 54 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/54/110.htm
     - date: '2002-11-17'
       subject: IETF 55 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/55/minutes/impp.htm
+      url: https://www.ietf.org/proceedings/55/110.htm
   - kind: proceedings
     listed_in: 5
     first: '2002-02-21'
@@ -125,22 +161,37 @@ chairs:
   - kind: minutes without them
     date: '2001-08-05'
     subject: IETF 51 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/51/minutes/IMPP.htm
+    url: https://www.ietf.org/proceedings/51/51-17.htm
 - person: 16886
   name: Vijay Saraswat
   status: unconfirmed
   periods:
   - start:
       certainty: evidence-only
-      not_after: '1999-02-26'
+      not_after: '1998-12-07'
     end:
       certainty: between
-      not_before: '1999-02-26'
+      not_before: '2000-07-31'
       not_after: '2000-10-13'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1999-02-26)'
+    - 'Start: listed as chair in meeting minutes (1998-12-07)'
+    - 'End: listed as chair in meeting minutes (2000-07-31)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2000-10-13)'
   evidence:
+  - kind: minutes
+    listed_in: 6
+    first: '1998-12-07'
+    last: '2000-07-31'
+    examples:
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-37.html
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-19.html
+    - date: '2000-07-31'
+      subject: IETF 48 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/48/00july-18.htm
   - kind: proceedings
     listed_in: 5
     first: '1999-02-26'
@@ -165,20 +216,34 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '1999-02-26'
+      not_after: '1998-12-07'
     end:
       certainty: between
-      not_before: '1999-03-08'
+      not_before: '2000-07-31'
       not_after: '2000-10-13'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1999-02-26)'
-    - 'End: named as chair in the WG Action announcement (1999-03-08)'
+    - 'Start: listed as chair in meeting minutes (1998-12-07)'
+    - 'End: listed as chair in meeting minutes (2000-07-31)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2000-10-13)'
   evidence:
   - kind: WG Action
     date: '1999-03-08'
     subject: 'WG Action: Instant Messaging and Presence Protocol (impp)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/TVJ3fzCkAQX_IXzCRmks9oJrCiM/
+  - kind: minutes
+    listed_in: 6
+    first: '1998-12-07'
+    last: '2000-07-31'
+    examples:
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-37.html
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-19.html
+    - date: '2000-07-31'
+      subject: IETF 48 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/48/00july-18.htm
   - kind: proceedings
     listed_in: 5
     first: '1999-02-26'
@@ -202,25 +267,33 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2000-07-31'
       not_after: '2000-10-13'
     end:
       certainty: between
       not_before: '2001-08-05'
       not_after: '2002-02-21'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2000-07-31)'
     - 'Start: listed as chair in a proceedings charter snapshot (2000-10-13)'
     - 'End: listed as chair in meeting minutes (2001-08-05)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2002-02-21)'
   evidence:
   - kind: minutes
-    listed_in: 1
-    first: '2001-08-05'
+    listed_in: 3
+    first: '2000-12-10'
     last: '2001-08-05'
     examples:
+    - date: '2000-12-10'
+      subject: IETF 49 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/49/00dec-16.htm
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-17.htm
     - date: '2001-08-05'
       subject: IETF 51 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/51/minutes/IMPP.htm
+      url: https://www.ietf.org/proceedings/51/51-17.htm
   - kind: proceedings
     listed_in: 4
     first: '2000-10-13'
@@ -235,6 +308,10 @@ chairs:
     - date: '2001-11-09'
       subject: IETF 52 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/52/109.htm
+  - kind: minutes without them
+    date: '2000-07-31'
+    subject: IETF 48 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/48/00july-18.htm
   - kind: minutes without them
     date: '2002-02-21'
     subject: IETF 53 proceedings charter, as last modified

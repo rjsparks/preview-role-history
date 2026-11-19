@@ -2,6 +2,10 @@ acronym: nits
 name: Networks in the Small - aka Home Networks
 type: wg
 parent: int
+areas:
+- area: int
+  first: '1999-09-01'
+  last: '1999-09-01'
 state: conclude
 started: null
 closed: '1999-09-01'
@@ -14,6 +18,38 @@ bof_sessions:
   url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-47.html
 history_url: https://datatracker.ietf.org/group/nits/history/
 chairs:
+- person: 4014
+  name: Peter Ford
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1999-03-14'
+    end:
+      certainty: between
+      not_before: '1999-03-14'
+      not_after: '1999-07-11'
+    notes:
+    - 'Start: listed as chair in meeting minutes (1999-03-14)'
+    - 'End: listed as chair in meeting minutes (1999-03-14)'
+    - 'End: not listed among the chairs in meeting minutes (1999-07-11)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '1999-03-14'
+    last: '1999-03-14'
+    examples:
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-62.html
+  - kind: minutes without them
+    date: '1999-07-11'
+    subject: IETF 45 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-60.html
+  - kind: BOF session
+    meeting: '44'
+    date: '1999-03-14'
+    url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-47.html
 - person: 16916
   name: Erik Guttman
   status: confirmed
@@ -23,13 +59,21 @@ chairs:
       date: '1999-03-14'
     end:
       certainty: between
-      not_before: '1999-03-14'
+      not_before: '1999-07-11'
       not_after: '1999-09-01'
     notes:
     - 'Start: the BOF met at IETF 44 (1999-03-14)'
-    - 'End: the BOF met at IETF 44 (1999-03-14)'
+    - 'End: listed as chair in meeting minutes (1999-07-11)'
     - 'End: the group closed (1999-09-01)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '1999-07-11'
+    last: '1999-07-11'
+    examples:
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-60.html
   - kind: BOF session
     meeting: '44'
     date: '1999-03-14'
@@ -43,13 +87,24 @@ chairs:
       date: '1999-03-14'
     end:
       certainty: between
-      not_before: '1999-03-14'
+      not_before: '1999-07-11'
       not_after: '1999-09-01'
     notes:
-    - 'Start: the BOF met at IETF 44 (1999-03-14)'
-    - 'End: the BOF met at IETF 44 (1999-03-14)'
+    - 'Start: listed as chair in meeting minutes (1999-03-14)'
+    - 'End: listed as chair in meeting minutes (1999-07-11)'
     - 'End: the group closed (1999-09-01)'
   evidence:
+  - kind: minutes
+    listed_in: 2
+    first: '1999-03-14'
+    last: '1999-07-11'
+    examples:
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-62.html
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-60.html
   - kind: BOF session
     meeting: '44'
     date: '1999-03-14'

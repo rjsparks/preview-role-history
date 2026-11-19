@@ -2,6 +2,13 @@ acronym: urnbis
 name: Uniform Resource Names, Revised
 type: wg
 parent: art
+areas:
+- area: app
+  first: '2010-03-21'
+  last: '2014-12-09'
+- area: art
+  first: '2015-05-29'
+  last: '2017-10-25'
 state: conclude
 started: '2010-10-21'
 closed: '2017-10-25'
@@ -139,13 +146,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '1996-03-04'
       not_after: '2010-03-21'
     end:
       certainty: between
       not_before: '2010-03-21'
       not_after: '2011-03-27'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 27 (1993-07-12)'
     - 'Start: listed as chair in a proceedings charter snapshot (2010-03-21)'
     - 'End: not listed among the chairs in meeting minutes (2011-03-27)'
   evidence:
@@ -164,6 +173,11 @@ chairs:
     date: '2011-03-27'
     subject: IETF 80 minutes in the proceedings
     url: https://www.ietf.org/proceedings/80/minutes/urnbis.txt
+  - kind: joined the IESG
+    after_meeting: '26'
+    after: '1993-03-29'
+    by_meeting: '27'
+    by: '1993-07-12'
 - person: 110063
   name: Alfred Hoenes
   status: confirmed

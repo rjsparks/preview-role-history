@@ -2,6 +2,10 @@ acronym: idr
 name: Inter-Domain Routing
 type: wg
 parent: rtg
+areas:
+- area: rtg
+  first: '1994-12-05'
+  last: '2026-11-18'
 state: active
 started: '1994-07-06'
 closed: null
@@ -61,16 +65,16 @@ chairs:
       subject: '[Idr] WGLC on'
       url: https://mailarchive.ietf.org/arch/msg/idr/K4mzbe3mifFMhltUYOBfywHoOgg/
   - kind: minutes
-    listed_in: 22
-    first: '2003-03-16'
+    listed_in: 35
+    first: '1997-08-11'
     last: '2016-04-03'
     examples:
-    - date: '2003-03-16'
-      subject: Minutes of the IDR working meeting at IETF 56
-      url: https://mailarchive.ietf.org/arch/msg/idr/p0exLueSLq-S93ErDJv-OSOHsTk/
-    - date: '2003-07-13'
-      subject: '[Idr] FW: idr minutes'
-      url: https://mailarchive.ietf.org/arch/msg/idr/wdcI9A5RvDNesd9BxouwFWVG7S8/
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-85.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-87.htm
     - date: '2016-04-03'
       subject: IETF 95 minutes in the proceedings
       url: https://www.ietf.org/proceedings/95/minutes/minutes-95-idr.html
@@ -325,10 +329,22 @@ chairs:
       certainty: evidence-only
       not_after: '1994-12-05'
     end:
-      certainty: announced
-      date: '2009-06-30'
+      certainty: between
+      not_before: '2009-03-24'
+      not_after: '2009-06-01'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-12-05)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2009-03-24)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2009-06-01)'
+  - start:
+      certainty: between
+      not_before: '2009-06-01'
+      not_after: '2009-07-26'
+    end:
+      certainty: evidence-only
+      not_before: '2009-07-26'
+    notes:
+    - 'Start: requested the group''s session for IETF 75 (2009-07-26)'
     - 'End: announced on the group''s list (2009-06-30)'
   evidence:
   - kind: list message
@@ -358,16 +374,16 @@ chairs:
       subject: WG last call on -bgp-confed-rfc1965bis-00
       url: https://mailarchive.ietf.org/arch/msg/idr/oTgYHqrRJQ5_O2MmE2D6O7DP1AU/
   - kind: minutes
-    listed_in: 11
-    first: '2002-11-17'
+    listed_in: 22
+    first: '1997-12-08'
     last: '2009-03-22'
     examples:
-    - date: '2002-11-17'
-      subject: IETF 55 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/55/minutes/idr.htm
-    - date: '2002-11-21'
-      subject: WG minutes
-      url: https://mailarchive.ietf.org/arch/msg/idr/M4gTLEgtqn4Pq9Zsq1ceUZDWry4/
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-87.htm
+    - date: '1998-03-30'
+      subject: IETF 41 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/41/98mar-edited-91.htm
     - date: '2009-03-22'
       subject: IETF 74 minutes in the proceedings
       url: https://www.ietf.org/proceedings/74/minutes/idr.txt
@@ -385,6 +401,10 @@ chairs:
     - date: '2009-04-02'
       subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/idr.html
+  - kind: minutes without them
+    date: '2009-06-01'
+    subject: IETF 75 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/75/idr.html
   - kind: session requests
     meetings:
     - '65'

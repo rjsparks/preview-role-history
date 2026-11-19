@@ -2,6 +2,10 @@ acronym: svrloc
 name: Service Location Protocol
 type: wg
 parent: int
+areas:
+- area: int
+  first: '1994-12-05'
+  last: '2001-05-31'
 state: conclude
 started: '1990-12-01'
 closed: '2001-05-31'
@@ -20,12 +24,27 @@ chairs:
       not_after: '1994-03-28'
     end:
       certainty: between
-      not_before: '1994-03-28'
+      not_before: '1998-12-07'
       not_after: '2001-05-31'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
+    - 'End: listed as chair in meeting minutes (1998-12-07)'
     - 'End: the group closed (2001-05-31)'
   evidence:
+  - kind: minutes
+    listed_in: 4
+    first: '1997-08-11'
+    last: '1998-12-07'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-57.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-54.htm
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-63.html
   - kind: proceedings
     listed_in: 9
     first: '1994-03-28'
@@ -50,10 +69,10 @@ chairs:
     end:
       certainty: between
       not_before: '1994-03-28'
-      not_after: '1997-10-27'
+      not_after: '1997-08-11'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (1997-10-27)'
+    - 'End: not listed among the chairs in meeting minutes (1997-08-11)'
   evidence:
   - kind: proceedings
     listed_in: 4
@@ -70,9 +89,9 @@ chairs:
       subject: IETF 33 proceedings charter
       url: https://www.ietf.org/proceedings/33/area.and.wg.reports/int/svrloc/svrloc-charter.txt
   - kind: minutes without them
-    date: '1997-10-27'
-    subject: IETF 40 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-54.htm
+    date: '1997-08-11'
+    subject: IETF 39 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/39/transit97aug-57.htm
 - person: 16916
   name: Erik Guttman
   status: confirmed
@@ -87,6 +106,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
   evidence:
+  - kind: minutes
+    listed_in: 7
+    first: '1997-08-11'
+    last: '1999-11-07'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-57.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-54.htm
+    - date: '1999-11-07'
+      subject: IETF 46 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/46/46th-99nov-ietf-62.html
   - kind: proceedings
     listed_in: 8
     first: '1997-04-07'

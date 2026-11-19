@@ -2,6 +2,10 @@ acronym: eap
 name: Extensible Authentication Protocol
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2002-07-26'
+  last: '2008-05-30'
 state: conclude
 started: '2002-06-14'
 closed: '2008-05-30'
@@ -37,16 +41,16 @@ chairs:
     subject: 'WG Action: RECHARTER: Extensible Authentication Protocol (eap)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/gK70WqQXo0DlheofP7Pc3PCIPgg/
   - kind: minutes
-    listed_in: 7
-    first: '2003-11-09'
+    listed_in: 9
+    first: '2002-11-17'
     last: '2006-03-19'
     examples:
-    - date: '2003-11-09'
-      subject: IETF 58 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/58/minutes/eap.htm
-    - date: '2004-02-29'
-      subject: IETF 59 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/59/minutes/eap.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/136.htm
+    - date: '2003-03-16'
+      subject: IETF 56 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/56/138.htm
     - date: '2006-03-19'
       subject: IETF 65 minutes in the proceedings
       url: https://www.ietf.org/proceedings/65/minutes/eap.txt
@@ -89,16 +93,16 @@ chairs:
     subject: 'WG Action: RECHARTER: Extensible Authentication Protocol (eap)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/gK70WqQXo0DlheofP7Pc3PCIPgg/
   - kind: minutes
-    listed_in: 7
-    first: '2003-11-09'
+    listed_in: 9
+    first: '2002-11-17'
     last: '2006-03-19'
     examples:
-    - date: '2003-11-09'
-      subject: IETF 58 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/58/minutes/eap.htm
-    - date: '2004-02-29'
-      subject: IETF 59 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/59/minutes/eap.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/136.htm
+    - date: '2003-03-16'
+      subject: IETF 56 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/56/138.htm
     - date: '2006-03-19'
       subject: IETF 65 minutes in the proceedings
       url: https://www.ietf.org/proceedings/65/minutes/eap.txt
@@ -125,3 +129,31 @@ chairs:
     meetings:
     - '65'
     url_template: https://datatracker.ietf.org/meeting/{meeting}/requests
+- person: 106988
+  name: Glen Zorn
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '1998-12-07'
+    end:
+      certainty: between
+      not_before: '1998-12-07'
+      not_after: '2002-07-26'
+    notes:
+    - 'Start: listed as chair in meeting minutes (1998-12-07)'
+    - 'End: listed as chair in meeting minutes (1998-12-07)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2002-07-26)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '1998-12-07'
+    last: '1998-12-07'
+    examples:
+    - date: '1998-12-07'
+      subject: IETF 43 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-118.html
+  - kind: minutes without them
+    date: '2002-07-26'
+    subject: IETF 55 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/55/136.htm

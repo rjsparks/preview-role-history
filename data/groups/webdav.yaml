@@ -2,6 +2,10 @@ acronym: webdav
 name: WWW Distributed Authoring and Versioning
 type: wg
 parent: app
+areas:
+- area: app
+  first: '1997-04-07'
+  last: '2007-03-13'
 state: conclude
 started: '1997-03-12'
 closed: '2007-03-13'
@@ -20,14 +24,14 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2003-03-16'
+      not_before: '2003-07-13'
       not_after: '2004-05-19'
     end:
       certainty: between
       not_before: '2004-05-19'
       not_after: '2004-06-15'
     notes:
-    - 'Start: not listed among the chairs in meeting minutes (2003-03-16)'
+    - 'Start: became an Area Director, first serving at IETF 41 (1998-03-30)'
     - 'Start: named as chair in the WG Action announcement (2004-05-19)'
     - 'End: named as chair in the WG Action announcement (2004-05-19)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2004-06-15)'
@@ -37,13 +41,14 @@ chairs:
     subject: 'WG Action: RECHARTER: WWW Distributed Authoring and Versioning (webdav)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/2vcgzFsJ4kAnOEvHBemGC1z9cic/
   - kind: minutes without them
-    date: '2003-03-16'
-    subject: IETF 56 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/56/minutes/webdav.htm
-  - kind: minutes without them
     date: '2004-06-15'
     subject: IETF 60 proceedings charter, as last modified
     url: https://www.ietf.org/proceedings/60/126.htm
+  - kind: joined the IESG
+    after_meeting: '40'
+    after: '1997-12-08'
+    by_meeting: '41'
+    by: '1998-03-30'
 - person: 19807
   name: Jim Whitehead
   status: unconfirmed
@@ -61,10 +66,16 @@ chairs:
     - 'End: not listed among the chairs in a proceedings charter snapshot (2004-06-15)'
   evidence:
   - kind: minutes
-    listed_in: 1
-    first: '2003-03-16'
+    listed_in: 7
+    first: '2001-03-18'
     last: '2003-03-16'
     examples:
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-34.htm
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/51-35.htm
     - date: '2003-03-16'
       subject: IETF 56 minutes in the proceedings
       url: https://www.ietf.org/proceedings/56/minutes/webdav.htm
@@ -103,10 +114,16 @@ chairs:
     - 'End: became an Area Director, first serving at IETF 66 (2006-07-09)'
   evidence:
   - kind: minutes
-    listed_in: 1
-    first: '2003-03-16'
+    listed_in: 4
+    first: '2002-03-17'
     last: '2003-03-16'
     examples:
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/129.htm
+    - date: '2002-07-14'
+      subject: IETF 54 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/54/129.htm
     - date: '2003-03-16'
       subject: IETF 56 minutes in the proceedings
       url: https://www.ietf.org/proceedings/56/minutes/webdav.htm
@@ -210,12 +227,27 @@ chairs:
       not_after: '1997-04-07'
     end:
       certainty: between
-      not_before: '1997-04-07'
+      not_before: '2000-12-10'
       not_after: '2002-01-30'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
+    - 'End: listed as chair in meeting minutes (2000-12-10)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2002-01-30)'
   evidence:
+  - kind: minutes
+    listed_in: 10
+    first: '1997-08-11'
+    last: '2000-12-10'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-32.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-28.htm
+    - date: '2000-12-10'
+      subject: IETF 49 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/49/00dec-31.htm
   - kind: proceedings
     listed_in: 11
     first: '1997-04-07'

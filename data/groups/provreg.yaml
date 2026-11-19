@@ -2,6 +2,10 @@ acronym: provreg
 name: Provisioning Registry Protocol
 type: wg
 parent: app
+areas:
+- area: app
+  first: '2001-03-14'
+  last: '2011-12-09'
 state: conclude
 started: '2001-01-18'
 closed: '2004-04-05'
@@ -34,16 +38,19 @@ chairs:
       subject: Provreg minutes from London, repost
       url: https://mailarchive.ietf.org/arch/msg/provreg/KkLX-FmYSNM05b6Gxtcoam2fP8U/
   - kind: minutes
-    listed_in: 2
-    first: '2001-09-05'
-    last: '2001-09-07'
+    listed_in: 7
+    first: '2001-03-18'
+    last: '2002-11-17'
     examples:
-    - date: '2001-09-05'
-      subject: Provreg minutes from London
-      url: https://mailarchive.ietf.org/arch/msg/provreg/1xn1u-Qcm0bfFCZz66HFf9h9Gc4/
-    - date: '2001-09-07'
-      subject: Provreg minutes from London, repost
-      url: https://mailarchive.ietf.org/arch/msg/provreg/KkLX-FmYSNM05b6Gxtcoam2fP8U/
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-27.htm
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/51-28.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/122.htm
   - kind: proceedings
     listed_in: 7
     first: '2001-03-14'
@@ -84,16 +91,19 @@ chairs:
       subject: Interim meeting minutes
       url: https://mailarchive.ietf.org/arch/msg/provreg/QPEncCqPCxkSjLeQmWYTHlk6rbI/
   - kind: minutes
-    listed_in: 2
-    first: '2001-09-05'
-    last: '2001-09-07'
+    listed_in: 7
+    first: '2001-03-18'
+    last: '2002-11-17'
     examples:
-    - date: '2001-09-05'
-      subject: Provreg minutes from London
-      url: https://mailarchive.ietf.org/arch/msg/provreg/1xn1u-Qcm0bfFCZz66HFf9h9Gc4/
-    - date: '2001-09-07'
-      subject: Provreg minutes from London, repost
-      url: https://mailarchive.ietf.org/arch/msg/provreg/KkLX-FmYSNM05b6Gxtcoam2fP8U/
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-27.htm
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/51-28.htm
+    - date: '2002-11-17'
+      subject: IETF 55 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/55/122.htm
   - kind: proceedings
     listed_in: 7
     first: '2001-03-14'

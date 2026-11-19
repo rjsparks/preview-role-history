@@ -2,6 +2,10 @@ acronym: ideas
 name: IDentity Enabled Networks
 type: wg
 parent: rtg
+areas:
+- area: rtg
+  first: '2017-06-07'
+  last: '2017-10-02'
 state: abandon
 started: '2017-06-07'
 closed: '2017-10-02'
@@ -61,11 +65,11 @@ chairs:
       not_after: '2016-12-11'
     end:
       certainty: between
-      not_before: '2017-07-16'
+      not_before: '2017-04-13'
       not_after: '2017-09-07'
     notes:
     - 'Start: posted an agenda, minutes or interim notice to the group''s list (2016-12-11)'
-    - 'End: the BOF met at IETF 99 (2017-07-16)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2017-04-13)'
   - start:
       certainty: exact
       date: '2017-09-07'

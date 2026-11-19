@@ -2,6 +2,10 @@ acronym: icos
 name: IP Configuration Security
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2005-02-07'
+  last: '2005-05-11'
 state: conclude
 started: null
 closed: '2005-05-11'

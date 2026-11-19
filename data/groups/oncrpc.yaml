@@ -2,6 +2,10 @@ acronym: oncrpc
 name: ONC Remote Procedure Call
 type: wg
 parent: tsv
+areas:
+- area: tsv
+  first: '1994-12-05'
+  last: '2001-01-23'
 state: conclude
 started: '1994-02-25'
 closed: '2001-01-23'
@@ -23,8 +27,22 @@ chairs:
       certainty: group-closed
       date: '2001-01-23'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
+    - 'Start: listed as chair in meeting minutes (1997-04-07)'
   evidence:
+  - kind: minutes
+    listed_in: 5
+    first: '1997-04-07'
+    last: '1999-07-11'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtft117.htm
+    - date: '1998-03-30'
+      subject: IETF 41 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/41/98mar-edited-127.htm
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-130.html
   - kind: proceedings
     listed_in: 9
     first: '1997-04-07'
@@ -49,10 +67,10 @@ chairs:
     end:
       certainty: between
       not_before: '1994-03-28'
-      not_after: '1997-05-13'
+      not_after: '1997-04-07'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (1997-05-13)'
+    - 'End: not listed among the chairs in meeting minutes (1997-04-07)'
   evidence:
   - kind: proceedings
     listed_in: 4
@@ -69,9 +87,9 @@ chairs:
       subject: IETF 33 proceedings charter
       url: https://www.ietf.org/proceedings/33/area.and.wg.reports/tsv/oncrpc/oncrpc-charter.txt
   - kind: minutes without them
-    date: '1997-05-13'
-    subject: IETF 40 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-119.htm
+    date: '1997-04-07'
+    subject: IETF 38 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/38/97apr-final/xrtft117.htm
 - person: 14374
   name: Stephen Nahm
   status: confirmed
@@ -84,8 +102,22 @@ chairs:
       certainty: group-closed
       date: '2001-01-23'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
+    - 'Start: listed as chair in meeting minutes (1997-04-07)'
   evidence:
+  - kind: minutes
+    listed_in: 5
+    first: '1997-04-07'
+    last: '1999-07-11'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtft117.htm
+    - date: '1998-03-30'
+      subject: IETF 41 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/41/98mar-edited-127.htm
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-130.html
   - kind: proceedings
     listed_in: 9
     first: '1997-04-07'

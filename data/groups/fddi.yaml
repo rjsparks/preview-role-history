@@ -2,6 +2,10 @@ acronym: fddi
 name: IP Over FDDI
 type: wg
 parent: int
+areas:
+- area: int
+  first: '1993-01-12'
+  last: '1993-01-12'
 state: conclude
 started: '1989-10-02'
 closed: '1993-01-12'

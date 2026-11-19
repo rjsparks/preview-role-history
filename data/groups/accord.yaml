@@ -2,6 +2,10 @@ acronym: accord
 name: Alternatives to Content Classification for Operator Resource Deployment
 type: wg
 parent: tsv
+areas:
+- area: tsv
+  first: '2016-02-26'
+  last: '2016-06-10'
 state: bof-conc
 started: '2016-02-26'
 closed: '2016-06-10'
@@ -22,13 +26,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2015-11-01'
+      certainty: between
+      not_before: '2015-07-19'
+      not_after: '2015-11-01'
     end:
       certainty: between
       not_before: '2016-04-03'
       not_after: '2016-06-10'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 81 (2011-07-24)'
     - 'Start: listed as chair in a proceedings charter snapshot (2015-11-01)'
     - 'End: the BOF met at IETF 95 (2016-04-03)'
     - 'End: the group closed (2016-06-10)'
@@ -52,18 +58,25 @@ chairs:
     meeting: '95'
     date: '2016-04-03'
     url: https://www.ietf.org/proceedings/95/accord.html
+  - kind: joined the IESG
+    after_meeting: '80'
+    after: '2011-03-27'
+    by_meeting: '81'
+    by: '2011-07-24'
 - person: 103539
   name: Gonzalo Camarillo
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2015-11-01'
+      certainty: between
+      not_before: '2014-07-20'
+      not_after: '2015-11-01'
     end:
       certainty: between
       not_before: '2016-04-03'
       not_after: '2016-06-10'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 78 (2010-07-25)'
     - 'Start: listed as chair in a proceedings charter snapshot (2015-11-01)'
     - 'End: the BOF met at IETF 95 (2016-04-03)'
     - 'End: the group closed (2016-06-10)'
@@ -87,3 +100,8 @@ chairs:
     meeting: '95'
     date: '2016-04-03'
     url: https://www.ietf.org/proceedings/95/accord.html
+  - kind: joined the IESG
+    after_meeting: '77'
+    after: '2010-03-21'
+    by_meeting: '78'
+    by: '2010-07-25'

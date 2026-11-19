@@ -2,6 +2,10 @@ acronym: lpwan
 name: IPv6 over Low Power Wide-Area Networks
 type: wg
 parent: int
+areas:
+- area: int
+  first: '2016-02-26'
+  last: '2023-07-28'
 state: conclude
 started: '2016-02-26'
 closed: '2023-07-28'
@@ -48,7 +52,7 @@ chairs:
     examples:
     - date: '2016-04-03'
       subject: IETF 95 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/95/minutes/minutes-95-lpwan.txt
+      url: https://www.ietf.org/proceedings/95/lpwan.html
   - kind: proceedings
     listed_in: 2
     first: '2015-11-01'

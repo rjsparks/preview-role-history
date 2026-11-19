@@ -2,6 +2,10 @@ acronym: ptopomib
 name: Physical Topology MIB
 type: wg
 parent: ops
+areas:
+- area: ops
+  first: '1997-04-07'
+  last: '2000-10-03'
 state: conclude
 started: '1996-10-09'
 closed: '2000-10-03'
@@ -25,6 +29,20 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
   evidence:
+  - kind: minutes
+    listed_in: 7
+    first: '1997-08-11'
+    last: '1999-07-11'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-68.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-69.htm
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-73.html
   - kind: proceedings
     listed_in: 7
     first: '1997-04-07'

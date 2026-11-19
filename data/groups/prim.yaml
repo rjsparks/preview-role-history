@@ -2,6 +2,10 @@ acronym: prim
 name: Presence and Instant Messaging Protocol
 type: wg
 parent: app
+areas:
+- area: app
+  first: '2001-07-31'
+  last: '2003-03-28'
 state: conclude
 started: '2001-06-20'
 closed: '2003-03-28'
@@ -38,6 +42,14 @@ chairs:
     date: '2001-07-30'
     subject: 'WG ACTION: Presence and Instant Messaging Protocol (prim)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/wbQuP4x3_NOCFh7OrKiH4FIA64s/
+  - kind: minutes
+    listed_in: 1
+    first: '2001-08-05'
+    last: '2001-08-05'
+    examples:
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/51-27.htm
   - kind: proceedings
     listed_in: 2
     first: '2001-07-31'
@@ -54,19 +66,29 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2001-06-20'
-      not_after: '2001-07-30'
+      certainty: on-or-before
+      date: '2001-03-18'
     end:
       certainty: group-closed
       date: '2003-03-28'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2001-07-30)'
+    - 'Start: listed as chair in meeting minutes (2001-03-18)'
   evidence:
   - kind: WG Action
     date: '2001-07-30'
     subject: 'WG ACTION: Presence and Instant Messaging Protocol (prim)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/wbQuP4x3_NOCFh7OrKiH4FIA64s/
+  - kind: minutes
+    listed_in: 2
+    first: '2001-03-18'
+    last: '2001-08-05'
+    examples:
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-41.htm
+    - date: '2001-08-05'
+      subject: IETF 51 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/51/51-27.htm
   - kind: proceedings
     listed_in: 2
     first: '2001-07-31'
@@ -101,7 +123,7 @@ chairs:
     examples:
     - date: '2000-12-10'
       subject: IETF 49 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/49/minutes/PRIM.txt
+      url: https://www.ietf.org/proceedings/49/00dec-39.htm
   - kind: minutes without them
     date: '2001-07-31'
     subject: IETF 51 proceedings charter, as last modified

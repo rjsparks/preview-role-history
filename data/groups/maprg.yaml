@@ -2,6 +2,7 @@ acronym: maprg
 name: Measurement and Analysis for Protocols
 type: rg
 parent: irtf
+areas: []
 state: active
 started: '2016-01-13'
 closed: null
@@ -27,7 +28,7 @@ chairs:
     end:
       certainty: ongoing
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2015-11-01)'
+    - 'Start: listed as chair in meeting minutes (2015-11-01)'
   evidence:
   - kind: chair activity
     first: '2016-04-19'
@@ -40,6 +41,20 @@ chairs:
     - date: '2016-08-09'
       subject: '[Maprg] Minutes uploaded!'
       url: https://mailarchive.ietf.org/arch/msg/maprg/50KWwP3VDljQgKfEf55oojkgNrQ/
+  - kind: minutes
+    listed_in: 5
+    first: '2015-11-01'
+    last: '2017-03-26'
+    examples:
+    - date: '2015-11-01'
+      subject: IETF 94 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/94/maprg.html
+    - date: '2016-04-03'
+      subject: IETF 95 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/95/maprg.html
+    - date: '2017-03-26'
+      subject: IETF 98 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/98/maprg.html
   - kind: proceedings
     listed_in: 5
     first: '2015-11-01'
@@ -75,6 +90,20 @@ chairs:
     - date: '2017-06-19'
       subject: '[Maprg] draft agenda online'
       url: https://mailarchive.ietf.org/arch/msg/maprg/-JH1bUMbxS7Legdtkjjhrh8vpJM/
+  - kind: minutes
+    listed_in: 5
+    first: '2015-11-01'
+    last: '2017-03-26'
+    examples:
+    - date: '2015-11-01'
+      subject: IETF 94 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/94/maprg.html
+    - date: '2016-04-03'
+      subject: IETF 95 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/95/maprg.html
+    - date: '2017-03-26'
+      subject: IETF 98 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/98/maprg.html
   - kind: proceedings
     listed_in: 5
     first: '2015-11-01'

@@ -2,6 +2,10 @@ acronym: ipv6mib
 name: IPv6 MIB
 type: wg
 parent: int
+areas:
+- area: int
+  first: '1995-04-03'
+  last: '1997-10-16'
 state: conclude
 started: '1995-03-06'
 closed: '1997-10-16'
@@ -51,6 +55,14 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1995-07-17)'
   evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '1997-04-07'
+    last: '1997-04-07'
+    examples:
+    - date: '1997-04-07'
+      subject: IETF 38 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr48.htm
   - kind: proceedings
     listed_in: 3
     first: '1995-07-17'

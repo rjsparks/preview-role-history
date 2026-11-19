@@ -2,6 +2,10 @@ acronym: l3sm
 name: 'L3VPN Service Model '
 type: wg
 parent: ops
+areas:
+- area: ops
+  first: '2015-03-05'
+  last: '2016-12-01'
 state: conclude
 started: '2015-02-27'
 closed: '2016-12-01'

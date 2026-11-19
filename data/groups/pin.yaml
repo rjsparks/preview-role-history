@@ -2,6 +2,10 @@ acronym: pin
 name: PSTN Internet Notification
 type: wg
 parent: tsv
+areas:
+- area: tsv
+  first: '2000-06-02'
+  last: '2000-06-02'
 state: conclude
 started: null
 closed: '2000-06-02'
@@ -17,7 +21,18 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2000-06-02'
+      date: '1999-07-11'
     end:
       certainty: group-closed
       date: '2000-06-02'
+    notes:
+    - 'Start: listed as chair in meeting minutes (1999-07-11)'
+  evidence:
+  - kind: minutes
+    listed_in: 1
+    first: '1999-07-11'
+    last: '1999-07-11'
+    examples:
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-141.html

@@ -2,6 +2,10 @@ acronym: idmr
 name: Inter-Domain Multicast Routing
 type: wg
 parent: rtg
+areas:
+- area: rtg
+  first: '1994-12-05'
+  last: '2005-02-24'
 state: conclude
 started: '1993-04-20'
 closed: '2005-02-24'
@@ -20,12 +24,27 @@ chairs:
       not_after: '1997-08-11'
     end:
       certainty: between
-      not_before: '1997-08-11'
+      not_before: '1999-07-11'
       not_after: '2005-02-24'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1997-08-11)'
+    - 'Start: listed as chair in meeting minutes (1997-08-11)'
+    - 'End: listed as chair in meeting minutes (1999-07-11)'
     - 'End: the group closed (2005-02-24)'
   evidence:
+  - kind: minutes
+    listed_in: 5
+    first: '1997-08-11'
+    last: '1999-07-11'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-84.htm
+    - date: '1998-08-24'
+      subject: IETF 42 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/42/98aug-99.htm
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-88.html
   - kind: proceedings
     listed_in: 5
     first: '1997-08-11'
@@ -50,12 +69,27 @@ chairs:
       not_after: '1994-12-05'
     end:
       certainty: between
-      not_before: '1994-12-05'
+      not_before: '2001-03-18'
       not_after: '2001-12-09'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-12-05)'
+    - 'End: listed as chair in meeting minutes (2001-03-18)'
     - 'End: became an Area Director, first serving at IETF 52 (2001-12-09)'
   evidence:
+  - kind: minutes
+    listed_in: 12
+    first: '1997-08-11'
+    last: '2001-03-18'
+    examples:
+    - date: '1997-08-11'
+      subject: IETF 39 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/39/transit97aug-84.htm
+    - date: '1997-12-08'
+      subject: IETF 40 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-86.htm
+    - date: '2001-03-18'
+      subject: IETF 50 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/50/ietf50-93.htm
   - kind: proceedings
     listed_in: 19
     first: '1994-12-05'
@@ -85,10 +119,10 @@ chairs:
     end:
       certainty: between
       not_before: '1994-03-28'
-      not_after: '1998-08-17'
+      not_after: '1997-08-11'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (1998-08-17)'
+    - 'End: not listed among the chairs in meeting minutes (1997-08-11)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -99,6 +133,6 @@ chairs:
       subject: IETF 29 proceedings charter
       url: https://www.ietf.org/proceedings/29/area.and.wg.reports/rtg/idmr/idmr-charter.txt
   - kind: minutes without them
-    date: '1998-08-17'
-    subject: IETF 42 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/42/98aug-99.htm
+    date: '1997-08-11'
+    subject: IETF 39 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/39/transit97aug-84.htm

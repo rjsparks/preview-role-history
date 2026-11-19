@@ -2,6 +2,16 @@ acronym: avtcore
 name: Audio/Video Transport Core Maintenance
 type: wg
 parent: wit
+areas:
+- area: rai
+  first: '2011-12-09'
+  last: '2013-03-13'
+- area: art
+  first: '2015-05-29'
+  last: '2022-05-03'
+- area: wit
+  first: '2024-01-17'
+  last: '2026-11-18'
 state: active
 started: '2010-12-02'
 closed: null
@@ -147,12 +157,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-11-07'
+      certainty: between
+      not_before: '2010-07-25'
+      not_after: '2010-11-07'
     end:
       certainty: exact
       date: '2017-03-08'
     notes:
+    - 'Start: became an Area Director, first serving at IETF 66 (2006-07-09)'
     - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
   evidence:
   - kind: WG Action
@@ -211,6 +223,11 @@ chairs:
     - date: '2016-11-13'
       subject: IETF 97 proceedings charter
       url: https://www.ietf.org/proceedings/97/avtcore.html
+  - kind: joined the IESG
+    after_meeting: '65'
+    after: '2006-03-19'
+    by_meeting: '66'
+    by: '2006-07-09'
   - kind: session requests
     meetings:
     - '81'
@@ -241,20 +258,10 @@ chairs:
       certainty: on-or-before
       date: '2010-11-07'
     end:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2011-12-09'
-    notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
-  - start:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2012-06-17'
-    end:
       certainty: exact
       date: '2017-03-08'
     notes:
-    - 'Start: started a last call or adoption call on the group''s list (2012-06-17)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
   - start:
       certainty: exact
       date: '2019-09-20'

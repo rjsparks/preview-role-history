@@ -2,6 +2,13 @@ acronym: megaco
 name: Media Gateway Control
 type: wg
 parent: rai
+areas:
+- area: tsv
+  first: '1999-02-11'
+  last: '2005-05-11'
+- area: rai
+  first: '2006-03-27'
+  last: '2006-03-27'
 state: conclude
 started: '1998-11-10'
 closed: '2006-03-27'
@@ -39,6 +46,20 @@ chairs:
     - date: '2003-06-02'
       subject: '[Megaco] WG Last Call For Megaco MIB'
       url: https://mailarchive.ietf.org/arch/msg/megaco/aRXSUAkoHD_2Hp8e3h9RuHB-F64/
+  - kind: minutes
+    listed_in: 9
+    first: '1999-03-14'
+    last: '2002-03-17'
+    examples:
+    - date: '1999-03-14'
+      subject: IETF 44 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-129.html
+    - date: '1999-07-11'
+      subject: IETF 45 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-125.html
+    - date: '2002-03-17'
+      subject: IETF 53 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/53/224.htm
   - kind: proceedings
     listed_in: 14
     first: '1999-02-11'
