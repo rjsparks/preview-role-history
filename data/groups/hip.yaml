@@ -4,7 +4,7 @@ type: wg
 parent: int
 areas:
 - area: int
-  first: '2005-01-17'
+  first: '2004-05-18'
   last: '2021-08-23'
 state: conclude
 started: '2004-02-05'
@@ -24,14 +24,18 @@ chairs:
   - start:
       certainty: between
       not_before: '2004-02-05'
-      not_after: '2005-01-17'
+      not_after: '2004-03-24'
     end:
       certainty: between
       not_before: '2011-12-09'
       not_after: '2013-03-13'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2005-01-17)'
+    - 'Start: named as chair in the WG Action announcement (2004-03-24)'
   evidence:
+  - kind: WG Action
+    date: '2004-03-24'
+    subject: 'WG Action: Host Identity Protocol (hip)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/qqfa9Kvpq_SYnCn-A7PtASN8At8/
   - kind: WG Review
     date: '2006-10-17'
     subject: 'WG Review: Recharter of Host Identity Protocol (hip)'
@@ -49,16 +53,16 @@ chairs:
     subject: 'WG Action: RECHARTER: Host Identity Protocol (hip)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/to-RcO9TjVBxLJEpo2K4SilFxU0/
   - kind: proceedings
-    listed_in: 17
-    first: '2005-01-17'
+    listed_in: 19
+    first: '2004-05-18'
     last: '2012-10-02'
     examples:
-    - date: '2005-01-17'
-      subject: IETF 62 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/62/hip.html
-    - date: '2005-06-02'
-      subject: IETF 63 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/63/hip.html
+    - date: '2004-05-18'
+      subject: IETF 60 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/60/139.htm
+    - date: '2004-11-02'
+      subject: IETF 61 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/61/hip.html
     - date: '2012-10-02'
       subject: IETF 84 proceedings charter, as the datatracker generated it by 2012-10-02
       url: https://www.ietf.org/proceedings/84/hip.html
@@ -76,6 +80,10 @@ chairs:
     notes:
     - 'Start: posted an agenda, minutes or interim notice to the group''s list (2004-03-10)'
   evidence:
+  - kind: WG Action
+    date: '2004-03-24'
+    subject: 'WG Action: Host Identity Protocol (hip)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/qqfa9Kvpq_SYnCn-A7PtASN8At8/
   - kind: WG Review
     date: '2006-10-17'
     subject: 'WG Review: Recharter of Host Identity Protocol (hip)'
@@ -113,16 +121,16 @@ chairs:
       subject: '[Hipsec] WGLC draft-ietf-hip-rvs-04.txt'
       url: https://mailarchive.ietf.org/arch/msg/hipsec/zkkDP9iE9fcDkpWD3EyqceA_L2k/
   - kind: proceedings
-    listed_in: 29
-    first: '2005-01-17'
+    listed_in: 31
+    first: '2004-05-18'
     last: '2016-09-08'
     examples:
-    - date: '2005-01-17'
-      subject: IETF 62 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/62/hip.html
-    - date: '2005-06-02'
-      subject: IETF 63 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/63/hip.html
+    - date: '2004-05-18'
+      subject: IETF 60 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/60/139.htm
+    - date: '2004-11-02'
+      subject: IETF 61 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/61/hip.html
     - date: '2016-09-08'
       subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
       url: https://www.ietf.org/proceedings/96/hip.html
