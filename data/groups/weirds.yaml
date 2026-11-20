@@ -100,10 +100,11 @@ chairs:
     end:
       certainty: between
       not_before: '2012-03-25'
-      not_after: '2015-03-25'
+      not_after: '2012-05-15'
     notes:
     - 'Start: posted an agenda, minutes or interim notice to the group''s list (2011-10-14)'
     - 'End: listed as chair in meeting minutes (2012-03-25)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (2012-05-15)'
   evidence:
   - kind: chair activity
     first: '2011-10-14'
@@ -132,6 +133,10 @@ chairs:
     - date: '2011-11-13'
       subject: IETF 82 proceedings charter
       url: https://www.ietf.org/proceedings/82/weirds.html
+  - kind: chartering announcement without them
+    date: '2012-05-15'
+    subject: 'WG Action: Web Extensible Internet Registration Data Service (weirds)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/-rWbTOUb28Vmr-_rIWpCdF8OW7Q/
 - person: 117929
   name: Olaf Kolkman
   status: confirmed

@@ -112,11 +112,11 @@ chairs:
     end:
       certainty: between
       not_before: '2000-12-10'
-      not_after: '2001-07-31'
+      not_after: '2001-07-30'
     notes:
     - 'Start: listed as chair in meeting minutes (2000-12-10)'
     - 'End: listed as chair in meeting minutes (2000-12-10)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (2001-07-31)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (2001-07-30)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -126,7 +126,7 @@ chairs:
     - date: '2000-12-10'
       subject: IETF 49 minutes in the proceedings
       url: https://www.ietf.org/proceedings/49/00dec-39.htm
-  - kind: minutes without them
-    date: '2001-07-31'
-    subject: IETF 51 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/51/51-27.htm
+  - kind: chartering announcement without them
+    date: '2001-07-30'
+    subject: 'WG ACTION: Presence and Instant Messaging Protocol (prim)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/wbQuP4x3_NOCFh7OrKiH4FIA64s/

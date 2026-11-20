@@ -244,12 +244,14 @@ chairs:
       not_before: '2014-11-09'
       not_after: '2015-03-09'
     end:
-      certainty: evidence-only
+      certainty: between
       not_before: '2015-03-09'
+      not_after: '2015-10-05'
     notes:
     - 'Start: not listed among the chairs in meeting minutes (2014-11-09)'
     - 'Start: posted an agenda, minutes or interim notice to the group''s list (2015-03-09)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2015-03-09)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (2015-10-05)'
   evidence:
   - kind: datatracker record
     date: '2014-10-02'
@@ -269,6 +271,10 @@ chairs:
     - date: '2015-03-09'
       subject: '[Detnet] 6TiSCH (inviting DetNet) agenda for IETF 92'
       url: https://mailarchive.ietf.org/arch/msg/detnet/nefUIbgpq8V-TnFjAkco9U_Hi3Q/
+  - kind: chartering announcement without them
+    date: '2015-10-05'
+    subject: 'WG Action: Formed Deterministic Networking (detnet)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/22jx3lZtU34T3Jp_n4nYbzAntzg/
   - kind: minutes without them
     date: '2014-11-09'
     subject: IETF 91 minutes in the proceedings

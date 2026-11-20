@@ -30,11 +30,11 @@ chairs:
     end:
       certainty: between
       not_before: '2001-08-05'
-      not_after: '2003-03-07'
+      not_after: '2002-12-19'
     notes:
     - 'Start: listed as chair in meeting minutes (2001-08-05)'
     - 'End: listed as chair in meeting minutes (2001-08-05)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (2003-03-07)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (2002-12-19)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -44,10 +44,10 @@ chairs:
     - date: '2001-08-05'
       subject: IETF 51 minutes in the proceedings
       url: https://www.ietf.org/proceedings/51/51-121.htm
-  - kind: minutes without them
-    date: '2003-03-07'
-    subject: IETF 56 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/56/213.htm
+  - kind: chartering announcement without them
+    date: '2002-12-19'
+    subject: 'WG Action: Simple Authentication and Security Layer (sasl)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/XgtwlUJoll0ly8suuEqtjvu8Hqs/
 - person: 102191
   name: Taylor Yu
   status: confirmed

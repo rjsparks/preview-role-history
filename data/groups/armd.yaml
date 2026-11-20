@@ -33,10 +33,10 @@ chairs:
     end:
       certainty: between
       not_before: '2010-07-25'
-      not_after: '2011-03-27'
+      not_after: '2011-03-21'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
-    - 'End: not listed among the chairs in meeting minutes (2011-03-27)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (2011-03-21)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -46,10 +46,10 @@ chairs:
     - date: '2010-07-25'
       subject: IETF 78 proceedings charter
       url: https://www.ietf.org/proceedings/78/armd.html
-  - kind: minutes without them
-    date: '2011-03-27'
-    subject: '[armd] Draft Minutes of IETF80 ARMD session'
-    url: https://mailarchive.ietf.org/arch/msg/armd/PGxot1o32LImVR11mw8ElLS1NVI/
+  - kind: chartering announcement without them
+    date: '2011-03-21'
+    subject: 'WG Action: Address Resolution for Massive numbers of hosts in the Data center (armd)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/L3s8MHZnZyeH6RQSsquZ_PV1sVc/
 - person: 106186
   name: Julien Laganier
   status: unconfirmed
@@ -60,10 +60,10 @@ chairs:
     end:
       certainty: between
       not_before: '2010-07-25'
-      not_after: '2011-03-27'
+      not_after: '2011-03-21'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
-    - 'End: not listed among the chairs in meeting minutes (2011-03-27)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (2011-03-21)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -73,10 +73,10 @@ chairs:
     - date: '2010-07-25'
       subject: IETF 78 proceedings charter
       url: https://www.ietf.org/proceedings/78/armd.html
-  - kind: minutes without them
-    date: '2011-03-27'
-    subject: '[armd] Draft Minutes of IETF80 ARMD session'
-    url: https://mailarchive.ietf.org/arch/msg/armd/PGxot1o32LImVR11mw8ElLS1NVI/
+  - kind: chartering announcement without them
+    date: '2011-03-21'
+    subject: 'WG Action: Address Resolution for Massive numbers of hosts in the Data center (armd)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/L3s8MHZnZyeH6RQSsquZ_PV1sVc/
 - person: 111086
   name: Linda Dunbar
   status: confirmed

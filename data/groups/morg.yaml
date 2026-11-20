@@ -102,13 +102,29 @@ chairs:
       not_after: '2008-07-27'
     end:
       certainty: between
+      not_before: '2008-07-27'
+      not_after: '2009-01-13'
+    notes:
+    - 'Start: requested the group''s session for IETF 72 (2008-07-27)'
+    - 'End: requested the group''s session for IETF 72 (2008-07-27)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (2009-01-13)'
+  - start:
+      certainty: between
+      not_before: '2009-01-13'
+      not_after: '2009-03-22'
+    end:
+      certainty: between
       not_before: '2009-03-22'
       not_after: '2009-04-03'
     notes:
-    - 'Start: requested the group''s session for IETF 72 (2008-07-27)'
+    - 'Start: requested the group''s session for IETF 74 (2009-03-22)'
     - 'End: requested the group''s session for IETF 74 (2009-03-22)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2009-04-03)'
   evidence:
+  - kind: chartering announcement without them
+    date: '2009-01-13'
+    subject: 'WG Action: Message ORGanization (morg)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/rVwvj48lFnraGAHxqoRo_Gweg4s/
   - kind: minutes without them
     date: '2009-04-03'
     subject: IETF 74 proceedings charter, as last modified

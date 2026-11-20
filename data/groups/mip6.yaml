@@ -250,11 +250,11 @@ chairs:
     end:
       certainty: between
       not_before: '2003-07-13'
-      not_after: '2003-10-20'
+      not_after: '2003-09-17'
     notes:
     - 'Start: listed as chair in meeting minutes (2003-07-13)'
     - 'End: listed as chair in meeting minutes (2003-07-13)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (2003-10-20)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (2003-09-17)'
   evidence:
   - kind: minutes
     listed_in: 2
@@ -267,7 +267,7 @@ chairs:
     - date: '2003-07-13'
       subject: IETF 57 minutes in the proceedings
       url: https://www.ietf.org/proceedings/57/156.htm
-  - kind: minutes without them
-    date: '2003-10-20'
-    subject: IETF 58 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/58/143.htm
+  - kind: chartering announcement without them
+    date: '2003-09-17'
+    subject: 'WG Action: Mobility for IPv6 (mip6)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/g0KNk-_G40NtK2olwjAd1PNGIbk/

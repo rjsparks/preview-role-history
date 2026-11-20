@@ -27,10 +27,10 @@ chairs:
     end:
       certainty: between
       not_before: '2005-01-17'
-      not_after: '2005-06-30'
+      not_after: '2005-06-29'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2005-01-17)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (2005-06-30)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (2005-06-29)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -40,10 +40,10 @@ chairs:
     - date: '2005-01-17'
       subject: IETF 62 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/62/shim6.html
-  - kind: minutes without them
-    date: '2005-06-30'
-    subject: IETF 63 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/63/shim6.html
+  - kind: chartering announcement without them
+    date: '2005-06-29'
+    subject: 'WG Action: Site Multihoming by IPv6 Intermediation (shim6)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/fbifN8TpynCHyq-sF32m4mocBQ8/
   - kind: joined the IESG
     after_meeting: '62'
     after: '2005-03-06'

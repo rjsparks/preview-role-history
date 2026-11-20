@@ -65,12 +65,12 @@ chairs:
     end:
       certainty: between
       not_before: '2004-02-29'
-      not_after: '2004-06-18'
+      not_after: '2004-04-08'
     notes:
     - 'Start: became an Area Director, first serving at IETF 41 (1998-03-30)'
     - 'Start: listed as chair in meeting minutes (2004-02-29)'
     - 'End: listed as chair in meeting minutes (2004-02-29)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (2004-06-18)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (2004-04-08)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -80,10 +80,10 @@ chairs:
     - date: '2004-02-29'
       subject: IETF 59 minutes in the proceedings
       url: https://www.ietf.org/proceedings/59/128.htm
-  - kind: minutes without them
-    date: '2004-06-18'
-    subject: IETF 60 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/60/116.htm
+  - kind: chartering announcement without them
+    date: '2004-04-08'
+    subject: 'WG Action: MTA Authorization Records in DNS (marid)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/l4ht9i7n8qcLWA5Yp_-zIDBEY4Y/
   - kind: joined the IESG
     after_meeting: '40'
     after: '1997-12-08'

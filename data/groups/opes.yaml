@@ -98,11 +98,11 @@ chairs:
     end:
       certainty: between
       not_before: '2001-03-18'
-      not_after: '2002-05-30'
+      not_after: '2002-02-22'
     notes:
     - 'Start: listed as chair in meeting minutes (2001-03-18)'
     - 'End: listed as chair in meeting minutes (2001-03-18)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (2002-05-30)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (2002-02-22)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -112,10 +112,10 @@ chairs:
     - date: '2001-03-18'
       subject: IETF 50 minutes in the proceedings
       url: https://www.ietf.org/proceedings/50/ietf50-40.htm
-  - kind: minutes without them
-    date: '2002-05-30'
-    subject: IETF 54 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/54/120.htm
+  - kind: chartering announcement without them
+    date: '2002-02-22'
+    subject: 'WG ACTION: Open Pluggable Edge Services (opes)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/fvaPTUpcVDQEObhHZlGTNgWwcC4/
 - person: 6771
   name: Tony Hansen
   status: confirmed
@@ -171,11 +171,11 @@ chairs:
     end:
       certainty: between
       not_before: '2001-03-18'
-      not_after: '2002-05-30'
+      not_after: '2002-02-22'
     notes:
     - 'Start: listed as chair in meeting minutes (2001-03-18)'
     - 'End: listed as chair in meeting minutes (2001-03-18)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (2002-05-30)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (2002-02-22)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -185,10 +185,10 @@ chairs:
     - date: '2001-03-18'
       subject: IETF 50 minutes in the proceedings
       url: https://www.ietf.org/proceedings/50/ietf50-40.htm
-  - kind: minutes without them
-    date: '2002-05-30'
-    subject: IETF 54 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/54/120.htm
+  - kind: chartering announcement without them
+    date: '2002-02-22'
+    subject: 'WG ACTION: Open Pluggable Edge Services (opes)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/fvaPTUpcVDQEObhHZlGTNgWwcC4/
 - person: 104819
   name: Markus Hofmann
   status: confirmed

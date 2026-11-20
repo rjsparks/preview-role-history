@@ -34,7 +34,7 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2007-02-06)'
     - 'End: listed as chair in meeting minutes (2007-03-18)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (2007-06-26)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (2007-06-26)'
   evidence:
   - kind: chair activity
     first: '2007-03-05'
@@ -60,10 +60,10 @@ chairs:
     - date: '2007-02-06'
       subject: IETF 68 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/68/bliss.html
-  - kind: minutes without them
+  - kind: chartering announcement without them
     date: '2007-06-26'
-    subject: IETF 69 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/69/bliss.html
+    subject: 'WG Action: Basic Level of Interoperability for SIP Services (bliss)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/T738ptoJNg-zfgK_IEeHBuY6SK0/
 - person: 107520
   name: Shida Schubert
   status: confirmed

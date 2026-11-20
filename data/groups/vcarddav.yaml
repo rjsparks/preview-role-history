@@ -33,7 +33,7 @@ chairs:
       not_after: '2008-01-31'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2007-06-28)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (2008-01-31)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (2008-01-31)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -43,10 +43,10 @@ chairs:
     - date: '2007-06-28'
       subject: IETF 69 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/69/vcarddav.html
-  - kind: minutes without them
+  - kind: chartering announcement without them
     date: '2008-01-31'
-    subject: IETF 71 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/71/vcarddav.html
+    subject: 'WG Action: vCard and vCardDAV (vcarddav)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/6CxQHJtUXWWREfBxOWCXFZ7VFiw/
 - person: 19869
   name: Marc Blanchet
   status: unconfirmed

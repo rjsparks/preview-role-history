@@ -36,11 +36,11 @@ chairs:
     end:
       certainty: between
       not_before: '2001-12-09'
-      not_after: '2006-10-11'
+      not_after: '2002-08-16'
     notes:
     - 'Start: listed as chair in meeting minutes (2001-12-09)'
     - 'End: listed as chair in meeting minutes (2001-12-09)'
-    - 'End: the group closed (2006-10-11)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (2002-08-16)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -50,6 +50,10 @@ chairs:
     - date: '2001-12-09'
       subject: IETF 52 minutes in the proceedings
       url: https://www.ietf.org/proceedings/52/204.htm
+  - kind: chartering announcement without them
+    date: '2002-08-16'
+    subject: 'WG Action: Extended Incident Handling (inch)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/6J3Sq7z8hLt_MP-ae9yYmpEPl9c/
 - person: 105815
   name: Roman Danyliw
   status: confirmed

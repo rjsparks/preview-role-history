@@ -62,10 +62,10 @@ chairs:
     end:
       certainty: between
       not_before: '2010-03-21'
-      not_after: '2012-04-03'
+      not_after: '2010-11-23'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2010-03-21)'
-    - 'End: the group closed (2012-04-03)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (2010-11-23)'
   evidence:
   - kind: proceedings
     listed_in: 2
@@ -78,11 +78,10 @@ chairs:
     - date: '2010-06-15'
       subject: IETF 78 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/78/ftpext2.html
-  - kind: joined the IESG
-    after_meeting: '83'
-    after: '2012-03-25'
-    by_meeting: '84'
-    by: '2012-07-29'
+  - kind: chartering announcement without them
+    date: '2010-11-23'
+    subject: 'WG Action: FTP Extensions, 2nd edition (ftpext2)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/tqm73FPt0e1MAVzfX0_biziOfRo/
 - person: 109498
   name: Anthony Bryan
   status: confirmed

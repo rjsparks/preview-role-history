@@ -36,10 +36,10 @@ chairs:
     end:
       certainty: between
       not_before: '2007-07-05'
-      not_after: '2009-07-26'
+      not_after: '2007-10-23'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2007-07-05)'
-    - 'End: became an Area Director, first serving at IETF 75 (2009-07-26)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (2007-10-23)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -49,11 +49,10 @@ chairs:
     - date: '2007-07-05'
       subject: IETF 69 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/69/httpbis.html
-  - kind: joined the IESG
-    after_meeting: '74'
-    after: '2009-03-22'
-    by_meeting: '75'
-    by: '2009-07-26'
+  - kind: chartering announcement without them
+    date: '2007-10-23'
+    subject: 'WG Action: Hypertext Transfer Protocol Bis WG (httpbis)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/iTKtMMFMku2oanttTcvzapUzS3w/
 - person: 103881
   name: Mark Nottingham
   status: confirmed

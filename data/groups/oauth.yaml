@@ -197,12 +197,12 @@ chairs:
     end:
       certainty: between
       not_before: '2008-12-01'
-      not_after: '2009-05-15'
+      not_after: '2009-05-13'
     notes:
     - 'Start: became an Area Director, first serving at IETF 62 (2005-03-06)'
     - 'Start: listed as chair in meeting minutes (2008-11-16)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2008-12-01)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (2009-05-15)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (2009-05-13)'
   evidence:
   - kind: chair activity
     first: '2008-11-25'
@@ -226,10 +226,10 @@ chairs:
     - date: '2008-12-01'
       subject: '[oauth] Draft minutes for the oauth bof'
       url: https://mailarchive.ietf.org/arch/msg/oauth/01B-7AC7AtX6vpJSy7Kko-4tNG4/
-  - kind: minutes without them
-    date: '2009-05-15'
-    subject: IETF 75 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/75/oauth.html
+  - kind: chartering announcement without them
+    date: '2009-05-13'
+    subject: 'WG Action: Open Authentication Protocol (oauth)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/3csS0fc-NWt-d1ACGvJJrZxRknw/
   - kind: joined the IESG
     after_meeting: '61'
     after: '2004-11-07'
@@ -245,11 +245,11 @@ chairs:
     end:
       certainty: between
       not_before: '2008-12-01'
-      not_after: '2009-05-15'
+      not_after: '2009-05-13'
     notes:
     - 'Start: listed as chair in meeting minutes (2008-11-16)'
     - 'End: listed as chair in meeting minutes (2008-12-01)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (2009-05-15)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (2009-05-13)'
   evidence:
   - kind: minutes
     listed_in: 2
@@ -262,10 +262,10 @@ chairs:
     - date: '2008-12-01'
       subject: '[oauth] Draft minutes for the oauth bof'
       url: https://mailarchive.ietf.org/arch/msg/oauth/01B-7AC7AtX6vpJSy7Kko-4tNG4/
-  - kind: minutes without them
-    date: '2009-05-15'
-    subject: IETF 75 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/75/oauth.html
+  - kind: chartering announcement without them
+    date: '2009-05-13'
+    subject: 'WG Action: Open Authentication Protocol (oauth)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/3csS0fc-NWt-d1ACGvJJrZxRknw/
 - person: 105857
   name: Hannes Tschofenig
   status: confirmed

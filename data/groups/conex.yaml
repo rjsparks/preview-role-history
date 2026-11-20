@@ -99,7 +99,7 @@ chairs:
     notes:
     - 'Start: listed as chair in meeting minutes (2009-11-08)'
     - 'End: requested the group''s session for IETF 77 (2010-03-21)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (2010-06-03)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (2010-06-03)'
   evidence:
   - kind: minutes
     listed_in: 2
@@ -120,10 +120,10 @@ chairs:
     - date: '2009-11-08'
       subject: IETF 76 proceedings charter
       url: https://www.ietf.org/proceedings/76/conex.html
-  - kind: minutes without them
+  - kind: chartering announcement without them
     date: '2010-06-03'
-    subject: IETF 78 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/78/conex.html
+    subject: 'WG Action: Congestion Exposure (conex)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/F-5dE5DA5sp2RUE3CehkSRzEyqY/
   - kind: session requests
     meetings:
     - '77'
@@ -142,7 +142,7 @@ chairs:
     notes:
     - 'Start: listed as chair in meeting minutes (2009-11-08)'
     - 'End: listed as chair in meeting minutes (2010-03-21)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (2010-06-03)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (2010-06-03)'
   evidence:
   - kind: minutes
     listed_in: 2
@@ -163,10 +163,10 @@ chairs:
     - date: '2009-11-08'
       subject: IETF 76 proceedings charter
       url: https://www.ietf.org/proceedings/76/conex.html
-  - kind: minutes without them
+  - kind: chartering announcement without them
     date: '2010-06-03'
-    subject: IETF 78 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/78/conex.html
+    subject: 'WG Action: Congestion Exposure (conex)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/F-5dE5DA5sp2RUE3CehkSRzEyqY/
 - person: 111110
   name: Nandita Dukkipati
   status: confirmed

@@ -516,6 +516,22 @@ class RecordEvidenceTests(DataDirMixin, unittest.TestCase):
         self.assertIn('<a href="https://datatracker.ietf.org/group/iasa20/history/">from datatracker records</a>', page)
 
 
+class ChartingAnnouncementTests(DataDirMixin, unittest.TestCase):
+    def test_not_named_at_chartering_is_shown(self):
+        self.write_people(PEOPLE)
+        g = group(acronym="oauth", bof=True, chartered="2009-05-12")
+        g["chairs"][0]["evidence"] = [{"kind": "chartering announcement without them", "date": "2009-05-13",
+                                       "subject": "WG Action: Open Authentication Protocol (oauth)",
+                                       "url": "https://mailarchive.ietf.org/arch/msg/ietf-announce/abc/"}]
+        self.write_group(g, "oauth")
+        self.assertEqual(self.problems(), [])
+        out = self.root / "site"
+        render.Site(cd.load(self.data), out, "example/chairs").build(Path(__file__).parent.parent / "site")
+        self.assertIn("Not named among the chairs when the group was chartered, 2009-05-13: "
+                      '<a href="https://mailarchive.ietf.org/arch/msg/ietf-announce/abc/">“WG Action: Open Authentication Protocol (oauth)”</a>',
+                      (out / "groups" / "oauth.html").read_text())
+
+
 class SuccessionTests(DataDirMixin, unittest.TestCase):
     def build(self):
         out = self.root / "site"

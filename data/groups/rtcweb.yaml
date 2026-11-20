@@ -36,22 +36,14 @@ chairs:
       not_after: '2011-03-27'
     end:
       certainty: between
-      not_before: '2011-05-11'
-      not_after: '2011-07-24'
+      not_before: '2011-03-27'
+      not_after: '2011-05-03'
     notes:
     - 'Start: became an Area Director, first serving at IETF 51 (2001-08-05)'
     - 'Start: listed as chair in meeting minutes (2011-03-27)'
-    - 'End: posted an agenda, minutes or interim notice to the group''s list (2011-05-11)'
-    - 'End: not listed among the chairs in meeting minutes (2011-07-24)'
+    - 'End: listed as chair in meeting minutes (2011-03-27)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (2011-05-03)'
   evidence:
-  - kind: chair activity
-    first: '2011-05-11'
-    last: '2011-05-11'
-    messages: 1
-    examples:
-    - date: '2011-05-11'
-      subject: '[rtcweb] Meeting minutes from Prague'
-      url: https://mailarchive.ietf.org/arch/msg/rtcweb/8tzLRgtMbP57BdPLAUm04Jga-0c/
   - kind: minutes
     listed_in: 1
     first: '2011-03-27'
@@ -60,10 +52,10 @@ chairs:
     - date: '2011-03-27'
       subject: IETF 80 minutes in the proceedings
       url: https://www.ietf.org/proceedings/80/minutes/rtcweb.txt
-  - kind: minutes without them
-    date: '2011-07-24'
-    subject: IETF 81 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/81/minutes/rtcweb.txt
+  - kind: chartering announcement without them
+    date: '2011-05-03'
+    subject: 'WG Action: Real-Time Communication in WEB-browsers (rtcweb)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/bs_EtBeF83qKv-v64XEtAg3nj4s/
   - kind: joined the IESG
     after_meeting: '50'
     after: '2001-03-18'

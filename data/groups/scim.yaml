@@ -37,9 +37,10 @@ chairs:
     end:
       certainty: between
       not_before: '2012-03-16'
-      not_after: '2015-05-29'
+      not_after: '2012-06-21'
     notes:
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2012-03-16)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (2012-06-21)'
   evidence:
   - kind: chair activity
     first: '2012-03-13'
@@ -60,6 +61,10 @@ chairs:
     - date: '2012-03-25'
       subject: IETF 83 proceedings charter
       url: https://www.ietf.org/proceedings/83/scim.html
+  - kind: chartering announcement without them
+    date: '2012-06-21'
+    subject: 'WG Action: Formed System for Cross-domain Identity Management (scim)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/MWl6WGkkCs1er4urUAA3l7o9cb0/
   - kind: shepherded
     documents:
     - draft-ietf-scim-events
@@ -74,9 +79,10 @@ chairs:
     end:
       certainty: between
       not_before: '2012-02-23'
-      not_after: '2015-05-29'
+      not_after: '2012-06-21'
     notes:
     - 'Start: became an Area Director, first serving at IETF 54 (2002-07-14)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (2012-06-21)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -86,6 +92,10 @@ chairs:
     - date: '2012-03-25'
       subject: IETF 83 proceedings charter
       url: https://www.ietf.org/proceedings/83/scim.html
+  - kind: chartering announcement without them
+    date: '2012-06-21'
+    subject: 'WG Action: Formed System for Cross-domain Identity Management (scim)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/MWl6WGkkCs1er4urUAA3l7o9cb0/
   - kind: joined the IESG
     after_meeting: '53'
     after: '2002-03-17'

@@ -27,11 +27,11 @@ chairs:
     end:
       certainty: between
       not_before: '2004-11-07'
-      not_after: '2005-07-06'
+      not_after: '2005-04-08'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2004-10-28)'
     - 'End: listed as chair in meeting minutes (2004-11-07)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (2005-07-06)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (2005-04-08)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -49,10 +49,10 @@ chairs:
     - date: '2004-10-28'
       subject: IETF 61 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/61/btns.html
-  - kind: minutes without them
-    date: '2005-07-06'
-    subject: IETF 63 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/63/btns.html
+  - kind: chartering announcement without them
+    date: '2005-04-08'
+    subject: 'WG Action: Better-Than-Nothing Security (btns)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/j_VVuRNnzVn9okKIF2oDsqmtiV8/
 - person: 6167
   name: Pekka Nikander
   status: unconfirmed
@@ -112,10 +112,10 @@ chairs:
     end:
       certainty: between
       not_before: '2005-02-04'
-      not_after: '2005-07-06'
+      not_after: '2005-04-08'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2005-02-04)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (2005-07-06)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (2005-04-08)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -125,10 +125,10 @@ chairs:
     - date: '2005-02-04'
       subject: IETF 62 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/62/btns.html
-  - kind: minutes without them
-    date: '2005-07-06'
-    subject: IETF 63 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/63/btns.html
+  - kind: chartering announcement without them
+    date: '2005-04-08'
+    subject: 'WG Action: Better-Than-Nothing Security (btns)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/j_VVuRNnzVn9okKIF2oDsqmtiV8/
 - person: 106186
   name: Julien Laganier
   status: confirmed

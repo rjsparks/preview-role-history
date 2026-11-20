@@ -234,6 +234,11 @@ class Site:
                 if ev.get("url"):
                     subject = f'<a href="{e(ev["url"])}">{subject}</a>'
                 items.append(f"<li>Not listed among the chairs in {subject}, {e(ev.get('date'))}</li>")
+            elif kind == "chartering announcement without them":
+                subject = f"“{e(ev.get('subject'))}”"
+                if ev.get("url"):
+                    subject = f'<a href="{e(ev["url"])}">{subject}</a>'
+                items.append(f"<li>Not named among the chairs when the group was chartered, {e(ev.get('date'))}: {subject}</li>")
             elif kind == "session requests":
                 template = ev.get("url_template", "")
                 links = ", ".join(

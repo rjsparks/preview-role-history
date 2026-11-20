@@ -98,11 +98,11 @@ chairs:
     end:
       certainty: between
       not_before: '2003-07-13'
-      not_after: '2011-08-02'
+      not_after: '2004-01-28'
     notes:
     - 'Start: listed as chair in meeting minutes (2003-07-13)'
     - 'End: listed as chair in meeting minutes (2003-07-13)'
-    - 'End: the group closed (2011-08-02)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (2004-01-28)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -112,3 +112,7 @@ chairs:
     - date: '2003-07-13'
       subject: IETF 57 minutes in the proceedings
       url: https://www.ietf.org/proceedings/57/minutes/ipdvb.htm
+  - kind: chartering announcement without them
+    date: '2004-01-28'
+    subject: 'WG Action: IP over DVB (ipdvb)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/HskqQhJ5Ag863ZK7_MTnZuwhgMw/
