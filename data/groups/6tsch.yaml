@@ -27,12 +27,23 @@ chairs:
   - start:
       certainty: between
       not_before: '2013-06-20'
-      not_after: '2013-07-28'
+      not_after: '2013-06-21'
     end:
       certainty: group-closed
     notes:
-    - 'Start: listed as chair in meeting minutes (2013-07-28)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2013-06-21)'
   evidence:
+  - kind: chair activity
+    first: '2013-06-21'
+    last: '2013-10-04'
+    messages: 28
+    examples:
+    - date: '2013-06-21'
+      subject: '[6tsch] minutes webex 21 June 2013'
+      url: https://mailarchive.ietf.org/arch/msg/6tsch/HAL-Pu7ESssk0kMWTvyFhMiw-4E/
+    - date: '2013-06-21'
+      subject: '[6tsch] Agenda for the call on June 21'
+      url: https://mailarchive.ietf.org/arch/msg/6tsch/VYJr3z3wQtNyzToTjokUmfSg_aA/
   - kind: minutes
     listed_in: 1
     first: '2013-07-28'
@@ -60,12 +71,20 @@ chairs:
   - start:
       certainty: between
       not_before: '2013-06-20'
-      not_after: '2013-07-28'
+      not_after: '2013-07-25'
     end:
       certainty: group-closed
     notes:
-    - 'Start: listed as chair in meeting minutes (2013-07-28)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2013-07-25)'
   evidence:
+  - kind: chair activity
+    first: '2013-07-25'
+    last: '2013-07-25'
+    messages: 1
+    examples:
+    - date: '2013-07-25'
+      subject: '[6tsch] Agenda for tomorrow'
+      url: https://mailarchive.ietf.org/arch/msg/6tsch/WtE2-8-61gsXdAIslXAwEf-Vsms/
   - kind: minutes
     listed_in: 1
     first: '2013-07-28'

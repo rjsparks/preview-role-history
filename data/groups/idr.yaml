@@ -550,14 +550,11 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: announced
-      date: '2020-01-29'
+      certainty: evidence-only
+      not_after: '2020-01-29'
     end:
       certainty: evidence-only
-      not_before: '2026-05-13'
-    notes:
-    - 'Start: announced on the group''s list (2020-01-29)'
-    - 'End: started a last call or adoption call on the group''s list (2026-05-13)'
+      not_before: '2020-01-29'
   evidence:
   - kind: list message
     date: '2020-01-29'
@@ -565,22 +562,6 @@ chairs:
     subject: '[Idr] BGP Autoconf design team'
     url: https://mailarchive.ietf.org/arch/msg/idr/NMv31El3RD7xdidpIPi-oJST6R8/
     excerpt: Jie Dong has agreed to chair the group, thanks Jie.
-  - kind: chair activity
-    first: '2023-04-11'
-    last: '2026-05-13'
-    messages: 3
-    examples:
-    - date: '2023-04-11'
-      subject: '[Idr] WG Last Call on draft-ietf-idr-bgp-model-16'
-      url: https://mailarchive.ietf.org/arch/msg/idr/263_yrn_ZnNRokmUwgye7Id5mHo/
-    - date: '2025-12-11'
-      subject: '[Idr] WG last call and IPR call for draft-ietf-idr-rt-derived-community (December 11,
-        2025 to January 5, 2026)'
-      url: https://mailarchive.ietf.org/arch/msg/idr/_51JdiKO37tSfBjkVHd3UXOIHFc/
-    - date: '2026-05-13'
-      subject: '[Idr] WG last call and IPR call for draft-ietf-idr-linklocal-capability (May 13, 2026
-        to May 27, 2026)'
-      url: https://mailarchive.ietf.org/arch/msg/idr/ZsLHdmThstk66e-g6hqfBh0whH4/
   - kind: shepherded
     documents:
     - draft-acee-idr-lldp-peer-discovery

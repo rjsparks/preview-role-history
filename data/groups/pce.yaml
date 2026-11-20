@@ -390,20 +390,33 @@ chairs:
     subject: '[Pce] Replacing Jon as PCE Co-Chair'
     url: https://mailarchive.ietf.org/arch/msg/pce/RZSN_XWhThON5i-s1ei1tBHIkGE/
     excerpt: Welcome to both Dhruv and Adrian!
+  - kind: list message
+    date: '2019-09-11'
+    says: start
+    subject: '[Pce] Adrian stepping down as PCE co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/pce/CMdFGg_Ttggr63pDpDjH5uP0h-o/
+    excerpt: As we noted earlier, Adrian stepped in to help us with the PCE document queue and help bring
+      Dhruv on as a new chair.
   - kind: chair activity
-    first: '2019-02-22'
-    last: '2025-11-09'
-    messages: 18
+    first: '2019-08-01'
+    last: '2026-03-04'
+    messages: 38
     examples:
-    - date: '2019-02-22'
-      subject: '[Pce] WG Adoption Call for draft-negi-pce-segment-routing-ipv6'
-      url: https://mailarchive.ietf.org/arch/msg/pce/xq5LlVi6jzMYHHnvMnMamB8YXQE/
+    - date: '2019-08-01'
+      subject: '[Pce] PCE WG Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/pce/jz3h6ot2RFG2MESBBR2bvZP7fIA/
     - date: '2019-08-20'
       subject: '[Pce] WG adoption poll for draft-sivabalan-pce-binding-label-sid-07'
       url: https://mailarchive.ietf.org/arch/msg/pce/JU4_2tkL6C5Hk4VLDyl7xsPwxF0/
+    - date: '2019-11-14'
+      subject: '[Pce] Agenda for IETF 106'
+      url: https://mailarchive.ietf.org/arch/msg/pce/2bnOdV7FhtnLrcFs0WlxerGw59I/
     - date: '2020-06-07'
       subject: '[Pce] WG adoption poll for draft-barth-pce-segment-routing-policy-cp-06'
       url: https://mailarchive.ietf.org/arch/msg/pce/MdyThSBrMcw8WcK3BFFVC3dPr5o/
+    - date: '2020-09-04'
+      subject: '[Pce] WGLC for draft-ietf-pce-association-policy'
+      url: https://mailarchive.ietf.org/arch/msg/pce/SX_3OhQJ2kG8liZV4hi51mJ48cE/
   - kind: shepherded
     documents:
     - draft-ietf-pce-association-bidir

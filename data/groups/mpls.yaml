@@ -746,17 +746,23 @@ chairs:
   - kind: chair activity
     first: '2019-09-13'
     last: '2025-08-12'
-    messages: 10
+    messages: 17
     examples:
     - date: '2019-09-13'
       subject: '[mpls] WGLC, IPR and implementation poll for draft-ietf-mpls-mldp-yang-06'
       url: https://mailarchive.ietf.org/arch/msg/mpls/P-pJ9NkliW5BAVqUOilXghmT-e4/
+    - date: '2020-08-03'
+      subject: '[mpls] IETF 108 MPLS WG Meeting Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/mpls/aW9vafrKOo7pI4WzKcJQXx4EslM/
     - date: '2021-01-05'
       subject: '[mpls] WG adoption poll for draft-cheng-mpls-inband-pm-encapsulation'
       url: https://mailarchive.ietf.org/arch/msg/mpls/q0LoebxOAuRKoSt3-5aajCbfEvk/
     - date: '2021-08-30'
       subject: '[mpls] WG adoption poll for draft-rathi-mpls-egress-tlv-for-nil-fec'
       url: https://mailarchive.ietf.org/arch/msg/mpls/el69kKXM3lxpig94auzXxPeE8VY/
+    - date: '2022-05-11'
+      subject: '[mpls] Agenda for the MPLS Open DT meeting 2022-05-10'
+      url: https://mailarchive.ietf.org/arch/msg/mpls/OprprGaiNzYxCYSPcwFCS6MEQk8/
   - kind: shepherded
     documents:
     - draft-gandhi-mpls-rfc6374-sr

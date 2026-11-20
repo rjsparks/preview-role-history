@@ -95,17 +95,28 @@ chairs:
   - start:
       certainty: between
       not_before: '2006-07-09'
-      not_after: '2007-07-22'
+      not_after: '2007-05-16'
     end:
       certainty: between
       not_before: '2007-12-02'
       not_after: '2008-03-17'
     notes:
     - 'Start: not listed among the chairs in meeting minutes (2006-07-09)'
-    - 'Start: requested the group''s session for IETF 69 (2007-07-22)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2007-05-16)'
     - 'End: requested the group''s session for IETF 70 (2007-12-02)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2008-03-17)'
   evidence:
+  - kind: chair activity
+    first: '2007-05-16'
+    last: '2007-11-22'
+    messages: 2
+    examples:
+    - date: '2007-05-16'
+      subject: '[lemonade] Suggested agenda for the Lemonade interim'
+      url: https://mailarchive.ietf.org/arch/msg/lemonade/CC4Vg5avpH6ujCR0zJmFcLYw6Zo/
+    - date: '2007-11-22'
+      subject: '[lemonade] Proposed agenda for the Lemonade WG meeting in Vancouver'
+      url: https://mailarchive.ietf.org/arch/msg/lemonade/DWqWq1lcZ6LH-rDRY9m5uow26fU/
   - kind: minutes without them
     date: '2006-07-09'
     subject: IETF 66 minutes in the proceedings
