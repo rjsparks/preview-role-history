@@ -30,13 +30,21 @@ chairs:
   - start:
       certainty: between
       not_before: '2004-01-02'
-      not_after: '2004-02-02'
+      not_after: '2004-01-28'
     end:
       certainty: group-closed
       date: '2010-05-10'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2004-02-02)'
+    - 'Start: named as chair in the WG Action announcement (2004-01-28)'
   evidence:
+  - kind: WG Action
+    date: '2004-01-28'
+    subject: 'WG Action: Control and Provisioning of Wireless Access Points (capwap)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/GnP2wL-I2IYHxdSQU0t-RK4j-qg/
+  - kind: WG Action
+    date: '2004-11-03'
+    subject: 'WG Action: RECHARTER: Control And Provisioning of Wireless Access Points (capwap)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/l11oIrgcj7zCCmfJyLSnxk9FNWc/
   - kind: minutes
     listed_in: 1
     first: '2007-03-18'

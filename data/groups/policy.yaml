@@ -77,13 +77,17 @@ chairs:
   - start:
       certainty: between
       not_before: '1998-09-25'
-      not_after: '1998-11-25'
+      not_after: '1998-10-23'
     end:
       certainty: group-closed
       date: '2004-11-05'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1998-11-25)'
+    - 'Start: named as chair in the WG Action announcement (1998-10-23)'
   evidence:
+  - kind: WG Action
+    date: '1998-10-23'
+    subject: 'WG ACTION: Policy Framework (policy)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/kOwLPY5WCnyp6fwP6Xlah4RDOgU/
   - kind: minutes
     listed_in: 10
     first: '1998-12-07'

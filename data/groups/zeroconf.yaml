@@ -73,16 +73,20 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '1999-10-20'
+      not_after: '1999-09-14'
     end:
       certainty: between
       not_before: '2001-08-05'
       not_after: '2004-08-19'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1999-10-20)'
+    - 'Start: named as chair in the WG Action announcement (1999-09-14)'
     - 'End: listed as chair in meeting minutes (2001-08-05)'
     - 'End: the group closed (2004-08-19)'
   evidence:
+  - kind: WG Action
+    date: '1999-09-14'
+    subject: 'WG ACTION: Zero Configuration Networking (zeroconf)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/7AZx5FTb0DWDIAegHC9S-VtLrPM/
   - kind: minutes
     listed_in: 6
     first: '1999-11-07'

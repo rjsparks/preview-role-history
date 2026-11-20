@@ -23,14 +23,18 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2003-11-03'
+      not_after: '2003-10-21'
     end:
       certainty: announced
       date: '2005-10-17'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2003-11-03)'
+    - 'Start: named as chair in the WG Action announcement (2003-10-21)'
     - 'End: announced on the group''s list (2005-10-17)'
   evidence:
+  - kind: WG Action
+    date: '2003-10-21'
+    subject: 'WG Action: Internet and Management Support for Storage (imss)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/DhGhueth5EVmxTB_Rsc9Sa-CByQ/
   - kind: list message
     date: '2005-10-17'
     says: end

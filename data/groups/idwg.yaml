@@ -69,16 +69,20 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '1998-11-25'
+      not_after: '1998-11-23'
     end:
       certainty: between
       not_before: '2002-11-17'
       not_after: '2006-03-27'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1998-11-25)'
+    - 'Start: named as chair in the WG Action announcement (1998-11-23)'
     - 'End: listed as chair in meeting minutes (2002-11-17)'
     - 'End: the group closed (2006-03-27)'
   evidence:
+  - kind: WG Action
+    date: '1998-11-23'
+    subject: 'WG ACTION: Intrusion Detection Exchange Format (idwg)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/t-HAQ5lU6Zk0J1LIRpaBlSfa7Go/
   - kind: minutes
     listed_in: 11
     first: '1998-12-07'

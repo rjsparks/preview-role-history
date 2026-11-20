@@ -31,11 +31,11 @@ chairs:
     end:
       certainty: between
       not_before: '2004-10-20'
-      not_after: '2005-02-18'
+      not_after: '2004-11-25'
     notes:
     - 'Start: no longer an Area Director (2004-08-01)'
     - 'Start: listed as chair in a proceedings charter snapshot (2004-10-20)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (2005-02-18)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (2004-11-25)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -45,10 +45,10 @@ chairs:
     - date: '2004-10-20'
       subject: IETF 61 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/61/sieve.html
-  - kind: minutes without them
-    date: '2005-02-18'
-    subject: IETF 62 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/62/sieve.html
+  - kind: chartering announcement without them
+    date: '2004-11-25'
+    subject: 'WG Action: Sieve Mail Filtering (sieve)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/jzcLDIdw1I-sw_8GKQY7d81vhuM/
   - kind: joined the IESG
     after_meeting: '46'
     after: '1999-11-07'
@@ -64,10 +64,10 @@ chairs:
     end:
       certainty: between
       not_before: '2004-10-20'
-      not_after: '2005-02-18'
+      not_after: '2004-11-25'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2004-10-20)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (2005-02-18)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (2004-11-25)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -77,10 +77,10 @@ chairs:
     - date: '2004-10-20'
       subject: IETF 61 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/61/sieve.html
-  - kind: minutes without them
-    date: '2005-02-18'
-    subject: IETF 62 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/62/sieve.html
+  - kind: chartering announcement without them
+    date: '2004-11-25'
+    subject: 'WG Action: Sieve Mail Filtering (sieve)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/jzcLDIdw1I-sw_8GKQY7d81vhuM/
 - person: 101054
   name: Cyrus Daboo
   status: confirmed
@@ -88,13 +88,17 @@ chairs:
   - start:
       certainty: between
       not_before: '2004-11-23'
-      not_after: '2005-02-18'
+      not_after: '2004-11-25'
     end:
       certainty: group-closed
       date: '2012-11-14'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2005-02-18)'
+    - 'Start: named as chair in the WG Action announcement (2004-11-25)'
   evidence:
+  - kind: WG Action
+    date: '2004-11-25'
+    subject: 'WG Action: Sieve Mail Filtering (sieve)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/jzcLDIdw1I-sw_8GKQY7d81vhuM/
   - kind: WG Review
     date: '2008-07-21'
     subject: 'WG Review: Recharter of Sieve Mail Filtering (sieve)'

@@ -27,13 +27,17 @@ chairs:
   - start:
       certainty: between
       not_before: '1998-11-10'
-      not_after: '1999-02-11'
+      not_after: '1999-01-22'
     end:
       certainty: group-closed
       date: '2006-03-27'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1999-02-11)'
+    - 'Start: named as chair in the WG Action announcement (1999-01-22)'
   evidence:
+  - kind: WG Action
+    date: '1999-01-22'
+    subject: 'WG Action: Media Gateway Control (megaco)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/8dsPpLs3u6ZspNma5F0QDbor1G0/
   - kind: chair activity
     first: '2001-07-20'
     last: '2003-06-02'

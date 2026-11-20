@@ -27,13 +27,17 @@ chairs:
   - start:
       certainty: between
       not_before: '1998-10-19'
-      not_after: '1998-11-25'
+      not_after: '1998-11-24'
     end:
       certainty: group-closed
       date: '2004-04-22'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1998-11-25)'
+    - 'Start: named as chair in the WG Action announcement (1998-11-24)'
   evidence:
+  - kind: WG Action
+    date: '1998-11-24'
+    subject: 'WG ACTION: LDAP Duplication/Replication/Update Protocols (ldup)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/rJwGQokUfWxJ5CW1_lkVDK8NofQ/
   - kind: minutes
     listed_in: 12
     first: '1998-12-07'

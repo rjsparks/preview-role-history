@@ -67,13 +67,17 @@ chairs:
   - start:
       certainty: between
       not_before: '2002-08-29'
-      not_after: '2003-02-14'
+      not_after: '2002-11-06'
     end:
       certainty: group-closed
       date: '2004-10-08'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2003-02-14)'
+    - 'Start: named as chair in the WG Action announcement (2002-11-06)'
   evidence:
+  - kind: WG Action
+    date: '2002-11-06'
+    subject: 'WG Action: Extensible Messaging and Presence Protocol (xmpp)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/23SCZ_Rd_AvNNdLQHzGQXzNG874/
   - kind: minutes
     listed_in: 3
     first: '2003-03-16'

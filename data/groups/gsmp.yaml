@@ -35,8 +35,12 @@ chairs:
       certainty: group-closed
       date: '2004-01-08'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1999-02-01)'
+    - 'Start: named as chair in the WG Action announcement (1999-02-01)'
   evidence:
+  - kind: WG Action
+    date: '1999-02-01'
+    subject: 'WG Action: General Switch Management Protocol (gsmp)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/ucjFxEoCG5WoB_skexN3P_uGMSE/
   - kind: chair activity
     first: '2003-08-08'
     last: '2003-08-08'

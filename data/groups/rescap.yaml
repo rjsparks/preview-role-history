@@ -66,15 +66,20 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2000-03-09'
+      not_after: '1999-12-07'
     end:
       certainty: between
-      not_before: '2000-03-09'
+      not_before: '1999-12-07'
       not_after: '2000-03-26'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2000-03-09)'
+    - 'Start: named as chair in the WG Action announcement (1999-12-07)'
+    - 'End: named as chair in the WG Action announcement (1999-12-07)'
     - 'End: became an Area Director, first serving at IETF 47 (2000-03-26)'
   evidence:
+  - kind: WG Action
+    date: '1999-12-07'
+    subject: 'WG ACTION: Resource Capabilities Discovery (rescap)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/xjg5L9kbSHWvSpM6-oT8Cd-iQWI/
   - kind: proceedings
     listed_in: 1
     first: '2000-03-09'

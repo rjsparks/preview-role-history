@@ -179,9 +179,13 @@ chairs:
       not_before: '2012-10-17'
       not_after: '2013-03-13'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-08-31)'
+    - 'Start: named as chair in the WG Action announcement (2010-08-31)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2012-10-17)'
   evidence:
+  - kind: WG Action
+    date: '2010-08-31'
+    subject: 'WG Action: Port Control Protocol (pcp)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/qWKyb-UrcSI4MaCCPKMwvN9TF1M/
   - kind: chair activity
     first: '2010-09-13'
     last: '2012-10-17'

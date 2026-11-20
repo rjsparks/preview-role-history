@@ -28,14 +28,22 @@ chairs:
       certainty: evidence-only
       not_after: '2003-07-09'
     end:
-      certainty: between
-      not_before: '2005-03-06'
-      not_after: '2005-07-13'
+      certainty: announced
+      date: '2005-07-13'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2003-07-09)'
-    - 'End: listed as chair in meeting minutes (2005-03-06)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (2005-07-13)'
+    - 'End: announced on the group''s list (2005-07-13)'
   evidence:
+  - kind: WG Action
+    date: '2004-07-29'
+    subject: 'WG Action: RECHARTER: Layer 2 Virtual Private Networks (l2vpn)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/EZ4MQhrmNlIW-qLYn5TMvWPGw2c/
+  - kind: list message
+    date: '2005-07-13'
+    says: end
+    subject: New L2VPN WG Chair
+    url: https://mailarchive.ietf.org/arch/msg/l2vpn/-SPUQhDNCv3oA6MlUUcF7fRi1Vw/
+    excerpt: Many thanks to Loa and Rick for their service to date.
   - kind: minutes
     listed_in: 4
     first: '2004-08-01'
@@ -64,10 +72,6 @@ chairs:
     - date: '2005-01-25'
       subject: IETF 62 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/62/l2vpn.html
-  - kind: minutes without them
-    date: '2005-07-13'
-    subject: IETF 63 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/63/l2vpn.html
 - person: 20682
   name: Loa Andersson
   status: unconfirmed
@@ -415,6 +419,10 @@ chairs:
     - 'End: listed as chair in meeting minutes (2009-03-22)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2009-10-19)'
   evidence:
+  - kind: WG Action
+    date: '2004-07-29'
+    subject: 'WG Action: RECHARTER: Layer 2 Virtual Private Networks (l2vpn)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/EZ4MQhrmNlIW-qLYn5TMvWPGw2c/
   - kind: WG Action
     date: '2008-10-29'
     subject: 'WG Action: RECHARTER: Layer 2 Virtual Private Networks (l2vpn)'

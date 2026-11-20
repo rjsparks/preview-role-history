@@ -150,16 +150,20 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2001-03-14'
+      not_after: '2001-02-10'
     end:
       certainty: between
       not_before: '2003-08-12'
       not_after: '2005-03-02'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2001-03-14)'
+    - 'Start: named as chair in the WG Action announcement (2001-02-10)'
     - 'End: named as chair in the WG Action announcement (2003-08-12)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2005-03-02)'
   evidence:
+  - kind: WG Action
+    date: '2001-02-10'
+    subject: 'WG ACTION: Multicast Security (msec)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/uu5x1Wq_1KNg5zII4jsvB1U6PBA/
   - kind: WG Action
     date: '2003-08-12'
     subject: 'WG Action: RECHARTER: Multicast Security (msec)'

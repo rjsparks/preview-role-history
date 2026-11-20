@@ -65,16 +65,20 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '1998-11-25'
+      not_after: '1998-11-10'
     end:
       certainty: between
       not_before: '1999-03-14'
       not_after: '2004-10-04'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1998-11-25)'
+    - 'Start: named as chair in the WG Action announcement (1998-11-10)'
     - 'End: listed as chair in meeting minutes (1999-03-14)'
     - 'End: the group closed (2004-10-04)'
   evidence:
+  - kind: WG Action
+    date: '1998-11-10'
+    subject: 'WG ACTION: Message Tracking Protocol (msgtrk)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/JP2emCytSp2NAjGxnTlrG2ArhtQ/
   - kind: minutes
     listed_in: 2
     first: '1998-12-07'

@@ -70,13 +70,17 @@ chairs:
   - start:
       certainty: between
       not_before: '2000-11-13'
-      not_after: '2001-03-14'
+      not_after: '2001-01-16'
     end:
       certainty: group-closed
       date: '2002-06-03'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2001-03-14)'
+    - 'Start: named as chair in the WG Action announcement (2001-01-16)'
   evidence:
+  - kind: WG Action
+    date: '2001-01-16'
+    subject: 'WG ACTION: Web Intermediaries (webi)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/7dm5iaIdLnW-hcuBPBk2Dg16Ck8/
   - kind: minutes
     listed_in: 3
     first: '2001-03-18'

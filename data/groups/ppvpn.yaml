@@ -30,13 +30,17 @@ chairs:
   - start:
       certainty: between
       not_before: '2000-07-06'
-      not_after: '2001-03-14'
+      not_after: '2001-02-02'
     end:
       certainty: group-closed
       date: '2003-07-28'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2001-03-14)'
+    - 'Start: named as chair in the WG Action announcement (2001-02-02)'
   evidence:
+  - kind: WG Action
+    date: '2001-02-02'
+    subject: 'WG Action: Provider Provisioned Virtual Private Networks (ppvpn)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/Ho1S5VMmq7tqozsMqId4zu-LMA4/
   - kind: minutes
     listed_in: 6
     first: '2001-03-18'
@@ -89,16 +93,20 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2001-03-14'
+      not_after: '2001-02-02'
     end:
       certainty: between
       not_before: '2002-11-17'
       not_after: '2003-07-28'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2001-03-14)'
+    - 'Start: named as chair in the WG Action announcement (2001-02-02)'
     - 'End: listed as chair in meeting minutes (2002-11-17)'
     - 'End: the group closed (2003-07-28)'
   evidence:
+  - kind: WG Action
+    date: '2001-02-02'
+    subject: 'WG Action: Provider Provisioned Virtual Private Networks (ppvpn)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/Ho1S5VMmq7tqozsMqId4zu-LMA4/
   - kind: minutes
     listed_in: 6
     first: '2001-03-18'

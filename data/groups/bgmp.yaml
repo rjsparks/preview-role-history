@@ -146,16 +146,20 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '1999-10-29'
+      not_after: '1999-08-31'
     end:
       certainty: between
       not_before: '2000-03-26'
       not_after: '2001-03-14'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1999-10-29)'
+    - 'Start: named as chair in the WG Action announcement (1999-08-31)'
     - 'End: listed as chair in meeting minutes (2000-03-26)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2001-03-14)'
   evidence:
+  - kind: WG Action
+    date: '1999-08-31'
+    subject: 'WG ACTION: Border Gateway Multicast Protocol (bgmp)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/7F5bgJLIRh786imH_aTy0Jw237g/
   - kind: minutes
     listed_in: 2
     first: '1999-11-07'

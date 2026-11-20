@@ -66,16 +66,20 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2001-03-14'
+      not_after: '2001-02-02'
     end:
       certainty: between
       not_before: '2001-08-05'
       not_after: '2004-01-29'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2001-03-14)'
+    - 'Start: named as chair in the WG Action announcement (2001-02-02)'
     - 'End: listed as chair in meeting minutes (2001-08-05)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2004-01-29)'
   evidence:
+  - kind: WG Action
+    date: '2001-02-02'
+    subject: 'WG Action: IP over Resilient Packet Rings (iporpr)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/l8SV0osOUo7SnQ-JgPS5Y_P3xNU/
   - kind: minutes
     listed_in: 2
     first: '2001-03-18'
@@ -112,17 +116,21 @@ chairs:
   - start:
       certainty: between
       not_before: '1997-04-07'
-      not_after: '2001-03-14'
+      not_after: '2001-02-02'
     end:
       certainty: between
       not_before: '2002-12-09'
       not_after: '2008-09-29'
     notes:
     - 'Start: no longer an Area Director (1997-04-07)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2001-03-14)'
+    - 'Start: named as chair in the WG Action announcement (2001-02-02)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2002-12-09)'
     - 'End: the group closed (2008-09-29)'
   evidence:
+  - kind: WG Action
+    date: '2001-02-02'
+    subject: 'WG Action: IP over Resilient Packet Rings (iporpr)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/l8SV0osOUo7SnQ-JgPS5Y_P3xNU/
   - kind: chair activity
     first: '2002-12-09'
     last: '2002-12-09'

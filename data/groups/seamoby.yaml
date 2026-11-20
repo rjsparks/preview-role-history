@@ -83,16 +83,20 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2000-11-20'
+      not_after: '2000-11-18'
     end:
       certainty: between
       not_before: '2000-12-10'
       not_after: '2001-10-26'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2000-11-20)'
+    - 'Start: named as chair in the WG Action announcement (2000-11-18)'
     - 'End: listed as chair in meeting minutes (2000-12-10)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2001-10-26)'
   evidence:
+  - kind: WG Action
+    date: '2000-11-18'
+    subject: 'WG Action: Seamless Mobility (seamoby)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/CItbLns1JM90KMz7qL_pmO7SuEw/
   - kind: minutes
     listed_in: 1
     first: '2000-12-10'

@@ -108,13 +108,17 @@ chairs:
       not_after: '2002-01-30'
     end:
       certainty: between
-      not_before: '2003-03-16'
+      not_before: '2004-05-19'
       not_after: '2006-07-09'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2002-01-30)'
-    - 'End: listed as chair in meeting minutes (2003-03-16)'
+    - 'End: named as chair in the WG Action announcement (2004-05-19)'
     - 'End: became an Area Director, first serving at IETF 66 (2006-07-09)'
   evidence:
+  - kind: WG Action
+    date: '2004-05-19'
+    subject: 'WG Action: RECHARTER: WWW Distributed Authoring and Versioning (webdav)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/2vcgzFsJ4kAnOEvHBemGC1z9cic/
   - kind: minutes
     listed_in: 4
     first: '2002-03-17'

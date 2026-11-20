@@ -572,10 +572,14 @@ chairs:
       not_before: '2002-11-17'
       not_after: '2003-03-16'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1999-06-09)'
+    - 'Start: named as chair in the WG Action announcement (1999-06-09)'
     - 'End: listed as chair in meeting minutes (2002-11-17)'
     - 'End: not listed among the chairs in meeting minutes (2003-03-16)'
   evidence:
+  - kind: WG Action
+    date: '1999-06-09'
+    subject: 'WG ACTION: Domain Name Server Operations (dnsop)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/IJjRljlWLm8rPJSW6FV7y9mzK0Q/
   - kind: minutes
     listed_in: 11
     first: '1999-07-11'

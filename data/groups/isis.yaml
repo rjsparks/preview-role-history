@@ -61,11 +61,11 @@ chairs:
     end:
       certainty: between
       not_before: '1997-04-07'
-      not_after: '1998-11-25'
+      not_after: '1998-11-18'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-10-20)'
     - 'End: listed as chair in meeting minutes (1997-04-07)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (1998-11-25)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (1998-11-18)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -89,10 +89,10 @@ chairs:
     - date: '1997-08-11'
       subject: IETF 39 proceedings charter
       url: https://www.ietf.org/proceedings/39/transit97aug-83.htm
-  - kind: minutes without them
-    date: '1998-11-25'
-    subject: IETF 43 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-88.html
+  - kind: chartering announcement without them
+    date: '1998-11-18'
+    subject: 'WG ACTION: IS-IS for IP Internets (isis)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/dztdpIo2gAb29d8ZwbsuNTOW4I4/
 - person: 3366
   name: Chris Gunner
   status: unconfirmed
@@ -103,11 +103,11 @@ chairs:
     end:
       certainty: between
       not_before: '1997-04-07'
-      not_after: '1998-11-25'
+      not_after: '1998-11-18'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
     - 'End: listed as chair in meeting minutes (1997-04-07)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (1998-11-25)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (1998-11-18)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -131,10 +131,10 @@ chairs:
     - date: '1997-08-11'
       subject: IETF 39 proceedings charter
       url: https://www.ietf.org/proceedings/39/transit97aug-83.htm
-  - kind: minutes without them
-    date: '1998-11-25'
-    subject: IETF 43 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-88.html
+  - kind: chartering announcement without them
+    date: '1998-11-18'
+    subject: 'WG ACTION: IS-IS for IP Internets (isis)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/dztdpIo2gAb29d8ZwbsuNTOW4I4/
 - person: 4475
   name: Tony Li
   status: unconfirmed
@@ -363,15 +363,19 @@ chairs:
   - start:
       certainty: between
       not_before: '1997-04-07'
-      not_after: '1998-11-25'
+      not_after: '1998-11-18'
     end:
       certainty: announced
       date: '2004-02-26'
     notes:
     - 'Start: not listed among the chairs in meeting minutes (1997-04-07)'
-    - 'Start: listed as chair in a proceedings charter snapshot (1998-11-25)'
+    - 'Start: named as chair in the WG Action announcement (1998-11-18)'
     - 'End: announced on the group''s list (2004-02-26)'
   evidence:
+  - kind: WG Action
+    date: '1998-11-18'
+    subject: 'WG ACTION: IS-IS for IP Internets (isis)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/dztdpIo2gAb29d8ZwbsuNTOW4I4/
   - kind: list message
     date: '2004-02-26'
     says: end

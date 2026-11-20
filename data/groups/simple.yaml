@@ -204,14 +204,18 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2001-03-14'
+      not_after: '2001-03-12'
     end:
       certainty: announced
       date: '2003-11-17'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2001-03-14)'
+    - 'Start: named as chair in the WG Action announcement (2001-03-12)'
     - 'End: announced on the group''s list (2003-11-17)'
   evidence:
+  - kind: WG Action
+    date: '2001-03-12'
+    subject: 'WG ACTION: SIP for Instant Messaging and Presence Leveraging Extensions (simple)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/BZYBvuIXj4owfWT1dD86lnbTOTk/
   - kind: WG Action
     date: '2003-06-03'
     subject: 'WG Action: RECHARTER: SIP for Instant Messaging and Presence Leveraging Extensions (simple)'

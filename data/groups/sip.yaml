@@ -151,13 +151,17 @@ chairs:
   - start:
       certainty: between
       not_before: '1999-09-14'
-      not_after: '1999-10-25'
+      not_after: '1999-09-28'
     end:
       certainty: group-closed
       date: '2009-05-01'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1999-10-25)'
+    - 'Start: named as chair in the WG Action announcement (1999-09-28)'
   evidence:
+  - kind: WG Action
+    date: '1999-09-28'
+    subject: 'WG ACTION: Session Initiation Protocol (sip)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/WkDg71Lm0v4hsrhCDjYxd17FeBg/
   - kind: WG Action
     date: '2005-11-04'
     subject: 'WG Action: RECHARTER: Session Initiation Protocol (sip)'

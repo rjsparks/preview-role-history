@@ -37,7 +37,7 @@ chairs:
     notes:
     - 'Start: posted an agenda, minutes or interim notice to the group''s list (2009-07-30)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2009-07-30)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (2010-01-26)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (2010-01-26)'
   evidence:
   - kind: list message
     date: '2011-03-30'
@@ -53,10 +53,10 @@ chairs:
     - date: '2009-07-30'
       subject: '[hybi] breakfast BoF minutes'
       url: https://mailarchive.ietf.org/arch/msg/hybi/m6Vz1JPiTGDO0ngzfEnglxmMaHU/
-  - kind: minutes without them
+  - kind: chartering announcement without them
     date: '2010-01-26'
-    subject: IETF 76 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/76/hybi.html
+    subject: 'WG Action: BiDirectional or Server-Initiated HTTP (hybi)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/HdpSL2vabWD6M378tZ9wS6xEayM/
   - kind: joined the IESG
     after_meeting: '77'
     after: '2010-03-21'
@@ -203,10 +203,14 @@ chairs:
       not_after: '2016-01-04'
     notes:
     - 'Start: the group''s record began (2009-12-10)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-01-26)'
+    - 'Start: named as chair in the WG Action announcement (2010-01-26)'
     - 'End: listed as chair in meeting minutes (2010-07-25)'
     - 'End: the group closed (2016-01-04)'
   evidence:
+  - kind: WG Action
+    date: '2010-01-26'
+    subject: 'WG Action: BiDirectional or Server-Initiated HTTP (hybi)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/HdpSL2vabWD6M378tZ9wS6xEayM/
   - kind: minutes
     listed_in: 2
     first: '2010-03-21'

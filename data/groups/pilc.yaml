@@ -33,11 +33,11 @@ chairs:
     end:
       certainty: between
       not_before: '1999-04-06'
-      not_after: '1999-06-15'
+      not_after: '1999-04-28'
     notes:
     - 'Start: posted an agenda, minutes or interim notice to the group''s list (1999-01-06)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (1999-04-06)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (1999-06-15)'
+    - 'End: not named among the chairs in the WG Action that chartered the group (1999-04-28)'
   evidence:
   - kind: chair activity
     first: '1999-01-06'
@@ -64,10 +64,10 @@ chairs:
     - date: '1999-03-14'
       subject: IETF 44 minutes in the proceedings
       url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-142.html
-  - kind: minutes without them
-    date: '1999-06-15'
-    subject: IETF 45 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-132.html
+  - kind: chartering announcement without them
+    date: '1999-04-28'
+    subject: 'WG ACTION: Performance Implications of Link Characteristics (pilc)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/rZIsWKzfv72dnz5eEn0Dab0WqXM/
 - person: 21226
   name: Aaron Falk
   status: confirmed
@@ -81,6 +81,10 @@ chairs:
     notes:
     - 'Start: listed as chair in meeting minutes (1999-03-14)'
   evidence:
+  - kind: WG Action
+    date: '1999-04-28'
+    subject: 'WG ACTION: Performance Implications of Link Characteristics (pilc)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/rZIsWKzfv72dnz5eEn0Dab0WqXM/
   - kind: chair activity
     first: '2002-01-12'
     last: '2002-01-12'

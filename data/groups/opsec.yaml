@@ -125,13 +125,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2005-07-31'
       not_after: '2007-12-17'
     end:
       certainty: between
       not_before: '2010-08-08'
       not_after: '2010-08-23'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2005-07-31)'
     - 'Start: listed as chair in a proceedings charter snapshot (2007-12-17)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2010-08-08)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2010-08-23)'
@@ -172,6 +174,10 @@ chairs:
     - date: '2009-04-20'
       subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/opsec.html
+  - kind: minutes without them
+    date: '2005-07-31'
+    subject: IETF 63 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/63/minutes/opsec.html
   - kind: minutes without them
     date: '2010-08-23'
     subject: IETF 78 proceedings charter, as last modified
@@ -285,12 +291,14 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2005-07-31'
       not_after: '2007-12-17'
     end:
       certainty: announced
       date: '2011-08-08'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2005-07-31)'
     - 'Start: listed as chair in a proceedings charter snapshot (2007-12-17)'
     - 'End: announced on the group''s list (2011-08-08)'
   evidence:
@@ -331,6 +339,10 @@ chairs:
     - date: '2011-05-05'
       subject: IETF 80 proceedings charter, as the datatracker generated it by 2011-05-05
       url: https://www.ietf.org/proceedings/80/opsec.html
+  - kind: minutes without them
+    date: '2005-07-31'
+    subject: IETF 63 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/63/minutes/opsec.html
 - person: 108304
   name: Gunter Van de Velde
   status: confirmed
@@ -472,12 +484,13 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2003-06-01'
+      not_before: '2005-07-31'
       not_after: '2010-08-23'
     end:
       certainty: exact
       date: '2013-12-18'
     notes:
+    - 'Start: not listed among the chairs in meeting minutes (2005-07-31)'
     - 'Start: listed as chair in a proceedings charter snapshot (2010-08-23)'
   evidence:
   - kind: datatracker record
@@ -528,6 +541,10 @@ chairs:
     - date: '2013-09-19'
       subject: IETF 87 proceedings charter, as the datatracker generated it by 2013-09-19
       url: https://www.ietf.org/proceedings/87/opsec.html
+  - kind: minutes without them
+    date: '2005-07-31'
+    subject: IETF 63 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/63/minutes/opsec.html
   - kind: session requests
     meetings:
     - '82'
@@ -576,3 +593,27 @@ chairs:
     documents:
     - draft-ietf-opsec-indicators-of-compromise
     - draft-ietf-opsec-probe-attribution
+- person: 137805
+  name: Pat Cain
+  status: unconfirmed
+  periods:
+  - start:
+      certainty: evidence-only
+      not_after: '2004-10-14'
+    end:
+      certainty: between
+      not_before: '2004-10-14'
+      not_after: '2005-01-24'
+    notes:
+    - 'Start: named as chair in the WG Action announcement (2004-10-14)'
+    - 'End: named as chair in the WG Action announcement (2004-10-14)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2005-01-24)'
+  evidence:
+  - kind: WG Action
+    date: '2004-10-14'
+    subject: 'WG Action: Operational Security Capabilities for IP Network Infrastructure (opsec)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/uJKKF8RhxINbf6DDBBJFgp_kBDs/
+  - kind: minutes without them
+    date: '2005-01-24'
+    subject: IETF 62 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/62/opsec.html

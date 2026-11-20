@@ -75,8 +75,12 @@ chairs:
       certainty: group-closed
       date: '2006-02-01'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2000-10-23)'
+    - 'Start: named as chair in the WG Action announcement (2000-10-23)'
   evidence:
+  - kind: WG Action
+    date: '2000-10-23'
+    subject: 'WG ACTION: Securely Available Credentials (sacred)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/ew5Fg0Qknpp_vIeG9A1cHYov3J8/
   - kind: minutes
     listed_in: 6
     first: '2000-12-10'

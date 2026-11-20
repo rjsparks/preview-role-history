@@ -24,13 +24,17 @@ chairs:
   - start:
       certainty: between
       not_before: '2008-03-31'
-      not_after: '2008-07-27'
+      not_after: '2008-04-15'
     end:
       certainty: group-closed
       date: '2010-03-15'
     notes:
-    - 'Start: requested the group''s session for IETF 72 (2008-07-27)'
+    - 'Start: named as chair in the WG Action announcement (2008-04-15)'
   evidence:
+  - kind: WG Action
+    date: '2008-04-15'
+    subject: 'WG Action: Internationalized Domain Names in Applications Revised (idnabis)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/d1hWdT-3AR5O4zYn8QIcXnHOyXE/
   - kind: WG Review
     date: '2009-08-17'
     subject: 'WG Review: Recharter of Internationalized Domain Names in Applications, Revised (idnabis)'
