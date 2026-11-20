@@ -274,13 +274,13 @@ chairs:
   - start:
       certainty: between
       not_before: '2010-07-25'
-      not_after: '2011-10-21'
+      not_after: '2011-07-12'
     end:
       certainty: exact
       date: '2015-02-23'
     notes:
     - 'Start: not listed among the chairs in meeting minutes (2010-07-25)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2011-10-21)'
+    - 'Start: started a last call or adoption call on the group''s list (2011-07-12)'
   evidence:
   - kind: datatracker record
     date: '2015-02-23'
@@ -296,25 +296,25 @@ chairs:
     subject: 'WG Action: Rechartered Routing Area Working Group (rtgwg)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/JdBZCI4b_FoA7_7t-HL_MFxoeOM/
   - kind: chair activity
-    first: '2012-08-12'
+    first: '2011-07-12'
     last: '2014-11-20'
-    messages: 19
+    messages: 24
     examples:
-    - date: '2012-08-12'
-      subject: Minutes Posted
-      url: https://mailarchive.ietf.org/arch/msg/rtgwg/-3xhfoRAYxks0EgTZFP98Qjo3Lc/
-    - date: '2012-09-24'
-      subject: Agenda Items for Atlanta
-      url: https://mailarchive.ietf.org/arch/msg/rtgwg/CkswFx5TGuUfdP8yORCGFJ5u7W8/
-    - date: '2013-12-04'
-      subject: WGLC for draft-ietf-rtgwg-remote-lfa
-      url: https://mailarchive.ietf.org/arch/msg/rtgwg/hRFxsr2dnI3WOG3C9ydK8U72naU/
-    - date: '2014-02-14'
-      subject: WGLC for draft-ietf-rtgwg-cl-use-cases
-      url: https://mailarchive.ietf.org/arch/msg/rtgwg/Z3wJhohaH6Ig-bdTkiIxPD6qrIw/
-    - date: '2014-03-14'
-      subject: WG Adoption Call for draft-psarkar-rtgwg-rlfa-node-protection
-      url: https://mailarchive.ietf.org/arch/msg/rtgwg/1LDO-gWtU5h1tIYtIKa_gc3GYcQ/
+    - date: '2011-07-12'
+      subject: WGLC:draft-ietf-rtgwg-lfa-applicability
+      url: https://mailarchive.ietf.org/arch/msg/rtgwg/QvmfgdjydG5ghj8fSZe8bs42SQc/
+    - date: '2011-11-28'
+      subject: IETF 82 Minutes
+      url: https://mailarchive.ietf.org/arch/msg/rtgwg/L0RZZYZoWK2-PlMFbyu4aUVYr08/
+    - date: '2012-01-10'
+      subject: WGLC:draft-ietf-rtgwg-ipfrr-notvia-addresses
+      url: https://mailarchive.ietf.org/arch/msg/rtgwg/7XyurRe0G96aqIKKHw-pfogTduI/
+    - date: '2012-04-24'
+      subject: IETF 83 Minutes Posted
+      url: https://mailarchive.ietf.org/arch/msg/rtgwg/ZT9d41OpPqf-eNjZbudHcBCqGoo/
+    - date: '2012-06-25'
+      subject: WGLC:draft-ietf-rtgwg-ordered-fib
+      url: https://mailarchive.ietf.org/arch/msg/rtgwg/FICcDagMI9MlKQjJybpZm9pDYgM/
   - kind: minutes
     listed_in: 5
     first: '2012-11-04'

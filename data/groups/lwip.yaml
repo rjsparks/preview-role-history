@@ -4,7 +4,7 @@ type: wg
 parent: int
 areas:
 - area: int
-  first: '2010-07-25'
+  first: '2010-11-02'
   last: '2011-12-09'
 state: bof-conc
 started: null
@@ -30,12 +30,12 @@ chairs:
   - start:
       certainty: between
       not_before: '1994-03-28'
-      not_after: '2010-07-25'
+      not_after: '2010-11-02'
     end:
       certainty: group-closed
     notes:
     - 'Start: no longer an Area Director (1994-03-28)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-02)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -47,11 +47,11 @@ chairs:
       url: https://www.ietf.org/proceedings/79/minutes/lwip.txt
   - kind: proceedings
     listed_in: 3
-    first: '2010-07-25'
+    first: '2010-11-02'
     last: '2011-05-05'
     examples:
-    - date: '2010-07-25'
-      subject: IETF 78 proceedings charter
+    - date: '2010-11-02'
+      subject: IETF 78 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/78/lwip.html
     - date: '2011-05-03'
       subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
@@ -78,11 +78,11 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-07-25'
+      date: '2010-11-02'
     end:
       certainty: group-closed
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-02)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -94,11 +94,11 @@ chairs:
       url: https://www.ietf.org/proceedings/80/minutes/lwip.txt
   - kind: proceedings
     listed_in: 3
-    first: '2010-07-25'
+    first: '2010-11-02'
     last: '2011-05-05'
     examples:
-    - date: '2010-07-25'
-      subject: IETF 78 proceedings charter
+    - date: '2010-11-02'
+      subject: IETF 78 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/78/lwip.html
     - date: '2011-05-03'
       subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03

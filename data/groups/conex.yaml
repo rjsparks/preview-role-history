@@ -4,7 +4,7 @@ type: wg
 parent: tsv
 areas:
 - area: tsv
-  first: '2009-11-08'
+  first: '2010-01-19'
   last: '2016-01-21'
 state: conclude
 started: '2010-01-19'
@@ -29,13 +29,14 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2010-01-19'
-      not_after: '2010-03-21'
+      not_before: '2010-03-21'
+      not_after: '2010-06-03'
     end:
       certainty: group-closed
       date: '2016-01-21'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-03-21)'
+    - 'Start: not listed among the chairs in meeting minutes (2010-03-21)'
+    - 'Start: named as chair in the WG Action announcement (2010-06-03)'
   evidence:
   - kind: WG Action
     date: '2010-06-03'
@@ -62,19 +63,23 @@ chairs:
       subject: '[conex] WGLC for draft-ietf-conex-concepts-uses-03.txt'
       url: https://mailarchive.ietf.org/arch/msg/conex/m-FiSoMYCnBm2QsjpxURtOaxEIg/
   - kind: proceedings
-    listed_in: 18
-    first: '2010-03-21'
+    listed_in: 17
+    first: '2010-06-03'
     last: '2016-01-21'
     examples:
-    - date: '2010-03-21'
-      subject: IETF 77 proceedings charter
-      url: https://www.ietf.org/proceedings/77/conex.html
     - date: '2010-06-03'
-      subject: IETF 78 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/78/conex.html
+      subject: IETF 77 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/77/conex.html
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
+      url: https://www.ietf.org/proceedings/79/conex.html
     - date: '2016-01-21'
       subject: IETF 94 proceedings charter, as the datatracker generated it by 2016-03-18
       url: https://www.ietf.org/proceedings/94/conex.html
+  - kind: minutes without them
+    date: '2010-03-21'
+    subject: IETF 77 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/77/minutes/conex.txt
   - kind: session requests
     meetings:
     - '78'
@@ -114,11 +119,11 @@ chairs:
       url: https://www.ietf.org/proceedings/77/minutes/conex.txt
   - kind: proceedings
     listed_in: 1
-    first: '2009-11-08'
-    last: '2009-11-08'
+    first: '2010-01-19'
+    last: '2010-01-19'
     examples:
-    - date: '2009-11-08'
-      subject: IETF 76 proceedings charter
+    - date: '2010-01-19'
+      subject: IETF 76 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/76/conex.html
   - kind: chartering announcement without them
     date: '2010-06-03'
@@ -157,11 +162,11 @@ chairs:
       url: https://www.ietf.org/proceedings/77/minutes/conex.txt
   - kind: proceedings
     listed_in: 1
-    first: '2009-11-08'
-    last: '2009-11-08'
+    first: '2010-01-19'
+    last: '2010-01-19'
     examples:
-    - date: '2009-11-08'
-      subject: IETF 76 proceedings charter
+    - date: '2010-01-19'
+      subject: IETF 76 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/76/conex.html
   - kind: chartering announcement without them
     date: '2010-06-03'
@@ -173,13 +178,14 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2010-01-19'
-      not_after: '2010-03-21'
+      not_before: '2010-03-21'
+      not_after: '2010-06-03'
     end:
       certainty: group-closed
       date: '2016-01-21'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-03-21)'
+    - 'Start: not listed among the chairs in meeting minutes (2010-03-21)'
+    - 'Start: named as chair in the WG Action announcement (2010-06-03)'
   evidence:
   - kind: WG Action
     date: '2010-06-03'
@@ -206,19 +212,23 @@ chairs:
       subject: '[conex] Working Group Last Call for: draft-ietf-conex-mobile-04'
       url: https://mailarchive.ietf.org/arch/msg/conex/8IohNjmWi6rihbY1BTRhdzILnUo/
   - kind: proceedings
-    listed_in: 18
-    first: '2010-03-21'
+    listed_in: 17
+    first: '2010-06-03'
     last: '2016-01-21'
     examples:
-    - date: '2010-03-21'
-      subject: IETF 77 proceedings charter
-      url: https://www.ietf.org/proceedings/77/conex.html
     - date: '2010-06-03'
-      subject: IETF 78 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/78/conex.html
+      subject: IETF 77 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/77/conex.html
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
+      url: https://www.ietf.org/proceedings/79/conex.html
     - date: '2016-01-21'
       subject: IETF 94 proceedings charter, as the datatracker generated it by 2016-03-18
       url: https://www.ietf.org/proceedings/94/conex.html
+  - kind: minutes without them
+    date: '2010-03-21'
+    subject: IETF 77 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/77/minutes/conex.txt
   - kind: session requests
     meetings:
     - '80'

@@ -4,7 +4,7 @@ type: wg
 parent: app
 areas:
 - area: app
-  first: '2006-07-09'
+  first: '2006-08-28'
   last: '2011-12-09'
 state: bof-conc
 started: null
@@ -45,16 +45,13 @@ chairs:
       subject: IETF 66 minutes in the proceedings
       url: https://www.ietf.org/proceedings/66/minutes/wae.txt
   - kind: proceedings
-    listed_in: 2
-    first: '2006-07-09'
+    listed_in: 1
+    first: '2006-08-28'
     last: '2006-08-28'
     examples:
-    - date: '2006-07-09'
-      subject: IETF 66 proceedings charter
-      url: https://www.ietf.org/proceedings/66/wae.html
     - date: '2006-08-28'
-      subject: IETF 67 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/67/wae.html
+      subject: IETF 66 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/66/wae.html
   - kind: BOF session
     meeting: '66'
     date: '2006-07-09'

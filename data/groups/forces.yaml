@@ -84,7 +84,7 @@ chairs:
   - kind: proceedings
     listed_in: 26
     first: '2001-07-31'
-    last: '2013-04-11'
+    last: '2013-04-12'
     examples:
     - date: '2001-07-31'
       subject: IETF 51 proceedings charter, as last modified
@@ -92,8 +92,8 @@ chairs:
     - date: '2001-12-05'
       subject: IETF 52 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/52/179.htm
-    - date: '2013-04-11'
-      subject: IETF 86 proceedings charter, as the datatracker generated it by 2013-04-11
+    - date: '2013-04-12'
+      subject: IETF 86 proceedings charter, as the datatracker generated it by 2013-04-12
       url: https://www.ietf.org/proceedings/86/forces.html
   - kind: session requests
     meetings:
@@ -119,13 +119,13 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2001-07-30'
+      not_after: '2001-01-11'
     end:
       certainty: between
       not_before: '2007-07-22'
       not_after: '2008-11-17'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2001-07-30)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2001-01-11)'
     - 'End: listed as chair in meeting minutes (2007-07-22)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2008-11-17)'
   evidence:
@@ -133,6 +133,20 @@ chairs:
     date: '2001-07-30'
     subject: 'WG ACTION: Forwarding and Control Element Separation (forces)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/S4ydr0Ol33WUlxdcgF2vp_1NaKo/
+  - kind: chair activity
+    first: '2001-01-11'
+    last: '2006-10-24'
+    messages: 26
+    examples:
+    - date: '2001-01-11'
+      subject: Minutes for ForCES BOF held at 49th IETF on 12/12/2000
+      url: https://mailarchive.ietf.org/arch/msg/forces/9jmlzQXq2ZOMX_SMCQLBRmNuUjs/
+    - date: '2001-03-09'
+      subject: Agenda for Thursday 03/22/2001 GSMP/COPS meeting 1300-1500
+      url: https://mailarchive.ietf.org/arch/msg/forces/f-9DXz3SiJ_eXNo0LlpDAbObxi8/
+    - date: '2002-05-09'
+      subject: WG LAST CALL of draft-ietf-forces-requirements-03.txt - May 10-24
+      url: https://mailarchive.ietf.org/arch/msg/forces/c_8NfecwD9uyMMeZic-gsQOOdyI/
   - kind: minutes
     listed_in: 20
     first: '2001-08-05'

@@ -130,12 +130,12 @@ chairs:
     end:
       certainty: between
       not_before: '2009-03-22'
-      not_after: '2009-06-26'
+      not_after: '2009-05-20'
     notes:
     - 'Start: not listed among the chairs in meeting minutes (2005-11-06)'
     - 'Start: named as a proposed chair in a WG Review announcement (2006-06-27)'
     - 'End: requested the group''s session for IETF 74 (2009-03-22)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (2009-06-26)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2009-05-20)'
   evidence:
   - kind: WG Review
     date: '2006-06-27'
@@ -178,9 +178,9 @@ chairs:
     subject: IETF 64 minutes in the proceedings
     url: https://www.ietf.org/proceedings/64/dccp.html
   - kind: minutes without them
-    date: '2009-06-26'
-    subject: IETF 75 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/75/dccp.html
+    date: '2009-05-20'
+    subject: IETF 74 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/74/dccp.html
   - kind: session requests
     meetings:
     - '66'
@@ -200,13 +200,13 @@ chairs:
   - start:
       certainty: between
       not_before: '2008-11-16'
-      not_after: '2009-03-22'
+      not_after: '2009-05-20'
     end:
       certainty: group-closed
       date: '2012-11-27'
     notes:
     - 'Start: not listed among the chairs in meeting minutes (2008-11-16)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2009-03-22)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2009-05-20)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -218,11 +218,11 @@ chairs:
       url: https://www.ietf.org/proceedings/76/minutes/dccp.txt
   - kind: proceedings
     listed_in: 8
-    first: '2009-03-22'
+    first: '2009-05-20'
     last: '2012-10-02'
     examples:
-    - date: '2009-03-22'
-      subject: IETF 74 proceedings charter
+    - date: '2009-05-20'
+      subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/dccp.html
     - date: '2009-06-26'
       subject: IETF 75 proceedings charter, as last modified

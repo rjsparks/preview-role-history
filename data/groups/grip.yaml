@@ -36,11 +36,11 @@ chairs:
     end:
       certainty: between
       not_before: '1998-12-07'
-      not_after: '1999-03-10'
+      not_after: '1999-09-29'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1995-04-03)'
     - 'End: listed as chair in meeting minutes (1998-12-07)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (1999-03-10)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (1999-09-29)'
   evidence:
   - kind: minutes
     listed_in: 4
@@ -71,9 +71,9 @@ chairs:
       subject: IETF 43 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-71.html
   - kind: minutes without them
-    date: '1999-03-10'
-    subject: IETF 44 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/44/44th-99mar-ietf-71.html
+    date: '1999-09-29'
+    subject: IETF 47 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-73.html
 - person: 3793
   name: Barbara Fraser
   status: confirmed
@@ -123,38 +123,32 @@ chairs:
   - start:
       certainty: between
       not_before: '1995-02-04'
-      not_after: '1995-04-03'
+      not_after: '1999-09-29'
     end:
       certainty: group-closed
       date: '2001-12-12'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1995-04-03)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1999-09-29)'
   evidence:
   - kind: minutes
-    listed_in: 8
-    first: '1997-08-11'
+    listed_in: 1
+    first: '2000-07-31'
     last: '2000-07-31'
     examples:
-    - date: '1997-08-11'
-      subject: IETF 39 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/39/transit97aug-63.htm
-    - date: '1997-12-08'
-      subject: IETF 40 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-64.htm
     - date: '2000-07-31'
       subject: IETF 48 minutes in the proceedings
       url: https://www.ietf.org/proceedings/48/00july-66.htm
   - kind: proceedings
-    listed_in: 16
-    first: '1995-04-03'
+    listed_in: 4
+    first: '1999-09-29'
     last: '2001-07-31'
     examples:
-    - date: '1995-04-03'
-      subject: IETF 32 proceedings charter
-      url: https://www.ietf.org/proceedings/32/area.and.wg.reports/ops/grip/grip-charter.txt
-    - date: '1995-07-17'
-      subject: IETF 33 proceedings charter
-      url: https://www.ietf.org/proceedings/33/area.and.wg.reports/ops/grip/grip-charter.txt
+    - date: '1999-09-29'
+      subject: IETF 47 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/47/47th-ietf-00mar-73.html
+    - date: '2000-07-17'
+      subject: IETF 48 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/48/00july-66.htm
     - date: '2001-07-31'
       subject: IETF 51 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/51/51-72.htm

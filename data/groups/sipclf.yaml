@@ -67,8 +67,8 @@ chairs:
       url: https://www.ietf.org/proceedings/76/sipclf.html
   - kind: minutes without them
     date: '2010-05-19'
-    subject: IETF 78 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/78/sipclf.html
+    subject: IETF 77 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/77/sipclf.html
   - kind: session requests
     meetings:
     - '76'
@@ -99,19 +99,16 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/sip-clf/PX8IulAeb71QG6ml-7NYv4he6BE/
     excerpt: Theo Zourzouvillys is stepping down as a SIP-CLF co-chair.
   - kind: proceedings
-    listed_in: 3
+    listed_in: 2
     first: '2009-09-15'
     last: '2010-05-19'
     examples:
     - date: '2009-09-15'
       subject: IETF 76 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/76/sipclf.html
-    - date: '2010-03-21'
-      subject: IETF 77 proceedings charter
-      url: https://www.ietf.org/proceedings/77/sipclf.html
     - date: '2010-05-19'
-      subject: IETF 78 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/78/sipclf.html
+      subject: IETF 77 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/77/sipclf.html
 - person: 111371
   name: Peter Musgrave
   status: confirmed
@@ -119,12 +116,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2009-08-24'
-      not_after: '2010-03-21'
+      not_after: '2010-05-19'
     end:
       certainty: group-closed
       date: '2013-02-19'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-03-21)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-05-19)'
   evidence:
   - kind: chair activity
     first: '2011-12-07'
@@ -135,16 +132,16 @@ chairs:
       subject: '[sip-clf] WG Last Call: draft-ietf-sipclf-format-03'
       url: https://mailarchive.ietf.org/arch/msg/sip-clf/5umCec3m5GLHhizXyVzdBSI3iaE/
   - kind: proceedings
-    listed_in: 9
-    first: '2010-03-21'
+    listed_in: 8
+    first: '2010-05-19'
     last: '2013-02-13'
     examples:
-    - date: '2010-03-21'
-      subject: IETF 77 proceedings charter
-      url: https://www.ietf.org/proceedings/77/sipclf.html
     - date: '2010-05-19'
-      subject: IETF 78 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/78/sipclf.html
+      subject: IETF 77 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/77/sipclf.html
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
+      url: https://www.ietf.org/proceedings/79/sipclf.html
     - date: '2013-02-13'
       subject: IETF 85 proceedings charter, as the datatracker generated it by 2013-02-13
       url: https://www.ietf.org/proceedings/85/sipclf.html

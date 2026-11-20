@@ -4,7 +4,7 @@ type: wg
 parent: sec
 areas:
 - area: sec
-  first: '2005-03-06'
+  first: '2005-07-01'
   last: '2006-01-26'
 state: conclude
 started: null
@@ -26,45 +26,39 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-03-06'
+      date: '2005-07-01'
     end:
       certainty: group-closed
       date: '2006-01-26'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2005-03-06)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2005-07-01)'
   evidence:
   - kind: proceedings
-    listed_in: 2
-    first: '2005-03-06'
+    listed_in: 1
+    first: '2005-07-01'
     last: '2005-07-01'
     examples:
-    - date: '2005-03-06'
-      subject: IETF 62 proceedings charter
-      url: https://www.ietf.org/proceedings/62/alien.html
     - date: '2005-07-01'
-      subject: IETF 63 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/63/alien.html
+      subject: IETF 62 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/62/alien.html
 - person: 106286
   name: James Kempf
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-03-06'
+      date: '2005-07-01'
     end:
       certainty: group-closed
       date: '2006-01-26'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2005-03-06)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2005-07-01)'
   evidence:
   - kind: proceedings
-    listed_in: 2
-    first: '2005-03-06'
+    listed_in: 1
+    first: '2005-07-01'
     last: '2005-07-01'
     examples:
-    - date: '2005-03-06'
-      subject: IETF 62 proceedings charter
-      url: https://www.ietf.org/proceedings/62/alien.html
     - date: '2005-07-01'
-      subject: IETF 63 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/63/alien.html
+      subject: IETF 62 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/62/alien.html

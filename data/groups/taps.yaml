@@ -123,23 +123,20 @@ chairs:
       subject: '[Taps] Draft minutes available!'
       url: https://mailarchive.ietf.org/arch/msg/taps/naZNhs1NinAIM9SEb2Ko0JgEJ2A/
   - kind: minutes
-    listed_in: 2
-    first: '2014-03-02'
+    listed_in: 1
+    first: '2014-07-20'
     last: '2014-07-20'
     examples:
-    - date: '2014-03-02'
-      subject: IETF 89 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/89/taps.html
     - date: '2014-07-20'
       subject: IETF 90 minutes in the proceedings
       url: https://www.ietf.org/proceedings/90/minutes/minutes-90-taps.txt
   - kind: proceedings
     listed_in: 1
-    first: '2014-03-02'
-    last: '2014-03-02'
+    first: '2014-04-25'
+    last: '2014-04-25'
     examples:
-    - date: '2014-03-02'
-      subject: IETF 89 proceedings charter
+    - date: '2014-04-25'
+      subject: IETF 89 proceedings charter, as the datatracker generated it by 2014-04-25
       url: https://www.ietf.org/proceedings/89/taps.html
   - kind: shepherded
     documents:
@@ -160,21 +157,13 @@ chairs:
     says: start
     text: Chairs changed to Michael Welzl, Murray Kucherawy
     url: https://datatracker.ietf.org/group/taps/history/
-  - kind: minutes
-    listed_in: 1
-    first: '2014-03-02'
-    last: '2014-03-02'
-    examples:
-    - date: '2014-03-02'
-      subject: IETF 89 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/89/taps.html
   - kind: proceedings
     listed_in: 1
-    first: '2014-03-02'
-    last: '2014-03-02'
+    first: '2014-04-25'
+    last: '2014-04-25'
     examples:
-    - date: '2014-03-02'
-      subject: IETF 89 proceedings charter
+    - date: '2014-04-25'
+      subject: IETF 89 proceedings charter, as the datatracker generated it by 2014-04-25
       url: https://www.ietf.org/proceedings/89/taps.html
 - person: 109753
   name: Zaheduzzaman Sarker
@@ -204,7 +193,7 @@ chairs:
   - kind: chair activity
     first: '2016-04-12'
     last: '2020-03-06'
-    messages: 10
+    messages: 9
     examples:
     - date: '2016-04-12'
       subject: '[Taps] Draft version of TAPS WG minutes form IETF95'

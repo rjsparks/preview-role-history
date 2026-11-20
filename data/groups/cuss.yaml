@@ -4,7 +4,7 @@ type: wg
 parent: rai
 areas:
 - area: rai
-  first: '2010-07-25'
+  first: '2010-08-31'
   last: '2015-01-27'
 state: conclude
 started: '2010-06-10'
@@ -24,12 +24,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2010-06-10'
-      not_after: '2010-07-25'
+      not_after: '2010-08-31'
     end:
       certainty: group-closed
       date: '2015-01-27'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
+    - 'Start: named as chair in the WG Action announcement (2010-08-31)'
   evidence:
   - kind: WG Action
     date: '2010-08-31'
@@ -57,11 +57,11 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/cuss/l1aIZXYCFGwcrcchISnvB83sC08/
   - kind: proceedings
     listed_in: 13
-    first: '2010-07-25'
+    first: '2010-08-31'
     last: '2015-01-06'
     examples:
-    - date: '2010-07-25'
-      subject: IETF 78 proceedings charter
+    - date: '2010-08-31'
+      subject: IETF 78 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/78/cuss.html
     - date: '2011-05-03'
       subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
@@ -85,12 +85,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2010-06-10'
-      not_after: '2010-07-25'
+      not_after: '2010-08-31'
     end:
       certainty: group-closed
       date: '2015-01-27'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
+    - 'Start: named as chair in the WG Action announcement (2010-08-31)'
   evidence:
   - kind: WG Action
     date: '2010-08-31'
@@ -120,11 +120,11 @@ chairs:
       url: https://www.ietf.org/proceedings/83/minutes/minutes-83-cuss.html
   - kind: proceedings
     listed_in: 13
-    first: '2010-07-25'
+    first: '2010-08-31'
     last: '2015-01-06'
     examples:
-    - date: '2010-07-25'
-      subject: IETF 78 proceedings charter
+    - date: '2010-08-31'
+      subject: IETF 78 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/78/cuss.html
     - date: '2011-05-03'
       subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03

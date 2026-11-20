@@ -4,7 +4,7 @@ type: wg
 parent: rai
 areas:
 - area: rai
-  first: '2010-03-21'
+  first: '2010-07-13'
   last: '2015-02-03'
 state: conclude
 started: '2010-06-10'
@@ -22,23 +22,33 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-03-21'
+      certainty: between
+      not_before: '2010-06-10'
+      not_after: '2010-07-13'
     end:
       certainty: group-closed
       date: '2015-02-03'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-03-21)'
+    - 'Start: named as chair in the WG Action announcement (2010-07-13)'
   evidence:
   - kind: WG Action
     date: '2010-07-13'
     subject: 'WG Action: Sip ALerting for User Devices (salud)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/p8rY4nEpF0QeZj_IB_8h8YjgBFI/
   - kind: chair activity
-    first: '2013-10-21'
+    first: '2010-07-22'
     last: '2014-07-22'
-    messages: 2
+    messages: 5
     examples:
+    - date: '2010-07-22'
+      subject: '[salud] Salud WG agenda for IETF 78'
+      url: https://mailarchive.ietf.org/arch/msg/salud/aVLKS_6h59BCyFPhWh4p0FSENl0/
+    - date: '2010-08-26'
+      subject: '[salud] Revised SALUD minutes from IETF-78'
+      url: https://mailarchive.ietf.org/arch/msg/salud/CgfLfKwl_H6s24ABQI6vy6DBikI/
+    - date: '2012-04-20'
+      subject: '[salud] WGLC for draft-ietf-salud-alert-info-urns-06 ending Tuesday 8 May'
+      url: https://mailarchive.ietf.org/arch/msg/salud/wYKFXsZzEpbhsWUaXuIZZ9a4T4k/
     - date: '2013-10-21'
       subject: '[salud] WGLC for draft-ietf-salud-alert-info-urns-09 until Monday 11 November'
       url: https://mailarchive.ietf.org/arch/msg/salud/3aQy79IGN5ZixcgMdgNI5XeQ36M/
@@ -46,16 +56,16 @@ chairs:
       subject: '[salud] WGLC on draft-ietf-salud-alert-info-urns-13'
       url: https://mailarchive.ietf.org/arch/msg/salud/hCmQT1i9gTIQTvW1Bh02drU-t4s/
   - kind: proceedings
-    listed_in: 14
-    first: '2010-03-21'
+    listed_in: 13
+    first: '2010-07-13'
     last: '2015-01-06'
     examples:
-    - date: '2010-03-21'
-      subject: IETF 77 proceedings charter
-      url: https://www.ietf.org/proceedings/77/salud.html
     - date: '2010-07-13'
-      subject: IETF 78 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/78/salud.html
+      subject: IETF 77 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/77/salud.html
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
+      url: https://www.ietf.org/proceedings/79/salud.html
     - date: '2015-01-06'
       subject: IETF 91 proceedings charter, as the datatracker generated it by 2015-01-06
       url: https://www.ietf.org/proceedings/91/salud.html

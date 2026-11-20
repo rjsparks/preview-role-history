@@ -26,11 +26,9 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2014-07-20'
+      date: '2015-02-12'
     end:
       certainty: ongoing
-    notes:
-    - 'Start: listed as chair in meeting minutes (2014-07-20)'
   evidence:
   - kind: chair activity
     first: '2015-02-24'
@@ -44,32 +42,26 @@ chairs:
       subject: '[T2TRG] Agenda for Yokohama'
       url: https://mailarchive.ietf.org/arch/msg/t2trg/AcULljEFkT_SXABgxA1ZJtQDUNY/
   - kind: minutes
-    listed_in: 8
-    first: '2014-07-20'
-    last: '2017-03-26'
+    listed_in: 1
+    first: '2016-04-03'
+    last: '2016-04-03'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/90/t2trg.html
-    - date: '2015-03-22'
-      subject: IETF 92 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/92/t2trg.html
-    - date: '2017-03-26'
-      subject: IETF 98 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/98/t2trg.html
+    - date: '2016-04-03'
+      subject: IETF 95 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/95/minutes/minutes-95-t2trg.txt
   - kind: proceedings
     listed_in: 8
-    first: '2014-07-20'
-    last: '2017-03-26'
+    first: '2015-05-07'
+    last: '2017-04-12'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
-      url: https://www.ietf.org/proceedings/90/t2trg.html
-    - date: '2015-03-22'
-      subject: IETF 92 proceedings charter
+    - date: '2015-05-07'
+      subject: IETF 92 proceedings charter, as the datatracker generated it by 2015-05-07
       url: https://www.ietf.org/proceedings/92/t2trg.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2015-09-09'
+      subject: IETF 90 proceedings charter, as the datatracker generated it by 2015-09-09
+      url: https://www.ietf.org/proceedings/90/t2trg.html
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/t2trg.html
   - kind: shepherded
     documents:
@@ -101,32 +93,26 @@ chairs:
       subject: '[T2TRG] Draft minutes for the Lisbon interim meeting'
       url: https://mailarchive.ietf.org/arch/msg/t2trg/vUn5Ubecc4lKzhg9oI4txwa_ULc/
   - kind: minutes
-    listed_in: 5
-    first: '2015-11-01'
-    last: '2017-03-26'
+    listed_in: 1
+    first: '2016-04-03'
+    last: '2016-04-03'
     examples:
-    - date: '2015-11-01'
-      subject: IETF 94 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/94/t2trg.html
     - date: '2016-04-03'
       subject: IETF 95 minutes in the proceedings
       url: https://www.ietf.org/proceedings/95/minutes/minutes-95-t2trg.txt
-    - date: '2017-03-26'
-      subject: IETF 98 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/98/t2trg.html
   - kind: proceedings
     listed_in: 5
-    first: '2015-11-01'
-    last: '2017-03-26'
+    first: '2016-03-18'
+    last: '2017-04-12'
     examples:
-    - date: '2015-11-01'
-      subject: IETF 94 proceedings charter
+    - date: '2016-03-18'
+      subject: IETF 94 proceedings charter, as the datatracker generated it by 2016-03-18
       url: https://www.ietf.org/proceedings/94/t2trg.html
-    - date: '2016-04-03'
-      subject: IETF 95 proceedings charter
+    - date: '2016-05-17'
+      subject: IETF 95 proceedings charter, as the datatracker generated it by 2016-05-17
       url: https://www.ietf.org/proceedings/95/t2trg.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/t2trg.html
   - kind: shepherded
     documents:

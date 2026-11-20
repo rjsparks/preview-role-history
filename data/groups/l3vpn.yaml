@@ -7,7 +7,7 @@ areas:
   first: '2003-07-09'
   last: '2007-08-15'
 - area: rtg
-  first: '2009-03-22'
+  first: '2009-05-18'
   last: '2014-10-22'
 state: conclude
 started: '2003-06-09'
@@ -209,15 +209,15 @@ chairs:
       subject: IETF 74 minutes in the proceedings
       url: https://www.ietf.org/proceedings/74/minutes/l3vpn.txt
   - kind: proceedings
-    listed_in: 9
-    first: '2009-03-22'
+    listed_in: 8
+    first: '2009-05-18'
     last: '2012-02-01'
     examples:
-    - date: '2009-03-22'
-      subject: IETF 74 proceedings charter
+    - date: '2009-05-18'
+      subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/l3vpn.html
-    - date: '2009-07-26'
-      subject: IETF 75 proceedings charter
+    - date: '2009-10-07'
+      subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/l3vpn.html
     - date: '2012-02-01'
       subject: IETF 82 proceedings charter, as the datatracker generated it by 2012-02-01
@@ -374,15 +374,15 @@ chairs:
       subject: IETF 74 minutes in the proceedings
       url: https://www.ietf.org/proceedings/74/minutes/l3vpn.txt
   - kind: proceedings
-    listed_in: 9
-    first: '2009-03-22'
+    listed_in: 8
+    first: '2009-05-18'
     last: '2012-02-01'
     examples:
-    - date: '2009-03-22'
-      subject: IETF 74 proceedings charter
+    - date: '2009-05-18'
+      subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/l3vpn.html
-    - date: '2009-07-26'
-      subject: IETF 75 proceedings charter
+    - date: '2009-10-07'
+      subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/l3vpn.html
     - date: '2012-02-01'
       subject: IETF 82 proceedings charter, as the datatracker generated it by 2012-02-01
@@ -403,16 +403,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2009-03-22'
-      not_after: '2009-07-26'
+      certainty: announced
+      date: '2009-10-07'
     end:
       certainty: between
       not_before: '2011-12-09'
       not_after: '2014-03-05'
     notes:
-    - 'Start: not listed among the chairs in meeting minutes (2009-03-22)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2009-07-26)'
+    - 'Start: announced on the group''s list (2009-10-07)'
   evidence:
   - kind: WG Action
     date: '2011-03-21'
@@ -446,23 +444,19 @@ chairs:
       subject: 'WG Last Call: draft-ietf-l3vpn-mvpn-wildcards-00'
       url: https://mailarchive.ietf.org/arch/msg/l3vpn/n1HGUrpfqmjRCdZ0PlGjzKLnzBc/
   - kind: proceedings
-    listed_in: 8
-    first: '2009-07-26'
+    listed_in: 7
+    first: '2009-10-07'
     last: '2012-02-01'
     examples:
-    - date: '2009-07-26'
-      subject: IETF 75 proceedings charter
-      url: https://www.ietf.org/proceedings/75/l3vpn.html
     - date: '2009-10-07'
-      subject: IETF 76 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/76/l3vpn.html
+      subject: IETF 75 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/75/l3vpn.html
+    - date: '2010-03-23'
+      subject: IETF 77 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/77/l3vpn.html
     - date: '2012-02-01'
       subject: IETF 82 proceedings charter, as the datatracker generated it by 2012-02-01
       url: https://www.ietf.org/proceedings/82/l3vpn.html
-  - kind: minutes without them
-    date: '2009-03-22'
-    subject: IETF 74 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/74/minutes/l3vpn.txt
   - kind: session requests
     meetings:
     - '77'

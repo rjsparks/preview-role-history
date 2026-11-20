@@ -322,7 +322,7 @@ chairs:
       subject: IETF 76 minutes in the proceedings
       url: https://www.ietf.org/proceedings/76/minutes/dnsop.txt
   - kind: proceedings
-    listed_in: 14
+    listed_in: 13
     first: '2003-04-21'
     last: '2008-12-16'
     examples:
@@ -394,15 +394,15 @@ chairs:
       subject: IETF 88 minutes in the proceedings
       url: https://www.ietf.org/proceedings/88/minutes/minutes-88-dnsop.txt
   - kind: proceedings
-    listed_in: 17
+    listed_in: 16
     first: '2005-11-08'
     last: '2013-09-19'
     examples:
     - date: '2005-11-08'
       subject: IETF 64 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/64/dnsop.html
-    - date: '2006-07-09'
-      subject: IETF 66 proceedings charter
+    - date: '2006-09-28'
+      subject: IETF 66 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/66/dnsop.html
     - date: '2013-09-19'
       subject: IETF 87 proceedings charter, as the datatracker generated it by 2013-09-19
@@ -615,12 +615,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2013-03-13'
-      not_after: '2013-04-11'
+      not_after: '2013-04-12'
     end:
       certainty: exact
       date: '2025-04-16'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2013-04-11)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2013-04-12)'
   evidence:
   - kind: datatracker record
     date: '2025-04-16'
@@ -671,11 +671,11 @@ chairs:
       url: https://www.ietf.org/proceedings/96/minutes/minutes-96-dnsop.txt
   - kind: proceedings
     listed_in: 13
-    first: '2013-04-11'
+    first: '2013-04-12'
     last: '2017-04-12'
     examples:
-    - date: '2013-04-11'
-      subject: IETF 86 proceedings charter, as the datatracker generated it by 2013-04-11
+    - date: '2013-04-12'
+      subject: IETF 86 proceedings charter, as the datatracker generated it by 2013-04-12
       url: https://www.ietf.org/proceedings/86/dnsop.html
     - date: '2013-09-19'
       subject: IETF 87 proceedings charter, as the datatracker generated it by 2013-09-19

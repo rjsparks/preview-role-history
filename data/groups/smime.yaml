@@ -42,7 +42,7 @@ chairs:
   - kind: chair activity
     first: '1998-09-24'
     last: '2003-03-03'
-    messages: 15
+    messages: 31
     examples:
     - date: '1998-09-24'
       subject: Minutes
@@ -152,11 +152,11 @@ chairs:
       not_after: '2003-06-06'
     end:
       certainty: between
-      not_before: '2007-12-02'
+      not_before: '2008-08-22'
       not_after: '2010-03-23'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2003-06-06)'
-    - 'End: requested the group''s session for IETF 70 (2007-12-02)'
+    - 'End: started a last call or adoption call on the group''s list (2008-08-22)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2010-03-23)'
   evidence:
   - kind: WG Action
@@ -169,8 +169,8 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ig_uBOEITFGV655voXR2RaFBrmI/
   - kind: chair activity
     first: '2003-07-28'
-    last: '2004-08-13'
-    messages: 3
+    last: '2008-08-22'
+    messages: 12
     examples:
     - date: '2003-07-28'
       subject: Draft Meeting Minutes
@@ -181,10 +181,16 @@ chairs:
     - date: '2004-08-13'
       subject: IETF 60 SMIME Minutes
       url: https://mailarchive.ietf.org/arch/msg/smime/aoppKY1icUUjMZnq-BH7FRQ7-O4/
+    - date: '2005-11-17'
+      subject: 'WG LAST CALL: draft-ietf-smime-gost-05.txt'
+      url: https://mailarchive.ietf.org/arch/msg/smime/XlLA6wV6JCMa0UyNOlVK8CM94WM/
+    - date: '2007-06-01'
+      subject: 'WG Last Call: draft-ietf-smime-ibearch-03.txt'
+      url: https://mailarchive.ietf.org/arch/msg/smime/YY4PmAO20zSM449pJDmbLA80MtY/
   - kind: proceedings
     listed_in: 13
     first: '2003-06-06'
-    last: '2009-11-08'
+    last: '2010-01-25'
     examples:
     - date: '2003-06-06'
       subject: IETF 57 proceedings charter, as last modified
@@ -192,8 +198,8 @@ chairs:
     - date: '2003-10-13'
       subject: IETF 58 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/58/206.htm
-    - date: '2009-11-08'
-      subject: IETF 76 proceedings charter
+    - date: '2010-01-25'
+      subject: IETF 76 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/76/smime.html
   - kind: minutes without them
     date: '2010-03-23'

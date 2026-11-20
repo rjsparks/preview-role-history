@@ -4,7 +4,7 @@ type: wg
 parent: int
 areas:
 - area: int
-  first: '2009-03-22'
+  first: '2009-05-20'
   last: '2016-05-11'
 state: conclude
 started: '2009-04-03'
@@ -25,13 +25,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2009-03-22'
+      certainty: between
+      not_before: '2009-04-03'
+      not_after: '2009-05-20'
     end:
       certainty: group-closed
       date: '2016-05-11'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2009-03-22)'
+    - 'Start: named as chair in the WG Action announcement (2009-05-20)'
   evidence:
   - kind: WG Action
     date: '2009-05-20'
@@ -72,11 +73,11 @@ chairs:
       url: https://www.ietf.org/proceedings/85/minutes/minutes-85-netext.txt
   - kind: proceedings
     listed_in: 19
-    first: '2009-03-22'
+    first: '2009-05-20'
     last: '2016-03-18'
     examples:
-    - date: '2009-03-22'
-      subject: IETF 74 proceedings charter
+    - date: '2009-05-20'
+      subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/netext.html
     - date: '2009-06-18'
       subject: IETF 75 proceedings charter, as last modified
@@ -89,13 +90,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2009-03-22'
+      certainty: between
+      not_before: '2009-04-03'
+      not_after: '2009-05-20'
     end:
       certainty: group-closed
       date: '2016-05-11'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2009-03-22)'
+    - 'Start: named as chair in the WG Action announcement (2009-05-20)'
   evidence:
   - kind: WG Action
     date: '2009-05-20'
@@ -146,11 +148,11 @@ chairs:
       url: https://www.ietf.org/proceedings/85/minutes/minutes-85-netext.txt
   - kind: proceedings
     listed_in: 19
-    first: '2009-03-22'
+    first: '2009-05-20'
     last: '2016-03-18'
     examples:
-    - date: '2009-03-22'
-      subject: IETF 74 proceedings charter
+    - date: '2009-05-20'
+      subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/netext.html
     - date: '2009-06-18'
       subject: IETF 75 proceedings charter, as last modified

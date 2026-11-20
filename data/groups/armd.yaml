@@ -4,8 +4,8 @@ type: wg
 parent: ops
 areas:
 - area: int
-  first: '2010-07-25'
-  last: '2010-07-25'
+  first: '2010-11-02'
+  last: '2010-11-02'
 - area: ops
   first: '2011-12-09'
   last: '2012-10-23'
@@ -29,22 +29,22 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2010-07-25'
+      not_after: '2010-11-02'
     end:
       certainty: between
-      not_before: '2010-07-25'
+      not_before: '2010-11-02'
       not_after: '2011-03-21'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-02)'
     - 'End: not named among the chairs in the WG Action that chartered the group (2011-03-21)'
   evidence:
   - kind: proceedings
     listed_in: 1
-    first: '2010-07-25'
-    last: '2010-07-25'
+    first: '2010-11-02'
+    last: '2010-11-02'
     examples:
-    - date: '2010-07-25'
-      subject: IETF 78 proceedings charter
+    - date: '2010-11-02'
+      subject: IETF 78 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/78/armd.html
   - kind: chartering announcement without them
     date: '2011-03-21'
@@ -56,22 +56,31 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2010-07-25'
+      not_after: '2010-11-02'
     end:
       certainty: between
-      not_before: '2010-07-25'
+      not_before: '2010-12-10'
       not_after: '2011-03-21'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-02)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2010-12-10)'
     - 'End: not named among the chairs in the WG Action that chartered the group (2011-03-21)'
   evidence:
+  - kind: chair activity
+    first: '2010-12-10'
+    last: '2010-12-10'
+    messages: 1
+    examples:
+    - date: '2010-12-10'
+      subject: '[armd] ARMD BoF meeting minutes uploaded...'
+      url: https://mailarchive.ietf.org/arch/msg/armd/7J2faSpQ7ITJb68poO1Y_iUHq2I/
   - kind: proceedings
     listed_in: 1
-    first: '2010-07-25'
-    last: '2010-07-25'
+    first: '2010-11-02'
+    last: '2010-11-02'
     examples:
-    - date: '2010-07-25'
-      subject: IETF 78 proceedings charter
+    - date: '2010-11-02'
+      subject: IETF 78 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/78/armd.html
   - kind: chartering announcement without them
     date: '2011-03-21'

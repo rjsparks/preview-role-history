@@ -78,7 +78,7 @@ chairs:
       subject: IETF 90 minutes in the proceedings
       url: https://www.ietf.org/proceedings/90/minutes/minutes-90-manet.txt
   - kind: proceedings
-    listed_in: 35
+    listed_in: 34
     first: '1997-08-11'
     last: '2012-02-01'
     examples:
@@ -200,17 +200,23 @@ chairs:
   - kind: chair activity
     first: '2014-08-06'
     last: '2019-07-29'
-    messages: 3
+    messages: 7
     examples:
     - date: '2014-08-06'
       subject: '[manet] Working Group Last Call for draft-ietf-manet-ibs'
       url: https://mailarchive.ietf.org/arch/msg/manet/X-qOuO_YX0AE7NxxUNkLYwaxQeQ/
-    - date: '2016-04-26'
-      subject: '[manet] Interim call'
-      url: https://mailarchive.ietf.org/arch/msg/manet/7uyCGXQBXea8U1OWYb22yUhLOQo/
-    - date: '2019-07-29'
-      subject: '[manet] Meeting minutes for MANET WG at IETF 105'
-      url: https://mailarchive.ietf.org/arch/msg/manet/ASm1R7ZLSy569JwNpt0_Ifqc-1o/
+    - date: '2015-01-23'
+      subject: '[manet] WGLC of draft-ietf-manet-tlv-naming-00'
+      url: https://mailarchive.ietf.org/arch/msg/manet/dTHLbn5v-_pi9MgCkAvTwg4VBGQ/
+    - date: '2015-04-20'
+      subject: '[manet] Interim Meetings for MANET Working Group'
+      url: https://mailarchive.ietf.org/arch/msg/manet/Mj3lFBzNh2ZUdWyOLufjat2HCQM/
+    - date: '2015-06-09'
+      subject: '[manet] MANET Working Group Interim'
+      url: https://mailarchive.ietf.org/arch/msg/manet/sU08IhTDFBTLH9pozDaJ-IxUO9Q/
+    - date: '2019-03-12'
+      subject: '[manet] Adoption Call for draft-berger-manet-dlep-ether-credit-extension'
+      url: https://mailarchive.ietf.org/arch/msg/manet/CuZT7_heREtda5ogPu1j0wJKQUY/
   - kind: minutes
     listed_in: 11
     first: '2011-11-13'
@@ -329,7 +335,7 @@ chairs:
       subject: IETF 81 minutes in the proceedings
       url: https://www.ietf.org/proceedings/81/minutes/manet.html
   - kind: proceedings
-    listed_in: 11
+    listed_in: 10
     first: '2005-02-01'
     last: '2011-05-05'
     examples:
@@ -465,12 +471,20 @@ chairs:
     says: start
     text: Chairs changed to Ronald in 't Velt, Stan Ratliff from Stan Ratliff
     url: https://datatracker.ietf.org/group/manet/history/
-  - kind: list message
-    date: '2021-05-19'
-    says: start
-    subject: '[manet] New manet co-chair'
-    url: https://mailarchive.ietf.org/arch/msg/manet/dCVwWbj5QcGIJrGfUZjH3ebtbyw/
-    excerpt: Thank you Ronald for stepping up during a difficult time!
+  - kind: chair activity
+    first: '2020-02-11'
+    last: '2023-08-25'
+    messages: 5
+    examples:
+    - date: '2020-02-11'
+      subject: '[manet] WGLC on three flow control related DLEP Extension I-Ds'
+      url: https://mailarchive.ietf.org/arch/msg/manet/RuE4buyT6XpLuYqEJnvM15WqvAQ/
+    - date: '2020-02-11'
+      subject: '[manet] WG adoption call: draft-berger-manet-dlep-ether-credit-extension'
+      url: https://mailarchive.ietf.org/arch/msg/manet/4Vel2lDm30esR6j0Azi6p4LXs-Q/
+    - date: '2022-03-11'
+      subject: '[manet] Call for WG adoption of draft-rogge-manet-dlep-radio-band'
+      url: https://mailarchive.ietf.org/arch/msg/manet/4WymG8FTFPL0meLfSCuH-igvJfw/
   - kind: shepherded
     documents:
     - draft-ietf-manet-dlep-credit-flow-control

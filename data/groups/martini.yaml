@@ -4,7 +4,7 @@ type: wg
 parent: rai
 areas:
 - area: rai
-  first: '2009-11-08'
+  first: '2009-12-22'
   last: '2011-12-09'
 state: conclude
 started: '2009-11-30'
@@ -22,13 +22,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2009-11-08'
+      certainty: between
+      not_before: '2009-11-30'
+      not_after: '2009-12-09'
     end:
       certainty: group-closed
       date: '2011-03-08'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2009-11-08)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2009-12-09)'
   evidence:
   - kind: chair activity
     first: '2009-12-09'
@@ -46,11 +47,11 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/martini/SSckmpw3qG8QbORuwcUmttUJCr8/
   - kind: proceedings
     listed_in: 4
-    first: '2009-11-08'
+    first: '2009-12-22'
     last: '2011-03-08'
     examples:
-    - date: '2009-11-08'
-      subject: IETF 76 proceedings charter
+    - date: '2009-12-22'
+      subject: IETF 76 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/76/martini.html
     - date: '2010-04-02'
       subject: IETF 77 proceedings charter, as last modified
@@ -63,13 +64,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2009-11-08'
+      certainty: between
+      not_before: '2009-11-30'
+      not_after: '2009-12-22'
     end:
       certainty: group-closed
       date: '2011-03-08'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2009-11-08)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2009-12-22)'
   evidence:
   - kind: chair activity
     first: '2010-12-04'
@@ -81,11 +83,11 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/martini/7DOKDUg1XYUfnSgCRUB2NL2Pymo/
   - kind: proceedings
     listed_in: 4
-    first: '2009-11-08'
+    first: '2009-12-22'
     last: '2011-03-08'
     examples:
-    - date: '2009-11-08'
-      subject: IETF 76 proceedings charter
+    - date: '2009-12-22'
+      subject: IETF 76 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/76/martini.html
     - date: '2010-04-02'
       subject: IETF 77 proceedings charter, as last modified

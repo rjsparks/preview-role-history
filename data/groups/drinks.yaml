@@ -30,11 +30,11 @@ chairs:
     end:
       certainty: between
       not_before: '2010-03-21'
-      not_after: '2010-11-07'
+      not_after: '2010-09-01'
     notes:
     - 'Start: named as chair in the WG Action announcement (2008-06-13)'
     - 'End: listed as chair in meeting minutes (2010-03-21)'
-    - 'End: not listed among the chairs in meeting minutes (2010-11-07)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2010-09-01)'
   evidence:
   - kind: WG Action
     date: '2008-06-13'
@@ -77,9 +77,9 @@ chairs:
       subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/drinks.html
   - kind: minutes without them
-    date: '2010-11-07'
-    subject: IETF 79 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/79/minutes/drinks.txt
+    date: '2010-09-01'
+    subject: IETF 78 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/78/drinks.html
   - kind: session requests
     meetings:
     - '72'
@@ -93,13 +93,13 @@ chairs:
   - start:
       certainty: between
       not_before: '2009-03-22'
-      not_after: '2010-07-25'
+      not_after: '2010-08-26'
     end:
       certainty: exact
       date: '2014-03-03'
     notes:
     - 'Start: not listed among the chairs in meeting minutes (2009-03-22)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2010-08-26)'
   evidence:
   - kind: datatracker record
     date: '2014-03-03'
@@ -142,11 +142,11 @@ chairs:
       url: https://www.ietf.org/proceedings/83/minutes/minutes-83-drinks.txt
   - kind: proceedings
     listed_in: 11
-    first: '2010-07-25'
+    first: '2010-09-01'
     last: '2013-12-20'
     examples:
-    - date: '2010-07-25'
-      subject: IETF 78 proceedings charter
+    - date: '2010-09-01'
+      subject: IETF 78 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/78/drinks.html
     - date: '2011-05-03'
       subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03

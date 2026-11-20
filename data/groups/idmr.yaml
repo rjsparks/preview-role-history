@@ -23,13 +23,13 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '1997-08-11'
+      not_after: '1994-03-28'
     end:
       certainty: between
       not_before: '1999-07-11'
       not_after: '2005-02-24'
     notes:
-    - 'Start: listed as chair in meeting minutes (1997-08-11)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1994-03-28)'
     - 'End: listed as chair in meeting minutes (1999-07-11)'
     - 'End: the group closed (2005-02-24)'
   evidence:
@@ -48,16 +48,16 @@ chairs:
       subject: IETF 45 minutes in the proceedings
       url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-88.html
   - kind: proceedings
-    listed_in: 5
-    first: '1997-08-11'
+    listed_in: 13
+    first: '1994-03-28'
     last: '1999-07-06'
     examples:
-    - date: '1997-08-11'
-      subject: IETF 39 proceedings charter
-      url: https://www.ietf.org/proceedings/39/transit97aug-84.htm
-    - date: '1998-08-17'
-      subject: IETF 42 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/42/98aug-99.htm
+    - date: '1994-03-28'
+      subject: IETF 29 proceedings charter
+      url: https://www.ietf.org/proceedings/29/area.and.wg.reports/rtg/idmr/idmr-charter.txt
+    - date: '1994-12-05'
+      subject: IETF 31 proceedings charter
+      url: https://www.ietf.org/proceedings/31/area.and.wg.reports/rtg/idmr/idmr-charter.txt
     - date: '1999-07-06'
       subject: IETF 45 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-88.html

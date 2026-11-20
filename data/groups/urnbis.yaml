@@ -4,7 +4,7 @@ type: wg
 parent: art
 areas:
 - area: app
-  first: '2010-03-21'
+  first: '2010-06-10'
   last: '2014-12-09'
 - area: art
   first: '2015-05-29'
@@ -150,27 +150,24 @@ chairs:
   - start:
       certainty: between
       not_before: '1996-03-04'
-      not_after: '2010-03-21'
+      not_after: '2010-06-10'
     end:
       certainty: between
-      not_before: '2010-03-21'
+      not_before: '2010-06-10'
       not_after: '2011-03-27'
     notes:
     - 'Start: no longer an Area Director (1996-03-04)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-03-21)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-06-10)'
     - 'End: not listed among the chairs in meeting minutes (2011-03-27)'
   evidence:
   - kind: proceedings
-    listed_in: 2
-    first: '2010-03-21'
+    listed_in: 1
+    first: '2010-06-10'
     last: '2010-06-10'
     examples:
-    - date: '2010-03-21'
-      subject: IETF 77 proceedings charter
-      url: https://www.ietf.org/proceedings/77/urnbis.html
     - date: '2010-06-10'
-      subject: IETF 78 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/78/urnbis.html
+      subject: IETF 77 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/77/urnbis.html
   - kind: minutes without them
     date: '2011-03-27'
     subject: IETF 80 minutes in the proceedings
@@ -186,12 +183,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-03-21'
+      date: '2010-06-10'
     end:
       certainty: exact
       date: '2014-12-09'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-03-21)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-06-10)'
   evidence:
   - kind: datatracker record
     date: '2014-12-09'
@@ -217,16 +214,16 @@ chairs:
       subject: IETF 80 minutes in the proceedings
       url: https://www.ietf.org/proceedings/80/minutes/urnbis.txt
   - kind: proceedings
-    listed_in: 13
-    first: '2010-03-21'
+    listed_in: 12
+    first: '2010-06-10'
     last: '2014-04-25'
     examples:
-    - date: '2010-03-21'
-      subject: IETF 77 proceedings charter
-      url: https://www.ietf.org/proceedings/77/urnbis.html
     - date: '2010-06-10'
-      subject: IETF 78 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/78/urnbis.html
+      subject: IETF 77 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/77/urnbis.html
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
+      url: https://www.ietf.org/proceedings/79/urnbis.html
     - date: '2014-04-25'
       subject: IETF 89 proceedings charter, as the datatracker generated it by 2014-04-25
       url: https://www.ietf.org/proceedings/89/urnbis.html

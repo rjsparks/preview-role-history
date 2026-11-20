@@ -4,7 +4,7 @@ type: wg
 parent: app
 areas:
 - area: app
-  first: '2005-03-06'
+  first: '2005-07-02'
   last: '2006-01-26'
 state: conclude
 started: null
@@ -26,21 +26,18 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-03-06'
+      date: '2005-07-02'
     end:
       certainty: group-closed
       date: '2006-01-26'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2005-03-06)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2005-07-02)'
   evidence:
   - kind: proceedings
-    listed_in: 2
-    first: '2005-03-06'
+    listed_in: 1
+    first: '2005-07-02'
     last: '2005-07-02'
     examples:
-    - date: '2005-03-06'
-      subject: IETF 62 proceedings charter
-      url: https://www.ietf.org/proceedings/62/rui.html
     - date: '2005-07-02'
-      subject: IETF 63 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/63/rui.html
+      subject: IETF 62 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/62/rui.html

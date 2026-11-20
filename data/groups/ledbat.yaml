@@ -106,8 +106,8 @@ chairs:
       url: https://www.ietf.org/proceedings/75/ledbat.html
   - kind: minutes without them
     date: '2010-06-03'
-    subject: IETF 78 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/78/ledbat.html
+    subject: IETF 77 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/77/ledbat.html
 - person: 109727
   name: Murari Sridharan
   status: confirmed
@@ -152,7 +152,7 @@ chairs:
       subject: IETF 77 minutes in the proceedings
       url: https://www.ietf.org/proceedings/77/minutes/ledbat.txt
   - kind: proceedings
-    listed_in: 10
+    listed_in: 9
     first: '2009-01-21'
     last: '2012-10-02'
     examples:
@@ -179,13 +179,14 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2008-10-30'
-      not_after: '2010-03-21'
+      not_before: '2010-03-21'
+      not_after: '2010-06-03'
     end:
       certainty: group-closed
       date: '2012-12-20'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-03-21)'
+    - 'Start: not listed among the chairs in meeting minutes (2010-03-21)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-06-03)'
   evidence:
   - kind: chair activity
     first: '2010-10-13'
@@ -205,16 +206,20 @@ chairs:
       subject: '[ledbat] WG last call on draft-ietf-ledbat-congestion-08'
       url: https://mailarchive.ietf.org/arch/msg/ledbat/4HZqzFkQdPY9ftY83Ik8wRKRtvQ/
   - kind: proceedings
-    listed_in: 8
-    first: '2010-03-21'
+    listed_in: 7
+    first: '2010-06-03'
     last: '2012-10-02'
     examples:
-    - date: '2010-03-21'
-      subject: IETF 77 proceedings charter
-      url: https://www.ietf.org/proceedings/77/ledbat.html
     - date: '2010-06-03'
-      subject: IETF 78 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/78/ledbat.html
+      subject: IETF 77 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/77/ledbat.html
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
+      url: https://www.ietf.org/proceedings/79/ledbat.html
     - date: '2012-10-02'
       subject: IETF 84 proceedings charter, as the datatracker generated it by 2012-10-02
       url: https://www.ietf.org/proceedings/84/ledbat.html
+  - kind: minutes without them
+    date: '2010-03-21'
+    subject: IETF 77 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/77/minutes/ledbat.txt

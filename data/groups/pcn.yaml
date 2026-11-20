@@ -106,12 +106,24 @@ chairs:
       not_after: '2006-10-31'
     end:
       certainty: between
-      not_before: '2006-10-31'
+      not_before: '2006-11-17'
       not_after: '2007-02-28'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2006-10-31)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2006-11-17)'
     - 'End: not named among the chairs in the WG Action that chartered the group (2007-02-28)'
   evidence:
+  - kind: chair activity
+    first: '2006-11-10'
+    last: '2006-11-17'
+    messages: 3
+    examples:
+    - date: '2006-11-10'
+      subject: '[PCN] first draft of PCN BOF minutes'
+      url: https://mailarchive.ietf.org/arch/msg/pcn/lGYtMUBT1Phzjbp68_mrO7zR98E/
+    - date: '2006-11-14'
+      subject: '[PCN] updated PCN BOF minutes'
+      url: https://mailarchive.ietf.org/arch/msg/pcn/m0c2qv9Lkp1l8Cg13XUmHkgn588/
   - kind: proceedings
     listed_in: 1
     first: '2006-10-31'

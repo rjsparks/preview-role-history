@@ -208,7 +208,7 @@ chairs:
       subject: IETF 63 minutes in the proceedings
       url: https://www.ietf.org/proceedings/63/l2vpn.html
   - kind: proceedings
-    listed_in: 8
+    listed_in: 7
     first: '2005-07-13'
     last: '2010-03-25'
     examples:
@@ -248,13 +248,13 @@ chairs:
   - start:
       certainty: between
       not_before: '2005-07-31'
-      not_after: '2011-05-03'
+      not_after: '2010-12-07'
     end:
       certainty: group-closed
       date: '2014-11-20'
     notes:
     - 'Start: not listed among the chairs in meeting minutes (2005-07-31)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2011-05-03)'
+    - 'Start: started a last call or adoption call on the group''s list (2010-12-07)'
   evidence:
   - kind: WG Review
     date: '2011-08-30'
@@ -264,6 +264,20 @@ chairs:
     date: '2011-09-13'
     subject: 'WG Action: RECHARTER: Layer 2 Virtual Private Networks (l2vpn)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/-oG-56sh4ZeIE4Q0M32ZCkJHuVo/
+  - kind: chair activity
+    first: '2010-12-07'
+    last: '2012-08-13'
+    messages: 5
+    examples:
+    - date: '2010-12-07'
+      subject: '[l2vpn] WG last call for draft-ietf-l2vpn-arp-mediation-15.txt'
+      url: https://mailarchive.ietf.org/arch/msg/l2vpn/ka52GHWtCrMCQgMTWhq2XyMfp50/
+    - date: '2011-02-21'
+      subject: '[l2vpn] WG last call for draft-ietf-l2vpn-vpls-mcast-08.txt'
+      url: https://mailarchive.ietf.org/arch/msg/l2vpn/_i4uJQivXOZgT_fAgPvrXXk0a_w/
+    - date: '2011-03-12'
+      subject: '[l2vpn] WG Last Call for updates in draft-ietf-l2vpn-arp-mediation-16.txt'
+      url: https://mailarchive.ietf.org/arch/msg/l2vpn/jnyV1Bt41ZCEQDVYGNEsuKGlosI/
   - kind: minutes
     listed_in: 2
     first: '2012-11-04'
@@ -305,13 +319,13 @@ chairs:
   - start:
       certainty: between
       not_before: '2005-07-31'
-      not_after: '2009-07-26'
+      not_after: '2009-10-19'
     end:
       certainty: group-closed
       date: '2014-11-20'
     notes:
     - 'Start: not listed among the chairs in meeting minutes (2005-07-31)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2009-07-26)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2009-10-19)'
   evidence:
   - kind: WG Review
     date: '2011-08-30'
@@ -356,16 +370,16 @@ chairs:
       subject: IETF 90 minutes in the proceedings
       url: https://www.ietf.org/proceedings/90/minutes/minutes-90-l2vpn.txt
   - kind: proceedings
-    listed_in: 10
-    first: '2009-07-26'
+    listed_in: 9
+    first: '2009-10-19'
     last: '2013-02-13'
     examples:
-    - date: '2009-07-26'
-      subject: IETF 75 proceedings charter
-      url: https://www.ietf.org/proceedings/75/l2vpn.html
     - date: '2009-10-19'
-      subject: IETF 76 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/76/l2vpn.html
+      subject: IETF 75 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/75/l2vpn.html
+    - date: '2010-03-25'
+      subject: IETF 77 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/77/l2vpn.html
     - date: '2013-02-13'
       subject: IETF 85 proceedings charter, as the datatracker generated it by 2013-02-13
       url: https://www.ietf.org/proceedings/85/l2vpn.html
@@ -446,5 +460,5 @@ chairs:
       url: https://www.ietf.org/proceedings/74/l2vpn.html
   - kind: minutes without them
     date: '2009-10-19'
-    subject: IETF 76 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/76/l2vpn.html
+    subject: IETF 75 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/75/l2vpn.html

@@ -78,7 +78,7 @@ chairs:
   - kind: chair activity
     first: '2000-07-10'
     last: '2012-06-11'
-    messages: 49
+    messages: 48
     examples:
     - date: '2000-07-10'
       subject: Agenda Items for DNSEXT meeting in Pittsburg
@@ -110,9 +110,9 @@ chairs:
       subject: IETF 80 minutes in the proceedings
       url: https://www.ietf.org/proceedings/80/minutes/dnsext.txt
   - kind: proceedings
-    listed_in: 36
+    listed_in: 35
     first: '2000-02-03'
-    last: '2013-04-11'
+    last: '2013-04-12'
     examples:
     - date: '2000-02-03'
       subject: IETF 47 proceedings charter, as last modified
@@ -120,8 +120,8 @@ chairs:
     - date: '2000-07-17'
       subject: IETF 48 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/48/00july-41.htm
-    - date: '2013-04-11'
-      subject: IETF 86 proceedings charter, as the datatracker generated it by 2013-04-11
+    - date: '2013-04-12'
+      subject: IETF 86 proceedings charter, as the datatracker generated it by 2013-04-12
       url: https://www.ietf.org/proceedings/86/dnsext.html
   - kind: session requests
     meetings:
@@ -169,15 +169,12 @@ chairs:
       new co-chair.
   - kind: chair activity
     first: '2001-09-26'
-    last: '2002-08-13'
-    messages: 5
+    last: '2002-01-15'
+    messages: 3
     examples:
     - date: '2001-09-26'
       subject: wg last call for draft-ietf-dnsext-dhcid-rr-03.txt to ps
       url: https://mailarchive.ietf.org/arch/msg/dnsext/7P1dvQOSudqVs3BwANZmcFoJwsk/
-    - date: '2001-09-26'
-      subject: wg last call for draft-ietf-dnsext-unknown-rrs-01.txt
-      url: https://mailarchive.ietf.org/arch/msg/dnsext/aedNrHeLw1lm0ZwW25fd07As8jE/
     - date: '2002-01-13'
       subject: draft minutes
       url: https://mailarchive.ietf.org/arch/msg/dnsext/QNkHGrDFNhizPcLVPfi6HAguGuU/
@@ -282,18 +279,18 @@ chairs:
       subject: IETF 80 minutes in the proceedings
       url: https://www.ietf.org/proceedings/80/minutes/dnsext.txt
   - kind: proceedings
-    listed_in: 13
+    listed_in: 12
     first: '2009-04-13'
-    last: '2013-04-11'
+    last: '2013-04-12'
     examples:
     - date: '2009-04-13'
       subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/dnsext.html
-    - date: '2009-07-26'
-      subject: IETF 75 proceedings charter
+    - date: '2009-09-16'
+      subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/dnsext.html
-    - date: '2013-04-11'
-      subject: IETF 86 proceedings charter, as the datatracker generated it by 2013-04-11
+    - date: '2013-04-12'
+      subject: IETF 86 proceedings charter, as the datatracker generated it by 2013-04-12
       url: https://www.ietf.org/proceedings/86/dnsext.html
   - kind: minutes without them
     date: '2007-03-18'
@@ -355,7 +352,7 @@ chairs:
   - kind: chair activity
     first: '2003-06-23'
     last: '2007-01-10'
-    messages: 16
+    messages: 15
     examples:
     - date: '2003-06-23'
       subject: Draft Agenda
@@ -366,12 +363,12 @@ chairs:
     - date: '2003-12-22'
       subject: WGLC for draft-ietf-dnsext-nsec-rdata-03.txt
       url: https://mailarchive.ietf.org/arch/msg/dnsext/X9LesQ2h_IjwJFfQlSf5Szuoq38/
-    - date: '2004-05-18'
-      subject: 'WG Last Call: DNSSEC bis documents'
-      url: https://mailarchive.ietf.org/arch/msg/dnsext/m2YkddW6Qc1u9kicVf_fsAfcaRA/
     - date: '2004-07-07'
       subject: DNSEXT Agenda Items for IETF 60
       url: https://mailarchive.ietf.org/arch/msg/dnsext/uHTRyhjGVs97xSwsIRpb7x8n6O4/
+    - date: '2005-06-01'
+      subject: 'Working Group Last Call: draft-ietf-dnsext-wcard-clarify-07'
+      url: https://mailarchive.ietf.org/arch/msg/dnsext/iwwqXqgIZNiCiZ-TuGYGdb56tDA/
   - kind: minutes
     listed_in: 7
     first: '2005-03-06'

@@ -55,16 +55,25 @@ chairs:
     subject: 'WG Action: Formed Large-Scale Measurement of Broadband Performance (lmap)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/oaNnPWGnkHPeWsN4VNusUWDt8yM/
   - kind: chair activity
-    first: '2016-11-21'
+    first: '2013-03-07'
     last: '2016-11-21'
-    messages: 2
+    messages: 63
     examples:
-    - date: '2016-11-21'
-      subject: '[lmap] WGLC for draft-ietf-lmap-yang-08'
-      url: https://mailarchive.ietf.org/arch/msg/lmap/QxJow9zt4E5iT1DlVQ93lb9LPq0/
-    - date: '2016-11-21'
-      subject: '[lmap] WGLC for draft-ietf-lmap-information-model-13'
-      url: https://mailarchive.ietf.org/arch/msg/lmap/9gKYVHASeMuYJBpC_ipQfJAsTfk/
+    - date: '2013-03-07'
+      subject: '[lmap] presentations and minutes'
+      url: https://mailarchive.ietf.org/arch/msg/lmap/dLnozUB3LbtZiBXXy1iWkUjSua4/
+    - date: '2013-03-19'
+      subject: '[lmap] LMAP BOF draft minutes now available'
+      url: https://mailarchive.ietf.org/arch/msg/lmap/lgp1qM0Y1dDAYci0ae65wXW5Brw/
+    - date: '2014-01-23'
+      subject: '[lmap] WGLC for http://www.ietf.org/id/draft-ietf-lmap-framework-03.txt'
+      url: https://mailarchive.ietf.org/arch/msg/lmap/nVOr65FlIiFXF05ByURxD3IcpxY/
+    - date: '2014-02-13'
+      subject: '[lmap] Working Group Last Call for http://www.ietf.org/id/draft-ietf-lmap-use-cases-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/lmap/BAjelsnbW0lP3b5MNj6F-R1Yzfo/
+    - date: '2014-08-26'
+      subject: '[lmap] WGLC for draft-ietf-lmap-information-model-02 (corrected date)'
+      url: https://mailarchive.ietf.org/arch/msg/lmap/0eoVFsGm6nSvYUnCT-g-zlQRjXc/
   - kind: minutes
     listed_in: 1
     first: '2014-11-09'
@@ -76,16 +85,16 @@ chairs:
   - kind: proceedings
     listed_in: 13
     first: '2013-02-13'
-    last: '2016-11-13'
+    last: '2016-12-02'
     examples:
     - date: '2013-02-13'
       subject: IETF 85 proceedings charter, as the datatracker generated it by 2013-02-13
       url: https://www.ietf.org/proceedings/85/lmap.html
-    - date: '2013-04-11'
-      subject: IETF 86 proceedings charter, as the datatracker generated it by 2013-04-11
+    - date: '2013-04-12'
+      subject: IETF 86 proceedings charter, as the datatracker generated it by 2013-04-12
       url: https://www.ietf.org/proceedings/86/lmap.html
-    - date: '2016-11-13'
-      subject: IETF 97 proceedings charter, as the datatracker generated it by 2016-11-13
+    - date: '2016-12-02'
+      subject: IETF 97 proceedings charter, as the datatracker generated it by 2016-12-02
       url: https://www.ietf.org/proceedings/97/lmap.html
   - kind: shepherded
     documents:
@@ -115,13 +124,13 @@ chairs:
   - kind: proceedings
     listed_in: 2
     first: '2013-02-13'
-    last: '2013-04-11'
+    last: '2013-04-12'
     examples:
     - date: '2013-02-13'
       subject: IETF 85 proceedings charter, as the datatracker generated it by 2013-02-13
       url: https://www.ietf.org/proceedings/85/lmap.html
-    - date: '2013-04-11'
-      subject: IETF 86 proceedings charter, as the datatracker generated it by 2013-04-11
+    - date: '2013-04-12'
+      subject: IETF 86 proceedings charter, as the datatracker generated it by 2013-04-12
       url: https://www.ietf.org/proceedings/86/lmap.html
 - person: 110305
   name: Jason Weil
@@ -139,6 +148,17 @@ chairs:
     says: start
     text: Chairs changed to Dan Romascanu, Jason Weil from Dan Romascanu
     url: https://datatracker.ietf.org/group/lmap/history/
+  - kind: chair activity
+    first: '2013-08-16'
+    last: '2016-10-31'
+    messages: 13
+    examples:
+    - date: '2013-08-16'
+      subject: '[lmap] Draft Minutes from IETF 87 - Berlin'
+      url: https://mailarchive.ietf.org/arch/msg/lmap/etfdlPlaoYM0QplNFilwWgDFk_s/
+    - date: '2014-08-26'
+      subject: '[lmap] RSVP List for LMAP Interim Meeting - Deadline September 2nd'
+      url: https://mailarchive.ietf.org/arch/msg/lmap/SltsopnaAJhBVC48pQ7S9wkNmZg/
   - kind: minutes
     listed_in: 1
     first: '2014-11-09'
@@ -150,7 +170,7 @@ chairs:
   - kind: proceedings
     listed_in: 11
     first: '2013-09-19'
-    last: '2016-11-13'
+    last: '2016-12-02'
     examples:
     - date: '2013-09-19'
       subject: IETF 87 proceedings charter, as the datatracker generated it by 2013-09-19
@@ -158,6 +178,6 @@ chairs:
     - date: '2013-12-20'
       subject: IETF 88 proceedings charter, as the datatracker generated it by 2013-12-20
       url: https://www.ietf.org/proceedings/88/lmap.html
-    - date: '2016-11-13'
-      subject: IETF 97 proceedings charter, as the datatracker generated it by 2016-11-13
+    - date: '2016-12-02'
+      subject: IETF 97 proceedings charter, as the datatracker generated it by 2016-12-02
       url: https://www.ietf.org/proceedings/97/lmap.html

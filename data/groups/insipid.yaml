@@ -27,12 +27,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2012-02-23'
-      not_after: '2012-03-19'
+      not_after: '2012-03-13'
     end:
       certainty: group-closed
       date: '2018-10-02'
     notes:
-    - 'Start: named as chair in the WG Action announcement (2012-03-19)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2012-03-13)'
   evidence:
   - kind: WG Action
     date: '2012-03-19'
@@ -46,6 +46,26 @@ chairs:
     date: '2013-10-11'
     subject: 'WG Action: Rechartered INtermediary-safe SIP session ID (insipid)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/1s1V3HfAaXPZvWOGkKnpIc0kM0A/
+  - kind: chair activity
+    first: '2012-03-13'
+    last: '2014-10-18'
+    messages: 9
+    examples:
+    - date: '2012-03-13'
+      subject: '[Insipid] Compiling an agenda for INSIPID'
+      url: https://mailarchive.ietf.org/arch/msg/insipid/qbfZYbOWvItGSoGEfpw0IVOvmd0/
+    - date: '2012-03-14'
+      subject: '[Insipid] Draft agenda for INSIPID session'
+      url: https://mailarchive.ietf.org/arch/msg/insipid/jSpicKzJ8Lbf8Jj-EgmyCzAfU9w/
+    - date: '2012-06-26'
+      subject: '[Insipid] Call for WG adoption of text to'
+      url: https://mailarchive.ietf.org/arch/msg/insipid/4u1r6Y_5Gkmk_0FFySto0ZoWQFM/
+    - date: '2013-07-09'
+      subject: '[Insipid] WGLC for draft-ietf-insipid-session-id-reqts-07'
+      url: https://mailarchive.ietf.org/arch/msg/insipid/JBP8OZNK1G9WaWMXfITe9zR_StE/
+    - date: '2014-10-18'
+      subject: '[Insipid] Working group last call for draft-ietf-insipid-session-id-10'
+      url: https://mailarchive.ietf.org/arch/msg/insipid/jt7agLqQLHmeFnu_uuom1YT57dM/
   - kind: minutes
     listed_in: 5
     first: '2012-11-04'

@@ -4,7 +4,7 @@ type: wg
 parent: int
 areas:
 - area: int
-  first: '2003-07-13'
+  first: '2003-08-25'
   last: '2015-08-27'
 state: conclude
 started: '2003-07-30'
@@ -49,11 +49,11 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/mip4/teZijLOMBvh04himZw39AeycMxM/
   - kind: proceedings
     listed_in: 1
-    first: '2003-07-13'
-    last: '2003-07-13'
+    first: '2003-08-25'
+    last: '2003-08-25'
     examples:
-    - date: '2003-07-13'
-      subject: IETF 57 proceedings charter
+    - date: '2003-08-25'
+      subject: IETF 57 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/57/145.htm
   - kind: chartering announcement without them
     date: '2003-08-26'
@@ -298,11 +298,11 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/mip4/teZijLOMBvh04himZw39AeycMxM/
   - kind: proceedings
     listed_in: 1
-    first: '2003-07-13'
-    last: '2003-07-13'
+    first: '2003-08-25'
+    last: '2003-08-25'
     examples:
-    - date: '2003-07-13'
-      subject: IETF 57 proceedings charter
+    - date: '2003-08-25'
+      subject: IETF 57 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/57/145.htm
   - kind: chartering announcement without them
     date: '2003-08-26'
@@ -315,14 +315,14 @@ chairs:
   - start:
       certainty: between
       not_before: '2003-07-13'
-      not_after: '2003-08-06'
+      not_after: '2003-08-26'
     end:
       certainty: between
       not_before: '2006-06-27'
       not_after: '2006-07-25'
     notes:
     - 'Start: not listed among the chairs in meeting minutes (2003-07-13)'
-    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2003-08-06)'
+    - 'Start: named as chair in the WG Action announcement (2003-08-26)'
     - 'End: named as a proposed chair in a WG Review announcement (2006-06-27)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2006-07-25)'
   evidence:
@@ -351,16 +351,16 @@ chairs:
     subject: 'WG Review: Recharter of Mobility for IPv4 (mip4)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/JKSwspfE77Lb-t-Q4sgKCQjiwN8/
   - kind: chair activity
-    first: '2003-08-06'
+    first: '2003-11-19'
     last: '2006-06-13'
-    messages: 9
+    messages: 8
     examples:
-    - date: '2003-08-06'
-      subject: '[Mip4] Draft BOF Minutes'
-      url: https://mailarchive.ietf.org/arch/msg/mip4/teZijLOMBvh04himZw39AeycMxM/
     - date: '2003-11-19'
       subject: '[Mip4] Draft minutes from IETF58'
       url: https://mailarchive.ietf.org/arch/msg/mip4/NYWW6xsztRNXZwqJkqXndyAoTYk/
+    - date: '2004-03-31'
+      subject: '[Mip4] Meeting Minutes for mip4 at IETF59'
+      url: https://mailarchive.ietf.org/arch/msg/mip4/_x2XgWaFn5IM2Fl0TN1NfSSfnw0/
     - date: '2004-04-29'
       subject: '[Mip4] WGLC on draft-ietf-mip4-rfc3012bis-01.txt'
       url: https://mailarchive.ietf.org/arch/msg/mip4/KasjclvMab-aDuw21rt1fR5zbaI/

@@ -4,7 +4,7 @@ type: wg
 parent: int
 areas:
 - area: int
-  first: '2005-03-06'
+  first: '2005-07-10'
   last: '2010-10-05'
 state: conclude
 started: '2005-05-30'
@@ -26,12 +26,12 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2005-03-06'
+      not_after: '2005-07-10'
     end:
       certainty: announced
       date: '2007-04-16'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2005-03-06)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2005-07-10)'
     - 'End: announced on the group''s list (2007-04-16)'
   evidence:
   - kind: WG Action
@@ -73,16 +73,16 @@ chairs:
       subject: IETF 68 minutes in the proceedings
       url: https://www.ietf.org/proceedings/68/minutes/netlmm.txt
   - kind: proceedings
-    listed_in: 7
-    first: '2005-03-06'
+    listed_in: 5
+    first: '2005-07-10'
     last: '2007-02-13'
     examples:
-    - date: '2005-03-06'
-      subject: IETF 62 proceedings charter
-      url: https://www.ietf.org/proceedings/62/netlmm.html
     - date: '2005-07-10'
-      subject: IETF 63 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/63/netlmm.html
+      subject: IETF 62 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/62/netlmm.html
+    - date: '2005-10-26'
+      subject: IETF 64 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/64/netlmm.html
     - date: '2007-02-13'
       subject: IETF 68 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/68/netlmm.html
@@ -122,8 +122,8 @@ chairs:
       working group.
   - kind: chair activity
     first: '2007-11-07'
-    last: '2009-01-07'
-    messages: 5
+    last: '2009-11-19'
+    messages: 6
     examples:
     - date: '2007-11-07'
       subject: '[netlmm] WGLC: draft-ietf-netlmm-proxymip6-07'
@@ -137,6 +137,9 @@ chairs:
     - date: '2009-01-07'
       subject: '[netlmm] WG Last Call notice: draft-ietf-netlmm-grekey-option (second last call)'
       url: https://mailarchive.ietf.org/arch/msg/netlmm/LdwfPMfjZ_J93bcr66IreIhNkbM/
+    - date: '2009-11-19'
+      subject: '[netlmm] WGLC: draft-ietf-netlmm-pmipv6-mib'
+      url: https://mailarchive.ietf.org/arch/msg/netlmm/T3KQk1gZiNwXZWkKaO9hIRzyVtY/
   - kind: minutes
     listed_in: 1
     first: '2007-12-02'
@@ -162,13 +165,13 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2005-03-06'
+      not_after: '2005-07-10'
     end:
       certainty: between
       not_before: '2006-11-16'
       not_after: '2007-02-13'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2005-03-06)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2005-07-10)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2006-11-16)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2007-02-13)'
   evidence:
@@ -199,19 +202,19 @@ chairs:
       subject: IETF 63 minutes in the proceedings
       url: https://www.ietf.org/proceedings/63/minutes/netlmm.html
   - kind: proceedings
-    listed_in: 6
-    first: '2005-03-06'
+    listed_in: 4
+    first: '2005-07-10'
     last: '2006-10-18'
     examples:
-    - date: '2005-03-06'
-      subject: IETF 62 proceedings charter
-      url: https://www.ietf.org/proceedings/62/netlmm.html
     - date: '2005-07-10'
-      subject: IETF 63 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/63/netlmm.html
+      subject: IETF 62 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/62/netlmm.html
+    - date: '2005-10-26'
+      subject: IETF 64 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/64/netlmm.html
     - date: '2006-10-18'
-      subject: IETF 67 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/67/inetlmm.html
+      subject: IETF 66 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/66/inetlmm.html
   - kind: minutes without them
     date: '2007-02-13'
     subject: IETF 68 proceedings charter, as last modified
@@ -244,6 +247,26 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/netlmm/D9aZbM9VFEJEgbElWV_XqxCDnXk/
     excerpt: Please help to support Vidya as she takes on this enlarged responsibility as a new WG chair
       in IETF.
+  - kind: chair activity
+    first: '2007-03-05'
+    last: '2009-10-22'
+    messages: 13
+    examples:
+    - date: '2007-03-05'
+      subject: '[netlmm] Draft Agenda for NETLMM at IETF68'
+      url: https://mailarchive.ietf.org/arch/msg/netlmm/PR7p3w3OfjaCgarcZkut2LLqC_0/
+    - date: '2007-04-06'
+      subject: '[netlmm] IETF68 Meeting Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/netlmm/JWLPuuB3CTsRR7ia7MENCZj2qnA/
+    - date: '2008-10-07'
+      subject: '[netlmm] Working Group Last Call - draft-ietf-netlmm-pmip6-ipv4-support-05'
+      url: https://mailarchive.ietf.org/arch/msg/netlmm/_kc1iVbRe4DhZj_2W0E7V9eXISs/
+    - date: '2009-03-16'
+      subject: '[netlmm] WGLC on draft-ietf-netlmm-mip-interactions'
+      url: https://mailarchive.ietf.org/arch/msg/netlmm/Qw84aOZ5n4HIK9ML6WFuzthjL4s/
+    - date: '2009-10-22'
+      subject: '[netlmm] Working Group Last Call: draft-ietf-netlmm-lma-discovery-02'
+      url: https://mailarchive.ietf.org/arch/msg/netlmm/pyBwEhfP_yi9J81b9q1c3vCmOA4/
   - kind: minutes
     listed_in: 2
     first: '2007-03-18'

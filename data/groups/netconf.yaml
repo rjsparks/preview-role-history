@@ -4,7 +4,7 @@ type: wg
 parent: ops
 areas:
 - area: ops
-  first: '2003-07-13'
+  first: '2003-08-14'
   last: null
 state: active
 started: '2002-06-01'
@@ -117,10 +117,13 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/netconf/MCSGKq2UrhKNtMMd2aFTRXM7Gkw/
     excerpt: On one hand, I'm pretty happy for *Bert Wijnen* to enjoy his well deserved retirement.
   - kind: chair activity
-    first: '2010-07-27'
+    first: '2009-04-01'
     last: '2014-09-25'
-    messages: 9
+    messages: 10
     examples:
+    - date: '2009-04-01'
+      subject: '[Netconf] draft minutes NETCONF session at IETF74'
+      url: https://mailarchive.ietf.org/arch/msg/netconf/UyOdHFWTwc3osuIKIVM3cQziGd0/
     - date: '2010-07-27'
       subject: '[Netconf] WGLC on draft-ietf-netconf-rfc4742bis-02.txt'
       url: https://mailarchive.ietf.org/arch/msg/netconf/Wg0ikxpprpqToK6PkYSEYSw3tuM/
@@ -133,9 +136,6 @@ chairs:
     - date: '2014-09-09'
       subject: '[Netconf] draft minutes/notes of our Virtual Interim Meeting on 8 Sept 2014'
       url: https://mailarchive.ietf.org/arch/msg/netconf/0BV59i1x-P8J6b2uqrCprIyn910/
-    - date: '2014-09-25'
-      subject: '[Netconf] Draft minutes/notes for our Virtual meting we had on Monday Sept 22, 2014'
-      url: https://mailarchive.ietf.org/arch/msg/netconf/Bns2tQoon4ces7NMX83qqzIiFIg/
   - kind: minutes
     listed_in: 9
     first: '2008-03-09'
@@ -151,7 +151,7 @@ chairs:
       subject: IETF 81 minutes in the proceedings
       url: https://www.ietf.org/proceedings/81/minutes/netconf.txt
   - kind: proceedings
-    listed_in: 16
+    listed_in: 15
     first: '2008-03-13'
     last: '2014-04-25'
     examples:
@@ -224,11 +224,11 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/netconf/HcHZO0NHsm9snOEAtKZB1On3KV0/
   - kind: proceedings
     listed_in: 11
-    first: '2003-07-13'
+    first: '2003-08-14'
     last: '2007-03-08'
     examples:
-    - date: '2003-07-13'
-      subject: IETF 57 proceedings charter
+    - date: '2003-08-14'
+      subject: IETF 57 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/57/172.htm
     - date: '2003-10-28'
       subject: IETF 58 proceedings charter, as last modified
@@ -251,13 +251,13 @@ chairs:
   - start:
       certainty: between
       not_before: '2006-08-13'
-      not_after: '2008-03-09'
+      not_after: '2008-02-28'
     end:
       certainty: exact
       date: '2017-07-27'
     notes:
     - 'Start: not listed among the chairs in meeting minutes (2006-08-13)'
-    - 'Start: requested the group''s session for IETF 71 (2008-03-09)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2008-02-28)'
   evidence:
   - kind: datatracker record
     date: '2017-07-27'
@@ -309,19 +309,25 @@ chairs:
     subject: 'WG Action: Rechartered Network Configuration (netconf)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/w2ywCwkXTGtOP84PAdfYa_RnNDI/
   - kind: chair activity
-    first: '2017-06-29'
+    first: '2008-02-28'
     last: '2017-07-11'
-    messages: 3
+    messages: 66
     examples:
-    - date: '2017-06-29'
-      subject: '[Netconf] WG Last Call for draft-ietf-netconf-keystore and draft-ietf-netconf-zerotouch'
-      url: https://mailarchive.ietf.org/arch/msg/netconf/EAE8k9TVXRDKHoTyfiou9P01qpE/
-    - date: '2017-07-10'
-      subject: '[Netconf] WG Last Call for SSH/TLS and NETCONF/RESTCONF Client Server Models'
-      url: https://mailarchive.ietf.org/arch/msg/netconf/BS-lGFKDZybqEArfD3rnFnf6N2c/
-    - date: '2017-07-11'
-      subject: '[Netconf] Draft NETCONF Agenda for IETF #99'
-      url: https://mailarchive.ietf.org/arch/msg/netconf/BksO0qQM4e6GOzyq77BbgN0809g/
+    - date: '2008-02-28'
+      subject: 'Agenda for NETCONF WG session at IETF #71'
+      url: https://mailarchive.ietf.org/arch/msg/netconf/U3AeusgWtFp-Ed6wAT63ARcYys4/
+    - date: '2008-03-27'
+      subject: '[Netconf] Netconf session at IETF 71 - Preliminary minutes'
+      url: https://mailarchive.ietf.org/arch/msg/netconf/NJxw_ebTG7yqtTFJN8tmkrVX3ic/
+    - date: '2008-08-10'
+      subject: '[Netconf] WGLC for draft-ietf-netconf-partial-lock-03.txt'
+      url: https://mailarchive.ietf.org/arch/msg/netconf/2p099QVW2639R9ESSgZi-CLR45Q/
+    - date: '2008-09-25'
+      subject: '[Netconf] WGLC for draft-ietf-netconf-tls-04.txt'
+      url: https://mailarchive.ietf.org/arch/msg/netconf/wOKlQ8lHkPHMFuQpgT851OoxHRA/
+    - date: '2009-07-14'
+      subject: '[Netconf] WGLC: draft-ietf-netconf-monitoring-07'
+      url: https://mailarchive.ietf.org/arch/msg/netconf/hoXqvZwCvk0uf5mvM49VarNDf_k/
   - kind: minutes
     listed_in: 9
     first: '2008-03-09'
@@ -337,7 +343,7 @@ chairs:
       subject: IETF 81 minutes in the proceedings
       url: https://www.ietf.org/proceedings/81/minutes/netconf.txt
   - kind: proceedings
-    listed_in: 25
+    listed_in: 24
     first: '2008-03-13'
     last: '2017-04-12'
     examples:
@@ -413,7 +419,7 @@ chairs:
   - kind: chair activity
     first: '2014-12-19'
     last: '2024-01-26'
-    messages: 49
+    messages: 48
     examples:
     - date: '2014-12-19'
       subject: '[Netconf] Minutes from NETCONF Virtual Meeting Monday, December 15, 2014'
@@ -493,7 +499,7 @@ chairs:
   - kind: chair activity
     first: '2017-08-21'
     last: '2026-04-29'
-    messages: 50
+    messages: 49
     examples:
     - date: '2017-08-21'
       subject: '[Netconf] WG adoption poll draft-voit-netconf-notification-messages-01'
@@ -580,11 +586,11 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/netconf/HcHZO0NHsm9snOEAtKZB1On3KV0/
   - kind: proceedings
     listed_in: 11
-    first: '2003-07-13'
+    first: '2003-08-14'
     last: '2007-03-08'
     examples:
-    - date: '2003-07-13'
-      subject: IETF 57 proceedings charter
+    - date: '2003-08-14'
+      subject: IETF 57 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/57/172.htm
     - date: '2003-10-28'
       subject: IETF 58 proceedings charter, as last modified

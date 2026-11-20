@@ -4,7 +4,7 @@ type: wg
 parent: app
 areas:
 - area: app
-  first: '2009-11-08'
+  first: '2010-01-29'
   last: '2013-01-18'
 state: conclude
 started: '2009-12-12'
@@ -73,16 +73,16 @@ chairs:
       subject: IETF 77 minutes in the proceedings
       url: https://www.ietf.org/proceedings/77/minutes/iri.txt
   - kind: proceedings
-    listed_in: 5
-    first: '2010-03-21'
+    listed_in: 4
+    first: '2010-05-04'
     last: '2011-10-21'
     examples:
-    - date: '2010-03-21'
-      subject: IETF 77 proceedings charter
-      url: https://www.ietf.org/proceedings/77/iri.html
     - date: '2010-05-04'
-      subject: IETF 78 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/78/iiri.html
+      subject: IETF 77 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/77/iri.html
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
+      url: https://www.ietf.org/proceedings/79/iri.html
     - date: '2011-10-21'
       subject: IETF 81 proceedings charter, as the datatracker generated it by 2011-10-21
       url: https://www.ietf.org/proceedings/81/iri.html
@@ -130,27 +130,30 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '2010-03-21'
-    end:
       certainty: between
       not_before: '2010-03-21'
+      not_after: '2010-05-04'
+    end:
+      certainty: between
+      not_before: '2010-05-04'
       not_after: '2013-01-18'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-03-21)'
+    - 'Start: not listed among the chairs in meeting minutes (2010-03-21)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-05-04)'
     - 'End: the group closed (2013-01-18)'
   evidence:
   - kind: proceedings
-    listed_in: 2
-    first: '2010-03-21'
+    listed_in: 1
+    first: '2010-05-04'
     last: '2010-05-04'
     examples:
-    - date: '2010-03-21'
-      subject: IETF 77 proceedings charter
-      url: https://www.ietf.org/proceedings/77/iri.html
     - date: '2010-05-04'
-      subject: IETF 78 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/78/iiri.html
+      subject: IETF 77 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/77/iri.html
+  - kind: minutes without them
+    date: '2010-03-21'
+    subject: IETF 77 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/77/minutes/iri.txt
 - person: 110721
   name: Ted Hardie
   status: unconfirmed
@@ -186,16 +189,16 @@ chairs:
       url: https://www.ietf.org/proceedings/77/minutes/iri.txt
   - kind: proceedings
     listed_in: 1
-    first: '2009-11-08'
-    last: '2009-11-08'
+    first: '2010-01-29'
+    last: '2010-01-29'
     examples:
-    - date: '2009-11-08'
-      subject: IETF 76 proceedings charter
+    - date: '2010-01-29'
+      subject: IETF 76 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/76/iri.html
   - kind: minutes without them
     date: '2010-05-04'
-    subject: IETF 78 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/78/iiri.html
+    subject: IETF 77 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/77/iri.html
   - kind: joined the IESG
     after_meeting: '56'
     after: '2003-03-16'

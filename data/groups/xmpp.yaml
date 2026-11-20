@@ -4,7 +4,7 @@ type: wg
 parent: art
 areas:
 - area: rai
-  first: '2009-03-22'
+  first: '2009-05-21'
   last: '2015-03-26'
 - area: art
   first: '2015-05-29'
@@ -29,22 +29,22 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2009-03-22'
+      not_after: '2009-05-21'
     end:
       certainty: between
-      not_before: '2009-03-22'
+      not_before: '2009-05-21'
       not_after: '2009-05-29'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2009-03-22)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2009-05-21)'
     - 'End: not named among the chairs in the WG Action that chartered the group (2009-05-29)'
   evidence:
   - kind: proceedings
     listed_in: 1
-    first: '2009-03-22'
-    last: '2009-03-22'
+    first: '2009-05-21'
+    last: '2009-05-21'
     examples:
-    - date: '2009-03-22'
-      subject: IETF 74 proceedings charter
+    - date: '2009-05-21'
+      subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/xmpp.html
   - kind: chartering announcement without them
     date: '2009-05-29'
@@ -201,22 +201,22 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2009-03-22'
+      not_after: '2009-05-21'
     end:
       certainty: between
-      not_before: '2009-03-22'
+      not_before: '2009-05-21'
       not_after: '2009-05-29'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2009-03-22)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2009-05-21)'
     - 'End: not named among the chairs in the WG Action that chartered the group (2009-05-29)'
   evidence:
   - kind: proceedings
     listed_in: 1
-    first: '2009-03-22'
-    last: '2009-03-22'
+    first: '2009-05-21'
+    last: '2009-05-21'
     examples:
-    - date: '2009-03-22'
-      subject: IETF 74 proceedings charter
+    - date: '2009-05-21'
+      subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/xmpp.html
   - kind: chartering announcement without them
     date: '2009-05-29'

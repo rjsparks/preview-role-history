@@ -114,38 +114,38 @@ chairs:
   - start:
       certainty: between
       not_before: '1996-01-12'
-      not_after: '1997-04-07'
+      not_after: '1998-03-27'
     end:
       certainty: group-closed
       date: '2000-10-10'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
+    - 'Start: listed as chair in a proceedings charter snapshot (1998-03-27)'
   evidence:
   - kind: minutes
-    listed_in: 7
-    first: '1997-08-11'
+    listed_in: 5
+    first: '1998-03-30'
     last: '1999-07-11'
     examples:
-    - date: '1997-08-11'
-      subject: IETF 39 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/39/transit97aug-117.htm
-    - date: '1997-12-08'
-      subject: IETF 40 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-122.htm
+    - date: '1998-03-30'
+      subject: IETF 41 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/41/98mar-edited-129.htm
+    - date: '1998-08-24'
+      subject: IETF 42 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/42/98aug-141.htm
     - date: '1999-07-11'
       subject: IETF 45 minutes in the proceedings
       url: https://www.ietf.org/proceedings/45/45th-99jul-ietf-133.html
   - kind: proceedings
-    listed_in: 6
-    first: '1997-04-07'
+    listed_in: 3
+    first: '1998-03-27'
     last: '1998-10-07'
     examples:
-    - date: '1997-04-07'
-      subject: IETF 38 proceedings charter
-      url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr70.htm
-    - date: '1997-08-11'
-      subject: IETF 39 proceedings charter
-      url: https://www.ietf.org/proceedings/39/transit97aug-117.htm
+    - date: '1998-03-27'
+      subject: IETF 41 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/41/98mar-edited-129.htm
+    - date: '1998-07-23'
+      subject: IETF 42 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/42/98aug-141.htm
     - date: '1998-10-07'
       subject: IETF 43 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/43/43rd-ietf-98dec-133.html
@@ -159,10 +159,10 @@ chairs:
     end:
       certainty: between
       not_before: '1997-04-07'
-      not_after: '1997-08-11'
+      not_after: '1998-03-27'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
-    - 'End: not listed among the chairs in meeting minutes (1997-08-11)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (1998-03-27)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -173,6 +173,6 @@ chairs:
       subject: IETF 38 proceedings charter
       url: https://www.ietf.org/proceedings/38/97apr-final/xrtftr70.htm
   - kind: minutes without them
-    date: '1997-08-11'
-    subject: IETF 39 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/39/transit97aug-117.htm
+    date: '1998-03-27'
+    subject: IETF 41 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/41/98mar-edited-129.htm

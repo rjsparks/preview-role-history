@@ -4,7 +4,7 @@ type: wg
 parent: int
 areas:
 - area: int
-  first: '2007-03-18'
+  first: '2007-05-11'
   last: '2025-03-19'
 state: conclude
 started: '2007-12-17'
@@ -173,22 +173,22 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2007-03-18'
+      not_after: '2007-05-11'
     end:
       certainty: between
-      not_before: '2007-03-18'
+      not_before: '2007-05-11'
       not_after: '2007-12-02'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2007-03-18)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2007-05-11)'
     - 'End: not listed among the chairs in meeting minutes (2007-12-02)'
   evidence:
   - kind: proceedings
     listed_in: 2
-    first: '2007-03-18'
+    first: '2007-05-11'
     last: '2007-05-31'
     examples:
-    - date: '2007-03-18'
-      subject: IETF 68 proceedings charter
+    - date: '2007-05-11'
+      subject: IETF 68 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/68/tictoc.html
     - date: '2007-05-31'
       subject: IETF 69 proceedings charter, as last modified
@@ -203,12 +203,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2007-03-18'
+      date: '2007-05-11'
     end:
       certainty: group-closed
       date: '2025-03-19'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2007-03-18)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2007-05-11)'
   evidence:
   - kind: WG Action
     date: '2008-03-11'
@@ -241,11 +241,11 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/tictoc/hYtbOoMjeB5CQfPuSRUqtsrOZI8/
   - kind: proceedings
     listed_in: 25
-    first: '2007-03-18'
+    first: '2007-05-11'
     last: '2017-04-12'
     examples:
-    - date: '2007-03-18'
-      subject: IETF 68 proceedings charter
+    - date: '2007-05-11'
+      subject: IETF 68 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/68/tictoc.html
     - date: '2007-05-31'
       subject: IETF 69 proceedings charter, as last modified

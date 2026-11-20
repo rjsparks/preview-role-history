@@ -59,6 +59,17 @@ chairs:
     subject: '[CDNi] Announcing a new CDNI co-chair'
     url: https://mailarchive.ietf.org/arch/msg/cdni/2oynU_0oOGb22gQSayBWzJoq2JQ/
     excerpt: Rich Woundy stepped down as CDNI co-chair at the end of the IETF-86 meeting.
+  - kind: chair activity
+    first: '2011-08-15'
+    last: '2011-11-03'
+    messages: 2
+    examples:
+    - date: '2011-08-15'
+      subject: '[CDNi] CDNI minutes from IETF 81'
+      url: https://mailarchive.ietf.org/arch/msg/cdni/YQjgeQQpu0AX6vWx1xQ9o9Qn3Gs/
+    - date: '2011-11-03'
+      subject: '[CDNi] Tentative agenda for IETF 82'
+      url: https://mailarchive.ietf.org/arch/msg/cdni/UAru0x42EtqzAYBeX602YCHwsHI/
   - kind: minutes
     listed_in: 4
     first: '2011-03-27'
@@ -219,11 +230,11 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/cdni/nELIpnMmbLly23WA9GMoeKVvEvc/
   - kind: proceedings
     listed_in: 8
-    first: '2013-04-11'
+    first: '2013-04-12'
     last: '2015-10-06'
     examples:
-    - date: '2013-04-11'
-      subject: IETF 86 proceedings charter, as the datatracker generated it by 2013-04-11
+    - date: '2013-04-12'
+      subject: IETF 86 proceedings charter, as the datatracker generated it by 2013-04-12
       url: https://www.ietf.org/proceedings/86/cdni.html
     - date: '2013-09-19'
       subject: IETF 87 proceedings charter, as the datatracker generated it by 2013-09-19
@@ -333,6 +344,26 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/cdni/i5hD-U8kRoigX-F8N6IIiL52DTs/
     excerpt: 'As a result, I have been looking for one candidate to replace them and to join Kevin in
       his continued role: please join me in welcoming Sanjay Mishra as new co-chair of CDNI.'
+  - kind: chair activity
+    first: '2022-10-27'
+    last: '2026-11-10'
+    messages: 26
+    examples:
+    - date: '2022-10-27'
+      subject: '[CDNi] CDNI Agenda for IETF 115, London is published'
+      url: https://mailarchive.ietf.org/arch/msg/cdni/rASyVpG54ubAJTR_tmbyzU6GQa8/
+    - date: '2023-03-20'
+      subject: '[CDNi] updated CDNI WG agenda for IETF 116'
+      url: https://mailarchive.ietf.org/arch/msg/cdni/b2kwC0MmgmJGWuyBRA6s_zmQxYM/
+    - date: '2024-06-12'
+      subject: '[CDNi] Call for WG adoption for I-D (draft-rosenblum-cdni-logging-extensions-01)'
+      url: https://mailarchive.ietf.org/arch/msg/cdni/syxyBt0PfNR2Nxvpj_kW3BAfi2E/
+    - date: '2024-06-13'
+      subject: '[CDNi] Call for adoption for I-D Named footprint (draft-arolovitch-cdni-named-footprints-01)'
+      url: https://mailarchive.ietf.org/arch/msg/cdni/k_-ySydfCNGx7CTCHfH3LcTene4/
+    - date: '2024-06-13'
+      subject: '[CDNi] Call for WG adoption for Client Access Control Metadata (draft-chaudhari-client-access-control-metadata-01)'
+      url: https://mailarchive.ietf.org/arch/msg/cdni/GhrkHpffqgAgjtZqOSiQ1jL5JRw/
   - kind: shepherded
     documents:
     - draft-ietf-cdni-capacity-insights-extensions

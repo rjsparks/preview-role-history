@@ -4,7 +4,7 @@ type: wg
 parent: int
 areas:
 - area: int
-  first: '2005-03-06'
+  first: '2005-07-10'
   last: null
 state: active
 started: '2009-10-22'
@@ -132,12 +132,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2009-10-22'
-      not_after: '2010-03-21'
+      not_after: '2010-03-11'
     end:
       certainty: exact
       date: '2013-12-23'
     notes:
-    - 'Start: listed as chair in meeting minutes (2010-03-21)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2010-03-11)'
   evidence:
   - kind: datatracker record
     date: '2013-12-23'
@@ -150,13 +150,22 @@ chairs:
     subject: 'WG Action: Internet Area Working Group (intarea)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/2xjvfZB_UJkaxmenbeEma_ZM8tw/
   - kind: chair activity
-    first: '2011-04-04'
+    first: '2010-03-11'
     last: '2011-06-23'
-    messages: 2
+    messages: 8
     examples:
-    - date: '2011-04-04'
-      subject: '[Int-area] intarea WG DRAFT meeting minutes'
-      url: https://mailarchive.ietf.org/arch/msg/int-area/KhX9imGEoWbxBtx7b-sO1l_GPWo/
+    - date: '2010-03-11'
+      subject: '[Int-area] DRAFT Agenda for intarea WG'
+      url: https://mailarchive.ietf.org/arch/msg/int-area/cXkjaJEXMreHNYVR3CK9T2w1qtc/
+    - date: '2010-04-26'
+      subject: '[Int-area] WGLC for draft-ietf-intarea-ipv4-id-update-00'
+      url: https://mailarchive.ietf.org/arch/msg/int-area/RFFUqMhi77KsMUXrbPddFpZpDgg/
+    - date: '2010-04-26'
+      subject: '[Int-area] Meeting minutes posted'
+      url: https://mailarchive.ietf.org/arch/msg/int-area/sA7mi55seZ6Yk7HJEMpcwOpp6PM/
+    - date: '2010-09-30'
+      subject: '[Int-area] WGLC for draft-ietf-intarea-shared-addressing-issues-01'
+      url: https://mailarchive.ietf.org/arch/msg/int-area/-jtucv5xC4qrn7Bh-zeMgVbbqYs/
     - date: '2011-06-23'
       subject: '[Int-area] WGLC for http://tools.ietf.org/html/draft-ietf-intarea-ipv6-required-00'
       url: https://mailarchive.ietf.org/arch/msg/int-area/RbhRuWprkWDPHp0LPJ4TJXwD61w/
@@ -466,10 +475,13 @@ chairs:
     text: Chair changed to Carlos Jesús Bernardos, Wassim Haddad from Juan-Carlos Zúñiga, Wassim Haddad
     url: https://datatracker.ietf.org/group/intarea/history/
   - kind: chair activity
-    first: '2016-03-03'
+    first: '2014-11-21'
     last: '2025-11-05'
-    messages: 29
+    messages: 30
     examples:
+    - date: '2014-11-21'
+      subject: '[Int-area] Call for adoption of draft-pignataro-intarea-gre-ipv6-01'
+      url: https://mailarchive.ietf.org/arch/msg/int-area/tiO_TYRSWKGPhf-ktiB01QsYkqA/
     - date: '2016-03-03'
       subject: '[Int-area] Call for agenda items @ IETF 95'
       url: https://mailarchive.ietf.org/arch/msg/int-area/LyIUhbVp0fCw5Vi9zr6NGGclkGI/
@@ -482,9 +494,6 @@ chairs:
     - date: '2016-05-16'
       subject: '[Int-area] WGLC for draft-ietf-intarea-hostname-practice-02'
       url: https://mailarchive.ietf.org/arch/msg/int-area/gDU4Jc7ee1Tei-mJ2cxpz2Fzuu0/
-    - date: '2016-08-25'
-      subject: '[Int-area] Call for adoption of draft-winfaa-intarea-broadcast-consider-02'
-      url: https://mailarchive.ietf.org/arch/msg/int-area/kt_v7rO1eHyGIftjoXqIxkN4voA/
   - kind: minutes
     listed_in: 5
     first: '2014-11-09'

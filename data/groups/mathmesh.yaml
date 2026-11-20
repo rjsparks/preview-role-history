@@ -29,10 +29,10 @@ chairs:
       date: '2019-10-18'
     end:
       certainty: between
-      not_before: '2019-11-16'
+      not_before: '2019-11-19'
       not_after: '2020-02-13'
     notes:
-    - 'End: the BOF met at IETF 106 (2019-11-16)'
+    - 'End: posted an agenda, minutes or interim notice to the group''s list (2019-11-19)'
     - 'End: the group closed (2020-02-13)'
   evidence:
   - kind: datatracker record
@@ -40,6 +40,14 @@ chairs:
     says: start
     text: Chairs changed to Rich Salz
     url: https://datatracker.ietf.org/group/mathmesh/history/
+  - kind: chair activity
+    first: '2019-11-19'
+    last: '2019-11-19'
+    messages: 1
+    examples:
+    - date: '2019-11-19'
+      subject: '[Mathmesh] Draft minutes'
+      url: https://mailarchive.ietf.org/arch/msg/mathmesh/Ke1P8THUvOezT0AJkh8GU1vq4_c/
   - kind: BOF session
     meeting: '106'
     date: '2019-11-16'

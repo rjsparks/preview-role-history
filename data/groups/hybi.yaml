@@ -4,7 +4,7 @@ type: wg
 parent: art
 areas:
 - area: app
-  first: '2009-11-08'
+  first: '2010-01-26'
   last: '2011-12-09'
 - area: art
   first: '2015-05-29'
@@ -33,11 +33,11 @@ chairs:
     end:
       certainty: between
       not_before: '2009-07-30'
-      not_after: '2010-03-21'
+      not_after: '2010-01-26'
     notes:
     - 'Start: posted an agenda, minutes or interim notice to the group''s list (2009-07-30)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2009-07-30)'
-    - 'End: not listed among the chairs in meeting minutes (2010-03-21)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2010-01-26)'
   evidence:
   - kind: list message
     date: '2011-03-30'
@@ -54,9 +54,9 @@ chairs:
       subject: '[hybi] breakfast BoF minutes'
       url: https://mailarchive.ietf.org/arch/msg/hybi/m6Vz1JPiTGDO0ngzfEnglxmMaHU/
   - kind: minutes without them
-    date: '2010-03-21'
-    subject: IETF 77 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/77/minutes/hybi.txt
+    date: '2010-01-26'
+    subject: IETF 76 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/76/hybi.html
   - kind: joined the IESG
     after_meeting: '77'
     after: '2010-03-21'
@@ -115,11 +115,11 @@ chairs:
       url: https://www.ietf.org/proceedings/78/minutes/hybi.txt
   - kind: proceedings
     listed_in: 7
-    first: '2009-11-08'
+    first: '2010-01-26'
     last: '2012-02-01'
     examples:
-    - date: '2009-11-08'
-      subject: IETF 76 proceedings charter
+    - date: '2010-01-26'
+      subject: IETF 76 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/76/hybi.html
     - date: '2010-03-25'
       subject: IETF 77 proceedings charter, as last modified
@@ -195,13 +195,13 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2009-11-08'
+      not_after: '2010-01-26'
     end:
       certainty: between
       not_before: '2010-07-25'
       not_after: '2016-01-04'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2009-11-08)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-01-26)'
     - 'End: listed as chair in meeting minutes (2010-07-25)'
     - 'End: the group closed (2016-01-04)'
   evidence:
@@ -218,11 +218,11 @@ chairs:
       url: https://www.ietf.org/proceedings/78/minutes/hybi.txt
   - kind: proceedings
     listed_in: 3
-    first: '2009-11-08'
+    first: '2010-01-26'
     last: '2010-07-29'
     examples:
-    - date: '2009-11-08'
-      subject: IETF 76 proceedings charter
+    - date: '2010-01-26'
+      subject: IETF 76 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/76/hybi.html
     - date: '2010-03-25'
       subject: IETF 77 proceedings charter, as last modified

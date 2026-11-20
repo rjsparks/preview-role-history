@@ -4,7 +4,7 @@ type: wg
 parent: app
 areas:
 - area: app
-  first: '2009-03-22'
+  first: '2009-05-26'
   last: '2011-11-28'
 state: conclude
 started: '2009-05-21'
@@ -25,13 +25,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2009-03-22'
+      certainty: between
+      not_before: '2009-05-21'
+      not_after: '2009-05-26'
     end:
       certainty: group-closed
       date: '2011-11-28'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2009-03-22)'
+    - 'Start: named as chair in the WG Action announcement (2009-05-26)'
   evidence:
   - kind: WG Action
     date: '2009-05-26'
@@ -70,11 +71,11 @@ chairs:
       url: https://www.ietf.org/proceedings/81/minutes/yam.html
   - kind: proceedings
     listed_in: 6
-    first: '2009-03-22'
+    first: '2009-05-26'
     last: '2011-10-21'
     examples:
-    - date: '2009-03-22'
-      subject: IETF 74 proceedings charter
+    - date: '2009-05-26'
+      subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/yam.html
     - date: '2009-08-04'
       subject: IETF 75 proceedings charter, as last modified

@@ -4,7 +4,7 @@ type: wg
 parent: app
 areas:
 - area: app
-  first: '2010-03-21'
+  first: '2010-06-15'
   last: '2012-04-03'
 state: conclude
 started: '2010-10-25'
@@ -58,26 +58,23 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2010-03-21'
+      not_after: '2010-06-15'
     end:
       certainty: between
-      not_before: '2010-03-21'
+      not_before: '2010-06-15'
       not_after: '2010-11-23'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-03-21)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-06-15)'
     - 'End: not named among the chairs in the WG Action that chartered the group (2010-11-23)'
   evidence:
   - kind: proceedings
-    listed_in: 2
-    first: '2010-03-21'
+    listed_in: 1
+    first: '2010-06-15'
     last: '2010-06-15'
     examples:
-    - date: '2010-03-21'
-      subject: IETF 77 proceedings charter
-      url: https://www.ietf.org/proceedings/77/ftpext2.html
     - date: '2010-06-15'
-      subject: IETF 78 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/78/ftpext2.html
+      subject: IETF 77 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/77/ftpext2.html
   - kind: chartering announcement without them
     date: '2010-11-23'
     subject: 'WG Action: FTP Extensions, 2nd edition (ftpext2)'

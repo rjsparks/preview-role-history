@@ -121,7 +121,7 @@ chairs:
   - kind: chair activity
     first: '2000-12-19'
     last: '2005-05-10'
-    messages: 33
+    messages: 32
     examples:
     - date: '2000-12-19'
       subject: WG Last Call, PKI Roadmap
@@ -225,16 +225,16 @@ chairs:
       subject: '[pkix] minutes, old style'
       url: https://mailarchive.ietf.org/arch/msg/pkix/LVYEROWks6DxdmziZcgbd3xx62c/
   - kind: proceedings
-    listed_in: 17
-    first: '2006-07-09'
+    listed_in: 15
+    first: '2006-08-24'
     last: '2013-09-19'
     examples:
-    - date: '2006-07-09'
-      subject: IETF 66 proceedings charter
-      url: https://www.ietf.org/proceedings/66/pkix.html
     - date: '2006-08-24'
-      subject: IETF 67 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/67/pkix.html
+      subject: IETF 66 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/66/pkix.html
+    - date: '2006-12-27'
+      subject: IETF 68 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/68/pkix.html
     - date: '2013-09-19'
       subject: IETF 87 proceedings charter, as the datatracker generated it by 2013-09-19
       url: https://www.ietf.org/proceedings/87/pkix.html
@@ -298,7 +298,7 @@ chairs:
       subject: '[pkix] minutes, old style'
       url: https://mailarchive.ietf.org/arch/msg/pkix/LVYEROWks6DxdmziZcgbd3xx62c/
   - kind: proceedings
-    listed_in: 45
+    listed_in: 43
     first: '1995-12-04'
     last: '2013-09-19'
     examples:

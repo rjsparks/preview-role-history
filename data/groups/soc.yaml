@@ -4,7 +4,7 @@ type: wg
 parent: rai
 areas:
 - area: rai
-  first: '2010-03-21'
+  first: '2010-05-11'
   last: '2015-02-02'
 state: conclude
 started: '2010-04-16'
@@ -22,13 +22,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-03-21'
+      certainty: between
+      not_before: '2010-04-16'
+      not_after: '2010-05-11'
     end:
       certainty: group-closed
       date: '2015-02-02'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-03-21)'
+    - 'Start: named as chair in the WG Action announcement (2010-05-11)'
   evidence:
   - kind: WG Action
     date: '2010-05-11'
@@ -57,16 +58,16 @@ chairs:
       subject: '[sip-overload] minutes from SoC Interim Meeting I'
       url: https://mailarchive.ietf.org/arch/msg/sip-overload/QBl7-g3-MoqgOeatTGQHerphkho/
   - kind: proceedings
-    listed_in: 14
-    first: '2010-03-21'
+    listed_in: 13
+    first: '2010-05-11'
     last: '2015-01-06'
     examples:
-    - date: '2010-03-21'
-      subject: IETF 77 proceedings charter
-      url: https://www.ietf.org/proceedings/77/soc.html
     - date: '2010-05-11'
-      subject: IETF 78 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/78/isoc.html
+      subject: IETF 77 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/77/soc.html
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
+      url: https://www.ietf.org/proceedings/79/soc.html
     - date: '2015-01-06'
       subject: IETF 91 proceedings charter, as the datatracker generated it by 2015-01-06
       url: https://www.ietf.org/proceedings/91/soc.html
@@ -79,13 +80,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-03-21'
+      certainty: between
+      not_before: '2010-04-16'
+      not_after: '2010-05-11'
     end:
       certainty: group-closed
       date: '2015-02-02'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-03-21)'
+    - 'Start: named as chair in the WG Action announcement (2010-05-11)'
   evidence:
   - kind: WG Action
     date: '2010-05-11'
@@ -120,16 +122,16 @@ chairs:
       subject: '[sip-overload] minutes from SoC Interim Meeting I'
       url: https://mailarchive.ietf.org/arch/msg/sip-overload/QBl7-g3-MoqgOeatTGQHerphkho/
   - kind: proceedings
-    listed_in: 14
-    first: '2010-03-21'
+    listed_in: 13
+    first: '2010-05-11'
     last: '2015-01-06'
     examples:
-    - date: '2010-03-21'
-      subject: IETF 77 proceedings charter
-      url: https://www.ietf.org/proceedings/77/soc.html
     - date: '2010-05-11'
-      subject: IETF 78 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/78/isoc.html
+      subject: IETF 77 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/77/soc.html
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
+      url: https://www.ietf.org/proceedings/79/soc.html
     - date: '2015-01-06'
       subject: IETF 91 proceedings charter, as the datatracker generated it by 2015-01-06
       url: https://www.ietf.org/proceedings/91/soc.html

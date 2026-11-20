@@ -284,7 +284,7 @@ chairs:
       subject: '[nfsv4] WG last call for pNFS Block Disk Protection I-D'
       url: https://mailarchive.ietf.org/arch/msg/nfsv4/cDLULeU1mDbgWpF-vDdbF3W7wW0/
   - kind: minutes
-    listed_in: 14
+    listed_in: 12
     first: '2003-07-13'
     last: '2007-12-02'
     examples:
@@ -363,15 +363,15 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2007-12-02'
-      not_after: '2016-06-15'
+      not_before: '2005-11-06'
+      not_after: '2006-06-12'
     end:
       certainty: between
       not_before: '2019-08-05'
       not_after: '2019-11-21'
     notes:
-    - 'Start: not listed among the chairs in meeting minutes (2007-12-02)'
-    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2016-06-15)'
+    - 'Start: not listed among the chairs in meeting minutes (2005-11-06)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2006-06-12)'
     - 'End: started a last call or adoption call on the group''s list (2019-08-05)'
   - start:
       certainty: exact
@@ -400,19 +400,19 @@ chairs:
     subject: 'WG Action: Rechartered Network File System Version 4 (nfsv4)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/fWbEQGfPyd52pkmbE0oLhn9drZc/
   - kind: chair activity
-    first: '2016-06-15'
+    first: '2006-06-12'
     last: '2022-10-13'
-    messages: 19
+    messages: 22
     examples:
-    - date: '2016-06-15'
-      subject: '[nfsv4] Is it time for a -00 for the IETF96 wg meeting draft agenda?'
-      url: https://mailarchive.ietf.org/arch/msg/nfsv4/NFqhLV7R2xTV6DnfWIo_IoXYz9k/
+    - date: '2006-06-12'
+      subject: '[nfsv4] Agenda items for v4.1 call (6/13/06)'
+      url: https://mailarchive.ietf.org/arch/msg/nfsv4/mfnCg99s1gbO3NHAnU4ao5BMTYk/
+    - date: '2006-06-19'
+      subject: '[nfsv4] Proposed agenda items for next (6/27) conference call'
+      url: https://mailarchive.ietf.org/arch/msg/nfsv4/xfSHQXB2Hh5YiQlcyhEY-PyT6QA/
     - date: '2016-12-05'
       subject: '[nfsv4] WGLC ended; Now what?'
       url: https://mailarchive.ietf.org/arch/msg/nfsv4/wDAgdkzmAp42AUxd_FaHcXNiLSM/
-    - date: '2019-05-21'
-      subject: '[nfsv4] High-priority agenda items for discussion at IETF105.'
-      url: https://mailarchive.ietf.org/arch/msg/nfsv4/5J-HgJ0b6V7vtVuHHXXlUyq0dc0/
     - date: '2019-08-05'
       subject: '[nfsv4] WGLC for draft-ietf-nfsv4-rfc5661sesqui-msns'
       url: https://mailarchive.ietf.org/arch/msg/nfsv4/CCpYX6Wx0r5pbD_B2JJwQZELCXs/
@@ -420,9 +420,9 @@ chairs:
       subject: '[nfsv4] Adoption call for draft-dnoveck-nfsv4-security'
       url: https://mailarchive.ietf.org/arch/msg/nfsv4/9ahuOIEKpWhgwvywPd9oOKLCVGw/
   - kind: minutes without them
-    date: '2007-12-02'
-    subject: IETF 70 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/70/minutes/nfsv4.txt
+    date: '2005-11-06'
+    subject: IETF 64 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/64/minutes/nfsv4.txt
   - kind: shepherded
     documents:
     - draft-ietf-nfsv4-rpc-tls

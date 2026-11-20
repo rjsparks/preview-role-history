@@ -41,7 +41,7 @@ chairs:
   - kind: chair activity
     first: '2007-04-18'
     last: '2010-02-26'
-    messages: 19
+    messages: 26
     examples:
     - date: '2007-04-18'
       subject: '[KEYPROV] Meeting Minutes'
@@ -49,15 +49,15 @@ chairs:
     - date: '2007-06-15'
       subject: '[KEYPROV] Meeting Minutes of the Phone Conference from 14th June 2007'
       url: https://mailarchive.ietf.org/arch/msg/keyprov/vZYyFBJuU_kZn3-4T4XNDHHNBnM/
+    - date: '2009-02-23'
+      subject: '[KEYPROV] WGLC: draft-ietf-keyprov-pskc-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/keyprov/PNsXnNvEMhvfAjWMARNII4eaGvY/
     - date: '2009-06-09'
       subject: '[KEYPROV] WGLC: draft-ietf-keyprov-pskc-03.txt'
       url: https://mailarchive.ietf.org/arch/msg/keyprov/384yekNoEkUtqWCZGGbLEWataao/
     - date: '2009-10-20'
       subject: '[KEYPROV] WGLC for draft-ietf-keyprov-symmetrickeyformat-06.txt'
       url: https://mailarchive.ietf.org/arch/msg/keyprov/ikFzVsiE9cAmZAF5E3_k5X3-VIU/
-    - date: '2010-02-26'
-      subject: '[KEYPROV] WGLC for draft-ietf-keyprov-dskpp-09.txt'
-      url: https://mailarchive.ietf.org/arch/msg/keyprov/38T0cFCzURapPFygKzLFhQxPY6Y/
   - kind: minutes
     listed_in: 2
     first: '2007-03-18'
@@ -109,6 +109,14 @@ chairs:
     date: '2007-01-30'
     subject: 'WG Action: Provisioning of Symmetric Keys (keyprov)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Gonj41GrhWaP1GZf0qqzyHCQC5U/
+  - kind: chair activity
+    first: '2007-11-02'
+    last: '2007-11-02'
+    messages: 1
+    examples:
+    - date: '2007-11-02'
+      subject: '[KEYPROV] Algorithm Identifiers Interim Drafts'
+      url: https://mailarchive.ietf.org/arch/msg/keyprov/UOF7Cai3k3OcanBcJP9oq_Ni6jQ/
   - kind: minutes
     listed_in: 2
     first: '2007-03-18'

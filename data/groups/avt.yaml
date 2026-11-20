@@ -145,7 +145,7 @@ chairs:
       subject: '[AVT] Final minutes'
       url: https://mailarchive.ietf.org/arch/msg/avt/6SFqSHd7bcUE6G3vNCWnWr6RFoA/
   - kind: proceedings
-    listed_in: 28
+    listed_in: 27
     first: '1998-08-17'
     last: '2007-10-23'
     examples:
@@ -160,8 +160,8 @@ chairs:
       url: https://www.ietf.org/proceedings/71/avt.html
   - kind: minutes without them
     date: '2009-05-01'
-    subject: IETF 75 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/75/avt.html
+    subject: IETF 74 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/74/avt.html
 - person: 100754
   name: Tom Taylor
   status: unconfirmed
@@ -172,11 +172,11 @@ chairs:
     end:
       certainty: between
       not_before: '2010-02-09'
-      not_after: '2010-06-23'
+      not_after: '2010-05-13'
     notes:
     - 'Start: announced on the group''s list (2006-07-04)'
     - 'End: named as chair in the WG Action announcement (2010-02-09)'
-    - 'End: not listed among the chairs in a proceedings charter snapshot (2010-06-23)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2010-05-13)'
   evidence:
   - kind: WG Action
     date: '2007-10-23'
@@ -226,23 +226,23 @@ chairs:
       subject: IETF 76 minutes in the proceedings
       url: https://www.ietf.org/proceedings/76/minutes/avt.txt
   - kind: proceedings
-    listed_in: 8
-    first: '2006-07-09'
-    last: '2009-11-08'
+    listed_in: 7
+    first: '2006-08-22'
+    last: '2010-01-04'
     examples:
-    - date: '2006-07-09'
-      subject: IETF 66 proceedings charter
-      url: https://www.ietf.org/proceedings/66/avt.html
     - date: '2006-08-22'
-      subject: IETF 67 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/67/avt.html
-    - date: '2009-11-08'
-      subject: IETF 76 proceedings charter
+      subject: IETF 66 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/66/avt.html
+    - date: '2007-01-11'
+      subject: IETF 68 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/68/avt.html
+    - date: '2010-01-04'
+      subject: IETF 76 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/76/avt.html
   - kind: minutes without them
-    date: '2010-06-23'
-    subject: IETF 78 proceedings charter, as last modified
-    url: https://www.ietf.org/proceedings/78/avt.html
+    date: '2010-05-13'
+    subject: IETF 77 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/77/avt.html
   - kind: session requests
     meetings:
     - '67'
@@ -340,14 +340,31 @@ chairs:
   - start:
       certainty: between
       not_before: '2009-11-08'
-      not_after: '2010-03-21'
+      not_after: '2010-05-05'
     end:
       certainty: group-closed
       date: '2011-03-18'
     notes:
     - 'Start: not listed among the chairs in meeting minutes (2009-11-08)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-03-21)'
+    - 'Start: started a last call or adoption call on the group''s list (2010-05-05)'
   evidence:
+  - kind: chair activity
+    first: '2010-05-05'
+    last: '2010-11-11'
+    messages: 6
+    examples:
+    - date: '2010-05-05'
+      subject: '[AVT] WGLC for draft-ietf-avt-rapid-acquisition-for-rtp-09'
+      url: https://mailarchive.ietf.org/arch/msg/avt/0Pk7QtOeBDwALOhEP5-CSKKtTKU/
+    - date: '2010-06-15'
+      subject: '[AVT] WGLC on draft-ietf-avt-multicast-acq-rtcp-xr-01'
+      url: https://mailarchive.ietf.org/arch/msg/avt/hjCjh1IitfB-Ojg605K2e0RLcdg/
+    - date: '2010-06-15'
+      subject: '[AVT] WGLC for draft-ietf-avt-srtp-big-aes-03'
+      url: https://mailarchive.ietf.org/arch/msg/avt/RHjIBW1G5Vt5SrAVGhRSdEbgjU0/
+    - date: '2010-11-11'
+      subject: '[AVT] Adoption of new milestones'
+      url: https://mailarchive.ietf.org/arch/msg/avt/2T_ssHkvv4F7un2Xkr3ABMqD-uA/
   - kind: minutes
     listed_in: 2
     first: '2010-07-25'
@@ -361,11 +378,11 @@ chairs:
       url: https://www.ietf.org/proceedings/79/minutes/avt.txt
   - kind: proceedings
     listed_in: 4
-    first: '2010-03-21'
+    first: '2010-05-13'
     last: '2011-03-18'
     examples:
-    - date: '2010-03-21'
-      subject: IETF 77 proceedings charter
+    - date: '2010-05-13'
+      subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/avt.html
     - date: '2010-06-23'
       subject: IETF 78 proceedings charter, as last modified
@@ -384,13 +401,13 @@ chairs:
   - start:
       certainty: between
       not_before: '2002-11-17'
-      not_after: '2006-07-09'
+      not_after: '2006-08-22'
     end:
       certainty: group-closed
       date: '2011-03-18'
     notes:
     - 'Start: not listed among the chairs in meeting minutes (2002-11-17)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2006-07-09)'
+    - 'Start: named as chair in the WG Action announcement (2006-08-22)'
   evidence:
   - kind: WG Action
     date: '2007-10-23'
@@ -405,25 +422,25 @@ chairs:
     subject: 'WG Action: RECHARTER: Audio/Video Transport (avt)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/avYDUSMF_a-LgcT_BD5RB2izFa0/
   - kind: chair activity
-    first: '2008-08-23'
+    first: '2006-10-24'
     last: '2010-11-23'
-    messages: 27
+    messages: 53
     examples:
-    - date: '2008-08-23'
-      subject: '[AVT] WGLC on draft-ietf-avt-rtp-g719-00'
-      url: https://mailarchive.ietf.org/arch/msg/avt/sLsuZ6EMcbTdEiGoXBPo05Rj-A8/
-    - date: '2008-09-18'
-      subject: '[AVT] WGLC on draft-ietf-avt-rtp-g719-02'
-      url: https://mailarchive.ietf.org/arch/msg/avt/89WHDZXseS1rcVvEa4f68wGBXFs/
-    - date: '2008-09-21'
-      subject: '[AVT] WGLC on draft-ietf-avt-post-repair-rtcp-xr-01'
-      url: https://mailarchive.ietf.org/arch/msg/avt/bZIVmXvtw5v7SRvfZdQaVgPa5VY/
-    - date: '2009-03-10'
-      subject: '[AVT] Agenda for AVT session in SF (draft)'
-      url: https://mailarchive.ietf.org/arch/msg/avt/mEQ8ul6C3x616g2aZAnbg7kn2jY/
-    - date: '2009-03-16'
-      subject: '[AVT] Updated agenda for IETF 74'
-      url: https://mailarchive.ietf.org/arch/msg/avt/aNGCh3xB2MKOG1KZ_j6KkIA08qs/
+    - date: '2006-10-24'
+      subject: '[AVT] AVT draft agenda'
+      url: https://mailarchive.ietf.org/arch/msg/avt/6Xfb5huNKWoA7eGX0RlY0_QONpI/
+    - date: '2006-10-26'
+      subject: '[AVT] Updated agenda for the San Diego AVT session'
+      url: https://mailarchive.ietf.org/arch/msg/avt/orP-IcMsDsfyTDbeLMtXOLReZ1Q/
+    - date: '2006-11-28'
+      subject: '[AVT] WGLC: draft-ietf.avt-ulp-19.txt'
+      url: https://mailarchive.ietf.org/arch/msg/avt/OYWBAq9m_KEh8G_Yog3STuFjc_g/
+    - date: '2006-12-08'
+      subject: '[AVT] Working group last call: draft-ietf-avt-avpf-ccm-03'
+      url: https://mailarchive.ietf.org/arch/msg/avt/djzj7R5yJr9tP6HhDaj03lOFPJ4/
+    - date: '2006-12-08'
+      subject: '[AVT] Working group last call: draft-ietf-avt-topologies-03'
+      url: https://mailarchive.ietf.org/arch/msg/avt/hM6Q18dj6DAtpogdoEteIw0GyOw/
   - kind: minutes
     listed_in: 6
     first: '2006-11-05'
@@ -439,16 +456,16 @@ chairs:
       subject: IETF 79 minutes in the proceedings
       url: https://www.ietf.org/proceedings/79/minutes/avt.txt
   - kind: proceedings
-    listed_in: 12
-    first: '2006-07-09'
+    listed_in: 11
+    first: '2006-08-22'
     last: '2011-03-18'
     examples:
-    - date: '2006-07-09'
-      subject: IETF 66 proceedings charter
-      url: https://www.ietf.org/proceedings/66/avt.html
     - date: '2006-08-22'
-      subject: IETF 67 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/67/avt.html
+      subject: IETF 66 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/66/avt.html
+    - date: '2007-01-11'
+      subject: IETF 68 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/68/avt.html
     - date: '2011-03-18'
       subject: IETF 80 proceedings charter, as the datatracker generated it by 2011-05-05
       url: https://www.ietf.org/proceedings/80/avt.html

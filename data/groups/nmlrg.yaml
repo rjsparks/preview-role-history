@@ -21,13 +21,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2007-07-22'
-      not_after: '2014-07-20'
+      not_after: '2015-08-19'
     end:
       certainty: exact
       date: '2016-02-29'
     notes:
     - 'Start: no longer an Area Director (2007-07-22)'
-    - 'Start: listed as chair in meeting minutes (2014-07-20)'
   evidence:
   - kind: datatracker record
     date: '2016-02-29'
@@ -35,29 +34,23 @@ chairs:
     text: Chairs changed to Albert, Sheng Jiang from Brian Carpenter, Sheng Jiang
     url: https://datatracker.ietf.org/group/nmlrg/history/
   - kind: minutes
-    listed_in: 3
-    first: '2014-07-20'
+    listed_in: 1
+    first: '2015-11-01'
     last: '2015-11-01'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/90/nmlrg.html
-    - date: '2015-07-19'
-      subject: IETF 93 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/93/nmlrg.html
     - date: '2015-11-01'
       subject: IETF 94 minutes in the proceedings
       url: https://www.ietf.org/proceedings/94/minutes/minutes-94-nmlrg.txt
   - kind: proceedings
     listed_in: 2
-    first: '2014-07-20'
-    last: '2015-07-19'
+    first: '2015-09-09'
+    last: '2015-10-06'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
+    - date: '2015-09-09'
+      subject: IETF 90 proceedings charter, as the datatracker generated it by 2015-09-09
       url: https://www.ietf.org/proceedings/90/nmlrg.html
-    - date: '2015-07-19'
-      subject: IETF 93 proceedings charter
+    - date: '2015-10-06'
+      subject: IETF 93 proceedings charter, as the datatracker generated it by 2015-10-06
       url: https://www.ietf.org/proceedings/93/nmlrg.html
   - kind: joined the IESG
     after_meeting: '62'
@@ -70,12 +63,10 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2014-07-20'
+      date: '2015-08-19'
     end:
       certainty: group-closed
       date: '2016-02-29'
-    notes:
-    - 'Start: listed as chair in meeting minutes (2014-07-20)'
   evidence:
   - kind: chair activity
     first: '2015-09-07'
@@ -89,49 +80,34 @@ chairs:
       subject: '[Nmlrg] Call for Agenda NMLRG @IETF94, Yokohama'
       url: https://mailarchive.ietf.org/arch/msg/nmlrg/6SBe1H6aUh_E0TxjHMIcnhuHbVE/
   - kind: minutes
-    listed_in: 4
-    first: '2014-07-20'
+    listed_in: 2
+    first: '2015-11-01'
     last: '2016-02-29'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/90/nmlrg.html
-    - date: '2015-07-19'
-      subject: IETF 93 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/93/nmlrg.html
+    - date: '2015-11-01'
+      subject: IETF 94 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/94/minutes/minutes-94-nmlrg.txt
     - date: '2016-02-29'
       subject: IETF 95 minutes in the proceedings
       url: https://www.ietf.org/proceedings/95/minutes/minutes-95-nmlrg.txt
   - kind: proceedings
     listed_in: 4
-    first: '2014-07-20'
+    first: '2015-09-09'
     last: '2016-02-29'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
+    - date: '2015-09-09'
+      subject: IETF 90 proceedings charter, as the datatracker generated it by 2015-09-09
       url: https://www.ietf.org/proceedings/90/nmlrg.html
-    - date: '2015-07-19'
-      subject: IETF 93 proceedings charter
+    - date: '2015-10-06'
+      subject: IETF 93 proceedings charter, as the datatracker generated it by 2015-10-06
       url: https://www.ietf.org/proceedings/93/nmlrg.html
     - date: '2016-02-29'
-      subject: IETF 95 proceedings charter
+      subject: IETF 95 proceedings charter, as the datatracker generated it by 2016-05-17
       url: https://www.ietf.org/proceedings/95/nmlrg.html
 - person: 121486
   name: Albert Cabellos
   status: confirmed
   periods:
-  - start:
-      certainty: between
-      not_before: '2015-07-19'
-      not_after: '2015-11-01'
-    end:
-      certainty: between
-      not_before: '2015-11-01'
-      not_after: '2016-02-29'
-    notes:
-    - 'Start: not listed among the chairs in meeting minutes (2015-07-19)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2015-11-01)'
-    - 'End: the group closed (2016-02-29)'
   - start:
       certainty: exact
       date: '2016-02-29'
@@ -154,16 +130,12 @@ chairs:
       url: https://www.ietf.org/proceedings/95/minutes/minutes-95-nmlrg.txt
   - kind: proceedings
     listed_in: 2
-    first: '2015-11-01'
+    first: '2016-02-29'
     last: '2016-02-29'
     examples:
-    - date: '2015-11-01'
-      subject: IETF 94 proceedings charter
+    - date: '2016-02-29'
+      subject: IETF 94 proceedings charter, as the datatracker generated it by 2016-03-18
       url: https://www.ietf.org/proceedings/94/nmlrg.html
     - date: '2016-02-29'
-      subject: IETF 95 proceedings charter
+      subject: IETF 95 proceedings charter, as the datatracker generated it by 2016-05-17
       url: https://www.ietf.org/proceedings/95/nmlrg.html
-  - kind: minutes without them
-    date: '2015-07-19'
-    subject: IETF 93 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/93/nmlrg.html

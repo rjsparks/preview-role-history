@@ -81,11 +81,11 @@ chairs:
       not_after: '1995-12-04'
     end:
       certainty: between
-      not_before: '2004-09-23'
+      not_before: '2006-06-25'
       not_after: '2006-07-09'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (1995-12-04)'
-    - 'End: named as chair in the WG Action announcement (2004-09-23)'
+    - 'End: started a last call or adoption call on the group''s list (2006-06-25)'
     - 'End: became an Area Director, first serving at IETF 66 (2006-07-09)'
   evidence:
   - kind: WG Action
@@ -96,6 +96,27 @@ chairs:
     date: '2004-09-23'
     subject: 'WG Action: RECHARTER: Ethernet Interfaces and Hub MIB (hubmib)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/x-AtpEovmOnSEnFqlz9ueiUldhU/
+  - kind: chair activity
+    first: '2001-11-25'
+    last: '2006-06-25'
+    messages: 25
+    examples:
+    - date: '2001-11-25'
+      subject: '[Hubmib] Proposed Agenda for the Join Meeting of the Hub MIB and AToM MIB WGs'
+      url: https://mailarchive.ietf.org/arch/msg/hubmib/FD44a-WzooQ8Y_SyO9UQinWRhIg/
+    - date: '2001-11-29'
+      subject: '[Hubmib] Agenda for the Joint Meeting of the Ethernet Interfaces and Hub MIB and AToM
+        MIB WGs in Salt Lake City'
+      url: https://mailarchive.ietf.org/arch/msg/hubmib/jgpMI6wiSNjcjYW5Gbeg9-esszE/
+    - date: '2002-09-25'
+      subject: '[Hubmib] WG Last Call - draft-ietf-hubmib-1643-to-historic-01.txt Completed'
+      url: https://mailarchive.ietf.org/arch/msg/hubmib/b8bYGSpWtHc8AqiVZTxqokAL4-w/
+    - date: '2002-12-23'
+      subject: '[Hubmib] WG Last Call - draft-ietf-hubmib-power-ethernet-mib-04.txt'
+      url: https://mailarchive.ietf.org/arch/msg/hubmib/-ApvLQayXEDV8u6eL4f5dG5XOvQ/
+    - date: '2004-04-07'
+      subject: '[Hubmib] Working Group Last Call'
+      url: https://mailarchive.ietf.org/arch/msg/hubmib/YHhHIWrjJr8Ch76V7pbdL_tZ9JM/
   - kind: minutes
     listed_in: 13
     first: '1997-04-07'
@@ -134,14 +155,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2006-07-09'
-      not_before: '1995-06-15'
+      certainty: announced
+      date: '2006-10-16'
     end:
       certainty: group-closed
       date: '2007-09-10'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2006-07-09)'
+    - 'Start: announced on the group''s list (2006-10-16)'
   evidence:
   - kind: list message
     date: '2006-10-16'
@@ -149,17 +169,25 @@ chairs:
     subject: '[Hubmib] wg chair change'
     url: https://mailarchive.ietf.org/arch/msg/hubmib/Cmx1DMOltVxsTzgC0F-hGG3C_RY/
     excerpt: The new chair of the WG is Bert Wijnen, who all of you know very well.
+  - kind: chair activity
+    first: '2006-10-17'
+    last: '2006-10-17'
+    messages: 1
+    examples:
+    - date: '2006-10-17'
+      subject: '[Hubmib] WGLC for: draft-ietf-hubmib-efm-cu-mib-06.txt'
+      url: https://mailarchive.ietf.org/arch/msg/hubmib/_duIVLnfQ5Hgdhn9EAuPXrvZ3sw/
   - kind: proceedings
-    listed_in: 4
-    first: '2006-07-09'
+    listed_in: 3
+    first: '2006-10-17'
     last: '2007-01-30'
     examples:
-    - date: '2006-07-09'
-      subject: IETF 66 proceedings charter
-      url: https://www.ietf.org/proceedings/66/hubmib.html
     - date: '2006-10-17'
-      subject: IETF 67 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/67/hubmib.html
+      subject: IETF 66 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/66/hubmib.html
+    - date: '2007-01-30'
+      subject: IETF 68 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/68/hubmib.html
     - date: '2007-01-30'
       subject: IETF 69 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/69/hubmib.html

@@ -54,8 +54,8 @@ chairs:
     - date: '2003-01-20'
       subject: IETF 56 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/56/167.htm
-    - date: '2003-07-13'
-      subject: IETF 57 proceedings charter
+    - date: '2003-08-26'
+      subject: IETF 57 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/57/180.htm
     - date: '2003-11-04'
       subject: IETF 58 proceedings charter, as last modified
@@ -212,13 +212,13 @@ chairs:
   - start:
       certainty: between
       not_before: '2005-07-31'
-      not_after: '2010-07-25'
+      not_after: '2010-09-13'
     end:
       certainty: exact
       date: '2013-02-21'
     notes:
     - 'Start: not listed among the chairs in meeting minutes (2005-07-31)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
+    - 'Start: started a last call or adoption call on the group''s list (2010-09-13)'
   evidence:
   - kind: datatracker record
     date: '2013-02-21'
@@ -247,11 +247,11 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/v6ops/Tgx4g5Y6AV32oAskfAzR_1Ioi-s/
   - kind: proceedings
     listed_in: 8
-    first: '2010-07-25'
+    first: '2010-09-14'
     last: '2013-02-13'
     examples:
-    - date: '2010-07-25'
-      subject: IETF 78 proceedings charter
+    - date: '2010-09-14'
+      subject: IETF 78 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/78/v6ops.html
     - date: '2011-05-03'
       subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
@@ -319,11 +319,11 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/v6ops/Px2PqQvTuBiHvFjqfOiAjZ-ruV8/
   - kind: proceedings
     listed_in: 2
-    first: '2016-11-13'
+    first: '2016-12-02'
     last: '2017-04-13'
     examples:
-    - date: '2016-11-13'
-      subject: IETF 97 proceedings charter, as the datatracker generated it by 2016-11-13
+    - date: '2016-12-02'
+      subject: IETF 97 proceedings charter, as the datatracker generated it by 2016-12-02
       url: https://www.ietf.org/proceedings/97/v6ops.html
     - date: '2017-04-13'
       subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-13
@@ -415,11 +415,11 @@ chairs:
       url: https://www.ietf.org/proceedings/62/minutes/v6ops.html
   - kind: proceedings
     listed_in: 6
-    first: '2003-07-13'
+    first: '2003-08-26'
     last: '2005-01-24'
     examples:
-    - date: '2003-07-13'
-      subject: IETF 57 proceedings charter
+    - date: '2003-08-26'
+      subject: IETF 57 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/57/180.htm
     - date: '2003-11-04'
       subject: IETF 58 proceedings charter, as last modified
@@ -562,13 +562,21 @@ chairs:
     says: end
     text: Chairs changed to Fred Baker, Lee Howard from Fred Baker, John Brzozowski
     url: https://datatracker.ietf.org/group/v6ops/history/
+  - kind: chair activity
+    first: '2013-08-06'
+    last: '2013-08-06'
+    messages: 1
+    examples:
+    - date: '2013-08-06'
+      subject: '[v6ops] IETF 87 v6ops meeting minutes'
+      url: https://mailarchive.ietf.org/arch/msg/v6ops/kR-fHSYrH7vLTngry2yKytXKz7Q/
   - kind: proceedings
     listed_in: 4
-    first: '2013-04-11'
+    first: '2013-04-12'
     last: '2014-04-25'
     examples:
-    - date: '2013-04-11'
-      subject: IETF 86 proceedings charter, as the datatracker generated it by 2013-04-11
+    - date: '2013-04-12'
+      subject: IETF 86 proceedings charter, as the datatracker generated it by 2013-04-12
       url: https://www.ietf.org/proceedings/86/v6ops.html
     - date: '2013-09-19'
       subject: IETF 87 proceedings charter, as the datatracker generated it by 2013-09-19
@@ -617,12 +625,15 @@ chairs:
     excerpt: Lee Howard has agreed to step into the role of V6ops WG co-chair.
   - kind: chair activity
     first: '2014-11-13'
-    last: '2014-11-13'
-    messages: 1
+    last: '2015-08-10'
+    messages: 2
     examples:
     - date: '2014-11-13'
       subject: '[v6ops] draft IETF91-v6ops minutes'
       url: https://mailarchive.ietf.org/arch/msg/v6ops/W1fkUK4O3m9rYSwteILRvUnu-A8/
+    - date: '2015-08-10'
+      subject: '[v6ops] minutes from v6ops IETF93'
+      url: https://mailarchive.ietf.org/arch/msg/v6ops/NPtMHd6ELiMOv9sXRbhQub4b_FY/
   - kind: minutes
     listed_in: 3
     first: '2015-11-01'
@@ -739,13 +750,13 @@ chairs:
   - kind: proceedings
     listed_in: 2
     first: '2003-01-20'
-    last: '2003-07-13'
+    last: '2003-08-26'
     examples:
     - date: '2003-01-20'
       subject: IETF 56 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/56/167.htm
-    - date: '2003-07-13'
-      subject: IETF 57 proceedings charter
+    - date: '2003-08-26'
+      subject: IETF 57 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/57/180.htm
   - kind: minutes without them
     date: '2003-11-04'

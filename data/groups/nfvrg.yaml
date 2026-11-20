@@ -14,39 +14,6 @@ became: null
 began_as: []
 history_url: https://datatracker.ietf.org/group/nfvrg/history/
 chairs:
-- person: 110785
-  name: Sarah Banks
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: between
-      not_before: '2015-11-01'
-      not_after: '2016-11-13'
-    end:
-      certainty: between
-      not_before: '2017-03-26'
-      not_after: '2018-11-19'
-    notes:
-    - 'Start: not listed among the chairs in meeting minutes (2015-11-01)'
-    - 'Start: listed as chair in meeting minutes (2016-11-13)'
-    - 'End: listed as chair in meeting minutes (2017-03-26)'
-    - 'End: the group closed (2018-11-19)'
-  evidence:
-  - kind: minutes
-    listed_in: 2
-    first: '2016-11-13'
-    last: '2017-03-26'
-    examples:
-    - date: '2016-11-13'
-      subject: IETF 97 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/97/nfvrg.html
-    - date: '2017-03-26'
-      subject: IETF 98 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/98/nfvrg.html
-  - kind: minutes without them
-    date: '2015-11-01'
-    subject: IETF 94 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/94/minutes/minutes-94-nfvrg.html
 - person: 112936
   name: Ramki Krishnan
   status: confirmed
@@ -75,26 +42,20 @@ chairs:
       subject: '[Nfvrg] Final Agenda for proposed NFVRG - IETF 91'
       url: https://mailarchive.ietf.org/arch/msg/nfvrg/YItewapa8pEGIy_F-Ev2s4gIi6I/
   - kind: minutes
-    listed_in: 9
-    first: '2014-07-20'
-    last: '2017-03-26'
+    listed_in: 1
+    first: '2015-11-01'
+    last: '2015-11-01'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/90/nfvrg.html
-    - date: '2014-11-09'
-      subject: IETF 91 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/91/nfvrg.html
-    - date: '2017-03-26'
-      subject: IETF 98 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/98/nfvrg.html
+    - date: '2015-11-01'
+      subject: IETF 94 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/94/minutes/minutes-94-nfvrg.html
   - kind: proceedings
     listed_in: 1
-    first: '2014-11-09'
-    last: '2014-11-09'
+    first: '2015-01-06'
+    last: '2015-01-06'
     examples:
-    - date: '2014-11-09'
-      subject: IETF 91 proceedings charter
+    - date: '2015-01-06'
+      subject: IETF 91 proceedings charter, as the datatracker generated it by 2015-01-06
       url: https://www.ietf.org/proceedings/91/nfvrg.html
 - person: 113084
   name: Diego Lopez
@@ -112,21 +73,13 @@ chairs:
     says: start
     text: Chairs changed to Diego Lopez, Dilip Krishnaswamy, ramki
     url: https://datatracker.ietf.org/group/nfvrg/history/
-  - kind: minutes
-    listed_in: 1
-    first: '2014-11-09'
-    last: '2014-11-09'
-    examples:
-    - date: '2014-11-09'
-      subject: IETF 91 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/91/nfvrg.html
   - kind: proceedings
     listed_in: 1
-    first: '2014-11-09'
-    last: '2014-11-09'
+    first: '2015-01-06'
+    last: '2015-01-06'
     examples:
-    - date: '2014-11-09'
-      subject: IETF 91 proceedings charter
+    - date: '2015-01-06'
+      subject: IETF 91 proceedings charter, as the datatracker generated it by 2015-01-06
       url: https://www.ietf.org/proceedings/91/nfvrg.html
 - person: 117843
   name: Dilip Krishnaswamy
@@ -138,18 +91,6 @@ chairs:
     end:
       certainty: exact
       date: '2015-01-20'
-  - start:
-      certainty: between
-      not_before: '2015-01-20'
-      not_after: '2015-07-19'
-    end:
-      certainty: between
-      not_before: '2016-07-17'
-      not_after: '2018-11-19'
-    notes:
-    - 'Start: listed as chair in meeting minutes (2015-07-19)'
-    - 'End: listed as chair in meeting minutes (2016-07-17)'
-    - 'End: the group closed (2018-11-19)'
   evidence:
   - kind: datatracker record
     date: '2014-10-06'
@@ -162,27 +103,13 @@ chairs:
     text: Chairs changed to Diego Lopez, Ram (Ramki) Krishnan from Diego Lopez, Dilip Krishnaswamy, Ram
       (Ramki) Krishnan
     url: https://datatracker.ietf.org/group/nfvrg/history/
-  - kind: minutes
-    listed_in: 6
-    first: '2014-07-20'
-    last: '2016-07-17'
-    examples:
-    - date: '2014-07-20'
-      subject: IETF 90 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/90/nfvrg.html
-    - date: '2014-11-09'
-      subject: IETF 91 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/91/nfvrg.html
-    - date: '2016-07-17'
-      subject: IETF 96 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/96/nfvrg.html
   - kind: proceedings
     listed_in: 1
-    first: '2014-11-09'
-    last: '2014-11-09'
+    first: '2015-01-06'
+    last: '2015-01-06'
     examples:
-    - date: '2014-11-09'
-      subject: IETF 91 proceedings charter
+    - date: '2015-01-06'
+      subject: IETF 91 proceedings charter, as the datatracker generated it by 2015-01-06
       url: https://www.ietf.org/proceedings/91/nfvrg.html
 - person: 117844
   name: Diego Lopez

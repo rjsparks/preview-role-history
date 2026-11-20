@@ -4,7 +4,7 @@ type: wg
 parent: tsv
 areas:
 - area: tsv
-  first: '2006-07-09'
+  first: '2006-08-28'
   last: '2011-12-09'
 state: bof-conc
 started: null
@@ -32,21 +32,18 @@ chairs:
       not_before: '2006-07-09'
       not_after: '2006-08-28'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2006-07-09)'
+    - 'Start: the BOF met at IETF 66 (2006-07-09)'
     - 'End: the BOF met at IETF 66 (2006-07-09)'
     - 'End: the group closed (2006-08-28)'
   evidence:
   - kind: proceedings
-    listed_in: 2
-    first: '2006-07-09'
+    listed_in: 1
+    first: '2006-08-28'
     last: '2006-08-28'
     examples:
-    - date: '2006-07-09'
-      subject: IETF 66 proceedings charter
-      url: https://www.ietf.org/proceedings/66/offpath.html
     - date: '2006-08-28'
-      subject: IETF 67 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/67/offpath.html
+      subject: IETF 66 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/66/offpath.html
   - kind: BOF session
     meeting: '66'
     date: '2006-07-09'
@@ -63,21 +60,18 @@ chairs:
       not_before: '2006-07-09'
       not_after: '2006-08-28'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2006-07-09)'
+    - 'Start: the BOF met at IETF 66 (2006-07-09)'
     - 'End: the BOF met at IETF 66 (2006-07-09)'
     - 'End: the group closed (2006-08-28)'
   evidence:
   - kind: proceedings
-    listed_in: 2
-    first: '2006-07-09'
+    listed_in: 1
+    first: '2006-08-28'
     last: '2006-08-28'
     examples:
-    - date: '2006-07-09'
-      subject: IETF 66 proceedings charter
-      url: https://www.ietf.org/proceedings/66/offpath.html
     - date: '2006-08-28'
-      subject: IETF 67 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/67/offpath.html
+      subject: IETF 66 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/66/offpath.html
   - kind: BOF session
     meeting: '66'
     date: '2006-07-09'

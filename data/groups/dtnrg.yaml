@@ -28,17 +28,21 @@ chairs:
     - 'Start: listed as chair in meeting minutes (2005-07-31)'
   evidence:
   - kind: chair activity
-    first: '2013-07-12'
+    first: '2009-03-17'
     last: '2013-07-12'
-    messages: 1
+    messages: 2
     examples:
+    - date: '2009-03-17'
+      subject: '[dtn-interest] proposed agenda for Google meeting - subject to discussion / change based
+        on interest'
+      url: https://mailarchive.ietf.org/arch/msg/dtn-interest/C4Kqr7_6Gmv0kCqDsKh4bwrUR7U/
     - date: '2013-07-12'
       subject: '[dtn-interest] draft DTNRG agenda for Berlin IETF meeting'
       url: https://mailarchive.ietf.org/arch/msg/dtn-interest/--j0NgZOGeUGdRD5PhfpZTsmfk4/
   - kind: minutes
-    listed_in: 10
+    listed_in: 2
     first: '2005-07-31'
-    last: '2015-11-01'
+    last: '2010-07-25'
     examples:
     - date: '2005-07-31'
       subject: IETF 63 minutes in the proceedings
@@ -46,13 +50,10 @@ chairs:
     - date: '2010-07-25'
       subject: IETF 78 minutes in the proceedings
       url: https://www.ietf.org/proceedings/78/minutes/DTNRG.txt
-    - date: '2015-11-01'
-      subject: IETF 94 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/94/dtnrg.html
   - kind: proceedings
     listed_in: 12
     first: '2012-05-15'
-    last: '2015-11-01'
+    last: '2016-03-18'
     examples:
     - date: '2012-05-15'
       subject: IETF 83 proceedings charter, as the datatracker generated it by 2012-05-15
@@ -60,8 +61,8 @@ chairs:
     - date: '2012-10-02'
       subject: IETF 84 proceedings charter, as the datatracker generated it by 2012-10-02
       url: https://www.ietf.org/proceedings/84/dtnrg.html
-    - date: '2015-11-01'
-      subject: IETF 94 proceedings charter
+    - date: '2016-03-18'
+      subject: IETF 94 proceedings charter, as the datatracker generated it by 2016-03-18
       url: https://www.ietf.org/proceedings/94/dtnrg.html
   - kind: session requests
     meetings:
@@ -92,24 +93,10 @@ chairs:
     - date: '2011-07-19'
       subject: '[dtn-interest] Draft agenda for the DTNRG meeting at IETF 81'
       url: https://mailarchive.ietf.org/arch/msg/dtn-interest/8jaAywbBkRCfKXtF8Fz6w9snEKE/
-  - kind: minutes
-    listed_in: 8
-    first: '2013-07-28'
-    last: '2015-11-01'
-    examples:
-    - date: '2013-07-28'
-      subject: IETF 87 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/87/dtnrg.html
-    - date: '2013-11-03'
-      subject: IETF 88 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/88/dtnrg.html
-    - date: '2015-11-01'
-      subject: IETF 94 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/94/dtnrg.html
   - kind: proceedings
     listed_in: 12
     first: '2012-05-15'
-    last: '2015-11-01'
+    last: '2016-03-18'
     examples:
     - date: '2012-05-15'
       subject: IETF 83 proceedings charter, as the datatracker generated it by 2012-05-15
@@ -117,8 +104,8 @@ chairs:
     - date: '2012-10-02'
       subject: IETF 84 proceedings charter, as the datatracker generated it by 2012-10-02
       url: https://www.ietf.org/proceedings/84/dtnrg.html
-    - date: '2015-11-01'
-      subject: IETF 94 proceedings charter
+    - date: '2016-03-18'
+      subject: IETF 94 proceedings charter, as the datatracker generated it by 2016-03-18
       url: https://www.ietf.org/proceedings/94/dtnrg.html
   - kind: minutes without them
     date: '2010-07-25'
@@ -162,23 +149,17 @@ chairs:
       subject: '[dtn-interest] Agenda for IETF-67'
       url: https://mailarchive.ietf.org/arch/msg/dtn-interest/YrumQQEIk_K6xpxy5MHFxIbAUt8/
   - kind: minutes
-    listed_in: 5
+    listed_in: 1
     first: '2010-07-25'
-    last: '2014-11-09'
+    last: '2010-07-25'
     examples:
     - date: '2010-07-25'
       subject: IETF 78 minutes in the proceedings
       url: https://www.ietf.org/proceedings/78/minutes/DTNRG.txt
-    - date: '2013-07-28'
-      subject: IETF 87 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/87/dtnrg.html
-    - date: '2014-11-09'
-      subject: IETF 91 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/91/dtnrg.html
   - kind: proceedings
     listed_in: 8
     first: '2012-05-15'
-    last: '2014-11-09'
+    last: '2015-01-06'
     examples:
     - date: '2012-05-15'
       subject: IETF 83 proceedings charter, as the datatracker generated it by 2012-05-15
@@ -186,8 +167,8 @@ chairs:
     - date: '2012-10-02'
       subject: IETF 84 proceedings charter, as the datatracker generated it by 2012-10-02
       url: https://www.ietf.org/proceedings/84/dtnrg.html
-    - date: '2014-11-09'
-      subject: IETF 91 proceedings charter
+    - date: '2015-01-06'
+      subject: IETF 91 proceedings charter, as the datatracker generated it by 2015-01-06
       url: https://www.ietf.org/proceedings/91/dtnrg.html
   - kind: session requests
     meetings:

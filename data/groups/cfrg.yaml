@@ -28,10 +28,9 @@ chairs:
     end:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2013-07-28'
+      not_after: '2014-11-13'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2004-06-07)'
-    - 'End: not listed among the chairs in meeting minutes (2013-07-28)'
   evidence:
   - kind: proceedings
     listed_in: 2
@@ -44,22 +43,17 @@ chairs:
     - date: '2004-11-11'
       subject: IETF 62 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/62/cfrg.html
-  - kind: minutes without them
-    date: '2013-07-28'
-    subject: IETF 87 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/87/cfrg.html
 - person: 102154
   name: Alexey Melnikov
   status: confirmed
   periods:
   - start:
       certainty: between
-      not_before: '2014-03-02'
+      not_before: '2011-12-09'
       not_after: '2014-07-14'
     end:
       certainty: ongoing
     notes:
-    - 'Start: not listed among the chairs in meeting minutes (2014-03-02)'
     - 'Start: posted an agenda, minutes or interim notice to the group''s list (2014-07-14)'
   evidence:
   - kind: chair activity
@@ -83,37 +77,30 @@ chairs:
       subject: '[Cfrg] Adoption call for draft-harkins-pkex-05'
       url: https://mailarchive.ietf.org/arch/msg/cfrg/wzsM3G6KowSQarby9GjPmOpBv7o/
   - kind: minutes
-    listed_in: 8
-    first: '2014-07-20'
-    last: '2016-11-13'
+    listed_in: 2
+    first: '2016-04-03'
+    last: '2016-07-17'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/90/cfrg.html
-    - date: '2014-11-09'
-      subject: IETF 91 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/91/cfrg.html
-    - date: '2016-11-13'
-      subject: IETF 97 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/97/cfrg.html
+    - date: '2016-04-03'
+      subject: IETF 95 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/95/minutes/minutes-95-cfrg.txt
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/minutes/minutes-96-cfrg.txt
   - kind: proceedings
     listed_in: 8
-    first: '2014-07-20'
-    last: '2016-11-13'
+    first: '2015-01-06'
+    last: '2016-12-02'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
-      url: https://www.ietf.org/proceedings/90/cfrg.html
-    - date: '2014-11-09'
-      subject: IETF 91 proceedings charter
+    - date: '2015-01-06'
+      subject: IETF 91 proceedings charter, as the datatracker generated it by 2015-01-06
       url: https://www.ietf.org/proceedings/91/cfrg.html
-    - date: '2016-11-13'
-      subject: IETF 97 proceedings charter
+    - date: '2015-05-07'
+      subject: IETF 92 proceedings charter, as the datatracker generated it by 2015-05-07
+      url: https://www.ietf.org/proceedings/92/cfrg.html
+    - date: '2016-12-02'
+      subject: IETF 97 proceedings charter, as the datatracker generated it by 2016-12-02
       url: https://www.ietf.org/proceedings/97/cfrg.html
-  - kind: minutes without them
-    date: '2014-03-02'
-    subject: IETF 89 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/89/cfrg.html
   - kind: shepherded
     documents:
     - draft-irtf-cfrg-aead-properties
@@ -163,24 +150,10 @@ chairs:
     - date: '2012-03-23'
       subject: '[Cfrg] agenda for meeting at IETF 83'
       url: https://mailarchive.ietf.org/arch/msg/cfrg/I54bLoQHaghPVVfj0Yiov3QQj14/
-  - kind: minutes
-    listed_in: 3
-    first: '2013-07-28'
-    last: '2014-03-02'
-    examples:
-    - date: '2013-07-28'
-      subject: IETF 87 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/87/cfrg.html
-    - date: '2013-11-03'
-      subject: IETF 88 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/88/cfrg.html
-    - date: '2014-03-02'
-      subject: IETF 89 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/89/cfrg.html
   - kind: proceedings
     listed_in: 9
     first: '2004-06-07'
-    last: '2014-03-02'
+    last: '2014-04-25'
     examples:
     - date: '2004-06-07'
       subject: IETF 61 proceedings charter, as last modified
@@ -188,8 +161,8 @@ chairs:
     - date: '2004-11-11'
       subject: IETF 62 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/62/cfrg.html
-    - date: '2014-03-02'
-      subject: IETF 89 proceedings charter
+    - date: '2014-04-25'
+      subject: IETF 89 proceedings charter, as the datatracker generated it by 2014-04-25
       url: https://www.ietf.org/proceedings/89/cfrg.html
   - kind: shepherded
     documents:
@@ -211,24 +184,24 @@ chairs:
     says: end
     text: Chairs changed to Alexey Melnikov, Kenny Paterson from Kenny Paterson, Kevin Igoe, Alexey Melnikov
     url: https://datatracker.ietf.org/group/cfrg/history/
-  - kind: minutes
-    listed_in: 5
-    first: '2013-07-28'
-    last: '2015-03-22'
-    examples:
-    - date: '2013-07-28'
-      subject: IETF 87 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/87/cfrg.html
-    - date: '2013-11-03'
-      subject: IETF 88 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/88/cfrg.html
-    - date: '2015-03-22'
-      subject: IETF 92 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/92/cfrg.html
+  - kind: list message
+    date: '2014-05-14'
+    says: end
+    subject: '[Cfrg] Looking for two new CFRG co-chairs'
+    url: https://mailarchive.ietf.org/arch/msg/cfrg/XLvmnRFJlwmkzU6CH0Dgy7xTHlI/
+    excerpt: The CFRG's other current co-chair, Kevin Igoe, is retiring in 2015 and will then also step
+      down.
+  - kind: list message
+    date: '2014-06-02'
+    says: end
+    subject: '[Cfrg] New co-chairs selected'
+    url: https://mailarchive.ietf.org/arch/msg/cfrg/W_bUWmPdzMiG95Jwbdx1j3wn2BY/
+    excerpt: As announced earlier, David will step down (thank you again, David) and Kevin will work with
+      the two new chairs until he retires next year.
   - kind: proceedings
     listed_in: 9
     first: '2012-05-15'
-    last: '2015-03-22'
+    last: '2015-05-07'
     examples:
     - date: '2012-05-15'
       subject: IETF 83 proceedings charter, as the datatracker generated it by 2012-05-15
@@ -236,8 +209,8 @@ chairs:
     - date: '2012-10-02'
       subject: IETF 84 proceedings charter, as the datatracker generated it by 2012-10-02
       url: https://www.ietf.org/proceedings/84/cfrg.html
-    - date: '2015-03-22'
-      subject: IETF 92 proceedings charter
+    - date: '2015-05-07'
+      subject: IETF 92 proceedings charter, as the datatracker generated it by 2015-05-07
       url: https://www.ietf.org/proceedings/92/cfrg.html
 - person: 113609
   name: Kenny Paterson
@@ -245,14 +218,11 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2014-03-02'
-      not_after: '2014-07-20'
+      not_before: '2011-12-09'
+      not_after: '2014-11-13'
     end:
       certainty: exact
       date: '2020-01-14'
-    notes:
-    - 'Start: not listed among the chairs in meeting minutes (2014-03-02)'
-    - 'Start: listed as chair in meeting minutes (2014-07-20)'
   evidence:
   - kind: datatracker record
     date: '2020-01-14'
@@ -261,51 +231,50 @@ chairs:
       Kenny Paterson, Nick Sullivan
     url: https://datatracker.ietf.org/group/cfrg/history/
   - kind: chair activity
-    first: '2019-04-26'
+    first: '2015-07-22'
     last: '2019-09-06'
-    messages: 4
+    messages: 13
     examples:
+    - date: '2015-07-22'
+      subject: '[Cfrg] Draft minutes for CFRG@IETF93 available'
+      url: https://mailarchive.ietf.org/arch/msg/cfrg/4ul7VX2PkI9m5JYeVxwtaK4Edm8/
+    - date: '2016-05-10'
+      subject: '[Cfrg] Agenda for meeting at EuroCrypt 2016'
+      url: https://mailarchive.ietf.org/arch/msg/cfrg/EBQm3iXvb8i9VDnAOy1xFwVXE_s/
+    - date: '2018-11-20'
+      subject: '[Cfrg] Adoption call for draft-arciszewski-xchacha'
+      url: https://mailarchive.ietf.org/arch/msg/cfrg/EoxcQiXgi0-f-IQod__wpbVgKrs/
     - date: '2019-04-26'
       subject: '[Cfrg] Adoption call for draft-boneh-bls-signature'
       url: https://mailarchive.ietf.org/arch/msg/cfrg/awJwF7vb61BBOraEQHIMKG_slaM/
     - date: '2019-04-26'
       subject: '[Cfrg] Adoption call for draft-barnes-cfrg-hpke'
       url: https://mailarchive.ietf.org/arch/msg/cfrg/W1uz8OfSh-_IEX3A5583a-dGAsE/
-    - date: '2019-05-07'
-      subject: '[Cfrg] Adoption call for draft-sullivan-cfrg-voprf'
-      url: https://mailarchive.ietf.org/arch/msg/cfrg/F49EPSwfZLTfXQ9B1PhhJGlzekk/
   - kind: minutes
-    listed_in: 8
-    first: '2014-07-20'
-    last: '2016-11-13'
+    listed_in: 2
+    first: '2016-04-03'
+    last: '2016-07-17'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/90/cfrg.html
-    - date: '2014-11-09'
-      subject: IETF 91 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/91/cfrg.html
-    - date: '2016-11-13'
-      subject: IETF 97 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/97/cfrg.html
+    - date: '2016-04-03'
+      subject: IETF 95 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/95/minutes/minutes-95-cfrg.txt
+    - date: '2016-07-17'
+      subject: IETF 96 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/96/minutes/minutes-96-cfrg.txt
   - kind: proceedings
     listed_in: 8
-    first: '2014-07-20'
-    last: '2016-11-13'
+    first: '2015-01-06'
+    last: '2016-12-02'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
-      url: https://www.ietf.org/proceedings/90/cfrg.html
-    - date: '2014-11-09'
-      subject: IETF 91 proceedings charter
+    - date: '2015-01-06'
+      subject: IETF 91 proceedings charter, as the datatracker generated it by 2015-01-06
       url: https://www.ietf.org/proceedings/91/cfrg.html
-    - date: '2016-11-13'
-      subject: IETF 97 proceedings charter
+    - date: '2015-05-07'
+      subject: IETF 92 proceedings charter, as the datatracker generated it by 2015-05-07
+      url: https://www.ietf.org/proceedings/92/cfrg.html
+    - date: '2016-12-02'
+      subject: IETF 97 proceedings charter, as the datatracker generated it by 2016-12-02
       url: https://www.ietf.org/proceedings/97/cfrg.html
-  - kind: minutes without them
-    date: '2014-03-02'
-    subject: IETF 89 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/89/cfrg.html
   - kind: shepherded
     documents:
     - draft-irtf-cfrg-gcmsiv

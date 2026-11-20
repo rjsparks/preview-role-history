@@ -4,7 +4,7 @@ type: wg
 parent: art
 areas:
 - area: rai
-  first: '2009-07-26'
+  first: '2009-09-29'
   last: '2015-03-26'
 - area: art
   first: '2015-05-29'
@@ -96,14 +96,16 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '2009-11-08'
+      certainty: between
+      not_before: '2009-11-08'
+      not_after: '2010-01-26'
     end:
       certainty: between
       not_before: '2010-11-07'
       not_after: '2018-09-20'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2009-11-08)'
+    - 'Start: not listed among the chairs in meeting minutes (2009-11-08)'
+    - 'Start: named as chair in the WG Action announcement (2010-01-26)'
     - 'End: listed as chair in meeting minutes (2010-11-07)'
     - 'End: the group closed (2018-09-20)'
   evidence:
@@ -132,15 +134,19 @@ chairs:
       url: https://www.ietf.org/proceedings/79/minutes/codec.txt
   - kind: proceedings
     listed_in: 2
-    first: '2009-11-08'
+    first: '2010-01-26'
     last: '2010-04-01'
     examples:
-    - date: '2009-11-08'
-      subject: IETF 76 proceedings charter
+    - date: '2010-01-26'
+      subject: IETF 76 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/76/codec.html
     - date: '2010-04-01'
       subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/codec.html
+  - kind: minutes without them
+    date: '2009-11-08'
+    subject: '[codec] updated minutes from IETF 76'
+    url: https://mailarchive.ietf.org/arch/msg/codec/xDhiifcdLtPG1cZfk-zXiDE5rzg/
 - person: 104196
   name: Eric Burger
   status: unconfirmed
@@ -250,13 +256,13 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2009-07-26'
+      not_after: '2009-09-04'
     end:
       certainty: between
       not_before: '2010-03-21'
       not_after: '2010-04-01'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2009-07-26)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2009-09-04)'
     - 'End: requested the group''s session for IETF 77 (2010-03-21)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2010-04-01)'
   evidence:
@@ -291,14 +297,14 @@ chairs:
       url: https://www.ietf.org/proceedings/77/minutes/codec.html
   - kind: proceedings
     listed_in: 2
-    first: '2009-07-26'
-    last: '2009-11-08'
+    first: '2009-09-29'
+    last: '2010-01-26'
     examples:
-    - date: '2009-07-26'
-      subject: IETF 75 proceedings charter
+    - date: '2009-09-29'
+      subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/codec.html
-    - date: '2009-11-08'
-      subject: IETF 76 proceedings charter
+    - date: '2010-01-26'
+      subject: IETF 76 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/76/codec.html
   - kind: minutes without them
     date: '2010-04-01'

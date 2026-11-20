@@ -4,7 +4,7 @@ type: wg
 parent: sec
 areas:
 - area: sec
-  first: '2010-07-25'
+  first: '2010-12-10'
   last: '2017-03-21'
 state: conclude
 started: '2010-11-22'
@@ -80,39 +80,40 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2010-07-25'
+      not_after: '2010-12-10'
     end:
       certainty: between
-      not_before: '2010-07-25'
-      not_after: '2010-12-10'
+      not_before: '2010-12-10'
+      not_after: '2011-03-27'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
-    - 'End: not named among the chairs in the WG Action that chartered the group (2010-12-10)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-12-10)'
+    - 'End: not listed among the chairs in meeting minutes (2011-03-27)'
   evidence:
   - kind: proceedings
     listed_in: 1
-    first: '2010-07-25'
-    last: '2010-07-25'
+    first: '2010-12-10'
+    last: '2010-12-10'
     examples:
-    - date: '2010-07-25'
-      subject: IETF 78 proceedings charter
+    - date: '2010-12-10'
+      subject: IETF 78 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/78/dane.html
-  - kind: chartering announcement without them
-    date: '2010-12-10'
-    subject: 'WG Action: DNS-based Authentication of Named Entities (dane)'
-    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/snqpuK_JeTMTlwgVxCQtFoJgJhY/
+  - kind: minutes without them
+    date: '2011-03-27'
+    subject: IETF 80 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/80/minutes/dane.txt
 - person: 110414
   name: Ondřej Surý
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-07-25'
+      certainty: between
+      not_before: '2010-11-22'
+      not_after: '2010-12-10'
     end:
       certainty: exact
       date: '2014-03-06'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
+    - 'Start: named as chair in the WG Action announcement (2010-12-10)'
   evidence:
   - kind: datatracker record
     date: '2014-03-06'
@@ -151,11 +152,11 @@ chairs:
       url: https://www.ietf.org/proceedings/87/minutes/minutes-87-dane.txt
   - kind: proceedings
     listed_in: 5
-    first: '2010-07-25'
+    first: '2010-12-10'
     last: '2012-02-01'
     examples:
-    - date: '2010-07-25'
-      subject: IETF 78 proceedings charter
+    - date: '2010-12-10'
+      subject: IETF 78 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/78/dane.html
     - date: '2011-05-03'
       subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
@@ -173,12 +174,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-07-25'
+      date: '2010-10-27'
     end:
       certainty: group-closed
       date: '2017-03-21'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2010-10-27)'
   evidence:
   - kind: WG Action
     date: '2010-12-10'
@@ -224,11 +225,11 @@ chairs:
       url: https://www.ietf.org/proceedings/89/minutes/minutes-89-dane.txt
   - kind: proceedings
     listed_in: 5
-    first: '2010-07-25'
+    first: '2010-12-10'
     last: '2012-02-01'
     examples:
-    - date: '2010-07-25'
-      subject: IETF 78 proceedings charter
+    - date: '2010-12-10'
+      subject: IETF 78 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/78/dane.html
     - date: '2011-05-03'
       subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03

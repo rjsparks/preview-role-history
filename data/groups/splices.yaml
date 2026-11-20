@@ -4,7 +4,7 @@ type: wg
 parent: rai
 areas:
 - area: rai
-  first: '2010-03-21'
+  first: '2010-07-19'
   last: '2012-01-25'
 state: conclude
 started: '2010-06-10'
@@ -22,13 +22,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-03-21'
+      certainty: between
+      not_before: '2010-06-10'
+      not_after: '2010-07-19'
     end:
       certainty: group-closed
       date: '2012-01-25'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-03-21)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-07-19)'
   evidence:
   - kind: chair activity
     first: '2011-04-14'
@@ -42,16 +43,16 @@ chairs:
       subject: '[splices] Provisional agenda for SPLICES'
       url: https://mailarchive.ietf.org/arch/msg/splices/zyjlZBVVaW1o6mj298aoHAJqOrw/
   - kind: proceedings
-    listed_in: 6
-    first: '2010-03-21'
+    listed_in: 5
+    first: '2010-07-19'
     last: '2012-01-25'
     examples:
-    - date: '2010-03-21'
-      subject: IETF 77 proceedings charter
-      url: https://www.ietf.org/proceedings/77/splices.html
     - date: '2010-07-19'
-      subject: IETF 78 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/78/splices.html
+      subject: IETF 77 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/77/splices.html
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
+      url: https://www.ietf.org/proceedings/79/splices.html
     - date: '2012-01-25'
       subject: IETF 82 proceedings charter, as the datatracker generated it by 2012-02-01
       url: https://www.ietf.org/proceedings/82/splices.html

@@ -29,12 +29,10 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2014-07-20'
+      date: '2015-01-23'
     end:
       certainty: exact
       date: '2021-05-06'
-    notes:
-    - 'Start: listed as chair in meeting minutes (2014-07-20)'
   evidence:
   - kind: datatracker record
     date: '2021-05-06'
@@ -49,33 +47,19 @@ chairs:
     - date: '2018-06-13'
       subject: '[hrpc] Draft Agenda'
       url: https://mailarchive.ietf.org/arch/msg/hrpc/9qIuvBusLLNBLItN8DkvEQNu2Wo/
-  - kind: minutes
-    listed_in: 8
-    first: '2014-07-20'
-    last: '2017-03-26'
-    examples:
-    - date: '2014-07-20'
-      subject: IETF 90 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/90/hrpc.html
-    - date: '2015-03-22'
-      subject: IETF 92 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/92/hrpc.html
-    - date: '2017-03-26'
-      subject: IETF 98 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/98/hrpc.html
   - kind: proceedings
     listed_in: 8
-    first: '2014-07-20'
-    last: '2017-03-26'
+    first: '2015-05-07'
+    last: '2017-04-12'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
-      url: https://www.ietf.org/proceedings/90/hrpc.html
-    - date: '2015-03-22'
-      subject: IETF 92 proceedings charter
+    - date: '2015-05-07'
+      subject: IETF 92 proceedings charter, as the datatracker generated it by 2015-05-07
       url: https://www.ietf.org/proceedings/92/hrpc.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2015-09-09'
+      subject: IETF 90 proceedings charter, as the datatracker generated it by 2015-09-09
+      url: https://www.ietf.org/proceedings/90/hrpc.html
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/hrpc.html
 - person: 116736
   name: Niels ten Oever
@@ -83,12 +67,10 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2014-07-20'
+      date: '2015-01-23'
     end:
       certainty: exact
       date: '2018-04-17'
-    notes:
-    - 'Start: listed as chair in meeting minutes (2014-07-20)'
   evidence:
   - kind: datatracker record
     date: '2018-04-17'
@@ -113,33 +95,19 @@ chairs:
     - date: '2015-06-20'
       subject: '[hrpc] minutes of interim meeting June 8 2015'
       url: https://mailarchive.ietf.org/arch/msg/hrpc/SjG_4GnlbnHTKcgXmevg8g_Jl0o/
-  - kind: minutes
-    listed_in: 8
-    first: '2014-07-20'
-    last: '2017-03-26'
-    examples:
-    - date: '2014-07-20'
-      subject: IETF 90 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/90/hrpc.html
-    - date: '2015-03-22'
-      subject: IETF 92 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/92/hrpc.html
-    - date: '2017-03-26'
-      subject: IETF 98 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/98/hrpc.html
   - kind: proceedings
     listed_in: 8
-    first: '2014-07-20'
-    last: '2017-03-26'
+    first: '2015-05-07'
+    last: '2017-04-12'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
-      url: https://www.ietf.org/proceedings/90/hrpc.html
-    - date: '2015-03-22'
-      subject: IETF 92 proceedings charter
+    - date: '2015-05-07'
+      subject: IETF 92 proceedings charter, as the datatracker generated it by 2015-05-07
       url: https://www.ietf.org/proceedings/92/hrpc.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2015-09-09'
+      subject: IETF 90 proceedings charter, as the datatracker generated it by 2015-09-09
+      url: https://www.ietf.org/proceedings/90/hrpc.html
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/hrpc.html
 - person: 124328
   name: Mallory Knodel

@@ -4,7 +4,7 @@ type: wg
 parent: int
 areas:
 - area: int
-  first: '2005-03-06'
+  first: '2005-07-22'
   last: '2007-11-20'
 state: conclude
 started: '2005-06-01'
@@ -25,13 +25,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2005-03-06'
+      certainty: between
+      not_before: '2005-06-01'
+      not_after: '2005-07-22'
     end:
       certainty: group-closed
       date: '2007-11-20'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2005-03-06)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2005-07-22)'
   evidence:
   - kind: minutes
     listed_in: 4
@@ -48,16 +49,16 @@ chairs:
       subject: IETF 69 minutes in the proceedings
       url: https://www.ietf.org/proceedings/69/minutes/monami6.txt
   - kind: proceedings
-    listed_in: 5
-    first: '2005-03-06'
+    listed_in: 4
+    first: '2005-07-22'
     last: '2006-12-27'
     examples:
-    - date: '2005-03-06'
-      subject: IETF 62 proceedings charter
-      url: https://www.ietf.org/proceedings/62/monami6.html
     - date: '2005-07-22'
-      subject: IETF 63 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/63/monami6.html
+      subject: IETF 62 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/62/monami6.html
+    - date: '2005-10-20'
+      subject: IETF 64 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/64/monami6.html
     - date: '2006-12-27'
       subject: IETF 68 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/68/monami6.html
@@ -72,13 +73,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2005-03-06'
+      certainty: between
+      not_before: '2005-06-01'
+      not_after: '2005-07-22'
     end:
       certainty: group-closed
       date: '2007-11-20'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2005-03-06)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2005-07-22)'
   evidence:
   - kind: chair activity
     first: '2006-07-26'
@@ -106,16 +108,16 @@ chairs:
       subject: IETF 69 minutes in the proceedings
       url: https://www.ietf.org/proceedings/69/minutes/monami6.txt
   - kind: proceedings
-    listed_in: 5
-    first: '2005-03-06'
+    listed_in: 4
+    first: '2005-07-22'
     last: '2006-12-27'
     examples:
-    - date: '2005-03-06'
-      subject: IETF 62 proceedings charter
-      url: https://www.ietf.org/proceedings/62/monami6.html
     - date: '2005-07-22'
-      subject: IETF 63 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/63/monami6.html
+      subject: IETF 62 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/62/monami6.html
+    - date: '2005-10-20'
+      subject: IETF 64 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/64/monami6.html
     - date: '2006-12-27'
       subject: IETF 68 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/68/monami6.html

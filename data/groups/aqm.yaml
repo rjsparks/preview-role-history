@@ -70,13 +70,10 @@ chairs:
       subject: '[aqm] agenda for IETF 92 / Dallas'
       url: https://mailarchive.ietf.org/arch/msg/aqm/rVQEu5kt_egr0aDdteqka3PsQE0/
   - kind: minutes
-    listed_in: 2
-    first: '2013-11-03'
+    listed_in: 1
+    first: '2015-03-22'
     last: '2015-03-22'
     examples:
-    - date: '2013-11-03'
-      subject: IETF 88 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/88/minutes/minutes-88-aqm.txt
     - date: '2015-03-22'
       subject: IETF 92 minutes in the proceedings
       url: https://www.ietf.org/proceedings/92/minutes/minutes-92-aqm.txt
@@ -114,10 +111,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2013-06-20'
-      not_after: '2013-08-08'
+      not_after: '2013-07-31'
     end:
       certainty: approximate
       date: '2013-08-08'
+    notes:
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2013-07-31)'
   - start:
       certainty: exact
       date: '2013-09-24'
@@ -134,6 +133,20 @@ chairs:
     date: '2013-09-27'
     subject: 'WG Action: Formed Active Queue Management and Packet Scheduling (aqm)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/XrpZqLdq2VP6VVCwRIbuxEqrPZQ/
+  - kind: chair activity
+    first: '2013-07-31'
+    last: '2015-07-23'
+    messages: 10
+    examples:
+    - date: '2013-07-31'
+      subject: '[aqm] Draft AQM BoF minutes'
+      url: https://mailarchive.ietf.org/arch/msg/aqm/YES54FwPWDrYxELHCaHEp0W-kZE/
+    - date: '2013-11-18'
+      subject: '[aqm] Draft minutes for the Vancouver meeting'
+      url: https://mailarchive.ietf.org/arch/msg/aqm/FBMnH2CbxgqYU_VnnNNd9OfMvBI/
+    - date: '2015-03-31'
+      subject: '[aqm] WGLC for draft-ietf-aqm-fq-implementation'
+      url: https://mailarchive.ietf.org/arch/msg/aqm/u9czu5q3fE7RLN0vtB7vZqx8SK8/
   - kind: minutes
     listed_in: 2
     first: '2013-11-03'

@@ -73,24 +73,32 @@ chairs:
     text: Chairs changed to Gonzalo Camarillo, Jon Peterson, Leslie Daigle from Gonzalo Camarillo, Leslie
       Daigle
     url: https://datatracker.ietf.org/group/iasa20/history/
+  - kind: chair activity
+    first: '2017-07-09'
+    last: '2018-03-13'
+    messages: 3
+    examples:
+    - date: '2017-07-09'
+      subject: '[Iasa20] agenda for prague'
+      url: https://mailarchive.ietf.org/arch/msg/iasa20/VZQN_Zbh2LljOsrkZ42myP447lA/
+    - date: '2017-11-06'
+      subject: '[Iasa20] agenda for singapore'
+      url: https://mailarchive.ietf.org/arch/msg/iasa20/eM-bCW-WrsMM0xTG021f8tomCqw/
   - kind: minutes
-    listed_in: 2
-    first: '2017-03-26'
+    listed_in: 1
+    first: '2017-11-11'
     last: '2017-11-11'
     examples:
-    - date: '2017-03-26'
-      subject: IETF 98 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/98/iasa20.html
     - date: '2017-11-11'
       subject: '[Iasa20] Raw minutes'
       url: https://mailarchive.ietf.org/arch/msg/iasa20/xIGHtXpJL6F5veMgv1giChAJc2U/
   - kind: proceedings
     listed_in: 1
-    first: '2017-03-26'
-    last: '2017-03-26'
+    first: '2017-04-12'
+    last: '2017-04-12'
     examples:
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/iasa20.html
   - kind: BOF session
     meeting: '98'

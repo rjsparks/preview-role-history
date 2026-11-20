@@ -4,7 +4,7 @@ type: wg
 parent: sec
 areas:
 - area: sec
-  first: '2005-03-06'
+  first: '2005-06-27'
   last: '2011-12-09'
 state: conclude
 started: null
@@ -26,13 +26,24 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-03-06'
+      date: '2005-06-27'
     end:
       certainty: group-closed
       date: '2006-01-26'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2005-03-06)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2005-06-27)'
   evidence:
+  - kind: chair activity
+    first: '2005-08-15'
+    last: '2005-12-06'
+    messages: 2
+    examples:
+    - date: '2005-08-15'
+      subject: '[SECMECH] Preliminary meeting minutes for Secmech BOF'
+      url: https://mailarchive.ietf.org/arch/msg/secmech/-nAF35avvPxGRXJeTMNj1stAnvk/
+    - date: '2005-12-06'
+      subject: '[SECMECH] Minutes from the EMU BOF'
+      url: https://mailarchive.ietf.org/arch/msg/secmech/ASZK1yessQDdr3OnHHaK73O3e2s/
   - kind: minutes
     listed_in: 2
     first: '2005-07-31'
@@ -45,13 +56,10 @@ chairs:
       subject: IETF 63 minutes in the proceedings
       url: https://www.ietf.org/proceedings/63/minutes/secmech.html
   - kind: proceedings
-    listed_in: 2
-    first: '2005-03-06'
+    listed_in: 1
+    first: '2005-06-27'
     last: '2005-06-27'
     examples:
-    - date: '2005-03-06'
-      subject: IETF 62 proceedings charter
-      url: https://www.ietf.org/proceedings/62/secmech.html
     - date: '2005-06-27'
-      subject: IETF 63 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/63/secmech.html
+      subject: IETF 62 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/62/secmech.html

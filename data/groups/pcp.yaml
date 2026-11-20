@@ -4,7 +4,7 @@ type: wg
 parent: int
 areas:
 - area: int
-  first: '2010-07-25'
+  first: '2010-08-31'
   last: '2017-11-13'
 state: conclude
 started: '2010-07-09'
@@ -24,12 +24,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2010-07-09'
-      not_after: '2010-07-25'
+      not_after: '2010-08-31'
     end:
       certainty: group-closed
       date: '2017-11-13'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
+    - 'Start: named as chair in the WG Action announcement (2010-08-31)'
   evidence:
   - kind: WG Action
     date: '2010-08-31'
@@ -70,16 +70,16 @@ chairs:
       subject: IETF 88 minutes in the proceedings
       url: https://www.ietf.org/proceedings/88/minutes/minutes-88-pcp.txt
   - kind: proceedings
-    listed_in: 20
-    first: '2010-07-25'
+    listed_in: 19
+    first: '2010-08-31'
     last: '2016-09-08'
     examples:
-    - date: '2010-07-25'
-      subject: IETF 78 proceedings charter
-      url: https://www.ietf.org/proceedings/78/ipcp.html
     - date: '2010-08-31'
-      subject: IETF 79 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/79/ipcp.html
+      subject: IETF 78 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/78/ipcp.html
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
+      url: https://www.ietf.org/proceedings/79/pcp.html
     - date: '2016-09-08'
       subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
       url: https://www.ietf.org/proceedings/96/pcp.html
@@ -151,8 +151,8 @@ chairs:
     - date: '2013-02-13'
       subject: IETF 85 proceedings charter, as the datatracker generated it by 2013-02-13
       url: https://www.ietf.org/proceedings/85/pcp.html
-    - date: '2013-04-11'
-      subject: IETF 86 proceedings charter, as the datatracker generated it by 2013-04-11
+    - date: '2013-04-12'
+      subject: IETF 86 proceedings charter, as the datatracker generated it by 2013-04-12
       url: https://www.ietf.org/proceedings/86/pcp.html
     - date: '2016-09-08'
       subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
@@ -173,13 +173,13 @@ chairs:
   - start:
       certainty: between
       not_before: '2010-07-09'
-      not_after: '2010-07-25'
+      not_after: '2010-08-31'
     end:
       certainty: between
       not_before: '2012-10-17'
       not_after: '2013-03-13'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2010-08-31)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2012-10-17)'
   evidence:
   - kind: chair activity
@@ -208,16 +208,16 @@ chairs:
       subject: IETF 84 minutes in the proceedings
       url: https://www.ietf.org/proceedings/84/minutes/minutes-84-pcp.txt
   - kind: proceedings
-    listed_in: 8
-    first: '2010-07-25'
+    listed_in: 7
+    first: '2010-08-31'
     last: '2012-10-02'
     examples:
-    - date: '2010-07-25'
-      subject: IETF 78 proceedings charter
-      url: https://www.ietf.org/proceedings/78/ipcp.html
     - date: '2010-08-31'
-      subject: IETF 79 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/79/ipcp.html
+      subject: IETF 78 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/78/ipcp.html
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
+      url: https://www.ietf.org/proceedings/79/pcp.html
     - date: '2012-10-02'
       subject: IETF 84 proceedings charter, as the datatracker generated it by 2012-10-02
       url: https://www.ietf.org/proceedings/84/pcp.html

@@ -25,26 +25,35 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2012-07-29'
+      certainty: between
       not_before: '2011-12-09'
+      not_after: '2012-07-11'
     end:
       certainty: group-closed
       date: '2019-09-20'
     notes:
-    - 'Start: listed as chair in meeting minutes (2012-07-29)'
+    - 'Start: started a last call or adoption call on the group''s list (2012-07-11)'
   evidence:
   - kind: chair activity
-    first: '2018-02-18'
+    first: '2012-07-11'
     last: '2018-03-29'
-    messages: 2
+    messages: 33
     examples:
-    - date: '2018-02-18'
-      subject: '[xrblock] draft agenda for ietf101 loaded'
-      url: https://mailarchive.ietf.org/arch/msg/xrblock/DriUw5WMIFXfnn7gp60FHshVUcw/
-    - date: '2018-03-29'
-      subject: '[xrblock] xrblock draft minutes posted'
-      url: https://mailarchive.ietf.org/arch/msg/xrblock/7dg_XmLeoX2HD8fPaRuGNe5okKE/
+    - date: '2012-07-11'
+      subject: '[xrblock] WGLC for draft-ietf-xrblock-rtcp-xr-burst-gap-discard-04.txt'
+      url: https://mailarchive.ietf.org/arch/msg/xrblock/941VvUhM6dw4-P8hKo_iRObbHXQ/
+    - date: '2012-07-11'
+      subject: '[xrblock] WGLC for aft-ietf-xrblock-rtcp-xr-burst-gap-loss-02.txt'
+      url: https://mailarchive.ietf.org/arch/msg/xrblock/sl0FnpX_MIi33iyXiHopn-sQsmA/
+    - date: '2012-08-26'
+      subject: '[xrblock] WGLC for draft-ietf-xrblock-rtcp-xr-discard-06.txt'
+      url: https://mailarchive.ietf.org/arch/msg/xrblock/TZk1sCS2v7WVpHDcIO15TGjjftc/
+    - date: '2012-08-26'
+      subject: '[xrblock] IETF-84 WG meeting minutes'
+      url: https://mailarchive.ietf.org/arch/msg/xrblock/7S0qEtC9tqelGmDbeqeLg4ze1Ec/
+    - date: '2013-02-12'
+      subject: '[xrblock] IETF-86 meeting - call for agenda items'
+      url: https://mailarchive.ietf.org/arch/msg/xrblock/ZIosx3pKWVdu5fKy-3h-4fl684s/
   - kind: minutes
     listed_in: 2
     first: '2012-07-29'

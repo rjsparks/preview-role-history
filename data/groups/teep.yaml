@@ -163,16 +163,20 @@ chairs:
       date: '2026-03-09'
   evidence:
   - kind: chair activity
-    first: '2022-08-03'
+    first: '2019-12-23'
     last: '2023-07-13'
-    messages: 3
+    messages: 5
     examples:
+    - date: '2019-12-23'
+      subject: '[Teep] Working Group Last Call for draft-ietf-teep-architecture'
+      url: https://mailarchive.ietf.org/arch/msg/teep/vf9HljkJdERmPn8VvgmQ83APC7c/
+    - date: '2020-02-11'
+      subject: '[Teep] Working Group Last Call for HTTP Transport for Trusted Execution Environment Provisioning:
+        Agent-to-TAM Communication'
+      url: https://mailarchive.ietf.org/arch/msg/teep/s_YpCbzrsBCIyd4cLUlNhnUx2Ww/
     - date: '2022-08-03'
       subject: '[Teep] Call for adoption of draft-yang-teep-usecase-for-cc-in-network'
       url: https://mailarchive.ietf.org/arch/msg/teep/qtC_z1E4WHerJMA-sSbHr3Khxv0/
-    - date: '2023-05-04'
-      subject: '[Teep] WGLC for draft-ietf-teep-protocol'
-      url: https://mailarchive.ietf.org/arch/msg/teep/3fQ6RgCErR9yZmkP-q5dGrgfk18/
     - date: '2023-07-13'
       subject: '[Teep] Call for Agenda IETF 117'
       url: https://mailarchive.ietf.org/arch/msg/teep/6IbSOuy4JL50H-OP1rSGPH4T2Ao/

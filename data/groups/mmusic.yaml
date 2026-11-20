@@ -118,13 +118,10 @@ chairs:
     - 'End: not listed among the chairs in a proceedings charter snapshot (2000-10-23)'
   evidence:
   - kind: chair activity
-    first: '1995-07-25'
+    first: '1997-04-02'
     last: '1998-09-17'
-    messages: 3
+    messages: 2
     examples:
-    - date: '1995-07-25'
-      subject: MMUSIC Minutes
-      url: https://mailarchive.ietf.org/arch/msg/mmusic/bp4BV21oJP48BXJah686xdhuYVo/
     - date: '1997-04-02'
       subject: WG Last Call on SDP
       url: https://mailarchive.ietf.org/arch/msg/mmusic/kvJs_fUbToVLfEJB2m-b5KcM0Xg/
@@ -230,7 +227,7 @@ chairs:
   - kind: proceedings
     listed_in: 31
     first: '1997-08-11'
-    last: '2009-11-08'
+    last: '2009-12-17'
     examples:
     - date: '1997-08-11'
       subject: IETF 39 proceedings charter
@@ -238,8 +235,8 @@ chairs:
     - date: '1997-11-26'
       subject: IETF 40 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/40/97DEC-FINAL/Proceedings/97dec-allcharters-118.htm
-    - date: '2009-11-08'
-      subject: IETF 76 proceedings charter
+    - date: '2009-12-17'
+      subject: IETF 76 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/76/mmusic.html
   - kind: minutes without them
     date: '2010-02-10'
@@ -389,13 +386,13 @@ chairs:
   - kind: proceedings
     listed_in: 2
     first: '2010-02-10'
-    last: '2010-07-25'
+    last: '2010-09-30'
     examples:
     - date: '2010-02-10'
       subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/mmusic.html
-    - date: '2010-07-25'
-      subject: IETF 78 proceedings charter
+    - date: '2010-09-30'
+      subject: IETF 78 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/78/mmusic.html
   - kind: session requests
     meetings:
@@ -479,11 +476,11 @@ chairs:
     end:
       certainty: between
       not_before: '2010-07-30'
-      not_after: '2024-08-14'
+      not_after: '2010-09-30'
     notes:
     - 'Start: announced on the group''s list (2006-07-04)'
     - 'End: started a last call or adoption call on the group''s list (2010-07-30)'
-    - 'End: the group closed (2024-08-14)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2010-09-30)'
   evidence:
   - kind: WG Action
     date: '2008-04-15'
@@ -544,6 +541,10 @@ chairs:
     - date: '2010-02-10'
       subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/mmusic.html
+  - kind: minutes without them
+    date: '2010-09-30'
+    subject: IETF 78 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/78/mmusic.html
   - kind: session requests
     meetings:
     - '68'
@@ -598,11 +599,11 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/mmusic/CYvXyCS974KS8J8jFGwYIO4Wlz4/
   - kind: proceedings
     listed_in: 21
-    first: '2010-07-25'
+    first: '2010-09-30'
     last: '2017-04-12'
     examples:
-    - date: '2010-07-25'
-      subject: IETF 78 proceedings charter
+    - date: '2010-09-30'
+      subject: IETF 78 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/78/mmusic.html
     - date: '2011-05-03'
       subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
@@ -758,8 +759,8 @@ chairs:
     - date: '2013-02-13'
       subject: IETF 85 proceedings charter, as the datatracker generated it by 2013-02-13
       url: https://www.ietf.org/proceedings/85/mmusic.html
-    - date: '2013-04-11'
-      subject: IETF 86 proceedings charter, as the datatracker generated it by 2013-04-11
+    - date: '2013-04-12'
+      subject: IETF 86 proceedings charter, as the datatracker generated it by 2013-04-12
       url: https://www.ietf.org/proceedings/86/mmusic.html
     - date: '2015-10-06'
       subject: IETF 93 proceedings charter, as the datatracker generated it by 2015-10-06

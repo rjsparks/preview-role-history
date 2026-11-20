@@ -4,7 +4,7 @@ type: wg
 parent: rai
 areas:
 - area: rai
-  first: '2006-07-09'
+  first: '2006-08-28'
   last: '2007-05-31'
 state: bof-conc
 started: null
@@ -35,7 +35,7 @@ chairs:
       not_before: '2007-03-18'
       not_after: '2007-05-31'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2006-07-09)'
+    - 'Start: the BOF met at IETF 66 (2006-07-09)'
     - 'End: listed as chair in meeting minutes (2007-03-18)'
     - 'End: the group closed (2007-05-31)'
   evidence:
@@ -48,16 +48,13 @@ chairs:
       subject: IETF 68 minutes in the proceedings
       url: https://www.ietf.org/proceedings/68/minutes/rtpsec.txt
   - kind: proceedings
-    listed_in: 3
-    first: '2006-07-09'
+    listed_in: 2
+    first: '2006-08-28'
     last: '2007-02-06'
     examples:
-    - date: '2006-07-09'
-      subject: IETF 66 proceedings charter
-      url: https://www.ietf.org/proceedings/66/rtpsec.html
     - date: '2006-08-28'
-      subject: IETF 67 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/67/rtpsec.html
+      subject: IETF 66 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/66/rtpsec.html
     - date: '2007-02-06'
       subject: IETF 68 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/68/rtpsec.html
@@ -86,7 +83,7 @@ chairs:
       not_before: '2007-03-18'
       not_after: '2007-05-31'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2006-07-09)'
+    - 'Start: the BOF met at IETF 66 (2006-07-09)'
     - 'End: listed as chair in meeting minutes (2007-03-18)'
     - 'End: the group closed (2007-05-31)'
   evidence:
@@ -99,16 +96,13 @@ chairs:
       subject: IETF 68 minutes in the proceedings
       url: https://www.ietf.org/proceedings/68/minutes/rtpsec.txt
   - kind: proceedings
-    listed_in: 3
-    first: '2006-07-09'
+    listed_in: 2
+    first: '2006-08-28'
     last: '2007-02-06'
     examples:
-    - date: '2006-07-09'
-      subject: IETF 66 proceedings charter
-      url: https://www.ietf.org/proceedings/66/rtpsec.html
     - date: '2006-08-28'
-      subject: IETF 67 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/67/rtpsec.html
+      subject: IETF 66 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/66/rtpsec.html
     - date: '2007-02-06'
       subject: IETF 68 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/68/rtpsec.html

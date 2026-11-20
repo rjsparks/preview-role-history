@@ -97,12 +97,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2005-10-10'
+      date: '2005-09-08'
     end:
       certainty: announced
       date: '2012-06-19'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2005-10-10)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2005-09-08)'
     - 'End: announced on the group''s list (2012-06-19)'
   evidence:
   - kind: WG Action
@@ -137,22 +137,22 @@ chairs:
     excerpt: And, many thanks and gratitude to Alain for his efforts over many years in organizing and
       guiding the WG through the production of several protocols and 13 RFCs.
   - kind: chair activity
-    first: '2007-11-30'
+    first: '2005-09-08'
     last: '2011-09-23'
-    messages: 14
+    messages: 35
     examples:
+    - date: '2005-09-08'
+      subject: '[Softwires] Interim meeting final dates'
+      url: https://mailarchive.ietf.org/arch/msg/softwires/CMT7Cm7OwqgU9vA6kWmaZM6ly_c/
+    - date: '2005-09-09'
+      subject: '[Softwires] Softwires interim meeting official announcement'
+      url: https://mailarchive.ietf.org/arch/msg/softwires/-7QSmdr4sWfwwzOtTKqO_HH5Csc/
     - date: '2007-11-30'
       subject: '[Softwires] Working group last call'
       url: https://mailarchive.ietf.org/arch/msg/softwires/5Dyzre6e8o5OMFvDbBZCEWCUYo8/
     - date: '2007-12-03'
       subject: '[Softwires] WG last call on the security document'
       url: https://mailarchive.ietf.org/arch/msg/softwires/IpIbEV3KhKcAsUpyaeBA3n8yXa8/
-    - date: '2008-02-20'
-      subject: '[Softwires] IETF 71 call for agenda'
-      url: https://mailarchive.ietf.org/arch/msg/softwires/UWDcg0xKs8mq3UxVRSe2oJYAC84/
-    - date: '2008-10-31'
-      subject: '[Softwires] IETF 73, call for agenda items'
-      url: https://mailarchive.ietf.org/arch/msg/softwires/eQSekt6WgFMBvSk479z7ZvBcnO4/
     - date: '2010-12-10'
       subject: '[Softwires] WG last call on draft-ietf-softwire-ds-lite-tunnel-option-07'
       url: https://mailarchive.ietf.org/arch/msg/softwires/980Sjo0P0KC5Mjep1zPIiZ-7H-g/

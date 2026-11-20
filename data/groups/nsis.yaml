@@ -64,7 +64,7 @@ chairs:
   - kind: chair activity
     first: '2001-11-20'
     last: '2008-02-04'
-    messages: 55
+    messages: 54
     examples:
     - date: '2001-11-20'
       subject: '[NSIS] Preliminary Agenda for IETF 52'
@@ -96,7 +96,7 @@ chairs:
       subject: IETF 70 minutes in the proceedings
       url: https://www.ietf.org/proceedings/70/minutes/nsis.txt
   - kind: proceedings
-    listed_in: 17
+    listed_in: 15
     first: '2001-11-26'
     last: '2008-02-14'
     examples:
@@ -122,12 +122,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2001-10-26'
-      not_after: '2006-07-09'
+      not_after: '2006-10-13'
     end:
       certainty: group-closed
       date: '2011-03-16'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2006-07-09)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2006-10-13)'
   evidence:
   - kind: chair activity
     first: '2007-03-04'
@@ -155,16 +155,16 @@ chairs:
       subject: IETF 70 minutes in the proceedings
       url: https://www.ietf.org/proceedings/70/minutes/nsis.txt
   - kind: proceedings
-    listed_in: 9
-    first: '2006-07-09'
+    listed_in: 6
+    first: '2006-10-13'
     last: '2011-03-16'
     examples:
-    - date: '2006-07-09'
-      subject: IETF 66 proceedings charter
-      url: https://www.ietf.org/proceedings/66/nsis.html
     - date: '2006-10-13'
-      subject: IETF 67 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/67/nsis.html
+      subject: IETF 66 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/66/nsis.html
+    - date: '2008-02-14'
+      subject: IETF 71 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/71/nsis.html
     - date: '2011-03-16'
       subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
       url: https://www.ietf.org/proceedings/79/nsis.html
@@ -211,15 +211,15 @@ chairs:
       subject: '[NSIS] Working Group Last Call: NSIS Operation over IP Tunnels'
       url: https://mailarchive.ietf.org/arch/msg/nsis/ix_kVJf0NjxRQx6z1eSOKrxJjdY/
   - kind: proceedings
-    listed_in: 6
+    listed_in: 4
     first: '2008-09-26'
     last: '2011-03-16'
     examples:
     - date: '2008-09-26'
       subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/nsis.html
-    - date: '2009-07-26'
-      subject: IETF 75 proceedings charter
+    - date: '2009-09-22'
+      subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/nsis.html
     - date: '2011-03-16'
       subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03

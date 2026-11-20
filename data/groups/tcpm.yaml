@@ -332,8 +332,8 @@ chairs:
     - date: '2016-09-08'
       subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
       url: https://www.ietf.org/proceedings/96/tcpm.html
-    - date: '2016-11-13'
-      subject: IETF 97 proceedings charter, as the datatracker generated it by 2016-11-13
+    - date: '2016-12-02'
+      subject: IETF 97 proceedings charter, as the datatracker generated it by 2016-12-02
       url: https://www.ietf.org/proceedings/97/tcpm.html
     - date: '2017-04-12'
       subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
@@ -403,15 +403,15 @@ chairs:
       subject: IETF 82 minutes in the proceedings
       url: https://www.ietf.org/proceedings/82/minutes/tcpm.txt
   - kind: proceedings
-    listed_in: 8
+    listed_in: 7
     first: '2009-03-10'
     last: '2011-10-21'
     examples:
     - date: '2009-03-10'
       subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/tcpm.html
-    - date: '2009-07-26'
-      subject: IETF 75 proceedings charter
+    - date: '2009-10-13'
+      subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/tcpm.html
     - date: '2011-10-21'
       subject: IETF 81 proceedings charter, as the datatracker generated it by 2011-10-21
@@ -549,6 +549,26 @@ chairs:
     date: '2020-03-16'
     subject: 'WG Action: Rechartered TCP Maintenance and Minor Extensions (tcpm)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Q1HpD31mtgdGzuEfeCIHzQOGnsk/
+  - kind: chair activity
+    first: '2011-04-20'
+    last: '2021-11-23'
+    messages: 37
+    examples:
+    - date: '2011-04-20'
+      subject: '[tcpm] Draft minutes of IETF 80'
+      url: https://mailarchive.ietf.org/arch/msg/tcpm/aKxNuQcHwf0-zl5By7qy2AGZyYU/
+    - date: '2011-06-14'
+      subject: '[tcpm] TCPM meeting in Quebec City: Call for agenda items'
+      url: https://mailarchive.ietf.org/arch/msg/tcpm/5ytye1qlQu8cLcL-VvzKCY0nNkA/
+    - date: '2011-07-18'
+      subject: '[tcpm] WGLC for draft-ietf-tcpm-rfc3782-bis-02'
+      url: https://mailarchive.ietf.org/arch/msg/tcpm/HMRMitEU15yZV6WiwYNNMd6irWA/
+    - date: '2012-10-07'
+      subject: '[tcpm] WGLC for draft-ietf-tcpm-experimental-options'
+      url: https://mailarchive.ietf.org/arch/msg/tcpm/EIXxKtnJ9H7mXeG7qK_4f5RyzSM/
+    - date: '2013-06-04'
+      subject: '[tcpm] WGLC for update of draft-ietf-tcpm-experimental-options'
+      url: https://mailarchive.ietf.org/arch/msg/tcpm/9JcPh0DX5DWT2E1PHgPxFtMDYjs/
   - kind: minutes
     listed_in: 15
     first: '2011-03-27'
@@ -620,22 +640,25 @@ chairs:
     excerpt: I've decided on Wes Eddy and Dave Borman as the new chairs for TCPM to follow after Ted and
       Mark.
   - kind: chair activity
-    first: '2010-11-26'
+    first: '2008-07-14'
     last: '2011-03-18'
-    messages: 4
+    messages: 13
     examples:
-    - date: '2010-11-26'
-      subject: '[tcpm] draft Beijing minutes'
-      url: https://mailarchive.ietf.org/arch/msg/tcpm/dPwXqPSns_I1oSRf0imSydTQNPs/
-    - date: '2011-01-14'
-      subject: '[tcpm] WGLC on draft-ietf-tcpm-persist'
-      url: https://mailarchive.ietf.org/arch/msg/tcpm/0AnFQqibVo7ocu0avAPbAq9cIjw/
-    - date: '2011-02-07'
-      subject: '[tcpm] WGLC of 2988bis document'
-      url: https://mailarchive.ietf.org/arch/msg/tcpm/fKgce7hJVz_VOLLOzLZSbVuq9qs/
-    - date: '2011-03-18'
-      subject: '[tcpm] draft agenda for IETF80/Prague'
-      url: https://mailarchive.ietf.org/arch/msg/tcpm/CF1Tfi0iiP3YFjufIXk33micezM/
+    - date: '2008-07-14'
+      subject: '[tcpm] draft agenda for Dublin'
+      url: https://mailarchive.ietf.org/arch/msg/tcpm/lyit6Id-8_S55M7tYgNRqe256Xk/
+    - date: '2008-07-18'
+      subject: '[tcpm] working group last call for 4138bis F-RTO draft'
+      url: https://mailarchive.ietf.org/arch/msg/tcpm/8GPQmuBr-c37nCQxh7NWIJ6diKQ/
+    - date: '2009-03-12'
+      subject: '[tcpm] updated milestones'
+      url: https://mailarchive.ietf.org/arch/msg/tcpm/lt46KFAkywa9Lf9nQbljvxdrozY/
+    - date: '2009-04-14'
+      subject: '[tcpm] WGLC on draft-ietf'
+      url: https://mailarchive.ietf.org/arch/msg/tcpm/W6owlBW4S7mISFaXj6X-ZIxalZs/
+    - date: '2009-08-18'
+      subject: '[tcpm] WGLC for MSS document'
+      url: https://mailarchive.ietf.org/arch/msg/tcpm/6QbktdXtOxiRoeu1kywcuBWmy1k/
   - kind: minutes
     listed_in: 3
     first: '2009-03-22'
@@ -651,18 +674,18 @@ chairs:
       subject: IETF 80 minutes in the proceedings
       url: https://www.ietf.org/proceedings/80/minutes/tcpm.txt
   - kind: proceedings
-    listed_in: 5
+    listed_in: 4
     first: '2009-03-10'
-    last: '2010-07-25'
+    last: '2010-09-30'
     examples:
     - date: '2009-03-10'
       subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/tcpm.html
-    - date: '2009-07-26'
-      subject: IETF 75 proceedings charter
+    - date: '2009-10-13'
+      subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/tcpm.html
-    - date: '2010-07-25'
-      subject: IETF 78 proceedings charter
+    - date: '2010-09-30'
+      subject: IETF 78 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/78/tcpm.html
   - kind: minutes without them
     date: '2011-07-24'

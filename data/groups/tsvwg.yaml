@@ -186,6 +186,26 @@ chairs:
     says: end
     text: Chair changed to Gorry Fairhurst, Marten Seemann from David Black, Gorry Fairhurst, Marten Seemann
     url: https://datatracker.ietf.org/group/tsvwg/history/
+  - kind: chair activity
+    first: '2013-08-19'
+    last: '2022-08-04'
+    messages: 19
+    examples:
+    - date: '2013-08-19'
+      subject: '[tsvwg] WGLC on draft-ietf-tsvwg-rsvp-pcn'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/pG3or_mbCafEcGr-fk2WAzq6p9k/
+    - date: '2014-08-08'
+      subject: '[tsvwg] WG Adoption Call for draft-fairhurst-tsvwg-circuit-breaker- 22 August 2014'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/mSJWqCvhsW8TrAgACk3Q1qmMc20/
+    - date: '2014-11-15'
+      subject: '[tsvwg] Draft Honolulu minutes posted'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/9vrA3iWPa3ubbhfuGEdK5_DGTVg/
+    - date: '2014-12-01'
+      subject: '[tsvwg] Final Honolulu tsvwg minutes'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/lJFYHMteMksrNB6QSZbqjd2Io3g/
+    - date: '2016-06-09'
+      subject: '[tsvwg] WG adoption call: draft-szigeti-tsvwg-ieee-802-11 - through June 25'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/T7Uey6xyFeayEHrOz8nZOjE2ibM/
   - kind: minutes
     listed_in: 7
     first: '2013-03-10'
@@ -208,8 +228,8 @@ chairs:
     - date: '2013-02-13'
       subject: IETF 85 proceedings charter, as the datatracker generated it by 2013-02-13
       url: https://www.ietf.org/proceedings/85/tsvwg.html
-    - date: '2013-04-11'
-      subject: IETF 86 proceedings charter, as the datatracker generated it by 2013-04-11
+    - date: '2013-04-12'
+      subject: IETF 86 proceedings charter, as the datatracker generated it by 2013-04-12
       url: https://www.ietf.org/proceedings/86/tsvwg.html
     - date: '2017-04-12'
       subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
@@ -295,7 +315,7 @@ chairs:
       subject: IETF 90 minutes in the proceedings
       url: https://www.ietf.org/proceedings/90/minutes/minutes-90-tsvwg.txt
   - kind: proceedings
-    listed_in: 21
+    listed_in: 19
     first: '2005-10-31'
     last: '2014-04-25'
     examples:
@@ -359,15 +379,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2008-07-27'
-      not_after: '2009-03-22'
+      certainty: announced
+      date: '2009-05-20'
     end:
       certainty: exact
       date: '2025-03-21'
     notes:
-    - 'Start: not listed among the chairs in meeting minutes (2008-07-27)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2009-03-22)'
+    - 'Start: announced on the group''s list (2009-05-20)'
   evidence:
   - kind: datatracker record
     date: '2025-03-21'
@@ -429,23 +447,19 @@ chairs:
       subject: IETF 96 minutes in the proceedings
       url: https://www.ietf.org/proceedings/96/minutes/minutes-96-tsvwg.txt
   - kind: proceedings
-    listed_in: 25
-    first: '2009-03-22'
+    listed_in: 23
+    first: '2009-05-20'
     last: '2017-04-12'
     examples:
-    - date: '2009-03-22'
-      subject: IETF 74 proceedings charter
+    - date: '2009-05-20'
+      subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/tsvwg.html
-    - date: '2009-07-26'
-      subject: IETF 75 proceedings charter
+    - date: '2009-09-22'
+      subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/tsvwg.html
     - date: '2017-04-12'
       subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/tsvwg.html
-  - kind: minutes without them
-    date: '2008-07-27'
-    subject: IETF 72 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/72/minutes/tsvwg.txt
   - kind: joined the IESG
     after_meeting: '122'
     after: '2025-03-15'
@@ -483,14 +497,14 @@ chairs:
   - start:
       certainty: between
       not_before: '2002-11-17'
-      not_after: '2003-06-18'
+      not_after: '2003-05-20'
     end:
       certainty: between
       not_before: '2004-02-25'
       not_after: '2006-07-09'
     notes:
     - 'Start: not listed among the chairs in meeting minutes (2002-11-17)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2003-06-18)'
+    - 'Start: started a last call or adoption call on the group''s list (2003-05-20)'
     - 'End: named as chair in the WG Action announcement (2004-02-25)'
     - 'End: became an Area Director, first serving at IETF 66 (2006-07-09)'
   evidence:
@@ -498,6 +512,17 @@ chairs:
     date: '2004-02-25'
     subject: 'WG Action: RECHARTER: Transport Area Working Group (tsvwg)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/tiJcjr6rvqxNY_MPQ1_whf3e01I/
+  - kind: chair activity
+    first: '2003-05-20'
+    last: '2003-06-22'
+    messages: 2
+    examples:
+    - date: '2003-05-20'
+      subject: '[Tsvwg] WGLC for draft-blanton-dsack-use-02'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/Qav_iE9Q8w0eUBOStb_Sy8q0pmk/
+    - date: '2003-06-22'
+      subject: '[Tsvwg] WGLC on draft-ietf-tsvwg-prsctp-00'
+      url: https://mailarchive.ietf.org/arch/msg/tsvwg/6S01uXT8TqC5zg3w2MHA5_JWJew/
   - kind: proceedings
     listed_in: 1
     first: '2003-06-18'
@@ -708,11 +733,11 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/tsvwg/4V7gBgn3dD0xdyeqopB94gE5KW4/
   - kind: proceedings
     listed_in: 2
-    first: '2016-11-13'
+    first: '2016-12-02'
     last: '2017-04-12'
     examples:
-    - date: '2016-11-13'
-      subject: IETF 97 proceedings charter, as the datatracker generated it by 2016-11-13
+    - date: '2016-12-02'
+      subject: IETF 97 proceedings charter, as the datatracker generated it by 2016-12-02
       url: https://www.ietf.org/proceedings/97/tsvwg.html
     - date: '2017-04-12'
       subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12

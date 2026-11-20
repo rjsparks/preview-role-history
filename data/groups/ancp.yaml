@@ -4,7 +4,7 @@ type: wg
 parent: int
 areas:
 - area: int
-  first: '2006-07-09'
+  first: '2006-08-14'
   last: '2015-03-23'
 state: conclude
 started: '2006-06-01'
@@ -45,8 +45,8 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/4h3hP5xgzZUf7thabplXUQ7FZ6o/
   - kind: chair activity
     first: '2006-10-23'
-    last: '2009-04-07'
-    messages: 11
+    last: '2012-01-24'
+    messages: 16
     examples:
     - date: '2006-10-23'
       subject: '[ANCP] IETF 67 draft agenda'
@@ -78,16 +78,16 @@ chairs:
       subject: IETF 83 minutes in the proceedings
       url: https://www.ietf.org/proceedings/83/minutes/minutes-83-ancp.txt
   - kind: proceedings
-    listed_in: 21
-    first: '2006-07-09'
+    listed_in: 19
+    first: '2006-08-14'
     last: '2015-01-06'
     examples:
-    - date: '2006-07-09'
-      subject: IETF 66 proceedings charter
-      url: https://www.ietf.org/proceedings/66/ancp.html
     - date: '2006-08-14'
-      subject: IETF 67 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/67/ancp.html
+      subject: IETF 66 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/66/ancp.html
+    - date: '2006-12-15'
+      subject: IETF 68 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/68/ancp.html
     - date: '2015-01-06'
       subject: IETF 91 proceedings charter, as the datatracker generated it by 2015-01-06
       url: https://www.ietf.org/proceedings/91/ancp.html
@@ -141,23 +141,23 @@ chairs:
     subject: 'WG Action: RECHARTER: Access Node Control Protocol (ancp)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/4h3hP5xgzZUf7thabplXUQ7FZ6o/
   - kind: chair activity
-    first: '2008-01-11'
+    first: '2006-11-24'
     last: '2013-09-05'
-    messages: 7
+    messages: 10
     examples:
-    - date: '2008-01-11'
-      subject: '[ANCP] Agenda items for IETF71 ANCP WG meeting'
-      url: https://mailarchive.ietf.org/arch/msg/ancp/_zZ8fxk3e0_1z-VCDavuMRKgxdA/
-    - date: '2008-03-25'
-      subject: '[ANCP] IETF71 meeting minutes'
-      url: https://mailarchive.ietf.org/arch/msg/ancp/cvF4WB3XUzm_PTGQb6dpj8n8bfw/
+    - date: '2006-11-24'
+      subject: '[ANCP] IETF67 - ANCP WG Meeting Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/ancp/sqcmGEyXSprvOUHMgKMMxD3PEZ8/
+    - date: '2007-07-12'
+      subject: '[ANCP] ANCP WG Draft Agenda - IETF69'
+      url: https://mailarchive.ietf.org/arch/msg/ancp/WB3M3-Dm-PnMMUaNEFT71kdwvOY/
     - date: '2013-09-05'
       subject: '[ANCP] Working Group Last Call for draft-ietf-ancp-mib-an-11'
       url: https://mailarchive.ietf.org/arch/msg/ancp/RveMOdTSl3w_nLS_kZzcFBf526c/
   - kind: minutes
-    listed_in: 12
+    listed_in: 9
     first: '2006-11-05'
-    last: '2012-03-25'
+    last: '2008-07-27'
     examples:
     - date: '2006-11-05'
       subject: IETF 67 minutes in the proceedings
@@ -165,20 +165,20 @@ chairs:
     - date: '2007-03-18'
       subject: IETF 68 minutes in the proceedings
       url: https://www.ietf.org/proceedings/68/minutes/ancp.txt
-    - date: '2012-03-25'
-      subject: IETF 83 minutes in the proceedings
-      url: https://www.ietf.org/proceedings/83/minutes/minutes-83-ancp.txt
+    - date: '2008-07-27'
+      subject: IETF 72 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/72/minutes/ancp.txt
   - kind: proceedings
-    listed_in: 21
-    first: '2006-07-09'
+    listed_in: 19
+    first: '2006-08-14'
     last: '2015-01-06'
     examples:
-    - date: '2006-07-09'
-      subject: IETF 66 proceedings charter
-      url: https://www.ietf.org/proceedings/66/ancp.html
     - date: '2006-08-14'
-      subject: IETF 67 proceedings charter, as last modified
-      url: https://www.ietf.org/proceedings/67/ancp.html
+      subject: IETF 66 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/66/ancp.html
+    - date: '2006-12-15'
+      subject: IETF 68 proceedings charter, as last modified
+      url: https://www.ietf.org/proceedings/68/ancp.html
     - date: '2015-01-06'
       subject: IETF 91 proceedings charter, as the datatracker generated it by 2015-01-06
       url: https://www.ietf.org/proceedings/91/ancp.html
