@@ -338,13 +338,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2006-01-27'
       not_after: '2008-07-27'
     end:
       certainty: between
       not_before: '2009-03-22'
       not_after: '2009-04-02'
     notes:
+    - 'Start: the group''s record began (2006-01-27)'
     - 'Start: listed as chair in meeting minutes (2008-07-27)'
     - 'End: listed as chair in meeting minutes (2009-03-22)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2009-04-02)'

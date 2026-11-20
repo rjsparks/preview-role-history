@@ -31,11 +31,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2016-02-26'
     end:
       certainty: exact
       date: '2016-06-10'
+    notes:
+    - 'Start: the group''s record began (2016-02-26)'
   evidence:
   - kind: datatracker record
     date: '2016-06-10'

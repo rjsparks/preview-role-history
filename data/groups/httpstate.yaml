@@ -84,13 +84,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2009-11-11'
       not_after: '2009-12-11'
     end:
       certainty: between
       not_before: '2009-12-11'
       not_after: '2011-05-18'
     notes:
+    - 'Start: the group''s record began (2009-11-11)'
     - 'Start: named as chair in the WG Action announcement (2009-12-11)'
     - 'End: named as chair in the WG Action announcement (2009-12-11)'
     - 'End: the group closed (2011-05-18)'

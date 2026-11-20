@@ -28,13 +28,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2021-01-28'
     end:
       certainty: between
       not_before: '2021-07-26'
       not_after: '2021-10-07'
     notes:
+    - 'Start: the group''s record began (2021-01-28)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2021-07-26)'
     - 'End: the group closed (2021-10-07)'
   evidence:
@@ -59,13 +60,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2021-01-28'
     end:
       certainty: between
       not_before: '2021-07-26'
       not_after: '2021-10-07'
     notes:
+    - 'Start: the group''s record began (2021-01-28)'
     - 'End: the BOF met at IETF 111 (2021-07-26)'
     - 'End: the group closed (2021-10-07)'
   evidence:

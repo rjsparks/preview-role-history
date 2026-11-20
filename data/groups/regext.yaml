@@ -25,10 +25,12 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2016-02-03'
     end:
       certainty: ongoing
+    notes:
+    - 'Start: the group''s record began (2016-02-03)'
   evidence:
   - kind: WG Review
     date: '2016-02-19'
@@ -92,10 +94,12 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2016-02-03'
     end:
       certainty: ongoing
+    notes:
+    - 'Start: the group''s record began (2016-02-03)'
   evidence:
   - kind: WG Review
     date: '2016-02-19'

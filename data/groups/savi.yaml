@@ -26,13 +26,13 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2007-12-02'
+      not_before: '2008-05-22'
       not_after: '2008-07-25'
     end:
       certainty: announced
       date: '2009-12-17'
     notes:
-    - 'Start: not listed among the chairs in meeting minutes (2007-12-02)'
+    - 'Start: the group''s record began (2008-05-22)'
     - 'Start: named as chair in the WG Action announcement (2008-07-25)'
     - 'End: announced on the group''s list (2009-12-17)'
   evidence:
@@ -57,10 +57,6 @@ chairs:
     - date: '2009-12-15'
       subject: IETF 76 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/76/savi.html
-  - kind: minutes without them
-    date: '2007-12-02'
-    subject: IETF 70 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/70/minutes/savi.txt
   - kind: session requests
     meetings:
     - '73'

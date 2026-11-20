@@ -25,14 +25,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2017-07-16'
-      not_after: '2019-06-11'
+      certainty: approximate
+      date: '2019-06-11'
     end:
       certainty: exact
       date: '2025-01-28'
     notes:
-    - 'Start: no longer an Area Director (2017-07-16)'
+    - 'Start: the group''s record began (2019-06-11)'
   evidence:
   - kind: datatracker record
     date: '2025-01-28'
@@ -75,11 +74,6 @@ chairs:
     - date: '2025-01-13'
       subject: '[Lake] Adoption call for draft-song-lake-ra-02'
       url: https://mailarchive.ietf.org/arch/msg/lake/lzdm7pCz9-kl2x7isXW-CfUzL7M/
-  - kind: joined the IESG
-    after_meeting: '80'
-    after: '2011-03-27'
-    by_meeting: '81'
-    by: '2011-07-24'
   - kind: shepherded
     documents:
     - draft-ietf-lake-traces
@@ -88,11 +82,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2019-06-11'
     end:
       certainty: exact
       date: '2019-09-25'
+    notes:
+    - 'Start: the group''s record began (2019-06-11)'
   evidence:
   - kind: datatracker record
     date: '2019-09-25'

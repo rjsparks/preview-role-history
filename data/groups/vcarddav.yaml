@@ -52,13 +52,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2007-12-26'
       not_after: '2008-01-31'
     end:
       certainty: between
       not_before: '2011-07-24'
       not_after: '2012-11-13'
     notes:
+    - 'Start: the group''s record began (2007-12-26)'
     - 'Start: named as chair in the WG Action announcement (2008-01-31)'
     - 'End: requested the group''s session for IETF 81 (2011-07-24)'
     - 'End: the group closed (2012-11-13)'

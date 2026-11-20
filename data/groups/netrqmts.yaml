@@ -25,13 +25,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2019-06-11'
     end:
       certainty: between
       not_before: '2019-07-20'
       not_after: '2019-10-09'
     notes:
+    - 'Start: the group''s record began (2019-06-11)'
     - 'End: the BOF met at IETF 105 (2019-07-20)'
     - 'End: the group closed (2019-10-09)'
   evidence:
@@ -44,15 +45,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2013-07-28'
-      not_after: '2019-06-11'
+      certainty: approximate
+      date: '2019-06-11'
     end:
       certainty: between
       not_before: '2019-07-30'
       not_after: '2019-10-09'
     notes:
-    - 'Start: no longer an Area Director (2013-07-28)'
+    - 'Start: the group''s record began (2019-06-11)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2019-07-30)'
     - 'End: the group closed (2019-10-09)'
   evidence:
@@ -68,8 +68,3 @@ chairs:
     meeting: '105'
     date: '2019-07-20'
     url: https://datatracker.ietf.org/meeting/105/session/netrqmts/
-  - kind: joined the IESG
-    after_meeting: '68'
-    after: '2007-03-18'
-    by_meeting: '69'
-    by: '2007-07-22'

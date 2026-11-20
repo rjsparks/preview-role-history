@@ -389,13 +389,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2009-04-06'
       not_after: '2009-05-13'
     end:
       certainty: between
       not_before: '2010-03-21'
       not_after: '2010-03-25'
     notes:
+    - 'Start: the group''s record began (2009-04-06)'
     - 'Start: named as chair in the WG Action announcement (2009-05-13)'
     - 'End: requested the group''s session for IETF 77 (2010-03-21)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2010-03-25)'
@@ -452,13 +454,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2009-04-06'
       not_after: '2009-05-13'
     end:
       certainty: between
       not_before: '2011-06-14'
       not_after: '2012-03-25'
     notes:
+    - 'Start: the group''s record began (2009-04-06)'
     - 'Start: named as chair in the WG Action announcement (2009-05-13)'
     - 'End: named as chair in the WG Action announcement (2011-06-14)'
     - 'End: not listed among the chairs in meeting minutes (2012-03-25)'

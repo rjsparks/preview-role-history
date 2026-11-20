@@ -22,14 +22,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2014-07-20'
-      not_after: '2014-10-10'
+      certainty: approximate
+      date: '2014-10-10'
     end:
       certainty: group-closed
       date: '2025-05-09'
     notes:
-    - 'Start: no longer an Area Director (2014-07-20)'
+    - 'Start: the group''s record began (2014-10-10)'
   evidence:
   - kind: WG Review
     date: '2014-10-17'
@@ -67,11 +66,6 @@ chairs:
     - date: '2016-04-03'
       subject: IETF 95 minutes in the proceedings
       url: https://www.ietf.org/proceedings/95/minutes/minutes-95-pals.txt
-  - kind: joined the IESG
-    after_meeting: '77'
-    after: '2010-03-21'
-    by_meeting: '78'
-    by: '2010-07-25'
   - kind: shepherded
     documents:
     - draft-ietf-l2vpn-vpls-pe-etree
@@ -89,11 +83,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2014-10-10'
     end:
       certainty: group-closed
       date: '2025-05-09'
+    notes:
+    - 'Start: the group''s record began (2014-10-10)'
   evidence:
   - kind: WG Review
     date: '2014-10-17'

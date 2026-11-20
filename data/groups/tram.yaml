@@ -95,11 +95,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2014-01-22'
     end:
       certainty: approximate
       date: '2014-01-24'
+    notes:
+    - 'Start: the group''s record began (2014-01-22)'
   - start:
       certainty: exact
       date: '2014-02-13'
@@ -122,11 +124,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2014-01-22'
     end:
       certainty: approximate
       date: '2014-01-24'
+    notes:
+    - 'Start: the group''s record began (2014-01-22)'
   - start:
       certainty: exact
       date: '2014-02-13'

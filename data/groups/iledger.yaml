@@ -22,18 +22,22 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2016-06-10'
     end:
       certainty: group-closed
       date: '2016-06-10'
+    notes:
+    - 'Start: the group''s record began (2016-06-10)'
 - person: 111178
   name: Matthew Miller
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2016-06-10'
     end:
       certainty: group-closed
       date: '2016-06-10'
+    notes:
+    - 'Start: the group''s record began (2016-06-10)'

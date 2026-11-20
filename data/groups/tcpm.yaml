@@ -25,12 +25,14 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2004-01-15'
       not_after: '2004-02-12'
     end:
       certainty: announced
       date: '2008-06-16'
     notes:
+    - 'Start: the group''s record began (2004-01-15)'
     - 'Start: named as chair in the WG Action announcement (2004-02-12)'
     - 'End: announced on the group''s list (2008-06-16)'
   evidence:
@@ -207,13 +209,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2004-01-15'
       not_after: '2004-02-12'
     end:
       certainty: between
       not_before: '2008-07-27'
       not_after: '2009-03-10'
     notes:
+    - 'Start: the group''s record began (2004-01-15)'
     - 'Start: named as chair in the WG Action announcement (2004-02-12)'
     - 'End: requested the group''s session for IETF 72 (2008-07-27)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2009-03-10)'
@@ -352,13 +356,13 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '1993-03-29'
+      not_before: '2004-01-15'
       not_after: '2008-08-21'
     end:
       certainty: announced
       date: '2012-01-15'
     notes:
-    - 'Start: no longer an Area Director (1993-03-29)'
+    - 'Start: the group''s record began (2004-01-15)'
     - 'Start: started a last call or adoption call on the group''s list (2008-08-21)'
     - 'End: announced on the group''s list (2012-01-15)'
   evidence:
@@ -416,11 +420,6 @@ chairs:
     - date: '2011-10-21'
       subject: IETF 81 proceedings charter, as the datatracker generated it by 2011-10-21
       url: https://www.ietf.org/proceedings/81/tcpm.html
-  - kind: joined the IESG
-    after_meeting: '19'
-    after: '1990-12-03'
-    by_meeting: '20'
-    by: '1991-03-11'
 - person: 109321
   name: Pasi Sarolahti
   status: confirmed

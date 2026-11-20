@@ -104,13 +104,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2004-10-01'
       not_after: '2004-10-28'
     end:
       certainty: between
       not_before: '2005-02-25'
       not_after: '2005-03-06'
     notes:
+    - 'Start: the group''s record began (2004-10-01)'
     - 'Start: listed as chair in a proceedings charter snapshot (2004-10-28)'
     - 'End: named as chair in the WG Action announcement (2005-02-25)'
     - 'End: not listed among the chairs in meeting minutes (2005-03-06)'

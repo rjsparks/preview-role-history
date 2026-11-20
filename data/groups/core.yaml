@@ -216,13 +216,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2010-02-12'
       not_after: '2011-02-22'
     end:
       certainty: between
       not_before: '2012-05-11'
       not_after: '2013-03-10'
     notes:
+    - 'Start: the group''s record began (2010-02-12)'
     - 'Start: posted an agenda, minutes or interim notice to the group''s list (2011-02-22)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2012-05-11)'
     - 'End: not listed among the chairs in meeting minutes (2013-03-10)'

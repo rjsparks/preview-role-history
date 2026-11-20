@@ -19,10 +19,12 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2018-09-19'
     end:
       certainty: ongoing
+    notes:
+    - 'Start: the group''s record began (2018-09-19)'
   evidence:
   - kind: chair activity
     first: '2019-08-07'
@@ -117,10 +119,12 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2018-09-19'
     end:
       certainty: ongoing
+    notes:
+    - 'Start: the group''s record began (2018-09-19)'
   evidence:
   - kind: chair activity
     first: '2018-11-01'

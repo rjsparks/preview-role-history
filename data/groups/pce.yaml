@@ -28,12 +28,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2004-03-01'
       not_after: '2004-08-01'
     end:
       certainty: announced
       date: '2009-04-15'
     notes:
+    - 'Start: the group''s record began (2004-03-01)'
     - 'Start: listed as chair in meeting minutes (2004-08-01)'
     - 'End: announced on the group''s list (2009-04-15)'
   - start:

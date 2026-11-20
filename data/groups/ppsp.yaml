@@ -218,13 +218,13 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2009-08-05'
+      not_before: '2010-01-22'
       not_after: '2010-03-23'
     end:
       certainty: announced
       date: '2011-03-28'
     notes:
-    - 'Start: not listed among the chairs in meeting minutes (2009-08-05)'
+    - 'Start: the group''s record began (2010-01-22)'
     - 'Start: named as chair in the WG Action announcement (2010-03-23)'
     - 'End: announced on the group''s list (2011-03-28)'
   evidence:
@@ -246,10 +246,6 @@ chairs:
     - date: '2010-03-23'
       subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/ppsp.html
-  - kind: minutes without them
-    date: '2009-08-05'
-    subject: '[ppsp] minutes of PPSP final Bar BOF'
-    url: https://mailarchive.ietf.org/arch/msg/ppsp/jYXtTgOR0y9ScPAOaR_aYB5RpNM/
   - kind: session requests
     meetings:
     - '78'

@@ -105,13 +105,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2019-06-11'
       not_after: '2019-07-20'
     end:
       certainty: between
       not_before: '2019-07-20'
       not_after: '2020-06-19'
     notes:
+    - 'Start: the group''s record began (2019-06-11)'
     - 'Start: the BOF met at IETF 105 (2019-07-20)'
     - 'End: the BOF met at IETF 105 (2019-07-20)'
   - start:
@@ -143,13 +145,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2019-06-11'
       not_after: '2019-07-20'
     end:
       certainty: between
       not_before: '2019-07-20'
       not_after: '2020-06-19'
     notes:
+    - 'Start: the group''s record began (2019-06-11)'
     - 'Start: the BOF met at IETF 105 (2019-07-20)'
     - 'End: the BOF met at IETF 105 (2019-07-20)'
   - start:

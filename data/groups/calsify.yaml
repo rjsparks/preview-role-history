@@ -93,13 +93,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2005-06-16'
       not_after: '2005-07-27'
     end:
       certainty: between
       not_before: '2005-07-28'
       not_after: '2006-07-09'
     notes:
+    - 'Start: the group''s record began (2005-06-16)'
     - 'Start: listed as chair in a proceedings charter snapshot (2005-07-27)'
     - 'End: named as chair in the WG Action announcement (2005-07-28)'
     - 'End: became an Area Director, first serving at IETF 66 (2006-07-09)'
@@ -186,13 +188,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2005-06-16'
       not_after: '2005-07-27'
     end:
       certainty: between
       not_before: '2008-04-14'
       not_after: '2010-12-10'
     notes:
+    - 'Start: the group''s record began (2005-06-16)'
     - 'Start: listed as chair in a proceedings charter snapshot (2005-07-27)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2008-04-14)'
     - 'End: the group closed (2010-12-10)'

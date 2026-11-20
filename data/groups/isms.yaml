@@ -161,12 +161,14 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2004-09-02'
       not_after: '2004-09-23'
     end:
       certainty: announced
       date: '2005-10-19'
     notes:
+    - 'Start: the group''s record began (2004-09-02)'
     - 'Start: named as chair in the WG Action announcement (2004-09-23)'
     - 'End: announced on the group''s list (2005-10-19)'
   evidence:
@@ -229,13 +231,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2004-09-02'
       not_after: '2004-09-23'
     end:
       certainty: between
       not_before: '2007-07-22'
       not_after: '2009-08-04'
     notes:
+    - 'Start: the group''s record began (2004-09-02)'
     - 'Start: named as chair in the WG Action announcement (2004-09-23)'
     - 'End: requested the group''s session for IETF 69 (2007-07-22)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2009-08-04)'

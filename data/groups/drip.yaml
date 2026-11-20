@@ -23,14 +23,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2014-07-20'
-      not_after: '2020-02-11'
+      certainty: approximate
+      date: '2020-02-11'
     end:
       certainty: exact
       date: '2020-02-12'
     notes:
-    - 'Start: no longer an Area Director (2014-07-20)'
+    - 'Start: the group''s record began (2020-02-11)'
   evidence:
   - kind: datatracker record
     date: '2020-02-12'
@@ -41,11 +40,6 @@ chairs:
     date: '2020-02-11'
     subject: 'WG Review: Drone Remote ID Protocol (drip)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/UgvzJp5vAs8O-xHgAZ8R8nO0UHo/
-  - kind: joined the IESG
-    after_meeting: '77'
-    after: '2010-03-21'
-    by_meeting: '78'
-    by: '2010-07-25'
 - person: 106842
   name: Murray Kucherawy
   status: confirmed
@@ -67,13 +61,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2020-02-11'
       not_after: '2023-06-27'
     end:
       certainty: between
       not_before: '2025-10-21'
       not_after: '2026-06-09'
     notes:
+    - 'Start: the group''s record began (2020-02-11)'
     - 'Start: started a last call or adoption call on the group''s list (2023-06-27)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2025-10-21)'
     - 'End: the group closed (2026-06-09)'
@@ -97,11 +93,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2020-02-11'
     end:
       certainty: group-closed
       date: '2026-06-09'
+    notes:
+    - 'Start: the group''s record began (2020-02-11)'
   evidence:
   - kind: WG Review
     date: '2020-02-11'

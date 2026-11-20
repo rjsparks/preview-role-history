@@ -25,12 +25,14 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2005-05-30'
       not_after: '2005-07-10'
     end:
       certainty: announced
       date: '2007-04-16'
     notes:
+    - 'Start: the group''s record began (2005-05-30)'
     - 'Start: listed as chair in a proceedings charter snapshot (2005-07-10)'
     - 'End: announced on the group''s list (2007-04-16)'
   evidence:
@@ -164,13 +166,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2005-05-30'
       not_after: '2005-07-10'
     end:
       certainty: between
       not_before: '2006-11-16'
       not_after: '2007-02-13'
     notes:
+    - 'Start: the group''s record began (2005-05-30)'
     - 'Start: listed as chair in a proceedings charter snapshot (2005-07-10)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2006-11-16)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2007-02-13)'

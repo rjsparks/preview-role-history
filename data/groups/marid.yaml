@@ -60,14 +60,14 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2003-07-13'
+      not_before: '2004-01-15'
       not_after: '2004-02-29'
     end:
       certainty: between
       not_before: '2004-02-29'
       not_after: '2004-04-08'
     notes:
-    - 'Start: no longer an Area Director (2003-07-13)'
+    - 'Start: the group''s record began (2004-01-15)'
     - 'Start: listed as chair in meeting minutes (2004-02-29)'
     - 'End: listed as chair in meeting minutes (2004-02-29)'
     - 'End: not named among the chairs in the WG Action that chartered the group (2004-04-08)'
@@ -84,11 +84,6 @@ chairs:
     date: '2004-04-08'
     subject: 'WG Action: MTA Authorization Records in DNS (marid)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/l4ht9i7n8qcLWA5Yp_-zIDBEY4Y/
-  - kind: joined the IESG
-    after_meeting: '40'
-    after: '1997-12-08'
-    by_meeting: '41'
-    by: '1998-03-30'
 - person: 106296
   name: Andy Newton
   status: confirmed

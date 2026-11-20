@@ -97,14 +97,14 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2009-11-08'
+      not_before: '2009-12-10'
       not_after: '2010-01-26'
     end:
       certainty: between
       not_before: '2010-11-07'
       not_after: '2018-09-20'
     notes:
-    - 'Start: not listed among the chairs in meeting minutes (2009-11-08)'
+    - 'Start: the group''s record began (2009-12-10)'
     - 'Start: named as chair in the WG Action announcement (2010-01-26)'
     - 'End: listed as chair in meeting minutes (2010-11-07)'
     - 'End: the group closed (2018-09-20)'
@@ -143,10 +143,6 @@ chairs:
     - date: '2010-04-01'
       subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/codec.html
-  - kind: minutes without them
-    date: '2009-11-08'
-    subject: '[codec] updated minutes from IETF 76'
-    url: https://mailarchive.ietf.org/arch/msg/codec/xDhiifcdLtPG1cZfk-zXiDE5rzg/
 - person: 104196
   name: Eric Burger
   status: unconfirmed

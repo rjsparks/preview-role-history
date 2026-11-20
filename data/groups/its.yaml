@@ -37,14 +37,14 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2013-07-28'
+      not_before: '2013-09-24'
       not_after: '2013-11-03'
     end:
       certainty: between
       not_before: '2015-11-01'
       not_after: '2016-02-26'
     notes:
-    - 'Start: no longer an Area Director (2013-07-28)'
+    - 'Start: the group''s record began (2013-09-24)'
     - 'Start: the BOF met at IETF 88 (2013-11-03)'
     - 'End: the BOF met at IETF 94 (2015-11-01)'
   - start:
@@ -93,23 +93,20 @@ chairs:
     meeting: '96'
     date: '2016-07-17'
     url: https://www.ietf.org/proceedings/96/its.html
-  - kind: joined the IESG
-    after_meeting: '68'
-    after: '2007-03-18'
-    by_meeting: '69'
-    by: '2007-07-22'
 - person: 107247
   name: Carlos Pignataro
   status: confirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2013-09-24'
       not_after: '2013-11-03'
     end:
       certainty: between
       not_before: '2015-11-01'
       not_after: '2016-02-26'
     notes:
+    - 'Start: the group''s record began (2013-09-24)'
     - 'Start: the BOF met at IETF 88 (2013-11-03)'
     - 'End: the BOF met at IETF 94 (2015-11-01)'
   - start:

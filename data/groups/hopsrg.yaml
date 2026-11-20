@@ -19,11 +19,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2015-05-26'
     end:
       certainty: group-closed
       date: '2016-01-14'
+    notes:
+    - 'Start: the group''s record began (2015-05-26)'
   evidence:
   - kind: proceedings
     listed_in: 3
@@ -44,11 +46,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2015-05-26'
     end:
       certainty: group-closed
       date: '2016-01-14'
+    notes:
+    - 'Start: the group''s record began (2015-05-26)'
   evidence:
   - kind: proceedings
     listed_in: 3

@@ -25,13 +25,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2015-02-12'
     end:
       certainty: between
       not_before: '2015-03-22'
       not_after: '2015-05-29'
     notes:
+    - 'Start: the group''s record began (2015-02-12)'
     - 'End: the BOF met at IETF 92 (2015-03-22)'
     - 'End: the group closed (2015-05-29)'
   evidence:
@@ -52,13 +53,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2015-02-12'
     end:
       certainty: between
       not_before: '2015-05-07'
       not_after: '2015-05-29'
     notes:
+    - 'Start: the group''s record began (2015-02-12)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2015-05-07)'
     - 'End: the group closed (2015-05-29)'
   evidence:

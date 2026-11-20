@@ -28,10 +28,12 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2014-06-11'
     end:
       certainty: group-closed
+    notes:
+    - 'Start: the group''s record began (2014-06-11)'
   evidence:
   - kind: proceedings
     listed_in: 1
@@ -85,12 +87,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2014-06-11'
     end:
       certainty: between
       not_before: '2014-09-11'
       not_after: '2014-10-02'
+    notes:
+    - 'Start: the group''s record began (2014-06-11)'
   - start:
       certainty: exact
       date: '2014-10-02'

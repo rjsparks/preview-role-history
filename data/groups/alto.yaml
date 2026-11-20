@@ -32,14 +32,14 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2006-07-09'
+      not_before: '2008-09-18'
       not_after: '2008-11-12'
     end:
       certainty: between
       not_before: '2011-07-24'
       not_after: '2011-11-13'
     notes:
-    - 'Start: no longer an Area Director (2006-07-09)'
+    - 'Start: the group''s record began (2008-09-18)'
     - 'Start: named as chair in the WG Action announcement (2008-11-12)'
     - 'End: listed as chair in meeting minutes (2011-07-24)'
     - 'End: not listed among the chairs in meeting minutes (2011-11-13)'
@@ -92,11 +92,6 @@ chairs:
     date: '2011-11-13'
     subject: IETF 82 minutes in the proceedings
     url: https://www.ietf.org/proceedings/82/minutes/alto.html
-  - kind: joined the IESG
-    after_meeting: '56'
-    after: '2003-03-16'
-    by_meeting: '57'
-    by: '2003-07-13'
 - person: 106812
   name: Vijay Gurbani
   status: confirmed

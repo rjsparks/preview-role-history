@@ -83,14 +83,14 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2012-07-29'
+      not_before: '2013-01-31'
       not_after: '2013-03-10'
     end:
       certainty: between
       not_before: '2013-03-10'
       not_after: '2013-06-20'
     notes:
-    - 'Start: no longer an Area Director (2012-07-29)'
+    - 'Start: the group''s record began (2013-01-31)'
     - 'Start: the BOF met at IETF 86 (2013-03-10)'
     - 'End: the BOF met at IETF 86 (2013-03-10)'
   - start:
@@ -112,11 +112,6 @@ chairs:
     meeting: '87'
     date: '2013-07-28'
     url: https://datatracker.ietf.org/meeting/87/session/iprbis/
-  - kind: joined the IESG
-    after_meeting: '65'
-    after: '2006-03-19'
-    by_meeting: '66'
-    by: '2006-07-09'
   - kind: joined the IESG
     after_meeting: '86'
     after: '2013-03-10'

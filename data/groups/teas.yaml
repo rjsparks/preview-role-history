@@ -22,11 +22,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2014-11-08'
     end:
       certainty: exact
       date: '2024-07-25'
+    notes:
+    - 'Start: the group''s record began (2014-11-08)'
   evidence:
   - kind: datatracker record
     date: '2024-07-25'
@@ -100,11 +102,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2014-11-08'
     end:
       certainty: exact
       date: '2015-03-04'
+    notes:
+    - 'Start: the group''s record began (2014-11-08)'
   evidence:
   - kind: datatracker record
     date: '2015-03-04'

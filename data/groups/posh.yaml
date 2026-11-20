@@ -25,15 +25,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2011-07-24'
-      not_after: '2013-06-20'
+      certainty: approximate
+      date: '2013-06-20'
     end:
       certainty: between
       not_before: '2013-07-28'
       not_after: '2016-07-17'
     notes:
-    - 'Start: no longer an Area Director (2011-07-24)'
+    - 'Start: the group''s record began (2013-06-20)'
     - 'End: the BOF met at IETF 87 (2013-07-28)'
     - 'End: became an Area Director, first serving at IETF 96 (2016-07-17)'
   evidence:
@@ -58,11 +57,6 @@ chairs:
     date: '2013-07-28'
     url: https://datatracker.ietf.org/meeting/87/session/posh/
   - kind: joined the IESG
-    after_meeting: '74'
-    after: '2009-03-22'
-    by_meeting: '75'
-    by: '2009-07-26'
-  - kind: joined the IESG
     after_meeting: '95'
     after: '2016-04-03'
     by_meeting: '96'
@@ -72,13 +66,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2013-06-20'
     end:
       certainty: between
       not_before: '2013-07-28'
       not_after: '2014-07-20'
     notes:
+    - 'Start: the group''s record began (2013-06-20)'
     - 'End: the BOF met at IETF 87 (2013-07-28)'
     - 'End: became an Area Director, first serving at IETF 90 (2014-07-20)'
   evidence:

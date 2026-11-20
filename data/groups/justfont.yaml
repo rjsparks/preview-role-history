@@ -22,11 +22,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2015-11-05'
     end:
       certainty: group-closed
       date: '2017-03-01'
+    notes:
+    - 'Start: the group''s record began (2015-11-05)'
   evidence:
   - kind: WG Review
     date: '2015-12-04'
@@ -55,11 +57,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2015-11-05'
     end:
       certainty: group-closed
       date: '2017-03-01'
+    notes:
+    - 'Start: the group''s record began (2015-11-05)'
   evidence:
   - kind: WG Review
     date: '2015-12-04'

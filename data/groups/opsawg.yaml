@@ -315,13 +315,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2007-05-17'
       not_after: '2007-06-19'
     end:
       certainty: between
       not_before: '2008-11-16'
       not_after: '2009-11-17'
     notes:
+    - 'Start: the group''s record began (2007-05-17)'
     - 'Start: listed as chair in a proceedings charter snapshot (2007-06-19)'
     - 'End: requested the group''s session for IETF 73 (2008-11-16)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2009-11-17)'

@@ -141,14 +141,14 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2007-03-18'
+      not_before: '2007-06-07'
       not_after: '2007-06-26'
     end:
       certainty: between
       not_before: '2008-02-04'
       not_after: '2009-09-25'
     notes:
-    - 'Start: not listed among the chairs in meeting minutes (2007-03-18)'
+    - 'Start: the group''s record began (2007-06-07)'
     - 'Start: named as chair in the WG Action announcement (2007-06-26)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2008-02-04)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2009-09-25)'
@@ -185,10 +185,6 @@ chairs:
     - date: '2009-03-30'
       subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/bliss.html
-  - kind: minutes without them
-    date: '2007-03-18'
-    subject: IETF 68 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/68/minutes/bliss.html
   - kind: minutes without them
     date: '2009-09-25'
     subject: IETF 75 proceedings charter, as last modified

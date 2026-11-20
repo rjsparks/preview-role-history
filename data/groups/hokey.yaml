@@ -22,13 +22,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2006-09-22'
       not_after: '2006-10-31'
     end:
       certainty: between
       not_before: '2009-03-22'
       not_after: '2009-07-20'
     notes:
+    - 'Start: the group''s record began (2006-09-22)'
     - 'Start: listed as chair in a proceedings charter snapshot (2006-10-31)'
     - 'End: requested the group''s session for IETF 74 (2009-03-22)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2009-07-20)'

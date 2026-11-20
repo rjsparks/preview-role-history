@@ -49,13 +49,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2019-02-15'
     end:
       certainty: between
       not_before: '2019-03-23'
       not_after: '2019-06-11'
     notes:
+    - 'Start: the group''s record began (2019-02-15)'
     - 'End: the BOF met at IETF 104 (2019-03-23)'
     - 'End: the group closed (2019-06-11)'
   evidence:

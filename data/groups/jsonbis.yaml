@@ -22,11 +22,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2015-06-01'
     end:
       certainty: group-closed
       date: '2017-12-18'
+    notes:
+    - 'Start: the group''s record began (2015-06-01)'
   evidence:
   - kind: WG Review
     date: '2015-06-12'

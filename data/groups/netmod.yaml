@@ -25,12 +25,14 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2008-04-03'
       not_after: '2008-04-30'
     end:
       certainty: announced
       date: '2010-10-12'
     notes:
+    - 'Start: the group''s record began (2008-04-03)'
     - 'Start: named as chair in the WG Action announcement (2008-04-30)'
     - 'End: announced on the group''s list (2010-10-12)'
   evidence:
@@ -176,12 +178,14 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2008-04-03'
       not_after: '2008-04-30'
     end:
       certainty: announced
       date: '2008-11-16'
     notes:
+    - 'Start: the group''s record began (2008-04-03)'
     - 'Start: named as chair in the WG Action announcement (2008-04-30)'
     - 'End: announced on the group''s list (2008-11-16)'
   evidence:

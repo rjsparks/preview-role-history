@@ -28,14 +28,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '1998-03-30'
-      not_after: '2016-02-26'
+      certainty: approximate
+      date: '2016-02-26'
     end:
       certainty: exact
       date: '2016-05-09'
     notes:
-    - 'Start: no longer an Area Director (1998-03-30)'
+    - 'Start: the group''s record began (2016-02-26)'
   evidence:
   - kind: datatracker record
     date: '2016-05-09'
@@ -61,11 +60,6 @@ chairs:
     - date: '2016-03-21'
       subject: IETF 94 proceedings charter, as the datatracker generated it by 2016-03-21
       url: https://www.ietf.org/proceedings/94/babel.html
-  - kind: joined the IESG
-    after_meeting: '28'
-    after: '1993-11-01'
-    by_meeting: '29'
-    by: '1994-03-28'
 - person: 102391
   name: Donald Eastlake
   status: confirmed

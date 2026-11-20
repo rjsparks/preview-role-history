@@ -25,13 +25,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2017-10-05'
     end:
       certainty: between
       not_before: '2017-11-11'
       not_after: '2018-02-05'
     notes:
+    - 'Start: the group''s record began (2017-10-05)'
     - 'End: the BOF met at IETF 100 (2017-11-11)'
     - 'End: the group closed (2018-02-05)'
   evidence:
@@ -44,13 +45,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2017-10-05'
     end:
       certainty: between
       not_before: '2017-11-11'
       not_after: '2018-02-05'
     notes:
+    - 'Start: the group''s record began (2017-10-05)'
     - 'End: the BOF met at IETF 100 (2017-11-11)'
     - 'End: the group closed (2018-02-05)'
   evidence:

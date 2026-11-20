@@ -55,13 +55,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2005-10-01'
       not_after: '2005-10-17'
     end:
       certainty: between
       not_before: '2011-03-27'
       not_after: '2011-07-24'
     notes:
+    - 'Start: the group''s record began (2005-10-01)'
     - 'Start: listed as chair in a proceedings charter snapshot (2005-10-17)'
     - 'End: requested the group''s session for IETF 80 (2011-03-27)'
     - 'End: became an Area Director, first serving at IETF 81 (2011-07-24)'
@@ -134,13 +136,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2005-10-01'
       not_after: '2005-10-17'
     end:
       certainty: between
       not_before: '2011-04-12'
       not_after: '2012-07-29'
     notes:
+    - 'Start: the group''s record began (2005-10-01)'
     - 'Start: listed as chair in a proceedings charter snapshot (2005-10-17)'
     - 'End: started a last call or adoption call on the group''s list (2011-04-12)'
     - 'End: became an Area Director, first serving at IETF 84 (2012-07-29)'

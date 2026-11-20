@@ -25,10 +25,12 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2016-01-13'
     end:
       certainty: ongoing
+    notes:
+    - 'Start: the group''s record began (2016-01-13)'
   evidence:
   - kind: chair activity
     first: '2016-04-19'

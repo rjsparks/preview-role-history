@@ -89,13 +89,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2009-04-27'
     end:
       certainty: group-closed
       date: '2016-02-24'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2009-04-27)'
+    - 'Start: the group''s record began (2009-04-27)'
   evidence:
   - kind: WG Action
     date: '2009-08-04'

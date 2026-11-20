@@ -25,11 +25,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2013-06-20'
     end:
       certainty: approximate
       date: '2013-09-05'
+    notes:
+    - 'Start: the group''s record began (2013-06-20)'
 - person: 106530
   name: Dorothy Gellert
   status: confirmed
@@ -77,11 +79,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
+      certainty: approximate
       date: '2013-06-20'
     end:
       certainty: approximate
       date: '2013-09-05'
+    notes:
+    - 'Start: the group''s record began (2013-06-20)'
   - start:
       certainty: exact
       date: '2013-09-27'
