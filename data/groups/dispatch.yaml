@@ -225,19 +225,8 @@ chairs:
       certainty: exact
       date: '2019-02-11'
     notes:
-    - 'Start: became an Area Director, first serving at IETF 66 (2006-07-09)'
+    - 'Start: no longer an Area Director (2010-07-25)'
     - 'Start: listed as chair in a proceedings charter snapshot (2011-05-03)'
-  - start:
-      certainty: between
-      not_before: '2019-03-23'
-      not_after: '2022-07-25'
-    end:
-      certainty: evidence-only
-      not_before: '2022-07-25'
-    notes:
-    - 'Start: not listed among the chairs in meeting minutes (2019-03-23)'
-    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2022-07-25)'
-    - 'End: posted an agenda, minutes or interim notice to the group''s list (2022-07-25)'
   evidence:
   - kind: datatracker record
     date: '2019-02-11'
@@ -261,8 +250,8 @@ chairs:
       and welcomed Ben Campbell as the new co-chair.
   - kind: chair activity
     first: '2014-12-19'
-    last: '2022-07-25'
-    messages: 5
+    last: '2017-07-12'
+    messages: 4
     examples:
     - date: '2014-12-19'
       subject: '[dispatch] Draft minutes from IETF 91'
@@ -301,10 +290,6 @@ chairs:
     - date: '2017-04-12'
       subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/dispatch.html
-  - kind: minutes without them
-    date: '2019-03-23'
-    subject: '[dispatch] DISPATCH Minutes'
-    url: https://mailarchive.ietf.org/arch/msg/dispatch/Fld6mY5y5hkSD4E9OqI6_0Px1us/
   - kind: joined the IESG
     after_meeting: '65'
     after: '2006-03-19'

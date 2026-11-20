@@ -236,19 +236,6 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2014-11-09'
-      not_after: '2015-05-13'
-    end:
-      certainty: between
-      not_before: '2015-06-02'
-      not_after: '2015-07-19'
-    notes:
-    - 'Start: not listed among the chairs in meeting minutes (2014-11-09)'
-    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2015-05-13)'
-    - 'End: posted an agenda, minutes or interim notice to the group''s list (2015-06-02)'
-    - 'End: not listed among the chairs in meeting minutes (2015-07-19)'
-  - start:
       certainty: exact
       date: '2015-09-10'
     end:
@@ -265,17 +252,16 @@ chairs:
     subject: 'WG Action: Formed Interface to Network Security Functions (i2nsf)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/yMjxyQT_dEWLHkjAWOmv4dXJudY/
   - kind: chair activity
-    first: '2015-05-13'
+    first: '2015-11-09'
     last: '2023-03-27'
-    messages: 63
+    messages: 58
     examples:
-    - date: '2015-05-13'
-      subject: '[I2nsf] Interim meeting to reach consensus on I2NSF charter'
-      url: https://mailarchive.ietf.org/arch/msg/i2nsf/TlHpvXqR5j1RwuOwuqWKJOEFkfY/
-    - date: '2015-05-19'
-      subject: '[I2nsf] Interim Meeting to reach consensus on I2NSF charter, and discuss if the problem
-        & framework drafts reflect the updated I2NSF charter'
-      url: https://mailarchive.ietf.org/arch/msg/i2nsf/6pFHgOTdQEF3N6iinhGUOv4xAdk/
+    - date: '2015-11-09'
+      subject: '[I2nsf] IETF94 I2NSF meeting minutes has been posted'
+      url: https://mailarchive.ietf.org/arch/msg/i2nsf/wF5i_lCMXoxfJDCxD9kjEW_EHu4/
+    - date: '2016-03-01'
+      subject: '[I2nsf] Call for Agenda Items for Buenos Aires'
+      url: https://mailarchive.ietf.org/arch/msg/i2nsf/GqrLM6NUvxJXpi_JgvqGMfyaSk8/
     - date: '2016-09-21'
       subject: '[I2nsf] Call for WG adoption of draft-kumar-i2nsf-client-facing-interface-req'
       url: https://mailarchive.ietf.org/arch/msg/i2nsf/RRiNGmkZquxZQEiRaGoxLxD6Img/
@@ -299,14 +285,6 @@ chairs:
     - date: '2017-04-12'
       subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/i2nsf.html
-  - kind: minutes without them
-    date: '2014-11-09'
-    subject: IETF 91 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/91/i2nsf.html
-  - kind: minutes without them
-    date: '2015-07-19'
-    subject: IETF 93 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/93/minutes/minutes-93-i2nsf.txt
   - kind: shepherded
     documents:
     - draft-ietf-i2nsf-applicability

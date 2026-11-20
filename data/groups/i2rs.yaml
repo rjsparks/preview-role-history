@@ -22,18 +22,6 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2014-03-02'
-      not_after: '2014-06-17'
-    end:
-      certainty: between
-      not_before: '2014-06-17'
-      not_after: '2014-11-14'
-    notes:
-    - 'Start: not listed among the chairs in meeting minutes (2014-03-02)'
-    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2014-06-17)'
-    - 'End: posted an agenda, minutes or interim notice to the group''s list (2014-06-17)'
-  - start:
       certainty: exact
       date: '2014-11-14'
     end:
@@ -50,19 +38,20 @@ chairs:
     subject: 'WG Action: Rechartered Interface to the Routing System (i2rs)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/83fuvk5BTfA03CKjoBtvW8Vn1eI/
   - kind: chair activity
-    first: '2014-06-17'
+    first: '2014-11-25'
     last: '2017-11-09'
-    messages: 61
+    messages: 60
     examples:
-    - date: '2014-06-17'
-      subject: '[i2rs] Security Considerations interim draft posted'
-      url: https://mailarchive.ietf.org/arch/msg/i2rs/Dyou178jqy3nwrt7ANi2h9A31O8/
     - date: '2014-11-25'
       subject: '[i2rs] WG Adoption call for draft-clarke-i2rs-traceability-03 from 11/24 to 12/9/14'
       url: https://mailarchive.ietf.org/arch/msg/i2rs/sSEyaPOzYWsVQib6ftEaCq1vy1c/
     - date: '2014-12-02'
       subject: '[i2rs] I2RS interim meeting time 10-11 ET /7-8 PT on 12/11'
       url: https://mailarchive.ietf.org/arch/msg/i2rs/fIWjcaiCXZmllqVM5zNjtOIbWlk/
+    - date: '2014-12-10'
+      subject: '[i2rs] I2RS Interim on 12/11/2014 at 10:00am - 11:00am ET (Thursday December 11th) Webex
+        and agendas'
+      url: https://mailarchive.ietf.org/arch/msg/i2rs/iUEJmXT8TuVpJoMDx_yoqyEWVqk/
     - date: '2015-03-10'
       subject: '[i2rs] WG Adoption call for draft-wang-i2rs-rib-data-model-02 ('
       url: https://mailarchive.ietf.org/arch/msg/i2rs/Z7mTBIZIe6UJhbv-jueD3WpPX1c/
@@ -83,10 +72,6 @@ chairs:
     - date: '2017-04-12'
       subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/i2rs.html
-  - kind: minutes without them
-    date: '2014-03-02'
-    subject: IETF 89 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/89/minutes/minutes-89-i2rs.txt
   - kind: shepherded
     documents:
     - draft-ietf-i2rs-pub-sub-requirements

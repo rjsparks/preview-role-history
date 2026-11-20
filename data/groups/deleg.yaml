@@ -33,16 +33,6 @@ chairs:
     end:
       certainty: exact
       date: '2024-05-03'
-  - start:
-      certainty: between
-      not_before: '2024-05-03'
-      not_after: '2025-06-17'
-    end:
-      certainty: evidence-only
-      not_before: '2025-06-17'
-    notes:
-    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2025-06-17)'
-    - 'End: posted an agenda, minutes or interim notice to the group''s list (2025-06-17)'
   evidence:
   - kind: datatracker record
     date: '2024-03-06'
@@ -56,15 +46,12 @@ chairs:
     url: https://datatracker.ietf.org/group/deleg/history/
   - kind: chair activity
     first: '2024-03-06'
-    last: '2025-06-17'
-    messages: 2
+    last: '2024-03-06'
+    messages: 1
     examples:
     - date: '2024-03-06'
       subject: '[dd] Proposed agenda for the BoF meeting at IETF 119 in Brisbane'
       url: https://mailarchive.ietf.org/arch/msg/dd/KEKtKpd9N7_r1j7ujmybtS_ZWIE/
-    - date: '2025-06-17'
-      subject: '[dd] Instructions for today''s virtual interim meeting'
-      url: https://mailarchive.ietf.org/arch/msg/dd/yg9k8cQ4Me4G--ZA72NSYbVs40I/
 - person: 20778
   name: Duane Wessels
   status: confirmed

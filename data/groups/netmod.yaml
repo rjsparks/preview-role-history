@@ -583,19 +583,6 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2014-07-20'
-      not_after: '2014-11-14'
-    end:
-      certainty: between
-      not_before: '2014-11-14'
-      not_after: '2015-03-22'
-    notes:
-    - 'Start: not listed among the chairs in meeting minutes (2014-07-20)'
-    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2014-11-14)'
-    - 'End: posted an agenda, minutes or interim notice to the group''s list (2014-11-14)'
-    - 'End: not listed among the chairs in meeting minutes (2015-03-22)'
-  - start:
       certainty: exact
       date: '2015-05-13'
     end:
@@ -621,13 +608,10 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/netmod/zPFwxiw_KXJ3eM-RWbhxooiFUMI/
     excerpt: Please welcome Kent Watsen, who has accepted to serve as NETMOD co-chair.
   - kind: chair activity
-    first: '2014-11-14'
+    first: '2015-05-22'
     last: '2026-11-04'
-    messages: 84
+    messages: 83
     examples:
-    - date: '2014-11-14'
-      subject: '[netmod] minutes for Nov 13 meeting'
-      url: https://mailarchive.ietf.org/arch/msg/netmod/Vi646M686yw1tmKNtPJO3RlXCDM/
     - date: '2015-05-22'
       subject: '[netmod] scheduling interim meetings'
       url: https://mailarchive.ietf.org/arch/msg/netmod/NALIJOATS_blSJc0TMOTfTeMxVg/
@@ -637,6 +621,9 @@ chairs:
     - date: '2015-06-15'
       subject: '[netmod] WG Last Call for draft-ietf-netmod-yang-metadata-01 (until 2015-06-29)'
       url: https://mailarchive.ietf.org/arch/msg/netmod/Y6_eqgV8Kfrdi64VRiE3St6voeM/
+    - date: '2015-06-23'
+      subject: '[netmod] follow-up from virtual interim and i2rs discussions'
+      url: https://mailarchive.ietf.org/arch/msg/netmod/H9T9fvJcWiazSJ79Ir4mpVGJAHc/
     - date: '2015-09-21'
       subject: '[netmod] WG Last Call for draft-ietf-netmod-yang-json-05 (until 2015-10-05)'
       url: https://mailarchive.ietf.org/arch/msg/netmod/jCfddDA9iHbTpkTMMjDm04YgO6g/
@@ -662,14 +649,6 @@ chairs:
     - date: '2016-11-13'
       subject: IETF 97 proceedings charter, as the datatracker generated it by 2016-11-13
       url: https://www.ietf.org/proceedings/97/netmod.html
-  - kind: minutes without them
-    date: '2014-07-20'
-    subject: IETF 90 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/90/minutes/minutes-90-netmod.txt
-  - kind: minutes without them
-    date: '2015-03-22'
-    subject: IETF 92 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/92/minutes/minutes-92-netmod.txt
   - kind: shepherded
     documents:
     - draft-ietf-netmod-acl-model

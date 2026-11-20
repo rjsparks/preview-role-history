@@ -83,16 +83,6 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '2016-12-11'
-    end:
-      certainty: between
-      not_before: '2017-04-13'
-      not_after: '2017-09-07'
-    notes:
-    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2016-12-11)'
-    - 'End: posted an agenda, minutes or interim notice to the group''s list (2017-04-13)'
-  - start:
       certainty: exact
       date: '2017-09-07'
     end:
@@ -112,17 +102,6 @@ chairs:
     date: '2017-09-29'
     subject: 'WG Review: IDentity Enabled Networks (ideas)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Cdy1nxzKzStkBJkwZ04bDiB5afM/
-  - kind: chair activity
-    first: '2016-12-11'
-    last: '2017-04-13'
-    messages: 2
-    examples:
-    - date: '2016-12-11'
-      subject: '[Ideas] Minutes of IDEAS side meeting @IETF97'
-      url: https://mailarchive.ietf.org/arch/msg/ideas/2UzD9yOCABW-3o9crat-fsm9Fow/
-    - date: '2017-04-13'
-      subject: '[Ideas] IDEAS @IETF98 Minutes'
-      url: https://mailarchive.ietf.org/arch/msg/ideas/OAuopLKONpRrFHozwDOzVqdnT6Q/
   - kind: BOF session
     meeting: '99'
     date: '2017-07-16'

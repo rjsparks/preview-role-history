@@ -238,18 +238,6 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2016-07-17'
-      not_after: '2018-02-14'
-    end:
-      certainty: between
-      not_before: '2018-02-14'
-      not_after: '2020-01-15'
-    notes:
-    - 'Start: not listed among the chairs in meeting minutes (2016-07-17)'
-    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2018-02-14)'
-    - 'End: posted an agenda, minutes or interim notice to the group''s list (2018-02-14)'
-  - start:
       certainty: exact
       date: '2020-01-15'
     end:
@@ -285,29 +273,25 @@ chairs:
     subject: 'WG Action: Rechartered QUIC (quic)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/_vKewM99w_NSIWHZ7U1u-60bqME/
   - kind: chair activity
-    first: '2018-02-14'
+    first: '2020-02-07'
     last: '2026-11-07'
-    messages: 43
+    messages: 42
     examples:
-    - date: '2018-02-14'
-      subject: Multipath Milestones
-      url: https://mailarchive.ietf.org/arch/msg/quic/0Gj2gRXcgqUCuNnCubDDkwWOrhE/
     - date: '2020-02-07'
       subject: DRAFT minutes for the Zurich interim
       url: https://mailarchive.ietf.org/arch/msg/quic/auOqIkwWcYRLqkTR2tzQDs1gnrY/
     - date: '2020-06-10'
       subject: 'Working Group Last Call: QUIC protocol drafts'
       url: https://mailarchive.ietf.org/arch/msg/quic/F7wvKGnA1FJasmaE35XIxsc2Tno/
+    - date: '2021-03-16'
+      subject: Draft minutes for IETF 110...
+      url: https://mailarchive.ietf.org/arch/msg/quic/3LII2HcWbMD08mHkLL_np4FPUas/
     - date: '2021-05-17'
       subject: 'Call for adoption: qlog documents (main schema, QUIC events, HTTP/3 & QPACK events)'
       url: https://mailarchive.ietf.org/arch/msg/quic/fNxWYK84UjNzRJfPeU6DzU_lSW8/
     - date: '2021-09-16'
       subject: WGLC for Datagram Extension
       url: https://mailarchive.ietf.org/arch/msg/quic/N8HG0Bdsc6kmw6yi8gs8_CVF6qU/
-  - kind: minutes without them
-    date: '2016-07-17'
-    subject: IETF 96 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-quic.txt
   - kind: shepherded
     documents:
     - draft-ietf-quic-bit-grease

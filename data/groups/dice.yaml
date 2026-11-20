@@ -30,27 +30,6 @@ chairs:
     end:
       certainty: approximate
       date: '2013-09-05'
-  - start:
-      certainty: between
-      not_before: '2013-09-05'
-      not_after: '2016-01-25'
-    end:
-      certainty: between
-      not_before: '2016-01-25'
-      not_after: '2016-01-25'
-    notes:
-    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2016-03-05)'
-    - 'End: posted an agenda, minutes or interim notice to the group''s list (2016-03-05)'
-    - 'End: the group closed (2016-01-25)'
-  evidence:
-  - kind: chair activity
-    first: '2016-01-25'
-    last: '2016-01-25'
-    messages: 1
-    examples:
-    - date: '2016-01-25'
-      subject: '[Dtls-iot] Constrained Node/Network Cluster @ IETF95: DRAFT AGENDA'
-      url: https://mailarchive.ietf.org/arch/msg/dtls-iot/9XP3Gab8UK6HpKyIb38mH_26Eak/
 - person: 106530
   name: Dorothy Gellert
   status: confirmed

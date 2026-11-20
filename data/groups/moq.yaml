@@ -170,16 +170,6 @@ chairs:
     end:
       certainty: exact
       date: '2025-03-20'
-  - start:
-      certainty: between
-      not_before: '2025-03-20'
-      not_after: '2025-08-04'
-    end:
-      certainty: evidence-only
-      not_before: '2026-10-26'
-    notes:
-    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2025-08-04)'
-    - 'End: posted an agenda, minutes or interim notice to the group''s list (2026-10-26)'
   evidence:
   - kind: datatracker record
     date: '2022-02-11'
@@ -202,8 +192,8 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/UKeI58iO_DeET-X0yXGJqB-6NMs/
   - kind: chair activity
     first: '2022-03-30'
-    last: '2026-10-26'
-    messages: 35
+    last: '2025-04-25'
+    messages: 26
     examples:
     - date: '2022-03-30'
       subject: '[Moq] Minutes from MoQ BoF'

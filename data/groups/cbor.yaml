@@ -193,19 +193,6 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2018-07-14'
-      not_after: '2018-08-07'
-    end:
-      certainty: between
-      not_before: '2018-08-07'
-      not_after: '2018-08-08'
-    notes:
-    - 'Start: not listed among the chairs in meeting minutes (2018-07-14)'
-    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2018-08-07)'
-    - 'End: posted an agenda, minutes or interim notice to the group''s list (2018-08-07)'
-    - 'End: not listed among the chairs in meeting minutes (2018-08-08)'
-  - start:
       certainty: exact
       date: '2019-03-23'
     end:
@@ -237,13 +224,10 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/cbor/pCldrp3HtW8AXrkjvcoF_75dyI4/
     excerpt: I am also pleased to announce that Jim Schaad has agreed to co-chair the WG.
   - kind: chair activity
-    first: '2018-08-07'
+    first: '2019-07-29'
     last: '2020-07-13'
-    messages: 3
+    messages: 2
     examples:
-    - date: '2018-08-07'
-      subject: '[Cbor] Agenda for tomorrow'
-      url: https://mailarchive.ietf.org/arch/msg/cbor/Zo67wDwKxcGNLl6-8DbVXlMqv8Q/
     - date: '2019-07-29'
       subject: '[Cbor] Adoption call for CBOR Sequences'
       url: https://mailarchive.ietf.org/arch/msg/cbor/HjAAEkPicOCxe_M4EFEZiDYH0K4/
@@ -258,14 +242,6 @@ chairs:
     - date: '2020-05-06'
       subject: '[Cbor] Minutes interim 2020-05-06'
       url: https://mailarchive.ietf.org/arch/msg/cbor/AaJUPlHICIKG0EBuLpX95njFy1c/
-  - kind: minutes without them
-    date: '2018-07-14'
-    subject: '[Cbor] Minutes IETF102 CBOR'
-    url: https://mailarchive.ietf.org/arch/msg/cbor/gr85btGI3IJPJVJnDGelUEwrBYQ/
-  - kind: minutes without them
-    date: '2018-08-08'
-    subject: '[Cbor] Minutes from 1st webex call'
-    url: https://mailarchive.ietf.org/arch/msg/cbor/5RqY-vtdALAe3RLu5ctMR1J3Rbs/
   - kind: shepherded
     documents:
     - draft-ietf-cbor-sequence

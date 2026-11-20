@@ -123,7 +123,7 @@ chairs:
       certainty: exact
       date: '2014-02-17'
     notes:
-    - 'Start: became an Area Director, first serving at IETF 44 (1999-03-14)'
+    - 'Start: no longer an Area Director (2003-11-09)'
     - 'Start: listed as chair in a proceedings charter snapshot (2005-02-07)'
   evidence:
   - kind: datatracker record
@@ -215,19 +215,6 @@ chairs:
       date: '2014-09-25'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2006-01-31)'
-  - start:
-      certainty: between
-      not_before: '2016-07-17'
-      not_after: '2018-02-15'
-    end:
-      certainty: between
-      not_before: '2018-02-15'
-      not_after: '2018-03-19'
-    notes:
-    - 'Start: not listed among the chairs in meeting minutes (2016-07-17)'
-    - 'Start: started a last call or adoption call on the group''s list (2018-02-15)'
-    - 'End: started a last call or adoption call on the group''s list (2018-02-15)'
-    - 'End: the group closed (2018-03-19)'
   evidence:
   - kind: datatracker record
     date: '2014-09-25'
@@ -260,8 +247,8 @@ chairs:
     implied: another chair became the sole chair
   - kind: chair activity
     first: '2012-10-25'
-    last: '2018-02-15'
-    messages: 14
+    last: '2014-04-05'
+    messages: 13
     examples:
     - date: '2012-10-25'
       subject: '[trill] WG Last Call: draft-ietf-trill-directory-framework-01.txt'
@@ -300,10 +287,6 @@ chairs:
     - date: '2012-10-02'
       subject: IETF 84 proceedings charter, as the datatracker generated it by 2012-10-02
       url: https://www.ietf.org/proceedings/84/trill.html
-  - kind: minutes without them
-    date: '2016-07-17'
-    subject: IETF 96 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-trill.html
   - kind: session requests
     meetings:
     - '65'

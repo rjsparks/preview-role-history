@@ -379,16 +379,6 @@ chairs:
     end:
       certainty: exact
       date: '2023-11-21'
-  - start:
-      certainty: between
-      not_before: '2023-11-21'
-      not_after: '2024-07-04'
-    end:
-      certainty: evidence-only
-      not_before: '2026-07-06'
-    notes:
-    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2024-07-04)'
-    - 'End: started a last call or adoption call on the group''s list (2026-07-06)'
   evidence:
   - kind: datatracker record
     date: '2019-11-21'
@@ -411,8 +401,8 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/fWbEQGfPyd52pkmbE0oLhn9drZc/
   - kind: chair activity
     first: '2016-06-15'
-    last: '2026-07-06'
-    messages: 22
+    last: '2022-10-13'
+    messages: 19
     examples:
     - date: '2016-06-15'
       subject: '[nfsv4] Is it time for a -00 for the IETF96 wg meeting draft agenda?'
@@ -441,18 +431,6 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2007-12-02'
-      not_after: '2016-03-22'
-    end:
-      certainty: between
-      not_before: '2020-07-10'
-      not_after: '2026-06-10'
-    notes:
-    - 'Start: not listed among the chairs in meeting minutes (2007-12-02)'
-    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2016-03-22)'
-    - 'End: posted an agenda, minutes or interim notice to the group''s list (2020-07-10)'
-  - start:
       certainty: exact
       date: '2026-06-10'
     end:
@@ -464,23 +442,13 @@ chairs:
     text: Chair changed to Brian Pawlowski, Chuck Lever from Brian Pawlowski
     url: https://datatracker.ietf.org/group/nfsv4/history/
   - kind: chair activity
-    first: '2016-03-22'
+    first: '2026-07-30'
     last: '2026-07-30'
-    messages: 5
+    messages: 1
     examples:
-    - date: '2016-03-22'
-      subject: '[nfsv4] draft agenda for this afternoon''s RDMA design call'
-      url: https://mailarchive.ietf.org/arch/msg/nfsv4/ZhDCTiyJXefMPPTG5MH87f4I_zc/
-    - date: '2019-08-01'
-      subject: '[nfsv4] IETF 105 minutes'
-      url: https://mailarchive.ietf.org/arch/msg/nfsv4/iv-GNmDBlHIYduhwGoe3v8XKP24/
     - date: '2026-07-30'
       subject: '[nfsv4] WG Last Call (2nd): draft-ietf-nfsv4-uncacheable-directories-09 (Ends 2026-08-20)'
       url: https://mailarchive.ietf.org/arch/msg/nfsv4/FxbBc4PoRIBuWrk--JcB9GJrgA8/
-  - kind: minutes without them
-    date: '2007-12-02'
-    subject: IETF 70 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/70/minutes/nfsv4.txt
   - kind: shepherded
     documents:
     - draft-ietf-nfsv4-uncacheable-directories

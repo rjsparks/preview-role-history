@@ -37,17 +37,6 @@ chairs:
     notes:
     - 'Start: named as chair in the WG Action announcement (2010-03-09)'
   - start:
-      certainty: between
-      not_before: '2020-03-11'
-      not_after: '2020-06-27'
-    end:
-      certainty: between
-      not_before: '2020-10-16'
-      not_after: '2021-02-24'
-    notes:
-    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2020-06-27)'
-    - 'End: posted an agenda, minutes or interim notice to the group''s list (2020-10-16)'
-  - start:
       certainty: exact
       date: '2021-02-24'
     end:
@@ -94,7 +83,7 @@ chairs:
   - kind: chair activity
     first: '2010-12-12'
     last: '2026-06-23'
-    messages: 60
+    messages: 58
     examples:
     - date: '2010-12-12'
       subject: '[core] IETF79 minutes uploaded'

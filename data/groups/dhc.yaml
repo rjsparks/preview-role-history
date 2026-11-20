@@ -465,19 +465,6 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2011-03-27'
-      not_after: '2011-06-06'
-    end:
-      certainty: between
-      not_before: '2011-06-06'
-      not_after: '2011-07-24'
-    notes:
-    - 'Start: not listed among the chairs in meeting minutes (2011-03-27)'
-    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2011-06-06)'
-    - 'End: posted an agenda, minutes or interim notice to the group''s list (2011-06-06)'
-    - 'End: not listed among the chairs in meeting minutes (2011-07-24)'
-  - start:
       certainty: exact
       date: '2013-03-12'
     end:
@@ -515,19 +502,19 @@ chairs:
     subject: 'WG Action: Rechartered Dynamic Host Configuration (dhc)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/LW0RQARG1iztzNoXk_W7ZKhazaY/
   - kind: chair activity
-    first: '2011-06-06'
+    first: '2013-03-28'
     last: '2017-08-09'
-    messages: 8
+    messages: 7
     examples:
-    - date: '2011-06-06'
-      subject: '[dhcwg] DHCPv6 Failover 2011-06-06 meeting minutes'
-      url: https://mailarchive.ietf.org/arch/msg/dhcwg/OiTFd0mVjVnsN4Fr_4qaabS7500/
     - date: '2013-03-28'
       subject: '[dhcwg] IETF86 DHC minutes available'
       url: https://mailarchive.ietf.org/arch/msg/dhcwg/L-5UAQpocWxWC7jlK_byotv0-tA/
     - date: '2013-04-03'
       subject: '[dhcwg] Adoption call on draft-csl-dhc-dhcpv6-unknown-msg-3315update-00'
       url: https://mailarchive.ietf.org/arch/msg/dhcwg/RgTnb79I_8bd429TTuAapHAgXp4/
+    - date: '2013-08-22'
+      subject: '[dhcwg] IETF87 DHC minutes available (draft)'
+      url: https://mailarchive.ietf.org/arch/msg/dhcwg/WaLkpBjpj5Lv7P5VgfZ0f_cMtW4/
     - date: '2015-09-25'
       subject: '[dhcwg] Call for adoption for draft-cui-dhc-dhcpv6-yang-04'
       url: https://mailarchive.ietf.org/arch/msg/dhcwg/J3qxrL47ZHcSd7uUywuWnahMecI/
@@ -556,14 +543,6 @@ chairs:
     - date: '2017-04-12'
       subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/dhc.html
-  - kind: minutes without them
-    date: '2011-03-27'
-    subject: IETF 80 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/80/minutes/dhc.txt
-  - kind: minutes without them
-    date: '2011-07-24'
-    subject: IETF 81 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/81/minutes/dhc.txt
   - kind: shepherded
     documents:
     - draft-fkhp-dhc-dhcpv6-pd-relay-requirements

@@ -578,13 +578,13 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2011-11-13'
+      not_before: '2010-07-25'
       not_after: '2012-03-25'
     end:
       certainty: evidence-only
       not_before: '2017-11-11'
     notes:
-    - 'Start: not listed among the chairs in meeting minutes (2011-11-13)'
+    - 'Start: not listed among the chairs in meeting minutes (2010-07-25)'
     - 'Start: listed as chair in meeting minutes (2012-03-25)'
     - 'End: listed as chair in meeting minutes (2017-11-11)'
   evidence:
@@ -603,6 +603,6 @@ chairs:
       subject: '[TLS] Drafts minutes for TLS at IETF-100'
       url: https://mailarchive.ietf.org/arch/msg/tls/vjfcOEA-TR0cxXiKOTth7IjSryE/
   - kind: minutes without them
-    date: '2011-11-13'
-    subject: IETF 82 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/82/minutes/tls.txt
+    date: '2010-07-25'
+    subject: IETF 78 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/78/minutes/tls.txt

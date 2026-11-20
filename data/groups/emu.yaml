@@ -283,16 +283,6 @@ chairs:
       date: '2018-02-02'
     notes:
     - 'Start: announced on the group''s list (2008-04-25)'
-  - start:
-      certainty: between
-      not_before: '2018-02-02'
-      not_after: '2022-08-11'
-    end:
-      certainty: evidence-only
-      not_before: '2022-08-11'
-    notes:
-    - 'Start: started a last call or adoption call on the group''s list (2022-08-11)'
-    - 'End: started a last call or adoption call on the group''s list (2022-08-11)'
   evidence:
   - kind: datatracker record
     date: '2018-02-02'
@@ -316,8 +306,8 @@ chairs:
       who has been flying solo for some time now.
   - kind: chair activity
     first: '2008-06-24'
-    last: '2022-08-11'
-    messages: 14
+    last: '2012-03-06'
+    messages: 13
     examples:
     - date: '2008-06-24'
       subject: '[Emu] Call for Agenda Items for IETF 72'
@@ -325,9 +315,6 @@ chairs:
     - date: '2008-07-09'
       subject: '[Emu] Draft agenda for IETF 72'
       url: https://mailarchive.ietf.org/arch/msg/emu/Lkzop5lhF9bX8Rox-6qUqSMivgc/
-    - date: '2022-08-11'
-      subject: '[Emu] WG last call for draft-ietf-emu-tls-eap-types ?'
-      url: https://mailarchive.ietf.org/arch/msg/emu/_xkmyn-O3yU5-2ffMRkF52koXBo/
   - kind: minutes
     listed_in: 8
     first: '2009-03-22'
@@ -443,18 +430,18 @@ chairs:
     - 'End: not listed among the chairs in a proceedings charter snapshot (2009-02-11)'
   - start:
       certainty: between
-      not_before: '2012-07-29'
-      not_after: '2013-03-10'
+      not_before: '2010-03-21'
+      not_after: '2011-03-27'
     end:
       certainty: evidence-only
       not_before: '2013-07-28'
     notes:
-    - 'Start: not listed among the chairs in meeting minutes (2012-07-29)'
-    - 'Start: listed as chair in meeting minutes (2013-03-10)'
+    - 'Start: not listed among the chairs in meeting minutes (2010-03-21)'
+    - 'Start: listed as chair in meeting minutes (2011-03-27)'
     - 'End: listed as chair in meeting minutes (2013-07-28)'
   evidence:
   - kind: minutes
-    listed_in: 8
+    listed_in: 9
     first: '2006-11-05'
     last: '2013-07-28'
     examples:
@@ -472,6 +459,6 @@ chairs:
     subject: IETF 74 proceedings charter, as last modified
     url: https://www.ietf.org/proceedings/74/emu.html
   - kind: minutes without them
-    date: '2012-07-29'
-    subject: IETF 84 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/84/minutes/minutes-84-emu.txt
+    date: '2010-03-21'
+    subject: IETF 77 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/77/minutes/emu.txt

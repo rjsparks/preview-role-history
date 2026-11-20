@@ -816,19 +816,6 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2016-07-17'
-      not_after: '2026-01-24'
-    end:
-      certainty: between
-      not_before: '2026-01-24'
-      not_after: '2026-02-25'
-    notes:
-    - 'Start: not listed among the chairs in meeting minutes (2016-07-17)'
-    - 'Start: started a last call or adoption call on the group''s list (2026-01-24)'
-    - 'End: started a last call or adoption call on the group''s list (2026-01-24)'
-    - 'End: not listed among the chairs in meeting minutes (2026-02-25)'
-  - start:
       certainty: exact
       date: '2026-10-06'
     end:
@@ -840,19 +827,3 @@ chairs:
     text: Chair changed to Benno Overeinder, Ondřej Surý, Peter Thomassen from Benno Overeinder, Ondřej
       Surý
     url: https://datatracker.ietf.org/group/dnsop/history/
-  - kind: chair activity
-    first: '2026-01-24'
-    last: '2026-01-24'
-    messages: 1
-    examples:
-    - date: '2026-01-24'
-      subject: '[DNSOP] Call for adoption: draft-crocker-dnsop-dnssec-algorithm-lifecycle-02 (Ends 2026-02-06)'
-      url: https://mailarchive.ietf.org/arch/msg/dnsop/QMtu6h50FTZD4-vHleluxJV7CIc/
-  - kind: minutes without them
-    date: '2016-07-17'
-    subject: IETF 96 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/96/minutes/minutes-96-dnsop.txt
-  - kind: minutes without them
-    date: '2026-02-25'
-    subject: '[DNSOP] DNSOP WG Virtual Meeting interim-2026-dnsop-01 recording and minutes'
-    url: https://mailarchive.ietf.org/arch/msg/dnsop/h62y2vuhhFnPz834RSsi0Bk4SoA/

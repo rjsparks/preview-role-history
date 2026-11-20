@@ -144,13 +144,10 @@ chairs:
       not_before: '1999-10-04'
       not_after: '2000-07-17'
     end:
-      certainty: between
-      not_before: '2009-06-27'
-      not_after: '2010-07-25'
+      certainty: group-closed
+      date: '2011-05-10'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2000-07-17)'
-    - 'End: started a last call or adoption call on the group''s list (2009-06-27)'
-    - 'End: not listed among the chairs in meeting minutes (2010-07-25)'
   evidence:
   - kind: WG Review
     date: '2005-11-03'
@@ -208,10 +205,6 @@ chairs:
     - date: '2011-05-05'
       subject: IETF 80 proceedings charter, as the datatracker generated it by 2011-05-05
       url: https://www.ietf.org/proceedings/80/enum.html
-  - kind: minutes without them
-    date: '2010-07-25'
-    subject: IETF 78 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/78/minutes/enum.txt
   - kind: session requests
     meetings:
     - '65'

@@ -34,7 +34,7 @@ chairs:
     end:
       certainty: ongoing
     notes:
-    - 'Start: became an Area Director, first serving at IETF 57 (2003-07-13)'
+    - 'Start: no longer an Area Director (2007-07-22)'
   evidence:
   - kind: WG Action
     date: '2013-08-30'
@@ -230,27 +230,9 @@ chairs:
     end:
       certainty: exact
       date: '2013-08-29'
-  - start:
-      certainty: between
-      not_before: '2013-08-29'
-      not_after: '2017-11-07'
-    end:
-      certainty: evidence-only
-      not_before: '2017-11-07'
-    notes:
-    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2017-11-07)'
-    - 'End: posted an agenda, minutes or interim notice to the group''s list (2017-11-07)'
   evidence:
   - kind: datatracker record
     date: '2013-08-29'
     says: end
     text: Chairs changed to Russ Housley, Robert Sparks from Brian Rosen, Russ Housley
     url: https://datatracker.ietf.org/group/stir/history/
-  - kind: chair activity
-    first: '2017-11-07'
-    last: '2017-11-07'
-    messages: 1
-    examples:
-    - date: '2017-11-07'
-      subject: '[stir] Agenda for IETF 100'
-      url: https://mailarchive.ietf.org/arch/msg/stir/LSvQBtmDRL7gNZyMDjLOXpgAqqc/

@@ -91,16 +91,6 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '2019-10-14'
-    end:
-      certainty: between
-      not_before: '2019-10-14'
-      not_after: '2020-03-02'
-    notes:
-    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2019-10-14)'
-    - 'End: posted an agenda, minutes or interim notice to the group''s list (2019-10-14)'
-  - start:
       certainty: exact
       date: '2020-03-02'
     end:
@@ -118,16 +108,16 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/qirg/dXBZAA4gmLZRuzKIC65dktIZb-k/
     excerpt: Wojciech Kozlowski will join Rod Van Meter in chairing the group.
   - kind: chair activity
-    first: '2019-10-14'
+    first: '2020-03-17'
     last: '2026-05-21'
-    messages: 16
+    messages: 15
     examples:
-    - date: '2019-10-14'
-      subject: '[Qirg] Call in 20 minutes: draft-irtf-qirg-principles'
-      url: https://mailarchive.ietf.org/arch/msg/qirg/Sj3j3P7lBUrByCYXLWT14vEjTg4/
     - date: '2020-03-17'
       subject: '[Qirg] IETF 107 Virtual Interim'
       url: https://mailarchive.ietf.org/arch/msg/qirg/z06HiwFfk0F1saBB_Na2AFDRnzw/
+    - date: '2020-03-30'
+      subject: '[Qirg] Call for agenda items for virtual interim'
+      url: https://mailarchive.ietf.org/arch/msg/qirg/IhTL4eqkbfCRWayrqntVL05CPko/
   - kind: minutes
     listed_in: 1
     first: '2022-03-22'
