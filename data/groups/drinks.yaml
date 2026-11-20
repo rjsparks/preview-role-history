@@ -26,16 +26,20 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2008-07-27'
+      not_after: '2008-06-13'
     end:
       certainty: between
       not_before: '2010-03-21'
       not_after: '2010-11-07'
     notes:
-    - 'Start: requested the group''s session for IETF 72 (2008-07-27)'
+    - 'Start: named as chair in the WG Action announcement (2008-06-13)'
     - 'End: listed as chair in meeting minutes (2010-03-21)'
     - 'End: not listed among the chairs in meeting minutes (2010-11-07)'
   evidence:
+  - kind: WG Action
+    date: '2008-06-13'
+    subject: 'WG Action: Data for Reachability of Inter/tra-NetworK SIP (drinks)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/1onGxsD-EAsj-2rawD9kDepoDPw/
   - kind: chair activity
     first: '2009-02-08'
     last: '2009-07-23'
@@ -198,13 +202,17 @@ chairs:
   - start:
       certainty: between
       not_before: '2008-05-01'
-      not_after: '2008-11-16'
+      not_after: '2008-06-13'
     end:
       certainty: group-closed
       date: '2016-04-18'
     notes:
-    - 'Start: requested the group''s session for IETF 73 (2008-11-16)'
+    - 'Start: named as chair in the WG Action announcement (2008-06-13)'
   evidence:
+  - kind: WG Action
+    date: '2008-06-13'
+    subject: 'WG Action: Data for Reachability of Inter/tra-NetworK SIP (drinks)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/1onGxsD-EAsj-2rawD9kDepoDPw/
   - kind: chair activity
     first: '2009-08-18'
     last: '2013-05-21'

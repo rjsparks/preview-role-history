@@ -30,12 +30,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2010-02-12'
-      not_after: '2010-03-25'
+      not_after: '2010-03-09'
     end:
       certainty: exact
       date: '2020-03-11'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-03-25)'
+    - 'Start: named as chair in the WG Action announcement (2010-03-09)'
   - start:
       certainty: between
       not_before: '2020-03-11'
@@ -79,6 +79,10 @@ chairs:
     says: start
     text: Chair changed to Carsten Bormann, Jaime Jimenez, Marco Tiloca from Jaime Jimenez, Marco Tiloca
     url: https://datatracker.ietf.org/group/core/history/
+  - kind: WG Action
+    date: '2010-03-09'
+    subject: 'WG Action: Constrained RESTful Environments (core)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Sc2Nt7MsSgQLTUGDcTEq1u7idL8/
   - kind: WG Review
     date: '2016-03-15'
     subject: 'WG Review: Constrained RESTful Environments (core)'
@@ -153,18 +157,22 @@ chairs:
   - start:
       certainty: between
       not_before: '2010-02-12'
-      not_after: '2010-03-10'
+      not_after: '2010-03-09'
     end:
       certainty: exact
       date: '2012-09-10'
     notes:
-    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2010-03-10)'
+    - 'Start: named as chair in the WG Action announcement (2010-03-09)'
   evidence:
   - kind: datatracker record
     date: '2012-09-10'
     says: end
     text: Chairs changed to Andrew McGregor, Carsten Bormann from Cullen Jennings, Carsten Bormann
     url: https://datatracker.ietf.org/group/core/history/
+  - kind: WG Action
+    date: '2010-03-09'
+    subject: 'WG Action: Constrained RESTful Environments (core)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Sc2Nt7MsSgQLTUGDcTEq1u7idL8/
   - kind: list message
     date: '2012-09-06'
     says: end

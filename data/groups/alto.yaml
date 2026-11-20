@@ -33,17 +33,21 @@ chairs:
   - start:
       certainty: between
       not_before: '2006-07-09'
-      not_after: '2008-11-16'
+      not_after: '2008-11-12'
     end:
       certainty: between
       not_before: '2011-07-24'
       not_after: '2011-11-13'
     notes:
     - 'Start: became an Area Director, first serving at IETF 57 (2003-07-13)'
-    - 'Start: listed as chair in meeting minutes (2008-11-16)'
+    - 'Start: named as chair in the WG Action announcement (2008-11-12)'
     - 'End: listed as chair in meeting minutes (2011-07-24)'
     - 'End: not listed among the chairs in meeting minutes (2011-11-13)'
   evidence:
+  - kind: WG Action
+    date: '2008-11-12'
+    subject: 'WG Action: Application-Layer Traffic Optimization (alto)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/UsI1Iu3aPaJQ104U3plRultx7jU/
   - kind: WG Action
     date: '2010-10-12'
     subject: 'WG Action: RECHARTER: Application-Layer Traffic Optimization (alto)'
@@ -111,6 +115,10 @@ chairs:
     says: end
     text: Chair changed to Jan Seedorf, Qin Wu from Jan Seedorf, Qin Wu, Vijay Gurbani
     url: https://datatracker.ietf.org/group/alto/history/
+  - kind: WG Action
+    date: '2008-11-12'
+    subject: 'WG Action: Application-Layer Traffic Optimization (alto)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/UsI1Iu3aPaJQ104U3plRultx7jU/
   - kind: WG Action
     date: '2010-10-12'
     subject: 'WG Action: RECHARTER: Application-Layer Traffic Optimization (alto)'
@@ -201,6 +209,10 @@ chairs:
     says: end
     text: Chairs changed to Jan Seedorf, Vijay Gurbani from Enrico Marocco, Jan Seedorf, Vijay Gurbani
     url: https://datatracker.ietf.org/group/alto/history/
+  - kind: WG Action
+    date: '2008-11-12'
+    subject: 'WG Action: Application-Layer Traffic Optimization (alto)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/UsI1Iu3aPaJQ104U3plRultx7jU/
   - kind: WG Action
     date: '2010-10-12'
     subject: 'WG Action: RECHARTER: Application-Layer Traffic Optimization (alto)'

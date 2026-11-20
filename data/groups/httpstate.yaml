@@ -30,6 +30,10 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2009-11-08)'
   evidence:
+  - kind: WG Action
+    date: '2009-12-11'
+    subject: 'WG Action: HTTP State Management Mechanism (httpstate)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/KT_53soAolwGepcHHDJwtBP0AAs/
   - kind: chair activity
     first: '2010-03-11'
     last: '2010-08-20'
@@ -83,12 +87,17 @@ chairs:
       not_after: '2009-11-08'
     end:
       certainty: between
-      not_before: '2009-11-08'
+      not_before: '2009-12-11'
       not_after: '2011-05-18'
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2009-11-08)'
+    - 'End: named as chair in the WG Action announcement (2009-12-11)'
     - 'End: the group closed (2011-05-18)'
   evidence:
+  - kind: WG Action
+    date: '2009-12-11'
+    subject: 'WG Action: HTTP State Management Mechanism (httpstate)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/KT_53soAolwGepcHHDJwtBP0AAs/
   - kind: proceedings
     listed_in: 1
     first: '2009-11-08'

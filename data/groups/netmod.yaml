@@ -26,14 +26,18 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2008-07-27'
+      not_after: '2008-04-30'
     end:
       certainty: announced
       date: '2010-10-12'
     notes:
-    - 'Start: requested the group''s session for IETF 72 (2008-07-27)'
+    - 'Start: named as chair in the WG Action announcement (2008-04-30)'
     - 'End: announced on the group''s list (2010-10-12)'
   evidence:
+  - kind: WG Action
+    date: '2008-04-30'
+    subject: 'WG Action: NETCONF Data Modeling Language (netmod)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/u6Qc9wHRRmCehuouoGcww4rt-MI/
   - kind: WG Review
     date: '2010-10-14'
     subject: 'WG Review: Recharter of NETCONF Data Modeling Language (netmod)'
@@ -176,14 +180,18 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2008-08-14'
+      not_after: '2008-04-30'
     end:
       certainty: announced
       date: '2008-11-16'
     notes:
-    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2008-08-14)'
+    - 'Start: named as chair in the WG Action announcement (2008-04-30)'
     - 'End: announced on the group''s list (2008-11-16)'
   evidence:
+  - kind: WG Action
+    date: '2008-04-30'
+    subject: 'WG Action: NETCONF Data Modeling Language (netmod)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/u6Qc9wHRRmCehuouoGcww4rt-MI/
   - kind: list message
     date: '2008-11-16'
     says: end

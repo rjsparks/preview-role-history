@@ -62,10 +62,14 @@ chairs:
       not_before: '2010-03-21'
       not_after: '2010-04-01'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2009-05-29)'
+    - 'Start: named as chair in the WG Action announcement (2009-05-29)'
     - 'End: requested the group''s session for IETF 77 (2010-03-21)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2010-04-01)'
   evidence:
+  - kind: WG Action
+    date: '2009-05-29'
+    subject: 'WG Action: Extensible Messaging and Presence Protocol (xmpp)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/CtgZMTFJ2K_oZEa-vMsp1v-9lWc/
   - kind: chair activity
     first: '2009-08-12'
     last: '2010-03-05'
@@ -230,8 +234,12 @@ chairs:
       certainty: group-closed
       date: '2015-09-14'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2009-05-29)'
+    - 'Start: named as chair in the WG Action announcement (2009-05-29)'
   evidence:
+  - kind: WG Action
+    date: '2009-05-29'
+    subject: 'WG Action: Extensible Messaging and Presence Protocol (xmpp)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/CtgZMTFJ2K_oZEa-vMsp1v-9lWc/
   - kind: WG Action
     date: '2013-03-05'
     subject: 'WG Action: Rechartered Extensible Messaging and Presence Protocol (xmpp)'

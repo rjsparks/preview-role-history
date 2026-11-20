@@ -26,14 +26,18 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2010-03-26'
+      not_after: '2010-03-12'
     end:
       certainty: announced
       date: '2011-08-11'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-03-26)'
+    - 'Start: named as chair in the WG Action announcement (2010-03-12)'
     - 'End: announced on the group''s list (2011-08-11)'
   evidence:
+  - kind: WG Action
+    date: '2010-03-12'
+    subject: 'WG Action: SIP Recording (siprec)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/dcBgSY1BYXl0cL-3MY-vh8xj8AQ/
   - kind: list message
     date: '2011-08-11'
     says: end
@@ -67,13 +71,17 @@ chairs:
   - start:
       certainty: between
       not_before: '2010-02-09'
-      not_after: '2010-03-26'
+      not_after: '2010-03-12'
     end:
       certainty: group-closed
       date: '2016-12-23'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-03-26)'
+    - 'Start: named as chair in the WG Action announcement (2010-03-12)'
   evidence:
+  - kind: WG Action
+    date: '2010-03-12'
+    subject: 'WG Action: SIP Recording (siprec)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/dcBgSY1BYXl0cL-3MY-vh8xj8AQ/
   - kind: WG Action
     date: '2014-06-11'
     subject: 'WG Action: Rechartered SIP Recording (siprec)'

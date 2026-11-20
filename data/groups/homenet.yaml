@@ -68,18 +68,22 @@ chairs:
   - start:
       certainty: between
       not_before: '2011-06-23'
-      not_after: '2011-07-24'
+      not_after: '2011-07-19'
     end:
       certainty: exact
       date: '2017-07-27'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2011-07-24)'
+    - 'Start: named as chair in the WG Action announcement (2011-07-19)'
   evidence:
   - kind: datatracker record
     date: '2017-07-27'
     says: end
     text: Chairs changed to, Ray Bellis from Ray Bellis, Mark Townsley
     url: https://datatracker.ietf.org/group/homenet/history/
+  - kind: WG Action
+    date: '2011-07-19'
+    subject: 'WG Action: Home Networks (homenet)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/upRCXOlF78SvvBN5-fPpr7XWtLk/
   - kind: chair activity
     first: '2011-09-16'
     last: '2015-05-06'

@@ -24,18 +24,26 @@ chairs:
   - start:
       certainty: between
       not_before: '2008-06-09'
-      not_after: '2008-08-21'
+      not_after: '2008-07-08'
     end:
       certainty: exact
       date: '2016-05-31'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2008-08-21)'
+    - 'Start: named as chair in the WG Action announcement (2008-07-08)'
   evidence:
   - kind: datatracker record
     date: '2016-05-31'
     says: end
     text: Chairs changed to D. Waltermire, Tero Kivinen from D. Waltermire, Paul Hoffman
     url: https://datatracker.ietf.org/group/ipsecme/history/
+  - kind: WG Action
+    date: '2008-07-08'
+    subject: 'WG Action: IP Security Maintenance and Extensions (ipsecme)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/GC3U73s0t83WP89JX3TZYZe3Dtg/
+  - kind: WG Review
+    date: '2010-02-08'
+    subject: 'WG Review: Recharter of IP Security Maintenance and Extensions (ipsecme)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/H7npmMqshDhMOyh6hrTPIa4WJQM/
   - kind: WG Action
     date: '2010-02-24'
     subject: 'WG Action: RECHARTER: IP Security Maintenance and Extensions (ipsecme)'
@@ -106,18 +114,26 @@ chairs:
   - start:
       certainty: between
       not_before: '2008-06-09'
-      not_after: '2008-08-21'
+      not_after: '2008-07-08'
     end:
       certainty: exact
       date: '2015-09-04'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2008-08-21)'
+    - 'Start: named as chair in the WG Action announcement (2008-07-08)'
   evidence:
   - kind: datatracker record
     date: '2015-09-04'
     says: end
     text: Chairs changed to David Waltermire, Paul Hoffman from Paul Hoffman, Yaron Sheffer
     url: https://datatracker.ietf.org/group/ipsecme/history/
+  - kind: WG Action
+    date: '2008-07-08'
+    subject: 'WG Action: IP Security Maintenance and Extensions (ipsecme)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/GC3U73s0t83WP89JX3TZYZe3Dtg/
+  - kind: WG Review
+    date: '2010-02-08'
+    subject: 'WG Review: Recharter of IP Security Maintenance and Extensions (ipsecme)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/H7npmMqshDhMOyh6hrTPIa4WJQM/
   - kind: WG Action
     date: '2010-02-24'
     subject: 'WG Action: RECHARTER: IP Security Maintenance and Extensions (ipsecme)'

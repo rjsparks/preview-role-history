@@ -27,14 +27,22 @@ chairs:
   - start:
       certainty: between
       not_before: '2008-11-16'
-      not_after: '2009-04-02'
+      not_after: '2009-03-04'
     end:
       certainty: group-closed
       date: '2012-03-06'
     notes:
     - 'Start: not listed among the chairs in meeting minutes (2008-11-16)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2009-04-02)'
+    - 'Start: named as a proposed chair in a WG Review announcement (2009-03-04)'
   evidence:
+  - kind: WG Review
+    date: '2009-03-04'
+    subject: 'WG Review: Recharter of Ad-Hoc Network Autoconfiguration (autoconf)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/puMUoYBcrTWi46VfpbDHQpgePoo/
+  - kind: WG Action
+    date: '2009-04-02'
+    subject: 'WG Action: RECHARTER: Ad-Hoc Network Autoconfiguration (autoconf)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/C6Oizz1dvUfZyuV7Svu6YVIE64c/
   - kind: WG Review
     date: '2010-11-30'
     subject: 'WG Review: Recharter of Ad-Hoc Network Autoconfiguration (autoconf)'
@@ -110,6 +118,14 @@ chairs:
     date: '2005-10-25'
     subject: 'WG Action: Ad-Hoc Network Autoconfiguration (autoconf)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Btf_Bvyz7WkD5jir-SfrbvVClok/
+  - kind: WG Review
+    date: '2009-03-04'
+    subject: 'WG Review: Recharter of Ad-Hoc Network Autoconfiguration (autoconf)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/puMUoYBcrTWi46VfpbDHQpgePoo/
+  - kind: WG Action
+    date: '2009-04-02'
+    subject: 'WG Action: RECHARTER: Ad-Hoc Network Autoconfiguration (autoconf)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/C6Oizz1dvUfZyuV7Svu6YVIE64c/
   - kind: WG Review
     date: '2010-11-30'
     subject: 'WG Review: Recharter of Ad-Hoc Network Autoconfiguration (autoconf)'

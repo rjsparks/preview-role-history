@@ -65,15 +65,34 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2009-01-21'
+      not_after: '2008-11-11'
     end:
       certainty: between
-      not_before: '2009-01-21'
+      not_before: '2010-03-21'
       not_after: '2010-06-03'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2009-01-21)'
+    - 'Start: named as chair in the WG Action announcement (2008-11-11)'
+    - 'End: listed as chair in meeting minutes (2010-03-21)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2010-06-03)'
   evidence:
+  - kind: WG Action
+    date: '2008-11-11'
+    subject: 'WG Action: Low Extra Delay Background Transport (ledbat)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/BKRbjce0xZmK-sy9O9pur_BtGdA/
+  - kind: minutes
+    listed_in: 3
+    first: '2009-07-26'
+    last: '2010-03-21'
+    examples:
+    - date: '2009-07-26'
+      subject: '[ledbat] Draft minutes of the LEDBAT WG meeting at IETF 75'
+      url: https://mailarchive.ietf.org/arch/msg/ledbat/sTWgtjL2KfLXpLS9Lo_Fneidyb0/
+    - date: '2009-07-26'
+      subject: IETF 75 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/75/minutes/ledbat.txt
+    - date: '2010-03-21'
+      subject: IETF 77 minutes in the proceedings
+      url: https://www.ietf.org/proceedings/77/minutes/ledbat.txt
   - kind: proceedings
     listed_in: 2
     first: '2009-01-21'
@@ -96,13 +115,17 @@ chairs:
   - start:
       certainty: between
       not_before: '2008-10-30'
-      not_after: '2009-01-21'
+      not_after: '2008-11-11'
     end:
       certainty: group-closed
       date: '2012-12-20'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2009-01-21)'
+    - 'Start: named as chair in the WG Action announcement (2008-11-11)'
   evidence:
+  - kind: WG Action
+    date: '2008-11-11'
+    subject: 'WG Action: Low Extra Delay Background Transport (ledbat)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/BKRbjce0xZmK-sy9O9pur_BtGdA/
   - kind: chair activity
     first: '2009-03-23'
     last: '2010-01-13'

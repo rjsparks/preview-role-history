@@ -26,16 +26,20 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2009-04-20'
+      not_after: '2009-04-14'
     end:
       certainty: between
       not_before: '2010-03-21'
       not_after: '2010-04-16'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2009-04-20)'
+    - 'Start: named as chair in the WG Action announcement (2009-04-14)'
     - 'End: listed as chair in meeting minutes (2010-03-21)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2010-04-16)'
   evidence:
+  - kind: WG Action
+    date: '2009-04-14'
+    subject: 'WG Action: Session Initiation Protocol Core (SIPCore)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/cxsU9QUdWZUzw6rBg6LaJHsyLbo/
   - kind: chair activity
     first: '2009-06-12'
     last: '2010-02-22'
@@ -97,18 +101,22 @@ chairs:
   - start:
       certainty: between
       not_before: '2009-03-01'
-      not_after: '2009-04-20'
+      not_after: '2009-04-14'
     end:
       certainty: exact
       date: '2017-03-31'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2009-04-20)'
+    - 'Start: named as chair in the WG Action announcement (2009-04-14)'
   evidence:
   - kind: datatracker record
     date: '2017-03-31'
     says: end
     text: Chairs changed to Brian Rosen, Jean Mahoney from Brian Rosen, Adam Roach, Jean Mahoney
     url: https://datatracker.ietf.org/group/sipcore/history/
+  - kind: WG Action
+    date: '2009-04-14'
+    subject: 'WG Action: Session Initiation Protocol Core (SIPCore)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/cxsU9QUdWZUzw6rBg6LaJHsyLbo/
   - kind: WG Action
     date: '2016-12-02'
     subject: 'WG Action: Rechartered Session Initiation Protocol Core (sipcore)'

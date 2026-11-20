@@ -30,10 +30,14 @@ chairs:
       not_before: '2012-02-13'
       not_after: '2012-06-26'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-01-26)'
+    - 'Start: named as chair in the WG Action announcement (2010-01-26)'
     - 'End: started a last call or adoption call on the group''s list (2012-02-13)'
     - 'End: the group closed (2012-06-26)'
   evidence:
+  - kind: WG Action
+    date: '2010-01-26'
+    subject: 'WG Action: Messaging Abuse Reporting Format (marf)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/7et_aq6tH8Ofy94RMeSxTH0gNNk/
   - kind: chair activity
     first: '2011-03-30'
     last: '2012-02-13'
@@ -88,7 +92,7 @@ chairs:
       not_before: '2011-12-09'
       not_after: '2011-12-09'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-01-26)'
+    - 'Start: named as chair in the WG Action announcement (2010-01-26)'
   - start:
       certainty: between
       not_before: '2011-12-09'
@@ -99,6 +103,10 @@ chairs:
     notes:
     - 'Start: started a last call or adoption call on the group''s list (2012-01-31)'
   evidence:
+  - kind: WG Action
+    date: '2010-01-26'
+    subject: 'WG Action: Messaging Abuse Reporting Format (marf)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/7et_aq6tH8Ofy94RMeSxTH0gNNk/
   - kind: chair activity
     first: '2010-02-18'
     last: '2012-03-28'

@@ -27,13 +27,17 @@ chairs:
   - start:
       certainty: between
       not_before: '2003-09-25'
-      not_after: '2003-11-03'
+      not_after: '2003-10-21'
     end:
       certainty: group-closed
       date: '2011-07-19'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2003-11-03)'
+    - 'Start: named as chair in the WG Action announcement (2003-10-21)'
   evidence:
+  - kind: WG Action
+    date: '2003-10-21'
+    subject: 'WG Action: Long-Term Archive and Notary Services (ltans)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce-old/_i09rFbHQ-UhpE0TPp_FFzmFrPo/
   - kind: chair activity
     first: '2004-12-02'
     last: '2008-08-12'

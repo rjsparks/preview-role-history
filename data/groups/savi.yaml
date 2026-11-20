@@ -27,15 +27,19 @@ chairs:
   - start:
       certainty: between
       not_before: '2007-12-02'
-      not_after: '2008-11-05'
+      not_after: '2008-07-25'
     end:
       certainty: announced
       date: '2009-12-17'
     notes:
     - 'Start: not listed among the chairs in meeting minutes (2007-12-02)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2008-11-05)'
+    - 'Start: named as chair in the WG Action announcement (2008-07-25)'
     - 'End: announced on the group''s list (2009-12-17)'
   evidence:
+  - kind: WG Action
+    date: '2008-07-25'
+    subject: 'WG Action: Source Address Validation Improvements (savi)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/RAzKTjszln6z-SbUSz7m8fsXTZA/
   - kind: list message
     date: '2009-12-17'
     says: end
@@ -115,6 +119,10 @@ chairs:
     says: end
     text: Chairs changed to Jean-Michel Combes from Jean-Michel Combes, Christian Vogt
     url: https://datatracker.ietf.org/group/savi/history/
+  - kind: WG Action
+    date: '2008-07-25'
+    subject: 'WG Action: Source Address Validation Improvements (savi)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/RAzKTjszln6z-SbUSz7m8fsXTZA/
   - kind: chair activity
     first: '2008-11-13'
     last: '2010-11-09'

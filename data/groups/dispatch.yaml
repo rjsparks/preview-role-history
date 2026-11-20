@@ -27,18 +27,22 @@ chairs:
   - start:
       certainty: between
       not_before: '2009-02-27'
-      not_after: '2009-04-20'
+      not_after: '2009-04-14'
     end:
       certainty: exact
       date: '2019-12-20'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2009-04-20)'
+    - 'Start: named as chair in the WG Action announcement (2009-04-14)'
   evidence:
   - kind: datatracker record
     date: '2019-12-20'
     says: end
     text: Chairs changed to Ben Campbell, Patrick McManus from Ben Campbell, Mary Barnes, Patrick McManus
     url: https://datatracker.ietf.org/group/dispatch/history/
+  - kind: WG Action
+    date: '2009-04-14'
+    subject: 'WG Action: Dispatch (dispatch)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/L7NV80j_s1QjMyZkckreW-1h4Pw/
   - kind: WG Review
     date: '2016-02-12'
     subject: 'WG Review: Dispatch (dispatch)'
@@ -112,16 +116,20 @@ chairs:
   periods:
   - start:
       certainty: evidence-only
-      not_after: '2009-04-20'
+      not_after: '2009-04-14'
     end:
       certainty: between
       not_before: '2009-11-26'
       not_after: '2010-04-16'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2009-04-20)'
+    - 'Start: named as chair in the WG Action announcement (2009-04-14)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2009-11-26)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2010-04-16)'
   evidence:
+  - kind: WG Action
+    date: '2009-04-14'
+    subject: 'WG Action: Dispatch (dispatch)'
+    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/L7NV80j_s1QjMyZkckreW-1h4Pw/
   - kind: list message
     date: '2016-05-17'
     says: start
