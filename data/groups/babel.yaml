@@ -30,13 +30,12 @@ chairs:
   - start:
       certainty: between
       not_before: '1998-03-30'
-      not_after: '2015-11-01'
+      not_after: '2016-02-26'
     end:
       certainty: exact
       date: '2016-05-09'
     notes:
     - 'Start: became an Area Director, first serving at IETF 29 (1994-03-28)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2015-11-01)'
   evidence:
   - kind: datatracker record
     date: '2016-05-09'
@@ -56,11 +55,11 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/babel/xrIn7Am_bvqU4YvgaZjvC14qIkw/
   - kind: proceedings
     listed_in: 1
-    first: '2015-11-01'
-    last: '2015-11-01'
+    first: '2016-03-21'
+    last: '2016-03-21'
     examples:
-    - date: '2015-11-01'
-      subject: IETF 94 proceedings charter
+    - date: '2016-03-21'
+      subject: IETF 94 proceedings charter, as the datatracker generated it by 2016-03-21
       url: https://www.ietf.org/proceedings/94/babel.html
   - kind: joined the IESG
     after_meeting: '28'
@@ -126,17 +125,17 @@ chairs:
       url: https://www.ietf.org/proceedings/96/minutes/minutes-96-babel.txt
   - kind: proceedings
     listed_in: 4
-    first: '2016-04-03'
-    last: '2017-03-26'
+    first: '2016-05-23'
+    last: '2017-04-12'
     examples:
-    - date: '2016-04-03'
-      subject: IETF 95 proceedings charter
+    - date: '2016-05-23'
+      subject: IETF 95 proceedings charter, as the datatracker generated it by 2016-05-23
       url: https://www.ietf.org/proceedings/95/babel.html
-    - date: '2016-07-17'
-      subject: IETF 96 proceedings charter
+    - date: '2016-09-08'
+      subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
       url: https://www.ietf.org/proceedings/96/babel.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/babel.html
   - kind: shepherded
     documents:
@@ -188,15 +187,15 @@ chairs:
       url: https://www.ietf.org/proceedings/96/minutes/minutes-96-babel.txt
   - kind: proceedings
     listed_in: 4
-    first: '2016-04-03'
-    last: '2017-03-26'
+    first: '2016-05-23'
+    last: '2017-04-12'
     examples:
-    - date: '2016-04-03'
-      subject: IETF 95 proceedings charter
+    - date: '2016-05-23'
+      subject: IETF 95 proceedings charter, as the datatracker generated it by 2016-05-23
       url: https://www.ietf.org/proceedings/95/babel.html
-    - date: '2016-07-17'
-      subject: IETF 96 proceedings charter
+    - date: '2016-09-08'
+      subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
       url: https://www.ietf.org/proceedings/96/babel.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/babel.html

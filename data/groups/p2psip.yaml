@@ -73,7 +73,7 @@ chairs:
   - kind: proceedings
     listed_in: 8
     first: '2007-02-22'
-    last: '2011-07-24'
+    last: '2011-10-21'
     examples:
     - date: '2007-02-22'
       subject: IETF 68 proceedings charter, as last modified
@@ -81,8 +81,8 @@ chairs:
     - date: '2007-10-24'
       subject: IETF 71 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/71/p2psip.html
-    - date: '2011-07-24'
-      subject: IETF 81 proceedings charter
+    - date: '2011-10-21'
+      subject: IETF 81 proceedings charter, as the datatracker generated it by 2011-10-21
       url: https://www.ietf.org/proceedings/81/p2psip.html
   - kind: session requests
     meetings:
@@ -110,14 +110,13 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2008-07-27'
-      not_after: '2011-11-13'
+      not_before: '2011-12-09'
+      not_after: '2012-02-01'
     end:
       certainty: group-closed
       date: '2016-12-23'
     notes:
-    - 'Start: not listed among the chairs in meeting minutes (2008-07-27)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2011-11-13)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2012-02-01)'
   evidence:
   - kind: chair activity
     first: '2012-06-21'
@@ -141,22 +140,18 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/p2psip/C0s0a1pzuroL76H-WX5pdHb4j1o/
   - kind: proceedings
     listed_in: 14
-    first: '2011-11-13'
-    last: '2016-07-17'
+    first: '2012-02-01'
+    last: '2016-09-08'
     examples:
-    - date: '2011-11-13'
-      subject: IETF 82 proceedings charter
+    - date: '2012-02-01'
+      subject: IETF 82 proceedings charter, as the datatracker generated it by 2012-02-01
       url: https://www.ietf.org/proceedings/82/p2psip.html
-    - date: '2012-07-29'
-      subject: IETF 84 proceedings charter
+    - date: '2012-10-02'
+      subject: IETF 84 proceedings charter, as the datatracker generated it by 2012-10-02
       url: https://www.ietf.org/proceedings/84/p2psip.html
-    - date: '2016-07-17'
-      subject: IETF 96 proceedings charter
+    - date: '2016-09-08'
+      subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
       url: https://www.ietf.org/proceedings/96/p2psip.html
-  - kind: minutes without them
-    date: '2008-07-27'
-    subject: IETF 72 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/72/minutes/p2psip.txt
   - kind: shepherded
     documents:
     - draft-ietf-p2psip-diagnostics
@@ -211,7 +206,7 @@ chairs:
   - kind: proceedings
     listed_in: 23
     first: '2007-02-22'
-    last: '2016-07-17'
+    last: '2016-09-08'
     examples:
     - date: '2007-02-22'
       subject: IETF 68 proceedings charter, as last modified
@@ -219,8 +214,8 @@ chairs:
     - date: '2007-10-24'
       subject: IETF 71 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/71/p2psip.html
-    - date: '2016-07-17'
-      subject: IETF 96 proceedings charter
+    - date: '2016-09-08'
+      subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
       url: https://www.ietf.org/proceedings/96/p2psip.html
   - kind: shepherded
     documents:

@@ -22,13 +22,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2012-03-25'
+      certainty: between
+      not_before: '2012-04-05'
+      not_after: '2012-05-01'
     end:
       certainty: group-closed
       date: '2018-05-16'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2012-03-25)'
+    - 'Start: named as chair in the WG Action announcement (2012-05-01)'
   evidence:
   - kind: WG Action
     date: '2012-05-01'
@@ -69,17 +70,17 @@ chairs:
       url: https://www.ietf.org/proceedings/93/minutes/minutes-93-sunset4.txt
   - kind: proceedings
     listed_in: 15
-    first: '2012-03-25'
+    first: '2012-05-15'
     last: '2016-11-13'
     examples:
-    - date: '2012-03-25'
-      subject: IETF 83 proceedings charter
+    - date: '2012-05-15'
+      subject: IETF 83 proceedings charter, as the datatracker generated it by 2012-05-15
       url: https://www.ietf.org/proceedings/83/sunset4.html
-    - date: '2012-07-29'
-      subject: IETF 84 proceedings charter
+    - date: '2012-10-02'
+      subject: IETF 84 proceedings charter, as the datatracker generated it by 2012-10-02
       url: https://www.ietf.org/proceedings/84/sunset4.html
     - date: '2016-11-13'
-      subject: IETF 97 proceedings charter
+      subject: IETF 97 proceedings charter, as the datatracker generated it by 2016-11-13
       url: https://www.ietf.org/proceedings/97/sunset4.html
   - kind: shepherded
     documents:
@@ -89,13 +90,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2012-03-25'
+      certainty: between
+      not_before: '2012-04-05'
+      not_after: '2012-05-01'
     end:
       certainty: group-closed
       date: '2018-05-16'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2012-03-25)'
+    - 'Start: named as chair in the WG Action announcement (2012-05-01)'
   evidence:
   - kind: WG Action
     date: '2012-05-01'
@@ -122,15 +124,15 @@ chairs:
       url: https://www.ietf.org/proceedings/93/minutes/minutes-93-sunset4.txt
   - kind: proceedings
     listed_in: 15
-    first: '2012-03-25'
+    first: '2012-05-15'
     last: '2016-11-13'
     examples:
-    - date: '2012-03-25'
-      subject: IETF 83 proceedings charter
+    - date: '2012-05-15'
+      subject: IETF 83 proceedings charter, as the datatracker generated it by 2012-05-15
       url: https://www.ietf.org/proceedings/83/sunset4.html
-    - date: '2012-07-29'
-      subject: IETF 84 proceedings charter
+    - date: '2012-10-02'
+      subject: IETF 84 proceedings charter, as the datatracker generated it by 2012-10-02
       url: https://www.ietf.org/proceedings/84/sunset4.html
     - date: '2016-11-13'
-      subject: IETF 97 proceedings charter
+      subject: IETF 97 proceedings charter, as the datatracker generated it by 2016-11-13
       url: https://www.ietf.org/proceedings/97/sunset4.html

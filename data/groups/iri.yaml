@@ -75,7 +75,7 @@ chairs:
   - kind: proceedings
     listed_in: 5
     first: '2010-03-21'
-    last: '2011-07-24'
+    last: '2011-10-21'
     examples:
     - date: '2010-03-21'
       subject: IETF 77 proceedings charter
@@ -83,8 +83,8 @@ chairs:
     - date: '2010-05-04'
       subject: IETF 78 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/78/iiri.html
-    - date: '2011-07-24'
-      subject: IETF 81 proceedings charter
+    - date: '2011-10-21'
+      subject: IETF 81 proceedings charter, as the datatracker generated it by 2011-10-21
       url: https://www.ietf.org/proceedings/81/iri.html
   - kind: session requests
     meetings:
@@ -99,26 +99,32 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2012-07-29'
-      not_before: '2011-12-09'
+      certainty: between
+      not_before: '2012-07-29'
+      not_after: '2012-10-02'
     end:
       certainty: group-closed
       date: '2013-01-18'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2012-07-29)'
+    - 'Start: became an Area Director, first serving at IETF 78 (2010-07-25)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2012-10-02)'
   evidence:
   - kind: proceedings
     listed_in: 2
-    first: '2012-07-29'
-    last: '2012-11-04'
+    first: '2012-10-02'
+    last: '2013-01-18'
     examples:
-    - date: '2012-07-29'
-      subject: IETF 84 proceedings charter
+    - date: '2012-10-02'
+      subject: IETF 84 proceedings charter, as the datatracker generated it by 2012-10-02
       url: https://www.ietf.org/proceedings/84/iri.html
-    - date: '2012-11-04'
-      subject: IETF 85 proceedings charter
+    - date: '2013-01-18'
+      subject: IETF 85 proceedings charter, as the datatracker generated it by 2013-02-13
       url: https://www.ietf.org/proceedings/85/iri.html
+  - kind: joined the IESG
+    after_meeting: '77'
+    after: '2010-03-21'
+    by_meeting: '78'
+    by: '2010-07-25'
 - person: 106493
   name: Addison Phillips
   status: unconfirmed
@@ -206,27 +212,27 @@ chairs:
   - start:
       certainty: between
       not_before: '2010-03-21'
-      not_after: '2011-03-27'
+      not_after: '2011-05-05'
     end:
       certainty: group-closed
       date: '2013-01-18'
     notes:
     - 'Start: not listed among the chairs in meeting minutes (2010-03-21)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2011-03-27)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2011-05-05)'
   evidence:
   - kind: proceedings
     listed_in: 6
-    first: '2011-03-27'
-    last: '2012-11-04'
+    first: '2011-05-05'
+    last: '2013-01-18'
     examples:
-    - date: '2011-03-27'
-      subject: IETF 80 proceedings charter
+    - date: '2011-05-05'
+      subject: IETF 80 proceedings charter, as the datatracker generated it by 2011-05-05
       url: https://www.ietf.org/proceedings/80/iri.html
-    - date: '2011-07-24'
-      subject: IETF 81 proceedings charter
+    - date: '2011-10-21'
+      subject: IETF 81 proceedings charter, as the datatracker generated it by 2011-10-21
       url: https://www.ietf.org/proceedings/81/iri.html
-    - date: '2012-11-04'
-      subject: IETF 85 proceedings charter
+    - date: '2013-01-18'
+      subject: IETF 85 proceedings charter, as the datatracker generated it by 2013-02-13
       url: https://www.ietf.org/proceedings/85/iri.html
   - kind: minutes without them
     date: '2010-03-21'

@@ -26,12 +26,10 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2014-07-20'
+      date: '2015-02-12'
     end:
       certainty: exact
       date: '2021-07-09'
-    notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   evidence:
   - kind: datatracker record
     date: '2021-07-09'
@@ -62,17 +60,17 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/acme/jnvG-_jv7qII47D3X6aomUPWqgE/
   - kind: proceedings
     listed_in: 8
-    first: '2014-07-20'
-    last: '2017-03-26'
+    first: '2015-05-07'
+    last: '2017-04-12'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
-      url: https://www.ietf.org/proceedings/90/acme.html
-    - date: '2015-03-22'
-      subject: IETF 92 proceedings charter
+    - date: '2015-05-07'
+      subject: IETF 92 proceedings charter, as the datatracker generated it by 2015-05-07
       url: https://www.ietf.org/proceedings/92/acme.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2015-09-09'
+      subject: IETF 90 proceedings charter, as the datatracker generated it by 2015-09-09
+      url: https://www.ietf.org/proceedings/90/acme.html
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/acme.html
   - kind: shepherded
     documents:
@@ -134,13 +132,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2007-07-22'
-      not_after: '2014-07-20'
+      not_after: '2015-02-12'
     end:
       certainty: exact
       date: '2017-09-07'
     notes:
     - 'Start: became an Area Director, first serving at IETF 57 (2003-07-13)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   evidence:
   - kind: datatracker record
     date: '2017-09-07'
@@ -188,17 +185,17 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/acme/jnvG-_jv7qII47D3X6aomUPWqgE/
   - kind: proceedings
     listed_in: 8
-    first: '2014-07-20'
-    last: '2017-03-26'
+    first: '2015-05-07'
+    last: '2017-04-12'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
-      url: https://www.ietf.org/proceedings/90/acme.html
-    - date: '2015-03-22'
-      subject: IETF 92 proceedings charter
+    - date: '2015-05-07'
+      subject: IETF 92 proceedings charter, as the datatracker generated it by 2015-05-07
       url: https://www.ietf.org/proceedings/92/acme.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2015-09-09'
+      subject: IETF 90 proceedings charter, as the datatracker generated it by 2015-09-09
+      url: https://www.ietf.org/proceedings/90/acme.html
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/acme.html
   - kind: joined the IESG
     after_meeting: '56'

@@ -47,7 +47,7 @@ chairs:
   - kind: proceedings
     listed_in: 5
     first: '2010-03-26'
-    last: '2011-03-27'
+    last: '2011-05-05'
     examples:
     - date: '2010-03-26'
       subject: IETF 77 proceedings charter, as last modified
@@ -55,8 +55,8 @@ chairs:
     - date: '2010-07-25'
       subject: IETF 78 proceedings charter
       url: https://www.ietf.org/proceedings/78/isiprec.html
-    - date: '2011-03-27'
-      subject: IETF 80 proceedings charter
+    - date: '2011-05-05'
+      subject: IETF 80 proceedings charter, as the datatracker generated it by 2011-05-05
       url: https://www.ietf.org/proceedings/80/siprec.html
   - kind: session requests
     meetings:
@@ -100,7 +100,7 @@ chairs:
   - kind: proceedings
     listed_in: 21
     first: '2010-03-26'
-    last: '2016-07-17'
+    last: '2016-09-08'
     examples:
     - date: '2010-03-26'
       subject: IETF 77 proceedings charter, as last modified
@@ -108,8 +108,8 @@ chairs:
     - date: '2010-07-25'
       subject: IETF 78 proceedings charter
       url: https://www.ietf.org/proceedings/78/isiprec.html
-    - date: '2016-07-17'
-      subject: IETF 96 proceedings charter
+    - date: '2016-09-08'
+      subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
       url: https://www.ietf.org/proceedings/96/siprec.html
   - kind: session requests
     meetings:
@@ -127,12 +127,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2010-02-09'
-      not_after: '2011-07-24'
+      not_after: '2011-10-21'
     end:
       certainty: group-closed
       date: '2016-12-23'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2011-07-24)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2011-10-21)'
   evidence:
   - kind: WG Action
     date: '2014-06-11'
@@ -140,17 +140,17 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/XFMT6tkutyJx2D1r2T4mkXM1qmk/
   - kind: proceedings
     listed_in: 16
-    first: '2011-07-24'
-    last: '2016-07-17'
+    first: '2011-10-21'
+    last: '2016-09-08'
     examples:
-    - date: '2011-07-24'
-      subject: IETF 81 proceedings charter
+    - date: '2011-10-21'
+      subject: IETF 81 proceedings charter, as the datatracker generated it by 2011-10-21
       url: https://www.ietf.org/proceedings/81/siprec.html
-    - date: '2011-11-13'
-      subject: IETF 82 proceedings charter
+    - date: '2012-02-01'
+      subject: IETF 82 proceedings charter, as the datatracker generated it by 2012-02-01
       url: https://www.ietf.org/proceedings/82/siprec.html
-    - date: '2016-07-17'
-      subject: IETF 96 proceedings charter
+    - date: '2016-09-08'
+      subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
       url: https://www.ietf.org/proceedings/96/siprec.html
   - kind: session requests
     meetings:

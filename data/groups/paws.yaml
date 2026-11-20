@@ -29,12 +29,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-11-07'
+      date: '2011-03-27'
     end:
       certainty: group-closed
       date: '2015-05-22'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
+    - 'Start: requested the group''s session for IETF 80 (2011-03-27)'
   evidence:
   - kind: WG Action
     date: '2011-06-14'
@@ -53,18 +53,18 @@ chairs:
       subject: '[paws] Minutes Posted'
       url: https://mailarchive.ietf.org/arch/msg/paws/b8FPbB_5uarRODnZeqchviAhSqc/
   - kind: proceedings
-    listed_in: 14
-    first: '2010-11-07'
-    last: '2015-03-22'
+    listed_in: 13
+    first: '2011-05-03'
+    last: '2015-05-07'
     examples:
-    - date: '2010-11-07'
-      subject: IETF 79 proceedings charter
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
       url: https://www.ietf.org/proceedings/79/paws.html
-    - date: '2011-03-27'
-      subject: IETF 80 proceedings charter
+    - date: '2011-05-05'
+      subject: IETF 80 proceedings charter, as the datatracker generated it by 2011-05-05
       url: https://www.ietf.org/proceedings/80/paws.html
-    - date: '2015-03-22'
-      subject: IETF 92 proceedings charter
+    - date: '2015-05-07'
+      subject: IETF 92 proceedings charter, as the datatracker generated it by 2015-05-07
       url: https://www.ietf.org/proceedings/92/paws.html
   - kind: session requests
     meetings:
@@ -76,12 +76,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2010-11-07'
+      date: '2011-03-23'
     end:
       certainty: group-closed
       date: '2015-05-22'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2011-03-23)'
   evidence:
   - kind: WG Action
     date: '2011-06-14'
@@ -112,18 +112,18 @@ chairs:
       subject: '[paws] wglc on https://datatracker.ietf.org/doc/draft-ietf-paws-protocol/'
       url: https://mailarchive.ietf.org/arch/msg/paws/OoPUbWH-dp1XP9iKilbfCbddQlI/
   - kind: proceedings
-    listed_in: 14
-    first: '2010-11-07'
-    last: '2015-03-22'
+    listed_in: 13
+    first: '2011-05-03'
+    last: '2015-05-07'
     examples:
-    - date: '2010-11-07'
-      subject: IETF 79 proceedings charter
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
       url: https://www.ietf.org/proceedings/79/paws.html
-    - date: '2011-03-27'
-      subject: IETF 80 proceedings charter
+    - date: '2011-05-05'
+      subject: IETF 80 proceedings charter, as the datatracker generated it by 2011-05-05
       url: https://www.ietf.org/proceedings/80/paws.html
-    - date: '2015-03-22'
-      subject: IETF 92 proceedings charter
+    - date: '2015-05-07'
+      subject: IETF 92 proceedings charter, as the datatracker generated it by 2015-05-07
       url: https://www.ietf.org/proceedings/92/paws.html
   - kind: session requests
     meetings:

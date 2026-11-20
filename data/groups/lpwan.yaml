@@ -32,12 +32,10 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2015-11-01'
+      date: '2016-02-26'
     end:
       certainty: exact
       date: '2016-06-10'
-    notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2015-11-01)'
   evidence:
   - kind: datatracker record
     date: '2016-06-10'
@@ -62,11 +60,11 @@ chairs:
       url: https://www.ietf.org/proceedings/95/lpwan.html
   - kind: proceedings
     listed_in: 2
-    first: '2015-11-01'
+    first: '2016-03-18'
     last: '2016-04-03'
     examples:
-    - date: '2015-11-01'
-      subject: IETF 94 proceedings charter
+    - date: '2016-03-18'
+      subject: IETF 94 proceedings charter, as the datatracker generated it by 2016-03-18
       url: https://www.ietf.org/proceedings/94/lpwan.html
     - date: '2016-04-03'
       subject: IETF 95 proceedings charter
@@ -128,17 +126,17 @@ chairs:
       url: https://www.ietf.org/proceedings/96/minutes/minutes-96-lpwan.txt
   - kind: proceedings
     listed_in: 3
-    first: '2016-07-17'
-    last: '2017-03-26'
+    first: '2016-09-08'
+    last: '2017-04-12'
     examples:
-    - date: '2016-07-17'
-      subject: IETF 96 proceedings charter
+    - date: '2016-09-08'
+      subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
       url: https://www.ietf.org/proceedings/96/lpwan.html
     - date: '2016-11-13'
-      subject: IETF 97 proceedings charter
+      subject: IETF 97 proceedings charter, as the datatracker generated it by 2016-11-13
       url: https://www.ietf.org/proceedings/97/lpwan.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/lpwan.html
   - kind: shepherded
     documents:
@@ -203,17 +201,17 @@ chairs:
       url: https://www.ietf.org/proceedings/96/minutes/minutes-96-lpwan.txt
   - kind: proceedings
     listed_in: 3
-    first: '2016-07-17'
-    last: '2017-03-26'
+    first: '2016-09-08'
+    last: '2017-04-12'
     examples:
-    - date: '2016-07-17'
-      subject: IETF 96 proceedings charter
+    - date: '2016-09-08'
+      subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
       url: https://www.ietf.org/proceedings/96/lpwan.html
     - date: '2016-11-13'
-      subject: IETF 97 proceedings charter
+      subject: IETF 97 proceedings charter, as the datatracker generated it by 2016-11-13
       url: https://www.ietf.org/proceedings/97/lpwan.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/lpwan.html
   - kind: shepherded
     documents:

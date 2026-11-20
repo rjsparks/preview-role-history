@@ -22,15 +22,6 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '2014-07-20'
-    end:
-      certainty: between
-      not_before: '2014-07-20'
-      not_after: '2014-11-03'
-    notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
-  - start:
       certainty: exact
       date: '2014-11-03'
     end:
@@ -86,17 +77,17 @@ chairs:
       url: https://www.ietf.org/proceedings/92/minutes/minutes-92-anima.txt
   - kind: proceedings
     listed_in: 9
-    first: '2014-07-20'
-    last: '2017-03-26'
+    first: '2015-01-06'
+    last: '2017-04-12'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
-      url: https://www.ietf.org/proceedings/90/anima.html
-    - date: '2014-11-09'
-      subject: IETF 91 proceedings charter
+    - date: '2015-01-06'
+      subject: IETF 91 proceedings charter, as the datatracker generated it by 2015-01-06
       url: https://www.ietf.org/proceedings/91/anima.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2015-05-07'
+      subject: IETF 92 proceedings charter, as the datatracker generated it by 2015-05-07
+      url: https://www.ietf.org/proceedings/92/anima.html
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/anima.html
   - kind: shepherded
     documents:
@@ -111,16 +102,6 @@ chairs:
   name: Sheng Jiang
   status: confirmed
   periods:
-  - start:
-      certainty: evidence-only
-      not_after: '2014-07-20'
-    end:
-      certainty: between
-      not_before: '2014-09-04'
-      not_after: '2014-11-03'
-    notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
-    - 'End: posted an agenda, minutes or interim notice to the group''s list (2014-09-04)'
   - start:
       certainty: exact
       date: '2014-11-03'
@@ -177,17 +158,17 @@ chairs:
       url: https://www.ietf.org/proceedings/92/minutes/minutes-92-anima.txt
   - kind: proceedings
     listed_in: 9
-    first: '2014-07-20'
-    last: '2017-03-26'
+    first: '2015-01-06'
+    last: '2017-04-12'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
-      url: https://www.ietf.org/proceedings/90/anima.html
-    - date: '2014-11-09'
-      subject: IETF 91 proceedings charter
+    - date: '2015-01-06'
+      subject: IETF 91 proceedings charter, as the datatracker generated it by 2015-01-06
       url: https://www.ietf.org/proceedings/91/anima.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2015-05-07'
+      subject: IETF 92 proceedings charter, as the datatracker generated it by 2015-05-07
+      url: https://www.ietf.org/proceedings/92/anima.html
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/anima.html
   - kind: shepherded
     documents:

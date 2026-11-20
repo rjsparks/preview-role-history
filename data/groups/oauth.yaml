@@ -90,17 +90,17 @@ chairs:
       url: https://www.ietf.org/proceedings/95/minutes/minutes-95-oauth.txt
   - kind: proceedings
     listed_in: 15
-    first: '2012-03-25'
+    first: '2012-05-15'
     last: '2016-11-13'
     examples:
-    - date: '2012-03-25'
-      subject: IETF 83 proceedings charter
+    - date: '2012-05-15'
+      subject: IETF 83 proceedings charter, as the datatracker generated it by 2012-05-15
       url: https://www.ietf.org/proceedings/83/oauth.html
-    - date: '2012-07-29'
-      subject: IETF 84 proceedings charter
+    - date: '2012-10-02'
+      subject: IETF 84 proceedings charter, as the datatracker generated it by 2012-10-02
       url: https://www.ietf.org/proceedings/84/oauth.html
     - date: '2016-11-13'
-      subject: IETF 97 proceedings charter
+      subject: IETF 97 proceedings charter, as the datatracker generated it by 2016-11-13
       url: https://www.ietf.org/proceedings/97/oauth.html
   - kind: minutes without them
     date: '2011-03-27'
@@ -115,14 +115,14 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2010-01-27'
-      not_after: '2010-11-07'
+      not_before: '2011-03-27'
+      not_after: '2011-05-03'
     end:
       certainty: announced
       date: '2012-02-13'
     notes:
-    - 'Start: not listed among the chairs in meeting minutes (2010-01-27)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
+    - 'Start: not listed among the chairs in meeting minutes (2011-03-27)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2011-05-03)'
     - 'End: announced on the group''s list (2012-02-13)'
   evidence:
   - kind: WG Review
@@ -156,22 +156,22 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/oauth/-Ipqb8Mrt3AWxtx6dL5BG0ZBPxE/
   - kind: proceedings
     listed_in: 4
-    first: '2010-11-07'
-    last: '2011-11-13'
+    first: '2011-05-03'
+    last: '2012-02-01'
     examples:
-    - date: '2010-11-07'
-      subject: IETF 79 proceedings charter
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
       url: https://www.ietf.org/proceedings/79/oauth.html
-    - date: '2011-03-27'
-      subject: IETF 80 proceedings charter
+    - date: '2011-05-05'
+      subject: IETF 80 proceedings charter, as the datatracker generated it by 2011-05-05
       url: https://www.ietf.org/proceedings/80/oauth.html
-    - date: '2011-11-13'
-      subject: IETF 82 proceedings charter
+    - date: '2012-02-01'
+      subject: IETF 82 proceedings charter, as the datatracker generated it by 2012-02-01
       url: https://www.ietf.org/proceedings/82/oauth.html
   - kind: minutes without them
-    date: '2010-01-27'
-    subject: '[OAUTH-WG] draft minutes of OAuth WG interim meeting, 2010-01-21'
-    url: https://mailarchive.ietf.org/arch/msg/oauth/GdWYMNEd9277XVzIEil5qES2VJY/
+    date: '2011-03-27'
+    subject: IETF 80 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/80/minutes/oauth.txt
   - kind: joined the IESG
     after_meeting: '83'
     after: '2012-03-25'
@@ -341,16 +341,16 @@ chairs:
   - kind: proceedings
     listed_in: 21
     first: '2010-03-25'
-    last: '2017-03-26'
+    last: '2017-04-12'
     examples:
     - date: '2010-03-25'
       subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/oauth.html
-    - date: '2010-11-07'
-      subject: IETF 79 proceedings charter
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
       url: https://www.ietf.org/proceedings/79/oauth.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/oauth.html
   - kind: minutes without them
     date: '2010-01-27'
@@ -505,7 +505,7 @@ chairs:
   - kind: proceedings
     listed_in: 5
     first: '2009-03-22'
-    last: '2011-03-27'
+    last: '2011-05-05'
     examples:
     - date: '2009-03-22'
       subject: IETF 74 proceedings charter
@@ -513,8 +513,8 @@ chairs:
     - date: '2009-05-15'
       subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/oauth.html
-    - date: '2011-03-27'
-      subject: IETF 80 proceedings charter
+    - date: '2011-05-05'
+      subject: IETF 80 proceedings charter, as the datatracker generated it by 2011-05-05
       url: https://www.ietf.org/proceedings/80/oauth.html
   - kind: minutes without them
     date: '2012-03-25'
@@ -565,11 +565,11 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/oauth/ysvgvKodF8OOvorJbhSSyEGjjvA/
   - kind: proceedings
     listed_in: 1
-    first: '2017-03-26'
-    last: '2017-03-26'
+    first: '2017-04-12'
+    last: '2017-04-12'
     examples:
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/oauth.html
   - kind: shepherded
     documents:

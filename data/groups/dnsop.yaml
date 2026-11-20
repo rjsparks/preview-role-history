@@ -88,17 +88,17 @@ chairs:
       url: https://www.ietf.org/proceedings/96/minutes/minutes-96-dnsop.txt
   - kind: proceedings
     listed_in: 11
-    first: '2013-11-03'
-    last: '2017-03-26'
+    first: '2013-12-20'
+    last: '2017-04-12'
     examples:
-    - date: '2013-11-03'
-      subject: IETF 88 proceedings charter
+    - date: '2013-12-20'
+      subject: IETF 88 proceedings charter, as the datatracker generated it by 2013-12-20
       url: https://www.ietf.org/proceedings/88/dnsop.html
-    - date: '2014-03-02'
-      subject: IETF 89 proceedings charter
+    - date: '2014-04-25'
+      subject: IETF 89 proceedings charter, as the datatracker generated it by 2014-04-25
       url: https://www.ietf.org/proceedings/89/dnsop.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/dnsop.html
   - kind: shepherded
     documents:
@@ -396,7 +396,7 @@ chairs:
   - kind: proceedings
     listed_in: 17
     first: '2005-11-08'
-    last: '2013-07-28'
+    last: '2013-09-19'
     examples:
     - date: '2005-11-08'
       subject: IETF 64 proceedings charter, as last modified
@@ -404,8 +404,8 @@ chairs:
     - date: '2006-07-09'
       subject: IETF 66 proceedings charter
       url: https://www.ietf.org/proceedings/66/dnsop.html
-    - date: '2013-07-28'
-      subject: IETF 87 proceedings charter
+    - date: '2013-09-19'
+      subject: IETF 87 proceedings charter, as the datatracker generated it by 2013-09-19
       url: https://www.ietf.org/proceedings/87/dnsop.html
   - kind: minutes without them
     date: '2005-07-31'
@@ -488,16 +488,16 @@ chairs:
   - kind: proceedings
     listed_in: 8
     first: '2010-03-16'
-    last: '2012-11-04'
+    last: '2013-02-13'
     examples:
     - date: '2010-03-16'
       subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/dnsop.html
-    - date: '2010-11-07'
-      subject: IETF 79 proceedings charter
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
       url: https://www.ietf.org/proceedings/79/dnsop.html
-    - date: '2012-11-04'
-      subject: IETF 85 proceedings charter
+    - date: '2013-02-13'
+      subject: IETF 85 proceedings charter, as the datatracker generated it by 2013-02-13
       url: https://www.ietf.org/proceedings/85/dnsop.html
   - kind: minutes without them
     date: '2009-11-08'
@@ -614,14 +614,13 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2012-07-29'
-      not_after: '2013-03-10'
+      not_before: '2013-03-13'
+      not_after: '2013-04-11'
     end:
       certainty: exact
       date: '2025-04-16'
     notes:
-    - 'Start: not listed among the chairs in meeting minutes (2012-07-29)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2013-03-10)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2013-04-11)'
   evidence:
   - kind: datatracker record
     date: '2025-04-16'
@@ -672,22 +671,18 @@ chairs:
       url: https://www.ietf.org/proceedings/96/minutes/minutes-96-dnsop.txt
   - kind: proceedings
     listed_in: 13
-    first: '2013-03-10'
-    last: '2017-03-26'
+    first: '2013-04-11'
+    last: '2017-04-12'
     examples:
-    - date: '2013-03-10'
-      subject: IETF 86 proceedings charter
+    - date: '2013-04-11'
+      subject: IETF 86 proceedings charter, as the datatracker generated it by 2013-04-11
       url: https://www.ietf.org/proceedings/86/dnsop.html
-    - date: '2013-07-28'
-      subject: IETF 87 proceedings charter
+    - date: '2013-09-19'
+      subject: IETF 87 proceedings charter, as the datatracker generated it by 2013-09-19
       url: https://www.ietf.org/proceedings/87/dnsop.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/dnsop.html
-  - kind: minutes without them
-    date: '2012-07-29'
-    subject: '[DNSOP] Minutes from IETF 84 DNSOP Meeting'
-    url: https://mailarchive.ietf.org/arch/msg/dnsop/X4FWb5wiF_HoOazAzeml7_0h-rw/
   - kind: shepherded
     documents:
     - draft-andrews-dns-no-response-issue

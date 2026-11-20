@@ -28,21 +28,22 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2012-07-29'
+      certainty: between
+      not_before: '2012-09-26'
+      not_after: '2012-10-02'
     end:
       certainty: approximate
       date: '2013-01-07'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2012-07-29)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2012-10-02)'
   evidence:
   - kind: proceedings
     listed_in: 1
-    first: '2012-07-29'
-    last: '2012-07-29'
+    first: '2012-10-02'
+    last: '2012-10-02'
     examples:
-    - date: '2012-07-29'
-      subject: IETF 84 proceedings charter
+    - date: '2012-10-02'
+      subject: IETF 84 proceedings charter, as the datatracker generated it by 2012-10-02
       url: https://www.ietf.org/proceedings/84/wpkops.html
 - person: 20117
   name: Sharon Boeyen
@@ -87,27 +88,28 @@ chairs:
       url: https://www.ietf.org/proceedings/86/minutes/minutes-86-wpkops.txt
   - kind: proceedings
     listed_in: 2
-    first: '2013-03-10'
-    last: '2013-07-28'
+    first: '2013-04-11'
+    last: '2013-09-19'
     examples:
-    - date: '2013-03-10'
-      subject: IETF 86 proceedings charter
+    - date: '2013-04-11'
+      subject: IETF 86 proceedings charter, as the datatracker generated it by 2013-04-11
       url: https://www.ietf.org/proceedings/86/wpkops.html
-    - date: '2013-07-28'
-      subject: IETF 87 proceedings charter
+    - date: '2013-09-19'
+      subject: IETF 87 proceedings charter, as the datatracker generated it by 2013-09-19
       url: https://www.ietf.org/proceedings/87/wpkops.html
 - person: 110367
   name: Tim Moses
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2012-07-29'
+      certainty: between
+      not_before: '2012-09-26'
+      not_after: '2012-10-02'
     end:
       certainty: group-closed
       date: '2015-05-22'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2012-07-29)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2012-10-02)'
   evidence:
   - kind: WG Review
     date: '2013-02-12'
@@ -137,18 +139,18 @@ chairs:
       subject: '[wpkops] Minutes IETF 85 BoF'
       url: https://mailarchive.ietf.org/arch/msg/wpkops/FqhXEGypCHZie2D1sQUdl2phJHM/
   - kind: proceedings
-    listed_in: 9
-    first: '2012-07-29'
-    last: '2015-03-22'
+    listed_in: 8
+    first: '2012-10-02'
+    last: '2015-05-07'
     examples:
-    - date: '2012-07-29'
-      subject: IETF 84 proceedings charter
+    - date: '2012-10-02'
+      subject: IETF 84 proceedings charter, as the datatracker generated it by 2012-10-02
       url: https://www.ietf.org/proceedings/84/wpkops.html
-    - date: '2012-11-04'
-      subject: IETF 85 proceedings charter
+    - date: '2013-02-13'
+      subject: IETF 85 proceedings charter, as the datatracker generated it by 2013-02-13
       url: https://www.ietf.org/proceedings/85/wpkops.html
-    - date: '2015-03-22'
-      subject: IETF 92 proceedings charter
+    - date: '2015-05-07'
+      subject: IETF 92 proceedings charter, as the datatracker generated it by 2015-05-07
       url: https://www.ietf.org/proceedings/92/wpkops.html
 - person: 115286
   name: Jeremy Rowley
@@ -175,16 +177,16 @@ chairs:
       subject: '[wpkops] Agenda Items for IETF 87'
       url: https://mailarchive.ietf.org/arch/msg/wpkops/JqZjtX4fAAg7XtjJ7JtxnwhzB3w/
   - kind: proceedings
-    listed_in: 7
-    first: '2013-03-10'
-    last: '2015-03-22'
+    listed_in: 6
+    first: '2013-04-11'
+    last: '2015-05-07'
     examples:
-    - date: '2013-03-10'
-      subject: IETF 86 proceedings charter
+    - date: '2013-04-11'
+      subject: IETF 86 proceedings charter, as the datatracker generated it by 2013-04-11
       url: https://www.ietf.org/proceedings/86/wpkops.html
-    - date: '2013-07-28'
-      subject: IETF 87 proceedings charter
+    - date: '2013-09-19'
+      subject: IETF 87 proceedings charter, as the datatracker generated it by 2013-09-19
       url: https://www.ietf.org/proceedings/87/wpkops.html
-    - date: '2015-03-22'
-      subject: IETF 92 proceedings charter
+    - date: '2015-05-07'
+      subject: IETF 92 proceedings charter, as the datatracker generated it by 2015-05-07
       url: https://www.ietf.org/proceedings/92/wpkops.html

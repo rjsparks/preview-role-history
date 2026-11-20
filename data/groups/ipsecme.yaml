@@ -79,7 +79,7 @@ chairs:
   - kind: proceedings
     listed_in: 20
     first: '2008-08-21'
-    last: '2016-04-03'
+    last: '2016-05-17'
     examples:
     - date: '2008-08-21'
       subject: IETF 74 proceedings charter, as last modified
@@ -87,8 +87,8 @@ chairs:
     - date: '2010-02-24'
       subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/ipsecme.html
-    - date: '2016-04-03'
-      subject: IETF 95 proceedings charter
+    - date: '2016-05-17'
+      subject: IETF 95 proceedings charter, as the datatracker generated it by 2016-05-17
       url: https://www.ietf.org/proceedings/95/ipsecme.html
   - kind: session requests
     meetings:
@@ -169,7 +169,7 @@ chairs:
   - kind: proceedings
     listed_in: 16
     first: '2008-08-21'
-    last: '2015-03-22'
+    last: '2015-05-07'
     examples:
     - date: '2008-08-21'
       subject: IETF 74 proceedings charter, as last modified
@@ -177,8 +177,8 @@ chairs:
     - date: '2010-02-24'
       subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/ipsecme.html
-    - date: '2015-03-22'
-      subject: IETF 92 proceedings charter
+    - date: '2015-05-07'
+      subject: IETF 92 proceedings charter, as the datatracker generated it by 2015-05-07
       url: https://www.ietf.org/proceedings/92/ipsecme.html
   - kind: session requests
     meetings:
@@ -278,17 +278,17 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/GZGxpMtoNokofi2SlRXuRaq7uN4/
   - kind: proceedings
     listed_in: 3
-    first: '2016-07-17'
-    last: '2017-03-26'
+    first: '2016-09-08'
+    last: '2017-04-12'
     examples:
-    - date: '2016-07-17'
-      subject: IETF 96 proceedings charter
+    - date: '2016-09-08'
+      subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
       url: https://www.ietf.org/proceedings/96/ipsecme.html
     - date: '2016-11-13'
-      subject: IETF 97 proceedings charter
+      subject: IETF 97 proceedings charter, as the datatracker generated it by 2016-11-13
       url: https://www.ietf.org/proceedings/97/ipsecme.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/ipsecme.html
   - kind: shepherded
     documents:
@@ -316,17 +316,6 @@ chairs:
   name: David Waltermire
   status: confirmed
   periods:
-  - start:
-      certainty: between
-      not_before: '2010-03-21'
-      not_after: '2014-07-20'
-    end:
-      certainty: between
-      not_before: '2014-07-20'
-      not_after: '2015-09-04'
-    notes:
-    - 'Start: not listed among the chairs in meeting minutes (2010-03-21)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   - start:
       certainty: exact
       date: '2015-09-04'
@@ -369,22 +358,18 @@ chairs:
       Dave is stepping down to leave more time for his other projects.
   - kind: proceedings
     listed_in: 7
-    first: '2014-07-20'
-    last: '2017-03-26'
+    first: '2015-09-09'
+    last: '2017-04-12'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
+    - date: '2015-09-09'
+      subject: IETF 90 proceedings charter, as the datatracker generated it by 2015-09-09
       url: https://www.ietf.org/proceedings/90/ipsecme.html
-    - date: '2015-07-19'
-      subject: IETF 93 proceedings charter
+    - date: '2015-10-06'
+      subject: IETF 93 proceedings charter, as the datatracker generated it by 2015-10-06
       url: https://www.ietf.org/proceedings/93/ipsecme.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/ipsecme.html
-  - kind: minutes without them
-    date: '2010-03-21'
-    subject: IETF 77 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/77/minutes/ipsecme.txt
   - kind: shepherded
     documents:
     - draft-fluhrer-qr-ikev2

@@ -39,6 +39,17 @@ chairs:
     date: '2025-02-20'
     subject: 'WG Action: Rechartered Domain Keys Identified Mail (dkim)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/QO-NwGQ-s4oxAog1lDhf1sqbWiU/
+  - kind: chair activity
+    first: '2025-04-04'
+    last: '2026-05-08'
+    messages: 4
+    examples:
+    - date: '2025-04-04'
+      subject: '[Ietf-dkim] IETF 122 DKIM Meeting Minutes'
+      url: https://mailarchive.ietf.org/arch/msg/ietf-dkim/fbYPiNHgzWBWA8iBSZ_IhqCwX9o/
+    - date: '2025-07-14'
+      subject: '[Ietf-dkim] Next draft adoption / Agenda for Madrid meeting'
+      url: https://mailarchive.ietf.org/arch/msg/ietf-dkim/qIrkmhg9whbTyh-KkF3SmvG6JvM/
 - person: 19177
   name: Stephen Farrell
   status: unconfirmed
@@ -173,7 +184,7 @@ chairs:
   - kind: proceedings
     listed_in: 12
     first: '2005-10-17'
-    last: '2011-07-24'
+    last: '2011-10-21'
     examples:
     - date: '2005-10-17'
       subject: IETF 64 proceedings charter, as last modified
@@ -181,8 +192,8 @@ chairs:
     - date: '2006-01-11'
       subject: IETF 65 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/65/dkim.html
-    - date: '2011-07-24'
-      subject: IETF 81 proceedings charter
+    - date: '2011-10-21'
+      subject: IETF 81 proceedings charter, as the datatracker generated it by 2011-10-21
       url: https://www.ietf.org/proceedings/81/dkim.html
   - kind: joined the IESG
     after_meeting: '83'
@@ -230,12 +241,18 @@ chairs:
     url: https://datatracker.ietf.org/group/dkim/history/
   - kind: chair activity
     first: '2011-05-02'
-    last: '2011-05-02'
-    messages: 1
+    last: '2026-09-23'
+    messages: 10
     examples:
     - date: '2011-05-02'
       subject: '[ietf-dkim] WGLC version of drafts posted'
       url: https://mailarchive.ietf.org/arch/msg/ietf-dkim/UDNc2Zc0bZpS86XsJ5SEW1XJIao/
+    - date: '2026-01-07'
+      subject: '[Ietf-dkim] Meetings, Part I: Interim(s)'
+      url: https://mailarchive.ietf.org/arch/msg/ietf-dkim/LpN6AXVZZMnhwrY9mxJAf8GqZ-M/
+    - date: '2026-03-09'
+      subject: '[Ietf-dkim] Minutes from the January iterim'
+      url: https://mailarchive.ietf.org/arch/msg/ietf-dkim/jGWPEXmbsuETV17V0aBcfXCfubA/
   - kind: minutes without them
     date: '2006-07-09'
     subject: IETF 66 minutes in the proceedings

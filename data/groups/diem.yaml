@@ -112,14 +112,23 @@ chairs:
     date: '2025-05-27'
     subject: 'WG Action: Formed Digital Emblems (diem)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Ifg6T-sVfQ9edkp-khJ1z0XKZjI/
+  - kind: list message
+    date: '2026-03-03'
+    says: end
+    subject: '[Diem] Welcome, Sarah Jenkins as DIEM Co Chair'
+    url: https://mailarchive.ietf.org/arch/msg/diem/5pz7pgjDtrJB8punLmq1UyPVpfQ/
+    excerpt: Sarah has agreed to take over for Tommy as he joins the IESG as INT AD.
   - kind: chair activity
     first: '2025-09-03'
-    last: '2025-09-03'
-    messages: 1
+    last: '2026-01-22'
+    messages: 5
     examples:
     - date: '2025-09-03'
       subject: '[Diem] Proposed time slots for an interim meeting'
       url: https://mailarchive.ietf.org/arch/msg/diem/qflhcxlkiIG3cuck_v3Ypts1dzM/
+    - date: '2025-10-01'
+      subject: '[Diem] Interim meeting in progress'
+      url: https://mailarchive.ietf.org/arch/msg/diem/15ZpxytipI3TANiGwzVnRKwtIPw/
   - kind: joined the IESG
     after_meeting: '125'
     after: '2026-03-14'
@@ -144,6 +153,20 @@ chairs:
     date: '2025-05-27'
     subject: 'WG Action: Formed Digital Emblems (diem)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/Ifg6T-sVfQ9edkp-khJ1z0XKZjI/
+  - kind: chair activity
+    first: '2025-10-02'
+    last: '2026-11-15'
+    messages: 3
+    examples:
+    - date: '2025-10-02'
+      subject: '[Diem] Revised minutes from the DIEM interim'
+      url: https://mailarchive.ietf.org/arch/msg/diem/eYPQlOfXAkgYeOtBHxQzNyUiJhs/
+    - date: '2026-07-16'
+      subject: '[Diem] Working Group Last Call - draft-ietf-diem-requirements-03'
+      url: https://mailarchive.ietf.org/arch/msg/diem/v8gt9ueiEwF_LZUwuqC3rVhl00o/
+    - date: '2026-11-15'
+      subject: '[Diem] WGLC Consensus Call for draft-ietf-diem-requirements'
+      url: https://mailarchive.ietf.org/arch/msg/diem/H4JNwHCqGJmf6eyNuNSqvmCh0uU/
 - person: 130357
   name: Dennis Jackson
   status: confirmed
@@ -159,6 +182,12 @@ chairs:
     says: start
     text: Chair changed to Dennis Jackson, Rohan Mahy, Sarah Jennings from Rohan Mahy, Sarah Jennings
     url: https://datatracker.ietf.org/group/diem/history/
+  - kind: list message
+    date: '2026-08-25'
+    says: start
+    subject: '[Diem] Additional DIEM co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/diem/bcfDiqRO1Jj7MFtgGU25HfF3j4M/
+    excerpt: Second, Dennis Jackson has agreed to serve as a temporary co-chair while Sarah is away.
 - person: 145138
   name: Sarah Jennings
   status: confirmed

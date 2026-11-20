@@ -29,12 +29,10 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2014-07-20'
+      date: '2015-06-11'
     end:
       certainty: exact
       date: '2015-10-01'
-    notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   evidence:
   - kind: datatracker record
     date: '2015-10-01'
@@ -51,11 +49,11 @@ chairs:
       url: https://www.ietf.org/proceedings/93/minutes/minutes-93-capport.txt
   - kind: proceedings
     listed_in: 1
-    first: '2014-07-20'
-    last: '2014-07-20'
+    first: '2015-09-09'
+    last: '2015-09-09'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
+    - date: '2015-09-09'
+      subject: IETF 90 proceedings charter, as the datatracker generated it by 2015-09-09
       url: https://www.ietf.org/proceedings/90/capport.html
 - person: 107131
   name: Martin Thomson
@@ -103,17 +101,17 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/captive-portals/KMFo4WlhZ3ejTGNW7CQSV5KmFqc/
   - kind: proceedings
     listed_in: 4
-    first: '2015-11-01'
-    last: '2017-03-26'
+    first: '2016-03-18'
+    last: '2017-04-12'
     examples:
-    - date: '2015-11-01'
-      subject: IETF 94 proceedings charter
+    - date: '2016-03-18'
+      subject: IETF 94 proceedings charter, as the datatracker generated it by 2016-03-18
       url: https://www.ietf.org/proceedings/94/capport.html
-    - date: '2016-04-03'
-      subject: IETF 95 proceedings charter
+    - date: '2016-05-17'
+      subject: IETF 95 proceedings charter, as the datatracker generated it by 2016-05-17
       url: https://www.ietf.org/proceedings/95/capport.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/capport.html
   - kind: shepherded
     documents:
@@ -157,11 +155,11 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/captive-portals/dTZ-3fSGk0D6PjsvQQtY_qXciMQ/
   - kind: proceedings
     listed_in: 1
-    first: '2017-03-26'
-    last: '2017-03-26'
+    first: '2017-04-12'
+    last: '2017-04-12'
     examples:
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/capport.html
   - kind: joined the IESG
     after_meeting: '107'
@@ -174,12 +172,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2014-07-20'
+      date: '2015-05-28'
     end:
       certainty: exact
       date: '2017-03-28'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2015-05-28)'
   evidence:
   - kind: datatracker record
     date: '2017-03-28'
@@ -215,17 +213,17 @@ chairs:
       url: https://www.ietf.org/proceedings/93/minutes/minutes-93-capport.txt
   - kind: proceedings
     listed_in: 5
-    first: '2014-07-20'
-    last: '2016-07-17'
+    first: '2015-09-09'
+    last: '2016-09-08'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
+    - date: '2015-09-09'
+      subject: IETF 90 proceedings charter, as the datatracker generated it by 2015-09-09
       url: https://www.ietf.org/proceedings/90/capport.html
-    - date: '2015-07-19'
-      subject: IETF 93 proceedings charter
+    - date: '2015-10-06'
+      subject: IETF 93 proceedings charter, as the datatracker generated it by 2015-10-06
       url: https://www.ietf.org/proceedings/93/capport.html
-    - date: '2016-07-17'
-      subject: IETF 96 proceedings charter
+    - date: '2016-09-08'
+      subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
       url: https://www.ietf.org/proceedings/96/capport.html
   - kind: joined the IESG
     after_meeting: '98'

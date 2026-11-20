@@ -140,16 +140,6 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '2014-07-20'
-    end:
-      certainty: between
-      not_before: '2014-07-20'
-      not_after: '2014-11-09'
-    notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
-    - 'End: not listed among the chairs in meeting minutes (2014-11-09)'
-  - start:
       certainty: exact
       date: '2015-09-10'
     end:
@@ -192,22 +182,18 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/i2nsf/Q_rBQ0VttGu-SPoQFVfQSuRkKFg/
   - kind: proceedings
     listed_in: 7
-    first: '2014-07-20'
-    last: '2017-03-26'
+    first: '2015-09-09'
+    last: '2017-04-12'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
+    - date: '2015-09-09'
+      subject: IETF 90 proceedings charter, as the datatracker generated it by 2015-09-09
       url: https://www.ietf.org/proceedings/90/i2nsf.html
-    - date: '2015-07-19'
-      subject: IETF 93 proceedings charter
+    - date: '2015-10-06'
+      subject: IETF 93 proceedings charter, as the datatracker generated it by 2015-10-06
       url: https://www.ietf.org/proceedings/93/i2nsf.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/i2nsf.html
-  - kind: minutes without them
-    date: '2014-11-09'
-    subject: IETF 91 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/91/i2nsf.html
   - kind: shepherded
     documents:
     - draft-ietf-i2nsf-problem-and-use-cases
@@ -250,14 +236,16 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '2014-07-20'
+      certainty: between
+      not_before: '2014-11-09'
+      not_after: '2015-05-13'
     end:
       certainty: between
       not_before: '2015-06-02'
       not_after: '2015-07-19'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
+    - 'Start: not listed among the chairs in meeting minutes (2014-11-09)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2015-05-13)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2015-06-02)'
     - 'End: not listed among the chairs in meeting minutes (2015-07-19)'
   - start:
@@ -299,18 +287,22 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/i2nsf/ZfADc1qFmoVm1gL65eOq6qJAUbE/
   - kind: proceedings
     listed_in: 7
-    first: '2014-07-20'
-    last: '2017-03-26'
+    first: '2015-09-09'
+    last: '2017-04-12'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
+    - date: '2015-09-09'
+      subject: IETF 90 proceedings charter, as the datatracker generated it by 2015-09-09
       url: https://www.ietf.org/proceedings/90/i2nsf.html
-    - date: '2015-07-19'
-      subject: IETF 93 proceedings charter
+    - date: '2015-10-06'
+      subject: IETF 93 proceedings charter, as the datatracker generated it by 2015-10-06
       url: https://www.ietf.org/proceedings/93/i2nsf.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/i2nsf.html
+  - kind: minutes without them
+    date: '2014-11-09'
+    subject: IETF 91 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/91/i2nsf.html
   - kind: minutes without them
     date: '2015-07-19'
     subject: IETF 93 minutes in the proceedings

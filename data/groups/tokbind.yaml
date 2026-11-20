@@ -22,15 +22,6 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '2014-07-20'
-    end:
-      certainty: between
-      not_before: '2014-07-20'
-      not_after: '2015-03-11'
-    notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
-  - start:
       certainty: exact
       date: '2015-03-11'
     end:
@@ -75,31 +66,22 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/unbearable/XQgy7LlPOLje6xboVCYuD3MQg6M/
   - kind: proceedings
     listed_in: 8
-    first: '2014-07-20'
-    last: '2017-03-26'
+    first: '2015-05-07'
+    last: '2017-04-12'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
-      url: https://www.ietf.org/proceedings/90/tokbind.html
-    - date: '2015-03-22'
-      subject: IETF 92 proceedings charter
+    - date: '2015-05-07'
+      subject: IETF 92 proceedings charter, as the datatracker generated it by 2015-05-07
       url: https://www.ietf.org/proceedings/92/tokbind.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2015-09-09'
+      subject: IETF 90 proceedings charter, as the datatracker generated it by 2015-09-09
+      url: https://www.ietf.org/proceedings/90/tokbind.html
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/tokbind.html
 - person: 112131
   name: John Bradley
   status: confirmed
   periods:
-  - start:
-      certainty: evidence-only
-      not_after: '2014-07-20'
-    end:
-      certainty: between
-      not_before: '2014-07-20'
-      not_after: '2015-03-11'
-    notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   - start:
       certainty: exact
       date: '2015-03-11'
@@ -126,17 +108,17 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/unbearable/pbnSTwQNZmisqLVer6Iy1c8sfd4/
   - kind: proceedings
     listed_in: 8
-    first: '2014-07-20'
-    last: '2017-03-26'
+    first: '2015-05-07'
+    last: '2017-04-12'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
-      url: https://www.ietf.org/proceedings/90/tokbind.html
-    - date: '2015-03-22'
-      subject: IETF 92 proceedings charter
+    - date: '2015-05-07'
+      subject: IETF 92 proceedings charter, as the datatracker generated it by 2015-05-07
       url: https://www.ietf.org/proceedings/92/tokbind.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2015-09-09'
+      subject: IETF 90 proceedings charter, as the datatracker generated it by 2015-09-09
+      url: https://www.ietf.org/proceedings/90/tokbind.html
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/tokbind.html
   - kind: shepherded
     documents:

@@ -128,17 +128,17 @@ chairs:
       url: https://www.ietf.org/proceedings/94/minutes/minutes-94-rtcweb.txt
   - kind: proceedings
     listed_in: 10
-    first: '2014-03-02'
-    last: '2017-03-26'
+    first: '2014-04-25'
+    last: '2017-04-12'
     examples:
-    - date: '2014-03-02'
-      subject: IETF 89 proceedings charter
+    - date: '2014-04-25'
+      subject: IETF 89 proceedings charter, as the datatracker generated it by 2014-04-25
       url: https://www.ietf.org/proceedings/89/rtcweb.html
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
-      url: https://www.ietf.org/proceedings/90/rtcweb.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2015-01-06'
+      subject: IETF 91 proceedings charter, as the datatracker generated it by 2015-01-06
+      url: https://www.ietf.org/proceedings/91/rtcweb.html
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/rtcweb.html
   - kind: shepherded
     documents:
@@ -156,14 +156,13 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2010-07-25'
-      not_after: '2010-11-07'
+      not_before: '2011-03-31'
+      not_after: '2011-05-03'
     end:
       certainty: exact
       date: '2014-04-16'
     notes:
-    - 'Start: became an Area Director, first serving at IETF 66 (2006-07-09)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
+    - 'Start: named as chair in the WG Action announcement (2011-05-03)'
   evidence:
   - kind: datatracker record
     date: '2014-04-16'
@@ -214,37 +213,31 @@ chairs:
       url: https://www.ietf.org/proceedings/88/minutes/minutes-88-rtcweb.txt
   - kind: proceedings
     listed_in: 10
-    first: '2010-11-07'
-    last: '2013-11-03'
+    first: '2011-05-03'
+    last: '2013-12-20'
     examples:
-    - date: '2010-11-07'
-      subject: IETF 79 proceedings charter
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
       url: https://www.ietf.org/proceedings/79/rtcweb.html
-    - date: '2011-03-27'
-      subject: IETF 80 proceedings charter
+    - date: '2011-05-05'
+      subject: IETF 80 proceedings charter, as the datatracker generated it by 2011-05-05
       url: https://www.ietf.org/proceedings/80/rtcweb.html
-    - date: '2013-11-03'
-      subject: IETF 88 proceedings charter
+    - date: '2013-12-20'
+      subject: IETF 88 proceedings charter, as the datatracker generated it by 2013-12-20
       url: https://www.ietf.org/proceedings/88/rtcweb.html
-  - kind: joined the IESG
-    after_meeting: '65'
-    after: '2006-03-19'
-    by_meeting: '66'
-    by: '2006-07-09'
 - person: 105791
   name: Cullen Jennings
   status: confirmed
   periods:
   - start:
       certainty: between
-      not_before: '2010-07-25'
-      not_after: '2010-11-07'
+      not_before: '2011-03-31'
+      not_after: '2011-05-03'
     end:
       certainty: exact
       date: '2018-11-19'
     notes:
-    - 'Start: became an Area Director, first serving at IETF 66 (2006-07-09)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
+    - 'Start: named as chair in the WG Action announcement (2011-05-03)'
   evidence:
   - kind: datatracker record
     date: '2018-11-19'
@@ -291,23 +284,18 @@ chairs:
       url: https://www.ietf.org/proceedings/94/minutes/minutes-94-rtcweb.txt
   - kind: proceedings
     listed_in: 20
-    first: '2010-11-07'
-    last: '2017-03-26'
+    first: '2011-05-03'
+    last: '2017-04-12'
     examples:
-    - date: '2010-11-07'
-      subject: IETF 79 proceedings charter
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
       url: https://www.ietf.org/proceedings/79/rtcweb.html
-    - date: '2011-03-27'
-      subject: IETF 80 proceedings charter
+    - date: '2011-05-05'
+      subject: IETF 80 proceedings charter, as the datatracker generated it by 2011-05-05
       url: https://www.ietf.org/proceedings/80/rtcweb.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/rtcweb.html
-  - kind: joined the IESG
-    after_meeting: '65'
-    after: '2006-03-19'
-    by_meeting: '66'
-    by: '2006-07-09'
   - kind: session requests
     meetings:
     - '81'
@@ -324,13 +312,13 @@ chairs:
   - start:
       certainty: between
       not_before: '2007-07-22'
-      not_after: '2010-11-07'
+      not_after: '2011-03-27'
     end:
       certainty: group-closed
       date: '2024-04-15'
     notes:
     - 'Start: became an Area Director, first serving at IETF 57 (2003-07-13)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
+    - 'Start: listed as chair in meeting minutes (2011-03-27)'
   evidence:
   - kind: WG Action
     date: '2011-05-03'
@@ -380,17 +368,17 @@ chairs:
       url: https://www.ietf.org/proceedings/94/minutes/minutes-94-rtcweb.txt
   - kind: proceedings
     listed_in: 20
-    first: '2010-11-07'
-    last: '2017-03-26'
+    first: '2011-05-03'
+    last: '2017-04-12'
     examples:
-    - date: '2010-11-07'
-      subject: IETF 79 proceedings charter
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
       url: https://www.ietf.org/proceedings/79/rtcweb.html
-    - date: '2011-03-27'
-      subject: IETF 80 proceedings charter
+    - date: '2011-05-05'
+      subject: IETF 80 proceedings charter, as the datatracker generated it by 2011-05-05
       url: https://www.ietf.org/proceedings/80/rtcweb.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/rtcweb.html
   - kind: joined the IESG
     after_meeting: '56'

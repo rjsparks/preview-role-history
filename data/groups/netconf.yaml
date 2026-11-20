@@ -153,7 +153,7 @@ chairs:
   - kind: proceedings
     listed_in: 16
     first: '2008-03-13'
-    last: '2014-03-02'
+    last: '2014-04-25'
     examples:
     - date: '2008-03-13'
       subject: IETF 71 proceedings charter, as last modified
@@ -161,8 +161,8 @@ chairs:
     - date: '2009-02-03'
       subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/netconf.html
-    - date: '2014-03-02'
-      subject: IETF 89 proceedings charter
+    - date: '2014-04-25'
+      subject: IETF 89 proceedings charter, as the datatracker generated it by 2014-04-25
       url: https://www.ietf.org/proceedings/89/netconf.html
 - person: 8244
   name: Andy Bierman
@@ -339,7 +339,7 @@ chairs:
   - kind: proceedings
     listed_in: 25
     first: '2008-03-13'
-    last: '2017-03-26'
+    last: '2017-04-12'
     examples:
     - date: '2008-03-13'
       subject: IETF 71 proceedings charter, as last modified
@@ -347,8 +347,8 @@ chairs:
     - date: '2009-02-03'
       subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/netconf.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/netconf.html
   - kind: minutes without them
     date: '2006-08-13'
@@ -377,17 +377,6 @@ chairs:
   name: Mahesh Jethanandani
   status: confirmed
   periods:
-  - start:
-      certainty: between
-      not_before: '2011-07-24'
-      not_after: '2014-07-20'
-    end:
-      certainty: between
-      not_before: '2014-07-20'
-      not_after: '2014-11-13'
-    notes:
-    - 'Start: not listed among the chairs in meeting minutes (2011-07-24)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   - start:
       certainty: exact
       date: '2014-11-13'
@@ -443,22 +432,18 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/netconf/FB4zcme9Q6RXPuyYGmG6RRQIl-k/
   - kind: proceedings
     listed_in: 9
-    first: '2014-07-20'
-    last: '2017-03-26'
+    first: '2015-01-06'
+    last: '2017-04-12'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
-      url: https://www.ietf.org/proceedings/90/netconf.html
-    - date: '2014-11-09'
-      subject: IETF 91 proceedings charter
+    - date: '2015-01-06'
+      subject: IETF 91 proceedings charter, as the datatracker generated it by 2015-01-06
       url: https://www.ietf.org/proceedings/91/netconf.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2015-05-07'
+      subject: IETF 92 proceedings charter, as the datatracker generated it by 2015-05-07
+      url: https://www.ietf.org/proceedings/92/netconf.html
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/netconf.html
-  - kind: minutes without them
-    date: '2011-07-24'
-    subject: IETF 81 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/81/minutes/netconf.txt
   - kind: joined the IESG
     after_meeting: '119'
     after: '2024-03-16'

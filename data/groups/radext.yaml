@@ -183,7 +183,7 @@ chairs:
   - kind: proceedings
     listed_in: 15
     first: '2004-07-14'
-    last: '2010-11-07'
+    last: '2011-05-03'
     examples:
     - date: '2004-07-14'
       subject: IETF 60 proceedings charter, as last modified
@@ -191,8 +191,8 @@ chairs:
     - date: '2004-10-15'
       subject: IETF 61 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/61/radext.html
-    - date: '2010-11-07'
-      subject: IETF 79 proceedings charter
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
       url: https://www.ietf.org/proceedings/79/radext.html
   - kind: session requests
     meetings:
@@ -229,6 +229,26 @@ chairs:
     date: '2026-09-21'
     subject: 'WG Action: Rechartered RADIUS EXTensions (radext)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/wA964IMtN9AiRosLaPBHp_ixzo4/
+  - kind: chair activity
+    first: '2023-04-26'
+    last: '2026-11-05'
+    messages: 25
+    examples:
+    - date: '2023-04-26'
+      subject: '[radext] RADEXT interim meeting date poll'
+      url: https://mailarchive.ietf.org/arch/msg/radext/l-hl0hX0qNUIrV25WnJR8yh1E8U/
+    - date: '2023-05-24'
+      subject: '[radext] Minutes from Interim Meeting 5/22/2023'
+      url: https://mailarchive.ietf.org/arch/msg/radext/0csw1RgMxyQxDQEiAK_YNUE1o48/
+    - date: '2023-10-26'
+      subject: '[radext] WGLC for draft-ietf-radext-radiusv11-02'
+      url: https://mailarchive.ietf.org/arch/msg/radext/KYyIq5AHtr-_J966jASp_Lw3E28/
+    - date: '2023-12-01'
+      subject: '[radext] WGLC for draft-ietf-radext-tls-psk-04'
+      url: https://mailarchive.ietf.org/arch/msg/radext/pXs_oy3cTiHahuZo_H2qLySr6dg/
+    - date: '2025-04-01'
+      subject: '[radext] WGLC for draft-ietf-radext-reverse-coa-02'
+      url: https://mailarchive.ietf.org/arch/msg/radext/P7U9MAgJpvmkMqNrT6b2morKpJE/
   - kind: shepherded
     documents:
     - draft-ietf-radext-radiusdtls-bis
@@ -238,17 +258,6 @@ chairs:
   name: Lionel Morand
   status: confirmed
   periods:
-  - start:
-      certainty: between
-      not_before: '2011-07-24'
-      not_after: '2014-07-20'
-    end:
-      certainty: between
-      not_before: '2014-07-20'
-      not_after: '2015-01-05'
-    notes:
-    - 'Start: not listed among the chairs in meeting minutes (2011-07-24)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   - start:
       certainty: exact
       date: '2015-01-05'
@@ -275,22 +284,18 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/radext/lmnnWdXnC_z117Ik-0HMK2-eQGM/
   - kind: proceedings
     listed_in: 8
-    first: '2014-07-20'
+    first: '2015-01-06'
     last: '2016-11-13'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
-      url: https://www.ietf.org/proceedings/90/radext.html
-    - date: '2014-11-09'
-      subject: IETF 91 proceedings charter
+    - date: '2015-01-06'
+      subject: IETF 91 proceedings charter, as the datatracker generated it by 2015-01-06
       url: https://www.ietf.org/proceedings/91/radext.html
+    - date: '2015-05-07'
+      subject: IETF 92 proceedings charter, as the datatracker generated it by 2015-05-07
+      url: https://www.ietf.org/proceedings/92/radext.html
     - date: '2016-11-13'
-      subject: IETF 97 proceedings charter
+      subject: IETF 97 proceedings charter, as the datatracker generated it by 2016-11-13
       url: https://www.ietf.org/proceedings/97/radext.html
-  - kind: minutes without them
-    date: '2011-07-24'
-    subject: IETF 81 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/81/minutes/radext.txt
   - kind: shepherded
     documents:
     - draft-ietf-radext-ip-port-radius-ext
@@ -331,17 +336,17 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/radext/IVIlmdiHdIh_39ZOcAkOTJWjGeU/
   - kind: proceedings
     listed_in: 9
-    first: '2014-03-02'
+    first: '2014-04-25'
     last: '2016-11-13'
     examples:
-    - date: '2014-03-02'
-      subject: IETF 89 proceedings charter
+    - date: '2014-04-25'
+      subject: IETF 89 proceedings charter, as the datatracker generated it by 2014-04-25
       url: https://www.ietf.org/proceedings/89/radext.html
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
-      url: https://www.ietf.org/proceedings/90/radext.html
+    - date: '2015-01-06'
+      subject: IETF 91 proceedings charter, as the datatracker generated it by 2015-01-06
+      url: https://www.ietf.org/proceedings/91/radext.html
     - date: '2016-11-13'
-      subject: IETF 97 proceedings charter
+      subject: IETF 97 proceedings charter, as the datatracker generated it by 2016-11-13
       url: https://www.ietf.org/proceedings/97/radext.html
   - kind: shepherded
     documents:
@@ -355,15 +360,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2010-11-07'
-      not_after: '2011-03-27'
+      certainty: announced
+      date: '2011-05-17'
     end:
       certainty: exact
       date: '2015-01-05'
     notes:
-    - 'Start: not listed among the chairs in meeting minutes (2010-11-07)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2011-03-27)'
+    - 'Start: announced on the group''s list (2011-05-17)'
   evidence:
   - kind: datatracker record
     date: '2015-01-05'
@@ -410,22 +413,18 @@ chairs:
       url: https://www.ietf.org/proceedings/81/minutes/radext.txt
   - kind: proceedings
     listed_in: 10
-    first: '2011-03-27'
-    last: '2014-03-02'
+    first: '2011-05-05'
+    last: '2014-04-25'
     examples:
-    - date: '2011-03-27'
-      subject: IETF 80 proceedings charter
+    - date: '2011-05-05'
+      subject: IETF 80 proceedings charter, as the datatracker generated it by 2011-05-05
       url: https://www.ietf.org/proceedings/80/radext.html
-    - date: '2011-07-24'
-      subject: IETF 81 proceedings charter
+    - date: '2011-10-21'
+      subject: IETF 81 proceedings charter, as the datatracker generated it by 2011-10-21
       url: https://www.ietf.org/proceedings/81/radext.html
-    - date: '2014-03-02'
-      subject: IETF 89 proceedings charter
+    - date: '2014-04-25'
+      subject: IETF 89 proceedings charter, as the datatracker generated it by 2014-04-25
       url: https://www.ietf.org/proceedings/89/radext.html
-  - kind: minutes without them
-    date: '2010-11-07'
-    subject: Minutes of RADEXT meeting at IETF 79
-    url: https://mailarchive.ietf.org/arch/msg/radext/Kd_SWTcdKbNvCXKx-282_r1KGnc/
   - kind: shepherded
     documents:
     - draft-ietf-radext-dtls
@@ -481,16 +480,16 @@ chairs:
   - kind: proceedings
     listed_in: 11
     first: '2010-06-21'
-    last: '2013-11-03'
+    last: '2013-12-20'
     examples:
     - date: '2010-06-21'
       subject: IETF 78 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/78/radext.html
-    - date: '2010-11-07'
-      subject: IETF 79 proceedings charter
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
       url: https://www.ietf.org/proceedings/79/radext.html
-    - date: '2013-11-03'
-      subject: IETF 88 proceedings charter
+    - date: '2013-12-20'
+      subject: IETF 88 proceedings charter, as the datatracker generated it by 2013-12-20
       url: https://www.ietf.org/proceedings/88/radext.html
   - kind: session requests
     meetings:
@@ -530,6 +529,20 @@ chairs:
     date: '2026-09-21'
     subject: 'WG Action: Rechartered RADIUS EXTensions (radext)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/wA964IMtN9AiRosLaPBHp_ixzo4/
+  - kind: chair activity
+    first: '2023-04-30'
+    last: '2026-02-25'
+    messages: 11
+    examples:
+    - date: '2023-04-30'
+      subject: '[radext] SAVE THE DATE: Radext WG Interim Meeting'
+      url: https://mailarchive.ietf.org/arch/msg/radext/IXo_L6nT62qiSste1gnbq1zLly8/
+    - date: '2023-05-18'
+      subject: '[radext] Agenda for Interim Meeting 5/22/2023'
+      url: https://mailarchive.ietf.org/arch/msg/radext/XsmlF5URJVNPZSQoAJYNmQ73uCo/
+    - date: '2023-08-03'
+      subject: '[radext] WGLC for Publication of TLS-PSK draft as an Informational RFC'
+      url: https://mailarchive.ietf.org/arch/msg/radext/YeL-hjM5ot_VQ7fTk4EkivQDmus/
   - kind: shepherded
     documents:
     - draft-ietf-radext-deprecating-radius

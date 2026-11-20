@@ -41,16 +41,16 @@ chairs:
   - kind: proceedings
     listed_in: 5
     first: '2010-07-25'
-    last: '2011-11-13'
+    last: '2012-02-01'
     examples:
     - date: '2010-07-25'
       subject: IETF 78 proceedings charter
       url: https://www.ietf.org/proceedings/78/appsawg.html
-    - date: '2010-11-07'
-      subject: IETF 79 proceedings charter
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
       url: https://www.ietf.org/proceedings/79/appsawg.html
-    - date: '2011-11-13'
-      subject: IETF 82 proceedings charter
+    - date: '2012-02-01'
+      subject: IETF 82 proceedings charter, as the datatracker generated it by 2012-02-01
       url: https://www.ietf.org/proceedings/82/appsawg.html
   - kind: joined the IESG
     after_meeting: '83'
@@ -71,14 +71,15 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-07-24'
-      not_before: '2010-09-17'
+      certainty: between
+      not_before: '2011-07-24'
+      not_after: '2011-10-21'
     end:
       certainty: exact
       date: '2012-07-03'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2011-07-24)'
+    - 'Start: became an Area Director, first serving at IETF 75 (2009-07-26)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2011-10-21)'
   - start:
       certainty: exact
       date: '2014-07-16'
@@ -105,18 +106,23 @@ chairs:
     url: https://datatracker.ietf.org/group/appsawg/history/
   - kind: proceedings
     listed_in: 7
-    first: '2011-07-24'
-    last: '2015-07-19'
+    first: '2011-10-21'
+    last: '2015-10-06'
     examples:
-    - date: '2011-07-24'
-      subject: IETF 81 proceedings charter
+    - date: '2011-10-21'
+      subject: IETF 81 proceedings charter, as the datatracker generated it by 2011-10-21
       url: https://www.ietf.org/proceedings/81/appsawg.html
-    - date: '2011-11-13'
-      subject: IETF 82 proceedings charter
+    - date: '2012-02-01'
+      subject: IETF 82 proceedings charter, as the datatracker generated it by 2012-02-01
       url: https://www.ietf.org/proceedings/82/appsawg.html
-    - date: '2015-07-19'
-      subject: IETF 93 proceedings charter
+    - date: '2015-10-06'
+      subject: IETF 93 proceedings charter, as the datatracker generated it by 2015-10-06
       url: https://www.ietf.org/proceedings/93/appsawg.html
+  - kind: joined the IESG
+    after_meeting: '74'
+    after: '2009-03-22'
+    by_meeting: '75'
+    by: '2009-07-26'
   - kind: joined the IESG
     after_meeting: '95'
     after: '2016-04-03'
@@ -140,26 +146,26 @@ chairs:
   - start:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2012-03-25'
+      not_after: '2012-05-15'
     end:
       certainty: group-closed
       date: '2017-07-06'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2012-03-25)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2012-05-15)'
   evidence:
   - kind: proceedings
     listed_in: 14
-    first: '2012-03-25'
-    last: '2016-07-17'
+    first: '2012-05-15'
+    last: '2016-09-08'
     examples:
-    - date: '2012-03-25'
-      subject: IETF 83 proceedings charter
+    - date: '2012-05-15'
+      subject: IETF 83 proceedings charter, as the datatracker generated it by 2012-05-15
       url: https://www.ietf.org/proceedings/83/appsawg.html
-    - date: '2012-07-29'
-      subject: IETF 84 proceedings charter
+    - date: '2012-10-02'
+      subject: IETF 84 proceedings charter, as the datatracker generated it by 2012-10-02
       url: https://www.ietf.org/proceedings/84/appsawg.html
-    - date: '2016-07-17'
-      subject: IETF 96 proceedings charter
+    - date: '2016-09-08'
+      subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
       url: https://www.ietf.org/proceedings/96/appsawg.html
   - kind: shepherded
     documents:
@@ -196,16 +202,16 @@ chairs:
   - kind: proceedings
     listed_in: 5
     first: '2010-07-25'
-    last: '2011-11-13'
+    last: '2012-02-01'
     examples:
     - date: '2010-07-25'
       subject: IETF 78 proceedings charter
       url: https://www.ietf.org/proceedings/78/appsawg.html
-    - date: '2010-11-07'
-      subject: IETF 79 proceedings charter
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
       url: https://www.ietf.org/proceedings/79/appsawg.html
-    - date: '2011-11-13'
-      subject: IETF 82 proceedings charter
+    - date: '2012-02-01'
+      subject: IETF 82 proceedings charter, as the datatracker generated it by 2012-02-01
       url: https://www.ietf.org/proceedings/82/appsawg.html
   - kind: shepherded
     documents:
@@ -236,17 +242,17 @@ chairs:
     url: https://datatracker.ietf.org/group/appsawg/history/
   - kind: proceedings
     listed_in: 6
-    first: '2012-07-29'
-    last: '2014-03-02'
+    first: '2012-10-02'
+    last: '2014-04-25'
     examples:
-    - date: '2012-07-29'
-      subject: IETF 84 proceedings charter
+    - date: '2012-10-02'
+      subject: IETF 84 proceedings charter, as the datatracker generated it by 2012-10-02
       url: https://www.ietf.org/proceedings/84/appsawg.html
-    - date: '2012-11-04'
-      subject: IETF 85 proceedings charter
+    - date: '2013-02-13'
+      subject: IETF 85 proceedings charter, as the datatracker generated it by 2013-02-13
       url: https://www.ietf.org/proceedings/85/appsawg.html
-    - date: '2014-03-02'
-      subject: IETF 89 proceedings charter
+    - date: '2014-04-25'
+      subject: IETF 89 proceedings charter, as the datatracker generated it by 2014-04-25
       url: https://www.ietf.org/proceedings/89/appsawg.html
   - kind: shepherded
     documents:

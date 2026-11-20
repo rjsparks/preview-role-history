@@ -22,15 +22,6 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '2014-07-20'
-    end:
-      certainty: between
-      not_before: '2014-07-20'
-      not_after: '2015-06-26'
-    notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
-  - start:
       certainty: exact
       date: '2015-06-26'
     end:
@@ -48,17 +39,17 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/ZnpuF1otQq1OLQkSNcI5kEhZVUg/
   - kind: proceedings
     listed_in: 3
-    first: '2014-07-20'
-    last: '2015-11-01'
+    first: '2015-09-09'
+    last: '2016-03-18'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
+    - date: '2015-09-09'
+      subject: IETF 90 proceedings charter, as the datatracker generated it by 2015-09-09
       url: https://www.ietf.org/proceedings/90/imapapnd.html
-    - date: '2015-07-19'
-      subject: IETF 93 proceedings charter
+    - date: '2015-10-06'
+      subject: IETF 93 proceedings charter, as the datatracker generated it by 2015-10-06
       url: https://www.ietf.org/proceedings/93/imapapnd.html
-    - date: '2015-11-01'
-      subject: IETF 94 proceedings charter
+    - date: '2016-03-18'
+      subject: IETF 94 proceedings charter, as the datatracker generated it by 2016-03-18
       url: https://www.ietf.org/proceedings/94/imapapnd.html
   - kind: shepherded
     documents:

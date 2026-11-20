@@ -22,15 +22,6 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '2014-07-20'
-    end:
-      certainty: between
-      not_before: '2014-07-20'
-      not_after: '2015-06-24'
-    notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
-  - start:
       certainty: exact
       date: '2015-06-24'
     end:
@@ -66,33 +57,22 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/lager/WCjx4U0nfjoPkN2nQyGY8L-l6BA/
   - kind: proceedings
     listed_in: 5
-    first: '2014-07-20'
-    last: '2016-07-17'
+    first: '2015-09-09'
+    last: '2016-09-08'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
+    - date: '2015-09-09'
+      subject: IETF 90 proceedings charter, as the datatracker generated it by 2015-09-09
       url: https://www.ietf.org/proceedings/90/lager.html
-    - date: '2015-07-19'
-      subject: IETF 93 proceedings charter
+    - date: '2015-10-06'
+      subject: IETF 93 proceedings charter, as the datatracker generated it by 2015-10-06
       url: https://www.ietf.org/proceedings/93/lager.html
-    - date: '2016-07-17'
-      subject: IETF 96 proceedings charter
+    - date: '2016-09-08'
+      subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
       url: https://www.ietf.org/proceedings/96/lager.html
 - person: 110104
   name: Scott Hollenbeck
   status: confirmed
   periods:
-  - start:
-      certainty: between
-      not_before: '2006-07-09'
-      not_after: '2014-07-20'
-    end:
-      certainty: between
-      not_before: '2014-07-20'
-      not_after: '2015-06-24'
-    notes:
-    - 'Start: became an Area Director, first serving at IETF 60 (2004-08-01)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   - start:
       certainty: exact
       date: '2015-06-24'
@@ -115,20 +95,15 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/a_wVfs3rObA5f1Fnj6vi4nxrpRc/
   - kind: proceedings
     listed_in: 5
-    first: '2014-07-20'
-    last: '2016-07-17'
+    first: '2015-09-09'
+    last: '2016-09-08'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
+    - date: '2015-09-09'
+      subject: IETF 90 proceedings charter, as the datatracker generated it by 2015-09-09
       url: https://www.ietf.org/proceedings/90/lager.html
-    - date: '2015-07-19'
-      subject: IETF 93 proceedings charter
+    - date: '2015-10-06'
+      subject: IETF 93 proceedings charter, as the datatracker generated it by 2015-10-06
       url: https://www.ietf.org/proceedings/93/lager.html
-    - date: '2016-07-17'
-      subject: IETF 96 proceedings charter
+    - date: '2016-09-08'
+      subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
       url: https://www.ietf.org/proceedings/96/lager.html
-  - kind: joined the IESG
-    after_meeting: '59'
-    after: '2004-02-29'
-    by_meeting: '60'
-    by: '2004-08-01'

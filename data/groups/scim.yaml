@@ -55,11 +55,11 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/scim/kPXdDzEL340vv9cnomfcUjmNzKc/
   - kind: proceedings
     listed_in: 1
-    first: '2012-03-25'
-    last: '2012-03-25'
+    first: '2012-05-15'
+    last: '2012-05-15'
     examples:
-    - date: '2012-03-25'
-      subject: IETF 83 proceedings charter
+    - date: '2012-05-15'
+      subject: IETF 83 proceedings charter, as the datatracker generated it by 2012-05-15
       url: https://www.ietf.org/proceedings/83/scim.html
   - kind: chartering announcement without them
     date: '2012-06-21'
@@ -86,11 +86,11 @@ chairs:
   evidence:
   - kind: proceedings
     listed_in: 1
-    first: '2012-03-25'
-    last: '2012-03-25'
+    first: '2012-05-15'
+    last: '2012-05-15'
     examples:
-    - date: '2012-03-25'
-      subject: IETF 83 proceedings charter
+    - date: '2012-05-15'
+      subject: IETF 83 proceedings charter, as the datatracker generated it by 2012-05-15
       url: https://www.ietf.org/proceedings/83/scim.html
   - kind: chartering announcement without them
     date: '2012-06-21'
@@ -145,6 +145,26 @@ chairs:
     date: '2021-10-22'
     subject: 'WG Action: Rechartered System for Cross-domain Identity Management (scim)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/6VKVy3tiC7tAsBVlk6b6y6_3tps/
+  - kind: chair activity
+    first: '2021-12-30'
+    last: '2025-08-12'
+    messages: 10
+    examples:
+    - date: '2021-12-30'
+      subject: '[scim] Cancelling Jan 5 virtual interim unless there''s topics to discuss'
+      url: https://mailarchive.ietf.org/arch/msg/scim/S6dp_lWrBooyc1bjwSgqCWCq8AI/
+    - date: '2022-09-06'
+      subject: '[scim] SCIM Virtual interim on Sept 20 8am Pacific Time'
+      url: https://mailarchive.ietf.org/arch/msg/scim/k6qTRImtXheHrCYBtc4MVB9FdKc/
+    - date: '2022-12-21'
+      subject: '[scim] Call for adoption of draft-peterson-scim-cursor-pagination/'
+      url: https://mailarchive.ietf.org/arch/msg/scim/ybptJlJq76wPC_cWknZfvBkqwuY/
+    - date: '2023-06-16'
+      subject: '[scim] Call for adoption draft-shahzad-scim-device-model'
+      url: https://mailarchive.ietf.org/arch/msg/scim/GwyltgqlgmSg1yYWi7YfB7pmSDA/
+    - date: '2023-08-23'
+      subject: '[scim] WGLC for draft-ietf-scim-cursor-pagination'
+      url: https://mailarchive.ietf.org/arch/msg/scim/R_OdaQRnBk-HtFT_DH_4B8l55nI/
   - kind: shepherded
     documents:
     - draft-ietf-scim-cursor-pagination
@@ -199,17 +219,17 @@ chairs:
       url: https://www.ietf.org/proceedings/92/minutes/minutes-92-scim.txt
   - kind: proceedings
     listed_in: 12
-    first: '2012-07-29'
-    last: '2016-04-03'
+    first: '2012-10-02'
+    last: '2016-05-17'
     examples:
-    - date: '2012-07-29'
-      subject: IETF 84 proceedings charter
+    - date: '2012-10-02'
+      subject: IETF 84 proceedings charter, as the datatracker generated it by 2012-10-02
       url: https://www.ietf.org/proceedings/84/scim.html
-    - date: '2012-11-04'
-      subject: IETF 85 proceedings charter
+    - date: '2013-02-13'
+      subject: IETF 85 proceedings charter, as the datatracker generated it by 2013-02-13
       url: https://www.ietf.org/proceedings/85/scim.html
-    - date: '2016-04-03'
-      subject: IETF 95 proceedings charter
+    - date: '2016-05-17'
+      subject: IETF 95 proceedings charter, as the datatracker generated it by 2016-05-17
       url: https://www.ietf.org/proceedings/95/scim.html
   - kind: shepherded
     documents:
@@ -251,17 +271,17 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/scim/5gSjErNg2MTta3m33rkMIODRNgE/
   - kind: proceedings
     listed_in: 12
-    first: '2012-07-29'
-    last: '2016-04-03'
+    first: '2012-10-02'
+    last: '2016-05-17'
     examples:
-    - date: '2012-07-29'
-      subject: IETF 84 proceedings charter
+    - date: '2012-10-02'
+      subject: IETF 84 proceedings charter, as the datatracker generated it by 2012-10-02
       url: https://www.ietf.org/proceedings/84/scim.html
-    - date: '2012-11-04'
-      subject: IETF 85 proceedings charter
+    - date: '2013-02-13'
+      subject: IETF 85 proceedings charter, as the datatracker generated it by 2013-02-13
       url: https://www.ietf.org/proceedings/85/scim.html
-    - date: '2016-04-03'
-      subject: IETF 95 proceedings charter
+    - date: '2016-05-17'
+      subject: IETF 95 proceedings charter, as the datatracker generated it by 2016-05-17
       url: https://www.ietf.org/proceedings/95/scim.html
   - kind: shepherded
     documents:
@@ -281,3 +301,17 @@ chairs:
     says: start
     text: Chair changed to Aaron Parecki, Nancy Cam-Winget from Nancy Cam-Winget
     url: https://datatracker.ietf.org/group/scim/history/
+  - kind: chair activity
+    first: '2022-08-01'
+    last: '2025-10-13'
+    messages: 5
+    examples:
+    - date: '2022-08-01'
+      subject: '[scim] interim meeting scheduling'
+      url: https://mailarchive.ietf.org/arch/msg/scim/6BCUeYg1tZzXEWPX1lXiStf-HWA/
+    - date: '2023-07-13'
+      subject: '[scim] IETF 117 Draft Agenda'
+      url: https://mailarchive.ietf.org/arch/msg/scim/RuMl-TTJaN7JC3JZgUfBHCgMi4w/
+    - date: '2024-08-16'
+      subject: '[scim] Working Group Last Call for SCIM Events'
+      url: https://mailarchive.ietf.org/arch/msg/scim/pYouWyuUox_wDDVj-y8LrPOHyrA/

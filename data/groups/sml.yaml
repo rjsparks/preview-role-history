@@ -70,8 +70,8 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/DaKbWqsXkHw7whuchsD1XcmK39M/
   - kind: chair activity
     first: '2023-11-13'
-    last: '2023-11-13'
-    messages: 3
+    last: '2025-07-26'
+    messages: 6
     examples:
     - date: '2023-11-13'
       subject: '[Sml] Adoption call: draft-happel-structured-email-use-cases-00 (Structured Email: Use
@@ -83,6 +83,13 @@ chairs:
     - date: '2023-11-13'
       subject: '[Sml] Draft minutes for the SML session in Prague posted'
       url: https://mailarchive.ietf.org/arch/msg/sml/Uj_UE8mJg1ZT22R0KCL0u4C33o4/
+    - date: '2024-11-05'
+      subject: '[Sml] Adoption call for draft-happel-sml-structured-vacation-notices-01 (Structured vacation
+        notices)'
+      url: https://mailarchive.ietf.org/arch/msg/sml/doDNARsQ594kZkSqVBWTa4hvrJ8/
+    - date: '2025-02-18'
+      subject: '[Sml] SML Interim meeting is starting now'
+      url: https://mailarchive.ietf.org/arch/msg/sml/BlPbgouE0YfBo-7WELKk8JmWMpU/
 - person: 133904
   name: Arnt Gulbrandsen
   status: confirmed
@@ -98,6 +105,14 @@ chairs:
     says: start
     text: Chair changed to Alexey Melnikov, Arnt Gulbrandsen from Alexey Melnikov
     url: https://datatracker.ietf.org/group/sml/history/
+  - kind: chair activity
+    first: '2025-07-08'
+    last: '2025-07-08'
+    messages: 1
+    examples:
+    - date: '2025-07-08'
+      subject: '[Sml] Agenda for the Madrid meeting'
+      url: https://mailarchive.ietf.org/arch/msg/sml/8g-2f4mCmjUzXatYt7luL9SIfGs/
   - kind: shepherded
     documents:
     - draft-ietf-sml-structured-email

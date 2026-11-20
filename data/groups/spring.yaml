@@ -111,17 +111,17 @@ chairs:
       url: https://www.ietf.org/proceedings/95/minutes/minutes-95-spring.txt
   - kind: proceedings
     listed_in: 8
-    first: '2013-11-03'
-    last: '2016-04-03'
+    first: '2013-12-20'
+    last: '2016-05-17'
     examples:
-    - date: '2013-11-03'
-      subject: IETF 88 proceedings charter
+    - date: '2013-12-20'
+      subject: IETF 88 proceedings charter, as the datatracker generated it by 2013-12-20
       url: https://www.ietf.org/proceedings/88/spring.html
-    - date: '2014-03-02'
-      subject: IETF 89 proceedings charter
+    - date: '2014-04-25'
+      subject: IETF 89 proceedings charter, as the datatracker generated it by 2014-04-25
       url: https://www.ietf.org/proceedings/89/spring.html
-    - date: '2016-04-03'
-      subject: IETF 95 proceedings charter
+    - date: '2016-05-17'
+      subject: IETF 95 proceedings charter, as the datatracker generated it by 2016-05-17
       url: https://www.ietf.org/proceedings/95/spring.html
 - person: 105906
   name: Jim Guichard
@@ -179,17 +179,6 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2013-11-03'
-      not_after: '2014-07-20'
-    end:
-      certainty: between
-      not_before: '2014-07-20'
-      not_after: '2015-02-24'
-    notes:
-    - 'Start: not listed among the chairs in meeting minutes (2013-11-03)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
-  - start:
       certainty: exact
       date: '2015-02-24'
     end:
@@ -241,22 +230,18 @@ chairs:
       url: https://www.ietf.org/proceedings/95/minutes/minutes-95-spring.txt
   - kind: proceedings
     listed_in: 8
-    first: '2014-07-20'
-    last: '2017-03-26'
+    first: '2015-05-07'
+    last: '2017-04-12'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
-      url: https://www.ietf.org/proceedings/90/spring.html
-    - date: '2015-03-22'
-      subject: IETF 92 proceedings charter
+    - date: '2015-05-07'
+      subject: IETF 92 proceedings charter, as the datatracker generated it by 2015-05-07
       url: https://www.ietf.org/proceedings/92/spring.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2015-09-09'
+      subject: IETF 90 proceedings charter, as the datatracker generated it by 2015-09-09
+      url: https://www.ietf.org/proceedings/90/spring.html
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/spring.html
-  - kind: minutes without them
-    date: '2013-11-03'
-    subject: IETF 88 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/88/minutes/minutes-88-spring.html
   - kind: shepherded
     documents:
     - draft-ietf-spring-ipv6-use-cases
@@ -314,17 +299,17 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/spring/8FOgaL9eft6JrxBsZkLF56KR_0c/
   - kind: proceedings
     listed_in: 3
-    first: '2016-07-17'
-    last: '2017-03-26'
+    first: '2016-09-08'
+    last: '2017-04-12'
     examples:
-    - date: '2016-07-17'
-      subject: IETF 96 proceedings charter
+    - date: '2016-09-08'
+      subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
       url: https://www.ietf.org/proceedings/96/spring.html
     - date: '2016-11-13'
-      subject: IETF 97 proceedings charter
+      subject: IETF 97 proceedings charter, as the datatracker generated it by 2016-11-13
       url: https://www.ietf.org/proceedings/97/spring.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/spring.html
   - kind: joined the IESG
     after_meeting: '101'
@@ -402,17 +387,17 @@ chairs:
       url: https://www.ietf.org/proceedings/88/minutes/minutes-88-spring.html
   - kind: proceedings
     listed_in: 3
-    first: '2013-11-03'
-    last: '2014-11-09'
+    first: '2013-12-20'
+    last: '2015-01-06'
     examples:
-    - date: '2013-11-03'
-      subject: IETF 88 proceedings charter
+    - date: '2013-12-20'
+      subject: IETF 88 proceedings charter, as the datatracker generated it by 2013-12-20
       url: https://www.ietf.org/proceedings/88/spring.html
-    - date: '2014-03-02'
-      subject: IETF 89 proceedings charter
+    - date: '2014-04-25'
+      subject: IETF 89 proceedings charter, as the datatracker generated it by 2014-04-25
       url: https://www.ietf.org/proceedings/89/spring.html
-    - date: '2014-11-09'
-      subject: IETF 91 proceedings charter
+    - date: '2015-01-06'
+      subject: IETF 91 proceedings charter, as the datatracker generated it by 2015-01-06
       url: https://www.ietf.org/proceedings/91/spring.html
   - kind: joined the IESG
     after_meeting: '92'

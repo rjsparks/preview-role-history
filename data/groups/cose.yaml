@@ -22,15 +22,6 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '2014-07-20'
-    end:
-      certainty: between
-      not_before: '2014-07-20'
-      not_after: '2015-06-03'
-    notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
-  - start:
       certainty: exact
       date: '2015-06-03'
     end:
@@ -79,17 +70,17 @@ chairs:
       url: https://www.ietf.org/proceedings/96/minutes/minutes-96-cose.txt
   - kind: proceedings
     listed_in: 5
-    first: '2014-07-20'
-    last: '2016-07-17'
+    first: '2015-09-09'
+    last: '2016-09-08'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
+    - date: '2015-09-09'
+      subject: IETF 90 proceedings charter, as the datatracker generated it by 2015-09-09
       url: https://www.ietf.org/proceedings/90/cose.html
-    - date: '2015-07-19'
-      subject: IETF 93 proceedings charter
+    - date: '2015-10-06'
+      subject: IETF 93 proceedings charter, as the datatracker generated it by 2015-10-06
       url: https://www.ietf.org/proceedings/93/cose.html
-    - date: '2016-07-17'
-      subject: IETF 96 proceedings charter
+    - date: '2016-09-08'
+      subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
       url: https://www.ietf.org/proceedings/96/cose.html
 - person: 111178
   name: Matthew Miller
@@ -124,6 +115,23 @@ chairs:
     date: '2021-04-09'
     subject: 'WG Action: Rechartered CBOR Object Signing and Encryption (cose)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/8uMB985ZUhU_K9_aZ0_jz8sFU38/
+  - kind: chair activity
+    first: '2019-01-08'
+    last: '2020-10-07'
+    messages: 14
+    examples:
+    - date: '2019-01-08'
+      subject: '[COSE] Call for Adoption of draft-schaad-cose-rfc8152bis-* Documents'
+      url: https://mailarchive.ietf.org/arch/msg/cose/sImg_z7Z7HAwEG0wMPoOoxRrpmU/
+    - date: '2019-02-25'
+      subject: '[COSE] Recording from Virtual Interim 2019-02-15'
+      url: https://mailarchive.ietf.org/arch/msg/cose/vNYLrvGNfysM68uRNAOlmEbW-Gc/
+    - date: '2019-03-12'
+      subject: '[COSE] Call for Adoption: draft-jones-cose-additional-algorithms'
+      url: https://mailarchive.ietf.org/arch/msg/cose/AtYRKfV-AxPfO_dBFLE2KS-jtzs/
+    - date: '2019-03-13'
+      subject: '[COSE] IETF 104 Draft Agenda'
+      url: https://mailarchive.ietf.org/arch/msg/cose/Edw_GY-vzfII7tCNjz6oFjlvL50/
   - kind: shepherded
     documents:
     - draft-ietf-cose-rfc8152bis-algs
@@ -132,15 +140,6 @@ chairs:
   name: Justin Richer
   status: confirmed
   periods:
-  - start:
-      certainty: evidence-only
-      not_after: '2014-07-20'
-    end:
-      certainty: between
-      not_before: '2014-07-20'
-      not_after: '2015-06-03'
-    notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   - start:
       certainty: exact
       date: '2015-06-03'
@@ -193,17 +192,17 @@ chairs:
       url: https://www.ietf.org/proceedings/96/minutes/minutes-96-cose.txt
   - kind: proceedings
     listed_in: 5
-    first: '2014-07-20'
-    last: '2016-07-17'
+    first: '2015-09-09'
+    last: '2016-09-08'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
+    - date: '2015-09-09'
+      subject: IETF 90 proceedings charter, as the datatracker generated it by 2015-09-09
       url: https://www.ietf.org/proceedings/90/cose.html
-    - date: '2015-07-19'
-      subject: IETF 93 proceedings charter
+    - date: '2015-10-06'
+      subject: IETF 93 proceedings charter, as the datatracker generated it by 2015-10-06
       url: https://www.ietf.org/proceedings/93/cose.html
-    - date: '2016-07-17'
-      subject: IETF 96 proceedings charter
+    - date: '2016-09-08'
+      subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
       url: https://www.ietf.org/proceedings/96/cose.html
 - person: 123715
   name: Ivaylo Petrov
@@ -248,6 +247,26 @@ chairs:
     date: '2025-10-09'
     subject: 'WG Action: Rechartered CBOR Object Signing and Encryption (cose)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/rfpSDd2DtH0Ul4P4bX5eQw0GnS8/
+  - kind: chair activity
+    first: '2019-01-15'
+    last: '2026-10-20'
+    messages: 56
+    examples:
+    - date: '2019-01-15'
+      subject: '[COSE] Virtual interim meeting date selection poll'
+      url: https://mailarchive.ietf.org/arch/msg/cose/np4deZzNyV9EyoVeaFsEwofuQNg/
+    - date: '2019-01-16'
+      subject: '[COSE] Call for Adoption of draft-schaad-cose-x509 Document'
+      url: https://mailarchive.ietf.org/arch/msg/cose/8gM7KFXLE-1-BtFDC-yh1zF7uHM/
+    - date: '2019-02-11'
+      subject: '[COSE] Webex meeting details: COSE Interim Meeting 2019-02-15'
+      url: https://mailarchive.ietf.org/arch/msg/cose/10R2-ApY5Gjer7Ez5o6tE-wVSi8/
+    - date: '2019-11-22'
+      subject: '[COSE] WGLC of draft-ietf-cose-hash-algs ENDED'
+      url: https://mailarchive.ietf.org/arch/msg/cose/yYvSD5gbgsscwKt3Wx15Lt4g4mo/
+    - date: '2020-01-29'
+      subject: '[COSE] WGLC of draft-ietf-cose-webauthn-algorithms ENDED'
+      url: https://mailarchive.ietf.org/arch/msg/cose/J_8RWG5Tbe0stvTlfY6GJ9LpX5c/
   - kind: shepherded
     documents:
     - draft-ietf-cose-cbor-encoded-cert
@@ -298,6 +317,26 @@ chairs:
     date: '2025-10-09'
     subject: 'WG Action: Rechartered CBOR Object Signing and Encryption (cose)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/rfpSDd2DtH0Ul4P4bX5eQw0GnS8/
+  - kind: chair activity
+    first: '2021-04-27'
+    last: '2026-06-16'
+    messages: 22
+    examples:
+    - date: '2021-04-27'
+      subject: '[COSE] Preliminary Agenda and Call for Items for COSE Interim Meeting'
+      url: https://mailarchive.ietf.org/arch/msg/cose/8yITyYM-jtscnUm3MTp1nPcPK_Y/
+    - date: '2021-07-21'
+      subject: '[COSE] IETF 111 COSE Call for Agenda Items'
+      url: https://mailarchive.ietf.org/arch/msg/cose/239GehKIlQTwAxRlgte1atjR0QA/
+    - date: '2021-11-23'
+      subject: '[COSE] Call for adoption of draft-tschofenig-cose-hpke-00'
+      url: https://mailarchive.ietf.org/arch/msg/cose/IlC1NlaupB-gK46K6etGALJft4w/
+    - date: '2022-07-28'
+      subject: '[COSE] Call for adoption of JSON Encoding for Post Quantum Signatures'
+      url: https://mailarchive.ietf.org/arch/msg/cose/MrD9t0FL5G8dV9GvBX4I4EYfRpo/
+    - date: '2022-09-22'
+      subject: '[COSE] Call for adoption of CBOR Object Signing and Encryption (COSE): AES-CTR and AES-CBC'
+      url: https://mailarchive.ietf.org/arch/msg/cose/ka-s2kK-PRmGcQFrBOPrrTcsQrA/
   - kind: shepherded
     documents:
     - draft-ietf-cose-aes-ctr-and-cbc

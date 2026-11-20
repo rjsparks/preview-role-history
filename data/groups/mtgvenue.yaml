@@ -30,13 +30,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2001-08-05'
-      not_after: '2015-11-01'
+      not_after: '2016-02-26'
     end:
       certainty: exact
       date: '2016-06-06'
     notes:
     - 'Start: became an Area Director, first serving at IETF 48 (2000-07-31)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2015-11-01)'
   evidence:
   - kind: datatracker record
     date: '2016-06-06'
@@ -45,14 +44,14 @@ chairs:
     url: https://datatracker.ietf.org/group/mtgvenue/history/
   - kind: proceedings
     listed_in: 2
-    first: '2015-11-01'
-    last: '2016-04-03'
+    first: '2016-03-18'
+    last: '2016-05-17'
     examples:
-    - date: '2015-11-01'
-      subject: IETF 94 proceedings charter
+    - date: '2016-03-18'
+      subject: IETF 94 proceedings charter, as the datatracker generated it by 2016-03-18
       url: https://www.ietf.org/proceedings/94/mtgvenue.html
-    - date: '2016-04-03'
-      subject: IETF 95 proceedings charter
+    - date: '2016-05-17'
+      subject: IETF 95 proceedings charter, as the datatracker generated it by 2016-05-17
       url: https://www.ietf.org/proceedings/95/mtgvenue.html
   - kind: joined the IESG
     after_meeting: '47'
@@ -96,11 +95,11 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/mtgvenue/awVTRHM6xRSkSAceSL7Jj4zIpyM/
   - kind: proceedings
     listed_in: 1
-    first: '2017-03-26'
-    last: '2017-03-26'
+    first: '2017-04-12'
+    last: '2017-04-12'
     examples:
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/mtgvenue.html
   - kind: shepherded
     documents:
@@ -143,14 +142,14 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/mtgvenue/wModEUMDywD3vC2Fhwegp44CqhU/
   - kind: proceedings
     listed_in: 2
-    first: '2016-07-17'
+    first: '2016-09-08'
     last: '2016-11-13'
     examples:
-    - date: '2016-07-17'
-      subject: IETF 96 proceedings charter
+    - date: '2016-09-08'
+      subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
       url: https://www.ietf.org/proceedings/96/mtgvenue.html
     - date: '2016-11-13'
-      subject: IETF 97 proceedings charter
+      subject: IETF 97 proceedings charter, as the datatracker generated it by 2016-11-13
       url: https://www.ietf.org/proceedings/97/mtgvenue.html
 - person: 105800
   name: Jonne Soininen
@@ -179,14 +178,14 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/M0X7K69-npNKkmon9b5OzY862ps/
   - kind: proceedings
     listed_in: 2
-    first: '2016-07-17'
+    first: '2016-09-08'
     last: '2016-11-13'
     examples:
-    - date: '2016-07-17'
-      subject: IETF 96 proceedings charter
+    - date: '2016-09-08'
+      subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
       url: https://www.ietf.org/proceedings/96/mtgvenue.html
     - date: '2016-11-13'
-      subject: IETF 97 proceedings charter
+      subject: IETF 97 proceedings charter, as the datatracker generated it by 2016-11-13
       url: https://www.ietf.org/proceedings/97/mtgvenue.html
 - person: 112611
   name: Charles Eckel
@@ -235,11 +234,11 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/mtgvenue/awVTRHM6xRSkSAceSL7Jj4zIpyM/
   - kind: proceedings
     listed_in: 1
-    first: '2017-03-26'
-    last: '2017-03-26'
+    first: '2017-04-12'
+    last: '2017-04-12'
     examples:
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/mtgvenue.html
   - kind: shepherded
     documents:

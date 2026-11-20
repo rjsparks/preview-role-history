@@ -159,7 +159,7 @@ chairs:
     last: '2016-11-13'
     examples:
     - date: '2016-11-13'
-      subject: IETF 97 proceedings charter
+      subject: IETF 97 proceedings charter, as the datatracker generated it by 2016-11-13
       url: https://www.ietf.org/proceedings/97/netmod.html
   - kind: shepherded
     documents:
@@ -308,7 +308,7 @@ chairs:
   - kind: proceedings
     listed_in: 13
     first: '2009-03-22'
-    last: '2013-11-03'
+    last: '2013-12-20'
     examples:
     - date: '2009-03-22'
       subject: IETF 74 proceedings charter
@@ -316,8 +316,8 @@ chairs:
     - date: '2009-05-06'
       subject: IETF 75 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/75/netmod.html
-    - date: '2013-11-03'
-      subject: IETF 88 proceedings charter
+    - date: '2013-12-20'
+      subject: IETF 88 proceedings charter, as the datatracker generated it by 2013-12-20
       url: https://www.ietf.org/proceedings/88/netmod.html
   - kind: session requests
     meetings:
@@ -455,18 +455,18 @@ chairs:
       url: https://www.ietf.org/proceedings/94/minutes/minutes-94-netmod.txt
   - kind: proceedings
     listed_in: 14
-    first: '2010-11-07'
-    last: '2015-03-22'
+    first: '2011-05-03'
+    last: '2015-09-09'
     examples:
-    - date: '2010-11-07'
-      subject: IETF 79 proceedings charter
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
       url: https://www.ietf.org/proceedings/79/netmod.html
-    - date: '2011-03-27'
-      subject: IETF 80 proceedings charter
+    - date: '2011-05-05'
+      subject: IETF 80 proceedings charter, as the datatracker generated it by 2011-05-05
       url: https://www.ietf.org/proceedings/80/netmod.html
-    - date: '2015-03-22'
-      subject: IETF 92 proceedings charter
-      url: https://www.ietf.org/proceedings/92/netmod.html
+    - date: '2015-09-09'
+      subject: IETF 90 proceedings charter, as the datatracker generated it by 2015-09-09
+      url: https://www.ietf.org/proceedings/90/netmod.html
   - kind: minutes without them
     date: '2010-07-25'
     subject: '[netmod] Approval of minutes 20100820: Draft minutes (v1) of netmod working group session
@@ -561,18 +561,18 @@ chairs:
       url: https://www.ietf.org/proceedings/94/minutes/minutes-94-netmod.txt
   - kind: proceedings
     listed_in: 4
-    first: '2014-03-02'
-    last: '2015-03-22'
+    first: '2014-04-25'
+    last: '2015-09-09'
     examples:
-    - date: '2014-03-02'
-      subject: IETF 89 proceedings charter
+    - date: '2014-04-25'
+      subject: IETF 89 proceedings charter, as the datatracker generated it by 2014-04-25
       url: https://www.ietf.org/proceedings/89/netmod.html
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
+    - date: '2015-01-06'
+      subject: IETF 91 proceedings charter, as the datatracker generated it by 2015-01-06
+      url: https://www.ietf.org/proceedings/91/netmod.html
+    - date: '2015-09-09'
+      subject: IETF 90 proceedings charter, as the datatracker generated it by 2015-09-09
       url: https://www.ietf.org/proceedings/90/netmod.html
-    - date: '2015-03-22'
-      subject: IETF 92 proceedings charter
-      url: https://www.ietf.org/proceedings/92/netmod.html
   - kind: shepherded
     documents:
     - draft-ietf-netmod-interfaces-cfg
@@ -584,15 +584,15 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2014-03-02'
-      not_after: '2014-07-20'
+      not_before: '2014-07-20'
+      not_after: '2014-11-14'
     end:
       certainty: between
       not_before: '2014-11-14'
       not_after: '2015-03-22'
     notes:
-    - 'Start: not listed among the chairs in meeting minutes (2014-03-02)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
+    - 'Start: not listed among the chairs in meeting minutes (2014-07-20)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2014-11-14)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2014-11-14)'
     - 'End: not listed among the chairs in meeting minutes (2015-03-22)'
   - start:
@@ -653,19 +653,19 @@ chairs:
       url: https://www.ietf.org/proceedings/94/minutes/minutes-94-netmod.txt
   - kind: proceedings
     listed_in: 2
-    first: '2014-07-20'
+    first: '2015-09-09'
     last: '2016-11-13'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
+    - date: '2015-09-09'
+      subject: IETF 90 proceedings charter, as the datatracker generated it by 2015-09-09
       url: https://www.ietf.org/proceedings/90/netmod.html
     - date: '2016-11-13'
-      subject: IETF 97 proceedings charter
+      subject: IETF 97 proceedings charter, as the datatracker generated it by 2016-11-13
       url: https://www.ietf.org/proceedings/97/netmod.html
   - kind: minutes without them
-    date: '2014-03-02'
-    subject: IETF 89 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/89/minutes/minutes-89-netmod.txt
+    date: '2014-07-20'
+    subject: IETF 90 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/90/minutes/minutes-90-netmod.txt
   - kind: minutes without them
     date: '2015-03-22'
     subject: IETF 92 minutes in the proceedings

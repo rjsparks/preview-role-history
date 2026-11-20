@@ -23,12 +23,10 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2014-03-02'
+      date: '2014-03-03'
     end:
       certainty: group-closed
       date: '2014-11-14'
-    notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-03-02)'
   evidence:
   - kind: WG Review
     date: '2014-03-28'
@@ -53,16 +51,13 @@ chairs:
       subject: '[Dart] WGLC: draft-ietf-dart-dscp-rtp-02'
       url: https://mailarchive.ietf.org/arch/msg/dart/C4f68HJEvWNYNKrH7xsKOQOGlrM/
   - kind: proceedings
-    listed_in: 2
-    first: '2014-03-02'
-    last: '2014-07-20'
+    listed_in: 1
+    first: '2014-04-25'
+    last: '2014-04-25'
     examples:
-    - date: '2014-03-02'
-      subject: IETF 89 proceedings charter
+    - date: '2014-04-25'
+      subject: IETF 89 proceedings charter, as the datatracker generated it by 2014-04-25
       url: https://www.ietf.org/proceedings/89/dart.html
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
-      url: https://www.ietf.org/proceedings/90/dart.html
   - kind: shepherded
     documents:
     - draft-ietf-dart-dscp-rtp

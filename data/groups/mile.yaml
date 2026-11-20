@@ -63,12 +63,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-07-24'
+      date: '2011-09-08'
     end:
       certainty: exact
       date: '2014-03-06'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2011-07-24)'
+    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2011-09-08)'
   evidence:
   - kind: datatracker record
     date: '2014-03-06'
@@ -123,17 +123,17 @@ chairs:
       url: https://www.ietf.org/proceedings/85/minutes/minutes-85-mile.txt
   - kind: proceedings
     listed_in: 8
-    first: '2011-07-24'
-    last: '2013-11-03'
+    first: '2011-10-25'
+    last: '2013-12-20'
     examples:
-    - date: '2011-07-24'
-      subject: IETF 81 proceedings charter
+    - date: '2011-10-25'
+      subject: IETF 81 proceedings charter, as the datatracker generated it by 2011-10-25
       url: https://www.ietf.org/proceedings/81/mile.html
-    - date: '2011-11-13'
-      subject: IETF 82 proceedings charter
+    - date: '2012-02-01'
+      subject: IETF 82 proceedings charter, as the datatracker generated it by 2012-02-01
       url: https://www.ietf.org/proceedings/82/mile.html
-    - date: '2013-11-03'
-      subject: IETF 88 proceedings charter
+    - date: '2013-12-20'
+      subject: IETF 88 proceedings charter, as the datatracker generated it by 2013-12-20
       url: https://www.ietf.org/proceedings/88/mile.html
   - kind: joined the IESG
     after_meeting: '89'
@@ -201,13 +201,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-07-24'
+      certainty: between
+      not_before: '2011-09-21'
+      not_after: '2011-10-25'
     end:
       certainty: exact
       date: '2014-03-06'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2011-07-24)'
+    - 'Start: named as chair in the WG Action announcement (2011-10-25)'
   - start:
       certainty: exact
       date: '2014-03-07'
@@ -277,17 +278,17 @@ chairs:
       url: https://www.ietf.org/proceedings/85/minutes/minutes-85-mile.txt
   - kind: proceedings
     listed_in: 8
-    first: '2011-07-24'
-    last: '2013-11-03'
+    first: '2011-10-25'
+    last: '2013-12-20'
     examples:
-    - date: '2011-07-24'
-      subject: IETF 81 proceedings charter
+    - date: '2011-10-25'
+      subject: IETF 81 proceedings charter, as the datatracker generated it by 2011-10-25
       url: https://www.ietf.org/proceedings/81/mile.html
-    - date: '2011-11-13'
-      subject: IETF 82 proceedings charter
+    - date: '2012-02-01'
+      subject: IETF 82 proceedings charter, as the datatracker generated it by 2012-02-01
       url: https://www.ietf.org/proceedings/82/mile.html
-    - date: '2013-11-03'
-      subject: IETF 88 proceedings charter
+    - date: '2013-12-20'
+      subject: IETF 88 proceedings charter, as the datatracker generated it by 2013-12-20
       url: https://www.ietf.org/proceedings/88/mile.html
   - kind: session requests
     meetings:

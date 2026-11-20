@@ -75,14 +75,14 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2010-03-21'
-      not_after: '2010-11-07'
+      not_before: '2011-03-27'
+      not_after: '2011-04-24'
     end:
       certainty: group-closed
       date: '2013-03-18'
     notes:
-    - 'Start: not listed among the chairs in meeting minutes (2010-03-21)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
+    - 'Start: not listed among the chairs in meeting minutes (2011-03-27)'
+    - 'Start: started a last call or adoption call on the group''s list (2011-04-24)'
   evidence:
   - kind: WG Action
     date: '2011-06-28'
@@ -121,22 +121,22 @@ chairs:
       url: https://www.ietf.org/proceedings/85/minutes/minutes-85-krb-wg.txt
   - kind: proceedings
     listed_in: 6
-    first: '2010-11-07'
-    last: '2012-07-29'
+    first: '2011-05-03'
+    last: '2012-10-02'
     examples:
-    - date: '2010-11-07'
-      subject: IETF 79 proceedings charter
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
       url: https://www.ietf.org/proceedings/79/krb-wg.html
-    - date: '2011-03-27'
-      subject: IETF 80 proceedings charter
+    - date: '2011-05-05'
+      subject: IETF 80 proceedings charter, as the datatracker generated it by 2011-05-05
       url: https://www.ietf.org/proceedings/80/krb-wg.html
-    - date: '2012-07-29'
-      subject: IETF 84 proceedings charter
+    - date: '2012-10-02'
+      subject: IETF 84 proceedings charter, as the datatracker generated it by 2012-10-02
       url: https://www.ietf.org/proceedings/84/krb-wg.html
   - kind: minutes without them
-    date: '2010-03-21'
-    subject: IETF 77 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/77/minutes/krb-wg.txt
+    date: '2011-03-27'
+    subject: IETF 80 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/80/minutes/krb-wg.txt
   - kind: session requests
     meetings:
     - '82'
@@ -215,7 +215,7 @@ chairs:
   - kind: proceedings
     listed_in: 19
     first: '2003-10-20'
-    last: '2012-03-25'
+    last: '2012-05-15'
     examples:
     - date: '2003-10-20'
       subject: IETF 58 proceedings charter, as last modified
@@ -223,8 +223,8 @@ chairs:
     - date: '2004-02-13'
       subject: IETF 59 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/59/256.htm
-    - date: '2012-03-25'
-      subject: IETF 83 proceedings charter
+    - date: '2012-05-15'
+      subject: IETF 83 proceedings charter, as the datatracker generated it by 2012-05-15
       url: https://www.ietf.org/proceedings/83/krb-wg.html
   - kind: session requests
     meetings:
@@ -316,7 +316,7 @@ chairs:
   - kind: proceedings
     listed_in: 10
     first: '2007-06-27'
-    last: '2012-03-25'
+    last: '2012-05-15'
     examples:
     - date: '2007-06-27'
       subject: IETF 69 proceedings charter, as last modified
@@ -324,8 +324,8 @@ chairs:
     - date: '2008-03-13'
       subject: IETF 71 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/71/krb-wg.html
-    - date: '2012-03-25'
-      subject: IETF 83 proceedings charter
+    - date: '2012-05-15'
+      subject: IETF 83 proceedings charter, as the datatracker generated it by 2012-05-15
       url: https://www.ietf.org/proceedings/83/krb-wg.html
   - kind: minutes without them
     date: '2004-02-29'
@@ -358,11 +358,11 @@ chairs:
       url: https://www.ietf.org/proceedings/85/minutes/minutes-85-krb-wg.txt
   - kind: proceedings
     listed_in: 1
-    first: '2012-07-29'
-    last: '2012-07-29'
+    first: '2012-10-02'
+    last: '2012-10-02'
     examples:
-    - date: '2012-07-29'
-      subject: IETF 84 proceedings charter
+    - date: '2012-10-02'
+      subject: IETF 84 proceedings charter, as the datatracker generated it by 2012-10-02
       url: https://www.ietf.org/proceedings/84/krb-wg.html
 - person: 111163
   name: Josh Howlett
@@ -391,9 +391,9 @@ chairs:
       url: https://www.ietf.org/proceedings/85/minutes/minutes-85-krb-wg.txt
   - kind: proceedings
     listed_in: 1
-    first: '2012-07-29'
-    last: '2012-07-29'
+    first: '2012-10-02'
+    last: '2012-10-02'
     examples:
-    - date: '2012-07-29'
-      subject: IETF 84 proceedings charter
+    - date: '2012-10-02'
+      subject: IETF 84 proceedings charter, as the datatracker generated it by 2012-10-02
       url: https://www.ietf.org/proceedings/84/krb-wg.html

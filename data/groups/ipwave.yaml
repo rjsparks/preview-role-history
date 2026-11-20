@@ -25,13 +25,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2013-07-28'
-      not_after: '2016-07-17'
+      not_after: '2016-09-08'
     end:
       certainty: group-closed
       date: '2022-11-10'
     notes:
     - 'Start: became an Area Director, first serving at IETF 69 (2007-07-22)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2016-07-17)'
   evidence:
   - kind: WG Action
     date: '2016-10-18'
@@ -56,17 +55,17 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/its/yDrfZvsLyBVAx4H0mJ-UnuXu0yA/
   - kind: proceedings
     listed_in: 3
-    first: '2016-07-17'
-    last: '2017-03-26'
+    first: '2016-09-08'
+    last: '2017-04-12'
     examples:
-    - date: '2016-07-17'
-      subject: IETF 96 proceedings charter
+    - date: '2016-09-08'
+      subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
       url: https://www.ietf.org/proceedings/96/ipwave.html
     - date: '2016-11-13'
-      subject: IETF 97 proceedings charter
+      subject: IETF 97 proceedings charter, as the datatracker generated it by 2016-11-13
       url: https://www.ietf.org/proceedings/97/ipwave.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/ipwave.html
   - kind: joined the IESG
     after_meeting: '68'
@@ -113,13 +112,13 @@ chairs:
   - kind: proceedings
     listed_in: 2
     first: '2016-11-13'
-    last: '2017-03-26'
+    last: '2017-04-12'
     examples:
     - date: '2016-11-13'
-      subject: IETF 97 proceedings charter
+      subject: IETF 97 proceedings charter, as the datatracker generated it by 2016-11-13
       url: https://www.ietf.org/proceedings/97/ipwave.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/ipwave.html
   - kind: shepherded
     documents:
@@ -131,12 +130,10 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2016-07-17'
+      date: '2016-09-08'
     end:
       certainty: exact
       date: '2016-09-22'
-    notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2016-07-17)'
   evidence:
   - kind: datatracker record
     date: '2016-09-22'
@@ -145,9 +142,9 @@ chairs:
     url: https://datatracker.ietf.org/group/ipwave/history/
   - kind: proceedings
     listed_in: 1
-    first: '2016-07-17'
-    last: '2016-07-17'
+    first: '2016-09-08'
+    last: '2016-09-08'
     examples:
-    - date: '2016-07-17'
-      subject: IETF 96 proceedings charter
+    - date: '2016-09-08'
+      subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
       url: https://www.ietf.org/proceedings/96/ipwave.html

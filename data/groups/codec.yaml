@@ -77,16 +77,16 @@ chairs:
   - kind: proceedings
     listed_in: 13
     first: '2010-04-01'
-    last: '2014-11-09'
+    last: '2015-01-06'
     examples:
     - date: '2010-04-01'
       subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/codec.html
-    - date: '2010-11-07'
-      subject: IETF 79 proceedings charter
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
       url: https://www.ietf.org/proceedings/79/codec.html
-    - date: '2014-11-09'
-      subject: IETF 91 proceedings charter
+    - date: '2015-01-06'
+      subject: IETF 91 proceedings charter, as the datatracker generated it by 2015-01-06
       url: https://www.ietf.org/proceedings/91/codec.html
   - kind: shepherded
     documents:
@@ -220,17 +220,17 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/codec/6ZyeTNUHnHsmwv3kOEw8wmshe6o/
   - kind: proceedings
     listed_in: 6
-    first: '2010-11-07'
-    last: '2012-07-29'
+    first: '2011-05-03'
+    last: '2012-10-02'
     examples:
-    - date: '2010-11-07'
-      subject: IETF 79 proceedings charter
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
       url: https://www.ietf.org/proceedings/79/codec.html
-    - date: '2011-03-27'
-      subject: IETF 80 proceedings charter
+    - date: '2011-05-05'
+      subject: IETF 80 proceedings charter, as the datatracker generated it by 2011-05-05
       url: https://www.ietf.org/proceedings/80/codec.html
-    - date: '2012-07-29'
-      subject: IETF 84 proceedings charter
+    - date: '2012-10-02'
+      subject: IETF 84 proceedings charter, as the datatracker generated it by 2012-10-02
       url: https://www.ietf.org/proceedings/84/codec.html
   - kind: joined the IESG
     after_meeting: '65'
@@ -416,17 +416,17 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/codec/PIcjZWHSrpJ80kCgPICYj1v3Byg/
   - kind: proceedings
     listed_in: 14
-    first: '2012-07-29'
-    last: '2017-03-26'
+    first: '2012-10-02'
+    last: '2017-04-12'
     examples:
-    - date: '2012-07-29'
-      subject: IETF 84 proceedings charter
+    - date: '2012-10-02'
+      subject: IETF 84 proceedings charter, as the datatracker generated it by 2012-10-02
       url: https://www.ietf.org/proceedings/84/codec.html
-    - date: '2012-11-04'
-      subject: IETF 85 proceedings charter
+    - date: '2013-02-13'
+      subject: IETF 85 proceedings charter, as the datatracker generated it by 2013-02-13
       url: https://www.ietf.org/proceedings/85/codec.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/codec.html
   - kind: shepherded
     documents:
@@ -436,17 +436,6 @@ chairs:
   name: Mo Zanaty
   status: confirmed
   periods:
-  - start:
-      certainty: between
-      not_before: '2010-03-21'
-      not_after: '2014-07-20'
-    end:
-      certainty: between
-      not_before: '2014-07-20'
-      not_after: '2015-02-24'
-    notes:
-    - 'Start: not listed among the chairs in meeting minutes (2010-03-21)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   - start:
       certainty: exact
       date: '2015-02-24'
@@ -476,22 +465,18 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/codec/RF72mR_vKajfDKi9w4d17GsnD4o/
   - kind: proceedings
     listed_in: 7
-    first: '2014-07-20'
-    last: '2017-03-26'
+    first: '2015-05-07'
+    last: '2017-04-12'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
-      url: https://www.ietf.org/proceedings/90/codec.html
-    - date: '2015-03-22'
-      subject: IETF 92 proceedings charter
+    - date: '2015-05-07'
+      subject: IETF 92 proceedings charter, as the datatracker generated it by 2015-05-07
       url: https://www.ietf.org/proceedings/92/codec.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2015-09-09'
+      subject: IETF 90 proceedings charter, as the datatracker generated it by 2015-09-09
+      url: https://www.ietf.org/proceedings/90/codec.html
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/codec.html
-  - kind: minutes without them
-    date: '2010-03-21'
-    subject: IETF 77 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/77/minutes/codec.html
   - kind: shepherded
     documents:
     - draft-ietf-codec-oggopus

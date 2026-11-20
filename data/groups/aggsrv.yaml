@@ -26,13 +26,12 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2012-07-29'
-      not_after: '2012-11-04'
+      not_before: '2013-01-31'
+      not_after: '2013-02-13'
     end:
       certainty: group-closed
     notes:
-    - 'Start: became an Area Director, first serving at IETF 78 (2010-07-25)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2012-11-04)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2013-02-13)'
   evidence:
   - kind: chair activity
     first: '2013-04-01'
@@ -55,21 +54,16 @@ chairs:
       url: https://www.ietf.org/proceedings/86/minutes/minutes-86-aggsrv.txt
   - kind: proceedings
     listed_in: 2
-    first: '2012-11-04'
-    last: '2013-03-10'
+    first: '2013-02-13'
+    last: '2013-04-11'
     examples:
-    - date: '2012-11-04'
-      subject: IETF 85 proceedings charter
+    - date: '2013-02-13'
+      subject: IETF 85 proceedings charter, as the datatracker generated it by 2013-02-13
       url: https://www.ietf.org/proceedings/85/aggsrv.html
-    - date: '2013-03-10'
-      subject: IETF 86 proceedings charter
+    - date: '2013-04-11'
+      subject: IETF 86 proceedings charter, as the datatracker generated it by 2013-04-11
       url: https://www.ietf.org/proceedings/86/aggsrv.html
   - kind: BOF session
     meeting: '86'
     date: '2013-03-10'
     url: https://datatracker.ietf.org/meeting/86/session/aggsrv/
-  - kind: joined the IESG
-    after_meeting: '77'
-    after: '2010-03-21'
-    by_meeting: '78'
-    by: '2010-07-25'

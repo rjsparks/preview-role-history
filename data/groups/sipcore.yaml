@@ -158,7 +158,7 @@ chairs:
   - kind: proceedings
     listed_in: 22
     first: '2009-04-20'
-    last: '2016-07-17'
+    last: '2016-09-08'
     examples:
     - date: '2009-04-20'
       subject: IETF 74 proceedings charter, as last modified
@@ -166,8 +166,8 @@ chairs:
     - date: '2009-07-26'
       subject: IETF 75 proceedings charter
       url: https://www.ietf.org/proceedings/75/sipcore.html
-    - date: '2016-07-17'
-      subject: IETF 96 proceedings charter
+    - date: '2016-09-08'
+      subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
       url: https://www.ietf.org/proceedings/96/sipcore.html
   - kind: joined the IESG
     after_meeting: '98'
@@ -237,11 +237,11 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/sipcore/ubJIdvR76g3_i9dcwsxFEQLdawk/
   - kind: proceedings
     listed_in: 1
-    first: '2017-03-26'
-    last: '2017-03-26'
+    first: '2017-04-12'
+    last: '2017-04-12'
     examples:
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/sipcore.html
   - kind: shepherded
     documents:
@@ -317,16 +317,16 @@ chairs:
   - kind: proceedings
     listed_in: 13
     first: '2010-04-16'
-    last: '2014-11-09'
+    last: '2015-01-06'
     examples:
     - date: '2010-04-16'
       subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/sipcore.html
-    - date: '2010-11-07'
-      subject: IETF 79 proceedings charter
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
       url: https://www.ietf.org/proceedings/79/sipcore.html
-    - date: '2014-11-09'
-      subject: IETF 91 proceedings charter
+    - date: '2015-01-06'
+      subject: IETF 91 proceedings charter, as the datatracker generated it by 2015-01-06
       url: https://www.ietf.org/proceedings/91/sipcore.html
   - kind: minutes without them
     date: '2009-11-08'
@@ -351,17 +351,6 @@ chairs:
   name: Jean Mahoney
   status: confirmed
   periods:
-  - start:
-      certainty: between
-      not_before: '2012-07-29'
-      not_after: '2014-07-20'
-    end:
-      certainty: between
-      not_before: '2014-07-20'
-      not_after: '2015-04-27'
-    notes:
-    - 'Start: not listed among the chairs in meeting minutes (2012-07-29)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   - start:
       certainty: exact
       date: '2015-04-27'
@@ -413,22 +402,18 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/sipcore/ubJIdvR76g3_i9dcwsxFEQLdawk/
   - kind: proceedings
     listed_in: 7
-    first: '2014-07-20'
-    last: '2017-03-26'
+    first: '2015-05-07'
+    last: '2017-04-12'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
-      url: https://www.ietf.org/proceedings/90/sipcore.html
-    - date: '2015-03-22'
-      subject: IETF 92 proceedings charter
+    - date: '2015-05-07'
+      subject: IETF 92 proceedings charter, as the datatracker generated it by 2015-05-07
       url: https://www.ietf.org/proceedings/92/sipcore.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2015-09-09'
+      subject: IETF 90 proceedings charter, as the datatracker generated it by 2015-09-09
+      url: https://www.ietf.org/proceedings/90/sipcore.html
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/sipcore.html
-  - kind: minutes without them
-    date: '2012-07-29'
-    subject: IETF 84 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/84/minutes/minutes-84-sipcore.html
   - kind: shepherded
     documents:
     - draft-ietf-sipcore-callinfo-rcd

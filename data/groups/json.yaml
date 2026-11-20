@@ -63,18 +63,18 @@ chairs:
       subject: '[Json] Working Group Last Call on draft-ietf-json-text-sequence'
       url: https://mailarchive.ietf.org/arch/msg/json/z6xtRoyV0wGi1wktUnBucVB5pSc/
   - kind: proceedings
-    listed_in: 5
-    first: '2013-07-28'
-    last: '2014-11-09'
+    listed_in: 4
+    first: '2013-09-19'
+    last: '2015-01-06'
     examples:
-    - date: '2013-07-28'
-      subject: IETF 87 proceedings charter
+    - date: '2013-09-19'
+      subject: IETF 87 proceedings charter, as the datatracker generated it by 2013-09-19
       url: https://www.ietf.org/proceedings/87/json.html
-    - date: '2013-11-03'
-      subject: IETF 88 proceedings charter
+    - date: '2013-12-20'
+      subject: IETF 88 proceedings charter, as the datatracker generated it by 2013-12-20
       url: https://www.ietf.org/proceedings/88/json.html
-    - date: '2014-11-09'
-      subject: IETF 91 proceedings charter
+    - date: '2015-01-06'
+      subject: IETF 91 proceedings charter, as the datatracker generated it by 2015-01-06
       url: https://www.ietf.org/proceedings/91/json.html
   - kind: shepherded
     documents:
@@ -85,13 +85,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2012-11-04'
+      certainty: between
+      not_before: '2013-01-31'
+      not_after: '2013-02-13'
     end:
       certainty: approximate
       date: '2013-05-01'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2012-11-04)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2013-02-13)'
   evidence:
   - kind: chair activity
     first: '2013-04-10'
@@ -103,14 +104,14 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/json/4qaxYkf7XgwNWpdbYdv3LrCzqfU/
   - kind: proceedings
     listed_in: 2
-    first: '2012-11-04'
-    last: '2013-03-10'
+    first: '2013-02-13'
+    last: '2013-04-11'
     examples:
-    - date: '2012-11-04'
-      subject: IETF 85 proceedings charter
+    - date: '2013-02-13'
+      subject: IETF 85 proceedings charter, as the datatracker generated it by 2013-02-13
       url: https://www.ietf.org/proceedings/85/json.html
-    - date: '2013-03-10'
-      subject: IETF 86 proceedings charter
+    - date: '2013-04-11'
+      subject: IETF 86 proceedings charter, as the datatracker generated it by 2013-04-11
       url: https://www.ietf.org/proceedings/86/json.html
 - person: 111178
   name: Matthew Miller
@@ -158,18 +159,18 @@ chairs:
       subject: '[Json] Working Group Last Call on draft-ietf-i-json-02'
       url: https://mailarchive.ietf.org/arch/msg/json/K7ONguKnoCGh-9RUGK8hVj01fJ4/
   - kind: proceedings
-    listed_in: 5
-    first: '2013-07-28'
-    last: '2014-11-09'
+    listed_in: 4
+    first: '2013-09-19'
+    last: '2015-01-06'
     examples:
-    - date: '2013-07-28'
-      subject: IETF 87 proceedings charter
+    - date: '2013-09-19'
+      subject: IETF 87 proceedings charter, as the datatracker generated it by 2013-09-19
       url: https://www.ietf.org/proceedings/87/json.html
-    - date: '2013-11-03'
-      subject: IETF 88 proceedings charter
+    - date: '2013-12-20'
+      subject: IETF 88 proceedings charter, as the datatracker generated it by 2013-12-20
       url: https://www.ietf.org/proceedings/88/json.html
-    - date: '2014-11-09'
-      subject: IETF 91 proceedings charter
+    - date: '2015-01-06'
+      subject: IETF 91 proceedings charter, as the datatracker generated it by 2015-01-06
       url: https://www.ietf.org/proceedings/91/json.html
   - kind: shepherded
     documents:

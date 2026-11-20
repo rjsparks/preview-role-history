@@ -25,27 +25,28 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2012-07-29'
+      certainty: between
+      not_before: '2012-09-26'
+      not_after: '2012-10-02'
     end:
       certainty: between
       not_before: '2012-11-04'
       not_after: '2013-01-31'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2012-07-29)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2012-10-02)'
     - 'End: the BOF met at IETF 85 (2012-11-04)'
     - 'End: the group closed (2013-01-31)'
   evidence:
   - kind: proceedings
     listed_in: 2
-    first: '2012-07-29'
-    last: '2012-11-04'
+    first: '2012-10-02'
+    last: '2013-01-31'
     examples:
-    - date: '2012-07-29'
-      subject: IETF 84 proceedings charter
+    - date: '2012-10-02'
+      subject: IETF 84 proceedings charter, as the datatracker generated it by 2012-10-02
       url: https://www.ietf.org/proceedings/84/certrans.html
-    - date: '2012-11-04'
-      subject: IETF 85 proceedings charter
+    - date: '2013-01-31'
+      subject: IETF 85 proceedings charter, as the datatracker generated it by 2013-02-13
       url: https://www.ietf.org/proceedings/85/certrans.html
   - kind: BOF session
     meeting: '85'

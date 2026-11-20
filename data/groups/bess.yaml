@@ -88,12 +88,10 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2014-07-20'
+      date: '2014-09-25'
     end:
       certainty: exact
       date: '2017-12-01'
-    notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   evidence:
   - kind: datatracker record
     date: '2017-12-01'
@@ -126,17 +124,17 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/bess/NunX52mKzW85-2ND_eSiLUUbkps/
   - kind: proceedings
     listed_in: 9
-    first: '2014-07-20'
-    last: '2017-03-26'
+    first: '2015-01-06'
+    last: '2017-04-12'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
-      url: https://www.ietf.org/proceedings/90/bess.html
-    - date: '2014-11-09'
-      subject: IETF 91 proceedings charter
+    - date: '2015-01-06'
+      subject: IETF 91 proceedings charter, as the datatracker generated it by 2015-01-06
       url: https://www.ietf.org/proceedings/91/bess.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2015-05-07'
+      subject: IETF 92 proceedings charter, as the datatracker generated it by 2015-05-07
+      url: https://www.ietf.org/proceedings/92/bess.html
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/bess.html
   - kind: shepherded
     documents:
@@ -160,12 +158,10 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2014-07-20'
+      date: '2014-09-25'
     end:
       certainty: exact
       date: '2018-03-21'
-    notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   evidence:
   - kind: datatracker record
     date: '2018-03-21'
@@ -203,17 +199,17 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/bess/Z2epRwTIlQQ75vVrBCruVdj2D9Q/
   - kind: proceedings
     listed_in: 9
-    first: '2014-07-20'
-    last: '2017-03-26'
+    first: '2015-01-06'
+    last: '2017-04-12'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
-      url: https://www.ietf.org/proceedings/90/bess.html
-    - date: '2014-11-09'
-      subject: IETF 91 proceedings charter
+    - date: '2015-01-06'
+      subject: IETF 91 proceedings charter, as the datatracker generated it by 2015-01-06
       url: https://www.ietf.org/proceedings/91/bess.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2015-05-07'
+      subject: IETF 92 proceedings charter, as the datatracker generated it by 2015-05-07
+      url: https://www.ietf.org/proceedings/92/bess.html
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/bess.html
   - kind: joined the IESG
     after_meeting: '101'

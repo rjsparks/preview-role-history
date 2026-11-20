@@ -63,27 +63,27 @@ chairs:
   - start:
       certainty: between
       not_before: '2010-03-21'
-      not_after: '2010-11-07'
+      not_after: '2011-05-03'
     end:
       certainty: between
       not_before: '2011-07-24'
       not_after: '2011-11-13'
     notes:
     - 'Start: not listed among the chairs in meeting minutes (2010-03-21)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2011-05-03)'
     - 'End: requested the group''s session for IETF 81 (2011-07-24)'
     - 'End: not listed among the chairs in meeting minutes (2011-11-13)'
   evidence:
   - kind: proceedings
     listed_in: 2
-    first: '2010-11-07'
-    last: '2011-03-27'
+    first: '2011-05-03'
+    last: '2011-05-05'
     examples:
-    - date: '2010-11-07'
-      subject: IETF 79 proceedings charter
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
       url: https://www.ietf.org/proceedings/79/intarea.html
-    - date: '2011-03-27'
-      subject: IETF 80 proceedings charter
+    - date: '2011-05-05'
+      subject: IETF 80 proceedings charter, as the datatracker generated it by 2011-05-05
       url: https://www.ietf.org/proceedings/80/intarea.html
   - kind: minutes without them
     date: '2010-03-21'
@@ -177,16 +177,16 @@ chairs:
   - kind: proceedings
     listed_in: 10
     first: '2010-03-23'
-    last: '2013-07-28'
+    last: '2013-09-19'
     examples:
     - date: '2010-03-23'
       subject: IETF 77 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/77/intarea.html
-    - date: '2010-11-07'
-      subject: IETF 79 proceedings charter
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
       url: https://www.ietf.org/proceedings/79/intarea.html
-    - date: '2013-07-28'
-      subject: IETF 87 proceedings charter
+    - date: '2013-09-19'
+      subject: IETF 87 proceedings charter, as the datatracker generated it by 2013-09-19
       url: https://www.ietf.org/proceedings/87/intarea.html
   - kind: session requests
     meetings:
@@ -204,21 +204,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2015-07-19'
-      not_after: '2015-11-01'
-    end:
-      certainty: between
-      not_before: '2015-11-01'
-      not_after: '2016-02-18'
-    notes:
-    - 'Start: not listed among the chairs in meeting minutes (2015-07-19)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2015-11-01)'
-  - start:
       certainty: exact
       date: '2016-02-18'
     end:
-      certainty: ongoing
+      certainty: announced
+      date: '2026-11-12'
+    notes:
+    - 'End: announced on the group''s list (2026-11-12)'
   evidence:
   - kind: datatracker record
     date: '2016-02-18'
@@ -263,22 +255,18 @@ chairs:
       url: https://www.ietf.org/proceedings/96/minutes/minutes-96-intarea.txt
   - kind: proceedings
     listed_in: 5
-    first: '2015-11-01'
-    last: '2017-03-26'
+    first: '2016-03-18'
+    last: '2017-04-12'
     examples:
-    - date: '2015-11-01'
-      subject: IETF 94 proceedings charter
+    - date: '2016-03-18'
+      subject: IETF 94 proceedings charter, as the datatracker generated it by 2016-03-18
       url: https://www.ietf.org/proceedings/94/intarea.html
-    - date: '2016-04-03'
-      subject: IETF 95 proceedings charter
+    - date: '2016-05-17'
+      subject: IETF 95 proceedings charter, as the datatracker generated it by 2016-05-17
       url: https://www.ietf.org/proceedings/95/intarea.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/intarea.html
-  - kind: minutes without them
-    date: '2015-07-19'
-    subject: IETF 93 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/93/minutes/minutes-93-intarea.txt
   - kind: shepherded
     documents:
     - draft-ietf-intarea-hostname-practice
@@ -289,13 +277,13 @@ chairs:
   - start:
       certainty: between
       not_before: '2010-03-21'
-      not_after: '2011-07-24'
+      not_after: '2011-10-21'
     end:
       certainty: exact
       date: '2016-04-05'
     notes:
     - 'Start: not listed among the chairs in meeting minutes (2010-03-21)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2011-07-24)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2011-10-21)'
   evidence:
   - kind: datatracker record
     date: '2016-04-05'
@@ -338,17 +326,17 @@ chairs:
       url: https://www.ietf.org/proceedings/94/minutes/minutes-94-intarea.txt
   - kind: proceedings
     listed_in: 14
-    first: '2011-07-24'
-    last: '2015-11-01'
+    first: '2011-10-21'
+    last: '2016-03-18'
     examples:
-    - date: '2011-07-24'
-      subject: IETF 81 proceedings charter
+    - date: '2011-10-21'
+      subject: IETF 81 proceedings charter, as the datatracker generated it by 2011-10-21
       url: https://www.ietf.org/proceedings/81/intarea.html
-    - date: '2011-11-13'
-      subject: IETF 82 proceedings charter
+    - date: '2012-02-01'
+      subject: IETF 82 proceedings charter, as the datatracker generated it by 2012-02-01
       url: https://www.ietf.org/proceedings/82/intarea.html
-    - date: '2015-11-01'
-      subject: IETF 94 proceedings charter
+    - date: '2016-03-18'
+      subject: IETF 94 proceedings charter, as the datatracker generated it by 2016-03-18
       url: https://www.ietf.org/proceedings/94/intarea.html
   - kind: minutes without them
     date: '2010-03-21'
@@ -513,17 +501,17 @@ chairs:
       url: https://www.ietf.org/proceedings/96/minutes/minutes-96-intarea.txt
   - kind: proceedings
     listed_in: 11
-    first: '2013-11-03'
-    last: '2017-03-26'
+    first: '2013-12-20'
+    last: '2017-04-12'
     examples:
-    - date: '2013-11-03'
-      subject: IETF 88 proceedings charter
+    - date: '2013-12-20'
+      subject: IETF 88 proceedings charter, as the datatracker generated it by 2013-12-20
       url: https://www.ietf.org/proceedings/88/intarea.html
-    - date: '2014-03-02'
-      subject: IETF 89 proceedings charter
+    - date: '2014-04-25'
+      subject: IETF 89 proceedings charter, as the datatracker generated it by 2014-04-25
       url: https://www.ietf.org/proceedings/89/intarea.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/intarea.html
   - kind: shepherded
     documents:

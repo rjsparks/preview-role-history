@@ -175,16 +175,16 @@ chairs:
   - kind: proceedings
     listed_in: 8
     first: '2009-04-16'
-    last: '2012-11-04'
+    last: '2013-02-13'
     examples:
     - date: '2009-04-16'
       subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/dhc.html
-    - date: '2010-11-07'
-      subject: IETF 79 proceedings charter
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
       url: https://www.ietf.org/proceedings/79/dhc.html
-    - date: '2012-11-04'
-      subject: IETF 85 proceedings charter
+    - date: '2013-02-13'
+      subject: IETF 85 proceedings charter, as the datatracker generated it by 2013-02-13
       url: https://www.ietf.org/proceedings/85/dhc.html
   - kind: joined the IESG
     after_meeting: '86'
@@ -278,13 +278,12 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2011-12-09'
-      not_after: '2012-11-04'
+      certainty: announced
+      date: '2013-02-14'
     end:
       certainty: ongoing
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2012-11-04)'
+    - 'Start: announced on the group''s list (2013-02-14)'
   evidence:
   - kind: WG Review
     date: '2013-08-30'
@@ -347,17 +346,17 @@ chairs:
       url: https://www.ietf.org/proceedings/96/minutes/minutes-96-dhc.txt
   - kind: proceedings
     listed_in: 8
-    first: '2012-11-04'
-    last: '2017-03-26'
+    first: '2013-02-13'
+    last: '2017-04-12'
     examples:
-    - date: '2012-11-04'
-      subject: IETF 85 proceedings charter
+    - date: '2013-02-13'
+      subject: IETF 85 proceedings charter, as the datatracker generated it by 2013-02-13
       url: https://www.ietf.org/proceedings/85/dhc.html
-    - date: '2013-03-10'
-      subject: IETF 86 proceedings charter
+    - date: '2013-04-11'
+      subject: IETF 86 proceedings charter, as the datatracker generated it by 2013-04-11
       url: https://www.ietf.org/proceedings/86/dhc.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/dhc.html
   - kind: shepherded
     documents:
@@ -436,7 +435,7 @@ chairs:
   - kind: proceedings
     listed_in: 9
     first: '2008-01-21'
-    last: '2012-11-04'
+    last: '2013-02-13'
     examples:
     - date: '2008-01-21'
       subject: IETF 71 proceedings charter, as last modified
@@ -444,8 +443,8 @@ chairs:
     - date: '2009-04-16'
       subject: IETF 74 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/74/dhc.html
-    - date: '2012-11-04'
-      subject: IETF 85 proceedings charter
+    - date: '2013-02-13'
+      subject: IETF 85 proceedings charter, as the datatracker generated it by 2013-02-13
       url: https://www.ietf.org/proceedings/85/dhc.html
   - kind: session requests
     meetings:
@@ -545,17 +544,17 @@ chairs:
       url: https://www.ietf.org/proceedings/96/minutes/minutes-96-dhc.txt
   - kind: proceedings
     listed_in: 7
-    first: '2013-03-10'
-    last: '2017-03-26'
+    first: '2013-04-11'
+    last: '2017-04-12'
     examples:
-    - date: '2013-03-10'
-      subject: IETF 86 proceedings charter
+    - date: '2013-04-11'
+      subject: IETF 86 proceedings charter, as the datatracker generated it by 2013-04-11
       url: https://www.ietf.org/proceedings/86/dhc.html
-    - date: '2013-07-28'
-      subject: IETF 87 proceedings charter
+    - date: '2013-09-19'
+      subject: IETF 87 proceedings charter, as the datatracker generated it by 2013-09-19
       url: https://www.ietf.org/proceedings/87/dhc.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/dhc.html
   - kind: minutes without them
     date: '2011-03-27'

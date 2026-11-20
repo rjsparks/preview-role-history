@@ -37,20 +37,20 @@ chairs:
       not_after: '2015-09-21'
     notes:
     - 'Start: became an Area Director, first serving at IETF 66 (2006-07-09)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
+    - 'Start: the BOF met at IETF 90 (2014-07-20)'
     - 'End: the BOF met at IETF 93 (2015-07-19)'
     - 'End: the group closed (2015-09-21)'
   evidence:
   - kind: proceedings
     listed_in: 2
-    first: '2014-07-20'
-    last: '2015-07-19'
+    first: '2015-09-09'
+    last: '2015-09-21'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
+    - date: '2015-09-09'
+      subject: IETF 90 proceedings charter, as the datatracker generated it by 2015-09-09
       url: https://www.ietf.org/proceedings/90/edunext.html
-    - date: '2015-07-19'
-      subject: IETF 93 proceedings charter
+    - date: '2015-09-21'
+      subject: IETF 93 proceedings charter, as the datatracker generated it by 2015-10-06
       url: https://www.ietf.org/proceedings/93/edunext.html
   - kind: BOF session
     meeting: '90'
@@ -77,7 +77,7 @@ chairs:
       not_before: '2015-07-21'
       not_after: '2015-09-21'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
+    - 'Start: the BOF met at IETF 90 (2014-07-20)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2015-07-21)'
     - 'End: the group closed (2015-09-21)'
   evidence:
@@ -94,14 +94,14 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/edu-team/JPfsOjKQQ0vPwI3Y01FtQlbYrvc/
   - kind: proceedings
     listed_in: 2
-    first: '2014-07-20'
-    last: '2015-07-19'
+    first: '2015-09-09'
+    last: '2015-09-21'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
+    - date: '2015-09-09'
+      subject: IETF 90 proceedings charter, as the datatracker generated it by 2015-09-09
       url: https://www.ietf.org/proceedings/90/edunext.html
-    - date: '2015-07-19'
-      subject: IETF 93 proceedings charter
+    - date: '2015-09-21'
+      subject: IETF 93 proceedings charter, as the datatracker generated it by 2015-10-06
       url: https://www.ietf.org/proceedings/93/edunext.html
   - kind: BOF session
     meeting: '90'

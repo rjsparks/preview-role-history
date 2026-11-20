@@ -63,11 +63,11 @@ chairs:
       url: https://www.ietf.org/proceedings/94/minutes/minutes-94-iss.txt
   - kind: proceedings
     listed_in: 1
-    first: '2015-11-01'
-    last: '2015-11-01'
+    first: '2016-02-26'
+    last: '2016-02-26'
     examples:
-    - date: '2015-11-01'
-      subject: IETF 94 proceedings charter
+    - date: '2016-02-26'
+      subject: IETF 94 proceedings charter, as the datatracker generated it by 2016-03-18
       url: https://www.ietf.org/proceedings/94/iss.html
   - kind: BOF session
     meeting: '93'
@@ -88,7 +88,7 @@ chairs:
       certainty: exact
       date: '2015-11-01'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2015-07-19)'
+    - 'Start: the BOF met at IETF 93 (2015-07-19)'
   evidence:
   - kind: datatracker record
     date: '2015-11-01'
@@ -97,11 +97,11 @@ chairs:
     url: https://datatracker.ietf.org/group/iss/history/
   - kind: proceedings
     listed_in: 1
-    first: '2015-07-19'
-    last: '2015-07-19'
+    first: '2015-10-06'
+    last: '2015-10-06'
     examples:
-    - date: '2015-07-19'
-      subject: IETF 93 proceedings charter
+    - date: '2015-10-06'
+      subject: IETF 93 proceedings charter, as the datatracker generated it by 2015-10-06
       url: https://www.ietf.org/proceedings/93/iss.html
   - kind: BOF session
     meeting: '93'
@@ -123,7 +123,7 @@ chairs:
       not_before: '2015-11-01'
       not_after: '2016-02-26'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2015-07-19)'
+    - 'Start: the BOF met at IETF 93 (2015-07-19)'
     - 'End: listed as chair in meeting minutes (2015-11-01)'
     - 'End: the group closed (2016-02-26)'
   evidence:
@@ -137,14 +137,14 @@ chairs:
       url: https://www.ietf.org/proceedings/94/minutes/minutes-94-iss.txt
   - kind: proceedings
     listed_in: 2
-    first: '2015-07-19'
-    last: '2015-11-01'
+    first: '2015-10-06'
+    last: '2016-02-26'
     examples:
-    - date: '2015-07-19'
-      subject: IETF 93 proceedings charter
+    - date: '2015-10-06'
+      subject: IETF 93 proceedings charter, as the datatracker generated it by 2015-10-06
       url: https://www.ietf.org/proceedings/93/iss.html
-    - date: '2015-11-01'
-      subject: IETF 94 proceedings charter
+    - date: '2016-02-26'
+      subject: IETF 94 proceedings charter, as the datatracker generated it by 2016-03-18
       url: https://www.ietf.org/proceedings/94/iss.html
   - kind: BOF session
     meeting: '93'

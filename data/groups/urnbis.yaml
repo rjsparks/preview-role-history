@@ -41,11 +41,11 @@ chairs:
     url: https://datatracker.ietf.org/group/urnbis/history/
   - kind: proceedings
     listed_in: 1
-    first: '2016-07-17'
-    last: '2016-07-17'
+    first: '2016-09-08'
+    last: '2016-09-08'
     examples:
-    - date: '2016-07-17'
-      subject: IETF 96 proceedings charter
+    - date: '2016-09-08'
+      subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
       url: https://www.ietf.org/proceedings/96/urnbis.html
   - kind: shepherded
     documents:
@@ -55,17 +55,6 @@ chairs:
   name: Melinda Shore
   status: confirmed
   periods:
-  - start:
-      certainty: between
-      not_before: '2011-03-27'
-      not_after: '2014-07-20'
-    end:
-      certainty: between
-      not_before: '2014-07-20'
-      not_after: '2014-12-09'
-    notes:
-    - 'Start: not listed among the chairs in meeting minutes (2011-03-27)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   - start:
       certainty: exact
       date: '2014-12-09'
@@ -92,22 +81,18 @@ chairs:
       group through to completion.
   - kind: proceedings
     listed_in: 4
-    first: '2014-07-20'
-    last: '2015-07-19'
+    first: '2015-01-06'
+    last: '2015-10-06'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
-      url: https://www.ietf.org/proceedings/90/urnbis.html
-    - date: '2014-11-09'
-      subject: IETF 91 proceedings charter
+    - date: '2015-01-06'
+      subject: IETF 91 proceedings charter, as the datatracker generated it by 2015-01-06
       url: https://www.ietf.org/proceedings/91/urnbis.html
-    - date: '2015-07-19'
-      subject: IETF 93 proceedings charter
+    - date: '2015-05-07'
+      subject: IETF 92 proceedings charter, as the datatracker generated it by 2015-05-07
+      url: https://www.ietf.org/proceedings/92/urnbis.html
+    - date: '2015-10-06'
+      subject: IETF 93 proceedings charter, as the datatracker generated it by 2015-10-06
       url: https://www.ietf.org/proceedings/93/urnbis.html
-  - kind: minutes without them
-    date: '2011-03-27'
-    subject: IETF 80 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/80/minutes/urnbis.txt
 - person: 106296
   name: Andy Newton
   status: confirmed
@@ -115,12 +100,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2010-10-21'
-      not_after: '2010-11-07'
+      not_after: '2010-11-23'
     end:
       certainty: group-closed
       date: '2017-10-25'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
+    - 'Start: named as chair in the WG Action announcement (2010-11-23)'
   evidence:
   - kind: WG Action
     date: '2010-11-23'
@@ -142,17 +127,17 @@ chairs:
       url: https://www.ietf.org/proceedings/90/minutes/minutes-90-urnbis.txt
   - kind: proceedings
     listed_in: 18
-    first: '2010-11-07'
-    last: '2016-07-17'
+    first: '2011-05-03'
+    last: '2016-09-08'
     examples:
-    - date: '2010-11-07'
-      subject: IETF 79 proceedings charter
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
       url: https://www.ietf.org/proceedings/79/urnbis.html
-    - date: '2011-03-27'
-      subject: IETF 80 proceedings charter
+    - date: '2011-05-05'
+      subject: IETF 80 proceedings charter, as the datatracker generated it by 2011-05-05
       url: https://www.ietf.org/proceedings/80/urnbis.html
-    - date: '2016-07-17'
-      subject: IETF 96 proceedings charter
+    - date: '2016-09-08'
+      subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
       url: https://www.ietf.org/proceedings/96/urnbis.html
   - kind: session requests
     meetings:
@@ -234,7 +219,7 @@ chairs:
   - kind: proceedings
     listed_in: 13
     first: '2010-03-21'
-    last: '2014-03-02'
+    last: '2014-04-25'
     examples:
     - date: '2010-03-21'
       subject: IETF 77 proceedings charter
@@ -242,6 +227,6 @@ chairs:
     - date: '2010-06-10'
       subject: IETF 78 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/78/urnbis.html
-    - date: '2014-03-02'
-      subject: IETF 89 proceedings charter
+    - date: '2014-04-25'
+      subject: IETF 89 proceedings charter, as the datatracker generated it by 2014-04-25
       url: https://www.ietf.org/proceedings/89/urnbis.html

@@ -22,15 +22,6 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: evidence-only
-      not_after: '2014-07-20'
-    end:
-      certainty: between
-      not_before: '2014-07-20'
-      not_after: '2015-03-24'
-    notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
-  - start:
       certainty: exact
       date: '2015-03-24'
     end:
@@ -59,31 +50,22 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/l3sm/FWtNmCPx-yx625l5UmDbt46lfzw/
   - kind: proceedings
     listed_in: 6
-    first: '2014-07-20'
-    last: '2016-07-17'
+    first: '2015-05-07'
+    last: '2016-09-08'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
-      url: https://www.ietf.org/proceedings/90/l3sm.html
-    - date: '2015-03-22'
-      subject: IETF 92 proceedings charter
+    - date: '2015-05-07'
+      subject: IETF 92 proceedings charter, as the datatracker generated it by 2015-05-07
       url: https://www.ietf.org/proceedings/92/l3sm.html
-    - date: '2016-07-17'
-      subject: IETF 96 proceedings charter
+    - date: '2015-09-09'
+      subject: IETF 90 proceedings charter, as the datatracker generated it by 2015-09-09
+      url: https://www.ietf.org/proceedings/90/l3sm.html
+    - date: '2016-09-08'
+      subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
       url: https://www.ietf.org/proceedings/96/l3sm.html
 - person: 112751
   name: Qin Wu
   status: confirmed
   periods:
-  - start:
-      certainty: evidence-only
-      not_after: '2014-07-20'
-    end:
-      certainty: between
-      not_before: '2014-07-20'
-      not_after: '2015-03-24'
-    notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   - start:
       certainty: exact
       date: '2015-03-24'
@@ -116,17 +98,17 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/l3sm/xM8ELcUxhg77WftzfHQ_GQ_0k4g/
   - kind: proceedings
     listed_in: 6
-    first: '2014-07-20'
-    last: '2016-07-17'
+    first: '2015-05-07'
+    last: '2016-09-08'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
-      url: https://www.ietf.org/proceedings/90/l3sm.html
-    - date: '2015-03-22'
-      subject: IETF 92 proceedings charter
+    - date: '2015-05-07'
+      subject: IETF 92 proceedings charter, as the datatracker generated it by 2015-05-07
       url: https://www.ietf.org/proceedings/92/l3sm.html
-    - date: '2016-07-17'
-      subject: IETF 96 proceedings charter
+    - date: '2015-09-09'
+      subject: IETF 90 proceedings charter, as the datatracker generated it by 2015-09-09
+      url: https://www.ietf.org/proceedings/90/l3sm.html
+    - date: '2016-09-08'
+      subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
       url: https://www.ietf.org/proceedings/96/l3sm.html
   - kind: shepherded
     documents:

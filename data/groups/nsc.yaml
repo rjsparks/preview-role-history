@@ -33,15 +33,15 @@ chairs:
     end:
       certainty: group-closed
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2013-07-28)'
+    - 'Start: the BOF met at IETF 87 (2013-07-28)'
   evidence:
   - kind: proceedings
     listed_in: 1
-    first: '2013-07-28'
-    last: '2013-07-28'
+    first: '2013-09-19'
+    last: '2013-09-19'
     examples:
-    - date: '2013-07-28'
-      subject: IETF 87 proceedings charter
+    - date: '2013-09-19'
+      subject: IETF 87 proceedings charter, as the datatracker generated it by 2013-09-19
       url: https://www.ietf.org/proceedings/87/nsc.html
   - kind: BOF session
     meeting: '87'
@@ -59,16 +59,16 @@ chairs:
       certainty: approximate
       date: '2023-03-29'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2013-07-28)'
+    - 'Start: the BOF met at IETF 87 (2013-07-28)'
     - 'End: became an Area Director, per the datatracker''s IESG roles (2023-03-29)'
   evidence:
   - kind: proceedings
     listed_in: 1
-    first: '2013-07-28'
-    last: '2013-07-28'
+    first: '2013-09-19'
+    last: '2013-09-19'
     examples:
-    - date: '2013-07-28'
-      subject: IETF 87 proceedings charter
+    - date: '2013-09-19'
+      subject: IETF 87 proceedings charter, as the datatracker generated it by 2013-09-19
       url: https://www.ietf.org/proceedings/87/nsc.html
   - kind: BOF session
     meeting: '87'

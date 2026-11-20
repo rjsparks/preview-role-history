@@ -25,13 +25,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-11-07'
+      certainty: between
+      not_before: '2010-12-03'
+      not_after: '2011-01-25'
     end:
       certainty: group-closed
       date: '2019-09-20'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
+    - 'Start: named as chair in the WG Action announcement (2011-01-25)'
   evidence:
   - kind: WG Action
     date: '2011-01-25'
@@ -70,17 +71,17 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/payload/T8vBd3e2k2EeVr9BfjCSjb-CkuI/
   - kind: proceedings
     listed_in: 20
-    first: '2010-11-07'
-    last: '2017-03-26'
+    first: '2011-05-03'
+    last: '2017-04-12'
     examples:
-    - date: '2010-11-07'
-      subject: IETF 79 proceedings charter
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
       url: https://www.ietf.org/proceedings/79/payload.html
-    - date: '2011-03-27'
-      subject: IETF 80 proceedings charter
+    - date: '2011-05-05'
+      subject: IETF 80 proceedings charter, as the datatracker generated it by 2011-05-05
       url: https://www.ietf.org/proceedings/80/payload.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/payload.html
   - kind: shepherded
     documents:
@@ -100,13 +101,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2010-11-07'
+      certainty: between
+      not_before: '2010-12-03'
+      not_after: '2011-01-25'
     end:
       certainty: group-closed
       date: '2019-09-20'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
+    - 'Start: named as chair in the WG Action announcement (2011-01-25)'
   evidence:
   - kind: WG Action
     date: '2011-01-25'
@@ -139,17 +141,17 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/payload/T8vBd3e2k2EeVr9BfjCSjb-CkuI/
   - kind: proceedings
     listed_in: 20
-    first: '2010-11-07'
-    last: '2017-03-26'
+    first: '2011-05-03'
+    last: '2017-04-12'
     examples:
-    - date: '2010-11-07'
-      subject: IETF 79 proceedings charter
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
       url: https://www.ietf.org/proceedings/79/payload.html
-    - date: '2011-03-27'
-      subject: IETF 80 proceedings charter
+    - date: '2011-05-05'
+      subject: IETF 80 proceedings charter, as the datatracker generated it by 2011-05-05
       url: https://www.ietf.org/proceedings/80/payload.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/payload.html
   - kind: shepherded
     documents:

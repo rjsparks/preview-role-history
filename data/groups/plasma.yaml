@@ -33,18 +33,18 @@ chairs:
     end:
       certainty: group-closed
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
+    - 'Start: the BOF met at IETF 79 (2010-11-07)'
   evidence:
   - kind: proceedings
     listed_in: 2
-    first: '2010-11-07'
-    last: '2011-03-27'
+    first: '2011-05-03'
+    last: '2011-05-05'
     examples:
-    - date: '2010-11-07'
-      subject: IETF 79 proceedings charter
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
       url: https://www.ietf.org/proceedings/79/plasma.html
-    - date: '2011-03-27'
-      subject: IETF 80 proceedings charter
+    - date: '2011-05-05'
+      subject: IETF 80 proceedings charter, as the datatracker generated it by 2011-05-05
       url: https://www.ietf.org/proceedings/80/plasma.html
   - kind: BOF session
     meeting: '79'
@@ -70,7 +70,7 @@ chairs:
       not_before: '2011-04-22'
       not_after: '2016-07-17'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
+    - 'Start: the BOF met at IETF 79 (2010-11-07)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2011-04-22)'
     - 'End: became an Area Director, first serving at IETF 96 (2016-07-17)'
   evidence:
@@ -84,14 +84,14 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/plasma/d515wR56bbYeOjZH9Gtk9Y0bHcM/
   - kind: proceedings
     listed_in: 2
-    first: '2010-11-07'
-    last: '2011-03-27'
+    first: '2011-05-03'
+    last: '2011-05-05'
     examples:
-    - date: '2010-11-07'
-      subject: IETF 79 proceedings charter
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
       url: https://www.ietf.org/proceedings/79/plasma.html
-    - date: '2011-03-27'
-      subject: IETF 80 proceedings charter
+    - date: '2011-05-05'
+      subject: IETF 80 proceedings charter, as the datatracker generated it by 2011-05-05
       url: https://www.ietf.org/proceedings/80/plasma.html
   - kind: BOF session
     meeting: '79'

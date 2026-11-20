@@ -406,15 +406,13 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2010-03-21'
-      not_after: '2010-11-07'
+      certainty: announced
+      date: '2011-03-03'
     end:
       certainty: exact
       date: '2013-01-11'
     notes:
-    - 'Start: not listed among the chairs in meeting minutes (2010-03-21)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
+    - 'Start: announced on the group''s list (2011-03-03)'
   evidence:
   - kind: datatracker record
     date: '2013-01-11'
@@ -449,22 +447,18 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/mmusic/TzXC4NmMQtU3lX9VSnFn9k5MPIM/
   - kind: proceedings
     listed_in: 6
-    first: '2010-11-07'
-    last: '2012-07-29'
+    first: '2011-05-03'
+    last: '2012-10-02'
     examples:
-    - date: '2010-11-07'
-      subject: IETF 79 proceedings charter
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
       url: https://www.ietf.org/proceedings/79/mmusic.html
-    - date: '2011-03-27'
-      subject: IETF 80 proceedings charter
+    - date: '2011-05-05'
+      subject: IETF 80 proceedings charter, as the datatracker generated it by 2011-05-05
       url: https://www.ietf.org/proceedings/80/mmusic.html
-    - date: '2012-07-29'
-      subject: IETF 84 proceedings charter
+    - date: '2012-10-02'
+      subject: IETF 84 proceedings charter, as the datatracker generated it by 2012-10-02
       url: https://www.ietf.org/proceedings/84/mmusic.html
-  - kind: minutes without them
-    date: '2010-03-21'
-    subject: '[MMUSIC] minutes from IETF 77 posted'
-    url: https://mailarchive.ietf.org/arch/msg/mmusic/SMmKBpTDPkFm2IvrPtfusw0NqiY/
   - kind: session requests
     meetings:
     - '81'
@@ -605,16 +599,16 @@ chairs:
   - kind: proceedings
     listed_in: 21
     first: '2010-07-25'
-    last: '2017-03-26'
+    last: '2017-04-12'
     examples:
     - date: '2010-07-25'
       subject: IETF 78 proceedings charter
       url: https://www.ietf.org/proceedings/78/mmusic.html
-    - date: '2010-11-07'
-      subject: IETF 79 proceedings charter
+    - date: '2011-05-03'
+      subject: IETF 79 proceedings charter, as the datatracker generated it by 2011-05-03
       url: https://www.ietf.org/proceedings/79/mmusic.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/mmusic.html
   - kind: minutes without them
     date: '2002-11-17'
@@ -694,17 +688,17 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/mmusic/Xvf_j2Hm75VOz9_VqxTXi0rr-ng/
   - kind: proceedings
     listed_in: 5
-    first: '2015-11-01'
-    last: '2017-03-26'
+    first: '2016-03-18'
+    last: '2017-04-12'
     examples:
-    - date: '2015-11-01'
-      subject: IETF 94 proceedings charter
+    - date: '2016-03-18'
+      subject: IETF 94 proceedings charter, as the datatracker generated it by 2016-03-18
       url: https://www.ietf.org/proceedings/94/mmusic.html
-    - date: '2016-04-03'
-      subject: IETF 95 proceedings charter
+    - date: '2016-05-17'
+      subject: IETF 95 proceedings charter, as the datatracker generated it by 2016-05-17
       url: https://www.ietf.org/proceedings/95/mmusic.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/mmusic.html
   - kind: shepherded
     documents:
@@ -758,17 +752,17 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/mmusic/RiRV5TOOv7ZL3hP3bLUs7vU-gYQ/
   - kind: proceedings
     listed_in: 9
-    first: '2012-11-04'
-    last: '2015-07-19'
+    first: '2013-02-13'
+    last: '2015-10-06'
     examples:
-    - date: '2012-11-04'
-      subject: IETF 85 proceedings charter
+    - date: '2013-02-13'
+      subject: IETF 85 proceedings charter, as the datatracker generated it by 2013-02-13
       url: https://www.ietf.org/proceedings/85/mmusic.html
-    - date: '2013-03-10'
-      subject: IETF 86 proceedings charter
+    - date: '2013-04-11'
+      subject: IETF 86 proceedings charter, as the datatracker generated it by 2013-04-11
       url: https://www.ietf.org/proceedings/86/mmusic.html
-    - date: '2015-07-19'
-      subject: IETF 93 proceedings charter
+    - date: '2015-10-06'
+      subject: IETF 93 proceedings charter, as the datatracker generated it by 2015-10-06
       url: https://www.ietf.org/proceedings/93/mmusic.html
   - kind: shepherded
     documents:

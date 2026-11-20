@@ -162,6 +162,26 @@ chairs:
     date: '2023-12-15'
     subject: 'WG Action: Rechartered Open Specification for Pretty Good Privacy (openpgp)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/-MSyMGXP_x7aYzYgqN9kyRxbLd8/
+  - kind: chair activity
+    first: '2021-01-08'
+    last: '2026-07-22'
+    messages: 27
+    examples:
+    - date: '2021-01-08'
+      subject: '[openpgp] Poll for OpenPGP WG virtual interim in Feb'
+      url: https://mailarchive.ietf.org/arch/msg/openpgp/-kIx6B9PWv1SFI_HubXsI2aZlQM/
+    - date: '2022-03-08'
+      subject: '[openpgp] draft agenda for ietf-113'
+      url: https://mailarchive.ietf.org/arch/msg/openpgp/kEecfcfeVT9pauBOLZv3E1fR2O4/
+    - date: '2022-06-07'
+      subject: '[openpgp] WGLC for draft-ietf-openpgp-crypto-refresh-06.txt'
+      url: https://mailarchive.ietf.org/arch/msg/openpgp/LAMorYvThRXucv11FxADkl1COvw/
+    - date: '2022-07-08'
+      subject: '[openpgp] WGLC issues created in gitlab'
+      url: https://mailarchive.ietf.org/arch/msg/openpgp/nC_WGIAt4i82t3veXXBGlgW3k-E/
+    - date: '2022-07-08'
+      subject: '[openpgp] WGLC issue - are we done yet?'
+      url: https://mailarchive.ietf.org/arch/msg/openpgp/hlrPvBmO_AW9rsSh8KUhTtDU4CE/
   - kind: shepherded
     documents:
     - draft-ietf-openpgp-crypto-refresh
@@ -199,28 +219,19 @@ chairs:
       url: https://www.ietf.org/proceedings/96/minutes/minutes-96-openpgp.txt
   - kind: proceedings
     listed_in: 2
-    first: '2016-04-03'
-    last: '2016-07-17'
+    first: '2016-05-17'
+    last: '2016-09-08'
     examples:
-    - date: '2016-04-03'
-      subject: IETF 95 proceedings charter
+    - date: '2016-05-17'
+      subject: IETF 95 proceedings charter, as the datatracker generated it by 2016-05-17
       url: https://www.ietf.org/proceedings/95/openpgp.html
-    - date: '2016-07-17'
-      subject: IETF 96 proceedings charter
+    - date: '2016-09-08'
+      subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
       url: https://www.ietf.org/proceedings/96/openpgp.html
 - person: 104807
   name: Christopher Liljenstolpe
   status: confirmed
   periods:
-  - start:
-      certainty: evidence-only
-      not_after: '2014-07-20'
-    end:
-      certainty: between
-      not_before: '2014-07-20'
-      not_after: '2015-06-07'
-    notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   - start:
       certainty: approximate
       date: '2015-06-07'
@@ -262,31 +273,22 @@ chairs:
       url: https://www.ietf.org/proceedings/94/minutes/minutes-94-openpgp.txt
   - kind: proceedings
     listed_in: 3
-    first: '2014-07-20'
-    last: '2015-11-01'
+    first: '2015-09-09'
+    last: '2016-03-18'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
+    - date: '2015-09-09'
+      subject: IETF 90 proceedings charter, as the datatracker generated it by 2015-09-09
       url: https://www.ietf.org/proceedings/90/openpgp.html
-    - date: '2015-07-19'
-      subject: IETF 93 proceedings charter
+    - date: '2015-10-06'
+      subject: IETF 93 proceedings charter, as the datatracker generated it by 2015-10-06
       url: https://www.ietf.org/proceedings/93/openpgp.html
-    - date: '2015-11-01'
-      subject: IETF 94 proceedings charter
+    - date: '2016-03-18'
+      subject: IETF 94 proceedings charter, as the datatracker generated it by 2016-03-18
       url: https://www.ietf.org/proceedings/94/openpgp.html
 - person: 111614
   name: Daniel Gillmor
   status: confirmed
   periods:
-  - start:
-      certainty: evidence-only
-      not_after: '2014-07-20'
-    end:
-      certainty: between
-      not_before: '2014-07-20'
-      not_after: '2015-06-07'
-    notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
   - start:
       certainty: approximate
       date: '2015-06-07'
@@ -319,8 +321,8 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/-MSyMGXP_x7aYzYgqN9kyRxbLd8/
   - kind: chair activity
     first: '2015-07-28'
-    last: '2016-06-25'
-    messages: 2
+    last: '2026-08-18'
+    messages: 15
     examples:
     - date: '2015-07-28'
       subject: '[openpgp] draft minutes available'
@@ -328,6 +330,12 @@ chairs:
     - date: '2016-06-25'
       subject: '[openpgp] call for adoption of draft-koch-openpgp-rfc4880bis'
       url: https://mailarchive.ietf.org/arch/msg/openpgp/9ojTkdWWfhMGdx_TnNy4xr5Aoss/
+    - date: '2021-02-25'
+      subject: '[openpgp] OpenPGP interim meeting tomorrow (2021-02-26 15:00Z)'
+      url: https://mailarchive.ietf.org/arch/msg/openpgp/rG8paWbUbwdcslG-OGDB-yfvj9w/
+    - date: '2024-04-06'
+      subject: '[openpgp] Call for adoption of draft-gallagher-openpgp-replacementkey'
+      url: https://mailarchive.ietf.org/arch/msg/openpgp/ijiy4WJQhPVA5-7kiBPOvHOWCNI/
   - kind: minutes
     listed_in: 3
     first: '2015-11-01'
@@ -344,17 +352,17 @@ chairs:
       url: https://www.ietf.org/proceedings/95/minutes/minutes-95-openpgp.txt
   - kind: proceedings
     listed_in: 5
-    first: '2014-07-20'
-    last: '2016-07-17'
+    first: '2015-09-09'
+    last: '2016-09-08'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
+    - date: '2015-09-09'
+      subject: IETF 90 proceedings charter, as the datatracker generated it by 2015-09-09
       url: https://www.ietf.org/proceedings/90/openpgp.html
-    - date: '2015-07-19'
-      subject: IETF 93 proceedings charter
+    - date: '2015-10-06'
+      subject: IETF 93 proceedings charter, as the datatracker generated it by 2015-10-06
       url: https://www.ietf.org/proceedings/93/openpgp.html
-    - date: '2016-07-17'
-      subject: IETF 96 proceedings charter
+    - date: '2016-09-08'
+      subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
       url: https://www.ietf.org/proceedings/96/openpgp.html
   - kind: shepherded
     documents:

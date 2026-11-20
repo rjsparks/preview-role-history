@@ -29,12 +29,12 @@ chairs:
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-11-13'
+      date: '2012-02-01'
     end:
       certainty: group-closed
       date: '2015-03-25'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2011-11-13)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2012-02-01)'
   evidence:
   - kind: WG Action
     date: '2012-05-15'
@@ -69,18 +69,18 @@ chairs:
       subject: IETF 83 minutes in the proceedings
       url: https://www.ietf.org/proceedings/83/minutes/minutes-83-weirds.txt
   - kind: proceedings
-    listed_in: 10
-    first: '2011-11-13'
-    last: '2014-11-09'
+    listed_in: 9
+    first: '2012-02-01'
+    last: '2015-01-06'
     examples:
-    - date: '2011-11-13'
-      subject: IETF 82 proceedings charter
+    - date: '2012-02-01'
+      subject: IETF 82 proceedings charter, as the datatracker generated it by 2012-02-01
       url: https://www.ietf.org/proceedings/82/weirds.html
-    - date: '2012-03-25'
-      subject: IETF 83 proceedings charter
+    - date: '2012-05-15'
+      subject: IETF 83 proceedings charter, as the datatracker generated it by 2012-05-15
       url: https://www.ietf.org/proceedings/83/weirds.html
-    - date: '2014-11-09'
-      subject: IETF 91 proceedings charter
+    - date: '2015-01-06'
+      subject: IETF 91 proceedings charter, as the datatracker generated it by 2015-01-06
       url: https://www.ietf.org/proceedings/91/weirds.html
   - kind: shepherded
     documents:
@@ -127,11 +127,11 @@ chairs:
       url: https://www.ietf.org/proceedings/83/minutes/minutes-83-weirds.txt
   - kind: proceedings
     listed_in: 1
-    first: '2011-11-13'
-    last: '2011-11-13'
+    first: '2012-02-01'
+    last: '2012-02-01'
     examples:
-    - date: '2011-11-13'
-      subject: IETF 82 proceedings charter
+    - date: '2012-02-01'
+      subject: IETF 82 proceedings charter, as the datatracker generated it by 2012-02-01
       url: https://www.ietf.org/proceedings/82/weirds.html
   - kind: chartering announcement without them
     date: '2012-05-15'
@@ -143,13 +143,14 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2012-02-23'
-      not_after: '2012-03-25'
+      not_before: '2012-03-25'
+      not_after: '2012-05-15'
     end:
       certainty: group-closed
       date: '2015-03-25'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2012-03-25)'
+    - 'Start: not listed among the chairs in meeting minutes (2012-03-25)'
+    - 'Start: named as chair in the WG Action announcement (2012-05-15)'
   evidence:
   - kind: WG Action
     date: '2012-05-15'
@@ -167,16 +168,20 @@ chairs:
       subject: '[weirds] WGLC: draft-ietf-weirds-rdap-query-05'
       url: https://mailarchive.ietf.org/arch/msg/weirds/xn-r9mcCi5sti7C16ZZblJbhW4w/
   - kind: proceedings
-    listed_in: 9
-    first: '2012-03-25'
-    last: '2014-11-09'
+    listed_in: 8
+    first: '2012-05-15'
+    last: '2015-01-06'
     examples:
-    - date: '2012-03-25'
-      subject: IETF 83 proceedings charter
+    - date: '2012-05-15'
+      subject: IETF 83 proceedings charter, as the datatracker generated it by 2012-05-15
       url: https://www.ietf.org/proceedings/83/weirds.html
-    - date: '2012-07-29'
-      subject: IETF 84 proceedings charter
+    - date: '2012-10-02'
+      subject: IETF 84 proceedings charter, as the datatracker generated it by 2012-10-02
       url: https://www.ietf.org/proceedings/84/weirds.html
-    - date: '2014-11-09'
-      subject: IETF 91 proceedings charter
+    - date: '2015-01-06'
+      subject: IETF 91 proceedings charter, as the datatracker generated it by 2015-01-06
       url: https://www.ietf.org/proceedings/91/weirds.html
+  - kind: minutes without them
+    date: '2012-03-25'
+    subject: IETF 83 minutes in the proceedings
+    url: https://www.ietf.org/proceedings/83/minutes/minutes-83-weirds.txt

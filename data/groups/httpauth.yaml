@@ -33,12 +33,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2012-07-29'
+      not_after: '2012-10-02'
     end:
       certainty: exact
       date: '2013-03-11'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2012-07-29)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2012-10-02)'
   evidence:
   - kind: datatracker record
     date: '2013-03-11'
@@ -55,64 +55,71 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/http-auth/puTgkFH1GcduuwuQX2J05pP7a4w/
   - kind: proceedings
     listed_in: 2
-    first: '2012-07-29'
-    last: '2012-11-04'
+    first: '2012-10-02'
+    last: '2013-02-13'
     examples:
-    - date: '2012-07-29'
-      subject: IETF 84 proceedings charter
+    - date: '2012-10-02'
+      subject: IETF 84 proceedings charter, as the datatracker generated it by 2012-10-02
       url: https://www.ietf.org/proceedings/84/httpauth.html
-    - date: '2012-11-04'
-      subject: IETF 85 proceedings charter
+    - date: '2013-02-13'
+      subject: IETF 85 proceedings charter, as the datatracker generated it by 2013-02-13
       url: https://www.ietf.org/proceedings/85/httpauth.html
 - person: 102154
   name: Alexey Melnikov
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2011-07-24'
+      certainty: between
+      not_before: '2011-07-24'
+      not_after: '2011-10-21'
     end:
       certainty: between
       not_before: '2011-12-09'
       not_after: '2013-01-31'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2011-07-24)'
+    - 'Start: became an Area Director, first serving at IETF 75 (2009-07-26)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2011-10-21)'
   evidence:
   - kind: proceedings
     listed_in: 2
-    first: '2011-07-24'
-    last: '2012-03-25'
+    first: '2011-10-21'
+    last: '2012-05-15'
     examples:
-    - date: '2011-07-24'
-      subject: IETF 81 proceedings charter
+    - date: '2011-10-21'
+      subject: IETF 81 proceedings charter, as the datatracker generated it by 2011-10-21
       url: https://www.ietf.org/proceedings/81/httpauth.html
-    - date: '2012-03-25'
-      subject: IETF 83 proceedings charter
+    - date: '2012-05-15'
+      subject: IETF 83 proceedings charter, as the datatracker generated it by 2012-05-15
       url: https://www.ietf.org/proceedings/83/httpauth.html
+  - kind: joined the IESG
+    after_meeting: '74'
+    after: '2009-03-22'
+    by_meeting: '75'
+    by: '2009-07-26'
 - person: 103881
   name: Mark Nottingham
   status: confirmed
   periods:
   - start:
       certainty: on-or-before
-      date: '2011-07-24'
+      date: '2011-10-21'
     end:
       certainty: between
       not_before: '2011-12-09'
       not_after: '2013-01-31'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2011-07-24)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2011-10-21)'
   evidence:
   - kind: proceedings
     listed_in: 2
-    first: '2011-07-24'
-    last: '2012-03-25'
+    first: '2011-10-21'
+    last: '2012-05-15'
     examples:
-    - date: '2011-07-24'
-      subject: IETF 81 proceedings charter
+    - date: '2011-10-21'
+      subject: IETF 81 proceedings charter, as the datatracker generated it by 2011-10-21
       url: https://www.ietf.org/proceedings/81/httpauth.html
-    - date: '2012-03-25'
-      subject: IETF 83 proceedings charter
+    - date: '2012-05-15'
+      subject: IETF 83 proceedings charter, as the datatracker generated it by 2012-05-15
       url: https://www.ietf.org/proceedings/83/httpauth.html
 - person: 106745
   name: Yoav Nir
@@ -121,12 +128,12 @@ chairs:
   - start:
       certainty: between
       not_before: '2011-12-09'
-      not_after: '2012-07-29'
+      not_after: '2012-10-02'
     end:
       certainty: group-closed
       date: '2017-02-01'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2012-07-29)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2012-10-02)'
   evidence:
   - kind: WG Action
     date: '2013-03-12'
@@ -172,17 +179,17 @@ chairs:
       url: https://www.ietf.org/proceedings/92/minutes/minutes-92-httpauth.txt
   - kind: proceedings
     listed_in: 13
-    first: '2012-07-29'
-    last: '2016-07-17'
+    first: '2012-10-02'
+    last: '2016-09-08'
     examples:
-    - date: '2012-07-29'
-      subject: IETF 84 proceedings charter
+    - date: '2012-10-02'
+      subject: IETF 84 proceedings charter, as the datatracker generated it by 2012-10-02
       url: https://www.ietf.org/proceedings/84/httpauth.html
-    - date: '2012-11-04'
-      subject: IETF 85 proceedings charter
+    - date: '2013-02-13'
+      subject: IETF 85 proceedings charter, as the datatracker generated it by 2013-02-13
       url: https://www.ietf.org/proceedings/85/httpauth.html
-    - date: '2016-07-17'
-      subject: IETF 96 proceedings charter
+    - date: '2016-09-08'
+      subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
       url: https://www.ietf.org/proceedings/96/httpauth.html
   - kind: shepherded
     documents:
@@ -256,34 +263,22 @@ chairs:
       url: https://www.ietf.org/proceedings/92/minutes/minutes-92-httpauth.txt
   - kind: proceedings
     listed_in: 6
-    first: '2013-03-10'
-    last: '2015-03-22'
+    first: '2013-04-11'
+    last: '2015-05-07'
     examples:
-    - date: '2013-03-10'
-      subject: IETF 86 proceedings charter
+    - date: '2013-04-11'
+      subject: IETF 86 proceedings charter, as the datatracker generated it by 2013-04-11
       url: https://www.ietf.org/proceedings/86/httpauth.html
-    - date: '2013-07-28'
-      subject: IETF 87 proceedings charter
+    - date: '2013-09-19'
+      subject: IETF 87 proceedings charter, as the datatracker generated it by 2013-09-19
       url: https://www.ietf.org/proceedings/87/httpauth.html
-    - date: '2015-03-22'
-      subject: IETF 92 proceedings charter
+    - date: '2015-05-07'
+      subject: IETF 92 proceedings charter, as the datatracker generated it by 2015-05-07
       url: https://www.ietf.org/proceedings/92/httpauth.html
 - person: 111355
   name: Rifaat Shekh-Yusef
   status: confirmed
   periods:
-  - start:
-      certainty: between
-      not_before: '2014-03-02'
-      not_after: '2014-07-20'
-    end:
-      certainty: between
-      not_before: '2014-07-20'
-      not_after: '2014-11-09'
-    notes:
-    - 'Start: not listed among the chairs in meeting minutes (2014-03-02)'
-    - 'Start: listed as chair in a proceedings charter snapshot (2014-07-20)'
-    - 'End: not listed among the chairs in meeting minutes (2014-11-09)'
   - start:
       certainty: exact
       date: '2015-07-23'
@@ -313,26 +308,18 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/http-auth/n3XXIFeFBvgGw92xwtRhfkOoi4A/
   - kind: proceedings
     listed_in: 5
-    first: '2014-07-20'
-    last: '2016-07-17'
+    first: '2015-09-09'
+    last: '2016-09-08'
     examples:
-    - date: '2014-07-20'
-      subject: IETF 90 proceedings charter
+    - date: '2015-09-09'
+      subject: IETF 90 proceedings charter, as the datatracker generated it by 2015-09-09
       url: https://www.ietf.org/proceedings/90/httpauth.html
-    - date: '2015-07-19'
-      subject: IETF 93 proceedings charter
+    - date: '2015-10-06'
+      subject: IETF 93 proceedings charter, as the datatracker generated it by 2015-10-06
       url: https://www.ietf.org/proceedings/93/httpauth.html
-    - date: '2016-07-17'
-      subject: IETF 96 proceedings charter
+    - date: '2016-09-08'
+      subject: IETF 96 proceedings charter, as the datatracker generated it by 2016-09-08
       url: https://www.ietf.org/proceedings/96/httpauth.html
-  - kind: minutes without them
-    date: '2014-03-02'
-    subject: IETF 89 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/89/minutes/minutes-89-httpauth.txt
-  - kind: minutes without them
-    date: '2014-11-09'
-    subject: IETF 91 minutes in the proceedings
-    url: https://www.ietf.org/proceedings/91/minutes/minutes-91-httpauth.txt
   - kind: shepherded
     documents:
     - draft-ietf-httpauth-mutual

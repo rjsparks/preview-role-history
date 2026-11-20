@@ -73,17 +73,17 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/sacm/Fuz6kyet4Gl903zp6ehCT-lK-5c/
   - kind: proceedings
     listed_in: 5
-    first: '2015-11-01'
-    last: '2017-03-26'
+    first: '2016-03-18'
+    last: '2017-04-12'
     examples:
-    - date: '2015-11-01'
-      subject: IETF 94 proceedings charter
+    - date: '2016-03-18'
+      subject: IETF 94 proceedings charter, as the datatracker generated it by 2016-03-18
       url: https://www.ietf.org/proceedings/94/sacm.html
-    - date: '2016-04-03'
-      subject: IETF 95 proceedings charter
+    - date: '2016-05-17'
+      subject: IETF 95 proceedings charter, as the datatracker generated it by 2016-05-17
       url: https://www.ietf.org/proceedings/95/sacm.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/sacm.html
   - kind: shepherded
     documents:
@@ -95,13 +95,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2012-07-29'
+      certainty: between
+      not_before: '2012-09-26'
+      not_after: '2012-10-02'
     end:
       certainty: exact
       date: '2015-11-23'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2012-07-29)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2012-10-02)'
   evidence:
   - kind: datatracker record
     date: '2015-11-23'
@@ -122,17 +123,17 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/klxl3UfK60md-die0tgUR86MJVk/
   - kind: proceedings
     listed_in: 10
-    first: '2012-07-29'
-    last: '2015-07-19'
+    first: '2012-10-02'
+    last: '2015-10-06'
     examples:
-    - date: '2012-07-29'
-      subject: IETF 84 proceedings charter
+    - date: '2012-10-02'
+      subject: IETF 84 proceedings charter, as the datatracker generated it by 2012-10-02
       url: https://www.ietf.org/proceedings/84/sacm.html
-    - date: '2012-11-04'
-      subject: IETF 85 proceedings charter
+    - date: '2013-02-13'
+      subject: IETF 85 proceedings charter, as the datatracker generated it by 2013-02-13
       url: https://www.ietf.org/proceedings/85/sacm.html
-    - date: '2015-07-19'
-      subject: IETF 93 proceedings charter
+    - date: '2015-10-06'
+      subject: IETF 93 proceedings charter, as the datatracker generated it by 2015-10-06
       url: https://www.ietf.org/proceedings/93/sacm.html
   - kind: shepherded
     documents:
@@ -142,13 +143,14 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: on-or-before
-      date: '2012-07-29'
+      certainty: between
+      not_before: '2012-09-26'
+      not_after: '2012-10-02'
     end:
       certainty: exact
       date: '2013-06-28'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2012-07-29)'
+    - 'Start: listed as chair in a proceedings charter snapshot (2012-10-02)'
   evidence:
   - kind: datatracker record
     date: '2013-06-28'
@@ -161,17 +163,17 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/EWWoNiiILb2gT6Z_IK80KPzuSM0/
   - kind: proceedings
     listed_in: 3
-    first: '2012-07-29'
-    last: '2013-03-10'
+    first: '2012-10-02'
+    last: '2013-04-11'
     examples:
-    - date: '2012-07-29'
-      subject: IETF 84 proceedings charter
+    - date: '2012-10-02'
+      subject: IETF 84 proceedings charter, as the datatracker generated it by 2012-10-02
       url: https://www.ietf.org/proceedings/84/sacm.html
-    - date: '2012-11-04'
-      subject: IETF 85 proceedings charter
+    - date: '2013-02-13'
+      subject: IETF 85 proceedings charter, as the datatracker generated it by 2013-02-13
       url: https://www.ietf.org/proceedings/85/sacm.html
-    - date: '2013-03-10'
-      subject: IETF 86 proceedings charter
+    - date: '2013-04-11'
+      subject: IETF 86 proceedings charter, as the datatracker generated it by 2013-04-11
       url: https://www.ietf.org/proceedings/86/sacm.html
 - person: 113536
   name: Christopher Inacio
@@ -271,17 +273,17 @@ chairs:
       url: https://mailarchive.ietf.org/arch/msg/sacm/vhx5BUneHk3a8knsCMq7XJB0ISk/
   - kind: proceedings
     listed_in: 12
-    first: '2013-07-28'
-    last: '2017-03-26'
+    first: '2013-09-19'
+    last: '2017-04-12'
     examples:
-    - date: '2013-07-28'
-      subject: IETF 87 proceedings charter
+    - date: '2013-09-19'
+      subject: IETF 87 proceedings charter, as the datatracker generated it by 2013-09-19
       url: https://www.ietf.org/proceedings/87/sacm.html
-    - date: '2013-11-03'
-      subject: IETF 88 proceedings charter
+    - date: '2013-12-20'
+      subject: IETF 88 proceedings charter, as the datatracker generated it by 2013-12-20
       url: https://www.ietf.org/proceedings/88/sacm.html
-    - date: '2017-03-26'
-      subject: IETF 98 proceedings charter
+    - date: '2017-04-12'
+      subject: IETF 98 proceedings charter, as the datatracker generated it by 2017-04-12
       url: https://www.ietf.org/proceedings/98/sacm.html
   - kind: shepherded
     documents:
