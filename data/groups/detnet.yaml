@@ -38,6 +38,11 @@ chairs:
       not_before: '2015-02-10'
       not_after: '2015-06-11'
   evidence:
+  - kind: datatracker record
+    date: '2014-11-07'
+    says: start
+    text: Chairs changed to Jouni Korhonen, Erik Nordmark from Jouni Korhonen, Pascal Thubert
+    url: https://datatracker.ietf.org/group/detnet/history/
   - kind: minutes
     listed_in: 1
     first: '2014-11-09'
@@ -71,6 +76,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2015-09-18'
+    says: start
+    text: Chairs changed to Lou Berger, Patricia Thaler
+    url: https://datatracker.ietf.org/group/detnet/history/
   - kind: WG Action
     date: '2015-10-05'
     subject: 'WG Action: Formed Deterministic Networking (detnet)'
@@ -144,6 +154,11 @@ chairs:
       not_before: '2015-02-10'
       not_after: '2015-06-11'
   evidence:
+  - kind: datatracker record
+    date: '2014-10-02'
+    says: start
+    text: Chairs changed to Jouni Korhonen, Pascal Thubert
+    url: https://datatracker.ietf.org/group/detnet/history/
   - kind: minutes
     listed_in: 1
     first: '2014-11-09'
@@ -178,6 +193,16 @@ chairs:
       certainty: exact
       date: '2018-03-26'
   evidence:
+  - kind: datatracker record
+    date: '2015-09-18'
+    says: start
+    text: Chairs changed to Lou Berger, Patricia Thaler
+    url: https://datatracker.ietf.org/group/detnet/history/
+  - kind: datatracker record
+    date: '2018-03-26'
+    says: end
+    text: Chairs changed to Janos Farkas, Lou Berger from Lou Berger, Janos Farkas, Patricia Thaler
+    url: https://datatracker.ietf.org/group/detnet/history/
   - kind: WG Action
     date: '2015-10-05'
     subject: 'WG Action: Formed Deterministic Networking (detnet)'
@@ -226,6 +251,16 @@ chairs:
     - 'Start: posted an agenda, minutes or interim notice to the group''s list (2015-03-09)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2015-03-09)'
   evidence:
+  - kind: datatracker record
+    date: '2014-10-02'
+    says: start
+    text: Chairs changed to Jouni Korhonen, Pascal Thubert
+    url: https://datatracker.ietf.org/group/detnet/history/
+  - kind: datatracker record
+    date: '2014-11-07'
+    says: end
+    text: Chairs changed to Jouni Korhonen, Erik Nordmark from Jouni Korhonen, Pascal Thubert
+    url: https://datatracker.ietf.org/group/detnet/history/
   - kind: chair activity
     first: '2015-03-09'
     last: '2015-03-09'
@@ -248,6 +283,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2017-12-01'
+    says: start
+    text: Chairs changed to Janos Farkas, Lou Berger, Patricia Thaler from Lou Berger, Patricia Thaler
+    url: https://datatracker.ietf.org/group/detnet/history/
   - kind: WG Action
     date: '2020-04-20'
     subject: 'WG Action: Rechartered Deterministic Networking (detnet)'

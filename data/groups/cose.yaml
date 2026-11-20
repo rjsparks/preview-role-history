@@ -37,6 +37,16 @@ chairs:
       certainty: exact
       date: '2018-12-03'
   evidence:
+  - kind: datatracker record
+    date: '2015-06-03'
+    says: start
+    text: Chairs changed to Kepeng Li
+    url: https://datatracker.ietf.org/group/cose/history/
+  - kind: datatracker record
+    date: '2018-12-03'
+    says: end
+    text: Chairs changed to Ivaylo Petrov, Matthew Miller from Justin Richer, Kepeng Li
+    url: https://datatracker.ietf.org/group/cose/history/
   - kind: WG Action
     date: '2015-06-03'
     subject: 'WG Action: Formed CBOR Object Signing and Encryption (cose)'
@@ -92,6 +102,16 @@ chairs:
       certainty: exact
       date: '2024-11-20'
   evidence:
+  - kind: datatracker record
+    date: '2018-12-03'
+    says: start
+    text: Chairs changed to Ivaylo Petrov, Matthew Miller from Justin Richer, Kepeng Li
+    url: https://datatracker.ietf.org/group/cose/history/
+  - kind: datatracker record
+    date: '2024-11-20'
+    says: end
+    text: Chair changed to Ivaylo Petrov, Michael Jones from Ivaylo Petrov, Matthew Miller, Michael Jones
+    url: https://datatracker.ietf.org/group/cose/history/
   - kind: WG Action
     date: '2019-01-03'
     subject: 'WG Action: Rechartered CBOR Object Signing and Encryption (cose)'
@@ -128,6 +148,16 @@ chairs:
       certainty: exact
       date: '2018-12-03'
   evidence:
+  - kind: datatracker record
+    date: '2015-06-03'
+    says: start
+    text: Chairs changed to Justin Richer, Kepeng Li from Kepeng Li
+    url: https://datatracker.ietf.org/group/cose/history/
+  - kind: datatracker record
+    date: '2018-12-03'
+    says: end
+    text: Chairs changed to Ivaylo Petrov, Matthew Miller from Justin Richer, Kepeng Li
+    url: https://datatracker.ietf.org/group/cose/history/
   - kind: WG Action
     date: '2015-06-03'
     subject: 'WG Action: Formed CBOR Object Signing and Encryption (cose)'
@@ -185,6 +215,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2018-12-03'
+    says: start
+    text: Chairs changed to Ivaylo Petrov, Matthew Miller from Justin Richer, Kepeng Li
+    url: https://datatracker.ietf.org/group/cose/history/
   - kind: WG Action
     date: '2019-01-03'
     subject: 'WG Action: Rechartered CBOR Object Signing and Encryption (cose)'
@@ -234,6 +269,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2021-03-05'
+    says: start
+    text: Chair changed to Ivaylo Petrov, Matthew Miller, Mike Jones from Ivaylo Petrov, Matthew Miller
+    url: https://datatracker.ietf.org/group/cose/history/
   - kind: WG Review
     date: '2021-03-31'
     subject: 'WG Review: CBOR Object Signing and Encryption (cose)'

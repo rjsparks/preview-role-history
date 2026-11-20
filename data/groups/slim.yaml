@@ -31,6 +31,11 @@ chairs:
       certainty: group-closed
       date: '2018-10-25'
   evidence:
+  - kind: datatracker record
+    date: '2015-09-28'
+    says: start
+    text: Chairs changed to Bernard Aboba
+    url: https://datatracker.ietf.org/group/slim/history/
   - kind: WG Action
     date: '2015-10-16'
     subject: 'WG Action: Formed Selection of Language for Internet Media (slim)'
@@ -61,6 +66,16 @@ chairs:
       certainty: exact
       date: '2017-11-12'
   evidence:
+  - kind: datatracker record
+    date: '2015-10-05'
+    says: start
+    text: Chairs changed to Bernard Aboba, N Rooney from Bernard Aboba
+    url: https://datatracker.ietf.org/group/slim/history/
+  - kind: datatracker record
+    date: '2017-11-12'
+    says: end
+    text: Chairs changed to Bernard Aboba from Bernard Aboba, Natasha Rooney
+    url: https://datatracker.ietf.org/group/slim/history/
   - kind: WG Action
     date: '2015-10-16'
     subject: 'WG Action: Formed Selection of Language for Internet Media (slim)'

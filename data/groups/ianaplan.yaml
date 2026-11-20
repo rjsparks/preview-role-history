@@ -79,6 +79,16 @@ chairs:
       certainty: exact
       date: '2014-09-08'
   evidence:
+  - kind: datatracker record
+    date: '2014-06-25'
+    says: start
+    text: Chairs changed to Andrew Sullivan, Marc Blanchet from Marc Blanchet
+    url: https://datatracker.ietf.org/group/ianaplan/history/
+  - kind: datatracker record
+    date: '2014-09-08'
+    says: end
+    text: Chairs changed to Leslie Daigle, Marc Blanchet from Andrew Sullivan, Marc Blanchet
+    url: https://datatracker.ietf.org/group/ianaplan/history/
   - kind: chair activity
     first: '2014-07-11'
     last: '2014-07-11'
@@ -101,6 +111,11 @@ chairs:
       certainty: group-closed
       date: '2016-11-15'
   evidence:
+  - kind: datatracker record
+    date: '2014-09-08'
+    says: start
+    text: Chairs changed to Leslie Daigle, Marc Blanchet from Andrew Sullivan, Marc Blanchet
+    url: https://datatracker.ietf.org/group/ianaplan/history/
   - kind: WG Action
     date: '2014-09-08'
     subject: 'WG Action: Formed Planning for the IANA/NTIA Transition (ianaplan)'

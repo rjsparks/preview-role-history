@@ -28,6 +28,17 @@ chairs:
       certainty: exact
       date: '2023-09-05'
   evidence:
+  - kind: datatracker record
+    date: '2019-03-19'
+    says: start
+    text: Chairs changed to Kathleen Moriarty, Roman Danyliw, Richard Barnes from Roman Danyliw, Richard
+      Barnes
+    url: https://datatracker.ietf.org/group/secdispatch/history/
+  - kind: datatracker record
+    date: '2023-09-05'
+    says: end
+    text: Chair changed to Rifaat Shekh-Yusef from Kathleen Moriarty, Rifaat Shekh-Yusef
+    url: https://datatracker.ietf.org/group/secdispatch/history/
   - kind: list message
     date: '2023-10-26'
     says: end
@@ -57,6 +68,17 @@ chairs:
       certainty: exact
       date: '2019-03-27'
   evidence:
+  - kind: datatracker record
+    date: '2018-03-08'
+    says: start
+    text: Chairs changed to Roman Danyliw, Richard Barnes
+    url: https://datatracker.ietf.org/group/secdispatch/history/
+  - kind: datatracker record
+    date: '2019-03-27'
+    says: end
+    text: Chairs changed to Kathleen Moriarty, Richard Barnes from Kathleen Moriarty, Roman Danyliw, Richard
+      Barnes
+    url: https://datatracker.ietf.org/group/secdispatch/history/
   - kind: WG Action
     date: '2018-03-09'
     subject: 'WG Action: Formed Security Dispatch (secdispatch)'
@@ -88,6 +110,17 @@ chairs:
       certainty: exact
       date: '2023-03-26'
   evidence:
+  - kind: datatracker record
+    date: '2018-03-08'
+    says: start
+    text: Chairs changed to Roman Danyliw, Richard Barnes
+    url: https://datatracker.ietf.org/group/secdispatch/history/
+  - kind: datatracker record
+    date: '2023-03-26'
+    says: end
+    text: Chair changed to Kathleen Moriarty, Rifaat Shekh-Yusef from Kathleen Moriarty, Richard Barnes,
+      Rifaat Shekh-Yusef
+    url: https://datatracker.ietf.org/group/secdispatch/history/
   - kind: WG Action
     date: '2018-03-09'
     subject: 'WG Action: Formed Security Dispatch (secdispatch)'
@@ -103,6 +136,12 @@ chairs:
       certainty: group-closed
       date: '2026-08-28'
   evidence:
+  - kind: datatracker record
+    date: '2022-10-27'
+    says: start
+    text: Chair changed to Kathleen Moriarty, Richard Barnes, Rifaat Shekh-Yusef from Kathleen Moriarty,
+      Mohit Sethi, Richard Barnes
+    url: https://datatracker.ietf.org/group/secdispatch/history/
   - kind: chair activity
     first: '2023-10-25'
     last: '2025-10-24'
@@ -125,6 +164,11 @@ chairs:
       certainty: group-closed
       date: '2026-08-28'
   evidence:
+  - kind: datatracker record
+    date: '2023-10-26'
+    says: start
+    text: Chair changed to Daniel Gillmor, Rifaat Shekh-Yusef from Rifaat Shekh-Yusef
+    url: https://datatracker.ietf.org/group/secdispatch/history/
   - kind: list message
     date: '2023-10-26'
     says: start
@@ -143,6 +187,18 @@ chairs:
       certainty: exact
       date: '2022-10-27'
   evidence:
+  - kind: datatracker record
+    date: '2021-03-04'
+    says: start
+    text: Chair changed to Francesca Palombini, Kathleen Moriarty, Mohit Sethi, Richard Barnes from Francesca
+      Palombini, Kathleen Moriarty, Richard Barnes
+    url: https://datatracker.ietf.org/group/secdispatch/history/
+  - kind: datatracker record
+    date: '2022-10-27'
+    says: end
+    text: Chair changed to Kathleen Moriarty, Richard Barnes, Rifaat Shekh-Yusef from Kathleen Moriarty,
+      Mohit Sethi, Richard Barnes
+    url: https://datatracker.ietf.org/group/secdispatch/history/
   - kind: list message
     date: '2021-03-04'
     says: start
@@ -170,6 +226,19 @@ chairs:
     end:
       certainty: exact
       date: '2022-01-18'
+  evidence:
+  - kind: datatracker record
+    date: '2021-11-07'
+    says: start
+    text: Chair changed to Benjamin Kaduk, Kathleen Moriarty, Mohit Sethi, Richard Barnes from Kathleen
+      Moriarty, Mohit Sethi, Richard Barnes
+    url: https://datatracker.ietf.org/group/secdispatch/history/
+  - kind: datatracker record
+    date: '2022-01-18'
+    says: end
+    text: Chair changed to Kathleen Moriarty, Mohit Sethi, Richard Barnes from Benjamin Kaduk, Kathleen
+      Moriarty, Mohit Sethi, Richard Barnes
+    url: https://datatracker.ietf.org/group/secdispatch/history/
 - person: 119822
   name: Francesca Palombini
   status: confirmed
@@ -181,6 +250,18 @@ chairs:
       certainty: exact
       date: '2021-03-11'
   evidence:
+  - kind: datatracker record
+    date: '2019-11-16'
+    says: start
+    text: Chairs changed to Francesca Palombini, Kathleen Moriarty, Richard Barnes from Kathleen Moriarty,
+      Richard Barnes
+    url: https://datatracker.ietf.org/group/secdispatch/history/
+  - kind: datatracker record
+    date: '2021-03-11'
+    says: end
+    text: Chair changed to Kathleen Moriarty, Mohit Sethi, Richard Barnes from Francesca Palombini, Kathleen
+      Moriarty, Mohit Sethi, Richard Barnes
+    url: https://datatracker.ietf.org/group/secdispatch/history/
   - kind: list message
     date: '2021-03-04'
     says: end

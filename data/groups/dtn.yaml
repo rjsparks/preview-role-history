@@ -38,6 +38,36 @@ chairs:
       certainty: exact
       date: '2020-10-30'
   evidence:
+  - kind: datatracker record
+    date: '2014-10-02'
+    says: start
+    text: Chairs changed to Fred Templin, Marc Blanchet
+    url: https://datatracker.ietf.org/group/dtn/history/
+  - kind: datatracker record
+    date: '2014-10-07'
+    says: end
+    text: Chairs changed to from Fred Templin, Marc Blanchet
+    url: https://datatracker.ietf.org/group/dtn/history/
+  - kind: datatracker record
+    date: '2014-10-30'
+    says: start
+    text: Chairs changed to Fred Templin, Marc Blanchet
+    url: https://datatracker.ietf.org/group/dtn/history/
+  - kind: datatracker record
+    date: '2014-10-30'
+    says: end
+    text: Chairs changed to from Fred Templin, Marc Blanchet
+    url: https://datatracker.ietf.org/group/dtn/history/
+  - kind: datatracker record
+    date: '2014-11-07'
+    says: start
+    text: Chairs changed to Brian Haberman, Marc Blanchet
+    url: https://datatracker.ietf.org/group/dtn/history/
+  - kind: datatracker record
+    date: '2020-10-30'
+    says: end
+    text: Chair changed to Edward Birrane, Rick Taylor from Marc Blanchet, Rick Taylor
+    url: https://datatracker.ietf.org/group/dtn/history/
   - kind: WG Action
     date: '2014-11-07'
     subject: 'WG Action: Formed Delay/Disruption Tolerant Networking (dtn)'
@@ -95,6 +125,16 @@ chairs:
       certainty: exact
       date: '2016-06-06'
   evidence:
+  - kind: datatracker record
+    date: '2014-11-07'
+    says: start
+    text: Chairs changed to Brian Haberman, Marc Blanchet
+    url: https://datatracker.ietf.org/group/dtn/history/
+  - kind: datatracker record
+    date: '2016-06-06'
+    says: end
+    text: Chairs changed to Marc Blanchet, Rick Taylor from Rick Taylor, Marc Blanchet, Brian Haberman
+    url: https://datatracker.ietf.org/group/dtn/history/
   - kind: WG Action
     date: '2014-11-07'
     subject: 'WG Action: Formed Delay/Disruption Tolerant Networking (dtn)'
@@ -110,6 +150,26 @@ chairs:
       certainty: exact
       date: '2014-10-07'
   evidence:
+  - kind: datatracker record
+    date: '2014-10-02'
+    says: start
+    text: Chairs changed to Fred Templin, Marc Blanchet
+    url: https://datatracker.ietf.org/group/dtn/history/
+  - kind: datatracker record
+    date: '2014-10-07'
+    says: end
+    text: Chairs changed to from Fred Templin, Marc Blanchet
+    url: https://datatracker.ietf.org/group/dtn/history/
+  - kind: datatracker record
+    date: '2014-10-30'
+    says: start
+    text: Chairs changed to Fred Templin, Marc Blanchet
+    url: https://datatracker.ietf.org/group/dtn/history/
+  - kind: datatracker record
+    date: '2014-10-30'
+    says: end
+    text: Chairs changed to from Fred Templin, Marc Blanchet
+    url: https://datatracker.ietf.org/group/dtn/history/
   - kind: shepherded
     documents:
     - draft-ietf-dtn-bpbis
@@ -123,6 +183,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2020-10-30'
+    says: start
+    text: Chair changed to Edward Birrane, Rick Taylor from Marc Blanchet, Rick Taylor
+    url: https://datatracker.ietf.org/group/dtn/history/
   - kind: WG Review
     date: '2021-11-11'
     subject: 'WG Review: Delay/Disruption Tolerant Networking (dtn)'
@@ -158,6 +223,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2016-04-25'
+    says: start
+    text: Chairs changed to Brian Haberman, Marc Blanchet, Rick Taylor from Brian Haberman, Marc Blanchet
+    url: https://datatracker.ietf.org/group/dtn/history/
   - kind: WG Review
     date: '2021-11-11'
     subject: 'WG Review: Delay/Disruption Tolerant Networking (dtn)'

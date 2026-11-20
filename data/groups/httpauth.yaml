@@ -40,6 +40,11 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2012-07-29)'
   evidence:
+  - kind: datatracker record
+    date: '2013-03-11'
+    says: end
+    text: Chairs changed to Matt Lepinski, Yoav Nir from Yoav Nir, Derek Atkins
+    url: https://datatracker.ietf.org/group/httpauth/history/
   - kind: chair activity
     first: '2012-11-28'
     last: '2012-11-28'
@@ -197,6 +202,16 @@ chairs:
       certainty: exact
       date: '2015-07-23'
   evidence:
+  - kind: datatracker record
+    date: '2013-03-11'
+    says: start
+    text: Chairs changed to Matt Lepinski, Yoav Nir from Yoav Nir, Derek Atkins
+    url: https://datatracker.ietf.org/group/httpauth/history/
+  - kind: datatracker record
+    date: '2015-07-23'
+    says: end
+    text: Chairs changed to Rifaat Shekh-Yusef, Yoav Nir from Matt Lepinski, Yoav Nir
+    url: https://datatracker.ietf.org/group/httpauth/history/
   - kind: WG Action
     date: '2013-03-12'
     subject: 'REVISED WG Action: Formed Hypertext Transfer Protocol Authentication (httpauth)'
@@ -276,6 +291,11 @@ chairs:
       certainty: group-closed
       date: '2017-02-01'
   evidence:
+  - kind: datatracker record
+    date: '2015-07-23'
+    says: start
+    text: Chairs changed to Rifaat Shekh-Yusef, Yoav Nir from Matt Lepinski, Yoav Nir
+    url: https://datatracker.ietf.org/group/httpauth/history/
   - kind: list message
     date: '2015-07-23'
     says: start

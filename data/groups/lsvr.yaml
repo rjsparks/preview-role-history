@@ -28,6 +28,17 @@ chairs:
       certainty: exact
       date: '2026-05-11'
   evidence:
+  - kind: datatracker record
+    date: '2025-02-17'
+    says: start
+    text: Chair changed to Acee Lindem, Jie Dong, Ketan Talaulikar from Jie Dong, Ketan Talaulikar
+    url: https://datatracker.ietf.org/group/lsvr/history/
+  - kind: datatracker record
+    date: '2026-05-11'
+    says: end
+    text: Chair changed to Jie Dong, Krishnaswamy Ananthamurthy from Acee Lindem, Jie Dong, Krishnaswamy
+      Ananthamurthy
+    url: https://datatracker.ietf.org/group/lsvr/history/
   - kind: chair activity
     first: '2025-08-04'
     last: '2025-08-04'
@@ -47,6 +58,11 @@ chairs:
       certainty: exact
       date: '2024-05-01'
   evidence:
+  - kind: datatracker record
+    date: '2024-05-01'
+    says: end
+    text: Chair changed to Jie Dong, Ketan Talaulikar from Gunter Van de Velde, Jie Dong, Ketan Talaulikar
+    url: https://datatracker.ietf.org/group/lsvr/history/
   - kind: WG Review
     date: '2018-02-09'
     subject: 'WG Review: Link State Vector Routing (lsvr)'
@@ -87,6 +103,12 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2024-01-24'
+    says: start
+    text: Chair changed to Gunter Van de Velde, Jie Dong, Ketan Talaulikar from Gunter Van de Velde, Ketan
+      Talaulikar
+    url: https://datatracker.ietf.org/group/lsvr/history/
   - kind: WG Review
     date: '2025-01-23'
     subject: 'WG Review: Link State Vector Routing (lsvr)'
@@ -128,6 +150,12 @@ chairs:
       certainty: exact
       date: '2023-03-26'
   evidence:
+  - kind: datatracker record
+    date: '2023-03-26'
+    says: end
+    text: Chair changed to Gunter Van de Velde, Ketan Talaulikar from Gunter Van de Velde, Ketan Talaulikar,
+      Victor Kuarsingh
+    url: https://datatracker.ietf.org/group/lsvr/history/
   - kind: WG Review
     date: '2018-02-09'
     subject: 'WG Review: Link State Vector Routing (lsvr)'
@@ -165,6 +193,17 @@ chairs:
       certainty: exact
       date: '2025-03-19'
   evidence:
+  - kind: datatracker record
+    date: '2023-02-28'
+    says: start
+    text: Chair changed to Gunter Van de Velde, Ketan Talaulikar, Victor Kuarsingh from Gunter Van de
+      Velde, Victor Kuarsingh
+    url: https://datatracker.ietf.org/group/lsvr/history/
+  - kind: datatracker record
+    date: '2025-03-19'
+    says: end
+    text: Chair changed to Acee Lindem, Jie Dong from Acee Lindem, Jie Dong, Ketan Talaulikar
+    url: https://datatracker.ietf.org/group/lsvr/history/
   - kind: WG Review
     date: '2025-01-23'
     subject: 'WG Review: Link State Vector Routing (lsvr)'
@@ -217,3 +256,9 @@ chairs:
       date: '2026-04-16'
     end:
       certainty: ongoing
+  evidence:
+  - kind: datatracker record
+    date: '2026-04-16'
+    says: start
+    text: Chair changed to Acee Lindem, Jie Dong, Krishnaswamy Ananthamurthy from Acee Lindem, Jie Dong
+    url: https://datatracker.ietf.org/group/lsvr/history/

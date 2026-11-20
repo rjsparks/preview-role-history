@@ -33,6 +33,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2022-02-13'
+    says: start
+    text: Chair changed to Job Snijders, Joel Halpern
+    url: https://datatracker.ietf.org/group/savnet/history/
   - kind: WG Review
     date: '2022-06-03'
     subject: 'WG Review: Source Address Validation in Intra-domain and Inter-domain Networks (savnet)'
@@ -58,6 +63,12 @@ chairs:
       date: '2025-07-30'
     end:
       certainty: ongoing
+  evidence:
+  - kind: datatracker record
+    date: '2025-07-30'
+    says: start
+    text: Chair changed to Aijun Wang, Joel Halpern, Ron Bonica from Aijun Wang, Joel Halpern
+    url: https://datatracker.ietf.org/group/savnet/history/
 - person: 111303
   name: Job Snijders
   status: confirmed
@@ -68,6 +79,17 @@ chairs:
     end:
       certainty: exact
       date: '2022-05-13'
+  evidence:
+  - kind: datatracker record
+    date: '2022-02-13'
+    says: start
+    text: Chair changed to Job Snijders, Joel Halpern
+    url: https://datatracker.ietf.org/group/savnet/history/
+  - kind: datatracker record
+    date: '2022-05-13'
+    says: end
+    text: Chair changed to Joel Halpern from Job Snijders, Joel Halpern
+    url: https://datatracker.ietf.org/group/savnet/history/
 - person: 111366
   name: Aijun Wang
   status: confirmed
@@ -79,6 +101,16 @@ chairs:
       certainty: exact
       date: '2025-11-13'
   evidence:
+  - kind: datatracker record
+    date: '2022-06-09'
+    says: start
+    text: Chair changed to Aijun Wang, Joel Halpern from Joel Halpern
+    url: https://datatracker.ietf.org/group/savnet/history/
+  - kind: datatracker record
+    date: '2025-11-13'
+    says: end
+    text: Chair changed to Joel Halpern, Ron Bonica from Aijun Wang, Joel Halpern, Ron Bonica
+    url: https://datatracker.ietf.org/group/savnet/history/
   - kind: WG Action
     date: '2022-06-17'
     subject: 'WG Action: Formed Source Address Validation in Intra-domain and Inter-domain Networks (savnet)'

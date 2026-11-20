@@ -27,6 +27,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2024-01-30'
+    says: start
+    text: Chair changed to Benoît Claise, Mohamed Boucadair
+    url: https://datatracker.ietf.org/group/nmop/history/
   - kind: WG Action
     date: '2024-02-02'
     subject: 'WG Action: Formed Network Management Operations (nmop)'
@@ -64,6 +69,12 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2025-02-13'
+    says: start
+    text: Chair changed to Benoît Claise, Mohamed Boucadair, Reshad Rahman from Benoît Claise, Mohamed
+      Boucadair
+    url: https://datatracker.ietf.org/group/nmop/history/
   - kind: list message
     date: '2025-02-13'
     says: start
@@ -104,6 +115,17 @@ chairs:
       certainty: exact
       date: '2025-03-19'
   evidence:
+  - kind: datatracker record
+    date: '2024-01-30'
+    says: start
+    text: Chair changed to Benoît Claise, Mohamed Boucadair
+    url: https://datatracker.ietf.org/group/nmop/history/
+  - kind: datatracker record
+    date: '2025-03-19'
+    says: end
+    text: Chair changed to Benoît Claise, Reshad Rahman from Benoît Claise, Mohamed Boucadair, Reshad
+      Rahman
+    url: https://datatracker.ietf.org/group/nmop/history/
   - kind: WG Action
     date: '2024-02-02'
     subject: 'WG Action: Formed Network Management Operations (nmop)'

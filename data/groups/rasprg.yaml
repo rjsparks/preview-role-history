@@ -24,6 +24,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2024-07-25'
+    says: start
+    text: Chair changed to Alvaro Retana, Ignacio Castro from Ignacio Castro, Niels ten Oever
+    url: https://datatracker.ietf.org/group/rasprg/history/
   - kind: chair activity
     first: '2026-09-01'
     last: '2026-09-01'
@@ -43,6 +48,16 @@ chairs:
       certainty: exact
       date: '2024-07-25'
   evidence:
+  - kind: datatracker record
+    date: '2023-01-27'
+    says: start
+    text: Chair changed to Ignacio Castro, Niels ten Oever
+    url: https://datatracker.ietf.org/group/rasprg/history/
+  - kind: datatracker record
+    date: '2024-07-25'
+    says: end
+    text: Chair changed to Alvaro Retana, Ignacio Castro from Ignacio Castro, Niels ten Oever
+    url: https://datatracker.ietf.org/group/rasprg/history/
   - kind: list message
     date: '2024-07-26'
     says: end
@@ -68,6 +83,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2023-01-27'
+    says: start
+    text: Chair changed to Ignacio Castro, Niels ten Oever
+    url: https://datatracker.ietf.org/group/rasprg/history/
   - kind: chair activity
     first: '2023-04-12'
     last: '2026-09-14'

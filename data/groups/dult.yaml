@@ -33,6 +33,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2023-07-04'
+    says: start
+    text: Chair changed to Alissa Cooper, Sean Turner from Alissa Cooper
+    url: https://datatracker.ietf.org/group/dult/history/
   - kind: WG Review
     date: '2024-02-16'
     subject: 'WG Review: Detecting Unwanted Location Trackers (dult)'
@@ -65,6 +70,17 @@ chairs:
     end:
       certainty: exact
       date: '2024-02-09'
+  evidence:
+  - kind: datatracker record
+    date: '2023-06-26'
+    says: start
+    text: Chair changed to Alissa Cooper
+    url: https://datatracker.ietf.org/group/dult/history/
+  - kind: datatracker record
+    date: '2024-02-09'
+    says: end
+    text: Chair changed to Sean Turner from Alissa Cooper, Sean Turner
+    url: https://datatracker.ietf.org/group/dult/history/
 - person: 138801
   name: Erica Olsen
   status: confirmed
@@ -75,6 +91,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2024-02-21'
+    says: start
+    text: Chair changed to Erica Olsen, Sean Turner from Sean Turner
+    url: https://datatracker.ietf.org/group/dult/history/
   - kind: WG Action
     date: '2024-02-29'
     subject: 'WG Action: Formed Detecting Unwanted Location Trackers (dult)'

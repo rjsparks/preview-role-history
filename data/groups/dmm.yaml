@@ -27,6 +27,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2017-02-16'
+    says: start
+    text: Chairs changed to Jouni Korhonen, Dapeng Liu, Sri Gundavelli from Dapeng Liu, Jouni Korhonen
+    url: https://datatracker.ietf.org/group/dmm/history/
   - kind: list message
     date: '2016-12-13'
     says: start
@@ -89,6 +94,11 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2013-03-10)'
   evidence:
+  - kind: datatracker record
+    date: '2013-12-23'
+    says: end
+    text: Chairs changed to Jouni Korhonen, Dapeng Liu from Julien Laganier, Jouni Korhonen, Dapeng Liu
+    url: https://datatracker.ietf.org/group/dmm/history/
   - kind: proceedings
     listed_in: 6
     first: '2011-11-13'
@@ -123,6 +133,11 @@ chairs:
       certainty: exact
       date: '2023-07-04'
   evidence:
+  - kind: datatracker record
+    date: '2023-07-04'
+    says: end
+    text: Chair changed to Satoru Matsushima, Sri Gundavelli from Dapeng Liu, Satoru Matsushima, Sri Gundavelli
+    url: https://datatracker.ietf.org/group/dmm/history/
   - kind: WG Review
     date: '2014-10-03'
     subject: 'WG Review: Distributed Mobility Management (dmm)'
@@ -205,6 +220,11 @@ chairs:
     notes:
     - 'Start: posted an agenda, minutes or interim notice to the group''s list (2013-02-27)'
   evidence:
+  - kind: datatracker record
+    date: '2017-09-25'
+    says: end
+    text: Chairs changed to Dapeng Liu, Sri Gundavelli from Dapeng Liu, Jouni Korhonen, Sri Gundavelli
+    url: https://datatracker.ietf.org/group/dmm/history/
   - kind: WG Review
     date: '2014-10-03'
     subject: 'WG Review: Distributed Mobility Management (dmm)'
@@ -276,6 +296,12 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2019-08-06'
+    says: start
+    text: Chairs changed to Dapeng Liu, Satoru Matsushima, Sri Gundavelli from Sri Gundavelli, Dapeng
+      Liu
+    url: https://datatracker.ietf.org/group/dmm/history/
   - kind: chair activity
     first: '2019-10-22'
     last: '2025-03-08'

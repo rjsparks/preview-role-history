@@ -185,6 +185,17 @@ chairs:
       certainty: exact
       date: '2019-11-04'
   evidence:
+  - kind: datatracker record
+    date: '2016-07-27'
+    says: start
+    text: Chairs changed to Mark Nottingham, Patrick McManus from Mark Nottingham
+    url: https://datatracker.ietf.org/group/httpbis/history/
+  - kind: datatracker record
+    date: '2019-11-04'
+    says: end
+    text: Chairs changed to Mark Nottingham, Tommy Pauly from Mark Nottingham, Patrick McManus, Tommy
+      Pauly
+    url: https://datatracker.ietf.org/group/httpbis/history/
   - kind: WG Review
     date: '2018-11-21'
     subject: 'WG Review: Hypertext Transfer Protocol (httpbis)'
@@ -223,6 +234,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2018-11-05'
+    says: start
+    text: Chairs changed to Mark Nottingham, Patrick McManus, Tommy Pauly from Patrick McManus, Mark Nottingham
+    url: https://datatracker.ietf.org/group/httpbis/history/
   - kind: WG Review
     date: '2018-11-21'
     subject: 'WG Review: Hypertext Transfer Protocol (httpbis)'

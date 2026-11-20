@@ -175,6 +175,11 @@ chairs:
       certainty: exact
       date: '2015-07-12'
   evidence:
+  - kind: datatracker record
+    date: '2015-07-12'
+    says: end
+    text: Chairs changed to Alexey Melnikov, Kenny Paterson from Kenny Paterson, Kevin Igoe, Alexey Melnikov
+    url: https://datatracker.ietf.org/group/cfrg/history/
   - kind: minutes
     listed_in: 5
     first: '2013-07-28'
@@ -218,6 +223,12 @@ chairs:
     - 'Start: not listed among the chairs in meeting minutes (2014-03-02)'
     - 'Start: listed as chair in meeting minutes (2014-07-20)'
   evidence:
+  - kind: datatracker record
+    date: '2020-01-14'
+    says: end
+    text: Chairs changed to Alexey Melnikov, Nick Sullivan, Stanislav Smyshlyaev from Alexey Melnikov,
+      Kenny Paterson, Nick Sullivan
+    url: https://datatracker.ietf.org/group/cfrg/history/
   - kind: minutes
     listed_in: 8
     first: '2014-07-20'
@@ -263,6 +274,12 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2020-01-14'
+    says: start
+    text: Chairs changed to Alexey Melnikov, Nick Sullivan, Stanislav Smyshlyaev from Alexey Melnikov,
+      Kenny Paterson, Nick Sullivan
+    url: https://datatracker.ietf.org/group/cfrg/history/
   - kind: shepherded
     documents:
     - draft-fluhrer-lms-more-parm-sets
@@ -287,6 +304,12 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2019-05-01'
+    says: start
+    text: Chairs changed to Alexey Melnikov, Kenny Paterson, Nick Sullivan from Kenny Paterson, Alexey
+      Melnikov
+    url: https://datatracker.ietf.org/group/cfrg/history/
   - kind: shepherded
     documents:
     - draft-irtf-cfrg-frost

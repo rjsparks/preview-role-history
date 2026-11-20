@@ -55,6 +55,16 @@ chairs:
       certainty: exact
       date: '2013-11-12'
   evidence:
+  - kind: datatracker record
+    date: '2013-02-21'
+    says: start
+    text: Chairs changed to Sharon Boeyen, Tim Moses from Tim Moses
+    url: https://datatracker.ietf.org/group/wpkops/history/
+  - kind: datatracker record
+    date: '2013-11-12'
+    says: end
+    text: Chairs changed to Jeremy Rowley, Tim Moses from Sharon Boeyen, Jeremy Rowley, Tim Moses
+    url: https://datatracker.ietf.org/group/wpkops/history/
   - kind: WG Action
     date: '2013-02-26'
     subject: 'WG Action: Formed Web PKI OPS (wpkops)'
@@ -151,6 +161,11 @@ chairs:
       certainty: group-closed
       date: '2015-05-22'
   evidence:
+  - kind: datatracker record
+    date: '2013-04-03'
+    says: start
+    text: Chairs changed to Jeremy Rowley, Sharon Boeyen, Tim Moses from Sharon Boeyen, Tim Moses
+    url: https://datatracker.ietf.org/group/wpkops/history/
   - kind: chair activity
     first: '2013-05-31'
     last: '2013-05-31'

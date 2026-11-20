@@ -31,6 +31,11 @@ chairs:
       certainty: group-closed
       date: '2018-03-19'
   evidence:
+  - kind: datatracker record
+    date: '2014-09-25'
+    says: start
+    text: Chairs changed to Jon Hudson, Susan Hares from Jon Hudson, Donald Eastlake
+    url: https://datatracker.ietf.org/group/trill/history/
   - kind: list message
     date: '2014-02-18'
     says: end
@@ -121,6 +126,11 @@ chairs:
     - 'Start: became an Area Director, first serving at IETF 44 (1999-03-14)'
     - 'Start: listed as chair in a proceedings charter snapshot (2005-02-07)'
   evidence:
+  - kind: datatracker record
+    date: '2014-02-17'
+    says: end
+    text: Chairs changed to Donald Eastlake, Jon Hudson from Donald Eastlake, Erik Nordmark
+    url: https://datatracker.ietf.org/group/trill/history/
   - kind: WG Action
     date: '2005-06-29'
     subject: 'WG Action: Transparent Interconnection of Lots of Links (trill)'
@@ -219,6 +229,11 @@ chairs:
     - 'End: started a last call or adoption call on the group''s list (2018-02-15)'
     - 'End: the group closed (2018-03-19)'
   evidence:
+  - kind: datatracker record
+    date: '2014-09-25'
+    says: end
+    text: Chairs changed to Jon Hudson, Susan Hares from Jon Hudson, Donald Eastlake
+    url: https://datatracker.ietf.org/group/trill/history/
   - kind: WG Review
     date: '2010-07-22'
     subject: 'WG Review: Recharter of Transparent Interconnection of Lots of Links (trill)'
@@ -330,6 +345,11 @@ chairs:
       certainty: group-closed
       date: '2018-03-19'
   evidence:
+  - kind: datatracker record
+    date: '2014-02-17'
+    says: start
+    text: Chairs changed to Donald Eastlake, Jon Hudson from Donald Eastlake, Erik Nordmark
+    url: https://datatracker.ietf.org/group/trill/history/
   - kind: minutes
     listed_in: 5
     first: '2014-11-09'

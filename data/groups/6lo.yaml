@@ -37,6 +37,16 @@ chairs:
       certainty: exact
       date: '2014-12-16'
   evidence:
+  - kind: datatracker record
+    date: '2014-09-29'
+    says: start
+    text: Chairs changed to Ralph Droms, Samita Chakrabarti from Ulrich Herberg, Samita Chakrabarti
+    url: https://datatracker.ietf.org/group/6lo/history/
+  - kind: datatracker record
+    date: '2014-12-16'
+    says: end
+    text: Chairs changed to Gabriel Montenegro, Samita Chakrabarti from Samita Chakrabarti, Ralph Droms
+    url: https://datatracker.ietf.org/group/6lo/history/
   - kind: list message
     date: '2014-10-01'
     says: start
@@ -71,6 +81,16 @@ chairs:
       certainty: exact
       date: '2019-01-29'
   evidence:
+  - kind: datatracker record
+    date: '2013-09-18'
+    says: start
+    text: Chairs changed to Samita Chakrabarti, Ulrich Herberg
+    url: https://datatracker.ietf.org/group/6lo/history/
+  - kind: datatracker record
+    date: '2019-01-29'
+    says: end
+    text: Chairs changed to Carles Gomez, Shwetha Bhandari from Samita Chakrabarti, Gabriel Montenegro
+    url: https://datatracker.ietf.org/group/6lo/history/
   - kind: WG Review
     date: '2013-09-23'
     subject: 'WG Review: IPv6 over Networks of Resource-constrained Nodes (6lo)'
@@ -149,6 +169,12 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2026-07-24'
+    says: start
+    text: Chair changed to Carles Gomez, Laurent Toutain, Shwetha Bhandari from Carles Gomez, Shwetha
+      Bhandari
+    url: https://datatracker.ietf.org/group/6lo/history/
   - kind: list message
     date: '2026-07-24'
     says: start
@@ -166,6 +192,16 @@ chairs:
       certainty: exact
       date: '2019-01-29'
   evidence:
+  - kind: datatracker record
+    date: '2014-12-16'
+    says: start
+    text: Chairs changed to Gabriel Montenegro, Samita Chakrabarti from Samita Chakrabarti, Ralph Droms
+    url: https://datatracker.ietf.org/group/6lo/history/
+  - kind: datatracker record
+    date: '2019-01-29'
+    says: end
+    text: Chairs changed to Carles Gomez, Shwetha Bhandari from Samita Chakrabarti, Gabriel Montenegro
+    url: https://datatracker.ietf.org/group/6lo/history/
   - kind: list message
     date: '2019-01-25'
     says: end
@@ -223,6 +259,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2019-01-29'
+    says: start
+    text: Chairs changed to Carles Gomez, Shwetha Bhandari from Samita Chakrabarti, Gabriel Montenegro
+    url: https://datatracker.ietf.org/group/6lo/history/
   - kind: WG Action
     date: '2024-12-19'
     subject: 'WG Action: Rechartered IPv6 over Networks of Resource-constrained Nodes (6lo)'
@@ -273,6 +314,16 @@ chairs:
       certainty: exact
       date: '2014-09-29'
   evidence:
+  - kind: datatracker record
+    date: '2013-09-18'
+    says: start
+    text: Chairs changed to Samita Chakrabarti, Ulrich Herberg
+    url: https://datatracker.ietf.org/group/6lo/history/
+  - kind: datatracker record
+    date: '2014-09-29'
+    says: end
+    text: Chairs changed to Ralph Droms, Samita Chakrabarti from Ulrich Herberg, Samita Chakrabarti
+    url: https://datatracker.ietf.org/group/6lo/history/
   - kind: WG Review
     date: '2013-09-23'
     subject: 'WG Review: IPv6 over Networks of Resource-constrained Nodes (6lo)'
@@ -340,6 +391,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2019-01-29'
+    says: start
+    text: Chairs changed to Carles Gomez, Shwetha Bhandari from Samita Chakrabarti, Gabriel Montenegro
+    url: https://datatracker.ietf.org/group/6lo/history/
   - kind: WG Action
     date: '2024-12-19'
     subject: 'WG Action: Rechartered IPv6 over Networks of Resource-constrained Nodes (6lo)'

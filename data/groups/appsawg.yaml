@@ -86,6 +86,23 @@ chairs:
       certainty: exact
       date: '2016-03-15'
   evidence:
+  - kind: datatracker record
+    date: '2012-07-03'
+    says: end
+    text: Chairs changed to Salvatore Loreto, Murray Kucherawy from Salvatore Loreto, Alexey Melnikov,
+      Murray Kucherawy
+    url: https://datatracker.ietf.org/group/appsawg/history/
+  - kind: datatracker record
+    date: '2014-07-16'
+    says: start
+    text: Chairs changed to Alexey Melnikov, Salvatore Loreto, Murray Kucherawy from Murray Kucherawy,
+      Salvatore Loreto
+    url: https://datatracker.ietf.org/group/appsawg/history/
+  - kind: datatracker record
+    date: '2016-03-15'
+    says: end
+    text: Chairs changed to Murray Kucherawy from Murray Kucherawy, Alexey Melnikov
+    url: https://datatracker.ietf.org/group/appsawg/history/
   - kind: proceedings
     listed_in: 7
     first: '2011-07-24'
@@ -205,6 +222,18 @@ chairs:
       certainty: exact
       date: '2014-07-29'
   evidence:
+  - kind: datatracker record
+    date: '2012-06-22'
+    says: start
+    text: Chairs changed to Alexey Melnikov, Salvatore Loreto, Murray Kucherawy from Alexey Melnikov,
+      Murray Kucherawy
+    url: https://datatracker.ietf.org/group/appsawg/history/
+  - kind: datatracker record
+    date: '2014-07-29'
+    says: end
+    text: Chairs changed to Alexey Melnikov, Murray Kucherawy from Salvatore Loreto, Alexey Melnikov,
+      Murray Kucherawy
+    url: https://datatracker.ietf.org/group/appsawg/history/
   - kind: proceedings
     listed_in: 6
     first: '2012-07-29'

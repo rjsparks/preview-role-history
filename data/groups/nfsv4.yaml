@@ -238,6 +238,11 @@ chairs:
     - 'Start: not listed among the chairs in meeting minutes (2003-03-16)'
     - 'Start: posted an agenda, minutes or interim notice to the group''s list (2003-04-30)'
   evidence:
+  - kind: datatracker record
+    date: '2019-11-21'
+    says: end
+    text: Chairs changed to Brian Pawlowski, David Noveck from Brian Pawlowski, Spencer Shepler
+    url: https://datatracker.ietf.org/group/nfsv4/history/
   - kind: WG Review
     date: '2009-03-04'
     subject: 'WG Review: Recharter of Network File System Version 4 (nfsv4)'
@@ -385,6 +390,17 @@ chairs:
     - 'Start: posted an agenda, minutes or interim notice to the group''s list (2024-07-04)'
     - 'End: started a last call or adoption call on the group''s list (2026-07-06)'
   evidence:
+  - kind: datatracker record
+    date: '2019-11-21'
+    says: start
+    text: Chairs changed to Brian Pawlowski, David Noveck from Brian Pawlowski, Spencer Shepler
+    url: https://datatracker.ietf.org/group/nfsv4/history/
+  - kind: datatracker record
+    date: '2023-11-21'
+    says: end
+    text: Chair changed to Brian Pawlowski, Christopher Inacio from Brian Pawlowski, Christopher Inacio,
+      David Noveck
+    url: https://datatracker.ietf.org/group/nfsv4/history/
   - kind: WG Review
     date: '2020-07-17'
     subject: 'WG Review: Network File System Version 4 (nfsv4)'
@@ -442,6 +458,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2026-06-10'
+    says: start
+    text: Chair changed to Brian Pawlowski, Chuck Lever from Brian Pawlowski
+    url: https://datatracker.ietf.org/group/nfsv4/history/
   - kind: chair activity
     first: '2016-03-22'
     last: '2026-07-30'
@@ -475,6 +496,17 @@ chairs:
       certainty: exact
       date: '2026-05-04'
   evidence:
+  - kind: datatracker record
+    date: '2022-11-02'
+    says: start
+    text: Chair changed to Brian Pawlowski, Christopher Inacio, David Noveck from Brian Pawlowski, David
+      Noveck
+    url: https://datatracker.ietf.org/group/nfsv4/history/
+  - kind: datatracker record
+    date: '2026-05-04'
+    says: end
+    text: Chair changed to Brian Pawlowski from Brian Pawlowski, Christopher Inacio
+    url: https://datatracker.ietf.org/group/nfsv4/history/
   - kind: list message
     date: '2022-11-02'
     says: start

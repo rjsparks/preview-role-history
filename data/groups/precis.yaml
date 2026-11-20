@@ -119,6 +119,16 @@ chairs:
       certainty: exact
       date: '2016-03-15'
   evidence:
+  - kind: datatracker record
+    date: '2015-03-22'
+    says: start
+    text: Chairs changed to Alexey Melnikov, Marc Blanchet from Marc Blanchet, Yoshiro Yoneya
+    url: https://datatracker.ietf.org/group/precis/history/
+  - kind: datatracker record
+    date: '2016-03-15'
+    says: end
+    text: Chairs changed to Marc Blanchet from Marc Blanchet, Alexey Melnikov
+    url: https://datatracker.ietf.org/group/precis/history/
   - kind: list message
     date: '2015-01-27'
     says: start
@@ -169,6 +179,11 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2010-03-21)'
   evidence:
+  - kind: datatracker record
+    date: '2015-03-22'
+    says: end
+    text: Chairs changed to Alexey Melnikov, Marc Blanchet from Marc Blanchet, Yoshiro Yoneya
+    url: https://datatracker.ietf.org/group/precis/history/
   - kind: WG Action
     date: '2010-06-11'
     subject: 'WG Action: Preparation and Comparison of Internationalized Strings (precis)'

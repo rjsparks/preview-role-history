@@ -63,6 +63,16 @@ chairs:
       certainty: exact
       date: '2025-07-20'
   evidence:
+  - kind: datatracker record
+    date: '2015-11-16'
+    says: start
+    text: Chairs changed to Lisandro Granville, Laurent Ciavaglia from Lisandro Granville
+    url: https://datatracker.ietf.org/group/nmrg/history/
+  - kind: datatracker record
+    date: '2025-07-20'
+    says: end
+    text: Chair changed to Jéferson Nobre, Jérôme François from Jérôme François, Laurent Ciavaglia
+    url: https://datatracker.ietf.org/group/nmrg/history/
   - kind: list message
     date: '2015-11-16'
     says: start
@@ -130,6 +140,11 @@ chairs:
       certainty: exact
       date: '2015-11-03'
   evidence:
+  - kind: datatracker record
+    date: '2015-11-03'
+    says: end
+    text: Chairs changed to Lisandro Granville from Lisandro Granville, Olivier Festor
+    url: https://datatracker.ietf.org/group/nmrg/history/
   - kind: chair activity
     first: '2013-11-30'
     last: '2013-11-30'
@@ -177,6 +192,11 @@ chairs:
       certainty: exact
       date: '2018-08-16'
   evidence:
+  - kind: datatracker record
+    date: '2018-08-16'
+    says: end
+    text: Chairs changed to Laurent Ciavaglia from Laurent Ciavaglia, Lisandro Granville
+    url: https://datatracker.ietf.org/group/nmrg/history/
   - kind: list message
     date: '2018-06-21'
     says: end
@@ -226,6 +246,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2025-07-20'
+    says: start
+    text: Chair changed to Jéferson Nobre, Jérôme François from Jérôme François, Laurent Ciavaglia
+    url: https://datatracker.ietf.org/group/nmrg/history/
   - kind: list message
     date: '2025-07-20'
     says: start
@@ -327,6 +352,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2019-05-08'
+    says: start
+    text: Chairs changed to Jérôme François, Laurent Ciavaglia from Laurent Ciavaglia
+    url: https://datatracker.ietf.org/group/nmrg/history/
   - kind: list message
     date: '2019-05-07'
     says: start

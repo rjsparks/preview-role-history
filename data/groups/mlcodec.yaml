@@ -28,6 +28,16 @@ chairs:
       certainty: exact
       date: '2023-07-26'
   evidence:
+  - kind: datatracker record
+    date: '2023-06-22'
+    says: start
+    text: Chair changed to Timothy Terriberry
+    url: https://datatracker.ietf.org/group/mlcodec/history/
+  - kind: datatracker record
+    date: '2023-07-26'
+    says: end
+    text: Chair changed to Gregory Maxwell, Mo Zanaty from Gregory Maxwell, Timothy Terriberry
+    url: https://datatracker.ietf.org/group/mlcodec/history/
   - kind: WG Action
     date: '2023-06-26'
     subject: 'WG Action: Formed Machine Learning for Audio Coding (mlcodec)'
@@ -49,6 +59,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2023-07-26'
+    says: start
+    text: Chair changed to Gregory Maxwell, Mo Zanaty from Gregory Maxwell, Timothy Terriberry
+    url: https://datatracker.ietf.org/group/mlcodec/history/
   - kind: list message
     date: '2023-07-26'
     says: start
@@ -79,6 +94,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2023-06-27'
+    says: start
+    text: Chair changed to Gregory Maxwell, Timothy Terriberry from Timothy Terriberry
+    url: https://datatracker.ietf.org/group/mlcodec/history/
   - kind: chair activity
     first: '2023-08-05'
     last: '2023-08-05'

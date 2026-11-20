@@ -31,6 +31,17 @@ chairs:
     end:
       certainty: exact
       date: '2026-04-27'
+  evidence:
+  - kind: datatracker record
+    date: '2026-03-03'
+    says: start
+    text: Chair changed to Alvaro Retana, Suresh Krishnan
+    url: https://datatracker.ietf.org/group/onsen/history/
+  - kind: datatracker record
+    date: '2026-04-27'
+    says: end
+    text: Chair changed to Ian Farrer, Mithun Valaphil from Alvaro Retana, Suresh Krishnan
+    url: https://datatracker.ietf.org/group/onsen/history/
 - person: 109802
   name: Alvaro Retana
   status: confirmed
@@ -41,6 +52,17 @@ chairs:
     end:
       certainty: exact
       date: '2026-04-27'
+  evidence:
+  - kind: datatracker record
+    date: '2026-03-03'
+    says: start
+    text: Chair changed to Alvaro Retana, Suresh Krishnan
+    url: https://datatracker.ietf.org/group/onsen/history/
+  - kind: datatracker record
+    date: '2026-04-27'
+    says: end
+    text: Chair changed to Ian Farrer, Mithun Valaphil from Alvaro Retana, Suresh Krishnan
+    url: https://datatracker.ietf.org/group/onsen/history/
 - person: 113585
   name: Ian Farrer
   status: confirmed
@@ -51,6 +73,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2026-04-27'
+    says: start
+    text: Chair changed to Ian Farrer, Mithun Valaphil from Alvaro Retana, Suresh Krishnan
+    url: https://datatracker.ietf.org/group/onsen/history/
   - kind: WG Review
     date: '2026-05-26'
     subject: 'WG Review: Operationalizing Network & SErvice abstractioNs (onsen)'
@@ -69,6 +96,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2026-04-27'
+    says: start
+    text: Chair changed to Ian Farrer, Mithun Valaphil from Alvaro Retana, Suresh Krishnan
+    url: https://datatracker.ietf.org/group/onsen/history/
   - kind: WG Review
     date: '2026-05-26'
     subject: 'WG Review: Operationalizing Network & SErvice abstractioNs (onsen)'

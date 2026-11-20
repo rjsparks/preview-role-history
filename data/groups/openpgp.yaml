@@ -176,6 +176,11 @@ chairs:
       certainty: approximate
       date: '2017-11-12'
   evidence:
+  - kind: datatracker record
+    date: '2016-06-23'
+    says: start
+    text: Chairs changed to Barry Leiba, Daniel Gillmor from Daniel Gillmor, Christopher Liljenstolpe
+    url: https://datatracker.ietf.org/group/openpgp/history/
   - kind: chair activity
     first: '2016-07-29'
     last: '2016-07-29'
@@ -223,6 +228,11 @@ chairs:
       certainty: exact
       date: '2016-06-23'
   evidence:
+  - kind: datatracker record
+    date: '2016-06-23'
+    says: end
+    text: Chairs changed to Barry Leiba, Daniel Gillmor from Daniel Gillmor, Christopher Liljenstolpe
+    url: https://datatracker.ietf.org/group/openpgp/history/
   - kind: WG Review
     date: '2015-06-15'
     subject: 'WG Review: Open Specification for Pretty Good Privacy (openpgp)'

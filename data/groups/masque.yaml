@@ -36,6 +36,17 @@ chairs:
     end:
       certainty: exact
       date: '2020-05-11'
+  evidence:
+  - kind: datatracker record
+    date: '2020-02-18'
+    says: start
+    text: Chairs changed to Christopher Wood, Jana Iyengar from Christopher Wood
+    url: https://datatracker.ietf.org/group/masque/history/
+  - kind: datatracker record
+    date: '2020-05-11'
+    says: end
+    text: Chairs changed to Christopher Wood, Eric Kinnear from Christopher Wood, Eric Kinnear, Jana Iyengar
+    url: https://datatracker.ietf.org/group/masque/history/
 - person: 121595
   name: Christopher Wood
   status: confirmed
@@ -47,6 +58,11 @@ chairs:
       certainty: exact
       date: '2023-11-14'
   evidence:
+  - kind: datatracker record
+    date: '2023-11-14'
+    says: end
+    text: Chair changed to Dennis Jackson, Eric Kinnear from Christopher Wood, Dennis Jackson, Eric Kinnear
+    url: https://datatracker.ietf.org/group/masque/history/
   - kind: WG Review
     date: '2020-05-22'
     subject: 'WG Review: Multiplexed Application Substrate over QUIC Encryption (masque)'
@@ -97,6 +113,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2025-02-18'
+    says: start
+    text: Chair changed to Dennis Jackson, Eric Kinnear, Marten Seemann from Dennis Jackson, Eric Kinnear
+    url: https://datatracker.ietf.org/group/masque/history/
   - kind: WG Review
     date: '2026-10-07'
     subject: 'WG Review: Multiplexed Application Substrate over QUIC Encryption (masque)'
@@ -136,6 +157,16 @@ chairs:
       certainty: exact
       date: '2025-07-19'
   evidence:
+  - kind: datatracker record
+    date: '2020-04-22'
+    says: start
+    text: Chairs changed to Christopher Wood, Eric Kinnear, Jana Iyengar from Christopher Wood, Jana Iyengar
+    url: https://datatracker.ietf.org/group/masque/history/
+  - kind: datatracker record
+    date: '2025-07-19'
+    says: end
+    text: Chair changed to Dennis Jackson, Marten Seemann from Dennis Jackson, Eric Kinnear, Marten Seemann
+    url: https://datatracker.ietf.org/group/masque/history/
   - kind: WG Review
     date: '2020-05-22'
     subject: 'WG Review: Multiplexed Application Substrate over QUIC Encryption (masque)'
@@ -193,6 +224,12 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2023-11-07'
+    says: start
+    text: Chair changed to Christopher Wood, Dennis Jackson, Eric Kinnear from Christopher Wood, Eric
+      Kinnear
+    url: https://datatracker.ietf.org/group/masque/history/
   - kind: WG Review
     date: '2024-02-29'
     subject: 'WG Review: Multiplexed Application Substrate over QUIC Encryption (masque)'

@@ -33,6 +33,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2023-02-22'
+    says: start
+    text: Chair changed to Brian Rosen, Spencer Dawkins
+    url: https://datatracker.ietf.org/group/vcon/history/
   - kind: WG Review
     date: '2023-10-25'
     subject: 'WG Review: vCon (vcon)'
@@ -60,6 +65,16 @@ chairs:
       certainty: exact
       date: '2023-09-21'
   evidence:
+  - kind: datatracker record
+    date: '2023-02-22'
+    says: start
+    text: Chair changed to Brian Rosen, Spencer Dawkins
+    url: https://datatracker.ietf.org/group/vcon/history/
+  - kind: datatracker record
+    date: '2023-09-21'
+    says: end
+    text: Chair changed to Brian Rosen from Brian Rosen, Spencer Dawkins
+    url: https://datatracker.ietf.org/group/vcon/history/
   - kind: chair activity
     first: '2023-04-05'
     last: '2023-04-05'
@@ -78,6 +93,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2023-10-17'
+    says: start
+    text: Chair changed to Brian Rosen, Chris Wendt from Brian Rosen
+    url: https://datatracker.ietf.org/group/vcon/history/
   - kind: WG Review
     date: '2023-10-25'
     subject: 'WG Review: vCon (vcon)'

@@ -127,6 +127,11 @@ chairs:
     notes:
     - 'Start: announced on the group''s list (2009-04-16)'
   evidence:
+  - kind: datatracker record
+    date: '2013-03-12'
+    says: end
+    text: Chairs changed to Tomek Mrugalski, Bernie Volz from Ted Lemon, John Brzozowski, Bernie Volz
+    url: https://datatracker.ietf.org/group/dhc/history/
   - kind: list message
     date: '2009-04-16'
     says: start
@@ -388,6 +393,11 @@ chairs:
     notes:
     - 'Start: announced on the group''s list (2008-01-22)'
   evidence:
+  - kind: datatracker record
+    date: '2013-03-12'
+    says: end
+    text: Chairs changed to Tomek Mrugalski, Bernie Volz from Ted Lemon, John Brzozowski, Bernie Volz
+    url: https://datatracker.ietf.org/group/dhc/history/
   - kind: list message
     date: '2008-01-22'
     says: start
@@ -475,6 +485,16 @@ chairs:
       certainty: exact
       date: '2020-06-09'
   evidence:
+  - kind: datatracker record
+    date: '2013-03-12'
+    says: start
+    text: Chairs changed to Tomek Mrugalski, Bernie Volz from Ted Lemon, John Brzozowski, Bernie Volz
+    url: https://datatracker.ietf.org/group/dhc/history/
+  - kind: datatracker record
+    date: '2020-06-09'
+    says: end
+    text: Chairs changed to Bernie Volz, Timothy Winters from Bernie Volz, Tomek Mrugalski
+    url: https://datatracker.ietf.org/group/dhc/history/
   - kind: WG Review
     date: '2013-08-30'
     subject: 'WG Review: Dynamic Host Configuration (dhc)'
@@ -565,6 +585,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2020-06-09'
+    says: start
+    text: Chairs changed to Bernie Volz, Timothy Winters from Bernie Volz, Tomek Mrugalski
+    url: https://datatracker.ietf.org/group/dhc/history/
   - kind: chair activity
     first: '2022-11-14'
     last: '2025-03-06'

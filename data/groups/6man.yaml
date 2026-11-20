@@ -221,6 +221,11 @@ chairs:
     notes:
     - 'Start: not listed among the chairs in meeting minutes (2011-11-13)'
   evidence:
+  - kind: datatracker record
+    date: '2024-07-31'
+    says: end
+    text: Chair changed to Bob Hinden, Jen Linkova from Bob Hinden, Jen Linkova, Ole Trøan
+    url: https://datatracker.ietf.org/group/6man/history/
   - kind: WG Review
     date: '2013-10-11'
     subject: 'WG Review: IPv6 Maintenance (6man)'
@@ -319,6 +324,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2026-11-10'
+    says: start
+    text: Chair changed to Bob Hinden, Erik Kline from Bob Hinden, Jen Linkova
+    url: https://datatracker.ietf.org/group/6man/history/
   - kind: shepherded
     documents:
     - draft-ietf-6man-sidlist-clarification
@@ -333,6 +343,16 @@ chairs:
       certainty: exact
       date: '2026-11-10'
   evidence:
+  - kind: datatracker record
+    date: '2022-03-24'
+    says: start
+    text: Chair changed to Bob Hinden, Jen Linkova, Ole Trøan from Bob Hinden, Ole Trøan
+    url: https://datatracker.ietf.org/group/6man/history/
+  - kind: datatracker record
+    date: '2026-11-10'
+    says: end
+    text: Chair changed to Bob Hinden, Erik Kline from Bob Hinden, Jen Linkova
+    url: https://datatracker.ietf.org/group/6man/history/
   - kind: list message
     date: '2022-03-23'
     says: start

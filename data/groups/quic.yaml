@@ -34,6 +34,16 @@ chairs:
       certainty: exact
       date: '2020-10-13'
   evidence:
+  - kind: datatracker record
+    date: '2016-10-04'
+    says: start
+    text: Chairs changed to Lars Eggert, Mark Nottingham
+    url: https://datatracker.ietf.org/group/quic/history/
+  - kind: datatracker record
+    date: '2020-10-13'
+    says: end
+    text: Chair changed to Lars Eggert, Lucas Pardue from Lars Eggert, Lucas Pardue, Mark Nottingham
+    url: https://datatracker.ietf.org/group/quic/history/
   - kind: WG Action
     date: '2016-10-04'
     subject: 'WG Action: Formed QUIC (quic)'
@@ -98,6 +108,16 @@ chairs:
       certainty: exact
       date: '2016-08-22'
   evidence:
+  - kind: datatracker record
+    date: '2016-06-15'
+    says: start
+    text: Chairs changed to Brian Trammell, Lars Eggert
+    url: https://datatracker.ietf.org/group/quic/history/
+  - kind: datatracker record
+    date: '2016-08-22'
+    says: end
+    text: Chairs changed to from Lars Eggert, Brian Trammell
+    url: https://datatracker.ietf.org/group/quic/history/
   - kind: chair activity
     first: '2016-07-25'
     last: '2016-07-25'
@@ -131,6 +151,26 @@ chairs:
       certainty: exact
       date: '2021-07-27'
   evidence:
+  - kind: datatracker record
+    date: '2016-06-15'
+    says: start
+    text: Chairs changed to Brian Trammell, Lars Eggert
+    url: https://datatracker.ietf.org/group/quic/history/
+  - kind: datatracker record
+    date: '2016-08-22'
+    says: end
+    text: Chairs changed to from Lars Eggert, Brian Trammell
+    url: https://datatracker.ietf.org/group/quic/history/
+  - kind: datatracker record
+    date: '2016-10-04'
+    says: start
+    text: Chairs changed to Lars Eggert, Mark Nottingham
+    url: https://datatracker.ietf.org/group/quic/history/
+  - kind: datatracker record
+    date: '2021-07-27'
+    says: end
+    text: Chair changed to Lucas Pardue, Matt Joras from Lars Eggert, Lucas Pardue, Matt Joras
+    url: https://datatracker.ietf.org/group/quic/history/
   - kind: WG Action
     date: '2016-10-04'
     subject: 'WG Action: Formed QUIC (quic)'
@@ -215,6 +255,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2020-01-15'
+    says: start
+    text: Chairs changed to Lars Eggert, Lucas Pardue, Mark Nottingham from Lars Eggert, Mark Nottingham
+    url: https://datatracker.ietf.org/group/quic/history/
   - kind: WG Review
     date: '2020-02-07'
     subject: 'WG Review: QUIC (quic)'
@@ -281,6 +326,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2021-01-20'
+    says: start
+    text: Chair changed to Lars Eggert, Lucas Pardue, Matt Joras from Lars Eggert, Lucas Pardue
+    url: https://datatracker.ietf.org/group/quic/history/
   - kind: WG Review
     date: '2021-03-08'
     subject: 'WG Review: QUIC (quic)'

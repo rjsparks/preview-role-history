@@ -90,6 +90,11 @@ chairs:
       certainty: group-closed
       date: '2015-06-08'
   evidence:
+  - kind: datatracker record
+    date: '2013-06-28'
+    says: start
+    text: Chairs changed to Nevil Brownlee, Thomas Nadeau from Nevil Brownlee
+    url: https://datatracker.ietf.org/group/eman/history/
   - kind: list message
     date: '2013-07-04'
     says: start
@@ -195,6 +200,11 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
   evidence:
+  - kind: datatracker record
+    date: '2013-06-26'
+    says: end
+    text: Chairs changed to Nevil Brownlee from Bruce Nordman, Nevil Brownlee
+    url: https://datatracker.ietf.org/group/eman/history/
   - kind: WG Action
     date: '2010-09-28'
     subject: 'WG Action: Energy Management (eman)'

@@ -57,6 +57,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2024-11-22'
+    says: start
+    text: Chair changed to Allison Mankin, Sara Dickinson, Shivan Sahib from Sara Dickinson, Shivan Sahib
+    url: https://datatracker.ietf.org/group/pearg/history/
   - kind: list message
     date: '2024-11-22'
     says: start
@@ -75,6 +80,18 @@ chairs:
       certainty: exact
       date: '2024-01-08'
   evidence:
+  - kind: datatracker record
+    date: '2019-02-21'
+    says: start
+    text: Chairs changed to Christopher Wood, Sara Dickinson, Shivan Sahib from Sara Dickinson, Shivan
+      Sahib
+    url: https://datatracker.ietf.org/group/pearg/history/
+  - kind: datatracker record
+    date: '2024-01-08'
+    says: end
+    text: Chair changed to Sara Dickinson, Shivan Sahib from Christopher Wood, Sara Dickinson, Shivan
+      Sahib
+    url: https://datatracker.ietf.org/group/pearg/history/
   - kind: list message
     date: '2024-01-08'
     says: end

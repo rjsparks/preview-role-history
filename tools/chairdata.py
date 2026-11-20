@@ -160,6 +160,7 @@ def describe_end(b):
 
 
 BOF_STATES = {"bof", "bof-conc"}
+BOF_END_MARGIN = datetime.timedelta(days=14)  # an end known only to within days after chartering
 CHARTER_MARGIN = datetime.timedelta(days=30)  # chairs named at chartering can predate the state change by days
 
 
@@ -201,8 +202,12 @@ def bof_phase(group, period):
     if not chartered or not valid_date(norm_date(chartered)):
         return None
     chartered = earliest(norm_date(chartered))
-    end = latest_end(period["end"])
-    if end is not None and end < chartered:
+    # Ended before chartering, or could only have run a few days past it: a charter page or announcement
+    # dated just after chartering is what bounds the end (oauth, Mark Nottingham: chartered 2009-05-12,
+    # gone from the charter page last modified 2009-05-15).
+    end, could_end = latest_end(period["end"]), earliest_end(period["end"])
+    if end is not None and (end < chartered or (could_end is not None and could_end < chartered
+                                                 and end <= chartered + BOF_END_MARGIN)):
         return "bof"
     start, finish = latest_start(period["start"]), earliest_end(period["end"])
     if start is not None and finish is not None and start < chartered - CHARTER_MARGIN and finish >= chartered:

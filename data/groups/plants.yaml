@@ -30,6 +30,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2025-09-26'
+    says: start
+    text: Chair changed to Russ Housley, Tommy Pauly
+    url: https://datatracker.ietf.org/group/plants/history/
   - kind: WG Review
     date: '2025-12-18'
     subject: 'WG Review: PKI, Logs, And Tree Signatures (plants)'
@@ -56,6 +61,17 @@ chairs:
     end:
       certainty: exact
       date: '2025-12-01'
+  evidence:
+  - kind: datatracker record
+    date: '2025-09-26'
+    says: start
+    text: Chair changed to Russ Housley, Tommy Pauly
+    url: https://datatracker.ietf.org/group/plants/history/
+  - kind: datatracker record
+    date: '2025-12-01'
+    says: end
+    text: Chair changed to Russ Housley, Thom Wiggers from Russ Housley, Tommy Pauly
+    url: https://datatracker.ietf.org/group/plants/history/
 - person: 128517
   name: Thom Wiggers
   status: confirmed
@@ -66,6 +82,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2025-12-01'
+    says: start
+    text: Chair changed to Russ Housley, Thom Wiggers from Russ Housley, Tommy Pauly
+    url: https://datatracker.ietf.org/group/plants/history/
   - kind: WG Review
     date: '2025-12-18'
     subject: 'WG Review: PKI, Logs, And Tree Signatures (plants)'

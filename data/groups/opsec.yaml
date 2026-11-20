@@ -196,6 +196,12 @@ chairs:
       certainty: group-closed
       date: '2024-08-05'
   evidence:
+  - kind: datatracker record
+    date: '2018-03-05'
+    says: start
+    text: Chairs changed to Éric Vyncke, Gunter Van de Velde, Ron Bonica from Gunter Van de Velde, Éric
+      Vyncke
+    url: https://datatracker.ietf.org/group/opsec/history/
   - kind: list message
     date: '2018-03-05'
     says: start
@@ -228,6 +234,16 @@ chairs:
       certainty: exact
       date: '2019-04-05'
   evidence:
+  - kind: datatracker record
+    date: '2015-09-17'
+    says: start
+    text: Chairs changed to Eric Vyncke, Gunter Van de Velde from KK Chittimaneni, Gunter Van de Velde
+    url: https://datatracker.ietf.org/group/opsec/history/
+  - kind: datatracker record
+    date: '2019-04-05'
+    says: end
+    text: Chairs changed to Jen Linkova, Ron Bonica from Ron Bonica, Éric Vyncke
+    url: https://datatracker.ietf.org/group/opsec/history/
   - kind: chair activity
     first: '2016-10-19'
     last: '2018-07-19'
@@ -328,6 +344,11 @@ chairs:
     notes:
     - 'Start: announced on the group''s list (2011-08-08)'
   evidence:
+  - kind: datatracker record
+    date: '2018-03-26'
+    says: end
+    text: Chairs changed to Éric Vyncke, Ron Bonica from Gunter Van de Velde, Éric Vyncke, Ron Bonica
+    url: https://datatracker.ietf.org/group/opsec/history/
   - kind: WG Review
     date: '2013-10-15'
     subject: 'WG Review: Operational Security Capabilities for IP Network Infrastructure (opsec)'
@@ -403,6 +424,11 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2012-03-25)'
   evidence:
+  - kind: datatracker record
+    date: '2015-09-17'
+    says: end
+    text: Chairs changed to Eric Vyncke, Gunter Van de Velde from KK Chittimaneni, Gunter Van de Velde
+    url: https://datatracker.ietf.org/group/opsec/history/
   - kind: WG Review
     date: '2013-10-15'
     subject: 'WG Review: Operational Security Capabilities for IP Network Infrastructure (opsec)'
@@ -454,6 +480,12 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2010-08-23)'
   evidence:
+  - kind: datatracker record
+    date: '2013-12-18'
+    says: end
+    text: Chairs changed to Gunter Van de Velde, KK Chittimaneni from Warren Kumari, Gunter Van de Velde,
+      KK Chittimaneni
+    url: https://datatracker.ietf.org/group/opsec/history/
   - kind: WG Review
     date: '2013-10-15'
     subject: 'WG Review: Operational Security Capabilities for IP Network Infrastructure (opsec)'
@@ -515,6 +547,11 @@ chairs:
       certainty: group-closed
       date: '2024-08-05'
   evidence:
+  - kind: datatracker record
+    date: '2019-04-05'
+    says: start
+    text: Chairs changed to Jen Linkova, Ron Bonica from Ron Bonica, Éric Vyncke
+    url: https://datatracker.ietf.org/group/opsec/history/
   - kind: chair activity
     first: '2019-09-23'
     last: '2023-10-13'

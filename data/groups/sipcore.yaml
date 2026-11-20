@@ -104,6 +104,11 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2009-04-20)'
   evidence:
+  - kind: datatracker record
+    date: '2017-03-31'
+    says: end
+    text: Chairs changed to Brian Rosen, Jean Mahoney from Brian Rosen, Adam Roach, Jean Mahoney
+    url: https://datatracker.ietf.org/group/sipcore/history/
   - kind: WG Action
     date: '2016-12-02'
     subject: 'WG Action: Rechartered Session Initiation Protocol Core (sipcore)'
@@ -186,6 +191,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2017-03-30'
+    says: start
+    text: Chairs changed to Adam Roach, Brian Rosen, Jean Mahoney from Jean Mahoney, Adam Roach
+    url: https://datatracker.ietf.org/group/sipcore/history/
   - kind: list message
     date: '2017-03-26'
     says: start
@@ -252,6 +262,16 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2015-04-27'
+    says: end
+    text: Chairs changed to Adam Roach, Jean Mahoney from Adam Roach, Paul Kyzivat
+    url: https://datatracker.ietf.org/group/sipcore/history/
+  - kind: datatracker record
+    date: '2025-02-12'
+    says: start
+    text: Chair changed to Brian Rosen, Paul Kyzivat from Brian Rosen, Jean Mahoney
+    url: https://datatracker.ietf.org/group/sipcore/history/
   - kind: chair activity
     first: '2011-04-18'
     last: '2025-08-22'
@@ -341,6 +361,16 @@ chairs:
       certainty: exact
       date: '2025-02-12'
   evidence:
+  - kind: datatracker record
+    date: '2015-04-27'
+    says: start
+    text: Chairs changed to Adam Roach, Jean Mahoney from Adam Roach, Paul Kyzivat
+    url: https://datatracker.ietf.org/group/sipcore/history/
+  - kind: datatracker record
+    date: '2025-02-12'
+    says: end
+    text: Chair changed to Brian Rosen, Paul Kyzivat from Brian Rosen, Jean Mahoney
+    url: https://datatracker.ietf.org/group/sipcore/history/
   - kind: WG Action
     date: '2016-12-02'
     subject: 'WG Action: Rechartered Session Initiation Protocol Core (sipcore)'

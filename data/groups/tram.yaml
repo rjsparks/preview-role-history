@@ -28,6 +28,11 @@ chairs:
       certainty: group-closed
       date: '2021-11-10'
   evidence:
+  - kind: datatracker record
+    date: '2014-02-14'
+    says: start
+    text: Chairs changed to Gonzalo Camarillo, Simon Perreault from Marc Petit-Huguenin, Simon Perreault
+    url: https://datatracker.ietf.org/group/tram/history/
   - kind: WG Action
     date: '2014-02-21'
     subject: 'WG Action: Formed TURN Revised and Modernized (tram)'
@@ -101,6 +106,17 @@ chairs:
     end:
       certainty: exact
       date: '2014-02-14'
+  evidence:
+  - kind: datatracker record
+    date: '2014-02-13'
+    says: start
+    text: Chairs changed to Marc Petit-Huguenin, Simon Perreault
+    url: https://datatracker.ietf.org/group/tram/history/
+  - kind: datatracker record
+    date: '2014-02-14'
+    says: end
+    text: Chairs changed to Gonzalo Camarillo, Simon Perreault from Marc Petit-Huguenin, Simon Perreault
+    url: https://datatracker.ietf.org/group/tram/history/
 - person: 108717
   name: Simon Perreault
   status: confirmed
@@ -118,6 +134,11 @@ chairs:
       certainty: group-closed
       date: '2021-11-10'
   evidence:
+  - kind: datatracker record
+    date: '2014-02-13'
+    says: start
+    text: Chairs changed to Marc Petit-Huguenin, Simon Perreault
+    url: https://datatracker.ietf.org/group/tram/history/
   - kind: WG Action
     date: '2014-02-21'
     subject: 'WG Action: Formed TURN Revised and Modernized (tram)'

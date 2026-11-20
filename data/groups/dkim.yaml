@@ -30,6 +30,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2025-02-08'
+    says: start
+    text: Chair changed to Pete Resnick from Laura A, Tim Wicinski
+    url: https://datatracker.ietf.org/group/dkim/history/
   - kind: WG Action
     date: '2025-02-20'
     subject: 'WG Action: Rechartered Domain Keys Identified Mail (dkim)'
@@ -210,6 +215,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2025-03-19'
+    says: start
+    text: Chair changed to Murray Kucherawy, Pete Resnick from Pete Resnick
+    url: https://datatracker.ietf.org/group/dkim/history/
   - kind: chair activity
     first: '2011-05-02'
     last: '2011-05-02'
@@ -238,6 +248,16 @@ chairs:
       certainty: exact
       date: '2025-02-08'
   evidence:
+  - kind: datatracker record
+    date: '2023-02-16'
+    says: start
+    text: Chair changed to Laura A, Tim Wicinski
+    url: https://datatracker.ietf.org/group/dkim/history/
+  - kind: datatracker record
+    date: '2025-02-08'
+    says: end
+    text: Chair changed to Pete Resnick from Laura A, Tim Wicinski
+    url: https://datatracker.ietf.org/group/dkim/history/
   - kind: WG Action
     date: '2023-02-21'
     subject: 'WG Action: Rechartered Domain Keys Identified Mail (dkim)'
@@ -257,6 +277,16 @@ chairs:
       certainty: exact
       date: '2025-02-08'
   evidence:
+  - kind: datatracker record
+    date: '2023-02-16'
+    says: start
+    text: Chair changed to Laura A, Tim Wicinski
+    url: https://datatracker.ietf.org/group/dkim/history/
+  - kind: datatracker record
+    date: '2025-02-08'
+    says: end
+    text: Chair changed to Pete Resnick from Laura A, Tim Wicinski
+    url: https://datatracker.ietf.org/group/dkim/history/
   - kind: WG Action
     date: '2023-02-21'
     subject: 'WG Action: Rechartered Domain Keys Identified Mail (dkim)'

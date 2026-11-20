@@ -34,6 +34,16 @@ chairs:
       certainty: exact
       date: '2019-03-28'
   evidence:
+  - kind: datatracker record
+    date: '2018-03-21'
+    says: start
+    text: Chairs changed to Jim Schaad, Roman Danyliw from Jim Schaad
+    url: https://datatracker.ietf.org/group/ace/history/
+  - kind: datatracker record
+    date: '2019-03-28'
+    says: end
+    text: Chairs changed to Daniel Migault, Jim Schaad from Daniel Migault, Jim Schaad, Roman Danyliw
+    url: https://datatracker.ietf.org/group/ace/history/
   - kind: list message
     date: '2019-03-19'
     says: end
@@ -80,6 +90,11 @@ chairs:
       certainty: exact
       date: '2017-10-29'
   evidence:
+  - kind: datatracker record
+    date: '2017-10-29'
+    says: end
+    text: Chairs changed to Jim Schaad, Benjamin Kaduk from Kepeng Li, Hannes Tschofenig
+    url: https://datatracker.ietf.org/group/ace/history/
   - kind: WG Review
     date: '2014-06-04'
     subject: 'WG Review: Authentication and Authorization for Constrained Environments (ace)'
@@ -156,6 +171,16 @@ chairs:
       certainty: exact
       date: '2023-08-17'
   evidence:
+  - kind: datatracker record
+    date: '2019-03-20'
+    says: start
+    text: Chairs changed to Daniel Migault, Jim Schaad, Roman Danyliw from Roman Danyliw, Jim Schaad
+    url: https://datatracker.ietf.org/group/ace/history/
+  - kind: datatracker record
+    date: '2023-08-17'
+    says: end
+    text: Chair changed to Loganaden Velvindron, Tim Hollebeek from Daniel Migault, Loganaden Velvindron
+    url: https://datatracker.ietf.org/group/ace/history/
   - kind: WG Review
     date: '2021-01-29'
     subject: 'WG Review: Authentication and Authorization for Constrained Environments (ace)'
@@ -213,6 +238,16 @@ chairs:
       certainty: exact
       date: '2020-11-25'
   evidence:
+  - kind: datatracker record
+    date: '2017-10-29'
+    says: start
+    text: Chairs changed to Jim Schaad, Benjamin Kaduk from Kepeng Li, Hannes Tschofenig
+    url: https://datatracker.ietf.org/group/ace/history/
+  - kind: datatracker record
+    date: '2020-11-25'
+    says: end
+    text: Chair changed to Daniel Migault from Daniel Migault, Jim Schaad
+    url: https://datatracker.ietf.org/group/ace/history/
   - kind: list message
     date: '2017-10-28'
     says: start
@@ -253,6 +288,11 @@ chairs:
       certainty: exact
       date: '2017-10-29'
   evidence:
+  - kind: datatracker record
+    date: '2017-10-29'
+    says: end
+    text: Chairs changed to Jim Schaad, Benjamin Kaduk from Kepeng Li, Hannes Tschofenig
+    url: https://datatracker.ietf.org/group/ace/history/
   - kind: WG Review
     date: '2014-06-04'
     subject: 'WG Review: Authentication and Authorization for Constrained Environments (ace)'
@@ -326,6 +366,16 @@ chairs:
       certainty: exact
       date: '2018-03-21'
   evidence:
+  - kind: datatracker record
+    date: '2017-10-29'
+    says: start
+    text: Chairs changed to Jim Schaad, Benjamin Kaduk from Kepeng Li, Hannes Tschofenig
+    url: https://datatracker.ietf.org/group/ace/history/
+  - kind: datatracker record
+    date: '2018-03-21'
+    says: end
+    text: Chairs changed to Jim Schaad from Benjamin Kaduk, Jim Schaad
+    url: https://datatracker.ietf.org/group/ace/history/
   - kind: chair activity
     first: '2017-11-01'
     last: '2018-03-13'
@@ -358,6 +408,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2021-02-11'
+    says: start
+    text: Chair changed to Daniel Migault, Loganaden Velvindron from Daniel Migault
+    url: https://datatracker.ietf.org/group/ace/history/
   - kind: WG Action
     date: '2021-02-19'
     subject: 'WG Action: Rechartered Authentication and Authorization for Constrained Environments (ace)'
@@ -403,6 +458,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2023-08-17'
+    says: start
+    text: Chair changed to Loganaden Velvindron, Tim Hollebeek from Daniel Migault, Loganaden Velvindron
+    url: https://datatracker.ietf.org/group/ace/history/
   - kind: list message
     date: '2023-08-17'
     says: start

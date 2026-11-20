@@ -31,6 +31,16 @@ chairs:
       certainty: exact
       date: '2015-06-04'
   evidence:
+  - kind: datatracker record
+    date: '2015-02-17'
+    says: start
+    text: Chairs changed to Russ Housley
+    url: https://datatracker.ietf.org/group/dots/history/
+  - kind: datatracker record
+    date: '2015-06-04'
+    says: end
+    text: Chairs changed to Roman Danyliw from Russ Housley, Roman Danyliw
+    url: https://datatracker.ietf.org/group/dots/history/
   - kind: minutes
     listed_in: 1
     first: '2015-03-22'
@@ -58,6 +68,11 @@ chairs:
       certainty: group-closed
       date: '2023-04-12'
   evidence:
+  - kind: datatracker record
+    date: '2019-03-23'
+    says: start
+    text: Chairs changed to Liang Xia, Valery Smyslov from Roman Danyliw, Liang Xia, Tobias Gondrom
+    url: https://datatracker.ietf.org/group/dots/history/
   - kind: list message
     date: '2019-03-23'
     says: start
@@ -115,6 +130,16 @@ chairs:
       certainty: exact
       date: '2019-03-23'
   evidence:
+  - kind: datatracker record
+    date: '2015-02-17'
+    says: start
+    text: Chairs changed to Russ Housley, Roman Danyliw from Russ Housley
+    url: https://datatracker.ietf.org/group/dots/history/
+  - kind: datatracker record
+    date: '2019-03-23'
+    says: end
+    text: Chairs changed to Liang Xia, Valery Smyslov from Roman Danyliw, Liang Xia, Tobias Gondrom
+    url: https://datatracker.ietf.org/group/dots/history/
   - kind: WG Review
     date: '2015-06-12'
     subject: 'WG Review: DDoS Open Threat Signaling (dots)'
@@ -207,6 +232,16 @@ chairs:
       certainty: exact
       date: '2019-03-23'
   evidence:
+  - kind: datatracker record
+    date: '2015-07-16'
+    says: start
+    text: Chairs changed to Roman Danyliw, Tobias Gondrom from Roman Danyliw
+    url: https://datatracker.ietf.org/group/dots/history/
+  - kind: datatracker record
+    date: '2019-03-23'
+    says: end
+    text: Chairs changed to Liang Xia, Valery Smyslov from Roman Danyliw, Liang Xia, Tobias Gondrom
+    url: https://datatracker.ietf.org/group/dots/history/
   - kind: list message
     date: '2018-07-14'
     says: end
@@ -275,6 +310,11 @@ chairs:
       certainty: group-closed
       date: '2023-04-12'
   evidence:
+  - kind: datatracker record
+    date: '2018-07-09'
+    says: start
+    text: Chairs changed to Liang Xia, Roman Danyliw, Tobias Gondrom from Roman Danyliw, Tobias Gondrom
+    url: https://datatracker.ietf.org/group/dots/history/
   - kind: list message
     date: '2018-07-14'
     says: start

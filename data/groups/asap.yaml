@@ -28,6 +28,16 @@ chairs:
       certainty: exact
       date: '2020-10-27'
   evidence:
+  - kind: datatracker record
+    date: '2020-07-24'
+    says: start
+    text: Chair changed to Adam Roach, Gonzalo Salgueiro
+    url: https://datatracker.ietf.org/group/asap/history/
+  - kind: datatracker record
+    date: '2020-10-27'
+    says: end
+    text: Chair changed to Gonzalo Salgueiro, Jean Mahoney from Adam Roach, Gonzalo Salgueiro
+    url: https://datatracker.ietf.org/group/asap/history/
   - kind: WG Action
     date: '2020-07-24'
     subject: 'WG Action: Formed Automatic SIP trunking And Peering (asap)'
@@ -49,6 +59,11 @@ chairs:
       certainty: group-closed
       date: '2026-02-17'
   evidence:
+  - kind: datatracker record
+    date: '2020-07-24'
+    says: start
+    text: Chair changed to Adam Roach, Gonzalo Salgueiro
+    url: https://datatracker.ietf.org/group/asap/history/
   - kind: WG Action
     date: '2020-07-24'
     subject: 'WG Action: Formed Automatic SIP trunking And Peering (asap)'
@@ -75,6 +90,11 @@ chairs:
       certainty: group-closed
       date: '2026-02-17'
   evidence:
+  - kind: datatracker record
+    date: '2020-10-27'
+    says: start
+    text: Chair changed to Gonzalo Salgueiro, Jean Mahoney from Adam Roach, Gonzalo Salgueiro
+    url: https://datatracker.ietf.org/group/asap/history/
   - kind: chair activity
     first: '2023-08-07'
     last: '2023-08-07'

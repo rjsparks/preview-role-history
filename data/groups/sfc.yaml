@@ -32,6 +32,11 @@ chairs:
       certainty: group-closed
       date: '2023-07-12'
   evidence:
+  - kind: datatracker record
+    date: '2016-11-01'
+    says: start
+    text: Chairs changed to Jim Guichard, Joel Halpern from Jim Guichard, Martin Stiemerling, Thomas Narten
+    url: https://datatracker.ietf.org/group/sfc/history/
   - kind: WG Review
     date: '2018-01-26'
     subject: 'WG Review: Service Function Chaining (sfc)'
@@ -92,6 +97,16 @@ chairs:
       certainty: exact
       date: '2016-11-01'
   evidence:
+  - kind: datatracker record
+    date: '2013-09-25'
+    says: start
+    text: Chairs changed to Jim Guichard, Thomas Narten
+    url: https://datatracker.ietf.org/group/sfc/history/
+  - kind: datatracker record
+    date: '2016-11-01'
+    says: end
+    text: Chairs changed to Jim Guichard, Joel Halpern from Jim Guichard, Martin Stiemerling, Thomas Narten
+    url: https://datatracker.ietf.org/group/sfc/history/
   - kind: WG Review
     date: '2013-12-12'
     subject: 'WG Review: Service Function Chaining (sfc)'
@@ -161,6 +176,17 @@ chairs:
       certainty: exact
       date: '2016-11-01'
   evidence:
+  - kind: datatracker record
+    date: '2015-12-17'
+    says: start
+    text: Chairs changed to Jim Guichard, Martin Stiemerling, Thomas Narten from Jim Guichard, Thomas
+      Narten
+    url: https://datatracker.ietf.org/group/sfc/history/
+  - kind: datatracker record
+    date: '2016-11-01'
+    says: end
+    text: Chairs changed to Jim Guichard, Joel Halpern from Jim Guichard, Martin Stiemerling, Thomas Narten
+    url: https://datatracker.ietf.org/group/sfc/history/
   - kind: list message
     date: '2015-12-17'
     says: start
@@ -224,6 +250,11 @@ chairs:
     notes:
     - 'End: became an Area Director, per the datatracker''s IESG roles (2023-03-29)'
   evidence:
+  - kind: datatracker record
+    date: '2013-09-25'
+    says: start
+    text: Chairs changed to Jim Guichard, Thomas Narten
+    url: https://datatracker.ietf.org/group/sfc/history/
   - kind: WG Review
     date: '2013-12-12'
     subject: 'WG Review: Service Function Chaining (sfc)'

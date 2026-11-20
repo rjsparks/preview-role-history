@@ -28,6 +28,16 @@ chairs:
       certainty: exact
       date: '2025-04-16'
   evidence:
+  - kind: datatracker record
+    date: '2013-12-20'
+    says: start
+    text: Chairs changed to Suzanne Woolf, Tim Wicinski from Tim Wicinski, Peter Koch
+    url: https://datatracker.ietf.org/group/dnsop/history/
+  - kind: datatracker record
+    date: '2025-04-16'
+    says: end
+    text: Chair changed to Benno Overeinder, Ondřej Surý from Benno Overeinder, Suzanne Woolf, Tim Wicinski
+    url: https://datatracker.ietf.org/group/dnsop/history/
   - kind: WG Review
     date: '2014-06-04'
     subject: 'WG Review: Domain Name System Operations (dnsop)'
@@ -344,6 +354,11 @@ chairs:
     - 'Start: not listed among the chairs in meeting minutes (2005-07-31)'
     - 'Start: listed as chair in meeting minutes (2005-11-06)'
   evidence:
+  - kind: datatracker record
+    date: '2013-12-20'
+    says: end
+    text: Chairs changed to Suzanne Woolf, Tim Wicinski from Tim Wicinski, Peter Koch
+    url: https://datatracker.ietf.org/group/dnsop/history/
   - kind: chair activity
     first: '2005-12-09'
     last: '2012-08-23'
@@ -505,6 +520,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2025-04-16'
+    says: start
+    text: Chair changed to Benno Overeinder, Ondřej Surý from Benno Overeinder, Suzanne Woolf, Tim Wicinski
+    url: https://datatracker.ietf.org/group/dnsop/history/
   - kind: WG Review
     date: '2025-06-27'
     subject: 'WG Review: Domain Name System Operations (dnsop)'
@@ -603,6 +623,11 @@ chairs:
     - 'Start: not listed among the chairs in meeting minutes (2012-07-29)'
     - 'Start: listed as chair in a proceedings charter snapshot (2013-03-10)'
   evidence:
+  - kind: datatracker record
+    date: '2025-04-16'
+    says: end
+    text: Chair changed to Benno Overeinder, Ondřej Surý from Benno Overeinder, Suzanne Woolf, Tim Wicinski
+    url: https://datatracker.ietf.org/group/dnsop/history/
   - kind: WG Review
     date: '2014-06-04'
     subject: 'WG Review: Domain Name System Operations (dnsop)'
@@ -736,6 +761,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2018-04-11'
+    says: start
+    text: Chairs changed to Benno Overeinder, Suzanne Woolf, Tim Wicinski from Suzanne Woolf, Tim Wicinski
+    url: https://datatracker.ietf.org/group/dnsop/history/
   - kind: WG Review
     date: '2025-06-27'
     subject: 'WG Review: Domain Name System Operations (dnsop)'
@@ -809,6 +839,12 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2026-10-06'
+    says: start
+    text: Chair changed to Benno Overeinder, Ondřej Surý, Peter Thomassen from Benno Overeinder, Ondřej
+      Surý
+    url: https://datatracker.ietf.org/group/dnsop/history/
   - kind: chair activity
     first: '2026-01-24'
     last: '2026-01-24'

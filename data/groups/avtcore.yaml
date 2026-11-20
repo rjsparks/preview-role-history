@@ -34,6 +34,16 @@ chairs:
       certainty: exact
       date: '2025-03-01'
   evidence:
+  - kind: datatracker record
+    date: '2020-07-15'
+    says: start
+    text: Chair changed to Bernard Aboba, Jonathan Lennox from Jonathan Lennox, Roni Even
+    url: https://datatracker.ietf.org/group/avtcore/history/
+  - kind: datatracker record
+    date: '2025-03-01'
+    says: end
+    text: Chair changed to Jonathan Lennox, Marius Kleidl from Bernard Aboba, Jonathan Lennox
+    url: https://datatracker.ietf.org/group/avtcore/history/
   - kind: list message
     date: '2020-07-15'
     says: start
@@ -98,6 +108,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2017-03-08'
+    says: start
+    text: Chairs changed to Jonathan Lennox, Rachel Huang from Roni Even, Magnus Westerlund
+    url: https://datatracker.ietf.org/group/avtcore/history/
   - kind: WG Review
     date: '2019-09-06'
     subject: 'WG Review: Audio/Video Transport Core Maintenance (avtcore)'
@@ -169,6 +184,11 @@ chairs:
     - 'Start: became an Area Director, first serving at IETF 66 (2006-07-09)'
     - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
   evidence:
+  - kind: datatracker record
+    date: '2017-03-08'
+    says: end
+    text: Chairs changed to Jonathan Lennox, Rachel Huang from Roni Even, Magnus Westerlund
+    url: https://datatracker.ietf.org/group/avtcore/history/
   - kind: WG Action
     date: '2011-01-25'
     subject: 'WG Action: Audio/Video Transport Core Maintenence (AVTCORE)'
@@ -251,6 +271,21 @@ chairs:
       certainty: exact
       date: '2020-07-15'
   evidence:
+  - kind: datatracker record
+    date: '2017-03-08'
+    says: end
+    text: Chairs changed to Jonathan Lennox, Rachel Huang from Roni Even, Magnus Westerlund
+    url: https://datatracker.ietf.org/group/avtcore/history/
+  - kind: datatracker record
+    date: '2019-09-20'
+    says: start
+    text: Chairs changed to Jonathan Lennox, Rachel Huang, Roni Even from Rachel Huang, Jonathan Lennox
+    url: https://datatracker.ietf.org/group/avtcore/history/
+  - kind: datatracker record
+    date: '2020-07-15'
+    says: end
+    text: Chair changed to Bernard Aboba, Jonathan Lennox from Jonathan Lennox, Roni Even
+    url: https://datatracker.ietf.org/group/avtcore/history/
   - kind: WG Action
     date: '2011-01-25'
     subject: 'WG Action: Audio/Video Transport Core Maintenence (AVTCORE)'
@@ -340,6 +375,16 @@ chairs:
       certainty: exact
       date: '2019-12-19'
   evidence:
+  - kind: datatracker record
+    date: '2017-03-08'
+    says: start
+    text: Chairs changed to Jonathan Lennox, Rachel Huang from Roni Even, Magnus Westerlund
+    url: https://datatracker.ietf.org/group/avtcore/history/
+  - kind: datatracker record
+    date: '2019-12-19'
+    says: end
+    text: Chairs changed to Jonathan Lennox, Roni Even from Jonathan Lennox, Rachel Huang, Roni Even
+    url: https://datatracker.ietf.org/group/avtcore/history/
   - kind: WG Review
     date: '2019-09-06'
     subject: 'WG Review: Audio/Video Transport Core Maintenance (avtcore)'
@@ -380,6 +425,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2025-03-01'
+    says: start
+    text: Chair changed to Jonathan Lennox, Marius Kleidl from Bernard Aboba, Jonathan Lennox
+    url: https://datatracker.ietf.org/group/avtcore/history/
   - kind: list message
     date: '2025-03-01'
     says: start

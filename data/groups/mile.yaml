@@ -28,6 +28,16 @@ chairs:
       certainty: exact
       date: '2016-04-20'
   evidence:
+  - kind: datatracker record
+    date: '2014-03-06'
+    says: start
+    text: Chairs changed to Alexey Melnikov, Takeshi Takahashi
+    url: https://datatracker.ietf.org/group/mile/history/
+  - kind: datatracker record
+    date: '2016-04-20'
+    says: end
+    text: Chairs changed to Nancy Cam-Winget, Takeshi Takahashi from Alexey Melnikov, Takeshi Takahashi
+    url: https://datatracker.ietf.org/group/mile/history/
   - kind: chair activity
     first: '2015-07-12'
     last: '2016-03-21'
@@ -60,6 +70,11 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2011-07-24)'
   evidence:
+  - kind: datatracker record
+    date: '2014-03-06'
+    says: end
+    text: Chairs changed to from Kathleen Moriarty, Brian Trammell
+    url: https://datatracker.ietf.org/group/mile/history/
   - kind: WG Action
     date: '2011-10-25'
     subject: 'WG Action: Managed Incident Lightweight Exchange (mile)'
@@ -140,6 +155,11 @@ chairs:
       certainty: group-closed
       date: '2020-12-03'
   evidence:
+  - kind: datatracker record
+    date: '2016-04-20'
+    says: start
+    text: Chairs changed to Nancy Cam-Winget, Takeshi Takahashi from Alexey Melnikov, Takeshi Takahashi
+    url: https://datatracker.ietf.org/group/mile/history/
   - kind: WG Review
     date: '2018-10-31'
     subject: 'WG Review: Managed Incident Lightweight Exchange (mile)'
@@ -195,6 +215,23 @@ chairs:
       certainty: exact
       date: '2014-03-08'
   evidence:
+  - kind: datatracker record
+    date: '2014-03-06'
+    says: end
+    text: Chairs changed to from Kathleen Moriarty, Brian Trammell
+    url: https://datatracker.ietf.org/group/mile/history/
+  - kind: datatracker record
+    date: '2014-03-07'
+    says: start
+    text: Chairs changed to Alexey Melnikov, Brian Trammell, Takeshi Takahashi from Alexey Melnikov, Takeshi
+      Takahashi
+    url: https://datatracker.ietf.org/group/mile/history/
+  - kind: datatracker record
+    date: '2014-03-08'
+    says: end
+    text: Chairs changed to Alexey Melnikov, Takeshi Takahashi from Brian Trammell, Alexey Melnikov, Takeshi
+      Takahashi
+    url: https://datatracker.ietf.org/group/mile/history/
   - kind: WG Action
     date: '2011-10-25'
     subject: 'WG Action: Managed Incident Lightweight Exchange (mile)'
@@ -271,6 +308,21 @@ chairs:
       certainty: group-closed
       date: '2020-12-03'
   evidence:
+  - kind: datatracker record
+    date: '2014-03-06'
+    says: start
+    text: Chairs changed to Alexey Melnikov, Takeshi Takahashi
+    url: https://datatracker.ietf.org/group/mile/history/
+  - kind: datatracker record
+    date: '2014-03-06'
+    says: end
+    text: Chairs changed to Alexey Melnikov from Takeshi Takahashi, Alexey Melnikov
+    url: https://datatracker.ietf.org/group/mile/history/
+  - kind: datatracker record
+    date: '2014-03-07'
+    says: start
+    text: Chairs changed to Alexey Melnikov, Takeshi Takahashi from Alexey Melnikov
+    url: https://datatracker.ietf.org/group/mile/history/
   - kind: WG Review
     date: '2018-10-31'
     subject: 'WG Review: Managed Incident Lightweight Exchange (mile)'

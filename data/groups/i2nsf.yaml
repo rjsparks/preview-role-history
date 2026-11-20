@@ -41,6 +41,21 @@ chairs:
       certainty: exact
       date: '2015-09-10'
   evidence:
+  - kind: datatracker record
+    date: '2014-10-23'
+    says: start
+    text: Chairs changed to Dan Romascanu, Joseph Salowey
+    url: https://datatracker.ietf.org/group/i2nsf/history/
+  - kind: datatracker record
+    date: '2015-06-12'
+    says: start
+    text: Chairs changed to Dan Romascanu, J. Salowey
+    url: https://datatracker.ietf.org/group/i2nsf/history/
+  - kind: datatracker record
+    date: '2015-09-10'
+    says: end
+    text: Chairs changed to Adrian Farrel, Linda Dunbar from Dan Romascanu, J. Salowey
+    url: https://datatracker.ietf.org/group/i2nsf/history/
   - kind: minutes
     listed_in: 2
     first: '2014-11-09'
@@ -78,6 +93,21 @@ chairs:
       certainty: exact
       date: '2015-09-10'
   evidence:
+  - kind: datatracker record
+    date: '2014-10-23'
+    says: start
+    text: Chairs changed to Dan Romascanu, Joseph Salowey
+    url: https://datatracker.ietf.org/group/i2nsf/history/
+  - kind: datatracker record
+    date: '2015-06-12'
+    says: start
+    text: Chairs changed to Dan Romascanu, J. Salowey
+    url: https://datatracker.ietf.org/group/i2nsf/history/
+  - kind: datatracker record
+    date: '2015-09-10'
+    says: end
+    text: Chairs changed to Adrian Farrel, Linda Dunbar from Dan Romascanu, J. Salowey
+    url: https://datatracker.ietf.org/group/i2nsf/history/
   - kind: chair activity
     first: '2014-11-20'
     last: '2014-11-20'
@@ -126,6 +156,16 @@ chairs:
       certainty: exact
       date: '2017-07-18'
   evidence:
+  - kind: datatracker record
+    date: '2015-09-10'
+    says: start
+    text: Chairs changed to Adrian Farrel, Linda Dunbar from Dan Romascanu, J. Salowey
+    url: https://datatracker.ietf.org/group/i2nsf/history/
+  - kind: datatracker record
+    date: '2017-07-18'
+    says: end
+    text: Chairs changed to Linda Dunbar, Yoav Nir from Adrian Farrel, Linda Dunbar
+    url: https://datatracker.ietf.org/group/i2nsf/history/
   - kind: WG Action
     date: '2015-09-18'
     subject: 'WG Action: Formed Interface to Network Security Functions (i2nsf)'
@@ -182,6 +222,11 @@ chairs:
       certainty: group-closed
       date: '2023-06-21'
   evidence:
+  - kind: datatracker record
+    date: '2017-07-18'
+    says: start
+    text: Chairs changed to Linda Dunbar, Yoav Nir from Adrian Farrel, Linda Dunbar
+    url: https://datatracker.ietf.org/group/i2nsf/history/
   - kind: chair activity
     first: '2017-07-28'
     last: '2017-10-20'
@@ -222,6 +267,11 @@ chairs:
       certainty: group-closed
       date: '2023-06-21'
   evidence:
+  - kind: datatracker record
+    date: '2015-09-10'
+    says: start
+    text: Chairs changed to Adrian Farrel, Linda Dunbar from Dan Romascanu, J. Salowey
+    url: https://datatracker.ietf.org/group/i2nsf/history/
   - kind: WG Action
     date: '2015-09-18'
     subject: 'WG Action: Formed Interface to Network Security Functions (i2nsf)'

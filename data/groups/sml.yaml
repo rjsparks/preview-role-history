@@ -31,6 +31,16 @@ chairs:
       certainty: exact
       date: '2023-10-06'
   evidence:
+  - kind: datatracker record
+    date: '2023-03-22'
+    says: start
+    text: Chair changed to Alexey Melnikov, Barry Leiba
+    url: https://datatracker.ietf.org/group/sml/history/
+  - kind: datatracker record
+    date: '2023-10-06'
+    says: end
+    text: Chair changed to Alexey Melnikov from Alexey Melnikov, Barry Leiba
+    url: https://datatracker.ietf.org/group/sml/history/
   - kind: WG Review
     date: '2023-09-22'
     subject: 'WG Review: Structured Email (sml)'
@@ -45,6 +55,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2023-03-22'
+    says: start
+    text: Chair changed to Alexey Melnikov, Barry Leiba
+    url: https://datatracker.ietf.org/group/sml/history/
   - kind: WG Review
     date: '2023-09-22'
     subject: 'WG Review: Structured Email (sml)'
@@ -78,6 +93,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2024-03-22'
+    says: start
+    text: Chair changed to Alexey Melnikov, Arnt Gulbrandsen from Alexey Melnikov
+    url: https://datatracker.ietf.org/group/sml/history/
   - kind: shepherded
     documents:
     - draft-ietf-sml-structured-email

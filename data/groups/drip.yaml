@@ -32,6 +32,11 @@ chairs:
     notes:
     - 'Start: became an Area Director, first serving at IETF 78 (2010-07-25)'
   evidence:
+  - kind: datatracker record
+    date: '2020-02-12'
+    says: end
+    text: Chairs changed to Daniel Migault from Daniel Migault, Gonzalo Camarillo
+    url: https://datatracker.ietf.org/group/drip/history/
   - kind: WG Review
     date: '2020-02-11'
     subject: 'WG Review: Drone Remote ID Protocol (drip)'
@@ -51,6 +56,12 @@ chairs:
     end:
       certainty: group-closed
       date: '2026-06-09'
+  evidence:
+  - kind: datatracker record
+    date: '2025-03-19'
+    says: start
+    text: Chair changed to Daniel Migault, Murray Kucherawy from Daniel Migault, Mohamed Boucadair
+    url: https://datatracker.ietf.org/group/drip/history/
 - person: 108162
   name: Robert Moskowitz
   status: unconfirmed
@@ -135,6 +146,16 @@ chairs:
       certainty: exact
       date: '2025-03-19'
   evidence:
+  - kind: datatracker record
+    date: '2020-03-12'
+    says: start
+    text: Chairs changed to Daniel Migault, Mohamed Boucadair from Daniel Migault
+    url: https://datatracker.ietf.org/group/drip/history/
+  - kind: datatracker record
+    date: '2025-03-19'
+    says: end
+    text: Chair changed to Daniel Migault, Murray Kucherawy from Daniel Migault, Mohamed Boucadair
+    url: https://datatracker.ietf.org/group/drip/history/
   - kind: chair activity
     first: '2020-04-21'
     last: '2023-12-05'

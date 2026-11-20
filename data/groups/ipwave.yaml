@@ -84,6 +84,11 @@ chairs:
       certainty: group-closed
       date: '2022-11-10'
   evidence:
+  - kind: datatracker record
+    date: '2016-10-18'
+    says: start
+    text: Chairs changed to Carlos Bernardos, Russ Housley from Russ Housley
+    url: https://datatracker.ietf.org/group/ipwave/history/
   - kind: WG Action
     date: '2016-10-18'
     subject: 'WG Action: Formed IP Wireless Access in Vehicular Environments (ipwave)'
@@ -133,6 +138,11 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2016-07-17)'
   evidence:
+  - kind: datatracker record
+    date: '2016-09-22'
+    says: end
+    text: Chairs changed to Russ Housley from Carlos Pignataro, Russ Housley
+    url: https://datatracker.ietf.org/group/ipwave/history/
   - kind: proceedings
     listed_in: 1
     first: '2016-07-17'

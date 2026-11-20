@@ -30,6 +30,11 @@ chairs:
     end:
       certainty: group-closed
   evidence:
+  - kind: datatracker record
+    date: '2014-02-20'
+    says: start
+    text: Chairs changed to Brian Haberman
+    url: https://datatracker.ietf.org/group/dnse/history/
   - kind: BOF session
     meeting: '89'
     date: '2014-03-02'

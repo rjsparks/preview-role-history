@@ -412,6 +412,11 @@ chairs:
     - 'Start: not listed among the chairs in meeting minutes (2010-03-21)'
     - 'Start: listed as chair in a proceedings charter snapshot (2010-11-07)'
   evidence:
+  - kind: datatracker record
+    date: '2013-01-11'
+    says: end
+    text: Chairs changed to Ari Keranen, Flemming Andreasen from Flemming Andreasen, Miguel Garcia
+    url: https://datatracker.ietf.org/group/mmusic/history/
   - kind: list message
     date: '2011-03-03'
     says: start
@@ -644,6 +649,11 @@ chairs:
       certainty: group-closed
       date: '2024-08-14'
   evidence:
+  - kind: datatracker record
+    date: '2015-10-16'
+    says: start
+    text: Chairs changed to Bo Burman, Flemming Andreasen from Flemming Andreasen, Ari Keranen
+    url: https://datatracker.ietf.org/group/mmusic/history/
   - kind: WG Action
     date: '2016-02-05'
     subject: 'WG Action: Rechartered Multiparty Multimedia Session Control (mmusic)'
@@ -707,6 +717,16 @@ chairs:
       certainty: exact
       date: '2015-10-16'
   evidence:
+  - kind: datatracker record
+    date: '2013-01-11'
+    says: start
+    text: Chairs changed to Ari Keranen, Flemming Andreasen from Flemming Andreasen, Miguel Garcia
+    url: https://datatracker.ietf.org/group/mmusic/history/
+  - kind: datatracker record
+    date: '2015-10-16'
+    says: end
+    text: Chairs changed to Bo Burman, Flemming Andreasen from Flemming Andreasen, Ari Keranen
+    url: https://datatracker.ietf.org/group/mmusic/history/
   - kind: chair activity
     first: '2013-02-26'
     last: '2015-08-14'

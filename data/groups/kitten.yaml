@@ -113,6 +113,16 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2012-10-01'
+    says: end
+    text: Chairs changed to Sam Hartman, Josh Howlett, Shawn Emery from Tom Yu, Shawn Emery, Alexey Melnikov
+    url: https://datatracker.ietf.org/group/kitten/history/
+  - kind: datatracker record
+    date: '2021-01-11'
+    says: start
+    text: Chair changed to Alexey Melnikov, Robbie Harwood from Robbie Harwood
+    url: https://datatracker.ietf.org/group/kitten/history/
   - kind: WG Action
     date: '2011-06-28'
     subject: 'WG Action: RECHARTER: Common Authentication Technology Next Generation (kitten)'
@@ -200,6 +210,11 @@ chairs:
     - 'Start: not listed among the chairs in meeting minutes (2008-03-09)'
     - 'Start: listed as chair in a proceedings charter snapshot (2009-03-22)'
   evidence:
+  - kind: datatracker record
+    date: '2012-10-01'
+    says: end
+    text: Chairs changed to Sam Hartman, Josh Howlett, Shawn Emery from Tom Yu, Shawn Emery, Alexey Melnikov
+    url: https://datatracker.ietf.org/group/kitten/history/
   - kind: WG Review
     date: '2010-07-08'
     subject: 'WG Review: Recharter of Common Authentication Technology Next Generation (kitten)'
@@ -263,6 +278,16 @@ chairs:
       certainty: exact
       date: '2014-07-23'
   evidence:
+  - kind: datatracker record
+    date: '2012-10-01'
+    says: start
+    text: Chairs changed to Sam Hartman, Josh Howlett, Shawn Emery from Tom Yu, Shawn Emery, Alexey Melnikov
+    url: https://datatracker.ietf.org/group/kitten/history/
+  - kind: datatracker record
+    date: '2014-07-23'
+    says: end
+    text: Chairs changed to Josh Howlett, Matthew Miller from Shawn Emery, Josh Howlett, Sam Hartman
+    url: https://datatracker.ietf.org/group/kitten/history/
   - kind: WG Review
     date: '2013-02-12'
     subject: 'WG Review: Common Authentication Technology Next Generation (kitten)'
@@ -330,6 +355,23 @@ chairs:
       certainty: exact
       date: '2015-03-27'
   evidence:
+  - kind: datatracker record
+    date: '2014-07-23'
+    says: end
+    text: Chairs changed to Josh Howlett, Matthew Miller from Shawn Emery, Josh Howlett, Sam Hartman
+    url: https://datatracker.ietf.org/group/kitten/history/
+  - kind: datatracker record
+    date: '2014-07-24'
+    says: start
+    text: Chairs changed to Benjamin Kaduk, Matthew Miller, Shawn Emery from Matthew Miller, Benjamin
+      Kaduk, Josh Howlett
+    url: https://datatracker.ietf.org/group/kitten/history/
+  - kind: datatracker record
+    date: '2015-03-27'
+    says: end
+    text: Chairs changed to Benjamin Kaduk, Matthew Miller from Shawn Emery, Matthew Miller, Benjamin
+      Kaduk
+    url: https://datatracker.ietf.org/group/kitten/history/
   - kind: WG Review
     date: '2010-07-08'
     subject: 'WG Review: Recharter of Common Authentication Technology Next Generation (kitten)'
@@ -428,6 +470,17 @@ chairs:
       certainty: exact
       date: '2014-07-24'
   evidence:
+  - kind: datatracker record
+    date: '2012-10-01'
+    says: start
+    text: Chairs changed to Sam Hartman, Josh Howlett, Shawn Emery from Tom Yu, Shawn Emery, Alexey Melnikov
+    url: https://datatracker.ietf.org/group/kitten/history/
+  - kind: datatracker record
+    date: '2014-07-24'
+    says: end
+    text: Chairs changed to Benjamin Kaduk, Matthew Miller, Shawn Emery from Matthew Miller, Benjamin
+      Kaduk, Josh Howlett
+    url: https://datatracker.ietf.org/group/kitten/history/
   - kind: WG Review
     date: '2013-02-12'
     subject: 'WG Review: Common Authentication Technology Next Generation (kitten)'
@@ -475,6 +528,16 @@ chairs:
       certainty: exact
       date: '2019-08-28'
   evidence:
+  - kind: datatracker record
+    date: '2014-07-23'
+    says: start
+    text: Chairs changed to Josh Howlett, Matthew Miller from Shawn Emery, Josh Howlett, Sam Hartman
+    url: https://datatracker.ietf.org/group/kitten/history/
+  - kind: datatracker record
+    date: '2019-08-28'
+    says: end
+    text: Chairs changed to Robbie Harwood from Robbie Harwood, Matthew Miller, Roland Dowdeswell
+    url: https://datatracker.ietf.org/group/kitten/history/
   - kind: list message
     date: '2014-07-23'
     says: start
@@ -538,6 +601,18 @@ chairs:
     end:
       certainty: exact
       date: '2019-08-28'
+  evidence:
+  - kind: datatracker record
+    date: '2018-07-09'
+    says: start
+    text: Chairs changed to Matthew Miller, Robbie Harwood, Roland Dowdeswell from Matthew Miller, Benjamin
+      Kaduk
+    url: https://datatracker.ietf.org/group/kitten/history/
+  - kind: datatracker record
+    date: '2019-08-28'
+    says: end
+    text: Chairs changed to Robbie Harwood from Robbie Harwood, Matthew Miller, Roland Dowdeswell
+    url: https://datatracker.ietf.org/group/kitten/history/
 - person: 115214
   name: Benjamin Kaduk
   status: confirmed
@@ -554,6 +629,22 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2014-07-23'
+    says: start
+    text: Chairs changed to Josh Howlett, Benjamin Kaduk, Matthew Miller from Matthew Miller, Josh Howlett
+    url: https://datatracker.ietf.org/group/kitten/history/
+  - kind: datatracker record
+    date: '2018-07-09'
+    says: end
+    text: Chairs changed to Matthew Miller, Robbie Harwood, Roland Dowdeswell from Matthew Miller, Benjamin
+      Kaduk
+    url: https://datatracker.ietf.org/group/kitten/history/
+  - kind: datatracker record
+    date: '2023-05-02'
+    says: start
+    text: Chair changed to Alexey Melnikov, Benjamin Kaduk from Alexey Melnikov
+    url: https://datatracker.ietf.org/group/kitten/history/
   - kind: list message
     date: '2019-08-26'
     says: end
@@ -628,6 +719,17 @@ chairs:
       certainty: exact
       date: '2022-01-12'
   evidence:
+  - kind: datatracker record
+    date: '2018-07-09'
+    says: start
+    text: Chairs changed to Matthew Miller, Robbie Harwood, Roland Dowdeswell from Matthew Miller, Benjamin
+      Kaduk
+    url: https://datatracker.ietf.org/group/kitten/history/
+  - kind: datatracker record
+    date: '2022-01-12'
+    says: end
+    text: Chair changed to Alexey Melnikov from Alexey Melnikov, Robbie Harwood
+    url: https://datatracker.ietf.org/group/kitten/history/
   - kind: chair activity
     first: '2019-08-02'
     last: '2020-06-04'

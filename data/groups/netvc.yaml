@@ -52,6 +52,21 @@ chairs:
       certainty: exact
       date: '2017-03-28'
   evidence:
+  - kind: datatracker record
+    date: '2015-02-12'
+    says: start
+    text: Chairs changed to Adam Roach, Jon Peterson
+    url: https://datatracker.ietf.org/group/netvc/history/
+  - kind: datatracker record
+    date: '2015-05-18'
+    says: start
+    text: Chairs changed to Adam Roach, Mo Zanaty
+    url: https://datatracker.ietf.org/group/netvc/history/
+  - kind: datatracker record
+    date: '2017-03-28'
+    says: end
+    text: Chairs changed to Mo Zanaty, Natasha Rooney from Adam Roach, Mo Zanaty
+    url: https://datatracker.ietf.org/group/netvc/history/
   - kind: WG Action
     date: '2015-05-18'
     subject: 'WG Action: Formed Internet Video Codec (netvc)'
@@ -116,6 +131,12 @@ chairs:
     end:
       certainty: approximate
       date: '2015-04-15'
+  evidence:
+  - kind: datatracker record
+    date: '2015-02-12'
+    says: start
+    text: Chairs changed to Adam Roach, Jon Peterson
+    url: https://datatracker.ietf.org/group/netvc/history/
 - person: 111178
   name: Matthew Miller
   status: confirmed
@@ -127,6 +148,11 @@ chairs:
       certainty: group-closed
       date: '2020-03-25'
   evidence:
+  - kind: datatracker record
+    date: '2018-03-23'
+    says: start
+    text: Chairs changed to Matthew Miller, Mo Zanaty, Natasha Rooney from Natasha Rooney, Mo Zanaty
+    url: https://datatracker.ietf.org/group/netvc/history/
   - kind: list message
     date: '2018-05-30'
     says: start
@@ -167,6 +193,11 @@ chairs:
       certainty: group-closed
       date: '2020-03-25'
   evidence:
+  - kind: datatracker record
+    date: '2015-05-18'
+    says: start
+    text: Chairs changed to Adam Roach, Mo Zanaty
+    url: https://datatracker.ietf.org/group/netvc/history/
   - kind: WG Action
     date: '2015-05-18'
     subject: 'WG Action: Formed Internet Video Codec (netvc)'
@@ -224,6 +255,16 @@ chairs:
       certainty: exact
       date: '2018-05-29'
   evidence:
+  - kind: datatracker record
+    date: '2017-03-28'
+    says: start
+    text: Chairs changed to Mo Zanaty, Natasha Rooney from Adam Roach, Mo Zanaty
+    url: https://datatracker.ietf.org/group/netvc/history/
+  - kind: datatracker record
+    date: '2018-05-29'
+    says: end
+    text: Chairs changed to Matthew Miller, Mo Zanaty from Natasha Rooney, Mo Zanaty, Matthew Miller
+    url: https://datatracker.ietf.org/group/netvc/history/
   - kind: list message
     date: '2018-05-30'
     says: end

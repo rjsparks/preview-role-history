@@ -66,6 +66,11 @@ chairs:
     notes:
     - 'Start: announced on the group''s list (2008-01-09)'
   evidence:
+  - kind: datatracker record
+    date: '2014-11-13'
+    says: end
+    text: Chairs changed to Mehmet Ersue, Mahesh Jethanandani from Bert Wijnen, Mehmet Ersue
+    url: https://datatracker.ietf.org/group/netconf/history/
   - kind: WG Review
     date: '2009-01-15'
     subject: 'WG Review: Recharter of Network Configuration (netconf)'
@@ -250,6 +255,11 @@ chairs:
     - 'Start: not listed among the chairs in meeting minutes (2006-08-13)'
     - 'Start: requested the group''s session for IETF 71 (2008-03-09)'
   evidence:
+  - kind: datatracker record
+    date: '2017-07-27'
+    says: end
+    text: Chairs changed to Kent Watsen, Mahesh Jethanandani from Mehmet Ersue, Kent Watsen, Mahesh Jethanandani
+    url: https://datatracker.ietf.org/group/netconf/history/
   - kind: WG Review
     date: '2009-01-15'
     subject: 'WG Review: Recharter of Network Configuration (netconf)'
@@ -377,6 +387,16 @@ chairs:
       certainty: exact
       date: '2024-01-31'
   evidence:
+  - kind: datatracker record
+    date: '2014-11-13'
+    says: start
+    text: Chairs changed to Mehmet Ersue, Mahesh Jethanandani from Bert Wijnen, Mehmet Ersue
+    url: https://datatracker.ietf.org/group/netconf/history/
+  - kind: datatracker record
+    date: '2024-01-31'
+    says: end
+    text: Chair changed to Kent Watsen, Per Andersson from Kent Watsen, Mahesh Jethanandani
+    url: https://datatracker.ietf.org/group/netconf/history/
   - kind: WG Action
     date: '2015-10-16'
     subject: 'WG Action: Rechartered Network Configuration (netconf)'
@@ -459,6 +479,12 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2017-07-10'
+    says: start
+    text: Chairs changed to Kent Watsen, Mehmet Ersue, Mahesh Jethanandani from Mahesh Jethanandani, Mehmet
+      Ersue
+    url: https://datatracker.ietf.org/group/netconf/history/
   - kind: WG Action
     date: '2018-03-20'
     subject: 'WG Action: Rechartered Network Configuration (netconf)'
@@ -587,6 +613,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2024-01-31'
+    says: start
+    text: Chair changed to Kent Watsen, Per Andersson from Kent Watsen, Mahesh Jethanandani
+    url: https://datatracker.ietf.org/group/netconf/history/
   - kind: WG Review
     date: '2026-09-17'
     subject: 'WG Review: Network Configuration (netconf)'

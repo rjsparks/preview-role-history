@@ -498,6 +498,24 @@ class AreaHistoryTests(DataDirMixin, unittest.TestCase):
         self.assertTrue(any("`areas` must be" in m for m in self.problems()))
 
 
+class RecordEvidenceTests(DataDirMixin, unittest.TestCase):
+    def test_the_datatracker_record_is_shown_and_linked(self):
+        self.write_people(PEOPLE)
+        g = group(acronym="iasa20", state="bof", never_chartered=True, bof=True)
+        g["history_url"] = "https://datatracker.ietf.org/group/iasa20/history/"
+        g["chairs"][0]["evidence"] = [{"kind": "datatracker record", "date": "2017-02-27", "says": "start",
+                                       "text": "Chairs changed to Gonzalo Camarillo, Leslie Daigle",
+                                       "url": "https://datatracker.ietf.org/group/iasa20/history/"}]
+        self.write_group(g, "iasa20")
+        self.assertEqual(self.problems(), [])
+        out = self.root / "site"
+        render.Site(cd.load(self.data), out, "example/chairs").build(Path(__file__).parent.parent / "site")
+        page = (out / "groups" / "iasa20.html").read_text()
+        self.assertIn('Datatracker record of joining, 2017-02-27: <a href="https://datatracker.ietf.org/group/iasa20/history/">'
+                      "“Chairs changed to Gonzalo Camarillo, Leslie Daigle”</a>", page)
+        self.assertIn('<a href="https://datatracker.ietf.org/group/iasa20/history/">from datatracker records</a>', page)
+
+
 class SuccessionTests(DataDirMixin, unittest.TestCase):
     def build(self):
         out = self.root / "site"
@@ -555,6 +573,15 @@ class BofPhaseTests(unittest.TestCase):
         g = {"bof": True, "state": "conclude", "never_chartered": True, "chartered": None}
         p = self.period({"certainty": "on-or-before", "date": "2003-12-10"}, {"certainty": "group-closed", "date": "2003-12-10"})
         self.assertEqual(cd.bof_phase(g, p), "bof")
+
+    def test_an_end_known_only_to_within_days_after_chartering_is_bof_only(self):
+        g = {"bof": True, "state": "active", "chartered": "2009-05-12"}  # oauth
+        def ending(not_before, not_after):
+            return self.period({"certainty": "evidence-only", "not_after": "2008-11-16"},
+                               {"certainty": "between", "not_before": not_before, "not_after": not_after})
+        self.assertEqual(cd.bof_phase(g, ending("2008-12-01", "2009-05-15")), "bof")  # Mark Nottingham
+        self.assertEqual(cd.bof_phase(g, ending("2008-12-01", "2009-05-12")), "bof")  # the charter date itself
+        self.assertIsNone(cd.bof_phase(g, ending("2008-12-01", "2009-07-15")))  # could have chaired the WG for weeks
 
     def test_chartered_group(self):
         g = {"bof": True, "state": "conclude", "chartered": "2001-11-01"}

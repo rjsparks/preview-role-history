@@ -31,6 +31,16 @@ chairs:
       certainty: exact
       date: '2023-10-13'
   evidence:
+  - kind: datatracker record
+    date: '2023-03-03'
+    says: start
+    text: Chair changed to Alexey Melnikov
+    url: https://datatracker.ietf.org/group/keytrans/history/
+  - kind: datatracker record
+    date: '2023-10-13'
+    says: end
+    text: Chair changed to Orie Steele, Shivan Sahib from Alexey Melnikov, Rohan Mahy
+    url: https://datatracker.ietf.org/group/keytrans/history/
   - kind: WG Review
     date: '2023-09-15'
     subject: 'WG Review: Key Transparency (keytrans)'
@@ -45,6 +55,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2023-10-13'
+    says: start
+    text: Chair changed to Orie Steele, Shivan Sahib from Alexey Melnikov, Rohan Mahy
+    url: https://datatracker.ietf.org/group/keytrans/history/
   - kind: WG Action
     date: '2023-10-16'
     subject: 'WG Action: Formed Key Transparency (keytrans)'
@@ -70,6 +85,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2024-03-08'
+    says: start
+    text: Chair changed to Orie Steele, Prachi Jain, Shivan Sahib from Orie Steele, Shivan Sahib
+    url: https://datatracker.ietf.org/group/keytrans/history/
   - kind: list message
     date: '2024-03-08'
     says: start
@@ -98,6 +118,16 @@ chairs:
       certainty: exact
       date: '2023-10-13'
   evidence:
+  - kind: datatracker record
+    date: '2023-03-06'
+    says: start
+    text: Chair changed to Alexey Melnikov, Rohan Mahy from Alexey Melnikov
+    url: https://datatracker.ietf.org/group/keytrans/history/
+  - kind: datatracker record
+    date: '2023-10-13'
+    says: end
+    text: Chair changed to Orie Steele, Shivan Sahib from Alexey Melnikov, Rohan Mahy
+    url: https://datatracker.ietf.org/group/keytrans/history/
   - kind: WG Review
     date: '2023-09-15'
     subject: 'WG Review: Key Transparency (keytrans)'
@@ -113,6 +143,16 @@ chairs:
       certainty: exact
       date: '2024-03-21'
   evidence:
+  - kind: datatracker record
+    date: '2023-10-13'
+    says: start
+    text: Chair changed to Orie Steele, Shivan Sahib from Alexey Melnikov, Rohan Mahy
+    url: https://datatracker.ietf.org/group/keytrans/history/
+  - kind: datatracker record
+    date: '2024-03-21'
+    says: end
+    text: Chair changed to Prachi Jain, Shivan Sahib from Orie Steele, Prachi Jain, Shivan Sahib
+    url: https://datatracker.ietf.org/group/keytrans/history/
   - kind: WG Action
     date: '2023-10-16'
     subject: 'WG Action: Formed Key Transparency (keytrans)'

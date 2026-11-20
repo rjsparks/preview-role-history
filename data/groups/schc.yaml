@@ -28,6 +28,16 @@ chairs:
       certainty: exact
       date: '2026-07-24'
   evidence:
+  - kind: datatracker record
+    date: '2023-03-03'
+    says: start
+    text: Chair changed to Alexander Pelov, Pascal Thubert
+    url: https://datatracker.ietf.org/group/schc/history/
+  - kind: datatracker record
+    date: '2026-07-24'
+    says: end
+    text: Chair changed to Alexander Pelov, Marion Dumay from Alexander Pelov, Marion Dumay, Pascal Thubert
+    url: https://datatracker.ietf.org/group/schc/history/
   - kind: WG Review
     date: '2023-03-06'
     subject: 'WG Review: Static Context Header Compression (schc)'
@@ -66,6 +76,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2023-03-03'
+    says: start
+    text: Chair changed to Alexander Pelov, Pascal Thubert
+    url: https://datatracker.ietf.org/group/schc/history/
   - kind: WG Review
     date: '2023-03-06'
     subject: 'WG Review: Static Context Header Compression (schc)'
@@ -107,6 +122,12 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2026-05-26'
+    says: start
+    text: Chair changed to Alexander Pelov, Marion Dumay, Pascal Thubert from Alexander Pelov, Pascal
+      Thubert
+    url: https://datatracker.ietf.org/group/schc/history/
   - kind: chair activity
     first: '2026-06-02'
     last: '2026-10-08'

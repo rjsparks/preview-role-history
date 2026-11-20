@@ -28,6 +28,11 @@ chairs:
       certainty: group-closed
       date: '2019-06-05'
   evidence:
+  - kind: datatracker record
+    date: '2015-10-22'
+    says: start
+    text: Chairs changed to David Black, Mirja Kuehlewind from Mirja Kuehlewind
+    url: https://datatracker.ietf.org/group/tcpinc/history/
   - kind: list message
     date: '2015-10-22'
     says: start
@@ -62,6 +67,16 @@ chairs:
       certainty: exact
       date: '2015-07-24'
   evidence:
+  - kind: datatracker record
+    date: '2014-06-27'
+    says: start
+    text: Chairs changed to Marcelo Bagnulo
+    url: https://datatracker.ietf.org/group/tcpinc/history/
+  - kind: datatracker record
+    date: '2015-07-24'
+    says: end
+    text: Chairs changed to Mirja Kuehlewind from Marcelo Bagnulo, Tero Kivinen
+    url: https://datatracker.ietf.org/group/tcpinc/history/
   - kind: WG Action
     date: '2014-06-30'
     subject: 'WG Action: Formed TCP Increased Security (tcpinc)'
@@ -88,6 +103,16 @@ chairs:
       certainty: exact
       date: '2015-07-24'
   evidence:
+  - kind: datatracker record
+    date: '2014-07-07'
+    says: start
+    text: Chairs changed to Tero Kivinen, Marcelo Bagnulo from Marcelo Bagnulo
+    url: https://datatracker.ietf.org/group/tcpinc/history/
+  - kind: datatracker record
+    date: '2015-07-24'
+    says: end
+    text: Chairs changed to Mirja Kuehlewind from Marcelo Bagnulo, Tero Kivinen
+    url: https://datatracker.ietf.org/group/tcpinc/history/
   - kind: chair activity
     first: '2014-11-15'
     last: '2015-07-23'
@@ -130,6 +155,16 @@ chairs:
       certainty: exact
       date: '2016-04-18'
   evidence:
+  - kind: datatracker record
+    date: '2015-07-24'
+    says: start
+    text: Chairs changed to Mirja Kuehlewind from Marcelo Bagnulo, Tero Kivinen
+    url: https://datatracker.ietf.org/group/tcpinc/history/
+  - kind: datatracker record
+    date: '2016-04-18'
+    says: end
+    text: Chairs changed to David Black, Kyle Rose from Kyle Rose, David Black, Mirja Kühlewind
+    url: https://datatracker.ietf.org/group/tcpinc/history/
   - kind: list message
     date: '2015-07-24'
     says: start
@@ -183,6 +218,11 @@ chairs:
       certainty: group-closed
       date: '2019-06-05'
   evidence:
+  - kind: datatracker record
+    date: '2015-11-10'
+    says: start
+    text: Chairs changed to David Black, Kyle Rose, Mirja Kuehlewind from David Black, Mirja Kuehlewind
+    url: https://datatracker.ietf.org/group/tcpinc/history/
   - kind: list message
     date: '2015-11-05'
     says: start

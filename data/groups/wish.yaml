@@ -30,6 +30,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2021-01-20'
+    says: start
+    text: Chair changed to Alex Gouaillard, Sean Turner
+    url: https://datatracker.ietf.org/group/wish/history/
   - kind: WG Review
     date: '2021-01-22'
     subject: 'WG Review: WebRTC Ingest Signaling over HTTPS (wish)'
@@ -80,6 +85,16 @@ chairs:
       certainty: exact
       date: '2021-06-24'
   evidence:
+  - kind: datatracker record
+    date: '2021-01-20'
+    says: start
+    text: Chair changed to Alex Gouaillard, Sean Turner
+    url: https://datatracker.ietf.org/group/wish/history/
+  - kind: datatracker record
+    date: '2021-06-24'
+    says: end
+    text: Chair changed to Nils Ohlmeier, Sean Turner from Alex Gouaillard, Sean Turner
+    url: https://datatracker.ietf.org/group/wish/history/
   - kind: WG Review
     date: '2021-01-22'
     subject: 'WG Review: WebRTC Ingest Signaling over HTTPS (wish)'
@@ -106,6 +121,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2021-06-24'
+    says: start
+    text: Chair changed to Nils Ohlmeier, Sean Turner from Alex Gouaillard, Sean Turner
+    url: https://datatracker.ietf.org/group/wish/history/
   - kind: WG Review
     date: '2023-12-01'
     subject: 'WG Review: WebRTC Ingest Signaling over HTTPS (wish)'

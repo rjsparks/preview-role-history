@@ -199,6 +199,16 @@ chairs:
       certainty: exact
       date: '2016-04-07'
   evidence:
+  - kind: datatracker record
+    date: '2012-06-20'
+    says: start
+    text: Chairs changed to Yong Cui, Suresh Krishnan from Yong Cui
+    url: https://datatracker.ietf.org/group/softwire/history/
+  - kind: datatracker record
+    date: '2016-04-07'
+    says: end
+    text: Chairs changed to Yong Cui, Ian Farrer from Ian Farrer, Yong Cui, Suresh Krishnan
+    url: https://datatracker.ietf.org/group/softwire/history/
   - kind: chair activity
     first: '2012-07-06'
     last: '2015-01-21'
@@ -361,6 +371,11 @@ chairs:
       certainty: group-closed
       date: '2019-11-22'
   evidence:
+  - kind: datatracker record
+    date: '2016-03-03'
+    says: start
+    text: Chairs changed to Yong Cui, Ian Farrer, Suresh Krishnan from Suresh Krishnan, Yong Cui
+    url: https://datatracker.ietf.org/group/softwire/history/
   - kind: proceedings
     listed_in: 3
     first: '2015-11-01'

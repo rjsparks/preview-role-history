@@ -34,6 +34,11 @@ chairs:
       certainty: group-closed
       date: '2015-07-22'
   evidence:
+  - kind: datatracker record
+    date: '2015-02-08'
+    says: start
+    text: Chairs changed to Dave Crocker
+    url: https://datatracker.ietf.org/group/arcmedia/history/
   - kind: WG Action
     date: '2015-02-09'
     subject: 'WG Action: Formed ''Archive'' Top-Level Media Type (arcmedia)'
@@ -56,3 +61,9 @@ chairs:
     end:
       certainty: approximate
       date: '2015-01-07'
+  evidence:
+  - kind: datatracker record
+    date: '2014-10-02'
+    says: start
+    text: Chairs changed to Murray Kucherawy
+    url: https://datatracker.ietf.org/group/arcmedia/history/

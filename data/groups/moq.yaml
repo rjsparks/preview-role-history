@@ -42,6 +42,21 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2022-02-11'
+    says: start
+    text: Chair changed to Alan Frindell, Magnus Westerlund
+    url: https://datatracker.ietf.org/group/moq/history/
+  - kind: datatracker record
+    date: '2022-06-16'
+    says: end
+    text: Chair changed to Alan Frindell, Ted Hardie from Alan Frindell, Magnus Westerlund
+    url: https://datatracker.ietf.org/group/moq/history/
+  - kind: datatracker record
+    date: '2024-10-14'
+    says: start
+    text: Chair changed to Alan Frindell, Magnus Westerlund, Martin Duke from Alan Frindell, Martin Duke
+    url: https://datatracker.ietf.org/group/moq/history/
   - kind: list message
     date: '2024-10-14'
     says: start
@@ -72,6 +87,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2024-03-20'
+    says: start
+    text: Chair changed to Alan Frindell, Martin Duke from Alan Frindell, Ted Hardie
+    url: https://datatracker.ietf.org/group/moq/history/
   - kind: chair activity
     first: '2024-04-01'
     last: '2026-11-03'
@@ -100,6 +120,16 @@ chairs:
       certainty: exact
       date: '2024-03-20'
   evidence:
+  - kind: datatracker record
+    date: '2022-06-16'
+    says: start
+    text: Chair changed to Alan Frindell, Ted Hardie from Alan Frindell, Magnus Westerlund
+    url: https://datatracker.ietf.org/group/moq/history/
+  - kind: datatracker record
+    date: '2024-03-20'
+    says: end
+    text: Chair changed to Alan Frindell, Martin Duke from Alan Frindell, Ted Hardie
+    url: https://datatracker.ietf.org/group/moq/history/
   - kind: WG Review
     date: '2022-08-15'
     subject: 'WG Review: Media Over QUIC (moq)'
@@ -151,6 +181,17 @@ chairs:
     - 'Start: posted an agenda, minutes or interim notice to the group''s list (2025-08-04)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2026-10-26)'
   evidence:
+  - kind: datatracker record
+    date: '2022-02-11'
+    says: start
+    text: Chair changed to Alan Frindell, Magnus Westerlund
+    url: https://datatracker.ietf.org/group/moq/history/
+  - kind: datatracker record
+    date: '2025-03-20'
+    says: end
+    text: Chair changed to Magnus Westerlund, Martin Duke from Alan Frindell, Magnus Westerlund, Martin
+      Duke
+    url: https://datatracker.ietf.org/group/moq/history/
   - kind: WG Review
     date: '2022-08-15'
     subject: 'WG Review: Media Over QUIC (moq)'

@@ -34,6 +34,16 @@ chairs:
       certainty: exact
       date: '2017-10-05'
   evidence:
+  - kind: datatracker record
+    date: '2013-12-11'
+    says: start
+    text: Chairs changed to Leif Johansson, Orit Levin
+    url: https://datatracker.ietf.org/group/uta/history/
+  - kind: datatracker record
+    date: '2017-10-05'
+    says: end
+    text: Chairs changed to Leif Johansson from Leif Johansson, Orit Levin
+    url: https://datatracker.ietf.org/group/uta/history/
   - kind: WG Action
     date: '2013-12-11'
     subject: 'WG Action: Formed Using TLS in Applications (uta)'
@@ -84,6 +94,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2017-11-15'
+    says: start
+    text: Chairs changed to Leif Johansson, Valery Smyslov from Leif Johansson
+    url: https://datatracker.ietf.org/group/uta/history/
   - kind: chair activity
     first: '2018-11-08'
     last: '2025-03-31'
@@ -120,6 +135,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2024-03-21'
+    says: start
+    text: Chair changed to Alan DeKok, Valery Smyslov from Orie Steele, Valery Smyslov
+    url: https://datatracker.ietf.org/group/uta/history/
   - kind: chair activity
     first: '2025-08-28'
     last: '2025-08-28'
@@ -139,6 +159,16 @@ chairs:
       certainty: exact
       date: '2022-12-02'
   evidence:
+  - kind: datatracker record
+    date: '2013-12-11'
+    says: start
+    text: Chairs changed to Leif Johansson, Orit Levin
+    url: https://datatracker.ietf.org/group/uta/history/
+  - kind: datatracker record
+    date: '2022-12-02'
+    says: end
+    text: Chair changed to Orie Steele, Valery Smyslov from Leif Johansson, Valery Smyslov
+    url: https://datatracker.ietf.org/group/uta/history/
   - kind: WG Action
     date: '2013-12-11'
     subject: 'WG Action: Formed Using TLS in Applications (uta)'
@@ -204,6 +234,16 @@ chairs:
       certainty: exact
       date: '2024-03-21'
   evidence:
+  - kind: datatracker record
+    date: '2022-12-02'
+    says: start
+    text: Chair changed to Orie Steele, Valery Smyslov from Leif Johansson, Valery Smyslov
+    url: https://datatracker.ietf.org/group/uta/history/
+  - kind: datatracker record
+    date: '2024-03-21'
+    says: end
+    text: Chair changed to Alan DeKok, Valery Smyslov from Orie Steele, Valery Smyslov
+    url: https://datatracker.ietf.org/group/uta/history/
   - kind: joined the IESG
     after_meeting: '119'
     after: '2024-03-16'

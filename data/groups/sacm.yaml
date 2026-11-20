@@ -34,6 +34,11 @@ chairs:
       certainty: group-closed
       date: '2022-07-20'
   evidence:
+  - kind: datatracker record
+    date: '2015-11-23'
+    says: start
+    text: Chairs changed to Adam Montville, Karen O'Donoghue from Dan Romascanu, Adam Montville
+    url: https://datatracker.ietf.org/group/sacm/history/
   - kind: WG Action
     date: '2016-08-05'
     subject: 'WG Action: Rechartered Security Automation and Continuous Monitoring (sacm)'
@@ -98,6 +103,11 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2012-07-29)'
   evidence:
+  - kind: datatracker record
+    date: '2015-11-23'
+    says: end
+    text: Chairs changed to Adam Montville, Karen O'Donoghue from Dan Romascanu, Adam Montville
+    url: https://datatracker.ietf.org/group/sacm/history/
   - kind: WG Review
     date: '2013-06-28'
     subject: 'WG Review: Security Automation and Continuous Monitoring (sacm)'
@@ -140,6 +150,11 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2012-07-29)'
   evidence:
+  - kind: datatracker record
+    date: '2013-06-28'
+    says: end
+    text: Chairs changed to Adam, Dan Romascanu from Dan Romascanu, Kathleen Moriarty
+    url: https://datatracker.ietf.org/group/sacm/history/
   - kind: WG Review
     date: '2013-06-28'
     subject: 'WG Review: Security Automation and Continuous Monitoring (sacm)'
@@ -169,6 +184,12 @@ chairs:
       certainty: group-closed
       date: '2022-07-20'
   evidence:
+  - kind: datatracker record
+    date: '2017-10-19'
+    says: start
+    text: Chairs changed to Adam Montville, Christopher Inacio, Karen O'Donoghue from Karen O'Donoghue,
+      Adam Montville
+    url: https://datatracker.ietf.org/group/sacm/history/
   - kind: WG Review
     date: '2017-11-17'
     subject: 'WG Review: Security Automation and Continuous Monitoring (sacm)'
@@ -197,6 +218,17 @@ chairs:
       certainty: exact
       date: '2018-03-26'
   evidence:
+  - kind: datatracker record
+    date: '2013-06-28'
+    says: start
+    text: Chairs changed to Adam, Dan Romascanu from Dan Romascanu, Kathleen Moriarty
+    url: https://datatracker.ietf.org/group/sacm/history/
+  - kind: datatracker record
+    date: '2018-03-26'
+    says: end
+    text: Chairs changed to Christopher Inacio, Karen O'Donoghue from Christopher Inacio, Adam Montville,
+      Karen O'Donoghue
+    url: https://datatracker.ietf.org/group/sacm/history/
   - kind: WG Review
     date: '2013-06-28'
     subject: 'UPDATED WG Review: Security Automation and Continuous Monitoring (sacm)'

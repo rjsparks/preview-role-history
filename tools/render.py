@@ -176,7 +176,13 @@ class Site:
         items = []
         for ev in entry.get("evidence") or []:
             kind = ev.get("kind")
-            if kind in ("WG Action", "WG Review"):
+            if kind == "datatracker record":
+                text = f"“{e(ev.get('text'))}”"
+                if ev.get("url"):
+                    text = f'<a href="{e(ev["url"])}">{text}</a>'
+                lead = "Datatracker record of " + ("joining" if ev.get("says") == "start" else "leaving")
+                items.append(f"<li>{e(lead)}, {e(ev.get('date'))}: {text}</li>")
+            elif kind in ("WG Action", "WG Review"):
                 subject = f"“{e(ev.get('subject'))}”"
                 if ev.get("url"):
                     subject = f'<a href="{e(ev["url"])}">{subject}</a>'
@@ -276,13 +282,17 @@ class Site:
         return f'<a class="act" href="{e(correct)}">Correct this</a> <a class="act ok" href="{e(confirm)}">This is right</a>'
 
     @staticmethod
-    def status_html(entry):
+    def status_html(entry, g=None):
         status = entry.get("status")
         label = cd.STATUSES.get(status, status)
         n = len(entry.get("confirmations") or [])
         confirmed = f' <span class="muted">· confirmed by {n} contributor{"s" if n != 1 else ""}</span>' if n else ""
         if status == "unconfirmed":
             return f'<span class="badge warn">{e(label)}</span>{confirmed}'
+        history = (g or {}).get("history_url")
+        if status == "confirmed" and history:
+            # The records themselves: the group's datatracker history.
+            return f'<span class="muted"><a href="{e(history)}">{e(label)}</a></span>{confirmed}'
         return f'<span class="muted">{e(label)}</span>{confirmed}'
 
     # --- pages ---
@@ -314,7 +324,7 @@ class Site:
   <td><a href="{self.group_href(g['acronym'], 1)}">{e(g['acronym'])}</a> <span class="muted">{e(g.get('name'))}</span>{self.phase_badge(g, p)}</td>
   <td>{self.bound_cell(p['start'], 'start')}</td>
   <td>{self.bound_cell(p['end'], 'end')}</td>
-  <td>{self.status_html(entry)}{self.evidence_html(entry, 1)}</td>
+  <td>{self.status_html(entry, g)}{self.evidence_html(entry, 1)}</td>
   <td class="actions">{self.actions_html(g, entry, p)}</td>
 </tr>""")
         body = f"""<h1>{e(name)}</h1>
@@ -344,7 +354,7 @@ Dates marked <span class="q">?</span> are not exact; <a href="#dates">reading th
   <td><a href="{self.person_href(key, 1)}">{e(name)}</a>{self.phase_badge(g, p)}</td>
   <td>{self.bound_cell(p['start'], 'start')}</td>
   <td>{self.bound_cell(p['end'], 'end')}</td>
-  <td>{self.status_html(entry)}{self.evidence_html(entry, 1)}</td>
+  <td>{self.status_html(entry, g)}{self.evidence_html(entry, 1)}</td>
   <td class="actions">{self.actions_html(g, entry, p)}</td>
 </tr>""" for _, name, key, entry, p in rows]
         empty = "" if lines else "<p>No chairs recorded yet.</p>"

@@ -30,6 +30,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2023-02-22'
+    says: start
+    text: Chair changed to Lorenzo Colitti, Suresh Krishnan
+    url: https://datatracker.ietf.org/group/bpf/history/
   - kind: WG Review
     date: '2023-05-31'
     subject: 'WG Review: BPF/eBPF (bpf)'
@@ -59,6 +64,17 @@ chairs:
     end:
       certainty: exact
       date: '2023-05-12'
+  evidence:
+  - kind: datatracker record
+    date: '2023-02-22'
+    says: start
+    text: Chair changed to Lorenzo Colitti, Suresh Krishnan
+    url: https://datatracker.ietf.org/group/bpf/history/
+  - kind: datatracker record
+    date: '2023-05-12'
+    says: end
+    text: Chair changed to David Vernet, Suresh Krishnan from Lorenzo Colitti, Suresh Krishnan
+    url: https://datatracker.ietf.org/group/bpf/history/
 - person: 135507
   name: David Vernet
   status: confirmed
@@ -69,6 +85,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2023-05-12'
+    says: start
+    text: Chair changed to David Vernet, Suresh Krishnan from Lorenzo Colitti, Suresh Krishnan
+    url: https://datatracker.ietf.org/group/bpf/history/
   - kind: WG Review
     date: '2023-05-31'
     subject: 'WG Review: BPF/eBPF (bpf)'

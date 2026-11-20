@@ -34,6 +34,17 @@ chairs:
       certainty: exact
       date: '2025-02-27'
   evidence:
+  - kind: datatracker record
+    date: '2019-10-15'
+    says: start
+    text: Chairs changed to Bernard Aboba, David Schinazi
+    url: https://datatracker.ietf.org/group/webtrans/history/
+  - kind: datatracker record
+    date: '2025-02-27'
+    says: end
+    text: Chair changed to David Schinazi, Lucas Pardue, Nidhi Jaju from Bernard Aboba, David Schinazi,
+      Nidhi Jaju
+    url: https://datatracker.ietf.org/group/webtrans/history/
   - kind: WG Review
     date: '2020-02-14'
     subject: 'WG Review: WebTransport (webtrans)'
@@ -75,6 +86,16 @@ chairs:
       certainty: exact
       date: '2025-10-28'
   evidence:
+  - kind: datatracker record
+    date: '2019-10-15'
+    says: start
+    text: Chairs changed to Bernard Aboba, David Schinazi
+    url: https://datatracker.ietf.org/group/webtrans/history/
+  - kind: datatracker record
+    date: '2025-10-28'
+    says: end
+    text: Chair changed to Lucas Pardue, Nidhi Jaju from David Schinazi, Lucas Pardue, Nidhi Jaju
+    url: https://datatracker.ietf.org/group/webtrans/history/
   - kind: WG Review
     date: '2020-02-14'
     subject: 'WG Review: WebTransport (webtrans)'
@@ -131,6 +152,13 @@ chairs:
       date: '2025-02-27'
     end:
       certainty: ongoing
+  evidence:
+  - kind: datatracker record
+    date: '2025-02-27'
+    says: start
+    text: Chair changed to David Schinazi, Lucas Pardue, Nidhi Jaju from Bernard Aboba, David Schinazi,
+      Nidhi Jaju
+    url: https://datatracker.ietf.org/group/webtrans/history/
 - person: 133599
   name: Nidhi Jaju
   status: confirmed
@@ -141,6 +169,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2024-12-20'
+    says: start
+    text: Chair changed to Bernard Aboba, David Schinazi, Nidhi Jaju from Bernard Aboba, David Schinazi
+    url: https://datatracker.ietf.org/group/webtrans/history/
   - kind: list message
     date: '2025-10-28'
     says: start

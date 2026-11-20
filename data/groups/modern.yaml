@@ -43,6 +43,11 @@ chairs:
       certainty: group-closed
       date: '2020-02-06'
   evidence:
+  - kind: datatracker record
+    date: '2015-06-01'
+    says: start
+    text: Chairs changed to Steve Donovan, Tom McGarry from Adam Roach, Tom McGarry
+    url: https://datatracker.ietf.org/group/modern/history/
   - kind: WG Review
     date: '2015-06-12'
     subject: 'WG Review: Managing, Ordering, Distributing, Exposing, & Registering telephone Numbers (modern)'
@@ -100,6 +105,16 @@ chairs:
       certainty: exact
       date: '2015-06-01'
   evidence:
+  - kind: datatracker record
+    date: '2015-03-23'
+    says: start
+    text: Chairs changed to Adam Roach, Tom McGarry from Tom McGarry
+    url: https://datatracker.ietf.org/group/modern/history/
+  - kind: datatracker record
+    date: '2015-06-01'
+    says: end
+    text: Chairs changed to Steve Donovan, Tom McGarry from Adam Roach, Tom McGarry
+    url: https://datatracker.ietf.org/group/modern/history/
   - kind: proceedings
     listed_in: 1
     first: '2015-03-22'
@@ -128,6 +143,11 @@ chairs:
       certainty: group-closed
       date: '2020-02-06'
   evidence:
+  - kind: datatracker record
+    date: '2015-02-12'
+    says: start
+    text: Chairs changed to Tom McGarry
+    url: https://datatracker.ietf.org/group/modern/history/
   - kind: WG Review
     date: '2015-06-12'
     subject: 'WG Review: Managing, Ordering, Distributing, Exposing, & Registering telephone Numbers (modern)'

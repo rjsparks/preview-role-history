@@ -30,6 +30,17 @@ chairs:
     end:
       certainty: exact
       date: '2026-01-05'
+  evidence:
+  - kind: datatracker record
+    date: '2025-09-30'
+    says: start
+    text: Chair changed to Justin Richer, Richard Barnes
+    url: https://datatracker.ietf.org/group/atp/history/
+  - kind: datatracker record
+    date: '2026-01-05'
+    says: end
+    text: Chair changed to from Justin Richer, Richard Barnes
+    url: https://datatracker.ietf.org/group/atp/history/
 - person: 112051
   name: Justin Richer
   status: confirmed
@@ -40,6 +51,17 @@ chairs:
     end:
       certainty: exact
       date: '2026-01-05'
+  evidence:
+  - kind: datatracker record
+    date: '2025-09-30'
+    says: start
+    text: Chair changed to Justin Richer, Richard Barnes
+    url: https://datatracker.ietf.org/group/atp/history/
+  - kind: datatracker record
+    date: '2026-01-05'
+    says: end
+    text: Chair changed to from Justin Richer, Richard Barnes
+    url: https://datatracker.ietf.org/group/atp/history/
 - person: 122637
   name: Shuping Peng
   status: confirmed
@@ -50,6 +72,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2026-03-18'
+    says: start
+    text: Chair changed to Mallory Knodel, Shuping Peng
+    url: https://datatracker.ietf.org/group/atp/history/
   - kind: WG Action
     date: '2026-03-19'
     subject: 'WG Action: Formed Authenticated Transfer (atp)'
@@ -72,6 +99,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2026-03-18'
+    says: start
+    text: Chair changed to Mallory Knodel, Shuping Peng
+    url: https://datatracker.ietf.org/group/atp/history/
   - kind: WG Action
     date: '2026-03-19'
     subject: 'WG Action: Formed Authenticated Transfer (atp)'

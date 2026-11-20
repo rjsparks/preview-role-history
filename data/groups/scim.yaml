@@ -101,6 +101,17 @@ chairs:
     end:
       certainty: exact
       date: '2021-12-03'
+  evidence:
+  - kind: datatracker record
+    date: '2021-11-04'
+    says: start
+    text: Chair changed to Barry Leiba, Nancy Cam-Winget from Nancy Cam-Winget
+    url: https://datatracker.ietf.org/group/scim/history/
+  - kind: datatracker record
+    date: '2021-12-03'
+    says: end
+    text: Chair changed to Nancy Cam-Winget from Barry Leiba, Nancy Cam-Winget
+    url: https://datatracker.ietf.org/group/scim/history/
 - person: 105785
   name: Nancy Cam-Winget
   status: confirmed
@@ -111,6 +122,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2021-09-30'
+    says: start
+    text: Chair changed to Nancy Cam-Winget from Leif Johansson, Morteza Ansari
+    url: https://datatracker.ietf.org/group/scim/history/
   - kind: WG Review
     date: '2021-10-08'
     subject: 'WG Review: System for Cross-domain Identity Management (scim)'
@@ -137,6 +153,11 @@ chairs:
     notes:
     - 'Start: named as chair in the WG Action announcement (2012-06-21)'
   evidence:
+  - kind: datatracker record
+    date: '2021-09-30'
+    says: end
+    text: Chair changed to Nancy Cam-Winget from Leif Johansson, Morteza Ansari
+    url: https://datatracker.ietf.org/group/scim/history/
   - kind: WG Action
     date: '2012-06-21'
     subject: 'WG Action: Formed System for Cross-domain Identity Management (scim)'
@@ -198,6 +219,11 @@ chairs:
     notes:
     - 'Start: named as chair in the WG Action announcement (2012-06-21)'
   evidence:
+  - kind: datatracker record
+    date: '2021-09-30'
+    says: end
+    text: Chair changed to Nancy Cam-Winget from Leif Johansson, Morteza Ansari
+    url: https://datatracker.ietf.org/group/scim/history/
   - kind: WG Action
     date: '2012-06-21'
     subject: 'WG Action: Formed System for Cross-domain Identity Management (scim)'
@@ -239,3 +265,9 @@ chairs:
       date: '2022-02-10'
     end:
       certainty: ongoing
+  evidence:
+  - kind: datatracker record
+    date: '2022-02-10'
+    says: start
+    text: Chair changed to Aaron Parecki, Nancy Cam-Winget from Nancy Cam-Winget
+    url: https://datatracker.ietf.org/group/scim/history/

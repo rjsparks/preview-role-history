@@ -27,6 +27,12 @@ chairs:
     end:
       certainty: group-closed
       date: '2020-06-18'
+  evidence:
+  - kind: datatracker record
+    date: '2020-06-17'
+    says: start
+    text: Chair changed to Suresh Krishnan
+    url: https://datatracker.ietf.org/group/shmo/history/
 - person: 123969
   name: Amelia Andersdotter
   status: confirmed
@@ -37,3 +43,9 @@ chairs:
     end:
       certainty: group-closed
       date: '2020-06-18'
+  evidence:
+  - kind: datatracker record
+    date: '2020-06-18'
+    says: start
+    text: Chair changed to Amelia Andersdotter, Suresh Krishnan from Suresh Krishnan
+    url: https://datatracker.ietf.org/group/shmo/history/

@@ -25,6 +25,16 @@ chairs:
       certainty: exact
       date: '2018-02-25'
   evidence:
+  - kind: datatracker record
+    date: '2014-10-07'
+    says: start
+    text: Chairs changed to Arjuna Sathiaseelan, Warren Kumari
+    url: https://datatracker.ietf.org/group/gaia/history/
+  - kind: datatracker record
+    date: '2018-02-25'
+    says: end
+    text: Chairs changed to Jane Coffin from Jane Coffin, Arjuna Sathiaseelan
+    url: https://datatracker.ietf.org/group/gaia/history/
   - kind: minutes
     listed_in: 7
     first: '2014-07-20'
@@ -64,6 +74,16 @@ chairs:
       certainty: exact
       date: '2017-05-02'
   evidence:
+  - kind: datatracker record
+    date: '2014-10-15'
+    says: start
+    text: Chairs changed to Arjuna Sathiaseelan, Mat Ford from Arjuna Sathiaseelan, Warren Kumari
+    url: https://datatracker.ietf.org/group/gaia/history/
+  - kind: datatracker record
+    date: '2017-05-02'
+    says: end
+    text: Chairs changed to Arjuna Sathiaseelan, Jane Coffin from Mat Ford, Arjuna Sathiaseelan
+    url: https://datatracker.ietf.org/group/gaia/history/
   - kind: chair activity
     first: '2015-07-27'
     last: '2015-07-27'
@@ -113,6 +133,17 @@ chairs:
     end:
       certainty: exact
       date: '2014-10-15'
+  evidence:
+  - kind: datatracker record
+    date: '2014-10-07'
+    says: start
+    text: Chairs changed to Arjuna Sathiaseelan, Warren Kumari
+    url: https://datatracker.ietf.org/group/gaia/history/
+  - kind: datatracker record
+    date: '2014-10-15'
+    says: end
+    text: Chairs changed to Arjuna Sathiaseelan, Mat Ford from Arjuna Sathiaseelan, Warren Kumari
+    url: https://datatracker.ietf.org/group/gaia/history/
 - person: 117577
   name: Leandro Navarro
   status: confirmed
@@ -136,6 +167,16 @@ chairs:
       certainty: exact
       date: '2022-08-01'
   evidence:
+  - kind: datatracker record
+    date: '2018-02-27'
+    says: start
+    text: Chairs changed to Jane Coffin, Leandro Navarro from Jane Coffin
+    url: https://datatracker.ietf.org/group/gaia/history/
+  - kind: datatracker record
+    date: '2022-08-01'
+    says: end
+    text: Chair changed to Jane Coffin, Kurtis Heimerl from Jane Coffin, Kurtis Heimerl, Leandro Navarro
+    url: https://datatracker.ietf.org/group/gaia/history/
   - kind: list message
     date: '2018-02-15'
     says: start
@@ -168,6 +209,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2017-05-02'
+    says: start
+    text: Chairs changed to Arjuna Sathiaseelan, Jane Coffin from Mat Ford, Arjuna Sathiaseelan
+    url: https://datatracker.ietf.org/group/gaia/history/
   - kind: chair activity
     first: '2017-08-12'
     last: '2019-09-26'
@@ -189,6 +235,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2022-07-20'
+    says: start
+    text: Chair changed to Jane Coffin, Kurtis Heimerl, Leandro Navarro from Jane Coffin, Leandro Navarro
+    url: https://datatracker.ietf.org/group/gaia/history/
   - kind: list message
     date: '2022-07-20'
     says: start
@@ -206,6 +257,12 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2025-07-25'
+    says: start
+    text: Chair changed to Adisorn Lertsinsrubtavee, Jane Coffin, Kurtis Heimerl from Jane Coffin, Kurtis
+      Heimerl
+    url: https://datatracker.ietf.org/group/gaia/history/
   - kind: chair activity
     first: '2026-03-05'
     last: '2026-03-31'

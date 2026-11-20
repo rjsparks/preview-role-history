@@ -83,6 +83,11 @@ chairs:
     - 'Start: not listed among the chairs in meeting minutes (2005-03-06)'
     - 'Start: named as chair in the WG Action announcement (2005-05-04)'
   evidence:
+  - kind: datatracker record
+    date: '2022-08-31'
+    says: end
+    text: Chair changed to Ron Bonica, XiPeng Xiao from Fred Baker, Ron Bonica, XiPeng Xiao
+    url: https://datatracker.ietf.org/group/v6ops/history/
   - kind: WG Action
     date: '2005-05-04'
     subject: 'WG Action: RECHARTER: IPv6 Operations (v6ops)'
@@ -215,6 +220,11 @@ chairs:
     - 'Start: not listed among the chairs in meeting minutes (2005-07-31)'
     - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
   evidence:
+  - kind: datatracker record
+    date: '2013-02-21'
+    says: end
+    text: Chairs changed to Fred Baker from Fred Baker, Joel Jaeggli
+    url: https://datatracker.ietf.org/group/v6ops/history/
   - kind: chair activity
     first: '2010-09-13'
     last: '2013-01-26'
@@ -276,6 +286,16 @@ chairs:
       certainty: exact
       date: '2025-07-29'
   evidence:
+  - kind: datatracker record
+    date: '2016-09-15'
+    says: start
+    text: Chairs changed to Fred Baker, Lee Howard, Ron Bonica from Lee Howard, Fred Baker
+    url: https://datatracker.ietf.org/group/v6ops/history/
+  - kind: datatracker record
+    date: '2025-07-29'
+    says: end
+    text: Chair changed to Nick Buraglio, XiPeng Xiao from Nick Buraglio, Ron Bonica, XiPeng Xiao
+    url: https://datatracker.ietf.org/group/v6ops/history/
   - kind: WG Action
     date: '2017-04-28'
     subject: 'WG Action: Rechartered IPv6 Operations (v6ops)'
@@ -532,6 +552,16 @@ chairs:
       certainty: exact
       date: '2014-05-22'
   evidence:
+  - kind: datatracker record
+    date: '2013-02-21'
+    says: start
+    text: Chairs changed to Fred Baker, John Brzozowski from Fred Baker
+    url: https://datatracker.ietf.org/group/v6ops/history/
+  - kind: datatracker record
+    date: '2014-05-22'
+    says: end
+    text: Chairs changed to Fred Baker, Lee Howard from Fred Baker, John Brzozowski
+    url: https://datatracker.ietf.org/group/v6ops/history/
   - kind: proceedings
     listed_in: 4
     first: '2013-03-10'
@@ -557,6 +587,16 @@ chairs:
       certainty: exact
       date: '2018-06-01'
   evidence:
+  - kind: datatracker record
+    date: '2014-05-22'
+    says: start
+    text: Chairs changed to Fred Baker, Lee Howard from Fred Baker, John Brzozowski
+    url: https://datatracker.ietf.org/group/v6ops/history/
+  - kind: datatracker record
+    date: '2018-06-01'
+    says: end
+    text: Chairs changed to Fred Baker, Ron Bonica from Lee Howard, Fred Baker, Ron Bonica
+    url: https://datatracker.ietf.org/group/v6ops/history/
   - kind: WG Review
     date: '2015-08-21'
     subject: 'WG Review: IPv6 Operations (v6ops)'
@@ -625,6 +665,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2022-04-06'
+    says: start
+    text: Chair changed to Fred Baker, Ron Bonica, XiPeng Xiao from Fred Baker, Ron Bonica
+    url: https://datatracker.ietf.org/group/v6ops/history/
   - kind: WG Review
     date: '2025-10-10'
     subject: 'WG Review: IPv6 Operations (v6ops)'
@@ -721,6 +766,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2023-12-08'
+    says: start
+    text: Chair changed to Nick Buraglio, Ron Bonica, XiPeng Xiao from Ron Bonica, XiPeng Xiao
+    url: https://datatracker.ietf.org/group/v6ops/history/
   - kind: WG Review
     date: '2025-10-10'
     subject: 'WG Review: IPv6 Operations (v6ops)'

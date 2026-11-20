@@ -34,6 +34,11 @@ chairs:
       certainty: group-closed
       date: '2017-10-25'
   evidence:
+  - kind: datatracker record
+    date: '2016-01-22'
+    says: start
+    text: Chairs changed to Andrew Newton, Barry Leiba from Melinda Shore, Andrew Newton
+    url: https://datatracker.ietf.org/group/urnbis/history/
   - kind: proceedings
     listed_in: 1
     first: '2016-07-17'
@@ -68,6 +73,16 @@ chairs:
       certainty: exact
       date: '2016-01-22'
   evidence:
+  - kind: datatracker record
+    date: '2014-12-09'
+    says: start
+    text: Chairs changed to Andrew Newton, Melinda Shore from Andrew Newton, Alfred Hoenes
+    url: https://datatracker.ietf.org/group/urnbis/history/
+  - kind: datatracker record
+    date: '2016-01-22'
+    says: end
+    text: Chairs changed to Andrew Newton, Barry Leiba from Melinda Shore, Andrew Newton
+    url: https://datatracker.ietf.org/group/urnbis/history/
   - kind: list message
     date: '2014-12-09'
     says: start
@@ -193,6 +208,11 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2010-03-21)'
   evidence:
+  - kind: datatracker record
+    date: '2014-12-09'
+    says: end
+    text: Chairs changed to Andrew Newton, Melinda Shore from Andrew Newton, Alfred Hoenes
+    url: https://datatracker.ietf.org/group/urnbis/history/
   - kind: WG Action
     date: '2010-11-23'
     subject: 'WG Action: Uniform Resource Names, Revised (urnbis)'

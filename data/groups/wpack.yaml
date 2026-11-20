@@ -34,6 +34,11 @@ chairs:
       certainty: group-closed
       date: '2023-02-02'
   evidence:
+  - kind: datatracker record
+    date: '2019-11-18'
+    says: start
+    text: Chairs changed to Patrick McManus, Sean Turner from Patrick McManus
+    url: https://datatracker.ietf.org/group/wpack/history/
   - kind: WG Review
     date: '2020-02-07'
     subject: 'WG Review: Web Packaging (wpack)'
@@ -73,6 +78,16 @@ chairs:
       certainty: exact
       date: '2020-01-17'
   evidence:
+  - kind: datatracker record
+    date: '2019-10-16'
+    says: start
+    text: Chairs changed to Patrick McManus
+    url: https://datatracker.ietf.org/group/wpack/history/
+  - kind: datatracker record
+    date: '2020-01-17'
+    says: end
+    text: Chairs changed to Sean Turner from Patrick McManus, Sean Turner
+    url: https://datatracker.ietf.org/group/wpack/history/
   - kind: chair activity
     first: '2019-11-21'
     last: '2019-11-21'
@@ -92,6 +107,11 @@ chairs:
       certainty: group-closed
       date: '2023-02-02'
   evidence:
+  - kind: datatracker record
+    date: '2020-03-03'
+    says: start
+    text: Chairs changed to David Lawrence, Sean Turner from Sean Turner
+    url: https://datatracker.ietf.org/group/wpack/history/
   - kind: WG Action
     date: '2020-03-24'
     subject: 'WG Action: Formed Web Packaging (wpack)'

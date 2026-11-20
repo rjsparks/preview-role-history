@@ -133,6 +133,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2016-07-07'
+    says: start
+    text: Chairs changed to Sam Aldrin, Matthew Bocci from Matthew Bocci, Benson Schliesser
+    url: https://datatracker.ietf.org/group/nvo3/history/
   - kind: list message
     date: '2016-07-07'
     says: start
@@ -176,6 +181,11 @@ chairs:
     notes:
     - 'Start: listed as chair in meeting minutes (2012-03-25)'
   evidence:
+  - kind: datatracker record
+    date: '2016-07-07'
+    says: end
+    text: Chairs changed to Sam Aldrin, Matthew Bocci from Matthew Bocci, Benson Schliesser
+    url: https://datatracker.ietf.org/group/nvo3/history/
   - kind: WG Action
     date: '2012-05-01'
     subject: 'WG Action: Network Virtualization Overlays (nvo3)'

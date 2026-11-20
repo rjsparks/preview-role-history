@@ -31,6 +31,11 @@ chairs:
       certainty: exact
       date: '2017-11-13'
   evidence:
+  - kind: datatracker record
+    date: '2017-11-13'
+    says: end
+    text: Chairs changed to David Schinazi, Tim Chown from Ralph Droms, David Schinazi, Tim Chown
+    url: https://datatracker.ietf.org/group/dnssd/history/
   - kind: WG Review
     date: '2013-10-03'
     subject: 'WG Review: Extensions for Scalable DNS Service Discovery (dnssd)'
@@ -92,6 +97,11 @@ chairs:
       certainty: exact
       date: '2018-10-02'
   evidence:
+  - kind: datatracker record
+    date: '2018-10-02'
+    says: end
+    text: Chairs changed to Barbara Stark, David Schinazi from Tim Chown, David Schinazi
+    url: https://datatracker.ietf.org/group/dnssd/history/
   - kind: WG Review
     date: '2013-10-03'
     subject: 'WG Review: Extensions for Scalable DNS Service Discovery (dnssd)'
@@ -169,6 +179,17 @@ chairs:
     end:
       certainty: exact
       date: '2021-12-14'
+  evidence:
+  - kind: datatracker record
+    date: '2018-10-02'
+    says: start
+    text: Chairs changed to Barbara Stark, David Schinazi from Tim Chown, David Schinazi
+    url: https://datatracker.ietf.org/group/dnssd/history/
+  - kind: datatracker record
+    date: '2021-12-14'
+    says: end
+    text: Chair changed to Chris Box, David Schinazi from Barbara Stark, Chris Box, David Schinazi
+    url: https://datatracker.ietf.org/group/dnssd/history/
 - person: 119562
   name: David Schinazi
   status: confirmed
@@ -180,6 +201,16 @@ chairs:
       certainty: exact
       date: '2024-12-17'
   evidence:
+  - kind: datatracker record
+    date: '2017-08-01'
+    says: start
+    text: Chairs changed to David Schinazi, Ralph Droms, Tim Chown from Ralph Droms, Tim Chown
+    url: https://datatracker.ietf.org/group/dnssd/history/
+  - kind: datatracker record
+    date: '2024-12-17'
+    says: end
+    text: Chair changed to Chris Box, Florian Obser from Chris Box, David Schinazi, Florian Obser
+    url: https://datatracker.ietf.org/group/dnssd/history/
   - kind: chair activity
     first: '2017-08-01'
     last: '2022-11-10'
@@ -222,6 +253,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2024-10-29'
+    says: start
+    text: Chair changed to Chris Box, David Schinazi, Florian Obser from Chris Box, David Schinazi
+    url: https://datatracker.ietf.org/group/dnssd/history/
   - kind: WG Review
     date: '2026-09-03'
     subject: 'WG Review: Extensions for Scalable DNS Service Discovery (dnssd)'
@@ -257,6 +293,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2021-08-10'
+    says: start
+    text: Chair changed to Barbara Stark, Chris Box, David Schinazi from Barbara Stark, David Schinazi
+    url: https://datatracker.ietf.org/group/dnssd/history/
   - kind: WG Review
     date: '2026-09-03'
     subject: 'WG Review: Extensions for Scalable DNS Service Discovery (dnssd)'

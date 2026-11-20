@@ -27,6 +27,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2012-08-01'
+    says: start
+    text: Chairs changed to Jim Schaad, Karen O'Donoghue, Tony Hansen from Jim Schaad, Tony Hansen
+    url: https://datatracker.ietf.org/group/jose/history/
   - kind: WG Review
     date: '2013-04-16'
     subject: 'WG Review: Javascript Object Signing and Encryption (jose)'
@@ -104,6 +109,11 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2011-07-24)'
   evidence:
+  - kind: datatracker record
+    date: '2012-08-01'
+    says: end
+    text: Chairs changed to Jim Schaad, Karen O'Donoghue from Jim Schaad, Karen O'Donoghue, Tony Hansen
+    url: https://datatracker.ietf.org/group/jose/history/
   - kind: proceedings
     listed_in: 3
     first: '2011-07-24'
@@ -134,6 +144,18 @@ chairs:
       certainty: exact
       date: '2025-11-25'
   evidence:
+  - kind: datatracker record
+    date: '2023-01-26'
+    says: start
+    text: Chair changed to John Bradley, John Preuß Mattsson, Karen O&#39;Donoghue from John Bradley,
+      Karen O&#39;Donoghue
+    url: https://datatracker.ietf.org/group/jose/history/
+  - kind: datatracker record
+    date: '2025-11-25'
+    says: end
+    text: Chair changed to John Bradley, Karen O&#x27;Donoghue, Michael P from John Bradley, John Preuß
+      Mattsson, Karen O&#x27;Donoghue
+    url: https://datatracker.ietf.org/group/jose/history/
   - kind: WG Review
     date: '2023-12-05'
     subject: 'WG Review: Javascript Object Signing and Encryption (jose)'
@@ -155,6 +177,11 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2011-07-24)'
   evidence:
+  - kind: datatracker record
+    date: '2022-10-25'
+    says: end
+    text: Chair changed to Karen O&#39;Donoghue from Jim Schaad, Karen O&#39;Donoghue
+    url: https://datatracker.ietf.org/group/jose/history/
   - kind: WG Review
     date: '2013-04-16'
     subject: 'WG Review: Javascript Object Signing and Encryption (jose)'
@@ -213,6 +240,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2022-10-25'
+    says: start
+    text: Chair changed to John Bradley, Karen O&#39;Donoghue from Karen O&#39;Donoghue
+    url: https://datatracker.ietf.org/group/jose/history/
   - kind: WG Review
     date: '2022-12-05'
     subject: 'WG Review: Javascript Object Signing and Encryption (jose)'
@@ -239,6 +271,12 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2025-11-25'
+    says: start
+    text: Chair changed to John Bradley, Karen O&#x27;Donoghue, Michael P from John Bradley, John Preuß
+      Mattsson, Karen O&#x27;Donoghue
+    url: https://datatracker.ietf.org/group/jose/history/
   - kind: shepherded
     documents:
     - draft-ietf-jose-hpke-encrypt

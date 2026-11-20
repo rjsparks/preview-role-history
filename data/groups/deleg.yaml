@@ -44,6 +44,16 @@ chairs:
     - 'Start: posted an agenda, minutes or interim notice to the group''s list (2025-06-17)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2025-06-17)'
   evidence:
+  - kind: datatracker record
+    date: '2024-03-06'
+    says: start
+    text: Chair changed to Paul Hoffman, Wes Hardaker
+    url: https://datatracker.ietf.org/group/deleg/history/
+  - kind: datatracker record
+    date: '2024-05-03'
+    says: end
+    text: Chair changed to from Paul Hoffman, Wes Hardaker
+    url: https://datatracker.ietf.org/group/deleg/history/
   - kind: chair activity
     first: '2024-03-06'
     last: '2025-06-17'
@@ -65,6 +75,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2024-05-20'
+    says: start
+    text: Chair changed to Brian Haberman, Duane Wessels
+    url: https://datatracker.ietf.org/group/deleg/history/
   - kind: WG Review
     date: '2024-06-04'
     subject: 'WG Review: DNS Delegation (deleg)'
@@ -83,6 +98,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2024-05-20'
+    says: start
+    text: Chair changed to Brian Haberman, Duane Wessels
+    url: https://datatracker.ietf.org/group/deleg/history/
   - kind: WG Review
     date: '2024-06-04'
     subject: 'WG Review: DNS Delegation (deleg)'
@@ -115,3 +135,14 @@ chairs:
     end:
       certainty: exact
       date: '2024-05-03'
+  evidence:
+  - kind: datatracker record
+    date: '2024-03-06'
+    says: start
+    text: Chair changed to Paul Hoffman, Wes Hardaker
+    url: https://datatracker.ietf.org/group/deleg/history/
+  - kind: datatracker record
+    date: '2024-05-03'
+    says: end
+    text: Chair changed to from Paul Hoffman, Wes Hardaker
+    url: https://datatracker.ietf.org/group/deleg/history/

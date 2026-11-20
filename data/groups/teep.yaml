@@ -46,6 +46,16 @@ chairs:
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2023-09-05)'
     - 'End: the group closed (2026-03-09)'
   evidence:
+  - kind: datatracker record
+    date: '2017-09-13'
+    says: start
+    text: Chairs changed to Dave Thaler, Nancy Cam-Winget from Tero Kivinen, Nancy Cam-Winget
+    url: https://datatracker.ietf.org/group/teep/history/
+  - kind: datatracker record
+    date: '2019-11-17'
+    says: end
+    text: Chairs changed to Nancy Cam-Winget from Dave Thaler, Nancy Cam-Winget
+    url: https://datatracker.ietf.org/group/teep/history/
   - kind: WG Review
     date: '2018-02-23'
     subject: 'WG Review: Trusted Execution Environment Provisioning (teep)'
@@ -83,6 +93,11 @@ chairs:
       certainty: group-closed
       date: '2026-03-09'
   evidence:
+  - kind: datatracker record
+    date: '2017-03-03'
+    says: start
+    text: Chairs changed to Tero Kivinen, Nancy Cam-Winget
+    url: https://datatracker.ietf.org/group/teep/history/
   - kind: WG Review
     date: '2018-02-23'
     subject: 'WG Review: Trusted Execution Environment Provisioning (teep)'
@@ -130,6 +145,16 @@ chairs:
       certainty: exact
       date: '2017-09-13'
   evidence:
+  - kind: datatracker record
+    date: '2017-03-03'
+    says: start
+    text: Chairs changed to Tero Kivinen, Nancy Cam-Winget
+    url: https://datatracker.ietf.org/group/teep/history/
+  - kind: datatracker record
+    date: '2017-09-13'
+    says: end
+    text: Chairs changed to Dave Thaler, Nancy Cam-Winget from Tero Kivinen, Nancy Cam-Winget
+    url: https://datatracker.ietf.org/group/teep/history/
   - kind: proceedings
     listed_in: 1
     first: '2017-03-26'

@@ -27,6 +27,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2023-01-05'
+    says: start
+    text: Chair changed to Paul Hoffman, Sofia Celi from Sofia Celi
+    url: https://datatracker.ietf.org/group/pquip/history/
   - kind: WG Review
     date: '2023-01-09'
     subject: 'WG Review: Post-Quantum Use In Protocols (pquip)'
@@ -70,6 +75,16 @@ chairs:
       certainty: exact
       date: '2026-02-24'
   evidence:
+  - kind: datatracker record
+    date: '2022-12-13'
+    says: start
+    text: Chair changed to Sofia Celi
+    url: https://datatracker.ietf.org/group/pquip/history/
+  - kind: datatracker record
+    date: '2026-02-24'
+    says: end
+    text: Chair changed to Paul Hoffman from Paul Hoffman, Sofia Celi
+    url: https://datatracker.ietf.org/group/pquip/history/
   - kind: WG Review
     date: '2023-01-09'
     subject: 'WG Review: Post-Quantum Use In Protocols (pquip)'

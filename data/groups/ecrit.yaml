@@ -36,6 +36,12 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2021-08-17'
+    says: start
+    text: Chair changed to Allison Mankin, Randall Gellens, Roger Marshall from Allison Mankin, Roger
+      Marshall
+    url: https://datatracker.ietf.org/group/ecrit/history/
   - kind: list message
     date: '2021-08-16'
     says: start
@@ -187,6 +193,11 @@ chairs:
     - 'Start: not listed among the chairs in meeting minutes (2004-11-07)'
     - 'Start: named as chair in the WG Action announcement (2005-02-09)'
   evidence:
+  - kind: datatracker record
+    date: '2016-08-19'
+    says: end
+    text: Chairs changed to Roger Marshall from Marc Linsner, Roger Marshall
+    url: https://datatracker.ietf.org/group/ecrit/history/
   - kind: WG Action
     date: '2005-02-09'
     subject: 'WG Action: Emergency Context Resolution with Internet Technologies (ecrit)'
@@ -288,6 +299,12 @@ chairs:
     notes:
     - 'Start: announced on the group''s list (2012-04-20)'
   evidence:
+  - kind: datatracker record
+    date: '2023-09-08'
+    says: end
+    text: Chair changed to Allison Mankin, Randall Gellens from Allison Mankin, Randall Gellens, Roger
+      Marshall
+    url: https://datatracker.ietf.org/group/ecrit/history/
   - kind: WG Review
     date: '2013-11-22'
     subject: 'WG Review: Emergency Context Resolution with Internet Technologies (ecrit)'
@@ -415,6 +432,16 @@ chairs:
       certainty: exact
       date: '2024-11-08'
   evidence:
+  - kind: datatracker record
+    date: '2016-08-30'
+    says: start
+    text: Chairs changed to Allison Mankin, Roger Marshall from Roger Marshall
+    url: https://datatracker.ietf.org/group/ecrit/history/
+  - kind: datatracker record
+    date: '2024-11-08'
+    says: end
+    text: Chair changed to Brandon Abley, Randall Gellens from Allison Mankin, Randall Gellens
+    url: https://datatracker.ietf.org/group/ecrit/history/
   - kind: list message
     date: '2016-08-30'
     says: start
@@ -458,3 +485,9 @@ chairs:
       date: '2024-11-08'
     end:
       certainty: ongoing
+  evidence:
+  - kind: datatracker record
+    date: '2024-11-08'
+    says: start
+    text: Chair changed to Brandon Abley, Randall Gellens from Allison Mankin, Randall Gellens
+    url: https://datatracker.ietf.org/group/ecrit/history/

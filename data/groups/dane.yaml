@@ -31,6 +31,11 @@ chairs:
       certainty: group-closed
       date: '2017-03-21'
   evidence:
+  - kind: datatracker record
+    date: '2014-02-20'
+    says: start
+    text: Chairs changed to Olafur Gudmundsson, Ondrej Sury, Warren Kumari from Ondrej Sury, Warren Kumari
+    url: https://datatracker.ietf.org/group/dane/history/
   - kind: WG Action
     date: '2014-06-13'
     subject: 'WG Action: Rechartered DNS-based Authentication of Named Entities (dane)'
@@ -109,6 +114,12 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2010-07-25)'
   evidence:
+  - kind: datatracker record
+    date: '2014-03-06'
+    says: end
+    text: Chairs changed to Olafur Gudmundsson, Warren Kumari from Ondrej Sury, Olafur Gudmundsson, Warren
+      Kumari
+    url: https://datatracker.ietf.org/group/dane/history/
   - kind: WG Action
     date: '2010-12-10'
     subject: 'WG Action: DNS-based Authentication of Named Entities (dane)'

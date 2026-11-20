@@ -31,6 +31,17 @@ chairs:
     end:
       certainty: exact
       date: '2020-01-17'
+  evidence:
+  - kind: datatracker record
+    date: '2019-10-14'
+    says: start
+    text: Chairs changed to Erik Nordmark, Rick Taylor
+    url: https://datatracker.ietf.org/group/raw/history/
+  - kind: datatracker record
+    date: '2020-01-17'
+    says: end
+    text: Chairs changed to from Erik Nordmark, Rick Taylor
+    url: https://datatracker.ietf.org/group/raw/history/
 - person: 117656
   name: Rick Taylor
   status: confirmed
@@ -48,6 +59,21 @@ chairs:
       certainty: group-closed
       date: '2023-10-20'
   evidence:
+  - kind: datatracker record
+    date: '2019-10-14'
+    says: start
+    text: Chairs changed to Erik Nordmark, Rick Taylor
+    url: https://datatracker.ietf.org/group/raw/history/
+  - kind: datatracker record
+    date: '2020-01-17'
+    says: end
+    text: Chairs changed to from Erik Nordmark, Rick Taylor
+    url: https://datatracker.ietf.org/group/raw/history/
+  - kind: datatracker record
+    date: '2020-02-07'
+    says: start
+    text: Chairs changed to Eve Schooler, Rick Taylor
+    url: https://datatracker.ietf.org/group/raw/history/
   - kind: WG Action
     date: '2020-02-07'
     subject: 'WG Action: Formed Reliable and Available Wireless (raw)'
@@ -94,6 +120,11 @@ chairs:
       certainty: group-closed
       date: '2023-10-20'
   evidence:
+  - kind: datatracker record
+    date: '2020-02-07'
+    says: start
+    text: Chairs changed to Eve Schooler, Rick Taylor
+    url: https://datatracker.ietf.org/group/raw/history/
   - kind: WG Action
     date: '2020-02-07'
     subject: 'WG Action: Formed Reliable and Available Wireless (raw)'

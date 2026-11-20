@@ -34,6 +34,16 @@ chairs:
       certainty: exact
       date: '2020-06-15'
   evidence:
+  - kind: datatracker record
+    date: '2019-06-27'
+    says: start
+    text: Chairs changed to Ole Trøan, Spencer Dawkins
+    url: https://datatracker.ietf.org/group/loops/history/
+  - kind: datatracker record
+    date: '2020-06-15'
+    says: end
+    text: Chair changed to from Ole Trøan, Spencer Dawkins
+    url: https://datatracker.ietf.org/group/loops/history/
   - kind: chair activity
     first: '2019-07-24'
     last: '2019-07-24'
@@ -67,6 +77,21 @@ chairs:
     - 'End: the BOF met at IETF 108 (2020-07-27)'
     - 'End: the group closed (2020-10-09)'
   evidence:
+  - kind: datatracker record
+    date: '2019-06-27'
+    says: start
+    text: Chairs changed to Ole Trøan, Spencer Dawkins
+    url: https://datatracker.ietf.org/group/loops/history/
+  - kind: datatracker record
+    date: '2020-06-15'
+    says: end
+    text: Chair changed to from Ole Trøan, Spencer Dawkins
+    url: https://datatracker.ietf.org/group/loops/history/
+  - kind: datatracker record
+    date: '2020-06-19'
+    says: start
+    text: Chair changed to Andrew McGregor, Brian Trammell, Spencer Dawkins
+    url: https://datatracker.ietf.org/group/loops/history/
   - kind: BOF session
     meeting: '105'
     date: '2019-07-20'
@@ -100,6 +125,11 @@ chairs:
     - 'End: the BOF met at IETF 108 (2020-07-27)'
     - 'End: the group closed (2020-10-09)'
   evidence:
+  - kind: datatracker record
+    date: '2020-06-19'
+    says: start
+    text: Chair changed to Andrew McGregor, Brian Trammell, Spencer Dawkins
+    url: https://datatracker.ietf.org/group/loops/history/
   - kind: BOF session
     meeting: '105'
     date: '2019-07-20'
@@ -133,6 +163,11 @@ chairs:
     - 'End: the BOF met at IETF 108 (2020-07-27)'
     - 'End: the group closed (2020-10-09)'
   evidence:
+  - kind: datatracker record
+    date: '2020-06-19'
+    says: start
+    text: Chair changed to Andrew McGregor, Brian Trammell, Spencer Dawkins
+    url: https://datatracker.ietf.org/group/loops/history/
   - kind: BOF session
     meeting: '105'
     date: '2019-07-20'

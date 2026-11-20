@@ -30,6 +30,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2020-06-25'
+    says: start
+    text: Chair changed to Michael Richardson, Niklas Widell
+    url: https://datatracker.ietf.org/group/asdf/history/
   - kind: WG Review
     date: '2020-09-21'
     subject: 'WG Review: A Semantic Definition Format for Data and Interactions of Things (asdf)'
@@ -87,6 +92,17 @@ chairs:
       certainty: exact
       date: '2025-03-18'
   evidence:
+  - kind: datatracker record
+    date: '2020-06-25'
+    says: start
+    text: Chair changed to Michael Richardson, Niklas Widell
+    url: https://datatracker.ietf.org/group/asdf/history/
+  - kind: datatracker record
+    date: '2025-03-18'
+    says: end
+    text: Chair changed to Lorenzo Corneo, Michael Richardson from Lorenzo Corneo, Michael Richardson,
+      Niklas Widell
+    url: https://datatracker.ietf.org/group/asdf/history/
   - kind: WG Review
     date: '2020-09-21'
     subject: 'WG Review: A Semantic Definition Format for Data and Interactions of Things (asdf)'
@@ -136,6 +152,12 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2025-02-14'
+    says: start
+    text: Chair changed to Lorenzo Corneo, Michael Richardson, Niklas Widell from Michael Richardson,
+      Niklas Widell
+    url: https://datatracker.ietf.org/group/asdf/history/
   - kind: chair activity
     first: '2025-06-10'
     last: '2026-10-23'

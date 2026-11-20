@@ -36,6 +36,11 @@ chairs:
     notes:
     - 'Start: listed as chair in meeting minutes (2014-07-20)'
   evidence:
+  - kind: datatracker record
+    date: '2021-05-06'
+    says: end
+    text: Chair changed to Mallory Knodel from Avri Doria, Mallory Knodel
+    url: https://datatracker.ietf.org/group/hrpc/history/
   - kind: chair activity
     first: '2018-06-13'
     last: '2018-06-13'
@@ -85,6 +90,11 @@ chairs:
     notes:
     - 'Start: listed as chair in meeting minutes (2014-07-20)'
   evidence:
+  - kind: datatracker record
+    date: '2018-04-17'
+    says: end
+    text: Chairs changed to Avri Doria from Niels ten Oever, Avri Doria
+    url: https://datatracker.ietf.org/group/hrpc/history/
   - kind: list message
     date: '2018-04-17'
     says: end
@@ -141,6 +151,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2018-08-16'
+    says: start
+    text: Chairs changed to Avri Doria, Mallory Knodel from Avri Doria
+    url: https://datatracker.ietf.org/group/hrpc/history/
   - kind: chair activity
     first: '2018-08-21'
     last: '2026-03-11'
@@ -169,6 +184,16 @@ chairs:
       certainty: exact
       date: '2026-04-24'
   evidence:
+  - kind: datatracker record
+    date: '2022-03-14'
+    says: start
+    text: Chair changed to Mallory Knodel, Sofia Celi from Mallory Knodel
+    url: https://datatracker.ietf.org/group/hrpc/history/
+  - kind: datatracker record
+    date: '2026-04-24'
+    says: end
+    text: Chair changed to Mallory Knodel from Mallory Knodel, Sofia Celi
+    url: https://datatracker.ietf.org/group/hrpc/history/
   - kind: list message
     date: '2022-03-14'
     says: start

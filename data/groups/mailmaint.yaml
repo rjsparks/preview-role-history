@@ -27,6 +27,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2024-04-19'
+    says: start
+    text: Chair changed to Kenneth Murchison
+    url: https://datatracker.ietf.org/group/mailmaint/history/
   - kind: WG Action
     date: '2024-05-08'
     subject: 'WG Action: Formed Mail Maintenance (mailmaint)'
@@ -74,6 +79,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2025-03-19'
+    says: start
+    text: Chair changed to Kenneth Murchison, Murray Kucherawy from Kenneth Murchison
+    url: https://datatracker.ietf.org/group/mailmaint/history/
   - kind: shepherded
     documents:
     - draft-ietf-mailmaint-autoconfig

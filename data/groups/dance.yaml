@@ -28,6 +28,16 @@ chairs:
       certainty: exact
       date: '2022-03-23'
   evidence:
+  - kind: datatracker record
+    date: '2021-10-29'
+    says: start
+    text: Chair changed to Paul Wouters, Wes Hardaker from Wes Hardaker
+    url: https://datatracker.ietf.org/group/dance/history/
+  - kind: datatracker record
+    date: '2022-03-23'
+    says: end
+    text: Chair changed to Joey Salazar, Wes Hardaker from Joey Salazar, Paul Wouters, Wes Hardaker
+    url: https://datatracker.ietf.org/group/dance/history/
   - kind: list message
     date: '2021-10-29'
     says: start
@@ -56,6 +66,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2021-09-02'
+    says: start
+    text: Chair changed to Wes Hardaker
+    url: https://datatracker.ietf.org/group/dance/history/
   - kind: WG Review
     date: '2021-09-10'
     subject: 'WG Review: DANE Authentication for Network Clients Everywhere (dance)'
@@ -97,6 +112,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2022-03-02'
+    says: start
+    text: Chair changed to Joey Salazar, Paul Wouters, Wes Hardaker from Paul Wouters, Wes Hardaker
+    url: https://datatracker.ietf.org/group/dance/history/
   - kind: list message
     date: '2022-03-02'
     says: start

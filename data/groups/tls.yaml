@@ -82,6 +82,11 @@ chairs:
     notes:
     - 'Start: listed as chair in a proceedings charter snapshot (2003-11-14)'
   evidence:
+  - kind: datatracker record
+    date: '2014-07-22'
+    says: end
+    text: Chairs changed to Joseph Salowey, Sean Turner from Sean Turner, Joseph Salowey, Eric Rescorla
+    url: https://datatracker.ietf.org/group/tls/history/
   - kind: WG Action
     date: '2006-01-11'
     subject: 'WG Action: RECHARTER: Transport Layer Security (tls)'
@@ -157,6 +162,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2014-03-11'
+    says: start
+    text: Chairs changed to Eric Rescorla, Joseph Salowey, Sean Turner from Joseph Salowey, Eric Rescorla
+    url: https://datatracker.ietf.org/group/tls/history/
   - kind: WG Review
     date: '2020-03-06'
     subject: 'WG Review: Transport Layer Security (tls)'
@@ -472,6 +482,17 @@ chairs:
       certainty: exact
       date: '2023-11-17'
   evidence:
+  - kind: datatracker record
+    date: '2018-07-07'
+    says: start
+    text: Chairs changed to Christopher Wood, Joseph Salowey, Sean Turner from Sean Turner, Joseph Salowey
+    url: https://datatracker.ietf.org/group/tls/history/
+  - kind: datatracker record
+    date: '2023-11-17'
+    says: end
+    text: Chair changed to Deirdre Connolly, Joseph Salowey, Sean Turner from Christopher Wood, Joseph
+      Salowey, Sean Turner
+    url: https://datatracker.ietf.org/group/tls/history/
   - kind: WG Review
     date: '2020-03-06'
     subject: 'WG Review: Transport Layer Security (tls)'
@@ -528,6 +549,12 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2023-11-17'
+    says: start
+    text: Chair changed to Deirdre Connolly, Joseph Salowey, Sean Turner from Christopher Wood, Joseph
+      Salowey, Sean Turner
+    url: https://datatracker.ietf.org/group/tls/history/
   - kind: chair activity
     first: '2023-12-06'
     last: '2024-10-16'

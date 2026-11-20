@@ -37,6 +37,16 @@ chairs:
       certainty: exact
       date: '2025-05-27'
   evidence:
+  - kind: datatracker record
+    date: '2024-06-14'
+    says: start
+    text: Chair changed to Russ Housley
+    url: https://datatracker.ietf.org/group/diem/history/
+  - kind: datatracker record
+    date: '2025-05-27'
+    says: end
+    text: Chair changed to from Martin Thomson, Russ Housley
+    url: https://datatracker.ietf.org/group/diem/history/
   - kind: WG Review
     date: '2025-05-08'
     subject: 'WG Review: Digital Emblems (diem)'
@@ -52,6 +62,16 @@ chairs:
       certainty: exact
       date: '2025-05-27'
   evidence:
+  - kind: datatracker record
+    date: '2024-06-28'
+    says: start
+    text: Chair changed to Martin Thomson, Russ Housley from Russ Housley
+    url: https://datatracker.ietf.org/group/diem/history/
+  - kind: datatracker record
+    date: '2025-05-27'
+    says: end
+    text: Chair changed to from Martin Thomson, Russ Housley
+    url: https://datatracker.ietf.org/group/diem/history/
   - kind: WG Review
     date: '2025-05-08'
     subject: 'WG Review: Digital Emblems (diem)'
@@ -78,6 +98,16 @@ chairs:
       certainty: exact
       date: '2026-03-03'
   evidence:
+  - kind: datatracker record
+    date: '2025-05-27'
+    says: start
+    text: Chair changed to Rohan Mahy, Tommy Jensen
+    url: https://datatracker.ietf.org/group/diem/history/
+  - kind: datatracker record
+    date: '2026-03-03'
+    says: end
+    text: Chair changed to Rohan Mahy, Sarah Jennings from Rohan Mahy, Tommy Jensen
+    url: https://datatracker.ietf.org/group/diem/history/
   - kind: WG Action
     date: '2025-05-27'
     subject: 'WG Action: Formed Digital Emblems (diem)'
@@ -105,6 +135,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2025-05-27'
+    says: start
+    text: Chair changed to Rohan Mahy, Tommy Jensen
+    url: https://datatracker.ietf.org/group/diem/history/
   - kind: WG Action
     date: '2025-05-27'
     subject: 'WG Action: Formed Digital Emblems (diem)'
@@ -118,6 +153,12 @@ chairs:
       date: '2026-08-26'
     end:
       certainty: ongoing
+  evidence:
+  - kind: datatracker record
+    date: '2026-08-26'
+    says: start
+    text: Chair changed to Dennis Jackson, Rohan Mahy, Sarah Jennings from Rohan Mahy, Sarah Jennings
+    url: https://datatracker.ietf.org/group/diem/history/
 - person: 145138
   name: Sarah Jennings
   status: confirmed
@@ -127,3 +168,9 @@ chairs:
       date: '2026-03-03'
     end:
       certainty: ongoing
+  evidence:
+  - kind: datatracker record
+    date: '2026-03-03'
+    says: start
+    text: Chair changed to Rohan Mahy, Sarah Jennings from Rohan Mahy, Tommy Jensen
+    url: https://datatracker.ietf.org/group/diem/history/

@@ -31,6 +31,16 @@ chairs:
       certainty: exact
       date: '2023-07-30'
   evidence:
+  - kind: datatracker record
+    date: '2022-09-06'
+    says: start
+    text: Chair changed to Kiran Makhijani, Marc Blanchet from Kiran Makhijani, Suresh Krishnan
+    url: https://datatracker.ietf.org/group/snac/history/
+  - kind: datatracker record
+    date: '2023-07-30'
+    says: end
+    text: Chair changed to Darren Dukes, Kiran Makhijani from Darren Dukes, Kiran Makhijani, Marc Blanchet
+    url: https://datatracker.ietf.org/group/snac/history/
   - kind: WG Review
     date: '2022-09-09'
     subject: 'WG Review: Stub Network Auto Configuration for IPv6 (snac)'
@@ -49,6 +59,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2023-07-07'
+    says: start
+    text: Chair changed to Darren Dukes, Kiran Makhijani, Marc Blanchet from Kiran Makhijani, Marc Blanchet
+    url: https://datatracker.ietf.org/group/snac/history/
   - kind: list message
     date: '2023-07-07'
     says: start
@@ -79,6 +94,17 @@ chairs:
     end:
       certainty: exact
       date: '2022-09-06'
+  evidence:
+  - kind: datatracker record
+    date: '2022-06-16'
+    says: start
+    text: Chair changed to Kiran Makhijani, Suresh Krishnan
+    url: https://datatracker.ietf.org/group/snac/history/
+  - kind: datatracker record
+    date: '2022-09-06'
+    says: end
+    text: Chair changed to Kiran Makhijani, Marc Blanchet from Kiran Makhijani, Suresh Krishnan
+    url: https://datatracker.ietf.org/group/snac/history/
 - person: 116706
   name: Kiran Makhijani
   status: confirmed
@@ -90,6 +116,16 @@ chairs:
       certainty: exact
       date: '2024-12-17'
   evidence:
+  - kind: datatracker record
+    date: '2022-06-16'
+    says: start
+    text: Chair changed to Kiran Makhijani, Suresh Krishnan
+    url: https://datatracker.ietf.org/group/snac/history/
+  - kind: datatracker record
+    date: '2024-12-17'
+    says: end
+    text: Chair changed to Darren Dukes, Zhe Lou from Darren Dukes, Kiran Makhijani, Zhe Lou
+    url: https://datatracker.ietf.org/group/snac/history/
   - kind: WG Review
     date: '2022-09-09'
     subject: 'WG Review: Stub Network Auto Configuration for IPv6 (snac)'
@@ -122,6 +158,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2024-11-02'
+    says: start
+    text: Chair changed to Darren Dukes, Kiran Makhijani, Zhe Lou from Darren Dukes, Kiran Makhijani
+    url: https://datatracker.ietf.org/group/snac/history/
   - kind: chair activity
     first: '2024-11-27'
     last: '2024-11-27'

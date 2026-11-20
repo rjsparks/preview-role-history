@@ -34,6 +34,16 @@ chairs:
       certainty: exact
       date: '2019-02-12'
   evidence:
+  - kind: datatracker record
+    date: '2014-08-11'
+    says: start
+    text: Chairs changed to Ned Freed, Tim Draegen
+    url: https://datatracker.ietf.org/group/dmarc/history/
+  - kind: datatracker record
+    date: '2019-02-12'
+    says: end
+    text: Chairs changed to Murray Kucherawy from Barry Leiba, Ned Freed, Tim Draegen
+    url: https://datatracker.ietf.org/group/dmarc/history/
   - kind: WG Action
     date: '2014-08-11'
     subject: 'WG Action: Formed Domain-based Message Authentication, Reporting & Conformance (dmarc)'
@@ -109,6 +119,21 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2016-05-05'
+    says: start
+    text: Chairs changed to Barry Leiba, Ned Freed, Tim Draegen from Ned Freed, Tim Draegen
+    url: https://datatracker.ietf.org/group/dmarc/history/
+  - kind: datatracker record
+    date: '2019-02-12'
+    says: end
+    text: Chairs changed to Murray Kucherawy from Barry Leiba, Ned Freed, Tim Draegen
+    url: https://datatracker.ietf.org/group/dmarc/history/
+  - kind: datatracker record
+    date: '2021-04-15'
+    says: start
+    text: Chair changed to Barry Leiba, Seth Blank from Alexey Melnikov, Seth Blank, Tim Wicinski
+    url: https://datatracker.ietf.org/group/dmarc/history/
   - kind: WG Review
     date: '2018-11-21'
     subject: 'WG Review: Domain-based Message Authentication, Reporting & Conformance (dmarc)'
@@ -180,6 +205,17 @@ chairs:
       certainty: exact
       date: '2021-04-15'
   evidence:
+  - kind: datatracker record
+    date: '2020-03-26'
+    says: start
+    text: Chairs changed to Alexey Melnikov, Seth Blank, Tim Wicinski from Murray Kucherawy, Seth Blank,
+      Tim Wicinski
+    url: https://datatracker.ietf.org/group/dmarc/history/
+  - kind: datatracker record
+    date: '2021-04-15'
+    says: end
+    text: Chair changed to Barry Leiba, Seth Blank from Alexey Melnikov, Seth Blank, Tim Wicinski
+    url: https://datatracker.ietf.org/group/dmarc/history/
   - kind: shepherded
     documents:
     - draft-ietf-dmarc-psd
@@ -194,6 +230,17 @@ chairs:
       certainty: exact
       date: '2020-03-26'
   evidence:
+  - kind: datatracker record
+    date: '2019-02-12'
+    says: start
+    text: Chairs changed to Murray Kucherawy from Barry Leiba, Ned Freed, Tim Draegen
+    url: https://datatracker.ietf.org/group/dmarc/history/
+  - kind: datatracker record
+    date: '2020-03-26'
+    says: end
+    text: Chairs changed to Alexey Melnikov, Seth Blank, Tim Wicinski from Murray Kucherawy, Seth Blank,
+      Tim Wicinski
+    url: https://datatracker.ietf.org/group/dmarc/history/
   - kind: list message
     date: '2019-02-15'
     says: start
@@ -229,6 +276,16 @@ chairs:
       certainty: exact
       date: '2021-04-15'
   evidence:
+  - kind: datatracker record
+    date: '2019-02-12'
+    says: start
+    text: Chairs changed to Murray Kucherawy, Tim Wicinski from Murray Kucherawy
+    url: https://datatracker.ietf.org/group/dmarc/history/
+  - kind: datatracker record
+    date: '2021-04-15'
+    says: end
+    text: Chair changed to Barry Leiba, Seth Blank from Alexey Melnikov, Seth Blank, Tim Wicinski
+    url: https://datatracker.ietf.org/group/dmarc/history/
   - kind: chair activity
     first: '2020-06-13'
     last: '2020-11-19'
@@ -258,6 +315,16 @@ chairs:
       certainty: exact
       date: '2019-02-12'
   evidence:
+  - kind: datatracker record
+    date: '2014-08-11'
+    says: start
+    text: Chairs changed to Ned Freed, Tim Draegen
+    url: https://datatracker.ietf.org/group/dmarc/history/
+  - kind: datatracker record
+    date: '2019-02-12'
+    says: end
+    text: Chairs changed to Murray Kucherawy from Barry Leiba, Ned Freed, Tim Draegen
+    url: https://datatracker.ietf.org/group/dmarc/history/
   - kind: WG Action
     date: '2014-08-11'
     subject: 'WG Action: Formed Domain-based Message Authentication, Reporting & Conformance (dmarc)'
@@ -319,6 +386,16 @@ chairs:
       certainty: exact
       date: '2026-03-20'
   evidence:
+  - kind: datatracker record
+    date: '2020-03-05'
+    says: start
+    text: Chairs changed to Murray Kucherawy, Seth Blank, Tim Wicinski from Murray Kucherawy, Tim Wicinski
+    url: https://datatracker.ietf.org/group/dmarc/history/
+  - kind: datatracker record
+    date: '2026-03-20'
+    says: end
+    text: Chair changed to Barry Leiba from Barry Leiba, Seth Blank
+    url: https://datatracker.ietf.org/group/dmarc/history/
   - kind: WG Review
     date: '2025-05-13'
     subject: 'WG Review: Domain-based Message Authentication, Reporting & Conformance (dmarc)'

@@ -43,6 +43,16 @@ chairs:
       certainty: exact
       date: '2019-09-11'
   evidence:
+  - kind: datatracker record
+    date: '2019-01-28'
+    says: start
+    text: Chairs changed to Adrian Farrel, Dhruv Dhody, Julien Meuric from Julien Meuric, Jonathan Hardwick
+    url: https://datatracker.ietf.org/group/pce/history/
+  - kind: datatracker record
+    date: '2019-09-11'
+    says: end
+    text: Chairs changed to Dhruv Dhody, Julien Meuric from Adrian Farrel, Dhruv Dhody, Julien Meuric
+    url: https://datatracker.ietf.org/group/pce/history/
   - kind: WG Action
     date: '2005-01-12'
     subject: 'WG Action: Path Computation Element (pce)'
@@ -140,6 +150,12 @@ chairs:
     notes:
     - 'Start: listed as chair in meeting minutes (2004-08-01)'
   evidence:
+  - kind: datatracker record
+    date: '2017-08-22'
+    says: end
+    text: Chairs changed to Jonathan Hardwick, Julien Meuric from Jonathan Hardwick, JP Vasseur, Julien
+      Meuric
+    url: https://datatracker.ietf.org/group/pce/history/
   - kind: WG Action
     date: '2005-01-12'
     subject: 'WG Action: Path Computation Element (pce)'
@@ -347,6 +363,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2019-01-28'
+    says: start
+    text: Chairs changed to Adrian Farrel, Dhruv Dhody, Julien Meuric from Julien Meuric, Jonathan Hardwick
+    url: https://datatracker.ietf.org/group/pce/history/
   - kind: WG Review
     date: '2023-12-01'
     subject: 'WG Review: Path Computation Element (pce)'
@@ -401,6 +422,16 @@ chairs:
       certainty: exact
       date: '2019-01-28'
   evidence:
+  - kind: datatracker record
+    date: '2015-10-06'
+    says: start
+    text: Chairs changed to Jonathan Hardwick, JP Vasseur, Julien Meuric from JP Vasseur, Julien Meuric
+    url: https://datatracker.ietf.org/group/pce/history/
+  - kind: datatracker record
+    date: '2019-01-28'
+    says: end
+    text: Chairs changed to Adrian Farrel, Dhruv Dhody, Julien Meuric from Julien Meuric, Jonathan Hardwick
+    url: https://datatracker.ietf.org/group/pce/history/
   - kind: list message
     date: '2015-10-07'
     says: start

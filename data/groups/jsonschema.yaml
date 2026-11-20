@@ -27,6 +27,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2026-04-06'
+    says: start
+    text: Chair changed to Paul Hoffman
+    url: https://datatracker.ietf.org/group/jsonschema/history/
   - kind: WG Review
     date: '2026-04-16'
     subject: 'WG Review: JSON Schema (jsonschema)'

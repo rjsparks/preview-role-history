@@ -34,6 +34,17 @@ chairs:
     end:
       certainty: exact
       date: '2020-01-28'
+  evidence:
+  - kind: datatracker record
+    date: '2019-07-08'
+    says: start
+    text: Chairs changed to Lars Eggert, David Lawrence from David Lawrence
+    url: https://datatracker.ietf.org/group/add/history/
+  - kind: datatracker record
+    date: '2020-01-28'
+    says: end
+    text: Chairs changed to Benjamin Schwartz, David Lawrence from David Lawrence, Lars Eggert
+    url: https://datatracker.ietf.org/group/add/history/
 - person: 116218
   name: Glenn Deen
   status: confirmed
@@ -44,6 +55,11 @@ chairs:
     end:
       certainty: ongoing
   evidence:
+  - kind: datatracker record
+    date: '2020-02-06'
+    says: start
+    text: Chairs changed to David Lawrence, Glenn Deen from Benjamin Schwartz, David Lawrence
+    url: https://datatracker.ietf.org/group/add/history/
   - kind: WG Review
     date: '2020-02-07'
     subject: 'WG Review: Adaptive DNS Discovery (add)'
@@ -62,6 +78,17 @@ chairs:
     end:
       certainty: exact
       date: '2020-02-06'
+  evidence:
+  - kind: datatracker record
+    date: '2020-01-28'
+    says: start
+    text: Chairs changed to Benjamin Schwartz, David Lawrence from David Lawrence, Lars Eggert
+    url: https://datatracker.ietf.org/group/add/history/
+  - kind: datatracker record
+    date: '2020-02-06'
+    says: end
+    text: Chairs changed to David Lawrence, Glenn Deen from Benjamin Schwartz, David Lawrence
+    url: https://datatracker.ietf.org/group/add/history/
 - person: 120845
   name: David Lawrence
   status: confirmed
