@@ -44,45 +44,6 @@ iesg_actions:
     approved the revised charter for the working group.'
 history_url: https://datatracker.ietf.org/group/hybi/history/
 chairs:
-- person: 105907
-  name: Peter Saint-Andre
-  status: unconfirmed
-  periods:
-  - start:
-      certainty: evidence-only
-      not_after: '2009-07-30'
-    end:
-      certainty: between
-      not_before: '2009-07-30'
-      not_after: '2010-01-26'
-    notes:
-    - 'Start: posted an agenda, minutes or interim notice to the group''s list (2009-07-30)'
-    - 'End: posted an agenda, minutes or interim notice to the group''s list (2009-07-30)'
-    - 'End: not named among the chairs in the WG Action that chartered the group (2010-01-26)'
-  evidence:
-  - kind: list message
-    date: '2011-03-30'
-    says: start
-    subject: '[hybi] Change of WG chairs/ADs'
-    url: https://mailarchive.ietf.org/arch/msg/hybi/BmQb43EcJksv5HFU9EPxihWTlyc/
-    excerpt: As Peter is working closely with Joe, Joe agreed to step down as a WG co-chair.
-  - kind: chair activity
-    first: '2009-07-30'
-    last: '2009-07-30'
-    messages: 1
-    examples:
-    - date: '2009-07-30'
-      subject: '[hybi] breakfast BoF minutes'
-      url: https://mailarchive.ietf.org/arch/msg/hybi/m6Vz1JPiTGDO0ngzfEnglxmMaHU/
-  - kind: chartering announcement without them
-    date: '2010-01-26'
-    subject: 'WG Action: BiDirectional or Server-Initiated HTTP (hybi)'
-    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/HdpSL2vabWD6M378tZ9wS6xEayM/
-  - kind: joined the IESG
-    after_meeting: '77'
-    after: '2010-03-21'
-    by_meeting: '78'
-    by: '2010-07-25'
 - person: 107491
   name: Salvatore Loreto
   status: confirmed

@@ -36,10 +36,8 @@ chairs:
       certainty: exact
       date: '2017-09-06'
     end:
-      certainty: announced
-      date: '2021-12-14'
-    notes:
-    - 'End: announced on the group''s list (2021-12-14)'
+      certainty: group-closed
+      date: '2023-02-14'
   evidence:
   - kind: datatracker record
     date: '2017-09-06'
@@ -53,13 +51,6 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/homenet/Xtw-rK_Txa8WkBmdprD4uZK-ooE/
     excerpt: As you are probably aware, Barbara Stark is retiring from her WG chair position after IETF-112
       and I now have ‘mission impossible n++’ to find a new WG chair to assist Stephen Farrel.
-  - kind: list message
-    date: '2021-12-14'
-    says: end
-    subject: '[homenet] Barbara is officially stepping down as homenet and dnssd chair'
-    url: https://mailarchive.ietf.org/arch/msg/homenet/zlupzGllR6vm3B2Y666BBO2bcoE/
-    excerpt: Barbara Stark just contacted me and the Homenet chairs (Stephen Farrel and Kiran Makhijani)
-      with the message that she is ready to step down from her duties as the Homenet co-chair.
   - kind: chair activity
     first: '2018-08-21'
     last: '2018-08-21'
@@ -254,6 +245,13 @@ chairs:
     url: https://mailarchive.ietf.org/arch/msg/homenet/Xtw-rK_Txa8WkBmdprD4uZK-ooE/
     excerpt: As you are probably aware, Barbara Stark is retiring from her WG chair position after IETF-112
       and I now have ‘mission impossible n++’ to find a new WG chair to assist Stephen Farrel.
+  - kind: IESG minutes
+    date: '2021-10-07'
+    says: end
+    subject: IESG narrative minutes, 2021-10-07
+    url: https://datatracker.ietf.org/doc/narrative-minutes-interim-2021-iesg-22-202110071400/
+    excerpt: Barbara Stark is about to retire and has selected Kiran Makhijani as a third co chair, so
+      Barbara can leave whenever she wants and the rest can finalize the remaining document.
   - kind: chair activity
     first: '2017-11-16'
     last: '2021-05-04'
@@ -279,10 +277,8 @@ chairs:
       certainty: exact
       date: '2021-10-05'
     end:
-      certainty: announced
-      date: '2021-12-14'
-    notes:
-    - 'End: announced on the group''s list (2021-12-14)'
+      certainty: group-closed
+      date: '2023-02-14'
   evidence:
   - kind: datatracker record
     date: '2021-10-05'
@@ -290,10 +286,10 @@ chairs:
     text: Chair changed to Barbara Stark, Kiran Makhijani, Stephen Farrell from Barbara Stark, Stephen
       Farrell
     url: https://datatracker.ietf.org/group/homenet/history/
-  - kind: list message
-    date: '2021-12-14'
-    says: end
-    subject: '[homenet] Barbara is officially stepping down as homenet and dnssd chair'
-    url: https://mailarchive.ietf.org/arch/msg/homenet/zlupzGllR6vm3B2Y666BBO2bcoE/
-    excerpt: Barbara Stark just contacted me and the Homenet chairs (Stephen Farrel and Kiran Makhijani)
-      with the message that she is ready to step down from her duties as the Homenet co-chair.
+  - kind: IESG minutes
+    date: '2021-10-07'
+    says: start
+    subject: IESG narrative minutes, 2021-10-07
+    url: https://datatracker.ietf.org/doc/narrative-minutes-interim-2021-iesg-22-202110071400/
+    excerpt: Barbara Stark is about to retire and has selected Kiran Makhijani as a third co chair, so
+      Barbara can leave whenever she wants and the rest can finalize the remaining document.

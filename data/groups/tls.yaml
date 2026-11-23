@@ -423,13 +423,11 @@ chairs:
       certainty: announced
       date: '2005-11-11'
     end:
-      certainty: between
-      not_before: '2008-03-09'
-      not_after: '2008-07-27'
+      certainty: announced
+      date: '2008-02-21'
     notes:
     - 'Start: announced on the group''s list (2005-11-11)'
-    - 'End: requested the group''s session for IETF 71 (2008-03-09)'
-    - 'End: became an Area Director, first serving at IETF 72 (2008-07-27)'
+    - 'End: reported to the IESG in its narrative minutes (2008-02-21)'
   evidence:
   - kind: WG Action
     date: '2006-01-11'
@@ -441,6 +439,12 @@ chairs:
     subject: '[TLS] New Co-Chair/TLS 1.2'
     url: https://mailarchive.ietf.org/arch/msg/tls/u93MLzj7f_uKduoh5JMSbS2yNXA/
     excerpt: Pasi Eronen has agreed to take up this position.
+  - kind: IESG minutes
+    date: '2008-02-21'
+    says: end
+    subject: IESG narrative minutes, 2008-02-21
+    url: https://datatracker.ietf.org/doc/narrative-minutes-interim-2008-iesg-04-200802211630/
+    excerpt: '- need a new co-chair for TLS (replacing Pasi)'
   - kind: chair activity
     first: '2006-05-05'
     last: '2008-02-12'

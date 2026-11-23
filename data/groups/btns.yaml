@@ -152,15 +152,20 @@ chairs:
   status: confirmed
   periods:
   - start:
-      certainty: between
-      not_before: '2004-09-28'
-      not_after: '2007-01-11'
+      certainty: announced
+      date: '2007-01-10'
     end:
       certainty: group-closed
       date: '2010-03-16'
     notes:
-    - 'Start: listed as chair in a proceedings charter snapshot (2007-01-11)'
+    - 'Start: announced on the group''s list (2007-01-10)'
   evidence:
+  - kind: list message
+    date: '2007-01-10'
+    says: start
+    subject: '[anonsec] Please Welcome Julien Laganier as second co-chair'
+    url: https://mailarchive.ietf.org/arch/msg/btns/mcahn86uFtoy1UYGeAks7ivJiLQ/
+    excerpt: I have selected Julien Laganier as the second co-chair of the BTNS working group.
   - kind: chair activity
     first: '2007-12-13'
     last: '2007-12-13'

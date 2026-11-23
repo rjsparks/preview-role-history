@@ -374,12 +374,18 @@ chairs:
       not_before: '2009-07-26'
     notes:
     - 'Start: requested the group''s session for IETF 75 (2009-07-26)'
-    - 'End: announced on the group''s list (2009-06-30)'
+    - 'End: reported to the IESG in its narrative minutes (2009-06-18)'
   evidence:
   - kind: WG Action
     date: '2009-02-24'
     subject: 'WG Action: RECHARTER: Inter-Domain Routing (idr)'
     url: https://mailarchive.ietf.org/arch/msg/ietf-announce/PBG-OH6MbEQhFF_a-_wEmZmIFYI/
+  - kind: IESG minutes
+    date: '2009-06-18'
+    says: end
+    subject: IESG narrative minutes, 2009-06-18
+    url: https://datatracker.ietf.org/doc/narrative-minutes-interim-2009-iesg-12-200906181530/
+    excerpt: Yakov looking to step down as co-chair of IDR -- very core to operation of internet
   - kind: list message
     date: '2009-06-30'
     says: end

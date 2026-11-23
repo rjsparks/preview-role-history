@@ -408,12 +408,25 @@ chairs:
       not_after: '2008-08-21'
     end:
       certainty: announced
-      date: '2012-01-15'
+      date: '2012-01-05'
     notes:
     - 'Start: the group''s record began (2004-01-15)'
     - 'Start: started a last call or adoption call on the group''s list (2008-08-21)'
-    - 'End: announced on the group''s list (2012-01-15)'
+    - 'End: reported to the IESG in its narrative minutes (2012-01-05)'
   evidence:
+  - kind: IESG minutes
+    date: '2011-09-22'
+    says: end
+    subject: IESG narrative minutes, 2011-09-22
+    url: https://datatracker.ietf.org/doc/narrative-minutes-interim-2011-iesg-18-201109221530/
+    excerpt: David Borman, TCPM chair, has to step down because of work time problems.
+  - kind: IESG minutes
+    date: '2012-01-05'
+    says: end
+    subject: IESG narrative minutes, 2012-01-05
+    url: https://datatracker.ietf.org/doc/narrative-minutes-interim-2012-iesg-01-201201051630/
+    excerpt: I'll be replacing David Borman in TCPM by Pasi Sarolahti and Yoshifumi Nishida (if he's not
+      selected by the NomCom), making three chairs.
   - kind: list message
     date: '2012-01-15'
     says: end
