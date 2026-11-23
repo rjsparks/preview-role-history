@@ -10,7 +10,7 @@ areas:
   first: '2024-01-17'
   last: null
 state: active
-started: '2019-10-10'
+started: '2019-10-09'
 closed: null
 bof: true
 never_chartered: false
@@ -21,6 +21,18 @@ bof_sessions:
   url: https://datatracker.ietf.org/meeting/106/session/webtrans/
 became: null
 began_as: []
+iesg_actions:
+- date: '2019-10-09'
+  decision: bof approved
+  url: https://datatracker.ietf.org/doc/minutes-interim-2019-iesg-21-201910091330/
+  excerpt: 'o WebTransport (webtrans) Responsible AD: Barry Leiba Barry Leiba introduced the proposed
+    WEBTRANS BoF and said he thought the group is non-controversial and ... The proposed WEBTRANS BoF
+    was provisionally approved for IETF 106 pending edits to the BoF proposal for a non-WG forming BoF.'
+- date: '2020-03-05'
+  decision: chartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2020-iesg-06-202003051500/
+  excerpt: 'o WebTransport (webtrans) - 1 of 2 Area: ART (Barry Leiba) The IESG approved the charter for
+    the new working group.'
 history_url: https://datatracker.ietf.org/group/webtrans/history/
 chairs:
 - person: 12620

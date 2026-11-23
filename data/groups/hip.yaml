@@ -7,7 +7,7 @@ areas:
   first: '2004-05-18'
   last: '2021-08-23'
 state: conclude
-started: '2004-02-05'
+started: '2004-01-22'
 closed: '2021-08-23'
 bof: false
 never_chartered: false
@@ -15,6 +15,43 @@ chartered: '2004-02-05'
 bof_sessions: []
 became: null
 began_as: []
+iesg_actions:
+- date: '2004-01-22'
+  decision: review
+  url: https://datatracker.ietf.org/doc/minutes-interim-2004-iesg-02-200401221630/
+  excerpt: 'o Host Identity Payload (hip) - 5 of 5 Token: Margaret Wasserman The IESG approved the draft
+    working group charter for IETF review.'
+- date: '2004-02-19'
+  decision: chartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2004-iesg-04-200402191630/
+  excerpt: 'o Host Identity Payload (hip) - 4 of 4 Token: Margaret Wasserman The IESG approved the charter
+    for the new working group.'
+- date: '2006-10-12'
+  decision: review
+  url: https://datatracker.ietf.org/doc/minutes-interim-2006-iesg-21-200610121530/
+  excerpt: 'o Host Identity Protocol (hip) - 1 of 1 Token: Mark Townsley The IESG decided to proceed with
+    IETF review of the revised charter pending edits to the charter to be supplied by Mark Townsley.'
+- date: '2006-10-26'
+  decision: rechartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2006-iesg-22-200610261530/
+  excerpt: 'o Host Identity Protocol (hip) - 1 of 1 Token: Mark Townsley The IESG approved the revised
+    charter for the working group.'
+- date: '2008-07-03'
+  decision: rechartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2008-iesg-13-200807031530/
+  excerpt: 'o Host Identity Protocol (hip) - 1 of 3 Token: Mark Townsley The IESG approved the updated
+    charter for the working group.'
+- date: '2010-07-01'
+  decision: review
+  url: https://datatracker.ietf.org/doc/minutes-interim-2010-iesg-13-201007011530/
+  excerpt: 'o Host Identity Protocol (hip) - 1 of 2 Token: Ralph Droms The IESG decided to proceed with
+    IETF review of the revised charter pending edits to the text of the charter to be supplied by Ralph
+    Droms.'
+- date: '2010-07-15'
+  decision: rechartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2010-iesg-14-201007151530/
+  excerpt: 'o Host Identity Protocol (hip) - 2 of 2 Token: Ralph Droms The IESG approved the revised charter
+    for the working group pending edits to the text of the charter to be provided by Ralph Droms.'
 history_url: https://datatracker.ietf.org/group/hip/history/
 chairs:
 - person: 23057
@@ -23,7 +60,7 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2004-02-05'
+      not_before: '2004-01-22'
       not_after: '2004-03-24'
     end:
       certainty: between
@@ -72,7 +109,7 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2004-02-05'
+      not_before: '2004-01-22'
       not_after: '2004-03-10'
     end:
       certainty: group-closed

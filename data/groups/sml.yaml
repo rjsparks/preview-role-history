@@ -7,7 +7,7 @@ areas:
   first: '2023-02-16'
   last: null
 state: active
-started: '2023-02-16'
+started: '2023-02-01'
 closed: null
 bof: true
 never_chartered: false
@@ -18,6 +18,17 @@ bof_sessions:
   url: https://datatracker.ietf.org/meeting/116/session/sml/
 became: null
 began_as: []
+iesg_actions:
+- date: '2023-02-01'
+  decision: bof approved
+  url: https://datatracker.ietf.org/doc/minutes-interim-2023-iesg-03-202302011700/
+  excerpt: '4. Structured Email (sml) - ART Area Responsible AD: Murray Kucherawy Murray Kucherawy introduced
+    the proposed SML BoF and said that Barry Leiba has been work ... The proposed SML BoF was provisionally
+    approved for IETF 116.'
+- date: '2023-09-21'
+  decision: review
+  url: https://datatracker.ietf.org/doc/minutes-interim-2023-iesg-21-202309211400/
+  excerpt: o Structured Email (sml) The IESG approved the draft WG charter for IETF review.
 history_url: https://datatracker.ietf.org/group/sml/history/
 chairs:
 - person: 21684

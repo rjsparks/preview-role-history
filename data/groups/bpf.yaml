@@ -7,7 +7,7 @@ areas:
   first: '2023-02-16'
   last: null
 state: active
-started: '2023-02-16'
+started: '2023-02-01'
 closed: null
 bof: true
 never_chartered: false
@@ -18,6 +18,18 @@ bof_sessions:
   url: https://datatracker.ietf.org/meeting/116/session/bpf/
 became: null
 began_as: []
+iesg_actions:
+- date: '2023-02-01'
+  decision: bof approved
+  url: https://datatracker.ietf.org/doc/minutes-interim-2023-iesg-03-202302011700/
+  excerpt: '1. BPF/eBPF (bpf) - Internet Area Responsible AD: Erik Kline Erik Kline introduced the proposed
+    BPF/eBPF BoF and said they had run a side meeting at IETF 115. ... The BPF/eBPF proposed BoF was provisionally
+    approved for IETF 116 as a working group forming BoF.'
+- date: '2023-06-22'
+  decision: chartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2023-iesg-14-202306221400/
+  excerpt: 'o BPF/eBPF (bpf) Area: INT (Erik Kline) The IESG approved the charter for the new working
+    group.'
 history_url: https://datatracker.ietf.org/group/bpf/history/
 chairs:
 - person: 106412

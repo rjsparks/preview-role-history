@@ -7,17 +7,29 @@ areas:
   first: '2008-02-19'
   last: '2018-10-18'
 state: conclude
-started: '2008-05-22'
+started: '2008-05-08'
 closed: '2018-10-18'
 bof: true
 never_chartered: false
-chartered: '2008-07-22'
+chartered: '2008-05-22'
 bof_sessions:
 - meeting: '70'
   date: '2007-12-02'
   url: https://datatracker.ietf.org/meeting/70/session/savi/
 became: null
 began_as: []
+iesg_actions:
+- date: '2008-05-08'
+  decision: review
+  url: https://datatracker.ietf.org/doc/minutes-interim-2008-iesg-09-200805081530/
+  excerpt: 'o Source Address Validation Improvements (savi) - 1 of 2 Token: Jari Arkko The IESG approved
+    the draft WG charter for IETF review pending edits from Jari Arkko.'
+- date: '2008-05-22'
+  decision: chartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2008-iesg-10-200805221530/
+  excerpt: 'o Source Address Validation Improvements (savi) - 1 of 2 Token: Jari Arkko The IESG approved
+    the charter for the new working group pending confirmation of working group chairs and additional
+    text for the charter to be prepared by Jari Arkko.'
 history_url: https://datatracker.ietf.org/group/savi/history/
 chairs:
 - person: 13108
@@ -26,13 +38,13 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2008-05-22'
+      not_before: '2008-05-08'
       not_after: '2008-07-25'
     end:
       certainty: announced
       date: '2009-12-17'
     notes:
-    - 'Start: the group''s record began (2008-05-22)'
+    - 'Start: the IESG first took the group up (2008-05-08)'
     - 'Start: named as chair in the WG Action announcement (2008-07-25)'
     - 'End: announced on the group''s list (2009-12-17)'
   evidence:
@@ -71,11 +83,11 @@ chairs:
     end:
       certainty: between
       not_before: '2007-12-02'
-      not_after: '2008-07-25'
+      not_after: '2008-11-05'
     notes:
     - 'Start: listed as chair in meeting minutes (2007-12-02)'
     - 'End: listed as chair in meeting minutes (2007-12-02)'
-    - 'End: not named among the chairs in the WG Action that chartered the group (2008-07-25)'
+    - 'End: not listed among the chairs in a proceedings charter snapshot (2008-11-05)'
   evidence:
   - kind: minutes
     listed_in: 1
@@ -93,10 +105,10 @@ chairs:
     - date: '2008-02-19'
       subject: IETF 72 proceedings charter, as last modified
       url: https://www.ietf.org/proceedings/72/savi.html
-  - kind: chartering announcement without them
-    date: '2008-07-25'
-    subject: 'WG Action: Source Address Validation Improvements (savi)'
-    url: https://mailarchive.ietf.org/arch/msg/ietf-announce/RAzKTjszln6z-SbUSz7m8fsXTZA/
+  - kind: minutes without them
+    date: '2008-11-05'
+    subject: IETF 74 proceedings charter, as last modified
+    url: https://www.ietf.org/proceedings/74/savi.html
 - person: 108396
   name: Christian Vogt
   status: confirmed
@@ -182,7 +194,7 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2008-05-22'
+      not_before: '2008-05-08'
       not_after: '2010-02-16'
     end:
       certainty: group-closed

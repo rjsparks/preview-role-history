@@ -17,7 +17,20 @@ never_chartered: false
 chartered: '2010-03-12'
 bof_sessions: []
 became: null
-began_as: []
+began_as:
+- srp
+iesg_actions:
+- date: '2010-03-04'
+  decision: chartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2010-iesg-05-201003041630/
+  excerpt: 'o SIP Recording (siprec) - 1 of 3 Token: Cullen Jennings The IESG approved the charter for
+    the new working group pending edits to the text of the charter and the addition of working group chairs
+    and mailing list information to be provided by Cullen Jennings.'
+- date: '2014-05-15'
+  decision: rechartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2014-iesg-08-201405151530/
+  excerpt: 'o SIP Recording (siprec) - 1 of 3 Area: RAI (Alissa Cooper) The IESG approved the revised
+    charter for the working group pending the addition of updated milestones to be added by Alissa Cooper.'
 history_url: https://datatracker.ietf.org/group/siprec/history/
 chairs:
 - person: 105805

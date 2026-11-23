@@ -10,14 +10,35 @@ areas:
   first: '2008-03-03'
   last: '2008-04-23'
 state: conclude
-started: null
+started: '2000-01-27'
 closed: '2008-04-23'
 bof: false
 never_chartered: false
-chartered: null
+chartered: '2000-01-27'
 bof_sessions: []
 became: null
 began_as: []
+iesg_actions:
+- date: '2000-01-27'
+  decision: chartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2000-iesg-02-200001271630/
+  excerpt: The IESG tentatively approved creation of the Internationalized Domain Name System (idn) Working
+    Group in the Internet Area of the IETF.
+- date: '2000-06-15'
+  decision: chartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2000-iesg-11-200006151530/
+  excerpt: The IESG approved the new charter for the International Domain Name (idn) WG.
+- date: '2008-02-07'
+  decision: review
+  url: https://datatracker.ietf.org/doc/minutes-interim-2008-iesg-03-200802071630/
+  excerpt: 'o Internationalized Domain Name (idn) Token: Lisa Dusseault The charter for IDN is currently
+    in internal review. When internal review ends, the IES ... When internal review ends, the IESG approved
+    the draft WG charter for IETF review.'
+- date: '2008-02-21'
+  decision: review
+  url: https://datatracker.ietf.org/doc/minutes-interim-2008-iesg-04-200802211630/
+  excerpt: 'o Internationalized Domain Name (idn) - 2 of 2 Token: Lisa Dusseault The IESG approved the
+    draft WG charter for IETF review.'
 history_url: https://datatracker.ietf.org/group/idn/history/
 chairs:
 - person: 5778
@@ -61,13 +82,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2000-01-27'
       not_after: '2000-02-08'
     end:
       certainty: between
       not_before: '2002-03-17'
       not_after: '2008-04-23'
     notes:
+    - 'Start: the IESG first took the group up (2000-01-27)'
     - 'Start: named as chair in the WG Action announcement (2000-02-08)'
     - 'End: listed as chair in meeting minutes (2002-03-17)'
     - 'End: the group closed (2008-04-23)'
@@ -120,13 +143,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2000-01-27'
       not_after: '2000-02-08'
     end:
       certainty: between
       not_before: '2002-03-17'
       not_after: '2008-04-23'
     notes:
+    - 'Start: the IESG first took the group up (2000-01-27)'
     - 'Start: named as chair in the WG Action announcement (2000-02-08)'
     - 'End: listed as chair in meeting minutes (2002-03-17)'
     - 'End: the group closed (2008-04-23)'

@@ -7,7 +7,7 @@ areas:
   first: '2007-02-06'
   last: '2013-02-26'
 state: conclude
-started: '2007-06-07'
+started: '2007-05-24'
 closed: '2013-02-26'
 bof: true
 never_chartered: false
@@ -18,6 +18,29 @@ bof_sessions:
   url: https://datatracker.ietf.org/meeting/68/session/bliss/
 became: null
 began_as: []
+iesg_actions:
+- date: '2007-05-24'
+  decision: review
+  url: https://datatracker.ietf.org/doc/minutes-interim-2007-iesg-09-200705241530/
+  excerpt: 'o Basic Level of Interoperability for SIP Services (bliss) - 2 of 2 Token: Cullen Jennings
+    The IESG approved the draft WG charter for IETF review.'
+- date: '2007-06-07'
+  decision: chartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2007-iesg-10-200706071530/
+  excerpt: 'o Basic Level of Interoperability for SIP Services (bliss) - 2 of 2 Token: Cullen Jennings
+    The IESG approved the charter for the new working group pending edits to the text of the charter prepared
+    by Cullen Jennings.'
+- date: '2012-02-02'
+  decision: review
+  url: https://datatracker.ietf.org/doc/minutes-interim-2012-iesg-03-201202021630/
+  excerpt: 'o Basic Level of Interoperability for SIP Services (bliss) - 2 of 3 Token: Robert Sparks The
+    IESG decided to proceed with IETF review of the revised charter pending edits to be provided by Robert
+    Sparks.'
+- date: '2012-02-16'
+  decision: rechartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2012-iesg-04-201202161630/
+  excerpt: 'o Basic Level of Interoperability for SIP Services (bliss) - 1 of 2 Token: Robert Sparks The
+    IESG approved the revised charter for the working group.'
 history_url: https://datatracker.ietf.org/group/bliss/history/
 chairs:
 - person: 2250
@@ -141,14 +164,14 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2007-06-07'
+      not_before: '2007-05-24'
       not_after: '2007-06-26'
     end:
       certainty: between
       not_before: '2008-02-04'
       not_after: '2009-09-25'
     notes:
-    - 'Start: the group''s record began (2007-06-07)'
+    - 'Start: the IESG first took the group up (2007-05-24)'
     - 'Start: named as chair in the WG Action announcement (2007-06-26)'
     - 'End: posted an agenda, minutes or interim notice to the group''s list (2008-02-04)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2009-09-25)'

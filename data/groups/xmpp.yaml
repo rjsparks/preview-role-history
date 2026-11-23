@@ -10,7 +10,7 @@ areas:
   first: '2015-05-29'
   last: '2015-09-14'
 state: conclude
-started: '2009-05-21'
+started: '2009-05-07'
 closed: '2015-09-14'
 bof: true
 never_chartered: false
@@ -21,6 +21,23 @@ bof_sessions:
   url: https://datatracker.ietf.org/meeting/74/session/xmpp/
 became: null
 began_as: []
+iesg_actions:
+- date: '2009-05-07'
+  decision: review
+  url: https://datatracker.ietf.org/doc/minutes-interim-2009-iesg-09-200905071530/
+  excerpt: 'o Extensible Messaging and Presence Protocol (xmpp) - 3 of 3 Token: Cullen Jennings The IESG
+    approved the draft WG charter for IETF review.'
+- date: '2009-05-21'
+  decision: chartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2009-iesg-10-200905211530/
+  excerpt: 'o Extensible Messaging and Presence Protocol (xmpp) - 2 of 2 Token: Cullen Jennings The IESG
+    approved the charter for the new working group pending additional text for the charter to be prepared
+    by Cullen Jennings.'
+- date: '2013-02-28'
+  decision: rechartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2013-iesg-05-201302281630/
+  excerpt: 'o Extensible Messaging and Presence Protocol (xmpp) - 1 of 1 Area: RAI (Robert Sparks) The
+    IESG approved the updated charter for the working group.'
 history_url: https://datatracker.ietf.org/group/xmpp/history/
 chairs:
 - person: 12695
@@ -28,13 +45,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2009-05-07'
       not_after: '2009-05-21'
     end:
       certainty: between
       not_before: '2009-05-21'
       not_after: '2009-05-29'
     notes:
+    - 'Start: the IESG first took the group up (2009-05-07)'
     - 'Start: listed as chair in a proceedings charter snapshot (2009-05-21)'
     - 'End: not named among the chairs in the WG Action that chartered the group (2009-05-29)'
   evidence:
@@ -56,14 +75,14 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2009-05-21'
+      not_before: '2009-05-07'
       not_after: '2009-05-29'
     end:
       certainty: between
       not_before: '2010-03-21'
       not_after: '2010-04-01'
     notes:
-    - 'Start: the group''s record began (2009-05-21)'
+    - 'Start: the IESG first took the group up (2009-05-07)'
     - 'Start: named as chair in the WG Action announcement (2009-05-29)'
     - 'End: requested the group''s session for IETF 77 (2010-03-21)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2010-04-01)'
@@ -202,13 +221,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2009-05-07'
       not_after: '2009-05-21'
     end:
       certainty: between
       not_before: '2009-05-21'
       not_after: '2009-05-29'
     notes:
+    - 'Start: the IESG first took the group up (2009-05-07)'
     - 'Start: listed as chair in a proceedings charter snapshot (2009-05-21)'
     - 'End: not named among the chairs in the WG Action that chartered the group (2009-05-29)'
   evidence:
@@ -230,7 +251,7 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2009-05-21'
+      not_before: '2009-05-07'
       not_after: '2009-05-29'
     end:
       certainty: group-closed

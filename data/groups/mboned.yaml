@@ -7,7 +7,7 @@ areas:
   first: '1997-04-07'
   last: null
 state: active
-started: '1996-08-26'
+started: '1996-08-22'
 closed: null
 bof: true
 never_chartered: false
@@ -18,6 +18,32 @@ bof_sessions:
   url: https://www.ietf.org/proceedings/36/OLD/toc-96jun.html
 became: null
 began_as: []
+iesg_actions:
+- date: '1996-08-22'
+  decision: chartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-1996-iesg-14-199608221530/
+  excerpt: The IESG approved the formation of the MBONE Deployment (mboned) WG in the Operational Requirements
+    Area.
+- date: '1999-05-20'
+  decision: rechartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-1999-iesg-09-199905201530/
+  excerpt: As the new charter and milestones for mboned was included in the Telechat package, the IESG
+    approved the revised charter and milestones for the MBONE Deployment (mboned) with a one-liner added
+    to note that this was not to be a protocol development working group.
+- date: '2004-01-08'
+  decision: rechartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2004-iesg-01-200401081630/
+  excerpt: 'o MBONE Deployment (mboned) - 1 of 1 Token: Bert Wijnen The IESG approved the updated charter
+    for the working group, pending revised text to be provided by Bert Wijnen.'
+- date: '2013-10-24'
+  decision: rechartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2013-iesg-20-201310241530/
+  excerpt: 'o MBONE Deployment (mboned) - 2 of 2 Area: OPS (Joel Jaeggli) The IESG approved the revised
+    charter for the working group.'
+- date: '2025-07-10'
+  decision: rechartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2025-iesg-14-202507101400/
+  excerpt: o MBONE Deployment (mboned) The IESG approved the revised charter for the working group.
 history_url: https://datatracker.ietf.org/group/mboned/history/
 chairs:
 - person: 19297
@@ -25,12 +51,14 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '1996-08-22'
       not_after: '2006-03-13'
     end:
       certainty: announced
       date: '2009-01-27'
     notes:
+    - 'Start: the IESG first took the group up (1996-08-22)'
     - 'Start: listed as chair in a proceedings charter snapshot (2006-03-13)'
     - 'End: announced on the group''s list (2009-01-27)'
   evidence:
@@ -102,13 +130,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '1996-08-22'
       not_after: '1997-04-07'
     end:
       certainty: between
       not_before: '2005-11-06'
       not_after: '2006-03-13'
     notes:
+    - 'Start: the IESG first took the group up (1996-08-22)'
     - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
     - 'End: listed as chair in meeting minutes (2005-11-06)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2006-03-13)'
@@ -327,13 +357,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '1996-08-22'
       not_after: '2006-03-13'
     end:
       certainty: between
       not_before: '2010-03-21'
       not_after: '2010-03-30'
     notes:
+    - 'Start: the IESG first took the group up (1996-08-22)'
     - 'Start: listed as chair in a proceedings charter snapshot (2006-03-13)'
     - 'End: listed as chair in meeting minutes (2010-03-21)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2010-03-30)'

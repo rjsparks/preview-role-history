@@ -7,7 +7,7 @@ areas:
   first: '2011-12-09'
   last: '2015-05-22'
 state: conclude
-started: '2011-06-14'
+started: '2011-04-14'
 closed: '2015-05-22'
 bof: true
 never_chartered: false
@@ -21,6 +21,23 @@ bof_sessions:
   url: https://www.ietf.org/proceedings/80/paws.html
 became: null
 began_as: []
+iesg_actions:
+- date: '2011-04-14'
+  decision: review
+  url: https://datatracker.ietf.org/doc/minutes-interim-2011-iesg-07-201104141530/
+  excerpt: 'o Protocol to Access WS database (paws) - 2 of 2 Token: Dan Romascanu The IESG approved the
+    draft WG charter for IETF review.'
+- date: '2011-06-09'
+  decision: chartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2011-iesg-11-201106091530/
+  excerpt: 'o Protocol to Access WS database (paws) - 1 of 2 Token: Peter Saint-Andre The IESG approved
+    the charter for the new working group pending the addition of chairs and edits to the text of the
+    charter to be provided by Peter Saint-Andre.'
+- date: '2012-05-24'
+  decision: rechartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2012-iesg-10-201205241530/
+  excerpt: '4.2.1 Under Evaluation for IETF Review o Protocol to Access WS database (paws) - 1 of 1 Token:
+    Pete Resnick The IESG approved the updated charter for the working group.'
 history_url: https://datatracker.ietf.org/group/paws/history/
 chairs:
 - person: 106987

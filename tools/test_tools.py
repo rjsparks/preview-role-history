@@ -532,6 +532,28 @@ class ChartingAnnouncementTests(DataDirMixin, unittest.TestCase):
                       (out / "groups" / "oauth.html").read_text())
 
 
+class IesgActionTests(DataDirMixin, unittest.TestCase):
+    def test_iesg_decisions_are_listed_with_links(self):
+        self.write_people(PEOPLE)
+        g = group(acronym="can", state="replaced", never_chartered=True, bof=True, chairs=[])
+        g["iesg_actions"] = [
+            {"date": "2023-02-01", "decision": "bof approved", "url": "https://datatracker.ietf.org/doc/minutes-a/"},
+            {"date": "2023-03-02", "decision": "chartered", "renamed_to": "cats", "url": "https://datatracker.ietf.org/doc/minutes-b/"}]
+        self.write_group(g, "can")
+        self.assertEqual(self.problems(), [])
+        out = self.root / "site"
+        render.Site(cd.load(self.data), out, "example/chairs").build(Path(__file__).parent.parent / "site")
+        page = (out / "groups" / "can.html").read_text()
+        self.assertIn('IESG decisions in its telechat minutes: <a href="https://datatracker.ietf.org/doc/minutes-a/">BOF approved, '
+                      '2023-02-01</a>; <a href="https://datatracker.ietf.org/doc/minutes-b/">charter approved as cats, 2023-03-02</a>.', page)
+
+    def test_iesg_actions_need_dates(self):
+        self.write_people(PEOPLE)
+        g = group(chairs=[]); g["iesg_actions"] = [{"decision": "chartered"}]
+        self.write_group(g)
+        self.assertTrue(any("`iesg_actions` must be" in m for m in self.problems()))
+
+
 class SuccessionTests(DataDirMixin, unittest.TestCase):
     def build(self):
         out = self.root / "site"

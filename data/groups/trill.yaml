@@ -10,7 +10,7 @@ areas:
   first: '2015-03-26'
   last: '2018-03-19'
 state: conclude
-started: '2005-06-15'
+started: '2005-06-09'
 closed: '2018-03-19'
 bof: false
 never_chartered: false
@@ -18,6 +18,47 @@ chartered: '2005-06-23'
 bof_sessions: []
 became: null
 began_as: []
+iesg_actions:
+- date: '2005-06-09'
+  decision: review
+  url: https://datatracker.ietf.org/doc/minutes-interim-2005-iesg-12-200506091530/
+  excerpt: '4.1.2 Proposed for IETF Approval Transparent Interconnection of Lots of Links (trill) - 1
+    of 1 Token: Margaret Wasserman The IESG decided that the proposed charter for the working group had
+    changed significantly, and that it needed to be resent for IETF review pending edits to the text of
+    the charte'
+- date: '2005-06-23'
+  decision: chartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2005-iesg-13-200506231530/
+  excerpt: 'o Transparent Interconnection of Lots of Links (trill) - 2 of 3 Token: Margaret Wasserman
+    The IESG approved the charter for the new working group.'
+- date: '2010-07-15'
+  decision: review
+  url: https://datatracker.ietf.org/doc/minutes-interim-2010-iesg-14-201007151530/
+  excerpt: 'o Transparent Interconnection of Lots of Links (trill) - 1 of 1 Token: Ralph Droms The IESG
+    decided to proceed with IETF review of the revised charter pending edits to the text of the charter
+    to be provided by Ralph Droms.'
+- date: '2010-10-07'
+  decision: rechartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2010-iesg-19-201010071530/
+  excerpt: 'o Transparent Interconnection of Lots of Links (trill) - 1 of 1 Token: Ralph Droms The IESG
+    approved the revised charter for the working group pending edits to be provided by Ralph Droms.'
+- date: '2010-12-16'
+  decision: rechartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2010-iesg-24-201012161630/
+  excerpt: 'o Transparent Interconnection of Lots of Links (trill) - 1 of 2 Token: Ralph Droms The IESG
+    approved the revised charter for the working group pending edits to the text of the charter to be
+    provided by Ralph Droms.'
+- date: '2013-07-18'
+  decision: review
+  url: https://datatracker.ietf.org/doc/minutes-interim-2013-iesg-14-201307181530/
+  excerpt: '4.2.1 Under Evaluation for IETF Review o Transparent Interconnection of Lots of Links (trill)
+    Area: INT (Ted Lemon) The IESG decided to proceed with IETF review of the revised charter.'
+- date: '2013-08-15'
+  decision: rechartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2013-iesg-15-201308151530/
+  excerpt: 'o Transparent Interconnection of Lots of Links (trill) - 1 of 1 Area: INT (Ted Lemon) The
+    IESG approved the revised charter for the working group pending edits to the text of the charter to
+    be provided by Ted Lemon.'
 history_url: https://datatracker.ietf.org/group/trill/history/
 chairs:
 - person: 3056
@@ -214,7 +255,7 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2005-06-15'
+      not_before: '2005-06-09'
       not_after: '2006-01-31'
     end:
       certainty: exact

@@ -13,7 +13,7 @@ areas:
   first: '2024-01-17'
   last: null
 state: active
-started: '2011-06-28'
+started: '2011-06-09'
 closed: null
 bof: true
 never_chartered: false
@@ -27,6 +27,38 @@ bof_sessions:
   url: https://www.ietf.org/proceedings/80/cdni.html
 became: null
 began_as: []
+iesg_actions:
+- date: '2011-06-09'
+  decision: review
+  url: https://datatracker.ietf.org/doc/minutes-interim-2011-iesg-11-201106091530/
+  excerpt: 'o Content Delivery Networks Interconnection (cdni) - 1 of 1 Token: David Harrington The IESG
+    approved the draft WG charter for IETF review.'
+- date: '2011-06-23'
+  decision: chartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2011-iesg-12-201106231530/
+  excerpt: 'o Content Delivery Networks Interconnection (cdni) - 1 of 1 Token: David Harrington The IESG
+    approved the charter for the new working group.'
+- date: '2013-11-21'
+  decision: review
+  url: https://datatracker.ietf.org/doc/minutes-interim-2013-iesg-21-201311211630/
+  excerpt: 'o Content Delivery Networks Interconnection (cdni) - 2 of 2 Area: TSV (Spencer Dawkins) The
+    IESG decided to proceed with IETF review of the revised charter pending edits to the text to be supplied
+    by Spencer Dawkins.'
+- date: '2013-12-05'
+  decision: rechartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2013-iesg-22-201312051630/
+  excerpt: 'o Content Delivery Networks Interconnection (cdni) - 2 of 2 Area: TSV (Spencer Dawkins) The
+    IESG approved the updated charter for the working group.'
+- date: '2025-09-25'
+  decision: review
+  url: https://datatracker.ietf.org/doc/minutes-interim-2025-iesg-19-202509251400/
+  excerpt: o Content Delivery Networks Interconnection (cdni) The IESG decided to proceed with IETF review
+    of the revised charter.
+- date: '2025-10-09'
+  decision: rechartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2025-iesg-20-202510091400/
+  excerpt: o Content Delivery Networks Interconnection (cdni) The IESG approved the revised charter for
+    the working group pending a final check to be provided by Gorry Fairhurst.
 history_url: https://datatracker.ietf.org/group/cdni/history/
 chairs:
 - person: 2690

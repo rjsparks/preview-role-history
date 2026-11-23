@@ -7,7 +7,7 @@ areas:
   first: '1997-04-07'
   last: '2003-12-03'
 state: conclude
-started: '1997-01-29'
+started: '1997-01-23'
 closed: '2003-12-03'
 bof: true
 never_chartered: false
@@ -21,6 +21,15 @@ bof_sessions:
   url: https://www.ietf.org/proceedings/37/index.html
 became: null
 began_as: []
+iesg_actions:
+- date: '1997-01-23'
+  decision: chartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-1997-iesg-02-199701231630/
+  excerpt: The IESG approved creation of the UniDirectional Link Routing (udlr) in the Routing Area.
+- date: '2001-09-06'
+  decision: rechartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2001-iesg-16-200109061530/
+  excerpt: The IESG approved the recharter of the UniDirectional Link Routing (udlr) Working Group.
 history_url: https://datatracker.ietf.org/group/udlr/history/
 chairs:
 - person: 3169
@@ -28,13 +37,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '1997-01-23'
       not_after: '1997-04-07'
     end:
       certainty: between
       not_before: '2001-08-05'
       not_after: '2001-12-05'
     notes:
+    - 'Start: the IESG first took the group up (1997-01-23)'
     - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
     - 'End: listed as chair in meeting minutes (2001-08-05)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2001-12-05)'
@@ -76,13 +87,15 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '1997-01-23'
       not_after: '1997-04-07'
     end:
       certainty: between
       not_before: '2001-08-05'
       not_after: '2001-12-05'
     notes:
+    - 'Start: the IESG first took the group up (1997-01-23)'
     - 'Start: listed as chair in a proceedings charter snapshot (1997-04-07)'
     - 'End: listed as chair in meeting minutes (2001-08-05)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2001-12-05)'

@@ -17,7 +17,14 @@ bof_sessions:
   date: '2002-03-17'
   url: https://www.ietf.org/proceedings/53/236.htm
 became: null
-began_as: []
+began_as:
+- can
+iesg_actions:
+- date: '2023-03-02'
+  decision: chartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2023-iesg-06-202303021500/
+  excerpt: 'o Computing-Aware Networking (can) Area: RTG (John Scudder) The IESG approved the charter
+    for the new working group using the name Computing-Aware Traffic Steering (cats).'
 history_url: https://datatracker.ietf.org/group/cats/history/
 chairs:
 - person: 104198

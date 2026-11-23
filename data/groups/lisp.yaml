@@ -10,7 +10,7 @@ areas:
   first: '2015-03-26'
   last: null
 state: active
-started: '2009-04-27'
+started: '2009-03-12'
 closed: null
 bof: true
 never_chartered: false
@@ -21,6 +21,42 @@ bof_sessions:
   url: https://datatracker.ietf.org/meeting/74/session/lisp/
 became: null
 began_as: []
+iesg_actions:
+- date: '2009-03-12'
+  decision: review
+  url: https://datatracker.ietf.org/doc/minutes-interim-2009-iesg-06-200903121530/
+  excerpt: 'o Locator/ID Separation Protocol (lisp) - 1 of 3 Token: Jari Arkko The IESG approved the draft
+    WG charter for IETF review pending edits to be provided by Jari Arkko.'
+- date: '2009-04-23'
+  decision: chartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2009-iesg-08-200904231530/
+  excerpt: 'Locator/ID Separation Protocol (lisp) - 2 of 3 Token: Jari Arkko The IESG approved the charter
+    for the new working group pending edits to the charter to be prepared by Jari Arkko.'
+- date: '2012-01-05'
+  decision: review
+  url: https://datatracker.ietf.org/doc/minutes-interim-2012-iesg-01-201201051630/
+  excerpt: 'o Locator/ID Separation Protocol (lisp) - 2 of 5 Token: Jari Arkko The IESG decided to proceed
+    with IETF review of the revised charter pending edits to the text to be provided by Jari Arkko.'
+- date: '2012-01-19'
+  decision: review
+  url: https://datatracker.ietf.org/doc/minutes-interim-2012-iesg-02-201201191630/
+  excerpt: 'o Locator/ID Separation Protocol (lisp) - 1 of 2 Token: Jari Arkko The IESG decided to proceed
+    with IETF review of the revised charter pending edits to the text to be provided by Jari Arkko.'
+- date: '2012-03-15'
+  decision: rechartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2012-iesg-06-201203151530/
+  excerpt: 'o Locator/ID Separation Protocol (lisp) - 1 of 2 Token: Jari Arkko The IESG approved the revised
+    charter for the working group pending edits to the text of the charter to be provided by Jari Arkko.'
+- date: '2016-04-21'
+  decision: rechartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2016-iesg-07-201604211400/
+  excerpt: 'o Locator/ID Separation Protocol (lisp) - 1 of 1 Area: RTG (Deborah Brungard) The IESG approved
+    the updated charter for the working group pending edits to be provided by Deborah Brungard.'
+- date: '2023-11-30'
+  decision: review
+  url: https://datatracker.ietf.org/doc/minutes-interim-2023-iesg-25-202311301500/
+  excerpt: o Locator/ID Separation Protocol (lisp) The IESG decided to proceed with IETF review of the
+    revised charter pending edits to the text of the charter to be provided by Jim Guichard.
 history_url: https://datatracker.ietf.org/group/lisp/history/
 chairs:
 - person: 2764
@@ -466,12 +502,14 @@ chairs:
   status: unconfirmed
   periods:
   - start:
-      certainty: evidence-only
+      certainty: between
+      not_before: '2009-03-12'
       not_after: '2009-04-06'
     end:
       certainty: announced
       date: '2009-11-30'
     notes:
+    - 'Start: the IESG first took the group up (2009-03-12)'
     - 'Start: posted an agenda, minutes or interim notice to the group''s list (2009-04-06)'
     - 'End: announced on the group''s list (2009-11-30)'
   evidence:

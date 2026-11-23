@@ -7,7 +7,7 @@ areas:
   first: '2004-10-20'
   last: '2012-11-14'
 state: conclude
-started: '2004-11-23'
+started: '2004-10-28'
 closed: '2012-11-14'
 bof: true
 never_chartered: false
@@ -18,6 +18,37 @@ bof_sessions:
   url: https://www.ietf.org/proceedings/41/98mar-edited-43.htm
 became: null
 began_as: []
+iesg_actions:
+- date: '2004-10-28'
+  decision: review
+  url: https://datatracker.ietf.org/doc/minutes-interim-2004-iesg-20-200410281530/
+  excerpt: 'o Sieve Mail Filtering Language (sieve) - 1 of 1 Token: Scott Hollenbeck The IESG approved
+    the draft WG charter for IETF review.'
+- date: '2004-11-18'
+  decision: chartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2004-iesg-21-200411181630/
+  excerpt: 'o Sieve Mail Filtering Language (sieve) - 1 of 1 Token: Scott Hollenbeck The IESG approved
+    the charter for the new working group.'
+- date: '2008-07-17'
+  decision: review
+  url: https://datatracker.ietf.org/doc/minutes-interim-2008-iesg-14-200807171530/
+  excerpt: 'o Sieve Mail Filtering Language (sieve) - 1 of 1 Token: Lisa Dusseault The IESG decided to
+    proceed with IETF review of the revised charter.'
+- date: '2008-08-28'
+  decision: rechartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2008-iesg-16-200808281530/
+  excerpt: 'o Sieve Mail Filtering Language (sieve) - 1 of 2 Token: Lisa Dusseault The IESG approved the
+    revised charter for the working group pending edits to be supplied by Lisa Dusseault.'
+- date: '2010-05-20'
+  decision: review
+  url: https://datatracker.ietf.org/doc/minutes-interim-2010-iesg-10-201005201530/
+  excerpt: 'o Sieve Mail Filtering Language (sieve) - 1 of 2 Token: Alexey Melnikov The IESG decided to
+    proceed with IETF review of the revised charter.'
+- date: '2010-06-03'
+  decision: rechartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2010-iesg-11-201006031530/
+  excerpt: 'o Sieve Mail Filtering Language (sieve) - 1 of 2 Token: Alexey Melnikov The IESG approved
+    the revised charter for the working group.'
 history_url: https://datatracker.ietf.org/group/sieve/history/
 chairs:
 - person: 4397
@@ -87,7 +118,7 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2004-11-23'
+      not_before: '2004-10-28'
       not_after: '2004-11-25'
     end:
       certainty: group-closed
@@ -162,14 +193,14 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2004-11-23'
+      not_before: '2004-10-28'
       not_after: '2004-11-25'
     end:
       certainty: between
       not_before: '2009-03-22'
       not_after: '2009-03-27'
     notes:
-    - 'Start: the group''s record began (2004-11-23)'
+    - 'Start: the IESG first took the group up (2004-10-28)'
     - 'Start: named as chair in the WG Action announcement (2004-11-25)'
     - 'End: requested the group''s session for IETF 74 (2009-03-22)'
     - 'End: not listed among the chairs in a proceedings charter snapshot (2009-03-27)'
@@ -254,7 +285,7 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '2004-11-23'
+      not_before: '2004-10-28'
       not_after: '2009-03-27'
     end:
       certainty: group-closed

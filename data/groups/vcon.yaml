@@ -7,7 +7,7 @@ areas:
   first: '2023-02-16'
   last: null
 state: active
-started: '2023-02-16'
+started: '2023-02-01'
 closed: null
 bof: true
 never_chartered: false
@@ -21,6 +21,14 @@ bof_sessions:
   url: https://datatracker.ietf.org/meeting/118/session/vcon/
 became: null
 began_as: []
+iesg_actions:
+- date: '2023-02-01'
+  decision: bof approved
+  url: https://datatracker.ietf.org/doc/minutes-interim-2023-iesg-03-202302011700/
+  excerpt: 'On the February 16, 2023 IESG Teleconference, the IESG approved KEYTRANS as a BoF for IETF
+    116. 7. vCon (vcon) - ART Area Responsible AD: Murray Kucherawy Francesca Palombini introduced the
+    proposed VCON BoF and said the work was presented in DISPATCH and it was suggested a working group-forming
+    BoF'
 history_url: https://datatracker.ietf.org/group/vcon/history/
 chairs:
 - person: 106987

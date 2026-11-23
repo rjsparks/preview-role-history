@@ -7,7 +7,7 @@ areas:
   first: '1997-04-07'
   last: '2004-02-19'
 state: conclude
-started: '1997-03-24'
+started: '1997-03-20'
 closed: '2004-02-19'
 bof: true
 never_chartered: false
@@ -18,6 +18,12 @@ bof_sessions:
   url: https://www.ietf.org/proceedings/37/app/tn3270e.html
 became: null
 began_as: []
+iesg_actions:
+- date: '1997-03-20'
+  decision: chartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-1997-iesg-06-199703201630/
+  excerpt: The IESG approved creation of the Telnet TN3270 Enhancements (tn3270e) Working Group in the
+    Applications Area of the IETF.
 history_url: https://datatracker.ietf.org/group/tn3270e/history/
 chairs:
 - person: 21235
@@ -26,7 +32,7 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '1997-03-24'
+      not_before: '1997-03-20'
       not_after: '1997-08-11'
     end:
       certainty: group-closed

@@ -19,8 +19,28 @@ bof_sessions:
 - meeting: '115'
   date: '2022-11-05'
   url: https://datatracker.ietf.org/meeting/115/session/can/
-became: null
+became:
+  group: cats
+  how: the IESG chartered it under that name
 began_as: []
+iesg_actions:
+- date: '2023-02-01'
+  decision: bof approved
+  url: https://datatracker.ietf.org/doc/minutes-interim-2023-iesg-03-202302011700/
+  excerpt: '3. Computing-Aware Networking (can) - Routing Area Responsible AD: John Scudder John Scudder
+    introduced the proposed CAN BoF and said the group is currently i ... The CAN BoF was provisionally
+    approved for IETF 116.'
+- date: '2023-02-16'
+  decision: review
+  url: https://datatracker.ietf.org/doc/minutes-interim-2023-iesg-05-202302161500/
+  excerpt: 'o Computing-Aware Networking (can) Area: RTG (John Scudder) The IESG approved the draft WG
+    charter for IETF review pending edits to the text of the charter to be provided by John Scudder.'
+- date: '2023-03-02'
+  decision: chartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-2023-iesg-06-202303021500/
+  renamed_to: cats
+  excerpt: 'o Computing-Aware Networking (can) Area: RTG (John Scudder) The IESG approved the charter
+    for the new working group using the name Computing-Aware Traffic Steering (cats).'
 history_url: https://datatracker.ietf.org/group/can/history/
 chairs:
 - person: 104198

@@ -7,7 +7,7 @@ areas:
   first: '1995-07-17'
   last: '1998-04-28'
 state: conclude
-started: '1995-08-04'
+started: '1995-08-03'
 closed: '1998-04-28'
 bof: true
 never_chartered: false
@@ -18,6 +18,12 @@ bof_sessions:
   url: https://www.ietf.org/proceedings/33/area.and.wg.reports/app/area.applications.95jul.txt
 became: null
 began_as: []
+iesg_actions:
+- date: '1995-08-03'
+  decision: chartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-1995-iesg-12-199508031530/
+  excerpt: The IESG approved the creation of the Receipt Notifications for Internet Mail (receipt) Working
+    Group in the Applications Area.
 history_url: https://datatracker.ietf.org/group/receipt/history/
 chairs:
 - person: 4397

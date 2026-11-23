@@ -94,6 +94,11 @@ chairs:
   BOF's last meeting. `began_as` lists, on the WG, the groups whose `became` names it.
   `became: null` means nothing we have shows a successor, not that there was none. Add one
   under `overrides`, or report it with the "A BOF went on as another group" issue form.
+- **Group field** `iesg_actions` lists the IESG's decisions about the group found in its telechat
+  minutes (1991 on): BOF approved, charter sent for IETF review, charter approved (possibly under
+  another name, `renamed_to`), revised charter approved, closing agreed, each with the date, a
+  link to the minutes and the passage. They date groups' chartering and start where the
+  datatracker's own records are missing or late.
 - **Groups the datatracker doesn't know about.** Some early groups and BOFs never made it
   into the datatracker, and we collect their chairs anyway. Add a file for one with
   `datatracker: false`, a `type` of `bof`, `wg` or `rg`, its `state` as best known (or

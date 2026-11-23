@@ -13,8 +13,18 @@ bof: true
 never_chartered: true
 chartered: null
 bof_sessions: []
-became: null
+became:
+  group: siprec
+  how: the IESG chartered it under that name
 began_as: []
+iesg_actions:
+- date: '2010-02-18'
+  decision: review
+  url: https://datatracker.ietf.org/doc/minutes-interim-2010-iesg-04-201002181630/
+  renamed_to: siprec
+  excerpt: '4.1.1 Proposed for IETF Review o Session Recording Protocol (srp) - 1 of 2 Token: Cullen Jennings
+    The IESG approved the draft WG charter for IETF review as "SIP Recording (SIPREC)." The Secretariat
+    will send a WG Review announcement, with a separate message to.'
 history_url: https://datatracker.ietf.org/group/srp/history/
 chairs:
 - person: 103778

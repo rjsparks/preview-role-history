@@ -95,6 +95,12 @@ def check(data):
                 bad("`became` must be null or {group, how}: the acronym of the group this one went on as")
             elif became["group"].lower() not in {a.lower() for a in data.groups} or became["group"].lower() == acronym.lower():
                 bad(f"`became` names {became['group']!r}, which is not another group here")
+        actions = g.get("iesg_actions")
+        if actions is not None and not (isinstance(actions, list) and all(
+                isinstance(a, dict) and a.get("date") is not None and cd.valid_date(cd.norm_date(a["date"]))
+                and isinstance(a.get("decision"), str)
+                for a in actions)):
+            bad("`iesg_actions` must be a list of {date, decision, url}")
         if g.get("began_as") is not None and not (isinstance(g["began_as"], list) and all(isinstance(a, str) for a in g["began_as"])):
             bad("`began_as` must be a list of acronyms")
         if g.get("chartered") is not None and not cd.valid_date(cd.norm_date(g["chartered"])):

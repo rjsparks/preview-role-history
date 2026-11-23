@@ -371,6 +371,7 @@ Dates marked <span class="q">?</span> are not exact; <a href="#dates">reading th
 {self.areas_text(g)}
 {self.group_links(g)}</p>
 {('<p>' + self.bof_history(g) + '</p>') if self.bof_history(g) else ''}
+{('<p class="iesg">' + self.iesg_text(g) + '</p>') if self.iesg_text(g) else ''}
 <p>Know who chaired {e(acronym)} and when? <a class="act" href="{e(missing)}">Tell us about a missing chair</a>,
 or use the links on each row. Dates marked <span class="q">?</span> are not exact;
 <a href="#dates">reading the dates</a> explains each form.</p>
@@ -527,6 +528,28 @@ Each opens a short GitHub issue form, already filled in with the row you clicked
                 return f"since {a}"
             return a if a == b else f"{a}–{b}"
         return "Areas: " + ", then ".join(f"{e(r['area'])} ({years(r, i == len(runs) - 1)})" for i, r in enumerate(runs)) + "."
+
+    IESG_DECISIONS = {
+        "bof approved": "BOF approved",
+        "review": "charter sent for IETF review",
+        "chartered": "charter approved",
+        "rechartered": "revised charter approved",
+        "concluded": "closing agreed",
+    }
+
+    def iesg_text(self, g):
+        """The IESG's decisions about the group, from its telechat minutes, each linked to the minutes."""
+        actions = [a for a in g.get("iesg_actions") or [] if isinstance(a, dict) and a.get("date") and a.get("decision")]
+        if not actions:
+            return ""
+        parts = []
+        for a in actions:
+            what = self.IESG_DECISIONS.get(a["decision"], a["decision"])
+            if a.get("renamed_to"):
+                what += f" as {a['renamed_to']}"
+            label = f"{e(what)}, {e(a['date'])}"
+            parts.append(f'<a href="{e(a["url"])}">{label}</a>' if a.get("url") else label)
+        return "IESG decisions in its telechat minutes: " + "; ".join(parts) + "."
 
     def bof_history(self, g):
         sessions = g.get("bof_sessions") or []

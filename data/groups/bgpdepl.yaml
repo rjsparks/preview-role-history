@@ -4,10 +4,10 @@ type: wg
 parent: ops-old
 areas:
 - area: ops-old
-  first: '1992-04-01'
+  first: '1992-03-05'
   last: '1994-03-07'
 state: conclude
-started: '1992-04-01'
+started: '1992-03-05'
 closed: '1994-03-07'
 bof: false
 never_chartered: false
@@ -15,6 +15,13 @@ chartered: '1992-04-01'
 bof_sessions: []
 became: null
 began_as: []
+iesg_actions:
+- date: '1992-03-05'
+  decision: chartered
+  url: https://datatracker.ietf.org/doc/minutes-interim-1992-iesg-05-199203051700/
+  excerpt: 7.3 BGP Deployment (bgpdepl) The IESG discussed the BGP Deployment charter. The IESG agreed
+    that the mailing list should be separate from the IWG mailing list. ... The charter was approved pending
+    the submission of a new working group mailing list.
 history_url: https://datatracker.ietf.org/group/bgpdepl/history/
 chairs:
 - person: 3438
@@ -23,7 +30,7 @@ chairs:
   periods:
   - start:
       certainty: between
-      not_before: '1992-04-01'
+      not_before: '1992-03-05'
       not_after: '1994-03-07'
     end:
       certainty: group-closed
