@@ -196,6 +196,13 @@ class Site:
                     lead = "Group list message naming a new sole chair, so the other chairs' terms ended"
                 quote = f"<br><q>{e(ev.get('excerpt'))}</q>" if ev.get("excerpt") else ""
                 items.append(f"<li>{e(lead)}, {e(ev.get('date'))}: {subject}{quote}</li>")
+            elif kind == "IESG minutes":
+                subject = f"“{e(ev.get('subject'))}”"
+                if ev.get("url"):
+                    subject = f'<a href="{e(ev["url"])}">{subject}</a>'
+                lead = "Reported to the IESG as " + ("joining" if ev.get("says") == "start" else "leaving")
+                quote = f"<br><q>{e(ev.get('excerpt'))}</q>" if ev.get("excerpt") else ""
+                items.append(f"<li>{e(lead)}, {e(ev.get('date'))}: {subject}{quote}</li>")
             elif kind == "chair activity":
                 examples = ", ".join(
                     f'<a href="{e(x.get("url", ""))}">“{e(x.get("subject"))}”</a> ({e(x.get("date"))})'

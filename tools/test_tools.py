@@ -547,6 +547,18 @@ class IesgActionTests(DataDirMixin, unittest.TestCase):
         self.assertIn('IESG decisions in its telechat minutes: <a href="https://datatracker.ietf.org/doc/minutes-a/">BOF approved, '
                       '2023-02-01</a>; <a href="https://datatracker.ietf.org/doc/minutes-b/">charter approved as cats, 2023-03-02</a>.', page)
 
+    def test_narrative_minutes_reports_are_evidence(self):
+        self.write_people(PEOPLE)
+        g = group(acronym="l3vpn")
+        g["chairs"][0]["evidence"] = [{"kind": "IESG minutes", "date": "2006-03-30", "says": "end",
+                                       "subject": "IESG narrative minutes, 2006-03-30",
+                                       "url": "https://datatracker.ietf.org/doc/narrative-minutes-x/",
+                                       "excerpt": "Ross stepping down as L3VPN co-chair (after moving to IESG)."}]
+        self.write_group(g, "l3vpn")
+        out = self.root / "site"
+        render.Site(cd.load(self.data), out, "example/chairs").build(Path(__file__).parent.parent / "site")
+        self.assertIn("Reported to the IESG as leaving, 2006-03-30", (out / "groups" / "l3vpn.html").read_text())
+
     def test_iesg_actions_need_dates(self):
         self.write_people(PEOPLE)
         g = group(chairs=[]); g["iesg_actions"] = [{"decision": "chartered"}]
